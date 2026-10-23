@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Davros__Dalek_Creator",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 8,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Davros__Dalek_Creator_approved_source_2026-10-14.txt",
+   "raw_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+   "logical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw aa6d2d34…, fetched from canonical encyclopedia main 9b26aa28, blob ee80a621; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash). 34 lands (Island x2, Mountain x3, Swamp x3), average nonland MV 3.185, 24 instants/sorceries, 23 creatures, 5 Game Changers. Commander Spellbook: 0 included combos. The registry's recorded digest equals the raw bytes, so there is no provenance exception. The tracker note's '5c1d4a49' reference is the 10-13 Proposed_Final (11 swaps different) and is documented, not used."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/davros-dalek-creator.txt",
+   "raw_sha256": "c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30",
+   "logical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format, so the raw bytes may differ. Logical hash = registry current_canonical_hash = baseline_hash."
+  },
+  {
+   "id": "PREFERRED_SIX",
+   "path": "data/grixis/m7/candidate_lists/Davros__Dalek_Creator.txt",
+   "raw_sha256": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
+   "logical_hash": "lh1:bc802d95f8b6dac3fc108e2c5c87250c250137495374944d8726cfa21994787f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Bloodletter of Aclazotz +Unlicensed Disintegration +Tergrid, God of Fright +Purphoros, God of the Forge +Fiery Confluence +Tectonic Giant / -Death in Heaven -Weeping Angel -The Cyber-Controller -Blasphemous Act -Vandalblast -Swan Song. 34 lands and colour sources unchanged (U19 B18 R18), average nonland MV 3.231, 23 instants/sorceries, 25 creatures, 6 Game Changers (+Tergrid). Spellbook: 0 included combos. Commander-first for Davros's own end-step Oracle: more ways to make every opponent lose 3+ life on our turn (Bloodletter doubling, Purphoros per Dalek/myriad token, Fiery Confluence, Tectonic Giant, Disintegration) and a punisher (Tergrid) for the sacrifice/discard options of Davros's villainous choice, Court of Ambition, Torment of Hailfire and Perforating Artist. Losses: the one-sided artifact sweep (Vandalblast overload), Blasphemous Act's cheap symmetrical wipe, Swan Song's 1-mana counter, Weeping Angel's 3-mana flash body, The Cyber-Controller and Death in Heaven's grindy value."
+  },
+  {
+   "id": "FIVE_KEEP_SWAN_SONG",
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_five_keep_SwanSong_20261023.txt",
+   "raw_sha256": "75c5fc50c540368a37d28e524d06836a4648912c484d9d48f806484799a5310d",
+   "logical_hash": "lh1:6ca8d93467b972021eb66841ec6e6f454ee2209b1816e066a95b02683e9d0b9c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged, not selected). The preferred six without Tectonic Giant, keeping Swan Song. Keeps a 1-mana protection counter for Davros and engines; loses a repeatable 3-to-each-opponent attack trigger (6 with Bloodletter) that qualifies the whole table before blocks. Swan Song also gives the opponent a 2/2 flyer, a second blocker against menace. MODERATE confidence."
+  },
+  {
+   "id": "SIX_CUT_ASHAD_KEEP_BLASPHEMOUS_ACT",
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_six_cut_Ashad_keep_BlasphemousAct_20261023.txt",
+   "raw_sha256": "15d48f50e19e656693121f188803a4d9f343ec2b6de2996d5f44b38b23e549a9",
+   "logical_hash": "lh1:c42aca3e29862e54e20863d5140a1405bec1bf2d4b9631aa209315ef4ec7c5c7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Keeps Blasphemous Act as a reset and cuts Ashad, the Lone Cyberman instead. Ashad's copy line (copy Davros or Roaming Throne / Dalek Emperor) multiplies Davros end-step triggers and keeps the artifact count for Unlicensed Disintegration and Mox Opal; Blasphemous Act kills our own Daleks and Davros. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_PAIRINGS",
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_six_PassC_pairings_Fiery_over_Angel_Disintegration_over_ThisIsHowItEnds_20261023.txt",
+   "raw_sha256": "3b709f985e385a01db929bbdde0b94f0d052ff723a9d23fb4afe1a7de4ab0221",
+   "logical_hash": "lh1:bf9b19943f8d41cdb6da5704756e47031a29216b7565478a9edcd410a1c50de8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Pass C's paired cuts: Fiery Confluence over Weeping Angel and Unlicensed Disintegration over This Is How It Ends, keeping Vandalblast. This Is How It Ends is itself a villainous-choice card that can make one opponent lose 5 (twice with The Valeyard); Vandalblast is the more replaceable slot once Fiery Confluence keeps an artifact-destroy mode. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_PASS_C_ARTILLERIST_OVER_SYCORAX",
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_PassC_Artillerist_over_Sycorax_20261023.txt",
+   "raw_sha256": "c845ef8edd689476e62d4dd6d5cb32c046c82999bc70e2b61ce67797654aedb3",
+   "logical_hash": "lh1:9156e784970b2f957420fee74fca7af49cd8164e204cb809610a4be361229c68",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). The preferred six plus Ingenious Artillerist over Sycorax Commander (Pass C's Artillerist pairing). The bounded test shows Artillerist qualifies all opponents only on 3+ artifact entries in one turn and dies to any ping (3/1); Purphoros covers the role at 2 per creature and is indestructible; Sycorax's discard-all/damage choice is Davros fuel. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_FLAME_RIFT_OVER_ASHAD",
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_FlameRift_over_Ashad_20261023.txt",
+   "raw_sha256": "c82b4358ff75e19c47be4ee19d4d8a431a31883addc8c7da51eaf9e33f892d82",
+   "logical_hash": "lh1:8f62044221ceea7d33fcfd79d0214e907319aee6eb72a496ebbc76bf712a55d4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). The preferred six plus Flame Rift over Ashad. Flame Rift is 4 to every player (ourselves included), one-shot and redundant with Boltwave and Fiery Confluence; Ashad multiplies Davros triggers. MODERATE confidence."
+  }
+ ]
+}

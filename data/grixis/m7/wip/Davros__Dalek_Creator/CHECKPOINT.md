@@ -8,4 +8,8 @@ Done:
 - Research snapshots: EDHREC (general 6007 / upgraded 615 / optimized 103), live Scryfall (177 names, zero Oracle diffs vs frozen 20261016 cache), Commander Spellbook (0 included combos baseline and candidate).
 - Draft candidate (six swaps, commander-first: Bloodletter of Aclazotz, Unlicensed Disintegration, Tergrid, Purphoros, Fiery Confluence, Tectonic Giant / Death in Heaven, Weeping Angel, The Cyber-Controller, Blasphemous Act, Vandalblast, Swan Song) and five staged alternatives.
 
-Next: mechanics test with bounded Pass C measured tests, decision packet, I/J pool/cert/bundle, memos, workflow, gate.
+- Mechanics test (11 tests) incl. bounded finite Pass C measured tests (Unlicensed Disintegration 16-case grid, Artillerist vs Purphoros entry patterns, Fiery Confluence vs Boltwave/Maestros incl. artifact-target failure).
+- Rules snapshot, I/J tested-configuration pool (8 configurations).
+- Decision packet data/grixis/m7/decision_reviews/Davros__Dalek_Creator.json passes the gate (21 candidates, 16 weak slots, 10 post-floor challenges, 2 larger staged packages); Deck #11 overlap (52 shared nonbasic names) in commander_identity.anti_homogenization.
+
+Next: memos, adversarial packet, workflow, certificate/bundle, IJ test, full suite, PR ready.
