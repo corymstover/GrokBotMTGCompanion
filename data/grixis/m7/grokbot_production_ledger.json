@@ -825,32 +825,57 @@
    "current_candidate_sha": "f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad",
    "branch": "grokbot-deck17-edward-kenway-m7-20261023",
    "working_branch": "grokbot-deck17-edward-kenway-m7-20261023",
-   "last_pushed_commit": "5e915c143409b1dd8d9d3575a3e8a1728cd61e6b",
+   "last_pushed_commit": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
    "swap_count": 5,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 17 Edward Kenway candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39976880595",
+     "conclusion": "success",
+     "head_sha": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39976880628",
+     "conclusion": "success",
+     "head_sha": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39976884455",
+     "conclusion": "success",
+     "head_sha": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Pass C matched seven-card hand playtests (opponent interaction, blockers, lethal turn, crewing cost) not run: no validated opponent model; bounded exact tests only. Cavern of Souls/Exotic Orchard counted as UBR in castability model."
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw a08d3bc9 == overrides == tracker == registry; 100 physical/98 rows, Island/Swamp x2); shared infra copied from #664 cc2e6d45; draft PR #665 2026-10-23 09:50 CDT",
     "research_snapshots",
     "oracle_rules_snapshots_measured_tests",
     "decision_packet (gate verify_packet passes)",
-    "tested_pool_IJ_memos_adversarial_packet_tests_workflow_certificate_bundle (12371f12; deck tests + corpus 134 passed; gate and bundle check exit 0)"
+    "tested_pool_IJ_memos_adversarial_packet_tests_workflow_certificate_bundle (12371f12; deck tests + corpus 134 passed; gate and bundle check exit 0)",
+    "wip_removed (5f5a3a0f)",
+    "full_suite_once (head 24F/1632P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E; 110 failure/error IDs identical)",
+    "pr_ready_and_exact_head_ci_green"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Remove WIP, full suite once, mark PR ready, exact-head CI",
-   "next_step": "Remove WIP, full suite once, mark PR ready, exact-head CI",
-   "stage": "RESEARCH_IN_PROGRESS",
+   "next_action": "Await ChatGPT review; next deck #18 Evelyn__the_Covetous",
+   "next_step": "Await ChatGPT review; next deck #18 Evelyn__the_Covetous",
+   "stage": "REVIEW_READY_AWAITING_CHATGPT",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
-   "pr_is_draft": true,
-   "pr_status": "DRAFT_WIP",
-   "last_checkpoint_commit": "5e915c143409b1dd8d9d3575a3e8a1728cd61e6b",
+   "pr_is_draft": false,
+   "pr_status": "REVIEW_READY_NOT_OWNER_APPROVED",
+   "last_checkpoint_commit": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 46df00ee, frozen by 1e0b2e94; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T10:16:17-05:00",
-   "updated_at": "2026-10-23T10:16:17-05:00"
+   "last_checkpoint_at": "2026-10-23T10:19:37-05:00",
+   "updated_at": "2026-10-23T10:19:37-05:00",
+   "head_commit": "5f5a3a0fbe576ada80c9ea6f71a466834ea9f694"
   },
   {
    "tracker_number": 18,
