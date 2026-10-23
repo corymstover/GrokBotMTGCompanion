@@ -183,13 +183,13 @@
       "card": "Spear Spewer",
       "status": "ADVANCE_ORACLE_AND_EFFECT_TEST",
       "potential_cut": "The Ruinous Powers",
-      "reason": "{R} 0/2 tap source: at three opponents one activation causes three total opposing life loss; this enables own-turn Abaddon cascade on hand spells printed MV0–2, but must survive summoning sickness and cannot replace same-turn Boltwave."
+      "reason": "{R} 0/2 tap source: at three opponents one activation causes three total opposing life loss; this enables own-turn Abaddon cascade on hand spells printed MV0–3, but must survive summoning sickness and cannot replace same-turn Boltwave."
     },
     {
       "card": "Electrostatic Field",
       "status": "ADVANCE_ORACLE_AND_EFFECT_TEST",
       "potential_cut": "Call Forth the Tempest",
-      "reason": "Cheap 0/4 repeatable all-opponent pings on cast instants/sorceries, including qualifying spells cast from exile; cascade copies are cast but copied storm spells are not. Challenging huge double-cascade top-end may reduce ceiling."
+      "reason": "Cheap 0/4 repeatable all-opponent pings on cast instants/sorceries, including qualifying spells cast from exile; cascade-hit spells are actually cast but copied storm spells are not. Challenging huge double-cascade top-end may reduce ceiling."
     },
     {
       "card": "Cryptolith Fragment",
@@ -201,13 +201,14 @@
       "card": "Aurora Phoenix",
       "status": "ADVANCE_ORACLE_AND_ATTRITION_COMPARISON",
       "potential_cut": "The Ruinous Powers",
-      "reason": "Cascade creature in graveyard returns to hand on casting spell that has cascade (including Abaddon granted), offering attrition, but five-mana repeat cast is clunky and cannot be assumed better than theme-identity random resource."
+      "reason": "Cascade creature in graveyard returns to hand on casting spell that has cascade (including Abaddon granted), offering attrition, but six-mana repeat cast is clunky and cannot be assumed better than theme-identity random resource.",
+      "oracle_mana_value": 6
     },
     {
       "card": "Blood for the Blood God!",
       "status": "ADVANCE_PAID_COST_AND_DISCARD_TEST",
       "potential_cut": "Call Forth the Tempest",
-      "reason": "Discounted on creature deaths; refill eight and deal eight to each opponent is powerful, but 11 printed MV requires X>11 to receive Abaddon cascade, and the eight damage only occurs after resolution, not retroactively for its own cast; discarding one's own hand and cost volatility are major risks."
+      "reason": "Discounted on creature deaths; refill eight and deal eight to each opponent is powerful, but 11 printed MV requires X>=11 to receive Abaddon cascade, and the eight damage only occurs after resolution, not retroactively for its own cast; discarding one's own hand and cost volatility are major risks."
     },
     {
       "card": "Poxwalkers",
@@ -272,7 +273,8 @@
     {
       "card": "Aurora Phoenix",
       "scryfall_url": "https://scryfall.com/card/clb/778/aurora-phoenix",
-      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING",
+      "printed_mana_cost": "{4}{R}{R}"
     },
     {
       "card": "Blood for the Blood God!",
@@ -359,5 +361,13 @@
     "If evidence supports five or more NEW changes relative to currently locked rev2, construct fully verified M7 replacement with 10+ judgments and 8+ incumbents, I/J source-bound, then ask exact owner approval. Otherwise keep research-only and record governor conflict.",
     "Keep Abaddon approved 0d9f6df8... source intact; do not advance deck #3 until its new exact owner approval."
   ],
-  "analytic_rules_followthrough": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_rules_timing_20261022.md"
+  "analytic_rules_followthrough": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_rules_timing_20261022.md",
+  "commander_exact_oracle_rules_anchor": {
+    "saved_snapshot": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "scryfall_url": "https://scryfall.com/card/40k/2/abaddon-the-despoiler",
+    "oracle_phrase": "mana value X or less have cascade",
+    "predicate": "mana_value <= opponents_life_lost_total_this_turn",
+    "corrected_source_bound_example": "With three opponents each losing one life from Cryptolith Fragment, X=3: hand spells of mana value 3 QUALIFY, while mana value 4 do not (assuming player's turn, Abaddon in play, no other modifiers).",
+    "status": "CURRENT_ORACLE_VERIFIED_PRELIMINARY_ANALYTIC_RULE"
+  }
 }

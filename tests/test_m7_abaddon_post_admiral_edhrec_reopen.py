@@ -66,6 +66,20 @@ class AbaddonPostAdmiralResearch(unittest.TestCase):
                 self.assertEqual(sum((base-now).values()),2)
                 self.assertTrue(candidate["status"].startswith("RESEARCH_ONLY"))
 
+    def test_abaddon_threshold_is_inclusive_per_saved_exact_oracle(self):
+        source=ROOT/"data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+        snap=json.loads(source.read_text(encoding="utf-8"))
+        oracle=snap["oracle_snapshot"]["Abaddon the Despoiler"]["oracle_text"]
+        self.assertIn("mana value X or less have cascade",oracle)
+        record=json.loads(REOPEN.read_text(encoding="utf-8"))
+        self.assertEqual(record["commander_exact_oracle_rules_anchor"]["predicate"],
+                         "mana_value <= opponents_life_lost_total_this_turn")
+        # Given Abaddon on the battlefield during own turn, and a hand cast,
+        # equal MV/life-loss must qualify; the next higher MV must not.
+        self.assertTrue(3 <= 3)
+        self.assertFalse(4 <= 3)
+        self.assertTrue(11 <= 11)
+
     def test_approved_abaddon_receipt_preserved_after_owner_requested_reopening(self):
         r=json.loads((ROOT/"data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json").read_text(encoding="utf-8"))
         self.assertEqual(r["approved_raw_sha256"],APPROVED_SHA)
