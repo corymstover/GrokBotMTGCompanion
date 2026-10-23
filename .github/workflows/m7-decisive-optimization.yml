@@ -322,6 +322,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage15_changed_candidate_p0.py' -v
       - name: Reconcile Abaddon legacy P0 P1 evidence with changed physical candidate without false transfer
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage16_transfer_integrity.py' -v
+      - name: Bind Abaddon new six full95 name Scryfall Oracle and legality to current exact 100
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage17_oracle_stitch.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
