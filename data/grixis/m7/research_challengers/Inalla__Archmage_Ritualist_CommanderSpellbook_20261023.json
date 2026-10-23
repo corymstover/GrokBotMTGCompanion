@@ -1,0 +1,3438 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1869-2721-3719",
+    "uses": [
+     "Inalla, Archmage Ritualist",
+     "Bloodline Necromancer",
+     "Ruthless Technomancer"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite creature tokens with haste",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite Treasure tokens",
+     "Return all creature cards from your graveyard to the battlefield"
+    ]
+   },
+   {
+    "id": "813-1777-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Burnt Offering",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-2081-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Culling the Weak",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1893-2081",
+    "uses": [
+     "Scholar of the Ages",
+     "Shallow Grave",
+     "Culling the Weak"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1777-1893",
+    "uses": [
+     "Scholar of the Ages",
+     "Burnt Offering",
+     "Shallow Grave"
+    ],
+    "produces": [
+     "Infinite creature sacrifice triggers",
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1181-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Sacrifice",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-1777",
+    "uses": [
+     "Saw in Half",
+     "Burnt Offering",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite red mana",
+     "Infinite magecraft triggers",
+     "Infinite black mana",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-2081",
+    "uses": [
+     "Saw in Half",
+     "Culling the Weak",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite magecraft triggers",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-1181",
+    "uses": [
+     "Saw in Half",
+     "Sacrifice",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Cast a subset of spells in your graveyard",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-4923",
+    "uses": [
+     "Saw in Half",
+     "Cabal Ritual",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1181-1893",
+    "uses": [
+     "Scholar of the Ages",
+     "Sacrifice",
+     "Shallow Grave"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 165,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2384-6574",
+    "uses": [
+     "Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "Psychosis Crawler"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite lifeloss",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "742-2836",
+    "uses": [
+     "Demonic Consultation",
+     "Laboratory Maniac"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3189",
+    "uses": [
+     "Doomsday",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "953-1295",
+    "uses": [
+     "Enter the Infinite",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Win the game"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1869-2721-3719",
+    "uses": [
+     "Inalla, Archmage Ritualist",
+     "Bloodline Necromancer",
+     "Ruthless Technomancer"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite creature tokens with haste",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite Treasure tokens",
+     "Return all creature cards from your graveyard to the battlefield"
+    ]
+   },
+   {
+    "id": "813-1777-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Burnt Offering",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-2081-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Culling the Weak",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1893-2081",
+    "uses": [
+     "Scholar of the Ages",
+     "Shallow Grave",
+     "Culling the Weak"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1777-1893",
+    "uses": [
+     "Scholar of the Ages",
+     "Burnt Offering",
+     "Shallow Grave"
+    ],
+    "produces": [
+     "Infinite creature sacrifice triggers",
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1181-2171",
+    "uses": [
+     "Scholar of the Ages",
+     "Sacrifice",
+     "Persist"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-1777",
+    "uses": [
+     "Saw in Half",
+     "Burnt Offering",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite red mana",
+     "Infinite magecraft triggers",
+     "Infinite black mana",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-2081",
+    "uses": [
+     "Saw in Half",
+     "Culling the Weak",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers",
+     "Infinite storm count",
+     "Infinite magecraft triggers",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-1181",
+    "uses": [
+     "Saw in Half",
+     "Sacrifice",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Cast a subset of spells in your graveyard",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "500-813-4923",
+    "uses": [
+     "Saw in Half",
+     "Cabal Ritual",
+     "Scholar of the Ages"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite magecraft triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   },
+   {
+    "id": "813-1181-1893",
+    "uses": [
+     "Scholar of the Ages",
+     "Sacrifice",
+     "Shallow Grave"
+    ],
+    "produces": [
+     "Infinite black mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite magecraft triggers",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Return all instant and sorcery cards from your graveyard to your hand"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 165,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2384-6574",
+    "uses": [
+     "Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "Psychosis Crawler"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite lifeloss",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "742-2836",
+    "uses": [
+     "Demonic Consultation",
+     "Laboratory Maniac"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3189",
+    "uses": [
+     "Doomsday",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "953-1295",
+    "uses": [
+     "Enter the Infinite",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Win the game"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "147-4598",
+     "uses": [
+      "Dualcaster Mage",
+      "Essence Flux"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 255,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-1235",
+     "uses": [
+      "Dualcaster Mage",
+      "Twinflame"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-6106",
+     "uses": [
+      "Dualcaster Mage",
+      "Electroduplicate"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-2959",
+     "uses": [
+      "Dualcaster Mage",
+      "Heat Shimmer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-1987",
+     "uses": [
+      "Dualcaster Mage",
+      "Ghostly Flicker"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite landfall triggers",
+      "Infinite mana lands you control that enter the battlefield untapped can produce",
+      "Infinite blinking of artifacts",
+      "Infinite blinking of lands",
+      "Infinite blinking"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    }
+   ]
+  },
+  "Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 158,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "953-1295",
+     "uses": [
+      "Enter the Infinite",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 165,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2384-6574",
+     "uses": [
+      "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "Psychosis Crawler"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite lifeloss",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "953-1295",
+     "uses": [
+      "Enter the Infinite",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Win the game"
+     ]
+    }
+   ]
+  },
+  "Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 165,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2384-6574",
+     "uses": [
+      "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "Psychosis Crawler"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite lifeloss",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "953-1295",
+     "uses": [
+      "Enter the Infinite",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Win the game"
+     ]
+    }
+   ]
+  },
+  "Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 157,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "953-1295",
+     "uses": [
+      "Enter the Infinite",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "147-4598",
+     "uses": [
+      "Dualcaster Mage",
+      "Essence Flux"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "1869-2721-3719",
+     "uses": [
+      "Inalla, Archmage Ritualist",
+      "Bloodline Necromancer",
+      "Ruthless Technomancer"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite Treasure tokens",
+      "Return all creature cards from your graveyard to the battlefield"
+     ]
+    },
+    {
+     "id": "813-1777-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-2081-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Culling the Weak",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1893-2081",
+     "uses": [
+      "Scholar of the Ages",
+      "Shallow Grave",
+      "Culling the Weak"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1777-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Burnt Offering",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite creature sacrifice triggers",
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-2171",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Persist"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1777",
+     "uses": [
+      "Saw in Half",
+      "Burnt Offering",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite red mana",
+      "Infinite magecraft triggers",
+      "Infinite black mana",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-2081",
+     "uses": [
+      "Saw in Half",
+      "Culling the Weak",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite death triggers",
+      "Infinite storm count",
+      "Infinite magecraft triggers",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-1181",
+     "uses": [
+      "Saw in Half",
+      "Sacrifice",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Cast a subset of spells in your graveyard",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "500-813-4923",
+     "uses": [
+      "Saw in Half",
+      "Cabal Ritual",
+      "Scholar of the Ages"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature tokens",
+      "Infinite death triggers",
+      "Infinite magecraft triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    },
+    {
+     "id": "813-1181-1893",
+     "uses": [
+      "Scholar of the Ages",
+      "Sacrifice",
+      "Shallow Grave"
+     ],
+     "produces": [
+      "Infinite black mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Return all instant and sorcery cards from your graveyard to your hand"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 255,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-1235",
+     "uses": [
+      "Dualcaster Mage",
+      "Twinflame"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-6106",
+     "uses": [
+      "Dualcaster Mage",
+      "Electroduplicate"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-2959",
+     "uses": [
+      "Dualcaster Mage",
+      "Heat Shimmer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "147-1987",
+     "uses": [
+      "Dualcaster Mage",
+      "Ghostly Flicker"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite magecraft triggers",
+      "Infinite landfall triggers",
+      "Infinite mana lands you control that enter the battlefield untapped can produce",
+      "Infinite blinking of artifacts",
+      "Infinite blinking of lands",
+      "Infinite blinking"
+     ]
+    },
+    {
+     "id": "4812-4846",
+     "uses": [
+      "Worldgorger Dragon",
+      "Animate Dead"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite blinking of permanents",
+      "Infinite colored mana",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "742-2836",
+     "uses": [
+      "Demonic Consultation",
+      "Laboratory Maniac"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T13:12:40-0500"
+}

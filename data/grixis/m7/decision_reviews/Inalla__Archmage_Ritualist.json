@@ -1,0 +1,675 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "canonical_baseline_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+ "canonical_baseline_logical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "commander_identity": {
+  "mechanical_plan": "Inalla, Archmage Ritualist ({2}{U}{B}{R} 4/5 legendary Human Wizard; Commander 2017, released 2017-08-25; commander-legal, not a Game Changer, no project exception). Eminence: whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1} to create a hasty token copy that is exiled at the next end step. Tap five untapped Wizards: target player loses 7 life. Plan (owner blueprint 2026-10-14): run Eminence from the command zone as the combo engine. Spellseeker + Eminence finds the Scholar of the Ages / sacrifice / Finale of Promise lines; Bloodline Necromancer + Ruthless Technomancer + Inalla loops; Apprentice Necromancer's hasty copy reanimates at once; Thundertrap Trainer doubles selection. Backups: Thassa's Oracle + Demonic Consultation / Tainted Pact and Underworld Breach + Lion's Eye Diamond + Brain Freeze.",
+  "protected_core": [
+   "Inalla, Archmage Ritualist",
+   "Spellseeker",
+   "Scholar of the Ages",
+   "Finale of Promise",
+   "Culling the Weak",
+   "Burnt Offering",
+   "Sacrifice",
+   "Unearth",
+   "Entomb",
+   "Reanimate",
+   "Shallow Grave",
+   "Bloodline Necromancer",
+   "Ruthless Technomancer",
+   "Apprentice Necromancer",
+   "Thundertrap Trainer",
+   "Vedalken Aethermage",
+   "Step Through",
+   "Thassa's Oracle",
+   "Demonic Consultation",
+   "Tainted Pact",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Brain Freeze",
+   "Hexing Squelcher"
+  ],
+  "natural_ceiling": "Power Bracket 5 (cEDH), unchanged. Game Changers: 18 in both baseline and candidate (Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Force of Will, Gamble, Grim Monolith, Imperial Seal, Intuition, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor). The owner's decisions file records 2026 Inalla tournament top cuts.",
+  "anti_homogenization": "Commander-first to Inalla's Oracle: no generic Grixis staple is added. Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline = candidate, canonical Archidekt exports): Kefka, Court Mage 72; Kess, Dissident Mage 71; Jeleva, Nephalia's Scourge 68; Evelyn, the Covetous 68; Fire Lord Azula 67. The overlap is the cEDH staple core (fast mana, tutors, free counters, Oracle/Breach). Inalla stays commander-first through the Wizard ETB package doubled by Eminence (Spellseeker/Scholar of the Ages, Bloodline Necromancer + Ruthless Technomancer, Apprentice Necromancer, Thundertrap Trainer, Vedalken Aethermage) and the tap-five finisher. Owner-removed or rejected cards and classes (Dualcaster Mage, Snapcaster Mage, Archaeomancer, Brainstorm, Fierce Guardianship, Deflecting Swat, Force of Negation, Naban, Kess, Patron Wizard, Panharmonicon/Molten Echoes Wizard-value, Micromancer, Samut, Spectral Arcanist, Orcish Bowmasters, Pyroblast, Daze, Starting Town) are not re-added."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards (99 rows; 1x Island, 1x Swamp; 100 distinct names for Tainted Pact) were reviewed. Roles: 27 lands; 14 creatures (Wizards: Spellseeker, Scholar of the Ages, Bloodline Necromancer, Ruthless Technomancer, Apprentice Necromancer, Thundertrap Trainer, Vedalken Aethermage, Kefka, Thassa's Oracle; non-Wizards: Hexing Squelcher, Blood Pet, Hoarding Broodlord, Ragavan, Nimble Pilferer, Simian Spirit Guide); fast mana (Sol Ring, Mana Vault, Grim Monolith, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, Lion's Eye Diamond, Talismans, Arcane Signet, Fellwar Stone, rituals); tutors (Demonic, Vampiric, Imperial Seal, Mystical, Gamble, Intuition, Lim-Dûl's Vault, Beseech the Mirror, Wishclaw Talisman, Entomb); reanimation (Reanimate, Animate Dead, Shallow Grave, Persist, Unearth, Lively Dirge, Unmarked Grave); sacrifice (Culling the Weak, Burnt Offering, Sacrifice, Saw in Half); stack interaction (Force of Will, Pact of Negation, Flusterstorm, Swan Song, Mental Misstep, Red Elemental Blast, An Offer You Can't Refuse, Chain of Vapor); engines (Necropotence, Rhystic Study, Mystic Remora, Ad Nauseam, Wheel of Fortune, Final Fortune, Underworld Breach, Brain Freeze, Borne Upon a Wind, Essence Flux, Step Through, Finale of Promise, Demonic Consultation, Tainted Pact). Overlaps: Intuition/Gifts, Entomb/Buried Alive, Saw in Half/Twinflame judged in the candidate list.",
+  "mana_base_and_curve": "Unchanged (zero swaps). 27 lands, U/B/R sources 20/19/17 (fetches and rainbow lands counted per colour). 72 nonland cards; curve MV0 6, MV1 25, MV2 25, MV3 7, MV4 2, MV5 5, MV7+ 2 (Scholar of the Ages 7, Hoarding Broodlord 8); average nonland MV 2.0; 14 creatures; 13 artifacts. Lands-only exact castability at 10 cards seen: {1}{U} Wizards 0.8045, {1}{R}{R} 0.4605, 4 lands with U 0.2717, 5 lands 0.0958 (bounded T1).",
+  "interaction_resilience": "Free and cheap stack protection (Force of Will, Pact of Negation, Flusterstorm, Swan Song, Mental Misstep, Red Elemental Blast, An Offer You Can't Refuse) plus Hexing Squelcher (our spells can't be countered; ward for our other creatures; no commander dependence) and Chain of Vapor / Otawara bounce. The deck is weak to graveyard hate and to Rest in Peace-style effects; Breach, Oracle and Bloodline loops give non-graveyard routes. Unchanged by this pass.",
+  "weakest_slots": [
+   {
+    "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "weakness": "5 MV; lands-only P(5 lands by 10 cards) 0.0958; cEDH 0.38.",
+    "alternative_named": "Dualcaster Mage",
+    "reasoning": "Owner addition. The best challenger (Dualcaster Mage) is owner-removed, so it is staged as an OWNER DECISION, not cut. Micromancer is owner-rejected and weaker."
+   },
+   {
+    "card": "Thundertrap Trainer",
+    "weakness": "Lowest cEDH incumbent rate (0.20).",
+    "alternative_named": "Snapcaster Mage",
+    "reasoning": "Owner red-team addition. It hits in the top 4 with p 0.9731 (0.9994 with Eminence). Snapcaster is owner-removed with no gain; Tidebinder has no data. Kept."
+   },
+   {
+    "card": "Apprentice Necromancer",
+    "weakness": "cEDH 211/817 (0.26), the second-lowest incumbent rate.",
+    "alternative_named": "Phantasmal Image",
+    "reasoning": "Explicit owner keep for the hasty Eminence copy that reanimates at once. No challenger clearly beats it. Kept."
+   },
+   {
+    "card": "Blood Pet",
+    "weakness": "cEDH 324/817 (0.40); a low-impact 1/1 that only refunds its own mana.",
+    "alternative_named": "Gifts Ungiven",
+    "reasoning": "Owner addition; a 1-drop that refunds its mana and is sacrifice fodder for Culling the Weak / Ruthless Technomancer lines. Gifts duplicates Intuition; Buried Alive duplicates Entomb. Kept."
+   },
+   {
+    "card": "Wheel of Fortune",
+    "weakness": "cEDH 370/817 (0.45); a symmetrical refill that also reloads opponents.",
+    "alternative_named": "The One Ring",
+    "reasoning": "Owner addition and part of the Breach/LED refill line. The One Ring is slower and off-plan. Kept."
+   },
+   {
+    "card": "Lim-Dûl's Vault",
+    "weakness": "cEDH 390/817 (0.48); card-neutral library setup that costs 1 life per look.",
+    "alternative_named": "Grim Tutor",
+    "reasoning": "Owner keep; 2 MV instant-speed setup reachable by Spellseeker. Grim Tutor is sorcery speed and 3 MV. Kept."
+   },
+   {
+    "card": "Hoarding Broodlord",
+    "weakness": "8 MV (convoke); cEDH 394/817 (0.48); the deck's most expensive card.",
+    "alternative_named": "Defense Grid",
+    "reasoning": "Owner addition; it pairs with Saw in Half and convoke makes it castable off tokens. No higher-evidence replacement. Kept."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its coloured mana depends on what opponents' lands can produce.",
+    "alternative_named": "Crystal Vein",
+    "reasoning": "Owner addition after a mana-base challenge. Crystal Vein is colourless and Tarnished Citadel deals damage. Kept."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-MV rock whose colours depend on opponents' lands.",
+    "alternative_named": "Jeweled Amulet",
+    "reasoning": "Owner keep; permanent ramp. The Amulet is net zero. Kept."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "A narrow one-mana answer that hits only blue spells or permanents.",
+    "alternative_named": "Mindbreak Trap",
+    "reasoning": "Owner addition; it hits blue counters and blue threats. Mindbreak Trap is conditional. Kept."
+   },
+   {
+    "card": "Final Fortune",
+    "weakness": "Gives an extra turn, but you lose at that turn's end step unless you win first.",
+    "alternative_named": "Gifts Ungiven",
+    "reasoning": "Owner addition; an MV 2 extra-turn spell reachable by Spellseeker that buys a second combo turn after a Breach/LED or wheel turn. No better MV <= 2 option. Kept."
+   },
+   {
+    "card": "Otawara, Soaring City",
+    "weakness": "cEDH 408/817 (0.50); its channel bounce costs {3}{U}, reduced by legendaries.",
+    "alternative_named": "Crystal Vein",
+    "reasoning": "Owner keep; a land that bounces and doubles as interaction. Kept."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 5 cEDH Inalla list (2026-10-14) whose owner red-team pass found ZERO NEW MATERIAL IMPROVEMENTS. M6 Pass C (owner-equivalent substitute, NOT independent) requested a targeted test of -Kefka/+Dualcaster Mage and -Kefka/+Micromancer (optionally -Thundertrap Trainer/+Snapcaster Mage). This M7 pass ran it as bounded exact tests (T1-T5): the only real gain (+Dualcaster, 2 new two-card combos) re-adds an owner-removed card.",
+  "candidate_pool_scope": "EDHREC Inalla general, upgraded, optimized and cEDH (817 decks) page JSON; live Scryfall /cards/collection batch (100 baseline + 108 candidates; banned Dockside Extortionist, Jeweled Lotus and Mana Crypt and off-identity Culling Ritual excluded); OFF-RANKING searches for Wizards with ETBs absent from the cEDH sample (Tishana's Tidebinder, Micromancer, Sea Gate Stormcaller, Tribute Mage, Spellstutter Sprite, Venser, Shaper Savant, Ertai Resurrected, Vendilion Clique); Commander Spellbook for baseline, candidate and all 6 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file.",
+  "off_ranked_search_conclusion": "OFF-RANKING Wizards found: Tishana's Tidebinder (staged and rejected), Micromancer (owner-rejected; staged and measured), Sea Gate Stormcaller, Tribute Mage, Spellstutter Sprite, Venser, Shaper Savant, Ertai Resurrected (stale owner-audit card) and Vendilion Clique. None beats an incumbent Wizard on cost, reach or combo delta. No off-ranked card is selected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Inalla, Archmage Ritualist approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt, blob 204b8096, introduced by afb35c06 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Inalla__Archmage_Ritualist_approved_source_2026-10-14.txt)",
+  "EDHREC Inalla, Archmage Ritualist commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23, discovery only: data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23: data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T13:12:40-0500: data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for ETB Wizards absent from the Inalla cEDH sample (Tishana's Tidebinder, Micromancer, Sea Gate Stormcaller, Tribute Mage, Spellstutter Sprite, Venser, Shaper Savant, Ertai Resurrected, Vendilion Clique)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Inalla__Archmage_Ritualist.md; data/grixis/m6/deep_reviews/Inalla__Archmage_Ritualist.md",
+  "Owner 2026-10-14 current-cycle decisions (blueprint, retained 50, removed 49, added 49, red-team rejections): canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 302.6, 601.2f, 603.4, 702.61a/b, 707.2, 707.9a; frozen rulings for Inalla, Dualcaster Mage, Saw in Half, Essence Flux, Kefka, Thundertrap Trainer, Spellseeker, Finale of Promise, Samut, Micromancer, Snapcaster Mage, Defense Grid, Thassa's Oracle, Scholar of the Ages: data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+  "Bounded finite measured tests (the Pass C request): T1 exact lands-only castability, T2 Spellseeker vs Micromancer tutor reach over the actual 99, T3 Spellbook combo deltas, T4 Thundertrap Trainer hit probability, T5 rules facts; tested pool of 9 complete 100s: data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Inalla__Archmage_Ritualist_M7_tested_configurations_20261023.json; tests/test_m6_inalla_archmage_ritualist_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Dualcaster Mage",
+   "source": "EDHREC Inalla, Archmage Ritualist general 8304/14809 (synergy 0.475), upgraded 610/1052 (synergy 0.494), optimized 631/837 (synergy 0.668), cEDH 235/817 (synergy 0.202); live Scryfall batch; Pass C's exact requested test (priority)",
+   "role": "{1}{R}{R} 2/2 flash Wizard: ETB copy target instant or sorcery spell.",
+   "named_cuts": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "incumbent_opportunity_cost": "Kefka, Court Mage // Kefka, Ruler of Ruin is an owner ADDITION (2026-10-14 'Added 49 cards'): a 5-MV legendary Wizard whose enter/attack trigger makes each player discard a card and draws a card per card type discarded; the Inalla copy does it twice. It is the deck's lowest-castability incumbent (lands-only exact P(>=5 lands by 10 cards) = 0.0958) and sits at 249/661 cEDH decks (0.38).",
+   "commander_synergy": "The strongest commander-native evidence in the pool. It is a Wizard, so the Eminence copy gives two spell copies for {1}. With Saw in Half (already in the 99) it makes unbounded hasty tokens that Inalla's tap-five ability turns into a win (Spellbook 147-500). With Essence Flux (already in the 99) it loops nontoken entries that each trigger Eminence (147-4598). Spellbook: 16 -> 18 included combos. Lands-only RR castability at 10 cards seen is 0.4605, against Kefka's 5-land 0.0958.",
+   "adversarial_downside": "Dualcaster Mage was REMOVED by the owner in the 2026-10-14 rebuild (canonical decisions file, 'Cut 49 baseline cards'); the brief forbids re-adding removed cards. It dies to every edict and needs a live spell on the stack. Cutting Kefka cuts an owner addition. cEDH adoption is low (0.29).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Evidence is real but it re-adds an owner-removed card over an owner addition. Staged as an OWNER DECISION (complete 100 in the research pool); NOT counted as a genuine swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md",
+    "canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt"
+   ]
+  },
+  {
+   "card": "Micromancer",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Inalla, Archmage Ritualist EDHREC page); Pass C's exact requested test",
+   "role": "{3}{U} 1/1 Wizard: ETB search for an instant or sorcery card with mana value 1.",
+   "named_cuts": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "incumbent_opportunity_cost": "Kefka, Court Mage // Kefka, Ruler of Ruin is an owner ADDITION (2026-10-14 'Added 49 cards'): a 5-MV legendary Wizard whose enter/attack trigger makes each player discard a card and draws a card per card type discarded; the Inalla copy does it twice. It is the deck's lowest-castability incumbent (lands-only exact P(>=5 lands by 10 cards) = 0.0958) and sits at 249/661 cEDH decks (0.38).",
+   "commander_synergy": "A Wizard tutor whose ETB Eminence doubles.",
+   "adversarial_downside": "The owner REJECTED it by name ('four mana plus the Eminence payment is materially slower than Spellseeker'). Bounded T2: it reaches 20 of Spellseeker's 33 targets and misses 13, including Tainted Pact, Demonic Tutor, Finale of Promise, Pact of Negation and Shallow Grave. Lands-only 4-land castability 0.2717. Spellbook: no new combo, 165 -> 158 almost-included.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected and confirmed weaker by the bounded test.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md",
+    "canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt"
+   ]
+  },
+  {
+   "card": "Snapcaster Mage",
+   "source": "EDHREC Inalla, Archmage Ritualist general 2553/14809 (synergy 0.122), upgraded 193/1052 (synergy 0.133), optimized 215/837 (synergy 0.206), cEDH 171/817 (synergy 0.159); live Scryfall batch; Pass C optional test",
+   "role": "{1}{U} 2/1 flash Wizard: ETB target instant or sorcery card in your graveyard gains flashback.",
+   "named_cuts": [
+    "Thundertrap Trainer"
+   ],
+   "incumbent_opportunity_cost": "Thundertrap Trainer is the owner's final red-team ADDITION replacing Samut (decisions file, 'Adversarial second pass'): {1}{U} Wizard, top-4 noncreature nonland selection, doubled by Eminence for {1}. Exact P(at least one hit in top 4) = 0.9731, 0.9994 with the Eminence copy (bounded T4). cEDH 162/817 (0.20).",
+   "commander_synergy": "A 2-MV Wizard with an ETB that Eminence doubles (two flashback grants).",
+   "adversarial_downside": "Snapcaster Mage was REMOVED by the owner in the 2026-10-14 rebuild (canonical decisions file, 'Cut 49 baseline cards'); the brief forbids re-adding removed cards. Flashback still needs the spell's mana. Same {1}{U} castability as the Trainer (0.8045). Spellbook: no combo delta. cEDH 0.21, about the Trainer's level.",
+   "judgment": "REJECT",
+   "reason": "Owner-removed and no measured gain over the owner's red-team addition.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md",
+    "canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt"
+   ]
+  },
+  {
+   "card": "Defense Grid",
+   "source": "EDHREC Inalla, Archmage Ritualist general 982/14809 (synergy 0.035), upgraded absent, optimized absent, cEDH 364/817 (synergy 0.415); live Scryfall batch",
+   "role": "{2} artifact: each spell costs {3} more to cast except during its controller's turn.",
+   "named_cuts": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "incumbent_opportunity_cost": "Kefka, Court Mage // Kefka, Ruler of Ruin is an owner ADDITION (2026-10-14 'Added 49 cards'): a 5-MV legendary Wizard whose enter/attack trigger makes each player discard a card and draws a card per card type discarded; the Inalla copy does it twice. It is the deck's lowest-castability incumbent (lands-only exact P(>=5 lands by 10 cards) = 0.0958) and sits at 249/661 cEDH decks (0.38).",
+   "commander_synergy": "Protects proactive combo turns from opposing free counters; the highest-rate admissible non-incumbent (cEDH 0.45).",
+   "adversarial_downside": "Not commander synergy. It taxes our own off-turn Force of Will, Pact of Negation, Flusterstorm, Swan Song, Red Elemental Blast, Mental Misstep, An Offer You Can't Refuse and flash Wizards ({3} each, CR 601.2f). Spellbook: no combo delta.",
+   "judgment": "REJECT",
+   "reason": "Generic and self-taxing; the owner rebuilt protection around the stack suite and Hexing Squelcher.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt"
+   ]
+  },
+  {
+   "card": "Gifts Ungiven",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized 85/837 (synergy 0.075), cEDH 333/817 (synergy 0.381); live Scryfall batch",
+   "role": "{3}{U} instant: search for up to four cards with different names; an opponent chooses two for your graveyard.",
+   "named_cuts": [
+    "Blood Pet"
+   ],
+   "incumbent_opportunity_cost": "Would cut Blood Pet, an owner addition ({B} 1/1, 'Sacrifice this creature: Add {B}'; sacrifice fodder; cEDH 0.40).",
+   "commander_synergy": "Can find Spellseeker lines and feed the graveyard for Reanimate / Shallow Grave.",
+   "adversarial_downside": "Duplicates Intuition (already in the 99) at 4 MV. Not a Wizard, so Eminence adds nothing. No combo delta.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Intuition; no commander gain.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt"
+   ]
+  },
+  {
+   "card": "Tishana's Tidebinder",
+   "source": "EDHREC Inalla, Archmage Ritualist general 1613/14809 (synergy 0.102), upgraded 133/1052 (synergy 0.119), optimized 118/837 (synergy 0.134), cEDH absent; live Scryfall batch",
+   "role": "{2}{U} 3/2 flash Merfolk Wizard: ETB counter target activated or triggered ability; the source loses its abilities.",
+   "named_cuts": [
+    "Thundertrap Trainer"
+   ],
+   "incumbent_opportunity_cost": "Thundertrap Trainer is the owner's final red-team ADDITION replacing Samut (decisions file, 'Adversarial second pass'): {1}{U} Wizard, top-4 noncreature nonland selection, doubled by Eminence for {1}. Exact P(at least one hit in top 4) = 0.9731, 0.9994 with the Eminence copy (bounded T4). cEDH 162/817 (0.20).",
+   "commander_synergy": "A flash Wizard interaction piece doubled by Eminence (two ability counters).",
+   "adversarial_downside": "Absent from the cEDH sample. 3 MV against 2 MV. Answers abilities only. No combo delta.",
+   "judgment": "REJECT",
+   "reason": "No data and slower than the owner's red-team Wizard.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt"
+   ]
+  },
+  {
+   "card": "Samut, Tyrant of Naktamun",
+   "source": "EDHREC Inalla, Archmage Ritualist general 217/1372 (synergy 0.113), upgraded 7/136 (synergy 0.006), optimized 13/110 (synergy 0.073), cEDH 79/129 (synergy 0.567); live Scryfall batch",
+   "role": "Gives our instant and sorcery spells split second (live Oracle).",
+   "named_cuts": [
+    "Thundertrap Trainer"
+   ],
+   "incumbent_opportunity_cost": "Thundertrap Trainer is the owner's final red-team ADDITION replacing Samut (decisions file, 'Adversarial second pass'): {1}{U} Wizard, top-4 noncreature nonland selection, doubled by Eminence for {1}. Exact P(at least one hit in top 4) = 0.9731, 0.9994 with the Eminence copy (bounded T4). cEDH 162/817 (0.20).",
+   "commander_synergy": "Highest cEDH rate among non-incumbents (0.61).",
+   "adversarial_downside": "The owner removed it on rules red-team: split second stops Finale of Promise casting its targets during resolution (CR 702.61a; Samut ruling 2026-08-21). Re-verified in the rules snapshot.",
+   "judgment": "REJECT",
+   "reason": "Owner red-team removal is rules-correct; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+    "canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Crystal Vein",
+   "source": "EDHREC Inalla, Archmage Ritualist general 1041/14809 (synergy 0.064), upgraded absent, optimized 44/837 (synergy 0.047), cEDH 373/817 (synergy 0.451); live Scryfall batch",
+   "role": "Land: {T}: {C}; {T}, sacrifice: {C}{C}.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would cut Exotic Orchard, an owner-added rainbow land.",
+   "commander_synergy": "Burst colourless mana for Wizard plus Eminence turns.",
+   "adversarial_downside": "Colourless only; the deck needs U/B/R (sources 20/19/17) and the owner kept the 27-land singleton base after a mana-base challenge.",
+   "judgment": "REJECT",
+   "reason": "Colour cost outweighs a one-shot {C}.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Tarnished Citadel",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH 295/817 (synergy 0.353); live Scryfall batch",
+   "role": "Land: {C}, or any colour for 3 damage.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would cut Exotic Orchard, an owner-added rainbow land.",
+   "commander_synergy": "Any colour without opponent dependence.",
+   "adversarial_downside": "3 damage per coloured tap with Ad Nauseam and Necropotence in the deck; marginal against Orchard.",
+   "judgment": "REJECT",
+   "reason": "Marginal against Exotic Orchard; the damage cost adds up.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jeweled Amulet",
+   "source": "EDHREC Inalla, Archmage Ritualist general 802/14809 (synergy 0.049), upgraded absent, optimized absent, cEDH 308/817 (synergy 0.372); live Scryfall batch",
+   "role": "{0} artifact: store a mana for later.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone, an owner keep.",
+   "commander_synergy": "Turns a land drop into a stored burst.",
+   "adversarial_downside": "Net 0 mana over two turns. Fellwar Stone is permanent ramp. Lower cEDH rate (0.38).",
+   "judgment": "REJECT",
+   "reason": "No better than the owner keep.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "source": "EDHREC Inalla, Archmage Ritualist general 1282/14809 (synergy -0.037), upgraded absent, optimized 103/837 (synergy -0.001), cEDH 282/817 (synergy 0.222); live Scryfall batch",
+   "role": "{4} artifact: protection for a turn, then growing draw.",
+   "named_cuts": [
+    "Wheel of Fortune"
+   ],
+   "incumbent_opportunity_cost": "Would cut Wheel of Fortune, an owner addition (refill with Breach/LED).",
+   "commander_synergy": "Card flow and a turn of protection; not a Wizard.",
+   "adversarial_downside": "4 MV, not a Wizard and no combo piece; Wheel is part of the Breach/LED line. cEDH 0.35.",
+   "judgment": "REJECT",
+   "reason": "Slower than Wheel of Fortune and off the Breach/LED plan.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mindbreak Trap",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH 297/817 (synergy 0.309); live Scryfall batch",
+   "role": "Free counter against a third spell in a turn.",
+   "named_cuts": [
+    "Red Elemental Blast"
+   ],
+   "incumbent_opportunity_cost": "Would cut Red Elemental Blast, an owner addition.",
+   "commander_synergy": "Free protection on combo turns; not a Wizard.",
+   "adversarial_downside": "Conditional; the stack suite is already dense; cEDH 0.36.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than the incumbent.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Phantasmal Image",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH 77/817 (synergy 0.069); live Scryfall batch",
+   "role": "{1}{U} Phantasm clone: enters as a copy of a creature, sacrificed when targeted.",
+   "named_cuts": [
+    "Thundertrap Trainer"
+   ],
+   "incumbent_opportunity_cost": "Thundertrap Trainer is the owner's final red-team ADDITION replacing Samut (decisions file, 'Adversarial second pass'): {1}{U} Wizard, top-4 noncreature nonland selection, doubled by Eminence for {1}. Exact P(at least one hit in top 4) = 0.9731, 0.9994 with the Eminence copy (bounded T4). cEDH 162/817 (0.20).",
+   "commander_synergy": "Copying Spellseeker or Scholar re-runs ETBs; a nontoken copy of a Wizard is a Wizard and triggers Eminence.",
+   "adversarial_downside": "Needs a Wizard on the battlefield first; redundant with Saw in Half and the reanimation package.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Saw in Half and the reanimation package, and situational.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Twinflame",
+   "source": "EDHREC Inalla, Archmage Ritualist general 1800/14809 (synergy 0.095), upgraded 111/1052 (synergy 0.079), optimized 201/837 (synergy 0.214), cEDH 76/817 (synergy 0.067); live Scryfall batch",
+   "role": "{1}{R} sorcery: hasty token copies of target creatures.",
+   "named_cuts": [
+    "Thundertrap Trainer"
+   ],
+   "incumbent_opportunity_cost": "Thundertrap Trainer is the owner's final red-team ADDITION replacing Samut (decisions file, 'Adversarial second pass'): {1}{U} Wizard, top-4 noncreature nonland selection, doubled by Eminence for {1}. Exact P(at least one hit in top 4) = 0.9731, 0.9994 with the Eminence copy (bounded T4). cEDH 162/817 (0.20).",
+   "commander_synergy": "Copies Wizards for their ETBs.",
+   "adversarial_downside": "Tokens never trigger Eminence (nontoken clause); sorcery speed.",
+   "judgment": "REJECT",
+   "reason": "Token copies lack the Eminence multiplier.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Buried Alive",
+   "source": "EDHREC Inalla, Archmage Ritualist general 1168/14809 (synergy 0.04), upgraded 55/1052 (synergy 0.013), optimized 80/837 (synergy 0.057), cEDH 256/817 (synergy 0.274); live Scryfall batch",
+   "role": "{2}{B} sorcery: up to three creature cards to the graveyard.",
+   "named_cuts": [
+    "Blood Pet"
+   ],
+   "incumbent_opportunity_cost": "Would cut Blood Pet, an owner-added 1-drop.",
+   "commander_synergy": "Feeds Scholar/Spellseeker reanimation.",
+   "adversarial_downside": "3 MV; Entomb already does the job for 1 MV.",
+   "judgment": "REJECT",
+   "reason": "A slower duplicate of Entomb (3 MV against 1 MV).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Grim Tutor",
+   "source": "EDHREC Inalla, Archmage Ritualist general 830/14809 (synergy 0.02), upgraded absent, optimized 60/837 (synergy 0.035), cEDH 125/817 (synergy 0.117); live Scryfall batch",
+   "role": "{1}{B}{B} sorcery tutor, lose 3.",
+   "named_cuts": [
+    "Lim-Dûl's Vault"
+   ],
+   "incumbent_opportunity_cost": "Would cut Lim-Dûl's Vault, an owner keep.",
+   "commander_synergy": "Another unconditional tutor for combo pieces.",
+   "adversarial_downside": "Sorcery speed and 3 MV; tutor density is already high.",
+   "judgment": "REJECT",
+   "reason": "A marginal tutor-for-tutor swap at sorcery speed.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Spectral Arcanist",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH 91/817 (synergy 0.111); live Scryfall batch",
+   "role": "{3}{U} Spirit Wizard: ETB cast an instant or sorcery with MV <= the number of Spirits from a graveyard.",
+   "named_cuts": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "incumbent_opportunity_cost": "Kefka, Court Mage // Kefka, Ruler of Ruin is an owner ADDITION (2026-10-14 'Added 49 cards'): a 5-MV legendary Wizard whose enter/attack trigger makes each player discard a card and draws a card per card type discarded; the Inalla copy does it twice. It is the deck's lowest-castability incumbent (lands-only exact P(>=5 lands by 10 cards) = 0.0958) and sits at 249/661 cEDH decks (0.38).",
+   "commander_synergy": "Wizard recursion doubled by Eminence.",
+   "adversarial_downside": "Owner-rejected by name (four-mana setup, lower adoption).",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected by name; not re-added without clear evidence.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Dockside Extortionist",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Inalla, Archmage Ritualist EDHREC page)",
+   "role": "Treasure for each opposing artifact/enchantment.",
+   "named_cuts": [
+    "Blood Pet"
+   ],
+   "incumbent_opportunity_cost": "Would have taken Blood Pet's slot; not evaluated further.",
+   "commander_synergy": "None: it is a Goblin Pirate, not a Wizard, so Eminence ignores it.",
+   "adversarial_downside": "Banned in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander; excluded before evaluation.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Culling Ritual",
+   "source": "EDHREC Inalla, Archmage Ritualist general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Inalla, Archmage Ritualist EDHREC page)",
+   "role": "Destroy MV <= 2 nonland permanents, add mana.",
+   "named_cuts": [
+    "Blood Pet"
+   ],
+   "incumbent_opportunity_cost": "Would have taken Blood Pet's slot; not evaluated further.",
+   "commander_synergy": "None: a sorcery with no Wizard or Eminence interaction.",
+   "adversarial_downside": "B/G colour identity, outside Inalla's U/B/R.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Outside Inalla's U/B/R colour identity; excluded.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [],
+  "cuts": [],
+  "coherent_package_tradeoff": "No change: zero genuine swaps. The candidate is the canonical 100, re-serialized (case-insensitive sort, terminal newline) with an identical logical hash. Staged owner decisions: +Dualcaster Mage -Kefka (and the Pass C union with +Snapcaster Mage -Thundertrap Trainer)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "weakness": "5 MV; lands-only P(5 lands by 10 cards) 0.0958; cEDH 0.38.",
+    "alternative_named": "Dualcaster Mage",
+    "reasoning": "Owner addition. The best challenger (Dualcaster Mage) is owner-removed, so it is staged as an OWNER DECISION, not cut. Micromancer is owner-rejected and weaker."
+   },
+   {
+    "card": "Thundertrap Trainer",
+    "weakness": "Lowest cEDH incumbent rate (0.20).",
+    "alternative_named": "Snapcaster Mage",
+    "reasoning": "Owner red-team addition. It hits in the top 4 with p 0.9731 (0.9994 with Eminence). Snapcaster is owner-removed with no gain; Tidebinder has no data. Kept."
+   },
+   {
+    "card": "Apprentice Necromancer",
+    "weakness": "cEDH 211/817 (0.26), the second-lowest incumbent rate.",
+    "alternative_named": "Phantasmal Image",
+    "reasoning": "Explicit owner keep for the hasty Eminence copy that reanimates at once. No challenger clearly beats it. Kept."
+   },
+   {
+    "card": "Blood Pet",
+    "weakness": "cEDH 324/817 (0.40); a low-impact 1/1 that only refunds its own mana.",
+    "alternative_named": "Gifts Ungiven",
+    "reasoning": "Owner addition; a 1-drop that refunds its mana and is sacrifice fodder for Culling the Weak / Ruthless Technomancer lines. Gifts duplicates Intuition; Buried Alive duplicates Entomb. Kept."
+   },
+   {
+    "card": "Wheel of Fortune",
+    "weakness": "cEDH 370/817 (0.45); a symmetrical refill that also reloads opponents.",
+    "alternative_named": "The One Ring",
+    "reasoning": "Owner addition and part of the Breach/LED refill line. The One Ring is slower and off-plan. Kept."
+   },
+   {
+    "card": "Lim-Dûl's Vault",
+    "weakness": "cEDH 390/817 (0.48); card-neutral library setup that costs 1 life per look.",
+    "alternative_named": "Grim Tutor",
+    "reasoning": "Owner keep; 2 MV instant-speed setup reachable by Spellseeker. Grim Tutor is sorcery speed and 3 MV. Kept."
+   },
+   {
+    "card": "Hoarding Broodlord",
+    "weakness": "8 MV (convoke); cEDH 394/817 (0.48); the deck's most expensive card.",
+    "alternative_named": "Defense Grid",
+    "reasoning": "Owner addition; it pairs with Saw in Half and convoke makes it castable off tokens. No higher-evidence replacement. Kept."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its coloured mana depends on what opponents' lands can produce.",
+    "alternative_named": "Crystal Vein",
+    "reasoning": "Owner addition after a mana-base challenge. Crystal Vein is colourless and Tarnished Citadel deals damage. Kept."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-MV rock whose colours depend on opponents' lands.",
+    "alternative_named": "Jeweled Amulet",
+    "reasoning": "Owner keep; permanent ramp. The Amulet is net zero. Kept."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "A narrow one-mana answer that hits only blue spells or permanents.",
+    "alternative_named": "Mindbreak Trap",
+    "reasoning": "Owner addition; it hits blue counters and blue threats. Mindbreak Trap is conditional. Kept."
+   },
+   {
+    "card": "Final Fortune",
+    "weakness": "Gives an extra turn, but you lose at that turn's end step unless you win first.",
+    "alternative_named": "Gifts Ungiven",
+    "reasoning": "Owner addition; an MV 2 extra-turn spell reachable by Spellseeker that buys a second combo turn after a Breach/LED or wheel turn. No better MV <= 2 option. Kept."
+   },
+   {
+    "card": "Otawara, Soaring City",
+    "weakness": "cEDH 408/817 (0.50); its channel bounce costs {3}{U}, reduced by legendaries.",
+    "alternative_named": "Crystal Vein",
+    "reasoning": "Owner keep; a land that bounces and doubles as interaction. Kept."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Tishana's Tidebinder (staged 100, rejected), Micromancer (owner-rejected, staged and measured), Sea Gate Stormcaller, Tribute Mage, Spellstutter Sprite, Venser, Shaper Savant, Ertai Resurrected, Vendilion Clique (none beats an incumbent Wizard).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Dualcaster Mage",
+     "Snapcaster Mage"
+    ],
+    "cuts": [
+     "Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "Thundertrap Trainer"
+    ],
+    "result_and_rationale": "Pass C union, staged as a complete 100. Spellbook 16 -> 18 combos (Dualcaster loops with Saw in Half and Essence Flux). OWNER DECISION only: both adds are owner-removed and both cuts are owner additions."
+   },
+   {
+    "adds": [
+     "Defense Grid",
+     "Gifts Ungiven"
+    ],
+    "cuts": [
+     "Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "Blood Pet"
+    ],
+    "result_and_rationale": "Data-led package (cEDH 0.45 / 0.41). No combo delta (almost-included 165 -> 157). Defense Grid taxes our own off-turn interaction and Gifts duplicates Intuition. REJECTED."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested -Kefka/+Dualcaster Mage and -Kefka/+Micromancer (optionally -Thundertrap Trainer/+Snapcaster Mage). All three are staged as complete 100s and measured (T1-T4). Alternate cuts for Dualcaster Mage were checked against Blood Pet and Hoarding Broodlord (both owner additions, both feed combo lines); none is a non-owner-directed incumbent, because every incumbent is either in the owner's retained 50 or added 49.",
+  "strongest_argument_against_baseline": "Kefka, Court Mage is a 5-MV value Wizard in a turbo deck (lands-only 0.0958 to cast by 10 cards). Dualcaster Mage in its slot adds two complete two-card infinites with cards already in the 99 (Saw in Half 147-500, Essence Flux 147-4598) and is doubled by Eminence.",
+  "evidence_based_answer": "Zero genuine admissible swaps. The only evidence-backed change (+Dualcaster Mage -Kefka) re-adds an owner-removed card over an owner addition, so it is staged as an OWNER DECISION and not counted. Micromancer (owner-rejected, misses 13 of 33 Spellseeker targets), Snapcaster Mage (owner-removed, no gain), Defense Grid / Gifts Ungiven (self-tax, redundant with Intuition), Tishana's Tidebinder (no data) and the mana/value candidates were all rejected.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Inalla__Archmage_Ritualist.txt",
+  "sha256": "916e056ba387fc7e162a359069f11a1b59e91ffb358931742d2a0b912c6c4ed1",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 1x Island, 1x Swamp, every card 1x (100 distinct names). Zero substitutions against the canonical source; same logical hash lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd. 27 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Inalla__Archmage_Ritualist_M7_tested_configurations_20261023.json",
+   "tests/test_m6_inalla_archmage_ritualist_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "cEDH",
+   "Wizards",
+   "Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: zero genuine swaps were found. The strongest change, Dualcaster Mage over Kefka, Court Mage // Kefka, Ruler of Ruin (+2 two-card combos with Saw in Half and Essence Flux), re-adds a card the owner removed on 2026-10-14, so it is staged as an owner decision and not counted. Every other candidate is owner-rejected or owner-removed (Micromancer, Snapcaster Mage, Samut, Spectral Arcanist), marginal or redundant (Defense Grid, Gifts Ungiven, Crystal Vein, Tarnished Citadel, Jeweled Amulet, The One Ring, Mindbreak Trap, Grim Tutor, Buried Alive), lacks commander value (Twinflame tokens do not trigger Eminence) or is invalid (Dockside Extortionist banned, Culling Ritual off-identity). The five-swap owner-presentation floor is not met without padding. This packet is NOT owner-presentable and NOT owner approved; the canonical Inalla, Archmage Ritualist list is unchanged."
+}

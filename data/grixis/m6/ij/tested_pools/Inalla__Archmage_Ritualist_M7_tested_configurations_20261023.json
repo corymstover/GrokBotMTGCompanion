@@ -1,0 +1,99 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Inalla__Archmage_Ritualist_approved_source_2026-10-14.txt",
+   "raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+   "logical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 81333ac7..., fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 204b8096, introduced by canonical approval commit afb35c06 on 2026-10-14; overrides, tracker and registry record the same bytes; no terminal newline, copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/inalla-archmage-ritualist.txt",
+   "raw_sha256": "45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598",
+   "logical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "RESEARCH_ZERO",
+   "path": "data/grixis/m7/candidate_lists/Inalla__Archmage_Ritualist.txt",
+   "raw_sha256": "916e056ba387fc7e162a359069f11a1b59e91ffb358931742d2a0b912c6c4ed1",
+   "logical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (zero genuine admissible swaps; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Same 100 cards as the baseline, re-serialized (commander first, case-insensitive alphabetical, terminal newline); logical hash identical to the baseline."
+  },
+  {
+   "id": "PASS_C_DUALCASTER_OVER_KEFKA",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt",
+   "raw_sha256": "112ae3f0b715da6d93638299763a30c4f950ab4aed1cc597b4b424ff683d3c31",
+   "logical_hash": "lh1:f71e05a42cabc078ae1e1c0bd3fa3ee4355c24f20acba432c37db0c345c7f714",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "OWNER_DECISION_ALTERNATIVE (one-swap, staged; Pass C's first requested test; not counted). +Dualcaster Mage -Kefka, Court Mage // Kefka, Ruler of Ruin. Commander Spellbook: 16 -> 18 complete combos (147-500 Dualcaster Mage + Saw in Half; 147-4598 Dualcaster Mage + Essence Flux, both partners already in the 99); 3 MV flash vs 5 MV; lands-only RR castability 0.4605 at 10 cards vs Kefka five lands 0.0958. Not counted because Dualcaster Mage was explicitly removed by the owner in the 2026-10-14 rebuild and the brief forbids re-adding removed cards."
+  },
+  {
+   "id": "PASS_C_MICROMANCER_OVER_KEFKA",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt",
+   "raw_sha256": "a6aceeabc80f66856f98883e4faeb9df59cd17d339cbbaf86cedeb3ce2a1193d",
+   "logical_hash": "lh1:323ab2e2bfc21fc7752215506aa033c7e4b757778d7db3be868d398459f5eff8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C's second requested test). Owner-rejected by name; Micromancer reaches 20 of Spellseeker's 33 targets and misses Tainted Pact, Finale of Promise, Demonic Tutor, Pact of Negation and Shallow Grave; no combo delta; {3}{U} lands-only castability 0.2717 at 10 cards."
+  },
+  {
+   "id": "PASS_C_SNAPCASTER_OVER_TRAINER",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt",
+   "raw_sha256": "5a8da1da839aebe6fd604cd04a638029264bc29c8813e0855b36309b2fcae68d",
+   "logical_hash": "lh1:f1417d504350846d03363dc7bc4393af2ffcb135fc8f324ac5dec6f6dcfa6423",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C's optional test). Snapcaster Mage was owner-removed; identical {1}{U} castability 0.8045; Thundertrap Trainer (owner red-team addition) already finds a noncreature nonland card in the top four with p=0.9731 (0.9994 with the Eminence copy); no combo delta."
+  },
+  {
+   "id": "TWO_PASS_C_COMBINED",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt",
+   "raw_sha256": "e528842c91ab5cf0eaa6cc5db5c6fbff2074eaa54f8d350b4187863f192e7f79",
+   "logical_hash": "lh1:4888ead98deb4b45c6fa487bfb391235a44b11dc63c48ad71d921ad766644b41",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "OWNER_DECISION_ALTERNATIVE (two-swap package, staged; not counted). Both Pass C Wizards together; both adds are owner-removed cards."
+  },
+  {
+   "id": "TWO_DATA_DEFENSEGRID_GIFTS",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt",
+   "raw_sha256": "31aba9876dfc206718c76553d69f30f0edfb2f750d0c5c86aa08fccab303cb35",
+   "logical_hash": "lh1:41dfe8c4a784f300baf3bcb8bb04322b4bd1e101981bf97cba13b7a531ce735f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (two-swap data-led package). Highest-inclusion admissible cEDH non-incumbents (Defense Grid 0.45, Gifts Ungiven 0.41) over the two weakest-by-data unprotected incumbents. Defense Grid taxes our own off-turn free/cheap interaction; Gifts duplicates Intuition at 4 MV; Spellbook 16 -> 16."
+  },
+  {
+   "id": "ONE_TIDEBINDER_OVER_TRAINER",
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt",
+   "raw_sha256": "db10efe2234a3e410cb05b1d3089b7c96648b5d71d2ed297d0e2607b1cc1653b",
+   "logical_hash": "lh1:0ec0c442dbb4309f336250fb20163dae8f73737d2f831b6dd8133d509d8af846",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap off-ranking challenge). Tishana's Tidebinder is absent from the cEDH sample, costs 3 vs 2, and would cut an owner red-team addition; no combo delta."
+  }
+ ]
+}
