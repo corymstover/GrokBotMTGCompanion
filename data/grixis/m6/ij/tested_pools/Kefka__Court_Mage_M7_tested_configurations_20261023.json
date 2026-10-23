@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Kefka__Court_Mage",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 12,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Kefka__Court_Mage_approved_source_2026-10-14.txt",
+   "raw_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+   "logical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw cd36192f..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt, blob 84dbe0b4, introduced by canonical approval commit 7bf011ac on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides, tracker and registry record the same bytes; no terminal newline, copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/source-baseline/kefka-court-mage.txt",
+   "raw_sha256": "1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391",
+   "logical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash. (exports/grixis-archidekt/kefka-court-mage.txt is an older unapproved GrokBot challenger that re-adds owner-cut cards; not used.)"
+  },
+  {
+   "id": "RESEARCH_ONE_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Kefka__Court_Mage.txt",
+   "raw_sha256": "4adf02f9a72586b541e980218257f296a3b42bd22318bc9b59dc3dac967d210c",
+   "logical_hash": "lh1:ba340792b7383533f17207ac48228ad283d13ad513b0b52d310e6f964f964b01",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (one genuine admissible swap, +Dualcaster Mage -Culling the Weak; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Dualcaster Mage turns three owner-added Kefka spine cards already in the deck into two-card lines (Commander Spellbook 147-5487 Molten Duplication: infinite hasty tokens; 147-500 Saw in Half; 147-4598 Essence Flux), is a flash Wizard that Harmonic Prodigy doubles, and lets a spare copy target Kefka for repeated enter triggers. Spellbook 6 -> 9. Data caveat: adoption is neutral to slightly against (EDHREC cEDH 497 vs Culling the Weak 861 of 2232; EDHTop16 one-year conversion 0.1706 on 252 entries vs Culling 0.1867 on 557, inside noise). Owner-direction flag: the Molten Duplication kill does not require Kefka. Serialized commander first, case-insensitive alphabetical, terminal newline."
+  },
+  {
+   "id": "PASS_C_ENTOMB_OVER_DEMONIC_COUNSEL",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_DemonicCounsel_20261023.txt",
+   "raw_sha256": "62e6cf7e7ff84800d3e7dcb6e0ff5c445a7396073add47c947cc86305994bdc5",
+   "logical_hash": "lh1:c6297c6b33cfc9a787d5c1e409f362125ddea73c43ee129e4c69f33cfced2fc9",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C requested test). Bounded test: Entomb roughly doubles the early Anger-haste window (Anger-or-Entomb plus a Mountain-subtype source by turn 5: 0.0863 -> 0.1642), but the absolute gain is small, it tutors nothing to hand and it is exposed to graveyard hate. Demonic Counsel is dead without delirium (no Demon in the 99) and the delirium proxy is low early (turn 4: 0.066 lower / 0.423 upper), but it becomes a two-mana any-card tutor once Kefka triggers and fetchlands fill the graveyard. Not clearly better; Demonic Counsel is an owner addition (accepted over Opposition Agent). Spellbook 6 -> 6."
+  },
+  {
+   "id": "PASS_C_ENTOMB_OVER_BORNE",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_BorneUponAWind_20261023.txt",
+   "raw_sha256": "832748c5ffb15fc3bd1807572cdf3a0d9a3e1634ef3c4fac576ef42678fc28d9",
+   "logical_hash": "lh1:f2239c69f45efa1b34ed4d02cc7bbc83b912f12265bc791020fe1a09dcaf41e4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C requested comparison). Borne Upon a Wind gives flash to sorcery-speed Wheel of Fortune, Gamble and the Kefka-copy sorceries and replaces itself; Entomb's only Kefka-specific job (Anger to graveyard) is duplicated by Kefka's own enter trigger discard. Spellbook 6 -> 6."
+  },
+  {
+   "id": "PASS_C_DRC_OVER_TINYBONES",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_DragonsRageChanneler_minus_TinybonesBaubleBurglar_20261023.txt",
+   "raw_sha256": "56f385305960020d6fc50fab42589ec26c26c5ef1f40ef629451e7a9ca0dbba5",
+   "logical_hash": "lh1:bd17ff595b1ad3195efb05ce1d52895b4aa3735991c7744ebce75ab092ffc619",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C optional challenge). Tinybones, Bauble Burglar is an explicit owner keep (retained front-face discard payoff). Dragon's Rage Channeler has higher EDHREC cEDH inclusion (648 vs 358 of 2232) and surveils into delirium, but only Demonic Counsel cares about delirium; it does not clearly beat the owner keep. Spellbook 6 -> 6."
+  },
+  {
+   "id": "PASS_C_TALISMAN_INDULGENCE_OVER_CULLING",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_TalismanOfIndulgence_minus_CullingTheWeak_20261023.txt",
+   "raw_sha256": "7a09f862d1e7e6f7e80903c65f756c5bd9902db7f5c5b11ef16f7f69c93480f1",
+   "logical_hash": "lh1:0583e5cf4a270691d872792f7f0d6efd69e9f7eafee183f20b1875e8d9ead57c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap fallback, staged; Pass C requested comparison). A third two-colour rock (EDHREC cEDH 1134/2232; EDHTop16 one-year 629 entries, conversion 0.172, against Culling the Weak 0.187 and the 0.196 field) is a reasonable replacement for Culling the Weak, but the same slot is better spent on Dualcaster Mage (three new two-card lines). Retained as the documented fallback cut-replacement if Dualcaster Mage is declined."
+  },
+  {
+   "id": "ONE_MOCKINGBIRD_OVER_MOLTEN_DUPLICATION",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_Mockingbird_over_MoltenDuplication_20261023.txt",
+   "raw_sha256": "d438b8cd728d0bc34aa4a9611250d3dfa7045c06ac7cef4d085daf46ddc360c9",
+   "logical_hash": "lh1:8a270b88c9150851e35eed5a78daba0b0422b2b72649d136c0cc9d47015f4e4b",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap; owner-addition override test). Mockingbird has much higher EDHREC cEDH inclusion (961 vs 341 of 2232), but copies Kefka only for six mana against Molten Duplication's two, and Molten Duplication is the strongest Dualcaster Mage partner in the candidate. Evidence does not clearly beat the owner addition. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_VIVI_OVER_TALISMAN_CREATIVITY",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_ViviOrnitier_over_TalismanOfCreativity_20261023.txt",
+   "raw_sha256": "7f14b59049b0607e1bd0e862823d84e93300caec9f8e1504407a0b49fe16235a",
+   "logical_hash": "lh1:867074ded0716d670b591ddc60f9a85b69f6ecda4825309bd011f93db2e50e3a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Vivi Ornitier is a Wizard that pings each opponent on noncreature casts (back-face draw on your turn) and ramps, but starts at power 0, is a three-mana creature that dies to every sweeper, and its EDHTop16 one-year conversion is below the field (408 entries, 0.159 vs 0.196); Talisman of Creativity is permanent two-mana U/R acceleration to a five-mana commander (EDHREC cEDH 1256 vs Vivi 746). Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_MISTRISE_OVER_ISLAND",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_MistriseVillage_over_Island_20261023.txt",
+   "raw_sha256": "85c153525d42b66c04f6c00d51259cdd07ff6b4b7ea71e85296279d3b0a65fad",
+   "logical_hash": "lh1:ebcc395c77012693a4ba21e87e0062b2ba743f0a7e7aa91560721fbb3a35532d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Mistrise Village can make Kefka uncounterable, but Cavern of Souls and Hexing Squelcher already do that job; it enters tapped without a Mountain or Forest and removes the deck's only basic (Blood Moon / Back to Basics insurance and a fetch target). EDHREC cEDH 791 vs 668 is not a clear margin. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_DUALCASTER_OVER_DIABOLIC_INTENT",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_DualcasterMage_over_DiabolicIntent_20261023.txt",
+   "raw_sha256": "11c5f1e8839fdb98289850f5191b7068a11ecf30f72abf00eeb03c291104a926",
+   "logical_hash": "lh1:4ca70bd80269c8269e7a73bf97e429120f1f4c6ffeb89e8afb01b0a884a7fa2e",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; alternative cut for the same add). Same Spellbook gain as the candidate (6 -> 9), but Diabolic Intent is a tutor to hand that finds either half of the new line or Thassa's Oracle, while Culling the Weak is a black-only ritual; cutting the ritual is preferred."
+  },
+  {
+   "id": "ONE_SPARK_DOUBLE_OVER_GOGO",
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_SparkDouble_over_GogoMysteriousMime_20261023.txt",
+   "raw_sha256": "a6fb0df7ed8efe3e37da2c2d7c494e7c7a90aa4e17c7142ee56305d8f55b9b40",
+   "logical_hash": "lh1:a69318a01a22e2c37e6cb50dac5350a0625e01aaa0e1fbaa277b106fbdc608ae",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap; owner-keep override test). Spark Double makes a permanent non-legendary Kefka with an enter trigger, but Gogo, Mysterious Mime is an explicit owner keep that grants haste to both Kefkas the turn it is used; Spark Double has no haste and no cEDH-page presence. Evidence does not clearly beat the owner keep. Spellbook 6 -> 6."
+  }
+ ]
+}

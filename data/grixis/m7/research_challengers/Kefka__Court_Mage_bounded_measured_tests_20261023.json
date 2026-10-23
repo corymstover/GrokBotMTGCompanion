@@ -1,0 +1,129 @@
+{
+ "deck": "Kefka__Court_Mage",
+ "method": "exact hypergeometric over the actual 99 where closed form exists; seeded finite Monte Carlo (seed 25, N=200000) for the delirium proxy; no claim of effect-aware game simulation",
+ "seen_convention": "n = cards seen on the play: 7 opening + (turn-1) draws; no mulligans",
+ "mountain_subtype_lands_in_99": [
+  "Badlands",
+  "Blood Crypt",
+  "Steam Vents",
+  "Volcanic Island"
+ ],
+ "fetchlands_that_find_one": {
+  "Arid Mesa": "Mountain",
+  "Bloodstained Mire": "Mountain",
+  "Scalding Tarn": "Mountain",
+  "Wooded Foothills": "Mountain",
+  "Flooded Strand": "Island (Volcanic Island/Steam Vents are Island Mountains)",
+  "Misty Rainforest": "Island (Volcanic Island/Steam Vents)",
+  "Polluted Delta": "Island or Swamp (all four Mountain duals qualify)",
+  "Marsh Flats": "Swamp (Badlands/Blood Crypt)",
+  "Verdant Catacombs": "Swamp (Badlands/Blood Crypt)"
+ },
+ "mountain_subtype_sources_total": 13,
+ "demons_in_99": [],
+ "mountain_source_by_turn": {
+  "turn 1 (n=7)": 0.6391,
+  "turn 2 (n=8)": 0.6901,
+  "turn 3 (n=9)": 0.7343,
+  "turn 4 (n=10)": 0.7727,
+  "turn 5 (n=11)": 0.8059,
+  "turn 6 (n=12)": 0.8346
+ },
+ "anger_haste_window": {
+  "rules": "Anger only grants haste while it is in your graveyard and you control a Mountain-subtype land. Native line: cast Kefka with Anger in hand, discard Anger to Kefka's own enter trigger, then attack with haste for the attack trigger the same turn. Entomb line: Entomb (B, instant) puts Anger in the graveyard before Kefka is cast.",
+  "by_turn": {
+   "turn 1 (n=7)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.0413,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.0804
+   },
+   "turn 2 (n=8)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.052,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.1006
+   },
+   "turn 3 (n=9)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.0631,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.1214
+   },
+   "turn 4 (n=10)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.0746,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.1427
+   },
+   "turn 5 (n=11)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.0863,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.1642
+   },
+   "turn 6 (n=12)": {
+    "baseline_Anger_seen_and_Mountain_source": 0.0981,
+    "plusEntomb_Anger_or_Entomb_seen_and_Mountain_source": 0.1856
+   }
+  },
+  "note": "Tutors (Demonic Tutor, Vampiric Tutor, Imperial Seal, Gamble, Wishclaw Talisman) can also find Anger in both configurations and are excluded symmetrically; Arena of Glory is a second, independent haste source in both."
+ },
+ "counsel_delirium_proxy": {
+  "assumptions": "Own graveyard types counted: Land if a played land was a fetchland; Instant/Sorcery if one with mana value <=2 was seen by turn 2+ (assumed cast); Artifact if Lotus Petal, Lion's Eye Diamond or Wishclaw Talisman was seen (assumed sacrificed). Creature and Enchantment reach the graveyard only by discard, so the upper bound adds exactly one free typed discard (Kefka's own enter trigger, Gamble, or Entomb). This is an optimistic proxy; real play withholds counters and sequencing costs mana.",
+  "baseline": {
+   "turn 2 (n=8)": {
+    "lower_no_extra_discard": 0.0293,
+    "upper_with_one_free_typed_discard": 0.2648
+   },
+   "turn 3 (n=9)": {
+    "lower_no_extra_discard": 0.047,
+    "upper_with_one_free_typed_discard": 0.3509
+   },
+   "turn 4 (n=10)": {
+    "lower_no_extra_discard": 0.0659,
+    "upper_with_one_free_typed_discard": 0.4229
+   },
+   "turn 5 (n=11)": {
+    "lower_no_extra_discard": 0.0873,
+    "upper_with_one_free_typed_discard": 0.4873
+   },
+   "turn 6 (n=12)": {
+    "lower_no_extra_discard": 0.111,
+    "upper_with_one_free_typed_discard": 0.5463
+   }
+  }
+ },
+ "counsel_without_delirium": "Demonic Counsel without delirium searches for a Demon card; the exact 99 contains no Demon, so without four types it is a dead card (it can still be discarded to Kefka as a Sorcery type).",
+ "grave_hate_and_responses": {
+  "Entomb": "Instant-speed; the binned card is exposed to graveyard hate (Bojuka Bog, Soul-Guide Lantern, Endurance-style shuffles) and Anger's haste is lost if Anger is exiled.",
+  "Demonic Counsel": "Sorcery-speed tutor to hand; graveyard hate that empties your graveyard turns off delirium (it then finds only Demons, of which there are none).",
+  "Kefka": "Kefka can be countered on the stack (Cavern of Souls and Hexing Squelcher are the anti-counter incumbents); once the enter or attack trigger is on the stack it resolves even if Kefka is removed."
+ },
+ "DRC_vs_Tinybones": "Not run as a separate measurement: Tinybones, Bauble Burglar is an explicit owner keep (2026-10-14 decisions, retained as a distinct front-face discard payoff), and DRC's only decisive benefit here would be raising Demonic Counsel's delirium rate, which the proxy above already bounds; the challenge cannot clear the owner-override bar on that basis.",
+ "dualcaster_mage_test": {
+  "rules": "Dualcaster Mage has flash and copies target instant or sorcery spell on entering; the copy is not cast (CR 707.10). Molten Duplication: with Molten Duplication on the stack targeting another artifact or creature you control, flash in Dualcaster Mage and copy it targeting Dualcaster Mage; each hasty token copy enters and copies the original Molten Duplication again (Commander Spellbook 147-5487: infinite hasty creature tokens; combat win this turn). Saw in Half (147-500): infinite tokens without haste (haste via Anger in graveyard with a Mountain-subtype land). Essence Flux (147-4598): infinite Dualcaster enter triggers; with Harmonic Prodigy on the battlefield each Dualcaster enter trigger happens twice (Dualcaster Mage is a Wizard), so the spare copy of Molten Duplication/Essence Flux can target Kefka each iteration for repeated Kefka enter triggers. Harmonic Prodigy is not required for the Molten Duplication kill.",
+  "by_turn": {
+   "turn 1 (n=7)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0123
+   },
+   "turn 2 (n=8)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0163
+   },
+   "turn 3 (n=9)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0207
+   },
+   "turn 4 (n=10)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0256
+   },
+   "turn 5 (n=11)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0309
+   },
+   "turn 6 (n=12)": {
+    "P_Dualcaster_and_at_least_one_partner_seen": 0.0367
+   }
+  },
+  "partner_or_tutor_note": "Demonic Tutor, Vampiric Tutor, Imperial Seal, Diabolic Intent, Gamble and Wishclaw Talisman find either half; Mystical Tutor finds the instant/sorcery half.",
+  "mana": "Molten Duplication {1}{R} + Dualcaster Mage {1}{R}{R} = 5 mana with three red; red sources in the 100 are unchanged by the swap.",
+  "cut_Culling_the_Weak": "Culling the Weak ({B}, sacrifice a creature: add {B}{B}{B}{B}) is the cut. It needs a creature to sacrifice and makes only black; Pass C itself questioned it (source-paid Culling vs a third colored rock if early creatures are too rare). Rituals that remain: Dark Ritual, Cabal Ritual, Rite of Flame, plus Lotus Petal, Lion's Eye Diamond and Simian Spirit Guide.",
+  "early_creature_for_Culling": {
+   "turn 1 (n=7)": 0.4115,
+   "turn 2 (n=8)": 0.4563,
+   "turn 3 (n=9)": 0.4981,
+   "turn 4 (n=10)": 0.5372,
+   "turn 5 (n=11)": 0.5736,
+   "turn 6 (n=12)": 0.6075
+  },
+  "early_creature_note": "Creatures with mana value <=2 that can be sacrificed early: Ragavan, Nimble Pilferer; Harmonic Prodigy; Hexing Squelcher; Tinybones, Bauble Burglar; Orcish Bowmasters (and its Orc Army token); Phantasmal Image; Thassa's Oracle (normally not sacrificed). P(>=1 of these 7 seen) shown; it must also have been cast first."
+ }
+}
