@@ -530,11 +530,11 @@
    "registry_recorded_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
    "registry_recorded_matches_raw": true,
    "candidate_path": "data/grixis/m7/candidate_lists/Doctor_Doom__King_of_Latveria.txt",
-   "candidate_raw_sha256": null,
+   "candidate_raw_sha256": "21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb",
    "current_candidate_sha": "b4acf9995679a06cbf200f836bdaa8c40c580b180e50b3f1b64622d646ffdfa8",
    "branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
    "working_branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
-   "last_pushed_commit": "e9a89cb514eeded447581693fe9807c9815d2f57",
+   "last_pushed_commit": "ce4fdf9449c7644bc08c86a79c20bdfe24183544",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/661",
    "swap_count": null,
    "ci_runs": [],
@@ -545,13 +545,15 @@
     [
      "research_snapshots",
      "provisional_candidate"
-    ]
+    ],
+    "pass_c_bounded_tests"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments",
-   "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments"
+   "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments",
+   "last_checkpoint_at": "2026-10-23T07:52-05:00"
   },
   {
    "tracker_number": 14,
