@@ -1,0 +1,472 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "4508-4869",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "1558-5736",
+    "uses": [
+     "Edward Kenway",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-4231-4508",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Time Sieve",
+     "Academy Manufactor"
+    ],
+    "produces": [
+     "Near-infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "451-1558",
+    "uses": [
+     "Hoard Hauler",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-6307",
+    "uses": [
+     "Time Sieve",
+     "Luxurious Locomotive"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 43,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1089-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1548-1692",
+    "uses": [
+     "Port Razer",
+     "Helm of the Host"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite creature tokens with haste",
+     "Infinite damage",
+     "Infinite creature ETB",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "406-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Tandem Lookout"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2396-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Ophidian Eye"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "282-1548",
+    "uses": [
+     "Delina, Wild Mage",
+     "Port Razer"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "4508-4869",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "1558-5736",
+    "uses": [
+     "Edward Kenway",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-4231-4508",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Time Sieve",
+     "Academy Manufactor"
+    ],
+    "produces": [
+     "Near-infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "451-1558",
+    "uses": [
+     "Hoard Hauler",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Time Sieve"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "1558-6307",
+    "uses": [
+     "Time Sieve",
+     "Luxurious Locomotive"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 45,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1089-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1548-1692",
+    "uses": [
+     "Port Razer",
+     "Helm of the Host"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite creature tokens with haste",
+     "Infinite damage",
+     "Infinite creature ETB",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "406-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Tandem Lookout"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2396-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Ophidian Eye"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "282-1548",
+    "uses": [
+     "Delina, Wild Mage",
+     "Port Razer"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ]
+ },
+ "deck_id": "Edward_Kenway",
+ "candidate_list": "data/grixis/m7/candidate_lists/Edward_Kenway.txt (raw sha256 f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad)",
+ "note": "Included (complete per Spellbook) combos are identical in baseline and candidate: Malcolm, Keen-Eyed Navigator + Glint-Horn Buccaneer (near-infinite damage; needs two or more opponents damaged per loop and Glint-Horn attacking), and five Time Sieve lines (Edward, Hoard Hauler, The Reaver Cleaver, Luxurious Locomotive, Malcolm+Academy Manufactor) that Spellbook labels infinite/near-infinite turns. Those Sieve lines are NOT unconditional infinites: each extra turn needs five artifacts to sacrifice and enough Treasure regeneration (combat connection or tapped qualifiers) on every loop; this review treats them as repeatable extra-turn engines, not deterministic infinites. Almost-included counts 43 (baseline) vs 45 (candidate); no new complete combo is introduced by the five adds."
+}

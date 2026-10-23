@@ -9,3 +9,11 @@
   exports/grixis-archidekt/edward-kenway.txt is logically identical (different order / quantity prefix).
 - Shared infra copied byte-identically from PR #664 head cc2e6d45 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance. Next: Pass C read, research (Scryfall live, EDHREC, Spellbook), candidate judgments.
+
+## Checkpoint 2026-10-23 09:59 CDT (research)
+- Live Scryfall (09:53 CDT), EDHREC general/upgraded/optimized (09:52 CDT; 13036/1112/294 decks), Commander Spellbook baseline vs candidate committed under research_challengers.
+- Edward Kenway: Assassin's Creed (acr), released 2024-07-05, Commander-legal, U/B/R, not a Game Changer. No exception applied.
+- Working primary (provisional, not final): +Mu Yanling, Wind Rider / -Breeches, Brazen Plunderer; +Brotherhood Vertibird / -Imposter Mech;
+  +Mirkwood Bats / -Fellwar Stone; +Spectral Sailor / -Lotus Petal; +Malcolm, the Eyes / -Captain Lannery Storm. No explicit owner keep cut.
+- Pass C bounded test (Bats vs Fateful, Bats vs Adrestia) computed; staged alternatives committed.
+- Next: decision packet, I/J memos, certificate, bundle, snapshots, tests, workflow.
