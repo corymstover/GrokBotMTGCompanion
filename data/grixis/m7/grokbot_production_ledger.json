@@ -1741,29 +1741,55 @@
    "baseline_raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
    "registry_recorded_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor.txt",
+   "candidate_raw_sha256": "435717e03dc60e874f638b0daf8ebc9ce2e898d00207985daebe789acf47fb77",
+   "current_candidate_sha": "435717e03dc60e874f638b0daf8ebc9ce2e898d00207985daebe789acf47fb77",
    "branch": "grokbot-deck31-lynde-cheerful-tormentor-m7-20261023",
    "working_branch": "grokbot-deck31-lynde-cheerful-tormentor-m7-20261023",
-   "last_pushed_commit": "dae55e5fbceabb6197e566ea81228b5e32b4febf",
+   "last_pushed_commit": "0400721e229dfc2e5b655870a3dcce89c1a61bfe",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/679",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
+   "swap_count": 2,
+   "ci_runs": [
+    {
+     "workflow": "M7 Deck 31 Lynde Cheerful Tormentor research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40037339318",
+     "conclusion": "success",
+     "head": "0400721e229dfc2e5b655870a3dcce89c1a61bfe"
+    },
+    {
+     "workflow": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40037339074",
+     "conclusion": "success",
+     "head": "0400721e229dfc2e5b655870a3dcce89c1a61bfe"
+    },
+    {
+     "workflow": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40037339007",
+     "conclusion": "success",
+     "head": "0400721e229dfc2e5b655870a3dcce89c1a61bfe"
+    }
+   ],
+   "blockers": [
+    "sealed Pass C stage_a.md SHA mismatch: seal.json (commit c4c5fa5d) records 59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e, committed stage_a.md (Stage A commit b4c98568, blob b253ed9c, 13276 bytes) hashes 02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a; exact cause: sealed value = SHA-256 of the file without its final newline byte (recorded blob matches committed bytes); unchanged checker rejects the J bundle ('Stage A source diverged from separately sealed byte commitment'); mock proves it is the only failure; seal and checker not edited; owner decision required",
+    "two genuine swaps (+Court of Vantress -Cruel Reality; +Extravagant Replication -Curse of Death's Hold); no owner keep/add cut; five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 2, 21 material candidates, 13 weakest slots)"
+   ],
    "unresolved_issues": [
-    "Pass C Stage A seal mismatch: seal.json (c4c5fa5d) records stage_a.md 59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e, committed bytes (b4c98568, blob b253ed9c) hash 02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a; under investigation, not edited"
+    "Pass C Stage A seal mismatch (exact cause: extra trailing newline vs sealed hash) - owner decision: re-seal or documented hash-correction exception",
+    "optional owner choice: two-swap candidate vs single-swap alt A (Court only) or alt B (Replication only); Staff of Compleation over Nightscape Familiar staged",
+    "M7 bundle in data/grixis/m6/ij/revision_bundles is not covered by bundle_check --check (scans data/grixis/m6/bundles only); validated by the deck IJ test",
+    "tracker row 30 gate sub-fields PENDING and decisions-doc header hashes pre-change (recorded, not changed)"
    ],
    "completed_stages": [
-    "baseline byte copy + shared infra (dae55e5f), draft PR 679"
+    "baseline byte copy + shared infra (dae55e5f), draft PR 679",
+    "package 0400721e229dfc2e5b655870a3dcce89c1a61bfe: decision review + adversarial packet, 13-config pool, I memo, J mana/red-team, blocked certificate, J bundle (rejected only on seal; exact cause pinned), 3 deck tests (29 methods), focused workflow; WIP checkpoint removed; exact-head CI 3/3 success; full suite 24F/1631P/18S/86E, F/S/E counts identical to PR 678 head run (24/1630/18/86; +29 Deck 31 tests, -28 Deck 30 tests)"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
+   "status": "RESEARCH_ONLY_BLOCKED",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Commander-first research, EDHREC/Scryfall/Spellbook, candidate judgments",
-   "next_step": "Commander-first research, EDHREC/Scryfall/Spellbook, candidate judgments",
-   "updated_at": "2026-10-23T17:36:44-0500",
-   "last_checkpoint_at": "2026-10-23T17:36:44-0500"
+   "next_action": "owner decision on Stage A seal mismatch (trailing newline) and RESEARCH_ONLY two-swap candidate (alts A/B); next deck #32 Mai_and_Zuko (index 31)",
+   "next_step": "owner decision on Stage A seal mismatch (trailing newline) and RESEARCH_ONLY two-swap candidate (alts A/B); next deck #32 Mai_and_Zuko (index 31)",
+   "updated_at": "2026-10-23T18:04:04-0500",
+   "last_checkpoint_at": "2026-10-23T18:04:04-0500"
   },
   {
    "tracker_number": 32,
