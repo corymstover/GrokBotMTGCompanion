@@ -529,19 +529,23 @@
    "baseline_raw_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
    "registry_recorded_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Doctor_Doom__King_of_Latveria.txt",
    "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "current_candidate_sha": "b4acf9995679a06cbf200f836bdaa8c40c580b180e50b3f1b64622d646ffdfa8",
    "branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
    "working_branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
-   "last_pushed_commit": "0b620cd54698a3fc22531fcf0231ab3a35bcf835",
+   "last_pushed_commit": "e9a89cb514eeded447581693fe9807c9815d2f57",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/661",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw c97bd448 == overrides == tracker == registry; 100 physical/100 rows; 38 lands); shared infra copied from #660 bb3be7d3; draft PR #661 2026-10-23 07:42 CDT"
+    "baseline_provenance (canonical main 9b26aa28; raw c97bd448 == overrides == tracker == registry; 100 physical/100 rows; 38 lands); shared infra copied from #660 bb3be7d3; draft PR #661 2026-10-23 07:42 CDT",
+    [
+     "research_snapshots",
+     "provisional_candidate"
+    ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
