@@ -11,7 +11,7 @@
     "approved_oracle_snapshot_path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
   },
   "commander_identity": {
-    "mechanical_plan": "On Cory's own turn, opponents must have lost actual life before a spell cast FROM HAND gains Abaddon's cascade, and that spell's mana value must fit the greatest life lost this turn. Recurring paid hand casts, reliable all-opponent threshold sources, stacked copies of Abaddon, printed Warhammer cascade, nonhand payoff triggers, and a protected Neheb/Assault combat line define this list.",
+    "mechanical_plan": "On Cory's own turn, opponents must have lost actual life before a spell cast FROM HAND gains Abaddon's cascade, and that spell's mana value must be no greater than the TOTAL life lost this turn across all opponents, summed over all loss events. Recurring paid hand casts, reliable all-opponent threshold sources, stacked copies of Abaddon, printed Warhammer cascade, nonhand payoff triggers, and a protected Neheb/Assault combat line define this list.",
     "protected_core": [
       "Noise Marine",
       "Nalfeshnee",
