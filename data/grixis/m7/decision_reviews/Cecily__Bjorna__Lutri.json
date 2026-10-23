@@ -1,0 +1,891 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "canonical_baseline_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+ "canonical_baseline_logical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "commander_identity": {
+  "mechanical_plan": "Cecily, Haunted Mage ({1}{U}{B}{R}, 3/5 Human Wizard) draws on attack and, with eleven or more cards in hand, free-casts an instant or sorcery from hand. Bjorna, Nightfall Alchemist ({U}{R}, 1/3) sacrifices artifacts to ping and goad, keeping attackers off us. Lutri, the Spellchaser is the companion (project exception) and copies one big spell. The deck draws to eleven-plus with Rhystic Study, The One Ring, Trade Secrets and Yawgmoth's Bargain, then attacks to free-cast Apex of Power, Mnemonic Deluge, In Garruk's Wake, Peer into the Abyss or Teferi's Ageless Insight.",
+  "protected_core": [
+   "Cecily, Haunted Mage",
+   "Bjorna, Nightfall Alchemist",
+   "Robe of the Archmagi",
+   "Harmonic Prodigy",
+   "Thought Vessel",
+   "In Garruk's Wake",
+   "Apex of Power",
+   "Mnemonic Deluge",
+   "Peer into the Abyss",
+   "Teferi's Ageless Insight",
+   "Underworld Breach",
+   "Wheel of Fortune",
+   "Jeska's Will",
+   "Psychosis Crawler",
+   "Trade Secrets",
+   "Yawgmoth's Bargain"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Ten Game Changers (Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Mystical Tutor, Notion Thief, Rhystic Study, The One Ring, Underworld Breach, Vampiric Tutor), all unchanged; none of the adds is a Game Changer. Combos: Breach + Wheel of Fortune + Jeska's Will (finite loop needing a payoff), Crawler + Peer, Peer + Teferi (self-deck risk), and the new Toad + Peer win. Not cEDH.",
+  "anti_homogenization": "Every add serves Cecily's attack trigger or protects the turn it happens: two trigger copiers, a win condition for the big hand, a hand-size draw MDFC, and two protection/stack cards. Generic staples (Arcane Denial, Swan Song, Reliquary Tower) were rejected on deck-specific grounds."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 98 library cards plus the companion reviewed by quantity (97 rows; Island x2). Roles: 33 lands, 9 rocks (Sol Ring, Arcane Signet, three Signets, three Talismans, Thought Vessel), draw engines (Rhystic Study, The One Ring, Trade Secrets, Yawgmoth's Bargain, wheels), tutors, free-cast payoffs, Bjorna artifact fodder, and protection. Overlaps: two red rituals (Seething Song, Mana Geyser) and several low-impact artifact creatures (Emry, Engineer, Sai).",
+  "mana_base_and_curve": "Baseline: 33 lands + 9 rocks; average nonland MV 3.338; pips U 36, B 21, R 29. Candidate: 33 lands + Sea Gate MDFC + 9 rocks; average nonland MV 3.369; pips U 41, B 20, R 26. P(2-5 lands in opening 7) 0.747 -> 0.764; P(4+ mana sources in top 11) 0.782 -> 0.802 (hypergeometric, 98 cards). Two rituals removed.",
+  "interaction_resilience": "Stack: Counterspell, Fierce Guardianship, plus Mana Drain and Deflecting Swat. Removal: Cyclonic Rift, Toxic Deluge, In Garruk's Wake, Bjorna pings. Wins without Cecily: Twenty-Toed Toad, Psychosis Crawler, Breach loops. Weak points: graveyard hate turns off Breach, artifact hate turns off Bjorna and Resonator.",
+  "weakest_slots": [
+   {
+    "card": "Emry, Lurker of the Loch",
+    "weakness": "Random mill 4 and a slow artifact recast; absent from the pair page.",
+    "alternative_named": "Strionic Resonator",
+    "reasoning": "Resonator copies Cecily's attack trigger for {2}, so one ten-card attack can free-cast two spells."
+   },
+   {
+    "card": "Goblin Engineer",
+    "weakness": "Weak MV<=3 artifact targets; absent from the pair page.",
+    "alternative_named": "Echo, Perceptive Prodigy",
+    "reasoning": "Echo copies creature-source triggers, including Cecily's, for {1}."
+   },
+   {
+    "card": "Sai, Master Thopterist",
+    "weakness": "Low impact: needs a stream of artifact spells; absent from the pair page.",
+    "alternative_named": "Twenty-Toed Toad",
+    "reasoning": "Toad converts a big hand into a win (Spellbook 1561-5850)."
+   },
+   {
+    "card": "Dark Deal",
+    "weakness": "Symmetric, net -1 card for us, and drops our hand below eleven.",
+    "alternative_named": "Sea Gate Restoration // Sea Gate, Reborn",
+    "reasoning": "Sea Gate is a land or a hand-plus-one draw with no maximum hand size."
+   },
+   {
+    "card": "Mana Geyser",
+    "weakness": "Filler ritual (9/120) that depends on opponents' tapped lands.",
+    "alternative_named": "Deflecting Swat",
+    "reasoning": "Free protection for the attack turn."
+   },
+   {
+    "card": "Seething Song",
+    "weakness": "Filler ritual (8/120) with no lasting value.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Stack interaction that still makes mana."
+   },
+   {
+    "card": "Wheel of Misfortune",
+    "weakness": "Symmetric wheel plus damage bid; absent from the pair page.",
+    "alternative_named": "Enter the Infinite",
+    "reasoning": "Draws the library on a Cecily free cast; staged as a seven-swap alternative."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks our own Robe of the Archmagi equip.",
+    "alternative_named": "Peter Parker's Camera",
+    "reasoning": "A third trigger copier; staged as a seven-swap alternative."
+   },
+   {
+    "card": "Bojuka Bog",
+    "weakness": "Colorless graveyard-hate land.",
+    "alternative_named": "Reliquary Tower",
+    "reasoning": "Rejected: also colorless and redundant with Thought Vessel."
+   },
+   {
+    "card": "Academy Manufactor",
+    "weakness": "Needs Treasure makers to matter.",
+    "alternative_named": "Gogo, Master of Mimicry",
+    "reasoning": "Rejected: Resonator and Echo copy triggers more cheaply."
+   },
+   {
+    "card": "Ichor Wellspring",
+    "weakness": "Low-impact artifact whose only job is Bjorna fodder.",
+    "alternative_named": "Spellbook",
+    "reasoning": "Rejected: Wellspring cantrips twice as Bjorna fodder."
+   },
+   {
+    "card": "In Garruk's Wake",
+    "weakness": "Nine mana by hand, so it is mostly a free-cast payoff.",
+    "alternative_named": "Fevered Suspicion",
+    "reasoning": "Rejected: Wake is the unique one-sided free-cast wipe."
+   },
+   {
+    "card": "Thought Vessel",
+    "weakness": "Colorless two-mana rock in a heavy-pip three-color deck.",
+    "alternative_named": "Library of Leng",
+    "reasoning": "Rejected: Vessel also makes mana."
+   }
+  ],
+  "current_baseline_strength": "A strong Bracket 4 Cecily spellslinger with ten Game Changers. Pass C kept it unchanged but flagged a real question: whether a cheap Cecily trigger copier (Strionic Resonator) is worth a slot. The deck also lacked a win condition that turns a full hand into a win without needing the combo pieces.",
+  "candidate_pool_scope": "EDHREC Bjorna + Cecily partner-pair page JSON (120 decks; all card lists), live Scryfall /cards/collection batch for 35 candidates plus the 100-card baseline and Lutri, Commander Spellbook find-my-combos for baseline and candidate, the M6 Pass C disposition, and OFF-RANKING searches for trigger copiers, hand-size win conditions and free protection.",
+  "off_ranked_search_conclusion": "OFF-RANKING search found Echo, Perceptive Prodigy (selected), Twenty-Toed Toad (selected), Peter Parker's Camera (retained alternative), Gogo, Lithoform Engine, Spellbook, Library of Leng and Necrodominance (rejected). None of these is on the pair page."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Cecily/Bjorna/Lutri approved source refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt (read-only clone; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC partner-pair commander page JSON retrieved 2026-10-23: data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (100 baseline cards incl. companion + 35 candidates): data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for creature/trigger copiers, hand-size win conditions and free protection not on the EDHREC pair page (Echo, Perceptive Prodigy; Twenty-Toed Toad; Peter Parker's Camera; Gogo, Master of Mimicry; Lithoform Engine; Spellbook; Library of Leng; Necrodominance)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for hand size, triggers, copies and companion: data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Strionic Resonator",
+   "source": "EDHREC pair page 6/120 (Utility Artifacts); the exact M6 Pass C test-only challenger; live Scryfall batch",
+   "role": "Two-mana artifact: {2},{T} copies any triggered ability we control.",
+   "named_cuts": [
+    "Emry, Lurker of the Loch"
+   ],
+   "incumbent_opportunity_cost": "Loses Emry's random mill-4 and the once-per-turn recast of an artifact from the graveyard (affinity discount). Emry's value depends on milling the right artifacts.",
+   "commander_synergy": "A copied Cecily attack trigger is a second draw plus a second hand-size check and free cast, so one attack can cast two expensive spells (707.10). It also copies Lutri's ETB (a third copy of the spell), Archmage Emeritus, Storm-Kiln Artist and Mana Drain's delayed mana. It is an artifact, so Bjorna can sacrifice it later.",
+   "adversarial_downside": "Needs {2} open in combat and is an artifact-removal target. Harmonic Prodigy overlaps when it is on the battlefield.",
+   "judgment": "SELECT_ADD",
+   "reason": "Pass C asked exactly this question but cut In Garruk's Wake. Cutting Emry instead keeps the one-sided wipe that Pass C defended and still gives Cecily a cheap trigger doubler.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md",
+    "data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Echo, Perceptive Prodigy",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "Three-mana 1/4 vigilance creature: {1},{T} copies a triggered or activated ability from a creature source.",
+   "named_cuts": [
+    "Goblin Engineer"
+   ],
+   "incumbent_opportunity_cost": "Loses Engineer's artifact tutor-to-graveyard and its reanimation of cheap artifacts. The deck has few strong MV<=3 artifact targets, so that line is weak.",
+   "commander_synergy": "Vigilance lets Echo attack next to Cecily and still tap to copy her trigger for {1}. It also copies Archmage Emeritus, Storm-Kiln, Psychosis Crawler and Niv-Mizzet triggers, and Bjorna's activated ability (ping and goad twice for one artifact).",
+   "adversarial_downside": "Legendary creature, must be free of summoning sickness, and dies to any creature removal.",
+   "judgment": "SELECT_ADD",
+   "reason": "A second cheap trigger copier. With Resonator and Harmonic Prodigy, Cecily's ten-card-hand attack converts to two or more free casts more often, without needing a second combat.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Twenty-Toed Toad",
+   "source": "OFF-RANKING (absent from the pair page); Commander Spellbook 1561-5850; live Scryfall batch",
+   "role": "Four-mana 3/3 Frog Wizard: maximum hand size twenty; draws when we attack with two or more creatures; wins on attack with twenty cards in hand.",
+   "named_cuts": [
+    "Sai, Master Thopterist"
+   ],
+   "incumbent_opportunity_cost": "Loses Sai's Thopter-per-artifact-spell and its sac-two-draw-one. That is low impact in a 17-artifact deck that rarely chains artifact spells.",
+   "commander_synergy": "Cecily's plan is to hold a large hand. Toad turns that into a win: Peer into the Abyss on ourselves, Yawgmoth's Bargain, Trade Secrets or Sea Gate Restoration reaches twenty cards. Attacking alongside Cecily also draws a card. It is a Wizard, so Harmonic Prodigy doubles its triggers.",
+   "adversarial_downside": "It must survive a turn and attack. The win is visible and invites removal, and it does nothing on the turn it is cast.",
+   "judgment": "SELECT_ADD",
+   "reason": "It gives the deck a win condition that does not need Cecily to survive and converts the existing draw spells into a deterministic attack-trigger win (Spellbook 1561-5850).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Sea Gate Restoration // Sea Gate, Reborn",
+   "source": "EDHREC pair page 15/120 (Lands); live Scryfall batch",
+   "role": "Modal double-faced card: seven-mana draw-hand-plus-one with no maximum hand size, or an untapped Island-like land for 3 life.",
+   "named_cuts": [
+    "Dark Deal"
+   ],
+   "incumbent_opportunity_cost": "Loses Dark Deal's symmetrical discard-hand-then-draw-minus-one. Dark Deal shrinks our hand below Cecily's eleven, so its loss costs little.",
+   "commander_synergy": "Free-cast by Cecily with ten or more cards in hand, it draws eleven or more and removes the hand-size limit. That also sets up Twenty-Toed Toad. Early on it is a land, so it cuts mana screw.",
+   "adversarial_downside": "Seven mana by hand. As a land it costs 3 life to enter untapped.",
+   "judgment": "SELECT_ADD",
+   "reason": "A land in bad hands and a big Cecily free-cast payoff in good ones. It replaces a symmetrical card that works against our own plan.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Deflecting Swat",
+   "source": "EDHREC pair page 24/120 (Instants); live Scryfall batch",
+   "role": "Free (with a commander out) redirect of a spell or ability's targets.",
+   "named_cuts": [
+    "Mana Geyser"
+   ],
+   "incumbent_opportunity_cost": "Loses Mana Geyser's big red burst (one R per tapped opponent land), a ritual that needs opponents to have tapped out.",
+   "commander_synergy": "Bjorna costs two and is usually on the battlefield, so Swat is free. It protects Cecily or a combo piece from targeted removal while the deck taps out for big spells.",
+   "adversarial_downside": "Does nothing against wraths or counterspells that do not target, and it needs a commander on the battlefield to be free.",
+   "judgment": "SELECT_ADD",
+   "reason": "The deck had only two counterspells and Fierce Guardianship as free protection. Swat protects the attack turn at no mana cost.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mana Drain",
+   "source": "EDHREC pair page 21/120 (Instants); live Scryfall batch (not a Game Changer)",
+   "role": "Two-mana counterspell that adds colorless mana equal to the countered spell's MV in our next main phase.",
+   "named_cuts": [
+    "Seething Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Seething Song's instant-speed burst of five red mana, used to chain into Apex of Power or Mnemonic Deluge.",
+   "commander_synergy": "The delayed mana arrives in our main phase and pays for Lutri's companion cost or the post-combat spells. Resonator can copy the delayed trigger.",
+   "adversarial_downside": "Mana it adds is colorless, and holding UU up slows our own turn.",
+   "judgment": "SELECT_ADD",
+   "reason": "Stack interaction was thin. Mana Drain both protects the attack turn and partly replaces the ramp lost with Seething Song.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Enter the Infinite",
+   "source": "EDHREC pair page 10/120 (High Lift Cards); live Scryfall batch",
+   "role": "Twelve-mana sorcery: draw cards equal to our library size, then put one back each turn; no maximum hand size until our next turn.",
+   "named_cuts": [
+    "Wheel of Misfortune"
+   ],
+   "incumbent_opportunity_cost": "Loses Wheel of Misfortune's symmetric wheel and damage bid.",
+   "commander_synergy": "Free-cast by Cecily, it draws the whole library. With Twenty-Toed Toad or Psychosis Crawler, that is a win.",
+   "adversarial_downside": "Dead in hand outside a Cecily free cast or Apex of Power. Drawing the library without a finisher is a loss.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a seven-swap package. Not selected because it is uncastable by hand and the six-swap list already has Peer into the Abyss plus Toad for the same job.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_EnterTheInfinite_over_WheelOfMisfortune_20261023.txt"
+   ]
+  },
+  {
+   "card": "Peter Parker's Camera",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "Artifact that copies triggered/activated abilities and can be sacrificed to Bjorna.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Loses Lightning Greaves' haste and shroud. Greaves can protect Cecily on the turn she comes down.",
+   "commander_synergy": "A third trigger copier for Cecily, and an artifact Bjorna can sacrifice.",
+   "adversarial_downside": "Slower than Resonator and adds no protection. Removing Greaves exposes Cecily on the turn she is cast.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a seven-swap package. Three copiers is overkill, and Greaves' haste is the cheaper way to attack immediately with Cecily.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_PeterParkersCamera_over_LightningGreaves_20261023.txt"
+   ]
+  },
+  {
+   "card": "Arcane Denial",
+   "source": "EDHREC pair page 44/120 (Top Cards); live Scryfall batch",
+   "role": "Two-mana counterspell; the countered spell's controller draws two and we draw one.",
+   "named_cuts": [
+    "Seething Song"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Mana Drain: loses Seething Song's five-mana burst.",
+   "commander_synergy": "Cheap stack interaction for the attack turn.",
+   "adversarial_downside": "Gives the opponent two cards, which Notion Thief does not stop on our own spell.",
+   "judgment": "REJECT",
+   "reason": "Mana Drain does the same job without gifting cards and adds mana for our main phase.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reliquary Tower",
+   "source": "EDHREC pair page 53/120 (Utility Lands); live Scryfall batch",
+   "role": "Utility land: you have no maximum hand size.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Loses Bojuka Bog's graveyard hate.",
+   "commander_synergy": "Keeps an eleven-plus hand through cleanup.",
+   "adversarial_downside": "Colorless in a three-color deck with heavy pips (U 41, B 20, R 26). Thought Vessel and Sea Gate Restoration already remove the limit.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Thought Vessel and Sea Gate Restoration, and costs a colored source.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Gogo, Master of Mimicry",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "Wizard that copies activated or triggered abilities.",
+   "named_cuts": [
+    "Academy Manufactor"
+   ],
+   "incumbent_opportunity_cost": "Loses Academy Manufactor's Treasure/Clue/Food multiplication with Big Score and Storm-Kiln.",
+   "commander_synergy": "Copies Cecily's trigger and is a Wizard, so Harmonic Prodigy doubles it.",
+   "adversarial_downside": "Mana-hungry X activation and a fragile creature.",
+   "judgment": "REJECT",
+   "reason": "Resonator and Echo already cover trigger copying more cheaply. Manufactor's Treasure engine is the deck's artifact supply for Bjorna.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Spellbook",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "One-mana artifact: no maximum hand size.",
+   "named_cuts": [
+    "Ichor Wellspring"
+   ],
+   "incumbent_opportunity_cost": "Loses Ichor Wellspring's draw on ETB and when it goes to the graveyard (Bjorna fodder that cantrips).",
+   "commander_synergy": "Cheap hand-size enabler and Bjorna fodder.",
+   "adversarial_downside": "No card advantage and redundant with Thought Vessel.",
+   "judgment": "REJECT",
+   "reason": "Wellspring replaces itself twice when Bjorna sacrifices it. Spellbook does not.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lithoform Engine",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "Four-mana artifact that copies triggered abilities and spells.",
+   "named_cuts": [
+    "Emry, Lurker of the Loch"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Strionic Resonator.",
+   "commander_synergy": "Copies Cecily's trigger or a free-cast spell.",
+   "adversarial_downside": "Costs four to cast and {2},{T} to copy a trigger.",
+   "judgment": "REJECT",
+   "reason": "Strionic Resonator does the trigger copy for two mana less.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Double Vision",
+   "source": "EDHREC pair page 24/120 (Enchantments); live Scryfall batch",
+   "role": "Six-mana enchantment: copy the first instant or sorcery we cast each turn.",
+   "named_cuts": [
+    "Mana Geyser"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Deflecting Swat: loses Mana Geyser's red burst.",
+   "commander_synergy": "Copies a free-cast spell once per turn.",
+   "adversarial_downside": "Six mana and only once per turn.",
+   "judgment": "REJECT",
+   "reason": "Too slow for the slot. Lutri already gives one big copy and the deck needs protection more than another copy engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Veyran, Voice of Duality",
+   "source": "EDHREC pair page 8/120 (Creatures); live Scryfall batch",
+   "role": "Wizard that doubles magecraft triggers.",
+   "named_cuts": [
+    "Sai, Master Thopterist"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Twenty-Toed Toad.",
+   "commander_synergy": "Doubles Archmage Emeritus magecraft draws only.",
+   "adversarial_downside": "Does not copy Cecily's attack trigger, which is not magecraft.",
+   "judgment": "REJECT",
+   "reason": "Only one magecraft card (Archmage Emeritus) in the list.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Necrodominance",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "Pay-life draw engine with a maximum hand size of five and discards exiled.",
+   "named_cuts": [
+    "Dark Deal"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Sea Gate Restoration.",
+   "commander_synergy": "Large pay-life draw at our end step.",
+   "adversarial_downside": "Its maximum hand size of five conflicts with Cecily's eleven-card plan (613.11 timestamps), and our discards are exiled, which hurts Underworld Breach.",
+   "judgment": "REJECT",
+   "reason": "Works against the commander's hand-size plan.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Fevered Suspicion",
+   "source": "EDHREC pair page 29/120 (Sorceries); live Scryfall batch",
+   "role": "Opponents exile top cards; we may cast them.",
+   "named_cuts": [
+    "In Garruk's Wake"
+   ],
+   "incumbent_opportunity_cost": "Would lose In Garruk's Wake, the one-sided wipe.",
+   "commander_synergy": "A free-cast payoff that steals spells.",
+   "adversarial_downside": "Random value; no board control.",
+   "judgment": "REJECT",
+   "reason": "In Garruk's Wake is the deck's unique free-cast board reset that Pass C explicitly defended.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hit the Mother Lode",
+   "source": "EDHREC pair page 21/120 (Sorceries); live Scryfall batch",
+   "role": "Six-mana sorcery: discover 10 and make Treasures.",
+   "named_cuts": [
+    "Mana Geyser"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Deflecting Swat: loses Mana Geyser's red burst.",
+   "commander_synergy": "Its Treasures are artifacts for Bjorna to sacrifice.",
+   "adversarial_downside": "Six mana by hand and the discover result is random.",
+   "judgment": "REJECT",
+   "reason": "Protection on the attack turn matters more than another random top-end spell.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Swan Song",
+   "source": "EDHREC pair page 24/120 (Instants); live Scryfall batch",
+   "role": "One-mana counter for enchantments, instants and sorceries.",
+   "named_cuts": [
+    "Seething Song"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Mana Drain: loses Seething Song's five-mana burst.",
+   "commander_synergy": "Cheap protection for a free-cast spell.",
+   "adversarial_downside": "Cannot counter creatures or artifacts, and gives the opponent a 2/2 flyer.",
+   "judgment": "REJECT",
+   "reason": "Mana Drain counters anything and gives us mana.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Wizard Class",
+   "source": "EDHREC pair page 22/120 (Enchantments); live Scryfall batch",
+   "role": "Class enchantment: no maximum hand size, then draw.",
+   "named_cuts": [
+    "Thought Vessel"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thought Vessel's mana.",
+   "commander_synergy": "No maximum hand size plus extra draws.",
+   "adversarial_downside": "Costs more than Vessel and gives no mana.",
+   "judgment": "REJECT",
+   "reason": "Thought Vessel ramps toward the four-mana Cecily as well as removing the limit.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Time Stretch",
+   "source": "EDHREC pair page 9/120 (Sorceries); live Scryfall batch",
+   "role": "Ten-mana sorcery: target player takes two extra turns.",
+   "named_cuts": [
+    "Mnemonic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Mnemonic Deluge's triple-recast of a graveyard spell.",
+   "commander_synergy": "A big free-cast payoff that gives two more Cecily attacks.",
+   "adversarial_downside": "Extra turns push the deck's pod expectations and Bracket conversation.",
+   "judgment": "REJECT",
+   "reason": "Not needed for Bracket 4 power, and Mnemonic Deluge already gives a high-value free cast.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Library of Leng",
+   "source": "OFF-RANKING (absent from the pair page); live Scryfall batch",
+   "role": "One-mana artifact: no maximum hand size; discards may go on top.",
+   "named_cuts": [
+    "Thought Vessel"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thought Vessel's mana.",
+   "commander_synergy": "Keeps Cecily's big hand through cleanup.",
+   "adversarial_downside": "It taps for no mana, unlike Thought Vessel.",
+   "judgment": "REJECT",
+   "reason": "Thought Vessel is strictly more useful here.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Galvanic Iteration",
+   "source": "EDHREC pair page 15/120 (Instants); live Scryfall batch",
+   "role": "Two-mana copy of the next instant or sorcery, with flashback.",
+   "named_cuts": [
+    "Wheel of Misfortune"
+   ],
+   "incumbent_opportunity_cost": "Would lose Wheel of Misfortune.",
+   "commander_synergy": "Copies a Cecily free-cast spell once.",
+   "adversarial_downside": "Needs mana in combat. Lutri already supplies the deck's spell copy.",
+   "judgment": "REJECT",
+   "reason": "Lower impact than the staged Enter the Infinite alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "source": "EDHREC pair page 24/120 (Utility Artifacts); live Scryfall batch",
+   "role": "Equipment: unblockable and shroud.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Would lose Greaves' haste and free equip.",
+   "commander_synergy": "Makes Cecily's attack hard to stop.",
+   "adversarial_downside": "Equip 2 and no haste. Cecily's trigger happens on attack, so unblockable adds little.",
+   "judgment": "REJECT",
+   "reason": "Cecily's value comes from attacking, not connecting. Greaves' haste is better.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Strionic Resonator",
+   "Echo, Perceptive Prodigy",
+   "Twenty-Toed Toad",
+   "Sea Gate Restoration // Sea Gate, Reborn",
+   "Deflecting Swat",
+   "Mana Drain"
+  ],
+  "cuts": [
+   "Emry, Lurker of the Loch",
+   "Goblin Engineer",
+   "Sai, Master Thopterist",
+   "Dark Deal",
+   "Mana Geyser",
+   "Seething Song"
+  ],
+  "coherent_package_tradeoff": "Six one-for-one swaps that make Cecily's attack trigger convert more often (Resonator, Echo), turn a big hand into a win (Toad, Sea Gate), and protect the attack turn (Swat, Mana Drain). Losses: Emry/Engineer/Sai artifact recursion and value, Dark Deal, and two rituals."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Emry, Lurker of the Loch",
+    "weakness": "Random mill 4 and a slow artifact recast; absent from the pair page.",
+    "alternative_named": "Strionic Resonator",
+    "reasoning": "Resonator copies Cecily's attack trigger for {2}, so one ten-card attack can free-cast two spells."
+   },
+   {
+    "card": "Goblin Engineer",
+    "weakness": "Weak MV<=3 artifact targets; absent from the pair page.",
+    "alternative_named": "Echo, Perceptive Prodigy",
+    "reasoning": "Echo copies creature-source triggers, including Cecily's, for {1}."
+   },
+   {
+    "card": "Sai, Master Thopterist",
+    "weakness": "Low impact: needs a stream of artifact spells; absent from the pair page.",
+    "alternative_named": "Twenty-Toed Toad",
+    "reasoning": "Toad converts a big hand into a win (Spellbook 1561-5850)."
+   },
+   {
+    "card": "Dark Deal",
+    "weakness": "Symmetric, net -1 card for us, and drops our hand below eleven.",
+    "alternative_named": "Sea Gate Restoration // Sea Gate, Reborn",
+    "reasoning": "Sea Gate is a land or a hand-plus-one draw with no maximum hand size."
+   },
+   {
+    "card": "Mana Geyser",
+    "weakness": "Filler ritual (9/120) that depends on opponents' tapped lands.",
+    "alternative_named": "Deflecting Swat",
+    "reasoning": "Free protection for the attack turn."
+   },
+   {
+    "card": "Seething Song",
+    "weakness": "Filler ritual (8/120) with no lasting value.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Stack interaction that still makes mana."
+   },
+   {
+    "card": "Wheel of Misfortune",
+    "weakness": "Symmetric wheel plus damage bid; absent from the pair page.",
+    "alternative_named": "Enter the Infinite",
+    "reasoning": "Draws the library on a Cecily free cast; staged as a seven-swap alternative."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks our own Robe of the Archmagi equip.",
+    "alternative_named": "Peter Parker's Camera",
+    "reasoning": "A third trigger copier; staged as a seven-swap alternative."
+   },
+   {
+    "card": "Bojuka Bog",
+    "weakness": "Colorless graveyard-hate land.",
+    "alternative_named": "Reliquary Tower",
+    "reasoning": "Rejected: also colorless and redundant with Thought Vessel."
+   },
+   {
+    "card": "Academy Manufactor",
+    "weakness": "Needs Treasure makers to matter.",
+    "alternative_named": "Gogo, Master of Mimicry",
+    "reasoning": "Rejected: Resonator and Echo copy triggers more cheaply."
+   },
+   {
+    "card": "Ichor Wellspring",
+    "weakness": "Low-impact artifact whose only job is Bjorna fodder.",
+    "alternative_named": "Spellbook",
+    "reasoning": "Rejected: Wellspring cantrips twice as Bjorna fodder."
+   },
+   {
+    "card": "In Garruk's Wake",
+    "weakness": "Nine mana by hand, so it is mostly a free-cast payoff.",
+    "alternative_named": "Fevered Suspicion",
+    "reasoning": "Rejected: Wake is the unique one-sided free-cast wipe."
+   },
+   {
+    "card": "Thought Vessel",
+    "weakness": "Colorless two-mana rock in a heavy-pip three-color deck.",
+    "alternative_named": "Library of Leng",
+    "reasoning": "Rejected: Vessel also makes mana."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Echo, Perceptive Prodigy and Twenty-Toed Toad (selected); Peter Parker's Camera (retained alternative); Gogo, Lithoform Engine, Spellbook, Library of Leng, Necrodominance (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Strionic Resonator",
+     "Echo, Perceptive Prodigy",
+     "Twenty-Toed Toad",
+     "Sea Gate Restoration // Sea Gate, Reborn",
+     "Deflecting Swat",
+     "Mana Drain"
+    ],
+    "cuts": [
+     "Emry, Lurker of the Loch",
+     "Goblin Engineer",
+     "Sai, Master Thopterist",
+     "Dark Deal",
+     "Mana Geyser",
+     "Seething Song"
+    ],
+    "result_and_rationale": "Selected six-swap package: two cheap Cecily trigger copiers, a win condition that converts the big hand, an MDFC land/draw spell, and two protection spells. Lands stay at 33 plus one MDFC."
+   },
+   {
+    "adds": [
+     "Strionic Resonator",
+     "Echo, Perceptive Prodigy",
+     "Twenty-Toed Toad",
+     "Sea Gate Restoration // Sea Gate, Reborn",
+     "Deflecting Swat"
+    ],
+    "cuts": [
+     "Emry, Lurker of the Loch",
+     "Goblin Engineer",
+     "Sai, Master Thopterist",
+     "Dark Deal",
+     "Mana Geyser"
+    ],
+    "result_and_rationale": "Five-swap floor without Mana Drain (staged data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_five_floor_without_ManaDrain_20261023.txt). Rejected: Seething Song is the weakest remaining slot and Mana Drain fills the deck's thin stack interaction."
+   },
+   {
+    "adds": [
+     "Strionic Resonator",
+     "Echo, Perceptive Prodigy",
+     "Twenty-Toed Toad",
+     "Sea Gate Restoration // Sea Gate, Reborn",
+     "Deflecting Swat",
+     "Mana Drain"
+    ],
+    "cuts": [
+     "In Garruk's Wake",
+     "Goblin Engineer",
+     "Sai, Master Thopterist",
+     "Dark Deal",
+     "Mana Geyser",
+     "Seething Song"
+    ],
+    "result_and_rationale": "Pass C variant: Resonator over In Garruk's Wake instead of Emry (staged data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_six_PassC_Resonator_over_InGarruksWake_20261023.txt). Rejected: it loses the one-sided wipe that Pass C defended, while Emry is the weaker slot."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C held In Garruk's Wake against Strionic Resonator. The Pass C variant (Resonator over Wake) was staged and rejected; Resonator now replaces Emry, Lurker of the Loch instead, which keeps Wake.",
+  "strongest_argument_against_baseline": "Cecily rewards an eleven-card hand, yet the baseline had no way to turn a huge hand into a win without combo pieces, only one trigger doubler (Harmonic Prodigy), thin stack protection, and several artifact creatures that do not interact with Cecily at all.",
+  "evidence_based_answer": "Swap three low-impact artifact creatures and three symmetrical or ritual spells for two Cecily trigger copiers, a hand-size win condition, an MDFC draw spell, and two protection spells. Lands stay at 33 plus one MDFC."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Cecily__Bjorna__Lutri.txt",
+  "sha256": "2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commanders first, then the documented companion line (1x Lutri, the Spellchaser [Companion], outside the 100), then 1x lines alphabetically (Island x2). Six substitutions against the canonical source. 33 lands + Sea Gate MDFC, 9 rocks; 100 physical cards verified by quantity (98 library + 2 commanders)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md",
+   "tests/test_m6_bjorna_nightfall_alchemist_cecily_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Spellslinger",
+   "Wheels",
+   "Hand Size Matters"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the six swaps, every remaining incumbent was re-read against the candidate pool. Seven post-floor challenges were recorded: two retained alternatives staged as seven-swap lists (Enter the Infinite, Peter Parker's Camera) and five rejected on deck-specific grounds.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Wheel of Misfortune",
+    "challenger": "Enter the Infinite",
+    "tradeoff": "Enter the Infinite draws the library on a Cecily free cast and wins with Toad or Crawler, but it is uncastable by hand; Wheel of Misfortune is castable for four mana.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Lightning Greaves",
+    "challenger": "Peter Parker's Camera",
+    "tradeoff": "Camera is a third trigger copier and Bjorna fodder, but Greaves gives Cecily haste and protection on the turn she is cast.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Bojuka Bog",
+    "challenger": "Reliquary Tower",
+    "tradeoff": "Tower keeps a big hand, but it is colorless like Bog and redundant with Thought Vessel and Sea Gate Restoration; Bog answers opposing graveyard decks.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Academy Manufactor",
+    "challenger": "Gogo, Master of Mimicry",
+    "tradeoff": "Gogo copies Cecily's trigger and is a Wizard, but Resonator and Echo already do this more cheaply and Manufactor feeds Bjorna artifacts.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Ichor Wellspring",
+    "challenger": "Spellbook",
+    "tradeoff": "Spellbook is a one-mana no-maximum-hand-size artifact, but Wellspring draws a card on entering and again when Bjorna sacrifices it.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "In Garruk's Wake",
+    "challenger": "Fevered Suspicion",
+    "tradeoff": "Suspicion steals opponents' spells on a free cast, but Wake is the deck's only one-sided wipe and was defended by Pass C.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Thought Vessel",
+    "challenger": "Library of Leng",
+    "tradeoff": "Leng removes the hand-size limit for one mana, but Thought Vessel also taps for mana toward four-mana Cecily.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_EnterTheInfinite_over_WheelOfMisfortune_20261023.txt",
+    "sha256": "be85743d8c09a60742a92c79f3994d7c4517d2233bc356a78cc37e268953dda8",
+    "adds": [
+     "Strionic Resonator",
+     "Echo, Perceptive Prodigy",
+     "Twenty-Toed Toad",
+     "Sea Gate Restoration // Sea Gate, Reborn",
+     "Deflecting Swat",
+     "Mana Drain",
+     "Enter the Infinite"
+    ],
+    "cuts": [
+     "Emry, Lurker of the Loch",
+     "Goblin Engineer",
+     "Sai, Master Thopterist",
+     "Dark Deal",
+     "Mana Geyser",
+     "Seething Song",
+     "Wheel of Misfortune"
+    ],
+    "case_for_extra_swaps": "Enter the Infinite on a Cecily free cast draws the whole library, which wins immediately with Twenty-Toed Toad attacking or Psychosis Crawler on the battlefield.",
+    "why_not_selected": "It is uncastable by hand (12 MV), and Peer into the Abyss plus Toad already cover the same job in the six-swap list."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_PeterParkersCamera_over_LightningGreaves_20261023.txt",
+    "sha256": "78f88f7424dcf942c2c6cbd7ee4439bfbe34208c260cf843873f2958f327cf6e",
+    "adds": [
+     "Strionic Resonator",
+     "Echo, Perceptive Prodigy",
+     "Twenty-Toed Toad",
+     "Sea Gate Restoration // Sea Gate, Reborn",
+     "Deflecting Swat",
+     "Mana Drain",
+     "Peter Parker's Camera"
+    ],
+    "cuts": [
+     "Emry, Lurker of the Loch",
+     "Goblin Engineer",
+     "Sai, Master Thopterist",
+     "Dark Deal",
+     "Mana Geyser",
+     "Seething Song",
+     "Lightning Greaves"
+    ],
+    "case_for_extra_swaps": "A third trigger copier makes ten-card Cecily attacks into three free casts, and the Camera is an artifact Bjorna can sacrifice.",
+    "why_not_selected": "Three copiers is overkill, and losing Greaves removes haste and protection for Cecily on the turn she is cast."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at six. The remaining weak-looking slots (Wheel of Misfortune, Lightning Greaves, Bojuka Bog, Academy Manufactor, Ichor Wellspring, In Garruk's Wake, Thought Vessel) each lose to their best challenger on deck-specific grounds: castability by hand, haste for Cecily, colored mana, Bjorna fodder value, or the unique one-sided wipe."
+ }
+}
