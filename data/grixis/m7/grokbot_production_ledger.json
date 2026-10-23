@@ -369,34 +369,55 @@
    "baseline_raw_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
    "registry_recorded_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Crosis__the_Purger.txt",
+   "candidate_raw_sha256": "244f19b9465e499c390bcac10eb96ad04d73f4b760a09cfef1d526f47be98347",
+   "current_candidate_sha": "244f19b9465e499c390bcac10eb96ad04d73f4b760a09cfef1d526f47be98347",
    "branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
    "working_branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
-   "last_pushed_commit": "6bdf94f0f81965084488e41faca9dd004c14f422",
+   "last_pushed_commit": "7953eef5ef1159360a2571625f90076d8ce7376c",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/658",
-   "swap_count": null,
-   "ci_runs": [],
+   "swap_count": 5,
+   "ci_runs": [
+    {
+     "workflow": "M7 Deck 10 Crosis the Purger candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39947982100",
+     "conclusion": "success"
+    },
+    {
+     "workflow": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39947981985",
+     "conclusion": "success"
+    },
+    {
+     "workflow": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39947982010",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Pass C NEEDS TESTING (lead Megrim over Sedraxis) vs candidate Megrim over Jet Medallion plus 4 more swaps: needs owner/ChatGPT adjudication; Pass C's requested measured Phase B (hand depletion 0/3/5/7) answered only by finite arithmetic; tracker CSV note stale vs bound hash (documented, not repaired)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical 9b26aa2; raw a59150c3 == overrides == registry; 100 physical / 92 rows; tracker note 'only change Regalia->Blizzard' stale: list contains both); draft PR #658",
     "research_snapshots_and_draft_candidate",
     "decision_packet_and_snapshots",
-    "ij_tests_workflow"
+    "tests (mechanics 8, candidate 5, IJ 8), tested pool 7 configs, I certificate + J bundle (checker pass), preflight memos, adversarial packet, focused workflow with no '#' step names; six-fetch wording fix",
+    "WIP removed; full suite after last content commit: head 24F/86E/1623P/18S vs base 24F/86E/1465P/18S, identical failing set (0 regressions); PR #658 ready (REVIEW_READY_NOT_OWNER_APPROVED); exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "research: live Scryfall, EDHREC, Spellbook, candidate judgments",
-   "next_step": "research",
-   "head_commit": "fe66bcfb484dd8a220574933f329a32116bebe86",
-   "last_checkpoint_at": "2026-10-23T06:28:06-05:00",
-   "last_checkpoint": "2026-10-23 06:28 CDT baseline + draft PR",
-   "stage": "ij_tests_workflow",
-   "updated_at": "2026-10-23T06:36:59-05:00",
-   "head": "6d3a3da852642deb964ce49a55eae308824d03a3"
+   "next_action": "ChatGPT adversarial review of PR #658",
+   "next_step": "Deck #11 (tracker index 10)",
+   "head_commit": "7953eef5ef1159360a2571625f90076d8ce7376c",
+   "last_checkpoint_at": "2026-10-23T06:45:04-05:00",
+   "last_checkpoint": "2026-10-23 06:45 CDT review-ready",
+   "updated_at": "2026-10-23T06:45:04-05:00",
+   "candidate_logical_hash": "lh1:f856372319521a23d334f454dc68f1efca141f65ca7c1273c7b84b0eec2b1668",
+   "ci_head": "7953eef5ef1159360a2571625f90076d8ce7376c",
+   "ci_conclusion": "success (3/3)",
+   "stabilized_checker_sha256": "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
   },
   {
    "tracker_number": 11,
