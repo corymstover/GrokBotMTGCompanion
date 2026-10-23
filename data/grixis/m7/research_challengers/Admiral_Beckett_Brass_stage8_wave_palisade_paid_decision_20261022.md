@@ -1,0 +1,58 @@
+# Admiral Beckett Brass — stage 8 decision-grade Wave/Palisade paid-state comparison (2026-10-22)
+
+**Status: RESEARCH_ONLY / PROVISIONAL STRATEGIC CHOICE, owner approval withheld.** Canonical approved Admiral remains locked at raw SHA-256 `4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414`. The formerly presented five-change D packet remains withdrawn from owner-ready status; its M6 I/J bound evidence does **not** automatically certify the stage-7 variants. The authoritative source snapshots here are the existing 121-name canonical/challenger Scryfall set and stage-3 eleven-name fresh paid-role set.
+
+## A genuinely decision-changing question
+
+Does Admiral gain more **same-player three-Pirate theft conversion per paid turn without sacrificing durable draw or instant defense** by adding `Cosmotronic Wave` in place of `Raise the Palisade` than by cutting `Fiery Cannonade`? And is switching `Kari Zev, Skyship Raider` to `Storm Fleet Aerialist` a consistent enough actual connection improvement to justify losing Kari's second combat body?
+
+Both new Wave-for-Palisade packages are full physical 100-card sources:
+- `Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt`: original D five plus Wave IN / Palisade OUT. Six changes from canonical; **Bident, The Indomitable, Kindred Discovery, March, Path, Open and instant Cannonade remain**.
+- `Admiral_Beckett_Brass_seven_Aerialist_Wave_Palisade_draw_resilient_20261022.txt`: above plus Aerialist IN / Kari Zev OUT. Seven changes. Same draw/recursion/instant-defense preservation, but Kari's menace/first strike/Monkey token lost.
+
+Competing complete 100s include previous `six_Cosmotronic_Wave` (Wave in, **Cannonade** out), `six_Aerialist_draw_resilient` (Aerialist in, Kari out; Palisade and Cannonade preserved), `seven_Aerialist_Wave_draw_resilient` (Wave/Cannonade and Aerialist/Kari), the exact D baseline, seven Regalia/Wave and eight/nine Regalia combinations. No extra changes are justified merely to increase the total.
+
+## Source-bound marginal effects — separate *spell* facts from *deck* comparisons
+
+**Critical comparison control:** Both six-change variants include **Cosmotronic Wave**. Their four-mana Wave assault is therefore available to **both** if Wave is drawn and can resolve; we must not count it as an advantage unique to the Wave-for-Palisade deck. The variants differ in the **other card retained**: reactive `Fiery Cannonade` versus `Raise the Palisade`'s more persistent non-Pirate bounce. The following table describes the physical effects *if the named spell is in hand and payable*, then relates them to each complete list.
+
+| Real source-paid state | Wave `{3}{R}`, in BOTH lists | Other role: Cannonade `{2}{R}` (Wave-for-Palisade list) | Other role: Palisade `{4}{U}` (Wave-for-Cannonade list) |
+|---|---|---|---|
+| 3 ready Pirates, three opposing **non-Pirate 4/4 blockers**, precombat, four total mana including R | If Wave is in hand and resolves, three Pirates get through; it deals only 1 and defenders persist | Cannonade 2 damage alone does not clear 4/4 blockers | Palisade cannot be paid with four mana; it requires five incl. U |
+| Same non-Pirate blockers, five mana, **Wave unavailable** | No Wave spell to cast | Cannonade cannot reliably clear the 4/4s; existing Open X3 may still provide mass unblock for `{3}{U}{U}` if available | Palisade choosing Pirate bounces non-Pirate blockers and permits three hits; blockers stay away until recast |
+| Opponent controls **three Pirate blockers**, Wave is in hand | Wave prohibits blocking regardless of types; both lists have this line | Cannonade cannot sweep opposing Pirates | Palisade choosing Pirate also leaves opposing Pirate blockers (choosing another type bounces our attacking Pirates) |
+| Opponent turn, three 2-toughness **non-Pirate attackers**, Cannonade/Palisade in hand | Wave cannot be cast at ordinary opponent combat timing, because sorcery | Cannonade is an instant and removes three small non-Pirates while our Pirates survive subtype-wise | Palisade is also a sorcery and cannot replace an instant-speed combat sweep |
+| One long-lived **five-toughness non-Pirate blocker**, no Wave in hand | Unavailable | Cannonade's two damage does not remove it | Palisade returns it to hand; next turn it may be replayed, but absent replay the board remains clear |
+| After a full Wave assault, if opponent does not recast creatures | Wave's can't-block effect ends at cleanup/end of turn; creatures survive barring 1 damage lethal | Nothing beyond Wave's temporary combat permission, if Cannonade not also used | If Palisade was actually also cast (additional 5-mana cost), it bounces non-Pirates; not a free result of resolving Wave |
+
+`Open into Wonder` at X=3 separately costs `{3}{U}{U}`, grants three target attackers unblockability, and draws cards for their hits, so the deck also has a third line against thick defenders. Against opposing instant removal, Fog, or Admiral dying before her end-step trigger, **no** evasion package guarantees theft. Adversarial blocker types and mana colors matter. There is no matched four-player win-rate estimate.
+
+**Finite experiment verdict:** In the concrete low-toughness opposing combat model, retaining Cannonade has a uniquely defensive, earlier-timed function. In the thick non-Pirate, *Wave-not-drawn* model, retaining Palisade gives an additional late all-blocker reset. Against opposing Pirate blockers, Wave is preferable to either other spell but that upside is shared by both competing lists. The strategic preference for one list must therefore rest on anticipated frequency/value of reactive small-creature defense versus a second costly unblock/reset tool, not a fabricated unique four-mana Wave benefit.
+
+Nine exact paid-state assertions in `tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py` check **individual** Oracle-bound mechanics and physical full-100 package integrity. This is not a game engine: the fixture assumes legal unblocked-path eligibility for three preexisting Pirates, spells resolving without response, one defending opponent, and simplified one-to-one blocks; opposing counterspells, ward, removal, costs already spent, timing of flash, and subsequent recasts are excluded unless explicitly described. The fixture does not claim an exact percentage for any metagame state.
+
+## Author decision, independent of a numerical swap target
+
+**Provisional leading research configuration: six_Wave_Palisade_draw_resilient (6 strategic replacements).** The specific replacement `Cosmotronic Wave` IN / `Raise the Palisade` OUT is **SELECT_ADD as the next candidate-bound research choice**, as a **provisional role-economy choice** because it keeps Cannonade's unique instant job while using Wave as its single four-mana blanket evasion tool alongside Open. The **competing six_Cosmotronic_Wave list also has Wave** but retains Palisade instead of Cannonade; it can be stronger if thick blockers, re-deployment taxes and long-term creature bounce are dominant threats. This is a relative, commander-first conclusion for the present opportunity pool, **not** a statement of global optimum or final owner-ready acceptance. If the metagame's persistent mass creature bounce / recast-tax function makes Palisade demonstrably more valuable, reverse the choice; record that as a material sensitivity.
+
+**Aerialist against Kari: RETAIN_ALTERNATIVE, not selected in the leading six-change list.** Both printed cards are Pirates. Aerialist makes flying rather than menace and can enter larger after an earlier attack, but Kari attacks with first strike/menace and creates an additional attacking non-Pirate Monkey. That Monkey does not help Admiral's three-Pirate hit requirement, but is a real attack / sacrifice / artifact-adjacent pressure piece and draws cards from Bident or The Indomitable if it hits. Against a single flying blocker and no other defenders, Kari's menace can outperform Aerialist; against two ground blockers and open skies the reverse can occur. There is insufficient evidence to discard the richer baseline payoff solely because Aerialist's EDHREC *lift* ratio is high. The full seven-change research source is preserved for future reevaluation.
+
+**Wave-for-Cannonade: RETAIN_ALTERNATIVE, not primary.** It preserves Palisade's long-term reset and adds Wave, but sacrifices the only Cannonade effect, and the deck already has Open into Wonder/Cyclonic Rift/Toxic Deluge offering different broad evasion/interaction. The source-bound opponent-turn two-toughness pressure state is material. Conversely this list retains a genuine second late-game bounce route if Wave is not drawn; this alternative has not been disproven.
+
+**Regalia / Spotlight for Bident: RETAIN_ALTERNATIVE, not selected.** Protecting or evading one legendary attacker (Regalia) or single-use mass unblock + hexproof (Spotlight) has real utility, but the draw lost from Bident's every-creature hit triggers is substantial; three Pirate connections typically generate several card-draw triggers, meaning evasion and refill can synergize instead of compete. The Indomitable provides some redundancy but is no permission to discard a second engine automatically.
+
+**Captain Storm / Shizo for March / Path: RETAIN_ALTERNATIVE, not selected.** Actual two-Pirate `{B}` recovery and three-color Pirate fixing/scry matter more to repeated attempts than extra size or paid one-legend fear under current available comparisons. Captain Storm + Skyship is a genuine counter combo, not a guaranteed one-source unblock.
+
+**Dreamcaller replacing Open: REJECT for preferred all-purpose configuration.** Two taps for four mana and a later Pirate flyer is strong in a two-blocker board, but Open X3 guarantees three unblockable candidates with a draw on each hit against larger boards. Dreamcaller entering at flash speed has no haste by default and cannot immediately become the third attacking Pirate.
+
+**EDHREC candidate discovery remains upstream research**, not a mandatory inclusion list. Top-inclusion cards already canonical are independently challenged where appropriate. High-lift Aerialist, Dreamcaller, Kitesail Corsair, Kukemssa Pirates, Deadeye Brawler and Prying Blade received reasoned dispositions in the source registry. The full Stage7 doc compares every physically completed package. No hidden five-, six-, seven-, or nine-swap stopping rule is inferred.
+
+## Strict next gate (not covered by this Stage8 comparison)
+
+1. Execute the nine finite source-paid fixture methods on the **exact PR head** alongside focused/broad contract jobs. Correct failures; do not report planned fixtures as passed.
+2. Verify the **new exact** six_Wave_Palisade raw SHA-256 and complete 100-card source; independently verify all introduced/current Oracle/legality with fresh source evidence where required, including `Cosmotronic Wave` and `Raise the Palisade`.
+3. Re-evaluate Pirate-connection and response-sensitive P0/P1 mechanics changed by dropping Palisade for Wave, using existing D fixtures only where directly unaffected.
+4. Rebind M6 I/J tested-pool scope and reproducibility package to **that exact 100-card hash**, not historical D, and run owner-ready schema, whole-deck review and exact-head CI without relaxing hard gates.
+5. Present a complete verified new Admiral deck to Cory **only then** for explicit M7 approval; do not mutate canonical approval/lock meanwhile. After that approval, reopen Abaddon under no-minimum-anchoring + EDHREC inclusion/lift, and do not start deck #3 before both are finalized.
+
+This document makes a meaningful *qualitative* selection for the next verification stage, without claiming any unexecuted mechanical proof or owner approval.

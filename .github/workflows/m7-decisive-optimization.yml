@@ -17,6 +17,7 @@ on:
       - data/grixis/m7/research_challengers/**
       - tests/test_m7_admiral_stage6_decision_bound.py
       - tests/test_m7_admiral_stage7_draw_resilient_100.py
+      - tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py
       - tests/test_m7_admiral_edhrec_stage4_packages.py
       - tests/test_m7_admiral_edhrec_inclusion_lift.py
       - tests/test_m7_admiral_post_floor_oracle_paid_effects.py
@@ -103,6 +104,8 @@ jobs:
           python-version: '3.13'
       - name: Install offline structural schema validator
         run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Verify stage 8 source-paid Wave/Palisade/Cannonade full-100 and hostile Pirate mirrors
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_stage8_wave_palisade_paid_combat.py' -v
       - name: Verify Admiral stage 7 100-card resilience alternatives and current source tradeoffs
         run: python -m unittest discover -s tests -p 'test_m7_admiral_stage7_draw_resilient_100.py' -v
       - name: Adjudicate Admiral stage6 blocker-thresholds and opposite evasion cases
