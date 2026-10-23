@@ -224,11 +224,11 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Verify stage3, stage4 and stage5 exact-head CI on focused and general M7 workflows; correct failures and record actual receipts.",
-    "Compare EDHREC 7/8/9-swap physical research portfolios under paid adversarial three-Pirate hit/defense/resource conditions, especially Dreamcaller vs Open into Wonder and Aerialist vs Kari Zev; decide real superior package.",
-    "Discriminate seven already physically complete six-/seven-swap variants and any justified additional full-100 challenger; no 5-swap stopping rule.",
-    "Recompute final chosen physical candidate SHA, apply source-bound Oracle/Commander legality and changed-effect M6 P0/P1/I/J checks; owner approval still withheld.",
-    "Only if all M7 requirements pass, present a new numbered proposed 100-card deck to Cory for explicit approval; preserve canonical lock in meantime."
+    "Verify Stage7 four physical full-100 research alternatives and source-tradeoff regression against exact PR head; correct any failing CI before merging.",
+    "Complete bounded Wave/Palisade (and Aerialist/Kari) whole-deck tradeoff comparison without treating six/seven/nine as optimization targets; reject dominated packages.",
+    "Select an exact physical Admiral M7 revision by authored quality reasoning, validate current Oracle/legalities and changed mechanics, recompute raw SHA-256 and rebind applicable M6 I/J and J bundle.",
+    "Present Admiral for explicit owner approval only if all final gates passed; canonical remains approved/locked in meantime.",
+    "After Admiral exact final approval, reopen approved Abaddon against no-floor-anchoring and EDHREC top-inclusion/high-lift requirements; do not proceed to deck3 until both finalized."
   ],
   "owner_decision_required_now": false,
   "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
@@ -415,7 +415,7 @@
     },
     "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
     "latest_complete_subtask": "Source-bound eleven-card Challenger/incumbent Oracle snapshot and new EDHREC discovery crosswalk authored on working branch, exact-head CI and package adjudication pending.",
-    "next_exact_unfinished_requirement": "Verify stage6 exact-head CI, then adjudicate 7/8/9-swap Admiral candidates holistically (draw, recursion, interaction, mana, threshold), adopt justifiable exact 100-card revision and rebind source/M6 I/J for owner approval. After Admiral final approval, reopen Abaddon under BOTH new workflow rules; do not start deck3 until both owner approvals. Canonical locks remain unchanged in the meantime.",
+    "next_exact_unfinished_requirement": "Get exact-head focused/general CI for stage7 four physical 100 lists, then source-paid compare Wave-for-Cannonade versus Wave-for-Palisade and Kari versus Aerialist over defense, draw, mana and multi-Pirate connection; choose only justifiable complete revised 100 and bind current Oracle, changed M6 P0/P1 and candidate-specific I/J. Admiral owner approval withheld. Then reopen Abaddon under both new discovery/floor rules; deck3 held.",
     "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D.",
     "stage3": {
       "status": "ORACLE_SOURCED_ELEVEN_PAID_MECHANICAL_FIXTURES_WRITTEN_AWAITING_EXACT_HEAD_CI",
@@ -487,6 +487,45 @@
         }
       ],
       "meaning": "Actual source-bound Admiral stage3/4/5 regression and finite mechanical tests pass; not M6 I/J or owner-ready global configuration."
+    },
+    "stage7": {
+      "status": "RESEARCH_ONLY_FOUR_PHYSICAL_100_CARD_ALTERNATIVES_AWAITING_EXACT_HEAD_CI_AND_FINITE_SELECTION",
+      "working_branch": "chatgpt-admiral-stage7-whole_deck-adjudication-20261022",
+      "document": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_stage7_resilient_whole_deck_adjudication_20261022.md",
+      "test": "tests/test_m7_admiral_stage7_draw_resilient_100.py",
+      "variants": [
+        {
+          "id": "SIX_AERIALIST_DRAW_RESILIENT",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Aerialist_draw_resilient_20261022.txt",
+          "swaps_vs_canonical": 6,
+          "preservation": "Bident, Indomitable, Open, Kindred Discovery, March, Path, Cannonade"
+        },
+        {
+          "id": "SEVEN_AERIALIST_WAVE_DRAW_RESILIENT",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_seven_Aerialist_Wave_draw_resilient_20261022.txt",
+          "swaps_vs_canonical": 7,
+          "loss": "Kari menace/first strike/Monkey and instant Cannonade"
+        },
+        {
+          "id": "SIX_WAVE_PALISADE_DRAW_RESILIENT",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+          "swaps_vs_canonical": 6,
+          "preservation": "Bident, Open, Indomitable, March, Path, Cannonade",
+          "loss": "Raise the Palisade mass non-Pirate bounce"
+        },
+        {
+          "id": "SEVEN_AERIALIST_WAVE_PALISADE_DRAW_RESILIENT",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_seven_Aerialist_Wave_Palisade_draw_resilient_20261022.txt",
+          "swaps_vs_canonical": 7,
+          "preservation": "Bident, Open, Indomitable, March, Path, Cannonade",
+          "loss": "Palisade bounce and Kari menace/Monkey"
+        }
+      ],
+      "qualitative_status": "No new final candidate selected. Draw/recovery/instant sweep preservation required by opportunity-cost comparison, not numerical swap ceiling. Storm Fleet Aerialist changes flying vs menace/token but does not raise printed Pirate card count because Kari Zev is already Human Pirate.",
+      "outstanding": "Actual exact-head CI; one bounded source-paid Wave vs Palisade opposing-board/mana comparison; select one 100-card list only if materially stronger; apply source/legality and M6 changed-effect P0/P1 and candidate-bound I/J reproducibility to that exact SHA. No owner-final presentation before gates.",
+      "canonical_mutated": false,
+      "owner_approval": "WITHHELD",
+      "exact_head_ci": "NOT_YET_EXECUTED"
     }
   },
   "owner_sequence_override": {
