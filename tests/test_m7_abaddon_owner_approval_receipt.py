@@ -48,7 +48,7 @@ class AbaddonOwnerAcceptedM7(unittest.TestCase):
         self.assertFalse(a["authority"]["formal_m8_milestone_accepted"])
         self.assertEqual(t["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(t["m7"]["formal_m7_review_decisions"],0)
-        self.assertEqual(t["m7"]["prospective_exact_owner_approvals_recorded"],1)
+        self.assertEqual(t["m7"]["prospective_exact_owner_approvals_recorded"],2)
         self.assertEqual(t["m7"]["gates"][0]["status"],"BLOCKED")
         self.assertEqual(t["m7"]["gates"][1]["completed"],0)
         self.assertEqual(t["m7"]["gates"][2]["completed"],0)
