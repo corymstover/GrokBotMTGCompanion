@@ -1,0 +1,819 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Lord_of_Tresserhorn",
+ "canonical_baseline_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+ "canonical_baseline_logical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "commander_identity": {
+  "mechanical_plan": "Lord of Tresserhorn ({1}{U}{B}{R} Legendary Creature — Zombie 10/4; me1, released 2007-09-10; oracle_id 283e7a23-ae25-48d1-abb5-cd021f66cc29). Commander-legal on live Scryfall, not a Game Changer, no project exception. Oracle (frozen cache and live, identical): 'When Lord of Tresserhorn enters, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards. {B}: Regenerate Lord of Tresserhorn.' There is no opponent-regeneration clause; the regeneration is Lord's own, for {B}. Plan (owner 2026-10-14): turn off or pay the enters trigger (Torpor Orb, Karn, Dress Down, Stifle, Tale's End; or cheap recursive fodder — Bitterblossom, Reassembling Skeleton, Gravecrawler, Bloodghast, Nether Traitor), then win with a 10-power commander: Uncaged Fury for 22 commander damage, infect (Phyresis, Tainted Strike, Kediss spreading damage), Pain for All with Blasphemous Act while {B} regenerates Lord, plus the aristocrat loops Spellbook lists. Every add serves that plan: Consign counters the trigger, Ornithopter and BMC's changeling are fodder, Skullclamp turns fodder into cards, Fierce Guardianship is free once Lord is out.",
+  "protected_core": [
+   "Lord of Tresserhorn",
+   "Torpor Orb",
+   "Karn, Argent Defender",
+   "Dress Down",
+   "Stifle",
+   "Tale's End",
+   "Cavern of Souls",
+   "Shizo, Death's Storehouse",
+   "Uncaged Fury",
+   "Phyresis",
+   "Tainted Strike",
+   "Kediss, Emberclaw Familiar",
+   "Pain for All",
+   "Blasphemous Act",
+   "Gravecrawler",
+   "Phyrexian Altar",
+   "Pitiless Plunderer",
+   "Bitterblossom",
+   "Lightning Greaves",
+   "Swiftfoot Boots"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized; owner-approved), unchanged. Game Changers 2 -> 3 (Demonic Tutor, Vampiric Tutor; + Fierce Guardianship). Commander Spellbook: 19 included combos in baseline, candidate and every alternative (including the two-card Gravecrawler + Phyrexian Altar loop, which needs another Zombie), none new and none lost; almost-included 283 -> 289. No new infinite is claimed; Skullclamp with Bitterblossom or recursive creatures is bounded card advantage.",
+  "anti_homogenization": "Commander-first to Lord's actual Oracle text: each add answers or monetises his enters trigger (counter it, feed it, draw off it) or protects him for free. No generic combo package (Thassa's Oracle line, rejected by the author), no owner-removed card (Temur Battle Rage) and no author-rejected card that Pass C did not reopen (Embercleave, Psychotic Fury, Glistening Oil, Mask of Griselbrand, Rhystic Study, Cyclonic Rift, Phyrexian Dreadnought) is added. Fierce Guardianship and Distortion Strike were author-rejected but reopened by Pass C. Distinctness (nonbasic names shared with the 61 other project exports, baseline -> candidate): Tresserhorn's Lord, Returned 52 -> 51; Garza Zol 50 -> 48; Thraximundar 47 -> 48; Nicol Bolas 47 -> 46; Marchesa 46 -> 46. 18 candidate nonbasics appear in none of the top four: Anger, Consign to Memory, Dress Down, Headless Rider, Karn, Argent Defender, Lord of Tresserhorn, Muddle the Mixture, Nether Traitor, Ornithopter of Paradise, Phyresis, Shambling Ghast, Stifle, Tainted Strike, Tale's End, Torpor Orb, Uncaged Fury, Undead Augur, Wonder. Homogenization disclosed: Fierce Guardianship is in 54/61 other decks; Consign and Ornithopter in 0; BMC 14 and Skullclamp 6 (both also in Tresserhorn's Lord, Returned)."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (97 library rows; 3 Swamp, every other card 1x). Owner 2026-10-14 cycle: 27 swaps, 36 -> 35 lands; owner adds include Anger, Brotherhood Regalia, Chandra's Ignition, Deflecting Swat, Karn, Muddle the Mixture, Mystic Remora, Nightscape Familiar, Not of This World, Pain for All, Phyresis, Slip Out the Back, Stifle, Stubborn Denial, Tale's End, Torpor Orb, Uncaged Fury, Cavern of Souls and Shizo. Of the five cuts, Stubborn Denial is an owner-cycle ADD and Feed the Swarm, Cover of Darkness, Fellwar Stone and Sheoldred's Edict were explicit audit KEEPs — all flagged. Candidate roles: 35 lands; suppression Torpor Orb, Karn, Dress Down; trigger counters Stifle, Tale's End, Consign to Memory; fodder and recursion Bitterblossom, Reassembling Skeleton, Gravecrawler, Bloodghast, Nether Traitor, Shambling Ghast, Carrion Feeder, Ophiomancer, Jadar, Ornithopter, BMC changeling; outlets Phyrexian Altar, Ashnod's Altar, Viscera Seer, Goblin Bombardment, Warren Soultrader, Phyrexian Tower; payoffs Blood Artist, Zulaport Cutthroat, Pitiless Plunderer, Headless Rider, Undead Augur, Skullclamp; finishers Uncaged Fury, Phyresis, Tainted Strike, Kediss, Pain for All, Chandra's Ignition, Anger, Wonder; protection Lightning Greaves, Swiftfoot Boots, Fierce Guardianship, Deflecting Swat, Not of This World, Slip Out the Back, Mystic Remora; removal Terminate, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act.",
+  "mana_base_and_curve": "35 lands unchanged; coloured land sources U20/B23/R20 unchanged. Nonland curve MV0-7 [0,12,32,11,5,1,1,2] -> [0,13,29,13,5,1,1,2]; average nonland MV 2.44 -> 2.45; library pips U12/B32/R11 -> U13/B30/R11. Seeded goldfish (seed 29, 20000 games, on the play, no mulligans): P(Lord on battlefield) turn 4 .2717 -> .3068, turn 5 .4783 -> .529, turn 6 .6121 -> .6613, turn 7 .7113 -> .759; turn 6 without paying the ETB .2021 -> .2081; attack-ready with a conversion piece .2352 -> .2683; free protection in hand .1208 -> .1969; any counter/protection .2963 -> .3407; cards seen 12.0 -> 12.386.",
+  "interaction_resilience": "Stack: Fierce Guardianship, Stifle, Tale's End, Consign to Memory, Muddle the Mixture, Deflecting Swat, Not of This World, Slip Out the Back. Board: Terminate, Deadly Rollick, Chaos Warp, Toxic Deluge, Blasphemous Act, Otawara. DISCLOSED LOSS: spot removal 5 -> 3 (Feed the Swarm and Sheoldred's Edict cut); hard enchantment answers Chaos Warp only (plus Otawara bounce); the instant edict for hexproof/indestructible threats is gone (B3: 2/14 cells lose their only spot answer, sweepers still cover them). Lord's regeneration does not stop sacrifice or -X/-X.",
+  "weakest_slots": [
+   {
+    "card": "Stubborn Denial",
+    "weakness": "Soft counter while Lord is on the stack; needs a power-4 creature already in play.",
+    "alternative_named": "Fierce Guardianship",
+    "reasoning": "CUT for Fierce Guardianship (genuine swap 1). FLAG: owner-cycle ADD 2026-10-14; B4 grid FG-only 8 cells, Denial-only 0."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal with a life cost on top of Lord's own life loss.",
+    "alternative_named": "Consign to Memory",
+    "reasoning": "CUT for Consign to Memory (genuine swap 2). FLAG: owner audit KEEP; enchantment-answer loss disclosed."
+   },
+   {
+    "card": "Cover of Darkness",
+    "weakness": "Fear is stopped by black and artifact blockers and Shizo already grants it.",
+    "alternative_named": "Black Market Connections",
+    "reasoning": "CUT for Black Market Connections (genuine swap 3). FLAG: owner audit KEEP."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Rock that never feeds Lord's two-creature sacrifice.",
+    "alternative_named": "Ornithopter of Paradise",
+    "reasoning": "CUT for Ornithopter of Paradise (genuine swap 4). FLAG: owner audit KEEP."
+   },
+   {
+    "card": "Sheoldred's Edict",
+    "weakness": "Off-ranking interaction slot that does nothing for Lord's own plan.",
+    "alternative_named": "Skullclamp",
+    "reasoning": "CUT for Skullclamp (genuine swap 5). FLAG: owner audit KEEP; staged alt_B keeps it by cutting Muddle instead."
+   },
+   {
+    "card": "Muddle the Mixture",
+    "weakness": "Double-blue counter or tutor that is slow as a tutor.",
+    "alternative_named": "Aqueous Form",
+    "reasoning": "Kept: owner-cycle ADD; tutors MV-2 suppression and finisher pieces (Dress Down, Torpor Orb, Karn, Bitterblossom, Phyresis); Aqueous Form rejected; alt_B staged."
+   },
+   {
+    "card": "Nightscape Familiar",
+    "weakness": "1/1 body with a narrow cost reduction.",
+    "alternative_named": "Fierce Guardianship",
+    "reasoning": "Kept: owner-cycle ADD; cuts Lord's cost by {1} and is fodder; FG−Nightscape measured worse (.5856)."
+   },
+   {
+    "card": "Rogue's Passage",
+    "weakness": "Colourless land in a three-colour deck.",
+    "alternative_named": "Distortion Strike",
+    "reasoning": "Kept: repeatable evasion without a card; Distortion−Rogue's staged (.6490)."
+   },
+   {
+    "card": "Pain for All",
+    "weakness": "Sorcery-speed Aura that needs Lord to be dealt damage.",
+    "alternative_named": "Temur Battle Rage",
+    "reasoning": "Kept: owner-cycle ADD and part of the owner's Blasphemous Act reflection line; TBR is owner-cut."
+   },
+   {
+    "card": "Terminate",
+    "weakness": "Spot removal that does not advance Lord.",
+    "alternative_named": "Soul's Fire",
+    "reasoning": "Kept: owner audit KEEP; removal density would fall to 2 spells; Consign−Terminate probe not selected."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Optimized list (2026-10-14, 27 owner swaps). M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING, retained the list, and queued FG−Edict / FG−Nightscape, Soul's Fire−Edict / −Muddle, the Dress Down + Kediss + Phyresis layer case, and Distortion−Rogue's. It also corrected the GrokBot advisory: Torpor Orb does not blank Undead Augur or Zulaport dies triggers. All four were run in bounded form here.",
+  "candidate_pool_scope": "EDHREC Lord of Tresserhorn general (1215), upgraded (82), optimized (28) and cEDH (4) pages plus off-ranking card pages; live Scryfall /cards/collection (325 names in the oracle snapshot); Commander Spellbook for baseline, candidate and all nine alternatives; Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 decisions and whole-list audit.",
+  "off_ranked_search_conclusion": "OFF-RANKING: Soul's Fire (absent from every Lord page; staged alternative) and the incumbent Sheoldred's Edict (absent; cut). Consign to Memory and Distortion Strike appear on Lord's card-page top-commander rows. No banned or unreleased card was evaluated as a candidate."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Lord of Tresserhorn approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, refinement/decklists, blob d9ff96da, introduced by af3c889 on 2026-10-14; raw SHA-256 95863276…; vendored in data/grixis/m7/baseline_sources/Lord_of_Tresserhorn_approved_source_2026-10-14.txt)",
+  "EDHREC Lord of Tresserhorn commander pages JSON (general, upgraded, optimized, cEDH) and OFF-RANKING card pages, commander pages (general, upgraded, optimized, cEDH) 2026-10-23T16:17:49-0500; card pages for off-ranking checks retrieved 2026-10-23 during this pass (America/Chicago), discovery only: data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T16:19:39-0500: data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T16:38:55-0500: data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for cards absent from every Lord page (Soul's Fire, Sheoldred's Edict) and card-page checks for Consign to Memory, Distortion Strike, Aqueous Form, Embercleave, BMC, Cover of Darkness, Feed the Swarm, Fellwar Stone",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Lord_of_Tresserhorn/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Lord_of_Tresserhorn.md; data/grixis/m6/deep_reviews/Lord_of_Tresserhorn.md",
+  "Owner 2026-10-14 current-cycle decisions and whole-list audit: canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+  "Comprehensive Rules (frozen 2026-09-25) 701.6, 701.19, 701.21a, 702.4, 702.36, 702.56, 702.90, 903.3d, 903.10a, 613.1f, 613.7, 704.5f and frozen rulings: data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+  "Bounded finite measured tests (seed 29, 20000 games x 12 configurations; exhaustive grids B1-B6 including the Pass C Dress Down layer-6 truth table); tested pool of 12 complete 100s: data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json; tests/test_m6_lord_of_tresserhorn_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Fierce Guardianship",
+   "source": "EDHREC Lord of Tresserhorn general 120/1215, upgraded 10/82, optimized 9/28, cEDH 3/4; live Scryfall batch; Game Changer; author-rejected in the 2026-10-14 closure as a generic staple but REOPENED by M6 Pass C Stage A (Phase B item 1), so admissible",
+   "role": "{2}{U} instant, free if you control a commander: counter target noncreature spell.",
+   "named_cuts": [
+    "Stubborn Denial",
+    "Nightscape Familiar",
+    "Sheoldred's Edict"
+   ],
+   "incumbent_opportunity_cost": "Stubborn Denial is an OWNER-CYCLE ADD (2026-10-14) — flagged. {U}: counter target noncreature spell unless its controller pays {1}; ferocious (Lord's power 10) makes it a hard counter, but only once a power-4 creature is on the battlefield, so it is soft while Lord is a spell on the stack. EDHREC Lord general 197/1215, optimized 10/28. Pass C's own requested cuts (Nightscape Familiar, Sheoldred's Edict) were measured and staged.",
+   "commander_synergy": "With Lord on the battlefield (CR 903.3d) it is a free hard counter protecting the 10-power attacker, the Pain for All / Uncaged Fury / Phyresis turn, or the suppression pieces (Torpor Orb, Dress Down) from removal, while tapping out for Lord's {B} regeneration. B4 grid (40 cells): FG answers 17, Stubborn Denial 9; FG-only 8, Denial-only 0.",
+   "adversarial_downside": "Costs {2}{U} while Lord is still a spell on the stack, where Denial costs {U} (soft). Game Changers 2 -> 3, still within the Bracket 4 owner ceiling. Homogenization: Fierce Guardianship is in 54 of the 61 other project decks — the most generic add in this package, disclosed. Turn-6 P(free protection in hand with Lord out) .1208 -> .1692 for this swap alone; FG−Nightscape costs deployment (.5856 vs .6121).",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 1 (cut Stubborn Denial, an owner-cycle ADD — flagged). Pass C's preferred cuts were tested: FG−Nightscape loses deployment (.5856); the FG−Edict probe (.6107) was measured, and the candidate cuts the edict for Skullclamp instead. Denial is the weaker protection in every B4 cell.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_of_Tresserhorn/final_disposition.md",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_PassC_plus_FierceGuardianship_minus_NightscapeFamiliar_20261023.txt"
+   ]
+  },
+  {
+   "card": "Consign to Memory",
+   "source": "EDHREC Lord of Tresserhorn general 214/1215, upgraded 17/82, optimized 10/28, cEDH 2/4; live Scryfall batch; card page: Lord of Tresserhorn top-commander row 214/1215; not mentioned in the 2026-10-14 closure (admissible)",
+   "role": "{U} instant, replicate {1}: counter target triggered ability or colorless spell.",
+   "named_cuts": [
+    "Feed the Swarm",
+    "Terminate"
+   ],
+   "incumbent_opportunity_cost": "Feed the Swarm was an explicit KEEP in the owner's 2026-10-14 whole-list audit — flagged. {1}{B} sorcery: destroy an opponent's creature or enchantment and lose life equal to its mana value. It is one of only two hard enchantment answers. EDHREC Lord general 317/1215, optimized 8/28; in 22 of the 61 other project decks. Competing cut probed: Terminate; probe Consign−Terminate turn-6 P(Lord on battlefield) .6252 (not selected: removal density).",
+   "commander_synergy": "Commander-first: a fourth on-stack answer to Lord's OWN enters trigger (with Stifle, Tale's End and Muddle tutoring), so Lord can enter with no life loss, no sacrifice and no cards for the opponent; replicate counters a second trigger in the same window (an opponent's death or enter trigger). It also counters colorless spells (Sol Ring, Eldrazi, artifacts). Turn-6 P(Lord on battlefield without paying the ETB) .2021 -> .2220 for this swap alone.",
+   "adversarial_downside": "Loses a sorcery-speed creature/enchantment kill: hard enchantment answers drop to Chaos Warp (plus Otawara bounce). B6 grid (8 cells): Consign answers 5, Feed 2, no overlap; the 1 Feed-only cell (an enchantment) still has two kept answers. It is a counter, so it does nothing against a resolved threat. In 0 of the 61 other project decks.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 2 (cut Feed the Swarm, an audit KEEP — flagged). Replaces the withdrawn prior-draft Temur Battle Rage idea, which is an owner cut. Directly addresses Lord's printed drawback.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt"
+   ]
+  },
+  {
+   "card": "Black Market Connections",
+   "source": "EDHREC Lord of Tresserhorn general 170/1215, upgraded 19/82, optimized 6/28, cEDH absent; live Scryfall batch; not mentioned in the 2026-10-14 closure",
+   "role": "{2}{B} enchantment: at your first main phase choose any of Treasure (lose 1), draw (lose 2), or a 3/2 changeling Shapeshifter token (lose 3).",
+   "named_cuts": [
+    "Cover of Darkness"
+   ],
+   "incumbent_opportunity_cost": "Cover of Darkness was an explicit KEEP in the owner's 2026-10-14 audit (naming Zombie gives Lord fear) — flagged. {1}{B} enchantment: creatures of the chosen type have fear. Lord is black, so black and artifact creatures still block him, and Shizo, Death's Storehouse already grants fear. EDHREC Lord upgraded 5/82 only, absent from general and optimized.",
+   "commander_synergy": "Every turn it can make a 3/2 changeling — a Zombie — which is (a) Lord's sacrifice fodder, (b) the other Zombie Gravecrawler needs, and (c) a body Diregraf Captain and Wilhelt pump; plus a card and a Treasure for Lord's {B} regeneration. Turn-6 P(Lord on battlefield) .6121 -> .6381 for this swap alone, the largest single-swap gain.",
+   "adversarial_downside": "Stacked life costs with Lord's own 2 life, Mana Confluence and fetches; it is a slow engine that does nothing the turn it lands. B1 grid: Cover connects 12/24 cells, but fear is stopped by black or artifact blockers and Shizo already gives fear. In 14 of the 61 other decks, including Tresserhorn's Lord, Returned.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 3 (cut Cover of Darkness, an audit KEEP — flagged): a repeatable fodder, card and mana engine for Lord in place of a fear effect Shizo duplicates.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt"
+   ]
+  },
+  {
+   "card": "Ornithopter of Paradise",
+   "source": "EDHREC Lord of Tresserhorn general 361/1215, upgraded 24/82, optimized 7/28, cEDH absent; live Scryfall batch; not mentioned in the 2026-10-14 closure",
+   "role": "{2} artifact creature 0/2 flying: {T}: add one mana of any color.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Fellwar Stone was an explicit KEEP in the owner's 2026-10-14 audit — flagged. {2} rock that taps immediately but only for colours opponents' lands could make. It is not a creature, so it never feeds Lord's two-creature sacrifice. EDHREC Lord general 437/1215, optimized 17/28.",
+   "commander_synergy": "Same two-mana fixing as Fellwar Stone, but a CREATURE: it counts toward Lord's two-creature sacrifice (keeping Lord himself from being the sacrifice with 0-1 other creatures, per the 2004-10-04 ruling), chump-blocks fliers, and is an artifact for Ashnod's Altar loops. Turn-6 P(Lord on battlefield) .6258 for this swap alone (baseline .6121).",
+   "adversarial_downside": "Summoning sick, so it cannot ramp the turn it lands (Fellwar can); dies to sweepers that Lord's regeneration survives; sacrificing it to Lord loses a mana source. In 0 of the 61 other project decks.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 4 (cut Fellwar Stone, an audit KEEP — flagged): fixing that also pays Lord's sacrifice.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt"
+   ]
+  },
+  {
+   "card": "Skullclamp",
+   "source": "EDHREC Lord of Tresserhorn general 154/1215, upgraded 23/82, optimized 3/28, cEDH absent; live Scryfall batch; not mentioned in the 2026-10-14 closure",
+   "role": "{1} Equipment, equip {1}: +1/−1; when equipped creature dies, draw two cards.",
+   "named_cuts": [
+    "Sheoldred's Edict",
+    "Muddle the Mixture",
+    "Nightscape Familiar"
+   ],
+   "incumbent_opportunity_cost": "Sheoldred's Edict was an explicit KEEP in the owner's 2026-10-14 audit — flagged. {1}{B} instant: each opponent sacrifices a nontoken creature, a creature token or a planeswalker (mode chosen). OFF-RANKING: absent from every Lord page. B3 grid: answers 10/14 threat cells and is the only spot answer in 2 (hexproof/indestructible), 0 once Toxic Deluge and Blasphemous Act count. Alternative cuts staged: Muddle the Mixture (alt_B) and Nightscape Familiar (alt_C).",
+   "commander_synergy": "Clamp a creature before Lord resolves and his own sacrifice draws two, offsetting the two cards the opponent draws; on toughness-1 bodies (Bitterblossom tokens, Reassembling Skeleton, Gravecrawler, Bloodghast) it is two cards for {1} with the sacrifice outlets. Its dies trigger still works under Torpor Orb and Karn. Turn-6 cards seen 12.0 -> 12.386 in the full candidate (0.26 Skullclamp draws per game).",
+   "adversarial_downside": "Loses the only instant-speed edict (hexproof/indestructible answer); deployment is flat (.6127 vs .6121). On Lord it is 11/3, so toughness falls. In 6 of the 61 other decks.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 5 (cut Sheoldred's Edict, an audit KEEP — flagged): card flow on Lord's own sacrifice. alt_B (cut Muddle instead, .6672) is staged for an owner who prefers to keep the edict.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_alt_B_Skullclamp_minus_MuddleTheMixture_keep_SheoldredsEdict_20261023.txt",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_alt_C_Skullclamp_minus_NightscapeFamiliar_20261023.txt"
+   ]
+  },
+  {
+   "card": "Temur Battle Rage",
+   "source": "EDHREC Lord of Tresserhorn general 547/1215, upgraded 31/82, optimized 9/28, cEDH absent; live Scryfall batch; OWNER-CYCLE CUT 2026-10-14 (10 power with double strike is only 20 commander damage); not reopened by Pass C",
+   "role": "{1}{R} instant: double strike; trample with ferocious.",
+   "named_cuts": [
+    "Pain for All"
+   ],
+   "incumbent_opportunity_cost": "Pain for All is an OWNER-CYCLE ADD (2026-10-14). {2}{R} Aura: on enter, Lord deals damage equal to his power to any other target; whenever Lord is dealt damage he deals that much to each opponent. With Blasphemous Act and {B} regeneration it is the owner's reflection line.",
+   "commander_synergy": "Double strike plus trample on a 10/4 deals 20 combat damage, and with infect (Phyresis, Tainted Strike) 20 poison.",
+   "adversarial_downside": "Owner cut it on 2026-10-14 and Pass C did not reopen it, so it is INADMISSIBLE. The prior GrokBot draft (TBR−Pain for All) is withdrawn and staged only as a disclosed rejected configuration. B2 grid: TBR kills 174/972 cells, Pain 108, Soul's Fire 216.",
+   "judgment": "REJECT",
+   "reason": "Owner cut; inadmissible. Kept only as a rejected tested configuration.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_rejected_prior_draft_TemurBattleRage_minus_PainForAll_owner_cut_20261023.txt"
+   ]
+  },
+  {
+   "card": "Soul's Fire",
+   "source": "EDHREC Lord of Tresserhorn general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord of Tresserhorn commander page); M6 Pass C Phase B item 2 (+Soul's Fire −Sheoldred's Edict or −Muddle the Mixture)",
+   "role": "{2}{R} instant: target creature you control deals damage equal to its power to any target.",
+   "named_cuts": [
+    "Sheoldred's Edict",
+    "Muddle the Mixture",
+    "Terminate"
+   ],
+   "incumbent_opportunity_cost": "Sheoldred's Edict was an explicit KEEP in the owner's 2026-10-14 audit — flagged. {1}{B} instant: each opponent sacrifices a nontoken creature, a creature token or a planeswalker (mode chosen). OFF-RANKING: absent from every Lord page. B3 grid: answers 10/14 threat cells and is the only spot answer in 2 (hexproof/indestructible), 0 once Toxic Deluge and Blasphemous Act count. Terminate was an explicit KEEP in the owner's 2026-10-14 audit. {B}{R} instant: destroy target creature, it can't be regenerated. One of three remaining spot removal spells after the swaps (with Deadly Rollick and Chaos Warp).",
+   "commander_synergy": "Lord deals 10 to any target at instant speed — a finisher, or 10 poison with infect, or removal for a big creature; works with Lord's regeneration shield.",
+   "adversarial_downside": "B2 grid: kills in 216/972 cells (the most), but B3: answers only 4/14 threat cells versus Edict 10. Turn-6 deployment .6107 vs candidate .6613 when it takes the Skullclamp slot; conversion .2631 vs .2683. Needs Lord on the battlefield.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Pass C test run: staged as a complete 100 over the candidate's Skullclamp; not clearly better as Lord's card flow is the bigger gap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_of_Tresserhorn/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_PassC_plus_SoulsFire_minus_SheoldredsEdict_over_candidate_Skullclamp_20261023.txt",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_rejected_original_tentative_plan_20261023.txt"
+   ]
+  },
+  {
+   "card": "Aqueous Form",
+   "source": "EDHREC Lord of Tresserhorn general 434/1215, upgraded 25/82, optimized 7/28, cEDH 1/4; live Scryfall batch",
+   "role": "{U} Aura: enchanted creature can't be blocked; scry 1 when it attacks.",
+   "named_cuts": [
+    "Muddle the Mixture",
+    "Cover of Darkness"
+   ],
+   "incumbent_opportunity_cost": "Muddle the Mixture is an OWNER-CYCLE ADD (2026-10-14). {U}{U} counter instant or sorcery, or transmute {1}{U}{U} for an MV-2 card (Dress Down, Torpor Orb, Karn, Argent Defender, Bitterblossom, Phyresis, Tale's End). EDHREC Lord optimized 8/28, cEDH 3/4.",
+   "commander_synergy": "Makes Lord unblockable for one blue mana, which beats fear against black and artifact blockers.",
+   "adversarial_downside": "B1 grid: Aqueous connects 15/24 vs Cover 12 — but Cover is already cut for BMC, and Rogue's Passage plus Shizo remain. Falls off when Lord dies and is recast. The 6-swap package Aqueous−Muddle scores .6637 vs candidate .6613 (noise) while losing Muddle's tutor and counter.",
+   "judgment": "REJECT",
+   "reason": "Evasion is already covered; not better than Muddle the Mixture (an owner add).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_rejected_plus_AqueousForm_minus_MuddleTheMixture_20261023.txt"
+   ]
+  },
+  {
+   "card": "Distortion Strike",
+   "source": "EDHREC Lord of Tresserhorn general 397/1215, upgraded 21/82, optimized 6/28, cEDH 1/4; live Scryfall batch; card page: Lord of Tresserhorn 397/1215; author-rejected 2026-10-14 but REOPENED by Pass C Phase B item 4 (34-land case)",
+   "role": "{U} sorcery: +1/+0 and can't be blocked this turn; rebound.",
+   "named_cuts": [
+    "Rogue's Passage"
+   ],
+   "incumbent_opportunity_cost": "Rogue's Passage: utility land, {4},{T}: target creature can't be blocked this turn; a repeatable evasion source that costs no card. EDHREC Lord general 611/1215, optimized 10/28.",
+   "commander_synergy": "Two turns of unblockable Lord for {U}; with a +1 power, 11 commander damage per hit.",
+   "adversarial_downside": "Cutting Rogue's Passage drops to 34 lands; 6-swap package turn-6 deployment .6490 vs candidate .6613. Rogue's Passage repeats every turn without spending a card.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Pass C test run: staged as a complete 100 (candidate + Distortion−Rogue's); not selected because the land cut costs deployment.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_of_Tresserhorn/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_PassC_plus_DistortionStrike_minus_RoguesPassage_20261023.txt"
+   ]
+  },
+  {
+   "card": "Embercleave",
+   "source": "EDHREC Lord of Tresserhorn general 364/1215, upgraded 21/82, optimized 14/28, cEDH absent; live Scryfall batch; AUTHOR-REJECTED in the 2026-10-14 closure; not reopened by Pass C",
+   "role": "{4}{R}{R} flash Equipment: +1/+1, double strike, trample; costs {1} less per attacker.",
+   "named_cuts": [
+    "Pain for All"
+   ],
+   "incumbent_opportunity_cost": "Pain for All is an OWNER-CYCLE ADD (2026-10-14). {2}{R} Aura: on enter, Lord deals damage equal to his power to any other target; whenever Lord is dealt damage he deals that much to each opponent. With Blasphemous Act and {B} regeneration it is the owner's reflection line.",
+   "commander_synergy": "11/5 double strike trample on Lord is 22 commander damage in one combat.",
+   "adversarial_downside": "Author-rejected on 2026-10-14 and not reopened; six mana with one attacker. Inadmissible.",
+   "judgment": "REJECT",
+   "reason": "Author-rejected; inadmissible.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Psychotic Fury",
+   "source": "EDHREC Lord of Tresserhorn general 428/1215, upgraded 23/82, optimized 5/28, cEDH absent; live Scryfall batch; AUTHOR-REJECTED in the 2026-10-14 closure; not reopened by Pass C",
+   "role": "{1}{R} instant: target multicolored creature gains double strike; draw a card.",
+   "named_cuts": [
+    "Pain for All"
+   ],
+   "incumbent_opportunity_cost": "Pain for All is an OWNER-CYCLE ADD (2026-10-14). {2}{R} Aura: on enter, Lord deals damage equal to his power to any other target; whenever Lord is dealt damage he deals that much to each opponent. With Blasphemous Act and {B} regeneration it is the owner's reflection line.",
+   "commander_synergy": "Lord is multicolored; double strike plus a card.",
+   "adversarial_downside": "Author-rejected; 10 power with double strike is only 20 commander damage, the same reason the owner cut Temur Battle Rage. Inadmissible.",
+   "judgment": "REJECT",
+   "reason": "Author-rejected; inadmissible.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Glistening Oil",
+   "source": "EDHREC Lord of Tresserhorn general 111/1215, upgraded 8/82, optimized 6/28, cEDH 2/4; live Scryfall batch; AUTHOR-REJECTED in the 2026-10-14 closure; not reopened by Pass C",
+   "role": "{B}{B} Aura: infect; a -1/-1 counter each upkeep; returns to hand when it goes to a graveyard.",
+   "named_cuts": [
+    "Cover of Darkness"
+   ],
+   "incumbent_opportunity_cost": "Cover of Darkness was an explicit KEEP in the owner's 2026-10-14 audit (naming Zombie gives Lord fear) — flagged. {1}{B} enchantment: creatures of the chosen type have fear. Lord is black, so black and artifact creatures still block him, and Shizo, Death's Storehouse already grants fear. EDHREC Lord upgraded 5/82 only, absent from general and optimized.",
+   "commander_synergy": "Recursive infect on Lord: one hit is lethal poison.",
+   "adversarial_downside": "Author-rejected; the -1/-1 counters shrink Lord's 4 toughness and regeneration does not help. Phyresis and Tainted Strike already supply infect. Inadmissible.",
+   "judgment": "REJECT",
+   "reason": "Author-rejected; inadmissible.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Orcish Bowmasters",
+   "source": "EDHREC Lord of Tresserhorn general 106/1215, upgraded 12/82, optimized 10/28, cEDH 2/4; live Scryfall batch; Game Changer",
+   "role": "{1}{B} flash creature: on enter and whenever an opponent draws a card except their first in their draw step, deal 1 damage to any target and amass Orcs 1.",
+   "named_cuts": [
+    "Nightscape Familiar",
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Nightscape Familiar is an OWNER-CYCLE ADD (2026-10-14). {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. A cheap creature that is sacrifice fodder for Lord and a cost reducer for Lord ({1}{U}{B}{R} is blue and red). EDHREC Lord general 700/1215, optimized 14/28.",
+   "commander_synergy": "Lord's trigger makes an opponent draw two, so a Bowmasters already on the battlefield pings twice and builds a 2/2 Army that is fodder for the next sacrifice; it also punishes opponents' wheels and extra draws.",
+   "adversarial_downside": "The owner's protected suppression core (Torpor Orb, Karn, Dress Down, Stifle, Tale's End) turns off Lord's trigger, and Torpor/Karn also blank Bowmasters' own enter; Lord's trigger resolves sacrifice before the draw, so Bowmasters is often the sacrificed body. A fourth Game Changer. Not measured in this pass.",
+   "judgment": "REJECT",
+   "reason": "Anti-synergy with the owner-protected suppression plan; unmeasured; not better than Nightscape Familiar (cost reducer and fodder).",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "canonical refinement/decisions/Lord_of_Tresserhorn_Current_Cycle_Decisions_2026-10-14.md and Lord_of_Tresserhorn_Whole_List_Audit_2026-10-14.csv (read-only; archived copies grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Swan Song",
+   "source": "EDHREC Lord of Tresserhorn general 146/1215, upgraded 10/82, optimized 12/28, cEDH 2/4; live Scryfall batch",
+   "role": "{U} instant: counter target enchantment, instant or sorcery; its controller gets a 2/2 Bird.",
+   "named_cuts": [
+    "Stubborn Denial"
+   ],
+   "incumbent_opportunity_cost": "Stubborn Denial is an OWNER-CYCLE ADD (2026-10-14) — flagged. {U}: counter target noncreature spell unless its controller pays {1}; ferocious (Lord's power 10) makes it a hard counter, but only once a power-4 creature is on the battlefield, so it is soft while Lord is a spell on the stack. EDHREC Lord general 197/1215, optimized 10/28.",
+   "commander_synergy": "One-mana hard counter protecting Lord's Aura and equipment turns.",
+   "adversarial_downside": "Misses creature and artifact spells (removal on a body, artifact hate) and gives an opponent a 2/2 flier that can chump-block Lord. Fierce Guardianship already took the protection slot.",
+   "judgment": "REJECT",
+   "reason": "Dominated by Fierce Guardianship for this slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Grafted Exoskeleton",
+   "source": "EDHREC Lord of Tresserhorn general 221/1215, upgraded 21/82, optimized 10/28, cEDH 1/4; live Scryfall batch",
+   "role": "{4} Equipment, equip {2}: +2/+2 and infect; sacrifice the creature when it becomes unattached.",
+   "named_cuts": [
+    "Pain for All",
+    "Cover of Darkness"
+   ],
+   "incumbent_opportunity_cost": "Pain for All is an OWNER-CYCLE ADD (2026-10-14). {2}{R} Aura: on enter, Lord deals damage equal to his power to any other target; whenever Lord is dealt damage he deals that much to each opponent. With Blasphemous Act and {B} regeneration it is the owner's reflection line.",
+   "commander_synergy": "12/6 infect Lord: one unblocked hit is lethal poison to one player, and 6 toughness survives more damage-based removal.",
+   "adversarial_downside": "Six mana total; the deck already has Phyresis and Tainted Strike for infect, plus Shadowspear, Brotherhood Regalia, Lightning Greaves and Swiftfoot Boots as equipment; unattaching sacrifices Lord, which regeneration cannot prevent (CR 701.21a).",
+   "judgment": "REJECT",
+   "reason": "Redundant infect at a higher cost, with a sacrifice drawback on Lord.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Fierce Guardianship",
+   "Consign to Memory",
+   "Black Market Connections",
+   "Ornithopter of Paradise",
+   "Skullclamp"
+  ],
+  "cuts": [
+   "Stubborn Denial",
+   "Feed the Swarm",
+   "Cover of Darkness",
+   "Fellwar Stone",
+   "Sheoldred's Edict"
+  ],
+  "coherent_package_tradeoff": "Five swaps that each serve Lord's actual enters trigger: Consign counters it, Ornithopter and BMC's changeling feed it, Skullclamp draws off it, Fierce Guardianship protects Lord for free. Costs: spot removal 5 -> 3 and hard enchantment answers down to Chaos Warp; Game Changers 2 -> 3 (Bracket 4 unchanged); Fierce Guardianship is the most homogenizing card (54/61 other decks); Stubborn Denial is an owner-cycle add and the other four cuts were owner audit keeps — all flagged. Lands stay at 35; Spellbook included combos stay at 19."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Stubborn Denial",
+    "weakness": "Soft counter while Lord is on the stack; needs a power-4 creature already in play.",
+    "alternative_named": "Fierce Guardianship",
+    "reasoning": "CUT for Fierce Guardianship (genuine swap 1). FLAG: owner-cycle ADD 2026-10-14; B4 grid FG-only 8 cells, Denial-only 0."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal with a life cost on top of Lord's own life loss.",
+    "alternative_named": "Consign to Memory",
+    "reasoning": "CUT for Consign to Memory (genuine swap 2). FLAG: owner audit KEEP; enchantment-answer loss disclosed."
+   },
+   {
+    "card": "Cover of Darkness",
+    "weakness": "Fear is stopped by black and artifact blockers and Shizo already grants it.",
+    "alternative_named": "Black Market Connections",
+    "reasoning": "CUT for Black Market Connections (genuine swap 3). FLAG: owner audit KEEP."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Rock that never feeds Lord's two-creature sacrifice.",
+    "alternative_named": "Ornithopter of Paradise",
+    "reasoning": "CUT for Ornithopter of Paradise (genuine swap 4). FLAG: owner audit KEEP."
+   },
+   {
+    "card": "Sheoldred's Edict",
+    "weakness": "Off-ranking interaction slot that does nothing for Lord's own plan.",
+    "alternative_named": "Skullclamp",
+    "reasoning": "CUT for Skullclamp (genuine swap 5). FLAG: owner audit KEEP; staged alt_B keeps it by cutting Muddle instead."
+   },
+   {
+    "card": "Muddle the Mixture",
+    "weakness": "Double-blue counter or tutor that is slow as a tutor.",
+    "alternative_named": "Aqueous Form",
+    "reasoning": "Kept: owner-cycle ADD; tutors MV-2 suppression and finisher pieces (Dress Down, Torpor Orb, Karn, Bitterblossom, Phyresis); Aqueous Form rejected; alt_B staged."
+   },
+   {
+    "card": "Nightscape Familiar",
+    "weakness": "1/1 body with a narrow cost reduction.",
+    "alternative_named": "Fierce Guardianship",
+    "reasoning": "Kept: owner-cycle ADD; cuts Lord's cost by {1} and is fodder; FG−Nightscape measured worse (.5856)."
+   },
+   {
+    "card": "Rogue's Passage",
+    "weakness": "Colourless land in a three-colour deck.",
+    "alternative_named": "Distortion Strike",
+    "reasoning": "Kept: repeatable evasion without a card; Distortion−Rogue's staged (.6490)."
+   },
+   {
+    "card": "Pain for All",
+    "weakness": "Sorcery-speed Aura that needs Lord to be dealt damage.",
+    "alternative_named": "Temur Battle Rage",
+    "reasoning": "Kept: owner-cycle ADD and part of the owner's Blasphemous Act reflection line; TBR is owner-cut."
+   },
+   {
+    "card": "Terminate",
+    "weakness": "Spot removal that does not advance Lord.",
+    "alternative_named": "Soul's Fire",
+    "reasoning": "Kept: owner audit KEEP; removal density would fall to 2 spells; Consign−Terminate probe not selected."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Soul's Fire (absent from every Lord page; Pass C) staged as a complete 100; Sheoldred's Edict (absent) cut; Ornithopter of Paradise and Consign to Memory are in 0 other project decks.",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Fierce Guardianship",
+     "Consign to Memory",
+     "Black Market Connections",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Stubborn Denial",
+     "Feed the Swarm",
+     "Cover of Darkness",
+     "Fellwar Stone",
+     "Sheoldred's Edict"
+    ],
+    "result_and_rationale": "SELECTED candidate (five genuine swaps): FG−Denial, Consign−Feed, BMC−Cover, Ornithopter−Fellwar, Skullclamp−Edict; turn-6 P(Lord on battlefield) .6121 -> .6613."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Stubborn Denial"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Sheoldred's Edict (.6563): for an owner who keeps the edict; below the five-swap floor."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Muddle the Mixture",
+     "Stubborn Denial"
+    ],
+    "result_and_rationale": "Staged five-swap: Skullclamp cuts Muddle the Mixture (owner add) and keeps Sheoldred's Edict (.6672, the highest measured; loses Muddle's tutor)."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Nightscape Familiar",
+     "Stubborn Denial"
+    ],
+    "result_and_rationale": "Staged five-swap: Skullclamp cuts Nightscape Familiar (owner add) instead of the edict (.6438)."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Soul's Fire"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Sheoldred's Edict",
+     "Stubborn Denial"
+    ],
+    "result_and_rationale": "Pass C five-swap: Soul's Fire−Edict instead of Skullclamp (deployment .6107 for the probe; staged)."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Nightscape Familiar",
+     "Sheoldred's Edict"
+    ],
+    "result_and_rationale": "Pass C five-swap: FG cuts Nightscape Familiar and Stubborn Denial stays (single-swap probe FG−Nightscape .5856; staged)."
+   },
+   {
+    "adds": [
+     "Black Market Connections",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp",
+     "Temur Battle Rage"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Fellwar Stone",
+     "Pain for All",
+     "Sheoldred's Edict",
+     "Stubborn Denial"
+    ],
+    "result_and_rationale": "REJECTED prior draft: Temur Battle Rage−Pain for All (owner cut, inadmissible; .6538)."
+   },
+   {
+    "adds": [
+     "Aqueous Form",
+     "Fierce Guardianship",
+     "Skullclamp",
+     "Soul's Fire",
+     "Temur Battle Rage"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Fellwar Stone",
+     "Nightscape Familiar",
+     "Pain for All",
+     "Sheoldred's Edict"
+    ],
+    "result_and_rationale": "REJECTED original tentative plan with TBR and Aqueous Form (.5674)."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested FG against Sheoldred's Edict and Nightscape Familiar (FG−Nightscape staged, .5856 single swap), Soul's Fire against Edict or Muddle (staged over Skullclamp), Distortion Strike against Rogue's Passage (staged six-swap) and the Dress Down layer case (truth table in tests). Skullclamp's alternative cuts (Muddle, Nightscape) are staged; a four-swap keeping the edict is staged.",
+  "strongest_argument_against_baseline": "Lord's printed drawback — two creatures sacrificed, two cards to an opponent — was handled by suppression and fodder, but four slots (a fear enchantment Shizo duplicates, a non-creature rock, a soft counter and an off-plan edict) neither paid nor protected that trigger, and the deck had no way to turn its sacrificed fodder into cards.",
+  "evidence_based_answer": "Five genuine swaps: Fierce Guardianship−Stubborn Denial, Consign to Memory−Feed the Swarm, Black Market Connections−Cover of Darkness, Ornithopter of Paradise−Fellwar Stone, Skullclamp−Sheoldred's Edict. Turn-6 P(Lord on battlefield) .6121 -> .6613. Losses (removal density, enchantment answers, one owner add and four audit keeps) are flagged.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt",
+  "sha256": "fd09cb267660206b834257e5c455259985b0e53316743835f679760b11200f85",
+  "card_count": 100,
+  "deckwide_reconciliation": "One [Commander] line first (Lord of Tresserhorn), then lines alphabetical; 3 Swamp, every other card 1x. Exactly five substitutions against the canonical source; logical hash lh1:c01c0d9c2ea75d54c110a6fa0345ce27094eea53a7a7a226b77f711e22984961 (baseline lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa). 35 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+   "tests/test_m6_lord_of_tresserhorn_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Lord_of_Tresserhorn/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Infect",
+   "Voltron",
+   "Aristocrats"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on Lord's own Oracle text; it was not used as a target. Every remaining incumbent was re-read against the pool: five post-floor challenges were recorded (Muddle, Rogue's Passage, Pain for All, Terminate, Nightscape Familiar) and two six-swap packages (Distortion−Rogue's, Aqueous−Muddle) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Muddle the Mixture",
+    "challenger": "Aqueous Form",
+    "tradeoff": "Aqueous connects 15/24 B1 cells vs Cover 12, but Rogue's Passage and Shizo remain and the package scores .6637 vs .6613 (noise) while losing Muddle's transmute for Dress Down, Torpor Orb or Karn.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Rogue's Passage",
+    "challenger": "Distortion Strike",
+    "tradeoff": "Distortion gives two unblockable turns for {U} but cutting the land drops to 34 and turn-6 deployment to .6490; Passage repeats every turn without a card.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Pain for All",
+    "challenger": "Temur Battle Rage",
+    "tradeoff": "TBR kills more B2 cells (174 vs 108) but is an owner cut (20 commander damage reason) and Pain is the owner's Blasphemous Act reflection line; inadmissible.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Terminate",
+    "challenger": "Soul's Fire",
+    "tradeoff": "Soul's Fire kills the most B2 cells (216/972) but needs Lord in play and answers only 4/14 B3 threats; Terminate is unconditional instant removal and spot removal is already down to 3.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Nightscape Familiar",
+    "challenger": "Orcish Bowmasters",
+    "tradeoff": "Bowmasters pings on Lord's opponent draws but anti-synergises with Torpor Orb, Karn and Dress Down and is a fourth Game Changer; Nightscape reduces Lord's cost and is fodder.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_PassC_plus_DistortionStrike_minus_RoguesPassage_20261023.txt",
+    "sha256": "e99fcd8806276d5a5167a15305aae6880dd711b600eac4414ce4ca6acb46d570",
+    "adds": [
+     "Black Market Connections",
+     "Consign to Memory",
+     "Distortion Strike",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Rogue's Passage",
+     "Sheoldred's Edict",
+     "Stubborn Denial"
+    ],
+    "case_for_extra_swaps": "Pass C Phase B item 4: does a sixth swap, Distortion Strike over Rogue's Passage at 34 lands, add enough evasion to justify the land cut?",
+    "why_not_selected": "Turn-6 P(Lord on battlefield) .6490 vs candidate .6613; Rogue's Passage repeats evasion without a card, and 35 lands is the owner's 2026-10-14 count."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_rejected_plus_AqueousForm_minus_MuddleTheMixture_20261023.txt",
+    "sha256": "e15b399e6cf1c484487db9550a1bb25bebb0f5bb93249b81c84d82566898d052",
+    "adds": [
+     "Aqueous Form",
+     "Black Market Connections",
+     "Consign to Memory",
+     "Fierce Guardianship",
+     "Ornithopter of Paradise",
+     "Skullclamp"
+    ],
+    "cuts": [
+     "Cover of Darkness",
+     "Feed the Swarm",
+     "Fellwar Stone",
+     "Muddle the Mixture",
+     "Sheoldred's Edict",
+     "Stubborn Denial"
+    ],
+    "case_for_extra_swaps": "A sixth swap making Lord unblockable for {U} with Aqueous Form over Muddle the Mixture, since Cover of Darkness is already gone.",
+    "why_not_selected": "Measured .6637 vs .6613 is within noise, Muddle is an owner add that tutors Dress Down, Torpor Orb or Karn, and Rogue's Passage plus Shizo already give evasion."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five because no sixth swap beats its incumbent: both six-swap packages are within noise or worse on deployment (.6637 and .6490 vs .6613) and cost an owner add or the 35th land; TBR, Embercleave, Psychotic Fury and Glistening Oil are owner- or author-rejected; cutting Terminate would take spot removal to 2; Bowmasters fights the owner's suppression core."
+ }
+}

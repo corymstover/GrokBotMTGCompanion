@@ -12,7 +12,7 @@
  "candidate_raw_sha256": "fd09cb267660206b834257e5c455259985b0e53316743835f679760b11200f85",
  "candidate_logical_hash": "lh1:c01c0d9c2ea75d54c110a6fa0345ce27094eea53a7a7a226b77f711e22984961",
  "unique_names": "325",
- "all_commander_legal": "True: every one of the 325 snapshot cards reads commander-legal on live Scryfall. Commander Lord of Tresserhorn ({1}{U}{B}{R} Legendary Creature — Zombie 10/4; set me1, released 2007-09-10; oracle_id 283e7a23-ae25-48d1-abb5-cd021f66cc29; U/B/R) is released and Commander-legal on live Scryfall and is not a Game Changer (an old Alliances card), so no preview or pre-release caveat and no project exception applies. Evaluated names excluded from this snapshot because they are not commander-legal (banned or unreleased) or not within U/B/R on live Scryfall: . No project exception applies; no unreleased card is called legal.",
+ "all_commander_legal": "True: every one of the 325 snapshot cards reads commander-legal on live Scryfall. Commander Lord of Tresserhorn ({1}{U}{B}{R} Legendary Creature — Zombie 10/4; set me1, released 2007-09-10; oracle_id 283e7a23-ae25-48d1-abb5-cd021f66cc29; U/B/R) is released and Commander-legal on live Scryfall and is not a Game Changer (an old Alliances card), so no preview or pre-release caveat and no project exception applies. Evaluated names excluded from this snapshot because they are not commander-legal (banned or unreleased) or not within U/B/R on live Scryfall: none. No project exception applies; no unreleased card is called legal.",
  "grixis_identity_all": "True: every snapshot card is within U/B/R",
  "game_changers_in_candidate": "['Demonic Tutor', 'Fierce Guardianship', 'Vampiric Tutor']",
  "project_exceptions": "0",
