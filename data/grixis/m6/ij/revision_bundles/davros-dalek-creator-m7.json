@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Davros__Dalek_Creator",
+ "slug": "davros-dalek-creator",
+ "baseline_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "result_hash": "lh1:bc802d95f8b6dac3fc108e2c5c87250c250137495374944d8726cfa21994787f",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/davros-dalek-creator.json.gz",
+   "sha256": "sha256:e6da8fed47d3d002fdd5e5edb405126b0e038f0ea41ad2ab6bfde37e72721c60"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz",
+   "sha256": "sha256:f6421f3db8815251f29711b535d3a59d297cbbca230282c21e7031a8ff78cb8b"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/davros-dalek-creator.json",
+   "sha256": "sha256:ceb0461b646ec0e1164503bfc80d76d5fd36ba05096bf2ebf1b103f6126c4baa"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/davros-dalek-creator.json",
+   "sha256": "sha256:a90f8b7613b7e66552c7e1a299376b61fa373f2a67f0dc1057f202f48b4ed602"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/davros-dalek-creator.json",
+   "sha256": "sha256:7fee00a64a8834d266483a975c25b386b9a8fff41aff7dbaebef94e6af369180"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Davros__Dalek_Creator.json",
+   "sha256": "sha256:520d956907ed36dc9ed869fbc8e168473355e957c433a370ca20434d26896fa2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:1cbf5852cf06bf125b2658f1a7307d419624c4aed29ca668b42673aa4fe943fc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+   "sha256": "sha256:a1e3187c14e57d126dc2604bf69a68bf897e3f6ecad8d764d303b1a35c0eed0f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:5bafde45a42626dfb82e42a447481ce01aefe1da9dc3685b1c7eae944a012bb9"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Davros__Dalek_Creator_approved_source_2026-10-14.txt",
+   "sha256": "sha256:aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc"
+  },
+  {
+   "path": "exports/grixis-archidekt/davros-dalek-creator.txt",
+   "sha256": "sha256:c4d7cc547b742cc562c33e9ab3debca5d2c51fdeaad0b81a9f01e0a2c4f5bf30"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Davros__Dalek_Creator.txt",
+   "sha256": "sha256:b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_five_keep_SwanSong_20261023.txt",
+   "sha256": "sha256:75c5fc50c540368a37d28e524d06836a4648912c484d9d48f806484799a5310d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_six_cut_Ashad_keep_BlasphemousAct_20261023.txt",
+   "sha256": "sha256:15d48f50e19e656693121f188803a4d9f343ec2b6de2996d5f44b38b23e549a9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_six_PassC_pairings_Fiery_over_Angel_Disintegration_over_ThisIsHowItEnds_20261023.txt",
+   "sha256": "sha256:3b709f985e385a01db929bbdde0b94f0d052ff723a9d23fb4afe1a7de4ab0221"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_PassC_Artillerist_over_Sycorax_20261023.txt",
+   "sha256": "sha256:c845ef8edd689476e62d4dd6d5cb32c046c82999bc70e2b61ce67797654aedb3"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_FlameRift_over_Ashad_20261023.txt",
+   "sha256": "sha256:c82b4358ff75e19c47be4ee19d4d8a431a31883addc8c7da51eaf9e33f892d82"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+   "sha256": "sha256:db8b5ba505596598ce9e9bc14f350ef6a77648f0c826ec372e45b4f39d9ecbda"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+   "sha256": "sha256:3f691543a30fd5eca39ce40ce6d9818cef27e056b21a10de6bf56e3e9420e331"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/davros-dalek-creator-m7.json",
+   "sha256": "sha256:5809d7ee1c021a6853b670e57fd71aed30d64e8b43db41547f2c674bf6ed5b85"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Davros__Dalek_Creator_M6_I_local_best_20261023.md",
+   "sha256": "sha256:978e3133847487d36bd2c77de54790227baf281f5031534509cfb254a2b22fae"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Davros__Dalek_Creator_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:99f00046bdf6e7a4e22259336d1d2fe2d96617460e1354bb7a56bb3dafeaf5bd"
+  },
+  {
+   "path": ".github/workflows/m7-davros-dalek-creator.yml",
+   "sha256": "sha256:b1d02aa726800dda2ba2ccc1bd9557d86cc214f36bc7f41343bc700f7454dca1"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Davros__Dalek_Creator_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:eaaf37ca1edafe320271e6480baffe0606ab820dc36c1f9e63399078b6d5232b"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/davros-dalek-creator.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/davros-dalek-creator.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:d83251a71e999f966f9c50a6a7a32cbb889372fac869e9e89e8f34e5cfa093cd",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:9e897d4ac27436b75bdb41619b2eb075a720a6ae028308a33b617826883aa144"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_davros_dalek_creator_m7_mechanics.py",
+    "source_sha256": "sha256:4a4843e1eff8746062abad1bdfcffaada20b07246814093957bc7f56e8758f95",
+    "seed": 0,
+    "harness_version": "davros_m7_finite_rules_and_bounded_pass_c_11_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eleven finite seed-0 Oracle-anchored cases. Davros Oracle (end-step token and villainous choice, checked on resolution per 603.4; Alien Scientist, not a Dalek); add Oracle anchors; qualification and choice counts with The Valeyard, multiple Davros resolutions and Wound Reflection ordered first; Bloodletter doubling only on our turn. Bounded Pass C measured tests: a 16-case Unlicensed Disintegration grid (8 kills, newly qualifies exactly 1 case); Ingenious Artillerist vs Purphoros over 5 entry patterns (Purphoros qualifies 3, Artillerist 2), removal in response and a second Davros resolution (2 tokens/4 choices vs 2/2); Fiery Confluence vs Boltwave and Maestros Charm including the 608.2b artifact-target failure (4 or 0). Also hellbent 701.55b, Voidwalker vs Tergrid anti-synergy, exact swaps with 34 lands, legality, UBR identity, singleton and Game Changers. Not a game engine or win-rate; no matched-hand or multiplayer sample."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_davros_dalek_creator_candidate.py",
+    "source_sha256": "sha256:ae8b28080713f1210958952ac0bf1cf2c999d1d9964fdd096182995f04627823",
+    "seed": 0,
+    "harness_version": "davros_m7_gate_candidate_6_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact six physical swaps against vendored and canonical sources, registry hashes untouched, single commander first and 100 physical, gate owner-presentable structure, distinctness vs Deck #11 disclosed; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #659 head 488e1d05 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_davros_dalek_creator_m7_ij.py",
+    "source_sha256": "sha256:3b8cfc6f4136045ba26cf096157a7dc5251a8c434003cb9c2343e26b78dbdc1f",
+    "seed": 0,
+    "harness_version": "davros_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas, runs the J checker, pins the checker sha, and exercises fail-closed Pass C preserved non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Davros__Dalek_Creator_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d3a79d226decbbc751ae1e31fb2fc0b56de19d6eb5521ab580218f498020170e"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Davros__Dalek_Creator_M6_J_mana_20261023.md",
+  "sha256": "sha256:ddabbb408e58b4cbc62836ef5748f758648afeeb4e0a2b8281b219ea48679cad"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

@@ -1,0 +1,931 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Davros__Dalek_Creator",
+ "canonical_baseline_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+ "canonical_baseline_logical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "commander_identity": {
+  "mechanical_plan": "Davros, Dalek Creator ({1}{U}{B}{R} 3/4 menace legendary artifact Alien Scientist, not a Dalek): at the beginning of our end step, if an opponent lost 3+ life this turn, create a 3/3 menace Dalek; then each opponent who lost 3+ faces a villainous choice (we draw, or they discard). The condition is checked on resolution, so Wound Reflection, Perforating Artist and Missy can be ordered first. The deck: (1) qualifies opponents on our turn — Boltwave, Maestros Charm, Loyal Subordinate, Court of Ambition, Torment of Hailfire, Ensnared by the Mara, menace Daleks; the candidate adds Bloodletter (doubling), Purphoros (2 per creature entry), Fiery Confluence, Tectonic Giant, Unlicensed Disintegration; (2) multiplies the trigger and the choice — Roaming Throne naming Alien/Scientist, Strionic Resonator, Scientist Supreme, Auton Soldier (non-legendary Davros), The Valeyard (each choice twice); (3) punishes discards — Waste Not, Geth's Grimoire, Tinybones, Entropic Battlecruiser, and now Tergrid for permanents; Sygg draws whenever an opponent lost 3+.",
+  "protected_core": [
+   "Davros, Dalek Creator",
+   "Wound Reflection",
+   "Boltwave",
+   "Maestros Charm",
+   "Loyal Subordinate",
+   "Court of Ambition",
+   "Torment of Hailfire",
+   "Perforating Artist",
+   "The Valeyard",
+   "Roaming Throne",
+   "Strionic Resonator",
+   "Scientist Supreme of A.I.M.",
+   "Auton Soldier",
+   "Waste Not",
+   "Geth's Grimoire",
+   "Tinybones, Trinket Thief",
+   "Sygg, River Cutthroat",
+   "Entropic Battlecruiser"
+  ],
+  "natural_ceiling": "Power Bracket 4 (registry ceiling 4, Optimized; Grok estimate 4). Game Changers: baseline 5 (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will); candidate 6 (+Tergrid, God of Fright). Commander Spellbook: 0 included combos for baseline and candidate. Bloodletter + Wound Reflection is a finite doubling, not a loop. No infinite is claimed.",
+  "anti_homogenization": "Every add serves Davros's own end-step Oracle (life loss on our turn, or punishing the discard/sacrifice choice). Generic staples (Rhystic Study, Vampiric Tutor, Sheoldred) and off-turn punishers (Painful Quandary, Torment of Scarabs) were rejected. Distinctness vs Deck #11 Cult of Skaro (PR #659): the Davros baseline already shares 53 nonbasic names with the #11 candidate and this candidate shares 52 (18 lands and 34 nonlands; Davros, Dalek Creator is himself one of #11's 99; The Cyber-Controller, shared in the baseline, is cut here; none of the six adds is in #11). Shared nonland core: Cult of Skaro, The Dalek Emperor, Dalek Drone, Dalek Squadron, Genesis of the Daleks, Doomsday Confluence, Exterminate!, Missy, Ashad, Cyberman Patrol, Auton Soldier, Roaming Throne, Strionic Resonator, Scientist Supreme, Padeem, Lightning Greaves, Swiftfoot Boots, Cyber Conversion, Delete, Their Name Is Death, Mana Drain, Fierce Guardianship, Deflecting Swat, Cyclonic Rift, Deadly Rollick, Mox Opal, Sol Ring, Arcane Signet, Fellwar Stone, three Talismans, Enthusiastic Mechanaut. The overlap is significant and disclosed. The commander-first difference: #11 multiplies Cult's attack trigger (extra combats, clones, haste); Davros wants every opponent to lose 3+ life on our turn and then faces them with a villainous choice. Davros-only core: Boltwave, Maestros Charm, Loyal Subordinate, Court of Ambition, Torment of Hailfire, Wound Reflection, Perforating Artist, Sygg, Tinybones, Geth's Grimoire, Waste Not, Entropic Battlecruiser, Sycorax Commander, The Valeyard, Ensnared by the Mara, This Is How It Ends, Tezzeret, Labyrinth Raptor, plus all six adds (none is in #11)."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (94 library rows: Island x2, Mountain x3, Swamp x3, the rest 1x).\nRoles:\n- 34 lands incl. Ancient Tomb, Urza's Saga, Plaza of Heroes, Training Center, Luxury Suite, Morphic Pool, Xander's Lounge, Otawara, Geier Reach Sanitarium, Urborg, City of Brass, Mana Confluence, Fiery Islet, Exotic Orchard, Command Tower, five fetches and six original/shock duals.\n- Ramp: Sol Ring, Mox Opal, Arcane Signet, Fellwar Stone, three Talismans; reducer Enthusiastic Mechanaut.\n- Life-loss enablers: Boltwave, Maestros Charm, Loyal Subordinate, Court of Ambition, Torment of Hailfire, Wound Reflection, Perforating Artist, Ensnared by the Mara, Sycorax Commander, This Is How It Ends, Dauthi Voidwalker.\n- Trigger/choice multipliers: Roaming Throne, Strionic Resonator, Scientist Supreme, Auton Soldier, The Valeyard, Ashad.\n- Discard payoffs: Waste Not, Geth's Grimoire, Tinybones, Entropic Battlecruiser, Tezzeret; Sygg is a life-loss payoff (draw when an opponent lost 3+).\n- Dalek/Cyberman army: Cult of Skaro, The Dalek Emperor, Dalek Drone, Dalek Squadron, Genesis of the Daleks, Doomsday Confluence, Cyberman Patrol, Cybermen Squadron, The Cyber-Controller (cut), Death in Heaven (cut), Missy, Labyrinth Raptor.\n- Interaction: Counterspell, Mana Drain, Swan Song (cut), Fierce Guardianship, Deflecting Swat, Snuff Out, Deadly Rollick, Feed the Swarm, Cyber Conversion, Delete, Exterminate!, Cyclonic Rift, Vandalblast (cut), Blasphemous Act (cut), Toxic Deluge, Their Name Is Death, Weeping Angel (cut).\n- Card flow/tutors: Demonic Tutor, Jeska's Will.\n- Protection: Lightning Greaves, Swiftfoot Boots, Padeem.\nOverlaps: Blasphemous Act and Toxic Deluge both kill our own board, two pure-defence cards (Weeping Angel, Swan Song), a slow Saga (Death in Heaven) and an X-cost Cyberman lord with no life-loss text; significant overlap with Deck #11 (see commander_identity).",
+  "mana_base_and_curve": "Baseline: 34 physical lands; heuristic land colour sources U19 B18 R18; average nonland MV 3.185; 24 instants/sorceries; 23 creatures; 24 artifacts; pips U23 B41 R19. Candidate: 34 lands, sources unchanged (no land swaps); average nonland MV 3.231; 23 instants/sorceries; 25 creatures; 22 artifacts in the 99 (23 with Davros); pips U19 B44 R23. Bloodletter's BBB and Fiery/Tectonic RR rely on 18 B / 18 R land sources plus Talismans, Signet, Fellwar and Urborg.",
+  "interaction_resilience": "Stack: Counterspell, Mana Drain, Fierce Guardianship, Deflecting Swat (Swan Song cut). Removal: Unlicensed Disintegration (new), Snuff Out, Deadly Rollick, Feed the Swarm, Cyber Conversion, Delete, Exterminate!, This Is How It Ends, Cyclonic Rift, Fiery Confluence (artifacts), Toxic Deluge, Their Name Is Death. Protection: Greaves, Boots, Padeem. Weak points: empty-handed opponents can pick the impossible discard (701.55b); lifegain; artifact wipes; fewer counters after cutting Swan Song; Dauthi Voidwalker vs Tergrid anti-synergy.",
+  "weakest_slots": [
+   {
+    "card": "Death in Heaven",
+    "weakness": "Slow 4-mana Saga that needs two more turns and causes no life loss.",
+    "alternative_named": "Bloodletter of Aclazotz",
+    "reasoning": "Doubles every opponent life loss on our turn."
+   },
+   {
+    "card": "Weeping Angel",
+    "weakness": "Defensive flash body with no life-loss text; stops being a creature when opponents cast creatures.",
+    "alternative_named": "Unlicensed Disintegration",
+    "reasoning": "Instant removal that also qualifies the target's controller."
+   },
+   {
+    "card": "The Cyber-Controller",
+    "weakness": "X-cost Cyberman lord shared with Deck #11; no life-loss or choice text.",
+    "alternative_named": "Tergrid, God of Fright",
+    "reasoning": "Steals permanents paid to the deck's sacrifice/discard choices."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Symmetric wipe that kills Davros and our token army.",
+    "alternative_named": "Purphoros, God of the Forge",
+    "reasoning": "2 to each opponent per creature entry; indestructible."
+   },
+   {
+    "card": "Vandalblast",
+    "weakness": "Pure artifact hate with no life-loss or choice text.",
+    "alternative_named": "Fiery Confluence",
+    "reasoning": "Table enabler with an artifact-destroy mode."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "1-mana counter that gives the opponent a flying blocker.",
+    "alternative_named": "Tectonic Giant",
+    "reasoning": "Repeatable 3 to each opponent per attack."
+   },
+   {
+    "card": "Sycorax Commander",
+    "weakness": "4-drop villainous ETB, one use.",
+    "alternative_named": "Ingenious Artillerist",
+    "reasoning": "Rejected: fragile; Purphoros does it better (bounded Pass C test)."
+   },
+   {
+    "card": "Ashad, the Lone Cyberman",
+    "weakness": "Needs a power-2 creature to sacrifice for casualty.",
+    "alternative_named": "Flame Rift",
+    "reasoning": "Rejected: hurts us, one-shot, redundant."
+   },
+   {
+    "card": "Labyrinth Raptor",
+    "weakness": "Narrow 2-drop that matters only when menace creatures are blocked.",
+    "alternative_named": "Hellrider",
+    "reasoning": "Rejected: damages only the attacked player."
+   },
+   {
+    "card": "Enthusiastic Mechanaut",
+    "weakness": "2-mana flying reducer body with no damage or choice text.",
+    "alternative_named": "Impact Tremors",
+    "reasoning": "Rejected: half of Purphoros's output for the same trigger."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana do-nothing-alone payoff.",
+    "alternative_named": "Archfiend of Despair",
+    "reasoning": "Rejected: 8-mana copy of Wound Reflection."
+   },
+   {
+    "card": "Auton Soldier",
+    "weakness": "6-mana clone that only matters as a second Davros copy.",
+    "alternative_named": "Exsanguinate",
+    "reasoning": "Rejected: one-shot; Auton is a second Davros trigger."
+   },
+   {
+    "card": "Dauthi Voidwalker",
+    "weakness": "Anti-synergy with Tergrid (exiles the cards Tergrid would steal).",
+    "alternative_named": "Kroxa, Titan of Death's Hunger",
+    "reasoning": "Rejected: escape is too slow to set up reliably."
+   },
+   {
+    "card": "This Is How It Ends",
+    "weakness": "Opponent can choose to shuffle another creature instead of losing 5.",
+    "alternative_named": "Painful Quandary",
+    "reasoning": "Rejected: loss happens on opponents' turns."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Costs us life; wipes our board.",
+    "alternative_named": "Sheoldred, the Apocalypse",
+    "reasoning": "Rejected: opponents' draws are on their turns."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Costs us life and is sorcery-speed removal.",
+    "alternative_named": "Megrim",
+    "reasoning": "Rejected: owner cut the same role (Liliana's Caress)."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Davros list (2026-10-14) with strong one-card table enablers (Boltwave, Maestros Charm, Loyal Subordinate) and discard payoffs. M6 Pass C kept it (NEEDS TESTING, 0 measured playtests) and asked for measured tests of Unlicensed Disintegration, Ingenious Artillerist and Fiery Confluence. Remaining weaknesses: three self-damaging wipes, defensive cards with no life-loss text, a 7-mana Cyberman lord shared with Deck #11, and no amplifier for partial life loss.",
+  "candidate_pool_scope": "EDHREC Davros general (6007 decks), upgraded (615) and optimized (103) pages JSON; live Scryfall /cards/collection batch (95 baseline rows + 84 candidates; Raiders' Wallet and Dalek Patrol not found); Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; and OFF-RANKING searches for life-loss amplifiers, per-entry burn, end-step drains and discard/sacrifice punishers.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Purphoros and Fiery Confluence (absent from every Davros page; both selected), Bloodletter (optimized only, 14/103; selected), Ingenious Artillerist, Hellrider, Impact Tremors, Archfiend of Despair, Torment of Scarabs (absent; rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Davros approved source refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob ee80a621; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Davros commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23: data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (95 baseline rows + 84 candidates): data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Davros__Dalek_Creator_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for life-loss amplifiers, per-entry burn, end-step drains and punishers (Purphoros; Fiery Confluence; Ingenious Artillerist; Hellrider; Impact Tremors; Archfiend of Despair; Torment of Scarabs)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for conditional end-step triggers, villainous choice, replacement doubling, 608.2b target legality, myriad and the legend rule: data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+  "Bounded finite measured tests for the three Pass C requests (Unlicensed Disintegration 16-case grid; Artillerist vs Purphoros 5 entry patterns + removal response + post-threshold token; Fiery Confluence vs Boltwave/Maestros Charm incl. the artifact-target failure): tests/test_m6_davros_dalek_creator_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Bloodletter of Aclazotz",
+   "source": "EDHREC Davros optimized 14/103 (absent from general/upgraded pages, so effectively OFF-RANKING for most lists); live Scryfall batch",
+   "role": "{1}{B}{B}{B} 2/4 flying Vampire Demon: if an opponent would lose life during your turn, they lose twice that much life instead.",
+   "named_cuts": [
+    "Death in Heaven"
+   ],
+   "incumbent_opportunity_cost": "Loses Death in Heaven ({3}{B} Saga: chapters I-II mill two and exile a player's graveyard, chapter III returns the exiled creature cards face down as 2/2 Cyberman artifacts under our control), a slow value card that takes two turns to pay off.",
+   "commander_synergy": "Davros's whole condition is 'an opponent lost 3 or more life this turn' on our turn. Bloodletter halves that threshold: every 2 points becomes 4. Boltwave becomes 6 each, Fiery Confluence 12 each, Loyal Subordinate 6, Purphoros 4 per creature, Tectonic Giant 6, a single unblocked Dalek token 6. It also doubles Wound Reflection's end-step loss (ordered before Davros), Perforating Artist, Court of Ambition, Torment of Hailfire, and Entropic Battlecruiser, so opponents pay more for choosing life.",
+   "adversarial_downside": "BBB pips (B sources 18 + rocks); a 2/4 flyer that is the obvious lightning rod; legendary. Only on our turn. Its land back face means it is never dead.",
+   "judgment": "SELECT_ADD",
+   "reason": "The single most commander-specific card found: it converts every partial life loss into a Davros qualification on our turn. Doubling is finite (no loop); Spellbook lists no included combo with the 100.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Unlicensed Disintegration",
+   "source": "EDHREC Davros general 1783/6007, upgraded 175/615, optimized 25/103; M6 Pass C hypothesis #1 (over Weeping Angel); live Scryfall batch",
+   "role": "{1}{B}{R} instant: destroy target creature; if you control an artifact, it deals 3 damage to that creature's controller.",
+   "named_cuts": [
+    "Weeping Angel"
+   ],
+   "incumbent_opportunity_cost": "Loses Weeping Angel ({1}{U}{B} flash artifact Angel; it stops being a creature when an opponent casts a creature spell). Pass C noted this costs a 3-mana flash body.",
+   "commander_synergy": "Hard instant removal that, cast on our turn with an artifact out (23 artifacts incl. Davros), qualifies its target's controller for Davros. The bounded Pass C test enumerates legal/illegal target x artifact x own/other turn x prior loss: it kills in all 8 legal-target cases and newly qualifies exactly 1 of 16 (legal, artifact, our turn, no prior loss) — one opponent, never all.",
+   "adversarial_downside": "Fizzles entirely to hexproof/protection or sacrifice in response (608.2b: no damage either). Off our turn the 3 damage does not count for Davros's end step.",
+   "judgment": "SELECT_ADD",
+   "reason": "Pass C's exact pairing. Weeping Angel is a defensive body with no life-loss text; Disintegration is removal that also feeds the commander.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Tergrid, God of Fright",
+   "source": "EDHREC Davros general 1091/6007, upgraded 182/615, optimized 39/103; live Scryfall batch (Game Changer)",
+   "role": "{3}{B}{B} 4/5 menace legendary God (MDFC): whenever an opponent sacrifices a nontoken permanent or discards a permanent card, you may put that card from a graveyard onto the battlefield under your control. Back face Tergrid's Lantern: {T}: target player loses 3 unless they sacrifice a nonland permanent or discard.",
+   "named_cuts": [
+    "The Cyber-Controller"
+   ],
+   "incumbent_opportunity_cost": "Loses The Cyber-Controller ({X}{U}{U}{B}: each opponent mills X and we take the milled creatures as 2/2 Cybermen; other artifact creatures +1/+1), an army payoff shared with Deck #11.",
+   "commander_synergy": "Davros's villainous choice offers 'discard a card'; Court of Ambition, Torment of Hailfire, Perforating Artist, Sycorax Commander, the edicts in The Dalek Emperor, Doomsday Confluence and Labyrinth Raptor offer or force discard/sacrifice. Tergrid turns each permanent paid into our permanent, so the safe option becomes the expensive one and pushes opponents toward life loss, which is what Davros wants. Menace body like Davros.",
+   "adversarial_downside": "Game Changer (Bracket 4 count 5 -> 6). Opponents pick which card to discard and can discard nonpermanents, or choose an impossible option when empty-handed (701.55b). Anti-synergy: Dauthi Voidwalker exiles those cards (disclosed).",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts the deck's punisher choices into card advantage; the Game Changer is disclosed and the deck is already Bracket 4.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Purphoros, God of the Forge",
+   "source": "OFF-RANKING (absent from every Davros EDHREC page); live Scryfall batch",
+   "role": "{3}{R} indestructible legendary enchantment creature God: whenever another creature you control enters, deal 2 damage to each opponent; {2}{R}: creatures get +1/+0.",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Loses Blasphemous Act (often 1-mana symmetric 13-damage wipe), which also kills Davros, our Daleks and Cybermen.",
+   "commander_synergy": "Every Dalek token (Davros, The Dalek Emperor, Genesis of the Daleks, Doomsday Confluence, Cult of Skaro), every myriad token (Dalek Squadron, Auton Soldier, Cybermen Squadron) and every creature spell deals 2 to each opponent. Two entries qualify the table; one entry with Bloodletter does. The bounded Pass C test shows it qualifies all opponents on a 2-token myriad batch where Ingenious Artillerist does not, and it survives destroy effects.",
+   "adversarial_downside": "Not a creature below devotion 5, so no body early; exile/bounce still answer it. Losing the cheapest wipe leaves Toxic Deluge, Their Name Is Death (spares our artifact Daleks) and Cyclonic Rift.",
+   "judgment": "SELECT_ADD",
+   "reason": "An indestructible table-wide life-loss engine keyed to the tokens Davros and the Dalek package already make; Blasphemous Act works against our own board.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Fiery Confluence",
+   "source": "OFF-RANKING (absent from every Davros EDHREC page); M6 Pass C hypothesis (Fiery vs Boltwave/Maestros Charm); live Scryfall batch",
+   "role": "{2}{R}{R} sorcery, choose three (repeats allowed): 1 damage to each creature; 2 damage to each opponent; destroy target artifact.",
+   "named_cuts": [
+    "Vandalblast"
+   ],
+   "incumbent_opportunity_cost": "Loses Vandalblast ({R} one artifact, or overload {4}{R} all opponents' artifacts), the deck's one-sided artifact sweep.",
+   "commander_synergy": "2-2-2 deals 6 to each opponent (12 with Bloodletter) and cannot be fizzled; 2-2-artifact keeps 4 each plus targeted artifact removal; up to three artifacts for 4 mana. The bounded test compares it with Boltwave (3 each, MV 1) and Maestros Charm (3 each, MV 3): all three qualify the table alone, Fiery is the one that also answers artifacts.",
+   "adversarial_downside": "Sorcery. Pass C's failure case is real: if the chosen artifact target becomes illegal, the whole spell does not resolve and the damage is lost (608.2b), so choose 2-2-2 when an artifact may vanish. No overload-style one-sided sweep any more.",
+   "judgment": "SELECT_ADD",
+   "reason": "Redundant enabler plus flexible artifact hate in one card; Vandalblast's overload is the honest loss.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Tectonic Giant",
+   "source": "EDHREC Davros general 1093/6007, upgraded 100/615, optimized 21/103; live Scryfall batch",
+   "role": "{2}{R}{R} 3/4: whenever it attacks or becomes the target of an opponent's spell, choose one: 3 damage to each opponent, or impulse-draw one of the top two.",
+   "named_cuts": [
+    "Swan Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Swan Song ({U} counter for enchantment/instant/sorcery; gives the opponent a 2/2 flying Bird).",
+   "commander_synergy": "Each attack resolves before blocks and deals 3 to each opponent (6 with Bloodletter): a repeatable whole-table Davros qualifier on every one of our turns, and card flow when the damage is not needed. Opponents targeting it also trigger it.",
+   "adversarial_downside": "Non-artifact 4-drop that must attack; dies in combat if blocked by bigger creatures. Losing a 1-mana counter lowers protection of Davros and engines.",
+   "judgment": "SELECT_ADD",
+   "reason": "Post-floor sixth swap: the deck had only one repeatable creature-based 3-to-each source (Loyal Subordinate); Swan Song's Bird also blocks menace. The five-swap list keeping Swan Song is staged as the retained alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_five_keep_SwanSong_20261023.txt"
+   ]
+  },
+  {
+   "card": "Ingenious Artillerist",
+   "source": "OFF-RANKING (absent from every Davros EDHREC page); M6 Pass C hypothesis (Artillerist variants); live Scryfall batch",
+   "role": "{2}{R} 3/1 Human Artificer: whenever one or more artifacts you control enter, deal that much damage to each opponent.",
+   "named_cuts": [
+    "Sycorax Commander"
+   ],
+   "incumbent_opportunity_cost": "Would lose Sycorax Commander (first strike, haste; villainous choice: discard hand and redraw minus one, or damage equal to hand size).",
+   "commander_synergy": "Counts artifact entries in one batch (Genesis III's three Daleks = 3 each) and rocks/Saga constructs.",
+   "adversarial_downside": "Bounded Pass C test: qualifies all opponents from its own damage only on 3+ artifacts in a turn (2 of 5 enumerated cases vs 3 of 5 for Purphoros), 0 if removed in response, and a 3/1 dies to any ping; Davros's own token arrives after the check.",
+   "judgment": "REJECT",
+   "reason": "Staged as the seven-swap list over Sycorax. Purphoros does the job better; Sycorax is itself a villainous-choice card that deals damage equal to hand size.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "tests/test_m6_davros_dalek_creator_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Davros__Dalek_Creator/final_disposition.md",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_PassC_Artillerist_over_Sycorax_20261023.txt"
+   ]
+  },
+  {
+   "card": "Flame Rift",
+   "source": "EDHREC Davros general 919/6007, upgraded 88/615, optimized 22/103; live Scryfall batch",
+   "role": "{1}{R} sorcery: 4 damage to each player.",
+   "named_cuts": [
+    "Ashad, the Lone Cyberman"
+   ],
+   "incumbent_opportunity_cost": "Would lose Ashad (casualty copy of the first nonlegendary artifact spell each turn: copies Roaming Throne, Auton Soldier, Dalek Squadron).",
+   "commander_synergy": "Cheap one-shot table qualifier (8 to each with Bloodletter).",
+   "adversarial_downside": "Hits us for 4 too; one-shot; redundant with Boltwave and Fiery Confluence; Ashad's copies multiply Davros triggers (Roaming Throne copy naming Alien/Scientist) and keep the artifact count.",
+   "judgment": "REJECT",
+   "reason": "Staged as the seven-swap list over Ashad; the deck already has three one-card table enablers.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_FlameRift_over_Ashad_20261023.txt"
+   ]
+  },
+  {
+   "card": "Hellrider",
+   "source": "OFF-RANKING (absent from Davros EDHREC pages); live Scryfall batch",
+   "role": "{2}{R}{R} 3/3 haste: whenever a creature you control attacks, 1 damage to the player it attacks.",
+   "named_cuts": [
+    "Labyrinth Raptor"
+   ],
+   "incumbent_opportunity_cost": "Would lose Labyrinth Raptor ({B}{R} menace; blockers of our menace creatures are sacrificed).",
+   "commander_synergy": "Pings per attacker; with three Dalek tokens attacking one opponent, that opponent takes 3.",
+   "adversarial_downside": "Damage goes only to the attacked player, so it rarely qualifies more than one opponent; Raptor makes all our menace bodies (Davros, Daleks, Tergrid, Loyal Subordinate) punishing to block and feeds Tergrid.",
+   "judgment": "REJECT",
+   "reason": "Narrower than Tectonic Giant and worse than Raptor in a menace deck.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Impact Tremors",
+   "source": "OFF-RANKING (absent from Davros EDHREC pages); live Scryfall batch",
+   "role": "{1}{R} enchantment: whenever a creature you control enters, 1 damage to each opponent.",
+   "named_cuts": [
+    "Enthusiastic Mechanaut"
+   ],
+   "incumbent_opportunity_cost": "Would lose Enthusiastic Mechanaut (artifact spells cost {1} less; reduces Davros's own cost as an artifact).",
+   "commander_synergy": "Pings on every token entry like a weaker Purphoros.",
+   "adversarial_downside": "Half of Purphoros's output; with Purphoros already in, a second pinger is redundant while Mechanaut ramps Davros and the artifact suite.",
+   "judgment": "REJECT",
+   "reason": "Purphoros covers the role at double the rate.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Archfiend of Despair",
+   "source": "OFF-RANKING (absent from Davros EDHREC pages); live Scryfall batch",
+   "role": "{6}{B}{B} 6/6 flyer: opponents can't gain life; each end step, each opponent loses life equal to the life they lost this turn.",
+   "named_cuts": [
+    "Cybermen Squadron"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cybermen Squadron (nonlegendary artifact creatures have myriad: spreads attacking Daleks to every opponent, each copy a Purphoros trigger).",
+   "commander_synergy": "A second Wound Reflection on a body.",
+   "adversarial_downside": "Eight mana; Wound Reflection already provides the doubling for six; Squadron is what spreads damage to all three opponents in one attack.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Wound Reflection and expensive at eight mana.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Exsanguinate",
+   "source": "EDHREC Davros general 562/6007; live Scryfall batch",
+   "role": "{X}{B}{B} sorcery: each opponent loses X life; you gain that much.",
+   "named_cuts": [
+    "Auton Soldier"
+   ],
+   "incumbent_opportunity_cost": "Would lose Auton Soldier (non-legendary copy of Davros = a second end-step trigger, with myriad).",
+   "commander_synergy": "Casting it with X=3 on our turn qualifies the whole table.",
+   "adversarial_downside": "Five mana for what Boltwave does for one; a finisher, not an engine; Auton's second Davros doubles every end step.",
+   "judgment": "REJECT",
+   "reason": "Auton Soldier multiplies the commander; Exsanguinate is a one-shot.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kroxa, Titan of Death's Hunger",
+   "source": "EDHREC Davros general 855/6007; live Scryfall batch",
+   "role": "{B}{R} legendary Elder Giant: on enter/attack each opponent discards, then loses 3 unless they discarded a nonland card; escape.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would lose Dauthi Voidwalker ({B}{B} 3/2 shadow; exiles opponents' cards going to graveyard).",
+   "commander_synergy": "Discard plus conditional 3 life loss on each attack; feeds Waste Not, Geth's Grimoire, Tinybones and Tergrid.",
+   "adversarial_downside": "Sacrificed on cast unless escaped; escape needs five other graveyard cards and BBRR. Voidwalker's 3-power shadow damage qualifies one opponent each turn reliably.",
+   "judgment": "REJECT",
+   "reason": "Too slow to set up; Voidwalker is a cheaper evasive qualifier (Tergrid anti-synergy disclosed).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Painful Quandary",
+   "source": "EDHREC Davros general 668/6007; live Scryfall batch",
+   "role": "{3}{B}{B} enchantment: whenever an opponent casts a spell, they lose 5 unless they discard a card.",
+   "named_cuts": [
+    "This Is How It Ends"
+   ],
+   "incumbent_opportunity_cost": "Would lose This Is How It Ends (villainous removal: shuffle the creature, then lose 5 or shuffle another creature).",
+   "commander_synergy": "Discard-or-5 on every opponent spell; with Tergrid, permanents discarded are stolen.",
+   "adversarial_downside": "Triggers on opponents' turns, where the life loss does not count for our end step; This Is How It Ends is removal and a villainous choice (doubled by The Valeyard).",
+   "judgment": "REJECT",
+   "reason": "Off-turn loss does not feed Davros.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "source": "EDHREC Davros optimized 10/103; live Scryfall batch",
+   "role": "{2}{B}{B} 4/5 deathtouch: we gain 2 per draw; opponents lose 2 per draw.",
+   "named_cuts": [
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Toxic Deluge (scalable wipe).",
+   "commander_synergy": "Opponents lose 2 on their own draw step only (not our turn); on our turn only Davros's 'you draw' option draws us cards.",
+   "adversarial_downside": "Opponents' draws happen on their turns, so the loss does not count for Davros; the deck needs its one remaining unconditional wipe.",
+   "judgment": "REJECT",
+   "reason": "A strong card that does not serve the commander's on-our-turn threshold.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Megrim",
+   "source": "EDHREC Davros optimized 7/103; owner cut Liliana's Caress (same role) on 2026-10-13/14; live Scryfall batch",
+   "role": "{2}{B} enchantment: whenever an opponent discards a card, 2 damage to that player.",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Would lose Feed the Swarm (sorcery creature/enchantment removal).",
+   "commander_synergy": "Makes 'discard' cost life, so discarding to Davros's choice or Court of Ambition still feeds next turn.",
+   "adversarial_downside": "The owner removed the equivalent Liliana's Caress in the approved list; Entropic Battlecruiser (station 1+: discard -> lose 3) already fills the role on an artifact.",
+   "judgment": "REJECT",
+   "reason": "Respect the owner's prior cut; role already covered by Battlecruiser.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Pain Magnification",
+   "source": "EDHREC Davros general 848/6007; live Scryfall batch",
+   "role": "{1}{B}{R} enchantment: whenever an opponent is dealt 3+ damage by a single source, they discard a card.",
+   "named_cuts": [
+    "Counterspell"
+   ],
+   "incumbent_opportunity_cost": "Would lose Counterspell, the cleanest hard counter left.",
+   "commander_synergy": "Every Dalek token hit, Boltwave, Maestros Charm, Tectonic Giant forces discards for Waste Not, Geth's Grimoire, Tinybones, Tergrid.",
+   "adversarial_downside": "Enchantment that does nothing alone; losing the only hard counter (Swan Song already cut) leaves the deck with Mana Drain, Fierce Guardianship and Deflecting Swat only.",
+   "judgment": "REJECT",
+   "reason": "Interaction floor matters more after cutting Swan Song.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Torment of Scarabs",
+   "source": "OFF-RANKING (absent from Davros EDHREC pages); live Scryfall batch",
+   "role": "{3}{B} aura on a player: at their upkeep, lose 3 unless they sacrifice a nonland permanent or discard.",
+   "named_cuts": [
+    "Snuff Out"
+   ],
+   "incumbent_opportunity_cost": "Would lose Snuff Out (free removal).",
+   "commander_synergy": "Tergrid-friendly sacrifice/discard punisher on one player.",
+   "adversarial_downside": "Triggers on the enchanted opponent's upkeep (not our turn) and hits only one player.",
+   "judgment": "REJECT",
+   "reason": "Doesn't help Davros's end step because the loss is off-turn.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Rhystic Study",
+   "source": "EDHREC Davros general 839/6007 (negative synergy); live Scryfall batch (Game Changer)",
+   "role": "{2}{U} enchantment: draw whenever an opponent casts unless they pay 1.",
+   "named_cuts": [
+    "Geth's Grimoire"
+   ],
+   "incumbent_opportunity_cost": "Would lose Geth's Grimoire (draw on each opponent discard).",
+   "commander_synergy": "Generic card draw with no tie to Davros's Oracle.",
+   "adversarial_downside": "A second extra Game Changer for generic value; Geth's Grimoire is keyed to the deck's discard choices.",
+   "judgment": "REJECT",
+   "reason": "Generic staple; anti-homogenization.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Vampiric Tutor",
+   "source": "EDHREC Davros general 339/6007 (negative synergy); live Scryfall batch (Game Changer)",
+   "role": "{B} instant: tutor to top, lose 2.",
+   "named_cuts": [
+    "Deadly Rollick"
+   ],
+   "incumbent_opportunity_cost": "Would lose Deadly Rollick (free-with-commander exile removal).",
+   "commander_synergy": "Finds Bloodletter or Wound Reflection for the end step.",
+   "adversarial_downside": "Generic Game Changer; card disadvantage; the deck already has Demonic Tutor.",
+   "judgment": "REJECT",
+   "reason": "Generic staple; keeps the Game Changer count at 6.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kaya's Guile",
+   "source": "Davros EDHREC/Doctor Who discovery; live Scryfall batch",
+   "role": "{1}{W}{B} instant: modal edict/graveyard hate/token/lifegain.",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Would lose Feed the Swarm (sorcery creature/enchantment removal).",
+   "commander_synergy": "Edict plus graveyard hate, loosely Davros-adjacent.",
+   "adversarial_downside": "White colour identity (W,B), outside U/B/R.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Off colour identity; not legal in a Davros deck.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Bloodletter of Aclazotz",
+   "Unlicensed Disintegration",
+   "Tergrid, God of Fright",
+   "Purphoros, God of the Forge",
+   "Fiery Confluence",
+   "Tectonic Giant"
+  ],
+  "cuts": [
+   "Death in Heaven",
+   "Weeping Angel",
+   "The Cyber-Controller",
+   "Blasphemous Act",
+   "Vandalblast",
+   "Swan Song"
+  ],
+  "coherent_package_tradeoff": "Six one-for-one swaps that make Davros's end-step condition easier to meet for every opponent (Bloodletter, Purphoros, Fiery Confluence, Tectonic Giant, Unlicensed Disintegration) and punish the discard/sacrifice choices (Tergrid). Losses: Blasphemous Act (Toxic Deluge, Their Name Is Death and Cyclonic Rift remain), Death in Heaven's delayed creature theft, Vandalblast's one-sided artifact sweep, Swan Song's 1-mana counter, Weeping Angel's 3-mana flash body and The Cyber-Controller. Game Changers 5 -> 6 (Tergrid)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Death in Heaven",
+    "weakness": "Slow 4-mana Saga that needs two more turns and causes no life loss.",
+    "alternative_named": "Bloodletter of Aclazotz",
+    "reasoning": "Doubles every opponent life loss on our turn."
+   },
+   {
+    "card": "Weeping Angel",
+    "weakness": "Defensive flash body with no life-loss text; stops being a creature when opponents cast creatures.",
+    "alternative_named": "Unlicensed Disintegration",
+    "reasoning": "Instant removal that also qualifies the target's controller."
+   },
+   {
+    "card": "The Cyber-Controller",
+    "weakness": "X-cost Cyberman lord shared with Deck #11; no life-loss or choice text.",
+    "alternative_named": "Tergrid, God of Fright",
+    "reasoning": "Steals permanents paid to the deck's sacrifice/discard choices."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Symmetric wipe that kills Davros and our token army.",
+    "alternative_named": "Purphoros, God of the Forge",
+    "reasoning": "2 to each opponent per creature entry; indestructible."
+   },
+   {
+    "card": "Vandalblast",
+    "weakness": "Pure artifact hate with no life-loss or choice text.",
+    "alternative_named": "Fiery Confluence",
+    "reasoning": "Table enabler with an artifact-destroy mode."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "1-mana counter that gives the opponent a flying blocker.",
+    "alternative_named": "Tectonic Giant",
+    "reasoning": "Repeatable 3 to each opponent per attack."
+   },
+   {
+    "card": "Sycorax Commander",
+    "weakness": "4-drop villainous ETB, one use.",
+    "alternative_named": "Ingenious Artillerist",
+    "reasoning": "Rejected: fragile; Purphoros does it better (bounded Pass C test)."
+   },
+   {
+    "card": "Ashad, the Lone Cyberman",
+    "weakness": "Needs a power-2 creature to sacrifice for casualty.",
+    "alternative_named": "Flame Rift",
+    "reasoning": "Rejected: hurts us, one-shot, redundant."
+   },
+   {
+    "card": "Labyrinth Raptor",
+    "weakness": "Narrow 2-drop that matters only when menace creatures are blocked.",
+    "alternative_named": "Hellrider",
+    "reasoning": "Rejected: damages only the attacked player."
+   },
+   {
+    "card": "Enthusiastic Mechanaut",
+    "weakness": "2-mana flying reducer body with no damage or choice text.",
+    "alternative_named": "Impact Tremors",
+    "reasoning": "Rejected: half of Purphoros's output for the same trigger."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana do-nothing-alone payoff.",
+    "alternative_named": "Archfiend of Despair",
+    "reasoning": "Rejected: 8-mana copy of Wound Reflection."
+   },
+   {
+    "card": "Auton Soldier",
+    "weakness": "6-mana clone that only matters as a second Davros copy.",
+    "alternative_named": "Exsanguinate",
+    "reasoning": "Rejected: one-shot; Auton is a second Davros trigger."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Purphoros, Fiery Confluence and Bloodletter (selected); Ingenious Artillerist, Hellrider, Impact Tremors, Archfiend of Despair, Torment of Scarabs (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast",
+     "Swan Song"
+    ],
+    "result_and_rationale": "Selected six-swap package: commander-first. More ways to make every opponent lose 3+ on our turn (Bloodletter doubling, Purphoros per token, Fiery Confluence, Tectonic Giant, Unlicensed Disintegration) and a punisher for the sacrifice/discard options (Tergrid). Lands and colour sources unchanged."
+   },
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast"
+    ],
+    "result_and_rationale": "Staged five-swap alternative keeping Swan Song. Retained: more protection for Davros and engines, one fewer repeatable table qualifier."
+   },
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Ashad, the Lone Cyberman",
+     "Vandalblast",
+     "Swan Song"
+    ],
+    "result_and_rationale": "Staged six-swap keeping Blasphemous Act and cutting Ashad. Rejected: Ashad copies multiply Davros triggers; the wipe kills our own board."
+   },
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "This Is How It Ends",
+     "Swan Song"
+    ],
+    "result_and_rationale": "Staged Pass C pairings (Fiery over Angel, Disintegration over This Is How It Ends; Vandalblast kept). Rejected: This Is How It Ends is a villainous-choice qualifier."
+   },
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant",
+     "Ingenious Artillerist"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast",
+     "Swan Song",
+     "Sycorax Commander"
+    ],
+    "result_and_rationale": "Staged seven-swap with Pass C's Artillerist over Sycorax. Rejected by the bounded Artillerist test."
+   },
+   {
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant",
+     "Flame Rift"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast",
+     "Swan Song",
+     "Ashad, the Lone Cyberman"
+    ],
+    "result_and_rationale": "Staged seven-swap with Flame Rift over Ashad. Rejected: self-damage, one-shot, redundant."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C paired Unlicensed Disintegration with Weeping Angel / This Is How It Ends and Fiery Confluence or Ingenious Artillerist with Sycorax Commander / Perforating Artist. Here Disintegration takes Weeping Angel's slot (Pass C's first pairing) and Fiery takes Vandalblast's; the alternative pairing (Fiery over Angel, Disintegration over This Is How It Ends) and Artillerist over Sycorax are staged as complete 100s and rejected. Perforating Artist is kept as an end-step enabler.",
+  "strongest_argument_against_baseline": "The commander only pays off when opponents lose 3+ on our turn, yet the baseline spent slots on Blasphemous Act (kills our own Daleks), a slow two-turn Saga (Death in Heaven), a one-sided artifact sweep, two defensive cards with no life-loss text (Weeping Angel, Swan Song) and an X-cost Cyberman lord shared with Deck #11, and had no amplifier for partial life loss and no punisher for the 'discard/sacrifice' answers opponents give to its choices.",
+  "evidence_based_answer": "Six swaps, all commander-first: Bloodletter (doubling on our turn), Purphoros (2 per creature entry), Fiery Confluence and Tectonic Giant (table enablers), Unlicensed Disintegration (removal that qualifies) and Tergrid (punishes discard/sacrifice). Bounded Pass C tests are in the mechanics test. Spellbook: still 0 included combos."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Davros__Dalek_Creator.txt",
+  "sha256": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically (Island x2, Mountain x3, Swamp x3). Six substitutions against the canonical source. 34 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Davros__Dalek_Creator_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Davros__Dalek_Creator_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+   "tests/test_m6_davros_dalek_creator_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Villainous Choice",
+   "Group Slug",
+   "Discard"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five-swap floor, Tectonic Giant over Swan Song was added as a sixth swap, and every remaining incumbent was re-read against the candidate pool. Ten post-floor challenges were recorded and rejected on Davros-specific grounds; two larger seven-swap packages (Pass C's Artillerist over Sycorax; Flame Rift over Ashad) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Sycorax Commander",
+    "challenger": "Ingenious Artillerist",
+    "tradeoff": "Artillerist qualifies the table only on 3+ artifact entries in a turn and dies to any ping; Sycorax is itself a villainous choice that deals damage equal to hand size or empties hands for Tinybones.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Ashad, the Lone Cyberman",
+    "challenger": "Flame Rift",
+    "tradeoff": "Flame Rift is 4 to every player including us and a one-shot; Ashad's casualty copies (Roaming Throne, Auton Soldier) add Davros triggers each turn.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Labyrinth Raptor",
+    "challenger": "Hellrider",
+    "tradeoff": "Hellrider pings only the attacked player; Raptor punishes every block of our menace army and its sacrifices feed Tergrid.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Enthusiastic Mechanaut",
+    "challenger": "Impact Tremors",
+    "tradeoff": "Impact Tremors is half of Purphoros's output; Mechanaut reduces Davros (an artifact) and the 22 other artifacts.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Cybermen Squadron",
+    "challenger": "Archfiend of Despair",
+    "tradeoff": "Archfiend is an 8-mana second Wound Reflection; Squadron's myriad spreads attacking Daleks to all opponents and each copy triggers Purphoros.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Auton Soldier",
+    "challenger": "Exsanguinate",
+    "tradeoff": "Exsanguinate is a one-shot drain; Auton Soldier's non-legendary Davros copy gives a second end-step trigger every turn.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Dauthi Voidwalker",
+    "challenger": "Kroxa, Titan of Death's Hunger",
+    "tradeoff": "Kroxa needs escape to stay; Voidwalker's 3-power shadow qualifies one opponent each turn despite the disclosed Tergrid anti-synergy.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "This Is How It Ends",
+    "challenger": "Painful Quandary",
+    "tradeoff": "Painful Quandary's 5-life loss happens on opponents' turns and never counts for our end step; This Is How It Ends is removal plus a villainous choice.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Toxic Deluge",
+    "challenger": "Sheoldred, the Apocalypse",
+    "tradeoff": "Sheoldred's opponent drain happens on their draw steps, not our turn; Deluge is the last scalable wipe after cutting Blasphemous Act (Their Name Is Death only hits nonartifact creatures).",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Feed the Swarm",
+    "challenger": "Megrim",
+    "tradeoff": "The owner already cut the same role (Liliana's Caress); Entropic Battlecruiser covers it on an artifact.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_PassC_Artillerist_over_Sycorax_20261023.txt",
+    "sha256": "c845ef8edd689476e62d4dd6d5cb32c046c82999bc70e2b61ce67797654aedb3",
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant",
+     "Ingenious Artillerist"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast",
+     "Swan Song",
+     "Sycorax Commander"
+    ],
+    "case_for_extra_swaps": "Pass C asked to test Ingenious Artillerist; adding it gives a second token-entry burn engine next to Purphoros.",
+    "why_not_selected": "The bounded test shows Artillerist qualifies the table in fewer enumerated cases than Purphoros, has toughness 1, and Sycorax is itself a villainous-choice damage card."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_seven_FlameRift_over_Ashad_20261023.txt",
+    "sha256": "c82b4358ff75e19c47be4ee19d4d8a431a31883addc8c7da51eaf9e33f892d82",
+    "adds": [
+     "Bloodletter of Aclazotz",
+     "Unlicensed Disintegration",
+     "Tergrid, God of Fright",
+     "Purphoros, God of the Forge",
+     "Fiery Confluence",
+     "Tectonic Giant",
+     "Flame Rift"
+    ],
+    "cuts": [
+     "Death in Heaven",
+     "Weeping Angel",
+     "The Cyber-Controller",
+     "Blasphemous Act",
+     "Vandalblast",
+     "Swan Song",
+     "Ashad, the Lone Cyberman"
+    ],
+    "case_for_extra_swaps": "A 2-mana fourth one-card table enabler (8 with Bloodletter) for turns without Boltwave or Fiery Confluence.",
+    "why_not_selected": "Flame Rift also costs us 4 life and is single-use; Ashad's copies multiply Davros triggers and artifact count every turn."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at six; the five-swap floor was not used as a target. Each remaining weak-looking slot beats its best challenger on Davros-specific grounds: a villainous-choice damage ETB (Sycorax), trigger-multiplying copies (Ashad, Auton Soldier), block punishment for the menace army (Labyrinth Raptor), a Davros cost reducer (Mechanaut), myriad spread to all opponents (Cybermen Squadron), a reliable evasive qualifier (Dauthi Voidwalker), on-our-turn removal plus choice (This Is How It Ends), the last flexible wipe (Toxic Deluge) and respect for the owner's prior Liliana's Caress cut (Feed the Swarm)."
+ }
+}
