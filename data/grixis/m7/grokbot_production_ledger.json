@@ -754,32 +754,63 @@
    "current_candidate_sha": "e8680cafc7b7500b6106677e1aaafce6d5035893ea9f0cd335cd1fa1ff5227a2",
    "branch": "grokbot-deck16-edea-possessed-sorceress-m7-20261023",
    "working_branch": "grokbot-deck16-edea-possessed-sorceress-m7-20261023",
-   "last_pushed_commit": "84701cbc81e1eac03c1996d05f0a7a592a81456c",
+   "last_pushed_commit": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/664",
    "swap_count": 5,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 16 Edea Possessed Sorceress candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39972363245",
+     "head": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4",
+     "conclusion": "success"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39972363211",
+     "head": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4",
+     "conclusion": "success"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39972363125",
+     "head": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Evereth cut overrides owner 2026-10-14 keep (FLAG; keep-Evereth four-swap staged RETAIN_ALTERNATIVE)",
+    "High Market cut overrides owner retention as land sac outlet (FLAG; Phyrexian Tower remains)",
+    "Repeatable sac outlets 10 -> 7 against owner's no-shortage note; owner to confirm",
+    "Pass C owner-equivalent, not technically independent (NEEDS TESTING, KEEP); matched-shuffle/opponent simulation not run",
+    "Seize the Spotlight (54% EDHREC) cut for OFF-RANKING Combat Celebrant"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw fd560a9b == overrides == tracker == registry; 100 physical/94 rows, Island/Mountain/Swamp x3); shared infra copied from #663 3b67994a; draft PR #664 2026-10-23 09:15 CDT",
     "research_snapshots",
     "candidate + alternatives + oracle/rules snapshots + bounded Pass C tests (f4560b8a)",
-    "decision packet (gate pass), Dihada candidate (Lithoform staged), tested pool 8 configs, I/J memos, CSB refresh (84701cbc)"
+    "decision packet (gate pass), Dihada candidate (Lithoform staged), tested pool 8 configs, I/J memos, CSB refresh (84701cbc)",
+    "certificate_and_revision_bundle, candidate test, ij_test, focused_workflow, adversarial_packet (05ec743c)",
+    "wip_removed (cc2e6d45e5ad4a74b96d30ce07428144f8a111f4)",
+    "full_suite",
+    "pr_ready",
+    "exact_head_ci_green"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Certificate, revision bundle, candidate/IJ tests, workflow, review packet",
-   "next_step": "Certificate, revision bundle, candidate/IJ tests, workflow, review packet",
-   "stage": "DECISION_PACKET_DRAFTED",
+   "next_action": "ChatGPT adversarial review of PR #664, then owner decision",
+   "next_step": "Await ChatGPT review; next deck #17 Edward_Kenway (index 16)",
+   "stage": "REVIEW_READY",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/664",
-   "pr_status": "DRAFT_WIP",
-   "pr_is_draft": true,
-   "last_checkpoint_commit": "84701cbc81e1eac03c1996d05f0a7a592a81456c",
+   "pr_status": "READY_FOR_REVIEW_REVIEW_READY_NOT_OWNER_APPROVED",
+   "pr_is_draft": false,
+   "last_checkpoint_commit": "cc2e6d45e5ad4a74b96d30ce07428144f8a111f4",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob e3651060, frozen by c0dd52a4; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T09:39:19-05:00",
-   "updated_at": "2026-10-23T09:39:19-05:00",
-   "candidate_logical_hash": "lh1:60df43495ea45725"
+   "last_checkpoint_at": "2026-10-23T09:47:25-05:00",
+   "updated_at": "2026-10-23T09:47:25-05:00",
+   "candidate_logical_hash": "lh1:60df43495ea457255e5e1f03cfbdd29975d420a6622bb9f38c4d92a704e685b2",
+   "full_suite": "once after last content commit 05ec743c: head 24 failed/1634 passed/18 skipped/86 errors vs base b6b40ac8 24/1465/18/86; 110 failure/error IDs identical (one extra head re-run only to list IDs)"
   },
   {
    "tracker_number": 17,
