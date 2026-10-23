@@ -397,6 +397,35 @@
           "minLength": 120
         }
       }
+    },
+    "superseded_canonical_approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional owner-approved replacement source for a new M7 revision. Never infer live canonical freshness from this offline engineering assertion; verify current external canonical authority separately.",
+      "required": [
+        "approval_receipt_path",
+        "source_bound_oracle_snapshot_path",
+        "canonical_live_git_blob_sha",
+        "approved_oracle_snapshot_path"
+      ],
+      "properties": {
+        "approval_receipt_path": {
+          "type": "string",
+          "pattern": "^data/grixis/m7/owner_approvals/[^/]+\\.json$"
+        },
+        "source_bound_oracle_snapshot_path": {
+          "type": "string",
+          "pattern": "^data/grixis/m6/oracle_snapshots/[^/]+\\.json$"
+        },
+        "canonical_live_git_blob_sha": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{40}$"
+        },
+        "approved_oracle_snapshot_path": {
+          "type": "string",
+          "pattern": "^data/grixis/m6/oracle_snapshots/[^/]+\\.json$"
+        }
+      }
     }
   },
   "$defs": {

@@ -16,6 +16,10 @@ import re
 import sys
 
 import jsonschema
+try:
+    from scripts import grixis_authority as ga
+except ModuleNotFoundError:  # direct python scripts/grixis_m7_decision_gate.py invocation
+    import grixis_authority as ga
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data/grixis/registry.json"
@@ -167,6 +171,57 @@ def already_owner_approved_legacy_packet(packet, root):
     )
 
 
+def verified_superseding_owner_approved_source(packet, root):
+    """Resolve later canonical owner-approved exact source, with fail-closed hash bindings.
+
+    This offline engineering gate authenticates the owner receipt, the exact
+    approved source bytes, the recorded canonical Git blob, and current Oracle
+    logical baseline; separately recheck external canonical main for freshness.
+    A proposed candidate can NEVER impersonate the approved baseline.
+    """
+    binding = packet.get("superseded_canonical_approval")
+    if binding is None:
+        return None
+    receipt = read(safe_file(root, binding["approval_receipt_path"]))
+    if (receipt.get("deck_id") != packet["deck_id"]
+            or receipt.get("owner_decision") != "APPROVE_EXACT_CANDIDATE"
+            or receipt.get("canonical_verified") is not True
+            or receipt.get("canonical_approval_status") != "APPROVED"
+            or receipt.get("canonical_lock_status") != "LOCKED"
+            or receipt.get("authority", {}).get("m7_exact_owner_approval") is not True):
+        raise DecisionGateError("Superseding source lacks an exact verified owner APPROVED/LOCKED receipt")
+    source_path = receipt.get("candidate_source", "")
+    if not source_path.startswith("data/grixis/m7/candidate_lists/"):
+        raise DecisionGateError("Approved source must be the separately staged historical final M7 list")
+    source = safe_file(root, source_path)
+    raw = source.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
+    git_blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\x00" + raw).hexdigest()
+    if (digest != receipt.get("approved_raw_sha256")
+            or digest != packet["canonical_baseline_sha256"]
+            or git_blob != receipt.get("canonical_approved_deck_git_blob_sha")
+            or git_blob != binding["canonical_live_git_blob_sha"]):
+        raise DecisionGateError("Superseding approved source failed SHA256/live Git blob/receipt binding")
+    oracle = read(safe_file(root, binding["source_bound_oracle_snapshot_path"]))
+    historical = read(safe_file(root, binding["approved_oracle_snapshot_path"]))
+    inventory, marked_commanders, companions = parse_list(source)
+    known = historical.get("oracle_snapshot", {}).copy()
+    newer = oracle.get("oracle_cards", {})
+    for name, card in newer.items():
+        if name in known and known[name].get("oracle_id") != card.get("oracle_id"):
+            raise DecisionGateError("Current and historical Scryfall Oracle identity mismatch for " + name)
+    known.update(newer)
+    if any(name not in known or not known[name].get("oracle_id") for name in inventory):
+        raise DecisionGateError("Approved baseline lacks complete source-bound Oracle IDs")
+    # The source-bound Oracle-ID hash is a *different* authority from raw bytes.
+    expanded = [("commander" if name in marked_commanders else "main",
+                 known[name]["oracle_id"], quantity)
+                for name, quantity in Counter(inventory).items()]
+    if ga.logical_hash(expanded) != packet["canonical_baseline_logical_hash"]:
+        raise DecisionGateError("Superseding baseline logical Oracle hash mismatch")
+    return source, False
+
+
 def verify_post_floor_search(packet, baseline, commanders, companions, material_ids, root):
     """Prospective owner rule: five is presentation floor, not research target.
 
@@ -240,11 +295,15 @@ def verify_packet(packet, *, root=ROOT, registry=None):
     r = registry.get("decks", {}).get(deck_id)
     if r is None:
         raise DecisionGateError("Unknown canonical roster deck ID: " + deck_id)
-    if packet["canonical_baseline_sha256"] != r["source"]["recorded_sha256"]:
-        raise DecisionGateError("M7 baseline does not match registry's exact recorded approved raw SHA")
-    if packet["canonical_baseline_logical_hash"] != r["current_canonical_hash"]:
-        raise DecisionGateError("M7 baseline does not match canonical logical source hash")
-    source, markdown = canonical_source(root, r)
+    superseding = verified_superseding_owner_approved_source(packet, root)
+    if superseding is None:
+        if packet["canonical_baseline_sha256"] != r["source"]["recorded_sha256"]:
+            raise DecisionGateError("M7 baseline does not match registry's exact recorded approved raw SHA")
+        if packet["canonical_baseline_logical_hash"] != r["current_canonical_hash"]:
+            raise DecisionGateError("M7 baseline does not match canonical logical source hash")
+        source, markdown = canonical_source(root, r)
+    else:
+        source, markdown = superseding
     baseline, commanders, companions = parse_list(source, source_markdown=markdown)
     validate_companion(deck_id, companions)
     final_path = packet["final_candidate"]["path"]
@@ -436,9 +495,9 @@ def main():
         if item.stem in seen:
             raise DecisionGateError("Duplicate packet path")
         seen.add(item.stem)
-        if result["owner_presentable"]:
+        if result["owner_presentable"] and not already_owner_approved_legacy_packet(data, ROOT):
             if result["deck_id"] in owner_presentable:
-                raise DecisionGateError("Two live owner-presentable M7 revisions of the same deck")
+                raise DecisionGateError("Two simultaneously unapproved owner-ready M7 revisions of the same deck")
             owner_presentable.add(result["deck_id"])
         print(json.dumps(result, sort_keys=True))
     if args.require_complete and (len(owner_presentable) != 62 or owner_presentable != set(registry["decks"])):
