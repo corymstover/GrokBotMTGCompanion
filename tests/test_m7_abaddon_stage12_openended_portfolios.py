@@ -131,7 +131,7 @@ class AbaddonStage12UnboundedPhysical(unittest.TestCase):
     def test_stopping_rule_is_quality_independent_of_floor_count(self):
         r = self.report
         self.assertIn("genuinely", r["next"])
-        self.assertIn("Warhammer", r["decisive_status"])
+        self.assertIn("40K identity losses", r["decisive_status"])
         self.assertIn("Keeper of Secrets versus Nalfeshnee",
                       " ".join(r["whole_99_comparison"]["challenge_beyond_selected_slots"]))
         self.assertFalse(r["owner_ready"])
