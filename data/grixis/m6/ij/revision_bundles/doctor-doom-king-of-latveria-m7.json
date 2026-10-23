@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "slug": "doctor-doom-king-of-latveria",
+ "baseline_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "result_hash": "lh1:6e779fc71f33bb82f2d4ed3a4813956c04454e0fab8370f662b97bfd5be1926d",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/doctor-doom-king-of-latveria.json.gz",
+   "sha256": "sha256:678291f940c42c074102f3498c950735bdb6b86513da13d8dc74b4d4508589cd"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz",
+   "sha256": "sha256:3083af00b77e4f8445bb08f202b233e35f038374910d3446cd8247303620794a"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/doctor-doom-king-of-latveria.json",
+   "sha256": "sha256:dc405e2b0083a71fdf025967bd241d2448775353e0ca82757540c2eb8e77d602"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/doctor-doom-king-of-latveria.json",
+   "sha256": "sha256:7e5ae26f4bb6c10fcf6585d58c8fc32cfad23917b09a16dca95437107dba4feb"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/doctor-doom-king-of-latveria.json",
+   "sha256": "sha256:a6d77592292a61db8f69aad94e9b426db91f579a2b9a7f8b551fc54939d6fd32"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Doctor_Doom__King_of_Latveria.json",
+   "sha256": "sha256:e498ef391255bfb6cc62451d0ffe7df896fe75186d214141b3d8a2892161e248"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:ce53bd7f8c834936882c61fe7594bd7c1760302a7c1d1fbf4863835892312ef4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+   "sha256": "sha256:1b938bb1e7dc1611dde001771f5633ab0da2e1ef50945ddef5db05514dd9e47b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:1b8b044b963d06a844518a903e4a51b918ecadd0d6e2c982385ea2e209ee39da"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Doctor_Doom__King_of_Latveria_approved_source_2026-10-14.txt",
+   "sha256": "sha256:c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58"
+  },
+  {
+   "path": "exports/grixis-archidekt/doctor-doom-king-of-latveria.txt",
+   "sha256": "sha256:3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Doctor_Doom__King_of_Latveria.txt",
+   "sha256": "sha256:21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_five_keep_TalismanOfCreativity_no_MoxDiamond_20261023.txt",
+   "sha256": "sha256:793d34fac22b95fb145b544ee60f372bb61afa28f50663368cf56cb02ded8fdd"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_WitheringTorment_instead_of_LightningAxe_20261023.txt",
+   "sha256": "sha256:a9b582f1b4ab67b45bfd42f3f7e2712b214ec01b5bfa5741d7c18bd1dbd66845"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_Artillerist_instead_of_GlintHorn_20261023.txt",
+   "sha256": "sha256:b4acf9995679a06cbf200f836bdaa8c40c580b180e50b3f1b64622d646ffdfa8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_PassC_GlintHorn_over_Revenant_keep_ChangeOfFortune_20261023.txt",
+   "sha256": "sha256:07ecf60b24a8cbfe22ace0bd536c518cded5f358f739b976b1b635d0133b2e7f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_one_PassC_exact_GlintHorn_over_Revenant_on_baseline_20261023.txt",
+   "sha256": "sha256:afc05b4120408d453197f7357ef357fe21d32774527773362d352768cb4574dd"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_LedgerShredder_over_IronMonger_20261023.txt",
+   "sha256": "sha256:3e09a72e0cf809637e5041b57ddf70e80facfa6f20519fa503c13bd979b867d9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_PutridImp_over_DemandAnswers_20261023.txt",
+   "sha256": "sha256:e172f19b64c191045f5aaebeef91853fec9012e2f5653c22c0d2610436679214"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+   "sha256": "sha256:4e05b486ed31ac850bf274ad5a2d145f619167057ced63520042f08db679fcc9"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+   "sha256": "sha256:d81322a41574d975f09d784f522c0f775b4baeac25eed5a2bd39dfb2d7e0e7cb"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/doctor-doom-king-of-latveria-m7.json",
+   "sha256": "sha256:8b8dab1dbc4945df37f21a887dd13ff17faee9ab6b18aec93cd6c0c0147e3b7a"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Doctor_Doom__King_of_Latveria_M6_I_local_best_20261023.md",
+   "sha256": "sha256:38bf8a76a0284e20c4a65c066e661392e16762b877f3428cac2384003b77b464"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Doctor_Doom__King_of_Latveria_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:7f833d4b37afbf6a679bc79d1ad88dcbceba7b20214d711d207a7f7effbf2403"
+  },
+  {
+   "path": ".github/workflows/m7-doctor-doom-king-of-latveria.yml",
+   "sha256": "sha256:4b12d9a13b2dd2200abde700254a6d4b74e8d94b11480e01bce13b3f7e24ad31"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Doctor_Doom__King_of_Latveria_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:2a16134c28c3d8ab5c106576543148c6198df02d9530525a4e3f1333c2ec1366"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/doctor-doom-king-of-latveria.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/doctor-doom-king-of-latveria.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:1d2475e0bdfd26071db460f184ee18984fe675c238ddfcd013a2b00996c40a15",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:7951c8b2d7b13ff49d2221e68d3c059b83c74d8dc633d0fb54caf60abf359991"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py",
+    "source_sha256": "sha256:0764afea86a2827f2fad0c5e89e1ea42fa411bd857cf02a14cb3c49c1000ab7d",
+    "seed": 0,
+    "harness_version": "doctor_doom_m7_finite_rules_and_bounded_pass_c_16_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Sixteen finite seed-0 Oracle-anchored cases. Doom Oracle (land-discard drain of 2 once per discard event, 603.2c; combat connive of a target Villain, 701.50a); add, loop and constraint Oracle anchors; exact swaps, UBR identity, singleton, Game Changers 6 to 7, owner-removed class not re-added, 38 lands and a complete land table; the single Spellbook included combo is the finite Dakmor loop. Bounded Pass C measured tests: the Dakmor trace is library-bounded (40 library: 20 iterations; 37: 19 iterations, not lethal; with Glint-Horn 14, lethal from 26 not 25; Monument at most 3 modes; no external red 0; Nemesis tapped Treasure 3; Hideout cannot pay cycling red; graveyard hate at iteration 5 ends at 5; optional exile ends at 1); a 20-cell payoff grid (Buccaneer 79/5, Revenant 8/19, Artillerist 64/0; Buccaneer >= Artillerist in every cell); exact lands-only colour access (Doom 0.5550 to 0.5570 by 10 cards, RRR 0.3895 to 0.4248 by 11); red land sources 20 to 21; 10 graveyard-independent vs 3 dependent outlets. Not a game engine or win-rate; no matched-opening playtest or multiplayer sample."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_doctor_doom_king_of_latveria_candidate.py",
+    "source_sha256": "sha256:3ddfdab9abc4b99406fe4f8981de7251182e80297d30c5173dfb1a85c6e73d11",
+    "seed": 0,
+    "harness_version": "doctor_doom_m7_gate_candidate_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact six physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, case-insensitive alphabetical and 100 physical, gate owner-presentable structure, distinctness vs the Loki deck disclosed (53 to 53, not reduced), owner-removed class flagged and not re-added, Power Bracket 4 and three tags; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #660 head bb3be7d3 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_doctor_doom_king_of_latveria_m7_ij.py",
+    "source_sha256": "sha256:a686eb5ca92e154d77576f9f1ddf6a208f5caade51fdd619369de47ee884b467",
+    "seed": 0,
+    "harness_version": "doctor_doom_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 10 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C preserved non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Doctor_Doom__King_of_Latveria_M6_J_red_team_20261023.md",
+  "sha256": "sha256:13d6aa567e6613379569fc6bc5006fc10bd9093a9671424887e848c01b5e17cd"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Doctor_Doom__King_of_Latveria_M6_J_mana_20261023.md",
+  "sha256": "sha256:1d7032645d53f6395c8bda8f7dbd2373ea22b9037f928e04baaa03e3b57ece06"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
