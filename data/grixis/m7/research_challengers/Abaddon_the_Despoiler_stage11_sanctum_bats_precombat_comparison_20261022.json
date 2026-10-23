@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE11_PRECOMBAT_THRESHOLD_VS_CAST_TRIGGER_TOKEN_QUALITY",
+  "date": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_UNBOUNDED_OPPORTUNITY_ROLE_COMPARISON",
+  "owner_ready": false,
+  "canonical_approved_locked_unchanged": true,
+  "deck3_hold": true,
+  "m6_candidate_specific_certified": false,
+  "canonical": {
+    "path": "corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "physical_cards": 100,
+    "lands": 34
+  },
+  "sources": [
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+      "verified": [
+        "Sanctum of Stone Fangs",
+        "Mirkwood Bats",
+        "Creeping Bloodsucker",
+        "Reckless Fireweaver",
+        "Impact Tremors"
+      ],
+      "status": "Scryfall official Commander legal, Grixis color identity; source snapshot previously verified"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "verified": [
+        "Abaddon the Despoiler",
+        "The Ruinous Powers",
+        "Nightscape Familiar",
+        "Noise Marine",
+        "Prosper, Tome-Bound",
+        "Storm-Kiln Artist",
+        "The Lost and the Damned",
+        "Bloodletter of Aclazotz",
+        "Solphim, Mayhem Dominus"
+      ],
+      "status": "Approved canonical 100 Oracle and legality prior snapshot"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_roaming_throne_Scryfall_20261022.json",
+      "verified": [
+        "Veyran, Voice of Duality"
+      ],
+      "status": "Source for direct inst/sorc cast/copy trigger distinction"
+    },
+    {
+      "url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf",
+      "rules": [
+        "Beginning-of-phase triggered abilities",
+        "Casting process 601.2",
+        "Triggered ability 603 and mana 605"
+      ],
+      "status": "Existing WotC rules edition referenced in project"
+    }
+  ],
+  "new_opportunity": "Sanctum of Stone Fangs is a verified {1}{B} resilient noncreature START-OF-FIRST-MAIN repeatable each-opponent life-loss source. At only one Shrine, it causes one loss to each of three opponents (X=3) BEFORE any ordinary main-phase spell that turn. If Abaddon is already on the battlefield, the first hand spell with printed MV<=3 can now receive Abaddon-granted cascade without needing Boltwave/Loyal or a previously cast spell. This examines a different timing horizon from Veyran/Impact and cannot be dismissed by prior tested-pool local best.",
+  "timing_proofs": [
+    {
+      "case": "Single Shrine without multipliers",
+      "fixture": "Sanctum survived from a prior turn; own FIRST main begins, three opponents; Abaddon already on battlefield; stack clear after Shrine trigger.",
+      "events": [
+        "At first-main beginning, Sanctum triggered life loss resolves: each opponent loses1, X=3.",
+        "Cast Wheel of Fortune or Windfall from hand, printed MV3; Abaddon STATIC grant sees X3 BEFORE casting, so spell gains cascade and trigger occurs as it is CAST.",
+        "Any newly created life loss after spell cast does not retroactively enable its own cascade; later hand spells may use larger X."
+      ],
+      "qualifiers": "No draw/top manipulation is guaranteed; a mana-payable Wheel/Windfall is necessary; opponents can answer trigger/permanent; Abaddon casting itself did not receive its own cascade."
+    },
+    {
+      "case": "Bloodletter versus Solphim replacement",
+      "fixture": "Sanctum, Bloodletter and Solphim on own FIRST main (3 opponents), and one Shrine",
+      "events": [
+        "Sanctum causes LOSS OF LIFE, not damage, so Solphim's noncombat-damage replacement does NOT double it.",
+        "Bloodletter replaces one life lost during your turn with two per opponent, so X increases from 3 to 6.",
+        "This larger X is present before the next hand spell and can allow up to MV6 to receive Abaddon-granted cascade if Abaddon is already in play."
+      ],
+      "qualifiers": "Bloodletter must be on battlefield and its replacement apply to the opponents; Sanctum's life gain is unaffected."
+    },
+    {
+      "case": "Entry timing",
+      "fixture": "Sanctum cast and resolved in ordinary precombat first main",
+      "events": [
+        "Its beginning-of-first-main trigger opportunity for the current turn already passed; no immediate life loss.",
+        "Next own first main triggers if it remains battlefield."
+      ],
+      "qualifiers": "Do not credit the enchantment as same-turn instant threshold on initial cast."
+    },
+    {
+      "case": "Mirkwood Bats mixed token events",
+      "fixture": "Mirkwood Bats {3}{B} plus The Lost and the Damned, Prosper/Storm-Kiln, and three opponents",
+      "events": [
+        "One Spawn TOKEN created by qualifying nonhand spell cast triggers Bats once: each opponent loses1, X+3.",
+        "A Treasure TOKEN created by Prosper or Storm-Kiln triggers Bats once: X+3; sacrificing that Treasure separately triggers Bats once more: another X+3.",
+        "An instant/sorcery cast/copy may trigger Veyran-enhanced PROSPER/LOST/STORM-KILN first, yielding additional distinct token creation events; Veyran does not double Bats directly because creation/sacrifice is the proximate trigger."
+      ],
+      "qualifiers": "If a Treasure is sacrificed while paying for the same spell, Bats' triggered life loss will RESOLVE AFTER that spell is cast and cannot retroactively raise the Abaddon X for that casting. Sacrifice in advance as a distinct priority window, let Bat's trigger resolve and float mana within phase if threshold is required first. No generic token-infinite combo implied."
+    },
+    {
+      "case": "Rule of Law response",
+      "fixture": "Opposing Rule of Law active on first main; Sanctum gives X3; Abaddon in play",
+      "events": [
+        "Hand MV3 spell can gain cascade, but once the original is cast, Rule of Law forbids casting its exiled cascade hit as a SECOND spell.",
+        "Sanctum supplies life loss but does not evade this independent anti-storm limitation."
+      ],
+      "qualifiers": "The predeployed Neheb/Assault/Loyal route from Stage10 remains the independent Rule-of-Law-tolerant line."
+    }
+  ],
+  "three_complete_100_research_variants": [
+    {
+      "name": "SANCTUM_ONLY_THE_RUINOUS_CUT",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage11_sanctum_early_threshold_one_20261022.txt",
+      "sha256": "edca5e59ce7bde0a813045604bff2e1aedb30cdbc0dbf99869b1600ff4e82ebb",
+      "add": [
+        "Sanctum of Stone Fangs"
+      ],
+      "cut": [
+        "The Ruinous Powers"
+      ],
+      "swaps": 1,
+      "cards": 100,
+      "strength": "Start-of-first-main X3 reliable early cascade seed without other pinger or a first cast; two-mana rather than four.",
+      "cost": "Loses protected Warhammer 40K opponent library exile land/spell access and ownership life loss; Shrine yields only X3 and needs survive to next own main."
+    },
+    {
+      "name": "SANCTUM_IMPACT_KEEP_FAMILIAR",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage11_sanctum_impact_two_20261022.txt",
+      "sha256": "ff95b4b46ca6aa53eeb5644e9414d817f68d70a02948ef3ac00b9d405a66a4b7",
+      "add": [
+        "Sanctum of Stone Fangs",
+        "Impact Tremors"
+      ],
+      "cut": [
+        "The Ruinous Powers",
+        "Ponder"
+      ],
+      "swaps": 2,
+      "cards": 100,
+      "strength": "First-main predictable life-loss threshold + commander-independent Ignus damage win outlet; preserves Familiar mana, Neheb combat, shield counters and other 40K payoffs.",
+      "cost": "Loses one-MV cantrip selection and protected Ruinous theft, lacks Veyran doubling broad Warhammer cast triggers."
+    },
+    {
+      "name": "SANCTUM_IMPACT_BATS_CHALLENGE_NOISE_MARINE",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage11_sanctum_impact_bats_three_20261022.txt",
+      "sha256": "b1d01e41d9eb10b789597e23f3a951f756899b00e0db2ac0e569bed44945452d",
+      "add": [
+        "Sanctum of Stone Fangs",
+        "Impact Tremors",
+        "Mirkwood Bats"
+      ],
+      "cut": [
+        "The Ruinous Powers",
+        "Ponder",
+        "Noise Marine"
+      ],
+      "swaps": 3,
+      "cards": 100,
+      "strength": "One pre-main repeatable threshold + one direct Ignus ETB outlet + 40K Spawn/Treasure creation and sacrifice life-loss payoffs; mixed engines reach beyond only instant/sorcery casts.",
+      "cost": "Loses Noise Marine's printed cascade and 40K sonic blaster single-target, alongside Ruinous theft and Ponder selection; Bats four-mana creature is removable and token-dependent; no demonstrated whole-deck superiority."
+    }
+  ],
+  "comparative_adversarial": {
+    "side_by_side": [
+      {
+        "package": "Stage10 Veyran+Impact preserve Familiar",
+        "incremental_early_threshold": "None by itself on first main; requires existing instant/sorcery-induced PERMANENT trigger to build X.",
+        "conditional_ceiling": "Doubles up to ten current permanents' contextual spell-induced triggers; high on existing nonhand board.",
+        "key_sacrifice": "The Ruinous Powers + Ponder; source-bound 100."
+      },
+      {
+        "package": "Stage11 Sanctum+Impact preserve Familiar",
+        "incremental_early_threshold": "X3 at first main with one Shrine and no other engine/first cast, starting following turn.",
+        "conditional_ceiling": "Less explosive than Veyran at high spell-count; Impact direct win loop unchanged.",
+        "key_sacrifice": "The Ruinous Powers + Ponder; source-bound 100."
+      },
+      {
+        "package": "Stage11 Sanctum+Impact+Bats",
+        "incremental_early_threshold": "X3 from Sanctum before first-main hand spell plus token event bursts later in turn.",
+        "conditional_ceiling": "Treasure creation and sacrifice X contributions even outside instant/sorcery direct cast; Lost Spawn synergy.",
+        "key_sacrifice": "Additional Noise Marine printed cascade and 40K identity, serious quality cost."
+      }
+    ],
+    "precommitted_judgment": "Sanctum is the strongest further distinct PRE-MAIN-THRESHOLD challenger with robust cheap enchantment timing, and must be honestly compared against the Ruinous slot and Veyran. Its ability is deterministic only once already deployed; it's not a same-turn spell fix. The three-add package demonstrates additional synergies but its cuts lose protected cascade/Warhammer. Retain them as adversarial research, not owner-ready improvements. Structural exact 100 and source legality are necessary, not a final power proof.",
+    "not_claimed": [
+      "No measured win-rate, probability or global optimum",
+      "No >5 truly better package yet, and counts are not research budget",
+      "No updated candidate-specific M6.6–M6.10 certificates or owner approval",
+      "No new canonical list or lock mutation"
+    ]
+  },
+  "material_candidate_judgments": [
+    {
+      "card": "Sanctum of Stone Fangs",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "The Ruinous Powers",
+      "reason": "Repeatable beginning-first-main own-turn X3 at only {1}{B} with resilient enchantment body, supporting Abaddon hand MV3 cascade. Four-player X3 is meaningful, but loses protected opponent-library theft and one-turn delay."
+    },
+    {
+      "card": "Veyran, Voice of Duality",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "The Ruinous Powers",
+      "reason": "Higher conditional power on cast/copy spell board, but no independent pre-main threshold and costs {1}{U}{R}. Neither approach strictly dominates."
+    },
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "Ponder",
+      "reason": "Birgi/Ignus outlet and Spawn ETB value; loses one-mana selection and MV1 cascade hit."
+    },
+    {
+      "card": "Mirkwood Bats",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "Noise Marine",
+      "reason": "Sources token creation and sacrifice loss across Treasure and Spawn engines, but 4MV removable creature cannot replace free printed cascade and single-target sonic reach without full-board payoff proof."
+    },
+    {
+      "card": "Reckless Fireweaver",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "Ponder",
+      "reason": "MV2 ping from repeated Treasure artifact entries, better cheap start versus 4-MV Bats but excludes nonartifact Spawn and token sacrifice; evaluate when Treasure density is high."
+    },
+    {
+      "card": "Creeping Bloodsucker",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "cut_challenged": "The Ruinous Powers",
+      "reason": "Upkeep all-opponent one damage with lifegain, boosted by Solphim; 1/2 body dies to creature removal whereas Sanctum enchantment remains an independent low-MV life-loss source."
+    }
+  ],
+  "blockers": [
+    "No verified whole-list proof that an integrated 5+ replacement package is strategically stronger than canonical approved rev2; do not pad.",
+    "Owner-ready criteria including full final Oracle/legal identity, P0/I/J source-rebound reproducibility and exact new SHA have not been satisfied.",
+    "The latest 99-role unbounded audit is still researching Sanctuary versus Veyran and Bat token conversion with independent cut costs."
+  ],
+  "next": "Determine whether Sanctuary and Impact provide a genuinely positive two-slot core relative to Veyran option, and test one or more complete >5 replacement package only if quality survives protected-core analysis. Never use swap count as candidate generator. Preserve both canonical locks and deck3 hold."
+}
