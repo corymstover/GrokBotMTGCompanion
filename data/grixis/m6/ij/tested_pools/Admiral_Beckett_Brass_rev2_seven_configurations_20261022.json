@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "deck_id": "Admiral_Beckett_Brass",
+  "status": "PARTIAL_SEVEN_PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_NOT_M6_I_CERTIFIED",
+  "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+  "canonical_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "source_full": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+  "source_eleventh": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json",
+  "source_edhrec_new": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_EDHREC_inclusion_lift_discovery_20261022.json",
+  "explicit_pool_size": 7,
+  "configurations": [
+    {
+      "id": "BASELINE",
+      "path": "data/grixis/m6/authority_snapshots/Admiral_Beckett_Brass_Canonical_Approved_20261022.txt",
+      "raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+      "logical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+      "physical_cards": 100,
+      "judgment": "RETAIN_CANONICAL_AUTHORITY; slower one-drop flyer/connection development and forced tapped Crumbling Necropolis remain compared with D and selected rev2. Keeps Forerunner's tutor/drain; historic approval independent of this pool."
+    },
+    {
+      "id": "D",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_evasive_pirate_density_package.txt",
+      "raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+      "logical_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
+      "physical_cards": 100,
+      "judgment": "RETAIN_ALTERNATIVE; five early-evasion changes are coherent, but D retains 5U Palisade rather than 4R Wave and can fail against opposing Pirate blockers when Open is unavailable. Palisade returns non-Pirates persistently and can outperform Wave in attrition pods."
+    },
+    {
+      "id": "WAVE_CANNONADE",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Cosmotronic_Wave_20261022.txt",
+      "raw_sha256": "bb7386d4aa061fde66a3709f390bff98ee3bd19b2d3747db375437261d8cdaa7",
+      "logical_hash": "lh1:2f60017c1c4f9e872f3de851b281df95579b3d7c1e1cd65918c2933ffce3895e",
+      "physical_cards": 100,
+      "judgment": "RETAIN_ALTERNATIVE; both this and selected rev2 have Wave and repeated Bident draw. This alternative retains Palisade's lasting non-Pirate bounce, but loses Fiery Cannonade's 2R instant small-creature defense, which is material in an attack-first creature deck."
+    },
+    {
+      "id": "WAVE_PALISADE",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+      "raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+      "logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+      "physical_cards": 100,
+      "judgment": "PROVISIONAL_LOCAL_BEST_AWAITING_EXACT_TESTED_POOL_I; 6 actual canonical replacements, one-tempo-turn broad unblock when available while retaining Cannonade, Bident, Indomitable, Kindred, Open, March and Path. Loss of persistent mass-bounce acknowledged."
+    },
+    {
+      "id": "AERIALIST",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Aerialist_draw_resilient_20261022.txt",
+      "raw_sha256": "cab9d37182935781a523876ebf43b6f61135f60ddba49f8d3e925be994c6a79c",
+      "logical_hash": "lh1:4174f6a700764d42b4934bd3da5999cee190f87b54d06ec98166fa04588a6eba",
+      "physical_cards": 100,
+      "judgment": "RETAIN_ALTERNATIVE; flyer changes actual matchup-specific Pirate connection, but Kari Zev is also a Pirate and contributes first strike/menace plus a separate Monkey body to generic creature combat draw. No mass Wave without other evasion source."
+    },
+    {
+      "id": "AERIALIST_WAVE_PALISADE",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_seven_Aerialist_Wave_Palisade_draw_resilient_20261022.txt",
+      "raw_sha256": "9e125d0fbccb0ec2fa607b1b2a22029bb36a12732555e199b76f9c37732943a2",
+      "logical_hash": "lh1:d658740c430e8b42dc7db23f246ed0afbbbeced19f45a9e807fdf579c3d3b324",
+      "physical_cards": 100,
+      "judgment": "RETAIN_ALTERNATIVE; same Wave+instant defense as selected with additional flyer, but cumulative loss of Kari's combat contribution is not a proven net gain across reversibly different blocker boards."
+    },
+    {
+      "id": "NINE_BOTH",
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_nine_Aerialist_Dreamcaller_20261022.txt",
+      "raw_sha256": "fb0770b4b956316bb8146f3750dd7435809623d8252f0de88e25fbacbd4b5073",
+      "logical_hash": "lh1:ae77c2d4075bb4967c7cc00c021f3a6925533cb20740ba7f026c5603b7d749f0",
+      "physical_cards": 100,
+      "judgment": "REJECT_AS_ALL_PURPOSE; Regalia for Bident loses repeated draws, Wave for Cannonade loses reactive 2-damage, Dreamcaller for Open loses three-target unblock+hit draws; larger swap count does not establish strength despite improved flyer sources."
+    }
+  ],
+  "provisional_preferred": "WAVE_PALISADE",
+  "provisional_preferred_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+  "provisional_preferred_logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+  "actual_mechanical_fixtures": [
+    "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+    "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+    "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+    "tests/test_m7_admiral_stage6_decision_bound.py",
+    "tests/test_m7_admiral_stage7_draw_resilient_100.py",
+    "tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py",
+    "tests/test_m6_admiral_rev2_candidate_source_bind.py"
+  ],
+  "executed_previously": {
+    "d_historical_m6_I_local_best_scope": "BASELINE_A_B_C_D_ONLY",
+    "stage7_exact_head_actions": [
+      39878638269,
+      39878638308
+    ],
+    "stage8_exact_head_actions": [
+      39879346963,
+      39879346948
+    ],
+    "stage9_exact_head_actions": [
+      39879925217,
+      39879925326
+    ],
+    "limited_scope": "Physical 100-card packages, Scryfall source costs/legalities, finite same-player combat/mana blocking and adverse roles. Not matched complete four-player games."
+  },
+  "still_required": [
+    "Validate this 7-configuration pool's independent exact physical/logical/oracle SHA bindings on its own PR head.",
+    "Author final local-best I certificate after exact pool CI and actually closed changed-effect P0/P1; no transfer of historical D I certificate.",
+    "Create new result-specific J reproducibility package binding exact selected SHA and current/new fixtures/hashes; keep historical bundle intact.",
+    "Complete M7 rev2 schema and exact owner-facing decklist only after full gate."
+  ],
+  "no_win_rate_or_global_claim": true,
+  "m6_I_pass_issued": false,
+  "m6_J_pass_issued": false,
+  "owner_m7_approved": false,
+  "m6_10_accepted": false
+}
