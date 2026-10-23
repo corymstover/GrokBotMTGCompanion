@@ -1,0 +1,903 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Evelyn__the_Covetous",
+ "canonical_baseline_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+ "canonical_baseline_logical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "commander_identity": {
+  "mechanical_plan": "Evelyn, the Covetous ({2}{U/B}{B}{B/R} 2/5 legendary Vampire Rogue with flash; Streets of New Capenna snc, released 2022-04-29; commander-legal, not a Game Changer, no project exception). Whenever Evelyn or another VAMPIRE we control enters, exile the top card of each player's library with a collection counter; once each turn we may play one such card, spending mana as any colour. Plan: a Bracket 5 cEDH turbo shell (26 lands, fast mana, free interaction) that wins with Thassa's Oracle + Demonic Consultation/Tainted Pact, Underworld Breach + LED/Lotus Petal + Brain Freeze, or Worldgorger Dragon + Animate Dead/Dance/Necromancy (Evelyn re-entering each loop exiles four cards). Evelyn is a flash value engine and theft outlet, not the combo itself.",
+  "protected_core": [
+   "Evelyn, the Covetous",
+   "Thassa's Oracle",
+   "Demonic Consultation",
+   "Tainted Pact",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Brain Freeze",
+   "Worldgorger Dragon",
+   "Animate Dead",
+   "Dance of the Dead",
+   "Necromancy",
+   "Vexing Bauble",
+   "Ripples of Undeath",
+   "Saw in Half",
+   "Windfall",
+   "Notion Thief",
+   "Stifle",
+   "Mistrise Village"
+  ],
+  "natural_ceiling": "Power Bracket 5 (cEDH). Game Changers: 19 in baseline and candidate (Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Force of Will, Gamble, Imperial Seal, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor). Commander Spellbook find-my-combos: the same 7 complete combos in both lists (Oracle + Consultation, Oracle + Tainted Pact, Breach + Lotus Petal + Brain Freeze, Breach + LED + Brain Freeze, Worldgorger + Animate Dead / Necromancy / Dance of the Dead); almost-included 103 -> 117. No new combo is claimed. The Worldgorger loops are mandatory unless an exit exists (104.4b): another creature card in a graveyard or an instant-speed outlet; with Evelyn each iteration exiles our own top card too, so Evelyn repeats are finite.",
+  "anti_homogenization": "Commander-first to Evelyn's Oracle: Insolent Neonate is a second Vampire (her trigger) and an instant-speed Worldgorger discard outlet; Burnt Offering converts Evelyn or Worldgorger into mana; Brainstorm and the two fetches tighten the turbo mana and selection she flashes into. Distinctness (nonbasic names shared with the most similar approved Grixis theft/cast-opponents'-cards decks, baseline -> candidate, canonical Archidekt exports): Don Andres, the Renegade (#14) 27 -> 29; Cormela, Glamour Thief (#9) 67 -> 69. No Gonti deck is in the Grixis registry. Marsh Flats and Verdant Catacombs are shared with Don Andres; Marsh Flats and Brainstorm with Cormela (also a cEDH shell, hence the high shared core of fast mana, free interaction and the Oracle/Consultation package). Insolent Neonate and Burnt Offering are in neither; separation is commander-first: Neonate is the only add that triggers Evelyn's Vampire clause, and Burnt Offering sacrifices Evelyn or Worldgorger for mana. Owner-removed or rejected cards and classes (Displacer Kitten, Otawara, Morphic Pool, Talisman of Creativity, Wheel of Fortune, The One Ring, Dragon's Rage Channeler, Cyclonic Rift, Deflecting Swat, Into the Flood Maw, Hoarding Broodlord, Beseech the Mirror, the optimized-tribal Vampire top-100 package) are not re-added. No explicit owner keep is cut."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x including the basic Island and Swamp).\nRoles:\n- 26 lands: Ancient Tomb, City of Traitors, Gemstone Caverns, Mistrise Village, Mount Doom, City of Brass, Mana Confluence, Command Tower, Exotic Orchard, 4 original duals, 3 shocks, 7 fetches (9 in the candidate), Island, Swamp; Thundering Falls and Blazemire Verge are cut.\n- Fast mana: Sol Ring, Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, LED, Arcane Signet, Fellwar Stone, two Talismans, Dark Ritual, Cabal Ritual, Culling the Weak, Rite of Flame, Simian Spirit Guide; Burnt Offering is new.\n- Wins: Thassa's Oracle, Demonic Consultation, Tainted Pact, Underworld Breach, Brain Freeze, Worldgorger Dragon with Animate Dead, Dance of the Dead, Necromancy, Reanimate; Entomb, Unmarked Grave, Faithless Looting, Ripples feed the graveyard; Insolent Neonate is new.\n- Tutors and draw: Demonic, Vampiric, Imperial Seal, Mystical, Gamble, Wishclaw, Praetor's Grasp, Necropotence, Ad Nauseam, Rhystic Study, Mystic Remora, Windfall, Final Fortune, Borne Upon a Wind, Faerie Mastermind, Gitaxian Probe; Brainstorm is new; Wan Shi Tong is cut.\n- Interaction: Force of Will, Force of Negation, Pact of Negation, Mindbreak Trap, Flusterstorm, Mental Misstep, Swan Song, Pyroblast, Red Elemental Blast, Stifle, Chain of Vapor, An Offer You Can't Refuse, Orcish Bowmasters, Opposition Agent, Dauthi Voidwalker, Hexing Squelcher, Party Thrasher, Saw in Half, Notion Thief, Ragavan, Valley Floodcaller, Leyline of Anticipation, Defense Grid, Vexing Bauble; Spellskite and Redirect Lightning are cut.",
+  "mana_base_and_curve": "Baseline and candidate: 26 lands. U/B/R land sources 19/19/19 -> 20/20/19; always-tapped lands 1 -> 0 (Mistrise Village stays conditional); fetches 7 -> 9 for 8 fetch targets. Exact multivariate-hypergeometric test (conservative: lands plus rocks counted 1 each, moxen and rituals excluded): Evelyn castable by turn 4 on the play 0.1491 -> 0.1491, by turn 5 0.2767 -> 0.2768; a fetch in the first 7 cards 0.4115 -> 0.4981. Average nonland MV 1.836 -> 1.808; creatures 14 -> 13; instants/sorceries 36 -> 37.",
+  "interaction_resilience": "Stack: Force of Will, Force of Negation, Pact of Negation, Mindbreak Trap, Flusterstorm, Mental Misstep, Swan Song, Pyroblast, Red Elemental Blast, Stifle, Hexing Squelcher, Defense Grid, Leyline of Anticipation. Removal/tempo: Chain of Vapor, An Offer You Can't Refuse, Saw in Half, Orcish Bowmasters, Opposition Agent, Dauthi Voidwalker. Weak points: graveyard hate (Dauthi-style, Rest in Peace) stops Worldgorger and Breach; the redirect pair (Spellskite, Redirect Lightning) is cut, so a targeted removal on a Breach/Oracle turn is answered only by counters; Vexing Bauble counters our own free spells.",
+  "weakest_slots": [
+   {
+    "card": "Thundering Falls",
+    "weakness": "The only always-tapped land in a turbo list (9% EDHREC cEDH).",
+    "alternative_named": "Marsh Flats",
+    "reasoning": "Cut: untapped fetch, more shuffles for Brainstorm."
+   },
+   {
+    "card": "Spellskite",
+    "weakness": "2-mana redirect body; absent from Evelyn cEDH data.",
+    "alternative_named": "Insolent Neonate",
+    "reasoning": "Cut: Neonate triggers Evelyn and bins Worldgorger."
+   },
+   {
+    "card": "Redirect Lightning",
+    "weakness": "{R} plus 5 life or {2}; narrow single-target redirect.",
+    "alternative_named": "Brainstorm",
+    "reasoning": "Cut: tests the Pass C cantrip thesis while keeping Ripples."
+   },
+   {
+    "card": "Wan Shi Tong, Librarian",
+    "weakness": "XUU value creature; below the stats.cedh staple cutoff; Pass C's optional cut target.",
+    "alternative_named": "Burnt Offering",
+    "reasoning": "Cut: 46% stats.cedh staple that sacrifices Evelyn or Worldgorger for mana; keep-Wan Shi Tong alternative staged."
+   },
+   {
+    "card": "Blazemire Verge",
+    "weakness": "Conditional R; 6% EDHREC cEDH.",
+    "alternative_named": "Verdant Catacombs",
+    "reasoning": "Cut (closest call): 9th fetch; keep-Verge four-swap staged."
+   },
+   {
+    "card": "Ripples of Undeath",
+    "weakness": "Slow: first mill the turn after casting; bins Worldgorger only 0.0333-0.1012 over 1-3 triggers; 3 life per take.",
+    "alternative_named": "Brainstorm",
+    "reasoning": "Kept: owner-defended WGD/Breach self-mill enabler; Pass C exact swap and Spell Pierce six-swap staged."
+   },
+   {
+    "card": "Vexing Bauble",
+    "weakness": "Counters our own free spells (Force, Pact, Mindbreak, Probe, Petal, LED).",
+    "alternative_named": "Spell Pierce",
+    "reasoning": "Kept: explicit owner keep ('intentional escape valve')."
+   },
+   {
+    "card": "Mount Doom",
+    "weakness": "A painland-style B/R source (1 life per coloured tap) whose ping and wipe modes rarely matter in cEDH.",
+    "alternative_named": "Starting Town",
+    "reasoning": "Kept: untapped B/R source with a late sink; Starting Town is tapped after turn 3 and its colour also costs life."
+   },
+   {
+    "card": "Praetor's Grasp",
+    "weakness": "Five mana tutor-steal from an opponent's library.",
+    "alternative_named": "Intuition",
+    "reasoning": "Kept: 38% EDHREC cEDH; finds a win piece from any library and pairs with Evelyn's theft theme."
+   },
+   {
+    "card": "Dauthi Voidwalker",
+    "weakness": "A {B}{B} 3/2 shadow body; its free-play of an exiled opponent card is slow.",
+    "alternative_named": "Grief",
+    "reasoning": "Kept: exiles opponents' cards instead of the graveyard (stops opposing Breach/reanimation) and a play-from-exile theme fit."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "Card-neutral information spell; our own Bauble counters it if cast for life.",
+    "alternative_named": "Lively Dirge",
+    "reasoning": "Kept: free Breach fuel and storm count; 36% EDHREC cEDH."
+   },
+   {
+    "card": "Hexing Squelcher",
+    "weakness": "A 2-mana body that only protects against counters/ward.",
+    "alternative_named": "Dispel",
+    "reasoning": "Kept: 36% stats.cedh staple; makes our combo uncounterable-ish against a blue table."
+   },
+   {
+    "card": "Notion Thief",
+    "weakness": "Four mana and situational outside the Windfall turn.",
+    "alternative_named": "Wan Shi Tong, Librarian",
+    "reasoning": "Kept: Windfall pairing the owner defended; keep-Wan Shi Tong/cut-Notion alternative staged."
+   },
+   {
+    "card": "Stifle",
+    "weakness": "A narrow answer to activated or triggered abilities only.",
+    "alternative_named": "Dispel",
+    "reasoning": "Kept: owner-defended (Flood Maw rejection rationale)."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 5 cEDH Evelyn list (2026-10-14). M6 Pass C (#18) is NEEDS TESTING (owner-equivalent substitute, NOT independent; 0 measured playtests). Its provisional hypothesis was +Brainstorm / -Ripples of Undeath. stats.cedh.events (2026-10-23): Evelyn 15.3% win rate, 20% conversion, 10 top cuts, low sample. Weakest five plain-retained slots: Thundering Falls (tapped), Spellskite and Redirect Lightning (narrow redirect pair), Wan Shi Tong (value creature) and Blazemire Verge (conditional).",
+  "candidate_pool_scope": "EDHREC Evelyn general (4284), optimized (109), cEDH (100) and upgraded (306) pages JSON; stats.cedh.events Evelyn staples; live Scryfall /cards/collection batch (100 baseline rows plus ~97 evaluated names, white names excluded) and OFF-RANKING searches for one-mana Vampires/changelings and Grixis cantrips; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found (absent from all Evelyn pages): Changeling Outcast, Brazen Borrower. Both rejected; Insolent Neonate (29% cEDH) is the ranked one-mana Vampire with a combo role."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Evelyn approved source refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 03574140, frozen by canonical commit 43c0ceca; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Evelyn__the_Covetous_approved_source_2026-10-14.txt)",
+  "EDHREC Evelyn commander pages JSON (general, optimized, cEDH, upgraded) retrieved 2026-10-23 America/Chicago, discovery only; stats.cedh.events Evelyn page retrieved 2026-10-23: data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 America/Chicago: data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Evelyn__the_Covetous_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for one-mana Vampires/changelings, Grixis cantrips and flash tempo (Changeling Outcast, Brazen Borrower)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Evelyn__the_Covetous/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Evelyn__the_Covetous.md; data/grixis/m6/deep_reviews/Evelyn__the_Covetous.md",
+  "Owner 2026-10-14 current-cycle decisions (removals, rejections and retain reasons): canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 603.6a, 406.6, 607.2a, 903.9a, 104.4b, 732.4, 701.21a, 702.8a, 704.5j; frozen rulings for Burnt Offering, Worldgorger Dragon and Saw in Half: data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C request (exact Brainstorm vs Ripples castability; exact Evelyn turn-3..6 castability; fetch support; exact P(Ripples mills Worldgorger) over 1-3 triggers; per-resolution cost): data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json and tests/test_m6_evelyn_the_covetous_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Marsh Flats",
+   "source": "EDHREC Evelyn cEDH 81/100, optimized 17/109, general absent; live Scryfall batch",
+   "role": "Untapped fetchland (pay 1 life, sacrifice: Plains or Swamp card onto the battlefield): finds Underground Sea, Badlands, Watery Grave, Blood Crypt or the basic Swamp.",
+   "named_cuts": [
+    "Thundering Falls"
+   ],
+   "incumbent_opportunity_cost": "Loses Thundering Falls, the deck's only always-tapped land (U/R surveil 1), a 9% EDHREC cEDH inclusion. Plain owner RETAIN, not an explicit keep.",
+   "commander_synergy": "An untapped Swamp-typed source on turn 1 for Dark Ritual into a turn-1/2 Evelyn or combo turn; every fetch shuffles Brainstorm's put-back cards away; fetching at instant speed thins before Ripples or Evelyn exile triggers.",
+   "adversarial_downside": "1 life; Stifle-able by opponents; Thundering Falls was itself a fetch target (Island Mountain), so fetch targets go 9 -> 8.",
+   "judgment": "SELECT_ADD",
+   "reason": "A tapped land in a 26-land turbo list is the clearest mana-base inefficiency; the owner retained the fetch class and density (Mistrise rationale).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json"
+   ]
+  },
+  {
+   "card": "Insolent Neonate",
+   "source": "EDHREC Evelyn cEDH 29/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{R} 1/1 menace Vampire: discard a card, sacrifice it: draw a card.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Loses Spellskite, a 2-mana redirect body (absent from EDHREC Evelyn cEDH and below the stats.cedh staple cutoff). Plain owner RETAIN within the protection package, not an explicit keep.",
+   "commander_synergy": "Evelyn's trigger is Vampire-only and the baseline has no other Vampire: Neonate entering with Evelyn out exiles the top card of each library (4 cards, play 1 with any-colour mana). Its instant-speed discard outlet bins Worldgorger Dragon or a second creature card (the WGD loop's exit, 104.4b), and it is a creature for Culling the Weak, Saw-free sacrifice and Burnt Offering (MV 1).",
+   "adversarial_downside": "A 1/1 body; one-shot outlet; Spellskite's redirect protected Breach/Oracle lines against targeted removal. FLAG: the owner rejected an optimized-tribal Vampire package; Neonate is added as a one-mana combo enabler and commander trigger, not as tribal value.",
+   "judgment": "SELECT_ADD",
+   "reason": "The only commander-trigger add; the deep review independently proposed it as the honest commander-first fix.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md",
+    "data/grixis/m6/deep_reviews/Evelyn__the_Covetous.md",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Brainstorm",
+   "source": "EDHREC Evelyn cEDH absent, optimized 20/109, general 492/4284; live Scryfall batch",
+   "role": "{U} instant: draw three, put two back.",
+   "named_cuts": [
+    "Redirect Lightning"
+   ],
+   "incumbent_opportunity_cost": "Loses Redirect Lightning (12% EDHREC cEDH; {R} + 5 life or {2} redirect of a single-target spell or ability). Plain owner RETAIN within the protection package.",
+   "commander_synergy": "The Pass C provisional hypothesis card. Instant-speed selection on turn 1 (U source 0.8531/0.8899 play/draw in the candidate) while holding up Evelyn's flash; with 9 fetches the two returned cards are reshuffled (fetch seen in 7 cards 0.4115 -> 0.4981). It can put Worldgorger back or keep it for Faithless Looting/Neonate/Gamble discards.",
+   "adversarial_downside": "Absent from the stats.cedh Evelyn staple list; card-neutral without a shuffle; a cantrip slot instead of a protection slot (12+ stack pieces remain).",
+   "judgment": "SELECT_ADD",
+   "reason": "Tests the Pass C thesis without cutting the owner-defended Ripples; the exact Pass C swap is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Evelyn__the_Covetous/final_disposition.md",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_PassC_baseline_plus_Brainstorm_minus_RipplesOfUndeath_20261023.txt"
+   ]
+  },
+  {
+   "card": "Burnt Offering",
+   "source": "EDHREC Evelyn cEDH 19/100, optimized absent, general absent; stats.cedh.events Evelyn staple 46%; live Scryfall batch",
+   "role": "{B} instant: as an additional cost sacrifice a creature; add X mana of B and/or R, X = its MV.",
+   "named_cuts": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "Loses Wan Shi Tong, Librarian ({X}{U}{U} flash flier that draws when opponents search; 17% EDHREC cEDH, below the stats.cedh staple cutoff). Plain owner RETAIN; the Pass C optional test also named Wan Shi Tong as a cut candidate.",
+   "commander_synergy": "Sacrificing Evelyn (MV 5) in response to removal gives 5 B/R mana and she returns to the command zone; sacrificing Worldgorger (MV 6) mid-loop gives 6; sacrificing Neonate or Thassa's Oracle after its trigger gives 1-2. It funds Breach/Brain Freeze and Ad Nauseam turns at instant speed.",
+   "adversarial_downside": "Needs a creature on the battlefield; a dead card in creature-light hands (13 creatures).",
+   "judgment": "SELECT_ADD",
+   "reason": "46% of stats.cedh Evelyn lists; converts the commander and the loop creature into mana.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Verdant Catacombs",
+   "source": "EDHREC Evelyn cEDH 76/100, optimized 14/109, general absent; live Scryfall batch",
+   "role": "Untapped fetchland for a Swamp or Forest card (finds the same Swamp-typed duals and basic Swamp).",
+   "named_cuts": [
+    "Blazemire Verge"
+   ],
+   "incumbent_opportunity_cost": "Loses Blazemire Verge, an untapped B source whose R is conditional on a Swamp or Mountain (6% EDHREC cEDH). Plain owner RETAIN. Closest call of the five.",
+   "commander_synergy": "Ninth fetch: more shuffles for Brainstorm, Mistrise Village and Gemstone Caverns fixing intact; Verdant is a second Marsh Flats in function.",
+   "adversarial_downside": "9 fetches for 8 targets; against Stifle or Opposition-style effects a fetch can be dead where Verge is not; 1 life.",
+   "judgment": "SELECT_ADD",
+   "reason": "76% vs 6% in EDHREC cEDH Evelyn lists; staged keep-Verge four-swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_four_keep_BlazemireVerge_20261023.txt"
+   ]
+  },
+  {
+   "card": "Grim Monolith",
+   "source": "EDHREC Evelyn cEDH 53/100, optimized 6/109, general absent; live Scryfall batch",
+   "role": "{2} artifact: tap for {C}{C}{C}; doesn't untap normally.",
+   "named_cuts": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "Would take the Wan Shi Tong slot instead of Burnt Offering.",
+   "commander_synergy": "A durable fast-mana rock for Evelyn on turn 2-3.",
+   "adversarial_downside": "A Game Changer (19 -> 20); colourless only; Vexing Bauble does not stop it but it does not touch Evelyn or the WGD loop.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a complete five-swap; Burnt Offering is the commander-interacting ritual.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_five_GrimMonolith_instead_of_BurntOffering_20261023.txt"
+   ]
+  },
+  {
+   "card": "Wan Shi Tong, Librarian",
+   "source": "EDHREC Evelyn cEDH 17/100, optimized absent, general absent; live Scryfall batch (incumbent re-test as a challenger to Notion Thief)",
+   "role": "{X}{U}{U} legendary flash flying vigilance Bird Spirit: enters with X +1/+1 counters and draws half X; draws whenever an opponent searches their library.",
+   "named_cuts": [
+    "Notion Thief"
+   ],
+   "incumbent_opportunity_cost": "Would keep Wan Shi Tong by cutting Notion Thief instead of Wan Shi Tong; Notion Thief is the Windfall pairing the owner defended when rejecting Wheel of Fortune.",
+   "commander_synergy": "Flash like Evelyn; punishes opposing fetches and tutors in cEDH pods.",
+   "adversarial_downside": "X-cost creature that is slow at low X; not a Vampire; Notion Thief is a Game Changer whose cut would lower GC 19 -> 18.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a complete five-swap keeping Wan Shi Tong; not primary because it cuts an owner-defended pair.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_five_keep_WanShiTong_cut_NotionThief_20261023.txt"
+   ]
+  },
+  {
+   "card": "Spell Pierce",
+   "source": "EDHREC Evelyn cEDH 10/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{U} instant: counter target noncreature spell unless its controller pays {2}.",
+   "named_cuts": [
+    "Ripples of Undeath"
+   ],
+   "incumbent_opportunity_cost": "Would cut the owner-defended Ripples of Undeath on top of the primary.",
+   "commander_synergy": "Cheap stack protection for Oracle/Breach turns.",
+   "adversarial_downside": "Soft counter, weak late; cutting Ripples loses a WGD/Breach self-mill enabler the owner defended.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a six-swap; not primary because it overrides an owner-defended card.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_six_SpellPierce_over_RipplesOfUndeath_20261023.txt"
+   ]
+  },
+  {
+   "card": "Intuition",
+   "source": "EDHREC Evelyn cEDH 34/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{2}{U} instant tutor: opponent chooses one of three for hand, rest to graveyard.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Would cut Gitaxian Probe in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Finds Worldgorger plus Animate Dead pieces with grave value.",
+   "adversarial_downside": "Three mana; opponent choice; the deck already has Entomb, Unmarked Grave, Imperial Seal, Mystical, Vampiric, Demonic, Gamble, Wishclaw.",
+   "judgment": "REJECT",
+   "reason": "Tutor density is already high; Probe is free (Bauble-safe from our side only when mana is paid).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Forbidden Orchard",
+   "source": "EDHREC Evelyn cEDH 21/100, optimized absent, general absent; live Scryfall batch",
+   "role": "Land: tap for any colour; when tapped for mana, target opponent creates a 1/1 Spirit.",
+   "named_cuts": [
+    "Blazemire Verge"
+   ],
+   "incumbent_opportunity_cost": "Would replace Blazemire Verge in the same land slot; a plain owner RETAIN.",
+   "commander_synergy": "An untapped rainbow land that fixes Evelyn's hybrid cost.",
+   "adversarial_downside": "Gives opponents blockers/chump bodies and sacrifice fodder; Verdant does the fixing without that cost.",
+   "judgment": "REJECT",
+   "reason": "Verdant Catacombs fills the slot with no gift to opponents.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Fierce Guardianship",
+   "source": "EDHREC Evelyn cEDH 50/100, optimized 34/109, general 567/4284; live Scryfall batch",
+   "role": "{2}{U} counter noncreature; free if we control our commander.",
+   "named_cuts": [
+    "Redirect Lightning"
+   ],
+   "incumbent_opportunity_cost": "Would cut Redirect Lightning in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Free counter while Evelyn is out.",
+   "adversarial_downside": "Commander-dependent free mode: the owner rejected Deflecting Swat on exactly this ground (Evelyn is often not on the battlefield in combo turns).",
+   "judgment": "REJECT",
+   "reason": "Consistency with the owner's Swat rejection.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Dispel",
+   "source": "EDHREC Evelyn cEDH 35/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{U} instant: counter target instant spell.",
+   "named_cuts": [
+    "Redirect Lightning"
+   ],
+   "incumbent_opportunity_cost": "Would cut Redirect Lightning in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Stack protection in counter wars.",
+   "adversarial_downside": "Narrow (instants only); the deck already runs Flusterstorm, Pyroblast, Red Elemental Blast, Mental Misstep, Swan Song.",
+   "judgment": "REJECT",
+   "reason": "Redundant narrow counter; Brainstorm adds a different function.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Daze",
+   "source": "EDHREC Evelyn cEDH 14/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{1}{U} counter unless {1} paid; alt cost return an Island.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Would cut Spellskite in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "A free tempo counter on Oracle/Breach turns.",
+   "adversarial_downside": "Returning an Island costs a land drop in a 26-land deck (only one basic Island plus 4 Island-typed duals/shocks), and a Daze cast by returning an Island spends no mana, so our own Vexing Bauble counters it.",
+   "judgment": "REJECT",
+   "reason": "Anti-synergy with the owner-kept Vexing Bauble.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Grief",
+   "source": "EDHREC Evelyn cEDH absent, optimized absent, general absent; live Scryfall batch",
+   "role": "{2}{B}{B} 3/2 menace with evoke (exile a black card): when it enters, target opponent reveals their hand and discards a nonland card of our choice.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Would cut Spellskite in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Turn-0 disruption; Evelyn can't reanimate it into a loop.",
+   "adversarial_downside": "Card disadvantage when evoked; not a Vampire; an evoked Grief spends no mana, so our own Vexing Bauble counters it.",
+   "judgment": "REJECT",
+   "reason": "Bauble anti-synergy and not commander-relevant.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Vampire Hexmage",
+   "source": "EDHREC Evelyn cEDH absent, optimized absent, general absent; live Scryfall batch",
+   "role": "{B}{B} 2/1 first strike Vampire: sacrifice: remove all counters from target permanent.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Would cut Spellskite in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "A second Vampire trigger for Evelyn.",
+   "adversarial_downside": "BB on a 26-land deck; counter removal is matchup-narrow; Neonate is the cheaper Vampire with a combo role.",
+   "judgment": "REJECT",
+   "reason": "Neonate covers the Vampire trigger better.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Changeling Outcast",
+   "source": "EDHREC Evelyn cEDH absent, optimized absent, general absent; live Scryfall batch; OFF-RANKING",
+   "role": "{B} 1/1 changeling (every creature type, so a Vampire), can't block, unblockable.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Would cut Spellskite in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "A one-mana Vampire for Evelyn's trigger.",
+   "adversarial_downside": "No discard outlet or combo role.",
+   "judgment": "REJECT",
+   "reason": "Neonate does the same trigger plus binning Worldgorger.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Brazen Borrower",
+   "source": "EDHREC Evelyn cEDH absent, optimized absent, general absent; live Scryfall batch; OFF-RANKING",
+   "role": "{1}{U}{U} flash flier with Petty Theft bounce.",
+   "named_cuts": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "Would cut Wan Shi Tong in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "A flash tempo answer that fits Evelyn's instant-speed plan.",
+   "adversarial_downside": "Not a Vampire, UU; Chain of Vapor already bounces.",
+   "judgment": "REJECT",
+   "reason": "Marginal versus the selected ritual.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lively Dirge",
+   "source": "EDHREC Evelyn cEDH 22/100, optimized 6/109, general absent; live Scryfall batch",
+   "role": "{1}{B} sorcery, spree: +{1} search for a card and put it into the graveyard; +{2} return up to two creature cards (total MV 4 or less) to the battlefield.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Would cut Gitaxian Probe in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Entomb-like for Worldgorger plus reanimation.",
+   "adversarial_downside": "Sorcery speed and 3 mana for the Entomb mode; Worldgorger (MV 6) is too big for its return mode; Entomb and Unmarked Grave already present.",
+   "judgment": "REJECT",
+   "reason": "Slower than Entomb and Unmarked Grave, the incumbents for this job.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Starting Town",
+   "source": "EDHREC Evelyn cEDH 23/100, optimized absent, general absent; live Scryfall batch",
+   "role": "Land: enters tapped unless it is our first, second or third turn; {T}: {C}; {T}, pay 1 life: any colour.",
+   "named_cuts": [
+    "Blazemire Verge"
+   ],
+   "incumbent_opportunity_cost": "Would replace Blazemire Verge in the same land slot; a plain owner RETAIN.",
+   "commander_synergy": "A fixing land that is untapped early in the game.",
+   "adversarial_downside": "Weaker than an untapped fetch in a deck that wants shuffles.",
+   "judgment": "REJECT",
+   "reason": "Verdant Catacombs selected instead.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Gifts Ungiven",
+   "source": "EDHREC Evelyn cEDH 18/100, optimized absent, general absent; live Scryfall batch",
+   "role": "{3}{U} instant: four cards, opponent bins two.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Would cut Gitaxian Probe in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "Assembles Worldgorger + Animate Dead pieces.",
+   "adversarial_downside": "Four mana in a list with average nonland MV 1.8.",
+   "judgment": "REJECT",
+   "reason": "Too slow for a Bracket 5 turbo list.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Snow-Covered Swamp",
+   "source": "EDHREC Evelyn cEDH 9/100, optimized absent, general absent; live Scryfall batch",
+   "role": "A snow-covered basic Swamp (untapped B, fetchable).",
+   "named_cuts": [
+    "Thundering Falls"
+   ],
+   "incumbent_opportunity_cost": "Would replace Thundering Falls in the same land slot; a plain owner RETAIN.",
+   "commander_synergy": "A fetchable untapped B source immune to nonbasic hate.",
+   "adversarial_downside": "Mono-colour; Marsh Flats is a better use of the slot and fetches the existing basic Swamp.",
+   "judgment": "REJECT",
+   "reason": "Marsh Flats selected; it fetches the existing basic Swamp.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Displacer Kitten",
+   "source": "EDHREC Evelyn cEDH 52/100, optimized 36/109, general 859/4284; live Scryfall batch",
+   "role": "{3}{U} blink a nonland permanent on each noncreature cast.",
+   "named_cuts": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "OWNER-REJECTED or removed in the 2026-10-14 current-cycle decisions (not re-added)",
+   "commander_synergy": "Blinking Evelyn would re-trigger her.",
+   "adversarial_downside": "OWNER-REJECTED or removed in the 2026-10-14 current-cycle decisions (not re-added).",
+   "judgment": "REJECT",
+   "reason": "Owner-removed in the 2026-10-14 cycle; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Otawara, Soaring City",
+   "source": "EDHREC Evelyn cEDH 79/100, optimized 30/109, general 616/4284; live Scryfall batch",
+   "role": "Legendary land with channel bounce.",
+   "named_cuts": [
+    "Thundering Falls"
+   ],
+   "incumbent_opportunity_cost": "OWNER-REJECTED or removed in the 2026-10-14 current-cycle decisions (not re-added) (Mistrise Village plus fetch density beat Otawara).",
+   "commander_synergy": "Untapped U land with interaction.",
+   "adversarial_downside": "OWNER-REJECTED or removed in the 2026-10-14 current-cycle decisions (not re-added).",
+   "judgment": "REJECT",
+   "reason": "Owner-cut in the 2026-10-14 cycle; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Bloodtithe Harvester",
+   "source": "EDHREC Evelyn cEDH absent, optimized absent, general 702/4284; live Scryfall batch",
+   "role": "{B}{R} 3/2 Vampire with Blood token removal.",
+   "named_cuts": [
+    "Spellskite"
+   ],
+   "incumbent_opportunity_cost": "Would cut Spellskite in the same slot; that incumbent is a plain owner RETAIN.",
+   "commander_synergy": "A Vampire trigger for Evelyn plus removal.",
+   "adversarial_downside": "Two colours and two mana for a value body; part of the Vampire value package the owner rejected.",
+   "judgment": "REJECT",
+   "reason": "Owner rejected the Vampire value package; Neonate is a combo piece instead.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Evelyn_the_Covetous_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Marsh Flats",
+   "Insolent Neonate",
+   "Brainstorm",
+   "Burnt Offering",
+   "Verdant Catacombs"
+  ],
+  "cuts": [
+   "Thundering Falls",
+   "Spellskite",
+   "Redirect Lightning",
+   "Wan Shi Tong, Librarian",
+   "Blazemire Verge"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps: two untapped fetches for the tapped/conditional lands, a Vampire combo enabler for Spellskite, Brainstorm for Redirect Lightning, and Burnt Offering for Wan Shi Tong. Losses: the redirect pair (Spellskite, Redirect Lightning) against targeted removal, Wan Shi Tong's search punishment, Thundering Falls' surveil and Blazemire Verge's Stifle-proof B. No explicit owner keep is cut."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Thundering Falls",
+    "weakness": "The only always-tapped land in a turbo list (9% EDHREC cEDH).",
+    "alternative_named": "Marsh Flats",
+    "reasoning": "Cut: untapped fetch, more shuffles for Brainstorm."
+   },
+   {
+    "card": "Spellskite",
+    "weakness": "2-mana redirect body; absent from Evelyn cEDH data.",
+    "alternative_named": "Insolent Neonate",
+    "reasoning": "Cut: Neonate triggers Evelyn and bins Worldgorger."
+   },
+   {
+    "card": "Redirect Lightning",
+    "weakness": "{R} plus 5 life or {2}; narrow single-target redirect.",
+    "alternative_named": "Brainstorm",
+    "reasoning": "Cut: tests the Pass C cantrip thesis while keeping Ripples."
+   },
+   {
+    "card": "Wan Shi Tong, Librarian",
+    "weakness": "XUU value creature; below the stats.cedh staple cutoff; Pass C's optional cut target.",
+    "alternative_named": "Burnt Offering",
+    "reasoning": "Cut: 46% stats.cedh staple that sacrifices Evelyn or Worldgorger for mana; keep-Wan Shi Tong alternative staged."
+   },
+   {
+    "card": "Blazemire Verge",
+    "weakness": "Conditional R; 6% EDHREC cEDH.",
+    "alternative_named": "Verdant Catacombs",
+    "reasoning": "Cut (closest call): 9th fetch; keep-Verge four-swap staged."
+   },
+   {
+    "card": "Ripples of Undeath",
+    "weakness": "Slow: first mill the turn after casting; bins Worldgorger only 0.0333-0.1012 over 1-3 triggers; 3 life per take.",
+    "alternative_named": "Brainstorm",
+    "reasoning": "Kept: owner-defended WGD/Breach self-mill enabler; Pass C exact swap and Spell Pierce six-swap staged."
+   },
+   {
+    "card": "Vexing Bauble",
+    "weakness": "Counters our own free spells (Force, Pact, Mindbreak, Probe, Petal, LED).",
+    "alternative_named": "Spell Pierce",
+    "reasoning": "Kept: explicit owner keep ('intentional escape valve')."
+   },
+   {
+    "card": "Mount Doom",
+    "weakness": "A painland-style B/R source (1 life per coloured tap) whose ping and wipe modes rarely matter in cEDH.",
+    "alternative_named": "Starting Town",
+    "reasoning": "Kept: untapped B/R source with a late sink; Starting Town is tapped after turn 3 and its colour also costs life."
+   },
+   {
+    "card": "Praetor's Grasp",
+    "weakness": "Five mana tutor-steal from an opponent's library.",
+    "alternative_named": "Intuition",
+    "reasoning": "Kept: 38% EDHREC cEDH; finds a win piece from any library and pairs with Evelyn's theft theme."
+   },
+   {
+    "card": "Dauthi Voidwalker",
+    "weakness": "A {B}{B} 3/2 shadow body; its free-play of an exiled opponent card is slow.",
+    "alternative_named": "Grief",
+    "reasoning": "Kept: exiles opponents' cards instead of the graveyard (stops opposing Breach/reanimation) and a play-from-exile theme fit."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "Card-neutral information spell; our own Bauble counters it if cast for life.",
+    "alternative_named": "Lively Dirge",
+    "reasoning": "Kept: free Breach fuel and storm count; 36% EDHREC cEDH."
+   },
+   {
+    "card": "Hexing Squelcher",
+    "weakness": "A 2-mana body that only protects against counters/ward.",
+    "alternative_named": "Dispel",
+    "reasoning": "Kept: 36% stats.cedh staple; makes our combo uncounterable-ish against a blue table."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Changeling Outcast, Brazen Borrower (both rejected on Evelyn-specific grounds).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Marsh Flats",
+     "Insolent Neonate",
+     "Brainstorm",
+     "Burnt Offering"
+    ],
+    "cuts": [
+     "Thundering Falls",
+     "Spellskite",
+     "Redirect Lightning",
+     "Wan Shi Tong, Librarian"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Blazemire Verge; below the five-swap floor."
+   },
+   {
+    "adds": [
+     "Marsh Flats",
+     "Insolent Neonate",
+     "Brainstorm",
+     "Grim Monolith",
+     "Verdant Catacombs"
+    ],
+    "cuts": [
+     "Thundering Falls",
+     "Spellskite",
+     "Redirect Lightning",
+     "Wan Shi Tong, Librarian",
+     "Blazemire Verge"
+    ],
+    "result_and_rationale": "Staged five-swap with Grim Monolith instead of Burnt Offering (Game Changers 19 -> 20)."
+   },
+   {
+    "adds": [
+     "Marsh Flats",
+     "Insolent Neonate",
+     "Brainstorm",
+     "Burnt Offering",
+     "Verdant Catacombs"
+    ],
+    "cuts": [
+     "Thundering Falls",
+     "Spellskite",
+     "Redirect Lightning",
+     "Notion Thief",
+     "Blazemire Verge"
+    ],
+    "result_and_rationale": "Staged five-swap keeping Wan Shi Tong and cutting Notion Thief (owner-defended Windfall pair; flagged)."
+   },
+   {
+    "adds": [
+     "Marsh Flats",
+     "Insolent Neonate",
+     "Brainstorm",
+     "Burnt Offering",
+     "Verdant Catacombs",
+     "Spell Pierce"
+    ],
+    "cuts": [
+     "Thundering Falls",
+     "Spellskite",
+     "Redirect Lightning",
+     "Wan Shi Tong, Librarian",
+     "Blazemire Verge",
+     "Ripples of Undeath"
+    ],
+    "result_and_rationale": "Staged six-swap adding Spell Pierce over Ripples (owner-defended; flagged)."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C's exact hypothesis (+Brainstorm / -Ripples of Undeath) was run as a bounded finite test: Brainstorm is castable on turn 1 0.8385/0.8771 (play/draw) vs Ripples on turn 2 0.7852/0.8414, and Ripples bins Worldgorger only 0.0333/0.0671/0.1012 over 1/2/3 triggers on the play. But Ripples is owner-defended and its mill also fuels Breach, so the primary adds Brainstorm over Redirect Lightning instead. The exact Pass C swap and a Spell Pierce six-swap that cuts Ripples are staged as complete 100s.",
+  "strongest_argument_against_baseline": "Evelyn's trigger is Vampire-only and the baseline has no other Vampire, so her text fires only on her own casts. The mana base also carried one always-tapped land and one conditional dual in a 26-land turbo list, and two narrow redirect cards with almost no presence in Evelyn cEDH data.",
+  "evidence_based_answer": "Five swaps: Insolent Neonate adds a second Vampire trigger and a Worldgorger discard outlet; Burnt Offering (46% stats.cedh staple) sacrifices Evelyn or Worldgorger for mana; Brainstorm tests the Pass C thesis without cutting Ripples; Marsh Flats and Verdant Catacombs replace the tapped/conditional lands (81%/76% EDHREC cEDH). Spellbook complete combos unchanged (7 -> 7); Evelyn castability unchanged; fetch-in-7 0.4115 -> 0.4981."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Evelyn__the_Covetous.txt",
+  "sha256": "c3f6862c6f4498778069f45e7a5e5bc7efe92d70158b5e9b3f438c8c861b89ac",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; every card 1x (one basic Island, one basic Swamp). Five substitutions against the canonical source. 26 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Evelyn__the_Covetous_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Evelyn__the_Covetous_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md",
+   "tests/test_m6_evelyn_the_covetous_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Evelyn__the_Covetous/final_disposition.md"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "cEDH",
+   "Worldgorger Combo",
+   "Thassa's Oracle"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: eight post-floor challenges were recorded on Evelyn-specific grounds, and a six-swap package (Spell Pierce over Ripples of Undeath) is staged as a complete 100.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Ripples of Undeath",
+    "challenger": "Spell Pierce",
+    "tradeoff": "Spell Pierce is cheaper protection, but Ripples is the owner-defended self-mill enabler for Breach and Worldgorger.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Notion Thief",
+    "challenger": "Wan Shi Tong, Librarian",
+    "tradeoff": "Wan Shi Tong draws on opponents' searches, but Notion Thief turns Windfall into a one-sided wheel and the owner defended that pair.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Mount Doom",
+    "challenger": "Starting Town",
+    "tradeoff": "Starting Town enters tapped after turn 3 and costs life for colour; Mount Doom is always untapped B/R.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Praetor's Grasp",
+    "challenger": "Intuition",
+    "tradeoff": "Intuition is cheaper but the opponent chooses; Grasp takes any card from any library.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Dauthi Voidwalker",
+    "challenger": "Grief",
+    "tradeoff": "Grief is free disruption but counters itself under our Vexing Bauble; Dauthi is repeatable grave hate.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Gitaxian Probe",
+    "challenger": "Lively Dirge",
+    "tradeoff": "Dirge is slower sorcery-speed value; Probe is free fuel and information.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Hexing Squelcher",
+    "challenger": "Dispel",
+    "tradeoff": "Dispel only hits instants; Squelcher protects the whole combo turn.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Final Fortune",
+    "challenger": "Gifts Ungiven",
+    "tradeoff": "Final Fortune is a 66% stats.cedh staple (Ad Nauseam/LED turn extension); Gifts is too slow.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_six_SpellPierce_over_RipplesOfUndeath_20261023.txt",
+    "sha256": "e7eef96b9f49811d1434e2da2137cd60013d43fb84ce5b5845c973177a33d060",
+    "adds": [
+     "Marsh Flats",
+     "Insolent Neonate",
+     "Brainstorm",
+     "Burnt Offering",
+     "Verdant Catacombs",
+     "Spell Pierce"
+    ],
+    "cuts": [
+     "Thundering Falls",
+     "Spellskite",
+     "Redirect Lightning",
+     "Wan Shi Tong, Librarian",
+     "Blazemire Verge",
+     "Ripples of Undeath"
+    ],
+    "case_for_extra_swaps": "Pass C argued Ripples is slow; Spell Pierce adds a 1-mana counter for Oracle/Breach turns.",
+    "why_not_selected": "Ripples is owner-defended and the bounded test shows Brainstorm can be added without cutting it; Spell Pierce is a 10% EDHREC cEDH inclusion."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Evelyn-specific grounds or is owner-defended: Ripples, Vexing Bauble, Stifle, Windfall/Notion Thief and Mistrise are owner-defended (alternatives staged where a challenger was credible); Mount Doom, Praetor's Grasp, Dauthi, Gitaxian Probe, Hexing Squelcher, Final Fortune and Culling the Weak beat their challengers. Cutting more interaction would weaken the stack after the redirect pair is already gone."
+ }
+}
