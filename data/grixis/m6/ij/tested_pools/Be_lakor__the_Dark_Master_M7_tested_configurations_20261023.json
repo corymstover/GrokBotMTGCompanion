@@ -1,0 +1,65 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+ "registry_recorded_matches_raw": true,
+ "source_full": "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 6,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Be_lakor_the_Dark_Master_approved_source_2026-10-13.txt",
+   "raw_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+   "logical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Approved list unchanged and the comparison anchor: 36 physical lands, 7 static rocks (43 static sources), 25 printed Demon cards including the commander, avg nonland MV 4.109, Demon power sum 129. Commander Spellbook: one included combo (Be'lakor + Rite of Replication, 1744-4071, finite). Registry recorded digest equals the raw bytes (no provenance exception)."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Be_lakor__the_Dark_Master.txt",
+   "raw_sha256": "62a96b4f39584fa38947843bea352de923b29d7b266b57fce5918802a79b57bf",
+   "logical_hash": "lh1:41e4055c616d8e51c7c6019264737fa2300c5bf2609f4b3d9aad226cb0067ccf",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Desecration Demon +Kindred Dominance +Demonlord Belzenlok +Reaper from the Abyss +Herald's Horn / -Dream Devourer -Blasphemous Act -Rakdos, Patron of Chaos -Bloodthirster -Fellwar Stone. 36 lands + 6 rocks + Horn; Demons stay 25, Demon power sum 129->135, avg nonland MV 4.125. Same single finite Spellbook combo. Losses: Blasphemous Act's cheap reset, Bloodthirster's extra combat, Rakdos's mana, one rock."
+  },
+  {
+   "id": "FIVE_ALT_HORN_OVER_HEARTLESS",
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_five_alt_HeraldsHorn_over_HeartlessSummoning_20261023.txt",
+   "raw_sha256": "1b71b17b0da06bc0248c34721eee880a3d9c4e346f4ae53cb5b3ff4b11a974d8",
+   "logical_hash": "lh1:8814c3a08ad6a6ea01701d20f680b5738dcf9a4b914e7791af3e8bff6a2236f5",
+   "physical_cards": 100,
+   "judgment": "REJECT (same-count alternative, staged). Same first four swaps; Herald's Horn replaces Heartless Summoning instead of Fellwar Stone. Removes the -1/-1 (one more damage per Lord hit) but loses -2 on every creature spell, the deck's strongest early ramp. MODERATE confidence."
+  },
+  {
+   "id": "SIX_COURTYARD",
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_SecludedCourtyard_over_ExoticOrchard_20261023.txt",
+   "raw_sha256": "5f4a8ca283b67081a99e919f7e48512baaee408817bb8010955d17ad097f7fab",
+   "logical_hash": "lh1:aac98fd74d31db9e357b56929e509fe1f345f83029f7444b85b7b88735f339c4",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). Preferred five + Secluded Courtyard over Exotic Orchard. Courtyard (naming Demon) makes any color for Demons and their abilities, but only colorless for Rite, Mana Drain, Cyclonic Rift and other noncreature spells. MODERATE confidence."
+  },
+  {
+   "id": "SIX_XANDER",
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_LordXander_over_LordOfChange_20261023.txt",
+   "raw_sha256": "2df949c53f333d24de43df4c5bb5d05bdfb9a4ecd64899ac95dc588522568fe0",
+   "logical_hash": "lh1:f6e993b3992d21e83c46e7c3627c2179d1ce50bf079c5970306287e69fb801fa",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). Preferred five + Lord Xander, the Collector over Lord of Change. Xander's 6 power and copyable ETB discard are strong with Molten Echoes/Spark Double, but it costs 7 and Lord of Change's draw-three plus ward is the deck's blue card flow. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN",
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_seven_Courtyard_LordXander_20261023.txt",
+   "raw_sha256": "1eabfcf9c23161209ed3856f5665acc65e3e4d656a041b3cd859929be748b2a2",
+   "logical_hash": "lh1:7037d6d8661d7e831153c0b3bcca2bd5a178be695e78293cd09d270eaf6acff6",
+   "physical_cards": 100,
+   "judgment": "STAGED_NOT_SELECTED. Both six-swap alternatives together. Neither change beat its incumbent alone, so stacking them would be padding; five is a floor, not a target."
+  }
+ ],
+ "owner_m7_approved": false,
+ "scope_caveat": "Local comparison over these six explicit complete 100-card configurations plus named single-card contenders in the M7 packet; not a global or mathematical optimum and not a win-rate measurement."
+}

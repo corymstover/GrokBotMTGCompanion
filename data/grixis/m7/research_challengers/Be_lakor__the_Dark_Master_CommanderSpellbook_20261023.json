@@ -1,0 +1,43 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1744-4071",
+    "uses": [
+     "Be'lakor, the Dark Master",
+     "Rite of Replication"
+    ],
+    "produces": [
+     "Near-infinite card draw",
+     "Near-infinite damage",
+     "Near-infinite draw triggers"
+    ],
+    "bracket_tag": "E",
+    "description": "Cast Rite of Replication with kicker by paying {7}{U}{U}, creating five token copies of Be'lakor.\nPut all the Be'lakor tokens into your graveyard due to the legend rule.\nEach Be'lakor token's first ability triggers, the nontoken Be'lakor's second ability triggers five times, and each Be'lakor token's second ability triggers four times.\nResolve the nontoken Be'lakor triggers, dealing 30 damage to up to 5 targets.\nResolve all the Be'lakor tokens' second abilities, dealing 120 damage to up to 20 targets.\nIf needed, resolve all the Be'lakor tokens' first abilities, causing you to draw five cards for each Demon you control and lose that much life."
+   }
+  ],
+  "almost_included_count": 79
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1744-4071",
+    "uses": [
+     "Be'lakor, the Dark Master",
+     "Rite of Replication"
+    ],
+    "produces": [
+     "Near-infinite card draw",
+     "Near-infinite damage",
+     "Near-infinite draw triggers"
+    ],
+    "bracket_tag": "E",
+    "description": "Cast Rite of Replication with kicker by paying {7}{U}{U}, creating five token copies of Be'lakor.\nPut all the Be'lakor tokens into your graveyard due to the legend rule.\nEach Be'lakor token's first ability triggers, the nontoken Be'lakor's second ability triggers five times, and each Be'lakor token's second ability triggers four times.\nResolve the nontoken Be'lakor triggers, dealing 30 damage to up to 5 targets.\nResolve all the Be'lakor tokens' second abilities, dealing 120 damage to up to 20 targets.\nIf needed, resolve all the Be'lakor tokens' first abilities, causing you to draw five cards for each Demon you control and lose that much life."
+   }
+  ],
+  "almost_included_count": 79
+ }
+}

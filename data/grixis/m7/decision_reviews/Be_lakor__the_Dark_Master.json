@@ -1,0 +1,807 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "canonical_baseline_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+ "canonical_baseline_logical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "commander_identity": {
+  "mechanical_plan": "Be'lakor, the Dark Master ({3}{U}{B}{R}, 6/5 flying legendary Demon Noble) has two abilities. Prince of Chaos: when Be'lakor enters, draw X cards and lose X life, where X is the number of Demons you control when the trigger resolves. Lord of Torment: whenever ANOTHER Demon you control enters, that entering Demon deals damage equal to ITS power to any target. The deck turns Demon power into damage. Cost reducers (Herald of Slaanesh, Urza's Incubator, Heartless Summoning, Ancient Cellarspawn) and cheat effects (Sneak Attack, Reanimate, Whip of Erebos, Gyruda, Patriarch's Bidding) put Demons in. Entry multipliers repeat the hits: Molten Echoes, Spark Double, Rite of Replication (kicked self-Rite: 25 Lord triggers, up to 150 damage, finite), Reflections of Littjara, Ghostly Flicker, Roaming Throne and Panharmonicon. Amplifiers raise the damage: Bloodletter of Aclazotz, Sower of Discord, Archfiend of Despair and Warstorm Surge. Liliana's Contract is an alternate win.",
+  "protected_core": [
+   "Be'lakor, the Dark Master",
+   "Herald of Slaanesh",
+   "Urza's Incubator",
+   "Heartless Summoning",
+   "Ancient Cellarspawn",
+   "Sneak Attack",
+   "Molten Echoes",
+   "Spark Double",
+   "Rite of Replication",
+   "Reflections of Littjara",
+   "Roaming Throne",
+   "Panharmonicon",
+   "Warstorm Surge",
+   "Bloodletter of Aclazotz",
+   "Archfiend of Despair",
+   "Sower of Discord",
+   "Liliana's Contract",
+   "Kindred Discovery",
+   "Whip of Erebos",
+   "Reanimate",
+   "Gyruda, Doom of Depths"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Five Game Changers (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Vampiric Tutor). The only Spellbook combo is the finite Be'lakor + kicked Rite of Replication burst. Liliana's Contract is an alternate win. 36 lands. Not cEDH.",
+  "anti_homogenization": "Each add raises Demon power per mana or protects the Demon board. Generic goodstuff Game Changers (Rhystic Study, Bolas's Citadel) were rejected, and so were Demons with self-defeating clauses (Abyssal Persecutor, Archfiend of the Dross). Demon count stays at 25 printed Demon cards plus Roaming Throne naming Demon."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 reviewed by quantity (94 rows, 100 physical; Island x3, Mountain x2, Swamp x4). The deck has 36 lands and 64 nonland cards, including 25 printed Demon cards (commander included) and 7 mana rocks plus Dark Ritual. Cost reduction: Herald of Slaanesh, Urza's Incubator, Heartless Summoning, Ancient Cellarspawn. Cheats: Sneak Attack, Reanimate, Whip, Gyruda, Patriarch's Bidding. Copy/blink: Molten Echoes, Spark Double, Rite, Reflections, Ghostly Flicker, Roaming Throne, Panharmonicon. Stack interaction: Mana Drain, Fierce Guardianship, Deflecting Swat. Removal: Chaos Warp, Deadly Rollick, Bedevil, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Blasphemous Act, Rakdos the Showstopper. Two overlaps stand out. Blasphemous Act and Toxic Deluge are both symmetrical wipes, and Act kills our own board. Dream Devourer is a 0-power Demon whose Lord trigger deals 0.",
+  "mana_base_and_curve": "Baseline: 36 lands + 7 rocks + Dark Ritual; average nonland MV 4.109. Curve by MV 1/2/3/4/5/6/7+: 4/13/10/12/9/9/7. Candidate: 36 lands + 6 rocks + Herald's Horn (Demon-only reduction) + Dark Ritual; average nonland MV 4.125. Curve: 4/11/11/13/9/9/7. Nonland pips U/B/R go from 15/58/20 to 15/65/17 (Reaper BBB, Belzenlok BB, Desecration BB, Dominance BB). Black land sources are unchanged: Swamp x4, Urborg, Underground Sea, Badlands, Blood Crypt, Watery Grave, Drowned Catacomb, Dragonskull Summit, Sunken Hollow, Foreboding Ruins, Luxury Suite, Xander's Lounge, Crumbling Necropolis, Morphic Pool, fetches, Command Tower, Path of Ancestry, Cavern of Souls (Demon), Exotic Orchard. Honest cost: one fewer generic rock for noncreature spells.",
+  "interaction_resilience": "Stack: Mana Drain, Fierce Guardianship, Deflecting Swat. Removal: Chaos Warp, Deadly Rollick, Bedevil, Feed the Swarm, Cyclonic Rift, Toxic Deluge, Rakdos the Showstopper, plus Kindred Dominance (new, one-sided) and Reaper from the Abyss (new, repeatable). Graveyard hate stops Reanimate, Whip, Gyruda and Bidding. ETB hate (Torpor Orb, Hushbringer) stops Prince and Lord. Commander-removed state: Warstorm Surge, Kindred Discovery, Liliana's Contract, Unholy Annex and every Demon body still work.",
+  "weakest_slots": [
+   {
+    "card": "Dream Devourer",
+    "weakness": "0-power Demon: its Lord of Torment trigger deals 0.",
+    "alternative_named": "Desecration Demon",
+    "reasoning": "Same curve role, and the hit goes from 0 to 6."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Symmetrical 13-damage wipe kills our own Demon board and Be'lakor.",
+    "alternative_named": "Kindred Dominance",
+    "reasoning": "One-sided Demon wipe; Toxic Deluge stays as the cheap reset."
+   },
+   {
+    "card": "Rakdos, Patron of Chaos",
+    "weakness": "The opponent chooses the punisher outcome, and it only triggers at our end step.",
+    "alternative_named": "Demonlord Belzenlok",
+    "reasoning": "Same MV and power; the ETB value is immediate and copyable."
+   },
+   {
+    "card": "Bloodthirster",
+    "weakness": "An extra combat the deck rarely needs, and it only triggers if it connects.",
+    "alternative_named": "Reaper from the Abyss",
+    "reasoning": "Repeatable removal instead of aggression."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Seventh rock with negative synergy.",
+    "alternative_named": "Herald's Horn",
+    "reasoning": "A Demon reducer plus card advantage."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colors depend on the opponents' lands.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Retained: Orchard usually taps for Grixis colors and also casts noncreature spells; Courtyard staged as a six-swap alternative."
+   },
+   {
+    "card": "Lord of Change",
+    "weakness": "Seven-mana blue top end in a crowded 6-7 MV slot.",
+    "alternative_named": "Lord Xander, the Collector",
+    "reasoning": "Retained: draw three plus ward {3}; Xander staged as a six-swap alternative."
+   },
+   {
+    "card": "Heartless Summoning",
+    "weakness": "-1/-1 shrinks every Lord of Torment and Warstorm hit by 1 and makes Be'lakor 5/4.",
+    "alternative_named": "Herald's Horn",
+    "reasoning": "Retained: -2 on every creature is the deck's strongest early ramp; the Horn-for-Heartless five-swap alternative is staged and rejected."
+   },
+   {
+    "card": "Kardur, Doomscourge",
+    "weakness": "4/3 body; the effect is defensive and political.",
+    "alternative_named": "Bloodgift Demon",
+    "reasoning": "Retained: the only defensive effect, at four mana."
+   },
+   {
+    "card": "Archfiend of Despair",
+    "weakness": "Eight mana, castable only through reduction or cheats.",
+    "alternative_named": "Razaketh, the Foulblooded",
+    "reasoning": "Retained: the end-step doubling is the finisher with Lord of Torment bursts."
+   },
+   {
+    "card": "Abyssal Harvester",
+    "weakness": "Three-mana 3/2 that needs a death the same turn.",
+    "alternative_named": "Harvester of Souls",
+    "reasoning": "Retained: a cheap Demon that copies dead Demons for more entry hits."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Tapped tri-land, slow in a deck that wants turn-4 Be'lakor.",
+    "alternative_named": "Three Tree City",
+    "reasoning": "Retained: Three Tree City is colorless unless you pay {2}, and the colored pips are heavy."
+   },
+   {
+    "card": "Warstorm Surge",
+    "weakness": "Six-mana enchantment that duplicates the commander's effect.",
+    "alternative_named": "Displacer Kitten",
+    "reasoning": "Retained per Pass C: the commander-independent fallback."
+   }
+  ],
+  "current_baseline_strength": "The approved list is a strong Bracket 4 Demon ETB deck. Prior reviews (three tracks plus Pass C) kept it unchanged. Its weaknesses: a 0-power Demon, a symmetrical wipe in a board deck, and two red 6-drops whose value is conditional.",
+  "candidate_pool_scope": "EDHREC Be'lakor page JSON (15693 decks; Top/High Lift/Creatures/Artifacts/Lands sections), the Scryfall Demon search (t:demon within UBR identity, Commander-legal; 198 cards), the prior Pass C Stage A challenger (Displacer Kitten), and an OFF-RANKING search for cheap high-power Demons and Demon-tribal support missing from the EDHREC page. All 199 baseline + pool names were Oracle- and legality-checked live via Scryfall /cards/collection; 105 pool cards were read in full.",
+  "off_ranked_search_conclusion": "OFF-RANKING search found Desecration Demon, Abyssal Persecutor, Archfiend of the Dross, Master of the Feast and Ob Nixilis, Captive Kingpin, none of which are on the EDHREC page. Desecration Demon is selected. Persecutor (can't win) and Dross (lose clock) are rejected on clause risk. Master of the Feast (gives opponents cards) and Ob Nixilis are rejected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Be'lakor approved source refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt (read-only clone)",
+  "EDHREC commander page JSON retrieved 2026-10-23: data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (199 names): data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for 4-MV 6-power Demons and Demon support not on the EDHREC page (Desecration Demon, Abyssal Persecutor, Archfiend of the Dross, Master of the Feast, Ob Nixilis, Captive Kingpin)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for ETB triggers, legend rule, copies, morbid: data/grixis/m6/rules_snapshots/Be_lakor__the_Dark_Master_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Desecration Demon",
+   "source": "OFF-RANKING search (absent from the Be'lakor EDHREC page); live Scryfall Oracle",
+   "role": "Four-mana 6/6 flying Demon: the cheapest full-size Lord of Torment payload",
+   "named_cuts": [
+    "Dream Devourer"
+   ],
+   "incumbent_opportunity_cost": "Loses Dream Devourer's 0/3 body and its foretell discount (pay {2} on an earlier turn, then cast at MV-2). Cheap Demon count for Liliana's Contract and Prince X stays the same: one 2-3 MV Demon for one 4 MV Demon.",
+   "commander_synergy": "Be'lakor's Lord of Torment makes the ENTERING Demon deal damage equal to its power. Devourer enters as a 0-power Demon and deals 0. Desecration Demon deals 6 (12 to an opponent on our turn with Bloodletter) and costs {B}{B} after Herald of Slaanesh, or 2 with Urza's Incubator. Opponents who feed it a creature to tap it turn on Reaper from the Abyss's morbid and Harvester-style value.",
+   "adversarial_downside": "Opponents can tap it every combat by sacrificing a creature, so it is a poor attacker. Its value is the entry hit and the body, not combat.",
+   "judgment": "SELECT_ADD",
+   "reason": "Best power-per-mana Demon in the pool. It turns a 0-damage trigger into a 6-damage one at the same curve slot. Archfiend of the Dross and Abyssal Persecutor are the same size but carry lose-the-game and can't-win clauses.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Kindred Dominance",
+   "source": "EDHREC Be'lakor page (Sorceries, 5332/15693); live Scryfall Oracle",
+   "role": "One-sided board wipe that names Demon",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Loses Blasphemous Act's discount: Act often costs 1-4 mana on a full board, while Dominance is a flat 7. Ancient Cellarspawn (a Horror) still dies to our own Dominance.",
+   "commander_synergy": "Every creature we rely on is a Demon, and so are Roaming Throne naming Demon, Spark Double copying a Demon, and Plaguebearer tokens. Dominance keeps Be'lakor and the board; Act kills our own 6/5 and every Demon. The deck already has Toxic Deluge, Feed the Swarm and Rakdos, the Showstopper for cheap interaction.",
+   "adversarial_downside": "Seven mana at sorcery speed. Does nothing against Demon-tribal opponents, or against a noncreature threat.",
+   "judgment": "SELECT_ADD",
+   "reason": "A deck that wins by keeping Demons on the battlefield should not run a symmetrical 13-damage wipe. Dominance is the one-sided version.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Demonlord Belzenlok",
+   "source": "EDHREC Be'lakor High Lift; live Scryfall Oracle",
+   "role": "Six-mana 6/6 flying-trample Demon with immediate card advantage on entry",
+   "named_cuts": [
+    "Rakdos, Patron of Chaos"
+   ],
+   "incumbent_opportunity_cost": "Loses Rakdos, Patron of Chaos's repeat end-step punisher: an opponent sacrifices two nonland nontoken permanents or we draw two. Red pips fall by one.",
+   "commander_synergy": "Same mana value, power and evasion, so the Lord of Torment hit is identical (6). Belzenlok's value is an ETB trigger, so Panharmonicon, Roaming Throne (naming Demon), Molten Echoes, Spark Double, Whip/Reanimate/Gyruda and Ghostly Flicker all repeat it. The deck's average nonland MV is 4.1, so the repeat clause fires often (about 2 cards, 2 damage to us).",
+   "adversarial_downside": "Self-damage stacks with the Prince X life loss and Vilis. It is legendary, so a Molten Echoes copy dies to the legend rule after the trigger.",
+   "judgment": "SELECT_ADD",
+   "reason": "Guaranteed, copyable, immediate cards beat a punisher where the opponent chooses, which needs an end step to survive and gives the choice away.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Reaper from the Abyss",
+   "source": "EDHREC Be'lakor High Lift (4448/15693); live Scryfall Oracle",
+   "role": "Six-mana 6/6 flying Demon with repeatable non-Demon removal at every end step",
+   "named_cuts": [
+    "Bloodthirster"
+   ],
+   "incumbent_opportunity_cost": "Loses Bloodthirster's extra-combat aggression (only if it connects, and it can't attack the same player twice). Red Demon count drops by one; Herald of Slaanesh still grants haste.",
+   "commander_synergy": "Same 6 power for the Lord of Torment hit. Morbid checks every end step (ours and opponents'). Be'lakor pings that kill creatures, Desecration Demon sacrifices, Kardur's goaded attackers, Toxic Deluge and chump blocks all enable it. The removal target is non-Demon, so it never hits our own board.",
+   "adversarial_downside": "BBB, and nothing happens unless a creature died that turn. Weak against Demon-tribal opponents.",
+   "judgment": "SELECT_ADD",
+   "reason": "This deck is short on repeatable removal. Reaper turns Be'lakor's damage into a board-control engine, while Bloodthirster adds a second combat the deck rarely needs.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Herald's Horn",
+   "source": "EDHREC Be'lakor Utility Artifacts (8600/15693); live Scryfall Oracle",
+   "role": "Demon cost reducer plus upkeep card advantage",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses one two-mana mana rock (36 lands + 7 rocks -> 36 lands + 6 rocks + Horn). Noncreature spells lose one source.",
+   "commander_synergy": "Naming Demon, Horn cuts every Demon cost by 1, which stacks with Herald of Slaanesh (-2), Urza's Incubator (-2), Heartless Summoning (-2) and Ancient Cellarspawn (-1). Cellarspawn drains for the reduced amount. Each upkeep it reveals a Demon about 25% of the time (25 Demon cards).",
+   "adversarial_downside": "It costs 3 and does nothing for noncreature spells. It is not a mana source if the hand has no Demons.",
+   "judgment": "SELECT_ADD",
+   "reason": "Fellwar Stone has negative EDHREC synergy (-0.05). In a 25-Demon deck the Horn ramps nearly every threat by one and also draws cards.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Secluded Courtyard",
+   "source": "EDHREC Be'lakor Lands (3386/15693); live Scryfall Oracle",
+   "role": "Demon-restricted any-color land",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would lose Exotic Orchard's mana for noncreature spells (Mana Drain UU, Rite UU, Sneak Attack R, Kindred Dominance BB).",
+   "commander_synergy": "Gives any color for Demon spells and Demon abilities (Vilis {B}, Demon of Dark Schemes).",
+   "adversarial_downside": "Colorless for all 30+ noncreature spells. Orchard usually taps for U/B/R in multiplayer.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Lateral; staged as a six-swap alternative and not selected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Lord Xander, the Collector",
+   "source": "EDHREC Be'lakor Creatures (5930/15693); live Scryfall Oracle",
+   "role": "Seven-mana UBR 6/6 Demon with discard, mill and death-sacrifice value",
+   "named_cuts": [
+    "Lord of Change"
+   ],
+   "incumbent_opportunity_cost": "Would lose Lord of Change's flying, ward {3} and draw three on entry.",
+   "commander_synergy": "Same 6 power for the Lord of Torment hit. Its ETB is copyable.",
+   "adversarial_downside": "No evasion. It hits a single opponent, not our card count, and we are the deck that needs cards.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a six-swap alternative. Lord of Change's draw three plus ward is the safer value.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Harvester of Souls",
+   "source": "EDHREC Be'lakor Creatures (7315/15693); live Scryfall Oracle",
+   "role": "Six-mana 5/5 deathtouch Demon that draws when nontoken creatures die",
+   "named_cuts": [
+    "Kardur, Doomscourge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Kardur's four-mana goad turn and drain.",
+   "commander_synergy": "5-damage entry hit. Draws off our own Lord-of-Torment kills.",
+   "adversarial_downside": "Raises the curve (4 -> 6). No evasion.",
+   "judgment": "REJECT",
+   "reason": "The 6-drop slots are already full, and the curve matters more than another draw engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Bloodgift Demon",
+   "source": "EDHREC Be'lakor Creatures (5534/15693); live Scryfall Oracle",
+   "role": "Five-mana 5/4 flier that draws a card every upkeep",
+   "named_cuts": [
+    "Kardur, Doomscourge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Kardur's protection turn and attack-death drain.",
+   "commander_synergy": "5-damage entry hit plus a card every upkeep.",
+   "adversarial_downside": "One more mana than Kardur and no defensive effect. The deck's life total is already taxed by Prince and Vilis.",
+   "judgment": "REJECT",
+   "reason": "Close, but Kardur is the deck's only defensive or political effect and costs one less.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Abyssal Persecutor",
+   "source": "OFF-RANKING search (not on EDHREC page); live Scryfall Oracle",
+   "role": "Four-mana 6/6 flying-trample Demon",
+   "named_cuts": [
+    "Dream Devourer"
+   ],
+   "incumbent_opportunity_cost": "Would lose Dream Devourer (or Desecration Demon if both compete for the slot).",
+   "commander_synergy": "6-damage Lord of Torment entry hit at 4 mana.",
+   "adversarial_downside": "'You can't win the game and your opponents can't lose the game' directly blocks Liliana's Contract and lethal Lord of Torment turns until we remove our own Persecutor.",
+   "judgment": "REJECT",
+   "reason": "Anti-synergy with the deck's alternate win and burst kills. Desecration Demon is the same size without the clause.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Archfiend of the Dross",
+   "source": "OFF-RANKING search (not on EDHREC page); live Scryfall Oracle",
+   "role": "Four-mana 6/6 flier that drains 2 when opponents' creatures die",
+   "named_cuts": [
+    "Dream Devourer"
+   ],
+   "incumbent_opportunity_cost": "Would lose Dream Devourer (or Desecration Demon if both compete for the slot).",
+   "commander_synergy": "6-damage entry hit. The Lord-of-Torment creature kills drain 2 each.",
+   "adversarial_downside": "We lose the game at the upkeep after its fourth oil counter is removed, unless we remove it, proliferate or flicker it.",
+   "judgment": "REJECT",
+   "reason": "A self-loss clock in a deck with no sacrifice outlet. Desecration Demon is the safer 6/6 for four.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Razaketh, the Foulblooded",
+   "source": "EDHREC Be'lakor Creatures (2799/15693); live Scryfall Oracle",
+   "role": "Eight-mana 8/8 flying-trample tutor engine",
+   "named_cuts": [
+    "Archfiend of Despair"
+   ],
+   "incumbent_opportunity_cost": "Would lose Archfiend of Despair's end-step doubling of all life lost.",
+   "commander_synergy": "8-damage entry hit. It tutors by sacrificing Plaguebearer tokens or copies.",
+   "adversarial_downside": "Eight mana and no sacrifice fodder beyond tokens. No finishing effect.",
+   "judgment": "REJECT",
+   "reason": "Archfiend of Despair doubles every Lord of Torment burst and is the deck's finisher.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Displacer Kitten",
+   "source": "Prior Pass C Stage A challenger (owner_pass_c_substitute/Be_lakor__the_Dark_Master/final_disposition.md)",
+   "role": "Four-mana blink engine on noncreature spells",
+   "named_cuts": [
+    "Warstorm Surge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Warstorm Surge, the commander-independent copy of the Lord of Torment effect.",
+   "commander_synergy": "Blinks a Demon so it enters again for a hit.",
+   "adversarial_downside": "Non-Demon. It needs noncreature spells and an existing Be'lakor plus another Demon. Blinking Be'lakor alone adds life loss, not a hit.",
+   "judgment": "REJECT",
+   "reason": "The Pass C reasoning stands: Surge keeps the plan alive while Be'lakor is taxed out of reach.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Quicksilver Amulet",
+   "source": "EDHREC Be'lakor Utility Artifacts (1615/15693); live Scryfall Oracle",
+   "role": "Instant-speed creature cheat from hand",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone, one generic two-mana rock.",
+   "commander_synergy": "Puts Demons in at instant speed for {4}, past counterspells.",
+   "adversarial_downside": "Four mana upfront plus four per use. Can't put Be'lakor in from the command zone.",
+   "judgment": "REJECT",
+   "reason": "Sneak Attack, Heartless Summoning, Herald of Slaanesh and Herald's Horn already cover cheating and reduction more cheaply.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Varragoth, Bloodsky Sire",
+   "source": "EDHREC Be'lakor Top Cards (9412/15693); live Scryfall Oracle",
+   "role": "Three-mana Demon with a boast tutor",
+   "named_cuts": [
+    "Dream Devourer"
+   ],
+   "incumbent_opportunity_cost": "Would lose Dream Devourer (or Desecration Demon if both compete for the slot).",
+   "commander_synergy": "2-damage entry hit. Tutors a Demon to the top of the library.",
+   "adversarial_downside": "Must attack to boast, and it is a 2/3 deathtouch that dies in combat.",
+   "judgment": "REJECT",
+   "reason": "Considered for the Devourer slot. Desecration Demon's 6-power hit is the bigger upgrade over a 0-power body.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Rhystic Study",
+   "source": "Live Scryfall Oracle (Game Changer)",
+   "role": "Card-draw tax enchantment (Game Changer)",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone, one generic two-mana rock.",
+   "commander_synergy": "No interaction with Demons or Be'lakor's triggers.",
+   "adversarial_downside": "It is a Game Changer, which would make six in the deck.",
+   "judgment": "REJECT",
+   "reason": "No commander synergy, and it adds a Game Changer.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Jet Medallion",
+   "source": "EDHREC Be'lakor Utility Artifacts (2299/15693); live Scryfall Oracle",
+   "role": "Two-mana black-spell cost reducer with no drawback",
+   "named_cuts": [
+    "Heartless Summoning"
+   ],
+   "incumbent_opportunity_cost": "Would lose Heartless Summoning's -2 on every creature spell, the deck's strongest early ramp.",
+   "commander_synergy": "Removes the -1/-1 on our creatures, so every Lord of Torment hit deals 1 more. It also reduces black noncreature spells.",
+   "adversarial_downside": "Only -1, and only on black spells: red and blue cards (Herald of Slaanesh, Lord of Change, Spark Double) get nothing.",
+   "judgment": "REJECT",
+   "reason": "The -1/-1 drawback costs less than the lost tempo of reducing by only 1.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Ob Nixilis, Captive Kingpin",
+   "source": "OFF-RANKING search (not on EDHREC page); live Scryfall Oracle",
+   "role": "Four-mana Demon that grows and draws off exactly-1 life loss",
+   "named_cuts": [
+    "Kardur, Doomscourge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Kardur, Doomscourge's goad turn and drain.",
+   "commander_synergy": "Plaguebearer tokens (1 power) deal exactly 1 on entry. Kardur's drain is exactly 1.",
+   "adversarial_downside": "Bloodletter doubling and Great Unclean One's 2 life loss break the 'exactly 1' condition.",
+   "judgment": "REJECT",
+   "reason": "Narrow trigger condition here.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+    "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Desecration Demon",
+   "Kindred Dominance",
+   "Demonlord Belzenlok",
+   "Reaper from the Abyss",
+   "Herald's Horn"
+  ],
+  "cuts": [
+   "Dream Devourer",
+   "Blasphemous Act",
+   "Rakdos, Patron of Chaos",
+   "Bloodthirster",
+   "Fellwar Stone"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that raise Demon power per mana and protect the Demon board. (1) A 0-power Demon becomes a 6/6 for four. (2) A symmetrical wipe becomes a one-sided Demon wipe. (3) An opponent-choice punisher becomes immediate, copyable card advantage. (4) An extra-combat Demon becomes a repeatable non-Demon removal Demon. (5) A low-synergy rock becomes a Demon reducer that draws cards. Costs: Dominance is a flat 7 against Act's variable cost; red pips fall 20->17 while black rises 58->65; one fewer generic rock; no Bloodthirster extra combats; no foretell discount. Gains: total printed Demon power 129->135 with the same Demon count (25); a one-sided wipe; repeatable removal; more card flow."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Dream Devourer",
+    "weakness": "0-power Demon: its Lord of Torment trigger deals 0.",
+    "alternative_named": "Desecration Demon",
+    "reasoning": "Same curve role, and the hit goes from 0 to 6."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Symmetrical 13-damage wipe kills our own Demon board and Be'lakor.",
+    "alternative_named": "Kindred Dominance",
+    "reasoning": "One-sided Demon wipe; Toxic Deluge stays as the cheap reset."
+   },
+   {
+    "card": "Rakdos, Patron of Chaos",
+    "weakness": "The opponent chooses the punisher outcome, and it only triggers at our end step.",
+    "alternative_named": "Demonlord Belzenlok",
+    "reasoning": "Same MV and power; the ETB value is immediate and copyable."
+   },
+   {
+    "card": "Bloodthirster",
+    "weakness": "An extra combat the deck rarely needs, and it only triggers if it connects.",
+    "alternative_named": "Reaper from the Abyss",
+    "reasoning": "Repeatable removal instead of aggression."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Seventh rock with negative synergy.",
+    "alternative_named": "Herald's Horn",
+    "reasoning": "A Demon reducer plus card advantage."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colors depend on the opponents' lands.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Retained: Orchard usually taps for Grixis colors and also casts noncreature spells; Courtyard staged as a six-swap alternative."
+   },
+   {
+    "card": "Lord of Change",
+    "weakness": "Seven-mana blue top end in a crowded 6-7 MV slot.",
+    "alternative_named": "Lord Xander, the Collector",
+    "reasoning": "Retained: draw three plus ward {3}; Xander staged as a six-swap alternative."
+   },
+   {
+    "card": "Heartless Summoning",
+    "weakness": "-1/-1 shrinks every Lord of Torment and Warstorm hit by 1 and makes Be'lakor 5/4.",
+    "alternative_named": "Herald's Horn",
+    "reasoning": "Retained: -2 on every creature is the deck's strongest early ramp; the Horn-for-Heartless five-swap alternative is staged and rejected."
+   },
+   {
+    "card": "Kardur, Doomscourge",
+    "weakness": "4/3 body; the effect is defensive and political.",
+    "alternative_named": "Bloodgift Demon",
+    "reasoning": "Retained: the only defensive effect, at four mana."
+   },
+   {
+    "card": "Archfiend of Despair",
+    "weakness": "Eight mana, castable only through reduction or cheats.",
+    "alternative_named": "Razaketh, the Foulblooded",
+    "reasoning": "Retained: the end-step doubling is the finisher with Lord of Torment bursts."
+   },
+   {
+    "card": "Abyssal Harvester",
+    "weakness": "Three-mana 3/2 that needs a death the same turn.",
+    "alternative_named": "Harvester of Souls",
+    "reasoning": "Retained: a cheap Demon that copies dead Demons for more entry hits."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Tapped tri-land, slow in a deck that wants turn-4 Be'lakor.",
+    "alternative_named": "Three Tree City",
+    "reasoning": "Retained: Three Tree City is colorless unless you pay {2}, and the colored pips are heavy."
+   },
+   {
+    "card": "Warstorm Surge",
+    "weakness": "Six-mana enchantment that duplicates the commander's effect.",
+    "alternative_named": "Displacer Kitten",
+    "reasoning": "Retained per Pass C: the commander-independent fallback."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Desecration Demon (selected), Abyssal Persecutor, Archfiend of the Dross, Master of the Feast, Ob Nixilis, Captive Kingpin (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Fellwar Stone"
+    ],
+    "result_and_rationale": "Selected five-swap package: Demon power per mana, a one-sided wipe, copyable ETB value, repeatable removal and Demon reduction."
+   },
+   {
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Heartless Summoning"
+    ],
+    "result_and_rationale": "Five-swap alternative that keeps Fellwar Stone and cuts Heartless Summoning, removing the -1/-1. Rejected: -2 on every creature is the deck's strongest early ramp and outweighs 1 damage per hit. Staged: data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_five_alt_HeraldsHorn_over_HeartlessSummoning_20261023.txt"
+   },
+   {
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn",
+     "Secluded Courtyard",
+     "Lord Xander, the Collector"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Fellwar Stone",
+     "Exotic Orchard",
+     "Lord of Change"
+    ],
+    "result_and_rationale": "Seven-swap package. Rejected for losing Orchard's noncreature-spell colors and Lord of Change's draw three plus ward. Staged: data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_seven_Courtyard_LordXander_20261023.txt"
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Herald's Horn was also tested over Heartless Summoning (staged five-swap alternative). Pass C's Displacer Kitten over Warstorm Surge was re-judged and rejected.",
+  "strongest_argument_against_baseline": "Lord of Torment deals damage equal to the entering Demon's power, yet the list plays a 0-power Demon and a symmetrical wipe that kills its own Demons. Its two conditional 6-drops (Patron's punisher, Bloodthirster's extra combat) give value only after a turn cycle or a connected attack.",
+  "evidence_based_answer": "Swap the 0-power Demon, the symmetrical wipe, both conditional 6-drops and the weakest rock for a 6/6 for four, a one-sided wipe, immediate copyable cards, repeatable removal and a Demon reducer."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Be_lakor__the_Dark_Master.txt",
+  "sha256": "62a96b4f39584fa38947843bea352de923b29d7b266b57fce5918802a79b57bf",
+  "card_count": 100,
+  "deckwide_reconciliation": "Exact copy of the canonical source order with five in-place substitutions. 36 lands, 6 rocks plus Herald's Horn; 100 physical cards verified by quantity (94 rows; Island x3, Mountain x2, Swamp x4)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Be_lakor__the_Dark_Master_M7_20261023.md",
+   "tests/test_m6_belakor_the_dark_master_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Demon Tribal",
+   "ETB Damage",
+   "Reanimator"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five swaps, every remaining incumbent was re-read against the commander. Mana: 36 lands + 6 rocks + Horn is the floor; there was no further land or rock cut. Reduction and cheats (Herald, Incubator, Heartless, Cellarspawn, Sneak Attack, Reanimate, Whip, Gyruda, Bidding) are core. Copy/blink pieces (Echoes, Spark Double, Rite, Reflections, Flicker, Throne, Panharmonicon) are the payoff multipliers. Top end: Lord of Change, Archfiend of Despair, Valgavoth, Vilis and Rune-Scarred Demon are cheat targets with draw or finishing value. Kardur is the only defensive effect.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Exotic Orchard",
+    "challenger": "Secluded Courtyard",
+    "tradeoff": "Courtyard fixes Demon spells for any color but is colorless for 30+ noncreature spells. Orchard usually taps for U/B/R. Staged as a six-swap alternative.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Lord of Change",
+    "challenger": "Lord Xander, the Collector",
+    "tradeoff": "Same MV and power. Xander's discard/mill/sacrifice hits one opponent; Lord of Change draws three with flying and ward 3. Staged as a six-swap alternative.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Heartless Summoning",
+    "challenger": "Jet Medallion",
+    "tradeoff": "Medallion removes the -1/-1 drawback (1 more damage per hit) but gives only -1 on black spells instead of -2 on every creature. A Horn-over-Heartless five-swap is also staged and rejected.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Kardur, Doomscourge",
+    "challenger": "Bloodgift Demon",
+    "tradeoff": "+1 power and upkeep draw for +1 MV; loses the only defensive or political effect.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Archfiend of Despair",
+    "challenger": "Razaketh, the Foulblooded",
+    "tradeoff": "Tutor engine vs the end-step doubling finisher; same top-end slot.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Warstorm Surge",
+    "challenger": "Displacer Kitten",
+    "tradeoff": "Pass C challenger: repeat blinks vs a commander-independent fallback. Kept Surge.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_SecludedCourtyard_over_ExoticOrchard_20261023.txt",
+    "sha256": "5f4a8ca283b67081a99e919f7e48512baaee408817bb8010955d17ad097f7fab",
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn",
+     "Secluded Courtyard"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Fellwar Stone",
+     "Exotic Orchard"
+    ],
+    "case_for_extra_swaps": "Courtyard always gives any color for the 25 Demon spells and Demon abilities, regardless of opponents' lands.",
+    "why_not_selected": "It is colorless for every noncreature spell (Mana Drain, Rite, Sneak Attack, Dominance). Orchard taps for Grixis colors in most pods."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_LordXander_over_LordOfChange_20261023.txt",
+    "sha256": "2df949c53f333d24de43df4c5bb5d05bdfb9a4ecd64899ac95dc588522568fe0",
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn",
+     "Lord Xander, the Collector"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Fellwar Stone",
+     "Lord of Change"
+    ],
+    "case_for_extra_swaps": "Xander's three modes punish one opponent hard and are copyable by Echoes and Spark Double.",
+    "why_not_selected": "Lord of Change's draw three refuels after Prince life payments, and ward 3 protects it. Xander has no evasion."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_seven_Courtyard_LordXander_20261023.txt",
+    "sha256": "1eabfcf9c23161209ed3856f5665acc65e3e4d656a041b3cd859929be748b2a2",
+    "adds": [
+     "Desecration Demon",
+     "Kindred Dominance",
+     "Demonlord Belzenlok",
+     "Reaper from the Abyss",
+     "Herald's Horn",
+     "Secluded Courtyard",
+     "Lord Xander, the Collector"
+    ],
+    "cuts": [
+     "Dream Devourer",
+     "Blasphemous Act",
+     "Rakdos, Patron of Chaos",
+     "Bloodthirster",
+     "Fellwar Stone",
+     "Exotic Orchard",
+     "Lord of Change"
+    ],
+    "case_for_extra_swaps": "Seven-swap: maximum Demon-specific fixing (Courtyard) plus Xander's copyable hand, library and permanent disruption.",
+    "why_not_selected": "It combines both rejected trades (Orchard's noncreature colors and Lord of Change's draw-three plus ward), and neither beat its incumbent alone, so stacking them would be padding."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. The remaining weak-looking slots (Orchard, Lord of Change, Heartless Summoning, Kardur, Archfiend of Despair, Abyssal Harvester, Crumbling Necropolis, Warstorm Surge) each have a concrete role a challenger loses: noncreature-spell colors, draw plus ward, -2 ramp, the only defensive effect, the finisher, a cheap Demon copier, tri-color fixing, or the commander-independent fallback. No sixth trade was a clear upgrade on quality."
+ }
+}
