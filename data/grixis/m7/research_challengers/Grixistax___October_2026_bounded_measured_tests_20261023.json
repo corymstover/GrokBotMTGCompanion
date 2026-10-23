@@ -1,0 +1,909 @@
+{
+ "deck_id": "Grixistax___October_2026",
+ "purpose": "Bounded finite measured tests requested by M6 Pass C (Talisman of Indulgence vs Mox Amber, Arcane Signet alternative, Overburden as competing cut) plus token-engine and Opposition/Static Orb deployability. Seeded goldfish deployment model, not a game simulation or win rate.",
+ "scripts": {
+  "mana": "\"\"\"Bounded finite Pass C tests for Grixistax___October_2026 (Deck 27). Seeded finite Monte Carlo goldfish of\nmana deployment (fixed seed 27, fixed N); exact hypergeometric where closed form exists. Not an effect-aware game\nsimulation; no opponent model; no win rates.\"\"\"\nimport json,re,random,sys\nfrom math import comb\nW='/workspace/d27w/'\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==98\ndef swap(d,add,cut):\n    d=d[:]; d.remove(cut); d.append(add); return d\nCFG={\"baseline\":base,\n     \"plus_Arcane_Signet_minus_Mox_Amber\":swap(base,\"Arcane Signet\",\"Mox Amber\"),\n     \"plus_Talisman_of_Indulgence_minus_Mox_Amber\":swap(base,\"Talisman of Indulgence\",\"Mox Amber\"),\n     \"plus_Arcane_Signet_minus_Overburden_keep_Amber\":swap(base,\"Arcane Signet\",\"Overburden\")}\nBASICS={\"Island\":\"U\",\"Swamp\":\"B\",\"Mountain\":\"R\"}\nFETCH={\"Arid Mesa\",\"Bloodstained Mire\",\"Flooded Strand\",\"Marsh Flats\",\"Misty Rainforest\",\"Polluted Delta\",\"Scalding Tarn\",\"Verdant Catacombs\",\"Wooded Foothills\"}\nDUAL={\"Badlands\":\"BR\",\"Blood Crypt\":\"BR\",\"Steam Vents\":\"UR\",\"Volcanic Island\":\"UR\",\"Underground Sea\":\"UB\",\"Watery Grave\":\"UB\",\"Morphic Pool\":\"UB\",\n      \"City of Brass\":\"UBR\",\"Mana Confluence\":\"UBR\",\"Command Tower\":\"UBR\",\"Otawara, Soaring City\":\"U\",\"Ancient Tomb\":\"CC\",\"Phyrexian Tower\":\"C\",\"Gemstone Caverns\":\"C\"}\nLANDS=set(BASICS)|FETCH|set(DUAL)\nassert sum(c in LANDS for c in base)==26, sum(c in LANDS for c in base)\n# rocks: name -> (cost, colors produced, persistent?)\nROCK={\"Sol Ring\":(1,\"CC\"),\"Talisman of Creativity\":(2,\"UR\"),\"Talisman of Dominance\":(2,\"UB\"),\"Talisman of Indulgence\":(2,\"BR\"),\"Arcane Signet\":(2,\"UBR\")}\nZERO={\"Chrome Mox\",\"Mox Diamond\",\"Mox Opal\",\"Mox Amber\"}\nLEG={\"Ragavan, Nimble Pilferer\":(1,\"R\"),\"Ashiok, Dream Render\":(3,\"UB\"),\"Narset, Parter of Veils\":(3,\"U\"),\"Sheoldred, the Apocalypse\":(4,\"B\")}\ndef land_colors(c,state,entered_turn,t):\n    if state==\"Contamination\": return \"B\"\n    if state==\"Blood Moon\":\n        return BASICS.get(c,\"R\")\n    if state==\"Back to Basics\" and c not in BASICS and c not in FETCH and entered_turn<t: return None\n    if c in BASICS: return BASICS[c]\n    if c in FETCH: return \"UBR\"   # every fetch here finds a typed dual or basic of each relevant colour\n    return DUAL[c]\ndef game(deck,rnd,state,turns=4):\n    d=deck[:]; rnd.shuffle(d)\n    hand=d[:7]; lib=d[7:]; bf_lands=[]; rocks=[]; legend_colors=set(); amber=False; zero=[]\n    out=[]\n    for t in range(1,turns+1):\n        if t>1: hand.append(lib.pop(0))\n        # land drop (fetch resolved to dual; prefer basics under B2B/Moon)\n        lh=[c for c in hand if c in LANDS]\n        if lh:\n            pref=sorted(lh,key=lambda c:(0 if (state in(\"Blood Moon\",\"Back to Basics\") and (c in BASICS or c in FETCH)) else 1, c==\"Gemstone Caverns\"))\n            L=pref[0]; hand.remove(L)\n            if L in FETCH and state in (\"Blood Moon\",\"Back to Basics\"):\n                bf_lands.append((\"basicfetch\",t))\n            else: bf_lands.append((L,t))\n        # zero-cost artifacts\n        for z in list(hand):\n            if z==\"Mox Diamond\" and sum(c in LANDS for c in hand)>=1:\n                hand.remove(z); hand.remove([c for c in hand if c in LANDS][0]); zero.append(z)\n            elif z==\"Chrome Mox\" and any(c not in LANDS and c not in ROCK and c not in ZERO and c not in(\"Lotus Petal\",\"Lion's Eye Diamond\",\"Grim Monolith\",\"Mana Vault\",\"Sol Ring\") for c in hand if c!=z):\n                hand.remove(z); x=[c for c in hand if c not in LANDS and c not in ROCK and c not in ZERO][0]; hand.remove(x); zero.append(z)\n            elif z in (\"Mox Opal\",\"Mox Amber\"):\n                hand.remove(z); zero.append(z)\n        def pool():\n            srcs=[]\n            for L,et in bf_lands:\n                if L==\"basicfetch\": srcs.append(\"UBR\" if state==\"Back to Basics\" else \"UBR\" if state!=\"Contamination\" else \"B\")\n                else:\n                    col=land_colors(L,state,et,t)\n                    if col is None: continue\n                    if col==\"CC\": srcs+= [\"C\",\"C\"] if state!=\"Contamination\" else [\"B\",\"B\"]\n                    else: srcs.append(col)\n            if state==\"Artifact hate\": return srcs\n            nart=len(rocks)+len(zero)\n            for r in rocks: srcs+= [\"C\",\"C\"] if ROCK[r][1]==\"CC\" else [ROCK[r][1]]\n            for z in zero:\n                if z in(\"Chrome Mox\",\"Mox Diamond\"): srcs.append(\"UBR\")\n                elif z==\"Mox Opal\" and nart>=3: srcs.append(\"UBR\")\n                elif z==\"Mox Amber\" and legend_colors: srcs.append(\"\".join(sorted(legend_colors)))\n            return srcs\n        # cast rocks while affordable (greedy, highest output first)\n        spent=0\n        for r in sorted([c for c in hand if c in ROCK],key=lambda c:ROCK[c][0]):\n            if len(pool())-spent>=ROCK[r][0]:\n                hand.remove(r); rocks.append(r); spent+=ROCK[r][0]\n                if state!=\"Artifact hate\": spent-=0  # new rock usable immediately (untapped)\n        avail=len(pool())-spent\n        # cast a colored legend enabler if affordable (cheapest first), commanders from command zone at 5\n        cmd=False\n        for c in sorted([c for c in hand if c in LEG],key=lambda c:LEG[c][0]):\n            if avail>=LEG[c][0]:\n                hand.remove(c); legend_colors|=set(LEG[c][1]); avail-=LEG[c][0]; break\n        P=pool()\n        cmd_ok=len(P)-spent>=5 and any(\"B\" in s for s in P)\n        if cmd_ok and not cmd: legend_colors|=set(\"B\")\n        amber_live=(\"Mox Amber\" in zero) and bool(legend_colors) and state!=\"Artifact hate\"\n        P2=pool(); n=len(P2)\n        out.append(dict(mana=n,U=sum('U' in s for s in P2),R=any('R' in s for s in P2),B=any('B' in s for s in P2),cmd=cmd_ok,amber_in=(\"Mox Amber\" in zero),amber_live=amber_live))\n    return out\nSTATES=[\"no lock\",\"Contamination\",\"Blood Moon\",\"Back to Basics\",\"Artifact hate\"]\ndef run(deck,state,seed=27,R=40000):\n    rnd=random.Random(seed); acc={t:dict(mana=0,UU=0,U=0,R=0,cmd5=0,amber_in=0,amber_live=0) for t in range(1,5)}\n    for _ in range(R):\n        g=game(deck,rnd,state)\n        for t,o in enumerate(g,1):\n            a=acc[t]; a['mana']+=o['mana']; a['UU']+=o['U']>=2; a['U']+=o['U']>=1; a['R']+=o['R']; a['cmd5']+=o['cmd']; a['amber_in']+=o['amber_in']; a['amber_live']+=o['amber_live']\n    res={}\n    for t,a in acc.items():\n        r={\"mean_mana_sources_after_deploy\":round(a['mana']/R,3),\"P_U_available\":round(a['U']/R,4),\"P_UU_available\":round(a['UU']/R,4),\"P_R_available\":round(a['R']/R,4),\"P_five_mana_with_B_for_Tevesh\":round(a['cmd5']/R,4)}\n        if a['amber_in']: r[\"P_Mox_Amber_live_given_deployed\"]=round(a['amber_live']/a['amber_in'],4)\n        res[f\"turn {t}\"]=r\n    return res\nout={\"deck\":\"Grixistax___October_2026\",\"seed\":27,\"games_per_cell\":40000,\"on\":\"the play, no mulligans, 7 + (t-1) cards seen\",\n \"method\":\"Seeded finite Monte Carlo goldfish of mana deployment only. Each turn: one land drop (fetches resolved to a typed dual/basic; under Blood Moon and Back to Basics fetches find a basic of any colour), zero-cost Moxen deployed when their condition is met (Mox Diamond discards a spare land; Chrome Mox imprints a spare nonartifact nonland card; Mox Opal live at three artifacts; Mox Amber live only once a colored legendary creature or planeswalker is on the battlefield - Ragavan, Ashiok, Narset, Sheoldred, or a commander cast at five mana), Sol Ring/Talismans/Arcane Signet cast greedily when affordable, cheapest colored legend cast when affordable. Mana Vault, Grim Monolith, Lotus Petal, Lion's Eye Diamond, Dark Ritual, Culling the Weak, Jeska's Will, Gemstone Caverns luck counter and Ancient Tomb under Damping Sphere are ignored (conservative). Lock states are applied from turn 1 as a worst case for the own deck: Contamination = every land taps for B only; Blood Moon = nonbasics tap for R only; Back to Basics = nonbasic non-fetch lands only produce mana on the turn they enter; Artifact hate = opposing Null Rod / Collector Ouphe / Stony Silence class shuts every artifact mana source. Mox Amber with only Karn produces no mana (Karn is colorless); Karn is not counted as an enabler.\",\n \"results\":{}}\nfor k,d in CFG.items():\n    out[\"results\"][k]={s:run(d,s) for s in STATES}\njson.dump(out,open(W+'meas27_mana.json','w'),indent=1)\nfor k in CFG:\n    for s in STATES:\n        print(k[:45].ljust(45),s.ljust(15),{t:(v[\"mean_mana_sources_after_deploy\"],v[\"P_U_available\"],v[\"P_UU_available\"],v[\"P_five_mana_with_B_for_Tevesh\"],v.get(\"P_Mox_Amber_live_given_deployed\")) for t,v in out[\"results\"][k][s].items()})\n",
+  "tokens": "\"\"\"Token-engine / Opposition deployment proxy for Deck 27 (seeded finite goldfish, seed 27). Reuses the mana model of meas27.py.\"\"\"\nimport json,random,sys\nsys.argv=['x']; src=open('/workspace/d27w/gen/meas27.py').read().split('STATES=[')[0]\nexec(src)\ncand=load(W+'cand.txt'); OPP=load(W+'alt/Grixistax___October_2026_staged_plus_Opposition_minus_StaticOrb_20261023.txt'); assert len(cand)==98\ndef run2(deck,state,seed=27,R=40000):\n    rnd=random.Random(seed); acc={t:[0,0,0] for t in range(1,5)}\n    for _ in range(R):\n        d=deck[:]; rnd.shuffle(d)\n        # replay the deterministic deployment from meas27.game on the same shuffle\n        r2=random.Random(); r2.shuffle=lambda x,dd=d: x.__setitem__(slice(None),dd)\n        g=game(deck,r2,state)\n        for t,o in enumerate(g,1):\n            seen=d[:6+t]\n            bb=(\"Bitterblossom\" in seen[:6+t-0]) and any(o2['B'] and o2['mana']>=2 for o2 in g[:t])\n            tev=any(o2['cmd'] for o2 in g[:t])\n            opp=(\"Opposition\" in seen) and any(o2['U']>=2 and o2['mana']>=4 for o2 in g[:t])\n            acc[t][0]+=tev; acc[t][1]+=(tev or bb); acc[t][2]+=opp\n    return {f\"turn {t}\":{\"P_token_engine_online_Tevesh_only\":round(a[0]/R,4),\"P_token_engine_online_Tevesh_or_Bitterblossom\":round(a[1]/R,4),\"P_Opposition_seen_and_castable\":round(a[2]/R,4)} for t,a in acc.items()}\nfrom math import comb\ndef p_seen(n,K=1,N=98): return 1-comb(N-K,n)/comb(N,n)\nout={\"deck\":\"Grixistax___October_2026\",\"seed\":27,\"games_per_cell\":40000,\n \"method\":\"Same deployment model and lock-state definitions as meas27_mana.json. A token engine is online on turn t if Tevesh was castable (five mana including B) on some turn <= t, or Bitterblossom was among the cards seen and two mana including B was available on some turn <= t. Opposition is castable if seen and four mana including two U-capable sources was available on some turn <= t. Tutors (Demonic Tutor, Vampiric Tutor, Imperial Seal, Diabolic Intent, Gamble, Beseech the Mirror, Wishclaw Talisman) are ignored, so single-card probabilities are lower bounds.\",\n \"P_specific_card_seen_by_turn\":{f\"turn {t}\":round(p_seen(6+t),4) for t in range(1,5)},\n \"candidate\":{s:run2(cand,s) for s in [\"no lock\",\"Contamination\",\"Blood Moon\",\"Artifact hate\"]},\"staged_Opposition_alt\":{s:run2(OPP,s) for s in [\"no lock\",\"Contamination\",\"Blood Moon\",\"Artifact hate\"]}}\n# Static Orb comparison on the baseline\ndef so(deck,state,seed=27,R=40000):\n    rnd=random.Random(seed); acc={t:0 for t in range(1,5)}\n    for _ in range(R):\n        d=deck[:]; rnd.shuffle(d)\n        r2=random.Random(); r2.shuffle=lambda x,dd=d: x.__setitem__(slice(None),dd)\n        g=game(deck,r2,state)\n        for t in range(1,5): acc[t]+=(\"Static Orb\" in d[:6+t]) and any(o['mana']>=3 for o in g[:t])\n    return {f\"turn {t}\":round(a/R,4) for t,a in acc.items()}\nout[\"baseline_P_Static_Orb_seen_and_castable\"]={s:so(base,s) for s in [\"no lock\",\"Contamination\",\"Blood Moon\",\"Artifact hate\"]}\nout[\"baseline_P_token_engine_online_Tevesh_only\"]={s:{k:v[\"P_token_engine_online_Tevesh_only\"] for k,v in run2(base,s).items()} for s in [\"no lock\",\"Contamination\",\"Blood Moon\",\"Artifact hate\"]}\njson.dump(out,open(W+'meas27_tokens.json','w'),indent=1)\nprint(json.dumps(out,indent=0)[:3000])\n"
+ },
+ "mana": {
+  "deck": "Grixistax___October_2026",
+  "seed": 27,
+  "games_per_cell": 40000,
+  "on": "the play, no mulligans, 7 + (t-1) cards seen",
+  "method": "Seeded finite Monte Carlo goldfish of mana deployment only. Each turn: one land drop (fetches resolved to a typed dual/basic; under Blood Moon and Back to Basics fetches find a basic of any colour), zero-cost Moxen deployed when their condition is met (Mox Diamond discards a spare land; Chrome Mox imprints a spare nonartifact nonland card; Mox Opal live at three artifacts; Mox Amber live only once a colored legendary creature or planeswalker is on the battlefield - Ragavan, Ashiok, Narset, Sheoldred, or a commander cast at five mana), Sol Ring/Talismans/Arcane Signet cast greedily when affordable, cheapest colored legend cast when affordable. Mana Vault, Grim Monolith, Lotus Petal, Lion's Eye Diamond, Dark Ritual, Culling the Weak, Jeska's Will, Gemstone Caverns luck counter and Ancient Tomb under Damping Sphere are ignored (conservative). Lock states are applied from turn 1 as a worst case for the own deck: Contamination = every land taps for B only; Blood Moon = nonbasics tap for R only; Back to Basics = nonbasic non-fetch lands only produce mana on the turn they enter; Artifact hate = opposing Null Rod / Collector Ouphe / Stony Silence class shuts every artifact mana source. Mox Amber with only Karn produces no mana (Karn is colorless); Karn is not counted as an enabler.",
+  "results": {
+   "baseline": {
+    "no lock": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.184,
+      "P_U_available": 0.7077,
+      "P_UU_available": 0.0793,
+      "P_R_available": 0.647,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0509
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.037,
+      "P_U_available": 0.8464,
+      "P_UU_available": 0.4626,
+      "P_R_available": 0.8045,
+      "P_five_mana_with_B_for_Tevesh": 0.0119,
+      "P_Mox_Amber_live_given_deployed": 0.0859
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.649,
+      "P_U_available": 0.8902,
+      "P_UU_available": 0.6118,
+      "P_R_available": 0.8593,
+      "P_five_mana_with_B_for_Tevesh": 0.0557,
+      "P_Mox_Amber_live_given_deployed": 0.1729
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.138,
+      "P_U_available": 0.9174,
+      "P_UU_available": 0.6902,
+      "P_R_available": 0.8914,
+      "P_five_mana_with_B_for_Tevesh": 0.1526,
+      "P_Mox_Amber_live_given_deployed": 0.2743
+     }
+    },
+    "Contamination": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.144,
+      "P_U_available": 0.1109,
+      "P_UU_available": 0.0134,
+      "P_R_available": 0.1114,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0509
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.97,
+      "P_U_available": 0.2084,
+      "P_UU_available": 0.0188,
+      "P_R_available": 0.1689,
+      "P_five_mana_with_B_for_Tevesh": 0.0092,
+      "P_Mox_Amber_live_given_deployed": 0.078
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.564,
+      "P_U_available": 0.2449,
+      "P_UU_available": 0.0293,
+      "P_R_available": 0.1946,
+      "P_five_mana_with_B_for_Tevesh": 0.0439,
+      "P_Mox_Amber_live_given_deployed": 0.1614
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.037,
+      "P_U_available": 0.2788,
+      "P_UU_available": 0.0377,
+      "P_R_available": 0.219,
+      "P_five_mana_with_B_for_Tevesh": 0.1182,
+      "P_Mox_Amber_live_given_deployed": 0.2503
+     }
+    },
+    "Blood Moon": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.144,
+      "P_U_available": 0.5631,
+      "P_UU_available": 0.0657,
+      "P_R_available": 0.8138,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0509
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.97,
+      "P_U_available": 0.6657,
+      "P_UU_available": 0.2736,
+      "P_R_available": 0.912,
+      "P_five_mana_with_B_for_Tevesh": 0.0086,
+      "P_Mox_Amber_live_given_deployed": 0.078
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.564,
+      "P_U_available": 0.7154,
+      "P_UU_available": 0.3436,
+      "P_R_available": 0.9384,
+      "P_five_mana_with_B_for_Tevesh": 0.0394,
+      "P_Mox_Amber_live_given_deployed": 0.1589
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.036,
+      "P_U_available": 0.7587,
+      "P_UU_available": 0.4013,
+      "P_R_available": 0.9556,
+      "P_five_mana_with_B_for_Tevesh": 0.1108,
+      "P_Mox_Amber_live_given_deployed": 0.2455
+     }
+    },
+    "Back to Basics": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.167,
+      "P_U_available": 0.7322,
+      "P_UU_available": 0.0829,
+      "P_R_available": 0.6952,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0509
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.7,
+      "P_U_available": 0.7518,
+      "P_UU_available": 0.3908,
+      "P_R_available": 0.7264,
+      "P_five_mana_with_B_for_Tevesh": 0.0082,
+      "P_Mox_Amber_live_given_deployed": 0.0754
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 1.875,
+      "P_U_available": 0.7508,
+      "P_UU_available": 0.4216,
+      "P_R_available": 0.7351,
+      "P_five_mana_with_B_for_Tevesh": 0.024,
+      "P_Mox_Amber_live_given_deployed": 0.1256
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 1.977,
+      "P_U_available": 0.7706,
+      "P_UU_available": 0.4375,
+      "P_R_available": 0.7588,
+      "P_five_mana_with_B_for_Tevesh": 0.0431,
+      "P_Mox_Amber_live_given_deployed": 0.1644
+     }
+    },
+    "Artifact hate": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 0.928,
+      "P_U_available": 0.6681,
+      "P_UU_available": 0.0,
+      "P_R_available": 0.6018,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.654,
+      "P_U_available": 0.8166,
+      "P_UU_available": 0.3643,
+      "P_R_available": 0.769,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.191,
+      "P_U_available": 0.8657,
+      "P_UU_available": 0.5252,
+      "P_R_available": 0.83,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.607,
+      "P_U_available": 0.8954,
+      "P_UU_available": 0.607,
+      "P_R_available": 0.8643,
+      "P_five_mana_with_B_for_Tevesh": 0.036,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     }
+    }
+   },
+   "plus_Arcane_Signet_minus_Mox_Amber": {
+    "no lock": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.196,
+      "P_U_available": 0.7124,
+      "P_UU_available": 0.0833,
+      "P_R_available": 0.6484,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.081,
+      "P_U_available": 0.8507,
+      "P_UU_available": 0.481,
+      "P_R_available": 0.8095,
+      "P_five_mana_with_B_for_Tevesh": 0.0139
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.701,
+      "P_U_available": 0.8921,
+      "P_UU_available": 0.6264,
+      "P_R_available": 0.8608,
+      "P_five_mana_with_B_for_Tevesh": 0.0618
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.193,
+      "P_U_available": 0.919,
+      "P_UU_available": 0.7027,
+      "P_R_available": 0.8937,
+      "P_five_mana_with_B_for_Tevesh": 0.1657
+     }
+    },
+    "Contamination": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.153,
+      "P_U_available": 0.1138,
+      "P_UU_available": 0.0171,
+      "P_R_available": 0.1108,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.013,
+      "P_U_available": 0.2485,
+      "P_UU_available": 0.0236,
+      "P_R_available": 0.2037,
+      "P_five_mana_with_B_for_Tevesh": 0.0109
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.616,
+      "P_U_available": 0.289,
+      "P_UU_available": 0.041,
+      "P_R_available": 0.2382,
+      "P_five_mana_with_B_for_Tevesh": 0.0475
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.093,
+      "P_U_available": 0.3299,
+      "P_UU_available": 0.0533,
+      "P_R_available": 0.271,
+      "P_five_mana_with_B_for_Tevesh": 0.1309
+     }
+    },
+    "Blood Moon": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.153,
+      "P_U_available": 0.5648,
+      "P_UU_available": 0.0684,
+      "P_R_available": 0.8163,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.013,
+      "P_U_available": 0.6776,
+      "P_UU_available": 0.2949,
+      "P_R_available": 0.9115,
+      "P_five_mana_with_B_for_Tevesh": 0.0104
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.616,
+      "P_U_available": 0.7271,
+      "P_UU_available": 0.3664,
+      "P_R_available": 0.9365,
+      "P_five_mana_with_B_for_Tevesh": 0.0432
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.093,
+      "P_U_available": 0.7713,
+      "P_UU_available": 0.4272,
+      "P_R_available": 0.9549,
+      "P_five_mana_with_B_for_Tevesh": 0.1241
+     }
+    },
+    "Back to Basics": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.179,
+      "P_U_available": 0.7366,
+      "P_UU_available": 0.086,
+      "P_R_available": 0.699,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.729,
+      "P_U_available": 0.7557,
+      "P_UU_available": 0.4025,
+      "P_R_available": 0.7284,
+      "P_five_mana_with_B_for_Tevesh": 0.009
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 1.913,
+      "P_U_available": 0.753,
+      "P_UU_available": 0.4355,
+      "P_R_available": 0.7358,
+      "P_five_mana_with_B_for_Tevesh": 0.0269
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.024,
+      "P_U_available": 0.7733,
+      "P_UU_available": 0.4544,
+      "P_R_available": 0.7604,
+      "P_five_mana_with_B_for_Tevesh": 0.0491
+     }
+    },
+    "Artifact hate": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 0.931,
+      "P_U_available": 0.6714,
+      "P_UU_available": 0.0,
+      "P_R_available": 0.6017,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.654,
+      "P_U_available": 0.8198,
+      "P_UU_available": 0.3632,
+      "P_R_available": 0.7704,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.189,
+      "P_U_available": 0.866,
+      "P_UU_available": 0.5272,
+      "P_R_available": 0.8282,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.602,
+      "P_U_available": 0.8945,
+      "P_UU_available": 0.6071,
+      "P_R_available": 0.8639,
+      "P_five_mana_with_B_for_Tevesh": 0.0359
+     }
+    }
+   },
+   "plus_Talisman_of_Indulgence_minus_Mox_Amber": {
+    "no lock": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.196,
+      "P_U_available": 0.7095,
+      "P_UU_available": 0.0798,
+      "P_R_available": 0.6484,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.081,
+      "P_U_available": 0.8474,
+      "P_UU_available": 0.4625,
+      "P_R_available": 0.8095,
+      "P_five_mana_with_B_for_Tevesh": 0.0139
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.701,
+      "P_U_available": 0.8896,
+      "P_UU_available": 0.6119,
+      "P_R_available": 0.8608,
+      "P_five_mana_with_B_for_Tevesh": 0.0618
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.193,
+      "P_U_available": 0.9167,
+      "P_UU_available": 0.6878,
+      "P_R_available": 0.8937,
+      "P_five_mana_with_B_for_Tevesh": 0.1657
+     }
+    },
+    "Contamination": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.153,
+      "P_U_available": 0.1106,
+      "P_UU_available": 0.0121,
+      "P_R_available": 0.1108,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.013,
+      "P_U_available": 0.2061,
+      "P_UU_available": 0.0171,
+      "P_R_available": 0.2037,
+      "P_five_mana_with_B_for_Tevesh": 0.0109
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.616,
+      "P_U_available": 0.2402,
+      "P_UU_available": 0.0266,
+      "P_R_available": 0.2382,
+      "P_five_mana_with_B_for_Tevesh": 0.0475
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.093,
+      "P_U_available": 0.2722,
+      "P_UU_available": 0.0342,
+      "P_R_available": 0.271,
+      "P_five_mana_with_B_for_Tevesh": 0.1309
+     }
+    },
+    "Blood Moon": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.153,
+      "P_U_available": 0.5635,
+      "P_UU_available": 0.0643,
+      "P_R_available": 0.8163,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.013,
+      "P_U_available": 0.6645,
+      "P_UU_available": 0.2718,
+      "P_R_available": 0.9115,
+      "P_five_mana_with_B_for_Tevesh": 0.0104
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.616,
+      "P_U_available": 0.7128,
+      "P_UU_available": 0.3402,
+      "P_R_available": 0.9365,
+      "P_five_mana_with_B_for_Tevesh": 0.0432
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.093,
+      "P_U_available": 0.7561,
+      "P_UU_available": 0.3959,
+      "P_R_available": 0.9549,
+      "P_five_mana_with_B_for_Tevesh": 0.1241
+     }
+    },
+    "Back to Basics": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.179,
+      "P_U_available": 0.7347,
+      "P_UU_available": 0.0823,
+      "P_R_available": 0.699,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.729,
+      "P_U_available": 0.7523,
+      "P_UU_available": 0.3882,
+      "P_R_available": 0.7284,
+      "P_five_mana_with_B_for_Tevesh": 0.009
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 1.913,
+      "P_U_available": 0.749,
+      "P_UU_available": 0.4192,
+      "P_R_available": 0.7358,
+      "P_five_mana_with_B_for_Tevesh": 0.0269
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.024,
+      "P_U_available": 0.7683,
+      "P_UU_available": 0.4348,
+      "P_R_available": 0.7604,
+      "P_five_mana_with_B_for_Tevesh": 0.0491
+     }
+    },
+    "Artifact hate": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 0.931,
+      "P_U_available": 0.6714,
+      "P_UU_available": 0.0,
+      "P_R_available": 0.6017,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.654,
+      "P_U_available": 0.8198,
+      "P_UU_available": 0.3632,
+      "P_R_available": 0.7704,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.189,
+      "P_U_available": 0.866,
+      "P_UU_available": 0.5272,
+      "P_R_available": 0.8282,
+      "P_five_mana_with_B_for_Tevesh": 0.0
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.602,
+      "P_U_available": 0.8945,
+      "P_UU_available": 0.6071,
+      "P_R_available": 0.8639,
+      "P_five_mana_with_B_for_Tevesh": 0.0359
+     }
+    }
+   },
+   "plus_Arcane_Signet_minus_Overburden_keep_Amber": {
+    "no lock": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.2,
+      "P_U_available": 0.7122,
+      "P_UU_available": 0.0838,
+      "P_R_available": 0.649,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0491
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.09,
+      "P_U_available": 0.8516,
+      "P_UU_available": 0.4817,
+      "P_R_available": 0.8102,
+      "P_five_mana_with_B_for_Tevesh": 0.0145,
+      "P_Mox_Amber_live_given_deployed": 0.083
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.721,
+      "P_U_available": 0.8928,
+      "P_UU_available": 0.6275,
+      "P_R_available": 0.8619,
+      "P_five_mana_with_B_for_Tevesh": 0.0647,
+      "P_Mox_Amber_live_given_deployed": 0.1768
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.225,
+      "P_U_available": 0.9198,
+      "P_UU_available": 0.7061,
+      "P_R_available": 0.8952,
+      "P_five_mana_with_B_for_Tevesh": 0.1721,
+      "P_Mox_Amber_live_given_deployed": 0.2761
+     }
+    },
+    "Contamination": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.158,
+      "P_U_available": 0.1136,
+      "P_UU_available": 0.0175,
+      "P_R_available": 0.1138,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0487
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.021,
+      "P_U_available": 0.2493,
+      "P_UU_available": 0.0252,
+      "P_R_available": 0.2077,
+      "P_five_mana_with_B_for_Tevesh": 0.0114,
+      "P_Mox_Amber_live_given_deployed": 0.0754
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.634,
+      "P_U_available": 0.2929,
+      "P_UU_available": 0.0442,
+      "P_R_available": 0.2442,
+      "P_five_mana_with_B_for_Tevesh": 0.0502,
+      "P_Mox_Amber_live_given_deployed": 0.1626
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.122,
+      "P_U_available": 0.3361,
+      "P_UU_available": 0.0576,
+      "P_R_available": 0.279,
+      "P_five_mana_with_B_for_Tevesh": 0.1374,
+      "P_Mox_Amber_live_given_deployed": 0.2503
+     }
+    },
+    "Blood Moon": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.158,
+      "P_U_available": 0.5639,
+      "P_UU_available": 0.0692,
+      "P_R_available": 0.8176,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0487
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 2.021,
+      "P_U_available": 0.6777,
+      "P_UU_available": 0.295,
+      "P_R_available": 0.9122,
+      "P_five_mana_with_B_for_Tevesh": 0.0108,
+      "P_Mox_Amber_live_given_deployed": 0.0751
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.634,
+      "P_U_available": 0.7283,
+      "P_UU_available": 0.368,
+      "P_R_available": 0.9369,
+      "P_five_mana_with_B_for_Tevesh": 0.0459,
+      "P_Mox_Amber_live_given_deployed": 0.1595
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 3.122,
+      "P_U_available": 0.7726,
+      "P_UU_available": 0.4306,
+      "P_R_available": 0.956,
+      "P_five_mana_with_B_for_Tevesh": 0.1301,
+      "P_Mox_Amber_live_given_deployed": 0.245
+     }
+    },
+    "Back to Basics": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 1.184,
+      "P_U_available": 0.7366,
+      "P_UU_available": 0.0864,
+      "P_R_available": 0.6995,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0491
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.737,
+      "P_U_available": 0.7557,
+      "P_UU_available": 0.4017,
+      "P_R_available": 0.7297,
+      "P_five_mana_with_B_for_Tevesh": 0.0097,
+      "P_Mox_Amber_live_given_deployed": 0.0716
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 1.926,
+      "P_U_available": 0.7528,
+      "P_UU_available": 0.4359,
+      "P_R_available": 0.7368,
+      "P_five_mana_with_B_for_Tevesh": 0.0282,
+      "P_Mox_Amber_live_given_deployed": 0.1206
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.042,
+      "P_U_available": 0.7737,
+      "P_UU_available": 0.4558,
+      "P_R_available": 0.7625,
+      "P_five_mana_with_B_for_Tevesh": 0.053,
+      "P_Mox_Amber_live_given_deployed": 0.1644
+     }
+    },
+    "Artifact hate": {
+     "turn 1": {
+      "mean_mana_sources_after_deploy": 0.931,
+      "P_U_available": 0.672,
+      "P_UU_available": 0.0,
+      "P_R_available": 0.601,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 2": {
+      "mean_mana_sources_after_deploy": 1.654,
+      "P_U_available": 0.8206,
+      "P_UU_available": 0.3636,
+      "P_R_available": 0.7703,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 3": {
+      "mean_mana_sources_after_deploy": 2.191,
+      "P_U_available": 0.8663,
+      "P_UU_available": 0.527,
+      "P_R_available": 0.8283,
+      "P_five_mana_with_B_for_Tevesh": 0.0,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     },
+     "turn 4": {
+      "mean_mana_sources_after_deploy": 2.603,
+      "P_U_available": 0.8953,
+      "P_UU_available": 0.6078,
+      "P_R_available": 0.8635,
+      "P_five_mana_with_B_for_Tevesh": 0.0356,
+      "P_Mox_Amber_live_given_deployed": 0.0
+     }
+    }
+   }
+  }
+ },
+ "tokens": {
+  "deck": "Grixistax___October_2026",
+  "seed": 27,
+  "games_per_cell": 40000,
+  "method": "Same deployment model and lock-state definitions as meas27_mana.json. A token engine is online on turn t if Tevesh was castable (five mana including B) on some turn <= t, or Bitterblossom was among the cards seen and two mana including B was available on some turn <= t. Opposition is castable if seen and four mana including two U-capable sources was available on some turn <= t. Tutors (Demonic Tutor, Vampiric Tutor, Imperial Seal, Diabolic Intent, Gamble, Beseech the Mirror, Wishclaw Talisman) are ignored, so single-card probabilities are lower bounds.",
+  "P_specific_card_seen_by_turn": {
+   "turn 1": 0.0714,
+   "turn 2": 0.0816,
+   "turn 3": 0.0918,
+   "turn 4": 0.102
+  },
+  "candidate": {
+   "no lock": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0001,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0085,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0129,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0628,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.06,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1209,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1646,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.2309,
+     "P_Opposition_seen_and_castable": 0.0
+    }
+   },
+   "Contamination": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0089,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0106,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0638,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0466,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1113,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1301,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.2019,
+     "P_Opposition_seen_and_castable": 0.0
+    }
+   },
+   "Blood Moon": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0076,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0099,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0516,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0418,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0936,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1225,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1807,
+     "P_Opposition_seen_and_castable": 0.0
+    }
+   },
+   "Artifact hate": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.045,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0592,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.0369,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1071,
+     "P_Opposition_seen_and_castable": 0.0
+    }
+   }
+  },
+  "staged_Opposition_alt": {
+   "no lock": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0088,
+     "P_Opposition_seen_and_castable": 0.0007
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0136,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0631,
+     "P_Opposition_seen_and_castable": 0.0037
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0603,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1208,
+     "P_Opposition_seen_and_castable": 0.0151
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1641,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.2298,
+     "P_Opposition_seen_and_castable": 0.0329
+    }
+   },
+   "Contamination": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0091,
+     "P_Opposition_seen_and_castable": 0.0001
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0111,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0644,
+     "P_Opposition_seen_and_castable": 0.0008
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0458,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1101,
+     "P_Opposition_seen_and_castable": 0.0023
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1296,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.2014,
+     "P_Opposition_seen_and_castable": 0.0034
+    }
+   },
+   "Blood Moon": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0079,
+     "P_Opposition_seen_and_castable": 0.0004
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0106,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0526,
+     "P_Opposition_seen_and_castable": 0.0022
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0416,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0936,
+     "P_Opposition_seen_and_castable": 0.01
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.1219,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1807,
+     "P_Opposition_seen_and_castable": 0.0217
+    }
+   },
+   "Artifact hate": {
+    "turn 1": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 2": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0446,
+     "P_Opposition_seen_and_castable": 0.0
+    },
+    "turn 3": {
+     "P_token_engine_online_Tevesh_only": 0.0,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.0583,
+     "P_Opposition_seen_and_castable": 0.0022
+    },
+    "turn 4": {
+     "P_token_engine_online_Tevesh_only": 0.0369,
+     "P_token_engine_online_Tevesh_or_Bitterblossom": 0.1061,
+     "P_Opposition_seen_and_castable": 0.0192
+    }
+   }
+  },
+  "baseline_P_Static_Orb_seen_and_castable": {
+   "no lock": {
+    "turn 1": 0.0043,
+    "turn 2": 0.0175,
+    "turn 3": 0.0458,
+    "turn 4": 0.0599
+   },
+   "Contamination": {
+    "turn 1": 0.004,
+    "turn 2": 0.0149,
+    "turn 3": 0.0443,
+    "turn 4": 0.0584
+   },
+   "Blood Moon": {
+    "turn 1": 0.004,
+    "turn 2": 0.0149,
+    "turn 3": 0.0443,
+    "turn 4": 0.0584
+   },
+   "Artifact hate": {
+    "turn 1": 0.0,
+    "turn 2": 0.0033,
+    "turn 3": 0.0343,
+    "turn 4": 0.0469
+   }
+  },
+  "baseline_P_token_engine_online_Tevesh_only": {
+   "no lock": {
+    "turn 1": 0.0,
+    "turn 2": 0.0119,
+    "turn 3": 0.0558,
+    "turn 4": 0.1532
+   },
+   "Contamination": {
+    "turn 1": 0.0,
+    "turn 2": 0.0092,
+    "turn 3": 0.0439,
+    "turn 4": 0.1187
+   },
+   "Blood Moon": {
+    "turn 1": 0.0,
+    "turn 2": 0.0086,
+    "turn 3": 0.0394,
+    "turn 4": 0.1111
+   },
+   "Artifact hate": {
+    "turn 1": 0.0,
+    "turn 2": 0.0,
+    "turn 3": 0.0,
+    "turn 4": 0.036
+   }
+  }
+ }
+}
