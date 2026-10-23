@@ -16,7 +16,10 @@ import re
 import sys
 
 import jsonschema
-import grixis_authority as ga
+try:
+    from scripts import grixis_authority as ga
+except ModuleNotFoundError:  # direct python scripts/grixis_m7_decision_gate.py invocation
+    import grixis_authority as ga
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "data/grixis/registry.json"
