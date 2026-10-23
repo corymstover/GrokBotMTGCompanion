@@ -610,7 +610,7 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
    "working_branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
-   "last_pushed_commit": "9f7c49f5017c2dcb9090def8419ab319078d7b1a",
+   "last_pushed_commit": "672ac30067c5b03e9d98dcd4797edd95645ba59a",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
    "swap_count": null,
    "ci_runs": [],
@@ -623,19 +623,27 @@
     [
      "pool_and_decision_review",
      "memos_packet_certificate_bundle_workflow_tests"
+    ],
+    [
+     "wip_removed",
+     "full_suite_vs_base_0_regressions",
+     "pr_ready_exact_head_ci_success"
     ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Research snapshots + candidate",
-   "next_step": "Research snapshots + candidate",
-   "last_checkpoint_at": "2026-10-23T08:38:00-05:00",
+   "next_step": "Deck #15 Dr__Eggman (index 14)",
+   "last_checkpoint_at": "2026-10-23T08:45:00-05:00",
    "updated_at": "2026-10-23T08:18:00-05:00",
    "pr_status": "DRAFT_WIP",
    "pr_is_draft": true,
-   "last_checkpoint_commit": "9f7c49f5017c2dcb9090def8419ab319078d7b1a",
-   "stage": "CHECKPOINT_5_TESTS_BUNDLE_WORKFLOW"
+   "last_checkpoint_commit": "672ac30067c5b03e9d98dcd4797edd95645ba59a",
+   "stage": "REVIEW_READY_AWAITING_CHATGPT",
+   "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
+   "head": "672ac30067c5b03e9d98dcd4797edd95645ba59a",
+   "candidate_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773"
   },
   {
    "tracker_number": 15,
