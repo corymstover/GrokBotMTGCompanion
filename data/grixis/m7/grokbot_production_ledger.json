@@ -439,15 +439,19 @@
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 4c221e5b == overrides == registry; 100 physical / 94 rows; tracker note cc2f7a54 is the pre-approval 10-13 list, documented not repaired); draft PR #659"
+    "baseline_provenance (canonical main 9b26aa28; raw 4c221e5b == overrides == registry; 100 physical / 94 rows; tracker note cc2f7a54 is the pre-approval 10-13 list, documented not repaired); draft PR #659",
+    [
+     "research_snapshots_and_draft_candidate"
+    ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded measured test",
    "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded measured test",
-   "last_checkpoint_at": "2026-10-23T06:47:00-05:00",
-   "updated_at": "2026-10-23T06:47:00-05:00"
+   "last_checkpoint_at": "2026-10-23T06:51:31-05:00",
+   "updated_at": "2026-10-23T06:47:00-05:00",
+   "engineering_head": "e101cd84"
   },
   {
    "tracker_number": 12,
