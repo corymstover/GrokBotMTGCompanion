@@ -1,0 +1,1182 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Don_Andres__the_Renegade",
+ "canonical_baseline_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+ "canonical_baseline_logical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "commander_identity": {
+  "mechanical_plan": "Don Andres, the Renegade ({1}{U}{B}{R} 4/3 legendary Vampire Pirate): (1) creatures we control but don't own get +2/+2, menace, deathtouch and are Pirates in addition to their other types (613.1b type, 613.4c P/T layer); (2) whenever we cast a noncreature spell we don't own, create two tapped Treasures (111.10a). Ownership (108.3, 110.2, 111.2): a copy we create is ours and is not cast (707.10), so only real opposing cards count. Theft: Treachery (new), Hostage Taker, Gilded Drake, Insurrection, Coercive Recruiter, Thieving Amalgam manifests (opponent-owned face-down 2/2s, 701.40a, which Don makes 4/4 menace deathtouch Pirates), Jhoira, Praetor's Grasp/Black Cat/Outrageous Robbery exiles, Animate Dead/Reanimate on opposing graveyards, Hurl Through Hell. Foreign casts (Don Treasures): Gríma and Fallen Shinobi (new), Etali, Plargg and Nassari, Grenzo, Ramirez, Laughing Jasper Flint, Locke, Stolen Strategy, Wand of Wonder, Siphon Insight, Arcane Heist, You Find Some Prisoners, Thief of Sanity, Gonti, Ragavan, Dauthi Voidwalker, Opposition Agent, Tasha, Brainstealer Dragon, Decadent Dragon. Pirate payoffs: Admiral Beckett Brass, Malcolm, both Breeches, Coercive Recruiter, Kindred Discovery, Roaming Throne, Vaan.",
+  "protected_core": [
+   "Don Andres, the Renegade",
+   "Thieving Amalgam",
+   "Jhoira, Weatherlight Corsair",
+   "Roaming Throne",
+   "Thieving Varmint",
+   "Gonti, Night Minister",
+   "Hostage Taker",
+   "Gilded Drake",
+   "Insurrection",
+   "Coercive Recruiter",
+   "Admiral Beckett Brass",
+   "Etali, Primal Storm",
+   "Tasha, the Witch Queen",
+   "Kindred Discovery",
+   "Arcane Heist",
+   "Opposition Agent"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Game Changers: 5 in baseline and candidate (Ancient Tomb, Cyclonic Rift, Fierce Guardianship, Opposition Agent, Vampiric Tutor). Commander Spellbook find-my-combos: 0 included combos for both lists (almost-included 23 -> 19). No infinite is claimed.",
+  "anti_homogenization": "Commander-first: every add serves Don's own Oracle, either casting opponent-owned cards (Gríma, Fallen Shinobi), stealing permanently so Don's static applies (Treachery), or getting Don onto the battlefield untapped-on-curve (two Verges). Owner-removed classes (the 2026-10-14 removals: Buried Alive/Living Death/Victimize reanimation, Cunning Rhetoric, Share the Spoils, The Ruinous Powers, Revel in Riches, Gonti, Lord of Luxury, Zara, four slow/tapped lands; and the same-day rejections Mind's Dilation, Xanathar, Agent of Treachery, Bribery, Captivating Crew, Memory Plunder) were judged and not re-added. Distinctness (nonbasic names shared, baseline -> candidate): Nathan Drake, Treasure Hunter 62 -> 61; Admiral Brass, Unsinkable 55 -> 53; Admiral Beckett Brass 54 -> 52; Edward Kenway 49 -> 49; Cormela, Glamour Thief 31 -> 31; Evelyn, the Covetous 27 -> 28 (Blazemire Verge is in Evelyn). Disclosed honestly: Gríma is in the Nathan Drake list, and the cuts Professional Face-Breaker and Blasphemous Act are also in Nathan Drake; Shipwreck Marsh and Smoldering Marsh are in Admiral Brass, Unsinkable. The candidate reduces overlap with the pirate decks by 0-2 names only; separation is commander-first: Don rewards control-without-ownership (+2/+2, menace, deathtouch, Pirate) and casting opponent-owned noncreature spells (two tapped Treasures), so the adds cast opponent cards (Gríma, Shinobi) or steal permanently (Treachery), not generic Pirate tribal or our own impulse draw."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (98 rows: 2x Island, everything else 1x; Mountain and Swamp one each).\nRoles:\n- 35 lands: Ancient Tomb, Cavern of Souls (Pirate), Path of Ancestry, Command Tower, City of Brass, Mana Confluence, Exotic Orchard, Otawara, Takenuma, Training Center, Luxury Suite, Morphic Pool, Xander's Lounge, six fetches, three originals (Badlands, Underground Sea, Volcanic Island), three shocks (Blood Crypt, Steam Vents, Watery Grave), Sulfur Falls, three pain lands (Shivan Reef, Sulfurous Springs, Underground River), Shipwreck Marsh and Smoldering Marsh (cut; Gloomlake and Blazemire Verge in), 2 Island, Mountain, Swamp.\n- Ramp (9 rocks): Sol Ring, Arcane Signet, Fellwar Stone, three Signets, three Talismans; plus Don's Treasures, Ramirez, Malcolm, Locke, Gonti.\n- Theft (Don's static): Hostage Taker, Gilded Drake, Insurrection, Coercive Recruiter, Thieving Amalgam, Jhoira, Hurl Through Hell, Animate Dead, Reanimate, and now Treachery.\n- Foreign casts (Don's Treasures): Etali, Plargg and Nassari, Grenzo, Ramirez, Laughing Jasper Flint, Locke, Stolen Strategy, Wand of Wonder, Siphon Insight, Arcane Heist, You Find Some Prisoners, Thief of Sanity, Gonti, Ragavan, Dauthi Voidwalker, Opposition Agent, Tasha, Black Cat, Praetor's Grasp, Outrageous Robbery, Brainstealer Dragon, Decadent Dragon, Dire Fleet Daredevil, Thieving Varmint, Vaan; Professional Face-Breaker (cut, own cards); and now Gríma and Fallen Shinobi.\n- Pirate payoffs: Admiral Beckett Brass, Malcolm, Breeches x2, Kindred Discovery, Roaming Throne, Coercive Recruiter, Vaan, Black Market Connections.\n- Interaction: Fierce Guardianship, Mana Drain, Deflecting Swat, Chaos Warp, Cyclonic Rift, Deadly Rollick, Feed the Swarm, Toxic Deluge, Blasphemous Act (cut), Seize the Spotlight (cut), Lightning Greaves.\n- Tutors: Vampiric Tutor, Court of Locthwain.\nOverlaps: three board wipes that kill our own stolen army; an opponent-choice theft spell; an impulse engine that plays our own cards; two lands usually tapped early.",
+  "mana_base_and_curve": "Baseline: 35 lands (4 basics), 9 rocks; conditional/early-tapped lands 5; average nonland MV 3.312; 28 creatures; 19 instants/sorceries. Candidate: 35 lands, conditional/early-tapped 3; average nonland MV 3.297; 29 creatures; 17 instants/sorceries. Exact lands-only hypergeometric (mechanics test): Don on turn 4 (4 lands covering U, B, R among 10 cards) 0.4898 -> 0.4864 with each Verge counted at one colour, 0.4898 with the Verge condition met; three lands paying U, B and R among 9 cards 0.5844 -> 0.5740 (0.5844 condition met). Red land sources 22 -> 21 (22 with Blazemire's {R}); P(two / three red lands among 13 cards) 0.8396/0.5901 -> 0.8169/0.5529. Rocks and Treasures excluded (conservative); the tempo of two lands that are untapped on turns 1-2 is not modelled.",
+  "interaction_resilience": "Stack: Fierce Guardianship, Mana Drain, Deflecting Swat. Removal: Chaos Warp, Deadly Rollick, Feed the Swarm, Hurl Through Hell, Otawara; theft as removal (Treachery new, Hostage Taker, Gilded Drake). Wipes: Toxic Deluge, Cyclonic Rift (Blasphemous Act cut). Protection: Lightning Greaves. Weak points: Don dies to removal and the static disappears immediately (stolen creatures lose menace/deathtouch); graveyard hate stops Animate Dead/Reanimate; creature-light or empty-library-pressure opponents blunt theft; Treasures enter tapped.",
+  "weakest_slots": [
+   {
+    "card": "Professional Face-Breaker",
+    "weakness": "Its impulse draw plays our own cards, which Don never rewards.",
+    "alternative_named": "Gríma, Saruman's Footman",
+    "reasoning": "Unblockable free opponent-owned instant/sorcery casts (Don Treasures)."
+   },
+   {
+    "card": "Seize the Spotlight",
+    "weakness": "Opponents choose the mode, so they choose the least harmful one.",
+    "alternative_named": "Fallen Shinobi",
+    "reasoning": "Two free opponent cards per connected hit."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Kills our own stolen army and Don along with opponents' creatures.",
+    "alternative_named": "Treachery",
+    "reasoning": "Permanent theft for effectively 0 mana."
+   },
+   {
+    "card": "Shipwreck Marsh",
+    "weakness": "Enters tapped on turns 1-2, when Don's curve needs untapped mana.",
+    "alternative_named": "Gloomlake Verge",
+    "reasoning": "Untapped; {B} on with 9 Island/Swamp lands."
+   },
+   {
+    "card": "Smoldering Marsh",
+    "weakness": "Needs two basics to enter untapped, with only four basics in the deck.",
+    "alternative_named": "Blazemire Verge",
+    "reasoning": "Untapped; {R} on with 9 Swamp/Mountain lands."
+   },
+   {
+    "card": "Insurrection",
+    "weakness": "Costs 8 with RRR; uncastable at 6-7 mana.",
+    "alternative_named": "Mob Rule",
+    "reasoning": "Rejected: Insurrection steals all blockers; Pass C KEEP; staged."
+   },
+   {
+    "card": "Thieving Amalgam",
+    "weakness": "Seven mana; its first body arrives only after an opponent's upkeep.",
+    "alternative_named": "Bribery",
+    "reasoning": "Rejected: owner-removed and one body ever; bounded test."
+   },
+   {
+    "card": "Jhoira, Weatherlight Corsair",
+    "weakness": "Six mana and only finds historic permanents.",
+    "alternative_named": "Bribery",
+    "reasoning": "Rejected: owner-removed; Jhoira repeats on attack."
+   },
+   {
+    "card": "Locke, Treasure Hunter",
+    "weakness": "Its cast depends on what each player mills; small body.",
+    "alternative_named": "Nightveil Specter",
+    "reasoning": "Rejected: marginal; Locke sees every player's card; staged as a 100."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Memory Plunder",
+    "reasoning": "Rejected: owner rejected it on 2026-10-14."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Riverpyre Verge",
+    "reasoning": "Rejected: Orchard is usually a three-colour source in multiplayer."
+   },
+   {
+    "card": "Vaan, Street Thief",
+    "weakness": "A 3-mana 2/2 that needs Pirates and foreign casts to matter.",
+    "alternative_named": "Robber of the Rich",
+    "reasoning": "Rejected: Vaan pumps every Pirate on each foreign cast."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Costs 1-3 life for each mode chosen every first main phase.",
+    "alternative_named": "Captivating Crew",
+    "reasoning": "Rejected: owner-removed; BMC's Shapeshifter is a Pirate for Recruiter/Throne."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud also stops our own targeted Auras/equips on the creature.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Rejected: Don has no targeted ability, so shroud costs nothing and equip is free."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Wipes our own stolen board and Don along with opponents' creatures.",
+    "alternative_named": "Heartless Conscription",
+    "reasoning": "Rejected: the remaining cheap wipe beside Cyclonic Rift."
+   },
+   {
+    "card": "Siphon Insight",
+    "weakness": "Looks at two opposing cards and keeps only one of them.",
+    "alternative_named": "Mnemonic Betrayal",
+    "reasoning": "Rejected: tapped Treasures don't fund the chain."
+   },
+   {
+    "card": "Wand of Wonder",
+    "weakness": "Four mana to cast plus four per activation; slow.",
+    "alternative_named": "Knowledge Exploitation",
+    "reasoning": "Rejected: Wand repeats every turn; Exploitation is a one-shot."
+   },
+   {
+    "card": "Plargg and Nassari",
+    "weakness": "An opponent picks which card we can't cast, so we get the worst two.",
+    "alternative_named": "Zara, Renegade Recruiter",
+    "reasoning": "Rejected: Zara was owner-removed on 2026-10-14 (flagged)."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Don list (2026-10-14) built on theft and opponent-card casting. M6 Pass C (#14) final KEEP (owner-equivalent substitute, NOT independent; 0 measured playtests) after a provisional Stage A +Mob Rule/-Insurrection, and asked for bounded Mob Rule vs Insurrection and Bribery vs Amalgam/Jhoira tests. Weaknesses: three board wipes in a deck whose board is stolen creatures, an opponent-choice theft spell, a value creature that casts only our own cards and two mostly-tapped duals.",
+  "candidate_pool_scope": "EDHREC Don general (6802 decks), upgraded (480) and optimized (68) pages JSON; live Scryfall /cards/collection batch (baseline rows + 155 evaluated names); Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; the owner's 2026-10-14 removal list; OFF-RANKING searches for free opponent-card casting creatures, permanent theft, and untapped Grixis duals.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Blazemire Verge (absent from general/optimized; selected), Gloomlake Verge (optimized 7/68; selected), Robber of the Rich, Knowledge Exploitation, Sower of Temptation, Riverpyre Verge (absent; rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Don approved source refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 1d20d4887565d2765f914ea0a9c33a14d9df03f2, frozen by canonical commit 255c328; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Don commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23, discovery only: data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (baseline rows + 155 evaluated names): data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Don_Andres__the_Renegade_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for free opponent-card casting creatures, permanent theft and untapped Grixis duals (Blazemire Verge, Riverpyre Verge, Robber of the Rich, Knowledge Exploitation, Sower of Temptation)",
+  "M6 Pass C final disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/final_disposition.md",
+  "Comprehensive Rules (frozen cache, 2026-09-25) for ownership, copies not cast, Treasure, layers, 608.2h, manifest, ninjutsu, Aura control, deathtouch and menace: data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C requests (Mob Rule vs Insurrection 5 tables x 6/7/8 mana x Don present/absent; RR vs RRR red availability; Bribery vs Thieving Amalgam/Jhoira over 5 creature densities; exact hypergeometric colour access; tapped-Treasure chain): tests/test_m6_don_andres_the_renegade_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Gríma, Saruman's Footman",
+   "source": "EDHREC Don general 3121/6802, upgraded 219/480, optimized 28/68; live Scryfall batch",
+   "role": "{2}{U}{B} 1/4 legendary Human Advisor: can't be blocked; on combat damage to a player, that player exiles cards from the top until an instant or sorcery, and we may cast it free.",
+   "named_cuts": [
+    "Professional Face-Breaker"
+   ],
+   "incumbent_opportunity_cost": "Loses Professional Face-Breaker ({2}{R} menace: a Treasure when our creatures connect, and sacrifice-a-Treasure impulse draw of OUR OWN cards).",
+   "commander_synergy": "Every cast through Gríma is a real opponent-owned noncreature spell we cast (108.3, 707.10: not a copy), so Don makes two tapped Treasures each hit, and Vaan and Tasha also trigger. Unblockable means it connects even through Don-buffed blockers; it is the deck's most reliable foreign-noncreature engine per turn.",
+   "adversarial_downside": "Not a Pirate (Roaming Throne naming Pirate doesn't double its trigger; Malcolm/Breeches don't see it); 1 power; a whiff when the opponent's library has few instants/sorceries; dies to any removal. Face-Breaker's Treasure plus impulse is genuine value, but it plays our own cards, which Don never rewards.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts combat into opponent-owned spell casts every turn, the second half of Don's Oracle; the cut plays only our own cards.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_five_DazzlingSphinx_instead_of_Grima_20261023.txt"
+   ]
+  },
+  {
+   "card": "Fallen Shinobi",
+   "source": "EDHREC Don general 1623/6802, upgraded 126/480, optimized 19/68; live Scryfall batch",
+   "role": "{3}{U}{B} 3/4 Zombie Ninja, ninjutsu {2}{U}{B}: on combat damage, that player exiles the top two cards; we may play them free this turn.",
+   "named_cuts": [
+    "Seize the Spotlight"
+   ],
+   "incumbent_opportunity_cost": "Loses Seize the Spotlight ({2}{R} sorcery: each opponent picks fame (we steal a creature until end of turn) or fortune (we draw and make a Treasure); the opponent chooses, so they pick what hurts us least).",
+   "commander_synergy": "Two opponent-owned cards per hit, free; noncreature ones are Don Treasure triggers (expected 2*(noncreature/85) per hit, 12/17 at 30 noncreature cards; mechanics test) and creature ones enter under our control, so Don makes them +2/+2 menace deathtouch Pirates. Ninjutsu returns the unblocked attacker to its owner's hand (702.49a/c): bouncing a stolen creature hands it back, so we return our own Breeches, Ragavan or Gríma instead.",
+   "adversarial_downside": "5 mana hard-cast; ninjutsu needs an unblocked attacker and the right timing; lands exiled can be played only if we have a land drop left.",
+   "judgment": "SELECT_ADD",
+   "reason": "A card that turns one connected attack into two free foreign cards beats an opponent-choice spell.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Treachery",
+   "source": "EDHREC Don general 468/6802, upgraded 40/480, optimized 12/68; live Scryfall batch",
+   "role": "{3}{U}{U} Aura: enchant creature; when it enters, untap up to five lands; we control enchanted creature.",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Loses Blasphemous Act (cheap symmetric 13-damage wipe), one of three board resets (with Toxic Deluge and Cyclonic Rift).",
+   "commander_synergy": "Permanent theft of the best opposing creature for effectively 0 mana (five lands untap): the stolen creature is ours to control but not to own, so Don makes it +2/+2 menace deathtouch Pirate (Coercive Recruiter, Malcolm, Admiral Beckett and Breeches see it); the untapped lands then cast the next stolen spell the same turn, which Don's tapped Treasures cannot (111.10a, enter tapped).",
+   "adversarial_downside": "Aura removal returns the creature (303.4e); Blasphemous Act was the cheapest answer to a wide board. A sweeper also kills our own stolen army and Don, so in this deck it is a reset button, not a plan card. Four-swap list keeping it is staged.",
+   "judgment": "SELECT_ADD",
+   "reason": "Theft is the deck's plan; a wipe that kills our own Pirates is the worst-fitting interaction slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_four_keep_BlasphemousAct_no_Treachery_20261023.txt"
+   ]
+  },
+  {
+   "card": "Gloomlake Verge",
+   "source": "EDHREC Don upgraded 66/480, optimized 7/68 (absent from the general page); live Scryfall batch",
+   "role": "Land: {T}: {U}; {T}: {B} only if we control an Island or a Swamp.",
+   "named_cuts": [
+    "Shipwreck Marsh"
+   ],
+   "incumbent_opportunity_cost": "Loses Shipwreck Marsh (UB slow-land: tapped unless we control two or more other lands).",
+   "commander_synergy": "Untapped on turn 1-2, when the slow land is tapped; 9 Island/Swamp-typed lands (incl. 2 Islands and 1 Swamp; fetches find them) turn on {B}. Mechanics test: exact lands-only colour access is unchanged when the condition is met.",
+   "adversarial_downside": "{B} is conditional (0.4898 -> 0.4864 for Don on turn 4 if each Verge counts as one colour); not fetchable.",
+   "judgment": "SELECT_ADD",
+   "reason": "Fewer early tapped/conditional lands (5 -> 3) for a four-colour-pip-dense list that wants Don on curve.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Blazemire Verge",
+   "source": "OFF-RANKING (absent from the Don general and optimized pages; upgraded 62/480); live Scryfall batch",
+   "role": "Land: {T}: {B}; {T}: {R} only if we control a Swamp or a Mountain.",
+   "named_cuts": [
+    "Smoldering Marsh"
+   ],
+   "incumbent_opportunity_cost": "Loses Smoldering Marsh (Swamp Mountain tapped unless we control two or more basics; only 4 basics, so usually tapped; but fetchable).",
+   "commander_synergy": "Untapped from turn 1; 9 Swamp/Mountain-typed lands turn on {R}. Red-pip check (mechanics test): P(two / three red lands among 13 cards) 0.8396/0.5901 baseline vs 0.8169/0.5529 with Blazemire counted as {B} only, identical with the condition met.",
+   "adversarial_downside": "Not fetchable (Smoldering Marsh was a Swamp Mountain for six fetches); conditional {R}.",
+   "judgment": "SELECT_ADD",
+   "reason": "Smoldering Marsh's 2-basic condition almost never holds with 4 basics; an untapped land is better for a tempo deck.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Mob Rule",
+   "source": "EDHREC Don general 2615/6802, upgraded 173/480, optimized 16/68; live Scryfall batch; M6 Pass C #14 Stage A provisional +Mob Rule/-Insurrection",
+   "role": "{4}{R}{R} sorcery: gain control of all creatures with power 4+ (or all with power 3 or less) until end of turn, untap, haste.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection ({5}{R}{R}{R}: all creatures, untap, haste).",
+   "commander_synergy": "Two mana cheaper and RR instead of RRR (0.8396 vs 0.5901 lands-only by 13 cards). Bounded grid: at 8 mana Mob Rule keeps 115/144 of Insurrection's stolen power and ties on 2/5 tables; Don's +2/+2 is applied after Mob Rule's power check (608.2h), and flips the best mode only on one_big_threat.",
+   "adversarial_downside": "Leaves the other half of the opposing board as blockers; Insurrection takes every blocker (menace + deathtouch on all of them).",
+   "judgment": "REJECT",
+   "reason": "Kept Insurrection, consistent with Pass C's final KEEP and the owner's approved list; the six-swap is staged so the owner can choose the cheaper half-steal.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/final_disposition.md",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_MobRule_over_Insurrection_20261023.txt"
+   ]
+  },
+  {
+   "card": "Bribery",
+   "source": "EDHREC Don general 2637/6802, upgraded 182/480, optimized 26/68; live Scryfall batch; Pass C named Bribery vs Thieving Amalgam/Jhoira; OWNER-REMOVED 2026-10-14 (flagged, not re-added)",
+   "role": "{3}{U}{U} sorcery: put a creature card from target opponent's library onto the battlefield under our control.",
+   "named_cuts": [
+    "Thieving Amalgam",
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thieving Amalgam (3 manifests per round) or Jhoira (historic permanent on ETB and every attack).",
+   "commander_synergy": "The stolen creature is opponent-owned, so Don buffs it; picks the best creature in the library.",
+   "adversarial_downside": "One body ever, none against a creature-light library (bounded test at densities 0/4/8/15/25); not cast from an opponent, so no Treasure; and the owner removed it on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner-removed and below both incumbents after one opponent turn cycle.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/final_disposition.md",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_ThievingAmalgam_20261023.txt",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_Jhoira_20261023.txt"
+   ]
+  },
+  {
+   "card": "Dazzling Sphinx",
+   "source": "EDHREC Don general 888/6802, upgraded 57/480, optimized 4/68; live Scryfall batch",
+   "role": "{3}{U}{U} 4/5 flyer with Gríma's exact combat-damage trigger.",
+   "named_cuts": [
+    "Professional Face-Breaker"
+   ],
+   "incumbent_opportunity_cost": "Would take the Professional Face-Breaker slot that Gríma takes.",
+   "commander_synergy": "Same opponent-owned free instant/sorcery casts (Don Treasures); bigger body.",
+   "adversarial_downside": "One more mana, UU, blockable by flyers/reach; Gríma can't be blocked at all.",
+   "judgment": "REJECT",
+   "reason": "Gríma is cheaper and connects more reliably; the five-swap with Sphinx is staged.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_five_DazzlingSphinx_instead_of_Grima_20261023.txt"
+   ]
+  },
+  {
+   "card": "Nightveil Specter",
+   "source": "EDHREC Don general 1497/6802, upgraded 108/480, optimized 9/68; live Scryfall batch",
+   "role": "{U/B}{U/B}{U/B} 2/3 flyer: on combat damage that player exiles the top card; we may play cards exiled with it.",
+   "named_cuts": [
+    "Locke, Treasure Hunter"
+   ],
+   "incumbent_opportunity_cost": "Would lose Locke (mill-each-player cast and land-Treasure on attack).",
+   "commander_synergy": "Exiled cards stay available as long as Specter lives; noncreature ones are Don triggers.",
+   "adversarial_downside": "Has to connect through flyers; Locke sees every player's card each attack and is unblockable by bigger creatures.",
+   "judgment": "REJECT",
+   "reason": "Marginal edge either way; staged as a six-swap 100.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_NightveilSpecter_over_Locke_20261023.txt"
+   ]
+  },
+  {
+   "card": "Memory Plunder",
+   "source": "EDHREC Don general 2263/6802, upgraded 151/480, optimized 16/68; live Scryfall batch; OWNER-REMOVED 2026-10-14 (flagged, not re-added) (rejected that day)",
+   "role": "{U/B}x4 instant: cast target instant or sorcery from an opponent's graveyard free.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone, a 2-mana rock in a 35-land list.",
+   "commander_synergy": "A real opponent-owned noncreature cast (Don Treasures).",
+   "adversarial_downside": "Owner rejected it on 2026-10-14; 4 mana for one dependent effect.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Intellect Devourer",
+   "source": "EDHREC Don general 616/6802, upgraded 52/480, optimized 5/68; live Scryfall batch",
+   "role": "{3}{B} creature: each opponent exiles a card from hand until it leaves; we may play them.",
+   "named_cuts": [
+    "Thieving Varmint"
+   ],
+   "incumbent_opportunity_cost": "Would lose a cheaper foreign-cast creature.",
+   "commander_synergy": "Up to three opponent-owned cards, usually their best spells; noncreature casts are Don triggers.",
+   "adversarial_downside": "Opponents choose the card (lands or worst spells); cards return when it dies.",
+   "judgment": "REJECT",
+   "reason": "Opponents choose the exiled cards and they return when it dies.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mass Mutiny",
+   "source": "EDHREC Don general 916/6802, upgraded 46/480, optimized 5/68; live Scryfall batch",
+   "role": "{3}{R}{R} sorcery: for each opponent, gain control of up to one target creature until end of turn, untap, haste.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection's full board.",
+   "commander_synergy": "Three stolen creatures, each a Don-buffed Pirate.",
+   "adversarial_downside": "Three bodies vs all of them; still a one-turn effect.",
+   "judgment": "REJECT",
+   "reason": "Mob Rule is the better cheaper Insurrection alternative and is itself rejected.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Call for Aid",
+   "source": "EDHREC Don general 733/6802, upgraded 35/480, optimized 6/68; live Scryfall batch",
+   "role": "{4}{R} sorcery: gain control of all creatures target opponent controls until end of turn; can't attack that player.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection, the full-board steal and blocker clear.",
+   "commander_synergy": "One player's board becomes Don-buffed attackers against the other two.",
+   "adversarial_downside": "Can't attack the player we stole from; three-player value lower than Insurrection's.",
+   "judgment": "REJECT",
+   "reason": "Narrower than Insurrection: one board and that player is safe.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Stolen Goods",
+   "source": "EDHREC Don general 829/6802, upgraded 40/480, optimized 4/68; live Scryfall batch",
+   "role": "{3}{U} sorcery: target opponent exiles until a nonland card; we may cast it free this turn.",
+   "named_cuts": [
+    "Siphon Insight"
+   ],
+   "incumbent_opportunity_cost": "Would lose Siphon Insight's flashback and long-term exile.",
+   "commander_synergy": "Free foreign cast (Don trigger if noncreature).",
+   "adversarial_downside": "Sorcery speed, one random nonland card, this turn only.",
+   "judgment": "REJECT",
+   "reason": "Siphon Insight is cheaper and repeatable.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Desertion",
+   "source": "EDHREC Don general 1007/6802, upgraded 58/480, optimized 7/68; live Scryfall batch",
+   "role": "{3}{U}{U} counter; creature/artifact spells come to our battlefield.",
+   "named_cuts": [
+    "Mana Drain"
+   ],
+   "incumbent_opportunity_cost": "Would lose Mana Drain, whose mana funds stolen spells.",
+   "commander_synergy": "Countered creatures arrive under our control (Don buff).",
+   "adversarial_downside": "5 mana counterspell; Mana Drain's mana funds stolen spells.",
+   "judgment": "REJECT",
+   "reason": "Five-mana counter is more expensive interaction than Mana Drain.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Port Razer",
+   "source": "EDHREC Don general 1332/6802, upgraded 79/480, optimized 15/68; live Scryfall batch",
+   "role": "{3}{R}{R}: on combat damage untap our creatures and take another combat.",
+   "named_cuts": [
+    "Etali, Primal Storm"
+   ],
+   "incumbent_opportunity_cost": "Would lose Etali's free casts.",
+   "commander_synergy": "Extra combats multiply Gríma, Fallen Shinobi, Grenzo, Ramirez and Vaan combat triggers.",
+   "adversarial_downside": "No cast of its own; can't attack the same player twice.",
+   "judgment": "REJECT",
+   "reason": "Etali casts opponents' spells itself.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Thieving Skydiver",
+   "source": "EDHREC Don upgraded 53/480 (absent from general/optimized); live Scryfall batch",
+   "role": "{1}{U} flyer, kicker X: steal an artifact with MV X or less.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone, a 2-mana rock in a 35-land list.",
+   "commander_synergy": "Stolen artifact creatures get Don's buff; stolen rocks ramp.",
+   "adversarial_downside": "Artifact-dependent; poor early.",
+   "judgment": "REJECT",
+   "reason": "Too narrow: depends on opponents playing cheap artifacts.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Robber of the Rich",
+   "source": "OFF-RANKING (absent from all Don pages); live Scryfall batch",
+   "role": "{1}{R} reach haste Rogue: on attack, if the defender has more cards in hand, exile their top card; castable on turns we attacked with a Rogue.",
+   "named_cuts": [
+    "Professional Face-Breaker"
+   ],
+   "incumbent_opportunity_cost": "Would take the Professional Face-Breaker slot that Gríma takes.",
+   "commander_synergy": "A 2-mana opponent-card engine (Don triggers).",
+   "adversarial_downside": "Hand-size condition fails against empty-handed opponents; 2/2 body.",
+   "judgment": "REJECT",
+   "reason": "Gríma's cast is free and conditionless.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Knowledge Exploitation",
+   "source": "OFF-RANKING (absent from all Don pages); live Scryfall batch",
+   "role": "{5}{U}{U} sorcery, prowl {3}{U}: search an opponent's library for an instant or sorcery and cast it free.",
+   "named_cuts": [
+    "Wand of Wonder"
+   ],
+   "incumbent_opportunity_cost": "Would lose Wand of Wonder, a repeatable foreign-cast engine.",
+   "commander_synergy": "Chooses the best opposing spell; a Don trigger.",
+   "adversarial_downside": "One-shot; prowl needs a Rogue connect (Grenzo, Black Cat, Laughing Jasper, Locke).",
+   "judgment": "REJECT",
+   "reason": "A one-shot at seven mana (or prowl) for a repeatable incumbent.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mnemonic Betrayal",
+   "source": "EDHREC Don general 734/6802, upgraded 68/480, optimized 11/68; live Scryfall batch; GrokBot Pass C advisory",
+   "role": "{1}{U}{B} sorcery: cast spells from opponents' graveyards this turn, any mana type.",
+   "named_cuts": [
+    "Siphon Insight"
+   ],
+   "incumbent_opportunity_cost": "Would lose Siphon Insight (cheap, flashback, banks a card).",
+   "commander_synergy": "Many foreign noncreature casts in one turn.",
+   "adversarial_downside": "Don's Treasures enter tapped (treasure_chain(4,[2,2,2]) = (2,4) in the mechanics test): the chain doesn't self-fund; Pass C kept Siphon Insight for this reason.",
+   "judgment": "REJECT",
+   "reason": "The Treasure reasoning in its favour is false.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "tests/test_m6_don_andres_the_renegade_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Fevered Suspicion",
+   "source": "EDHREC Don general 1500/6802, upgraded 92/480, optimized 4/68; live Scryfall batch",
+   "role": "{6}{B}{R} sorcery with rebound: each opponent exiles until a nonland card; cast any free.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection, the full-board steal and blocker clear.",
+   "commander_synergy": "Up to 6 foreign casts over two turns (Don triggers each noncreature).",
+   "adversarial_downside": "Eight mana, the slowest card in the pool.",
+   "judgment": "REJECT",
+   "reason": "Competes for the same top-end slot and is slower.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dream Harvest",
+   "source": "EDHREC Don general 976/6802, upgraded 99/480, optimized 5/68; live Scryfall batch (partial-page denominator 3217/277/33)",
+   "role": "{5}{U/B}{U/B} sorcery: each opponent exiles until total MV 5+; cast them free this turn.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection, the full-board steal and blocker clear.",
+   "commander_synergy": "Several foreign casts in one turn.",
+   "adversarial_downside": "Seven-mana sorcery with a one-turn window.",
+   "judgment": "REJECT",
+   "reason": "Competes for the same top-end slot as Insurrection.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Heartless Conscription",
+   "source": "EDHREC Don general 1031/6802, upgraded 56/480, optimized 4/68; live Scryfall batch",
+   "role": "{6}{B}{B} sorcery: exile all creatures; we may play them as long as exiled.",
+   "named_cuts": [
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Toxic Deluge, the remaining cheap sweeper.",
+   "commander_synergy": "A wipe that gives us every opponent's creature as castable cards.",
+   "adversarial_downside": "8 mana; exiles Don too; creature casts give no Treasure.",
+   "judgment": "REJECT",
+   "reason": "Too slow for the only cheap wipe.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Agent of Treachery",
+   "source": "EDHREC Don general 2062/6802, upgraded 170/480, optimized 19/68; live Scryfall batch; OWNER-REMOVED 2026-10-14 (flagged, not re-added) (rejected that day)",
+   "role": "7-mana steal-a-permanent creature.",
+   "named_cuts": [
+    "Insurrection"
+   ],
+   "incumbent_opportunity_cost": "Would lose Insurrection, the full-board steal and blocker clear.",
+   "commander_synergy": "Permanent theft (Don buff on stolen creatures).",
+   "adversarial_downside": "Owner rejected it on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Zara, Renegade Recruiter",
+   "source": "EDHREC Don general 3887/6802, upgraded 240/480, optimized 30/68; live Scryfall batch; OWNER-REMOVED 2026-10-14 (flagged, not re-added)",
+   "role": "{3}{U}{R} flyer: on attack, put a creature card from the defending player's hand onto the battlefield tapped and attacking; return it at end step.",
+   "named_cuts": [
+    "Plargg and Nassari"
+   ],
+   "incumbent_opportunity_cost": "Would lose Plargg and Nassari.",
+   "commander_synergy": "Stolen creatures get Don's buff.",
+   "adversarial_downside": "Owner removed it on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Control Magic",
+   "source": "EDHREC Don general 1009/6802, upgraded 56/480, optimized 6/68; live Scryfall batch",
+   "role": "{2}{U}{U} Aura: we control enchanted creature.",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Would take the Blasphemous Act slot that Treachery takes.",
+   "commander_synergy": "Same permanent Don-buffed theft.",
+   "adversarial_downside": "Costs 4 net mana where Treachery's five-land untap makes it effectively free and funds a stolen spell the same turn.",
+   "judgment": "REJECT",
+   "reason": "Treachery strictly better in this slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sower of Temptation",
+   "source": "OFF-RANKING (absent from all Don pages); live Scryfall batch",
+   "role": "{2}{U}{U} 2/2 flyer: steal a creature for as long as Sower remains.",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Would take the Blasphemous Act slot that Treachery takes.",
+   "commander_synergy": "Permanent-while-alive theft with an evasive body.",
+   "adversarial_downside": "Theft ends when a 2/2 dies; Treachery dies only to enchantment removal.",
+   "judgment": "REJECT",
+   "reason": "More fragile than Treachery: theft ends when a 2/2 dies.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Riverpyre Verge",
+   "source": "OFF-RANKING (absent from all Don EDHREC pages); live Scryfall batch",
+   "role": "Land: {T}: {R}; {T}: {U} only if we control an Island or a Mountain.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would lose Exotic Orchard, usually a three-colour land in a four-player game.",
+   "commander_synergy": "A third untapped Verge, completing the Gloomlake/Blazemire pair.",
+   "adversarial_downside": "Conditional {U} with only 9 Island/Mountain-typed lands; two colours where Orchard usually gives three.",
+   "judgment": "REJECT",
+   "reason": "Two Verges already fix the slow-land problem; Orchard stays.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Don general 1579/6802, upgraded 121/480, optimized 7/68; live Scryfall batch",
+   "role": "{2} Equipment: hexproof and haste; equip {1}.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Would lose Lightning Greaves (shroud and haste, equip {0}).",
+   "commander_synergy": "Protects Don and the thieves from opposing targeted removal.",
+   "adversarial_downside": "Don has no targeted ability, so Greaves' shroud costs nothing here while its equip {0} re-protects each new thief for free; Boots is strictly worse in this deck.",
+   "judgment": "REJECT",
+   "reason": "Greaves fits Don better than Boots.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Captivating Crew",
+   "source": "EDHREC Don general 3063/6802, upgraded 180/480, optimized 25/68; live Scryfall batch; OWNER-REMOVED 2026-10-14 (flagged, not re-added) (rejected that day)",
+   "role": "{3}{R} 4/3: {3}{R} steal a creature until end of turn.",
+   "named_cuts": [
+    "Seize the Spotlight"
+   ],
+   "incumbent_opportunity_cost": "Would take the Seize the Spotlight slot that Fallen Shinobi takes.",
+   "commander_synergy": "Repeatable one-turn theft; stolen creatures get Don's buff.",
+   "adversarial_downside": "Owner rejected it on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Gríma, Saruman's Footman",
+   "Fallen Shinobi",
+   "Treachery",
+   "Gloomlake Verge",
+   "Blazemire Verge"
+  ],
+  "cuts": [
+   "Professional Face-Breaker",
+   "Seize the Spotlight",
+   "Blasphemous Act",
+   "Shipwreck Marsh",
+   "Smoldering Marsh"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that add opponent-card casting (Gríma, Fallen Shinobi), permanent theft (Treachery) and untapped mana (two Verges). Losses: Professional Face-Breaker's Treasure and impulse draw, Seize the Spotlight's cheap one-turn theft or draw, Blasphemous Act's cheap wipe (Toxic Deluge and Cyclonic Rift remain), Shipwreck Marsh and Smoldering Marsh's fetchability (six fetches now find one fewer typed dual each). Game Changers 5 -> 5."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Professional Face-Breaker",
+    "weakness": "Its impulse draw plays our own cards, which Don never rewards.",
+    "alternative_named": "Gríma, Saruman's Footman",
+    "reasoning": "Unblockable free opponent-owned instant/sorcery casts (Don Treasures)."
+   },
+   {
+    "card": "Seize the Spotlight",
+    "weakness": "Opponents choose the mode, so they choose the least harmful one.",
+    "alternative_named": "Fallen Shinobi",
+    "reasoning": "Two free opponent cards per connected hit."
+   },
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Kills our own stolen army and Don along with opponents' creatures.",
+    "alternative_named": "Treachery",
+    "reasoning": "Permanent theft for effectively 0 mana."
+   },
+   {
+    "card": "Shipwreck Marsh",
+    "weakness": "Enters tapped on turns 1-2, when Don's curve needs untapped mana.",
+    "alternative_named": "Gloomlake Verge",
+    "reasoning": "Untapped; {B} on with 9 Island/Swamp lands."
+   },
+   {
+    "card": "Smoldering Marsh",
+    "weakness": "Needs two basics to enter untapped, with only four basics in the deck.",
+    "alternative_named": "Blazemire Verge",
+    "reasoning": "Untapped; {R} on with 9 Swamp/Mountain lands."
+   },
+   {
+    "card": "Insurrection",
+    "weakness": "Costs 8 with RRR; uncastable at 6-7 mana.",
+    "alternative_named": "Mob Rule",
+    "reasoning": "Rejected: Insurrection steals all blockers; Pass C KEEP; staged."
+   },
+   {
+    "card": "Thieving Amalgam",
+    "weakness": "Seven mana; its first body arrives only after an opponent's upkeep.",
+    "alternative_named": "Bribery",
+    "reasoning": "Rejected: owner-removed and one body ever; bounded test."
+   },
+   {
+    "card": "Jhoira, Weatherlight Corsair",
+    "weakness": "Six mana and only finds historic permanents.",
+    "alternative_named": "Bribery",
+    "reasoning": "Rejected: owner-removed; Jhoira repeats on attack."
+   },
+   {
+    "card": "Locke, Treasure Hunter",
+    "weakness": "Its cast depends on what each player mills; small body.",
+    "alternative_named": "Nightveil Specter",
+    "reasoning": "Rejected: marginal; Locke sees every player's card; staged as a 100."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Memory Plunder",
+    "reasoning": "Rejected: owner rejected it on 2026-10-14."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Riverpyre Verge",
+    "reasoning": "Rejected: Orchard is usually a three-colour source in multiplayer."
+   },
+   {
+    "card": "Vaan, Street Thief",
+    "weakness": "A 3-mana 2/2 that needs Pirates and foreign casts to matter.",
+    "alternative_named": "Robber of the Rich",
+    "reasoning": "Rejected: Vaan pumps every Pirate on each foreign cast."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Blazemire Verge and Gloomlake Verge (selected); Riverpyre Verge, Robber of the Rich, Knowledge Exploitation, Sower of Temptation (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh"
+    ],
+    "result_and_rationale": "Selected five-swap package, commander-first: two combat engines that cast opponents' cards for free (Gríma for instants/sorceries, Fallen Shinobi for any two), permanent creature theft that buffs under Don (Treachery), and two untapped Verges for two mostly-tapped lands. 35 lands; conditional/early-tapped lands 5 -> 3."
+   },
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Gloomlake Verge",
+     "Blazemire Verge"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Shipwreck Marsh",
+     "Smoldering Marsh"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Blasphemous Act (no Treachery). Retained alternative for an owner who wants a second sweeper."
+   },
+   {
+    "adds": [
+     "Dazzling Sphinx",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh"
+    ],
+    "result_and_rationale": "Staged five-swap with Dazzling Sphinx instead of Gríma. Rejected: 5 mana and blockable."
+   },
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Mob Rule"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Insurrection"
+    ],
+    "result_and_rationale": "Staged Pass C Stage A six-swap. Rejected after the bounded grid; owner choice."
+   },
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Bribery"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Thieving Amalgam"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap. Rejected: owner-removed; Amalgam out-produces after one round."
+   },
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Bribery"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Jhoira, Weatherlight Corsair"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap. Rejected: owner-removed; Jhoira repeats on attack."
+   },
+   {
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Nightveil Specter"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Locke, Treasure Hunter"
+    ],
+    "result_and_rationale": "Staged six-swap. Rejected: marginal."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C's Stage A +Mob Rule/-Insurrection and its Bribery vs Thieving Amalgam/Jhoira question were run as bounded finite tests; all three are staged as complete six-swap 100s and rejected (Bribery is also owner-removed). Pass C's final KEEP of Insurrection is respected; the Mob Rule six is the owner's choice if cheaper RR mass theft is preferred.",
+  "strongest_argument_against_baseline": "Don rewards stealing and casting opponents' cards, yet the baseline carried a wipe that kills the stolen army and Don (Blasphemous Act), a theft spell whose mode the opponents choose (Seize the Spotlight), a value creature that only plays our own cards (Professional Face-Breaker) and two duals that are tapped on turns 1-2.",
+  "evidence_based_answer": "Five swaps, all commander-first: two combat engines that cast opponents' cards for free (Gríma, Fallen Shinobi), permanent theft that is effectively free (Treachery), and two untapped Verges. Bounded Pass C tests are in the mechanics test. Spellbook: 0 included combos before and after."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Don_Andres__the_Renegade.txt",
+  "sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 2x Island, everything else 1x. Five substitutions against the canonical source. 35 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+   "tests/test_m6_don_andres_the_renegade_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Theft",
+   "Pirates",
+   "Treasure"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not used as a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: twelve post-floor challenges were recorded and rejected on Don-specific grounds, and four six-swap packages (Pass C's Mob Rule over Insurrection; Pass C's Bribery over Thieving Amalgam and over Jhoira; Nightveil Specter over Locke) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Insurrection",
+    "challenger": "Mob Rule",
+    "tradeoff": "Bounded grid: Mob Rule is castable at 6-7 where Insurrection isn't, but at 8 keeps 115/144 of the stolen power and leaves blockers; RR vs RRR is a real gain (0.84 vs 0.59 lands-only). Pass C KEEP kept; staged.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Thieving Amalgam",
+    "challenger": "Bribery",
+    "tradeoff": "Bribery's one body (zero at creature density 0) vs 3 manifests per round that Don makes Pirates; owner-removed.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Jhoira, Weatherlight Corsair",
+    "challenger": "Bribery",
+    "tradeoff": "Jhoira's ETB already equals Bribery for historic permanents and repeats on attack; owner-removed.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Locke, Treasure Hunter",
+    "challenger": "Nightveil Specter",
+    "tradeoff": "Specter keeps exiled cards indefinitely but must connect in the air; Locke sees every player's card and makes Treasure on lands.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Fellwar Stone",
+    "challenger": "Memory Plunder",
+    "tradeoff": "Owner rejected Memory Plunder; 35 lands + 9 rocks is the minimum ramp for a 3.30 average nonland MV.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Exotic Orchard",
+    "challenger": "Riverpyre Verge",
+    "tradeoff": "Riverpyre (OFF-RANKING, absent from all Don pages) is a third Verge, but Orchard usually makes all three colours in a four-player game while Riverpyre's {U} needs an Island or a Mountain (only 9 such lands).",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Vaan, Street Thief",
+    "challenger": "Robber of the Rich",
+    "tradeoff": "Vaan counts Pirates, so every Don-buffed stolen creature and every foreign cast grows the board; Robber's hand-size condition fails late.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Black Market Connections",
+    "challenger": "Captivating Crew",
+    "tradeoff": "Crew is owner-rejected; BMC's changeling token is ours (no Don buff) but is a Pirate for Coercive Recruiter and Roaming Throne, and BMC draws and ramps.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Lightning Greaves",
+    "challenger": "Swiftfoot Boots",
+    "tradeoff": "Don has no targeted ability, so Greaves' shroud costs nothing and the 0 equip re-protects new thieves.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Toxic Deluge",
+    "challenger": "Heartless Conscription",
+    "tradeoff": "Deluge is the remaining cheap sweeper with Cyclonic Rift after cutting Blasphemous Act.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Siphon Insight",
+    "challenger": "Mnemonic Betrayal",
+    "tradeoff": "Tapped Treasures don't fund the Betrayal turn; Siphon flashes back and banks a card.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Plargg and Nassari",
+    "challenger": "Zara, Renegade Recruiter",
+    "tradeoff": "Zara is owner-removed; Plargg casts two free opposing spells each upkeep.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_MobRule_over_Insurrection_20261023.txt",
+    "sha256": "6ffdaf47d16bb7c17d578d96fa05155d2413c2bb4c6a6803952a93530f73df35",
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Mob Rule"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Insurrection"
+    ],
+    "case_for_extra_swaps": "Pass C Stage A: cheaper RR mass theft that is castable at 6-7 mana, when Insurrection is still stranded in hand.",
+    "why_not_selected": "Bounded grid: at 8 mana Insurrection steals at least as much on 5/5 tables and leaves no blockers; Pass C's final KEEP and the approved list keep it."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_ThievingAmalgam_20261023.txt",
+    "sha256": "dcd5ed862bffe0a630b3f7111cacbb5f0855a5261d54d3204d97488cb6322f38",
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Bribery"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Thieving Amalgam"
+    ],
+    "case_for_extra_swaps": "Pass C named it: Bribery takes the best creature in an opponent's library immediately, with no upkeep delay.",
+    "why_not_selected": "Owner-removed on 2026-10-14; Bribery gives at most one body ever versus Amalgam's three opponent-owned manifests per round."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_Jhoira_20261023.txt",
+    "sha256": "3f2c534a8e2b31a4ccd31c4a9ea8f469d342a3d10f9f55e5e38bb65f018a1efb",
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Bribery"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Jhoira, Weatherlight Corsair"
+    ],
+    "case_for_extra_swaps": "Pass C named it: Bribery picks the best creature immediately and costs one mana less than Jhoira.",
+    "why_not_selected": "Owner-removed on 2026-10-14; Jhoira matches Bribery on entering and repeats on every attack that survives."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_NightveilSpecter_over_Locke_20261023.txt",
+    "sha256": "0509e7c4fa747b4af12ed9ce4a6a86a3ff137f1c5a9951e39787f8c1946280ea",
+    "adds": [
+     "Gríma, Saruman's Footman",
+     "Fallen Shinobi",
+     "Treachery",
+     "Gloomlake Verge",
+     "Blazemire Verge",
+     "Nightveil Specter"
+    ],
+    "cuts": [
+     "Professional Face-Breaker",
+     "Seize the Spotlight",
+     "Blasphemous Act",
+     "Shipwreck Marsh",
+     "Smoldering Marsh",
+     "Locke, Treasure Hunter"
+    ],
+    "case_for_extra_swaps": "Long-lived access to exiled opposing cards for as long as Nightveil Specter lives, at three mana.",
+    "why_not_selected": "Marginal; Locke sees every player's milled card each attack and makes a Treasure on lands, and is evasive against bigger creatures."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Don-specific grounds: Insurrection takes every blocker (bounded grid), Thieving Amalgam and Jhoira out-produce Bribery after one round, Locke and Vaan feed foreign casts and Pirate counters, Fellwar/Exotic Orchard fix a 35-land three-colour list, Lightning Greaves' shroud costs nothing with Don, Toxic Deluge is the remaining cheap wipe, and the owner's 2026-10-14 removals (Bribery, Zara, Memory Plunder, Agent of Treachery, Captivating Crew and others) were not re-added."
+ }
+}

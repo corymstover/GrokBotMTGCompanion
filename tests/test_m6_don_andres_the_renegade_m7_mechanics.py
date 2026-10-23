@@ -348,6 +348,18 @@ class PassCBoundedMeasuredTests(unittest.TestCase):
         self.assertEqual(sum(v[1] for v in six.values()), 115)
         self.assertTrue(all(g[("insurrection", t, 7, True)] == (False, 0, 0, 0) for t in TABLES))
 
+    def test_red_pip_availability_rr_vs_rrr(self):
+        # Pass C asked for "6/7/8 mana red availability": lands-only P(>= 2 / >= 3 red-producing lands among the top 13
+        # cards, i.e. turn 7 on the play). Rocks (two Talismans, two Signets, Arcane Signet, Fellwar Stone) and Treasures
+        # also make red, so these are floors; the Verges are counted at their unconditional colour (Blazemire = B).
+        b, c = names(BASE), names(CAND)
+        r = lambda d, k, v=False: round(float(colour_access(d, 13, {"R": k}, k, False, v)), 4)
+        self.assertEqual((r(b, 2), r(b, 3)), (0.8396, 0.5901))
+        self.assertEqual((r(c, 2), r(c, 3)), (0.8169, 0.5529))
+        self.assertEqual((r(c, 2, True), r(c, 3, True)), (0.8396, 0.5901))
+        red = lambda d: sum(q for n, q in d.items() if "R" in LAND_COLORS.get(n, "") and not LAND_COLORS[n].endswith("*"))
+        self.assertEqual((red(b), red(c)), (22, 21))  # fetches count; 22 again with Blazemire's conditional {R}
+
     # (b) Bribery vs Thieving Amalgam / Jhoira
     def test_bribery_vs_named_cuts(self):
         rows = {d: (bribery(d), amalgam(d), jhoira(d)) for d in DENSITIES}
