@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE14_PROVISIONAL_STRATEGIC_SELECTION_RESEARCH_ONLY",
+  "date": "2026-10-23_America_Chicago",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "owner_ready": false,
+  "canonical_locked_unchanged": true,
+  "admiral_locked_unchanged": true,
+  "deck3_hold": true,
+  "explicit_owner_approval_for_new_list": false,
+  "formal_m6_certification": false,
+  "m6_ij_candidate_specific_rebound": false,
+  "reference_canonical": {
+    "path": "corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "physical_cards": 100,
+    "lands": 34
+  },
+  "preferred_provisional": {
+    "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+    "raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+    "physical_cards": 100,
+    "lands": 34,
+    "swaps": 6,
+    "add": [
+      "Impact Tremors",
+      "Sanctum of Stone Fangs",
+      "Coruscation Mage",
+      "Sakashima of a Thousand Faces",
+      "Mount Doom",
+      "Sheoldred, the Apocalypse"
+    ],
+    "cut": [
+      "Thermo-Alchemist",
+      "The Ruinous Powers",
+      "Kessig Flamebreather",
+      "Keeper of Secrets",
+      "Mountain",
+      "Ponder"
+    ],
+    "selection_class": "QUALITATIVE_PROVISIONAL_NOT_M7_READY"
+  },
+  "alternative_100s": [
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_five_research_20261023.txt",
+      "raw_sha256": "131b59af4a4ad413107bfa24012495d527a533eb91e6c5d10d9517342ac90d65",
+      "swaps": 5,
+      "status": "RETAIN_ALTERNATIVE_RESEARCH_ONLY"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_warhammer_six_research_20261023.txt",
+      "raw_sha256": "0de1d376595a3bc51cb31e6bbbf9b87593d629482bc335c83ff46b5aad25bd7d",
+      "swaps": 6,
+      "status": "RETAIN_ALTERNATIVE_RESEARCH_ONLY"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_wheel_seven_research_20261023.txt",
+      "raw_sha256": "eb150d6981e89a3e3bee46528108cdc4630a4b509ff8c07bf10f72e340762df3",
+      "swaps": 7,
+      "status": "RETAIN_ALTERNATIVE_RESEARCH_ONLY"
+    }
+  ],
+  "source_refs": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_ten_EDHREC_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_new_EDHREC_protected_engine_decisions_20261023.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_openended_sanctum_wheel_warhammer_portfolios_20261022.json",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+  ],
+  "strategic_choice": "Prefer six real role changes over the five minimum; retain both Noise Marine printed cascade and Nalfeshnee exile-casting copies rather than deleting two Warhammer engines to manufacture seven. Compared with alternate six Exalted Flamer recursion, Sheoldred gives a distinct on-turn Wheel/Windfall mass life-loss scaling engine, lower risk of needing to survive to next upkeep once assembled, but raises the B/B and Ponder-cut issue. This is a reasoned candidate, NOT a proof of win rate or completed new M6 I/J.",
+  "candidate_judgments": [
+    {
+      "add": "Impact Tremors",
+      "cut": "Thermo-Alchemist",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "Creates direct paid repeated creature-entry damage with protected Birgi+Ignus+Nightscape and Lost Spawn ETBs; loses Thermo instant/sorc tap-untap threshold access."
+    },
+    {
+      "add": "Sanctum of Stone Fangs",
+      "cut": "The Ruinous Powers",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "At two mana and when survived to first main, enables prior-to-hand-cast X3 with 3 opponents without random target/library or any mana spent on a stolen card; loses four-mana 40K random exile theft and owner-MV burn."
+    },
+    {
+      "add": "Coruscation Mage",
+      "cut": "Kessig Flamebreather",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "Same early 1R broad noncreature red pinger, optional payable Offspring 2 makes a second autonomous pinger and adds two creature-entry events with Impact; lower original creature toughness 2 vs 3, additional mana investment before benefiting."
+    },
+    {
+      "add": "Sakashima of a Thousand Faces",
+      "cut": "Keeper of Secrets",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "At 4MV copy Abaddon for a second independent commander cascade grant on every qualifying hand spell, while retaining original Abaddon through Sakashima legend-rule text; gives up Keeper's 6MV independent nonhand-cast mana-value-damage Warhammer engine and needs Abaddon available on entry."
+    },
+    {
+      "add": "Mount Doom",
+      "cut": "Mountain",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "Real land utility: on-demand own-turn X3 for 1BR and tap, including under Rule of Law, untapped BR selection and rare larger board-wipe alternative; costs life to tap for color, loses basic Mountain fetch/protection and is not a free cosmetic slot."
+    },
+    {
+      "add": "Sheoldred, the Apocalypse",
+      "cut": "Ponder",
+      "disposition": "SELECT_ADD_PROVISIONAL",
+      "because": "At 4MV with BB, each fully resolving Wheel of Fortune draws seven per opponent and induces X42 later own-turn opponent life loss (X84 with Bloodletter), interacting with current Orcish Bowmasters and Wheel/Windfall; cuts cheap card selection and has conditional high-ceiling opponent-response vulnerability."
+    }
+  ],
+  "other_material_dispositions": [
+    {
+      "card": "Exalted Flamer of Tzeentch",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "40K four-mana recursion can be superior in grindier tables and retains flavor, but random upkeep retrieval and 1-point spell pings are less decisive than a protected own-turn Sheoldred wheel threshold."
+    },
+    {
+      "card": "Scrawling Crawler",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Cheaper unconditional colorless upkeep threshold and Bowmasters/Wheel draw package, but gifts three opponents cards and Wheel incidental loss is half Sheoldred's at X21 versus X42."
+    },
+    {
+      "card": "Ojer Axonil, Deepest Might",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Stronger for repeated red 1-damage pings than Solphim in alternate mage-dense shell, but current Flame Rift/Boltwave and nonred sources favor broader Solphim."
+    },
+    {
+      "card": "Aurora Phoenix",
+      "disposition": "REJECT",
+      "reason": "Cost6 recurrent printed single cascade competes poorly with Noise Marine cost5 direct Sonic Blaster and Call Forth double cascade."
+    },
+    {
+      "card": "Dark Apostle",
+      "disposition": "REJECT",
+      "reason": "3 generic and tap paid to next noncreature cascade after four-mana body slows plan relative to commander grant and Wild-Magic."
+    },
+    {
+      "card": "Cryptolith Fragment // Aurora of Emrakul",
+      "disposition": "REJECT",
+      "reason": "ENTERS TAPPED at 3MV so no imagined immediate mana/loss threshold; worse than T2 Talisman tempo."
+    }
+  ],
+  "postfloor_evidence": "Four freshly verified physical stage13 alternatives (5/6/6/7), three stage12 variants (5/5/6), older 6/8 stage4 stress tests, above-floor loss of Noise vs added Exalted and Sheoldred. A seventh addition requiring removal of Noise Marine is rejected on printed cascade and direct Sonic Blaster value; neither stopping at six nor achieving five establishes proof of global optimum.",
+  "hard_blockers_remaining": [
+    "Execute changed-candidate new-rule cases beyond Stage13 structural math: actual offspring paid token lifecycle, Abaddon duplicate static cascade cast eligibility, Sheoldred draw/wheel post-cast timing, Mount Doom costs and disruption.",
+    "Execute fresh exact current Oracle, official legality and identity audit for all 100 candidate cards without borrowing a baseline-only certificate.",
+    "Bind changed full-100 SHA to new bounded effect-aware M6.6/M6.7/I tested-pool analysis and reproducibility M6 J receipt; previous Rev2 M6 I/J do not transfer.",
+    "CI exact-head all relevant new tests, no unresolved hard blocker, accurate bracket/tags, THEN full owner-ready M7 presentation.",
+    "Cory has not approved exact proposed six-card replacement; preserve canonical."
+  ],
+  "next_action": "Implement source-paid six-candidate mechanic fixtures and exact-head current 100 Scryfall Oracle receipt; re-evaluate Ponder cut and BB on adverse mana hands; do not submit as final until new M6 I/J proof passes."
+}
