@@ -47,7 +47,7 @@ No win rates were measured, and EDHREC prevalence is discovery evidence only.
 **Davros, Dalek Creator** is a {1}{U}{B}{R} 3/4 menace legendary artifact creature, an **Alien Scientist** (not a Dalek). Its Oracle text: "At the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn. Then each opponent who lost 3 or more life this turn faces a villainous choice — You draw a card, or that player discards a card."
 
 Rules points:
-- **603.4.** The condition has no intervening "if" at the start, so it is checked on resolution. Other end-step triggers that we order first count: Wound Reflection, Perforating Artist's raid, Missy's choice, Tinybones and Sygg.
+- **603.4.** The condition has no intervening "if" at the start, so it is checked on resolution. Our other end-step triggers that cause life loss, ordered to resolve first, count toward it: Wound Reflection, Perforating Artist's raid and Missy's choice. Tinybones (draws if an opponent discarded this turn) and Sygg (draws if an opponent lost 3+) are payoffs, not enablers; Tinybones should resolve after Davros so that a discard choice turns it on.
 - **603.3.** Triggers caused by the Dalek token entering (Purphoros, Ingenious Artillerist) go on the stack only after Davros's trigger has finished resolving. So the token can never create the qualifying loss for the trigger that made it. It can help a *later* Davros trigger the same end step (Roaming Throne naming Alien or Scientist, Strionic Resonator, Scientist Supreme, or Auton Soldier's non-legendary Davros copy).
 - **701.55a / 701.55d.** Each qualifying opponent chooses, in APNAP order.
 - **701.55b.** An empty-handed opponent may choose "discard a card" and lose nothing. This is a real weakness.
@@ -104,7 +104,11 @@ Rules points:
 
 ## Adversarial scenarios (please push here)
 1. **Hellbent table (701.55b).** Opponents with no cards in hand choose "discard" and lose nothing.
-   - What still works: Tinybones' 10-life activation; Tergrid's Lantern and Entropic Battlecruiser at 8+ (each opponent who can't discard loses 3); Sycorax deals damage equal to hand size (0 in this case).
+   - What still works:
+     - Tinybones' {4}{B}{B} activation: each opponent with no cards in hand loses 10.
+     - Entropic Battlecruiser at 8+: each opponent who can't discard on its attack loses 3.
+     - Tergrid's Lantern (Tergrid's back face): 3 life, or a nonland permanent sacrificed when they cannot discard.
+   - What fails: Sycorax deals damage equal to hand size, which is 0 here.
    - The 2026-10-13 proposal's hellbent punishers (Bottomless Pit, The Rack, Oppression, Liliana's Caress) were removed by the owner's approved list. Megrim is rejected for the same reason.
 2. **Artifact wipe.** Davros, the Daleks, Roaming Throne, Resonator and the rocks die.
    - What survives: Purphoros, Bloodletter, Tergrid, Tectonic Giant, Wound Reflection and Court of Ambition.

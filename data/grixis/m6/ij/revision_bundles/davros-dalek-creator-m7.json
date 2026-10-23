@@ -34,7 +34,7 @@
   },
   {
    "path": "data/grixis/m7/decision_reviews/Davros__Dalek_Creator.json",
-   "sha256": "sha256:824faaf430fe0b023d597a16474f88b0d1175e9b800443e082737da240740ff9"
+   "sha256": "sha256:520d956907ed36dc9ed869fbc8e168473355e957c433a370ca20434d26896fa2"
   },
   {
    "path": "data/grixis/m7/research_challengers/Davros__Dalek_Creator_EDHREC_discovery_20261023.json",
@@ -118,7 +118,7 @@
   },
   {
    "path": "data/grixis/m7/decision_reviews/Davros__Dalek_Creator_chatgpt_adversarial_review_packet.md",
-   "sha256": "sha256:d4ccbc543c294df821969fc4342f019144f826351142788d98bbe78ff7c2ca81"
+   "sha256": "sha256:eaaf37ca1edafe320271e6480baffe0606ab820dc36c1f9e63399078b6d5232b"
   }
  ],
  "sealed_passes": {
