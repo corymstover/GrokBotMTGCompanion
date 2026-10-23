@@ -29,3 +29,7 @@
 - Correction: Shaun's Synth (entered this turn) needs haste (CR 302.6; Hammer of Purphoros or The Dalek Emperor) to attack in Karlach's extra combat; model/test/rules snapshot updated (Karlach+Shaun = 2 triggers without haste, 3 with).
 - Archidekt tags aligned with Pass C: Artifacts / Extra Combats / Copies.
 - Three M6 preflight memos written. Next: adversarial packet, I/J bundle, candidate/IJ tests, workflow.
+
+## Checkpoint 2026-10-23T07:04:07-05:00 — I/J bundle, tests, workflow
+- I certificate + J bundle (cult-of-skaro-m7) written; bundle checker validates it; gate passes; 187 focused tests pass.
+- Next: finish sequence (remove WIP, full suite, PR ready, CI).
