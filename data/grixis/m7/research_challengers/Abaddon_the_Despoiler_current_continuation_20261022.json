@@ -48,7 +48,7 @@
     "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "RESEARCH_ONLY_STAGE5_SOURCE_PAID_CI_PENDING",
+    "status": "RESEARCH_ONLY_STAGE6_CAST_REACHABILITY_CORRECTION_CI_PENDING",
     "executed_rules_only_test_cases": 9,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
@@ -85,19 +85,25 @@
     "stage5_harmonic_raw_sha256": "d743803d79ffd146ec4fe7318863d0e38e33001d28bb28987cca7c2a54eaa567",
     "stage5_100_card_swap_count": 6,
     "stage5_harmonic_rules_suite": "tests/test_m7_abaddon_harmonic_source_paid.py",
-    "stage5_physical_suite": "tests/test_m7_abaddon_harmonic_full_100_research.py"
+    "stage5_physical_suite": "tests/test_m7_abaddon_harmonic_full_100_research.py",
+    "stage5_merged_pr": 622,
+    "stage5_merged_sha": "554b0e3b22a59da5413084b2544ac13affe4ac05",
+    "stage5_ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39892520403",
+    "stage5_ci_conclusion": "SUCCESS",
+    "stage6_topend_analysis": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage6_mana_value_cascade_disposition_20261022.md",
+    "stage6_timing_test": "tests/test_m7_abaddon_mana_value_reachability.py",
+    "new_topend_finding": "Blood for the Blood God! MV11 cannot be hit by cascade from any of currently approved 100's maximum MV9 spells; Call Forth MV8 can be hit by Blasphemous Act MV9 cascade and carries two printed cascades. Mind's Desire EXCEPTION may cast MV11 Blood free regardless of MV."
   },
   "mandatory_next_deterministic_checks": [
-    "Run Stage4 source/physical package count SHA/legality tests on exact PR head and verify CI outcomes.",
-    "Establish payable anti-stax adversarial case before sacrificing Pact of Negation and Pyroblast; confirm real opportunity-cost impact.",
-    "Compare Harmonic Prodigy, Fiery Confluence, Price of Progress and Ob Nixilis across full roles rather than targeting five swaps."
+    "Execute exact-head Stage6 reachability test and merge only after CI success.",
+    "Keep Call Forth in revised multi-card packages unless demonstrated source-paid Blood/Fiery Confluence choice has higher strategic value than its two printed cascade triggers.",
+    "Test protection and three-color payability with at least one opponent instant-speed response; no repeated broad simulations."
   ],
   "strategic_next": [
-    "Execute Stage5 Harmonic source-paid finite case and physical exact 100 with exact-head CI; never declare it final from counts alone.",
-    "Evaluate explicit Bloodletter vs Harmonic, Ruinous vs Ob, Call Forth vs Blood, Pact/Pyro protection, colored mana and graveyard/game-state fragility relative to current approved 0d9f... source.",
-    "Qualitatively adjudicate off-ranking Fiery Confluence and Price of Progress as genuine further changes beyond the first six, not as padding; compare to existing Boltwave/Flame Rift.",
-    "Complete chosen candidate's full 100-card live Oracle/legality verification, affected mandatory M6/I/J work, bracket/tags and exact SHA before presenting to owner.",
-    "Do not advance deck3 until Cory approves Abaddon's exact new replacement list."
+    "Reconstruct a new strongest full 100 retaining Call Forth and most critical stack protection, after the MV11 Blood vs MV8 double-cascade finding.",
+    "Compare Harmonic Prodigy with alternative cuts that do not sacrifice protected commanders' best cast cascades, plus Ob/Ghyrson/Kederekt, rather than enforcing five or six swaps.",
+    "Perform complete per-card current Oracle/legality and triggered/copy/payability validation for actually selected final 100; update invalidated M6 I/J exact candidate hashes, M6 certification requirements and CI before owner presentation.",
+    "Keep current canon SHA 0d9f6d... locked, Admiral locked, deck3 held until Cory approves exact new Abaddon replacement."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
