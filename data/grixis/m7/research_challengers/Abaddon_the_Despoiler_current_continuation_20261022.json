@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
-  "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_STAGE12_FIVE_SIX_FULL_100_COMPARATIVE_AUDIT_OPEN",
+  "date": "2026-10-23_America_Chicago",
+  "status": "RESEARCH_ONLY_STAGE14_PROTECTED_SIX_CURRENT_ORACLE_PASS_IJ_UNFINISHED",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -297,29 +297,122 @@
       "ci_successful_steps": 83,
       "owner_ready": false,
       "changed_candidate_m6_certified": false
+    },
+    "stage13": {
+      "report": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_new_EDHREC_protected_engine_decisions_20261023.json",
+      "source": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_ten_EDHREC_Scryfall_20261023.json",
+      "tests": "tests/test_m7_abaddon_stage13_offranking_protected_packages.py",
+      "actual_new_cards_source_bound": 10,
+      "substantive_dispositions": 16,
+      "full_100_package_swaps": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "exact_raw_sha256s": [
+        {
+          "name": "protected_five",
+          "sha256": "131b59af4a4ad413107bfa24012495d527a533eb91e6c5d10d9517342ac90d65",
+          "swaps": 5,
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_five_research_20261023.txt"
+        },
+        {
+          "name": "warhammer_six",
+          "sha256": "0de1d376595a3bc51cb31e6bbbf9b87593d629482bc335c83ff46b5aad25bd7d",
+          "swaps": 6,
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_warhammer_six_research_20261023.txt"
+        },
+        {
+          "name": "wheel_seven",
+          "sha256": "eb150d6981e89a3e3bee46528108cdc4630a4b509ff8c07bf10f72e340762df3",
+          "swaps": 7,
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_wheel_seven_research_20261023.txt"
+        },
+        {
+          "name": "protected_wheel_six",
+          "sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+          "swaps": 6,
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt"
+        }
+      ],
+      "insight": "Coruscation Mage {1}{R} optional Offspring {2} makes separate 1/1 copy with same spell ping, creates two Impact ETBs; Stage13 protected 5/6 alternatives keep Noise + Nalfeshnee; Cryptolith Fragment enters tapped, so no immediate turn-of-cast mana/damage.",
+      "merged_pr": 635,
+      "merged_sha": "4e5ca32888f5d8c8e9a81dd607aee7669bea3f7e",
+      "exact_head": "314d19d6a86ae5f1f0f4141b84233132003745a6",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39905557890",
+      "ci_conclusion": "SUCCESS",
+      "ci_passed_steps": 84,
+      "owner_ready": false
+    },
+    "stage14": {
+      "manifest": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage14_provisional_protected_wheel_six_20261023.json",
+      "leading_full_100_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+      "leading_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+      "physical_cards": 100,
+      "lands": 34,
+      "provisional_swaps": 6,
+      "adds": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Coruscation Mage",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom",
+        "Sheoldred, the Apocalypse"
+      ],
+      "cuts": [
+        "Thermo-Alchemist",
+        "The Ruinous Powers",
+        "Kessig Flamebreather",
+        "Keeper of Secrets",
+        "Mountain",
+        "Ponder"
+      ],
+      "kept_on_theme": [
+        "Noise Marine",
+        "Nalfeshnee",
+        "The Lost and the Damned",
+        "Call Forth the Tempest",
+        "Neheb, the Eternal",
+        "Aggravated Assault",
+        "Loyal Subordinate"
+      ],
+      "owner_ready": false,
+      "m6_ij_complete": false,
+      "live_oracle_script": "scripts/grixis_m7_abaddon_stage14_live_oracle.py",
+      "offline_test": "tests/test_m7_abaddon_stage14_candidate_preflight.py",
+      "finding": "Separate current 100 Scryfall Oracle/legality and static physical SHA candidate-specific audit PASS in exact-head CI, which does not itself prove M6 candidate I/J or owner readiness.",
+      "merged_pr": 636,
+      "merged_sha": "ef7a59804149b1e23d53c28f0ff9070231531abf",
+      "exact_pr_head": "e1ff4b45939936dbca2dbc7701b14a969ad41242",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906252605",
+      "ci_conclusion": "SUCCESS",
+      "ci_passed_steps": 87
     }
   },
   "mandatory_next_deterministic_checks": [
-    "Stage12 exact-head PR #633 merged cf5c1f6bba7785c45d67d38584939875712b5149 with CI run 39901266678 SUCCESS 83/83 steps. Reuse full-card five/five/six research packages and source snapshots; do not repeat source-only tests.",
-    "FIRST UNFINISHED DECISION: final qualitative head-to-head of same-100 packages that challenge Ruinous/Ponder/Noise and either Keeper or Nalfeshnee; determine if Sanctum+Impact plus Sheoldred or Exalted and Sakashima/Mount Doom truly makes a better whole deck under adversarial boards, while respecting Warhammer printed cascades, nonhand spell copy/burn and early UBR access.",
-    "Continue unbounded role audit beyond five: examine genuine alternate cut cases that preserve Noise Marine's printed cascade or Ruinous theft or both without severing the Familiar/Ignus, Neheb/Assault/Loyal, Bloodletter/Solphim, Call Forth/protection and 40K exile value core. Treat 5/6 count as tests only, not an optimization target.",
-    "If no honest >=5 genuinely superior package exists after these discriminating judgments, preserve research-only and surface owner governance conflict; never force substitutions or owner-present sub-five.",
-    "Only upon defensible 5+ final: fresh full candidate source Oracle legality, exact 100 and hash, relevant M6 P0/P1 and I/J rebind, reproducibility, exact-head CI before owner final presentation. Abaddon canonical approved locked, Admiral locked and deck3 HOLD."
+    "PR #635 merged SHA 4e5ca32888f5d8c8e9a81dd607aee7669bea3f7e, exact head 314d19d6a86ae5f1f0f4141b84233132003745a6, CI run 39905557890 SUCCESS 84/84. PR #636 merged SHA ef7a59804149b1e23d53c28f0ff9070231531abf, exact head e1ff4b45939936dbca2dbc7701b14a969ad41242, CI run 39906252605 SUCCESS 87/87. Do not repeat already adequate Scryfall discovery/physical 100 tests.",
+    "FIRST UNFINISHED REQUIREMENT: complete candidate-specific effect-aware M6 P0/P1 and I/J tested-pool adjudication for provisional protected_wheel_six SHA 5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24, not old rev2/withdrawn certificate; benchmark six real cuts' timing and counterplay and record actual source-paid fixtures.",
+    "Reconcile protected Noise/Nalfeshnee, conditional Sheoldred+Wheel and the loss of Ponder, Keeper, Ruinous, Kessig, Thermo and one Mountain against plausible adverse boards, colored mana, commander removal and Rule of Law. If source/math suffices, do not launch redundant large simulations.",
+    "Bind current full-100 Oracle receipt from PR #636, actually executed changed-effect fixtures, exact SHA, tests/seed/method limitations, source data and owner-equivalent Pass C waiver into new reproducibility M6 J evidence. No borrowing of old candidate-specific M6 I/J bundle.",
+    "Recheck strategy under no-automatic-five rule and 7/8 swap adversarial packages before declaring new exact 100 owner ready. If sixth Ponder cut or fifth Mount Doom land utility isn't truly superior, revise or keep RESEARCH_ONLY honestly.",
+    "Only after real applicable M6 gate closure and actual exact-head CI may produce a complete owner-presentable Abaddon 100, 3 tags, Bracket and new SHA, ending with exact approval question. Existing Abaddon and Admiral locked canonical unchanged; deck3 HOLD."
   ],
   "strategic_next": [
-    "Stage11 new early threshold option: Sanctum of Stone Fangs at next-turn first-main triggers X3 before a hand MV3 spell and needs only 2 mana setup; Veyran has a much higher conditional stacked cast/copy trigger ceiling but no unconditional early threshold; competing options are not automatically complementary or all upgrades.",
-    "Stage11 Mirkwood Bats supports 40K Spawn and Prosper/Storm-Kiln Treasure create/sac events, yet requires 4 mana and displacing Noise Marine would lose an intrinsic cascade spell. Verify actual source/timing, reject padding.",
-    "Stage10 preserves incumbent Nightscape Familiar: Birgi+Ignus cycle gives +{C} each cast and Abaddon costs {1}{U}{B}{R}; no default Nightscape cut for Veyran.",
-    "Stage10 retains independent Neheb/Aggravated Assault/Loyal under opposing Rule of Law and keeps free interaction stack shields unless a superior precise alternative proves it.",
-    "No final Abaddon replacement is yet verified: canonical 0d9f6d... APPROVED LOCKED and Admiral ff5f... APPROVED LOCKED; deck3 still on hold. Owner must expressly approve exact fully verified new Abaddon SHA before any canonical update."
+    "The leading six now adds Impact Tremors, Sanctum of Stone Fangs, Coruscation Mage, Sakashima of a Thousand Faces, Mount Doom, Sheoldred; cuts Thermo-Alchemist, The Ruinous Powers, Kessig Flamebreather, Keeper of Secrets, Mountain, Ponder. Keeps Noise Marine, Nalfeshnee and full Neheb/Assault/Loyal/Call Forth/Familiar/Birgi/Ignus core.",
+    "Coruscation Mage paid Offspring {2} and Impact Tremors gives separate X3 ETB damage events to 3 opponents, plus two subsequent noncreature cast-ping triggers; never retroactively grant cascade to originating spell.",
+    "Sanctum first-main X3 is contingent on surviving from prior turn; Sheoldred plus a fully resolving own-turn Wheel gives additional X42 later threshold or X84 with Bloodletter, but never retroactive on Wheel's cast.",
+    "Stage13 four complete physical 100s of five/six/six/seven plus Stage12 alternatives explicitly challenge additional swaps; no added seventh Exalted-for-Noise proposal accepted by default.",
+    "DO NOT advance #3 or edit owner locked canon until a new exact Abaddon deck passes ALL changed-candidate M6/M7 gates and Cory explicitly approves it."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
   "source_limitations": [
-    "EDHREC percentages change and optimized-expensive sample of ~16 lists is not representative proof.",
     "Trial package counts and exact SHA are physical-list checks, not legality or strategic strength certification.",
     "Abaddon existing owner approval stays immutable until new owner decision.",
     "The evidence gathered at this point is a reopened research first-pass, not a completed M7 final.",
-    "Stage4's six- and eight-swap research packets are valid candidate configurations for comparison, not proofs of strategic superiority, and do not authorize replacing the locked 0d9f6d... list."
+    "Stage4's six- and eight-swap research packets are valid candidate configurations for comparison, not proofs of strategic superiority, and do not authorize replacing the locked 0d9f6d... list.",
+    "EDHREC Top inclusion / High Lift dynamically vary; actual filters and observed metrics recorded Stage13. Direct Scryfall fetched 10 new card records 2026-10-23 and exact changed 100 refreshed in PR #636 CI.",
+    "Stage14 current Oracle checks are not a full effect-aware gameplay engine, mandatory M6 I/J tested-pool closure, or new owner approval. Proposed six remains research-only."
   ]
 }
