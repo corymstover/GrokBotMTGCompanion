@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE12_POSTFLOOR_UNBOUNDED_100_PORTFOLIO_HEAD_TO_HEAD",
+  "date": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "owner_ready": false,
+  "m6_changed_candidate_certified": false,
+  "canonical_approved_locked_unchanged": true,
+  "admiral_approved_locked_unchanged": true,
+  "deck3_hold": true,
+  "canonical": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "approved_list": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "physical_cards": 100,
+    "lands": 34
+  },
+  "inputs": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_qualitative_100_comparison_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_familiar_mana_and_adversarial_review_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage11_sanctum_bats_precombat_comparison_20261022.json"
+  ],
+  "source_receipts": [
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "cards": [
+        "Abaddon the Despoiler",
+        "Exalted Flamer of Tzeentch",
+        "Noise Marine",
+        "Nalfeshnee",
+        "Keeper of Secrets",
+        "The Ruinous Powers",
+        "Nightscape Familiar",
+        "Bloodletter of Aclazotz",
+        "Solphim, Mayhem Dominus",
+        "Wheel of Fortune",
+        "Windfall",
+        "Ponder"
+      ],
+      "note": "Sakashima is verified in separate stage4 file, not in baseline snapshot; never merge source coverage based on this collective list."
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json",
+      "cards": [
+        "Sakashima of a Thousand Faces"
+      ]
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+      "cards": [
+        "Mount Doom",
+        "Sheoldred, the Apocalypse",
+        "Stormfist Crusader",
+        "Kederekt Parasite"
+      ]
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+      "cards": [
+        "Sanctum of Stone Fangs",
+        "Impact Tremors"
+      ]
+    }
+  ],
+  "edhrec_live_discovery": {
+    "retrieval_date": "2026-10-22_America_Chicago",
+    "all_commander_url": "https://edhrec.com/commanders/abaddon-the-despoiler",
+    "optimized_url": "https://edhrec.com/commanders/abaddon-the-despoiler/optimized",
+    "group_slug_url": "https://edhrec.com/commanders/abaddon-the-despoiler/group-slug",
+    "storm_url": "https://edhrec.com/commanders/abaddon-the-despoiler/storm",
+    "metrics": [
+      {
+        "card": "Exalted Flamer of Tzeentch",
+        "context": "optimized 161 deck sample",
+        "inclusion_percent": 43,
+        "decks": 69,
+        "lift": "15x"
+      },
+      {
+        "card": "Stormfist Crusader",
+        "context": "optimized 161 deck sample",
+        "inclusion_percent": 42,
+        "decks": 67,
+        "lift": "7.7x"
+      },
+      {
+        "card": "Noise Marine",
+        "context": "main 6756 deck sample; high lift",
+        "inclusion_percent": 48,
+        "decks": 3220,
+        "lift": "65x"
+      }
+    ],
+    "qualification": "Discovery and current page metrics only; high lift and inclusion do NOT prove card superiority. Storm theme page still showed historical synergy rather than newer lift labels."
+  },
+  "whole_99_comparison": {
+    "baseline_roles": "Stage4 whole-99 and Stage10–11 protected-line audits remain operative; this review specifically challenges 5 and 6 simultaneous cuts beyond earlier <5 variants.",
+    "guardrails_preserved_in_all_three": [
+      "Nightscape Familiar",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Grinning Ignus",
+      "Neheb, the Eternal",
+      "Aggravated Assault",
+      "Loyal Subordinate",
+      "Call Forth the Tempest",
+      "Pact of Negation",
+      "Pyroblast",
+      "Bloodletter of Aclazotz",
+      "Solphim, Mayhem Dominus",
+      "The Lost and the Damned",
+      "Passionate Archaeologist",
+      "Storm-Kiln Artist",
+      "Prosper, Tome-Bound",
+      "Underworld Breach",
+      "Brain Freeze"
+    ],
+    "challenge_beyond_selected_slots": [
+      "Nightscape Familiar (reject sacrifice: turns on cumulative +{C} per Ignus/Birgi cycle and discounted commander)",
+      "Pyroblast and Pact of Negation (retain: protect stack on critical cascade/loop turn)",
+      "Bloodletter and Solphim (retain: broad loss/damage scaling, while Ob/Ghyrson exact-one package suffers replacement conflicts)",
+      "Call Forth the Tempest (retain: independent printed double cascade and MV8 access)",
+      "Keeper of Secrets versus Nalfeshnee (separately challenged by five-card variants to avoid assuming both six-MV 40K payoffs expendable)"
+    ],
+    "mana_tradeoffs": "Baseline 34 lands and 3 Mountain; each 5/6 package 34 lands and 2 Mountain + one untapped legendary Mount Doom. Doom adds B flexibility and {1}{B}{R},{T} damage-to-all-opponents threshold X3 at the cost of one basic fetch target and 1 life when tapping for B/R. Four of the compared adds are lower MV than replaced nonland incumbents; this alone is not win evidence.",
+    "impact": "Impact is a direct Birgi-front + Grinning Ignus Ignus-ETB all-opponent payoff; Nightscape adds +{C} each sorcery-speed loop, with enemy Rule of Law or removal interrupting. One card Ponder cantrip lost affects selection, Breach setup and cascade hit quality.",
+    "sanctum": "Sanctum is {1}{B} first-main X3 (3 opponents) only if previously on battlefield; guarantees pre-hand-MV3 threshold then, unlike Ruinous {2}{B}{R} random opponent card which may be land. Losing 40K opponent spell theft and owner-life-loss source is real; Ruinous triggers on upkeep but cast-from-exile may yield higher threshold and 40K synergy.",
+    "exalted": "Exalted {2}{U}{R} upkeep random instant/sorcery recursion to HAND creates fresh eligible hand spell for Abaddon; inst/sorc cast ping only raises threshold for LATER hand spells, not the original. Noise Marine printed cascade and Sonic Blaster upon ETB cannot be ignored, especially after Call Forth chaining; Exalted is a returning previously cut 40K contender, not a never-before-seen card.",
+    "sheoldred": "Sheoldred {2}{B}{B} each opponent draw -> lose 2 life. Resolved Wheel of Fortune makes exactly seven draw events per opponent; for three opponents X grows by 3*7*2=42 on that own turn, or 84 under Bloodletter. Cascade granted to that Wheel on casting was locked BEFORE the draw/loss; no retroactive granting. Windfall draw count is variable, not always seven; unassisted opponent draw steps happen off-turn and do NOT raise own-turn X.",
+    "sak": "Sakashima copying controlled Abaddon (if available on entry) supplies a second independent static cascade grant to same eligible hand spell, stacking separately with Spark Double's clone possibility; copying costs {3}{U}, adds commander dependency, and replacing Nalfeshnee gives up copying cast-from-exile spells including permanents. If Abaddon is removed before copy enters, desired target may disappear.",
+    "protected_adversarial": "Rule of Law disallows cascade-hit cast and repeated Ignus creature spells; retained Neheb/Loyal/Assault avoids needing additional spells once assembled. Opposing board wipes take out Sheoldred/Exalted/Sakashima simultaneously; Sanctum/Impact enchantments persist only absent enchantment removal."
+  },
+  "fully_specified_research_alternatives": [
+    {
+      "name": "WARHAMMER_RECURSION_DOUBLE_CASCADE_FIVE",
+      "key": "a",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Exalted Flamer of Tzeentch",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom"
+      ],
+      "cut": [
+        "Ponder",
+        "The Ruinous Powers",
+        "Noise Marine",
+        "Nalfeshnee",
+        "Mountain"
+      ],
+      "reason": "Lower curve, all-opponent pre-main threshold, payable Ignus direct win, recursive 40K spell pinger, second Abaddon cascade source, land-based threshold. But Nalfeshnee copied exile spells/permanents and Noise Marine printed cascade are both substantial protected identity losses.",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_warhammer_recursion_double_cascade_five_20261022.txt",
+      "raw_sha256": "eecbd7ec71a84485e2700cae6da21bf8a4e4d508765336ee286eed245890fc2a",
+      "swaps": 5,
+      "physical_cards": 100,
+      "legal_status": "CANDIDATE_CARDS_SCRYFALL_SNAPSHOT_LEGAL_WITHIN_UBR_NOT_FULL_RECERTIFIED",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "name": "WHEEL_MULTIPLIER_KEEP_EXILE_COPY_FIVE",
+      "key": "b",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Sheoldred, the Apocalypse",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom"
+      ],
+      "cut": [
+        "Ponder",
+        "The Ruinous Powers",
+        "Noise Marine",
+        "Keeper of Secrets",
+        "Mountain"
+      ],
+      "reason": "At 3 opponents Sheoldred + a fully resolving Wheel makes 21 draw triggers worth 42 opponent life loss (84 with Bloodletter), adding large NEXT-hand-spell Abaddon threshold; preserves Nalfeshnee copied-exile engine. But Sheoldred {2}{B}{B} and Wheel require two specific cards, removes Keeper's Warhammer nonhand MV burn, Noise printed cascade, and Ruinous opponent exiling.",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_wheel_multiplier_keep_exile_copy_five_20261022.txt",
+      "raw_sha256": "c95200890ee7bdaf1e95003ce67863713820f39a80e0ec6315d55f881046334b",
+      "swaps": 5,
+      "physical_cards": 100,
+      "legal_status": "CANDIDATE_CARDS_SCRYFALL_SNAPSHOT_LEGAL_WITHIN_UBR_NOT_FULL_RECERTIFIED",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "name": "RECURSION_WHEEL_SIX_BEYOND_FLOOR_CHALLENGE",
+      "key": "c",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Exalted Flamer of Tzeentch",
+        "Sheoldred, the Apocalypse",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom"
+      ],
+      "cut": [
+        "Ponder",
+        "The Ruinous Powers",
+        "Noise Marine",
+        "Nalfeshnee",
+        "Keeper of Secrets",
+        "Mountain"
+      ],
+      "reason": "Best distinct six-change synthesis on paper: early Shrine threshold, Ignus outlet, two different 4-MV engines for spell recursion and wheel multiplier, extra Abaddon cascade, land utility. But removing BOTH Keeper and Nalfeshnee together severely thins nonhand spell damage/copy engines; existing 40K Lost/Passionate/Prosper/Wild-Magic still remain, but this cannot yet be declared globally stronger.",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_recursion_wheel_six_beyond_floor_challenge_20261022.txt",
+      "raw_sha256": "b75ebefe33091634b5fd38ddc273c38cb617f3dcff4318de8b069785ca419a1b",
+      "swaps": 6,
+      "physical_cards": 100,
+      "legal_status": "CANDIDATE_CARDS_SCRYFALL_SNAPSHOT_LEGAL_WITHIN_UBR_NOT_FULL_RECERTIFIED",
+      "status": "RESEARCH_ONLY"
+    }
+  ],
+  "comparative_judgments": [
+    {
+      "card": "Sanctum of Stone Fangs",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "The Ruinous Powers",
+      "reason": "Higher early first-main consistency with one Shrine but loses high-ceiling 40K theft; provisional positive floor, not yet final whole-deck proof."
+    },
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Ponder",
+      "reason": "Strongest directly payable Ignus all-opponent win conversion, but loses low-cost selection and reduces proactive turn1 setup."
+    },
+    {
+      "card": "Exalted Flamer of Tzeentch",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Noise Marine",
+      "reason": "Warhammer 40K recursion and pings into subsequent hand cascade, but Noise's unconditional printed cascade on MV5 and Sonic Blaster are substantive."
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Noise Marine",
+      "reason": "Wheel/Windfall follow-up cascade X ceiling and life buffer, but double black 4MV, conditional wheel access, loss of printed cascade and Warhammer identity."
+    },
+    {
+      "card": "Sakashima of a Thousand Faces",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Nalfeshnee or Keeper of Secrets",
+      "reason": "Additional Abaddon-specific hand cascade source. Nalfeshnee cut loses exile-spell copies and token copy; Keeper cut loses 40K nonhand printed-MV damage."
+    },
+    {
+      "card": "Mount Doom",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "one Mountain",
+      "reason": "Adds black access and paid X3 activation in a land, but costs life on mana tapping and removes one basic fetch/field protection source; not a free cosmetic upgrade."
+    },
+    {
+      "card": "Stormfist Crusader",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "The Ruinous Powers",
+      "reason": "Upkeep X3 and personal draw at two mana, but opponents each draw too; gives them fresh interaction in response to Abaddon, and two-colored BR is harder than Sanctum 1B."
+    },
+    {
+      "card": "Kederekt Parasite",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Exalted Flamer or Sheoldred slot",
+      "reason": "One-B cheaper red-permanent conditioned own Wheel pings, potentially doubled by Solphim, but dies readily and damage one is neither same as Sheoldred lose2 nor always enabled."
+    }
+  ],
+  "stop_rule": "These three whole-100 packages are honestly researched, not treated as selected just because they hit five or six. High-cost new simulations are not justified while cut-loss oracle and role analysis remain decisive. No declaration of M7 global optimality, missing changed-candidate M6 I/J is an explicit hard blocker.",
+  "decisive_status": "No five-or-six portfolio yet demonstrated strong enough after Noise+Ruinous+Keeper/Nalfeshnee 40K identity losses to claim genuine net superiority over the currently approved baseline. Sanctum+Impact promising core; Sheoldred-versus-Exalted and Keeper-versus-Nalfeshnee cuts require final qualitative adjudication. Do not submit these to owner.",
+  "next": "Decide whether any of these broad 100 portfolios genuinely exceeds the baseline under realistic interaction and timing while preserving identity; consider alternatives retaining at least one major Warhammer value engine. If no honest 5+ is demonstrably better after bounded full audit, log an explicit owner-governance conflict rather than padding. Only once a defensible 5+ exact 100 wins: rebind fresh Oracle/legality and M6 changed-candidate P0/P1 I/J, reproducibility SHA and exact-head CI before owner presentation."
+}
