@@ -1,0 +1,2542 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "2581-5065",
+    "uses": [
+     "Helm of Obedience",
+     "Dauthi Voidwalker"
+    ],
+    "produces": [
+     "Exile target opponent's library"
+    ]
+   },
+   {
+    "id": "2163-5065",
+    "uses": [
+     "Helm of Obedience",
+     "Leyline of the Void"
+    ],
+    "produces": [
+     "Exile target opponent's library"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 56,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-3682",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mox Amber"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite colored mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3263-5089",
+    "uses": [
+     "Karn, the Great Creator",
+     "Mycosynth Lattice"
+    ],
+    "produces": [
+     "Activated abilities of permanents your opponents control can't be activated",
+     "Activated abilities can't be activated",
+     "Lock",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2498-3591-4691",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Vilis, Broker of Blood",
+     "Necropotence"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite self-discard triggers",
+     "Near-infinite looting"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "2581-5065",
+    "uses": [
+     "Helm of Obedience",
+     "Dauthi Voidwalker"
+    ],
+    "produces": [
+     "Exile target opponent's library"
+    ]
+   },
+   {
+    "id": "2163-5065",
+    "uses": [
+     "Helm of Obedience",
+     "Leyline of the Void"
+    ],
+    "produces": [
+     "Exile target opponent's library"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 48,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3263-5089",
+    "uses": [
+     "Karn, the Great Creator",
+     "Mycosynth Lattice"
+    ],
+    "produces": [
+     "Activated abilities of permanents your opponents control can't be activated",
+     "Activated abilities can't be activated",
+     "Lock",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2498-3591-4691",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Vilis, Broker of Blood",
+     "Necropotence"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite self-discard triggers",
+     "Near-infinite looting"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_MoxAmber_only_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 54,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_Overburden_keep_MoxAmber_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 50,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-3682",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mox Amber"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite colored mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_PassC_plus_TalismanOfIndulgence_minus_MoxAmber_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 48,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_alt_Bitterblossom_over_CyclonicRift_keep_Windfall_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 54,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_alt_Bitterblossom_over_MagusOfTheMoon_keep_Windfall_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 54,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_rejected_plus_FrozenAether_minus_StaticOrb_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 48,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_rejected_plus_StripMine_minus_GemstoneCaverns_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 48,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_staged_plus_Opposition_minus_MagusOfTheMoon_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 48,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Grixistax___October_2026_staged_plus_Opposition_minus_StaticOrb_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "2581-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Dauthi Voidwalker"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    },
+    {
+     "id": "2163-5065",
+     "uses": [
+      "Helm of Obedience",
+      "Leyline of the Void"
+     ],
+     "produces": [
+      "Exile target opponent's library"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 48,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "3263-5089",
+     "uses": [
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+     ],
+     "produces": [
+      "Activated abilities of permanents your opponents control can't be activated",
+      "Activated abilities can't be activated",
+      "Lock",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "542-2364",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2498-3591-4691",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Vilis, Broker of Blood",
+      "Necropotence"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite self-discard triggers",
+      "Near-infinite looting"
+     ]
+    },
+    {
+     "id": "542-4009",
+     "uses": [
+      "Tidespout Tyrant",
+      "Mox Opal"
+     ],
+     "produces": [
+      "Infinite storm count"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T15:17:20-0500"
+}

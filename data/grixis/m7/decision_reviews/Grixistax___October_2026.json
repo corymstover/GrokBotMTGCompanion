@@ -1,0 +1,763 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Grixistax___October_2026",
+ "canonical_baseline_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+ "canonical_baseline_logical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "commander_identity": {
+  "mechanical_plan": "Partner pair Kraum, Ludevic's Opus ({3}{U}{R} legendary creature with flying and haste; Commander 2016, c16, released 2016-11-11) and Tevesh Szat, Doom of Fools ({4}{B} legendary planeswalker that can be your commander; Commander Legends, cmr, released 2020-11-20); both have Partner. Both commander-legal per live Scryfall, neither a Game Changer, no project exception. The deck ID Grixistax___October_2026 is not a commander name (naming discrepancy recorded); the tracker's 'Kraum, Ludevic's Opus // Tevesh Szat, Doom of Fools' uses ' // ' only as a pair separator. Oracle: Kraum - whenever an opponent casts their second spell each turn, draw a card. Tevesh - +2: create two 0/1 black Thrull creature tokens; +1: you may sacrifice another creature or planeswalker; if you do, draw two cards, then draw another card if the sacrificed permanent was a commander; -10: gain control of all commanders and put all commanders from the command zone onto the battlefield under your control. Plan (owner 2026-10-14): fast mana into asymmetric-in-practice stax (Winter Orb, Static Orb, Tangle Wire, Contamination, Blood Moon, Back to Basics, Trinisphere, Damping Sphere, Chalice, Torpor Orb, Cursed Totem, Overburden) where Tevesh's Thrulls pay Contamination, Skullclamp, Culling the Weak and Diabolic Intent; wins with Helm of Obedience + Leyline of the Void / Dauthi Voidwalker or Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze. The candidate adds a commander-independent Faerie stream for the same sacrifice outlets and a colour-correct rock for both commanders.",
+  "protected_core": [
+   "Kraum, Ludevic's Opus",
+   "Tevesh Szat, Doom of Fools",
+   "Contamination",
+   "Skullclamp",
+   "Winter Orb",
+   "Static Orb",
+   "Tangle Wire",
+   "Blood Moon",
+   "Back to Basics",
+   "Trinisphere",
+   "Damping Sphere",
+   "Chalice of the Void",
+   "Necropotence",
+   "Overburden",
+   "Karn, the Great Creator",
+   "Helm of Obedience",
+   "Leyline of the Void",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Brain Freeze"
+  ],
+  "natural_ceiling": "Power Bracket 5 (rogue/fringe cEDH stax; owner-approved), unchanged. Game Changers: 22 in both baseline and candidate (Ancient Tomb, Chrome Mox, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Narset, Parter of Veils, Necropotence, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Underworld Breach, Vampiric Tutor). Repo EDHTop16 aggregate has only 7 entries and is not used.",
+  "anti_homogenization": "Commander-first to Tevesh's sacrifice/draw Oracle and the stax plan: Bitterblossom feeds Tevesh's +1, Skullclamp and Contamination without Tevesh; Arcane Signet pays both commanders' colours under our own land locks. No turbo card (Thassa's Oracle/Demonic Consultation, Ad Nauseam, rituals beyond Dark Ritual) is added. Distinctness (nonbasic names shared with the registry Archidekt exports, candidate/baseline): Kefka, Court Mage 68/67; Rograkh, Son of Rohgahh + Silas Renn 65/66; Kess, Dissident Mage 65/65; Jeleva, Nephalia's Scourge 64/64. The overlap is the Grixis cEDH staple core (fast mana, tutors, free counters, Underworld Breach). Grixistax-unique against all four in the candidate: Ashiok, Dream Render; Back to Basics; Bitterblossom; Blood Moon; Chalice of the Void; Contamination; Cursed Totem; Cyclonic Rift; Damping Sphere; Helm of Obedience; Karn, the Great Creator; Leyline of the Void; Magus of the Moon; Mana Drain; Narset, Parter of Veils; Notion Thief; Overburden; Sheoldred, the Apocalypse; Skullclamp; Static Orb; Tangle Wire; Torpor Orb; Trinisphere; Winter Orb (plus the two commanders). The swaps lower overlap: Mox Amber is shared with Rograkh/Silas and Windfall with Rograkh/Silas and Kess; Bitterblossom is in none of the four (Arcane Signet is in three). Owner-removed or rejected cards and classes (Arcane Laboratory and the one-spell-cap class, Black Market Connections, Defense Grid, Grafdigger's Cage, Kederekt Parasite, Nekusar, Phyrexian Tyranny, Psychosis Crawler, Exotic Orchard, Luxury Suite, Training Center, Urborg, Tomb of Yawgmoth, the turbo package, Gilded Drake, Dress Down, Mnemonic Betrayal, The One Ring, Hullbreaker Horror, Stranglehold, Vexing Bauble, Chains of Mephistopheles, Nether Void, Smokestack and broad symmetric taxes) are not re-added."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 98 library cards were reviewed (96 rows plus 1 Island, 1 Mountain, 1 Swamp; 100 distinct names). Owner 2026-10-14 adds: Damping Sphere, Necropotence, An Offer You Can't Refuse, Contamination, Dark Ritual, Force of Negation, Mindbreak Trap, Skullclamp, Flooded Strand, Marsh Flats, Arid Mesa, Phyrexian Tower; explicit keeps: Damping Sphere, Trinisphere, Chalice of the Void, Blood Moon, Back to Basics, Necropotence, Overburden, Tangle Wire, Karn, the Great Creator. Neither cut (Mox Amber, Windfall) is in either set. Candidate roles: 26 lands; 7 creatures (Dauthi Voidwalker, Magus of the Moon, Notion Thief, Opposition Agent, Orcish Bowmasters, Ragavan, Nimble Pilferer, Sheoldred, the Apocalypse); 3 planeswalkers (Ashiok, Dream Render; Karn, the Great Creator; Narset, Parter of Veils); 22 artifacts; 10 enchantments (Back to Basics, Bitterblossom, Blood Moon, Contamination, Leyline of the Void, Mystic Remora, Necropotence, Overburden, Rhystic Study, Underworld Breach); 22 instants; 8 sorceries. Stax suite: Winter Orb, Static Orb, Tangle Wire, Trinisphere, Damping Sphere, Chalice of the Void, Torpor Orb, Cursed Totem, Contamination, Blood Moon, Magus of the Moon, Back to Basics, Overburden, Leyline of the Void, Narset, Notion Thief, Opposition Agent.",
+  "mana_base_and_curve": "26 lands unchanged (land colour sources U19/B19/R17 with fetches counted for each colour they can find; colourless-only: Ancient Tomb, Gemstone Caverns). 72 nonland cards; curve MV0 8 -> 7, MV1 18 -> 18, MV2 18 -> 20, MV3 19 -> 18, MV4 8, MV5 1; average nonland MV 2.06 -> 2.07; coloured pips U/B/R 24/26/10 -> 23/27/10. Bounded goldfish (seed 27): mean turn-4 mana sources 3.138 -> 3.193; P(Tevesh castable turn 4) 0.1526 -> 0.1657; P(UU turn 4 under Contamination) 0.038 -> 0.053.",
+  "interaction_resilience": "Fourteen stack-interaction cards (Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mana Drain, Flusterstorm, Swan Song, Mental Misstep, Mindbreak Trap, Pyroblast, Red Elemental Blast, An Offer You Can't Refuse, Deflecting Swat, Chain of Vapor as protection), plus Orcish Bowmasters, Toxic Deluge, Deadly Rollick, Cyclonic Rift, Otawara. Weak to artifact/enchantment removal of the lock pieces and to our own colour starvation; Bitterblossom adds bodies that survive artifact hate (engine online under artifact hate 0.036 -> 0.1071). Cost: blue pitch cards 22 -> 21.",
+  "weakest_slots": [
+   {
+    "card": "Mox Amber",
+    "weakness": "Live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4; Karn-only boards make no mana; partner cEDH 18/81.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "CUT for Arcane Signet (genuine swap 1). Not an owner card."
+   },
+   {
+    "card": "Windfall",
+    "weakness": "Symmetric refill for opponents in a stax deck; in no Spellbook combo here; Wheel of Fortune covers the combo role.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "CUT for Bitterblossom (genuine swap 2). Not an owner card; counter-evidence partner cEDH 53/81 disclosed."
+   },
+   {
+    "card": "Static Orb",
+    "weakness": "Symmetric two-permanent untap cap; anti-synergy with Opposition and our own rocks.",
+    "alternative_named": "Opposition",
+    "reasoning": "Kept: deployability (P(seen and castable by turn 4) 0.0599 vs Opposition 0.0329; under Contamination 0.0584 vs 0.0034). Opposition staged."
+   },
+   {
+    "card": "Magus of the Moon",
+    "weakness": "Redundant, fragile Moon creature; a nontoken creature that returns our land under Overburden.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: third land-lock piece behind Blood Moon and Back to Basics; staged as alternative cut for Bitterblossom and Opposition."
+   },
+   {
+    "card": "Cyclonic Rift",
+    "weakness": "Seven-mana overload under our own Orbs; Game Changer.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: the main mass answer to opposing boards (partner cEDH 50/81); staged as alternative cut."
+   },
+   {
+    "card": "Cursed Totem",
+    "weakness": "Symmetric: also stops our own creatures' activated abilities (none in the commanders; Ragavan's dash is not an activated ability on the battlefield).",
+    "alternative_named": "Null Rod",
+    "reasoning": "Kept: partner cEDH 22/81; Null Rod would shut our own artifacts."
+   },
+   {
+    "card": "Torpor Orb",
+    "weakness": "Stops our own Orcish Bowmasters' enter trigger and Overburden's trigger (ruling 2024-04-12).",
+    "alternative_named": "Frozen Aether",
+    "reasoning": "Kept: stops opposing ETB value engines; the Overburden tension is a disclosed baseline issue between incumbents."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "Narrow colour hoser that only hits blue.",
+    "alternative_named": "Spell Pierce",
+    "reasoning": "Kept: partner cEDH 60/81; one mana answer to blue combo."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "Only counters mana-value-1 spells.",
+    "alternative_named": "Dispel",
+    "reasoning": "Kept: free; partner cEDH 71/81."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Colourless without a luck counter.",
+    "alternative_named": "Strip Mine",
+    "reasoning": "Kept: partner cEDH 73/81; Strip Mine dies to our Moon."
+   },
+   {
+    "card": "Chain of Vapor",
+    "weakness": "Opponents can copy it back to bounce our lands.",
+    "alternative_named": "Cyclonic Rift",
+    "reasoning": "Kept: partner cEDH 65/81; one-mana bounce."
+   },
+   {
+    "card": "Jeska's Will",
+    "weakness": "Mana depends on the opponent's hand.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 58/81; Spellbook 1368-1878-2706."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random discard can lose the tutored card.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 72/81; cheap red tutor."
+   },
+   {
+    "card": "Wishclaw Talisman",
+    "weakness": "Hands the tutor to an opponent.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 66/81; asymmetric with our own stax (Torpor/Cursed Totem do not stop it)."
+   },
+   {
+    "card": "Overburden",
+    "weakness": "Bounces our own lands when Kraum or other nontoken creatures enter; turned off by our own Torpor Orb.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner explicit keep; Pass C competing cut tested and rejected. Kept."
+   },
+   {
+    "card": "Karn, the Great Creator",
+    "weakness": "Colourless; does not enable Mox Amber.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner explicit keep (2026-10-14). Kept."
+   },
+   {
+    "card": "Tangle Wire",
+    "weakness": "Symmetric fading tax on our own permanents too.",
+    "alternative_named": "Opposition",
+    "reasoning": "Owner explicit keep; tokens tap for it. Kept."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 5 rogue cEDH stax list (2026-10-14) with 12 owner additions. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING and retained the list, asking for +Talisman of Indulgence -Mox Amber, Arcane Signet vs Mox Amber, and any source-paid competing cut (Overburden/Karn). This M7 pass ran bounded seeded versions: Arcane Signet beats both Mox Amber and Talisman of Indulgence; Overburden/Karn are kept.",
+  "candidate_pool_scope": "EDHREC Kraum + Tevesh partner general (435), upgraded (19), optimized (19) and cEDH (81) pages plus the solo Tevesh Szat, Doom of Fools page (122); live Scryfall /cards/collection batch (214 names, off-identity excluded); OFF-RANKING checks for stax cards absent from every page; Commander Spellbook for baseline, candidate and all 9 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file. Repo EDHTop16 aggregate (7 entries) not used.",
+  "off_ranked_search_conclusion": "OFF-RANKING search: Frozen Aether, Braids, Cabal Minion, Null Rod, Sphere of Resistance, Thorn of Amethyst, Lodestone Golem, Stasis, Rising Waters (all absent from every page) were judged and rejected; the deck's own stax incumbents are likewise absent, so absence is not used as evidence. Off-identity: Archon of Emeria, Ethersworn Canonist, Lavinia, Azorius Renegade, Magus of the Tabernacle, Orim's Chant, Silence, Recross the Paths, Talisman of Progress. No off-ranked card is selected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Grixistax October 2026 approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt, blob 86b8d18a, introduced by cc7a938 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Grixistax___October_2026_approved_source_2026-10-14.txt)",
+  "EDHREC Kraum + Tevesh partner pages JSON (general, upgraded, optimized, cEDH) and solo Tevesh page, retrieved partner pages (general, upgraded, optimized, cEDH) 2026-10-23T15:07:34-0500; solo Tevesh Szat, Doom of Fools page 2026-10-23T15:11:43-0500 (America/Chicago), discovery only: data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T15:09:01-0500: data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T15:17:20-0500: data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for stax cards absent from every page (Frozen Aether, Braids, Cabal Minion, Null Rod, Sphere of Resistance, Stasis, Rising Waters)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Grixistax___October_2026.md; data/grixis/m6/deep_reviews/Grixistax___October_2026.md",
+  "Owner 2026-10-14 current-cycle decisions (12 adds, explicit keeps, removals and rejections): canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache) 603.3b, 702.124 (partner), 903.3c, 903.4; frozen rulings: data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+  "Bounded finite measured tests (the Pass C request): seeded goldfish of mana deployment in four lock states (no lock, Contamination, Blood Moon, artifact hate), Mox Amber live rate, Tevesh castability, U/UU access, token engine online, Opposition/Static Orb deployability; tested pool of 12 complete 100s: data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Grixistax___October_2026_M7_tested_configurations_20261023.json; tests/test_m6_grixistax_october_2026_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Arcane Signet",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 414/435, upgraded 18/19, optimized 19/19, cEDH 79/81; solo Tevesh Szat, Doom of Fools 66/122; live Scryfall batch; Pass C requested comparison (Arcane Signet vs Mox Amber)",
+   "role": "{2} artifact: tap for one mana of any colour in your commanders' colour identity (U, B or R for this partner pair).",
+   "named_cuts": [
+    "Mox Amber",
+    "Overburden"
+   ],
+   "incumbent_opportunity_cost": "Mox Amber is not an owner addition or explicit keep. {0} legendary artifact: tap for one mana of any colour among legendary creatures and planeswalkers you control. Its live enablers are only Ragavan, Ashiok, Narset, Sheoldred and the two commanders (Karn is colourless, so a Karn-only board makes no mana; Pass C correction). Bounded goldfish (seed 27, 40000 games): live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4. EDHREC partner cEDH 18/81. Competing cut tested: Overburden (explicit owner keep).",
+   "commander_synergy": "Pays the commanders' coloured costs (Tevesh {4}{B}, Kraum {3}{U}{R}) and the deck's UU spells while Contamination makes every land tap for {B} or Blood Moon makes nonbasics tap for {R}: P(U by turn 4 under Contamination) 0.279 -> 0.330, P(UU) 0.038 -> 0.053; P(UU by turn 4 under Blood Moon) 0.401 -> 0.427. Turns on Mox Opal metalcraft like Amber.",
+   "adversarial_downside": "Costs two mana on turn 1-2 where Amber is free: loses the rare turn-1 Ragavan + Amber line. Dies to the same artifact hate. Mean turn-4 mana 3.138 -> 3.193 and P(Tevesh castable turn 4) 0.1526 -> 0.1657. Spellbook 6 -> 6; Game Changers 22 -> 22.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 1: the Pass C requested test, measured better than Amber in every lock state, near-universal partner cEDH adoption (79/81 vs Amber 18/81), and it dominates Talisman of Indulgence. Cut is not an owner card.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/final_disposition.md",
+    "canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_MoxAmber_only_20261023.txt",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_Overburden_keep_MoxAmber_20261023.txt"
+   ]
+  },
+  {
+   "card": "Bitterblossom",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized 2/19, cEDH absent; solo Tevesh Szat, Doom of Fools 40/122; live Scryfall batch",
+   "role": "{1}{B} enchantment — Faerie: at the beginning of your upkeep, lose 1 life and create a 1/1 black Faerie Rogue with flying.",
+   "named_cuts": [
+    "Windfall",
+    "Cyclonic Rift",
+    "Magus of the Moon"
+   ],
+   "incumbent_opportunity_cost": "Windfall is not an owner addition or explicit keep. {2}{U} sorcery: each player discards their hand and draws that many cards (the largest number discarded). It refills opponents unless Narset or Notion Thief is on the battlefield (deep-review defect for a stax deck), loses its graveyard value while the owner-added Necropotence is out (Necropotence: whenever you discard a card, exile that card from your graveyard, so the discarded hand is no Underworld Breach fuel), and appears in no Commander Spellbook combo in this list (Wheel of Fortune carries 1368-1878-2706 and 1368-2706-3518). Counter-evidence: EDHREC partner cEDH 53/81 (mostly turbo Breach lists). It is one of the deck's 22 blue Force of Will / Force of Negation pitch cards (22 -> 21 in the candidate). Alternative cuts staged: Cyclonic Rift (Game Changer, 50/81) and Magus of the Moon (redundant Moon creature).",
+   "commander_synergy": "Commander-independent fodder for the deck's Tevesh/Thrull sacrifice plan: Tevesh's +1 (sacrifice a creature: draw two), Skullclamp (Faerie becomes 2/0, dies, draw two), Contamination's upkeep sacrifice (order the Bitterblossom trigger first, CR 603.3b), Phyrexian Tower, Culling the Weak, Diabolic Intent and Beseech the Mirror's bargain (Bitterblossom itself or a token). Under Tangle Wire the Faerie taps for the fade cost. Measured (Tevesh needs five mana including {B}): P(token engine online by turn 4) 0.1532 (Tevesh only) -> 0.2309, under Contamination 0.1187 -> 0.2019, Blood Moon 0.1111 -> 0.1807, artifact hate 0.036 -> 0.1071.",
+   "adversarial_downside": "One life per upkeep with Necropotence and Mana Confluence in the deck; a two-mana setup turn. Windfall's partner cEDH adoption is 53/81 while Bitterblossom appears on the solo Tevesh page (40/122) and only 2/19 optimized partner lists; the partner cEDH sample is turbo-dominated. Force pitch blue count 22 -> 21 (colour from Oracle, Pact of Negation blue by colour indicator; P(another blue card with a Force in hand) turn 1 0.7748 -> 0.756). Spellbook 6 -> 6.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 2: makes the stax plan's sacrifice outlets live without Tevesh, measured +7.8 points engine-online by turn 4, and replaces a symmetric refill wheel that is in no combo. Moderate confidence; cut is not an owner card; alternative cuts staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/deep_reviews/Grixistax___October_2026.md",
+    "canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_CyclonicRift_keep_Windfall_20261023.txt",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_MagusOfTheMoon_keep_Windfall_20261023.txt"
+   ]
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 229/435, upgraded 11/19, optimized 10/19, cEDH 45/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; Pass C priority challenger (+Talisman of Indulgence -Mox Amber)",
+   "role": "{2} artifact: {C}, or {B}/{R} and 1 damage to you.",
+   "named_cuts": [
+    "Mox Amber"
+   ],
+   "incumbent_opportunity_cost": "Mox Amber is not an owner addition or explicit keep. {0} legendary artifact: tap for one mana of any colour among legendary creatures and planeswalkers you control. Its live enablers are only Ragavan, Ashiok, Narset, Sheoldred and the two commanders (Karn is colourless, so a Karn-only board makes no mana; Pass C correction). Bounded goldfish (seed 27, 40000 games): live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4. EDHREC partner cEDH 18/81.",
+   "commander_synergy": "Unconditional B/R rock usable under Moon/Contamination recovery.",
+   "adversarial_downside": "Same raw mana as Arcane Signet (turn-4 mean 3.193) but cannot make blue: P(U by turn 4 under Contamination) 0.272 vs Signet 0.330 (baseline 0.279); pings for coloured mana. Partner cEDH 45/81 vs Signet 79/81.",
+   "judgment": "REJECT",
+   "reason": "Dominated by Arcane Signet for the same slot.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/final_disposition.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_TalismanOfIndulgence_minus_MoxAmber_20261023.txt"
+   ]
+  },
+  {
+   "card": "Opposition",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized 1/19, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "{2}{U}{U} enchantment: tap an untapped creature you control: tap target artifact, creature or land.",
+   "named_cuts": [
+    "Static Orb",
+    "Magus of the Moon"
+   ],
+   "incumbent_opportunity_cost": "Static Orb is a two-permanent untap lock (not an owner add or keep); Magus of the Moon is a redundant Moon creature.",
+   "commander_synergy": "Turns Thrulls and Faeries into Rishadan Ports: tap opponents' lands on their upkeep under Winter Orb. Summoning-sick creatures can pay (not a {T} cost; ruling 2022-12-08).",
+   "adversarial_downside": "UU under our own Contamination/Blood Moon is hard: P(seen and castable by turn 4) 0.0329 with no lock and 0.0034 under Contamination vs Static Orb 0.0599/0.0584; conflicts with Static Orb's two-permanent untap cap. Off-ranking for the pair cEDH page (1/19 optimized only).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a complete 100 against each cut; not counted because deployability data argue against it.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_StaticOrb_20261023.txt",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_MagusOfTheMoon_20261023.txt"
+   ]
+  },
+  {
+   "card": "Fellwar Stone",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 286/435, upgraded 14/19, optimized 11/19, cEDH 61/81; solo Tevesh Szat, Doom of Fools 14/122; live Scryfall batch",
+   "role": "{2} artifact: tap for a colour an opponent's land could produce.",
+   "named_cuts": [
+    "Mox Amber"
+   ],
+   "incumbent_opportunity_cost": "Mox Amber is not an owner addition or explicit keep. {0} legendary artifact: tap for one mana of any colour among legendary creatures and planeswalkers you control. Its live enablers are only Ragavan, Ashiok, Narset, Sheoldred and the two commanders (Karn is colourless, so a Karn-only board makes no mana; Pass C correction). Bounded goldfish (seed 27, 40000 games): live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4. EDHREC partner cEDH 18/81.",
+   "commander_synergy": "A second two-mana rock for the commanders' costs.",
+   "adversarial_downside": "Colours depend on opponents' lands, which our own Blood Moon / Back to Basics / Contamination reshape (often only R or B); Arcane Signet is strictly more reliable for the same slot.",
+   "judgment": "REJECT",
+   "reason": "Dominated by Arcane Signet in a deck that rewrites lands' colours.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Frozen Aether",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{3}{U} enchantment: opponents' permanents enter tapped.",
+   "named_cuts": [
+    "Static Orb"
+   ],
+   "incumbent_opportunity_cost": "Static Orb is a two-mana untap lock.",
+   "commander_synergy": "Taxes opposing mana rocks and creatures.",
+   "adversarial_downside": "Four mana; does not affect permanents already in play or instant-speed combo. Absent from every EDHREC page.",
+   "judgment": "REJECT",
+   "reason": "Slower and weaker than the incumbent lock.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_FrozenAether_minus_StaticOrb_20261023.txt"
+   ]
+  },
+  {
+   "card": "Braids, Cabal Minion",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{2}{B}{B} creature: each player's upkeep, that player sacrifices an artifact, creature or land.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Windfall is not an owner addition or explicit keep. {2}{U} sorcery: each player discards their hand and draws that many cards (the largest number discarded). It refills opponents unless Narset or Notion Thief is on the battlefield (deep-review defect for a stax deck), loses its graveyard value while the owner-added Necropotence is out (Necropotence: whenever you discard a card, exile that card from your graveyard, so the discarded hand is no Underworld Breach fuel), and appears in no Commander Spellbook combo in this list (Wheel of Fortune carries 1368-1878-2706 and 1368-2706-3518). Counter-evidence: EDHREC partner cEDH 53/81 (mostly turbo Breach lists). It is one of the deck's 22 blue Force of Will / Force of Negation pitch cards (22 -> 21 in the candidate).",
+   "commander_synergy": "Thrull/Faerie tokens pay the sacrifice.",
+   "adversarial_downside": "Smokestack class, which the owner rejected on 2026-10-14; inadmissible.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected Smokestack class (2026-10-14).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Strip Mine",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded 1/19, optimized 1/19, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "Land: {T} colourless; {T}, sacrifice: destroy target land.",
+   "named_cuts": [
+    "Gemstone Caverns"
+   ],
+   "incumbent_opportunity_cost": "Gemstone Caverns is any colour with a luck counter (partner cEDH 73/81).",
+   "commander_synergy": "Land destruction suits the stax plan.",
+   "adversarial_downside": "Colourless; under our own Blood Moon or Magus it is a Mountain without the ability. Partner cEDH absent.",
+   "judgment": "REJECT",
+   "reason": "Anti-synergy with our own Moon effects.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_StripMine_minus_GemstoneCaverns_20261023.txt"
+   ]
+  },
+  {
+   "card": "City of Traitors",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 86/435, upgraded absent, optimized 2/19, cEDH 42/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "Land: {T} for {C}{C}; sacrificed when you play another land.",
+   "named_cuts": [
+    "Arid Mesa"
+   ],
+   "incumbent_opportunity_cost": "Arid Mesa is an owner-added fetch.",
+   "commander_synergy": "Burst toward Tevesh at five mana.",
+   "adversarial_downside": "Colourless; becomes a Mountain under our Blood Moon; overrides an owner addition without clear evidence (partner cEDH 42/81).",
+   "judgment": "REJECT",
+   "reason": "Does not clearly beat the owner addition.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Praetor's Grasp",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 140/435, upgraded absent, optimized 5/19, cEDH 49/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "{1}{B}{B} sorcery: search target opponent's library, exile a card face down; you may play it.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Windfall is not an owner addition or explicit keep. {2}{U} sorcery: each player discards their hand and draws that many cards (the largest number discarded). It refills opponents unless Narset or Notion Thief is on the battlefield (deep-review defect for a stax deck), loses its graveyard value while the owner-added Necropotence is out (Necropotence: whenever you discard a card, exile that card from your graveyard, so the discarded hand is no Underworld Breach fuel), and appears in no Commander Spellbook combo in this list (Wheel of Fortune carries 1368-1878-2706 and 1368-2706-3518). Counter-evidence: EDHREC partner cEDH 53/81 (mostly turbo Breach lists). It is one of the deck's 22 blue Force of Will / Force of Negation pitch cards (22 -> 21 in the candidate).",
+   "commander_synergy": "Steals an opposing combo piece.",
+   "adversarial_downside": "Three mana BB; the tutor suite (Demonic, Vampiric, Mystical, Imperial Seal, Diabolic Intent, Gamble, Beseech, Wishclaw, Tainted Pact) is already full; no stax synergy. Partner cEDH 49/81.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than the stax-synergy add for the slot.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Snuff Out",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded 2/19, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools 24/122; live Scryfall batch",
+   "role": "{3}{B} instant; free by paying 4 life with a Swamp: destroy target nonblack creature.",
+   "named_cuts": [
+    "Deadly Rollick"
+   ],
+   "incumbent_opportunity_cost": "Deadly Rollick is a free exile spell with a commander in play.",
+   "commander_synergy": "Free removal that keeps mana for locks.",
+   "adversarial_downside": "Needs a Swamp in play for the free mode (basic Swamp plus typed Underground Sea, Watery Grave, Morphic Pool and Badlands/Blood Crypt via fetches) and hits only nonblack creatures, while Deadly Rollick exiles any creature. Marginal.",
+   "judgment": "REJECT",
+   "reason": "Marginal; not better than Deadly Rollick.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Spell Pierce",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 46/435, upgraded absent, optimized 2/19, cEDH 9/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "{U} instant: counter target noncreature spell unless its controller pays {2}.",
+   "named_cuts": [
+    "Mental Misstep"
+   ],
+   "incumbent_opportunity_cost": "Mental Misstep is free (partner cEDH 71/81).",
+   "commander_synergy": "A cheap blue Force of Will pitch card.",
+   "adversarial_downside": "Soft counter; partner cEDH 9/81. Not better than the free incumbent.",
+   "judgment": "REJECT",
+   "reason": "Lower adoption and costs mana versus a free incumbent.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dispel",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 90/435, upgraded absent, optimized 3/19, cEDH 29/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "{U} instant: counter target instant spell.",
+   "named_cuts": [
+    "Mental Misstep"
+   ],
+   "incumbent_opportunity_cost": "Mental Misstep is free (71/81).",
+   "commander_synergy": "A cheap blue Force of Will pitch card.",
+   "adversarial_downside": "Narrow; costs mana; partner cEDH 29/81.",
+   "judgment": "REJECT",
+   "reason": "Not better than the free incumbent.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Null Rod",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{2} artifact: activated abilities of artifacts can't be activated.",
+   "named_cuts": [
+    "Static Orb"
+   ],
+   "incumbent_opportunity_cost": "Static Orb is an asymmetric-in-practice untap lock.",
+   "commander_synergy": "Stops opposing rocks and Moxen.",
+   "adversarial_downside": "Shuts off our own 14 artifact mana sources, Skullclamp, Helm of Obedience and Wishclaw; absent from every page.",
+   "judgment": "REJECT",
+   "reason": "Self-defeating with our own artifact mana.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Urza's Saga",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 96/435, upgraded 2/19, optimized 4/19, cEDH 31/81; solo Tevesh Szat, Doom of Fools 8/122; live Scryfall batch",
+   "role": "Saga land; chapter III tutors a 0/1-cost artifact.",
+   "named_cuts": [
+    "Gemstone Caverns"
+   ],
+   "incumbent_opportunity_cost": "Gemstone Caverns is coloured mana.",
+   "commander_synergy": "Finds Lion's Eye Diamond, Lotus Petal, Chalice, Moxen.",
+   "adversarial_downside": "Our own Blood Moon / Magus removes its chapter abilities so it is sacrificed at once (lore counters with no chapters); colourless. Partner cEDH 31/81.",
+   "judgment": "REJECT",
+   "reason": "Sacrificed at once under our own Moon effects.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Sphere of Resistance",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{2} artifact: spells cost {1} more.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Windfall is not an owner addition or explicit keep. {2}{U} sorcery: each player discards their hand and draws that many cards (the largest number discarded). It refills opponents unless Narset or Notion Thief is on the battlefield (deep-review defect for a stax deck), loses its graveyard value while the owner-added Necropotence is out (Necropotence: whenever you discard a card, exile that card from your graveyard, so the discarded hand is no Underworld Breach fuel), and appears in no Commander Spellbook combo in this list (Wheel of Fortune carries 1368-1878-2706 and 1368-2706-3518). Counter-evidence: EDHREC partner cEDH 53/81 (mostly turbo Breach lists). It is one of the deck's 22 blue Force of Will / Force of Negation pitch cards (22 -> 21 in the candidate).",
+   "commander_synergy": "Another symmetric tax piece for the lock.",
+   "adversarial_downside": "Broad symmetric tax class rejected by the owner on 2026-10-14; inadmissible. Thorn of Amethyst and Lodestone Golem are the same class.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected broad symmetric tax class.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Stasis",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{1}{U} enchantment: players skip untap steps; upkeep pay {U} or sacrifice.",
+   "named_cuts": [
+    "Static Orb"
+   ],
+   "incumbent_opportunity_cost": "Static Orb is the incumbent untap lock.",
+   "commander_synergy": "Hard lock alongside Winter Orb and Static Orb.",
+   "adversarial_downside": "Locks our own commanders and rocks too and demands {U} each upkeep under our own Contamination/Moon; Rising Waters has the same issue. Absent from every page.",
+   "judgment": "REJECT",
+   "reason": "Self-locking under our own colour locks; not better.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Valley Floodcaller",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 132/435, upgraded absent, optimized 4/19, cEDH 49/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "{1}{U} flash creature; untaps Wizards with noncreature spells.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Windfall is not an owner addition or explicit keep. {2}{U} sorcery: each player discards their hand and draws that many cards (the largest number discarded). It refills opponents unless Narset or Notion Thief is on the battlefield (deep-review defect for a stax deck), loses its graveyard value while the owner-added Necropotence is out (Necropotence: whenever you discard a card, exile that card from your graveyard, so the discarded hand is no Underworld Breach fuel), and appears in no Commander Spellbook combo in this list (Wheel of Fortune carries 1368-1878-2706 and 1368-2706-3518). Counter-evidence: EDHREC partner cEDH 53/81 (mostly turbo Breach lists). It is one of the deck's 22 blue Force of Will / Force of Negation pitch cards (22 -> 21 in the candidate).",
+   "commander_synergy": "Turbo combo piece; no stax interaction.",
+   "adversarial_downside": "No stax role; owner rejected turbo creep on 2026-10-14. Displacer Kitten and Hexing Squelcher are the same off-plan class.",
+   "judgment": "REJECT",
+   "reason": "Off-plan turbo creep the owner rejected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Undercity Sewers",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general 115/435, upgraded 7/19, optimized 8/19, cEDH 28/81; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch",
+   "role": "Island Swamp land; enters tapped; surveil 1.",
+   "named_cuts": [
+    "Gemstone Caverns"
+   ],
+   "incumbent_opportunity_cost": "Gemstone Caverns is an untapped any-colour land.",
+   "commander_synergy": "Fetchable U/B source with surveil.",
+   "adversarial_downside": "Enters tapped in a fast-mana stax shell; partner cEDH 28/81.",
+   "judgment": "REJECT",
+   "reason": "Enters tapped; not better than Gemstone Caverns.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Archon of Emeria",
+   "source": "EDHREC Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools partner general absent, upgraded absent, optimized absent, cEDH absent; solo Tevesh Szat, Doom of Fools absent; live Scryfall batch; OFF-RANKING (absent from every Kraum/Tevesh partner page and the solo Tevesh page)",
+   "role": "{2}{W} creature: each player can't cast more than one spell each turn.",
+   "named_cuts": [
+    "Static Orb"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "Not assessed: the card is invalid here.",
+   "adversarial_downside": "White, outside U/B/R (live Scryfall); also the owner-removed one-spell-cap class. Ethersworn Canonist, Lavinia, Azorius Renegade, Magus of the Tabernacle, Orim's Chant, Silence, Recross the Paths and Talisman of Progress are likewise off-identity.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Outside U/B/R colour identity.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Arcane Signet",
+   "Bitterblossom"
+  ],
+  "cuts": [
+   "Mox Amber",
+   "Windfall"
+  ],
+  "coherent_package_tradeoff": "Two swaps: +Arcane Signet -Mox Amber trades a free but rarely live Mox for a two-mana rock that makes U/B/R under our own Contamination and Moon locks; +Bitterblossom -Windfall trades a symmetric wheel for a one-sided Faerie stream that feeds Tevesh, Skullclamp and Contamination. Game Changers stay at 22; lands stay at 26; Spellbook combos stay at 6; blue pitch cards 22 -> 21; Bitterblossom costs 1 life per upkeep. Neither cut is an owner addition or explicit keep."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Mox Amber",
+    "weakness": "Live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4; Karn-only boards make no mana; partner cEDH 18/81.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "CUT for Arcane Signet (genuine swap 1). Not an owner card."
+   },
+   {
+    "card": "Windfall",
+    "weakness": "Symmetric refill for opponents in a stax deck; in no Spellbook combo here; Wheel of Fortune covers the combo role.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "CUT for Bitterblossom (genuine swap 2). Not an owner card; counter-evidence partner cEDH 53/81 disclosed."
+   },
+   {
+    "card": "Static Orb",
+    "weakness": "Symmetric two-permanent untap cap; anti-synergy with Opposition and our own rocks.",
+    "alternative_named": "Opposition",
+    "reasoning": "Kept: deployability (P(seen and castable by turn 4) 0.0599 vs Opposition 0.0329; under Contamination 0.0584 vs 0.0034). Opposition staged."
+   },
+   {
+    "card": "Magus of the Moon",
+    "weakness": "Redundant, fragile Moon creature; a nontoken creature that returns our land under Overburden.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: third land-lock piece behind Blood Moon and Back to Basics; staged as alternative cut for Bitterblossom and Opposition."
+   },
+   {
+    "card": "Cyclonic Rift",
+    "weakness": "Seven-mana overload under our own Orbs; Game Changer.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: the main mass answer to opposing boards (partner cEDH 50/81); staged as alternative cut."
+   },
+   {
+    "card": "Cursed Totem",
+    "weakness": "Symmetric: also stops our own creatures' activated abilities (none in the commanders; Ragavan's dash is not an activated ability on the battlefield).",
+    "alternative_named": "Null Rod",
+    "reasoning": "Kept: partner cEDH 22/81; Null Rod would shut our own artifacts."
+   },
+   {
+    "card": "Torpor Orb",
+    "weakness": "Stops our own Orcish Bowmasters' enter trigger and Overburden's trigger (ruling 2024-04-12).",
+    "alternative_named": "Frozen Aether",
+    "reasoning": "Kept: stops opposing ETB value engines; the Overburden tension is a disclosed baseline issue between incumbents."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "Narrow colour hoser that only hits blue.",
+    "alternative_named": "Spell Pierce",
+    "reasoning": "Kept: partner cEDH 60/81; one mana answer to blue combo."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "Only counters mana-value-1 spells.",
+    "alternative_named": "Dispel",
+    "reasoning": "Kept: free; partner cEDH 71/81."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Colourless without a luck counter.",
+    "alternative_named": "Strip Mine",
+    "reasoning": "Kept: partner cEDH 73/81; Strip Mine dies to our Moon."
+   },
+   {
+    "card": "Chain of Vapor",
+    "weakness": "Opponents can copy it back to bounce our lands.",
+    "alternative_named": "Cyclonic Rift",
+    "reasoning": "Kept: partner cEDH 65/81; one-mana bounce."
+   },
+   {
+    "card": "Jeska's Will",
+    "weakness": "Mana depends on the opponent's hand.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 58/81; Spellbook 1368-1878-2706."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random discard can lose the tutored card.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 72/81; cheap red tutor."
+   },
+   {
+    "card": "Wishclaw Talisman",
+    "weakness": "Hands the tutor to an opponent.",
+    "alternative_named": "Praetor's Grasp",
+    "reasoning": "Kept: partner cEDH 66/81; asymmetric with our own stax (Torpor/Cursed Totem do not stop it)."
+   },
+   {
+    "card": "Overburden",
+    "weakness": "Bounces our own lands when Kraum or other nontoken creatures enter; turned off by our own Torpor Orb.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner explicit keep; Pass C competing cut tested and rejected. Kept."
+   },
+   {
+    "card": "Karn, the Great Creator",
+    "weakness": "Colourless; does not enable Mox Amber.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner explicit keep (2026-10-14). Kept."
+   },
+   {
+    "card": "Tangle Wire",
+    "weakness": "Symmetric fading tax on our own permanents too.",
+    "alternative_named": "Opposition",
+    "reasoning": "Owner explicit keep; tokens tap for it. Kept."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Frozen Aether, Braids, Cabal Minion, Null Rod, Sphere of Resistance, Stasis, Rising Waters judged and rejected; off-identity white hosers excluded. No admissible off-ranked card beats an incumbent.",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Arcane Signet",
+     "Bitterblossom"
+    ],
+    "cuts": [
+     "Mox Amber",
+     "Windfall"
+    ],
+    "result_and_rationale": "SELECTED research candidate (two genuine swaps). Each half is independent; the Arcane Signet half alone is staged as a complete 100."
+   },
+   {
+    "adds": [
+     "Arcane Signet",
+     "Bitterblossom",
+     "Opposition"
+    ],
+    "cuts": [
+     "Mox Amber",
+     "Windfall",
+     "Static Orb"
+    ],
+    "result_and_rationale": "Three-card stax package (staged complete 100). NOT COUNTED: Opposition's deployability under our own locks is far below Static Orb's; not clearly better. Also staged against Magus of the Moon."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested Talisman of Indulgence and Arcane Signet against Mox Amber and a source-paid Overburden/Karn alternative; Talisman and the Overburden cut are staged as complete 100s and rejected. Bitterblossom is staged against Cyclonic Rift and Magus of the Moon; Opposition is staged against Static Orb and Magus of the Moon.",
+  "strongest_argument_against_baseline": "Mox Amber is live in about a quarter of games by turn 4 even when drawn and Karn cannot enable it, while the deck's sacrifice outlets (Tevesh +1, Skullclamp, Contamination, Phyrexian Tower, Culling the Weak) depend on a five-mana planeswalker; Windfall refills opponents in a deck trying to starve them.",
+  "evidence_based_answer": "Two genuine swaps: +Arcane Signet -Mox Amber (measured, Pass C request, medium-high confidence) and +Bitterblossom -Windfall (measured engine gain, moderate confidence, adoption counter-evidence disclosed). Every other challenger is dominated, self-defeating under our own locks, owner-rejected, off-identity, or not clearly better (Opposition). RESEARCH_ONLY.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+  "sha256": "a04f16ba3a75bd53963866fd0b18c0390af54930b5526e6893ac6c6a6503b858",
+  "card_count": 100,
+  "deckwide_reconciliation": "Two [Commander] lines first (Kraum, Ludevic's Opus; Tevesh Szat, Doom of Fools), then lines case-insensitively alphabetical; 1 Island, 1 Mountain, 1 Swamp, every other card 1x (100 distinct names). Exactly two substitutions against the canonical source (+Arcane Signet -Mox Amber, +Bitterblossom -Windfall); logical hash lh1:81656e61ce5b299509c70da8d8d39aaa41d6ecfbf4281f05857a936575207baf (baseline lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89). 26 lands; 100 physical cards verified by quantity (98 library + 2 partner commanders)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Grixistax___October_2026_M7_tested_configurations_20261023.json",
+   "tests/test_m6_grixistax_october_2026_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/final_disposition.md"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "cEDH",
+   "Stax",
+   "Partner"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: two genuine swaps (+Arcane Signet -Mox Amber, +Bitterblossom -Windfall), below the five-swap owner-presentation floor. Pass C's requested tests were run in bounded seeded form: Arcane Signet beats Mox Amber and dominates Talisman of Indulgence; the Overburden competing cut is rejected (owner keep). Opposition is staged but not counted (deployability under our own locks). Every other candidate is dominated in the same slot (Talisman of Indulgence, Fellwar Stone, Spell Pierce, Dispel), self-defeating under our own locks (Strip Mine, Urza's Saga, Null Rod, Stasis), slower (Frozen Aether), not clearly better than an owner addition or incumbent (City of Traitors, Praetor's Grasp, Snuff Out, Undercity Sewers), owner-rejected (Braids, Cabal Minion; Sphere of Resistance class; turbo creatures) or invalid (white hosers off-identity). The five-swap floor is not met without padding. This packet is NOT owner-presentable and NOT owner approved; the canonical Grixistax October 2026 list is unchanged."
+}
