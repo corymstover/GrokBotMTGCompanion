@@ -99,6 +99,10 @@
   {
    "path": ".github/workflows/m7-anhelo-the-painter.yml",
    "sha256": "sha256:0de62cf69d2f9b79f2f3441e9da2c4799428a622eeb4fa8f9b4d8b92dff31d6c"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Anhelo__the_Painter_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:212d7e1e07af4676f3f4a7f446056566c4763c1b01f061bd685de64dd1a9586d"
   }
  ],
  "sealed_passes": {
