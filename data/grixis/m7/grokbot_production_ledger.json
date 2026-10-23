@@ -825,7 +825,7 @@
    "current_candidate_sha": "f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad",
    "branch": "grokbot-deck17-edward-kenway-m7-20261023",
    "working_branch": "grokbot-deck17-edward-kenway-m7-20261023",
-   "last_pushed_commit": "ce4e27ff305317ef0a53cd58121fc685cfdea13f",
+   "last_pushed_commit": "5e915c143409b1dd8d9d3575a3e8a1728cd61e6b",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
    "swap_count": 5,
    "ci_runs": [],
@@ -835,21 +835,22 @@
     "baseline_provenance (canonical main 9b26aa28; raw a08d3bc9 == overrides == tracker == registry; 100 physical/98 rows, Island/Swamp x2); shared infra copied from #664 cc2e6d45; draft PR #665 2026-10-23 09:50 CDT",
     "research_snapshots",
     "oracle_rules_snapshots_measured_tests",
-    "decision_packet (gate verify_packet passes)"
+    "decision_packet (gate verify_packet passes)",
+    "tested_pool_IJ_memos_adversarial_packet_tests_workflow_certificate_bundle (12371f12; deck tests + corpus 134 passed; gate and bundle check exit 0)"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Tested pool, I/J memos, tests, workflow, certificate, bundle",
-   "next_step": "Tested pool, I/J memos, tests, workflow, certificate, bundle",
+   "next_action": "Remove WIP, full suite once, mark PR ready, exact-head CI",
+   "next_step": "Remove WIP, full suite once, mark PR ready, exact-head CI",
    "stage": "RESEARCH_IN_PROGRESS",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
    "pr_is_draft": true,
    "pr_status": "DRAFT_WIP",
-   "last_checkpoint_commit": "ce4e27ff305317ef0a53cd58121fc685cfdea13f",
+   "last_checkpoint_commit": "5e915c143409b1dd8d9d3575a3e8a1728cd61e6b",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 46df00ee, frozen by 1e0b2e94; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T10:08:02-05:00",
-   "updated_at": "2026-10-23T10:08:02-05:00"
+   "last_checkpoint_at": "2026-10-23T10:16:17-05:00",
+   "updated_at": "2026-10-23T10:16:17-05:00"
   },
   {
    "tracker_number": 18,
