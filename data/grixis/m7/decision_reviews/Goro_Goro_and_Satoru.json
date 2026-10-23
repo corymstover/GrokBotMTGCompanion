@@ -1,0 +1,680 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "canonical_baseline_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+ "canonical_baseline_logical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "commander_identity": {
+  "mechanical_plan": "Goro-Goro and Satoru ({U}{B}{R} 3/4 legendary Goblin Human; March of the Machine Commander, set moc, released 2023-04-21; commander-legal, not a Game Changer, no project exception). Whenever one or more creatures we control that entered this turn deal combat damage to a player, create a 5/5 flying Dragon Spirit; {1}{R}: our creatures gain haste. Plan (owner blueprint 2026-10-14): cheap evasive or hasty entrants, ninjutsu/sneak entrants (Silver-Fur Master, Yuriko, Satoru Umezawa, Raphael), repeatable token engines (Daring Piracy, Fire Navy Trebuchet, Determined Iteration, Loyal Apprentice, Urabrask's Forge), continuous haste (Samut, Frostcliff Siege, Dragon Tempest for flyers), combat draw (Bident, Enduring Curiosity, Grazilaxx, Waterbender Ascension) and extra combats (Breath of Fury, Karlach, Great Train Heist, Aggravated Assault). Bitterblossom adds a fresh flying Faerie Rogue every upkeep.",
+  "protected_core": [
+   "Goro-Goro and Satoru",
+   "Silver-Fur Master",
+   "Thousand-Faced Shadow",
+   "Mistblade Shinobi",
+   "Moon-Circuit Hacker",
+   "Fallen Shinobi",
+   "Nashi, Moon Sage's Scion",
+   "Ninja of the Deep Hours",
+   "Sakashima's Student",
+   "Yuriko, the Tiger's Shadow",
+   "Satoru Umezawa",
+   "Satoru, the Infiltrator",
+   "Ingenious Infiltrator",
+   "Bident of Thassa",
+   "Enduring Curiosity",
+   "Daring Piracy",
+   "Loyal Apprentice",
+   "Urabrask's Forge",
+   "Determined Iteration",
+   "Dragon Tempest",
+   "Terror of the Peaks",
+   "Rogue's Passage",
+   "Breath of Fury",
+   "Phoenix Chick",
+   "Samut, Hazoret's Champion",
+   "Withering Torment",
+   "Waterbender Ascension",
+   "Raphael, the Nightwatcher",
+   "Fire Navy Trebuchet"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized), unchanged. Game Changers: 6 in baseline and candidate (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Vampiric Tutor). Commander Spellbook find-my-combos: 5 -> 5 complete combos, all Breath of Fury loops needing the enchanted creature to connect each combat (33-3259 Loyal Apprentice, 1347-3259 Urabrask's Forge, 2237-3259 Goro-Goro and Satoru, 3259-3934 Determined Iteration, 1674-3259 Daring Piracy); almost-included 142 -> 138. No compact two-card instant win; the owner rejected a turbo-combo conversion.",
+  "anti_homogenization": "Commander-first to Goro's Oracle: the add creates exactly the 'entered this turn' attacker the trigger needs every turn and survives creature sweepers. Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline -> candidate, canonical Archidekt exports): Admiral Beckett Brass 45 -> 45; Garza Zol, Plague Queen 43 -> 43; Admiral Brass, Unsinkable 42 -> 42; Don Andres, the Renegade 41 -> 41; Doctor Doom, King of Latveria 41 -> 41. Neither Bitterblossom nor Mist-Syndicate Naga appears in those five decks; Bitterblossom appears only in the two Lord of Tresserhorn lists. No other Grixis deck is Ninja-led; the deck stays a fresh-attacker / Ninja Dragon engine built on Goro's own Oracle. Owner-removed or rejected cards and classes (Reinforced Ronin, Rising of the Day, Feed the Swarm, Combat Research, Impact Tremors, Kaito, Dancing Shadow, Kaito, Cunning Infiltrator, Higure, Dokuchi Silencer, Throat Slitter, Orochi Soul-Reaver, Moonsnare Specialist, Alora, Mist-Cloaked Herald, Tin Street Dodger, Tormented Soul, Invisible Stalker, Enduring Courage, Urabrask the Hidden, Fervor, Blade of Selves, Lagomos, Sokenzan, Secret Tunnel, Access Tunnel, generic Thoracle/Breach turbo-combo) are not re-added."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards (98 rows; 2x Island) were reviewed by quantity.\nRoles:\n- 33 lands: Ancient Tomb, Badlands, Blood Crypt, Bloodstained Mire, City of Brass, Command Tower, Crumbling Necropolis, Drowned Catacomb, Exotic Orchard, Fabled Passage, 2 Island, Luxury Suite, Mana Confluence, Morphic Pool, Mountain, Otawara, Soaring City, Polluted Delta, Rogue's Passage, Scalding Tarn, Shipwreck Marsh, Shivan Reef, Steam Vents, Stormcarved Coast, Sulfur Falls, Sulfurous Springs, Swamp, Training Center, Underground River, Underground Sea, Volcanic Island, Watery Grave, Xander's Lounge.\n- Mana rocks: Sol Ring, Arcane Signet, Fellwar Stone, three Talismans.\n- Fresh entrants and Ninjas: Slither Blade, Triton Shorestalker, Changeling Outcast, Gingerbrute, Phoenix Chick, Ragavan, Tetsuko, Silver-Fur Master, Moon-Circuit Hacker, Ninja of the Deep Hours, Mistblade Shinobi, Prosperous Thief, Thousand-Faced Shadow, Fallen Shinobi, Nashi, Sakashima's Student, Yuriko, Satoru Umezawa, Satoru, the Infiltrator, Ingenious Infiltrator, Raphael, Mist-Syndicate Naga (cut).\n- Token/haste engines: Daring Piracy, Fire Navy Trebuchet, Determined Iteration, Loyal Apprentice, Urabrask's Forge, Samut, Frostcliff Siege, Dragon Tempest, Lightning Greaves; Bitterblossom is new.\n- Payoffs and draw: Terror of the Peaks, Bident of Thassa, Enduring Curiosity, Grazilaxx, Waterbender Ascension, Grim Hireling, Professional Face-Breaker, Kaito, Bane of Nightmares.\n- Extra combats: Breath of Fury, Karlach, Great Train Heist, Aggravated Assault, Jeska's Will (mana).\n- Interaction: Counterspell, Mana Drain, Arcane Denial, Swan Song, Fierce Guardianship, Deflecting Swat, An Offer You Can't Refuse, Cyclonic Rift, Chaos Warp, Terminate, Withering Torment, Deadly Rollick, Toxic Deluge, Vandalblast.\n- Tutors: Demonic Tutor, Vampiric Tutor.",
+  "mana_base_and_curve": "Unchanged by the swap. 33 lands; U/B/R sources (fetches, Fabled Passage and rainbow lands counted per colour) 25/21/21; 66 nonland; curve MV1 13, MV2 21 -> 22, MV3 19 -> 18, MV4 10, MV5 3; average nonland MV 2.53 -> 2.52; creatures 31 -> 30 (Bitterblossom makes one each turn). Exact enumeration of paid {U}{B}{R} on turn 3: play 0.6668, draw 0.7456 in both lists; Fellwar Stone challenge (non-mana placeholder) 0.6452 / 0.7254, so the rock stays.",
+  "interaction_resilience": "Stack: Counterspell, Mana Drain, Arcane Denial, Swan Song, Fierce Guardianship, Deflecting Swat, An Offer You Can't Refuse. Removal: Terminate, Withering Torment, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Vandalblast. Resilience gain: Bitterblossom is an enchantment, so after a creature sweeper or commander removal it keeps producing fresh flying attackers (bounded sweeper row 3 vs Naga's 2 Dragons, and it leaves the engine on board). Weak points: flying blockers stop lone Faeries; Bitterblossom's life drain; Goro tax after removal.",
+  "weakest_slots": [
+   {
+    "card": "Mist-Syndicate Naga",
+    "weakness": "Its self-copy is created after combat damage, so it never adds to that combat's Goro trigger; 3/1 for 3; not in the owner's named Ninja keeps.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Cut: Bitterblossom gives a fresh evasive attacker every turn and beat Naga in 9 of 10 bounded rows."
+   },
+   {
+    "card": "Bident of Thassa",
+    "weakness": "Four mana; does not create a fresh attacker itself.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: explicit owner keep; drew 2-23 cards across bounded rows; Pass C alt A staged and rejected."
+   },
+   {
+    "card": "Grazilaxx, Illithid Scholar",
+    "weakness": "A 3/2 body that does not itself trigger Goro unless fresh.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: per-player draw plus blocked-attacker rescue; highest EDHREC synergy in the list (0.60); Pass C alt B staged and rejected."
+   },
+   {
+    "card": "Frostcliff Siege",
+    "weakness": "A 3-mana enchantment that makes no attacker.",
+    "alternative_named": "Redoubled Stormsinger",
+    "reasoning": "Kept: Temur mode is continuous team haste and trample, which future Faeries and Dragons need; Jeskai is per-player draw."
+   },
+   {
+    "card": "Vandalblast",
+    "weakness": "Narrow: only answers artifacts, which many tables lack.",
+    "alternative_named": "Rapid Hybridization",
+    "reasoning": "Kept: the deck's only cheap artifact sweeper; the swap is a role trade (staged)."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Enters tapped, slowing turn-3 Goro lines.",
+    "alternative_named": "Dragonskull Summit",
+    "reasoning": "Kept: owner mana keep; tri-colour source; checkland loses blue (castability 0.6668 -> 0.6654)."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Jeweled Lotus",
+    "reasoning": "Kept: removing it lowers paid turn-3 UBR on the play 0.6668 -> 0.6452 (non-mana placeholder); Jeweled Lotus is banned."
+   },
+   {
+    "card": "Triton Shorestalker",
+    "weakness": "A 1/1 that does little after turn 1.",
+    "alternative_named": "Reckless Imp",
+    "reasoning": "Kept: one-mana unblockable fresh entrant and ninjutsu enabler; Imp's dash competes for mana."
+   },
+   {
+    "card": "Gingerbrute",
+    "weakness": "A 1/1 haste artifact body with low impact after turn 2.",
+    "alternative_named": "Gurmag Swiftwing",
+    "reasoning": "Kept: colourless hasty evasive entrant; Swiftwing class owner-rejected."
+   },
+   {
+    "card": "Arcane Denial",
+    "weakness": "Soft counter that gives the opponent two cards.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: two-mana hard counter in the interaction shell; Boots is not interaction."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks our own Breath of Fury/Waterbend targets.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: zero-cost equip haste on a fresh entrant; Boots only differs by hexproof."
+   },
+   {
+    "card": "Aggravated Assault",
+    "weakness": "Expensive activation ({3}{R}{R}).",
+    "alternative_named": "Sneak Attack",
+    "reasoning": "Kept: owner-listed extra-combat burst route."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Goro-Goro list (2026-10-14) whose owner pass found zero further material improvements. M6 Pass C (owner-equivalent substitute, NOT independent) was NEEDS TESTING on +Bitterblossom versus -Bident of Thassa or -Grazilaxx; the M6 deep review's verdict was KEEP with 'proactive fresh hasty-token redundancy' as the strongest possible improvement. This M7 pass ran the Pass C request as a bounded finite ledger.",
+  "candidate_pool_scope": "EDHREC Goro-Goro and Satoru general, upgraded, optimized and cEDH pages JSON; live Scryfall /cards/collection batch (215 legal U/B/R names kept; banned Jeweled Lotus excluded); OFF-RANKING searches for fresh-token engines, sneak Ninjas, token copiers and flyer answers; Commander Spellbook find-my-combos baseline vs candidate; M6 Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Redoubled Stormsinger, Captain's Claws, Kari Zev, Skyship Raider, Elektra, Daughter of the Hand, Splinter, Hamato Yoshi, Gurmag Swiftwing (absent from every Goro page) and cEDH-only Legion Warboss, Goblin Rabblemaster, Oroku Saki. None beat an incumbent; Bitterblossom (ranked, Pass C's named card) is the only selection."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Goro-Goro and Satoru approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt, blob 9d9e1b7b, introduced by 4aefbf3b on 2026-10-14; registry source_commit 1836b97 same bytes; vendored in data/grixis/m7/baseline_sources/Goro_Goro_and_Satoru_approved_source_2026-10-14.txt)",
+  "EDHREC Goro-Goro and Satoru commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T11:59:56-0500, discovery only: data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T12:01:17-0500: data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate retrieved 2026-10-23T12:09:20-0500: data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for fresh-token engines, sneak Ninjas, token copiers and flying-blocker answers (Redoubled Stormsinger, Captain's Claws, Kari Zev, Skyship Raider, Elektra, Daughter of the Hand, Splinter, Hamato Yoshi, Gurmag Swiftwing, Legion Warboss, Goblin Rabblemaster, Oroku Saki, Shredder Rising)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Goro_Goro_and_Satoru/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Goro_Goro_and_Satoru.md; data/grixis/m6/deep_reviews/Goro_Goro_and_Satoru.md",
+  "Owner 2026-10-14 current-cycle decisions (blueprint, additions, removals, keeps and rejected challengers): canonical refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 603.2, 702.4, 702.49; frozen rulings for Goro-Goro and Satoru, Bitterblossom, Mist-Syndicate Naga, Redoubled Stormsinger, Dragon Tempest, Tetsuko, Grazilaxx, Bident, Determined Iteration, Frostcliff Siege, Breath of Fury: data/grixis/m6/rules_snapshots/Goro_Goro_and_Satoru_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C request (scripted turns 1-7, two profiles x five opponent cases x five cards, Dragons made, cards drawn, life; exact paid turn-3 UBR castability for baseline, candidate and challenges): data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json and tests/test_m6_goro_goro_and_satoru_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Bitterblossom",
+   "source": "EDHREC Goro-Goro and Satoru general 521/8913 (synergy 0.049), upgraded 61/865 (synergy 0.061), optimized 19/188 (synergy 0.091), cEDH 2/13 (synergy 0.144); live Scryfall batch; Pass C's named challenger",
+   "role": "{1}{B} Kindred Enchantment — Faerie: each upkeep lose 1 life and create a 1/1 black Faerie Rogue with flying.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Loses Mist-Syndicate Naga ({2}{U} 3/1 Ninja, ninjutsu {2}{U}; copies itself when it deals combat damage). Naga is a plain retained card, NOT among the owner's explicitly kept Ninja list (2026-10-14). Its copy is made after combat damage, so it never helps that combat's Goro trigger (ruling 2019-06-14 / CR 603.2). EDHREC 984/8913 general, 11/188 optimized (synergy 0.11 / 0.06).",
+   "commander_synergy": "A repeatable fresh evasive attacker every one of our turns, which is the commander's Oracle condition ('creatures that entered this turn'): Dragon Tempest gives flying entrants haste for free; Tetsuko makes the 1/1 unblockable; it is a Rogue for Silver-Fur Master and Prosperous Thief; Determined Iteration can populate it; it supplies Breath of Fury receivers and ninjutsu fodder. As an enchantment it survives creature sweepers and commander removal. Bounded Pass C ledger: Dragons made >= Naga in 9 of 10 scripted rows (lean open 4 vs 2, sweeper 3 vs 2, extra combat 6 vs 3; engine open 8 vs 6, extra 11 vs 9).",
+   "adversarial_downside": "Costs 1 life per turn (5 life by turn 7 in the ledger; mandatory even at 1 life, ruling 2008-04-01); a lone 1/1 flyer is stopped by a flying blocker (lean flyer-wall row: 0 Dragons vs Naga's 2, which come from the generic ninjutsu entry, not the copy); needs haste (Dragon Tempest, Samut, Frostcliff Temur or Goro's {1}{R}) to attack the turn it is made. Loses one ninjutsu body for Satoru Umezawa / Yuriko lines.",
+   "judgment": "SELECT_ADD",
+   "reason": "Pass C's own NEEDS TESTING request was run as a finite ledger; Bitterblossom beat or tied the weakest non-owner-kept candidate cut in 9 of 10 rows and matches the owner's stated support plan ('repeatable beginning-of-combat or attack-token engines'). Pass C's named cuts (Bident, Grazilaxx) and the deep review's example (Frostcliff Siege) are staged and rejected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Goro_Goro_and_Satoru_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Goro_Goro_and_Satoru/final_disposition.md",
+    "data/grixis/m6/deep_reviews/Goro_Goro_and_Satoru.md",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_BidentOfThassa_20261023.txt",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_GrazilaxxIllithidScholar_20261023.txt",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_FrostcliffSiege_20261023.txt"
+   ]
+  },
+  {
+   "card": "Redoubled Stormsinger",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Goro-Goro EDHREC page)",
+   "role": "{2}{R} 3/3 first strike: when it attacks, copy each creature token that entered this turn, tapped and attacking; sacrifice the copies at end step.",
+   "named_cuts": [
+    "Mist-Syndicate Naga",
+    "Frostcliff Siege"
+   ],
+   "incumbent_opportunity_cost": "Would cut Naga (as a primary alternative) or Frostcliff Siege (two-swap package).",
+   "commander_synergy": "Copies of fresh tokens (Daring Piracy Pirate, Fire Navy Trebuchet Boulder, Bitterblossom Faerie) are themselves fresh attackers.",
+   "adversarial_downside": "Zero Dragons in all five lean rows (no fresh token, nothing to copy); copies were never declared as attackers (ruling 2025-04-04); needs haste itself. Engine rows only modestly above Naga (7 vs 6 open).",
+   "judgment": "REJECT",
+   "reason": "Marginal and engine-dependent; not a genuine improvement, so not counted. Staged as a rejected two-swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Goro_Goro_and_Satoru_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_RedoubledStormsinger_over_FrostcliffSiege_20261023.txt"
+   ]
+  },
+  {
+   "card": "Rapid Hybridization",
+   "source": "EDHREC Goro-Goro and Satoru general 692/8913 (synergy 0.04), upgraded 78/865 (synergy 0.053), optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{U} instant: destroy target creature; its controller gets a 3/3 Frog Lizard.",
+   "named_cuts": [
+    "Vandalblast"
+   ],
+   "incumbent_opportunity_cost": "Would cut Vandalblast, the deck's only one-mana artifact answer with an overload sweep (EDHREC 2132/8913).",
+   "commander_synergy": "Clears a flying blocker at instant speed before damage, the exact case where Bitterblossom's Faerie fails.",
+   "adversarial_downside": "Leaves the opponent a 3/3 ground body; a role shift away from artifact hate; the deck already has Terminate, Withering Torment, Deadly Rollick, Chaos Warp, Cyclonic Rift.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Plausible but a role trade with medium-low confidence; staged as a two-swap package and not counted.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_RapidHybridization_over_Vandalblast_20261023.txt"
+   ]
+  },
+  {
+   "card": "Dragonskull Summit",
+   "source": "EDHREC Goro-Goro and Satoru general 4756/8913 (synergy 0.056), upgraded 468/865 (synergy 0.064), optimized 92/188 (synergy 0.012), cEDH absent; live Scryfall batch",
+   "role": "B/R checkland, untapped with a Swamp or Mountain.",
+   "named_cuts": [
+    "Crumbling Necropolis"
+   ],
+   "incumbent_opportunity_cost": "Would cut Crumbling Necropolis (tapped U/B/R tri-land) in a mana base the owner said has no sufficiently weak land.",
+   "commander_synergy": "Untapped more often on turns 1-3 for Slither Blade / Triton / Phoenix Chick lines.",
+   "adversarial_downside": "Exact castability of paid turn-3 UBR on the play 0.6668 -> 0.6654 (loses a blue source; untapped timing not modelled); only 1 Swamp and 1 Mountain plus typed duals enable it.",
+   "judgment": "REJECT",
+   "reason": "Overrides an owner mana keep without clear evidence.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+    "canonical refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_DragonskullSummit_over_CrumblingNecropolis_20261023.txt"
+   ]
+  },
+  {
+   "card": "Reckless Imp",
+   "source": "EDHREC Goro-Goro and Satoru general 815/8913 (synergy 0.09), upgraded 117/865 (synergy 0.134), optimized 10/188 (synergy 0.051), cEDH absent; live Scryfall batch",
+   "role": "{2}{B} 2/2 flier that can't block; dash {1}{B}.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Alternative fresh attacker for the Mist-Syndicate Naga slot.",
+   "commander_synergy": "Dash returns it each turn, so it re-enters every turn as a hasty flyer.",
+   "adversarial_downside": "Dash costs mana every turn and competes with Goro's own haste payment; Triton Shorestalker / Slither Blade already provide unblockable cheap entrants; owner rejected more low-impact evasive bodies.",
+   "judgment": "REJECT",
+   "reason": "Bitterblossom gives a fresh flyer every turn with no mana after the first.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Captain's Claws",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Goro-Goro EDHREC page)",
+   "role": "{2} Equipment: +1/+0; when equipped creature attacks, create a 1/1 Kor Ally tapped and attacking.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 2-3 mana slot from the engine package.",
+   "commander_synergy": "A fresh attacking Kor Ally token every attack.",
+   "adversarial_downside": "The Kor Ally is a blockable ground 1/1 (Tetsuko makes it unblockable, but only with Tetsuko out); equip cost; Fire Navy Trebuchet already makes a flying fresh attacker.",
+   "judgment": "REJECT",
+   "reason": "Weaker, ground-bound version of the owner's Fire Navy Trebuchet role.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Legion Warboss",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH 2/13 (synergy 0.152); live Scryfall batch",
+   "role": "{2}{R} 2/2: at beginning of combat create a hasty 1/1 Goblin that must attack.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 3-mana creature slot from the Ninja shell.",
+   "commander_synergy": "A fresh hasty attacker each combat (Goro-qualifying if it connects).",
+   "adversarial_downside": "Ground token that must attack into blockers; the Warboss itself is a 2/2 that dies to everything; redundant with Daring Piracy (menace, haste) and Fire Navy Trebuchet (flying).",
+   "judgment": "REJECT",
+   "reason": "Redundant with owner-kept token engines and less evasive than Bitterblossom.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Goblin Rabblemaster",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH 2/13 (synergy 0.153); live Scryfall batch",
+   "role": "{2}{R} 2/2: hasty 1/1 Goblin each combat; other Goblins attack each combat if able.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 3-mana creature slot from the Ninja shell.",
+   "commander_synergy": "A fresh hasty Goblin token each combat.",
+   "adversarial_downside": "Goro-Goro and Satoru is a Goblin Human: Rabblemaster forces the commander to attack each combat if able, exposing it; ground tokens.",
+   "judgment": "REJECT",
+   "reason": "Anti-synergy with the commander's own creature type.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kari Zev, Skyship Raider",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Goro-Goro EDHREC page)",
+   "role": "{1}{R} 1/3 first strike menace; when it attacks create Ragavan, a legendary 2/1 Monkey tapped and attacking.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a cheap creature slot from the entrants.",
+   "commander_synergy": "Ragavan token is a fresh attacker each attack.",
+   "adversarial_downside": "Its token is a legendary 'Ragavan' and the deck runs Ragavan, Nimble Pilferer: legend rule forces one to go; ground body.",
+   "judgment": "REJECT",
+   "reason": "Legend-rule clash with an incumbent.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Elektra, Daughter of the Hand",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Goro-Goro EDHREC page)",
+   "role": "{2}{B}{B} 3/3 Ninja; sneak {1}{B}{B}; on enter destroy an opponent's creature with power 3 or less.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Like-for-like Ninja replacement for Naga.",
+   "commander_synergy": "Sneak entrant (fresh, Goro-qualifying) with removal attached.",
+   "adversarial_downside": "Sneak is a cast, not ninjutsu: Satoru Umezawa's ninjutsu trigger and Silver-Fur Master's cost reduction don't apply; BB in a 3-colour deck; power-3 cap.",
+   "judgment": "REJECT",
+   "reason": "Marginal; Bitterblossom is the better Naga replacement.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Oroku Saki, Shredder Rising",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH 1/6 (synergy 0.166); live Scryfall batch",
+   "role": "{2}{B} 3/1 Ninja; sneak {1}{B}; draws on combat damage.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Like-for-like Ninja replacement for Naga.",
+   "commander_synergy": "Fresh sneak entrant that draws on damage.",
+   "adversarial_downside": "Same sneak-not-ninjutsu limits as Elektra; overlaps Ninja of the Deep Hours; 3/1 body.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent; not counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Splinter, Hamato Yoshi",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH 1/6 (synergy 0.165); live Scryfall batch",
+   "role": "{1}{B} 1/3 menace; sneak {B}; other Ninjas get +1/+1.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Like-for-like Ninja replacement for Naga.",
+   "commander_synergy": "Cheap sneak entrant; Ninja anthem.",
+   "adversarial_downside": "The +1/+1 lifts 1-power Ninjas such as Yuriko out of Tetsuko's power-or-toughness-1 evasion; Silver-Fur Master already anthems Ninjas and Rogues.",
+   "judgment": "REJECT",
+   "reason": "Redundant anthem with an anti-synergy against Tetsuko.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reconnaissance Mission",
+   "source": "EDHREC Goro-Goro and Satoru general 4589/8913 (synergy 0.497), upgraded 447/865 (synergy 0.499), optimized 75/188 (synergy 0.381), cEDH absent; live Scryfall batch",
+   "role": "{2}{U}{U} enchantment: draw on each combat-damage hit; cycling {2}.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 4-mana slot from the engine package.",
+   "commander_synergy": "Combat-damage draw, not a fresh attacker.",
+   "adversarial_downside": "Fourth per-hit draw engine beside Bident of Thassa, Enduring Curiosity, Waterbender Ascension and Grazilaxx; adds no fresh attacker.",
+   "judgment": "REJECT",
+   "reason": "Redundant draw; not commander-specific.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Baleful Strix",
+   "source": "EDHREC Goro-Goro and Satoru general 4549/8913 (synergy 0.414), upgraded 453/865 (synergy 0.427), optimized 86/188 (synergy 0.361), cEDH absent; live Scryfall batch",
+   "role": "{U}{B} 1/1 flying deathtouch, draws on enter.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 2-mana creature slot from the Ninja shell.",
+   "commander_synergy": "A flyer that blocks Dragons-wall decks and cantrips.",
+   "adversarial_downside": "Generic value; one-time fresh body; the owner rejected more low-impact bodies.",
+   "judgment": "REJECT",
+   "reason": "Generic, not a genuine Goro improvement.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Gurmag Swiftwing",
+   "source": "EDHREC Goro-Goro and Satoru general 839/8913 (synergy 0.092), upgraded 105/865 (synergy 0.12), optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{1}{B} 1/2 flying, first strike, haste.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a cheap creature slot from the entrants.",
+   "commander_synergy": "Hasty flyer that is fresh the turn it is cast.",
+   "adversarial_downside": "One-time entrant; OWNER-REJECTED class in the 2026-10-14 current-cycle decisions (more one-drop/evasive bodies: 'the list already has enough one-drop/evasive enablers').",
+   "judgment": "REJECT",
+   "reason": "OWNER-REJECTED class in the 2026-10-14 current-cycle decisions; not re-added.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Ninja Teen",
+   "source": "EDHREC Goro-Goro and Satoru general 399/3878 (synergy 0.099), upgraded 46/432 (synergy 0.103), optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{2}{B} Class: drain on leave; level 2 +1/+0 and menace; level 3 sneak from graveyard.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 3-mana slot from the creature package.",
+   "commander_synergy": "Menace for the team; graveyard sneak gives fresh entrants.",
+   "adversarial_downside": "Mana-hungry levels; +1/+0 breaks Tetsuko's power-1 evasion; slow.",
+   "judgment": "REJECT",
+   "reason": "Marginal: slow, mana-hungry and anti-Tetsuko.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sneak Attack",
+   "source": "EDHREC Goro-Goro and Satoru general 598/8913 (synergy 0.031), upgraded 64/865 (synergy 0.038), optimized 21/188 (synergy 0.076), cEDH absent; live Scryfall batch",
+   "role": "{3}{R} enchantment: {R}: put a creature from hand onto the battlefield with haste; sacrifice at end step.",
+   "named_cuts": [
+    "Mist-Syndicate Naga"
+   ],
+   "incumbent_opportunity_cost": "Would take a 4-mana slot from the engine package.",
+   "commander_synergy": "Fresh hasty entrants put onto the battlefield at instant speed.",
+   "adversarial_downside": "The deck's creatures are cheap; sacrificing them wastes cards; Ninjas from hand already enter attacking.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent package.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Goro-Goro and Satoru general 3519/8913 (synergy 0.121), upgraded 336/865 (synergy 0.115), optimized 67/188 (synergy 0.082), cEDH 2/13 (synergy -0.12); live Scryfall batch",
+   "role": "{2} Equipment: hexproof and haste; equip {1}.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Would cut or join Lightning Greaves.",
+   "commander_synergy": "Commander protection plus haste for one creature.",
+   "adversarial_downside": "Haste for only one creature; Samut and Goro's activation are team-wide; Greaves already present.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Lightning Greaves and team haste.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jeweled Lotus",
+   "source": "EDHREC Goro-Goro and Satoru general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Goro-Goro EDHREC page)",
+   "role": "{0} artifact: sacrifice for three mana of one colour for commander spells.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone, a two-mana fixing rock.",
+   "commander_synergy": "Turn-1 Goro-Goro and Satoru acceleration.",
+   "adversarial_downside": "BANNED in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander per live Scryfall legality.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Bitterblossom"
+  ],
+  "cuts": [
+   "Mist-Syndicate Naga"
+  ],
+  "coherent_package_tradeoff": "One one-for-one swap: Bitterblossom for Mist-Syndicate Naga. Losses: a ninjutsu body (fewer Satoru Umezawa / Yuriko / Silver-Fur Master ninjutsu lines), 1 life per turn, and a lone Faerie is stopped by a flying blocker. Mana base, curve band and castability are unchanged. No owner keep or owner addition is cut."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Mist-Syndicate Naga",
+    "weakness": "Its self-copy is created after combat damage, so it never adds to that combat's Goro trigger; 3/1 for 3; not in the owner's named Ninja keeps.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Cut: Bitterblossom gives a fresh evasive attacker every turn and beat Naga in 9 of 10 bounded rows."
+   },
+   {
+    "card": "Bident of Thassa",
+    "weakness": "Four mana; does not create a fresh attacker itself.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: explicit owner keep; drew 2-23 cards across bounded rows; Pass C alt A staged and rejected."
+   },
+   {
+    "card": "Grazilaxx, Illithid Scholar",
+    "weakness": "A 3/2 body that does not itself trigger Goro unless fresh.",
+    "alternative_named": "Bitterblossom",
+    "reasoning": "Kept: per-player draw plus blocked-attacker rescue; highest EDHREC synergy in the list (0.60); Pass C alt B staged and rejected."
+   },
+   {
+    "card": "Frostcliff Siege",
+    "weakness": "A 3-mana enchantment that makes no attacker.",
+    "alternative_named": "Redoubled Stormsinger",
+    "reasoning": "Kept: Temur mode is continuous team haste and trample, which future Faeries and Dragons need; Jeskai is per-player draw."
+   },
+   {
+    "card": "Vandalblast",
+    "weakness": "Narrow: only answers artifacts, which many tables lack.",
+    "alternative_named": "Rapid Hybridization",
+    "reasoning": "Kept: the deck's only cheap artifact sweeper; the swap is a role trade (staged)."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Enters tapped, slowing turn-3 Goro lines.",
+    "alternative_named": "Dragonskull Summit",
+    "reasoning": "Kept: owner mana keep; tri-colour source; checkland loses blue (castability 0.6668 -> 0.6654)."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Jeweled Lotus",
+    "reasoning": "Kept: removing it lowers paid turn-3 UBR on the play 0.6668 -> 0.6452 (non-mana placeholder); Jeweled Lotus is banned."
+   },
+   {
+    "card": "Triton Shorestalker",
+    "weakness": "A 1/1 that does little after turn 1.",
+    "alternative_named": "Reckless Imp",
+    "reasoning": "Kept: one-mana unblockable fresh entrant and ninjutsu enabler; Imp's dash competes for mana."
+   },
+   {
+    "card": "Gingerbrute",
+    "weakness": "A 1/1 haste artifact body with low impact after turn 2.",
+    "alternative_named": "Gurmag Swiftwing",
+    "reasoning": "Kept: colourless hasty evasive entrant; Swiftwing class owner-rejected."
+   },
+   {
+    "card": "Arcane Denial",
+    "weakness": "Soft counter that gives the opponent two cards.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: two-mana hard counter in the interaction shell; Boots is not interaction."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks our own Breath of Fury/Waterbend targets.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: zero-cost equip haste on a fresh entrant; Boots only differs by hexproof."
+   },
+   {
+    "card": "Aggravated Assault",
+    "weakness": "Expensive activation ({3}{R}{R}).",
+    "alternative_named": "Sneak Attack",
+    "reasoning": "Kept: owner-listed extra-combat burst route."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Redoubled Stormsinger (rejected, staged two-swap), Captain's Claws, Kari Zev, Skyship Raider, Elektra, Daughter of the Hand, Splinter, Hamato Yoshi, Gurmag Swiftwing (rejected); cEDH-only Legion Warboss, Goblin Rabblemaster, Oroku Saki, Shredder Rising (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Bitterblossom",
+     "Redoubled Stormsinger"
+    ],
+    "cuts": [
+     "Mist-Syndicate Naga",
+     "Frostcliff Siege"
+    ],
+    "result_and_rationale": "Staged two-swap; rejected: Stormsinger makes 0 Dragons in lean rows and Frostcliff's continuous haste is what lets fresh tokens attack."
+   },
+   {
+    "adds": [
+     "Bitterblossom",
+     "Rapid Hybridization"
+    ],
+    "cuts": [
+     "Mist-Syndicate Naga",
+     "Vandalblast"
+    ],
+    "result_and_rationale": "Staged two-swap; retained alternative only: answers a flying blocker but trades away the only cheap artifact sweeper (role trade, low confidence)."
+   },
+   {
+    "adds": [
+     "Bitterblossom",
+     "Dragonskull Summit"
+    ],
+    "cuts": [
+     "Mist-Syndicate Naga",
+     "Crumbling Necropolis"
+    ],
+    "result_and_rationale": "Staged two-swap; rejected: overrides an owner mana keep and lowers exact paid turn-3 UBR castability 0.6668 -> 0.6654."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C NEEDS TESTING (baseline vs +Bitterblossom -Bident of Thassa and vs +Bitterblossom -Grazilaxx, Illithid Scholar) was run as a bounded deterministic ledger: turns 1-7, paid turn-3 Goro, lean and engine (Daring Piracy) profiles, open / flying-blocker wall / Goro removal turn 5 / sweeper turn 6 / one extra combat (Great Train Heist turn 6). Bitterblossom made 0-11 Dragons; Bident drew 2-23 cards and Grazilaxx 2-11 while adding Dragons only in engine rows. Cutting either owner-valued draw engine is not clearly better, so both Pass C lists are staged and rejected; the same Bitterblossom instead replaces Mist-Syndicate Naga, which the ledger shows contributing fewer Dragons in 9 of 10 rows. Matched-game win rates were not run: no validated Goro game model exists.",
+  "strongest_argument_against_baseline": "The baseline has no fresh-attacker source that survives a creature sweeper or works without mana each turn; Mist-Syndicate Naga's distinctive copy ability is timed after combat damage and so never feeds the commander's trigger in the combat it connects.",
+  "evidence_based_answer": "One genuine swap: Bitterblossom for Mist-Syndicate Naga. No second genuine improvement was found without cutting an owner keep on unclear evidence (Bident, Grazilaxx, Crumbling Necropolis), re-adding an owner-rejected class (more one-drop evasive bodies) or making a marginal role trade (Redoubled Stormsinger, Rapid Hybridization), so the deck is held as research only.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Goro_Goro_and_Satoru.txt",
+  "sha256": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 2x Island, every other card 1x. One substitution against the canonical source. 33 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Goro_Goro_and_Satoru_M7_20261023.md",
+   "tests/test_m6_goro_goro_and_satoru_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Goro_Goro_and_Satoru/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Ninjas",
+   "Dragons",
+   "Extra Combats"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: only one genuine swap was found (Bitterblossom over Mist-Syndicate Naga). The five-swap owner-presentation floor is not met without padding: every other candidate either cuts an owner keep on evidence that does not clearly beat it (Bident of Thassa, Grazilaxx, Illithid Scholar, Crumbling Necropolis), re-adds a class the owner rejected (more one-drop evasive bodies), or is a marginal role trade (Redoubled Stormsinger, Rapid Hybridization). This packet is NOT owner-presentable and NOT owner approved; the canonical Goro-Goro and Satoru list is unchanged."
+}

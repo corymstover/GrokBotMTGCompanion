@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Goro_Goro_and_Satoru",
+  "slug": "goro-goro-and-satoru",
+  "generated_at": "2026-10-23T12:24:33-05:00",
+  "list_hash": "lh1:55ad7a1a2bc59c06a4c3c48af1b02560418c2e2a34e5b69cb86dc2a6862049ed",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Goro_Goro_and_Satoru_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:ae654d6d34da3cc1ed4a52789082dc9aaf5b2e261b130eeb5f46b4b4573276fb",
+    "tested_pool_size": 9
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_goro_goro_and_satoru_m7_mechanics.py",
+      "tests/test_m7_goro_goro_and_satoru_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_goro_goro_and_satoru_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Goro_Goro_and_Satoru_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Goro_Goro_and_Satoru_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Goro_Goro_and_Satoru_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Goro_Goro_and_Satoru.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 9 complete configurations in the pool: raw baseline, registry canonical export, the research one-swap (+Bitterblossom -Mist-Syndicate Naga; one genuine swap; RESEARCH_ONLY, far below the five-swap floor), the three Pass C / deep-review one-swaps on the baseline (Bitterblossom over Bident of Thassa, over Grazilaxx, Illithid Scholar, over Frostcliff Siege), and the three two-swaps adding to the research one (Redoubled Stormsinger over Frostcliff Siege, Rapid Hybridization over Vandalblast, Dragonskull Summit over Crumbling Necropolis). Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}

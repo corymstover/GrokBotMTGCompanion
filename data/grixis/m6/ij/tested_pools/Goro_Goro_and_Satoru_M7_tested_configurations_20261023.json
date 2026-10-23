@@ -1,0 +1,99 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Goro_Goro_and_Satoru_approved_source_2026-10-14.txt",
+   "raw_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+   "logical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 2fd39e3b…, fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 9d9e1b7b, introduced by canonical approval commit 4aefbf3b on 2026-10-14; registry source_commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/goro-goro-and-satoru.txt",
+   "raw_sha256": "bdc129bcd94c00b293ddaabb4585ac3130fb4eca7ca8646177335900e7aedfec",
+   "logical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "RESEARCH_ONE",
+   "path": "data/grixis/m7/candidate_lists/Goro_Goro_and_Satoru.txt",
+   "raw_sha256": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b",
+   "logical_hash": "lh1:55ad7a1a2bc59c06a4c3c48af1b02560418c2e2a34e5b69cb86dc2a6862049ed",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (one genuine swap; far below the five-swap owner-presentation floor, so NOT owner-presentable). +Bitterblossom / -Mist-Syndicate Naga. No owner keep or owner addition is cut (Naga is a plain retained Ninja, not among the owner's named keeps). Mana base, land count (33), U/B/R sources (25/21/21) and paid turn-3 UBR castability (0.6668 play) are unchanged; Spellbook combos 5 -> 5; Game Changers 6 -> 6. Bounded Pass C ledger: Bitterblossom >= Naga in 9 of 10 scripted rows (Dragons), loses only lean flyer-wall. MODERATE confidence; no matched games."
+  },
+  {
+   "id": "PASS_C_ALT_A_BITTERBLOSSOM_MINUS_BIDENT",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_BidentOfThassa_20261023.txt",
+   "raw_sha256": "b70716a009135de4236390e62a35cee7aae007b833fe7e3011de51d861bcaf20",
+   "logical_hash": "lh1:a9bb1861444b397514af64738a24422686d5ca0eecf0182f870d05a8eacdcc9c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C's exact requested alternative A). Bident of Thassa is an explicit owner keep and drew 2-23 cards across the bounded rows; cutting it loses the deck's per-creature combat draw engine for a token maker. Evidence does not clearly beat the owner keep."
+  },
+  {
+   "id": "PASS_C_ALT_B_BITTERBLOSSOM_MINUS_GRAZILAXX",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_GrazilaxxIllithidScholar_20261023.txt",
+   "raw_sha256": "73c9693f5e27508f1d1a6a8b1374fec91458864852ba14461a41a653fc206204",
+   "logical_hash": "lh1:870ba2bb7e7356fd50933bce684731f878e655cf6814d131f3a5f8aa5a1c325a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C's exact requested alternative B). Grazilaxx, Illithid Scholar drew 2-11 cards across rows and rescues blocked attackers (re-castable fresh entrants); highest-synergy EDHREC card in the list (0.60 general). Not clearly worse than Naga, so it is not the cut."
+  },
+  {
+   "id": "PASS_C_ALT_C_BITTERBLOSSOM_MINUS_FROSTCLIFF",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_PassC_plus_Bitterblossom_minus_FrostcliffSiege_20261023.txt",
+   "raw_sha256": "1e8653765ee858b06e61cb167e4cd6b82c0fb85d33bde1189e1af57994c5d3bd",
+   "logical_hash": "lh1:649838b0a3702eea2d0cd7a61a03c6cc2cb38faa80c8c3296e0b79f148ec7610",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; the deep review's named 3-4 MV example). Frostcliff Siege's Temur mode gives every creature (including Bitterblossom Faeries and Dragons made later) haste and trample, and its Jeskai mode is a Grazilaxx-style draw engine; it directly supports the fresh-attacker plan, unlike Naga."
+  },
+  {
+   "id": "TWO_STORMSINGER_OVER_FROSTCLIFF",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_RedoubledStormsinger_over_FrostcliffSiege_20261023.txt",
+   "raw_sha256": "ee10fe0cc71e51336e76409906683f05a669262820ba0e4753470bf4fb97f0e0",
+   "logical_hash": "lh1:8497cc0e2cd191257f74c547d08bca787dc50029d1add083c1d1495b4d31bfe1",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT_LARGER_PACKAGE (two-swap, staged). +Redoubled Stormsinger -Frostcliff Siege on top of the research swap. Stormsinger makes zero Dragons in every lean row (needs tokens that entered this turn) and its copies are sacrificed; Frostcliff's haste is what lets fresh tokens attack. Marginal: not counted."
+  },
+  {
+   "id": "TWO_RAPID_HYBRIDIZATION_OVER_VANDALBLAST",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_RapidHybridization_over_Vandalblast_20261023.txt",
+   "raw_sha256": "a4bf6cfdd945feb961307577cb88de9080d46a7b66850f0aed2ccf5826177ee9",
+   "logical_hash": "lh1:b81d14c411695f7dcb8b1ccad8dedfc27a078a6d744c31d34e891f391e6a39b6",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (two-swap, staged; not counted). +Rapid Hybridization -Vandalblast. One-mana instant removal for a flying blocker (the scenario where Bitterblossom alone fails) versus the deck's only cheap artifact sweeper; a role shift with MODERATE-LOW confidence, so not a genuine improvement."
+  },
+  {
+   "id": "TWO_DRAGONSKULL_OVER_NECROPOLIS",
+   "path": "data/grixis/m7/research_challengers/Goro_Goro_and_Satoru_two_DragonskullSummit_over_CrumblingNecropolis_20261023.txt",
+   "raw_sha256": "81ad1943c5e4e86bd19aabb0f18dc046b870dd0fdef9d69f433c65b976e8fb91",
+   "logical_hash": "lh1:f6c5e5939d33a15f40ad9428d9feb672cde0672af4b15a3485820d2afda25467",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (two-swap, staged). +Dragonskull Summit -Crumbling Necropolis. Overrides the owner's mana-base keep; exact castability of paid turn-3 UBR drops 0.6668 -> 0.6654 because the tri-land's blue is lost (untapped timing not modelled). Not clearly better."
+  }
+ ]
+}
