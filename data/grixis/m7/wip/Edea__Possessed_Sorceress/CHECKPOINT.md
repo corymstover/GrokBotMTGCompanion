@@ -13,6 +13,8 @@
 - Completed: baseline_provenance; research snapshots (Scryfall live 94 baseline + 178 evaluated names; EDHREC general/upgraded/optimized
   4819/456/72; Commander Spellbook: 0 complete combos baseline and working candidate). Edea live: FIC, released, Commander-legal,
   not a Game Changer, no project exception. Jabs, Mistress of Mockery reads not_legal (unreleased) -> excluded.
-- Working candidate direction (subject to change): +Aggravated Assault +Kaya's Ghostform +Hall of Echoes +Lithoform Engine
+- Candidate (raw e8680caf..., lh1:60df4349...; packet gate pass; mechanics test 14 pass): +Aggravated Assault +Kaya's Ghostform +Hall of Echoes +Geyadrone Dihada
   +Combat Celebrant / -Evereth -Zara -High Market -Ayara -Seize the Spotlight.
-- Next: Pass C bounded tests, oracle/rules snapshots, decision packet, I/J artifacts, tests, workflow.
+- Also done: Pass C bounded tests (mechanics test), oracle/rules snapshots, decision packet, tested pool (8 configs), I/J memos.
+- Next: certificate + revision bundle, candidate/IJ tests, workflow, review packet, full suite, ready.
+- Checkpoint updated 2026-10-23 09:38 CDT (America/Chicago).

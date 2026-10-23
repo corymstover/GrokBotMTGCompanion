@@ -30,7 +30,6 @@
 1x Fellwar Stone
 1x Fierce Guardianship
 1x Full Throttle
-1x Geyadrone Dihada
 1x Goblin Bombardment
 1x Gogo, Master of Mimicry
 1x Grave Pact
@@ -45,6 +44,7 @@
 3x Island
 1x Karlach, Fury of Avernus
 1x Kaya's Ghostform
+1x Kethek, Crucible Goliath
 1x Lightning Greaves
 1x Lithoform Engine
 1x Luxury Suite

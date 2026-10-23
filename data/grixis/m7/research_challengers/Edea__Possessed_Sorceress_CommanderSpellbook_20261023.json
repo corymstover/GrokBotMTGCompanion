@@ -165,7 +165,7 @@
   "identity": "UBR",
   "included": [],
   "included_with_commander": [],
-  "almost_included_count": 175,
+  "almost_included_count": 167,
   "almost_included_sample": [
    {
     "id": "513-5034--46",
@@ -335,5 +335,6 @@
   ]
  },
  "deck_id": "Edea__Possessed_Sorceress",
- "note": "No included (complete) combos in baseline or candidate; almost-included counts 126 (baseline) vs 175 (candidate). Aggravated Assault adds opponent-dependent near-combos (e.g. with a stolen Ancient Copper Dragon / The Reaver Cleaver); none is completable from the 100 alone."
+ "candidate_list": "data/grixis/m7/candidate_lists/Edea__Possessed_Sorceress.txt (raw sha256 e8680cafc7b7500b6106677e1aaafce6d5035893ea9f0cd335cd1fa1ff5227a2)",
+ "note": "No included (complete) combos in baseline or candidate; almost-included counts 126 (baseline) vs 167 (candidate). Aggravated Assault adds opponent-dependent near-combos (each needs a card not in the 100, sometimes an opponent creature Edea steals); none is completable from the 100 alone. No infinite is claimed."
 }

@@ -40,17 +40,22 @@ file `rulings-20261015090033.jsonl.gz` (read-only), and the candidate Oracle sna
   (704.5j)** off for our permanents this turn. Activated in the first main phase, it gives a second beginning-of-combat theft and a
   second death trigger (one return, two draws). While it is a copy of Edea it is a creature, not a land. Hall rulings (2026-08-21)
   confirm the legend rule applies again in cleanup.
-- **Lithoform Engine** ({2},{T}): it copies one triggered or activated ability we control, with new targets. Examples: Edea's combat
-  trigger (a second theft), Edea's death trigger (an extra draw), Captivating Crew's steal, Karlach's or Celebrant's extra-combat
-  trigger (one more combat), or a Kethek or Industrial Advancement end-step trigger. Rulings (2020-09-25): copies are not activated or
-  triggered, so Roaming Throne does not apply to them.
+- **Geyadrone Dihada** (selected add, {1}{U}{B}{R}, loyalty 4; protection from permanents with corruption counters): +1 drains
+  each opponent for 2 and puts a corruption counter on up to one other creature or planeswalker; −3 gains control of a creature or
+  planeswalker until end of turn, untaps it, gives it haste and corrupts it; −7 gains control of each corrupted permanent with no
+  duration (permanent theft). A stolen creature that dies under our control still triggers Edea (we control it, we don't own it).
+- **Lithoform Engine** (staged alternative only, not in the candidate; {2},{T}): it copies one triggered or activated ability we
+  control, with new targets. Examples: Edea's combat trigger (a second theft) or death trigger (an extra draw). Rulings (2020-09-25):
+  copies are not activated or triggered, so Roaming Throne does not apply to them. It stays staged (five-swap instead of Dihada)
+  because the owner preferred theft density or extra combats over another four-mana Edea multiplier.
 - **Thassa, Deep-Dwelling**: blinking a stolen creature at end step returns it under our control, ending the until-end-of-turn
   control effect (the new object is ours). Conjurer's Closet does the same thing for {5} (owner rejection kept).
 
 ## Combos and bracket (disclosed)
 - Commander Spellbook `find-my-combos` (2026-10-23): **0 complete combos** in baseline and candidate. Almost-included lines grow from
-  126 to 175 with Aggravated Assault, all of them needing a card not in the 100. Some depend on an opponent's creature that Edea steals
-  (for example Ancient Copper Dragon or The Reaver Cleaver with Aggravated Assault).
+  126 to 167 with Aggravated Assault, all of them needing a card not in the 100. Some depend on an opponent's creature that Edea steals
+  (for example Ancient Copper Dragon, The Reaver Cleaver or Sword of Feast and Famine with Aggravated Assault). If Edea steals an
+  opponent's Ancient Copper Dragon, Assault plus its Treasures can repeat combats; this is disclosed as opponent-dependent, not claimed.
 - **No infinite is claimed.** Repeated Aggravated Assault activations are finite: each needs {3}{R}{R}.
 - Power Bracket **4**, unchanged: 3 Game Changers, fast mana, free interaction, tutors and mass theft (Insurrection, Mass Mutiny, Mob
   Rule).

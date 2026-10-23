@@ -34,7 +34,7 @@ BASE = ROOT / f"data/grixis/m7/baseline_sources/{D}_approved_source_2026-10-14.t
 RC = ROOT / "data/grixis/m7/research_challengers"
 SPELLBOOK = RC / f"{D}_CommanderSpellbook_20261023.json"
 EDEA = "Edea, Possessed Sorceress"
-ADDS = ["Aggravated Assault", "Combat Celebrant", "Hall of Echoes", "Kaya's Ghostform", "Lithoform Engine"]
+ADDS = ["Aggravated Assault", "Combat Celebrant", "Geyadrone Dihada", "Hall of Echoes", "Kaya's Ghostform"]
 CUTS = ["Ayara, Widow of the Realm", "Evereth, Viceroy of Plunder", "High Market", "Seize the Spotlight",
         "Zara, Renegade Recruiter"]
 GAME_CHANGERS = ["Ancient Tomb", "Demonic Tutor", "Fierce Guardianship"]
@@ -172,14 +172,15 @@ def closet_vs_advancement_grid():
 
 # ---- (d) Combat Celebrant vs Grim Haruspex / Seize the Spotlight ------------------------------------------------
 def celebrant_grid():
-    """Over a three-turn window: Celebrant (survives, attacks) gives one extra combat per turn, so one extra Edea
-    steal per turn (two with Roaming Throne naming Warlock or Human). Grim Haruspex draws one card per nontoken
+    """Over a window of up to three of our turns: Celebrant exerts as it attacks (701.43a) for one extra combat, so one
+    extra Edea steal (two with Roaming Throne naming Warlock or Human); exerted, it doesn't untap in our next untap
+    step, so without an outside untap (Aggravated Assault, Full Throttle) it exerts on alternate turns: (a + 1) // 2. Grim Haruspex draws one card per nontoken
     creature we control that dies, stolen ones included (on top of Edea's draw). Seize the Spotlight is a one-shot:
     each opponent chooses; at most three steals or three draws+Treasures once. Cells: deaths per turn d in 0..3,
     Throne t in {0,1}, Celebrant turns alive a in 0..3."""
     out = []
     for d, t, a in product(range(4), (0, 1), range(4)):
-        out.append(dict(d=d, t=t, alive=a, celebrant_steals=a * (1 + t), haruspex_draws=3 * d,
+        out.append(dict(d=d, t=t, alive=a, celebrant_steals=((a + 1) // 2) * (1 + t), haruspex_draws=3 * d,
                         spotlight_best_steals=3, spotlight_worst_steals=0))
     return out
 
@@ -239,6 +240,11 @@ class EdeaRulesTests(unittest.TestCase):
         self.assertIn("return that card to the battlefield under your control", self.o["Kaya's Ghostform"]["oracle_text"])
         self.assertIn("The \"legend rule\" doesn't apply", self.o["Hall of Echoes"]["oracle_text"])
         self.assertIn("Copy target activated or triggered ability you control", self.o["Lithoform Engine"]["oracle_text"])
+        self.assertIn("\u22123: Gain control of target creature or planeswalker until end of turn. Untap it",
+                      self.o["Geyadrone Dihada"]["oracle_text"])
+        self.assertIn("\u22127: Gain control of each permanent with a corruption counter on it.",
+                      self.o["Geyadrone Dihada"]["oracle_text"])
+        self.assertNotIn("Lithoform Engine", self.cand)  # staged five-swap alternative only
         self.assertIn("there is an additional combat phase", self.o["Combat Celebrant"]["oracle_text"])
         self.assertIn("Human", self.o["Combat Celebrant"]["type_line"])
 
@@ -307,7 +313,7 @@ class PassCBoundedMeasuredTests(unittest.TestCase):
     def test_d_celebrant_vs_haruspex(self):
         g = celebrant_grid()
         self.assertEqual(len(g), 32)
-        self.assertEqual(sum(x["celebrant_steals"] for x in g), 72)
+        self.assertEqual(sum(x["celebrant_steals"] for x in g), 48)
         self.assertEqual(sum(x["haruspex_draws"] for x in g), 144)
         # Both stay: Celebrant replaces Seize the Spotlight, not Grim Haruspex (Pass C DEFER honoured).
         self.assertIn("Grim Haruspex", self.cand)
@@ -332,7 +338,7 @@ class PassCBoundedMeasuredTests(unittest.TestCase):
         ex_c = sum(self.cand[n] for n in EXTRA_COMBAT)
         mult_b = sum(self.base[n] for n in TRIGGER_MULT)
         mult_c = sum(self.cand[n] for n in TRIGGER_MULT)
-        self.assertEqual((ex_b, ex_c, mult_b, mult_c), (2, 4, 6, 8))
+        self.assertEqual((ex_b, ex_c, mult_b, mult_c), (2, 4, 6, 7))
 
 
 MANA_EXPECTED = {3: (0.6811, 0.0456), 4: (0.4984, 0.2304), 5: (0.3342, 0.4878), 6: (0.2069, 0.588), 7: (0.1191, 0.6772)}

@@ -1,0 +1,986 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "canonical_baseline_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+ "canonical_baseline_logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "commander_identity": {
+  "mechanical_plan": "Edea, Possessed Sorceress ({2}{U}{B}{R} 2/5 legendary Human Warlock, ward {2}; Final Fantasy Commander fic, released 2025-12-05; commander-legal, not a Game Changer, no project exception). At the beginning of combat on our turn she steals target opponent's creature until end of turn, untaps it and gives it haste. Whenever a creature we control but don't own dies, it returns under its owner's control and we draw. Plan: steal every combat (extra combats: Full Throttle, Karlach, Aggravated Assault, Combat Celebrant), sacrifice the stolen creature to free outlets for Edea's draw plus aristocrat payoffs (Grim Haruspex, Pitiless Plunderer, Mayhem Devil, Grave Pact), keep the best ones (Thassa, Kaya's Ghostform, Impostor Syndrome, Saw in Half), multiply her (Roaming Throne, Strionic Resonator, Irma, Gogo, Sakashima, Spark Double, Hall of Echoes), and finish with mass theft (Insurrection, Mass Mutiny, Mob Rule).",
+  "protected_core": [
+   "Edea, Possessed Sorceress",
+   "Full Throttle",
+   "Karlach, Fury of Avernus",
+   "Roaming Throne",
+   "Strionic Resonator",
+   "Thassa, Deep-Dwelling",
+   "Captivating Crew",
+   "Arcane Lighthouse",
+   "Mass Mutiny",
+   "Insurrection",
+   "Mob Rule",
+   "Grim Haruspex",
+   "Phyrexian Altar",
+   "Ashnod's Altar",
+   "Goblin Bombardment",
+   "Viscera Seer",
+   "Phyrexian Tower"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Game Changers: 3 in baseline and candidate (Ancient Tomb, Demonic Tutor, Fierce Guardianship). Commander Spellbook find-my-combos: 0 included combos for both lists (almost-included 126 -> 167). No infinite is claimed; repeated Aggravated Assault activations need {3}{R}{R} each and are finite.",
+  "anti_homogenization": "Commander-first to Edea's Oracle: Aggravated Assault and Combat Celebrant add combats (each a theft); Hall of Echoes doubles Edea; Kaya's Ghostform turns her theft permanent while she still draws; Geyadrone Dihada adds theft density in the main phase. Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline -> candidate): Marchesa, the Black Rose 50 -> 49; Missy 46 -> 46; Wick, the Whorled Mind 45 -> 45; Tresserhorns 44 -> 43; Thraximundar 43 -> 43; Lord Xander 41 -> 43; Don Andres (the closest theft deck) 39 -> 38. Disclosed honestly: the shared core is the mana base, rocks, free interaction and generic outlets; separation is commander-first: every add multiplies or protects Edea's own two triggers (combat theft and death draw). Owner-removed or rejected classes (Garland, Beast, Coercive Recruiter, Morbid Opportunist, Dictate, Reliquary Tower and the conditional duals; Marchesa, Domineering Will, Nasty End, Cunning Rhetoric, Conjurer's Closet, Chameleon/Quantum Misalignment/Sakashima-type clones, Helm of Possession, extra outlets, Rhystic Study, Vampiric Tutor, Force of Will, The One Ring, Breath of Fury) are not re-added. Cuts of owner-retained cards are flagged: Evereth was explicitly challenged and kept by the owner, so a keep-Evereth four-swap is staged."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (93 library rows; Island, Mountain and Swamp 3x each, everything else 1x).\nRoles:\n- 35 lands, including Ancient Tomb, Arcane Lighthouse, Phyrexian Tower, Otawara and High Market (cut for Hall of Echoes).\n- Rocks: Sol Ring, Arcane Signet, Fellwar Stone, three Talismans.\n- Extra combats: Full Throttle, Karlach; Aggravated Assault and Combat Celebrant are new.\n- Multipliers: Roaming Throne, Strionic Resonator, Irma, Gogo, Sakashima of a Thousand Faces, Spark Double; Hall of Echoes is new.\n- Theft: Captivating Crew, Mass Mutiny, Insurrection, Mob Rule, Dominus of Fealty, Don Andres, Rakdos, Seize the Spotlight and Zara (both cut); Geyadrone Dihada is new.\n- Retention: Thassa, Impostor Syndrome, Saw in Half, Nightmare Shepherd, Chaos Shrine's Black Crystal; Kaya's Ghostform is new.\n- Outlets: Ashnod's Altar, Phyrexian Altar, Goblin Bombardment, Viscera Seer, Warren Soultrader, Illuminor Szeras, Phyrexian Tower; Evereth, Ayara and High Market are cut. Spell outlets: Village Rites, Deadly Dispute, Corrupted Conviction, Diabolic Intent, Victimize.\n- Payoffs: Grim Haruspex, Pitiless Plunderer, Mayhem Devil, Grave Pact, Braids, Skullclamp, Kethek, Industrial Advancement, Disciple of Bolas.\n- Interaction: Fierce Guardianship, Mana Drain, Swan Song, Arcane Denial, Deflecting Swat, Deadly Rollick, Chaos Warp, An Offer You Can't Refuse, Vandalblast, Toxic Deluge, Blasphemous Act, Lightning Greaves.",
+  "mana_base_and_curve": "Baseline and candidate: 35 lands (9 basics), 6 rocks plus Ancient Tomb; coloured sources U19 B19 R18, unchanged (Hall of Echoes replaces the colourless High Market). Average nonland MV 3.203 -> 3.156; creatures 24 -> 22; instants and sorceries 24 -> 23; MV of cuts 14 vs adds 11. Exact multivariate-hypergeometric DP (mechanics test, on the play, a conservative model counting every rock as one mana): turns 3-7 P(lands >= turn) 0.6811/0.4984/0.3342/0.2069/0.1191 and P(Edea castable with U, B and R) 0.0456/0.2304/0.4878/0.588/0.6772, identical for baseline and candidate; on the draw Edea is castable by turn 5/6 at 0.588/0.6772.",
+  "interaction_resilience": "Stack: Fierce Guardianship, Mana Drain, Swan Song, Arcane Denial, Deflecting Swat. Removal: Deadly Rollick, Chaos Warp, An Offer You Can't Refuse, Vandalblast. Wipes: Toxic Deluge, Blasphemous Act. Protection: ward {2}, Lightning Greaves, Otawara. Arcane Lighthouse beats hexproof/shroud on the theft target. Weak points: a five-mana commander that must survive to combat; tables with no good creatures (Dihada's +1 and Hall still have uses); graveyard exile stops Ghostform; enchantment removal hits Assault; Hall becomes a creature when it copies.",
+  "weakest_slots": [
+   {
+    "card": "Evereth, Viceroy of Plunder",
+    "weakness": "A generic 3-MV sorcery-speed outlet; its drain needs counters to matter.",
+    "alternative_named": "Aggravated Assault",
+    "reasoning": "Cut (FLAGGED owner keep; staged keep-Evereth four-swap)."
+   },
+   {
+    "card": "Zara, Renegade Recruiter",
+    "weakness": "5 MV; the creature it puts from an opponent's hand returns to hand, not to Edea's death draw.",
+    "alternative_named": "Kaya's Ghostform",
+    "reasoning": "Cut: Ghostform makes Edea's theft permanent for one mana."
+   },
+   {
+    "card": "High Market",
+    "weakness": "A colourless outlet in a deck with seven other repeatable outlets.",
+    "alternative_named": "Hall of Echoes",
+    "reasoning": "Cut: colourless land for colourless land that doubles Edea."
+   },
+   {
+    "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "weakness": "Tap-to-sacrifice outlet; transform costs {5}{R/P}.",
+    "alternative_named": "Geyadrone Dihada",
+    "reasoning": "Cut: theft density over outlet density (owner's priority)."
+   },
+   {
+    "card": "Seize the Spotlight",
+    "weakness": "One-shot; the opponents choose the mode.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Cut: repeatable combat source."
+   },
+   {
+    "card": "Irma, Part-Time Mutant",
+    "weakness": "603.2b timing caveat in the first combat.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: 216 vs 120 steals in the bounded grid."
+   },
+   {
+    "card": "Impostor Syndrome",
+    "weakness": "6 MV; needs a connecting stolen nontoken creature.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: ties or beats Closet in 6/8 cells."
+   },
+   {
+    "card": "Industrial Advancement",
+    "weakness": "A 4-MV end-step enchantment that does nothing on the turn it is cast.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: draw plus a free creature (P 0.73 at MV5)."
+   },
+   {
+    "card": "Kethek, Crucible Goliath",
+    "weakness": "Needs a nonlegendary creature with lower MV; random.",
+    "alternative_named": "Lithoform Engine",
+    "reasoning": "Kept: converts stolen bodies into permanent creatures."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Gives no card advantage; Edea already has ward {2}.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: free equip protects Edea or a kept creature without mana."
+   },
+   {
+    "card": "Grim Haruspex",
+    "weakness": "A 3/2 that only draws on nontoken deaths.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Kept (Pass C DEFER): 144 draws vs 48 extra steals in its grid."
+   },
+   {
+    "card": "Victimize",
+    "weakness": "Needs creatures in our graveyard.",
+    "alternative_named": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "reasoning": "Kept: returns two creatures for one card and sacrifices a stolen one."
+   },
+   {
+    "card": "Mob Rule",
+    "weakness": "A one-shot, but finisher-level.",
+    "alternative_named": "Bribery",
+    "reasoning": "Kept: mass theft for a turn turns into many Edea draws."
+   },
+   {
+    "card": "Disciple of Bolas",
+    "weakness": "Its enters trigger needs a creature to sacrifice.",
+    "alternative_named": "Agent of Treachery",
+    "reasoning": "Kept: turns one stolen creature into X cards and X life at once."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Edea list (2026-10-14) built on combat theft, free outlets and extra combats. M6 Pass C (#16) is NEEDS TESTING, KEEP (owner-equivalent substitute, NOT independent; 0 measured playtests). It requested bounded tests of Conjurer's Closet vs Impostor Syndrome and vs Industrial Advancement (Irma added by extension), Combat Celebrant vs Grim Haruspex (DEFER), and mana around turns 5-6. Weakest five slots: Evereth (a generic outlet; FLAG: owner keep), Zara (5 MV, its theft goes back to hand), High Market (a redundant colourless outlet), Ayara (a third generic outlet) and Seize the Spotlight (a one-shot whose mode the opponents choose).",
+  "candidate_pool_scope": "EDHREC Edea general (4819 decks), upgraded (456) and optimized (72) pages JSON; live Scryfall /cards/collection batch (94 baseline rows plus 178 evaluated names) and OFF-RANKING searches for extra-combat, trigger-copy and retention effects in UBR; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition and the GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Combat Celebrant (absent from all Edea pages; selected), Lithoform Engine (staged alternative), Sephiroth, Fabled SOLDIER, Relentless Assault, Hellkite Charger, Helm of the Host (rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Edea approved source refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob e3651060, frozen by canonical commit c0dd52a4; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Edea__Possessed_Sorceress_approved_source_2026-10-14.txt)",
+  "EDHREC Edea commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23, discovery only: data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch and extra-combat / trigger-copy searches 2026-10-23: data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for extra-combat, Edea-copy and retention effects (Combat Celebrant, Lithoform Engine, Sephiroth, Relentless Assault, Hellkite Charger, Helm of the Host)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md",
+  "GrokBot advisory first pass: data/grixis/m6/grokbot_pass_c_advisory/Edea__Possessed_Sorceress.md",
+  "Owner 2026-10-14 current-cycle decisions (removals and rejections): canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 500.8, 506.1, 603.2b, 603.2d, 603.3b, 400.7, 609.3, 707.2, 704.5j, 701.43a: data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C requests (32-cell Closet vs Irma grid; 8-cell Closet vs Impostor grid; 28-cell exact Industrial Advancement hit table; 32-cell Celebrant vs Haruspex grid; exact mana DP turns 3-7): tests/test_m6_edea_possessed_sorceress_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Aggravated Assault",
+   "source": "EDHREC Edea general 311/4819, upgraded 29/456, optimized 11/72; live Scryfall batch",
+   "role": "{2}{R} enchantment: {3}{R}{R}: untap all creatures you control; after this main phase there is an additional combat phase followed by an additional main phase; sorcery speed, repeatable.",
+   "named_cuts": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "incumbent_opportunity_cost": "Loses Evereth, a 3-MV flier and sorcery-speed outlet whose death trigger drains each opponent for its power. FLAG: the owner explicitly challenged Evereth on 2026-10-14 and kept it as a real baseline card; a four-swap list keeping Evereth is staged.",
+   "commander_synergy": "Each extra combat has its own beginning of combat step (500.8, 506.1), so every activation is one more Edea theft and untaps the creatures we stole earlier. The extra main phase lets us activate again (ruling 2004-10-04): each {3}{R}{R} is one more steal. Pass C itself names Aggravated Assault as an Edea extra-combat source.",
+   "adversarial_downside": "Five mana per activation; does nothing on the turn it is cast without more mana; enchantment removal answers it. Commander Spellbook lists opponent-dependent near-combos (a stolen Ancient Copper Dragon or Reaver Cleaver), which are disclosed and NOT claimed as infinite.",
+   "judgment": "SELECT_ADD",
+   "reason": "A repeatable source of Edea's own trigger that converts late-game mana into theft; Evereth is a generic outlet in a deck with seven other free, repeatable outlets.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_four_keep_Evereth_Assault_over_Spotlight_no_Celebrant_20261023.txt"
+   ]
+  },
+  {
+   "card": "Kaya's Ghostform",
+   "source": "EDHREC Edea general 359/4819, upgraded 34/456, optimized 4/72; live Scryfall batch",
+   "role": "{B} Aura for a creature or planeswalker you control: when it dies or is exiled, return that card to the battlefield under your control.",
+   "named_cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "incumbent_opportunity_cost": "Loses Zara, a 5-MV flier whose attack trigger puts a creature from the defending player's hand onto the battlefield attacking; that creature goes back to hand at end step.",
+   "commander_synergy": "Put on a stolen creature, then sacrifice it: Ghostform and Edea trigger together, we order Ghostform to resolve first (603.3b) and the card comes back under OUR control as a new object (400.7). Edea's trigger then does as much as it can (609.3): no return, but we still draw. Unlike Marchesa, which the owner rejected because it is a delayed return, Ghostform is not delayed. It answers the Pass C warning that sacrificing a stolen creature hands it back to its owner.",
+   "adversarial_downside": "One use; if an opponent regains control of the creature first, the Aura goes to the graveyard; graveyard exile in response stops the return.",
+   "judgment": "SELECT_ADD",
+   "reason": "Turns Edea's temporary theft into permanent theft for one mana and still draws; Zara's stolen creature only borrows a card from a hand and returns it to hand.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Edea__Possessed_Sorceress.md"
+   ]
+  },
+  {
+   "card": "Hall of Echoes",
+   "source": "EDHREC Edea general 75/4819, upgraded 15/456, optimized 2/72; live Scryfall batch",
+   "role": "Land, {T}: add {C}. {5}: becomes a copy of target creature you control until end of turn, and the legend rule doesn't apply to our permanents this turn.",
+   "named_cuts": [
+    "High Market"
+   ],
+   "incumbent_opportunity_cost": "Loses High Market, a colourless land outlet (sacrifice a creature: gain 1 life). Phyrexian Tower stays as the land outlet. FLAG: the owner listed High Market among the retained lands.",
+   "commander_synergy": "Colourless land for colourless land, so the coloured sources (U19 B19 R18) are unchanged. Copying Edea in the first main phase gives a second Edea for the turn (707.2, legend rule off): two thefts each combat and two draws for each death of a creature we control but don't own (only one return).",
+   "adversarial_downside": "{5} each turn; as a copy it is a creature and not a land until end of turn, so creature removal can take a land; it only copies printed values (no enters triggers).",
+   "judgment": "SELECT_ADD",
+   "reason": "Makes a land slot double Edea's own text; High Market's outlet is redundant with seven repeatable outlets, and the owner wrote that no outlet shortage remains.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "source": "EDHREC Edea general 1152/4819, upgraded 84/456, optimized 17/72; live Scryfall batch",
+   "role": "{1}{U}{B}{R} planeswalker, loyalty 4: protection from permanents with corruption counters. +1: each opponent loses 2 life, we gain 2, corrupt up to one other creature or planeswalker. −3: gain control of a creature or planeswalker until end of turn, untap it, corrupt it, haste. −7: gain control of every permanent with a corruption counter.",
+   "named_cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "incumbent_opportunity_cost": "Loses Ayara, a 3-MV legendary creature outlet (tap and sacrifice: damage and life equal to MV) that can transform into a recursion engine for {5}{R/P}. Outlet density goes from 10 to 7 repeatable outlets (disclosed, measured).",
+   "commander_synergy": "A second Edea-style theft in the main phase, before Edea's own combat steal. The stolen creature is sacrificed for Edea's draw, and Dihada's protection stops it from attacking her. The +1 corrupts the creatures Edea borrows, so the −7 keeps them for good. The owner's 2026-10-14 note rejected another four-mana clone in favour of 'theft density or extra combats'; Dihada is theft density.",
+   "adversarial_downside": "A planeswalker that must survive attacks; the −3 leaves her at 1 loyalty; the −7 is slow.",
+   "judgment": "SELECT_ADD",
+   "reason": "Adds theft density, the owner's stated priority, in place of a generic outlet; the outlet cost is measured (P(at least one repeatable outlet in 12 cards) 0.7432 -> 0.6075).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_five_LithoformEngine_instead_of_Dihada_20261023.txt"
+   ]
+  },
+  {
+   "card": "Combat Celebrant",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING (absent from all three Edea pages)",
+   "role": "{2}{R} 4/1 Human Warrior: you may exert it as it attacks; when you do, untap all other creatures and add an additional combat phase after this one.",
+   "named_cuts": [
+    "Seize the Spotlight"
+   ],
+   "incumbent_opportunity_cost": "Loses Seize the Spotlight, a 3-MV sorcery (each opponent chooses fame, which lets us steal, or fortune, which gives us a draw and a Treasure); it is 54% of EDHREC Edea decks and a notable loss.",
+   "commander_synergy": "A repeatable extra-combat source: another Edea theft, and it untaps the creature Edea stole so it can attack again. It is a Human, so Roaming Throne naming Human doubles its trigger as well as Edea's. Bounded test: an extra steal on alternate turns because of exert (48 vs 0 extra steals across the 32-cell grid), where Spotlight is one-shot and the opponent chooses.",
+   "adversarial_downside": "A 4/1 dies easily; exerted, it doesn't untap in the next untap step; there is no main phase between its combats (ruling).",
+   "judgment": "SELECT_ADD",
+   "reason": "Edea's trigger counts combats, so a repeatable combat source beats a one-shot whose mode the opponents choose; Grim Haruspex is kept (Pass C DEFER honoured).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+    "data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md"
+   ]
+  },
+  {
+   "card": "Lithoform Engine",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING (absent from all three Edea pages)",
+   "role": "{4} legendary artifact: {2},{T}: copy target activated or triggered ability you control.",
+   "named_cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "Kethek, Crucible Goliath"
+   ],
+   "incumbent_opportunity_cost": "Would cost Ayara (the staged five-swap) or Kethek (the post-floor challenge).",
+   "commander_synergy": "Copies Edea's combat trigger (a second theft), her death trigger (an extra draw), Captivating Crew's steal, or Karlach's/Celebrant's extra-combat trigger. Copies are not triggered, so Roaming Throne does not apply (Lithoform ruling).",
+   "adversarial_downside": "Another four-mana trigger multiplier: the owner rejected this class against 'theft density or extra combats' (Chameleon, Quantum Misalignment), and the deck already has Strionic Resonator for the same job.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a complete five-swap 100 (instead of Dihada) because its copy text is strong, but it repeats a class the owner judged lower value than theft density.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_five_LithoformEngine_instead_of_Dihada_20261023.txt"
+   ]
+  },
+  {
+   "card": "Conjurer's Closet",
+   "source": "EDHREC Edea general 1350/4819, upgraded 124/456, optimized 25/72; live Scryfall batch",
+   "role": "{5} artifact: at the beginning of our end step, we may exile a creature we control and return it under our control.",
+   "named_cuts": [
+    "Irma, Part-Time Mutant",
+    "Impostor Syndrome",
+    "Industrial Advancement"
+   ],
+   "incumbent_opportunity_cost": "Pass C asked for tests against Impostor Syndrome and Industrial Advancement (and Irma by extension).",
+   "commander_synergy": "It keeps the creature Edea stole every end step (Thassa already does this one mana cheaper and is indestructible, as the owner noted).",
+   "adversarial_downside": "Five mana with no immediate effect; redundant with Thassa. OWNER-REJECTED in the 2026-10-14 current-cycle decisions (not re-added) ('Thassa performs the same crucial end-step retention job one mana cheaper').",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Bounded tests: Irma gives 216 vs 120 steals over 32 cells (Closet keeps 48 vs 16); Impostor Syndrome ties or beats Closet in 6/8 cells; Industrial Advancement hits 0.73 at MV5. All three Pass C six-swap 100s are staged and rejected, respecting the owner's rejection.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+    "data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md",
+    "canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_Irma_20261023.txt",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_ImpostorSyndrome_20261023.txt",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_IndustrialAdvancement_20261023.txt"
+   ]
+  },
+  {
+   "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING (absent from all three Edea pages)",
+   "role": "{2}{B} legendary 3/3: when it enters or attacks, sacrifice another creature to draw; it drains 1 whenever another creature dies and transforms after the fourth drain in a turn.",
+   "named_cuts": [
+    "Victimize"
+   ],
+   "incumbent_opportunity_cost": "Would cut Victimize (two-creature reanimation plus a sacrifice).",
+   "commander_synergy": "Sacrificing a stolen attacker draws twice (Sephiroth plus Edea).",
+   "adversarial_downside": "Another 3-MV outlet and drain body; Grim Haruspex and Pitiless Plunderer already pay us for each death.",
+   "judgment": "REJECT",
+   "reason": "Generic aristocrats value; Victimize's two-for-one reanimation is more distinct.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Bribery",
+   "source": "EDHREC Edea general 677/4819, upgraded 70/456, optimized 22/72; live Scryfall batch",
+   "role": "{3}{U}{U} sorcery: put the best creature from an opponent's library onto the battlefield under our control.",
+   "named_cuts": [
+    "Mob Rule"
+   ],
+   "incumbent_opportunity_cost": "Would cost Mob Rule (mass theft for a turn).",
+   "commander_synergy": "Permanent theft that doesn't need Edea.",
+   "adversarial_downside": "Five mana that is weak against creature-light decks; doesn't use Edea's trigger.",
+   "judgment": "REJECT",
+   "reason": "Mob Rule wins games through Edea's death draw; Bribery is a generic one-shot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Agent of Treachery",
+   "source": "EDHREC Edea general 754/4819, upgraded 72/456, optimized 18/72; live Scryfall batch",
+   "role": "{5}{U}{U}: when it enters, gain control of target permanent; draw three at end step with three permanents we don't own.",
+   "named_cuts": [
+    "Disciple of Bolas"
+   ],
+   "incumbent_opportunity_cost": "Would cut Disciple of Bolas (sacrifice a stolen creature: draw X and gain X).",
+   "commander_synergy": "Edea makes the three-permanent count reachable.",
+   "adversarial_downside": "Seven mana in a deck whose curve tops at six.",
+   "judgment": "REJECT",
+   "reason": "Too expensive; Disciple converts a stolen creature at once.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Treachery",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized 8/72; live Scryfall batch",
+   "role": "{3}{U}{U} Aura: control enchanted creature; untap up to five lands.",
+   "named_cuts": [
+    "Victimize"
+   ],
+   "incumbent_opportunity_cost": "Would cut Victimize, the deck's two-creature reanimation.",
+   "commander_synergy": "Free permanent theft of one creature (it untaps the lands).",
+   "adversarial_downside": "Aura removal returns the creature; it doesn't interact with Edea's trigger, and it is just another theft that doesn't use the commander.",
+   "judgment": "REJECT",
+   "reason": "Generic theft; Ghostform keeps stolen creatures for one mana in a way that uses Edea.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Helm of the Host",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{4} legendary Equipment, equip {5}: at the beginning of combat, a nonlegendary token copy of the equipped creature.",
+   "named_cuts": [
+    "Kethek, Crucible Goliath"
+   ],
+   "incumbent_opportunity_cost": "Would cut Kethek, the end-step sacrifice-and-cheat engine.",
+   "commander_synergy": "A token copy of Edea every turn.",
+   "adversarial_downside": "Nine mana before the first copy, and copy tokens are the class the owner judged redundant.",
+   "judgment": "REJECT",
+   "reason": "Too slow; Hall of Echoes copies Edea from a land slot.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sakashima the Impostor",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{2}{U}{U} clone creature that can copy Edea.",
+   "named_cuts": [
+    "Irma, Part-Time Mutant"
+   ],
+   "incumbent_opportunity_cost": "Would cut Irma, Part-Time Mutant (an Edea copy).",
+   "commander_synergy": "An Edea copy for a second theft each combat.",
+   "adversarial_downside": "Clone class the owner explicitly judged redundant (Chameleon, Quantum Misalignment). OWNER-REJECTED in the 2026-10-14 current-cycle decisions (not re-added)",
+   "judgment": "REJECT",
+   "reason": "Re-adds a removed or rejected class.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Nasty End",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{1}{B}{B} instant, sacrifice a creature: draw two, or three if it was legendary.",
+   "named_cuts": [
+    "Village Rites"
+   ],
+   "incumbent_opportunity_cost": "Would cut Village Rites (a one-mana sacrifice and draw two).",
+   "commander_synergy": "A sacrifice outlet that also draws, with Edea's draw on top.",
+   "adversarial_downside": "OWNER-REJECTED in the 2026-10-14 current-cycle decisions (not re-added) (costs more than Corrupted Conviction).",
+   "judgment": "REJECT",
+   "reason": "The owner rejection is kept; Corrupted Conviction is cheaper.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Rhystic Study",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{2}{U} card-draw tax enchantment.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Would cut Lightning Greaves, Edea's protection.",
+   "commander_synergy": "Card draw that does not interact with Edea's triggers.",
+   "adversarial_downside": "OWNER-REJECTED in the 2026-10-14 current-cycle decisions (not re-added); it is a Game Changer, which would make four.",
+   "judgment": "REJECT",
+   "reason": "Owner rejection kept; a fourth Game Changer.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Cyclonic Rift",
+   "source": "EDHREC Edea general 759/4819, upgraded 108/456, optimized 42/72; live Scryfall batch",
+   "role": "{1}{U} bounce, overloaded to a one-sided mass bounce.",
+   "named_cuts": [
+    "Vandalblast"
+   ],
+   "incumbent_opportunity_cost": "Would cut Vandalblast, the artifact sweeper.",
+   "commander_synergy": "Clears blockers for the stolen attackers.",
+   "adversarial_downside": "It would be Game Changer #4 in this list.",
+   "judgment": "REJECT",
+   "reason": "Would move the Game Changer count from 3 to 4.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dark Ritual",
+   "source": "EDHREC Edea general 1919/4819, upgraded 210/456, optimized 39/72; live Scryfall batch",
+   "role": "{B} instant: add {B}{B}{B}; a one-shot ritual.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut Talisman of Indulgence, a permanent rock.",
+   "commander_synergy": "Enables a turn-3 Edea with a good hand.",
+   "adversarial_downside": "One-shot; Edea wants permanent mana for Assault, Hall and Crew.",
+   "judgment": "REJECT",
+   "reason": "Repeatable mana sinks favour rocks.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jeska's Will",
+   "source": "EDHREC Edea general 606/4819, upgraded 62/456, optimized 32/72; live Scryfall batch",
+   "role": "{2}{R} sorcery: Treasures per cards in an opponent's hand, plus impulse draw.",
+   "named_cuts": [
+    "Industrial Advancement"
+   ],
+   "incumbent_opportunity_cost": "Would cut Industrial Advancement.",
+   "commander_synergy": "One burst turn of Treasures and impulse draws.",
+   "adversarial_downside": "It has nothing to do with Edea's triggers.",
+   "judgment": "REJECT",
+   "reason": "A generic ritual that doesn't use the commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Nightscape Familiar",
+   "source": "EDHREC Edea general 2459/4819, upgraded 229/456, optimized 33/72; live Scryfall batch",
+   "role": "{1}{B} 1/4: blue and red spells cost {1} less.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone, a two-mana rock.",
+   "commander_synergy": "Cost reduction for blue and red spells only.",
+   "adversarial_downside": "Doesn't reduce Assault, Hall or Crew activations.",
+   "judgment": "REJECT",
+   "reason": "The deck spends mana on activations, which it doesn't reduce.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Relentless Assault",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{2}{R}{R} sorcery: an extra combat and main phase.",
+   "named_cuts": [
+    "Victimize"
+   ],
+   "incumbent_opportunity_cost": "Would cut Victimize, the deck's two-creature reanimation.",
+   "commander_synergy": "One more combat, so one more Edea theft, once.",
+   "adversarial_downside": "One-shot; Full Throttle (two extra combats) and the repeatable Assault are better.",
+   "judgment": "REJECT",
+   "reason": "Aggravated Assault is repeatable.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hellkite Charger",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{4}{R}{R} 5/5 flying haste; {5}{R}{R} on attack for an extra combat.",
+   "named_cuts": [
+    "Kethek, Crucible Goliath"
+   ],
+   "incumbent_opportunity_cost": "Would cut Kethek, the end-step sacrifice-and-cheat engine.",
+   "commander_synergy": "An extra combat for one more Edea theft.",
+   "adversarial_downside": "Thirteen mana for the first extra combat.",
+   "judgment": "REJECT",
+   "reason": "Too much mana for the first extra combat.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Laughing Jasper Flint",
+   "source": "EDHREC Edea general 774/4819, upgraded 59/456, optimized absent; live Scryfall batch",
+   "role": "{1}{B}{R}: makes creatures we control but don't own Mercenaries (outlaws) and exiles cards from an opponent's library to cast each upkeep.",
+   "named_cuts": [
+    "Corrupted Conviction"
+   ],
+   "incumbent_opportunity_cost": "Would cut Corrupted Conviction.",
+   "commander_synergy": "Stolen creatures count as outlaws.",
+   "adversarial_downside": "Needs outlaws at upkeep, when Edea's stolen creatures are already gone.",
+   "judgment": "REJECT",
+   "reason": "Timing mismatch with Edea's until-end-of-turn theft.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Susur Secundi, Void Altar",
+   "source": "EDHREC Edea general 1363/4819, upgraded 139/456, optimized 15/72; live Scryfall batch",
+   "role": "Land that enters tapped, {T}: {B}; station 12+: sacrifice a creature to draw cards equal to its power.",
+   "named_cuts": [
+    "High Market"
+   ],
+   "incumbent_opportunity_cost": "Would replace High Market in the land slot.",
+   "commander_synergy": "Sacrificing a stolen creature for cards.",
+   "adversarial_downside": "Enters tapped and needs 12 charge counters; Hall of Echoes is the better High Market replacement.",
+   "judgment": "REJECT",
+   "reason": "Slow; Hall of Echoes is the better High Market replacement.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Edea general 1173/4819, upgraded 106/456, optimized 11/72; live Scryfall batch",
+   "role": "{2} Equipment, equip {1}: hexproof and haste.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Would cut Lightning Greaves, Edea's protection.",
+   "commander_synergy": "Protects Edea (ward {2} already).",
+   "adversarial_downside": "Equip {1} vs Greaves' free equip; neither is played much on EDHREC Edea.",
+   "judgment": "REJECT",
+   "reason": "Greaves' free equip protects Edea or a kept creature without spending mana.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jabs, Mistress of Mockery",
+   "source": "EDHREC Edea general absent, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "A discovery name that appears in live Scryfall search.",
+   "named_cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "incumbent_opportunity_cost": "Not applicable: the card is excluded as not legal.",
+   "commander_synergy": "Not applicable: the card is excluded as not legal.",
+   "adversarial_downside": "Live Scryfall reads not_legal (unreleased); no project exception applies.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Not Commander-legal as of 2026-10-23.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Aggravated Assault",
+   "Kaya's Ghostform",
+   "Hall of Echoes",
+   "Geyadrone Dihada",
+   "Combat Celebrant"
+  ],
+  "cuts": [
+   "Evereth, Viceroy of Plunder",
+   "Zara, Renegade Recruiter",
+   "High Market",
+   "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+   "Seize the Spotlight"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that add combats, Edea copies, retention and theft (Aggravated Assault, Kaya's Ghostform, Hall of Echoes, Geyadrone Dihada, Combat Celebrant). Losses: Evereth's drain (FLAGGED owner keep; staged), Zara's hand theft, High Market's colourless outlet, Ayara's damage outlet, and Seize the Spotlight (notable: 54% EDHREC inclusion). Outlet density 10 -> 7 repeatable outlets."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Evereth, Viceroy of Plunder",
+    "weakness": "A generic 3-MV sorcery-speed outlet; its drain needs counters to matter.",
+    "alternative_named": "Aggravated Assault",
+    "reasoning": "Cut (FLAGGED owner keep; staged keep-Evereth four-swap)."
+   },
+   {
+    "card": "Zara, Renegade Recruiter",
+    "weakness": "5 MV; the creature it puts from an opponent's hand returns to hand, not to Edea's death draw.",
+    "alternative_named": "Kaya's Ghostform",
+    "reasoning": "Cut: Ghostform makes Edea's theft permanent for one mana."
+   },
+   {
+    "card": "High Market",
+    "weakness": "A colourless outlet in a deck with seven other repeatable outlets.",
+    "alternative_named": "Hall of Echoes",
+    "reasoning": "Cut: colourless land for colourless land that doubles Edea."
+   },
+   {
+    "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+    "weakness": "Tap-to-sacrifice outlet; transform costs {5}{R/P}.",
+    "alternative_named": "Geyadrone Dihada",
+    "reasoning": "Cut: theft density over outlet density (owner's priority)."
+   },
+   {
+    "card": "Seize the Spotlight",
+    "weakness": "One-shot; the opponents choose the mode.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Cut: repeatable combat source."
+   },
+   {
+    "card": "Irma, Part-Time Mutant",
+    "weakness": "603.2b timing caveat in the first combat.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: 216 vs 120 steals in the bounded grid."
+   },
+   {
+    "card": "Impostor Syndrome",
+    "weakness": "6 MV; needs a connecting stolen nontoken creature.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: ties or beats Closet in 6/8 cells."
+   },
+   {
+    "card": "Industrial Advancement",
+    "weakness": "A 4-MV end-step enchantment that does nothing on the turn it is cast.",
+    "alternative_named": "Conjurer's Closet",
+    "reasoning": "Kept: draw plus a free creature (P 0.73 at MV5)."
+   },
+   {
+    "card": "Kethek, Crucible Goliath",
+    "weakness": "Needs a nonlegendary creature with lower MV; random.",
+    "alternative_named": "Lithoform Engine",
+    "reasoning": "Kept: converts stolen bodies into permanent creatures."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Gives no card advantage; Edea already has ward {2}.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Kept: free equip protects Edea or a kept creature without mana."
+   },
+   {
+    "card": "Grim Haruspex",
+    "weakness": "A 3/2 that only draws on nontoken deaths.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Kept (Pass C DEFER): 144 draws vs 48 extra steals in its grid."
+   },
+   {
+    "card": "Victimize",
+    "weakness": "Needs creatures in our graveyard.",
+    "alternative_named": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "reasoning": "Kept: returns two creatures for one card and sacrifices a stolen one."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Combat Celebrant (selected); Lithoform Engine (staged alternative); Sephiroth, Relentless Assault, Hellkite Charger, Helm of the Host (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada"
+    ],
+    "cuts": [
+     "Seize the Spotlight",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Evereth (no Celebrant; Assault replaces Spotlight), for an owner who keeps the explicitly retained Evereth."
+   },
+   {
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Lithoform Engine",
+     "Combat Celebrant"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight"
+    ],
+    "result_and_rationale": "Staged five-swap with Lithoform Engine instead of Dihada; rejected on the owner's stated preference for theft density over another four-mana multiplier."
+   },
+   {
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Irma, Part-Time Mutant"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap; rejected on the bounded grid."
+   },
+   {
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Impostor Syndrome"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap; rejected (6/8 cells favour Impostor)."
+   },
+   {
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Industrial Advancement"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap; rejected (owner rejection of Closet stands)."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C's Conjurer's Closet tests (vs Impostor Syndrome, Industrial Advancement and Irma) were run as bounded finite tests; all three are staged as complete six-swap 100s and rejected (Pass C KEEP and the owner's Closet rejection respected). Celebrant vs Grim Haruspex (Pass C DEFER) was measured; Haruspex is kept and Celebrant replaces Seize the Spotlight instead. The owner-kept Evereth has a staged keep-Evereth four-swap.",
+  "strongest_argument_against_baseline": "Edea's value is counted in combats and in deaths of stolen creatures, yet the baseline spent five slots on three redundant generic outlets (the owner wrote that no outlet shortage remains), a 5-MV theft that returns to hand, and a one-shot whose mode the opponents choose. It also had no way to keep a sacrificed stolen creature.",
+  "evidence_based_answer": "Five swaps: two repeatable extra-combat sources (Aggravated Assault, Combat Celebrant), an Edea copy in a land slot (Hall of Echoes), permanent theft that still draws (Kaya's Ghostform), and main-phase theft density (Geyadrone Dihada). Coloured sources and mana unchanged; outlet density cost disclosed (10 -> 7). Spellbook: 0 included combos before and after."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Edea__Possessed_Sorceress.txt",
+  "sha256": "e8680cafc7b7500b6106677e1aaafce6d5035893ea9f0cd335cd1fa1ff5227a2",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 3x Island, 3x Mountain, 3x Swamp, everything else 1x. Five substitutions against the canonical source. 35 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+   "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+   "data/grixis/m6/two_model_reconciliation/Edea__Possessed_Sorceress.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Theft",
+   "Extra Combats",
+   "Aristocrats"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not used as a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: eight post-floor challenges were recorded on Edea-specific grounds, and three Pass C six-swap packages (Conjurer's Closet over Irma, Impostor Syndrome or Industrial Advancement) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Irma, Part-Time Mutant",
+    "challenger": "Conjurer's Closet",
+    "tradeoff": "Bounded 32-cell grid: Irma 216 steal triggers vs Closet 120; Closet keeps 48 vs 16 creatures, but Thassa already keeps one in half the cells. Irma wins on steals in 28/32 cells.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Impostor Syndrome",
+    "challenger": "Conjurer's Closet",
+    "tradeoff": "8-cell grid: Impostor's permanent token copies tie or beat Closet's one keep in 6 cells and beat it in 4; Pass C's requested test.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Industrial Advancement",
+    "challenger": "Conjurer's Closet",
+    "tradeoff": "Exact hypergeometric: Advancement hits a creature 0.7308 at MV5 (80 cards, 18 creatures) on top of Edea's draw; Closet only repeats Thassa's keep.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Kethek, Crucible Goliath",
+    "challenger": "Lithoform Engine",
+    "tradeoff": "Lithoform copies one trigger per turn for {2}; Kethek turns every stolen body into a permanent creature of ours each end step. The owner preferred theft and combats over multipliers.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Lightning Greaves",
+    "challenger": "Swiftfoot Boots",
+    "tradeoff": "Greaves re-equips for free, so it can protect Edea or a newly kept creature at no mana cost; Boots costs {1} every time it moves.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Victimize",
+    "challenger": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "tradeoff": "Sephiroth is a fourth outlet-drainer; Victimize returns two creatures for one card.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Mob Rule",
+    "challenger": "Bribery",
+    "tradeoff": "Mob Rule steals every creature of a power class for a turn and each dies into an Edea draw; Bribery is one creature.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Disciple of Bolas",
+    "challenger": "Agent of Treachery",
+    "tradeoff": "Agent costs seven; Disciple converts a stolen creature into X cards and X life at once.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_Irma_20261023.txt",
+    "sha256": "91ffa1592a75f781351c1631de7a69dc86ab727ff25c828df105dd59aa48c19c",
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Irma, Part-Time Mutant"
+    ],
+    "case_for_extra_swaps": "Pass C asked whether Closet's end-step retention beats an Edea copy: it keeps one stolen creature for good each turn.",
+    "why_not_selected": "Bounded grid: Irma gives 216 vs 120 steal triggers over 32 cells and wins in 28; Thassa already does Closet's job, and the owner rejected Closet on 2026-10-14."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_ImpostorSyndrome_20261023.txt",
+    "sha256": "2601fcab3e6bbb6fdd0faa9e4075132742d54c0c4fa312244cf904e6bc03c094",
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Impostor Syndrome"
+    ],
+    "case_for_extra_swaps": "Pass C's main requested test: Closet over Impostor Syndrome, both retention effects for stolen creatures.",
+    "why_not_selected": "Impostor ties or beats Closet in 6/8 cells because each connecting stolen creature leaves a token we own; Closet duplicates Thassa and was owner-rejected."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_IndustrialAdvancement_20261023.txt",
+    "sha256": "37c6fc785807091a42819ffcd79a1bdf7818a8e075671994bd40f2facabb7be2",
+    "adds": [
+     "Aggravated Assault",
+     "Kaya's Ghostform",
+     "Hall of Echoes",
+     "Geyadrone Dihada",
+     "Combat Celebrant",
+     "Conjurer's Closet"
+    ],
+    "cuts": [
+     "Evereth, Viceroy of Plunder",
+     "Zara, Renegade Recruiter",
+     "High Market",
+     "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "Seize the Spotlight",
+     "Industrial Advancement"
+    ],
+    "case_for_extra_swaps": "Pass C's second requested test: Closet over Industrial Advancement at end step.",
+    "why_not_selected": "Advancement draws through Edea and puts a creature onto the battlefield at 0.49-0.88 by MV; Closet only keeps what Thassa keeps, and the owner rejected Closet."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Edea-specific grounds: Irma, Impostor Syndrome and Industrial Advancement each beat Conjurer's Closet in the bounded Pass C tests (and the owner rejected Closet); Kethek beats another multiplier; Greaves, Victimize, Mob Rule and Disciple beat generic challengers. Cutting more outlets would push density below 7."
+ }
+}
