@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "date": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_HARMONIC_STRATEGIC_LEADER_UNVERIFIED",
+  "canonical_approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "owner_ready": false,
+  "owner_approval_or_new_lock": false,
+  "deck3_hold": true,
+  "leader_alternative": {
+    "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_harmonic_engine_six_research_20261022.txt",
+    "sha256": "d743803d79ffd146ec4fe7318863d0e38e33001d28bb28987cca7c2a54eaa567",
+    "physical_cards": 100,
+    "distinct_names": 95,
+    "swap_count": 6,
+    "adds": [
+      "Harmonic Prodigy",
+      "Ob Nixilis, Captive Kingpin",
+      "Kederekt Parasite",
+      "Ghyrson Starn, Kelermorph",
+      "Blood for the Blood God!",
+      "Mount Doom"
+    ],
+    "cuts": [
+      "Bloodletter of Aclazotz",
+      "The Ruinous Powers",
+      "Pyroblast",
+      "Nightscape Familiar",
+      "Call Forth the Tempest",
+      "Mountain"
+    ],
+    "comparison_class": "RESEARCH_ONLY_COMPLETE_100"
+  },
+  "why_it_deserves_further_comparison": [
+    "Unlike the prior six-swap Spear Spewer trial, replaces the second deleted counter (Pact of Negation) with Harmonic Prodigy; Pact therefore remains to defend decisive turns. Still loses Pyroblast, which is nontrivial.",
+    "Retains original key Warhammer flavor through Abaddon, Noise Marine, Keeper, The Lost, and swaps Warhammer Ghyrson plus Blood for the Blood God! in place of original Ruinous/Tempest. However it loses opponent spell theft and printed unconditional double cascade; these are hard costs, not cosmetic.",
+    "Two-mana Harmonic has four EXISTING independently source-verified relevant sources: Kessig Flamebreather, Thermo-Alchemist, Vivi Ornitier and Storm-Kiln Artist, whereas Bloodletter is a broader single-turn life-loss multiplier. Their strengths are not interchangeable.",
+    "Ghyrson plus Kessig/other exactly-one pings increases incremental life loss, but is three more paid mana and board-dependent. Its Warhammer theme fits better than generic redundancy.",
+    "Ob Nixilis converts existing exactly-one all-opponent pings into exiled playable own-library cards and counters, better controlled than Ruinous random opponent library theft in some matchups; it is more creature-removal vulnerable.",
+    "Kederekt Parasite is a one-mana opponent-wheel draw punisher, but all such triggers happen after the wheel resolves and are irrelevant to the wheel's own Abaddon cascade check; removing Pyroblast loses immediate blue answers.",
+    "Blood for the Blood God! is an eleven-MV 40K payoff discounted by deaths, eight-card draw and eight to EACH opponent, but does NOT inherently cascade, needs board deaths for real payment and discards hand; Call Forth always has two printed cascades even without Abaddon.",
+    "Mount Doom generates black/red mana at a life cost and has a paid all-opponent ping; replacing one Mountain loses a basic and damage-free source, which may matter in a self-harming Flame Rift deck."
+  ],
+  "source_bound_finite_outcomes": [
+    {
+      "case": "Kessig + Harmonic, own-turn noncreature cast at prior X=0",
+      "result": "Two distinct Kessig triggers, each 1 damage to each of 3 opponents; X rises to 6 after the cast, so the initiating MV3 hand spell did NOT gain retroactive Abaddon cascade. Next qualifying hand cast may."
+    },
+    {
+      "case": "Thermo + Harmonic, instant/sorcery cast, Thermo ready",
+      "result": "Two untap triggers can enable tap before first resolution and between/after each: three activations cause 1 each opponent, X=9; creature must already be able to tap."
+    },
+    {
+      "case": "Vivi + Harmonic, noncreature cast",
+      "result": "Two Wizard triggered damage/counter events, 1 to each opponent each, X=6 and two counters; Vivi's activated once-per-turn {0} mana ability is NOT duplicated."
+    },
+    {
+      "case": "Storm-Kiln Artist + Harmonic, one real instant cast plus one copy",
+      "result": "Two Magecraft events, each doubled, yield four Treasure tokens. Copying doesn't count as a real cast for Kessig or Abaddon."
+    },
+    {
+      "case": "Ob + doubled Kessig",
+      "result": "Two distinct grouped exactly-one life-loss events trigger Ob twice, not six times (one per opponent). Exiled cards are PLAYABLE with actual costs, not automatically cast for free."
+    },
+    {
+      "case": "Ghyrson + Spear Spewer",
+      "result": "If later paired, the one damage to each player triggers Ghyrson for each player; the controller also suffers three total self-damage, limiting safe repeated use."
+    }
+  ],
+  "adverse_scenarios": [
+    {
+      "condition": "Opponents remove Kessig/Thermo/Vivi/Storm-Kiln before casting followups",
+      "consequence": "Harmonic becomes mainly prowess creature with no current trigger doubling; Bloodletter would still amplify Boltwave/Flame Rift/Loyal without requiring these four partners."
+    },
+    {
+      "condition": "Rule of Law/Drannith Magistrate or artifact/graveyard hate already present",
+      "consequence": "Neither cheap pingers nor extra card exile solves all locks; losing Pyroblast still matters against blue counter magic and may justify keeping old defensive list."
+    },
+    {
+      "condition": "Creature-light table with no recent deaths",
+      "consequence": "Blood for the Blood God! must pay full eleven mana; old Call Forth costs eight, always has double cascade."
+    },
+    {
+      "condition": "Abaddon repeatedly countered or removed",
+      "consequence": "Nightscape Familiar's removed discount would have aided repeated 5+ commander-tax recasts; new synergy pieces need the commander but may work without it only partially."
+    }
+  ],
+  "still_missing": [
+    "Direct paid, effect-aware seven-card vs baseline challenge of protection/colored mana through at least one opposing instant-speed counter and board wipe; no previous incomplete model may be called conclusive.",
+    "Full candidate-specific Oracle integrity for the actual new physical 100, current exact-head structural and mechanistic CI, updated M6 I/J scope/certificate for changed card mechanics.",
+    "Final judgment on Harmonic vs Bloodletter, Ob vs Ruinous, Blood vs Tempest, Pyro vs Kederekt, Nightscape vs Ghyrson, Mount Doom vs Mountain; explicit anti-padding exhaustion after searching higher-swap options."
+  ],
+  "authority": "This packet is an active candidate comparison, NOT an owner-ready deck, not an exact new approval and not a claim of formal mechanical certification. Preserve canonical main until owner approves a fully verified exact replacement."
+}
