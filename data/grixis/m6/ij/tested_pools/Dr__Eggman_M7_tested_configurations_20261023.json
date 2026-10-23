@@ -1,0 +1,98 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Dr__Eggman",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Dr__Eggman_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Dr__Eggman_approved_source_2026-10-14.txt",
+   "raw_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+   "logical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw ef349862…, fetched from canonical encyclopedia main 9b26aa28, blob 86119caf, frozen by canonical commit 8883de3; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/dr-eggman.txt",
+   "raw_sha256": "7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a",
+   "logical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order (\"1 \" vs \"1x \"), so the raw bytes differ. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Dr__Eggman.txt",
+   "raw_sha256": "85bcd5a250c097a8b94322416c85272a8550728a43edc9a257b7fbd39823f792",
+   "logical_hash": "lh1:c092a5e2e7a3d77a208cf726323a1855b095fddb2f08e60c2fcda1b3f3e11249",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Possession Engine +Skysovereign, Consul Flagship +Interceptor Mechan +Su-Chi Cave Guard +Behemoth of Vault 0 / -Blasphemous Act -Cybermen Squadron -Cryptothrall -Unwinding Clock -Foundry Inspector. 31 lands unchanged; Eggman payloads (Construct/Robot/Vehicle) 28 -> 31; P(no payload in 7 cards) 0.0893 -> 0.0651; average nonland MV 4.206 -> 4.221. Two cuts (Blasphemous Act, Foundry Inspector) contradict the owner's 2026-10-14 explicit retention and are flagged. MODERATE confidence; no measured playtests."
+  },
+  {
+   "id": "FOUR_KEEP_BLASPHEMOUS_ACT_NO_POSSESSION_ENGINE",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_four_keep_BlasphemousAct_no_PossessionEngine_20261023.txt",
+   "raw_sha256": "f60fda6de3e73636f024f0bfca0d5c09a8ebb2a50ecccd850bd077911b7eabee",
+   "logical_hash": "lh1:8db399612e9c9fc47efff4cc5f28aee49e123b51f8097cfa9a64e548c7e278d7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor; not owner-presentable by itself). The preferred five without Possession Engine, keeping the owner-retained Blasphemous Act. Choose if the owner wants a fourth board reset; Act also kills Eggman and our artifact creatures."
+  },
+  {
+   "id": "FIVE_KEEP_FOUNDRY_INSPECTOR_CUT_WEAPONS_MANUFACTURING",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_five_keep_FoundryInspector_cut_WeaponsManufacturing_20261023.txt",
+   "raw_sha256": "620fa5f7570e535669a5449016622831d18dec51a2f5f57a9f93622093f484e8",
+   "logical_hash": "lh1:cc2b6d7b5c895961e8ac07373c4059ef7939d3711a73fed4f261503decfcd7f2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Keeps the owner-retained Foundry Inspector (66% EDHREC inclusion) and cuts Weapons Manufacturing (1246/13105) instead. Choose if the owner values the cast-cost reduction over Munitions tokens on every nontoken artifact entering. LOW-MODERATE confidence; close call."
+  },
+  {
+   "id": "FIVE_MIDNIGHT_CRUSADER_SHUTTLE_INSTEAD_OF_SU_CHI",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_five_MidnightCrusaderShuttle_instead_of_SuChi_20261023.txt",
+   "raw_sha256": "8975e7a3d9e4450f0949c45b312bbbcd29cdd599f8f9d25ccbb4188e08df189e",
+   "logical_hash": "lh1:2b6dfbca135f65cd33cea1c4bd0160f567cb59fc591d4f4cd7199a1c747d2aa8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (five-swap, staged). Shuttle adds a second villainous choice on attack (doubled by The Valeyard), but the opponent may sacrifice their worst creature: the permissive-choice critique the owner applied to Damocles Base on 2026-10-14. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_GOBLIN_WELDER_OVER_LILIANAS_CARESS",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_GoblinWelder_over_LilianasCaress_20261023.txt",
+   "raw_sha256": "b56ad715371bfec5889cf35fec2f63ce08719e08eb115c3b712a1776e40e61cc",
+   "logical_hash": "lh1:f15d41f743528ee87404a822c44e595391ca6cec0d8701868a967c10c7a73b40",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C requested test). Bounded 192-cell grid (mechanics test): Caress live in 72 cells (drains 12 per trigger at hand 3/Valeyard/discard, 6 without Valeyard); Welder live in 64 (needs an artifact card in our graveyard and an artifact to trade) and puts onto the battlefield, never into hand, so it doesn't feed Eggman's put branch. Pass C KEEP stands. MODERATE confidence."
+  },
+  {
+   "id": "SIX_TERGRID_OVER_LILIANAS_CARESS",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_Tergrid_over_LilianasCaress_20261023.txt",
+   "raw_sha256": "28bc5a9216d6721eeb48af02fcf9aa46447ffb2505cb07875abe55aebb02c246",
+   "logical_hash": "lh1:a296bfc63ae6ca3b1bdc7d33a0f1461fb6abb17a34222eed376eb71c7dbde673",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Tergrid is the strongest discard payoff (EDHREC optimized 100/255) but is Game Changer #4, cast-only (not a Construct/Robot/Vehicle) and the owner rejected adding discard punishment; it replaces Caress so the punisher count stays five. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_32_LANDS_SILVERBLUFF_BRIDGE_OVER_THOUGHTCAST",
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_32lands_SilverbluffBridge_over_Thoughtcast_20261023.txt",
+   "raw_sha256": "f7d3a9a73863009a953afdb5e5897eb0f1cea8459c9d962bab50c5ee97af43a6",
+   "logical_hash": "lh1:70dcbc6088309c531bdf070a21fc57e91eba3939ad76d1500263b60bc3be2269",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C requested 31 vs 32/33). Exact DP: P(5 lands by card 11/12) 0.2289/0.3032 -> 0.2539/0.3328; P(Eggman castable on lands+rocks with U, B, R) 0.3751/0.4696 -> 0.404/0.5009. A measured gain, but the owner deliberately kept 31 lands and Thoughtcast is a draw-two; owner's choice. LOW-MODERATE confidence."
+  }
+ ]
+}

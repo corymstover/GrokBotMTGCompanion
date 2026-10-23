@@ -1,0 +1,1082 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Dr__Eggman",
+ "canonical_baseline_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+ "canonical_baseline_logical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "commander_identity": {
+  "mechanical_plan": "Dr. Eggman ({2}{U}{B}{R} 3/6 flying legendary Human Scientist; sld, released 2025-07-14; commander-legal, not a Game Changer): at the beginning of our end step, draw a card, then each opponent in turn order (701.55d) faces a villainous choice (701.55a): discard a card, or we may put a Construct, Robot or Vehicle card from hand onto the battlefield. An empty-handed opponent may choose discard and discard nothing (701.55b). Put is not cast (no cast triggers or cost reductions); enters triggers fire (603.6a); Vehicles are not crewed when put. The Valeyard makes opponents face each choice an additional time (701.55c), which multiplies choices, not draws. Roaming Throne (Scientist/Human), Spark Double, Strionic Resonator and Y'shtola Rhul multiply triggers to at most 9 per turn (mechanics test). Plan: fill the hand with payloads, punish discards (Caress, Waste Not, Geth's Grimoire, Tinybones, Entropic Battlecruiser), and win with large artifact bodies.",
+  "protected_core": [
+   "Dr. Eggman",
+   "The Valeyard",
+   "Roaming Throne",
+   "Spark Double",
+   "Strionic Resonator",
+   "Y'shtola Rhul",
+   "Liliana's Caress",
+   "Waste Not",
+   "Geth's Grimoire",
+   "Tinybones, Bauble Burglar",
+   "Entropic Battlecruiser",
+   "Master Transmuter",
+   "Academy Ruins",
+   "Scrap Trawler",
+   "Golbez, Crystal Collector",
+   "Tezzeret, Master of the Bridge",
+   "Padeem, Consul of Innovation"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Game Changers: 3 in baseline and candidate (Ancient Tomb, Cyclonic Rift, Fierce Guardianship). Commander Spellbook find-my-combos: 0 included combos for both lists (almost-included 36 -> 30). No infinite is claimed; trigger multipliers are finite (max 9 Eggman triggers per turn).",
+  "anti_homogenization": "Commander-first: every add is a Construct, Robot or Vehicle that Eggman's own Oracle can put from hand, and all five have enters or dies value that works when put (Su-Chi's is on death). Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline -> candidate): Davros, Dalek Creator 45 -> 43; Mishra, Eminent One 41 -> 41; Mishra, Artificer Prodigy 40 -> 39; Ashnod the Uncaring 38 -> 37; The Valeyard 35 -> 34; Mai and Zuko 37 -> 35. Disclosed honestly: the shared core is mostly mana base, rocks and premium interaction; separation is commander-first: Eggman rewards having Construct/Robot/Vehicle cards in hand at the end step, so every add is a payload. Owner-removed classes (the 2026-10-14 removals and rejections: Megrim and additional discard punishment such as Raiders' Wake, anthems such as Steel Overseer and Chief of the Foundry, Etherium Sculptor, Mirrorworks, Torrential Gearhulk, Imposter Mech, Scrawling Crawler, Damocles Base) are not re-added and are judged REJECT. Two cuts (Blasphemous Act, Foundry Inspector) contradict the owner's explicit retention and are flagged, with keep-each alternatives staged."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (96 library rows: 2x Island, 2x Mountain, 2x Swamp, everything else 1x).\nRoles:\n- 31 lands: Ancient Tomb, Command Tower, City of Brass, Mana Confluence, Exotic Orchard, Training Center, Luxury Suite, Morphic Pool, Xander's Lounge, Underground Sea, Volcanic Island, Badlands, Watery Grave, Blood Crypt, Steam Vents, Polluted Delta, Scalding Tarn, Bloodstained Mire, Academy Ruins, Urza's Saga, Inventors' Fair, Spire of Industry, Seat of the Synod, Vault of Whispers, Great Furnace, 6 basics.\n- Rocks: Sol Ring, Arcane Signet, Fellwar Stone, Mox Opal, three Talismans.\n- Commander multipliers: Roaming Throne, Spark Double, Strionic Resonator, Y'shtola Rhul, The Valeyard.\n- Discard payoffs (exactly five): Liliana's Caress, Waste Not, Geth's Grimoire, Tinybones, Entropic Battlecruiser.\n- Payloads (Construct/Robot/Vehicle): 28 in baseline, 31 in candidate.\n- Recursion/tutors to hand: Academy Ruins, Golbez, Scrap Trawler, Tezzeret, Fabricate, Scrapyard Recombiner, Interceptor Mechan (new).\n- Interaction: Fierce Guardianship, Mana Drain, Deflecting Swat, Deadly Rollick, Chaos Warp, Withering Torment, Cyclonic Rift, Toxic Deluge, Their Name Is Death; Blasphemous Act (cut).",
+  "mana_base_and_curve": "Baseline and candidate: 31 lands (6 basics), 7 rocks plus Ancient Tomb; average nonland MV 4.206 -> 4.221; creatures 33 -> 33; instants/sorceries 13 -> 12; payloads 28 -> 31. Exact multivariate-hypergeometric DP (mechanics test): P(5 lands by card 11/12) 0.2289/0.3032 and P(Eggman castable on lands+rocks with U, B and R) 0.3751/0.4696, unchanged by the preferred five; 32 lands 0.2539/0.3328 and 0.404/0.5009; 33 lands 0.2798/0.3631 and 0.4333/0.532. P(no payload in 7 cards) 0.0893 -> 0.0651; in 12 cards 0.0139 -> 0.0079.",
+  "interaction_resilience": "Stack: Fierce Guardianship, Mana Drain, Deflecting Swat. Removal: Deadly Rollick, Chaos Warp, Withering Torment, plus payload removal (Possession Engine and Skysovereign new; Behemoth of Vault 0 on death; Cityscape Leveler; Demonic Junker; Noxious Gearhulk). Wipes: Toxic Deluge, Their Name Is Death, Cyclonic Rift (Blasphemous Act cut). Protection: Padeem, Lightning Greaves (Cryptothrall cut). Weak points: Eggman is a 5-mana commander that needs to survive to the end step; graveyard hate blunts recursion; opponents with empty hands answer every choice for free (40/64 cells of the bounded grid give at least one free out).",
+  "weakest_slots": [
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Kills Eggman and our own Constructs/Robots along with opponents' creatures.",
+    "alternative_named": "Possession Engine",
+    "reasoning": "Selected: theft on the put branch; Deluge, Their Name Is Death and Rift remain (flagged owner-retained)."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana Cyberman: not a Construct, Robot or Vehicle, so Eggman can never put it.",
+    "alternative_named": "Skysovereign, Consul Flagship",
+    "reasoning": "Selected: Vehicle payload with 3 damage on entering."
+   },
+   {
+    "card": "Cryptothrall",
+    "weakness": "Protection overlaps Padeem and Lightning Greaves.",
+    "alternative_named": "Interceptor Mechan",
+    "reasoning": "Selected: Robot payload that returns a payload to hand."
+   },
+   {
+    "card": "Unwinding Clock",
+    "weakness": "Not a payload; its value is mana on opponents' turns.",
+    "alternative_named": "Su-Chi Cave Guard",
+    "reasoning": "Selected: 8/8 vigilance ward 4 Construct payload; dies into eight mana."
+   },
+   {
+    "card": "Foundry Inspector",
+    "weakness": "Reduces only cast artifact spells, not puts.",
+    "alternative_named": "Behemoth of Vault 0",
+    "reasoning": "Selected (flagged owner-retained): removal-bearing Robot payload."
+   },
+   {
+    "card": "Liliana's Caress",
+    "weakness": "Dead when opponents choose to let us put.",
+    "alternative_named": "Goblin Welder",
+    "reasoning": "Rejected: bounded grid 72 vs 64 live cells; Welder never feeds Eggman's hand."
+   },
+   {
+    "card": "Thoughtcast",
+    "weakness": "Draw two that is neither a payload nor a discard payoff.",
+    "alternative_named": "Silverbluff Bridge",
+    "reasoning": "Rejected: owner's 31 lands kept; 32-land gain measured and staged."
+   },
+   {
+    "card": "Weapons Manufacturing",
+    "weakness": "Only makes Munitions when a nontoken artifact enters.",
+    "alternative_named": "Steel Overseer",
+    "reasoning": "Rejected: owner-removed; keep-Inspector alternative cuts Weapons Manufacturing instead."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Drossforge Bridge",
+    "reasoning": "Rejected: tapped, two colours."
+   },
+   {
+    "card": "Cityscape Leveler",
+    "weakness": "Loses its cast trigger when put.",
+    "alternative_named": "Bygone Colossus",
+    "reasoning": "Rejected: Leveler keeps attack trigger and unearth."
+   },
+   {
+    "card": "Cyberdrive Awakener",
+    "weakness": "Its animation is wasted when put at end step (Pass C).",
+    "alternative_named": "Relentless X-ATM092",
+    "reasoning": "Rejected: Cyberdrive's team flying stays relevant."
+   },
+   {
+    "card": "Nautiloid Ship",
+    "weakness": "Needs crew 3 and combat damage.",
+    "alternative_named": "Midnight Crusader Shuttle",
+    "reasoning": "Rejected: owner's Damocles Base critique applies."
+   },
+   {
+    "card": "The Regalia",
+    "weakness": "Crew 1 land ramp only on attack.",
+    "alternative_named": "Imposter Mech",
+    "reasoning": "Rejected: owner-rejected (opponent-board dependent, lower floor)."
+   },
+   {
+    "card": "Depthshaker Titan",
+    "weakness": "7 MV, its animation sacrifices at end step.",
+    "alternative_named": "Torrential Gearhulk",
+    "reasoning": "Rejected: owner-rejected; only 7 instants to recast."
+   },
+   {
+    "card": "Thought Monitor",
+    "weakness": "Small 2/2 flying body for a 7-MV affinity card.",
+    "alternative_named": "Scrawling Crawler",
+    "reasoning": "Rejected: owner-rejected (feeds opponents' hands)."
+   },
+   {
+    "card": "Waste Not",
+    "weakness": "Value only when opponents discard.",
+    "alternative_named": "Raiders' Wake",
+    "reasoning": "Rejected: owner-rejected discard punisher."
+   },
+   {
+    "card": "Krang, Utrom Warlord",
+    "weakness": "9 MV; its static only matters once other artifact creatures are out.",
+    "alternative_named": "Chief of the Foundry",
+    "reasoning": "Rejected: owner-rejected anthem."
+   },
+   {
+    "card": "Mox Opal",
+    "weakness": "Needs metalcraft (three artifacts) before it taps for mana.",
+    "alternative_named": "Thought Vessel",
+    "reasoning": "Rejected: Opal is zero mana and makes any colour."
+   },
+   {
+    "card": "Deadly Rollick",
+    "weakness": "Exiles only one creature; free only while Eggman is out.",
+    "alternative_named": "This Is How It Ends",
+    "reasoning": "Rejected: Rollick is usually free; the challenger costs four."
+   },
+   {
+    "card": "Entropic Battlecruiser",
+    "weakness": "Only matters when opponents discard.",
+    "alternative_named": "Tergrid, God of Fright",
+    "reasoning": "Rejected: Game Changer #4; staged against Caress."
+   },
+   {
+    "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "weakness": "Needs life loss already this turn.",
+    "alternative_named": "Starscream, Power Hungry",
+    "reasoning": "Rejected: Blitzwing's end-step trigger fits Eggman."
+   },
+   {
+    "card": "Thopter Fabricator",
+    "weakness": "Needs a second draw each turn.",
+    "alternative_named": "Krang, the All-Powerful",
+    "reasoning": "Rejected: doesn't double Eggman."
+   },
+   {
+    "card": "Metalwork Colossus",
+    "weakness": "Cost depends on noncreature artifacts.",
+    "alternative_named": "Craterclaw Colossus",
+    "reasoning": "Rejected: end-step pump wasted."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Eggman list (2026-10-14) built on end-step payload puts and discard punishment. M6 Pass C (#15) final NEEDS TESTING, KEEP (owner-equivalent substitute, NOT independent; 0 measured playtests); it asked for bounded tests of +Goblin Welder/-Liliana's Caress, 31 vs 32/33 lands, and cast-vs-put multipliers. Weakest five slots: Blasphemous Act (a 9-MV wipe that also kills Eggman and our artifact creatures), Cybermen Squadron and Unwinding Clock (non-payload; myriad and other-turn untaps), Foundry Inspector (a 3/2 Construct payload whose cost reduction matters little when Eggman puts), and Cryptothrall (a Construct whose hexproof grant overlaps Padeem).",
+  "candidate_pool_scope": "EDHREC Dr. Eggman general (13580 decks), upgraded (1056) and optimized (255) pages JSON; live Scryfall /cards/collection batch (baseline rows + evaluated names) and an OFF-RANKING type search (Construct/Robot/Vehicle in UBR, 458 hits); Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; the owner's 2026-10-14 closeout removals and rejections.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Behemoth of Vault 0 (absent from all Eggman pages; selected), Goblin Welder (Pass C; rejected), Bygone Colossus, Krang, the All-Powerful (rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Dr. Eggman approved source refinement/decklists/Dr_Eggman_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 86119caf033b605bf0d30017c8bd06b6a63a3c0c, frozen by canonical commit 8883de3; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Dr. Eggman commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23, discovery only: data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch and Construct/Robot/Vehicle type search 2026-10-23: data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Dr__Eggman_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for Construct/Robot/Vehicle payloads with enters/dies value and graveyard-to-battlefield engines (Behemoth of Vault 0, Goblin Welder, Bygone Colossus, Krang, the All-Powerful)",
+  "M6 Pass C final disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+  "Owner 2026-10-14 whole-list closeout (removals and rejections): canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+  "Comprehensive Rules (frozen cache, 2026-09-25) for villainous choice 701.55a-d, put vs cast, 603.6a, Vehicles, end step 513: data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C requests (64-cell villainous grid; 192-cell Welder vs Caress grid; exact land DP at 31/32/33 lands; trigger multipliers): tests/test_m6_dr_eggman_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Possession Engine",
+   "source": "EDHREC Dr. Eggman general 1688/13580, upgraded 117/1056, optimized 20/255; live Scryfall batch",
+   "role": "{3}{U}{U} Vehicle 5/5, crew 3: when it enters, gain control of target creature an opponent controls for as long as we control the Vehicle; that creature can't attack or block.",
+   "named_cuts": [
+    "Blasphemous Act"
+   ],
+   "incumbent_opportunity_cost": "Loses Blasphemous Act (symmetric 13-damage wipe), one of four board resets with Toxic Deluge, Their Name Is Death and Cyclonic Rift. FLAG: contradicts the owner's explicit 2026-10-14 retention of Blasphemous Act in the interaction suite; a keep-Act four-swap is staged.",
+   "commander_synergy": "A Vehicle, so Eggman can put it from hand at the end step when an opponent declines to discard; its enters trigger still fires when put (603.6a), so the opponent who refuses to discard loses their best creature. It is not crewed when put (301.7a), but the theft does not need it to be a creature.",
+   "adversarial_downside": "Theft ends if the Vehicle leaves; the stolen creature can't attack or block for us; Blasphemous Act was the cheapest answer to a wide board. FLAG: the owner listed Blasphemous Act in the retained premium interaction suite on 2026-10-14; a four-swap list keeping Act is staged.",
+   "judgment": "SELECT_ADD",
+   "reason": "Turns the put branch of Eggman's villainous choice into removal; a wipe that also kills Eggman and our Constructs/Robots is the worst-fitting interaction slot; Their Name Is Death (destroy all nonartifact creatures) remains and spares our artifact creatures.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_four_keep_BlasphemousAct_no_PossessionEngine_20261023.txt"
+   ]
+  },
+  {
+   "card": "Skysovereign, Consul Flagship",
+   "source": "EDHREC Dr. Eggman general 1950/13580, upgraded 150/1056, optimized 26/255; live Scryfall batch",
+   "role": "{5} legendary Vehicle 6/5 flyer, crew 3: whenever it enters or attacks, 3 damage to target creature or planeswalker an opponent controls.",
+   "named_cuts": [
+    "Cybermen Squadron"
+   ],
+   "incumbent_opportunity_cost": "Loses Cybermen Squadron (7-mana 5/5 Cyberman, gives nonlegendary artifact creatures myriad); it is not a Construct, Robot or Vehicle, so Eggman can never put it.",
+   "commander_synergy": "A legal Eggman Vehicle payload: put at end step, its enters trigger deals 3 damage at once; later it attacks for 3 more each turn. Cybermen is a 7-mana cast-only card in a deck that wants to put things.",
+   "adversarial_downside": "Needs crew 3 to attack (Eggman, a 3/6, crews it alone at sorcery-speed-free cost); legendary.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts an unexploited non-payload slot into a payload with immediate removal.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Interceptor Mechan",
+   "source": "EDHREC Dr. Eggman general 2565/13042, upgraded 157/1027, optimized absent; live Scryfall batch",
+   "role": "{2}{B}{R} 2/2 flying Robot: when it enters, return target artifact or creature card from our graveyard to hand; void: at our end step, a +1/+1 counter if a nonland permanent left the battlefield or a spell was warped this turn.",
+   "named_cuts": [
+    "Cryptothrall"
+   ],
+   "incumbent_opportunity_cost": "Loses Cryptothrall (4-mana 3/3 Construct; protector; other artifact creatures have hexproof), which overlaps Padeem (artifacts have hexproof) and Lightning Greaves.",
+   "commander_synergy": "A Robot payload whose enters trigger refills the hand with a payload from the graveyard, so the next Eggman end step again has a put option (the returned card arrives after the current Eggman trigger finishes resolving, so it feeds the next one). It joins Academy Ruins, Golbez, Scrap Trawler and Tezzeret as recursion to hand.",
+   "adversarial_downside": "2/2 body; the hexproof overlap is real but Cryptothrall is also a payload, so payload count rises by 0 on this swap (Cryptothrall was one).",
+   "judgment": "SELECT_ADD",
+   "reason": "Hand refill is what Eggman needs; Cryptothrall's protection duplicates Padeem.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Su-Chi Cave Guard",
+   "source": "EDHREC Dr. Eggman general 1713/13580, upgraded 109/1056, optimized 33/255; live Scryfall batch",
+   "role": "{8} 8/8 Construct, vigilance, ward {4}; when it dies, add eight {C} that we keep until end of turn.",
+   "named_cuts": [
+    "Unwinding Clock"
+   ],
+   "incumbent_opportunity_cost": "Loses Unwinding Clock (untap our artifacts in each other player's untap step), the deck's instant-speed mana doubler for artifacts.",
+   "commander_synergy": "An 8-mana Construct that Eggman puts for free; a threatening payload makes the discard option more attractive to opponents, which the five actual-discard payoffs punish (Liliana's Caress, Waste Not, Geth's Grimoire, Tinybones, Entropic Battlecruiser). Ward {4} taxes spot removal; the death mana refunds a wipe.",
+   "adversarial_downside": "No enters trigger; vanilla when it arrives; Unwinding Clock had real value with Strionic Resonator and mana rocks on opponents' turns. Chosen over Midnight Crusader Shuttle after re-reading the owner's Damocles Base rejection (permissive choice outcomes).",
+   "judgment": "SELECT_ADD",
+   "reason": "A real payload replaces a non-payload; the Shuttle alternative is staged.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_five_MidnightCrusaderShuttle_instead_of_SuChi_20261023.txt"
+   ]
+  },
+  {
+   "card": "Behemoth of Vault 0",
+   "source": "OFF-RANKING (absent from all Dr. Eggman EDHREC pages); live Scryfall batch",
+   "role": "{6} 6/6 trample Robot: when it enters, get four energy; when it dies, pay energy equal to a target nonland permanent's mana value to destroy it.",
+   "named_cuts": [
+    "Foundry Inspector"
+   ],
+   "incumbent_opportunity_cost": "Loses Foundry Inspector (3-mana Construct: artifact spells we cast cost {1} less). NOTABLE LOSS: EDHREC 9028/13580 general (66%) and 168/255 optimized; the owner named it in retained mana infrastructure on 2026-10-14.",
+   "commander_synergy": "Eggman puts it free; its enters energy is gained when put (603.6a), and its death later destroys a nonland permanent of mana value 4 or less. Inspector reduces only cast artifact spells and does nothing for a put (Eggman, Master Transmuter, Kuldotha Forgemaster, Tezzeret -8), the same cast-vs-put principle the owner used to cut Etherium Sculptor.",
+   "adversarial_downside": "Inspector is itself a 3-MV Construct payload; Behemoth needs to die to do anything beyond its body. FLAG: contradicts the owner's explicit retention of Inspector; a keep-Inspector five-swap (cutting Weapons Manufacturing) is staged.",
+   "judgment": "SELECT_ADD",
+   "reason": "Commander-first: the put engine gains a removal-bearing body; the cast-cost reducer is the least Eggman-specific infrastructure.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+    "tests/test_m6_dr_eggman_m7_mechanics.py",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_five_keep_FoundryInspector_cut_WeaponsManufacturing_20261023.txt"
+   ]
+  },
+  {
+   "card": "Goblin Welder",
+   "source": "OFF-RANKING (absent from all Dr. Eggman EDHREC pages); M6 Pass C requested the bounded test +Goblin Welder/-Liliana's Caress; live Scryfall batch",
+   "role": "{R} 1/1: {T}: a player sacrifices a target artifact and returns a target artifact card from their graveyard to the battlefield.",
+   "named_cuts": [
+    "Liliana's Caress"
+   ],
+   "incumbent_opportunity_cost": "Would lose Liliana's Caress (2 life per opponent discard), one of five actual-discard payoffs.",
+   "commander_synergy": "Cheats big artifacts from the graveyard onto the battlefield (ETBs fire); a second put engine.",
+   "adversarial_downside": "Bounded 192-cell grid (mechanics test): Caress is live in 72 cells and drains 12 at Valeyard on/hand 3/discard (6 without Valeyard); Welder is live in 64 (needs an artifact card in our graveyard and one to trade) and puts onto the battlefield, not into hand, so it never feeds Eggman's choice. A 1/1 that dies to everything.",
+   "judgment": "REJECT",
+   "reason": "Pass C's KEEP of Caress stands on the bounded grid; the six-swap is staged for the owner.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "tests/test_m6_dr_eggman_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_GoblinWelder_over_LilianasCaress_20261023.txt"
+   ]
+  },
+  {
+   "card": "Tergrid, God of Fright",
+   "source": "EDHREC Dr. Eggman general 2564/13580, upgraded 296/1056, optimized 100/255; live Scryfall batch; Game Changer",
+   "role": "{3}{B}{B} God, menace: whenever an opponent sacrifices a nontoken permanent or discards a permanent card, we may put it onto the battlefield under our control (back face: Tergrid's Lantern).",
+   "named_cuts": [
+    "Liliana's Caress"
+   ],
+   "incumbent_opportunity_cost": "Would lose Liliana's Caress; Tergrid replaces a discard punisher rather than adding one (the owner rejected additional discard punishment).",
+   "commander_synergy": "Every discarded permanent card from Eggman's choice becomes ours; strongest discard payoff in the format.",
+   "adversarial_downside": "Game Changer #4 (bracket accounting changes); not a Construct/Robot/Vehicle, so Eggman can't put it; 5 mana cast-only; only permanent cards count.",
+   "judgment": "REJECT",
+   "reason": "Too much bracket and owner-direction risk for a cast-only creature; staged as a six-swap for the owner.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_six_Tergrid_over_LilianasCaress_20261023.txt"
+   ]
+  },
+  {
+   "card": "Silverbluff Bridge",
+   "source": "EDHREC Dr. Eggman general 3643/13580, upgraded 293/1056, optimized 59/255; live Scryfall batch",
+   "role": "Indestructible artifact land, enters tapped: {U} or {R}.",
+   "named_cuts": [
+    "Thoughtcast"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thoughtcast (affinity draw two).",
+   "commander_synergy": "Pass C asked 31 vs 32/33 lands: exact DP (mechanics test) gives P(5 lands by card 11/12) 0.2289/0.3032 -> 0.2539/0.3328 and P(Eggman castable on lands+rocks with U, B and R) 0.3751/0.4696 -> 0.404/0.5009 at 32; it is also an artifact for affinity/metalcraft.",
+   "adversarial_downside": "A tapped land; costs a draw spell; the owner explicitly kept 31 lands on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner's deliberate 31-land count is kept; the measured gain is disclosed and the 32-land six-swap is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "tests/test_m6_dr_eggman_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_32lands_SilverbluffBridge_over_Thoughtcast_20261023.txt"
+   ]
+  },
+  {
+   "card": "Drossforge Bridge",
+   "source": "EDHREC Dr. Eggman general 3009/13580, upgraded 252/1056, optimized 61/255; live Scryfall batch",
+   "role": "Indestructible artifact land, enters tapped: {B} or {R}.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would lose Exotic Orchard (any colour an opponent's land could make).",
+   "commander_synergy": "Artifact land for affinity/metalcraft; the 33-land test variant uses it (0.2798/0.3631 and 0.4333/0.532 by card 11/12).",
+   "adversarial_downside": "Enters tapped; Orchard is usually all three colours in a four-player Grixis-adjacent table.",
+   "judgment": "REJECT",
+   "reason": "Not better than Orchard at 31 lands; 33 lands is beyond the owner's count.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "tests/test_m6_dr_eggman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Midnight Crusader Shuttle",
+   "source": "EDHREC Dr. Eggman general 2862/13580, upgraded 209/1056, optimized 34/255; live Scryfall batch",
+   "role": "{4} Vehicle 3/4, crew 2: whenever it attacks, the defending player faces a villainous choice: sacrifice a creature of their choice, or we gain control of a creature of our choice until end of turn (tapped and attacking).",
+   "named_cuts": [
+    "Unwinding Clock"
+   ],
+   "incumbent_opportunity_cost": "Would take the Unwinding Clock slot that Su-Chi Cave Guard takes.",
+   "commander_synergy": "A Vehicle payload with a second villainous choice; The Valeyard doubles it.",
+   "adversarial_downside": "The owner rejected Damocles Base for combat dependency and permissive choice outcomes; Shuttle's choice lets the opponent sacrifice their worst creature, the same critique. Needs crew and a profitable attack.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected; the Shuttle five-swap is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_five_MidnightCrusaderShuttle_instead_of_SuChi_20261023.txt"
+   ]
+  },
+  {
+   "card": "Relentless X-ATM092",
+   "source": "EDHREC Dr. Eggman general 3009/13580, upgraded 187/1056, optimized 31/255; live Scryfall batch",
+   "role": "{6} 6/5 Robot Spider: can't be blocked except by three or more creatures; {8}: return from graveyard to battlefield tapped with a finality counter.",
+   "named_cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cyberdrive Awakener (flying for all artifact creatures; animates noncreature artifacts on entering).",
+   "commander_synergy": "A Robot payload that comes back from the graveyard.",
+   "adversarial_downside": "No enters value when put; Cyberdrive's team flying is the deck's main evasion (Pass C noted its end-step animation is wasted, but the static flying is not).",
+   "judgment": "REJECT",
+   "reason": "Evasion for the whole board outranks one evasive body.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Bygone Colossus",
+   "source": "OFF-RANKING (absent from all Dr. Eggman EDHREC pages); live Scryfall batch",
+   "role": "{9} 9/9 Robot Giant; warp {3}.",
+   "named_cuts": [
+    "Cityscape Leveler"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cityscape Leveler (8/8 trample; destroys a nonland permanent on cast and on each attack; unearth).",
+   "commander_synergy": "Large Robot payload; warp also turns on Interceptor Mechan's void.",
+   "adversarial_downside": "Vanilla when put; Leveler loses only its cast trigger when put and keeps the attack trigger and unearth.",
+   "judgment": "REJECT",
+   "reason": "Leveler is the better payload even when put.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Imposter Mech",
+   "source": "EDHREC Dr. Eggman general 2790/13580, upgraded 226/1056, optimized 55/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{1}{U} Vehicle: may enter as a copy of a creature an opponent controls (a Vehicle with crew 3).",
+   "named_cuts": [
+    "The Regalia"
+   ],
+   "incumbent_opportunity_cost": "Would lose The Regalia (crew 1 haste Vehicle that ramps a land on each attack).",
+   "commander_synergy": "A cheap Vehicle payload that copies the best opposing creature.",
+   "adversarial_downside": "Owner rejected it on 2026-10-14 (opponent-board dependent, lower floor).",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Torrential Gearhulk",
+   "source": "EDHREC Dr. Eggman general 5225/13580, upgraded 389/1056, optimized 103/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{4}{U}{U} 5/6 flash Construct: when it enters, cast an instant card from our graveyard free.",
+   "named_cuts": [
+    "Depthshaker Titan"
+   ],
+   "incumbent_opportunity_cost": "Would lose Depthshaker Titan (animates artifacts; melee, trample and haste for artifact creatures).",
+   "commander_synergy": "A Construct payload whose enters trigger works when put.",
+   "adversarial_downside": "Owner rejected it (too few instants: 7 in the candidate); Pass C listed it as a deferred conditional test.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Scrawling Crawler",
+   "source": "EDHREC Dr. Eggman general 4410/13580, upgraded 401/1056, optimized 102/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{3} 3/2 Construct: each player draws at our upkeep; opponents lose 1 life per draw.",
+   "named_cuts": [
+    "Thought Monitor"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thought Monitor (affinity flyer, draw two on entering).",
+   "commander_synergy": "A cheap Construct payload and draw engine.",
+   "adversarial_downside": "Owner rejected it: refilling opponents' hands works against the discard branch.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Raiders' Wake",
+   "source": "EDHREC Dr. Eggman general 2035/13580, upgraded 143/1056, optimized 20/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{3}{B} enchantment: opponents lose 2 life per discard; raid end-step discard.",
+   "named_cuts": [
+    "Waste Not"
+   ],
+   "incumbent_opportunity_cost": "Would lose Waste Not (creature/land/noncreature discard payoffs).",
+   "commander_synergy": "Another discard punisher on the discard branch of Eggman's choice.",
+   "adversarial_downside": "Owner rejected additional discard punishment on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Chief of the Foundry",
+   "source": "EDHREC Dr. Eggman general 4505/13580, upgraded 289/1056, optimized 66/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{3} 2/3 Construct: other artifact creatures we control get +1/+1.",
+   "named_cuts": [
+    "Krang, Utrom Warlord"
+   ],
+   "incumbent_opportunity_cost": "Would lose Krang, Utrom Warlord.",
+   "commander_synergy": "Cheap Construct payload and anthem.",
+   "adversarial_downside": "Owner rejected anthems (generic scaling is not the bottleneck).",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Steel Overseer",
+   "source": "EDHREC Dr. Eggman general 7126/13580, upgraded 528/1056, optimized 109/255; live Scryfall batch; OWNER-REMOVED/REJECTED in the 2026-10-14 whole-list closeout (flagged, not re-added)",
+   "role": "{2} 1/1 Construct: {T}: +1/+1 counter on each artifact creature we control.",
+   "named_cuts": [
+    "Weapons Manufacturing"
+   ],
+   "incumbent_opportunity_cost": "Would lose Weapons Manufacturing.",
+   "commander_synergy": "Cheap Construct payload that grows the artifact board each turn.",
+   "adversarial_downside": "Owner removed it on 2026-10-14 for Roaming Throne (slow generic anthem).",
+   "judgment": "REJECT",
+   "reason": "Owner revision direction respected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "canonical refinement/verification/dr_eggman_2026-10-14/Dr_Eggman_Whole_List_Audit_Closeout_2026-10-14.md"
+   ]
+  },
+  {
+   "card": "Thought Vessel",
+   "source": "EDHREC Dr. Eggman general 6162/13580, upgraded 477/1056, optimized 102/255; live Scryfall batch",
+   "role": "{2} rock: {T}: {C}; no maximum hand size.",
+   "named_cuts": [
+    "Mox Opal"
+   ],
+   "incumbent_opportunity_cost": "Would lose Mox Opal (0-mana any colour with metalcraft).",
+   "commander_synergy": "Keeps a large hand of payloads.",
+   "adversarial_downside": "Hand size rarely binds with Eggman drawing one card per end step; Opal is faster and coloured.",
+   "judgment": "REJECT",
+   "reason": "Opal is the better rock for a 31-land list.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "This Is How It Ends",
+   "source": "EDHREC Dr. Eggman general 3471/13580, upgraded 213/1056, optimized 44/255; live Scryfall batch",
+   "role": "{3}{B} instant: shuffle target creature into its owner's library; then the owner faces a villainous choice: lose 5 life or shuffle another creature.",
+   "named_cuts": [
+    "Deadly Rollick"
+   ],
+   "incumbent_opportunity_cost": "Would lose Deadly Rollick (free exile with a commander).",
+   "commander_synergy": "A second villainous choice, doubled by The Valeyard.",
+   "adversarial_downside": "Costs four where Rollick is usually free; the opponent picks the softer option.",
+   "judgment": "REJECT",
+   "reason": "Rollick is strictly more efficient interaction.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Ensnared by the Mara",
+   "source": "EDHREC Dr. Eggman general 3448/13580, upgraded 254/1056, optimized 67/255; live Scryfall batch",
+   "role": "{2}{R}{R} sorcery: each opponent faces a villainous choice: we cast their next nonland card free, or they exile four and take damage equal to the total MV.",
+   "named_cuts": [
+    "Thoughtcast"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thoughtcast (affinity draw two for usually one or two mana).",
+   "commander_synergy": "Villainous choice for each opponent, doubled by The Valeyard.",
+   "adversarial_downside": "RR sorcery; the opponent chooses the lower-variance branch; not a payload.",
+   "judgment": "REJECT",
+   "reason": "Not better than the draw spell in a payload deck.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Starscream, Power Hungry",
+   "source": "EDHREC Dr. Eggman general 3472/13580, upgraded 276/1056, optimized 78/255; live Scryfall batch",
+   "role": "{3}{B} Robot (More Than Meets the Eye {2}{B}): flyer; monarch drain; converts to a Vehicle.",
+   "named_cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "incumbent_opportunity_cost": "Would lose Blitzwing (end-step life-loss doubling).",
+   "commander_synergy": "Robot payload with a cheaper converted cost.",
+   "adversarial_downside": "Monarch dependency; Blitzwing's end-step trigger matches Eggman's step.",
+   "judgment": "REJECT",
+   "reason": "Blitzwing fits the end step better.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Krang, the All-Powerful",
+   "source": "OFF-RANKING (absent from all Dr. Eggman EDHREC pages); live Scryfall batch",
+   "role": "{4}{U} 3/3 Robot: if a player drawing a card causes a triggered ability of a permanent we control to trigger, it triggers an additional time.",
+   "named_cuts": [
+    "Thopter Fabricator"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thopter Fabricator.",
+   "commander_synergy": "Robot payload; would double draw-triggered abilities.",
+   "adversarial_downside": "Eggman's trigger is an end-step trigger, not a draw trigger, so Krang does not double it; few draw-triggered permanents.",
+   "judgment": "REJECT",
+   "reason": "Does not interact with Eggman's own trigger.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Craterclaw Colossus",
+   "source": "EDHREC Dr. Eggman general 237/3112, upgraded 25/329, optimized 5/59; live Scryfall batch (new-cards section denominators)",
+   "role": "{4}{R}{R}{R} 5/5 haste Construct: when it enters, our creatures gain trample and +X/+0 (X = artifacts we control).",
+   "named_cuts": [
+    "Metalwork Colossus"
+   ],
+   "incumbent_opportunity_cost": "Would lose Metalwork Colossus.",
+   "commander_synergy": "Construct payload with an enters trigger.",
+   "adversarial_downside": "When put at our end step the pump is wasted; RRR to cast.",
+   "judgment": "REJECT",
+   "reason": "End-step timing wastes its trigger.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Possession Engine",
+   "Skysovereign, Consul Flagship",
+   "Interceptor Mechan",
+   "Su-Chi Cave Guard",
+   "Behemoth of Vault 0"
+  ],
+  "cuts": [
+   "Blasphemous Act",
+   "Cybermen Squadron",
+   "Cryptothrall",
+   "Unwinding Clock",
+   "Foundry Inspector"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that add Eggman payloads (Possession Engine, Skysovereign, Interceptor Mechan, Su-Chi Cave Guard, Behemoth of Vault 0). Losses: Blasphemous Act's cheap wipe (Toxic Deluge, Their Name Is Death and Rift remain; flagged owner-retained), Cybermen Squadron's myriad, Cryptothrall's hexproof (Padeem remains), Unwinding Clock's untap, Foundry Inspector's cost reduction (notable: 66% EDHREC inclusion; flagged owner-retained)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Blasphemous Act",
+    "weakness": "Kills Eggman and our own Constructs/Robots along with opponents' creatures.",
+    "alternative_named": "Possession Engine",
+    "reasoning": "Selected: theft on the put branch; Deluge, Their Name Is Death and Rift remain (flagged owner-retained)."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana Cyberman: not a Construct, Robot or Vehicle, so Eggman can never put it.",
+    "alternative_named": "Skysovereign, Consul Flagship",
+    "reasoning": "Selected: Vehicle payload with 3 damage on entering."
+   },
+   {
+    "card": "Cryptothrall",
+    "weakness": "Protection overlaps Padeem and Lightning Greaves.",
+    "alternative_named": "Interceptor Mechan",
+    "reasoning": "Selected: Robot payload that returns a payload to hand."
+   },
+   {
+    "card": "Unwinding Clock",
+    "weakness": "Not a payload; its value is mana on opponents' turns.",
+    "alternative_named": "Su-Chi Cave Guard",
+    "reasoning": "Selected: 8/8 vigilance ward 4 Construct payload; dies into eight mana."
+   },
+   {
+    "card": "Foundry Inspector",
+    "weakness": "Reduces only cast artifact spells, not puts.",
+    "alternative_named": "Behemoth of Vault 0",
+    "reasoning": "Selected (flagged owner-retained): removal-bearing Robot payload."
+   },
+   {
+    "card": "Liliana's Caress",
+    "weakness": "Dead when opponents choose to let us put.",
+    "alternative_named": "Goblin Welder",
+    "reasoning": "Rejected: bounded grid 72 vs 64 live cells; Welder never feeds Eggman's hand."
+   },
+   {
+    "card": "Thoughtcast",
+    "weakness": "Draw two that is neither a payload nor a discard payoff.",
+    "alternative_named": "Silverbluff Bridge",
+    "reasoning": "Rejected: owner's 31 lands kept; 32-land gain measured and staged."
+   },
+   {
+    "card": "Weapons Manufacturing",
+    "weakness": "Only makes Munitions when a nontoken artifact enters.",
+    "alternative_named": "Steel Overseer",
+    "reasoning": "Rejected: owner-removed; keep-Inspector alternative cuts Weapons Manufacturing instead."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Drossforge Bridge",
+    "reasoning": "Rejected: tapped, two colours."
+   },
+   {
+    "card": "Cityscape Leveler",
+    "weakness": "Loses its cast trigger when put.",
+    "alternative_named": "Bygone Colossus",
+    "reasoning": "Rejected: Leveler keeps attack trigger and unearth."
+   },
+   {
+    "card": "Cyberdrive Awakener",
+    "weakness": "Its animation is wasted when put at end step (Pass C).",
+    "alternative_named": "Relentless X-ATM092",
+    "reasoning": "Rejected: Cyberdrive's team flying stays relevant."
+   },
+   {
+    "card": "Nautiloid Ship",
+    "weakness": "Needs crew 3 and combat damage.",
+    "alternative_named": "Midnight Crusader Shuttle",
+    "reasoning": "Rejected: owner's Damocles Base critique applies."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Behemoth of Vault 0 (selected); Goblin Welder, Bygone Colossus, Krang, the All-Powerful (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector"
+    ],
+    "result_and_rationale": "Selected five-swap package, commander-first: five Construct/Robot/Vehicle payloads for Eggman's put branch (Possession Engine and Skysovereign steal or burn on entering, Interceptor Mechan refills the hand, Su-Chi Cave Guard and Behemoth of Vault 0 are large resilient bodies). Payloads 28 -> 31; 31 lands unchanged."
+   },
+   {
+    "adds": [
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Blasphemous Act (no Possession Engine), for an owner who wants the retained wipe."
+   },
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Weapons Manufacturing"
+    ],
+    "result_and_rationale": "Staged five-swap keeping Foundry Inspector and cutting Weapons Manufacturing instead, for an owner who keeps the cast reducer."
+   },
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Midnight Crusader Shuttle",
+     "Behemoth of Vault 0"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector"
+    ],
+    "result_and_rationale": "Staged five-swap with Midnight Crusader Shuttle instead of Su-Chi. Rejected: owner's Damocles Base critique."
+   },
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Goblin Welder"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Liliana's Caress"
+    ],
+    "result_and_rationale": "Staged Pass C six-swap. Rejected on the bounded grid."
+   },
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Tergrid, God of Fright"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Liliana's Caress"
+    ],
+    "result_and_rationale": "Staged six-swap. Rejected: Game Changer #4."
+   },
+   {
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Silverbluff Bridge"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Thoughtcast"
+    ],
+    "result_and_rationale": "Staged Pass C 32-land six-swap. Rejected: owner keeps 31; measured gain disclosed."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C's +Goblin Welder/-Liliana's Caress and 31 vs 32/33 land questions were run as bounded finite tests; both are staged as complete six-swap 100s and rejected (Pass C KEEP and the owner's 31 lands are respected). The owner-retained Blasphemous Act and Foundry Inspector each have a staged keep-it alternative.",
+  "strongest_argument_against_baseline": "Eggman rewards having Construct, Robot and Vehicle cards in hand at the end step, yet five baseline slots were non-payloads or cast-only: a wipe that kills Eggman, a 7-mana Cyberman, a cast-only cost reducer, an untap artifact and a redundant hexproof Construct.",
+  "evidence_based_answer": "Five swaps, all payloads Eggman can put: two with enters removal (Possession Engine, Skysovereign), one with hand refill (Interceptor Mechan), and two resilient large bodies (Su-Chi Cave Guard, Behemoth of Vault 0). Payloads 28 -> 31; mana unchanged. Spellbook: 0 included combos before and after."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Dr__Eggman.txt",
+  "sha256": "85bcd5a250c097a8b94322416c85272a8550728a43edc9a257b7fbd39823f792",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 2x Island, 2x Mountain, 2x Swamp, everything else 1x. Five substitutions against the canonical source. 31 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Dr__Eggman_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+   "tests/test_m6_dr_eggman_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Villainous Choice",
+   "Robots",
+   "Artifact Cheat"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not used as a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: twelve post-floor challenges were recorded and rejected on Eggman-specific grounds, and three six-swap packages (Pass C's Goblin Welder over Liliana's Caress; Tergrid over Liliana's Caress; Pass C's 32 lands with Silverbluff Bridge over Thoughtcast) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Liliana's Caress",
+    "challenger": "Goblin Welder",
+    "tradeoff": "Bounded 192-cell grid: Caress live in 72 cells and drains up to 12 per trigger with The Valeyard; Welder live in 64 and never puts a card into hand, so it doesn't feed Eggman. Pass C KEEP stands.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Liliana's Caress",
+    "challenger": "Tergrid, God of Fright",
+    "tradeoff": "Tergrid is the stronger discard payoff but Game Changer #4, cast-only and not an Eggman payload; owner rejected additional discard punishment.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Thoughtcast",
+    "challenger": "Silverbluff Bridge",
+    "tradeoff": "32 lands lifts P(Eggman castable by card 12) 0.4696 -> 0.5009 (exact DP), at the cost of a draw-two; the owner deliberately kept 31.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Exotic Orchard",
+    "challenger": "Drossforge Bridge",
+    "tradeoff": "Orchard is usually three colours in multiplayer; Drossforge enters tapped with two.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Nautiloid Ship",
+    "challenger": "Midnight Crusader Shuttle",
+    "tradeoff": "Shuttle's villainous choice lets the opponent sacrifice their worst creature, the permissive outcome the owner rejected in Damocles Base.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Cityscape Leveler",
+    "challenger": "Bygone Colossus",
+    "tradeoff": "Leveler loses only its cast trigger when put; its attack trigger and unearth beat a vanilla 9/9.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Cyberdrive Awakener",
+    "challenger": "Relentless X-ATM092",
+    "tradeoff": "Team flying is the deck's evasion; the Pass C timing note concerns only its enters animation.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Mox Opal",
+    "challenger": "Thought Vessel",
+    "tradeoff": "Opal is zero mana and makes any colour with metalcraft; hand size rarely binds with one Eggman draw per turn.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Deadly Rollick",
+    "challenger": "This Is How It Ends",
+    "tradeoff": "Rollick is free with Eggman out; the opponent chooses the softer branch of This Is How It Ends.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "challenger": "Starscream, Power Hungry",
+    "tradeoff": "Blitzwing's end-step trigger matches Eggman's step; Starscream needs the monarch.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Thopter Fabricator",
+    "challenger": "Krang, the All-Powerful",
+    "tradeoff": "Krang doubles only draw-caused triggers; Eggman's end-step trigger is not one, and Fabricator is a payload already.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Metalwork Colossus",
+    "challenger": "Craterclaw Colossus",
+    "tradeoff": "Craterclaw's enters pump is wasted when Eggman puts it at end step; Metalwork Colossus recurs itself to hand.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_GoblinWelder_over_LilianasCaress_20261023.txt",
+    "sha256": "b56ad715371bfec5889cf35fec2f63ce08719e08eb115c3b712a1776e40e61cc",
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Goblin Welder"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Liliana's Caress"
+    ],
+    "case_for_extra_swaps": "Pass C requested it: a one-mana second put engine that cheats artifacts back from the graveyard.",
+    "why_not_selected": "Bounded grid: Welder live in 64/192 cells vs Caress 72/192, and Welder puts onto the battlefield, never into hand, so it doesn't feed Eggman; Pass C KEEP."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_Tergrid_over_LilianasCaress_20261023.txt",
+    "sha256": "28bc5a9216d6721eeb48af02fcf9aa46447ffb2505cb07875abe55aebb02c246",
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Tergrid, God of Fright"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Liliana's Caress"
+    ],
+    "case_for_extra_swaps": "The strongest discard payoff: every discarded permanent card becomes ours.",
+    "why_not_selected": "Game Changer #4, cast-only (not a Construct/Robot/Vehicle), and the owner rejected adding discard punishment; Tergrid replaces Caress rather than adding a sixth punisher."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_32lands_SilverbluffBridge_over_Thoughtcast_20261023.txt",
+    "sha256": "f7d3a9a73863009a953afdb5e5897eb0f1cea8459c9d962bab50c5ee97af43a6",
+    "adds": [
+     "Possession Engine",
+     "Skysovereign, Consul Flagship",
+     "Interceptor Mechan",
+     "Su-Chi Cave Guard",
+     "Behemoth of Vault 0",
+     "Silverbluff Bridge"
+    ],
+    "cuts": [
+     "Blasphemous Act",
+     "Cybermen Squadron",
+     "Cryptothrall",
+     "Unwinding Clock",
+     "Foundry Inspector",
+     "Thoughtcast"
+    ],
+    "case_for_extra_swaps": "Pass C asked 31 vs 32/33 lands: exact DP shows +0.03 on Eggman castable by card 11/12.",
+    "why_not_selected": "The owner deliberately kept 31 lands on 2026-10-14; the gain is disclosed so the owner can choose, but Thoughtcast's draw-two is a real loss."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Eggman-specific grounds: Liliana's Caress is live in more cells than Goblin Welder (bounded grid) and Tergrid would be Game Changer #4; 31 lands is the owner's deliberate count; Orchard, Opal and Rollick are more efficient than their challengers; the remaining owner-rejected classes stay out."
+ }
+}

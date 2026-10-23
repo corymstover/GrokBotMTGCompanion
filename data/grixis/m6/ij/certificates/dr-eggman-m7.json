@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Dr__Eggman",
+  "slug": "dr-eggman",
+  "generated_at": "2026-10-23T09:07:30-05:00",
+  "list_hash": "lh1:c092a5e2e7a3d77a208cf726323a1855b095fddb2f08e60c2fcda1b3f3e11249",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Dr__Eggman_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:d653144e472e82ac5df3044b29d9029f91522a339b21d9e32ad9112bf7c27ef9",
+    "tested_pool_size": 9
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_dr_eggman_m7_mechanics.py",
+      "tests/test_m7_dr_eggman_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_dr_eggman_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Dr__Eggman_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Dr__Eggman_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Dr__Eggman_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Dr__Eggman.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 9 complete configurations in the pool: raw baseline, registry canonical export, preferred five, four-swap keeping Blasphemous Act (no Possession Engine), five-swap keeping Foundry Inspector (cutting Weapons Manufacturing), five-swap with Midnight Crusader Shuttle instead of Su-Chi Cave Guard, the Pass C six-swap +Goblin Welder -Liliana's Caress, the six-swap +Tergrid -Liliana's Caress and the Pass C 32-land six-swap +Silverbluff Bridge -Thoughtcast. Not owner approval; the canonical list is unchanged."
+  }
+}
