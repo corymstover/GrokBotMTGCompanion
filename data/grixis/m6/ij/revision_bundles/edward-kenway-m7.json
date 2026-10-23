@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Edward_Kenway",
+ "slug": "edward-kenway",
+ "baseline_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "result_hash": "lh1:875c30b2bac93448e125846441d3ffc6d682f1671463efcbaceb83f3229d14f4",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/edward-kenway.json.gz",
+   "sha256": "sha256:74d587efe7263ee97ba6ca60bb8de1111c7818c06f778b8e30043adf37661375"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/edward-kenway.json.gz",
+   "sha256": "sha256:7b77f26fa4643974e7f940809530834d8ae4f674fff304a2f7afc7e17b7a8c64"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/edward-kenway.json",
+   "sha256": "sha256:6da79c7d2f703ee96b8889bddadad064cf1fb6cdc314f7083afe05362ddc3de2"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/edward-kenway.json",
+   "sha256": "sha256:9088302e313876a0d2c3d9ca297d333457b1f98afb06a653fed6112320214140"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/edward-kenway.json",
+   "sha256": "sha256:738e773082da8a1b418a0ead4bf48b0eb2eb04bcc2f466f9e0d12f8f3b7cb44a"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Edward_Kenway.json",
+   "sha256": "sha256:55fd53b6415b0782c0b1287487476fb9760dbd2e9a0c065bc64e43cb48f4648e"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:7f92514024267f08835b37edf865fdf2e494b3af4ff67f42066599d817390abc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+   "sha256": "sha256:6d29c2008a680c0d12d31edf2fa5b05914459e63e67e2a593b8c832270c730b5"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:c9a349e60770256c9e26e9d4ddf9dd3d35d3adb7c969becb422015f08902aa08"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:f6a060669ee4fa4d081a903611928602db17922ccf88f2446d8c00750c0de0db"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt",
+   "sha256": "sha256:a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019"
+  },
+  {
+   "path": "exports/grixis-archidekt/edward-kenway.txt",
+   "sha256": "sha256:1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Edward_Kenway.txt",
+   "sha256": "sha256:f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_FatefulDiscovery_keep_Fellwar_20261023.txt",
+   "sha256": "sha256:9c54374517f5ded80dcba41fe1fc4f1513a5bab690b816d7c666133b346c28c2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_Adrestia_keep_Fellwar_20261023.txt",
+   "sha256": "sha256:ff21b2a860e9fd2f193d35e293218bdd318a7098d64a311b522b4cc89b0fbf1c"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_four_no_MirkwoodBats_keep_Fellwar_20261023.txt",
+   "sha256": "sha256:f50f7627d849087fde28df78292b9ad3b7bbca9606c5eddeb9d047ea657d1a92"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_five_ChandraSparkHunter_instead_of_MuYanling_20261023.txt",
+   "sha256": "sha256:2e71699144ecb968c667989c43b35842639096480903b40657ad0ccfeaa5d79d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_six_EagleVision_over_ImperialSeal_20261023.txt",
+   "sha256": "sha256:cad57a1f9b8b156f4fe9d7223bf78bf5fcb785a1a3c9b0bdc534eba8dc6c76c7"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+   "sha256": "sha256:1186045625ae8095c5c0bba5ea7f5f3b282ad1a974e1e62aaccec46b3627b4e8"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md",
+   "sha256": "sha256:395eabc9e0d2a13daa51caae7c8a785e68d4987aa01d8da14d730bc723fd0388"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/edward-kenway-m7.json",
+   "sha256": "sha256:9635f1940442203aa881e1ab48575cd3f0d81a9fe57c2cf689744814295a2072"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Edward_Kenway_M6_I_local_best_20261023.md",
+   "sha256": "sha256:93311a0b86ed558ad49cc5f767fd64835208b93b83e19a318e067593f1b21a9b"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Edward_Kenway_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:d5b1551b6dc8898633bef35e4ffa2a98e320fa7af1e2eadb2a3e1efe51325c75"
+  },
+  {
+   "path": ".github/workflows/m7-edward-kenway.yml",
+   "sha256": "sha256:68f3b0d78213594fcf09d0cbd53b5ea520a4b671832c011d234f793bc6a34359"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Edward_Kenway_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:bb092c7510646ab940aeba26ead164355b02ba03f5de1fe00dce8c552162626b"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/edward-kenway.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/edward-kenway.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Edward_Kenway/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:372e80204a6624f0108a4c0699f26a886097ec17f157affe212753ec370fb3e8",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Edward_Kenway/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:1b0caabe85d021bd951477b5c38f7c5ac4407e02daedabdeb05d78f1cb9a10b1"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_edward_kenway_m7_mechanics.py",
+    "source_sha256": "sha256:acbf69fd070a479ec7f7abeca0401882db7470b050c8295ab51cc77873993a1f",
+    "seed": 0,
+    "harness_version": "edward_m7_finite_rules_and_bounded_pass_c_12_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Twelve finite exact (no RNG) Oracle-anchored cases. Edward Oracle and legality (acr, released, not a Game Changer); exact five swaps, 35 lands, 2 Island/2 Swamp/1 Mountain and the same 10 Game Changers; owner-removed/rejected cards not re-added and explicit keeps kept; type counts (Vehicles 13 to 13, natively flying Vehicles 4 to 5, Pirate/Assassin creatures 21 to 21, creatures 24 to 26); add Oracle anchors (Mu Yanling flying grant, Vertibird power, Bats drain, Sailor flash Pirate, Malcolm investigate); Edward counts each tapped permanent once; Spellbook same 6 complete combos (43 to 45 almost-included, no add in a complete combo); bounded Pass C: exact Bats vs Fateful castability at 10/11/12 cards, payoff plus Manufactor co-occurrence, 24-row end-step engine table, exact turn-5 Edward castability (Petal excluded) for baseline, candidate and three alternatives, opening-hand land odds. Cavern of Souls and Exotic Orchard counted as coloured sources (disclosed). No opponent model, matched seven-card hands, blockers, lethal turn or crewing opportunity cost; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_edward_kenway_candidate.py",
+    "source_sha256": "sha256:a6e2a86326ca18973b0118083a62a63505203a192ddf300870ed831767a03384",
+    "seed": 0,
+    "harness_version": "edward_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, 2x Island and 2x Swamp the only multi-copy rows, case-insensitive alphabetical and 100 physical, gate owner-presentable structure, distinctness vs the pirate decks disclosed (Admiral Beckett Brass 50 to 49, Admiral Brass Unsinkable 48 to 46, Don Andres 49 to 47, Nathan Drake 47 to 45), owner-removed cards not re-added and explicit keeps not cut, staged Pass C and other alternatives as complete 100s, commander legality, Bracket 4, tags and combo disclosure; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #664 head cc2e6d45 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_edward_kenway_m7_ij.py",
+    "source_sha256": "sha256:674b89af9f6b697e80b52caff1c3f1451033ae235233caecdbfe7d4c7c9a8810",
+    "seed": 0,
+    "harness_version": "edward_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 8 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Edward_Kenway_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d47f5474968eb2fadafdddb0a1ddc6cccfd1877d019647c1a1ef320b96343ab2"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Edward_Kenway_M6_J_mana_20261023.md",
+  "sha256": "sha256:043bee66d47f0e397db2dccbe34368194b2cefc743c5d271de8334b24db31c98"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

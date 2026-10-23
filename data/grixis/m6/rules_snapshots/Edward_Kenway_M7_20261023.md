@@ -45,10 +45,10 @@ This snapshot is evidence only. It is not owner approval.
 - **Malcolm, Keen-Eyed Navigator + Glint-Horn Buccaneer** (incumbents, unchanged): a **near-infinite multiplayer loop**.
   - It needs at least two opponents, Glint-Horn attacking, a card to discard and {1}{R} to start.
   - It is not a deterministic infinite in one-on-one.
-- **Time Sieve lines** (Locomotive over-crew, Reaver Cleaver, Hoard Hauler, Edward plus Academy Manufactor): **repeatable extra turns only while five artifacts are recreated each turn**.
+- **Time Sieve lines** (Spellbook pairs Sieve with Edward, Hoard Hauler, The Reaver Cleaver, Luxurious Locomotive, or Malcolm, Keen-Eyed Navigator plus Academy Manufactor): **repeatable extra turns only while five artifacts are recreated each turn**.
   - They are conditional on surviving permanents and on connecting or tapping enough creatures. They are not unconditional infinites.
 - **Mirkwood Bats** adds finite drain per token event; it creates **no new complete combo**.
-  - Commander Spellbook find-my-combos (2026-10-23): baseline and candidate have the **same 5** complete combos (Malcolm plus Glint-Horn, and the Time Sieve lines). Almost-included: 43 → 45.
+  - Commander Spellbook find-my-combos (2026-10-23): baseline and candidate have the **same 6** complete combos (Malcolm plus Glint-Horn, and the five Time Sieve lines above). Almost-included: 43 → 45.
 - **Fateful Discovery's draws are compulsory.**
   - With Academy Manufactor, two tapped qualifiers make 6 artifact tokens, so 6 draws. Four qualifiers make 12 draws.
   - A small library can deck the controller. This is recorded in the bounded measured test.

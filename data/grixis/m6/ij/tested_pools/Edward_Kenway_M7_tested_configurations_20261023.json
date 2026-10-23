@@ -1,0 +1,90 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Edward_Kenway",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Edward_Kenway_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Edward_Kenway_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 8,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt",
+   "raw_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+   "logical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw a08d3bc9…, fetched from canonical encyclopedia main 9b26aa28, blob 46df00ee, frozen by canonical commit 1e0b2e94; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/edward-kenway.txt",
+   "raw_sha256": "1e8b8ea5e52e2ea499f07f0d72cbc4305b81cfbf370a163d1378dacc01690b9b",
+   "logical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order, so the raw bytes differ. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Edward_Kenway.txt",
+   "raw_sha256": "f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad",
+   "logical_hash": "lh1:875c30b2bac93448e125846441d3ffc6d682f1671463efcbaceb83f3229d14f4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Mu Yanling, Wind Rider +Brotherhood Vertibird +Mirkwood Bats +Spectral Sailor +Malcolm, the Eyes / -Breeches, Brazen Plunderer -Imposter Mech -Fellwar Stone -Lotus Petal -Captain Lannery Storm. 35 lands and coloured sources unchanged; Vehicles 13 -> 13 (natively flying 4 -> 5, all 13 with Mu); Pirate/Assassin creatures 21 -> 21; creatures 24 -> 26; durable rocks 7 -> 6; strict turn-5 Edward castability 0.5283/0.6295 -> 0.5025/0.6038 play/draw (Petal excluded); average nonland MV 2.797 -> 2.844. No explicit owner keep cut. MODERATE confidence; no measured playtests."
+  },
+  {
+   "id": "PASS_C_BATS_OVER_FATEFUL",
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_FatefulDiscovery_keep_Fellwar_20261023.txt",
+   "raw_sha256": "9c54374517f5ded80dcba41fe1fc4f1513a5bab690b816d7c666133b346c28c2",
+   "logical_hash": "lh1:ce6f94c6f252feeb26cc64fb9bcc33b86d632d2a36dd301f694c600d3fdfe14c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged; Pass C first-priority test). Mirkwood Bats replaces Fateful Discovery and Fellwar Stone stays. Bounded test: Bats castable 0.8364 vs Fateful 0.6307 with 12 cards seen (baseline); with Manufactor and 2 qualifiers, Bats drains 6 per opponent vs Fateful's 6 draws. Not primary because Fateful Discovery is an explicit owner keep. Turn-5 castability equals the no-Petal baseline (0.5283/0.6295)."
+  },
+  {
+   "id": "PASS_C_BATS_OVER_ADRESTIA",
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_Adrestia_keep_Fellwar_20261023.txt",
+   "raw_sha256": "ff21b2a860e9fd2f193d35e293218bdd318a7098d64a311b522b4cc89b0fbf1c",
+   "logical_hash": "lh1:0e3fce532a0b029d8a97d0b1b82657272c972df0caf4cbda41a93c8c2d1d23bd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged; Pass C secondary test). Bats replaces Adrestia, keeping Fellwar; costs a Vehicle (13 -> 12), so it is weaker on Edward's own text. Turn-5 castability equals the no-Petal baseline."
+  },
+  {
+   "id": "FOUR_NO_BATS_KEEP_FELLWAR",
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_four_no_MirkwoodBats_keep_Fellwar_20261023.txt",
+   "raw_sha256": "f50f7627d849087fde28df78292b9ad3b7bbca9606c5eddeb9d047ea657d1a92",
+   "logical_hash": "lh1:825dbc1b875db5b1a3b0dea6c2561faa3251c0c7dec6880f32269e1cb6339dcd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor; not owner-presentable by itself). The primary without Bats, keeping Fellwar Stone; choose it if the owner values the rock over the drain."
+  },
+  {
+   "id": "FIVE_CHANDRA_INSTEAD_OF_MU",
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_five_ChandraSparkHunter_instead_of_MuYanling_20261023.txt",
+   "raw_sha256": "2e71699144ecb968c667989c43b35842639096480903b40657ad0ccfeaa5d79d",
+   "logical_hash": "lh1:7cf595cd2bfc28408663ff09b5da0f7b9cc3fdbc4a1003d9a77b76e9600aba06",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Chandra, Spark Hunter animates a Vehicle each combat and makes a crew-1 Vehicle token every turn, but grants no evasion for Edward's theft trigger. MODERATE confidence."
+  },
+  {
+   "id": "SIX_EAGLE_VISION_OVER_IMPERIAL_SEAL",
+   "path": "data/grixis/m7/research_challengers/Edward_Kenway_six_EagleVision_over_ImperialSeal_20261023.txt",
+   "raw_sha256": "cad57a1f9b8b156f4fe9d7223bf78bf5fcb785a1a3c9b0bdc534eba8dc6c76c7",
+   "logical_hash": "lh1:679fc788310adf519eeeabcb07765e9e6101746aa5a9db0b8ad214f94433c4ea",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged). Eagle Vision freeruns for {1}{U} after Edward (an Assassin and our commander) connects; it replaces the owner-retained Imperial Seal, which tutors Time Sieve, Locomotive or Manufactor for one mana. MODERATE confidence."
+  }
+ ]
+}
