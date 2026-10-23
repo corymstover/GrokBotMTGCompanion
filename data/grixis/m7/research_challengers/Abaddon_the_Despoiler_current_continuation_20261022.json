@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_UNBOUNDED_M7_STRATEGY_100_CARD_COMPARISON_ACTIVE",
+  "status": "RESEARCH_ONLY_ABADDON_M7_STAGE7_100_CARD_ADVERSARIAL_COMPARISON_ACTIVE",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -48,7 +48,7 @@
     "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "RESEARCH_ONLY_STAGE6_CAST_REACHABILITY_CORRECTION_CI_PENDING",
+    "status": "RESEARCH_ONLY_STAGE7_RULES_AND_TWO_PHYSICAL_100_PACKAGES_CI_SUCCESS",
     "executed_rules_only_test_cases": 9,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
@@ -92,18 +92,67 @@
     "stage5_ci_conclusion": "SUCCESS",
     "stage6_topend_analysis": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage6_mana_value_cascade_disposition_20261022.md",
     "stage6_timing_test": "tests/test_m7_abaddon_mana_value_reachability.py",
-    "new_topend_finding": "Blood for the Blood God! MV11 cannot be hit by cascade from any of currently approved 100's maximum MV9 spells; Call Forth MV8 can be hit by Blasphemous Act MV9 cascade and carries two printed cascades. Mind's Desire EXCEPTION may cast MV11 Blood free regardless of MV."
+    "new_topend_finding": "Blood for the Blood God! MV11 cannot be hit by cascade from any of currently approved 100's maximum MV9 spells; Call Forth MV8 can be hit by Blasphemous Act MV9 cascade and carries two printed cascades. Mind's Desire EXCEPTION may cast MV11 Blood free regardless of MV.",
+    "stage6_merged_pr": 623,
+    "stage6_merge_sha": "d9efa396ca04c76828084c18cd3aa6fe30b329fa",
+    "stage6_exact_head_ci_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39892920383",
+    "stage6_exact_head_ci_conclusion": "SUCCESS",
+    "stage7_report": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage7_trigger_interference_100_review_20261022.json",
+    "stage7_test": "tests/test_m7_abaddon_stage7_trigger_interference_100.py",
+    "stage7_finite_mechanics_findings": [
+      "Solphim modifies actual damage from 1 to 2, stopping Ghyrson exactly-one-damage trigger AND Ob exactly-one-life-loss trigger on those pings.",
+      "Bloodletter modifies resulting opponent life loss from 1 to 2, stopping Ob but NOT Ghyrson's actual exactly-one-damage trigger; these cases must not be conflated.",
+      "Kessig plus Harmonic plus Ghyrson, absent Solphim/Bloodletter, resolves two grouped one-to-each opponent events for X18 total against 3 opponents and 2 Ob triggers, not 6 Ob triggers.",
+      "Kederekt post-Wheel opponent draw triggers do not retroactively qualify Wheel's own Abaddon cascade.",
+      "Spear Spewer plus Ghyrson deals self three damage on its activation and requires ready {T} ability."
+    ],
+    "stage7_full_100_research_options": [
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage7_protected_exact_one_five_20261022.txt",
+        "raw_sha256": "c9944225d7d92d24e24441f32e8fa7bc25514f8e9faec14e368d06321394945b",
+        "genuine_card_replacements": 5,
+        "status": "RESEARCH_ONLY",
+        "preserves": [
+          "Call Forth the Tempest",
+          "Pyroblast",
+          "Pact of Negation",
+          "Loyal Subordinate"
+        ]
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage7_aggressive_pinger_burn_seven_20261022.txt",
+        "raw_sha256": "e7db63267458aed2a694498c52514f7537681e5d07a5eecc945e30c4c5c8ff67",
+        "genuine_card_replacements": 7,
+        "status": "RESEARCH_ONLY",
+        "preserves": [
+          "Call Forth the Tempest",
+          "Pact of Negation"
+        ],
+        "loses": [
+          "Pyroblast",
+          "Loyal Subordinate"
+        ]
+      }
+    ],
+    "stage7_merged_pr": 624,
+    "stage7_merge_sha": "e65248841c5ea9bce1a8b508cc3785c0e2ea5174",
+    "stage7_exact_pr_head": "df91bd36b6ece821be9ee548e992fa3f9cb044e4",
+    "stage7_exact_head_ci_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39894817787",
+    "stage7_exact_head_ci_conclusion": "SUCCESS",
+    "stage7_pr_receipt_comment_id": 6356639763
   },
   "mandatory_next_deterministic_checks": [
-    "Execute exact-head Stage6 reachability test and merge only after CI success.",
-    "Keep Call Forth in revised multi-card packages unless demonstrated source-paid Blood/Fiery Confluence choice has higher strategic value than its two printed cascade triggers.",
-    "Test protection and three-color payability with at least one opponent instant-speed response; no repeated broad simulations."
+    "Stage6 and Stage7 all newly claimed finite rules/physical-100 cases PASSED exact-head CI; do not rerun by default.",
+    "Resolve 5/7 candidate cut costs against protected incumbent multipliers, Warhammer Ruinous theft, Nightscape discount, Pyroblast/Loyal under a bounded payer/opponent-response comparison, not fake gameplay win rates.",
+    "Search credible alternate cuts and offranking source-legal cards beyond the five-swap owner floor; no default or cap and no padding.",
+    "Once best exact candidate selected, rebind full 100 Oracle/Commander legality, changed-effect P0 cases and exact SHA M6 I/J/reproducibility requirements before owner-ready."
   ],
   "strategic_next": [
-    "Reconstruct a new strongest full 100 retaining Call Forth and most critical stack protection, after the MV11 Blood vs MV8 double-cascade finding.",
-    "Compare Harmonic Prodigy with alternative cuts that do not sacrifice protected commanders' best cast cascades, plus Ob/Ghyrson/Kederekt, rather than enforcing five or six swaps.",
-    "Perform complete per-card current Oracle/legality and triggered/copy/payability validation for actually selected final 100; update invalidated M6 I/J exact candidate hashes, M6 certification requirements and CI before owner presentation.",
-    "Keep current canon SHA 0d9f6d... locked, Admiral locked, deck3 held until Cory approves exact new Abaddon replacement."
+    "Read stage7 report: source-bound research-only five/swap seven physical 100s preserve Call Forth's two printed cascades, but lose important broad damage/life-loss multipliers and may be strategically weaker than approved rev2.",
+    "Do an adversarial payable mana + at least one opponent instant-speed interaction comparison. Opponents may remove Ghyrson/Kessig/Ob or counter Abaddon. Do not cut Pyroblast or Loyal without a real advantage.",
+    "Investigate additional credible candidate/cut packages as necessary; unbounded search and EDHREC inclusion/high lift are mandatory, five swaps is just owner eligibility.",
+    "Source reverify actual finalist 100, changed P0 mechanics, M6 I/J exact candidate and new owner-ready CI before proposing replacement; do not transfer prior rev2 certificate/hash.",
+    "Never change locked canonical Abaddon until Cory explicitly approves exact replacement, never advance deck #3 before Abaddon done."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
