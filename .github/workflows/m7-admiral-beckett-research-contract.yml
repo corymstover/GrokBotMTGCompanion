@@ -23,6 +23,9 @@ on:
       - tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py
       - tests/test_m6_admiral_rev2_candidate_source_bind.py
       - tests/test_m6_admiral_rev2_seven_configuration_pool.py
+      - tests/test_m6_admiral_rev2_i_local_best.py
+      - data/grixis/m6/ij/certificates/admiral-beckett-brass-rev2.json
+      - data/grixis/m6/certification_preflight/Admiral_M6_I_rev2_seven_config_local_best_20261022.md
       - data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json
       - data/grixis/m6/certification_preflight/Admiral_M6_rev2_candidate_specific_hash_oracle_scope_20261022.json
       - tests/test_m7_admiral_edhrec_stage4_packages.py
@@ -51,6 +54,8 @@ jobs:
           python-version: '3.12'
       - name: Verify 100-card alternatives, Oracle research, and fail-closed research status
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
+      - name: Verify Admiral revised seven-pool I local-best PASS is honestly scoped and byte-reconciled
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_rev2_i_local_best.py' -v
       - name: Validate Admiral seven exact physical and Oracle-source opponent pool variants without issuing I/J
         run: python -m unittest discover -s tests -p 'test_m6_admiral_rev2_seven_configuration_pool.py' -v
       - name: Bind Admiral exact six-swap raw/logical Oracle SHA, legality and fail-closed new I/J obligations
