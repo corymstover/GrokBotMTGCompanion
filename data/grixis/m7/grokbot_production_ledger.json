@@ -231,7 +231,7 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
    "working_branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
-   "last_pushed_commit": "ef0512f8b4acec0fd778a8ededa0612f83183b9d",
+   "last_pushed_commit": "ce713a71d2a4696f8cab3727d7fdf49a73db1b0c",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/655",
    "swap_count": null,
    "ci_runs": [],
@@ -239,16 +239,21 @@
    "unresolved_issues": [
     "Overrides key Be_lakor_the_Dark_Master (single underscore) vs tracker deck_id Be_lakor__the_Dark_Master (double); IDs preserved exactly",
     "Pass C corpus: #30 Lord_Xander__the_Collector and #31 Lynde__Cheerful_Tormentor seals record a stage_a.md SHA-256 that does not match committed bytes (git_blob_sha matches); stabilized checker keeps rejecting them - owner decision needed",
-    "Post-merge pinned checker refresh: Ashad (#653) 4fb8e8b1... and Ashnod (#654) cd0be27a... bundles -> c5688abc...; #651/#652 bundles do not pin the checker"
+    "Post-merge pinned checker refresh: Ashad (#653) 4fb8e8b1... and Ashnod (#654) cd0be27a... bundles -> c5688abc...; #651/#652 bundles do not pin the checker",
+    "#30 Lord_Xander and #31 Lynde Pass C rejected (seal stage_a.md sha != committed bytes) - owner decision",
+    "post-merge refresh Ashad/Ashnod checker pins to 2962a640"
    ],
    "completed_stages": [
     "baseline_provenance",
     "gate_infra_copied_from_654",
     "draft_pr_opened",
     "checker_stabilized_decks_7_62",
-    "deck07 research+artifacts checkpoint ef0512f8 (gate owner_presentable, J bundle valid, focused tests pass)"
+    "deck07 research+artifacts checkpoint ef0512f8 (gate owner_presentable, J bundle valid, focused tests pass)",
+    "checker 2962a640 (seal stage/waiver vetoes; #654 tamper test restored in stack)",
+    "full suite: base 24F/86E/1465P/18S; PR 24F/86E/1625P (0 regressions); stack post-refresh 24F/86E/1721P",
+    "WIP removed; PR #655 ready; exact-head ce713a71 CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Comprehensive fail-closed checker stabilization (decks #7-#62), then EDHREC/Scryfall discovery + 99-slot audit",
