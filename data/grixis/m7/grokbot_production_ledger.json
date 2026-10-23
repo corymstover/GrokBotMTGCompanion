@@ -534,12 +534,33 @@
    "current_candidate_sha": "21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb",
    "branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
    "working_branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
-   "last_pushed_commit": "8df7ccb4d1ca200912692a91476aab7b0eb795ba",
+   "last_pushed_commit": "8bcc4c5481da414930758422b56b78f764839f1a",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/661",
    "swap_count": 6,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 13 Doctor Doom King of Latveria candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39958462776",
+     "head": "8bcc4c5481da414930758422b56b78f764839f1a",
+     "conclusion": "success"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39958462720",
+     "head": "8bcc4c5481da414930758422b56b78f764839f1a",
+     "conclusion": "success"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39958462778",
+     "head": "8bcc4c5481da414930758422b56b78f764839f1a",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Not done: matched-opening playtest samples / multiplayer simulation"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw c97bd448 == overrides == tracker == registry; 100 physical/100 rows; 38 lands); shared infra copied from #660 bb3be7d3; draft PR #661 2026-10-23 07:42 CDT",
     [
@@ -547,15 +568,30 @@
      "provisional_candidate"
     ],
     "pass_c_bounded_tests",
-    "checkpoint 4: tested pool (10), decision review (21 candidates, 12 post-floor challenges), candidate/IJ tests, I/J memos, adversarial packet, certificate, bundle, workflow; local focused 195 passed, gate and bundle checker PASS"
+    "checkpoint 4: tested pool (10), decision review (21 candidates, 12 post-floor challenges), candidate/IJ tests, I/J memos, adversarial packet, certificate, bundle, workflow; local focused 195 passed, gate and bundle checker PASS",
+    "FINAL: WIP removed, full suite 0 regressions, PR #661 ready, exact-head CI 3/3 success at 8bcc4c54"
    ],
-   "status": "IN_PROGRESS_CHECKPOINT_4",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments",
-   "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments",
+   "next_action": "Await ChatGPT adversarial review and owner approval of PR #661",
+   "next_step": "Deck #14 Don_Andres__the_Renegade (index 13)",
    "last_checkpoint_at": "2026-10-23T07:52-05:00",
-   "last_checkpoint_commit": "8df7ccb4d1ca200912692a91476aab7b0eb795ba"
+   "last_checkpoint_commit": "8bcc4c5481da414930758422b56b78f764839f1a",
+   "pr_status": "REVIEW_READY_NOT_OWNER_APPROVED",
+   "pr_is_draft": false,
+   "engineering_head": "8bcc4c5481da414930758422b56b78f764839f1a",
+   "candidate_logical_hash": "lh1:6e779fc71f33bb82f2d4ed3a4813956c04454e0fab8370f662b97bfd5be1926d",
+   "full_suite": {
+    "head": "8bcc4c5481da414930758422b56b78f764839f1a",
+    "base": "b6b40ac8",
+    "head_result": "24 failed/86 errors/1634 passed/18 skipped",
+    "base_result": "24 failed/86 errors/1465 passed/18 skipped",
+    "failing_ids_identical": true,
+    "regressions": 0
+   },
+   "shared_infra_change": "none (byte-identical to #660 head bb3be7d3)",
+   "updated_at": "2026-10-23T08:10:00-05:00"
   },
   {
    "tracker_number": 14,
