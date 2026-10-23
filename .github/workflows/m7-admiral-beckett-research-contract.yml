@@ -19,6 +19,7 @@ on:
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
       - tests/test_m7_admiral_stage6_decision_bound.py
+      - tests/test_m7_admiral_stage7_draw_resilient_100.py
       - tests/test_m7_admiral_edhrec_stage4_packages.py
       - tests/test_m7_admiral_edhrec_inclusion_lift.py
       - tests/test_m7_admiral_post_floor_oracle_paid_effects.py
@@ -45,6 +46,8 @@ jobs:
           python-version: '3.12'
       - name: Verify 100-card alternatives, Oracle research, and fail-closed research status
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
+      - name: Validate Admiral stage 7 draw-resilient four distinct full-100 strategic alternatives
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_stage7_draw_resilient_100.py' -v
       - name: Adjudicate Admiral stage6 blocker-thresholds and opposite evasion cases
         run: python -m unittest discover -s tests -p 'test_m7_admiral_stage6_decision_bound.py' -v
       - name: Verify 8/9-swap EDHREC full-100 research options and finite adverse combat
