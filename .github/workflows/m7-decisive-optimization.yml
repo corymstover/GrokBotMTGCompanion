@@ -90,6 +90,8 @@ on:
       - tests/test_m7_abaddon_research_challengers.py
       - tests/test_m7_abaddon_reopened_oracle_mechanics.py
       - tests/test_m7_abaddon_stage4_unbounded_packages.py
+      - tests/test_m7_abaddon_harmonic_source_paid.py
+      - tests/test_m7_abaddon_harmonic_full_100_research.py
       - tests/test_m7_abaddon_oracle_erratum_v2.py
       - tests/test_m6_abaddon_lost_keeper_effect.py
       - data/grixis/m6/phase_b_plans/abaddon_lost_keeper_effect_20261022.json
@@ -278,6 +280,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_reopened_oracle_mechanics.py' -v
       - name: Verify six/eight full-card Abaddon open-ended research variants remain source-bound and not approved
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage4_unbounded_packages.py' -v
+      - name: Verify source-bound Harmonic Shaman Wizard finite on-cast and opponent disruption hypotheses
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_harmonic_source_paid.py' -v
+      - name: Verify Harmonic six-swap physical 100 and source legal candidates remain research only
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_harmonic_full_100_research.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
