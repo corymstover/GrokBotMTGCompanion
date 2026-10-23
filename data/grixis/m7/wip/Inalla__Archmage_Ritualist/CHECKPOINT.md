@@ -12,3 +12,10 @@
 - Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook, off-ranking Wizards), Pass C requested bounded test
   (Kefka vs Dualcaster Mage / Micromancer; Thundertrap Trainer vs Snapcaster Mage), candidate judgments.
 - Checkpoint written: 2026-10-23T13:05:00-0500
+
+
+## Checkpoint 2026-10-23 13:13:34 CDT (clock)
+- Research done: live Scryfall (100 baseline + 108 candidates), EDHREC general/upgraded/optimized/cEDH (817 cEDH decks), Commander Spellbook baseline/candidate/6 alternatives.
+- Pass C bounded tests run (exact hypergeometric castability, tutor reach, combo delta, Trainer hit rate).
+- Interim result: 0 genuine admissible swaps; strongest change (+Dualcaster Mage -Kefka, +2 two-card combos) re-adds an owner-removed card -> staged OWNER_DECISION. Expected outcome RESEARCH_ONLY.
+- Next: snapshots, tested pool, decision review, memos, tests, workflow, full suite.

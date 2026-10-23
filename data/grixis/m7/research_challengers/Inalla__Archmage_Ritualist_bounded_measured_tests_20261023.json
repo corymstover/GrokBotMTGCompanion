@@ -1,0 +1,629 @@
+{
+ "schema_version": 1,
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "date": "2026-10-23",
+ "status": "BOUNDED_FINITE_EXACT_TESTS_NOT_EMPIRICAL_WIN_RATE",
+ "pass_c_request": "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md: targeted Phase B comparing the locked baseline with -Kefka/+Dualcaster Mage and -Kefka/+Micromancer (optionally -Thundertrap Trainer/+Snapcaster Mage) under identical 27-land UBR resources: actual RR vs U castability, tutor reach, combo deltas.",
+ "what_was_run": "T1 exact hypergeometric land castability (no sampling) for each Pass C Wizard; T2 exact fixed-state tutor reach of Spellseeker (MV<=2) vs Micromancer (MV=1) over the actual 99; T3 Commander Spellbook find-my-combos delta for every staged list; T4 exact Thundertrap Trainer top-4 / top-8 hit probability; T5 rules facts from Oracle and official rulings (no simulation).",
+ "what_was_not_run": "No seeded multiplayer game simulation or win-rate estimate: opponent stack interaction, graveyard hate and pod composition cannot be modelled finitely without inventing opponent decklists; this is disclosed rather than approximated.",
+ "T1_castability": {
+  "method": "Exact hypergeometric over the 99; lands only (Sol Ring, Mana Vault, Grim Monolith, Talismans, Signet, Fellwar, moxen, Lotus Petal, LED, Simian Spirit Guide, rituals ignored = conservative for all variants equally). Each land supplies one mana per turn; a fetch counts as one source of either needed colour (fetch reach verified in fetch_reach); Exotic Orchard treated as any colour (opponent dependent, optimistic); Cavern of Souls naming Wizard counts as any colour because every tested card is a Wizard; Gemstone Caverns, Ancient Tomb, City of Traitors counted as lands but not coloured (Ancient Tomb/City of Traitors actually add 2, ignored).",
+  "land_counts": {
+   "lands": 27,
+   "R_capable_for_Wizard_spell": 18,
+   "U_capable_for_Wizard_spell": 21
+  },
+  "fetch_reach": {
+   "Arid Mesa": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "colours": "BRU"
+   },
+   "Bloodstained Mire": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Steam Vents",
+     "Swamp",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Flooded Strand": {
+    "targets": [
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Marsh Flats": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Misty Rainforest": {
+    "targets": [
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Polluted Delta": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Island",
+     "Steam Vents",
+     "Swamp",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Scalding Tarn": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Island",
+     "Steam Vents",
+     "Underground Sea",
+     "Volcanic Island",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Verdant Catacombs": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave"
+    ],
+    "colours": "BRU"
+   },
+   "Wooded Foothills": {
+    "targets": [
+     "Badlands",
+     "Blood Crypt",
+     "Steam Vents",
+     "Volcanic Island"
+    ],
+    "colours": "BRU"
+   }
+  },
+  "results": {
+   "turn 3 on the play (7+2)": {
+    "Dualcaster Mage {1}{R}{R}: >=3 lands incl >=2 red-capable": 0.3846,
+    "Kefka {2}{U}{B}{R}: >=5 lands (colour assumed fixed by 19+ any-colour/fetch sources)": 0.0596,
+    "Micromancer {3}{U}: >=4 lands incl >=1 blue-capable": 0.2013,
+    "Snapcaster Mage / Thundertrap Trainer {1}{U}: >=2 lands incl >=1 blue-capable": 0.7494
+   },
+   "turn 3 on the draw / turn 4 on the play (7+3)": {
+    "Dualcaster Mage {1}{R}{R}: >=3 lands incl >=2 red-capable": 0.4605,
+    "Kefka {2}{U}{B}{R}: >=5 lands (colour assumed fixed by 19+ any-colour/fetch sources)": 0.0958,
+    "Micromancer {3}{U}: >=4 lands incl >=1 blue-capable": 0.2717,
+    "Snapcaster Mage / Thundertrap Trainer {1}{U}: >=2 lands incl >=1 blue-capable": 0.8045
+   },
+   "turn 4 on the draw (7+4)": {
+    "Dualcaster Mage {1}{R}{R}: >=3 lands incl >=2 red-capable": 0.5323,
+    "Kefka {2}{U}{B}{R}: >=5 lands (colour assumed fixed by 19+ any-colour/fetch sources)": 0.1413,
+    "Micromancer {3}{U}: >=4 lands incl >=1 blue-capable": 0.3462,
+    "Snapcaster Mage / Thundertrap Trainer {1}{U}: >=2 lands incl >=1 blue-capable": 0.849
+   }
+  }
+ },
+ "T2_tutor_reach": {
+  "Spellseeker_MV_le_2_instant_sorcery": [
+   "An Offer You Can't Refuse",
+   "Borne Upon a Wind",
+   "Brain Freeze",
+   "Burnt Offering",
+   "Cabal Ritual",
+   "Chain of Vapor",
+   "Culling the Weak",
+   "Dark Ritual",
+   "Demonic Consultation",
+   "Demonic Tutor",
+   "Entomb",
+   "Essence Flux",
+   "Final Fortune",
+   "Finale of Promise",
+   "Flusterstorm",
+   "Gamble",
+   "Imperial Seal",
+   "Lim-Dûl's Vault",
+   "Lively Dirge",
+   "Mental Misstep",
+   "Mystical Tutor",
+   "Pact of Negation",
+   "Persist",
+   "Reanimate",
+   "Red Elemental Blast",
+   "Rite of Flame",
+   "Sacrifice",
+   "Shallow Grave",
+   "Swan Song",
+   "Tainted Pact",
+   "Unearth",
+   "Unmarked Grave",
+   "Vampiric Tutor"
+  ],
+  "Micromancer_MV_eq_1_instant_sorcery": [
+   "An Offer You Can't Refuse",
+   "Burnt Offering",
+   "Chain of Vapor",
+   "Culling the Weak",
+   "Dark Ritual",
+   "Demonic Consultation",
+   "Entomb",
+   "Essence Flux",
+   "Flusterstorm",
+   "Gamble",
+   "Imperial Seal",
+   "Mental Misstep",
+   "Mystical Tutor",
+   "Reanimate",
+   "Red Elemental Blast",
+   "Rite of Flame",
+   "Sacrifice",
+   "Swan Song",
+   "Unearth",
+   "Vampiric Tutor"
+  ],
+  "Micromancer_misses_vs_Spellseeker": [
+   "Borne Upon a Wind",
+   "Brain Freeze",
+   "Cabal Ritual",
+   "Demonic Tutor",
+   "Final Fortune",
+   "Finale of Promise",
+   "Lim-Dûl's Vault",
+   "Lively Dirge",
+   "Pact of Negation",
+   "Persist",
+   "Shallow Grave",
+   "Tainted Pact",
+   "Unmarked Grave"
+  ],
+  "counts": {
+   "Spellseeker_MV_le_2_instant_sorcery": 33,
+   "Micromancer_MV_eq_1_instant_sorcery": 20,
+   "Micromancer_misses_vs_Spellseeker": 13
+  }
+ },
+ "T3_combo_delta": {
+  "baseline": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 165
+  },
+  "candidate": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 165
+  },
+  "Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt": {
+   "included": 18,
+   "new_vs_baseline": [
+    "147-500 Dualcaster Mage + Saw in Half",
+    "147-4598 Dualcaster Mage + Essence Flux"
+   ],
+   "almost_included": 255
+  },
+  "Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 158
+  },
+  "Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 165
+  },
+  "Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 165
+  },
+  "Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt": {
+   "included": 16,
+   "new_vs_baseline": [],
+   "almost_included": 157
+  },
+  "Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt": {
+   "included": 18,
+   "new_vs_baseline": [
+    "147-500 Dualcaster Mage + Saw in Half",
+    "147-4598 Dualcaster Mage + Essence Flux"
+   ],
+   "almost_included": 255
+  }
+ },
+ "T4_thundertrap_trainer": {
+  "noncreature_nonland_in_99": 58,
+  "P_at_least_one_hit_in_top4": 0.973098,
+  "with_Eminence_copy_top8_disjoint": 0.999442
+ },
+ "T5_rules_facts": [
+  "Inalla Eminence: 'Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste.' One {1} per trigger; tokens do not trigger Eminence (nontoken clause).",
+  "Inalla ruling: the copy uses last known information if the Wizard has left the battlefield before Eminence resolves (Spellseeker/Scholar sacrifice lines keep working).",
+  "Inalla's tap-five ability has no {T} symbol, so summoning-sick tokens can be tapped for it (Dualcaster Mage + Saw in Half infinite tokens win with Inalla on the battlefield).",
+  "Dualcaster Mage: 'When this creature enters, copy target instant or sorcery spell.' It needs a live spell on the stack; Saw in Half (already in the 99) and Essence Flux (already in the 99) both form two-card loops with it (Spellbook 147-500, 147-4598).",
+  "Micromancer: 'When this creature enters, you may search your library for an instant or sorcery card with mana value 1' - misses Tainted Pact, Demonic Tutor, Finale of Promise, Pact of Negation, Shallow Grave, Persist, Lively Dirge, Unmarked Grave, Brain Freeze, Borne Upon a Wind, Cabal Ritual, Final Fortune, Lim-Dul's Vault (T2).",
+  "Kefka, Court Mage is legendary; the Inalla token copy and the original both trigger, then the legend rule keeps one (ruling noted in M6 Stage A)."
+ ],
+ "verdict": {
+  "PASS_C_DUALCASTER_OVER_KEFKA": "Strongest evidence of the pool: +2 complete two-card combos using cards already in the 99, 3 MV flash vs 5 MV; RR castability lands-only 0.4605 at 10 cards vs Kefka 5-land 0.0958. BUT Dualcaster Mage was explicitly REMOVED by the owner in the 2026-10-14 rebuild; the brief forbids re-adding removed cards. Staged as OWNER_DECISION, not counted.",
+  "PASS_C_MICROMANCER_OVER_KEFKA": "Owner-rejected by name ('four mana plus the Eminence payment is materially slower than Spellseeker'); T2 confirms it misses 13 of Spellseeker's 33 targets including Tainted Pact and Finale of Promise. REJECT.",
+  "PASS_C_SNAPCASTER_OVER_TRAINER": "Snapcaster Mage was owner-removed; identical {1}{U} castability; Trainer already hits a noncreature nonland card in the top 4 with p=0.9731 (0.9994 with the Eminence copy). REJECT / owner decision only.",
+  "TWO_PASS_C_COMBINED": "Union of the two above; both adds owner-removed. Staged for the owner, not counted.",
+  "TWO_DATA_DEFENSEGRID_GIFTS": "Data-led package (cEDH 0.45 / 0.41). No combo delta; Defense Grid taxes our own off-turn FoW/Pact/Flusterstorm/Swan Song/REB/Offer; Gifts duplicates Intuition at 4 MV. REJECT.",
+  "ONE_TIDEBINDER_OVER_TRAINER": "Absent from the cEDH sample (0/817 listed); 3 MV vs 2 MV; no combo delta. REJECT."
+ },
+ "deck_stats": {
+  "base.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 7,
+    "4": 2,
+    "5": 5,
+    "7": 2
+   },
+   "avg_nonland_mv": 2.0,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "cand.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 7,
+    "4": 2,
+    "5": 5,
+    "7": 2
+   },
+   "avg_nonland_mv": 2.0,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 8,
+    "4": 2,
+    "5": 4,
+    "7": 2
+   },
+   "avg_nonland_mv": 1.972,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 7,
+    "4": 3,
+    "5": 4,
+    "7": 2
+   },
+   "avg_nonland_mv": 1.986,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 7,
+    "4": 2,
+    "5": 5,
+    "7": 2
+   },
+   "avg_nonland_mv": 2.0,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 25,
+    "3": 8,
+    "4": 2,
+    "5": 4,
+    "7": 2
+   },
+   "avg_nonland_mv": 1.972,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 24,
+    "2": 26,
+    "3": 7,
+    "4": 3,
+    "5": 4,
+    "7": 2
+   },
+   "avg_nonland_mv": 2.0,
+   "creatures": 12,
+   "equipment": 0,
+   "artifacts": 14,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Gifts Ungiven",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "alt/Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt": {
+   "lands": 27,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 20,
+    "B": 19,
+    "R": 17
+   },
+   "nonland": 72,
+   "curve": {
+    "0": 6,
+    "1": 25,
+    "2": 24,
+    "3": 8,
+    "4": 2,
+    "5": 5,
+    "7": 2
+   },
+   "avg_nonland_mv": 2.014,
+   "creatures": 14,
+   "equipment": 0,
+   "artifacts": 13,
+   "game_changers": [
+    "Ad Nauseam",
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Demonic Tutor",
+    "Force of Will",
+    "Gamble",
+    "Grim Monolith",
+    "Imperial Seal",
+    "Intuition",
+    "Lion's Eye Diamond",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mystical Tutor",
+    "Necropotence",
+    "Rhystic Study",
+    "Thassa's Oracle",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  }
+ }
+}
