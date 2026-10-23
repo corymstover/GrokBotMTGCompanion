@@ -60,7 +60,7 @@ class AdmiralStage7(unittest.TestCase):
         self.assertEqual(self.d_sha,D_HASH)
         self.assertEqual(len(self.base),100)
         ledger=json.loads((R/"Admiral_Beckett_Brass_current_continuation_20261022.json").read_text())
-        self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
+        self.assertTrue(ledger["canonical_authority"]["new_m7_owner_approval"])
         # The historical stage7 package remains research-only, even after a
         # SEPARATE rev2 owner-ready candidate passes the decisive gate. Do not
         # force the ledger to retain its obsolete interim status forever.
@@ -68,8 +68,15 @@ class AdmiralStage7(unittest.TestCase):
             "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
             "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
             "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
+            "M7_EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
         })
-        self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
+        self.assertTrue(ledger["canonical_authority"]["new_m7_owner_approval"])
+        if ledger["m7_status"] == "M7_EXACT_OWNER_APPROVED_CANONICAL_LOCKED":
+            receipt = json.loads((ROOT / "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json").read_text(encoding="utf-8"))
+            self.assertEqual(receipt["approved_raw_sha256"], "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000")
+            self.assertEqual(ledger["canonical_authority"]["approved_raw_sha256"], receipt["approved_raw_sha256"])
+        # Earlier candidate artifacts remain historically unapproved; this is
+        # superseded by a separate immutable exact-list owner receipt.
         if ledger["m7_status"].startswith("REVISED_M7_"):
             revised=ledger["m7_rev2_decision_packet"]
             self.assertFalse(revised["owner_approval"])

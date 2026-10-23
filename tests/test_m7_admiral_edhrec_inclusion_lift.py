@@ -69,7 +69,7 @@ class AdmiralEDHRECDiscoveryContract(unittest.TestCase):
         self.assertIn("High Lift", rules)
         self.assertIn("Mandatory EDHREC inclusion and high-lift discovery", agents)
         ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
-        self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
+        self.assertTrue(ledger["canonical_authority"]["new_m7_owner_approval"])
         # The captured EDHREC discovery remains research provenance, while
         # a separately verified revised M7 candidate may advance to owner
         # presentation without changing the canonical approved deck.
@@ -77,7 +77,14 @@ class AdmiralEDHRECDiscoveryContract(unittest.TestCase):
             "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
             "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
             "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
+            "M7_EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
         })
+        if ledger["m7_status"] == "M7_EXACT_OWNER_APPROVED_CANONICAL_LOCKED":
+            receipt = json.loads((ROOT / "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json").read_text(encoding="utf-8"))
+            self.assertEqual(receipt["approved_raw_sha256"], "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000")
+            self.assertEqual(ledger["canonical_authority"]["approved_raw_sha256"], receipt["approved_raw_sha256"])
+        # Earlier candidate artifacts remain historically unapproved; this is
+        # superseded by a separate immutable exact-list owner receipt.
         if ledger["m7_status"].startswith("REVISED_M7_"):
             rev2 = ledger["m7_rev2_decision_packet"]
             self.assertFalse(rev2["owner_approval"])
