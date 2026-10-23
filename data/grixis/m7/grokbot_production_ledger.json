@@ -1017,36 +1017,66 @@
    "registry_recorded_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
    "registry_recorded_matches_raw": true,
    "candidate_path": "data/grixis/m7/candidate_lists/Garza_Zol__Plague_Queen.txt",
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_raw_sha256": "48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f",
+   "current_candidate_sha": "48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f",
    "branch": "grokbot-deck20-garza-zol-plague-queen-m7-20261023",
    "working_branch": "grokbot-deck20-garza-zol-plague-queen-m7-20261023",
-   "last_pushed_commit": "14fc613ccc262b1515b9c1114edc822ce4ddbee7",
+   "last_pushed_commit": "909543a544aee2a170aca9e668141624d2343e50",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/668",
-   "swap_count": 5,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 4,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 20 Garza Zol, Plague Queen research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39990453517",
+     "conclusion": "success",
+     "head": "909543a544aee2a170aca9e668141624d2343e50"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39990453374",
+     "conclusion": "success",
+     "head": "909543a544aee2a170aca9e668141624d2343e50"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39990453133",
+     "conclusion": "success",
+     "head": "909543a544aee2a170aca9e668141624d2343e50"
+    }
+   ],
+   "blockers": [
+    "only 4 genuine swaps; five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 4)"
+   ],
+   "unresolved_issues": [
+    "Fell the Profane // Fell Mire over Takenuma, Abandoned Mire is FLAGGED generic removal, LOW confidence",
+    "Lizard Blades over Fellwar Stone costs turn-6 Garza 0.4724 -> 0.4451; FOUR_LIZARD_BLADES_CUT_INQUISITORS_FLAIL_KEEP_FELLWAR staged",
+    "Pass C matched-hand games / win rates not run: no validated Garza game model"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 32c0e804 == overrides == tracker == registry; 100 physical/100 rows); shared infra copied from #667 1946a316; draft PR #668 created 2026-10-23T11:26:42-0500 (GitHub createdAt)",
     "research_live_scryfall_edhrec_spellbook",
     "bounded_pass_c_test",
-    "candidate_and_alternatives_built"
+    "candidate_and_alternatives_built",
+    "oracle/rules snapshots, tested pool (10 configs), decision packet (gate withdrawn RESEARCH_ONLY, 24 material candidates), I/J memos, certificate + J revision bundle (validate_bundle true), adversarial packet, mechanics/candidate/IJ tests 11/10/8, focused workflow; WIP removed in last content commit 909543a5; full suite head 24F/1631P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #668 ready (RESEARCH_ONLY + blocker); exact-head CI 3/3 success; 2026-10-23T11:56:59-0500"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "research: live Scryfall, EDHREC, Spellbook, bounded Pass C Fireshrieker test, candidate judgments",
-   "next_step": "snapshots, tested pool, decision packet, I/J, certificate, bundle, tests, workflow",
-   "stage": "RESEARCH_IN_PROGRESS",
+   "next_action": "owner decision on RESEARCH_ONLY four-swap candidate; next deck #21 Goro_Goro_and_Satoru",
+   "next_step": "owner decision on RESEARCH_ONLY four-swap candidate; next deck #21 Goro_Goro_and_Satoru",
+   "stage": "RESEARCH_ONLY_BLOCKED",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/668",
-   "pr_is_draft": true,
-   "last_checkpoint_commit": "14fc613ccc262b1515b9c1114edc822ce4ddbee7",
+   "pr_is_draft": false,
+   "last_checkpoint_commit": "909543a544aee2a170aca9e668141624d2343e50",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob e3e43c53, introduced by 3e2c89d9 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T11:26:56-0500",
-   "updated_at": "2026-10-23T11:26:56-0500",
-   "last_pushed_sha": "121853c596abd8b57d7a35ab3779e470ec00b14c",
-   "candidate_sha256": "963b67800d0f65918a8d14e637e7eb21f6fc9cb0297f58fcf370c48ec4948a26"
+   "last_checkpoint_at": "2026-10-23T11:56:59-0500",
+   "updated_at": "2026-10-23T11:56:59-0500",
+   "last_pushed_sha": "909543a544aee2a170aca9e668141624d2343e50",
+   "candidate_sha256": "48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f",
+   "head_commit": "909543a544aee2a170aca9e668141624d2343e50",
+   "pr_title": "M7 Deck 20 Garza Zol, Plague Queen first pass (RESEARCH_ONLY_NOT_OWNER_APPROVED)",
+   "next_deck": "#21 Goro_Goro_and_Satoru",
+   "full_suite": "head 909543a5: 24F/1631P/18S/86E vs base b6b40ac8: 24F/1465P/18S/86E; identical 110 failure/error IDs, no new failures"
   },
   {
    "tracker_number": 21,
