@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "milestone_cycle": "M7_DECISIVE_OPTIMIZATION",
+  "owner": "Cory Stover",
+  "owner_decision": "APPROVE_EXACT_CANDIDATE",
+  "owner_response_verbatim": "I explicitly approve and authorize locking Abaddon the Despoiler Rev3, exact SHA-256 5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24, replacing the previous approved Rev2. Proceed with the GitHub canonical update and verification.",
+  "owner_approval_date": "2026-10-23",
+  "repeated_owner_authorization_same_hash": true,
+  "approved_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+  "replaced_prior_approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "historical_2026_10_13_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_source": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev3.txt",
+  "candidate_decision_review": "data/grixis/m7/decision_reviews/Abaddon_the_Despoiler_rev3.json",
+  "candidate_optimization_pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/645",
+  "candidate_optimization_merge_commit": "618d4e0d5c861b10b1cb0cb22499e6a2758bbf6d",
+  "candidate_exact_head_ci": [
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39911935249",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39913153403"
+  ],
+  "candidate_specific_m6_tested_pool": "data/grixis/m6/ij/adjudications/Abaddon_protected_six_stage20_20261023.json",
+  "candidate_specific_m6_certificate": "data/grixis/m6/ij/candidate_certificates/Abaddon_protected_six_stage20_20261023.json",
+  "candidate_specific_m6_j_reproducibility": "data/grixis/m6/bundles/candidate_exact/Abaddon_protected_six_stage20_20261023.json",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_approval_pr": "https://github.com/corymstover/grixis-commander-encyclopediaGPT/pull/48",
+  "canonical_approval_merge_commit": "511bcb88b5b5e1dd280d74f983de62310f0ea816",
+  "canonical_exact_head_sha": "8e17080eeda1ee2d0361869faeef9972f0b471f5",
+  "canonical_approved_deck_path": "refinement/decklists/Abaddon_the_Despoiler_M7_Rev3_Approved_2026-10-23.txt",
+  "canonical_approved_deck_git_blob_sha": "13ada6e731799dc77519a907e1a3c37fc1575e6b",
+  "canonical_authority_path": "state/current_deck_overrides.json",
+  "canonical_approval_receipt_path": "refinement/approvals/Abaddon_the_Despoiler_M7_Rev3_Approved_2026-10-23.md",
+  "canonical_verification_path": "refinement/verification/Abaddon_the_Despoiler_M7_Rev3_Approval_Verification_2026-10-23.md",
+  "canonical_exact_head_ci": [
+    "https://github.com/corymstover/grixis-commander-encyclopediaGPT/actions/runs/39914294887",
+    "https://github.com/corymstover/grixis-commander-encyclopediaGPT/actions/runs/39914294879"
+  ],
+  "canonical_verified": true,
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "source_cards": 100,
+  "distinct_names": 95,
+  "lands": 34,
+  "new_swaps": 6,
+  "additions": [
+    "Impact Tremors",
+    "Sanctum of Stone Fangs",
+    "Coruscation Mage",
+    "Sakashima of a Thousand Faces",
+    "Mount Doom",
+    "Sheoldred, the Apocalypse"
+  ],
+  "cuts": [
+    "Thermo-Alchemist",
+    "The Ruinous Powers",
+    "Kessig Flamebreather",
+    "Keeper of Secrets",
+    "Mountain",
+    "Ponder"
+  ],
+  "new_material_candidate_judgments": 16,
+  "complete_100_candidate_alternative_swaps": [
+    5,
+    6,
+    7
+  ],
+  "changed_candidate_p0_cases_passed": 14,
+  "legacy_p0_counterfactual_removed_cards": 27,
+  "legacy_p0_potential_reusable": 77,
+  "current_oracle_and_legality": "PASS_SOURCE_BOUND_95_NAMES_AND_LIVE_REV3_2026-10-23",
+  "project_legality_exceptions": [],
+  "power_bracket": 4,
+  "archidekt_tags": [
+    "Cascade",
+    "Exile Cast",
+    "40K Chaos"
+  ],
+  "provenance_limitations": [
+    "Pass C was owner-waived GPT-6 owner-equivalent, not an independent third model.",
+    "Scoped candidate-specific M6 I/J, source-bound deterministic mechanical test cases, and four-option judgment do not prove empirical 4-player win rates or globally optimal construction.",
+    "Formal M6.10 and aggregate M7/M8 milestone acceptance must be separately authorized.",
+    "The older Oct22 Rev2 approval receipt and exact historical deck remain unchanged; this receipt supersedes their active authority, not their historical evidence.",
+    "Other 61 canonical owner-approved deck entries and tracker rows are not modified by this Rev3 approval; only Abaddon record advances.",
+    "Two explicit user messages containing identical SHA represent one approval of one new exact decklist, not two separate deck approvals."
+  ],
+  "authority": {
+    "m7_exact_owner_approval": true,
+    "canonical_hash_updated": true,
+    "canonical_61_other_approved_decks_untouched": true,
+    "formal_m6_milestone_accepted": false,
+    "formal_m7_milestone_accepted": false,
+    "formal_m8_milestone_accepted": false
+  }
+}
