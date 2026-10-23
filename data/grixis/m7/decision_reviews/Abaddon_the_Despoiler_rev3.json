@@ -107,9 +107,9 @@
       },
       {
         "card": "Call Forth the Tempest",
-        "weakness": "Call Forth {5}{U}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9",
+        "weakness": "Call Forth {5}{R}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9",
         "alternative_named": "Aurora Phoenix",
-        "reasoning": "Call Forth {5}{U}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and displaces higher-output existing printed cascade card."
+        "reasoning": "Call Forth {5}{R}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and displaces higher-output existing printed cascade card."
       }
     ],
     "current_baseline_strength": "The genuinely owner-approved 0d9f… Rev2 already has a six-swap optimized 100-card shell, all 34 lands, Noise/Nalfeshnee, Ignus/Birgi/Familiar, Neheb/Assault/Loyal, strong interaction and tested cascade mechanics. It remains APPROVED and LOCKED; this is a comparative proposal, not retroactive disapproval.",
@@ -567,9 +567,9 @@
       },
       {
         "card": "Call Forth the Tempest",
-        "weakness": "Call Forth {5}{U}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and disp",
+        "weakness": "Call Forth {5}{R}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and disp",
         "alternative_named": "Aurora Phoenix",
-        "reasoning": "Call Forth {5}{U}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and displaces higher-output existing printed cascade card."
+        "reasoning": "Call Forth {5}{R}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and displaces higher-output existing printed cascade card."
       }
     ],
     "off_ranked_opportunities": "Off-ranking and EDHREC Top/High Lift source search examines missed owned-turn Shrine and Mount thresholds, 4MV clone, paid Ignus Impact ETB engine, Sheoldred/Wheel, Ojer, Dark Apostle, Aurora Phoenix and others. EDHREC samples are not optimality proofs.",
