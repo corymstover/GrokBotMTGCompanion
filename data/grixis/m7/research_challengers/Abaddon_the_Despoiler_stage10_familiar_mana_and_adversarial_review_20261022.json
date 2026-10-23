@@ -81,7 +81,7 @@
     ],
     "one_full_cycle_reducer_present": [
       "Begin float {R}, 0 {C}.",
-      "Activate Ignus for {R}, RETURN to owner hand as cost; resolve its mana-producing non-mana activated ability: add {C}{C}{R}.",
+      "Activate Ignus for {R}, RETURN it to its owner's hand as cost. Ignus's activated mana ability immediately adds {C}{C}{R} without using the stack; its 'Activate only as a sorcery' restriction still applies.",
       "Cast Ignus for reduced {1}{R}: spend 1 {C}+1 {R}, retain 1 {C}; Birgi cast trigger resolves creating 1 {R}.",
       "Ignus resolves and returns to battlefield. Clear pending ETB/cascade triggers before next sorcery-speed activation. Finish float {R}+{C}, net +{C}.",
       "After N uncontested repetitions, float {R}+N {C}; arbitrary colorless/storm count, NOT arbitrary red. Every later qualifying Abaddon-granted cascade from hand is a separate stack event and only if X already high enough."
@@ -211,7 +211,7 @@
       "reason": "Displaceable four-mana slow first value, but uniquely 40K random-opponent-library theft and nonhand cast identity. New Veyran+Impact/Familiar-preserving package must pay this real theme/power opportunity cost."
     }
   ],
-  "conservative_comparative_judgment": "NEW RESOURCE FACT INVALIDATES TREATING NIGHTSCAPE AS A LOW-COST V E Y R A N CUT. The single Impact-over-Ponder research variant best retains baseline multi-axis resilience, and Veyran+Impact over Ponder/Ruinous offers a coherent competing two-slot physical 100. Neither is owner-ready and no >5 full finalist superiority is claimed; existing stage4–9 5–8 swap research packages remain adversarial comparators rather than quota-filling.",
+  "conservative_comparative_judgment": "NEW RESOURCE FACT INVALIDATES TREATING NIGHTSCAPE AS A LOW-COST Veyran CUT. The single Impact-over-Ponder research variant best retains baseline multi-axis resilience, and Veyran+Impact over Ponder/Ruinous offers a coherent competing two-slot physical 100. Neither is owner-ready and no >5 full finalist superiority is claimed; existing stage4–9 5–8 swap research packages remain adversarial comparators rather than quota-filling.",
   "next_work": [
     "Challenge at least two other incumbent weak slots and alternative package cuts without sacrificing Nightscape/Neheb/Loyal/Abaddon cascade mechanics; revisit early threshold/life loss vs 40K nonhand quality.",
     "If a superior 5+ genuine-replacement integrated whole-100 emerges, independently run exact candidate-source Commander legality, color/curve/lands, all changed-candidate M6 P0/I/J and reproducibility; do not recycle baseline hash/certificate.",
