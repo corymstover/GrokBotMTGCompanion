@@ -76,6 +76,7 @@ class AdmiralEDHRECDiscoveryContract(unittest.TestCase):
         self.assertIn(ledger["m7_status"], {
             "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
             "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
+            "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
         })
         if ledger["m7_status"].startswith("REVISED_M7_"):
             rev2 = ledger["m7_rev2_decision_packet"]
