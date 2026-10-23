@@ -78,7 +78,7 @@ class AbaddonStage17Oracle(unittest.TestCase):
         self.assertIn("first main phase", cards["Sanctum of Stone Fangs"]["oracle_text"])
         self.assertIn("Whenever a creature", cards["Impact Tremors"]["oracle_text"])
         self.assertIn("legend rule", cards["Sakashima of a Thousand Faces"]["oracle_text"])
-        self.assertIn("each opponent", cards["Sheoldred, the Apocalypse"]["oracle_text"])
+        self.assertIn("Whenever an opponent draws a card, they lose 2 life.", cards["Sheoldred, the Apocalypse"]["oracle_text"])
         self.assertIn("{B}{R}", cards["Mount Doom"]["oracle_text"])
         self.assertEqual(self.data["exact_head_live_full100_ci"]["checked_status"], "SUCCESS")
 
