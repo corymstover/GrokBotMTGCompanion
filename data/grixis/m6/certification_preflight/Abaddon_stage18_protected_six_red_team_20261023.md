@@ -4,7 +4,7 @@
 
 **Candidate:** exact 100-card research-only `data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt`, raw SHA-256 `5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24`. Six paired changes: +Impact Tremors/-Thermo-Alchemist; +Sanctum of Stone Fangs/-The Ruinous Powers; +Coruscation Mage/-Kessig Flamebreather; +Sakashima of a Thousand Faces/-Keeper of Secrets; +Mount Doom/-Mountain; +Sheoldred, the Apocalypse/-Ponder. Canonical approved source `0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790` remains locked and untouched.
 
-This review directly supersedes the *applicability* of the old two-swap red-team report, whose claimed Keeper, Kessig and Thermo board presence is **no longer the new candidate**. All mechanics referenced here have preserved exact full95-name Scryfall text `data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json`; changed-card paid finite cases 14/14 actually executed in PR #638, while 20 old P0 and 3 old P1 are expressly historical comparator-only under PR #640.
+This review directly supersedes the *applicability* of the old two-swap red-team report, whose claimed Keeper, Kessig and Thermo board presence is **no longer the new candidate**. All mechanics referenced here have preserved exact full95-name Scryfall text `data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json`; changed-card paid finite cases 14/14 actually executed in PR #638, while 27 old P0 and 3 old P1 are expressly historical comparator-only under PR #640.
 
 ## 1. Multiple removal effects and commander attrition
 

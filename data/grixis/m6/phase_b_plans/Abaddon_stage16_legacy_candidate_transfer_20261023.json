@@ -13,15 +13,15 @@
   "source_stage15_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906969961",
   "counts": {
     "historical_p0": 104,
-    "historical_p0_card_cut_dependent": 20,
-    "historical_p0_without_named_cut": 84,
+    "historical_p0_card_cut_dependent": 27,
+    "historical_p0_without_named_cut": 77,
     "historical_p1": 14,
     "historical_p1_known_counterfactual": 3,
     "new_stage15_source_bound_p0_pass": 14
   },
   "case_classes": {
-    "legacy_with_named_cut": "20 previous executions about absent Ruinous/Keeper/Kessig/Thermo or old pre-rev2 Betrayal have no direct current-candidate transfer. Keep them as historical counterfactual comparisons.",
-    "legacy_unmentioned": "84 prior executed P0 did not mention one of those cut cards by name. This is a necessary but not sufficient re-use screen; each fixture's embedded 100-card physical roster and replacement logic must be reconciled to the new candidate before certification.",
+    "legacy_with_named_cut": "27 old P0 instances depend on absent Ruinous, Keeper, Kessig, Thermo, or Inevitable Betrayal. Five P0-022b..f suspend/cast fixtures omit card names but belong to Betrayal's entire P0-022 parent; two lower-case 'betrayal' cases also require exclusion. Preserve as historical counterfactual, not current physical 100 coverage.",
+    "legacy_unmentioned": "77 other prior executed P0 do not directly require a removed named card or the historical Betrayal suspend parent. This is not proof their source physical 100 already matches the new candidate: rebinding is still required for formal M6 certification.",
     "legacy_p1": "11 P1 method titles concern still-current source roles, 3 concern cut Kessig or never-adopted Exalted/pinger cluster. Even 11 remain provisional until fixture and physical rosters are rebound.",
     "new_candidate": "14 targeted source-paid cases executed and passed on exact head PR638; this is the only newly counted direct candidate-specific mechanical coverage here."
   },
@@ -180,16 +180,20 @@
       "id": "P0-018",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
       "topic": "Drannith stops betrayal exile cast and its triggered payoffs",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
       "id": "P0-019",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
       "topic": "Rule of Law stops betrayal free cast after the hand Ignus spell",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
@@ -285,40 +289,50 @@
       "id": "P0-022b",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "Search may deliberately or necessarily fail to find a creature; spell cast and Lost triggers, no creature moved to battlefield.",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
       "id": "P0-022c",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "Drannith disallows cast from exile after 3rd upkeep, card stays exiled with zero counters and cannot re-trigger on future upkeep.",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
       "id": "P0-022d",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "A spell already cast on the final upkeep under Rule of Law prevents the suspend cast; card stranded in exile with zero counters.",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
       "id": "P0-022e",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "Under 2024+ rules last-counter ability permits owner to decline casting; card remains exiled without counters, despite legal target.",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
       "id": "P0-022f",
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "Cast from exile generates Lost spawn; an opponent counters actual spell, it moves to graveyard, no creature enters.",
-      "cut_or_preexisting_absent_refs": [],
-      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
     },
     {
@@ -326,7 +340,8 @@
       "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
       "topic": "A card with no mana cost cannot be normally cast from hand; suspending is not spell cast and does not increase storm/cascade; a later upkeep free cast if legal is first spell of that turn and has MV0; Keeper trigger would deal zero damage if Keeper present.",
       "cut_or_preexisting_absent_refs": [
-        "Keeper of Secrets"
+        "Keeper of Secrets",
+        "Inevitable Betrayal"
       ],
       "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
       "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
@@ -1069,5 +1084,5 @@
     "owner_m7_ready": false
   },
   "owner_sequence": "Abaddon #1 before deck #3; Admiral #2 remains approved locked; canonical Abaddon locked revision untouched",
-  "next_action": "Check the 84 older cases and 11 old P1 against actual new source physical roster and resolve any materially mandatory changed mechanics; assemble fully source-bound candidate-specific M6 I tested-pool and J reproducibility only after coverage audit."
+  "next_action": "Review 77 potentially reusable historical P0 and 11 P1 for physical transfer, without counting 27 removed-card P0 or 3 comparator P1; Stage15 14 new P0 and Stage17 95 Oracle source pass. Final candidate-specific I/J still unresolved."
 }
