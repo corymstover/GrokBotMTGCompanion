@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "slug": "edea-possessed-sorceress",
+ "baseline_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "result_hash": "lh1:60df43495ea457255e5e1f03cfbdd29975d420a6622bb9f38c4d92a704e685b2",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/edea-possessed-sorceress.json.gz",
+   "sha256": "sha256:7893b3df016a65843f9bf56ed4b04119998b2393e84ba0d56f3094a90e099dcb"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz",
+   "sha256": "sha256:41f3928869d493ce5da0c0c3a6a1e51cda0470d35ebd359cdd33c597bb768115"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/edea-possessed-sorceress.json",
+   "sha256": "sha256:bb9a84037f5036181af02218bc810d40e42b7da06e8ac856350466ac47f622d9"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/edea-possessed-sorceress.json",
+   "sha256": "sha256:ce8611d4e789753691f0bed82a334a83765a7a9ba0d401582758ee1afe7212c3"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/edea-possessed-sorceress.json",
+   "sha256": "sha256:d6ef907f318685defd35380ff2497c89d376d52452398f19bd1b0a027356c859"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Edea__Possessed_Sorceress.json",
+   "sha256": "sha256:bc9807a1c15181ba8fd7b08abc1e88eeafd693d0873fc37fc2b9a8d95601e03b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:b9f83d387dce9b28a5af839e984003aa08d9c61b6648d0c334394adda6b0ad47"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_Scryfall_live_20261023.json",
+   "sha256": "sha256:ca9af15d6b829b2e7b57207b34c371a53dcfdbb597ff2bf386c1d2f50135d497"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:e7dadc565d2c216af790308c2ee3a2edc71e9e0b4284d1ceffd0072da4329a52"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Edea__Possessed_Sorceress_approved_source_2026-10-14.txt",
+   "sha256": "sha256:fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4"
+  },
+  {
+   "path": "exports/grixis-archidekt/edea-possessed-sorceress.txt",
+   "sha256": "sha256:d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Edea__Possessed_Sorceress.txt",
+   "sha256": "sha256:e8680cafc7b7500b6106677e1aaafce6d5035893ea9f0cd335cd1fa1ff5227a2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_four_keep_Evereth_Assault_over_Spotlight_no_Celebrant_20261023.txt",
+   "sha256": "sha256:5cc0aabbed28ed6b3122e075e52898bb76dd111357e06603cea2ec8b6c4bede1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_five_LithoformEngine_instead_of_Dihada_20261023.txt",
+   "sha256": "sha256:8ed57533e98b3af8bd57d3aaa3214486a99c6aa98e531bdbc714f04dee18a49d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_Irma_20261023.txt",
+   "sha256": "sha256:91ffa1592a75f781351c1631de7a69dc86ab727ff25c828df105dd59aa48c19c"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_ImpostorSyndrome_20261023.txt",
+   "sha256": "sha256:2601fcab3e6bbb6fdd0faa9e4075132742d54c0c4fa312244cf904e6bc03c094"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_IndustrialAdvancement_20261023.txt",
+   "sha256": "sha256:37c6fc785807091a42819ffcd79a1bdf7818a8e075671994bd40f2facabb7be2"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+   "sha256": "sha256:bb5fbf1f0c72705ac2c5d00b49f8ba6a5017e5dd2a36945be2f026ff574e7b9c"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+   "sha256": "sha256:0475e87e61baf04ab9662fe13b905fd957e03b3aaf3da4a09063237c0076e1de"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/edea-possessed-sorceress-m7.json",
+   "sha256": "sha256:4b517bf36c66f8f04c288c86756387df134f76d29a96a9472cc5bbaaeadd9877"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Edea__Possessed_Sorceress_M6_I_local_best_20261023.md",
+   "sha256": "sha256:7103b94b4df90bc7a423e67e52d936b6f0841b7ad64f635eb7eb250cf963fdb0"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Edea__Possessed_Sorceress_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:b6163f70c3c42f60ec88f5fe12dff8020a878ab0d8ed613dc26eb3e9343db8ca"
+  },
+  {
+   "path": ".github/workflows/m7-edea-possessed-sorceress.yml",
+   "sha256": "sha256:5019877e655b79fccb1f6e4a25f7470379a42738aa9b9375e350a31011aecdba"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Edea__Possessed_Sorceress_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:aeef43dcff63559d3a5fcacbed081e4962a70eb1cb611d024f1fe5c41c31cce2"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/edea-possessed-sorceress.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/edea-possessed-sorceress.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Edea__Possessed_Sorceress/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:747a0a6a2fa4ba6206425fdc2d9afff6592cbd2e7b7c9bc9f429f5567497f9a4",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Edea__Possessed_Sorceress/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:b76d50ea86b171245ee5b8ff41ad53ecab8517c5456a5acc182e1d81077b749d"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+    "source_sha256": "sha256:87a7caab631c337b36357a8e676fbb6fa533952236ba623ab940166876d33130",
+    "seed": 0,
+    "harness_version": "edea_m7_finite_rules_and_bounded_pass_c_14_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Fourteen finite seed-0 Oracle-anchored cases. Edea Oracle and legality (fic, released, not a Game Changer); exact five swaps and counts; owner-removed cards not re-added; add Oracle anchors (Aggravated Assault, Combat Celebrant exert 701.43a, Geyadrone Dihada -3/-7, Hall of Echoes legend-rule text, Kaya's Ghostform); finite trigger counts (500.8, 603.2d); Ghostform ordering (603.3b, 400.7, 609.3); Irma timing caveat; Spellbook 0 included; bounded Pass C: 32-cell Closet vs Irma, 8-cell Closet vs Impostor, 28-cell exact Closet vs Industrial Advancement, 32-cell Celebrant vs Haruspex, exact mana DP turns 3-7 and outlet density 10 -> 7. No opponent model, matched shuffles, mulligans or multiplayer simulation; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_edea_possessed_sorceress_candidate.py",
+    "source_sha256": "sha256:230f35b043251f6c84e8d3f20cb2b4be2f0c646aa315cfa62dc6efe31ace68d9",
+    "seed": 0,
+    "harness_version": "edea_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, 3x Island/Mountain/Swamp the only multi-copy rows, case-insensitive alphabetical and 100 physical, gate owner-presentable structure, distinctness vs the closest Grixis decks disclosed (Marchesa 50 to 49, Missy 46 to 46, Wick 45 to 45, Tresserhorns 44 to 43, Thraximundar 43 to 43, Lord Xander 41 to 43, Don Andres 39 to 38), owner-removed cards not re-added, owner-retention flags with the staged keep-Evereth and Lithoform alternatives, commander legality, Bracket 4 and tags; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #663 head 3b67994a (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_edea_possessed_sorceress_m7_ij.py",
+    "source_sha256": "sha256:5bd8c125aaa0b50063f7e584dbaf12cae31c8610dd7fc3f3d005c92969a43ee1",
+    "seed": 0,
+    "harness_version": "edea_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 8 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Edea__Possessed_Sorceress_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d32c9e28ab3a49714b31100376f7f3afcf5dea914230a6617394e876e0cf6308"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Edea__Possessed_Sorceress_M6_J_mana_20261023.md",
+  "sha256": "sha256:7cfd77e4bd28f208add08bce09077dbcab7e5d45543ec980beed0a9656633fab"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

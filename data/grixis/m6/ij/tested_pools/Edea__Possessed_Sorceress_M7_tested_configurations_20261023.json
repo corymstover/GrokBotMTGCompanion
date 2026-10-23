@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 8,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Edea__Possessed_Sorceress_approved_source_2026-10-14.txt",
+   "raw_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+   "logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw fd560a9b…, fetched from canonical encyclopedia main 9b26aa28, blob e3651060, frozen by canonical commit c0dd52a4; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/edea-possessed-sorceress.txt",
+   "raw_sha256": "d41924a6b09c4232b438aa863c833a28f67bdd6598c9bba470ae66f23428acd6",
+   "logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order, so the raw bytes differ. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Edea__Possessed_Sorceress.txt",
+   "raw_sha256": "e8680cafc7b7500b6106677e1aaafce6d5035893ea9f0cd335cd1fa1ff5227a2",
+   "logical_hash": "lh1:60df43495ea457255e5e1f03cfbdd29975d420a6622bb9f38c4d92a704e685b2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Aggravated Assault +Kaya's Ghostform +Hall of Echoes +Geyadrone Dihada +Combat Celebrant / -Evereth, Viceroy of Plunder -Zara, Renegade Recruiter -High Market -Ayara, Widow of the Realm -Seize the Spotlight. 35 lands and coloured sources unchanged; extra-combat sources 2 -> 4; Edea copy effects 6 -> 7; repeatable outlets 10 -> 7 (P(at least one in 12 cards) 0.7432 -> 0.6075); average nonland MV 3.203 -> 3.156. The Evereth cut overrides an explicit owner keep and is flagged. MODERATE confidence; no measured playtests."
+  },
+  {
+   "id": "FOUR_KEEP_EVERETH_ASSAULT_OVER_SPOTLIGHT_NO_CELEBRANT",
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_four_keep_Evereth_Assault_over_Spotlight_no_Celebrant_20261023.txt",
+   "raw_sha256": "5cc0aabbed28ed6b3122e075e52898bb76dd111357e06603cea2ec8b6c4bede1",
+   "logical_hash": "lh1:2de3863dcdd213b9810af7b849d25d434bdc636ca2a8ced2b4ed52c95bc0deee",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor; not owner-presentable by itself). Keeps the owner-kept Evereth: Aggravated Assault replaces Seize the Spotlight and Combat Celebrant is not added. Choose if the owner keeps Evereth's drain finisher."
+  },
+  {
+   "id": "FIVE_LITHOFORM_ENGINE_INSTEAD_OF_DIHADA",
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_five_LithoformEngine_instead_of_Dihada_20261023.txt",
+   "raw_sha256": "8ed57533e98b3af8bd57d3aaa3214486a99c6aa98e531bdbc714f04dee18a49d",
+   "logical_hash": "lh1:0d7ae5e75e1fad2be34b84bbfad10a86caecbb907f1af531016f67813e0f7e0b",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Lithoform Engine (OFF-RANKING) copies Edea's, Crew's, Karlach's or Celebrant's trigger for {2}; not chosen because the owner on 2026-10-14 preferred theft density or extra combats over another four-mana Edea multiplier. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_CLOSET_OVER_IRMA",
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_Irma_20261023.txt",
+   "raw_sha256": "91ffa1592a75f781351c1631de7a69dc86ab727ff25c828df105dd59aa48c19c",
+   "logical_hash": "lh1:baf73486197be5650fd6d1de62ceabb3a54dd2fd5d507089afee26dbc6544bb4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C priority test). Bounded 32-cell grid: Irma 216 vs Closet 120 steal triggers, Irma ahead in 28 cells; Closet keeps 48 vs 16, but Thassa already keeps one in half the cells. The owner rejected Closet. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_CLOSET_OVER_IMPOSTOR_SYNDROME",
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_ImpostorSyndrome_20261023.txt",
+   "raw_sha256": "2601fcab3e6bbb6fdd0faa9e4075132742d54c0c4fa312244cf904e6bc03c094",
+   "logical_hash": "lh1:37ea0142c208d8ffdb98f2890f287f6a10fe57dceef5a6ed563fbe84b162e4da",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C priority test). 8-cell grid: Impostor ties or beats Closet in 6 cells and beats it in 4. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_CLOSET_OVER_INDUSTRIAL_ADVANCEMENT",
+   "path": "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_six_PassC_ConjurersCloset_over_IndustrialAdvancement_20261023.txt",
+   "raw_sha256": "37c6fc785807091a42819ffcd79a1bdf7818a8e075671994bd40f2facabb7be2",
+   "logical_hash": "lh1:f1f96ab2bf2cc9d1fdda89d57c49e7029aca4d1b906a94ce40afe10e7df931f4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C secondary test). Exact table: Advancement hits a creature 0.4936-0.8834 depending on stolen MV (0.7308 at MV5, 80 cards, 18 creatures) on top of Edea's draw. MODERATE confidence."
+  }
+ ]
+}
