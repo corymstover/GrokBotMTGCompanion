@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_STAGE11_SANCTUM_PRECOMBAT_VS_VEYRAN_TOKEN_OPPORTUNITY_OPEN",
+  "status": "RESEARCH_ONLY_STAGE12_FIVE_SIX_FULL_100_COMPARATIVE_AUDIT_OPEN",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -48,7 +48,7 @@
     "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "RESEARCH_ONLY_STAGE9_NOVEL_OFFRANKING_VERIFIED_CI_SUCCESS",
+    "status": "RESEARCH_ONLY_STAGE12_WHEEL_RECURSION_POSTFLOOR_TESTED_CI_SUCCESS",
     "executed_rules_only_test_cases": 9,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
@@ -261,14 +261,50 @@
       "ci_job_steps_passed": 82,
       "owner_ready": false,
       "m6_candidate_specific_certified": false
+    },
+    "stage12": {
+      "report": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_openended_sanctum_wheel_warhammer_portfolios_20261022.json",
+      "test": "tests/test_m7_abaddon_stage12_openended_portfolios.py",
+      "brief": "Three full-100 physical five/five/six swap comparisons test Sanctum pre-main threshold, Impact paid Ignus damage loop, Sheoldred Wheel own-turn X42/84, old cut Exalted Flamer 40K recursion+pings, Sakashima extra cascade, Mount Doom land threshold, and alternative Keeper/Nalfeshnee protected cuts. Exact sources, no win-rate claim; all remain research only.",
+      "exact_100_research_variants": [
+        {
+          "name": "WARHAMMER_RECURSION_DOUBLE_CASCADE_FIVE",
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_warhammer_recursion_double_cascade_five_20261022.txt",
+          "raw_sha256": "eecbd7ec71a84485e2700cae6da21bf8a4e4d508765336ee286eed245890fc2a",
+          "swaps": 5,
+          "status": "RESEARCH_ONLY"
+        },
+        {
+          "name": "WHEEL_MULTIPLIER_KEEP_EXILE_COPY_FIVE",
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_wheel_multiplier_keep_exile_copy_five_20261022.txt",
+          "raw_sha256": "c95200890ee7bdaf1e95003ce67863713820f39a80e0ec6315d55f881046334b",
+          "swaps": 5,
+          "status": "RESEARCH_ONLY"
+        },
+        {
+          "name": "RECURSION_WHEEL_SIX_BEYOND_FLOOR_CHALLENGE",
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage12_recursion_wheel_six_beyond_floor_challenge_20261022.txt",
+          "raw_sha256": "b75ebefe33091634b5fd38ddc273c38cb617f3dcff4318de8b069785ca419a1b",
+          "swaps": 6,
+          "status": "RESEARCH_ONLY"
+        }
+      ],
+      "merged_pr": 633,
+      "merged_sha": "cf5c1f6bba7785c45d67d38584939875712b5149",
+      "exact_pr_head": "11679ef47b7bc38801412994795f47ba5898a6d9",
+      "ci_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39901266678",
+      "ci_conclusion": "SUCCESS",
+      "ci_successful_steps": 83,
+      "owner_ready": false,
+      "changed_candidate_m6_certified": false
     }
   },
   "mandatory_next_deterministic_checks": [
-    "Stages4–11 research-only finite source-bound tests and complete physical 100 variants executed with exact-head success (Stage11 PR #631, run 39899731239, 82 successful steps). Do not needlessly repeat.",
-    "First unfinished strategic requirement: authoritative final whole-99 multi-role comparative judgment — choose/compare Sanctum pre-first-main X3 vs Veyran wide spell-cast trigger doubling and Impact direct Ignus outlet in COMPLETE 100s, with real alternative cuts to protected Warhammer Ruinous, Noise Marine, Ponder and Nightscape.",
-    "Analyze strongest coherent 5+ more-than-floor package only when independent improvements justify each cut (existing 5,6,7,8-swap research alternatives have material losses); test whether other mid-curve/land/interaction/engine slots credibly improve without weakening early UBR commander access, printed Call Forth cascades, opponent disruption shields, and Neheb+Assault+Loyal anti-Rule-of-Law axis. Explicitly do not target exactly five.",
-    "Use exact EDHREC Top and High Lift and source-bound offranking candidates already recorded; continue discovery when credible unexamined role opportunity remains, with candidate final dispositions and competing fully specified physical 100s. No random huge simulation treadmill.",
-    "Only if 5+ genuinely stronger multi-swap final list emerges: source-verify full candidate Oracle/Commander legal and exceptions, M6 changed-candidate P0/P1/I/J, reproducibility, exact hash and PR-head CI BEFORE owner-ready presentation. If not, preserve RESEARCH_ONLY; no false certification or approval."
+    "Stage12 exact-head PR #633 merged cf5c1f6bba7785c45d67d38584939875712b5149 with CI run 39901266678 SUCCESS 83/83 steps. Reuse full-card five/five/six research packages and source snapshots; do not repeat source-only tests.",
+    "FIRST UNFINISHED DECISION: final qualitative head-to-head of same-100 packages that challenge Ruinous/Ponder/Noise and either Keeper or Nalfeshnee; determine if Sanctum+Impact plus Sheoldred or Exalted and Sakashima/Mount Doom truly makes a better whole deck under adversarial boards, while respecting Warhammer printed cascades, nonhand spell copy/burn and early UBR access.",
+    "Continue unbounded role audit beyond five: examine genuine alternate cut cases that preserve Noise Marine's printed cascade or Ruinous theft or both without severing the Familiar/Ignus, Neheb/Assault/Loyal, Bloodletter/Solphim, Call Forth/protection and 40K exile value core. Treat 5/6 count as tests only, not an optimization target.",
+    "If no honest >=5 genuinely superior package exists after these discriminating judgments, preserve research-only and surface owner governance conflict; never force substitutions or owner-present sub-five.",
+    "Only upon defensible 5+ final: fresh full candidate source Oracle legality, exact 100 and hash, relevant M6 P0/P1 and I/J rebind, reproducibility, exact-head CI before owner final presentation. Abaddon canonical approved locked, Admiral locked and deck3 HOLD."
   ],
   "strategic_next": [
     "Stage11 new early threshold option: Sanctum of Stone Fangs at next-turn first-main triggers X3 before a hand MV3 spell and needs only 2 mana setup; Veyran has a much higher conditional stacked cast/copy trigger ceiling but no unconditional early threshold; competing options are not automatically complementary or all upgrades.",
