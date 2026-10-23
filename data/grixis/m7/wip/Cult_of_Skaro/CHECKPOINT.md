@@ -18,3 +18,8 @@
 - Draft candidate (6 swaps): +Karlach, Fury of Avernus +Kindred Discovery +Hammer of Purphoros +Shaun, Father of Synths +Quantum Misalignment +Skorpekh Lord / -Cybermen Squadron -Canoptek Spyder -Adaptive Omnitool -The Master, Multiplied -Anrakyr the Traveller -Etherium Sculptor. Candidate raw 8b765d85…, lh1:59daa556…
 - Alternatives staged: five keep Etherium Sculptor; Pass C Kindred over Research Thief; Pass C Karlach over Biotransference; seven Celebrant over Thought Monitor.
 - Next: decision packet, tests (incl. bounded Pass C measured test), I/J, workflow.
+
+## Checkpoint 2026-10-23T06:55:17-05:00 — mechanics test + tested pool + rules snapshot
+- tests/test_m6_cult_of_skaro_m7_mechanics.py (11 pass): Oracle facts, bounded Pass C measured tests (Kindred/Thief/TSN/Spyder draw enumeration, Karlach trigger counts), candidate checks.
+- Added FOUR_KEEP_MYRIAD_PACKAGE alternative (278fb08f…). Tested pool (8 configs) and rules snapshot written.
+- Next: decision packet + gate, memos, I/J, candidate/IJ tests, workflow.
