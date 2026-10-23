@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Evelyn__the_Covetous",
+  "slug": "evelyn-the-covetous",
+  "generated_at": "2026-10-23T10:43:05-05:00",
+  "list_hash": "lh1:7f36c397c95fb1f25c1477765b0ea27e3fdb80c476073d66146b02560eec075a",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Evelyn__the_Covetous_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:badb587af42125c267dadffe2aa724e77b0a1937c5b72c641ba2577cb0374e06",
+    "tested_pool_size": 8
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_evelyn_the_covetous_m7_mechanics.py",
+      "tests/test_m7_evelyn_the_covetous_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_evelyn_the_covetous_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Evelyn__the_Covetous_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Evelyn__the_Covetous_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Evelyn__the_Covetous_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Evelyn__the_Covetous.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 8 complete configurations in the pool: raw baseline, registry canonical export, preferred five, the Pass C one-swap (Brainstorm over Ripples of Undeath on the baseline), the four-swap keeping Blazemire Verge, the five-swap with Grim Monolith instead of Burnt Offering, the five-swap keeping Wan Shi Tong and cutting Notion Thief, and the six-swap adding Spell Pierce over Ripples of Undeath. Not owner approval; the canonical list is unchanged."
+  }
+}

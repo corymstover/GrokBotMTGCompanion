@@ -1,0 +1,339 @@
+{
+ "method": "Bounded, finite Pass C test for Evelyn__the_Covetous (Pass C hypothesis: +Brainstorm / -Ripples of Undeath).\nNo sampling, no RNG; exact multivariate-hypergeometric enumeration over a 99-card library. Parts:\n (1) castability: P(a U source among first N cards) for Brainstorm (T1-T2) vs P(>=2 mana sources incl. a B source) for Ripples (T2-T3);\n     sources = lands + Sol Ring, Arcane Signet, Fellwar Stone, Mana Vault, Lotus Petal, Talismans (each counted 1; moxen/rituals excluded);\n (2) Evelyn {2}{U/B}{B}{B/R} on curve: P(by turn T: min(lands,T)+rocks >= 5, >=1 black source, >=3 coloured sources) T=3..6, play and draw;\n (3) fetch support for Brainstorm: P(>=1 fetchland among first N cards) (Brainstorm's put-back cards are only shuffled away by a fetch/tutor);\n (4) Ripples Worldgorger delivery: P(Worldgorger Dragon is among the cards Ripples mills over k first-main triggers), conditional on WGD not\n     yet drawn, with the trigger schedule implied by casting Ripples on turn 2 (first trigger turn 3), plus life paid if the take is used;\n (5) cards seen per resolution and life cost. This is NOT a matched game simulation (no validated Evelyn game model in this repo);\n     opponents' interaction/stax/grave-hate are discussed qualitatively in the review packet, not simulated.",
+ "decks": {
+  "base.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8385,
+    "brainstorm_U_source_T2": 0.8771,
+    "ripples_castable_T2": 0.7852,
+    "ripples_castable_T3": 0.8414,
+    "fetch_in_first_N": {
+     "7": 0.4115,
+     "8": 0.4563,
+     "9": 0.4981,
+     "10": 0.5372
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2767,
+     "6": 0.3595
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8771,
+    "brainstorm_U_source_T2": 0.9068,
+    "ripples_castable_T2": 0.8414,
+    "ripples_castable_T3": 0.8841,
+    "fetch_in_first_N": {
+     "7": 0.4563,
+     "8": 0.4981,
+     "9": 0.5372,
+     "10": 0.5736
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2086,
+     "5": 0.3595,
+     "6": 0.4438
+    }
+   }
+  },
+  "cand.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8531,
+    "brainstorm_U_source_T2": 0.8899,
+    "ripples_castable_T2": 0.7923,
+    "ripples_castable_T3": 0.8478,
+    "fetch_in_first_N": {
+     "7": 0.4981,
+     "8": 0.5472,
+     "9": 0.592,
+     "10": 0.6328
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2768,
+     "6": 0.3596
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8899,
+    "brainstorm_U_source_T2": 0.9177,
+    "ripples_castable_T2": 0.8478,
+    "ripples_castable_T3": 0.8898,
+    "fetch_in_first_N": {
+     "7": 0.5472,
+     "8": 0.592,
+     "9": 0.6328,
+     "10": 0.6699
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2087,
+     "5": 0.3596,
+     "6": 0.4439
+    }
+   }
+  },
+  "Evelyn__the_Covetous_PassC_baseline_plus_Brainstorm_minus_RipplesOfUndeath_20261023.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8385,
+    "brainstorm_U_source_T2": 0.8771,
+    "ripples_castable_T2": 0.7852,
+    "ripples_castable_T3": 0.8414,
+    "fetch_in_first_N": {
+     "7": 0.4115,
+     "8": 0.4563,
+     "9": 0.4981,
+     "10": 0.5372
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2767,
+     "6": 0.3595
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8771,
+    "brainstorm_U_source_T2": 0.9068,
+    "ripples_castable_T2": 0.8414,
+    "ripples_castable_T3": 0.8841,
+    "fetch_in_first_N": {
+     "7": 0.4563,
+     "8": 0.4981,
+     "9": 0.5372,
+     "10": 0.5736
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2086,
+     "5": 0.3595,
+     "6": 0.4438
+    }
+   }
+  },
+  "Evelyn__the_Covetous_five_GrimMonolith_instead_of_BurntOffering_20261023.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8531,
+    "brainstorm_U_source_T2": 0.8899,
+    "ripples_castable_T2": 0.8039,
+    "ripples_castable_T3": 0.8575,
+    "fetch_in_first_N": {
+     "7": 0.4981,
+     "8": 0.5472,
+     "9": 0.592,
+     "10": 0.6328
+    },
+    "evelyn_castable": {
+     "3": 0.0522,
+     "4": 0.1722,
+     "5": 0.3009,
+     "6": 0.3873
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8899,
+    "brainstorm_U_source_T2": 0.9177,
+    "ripples_castable_T2": 0.8575,
+    "ripples_castable_T3": 0.8975,
+    "fetch_in_first_N": {
+     "7": 0.5472,
+     "8": 0.592,
+     "9": 0.6328,
+     "10": 0.6699
+    },
+    "evelyn_castable": {
+     "3": 0.0806,
+     "4": 0.2386,
+     "5": 0.3873,
+     "6": 0.474
+    }
+   }
+  },
+  "Evelyn__the_Covetous_five_keep_WanShiTong_cut_NotionThief_20261023.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8531,
+    "brainstorm_U_source_T2": 0.8899,
+    "ripples_castable_T2": 0.7923,
+    "ripples_castable_T3": 0.8478,
+    "fetch_in_first_N": {
+     "7": 0.4981,
+     "8": 0.5472,
+     "9": 0.592,
+     "10": 0.6328
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2768,
+     "6": 0.3596
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8899,
+    "brainstorm_U_source_T2": 0.9177,
+    "ripples_castable_T2": 0.8478,
+    "ripples_castable_T3": 0.8898,
+    "fetch_in_first_N": {
+     "7": 0.5472,
+     "8": 0.592,
+     "9": 0.6328,
+     "10": 0.6699
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2087,
+     "5": 0.3596,
+     "6": 0.4439
+    }
+   }
+  },
+  "Evelyn__the_Covetous_four_keep_BlazemireVerge_20261023.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8385,
+    "brainstorm_U_source_T2": 0.8771,
+    "ripples_castable_T2": 0.7923,
+    "ripples_castable_T3": 0.8478,
+    "fetch_in_first_N": {
+     "7": 0.4563,
+     "8": 0.5036,
+     "9": 0.5472,
+     "10": 0.5875
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2768,
+     "6": 0.3596
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8771,
+    "brainstorm_U_source_T2": 0.9068,
+    "ripples_castable_T2": 0.8478,
+    "ripples_castable_T3": 0.8898,
+    "fetch_in_first_N": {
+     "7": 0.5036,
+     "8": 0.5472,
+     "9": 0.5875,
+     "10": 0.6246
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2087,
+     "5": 0.3596,
+     "6": 0.4439
+    }
+   }
+  },
+  "Evelyn__the_Covetous_six_SpellPierce_over_RipplesOfUndeath_20261023.txt": {
+   "play": {
+    "brainstorm_U_source_T1": 0.8531,
+    "brainstorm_U_source_T2": 0.8899,
+    "ripples_castable_T2": 0.7923,
+    "ripples_castable_T3": 0.8478,
+    "fetch_in_first_N": {
+     "7": 0.4981,
+     "8": 0.5472,
+     "9": 0.592,
+     "10": 0.6328
+    },
+    "evelyn_castable": {
+     "3": 0.0403,
+     "4": 0.1491,
+     "5": 0.2768,
+     "6": 0.3596
+    }
+   },
+   "draw": {
+    "brainstorm_U_source_T1": 0.8899,
+    "brainstorm_U_source_T2": 0.9177,
+    "ripples_castable_T2": 0.8478,
+    "ripples_castable_T3": 0.8898,
+    "fetch_in_first_N": {
+     "7": 0.5472,
+     "8": 0.592,
+     "9": 0.6328,
+     "10": 0.6699
+    },
+    "evelyn_castable": {
+     "3": 0.0628,
+     "4": 0.2087,
+     "5": 0.3596,
+     "6": 0.4439
+    }
+   }
+  }
+ },
+ "ripples_worldgorger_mill": {
+  "on_play": [
+   {
+    "triggers": 1,
+    "library_at_first_trigger": 90,
+    "P_WGD_milled_given_not_drawn": 0.0333,
+    "life_if_take_paid_each_trigger": 3,
+    "mana_if_take_paid_each_trigger": 1
+   },
+   {
+    "triggers": 2,
+    "library_at_first_trigger": 90,
+    "P_WGD_milled_given_not_drawn": 0.0671,
+    "life_if_take_paid_each_trigger": 6,
+    "mana_if_take_paid_each_trigger": 2
+   },
+   {
+    "triggers": 3,
+    "library_at_first_trigger": 90,
+    "P_WGD_milled_given_not_drawn": 0.1012,
+    "life_if_take_paid_each_trigger": 9,
+    "mana_if_take_paid_each_trigger": 3
+   }
+  ],
+  "on_draw": [
+   {
+    "triggers": 1,
+    "library_at_first_trigger": 89,
+    "P_WGD_milled_given_not_drawn": 0.0337,
+    "life_if_take_paid_each_trigger": 3,
+    "mana_if_take_paid_each_trigger": 1
+   },
+   {
+    "triggers": 2,
+    "library_at_first_trigger": 89,
+    "P_WGD_milled_given_not_drawn": 0.0678,
+    "life_if_take_paid_each_trigger": 6,
+    "mana_if_take_paid_each_trigger": 2
+   },
+   {
+    "triggers": 3,
+    "library_at_first_trigger": 89,
+    "P_WGD_milled_given_not_drawn": 0.1023,
+    "life_if_take_paid_each_trigger": 9,
+    "mana_if_take_paid_each_trigger": 3
+   }
+  ]
+ },
+ "per_resolution": {
+  "Brainstorm": {
+   "mana": "{U} instant",
+   "cards_seen": 3,
+   "net_cards": 1,
+   "life": 0,
+   "timing": "any (instant), protects nothing itself; returns 2 cards to top (WGD can be kept in hand for Faithless Looting/Insolent Neonate/Gamble discard, or put back)"
+  },
+  "Ripples_of_Undeath": {
+   "mana": "{1}{B} enchantment, then {1} per take",
+   "cards_seen_per_trigger": 3,
+   "net_cards_per_trigger": "+1 only if {1}+3 life paid; the 3 milled cards fuel Underworld Breach and can bin Worldgorger Dragon",
+   "life_per_take": 3,
+   "timing": "first trigger the turn after it is cast (first main phase); exiled by WGD loop like any permanent; dead to grave hate"
+  }
+ },
+ "notes": [
+  "Ripples milling is a Worldgorger/Breach enabler Brainstorm cannot replicate; Brainstorm is cheaper, instant-speed, and selection the turn it is drawn.",
+  "Neither figure is a win-rate; no matched game simulation was run because no validated Evelyn cEDH game model exists in this repo. The matched-opening-hands test Pass C requested is reduced to these exact finite quantities."
+ ]
+}
