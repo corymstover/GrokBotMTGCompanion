@@ -1354,29 +1354,57 @@
    "current_candidate_sha": "4adf02f9a72586b541e980218257f296a3b42bd22318bc9b59dc3dac967d210c",
    "branch": "grokbot-deck25-kefka-court-mage-m7-20261023",
    "working_branch": "grokbot-deck25-kefka-court-mage-m7-20261023",
-   "last_pushed_commit": "d433d045e8f4dde7ddf254b2be250d602c51edf0",
+   "last_pushed_commit": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/673",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 1,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 25 Kefka, Court Mage research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40011460821",
+     "conclusion": "success",
+     "head": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40011460757",
+     "conclusion": "success",
+     "head": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40011461769",
+     "conclusion": "success",
+     "head": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8"
+    }
+   ],
+   "blockers": [
+    "one genuine swap (+Dualcaster Mage -Culling the Weak, MODERATE); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 1, 21 material candidates, 16 incumbents challenged)"
+   ],
+   "unresolved_issues": [
+    "data caveat: EDHREC 497 vs 861 of 2232 and EDHTop16 0.1706 (252) vs 0.1867 (557), SE about 0.027; adoption neutral-to-against the swap",
+    "owner-direction flag: Dualcaster + Molten Duplication kill does not require Kefka (close to owner's rejection of non-Kefka bounce combo package); staged alternatives Dualcaster over Diabolic Intent and Talisman of Indulgence over Culling the Weak",
+    "Pass C matched-hand games / win rates not run (no validated Kefka game model); DRC vs Tinybones measurement not run (conditional; owner keep); bounded exact/seeded tests only",
+    "stale unapproved export exports/grixis-archidekt/kefka-court-mage.txt (9388bb55) re-adds owner-cut cards; tracker row PENDING vs overrides approved/locked; neither changed"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw cd36192f == overrides == registry; blob 84dbe0b4 from approval commit 7bf011ac; 100 physical, 28 lands, no terminal newline); shared infra copied from PR #672 head e77466fa; draft PR #673",
-    "research (live Scryfall 228 admissible names, 0 frozen-cache diffs; EDHREC 4 pages; repo EDHTop16 aggregate; Commander Spellbook baseline 6 combos; 9 staged alternatives; bounded Pass C tests). Provisional: 1 genuine swap (+Dualcaster Mage -Culling the Weak), RESEARCH_ONLY"
+    "research (live Scryfall 228 admissible names, 0 frozen-cache diffs; EDHREC 4 pages; repo EDHTop16 aggregate; Commander Spellbook baseline 6 combos; 9 staged alternatives; bounded Pass C tests). Provisional: 1 genuine swap (+Dualcaster Mage -Culling the Weak), RESEARCH_ONLY",
+    "oracle/rules snapshots, tested pool (12 configs), decision packet (gate withdrawn RESEARCH_ONLY, 21 material candidates, 16 incumbents challenged), I/J memos, certificate + J revision bundle, adversarial packet, mechanics/candidate/IJ tests 12/10/8, focused workflow; WIP removed in last content commit ee2abd0a",
+    "full suite head ee2abd0a 24F/1632P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #673 ready 2026-10-23T14:29:26-0500 (GitHub ready_for_review 19:29:26Z) with RESEARCH_ONLY + blocker; exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "tested pool, decision review, I/J, tests, workflow",
-   "next_step": "tested pool, decision review, I/J, tests, workflow",
-   "stage": "RESEARCH_IN_PROGRESS",
+   "next_action": "owner decision on RESEARCH_ONLY one-swap candidate (Dualcaster flag, staged alternatives); next deck #26 Kess__Dissident_Mage",
+   "next_step": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #26 Kess, Dissident Mage",
+   "stage": "RESEARCH_ONLY_BLOCKED",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/673",
-   "pr_is_draft": true,
-   "last_pushed_sha": "d433d045e8f4dde7ddf254b2be250d602c51edf0",
-   "last_checkpoint_commit": "d433d045e8f4dde7ddf254b2be250d602c51edf0",
+   "pr_is_draft": false,
+   "last_pushed_sha": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8",
+   "last_checkpoint_commit": "ee2abd0a4f9c4729371c16233c5979c1331ae1a8",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 84dbe0b4, introduced by 7bf011ac 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T14:10:13-0500",
-   "last_checkpoint_at": "2026-10-23T14:10:13-0500"
+   "updated_at": "2026-10-23T14:30:20-0500",
+   "last_checkpoint_at": "2026-10-23T14:30:20-0500"
   },
   {
    "tracker_number": 26,
