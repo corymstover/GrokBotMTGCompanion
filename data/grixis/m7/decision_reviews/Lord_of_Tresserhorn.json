@@ -178,7 +178,7 @@
     "Cover of Darkness"
    ],
    "incumbent_opportunity_cost": "Cover of Darkness was an explicit KEEP in the owner's 2026-10-14 audit (naming Zombie gives Lord fear) — flagged. {1}{B} enchantment: creatures of the chosen type have fear. Lord is black, so black and artifact creatures still block him, and Shizo, Death's Storehouse already grants fear. EDHREC Lord upgraded 5/82 only, absent from general and optimized.",
-   "commander_synergy": "Every turn it can make a 3/2 changeling — a Zombie — which is (a) Lord's sacrifice fodder, (b) the other Zombie Gravecrawler needs, and (c) a body Diregraf Captain and Wilhelt pump; plus a card and a Treasure for Lord's {B} regeneration. Turn-6 P(Lord on battlefield) .6121 -> .6381 for this swap alone, the largest single-swap gain.",
+   "commander_synergy": "Every turn it can make a 3/2 changeling — a Zombie — which is (a) Lord's sacrifice fodder, (b) the other Zombie Gravecrawler needs, and (c) a Zombie that Diregraf Captain pumps and whose death Wilhelt turns into a decayed Zombie; plus a card and a Treasure for Lord's {B} regeneration. Turn-6 P(Lord on battlefield) .6121 -> .6381 for this swap alone, the largest single-swap gain.",
    "adversarial_downside": "Stacked life costs with Lord's own 2 life, Mana Confluence and fetches; it is a slow engine that does nothing the turn it lands. B1 grid: Cover connects 12/24 cells, but fear is stopped by black or artifact blockers and Shizo already gives fear. In 14 of the 61 other decks, including Tresserhorn's Lord, Returned.",
    "judgment": "SELECT_ADD",
    "reason": "Genuine swap 3 (cut Cover of Darkness, an audit KEEP — flagged): a repeatable fodder, card and mana engine for Lord in place of a fear effect Shizo duplicates.",

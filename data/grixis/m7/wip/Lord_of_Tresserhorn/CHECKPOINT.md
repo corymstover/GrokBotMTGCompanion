@@ -1,6 +1,6 @@
 # WIP CHECKPOINT — Deck 29 Lord_of_Tresserhorn (index 28) — RESEARCH_IN_PROGRESS, NOT owner approved
 
-Checkpoint written: 2026-10-23 16:50 CDT (box clock). Phase: decision review gated (RESEARCH_IN_PROGRESS).
+Checkpoint written: 2026-10-23 17:02 CDT (box clock). Phase: evidence package complete (RESEARCH_IN_PROGRESS until the full suite and ready step).
 
 - Commander: Lord of Tresserhorn ({1}{U}{B}{R} Legendary Creature — Zombie 10/4; frozen cache oracle-cards-20261016 text: "When Lord of Tresserhorn enters, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards. {B}: Regenerate Lord of Tresserhorn."; Commander legal, not a Game Changer; live check pending).
 - Baseline: canonical corymstover/grixis-commander-encyclopediaGPT main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, refinement/decklists/Lord_of_Tresserhorn_Approved_2026-10-14.txt, blob d9ff96da, introduced by af3c889 (2026-10-14); raw SHA-256 95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e == overrides approved_list_sha256 == registry recorded (source 1836b97 same bytes); byte copy vendored.
@@ -13,4 +13,5 @@ Checkpoint written: 2026-10-23 16:50 CDT (box clock). Phase: decision review gat
 - Original tentative plan (+FG -Nightscape, +Skullclamp -Fellwar, +Soul's Fire -Edict, +Aqueous Form -Cover) rejected on measurement: Lord on battlefield by T6 0.567 vs baseline 0.612.
 - Done (phase 3, pushed 60dbeec8): oracle snapshot (325 names, 0 frozen diffs), tested pool (12 configs), candidate list.
 - Done (phase 4): rules snapshot (uses Lord's actual Oracle text per parent correction: no opponent-regeneration clause), decision review JSON; decision gate PASS (M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED, 15 candidates, 10 weak slots, 5 post-floor challenges, 2 six-swap packages).
-- Next: I/J memos, adversarial packet, certificate/bundle, tests, workflow, full suite, ready.
+- Done (phase 5): I/J memos (local best, mana, red team), ChatGPT adversarial review packet, M6 I certificate and J revision bundle, three deck tests (29 methods), focused workflow m7-lord-of-tresserhorn.yml; d29 tests + gate + corpus pass locally; J checker valid; gate --check --check-sources passes. No shared-infra change (checker SHA-256 2962a640…).
+- Next: full suite once, remove this WIP file, mark PR ready, exact-head CI, ledger.
