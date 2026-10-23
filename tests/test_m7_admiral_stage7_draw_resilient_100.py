@@ -110,7 +110,7 @@ class AdmiralStage7(unittest.TestCase):
         # A 5-toughness blocker is not removed by Cannonade's 2 damage;
         # Wave prevents it blocking only that one turn after sorcery resolution.
         self.assertGreater(5,2)
-        self.assertEqual(1,1)
+        self.assertIn("Creatures your opponents control can't block this turn", wave["oracle_text"])
         self.assertEqual(self.post["Bident of Thassa"]["mana_cost"],"{2}{U}{U}")
         self.assertEqual(self.post["March of the Drowned"]["mana_cost"],"{B}")
         self.assertEqual(self.post["Path of Ancestry"]["type_line"],"Land")
