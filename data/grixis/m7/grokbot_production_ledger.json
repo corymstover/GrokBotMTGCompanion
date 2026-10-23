@@ -1415,33 +1415,62 @@
    "registry_recorded_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
    "registry_recorded_matches_raw": true,
    "candidate_path": "data/grixis/m7/candidate_lists/Kess__Dissident_Mage.txt",
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_raw_sha256": "d8fc71c1ee48948509de155b3b93571c2d9d0e5f426fb5b5679478dadf7ae57b",
+   "current_candidate_sha": "d8fc71c1ee48948509de155b3b93571c2d9d0e5f426fb5b5679478dadf7ae57b",
    "branch": "grokbot-deck26-kess-dissident-mage-m7-20261023",
    "working_branch": "grokbot-deck26-kess-dissident-mage-m7-20261023",
-   "last_pushed_commit": "b9005b1c6fbb69a79b71fe2291151a697022ec96",
+   "last_pushed_commit": "b505d828cf8936871385d33f57725def295f0b7c",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/674",
    "swap_count": 1,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 26 Kess, Dissident Mage research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40015933521",
+     "conclusion": "success",
+     "head": "b505d828cf8936871385d33f57725def295f0b7c"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40015933604",
+     "conclusion": "success",
+     "head": "b505d828cf8936871385d33f57725def295f0b7c"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40015933360",
+     "conclusion": "success",
+     "head": "b505d828cf8936871385d33f57725def295f0b7c"
+    }
+   ],
+   "blockers": [
+    "one genuine swap (+Mana Drain -Personal Tutor, MODERATE); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 1, 25 material candidates, 15 incumbents challenged)"
+   ],
+   "unresolved_issues": [
+    "owner-direction flag: Personal Tutor is an owner addition (2026-10-14) overridden by the swap; owner-respecting fallback +Mana Drain -Deadly Rollick staged as a complete 100",
+    "data caveat: EDHTop16 conversion with Mana Drain 0.125 (32 entries) vs field 0.1207 (58); case rests on adoption (EDHREC cEDH 234/387 vs Personal Tutor 26/387; cedh.events 51.7% of 87) and Kess fit, not measured win rate",
+    "staged owner decisions not counted: Grim Tutor over Demonic Counsel; Pass C Jeska's Will over Ledger Shredder and Frantic Search over Personal Tutor (owner-cut cards)",
+    "Pass C opponent hand-size distribution, matched-hand games and win rates not run (no logs, no validated Kess game model); bounded exact/seeded tests only",
+    "tracker row PENDING vs overrides approved/locked (disclosed, not changed)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 93d27d60 == overrides == registry; blob 4e3feb62 from approval commit b83e7d0; byte copy); shared infra copied from PR #673 head ee2abd0a; draft PR #674",
-    "research checkpoint: live Scryfall 187 names (0 frozen diffs), EDHREC 4 pages, cEDH events staples, EDHTop16 aggregate, Commander Spellbook, 11 staged alternatives, bounded Pass C tests; provisional 1 swap (+Mana Drain -Personal Tutor)"
+    "research checkpoint: live Scryfall 187 names (0 frozen diffs), EDHREC 4 pages, cEDH events staples, EDHTop16 aggregate, Commander Spellbook, 11 staged alternatives, bounded Pass C tests; provisional 1 swap (+Mana Drain -Personal Tutor)",
+    "package: tested pool 14 configs, decision review, I/J local-best, mana and red-team memos, adversarial packet, cert + bundle, 3 deck tests (31 methods), workflow; WIP checkpoint removed; pushed b505d828cf8936871385d33f57725def295f0b7c",
+    "full suite once at b505d828cf8936871385d33f57725def295f0b7c: 24F/1633P/18S/86E, 110 failure/error IDs identical to base b6b40ac8; PR #674 marked ready (RESEARCH_ONLY); exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "package: tested pool, decision review, I/J memos, bundle, tests, workflow",
-   "next_step": "package: tested pool, decision review, I/J memos, bundle, tests, workflow",
-   "stage": "RESEARCH_IN_PROGRESS",
-   "last_pushed_sha": "b9005b1c6fbb69a79b71fe2291151a697022ec96",
-   "last_checkpoint_commit": "b9005b1c6fbb69a79b71fe2291151a697022ec96",
+   "next_action": "owner decision on RESEARCH_ONLY one-swap candidate (Personal Tutor owner-addition flag, Deadly Rollick fallback, staged alternatives); next deck #27 Grixistax___October_2026",
+   "next_step": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #27 Grixistax___October_2026",
+   "stage": "RESEARCH_ONLY_BLOCKED",
+   "last_pushed_sha": "b505d828cf8936871385d33f57725def295f0b7c",
+   "last_checkpoint_commit": "b505d828cf8936871385d33f57725def295f0b7c",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/674",
-   "pr_is_draft": true,
+   "pr_is_draft": false,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 4e3feb62, introduced by b83e7d0 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T14:47:40-0500",
-   "last_checkpoint_at": "2026-10-23T14:47:40-0500"
+   "updated_at": "2026-10-23T15:03:47-0500",
+   "last_checkpoint_at": "2026-10-23T15:03:47-0500"
   },
   {
    "tracker_number": 27,
