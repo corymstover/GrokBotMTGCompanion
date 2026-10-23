@@ -1,0 +1,144 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Kess__Dissident_Mage",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 14,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Kess__Dissident_Mage_approved_source_2026-10-14.txt",
+   "raw_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+   "logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 93d27d60..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt, blob 4e3feb62, introduced by canonical approval commit b83e7d0 on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides, tracker and registry record the same bytes; copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/kess-dissident-mage.txt",
+   "raw_sha256": "94dee35afe9fdb9871ee84abc0ac616ab23e133198d7d5d0ddba090b6942f2bd",
+   "logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash (lh1:d89d5778...). Current, not stale."
+  },
+  {
+   "id": "RESEARCH_ONE_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Kess__Dissident_Mage.txt",
+   "raw_sha256": "d8fc71c1ee48948509de155b3b93571c2d9d0e5f426fb5b5679478dadf7ae57b",
+   "logical_hash": "lh1:066fc59a46090816ed94931d072fec96fd2d511d4590097d930f9be7ce4810b0",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (one genuine admissible swap, +Mana Drain -Personal Tutor; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Mana Drain is the most-played non-incumbent counterspell for Kess (EDHREC cEDH 234 of 387 = 60.5%; stats.cedh.events 51.7% of 87 decklists; repo EDHTop16 32 entries, 4 top cuts) and Kess can recast it from the graveyard on her own turn (cast in the precombat main phase, the mana arrives in the postcombat main phase of the same turn). Personal Tutor is the least-adopted card in the 99 (EDHREC cEDH 26 of 387 = 6.7%; absent from the cEDH events staple list), puts a sorcery on top rather than in hand, cannot find Demonic Consultation or Tainted Pact, and overlaps Mystical Tutor inside a 14-card tutor suite. Blue-card count, land base and Spellbook combos (6) unchanged; delirium proxy drops by at most about 1.5 points. OWNER-DIRECTION FLAG: Personal Tutor is an owner addition from the 2026-10-14 rebuild; the owner-respecting fallback +Mana Drain -Deadly Rollick is staged. Serialized commander first, case-insensitive alphabetical, terminal newline."
+  },
+  {
+   "id": "ALT_MANA_DRAIN_OVER_DEADLY_ROLLICK",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_ManaDrain_over_DeadlyRollick_20261023.txt",
+   "raw_sha256": "4ad0f2127cb9cc3b7c3071d749ce68584c8c6c3f5be17297fe61fcdd026f9b53",
+   "logical_hash": "lh1:b41f6f75e7cc7d6d2ad206f0849aa9fba0f1c0dd2839b10598155d9b07b75dc8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; owner-respecting fallback for the same add). Deadly Rollick was retained from the original list (not an owner addition) and is a free removal spell Kess can recast; EDHREC cEDH 106 of 387 (27.4%). Cutting it keeps every owner addition but removes one of two free creature answers; preferred only if the owner declines the Personal Tutor cut. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_SPELL_PIERCE_OVER_PERSONAL_TUTOR",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_SpellPierce_over_PersonalTutor_20261023.txt",
+   "raw_sha256": "cbb3c629f86fe023e6c8e8c6bff88c85a63eed57793648a88f2db3b3f73d0529",
+   "logical_hash": "lh1:b7d39468b7534b2f36675426f27ca28fa5a78142bf8eae4563f2ae703d9bc981",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Same slot as the candidate; Spell Pierce has lower adoption (EDHREC cEDH 122/387; cEDH events 35.6%) and is a soft counter, weaker than Mana Drain. Spellbook 6 -> 6."
+  },
+  {
+   "id": "TWO_MANA_DRAIN_SPELL_PIERCE",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_two_ManaDrain_SpellPierce_over_PersonalTutor_FellwarStone_20261023.txt",
+   "raw_sha256": "8d11c05de9f31fb288b453cfaa16e262919e1e3b25b28cc9bfbb5a0165804b57",
+   "logical_hash": "lh1:9ec253d89625bd16f0f508bfb09e98a6094798712543a4e94c0ea7e42a79ef8b",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (two-swap). Adds Spell Pierce over Fellwar Stone; Fellwar Stone is an owner addition and a two-mana rock that accelerates the four-mana commander (EDHREC cEDH 275/387 = 71%; not on the cEDH events staple list). Not clearly better. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_GRIM_TUTOR_OVER_PERSONAL_TUTOR",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_GrimTutor_over_PersonalTutor_20261023.txt",
+   "raw_sha256": "a59a70da65b9ef242fa3456274036b176de66f946c0cbea935a86fe499610168",
+   "logical_hash": "lh1:42c4ec244abb8d8d4bc9e5d22ebde70ab391ac93c56f2d3d524502f32c7a9d39",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Grim Tutor (EDHREC cEDH 88/387; cEDH events 42.5%) is a three-mana any-card tutor; the deck already runs 14 tutors and the slot is better spent on interaction. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_GRIM_TUTOR_OVER_DEMONIC_COUNSEL",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_GrimTutor_over_DemonicCounsel_20261023.txt",
+   "raw_sha256": "a6b766e529b488daa2796c018bf4082586d7056f1a616b52b534566be4fb55e3",
+   "logical_hash": "lh1:96224dbc38266f8b07ce711f4542a213a9825f6727115a9a8707d265270e2d82",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_OWNER_DECISION (one-swap, staged; owner-keep challenge). Demonic Counsel is an explicitly accepted owner addition with low adoption (EDHREC cEDH 25/387) and a weak early delirium proxy (turn 4 lower/upper 0.072/0.341); Grim Tutor is unconditional but costs three. Evidence does not clearly beat the owner keep; not counted. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_PRAETORS_GRASP_OVER_PONDER",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_PraetorsGrasp_over_Ponder_20261023.txt",
+   "raw_sha256": "6751458a7389559932af29ddddaeb2b9ac1fe205893f668b777e4bd29770a0e7",
+   "logical_hash": "lh1:a2e78f1448e0ba9aa7dec9e16b10f5a45fd7b597fdfab1dd8f7758c90bdad2d4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap; low confidence). Praetor's Grasp is common on cEDH events (59.8%) and can be recast by Kess, but costs three for a face-down exile tutor; Ponder is a one-mana cantrip that feeds Kess and blue pitch counts. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_CYCLONIC_RIFT_OVER_INTO_THE_FLOOD_MAW",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_CyclonicRift_over_IntoTheFloodMaw_20261023.txt",
+   "raw_sha256": "89858044105c9774bde0f6802af2cec39934377dadf83547f235699e47cab18e",
+   "logical_hash": "lh1:4eba027e693a657373a9deb1ec5ecf244b830f1e0c2736d8b9ed926677f80229",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Equal cEDH events adoption (52.9% each); Cyclonic Rift is a Game Changer and its overload costs seven; Into the Flood Maw is a one-mana instant bounce that protects combo turns. No clear gain. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_NOTION_THIEF_OVER_LEDGER_SHREDDER",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_NotionThief_over_LedgerShredder_20261023.txt",
+   "raw_sha256": "ec911c0cfe370764a161bad6ab32cf3dee001bbb8caf0c569a9abe1bcbe903a5",
+   "logical_hash": "lh1:8839db917bc07bb35f855418aa7e2572badddcf72a73b50117cf362c1a0e2090",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap; spine override test). Notion Thief is a Game Changer with modest adoption (EDHREC cEDH 110/387; 1 almost-included Spellbook line); Ledger Shredder is spine-named by the owner and connives with Kess recasts. Evidence does not clearly beat the owner spine card. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ONE_UNDERCITY_SEWERS_OVER_CITY_OF_TRAITORS",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_UndercitySewers_over_CityOfTraitors_20261023.txt",
+   "raw_sha256": "3b703a84ac2a5f9d58b53e02314536d90b06588e496a6e2073d78b1260304e69",
+   "logical_hash": "lh1:1e868a64096983156909f32cbe35519ddd7ed258ad830f3a41979b1c69190a5c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). Undercity Sewers adds U/B and fetchable types but enters tapped; City of Traitors is an owner-added burst land for turn-two Kess or Ad Nauseam lines. Spellbook 6 -> 6."
+  },
+  {
+   "id": "PASS_C_JESKAS_WILL_OVER_LEDGER_SHREDDER",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_PassC_plus_JeskasWill_minus_LedgerShredder_20261023.txt",
+   "raw_sha256": "8503712346a5f985f26124b15f3e3b27ce759a7690586f5bcd43afbe8ab1cb95",
+   "logical_hash": "lh1:09bdc2864de649e6d758947a6d907fc3169fbcbdf988c52f474b7b38f81565ec",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_OWNER_DECISION (Pass C requested test; re-add of an owner-cut card). Jeska's Will is popular (cEDH events 65.5%, EDHREC cEDH 243/387) and adds Spellbook 1368-1878-2706 (Underworld Breach + Wheel of Fortune + Jeska's Will), but the owner cut it narrowly in the 2026-10-14 rebuild; bounded test: net mana = opponent hand size - 3, blue count 26 -> 25 lowers P(another blue card | Force in hand) by about 1.4 points at turn 1. Re-adding owner-removed cards is not allowed in this pass. Spellbook 6 -> 7."
+  },
+  {
+   "id": "PASS_C_FRANTIC_SEARCH_OVER_PERSONAL_TUTOR",
+   "path": "data/grixis/m7/research_challengers/Kess__Dissident_Mage_PassC_plus_FranticSearch_minus_PersonalTutor_20261023.txt",
+   "raw_sha256": "99b8676dffc5c86d6a5089aa77ac6a19b5a4478bcc32e4ee522f692ee6b77386",
+   "logical_hash": "lh1:b3c78ce71141a3173c238a6a2b6c47844ea8b08ac182aa9a500ff56d962457cf",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_OWNER_DECISION (Pass C requested test; re-add of an owner-cut card). Frantic Search adds Spellbook 1368-2196-3766 (Underworld Breach + Frantic Search + Dragon's Rage Channeler) and is free with three untapped lands (bounded P(three lands in play) turns 3-6: 0.466/0.549/0.624/0.691), but the owner cut it in the 2026-10-14 rebuild. Not admissible without owner reversal. Spellbook 6 -> 7."
+  }
+ ]
+}

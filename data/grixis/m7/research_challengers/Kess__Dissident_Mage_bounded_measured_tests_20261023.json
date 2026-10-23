@@ -1,0 +1,268 @@
+{
+ "deck": "Kess__Dissident_Mage",
+ "method": "exact hypergeometric over the actual 99 where a closed form exists; seeded finite Monte Carlo (seed 26, N=200000) for joint conditions; no effect-aware game simulation",
+ "seen_convention": "n = cards seen on the play: 7 opening + (turn-1) draws; no mulligans",
+ "fetch_note": "Every fetchland in the 99 finds at least one dual that makes each relevant color pair (Mountain fetches find Volcanic Island/Steam Vents/Badlands/Blood Crypt; Island fetches find Underground Sea/Watery Grave/Volcanic Island/Steam Vents; Swamp fetches find Underground Sea/Watery Grave/Badlands/Blood Crypt), so fetches are counted as sources of every color.",
+ "lands_in_99": 27,
+ "colored_land_sources": {
+  "blue": 21,
+  "black": 18,
+  "red": 19
+ },
+ "colorless_only_lands": [
+  "Ancient Tomb",
+  "City of Traitors",
+  "Gemstone Caverns"
+ ],
+ "colored_rocks": {
+  "Arcane Signet": "any Kess color",
+  "Talisman of Creativity": "U/R",
+  "Talisman of Dominance": "U/B",
+  "Talisman of Indulgence": "B/R",
+  "Fellwar Stone": "opponent-land dependent",
+  "Chrome Mox": "imprint-dependent",
+  "Mox Diamond": "any (discard a land)",
+  "Mox Opal": "any (metalcraft)",
+  "Lotus Petal": "any (one shot)",
+  "Lion's Eye Diamond": "three of one color (discard hand)"
+ },
+ "swap_changes_mana_base": "No configuration in this file changes a land or a mana rock; colored source counts are identical for baseline, candidate and every staged alternative except where an alternative swaps a land (Undercity Sewers over City of Traitors adds one blue and one black source, enters tapped).",
+ "kess_colored_mana_by_turn": {
+  "assumptions": "Lands: the first t lands seen are played, fetches count as any color, Gemstone Caverns as colorless (luck counter ignored), Ancient Tomb/City of Traitors add one extra mana toward the four-mana Kess total only. Rocks: Arcane Signet and the three Talismans seen by the previous turn are assumed cast. Moxen, Lotus Petal, Lion's Eye Diamond, Mana Vault, Sol Ring, Grim Monolith, rituals and Simian Spirit Guide are ignored, so these are conservative lower bounds for the first Kess deployment and for holding up {U}{U}.",
+  "baseline_and_candidate_identical_mana": {
+   "turn 1 (n=7)": {
+    "UU": 0.0,
+    "UBR": 0.0,
+    "Kess_4_with_UBR": 0.0
+   },
+   "turn 2 (n=8)": {
+    "UU": 0.5028,
+    "UBR": 0.125,
+    "Kess_4_with_UBR": 0.0
+   },
+   "turn 3 (n=9)": {
+    "UU": 0.6688,
+    "UBR": 0.4293,
+    "Kess_4_with_UBR": 0.1215
+   },
+   "turn 4 (n=10)": {
+    "UU": 0.7442,
+    "UBR": 0.5563,
+    "Kess_4_with_UBR": 0.3577
+   },
+   "turn 5 (n=11)": {
+    "UU": 0.7973,
+    "UBR": 0.6366,
+    "Kess_4_with_UBR": 0.4488
+   },
+   "turn 6 (n=12)": {
+    "UU": 0.8395,
+    "UBR": 0.7049,
+    "Kess_4_with_UBR": 0.5328
+   }
+  }
+ },
+ "passC_jeskas_will_vs_ledger_shredder": {
+  "status": "OWNER DECISION ONLY: Jeska's Will was removed by the owner in the 2026-10-14 rebuild and named a narrow rejection in the adversarial pass; it is not counted as a swap here.",
+  "blue_cards_in_99": {
+   "baseline": 26,
+   "plus_Jeskas_Will_minus_Ledger_Shredder": 25,
+   "candidate_plus_Mana_Drain_minus_Personal_Tutor": 26
+  },
+  "P_other_blue_card_available_to_pitch_given_Force_in_hand": {
+   "baseline": {
+    "turn 1 (n=7)": 0.8383,
+    "turn 2 (n=8)": 0.8822,
+    "turn 3 (n=9)": 0.9146,
+    "turn 4 (n=10)": 0.9383,
+    "turn 5 (n=11)": 0.9556,
+    "turn 6 (n=12)": 0.9682
+   },
+   "plus_Will_minus_Shredder": {
+    "turn 1 (n=7)": 0.824,
+    "turn 2 (n=8)": 0.8699,
+    "turn 3 (n=9)": 0.9042,
+    "turn 4 (n=10)": 0.9298,
+    "turn 5 (n=11)": 0.9487,
+    "turn 6 (n=12)": 0.9627
+   },
+   "candidate": {
+    "turn 1 (n=7)": 0.8383,
+    "turn 2 (n=8)": 0.8822,
+    "turn 3 (n=9)": 0.9146,
+    "turn 4 (n=10)": 0.9383,
+    "turn 5 (n=11)": 0.9556,
+    "turn 6 (n=12)": 0.9682
+   }
+  },
+  "red_sources_for_Will": 19,
+  "will_mana_by_opponent_hand_size": {
+   "0": {
+    "red_mana_added": 0,
+    "net_after_paying_{2}{R}": -3,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "1": {
+    "red_mana_added": 1,
+    "net_after_paying_{2}{R}": -2,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "2": {
+    "red_mana_added": 2,
+    "net_after_paying_{2}{R}": -1,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "3": {
+    "red_mana_added": 3,
+    "net_after_paying_{2}{R}": 0,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "4": {
+    "red_mana_added": 4,
+    "net_after_paying_{2}{R}": 1,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "5": {
+    "red_mana_added": 5,
+    "net_after_paying_{2}{R}": 2,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "6": {
+    "red_mana_added": 6,
+    "net_after_paying_{2}{R}": 3,
+    "with_Kess_also_exile_top_three_playable": true
+   },
+   "7": {
+    "red_mana_added": 7,
+    "net_after_paying_{2}{R}": 4,
+    "with_Kess_also_exile_top_three_playable": true
+   }
+  },
+  "opponent_hand_size_note": "No hand-size logs exist in the repo; the table is exact for each size. Will is mana-negative below three cards and only +1 at four; it reaches +4 after an own Windfall/Wheel of Fortune (opponents at seven), and Kess can recast it from the graveyard once per turn for a second payment at the same hand size. Ledger Shredder connives whenever any player casts their second spell each turn and grows into a Force pitch and a blocker. Commander Spellbook flags Underworld Breach + Wheel of Fortune + Jeska's Will (1368-1878-2706) as a new line, but the deck already has Breach + Lion's Eye Diamond + Wheel (1368-2706-3518) and Breach + Lion's Eye Diamond/Lotus Petal + Brain Freeze.",
+  "first_kess_deployment": "Will's second mode needs the commander on the battlefield; neither card changes the four-mana Kess cast. Shredder is a two-mana creature that competes for the same early mana as Kess."
+ },
+ "passC_frantic_search_vs_personal_tutor": {
+  "status": "OWNER DECISION ONLY: Frantic Search was removed by the owner in the 2026-10-14 rebuild; it is not counted as a swap here. The Personal Tutor slot is instead used by the candidate's +Mana Drain.",
+  "rules": "Frantic Search ({2}{U}) untaps up to three lands only; mana paid from rocks, Moxen, rituals or Lotus Petal is not refunded. It is free only when three lands paid for it.",
+  "lands_in_play_by_turn": {
+   "turn 1 (n=7)": {
+    "P_three_lands_in_play": 0.0,
+    "mean_lands_in_play": 0.901
+   },
+   "turn 2 (n=8)": {
+    "P_three_lands_in_play": 0.0,
+    "mean_lands_in_play": 1.629
+   },
+   "turn 3 (n=9)": {
+    "P_three_lands_in_play": 0.4658,
+    "mean_lands_in_play": 2.181
+   },
+   "turn 4 (n=10)": {
+    "P_three_lands_in_play": 0.5485,
+    "mean_lands_in_play": 2.604
+   },
+   "turn 5 (n=11)": {
+    "P_three_lands_in_play": 0.6236,
+    "mean_lands_in_play": 2.949
+   },
+   "turn 6 (n=12)": {
+    "P_three_lands_in_play": 0.6912,
+    "mean_lands_in_play": 3.253
+   }
+  },
+  "mana_rocks_and_fast_mana_in_99": [
+   "Arcane Signet",
+   "Chrome Mox",
+   "Fellwar Stone",
+   "Grim Monolith",
+   "Lion's Eye Diamond",
+   "Lotus Petal",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mox Opal",
+   "Sol Ring",
+   "Talisman of Creativity",
+   "Talisman of Dominance",
+   "Talisman of Indulgence"
+  ],
+  "delirium": "Frantic discards three (any types), which would raise Demonic Counsel's delirium rate; see delirium proxy.",
+  "personal_tutor": "Personal Tutor ({U} sorcery) puts a sorcery on top of the library; it costs a draw step or a cantrip to convert, and is the lowest-adoption incumbent among Kess tournament lists (EDHREC cEDH 26/387; absent from the cedh.events 61-card staple list)."
+ },
+ "demonic_counsel_delirium_proxy": {
+  "assumptions": "Graveyard types: Land if a played land is a fetchland; Instant/Sorcery if one with mana value <=2 was seen (assumed cast); Artifact if Lotus Petal or Lion's Eye Diamond was seen (assumed sacrificed). Creature and Enchantment reach the graveyard by discard or self-mill only; the upper bound adds one free typed card when a discard/self-mill outlet (Faithless Looting, Gamble, Entomb, Dragon's Rage Channeler, Windfall, Wheel of Fortune, Intuition, Gifts Ungiven, Frantic Search) was seen. Kess exiles spells recast from the graveyard, which can remove a type; not modeled. Optimistic proxy.",
+  "baseline": {
+   "turn 2 (n=8)": {
+    "lower_no_discard": 0.0247,
+    "upper_one_typed_discard_if_outlet_seen": 0.1524
+   },
+   "turn 3 (n=9)": {
+    "lower_no_discard": 0.0389,
+    "upper_one_typed_discard_if_outlet_seen": 0.2164
+   },
+   "turn 4 (n=10)": {
+    "lower_no_discard": 0.0548,
+    "upper_one_typed_discard_if_outlet_seen": 0.279
+   },
+   "turn 5 (n=11)": {
+    "lower_no_discard": 0.0724,
+    "upper_one_typed_discard_if_outlet_seen": 0.3407
+   },
+   "turn 6 (n=12)": {
+    "lower_no_discard": 0.0922,
+    "upper_one_typed_discard_if_outlet_seen": 0.401
+   }
+  },
+  "candidate": {
+   "turn 2 (n=8)": {
+    "lower_no_discard": 0.0233,
+    "upper_one_typed_discard_if_outlet_seen": 0.1474
+   },
+   "turn 3 (n=9)": {
+    "lower_no_discard": 0.0367,
+    "upper_one_typed_discard_if_outlet_seen": 0.2095
+   },
+   "turn 4 (n=10)": {
+    "lower_no_discard": 0.0521,
+    "upper_one_typed_discard_if_outlet_seen": 0.2695
+   },
+   "turn 5 (n=11)": {
+    "lower_no_discard": 0.0691,
+    "upper_one_typed_discard_if_outlet_seen": 0.3276
+   },
+   "turn 6 (n=12)": {
+    "lower_no_discard": 0.0868,
+    "upper_one_typed_discard_if_outlet_seen": 0.3858
+   }
+  },
+  "plus_Frantic_minus_Personal": {
+   "turn 2 (n=8)": {
+    "lower_no_discard": 0.0228,
+    "upper_one_typed_discard_if_outlet_seen": 0.1535
+   },
+   "turn 3 (n=9)": {
+    "lower_no_discard": 0.0355,
+    "upper_one_typed_discard_if_outlet_seen": 0.2181
+   },
+   "turn 4 (n=10)": {
+    "lower_no_discard": 0.0505,
+    "upper_one_typed_discard_if_outlet_seen": 0.2804
+   },
+   "turn 5 (n=11)": {
+    "lower_no_discard": 0.0676,
+    "upper_one_typed_discard_if_outlet_seen": 0.3419
+   },
+   "turn 6 (n=12)": {
+    "lower_no_discard": 0.086,
+    "upper_one_typed_discard_if_outlet_seen": 0.4013
+   }
+  },
+  "without_delirium": "Demonic Counsel without delirium finds a Demon card; the 99 contains no Demon, so pre-delirium it is dead except as a Kess recast later. Owner accepted this limitation explicitly (2026-10-14 adversarial pass)."
+ },
+ "candidate_mana_drain": {
+  "rules": "Mana Drain ({U}{U}, instant) counters target spell; at the beginning of your next main phase add {C} equal to that spell's mana value. Cast in your precombat main phase (e.g. via Kess from the graveyard to protect a combo turn), the mana arrives in your postcombat main phase of the same turn. Recast via Kess is exiled after resolving.",
+  "blue_sources": 21,
+  "UU_holdup_by_turn": "see kess_colored_mana_by_turn.UU",
+  "cut_Personal_Tutor": "Personal Tutor is not named in the owner's spine or explicit keeps; it is the lowest-adoption incumbent (EDHREC cEDH 26/387) and duplicates a tutor suite of 13+ (Demonic Tutor, Vampiric Tutor, Imperial Seal, Mystical Tutor, Gamble, Demonic Counsel, Beseech the Mirror, Wishclaw Talisman, Intuition, Gifts Ungiven, Entomb, Spellseeker, Tainted Pact, Demonic Consultation).",
+  "adoption": "EDHREC Kess cEDH 234/387 (60.5%); stats.cedh.events Kess 51.7% of 87 decklists; repo EDHTop16 one-year aggregate 32 entries, 4 top cuts (conversion 0.125 vs commander 0.1207: neutral, small sample)."
+ }
+}
