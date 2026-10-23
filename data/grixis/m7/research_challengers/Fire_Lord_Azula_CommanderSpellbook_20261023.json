@@ -1,0 +1,573 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, retrieved 2026-10-23T10:59:48-0500)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "11-2196-7089",
+    "uses": [
+     "Fire Lord Azula",
+     "Narset's Reversal",
+     "Frantic Search"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Near-infinite storm count",
+     "Near-infinite mana lands you control can produce",
+     "Near-infinite magecraft triggers",
+     "Near-infinite untap of lands you control",
+     "Near-infinite blue mana"
+    ]
+   },
+   {
+    "id": "1368-2196-7089",
+    "uses": [
+     "Fire Lord Azula",
+     "Underworld Breach",
+     "Frantic Search"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mana lands you control can produce",
+     "Near-infinite storm count",
+     "Near-infinite untap of lands you control"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 98,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1792-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1792-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "11-2539",
+    "uses": [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    "produces": [
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "1792-2364-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "11-5026",
+    "uses": [
+     "Narset's Reversal",
+     "Reverberate"
+    ],
+    "produces": [
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "1458-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1369-6586",
+    "uses": [
+     "Vivi Ornitier",
+     "Quicksilver Elemental"
+    ],
+    "produces": [
+     "Infinite red mana",
+     "Infinite blue mana",
+     "Infinite colored mana that can only be spent to activate abilities"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "11-2196-7089",
+    "uses": [
+     "Fire Lord Azula",
+     "Narset's Reversal",
+     "Frantic Search"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Near-infinite storm count",
+     "Near-infinite mana lands you control can produce",
+     "Near-infinite magecraft triggers",
+     "Near-infinite untap of lands you control",
+     "Near-infinite blue mana"
+    ]
+   },
+   {
+    "id": "1368-2196-7089",
+    "uses": [
+     "Fire Lord Azula",
+     "Underworld Breach",
+     "Frantic Search"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mana lands you control can produce",
+     "Near-infinite storm count",
+     "Near-infinite untap of lands you control"
+    ]
+   },
+   {
+    "id": "11-4276-7089",
+    "uses": [
+     "Fire Lord Azula",
+     "Narset's Reversal",
+     "Turnabout"
+    ],
+    "produces": [
+     "Infinite untap of permanents you control",
+     "Infinite magecraft triggers",
+     "Infinite mana permanents you control can produce",
+     "Infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 105,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1792-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1792-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "11-2539",
+    "uses": [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    "produces": [
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "1792-2364-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "11-5026",
+    "uses": [
+     "Narset's Reversal",
+     "Reverberate"
+    ],
+    "produces": [
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "1458-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1458-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   }
+  ]
+ }
+}
