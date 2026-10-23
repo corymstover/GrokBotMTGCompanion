@@ -652,7 +652,7 @@
    "next_action": "ChatGPT adversarial review of PR #662, then owner decision",
    "next_step": "Await ChatGPT review (PR #662 ready, not draft, exact-head CI green)",
    "last_checkpoint_at": "2026-10-23T08:40:00-05:00",
-   "updated_at": "2026-10-23T09:17:00-05:00",
+   "updated_at": "2026-10-23T09:15:40-05:00",
    "pr_status": "READY_FOR_REVIEW_REVIEW_READY_NOT_OWNER_APPROVED",
    "pr_is_draft": false,
    "last_checkpoint_commit": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
@@ -660,7 +660,7 @@
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
    "head": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
    "candidate_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
-   "consistency_fix": "2026-10-23T09:17:00-05:00 (Deck 16 executor): status/pr_status/pr_is_draft/next_action were stale (RESEARCH_IN_PROGRESS/DRAFT_WIP) while stage said REVIEW_READY; verified live PR #662 open, not draft, head bc4b9d53, 3 exact-head CI runs success; set REVIEW_READY_AWAITING_CHATGPT consistently. No PR/branch content changed."
+   "consistency_fix": "2026-10-23T09:15:40-05:00 (Deck 16 executor): status/pr_status/pr_is_draft/next_action were stale (RESEARCH_IN_PROGRESS/DRAFT_WIP) while stage said REVIEW_READY; verified live PR #662 open, not draft, head bc4b9d53, 3 exact-head CI runs success; set REVIEW_READY_AWAITING_CHATGPT consistently. No PR/branch content changed."
   },
   {
    "tracker_number": 15,
@@ -752,20 +752,30 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck16-edea-possessed-sorceress-m7-20261023",
+   "working_branch": "grokbot-deck16-edea-possessed-sorceress-m7-20261023",
+   "last_pushed_commit": "f485623b11bdd66095fc2c960f625e102907b0d6",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/664",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance (canonical main 9b26aa28; raw fd560a9b == overrides == tracker == registry; 100 physical/94 rows, Island/Mountain/Swamp x3); shared infra copied from #663 3b67994a; draft PR #664 2026-10-23 09:15 CDT"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Research snapshots + Pass C bounded tests + candidate",
+   "next_step": "Research snapshots + Pass C bounded tests + candidate",
+   "stage": "BASELINE_COMMITTED",
+   "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/664",
+   "pr_status": "DRAFT_WIP",
+   "pr_is_draft": true,
+   "last_checkpoint_commit": "f485623b11bdd66095fc2c960f625e102907b0d6",
+   "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob e3651060, frozen by c0dd52a4; registry source_commit 1836b97 same bytes)",
+   "last_checkpoint_at": "2026-10-23T09:16:09-05:00",
+   "updated_at": "2026-10-23T09:16:09-05:00"
   },
   {
    "tracker_number": 17,
