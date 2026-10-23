@@ -1,0 +1,205 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "slug": "belakor-the-dark-master",
+ "baseline_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "result_hash": "lh1:41e4055c616d8e51c7c6019264737fa2300c5bf2609f4b3d9aad226cb0067ccf",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Be_lakor__the_Dark_Master_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/belakor-the-dark-master.json.gz",
+   "sha256": "sha256:43c32d401fe64eac729ce602098772b95101940458c0e8ed1246b35eb03de77b"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz",
+   "sha256": "sha256:fff1b43a0633873aca32c41f75ba45a7434fd58fbd367cde7a4dbfcb3f45900e"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/belakor-the-dark-master.json",
+   "sha256": "sha256:8c938efd77177594891cd0d3edf865def2ad82b583002cd7d3b7be95e39f38d7"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/belakor-the-dark-master.json",
+   "sha256": "sha256:449adf62c5d13a7baeada35312db0c66e83c10ffdb23ab81086e2d4b19d8d880"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/belakor-the-dark-master.json",
+   "sha256": "sha256:24009ac8ebd2ceba51261203a05362a304531a4c500290ce124bbdda3e69218d"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Be_lakor__the_Dark_Master.json",
+   "sha256": "sha256:151e0cfd804b88d4d7c7509dedab0a3869603fba6dff89f58e00273ebff5939d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:df070b91566e2debd2346c98d9c5b5ceb566639834a48a18031f3bf4f4784fc2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_Scryfall_live_20261023.json",
+   "sha256": "sha256:dc18754d1fddf45b906bcc348423f2b2119a4621ac20752e31307a589023f77d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:a29d8e64d668b5d5f17fcd82539f0fcc51a473ca7b7727ed8886f11670fea75a"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:c5688abca806e1023572f88bb7d014773d75b4a6573a0eb37372e0da12319538"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Be_lakor_the_Dark_Master_approved_source_2026-10-13.txt",
+   "sha256": "sha256:3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Be_lakor__the_Dark_Master.txt",
+   "sha256": "sha256:62a96b4f39584fa38947843bea352de923b29d7b266b57fce5918802a79b57bf"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_five_alt_HeraldsHorn_over_HeartlessSummoning_20261023.txt",
+   "sha256": "sha256:1b71b17b0da06bc0248c34721eee880a3d9c4e346f4ae53cb5b3ff4b11a974d8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_SecludedCourtyard_over_ExoticOrchard_20261023.txt",
+   "sha256": "sha256:5f4a8ca283b67081a99e919f7e48512baaee408817bb8010955d17ad097f7fab"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_six_LordXander_over_LordOfChange_20261023.txt",
+   "sha256": "sha256:2df949c53f333d24de43df4c5bb5d05bdfb9a4ecd64899ac95dc588522568fe0"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Be_lakor__the_Dark_Master_seven_Courtyard_LordXander_20261023.txt",
+   "sha256": "sha256:1eabfcf9c23161209ed3856f5665acc65e3e4d656a041b3cd859929be748b2a2"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_M7_Scryfall_20261023.json",
+   "sha256": "sha256:f7f06912319ac293e5ce5fd2c0b83f4f4952004a0d992377df0953e562244097"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Be_lakor__the_Dark_Master_M7_20261023.md",
+   "sha256": "sha256:1a63c73bd689ae51d8b73be311fdaa95df733b25e0d9cde0a972b9d830e95a2d"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/belakor-the-dark-master-m7.json",
+   "sha256": "sha256:f9cb42b46b2c3c34c9eae051e3fbaabb80f863b95054f8ce480541940452760f"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Be_lakor__the_Dark_Master_M6_I_local_best_20261023.md",
+   "sha256": "sha256:b99f9e42d887dda87ab3d6c5429eb924d36816a48a6c2a9c7d8ee95f9aa5cea2"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Be_lakor__the_Dark_Master_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:f1a112c548a3eabb414cbe5af4ef885c9cba31ee3f883c1e37b8bef8786209cb"
+  },
+  {
+   "path": ".github/workflows/m7-belakor-the-dark-master.yml",
+   "sha256": "sha256:22cb806b3c2e716ff34377e42e5e58a70366b47fa353608031c073f35764e787"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Be_lakor__the_Dark_Master_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:2f0ffcfe2c813fb29ebd44b557ebd4f20035f39a3b399f2f515511906d7afdfc"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/belakor-the-dark-master.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/belakor-the-dark-master.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:6b654339773e7a290eb5630a0f3d8fe83520325a4ffed27c112636c8a766a823",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:e80cbc433e9985fbd811444e229c5cad4a2cf9450713a0f73594de7cb5f63479"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_belakor_the_dark_master_m7_mechanics.py",
+    "source_sha256": "sha256:3f414aa285b0d55962fb5a3fe602448777a5d954d04299599761604233d8b9a9",
+    "seed": 0,
+    "harness_version": "belakor_m7_finite_rules_11_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eleven finite seed-0 Oracle-anchored cases: Be'lakor Prince/Lord Oracle text; Lord damage equals the entering Demon's power (Devourer 0 -> Desecration/Belzenlok/Reaper 6; Heartless -1); Demon count 25 and power sum 129->135; Kindred Dominance one-sided vs Blasphemous Act (only Ancient Cellarspawn of ours dies); Reaper morbid and Herald's Horn text; cut rationale text; kicked Rite finite 25 triggers (50 with Roaming Throne); Spellbook single finite combo unchanged; exact swaps with core preserved; quantity-counted lands 36, rocks 7->6; legality, identity, singleton, Game Changers. Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_belakor_the_dark_master_candidate.py",
+    "source_sha256": "sha256:a8aa05ba6a91bdd0524cb8ab47270f6bb232c8434aac7746c73799f500bb23ae",
+    "seed": 0,
+    "harness_version": "belakor_m7_gate_candidate_4_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps, registry hashes untouched, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #654 head cb670d59 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_belakor_the_dark_master_m7_ij.py",
+    "source_sha256": "sha256:d24cd4fbc64db25d541b2093d6a74c0b5068c307de875cf11eb106472604cc06",
+    "seed": 0,
+    "harness_version": "belakor_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes, runs the J checker, pins the checker sha, and exercises fail-closed Pass C NOT PRESENT wording and legacy seal-alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Be_lakor__the_Dark_Master_M6_J_red_team_20261023.md",
+  "sha256": "sha256:8355f999cdf93486a71806a1c02252539e431e34e9fe23b43afeff6070a26aa7"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Be_lakor__the_Dark_Master_M6_J_mana_20261023.md",
+  "sha256": "sha256:5fa1b4cca15af44baa7f7a1205258518629444bf94d120227280b2407ea3af60"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

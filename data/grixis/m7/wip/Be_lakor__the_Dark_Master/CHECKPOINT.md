@@ -1,7 +1,8 @@
 # WIP CHECKPOINT — Deck #7 Be_lakor__the_Dark_Master (tracker index 6) — INCOMPLETE, NOT OWNER APPROVED
-Status: RESEARCH_IN_PROGRESS
+Status: ARTIFACTS_COMPLETE_VALIDATING
 Completed: branch created from origin/chatgpt-cycle76-m6-refinement b6b40ac8; shared gate infra copied byte-identically from PR #654 head cb670d59 (bundle_check cd0be27a…, decision_gate, schema, gate test); baseline vendored (raw 3abc9516…155e == overrides approved_list_sha256; 94 rows = 100 physical).
 Baseline notes: tracker deck_id `Be_lakor__the_Dark_Master` (double underscore) vs overrides key `Be_lakor_the_Dark_Master` (single) — disclosed, IDs preserved exactly. Approved file is not alphabetical (Spark Double/Dream Devourer/Doom Whisperer written in the slots of the cards they replaced).
 Checker stabilization DONE (scripts/grixis_m6_bundle_check.py sha256 c5688abca806e1023572f88bb7d014773d75b4a6573a0eb37372e0da12319538): enumerated seal aliases + sealed-Stage-A-JSON fallback (2 minimal schemas) + per-deck verbatim non-independence phrases + evaluator spellings; corpus: 60/62 pass; #30 Lord_Xander and #31 Lynde still FAIL (seal-recorded stage_a.md SHA-256 != committed bytes, git_blob_sha matches) — needs owner decision. Decks #1–#6 unchanged. tests/test_m6_pass_c_corpus_stabilization.py.
 Required post-merge refresh: Ashad (#653) bundle pin 4fb8e8b1… and Ashnod (#654) pin cd0be27a… → c5688abc…; #651/#652 bundles do not pin the checker.
-Next: EDHREC/Scryfall discovery; 99-slot audit.
+Research + artifacts DONE: 5 swaps (+Desecration Demon/-Dream Devourer, +Kindred Dominance/-Blasphemous Act, +Demonlord Belzenlok/-Rakdos Patron of Chaos, +Reaper from the Abyss/-Bloodthirster, +Herald's Horn/-Fellwar Stone); candidate raw 62a96b4f…, lh1:41e4055c…; gate owner_presentable; J bundle valid; 4 focused test files pass.
+Next: full suite vs base + simulated stacked merge; finalize PR.
