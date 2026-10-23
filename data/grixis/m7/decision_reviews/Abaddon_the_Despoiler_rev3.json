@@ -474,7 +474,7 @@
     "source_evidence_paths": [
       "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
       "tests/test_m6_abaddon_stage20_candidate_ij.py",
-      "tests/test_m6_abaddon_stage15_changed_p0.py",
+      "tests/test_m6_abaddon_stage15_changed_candidate_p0.py",
       "data/grixis/m6/ij/adjudications/Abaddon_protected_six_stage20_20261023.json",
       "data/grixis/m6/ij/candidate_certificates/Abaddon_protected_six_stage20_20261023.json",
       "data/grixis/m6/bundles/candidate_exact/Abaddon_protected_six_stage20_20261023.json",
