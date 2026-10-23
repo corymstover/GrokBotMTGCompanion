@@ -1,0 +1,1028 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "canonical_baseline_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+ "canonical_baseline_logical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "baseline_provenance_exception": {
+  "historical_registry_digest": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+  "physical_raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+  "source_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "source_path": "refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
+  "vendored_source_copy": "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt",
+  "discrepancy_explanation": "The 2026-10-13 approval recorded approved_list_sha256 e66e3a59… in state/current_deck_overrides.json, but the live canonical approval-candidate file (canonical main 90e00446) hashes to 056f0369… (1930 bytes). No-trailing-newline, CRLF and sorted-line normalizations also fail to produce e66e…. The Oct 14 retrospective and the registry already record both values separately (recorded_matches_raw false). The card multiset of the physical file, the Archidekt export and the encyclopedia Markdown block are identical (Markdown differs only in the MDFC full name). This exception binds both hashes; it does not claim they match and does not modify or re-approve the canonical list.",
+  "evidence_refs": [
+   "canonical main 90e00446: state/current_deck_overrides.json#Admiral_Brass__Unsinkable (approved_list_sha256 e66e…)",
+   "canonical Retrospective_1_to_8_Machine_Gate_Summary_2026-10-14.json records the physical and historical hashes separately",
+   "data/grixis/registry.json decks.Admiral_Brass__Unsinkable.source (raw_sha256 056f…, recorded_matches_raw false)"
+  ]
+ },
+ "commander_identity": {
+  "mechanical_plan": "Cast Admiral Brass, Unsinkable ({2}{U}{B}{R}); its ETB mills four. Fill the graveyard with Pirates (Entomb, Buried Alive, Ripples of Undeath's precombat mill, Mary Read and Anne Bonny, Malcolm, channel/discard), then every beginning of combat on our turn return a Pirate creature card as a hasty base-4/4 with a finality counter. Prefer Pirates whose ETB/attack triggers do work regardless of base stats (Hostage Taker, Amphin Mutineer, Coercive Recruiter, Kitesail Larcenist, Jhoira, Zara, Port Razer). Roaming Throne naming Pirate doubles the Brass trigger and the returned Pirates' triggers; Power Conduit removes finality counters at instant speed and Siren's Ruse resets a returned Pirate as a new object (CR 400.7), so Pirates can die and be reused; Port Razer and Timestream Navigator add combats/turns, each with another Brass trigger.",
+  "protected_core": [
+   "Admiral Brass, Unsinkable",
+   "Roaming Throne",
+   "Power Conduit",
+   "Port Razer",
+   "Hostage Taker",
+   "Amphin Mutineer",
+   "Coercive Recruiter",
+   "Zara, Renegade Recruiter",
+   "Skeleton Crew",
+   "Entomb",
+   "Buried Alive",
+   "Living Death",
+   "Cavern of Souls",
+   "Kindred Discovery",
+   "Mary Read and Anne Bonny",
+   "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift"
+  ],
+  "natural_ceiling": "Power Bracket 4 — Optimized: six Game Changers (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Vampiric Tutor), fast reanimation and tutors, but no deterministic two-card infinite identified; not cEDH.",
+  "anti_homogenization": "Keep the list a Pirate-tribal graveyard-recursion deck: every add is a Pirate creature with ETB/attack value Brass can recur; reject generic reanimator payloads (Maskwood Nexus, non-Pirate fatties) and generic goodstuff (Rhystic-style taxes, Herald's Horn)."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "Reviewed all 99 by quantity: baseline 34 physical lands in 31 rows (2x Island, 2x Mountain, 2x Swamp), candidate 33 (Crumbling Necropolis cut). Brass's Tunnel-Grinder is a front-face artifact (MV 3), not an opening-hand land drop, so it is not counted as a land. 8 mana rocks (Sol Ring, Arcane Signet, 3 Signets, 3 Talismans); 30 Pirate/creature slots including Wonder; 8 graveyard/reanimation (Animate Dead, Buried Alive, Entomb, Faithless Looting -> Ripples of Undeath in candidate, Living Death, Patriarch's Bidding, Reanimate, Victimize); tutors/draw (Demonic, Vampiric, Jeska's Will, Kindred Discovery, Black Market Connections); 10 interaction/protection pieces; engines Power Conduit, Roaming Throne, Shared Animosity. Overlap: Treasure ramp is over-supplied by low-impact two-drops (Scallywag) while repeatable removal-on-ETB and extra-turn effects were under-supplied.",
+  "mana_base_and_curve": "CORRECTED REV2 (ChatGPT review item 1; quantity-counted from the rev2 Oracle snapshot). Baseline: 34 lands, 8 rocks = 42 mana permanents, plus Tunnel-Grinder and Treasure makers (Corsair Captain, Lannery Storm, Malcolm Navigator, Black Market Connections, Edward Kenway and others). Unrestricted colored land sources U21/B19/R18, plus Cavern of Souls / Exotic Orchard / Secluded Courtyard (conditional) for U24/B22/R21. Each color also has 5 rock sources. The rev1 memo's '31 lands' and '26/24/24' figures came from counting rows, not quantities, and are withdrawn. Candidate: 33 lands (Crumbling Necropolis cut), 8 rocks = 41; land sources U20/B18/R17 (23/21/20 with the conditional lands); nonland avg MV 2.954 -> 3.000; colored pips U23/B25/R22 -> U27/B25/R20. Hypergeometric (99-card library, no mulligans): P(2-5 lands in opening 7) 0.758 -> 0.741; P(>=4 lands in top 10) 0.470 -> 0.441; P(>=4 of lands+rocks in top 10) 0.687 -> 0.662. Cutting the tapped tri-land is a deliberate ~3-point land-drop trade for a spell slot, not a free change; the full-100 alternative that keeps 34 lands and cuts Talisman of Indulgence instead was built and rejected because the rock is the turn-4 Brass accelerant.",
+  "interaction_resilience": "Stack: Counterspell, Mana Drain, Fierce Guardianship, Deflecting Swat, Siren Stormtamer; removal: Chaos Warp, Cyclonic Rift, Deadly Rollick, Feed the Swarm, Hostage Taker, Amphin Mutineer, Merchant Raiders channel, Otawara, Toxic Deluge; adds Kitesail Larcenist (one permanent per opponent, repeatable via Brass), Warkite Marauder (per-attack neutralization) and Siren's Ruse (instant-speed save + Pirate draw). Graveyard hate (Bojuka Bog, Rest in Peace) is the main weakness; the list keeps castable Pirates, Kindred Discovery and Breeches/Ramirez card flow as a non-graveyard plan.",
+  "weakest_slots": [
+   {
+    "card": "Enterprising Scallywag",
+    "weakness": "Two-mana conditional Treasure only on turns we descended; as a Brass return it is a vanilla 4/4 haste with a weak end-step clause.",
+    "alternative_named": "Kitesail Larcenist",
+    "reasoning": "Lowest-impact Pirate: no ETB, no attack trigger, no protection; ramp role is duplicated by Lannery, Corsair Captain, Gemcutter, Malcolm Navigator, Ramirez and Black Market Connections."
+   },
+   {
+    "card": "Francisco, Fowl Marauder",
+    "weakness": "Can't block; explore only on Pirate damage; a 2-drop evasive body with marginal value as a Brass target.",
+    "alternative_named": "Timestream Navigator",
+    "reasoning": "Explore is small card selection; the slot is better spent on a two-drop that converts Brass's haste into an extra turn (another Brass trigger)."
+   },
+   {
+    "card": "Fathom Fleet Captain",
+    "weakness": "Attack trigger costs {2} for a 2/2 token and needs another nontoken Pirate; mana-hungry and slow in multiplayer.",
+    "alternative_named": "Warkite Marauder",
+    "reasoning": "Same mana slot; Warkite's free attack trigger neutralizes the best blocker every combat and doubles under Roaming Throne."
+   },
+   {
+    "card": "Changeling Outcast",
+    "weakness": "1-drop that cannot block; its only text is evasion.",
+    "alternative_named": "Ragavan, Nimble Pilferer",
+    "reasoning": "REV2 (after ChatGPT review): RETAINED. As a Brass return it is a hasty 4/4 that can't be blocked, so it reliably connects. That counts toward Admiral Beckett Brass's three-Pirate theft condition and triggers Breeches, Brazen Plunderer, Ramirez and Shared Animosity. Ragavan's Treasure and card need combat damage that blockers can deny (RETAIN_ALTERNATIVE)."
+   },
+   {
+    "card": "Pitiless Plunderer",
+    "weakness": "No Treasure for Brass-returned Pirates while their finality counter is on, since they are exiled instead of dying. It still triggers on other deaths: hard-cast creatures, tokens (Amphin encore copies), Victimize/Bombardiers sacrifices of non-finality creatures, stolen creatures we control, Pirates whose counter Power Conduit removed (or blinked by Siren's Ruse), and our side of Toxic Deluge / Living Death.",
+    "alternative_named": "Jhoira, Weatherlight Corsair",
+    "reasoning": "REV2 recheck: Plunderer is not globally switched off. Its payable cases are real but mostly incidental (roughly 0-2 Treasures in a typical turn cycle; bursts only on our own sweepers). Jhoira returned by Brass is a hasty 4/4 that steals two historic permanents the turn it arrives (ETB + attack; four with Roaming Throne), for life equal to their MV. Jhoira's ceiling is higher and the swap stays, at MODERATE confidence."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Always-tapped tri-land; the 34th physical land (34 land cards in 31 rows: Island/Mountain/Swamp x2) alongside 8 rocks and many Treasure makers.",
+    "alternative_named": "Siren's Ruse",
+    "reasoning": "REV2: CUT for Siren's Ruse. Corrected count: 34 lands + 8 rocks = 42 mana permanents plus Brass's Tunnel-Grinder (an artifact on the front face, not a playable land). 33 lands cost about 3 points of land-drop probability (P(>=4 lands in 10 cards) 0.470 -> 0.441). The tapped land is the least valuable one. Nesting Grounds (colorless, sorcery speed) remains a non-selected alternative."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Third two-mana BR rock in an eight-rock suite; low ceiling after turn three.",
+    "alternative_named": "Ashnod's Altar",
+    "reasoning": "A free sacrifice outlet only pays off with stolen creatures or counter-removed Pirates; the rock is the more reliable commander-on-curve card (REJECT)."
+   },
+   {
+    "card": "Corsair Captain",
+    "weakness": "Three-mana lord + one Treasure; as a Brass return its anthem does not include itself.",
+    "alternative_named": "Dire Fleet Ravager",
+    "reasoning": "Ravager's symmetric one-third life loss also hits this life-paying deck (shocks, Talismans, BMC, Vampiric, Reanimate, Confluence); lord + mana is steadier (REJECT)."
+   },
+   {
+    "card": "Edward Kenway",
+    "weakness": "Five-mana; Vehicle clause nearly blank (only The Indomitable); value is end-step Treasures from tapped Pirates.",
+    "alternative_named": "Captivating Crew",
+    "reasoning": "Crew's threaten activation costs {3}{R} per use and lacks a free sac outlet; Kenway's Treasure output after an alpha strike is larger (REJECT)."
+   },
+   {
+    "card": "Merchant Raiders",
+    "weakness": "Four-mana; value depends on a stream of Pirate entries.",
+    "alternative_named": "Pirated Copy",
+    "reasoning": "Raiders locks a blocker on every Brass return (each return is a Pirate entering) and channels as removal; Copy is a clone whose value depends on the board (REJECT)."
+   },
+   {
+    "card": "Patriarch's Bidding",
+    "weakness": "Symmetric: every opponent returns their own chosen type.",
+    "alternative_named": "Back in Town",
+    "reasoning": "Back in Town is one-sided but X-costed and returns only outlaws for {X}{2}{B}; Bidding returns all Pirates for five and also hits changeling tokens; retained."
+   },
+   {
+    "card": "Faithless Looting",
+    "weakness": "Card disadvantage; its value is only discarding Pirates for Brass.",
+    "alternative_named": "Ripples of Undeath",
+    "reasoning": "REV2: CUT for Ripples of Undeath. It is a one-shot -2 cards, while Ripples mills 3 every turn in the first main phase, before Brass's beginning-of-combat trigger chooses a target, and can buy one milled card for {1} and 3 life. Big Score and Windfall were rejected earlier against this slot."
+   },
+   {
+    "card": "Power Conduit",
+    "weakness": "Two-mana artifact that does nothing alone.",
+    "alternative_named": "Soul Diviner",
+    "reasoning": "Conduit is instant-speed and not a creature (no summoning-sickness delay), so the finality counter can be removed the same combat the Pirate returns; Diviner needs a full turn cycle and dies to sweepers; retained."
+   },
+   {
+    "card": "Broadside Bombardiers",
+    "weakness": "Boast sacrifice only once per turn and only after attacking.",
+    "alternative_named": "Spawning Pit",
+    "reasoning": "Bombardiers is a sac outlet that converts the sacrificed permanent into 2+MV damage; Pit is a free outlet that does nothing alone; retained."
+   }
+  ],
+  "current_baseline_strength": "The approved Oct 13 list is coherent and already strong: it fixed the older Proposed_Final by adding Mary Read and Anne Bonny, Brass's Tunnel-Grinder and Power Conduit and dropping Windfall/Ghost of Ramirez. Its weakness is a handful of low-ceiling two-drop Pirates and one death-trigger card that the finality counter disables.",
+  "candidate_pool_scope": "Historical pool (Soul Diviner, Grim Captain's Locker, Back in Town, Arm-Mounted Anchor, Port of Karfell, Nephalia Drownyard, Warkite Marauder, Kitesail Larcenist, Dire Fleet Ravager, Nesting Grounds); EDHREC all-decks and optimized commander pages (2026-10-23); a full frozen-cache Oracle scan of 140 commander-legal UBR Pirate creatures not in the list; plus a targeted scan for free sacrifice outlets, counter movers, extra combats and all-types enablers.",
+  "off_ranked_search_conclusion": "OFF-RANKING search found Jhoira, Weatherlight Corsair (EDHREC New Cards only, 6/21 optimized decks) — selected — and confirmed Ashnod's Altar, Spawning Pit, Maskwood Nexus and Karlach as plausible but rejected. Nephalia Drownyard was not material (colorless slow mill competes with a colored land slot)."
+ },
+ "candidate_sources": [
+  "Owner-relayed ChatGPT handoff (partially recovered) historical candidate list and canonical ABU candidate-decisions CSV",
+  "EDHREC commander page JSON, all decks and optimized filter, retrieved 2026-10-23: data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+  "OFF-RANKING frozen-cache Oracle scan (snap-20261016) of all 140 commander-legal UBR Pirate creatures absent from the list plus sacrifice-outlet, counter-mover, extra-combat and all-types searches",
+  "Live Scryfall /cards/collection final Oracle and legality check of 109 names, 2026-10-23: data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+  "Second-pass (ChatGPT review) single batched live Scryfall /cards/collection call, 2026-10-23, kept out of the frozen dev snapshot: data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+ ],
+ "material_candidates": [
+  {
+   "card": "Kitesail Larcenist",
+   "source": "EDHREC all-decks 49% inclusion (3828/7845) and optimized 55% (96/173); historical blueprint candidate",
+   "role": "Repeatable multiplayer removal: ETB turns up to one artifact or creature per player into a Treasure; 3-mana flying ward-1 Pirate",
+   "named_cuts": [
+    "Enterprising Scallywag"
+   ],
+   "incumbent_opportunity_cost": "Loses Scallywag's conditional Treasure; ramp is redundant across nine other Treasure/rock sources.",
+   "commander_synergy": "Prime Brass target: each return is a hasty 4/4 flier that neutralizes one permanent per opponent; Roaming Throne (Pirate) doubles the ETB, allowing a second choice per player.",
+   "adversarial_downside": "Effect ends if Larcenist leaves; opponents gain a Treasure they can crack for one mana; Treasure-ified permanents keep supertypes (ruling).",
+   "judgment": "SELECT_ADD",
+   "reason": "Highest-impact interaction gain available at three mana; converts the commander's engine into recurring board control for every opponent.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Timestream Navigator",
+   "source": "EDHREC optimized 74% inclusion (128/173) — highest-inclusion card absent from baseline",
+   "role": "Extra-turn engine: with city's blessing (10 permanents), {2}{U}{U}, {T}, bottom: take an extra turn",
+   "named_cuts": [
+    "Francisco, Fowl Marauder"
+   ],
+   "incumbent_opportunity_cost": "Loses Francisco's explore; small card-selection loss.",
+   "commander_synergy": "Brass grants haste, so a Navigator returned from the graveyard can activate the same turn; the extra turn produces another beginning-of-combat Brass trigger and attack triggers. Leaves to library (not graveyard), so finality is irrelevant.",
+   "adversarial_downside": "Needs ten permanents (Treasures and lands count) and four open mana including UU; one-shot per copy unless redrawn.",
+   "judgment": "SELECT_ADD",
+   "reason": "A two-drop that becomes a game-winning extra combat/turn late; directly multiplies the commander's per-turn trigger.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "rulings: Timestream Navigator ascend 2018-01-19"
+   ]
+  },
+  {
+   "card": "Warkite Marauder",
+   "source": "EDHREC all-decks 72% (5626/7845) / optimized 47%; historical candidate",
+   "role": "Combat enabler: attack trigger makes a defending creature lose all abilities and become 0/1",
+   "named_cuts": [
+    "Fathom Fleet Captain"
+   ],
+   "incumbent_opportunity_cost": "Loses Fathom Fleet's {2}-per-attack 2/2 menace tokens.",
+   "commander_synergy": "Every attack neutralizes the best blocker or a deathtouch/first-strike creature; as a Brass return it is a 4/4 flying haste attacker; doubled by Roaming Throne.",
+   "adversarial_downside": "Small body when hard-cast; only affects one creature per attack (two with Throne).",
+   "judgment": "SELECT_ADD",
+   "reason": "Cheap, free-every-turn evasion/disruption that protects the attack plan more than a mana-hungry token maker.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Ragavan, Nimble Pilferer",
+   "source": "EDHREC optimized 62% (108/173); all-decks 28%",
+   "role": "One-drop Monkey Pirate (Scryfall type line verified): combat damage to a player gives a Treasure and exiles that player's top card to cast this turn; dash {1}{R}",
+   "named_cuts": [
+    "Changeling Outcast"
+   ],
+   "incumbent_opportunity_cost": "Loses Outcast's guaranteed connection: a Brass-returned Outcast is a hasty 4/4 that can't be blocked (Oracle: 'can't block and can't be blocked'; changeling makes it a Pirate card in the graveyard).",
+   "commander_synergy": "Brass returns Ragavan as a 4/4 haste Pirate, so dash is irrelevant there. Its value still needs combat damage to land.",
+   "adversarial_downside": "Blockable 2/1 when hard-cast, and 4-player boards have blockers by turn 3. In blocker-heavy pods Outcast connects every turn and feeds Beckett's three-Pirate threshold, Breeches, Ramirez and Shared Animosity.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "REV2 reversal after ChatGPT review: Ragavan does not clearly beat Outcast once Brass is established or opponents have blockers. Against any other incumbent (e.g. Talisman of Indulgence, Corsair Captain) it also loses: reliable mana and a lord beat conditional Treasure. The seven-swap file over Outcast is recorded and not selected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Jhoira, Weatherlight Corsair",
+   "source": "OFF-RANKING: EDHREC 'New Cards' only (179/771 all; 6/21 optimized) and frozen-cache Pirate Oracle search",
+   "role": "Value engine: on ETB and attack, put an opponent's next historic permanent onto the battlefield under your control (lose life = MV)",
+   "named_cuts": [
+    "Pitiless Plunderer"
+   ],
+   "incumbent_opportunity_cost": "Loses Plunderer's Treasures from non-finality creature deaths (Victimize, Bombardiers, encore tokens).",
+   "commander_synergy": "Brass returns Jhoira as a hasty 4/4: ETB + attack = two free permanents the same turn; Roaming Throne doubles both. A premium Entomb/Buried Alive target that is a Pirate.",
+   "adversarial_downside": "Six mana if hard-cast; life loss equals the stolen permanent's mana value (could be large); depends on opponents' decks containing historic permanents.",
+   "judgment": "SELECT_ADD",
+   "reason": "Exactly the kind of card the commander exists to cheat; outclasses a death-trigger engine that the finality counter switches off.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Siren's Ruse",
+   "source": "Second pass (ChatGPT review item 2); Ixalan instant; live Scryfall second-pass collection",
+   "role": "{1}{U} instant: exile target creature you control and return it; draw a card if it was a Pirate",
+   "named_cuts": [
+    "Crumbling Necropolis"
+   ],
+   "incumbent_opportunity_cost": "Loses the 34th land (a tapped tri-land); corrected land count 34 -> 33 with 8 rocks unchanged.",
+   "commander_synergy": "Resets a Brass-returned Pirate as a new object without its finality counter (CR 400.7), so it can later die and be recurred again. Retriggers ETBs (Kitesail Larcenist, Amphin Mutineer, Hostage Taker, Jhoira, Coercive Recruiter; Brass itself mills four again) and Kindred Discovery's enter trigger, and dodges targeted removal, drawing a card when the target is a Pirate.",
+   "adversarial_downside": "It loses Brass's 4/4 base and haste, so the creature is summoning sick and printed-size after the blink; best cast after combat or in response to removal. Blinking a stolen creature returns it to its owner. One-shot, unlike Power Conduit.",
+   "judgment": "SELECT_ADD",
+   "reason": "Cheap instant that is protection, value and finality reset in one card, and it directly multiplies the ETB Pirates Brass recurs.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+   ]
+  },
+  {
+   "card": "Ripples of Undeath",
+   "source": "Second pass (ChatGPT review item 2); EDHREC Admiral Brass High Lift (per review); live Scryfall second-pass collection",
+   "role": "{1}{B} enchantment: at the beginning of your first main phase, mill three; then you may pay {1} and 3 life to put one of those cards into your hand",
+   "named_cuts": [
+    "Faithless Looting"
+   ],
+   "incumbent_opportunity_cost": "Loses Looting's turn-1 discard-two of Pirates from hand.",
+   "commander_synergy": "The first main phase happens before beginning of combat, so every turn three fresh cards can supply Brass's return target that same combat. The optional {1}+3 life recovers a land or key spell from the milled cards.",
+   "adversarial_downside": "Life cost when used. Graveyard hate also blanks it. Slow on turn 2 versus a turn-1 Looting.",
+   "judgment": "SELECT_ADD",
+   "reason": "A repeatable, card-neutral graveyard engine timed for the commander's trigger beats a one-shot card-disadvantage looter.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+   ]
+  },
+  {
+   "card": "Prismari Command",
+   "source": "Second pass (ChatGPT review item 2); live Scryfall second-pass collection",
+   "role": "{1}{U}{R} instant, choose two: 2 damage to any target / target player draws two then discards two / target player creates a Treasure / destroy target artifact",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Would lose Feed the Swarm's sorcery removal of any creature or enchantment (the list's main black enchantment answer besides Chaos Warp/Rift/Otawara).",
+   "commander_synergy": "Instant loot-two can bin Pirates before combat; Treasure ramps; artifact removal handles rocks/equipment.",
+   "adversarial_downside": "Its removal only covers artifacts or 2-damage creatures; it can't touch enchantments or large creatures. Three mana in a deck adding blue pips.",
+   "judgment": "REJECT",
+   "reason": "Flexible, but does not clearly beat the incumbent removal slot; Ripples already covers graveyard setup. Recorded as a seven-swap full-100 file.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+   ]
+  },
+  {
+   "card": "Ghostly Flicker",
+   "source": "Second-pass scan of instant blink effects; live Scryfall second-pass collection",
+   "role": "{2}{U} instant: blink two artifacts/creatures/lands you control",
+   "named_cuts": [
+    "Deflecting Swat"
+   ],
+   "incumbent_opportunity_cost": "Would lose the free (with commander) redirect protection.",
+   "commander_synergy": "Two ETB retriggers and finality resets at once.",
+   "adversarial_downside": "Three mana, no card draw; one blink effect (Siren's Ruse) is enough alongside Power Conduit.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than Siren's Ruse and does not beat a free protection spell.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+   ]
+  },
+  {
+   "card": "Spectral Sailor",
+   "source": "Second-pass scan of cheap instant-speed Pirates; live Scryfall second-pass collection",
+   "role": "{U} flash flying Spirit Pirate with {3}{U}: draw",
+   "named_cuts": [
+    "Siren Stormtamer"
+   ],
+   "incumbent_opportunity_cost": "Would lose sacrifice-to-counter protection for Brass.",
+   "commander_synergy": "Flash Pirate body for an instant-speed graveyard Pirate later; late mana sink for card draw.",
+   "adversarial_downside": "A Brass return is a vanilla 4/4 flier plus an expensive draw sink.",
+   "judgment": "REJECT",
+   "reason": "Lower impact than the incumbent protection Pirate.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_secondpass_20261023.json"
+   ]
+  },
+  {
+   "card": "Nesting Grounds",
+   "source": "EDHREC optimized 43% (74/173); historical candidate",
+   "role": "Utility land: {1},{T}, sorcery speed: move a counter from your permanent onto another permanent",
+   "named_cuts": [
+    "Crumbling Necropolis"
+   ],
+   "incumbent_opportunity_cost": "Replaces a three-color source with colorless.",
+   "commander_synergy": "Moves a finality counter off a returned Pirate (re-enabling graveyard reuse) or onto an opponent's creature so it exiles on death.",
+   "adversarial_downside": "Sorcery speed — cannot answer instant-speed removal; colorless in a heavy UU/BB/RR list.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Redundant with Power Conduit at worse speed; colorless. REV2: its named incumbent (Crumbling Necropolis) is now cut for Siren's Ruse, and replacing a further colored land would drop land sources below 20/18/17. Recorded in the rev1 six- and seven-swap files only.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Ashnod's Altar",
+   "source": "OFF-RANKING frozen-cache search for free sacrifice outlets",
+   "role": "Free sac outlet producing {C}{C}",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Loses a reliable two-mana rock.",
+   "commander_synergy": "Sacrifices Coercive Recruiter/Zara-stolen creatures for mana; with Power Conduit, sacrifice a counter-cleared Pirate back to the graveyard for re-use.",
+   "adversarial_downside": "Two-card dependent; with finality counters still on, sacrificed Pirates are exiled; does nothing alone.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than the rock it would replace; the deck's synergy is conditional and Bombardiers/Victimize already cover sacrifice.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Spawning Pit",
+   "source": "Owner handoff explicit evaluation; OFF-RANKING frozen-cache sac-outlet search",
+   "role": "Free sac outlet that banks charge counters for 2/2 Spawns",
+   "named_cuts": [
+    "Rakdos Signet"
+   ],
+   "incumbent_opportunity_cost": "Loses a two-mana rock that casts Brass on turn four.",
+   "commander_synergy": "Power Conduit can put its charge counter on the Pit (target artifact) while removing a finality counter; sacrificing stolen creatures (Recruiter/Zara) denies opponents.",
+   "adversarial_downside": "Without Conduit, sacrificing a Brass-returned Pirate exiles it (finality); no mana, no damage; weakest of the outlets examined.",
+   "judgment": "REJECT",
+   "reason": "Verdict: not included. It is the weakest free outlet (no mana like Ashnod's Altar, no reach like Bombardiers) and depends on two other cards.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "Power Conduit Oracle: {T}, remove a counter from a permanent you control: charge counter on target artifact or +1/+1 on target creature"
+   ]
+  },
+  {
+   "card": "Dire Fleet Ravager",
+   "source": "EDHREC all 42% / optimized 30%; prior GrokBot Pass C advisory suggestion",
+   "role": "Symmetric life-total cut; deathtouch menace body",
+   "named_cuts": [
+    "Corsair Captain"
+   ],
+   "incumbent_opportunity_cost": "Loses a lord + Treasure three-drop.",
+   "commander_synergy": "Repeatable via Brass if the finality counter is removed; 4/4 haste menace deathtouch.",
+   "adversarial_downside": "Hits us too in a deck that pays life for shocks, Talismans, Confluence, BMC, Vampiric and Reanimate; pushes opponents toward defensive play rather than closing.",
+   "judgment": "REJECT",
+   "reason": "Changed from the earlier advisory: it does not clearly beat a cheap lord/ramp incumbent once self-damage is counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "data/grixis/m6/grokbot_pass_c_advisory/Admiral_Brass__Unsinkable.md"
+   ]
+  },
+  {
+   "card": "Captivating Crew",
+   "source": "EDHREC all 49% / optimized 35%",
+   "role": "Repeatable sorcery-speed threaten",
+   "named_cuts": [
+    "Edward Kenway"
+   ],
+   "incumbent_opportunity_cost": "Loses end-step Treasure engine.",
+   "commander_synergy": "Stolen creature becomes an extra attacker; could feed Bombardiers.",
+   "adversarial_downside": "{3}{R} per activation competes with deploying Pirates; no free outlet to keep the steal permanent.",
+   "judgment": "REJECT",
+   "reason": "Coercive Recruiter already provides free threaten on every Pirate entry; a second, mana-costed version is redundant.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Pirated Copy",
+   "source": "EDHREC optimized page, 38% inclusion (66/173)",
+   "role": "Pirate clone with combat-damage draw",
+   "named_cuts": [
+    "Merchant Raiders"
+   ],
+   "incumbent_opportunity_cost": "Loses repeat blocker lockdown and channel bounce.",
+   "commander_synergy": "Brass return copies the best creature on board as a Pirate (base 4/4 applies after copy).",
+   "adversarial_downside": "Board-dependent; worse than Raiders when the best target is ours already.",
+   "judgment": "REJECT",
+   "reason": "Interesting but not clearly better than an incumbent that triggers on every Brass return.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Soul Diviner",
+   "source": "Historical candidate (ABU decisions CSV: rejected over timing)",
+   "role": "Creature: {1}, {T}: remove a counter from a permanent; draw a card",
+   "named_cuts": [
+    "Power Conduit"
+   ],
+   "incumbent_opportunity_cost": "Would replace instant-speed counter removal.",
+   "commander_synergy": "Draws a card per removed finality counter.",
+   "adversarial_downside": "Creature: summoning sick the turn it arrives and dies to sweepers; must survive a full turn cycle.",
+   "judgment": "REJECT",
+   "reason": "Power Conduit remains better for the specific timing need (same combat).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Back in Town",
+   "source": "Historical candidate; EDHREC all 16%",
+   "role": "One-sided X outlaw mass reanimation",
+   "named_cuts": [
+    "Patriarch's Bidding"
+   ],
+   "incumbent_opportunity_cost": "Loses non-X five-mana Pirate mass return.",
+   "commander_synergy": "Returns Pirates (outlaws) without finality counters.",
+   "adversarial_downside": "Costs {X}{2}{B}: returning 3 costs six; Bidding returns all Pirates for five.",
+   "judgment": "REJECT",
+   "reason": "Symmetry risk of Bidding is acceptable in a deck that picks Pirate; Back in Town is a slower rate.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Big Score",
+   "source": "EDHREC all 20%; frozen-cache discard-enabler search",
+   "role": "Discard a Pirate, draw two, two Treasures",
+   "named_cuts": [
+    "Faithless Looting"
+   ],
+   "incumbent_opportunity_cost": "Loses one-mana flashback looting.",
+   "commander_synergy": "Instant-speed discard of a Pirate before combat; ramps.",
+   "adversarial_downside": "Four mana; one card discarded only.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than the slot's occupant. REV2: that slot now goes to Ripples of Undeath, a repeatable precombat mill that beats both Looting and Big Score.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "The Grim Captain's Locker",
+   "source": "Historical candidate; EDHREC all 35%",
+   "role": "Surveil engine / grants escape to graveyard creatures",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Loses commander protection/haste.",
+   "commander_synergy": "Escape lets us cast Pirates from the graveyard.",
+   "adversarial_downside": "Four-mana tap engine; escape exiles four cards per use, competing with Brass's graveyard supply.",
+   "judgment": "REJECT",
+   "reason": "Commander protection matters more; Locker competes for the same graveyard.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Arm-Mounted Anchor",
+   "source": "Historical candidate; EDHREC all 33%",
+   "role": "Equipment that loots on attack (draw then discard)",
+   "named_cuts": [
+    "The Indomitable"
+   ],
+   "incumbent_opportunity_cost": "Loses the Vehicle draw engine that recasts from graveyard.",
+   "commander_synergy": "Discarding Pirates fills the graveyard.",
+   "adversarial_downside": "Equip costs; one creature at a time.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than an existing draw engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Port of Karfell",
+   "source": "Historical candidate; EDHREC all 43%",
+   "role": "Land-based mill-4 + reanimation",
+   "named_cuts": [
+    "Crumbling Necropolis"
+   ],
+   "incumbent_opportunity_cost": "Mono-blue tapped land replaces a tri-land.",
+   "commander_synergy": "Reanimates any creature (no finality).",
+   "adversarial_downside": "{3}{U}{B}{B} plus sacrificing a land; slow.",
+   "judgment": "REJECT",
+   "reason": "Too slow for the mana it costs; fixing loss.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Herald's Horn",
+   "source": "EDHREC all 66% / optimized 54%",
+   "role": "Tribal cost reduction + card advantage",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Loses an early mana rock (Talisman of Creativity).",
+   "commander_synergy": "Discount for cast Pirates; upkeep card advantage at ~35% hit rate.",
+   "adversarial_downside": "Three mana; the engine reanimates more than it casts.",
+   "judgment": "REJECT",
+   "reason": "Generic tribal; not clearly better than a two-mana rock for a five-drop commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Maskwood Nexus",
+   "source": "OFF-RANKING frozen-cache search (all-types effects)",
+   "role": "Makes every creature card we own every type, so Brass can return any creature",
+   "named_cuts": [
+    "Kindred Discovery"
+   ],
+   "incumbent_opportunity_cost": "Loses the Kindred Discovery Pirate draw engine.",
+   "commander_synergy": "Brass could reanimate any creature.",
+   "adversarial_downside": "Pushes toward generic big-creature reanimator, contrary to anti-homogenization.",
+   "judgment": "REJECT",
+   "reason": "Identity risk; no non-Pirate payoffs in the list to justify it.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Karlach, Fury of Avernus",
+   "source": "OFF-RANKING frozen-cache extra-combat search",
+   "role": "Extra combat creature (not a Pirate)",
+   "named_cuts": [
+    "Edward Kenway"
+   ],
+   "incumbent_opportunity_cost": "Loses Edward Kenway's end-step Treasure engine.",
+   "commander_synergy": "Extra combat gives another Brass beginning-of-combat trigger.",
+   "adversarial_downside": "Not a Pirate: Brass cannot recur it and Throne/Recruiter/Kindred Discovery do not trigger.",
+   "judgment": "REJECT",
+   "reason": "Port Razer already provides a recurrable Pirate extra-combat engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "source": "EDHREC optimized page, 65% inclusion",
+   "role": "Pirate that pings opponents on each discard",
+   "named_cuts": [
+    "Dire Fleet Daredevil"
+   ],
+   "incumbent_opportunity_cost": "Loses first strike + opponent-spell recast.",
+   "commander_synergy": "Pings each opponent on looting and discard effects.",
+   "adversarial_downside": "Low damage output in this list (few discard outlets besides two looters).",
+   "judgment": "REJECT",
+   "reason": "Better in a wheel/discard shell than here.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)"
+   ]
+  },
+  {
+   "card": "Windfall",
+   "source": "EDHREC all 56%; was in the older Proposed_Final",
+   "role": "Symmetric wheel: discard hands, draw seven",
+   "named_cuts": [
+    "Faithless Looting"
+   ],
+   "incumbent_opportunity_cost": "Loses one-mana pre-combat graveyard enabling.",
+   "commander_synergy": "Discards many Pirates at once for Brass.",
+   "adversarial_downside": "Refills opponents; the approved list deliberately removed it.",
+   "judgment": "REJECT",
+   "reason": "Not revived: the owner-approved list chose against it, and REV2 fills the Looting slot with Ripples of Undeath instead.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+    "frozen snap-20261016 oracle-cards-20261016090200.jsonl.gz + rulings-20261015090033 (Brass finality, Roaming Throne, Larcenist, Navigator rulings)",
+    "refinement/decklists/Admiral_Brass_Unsinkable_Proposed_Final (canonical, read-only)"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Kitesail Larcenist",
+   "Timestream Navigator",
+   "Warkite Marauder",
+   "Jhoira, Weatherlight Corsair",
+   "Siren's Ruse",
+   "Ripples of Undeath"
+  ],
+  "cuts": [
+   "Enterprising Scallywag",
+   "Francisco, Fowl Marauder",
+   "Fathom Fleet Captain",
+   "Pitiless Plunderer",
+   "Crumbling Necropolis",
+   "Faithless Looting"
+  ],
+  "coherent_package_tradeoff": "REV2 six one-for-one swaps (rev1 five-swap list superseded; kept as history). Four Pirate-for-Pirate upgrades replace low-ceiling Pirates with Pirates whose ETB or attack triggers Brass multiplies: repeatable multiplayer removal (Larcenist), per-attack blocker neutralization (Warkite), extra turns from a hasty return (Navigator), a premium two-steal reanimation target (Jhoira). Two non-Pirate swaps added after ChatGPT's review: Siren's Ruse for the 34th land (finality reset, ETB retrigger, protection, Pirate draw) and Ripples of Undeath for Faithless Looting (repeatable precombat mill before Brass's combat trigger). Pirate count unchanged (28 in the 99 by quantity, counting Changeling Outcast; 29 with the commander). Lands 34 -> 33 with 8 rocks kept; avg nonland MV 2.954 -> 3.000. Lost roles: conditional Treasure/explore/2-2 tokens, Plunderer's incidental death Treasure, one tapped tri-land and a one-shot looter. Changeling Outcast is kept: the rev1 Ragavan swap is reverted."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Enterprising Scallywag",
+    "weakness": "Two-mana conditional Treasure only on turns we descended; as a Brass return it is a vanilla 4/4 haste with a weak end-step clause.",
+    "alternative_named": "Kitesail Larcenist",
+    "reasoning": "Lowest-impact Pirate: no ETB, no attack trigger, no protection; ramp role is duplicated by Lannery, Corsair Captain, Gemcutter, Malcolm Navigator, Ramirez and Black Market Connections."
+   },
+   {
+    "card": "Francisco, Fowl Marauder",
+    "weakness": "Can't block; explore only on Pirate damage; a 2-drop evasive body with marginal value as a Brass target.",
+    "alternative_named": "Timestream Navigator",
+    "reasoning": "Explore is small card selection; the slot is better spent on a two-drop that converts Brass's haste into an extra turn (another Brass trigger)."
+   },
+   {
+    "card": "Fathom Fleet Captain",
+    "weakness": "Attack trigger costs {2} for a 2/2 token and needs another nontoken Pirate; mana-hungry and slow in multiplayer.",
+    "alternative_named": "Warkite Marauder",
+    "reasoning": "Same mana slot; Warkite's free attack trigger neutralizes the best blocker every combat and doubles under Roaming Throne."
+   },
+   {
+    "card": "Changeling Outcast",
+    "weakness": "1-drop that cannot block; its only text is evasion.",
+    "alternative_named": "Ragavan, Nimble Pilferer",
+    "reasoning": "REV2 (after ChatGPT review): RETAINED. As a Brass return it is a hasty 4/4 that can't be blocked, so it reliably connects. That counts toward Admiral Beckett Brass's three-Pirate theft condition and triggers Breeches, Brazen Plunderer, Ramirez and Shared Animosity. Ragavan's Treasure and card need combat damage that blockers can deny (RETAIN_ALTERNATIVE)."
+   },
+   {
+    "card": "Pitiless Plunderer",
+    "weakness": "No Treasure for Brass-returned Pirates while their finality counter is on, since they are exiled instead of dying. It still triggers on other deaths: hard-cast creatures, tokens (Amphin encore copies), Victimize/Bombardiers sacrifices of non-finality creatures, stolen creatures we control, Pirates whose counter Power Conduit removed (or blinked by Siren's Ruse), and our side of Toxic Deluge / Living Death.",
+    "alternative_named": "Jhoira, Weatherlight Corsair",
+    "reasoning": "REV2 recheck: Plunderer is not globally switched off. Its payable cases are real but mostly incidental (roughly 0-2 Treasures in a typical turn cycle; bursts only on our own sweepers). Jhoira returned by Brass is a hasty 4/4 that steals two historic permanents the turn it arrives (ETB + attack; four with Roaming Throne), for life equal to their MV. Jhoira's ceiling is higher and the swap stays, at MODERATE confidence."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Always-tapped tri-land; the 34th physical land (34 land cards in 31 rows: Island/Mountain/Swamp x2) alongside 8 rocks and many Treasure makers.",
+    "alternative_named": "Siren's Ruse",
+    "reasoning": "REV2: CUT for Siren's Ruse. Corrected count: 34 lands + 8 rocks = 42 mana permanents plus Brass's Tunnel-Grinder (an artifact on the front face, not a playable land). 33 lands cost about 3 points of land-drop probability (P(>=4 lands in 10 cards) 0.470 -> 0.441). The tapped land is the least valuable one. Nesting Grounds (colorless, sorcery speed) remains a non-selected alternative."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Third two-mana BR rock in an eight-rock suite; low ceiling after turn three.",
+    "alternative_named": "Ashnod's Altar",
+    "reasoning": "A free sacrifice outlet only pays off with stolen creatures or counter-removed Pirates; the rock is the more reliable commander-on-curve card (REJECT)."
+   },
+   {
+    "card": "Corsair Captain",
+    "weakness": "Three-mana lord + one Treasure; as a Brass return its anthem does not include itself.",
+    "alternative_named": "Dire Fleet Ravager",
+    "reasoning": "Ravager's symmetric one-third life loss also hits this life-paying deck (shocks, Talismans, BMC, Vampiric, Reanimate, Confluence); lord + mana is steadier (REJECT)."
+   },
+   {
+    "card": "Edward Kenway",
+    "weakness": "Five-mana; Vehicle clause nearly blank (only The Indomitable); value is end-step Treasures from tapped Pirates.",
+    "alternative_named": "Captivating Crew",
+    "reasoning": "Crew's threaten activation costs {3}{R} per use and lacks a free sac outlet; Kenway's Treasure output after an alpha strike is larger (REJECT)."
+   },
+   {
+    "card": "Merchant Raiders",
+    "weakness": "Four-mana; value depends on a stream of Pirate entries.",
+    "alternative_named": "Pirated Copy",
+    "reasoning": "Raiders locks a blocker on every Brass return (each return is a Pirate entering) and channels as removal; Copy is a clone whose value depends on the board (REJECT)."
+   },
+   {
+    "card": "Patriarch's Bidding",
+    "weakness": "Symmetric: every opponent returns their own chosen type.",
+    "alternative_named": "Back in Town",
+    "reasoning": "Back in Town is one-sided but X-costed and returns only outlaws for {X}{2}{B}; Bidding returns all Pirates for five and also hits changeling tokens; retained."
+   },
+   {
+    "card": "Faithless Looting",
+    "weakness": "Card disadvantage; its value is only discarding Pirates for Brass.",
+    "alternative_named": "Ripples of Undeath",
+    "reasoning": "REV2: CUT for Ripples of Undeath. It is a one-shot -2 cards, while Ripples mills 3 every turn in the first main phase, before Brass's beginning-of-combat trigger chooses a target, and can buy one milled card for {1} and 3 life. Big Score and Windfall were rejected earlier against this slot."
+   },
+   {
+    "card": "Power Conduit",
+    "weakness": "Two-mana artifact that does nothing alone.",
+    "alternative_named": "Soul Diviner",
+    "reasoning": "Conduit is instant-speed and not a creature (no summoning-sickness delay), so the finality counter can be removed the same combat the Pirate returns; Diviner needs a full turn cycle and dies to sweepers; retained."
+   },
+   {
+    "card": "Broadside Bombardiers",
+    "weakness": "Boast sacrifice only once per turn and only after attacking.",
+    "alternative_named": "Spawning Pit",
+    "reasoning": "Bombardiers is a sac outlet that converts the sacrificed permanent into 2+MV damage; Pit is a free outlet that does nothing alone; retained."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING candidates examined beyond EDHREC top lists: Jhoira (selected), Siren's Ruse (selected in REV2, after ChatGPT's review flagged it), Ghostly Flicker, Spectral Sailor, Ashnod's Altar, Spawning Pit, Maskwood Nexus, Karlach, Big Score; plus the full 140-Pirate frozen-cache scan (e.g. Bigfin Bouncer, Don Andres, Crafty Cutpurse, Captain N'ghathrod judged below the incumbents without being material).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Kitesail Larcenist",
+     "Timestream Navigator",
+     "Warkite Marauder",
+     "Jhoira, Weatherlight Corsair",
+     "Siren's Ruse",
+     "Ripples of Undeath"
+    ],
+    "cuts": [
+     "Enterprising Scallywag",
+     "Francisco, Fowl Marauder",
+     "Fathom Fleet Captain",
+     "Pitiless Plunderer",
+     "Crumbling Necropolis",
+     "Faithless Looting"
+    ],
+    "result_and_rationale": "Selected REV2 six-swap package; every add is independently justified, Pirate density is preserved and the mana base is one land lighter (34 -> 33) with the trade quantified in the mana audit."
+   },
+   {
+    "adds": [
+     "Ragavan, Nimble Pilferer",
+     "Prismari Command"
+    ],
+    "cuts": [
+     "Changeling Outcast",
+     "Feed the Swarm"
+    ],
+    "result_and_rationale": "Tempo/setup package on top of REV2 (each also built as its own seven-swap full-100). Prismari rejected: loses the creature/enchantment answer. Ragavan (rev1's selected swap) re-tested and Reverted: a Brass-returned Outcast is an unblockable hasty 4/4 that always connects for Beckett/Breeches/Ramirez/Shared Animosity; Ragavan's payoff needs unblocked damage."
+   },
+   {
+    "adds": [
+     "Nesting Grounds",
+     "Ashnod's Altar"
+    ],
+    "cuts": [
+     "Crumbling Necropolis",
+     "Talisman of Indulgence"
+    ],
+    "result_and_rationale": "Counter-movement + free sacrifice loop package: re-use one best ETB Pirate every turn. Rejected — two-card dependency and colorless land fixing loss."
+   },
+   {
+    "adds": [
+     "Dire Fleet Ravager",
+     "Captivating Crew",
+     "Spawning Pit"
+    ],
+    "cuts": [
+     "Corsair Captain",
+     "Edward Kenway",
+     "Rakdos Signet"
+    ],
+    "result_and_rationale": "Aggression/steal package. Rejected — self-damage, mana-costed threaten redundant with Coercive Recruiter, and Spawning Pit is the weakest outlet."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Prior holds re-examined: Power Conduit (kept over Soul Diviner for timing), Patriarch's Bidding (kept over Back in Town), Faithless Looting (kept over Big Score/Windfall in rev1; REV2 cuts it for Ripples of Undeath), Feed the Swarm (kept over Prismari Command), Changeling Outcast (kept over Ragavan; rev1 reversal), Merchant Raiders (kept over Dire Fleet Ravager — reverses my earlier Pass C advisory).",
+  "strongest_argument_against_baseline": "Scallywag, Francisco and Fathom Fleet Captain do almost nothing extra when Brass returns them, yet returning Pirates is the commander's whole engine. Pitiless Plunderer produces nothing from Brass-returned Pirates while their finality counter is on, though it still pays off on other deaths. The baseline also runs a heavy 34 lands + 8 rocks, and it lacks a cheap instant reset/protection and a repeatable precombat self-mill.",
+  "evidence_based_answer": "Replace those four with Pirates whose triggers scale with Brass and Roaming Throne, and convert the 34th land and the one-shot looter into Siren's Ruse and Ripples of Undeath. Changeling Outcast stays because its guaranteed connection matters. Earlier wording proposed replacing five with Pirates whose triggers scale with Brass and Roaming Throne. Prevalence figures (EDHREC) are discovery evidence only; the decision rests on Oracle text, rulings and role audit, not on win rates (none measured)."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable.txt",
+  "sha256": "baf0d451bc5fa1f66065d04fa7826610337d1ffa802eebf6c78ba282a784e967",
+  "card_count": 100,
+  "deckwide_reconciliation": "Exact copy of the physical canonical source order with six in-place substitutions; the MDFC line uses the encyclopedia Markdown full name 'Brass's Tunnel-Grinder // Tecutlan, the Searing Rift' so the delta against the registry canonical project list is exactly the six named swaps. Candidate logical hash lh1:83da1314067759d3e6406907f06714ba225f62ece24f80bf9a4adeab4458f6c7 (rev2 Oracle snapshot). History: rev1 five-swap candidate raw 953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475 / lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d, preserved byte-identical at data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_prior_five_rev1_20261023.txt."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt",
+   "data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable_chatgpt_adversarial_review_packet.md",
+   "registry project_exceptions [] for this deck: no project exception applies; other decks' exceptions (Lutri, Trade Secrets/Yawgmoth's Bargain, MBC future cards, Madcap Jester/Dragon's Smile/Tresserhorn's Lord) untouched",
+   "data/grixis/m6/ij/certificates/admiral-brass-unsinkable-m7.json",
+   "data/grixis/m6/ij/revision_bundles/admiral-brass-unsinkable-m7.json",
+   "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_I_local_best_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_rev2_tested_configurations_20261023.json",
+   "Candidate-specific M6 I (tested-pool local best over the rev2 pool of full-100 configurations) and J (reproducibility) files follow the Admiral Beckett Brass rev2 pattern. They are not M6 certification or owner approval. Exact-head GitHub Actions run URLs for the three focused test files are recorded in the PR body, not in these files, to avoid a self-referential hash.",
+   "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_rev2_Scryfall_20261023.json"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Pirates",
+   "Reanimator",
+   "Aggro"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "REV2 (after ChatGPT review) re-challenged the remaining slots: lands (34 by quantity; the tapped tri-land Crumbling Necropolis now cut; Xander's Lounge kept because it is fetchable and cycles; Nesting Grounds/Port of Karfell rejected), rocks (Talismans/Signets vs Ashnod's Altar, Spawning Pit, Herald's Horn, and Talisman of Indulgence vs Siren's Ruse as the 34-land alternative), Pirates (Changeling Outcast vs Ragavan, re-reversed; Corsair Captain vs Dire Fleet Ravager; Edward Kenway vs Captivating Crew/Karlach; Merchant Raiders vs Pirated Copy; Siren Stormtamer vs Spectral Sailor), spells (Faithless Looting -> Ripples of Undeath; Feed the Swarm vs Prismari Command; Deflecting Swat vs Ghostly Flicker; Patriarch's Bidding vs Back in Town), engines (Power Conduit vs Soul Diviner, Kindred Discovery vs Maskwood Nexus, Lightning Greaves vs Grim Captain's Locker).",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Changeling Outcast",
+    "challenger": "Ragavan, Nimble Pilferer",
+    "tradeoff": "REV2 SELF-CHALLENGE #1 (ChatGPT item 3b). Ragavan is a Monkey Pirate (verified). When Brass returns either card, Outcast is a hasty 4/4 that can't be blocked and always connects, which counts toward Beckett's three-Pirate theft condition and triggers Breeches, Brazen Plunderer, Ramirez and Shared Animosity. Ragavan is a blockable 4/4 whose Treasure and card need that same connection. Ragavan's one-drop hard-cast tempo is real but not decisive in four-player pods with blockers. Seven-swap file built; kept as an alternative.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Feed the Swarm",
+    "challenger": "Prismari Command",
+    "tradeoff": "REV2 SELF-CHALLENGE #2 (ChatGPT item 2). The instant loot-two plus Treasure is good precombat setup, but Feed the Swarm is the list's cheap answer to any creature or enchantment. Prismari answers only artifacts or two-toughness creatures and adds a blue pip on top of a +4 blue-pip shift. Seven-swap file built; rejected.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Talisman of Indulgence",
+    "challenger": "Ashnod's Altar",
+    "tradeoff": "The Altar nets mana only by sacrificing creatures. A Brass-returned Pirate is exiled by finality unless Conduit or Siren's Ruse reset it first. Plunderer is cut, so there is no Treasure loop, and Bombardiers/Victimize already supply outlets. Talisman is a turn-2 B/R source toward turn-4 Brass. REJECT.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Deflecting Swat",
+    "challenger": "Ghostly Flicker",
+    "tradeoff": "Brief scan of instant blink: two blinks reset two finality counters and retrigger ETBs, but it costs three and draws no card. Siren's Ruse already fills the role, and Swat is free protection with Brass out.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Corsair Captain",
+    "challenger": "Dire Fleet Ravager",
+    "tradeoff": "Symmetric one-third life loss also taxes our own life-paying mana and tutors (and Ripples' life payment); the lord+Treasure three-drop is steadier.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Edward Kenway",
+    "challenger": "Captivating Crew",
+    "tradeoff": "Mana-costed sorcery threaten duplicates Coercive Recruiter's free steals; Kenway's end-step Treasures fund recasts.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Rakdos Signet",
+    "challenger": "Spawning Pit",
+    "tradeoff": "Pit needs Power Conduit or a stolen creature to matter and makes no mana; sacrificing a finality Pirate exiles it.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_rev2_seven_Ragavan_over_Outcast_20261023.txt",
+    "sha256": "bbcac21230d06746b8e4eb65836b6d86c58964b078816dd6a39aca4a1c111419",
+    "adds": [
+     "Kitesail Larcenist",
+     "Timestream Navigator",
+     "Warkite Marauder",
+     "Jhoira, Weatherlight Corsair",
+     "Siren's Ruse",
+     "Ripples of Undeath",
+     "Ragavan, Nimble Pilferer"
+    ],
+    "cuts": [
+     "Enterprising Scallywag",
+     "Francisco, Fowl Marauder",
+     "Fathom Fleet Captain",
+     "Pitiless Plunderer",
+     "Crumbling Necropolis",
+     "Faithless Looting",
+     "Changeling Outcast"
+    ],
+    "case_for_extra_swaps": "Rev1's Ragavan-over-Outcast swap layered on REV2: a one-drop Pirate whose Treasure accelerates the five-mana commander and whose hits are card advantage.",
+    "why_not_selected": "Outcast's guaranteed unblockable connection as a Brass return feeds Beckett's three-Pirate theft, Breeches, Ramirez and Shared Animosity; Ragavan's value is blocker-dependent in multiplayer. Not clearly better."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_rev2_seven_PrismariCommand_20261023.txt",
+    "sha256": "a5a027fe2bd4b395a250190c76757236b3788917a373f22b91b21ac2f02e45a6",
+    "adds": [
+     "Kitesail Larcenist",
+     "Timestream Navigator",
+     "Warkite Marauder",
+     "Jhoira, Weatherlight Corsair",
+     "Siren's Ruse",
+     "Ripples of Undeath",
+     "Prismari Command"
+    ],
+    "cuts": [
+     "Enterprising Scallywag",
+     "Francisco, Fowl Marauder",
+     "Fathom Fleet Captain",
+     "Pitiless Plunderer",
+     "Crumbling Necropolis",
+     "Faithless Looting",
+     "Feed the Swarm"
+    ],
+    "case_for_extra_swaps": "Instant-speed precombat loot-two (bins Pirates for Brass) plus Treasure or artifact removal in one card.",
+    "why_not_selected": "Gives up the cheap catch-all creature/enchantment removal; Ripples already supplies precombat graveyard setup. Not clearly better than the incumbent."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_seven_NestingGrounds_AshnodsAltar_20261023.txt",
+    "sha256": "94ac3d88434ed9131fd5a7b63fcb796a07809b7b8fa5f79af536aa49b467d88d",
+    "adds": [
+     "Kitesail Larcenist",
+     "Timestream Navigator",
+     "Warkite Marauder",
+     "Ragavan, Nimble Pilferer",
+     "Jhoira, Weatherlight Corsair",
+     "Nesting Grounds",
+     "Ashnod's Altar"
+    ],
+    "cuts": [
+     "Enterprising Scallywag",
+     "Francisco, Fowl Marauder",
+     "Fathom Fleet Captain",
+     "Changeling Outcast",
+     "Pitiless Plunderer",
+     "Crumbling Necropolis",
+     "Talisman of Indulgence"
+    ],
+    "case_for_extra_swaps": "HISTORY (rev1 base list): counter-movement and free-sacrifice loop so the single best ETB Pirate can be reused every turn.",
+    "why_not_selected": "Both extras are conditional; they cost a three-color land and a reliable rock (corrected: land sources 21/19/18 -> 20/18/17, rock sources 5/5/5 -> 5/4/4). Superseded by REV2, where Siren's Ruse fills the reset role at instant speed."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_eight_Ravager_Crew_SpawningPit_20261023.txt",
+    "sha256": "54feef8c62720674044893b7c3db80e550ca0baf73bf1979e7182b2c134d651f",
+    "adds": [
+     "Kitesail Larcenist",
+     "Timestream Navigator",
+     "Warkite Marauder",
+     "Ragavan, Nimble Pilferer",
+     "Jhoira, Weatherlight Corsair",
+     "Dire Fleet Ravager",
+     "Captivating Crew",
+     "Spawning Pit"
+    ],
+    "cuts": [
+     "Enterprising Scallywag",
+     "Francisco, Fowl Marauder",
+     "Fathom Fleet Captain",
+     "Changeling Outcast",
+     "Pitiless Plunderer",
+     "Corsair Captain",
+     "Edward Kenway",
+     "Rakdos Signet"
+    ],
+    "case_for_extra_swaps": "HISTORY (rev1 base list): more aggression and theft: Ravager's life-total cut each return, repeatable threaten, a free outlet for stolen creatures.",
+    "why_not_selected": "Self-damage, redundancy with Coercive Recruiter and the weakest free outlet; none clearly beats the incumbent it replaces."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "REV2 stop after ChatGPT review: six swaps, not because of any count target. Two outside candidates the review raised (Siren's Ruse, Ripples of Undeath) beat specific incumbents (the 34th land, Faithless Looting) and were added. The next-best outsiders lose concretely as full-100 files: Ragavan vs Changeling Outcast (guaranteed connection), Prismari Command vs Feed the Swarm (enchantment/creature answer), plus Nesting Grounds, Ashnod's Altar, Ghostly Flicker, Spectral Sailor, Dire Fleet Ravager, Captivating Crew and Spawning Pit. The rev1 self-challenge on Nesting Grounds and Ashnod's Altar still holds with corrected numbers (Nesting Grounds costs one source of each color, sorcery speed only; Altar is conditional), and both stay out. Adding further cards would be padding, not improvement. No global-optimality claim."
+ }
+}

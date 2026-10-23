@@ -1,0 +1,3425 @@
+{
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "filters": {
+  "all": "https://json.edhrec.com/pages/commanders/admiral-brass-unsinkable.json (all budgets, all brackets)",
+  "optimized": "https://json.edhrec.com/pages/commanders/admiral-brass-unsinkable/optimized.json (EDHREC optimized bracket filter)"
+ },
+ "kind": "live_discovery_artifact_not_frozen_snapshot",
+ "metric_note": "EDHREC fields recorded verbatim: num_decks/potential_decks = inclusion; 'synergy' = EDHREC synergy score (NOT lift). The 'High Lift Cards' section header is EDHREC's own grouping; no lift multiplier was published in these JSON pages. Prevalence is discovery evidence only, never a win rate.",
+ "not_fetched": "Theme variants /pirates and /reanimator were not fetched to stay inside the cost budget: the commander is mono-tribal Pirate reanimation, so the all-decks and optimized pages already enumerate that pool; off-ranking cards were searched in the frozen Oracle cache instead.",
+ "pages": {
+  "all": {
+   "cards": {
+    "Admiral Beckett Brass": {
+     "in_baseline": true,
+     "num_decks": 6668,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8089218700100897
+    },
+    "Admiral's Order": {
+     "in_baseline": false,
+     "num_decks": 528,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.060452543116264114
+    },
+    "Adéwalé, Breaker of Chains": {
+     "in_baseline": false,
+     "num_decks": 1138,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.11640324895555516
+    },
+    "Amphin Mutineer": {
+     "in_baseline": true,
+     "num_decks": 4938,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6066656652458638
+    },
+    "An Offer You Can't Refuse": {
+     "in_baseline": false,
+     "num_decks": 968,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.19862432638668803
+    },
+    "Angrath's Marauders": {
+     "in_baseline": true,
+     "num_decks": 6308,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.7771403357420432
+    },
+    "Angrath, Minotaur Pirate": {
+     "in_baseline": false,
+     "num_decks": 559,
+     "potential_decks": 7845,
+     "section": "Planeswalkers",
+     "synergy": 0.06650230279793615
+    },
+    "Arcane Denial": {
+     "in_baseline": false,
+     "num_decks": 676,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.2037030091107931
+    },
+    "Arcane Signet": {
+     "in_baseline": true,
+     "num_decks": 7133,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.027009706317723592
+    },
+    "Arm-Mounted Anchor": {
+     "in_baseline": false,
+     "num_decks": 2561,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.31933778544332914
+    },
+    "Azure Fleet Admiral": {
+     "in_baseline": false,
+     "num_decks": 1994,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.24569215639927797
+    },
+    "Back in Town": {
+     "in_baseline": false,
+     "num_decks": 1285,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.14432039427442048
+    },
+    "Ballad of the Black Flag": {
+     "in_baseline": false,
+     "num_decks": 418,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.046768754082695
+    },
+    "Bident of Thassa": {
+     "in_baseline": false,
+     "num_decks": 4451,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.5277272386661751
+    },
+    "Big Score": {
+     "in_baseline": false,
+     "num_decks": 1555,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.061409148430599636
+    },
+    "Black Market Connections": {
+     "in_baseline": true,
+     "num_decks": 5068,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.5142138517494776
+    },
+    "Blasphemous Act": {
+     "in_baseline": false,
+     "num_decks": 5212,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.21618790386957415
+    },
+    "Blood Crypt": {
+     "in_baseline": true,
+     "num_decks": 2025,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.21093163890498207
+    },
+    "Blood Money": {
+     "in_baseline": false,
+     "num_decks": 4076,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.4825227681096395
+    },
+    "Bloodstained Mire": {
+     "in_baseline": true,
+     "num_decks": 1405,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.17436382923678465
+    },
+    "Bojuka Bog": {
+     "in_baseline": false,
+     "num_decks": 949,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": -0.11859290271805457
+    },
+    "Brass's Tunnel-Grinder": {
+     "in_baseline": true,
+     "num_decks": 1594,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.18052787137844473
+    },
+    "Breeches, Brazen Plunderer": {
+     "in_baseline": true,
+     "num_decks": 5733,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6865027802587426
+    },
+    "Breeches, Eager Pillager": {
+     "in_baseline": true,
+     "num_decks": 5393,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.640512168982214
+    },
+    "Breeches, the Blastmaker": {
+     "in_baseline": false,
+     "num_decks": 660,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.07479866857745104
+    },
+    "Broadside Bombardiers": {
+     "in_baseline": true,
+     "num_decks": 5265,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6485130346700472
+    },
+    "Buried Alive": {
+     "in_baseline": true,
+     "num_decks": 2234,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.24573587600633973
+    },
+    "Captain Howler, Sea Scourge": {
+     "in_baseline": false,
+     "num_decks": 935,
+     "potential_decks": 7332,
+     "section": "Creatures",
+     "synergy": 0.09972757783256482
+    },
+    "Captain Lannery Storm": {
+     "in_baseline": true,
+     "num_decks": 6364,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.7653385433269514
+    },
+    "Captain Storm, Cosmium Raider": {
+     "in_baseline": false,
+     "num_decks": 2661,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.305986593230754
+    },
+    "Captain Vargus Wrath": {
+     "in_baseline": false,
+     "num_decks": 1109,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.13402857518249892
+    },
+    "Captivating Crew": {
+     "in_baseline": false,
+     "num_decks": 3821,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.45521134133691266
+    },
+    "Cascade Bluffs": {
+     "in_baseline": false,
+     "num_decks": 518,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.04845179505090991
+    },
+    "Cavern of Souls": {
+     "in_baseline": true,
+     "num_decks": 1243,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.0858901774929243
+    },
+    "Chaos Warp": {
+     "in_baseline": true,
+     "num_decks": 4910,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.27877055386986244
+    },
+    "Chart a Course": {
+     "in_baseline": false,
+     "num_decks": 870,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.08993753663331597
+    },
+    "Choked Estuary": {
+     "in_baseline": false,
+     "num_decks": 4539,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.3950323735056438
+    },
+    "Coastal Piracy": {
+     "in_baseline": false,
+     "num_decks": 1877,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.20440680904412856
+    },
+    "Coastline Marauders": {
+     "in_baseline": false,
+     "num_decks": 921,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.11202480973446742
+    },
+    "Coat of Arms": {
+     "in_baseline": false,
+     "num_decks": 410,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.04724651743965342
+    },
+    "Coercive Recruiter": {
+     "in_baseline": true,
+     "num_decks": 7001,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8423153341868527
+    },
+    "Command Tower": {
+     "in_baseline": true,
+     "num_decks": 7499,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.038336309181785766
+    },
+    "Commander's Sphere": {
+     "in_baseline": false,
+     "num_decks": 2318,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.12493052375657235
+    },
+    "Corsair Captain": {
+     "in_baseline": true,
+     "num_decks": 6834,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8286865218712469
+    },
+    "Counterspell": {
+     "in_baseline": true,
+     "num_decks": 2153,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.17304745498481955
+    },
+    "Cover of Darkness": {
+     "in_baseline": false,
+     "num_decks": 1167,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.12689711540202037
+    },
+    "Crippling Fear": {
+     "in_baseline": false,
+     "num_decks": 507,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.05591733436239842
+    },
+    "Crumbling Necropolis": {
+     "in_baseline": true,
+     "num_decks": 5824,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.22326108945094747
+    },
+    "Cutthroat Negotiator": {
+     "in_baseline": false,
+     "num_decks": 1201,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.14291717394551065
+    },
+    "Cyclonic Rift": {
+     "in_baseline": true,
+     "num_decks": 974,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.07297708847066799
+    },
+    "Daring Saboteur": {
+     "in_baseline": false,
+     "num_decks": 2334,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.2879785927619975
+    },
+    "Dark Ritual": {
+     "in_baseline": false,
+     "num_decks": 421,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.3352548401725207
+    },
+    "Deadly Dispute": {
+     "in_baseline": false,
+     "num_decks": 527,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.007607742554313568
+    },
+    "Deadly Rollick": {
+     "in_baseline": true,
+     "num_decks": 515,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.11775980579215894
+    },
+    "Deflecting Swat": {
+     "in_baseline": true,
+     "num_decks": 536,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.1300769243488662
+    },
+    "Demonic Tutor": {
+     "in_baseline": true,
+     "num_decks": 561,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.1342505602943011
+    },
+    "Departed Deckhand": {
+     "in_baseline": false,
+     "num_decks": 2206,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.26900530633254854
+    },
+    "Desolate Lighthouse": {
+     "in_baseline": false,
+     "num_decks": 4518,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.5171419873539193
+    },
+    "Dimir Aqueduct": {
+     "in_baseline": false,
+     "num_decks": 462,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.04131567790732207
+    },
+    "Dimir Signet": {
+     "in_baseline": true,
+     "num_decks": 4805,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.2854192281681894
+    },
+    "Dire Fleet Captain": {
+     "in_baseline": false,
+     "num_decks": 878,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.10379676559478311
+    },
+    "Dire Fleet Daredevil": {
+     "in_baseline": true,
+     "num_decks": 5034,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6054667821372621
+    },
+    "Dire Fleet Neckbreaker": {
+     "in_baseline": false,
+     "num_decks": 2106,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.2565253012998952
+    },
+    "Dire Fleet Poisoner": {
+     "in_baseline": false,
+     "num_decks": 955,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.11337416650783763
+    },
+    "Dire Fleet Ravager": {
+     "in_baseline": false,
+     "num_decks": 3325,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.4064276337927085
+    },
+    "Distant Melody": {
+     "in_baseline": false,
+     "num_decks": 3349,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.40241226683934694
+    },
+    "Don Andres, the Renegade": {
+     "in_baseline": false,
+     "num_decks": 2350,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.25321412722328024
+    },
+    "Double Down": {
+     "in_baseline": false,
+     "num_decks": 2257,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.26550332154095
+    },
+    "Dragonskull Summit": {
+     "in_baseline": false,
+     "num_decks": 2066,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.2136998071935951
+    },
+    "Drowned Catacomb": {
+     "in_baseline": true,
+     "num_decks": 2144,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.17443662187075887
+    },
+    "Edward Kenway": {
+     "in_baseline": true,
+     "num_decks": 1715,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.21076632218835886
+    },
+    "Emberwilde Captain": {
+     "in_baseline": false,
+     "num_decks": 816,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.09700739788152801
+    },
+    "Enterprising Scallywag": {
+     "in_baseline": true,
+     "num_decks": 4550,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.5651663820040234
+    },
+    "Entomb": {
+     "in_baseline": true,
+     "num_decks": 1090,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.0826535595101251
+    },
+    "Evacuation": {
+     "in_baseline": false,
+     "num_decks": 3250,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.3907813782219231
+    },
+    "Evolving Wilds": {
+     "in_baseline": false,
+     "num_decks": 3710,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.2531608379287474
+    },
+    "Exotic Orchard": {
+     "in_baseline": true,
+     "num_decks": 5862,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.17525161894047914
+    },
+    "Fabled Passage": {
+     "in_baseline": false,
+     "num_decks": 518,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.01158732905903155
+    },
+    "Fain, the Broker": {
+     "in_baseline": false,
+     "num_decks": 977,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.11150865383886949
+    },
+    "Faithless Looting": {
+     "in_baseline": true,
+     "num_decks": 5861,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.5446969385458478
+    },
+    "Fathom Fleet Captain": {
+     "in_baseline": true,
+     "num_decks": 3816,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.46461030446692475
+    },
+    "Feed the Swarm": {
+     "in_baseline": true,
+     "num_decks": 4473,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.29722903790500294
+    },
+    "Fellwar Stone": {
+     "in_baseline": false,
+     "num_decks": 1088,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": -0.21880544535715035
+    },
+    "Fierce Guardianship": {
+     "in_baseline": true,
+     "num_decks": 559,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.12047510298650006
+    },
+    "Fiery Cannonade": {
+     "in_baseline": false,
+     "num_decks": 981,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.11589373375043238
+    },
+    "Foreboding Ruins": {
+     "in_baseline": false,
+     "num_decks": 4459,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.3787988257229121
+    },
+    "Forerunner of the Coalition": {
+     "in_baseline": true,
+     "num_decks": 4669,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.56168717809339
+    },
+    "Francisco, Fowl Marauder": {
+     "in_baseline": true,
+     "num_decks": 5589,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6840421380443941
+    },
+    "Frantic Search": {
+     "in_baseline": false,
+     "num_decks": 1456,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.03606849663523792
+    },
+    "Frostboil Snarl": {
+     "in_baseline": false,
+     "num_decks": 4562,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.4223333099122577
+    },
+    "Geier Reach Sanitarium": {
+     "in_baseline": false,
+     "num_decks": 4036,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.44567986747959537
+    },
+    "Gemcutter Buccaneer": {
+     "in_baseline": true,
+     "num_decks": 6502,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.7909738489765947
+    },
+    "Ghost of Ramirez DePietro": {
+     "in_baseline": false,
+     "num_decks": 2264,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.28045312027516206
+    },
+    "Glint-Horn Buccaneer": {
+     "in_baseline": false,
+     "num_decks": 2399,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.26142694387526916
+    },
+    "Gloomlake Verge": {
+     "in_baseline": false,
+     "num_decks": 456,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.033443678516293956
+    },
+    "Hall of Echoes": {
+     "in_baseline": false,
+     "num_decks": 6,
+     "potential_decks": 755,
+     "section": "New Cards",
+     "synergy": -0.0055232472369704
+    },
+    "Haunted Ridge": {
+     "in_baseline": false,
+     "num_decks": 1118,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.06877698573936178
+    },
+    "Herald's Horn": {
+     "in_baseline": false,
+     "num_decks": 5152,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.5954591440803731
+    },
+    "Hostage Taker": {
+     "in_baseline": true,
+     "num_decks": 7009,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8072214722688077
+    },
+    "Icon of Ancestry": {
+     "in_baseline": false,
+     "num_decks": 2557,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.3154094703437732
+    },
+    "Island": {
+     "in_baseline": true,
+     "num_decks": 7778,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.06080643810820707
+    },
+    "Izzet Boilerworks": {
+     "in_baseline": false,
+     "num_decks": 492,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.03426503286804805
+    },
+    "Izzet Signet": {
+     "in_baseline": true,
+     "num_decks": 4978,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.328213618862712
+    },
+    "Jackdaw": {
+     "in_baseline": false,
+     "num_decks": 680,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.05611788491626246
+    },
+    "Jeska's Will": {
+     "in_baseline": true,
+     "num_decks": 399,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.11082598006404262
+    },
+    "Jhoira, Weatherlight Corsair": {
+     "in_baseline": false,
+     "num_decks": 179,
+     "potential_decks": 771,
+     "section": "New Cards",
+     "synergy": 0.21896476557426997
+    },
+    "Kari Zev, Skyship Raider": {
+     "in_baseline": false,
+     "num_decks": 3509,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.4318864057599251
+    },
+    "Kindred Discovery": {
+     "in_baseline": true,
+     "num_decks": 2578,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.28205614222587294
+    },
+    "Kindred Dominance": {
+     "in_baseline": false,
+     "num_decks": 936,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.06591397984065508
+    },
+    "King Narfi's Betrayal": {
+     "in_baseline": false,
+     "num_decks": 1515,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.18551431635281954
+    },
+    "Kitesail Freebooter": {
+     "in_baseline": false,
+     "num_decks": 841,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.10155400704568539
+    },
+    "Kitesail Larcenist": {
+     "in_baseline": false,
+     "num_decks": 3828,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.4603917958727678
+    },
+    "Lethal Scheme": {
+     "in_baseline": false,
+     "num_decks": 3661,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.418620848358949
+    },
+    "Lightning Greaves": {
+     "in_baseline": true,
+     "num_decks": 898,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": -0.1768146523855026
+    },
+    "Lightning-Rig Crew": {
+     "in_baseline": false,
+     "num_decks": 772,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.09217251873128075
+    },
+    "Lookout's Dispersal": {
+     "in_baseline": false,
+     "num_decks": 1189,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.14112682672509325
+    },
+    "Luxury Suite": {
+     "in_baseline": true,
+     "num_decks": 1333,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.15645695613131505
+    },
+    "Malcolm, Alluring Scoundrel": {
+     "in_baseline": true,
+     "num_decks": 4366,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.5164146903085297
+    },
+    "Malcolm, Keen-Eyed Navigator": {
+     "in_baseline": true,
+     "num_decks": 7330,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8772053475381686
+    },
+    "Mana Drain": {
+     "in_baseline": true,
+     "num_decks": 476,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.09633053610664019
+    },
+    "March of the Drowned": {
+     "in_baseline": false,
+     "num_decks": 1157,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.12982298586582416
+    },
+    "Mary Read and Anne Bonny": {
+     "in_baseline": true,
+     "num_decks": 3809,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.4517420184376572
+    },
+    "Merchant Raiders": {
+     "in_baseline": true,
+     "num_decks": 6267,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.7689774338035879
+    },
+    "Molten Echoes": {
+     "in_baseline": false,
+     "num_decks": 608,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.04783065174778577
+    },
+    "Morphic Pool": {
+     "in_baseline": true,
+     "num_decks": 1328,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.14252163014233069
+    },
+    "Mountain": {
+     "in_baseline": true,
+     "num_decks": 7738,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.0686493187441315
+    },
+    "Negate": {
+     "in_baseline": false,
+     "num_decks": 755,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.12035030516941078
+    },
+    "Nephalia Drownyard": {
+     "in_baseline": false,
+     "num_decks": 3978,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.4928418616749039
+    },
+    "Nesting Grounds": {
+     "in_baseline": false,
+     "num_decks": 2737,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.336785586590025
+    },
+    "Otawara, Soaring City": {
+     "in_baseline": true,
+     "num_decks": 531,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": -0.09038965710943084
+    },
+    "Patchwork Banner": {
+     "in_baseline": false,
+     "num_decks": 1242,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.11264091841690421
+    },
+    "Path of Ancestry": {
+     "in_baseline": true,
+     "num_decks": 6274,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.4898249213912784
+    },
+    "Patriarch's Bidding": {
+     "in_baseline": true,
+     "num_decks": 790,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.07779610100198828
+    },
+    "Pirate Hat": {
+     "in_baseline": false,
+     "num_decks": 584,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.07133465068010696
+    },
+    "Pirate's Pillage": {
+     "in_baseline": false,
+     "num_decks": 625,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.06575706594504072
+    },
+    "Pirated Copy": {
+     "in_baseline": false,
+     "num_decks": 1971,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.238968579057777
+    },
+    "Pitiless Plunderer": {
+     "in_baseline": true,
+     "num_decks": 4849,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.5681485675329702
+    },
+    "Polluted Delta": {
+     "in_baseline": true,
+     "num_decks": 1436,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.1671836287874974
+    },
+    "Port Razer": {
+     "in_baseline": true,
+     "num_decks": 6943,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8423763249595537
+    },
+    "Port of Karfell": {
+     "in_baseline": false,
+     "num_decks": 3368,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.41394654534754194
+    },
+    "Power Conduit": {
+     "in_baseline": true,
+     "num_decks": 1654,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.20665730150650688
+    },
+    "Prismari Command": {
+     "in_baseline": false,
+     "num_decks": 4535,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.5182494451857707
+    },
+    "Ragavan, Nimble Pilferer": {
+     "in_baseline": false,
+     "num_decks": 2226,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.17285387346047854
+    },
+    "Raise the Palisade": {
+     "in_baseline": false,
+     "num_decks": 1184,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.12924764094143387
+    },
+    "Rakdos Charm": {
+     "in_baseline": false,
+     "num_decks": 4233,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.3959820871561752
+    },
+    "Rakdos Signet": {
+     "in_baseline": true,
+     "num_decks": 4653,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.28955574638124737
+    },
+    "Ramirez DePietro, Pillager": {
+     "in_baseline": true,
+     "num_decks": 6313,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.7514062949515846
+    },
+    "Raucous Theater": {
+     "in_baseline": false,
+     "num_decks": 1008,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.022972640805877687
+    },
+    "Reanimate": {
+     "in_baseline": true,
+     "num_decks": 945,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.14065832651720744
+    },
+    "Reconnaissance Mission": {
+     "in_baseline": false,
+     "num_decks": 428,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.03668481588004388
+    },
+    "Reflections of Littjara": {
+     "in_baseline": false,
+     "num_decks": 461,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.015241574105197234
+    },
+    "Reliquary Tower": {
+     "in_baseline": false,
+     "num_decks": 624,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": -0.2615120363292508
+    },
+    "Restless Reef": {
+     "in_baseline": false,
+     "num_decks": 689,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.07876017250699614
+    },
+    "Revel in Riches": {
+     "in_baseline": false,
+     "num_decks": 1752,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.1931929963590217
+    },
+    "Rhystic Study": {
+     "in_baseline": false,
+     "num_decks": 745,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": -0.1268308698752461
+    },
+    "Ripples of Undeath": {
+     "in_baseline": false,
+     "num_decks": 769,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.08769174034983723
+    },
+    "Roaming Throne": {
+     "in_baseline": true,
+     "num_decks": 2033,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.17159936386821872
+    },
+    "Rogue's Passage": {
+     "in_baseline": false,
+     "num_decks": 4918,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.4071421811803021
+    },
+    "Scalding Tarn": {
+     "in_baseline": true,
+     "num_decks": 1291,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.15801891097591989
+    },
+    "Secluded Courtyard": {
+     "in_baseline": true,
+     "num_decks": 5689,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.6567168625421111
+    },
+    "Seething Landscape": {
+     "in_baseline": false,
+     "num_decks": 925,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.029302256752306147
+    },
+    "Shared Animosity": {
+     "in_baseline": true,
+     "num_decks": 4839,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.588504499795593
+    },
+    "Shipwreck Marsh": {
+     "in_baseline": true,
+     "num_decks": 1494,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.05339964011461498
+    },
+    "Shivan Reef": {
+     "in_baseline": false,
+     "num_decks": 1810,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.06943476237506913
+    },
+    "Siren Stormtamer": {
+     "in_baseline": true,
+     "num_decks": 6514,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.7697069587689942
+    },
+    "Siren's Ruse": {
+     "in_baseline": false,
+     "num_decks": 1727,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.20678558157853427
+    },
+    "Skeleton Crew": {
+     "in_baseline": true,
+     "num_decks": 6843,
+     "potential_decks": 7845,
+     "section": "Top Cards",
+     "synergy": 0.8499647720781793
+    },
+    "Smoldering Marsh": {
+     "in_baseline": true,
+     "num_decks": 5513,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.3202073689462174
+    },
+    "Sol Ring": {
+     "in_baseline": true,
+     "num_decks": 7148,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": 0.014067510238272907
+    },
+    "Soul Diviner": {
+     "in_baseline": false,
+     "num_decks": 1396,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.1730234373157974
+    },
+    "Spectral Sailor": {
+     "in_baseline": false,
+     "num_decks": 3405,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.40836173157033023
+    },
+    "Spell Swindle": {
+     "in_baseline": false,
+     "num_decks": 572,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.058571519551159294
+    },
+    "Spyglass Siren": {
+     "in_baseline": false,
+     "num_decks": 760,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.09079722264140838
+    },
+    "Staunch Crewmate": {
+     "in_baseline": false,
+     "num_decks": 1234,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.1466377105125035
+    },
+    "Steam Vents": {
+     "in_baseline": true,
+     "num_decks": 2155,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.1878344690680696
+    },
+    "Storm Fleet Negotiator": {
+     "in_baseline": false,
+     "num_decks": 4044,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.5019139397540465
+    },
+    "Storm Fleet Sprinter": {
+     "in_baseline": false,
+     "num_decks": 862,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.09830544283877655
+    },
+    "Storm the Vault": {
+     "in_baseline": false,
+     "num_decks": 609,
+     "potential_decks": 7845,
+     "section": "Enchantments",
+     "synergy": 0.05844911236137215
+    },
+    "Stormcarved Coast": {
+     "in_baseline": true,
+     "num_decks": 1730,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.04589222919988781
+    },
+    "Subterranean Schooner": {
+     "in_baseline": false,
+     "num_decks": 493,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.0458421640087016
+    },
+    "Sulfur Falls": {
+     "in_baseline": true,
+     "num_decks": 6309,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.31626071205645073
+    },
+    "Sulfurous Springs": {
+     "in_baseline": false,
+     "num_decks": 1078,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.1496132205231084
+    },
+    "Sunken Hollow": {
+     "in_baseline": false,
+     "num_decks": 5582,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.3108865281772176
+    },
+    "Swamp": {
+     "in_baseline": true,
+     "num_decks": 7689,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.056613443186167234
+    },
+    "Swan Song": {
+     "in_baseline": false,
+     "num_decks": 408,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.14961543116212278
+    },
+    "Swiftfoot Boots": {
+     "in_baseline": false,
+     "num_decks": 678,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": -0.18738621661204133
+    },
+    "Takenuma, Abandoned Mire": {
+     "in_baseline": false,
+     "num_decks": 438,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.004753337011767528
+    },
+    "Talisman of Creativity": {
+     "in_baseline": true,
+     "num_decks": 1394,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": -0.2676382939576984
+    },
+    "Talisman of Dominance": {
+     "in_baseline": true,
+     "num_decks": 1381,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": -0.3306061694074941
+    },
+    "Talisman of Indulgence": {
+     "in_baseline": true,
+     "num_decks": 1180,
+     "potential_decks": 7845,
+     "section": "Mana Artifacts",
+     "synergy": -0.298883786415896
+    },
+    "Temple of Epiphany": {
+     "in_baseline": false,
+     "num_decks": 440,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.07193886604488794
+    },
+    "Terminate": {
+     "in_baseline": false,
+     "num_decks": 823,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.1563222600218452
+    },
+    "Terramorphic Expanse": {
+     "in_baseline": false,
+     "num_decks": 3278,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.23058678849730901
+    },
+    "The Belligerent": {
+     "in_baseline": false,
+     "num_decks": 1248,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.1296928436993101
+    },
+    "The Everflowing Well": {
+     "in_baseline": false,
+     "num_decks": 588,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.07126470941154808
+    },
+    "The Grim Captain's Locker": {
+     "in_baseline": false,
+     "num_decks": 2731,
+     "potential_decks": 7845,
+     "section": "High Lift Cards",
+     "synergy": 0.3402046504850044
+    },
+    "The Indomitable": {
+     "in_baseline": true,
+     "num_decks": 5814,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.6872023960625763
+    },
+    "Theorix Charm": {
+     "in_baseline": false,
+     "num_decks": 8,
+     "potential_decks": 858,
+     "section": "New Cards",
+     "synergy": 0.006295930777487026
+    },
+    "Three Tree City": {
+     "in_baseline": false,
+     "num_decks": 583,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.04642508279770301
+    },
+    "Thrill of Possibility": {
+     "in_baseline": false,
+     "num_decks": 647,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.037860629913730945
+    },
+    "Thriving Bluff": {
+     "in_baseline": false,
+     "num_decks": 2682,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.3080961514076152
+    },
+    "Thriving Isle": {
+     "in_baseline": false,
+     "num_decks": 2799,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.31962087272383327
+    },
+    "Thriving Moor": {
+     "in_baseline": false,
+     "num_decks": 2579,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.2891059973904011
+    },
+    "Thundering Falls": {
+     "in_baseline": false,
+     "num_decks": 1049,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.03072257729786111
+    },
+    "Timestream Navigator": {
+     "in_baseline": false,
+     "num_decks": 4687,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.5666012523561135
+    },
+    "Toxic Deluge": {
+     "in_baseline": true,
+     "num_decks": 414,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.16560491296561997
+    },
+    "Training Center": {
+     "in_baseline": true,
+     "num_decks": 1443,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.12785426892292806
+    },
+    "Treasure Map": {
+     "in_baseline": false,
+     "num_decks": 755,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.0853419438028684
+    },
+    "Treasure Vault": {
+     "in_baseline": false,
+     "num_decks": 412,
+     "potential_decks": 7845,
+     "section": "Utility Lands",
+     "synergy": 0.037740455429469064
+    },
+    "Turbulent Crater": {
+     "in_baseline": false,
+     "num_decks": 18,
+     "potential_decks": 771,
+     "section": "New Cards",
+     "synergy": -0.008111565058606267
+    },
+    "Turbulent Wetlands": {
+     "in_baseline": false,
+     "num_decks": 21,
+     "potential_decks": 771,
+     "section": "New Cards",
+     "synergy": -0.00585787913652587
+    },
+    "Unclaimed Territory": {
+     "in_baseline": false,
+     "num_decks": 5631,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": 0.6540310073905518
+    },
+    "Undercity Sewers": {
+     "in_baseline": false,
+     "num_decks": 986,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.0005884210602030149
+    },
+    "Underground River": {
+     "in_baseline": true,
+     "num_decks": 1180,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.13844879614561223
+    },
+    "Unexpected Windfall": {
+     "in_baseline": false,
+     "num_decks": 946,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": 0.02309523011084523
+    },
+    "Unmarked Grave": {
+     "in_baseline": false,
+     "num_decks": 403,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.037542214149264536
+    },
+    "Urza's Incubator": {
+     "in_baseline": false,
+     "num_decks": 491,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.02763574173972965
+    },
+    "Vaan, Street Thief": {
+     "in_baseline": false,
+     "num_decks": 781,
+     "potential_decks": 6072,
+     "section": "Creatures",
+     "synergy": 0.10288429649963242
+    },
+    "Vandalblast": {
+     "in_baseline": false,
+     "num_decks": 514,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.10596967672445871
+    },
+    "Vanquisher's Banner": {
+     "in_baseline": false,
+     "num_decks": 4112,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.4987331098987442
+    },
+    "Victimize": {
+     "in_baseline": true,
+     "num_decks": 635,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": -0.010643283045602706
+    },
+    "Walk the Plank": {
+     "in_baseline": false,
+     "num_decks": 660,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.07566005609963751
+    },
+    "Warkite Marauder": {
+     "in_baseline": false,
+     "num_decks": 5626,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.690518835261866
+    },
+    "Watery Grave": {
+     "in_baseline": true,
+     "num_decks": 2268,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.19626445926903663
+    },
+    "Wayfarer's Bauble": {
+     "in_baseline": false,
+     "num_decks": 2208,
+     "potential_decks": 7845,
+     "section": "Utility Artifacts",
+     "synergy": 0.18653575839343178
+    },
+    "Windfall": {
+     "in_baseline": false,
+     "num_decks": 4377,
+     "potential_decks": 7845,
+     "section": "Sorceries",
+     "synergy": 0.32632394549119315
+    },
+    "Withering Torment": {
+     "in_baseline": false,
+     "num_decks": 500,
+     "potential_decks": 7845,
+     "section": "Instants",
+     "synergy": -0.0691169554336145
+    },
+    "Wonder": {
+     "in_baseline": true,
+     "num_decks": 1618,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.1561103428221098
+    },
+    "Xander's Lounge": {
+     "in_baseline": true,
+     "num_decks": 2026,
+     "potential_decks": 7845,
+     "section": "Lands",
+     "synergy": -0.13233447729715003
+    },
+    "Zara, Renegade Recruiter": {
+     "in_baseline": true,
+     "num_decks": 5855,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.6920052609592825
+    },
+    "Zephyr Singer": {
+     "in_baseline": false,
+     "num_decks": 1166,
+     "potential_decks": 7845,
+     "section": "Creatures",
+     "synergy": 0.14128600682479164
+    }
+   },
+   "url": "all"
+  },
+  "optimized": {
+   "cards": {
+    "Admiral Beckett Brass": {
+     "in_baseline": true,
+     "num_decks": 151,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.8317861073837712
+    },
+    "Admiral's Order": {
+     "in_baseline": false,
+     "num_decks": 9,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.045171649207180246
+    },
+    "Adéwalé, Breaker of Chains": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.05226755632706309
+    },
+    "Amphin Mutineer": {
+     "in_baseline": true,
+     "num_decks": 91,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.5032317192473449
+    },
+    "An Offer You Can't Refuse": {
+     "in_baseline": false,
+     "num_decks": 39,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.0965814950851337
+    },
+    "Ancient Tomb": {
+     "in_baseline": true,
+     "num_decks": 26,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.026839462738874276
+    },
+    "Angrath's Marauders": {
+     "in_baseline": true,
+     "num_decks": 124,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6898243102923072
+    },
+    "Angrath, Minotaur Pirate": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Planeswalkers",
+     "synergy": 0.05305019420551875
+    },
+    "Animate Dead": {
+     "in_baseline": true,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": -0.030305339205349793
+    },
+    "Arcane Denial": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.18004595425091768
+    },
+    "Arcane Signet": {
+     "in_baseline": true,
+     "num_decks": 159,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.03684329569573763
+    },
+    "Arm-Mounted Anchor": {
+     "in_baseline": false,
+     "num_decks": 25,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.1373964878309919
+    },
+    "Azure Fleet Admiral": {
+     "in_baseline": false,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.1475868870365898
+    },
+    "Back in Town": {
+     "in_baseline": false,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.13659116060325555
+    },
+    "Badlands": {
+     "in_baseline": true,
+     "num_decks": 30,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.018610932719484746
+    },
+    "Bident of Thassa": {
+     "in_baseline": false,
+     "num_decks": 67,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.34764272550105757
+    },
+    "Big Score": {
+     "in_baseline": false,
+     "num_decks": 24,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.0019220482931828486
+    },
+    "Black Market Connections": {
+     "in_baseline": true,
+     "num_decks": 115,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.532937165078169
+    },
+    "Blasphemous Act": {
+     "in_baseline": false,
+     "num_decks": 91,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.07782725296347076
+    },
+    "Blazemire Verge": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.016006262935536197
+    },
+    "Blood Crypt": {
+     "in_baseline": true,
+     "num_decks": 99,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.10319650132645286
+    },
+    "Blood Money": {
+     "in_baseline": false,
+     "num_decks": 55,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.2808752403223445
+    },
+    "Bloodstained Mire": {
+     "in_baseline": true,
+     "num_decks": 83,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.1263099919445576
+    },
+    "Bojuka Bog": {
+     "in_baseline": false,
+     "num_decks": 20,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": -0.12395473621901429
+    },
+    "Brainstorm": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.10996687294725135
+    },
+    "Brass's Bounty": {
+     "in_baseline": false,
+     "num_decks": 13,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.060968114025722664
+    },
+    "Brass's Tunnel-Grinder": {
+     "in_baseline": true,
+     "num_decks": 38,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.19699430742069396
+    },
+    "Breeches, Brazen Plunderer": {
+     "in_baseline": true,
+     "num_decks": 117,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6320194194788932
+    },
+    "Breeches, Eager Pillager": {
+     "in_baseline": true,
+     "num_decks": 133,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7218540641549428
+    },
+    "Broadside Bombardiers": {
+     "in_baseline": true,
+     "num_decks": 105,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.5843213437804484
+    },
+    "Buried Alive": {
+     "in_baseline": true,
+     "num_decks": 80,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.4233962539209203
+    },
+    "Captain Howler, Sea Scourge": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 172,
+     "section": "Creatures",
+     "synergy": 0.07104160110106605
+    },
+    "Captain Lannery Storm": {
+     "in_baseline": true,
+     "num_decks": 139,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7575894155367091
+    },
+    "Captain Storm, Cosmium Raider": {
+     "in_baseline": false,
+     "num_decks": 42,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.20956421897816502
+    },
+    "Captivating Crew": {
+     "in_baseline": false,
+     "num_decks": 60,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.3149703277683866
+    },
+    "Cavern of Souls": {
+     "in_baseline": true,
+     "num_decks": 76,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.3667516665308963
+    },
+    "Chaos Warp": {
+     "in_baseline": true,
+     "num_decks": 83,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.13266298563119194
+    },
+    "Chart a Course": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.06574407737757706
+    },
+    "Choked Estuary": {
+     "in_baseline": false,
+     "num_decks": 60,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.16326809671213366
+    },
+    "Chromatic Lantern": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.06957760087184969
+    },
+    "Chrome Mox": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.0024164518663237627
+    },
+    "Clearwater Pathway": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.04850330647836259
+    },
+    "Coastal Piracy": {
+     "in_baseline": false,
+     "num_decks": 26,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.11543515079562157
+    },
+    "Coastline Marauders": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.07555004763497472
+    },
+    "Coercive Recruiter": {
+     "in_baseline": true,
+     "num_decks": 156,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.8516338869265307
+    },
+    "Command Tower": {
+     "in_baseline": true,
+     "num_decks": 166,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.04197840661139185
+    },
+    "Commander's Sphere": {
+     "in_baseline": false,
+     "num_decks": 22,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.04337667091475103
+    },
+    "Conjurer's Closet": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.04663712558399304
+    },
+    "Corsair Captain": {
+     "in_baseline": true,
+     "num_decks": 137,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7494659292475442
+    },
+    "Counterspell": {
+     "in_baseline": true,
+     "num_decks": 71,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.03708515065637502
+    },
+    "Cover of Darkness": {
+     "in_baseline": false,
+     "num_decks": 41,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.21513416488311543
+    },
+    "Crumbling Necropolis": {
+     "in_baseline": true,
+     "num_decks": 84,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.033573461476155364
+    },
+    "Curiosity": {
+     "in_baseline": false,
+     "num_decks": 12,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.028294956766481756
+    },
+    "Cutthroat Negotiator": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.07653123540360224
+    },
+    "Cyclonic Rift": {
+     "in_baseline": true,
+     "num_decks": 81,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.2710754909492342
+    },
+    "Daring Saboteur": {
+     "in_baseline": false,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.14653361657967898
+    },
+    "Dark Ritual": {
+     "in_baseline": false,
+     "num_decks": 31,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.2097288433482116
+    },
+    "Deadly Dispute": {
+     "in_baseline": false,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.011200473095838867
+    },
+    "Deadly Rollick": {
+     "in_baseline": true,
+     "num_decks": 50,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.10561062638915755
+    },
+    "Deflecting Swat": {
+     "in_baseline": true,
+     "num_decks": 59,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.14263976497499162
+    },
+    "Demonic Tutor": {
+     "in_baseline": true,
+     "num_decks": 65,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.16996146680590996
+    },
+    "Departed Deckhand": {
+     "in_baseline": false,
+     "num_decks": 21,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.1091943741457059
+    },
+    "Desolate Lighthouse": {
+     "in_baseline": false,
+     "num_decks": 65,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.31695630890919724
+    },
+    "Diabolic Intent": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": -0.014924335420580664
+    },
+    "Dimir Signet": {
+     "in_baseline": true,
+     "num_decks": 73,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.09489251294513579
+    },
+    "Dire Fleet Captain": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.090144242173142
+    },
+    "Dire Fleet Daredevil": {
+     "in_baseline": true,
+     "num_decks": 90,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.4840153956276852
+    },
+    "Dire Fleet Neckbreaker": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.17304515673596324
+    },
+    "Dire Fleet Poisoner": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.10146716783042814
+    },
+    "Dire Fleet Ravager": {
+     "in_baseline": false,
+     "num_decks": 52,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.28316882972399277
+    },
+    "Distant Melody": {
+     "in_baseline": false,
+     "num_decks": 42,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.21829072113997655
+    },
+    "Don Andres, the Renegade": {
+     "in_baseline": false,
+     "num_decks": 40,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.18487414409644048
+    },
+    "Double Down": {
+     "in_baseline": false,
+     "num_decks": 51,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.27260183795544035
+    },
+    "Dragonskull Summit": {
+     "in_baseline": false,
+     "num_decks": 51,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.18225457312454774
+    },
+    "Drowned Catacomb": {
+     "in_baseline": true,
+     "num_decks": 61,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.09513055821694605
+    },
+    "Edward Kenway": {
+     "in_baseline": true,
+     "num_decks": 63,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.35631759191208845
+    },
+    "Emberwilde Captain": {
+     "in_baseline": false,
+     "num_decks": 23,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.1259400783930279
+    },
+    "Enterprising Scallywag": {
+     "in_baseline": true,
+     "num_decks": 64,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.3551213255084093
+    },
+    "Entomb": {
+     "in_baseline": true,
+     "num_decks": 66,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.32521444840883823
+    },
+    "Evacuation": {
+     "in_baseline": false,
+     "num_decks": 30,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.14991517354091058
+    },
+    "Evolving Wilds": {
+     "in_baseline": false,
+     "num_decks": 37,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.0058790129390414725
+    },
+    "Exotic Orchard": {
+     "in_baseline": true,
+     "num_decks": 111,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.06964258258950262
+    },
+    "Fain, the Broker": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.0678955870867318
+    },
+    "Faithless Looting": {
+     "in_baseline": true,
+     "num_decks": 114,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.4565564123832392
+    },
+    "Fathom Fleet Captain": {
+     "in_baseline": true,
+     "num_decks": 57,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.3076655990656714
+    },
+    "Feed the Swarm": {
+     "in_baseline": true,
+     "num_decks": 74,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.15480261851486826
+    },
+    "Fell the Profane": {
+     "in_baseline": false,
+     "num_decks": 9,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.02909747495150694
+    },
+    "Fellwar Stone": {
+     "in_baseline": false,
+     "num_decks": 35,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.15518036845164374
+    },
+    "Fierce Guardianship": {
+     "in_baseline": true,
+     "num_decks": 68,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.20133290402801898
+    },
+    "Fiery Cannonade": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.08333148173615283
+    },
+    "Fiery Islet": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.06153674625110645
+    },
+    "Force of Negation": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.020812221558915753
+    },
+    "Force of Will": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.08135431351474934
+    },
+    "Foreboding Ruins": {
+     "in_baseline": false,
+     "num_decks": 55,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.1283303929005629
+    },
+    "Forerunner of the Coalition": {
+     "in_baseline": true,
+     "num_decks": 122,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6717333398178417
+    },
+    "Francisco, Fowl Marauder": {
+     "in_baseline": true,
+     "num_decks": 106,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.5843306027710158
+    },
+    "Frantic Search": {
+     "in_baseline": false,
+     "num_decks": 40,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.009549455228362091
+    },
+    "Frostboil Snarl": {
+     "in_baseline": false,
+     "num_decks": 60,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.18763722942212555
+    },
+    "Gamble": {
+     "in_baseline": false,
+     "num_decks": 36,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.11053252734624178
+    },
+    "Geier Reach Sanitarium": {
+     "in_baseline": false,
+     "num_decks": 61,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.28381320965475937
+    },
+    "Gemcutter Buccaneer": {
+     "in_baseline": true,
+     "num_decks": 127,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6962697371569091
+    },
+    "Ghost of Ramirez DePietro": {
+     "in_baseline": false,
+     "num_decks": 30,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.1652720653710775
+    },
+    "Gifts Ungiven": {
+     "in_baseline": false,
+     "num_decks": 25,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.11757414640033775
+    },
+    "Glint-Horn Buccaneer": {
+     "in_baseline": false,
+     "num_decks": 113,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6088062620964402
+    },
+    "Gloomlake Verge": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.01825671605040108
+    },
+    "Great Train Heist": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.03846291979832231
+    },
+    "Grim Tutor": {
+     "in_baseline": false,
+     "num_decks": 12,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.0331566863408562
+    },
+    "Haunted Ridge": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.026317041074485598
+    },
+    "Helm of the Host": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.06947211107046505
+    },
+    "Herald's Horn": {
+     "in_baseline": false,
+     "num_decks": 94,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.4820877171931027
+    },
+    "Hostage Taker": {
+     "in_baseline": true,
+     "num_decks": 153,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7981792267385373
+    },
+    "Icon of Ancestry": {
+     "in_baseline": false,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.1455387452768147
+    },
+    "Imperial Seal": {
+     "in_baseline": false,
+     "num_decks": 12,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.001717084623086798
+    },
+    "Impulsive Pilferer": {
+     "in_baseline": false,
+     "num_decks": 13,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.06601755516667528
+    },
+    "Island": {
+     "in_baseline": true,
+     "num_decks": 170,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.05200586928376527
+    },
+    "Izzet Signet": {
+     "in_baseline": true,
+     "num_decks": 74,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.12141498787283217
+    },
+    "Jackdaw": {
+     "in_baseline": false,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.03302228630590352
+    },
+    "Jeska's Will": {
+     "in_baseline": true,
+     "num_decks": 45,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.09842920622227794
+    },
+    "Jhoira, Weatherlight Corsair": {
+     "in_baseline": false,
+     "num_decks": 6,
+     "potential_decks": 21,
+     "section": "New Cards",
+     "synergy": 0.2725130331303196
+    },
+    "Kari Zev, Skyship Raider": {
+     "in_baseline": false,
+     "num_decks": 49,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.2678321316558052
+    },
+    "Kiki-Jiki, Mirror Breaker": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.06457726372644448
+    },
+    "Kindred Discovery": {
+     "in_baseline": true,
+     "num_decks": 65,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.32916173210492405
+    },
+    "Kindred Dominance": {
+     "in_baseline": false,
+     "num_decks": 22,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.07376994641853504
+    },
+    "King Narfi's Betrayal": {
+     "in_baseline": false,
+     "num_decks": 12,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.061761843403295325
+    },
+    "Kitesail Freebooter": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.08683751666301832
+    },
+    "Kitesail Larcenist": {
+     "in_baseline": false,
+     "num_decks": 96,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.527350979771794
+    },
+    "Lethal Scheme": {
+     "in_baseline": false,
+     "num_decks": 43,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.20050909498708003
+    },
+    "Lightning Greaves": {
+     "in_baseline": true,
+     "num_decks": 44,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": -0.0369472061640958
+    },
+    "Lightning-Rig Crew": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.10359247990090759
+    },
+    "Lookout's Dispersal": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.08205087171527514
+    },
+    "Lotus Petal": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.023784827714116663
+    },
+    "Luxury Suite": {
+     "in_baseline": true,
+     "num_decks": 63,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.03778774890152864
+    },
+    "Malcolm, Alluring Scoundrel": {
+     "in_baseline": true,
+     "num_decks": 96,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.514795161651788
+    },
+    "Malcolm, Keen-Eyed Navigator": {
+     "in_baseline": true,
+     "num_decks": 169,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.9197308691140775
+    },
+    "Malcolm, the Eyes": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.08433261009123638
+    },
+    "Mana Drain": {
+     "in_baseline": true,
+     "num_decks": 54,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.15513260266957676
+    },
+    "Mana Vault": {
+     "in_baseline": false,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.008718219705405678
+    },
+    "March of the Drowned": {
+     "in_baseline": false,
+     "num_decks": 21,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.10372779619013515
+    },
+    "Mary Read and Anne Bonny": {
+     "in_baseline": true,
+     "num_decks": 91,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.492221393025499
+    },
+    "Mechanized Production": {
+     "in_baseline": false,
+     "num_decks": 9,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.003238970917691472
+    },
+    "Merchant Raiders": {
+     "in_baseline": true,
+     "num_decks": 130,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.7215697480422509
+    },
+    "Molten Echoes": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.05703426068835025
+    },
+    "Morphic Pool": {
+     "in_baseline": true,
+     "num_decks": 73,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.11016389172830598
+    },
+    "Mountain": {
+     "in_baseline": true,
+     "num_decks": 164,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.030265458032437742
+    },
+    "Mystic Remora": {
+     "in_baseline": false,
+     "num_decks": 21,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": -0.03236726094718004
+    },
+    "Mystical Tutor": {
+     "in_baseline": false,
+     "num_decks": 24,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.009843476402781354
+    },
+    "Negate": {
+     "in_baseline": false,
+     "num_decks": 13,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.1414454395836579
+    },
+    "Nephalia Drownyard": {
+     "in_baseline": false,
+     "num_decks": 58,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.3210274074921654
+    },
+    "Nesting Grounds": {
+     "in_baseline": false,
+     "num_decks": 74,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.4156466114318852
+    },
+    "Otawara, Soaring City": {
+     "in_baseline": true,
+     "num_decks": 40,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.07313779124875172
+    },
+    "Patchwork Banner": {
+     "in_baseline": false,
+     "num_decks": 24,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.09305184249873535
+    },
+    "Path of Ancestry": {
+     "in_baseline": true,
+     "num_decks": 106,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.302796623848939
+    },
+    "Patriarch's Bidding": {
+     "in_baseline": true,
+     "num_decks": 18,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.08114126028388427
+    },
+    "Phyrexian Tower": {
+     "in_baseline": false,
+     "num_decks": 15,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.02762402957369811
+    },
+    "Pirated Copy": {
+     "in_baseline": false,
+     "num_decks": 66,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.36922863940327155
+    },
+    "Pitiless Plunderer": {
+     "in_baseline": true,
+     "num_decks": 99,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.5223022017095931
+    },
+    "Polluted Delta": {
+     "in_baseline": true,
+     "num_decks": 86,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.14687967135212981
+    },
+    "Pongify": {
+     "in_baseline": false,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.0005002145542000319
+    },
+    "Port Razer": {
+     "in_baseline": true,
+     "num_decks": 161,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.8879898559078032
+    },
+    "Port of Karfell": {
+     "in_baseline": false,
+     "num_decks": 31,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.16381925982640816
+    },
+    "Power Conduit": {
+     "in_baseline": true,
+     "num_decks": 42,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.23859694127558773
+    },
+    "Prismari Command": {
+     "in_baseline": false,
+     "num_decks": 65,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.31589678140006716
+    },
+    "Protean Raider": {
+     "in_baseline": false,
+     "num_decks": 13,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.06878108656352047
+    },
+    "Ragavan, Nimble Pilferer": {
+     "in_baseline": false,
+     "num_decks": 108,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.5133837201652388
+    },
+    "Raise the Palisade": {
+     "in_baseline": false,
+     "num_decks": 40,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.20953735826073816
+    },
+    "Rakdos Charm": {
+     "in_baseline": false,
+     "num_decks": 62,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.2147842401419509
+    },
+    "Rakdos Signet": {
+     "in_baseline": true,
+     "num_decks": 63,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.06060096129299486
+    },
+    "Ramirez DePietro, Pillager": {
+     "in_baseline": true,
+     "num_decks": 130,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6981350017970036
+    },
+    "Raucous Theater": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.0794542553241637
+    },
+    "Reanimate": {
+     "in_baseline": true,
+     "num_decks": 56,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.06258220443472617
+    },
+    "Reconnaissance Mission": {
+     "in_baseline": false,
+     "num_decks": 9,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.03415089456496892
+    },
+    "Reliquary Tower": {
+     "in_baseline": false,
+     "num_decks": 18,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": -0.23700690254129997
+    },
+    "Restless Reef": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.0891994272880319
+    },
+    "Revel in Riches": {
+     "in_baseline": false,
+     "num_decks": 48,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.2473226839108293
+    },
+    "Rhystic Study": {
+     "in_baseline": false,
+     "num_decks": 82,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.2521926236057458
+    },
+    "Ripples of Undeath": {
+     "in_baseline": false,
+     "num_decks": 29,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.15729757890537682
+    },
+    "Roaming Throne": {
+     "in_baseline": true,
+     "num_decks": 91,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.43846497172565896
+    },
+    "Rogue's Passage": {
+     "in_baseline": false,
+     "num_decks": 88,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.2889165892381571
+    },
+    "Scalding Tarn": {
+     "in_baseline": true,
+     "num_decks": 82,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.1514061121417833
+    },
+    "Secluded Courtyard": {
+     "in_baseline": true,
+     "num_decks": 85,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.4228710714377296
+    },
+    "Secret Tunnel": {
+     "in_baseline": false,
+     "num_decks": 7,
+     "potential_decks": 119,
+     "section": "Utility Lands",
+     "synergy": 0.04193878806181292
+    },
+    "Shared Animosity": {
+     "in_baseline": true,
+     "num_decks": 69,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.37052242660733936
+    },
+    "Shipwreck Marsh": {
+     "in_baseline": true,
+     "num_decks": 48,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.0336172367297356
+    },
+    "Shivan Reef": {
+     "in_baseline": false,
+     "num_decks": 50,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.011137625286168185
+    },
+    "Sink into Stupor": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.0008145259384170767
+    },
+    "Siren Stormtamer": {
+     "in_baseline": true,
+     "num_decks": 139,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7428373720877385
+    },
+    "Siren's Ruse": {
+     "in_baseline": false,
+     "num_decks": 28,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.14849507586265914
+    },
+    "Skeleton Crew": {
+     "in_baseline": true,
+     "num_decks": 136,
+     "potential_decks": 173,
+     "section": "Top Cards",
+     "synergy": 0.7638166051002065
+    },
+    "Smoldering Marsh": {
+     "in_baseline": true,
+     "num_decks": 83,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.09723555596567307
+    },
+    "Sol Ring": {
+     "in_baseline": true,
+     "num_decks": 165,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": 0.0566711346520411
+    },
+    "Soul Diviner": {
+     "in_baseline": false,
+     "num_decks": 35,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.19738783863175655
+    },
+    "Spectral Sailor": {
+     "in_baseline": false,
+     "num_decks": 52,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.2749053494264074
+    },
+    "Spell Swindle": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.06658369180475773
+    },
+    "Spyglass Siren": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.07484508641827005
+    },
+    "Staunch Crewmate": {
+     "in_baseline": false,
+     "num_decks": 25,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.1338487392226646
+    },
+    "Steam Vents": {
+     "in_baseline": true,
+     "num_decks": 102,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.1270636472535815
+    },
+    "Storm Fleet Negotiator": {
+     "in_baseline": false,
+     "num_decks": 51,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.28122405591359734
+    },
+    "Storm Fleet Sprinter": {
+     "in_baseline": false,
+     "num_decks": 19,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.09825312867379536
+    },
+    "Storm the Vault": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": 0.06174490475518729
+    },
+    "Stormcarved Coast": {
+     "in_baseline": true,
+     "num_decks": 60,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.08040595417231272
+    },
+    "Sulfur Falls": {
+     "in_baseline": true,
+     "num_decks": 122,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.21725652323915606
+    },
+    "Sulfurous Springs": {
+     "in_baseline": false,
+     "num_decks": 38,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.06737240589577315
+    },
+    "Sunken Hollow": {
+     "in_baseline": false,
+     "num_decks": 81,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.06755861046518868
+    },
+    "Swamp": {
+     "in_baseline": true,
+     "num_decks": 162,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.012914905403919374
+    },
+    "Swan Song": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.016651981079783246
+    },
+    "Swiftfoot Boots": {
+     "in_baseline": false,
+     "num_decks": 21,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": -0.15242340756242762
+    },
+    "Takenuma, Abandoned Mire": {
+     "in_baseline": false,
+     "num_decks": 34,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.1454533889575229
+    },
+    "Talisman of Creativity": {
+     "in_baseline": true,
+     "num_decks": 59,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.1042906294904371
+    },
+    "Talisman of Dominance": {
+     "in_baseline": true,
+     "num_decks": 53,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.20028347942786717
+    },
+    "Talisman of Indulgence": {
+     "in_baseline": true,
+     "num_decks": 47,
+     "potential_decks": 173,
+     "section": "Mana Artifacts",
+     "synergy": -0.17762176244716665
+    },
+    "Terminate": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.18030498897920916
+    },
+    "Terramorphic Expanse": {
+     "in_baseline": false,
+     "num_decks": 31,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.008068221689216754
+    },
+    "Thassa, Deep-Dwelling": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.06819033161978916
+    },
+    "The Belligerent": {
+     "in_baseline": false,
+     "num_decks": 23,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.10355860260469148
+    },
+    "The Grim Captain's Locker": {
+     "in_baseline": false,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "High Lift Cards",
+     "synergy": 0.14815419310447045
+    },
+    "The Indomitable": {
+     "in_baseline": true,
+     "num_decks": 94,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.4894460106029668
+    },
+    "The One Ring": {
+     "in_baseline": false,
+     "num_decks": 22,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.00350533568018202
+    },
+    "The Soul Stone": {
+     "in_baseline": false,
+     "num_decks": 8,
+     "potential_decks": 137,
+     "section": "Mana Artifacts",
+     "synergy": 0.010742769713267791
+    },
+    "Three Tree City": {
+     "in_baseline": false,
+     "num_decks": 23,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.10505820945324369
+    },
+    "Thrill of Possibility": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.03940868710563919
+    },
+    "Thriving Bluff": {
+     "in_baseline": false,
+     "num_decks": 28,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.1280720574189549
+    },
+    "Thriving Isle": {
+     "in_baseline": false,
+     "num_decks": 30,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.13624351444180094
+    },
+    "Thriving Moor": {
+     "in_baseline": false,
+     "num_decks": 26,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.11065059153195148
+    },
+    "Thundering Falls": {
+     "in_baseline": false,
+     "num_decks": 32,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.08197793305260347
+    },
+    "Time Sieve": {
+     "in_baseline": false,
+     "num_decks": 9,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.03092434130389759
+    },
+    "Timestream Navigator": {
+     "in_baseline": false,
+     "num_decks": 128,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.709035039938499
+    },
+    "Toxic Deluge": {
+     "in_baseline": true,
+     "num_decks": 27,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": -0.06230801534296718
+    },
+    "Training Center": {
+     "in_baseline": true,
+     "num_decks": 69,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.08705084718136136
+    },
+    "Treasure Map": {
+     "in_baseline": false,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.05268611574700276
+    },
+    "Treasure Vault": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": 0.08348882429590954
+    },
+    "Unclaimed Territory": {
+     "in_baseline": false,
+     "num_decks": 87,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.43913915403231396
+    },
+    "Undercity Sewers": {
+     "in_baseline": false,
+     "num_decks": 34,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.07025822107038346
+    },
+    "Underground River": {
+     "in_baseline": true,
+     "num_decks": 47,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.01718677217688286
+    },
+    "Underground Sea": {
+     "in_baseline": true,
+     "num_decks": 26,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": -0.002712594892748027
+    },
+    "Underworld Breach": {
+     "in_baseline": false,
+     "num_decks": 14,
+     "potential_decks": 173,
+     "section": "Enchantments",
+     "synergy": -0.03080941167228618
+    },
+    "Unexpected Windfall": {
+     "in_baseline": false,
+     "num_decks": 18,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.006555112146087297
+    },
+    "Unmarked Grave": {
+     "in_baseline": false,
+     "num_decks": 20,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.10177885101159355
+    },
+    "Urborg, Tomb of Yawgmoth": {
+     "in_baseline": false,
+     "num_decks": 22,
+     "potential_decks": 173,
+     "section": "Utility Lands",
+     "synergy": -0.009150595275332435
+    },
+    "Urza's Incubator": {
+     "in_baseline": false,
+     "num_decks": 17,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.06331400225690306
+    },
+    "Vaan, Street Thief": {
+     "in_baseline": false,
+     "num_decks": 24,
+     "potential_decks": 151,
+     "section": "Creatures",
+     "synergy": 0.13320150544482873
+    },
+    "Vampiric Tutor": {
+     "in_baseline": true,
+     "num_decks": 57,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": 0.17672635295703645
+    },
+    "Vandalblast": {
+     "in_baseline": false,
+     "num_decks": 23,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": -0.03854113897905187
+    },
+    "Vanquisher's Banner": {
+     "in_baseline": false,
+     "num_decks": 54,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.28671632515679674
+    },
+    "Victimize": {
+     "in_baseline": true,
+     "num_decks": 16,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.0008989901153886037
+    },
+    "Volcanic Island": {
+     "in_baseline": true,
+     "num_decks": 28,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.009361177030850765
+    },
+    "Walk the Plank": {
+     "in_baseline": false,
+     "num_decks": 10,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.0493335051872711
+    },
+    "Warkite Marauder": {
+     "in_baseline": false,
+     "num_decks": 82,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.44736259642928233
+    },
+    "Watery Grave": {
+     "in_baseline": true,
+     "num_decks": 110,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.15047235258785835
+    },
+    "Wayfarer's Bauble": {
+     "in_baseline": false,
+     "num_decks": 20,
+     "potential_decks": 173,
+     "section": "Utility Artifacts",
+     "synergy": 0.020689539933899728
+    },
+    "Wheel of Fortune": {
+     "in_baseline": false,
+     "num_decks": 11,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": -0.030424223197515962
+    },
+    "Windfall": {
+     "in_baseline": false,
+     "num_decks": 85,
+     "potential_decks": 173,
+     "section": "Sorceries",
+     "synergy": 0.2597184348202086
+    },
+    "Withering Torment": {
+     "in_baseline": false,
+     "num_decks": 12,
+     "potential_decks": 173,
+     "section": "Instants",
+     "synergy": -0.06348765655394814
+    },
+    "Wonder": {
+     "in_baseline": true,
+     "num_decks": 52,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.2504423609331264
+    },
+    "Xander's Lounge": {
+     "in_baseline": true,
+     "num_decks": 85,
+     "potential_decks": 173,
+     "section": "Lands",
+     "synergy": 0.10074133771701527
+    },
+    "Zara, Renegade Recruiter": {
+     "in_baseline": true,
+     "num_decks": 123,
+     "potential_decks": 173,
+     "section": "Creatures",
+     "synergy": 0.6566526745395976
+    }
+   },
+   "url": "optimized"
+  }
+ },
+ "retrieved": "2026-10-23 (America/Chicago), GrokBot M7 run"
+}
