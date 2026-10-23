@@ -206,7 +206,7 @@
    }
   ],
   "included_with_commander": [],
-  "almost_included_count": 20,
+  "almost_included_count": 22,
   "almost_included_sample": [
    {
     "id": "513-5034--46",
@@ -258,6 +258,18 @@
     ]
    },
    {
+    "id": "4508-4869",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
     "id": "2552-3263",
     "uses": [
      "Mycosynth Lattice",
@@ -269,48 +281,22 @@
     ]
    },
    {
-    "id": "6428-6574",
+    "id": "1089-4869",
     "uses": [
-     "Magmakin Artillerist",
-     "Kefka, Court Mage // Kefka, Ruler of Ruin"
-    ],
-    "produces": [
-     "Near-infinite damage",
-     "Infinite self-discard triggers",
-     "Infinite draw triggers",
-     "Infinite rummaging"
-    ]
-   },
-   {
-    "id": "1089-6428",
-    "uses": [
-     "Magmakin Artillerist",
+     "Glint-Horn Buccaneer",
      "Curiosity"
     ],
     "produces": [
-     "Near-infinite damage",
-     "Infinite self-discard triggers",
      "Infinite draw triggers",
-     "Infinite rummaging"
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
     ]
    },
    {
-    "id": "2396-6428",
+    "id": "406-4869",
     "uses": [
-     "Magmakin Artillerist",
-     "Ophidian Eye"
-    ],
-    "produces": [
-     "Near-infinite damage",
-     "Infinite self-discard triggers",
-     "Infinite draw triggers",
-     "Infinite rummaging"
-    ]
-   },
-   {
-    "id": "406-6428",
-    "uses": [
-     "Magmakin Artillerist",
+     "Glint-Horn Buccaneer",
      "Tandem Lookout"
     ],
     "produces": [
@@ -318,6 +304,32 @@
      "Infinite rummaging",
      "Infinite self-discard triggers",
      "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2396-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Ophidian Eye"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "4869-6574",
+    "uses": [
+     "Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite rummaging"
     ]
    },
    {
@@ -344,30 +356,6 @@
      "Creatures opponents control die upon entering",
      "Lock",
      "Reduce the toughness of creatures opponents control to 0"
-    ]
-   },
-   {
-    "id": "2034-7766-7767",
-    "uses": [
-     "Ultron, Unlimited",
-     "Prowler, Clawed Thief",
-     "Ashnod's Altar"
-    ],
-    "produces": [
-     "Near-infinite artifact ETB",
-     "Near-infinite artifact LTB",
-     "Near-infinite artifact sacrifice triggers",
-     "Near-infinite artifact tokens",
-     "Infinite draw triggers",
-     "Infinite looting",
-     "Infinite self-discard triggers",
-     "Near-infinite +1/+1 counters on a creature",
-     "Near-infinite creature ETB",
-     "Near-infinite creature LTB",
-     "Near-infinite colorless mana",
-     "Near-infinite death triggers",
-     "Near-infinite creature sacrifice triggers",
-     "Near-infinite creature tokens"
     ]
    }
   ]

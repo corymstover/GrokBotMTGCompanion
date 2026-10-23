@@ -11,6 +11,7 @@
 1x Bone Miser
 1x Canyon Slough
 1x Chameleon, Master of Disguise
+1x Change of Fortune
 1x Chaos Warp
 1x City of Brass
 1x Coastal Peak
@@ -48,7 +49,6 @@
 1x Lightning Axe
 1x Luxury Suite
 1x M.O.D.O.K.
-1x Magmakin Artillerist
 1x Mana Confluence
 1x Monument to Endurance
 1x Moonstone, Harsh Mistress

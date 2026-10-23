@@ -35,7 +35,6 @@
 1x Fierce Guardianship
 1x Frantic Search
 1x Geier Reach Sanitarium
-1x Glint-Horn Buccaneer
 1x Glorious Purpose
 1x Green Goblin, Nemesis
 1x Green Goblin, Revenant
@@ -49,6 +48,7 @@
 1x Lightning Axe
 1x Luxury Suite
 1x M.O.D.O.K.
+1x Magmakin Artillerist
 1x Mana Confluence
 1x Monument to Endurance
 1x Moonstone, Harsh Mistress

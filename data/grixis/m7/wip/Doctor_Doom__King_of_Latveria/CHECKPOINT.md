@@ -20,3 +20,11 @@
 - Provisional candidate (six swaps): +Lightning Axe -Feed the Swarm; +Magmakin Artillerist -Change of Fortune; +Red Ghost, Intangible Genius -Loki, the Deceiver; +Coastal Peak -Shipwreck Marsh; +Swiftfoot Boots -Fellwar Stone; +Mox Diamond -Talisman of Creativity.
 - Staged alternatives: five keeping Talisman of Creativity; Withering Torment instead of Lightning Axe; Pass C Glint-Horn over Revenant; Glint-Horn instead of Artillerist; Ledger Shredder over Iron Monger; Putrid Imp over Demand Answers.
 - Next: mechanics tests incl. bounded Pass C tests, oracle/rules snapshots, pool, decision review, memos, certificate, bundle, workflow.
+
+## Checkpoint 3 (2026-10-23 07:51 CDT) — Pass C bounded tests; candidate revised by measured grid
+- Bounded Pass C grid (5 fixed turn patterns x attack possible/not x removal before attacks): Glint-Horn Buccaneer >= Magmakin Artillerist in every cell (79 vs 64 total damage units; the extra is the hasty attack loot); Buccaneer > Green Goblin, Revenant on damage in 20/20 cells, Revenant > Buccaneer on cards in 4/20 (needs an attack, no haste; refill ceiling 8 cards on a wheel turn).
+- Candidate revised: +Glint-Horn Buccaneer replaces +Magmakin Artillerist (cut still Change of Fortune). Revenant kept (Villain, the deck's remaining one-sided refill after cutting Change of Fortune). New candidate raw 21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb.
+- Staged: six with Artillerist instead of Buccaneer; Pass C exact pairing +Buccaneer -Revenant keeping Change of Fortune; Pass C exact single swap on the baseline; five keeping Talisman; Withering Torment; Ledger Shredder; Putrid Imp.
+- Dakmor loop: finite, library-bounded (40 life: 20 iterations / 38 library cards; with Buccaneer 14 / 26). Exact lands-only colour access: turn-4 Doom 0.5550 -> 0.5570 (on the play), RRR by turn 5 0.3895 -> 0.4248. Oscorp Industries counted UBR per Oracle.
+- Commander Spellbook re-run on the revised candidate (1 included combo; 22 almost-included).
+- Oracle + rules snapshots committed. Next: candidate/IJ tests, pool, decision review, memos, certificate, bundle, workflow.
