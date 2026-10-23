@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_RESEARCH_ONLY_STAGE8_OFFRANKING_SYNERGY_API_CAPTURE",
+  "retrieved_at_utc": "2026-10-23T03:31:13.821Z",
+  "api_endpoint": "https://api.scryfall.com/cards/collection",
+  "identifiers": [
+    "Impact Tremors",
+    "Creeping Bloodsucker",
+    "Sanctum of Stone Fangs",
+    "Reckless Fireweaver",
+    "Mirkwood Bats",
+    "Mayhem Devil",
+    "Nadier's Nightblade",
+    "Torbran, Thane of Red Fell",
+    "Purphoros, God of the Forge"
+  ],
+  "official_legality_scope": "Source Commander format legality of cards only, not selected deck legality",
+  "not_found": [],
+  "oracle_cards": {
+    "Impact Tremors": {
+      "name": "Impact Tremors",
+      "id": "d0b7cecf-b51b-4d30-b7e9-cd7976271e07",
+      "oracle_id": "9242cd3e-1a71-4700-8182-9c1005616033",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "oracle_text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Enchantment",
+      "scryfall_uri": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api"
+    },
+    "Creeping Bloodsucker": {
+      "name": "Creeping Bloodsucker",
+      "id": "d9f12481-e4dd-4a44-910f-e0d263de14ae",
+      "oracle_id": "0bdddaf9-579a-4588-b5b3-faa189d4bdcc",
+      "mana_cost": "{1}{B}",
+      "cmc": 2,
+      "oracle_text": "At the beginning of your upkeep, this creature deals 1 damage to each opponent. You gain life equal to the damage dealt this way.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Vampire",
+      "scryfall_uri": "https://scryfall.com/card/j25/415/creeping-bloodsucker?utm_source=api"
+    },
+    "Sanctum of Stone Fangs": {
+      "name": "Sanctum of Stone Fangs",
+      "id": "d1439412-618c-483d-89b9-5ea37f0f1edc",
+      "oracle_id": "a1d8fcb9-26b2-4d09-9db7-e644294749f8",
+      "mana_cost": "{1}{B}",
+      "cmc": 2,
+      "oracle_text": "At the beginning of your first main phase, each opponent loses X life and you gain X life, where X is the number of Shrines you control.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Legendary Enchantment — Shrine",
+      "scryfall_uri": "https://scryfall.com/card/m21/120/sanctum-of-stone-fangs?utm_source=api"
+    },
+    "Reckless Fireweaver": {
+      "name": "Reckless Fireweaver",
+      "id": "63ffac51-62c4-4170-85b3-a43d7cfae7d7",
+      "oracle_id": "180e1a7e-890d-477c-80a5-da8a5f2857b3",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "oracle_text": "Whenever an artifact you control enters, this creature deals 1 damage to each opponent.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Human Artificer",
+      "scryfall_uri": "https://scryfall.com/card/kld/126/reckless-fireweaver?utm_source=api"
+    },
+    "Mirkwood Bats": {
+      "name": "Mirkwood Bats",
+      "id": "15f035df-784a-4dc8-b7f5-77139a4e6e99",
+      "oracle_id": "0636b6c3-0662-420a-b30d-f0a14e7c512d",
+      "mana_cost": "{3}{B}",
+      "cmc": 4,
+      "oracle_text": "Flying\nWhenever you create or sacrifice a token, each opponent loses 1 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Bat",
+      "scryfall_uri": "https://scryfall.com/card/ltr/95/mirkwood-bats?utm_source=api"
+    },
+    "Mayhem Devil": {
+      "name": "Mayhem Devil",
+      "id": "674f3a8a-4552-4289-b92a-06ce158f115c",
+      "oracle_id": "4709f11c-aef8-45ac-b2bf-e640c568dfac",
+      "mana_cost": "{1}{B}{R}",
+      "cmc": 3,
+      "oracle_text": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Devil",
+      "scryfall_uri": "https://scryfall.com/card/eoc/121/mayhem-devil?utm_source=api"
+    },
+    "Nadier's Nightblade": {
+      "name": "Nadier's Nightblade",
+      "id": "bc9926d7-91b7-4067-b590-a0430bf68d16",
+      "oracle_id": "391978f6-0bbc-41e8-9246-f7d0e21c7900",
+      "mana_cost": "{2}{B}",
+      "cmc": 3,
+      "oracle_text": "Whenever a token you control leaves the battlefield, each opponent loses 1 life and you gain 1 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Elf Warrior",
+      "scryfall_uri": "https://scryfall.com/card/mh3/275/nadiers-nightblade?utm_source=api"
+    },
+    "Torbran, Thane of Red Fell": {
+      "name": "Torbran, Thane of Red Fell",
+      "id": "79f591cd-d277-4ba5-b1bf-1c09cac9cb8a",
+      "oracle_id": "8c3495bf-02e7-4ad9-949d-92eb3d2b662a",
+      "mana_cost": "{1}{R}{R}{R}",
+      "cmc": 4,
+      "oracle_text": "If a red source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Legendary Creature — Dwarf Noble",
+      "scryfall_uri": "https://scryfall.com/card/eld/147/torbran-thane-of-red-fell?utm_source=api"
+    },
+    "Purphoros, God of the Forge": {
+      "name": "Purphoros, God of the Forge",
+      "id": "4736a2c4-c89c-48db-a104-6303e7e2eee8",
+      "oracle_id": "4fdbbec2-e921-4b63-958d-f9ba1e417197",
+      "mana_cost": "{3}{R}",
+      "cmc": 4,
+      "oracle_text": "Indestructible\nAs long as your devotion to red is less than five, Purphoros isn't a creature.\nWhenever another creature you control enters, Purphoros deals 2 damage to each opponent.\n{2}{R}: Creatures you control get +1/+0 until end of turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Legendary Enchantment Creature — God",
+      "scryfall_uri": "https://scryfall.com/card/cmm/246/purphoros-god-of-the-forge?utm_source=api"
+    }
+  },
+  "source_caveat": "Live Scryfall Oracle+Commander legality metadata observed, no implication EDHREC inclusion, power ranking, combo win probability, owner approval or M6 certification."
+}
