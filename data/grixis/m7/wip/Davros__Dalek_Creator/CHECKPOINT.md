@@ -9,6 +9,6 @@
   exports/grixis-archidekt/davros-dalek-creator.txt is logically identical (format "1 " vs "1x ").
 - Discrepancy (documented, not repaired): tracker CSV note also cites "Final clean-list hash 5c1d4a49..." which is the
   2026-10-13 Proposed_Final / Current_Cycle_Baseline file (blob 3234458b); the 2026-10-14 approved list differs from it by
-  12 swaps. Same row's final hash and the overrides record aa6d2d34. Hash binding wins.
+  11 swaps. Same row's final hash and the overrides record aa6d2d34. Hash binding wins.
 - Shared infra copied byte-identically from PR #659 head 488e1d05 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C bounded measured test, candidate judgments.
