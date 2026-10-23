@@ -430,20 +430,24 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
+   "working_branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
+   "last_pushed_commit": "627a3e1d462544516f1c443d440f2e5040e1d25c",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/659",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance (canonical main 9b26aa28; raw 4c221e5b == overrides == registry; 100 physical / 94 rows; tracker note cc2f7a54 is the pre-approval 10-13 list, documented not repaired); draft PR #659"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded measured test",
+   "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded measured test",
+   "last_checkpoint_at": "2026-10-23T06:58:00-05:00",
+   "updated_at": "2026-10-23T06:58:00-05:00"
   },
   {
    "tracker_number": 12,
