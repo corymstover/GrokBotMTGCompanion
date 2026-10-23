@@ -2,17 +2,24 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-23_America_Chicago",
-  "status": "RESEARCH_ONLY_STAGE19_27_NONTRANSFERABLE_P0_95_ORACLE_J_MANA_REDTEAM_IJ_PENDING",
+  "status": "APPROVED_LOCKED_CANONICAL_REV3_SUPERSEDES_REV2_20261023",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
-  "deck3_hold": true,
+  "deck3_hold": false,
   "canonical_authority": {
     "repository": "corymstover/grixis-commander-encyclopediaGPT",
     "branch": "main",
-    "approved_list": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
-    "approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
-    "owner_approval_receipt": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+    "approved_list": "refinement/decklists/Abaddon_the_Despoiler_M7_Rev3_Approved_2026-10-23.txt",
+    "approved_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+    "owner_approval_receipt": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_rev3_20261023.json",
     "status": "APPROVED_LOCKED_PRESERVED",
-    "authority_to_replace": false
+    "authority_to_replace": false,
+    "prior_rev2_approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "prior_rev2_approved_source": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "owner_explicitly_authorized_supersession": true,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "canonical_merge_pr": 48,
+    "canonical_merge_sha": "511bcb88b5b5e1dd280d74f983de62310f0ea816"
   },
   "admiral_gate": {
     "status": "EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
@@ -465,29 +472,26 @@
     }
   },
   "mandatory_next_deterministic_checks": [
-    "PR #635 merged SHA 4e5ca32888f5d8c8e9a81dd607aee7669bea3f7e, exact head 314d19d6a86ae5f1f0f4141b84233132003745a6, CI run 39905557890 SUCCESS 84/84. PR #636 merged SHA ef7a59804149b1e23d53c28f0ff9070231531abf, exact head e1ff4b45939936dbca2dbc7701b14a969ad41242, CI run 39906252605 SUCCESS 87/87. Do not repeat already adequate Scryfall discovery/physical 100 tests.",
-    "FIRST UNFINISHED REQUIREMENT: complete candidate-specific effect-aware M6 P0/P1 and I/J tested-pool adjudication for provisional protected_wheel_six SHA 5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24, not old rev2/withdrawn certificate; benchmark six real cuts' timing and counterplay and record actual source-paid fixtures.",
-    "Reconcile protected Noise/Nalfeshnee, conditional Sheoldred+Wheel and the loss of Ponder, Keeper, Ruinous, Kessig, Thermo and one Mountain against plausible adverse boards, colored mana, commander removal and Rule of Law. If source/math suffices, do not launch redundant large simulations.",
-    "Bind current full-100 Oracle receipt from PR #636, actually executed changed-effect fixtures, exact SHA, tests/seed/method limitations, source data and owner-equivalent Pass C waiver into new reproducibility M6 J evidence. No borrowing of old candidate-specific M6 I/J bundle.",
-    "Recheck strategy under no-automatic-five rule and 7/8 swap adversarial packages before declaring new exact 100 owner ready. If sixth Ponder cut or fifth Mount Doom land utility isn't truly superior, revise or keep RESEARCH_ONLY honestly.",
-    "Only after real applicable M6 gate closure and actual exact-head CI may produce a complete owner-presentable Abaddon 100, 3 tags, Bracket and new SHA, ending with exact approval question. Existing Abaddon and Admiral locked canonical unchanged; deck3 HOLD."
+    "COMPLETE: Abaddon Rev3 exact SHA 5ab1... APPROVED+LOCKED canonically in PR #48 (main merge SHA 511b...). Do not reopen Abaddon without explicit new owner instruction.",
+    "CONFIRMED: Other 61 state records and CSV tracker rows unchanged; Rev2 and Admiral files byte-identical; Stage20 I/J scoped, 95 Oracle IDs, canonical CI passed on exact head.",
+    "Next unfinished deckbuilding review is tracker's Deck #3. Preserve all approved/locked decks; milestone M6.10/M7/M8 remain separately blocked until explicit project-wide acceptance."
   ],
   "strategic_next": [
-    "The leading six now adds Impact Tremors, Sanctum of Stone Fangs, Coruscation Mage, Sakashima of a Thousand Faces, Mount Doom, Sheoldred; cuts Thermo-Alchemist, The Ruinous Powers, Kessig Flamebreather, Keeper of Secrets, Mountain, Ponder. Keeps Noise Marine, Nalfeshnee and full Neheb/Assault/Loyal/Call Forth/Familiar/Birgi/Ignus core.",
-    "Coruscation Mage paid Offspring {2} and Impact Tremors gives separate X3 ETB damage events to 3 opponents, plus two subsequent noncreature cast-ping triggers; never retroactively grant cascade to originating spell.",
-    "Sanctum first-main X3 is contingent on surviving from prior turn; Sheoldred plus a fully resolving own-turn Wheel gives additional X42 later threshold or X84 with Bloodletter, but never retroactive on Wheel's cast.",
-    "Stage13 four complete physical 100s of five/six/six/seven plus Stage12 alternatives explicitly challenge additional swaps; no added seventh Exalted-for-Noise proposal accepted by default.",
-    "DO NOT advance #3 or edit owner locked canon until a new exact Abaddon deck passes ALL changed-candidate M6/M7 gates and Cory explicitly approves it."
+    "Abaddon Rev3 CLOSED APPROVED LOCKED; no further candidate updates absent explicit user reopen.",
+    "Admiral M7 APPROVED LOCKED; do not reopen.",
+    "Continue tracker-order Deck #3 with full Commander-first M6-M7 workflow, not a forced five-swap ceiling."
   ],
   "owner_decision_required_now": false,
-  "owner_ready": false,
+  "owner_ready": true,
   "source_limitations": [
-    "Trial package counts and exact SHA are physical-list checks, not legality or strategic strength certification.",
-    "Abaddon existing owner approval stays immutable until new owner decision.",
-    "The evidence gathered at this point is a reopened research first-pass, not a completed M7 final.",
-    "Stage4's six- and eight-swap research packets are valid candidate configurations for comparison, not proofs of strategic superiority, and do not authorize replacing the locked 0d9f6d... list.",
-    "EDHREC Top inclusion / High Lift dynamically vary; actual filters and observed metrics recorded Stage13. Direct Scryfall fetched 10 new card records 2026-10-23 and exact changed 100 refreshed in PR #636 CI.",
-    "Stage14 current Oracle checks are not a full effect-aware gameplay engine, mandatory M6 I/J tested-pool closure, or new owner approval. Proposed six remains research-only."
+    "Owner-equivalent Pass C was explicitly waived, not technically independent.",
+    "Decision-scoped Stage20 I/J tested-pool local optimum does not prove global mathematical optimum or multiplayer matchups.",
+    "Historical 27 cut-specific P0 and 3 P1 not transferable; 14 fresh candidate-bound P0 executed, 77 P0/11 P1 unchanged-rule facts reused only conditionally.",
+    "Abaddon exact M7 owner approval is distinct from aggregate M6.10/M7/M8 milestone acceptance."
   ],
-  "next_action": "Review 77 candidate-unaffected historical P0 +11 P1 for exact physical transfers; no new blanket 104-case M6 claim. Then candidate-specific M6 I tested-pool and J bundle for SHA 5ab1.. and 95 direct Oracle records; red team/mana Stage18 complete as evidence only. Preserve locked Abaddon and Admiral, hold #3."
+  "next_action": "Abaddon Rev3 final approved canonical PR #48; ADMIRAL approved locked; next in project is Deck #3. Do not perform new changes to either previously approved deck absent owner instruction.",
+  "owner_approved": true,
+  "owner_approval_date": "2026-10-23",
+  "completed_approval_receipt": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_rev3_20261023.json",
+  "last_updated_for_owner_approval": "2026-10-23_America_Chicago"
 }
