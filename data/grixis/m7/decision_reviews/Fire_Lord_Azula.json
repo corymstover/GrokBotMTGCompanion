@@ -1,0 +1,924 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Fire_Lord_Azula",
+ "canonical_baseline_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+ "canonical_baseline_logical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "commander_identity": {
+  "mechanical_plan": "Fire Lord Azula ({1}{U}{B}{R} 4/4 legendary Human Noble; Avatar: The Last Airbender tla, released 2025-11-21; commander-legal, not a Game Changer, no project exception). Firebending 2 (attack: add {R}{R} until end of combat). Whenever we cast a spell while Azula is attacking, copy it; copies of permanent spells become tokens. Plan: a Bracket 5 cEDH turbo shell (25 lands plus an MDFC, fast mana, free interaction, Quicken/Crimson Wisps/Expedite-style enablers) that wins with Thassa's Oracle + Demonic Consultation/Tainted Pact, Underworld Breach lines (Lotus Petal/LED + Brain Freeze, Wheel, Grinding Station), or Azula + Narset's Reversal + Frantic Search/Turnabout loops during her attack.",
+  "protected_core": [
+   "Fire Lord Azula",
+   "Narset's Reversal",
+   "Frantic Search",
+   "Thassa's Oracle",
+   "Demonic Consultation",
+   "Tainted Pact",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Lotus Petal",
+   "Brain Freeze",
+   "Wheel of Fortune",
+   "Jeska's Will",
+   "Grinding Station",
+   "Beseech the Mirror",
+   "Big Score",
+   "Demand Answers",
+   "Quicken",
+   "Crimson Wisps",
+   "Expedite",
+   "Geist of Saint Thalia",
+   "Repeal",
+   "Strix Serenade",
+   "An Offer You Can't Refuse"
+  ],
+  "natural_ceiling": "Power Bracket 5 (cEDH). Game Changers: 20 in baseline and candidate (Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Orcish Bowmasters, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor). Commander Spellbook find-my-combos: 9 -> 10 complete combos (adds 11-4276-7089 Azula + Narset's Reversal + Turnabout; none lost); almost-included 98 -> 105. The Azula loops are finite and optional per iteration; with Samut cut, split second no longer stops them.",
+  "anti_homogenization": "Commander-first to Azula's text: every add is a spell (or land) whose value doubles while she attacks. Turnabout is a commander loop piece; Unexpected Windfall and Flashback double under her copy; Sink is a copied bounce; Mistrise protects her and creature win pieces. Distinctness (nonbasic names shared with the most similar approved Grixis turbo/storm decks, baseline -> candidate, canonical Archidekt exports): Norman Osborn 76 -> 74; Kefka, Court Mage 76 -> 74; Kess, Dissident Mage 74 -> 73; Rograkh/Silas Renn 74 -> 71; Jeleva, Nephalia's Scourge 73 -> 70; Evelyn, the Covetous 68 -> 66. Turnabout and Flashback appear in no other Grixis export; Unexpected Windfall only in Doctor Doom; Sink into Stupor only in Saruman and Tetsuo; Mistrise Village is shared with Evelyn and Kess. Samut, Tyrant is shared only with Rograkh/Silas, Vivi only with Abaddon. Every add is copied by Azula's attack trigger. Owner-removed or rejected cards and classes (Storm-Kiln Artist, Spellseeker, Dualcaster Mage/Twinflame/Twinning Staff, Lightning Greaves, Seething Song, Snapcaster, Brainstorm, Gitaxian Probe, Leyline of Anticipation, Veyran, Archmage Emeritus, The Last Agni Kai, Training Center) are not re-added; Spellseeker and Storm-Kiln appear only in the staged Pass C test lists. One owner addition is cut and FLAGGED (Samut, Tyrant of Naktamun), with a keep-Samut alternative staged."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x).\nRoles:\n- 26 lands in the baseline: Ancient Tomb, Arena of Glory, Cavern of Souls, City of Brass, Mana Confluence, Command Tower, Emergence Zone, Exotic Orchard, Gemstone Caverns, Otawara, Starting Town, 4 original duals, 3 shocks, 9 fetches; the candidate cuts Exotic Orchard and Gemstone Caverns and adds Mistrise Village plus the Soporific Springs MDFC.\n- Fast mana: Sol Ring, Mana Vault, Grim Monolith, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, LED, Arcane Signet, Fellwar Stone, three Talismans, Wishclaw, Dark Ritual, Cabal Ritual, Rite of Flame, Simian Spirit Guide, Big Score; Unexpected Windfall is new; Vivi Ornitier is cut.\n- Wins: Thassa's Oracle, Demonic Consultation, Tainted Pact, Underworld Breach, Brain Freeze, Grinding Station, Wheel of Fortune, Jeska's Will, Narset's Reversal, Frantic Search; Turnabout is new.\n- Tutors and draw: Demonic, Vampiric, Imperial Seal, Mystical, Gamble, Beseech the Mirror, Necropotence, Ad Nauseam, Rhystic Study, Mystic Remora, Demand Answers, Borne Upon a Wind, Faerie Mastermind, Wan Shi Tong; Flashback is new.\n- Combat-turn enablers: Quicken, Crimson Wisps, Expedite, Birgi, Geist of Saint Thalia.\n- Interaction: Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mindbreak Trap, Flusterstorm, Mental Misstep, Pyroblast, Red Elemental Blast, Strix Serenade, Deflecting Swat, Redirect Lightning, Into the Flood Maw, Chain of Vapor, Snap, Repeal, An Offer You Can't Refuse, Orcish Bowmasters, Hexing Squelcher, High Fae Trickster, Valley Floodcaller, Ragavan; Sink into Stupor is new; Swan Song and Samut are cut.",
+  "mana_base_and_curve": "Lands 26 -> 25 plus the Soporific Springs MDFC. R/U/B land sources 21/21/20 -> 19/20/18 (U 21 counting the MDFC; the baseline counts Gemstone Caverns as rainbow, an upper bound). Conditional/tapped lands: Arena of Glory, Starting Town -> plus Mistrise Village. Exact multivariate-hypergeometric castability of Azula (lands plus 2-mana rocks, moxen and rituals excluded): turn 4 on the play 0.4920 -> 0.4905 (MDFC played as land) or 0.4632 (MDFC never a land); turn 5 0.5861 -> 0.5845/0.5565. Turn 2 reads 0 for every list (a model artifact: it excludes Sol Ring/moxen). Average nonland MV 1.849 -> 1.905; creatures 13 -> 11; instants/sorceries 41 -> 44.",
+  "interaction_resilience": "Stack: Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mindbreak Trap, Flusterstorm, Mental Misstep, Pyroblast, Red Elemental Blast, Strix Serenade, Deflecting Swat, Redirect Lightning, Hexing Squelcher, Cavern of Souls; Mistrise Village is new. Bounce/removal: Into the Flood Maw, Chain of Vapor, Snap, Repeal, An Offer, Orcish Bowmasters; Sink into Stupor is new. Weak points: graveyard hate stops Breach and Flashback; Azula is a 4-mana creature with no protection beyond Deflecting Swat and counters; losing Swan Song and Samut removes two anti-counter pieces (net 0 with Sink and Mistrise).",
+  "weakest_slots": [
+   {
+    "card": "Samut, Tyrant of Naktamun",
+    "weakness": "Split second disables our own Beseech free cast and both Azula + Narset's Reversal loops.",
+    "alternative_named": "Turnabout",
+    "reasoning": "Cut (FLAGGED owner addition): Turnabout adds a 10th combo; keep-Samut alternative staged."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Sink into Stupor // Soporific Springs",
+    "reasoning": "Cut: a land that is also an answer."
+   },
+   {
+    "card": "Vivi Ornitier",
+    "weakness": "Redundant ping wincon; legendary, below the stats.cedh staple cutoff.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Cut: 42.5% staple that draws 4 and makes 4 Treasures copied."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "A 1-mana counter that gives an opponent a 2/2.",
+    "alternative_named": "Flashback",
+    "reasoning": "Cut (marginal, data-contrary): keep-Swan Song alternative staged."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Rainbow only from the opening hand on the draw.",
+    "alternative_named": "Mistrise Village",
+    "reasoning": "Cut (most marginal): keep-Gemstone/cut-Wooded Foothills alternative staged."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-mana rock whose colours depend on opponents.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Kept: casts Azula sooner; six-swap staged."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "A two-mana rock that only taps for black or red.",
+    "alternative_named": "Culling the Weak",
+    "reasoning": "Kept: 48.1% staple; permanent mana."
+   },
+   {
+    "card": "Wooded Foothills",
+    "weakness": "A fetch for only Mountain duals.",
+    "alternative_named": "Gemstone Caverns",
+    "reasoning": "Kept: untapped R/B/U via Badlands, Volcanic Island, Steam Vents, Blood Crypt; staged as the alternative cut."
+   },
+   {
+    "card": "Wheel of Fortune",
+    "weakness": "A symmetric seven-card refill that also refuels opponents.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Kept: in 2 Spellbook combos with Breach."
+   },
+   {
+    "card": "Geist of Saint Thalia",
+    "weakness": "A three-mana creature whose value needs Azula attacking.",
+    "alternative_named": "Stingcaster Mage",
+    "reasoning": "Kept: owner addition; beats Stormcatch per the owner."
+   },
+   {
+    "card": "Strix Serenade",
+    "weakness": "A one-mana counter that only hits creature or planeswalker spells.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Kept: owner addition, one mana."
+   },
+   {
+    "card": "Repeal",
+    "weakness": "Bounce whose cost scales with the target's mana value ({X}{U}).",
+    "alternative_named": "Dramatic Reversal",
+    "reasoning": "Kept: owner addition; replaces itself."
+   },
+   {
+    "card": "Big Score",
+    "weakness": "Four mana plus a discard for two cards and two Treasures.",
+    "alternative_named": "Storm-Kiln Artist",
+    "reasoning": "Kept: 63.0% staple; Pass C test staged."
+   },
+   {
+    "card": "Wan Shi Tong, Librarian",
+    "weakness": "An {X}{U}{U} creature whose value depends on opponents searching.",
+    "alternative_named": "Storm-Kiln Artist",
+    "reasoning": "Kept: 43.6% staple; Pass C optional test staged."
+   },
+   {
+    "card": "Grinding Station",
+    "weakness": "A slow artifact outside Breach.",
+    "alternative_named": "The One Ring",
+    "reasoning": "Kept: Breach + Grinding Station combo."
+   },
+   {
+    "card": "Quicken",
+    "weakness": "A cantrip sorcery-timing enabler.",
+    "alternative_named": "Gush",
+    "reasoning": "Kept: owner addition; lets sorceries be cast while Azula attacks."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 5 cEDH Azula list (2026-10-14). M6 Pass C is NEEDS TESTING (owner-equivalent substitute, NOT independent; 0 measured playtests). Priority 1 flagged the Samut/Beseech nonbo (test +Spellseeker/-Samut), Priority 2 +Storm-Kiln/-Big Score. stats.cedh.events (2026-10-23): 181 entries in 173 tournaments, 16.3% win rate, 11.0% conversion, 20 top cuts.",
+  "candidate_pool_scope": "EDHREC Fire Lord Azula general (39296), optimized (2056), cEDH (566) and upgraded pages JSON; stats.cedh.events Azula staples; live Scryfall /cards/collection batch (205 names, Manamorphose and Silence excluded as off-identity); OFF-RANKING searches for land untappers, MDFC interaction and Grixis recursion; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Turnabout (absent from the cEDH page, 300/2056 optimized), Sink into Stupor (absent from every Azula page), Flashback (in no other Grixis deck), Gush, Sea Gate Stormcaller. Turnabout, Sink and Flashback were selected; Gush and Stormcaller rejected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Fire Lord Azula approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 0aa3e809, introduced by 901face 2026-10-14; registry source_commit 1836b97 same bytes; vendored in data/grixis/m7/baseline_sources/Fire_Lord_Azula_approved_source_2026-10-14.txt)",
+  "EDHREC Fire Lord Azula commander pages JSON (general, optimized, cEDH, upgraded) retrieved 2026-10-23 America/Chicago, discovery only; stats.cedh.events Azula page retrieved 2026-10-23: data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 America/Chicago: data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for land untappers, MDFC interaction, Grixis recursion and copy effects (Turnabout, Sink into Stupor, Flashback, Gush, Sea Gate Stormcaller)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Fire_Lord_Azula.md; data/grixis/m6/deep_reviews/Fire_Lord_Azula.md",
+  "Owner 2026-10-14 current-cycle decisions (additions, removals and retain reasons): canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 702.61a, 702.61b, 704.5j, 712; frozen rulings for Fire Lord Azula, Samut, Beseech the Mirror, Narset's Reversal, Turnabout, Flashback and Mistrise Village: data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C requests (Samut co-occurrence, split-second trace, Spellseeker reach, Storm-Kiln vs Big Score ledger, exact Azula castability): data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json and tests/test_m6_fire_lord_azula_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Turnabout",
+   "source": "EDHREC Fire Lord Azula cEDH absent, optimized 300/2056, general absent; live Scryfall batch; OFF-RANKING for cEDH (absent from the Azula cEDH page)",
+   "role": "{2}{U}{U} instant: choose artifact, creature or land; tap all untapped or untap all tapped permanents of that type target player controls.",
+   "named_cuts": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "incumbent_opportunity_cost": "Loses Samut, Tyrant of Naktamun, an OWNER ADDITION (2026-10-14: split second on our spells; the owner noted triggers still work). FLAGGED override of an explicit owner addition.",
+   "commander_synergy": "While Azula attacks, Turnabout + Narset's Reversal is a complete Spellbook combo (11-4276-7089): two Turnabout resolutions per iteration untap all our lands for net 2L - 6 mana (unbounded storm at L >= 3 lands, unbounded mana at L >= 4). Outside the loop, Azula's copy gives two modes: untap our lands and tap an opponent's lands at instant speed. Combos 9 -> 10.",
+   "adversarial_downside": "Four mana and situational outside Azula's attack; dead in hand when Azula is answered. Samut's upside (our instants/sorceries can't be countered while Samut is out) is lost.",
+   "judgment": "SELECT_ADD",
+   "reason": "Samut's split second is a nonbo with the deck's own engine: per the 2026-08-21 Samut ruling and 702.61a/b, the bargained Beseech free cast is impossible and Narset's Reversal can't be cast into Frantic Search or Turnabout. Pass C Priority 1 flagged this exact problem. Keep-Samut four-swap staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+    "data/grixis/m6/deep_reviews/Fire_Lord_Azula.md",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt"
+   ]
+  },
+  {
+   "card": "Sink into Stupor // Soporific Springs",
+   "source": "EDHREC Fire Lord Azula cEDH absent, optimized absent, general absent; live Scryfall batch; OFF-RANKING (absent from all Azula pages)",
+   "role": "MDFC: {1}{U}{U} instant returning a spell or nonland permanent an opponent controls to hand, or an untapped U land if we pay 3 life.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Loses Exotic Orchard (an any-colour land whose colours depend on opponents' lands; 341/566 cEDH). Plain owner RETAIN, not an explicit keep.",
+   "commander_synergy": "A land slot that is also an instant-speed answer: on Azula's attack Sink is copied, bouncing two opposing blockers, Rhystic/Remora-style engines or a counterspell on the stack. As a land it is an untapped U source.",
+   "adversarial_downside": "3 life for an untapped land; colours U only; the conservative castability model (MDFC never played as land) drops turn-4 Azula on the play 0.4920 -> 0.4632; with the MDFC played as a land it is 0.4905.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts a conditional land into a land that is also interaction; Exotic Orchard can be colourless against mono-colour or colourless opponents.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json"
+   ]
+  },
+  {
+   "card": "Unexpected Windfall",
+   "source": "EDHREC Fire Lord Azula cEDH 167/566, optimized 1243/2056, general 20703/39296; stats.cedh.events Azula staple 42.5%; live Scryfall batch",
+   "role": "{2}{R}{R} instant: as an additional cost discard a card; draw two and create two Treasures.",
+   "named_cuts": [
+    "Vivi Ornitier"
+   ],
+   "incumbent_opportunity_cost": "Loses Vivi Ornitier ({1}{U}{R} legendary Wizard: {0} add X U/R where X is its power once per turn; pings each opponent per noncreature cast). Plain owner RETAIN; 165/566 cEDH and below the stats.cedh staple cutoff.",
+   "commander_synergy": "A 42.5% stats.cedh Azula staple. Copied while Azula attacks it draws 4 and makes 4 Treasures for one discard (the copy keeps the paid additional cost, Azula ruling); Treasures count as artifacts for Mox Opal's metalcraft and fund the post-combat combo turn. Vivi's ping wincon is redundant: Brain Freeze and Thassa's Oracle finish every Azula loop.",
+   "adversarial_downside": "Discard is a real cost outside combat; four mana. Losing Vivi removes a repeatable mana creature and one alternate wincon (creatures 13 -> 11 with Samut also cut).",
+   "judgment": "SELECT_ADD",
+   "reason": "Tournament data supports Windfall at 42.5%; Vivi is a legendary body whose copy Azula would not make and whose ping plan duplicates existing wins.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Flashback",
+   "source": "EDHREC Fire Lord Azula cEDH 85/228, optimized 436/1238, general 4485/17639; live Scryfall batch; OFF-RANKING among staples (in no other Grixis deck)",
+   "role": "{R} instant: target instant or sorcery card in our graveyard gains flashback until end of turn; the flashback cost is its mana cost.",
+   "named_cuts": [
+    "Swan Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Swan Song ({U} counter for an enchantment, instant or sorcery; opponent gets a 2/2 Bird). Plain owner RETAIN; 388/566 cEDH and a 56.9% stats.cedh staple. Data-contrary cut; flagged marginal.",
+   "commander_synergy": "Copied while Azula attacks, Flashback gives two cards flashback for one red; each recast during the attack is copied again (Big Score, Demand Answers, Jeska's Will, Frantic Search, Unexpected Windfall, Gamble). It also re-buys a used tutor or ritual after Breach is answered.",
+   "adversarial_downside": "A recursion spell, not interaction: the protection count is net 0 only because Sink and Mistrise come in while Samut and Swan Song go out. Needs a good target in the graveyard.",
+   "judgment": "SELECT_ADD",
+   "reason": "Commander-first value from a one-mana spell that doubles under Azula; keep-Swan Song four-swap staged.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt"
+   ]
+  },
+  {
+   "card": "Mistrise Village",
+   "source": "EDHREC Fire Lord Azula cEDH 131/566, optimized 427/2056, general 5340/39296; live Scryfall batch",
+   "role": "Land: enters tapped unless we control a Mountain or Forest; {T}: add {U}; {U},{T}: the next spell we cast this turn can't be countered.",
+   "named_cuts": [
+    "Gemstone Caverns"
+   ],
+   "incumbent_opportunity_cost": "Loses Gemstone Caverns (rainbow only from the opening hand when not starting first; otherwise {C}). Plain owner RETAIN; 439/566 (78%) cEDH. Data-contrary and the most marginal cut.",
+   "commander_synergy": "Its uncounterable clause protects Azula herself, Thassa's Oracle (a creature Samut never protected) or the combo spell, and replaces part of Samut's anti-counter role. 13 sources make it untapped after the first land: the 4 Mountain-typed duals (Badlands, Volcanic Island, Steam Vents, Blood Crypt) and all 9 fetches, which can each find one of them.",
+   "adversarial_downside": "Conditional untapped; U only; loses Gemstone's turn-0 acceleration on the draw.",
+   "judgment": "SELECT_ADD",
+   "reason": "Takes over the uncounterable job from Samut for creature spells too; keep-Gemstone five-swap (cut Wooded Foothills instead) staged.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt"
+   ]
+  },
+  {
+   "card": "Mox Amber",
+   "source": "EDHREC Fire Lord Azula cEDH 298/566, optimized 173/2056, general 1982/39296; live Scryfall batch",
+   "role": "{0} legendary artifact: add one mana of any colour among legendary creatures and planeswalkers we control.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone (a 2-mana rock, 364/566 cEDH).",
+   "commander_synergy": "Azula, Ragavan, Birgi, Wan Shi Tong and Geist are legendary creatures; Mox Amber is a free artifact for Mox Opal metalcraft.",
+   "adversarial_downside": "Dead until a legendary creature is out (fewer of them after Samut and Vivi leave); the castability model drops turn-4 Azula on the play 0.4905 -> 0.4638.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as the six-swap; Fellwar Stone casts Azula sooner.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt"
+   ]
+  },
+  {
+   "card": "Spellseeker",
+   "source": "EDHREC Fire Lord Azula cEDH 149/566, optimized 153/2056, general absent; live Scryfall batch",
+   "role": "{2}{U} 1/1 Human Wizard: when it enters, search for an instant or sorcery card with MV 2 or less, reveal it, put it in hand.",
+   "named_cuts": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "incumbent_opportunity_cost": "The exact Pass C Priority 1 test (+Spellseeker / -Samut).",
+   "commander_synergy": "Finds Narset's Reversal, Frantic Search, Brain Freeze or Flashback (30 eligible targets in the baseline; 30 in the candidate, which adds Flashback and loses Swan Song).",
+   "adversarial_downside": "OWNER-REMOVED in the 2026-10-14 current-cycle decisions (not re-added; staged only as the exact Pass C test): a three-mana tutor body that loses to Beseech, Wishclaw and the one-mana tutors.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as the exact Pass C test list; Turnabout fills the Samut slot as a combo piece instead of re-adding a removed card.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_Spellseeker_minus_Samut_20261023.txt"
+   ]
+  },
+  {
+   "card": "Storm-Kiln Artist",
+   "source": "EDHREC Fire Lord Azula cEDH 334/566, optimized 1509/2056, general 24496/39296; stats.cedh.events Azula staple 61.9%; live Scryfall batch",
+   "role": "{3}{R} 2/2 Dwarf Shaman: magecraft, whenever we cast or copy an instant or sorcery, create a Treasure.",
+   "named_cuts": [
+    "Big Score",
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "The exact Pass C Priority 2 test (+Storm-Kiln / -Big Score) and the optional test (-Wan Shi Tong).",
+   "commander_synergy": "With Azula attacking each spell cast makes 2 Treasures (cast plus copy); with Narset's Reversal it is a Spellbook combo (11-5195-7089).",
+   "adversarial_downside": "OWNER-REMOVED in the 2026-10-14 current-cycle decisions (not re-added; staged only as the exact Pass C test): four-mana setup the turn before Azula attacks; the bounded ledger shows it needs k >= 4 combat spells to beat a copied Big Score's 4 Treasures, while drawing nothing.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "61.9% stats.cedh staple, but owner-removed; both Pass C test lists are staged as complete 100s.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_BigScore_20261023.txt",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_WanShiTong_20261023.txt"
+   ]
+  },
+  {
+   "card": "Culling the Weak",
+   "source": "EDHREC Fire Lord Azula cEDH 164/566, optimized absent, general absent; live Scryfall batch",
+   "role": "{B} instant: as an additional cost sacrifice a creature; add {B}{B}{B}{B}.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut Talisman of Indulgence (48.1% stats.cedh staple).",
+   "commander_synergy": "Copied while Azula attacks it adds eight black mana for one sacrifice (the copy keeps the paid additional cost).",
+   "adversarial_downside": "Needs a creature; only 11 creatures in the candidate.",
+   "judgment": "REJECT",
+   "reason": "Talisman is permanent mana for Azula on turn 3; Culling is a one-shot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dramatic Reversal",
+   "source": "EDHREC Fire Lord Azula cEDH 102/566, optimized absent, general absent; live Scryfall batch",
+   "role": "{1}{U} instant: untap all nonland permanents we control.",
+   "named_cuts": [
+    "Repeal"
+   ],
+   "incumbent_opportunity_cost": "Would cut Repeal (owner addition: 'flexible instant interaction that replaces itself').",
+   "commander_synergy": "With Azula + Narset's Reversal it untaps rocks; Pass C deep review called it a conditional test.",
+   "adversarial_downside": "The loop nets 2R - 4 mana, where R is what our nonland permanents make per untap, so it needs several rocks out; Turnabout nets 2L - 6 from lands, which every hand has.",
+   "judgment": "REJECT",
+   "reason": "Turnabout covers the same untap role with lands, which every hand has.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/deep_reviews/Fire_Lord_Azula.md"
+   ]
+  },
+  {
+   "card": "Mana Drain",
+   "source": "EDHREC Fire Lord Azula cEDH 96/566, optimized 367/2056, general absent; live Scryfall batch",
+   "role": "{U}{U} counter target spell; add colourless mana equal to its MV next main phase.",
+   "named_cuts": [
+    "Strix Serenade"
+   ],
+   "incumbent_opportunity_cost": "Would cut Strix Serenade (owner addition: one-mana broad counter).",
+   "commander_synergy": "Mana for the post-combat main phase.",
+   "adversarial_downside": "UU is harder than Strix's single U, and the mana arrives after combat, not while Azula attacks.",
+   "judgment": "REJECT",
+   "reason": "Owner addition kept on its stated reason.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Opposition Agent",
+   "source": "EDHREC Fire Lord Azula cEDH 205/566, optimized 187/2056, general absent; live Scryfall batch",
+   "role": "{2}{B} flash 2/3: we control opponents while they search and exile what they find.",
+   "named_cuts": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "incumbent_opportunity_cost": "Would cut Wan Shi Tong (43.6% stats.cedh staple).",
+   "commander_synergy": "Flash body that punishes tutors.",
+   "adversarial_downside": "A Game Changer (count 20 -> 21) that does nothing for Azula's combat turn; Wan Shi Tong also draws.",
+   "judgment": "REJECT",
+   "reason": "Wan Shi Tong is the stronger flash value body in Azula data.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lightning Bolt",
+   "source": "EDHREC Fire Lord Azula cEDH 200/566, optimized 1311/2056, general 21871/39296; stats.cedh.events Azula staple 39.2%; live Scryfall batch",
+   "role": "{R} instant: 3 damage to any target.",
+   "named_cuts": [
+    "Redirect Lightning"
+   ],
+   "incumbent_opportunity_cost": "Would cut Redirect Lightning (protection that redirects a single-target removal).",
+   "commander_synergy": "Copied while Azula attacks it kills two small blockers.",
+   "adversarial_downside": "Removal for creatures only; the deck lacks spare protection after Swan Song and Samut leave.",
+   "judgment": "REJECT",
+   "reason": "39.2% staple, but protection matters more after the cuts.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Samut, Hazoret's Champion",
+   "source": "EDHREC Fire Lord Azula cEDH 6/45, optimized 15/325, general 118/3836; live Scryfall batch",
+   "role": "{1}{R} legendary creature: creatures we control have haste.",
+   "named_cuts": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "incumbent_opportunity_cost": "Would cut Samut, Tyrant of Naktamun (owner addition).",
+   "commander_synergy": "Haste lets Azula attack the turn she lands.",
+   "adversarial_downside": "A 2-mana body that does nothing else; Azula's copy of it is a legendary token that dies to the legend rule.",
+   "judgment": "REJECT",
+   "reason": "Haste alone does not beat a combo piece.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Stingcaster Mage",
+   "source": "EDHREC Fire Lord Azula cEDH 4/193, optimized absent, general absent; live Scryfall batch",
+   "role": "{1}{R} 1/1 haste: on enter, an instant or sorcery card in our graveyard gains flashback.",
+   "named_cuts": [
+    "Geist of Saint Thalia"
+   ],
+   "incumbent_opportunity_cost": "Would cut Geist of Saint Thalia (owner addition, beat Stormcatch).",
+   "commander_synergy": "Same text as Flashback on a body.",
+   "adversarial_downside": "Two mana for a 1/1; cast outside Azula's attack it is sorcery-speed; Flashback does the same job as a one-mana instant.",
+   "judgment": "REJECT",
+   "reason": "Flashback is cheaper and instant.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Gush",
+   "source": "EDHREC Fire Lord Azula cEDH absent, optimized absent, general absent; live Scryfall batch; OFF-RANKING",
+   "role": "{4}{U} instant: return two Islands we control instead of paying; draw two.",
+   "named_cuts": [
+    "Repeal"
+   ],
+   "incumbent_opportunity_cost": "Would cut Repeal (owner addition that replaces itself).",
+   "commander_synergy": "Free draw while Azula attacks is copied: 4 cards.",
+   "adversarial_downside": "Only 4 Island-typed lands (Underground Sea, Volcanic Island, Steam Vents, Watery Grave); returning lands slows Azula's next turn.",
+   "judgment": "REJECT",
+   "reason": "Too few Island-typed lands to cast it free reliably.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "source": "EDHREC Fire Lord Azula cEDH 270/566, optimized 300/2056, general 2393/39296; stats.cedh.events Azula staple 35.4%; live Scryfall batch",
+   "role": "{4} legendary artifact: protection for a turn and growing card draw.",
+   "named_cuts": [
+    "Big Score"
+   ],
+   "incumbent_opportunity_cost": "Would cut Big Score (63.0% staple).",
+   "commander_synergy": "None with Azula; the copy is a token that dies to the legend rule.",
+   "adversarial_downside": "Four mana, sorcery-speed artifact in a deck that wants combat-step spells.",
+   "judgment": "REJECT",
+   "reason": "35.4% staple but anti-synergy with Azula.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "City of Traitors",
+   "source": "EDHREC Fire Lord Azula cEDH 201/566, optimized absent, general absent; live Scryfall batch",
+   "role": "Land: {T}: add {C}{C}; sacrifice it when we play another land.",
+   "named_cuts": [
+    "Wooded Foothills"
+   ],
+   "incumbent_opportunity_cost": "Would cut Wooded Foothills (plain owner RETAIN fetch).",
+   "commander_synergy": "Two colourless mana toward an early Azula cast.",
+   "adversarial_downside": "Colourless; Azula needs {U}{B}{R}.",
+   "judgment": "REJECT",
+   "reason": "Coloured sources matter more for a 4-mana 3-colour commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reiterate",
+   "source": "EDHREC Fire Lord Azula cEDH 79/566, optimized 598/2056, general absent; live Scryfall batch",
+   "role": "{1}{R}{R} instant, buyback {3}: copy target instant or sorcery spell.",
+   "named_cuts": [
+    "Flusterstorm"
+   ],
+   "incumbent_opportunity_cost": "Would cut Flusterstorm (one-mana storm counter).",
+   "commander_synergy": "Copying with buyback while Azula attacks.",
+   "adversarial_downside": "Pass C deep review rejected it; the Azula + Reversal loops already exist.",
+   "judgment": "REJECT",
+   "reason": "Rejected by the deep review; adds no new loop.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/deep_reviews/Fire_Lord_Azula.md"
+   ]
+  },
+  {
+   "card": "Flare of Duplication",
+   "source": "EDHREC Fire Lord Azula cEDH 81/566, optimized absent, general absent; live Scryfall batch",
+   "role": "{1}{R}{R} instant (or sacrifice a nontoken red creature): copy target instant or sorcery spell.",
+   "named_cuts": [
+    "Redirect Lightning"
+   ],
+   "incumbent_opportunity_cost": "Would cut Redirect Lightning (single-target redirect protection).",
+   "commander_synergy": "An extra copy on top of Azula's.",
+   "adversarial_downside": "Owner removed the copy-spell class (Dualcaster, Twinflame, Twinning Staff); not re-added.",
+   "judgment": "REJECT",
+   "reason": "The owner removed the copy-spell class; not re-added.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Sea Gate Stormcaller",
+   "source": "EDHREC Fire Lord Azula cEDH absent, optimized absent, general absent; live Scryfall batch; OFF-RANKING",
+   "role": "{1}{U} creature: copy the next instant or sorcery with MV 2 or less this turn (twice if kicked).",
+   "named_cuts": [
+    "Geist of Saint Thalia"
+   ],
+   "incumbent_opportunity_cost": "Would cut Geist of Saint Thalia (owner addition).",
+   "commander_synergy": "Extra copies of cheap spells on top of Azula's copy.",
+   "adversarial_downside": "Owner-removed copy class; a body that only helps one spell.",
+   "judgment": "REJECT",
+   "reason": "The owner removed the copy-spell class; not re-added.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Lightning Greaves",
+   "source": "EDHREC Fire Lord Azula cEDH 171/566, optimized 919/2056, general 14442/39296; live Scryfall batch",
+   "role": "{2} equipment: shroud and haste; equip {0}.",
+   "named_cuts": [
+    "Arcane Signet"
+   ],
+   "incumbent_opportunity_cost": "Would cut Arcane Signet (two-mana any-colour rock).",
+   "commander_synergy": "Haste and protection for Azula; Pass C suggested a speed test.",
+   "adversarial_downside": "OWNER-REMOVED in the 2026-10-14 current-cycle decisions (not re-added; speed test not staged).",
+   "judgment": "REJECT",
+   "reason": "Owner-removed; no measured case that it beats a rock.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Brainstorm",
+   "source": "EDHREC Fire Lord Azula cEDH 195/566, optimized 1068/2056, general 16562/39296; live Scryfall batch",
+   "role": "{U} instant: draw three, put two back.",
+   "named_cuts": [
+    "Repeal"
+   ],
+   "incumbent_opportunity_cost": "Would cut Repeal (owner addition that replaces itself).",
+   "commander_synergy": "Cheap cantrip copied while Azula attacks.",
+   "adversarial_downside": "OWNER-REMOVED in the 2026-10-14 decisions; not re-added.",
+   "judgment": "REJECT",
+   "reason": "Owner-removed in the 2026-10-14 decisions; not re-added.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Fire_Lord_Azula_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Turnabout",
+   "Sink into Stupor // Soporific Springs",
+   "Unexpected Windfall",
+   "Flashback",
+   "Mistrise Village"
+  ],
+  "cuts": [
+   "Samut, Tyrant of Naktamun",
+   "Exotic Orchard",
+   "Vivi Ornitier",
+   "Swan Song",
+   "Gemstone Caverns"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps: Turnabout for the owner-added Samut (FLAGGED), Sink into Stupor for Exotic Orchard, Unexpected Windfall for Vivi Ornitier, Flashback for Swan Song and Mistrise Village for Gemstone Caverns. Losses: Samut's split-second protection, Swan Song's one-mana counter, Vivi's ping wincon and mana, Gemstone's opening-hand acceleration and Exotic Orchard's rainbow mana; creatures 13 -> 11. Protection count net 0."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Samut, Tyrant of Naktamun",
+    "weakness": "Split second disables our own Beseech free cast and both Azula + Narset's Reversal loops.",
+    "alternative_named": "Turnabout",
+    "reasoning": "Cut (FLAGGED owner addition): Turnabout adds a 10th combo; keep-Samut alternative staged."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands.",
+    "alternative_named": "Sink into Stupor // Soporific Springs",
+    "reasoning": "Cut: a land that is also an answer."
+   },
+   {
+    "card": "Vivi Ornitier",
+    "weakness": "Redundant ping wincon; legendary, below the stats.cedh staple cutoff.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Cut: 42.5% staple that draws 4 and makes 4 Treasures copied."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "A 1-mana counter that gives an opponent a 2/2.",
+    "alternative_named": "Flashback",
+    "reasoning": "Cut (marginal, data-contrary): keep-Swan Song alternative staged."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Rainbow only from the opening hand on the draw.",
+    "alternative_named": "Mistrise Village",
+    "reasoning": "Cut (most marginal): keep-Gemstone/cut-Wooded Foothills alternative staged."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-mana rock whose colours depend on opponents.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Kept: casts Azula sooner; six-swap staged."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "A two-mana rock that only taps for black or red.",
+    "alternative_named": "Culling the Weak",
+    "reasoning": "Kept: 48.1% staple; permanent mana."
+   },
+   {
+    "card": "Wooded Foothills",
+    "weakness": "A fetch for only Mountain duals.",
+    "alternative_named": "Gemstone Caverns",
+    "reasoning": "Kept: untapped R/B/U via Badlands, Volcanic Island, Steam Vents, Blood Crypt; staged as the alternative cut."
+   },
+   {
+    "card": "Wheel of Fortune",
+    "weakness": "A symmetric seven-card refill that also refuels opponents.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Kept: in 2 Spellbook combos with Breach."
+   },
+   {
+    "card": "Geist of Saint Thalia",
+    "weakness": "A three-mana creature whose value needs Azula attacking.",
+    "alternative_named": "Stingcaster Mage",
+    "reasoning": "Kept: owner addition; beats Stormcatch per the owner."
+   },
+   {
+    "card": "Strix Serenade",
+    "weakness": "A one-mana counter that only hits creature or planeswalker spells.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Kept: owner addition, one mana."
+   },
+   {
+    "card": "Repeal",
+    "weakness": "Bounce whose cost scales with the target's mana value ({X}{U}).",
+    "alternative_named": "Dramatic Reversal",
+    "reasoning": "Kept: owner addition; replaces itself."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Turnabout, Sink into Stupor and Flashback (selected); Gush and Sea Gate Stormcaller (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Sink into Stupor // Soporific Springs",
+     "Unexpected Windfall",
+     "Flashback",
+     "Mistrise Village"
+    ],
+    "cuts": [
+     "Exotic Orchard",
+     "Vivi Ornitier",
+     "Swan Song",
+     "Gemstone Caverns"
+    ],
+    "result_and_rationale": "Staged four-swap keeping the owner-added Samut; below the five-swap floor."
+   },
+   {
+    "adds": [
+     "Turnabout",
+     "Sink into Stupor // Soporific Springs",
+     "Unexpected Windfall",
+     "Mistrise Village"
+    ],
+    "cuts": [
+     "Samut, Tyrant of Naktamun",
+     "Exotic Orchard",
+     "Vivi Ornitier",
+     "Gemstone Caverns"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Swan Song; below the floor."
+   },
+   {
+    "adds": [
+     "Turnabout",
+     "Sink into Stupor // Soporific Springs",
+     "Unexpected Windfall",
+     "Flashback",
+     "Mistrise Village"
+    ],
+    "cuts": [
+     "Samut, Tyrant of Naktamun",
+     "Exotic Orchard",
+     "Vivi Ornitier",
+     "Swan Song",
+     "Wooded Foothills"
+    ],
+    "result_and_rationale": "Staged five-swap keeping Gemstone Caverns and cutting Wooded Foothills."
+   },
+   {
+    "adds": [
+     "Turnabout",
+     "Sink into Stupor // Soporific Springs",
+     "Unexpected Windfall",
+     "Flashback",
+     "Mistrise Village",
+     "Mox Amber"
+    ],
+    "cuts": [
+     "Samut, Tyrant of Naktamun",
+     "Exotic Orchard",
+     "Vivi Ornitier",
+     "Swan Song",
+     "Gemstone Caverns",
+     "Fellwar Stone"
+    ],
+    "result_and_rationale": "Staged six-swap adding Mox Amber over Fellwar Stone."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C Priority 1 (+Spellseeker / -Samut) was run as a bounded finite test: Samut is seen by turn 4 on the play 0.101, with Beseech 0.0093, and Samut blocks Beseech's free cast and both Reversal loops whenever it is out. The primary cuts Samut for Turnabout (a combo piece) instead of re-adding the owner-removed Spellseeker; the exact Spellseeker list is staged. Pass C Priority 2 (+Storm-Kiln / -Big Score) was run as a finite Treasure ledger for k = 0..6 combat spells: the Artist needs k >= 4 to beat a copied Big Score's mana and never draws; both Storm-Kiln lists are staged.",
+  "strongest_argument_against_baseline": "The owner-added Samut has split second, which per the 2026-08-21 ruling stops our own bargained Beseech free cast and stops Narset's Reversal from being cast into Frantic Search: the commander's main loop is disabled whenever Samut is out. The mana base also carried two lands whose colours are conditional (Exotic Orchard, Gemstone Caverns).",
+  "evidence_based_answer": "Five swaps: Turnabout replaces Samut and adds a 10th Spellbook combo; Sink replaces Exotic Orchard as a land that is also an answer; Unexpected Windfall (42.5% staple) replaces Vivi; Flashback replaces Swan Song (marginal); Mistrise Village replaces Gemstone Caverns (most marginal). Combos 9 -> 10, none lost; Azula castability 0.4920 -> 0.4905 by turn 4 on the play with the MDFC as a land."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Fire_Lord_Azula.txt",
+  "sha256": "f4136ea0028ee787dddad379e12a7e34ccdaa6578a52d1c63ae953734e5806f2",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; every card 1x. Five substitutions against the canonical source. 25 lands plus one MDFC; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+   "tests/test_m6_fire_lord_azula_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "Combat-Flash",
+   "Spell Copy",
+   "Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: ten post-floor challenges were recorded on Azula-specific grounds, and a six-swap package (Mox Amber over Fellwar Stone) is staged as a complete 100.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Fellwar Stone",
+    "challenger": "Mox Amber",
+    "tradeoff": "Mox Amber is free but dead without a legendary creature; Fellwar casts Azula sooner (0.4905 vs 0.4638 by turn 4 on the play).",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Big Score",
+    "challenger": "Storm-Kiln Artist",
+    "tradeoff": "Artist makes 2 Treasures per combat spell but needs a turn of setup; copied Big Score gives 4 cards and 4 Treasures at instant speed.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Wan Shi Tong, Librarian",
+    "challenger": "Storm-Kiln Artist",
+    "tradeoff": "Wan Shi Tong is a flash value body and a 43.6% staple; the Artist is owner-removed.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Talisman of Indulgence",
+    "challenger": "Culling the Weak",
+    "tradeoff": "Culling is a one-shot ritual that needs a creature to sacrifice; Talisman is permanent mana toward a turn-3 Azula.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Repeal",
+    "challenger": "Dramatic Reversal",
+    "tradeoff": "Dramatic Reversal needs enough rocks to be positive; Repeal is an owner-added answer.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Strix Serenade",
+    "challenger": "Mana Drain",
+    "tradeoff": "Mana Drain needs UU and its mana arrives in the next main phase, missing Azula's combat window; Strix costs one U.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Geist of Saint Thalia",
+    "challenger": "Stingcaster Mage",
+    "tradeoff": "Stingcaster duplicates the Flashback add on a slower body.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Wooded Foothills",
+    "challenger": "City of Traitors",
+    "tradeoff": "City of Traitors makes only colourless mana and is sacrificed on the next land drop; Azula needs {U}{B}{R}.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Flusterstorm",
+    "challenger": "Reiterate",
+    "tradeoff": "Reiterate adds no new loop and was rejected by the deep review.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Redirect Lightning",
+    "challenger": "Lightning Bolt",
+    "tradeoff": "Protection matters more than removal after Swan Song and Samut leave.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt",
+    "sha256": "4af9f0e33d337382772097758ba5b6bd1789e3a45cee233d8eeb5d8f2745a9e0",
+    "adds": [
+     "Turnabout",
+     "Sink into Stupor // Soporific Springs",
+     "Unexpected Windfall",
+     "Flashback",
+     "Mistrise Village",
+     "Mox Amber"
+    ],
+    "cuts": [
+     "Samut, Tyrant of Naktamun",
+     "Exotic Orchard",
+     "Vivi Ornitier",
+     "Swan Song",
+     "Gemstone Caverns",
+     "Fellwar Stone"
+    ],
+    "case_for_extra_swaps": "Mox Amber is a 53% EDHREC cEDH card and a free artifact for Mox Opal.",
+    "why_not_selected": "It is dead without a legendary creature and lowers turn-4 Azula castability (0.4905 -> 0.4638)."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Azula-specific grounds or is an owner addition kept on its stated reason: Geist, Strix, Repeal, Quicken, Crimson Wisps, Expedite, Grinding Station, Beseech, Mox Opal and Wan Shi Tong are owner additions; Fellwar, Talisman of Indulgence, Wooded Foothills, Big Score, Wheel, Flusterstorm and Redirect Lightning beat their challengers. Cutting more interaction would weaken the stack after Swan Song and Samut are already gone."
+ }
+}

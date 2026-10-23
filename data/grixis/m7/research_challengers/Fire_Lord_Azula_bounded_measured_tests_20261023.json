@@ -1,0 +1,838 @@
+{
+ "method": "Bounded, finite Pass C tests for Fire_Lord_Azula (Pass C: Samut/Beseech nonbo; +Spellseeker/-Samut; +Storm-Kiln Artist/-Big Score; +Storm-Kiln/-Wan Shi Tong).\nNo sampling, no RNG. Parts: (1) exact hypergeometric co-occurrence over the 99-card library (commander in command zone) of Samut with each\nline it disables (bargained Beseech free-cast; Narset's Reversal + Frantic Search / + Turnabout loops), first N cards N=7..12;\n(2) rules trace of what split second blocks/allows (CR 702.61a); (3) Spellseeker's tutor reach (instant/sorcery MV<=2) and colour/curve\nidentity vs Samut; (4) deterministic Treasure/card ledger of Storm-Kiln Artist vs Big Score over k instants/sorceries cast while Azula attacks;\n(5) exact Azula {1}{U}{B}{R} castability by turn T (lands+counted rocks, colours UBR) for each list. NOT a matched game simulation:\nno validated Azula cEDH game model exists in this repo, so win-rates are not claimed.",
+ "samut_cooccurrence": [
+  {
+   "seat": "play",
+   "turn": 1,
+   "cards_seen": 7,
+   "P_Samut_seen": 0.0707,
+   "P_Samut_and_Beseech": 0.0043,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0002,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0002,
+   "P_Beseech_seen": 0.0707,
+   "P_Samut_given_Beseech_seen": 0.0612
+  },
+  {
+   "seat": "play",
+   "turn": 2,
+   "cards_seen": 8,
+   "P_Samut_seen": 0.0808,
+   "P_Samut_and_Beseech": 0.0058,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0004,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0004,
+   "P_Beseech_seen": 0.0808,
+   "P_Samut_given_Beseech_seen": 0.0714
+  },
+  {
+   "seat": "play",
+   "turn": 3,
+   "cards_seen": 9,
+   "P_Samut_seen": 0.0909,
+   "P_Samut_and_Beseech": 0.0074,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0005,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0005,
+   "P_Beseech_seen": 0.0909,
+   "P_Samut_given_Beseech_seen": 0.0816
+  },
+  {
+   "seat": "play",
+   "turn": 4,
+   "cards_seen": 10,
+   "P_Samut_seen": 0.101,
+   "P_Samut_and_Beseech": 0.0093,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0008,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0008,
+   "P_Beseech_seen": 0.101,
+   "P_Samut_given_Beseech_seen": 0.0918
+  },
+  {
+   "seat": "play",
+   "turn": 5,
+   "cards_seen": 11,
+   "P_Samut_seen": 0.1111,
+   "P_Samut_and_Beseech": 0.0113,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0011,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0011,
+   "P_Beseech_seen": 0.1111,
+   "P_Samut_given_Beseech_seen": 0.102
+  },
+  {
+   "seat": "play",
+   "turn": 6,
+   "cards_seen": 12,
+   "P_Samut_seen": 0.1212,
+   "P_Samut_and_Beseech": 0.0136,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0014,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0014,
+   "P_Beseech_seen": 0.1212,
+   "P_Samut_given_Beseech_seen": 0.1122
+  },
+  {
+   "seat": "draw",
+   "turn": 1,
+   "cards_seen": 8,
+   "P_Samut_seen": 0.0808,
+   "P_Samut_and_Beseech": 0.0058,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0004,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0004,
+   "P_Beseech_seen": 0.0808,
+   "P_Samut_given_Beseech_seen": 0.0714
+  },
+  {
+   "seat": "draw",
+   "turn": 2,
+   "cards_seen": 9,
+   "P_Samut_seen": 0.0909,
+   "P_Samut_and_Beseech": 0.0074,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0005,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0005,
+   "P_Beseech_seen": 0.0909,
+   "P_Samut_given_Beseech_seen": 0.0816
+  },
+  {
+   "seat": "draw",
+   "turn": 3,
+   "cards_seen": 10,
+   "P_Samut_seen": 0.101,
+   "P_Samut_and_Beseech": 0.0093,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0008,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0008,
+   "P_Beseech_seen": 0.101,
+   "P_Samut_given_Beseech_seen": 0.0918
+  },
+  {
+   "seat": "draw",
+   "turn": 4,
+   "cards_seen": 11,
+   "P_Samut_seen": 0.1111,
+   "P_Samut_and_Beseech": 0.0113,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0011,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0011,
+   "P_Beseech_seen": 0.1111,
+   "P_Samut_given_Beseech_seen": 0.102
+  },
+  {
+   "seat": "draw",
+   "turn": 5,
+   "cards_seen": 12,
+   "P_Samut_seen": 0.1212,
+   "P_Samut_and_Beseech": 0.0136,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0014,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0014,
+   "P_Beseech_seen": 0.1212,
+   "P_Samut_given_Beseech_seen": 0.1122
+  },
+  {
+   "seat": "draw",
+   "turn": 6,
+   "cards_seen": 13,
+   "P_Samut_seen": 0.1313,
+   "P_Samut_and_Beseech": 0.0161,
+   "P_Samut_and_NarsetsReversal_and_FranticSearch": 0.0018,
+   "P_Samut_and_NarsetsReversal_and_Turnabout": 0.0018,
+   "P_Beseech_seen": 0.1313,
+   "P_Samut_given_Beseech_seen": 0.1224
+  }
+ ],
+ "split_second_trace": [
+  {
+   "line": "Bargained Beseech the Mirror -> free-cast found MV<=4 card",
+   "samut": "BLOCKED: Beseech is still on the stack while resolving and has split second, so no spell may be cast (CR 702.61a); card goes to hand instead",
+   "without_samut": "works"
+  },
+  {
+   "line": "Azula attacking + Frantic Search, then cast Narset's Reversal in response (owner combo #1, CSB 11-2196-7089)",
+   "samut": "BLOCKED: Narset's Reversal must be cast while Frantic Search (split second) is on the stack",
+   "without_samut": "works (Reversal copy from Azula re-buys Reversal; each iteration 5 mana, 2 Frantic resolutions untap 6 lands, draw 4/discard 4)"
+  },
+  {
+   "line": "Azula attacking + Turnabout + Narset's Reversal (CSB 11-4276-7089, candidate add)",
+   "samut": "BLOCKED for the same reason",
+   "without_samut": "works: 6 mana per iteration, two Turnabout resolutions untap all lands (or artifacts); net +2L-6 mana, infinite storm with L>=3, infinite mana with L>=4 untapped blue-capable lands"
+  },
+  {
+   "line": "Azula + Underworld Breach + Frantic Search (CSB 1368-2196-7089)",
+   "samut": "works (each spell resolves before the next escape cast)",
+   "without_samut": "works"
+  },
+  {
+   "line": "Breach + LED/Lotus Petal + Brain Freeze; Breach + Grinding Station",
+   "samut": "works (sequential casts; LED/Petal are mana abilities)",
+   "without_samut": "works"
+  },
+  {
+   "line": "Thassa's Oracle + Demonic Consultation / Tainted Pact",
+   "samut": "Consultation/Pact gain split second (opponents cannot respond to them); Thassa's Oracle is a creature spell and its ETB trigger is not a spell, so both stay answerable",
+   "without_samut": "works; protection comes from the 14 counters/redirects + Hexing Squelcher + Cavern"
+  },
+  {
+   "line": "Responding to an opponent with our counterspell",
+   "samut": "our counter has split second, so opponents cannot counter-war it (real upside)",
+   "without_samut": "counter-wars possible"
+  }
+ ],
+ "spellseeker_reach": {
+  "base.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Swan Song",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "cand.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flashback",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_Spellseeker_minus_Samut_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Swan Song",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_BigScore_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Swan Song",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_WanShiTong_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Swan Song",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flashback",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flashback",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Swan Song",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  },
+  "Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt": {
+   "count": 30,
+   "cards": [
+    "An Offer You Can't Refuse",
+    "Borne Upon a Wind",
+    "Brain Freeze",
+    "Cabal Ritual",
+    "Chain of Vapor",
+    "Crimson Wisps",
+    "Dark Ritual",
+    "Demand Answers",
+    "Demonic Consultation",
+    "Demonic Tutor",
+    "Expedite",
+    "Flashback",
+    "Flusterstorm",
+    "Gamble",
+    "Imperial Seal",
+    "Into the Flood Maw",
+    "Mental Misstep",
+    "Mystical Tutor",
+    "Narset's Reversal",
+    "Pact of Negation",
+    "Pyroblast",
+    "Quicken",
+    "Red Elemental Blast",
+    "Redirect Lightning",
+    "Repeal",
+    "Rite of Flame",
+    "Snap",
+    "Strix Serenade",
+    "Tainted Pact",
+    "Vampiric Tutor"
+   ]
+  }
+ },
+ "stormkiln_vs_bigscore": {
+  "rows": [
+   {
+    "spells_cast_while_Azula_attacks": 0,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 0,
+     "net_mana_after_paying_artist": -4,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 0,
+     "net_mana_after_paying_artist": -4,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 1,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 2,
+     "net_mana_after_paying_artist": -2,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 4,
+     "net_mana_after_paying_artist": 0,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 2,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 4,
+     "net_mana_after_paying_artist": 0,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 8,
+     "net_mana_after_paying_artist": 4,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 3,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 6,
+     "net_mana_after_paying_artist": 2,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 12,
+     "net_mana_after_paying_artist": 8,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 4,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 8,
+     "net_mana_after_paying_artist": 4,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 16,
+     "net_mana_after_paying_artist": 12,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 5,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 10,
+     "net_mana_after_paying_artist": 6,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 20,
+     "net_mana_after_paying_artist": 16,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   },
+   {
+    "spells_cast_while_Azula_attacks": 6,
+    "StormKiln_one_artist_cast_precombat": {
+     "treasures": 12,
+     "net_mana_after_paying_artist": 8,
+     "cards": 0
+    },
+    "StormKiln_cast_in_combat_with_flash_two_artists": {
+     "treasures": 24,
+     "net_mana_after_paying_artist": 20,
+     "cards": 0
+    },
+    "BigScore_cast_while_Azula_attacks": {
+     "treasures": 4,
+     "net_mana": 0,
+     "cards_drawn": 4,
+     "net_cards": 2,
+     "note": "one paid discard; copy keeps the paid additional cost; independent of k"
+    }
+   }
+  ],
+  "break_even": "One pre-combat Artist needs 2 instant/sorcery casts in the attack to repay its 4 mana, 3 to out-produce Big Score's net 0 mana and 4 to match Big Score's 4 gross Treasures, while drawing 0 cards; as a 2/2 (+1/+0 per artifact) creature it must survive to the attack. If Artist itself is cast during the attack under flash permission, Azula makes a token copy (two Artists, 4 Treasures per spell).",
+  "combo_note": "Storm-Kiln Artist + Azula + Narset's Reversal is a listed CSB line (11-5195-7089); it is real but the Artist is an owner-removed card (2026-10-14), so it is reported, not re-added."
+ },
+ "azula_castable": {
+  "base.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2857,
+    "4": 0.492,
+    "5": 0.5861
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3654,
+    "4": 0.5855,
+    "5": 0.6697
+   }
+  },
+  "cand.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2691,
+    "4": 0.4632,
+    "5": 0.5565
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3469,
+    "4": 0.5558,
+    "5": 0.6408
+   }
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_Spellseeker_minus_Samut_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2857,
+    "4": 0.492,
+    "5": 0.5861
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3654,
+    "4": 0.5855,
+    "5": 0.6697
+   }
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_BigScore_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2857,
+    "4": 0.492,
+    "5": 0.5861
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3654,
+    "4": 0.5855,
+    "5": 0.6697
+   }
+  },
+  "Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_WanShiTong_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2857,
+    "4": 0.492,
+    "5": 0.5861
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3654,
+    "4": 0.5855,
+    "5": 0.6697
+   }
+  },
+  "Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2671,
+    "4": 0.4604,
+    "5": 0.5535
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3446,
+    "4": 0.5528,
+    "5": 0.6377
+   }
+  },
+  "Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2691,
+    "4": 0.4632,
+    "5": 0.5565
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3469,
+    "4": 0.5558,
+    "5": 0.6408
+   }
+  },
+  "Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2691,
+    "4": 0.4632,
+    "5": 0.5565
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3469,
+    "4": 0.5558,
+    "5": 0.6408
+   }
+  },
+  "Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2412,
+    "4": 0.4361,
+    "5": 0.5281
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3136,
+    "4": 0.5277,
+    "5": 0.6128
+   }
+  }
+ },
+ "azula_castable_mdfc_played_as_land": {
+  "cand.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2846,
+    "4": 0.4905,
+    "5": 0.5845
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3642,
+    "4": 0.5839,
+    "5": 0.668
+   }
+  },
+  "Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2824,
+    "4": 0.4874,
+    "5": 0.5811
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3616,
+    "4": 0.5805,
+    "5": 0.6646
+   }
+  },
+  "Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2846,
+    "4": 0.4905,
+    "5": 0.5845
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3642,
+    "4": 0.5839,
+    "5": 0.668
+   }
+  },
+  "Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2846,
+    "4": 0.4905,
+    "5": 0.5845
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3642,
+    "4": 0.5839,
+    "5": 0.668
+   }
+  },
+  "Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt": {
+   "play": {
+    "2": 0.0,
+    "3": 0.2557,
+    "4": 0.4638,
+    "5": 0.557
+   },
+   "draw": {
+    "2": 0.0,
+    "3": 0.3299,
+    "4": 0.5566,
+    "5": 0.6413
+   }
+  }
+ },
+ "castability_model": "rocks counted 1 each (Sol Ring/Mana Vault/Grim Monolith/Fellwar Stone colourless, Signet/Petal UBR, Talismans 2 colours); Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, rituals, Simian Spirit Guide and Treasures excluded as conditional; Gemstone Caverns treated as colourless; at most T-1 rocks deployed by turn T; Sink into Stupor MDFC counted as a nonland (conservative) in azula_castable and as an untapped U land (Soporific Springs, 3 life) in azula_castable_mdfc_played_as_land."
+}

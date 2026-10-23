@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Fire_Lord_Azula",
+ "slug": "fire-lord-azula",
+ "baseline_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "result_hash": "lh1:c322775496765320d1e9ccef49784108965afe28500d98e56ba70e6eb0b1ee7a",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/fire-lord-azula.json.gz",
+   "sha256": "sha256:c41cdf66d52fab8e2cea6595dd600f17f7956b828ad06c6f34140b5f43e76942"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/fire-lord-azula.json.gz",
+   "sha256": "sha256:c5905ce5be4c2d467693f016aff9501197c0708c22e07170c2be4db8f53bd35c"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/fire-lord-azula.json",
+   "sha256": "sha256:bbb94aa623b2c1779b14f34e6ad65418d3fdc64aa4e7b604105f9ecf67a190a8"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/fire-lord-azula.json",
+   "sha256": "sha256:331da00e690cf13d0a28a720bf2731e95cf5e8e5c16329dc6ccd94149ac7f775"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/fire-lord-azula.json",
+   "sha256": "sha256:5d509b03df95567865085446111ca1518d11396776d5fcd80caeb2a5a4a1dc21"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Fire_Lord_Azula.json",
+   "sha256": "sha256:db13f36ecfe74f9a520eafa581d0596320c82ef000deb43370710c8addca5109"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:e843d99bdc8d52fffc9d07c651f498fd105daf73ca065c869ae6d596271bb19a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_Scryfall_live_20261023.json",
+   "sha256": "sha256:4d2228ab136d1fd8520520a33ce92038604637cdcf37cb93a1afc401c6f4c5b5"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:7b62ef06666bc2927d8bffe1a9a1554e09ba9ff63eb1c4b5531e33e558149b46"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:24a13e5a8e312ce1a26add8e5bb94b9576eb137dee894e5f5ade3167f3d7f685"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Fire_Lord_Azula_approved_source_2026-10-14.txt",
+   "sha256": "sha256:b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5"
+  },
+  {
+   "path": "exports/grixis-archidekt/fire-lord-azula.txt",
+   "sha256": "sha256:e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Fire_Lord_Azula.txt",
+   "sha256": "sha256:f4136ea0028ee787dddad379e12a7e34ccdaa6578a52d1c63ae953734e5806f2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt",
+   "sha256": "sha256:539c7e1895a6f2eb6f80ab79b788ff8321bd5d90b4e7d5eeda322c25fd118bca"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt",
+   "sha256": "sha256:527e7ac1fef646dc80458570c06509fef6a22620805fc1b578f316e98f2731c4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt",
+   "sha256": "sha256:d9168774aeacb55e13a9785a8e2f372eb89f20b3937764b0340e0d394eaa6310"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt",
+   "sha256": "sha256:4af9f0e33d337382772097758ba5b6bd1789e3a45cee233d8eeb5d8f2745a9e0"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_Spellseeker_minus_Samut_20261023.txt",
+   "sha256": "sha256:e860be6267d1bfd9fae5c689fc3398aa6d7a7661ca8b9cee9f70156404a12dfc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_BigScore_20261023.txt",
+   "sha256": "sha256:55c0463acfbb8399971b0adc04cad470980e1dffb3714f46ca95beb968b9cd78"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_WanShiTong_20261023.txt",
+   "sha256": "sha256:bb987c4d2309a454dfddeec53ea9c4c0d5c926aa8ff28b3f350ae4199d6c7f43"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+   "sha256": "sha256:de2053cd603070b269a393050f0538de6d457d96922b1bfd5bd023f125bde741"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+   "sha256": "sha256:c4176fb685c69fd19deca388a81ad3eb98b7b83caf089b1ca1768fffddba8537"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/fire-lord-azula-m7.json",
+   "sha256": "sha256:ccea3410e57d8c37f3cefc0b365cfee847bb6f4b81437e81630e96c6b1950711"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Fire_Lord_Azula_M6_I_local_best_20261023.md",
+   "sha256": "sha256:041a77a5297ef39dea9e10e74e1fa8eaee77767d852f1e1ba8d180e76a06d6ca"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Fire_Lord_Azula_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:a936f25869ae1b2bbe17e7a4e2235ee734a4c138f7d80bbfcc9fd6a1d302c68e"
+  },
+  {
+   "path": ".github/workflows/m7-fire-lord-azula.yml",
+   "sha256": "sha256:38f3862c08b0cab0286ae390a3f49a8ca6ad6d6cfefd85515dc972fdf753a3bb"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Fire_Lord_Azula_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:7f832034f3ab7bb751a8ca822b1aac055f3a2f197dcf6b973ead6099dd3c75c6"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/fire-lord-azula.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/fire-lord-azula.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:3ce5626a92a65ddfe40e61af9fd684f16423be30f177d5d1a6c583971909342a",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Fire_Lord_Azula/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:c33bb9cb012826db03b42431cabfd530a15bb3b966e9b310f4e4d1dae055de29"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_fire_lord_azula_m7_mechanics.py",
+    "source_sha256": "sha256:8432de9f74d27f4aa7d2e7c62155604db1809d988848001d18781c23ff201c06",
+    "seed": 0,
+    "harness_version": "fire_lord_azula_m7_finite_rules_and_bounded_pass_c_14_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Fourteen finite exact (no RNG) Oracle-anchored cases. Azula Oracle (copies each spell cast while attacking; copies not cast, keep paid additional costs), add Oracle anchors (Turnabout untap, Sink into Stupor MDFC land face, Unexpected Windfall discard cost and Treasures, Flashback grant, Mistrise Village Mountain-or-Island condition), exact five swaps and singleton 100, R/U/B land sources and the 13 untapped Mistrise enablers, the same 20 Game Changers all legal, Spellbook 9 kept combos plus the Turnabout loop (10), owner direction (Samut override flagged, owner-removed cards not re-added), Turnabout loop net 2L-6 per iteration, copied additional-cost cards double once; bounded Pass C: exact hypergeometric Azula castability recomputed for all 10 lists plus MDFC variants, Samut co-occurrence, split-second trace (Samut blocks the bargained Beseech free cast and Narset's Reversal), Spellseeker reach 30 and the Storm-Kiln vs Big Score mana ledger. Rocks counted per the disclosed model (moxen, rituals, SSG and Treasures excluded; Gemstone colourless in castability); life ignored. No opponent model, matched opening hands or games; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_fire_lord_azula_candidate.py",
+    "source_sha256": "sha256:519dd50fed2f54fa4ecfdd391d01d324b2d7709f9102984f308f90efe7c00980",
+    "seed": 0,
+    "harness_version": "fire_lord_azula_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, every row 1x, alphabetical and 100 physical, gate owner-presentable structure, distinctness vs other Grixis spell-copy/storm decks disclosed, owner-removed cards not re-added and the Samut owner-addition override flagged, staged alternatives as complete 100s, commander legality and release, Bracket 5, tags and combo disclosure; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #666 head 8150b968 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_fire_lord_azula_m7_ij.py",
+    "source_sha256": "sha256:108aa6bbf199938e784cbdae604949b52a9c713d2f3c6f4d892af0565b72c7bf",
+    "seed": 0,
+    "harness_version": "fire_lord_azula_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 10 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C explicit-false non-independence wording and Stage A seal cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Fire_Lord_Azula_M6_J_red_team_20261023.md",
+  "sha256": "sha256:74fec08b8a43be1748124c45e87844eb87e34a51d8cf6143023fd4ee47a97ec2"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Fire_Lord_Azula_M6_J_mana_20261023.md",
+  "sha256": "sha256:793e558c0aff6efdef909c5db848e1fe05517ad03bf1e85bc5a25c8866989802"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
