@@ -71,7 +71,8 @@ class AdmiralRev2JBound(unittest.TestCase):
         self.assertEqual(b["result_hash"],self.i["list_hash"])
         self.assertEqual(sum((cards-base).values()),6)
         self.assertEqual(sum((base-cards).values()),6)
-        self.assertEqual(b["baseline_hash"],logical(base,bzones,self.oracle))
+        full={x["name"]:x for x in json.loads((ROOT/"data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json").read_text())["cards"]}
+        self.assertEqual(b["baseline_hash"],logical(base,bzones,full))
         self.assertNotEqual(b["result_hash"],json.loads(OLD_BUNDLE.read_text())["result_hash"])
         self.assertNotEqual(self.i["list_hash"],json.loads(OLD_I.read_text())["list_hash"])
 
