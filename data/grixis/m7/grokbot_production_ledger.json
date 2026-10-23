@@ -1485,7 +1485,7 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck27-grixistax-october-2026-m7-20261023",
    "working_branch": "grokbot-deck27-grixistax-october-2026-m7-20261023",
-   "last_pushed_commit": "4c2fb7b3366cb40811b5d258523199d96b935595",
+   "last_pushed_commit": "553ab98fa1e5e9fb3f6195d83dce6e68a3665880",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/675",
    "swap_count": null,
    "ci_runs": [],
@@ -1494,15 +1494,16 @@
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw f36346d4 == overrides == registry == tracker == Pass C seal; blob 86b8d18a from approval commit cc7a938; byte copy; commanders = Partner pair Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools, deck ID is not a commander name)",
     "shared_infra_copied_byte_identical_from_PR674_b505d828",
-    "draft_pr_675"
+    "draft_pr_675",
+    "research_checkpoint_553ab98f (live Scryfall 214 names, frozen 0 diffs; EDHREC partner+Tevesh; Spellbook 6->6; Pass C bounded tests seed 27; tested pool 12)"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Live Scryfall/EDHREC/Spellbook research, Pass C bounded tests (Talisman of Indulgence / Arcane Signet vs Mox Amber), candidate judgments",
-   "next_step": "Live Scryfall/EDHREC/Spellbook research, Pass C bounded tests, candidate judgments",
-   "updated_at": "2026-10-23T15:07:24-0500",
-   "last_checkpoint_at": "2026-10-23T15:07:24-0500"
+   "next_action": "I/J memos, decision review, certificate/bundle, tests, workflow; working candidate two swaps (RESEARCH_ONLY)",
+   "next_step": "Build artifacts for two-swap RESEARCH_ONLY candidate",
+   "updated_at": "2026-10-23T15:21:29-0500",
+   "last_checkpoint_at": "2026-10-23T15:21:29-0500"
   },
   {
    "tracker_number": 28,
