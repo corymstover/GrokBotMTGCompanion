@@ -270,28 +270,29 @@
    "baseline_raw_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
    "registry_recorded_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Cecily__Bjorna__Lutri.txt",
    "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "current_candidate_sha": "2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717",
    "branch": "grokbot-deck08-cecily-bjorna-lutri-m7-20261023",
    "working_branch": "grokbot-deck08-cecily-bjorna-lutri-m7-20261023",
-   "last_pushed_commit": "03f667734c022d9cba7a152b00913c4e170a78b0",
+   "last_pushed_commit": "7e82f76e50393cd0bc2eee4413628e3cfc33130b",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/656",
-   "swap_count": null,
+   "swap_count": 6,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical 9b26aa28; raw==overrides; 99 rows=100 physical; Lutri companion outside 100)"
+    "baseline_provenance (canonical 9b26aa28; raw==overrides; 99 rows=100 physical; Lutri companion outside 100)",
+    "research (live Scryfall, EDHREC pair page, Spellbook) + draft candidate 2cc7227f (6 swaps) + staged alternatives"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Oracle/EDHREC discovery + 99-slot audit",
-   "next_step": "Oracle/EDHREC discovery + 99-slot audit",
-   "head_commit": "03f667734c022d9cba7a152b00913c4e170a78b0",
+   "next_action": "decision review, snapshots, I/J evidence, tests, gate",
+   "next_step": "decision review, snapshots, I/J evidence, tests, gate",
+   "head_commit": "7e82f76e50393cd0bc2eee4413628e3cfc33130b",
    "stabilized_checker_sha256": "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b",
-   "last_checkpoint": "2026-10-23 baseline"
+   "last_checkpoint": "2026-10-23 research+draft candidate"
   },
   {
    "tracker_number": 9,
