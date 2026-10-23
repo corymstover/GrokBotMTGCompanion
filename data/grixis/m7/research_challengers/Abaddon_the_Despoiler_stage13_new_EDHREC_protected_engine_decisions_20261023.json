@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE13_NEW_EDHREC_FULL_100_PROTECTED_ENGINE_CUT_ADJUDICATION",
+  "date": "2026-10-23_America_Chicago",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "owner_ready": false,
+  "m6_changed_candidate_certified": false,
+  "canonical_approved_locked_unchanged": true,
+  "admiral_approved_locked_unchanged": true,
+  "deck3_hold": true,
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "cards": 100,
+    "lands": 34
+  },
+  "source_receipts": [
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_ten_EDHREC_Scryfall_20261023.json",
+      "note": "Direct Scryfall collection 2026-10-23 ten card-level legal/identity/Oracle records, including both MDFC faces"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "note": "All original 100 + Warhammer cuts' Oracle"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json",
+      "note": "Sakashima current Oracle and identity"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+      "note": "Impact Tremors and Sanctum current Oracle"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+      "note": "Sheoldred and Mount Doom"
+    },
+    {
+      "url": "https://edhrec.com/commanders/abaddon-the-despoiler/optimized",
+      "retrieval_date": "2026-10-23",
+      "filter": "Bracket4 optimized, public EDHREC user-set bracket decks",
+      "metric": "Top Cards inclusion and High Lift (not historical synergy)"
+    },
+    {
+      "url": "https://edhrec.com/commanders/abaddon-the-despoiler/storm",
+      "retrieval_date": "2026-10-23",
+      "filter": "Storm theme, 36 decks in snapshot",
+      "metric": "Top Cards inclusion and historical synergy percentage (NOT lift)"
+    }
+  ],
+  "observed_edhrec_metrics": [
+    {
+      "card": "Coruscation Mage",
+      "filter": "optimized",
+      "inclusion": "21%",
+      "deck_count": 35,
+      "lift": "10x"
+    },
+    {
+      "card": "Scrawling Crawler",
+      "filter": "optimized",
+      "inclusion": "17%",
+      "deck_count": 28,
+      "lift": "1.2x"
+    },
+    {
+      "card": "Ojer Axonil, Deepest Might",
+      "filter": "optimized",
+      "inclusion": "9.8%",
+      "deck_count": 16,
+      "lift": "2.7x"
+    },
+    {
+      "card": "Aurora Phoenix",
+      "filter": "optimized High Lift",
+      "inclusion": "8.0%",
+      "deck_count": 13,
+      "lift": "120x"
+    },
+    {
+      "card": "Dark Apostle",
+      "filter": "optimized High Lift",
+      "inclusion": "12%",
+      "deck_count": 20,
+      "lift": "94x"
+    },
+    {
+      "card": "Cryptolith Fragment",
+      "filter": "optimized High Lift",
+      "inclusion": "14%",
+      "deck_count": 23,
+      "lift": "82x"
+    },
+    {
+      "card": "Lightning Greaves",
+      "filter": "optimized Top Cards",
+      "inclusion": "56%",
+      "deck_count": 91,
+      "lift": "1.7x"
+    },
+    {
+      "card": "Kessig Flamebreather",
+      "filter": "optimized",
+      "inclusion": "23%",
+      "deck_count": 38,
+      "lift": "31x"
+    },
+    {
+      "card": "Thermo-Alchemist",
+      "filter": "optimized",
+      "inclusion": "36%",
+      "deck_count": 58,
+      "lift": "59x"
+    },
+    {
+      "card": "Keeper of Secrets",
+      "filter": "optimized",
+      "inclusion": "48%",
+      "deck_count": 78,
+      "lift": "56x"
+    },
+    {
+      "card": "Noise Marine",
+      "filter": "optimized High Lift",
+      "inclusion": "25%",
+      "deck_count": 40,
+      "lift": "110x"
+    }
+  ],
+  "metrics_caution": "EDHREC data dynamically shifts and low-lift/high-lift measures usage association, not card efficacy. Values above were displayed in Oct 23 page search, differing slightly from earlier snapshots; denominator and deck list composition may change.",
+  "whole_99_challenge": {
+    "blueprints": "Existing 62/62 deep review, Stage4 whole-99 and Stage10–12 audits source-bound; this is a specifically broader direct CUT-challenge pass avoiding the prior five/six packages' automatic loss of Noise Marine and removal of Ponder when only five.",
+    "roles": "Baseline 34 lands, premium 1MV selection/tutors, red/blue/black free protection, Breach/Brain Freeze, Warhammer printed cascade/nonhand payoffs, Abaddon MV-threshold burners, precombat Neheb/Assault/Loyal, Nightscape/Birgi/Ignus payable colorless loop. All Stage13 full-100 variants keep 34 lands, Nightscape, Birgi, Ignus, Neheb, Assault, Loyal, Call Forth, all free counters, Breach/Brain Freeze, The Lost, Nalfeshnee and Noise Marine except explicit seven-card stress test.",
+    "primary_named_cut_challenges": [
+      {
+        "incumbent": "Thermo-Alchemist",
+        "challenger": "Impact Tremors",
+        "tradeoff": "Tap-and-untap pinger works in pure instant/sorcery turns and gives early each-opponent X3 after surviving summoning sickness; Impact is enchantment immune to ordinary creature sweepers and converts each Ignus/Birgi cast/Spawn ETB into actual all-opponent damage, but is blank when no creatures enter."
+      },
+      {
+        "incumbent": "The Ruinous Powers",
+        "challenger": "Sanctum of Stone Fangs",
+        "tradeoff": "Ruinous four-mana upkeep can steal opponents' higher-ceiling spell from exile (or hit land); Sanctum two-mana fixed first-main pre-hand X3 only from a prior turn and loses Warhammer opponent-theft flavor."
+      },
+      {
+        "incumbent": "Kessig Flamebreather",
+        "challenger": "Coruscation Mage",
+        "tradeoff": "Same {1}{R} noncreature spell ping; Mage is 2/2 not Kessig 1/3, optional paid Offspring {2} makes a separate 1/1 copy for two X3 triggers per later noncreature cast, and the token makes extra Impact trigger when entering. Kessig toughness survives some one/two-damage removal better and needs no additional mana."
+      },
+      {
+        "incumbent": "Keeper of Secrets",
+        "challenger": "Sakashima of a Thousand Faces",
+        "tradeoff": "Keeper six-mana Warhammer payoff damages on EACH nonhand spell by its mana value, including cascade hits. Sakashima four-mana copying Abaddon adds another independent cascade trigger on qualified hand casts but requires Abaddon available during ETB and is weak when the commander is repeatedly removed."
+      },
+      {
+        "incumbent": "Mountain",
+        "challenger": "Mount Doom",
+        "tradeoff": "Mount Doom enters untapped and replaces basic R with B/R utility, but costs 1 life for color and removes one basic fetch target. Its {1}{B}{R},{T} damage1 to all opponents is an actual reusable payable X3 threshold outside spells and Rule of Law, not mere cosmetic color fixing; high resource cost can make this a lower-priority genuine swap."
+      },
+      {
+        "incumbent": "Ponder",
+        "challenger": "Exalted Flamer of Tzeentch or Sheoldred, the Apocalypse",
+        "tradeoff": "One-mana top3 selection plus shuffle and draw smooths fragile combo turns and Breach fuel. Exalted (4MV UR) provides repeated random instant/sorcery recursion to HAND and cast pings but requires upkeep; Sheoldred (4MV BB) can gain X42 after Wheel at 3 opponents (X84 with Bloodletter) but needs both wheel access and creature survival. Neither is a costless Ponder replacement."
+      },
+      {
+        "incumbent": "Noise Marine",
+        "challenger": "Sheoldred in seven-card stress package",
+        "tradeoff": "Noise printed cascade from an MV5 spell plus ETB Sonic Blaster preserves Warhammer chain without Abaddon on battlefield. Sheoldred gains hand follow-up X ceiling on Wheel but replacing Noise erodes native printed cascade and W40K flavor; test of beyond-six opportunity, NOT automatic seventh improvement."
+      },
+      {
+        "incumbent": "Solphim, Mayhem Dominus",
+        "challenger": "Ojer Axonil, Deepest Might",
+        "tradeoff": "A red 1-point noncombat ping becomes 4 under 4/4 Ojer vs 2 under Solphim, but Solphim doubles 4-point Flame Rift to 8, affects nonred damage and remains independent of Ojer power, while Ojer changes red source pings under four. Both legal 4MV RR; Ojer not universally better."
+      },
+      {
+        "incumbent": "Nightscape Familiar",
+        "challenger": "Veyran, Voice of Duality",
+        "tradeoff": "Maintain Stage10 reject: Familiar generates net +{C} per Ignus/Birgi loop and Abaddon 1 generic cost reduction; Veyran doubles eligible permanent spell triggers but loses that payable resource engine."
+      },
+      {
+        "incumbent": "Pyroblast and Pact of Negation",
+        "challenger": "extra threat slots",
+        "tradeoff": "Protection is needed on Abaddon cascade/Assault/Breach turn; cutting both for marginal engine density increases opponent response success. No generic-threat padding."
+      },
+      {
+        "incumbent": "Call Forth the Tempest",
+        "challenger": "Aurora Phoenix",
+        "tradeoff": "Call Forth {5}{U}{R}{R} double printed cascade with MV8, hit by Blasphemous Act MV9; Phoenix MV6 single cascade and grave return when any cascade spell CAST, but needs its own six-mana recast and displaces higher-output existing printed cascade card."
+      }
+    ],
+    "key_rules_and_adversarial": [
+      "Coruscation Mage has Offspring {2}, not a free extra copy: normal cast {1}{R}+{2}, or zero mana cascade hit plus actual additional {2} if payable. The token is created when the Mage enters; with Impact Tremors already present, the Mage and token each cause one distinct X3 damage event to three opponents (X6 total) AFTER Mage casting, not retroactive cascade for Mage.",
+      "After paying offspring and keeping both Mage and offspring on the battlefield, each subsequent noncreature spell cast causes TWO separate each-opponent one-damage events (X6 at three opponents), replaced by Solphim to X12 (red source) and potentially Bloodletter to X24. These triggered events occur after that noncreature spell is cast, so apply to later hand spells, never to the originating spell's Abaddon granted cascade eligibility.",
+      "Mount Doom damage activation is {1}{B}{R},{T} and thus requires land untapped, three colored/resource mana and tap. Its first-turn utility is possible if played untapped and payable; it does not add damage for free and land is exposed to nonbasic interaction.",
+      "Scryfall Cryptolith Fragment face explicitly ENTERS TAPPED; its {T} mana + each-player-loss ability cannot be used immediately upon that same-turn ordinary cast absent external untap. Prior superficial assumption would have been a material rules error; this research excludes it as a 'free immediate X3' substitute.",
+      "Scrawling Crawler upkeep each-player one draw creates one each-opponent life loss per three opponents (X3 own turn) and can trigger existing Bowmasters once per each opponent's non-draw-step card draw (three triggers if all), but supplies all three opponents additional cards. Full Wheel gives incremental X21 loss via Crawler after draw, vs Sheoldred incremental X42; Bloodletter doubles each loss. This is analytical, not an empirical win-rate result.",
+      "Aurora Phoenix's recursion triggers only if in grave as a cascade spell was CAST; being cast off cascade lacks direct payoffs of Noise Marine. Dark Apostle {3}{R} needs {3},{T} activation to grant next NONCREATURE cascade and normally waits for summoning sickness; high-lift alone cannot overcome setup cost.",
+      "Under a Rule of Law restriction, Abaddon still grants cascade but it cannot be cast as the second spell; repeated Ignus casts stop. Retaining Loyal/Neheb/Aggravated Assault is the protected creature/combat line. Opponent removal on Abaddon makes Sakashima fail to add copies; board wipe can remove Mage offspring and Sheoldred simultaneously."
+    ],
+    "mana_comment": "All variants 34 lands. Retain 2 Mountain/3 Island/3 Swamp after Mount Doom replaces one Mountain, and 3 two-mana Talismans. 4MV Sakashima, Sheoldred and Exalted packages increase reliance on colored sources (Sheoldred BB; Exalted UR) even though Keeper6 and Ruinous4 are cut; stage13 does not claim measured opening-hand results."
+  },
+  "packages": [
+    {
+      "name": "protected_five",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Coruscation Mage",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom"
+      ],
+      "cut": [
+        "Thermo-Alchemist",
+        "The Ruinous Powers",
+        "Kessig Flamebreather",
+        "Keeper of Secrets",
+        "Mountain"
+      ],
+      "swaps": 5,
+      "decklist_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_five_research_20261023.txt",
+      "raw_sha256": "131b59af4a4ad413107bfa24012495d527a533eb91e6c5d10d9517342ac90d65",
+      "cards": 100,
+      "lands": 34,
+      "status": "RESEARCH_ONLY",
+      "source_card_legality_check": "SCryfall official Commander legal within UBR for all incoming cards, full new candidate certification NOT executed"
+    },
+    {
+      "name": "warhammer_six",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Coruscation Mage",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom",
+        "Exalted Flamer of Tzeentch"
+      ],
+      "cut": [
+        "Thermo-Alchemist",
+        "The Ruinous Powers",
+        "Kessig Flamebreather",
+        "Keeper of Secrets",
+        "Mountain",
+        "Ponder"
+      ],
+      "swaps": 6,
+      "decklist_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_warhammer_six_research_20261023.txt",
+      "raw_sha256": "0de1d376595a3bc51cb31e6bbbf9b87593d629482bc335c83ff46b5aad25bd7d",
+      "cards": 100,
+      "lands": 34,
+      "status": "RESEARCH_ONLY",
+      "source_card_legality_check": "SCryfall official Commander legal within UBR for all incoming cards, full new candidate certification NOT executed"
+    },
+    {
+      "name": "wheel_seven",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Coruscation Mage",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom",
+        "Exalted Flamer of Tzeentch",
+        "Sheoldred, the Apocalypse"
+      ],
+      "cut": [
+        "Thermo-Alchemist",
+        "The Ruinous Powers",
+        "Kessig Flamebreather",
+        "Keeper of Secrets",
+        "Mountain",
+        "Ponder",
+        "Noise Marine"
+      ],
+      "swaps": 7,
+      "decklist_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_wheel_seven_research_20261023.txt",
+      "raw_sha256": "eb150d6981e89a3e3bee46528108cdc4630a4b509ff8c07bf10f72e340762df3",
+      "cards": 100,
+      "lands": 34,
+      "status": "RESEARCH_ONLY",
+      "source_card_legality_check": "SCryfall official Commander legal within UBR for all incoming cards, full new candidate certification NOT executed"
+    },
+    {
+      "name": "protected_wheel_six",
+      "add": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Coruscation Mage",
+        "Sakashima of a Thousand Faces",
+        "Mount Doom",
+        "Sheoldred, the Apocalypse"
+      ],
+      "cut": [
+        "Thermo-Alchemist",
+        "The Ruinous Powers",
+        "Kessig Flamebreather",
+        "Keeper of Secrets",
+        "Mountain",
+        "Ponder"
+      ],
+      "swaps": 6,
+      "decklist_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+      "raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+      "cards": 100,
+      "lands": 34,
+      "status": "RESEARCH_ONLY",
+      "source_card_legality_check": "SCryfall official Commander legal within UBR for all incoming cards, full new candidate certification NOT executed"
+    }
+  ],
+  "dispositions": [
+    {
+      "card": "Coruscation Mage",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Kessig Flamebreather",
+      "reason": "Sourced native 2MV one-point noncreature burn with optional paid Offspring {2} scaling two engines; serious quality opportunity despite 1 toughness lost from 1/3 Kessig. Replacing Kessig is plausible, not confirmed whole-100 best."
+    },
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Thermo-Alchemist",
+      "reason": "Direct on-theme Ignus/Birgi paid kill and Lost Spawn ETB damage. Thermo has noncreature untap pings independent of creature ETBs. Need actual balance."
+    },
+    {
+      "card": "Sanctum of Stone Fangs",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "The Ruinous Powers",
+      "reason": "Surviving 2MV Shrine produces pre-hand-spell first-main X3 at three opponents with no cards gifted, but discards 40K random opponent-exile spell high ceiling."
+    },
+    {
+      "card": "Sakashima of a Thousand Faces",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Keeper of Secrets",
+      "reason": "Potential second Abaddon hand cascade engine at 4MV; costs Warhammer 6MV nonhand-MV burn and requires commander on battlefield."
+    },
+    {
+      "card": "Mount Doom",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Mountain",
+      "reason": "Untapped BR land with costed own-turn all-opponent damage outside spells. Strictly loses life on color tap and nonbasic susceptibility; not a cosmetic free fifth card."
+    },
+    {
+      "card": "Exalted Flamer of Tzeentch",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Ponder",
+      "reason": "4MV 40K upkeep instant/sorcery recursion to hand enables fresh Abaddon cascades; 1MV Ponder is exceptional proactive selection. Extra four mana is not automatically worth a sixth swap."
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Ponder or Noise Marine",
+      "reason": "Wheel gives 3*7*2 =42 fresh own-turn opponent life loss after resolving, or X84 with Bloodletter, but costs BB and vulnerable to interaction. Never retroactively grants cascade to Wheel; losing Ponder or Noise has real downside."
+    },
+    {
+      "card": "Scrawling Crawler",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Ponder or Exalted/Sheoldred slot",
+      "reason": "Own upkeep X3 with draw each player, possible +X3 Bowmasters pings on their non-draw-step draws and incremental Wheel X21, but gift 3 opponents cards and weaker incremental wheel loss than Sheoldred."
+    },
+    {
+      "card": "Ojer Axonil, Deepest Might",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Solphim, Mayhem Dominus",
+      "reason": "Red-source 1 damage upgraded to 4 instead of Solphim's 2; cannot dominate Solphim's double of Flame Rift4 to8 and nonred source damage; alternate low-ping dense shell."
+    },
+    {
+      "card": "Aurora Phoenix",
+      "disposition": "REJECT",
+      "challenged_cut": "Noise Marine or Call Forth the Tempest",
+      "reason": "Six mana repeated flying 5/3 cascade plus grave recursion is on-theme, but compared with printed cascade+Sonic Blaster Noise5 and double-cascade CallForth8 it demands repeated six-mana recast without a direct threshold outlet."
+    },
+    {
+      "card": "Dark Apostle",
+      "disposition": "REJECT",
+      "challenged_cut": "The Ruinous Powers or Wild-Magic Sorcerer",
+      "reason": "High-lift 40K Astartes but summoning-tap and three mana for next noncreature cascade is slower than Abaddon static cascade and current Wild-Magic exile-spell cascade augmentation; fails faster threshold/paid-line case."
+    },
+    {
+      "card": "Cryptolith Fragment // Aurora of Emrakul",
+      "disposition": "REJECT",
+      "challenged_cut": "Talisman of Indulgence",
+      "reason": "Three-mana tapped-ETB rock delays colored ramp and cannot immediately give main-phase X3 on cast turn; lower tempo than two-mana untapped Talisman for turn4 Abaddon."
+    },
+    {
+      "card": "Twilight Prophet",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "The Ruinous Powers or Sheoldred slot",
+      "reason": "Potential upkeep card draw and X=3*revealedMV threshold with city's blessing ten-permanent prerequisite, but needs existing permanent density and delayed step, while original Ruinous can generate free opponent theft and Sheoldred immediate wheel trigger if assembled."
+    },
+    {
+      "card": "Firebrand Archer",
+      "disposition": "REJECT",
+      "challenged_cut": "Kessig Flamebreather",
+      "reason": "Same 1R noncreature ping as Kessig at 2/1 and no Offspring scale; Coruscation Mage creates higher ceiling with payable copying; Kessig's 1/3 is more resilient than Archer's 2/1."
+    },
+    {
+      "card": "Bloodthirster",
+      "disposition": "REJECT",
+      "challenged_cut": "Keeper of Secrets or Neheb",
+      "reason": "Six-mana combat damage can add combats, but cannot attack same player twice that turn, max three different players at a 4-player table; existing protected Neheb/Loyal/Aggravated Assault generates scalable repeated own combats with no spell casting once assembled."
+    },
+    {
+      "card": "Lightning Greaves",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "challenged_cut": "Ponder or slower payoff",
+      "reason": "Two mana equip0 haste/shroud protection for Abaddon or Neheb but causes loss of one synergy/selection slot and shroud prevents your own target effects. Existing free counterspell shielding is already substantial; protection density worth late reconsideration."
+    }
+  ],
+  "decisive_comparison": "The newly sourced Coruscation Mage and re-cutting Thermo/Flamebreather create a more identity-preserving five-to-seven alternative than Stage12's immediate Noise Marine removal. Specifically Stage13 five/six packages preserve BOTH Noise Marine (printed cascade) and Nalfeshnee (nonhand spell copies), whereas Stage12 5/6 all cut Noise. However, even Stage13 protected-five cuts 40K Keeper and Ruinous, shrinks pure inst/sorc repeatable ping coverage, and Mount Doom's paid activation may be too slow. The six packages add either expensive Warhammer recursion or conditional Sheoldred wheel at the cost of crucial Ponder. The seven package again loses Noise. Numeric eligibility is NOT quality superiority.",
+  "stop_rule": "Do not make another multi-thousand-game generic simulator. Next qualitative forced choice: compare protection of Noise/Nalfeshnee plus extra Mage copy against Keeper/nonhand-MV loss, and assess Ponder-as-sixth cut under four-mana colored constraints. Source and finite tests may establish mechanics, not expected game wins. If no 5+ genuinely improves the best approved 100, keep governance hold instead of padding.",
+  "hard_gates_open": [
+    "No final SELECT_ADD package of >=5 genuine upgrades yet demonstrated better under cut costs.",
+    "No changed-finalist entire-100 current Oracle/singleton/reproducibility M6 I/J recertification.",
+    "No changed-candidate obligatory P0/P1 contract reconciliation or exact candidate CI certification.",
+    "No new explicit Cory M7 final approval; existing canonical locks unchanged."
+  ],
+  "next": "Choose the strongest full-100 Stage12-vs-Stage13 cut-conserving configuration or reject the extra swaps based on genuine strategic opportunity cost; then perform only changed-candidate M6 I/J if a true >=5 superior package survives. Do not advance deck3."
+}
