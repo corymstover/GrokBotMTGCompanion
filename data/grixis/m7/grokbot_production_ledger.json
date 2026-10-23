@@ -81,15 +81,34 @@
    "baseline_raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
    "registry_recorded_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman.txt",
+   "candidate_raw_sha256": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
    "current_candidate_sha": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
    "branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
    "working_branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
    "last_pushed_commit": "fee682f356c5b7aebe4b4094137bf198215bf875",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/653",
-   "swap_count": null,
-   "ci_runs": [],
+   "swap_count": 5,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 5 Ashad, the Lone Cyberman candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39932488543",
+     "head": "fee682f356c5b7aebe4b4094137bf198215bf875",
+     "conclusion": "success"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39932488472",
+     "head": "fee682f356c5b7aebe4b4094137bf198215bf875",
+     "conclusion": "success"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39932488417",
+     "head": "fee682f356c5b7aebe4b4094137bf198215bf875",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
    "unresolved_issues": [
     "Merge order #651 -> #652 -> #653 (shared bundle_check/gate files)",
