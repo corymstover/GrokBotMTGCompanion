@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Crosis__the_Purger",
+ "slug": "crosis-the-purger",
+ "baseline_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "result_hash": "lh1:f856372319521a23d334f454dc68f1efca141f65ca7c1273c7b84b0eec2b1668",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/crosis-the-purger.json.gz",
+   "sha256": "sha256:f4450c9cf03ddc028c4134d7408969dea79e7b3c79e5ccf5c50eff662ede8aa2"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz",
+   "sha256": "sha256:5db503d40d4066e6fff39b686fe88aea931a0f1575e02959b1749c56843cdbdc"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/crosis-the-purger.json",
+   "sha256": "sha256:84331fc82537afcdf278b1806e837fd19a23b623dcc92843a3aeb12b7489b65f"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/crosis-the-purger.json",
+   "sha256": "sha256:197df4d3c9be064f02dff9f3e985bbe52acecd7a321620e8fdad1f5d2f4e7a76"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/crosis-the-purger.json",
+   "sha256": "sha256:a6e88775850d7c520480cefdf0f99d3fc03d90434adaeb6489e2e2de0648d129"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Crosis__the_Purger.json",
+   "sha256": "sha256:623d534c7f17b43c9360e2cf2ee19c9161f678c120303ebc797c12db2d21c21f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:56dde1cd867baedb15a70a97b0e133eb1d6cf32deb800559ae064f28396ce566"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+   "sha256": "sha256:fd5c40fea351e55a0dc8791a514aa3bdd93fe4b595c9305faa2c425e27318b14"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:b4244a3cc35a8e880f751ce8bcad0b3815c4a87c4aa847435e7eba5aebf7fef9"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Crosis__the_Purger_approved_source_2026-10-14.txt",
+   "sha256": "sha256:a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1"
+  },
+  {
+   "path": "exports/grixis-archidekt/crosis-the-purger.txt",
+   "sha256": "sha256:04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Crosis__the_Purger.txt",
+   "sha256": "sha256:244f19b9465e499c390bcac10eb96ad04d73f4b760a09cfef1d526f47be98347"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_four_keep_Oppression_20261023.txt",
+   "sha256": "sha256:ac576d38a068bf65704c6957c65bb1a3579ffedfead19b3471082659897b8236"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_five_PassC_Megrim_over_Sedraxis_20261023.txt",
+   "sha256": "sha256:66c91591ad684ca4b44b79074bdc9f80d92d4440b393a2aee35235f571596c1a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_six_Bloodchief_over_DarkDeal_20261023.txt",
+   "sha256": "sha256:d56ffa3e232f34bf726d9551262f958a101602e5ac92d5f175135c771e4a6651"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_seven_Quandary_over_BottomlessPit_20261023.txt",
+   "sha256": "sha256:e76d319f75b5f87d710f00d89bdf3c19590d9d37cc295607e2d8f87b8b4f437f"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+   "sha256": "sha256:06dd8fbbfa2be5107458517cb18387cb2f6eac5d19c18b4117fa8105c1cb3e88"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+   "sha256": "sha256:15fd2209bc12546da0dec333163f4504d3620f44290796b77f39d3a30c925780"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/crosis-the-purger-m7.json",
+   "sha256": "sha256:58b6cd75c011e1f26ff58591f5f3b5ba70f54b256f0ddd5ac05eb084940042b5"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Crosis__the_Purger_M6_I_local_best_20261023.md",
+   "sha256": "sha256:9be835979abe24b451ea3b281cef838d1a9429968eef585e7bb4c9b297e9c383"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Crosis__the_Purger_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:5739eb0fd10c5f6cf596acee77b46aa3952614e97821e55a00d3c6afec59a56c"
+  },
+  {
+   "path": ".github/workflows/m7-crosis-the-purger.yml",
+   "sha256": "sha256:d9b0616446854708077aa26fae1c7be5ee7197878d3241b2f5f8d668e01734d0"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Crosis__the_Purger_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:198e649fe80ab094e79ef8efc83ae261936e4595ef14344f0be05febdfdfa9f2"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/crosis-the-purger.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/crosis-the-purger.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:71c703cad02971cfd8f32858aa2a07f8145b98bc40c160c7d9d29e28258c8b85",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:604daa9cf5efeb15ca825b700a7c887a5108c459127193759ea7a9d0fdeb2e01"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_crosis_the_purger_m7_mechanics.py",
+    "source_sha256": "sha256:c467a27a4d632392aa516e714eb532a031406974f6d211219ed28f81a4082914",
+    "seed": 0,
+    "harness_version": "crosis_m7_finite_rules_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eight finite seed-0 Oracle-anchored cases: Crosis Oracle (flying Dragon, paid {2}{B} color purge) and Painter's Servant full-hand purge; per-card punisher arithmetic under CR 603.2c (Painter purge 5 cards: Caress only 10, Caress+Megrim+Raiders' Wake 30; wheel 7 cards 42; Pass C's 6-card Megrim example 12; empty hand 0); Sword of Feast and Famine + Aggravated Assault stack order and mana (8 lands purge+loop, 7 Assault only, 4 none, ends on a missed connection); Rankle haste/modes vs Blizzard Specter, Deadly Rollick free with a commander; Spellbook IDs baseline 1 -> candidate 2 (adds 900-3750); exact swaps with core preserved; quantity-counted 36 lands, rocks 13 -> 11, Xander's Lounge only always-tapped land and reachable by all six fetches; legality, UBR identity, singleton, 14 Game Changers unchanged, adds not Game Changers. Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_crosis_the_purger_candidate.py",
+    "source_sha256": "sha256:cedf10ac864760777f84fd62d32b090fd6dd3ea2415ab5e6fa69484accddabc8",
+    "seed": 0,
+    "harness_version": "crosis_m7_gate_candidate_5_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first and 100 physical, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #657 head 257dac33 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_crosis_the_purger_m7_ij.py",
+    "source_sha256": "sha256:8c19a58d346ed04be832a7d49e4a759e8c60d5c201f74a8fd87ce53cc8bc293e",
+    "seed": 0,
+    "harness_version": "crosis_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas, runs the J checker, pins the checker sha, and exercises fail-closed Pass C non-independence wording and Stage A seal mapping cases (explicit-FALSE disclosure path); provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Crosis__the_Purger_M6_J_red_team_20261023.md",
+  "sha256": "sha256:e5893d1f2c430ecb3f8c42b845ece91dbdec8f560e7c27fcaae5986be09da5ca"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Crosis__the_Purger_M6_J_mana_20261023.md",
+  "sha256": "sha256:247e8957a2880b8320c6ce4fea1f5ba8ee6b266d44e82eb9e2528d8044507c53"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

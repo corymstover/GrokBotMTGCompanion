@@ -1,0 +1,55 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "2286-3221",
+    "uses": [
+     "Notion Thief",
+     "Teferi's Puzzle Box"
+    ],
+    "produces": [
+     "Opponents put all cards in hand on the bottom of their library on each of their draw steps",
+     "Lock"
+    ],
+    "bracket_tag": "S",
+    "description": "At the beginning of your opponent's draw step, after they draw their card, Teferi's Puzzle Box triggers, causing them to put the cards in their hand on the bottom of their library, then attempt to draw that many cards.\nNotion Thief's replacement effect causes you to draw that many cards instead.\nRepeat on each opponent's draw step."
+   }
+  ],
+  "almost_included_count": 22,
+  "almost_included_sample": []
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ],
+    "bracket_tag": "S",
+    "description": "Deal combat damage to an opponent with the creature that has Sword of Feast and Famine attached.\nSword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control.\nProceed to your postcombat main phase.\nActivate all mana producing lands you control by tapping them, adding at least {3}{R}{R}.\nActivate Aggravated Assault by paying {3}{R}{R}, untapping all creatures you control and causing you to get an additional combat and main phase after this phase.\nRepeat."
+   },
+   {
+    "id": "2286-3221",
+    "uses": [
+     "Notion Thief",
+     "Teferi's Puzzle Box"
+    ],
+    "produces": [
+     "Opponents put all cards in hand on the bottom of their library on each of their draw steps",
+     "Lock"
+    ],
+    "bracket_tag": "S",
+    "description": "At the beginning of your opponent's draw step, after they draw their card, Teferi's Puzzle Box triggers, causing them to put the cards in their hand on the bottom of their library, then attempt to draw that many cards.\nNotion Thief's replacement effect causes you to draw that many cards instead.\nRepeat on each opponent's draw step."
+   }
+  ],
+  "almost_included_count": 37,
+  "almost_included_sample": []
+ }
+}
