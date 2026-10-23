@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-23_America_Chicago",
-  "status": "RESEARCH_ONLY_STAGE17_PINNED_FULL95_ORACLE_14_CHANGED_P0_PASS_IJ_TRANSFER_PENDING",
+  "status": "RESEARCH_ONLY_STAGE19_27_NONTRANSFERABLE_P0_95_ORACLE_J_MANA_REDTEAM_IJ_PENDING",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -408,8 +408,8 @@
       "file": "data/grixis/m6/phase_b_plans/Abaddon_stage16_legacy_candidate_transfer_20261023.json",
       "test": "tests/test_m6_abaddon_stage16_transfer_integrity.py",
       "historical_p0_executed": 104,
-      "untransferable_due_to_removed_cards": 20,
-      "potentially_reusable_p0": 84,
+      "untransferable_due_to_removed_cards": 27,
+      "potentially_reusable_p0": 77,
       "historical_p1_executed": 14,
       "p1_known_counterfactual": 3,
       "candidate_bound_new_p0_executed": 14,
@@ -437,6 +437,31 @@
       "research_only": true,
       "source_live_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906252605",
       "formal_m6_ij_complete": false
+    },
+    "stage18": {
+      "mana_report": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_mana_20261023.md",
+      "red_team_report": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_red_team_20261023.md",
+      "tests": "tests/test_m6_abaddon_stage18_j_prerequisite_reports.py",
+      "pr": 642,
+      "merge_sha": "bcb6c8f0a35dffed9d979d4b35a07286929780aa",
+      "exact_head": "b5f4b598cbd22ac00741430f1d62ebb2b4930609",
+      "ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39909084236",
+      "passed_steps": 91,
+      "candidate_specific_j_bundle_complete": false
+    },
+    "stage19": {
+      "correction": "Stage16 originally string-matched only title-case named cards and missed two lower-case Betrayal references plus five other P0-022 suspend parent cases. Exact scenario semantic correction: 27 nontransferable, 77 potentially reusable.",
+      "newly_reclassified_case_ids": [
+        "P0-018",
+        "P0-019",
+        "P0-022b",
+        "P0-022c",
+        "P0-022d",
+        "P0-022e",
+        "P0-022f"
+      ],
+      "owner_ready": false,
+      "formal_ij_complete": false
     }
   },
   "mandatory_next_deterministic_checks": [
@@ -464,5 +489,5 @@
     "EDHREC Top inclusion / High Lift dynamically vary; actual filters and observed metrics recorded Stage13. Direct Scryfall fetched 10 new card records 2026-10-23 and exact changed 100 refreshed in PR #636 CI.",
     "Stage14 current Oracle checks are not a full effect-aware gameplay engine, mandatory M6 I/J tested-pool closure, or new owner approval. Proposed six remains research-only."
   ],
-  "next_action": "Candidate-specific M6 I/J still needed: review 84 potentially unaffected P0 / 11 P1 historical conditional cases for physical transfer, preserve 20+3 invalidated scenarios as comparator-only, then author decision-grade tested-pool local best and complete new reproducibility certificate for exact protected six SHA 5ab1...; stage17 Oracle snapshots 95/95 pinned and live full100 CI supports legality only. Do not ask owner approval or advance deck3 yet."
+  "next_action": "Review 77 candidate-unaffected historical P0 +11 P1 for exact physical transfers; no new blanket 104-case M6 claim. Then candidate-specific M6 I tested-pool and J bundle for SHA 5ab1.. and 95 direct Oracle records; red team/mana Stage18 complete as evidence only. Preserve locked Abaddon and Admiral, hold #3."
 }
