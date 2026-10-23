@@ -86,7 +86,7 @@
    "current_candidate_sha": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
    "branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
    "working_branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
-   "last_pushed_commit": "89d125375a7f17518558323b2f5776fd656f9609",
+   "last_pushed_commit": "8cabf9f8ed7ee05e10e1b976eedbaff07e4ce6cb",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/653",
    "swap_count": null,
    "ci_runs": [],
@@ -100,13 +100,16 @@
     "discovery_snapshots",
     "draft_pr_opened",
     "candidate_txt",
-    "alternative_100s_staged"
+    "alternative_100s_staged",
+    "decision_packet_gate_pass",
+    "oracle_rules_snapshots",
+    "mechanics_candidate_tests"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Decision packet, snapshots, tests, IJ, Pass C fix",
-   "next_step": "Decision packet, snapshots, tests, IJ, Pass C fix"
+   "next_action": "Pass C fix, IJ artifacts, workflow, review packet",
+   "next_step": "Pass C fix, IJ artifacts, workflow, review packet"
   },
   {
    "tracker_number": 6,
