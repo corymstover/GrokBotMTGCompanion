@@ -1616,12 +1616,12 @@
    "baseline_raw_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
    "registry_recorded_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Lord_of_Tresserhorn.txt",
+   "candidate_raw_sha256": "fd09cb267660206b834257e5c455259985b0e53316743835f679760b11200f85",
+   "current_candidate_sha": "fd09cb267660206b834257e5c455259985b0e53316743835f679760b11200f85",
    "branch": "grokbot-deck29-lord-of-tresserhorn-m7-20261023",
    "working_branch": "grokbot-deck29-lord-of-tresserhorn-m7-20261023",
-   "last_pushed_commit": "b97c4b4a8e7c8c7c01d54158fe2f7dcc01bd8102",
+   "last_pushed_commit": "60dbeec86c6c088e9df5dcadde9b91f90ad2d2ea",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/677",
    "swap_count": null,
    "ci_runs": [],
@@ -1629,12 +1629,13 @@
    "unresolved_issues": [],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 95863276 == overrides approved_list_sha256 == registry recorded; blob d9ff96da from af3c889; registry source 1836b97 same bytes; byte copy); tracker row 28 stale CURRENT FINAL BASELINE text with blank final hash vs overrides APPROVED/LOCKED disclosed; shared infra copied byte-identical from PR 676 head 842f78d9; draft PR 677",
-    "research+spellbook+bounded_measured_tests (b97c4b4a)"
+    "research+spellbook+bounded_measured_tests (b97c4b4a)",
+    "candidate revised (60dbeec8): prior draft +Temur Battle Rage -Pain for All withdrawn (owner-cycle cut 2026-10-14, not reopened by Pass C); replaced by +Consign to Memory -Feed the Swarm; oracle snapshot + tested pool written"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "research: live Scryfall, EDHREC, Spellbook, Pass C queue bounded tests, candidate judgments",
+   "next_action": "decision review + gate, memos, certificate/bundle, tests, workflow, full suite, ready",
    "next_step": "research: live Scryfall, EDHREC, Spellbook, Pass C queue bounded tests, candidate judgments",
    "stage": "RESEARCH_IN_PROGRESS",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/677",
@@ -1642,8 +1643,8 @@
    "last_pushed_sha": "65d6ad4702576de8ef84c776122f381fc50072e8",
    "last_checkpoint_commit": "65d6ad4702576de8ef84c776122f381fc50072e8",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob d9ff96da, introduced by af3c889 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T16:32:21-0500",
-   "last_checkpoint_at": "2026-10-23T16:32:21-0500"
+   "updated_at": "2026-10-23T16:42:02-0500",
+   "last_checkpoint_at": "2026-10-23T16:42:02-0500"
   },
   {
    "tracker_number": 30,
