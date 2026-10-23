@@ -231,7 +231,7 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
    "working_branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
-   "last_pushed_commit": "d4a38b73a50e1889a78f0122d5927694b8b354c1",
+   "last_pushed_commit": "ef0512f8b4acec0fd778a8ededa0612f83183b9d",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/655",
    "swap_count": null,
    "ci_runs": [],
@@ -245,7 +245,8 @@
     "baseline_provenance",
     "gate_infra_copied_from_654",
     "draft_pr_opened",
-    "checker_stabilized_decks_7_62"
+    "checker_stabilized_decks_7_62",
+    "deck07 research+artifacts checkpoint ef0512f8 (gate owner_presentable, J bundle valid, focused tests pass)"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
