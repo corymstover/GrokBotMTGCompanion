@@ -1,0 +1,761 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Loki__the_Deceiver",
+ "canonical_baseline_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+ "canonical_baseline_logical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "commander_identity": {
+  "mechanical_plan": "Loki, the Deceiver ({1}{U}{B}{R} legendary God Sorcerer Villain 4/4; Marvel Super Heroes Commander, msc, released 2026-06-26; oracle_id 17e45fd8-c924-4b42-87ad-189469a8dd18). Commander-legal per live Scryfall, not a Game Changer, released, no project exception. Oracle: whenever Loki attacks, create a tapped and attacking token copy of another target Villain you control, except it isn't legendary and is an Illusion; sacrifice it at the next end step. Whenever one or more Villains you control deal combat damage to a player, draw a card. Plan (owner 2026-10-14): attack safely with Loki (Swiftfoot Boots, Lightning Greaves), copy the best enters/static/combat-damage Villain (attack triggers do not fire on the copy, CR 508.4), keep tokens with The Master, Multiplied or Sundial of the Infinite, double triggers with Roaming Throne naming Villain, and draw on connection. Both adds are enters-trigger Villains chosen for exactly that rule.",
+  "protected_core": [
+   "Loki, the Deceiver",
+   "The Master, Multiplied",
+   "Roaming Throne",
+   "Sundial of the Infinite",
+   "Spark Double",
+   "Taskmaster, Mercenary Mimic",
+   "Mysterio, Master of Illusion",
+   "Chameleon, Master of Disguise",
+   "Loki, Lord of Misrule",
+   "Loki's Scepter",
+   "Baron Strucker, HYDRA Overlord",
+   "Tombstone, Career Criminal",
+   "Madame Hydra",
+   "Kindred Discovery",
+   "Swiftfoot Boots",
+   "Lightning Greaves",
+   "Red Ghost, Intangible Genius",
+   "Titan of Littjara",
+   "Hall of Echoes"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized; owner-approved, registry ceiling 4), unchanged. Game Changers: 5 in both baseline and candidate (Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Rhystic Study), so Bracket 3 is impossible; the GrokBot advisory's 'B3 with 5 Game Changers' wording is an inconsistency Pass C flagged, corrected here. Commander Spellbook: 0 included combos in baseline, candidate and all alternatives; no infinite combo is added.",
+  "anti_homogenization": "Commander-first to Loki's Oracle: both adds are Villains whose enters triggers repeat on every Loki token copy, replacing Villains whose copies lose their attack triggers. No generic combo (Thassa's Oracle / Demonic Consultation, fast-combo or sacrifice-loop packages), no additional clone effect, no Plan and no owner-removed card (Construct a Cosmic Cube, The Masters of Evil, Reliquary Tower) or owner-rejected card or class (Kindred Dominance, Raise the Palisade, Endless Ranks of HYDRA, attack-trigger-centric Villains such as Puppet Master, String Puller and Vulture, Scheming Scavenger) is added. The owner's own 2026-10-14 reason for rejecting attack-trigger Villains (a Loki copy enters attacking and does not retrigger attack abilities) is the same rule that makes both cuts weak Loki targets. Distinctness (nonbasic names shared with the registry Archidekt exports, candidate/baseline, of 92 nonbasic names): Doctor Doom, King of Latveria 53/53 (the closest Grixis Villain deck); Be'lakor, the Dark Master 42/42; Admiral Brass, Unsinkable 40/40; Nathan Drake, Treasure Hunter 40/40. The overlap is the Grixis mana base and staples plus the Marvel Villain core shared with Doctor Doom. Loki-unique against all four in the candidate (24 names): Avengers: Under Siege; Carnage, Crimson Chaos; Cover of Darkness; Crossbones, Malicious Mercenary; Doctor Octopus, Master Planner; Elektra, Daughter of the Hand; Hall of Echoes; Kang Prime; Loki's Scepter; Loki, God of Mischief; Loki, Lord of Misrule; Madame Hydra; Mysterio, Master of Illusion; Patchwork Banner; Red Ghost, Intangible Genius; Stilt-Man, Towering Terror; Sundial of the Infinite; Taskmaster, Mercenary Mimic; The Master, Multiplied; The Squadron Sinister; Thunderbolts Conspiracy; Titan of Littjara; Ultimo, Civilization's End; Venom, Eddie Brock. The swaps leave overlap with every compared deck unchanged: neither cut nor either add appears in any of the four (or in any other registry export)."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed (91 single rows plus 3 Island, 3 Swamp, 2 Mountain; 95 distinct names). Owner 2026-10-14 adds: Red Ghost, Intangible Genius; Titan of Littjara; Hall of Echoes (replacing Construct a Cosmic Cube, The Masters of Evil, Reliquary Tower). Neither cut (Crimson Cowl, Master of Evil; Killmonger, Ruthless Usurper) is an owner add or explicit keep. Candidate roles: 34 lands; 29 Villain cards including Loki (Ultimo and Elektra replace two Villains); clone suite Spark Double, Taskmaster, Chameleon, Loki, Lord of Misrule, Hall of Echoes; Villain token makers Mysterio, Madame Hydra, Black Market Connections; token keepers The Master, Multiplied and Sundial of the Infinite; trigger doubler Roaming Throne; cost reducers Baron Strucker, Tombstone, Urza's Incubator; protection Swiftfoot Boots, Lightning Greaves, Fierce Guardianship, Deflecting Swat, An Offer You Can't Refuse, Mana Drain; removal Toxic Deluge, Blasphemous Act, Cyclonic Rift, Chaos Warp, Deadly Rollick, Vandalblast, plus Ultimo and Elektra triggers; card flow Rhystic Study, Kindred Discovery, Black Market Connections, Loki's draw.",
+  "mana_base_and_curve": "34 lands unchanged (basics 3 Island, 3 Swamp, 2 Mountain). 65 nonland cards plus Loki; curve MV1 5, MV2 15, MV3 18 -> 16, MV4 17 -> 18, MV5 4, MV6 4 -> 5, MV7 2, MV9 1; average nonland MV 3.394 -> 3.455; coloured pips U/B/R (all mana costs including Loki and both faces of Norman Osborn // Green Goblin) 29/36/17 -> 29/39/16, library front faces only 27/34/15 -> 27/37/14; coloured land sources U/B/R 21/20/20 unchanged. Bounded goldfish (seed 28, 20000 games): P(Loki on battlefield by turn 4) 0.6242 -> 0.6195; P(Loki attacks with a valid Villain target) turn 4 0.1803 -> 0.1682, turn 5 0.5849 -> 0.5696; P(MV<=3 Villain by turn 3) 0.3005 -> 0.2567. That is the real cost of the two swaps.",
+  "interaction_resilience": "Stack: Fierce Guardianship, Mana Drain, An Offer You Can't Refuse, Deflecting Swat. Board: Toxic Deluge, Blasphemous Act, Cyclonic Rift, Chaos Warp, Deadly Rollick, Vandalblast, Otawara. The baseline was thin on repeatable creature removal; the candidate adds an each-opponent edict and a power-3-or-less destroy on every Loki copy. Weak to graveyard-independent sweepers and to losing Loki; Boots and Greaves remain.",
+  "weakest_slots": [
+   {
+    "card": "Crimson Cowl, Master of Evil",
+    "weakness": "Its Loki copy does nothing: the trigger needs nontoken Villains attacking and the copy was never declared (CR 508.4).",
+    "alternative_named": "Ultimo, Civilization's End",
+    "reasoning": "CUT for Ultimo (genuine swap 1). Not an owner card; adoption counter-evidence disclosed."
+   },
+   {
+    "card": "Killmonger, Ruthless Usurper",
+    "weakness": "Its Loki copy loses the attack pump (CR 508.4); only the combat-damage artifact sacrifice works, and only if a 3/3 connects.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "CUT for Elektra (genuine swap 2). Not an owner card."
+   },
+   {
+    "card": "Swiftfoot Boots",
+    "weakness": "Equipment that does nothing without a creature; redundant with Lightning Greaves.",
+    "alternative_named": "Strionic Resonator",
+    "reasoning": "Kept: Boots adds a Loki combat in 144/342 grid cells; Strionic is payable on an attack turn in under 4 percent of games by turn 6. Pass C alternative staged."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Life cost each turn alongside Mana Confluence.",
+    "alternative_named": "Seize the Day",
+    "reasoning": "Kept: one draw per turn beats Seize the Day's 2 percent live rate (fewer total draws in 630/756 cells); optimized 11/26."
+   },
+   {
+    "card": "Kang Prime",
+    "weakness": "Five mana; its attack half does nothing on a copy.",
+    "alternative_named": "Victor Timely, Wily Tycoon",
+    "reasoning": "Kept: optimized 14/26 and its enters trigger works on a copy; Victor staged; Ultimo alternative cut staged."
+   },
+   {
+    "card": "Iron Monger, Sadistic Tycoon",
+    "weakness": "Connive payoff in a deck with few connive cards.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "Kept: cheap flying Villain body and copy target; optimized 14/25 (higher than Killmonger); staged alternative cut."
+   },
+   {
+    "card": "Madame Hydra",
+    "weakness": "Four mana value engine that does nothing the turn it lands.",
+    "alternative_named": "Kingpin, Wilson Fisk",
+    "reasoning": "Kept: optimized 15/26; makes a Villain token on each Villain spell, including Elektra's sneak cast."
+   },
+   {
+    "card": "Path of Ancestry",
+    "weakness": "Enters tapped, slowing a four-mana commander.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Kept: makes any commander colour for every spell; Courtyard's gain is about one point and restricted."
+   },
+   {
+    "card": "Patchwork Banner",
+    "weakness": "Mana rock plus anthem that is weak in multiples.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Kept: mana plus a Villain anthem that also pumps Loki copies; optimized 10/26."
+   },
+   {
+    "card": "Stilt-Man, Towering Terror",
+    "weakness": "{2}{R} 4/2 whose payoff needs a Villain to connect; low adoption (optimized 4/25).",
+    "alternative_named": "Kingpin, Wilson Fisk",
+    "reasoning": "Kept: its combat-damage steal of a noncreature, nonland permanent works on a Loki copy (combat-damage triggers fire, unlike attack triggers)."
+   },
+   {
+    "card": "Oscorp Industries",
+    "weakness": "Utility land with a narrow payoff.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Kept: lands stay at 34; optimized 4/26 but owner-approved and colour-neutral."
+   },
+   {
+    "card": "Red Ghost, Intangible Genius",
+    "weakness": "Four mana 2/3; its Ape payoff needs a second draw each turn.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   },
+   {
+    "card": "Titan of Littjara",
+    "weakness": "Six mana and not a Villain unless Villain is chosen as it enters.",
+    "alternative_named": "Ultimo, Civilization's End",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   },
+   {
+    "card": "Hall of Echoes",
+    "weakness": "Colourless land in a deck with heavy coloured pips.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Optimized Villain-copy list (2026-10-14) with three owner swaps. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING and retained the list, asking for +Strionic Resonator -Swiftfoot Boots and +Seize the Day -Black Market Connections with paired scenarios. This M7 pass ran bounded finite versions (seeded goldfish plus an exhaustive rules-encoded grid; these are manual-rules models, not win rates or source-bound engine receipts): both Pass C swaps are rejected or staged, and the incumbents are kept.",
+  "candidate_pool_scope": "EDHREC Loki, the Deceiver general (2355), upgraded (172), optimized (26) and cEDH (2) pages, plus off-ranking card pages for Ultimo, Elektra, Victor Timely, Strionic Resonator and Seize the Day; live Scryfall /cards/collection batch of 373 names including 161 U/B/R Villains; Commander Spellbook for baseline, candidate and all 8 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file.",
+  "off_ranked_search_conclusion": "OFF-RANKING search: Ultimo, Civilization's End (selected; 131/2281 on its card page), Victor Timely, Wily Tycoon (staged), Tri-Sentinel, Act of Vengeance, Lady Loki, Agent of Chaos, Kindred Charge, Twinflame and Hostage Taker (not a Villain) were judged. Unreleased Hela, Mistress of Darkness // Dark Tutor and Mirror Universe Intrusion and banned Dockside Extortionist and Jeweled Lotus are excluded. One off-ranked card (Ultimo) is selected, with its low adoption disclosed."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Loki, the Deceiver approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt, blob 456d62d4, introduced by d97bc2b on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Loki__the_Deceiver_approved_source_2026-10-14.txt)",
+  "EDHREC Loki, the Deceiver commander pages JSON (general, upgraded, optimized, cEDH) and off-ranking card pages, retrieved commander pages (general, upgraded, optimized, cEDH) 2026-10-23T15:43:58-0500; card pages for off-ranking checks retrieved 2026-10-23 during this pass (America/Chicago), discovery only: data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T15:45:32-0500: data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T15:53:34-0500: data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for Villains and copy effects absent from every Loki page (Ultimo, Victor Timely, Tri-Sentinel, Lady Loki, Kindred Charge, Twinflame, Hostage Taker)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Loki__the_Deceiver/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Loki__the_Deceiver.md; data/grixis/m6/deep_reviews/Loki__the_Deceiver.md",
+  "Owner 2026-10-14 current-cycle decisions (3 swaps, rejections, removed cards): canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+  "Comprehensive Rules (frozen cache) 107.3m, 508.4, 603.6a, 608.2b, 702.190 (sneak), 707.2, 707.10c, 500.8; frozen rulings: data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+  "Bounded finite measured tests (the Pass C request): seeded goldfish (seed 28, 20000 games, 7 turns, 8 configurations) of Loki deployment and attack, Strionic payability and Seize the Day postcombat castability; exhaustive rules-encoded grid with paired Strionic/Seize and Boots-marginal counters; tested pool of 11 complete 100s: data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json; tests/test_m6_loki_the_deceiver_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Ultimo, Civilization's End",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Loki, the Deceiver commander page); card page: Loki, the Deceiver 131/2281 decks (5.7 percent)",
+   "role": "{4}{B}{B} 6/5 menace artifact Villain: when it enters, each opponent sacrifices a creature of their choice; {2}{B}, discard it: each opponent sacrifices a creature.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil",
+    "Kang Prime"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25. Competing cut staged: Kang Prime (stronger incumbent by adoption).",
+   "commander_synergy": "Every Loki attack can copy Ultimo, so each attack makes each opponent sacrifice a creature (twice with Roaming Throne naming Villain), getting around hexproof, ward and indestructible; the menace 6/5 copy tends to connect for Loki's card draw. The discard mode is an instant-speed edict when it cannot be cast. Baron Strucker, HYDRA Overlord, Tombstone, Career Criminal and Urza's Incubator reduce its cost; Spark Double, Chameleon, Master of Disguise and Taskmaster, Mercenary Mimic can copy it too.",
+   "adversarial_downside": "Six mana where Crimson Cowl costs three: P(MV<=3 Villain deployed by turn 3) 0.3005 -> 0.2834 for this swap alone; opponents choose the sacrificed creature, so it hits their worst body. Popularity is mildly against it: 131/2281 Loki decks and absent from the commander pages, versus Crimson Cowl 862/2281 and optimized 5/25. Spellbook 0 -> 0.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 1: the deck is thin on spot creature removal and Crimson Cowl's Loki copy is blank, while every Ultimo copy is a repeatable each-opponent edict. Cut is not an owner card; the adoption counter-evidence and the curve cost are disclosed.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Loki__the_Deceiver.txt",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_alt_Ultimo_over_KangPrime_keep_CrimsonCowl_20261023.txt"
+   ]
+  },
+  {
+   "card": "Elektra, Daughter of the Hand",
+   "source": "EDHREC Loki, the Deceiver general 530/2355, upgraded 35/172, optimized 4/26, cEDH absent; live Scryfall batch; card page row Loki, the Deceiver 530/2355",
+   "role": "{2}{B}{B} 3/3 Ninja Villain with sneak {1}{B}{B}: when it enters, destroy target creature an opponent controls with power 3 or less.",
+   "named_cuts": [
+    "Killmonger, Ruthless Usurper",
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "incumbent_opportunity_cost": "Killmonger, Ruthless Usurper is not an owner addition or explicit keep. {2}{R} 3/3 trample: attack pump per defending player's artifact, and on combat damage to a player that player sacrifices an artifact and you create a Treasure. As a Loki copy the attack pump never triggers (CR 508.4); only the combat-damage half works if the 3/3 copy connects. EDHREC general 796/2258, optimized 6/25. Competing cut staged: Iron Monger, Sadistic Tycoon.",
+   "commander_synergy": "Every Loki copy of Elektra destroys a power-3-or-less creature (mana dorks, utility creatures, many commanders), twice with Roaming Throne. Sneak (CR 702.190) returns Loki's end-step-doomed token copy to hand during declare blockers to cast Elektra for {1}{B}{B}; she enters tapped and attacking and her trigger still resolves. It is a cast Villain spell, so Madame Hydra makes a 2/1 token.",
+   "adversarial_downside": "Four mana and BB versus Killmonger's {2}{R}; the destroy is targeted, so hexproof, ward and indestructible stop it, and it misses big threats. Killmonger's copy is also artifact removal when it connects, which is lost. P(Loki attacks with a valid target) turn 4 0.1803 -> 0.1763 for this swap alone (noise about 0.5 points). EDHREC general 530/2355, optimized 4/26 versus Killmonger 796/2258, 6/25. Spellbook 0 -> 0.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 2: a repeatable removal trigger on every Loki attack in place of a body whose copy loses its attack ability. Cut is not an owner card; adoption counter-evidence disclosed; alternative cut staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Loki__the_Deceiver.txt",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_alt_Elektra_over_IronMonger_keep_Killmonger_20261023.txt"
+   ]
+  },
+  {
+   "card": "Strionic Resonator",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded 9/172, optimized absent, cEDH absent; live Scryfall batch; card page: Loki, the Deceiver absent from Top Commanders; Pass C requested comparison (+Strionic Resonator -Swiftfoot Boots)",
+   "role": "{2} artifact: {2}, {T}: copy target triggered ability you control; you may choose new targets.",
+   "named_cuts": [
+    "Swiftfoot Boots"
+   ],
+   "incumbent_opportunity_cost": "Swiftfoot Boots is not an owner addition; it is one of two haste/protection Equipment (with Lightning Greaves). Boots gives Loki haste and hexproof without stopping Loki's own targeting (Greaves' shroud does). EDHREC general 1326/2355, optimized 12/26.",
+   "commander_synergy": "Copies Loki's attack trigger for a second token copy, or a copied Villain's enters trigger (Ultimo's edict, Elektra's destroy).",
+   "adversarial_downside": "Needs {2} up on an attack turn: P(payable on a Loki attack turn) 0.0164 by turn 5 and 0.0393 by turn 6 (seed 28). Exhaustive grid: more copies than baseline in 80/756 paired cells, but Boots adds a whole Loki combat in 144/342 of its cells and more copies in 48. Greaves alone is one haste piece, and its shroud blocks Loki's own target.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Pass C test run: not clearly better than Swiftfoot Boots; staged as a complete 100 and not counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Loki__the_Deceiver/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_StrionicResonator_minus_SwiftfootBoots_20261023.txt"
+   ]
+  },
+  {
+   "card": "Seize the Day",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded 9/172, optimized 2/26, cEDH absent; live Scryfall batch; Pass C requested comparison (+Seize the Day -Black Market Connections)",
+   "role": "{3}{R} sorcery, flashback {2}{R}: untap target creature; after this main phase there is an additional combat phase and main phase.",
+   "named_cuts": [
+    "Black Market Connections",
+    "Urza's Incubator"
+   ],
+   "incumbent_opportunity_cost": "Black Market Connections is not an owner addition. {2}{B}: each first main phase, any of Treasure (1 life), draw (2 life), 3/2 changeling token (3 life), which is a Villain and a legal Loki target. EDHREC general 1372/2355, optimized 11/26. Competing cut also staged: Urza's Incubator (optimized 11/26).",
+   "commander_synergy": "Cast postcombat, an untapped Loki attacks again, so his attack trigger and his draw happen a second time.",
+   "adversarial_downside": "Must be cast postcombat with Loki surviving combat one: castable then in only 0.0219 of games by turn 6. Grid: more copies in 42/756 cells but fewer total draws in 630/756 once Black Market Connections' draw is counted. Optimized 2/26.",
+   "judgment": "REJECT",
+   "reason": "Pass C test run: worse than both named incumbents.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Loki__the_Deceiver/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_BlackMarketConnections_20261023.txt",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_UrzasIncubator_20261023.txt"
+   ]
+  },
+  {
+   "card": "Victor Timely, Wily Tycoon",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Loki, the Deceiver commander page); card page: Loki, the Deceiver 53/2281 decks",
+   "role": "{4}{U} Villain: when it enters, you may cast an artifact, instant or sorcery with mana value 4 or less from your graveyard for free (exiled afterwards).",
+   "named_cuts": [
+    "Kang Prime"
+   ],
+   "incumbent_opportunity_cost": "Kang Prime is not an owner addition. {3}{U}{B} flier: whenever it enters or attacks, exile until a nonland card and suspend it with two time counters; a Loki copy still gets the enters half. EDHREC general 1056/2355, optimized 14/26.",
+   "commander_synergy": "Every Loki copy recasts Demonic Tutor, Reanimate, Chaos Warp, Deadly Rollick or Toxic Deluge from the graveyard.",
+   "adversarial_downside": "Needs graveyard fuel, and early it often has none; five mana; little adoption (53/2281). Kang Prime also has an enters trigger that works on a copy and is the better-adopted incumbent (optimized 14/26).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Plausible but not clearly better than Kang Prime; staged as a complete 100, not counted.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_staged_plus_VictorTimely_minus_KangPrime_20261023.txt"
+   ]
+  },
+  {
+   "card": "Kingpin, Wilson Fisk",
+   "source": "EDHREC Loki, the Deceiver general 469/2281, upgraded 34/168, optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{3}{B} menace Villain: whenever you sacrifice Kingpin or another creature, create two Treasures (once each turn).",
+   "named_cuts": [
+    "Madame Hydra"
+   ],
+   "incumbent_opportunity_cost": "Madame Hydra (optimized 15/26) makes a 2/1 Villain token on every Villain spell.",
+   "commander_synergy": "Loki's end-step token sacrifice turns into two Treasures each turn.",
+   "adversarial_downside": "Once per turn; turned off when The Master, Multiplied keeps the token. Absent from optimized; general 469/2281. Madame Hydra is the stronger incumbent.",
+   "judgment": "REJECT",
+   "reason": "Not better than the Madame Hydra incumbent.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_rejected_plus_KingpinWilsonFisk_minus_MadameHydra_20261023.txt"
+   ]
+  },
+  {
+   "card": "Secluded Courtyard",
+   "source": "EDHREC Loki, the Deceiver general 1188/2355, upgraded 84/172, optimized 7/26, cEDH absent; live Scryfall batch",
+   "role": "Land: {C}, or any colour only for creature spells of the chosen type or abilities of creature sources of that type.",
+   "named_cuts": [
+    "Path of Ancestry"
+   ],
+   "incumbent_opportunity_cost": "Path of Ancestry enters tapped but makes any commander colour for any spell and scries on Villain spells (optimized 10/26).",
+   "commander_synergy": "Untapped any-colour for Villain creature spells.",
+   "adversarial_downside": "The deck's coloured noncreature spells (Mana Drain, Rhystic Study, Demonic Tutor, Toxic Deluge, Dark Ritual, Jeska's Will, Chaos Warp) get only {C}. Goldfish: P(Loki attacks with a valid target) turn 4 0.1682 -> 0.1767, about one point, which a deployment goldfish overstates.",
+   "judgment": "REJECT",
+   "reason": "Marginal; not counted (no padding).",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_rejected_plus_SecludedCourtyard_minus_PathOfAncestry_20261023.txt"
+   ]
+  },
+  {
+   "card": "Tri-Sentinel, Act of Vengeance",
+   "source": "EDHREC Loki, the Deceiver general 490/2258, upgraded 32/166, optimized 2/25, cEDH absent; live Scryfall batch",
+   "role": "{7} flying, menace, trample artifact Villain: when it enters, for each opponent, 3 damage to up to one creature that player controls; unearth {7}.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25.",
+   "commander_synergy": "Each Loki copy deals 3 damage to a creature of each opponent.",
+   "adversarial_downside": "Seven mana versus Ultimo's six; damage to targets is stopped by hexproof and ward and misses toughness 4+, while Ultimo's edict is not. Dominated by Ultimo for the slot.",
+   "judgment": "REJECT",
+   "reason": "Dominated by the selected Ultimo.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lady Loki, Agent of Chaos",
+   "source": "EDHREC Loki, the Deceiver general 831/2355, upgraded 45/172, optimized 6/26, cEDH absent; live Scryfall batch",
+   "role": "{5}{R} Villain: whenever you cast your first instant, sorcery or Villain spell each turn, exile it and cascade-like cast a free card.",
+   "named_cuts": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "incumbent_opportunity_cost": "Killmonger, Ruthless Usurper is not an owner addition or explicit keep. {2}{R} 3/3 trample: attack pump per defending player's artifact, and on combat damage to a player that player sacrifices an artifact and you create a Treasure. As a Loki copy the attack pump never triggers (CR 508.4); only the combat-damage half works if the 3/3 copy connects. EDHREC general 796/2258, optimized 6/25.",
+   "commander_synergy": "Thematic Loki Villain with a free-spell cast trigger.",
+   "adversarial_downside": "Six mana; its value is a cast trigger, which a Loki token copy never uses (the copy is not cast); exiling our own first spell can whiff. Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Cast trigger does nothing on a Loki copy; too expensive.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kindred Charge",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Loki, the Deceiver commander page)",
+   "role": "{4}{R}{R} sorcery: copy each creature you control of the chosen type, with haste; exile at end step.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25.",
+   "commander_synergy": "Doubles the Villain board for a turn; the copies are declared attackers.",
+   "adversarial_downside": "Six mana sorcery; the owner rejected additional clone effects on 2026-10-14 and the clone suite is full. Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected clone-effect class; not better.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Twinflame",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Loki, the Deceiver commander page)",
+   "role": "{1}{R} sorcery with strive: hasty token copies of target creatures you control; exile at end step.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25.",
+   "commander_synergy": "Cheap copy of Ultimo or Elektra for another enters trigger.",
+   "adversarial_downside": "Sorcery speed card disadvantage; owner rejected additional clone effects; off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected clone class; card disadvantage.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Helm of the Host",
+   "source": "EDHREC Loki, the Deceiver general 393/2355, upgraded 30/172, optimized 6/26, cEDH absent; live Scryfall batch",
+   "role": "{4} legendary Equipment, equip {5}: at the beginning of combat on your turn, create a hasty nonlegendary token copy of the equipped creature.",
+   "named_cuts": [
+    "Swiftfoot Boots"
+   ],
+   "incumbent_opportunity_cost": "Swiftfoot Boots is not an owner addition; it is one of two haste/protection Equipment (with Lightning Greaves). Boots gives Loki haste and hexproof without stopping Loki's own targeting (Greaves' shroud does). EDHREC general 1326/2355, optimized 12/26.",
+   "commander_synergy": "Permanent token copies each combat.",
+   "adversarial_downside": "Nine mana before the first copy; owner rejected more clone effects; optimized 6/26. Not better than Boots, which protects Loki.",
+   "judgment": "REJECT",
+   "reason": "Too slow; owner-rejected clone class.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Archnemesis",
+   "source": "EDHREC Loki, the Deceiver general 798/2258, upgraded 43/166, optimized 5/25, cEDH absent; live Scryfall batch",
+   "role": "{1}{U}{B} Aura (enchant opponent): whenever you attack that player, they lose 2 life and you draw a card and gain 2 life; it can move to a player attacking you.",
+   "named_cuts": [
+    "Black Market Connections"
+   ],
+   "incumbent_opportunity_cost": "Black Market Connections is not an owner addition. {2}{B}: each first main phase, any of Treasure (1 life), draw (2 life), 3/2 changeling token (3 life), which is a Villain and a legal Loki target. EDHREC general 1372/2355, optimized 11/26.",
+   "commander_synergy": "Extra card each attack, alongside Loki's draw.",
+   "adversarial_downside": "Only on attacks against one player, and it moves to whoever attacks you; Black Market Connections draws on every turn. Optimized 5/25 versus 11/26.",
+   "judgment": "REJECT",
+   "reason": "Not better than Black Market Connections.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Glorious Purpose",
+   "source": "EDHREC Loki, the Deceiver general 956/2258, upgraded 59/166, optimized 6/25, cEDH absent; live Scryfall batch",
+   "role": "{1}{U} Plan enchantment: counters on conniving creatures; at six plan counters, cast up to four exiled cards free.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25.",
+   "commander_synergy": "Fits Iron Monger's connive theme.",
+   "adversarial_downside": "The deck has few connive enablers; six plan counters is slow; optimized 6/25. The owner removed the Construct a Cosmic Cube Plan on 2026-10-14.",
+   "judgment": "REJECT",
+   "reason": "Narrow and slow; the owner removed a similar Plan.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Vampiric Tutor",
+   "source": "EDHREC Loki, the Deceiver general 177/2355, upgraded 12/172, optimized 18/26, cEDH 2/2; live Scryfall batch",
+   "role": "{B} instant: put any card on top of your library; lose 2 life.",
+   "named_cuts": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "incumbent_opportunity_cost": "Killmonger, Ruthless Usurper is not an owner addition or explicit keep. {2}{R} 3/3 trample: attack pump per defending player's artifact, and on combat damage to a player that player sacrifices an artifact and you create a Treasure. As a Loki copy the attack pump never triggers (CR 508.4); only the combat-damage half works if the 3/3 copy connects. EDHREC general 796/2258, optimized 6/25.",
+   "commander_synergy": "Finds Roaming Throne or The Master, Multiplied.",
+   "adversarial_downside": "Generic tutor density raises homogenization and Bracket pressure (not a Game Changer here, but the owner's plan avoids generic combo creep); card disadvantage. Optimized 18/26, so it is a reasonable owner decision, but it is not a Loki-first improvement.",
+   "judgment": "REJECT",
+   "reason": "Generic tutor, not commander-first.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Ancient Tomb",
+   "source": "EDHREC Loki, the Deceiver general 120/2355, upgraded 10/172, optimized 15/26, cEDH 2/2; live Scryfall batch",
+   "role": "Land: {T}: add {C}{C}; 2 damage to you.",
+   "named_cuts": [
+    "Path of Ancestry"
+   ],
+   "incumbent_opportunity_cost": "Path of Ancestry makes coloured mana and scries.",
+   "commander_synergy": "Two-mana land that can speed Loki to turn 3.",
+   "adversarial_downside": "Colourless in a deck with heavy B pips (39 B pips in the candidate); Game Changer, 5 -> 6, no bracket change but more pressure. Optimized 15/26.",
+   "judgment": "REJECT",
+   "reason": "Colourless burst against a coloured-heavy curve; adds a Game Changer.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Terminate",
+   "source": "EDHREC Loki, the Deceiver general 1271/2355, upgraded 83/172, optimized 10/26, cEDH absent; live Scryfall batch",
+   "role": "{B}{R} instant: destroy target creature; it can't be regenerated.",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Crimson Cowl, Master of Evil is not an owner addition or explicit keep. {2}{B} 1/3: whenever one or more nontoken Villains you control attack a player, create a 2/1 black Villain token with menace. As a Loki copy target it does nothing: the token is not nontoken and was never declared as an attacker (CR 508.4), so the copy adds only a 1/3 body. EDHREC general 862/2281, optimized 5/25.",
+   "commander_synergy": "Cheap instant-speed spot creature removal.",
+   "adversarial_downside": "A one-shot answer, while the Ultimo add gives a repeatable answer on every Loki attack and keeps Villain density at 29. Optimized 10/26; Bedevil (optimized 11/26) is the same class.",
+   "judgment": "REJECT",
+   "reason": "Lower ceiling than the commander-first Villain removal; Bedevil is the same judgment.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hostage Taker",
+   "source": "Frozen 2026-10-16 Oracle file (Human Pirate) and EDHREC Loki pages (absent); OFF-RANKING",
+   "role": "{2}{U}{B} creature: exile an artifact or creature until it leaves; you may cast the exiled card.",
+   "named_cuts": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "incumbent_opportunity_cost": "Killmonger, Ruthless Usurper is not an owner addition or explicit keep. {2}{R} 3/3 trample: attack pump per defending player's artifact, and on combat damage to a player that player sacrifices an artifact and you create a Treasure. As a Loki copy the attack pump never triggers (CR 508.4); only the combat-damage half works if the 3/3 copy connects. EDHREC general 796/2258, optimized 6/25.",
+   "commander_synergy": "Strong enters-trigger removal.",
+   "adversarial_downside": "Not a Villain, so it is not a legal Loki copy target and does not trigger Loki's Villain draw; it lowers Villain density 29 -> 28.",
+   "judgment": "REJECT",
+   "reason": "Not a Villain; Elektra does the job on Loki's axis.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json"
+   ]
+  },
+  {
+   "card": "Hela, Mistress of Darkness // Dark Tutor",
+   "source": "EDHREC Loki, the Deceiver general 7/187, upgraded 1/20, optimized absent, cEDH absent; live Scryfall batch; live Scryfall released_at 2027-04-09, commander not_legal",
+   "role": "{4}{B}{B} God Sorcerer Villain // tutor (preview card).",
+   "named_cuts": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "Not assessed: the card is unreleased.",
+   "adversarial_downside": "Unreleased (release 2027-04-09) and not_legal on live Scryfall; never called legal; no project exception covers it.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Unreleased preview card; never called legal.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json"
+   ]
+  },
+  {
+   "card": "Mirror Universe Intrusion",
+   "source": "EDHREC Loki, the Deceiver general 1/39, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; live Scryfall released_at 2026-11-13, commander not_legal",
+   "role": "{1}{U}{B} sorcery (preview card).",
+   "named_cuts": [
+    "Black Market Connections"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "Not assessed: the card is unreleased.",
+   "adversarial_downside": "Unreleased (release 2026-11-13) and not_legal on live Scryfall; never called legal.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Unreleased preview card; never called legal.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json"
+   ]
+  },
+  {
+   "card": "Dockside Extortionist",
+   "source": "EDHREC Loki, the Deceiver general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Loki, the Deceiver commander page); live Scryfall commander banned",
+   "role": "{1}{R} creature: Treasures for opponents' artifacts and enchantments.",
+   "named_cuts": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "Not assessed: the card is banned.",
+   "adversarial_downside": "Banned in Commander (live Scryfall); Jeweled Lotus is also banned.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander; excluded outright.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Ultimo, Civilization's End",
+   "Elektra, Daughter of the Hand"
+  ],
+  "cuts": [
+   "Crimson Cowl, Master of Evil",
+   "Killmonger, Ruthless Usurper"
+  ],
+  "coherent_package_tradeoff": "Two swaps: two Villains whose Loki copies do nothing or lose their attack triggers become two enters-trigger removal Villains whose copies edict each opponent or destroy a small creature on every Loki attack. Cost: curve moves up (MV3 18 -> 16, MV4 17 -> 18, MV6 4 -> 5; P(MV<=3 Villain by turn 3) 0.3005 -> 0.2567) and both adds have lower EDHREC adoption than the cuts. Game Changers stay at 5; lands stay at 34; Villain count stays at 29; Spellbook combos stay at 0. Neither cut is an owner addition or explicit keep."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Crimson Cowl, Master of Evil",
+    "weakness": "Its Loki copy does nothing: the trigger needs nontoken Villains attacking and the copy was never declared (CR 508.4).",
+    "alternative_named": "Ultimo, Civilization's End",
+    "reasoning": "CUT for Ultimo (genuine swap 1). Not an owner card; adoption counter-evidence disclosed."
+   },
+   {
+    "card": "Killmonger, Ruthless Usurper",
+    "weakness": "Its Loki copy loses the attack pump (CR 508.4); only the combat-damage artifact sacrifice works, and only if a 3/3 connects.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "CUT for Elektra (genuine swap 2). Not an owner card."
+   },
+   {
+    "card": "Swiftfoot Boots",
+    "weakness": "Equipment that does nothing without a creature; redundant with Lightning Greaves.",
+    "alternative_named": "Strionic Resonator",
+    "reasoning": "Kept: Boots adds a Loki combat in 144/342 grid cells; Strionic is payable on an attack turn in under 4 percent of games by turn 6. Pass C alternative staged."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Life cost each turn alongside Mana Confluence.",
+    "alternative_named": "Seize the Day",
+    "reasoning": "Kept: one draw per turn beats Seize the Day's 2 percent live rate (fewer total draws in 630/756 cells); optimized 11/26."
+   },
+   {
+    "card": "Kang Prime",
+    "weakness": "Five mana; its attack half does nothing on a copy.",
+    "alternative_named": "Victor Timely, Wily Tycoon",
+    "reasoning": "Kept: optimized 14/26 and its enters trigger works on a copy; Victor staged; Ultimo alternative cut staged."
+   },
+   {
+    "card": "Iron Monger, Sadistic Tycoon",
+    "weakness": "Connive payoff in a deck with few connive cards.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "Kept: cheap flying Villain body and copy target; optimized 14/25 (higher than Killmonger); staged alternative cut."
+   },
+   {
+    "card": "Madame Hydra",
+    "weakness": "Four mana value engine that does nothing the turn it lands.",
+    "alternative_named": "Kingpin, Wilson Fisk",
+    "reasoning": "Kept: optimized 15/26; makes a Villain token on each Villain spell, including Elektra's sneak cast."
+   },
+   {
+    "card": "Path of Ancestry",
+    "weakness": "Enters tapped, slowing a four-mana commander.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Kept: makes any commander colour for every spell; Courtyard's gain is about one point and restricted."
+   },
+   {
+    "card": "Patchwork Banner",
+    "weakness": "Mana rock plus anthem that is weak in multiples.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Kept: mana plus a Villain anthem that also pumps Loki copies; optimized 10/26."
+   },
+   {
+    "card": "Stilt-Man, Towering Terror",
+    "weakness": "{2}{R} 4/2 whose payoff needs a Villain to connect; low adoption (optimized 4/25).",
+    "alternative_named": "Kingpin, Wilson Fisk",
+    "reasoning": "Kept: its combat-damage steal of a noncreature, nonland permanent works on a Loki copy (combat-damage triggers fire, unlike attack triggers)."
+   },
+   {
+    "card": "Oscorp Industries",
+    "weakness": "Utility land with a narrow payoff.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Kept: lands stay at 34; optimized 4/26 but owner-approved and colour-neutral."
+   },
+   {
+    "card": "Red Ghost, Intangible Genius",
+    "weakness": "Four mana 2/3; its Ape payoff needs a second draw each turn.",
+    "alternative_named": "Elektra, Daughter of the Hand",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   },
+   {
+    "card": "Titan of Littjara",
+    "weakness": "Six mana and not a Villain unless Villain is chosen as it enters.",
+    "alternative_named": "Ultimo, Civilization's End",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   },
+   {
+    "card": "Hall of Echoes",
+    "weakness": "Colourless land in a deck with heavy coloured pips.",
+    "alternative_named": "Secluded Courtyard",
+    "reasoning": "Owner explicit add (2026-10-14). Kept."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Ultimo selected; Victor Timely staged; Tri-Sentinel, Lady Loki, Kindred Charge, Twinflame, Hostage Taker rejected; Hela and Mirror Universe Intrusion unreleased; Dockside Extortionist and Jeweled Lotus banned.",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Ultimo, Civilization's End",
+     "Elektra, Daughter of the Hand"
+    ],
+    "cuts": [
+     "Crimson Cowl, Master of Evil",
+     "Killmonger, Ruthless Usurper"
+    ],
+    "result_and_rationale": "SELECTED research candidate (two genuine swaps). Each half is independent; each add also has a staged alternative cut (Ultimo over Kang Prime keeping Crimson Cowl; Elektra over Iron Monger keeping Killmonger)."
+   },
+   {
+    "adds": [
+     "Ultimo, Civilization's End",
+     "Elektra, Daughter of the Hand",
+     "Strionic Resonator"
+    ],
+    "cuts": [
+     "Crimson Cowl, Master of Evil",
+     "Killmonger, Ruthless Usurper",
+     "Swiftfoot Boots"
+    ],
+    "result_and_rationale": "Pass C three-card package (staged complete 100). NOT COUNTED: Strionic is rarely payable on attack turns and Boots adds whole Loki combats more often than Strionic adds copies."
+   },
+   {
+    "adds": [
+     "Ultimo, Civilization's End",
+     "Elektra, Daughter of the Hand",
+     "Victor Timely, Wily Tycoon"
+    ],
+    "cuts": [
+     "Crimson Cowl, Master of Evil",
+     "Killmonger, Ruthless Usurper",
+     "Kang Prime"
+    ],
+    "result_and_rationale": "Three-card enters-trigger package (staged complete 100). NOT COUNTED: Victor Timely is not clearly better than Kang Prime (53/2281 adoption, needs graveyard fuel)."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested Strionic Resonator against Swiftfoot Boots and Seize the Day against Black Market Connections; both are staged as complete 100s (Seize also against Urza's Incubator) and not counted. Ultimo is staged against Kang Prime and Elektra against Iron Monger, Sadistic Tycoon.",
+  "strongest_argument_against_baseline": "Two Villain slots (Crimson Cowl, Killmonger) have printed value that is wasted on Loki's token copies, which never 'attack' for trigger purposes, while the deck lacks repeatable creature removal; Loki copies of enters-trigger removal Villains fix both.",
+  "evidence_based_answer": "Two genuine swaps: +Ultimo, Civilization's End -Crimson Cowl, Master of Evil and +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper (rules-driven, moderate confidence, curve cost and adoption counter-evidence disclosed). Pass C's two requested swaps were tested and are not better. Every other challenger is dominated, owner-rejected, not a Villain, marginal or invalid. RESEARCH_ONLY.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Loki__the_Deceiver.txt",
+  "sha256": "ce64e22265467a7032cf7814bbbadb4c215f24e9c3a63f9217bcf2f4f47fcb5d",
+  "card_count": 100,
+  "deckwide_reconciliation": "One [Commander] line first (Loki, the Deceiver), then lines case-insensitively alphabetical; 3 Island, 2 Mountain, 3 Swamp, every other card 1x (95 distinct names). Exactly two substitutions against the canonical source (+Ultimo, Civilization's End -Crimson Cowl, Master of Evil; +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper); logical hash lh1:d26a9eea1d9d69ecd6c8e029d446bb587ad5b71b75371d494035a1211c1b40d8 (baseline lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68). 34 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Loki__the_Deceiver_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+   "tests/test_m6_loki_the_deceiver_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Loki__the_Deceiver/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Villains",
+   "Clones",
+   "Optimized"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: two genuine swaps (+Ultimo, Civilization's End -Crimson Cowl, Master of Evil; +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper), below the five-swap owner-presentation floor. Pass C's requested tests were run in bounded form: Strionic Resonator is staged but not better than Swiftfoot Boots, and Seize the Day is rejected against Black Market Connections and Urza's Incubator. Every other candidate is dominated (Tri-Sentinel), not clearly better than an incumbent (Victor Timely, Wily Tycoon; Kingpin, Wilson Fisk; Archnemesis; Terminate; Bedevil), marginal (Secluded Courtyard), owner-rejected (extra clone effects, Plans, generic tutors and combo), not a Villain (Hostage Taker), or invalid (unreleased Hela, Mistress of Darkness and Mirror Universe Intrusion; banned Dockside Extortionist and Jeweled Lotus). The five-swap floor is not met without padding. This packet is NOT owner-presentable and NOT owner approved; the canonical Loki, the Deceiver list is unchanged."
+}
