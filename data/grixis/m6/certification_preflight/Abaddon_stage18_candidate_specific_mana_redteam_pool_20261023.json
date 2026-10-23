@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "STAGE18_CANDIDATE_SPECIFIC_MANA_REDTEAM_AND_POOL_ADJUDICATION",
+  "date": "2026-10-23",
+  "status": "BOUNDED_REVIEW_COMPLETE_M6_I_J_NOT_CERTIFIED",
+  "canonical_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "candidate_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+  "physical_cards": 100,
+  "lands": 34,
+  "identity": [
+    "B",
+    "R",
+    "U"
+  ],
+  "source_bound_full_oracle": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
+  "stage15_changed_case_pass": 14,
+  "stage16_historical_p0_total": 104,
+  "stage16_historical_p0_removed_card_counterfactual": 27,
+  "stage16_historical_p0_only_potentially_reusable": 77,
+  "stage16_historical_p1_total": 14,
+  "stage16_historical_p1_counterfactual": 3,
+  "model_scope": "Deterministic source-paid resource and event analysis, not simulated win rate or independent opponent model.",
+  "comparison": [
+    {
+      "name": "PROTECTED_FIVE_KEEP_PONDER",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_five_research_20261023.txt",
+      "raw_sha256": "131b59af4a4ad413107bfa24012495d527a533eb91e6c5d10d9517342ac90d65",
+      "swaps": 5,
+      "diff_from_six": "Keep Ponder, omit Sheoldred.",
+      "positive": "One-blue-mana cantrip fixes colors, dig and combo density; does not require a fragile BB 4-MV permanent or a later wheel.",
+      "negative": "Lacks Sheoldred's own-turn wheel scaling and draw punishment.",
+      "decision": "LIVE_ADVERSARIAL_CHALLENGER_NOT_DOMINATED"
+    },
+    {
+      "name": "PROTECTED_WHEEL_SIX",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+      "raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+      "swaps": 6,
+      "diff_from_six": "Same",
+      "positive": "Sanctum early first-main all-opponent life loss; Impact turns existing Birgi/Ignus engine into a finisher; Mage optional offspring, Sakashima duplicated commander grant, flexible Doom, Sheoldred wheel peak.",
+      "negative": "Loss of Ponder's Ponder costs {U}, Keeper nonhand-MV burn, Ruinous stolen casts; new Sheoldred BB mana bottleneck and commander-required copy line.",
+      "decision": "PROVISIONAL_FAVORITE_NOT_FINAL"
+    },
+    {
+      "name": "PROTECTED_WARHAMMER_SIX",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_warhammer_six_research_20261023.txt",
+      "raw_sha256": "0de1d376595a3bc51cb31e6bbbf9b87593d629482bc335c83ff46b5aad25bd7d",
+      "swaps": 6,
+      "diff_from_six": "Exalted Flamer of Tzeentch instead of Sheoldred; both cut Ponder.",
+      "positive": "40K flavor and recurring instant/sorcery to hand can re-enable Abaddon cascade on a later spell.",
+      "negative": "Requires future upkeep and random recursion; remains exposed to graveyard denial and removal.",
+      "decision": "LIVE_META_DEPENDENT_CHALLENGER"
+    },
+    {
+      "name": "WHEEL_SEVEN_REMOVE_NOISE",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_wheel_seven_research_20261023.txt",
+      "raw_sha256": "eb150d6981e89a3e3bee46528108cdc4630a4b509ff8c07bf10f72e340762df3",
+      "swaps": 7,
+      "diff_from_six": "Adds Exalted Flamer while cutting Noise Marine.",
+      "positive": "Higher four-mana permanent density and Warhammer recursion.",
+      "negative": "Loses MV5 Noise Marine's printed cascade and Sonic Blaster, which both function with Abaddon removed; large resilience and commander-identity cost.",
+      "decision": "REJECT_FOR_GENERAL_FIELD_NOT_AUTOMATIC_SEVENTH"
+    }
+  ],
+  "deterministic_adverse_cases": [
+    {
+      "id": "COLOR_BB_ON_FOUR",
+      "setup": "Four available mana but only one black-producing resource.",
+      "baseline_ponder_castable_with_blue": true,
+      "sheoldred_castable": false,
+      "conclusion": "The sixth change consumes early selection for a sometimes stranded double-black four-drop; 34 unchanged lands does not establish color reliability."
+    },
+    {
+      "id": "COMMANDER_REMOVED_PRECOPY",
+      "setup": "Abaddon removed before Sakashima resolves; no other controlled copy target with the commander ability.",
+      "extra_commander_static_cascade_grants": 0,
+      "conclusion": "Sakashima must not be credited with a second cascade grant absent Abaddon or another controlled copyable Abaddon."
+    },
+    {
+      "id": "SANCTUM_REMOVED_BEFORE_MAIN_TRIGGER_RESOLUTION",
+      "setup": "Single Shrine Sanctum sacrificed/destroyed while its first-main trigger is on stack; no Shrine left.",
+      "opponents_life_lost_from_sanctum": 0,
+      "conclusion": "A surviving start-of-phase trigger need not generate three-opponent threshold if the last Shrine disappears."
+    },
+    {
+      "id": "SHEOLDRED_WHEEL_UNCONTESTED",
+      "setup": "Own turn with three opponents; Sheoldred survives and Wheel resolves seven cards drawn each opponent; no life replacement.",
+      "sheoldred_opponent_life_lost": 42,
+      "qualification": "These 42 losses occur after Wheel was cast; cannot retroactively give Wheel cascade."
+    },
+    {
+      "id": "SHEOLDRED_WHEEL_REMOVAL",
+      "setup": "Sheoldred removed before Wheel resolves.",
+      "sheoldred_opponent_life_lost": 0,
+      "conclusion": "Do not model Sheoldred as a guaranteed Wheel multiplier."
+    },
+    {
+      "id": "MOUNT_DOOM_NO_RESOURCES",
+      "setup": "Mount Doom untapped but less than {1}{B}{R} available.",
+      "mount_doom_all_opponent_damage_events": 0,
+      "conclusion": "Utility land X3 activation requires three actual mana, tapping the land, and opponent damage not prevented; not a free threshold."
+    },
+    {
+      "id": "RULE_OF_LAW",
+      "setup": "One spell cast this turn under Rule of Law.",
+      "additional_cascade_hit_casts_allowed": 0,
+      "conclusion": "The source spell may carry triggered cascade but hits cannot be cast as second spells; activated land and preassembled Assault/Neheb routes remain relevant."
+    },
+    {
+      "id": "IGNUS_4_CARD_SEQUENCE",
+      "setup": "Birgi front, Grinning Ignus, Nightscape Familiar, Impact Tremors and payable repeat loop without Rule of Law or removal.",
+      "direct_opponent_damage_per_ignus_reentry": 1,
+      "opponent_total_damage_per_reentry_three_opponents": 3,
+      "conclusion": "Impact adds a new deterministic conversion of payable repeat Ignus casts into all-opponent damage; maintain real physical mana and sorcery timing."
+    }
+  ],
+  "cut_costs": [
+    {
+      "cut": "Thermo-Alchemist",
+      "loss": "Tapping threshold source plus spell untap potential even without creature ETBs",
+      "add": "Impact Tremors",
+      "gain": "Creature-entry all-opponent damage conversion with existing Ignus loop and 40K Spawn"
+    },
+    {
+      "cut": "The Ruinous Powers",
+      "loss": "Warhammer upkeep card-exile theft and opponent life-loss engine; some exile spells can be cast and trigger other payoffs",
+      "add": "Sanctum of Stone Fangs",
+      "gain": "Two-mana first-main guaranteed loss only if Shrine survives and stays present"
+    },
+    {
+      "cut": "Kessig Flamebreather",
+      "loss": "2-mana early pinger toughness and no optional extra-mana burden",
+      "add": "Coruscation Mage",
+      "gain": "Equivalent noncreature spell ping plus payable Offspring creating second independent trigger source"
+    },
+    {
+      "cut": "Keeper of Secrets",
+      "loss": "Nonhand cast mana-value damage 40K engine, independent of Abaddon as long as exile spells available",
+      "add": "Sakashima of a Thousand Faces",
+      "gain": "Abaddon ability replication after entry only, if commander present"
+    },
+    {
+      "cut": "Mountain",
+      "loss": "One basic red/fetch target and protection against nonbasic hate",
+      "add": "Mount Doom",
+      "gain": "Untapped BR fixing and paid X3 nonspell threshold"
+    },
+    {
+      "cut": "Ponder",
+      "loss": "One-mana cantrip selection and early color smoothing / storm/Breach setup",
+      "add": "Sheoldred, the Apocalypse",
+      "gain": "BB four-mana wheel payoff with life buffer and massive later threshold when uncontested"
+    }
+  ],
+  "judgment": "The five-swap variant retains a credible faster-mana consistency edge, and removal-heavy tables invalidate Sheoldred's ceiling. Six-swap wheel build retains a meaningful engine and has verified potential, but local-best I cannot truthfully PASS as globally or field-dominating based on deterministic fixtures alone. Proceed to source-aware opponent-pool adjudication and J reproducibility; do not pad swaps.",
+  "m6_i_local_best": "NOT_YET_PASS",
+  "m6_j_complete": false,
+  "owner_ready": false,
+  "owner_approval": false,
+  "canon_changed": false,
+  "deck3_hold": true,
+  "source_receipts": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage14_provisional_protected_wheel_six_20261023.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_new_EDHREC_protected_engine_decisions_20261023.json",
+    "data/grixis/m6/phase_b_plans/Abaddon_stage15_new_six_changed_effects_20261023.json",
+    "data/grixis/m6/phase_b_plans/Abaddon_stage16_legacy_candidate_transfer_20261023.json"
+  ]
+}
