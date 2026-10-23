@@ -1,0 +1,233 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Grixistax___October_2026",
+ "slug": "grixistax-october-2026",
+ "baseline_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "result_hash": "lh1:81656e61ce5b299509c70da8d8d39aaa41d6ecfbf4281f05857a936575207baf",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/grixistax-october-2026.json.gz",
+   "sha256": "sha256:a2dad8a4025f778ade4c78fc8b18a85e3b1bddc84b4b51eab8f9940bbd1d3939"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz",
+   "sha256": "sha256:23a73cae9ad5f6b273d4fda53a0931ffad9a8fc18de68bf33c383b7a6195f9d8"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json",
+   "sha256": "sha256:c1b0b386be90b784c1e995467509b2ebfdbdfa278fa11fa30dbf3ab368f1fa49"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/grixistax-october-2026.json",
+   "sha256": "sha256:2fb62e9967631bcb6ec58137abbcb335480c93bb6974b3af4b1e1ed1d09efe04"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/grixistax-october-2026.json",
+   "sha256": "sha256:99d3cd984a3aff4510f28c384303e5ccde418b7f749bc1bf13a5af18fd2435a7"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Grixistax___October_2026.json",
+   "sha256": "sha256:2f4033c1ea67a0e7b7cdf0470be0ec6c101e836481b7a0d65e14c0b2a1bb4866"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:34c0ac2cb976305455c570b4ad7c88d8a76f5ed7ca20a9d55530992adf9529b9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_Scryfall_live_20261023.json",
+   "sha256": "sha256:aa0329819c90b1f944cc0742f3fbde0538157d4c4cb1e7b03062596be9c9806d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:75c54e48c6638be1fa04a12748e4130b4a9c648d88a1448b44996c66614bdd7d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:af3a09c3e02d394f60b3243bd20575b654cb39c322f61201ae8ed993dda0a4ef"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Grixistax___October_2026_approved_source_2026-10-14.txt",
+   "sha256": "sha256:f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c"
+  },
+  {
+   "path": "exports/grixis-archidekt/grixistax-october-2026.txt",
+   "sha256": "sha256:f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+   "sha256": "sha256:a04f16ba3a75bd53963866fd0b18c0390af54930b5526e6893ac6c6a6503b858"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_TalismanOfIndulgence_minus_MoxAmber_20261023.txt",
+   "sha256": "sha256:9d4b2acf31209667de41aa75a2e98cf3f5345897fbfa515757a3ef0c55f8ac43"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_Overburden_keep_MoxAmber_20261023.txt",
+   "sha256": "sha256:089b09e775cd32c4e45bde86f8a17fb2ed3f3b1b02a4dfe47edfaa66cf6412a0"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_MoxAmber_only_20261023.txt",
+   "sha256": "sha256:22b4adf15986798ec7fddb36627d636cdfdde8a648da89ab471e1cccaa956fe8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_CyclonicRift_keep_Windfall_20261023.txt",
+   "sha256": "sha256:21b8530bf8fc30a3bb227a2bbda54d2f081a81b2bd27cb7e3620a309b5be721a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_MagusOfTheMoon_keep_Windfall_20261023.txt",
+   "sha256": "sha256:d39c902ff56c24f809060fc1cc0f2e11a2a3cc785a30d84780a4e5f9baf431ba"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_StaticOrb_20261023.txt",
+   "sha256": "sha256:977742866147db36314ed371593bb7ea3fce079369b63eaecd0f3a76d7547ee8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_MagusOfTheMoon_20261023.txt",
+   "sha256": "sha256:9247b1529b5909871a032b5079a62070b912d2c7ea0b9db413ade071e99d7149"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_FrozenAether_minus_StaticOrb_20261023.txt",
+   "sha256": "sha256:b3aeea403a19632402d927f97e677ecbf1e5d576bb501ff28822a9fec9f4a388"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_StripMine_minus_GemstoneCaverns_20261023.txt",
+   "sha256": "sha256:7ec9bb59a89368cb4675165a505b5f476d65d09b9920cc8dcfba8352df3f0e9f"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+   "sha256": "sha256:4b631ba8d2ae30a57dce6a551d9291b44ff36c4e27ef5452aff3a48bfa116e29"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+   "sha256": "sha256:4c332ad157a5fa49dd76f7b2a774fc41dee4f124ef649b5eade71f9fc282f275"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/grixistax-october-2026-m7.json",
+   "sha256": "sha256:a2ebf64edb8b13fa37b8c9aab2d4da94105f3b27781acfb74428f8d1f618f510"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Grixistax___October_2026_M6_I_local_best_20261023.md",
+   "sha256": "sha256:c0953a1709ae83e255a30693ba989617afb15f1063e750590a5303cf53c0dd44"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Grixistax___October_2026_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:d27ec6d4b28dbb151d3893094a1575ec167e07d596fac435ba340d64d44f975e"
+  },
+  {
+   "path": ".github/workflows/m7-grixistax-october-2026.yml",
+   "sha256": "sha256:40bd1a2359b6184c6564622cb0d2b57683d1620d42fa2caa9f162d10c9082c63"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Grixistax___October_2026_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:030b2acc78b8da6e25329cb181b1fdb7704cc927b3918f71df9def0889366dd5"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/grixistax-october-2026.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/grixistax-october-2026.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:5bb1d08d7f3d0d6ef8df555017e5a75f3e8bd7ca4663e94090de4708d6f4184a",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Grixistax___October_2026/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:cfef09aa7165cbfd3f438bbf37252a6e0dcd30330f59c668bd1fceec3d64aca5"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_grixistax_october_2026_m7_mechanics.py",
+    "source_sha256": "sha256:900559bface4ff22e26f10f85d2a5d834978524a0731608627816a69b64ea3db",
+    "seed": 0,
+    "harness_version": "grixistax_october_2026_m7_finite_rules_and_bounded_pass_c_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Ten finite Oracle-anchored cases: Kraum and Tevesh Szat Oracle (Partner pair, Tevesh +2 Thrulls and +1 sacrifice-draw), 98-card library with 26 lands and exactly two swaps, type counts, Arcane Signet, Mox Amber, Bitterblossom, Windfall and Talisman of Indulgence Oracle (Karn colourless, Talisman makes no U), exact hypergeometric blue Force-pitch table (22 blue cards baseline, 21 candidate; turn 1 0.7748 vs 0.756), pinned seeded goldfish mana cells (seed 27, N=40000; turn 4 mean 3.138 vs 3.193, Tevesh 0.1526 vs 0.1657, U under Contamination 0.2788 vs 0.3299, Mox Amber live 0.2743, Overburden-cut 3.225), token-engine and Opposition/Static Orb deployability rows, Commander Spellbook 6 -> 6, rules-snapshot anchors and off-identity exclusions. Not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_grixistax_october_2026_candidate.py",
+    "source_sha256": "sha256:15044682fba6990a80f12ad7781aaf81ca0269d0473f934e6320a474c2bd9ea1",
+    "seed": 0,
+    "harness_version": "grixistax_october_2026_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Two-swap identity (+Arcane Signet -Mox Amber, +Bitterblossom -Windfall) against vendored and canonical sources, gate RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, both Partner commanders first, alphabetical, 100 physical cards with basics, naming discrepancy recorded, distinctness vs the Grixis cEDH cores (Kefka, Rograkh + Silas Renn, Kess, Jeleva), owner-removed cards not re-added and protected core retained, nine staged or rejected alternatives as complete 100s with exact deltas, Game Changers 22, commander legality (c16 2016-11-11, cmr 2020-11-20); structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #674 head b505d828 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_grixistax_october_2026_m7_ij.py",
+    "source_sha256": "sha256:bb6628267050fc438fa8209ad8a87cacd4a20287ccce845a0f8450aaaa898902",
+    "seed": 0,
+    "harness_version": "grixistax_october_2026_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 12 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises the fail-closed deck-bound preserved Pass C non-independence wording and jlk-neutral-seal-1 Stage A seal alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Grixistax___October_2026_M6_J_red_team_20261023.md",
+  "sha256": "sha256:322e777c1e39a029b543e1c21336869d2cdae10eecaabc2585944b3fd58e96bf"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Grixistax___October_2026_M6_J_mana_20261023.md",
+  "sha256": "sha256:d53d8f09c5331e641da8f8ef4015fd10f8b8937274fdf5285bb42c2de36238f5"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
