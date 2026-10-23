@@ -1,0 +1,1208 @@
+{
+ "method": "Bounded, finite, scripted Pass C Phase B test for Gwendlyn Di Corci (NOT a simulation; no win rates).\nCompares the untouched locked 100 (Magewright's Stone) with the Pass C exact hypothetical +Aphetto Alchemist / -Magewright's Stone.\nEach fixed state is resolved by explicit rules: Gwendlyn {T}: target player discards a card at random, only during your turn;\nIllusionist's Bracers copies a non-mana activated ability of the equipped creature (copy may get new targets);\nMagewright's Stone {1},{T}: untap target creature with a {T} ability; Aphetto Alchemist {T}: untap target artifact or creature\n(summoning sick unless Thousand-Year Elixir or Lightning Greaves); Pemmin's Aura {U}: untap enchanted creature.\nUseful discards = random discards that actually remove a card (capped by total cards in opponents' hands).",
+ "states": [
+  {
+   "state": "A1 Bracers on Gwendlyn, untapper ready, 2 spare",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 2,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 4,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 2,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 4,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "Alchemist (no Bracers on it): one free extra untap"
+    ]
+   }
+  },
+  {
+   "state": "A2 Bracers on untapper side, 3 spare to equip (variant moves Bracers to Alchemist: equip {3})",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 3,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 4,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "alchemist",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 0,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 9,
+    "activations_used": 9,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "unbounded untaps; capped by cards in hands (finite)"
+    ]
+   }
+  },
+  {
+   "state": "A3 untapper cast this turn (2 mana), no Elixir",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 1,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 2,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "alchemist",
+     "untapper_ready": false,
+     "spare_mana": 0,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 1,
+    "activations_used": 1,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "Alchemist summoning sick: no untap this turn"
+    ]
+   }
+  },
+  {
+   "state": "A4 untapper cast this turn, Thousand-Year Elixir on board",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 1,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 2,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 0,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 2,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "Alchemist (no Bracers on it): one free extra untap"
+    ]
+   }
+  },
+  {
+   "state": "A5 loop assembled, opponent kills Alchemist after 2 loops",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 3,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 4,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "alchemist",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 0,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false,
+     "removal_on_alchemist_after_loops": 2
+    },
+    "useful_discards": 3,
+    "activations_used": 3,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "opponent kills Alchemist after 2 loop(s); stack untaps already resolving still resolve"
+    ]
+   }
+  },
+  {
+   "state": "A6 Gwendlyn removed/taxed off the board",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": false,
+     "bracers": "none",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 2,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 0,
+    "activations_used": 0,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "Gwendlyn absent/summoning sick with no haste: zero activations"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": false,
+     "bracers": "none",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 2,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 0,
+    "activations_used": 0,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "Gwendlyn absent/summoning sick with no haste: zero activations"
+    ]
+   }
+  },
+  {
+   "state": "A7 opponents hellbent after a wheel+Notion line",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 2,
+     "opp_hands": [
+      0,
+      0,
+      0
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 0,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "alchemist",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 0,
+     "opp_hands": [
+      0,
+      0,
+      0
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 0,
+    "activations_used": 1000000,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "unbounded untaps; capped by cards in hands (finite)"
+    ]
+   }
+  },
+  {
+   "state": "A8 big hands after own Wheel of Fortune [7,7,7], Bracers on Gwendlyn, 3 spare",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "gwendlyn",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 3,
+     "opp_hands": [
+      7,
+      7,
+      7
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 4,
+    "activations_used": 2,
+    "mana_spent_on_untaps": 1,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "alchemist",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 0,
+     "opp_hands": [
+      7,
+      7,
+      7
+     ],
+     "pemmin": false
+    },
+    "useful_discards": 21,
+    "activations_used": 21,
+    "mana_spent_on_untaps": 0,
+    "notes": [
+     "unbounded untaps; capped by cards in hands (finite)"
+    ]
+   }
+  },
+  {
+   "state": "A9 Pemmin on Gwendlyn with 3 blue spare, no Bracers",
+   "baseline_stone": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "stone",
+     "untapper_ready": true,
+     "spare_mana": 3,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": true
+    },
+    "useful_discards": 4,
+    "activations_used": 4,
+    "mana_spent_on_untaps": 3,
+    "notes": [
+     "Stone: {1} for one extra Gwendlyn untap",
+     "Pemmin: 2 blue for 2 extra untaps"
+    ]
+   },
+   "variant_alchemist": {
+    "setup": {
+     "gwendlyn_ready": true,
+     "bracers": "none",
+     "untapper": "alchemist",
+     "untapper_ready": true,
+     "spare_mana": 3,
+     "opp_hands": [
+      4,
+      3,
+      2
+     ],
+     "pemmin": true
+    },
+    "useful_discards": 5,
+    "activations_used": 5,
+    "mana_spent_on_untaps": 3,
+    "notes": [
+     "Alchemist (no Bracers on it): one free extra untap",
+     "Pemmin: 3 blue for 3 extra untaps"
+    ]
+   }
+  }
+ ],
+ "exact_assembly_probabilities_no_tutors": {
+  "cards_seen_10": {
+   "specific_card": 0.101,
+   "two_specific_cards": 0.0093
+  },
+  "cards_seen_11": {
+   "specific_card": 0.1111,
+   "two_specific_cards": 0.0113
+  },
+  "cards_seen_12": {
+   "specific_card": 0.1212,
+   "two_specific_cards": 0.0136
+  },
+  "cards_seen_14": {
+   "specific_card": 0.1414,
+   "two_specific_cards": 0.0188
+  }
+ },
+ "note": "Stone and Alchemist are both single copies, so raw draw probability of the untapper (and of untapper+Bracers) is identical between configurations; differences are entirely state payoffs below.",
+ "emergent_combo": {
+  "commander_spellbook": "283-4091 (Illusionist's Bracers + Aphetto Alchemist): infinite untap of artifacts/creatures you control; infinite mana from any mana rock",
+  "finite_trace": [
+   "Bracers on Alchemist; Alchemist ready; Sol Ring on battlefield",
+   "tap Sol Ring for {C}{C}",
+   "activate Alchemist targeting Sol Ring; Bracers copy retargets Alchemist",
+   "copy resolves: Alchemist untaps; original resolves: Sol Ring untaps",
+   "repeat: arbitrarily large colourless mana (Arcane Signet/Talisman/Patriar's Seal: coloured)",
+   "with Jace's Archivist and Liliana's Caress/Underworld Dreams/Sheoldred/Orcish Bowmasters: repeated wheels become a deterministic multi-opponent kill; with Mind Twist: X = every opponent card"
+  ],
+  "judgment": "The commander-native self-untap loop is real, but the same two cards are a generic 2-card infinite-mana engine. The owner explicitly rejected Mindcrank + Bloodchief Ascension as generic combo conversion and rejected Aphetto Alchemist; this is an owner decision, not a first-pass swap."
+ },
+ "fallback_rings_minus_mind_twist": "not run as a state matrix: Pass C Stage B deprioritized it (no demonstrated advantage; Rings needs {2} per copy and a 3-MV slot, cutting an owner addition). Recorded as rejected alternative.",
+ "castability_method": "Exact (hypergeometric enumeration, no sampling) probability that Gwendlyn Di Corci can be cast for source-paid {U}{B}{B}{R}\n(four coloured pips, no generic) by turn 3/4/5 on the play and turn 4 on the draw. Sources grouped by colour set from live Oracle text. Assumptions (stated, not hidden):\neach of the deck's fetchlands can fetch a typed dual of any needed colour, so counts as any one colour; Exotic Orchard counts as any colour (opponent\ndependent: optimistic; the model's Fellwar Stone entry is unused because Fellwar Stone is not in this deck); tapped lands are assumed sequenced on an earlier turn; a 2-mana rock is castable by turn 2 with 2 lands (two with\nSol Ring), Sol Ring adds colourless only (useless for the commander's pips but can pay for a rock); Ancient Tomb is colourless; Urborg counted as B only (its type-granting is ignored: conservative); Chrome Mox, Lotus Petal, Lion's Eye Diamond, Dark Ritual and Patriar's Seal are ignored (conservative); Bojuka Bog/Xander's Lounge/Crumbling Necropolis tapped-entry assumed sequenced earlier. Only colour-coverage of the four pips is tested.",
+ "castability": {
+  "baseline": {
+   "categories": {
+    "X:": 60,
+    "L:": 1,
+    "R:UBR": 1,
+    "L:BR": 3,
+    "L:UBR": 9,
+    "L:B": 8,
+    "L:UB": 5,
+    "L:U": 4,
+    "L:R": 2,
+    "S:": 1,
+    "L:UR": 3,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.1439,
+   "play_T4": 0.511,
+   "draw_T4": 0.6035,
+   "play_T5": 0.6035
+  },
+  "candidate": {
+   "categories": {
+    "X:": 60,
+    "L:": 1,
+    "R:UBR": 1,
+    "L:BR": 3,
+    "L:UBR": 9,
+    "L:B": 8,
+    "L:UB": 5,
+    "L:U": 4,
+    "L:R": 2,
+    "S:": 1,
+    "L:UR": 3,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.1439,
+   "play_T4": 0.511,
+   "draw_T4": 0.6035,
+   "play_T5": 0.6035
+  },
+  "challenge_SulfurousSprings_over_CrumblingNecropolis": {
+   "categories": {
+    "X:": 60,
+    "L:": 1,
+    "R:UBR": 1,
+    "L:BR": 4,
+    "L:UBR": 8,
+    "L:B": 8,
+    "L:UB": 5,
+    "L:U": 4,
+    "L:R": 2,
+    "S:": 1,
+    "L:UR": 3,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.1435,
+   "play_T4": 0.5094,
+   "draw_T4": 0.6017,
+   "play_T5": 0.6017
+  }
+ },
+ "castability_colour_agnostic_upper_bound": {
+  "agnostic_play_T4": 0.555,
+  "agnostic_draw_T4": 0.6487,
+  "agnostic_play_T3": 0.1518
+ },
+ "castability_note": "Exact enumeration of paid {U}{B}{B}{R} for Gwendlyn Di Corci (fetches count as any colour; Lotus Petal, Chrome Mox, Lion's Eye Diamond, Dark Ritual and Patriar's Seal ignored, conservative). Baseline play T3 0.1439, play T4 0.511, draw T4 0.6035. The colour-agnostic upper bound (any 4 mana sources) is play T4 0.555, draw T4 0.6487, so colours cost about 4.4 points and the binding constraint is source count, not fixing. Sulfurous Springs over Crumbling Necropolis lowers play T4 0.511 -> 0.5094 (loses blue), so the owner mana keep is retained. The research candidate (+Hymn to Tourach / -Dauthi Voidwalker) changes no mana source, so its castability equals baseline exactly; the Pass C Aphetto variant is also identical.",
+ "hymn_vs_dauthi_bounded_ledger": {
+  "method": "Exact finite expectations (fractions) over random-discard subsets; one turn with one Gwendlyn activation plus the {B}{B} slot; no opponent model, no games, not a win rate.",
+  "rows": [
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "tergrid_reanimations_expected": "9/7",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "stash_cards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "ascension_drain_life": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "caress_life_loss": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "waste_not_triggers": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 7,
+    "opp_permanent_cards_in_hand": 3,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "tergrid_reanimations_expected": "6/5",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "stash_cards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "ascension_drain_life": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "caress_life_loss": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "waste_not_triggers": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 5,
+    "opp_permanent_cards_in_hand": 2,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "tergrid_reanimations_expected": "1",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "stash_cards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "ascension_drain_life": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "caress_life_loss": 6,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "waste_not_triggers": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 3,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 3,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "tergrid_reanimations_expected": "1",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "stash_cards": 2,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "ascension_drain_life": 4,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "caress_life_loss": 4,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "waste_not_triggers": 2,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 2,
+    "opp_permanent_cards_in_hand": 1,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 2,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "stash_cards": 1,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "ascension_drain_life": 2,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "caress_life_loss": 2,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "waste_not_triggers": 1,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 1,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 1,
+     "dauthi_void_cards_created": 1
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 1,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Tergrid, God of Fright // Tergrid's Lantern",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "tergrid_reanimations_expected": "0",
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Tinybones, Bauble Burglar",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "stash_cards": 0,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Bloodchief Ascension (3+ quest counters)",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "ascension_drain_life": 0,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Liliana's Caress",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "caress_life_loss": 0,
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "caress_life_loss": 0,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "Waste Not",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "waste_not_triggers": 0,
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "waste_not_triggers": 0,
+     "dauthi_void_cards_created": 0
+    }
+   },
+   {
+    "opp_hand": 0,
+    "opp_permanent_cards_in_hand": 0,
+    "engine_on_board": "none",
+    "baseline_Dauthi_Voidwalker": {
+     "discards": 0,
+     "dauthi_void_cards_created": 0
+    },
+    "candidate_Hymn_to_Tourach": {
+     "discards": 0,
+     "dauthi_void_cards_created": 0
+    }
+   }
+  ],
+  "adversarial": [
+   {
+    "scenario": "Opponent graveyard deck (Underworld Breach / reanimator / flashback)",
+    "baseline": "Dauthi exiles every card that would hit that opponent's graveyard while it lives (3/2 shadow body)",
+    "candidate": "No continuous hate; Bojuka Bog (one-shot), counterspells and Opposition Agent remain",
+    "verdict": "CANDIDATE_LOSS (disclosed)"
+   },
+   {
+    "scenario": "Opponents hellbent (empty hands)",
+    "baseline": "Dauthi still attacks for 3 (shadow) and holds graveyard hate",
+    "candidate": "Hymn has no effect",
+    "verdict": "CANDIDATE_LOSS (disclosed; Gwendlyn's own plan is also blank here)"
+   },
+   {
+    "scenario": "Tergrid on board, opponent sacrifices to Tergrid's Lantern or an edict",
+    "baseline": "The sacrificed card is exiled with a void counter; Tergrid cannot take it",
+    "candidate": "Tergrid takes it",
+    "verdict": "CANDIDATE_GAIN"
+   },
+   {
+    "scenario": "Dauthi sacrificed to play a void card",
+    "baseline": "One free opposing card, once, after Dauthi has been in play",
+    "candidate": "Not available",
+    "verdict": "CANDIDATE_LOSS (one card, one time)"
+   },
+   {
+    "scenario": "Wheel turn (Wheel of Fortune / Windfall / Reforge the Soul) with Bloodchief Ascension at 3+",
+    "baseline": "Opponents' discarded hands are exiled: no Ascension drains",
+    "candidate": "Each card put into an opponent's graveyard drains 2",
+    "verdict": "CANDIDATE_GAIN"
+   }
+  ],
+  "rings_over_dauthi_comparison": {
+   "method": "Exact mana arithmetic for one Gwendlyn activation per turn: Rings copies each activation for {2} (rulings 2020-11-10: once per trigger). Hymn is a one-shot {B}{B} for two random discards.",
+   "rows": [
+    {
+     "spare_mana_after_gwendlyn_turn": 0,
+     "hymn_one_shot_extra_discards": 0,
+     "rings_extra_discards_per_turn_once_resolved": 0,
+     "rings_setup_cost": 3
+    },
+    {
+     "spare_mana_after_gwendlyn_turn": 1,
+     "hymn_one_shot_extra_discards": 0,
+     "rings_extra_discards_per_turn_once_resolved": 0,
+     "rings_setup_cost": 3
+    },
+    {
+     "spare_mana_after_gwendlyn_turn": 2,
+     "hymn_one_shot_extra_discards": 2,
+     "rings_extra_discards_per_turn_once_resolved": 1,
+     "rings_setup_cost": 3
+    },
+    {
+     "spare_mana_after_gwendlyn_turn": 3,
+     "hymn_one_shot_extra_discards": 2,
+     "rings_extra_discards_per_turn_once_resolved": 1,
+     "rings_setup_cost": 3
+    },
+    {
+     "spare_mana_after_gwendlyn_turn": 4,
+     "hymn_one_shot_extra_discards": 2,
+     "rings_extra_discards_per_turn_once_resolved": 2,
+     "rings_setup_cost": 3
+    },
+    {
+     "spare_mana_after_gwendlyn_turn": 6,
+     "hymn_one_shot_extra_discards": 2,
+     "rings_extra_discards_per_turn_once_resolved": 3,
+     "rings_setup_cost": 3
+    }
+   ],
+   "conclusion": "Rings out-discards Hymn only after it has resolved and with 4+ spare mana every turn. The owner rejected Battlemage's Bracers because 'each copy requires an additional mana', and Rings shares that objection. It is staged as an alternative and not selected."
+  }
+ },
+ "deck_stats": {
+  "baseline": {
+   "lands": 35,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 21,
+    "B": 24,
+    "R": 17
+   },
+   "nonland": 64,
+   "curve": {
+    "0": 3,
+    "1": 12,
+    "2": 20,
+    "3": 22,
+    "4": 4,
+    "5": 3
+   },
+   "avg_nonland_mv": 2.328,
+   "creatures": 14,
+   "equipment": 2,
+   "artifacts": 15,
+   "game_changers": [
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Imperial Seal",
+    "Lion's Eye Diamond",
+    "Mystical Tutor",
+    "Notion Thief",
+    "Opposition Agent",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  },
+  "candidate": {
+   "lands": 35,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 21,
+    "B": 24,
+    "R": 17
+   },
+   "nonland": 64,
+   "curve": {
+    "0": 3,
+    "1": 12,
+    "2": 20,
+    "3": 22,
+    "4": 4,
+    "5": 3
+   },
+   "avg_nonland_mv": 2.328,
+   "creatures": 13,
+   "equipment": 2,
+   "artifacts": 15,
+   "game_changers": [
+    "Ancient Tomb",
+    "Chrome Mox",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Force of Will",
+    "Gamble",
+    "Imperial Seal",
+    "Lion's Eye Diamond",
+    "Mystical Tutor",
+    "Notion Thief",
+    "Opposition Agent",
+    "Orcish Bowmasters",
+    "Rhystic Study",
+    "Tergrid, God of Fright // Tergrid's Lantern",
+    "Underworld Breach",
+    "Vampiric Tutor"
+   ]
+  }
+ }
+}

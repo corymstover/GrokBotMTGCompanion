@@ -1,0 +1,99 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Gwendlyn_Di_Corci_approved_source_2026-10-14.txt",
+   "raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+   "logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 9a393cb7…, fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 4ef2c267, introduced by canonical approval commit 111f903e on 2026-10-14; registry source_commit 1836b97 carries the same bytes; no terminal newline, copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/gwendlyn-di-corci.txt",
+   "raw_sha256": "4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4",
+   "logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "RESEARCH_ONE",
+   "path": "data/grixis/m7/candidate_lists/Gwendlyn_Di_Corci.txt",
+   "raw_sha256": "f5f26b78a09f9247be2e311dd76b6e1ff3ed012cd2eaa66692cb33b68fc38197",
+   "logical_hash": "lh1:0540cd4214a506957bd239bf774256dff10f1fd34e6c74ec7bf7131235dd0bdd",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (one genuine swap; far below the five-swap owner-presentation floor, so NOT owner-presentable). +Hymn to Tourach / -Dauthi Voidwalker. Dauthi is not in the owner's explicit retained list, but the owner's 2026-10-14 blueprint names it under resource denial. That makes this a FLAGGED override on rules evidence: its graveyard replacement disables the explicitly kept Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension payoffs (Dauthi and Tergrid rulings). Hymn adds two random discards in the same {B}{B}. Mana base, land count and castability are unchanged."
+  },
+  {
+   "id": "PASS_C_EXACT_APHETTO_MINUS_STONE_ON_BASELINE",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_AphettoAlchemist_minus_MagewrightsStone_20261023.txt",
+   "raw_sha256": "73fb6ff6febee753502728907ed2635950867e248ce7c3851e746194b7735104",
+   "logical_hash": "lh1:cf451ab79f47a559d3193331166fa419168d884e534be90702be77bfaa8ff02f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "OWNER_DECISION_ALTERNATIVE (one-swap, staged; Pass C's exact requested test; not counted). +Aphetto Alchemist -Magewright's Stone. In the bounded matrix the Alchemist out-discards the Stone when Bracers sit on the Alchemist (9 vs 4) or with full hands (21 vs 4), but loses on the turn it is cast (1 vs 2) and when killed (3 vs 4). With Illusionist's Bracers it is a generic two-card infinite (Commander Spellbook 283-4091), the class the owner rejected, and Magewright's Stone is an owner keep."
+  },
+  {
+   "id": "CANDIDATE_PLUS_APHETTO_MINUS_STONE",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_HymnToTourach_AphettoAlchemist_over_Dauthi_MagewrightsStone_20261023.txt",
+   "raw_sha256": "3e08150a8f2d83e7525dd1f6bc79310e2c567d5b90b1a9444e6af61de7af0388",
+   "logical_hash": "lh1:d09ee480984b1a7aad199ba758d0fd6bb138545d545cc81d9bfbb876c7e2e29e",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "OWNER_DECISION_ALTERNATIVE (two-swap, staged; not counted). The research swap plus the Pass C Aphetto change, for the owner to accept or decline the Bracers + Alchemist engine explicitly."
+  },
+  {
+   "id": "PASS_C_FALLBACK_RINGS_MINUS_MIND_TWIST",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_RingsOfBrighthearth_minus_MindTwist_20261023.txt",
+   "raw_sha256": "e5ba632a616c92e3391bb04d473f60970be87f1d6bf42d54f169258d73dc0832",
+   "logical_hash": "lh1:3de614de579fcb62554d889f098510f552478f7fe0e5c96113047ad6aff27226",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C fallback named but deprioritized). Rings of Brighthearth copies Gwendlyn for {2} per activation. It cuts Mind Twist, an owner addition, and shows no measured gain over the existing untap/copy package."
+  },
+  {
+   "id": "ONE_RINGS_OVER_DAUTHI",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_one_RingsOfBrighthearth_over_DauthiVoidwalker_20261023.txt",
+   "raw_sha256": "8641646ed8ba5a09cfc2f07376cf138299eb055083450753e9a50341c01a9808",
+   "logical_hash": "lh1:529a3e85a6bb7b20aa50c93a1ec949901ef2aa96542c0f887f821d6adca4d520",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; not counted). Removes the same Dauthi anti-synergy but fills the slot with commander throughput: Rings copies each Gwendlyn activation for {2}. It out-discards Hymn only once resolved with 4+ spare mana each turn, and it shares the owner's stated objection to Battlemage's Bracers ('each copy requires an additional mana')."
+  },
+  {
+   "id": "TWO_WHISPERING_MADNESS_OVER_REFORGE",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_WhisperingMadness_over_ReforgeTheSoul_20261023.txt",
+   "raw_sha256": "a66d931646f4d59881c1c0fd75597b1450a82438d1a7e2b389bf8d53deb250fc",
+   "logical_hash": "lh1:db9fb1c1dd86f82611ce72c41aef9a92d737d0204a9f57f293f688575184746a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (two-swap, staged). +Whispering Madness -Reforge the Soul on top of the research swap. It is 1 mana cheaper but draws only the largest discarded hand rather than seven, and loses Reforge's {1}{R} miracle from the top-of-library tutors (Mystical Tutor, Vampiric Tutor, Imperial Seal). Marginal: not counted."
+  },
+  {
+   "id": "CHALLENGE_SULFUROUS_SPRINGS_OVER_NECROPOLIS",
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_challenge_SulfurousSprings_over_CrumblingNecropolis_20261023.txt",
+   "raw_sha256": "489dffa6778c131a349efc9099db10caf7eab88db10488312b6a2d951c4e93d4",
+   "logical_hash": "lh1:3e0484bb221336759fbf366bdd552977330f094393f02cf0a6b53a2bd9993bac",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap challenge). Overrides the owner's mana-base keep; exact paid {U}{B}{B}{R} play-T4 castability drops 0.5110 -> 0.5094 because the tri-land's blue is lost (untapped timing not modelled). Not clearly better."
+  }
+ ]
+}

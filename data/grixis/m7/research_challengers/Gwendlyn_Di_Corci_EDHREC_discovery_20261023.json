@@ -1,0 +1,7146 @@
+{
+ "deck_id": "Gwendlyn_Di_Corci",
+ "purpose": "discovery only; frozen EDHREC snapshots untouched",
+ "retrieved": "2026-10-23T12:31:38-0500",
+ "sources": {
+  "general": "https://json.edhrec.com/pages/commanders/gwendlyn-di-corci.json",
+  "optimized": ".../gwendlyn-di-corci/optimized.json",
+  "upgraded": ".../gwendlyn-di-corci/upgraded.json",
+  "cedh": ".../gwendlyn-di-corci/cedh.json"
+ },
+ "caveats": "EDHREC inclusion = num_decks/potential_decks; usage is discovery evidence only, never an instruction. The Gwendlyn sample (380 general decks, 31 optimized, 26 upgraded, 3 cEDH) mostly runs Megrim/Counterspell/Specter random-discard shells; several high-inclusion cards (Megrim, Counterspell, Hypnotic Specter, Fell Specter, Sangromancer, Bone Miser, Feed the Swarm, Burning Inquiry, Winds of Change) were removed or rejected by the owner and are inadmissible here. The cEDH page has only 3 decks (anecdotal). Cards absent from every page are recorded as OFF-RANKING.",
+ "pages": {
+  "general": {
+   "num_decks": null,
+   "cardlists": [
+    {
+     "header": "New Cards",
+     "cards": [
+      {
+       "name": "Tinybones, Pocket Nuisance",
+       "num_decks": 16,
+       "potential_decks": 76,
+       "synergy": 0.19802478908523555
+      },
+      {
+       "name": "Multiply by Zero",
+       "num_decks": 1,
+       "potential_decks": 38,
+       "synergy": 0.021875710084246276
+      },
+      {
+       "name": "Hall of Echoes",
+       "num_decks": 1,
+       "potential_decks": 38,
+       "synergy": 0.012770478156597065
+      },
+      {
+       "name": "Stinging Vitriol",
+       "num_decks": 1,
+       "potential_decks": 39,
+       "synergy": 0.02387478389628597
+      },
+      {
+       "name": "Curse-Marred Demon",
+       "num_decks": 1,
+       "potential_decks": 39,
+       "synergy": 0.008828375003203055
+      }
+     ]
+    },
+    {
+     "header": "Top Cards",
+     "cards": [
+      {
+       "name": "Waste Not",
+       "num_decks": 223,
+       "potential_decks": 380,
+       "synergy": 0.4645163213091835
+      },
+      {
+       "name": "Windfall",
+       "num_decks": 211,
+       "potential_decks": 380,
+       "synergy": 0.32370370991835806
+      },
+      {
+       "name": "Megrim",
+       "num_decks": 202,
+       "potential_decks": 380,
+       "synergy": 0.4672102259286421
+      },
+      {
+       "name": "Liliana's Caress",
+       "num_decks": 201,
+       "potential_decks": 380,
+       "synergy": 0.4587254295870702
+      },
+      {
+       "name": "Geth's Grimoire",
+       "num_decks": 197,
+       "potential_decks": 380,
+       "synergy": 0.4691990158619548
+      },
+      {
+       "name": "Counterspell",
+       "num_decks": 196,
+       "potential_decks": 380,
+       "synergy": 0.06825901465777423
+      },
+      {
+       "name": "Wheel of Fortune",
+       "num_decks": 172,
+       "potential_decks": 380,
+       "synergy": 0.3586883774520787
+      },
+      {
+       "name": "Dark Ritual",
+       "num_decks": 159,
+       "potential_decks": 380,
+       "synergy": 0.029454023603038004
+      },
+      {
+       "name": "Dark Deal",
+       "num_decks": 147,
+       "potential_decks": 380,
+       "synergy": 0.3117608916113462
+      },
+      {
+       "name": "Demonic Tutor",
+       "num_decks": 144,
+       "potential_decks": 380,
+       "synergy": 0.1732616834862632
+      }
+     ]
+    },
+    {
+     "header": "High Lift Cards",
+     "cards": [
+      {
+       "name": "Cao Cao, Lord of Wei",
+       "num_decks": 35,
+       "potential_decks": 380,
+       "synergy": 0.09187188460746726
+      },
+      {
+       "name": "Earthbind",
+       "num_decks": 36,
+       "potential_decks": 380,
+       "synergy": 0.09449096113249135
+      },
+      {
+       "name": "Storm World",
+       "num_decks": 31,
+       "potential_decks": 380,
+       "synergy": 0.08131014528801798
+      },
+      {
+       "name": "Soul Collector",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.057598846179956135
+      },
+      {
+       "name": "Lavaborn Muse",
+       "num_decks": 53,
+       "potential_decks": 380,
+       "synergy": 0.1385360025347016
+      },
+      {
+       "name": "Reversal of Fortune",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.05219399416531689
+      },
+      {
+       "name": "Magewright's Stone",
+       "num_decks": 54,
+       "potential_decks": 380,
+       "synergy": 0.14093003545752777
+      },
+      {
+       "name": "Noetic Scales",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.07293406518565602
+      },
+      {
+       "name": "Aphetto Alchemist",
+       "num_decks": 63,
+       "potential_decks": 380,
+       "synergy": 0.16408914424538174
+      },
+      {
+       "name": "Pemmin's Aura",
+       "num_decks": 44,
+       "potential_decks": 380,
+       "synergy": 0.11446630065276901
+      }
+     ]
+    },
+    {
+     "header": "Creatures",
+     "cards": [
+      {
+       "name": "Tinybones, Trinket Thief",
+       "num_decks": 138,
+       "potential_decks": 380,
+       "synergy": 0.3535164433723069
+      },
+      {
+       "name": "Sangromancer",
+       "num_decks": 138,
+       "potential_decks": 380,
+       "synergy": 0.3411703013072818
+      },
+      {
+       "name": "Hypnotic Specter",
+       "num_decks": 131,
+       "potential_decks": 380,
+       "synergy": 0.3407235645327335
+      },
+      {
+       "name": "Tergrid, God of Fright",
+       "num_decks": 120,
+       "potential_decks": 380,
+       "synergy": 0.26414196697978654
+      },
+      {
+       "name": "Tinybones, Bauble Burglar",
+       "num_decks": 120,
+       "potential_decks": 380,
+       "synergy": 0.2713161827024172
+      },
+      {
+       "name": "Fell Specter",
+       "num_decks": 119,
+       "potential_decks": 380,
+       "synergy": 0.2894199621790757
+      },
+      {
+       "name": "Dauthi Voidwalker",
+       "num_decks": 119,
+       "potential_decks": 380,
+       "synergy": 0.2404396389081086
+      },
+      {
+       "name": "Magus of the Wheel",
+       "num_decks": 116,
+       "potential_decks": 380,
+       "synergy": 0.24036933471649607
+      },
+      {
+       "name": "Sheoldred, the Apocalypse",
+       "num_decks": 107,
+       "potential_decks": 380,
+       "synergy": 0.19076760267038578
+      },
+      {
+       "name": "The Raven Man",
+       "num_decks": 101,
+       "potential_decks": 380,
+       "synergy": 0.25942990818506173
+      },
+      {
+       "name": "Notion Thief",
+       "num_decks": 101,
+       "potential_decks": 380,
+       "synergy": 0.1867554108345334
+      },
+      {
+       "name": "Aclazotz, Deepest Betrayal",
+       "num_decks": 101,
+       "potential_decks": 380,
+       "synergy": 0.24630028098645868
+      },
+      {
+       "name": "Jace's Archivist",
+       "num_decks": 98,
+       "potential_decks": 380,
+       "synergy": 0.19914793798315972
+      },
+      {
+       "name": "Kroxa, Titan of Death's Hunger",
+       "num_decks": 93,
+       "potential_decks": 380,
+       "synergy": 0.22037170469322293
+      },
+      {
+       "name": "Bone Miser",
+       "num_decks": 90,
+       "potential_decks": 380,
+       "synergy": 0.1850924954429219
+      },
+      {
+       "name": "Tourach, Dread Cantor",
+       "num_decks": 89,
+       "potential_decks": 380,
+       "synergy": 0.22753423278391768
+      },
+      {
+       "name": "Rankle, Master of Pranks",
+       "num_decks": 72,
+       "potential_decks": 380,
+       "synergy": 0.1744666099232165
+      },
+      {
+       "name": "Kess, Dissident Mage",
+       "num_decks": 72,
+       "potential_decks": 380,
+       "synergy": 0.10518652023917353
+      },
+      {
+       "name": "The Haunt of Hightower",
+       "num_decks": 71,
+       "potential_decks": 380,
+       "synergy": 0.18283507890180037
+      },
+      {
+       "name": "Orcish Bowmasters",
+       "num_decks": 71,
+       "potential_decks": 380,
+       "synergy": 0.009107669216173786
+      },
+      {
+       "name": "Nicol Bolas, the Ravager",
+       "num_decks": 65,
+       "potential_decks": 380,
+       "synergy": 0.1583689241106254
+      },
+      {
+       "name": "Sedraxis Specter",
+       "num_decks": 54,
+       "potential_decks": 380,
+       "synergy": 0.13831911292462037
+      },
+      {
+       "name": "Kefka, Court Mage",
+       "num_decks": 39,
+       "potential_decks": 293,
+       "synergy": 0.08131013862357564
+      },
+      {
+       "name": "Hexing Squelcher",
+       "num_decks": 25,
+       "potential_decks": 194,
+       "synergy": 0.01838592171867237
+      },
+      {
+       "name": "Burglar Rat",
+       "num_decks": 47,
+       "potential_decks": 380,
+       "synergy": 0.10925433140390248
+      },
+      {
+       "name": "Cunning Lethemancer",
+       "num_decks": 46,
+       "potential_decks": 380,
+       "synergy": 0.11820833049561247
+      },
+      {
+       "name": "Nightscape Familiar",
+       "num_decks": 45,
+       "potential_decks": 380,
+       "synergy": -0.14973715302076623
+      },
+      {
+       "name": "Nekusar, the Mindrazer",
+       "num_decks": 45,
+       "potential_decks": 380,
+       "synergy": 0.10205954925696678
+      },
+      {
+       "name": "Ragavan, Nimble Pilferer",
+       "num_decks": 42,
+       "potential_decks": 380,
+       "synergy": -0.000305574555947416
+      },
+      {
+       "name": "Scrawling Crawler",
+       "num_decks": 36,
+       "potential_decks": 378,
+       "synergy": 0.009677514742528814
+      },
+      {
+       "name": "Opposition Agent",
+       "num_decks": 36,
+       "potential_decks": 380,
+       "synergy": 0.04806738323093959
+      },
+      {
+       "name": "Tinybones, the Pickpocket",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": 0.076423239020104
+      },
+      {
+       "name": "Asylum Visitor",
+       "num_decks": 31,
+       "potential_decks": 380,
+       "synergy": 0.0798223570290428
+      },
+      {
+       "name": "Necrogoyf",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.07396098564272266
+      },
+      {
+       "name": "Naktamun Lorespinner",
+       "num_decks": 11,
+       "potential_decks": 140,
+       "synergy": 0.06798742174047481
+      },
+      {
+       "name": "Archfiend of Ifnir",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.0006469619716890362
+      },
+      {
+       "name": "Containment Construct",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.05609728880584648
+      },
+      {
+       "name": "Razorkin Needlehead",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.01825870758073412
+      },
+      {
+       "name": "Archon of Cruelty",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.04458255782671928
+      },
+      {
+       "name": "Syr Konrad, the Grim",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.04642267860450593
+      },
+      {
+       "name": "Thassa's Oracle",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": -0.007154368615059525
+      },
+      {
+       "name": "Sire of Insanity",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.06867907411446932
+      },
+      {
+       "name": "Psychic Frog",
+       "num_decks": 27,
+       "potential_decks": 380,
+       "synergy": 0.034012121646814684
+      },
+      {
+       "name": "Virus Beetle",
+       "num_decks": 27,
+       "potential_decks": 380,
+       "synergy": 0.06757695816722385
+      },
+      {
+       "name": "Nicol Bolas",
+       "num_decks": 27,
+       "potential_decks": 380,
+       "synergy": 0.062398871579614164
+      },
+      {
+       "name": "Coffin Queen",
+       "num_decks": 25,
+       "potential_decks": 380,
+       "synergy": 0.06447880307511335
+      },
+      {
+       "name": "Baleful Strix",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": -0.033665031371758095
+      },
+      {
+       "name": "Blazing Specter",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": 0.06069491753500925
+      },
+      {
+       "name": "Gilded Drake",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": 0.05406446621839999
+      },
+      {
+       "name": "Elderfang Disciple",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": 0.06091996113720718
+      }
+     ]
+    },
+    {
+     "header": "Instants",
+     "cards": [
+      {
+       "name": "Mana Drain",
+       "num_decks": 119,
+       "potential_decks": 380,
+       "synergy": 0.15617539604438707
+      },
+      {
+       "name": "Vampiric Tutor",
+       "num_decks": 106,
+       "potential_decks": 380,
+       "synergy": 0.12621360958861216
+      },
+      {
+       "name": "Terminate",
+       "num_decks": 99,
+       "potential_decks": 380,
+       "synergy": -0.0007222177805721874
+      },
+      {
+       "name": "Cyclonic Rift",
+       "num_decks": 97,
+       "potential_decks": 380,
+       "synergy": 0.05819164195519025
+      },
+      {
+       "name": "Arcane Denial",
+       "num_decks": 95,
+       "potential_decks": 380,
+       "synergy": -0.03988533194973193
+      },
+      {
+       "name": "An Offer You Can't Refuse",
+       "num_decks": 93,
+       "potential_decks": 380,
+       "synergy": -0.07743182807458418
+      },
+      {
+       "name": "Dream Salvage",
+       "num_decks": 91,
+       "potential_decks": 380,
+       "synergy": 0.23614178865576257
+      },
+      {
+       "name": "Chaos Warp",
+       "num_decks": 90,
+       "potential_decks": 380,
+       "synergy": -0.1103084884977166
+      },
+      {
+       "name": "Deflecting Swat",
+       "num_decks": 72,
+       "potential_decks": 380,
+       "synergy": -0.008964763238666962
+      },
+      {
+       "name": "Fierce Guardianship",
+       "num_decks": 72,
+       "potential_decks": 380,
+       "synergy": -0.0022238738580161177
+      },
+      {
+       "name": "Force of Will",
+       "num_decks": 69,
+       "potential_decks": 380,
+       "synergy": 0.07800888066799785
+      },
+      {
+       "name": "Swan Song",
+       "num_decks": 68,
+       "potential_decks": 380,
+       "synergy": -0.022739625100608868
+      },
+      {
+       "name": "Mystical Tutor",
+       "num_decks": 66,
+       "potential_decks": 380,
+       "synergy": 0.044842580793888476
+      },
+      {
+       "name": "Deadly Rollick",
+       "num_decks": 62,
+       "potential_decks": 380,
+       "synergy": -0.020252641054467446
+      },
+      {
+       "name": "Brainstorm",
+       "num_decks": 62,
+       "potential_decks": 380,
+       "synergy": -0.004585022119965559
+      },
+      {
+       "name": "Wheel and Deal",
+       "num_decks": 62,
+       "potential_decks": 380,
+       "synergy": 0.12890542498749485
+      },
+      {
+       "name": "Drown in the Loch",
+       "num_decks": 60,
+       "potential_decks": 380,
+       "synergy": 0.12979554262322535
+      },
+      {
+       "name": "Lightning Bolt",
+       "num_decks": 50,
+       "potential_decks": 380,
+       "synergy": 0.025627169211403122
+      },
+      {
+       "name": "Negate",
+       "num_decks": 49,
+       "potential_decks": 380,
+       "synergy": -0.08761542395330321
+      },
+      {
+       "name": "Frantic Search",
+       "num_decks": 46,
+       "potential_decks": 380,
+       "synergy": -0.10069866606830512
+      },
+      {
+       "name": "Perplex",
+       "num_decks": 43,
+       "potential_decks": 380,
+       "synergy": 0.09609417197389011
+      },
+      {
+       "name": "Force of Negation",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": 0.021397270721202233
+      },
+      {
+       "name": "Bedevil",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": -0.0556926654539317
+      },
+      {
+       "name": "Flashback",
+       "num_decks": 13,
+       "potential_decks": 139,
+       "synergy": 0.03020189466387567
+      },
+      {
+       "name": "Cabal Ritual",
+       "num_decks": 35,
+       "potential_decks": 380,
+       "synergy": -0.008126656776592578
+      },
+      {
+       "name": "Fork",
+       "num_decks": 33,
+       "potential_decks": 380,
+       "synergy": 0.08240582906797841
+      },
+      {
+       "name": "Lim-Dûl's Vault",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.05629714660724287
+      },
+      {
+       "name": "Brain Freeze",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.003282708393172226
+      },
+      {
+       "name": "Recoil",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.07326519842166788
+      },
+      {
+       "name": "Red Elemental Blast",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.020031967816571482
+      },
+      {
+       "name": "Withering Torment",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": -0.05655162025361711
+      },
+      {
+       "name": "Demonic Consultation",
+       "num_decks": 27,
+       "potential_decks": 380,
+       "synergy": -0.0006862678328136557
+      },
+      {
+       "name": "Muddle the Mixture",
+       "num_decks": 26,
+       "potential_decks": 380,
+       "synergy": 0.04335994704237105
+      },
+      {
+       "name": "Pact of Negation",
+       "num_decks": 26,
+       "potential_decks": 380,
+       "synergy": -0.010788044130918786
+      },
+      {
+       "name": "Fell the Profane",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": -0.01797032385551016
+      },
+      {
+       "name": "Intuition",
+       "num_decks": 23,
+       "potential_decks": 380,
+       "synergy": 0.04444611691760893
+      },
+      {
+       "name": "Dramatic Reversal",
+       "num_decks": 23,
+       "potential_decks": 380,
+       "synergy": 0.04028906148811946
+      },
+      {
+       "name": "Rakdos Charm",
+       "num_decks": 21,
+       "potential_decks": 380,
+       "synergy": -0.08833133020399894
+      },
+      {
+       "name": "Darkness",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.041491920638571086
+      },
+      {
+       "name": "Tainted Pact",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": -0.013731097900218162
+      },
+      {
+       "name": "Go for the Throat",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": -0.006071280477259133
+      },
+      {
+       "name": "Terror",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": 0.04760995359517573
+      }
+     ]
+    },
+    {
+     "header": "Sorceries",
+     "cards": [
+      {
+       "name": "Reanimate",
+       "num_decks": 138,
+       "potential_decks": 380,
+       "synergy": 0.10202605044201002
+      },
+      {
+       "name": "Syphon Mind",
+       "num_decks": 134,
+       "potential_decks": 380,
+       "synergy": 0.31498678526859314
+      },
+      {
+       "name": "Blasphemous Act",
+       "num_decks": 115,
+       "potential_decks": 380,
+       "synergy": -0.14555942472626
+      },
+      {
+       "name": "Toxic Deluge",
+       "num_decks": 104,
+       "potential_decks": 380,
+       "synergy": 0.05524397106325318
+      },
+      {
+       "name": "Burning Inquiry",
+       "num_decks": 100,
+       "potential_decks": 380,
+       "synergy": 0.2385677137226039
+      },
+      {
+       "name": "Damnation",
+       "num_decks": 75,
+       "potential_decks": 380,
+       "synergy": 0.1264484303044241
+      },
+      {
+       "name": "Whispering Madness",
+       "num_decks": 73,
+       "potential_decks": 380,
+       "synergy": 0.12954105800981397
+      },
+      {
+       "name": "Rise of the Dark Realms",
+       "num_decks": 71,
+       "potential_decks": 380,
+       "synergy": 0.13007068913461634
+      },
+      {
+       "name": "Gamble",
+       "num_decks": 68,
+       "potential_decks": 380,
+       "synergy": 0.0814222229241126
+      },
+      {
+       "name": "Feed the Swarm",
+       "num_decks": 61,
+       "potential_decks": 380,
+       "synergy": -0.1124599086248399
+      },
+      {
+       "name": "Faithless Looting",
+       "num_decks": 59,
+       "potential_decks": 380,
+       "synergy": -0.047180232178756554
+      },
+      {
+       "name": "Reforge the Soul",
+       "num_decks": 59,
+       "potential_decks": 380,
+       "synergy": 0.10886041736375898
+      },
+      {
+       "name": "Mind Twist",
+       "num_decks": 58,
+       "potential_decks": 380,
+       "synergy": 0.15058118168289844
+      },
+      {
+       "name": "Wheel of Misfortune",
+       "num_decks": 57,
+       "potential_decks": 380,
+       "synergy": 0.10908999035229741
+      },
+      {
+       "name": "Winds of Change",
+       "num_decks": 56,
+       "potential_decks": 380,
+       "synergy": 0.09927785350516924
+      },
+      {
+       "name": "Vandalblast",
+       "num_decks": 53,
+       "potential_decks": 380,
+       "synergy": -0.032078303987187
+      },
+      {
+       "name": "Torment of Hailfire",
+       "num_decks": 52,
+       "potential_decks": 380,
+       "synergy": 0.09351287689182763
+      },
+      {
+       "name": "Hymn to Tourach",
+       "num_decks": 48,
+       "potential_decks": 380,
+       "synergy": 0.12401534376232765
+      },
+      {
+       "name": "Yawgmoth's Will",
+       "num_decks": 37,
+       "potential_decks": 380,
+       "synergy": 0.06660829461146693
+      },
+      {
+       "name": "Jeska's Will",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": -0.07217846922753565
+      },
+      {
+       "name": "Timetwister",
+       "num_decks": 33,
+       "potential_decks": 380,
+       "synergy": 0.06905324200423482
+      },
+      {
+       "name": "Unnerve",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.07746166389913484
+      },
+      {
+       "name": "Ponder",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": -0.006996185554810894
+      },
+      {
+       "name": "Imperial Seal",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.00871102438378138
+      },
+      {
+       "name": "Wheel of Fate",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.04447855192996274
+      },
+      {
+       "name": "Night's Whisper",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.01874856674533322
+      },
+      {
+       "name": "Vicious Rumors",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": 0.060230244171211686
+      },
+      {
+       "name": "Braingeyser",
+       "num_decks": 23,
+       "potential_decks": 380,
+       "synergy": 0.05898226662994903
+      },
+      {
+       "name": "Thoughtseize",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.05139139348599668
+      },
+      {
+       "name": "Cruel Ultimatum",
+       "num_decks": 21,
+       "potential_decks": 380,
+       "synergy": 0.014863663826094373
+      },
+      {
+       "name": "Duress",
+       "num_decks": 21,
+       "potential_decks": 380,
+       "synergy": 0.04753040967476922
+      },
+      {
+       "name": "Echo of Eons",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.021867285032089
+      },
+      {
+       "name": "Victimize",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": -0.03895283219895784
+      },
+      {
+       "name": "Time Spiral",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.043596495066533174
+      },
+      {
+       "name": "Grim Tutor",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.016424563838191013
+      }
+     ]
+    },
+    {
+     "header": "Utility Artifacts",
+     "cards": [
+      {
+       "name": "Lightning Greaves",
+       "num_decks": 102,
+       "potential_decks": 380,
+       "synergy": -0.022899974150693447
+      },
+      {
+       "name": "Anvil of Bogardan",
+       "num_decks": 81,
+       "potential_decks": 380,
+       "synergy": 0.20577938181663047
+      },
+      {
+       "name": "Illusionist's Bracers",
+       "num_decks": 68,
+       "potential_decks": 380,
+       "synergy": 0.17305872749687357
+      },
+      {
+       "name": "Thousand-Year Elixir",
+       "num_decks": 68,
+       "potential_decks": 380,
+       "synergy": 0.17269198977477324
+      },
+      {
+       "name": "Swiftfoot Boots",
+       "num_decks": 57,
+       "potential_decks": 380,
+       "synergy": -0.12390931993073659
+      },
+      {
+       "name": "Library of Leng",
+       "num_decks": 52,
+       "potential_decks": 380,
+       "synergy": 0.1201159479035028
+      },
+      {
+       "name": "Monument to Endurance",
+       "num_decks": 46,
+       "potential_decks": 354,
+       "synergy": 0.051974177467964705
+      },
+      {
+       "name": "Memory Jar",
+       "num_decks": 47,
+       "potential_decks": 380,
+       "synergy": 0.11742466440592163
+      },
+      {
+       "name": "The One Ring",
+       "num_decks": 43,
+       "potential_decks": 380,
+       "synergy": -0.010411880240393065
+      },
+      {
+       "name": "Wheel of Torture",
+       "num_decks": 37,
+       "potential_decks": 380,
+       "synergy": 0.096232784356355
+      },
+      {
+       "name": "The Rack",
+       "num_decks": 35,
+       "potential_decks": 380,
+       "synergy": 0.09101338493982332
+      },
+      {
+       "name": "Entropic Battlecruiser",
+       "num_decks": 24,
+       "potential_decks": 271,
+       "synergy": 0.06183255325575765
+      },
+      {
+       "name": "Teferi's Puzzle Box",
+       "num_decks": 32,
+       "potential_decks": 380,
+       "synergy": 0.0349989082314523
+      },
+      {
+       "name": "Howling Mine",
+       "num_decks": 31,
+       "potential_decks": 380,
+       "synergy": 0.028043574890003364
+      },
+      {
+       "name": "Mindcrank",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.05742653209234727
+      },
+      {
+       "name": "Wayfarer's Bauble",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": -0.036954890273148314
+      },
+      {
+       "name": "Isochron Scepter",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.0356695973880027
+      },
+      {
+       "name": "Sensei's Divining Top",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": 0.021158995388689896
+      },
+      {
+       "name": "Wishclaw Talisman",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": -0.029596671855171938
+      }
+     ]
+    },
+    {
+     "header": "Enchantments",
+     "cards": [
+      {
+       "name": "Bloodchief Ascension",
+       "num_decks": 122,
+       "potential_decks": 380,
+       "synergy": 0.2770982820904006
+      },
+      {
+       "name": "Oppression",
+       "num_decks": 120,
+       "potential_decks": 380,
+       "synergy": 0.3026160880074023
+      },
+      {
+       "name": "Painful Quandary",
+       "num_decks": 119,
+       "potential_decks": 380,
+       "synergy": 0.27854493847656664
+      },
+      {
+       "name": "Rhystic Study",
+       "num_decks": 112,
+       "potential_decks": 380,
+       "synergy": 0.07300429809152714
+      },
+      {
+       "name": "Raiders' Wake",
+       "num_decks": 109,
+       "potential_decks": 380,
+       "synergy": 0.264529448852645
+      },
+      {
+       "name": "Animate Dead",
+       "num_decks": 101,
+       "potential_decks": 380,
+       "synergy": 0.17187544450772424
+      },
+      {
+       "name": "Bottomless Pit",
+       "num_decks": 100,
+       "potential_decks": 380,
+       "synergy": 0.25927589259892786
+      },
+      {
+       "name": "Mystic Remora",
+       "num_decks": 82,
+       "potential_decks": 380,
+       "synergy": 0.06203885116776464
+      },
+      {
+       "name": "Underworld Dreams",
+       "num_decks": 76,
+       "potential_decks": 380,
+       "synergy": 0.13666064466657082
+      },
+      {
+       "name": "Quest for the Nihil Stone",
+       "num_decks": 71,
+       "potential_decks": 380,
+       "synergy": 0.18275381315656225
+      },
+      {
+       "name": "Necrogen Mists",
+       "num_decks": 65,
+       "potential_decks": 380,
+       "synergy": 0.16737066819854243
+      },
+      {
+       "name": "Phyrexian Arena",
+       "num_decks": 60,
+       "potential_decks": 380,
+       "synergy": 0.0699110233309458
+      },
+      {
+       "name": "Freed from the Real",
+       "num_decks": 48,
+       "potential_decks": 380,
+       "synergy": 0.12374654168192456
+      },
+      {
+       "name": "Shrieking Affliction",
+       "num_decks": 48,
+       "potential_decks": 380,
+       "synergy": 0.1230505735047569
+      },
+      {
+       "name": "Bandit's Talent",
+       "num_decks": 47,
+       "potential_decks": 380,
+       "synergy": 0.1111609508114127
+      },
+      {
+       "name": "Underworld Breach",
+       "num_decks": 45,
+       "potential_decks": 380,
+       "synergy": 0.006697322825595695
+      },
+      {
+       "name": "Necropotence",
+       "num_decks": 45,
+       "potential_decks": 380,
+       "synergy": 0.05801976654906712
+      },
+      {
+       "name": "Chains of Mephistopheles",
+       "num_decks": 45,
+       "potential_decks": 380,
+       "synergy": 0.11663528997339725
+      },
+      {
+       "name": "Propaganda",
+       "num_decks": 40,
+       "potential_decks": 380,
+       "synergy": -0.04769772827695892
+      },
+      {
+       "name": "Words of Waste",
+       "num_decks": 37,
+       "potential_decks": 380,
+       "synergy": 0.09521800440940695
+      },
+      {
+       "name": "Necromancy",
+       "num_decks": 31,
+       "potential_decks": 380,
+       "synergy": 0.04919142228543623
+      },
+      {
+       "name": "No Mercy",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.05704122169284334
+      },
+      {
+       "name": "Black Market Connections",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": -0.05554934272901339
+      },
+      {
+       "name": "Copy Artifact",
+       "num_decks": 26,
+       "potential_decks": 380,
+       "synergy": 0.0642973369950077
+      },
+      {
+       "name": "Dance of the Dead",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": 0.04973029313903253
+      },
+      {
+       "name": "Phyrexian Tyranny",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.024048595818948693
+      },
+      {
+       "name": "Court of Ambition",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.013171488379382278
+      },
+      {
+       "name": "Breathstealer's Crypt",
+       "num_decks": 21,
+       "potential_decks": 380,
+       "synergy": 0.05127488516689582
+      },
+      {
+       "name": "Oubliette",
+       "num_decks": 20,
+       "potential_decks": 380,
+       "synergy": 0.048193219015131544
+      },
+      {
+       "name": "Spiteful Visions",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": 0.0019031812413655147
+      }
+     ]
+    },
+    {
+     "header": "Planeswalkers",
+     "cards": [
+      {
+       "name": "Liliana of the Veil",
+       "num_decks": 97,
+       "potential_decks": 380,
+       "synergy": 0.24380052034204436
+      },
+      {
+       "name": "Narset, Parter of Veils",
+       "num_decks": 66,
+       "potential_decks": 380,
+       "synergy": 0.14756665024901208
+      },
+      {
+       "name": "Liliana, Waker of the Dead",
+       "num_decks": 40,
+       "potential_decks": 380,
+       "synergy": 0.1012957225374697
+      },
+      {
+       "name": "Liliana Vess",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": 0.08483736925783757
+      },
+      {
+       "name": "Angrath, the Flame-Chained",
+       "num_decks": 29,
+       "potential_decks": 380,
+       "synergy": 0.06826422948393619
+      },
+      {
+       "name": "Davriel, Rogue Shadowmage",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.05612356034332529
+      },
+      {
+       "name": "Dack Fayden",
+       "num_decks": 21,
+       "potential_decks": 380,
+       "synergy": 0.042021008895034816
+      }
+     ]
+    },
+    {
+     "header": "Utility Lands",
+     "cards": [
+      {
+       "name": "Urborg, Tomb of Yawgmoth",
+       "num_decks": 136,
+       "potential_decks": 380,
+       "synergy": 0.22156415612542474
+      },
+      {
+       "name": "Bojuka Bog",
+       "num_decks": 113,
+       "potential_decks": 380,
+       "synergy": 0.057805339038824705
+      },
+      {
+       "name": "Reliquary Tower",
+       "num_decks": 97,
+       "potential_decks": 380,
+       "synergy": -0.08575708144330157
+      },
+      {
+       "name": "Geier Reach Sanitarium",
+       "num_decks": 89,
+       "potential_decks": 380,
+       "synergy": 0.16544095221080662
+      },
+      {
+       "name": "Minamo, School at Water's Edge",
+       "num_decks": 84,
+       "potential_decks": 380,
+       "synergy": 0.20008815304456465
+      },
+      {
+       "name": "Otawara, Soaring City",
+       "num_decks": 72,
+       "potential_decks": 380,
+       "synergy": 0.0313826374035408
+      },
+      {
+       "name": "Ancient Tomb",
+       "num_decks": 52,
+       "potential_decks": 380,
+       "synergy": 0.013445280461685957
+      },
+      {
+       "name": "Takenuma, Abandoned Mire",
+       "num_decks": 40,
+       "potential_decks": 380,
+       "synergy": 0.0541553390881764
+      },
+      {
+       "name": "Strip Mine",
+       "num_decks": 40,
+       "potential_decks": 380,
+       "synergy": 0.09475695565138552
+      },
+      {
+       "name": "Cabal Coffers",
+       "num_decks": 39,
+       "potential_decks": 380,
+       "synergy": 0.0586563920882478
+      },
+      {
+       "name": "Rix Maadi, Dungeon Palace",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": 0.08501240317065817
+      },
+      {
+       "name": "Volrath's Stronghold",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.07241902022025538
+      },
+      {
+       "name": "Cephalid Coliseum",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.050248057929644915
+      },
+      {
+       "name": "Maze of Ith",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.050850619851455864
+      },
+      {
+       "name": "Mistrise Village",
+       "num_decks": 21,
+       "potential_decks": 324,
+       "synergy": -0.009112179276249036
+      },
+      {
+       "name": "Rogue's Passage",
+       "num_decks": 19,
+       "potential_decks": 380,
+       "synergy": -0.1697321564386433
+      }
+     ]
+    },
+    {
+     "header": "Mana Artifacts",
+     "cards": [
+      {
+       "name": "Sol Ring",
+       "num_decks": 303,
+       "potential_decks": 380,
+       "synergy": -0.09970121952356337
+      },
+      {
+       "name": "Arcane Signet",
+       "num_decks": 256,
+       "potential_decks": 380,
+       "synergy": -0.2085346360418735
+      },
+      {
+       "name": "Talisman of Dominance",
+       "num_decks": 168,
+       "potential_decks": 380,
+       "synergy": -0.06468459404360477
+      },
+      {
+       "name": "Talisman of Indulgence",
+       "num_decks": 154,
+       "potential_decks": 380,
+       "synergy": -0.044184339224496716
+      },
+      {
+       "name": "Talisman of Creativity",
+       "num_decks": 136,
+       "potential_decks": 380,
+       "synergy": -0.0875207290710821
+      },
+      {
+       "name": "Dimir Signet",
+       "num_decks": 125,
+       "potential_decks": 380,
+       "synergy": 0.0019131722122038841
+      },
+      {
+       "name": "Fellwar Stone",
+       "num_decks": 119,
+       "potential_decks": 380,
+       "synergy": -0.044348872199251765
+      },
+      {
+       "name": "Rakdos Signet",
+       "num_decks": 115,
+       "potential_decks": 380,
+       "synergy": -0.0008793096206249906
+      },
+      {
+       "name": "Izzet Signet",
+       "num_decks": 99,
+       "potential_decks": 380,
+       "synergy": -0.04578511538364949
+      },
+      {
+       "name": "Patriar's Seal",
+       "num_decks": 67,
+       "potential_decks": 380,
+       "synergy": 0.17235460532758923
+      },
+      {
+       "name": "Chromatic Lantern",
+       "num_decks": 63,
+       "potential_decks": 380,
+       "synergy": 0.0384835581630783
+      },
+      {
+       "name": "Lotus Petal",
+       "num_decks": 52,
+       "potential_decks": 380,
+       "synergy": 0.03215723923703201
+      },
+      {
+       "name": "Relic of Sauron",
+       "num_decks": 49,
+       "potential_decks": 380,
+       "synergy": -0.06193128098393624
+      },
+      {
+       "name": "Mana Vault",
+       "num_decks": 47,
+       "potential_decks": 380,
+       "synergy": 0.03994923687517088
+      },
+      {
+       "name": "Thought Vessel",
+       "num_decks": 42,
+       "potential_decks": 380,
+       "synergy": -0.09868296850935922
+      },
+      {
+       "name": "Commander's Sphere",
+       "num_decks": 39,
+       "potential_decks": 380,
+       "synergy": -0.06775560023526488
+      },
+      {
+       "name": "Lion's Eye Diamond",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": 0.030947761479663875
+      },
+      {
+       "name": "Mox Amber",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": 0.02189256405270626
+      },
+      {
+       "name": "Chrome Mox",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": -0.010565446178004007
+      },
+      {
+       "name": "Mox Diamond",
+       "num_decks": 28,
+       "potential_decks": 380,
+       "synergy": 0.008029823322128302
+      },
+      {
+       "name": "Mind Stone",
+       "num_decks": 24,
+       "potential_decks": 380,
+       "synergy": -0.06095990308648616
+      },
+      {
+       "name": "Basalt Monolith",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": 0.034959043051433325
+      },
+      {
+       "name": "Mox Opal",
+       "num_decks": 22,
+       "potential_decks": 380,
+       "synergy": -0.015292359824540566
+      }
+     ]
+    },
+    {
+     "header": "Lands",
+     "cards": [
+      {
+       "name": "Swamp",
+       "num_decks": 366,
+       "potential_decks": 380,
+       "synergy": 0.039635212217103866
+      },
+      {
+       "name": "Island",
+       "num_decks": 359,
+       "potential_decks": 380,
+       "synergy": 0.014071108952798284
+      },
+      {
+       "name": "Mountain",
+       "num_decks": 353,
+       "potential_decks": 380,
+       "synergy": 0.01121539118379622
+      },
+      {
+       "name": "Command Tower",
+       "num_decks": 290,
+       "potential_decks": 380,
+       "synergy": -0.15442196969522493
+      },
+      {
+       "name": "Watery Grave",
+       "num_decks": 234,
+       "potential_decks": 380,
+       "synergy": 0.13037459121739925
+      },
+      {
+       "name": "Blood Crypt",
+       "num_decks": 233,
+       "potential_decks": 380,
+       "synergy": 0.14401283121411795
+      },
+      {
+       "name": "Steam Vents",
+       "num_decks": 222,
+       "potential_decks": 380,
+       "synergy": 0.12160006220503472
+      },
+      {
+       "name": "Xander's Lounge",
+       "num_decks": 202,
+       "potential_decks": 380,
+       "synergy": 0.14099910585746162
+      },
+      {
+       "name": "Polluted Delta",
+       "num_decks": 182,
+       "potential_decks": 380,
+       "synergy": 0.1286690853370384
+      },
+      {
+       "name": "Bloodstained Mire",
+       "num_decks": 181,
+       "potential_decks": 380,
+       "synergy": 0.12281604889894782
+      },
+      {
+       "name": "Scalding Tarn",
+       "num_decks": 161,
+       "potential_decks": 380,
+       "synergy": 0.1010758718273595
+      },
+      {
+       "name": "Luxury Suite",
+       "num_decks": 157,
+       "potential_decks": 380,
+       "synergy": 0.0867092286411194
+      },
+      {
+       "name": "Morphic Pool",
+       "num_decks": 157,
+       "potential_decks": 380,
+       "synergy": 0.10136415136573063
+      },
+      {
+       "name": "Crumbling Necropolis",
+       "num_decks": 154,
+       "potential_decks": 380,
+       "synergy": -0.11378532441537742
+      },
+      {
+       "name": "Training Center",
+       "num_decks": 147,
+       "potential_decks": 380,
+       "synergy": 0.07507128299967764
+      },
+      {
+       "name": "Exotic Orchard",
+       "num_decks": 144,
+       "potential_decks": 380,
+       "synergy": -0.1931447244219357
+      },
+      {
+       "name": "Badlands",
+       "num_decks": 143,
+       "potential_decks": 380,
+       "synergy": 0.22149620984679816
+      },
+      {
+       "name": "Underground Sea",
+       "num_decks": 134,
+       "potential_decks": 380,
+       "synergy": 0.1996248505604101
+      },
+      {
+       "name": "Volcanic Island",
+       "num_decks": 131,
+       "potential_decks": 380,
+       "synergy": 0.19224479677147976
+      },
+      {
+       "name": "Dragonskull Summit",
+       "num_decks": 129,
+       "potential_decks": 380,
+       "synergy": -0.1376833482978555
+      },
+      {
+       "name": "Underground River",
+       "num_decks": 126,
+       "potential_decks": 380,
+       "synergy": 0.0426104597239399
+      },
+      {
+       "name": "Drowned Catacomb",
+       "num_decks": 125,
+       "potential_decks": 380,
+       "synergy": -0.11891440479750842
+      },
+      {
+       "name": "Sulfurous Springs",
+       "num_decks": 113,
+       "potential_decks": 380,
+       "synergy": 0.010277380496857225
+      },
+      {
+       "name": "Sulfur Falls",
+       "num_decks": 112,
+       "potential_decks": 380,
+       "synergy": -0.19330771652797207
+      },
+      {
+       "name": "City of Brass",
+       "num_decks": 96,
+       "potential_decks": 380,
+       "synergy": 0.11458608263245743
+      },
+      {
+       "name": "Shivan Reef",
+       "num_decks": 90,
+       "potential_decks": 380,
+       "synergy": -0.06341606975825251
+      },
+      {
+       "name": "Shipwreck Marsh",
+       "num_decks": 78,
+       "potential_decks": 380,
+       "synergy": -0.03869869304721649
+      },
+      {
+       "name": "Stormcarved Coast",
+       "num_decks": 75,
+       "potential_decks": 380,
+       "synergy": -0.06912904616497517
+      },
+      {
+       "name": "Sunken Hollow",
+       "num_decks": 73,
+       "potential_decks": 380,
+       "synergy": -0.20857236813316793
+      },
+      {
+       "name": "Haunted Ridge",
+       "num_decks": 66,
+       "potential_decks": 380,
+       "synergy": -0.03774633747569292
+      },
+      {
+       "name": "Undercity Sewers",
+       "num_decks": 65,
+       "potential_decks": 380,
+       "synergy": 0.0447802496382797
+      },
+      {
+       "name": "Smoldering Marsh",
+       "num_decks": 62,
+       "potential_decks": 380,
+       "synergy": -0.21943081515903357
+      },
+      {
+       "name": "Reflecting Pool",
+       "num_decks": 60,
+       "potential_decks": 380,
+       "synergy": 0.06907961224504791
+      },
+      {
+       "name": "Raucous Theater",
+       "num_decks": 58,
+       "potential_decks": 380,
+       "synergy": 0.04710696688711509
+      },
+      {
+       "name": "Mana Confluence",
+       "num_decks": 54,
+       "potential_decks": 380,
+       "synergy": 0.02192364463597278
+      },
+      {
+       "name": "Oscorp Industries",
+       "num_decks": 32,
+       "potential_decks": 245,
+       "synergy": 0.01859279024902248
+      },
+      {
+       "name": "Evolving Wilds",
+       "num_decks": 47,
+       "potential_decks": 380,
+       "synergy": -0.09595834521885985
+      },
+      {
+       "name": "Fabled Passage",
+       "num_decks": 44,
+       "potential_decks": 380,
+       "synergy": 0.03811817487006529
+      },
+      {
+       "name": "Thundering Falls",
+       "num_decks": 44,
+       "potential_decks": 380,
+       "synergy": 0.012788267200454298
+      },
+      {
+       "name": "Marsh Flats",
+       "num_decks": 39,
+       "potential_decks": 380,
+       "synergy": 0.0050397538645919615
+      },
+      {
+       "name": "Seething Landscape",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": -0.04709308261809059
+      },
+      {
+       "name": "Graven Cairns",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": 0.029200866001121054
+      },
+      {
+       "name": "Cascade Bluffs",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": -0.014490932618194771
+      },
+      {
+       "name": "Flooded Strand",
+       "num_decks": 38,
+       "potential_decks": 380,
+       "synergy": -0.00419310408058228
+      },
+      {
+       "name": "Sunken Ruins",
+       "num_decks": 35,
+       "potential_decks": 380,
+       "synergy": 0.04010560489077215
+      },
+      {
+       "name": "Terramorphic Expanse",
+       "num_decks": 34,
+       "potential_decks": 380,
+       "synergy": -0.09775217413286105
+      },
+      {
+       "name": "Temple of Deceit",
+       "num_decks": 33,
+       "potential_decks": 380,
+       "synergy": -0.028032234973596304
+      },
+      {
+       "name": "Path of Ancestry",
+       "num_decks": 32,
+       "potential_decks": 380,
+       "synergy": -0.22576411460422213
+      },
+      {
+       "name": "Misty Rainforest",
+       "num_decks": 31,
+       "potential_decks": 380,
+       "synergy": -0.015602381514049926
+      },
+      {
+       "name": "Arid Mesa",
+       "num_decks": 30,
+       "potential_decks": 380,
+       "synergy": -0.010895038545297109
+      }
+     ]
+    }
+   ],
+   "potential_decks_max": 380
+  },
+  "upgraded": {
+   "num_decks": null,
+   "cardlists": [
+    {
+     "header": "New Cards",
+     "cards": [
+      {
+       "name": "Tinybones, Pocket Nuisance",
+       "num_decks": 3,
+       "potential_decks": 8,
+       "synergy": 0.36249847329576185
+      },
+      {
+       "name": "Curse-Marred Demon",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3165206826955107
+      }
+     ]
+    },
+    {
+     "header": "Top Cards",
+     "cards": [
+      {
+       "name": "Megrim",
+       "num_decks": 21,
+       "potential_decks": 26,
+       "synergy": 0.7433235862525287
+      },
+      {
+       "name": "Waste Not",
+       "num_decks": 19,
+       "potential_decks": 26,
+       "synergy": 0.6084434468152563
+      },
+      {
+       "name": "Liliana's Caress",
+       "num_decks": 18,
+       "potential_decks": 26,
+       "synergy": 0.6220857534737099
+      },
+      {
+       "name": "Windfall",
+       "num_decks": 18,
+       "potential_decks": 26,
+       "synergy": 0.46074824433131356
+      },
+      {
+       "name": "Geth's Grimoire",
+       "num_decks": 17,
+       "potential_decks": 26,
+       "synergy": 0.6046241170765297
+      },
+      {
+       "name": "Magus of the Wheel",
+       "num_decks": 16,
+       "potential_decks": 26,
+       "synergy": 0.5504907922063746
+      },
+      {
+       "name": "Hypnotic Specter",
+       "num_decks": 15,
+       "potential_decks": 26,
+       "synergy": 0.5729097993505472
+      },
+      {
+       "name": "Tinybones, Bauble Burglar",
+       "num_decks": 15,
+       "potential_decks": 26,
+       "synergy": 0.5324497859412836
+      },
+      {
+       "name": "Reanimate",
+       "num_decks": 14,
+       "potential_decks": 26,
+       "synergy": 0.27732969416670633
+      },
+      {
+       "name": "Counterspell",
+       "num_decks": 14,
+       "potential_decks": 26,
+       "synergy": 0.09093107943510209
+      }
+     ]
+    },
+    {
+     "header": "High Lift Cards",
+     "cards": [
+      {
+       "name": "Cao Cao, Lord of Wei",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15361277529572637
+      },
+      {
+       "name": "Storm World",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15357735176575077
+      },
+      {
+       "name": "Magewright's Stone",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.22959400306886382
+      },
+      {
+       "name": "Chains of Mephistopheles",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.19052192964951062
+      },
+      {
+       "name": "Aphetto Alchemist",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.30599197825347896
+      },
+      {
+       "name": "Mind Twist",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.26718037196629923
+      },
+      {
+       "name": "Hymn to Tourach",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.19000724659633575
+      },
+      {
+       "name": "Coffin Queen",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15253548323705668
+      },
+      {
+       "name": "Blazing Specter",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.18984471510585946
+      },
+      {
+       "name": "Dream Salvage",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.304360412137544
+      }
+     ]
+    },
+    {
+     "header": "Creatures",
+     "cards": [
+      {
+       "name": "Sangromancer",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.43955086810890126
+      },
+      {
+       "name": "Fell Specter",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.43780052898069516
+      },
+      {
+       "name": "Tinybones, Trinket Thief",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.41343547171238787
+      },
+      {
+       "name": "Jace's Archivist",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.3643301242179775
+      },
+      {
+       "name": "Aclazotz, Deepest Betrayal",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.40358773037917123
+      },
+      {
+       "name": "Tourach, Dread Cantor",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.3779390910835128
+      },
+      {
+       "name": "The Raven Man",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.37825581911623585
+      },
+      {
+       "name": "Tergrid, God of Fright",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.33296787791096066
+      },
+      {
+       "name": "The Haunt of Hightower",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.3421468197924886
+      },
+      {
+       "name": "Dauthi Voidwalker",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.27343559032511267
+      },
+      {
+       "name": "Kroxa, Titan of Death's Hunger",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.28332717028026744
+      },
+      {
+       "name": "Sheoldred, the Apocalypse",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.21688096299427245
+      },
+      {
+       "name": "Nekusar, the Mindrazer",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.29133080431769554
+      },
+      {
+       "name": "Rankle, Master of Pranks",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.25422369494345937
+      },
+      {
+       "name": "Sedraxis Specter",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.26544461899749483
+      },
+      {
+       "name": "Notion Thief",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.1901967063810921
+      },
+      {
+       "name": "Kefka, Court Mage",
+       "num_decks": 5,
+       "potential_decks": 21,
+       "synergy": 0.18629957467103214
+      },
+      {
+       "name": "Bone Miser",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.17901962094899476
+      },
+      {
+       "name": "Hexing Squelcher",
+       "num_decks": 4,
+       "potential_decks": 18,
+       "synergy": 0.1117421645594513
+      },
+      {
+       "name": "Ragavan, Nimble Pilferer",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.08147580196227122
+      },
+      {
+       "name": "Containment Construct",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.1720891916398546
+      },
+      {
+       "name": "Nightscape Familiar",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.07585051334465284
+      },
+      {
+       "name": "Tinybones, the Pickpocket",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.17925724711727
+      },
+      {
+       "name": "Orcish Bowmasters",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.014573256260708212
+      },
+      {
+       "name": "Kess, Dissident Mage",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.10802052833633953
+      },
+      {
+       "name": "Burglar Rat",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.13941627472374055
+      },
+      {
+       "name": "Nicol Bolas, the Ravager",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.14116244637783187
+      },
+      {
+       "name": "Elderfang Disciple",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15160822024651893
+      },
+      {
+       "name": "Cunning Lethemancer",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15100185276281897
+      },
+      {
+       "name": "Necrogoyf",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.1488597710678239
+      },
+      {
+       "name": "Norman Osborn",
+       "num_decks": 3,
+       "potential_decks": 20,
+       "synergy": 0.11204921679805596
+      },
+      {
+       "name": "Locke, Treasure Hunter",
+       "num_decks": 3,
+       "potential_decks": 21,
+       "synergy": 0.12636835212561007
+      },
+      {
+       "name": "Naktamun Lorespinner",
+       "num_decks": 2,
+       "potential_decks": 14,
+       "synergy": 0.1322731360261891
+      },
+      {
+       "name": "Liliana's Specter",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11309250462148837
+      },
+      {
+       "name": "Scrawling Crawler",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.029824034889048973
+      },
+      {
+       "name": "Lavaborn Muse",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.1144469337087907
+      },
+      {
+       "name": "Baleful Strix",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.01856168927601519
+      },
+      {
+       "name": "Kami of the Crescent Moon",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.0767375441812364
+      },
+      {
+       "name": "Sepulchral Primordial",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.09644761300707141
+      },
+      {
+       "name": "Abyssal Specter",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.113723876949877
+      },
+      {
+       "name": "Boggart Trawler",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.09186547521787475
+      },
+      {
+       "name": "Lazav, Dimir Mastermind",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11349883334767907
+      },
+      {
+       "name": "Consuming Aberration",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.10310515290542671
+      },
+      {
+       "name": "Worldgorger Dragon",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.1088479322355886
+      },
+      {
+       "name": "Razorkin Needlehead",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.0573275334916653
+      },
+      {
+       "name": "Hostile Investigator",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11401143266379657
+      },
+      {
+       "name": "Kederekt Parasite",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.06826715304295336
+      },
+      {
+       "name": "Lo and Li, Royal Advisors",
+       "num_decks": 2,
+       "potential_decks": 19,
+       "synergy": 0.10445497170924684
+      },
+      {
+       "name": "Kefka, Dancing Mad",
+       "num_decks": 2,
+       "potential_decks": 21,
+       "synergy": 0.05904517490595048
+      },
+      {
+       "name": "Reed Richards, Smartest Man",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.08965085687756105
+      }
+     ]
+    },
+    {
+     "header": "Instants",
+     "cards": [
+      {
+       "name": "Dark Ritual",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.034109894048382106
+      },
+      {
+       "name": "Terminate",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.16182838950687722
+      },
+      {
+       "name": "Deadly Rollick",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.08582023343945966
+      },
+      {
+       "name": "An Offer You Can't Refuse",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": -0.05293790094907813
+      },
+      {
+       "name": "Mana Drain",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.11224827053831421
+      },
+      {
+       "name": "Arcane Denial",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": -0.02065456271896271
+      },
+      {
+       "name": "Frantic Search",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.009017933121978294
+      },
+      {
+       "name": "Brainstorm",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.06302631391242311
+      },
+      {
+       "name": "Flashback",
+       "num_decks": 3,
+       "potential_decks": 14,
+       "synergy": 0.15096242909347485
+      },
+      {
+       "name": "Lightning Bolt",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.0863559141506744
+      },
+      {
+       "name": "Deflecting Swat",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.006130755141500965
+      },
+      {
+       "name": "Abrade",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.09701006172510028
+      },
+      {
+       "name": "Drown in the Loch",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.12574695962727395
+      },
+      {
+       "name": "Swan Song",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.047840839675507646
+      },
+      {
+       "name": "Perplex",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.13678243108320187
+      },
+      {
+       "name": "Wheel and Deal",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.11959368409680658
+      },
+      {
+       "name": "Terror",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.1514561074413296
+      },
+      {
+       "name": "Chaos Warp",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.2317659783762591
+      },
+      {
+       "name": "Recoil",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11233402433259906
+      },
+      {
+       "name": "Three Steps Ahead",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.08855858450779967
+      },
+      {
+       "name": "Go for the Throat",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.059313334907356255
+      },
+      {
+       "name": "Cabal Ritual",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.015152695450128081
+      },
+      {
+       "name": "Opt",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.05734628712518179
+      },
+      {
+       "name": "We Say Thee Nay!",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.08622603804307602
+      },
+      {
+       "name": "Fell the Profane",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.004205141669275339
+      },
+      {
+       "name": "Sheoldred's Edict",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.0599906295947404
+      },
+      {
+       "name": "Negate",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.13963971545127893
+      },
+      {
+       "name": "Kolaghan's Command",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.06288077289333784
+      },
+      {
+       "name": "Fork",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07248680072789744
+      },
+      {
+       "name": "Twiddle",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07624377864236838
+      },
+      {
+       "name": "Aetherize",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.039607513699369
+      },
+      {
+       "name": "Counterflux",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.06874857644694302
+      },
+      {
+       "name": "Malakir Rebirth",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.008207679981586183
+      },
+      {
+       "name": "Baleful Mastery",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.043031093684657816
+      },
+      {
+       "name": "Red Elemental Blast",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.020639255265964197
+      },
+      {
+       "name": "Liliana's Triumph",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07451844435885094
+      },
+      {
+       "name": "High Tide",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.0730931682115974
+      },
+      {
+       "name": "Crosis's Charm",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.054460391444432106
+      },
+      {
+       "name": "Pyroblast",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.024387898232205572
+      },
+      {
+       "name": "Vampiric Tutor",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.07581068190936352
+      },
+      {
+       "name": "Archenemy's Charm",
+       "num_decks": 1,
+       "potential_decks": 20,
+       "synergy": 0.04355405956536247
+      },
+      {
+       "name": "Spider-Sense",
+       "num_decks": 1,
+       "potential_decks": 20,
+       "synergy": 0.03303179777283363
+      }
+     ]
+    },
+    {
+     "header": "Sorceries",
+     "cards": [
+      {
+       "name": "Wheel of Fortune",
+       "num_decks": 13,
+       "potential_decks": 26,
+       "synergy": 0.40605679850471027
+      },
+      {
+       "name": "Syphon Mind",
+       "num_decks": 13,
+       "potential_decks": 26,
+       "synergy": 0.46235520632122473
+      },
+      {
+       "name": "Burning Inquiry",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.4369482805242234
+      },
+      {
+       "name": "Dark Deal",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.3479957094251114
+      },
+      {
+       "name": "Blasphemous Act",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": -0.06357561905824377
+      },
+      {
+       "name": "Toxic Deluge",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.12771360669078352
+      },
+      {
+       "name": "Rise of the Dark Realms",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.2509208915637661
+      },
+      {
+       "name": "Faithless Looting",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.06678737915727581
+      },
+      {
+       "name": "Feed the Swarm",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": -0.003755455183544365
+      },
+      {
+       "name": "Whispering Madness",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.20666656408268846
+      },
+      {
+       "name": "Demonic Tutor",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.025083545834441334
+      },
+      {
+       "name": "Damnation",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.1598492400210233
+      },
+      {
+       "name": "Wheel of Misfortune",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.15139768265998974
+      },
+      {
+       "name": "Wheel of Fate",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.16310203371133927
+      },
+      {
+       "name": "Winds of Change",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.14421712476023
+      },
+      {
+       "name": "Night's Whisper",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.09891051006517129
+      },
+      {
+       "name": "Reforge the Soul",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.10744341331517598
+      },
+      {
+       "name": "Decorum Dissertation",
+       "num_decks": 2,
+       "potential_decks": 14,
+       "synergy": 0.12669139041623648
+      },
+      {
+       "name": "Doomsday Confluence",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.10164653696525497
+      },
+      {
+       "name": "Torment of Hailfire",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.07205538701328512
+      },
+      {
+       "name": "Vicious Rumors",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11245696481898497
+      },
+      {
+       "name": "Unnerve",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.1138989108626976
+      },
+      {
+       "name": "Beacon of Unrest",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11013568173705451
+      },
+      {
+       "name": "Chart a Course",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.05596484959986639
+      },
+      {
+       "name": "Diabolic Tutor",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.03219982846035394
+      },
+      {
+       "name": "Victimize",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.014661334223249334
+      },
+      {
+       "name": "Yawgmoth's Will",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.04616295048191228
+      },
+      {
+       "name": "Vandalblast",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.09462891127463638
+      },
+      {
+       "name": "Fabricate",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.041885038303094306
+      },
+      {
+       "name": "Treasure Cruise",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.04859675536494171
+      },
+      {
+       "name": "Blasphemous Edict",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.024013777382902883
+      },
+      {
+       "name": "Gamble",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.02060206857386311
+      },
+      {
+       "name": "Mana Geyser",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.022262486433669605
+      },
+      {
+       "name": "Mnemonic Betrayal",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.034616963446924255
+      },
+      {
+       "name": "Fireball",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07293897166935068
+      },
+      {
+       "name": "Stupor",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07678971775140409
+      },
+      {
+       "name": "Time Spiral",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.06788799304224169
+      },
+      {
+       "name": "Let's Play a Game",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07502687620085366
+      },
+      {
+       "name": "Thoughtseize",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07041973356696835
+      },
+      {
+       "name": "Pox Plague",
+       "num_decks": 1,
+       "potential_decks": 14,
+       "synergy": 0.06971081514546883
+      },
+      {
+       "name": "Singularity Rupture",
+       "num_decks": 1,
+       "potential_decks": 20,
+       "synergy": 0.033125089379823204
+      }
+     ]
+    },
+    {
+     "header": "Utility Artifacts",
+     "cards": [
+      {
+       "name": "Anvil of Bogardan",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.3003137947720961
+      },
+      {
+       "name": "Swiftfoot Boots",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.033782987761571126
+      },
+      {
+       "name": "Thousand-Year Elixir",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.2629753905844898
+      },
+      {
+       "name": "Lightning Greaves",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": -0.02209025755150318
+      },
+      {
+       "name": "Illusionist's Bracers",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.22488058984505171
+      },
+      {
+       "name": "Entropic Battlecruiser",
+       "num_decks": 4,
+       "potential_decks": 20,
+       "synergy": 0.17327166764690158
+      },
+      {
+       "name": "Library of Leng",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.13711999648649875
+      },
+      {
+       "name": "Howling Mine",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.10031078136773616
+      },
+      {
+       "name": "Monument to Endurance",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.0758768284892598
+      },
+      {
+       "name": "Glamdring, Foe-hammer",
+       "num_decks": 1,
+       "potential_decks": 8,
+       "synergy": 0.10310007251631617
+      },
+      {
+       "name": "The One Ring",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.008185159592619784
+      },
+      {
+       "name": "Memory Jar",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.10912506926422123
+      },
+      {
+       "name": "Chimil, the Inner Sun",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.06892152662270623
+      },
+      {
+       "name": "Bolas's Citadel",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.028765829789778187
+      },
+      {
+       "name": "Portal to Phyrexia",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.061367979789673996
+      },
+      {
+       "name": "The Rack",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07583119870500551
+      },
+      {
+       "name": "Cursed Rack",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07640631013284466
+      },
+      {
+       "name": "Noetic Scales",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07617293158241717
+      },
+      {
+       "name": "Mindcrank",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.05540224059437157
+      },
+      {
+       "name": "Staff of Domination",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07272017927832493
+      },
+      {
+       "name": "Ensnaring Bridge",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07429340075665301
+      },
+      {
+       "name": "Puppet Strings",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07667302847619034
+      }
+     ]
+    },
+    {
+     "header": "Enchantments",
+     "cards": [
+      {
+       "name": "Bloodchief Ascension",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.3791225735883763
+      },
+      {
+       "name": "Oppression",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.40990353740011487
+      },
+      {
+       "name": "Bottomless Pit",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.3807333824774704
+      },
+      {
+       "name": "Animate Dead",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.29070135543889836
+      },
+      {
+       "name": "Raiders' Wake",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.36230272820487175
+      },
+      {
+       "name": "Painful Quandary",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.27307935143203227
+      },
+      {
+       "name": "Phyrexian Arena",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.21970859418114824
+      },
+      {
+       "name": "Quest for the Nihil Stone",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.26514247712417355
+      },
+      {
+       "name": "Rhystic Study",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.009036686755494794
+      },
+      {
+       "name": "Underworld Dreams",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.1674298754358016
+      },
+      {
+       "name": "Necrogen Mists",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.22708726738882584
+      },
+      {
+       "name": "Necromancy",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.12145862876316903
+      },
+      {
+       "name": "Shrieking Affliction",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.15058093787722654
+      },
+      {
+       "name": "Breathstealer's Crypt",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.14985788111831283
+      },
+      {
+       "name": "Propaganda",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.0008852676744580956
+      },
+      {
+       "name": "Freed from the Real",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11281536759285574
+      },
+      {
+       "name": "Underworld Connections",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11387182228095155
+      },
+      {
+       "name": "Words of Waste",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11323419874139076
+      },
+      {
+       "name": "Mystic Remora",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.0383660071318305
+      },
+      {
+       "name": "Treachery",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11193603055463791
+      },
+      {
+       "name": "Bandit's Talent",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.1028613556697123
+      },
+      {
+       "name": "Black Market Connections",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.016480516818082214
+      },
+      {
+       "name": "Frozen in Ice",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.0883522517006345
+      },
+      {
+       "name": "Dance of the Dead",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.06349547532526735
+      },
+      {
+       "name": "Underworld Breach",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": -0.03480065288290632
+      },
+      {
+       "name": "Tinybones Joins Up",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07119696748937415
+      },
+      {
+       "name": "Copy Artifact",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07279936128650567
+      },
+      {
+       "name": "Spiteful Visions",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.02882625816444244
+      },
+      {
+       "name": "Pemmin's Aura",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07559990389163541
+      },
+      {
+       "name": "Dauthi Embrace",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07587287344615327
+      },
+      {
+       "name": "No Mercy",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.05764850914223606
+      },
+      {
+       "name": "Cool but Rude",
+       "num_decks": 1,
+       "potential_decks": 18,
+       "synergy": 0.007237004915321969
+      }
+     ]
+    },
+    {
+     "header": "Planeswalkers",
+     "cards": [
+      {
+       "name": "Liliana of the Veil",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.2577681316780767
+      },
+      {
+       "name": "Angrath, the Flame-Chained",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.14579459385640584
+      },
+      {
+       "name": "Narset, Parter of Veils",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.12772859356885014
+      },
+      {
+       "name": "Liliana, Waker of the Dead",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.11141718002734825
+      },
+      {
+       "name": "Professor Onyx",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.05846325033167484
+      },
+      {
+       "name": "Liliana Vess",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07228676197038818
+      },
+      {
+       "name": "Ral Zarek, Guest Lecturer",
+       "num_decks": 1,
+       "potential_decks": 14,
+       "synergy": 0.066797156894728
+      }
+     ]
+    },
+    {
+     "header": "Utility Lands",
+     "cards": [
+      {
+       "name": "Urborg, Tomb of Yawgmoth",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.20982326543716562
+      },
+      {
+       "name": "Reliquary Tower",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": -0.11025100856880765
+      },
+      {
+       "name": "Bojuka Bog",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.04725538970611454
+      },
+      {
+       "name": "Minamo, School at Water's Edge",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.1713432137733096
+      },
+      {
+       "name": "Geier Reach Sanitarium",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.08507657974117101
+      },
+      {
+       "name": "Otawara, Soaring City",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.004244892960831664
+      },
+      {
+       "name": "Cephalid Coliseum",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.08668530489320768
+      },
+      {
+       "name": "Rogue's Passage",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.10434754105402794
+      },
+      {
+       "name": "Cabal Coffers",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.032947890063956306
+      },
+      {
+       "name": "Takenuma, Abandoned Mire",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.02581525811651649
+      }
+     ]
+    },
+    {
+     "header": "Mana Artifacts",
+     "cards": [
+      {
+       "name": "Sol Ring",
+       "num_decks": 22,
+       "potential_decks": 26,
+       "synergy": -0.05091579442234884
+      },
+      {
+       "name": "Arcane Signet",
+       "num_decks": 20,
+       "potential_decks": 26,
+       "synergy": -0.11298807733742
+      },
+      {
+       "name": "Rakdos Signet",
+       "num_decks": 13,
+       "potential_decks": 26,
+       "synergy": 0.1964891114320066
+      },
+      {
+       "name": "Talisman of Dominance",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": -0.04525139566303793
+      },
+      {
+       "name": "Talisman of Creativity",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": -0.022338542836264297
+      },
+      {
+       "name": "Dimir Signet",
+       "num_decks": 11,
+       "potential_decks": 26,
+       "synergy": 0.0960427268680743
+      },
+      {
+       "name": "Fellwar Stone",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.027108617679290792
+      },
+      {
+       "name": "Talisman of Indulgence",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": -0.1032936509653874
+      },
+      {
+       "name": "Izzet Signet",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.039842414980722995
+      },
+      {
+       "name": "Thought Vessel",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": 0.06002148493193632
+      },
+      {
+       "name": "Commander's Sphere",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.060382051586597485
+      },
+      {
+       "name": "Patriar's Seal",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": 0.2268080466231358
+      },
+      {
+       "name": "Chromatic Lantern",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.0650017767865601
+      },
+      {
+       "name": "Relic of Sauron",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.0014290429027034313
+      },
+      {
+       "name": "The Soul Stone",
+       "num_decks": 2,
+       "potential_decks": 20,
+       "synergy": 0.05233539612079334
+      },
+      {
+       "name": "Bender's Waterskin",
+       "num_decks": 2,
+       "potential_decks": 20,
+       "synergy": 0.05385433220984311
+      },
+      {
+       "name": "Chromatic Orrery",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07037180761464842
+      },
+      {
+       "name": "Obelisk of Grixis",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.060569908496694316
+      }
+     ]
+    },
+    {
+     "header": "Lands",
+     "cards": [
+      {
+       "name": "Swamp",
+       "num_decks": 26,
+       "potential_decks": 26,
+       "synergy": 0.07647731748026176
+      },
+      {
+       "name": "Mountain",
+       "num_decks": 24,
+       "potential_decks": 26,
+       "synergy": 0.005344945839666715
+      },
+      {
+       "name": "Island",
+       "num_decks": 24,
+       "potential_decks": 26,
+       "synergy": -0.007588810075541796
+      },
+      {
+       "name": "Command Tower",
+       "num_decks": 21,
+       "potential_decks": 26,
+       "synergy": -0.10988755673975936
+      },
+      {
+       "name": "Blood Crypt",
+       "num_decks": 16,
+       "potential_decks": 26,
+       "synergy": 0.14623955186189125
+      },
+      {
+       "name": "Watery Grave",
+       "num_decks": 16,
+       "potential_decks": 26,
+       "synergy": 0.12996973291780411
+      },
+      {
+       "name": "Steam Vents",
+       "num_decks": 15,
+       "potential_decks": 26,
+       "synergy": 0.11431261281232208
+      },
+      {
+       "name": "Luxury Suite",
+       "num_decks": 14,
+       "potential_decks": 26,
+       "synergy": 0.21201287236581573
+      },
+      {
+       "name": "Xander's Lounge",
+       "num_decks": 14,
+       "potential_decks": 26,
+       "synergy": 0.147881696950579
+      },
+      {
+       "name": "Training Center",
+       "num_decks": 13,
+       "potential_decks": 26,
+       "synergy": 0.18822917773651976
+      },
+      {
+       "name": "Exotic Orchard",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": -0.11055363130452678
+      },
+      {
+       "name": "Crumbling Necropolis",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": -0.05751002077165268
+      },
+      {
+       "name": "Underground River",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.17256997389398043
+      },
+      {
+       "name": "Morphic Pool",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.14974471816735008
+      },
+      {
+       "name": "Bloodstained Mire",
+       "num_decks": 12,
+       "potential_decks": 26,
+       "synergy": 0.10803872096372519
+      },
+      {
+       "name": "Polluted Delta",
+       "num_decks": 10,
+       "potential_decks": 26,
+       "synergy": 0.03433710153137043
+      },
+      {
+       "name": "Shivan Reef",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.045895671132435756
+      },
+      {
+       "name": "Badlands",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.1913342665269601
+      },
+      {
+       "name": "Underground Sea",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.19314711776688784
+      },
+      {
+       "name": "Drowned Catacomb",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": -0.10170792706471493
+      },
+      {
+       "name": "Scalding Tarn",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.02354550745488987
+      },
+      {
+       "name": "Sulfurous Springs",
+       "num_decks": 9,
+       "potential_decks": 26,
+       "synergy": 0.05906280559807181
+      },
+      {
+       "name": "Volcanic Island",
+       "num_decks": 8,
+       "potential_decks": 26,
+       "synergy": 0.1552002623585243
+      },
+      {
+       "name": "Dragonskull Summit",
+       "num_decks": 7,
+       "potential_decks": 26,
+       "synergy": -0.2079262632776126
+      },
+      {
+       "name": "Sulfur Falls",
+       "num_decks": 6,
+       "potential_decks": 26,
+       "synergy": -0.2572753278640044
+      },
+      {
+       "name": "Oscorp Industries",
+       "num_decks": 4,
+       "potential_decks": 20,
+       "synergy": 0.0879805453510633
+      },
+      {
+       "name": "Raucous Theater",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.08678308024743898
+      },
+      {
+       "name": "Dimir Aqueduct",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.09210702842906583
+      },
+      {
+       "name": "Stormcarved Coast",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.07418977490991444
+      },
+      {
+       "name": "Sunken Hollow",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.20836993898337033
+      },
+      {
+       "name": "Choked Estuary",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.008722122603562144
+      },
+      {
+       "name": "Haunted Ridge",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": -0.019122855694316404
+      },
+      {
+       "name": "City of Brass",
+       "num_decks": 5,
+       "potential_decks": 26,
+       "synergy": 0.054262195992781315
+      },
+      {
+       "name": "Rakdos Carnarium",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.06354115725306395
+      },
+      {
+       "name": "Izzet Boilerworks",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.056910705936454684
+      },
+      {
+       "name": "Seething Landscape",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.006753071228063262
+      },
+      {
+       "name": "Smoldering Marsh",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.22874255604972182
+      },
+      {
+       "name": "Foreboding Ruins",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.03576141595382823
+      },
+      {
+       "name": "Shipwreck Marsh",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.09011569709579947
+      },
+      {
+       "name": "Frostboil Snarl",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.005343022390075253
+      },
+      {
+       "name": "Evolving Wilds",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": -0.06579640189902178
+      },
+      {
+       "name": "Mana Confluence",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.0336645353242319
+      },
+      {
+       "name": "Thundering Falls",
+       "num_decks": 4,
+       "potential_decks": 26,
+       "synergy": 0.05084494736239763
+      },
+      {
+       "name": "Undercity Sewers",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.01088776655605228
+      },
+      {
+       "name": "Terramorphic Expanse",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": -0.07184124295877198
+      },
+      {
+       "name": "Fetid Pools",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.05914455220570781
+      },
+      {
+       "name": "Darkwater Catacombs",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.0033420738088517504
+      },
+      {
+       "name": "Boggart Trawler",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.09186547521787475
+      },
+      {
+       "name": "Sunken Ruins",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.06338495711749281
+      },
+      {
+       "name": "Flooded Strand",
+       "num_decks": 3,
+       "potential_decks": 26,
+       "synergy": 0.011191511304033105
+      }
+     ]
+    }
+   ],
+   "potential_decks_max": 26
+  },
+  "optimized": {
+   "num_decks": null,
+   "cardlists": [
+    {
+     "header": "New Cards",
+     "cards": [
+      {
+       "name": "Stingcaster Mage",
+       "num_decks": 1,
+       "potential_decks": 10,
+       "synergy": 0.09728737564803139
+      }
+     ]
+    },
+    {
+     "header": "Top Cards",
+     "cards": [
+      {
+       "name": "Demonic Tutor",
+       "num_decks": 28,
+       "potential_decks": 31,
+       "synergy": 0.6975401215168234
+      },
+      {
+       "name": "Wheel of Fortune",
+       "num_decks": 23,
+       "potential_decks": 31,
+       "synergy": 0.6479922823756781
+      },
+      {
+       "name": "Vampiric Tutor",
+       "num_decks": 22,
+       "potential_decks": 31,
+       "synergy": 0.5569436605223983
+      },
+      {
+       "name": "Windfall",
+       "num_decks": 22,
+       "potential_decks": 31,
+       "synergy": 0.47811797137846
+      },
+      {
+       "name": "Waste Not",
+       "num_decks": 21,
+       "potential_decks": 31,
+       "synergy": 0.5550935708847352
+      },
+      {
+       "name": "Rhystic Study",
+       "num_decks": 19,
+       "potential_decks": 31,
+       "synergy": 0.39117068179271564
+      },
+      {
+       "name": "Counterspell",
+       "num_decks": 19,
+       "potential_decks": 31,
+       "synergy": 0.16537276678001528
+      },
+      {
+       "name": "Geth's Grimoire",
+       "num_decks": 18,
+       "potential_decks": 31,
+       "synergy": 0.5314231245206985
+      },
+      {
+       "name": "Force of Will",
+       "num_decks": 18,
+       "potential_decks": 31,
+       "synergy": 0.4770750945898994
+      },
+      {
+       "name": "Tergrid, God of Fright",
+       "num_decks": 16,
+       "potential_decks": 31,
+       "synergy": 0.46448152555364053
+      }
+     ]
+    },
+    {
+     "header": "High Lift Cards",
+     "cards": [
+      {
+       "name": "Magewright's Stone",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.12785703036414917
+      },
+      {
+       "name": "Hypnotic Specter",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.2540512385565026
+      },
+      {
+       "name": "Hymn to Tourach",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.1589898768692886
+      },
+      {
+       "name": "Mind Twist",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.15923992531617517
+      },
+      {
+       "name": "Quest for the Nihil Stone",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.15720203047404951
+      },
+      {
+       "name": "Bottomless Pit",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.2864405785072471
+      },
+      {
+       "name": "The Raven Man",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.21944688611375443
+      },
+      {
+       "name": "Chains of Mephistopheles",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.12724649540633443
+      },
+      {
+       "name": "Copy Artifact",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.22168273597633198
+      },
+      {
+       "name": "Tourach, Dread Cantor",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.15461402904877336
+      }
+     ]
+    },
+    {
+     "header": "Creatures",
+     "cards": [
+      {
+       "name": "Notion Thief",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.4048369048922584
+      },
+      {
+       "name": "Sheoldred, the Apocalypse",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.2962854294955131
+      },
+      {
+       "name": "Orcish Bowmasters",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.20936233814656427
+      },
+      {
+       "name": "Bone Miser",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.30308909985718335
+      },
+      {
+       "name": "Dauthi Voidwalker",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.2821204538486859
+      },
+      {
+       "name": "Tinybones, Trinket Thief",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.3129391937967551
+      },
+      {
+       "name": "Tinybones, Bauble Burglar",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.278107354179497
+      },
+      {
+       "name": "Sangromancer",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.268334987215601
+      },
+      {
+       "name": "Magus of the Wheel",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.22542875746692054
+      },
+      {
+       "name": "Opposition Agent",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.2113950572547087
+      },
+      {
+       "name": "Ragavan, Nimble Pilferer",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.14723262578361115
+      },
+      {
+       "name": "Fell Specter",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.23432658357126585
+      },
+      {
+       "name": "Kroxa, Titan of Death's Hunger",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.20144131420086298
+      },
+      {
+       "name": "Nicol Bolas, the Ravager",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.21312274414458124
+      },
+      {
+       "name": "Jace's Archivist",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.16705965275395762
+      },
+      {
+       "name": "Kess, Dissident Mage",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.14151928764155042
+      },
+      {
+       "name": "Norman Osborn",
+       "num_decks": 3,
+       "potential_decks": 15,
+       "synergy": 0.16204921679805598
+      },
+      {
+       "name": "Nekusar, the Mindrazer",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.17718688372216201
+      },
+      {
+       "name": "Aclazotz, Deepest Betrayal",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.17405919439902234
+      },
+      {
+       "name": "Thassa's Oracle",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.08045174343926985
+      },
+      {
+       "name": "Razorkin Needlehead",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.10323324068769507
+      },
+      {
+       "name": "Vivi Ornitier",
+       "num_decks": 3,
+       "potential_decks": 21,
+       "synergy": 0.06961002894262859
+      },
+      {
+       "name": "Hexing Squelcher",
+       "num_decks": 2,
+       "potential_decks": 14,
+       "synergy": 0.032377085194371935
+      },
+      {
+       "name": "Syr Konrad, the Grim",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.10177072614270627
+      },
+      {
+       "name": "Scrawling Crawler",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.04347167756894971
+      },
+      {
+       "name": "Containment Construct",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.1088137573966784
+      },
+      {
+       "name": "Rankle, Master of Pranks",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.11402518377720629
+      },
+      {
+       "name": "Surly Badgersaur",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.07235904644696953
+      },
+      {
+       "name": "Dracoplasm",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09667417416963246
+      },
+      {
+       "name": "Spellseeker",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.06551605395050666
+      },
+      {
+       "name": "Archfiend of Ifnir",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.02110536604639192
+      },
+      {
+       "name": "Nightscape Familiar",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.17138401210395807
+      },
+      {
+       "name": "Mindslicer",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09545727172811776
+      },
+      {
+       "name": "Tinybones, the Pickpocket",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08372374835796478
+      },
+      {
+       "name": "Gilded Drake",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08768076502994498
+      },
+      {
+       "name": "Faerie Mastermind",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.020880322444193994
+      },
+      {
+       "name": "Sire of Insanity",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09176905713654063
+      },
+      {
+       "name": "The Scarab God",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08644927642902855
+      },
+      {
+       "name": "Jin-Gitaxias, Core Augur",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08292150959087033
+      },
+      {
+       "name": "The Emperor of Palamecia",
+       "num_decks": 2,
+       "potential_decks": 21,
+       "synergy": 0.07582026096550695
+      },
+      {
+       "name": "Exhibition Tidecaller",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.08025238895074893
+      },
+      {
+       "name": "Naktamun Lorespinner",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.08032508407813715
+      },
+      {
+       "name": "Krang, the All-Powerful",
+       "num_decks": 1,
+       "potential_decks": 13,
+       "synergy": 0.06156256862677109
+      },
+      {
+       "name": "Nathan Drake, Treasure Hunter",
+       "num_decks": 1,
+       "potential_decks": 14,
+       "synergy": 0.06593677035049597
+      },
+      {
+       "name": "Palinchron",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06380557469568869
+      },
+      {
+       "name": "Volatile Stormdrake",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05387240014311913
+      },
+      {
+       "name": "Displacer Kitten",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.00895119665994426
+      },
+      {
+       "name": "Stormfist Crusader",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.014931522014648403
+      },
+      {
+       "name": "True-Name Nemesis",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06392851518207458
+      },
+      {
+       "name": "Orvar, the All-Form",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.062417805815468144
+      }
+     ]
+    },
+    {
+     "header": "Instants",
+     "cards": [
+      {
+       "name": "Dark Ritual",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.09490393871339453
+      },
+      {
+       "name": "Cyclonic Rift",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.28679945180238886
+      },
+      {
+       "name": "Mana Drain",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": 0.29463040453335143
+      },
+      {
+       "name": "Fierce Guardianship",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": 0.259915345157264
+      },
+      {
+       "name": "Mystical Tutor",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": 0.3227712734933791
+      },
+      {
+       "name": "Deflecting Swat",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.1886583267443551
+      },
+      {
+       "name": "An Offer You Can't Refuse",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.00041197498144296407
+      },
+      {
+       "name": "Arcane Denial",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.032695313211558386
+      },
+      {
+       "name": "Chaos Warp",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": -0.05682801311571317
+      },
+      {
+       "name": "Swan Song",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.08863558712349981
+      },
+      {
+       "name": "Force of Negation",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.17946178685023448
+      },
+      {
+       "name": "Brainstorm",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.05806353475609555
+      },
+      {
+       "name": "Drown in the Loch",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.16544919287789428
+      },
+      {
+       "name": "Terminate",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": -0.06770014647327166
+      },
+      {
+       "name": "Deadly Rollick",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.022120213210664402
+      },
+      {
+       "name": "Brain Freeze",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.08562566255276476
+      },
+      {
+       "name": "Fork",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.15685404638546568
+      },
+      {
+       "name": "Pact of Negation",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.08208122581814742
+      },
+      {
+       "name": "Muddle the Mixture",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.10397115247530822
+      },
+      {
+       "name": "Tainted Pact",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.06530116016429796
+      },
+      {
+       "name": "Intuition",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.11295205919265136
+      },
+      {
+       "name": "Lightning Bolt",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.023080479907498203
+      },
+      {
+       "name": "Strix Serenade",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.10668209438697027
+      },
+      {
+       "name": "Demonic Consultation",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.0572933586527551
+      },
+      {
+       "name": "Wheel and Deal",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.09477978831516885
+      },
+      {
+       "name": "Red Elemental Blast",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.07274843640740339
+      },
+      {
+       "name": "Fire Covenant",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08236306805949029
+      },
+      {
+       "name": "Firestorm",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09500093331254973
+      },
+      {
+       "name": "Frantic Search",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.1249771040988654
+      },
+      {
+       "name": "Lim-Dûl's Vault",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.07412397173457734
+      },
+      {
+       "name": "Cabal Ritual",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.0034577263861002155
+      },
+      {
+       "name": "Twiddle",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09609489526767855
+      },
+      {
+       "name": "Unsummon",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08952278858867616
+      },
+      {
+       "name": "Dream Salvage",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09344229799362336
+      },
+      {
+       "name": "Spell Pierce",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.06393449752394903
+      },
+      {
+       "name": "Waterlogged Teachings",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.03427458424908535
+      },
+      {
+       "name": "Hero's Downfall",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.054518358630909466
+      },
+      {
+       "name": "Fell the Profane",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": -0.016612089560094204
+      },
+      {
+       "name": "Mental Misstep",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0021978048569490996
+      },
+      {
+       "name": "Wild Magic Surge",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05927969780704151
+      },
+      {
+       "name": "Flare of Denial",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05121146792083439
+      },
+      {
+       "name": "Kolaghan's Command",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05047382500251897
+      },
+      {
+       "name": "Mindbreak Trap",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.009786775219956932
+      },
+      {
+       "name": "Dissipate",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06192396013286714
+      },
+      {
+       "name": "Culling the Weak",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.008176046474595848
+      },
+      {
+       "name": "Blue Elemental Blast",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06263451446943652
+      },
+      {
+       "name": "Reality Shift",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.017784158046212847
+      },
+      {
+       "name": "Cancel",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.051980366895010635
+      },
+      {
+       "name": "Flusterstorm",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": -0.01739765843072956
+      },
+      {
+       "name": "Force Spike",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06351593524471172
+      }
+     ]
+    },
+    {
+     "header": "Sorceries",
+     "cards": [
+      {
+       "name": "Gamble",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.3863458222449955
+      },
+      {
+       "name": "Toxic Deluge",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.2654307282788729
+      },
+      {
+       "name": "Dark Deal",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": 0.37653168957399474
+      },
+      {
+       "name": "Reanimate",
+       "num_decks": 13,
+       "potential_decks": 31,
+       "synergy": 0.15822299441484533
+      },
+      {
+       "name": "Reforge the Soul",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.27617790463031244
+      },
+      {
+       "name": "Yawgmoth's Will",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.25956245420399665
+      },
+      {
+       "name": "Blasphemous Act",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": -0.1578684230284671
+      },
+      {
+       "name": "Whispering Madness",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.1955003109809515
+      },
+      {
+       "name": "Timetwister",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.24027565287010916
+      },
+      {
+       "name": "Winds of Change",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.20997394858156992
+      },
+      {
+       "name": "Burning Inquiry",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.20121627059866504
+      },
+      {
+       "name": "Imperial Seal",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.12594362200687137
+      },
+      {
+       "name": "Feed the Swarm",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": -0.0794378373175394
+      },
+      {
+       "name": "Grim Tutor",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.1573413719875968
+      },
+      {
+       "name": "Wheel of Misfortune",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.12038031293294257
+      },
+      {
+       "name": "Wheel of Fate",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.1320846639842921
+      },
+      {
+       "name": "Faithless Looting",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.04115306749284825
+      },
+      {
+       "name": "Jeska's Will",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": -0.03261989537354584
+      },
+      {
+       "name": "Time Spiral",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.11999717418368089
+      },
+      {
+       "name": "Damnation",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.058112267316308655
+      },
+      {
+       "name": "Rise of the Dark Realms",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.07226084193597455
+      },
+      {
+       "name": "Hex Magic",
+       "num_decks": 1,
+       "potential_decks": 8,
+       "synergy": 0.1171363127896447
+      },
+      {
+       "name": "Echo of Eons",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.06600989963310767
+      },
+      {
+       "name": "Vandalblast",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.07477779464932621
+      },
+      {
+       "name": "Praetor's Grasp",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.05412009598365059
+      },
+      {
+       "name": "Braingeyser",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09523014438886243
+      },
+      {
+       "name": "Syphon Mind",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.05912939986961183
+      },
+      {
+       "name": "Transmute Artifact",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.0941215962743319
+      },
+      {
+       "name": "Diabolic Intent",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": -0.008235466589393628
+      },
+      {
+       "name": "Polymorph",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06302834077328288
+      },
+      {
+       "name": "Drain Power",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06360345220112203
+      },
+      {
+       "name": "Unmask",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0641931497883629
+      },
+      {
+       "name": "Profane Tutor",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.02807365163559579
+      },
+      {
+       "name": "Torment of Hailfire",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.021186900660927786
+      },
+      {
+       "name": "Recall",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06338882728421105
+      },
+      {
+       "name": "Warp World",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0621427525238929
+      },
+      {
+       "name": "Wash Out",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06271369647761726
+      },
+      {
+       "name": "Diabolic Vision",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06274703627053548
+      },
+      {
+       "name": "Merchant Scroll",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05970269642969132
+      },
+      {
+       "name": "Mnemonic Betrayal",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.02221001555610539
+      },
+      {
+       "name": "Fireball",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06053202377853182
+      },
+      {
+       "name": "Preordain",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.006813282439063963
+      },
+      {
+       "name": "Temporal Trespass",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05791068256033746
+      },
+      {
+       "name": "Prosperity",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04132830305764215
+      },
+      {
+       "name": "Beseech the Mirror",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.013725038258420634
+      },
+      {
+       "name": "Time Warp",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.053901572461922564
+      },
+      {
+       "name": "Thoughtseize",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05801278567614948
+      },
+      {
+       "name": "Decode Transmissions",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.0512279846867448
+      },
+      {
+       "name": "Singularity Rupture",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.03575666832719162
+      }
+     ]
+    },
+    {
+     "header": "Utility Artifacts",
+     "cards": [
+      {
+       "name": "Lightning Greaves",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.09577574741127598
+      },
+      {
+       "name": "Anvil of Bogardan",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.3152021322410787
+      },
+      {
+       "name": "Teferi's Puzzle Box",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.14433676901243703
+      },
+      {
+       "name": "The One Ring",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.06997861211953901
+      },
+      {
+       "name": "Wishclaw Talisman",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.11395171524160225
+      },
+      {
+       "name": "Library of Leng",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.17682222973711909
+      },
+      {
+       "name": "Thousand-Year Elixir",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.1550349439343658
+      },
+      {
+       "name": "Swiftfoot Boots",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.11261899735009143
+      },
+      {
+       "name": "Howling Mine",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.10775495010222746
+      },
+      {
+       "name": "Mindcrank",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.10751142173581077
+      },
+      {
+       "name": "Memory Jar",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.12277271194412197
+      },
+      {
+       "name": "Entropic Battlecruiser",
+       "num_decks": 2,
+       "potential_decks": 19,
+       "synergy": 0.0785348255416384
+      },
+      {
+       "name": "Gustha's Scepter",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09658665721322215
+      },
+      {
+       "name": "Tormod's Crypt",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09340895820070515
+      },
+      {
+       "name": "Primal Amulet",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08379876289203075
+      },
+      {
+       "name": "Currency Converter",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.07410938557517562
+      },
+      {
+       "name": "Monument to Endurance",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.018804868191493046
+      },
+      {
+       "name": "Cori-Steel Cutter",
+       "num_decks": 2,
+       "potential_decks": 26,
+       "synergy": 0.07375512386126903
+      },
+      {
+       "name": "Lithoform Engine",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04459977023774163
+      },
+      {
+       "name": "Sensei's Divining Top",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.03567512442094796
+      },
+      {
+       "name": "Crucible of Worlds",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04791916337016103
+      },
+      {
+       "name": "Wand of Ith",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06444944944642164
+      },
+      {
+       "name": "Crooked Scales",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0643327601712079
+      },
+      {
+       "name": "Storm Cauldron",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06432650896003574
+      },
+      {
+       "name": "Scroll Rack",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.058906708873769024
+      },
+      {
+       "name": "Palantír of Orthanc",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.026004500737609307
+      },
+      {
+       "name": "Wheel of Torture",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06338049233598149
+      },
+      {
+       "name": "Feldon's Cane",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06301167087682379
+      },
+      {
+       "name": "Glasses of Urza",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.058323262497700326
+      },
+      {
+       "name": "Candelabra of Tawnos",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06427858300771581
+      },
+      {
+       "name": "Knowledge Pool",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.062382382285492546
+      },
+      {
+       "name": "Staff of Domination",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06031323138750606
+      },
+      {
+       "name": "Ensnaring Bridge",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06188645286583415
+      },
+      {
+       "name": "Illvoi Light Jammer",
+       "num_decks": 1,
+       "potential_decks": 18,
+       "synergy": 0.053678521430591805
+      },
+      {
+       "name": "Cryogen Relic",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.04222386565464448
+      },
+      {
+       "name": "Hylderblade",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.052215163642504364
+      },
+      {
+       "name": "Synthesizer Labship",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.05182544162641365
+      },
+      {
+       "name": "Requiem Monolith",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.05017911550674427
+      }
+     ]
+    },
+    {
+     "header": "Enchantments",
+     "cards": [
+      {
+       "name": "Liliana's Caress",
+       "num_decks": 16,
+       "potential_decks": 31,
+       "synergy": 0.4459070934240821
+      },
+      {
+       "name": "Megrim",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": 0.3872441817860275
+      },
+      {
+       "name": "Underworld Dreams",
+       "num_decks": 13,
+       "potential_decks": 31,
+       "synergy": 0.3560154833762482
+      },
+      {
+       "name": "Mystic Remora",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.2333461516771025
+      },
+      {
+       "name": "Animate Dead",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.2931827450170621
+      },
+      {
+       "name": "Bloodchief Ascension",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.3108843601888726
+      },
+      {
+       "name": "Underworld Breach",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.21085691535530707
+      },
+      {
+       "name": "Painful Quandary",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.2879676889010149
+      },
+      {
+       "name": "Necropotence",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.19766323004652042
+      },
+      {
+       "name": "Raiders' Wake",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.20349379520239036
+      },
+      {
+       "name": "Oppression",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.18037500141996599
+      },
+      {
+       "name": "Black Market Connections",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.029425190377947552
+      },
+      {
+       "name": "Dance of the Dead",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.11560465646670655
+      },
+      {
+       "name": "Necromancy",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.0966447329815313
+      },
+      {
+       "name": "Necrogen Mists",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.12535029468411119
+      },
+      {
+       "name": "Words of Waste",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09462377690516247
+      },
+      {
+       "name": "Storm World",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09650539146798402
+      },
+      {
+       "name": "Shark Typhoon",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08563870271370454
+      },
+      {
+       "name": "Fervor",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09122520176456231
+      },
+      {
+       "name": "Power Artifact",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09601779699655517
+      },
+      {
+       "name": "Breathstealer's Crypt",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09278592082054607
+      },
+      {
+       "name": "Leyline of the Void",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09082095677542901
+      },
+      {
+       "name": "Manabarbs",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.062296949066139626
+      },
+      {
+       "name": "The Ruinous Powers",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04530824083725361
+      },
+      {
+       "name": "Cloak of Confusion",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0644557006575938
+      },
+      {
+       "name": "Grave Pact",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.046935639479073796
+      },
+      {
+       "name": "Possibility Storm",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05912966873890956
+      },
+      {
+       "name": "Smoke",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06154888746253726
+      },
+      {
+       "name": "Powerbalance",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.056931326143365005
+      },
+      {
+       "name": "Exquisite Blood",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04764827755270057
+      },
+      {
+       "name": "Shrieking Affliction",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06125091306333075
+      },
+      {
+       "name": "Bandit's Talent",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.051992869317354966
+      },
+      {
+       "name": "Grip of Chaos",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0630262570362255
+      },
+      {
+       "name": "Thousand-Year Storm",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.03703580471942245
+      },
+      {
+       "name": "Goblin Festival",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06438276986058522
+      },
+      {
+       "name": "Shared Fate",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.0634867629259083
+      },
+      {
+       "name": "Witch Hunt",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06361178714935159
+      },
+      {
+       "name": "Artist's Talent",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04721069277064904
+      },
+      {
+       "name": "Hive Mind",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05884419676204738
+      }
+     ]
+    },
+    {
+     "header": "Planeswalkers",
+     "cards": [
+      {
+       "name": "Narset, Parter of Veils",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.2642050203678576
+      },
+      {
+       "name": "Liliana of the Veil",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.14982768502795266
+      },
+      {
+       "name": "Tezzeret the Seeker",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.057487683937687654
+      },
+      {
+       "name": "Nicol Bolas, Dragon-God",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.037387956282121056
+      },
+      {
+       "name": "Ob Nixilis, the Adversary",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05867749779745632
+      },
+      {
+       "name": "Nicol Bolas, God-Pharaoh",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.03721708984341522
+      },
+      {
+       "name": "Liliana, Waker of the Dead",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.060548693674990925
+      },
+      {
+       "name": "Geyadrone Dihada",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.04071985183688479
+      },
+      {
+       "name": "Tezzeret, Cruel Captain",
+       "num_decks": 1,
+       "potential_decks": 20,
+       "synergy": 0.03867282588212821
+      }
+     ]
+    },
+    {
+     "header": "Utility Lands",
+     "cards": [
+      {
+       "name": "Urborg, Tomb of Yawgmoth",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.25076619347686785
+      },
+      {
+       "name": "Ancient Tomb",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.2314418848759474
+      },
+      {
+       "name": "Reliquary Tower",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.01381847033938094
+      },
+      {
+       "name": "Bojuka Bog",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.050759498631354455
+      },
+      {
+       "name": "Geier Reach Sanitarium",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.22155300654017845
+      },
+      {
+       "name": "Takenuma, Abandoned Mire",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.23921476183860088
+      },
+      {
+       "name": "Strip Mine",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.21530024936955192
+      },
+      {
+       "name": "Otawara, Soaring City",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": 0.0677154048059177
+      },
+      {
+       "name": "Mistrise Village",
+       "num_decks": 5,
+       "potential_decks": 27,
+       "synergy": 0.11125819109412133
+      },
+      {
+       "name": "Minamo, School at Water's Edge",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.14032584404626244
+      },
+      {
+       "name": "Cephalid Coliseum",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.13259101208923746
+      },
+      {
+       "name": "Boseiju, Who Shelters All",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.11851355339882048
+      },
+      {
+       "name": "Mystic Sanctuary",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.05614340466637454
+      },
+      {
+       "name": "Phyrexian Tower",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.03771900160494805
+      },
+      {
+       "name": "Creeping Tar Pit",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08085444242994122
+      },
+      {
+       "name": "Maze of Ith",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.07394060287352718
+      },
+      {
+       "name": "Vesuva",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.09279008829466084
+      },
+      {
+       "name": "Urza's Saga",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.04176561897039594
+      },
+      {
+       "name": "Cabal Coffers",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.05279900668926647
+      },
+      {
+       "name": "Castle Locthwain",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08921022803006792
+      },
+      {
+       "name": "Tyrite Sanctum",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.05957350473213325
+      },
+      {
+       "name": "The Tabernacle at Pendrell Vale",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06389309165209899
+      },
+      {
+       "name": "Deserted Temple",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.062128166364491186
+      },
+      {
+       "name": "Field of the Dead",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.055993644467540314
+      },
+      {
+       "name": "Teferi's Isle",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06422232210716633
+      },
+      {
+       "name": "Ice Floe",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06430775532651924
+      },
+      {
+       "name": "Temple of the False God",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": -0.00612880842437416
+      },
+      {
+       "name": "Barbarian Ring",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06271578021467465
+      },
+      {
+       "name": "Field of Ruin",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.035693878054464445
+      },
+      {
+       "name": "Multiversal Passage",
+       "num_decks": 1,
+       "potential_decks": 18,
+       "synergy": 0.03474345813422783
+      },
+      {
+       "name": "Uthros, Titanic Godcore",
+       "num_decks": 1,
+       "potential_decks": 19,
+       "synergy": 0.029482866811309818
+      }
+     ]
+    },
+    {
+     "header": "Mana Artifacts",
+     "cards": [
+      {
+       "name": "Sol Ring",
+       "num_decks": 27,
+       "potential_decks": 31,
+       "synergy": -0.026101898640711108
+      },
+      {
+       "name": "Arcane Signet",
+       "num_decks": 20,
+       "potential_decks": 31,
+       "synergy": -0.23705755624560865
+      },
+      {
+       "name": "Talisman of Indulgence",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.03442347062270196
+      },
+      {
+       "name": "Talisman of Dominance",
+       "num_decks": 14,
+       "potential_decks": 31,
+       "synergy": -0.055176953975693055
+      },
+      {
+       "name": "Talisman of Creativity",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": -0.05831869171963899
+      },
+      {
+       "name": "Lotus Petal",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.25015384365129345
+      },
+      {
+       "name": "Mana Vault",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.27110373602627447
+      },
+      {
+       "name": "Fellwar Stone",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": -0.06718418629093253
+      },
+      {
+       "name": "Izzet Signet",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": -0.0482469150440909
+      },
+      {
+       "name": "Rakdos Signet",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": -0.04544637243896116
+      },
+      {
+       "name": "Dimir Signet",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": -0.06896968007981652
+      },
+      {
+       "name": "Mox Diamond",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": 0.19241012892484477
+      },
+      {
+       "name": "Mox Amber",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.13649358272842782
+      },
+      {
+       "name": "Chrome Mox",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.1092987303924544
+      },
+      {
+       "name": "Lion's Eye Diamond",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.13502246436591175
+      },
+      {
+       "name": "Relic of Sauron",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.02958832682434373
+      },
+      {
+       "name": "Chromatic Lantern",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.001726342543383913
+      },
+      {
+       "name": "Commander's Sphere",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.0736129856342462
+      },
+      {
+       "name": "Grim Monolith",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.05434097211173374
+      },
+      {
+       "name": "Basalt Monolith",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.07383849975771516
+      },
+      {
+       "name": "Mox Opal",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.023587096881741265
+      },
+      {
+       "name": "Patriar's Seal",
+       "num_decks": 2,
+       "potential_decks": 31,
+       "synergy": 0.06055494488616309
+      }
+     ]
+    },
+    {
+     "header": "Lands",
+     "cards": [
+      {
+       "name": "Swamp",
+       "num_decks": 28,
+       "potential_decks": 31,
+       "synergy": -0.020296876068125358
+      },
+      {
+       "name": "Island",
+       "num_decks": 28,
+       "potential_decks": 31,
+       "synergy": -0.027439926700852046
+      },
+      {
+       "name": "Mountain",
+       "num_decks": 26,
+       "potential_decks": 31,
+       "synergy": -0.07902229981790154
+      },
+      {
+       "name": "Badlands",
+       "num_decks": 23,
+       "potential_decks": 31,
+       "synergy": 0.5871159042440817
+      },
+      {
+       "name": "Polluted Delta",
+       "num_decks": 23,
+       "potential_decks": 31,
+       "synergy": 0.39165720078695354
+      },
+      {
+       "name": "Steam Vents",
+       "num_decks": 22,
+       "potential_decks": 31,
+       "synergy": 0.24706695524408395
+      },
+      {
+       "name": "Volcanic Island",
+       "num_decks": 22,
+       "potential_decks": 31,
+       "synergy": 0.5571853740210553
+      },
+      {
+       "name": "Watery Grave",
+       "num_decks": 22,
+       "potential_decks": 31,
+       "synergy": 0.22426253688802744
+      },
+      {
+       "name": "Blood Crypt",
+       "num_decks": 21,
+       "potential_decks": 31,
+       "synergy": 0.20827429131598546
+      },
+      {
+       "name": "Scalding Tarn",
+       "num_decks": 21,
+       "potential_decks": 31,
+       "synergy": 0.35481101613975335
+      },
+      {
+       "name": "Bloodstained Mire",
+       "num_decks": 21,
+       "potential_decks": 31,
+       "synergy": 0.32391961426397325
+      },
+      {
+       "name": "Command Tower",
+       "num_decks": 19,
+       "potential_decks": 31,
+       "synergy": -0.30467663862561545
+      },
+      {
+       "name": "Underground Sea",
+       "num_decks": 19,
+       "potential_decks": 31,
+       "synergy": 0.45989649741949334
+      },
+      {
+       "name": "City of Brass",
+       "num_decks": 18,
+       "potential_decks": 31,
+       "synergy": 0.4425996649754116
+      },
+      {
+       "name": "Xander's Lounge",
+       "num_decks": 17,
+       "potential_decks": 31,
+       "synergy": 0.15780725526323408
+      },
+      {
+       "name": "Morphic Pool",
+       "num_decks": 17,
+       "potential_decks": 31,
+       "synergy": 0.23659335340308202
+      },
+      {
+       "name": "Luxury Suite",
+       "num_decks": 15,
+       "potential_decks": 31,
+       "synergy": 0.1574223016462128
+      },
+      {
+       "name": "Training Center",
+       "num_decks": 12,
+       "potential_decks": 31,
+       "synergy": 0.07532595193006814
+      },
+      {
+       "name": "Underground River",
+       "num_decks": 11,
+       "potential_decks": 31,
+       "synergy": 0.06587022203293824
+      },
+      {
+       "name": "Crumbling Necropolis",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": -0.19646783714882393
+      },
+      {
+       "name": "Mana Confluence",
+       "num_decks": 10,
+       "potential_decks": 31,
+       "synergy": 0.20239902663936837
+      },
+      {
+       "name": "Exotic Orchard",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": -0.28176951219782703
+      },
+      {
+       "name": "Sulfurous Springs",
+       "num_decks": 9,
+       "potential_decks": 31,
+       "synergy": 0.003231540089386975
+      },
+      {
+       "name": "Sulfur Falls",
+       "num_decks": 8,
+       "potential_decks": 31,
+       "synergy": -0.22998004250420295
+      },
+      {
+       "name": "Shivan Reef",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": -0.07445172340850717
+      },
+      {
+       "name": "Dragonskull Summit",
+       "num_decks": 7,
+       "potential_decks": 31,
+       "synergy": -0.25135058089547857
+      },
+      {
+       "name": "Prismatic Vista",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.15931050350682863
+      },
+      {
+       "name": "Fabled Passage",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": 0.11587708828262895
+      },
+      {
+       "name": "Drowned Catacomb",
+       "num_decks": 6,
+       "potential_decks": 31,
+       "synergy": -0.2543133861217869
+      },
+      {
+       "name": "Raucous Theater",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": 0.05576571052039182
+      },
+      {
+       "name": "Shipwreck Marsh",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.08267152836130817
+      },
+      {
+       "name": "Haunted Ridge",
+       "num_decks": 5,
+       "potential_decks": 31,
+       "synergy": -0.050140225421363566
+      },
+      {
+       "name": "Clearwater Pathway",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.06771621141381089
+      },
+      {
+       "name": "Smoldering Marsh",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": -0.25355645183135955
+      },
+      {
+       "name": "Stormcarved Coast",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": -0.13746520915309063
+      },
+      {
+       "name": "Blackcleave Cliffs",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.0886431826811606
+      },
+      {
+       "name": "Darkslick Shores",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.09190214743891575
+      },
+      {
+       "name": "Arid Mesa",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.03918985109816639
+      },
+      {
+       "name": "Sunken Hollow",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": -0.2716453732265465
+      },
+      {
+       "name": "Spirebluff Canal",
+       "num_decks": 4,
+       "potential_decks": 31,
+       "synergy": 0.09513402361492485
+      },
+      {
+       "name": "Swiftwater Cliffs",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.03862542722491192
+      },
+      {
+       "name": "Wooded Foothills",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.013943561780148661
+      },
+      {
+       "name": "Tarnished Citadel",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08823503908721024
+      },
+      {
+       "name": "Reflecting Pool",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.00795906895132975
+      },
+      {
+       "name": "Snow-Covered Swamp",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.08035434553616806
+      },
+      {
+       "name": "Marsh Flats",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.0008176315343893653
+      },
+      {
+       "name": "Sunken Ruins",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.04477453528126451
+      },
+      {
+       "name": "Waterlogged Teachings",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": 0.03427458424908535
+      },
+      {
+       "name": "Cascade Bluffs",
+       "num_decks": 3,
+       "potential_decks": 31,
+       "synergy": -0.017716739069807683
+      },
+      {
+       "name": "Turbulent Springs",
+       "num_decks": 1,
+       "potential_decks": 11,
+       "synergy": 0.06051233958360788
+      }
+     ]
+    }
+   ],
+   "potential_decks_max": 31
+  },
+  "cedh": {
+   "num_decks": null,
+   "cardlists": [
+    {
+     "header": "Creatures",
+     "cards": [
+      {
+       "name": "Thassa's Oracle",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5858280875252914
+      },
+      {
+       "name": "Opposition Agent",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.619997207792343
+      },
+      {
+       "name": "Orcish Bowmasters",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.4889322306196825
+      },
+      {
+       "name": "Notion Thief",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5876326038169895
+      },
+      {
+       "name": "Tinybones, Trinket Thief",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3236918819687981
+      },
+      {
+       "name": "High Fae Trickster",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2792521404175261
+      },
+      {
+       "name": "Kroxa, Titan of Death's Hunger",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.30896819592129304
+      },
+      {
+       "name": "Guardian Beast",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3331541319463979
+      },
+      {
+       "name": "Eater of the Dead",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3309557893508534
+      },
+      {
+       "name": "Sorceress Queen",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33286657623247834
+      },
+      {
+       "name": "Clone",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3268779159295447
+      },
+      {
+       "name": "Simian Spirit Guide",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2586021875071628
+      },
+      {
+       "name": "Uncle Istvan",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3331874717393161
+      },
+      {
+       "name": "Spellseeker",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3020751937354529
+      },
+      {
+       "name": "Imperial Recruiter",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31537151989864703
+      },
+      {
+       "name": "Malevolent Hermit",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3204099961034117
+      },
+      {
+       "name": "Prodigal Sorcerer",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33223937137820453
+      },
+      {
+       "name": "Ali from Cairo",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33321456032106217
+      },
+      {
+       "name": "Sengir Vampire",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.332826985228388
+      },
+      {
+       "name": "Ornithopter",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3296534536899858
+      },
+      {
+       "name": "Hypnotic Specter",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.32932005576080364
+      },
+      {
+       "name": "Vodalian Mage",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33323331395457867
+      },
+      {
+       "name": "Boris Devilboon",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33326873748455427
+      },
+      {
+       "name": "Spinal Villain",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3332604025363247
+      },
+      {
+       "name": "Su-Chi",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33319580668754567
+      },
+      {
+       "name": "Aladdin",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3330395264082416
+      },
+      {
+       "name": "Laboratory Maniac",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.29819319159753865
+      },
+      {
+       "name": "Vesuvan Doppelganger",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3327353007978629
+      },
+      {
+       "name": "Jace's Archivist",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.27458653447438774
+      },
+      {
+       "name": "Rankle, Master of Pranks",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31832625904602346
+      },
+      {
+       "name": "Phantasmal Image",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3082263855288629
+      },
+      {
+       "name": "Old Man of the Sea",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3331728855799144
+      },
+      {
+       "name": "Tetsuo Umezawa",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3330395264082416
+      }
+     ]
+    },
+    {
+     "header": "Instants",
+     "cards": [
+      {
+       "name": "Dark Ritual",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.611032970971459
+      },
+      {
+       "name": "Muddle the Mixture",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6416055610774587
+      },
+      {
+       "name": "Mental Misstep",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6043483424913577
+      },
+      {
+       "name": "Tainted Pact",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6029355687664485
+      },
+      {
+       "name": "Chain of Vapor",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6158568222593127
+      },
+      {
+       "name": "Brain Freeze",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5910020066387862
+      },
+      {
+       "name": "Flusterstorm",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.584752879203679
+      },
+      {
+       "name": "Swan Song",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.4649796731450051
+      },
+      {
+       "name": "Force of Will",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5630965999662434
+      },
+      {
+       "name": "Ad Nauseam",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6208015302964949
+      },
+      {
+       "name": "Demonic Consultation",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5949277672549056
+      },
+      {
+       "name": "Force of Negation",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5880639373878689
+      },
+      {
+       "name": "Deflecting Swat",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.4682282192174734
+      },
+      {
+       "name": "Red Elemental Blast",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6103828450095539
+      },
+      {
+       "name": "Counterspell",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.21913620764023028
+      },
+      {
+       "name": "Fierce Guardianship",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.4749691085981242
+      },
+      {
+       "name": "Vampiric Tutor",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5139329078342262
+      },
+      {
+       "name": "Pact of Negation",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5874575699041689
+      },
+      {
+       "name": "Mystical Tutor",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5378250369342393
+      },
+      {
+       "name": "Spell Blast",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3331353783128814
+      },
+      {
+       "name": "Deadly Rollick",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.14992279754202376
+      },
+      {
+       "name": "Active Volcano",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33293950702948694
+      },
+      {
+       "name": "Brainstorm",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.16559041647652564
+      },
+      {
+       "name": "Intuition",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3172531344614686
+      },
+      {
+       "name": "Lim-Dûl's Vault",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31068311151952355
+      },
+      {
+       "name": "Lightning Bolt",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2273815551763154
+      },
+      {
+       "name": "Mana Short",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33254776446269796
+      },
+      {
+       "name": "Fork",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3288970571381538
+      },
+      {
+       "name": "Gifts Ungiven",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3063989481295334
+      },
+      {
+       "name": "Cabal Ritual",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.233101413398846
+      },
+      {
+       "name": "Blue Elemental Blast",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33145171877051177
+      },
+      {
+       "name": "Banishing Knack",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3314621374557987
+      },
+      {
+       "name": "Mana Drain",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.1763508346408783
+      },
+      {
+       "name": "Flash Counter",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3328749111807079
+      },
+      {
+       "name": "Force Spike",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33233313954578697
+      },
+      {
+       "name": "Final Fortune",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2795166563521682
+      },
+      {
+       "name": "Snap",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2349580231169789
+      },
+      {
+       "name": "Remove Soul",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3325060897215502
+      },
+      {
+       "name": "Flash Flood",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33323331395457867
+      },
+      {
+       "name": "Borne Upon a Wind",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.24022779413511366
+      },
+      {
+       "name": "Cyclonic Rift",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.1362618173937867
+      },
+      {
+       "name": "Dramatic Reversal",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3130960790319791
+      }
+     ]
+    },
+    {
+     "header": "Sorceries",
+     "cards": [
+      {
+       "name": "Demonic Tutor",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.7943143150652106
+      },
+      {
+       "name": "Wheel of Fortune",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.9060567985047103
+      },
+      {
+       "name": "Windfall",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.4351072186902879
+      },
+      {
+       "name": "Jeska's Will",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5050145132286047
+      },
+      {
+       "name": "Imperial Seal",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5990619015767638
+      },
+      {
+       "name": "Gitaxian Probe",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6117726976268318
+      },
+      {
+       "name": "Yawgmoth's Will",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.635906540225502
+      },
+      {
+       "name": "Praetor's Grasp",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6240125691019301
+      },
+      {
+       "name": "Gamble",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5691415211697266
+      },
+      {
+       "name": "Mnemonic Betrayal",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.624360553190514
+      },
+      {
+       "name": "Timetwister",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6488778034077436
+      },
+      {
+       "name": "Winds of Change",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6185760991192043
+      },
+      {
+       "name": "Wheel of Misfortune",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.29242332368563073
+      },
+      {
+       "name": "Last Chance",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.30533207475615065
+      },
+      {
+       "name": "Soul Exchange",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33271237969023165
+      },
+      {
+       "name": "Warrior's Oath",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3146776354585367
+      },
+      {
+       "name": "Scheming Symmetry",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31874092272044374
+      },
+      {
+       "name": "Doomsday",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.327244653651645
+      },
+      {
+       "name": "Shatterstorm",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3329499257147739
+      },
+      {
+       "name": "Braingeyser",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33178928417380865
+      },
+      {
+       "name": "Earthquake",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33068907100750766
+      },
+      {
+       "name": "Fireball",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3293492280796071
+      },
+      {
+       "name": "Reconstruction",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33256443435915706
+      },
+      {
+       "name": "Toxic Deluge",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.11489309387027069
+      },
+      {
+       "name": "Cruel Tutor",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3277364155971886
+      },
+      {
+       "name": "Transmute Artifact",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3306807360592781
+      },
+      {
+       "name": "Drain Life",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3330228565117825
+      }
+     ]
+    },
+    {
+     "header": "Utility Artifacts",
+     "cards": [
+      {
+       "name": "Wishclaw Talisman",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5870699948114947
+      },
+      {
+       "name": "Grinding Station",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3108873177511476
+      },
+      {
+       "name": "Rocket Launcher",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33323123021752127
+      },
+      {
+       "name": "Sensei's Divining Top",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3044923287220232
+      },
+      {
+       "name": "Aladdin's Lamp",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33328957485512817
+      },
+      {
+       "name": "Bolas's Citadel",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2851760862000346
+      },
+      {
+       "name": "Stone Calendar",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3332020578987179
+      },
+      {
+       "name": "Jalum Tome",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33297701429651994
+      },
+      {
+       "name": "Jayemdae Tome",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3331145409423076
+      },
+      {
+       "name": "The One Ring",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.20976355835609814
+      },
+      {
+       "name": "The Rack",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3322414551152619
+      },
+      {
+       "name": "Ashnod's Altar",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.27851437882756447
+      },
+      {
+       "name": "Cursed Rack",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33281656654310104
+      },
+      {
+       "name": "Knowledge Vault",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33332083091098896
+      },
+      {
+       "name": "Library of Leng",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3166071759736782
+      },
+      {
+       "name": "Candelabra of Tawnos",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3330957873087911
+      },
+      {
+       "name": "Lightning Greaves",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.04201230655106092
+      }
+     ]
+    },
+    {
+     "header": "Enchantments",
+     "cards": [
+      {
+       "name": "Underworld Breach",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5549429368606834
+      },
+      {
+       "name": "Rhystic Study",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.44493412265293064
+      },
+      {
+       "name": "Mystic Remora",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5129160441502207
+      },
+      {
+       "name": "Necropotence",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6062653805841548
+      },
+      {
+       "name": "Waste Not",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2110075493793589
+      },
+      {
+       "name": "Counterbalance",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.32921170143381945
+      },
+      {
+       "name": "Greed",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.330411933978875
+      },
+      {
+       "name": "Nether Void",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3321060122065317
+      },
+      {
+       "name": "Dance of Many",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33304786135647113
+      },
+      {
+       "name": "Copy Artifact",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.32920961769676205
+      },
+      {
+       "name": "Underworld Dreams",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2699939779999041
+      },
+      {
+       "name": "Power Artifact",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3325769367815014
+      },
+      {
+       "name": "Animate Dead",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.23941930415684703
+      },
+      {
+       "name": "Bloodchief Ascension",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.28937898384478655
+      },
+      {
+       "name": "Necrogen Mists",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3296513699529284
+      },
+      {
+       "name": "Chains of Mephistopheles",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3315475706751516
+      }
+     ]
+    },
+    {
+     "header": "Utility Lands",
+     "cards": [
+      {
+       "name": "Ancient Tomb",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5432698418651947
+      },
+      {
+       "name": "Mistrise Village",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.25940633924226947
+      },
+      {
+       "name": "Urza's Saga",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2783247587553422
+      },
+      {
+       "name": "Ebon Stronghold",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3326790398973134
+      },
+      {
+       "name": "Bazaar of Baghdad",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33212476584004813
+      },
+      {
+       "name": "Svyelunite Temple",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33288324612893744
+      },
+      {
+       "name": "Mishra's Factory",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3319809879830884
+      },
+      {
+       "name": "Tolaria",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33264986757851
+      },
+      {
+       "name": "Urborg",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.32827401975799475
+      },
+      {
+       "name": "Mishra's Workshop",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.330524455779974
+      },
+      {
+       "name": "Hammerheim",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.33092661703204995
+      },
+      {
+       "name": "Dwarven Ruins",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3328790786548227
+      },
+      {
+       "name": "Urborg, Tomb of Yawgmoth",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.1970027526166528
+      },
+      {
+       "name": "Otawara, Soaring City",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.1752422865263478
+      }
+     ]
+    },
+    {
+     "header": "Mana Artifacts",
+     "cards": [
+      {
+       "name": "Sol Ring",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.10293035942380502
+      },
+      {
+       "name": "Mana Vault",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.9162650263488551
+      },
+      {
+       "name": "Arcane Signet",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": -0.21555217990152264
+      },
+      {
+       "name": "Talisman of Creativity",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.22125120075347926
+      },
+      {
+       "name": "Grim Monolith",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6242334452300132
+      },
+      {
+       "name": "Lotus Petal",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5619818006405407
+      },
+      {
+       "name": "Talisman of Dominance",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.15987680946516714
+      },
+      {
+       "name": "Fellwar Stone",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.3091598997305728
+      },
+      {
+       "name": "Chrome Mox",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5824170099623468
+      },
+      {
+       "name": "Lion's Eye Diamond",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6081407439358042
+      },
+      {
+       "name": "Mox Diamond",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.6010122794624791
+      },
+      {
+       "name": "Talisman of Indulgence",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": -0.11611416378590023
+      },
+      {
+       "name": "Basalt Monolith",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31039763954266136
+      },
+      {
+       "name": "Mox Amber",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.27627852896498695
+      },
+      {
+       "name": "Dimir Signet",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.006299137124484544
+      },
+      {
+       "name": "Mox Opal",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.26014623666668746
+      }
+     ]
+    },
+    {
+     "header": "Lands",
+     "cards": [
+      {
+       "name": "Badlands",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.8451804203731139
+      },
+      {
+       "name": "Underground Sea",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.8469932716130417
+      },
+      {
+       "name": "Swamp",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.07647731748026176
+      },
+      {
+       "name": "Mountain",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.08226802276274359
+      },
+      {
+       "name": "Island",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.06933426684753508
+      },
+      {
+       "name": "Volcanic Island",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.8475079546662165
+      },
+      {
+       "name": "City of Brass",
+       "num_decks": 3,
+       "potential_decks": 3,
+       "synergy": 0.861954503685089
+      },
+      {
+       "name": "Command Tower",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": -0.25091319776540044
+      },
+      {
+       "name": "Steam Vents",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.20405620255591184
+      },
+      {
+       "name": "Exotic Orchard",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.09457457382367829
+      },
+      {
+       "name": "Blood Crypt",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.19752160314394246
+      },
+      {
+       "name": "Gemstone Caverns",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5899226308430592
+      },
+      {
+       "name": "Scalding Tarn",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.34405832796771035
+      },
+      {
+       "name": "Mana Confluence",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.5464850481447446
+      },
+      {
+       "name": "Polluted Delta",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.3163883835826524
+      },
+      {
+       "name": "Bloodstained Mire",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.31316692609193025
+      },
+      {
+       "name": "Watery Grave",
+       "num_decks": 2,
+       "potential_decks": 3,
+       "synergy": 0.18125178419985533
+      },
+      {
+       "name": "Misty Rainforest",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.23615200445086232
+      },
+      {
+       "name": "Spire of Industry",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2893373091036388
+      },
+      {
+       "name": "Snow-Covered Island",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3166217621330799
+      },
+      {
+       "name": "Wooded Foothills",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2505027015650949
+      },
+      {
+       "name": "Verdant Catacombs",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.24051534984903322
+      },
+      {
+       "name": "Reflecting Pool",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.24451820873627597
+      },
+      {
+       "name": "Luxury Suite",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.006884667237610609
+      },
+      {
+       "name": "Underground River",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.044364845688852184
+      },
+      {
+       "name": "Morphic Pool",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.021539589962221828
+      },
+      {
+       "name": "Arid Mesa",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.24349092636698358
+      },
+      {
+       "name": "Snow-Covered Mountain",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.31889928673680523
+      },
+      {
+       "name": "Snow-Covered Swamp",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.3169134853211143
+      },
+      {
+       "name": "Marsh Flats",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.23574150825055684
+      },
+      {
+       "name": "Training Center",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.021562511069853074
+      },
+      {
+       "name": "Flooded Strand",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.22914022925275102
+      },
+      {
+       "name": "Starting Town",
+       "num_decks": 1,
+       "potential_decks": 3,
+       "synergy": 0.2838150246323611
+      }
+     ]
+    }
+   ],
+   "potential_decks_max": 3
+  }
+ }
+}
