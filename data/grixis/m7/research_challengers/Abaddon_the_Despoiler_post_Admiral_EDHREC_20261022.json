@@ -193,7 +193,7 @@
     },
     {
       "card": "Cryptolith Fragment",
-      "status": "ADVANCE_TIMING_FIXTURE",
+      "status": "RULES_TIMING_ANALYTICALLY_CONFIRMED_STRATEGIC_DECISION_OPEN",
       "potential_cut": "Talisman of Indulgence",
       "reason": "Three-mana tapped rainbow rock with mana ability that simultaneously causes each opponent life loss: test exact cast/mana ability timing to determine whether activation paying for the very spell can raise Abaddon qualifying threshold. One-turn tempo slower than a two-mana Talisman, a real cost."
     },
@@ -302,7 +302,13 @@
     {
       "card": "Cryptolith Fragment",
       "scryfall_url": "https://scryfall.com/search?q=%21%22Cryptolith+Fragment%22",
-      "status": "MANA_EFFECT_VISIBLE_FULL_ORACLE_TIMING_PENDING"
+      "status": "CARD_TEXT_AND_2026_WIZARDS_601_605_ANALYTICALLY_VERIFIED_FULL_LEGALITY_AND_FIXTURE_PENDING"
+    },
+    {
+      "card": "Casting with Cryptolith Fragment",
+      "rules_source_url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf",
+      "rules": "601.2g; 601.2i; 605.1a; 605.3a-b",
+      "status": "ANALYTIC_CAST_TIMING_PASS_NOT_PHYSICAL_FIXTURE"
     }
   ],
   "complete_100_research_variants": [
@@ -352,5 +358,6 @@
     "Challenge wider incumbent 99, not only the two trial slots; expand credible alternatives and genuinely strategic improvements beyond arbitrary five without padding.",
     "If evidence supports five or more NEW changes relative to currently locked rev2, construct fully verified M7 replacement with 10+ judgments and 8+ incumbents, I/J source-bound, then ask exact owner approval. Otherwise keep research-only and record governor conflict.",
     "Keep Abaddon approved 0d9f6df8... source intact; do not advance deck #3 until its new exact owner approval."
-  ]
+  ],
+  "analytic_rules_followthrough": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_rules_timing_20261022.md"
 }
