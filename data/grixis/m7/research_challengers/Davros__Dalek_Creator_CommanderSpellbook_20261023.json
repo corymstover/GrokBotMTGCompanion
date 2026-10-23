@@ -1,0 +1,235 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "almost_included_count": 39,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "181-1571",
+    "uses": [
+     "Cybermen Squadron",
+     "Blightsteel Colossus"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4475-5944",
+    "uses": [
+     "Unstoppable Slasher",
+     "Wound Reflection"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite lifeloss for target opponent"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "almost_included_count": 51,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "181-1571",
+    "uses": [
+     "Cybermen Squadron",
+     "Blightsteel Colossus"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-5342",
+    "uses": [
+     "Peer into the Abyss",
+     "Bloodletter of Aclazotz"
+    ],
+    "produces": [
+     "Infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "5342-5944",
+    "uses": [
+     "Unstoppable Slasher",
+     "Bloodletter of Aclazotz"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite lifeloss for target opponent"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4141-5342",
+    "uses": [
+     "Bloodletter of Aclazotz",
+     "Blood Tribute"
+    ],
+    "produces": [
+     "Infinite lifeloss for target opponent",
+     "Near-infinite lifegain",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "2615-5342",
+    "uses": [
+     "Tree of Perdition",
+     "Bloodletter of Aclazotz"
+    ],
+    "produces": [
+     "Near-infinite lifeloss for target opponent"
+    ]
+   },
+   {
+    "id": "4475-5944",
+    "uses": [
+     "Unstoppable Slasher",
+     "Wound Reflection"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite lifeloss for target opponent"
+    ]
+   }
+  ]
+ }
+}
