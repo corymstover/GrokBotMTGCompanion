@@ -5,4 +5,4 @@ Completed: EDHREC / Scryfall-live / Commander Spellbook (baseline+candidate) dis
 Tentative five: +Corridor Monitor -Foundry Inspector; +Aether Spellbomb -Fellwar Stone; +Audacious Reshapers -Talisman of Indulgence; +Priest of Forgotten Gods -Walking Ballista; +Thopter Squadron -Esoteric Duplicator.
 Spellbook: baseline 15 included -> candidate 16 (+3 Ashnod lines, -2 Foundry Inspector variants).
 Baseline note: overrides say "three current-cycle swaps"; tracker says only Commander's Sphere -> Trading Post. Disclosed; raw hash authoritative.
-Completed: decision packet; oracle+rules snapshots; tests (candidate 4, mechanics 11, ij 14); I/J pool, certificate, bundle, preflight memos; workflow; narrow bundle_check fixes (parenthetical Pass C wording + legacy A_SEAL field names). Next: adversarial packet, full-suite base vs head, PR finish.
+Completed: decision packet; oracle+rules snapshots; tests (candidate 4, mechanics 11, ij 14); I/J pool, certificate, bundle, preflight memos; workflow; narrow bundle_check fixes (parenthetical Pass C wording + legacy A_SEAL field names). Completed: adversarial review packet. Next: full-suite base vs head, PR finish.
