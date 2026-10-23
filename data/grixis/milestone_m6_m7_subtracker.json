@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-22_admiral_second_source_bound_m6_6_through_9_complete_m7_owner_decision_pending",
+  "snapshot": "2026-10-22_admiral_exact_m7_owner_lock_abaddon_reopened_research_only_formal_m6_m7_unaccepted",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
     "engineering_head": "eae70d50e444ff0bddc99afacae3e49a76cb47b1",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
-    "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
+    "canonical_head": "da8f2b44d131be3ec7cbee27f9bff1e06e5542c6",
     "canonical_overrides_blob_sha": "81801b2f9d3387b171c01f1fcae255b385a5b698",
     "criteria": "grixis/Grixis Authority Model.md#milestone-acceptance-criteria",
     "m6_evidence_contract": "grixis/Grixis M6 I-J Contract.md",
@@ -932,12 +932,13 @@
     "last_cycle_merged": null,
     "formal_m7_review_decisions": 0,
     "formal_m7_review_out_of": 62,
-    "prospective_exact_owner_approvals_recorded": 1,
+    "prospective_exact_owner_approvals_recorded": 2,
     "prospective_exact_owner_approvals_out_of": 62,
-    "prospective_owner_approval_scope": "Cory approved and canonically locked Abaddon M7 exact six-swap list, but the formal M7 milestone intake gate depends on unfinished M6 certification. Count one real prospective owner-approved exact deck without falsely certifying a formal M7 gate or accepting the program milestone.",
+    "prospective_owner_approval_scope": "Cory separately approved exact Abaddon and Admiral revised M7 source lists (two source-bound, canonically locked hashes). This is 2/62 prospective exact M7 owner approvals; formal M7 intake is still blocked by unfinished formal M6 certification. Abaddon is expressly reopened for additional research under owner no-floor-anchoring and EDHREC top-inclusion/High Lift and remains approved canonically until a new exact approval.",
     "depends_on": "M6 decision-ready schema-valid packets; no automatic use of historical approved/locked state",
     "owner_decision_receipts": [
-      "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json — Cory explicitly approved exact six-swap raw SHA 0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790; canonical PR #46 merged into main 2e5a7ee6770d4a9f16d9716e53fb2c2ef440c50d; milestone M6.10 not inferred"
+      "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json — Cory explicitly approved exact six-swap raw SHA 0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790; canonical PR #46 merged into main 2e5a7ee6770d4a9f16d9716e53fb2c2ef440c50d; milestone M6.10 not inferred",
+      "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json — Cory explicitly replied 'Approved' for raw SHA ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000; canonical PR #47 merged 51175f42db559bf161efc0e043a3f2f8d7e1d0d5; no M6.10 milestone acceptance."
     ],
     "gates": [
       {
@@ -959,7 +960,8 @@
         "total": 62,
         "evidence": [
           "grixis/Grixis Authority Model.md",
-          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+          "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json"
         ],
         "scope": "The 62 existing canonical approvals are distinct from the second-cycle decisions required for M7."
       },
@@ -971,7 +973,8 @@
         "total": 62,
         "evidence": [
           "grixis/Grixis Authority Model.md",
-          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+          "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json"
         ],
         "scope": "Verify hashes of M7 reviewed versions, not simply current historical approvals."
       },
@@ -983,7 +986,8 @@
         "total": null,
         "evidence": [
           "grixis/Grixis Authority Model.md",
-          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+          "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json"
         ],
         "scope": "Conditional on user-approved edits; unchanged approved decks must not be reopened automatically."
       },
