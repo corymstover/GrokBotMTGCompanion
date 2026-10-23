@@ -1164,28 +1164,55 @@
    "last_pushed_commit": "7483728a700e01f2b45172c9c55438903d9092ac",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/670",
    "swap_count": 1,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 22 Gwendlyn Di Corci research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39999419192",
+     "conclusion": "success",
+     "head": "7483728a700e01f2b45172c9c55438903d9092ac"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39999419394",
+     "conclusion": "success",
+     "head": "7483728a700e01f2b45172c9c55438903d9092ac"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39999419154",
+     "conclusion": "success",
+     "head": "7483728a700e01f2b45172c9c55438903d9092ac"
+    }
+   ],
+   "blockers": [
+    "only 1 genuine swap (+Hymn to Tourach -Dauthi Voidwalker, flagged owner-blueprint override); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 1)"
+   ],
+   "unresolved_issues": [
+    "Pass C matched-hand games / win rates not run: no validated Gwendlyn game model (bounded 9-state untapper matrix, 36+5 row Hymn ledger, exact castability only)",
+    "Pass C exact +Aphetto Alchemist -Magewright's Stone staged as OWNER DECISION (overrides owner keep and owner removal; generic infinite 283-4091 with Illusionist's Bracers); Rings of Brighthearth over Dauthi RETAIN_ALTERNATIVE; Rings over Mind Twist rejected",
+    "Dauthi Voidwalker cut is a flagged owner-blueprint override; Hymn vs owner-rejected Syphon Mind/Unnerve/Necrogen Mists class is a disclosed judgment call",
+    "Bundle checker explicit-false Pass C path does not veto an appended 'independent third model: yes'-style phrase (explicit-true pattern narrower than any-true); shared infra, disclosed, not fixed"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 9a393cb7 == overrides == tracker == registry; 100 physical/94 rows, 2x Island 2x Mountain 5x Swamp; no terminal newline); shared infra copied from #669 3d550c79; draft PR #670 created 2026-10-23T12:31:16-0500 (GitHub createdAt 17:31:16Z)",
     "research_discovery",
     "candidate_and_decision_review",
-    "oracle/rules snapshots, tested pool (9 configs), decision packet (gate withdrawn RESEARCH_ONLY, 17 material candidates), I/J memos, certificate + J revision bundle, adversarial packet, mechanics/candidate/IJ tests 12/10/8, focused workflow; WIP removed in last content commit 7483728a"
+    "oracle/rules snapshots, tested pool (9 configs), decision packet (gate withdrawn RESEARCH_ONLY, 17 material candidates), I/J memos, certificate + J revision bundle, adversarial packet, mechanics/candidate/IJ tests 12/10/8, focused workflow; WIP removed in last content commit 7483728a",
+    "full suite head 7483728a 24F/1632P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #670 ready 2026-10-23T12:59:51-0500 (GitHub ready_for_review 17:59:51Z) with RESEARCH_ONLY + blocker; exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "full suite, PR body, mark ready, exact-head CI",
-   "next_step": "finish sequence",
-   "stage": "RESEARCH_IN_PROGRESS",
+   "next_action": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #23 Inalla__Archmage_Ritualist",
+   "next_step": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #23 Inalla__Archmage_Ritualist",
+   "stage": "RESEARCH_ONLY_BLOCKED",
    "last_pushed_sha": "7483728a700e01f2b45172c9c55438903d9092ac",
    "last_checkpoint_commit": "7483728a700e01f2b45172c9c55438903d9092ac",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/670",
-   "pr_is_draft": true,
+   "pr_is_draft": false,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 4ef2c267, introduced by 111f903e 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T12:58:29-0500",
-   "updated_at": "2026-10-23T12:58:29-0500"
+   "last_checkpoint_at": "2026-10-23T13:01:22-0500",
+   "updated_at": "2026-10-23T13:01:22-0500"
   },
   {
    "tracker_number": 23,
