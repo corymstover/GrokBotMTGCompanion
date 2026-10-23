@@ -608,8 +608,8 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
+   "branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
+   "working_branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
    "last_pushed_commit": null,
    "pr_url": null,
    "swap_count": null,
@@ -617,11 +617,13 @@
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [],
-   "status": "NOT_STARTED",
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Baseline provenance commit + draft PR",
+   "next_step": "Baseline provenance commit + draft PR",
+   "last_checkpoint_at": "2026-10-23T08:20-05:00",
+   "updated_at": "2026-10-23T08:20:00-05:00"
   },
   {
    "tracker_number": 15,
