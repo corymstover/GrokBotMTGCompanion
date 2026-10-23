@@ -1,0 +1,98 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Don_Andres__the_Renegade",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Don_Andres__the_Renegade_approved_source_2026-10-14.txt",
+   "raw_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+   "logical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw a6022fdd…, fetched from canonical encyclopedia main 9b26aa28, blob 1d20d488, frozen by canonical commit 255c328; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash). 35 physical lands in 34 rows (Island x2 the only repeat; Mountain and Swamp one each)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/don-andres-the-renegade.txt",
+   "raw_sha256": "3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03",
+   "logical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order, so the raw bytes differ. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Don_Andres__the_Renegade.txt",
+   "raw_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
+   "logical_hash": "lh1:d387b103e297de4c405cb044322c889c2e1f9a87cb987ff11aba09ec53b11da2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Gríma, Saruman's Footman +Fallen Shinobi +Treachery +Gloomlake Verge +Blazemire Verge / -Professional Face-Breaker -Seize the Spotlight -Blasphemous Act -Shipwreck Marsh -Smoldering Marsh. 35 lands; conditional/early-tapped lands 5 -> 3; average nonland MV 3.312 -> 3.297; creatures 28 -> 29; Game Changers 5 -> 5 (Bracket 4 either way). Exact lands-only colour access for Don on turn 4 (10 cards) 0.4898 -> 0.4864 with each Verge counted at one colour, identical (0.4898) when the Verge condition is met. Spellbook included combos 0 -> 0. MODERATE confidence."
+  },
+  {
+   "id": "FOUR_KEEP_BLASPHEMOUS_ACT_NO_TREACHERY",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_four_keep_BlasphemousAct_no_Treachery_20261023.txt",
+   "raw_sha256": "d4baf9d635daad40ac79f362eabd67bbd73dd0e3c5e3f4fc0dc3657ba1226ccc",
+   "logical_hash": "lh1:28b9a076397bb245a6b891b24de4fb81eef5e0d6cad7b9bd33bf409ddbb606dc",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor; not selected). The preferred five without Treachery, keeping Blasphemous Act. Choose this if the owner wants a second creature sweeper beside Toxic Deluge and Cyclonic Rift; it kills our stolen army and Don, so it is a reset button, not a plan card. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_MOB_RULE_OVER_INSURRECTION",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_MobRule_over_Insurrection_20261023.txt",
+   "raw_sha256": "6ffdaf47d16bb7c17d578d96fa05155d2413c2bb4c6a6803952a93530f73df35",
+   "logical_hash": "lh1:814da3bc666c7a2e33024bac274ec9a31b48b0d1ad6b593545287cedb5dbad34",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C Stage A provisional hypothesis). Bounded grid (mechanics test): Insurrection is uncastable at 6-7 mana; at 8 it steals at least as much as Mob Rule on all 5 tables x Don present/absent and Mob Rule keeps 115/144 of its stolen power (equal on 2/5 tables). RR vs RRR lands-only by 13 cards 0.8396 vs 0.5901 (baseline). A genuine trade; Pass C's final KEEP and the owner's approved Insurrection are kept, the 100 is staged for owner choice. LOW-MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_BRIBERY_OVER_THIEVING_AMALGAM",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_ThievingAmalgam_20261023.txt",
+   "raw_sha256": "dcd5ed862bffe0a630b3f7111cacbb5f0855a5261d54d3204d97488cb6322f38",
+   "logical_hash": "lh1:b8cf95d299ef77cd7a9984eee67ffb4a188741992c533b2f33311d67500c2afb",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C named-cut request). Bribery yields at most one opponent-owned creature ever (none on a creature-free library); Thieving Amalgam yields three opponent-owned manifests per round from the first opponent upkeep (each a 4/4 menace deathtouch Pirate with Don) and drains 2 per stolen creature death. Bribery was also part of the owner's 2026-10-14 removals (flagged, not re-added). MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_BRIBERY_OVER_JHOIRA",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_Jhoira_20261023.txt",
+   "raw_sha256": "3f2c534a8e2b31a4ccd31c4a9ea8f469d342a3d10f9f55e5e38bb65f018a1efb",
+   "logical_hash": "lh1:8201634b8e325b24b10a667ec1f3059580572a03717c13fc004a12614a0941cf",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; Pass C named-cut request). Jhoira pays off on resolution like Bribery (1 historic permanent) and again on every surviving attack; Bribery's edge is choosing the best creature and costing one less. Owner-removed card (flagged). MODERATE confidence."
+  },
+  {
+   "id": "FIVE_DAZZLING_SPHINX_INSTEAD_OF_GRIMA",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_five_DazzlingSphinx_instead_of_Grima_20261023.txt",
+   "raw_sha256": "5fe26dc7258e3fa032b7c4191422dd51f70a0e60f9588f6bf6c90c123b344dba",
+   "logical_hash": "lh1:202b2cf5219562b7c00c206b1cefeaccdff3477eb19ed4d9075978b1b4c972af",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (five-swap, staged). Dazzling Sphinx has Gríma's exact combat trigger on a 5-mana 4/5 flyer; Gríma costs 4, can't be blocked at all, is a legendary Human (not relevant) and was chosen for the lower curve. LOW-MODERATE confidence."
+  },
+  {
+   "id": "SIX_NIGHTVEIL_SPECTER_OVER_LOCKE",
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_NightveilSpecter_over_Locke_20261023.txt",
+   "raw_sha256": "0509e7c4fa747b4af12ed9ce4a6a86a3ff137f1c5a9951e39787f8c1946280ea",
+   "logical_hash": "lh1:864ad9679176716efa1395e56b82daa9e4af7565473b1057412f4018b17fe6bc",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Nightveil Specter's exiled cards stay castable indefinitely, but it is a 3-mana 2/3 flyer that must connect; Locke's attack trigger casts from every player's mill and makes Treasure on lands, and is evasive against bigger creatures. Marginal. LOW confidence."
+  }
+ ]
+}

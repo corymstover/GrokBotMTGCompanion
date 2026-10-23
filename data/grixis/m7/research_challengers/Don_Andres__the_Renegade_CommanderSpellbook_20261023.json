@@ -1,0 +1,309 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 23,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4508-4869",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "1211-4603",
+    "uses": [
+     "Maralen of the Mornsong",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Lock",
+     "Players can't draw cards",
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+    ]
+   },
+   {
+    "id": "618-2534",
+    "uses": [
+     "Kiki-Jiki, Mirror Breaker",
+     "Coercive Recruiter"
+    ],
+    "produces": [
+     "Infinite creature tokens with haste",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "4052-6264",
+    "uses": [
+     "Cryptcaller Chariot",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Near-infinite tapped creature tokens"
+    ]
+   },
+   {
+    "id": "1211-7271",
+    "uses": [
+     "Mornsong Aria",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card",
+     "Lock",
+     "Players can't draw cards",
+     "Players can't gain life"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 19,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4508-4869",
+    "uses": [
+     "Malcolm, Keen-Eyed Navigator",
+     "Glint-Horn Buccaneer"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "1211-4603",
+    "uses": [
+     "Maralen of the Mornsong",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Lock",
+     "Players can't draw cards",
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+    ]
+   },
+   {
+    "id": "618-2534",
+    "uses": [
+     "Kiki-Jiki, Mirror Breaker",
+     "Coercive Recruiter"
+    ],
+    "produces": [
+     "Infinite creature tokens with haste",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "4052-6264",
+    "uses": [
+     "Cryptcaller Chariot",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Near-infinite tapped creature tokens"
+    ]
+   },
+   {
+    "id": "1211-7271",
+    "uses": [
+     "Mornsong Aria",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card",
+     "Lock",
+     "Players can't draw cards",
+     "Players can't gain life"
+    ]
+   },
+   {
+    "id": "1339-4052",
+    "uses": [
+     "The Locust God",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite creature ETB"
+    ]
+   },
+   {
+    "id": "876-4944",
+    "uses": [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinitely large creature until end of turn"
+    ]
+   },
+   {
+    "id": "2581-5065",
+    "uses": [
+     "Helm of Obedience",
+     "Dauthi Voidwalker"
+    ],
+    "produces": [
+     "Exile target opponent's library"
+    ]
+   },
+   {
+    "id": "876-2904",
+    "uses": [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinite self-mill"
+    ]
+   }
+  ]
+ }
+}
