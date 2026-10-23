@@ -1,0 +1,117 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23; Lutri included as companion in main for discovery)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "bracket_tag": "P",
+    "description": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards.\nRepeat."
+   },
+   {
+    "id": "1561-2384",
+    "uses": [
+     "Psychosis Crawler",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite lifeloss",
+     "Near-infinite card draw",
+     "Near-infinite draw triggers"
+    ],
+    "bracket_tag": "P",
+    "description": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.\nPsychosis Crawler triggers for each card you drew, causing each opponent to lose life equal to the number of cards you drew."
+   },
+   {
+    "id": "1561-5042",
+    "uses": [
+     "Peer into the Abyss",
+     "Teferi's Ageless Insight"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers"
+    ],
+    "bracket_tag": "O",
+    "description": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Teferi's Ageless Insight."
+   }
+  ],
+  "almost_included_count": 108,
+  "almost_included_sample": []
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ],
+    "bracket_tag": "P",
+    "description": "Cast Jeska's Will from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, adding at least six {R}.\nCast Wheel of Fortune from your graveyard for its escape cost by paying {2}{R} and exiling three other cards from your graveyard, causing each player to discard their hand and draw seven cards.\nRepeat."
+   },
+   {
+    "id": "1561-2384",
+    "uses": [
+     "Psychosis Crawler",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite lifeloss",
+     "Near-infinite card draw",
+     "Near-infinite draw triggers"
+    ],
+    "bracket_tag": "P",
+    "description": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounding up each time.\nPsychosis Crawler triggers for each card you drew, causing each opponent to lose life equal to the number of cards you drew."
+   },
+   {
+    "id": "1561-5042",
+    "uses": [
+     "Peer into the Abyss",
+     "Teferi's Ageless Insight"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers"
+    ],
+    "bracket_tag": "O",
+    "description": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to lose half your life total rounded up and draw your library due to Teferi's Ageless Insight."
+   },
+   {
+    "id": "1561-5850",
+    "uses": [
+     "Twenty-Toed Toad",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Win the game",
+     "Near-infinite card draw",
+     "Near-infinite draw triggers"
+    ],
+    "bracket_tag": "O",
+    "description": "Cast Peer into the Abyss by paying {4}{B}{B}{B}, causing you to draw half your library and lose half your life total, rounded up.\nDeclare Twenty-Toed Toad as an attacker.\nTwenty-Toed Toad's second ability triggers, causing you to win the game."
+   }
+  ],
+  "almost_included_count": 93,
+  "almost_included_sample": []
+ }
+}

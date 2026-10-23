@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "baseline_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "result_hash": "lh1:514596aaf599116e15083596021e97a0dc24b1c03b2b51f341ed6f927576e5e3",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/bjorna-nightfall-alchemist-cecily.json.gz",
+   "sha256": "sha256:9cf57b90a9c4418ff1b4011c3c6ec134e9505851a9d3ae678ced1841fc419bd4"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz",
+   "sha256": "sha256:695c40cc1d90e69fb33591e6918cbdf3d028dd304ab262a9d3cd03ce325418db"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/bjorna-nightfall-alchemist-cecily.json",
+   "sha256": "sha256:6e70aa53578be853b8f280ebb8775d360a1453bb2181059a13e224e37916c9a1"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/bjorna-nightfall-alchemist-cecily.json",
+   "sha256": "sha256:a406f0fb1619ac874c0c943cf7a43e0fcf9d04144d1bf0ddd6c4e86b5c755e70"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/bjorna-nightfall-alchemist-cecily.json",
+   "sha256": "sha256:db11f1d54d65a8f8deb33074d2a2cc04d444010d4d8a4fe1f754d94542d5e435"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cecily__Bjorna__Lutri.json",
+   "sha256": "sha256:ff2276cd2197f31d4b1e79b001e4a4bff23e3f1f5b29fcc7d4a5c3cc9f341da7"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:c317ac280813b399adfd798ed93fa5aa1a544e3e88e88d5f27a6246071fa65fd"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_Scryfall_live_20261023.json",
+   "sha256": "sha256:ce86ab9636b01cfe328497ca312bbbf639b52665432337c1a01e1cbf5f8ed171"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:a3fe947e1e831eda43444617fa838f1c94df7a4c947926d0a97de2c8d68c90cf"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Cecily__Bjorna__Lutri_approved_source_2026-10-13.txt",
+   "sha256": "sha256:553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28"
+  },
+  {
+   "path": "exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt",
+   "sha256": "sha256:745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Cecily__Bjorna__Lutri.txt",
+   "sha256": "sha256:2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_five_floor_without_ManaDrain_20261023.txt",
+   "sha256": "sha256:012005644873f20dbff804a12ee82a05ea46e74d65562534f5d7964fe07b0ddf"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_six_PassC_Resonator_over_InGarruksWake_20261023.txt",
+   "sha256": "sha256:6f71ef4a44d030632c6208ae053fe83a8271580f341f5f4fe4ca5ae447d56a57"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_EnterTheInfinite_over_WheelOfMisfortune_20261023.txt",
+   "sha256": "sha256:be85743d8c09a60742a92c79f3994d7c4517d2233bc356a78cc37e268953dda8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_PeterParkersCamera_over_LightningGreaves_20261023.txt",
+   "sha256": "sha256:78f88f7424dcf942c2c6cbd7ee4439bfbe34208c260cf843873f2958f327cf6e"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+   "sha256": "sha256:0e05e258b89e33e0a52f3dbd26715329dcf5475188f985b2fe8f76b6eab9fe52"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md",
+   "sha256": "sha256:a905c5c18658597cf47da07e1e82cef7e8498ad4849bfc22574ec2dcc64c17dc"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/bjorna-nightfall-alchemist-cecily-m7.json",
+   "sha256": "sha256:4320ce90d16529e4c89e433a620611f6a7e2a71e83e1e0d985572a46c8c37a49"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Cecily__Bjorna__Lutri_M6_I_local_best_20261023.md",
+   "sha256": "sha256:24a2040b56956e3707167e7cd46ae2c81514674e169563c6fc77ab5c1e873062"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Cecily__Bjorna__Lutri_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:e5bdaadd55b25fe216950bec49d11659b966668cb110b55603df1c7c27cdef76"
+  },
+  {
+   "path": ".github/workflows/m7-bjorna-nightfall-alchemist-cecily.yml",
+   "sha256": "sha256:2e1cff9ce7699753e9af1da96abff3275d6e75dae36e990b785d48f62fa12a53"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cecily__Bjorna__Lutri_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:5fbeccb504a7b289a79ee8135df1ee46f32d487a739115f64c4125cf42885784"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/bjorna-nightfall-alchemist-cecily.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/bjorna-nightfall-alchemist-cecily.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:4736cec1c13e254977f5fd33dbf784081dc254968a2526cd8ff14d0ae10f3080",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:8b02a1106df1f777b66121691c162ad7ba083047c9a44f38dc852efe9835eab6"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_bjorna_nightfall_alchemist_cecily_m7_mechanics.py",
+    "source_sha256": "sha256:aad522986bff367305edea9851f6ba80e8fd963b99b0a3832292f2a6622fab9c",
+    "seed": 0,
+    "harness_version": "cecily_bjorna_m7_finite_rules_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Ten finite seed-0 Oracle-anchored cases: Cecily/Bjorna/Lutri Oracle text; Cecily attack trigger with 0-3 copies (hand 9 -> 0 casts, 10 -> 1, 10 with one copy -> 2); copier Oracle (Resonator any trigger, Echo creature-source only, Toad is a Wizard, Echo is not); Twenty-Toed Toad + Peer into the Abyss finite win with library kept nonnegative; Sea Gate and cut rationale text; Breach escape exiles three (finite); Spellbook IDs baseline 3 -> candidate 4 (adds 1561-5850); exact swaps with core preserved and Lutri outside the 100; quantity-counted lands 33, rocks 9, Island x2; legality with the Trade Secrets/Bargain/Lutri project exceptions, identity, singleton, 10 Game Changers unchanged. Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_bjorna_nightfall_alchemist_cecily_candidate.py",
+    "source_sha256": "sha256:8a1e4937ebbbdad8037c0b9d2260ecc981a1fd2ea6d1df79fe6e6d1c0fae0a79",
+    "seed": 0,
+    "harness_version": "cecily_bjorna_m7_gate_candidate_5_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact six physical swaps, registry hashes untouched, companion outside the 100, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #655 head ce713a71 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_bjorna_nightfall_alchemist_cecily_m7_ij.py",
+    "source_sha256": "sha256:d3f19e7279f9bc06f7ff48cf4cf64469ad5872bc2d96529a5aa94553ac0ddd28",
+    "seed": 0,
+    "harness_version": "cecily_bjorna_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/companion/main zones) and exact per-configuration deltas, runs the J checker, pins the checker sha, and exercises fail-closed Pass C FALSE wording and legacy seal-alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Cecily__Bjorna__Lutri_M6_J_red_team_20261023.md",
+  "sha256": "sha256:23dcb8875389b741e9feb878db458f6d08b96847abfae0b7dc22a113248f4255"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Cecily__Bjorna__Lutri_M6_J_mana_20261023.md",
+  "sha256": "sha256:2cc2954a9f6aa60fb2fef1a21876585ece09cbd7d60cee41079686a1dd55950a"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
