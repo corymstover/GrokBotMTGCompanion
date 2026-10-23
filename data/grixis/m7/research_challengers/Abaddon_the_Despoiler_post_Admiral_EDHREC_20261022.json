@@ -201,7 +201,8 @@
       "card": "Aurora Phoenix",
       "status": "ADVANCE_ORACLE_AND_ATTRITION_COMPARISON",
       "potential_cut": "The Ruinous Powers",
-      "reason": "Cascade creature in graveyard returns to hand on casting spell that has cascade (including Abaddon granted), offering attrition, but five-mana repeat cast is clunky and cannot be assumed better than theme-identity random resource."
+      "reason": "Cascade creature in graveyard returns to hand on casting spell that has cascade (including Abaddon granted), offering attrition, but six-mana repeat cast is clunky and cannot be assumed better than theme-identity random resource.",
+      "oracle_mana_value": 6
     },
     {
       "card": "Blood for the Blood God!",
@@ -272,7 +273,8 @@
     {
       "card": "Aurora Phoenix",
       "scryfall_url": "https://scryfall.com/card/clb/778/aurora-phoenix",
-      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING",
+      "printed_mana_cost": "{4}{R}{R}"
     },
     {
       "card": "Blood for the Blood God!",
