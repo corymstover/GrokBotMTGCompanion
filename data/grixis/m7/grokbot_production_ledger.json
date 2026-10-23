@@ -432,7 +432,7 @@
    "current_candidate_sha": "8b765d85649db64607c508bb3535466673593768ce729a9087a0260dc512624d",
    "branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
    "working_branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
-   "last_pushed_commit": "1da58c1f4e192178b0557879518ddda3ce100258",
+   "last_pushed_commit": "b18378aa888c59f9f9f8d15e2ccf060f37a114fa",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/659",
    "swap_count": 6,
    "ci_runs": [],
@@ -441,7 +441,10 @@
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71; raw 4c221e5b == overrides == registry; 100 physical / 94 rows; tracker note cc2f7a54 is the pre-approval 10-13 list, documented not repaired); draft PR #659",
     "research_snapshots_and_draft_candidate",
-    "mechanics_tests_bounded_pass_c_tested_pool_rules_snapshot"
+    "mechanics_tests_bounded_pass_c_tested_pool_rules_snapshot",
+    [
+     "decision_review_gate_pass"
+    ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
