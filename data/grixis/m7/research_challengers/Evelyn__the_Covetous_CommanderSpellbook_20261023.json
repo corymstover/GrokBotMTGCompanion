@@ -1,0 +1,521 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2896-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Necromancy"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "3605-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Dance of the Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 103,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "1792-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1792-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "1792-2364-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "1458-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1458-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "4812-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Animate Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2896-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Necromancy"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "3605-4846",
+    "uses": [
+     "Worldgorger Dragon",
+     "Dance of the Dead"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite blinking of permanents",
+     "Infinite colored mana",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 117,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "1792-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1792-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "1792-2364-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Retraction Helix",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "1458-5864--63",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn"
+    ]
+   },
+   {
+    "id": "1458-5034-5864",
+    "uses": [
+     "Valley Floodcaller",
+     "Banishing Knack",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite storm count",
+     "Infinite untap of some creatures you control",
+     "Infinite power and toughness for certain creatures until end of turn",
+     "Infinite colorless mana"
+    ]
+   }
+  ]
+ }
+}
