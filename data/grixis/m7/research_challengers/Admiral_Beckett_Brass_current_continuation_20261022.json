@@ -224,11 +224,11 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Run exact-head CI for Stage9 candidate hash/oracle/legality source-binding and merge only on success.",
-    "Complete candidate-specific M6 required P0/P1 against genuine paid Wave/Palisade/Cannonade effects; document red-team/mana and local-best pool with no invented win-rate.",
-    "Issue and validate NEW exact sha-bound Admiral I/J receipt/bundle; historical D I/J cannot transfer.",
-    "Complete new M7 rev2 comprehensive owner gate and present exact 100-card proposal for Cory's explicit approval, keeping canon unchanged until then.",
-    "After Admiral final approval, reopen Abaddon under both newer rules; deck3 held until both owner-approved."
+    "Run Stage10 exact-head workflows, correct failures and merge 7-config candidate-specific pool only if successful.",
+    "Use the bounded 7-config tested pool to formally justify/reject local-best under M6 I while disclosing unsimulated opponent distribution; execute missing mandatory exact Wave changed-effects if found.",
+    "Build NEW immutable Admiral rev2 J reproducibility source hashes/phase B/mana/red-team/Pass C waiver binding; preserve original D certificate.",
+    "Prepare M7 rev2 fully source-bound 100-card owner-ready packet only after M6 gates and exact-head CI pass.",
+    "After explicit Admiral approval, reopen approved Abaddon under floor-not-target and EDHREC; do not start deck3 before both."
   ],
   "owner_decision_required_now": false,
   "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
@@ -415,7 +415,7 @@
     },
     "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
     "latest_complete_subtask": "Source-bound eleven-card Challenger/incumbent Oracle snapshot and new EDHREC discovery crosswalk authored on working branch, exact-head CI and package adjudication pending.",
-    "next_exact_unfinished_requirement": "Verify stage9 exact-head candidate raw/logical Oracle and legality regression; then actually execute changed-effect M6 P0/P1 and complete the candidate-specific revised tested-pool I/J reproducibility, M7 decision packet gate and owner presentation. All old D receipts remain historical. Admiral canonical unchanged; Abaddon held until Admiral approval, deck3 held until both.",
+    "next_exact_unfinished_requirement": "Validate actual 7-list source/logical tested pool in exact PR-head CI, then complete scoped revised M6 I local-best zero-improvement judgment and new exact candidate-bound M6 J using real Phase B receipts plus authored mana/red-team. No historical D I/J reuse, no owner approval yet.",
     "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D.",
     "stage3": {
       "status": "ORACLE_SOURCED_ELEVEN_PAID_MECHANICAL_FIXTURES_WRITTEN_AWAITING_EXACT_HEAD_CI",
@@ -592,8 +592,34 @@
       "old_D_IJ_usable_for_new_hash": false,
       "new_IJ_issued": false,
       "new_owner_approval": false,
-      "exact_head_ci": "NOT_YET_EXECUTED",
-      "canonical_mutated": false
+      "exact_head_ci": "SUCCESS_TWO_WORKFLOWS_SOURCE_BIND_PREFLIGHT_ONLY",
+      "canonical_mutated": false,
+      "git_receipt": {
+        "merged_pr": 612,
+        "merged_commit": "e558f8b2e6c48fbf91e1ed50e9d34bd8dfb28af6",
+        "exact_pr_head": "f6e378cf03f6c1ba8e079286374a828ba7d08232",
+        "focused_actions_run": 39879925217,
+        "decisive_actions_run": 39879925326,
+        "both": "SUCCESS",
+        "scope": "Candidate raw/logical hash, 100 physical, 97 card current saved Oracle legality/color and historical D I/J mismatch; not new I/J."
+      }
+    },
+    "stage10": {
+      "status": "PARTIAL_SEVEN_COMPLETE_100_CARD_SOURCE_BOUND_TESTED_POOL_PENDING_EXACT_HEAD_CI_NO_NEW_IJ",
+      "working_branch": "chatgpt-admiral-stage10-rev2-tested_pool-20261022",
+      "pool_file": "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json",
+      "test": "tests/test_m6_admiral_rev2_seven_configuration_pool.py",
+      "pool_size": 7,
+      "provisional_leader": "WAVE_PALISADE",
+      "leader_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+      "leader_logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+      "qualitative_tradeoff": "Both Wave-for-Cannonade and Wave-for-Palisade have Wave; preferred candidate retains instant Cannonade at cost of Palisade bounce. Seven-swap Aerialist and nine-swap Regalia/Dreamcaller packages have material reversed-opponent cases and/or lose repeat draw.",
+      "last_merged_stage9_pr": 612,
+      "owner_approval": "WITHHELD",
+      "m6_i_certificate_issued": false,
+      "m6_j_bundle_issued": false,
+      "canonical_mutated": false,
+      "exact_head_ci": "NOT_YET_EXECUTED"
     }
   },
   "owner_sequence_override": {
