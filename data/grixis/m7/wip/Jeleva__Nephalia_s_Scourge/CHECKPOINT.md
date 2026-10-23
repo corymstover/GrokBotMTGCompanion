@@ -11,5 +11,6 @@
 - Shared infra copied byte-identically from PR #671 head 1efba1a2 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance; research (live Scryfall 100 baseline + 109 candidates, EDHREC four pages, Commander Spellbook baseline 7 combos and 8 staged alternatives, bounded Pass C tests T1-T6).
 - Research result so far: zero genuine admissible swaps found (all 99 incumbents owner-directed; Intuition/Galvanic Pass C alternatives measured worse; Snap/Spellseeker/Forbidden Orchard/Hanweir/Reversal+Scepter staged, not counted). Expected outcome RESEARCH_ONLY.
-- Next: oracle/rules snapshots, tested pool, decision review, I/J memos, certificate, bundle, deck tests, workflow.
-- Checkpoint written: 2026-10-23T13:39:21-0500
+- Completed (phase 3): candidate list (zero swaps), oracle snapshot (204 names, 0 frozen diffs), rules snapshot, tested pool (11 configs), decision review (gate PASS: M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, 22 candidates, 15 weakest-slot challenges).
+- Next: I/J memos, certificate, bundle, deck tests, workflow.
+- Checkpoint written: 2026-10-23T13:45:52-0500

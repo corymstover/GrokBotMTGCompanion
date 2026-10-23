@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 11,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Jeleva__Nephalia_s_Scourge_approved_source_2026-10-14.txt",
+   "raw_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+   "logical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 00e3f521..., fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt, blob 8cdc5b5a, introduced by canonical approval commit d53789d1 on 2026-10-14; overrides, tracker and registry record the same bytes; no terminal newline, copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/jeleva-nephalias-scourge.txt",
+   "raw_sha256": "900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af",
+   "logical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "RESEARCH_ZERO",
+   "path": "data/grixis/m7/candidate_lists/Jeleva__Nephalia_s_Scourge.txt",
+   "raw_sha256": "4818b32a8f8bcbbadef7c4a46bead2b089d1e104d2faa68c4c1c14cd65ce6df1",
+   "logical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (zero genuine admissible swaps; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Same 100 cards as the baseline, re-serialized (commander first, case-insensitive alphabetical, terminal newline); logical hash identical to the baseline."
+  },
+  {
+   "id": "PASS_C_INTUITION_OVER_LONG_TERM_PLANS",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_LongTermPlans_20261023.txt",
+   "raw_sha256": "1c2e0011617cabee0a2b7028c8e48a16aa5291f1dca81672373e2550e5bfa22b",
+   "logical_hash": "lh1:30fb446706409d9fef931f9304d823ff3e201b8ace6a5694c3044b76972a0e35",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C requested test). +Intuition -Long-Term Plans (an owner explicit keep). Bounded test T1/T2: Long-Term Plans' third-from-top card is captured at once by Jeleva's ETB (X>=4), so the 'waits two draws' premise is false; Intuition never stages a library card for Jeleva, and the exhaustive hostile-choice enumeration shows the Breach/LED/Brain Freeze and Oracle piles both fail (the opponent hands over the dead piece). It removes one of 11 Jeleva stagers (P>=1 stager at 8 cards seen 0.6246 -> 0.5875). Commander Spellbook 7 -> 7."
+  },
+  {
+   "id": "PASS_C_INTUITION_OVER_SCHEMING_SYMMETRY",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_SchemingSymmetry_20261023.txt",
+   "raw_sha256": "62b37848cfff535d6ecffb9242c38dd0deda254f670e173df05c5ca31d62c834",
+   "logical_hash": "lh1:2f28fdee00e9e7799a32726d0f5a95f57c840d498e54edb30c7e5078b0fd5001",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C requested test). +Intuition -Scheming Symmetry. Scheming Symmetry costs {B}, needs two different target players (CR 115.3) and puts the card on top for Jeleva's ETB; Intuition costs 3, stages nothing and fails the hostile pile enumeration for the deck's two-card lines. Same stager loss as above; Spellbook 7 -> 7."
+  },
+  {
+   "id": "PASS_C_GALVANIC_OVER_BORNE",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_GalvanicIteration_minus_BorneUponAWind_20261023.txt",
+   "raw_sha256": "154ccac2e65d8ecfe25110c10d16663fce72e5e1ef41a53664f680b83c820155",
+   "logical_hash": "lh1:ce057a9cf8d456b850ae96a88774e5a19438005e6f7ea61bb5c11293177bd209",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged; Pass C requested test). +Galvanic Iteration -Borne Upon a Wind. Galvanic copies are not cast (CR 707.10), so no storm count; eight of the deck's key instants/sorceries gain nothing or are harmed by a copy (Demonic Consultation, Doomsday, Final Fortune, Mnemonic Betrayal, Peer into the Abyss, Tainted Pact, Toxic Deluge, Yawgmoth's Will). Borne is one of four Jeleva haste/flash enablers (end-step Jeleva); P(>=1 enabler) 0.2577-0.3514 with Borne vs 0.1994-0.2760 with Galvanic over 7-10 cards. Spellbook 7 -> 7."
+  },
+  {
+   "id": "ONE_SNAP_OVER_GITAXIAN_PROBE",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Snap_over_GitaxianProbe_20261023.txt",
+   "raw_sha256": "c222fbe5cd48559be04eba4413c71f0f09ec79b83c3bed21b530144aaa778229",
+   "logical_hash": "lh1:8abb47098ad90664fb3dc54694f985f2bda12f9367f7e475c3c3ab0e6a245f4d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; not counted). Snap protects Jeleva, resets her to a larger X and is free with two untapped lands; EDHREC cEDH 11/30 vs Gitaxian Probe 17/30, and Probe is a 0-mana storm/LED/Breach enabler. Evidence does not clearly beat the incumbent; offered as an owner decision only."
+  },
+  {
+   "id": "ONE_SPELLSEEKER_OVER_MENTAL_MISSTEP",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Spellseeker_over_MentalMisstep_20261023.txt",
+   "raw_sha256": "133d24e6750235461df0b6de17665ba54e3f256710e6ba4bb7425a4047cdc123",
+   "logical_hash": "lh1:7c4eff6f3eb66d6cfea3f67b3e76882aa39b9723bffc0cb9172e124c9fbe9f1a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap off-ranking challenge). Spellseeker reaches 29 MV<=2 instants/sorceries and is a Wizard for Harmonic Prodigy, but costs 3 vs a free counter that protects the Breach/Oracle turns; cEDH 5/30 vs 16/30."
+  },
+  {
+   "id": "ONE_FORBIDDEN_ORCHARD_OVER_EXOTIC_ORCHARD",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_ForbiddenOrchard_over_ExoticOrchard_20261023.txt",
+   "raw_sha256": "b419e517524a0a508dabb7284992b8fd2493f33f44b06d550403773d451b558d",
+   "logical_hash": "lh1:e3380cefae7c7e19b8c2fd0083740d4eeb81732fa192a9c10bd3ab753725689d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap). U/B/R source counts unchanged (21/20/19); gives opponents chump bodies and an extra permanent; cEDH 9/30 vs 18/30."
+  },
+  {
+   "id": "ONE_HANWEIR_OVER_ARENA",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_HanweirBattlements_over_ArenaOfGlory_20261023.txt",
+   "raw_sha256": "c7893b7370942c77ee1f61ec5ade78fa75c3657910441e8e2bf08844651ec608",
+   "logical_hash": "lh1:09f3a885c7fccb8ceacdfcdeda04ce32b7c11b1c2df5ead851ec3a5eef4b7056",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap off-ranking challenge). Hanweir Battlements gives Jeleva haste repeatedly but makes only {C}: red sources 19 -> 18; absent from the cEDH sample."
+  },
+  {
+   "id": "TWO_REVERSAL_SCEPTER_OVER_SCROLL_RACK_PERSONAL_TUTOR",
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_two_DramaticReversal_IsochronScepter_over_ScrollRack_PersonalTutor_20261023.txt",
+   "raw_sha256": "d3d196acbb0b30926366b28e65fa6d2aa739272e8640e40dda3d9063cf6f080c",
+   "logical_hash": "lh1:43f010ed30b3c813157dc31823f076e2978dcc3f71613195fe5cbfdd95150078",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (two-swap data-led package). Highest-inclusion new combo package (Dramatic Reversal 11/30, Isochron Scepter 8/30) adds Spellbook 4821-5261 (7 -> 8 combos) but is a generic Grixis line with no Jeleva text, homogenizes toward the Kess/Inalla cores and cuts Scroll Rack, an owner explicit keep; the owner-direction rule is not clearly beaten."
+  }
+ ]
+}

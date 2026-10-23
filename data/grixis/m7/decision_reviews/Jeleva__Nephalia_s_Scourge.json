@@ -1,0 +1,762 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "canonical_baseline_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+ "canonical_baseline_logical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "commander_identity": {
+  "mechanical_plan": "Jeleva, Nephalia's Scourge ({1}{U}{B}{R} 1/3 flying legendary Vampire Wizard; Commander 2013, set c13, released 2013-11-01; commander-legal, not a Game Changer, no project exception). ETB: each player exiles the top X cards of their library, X = mana spent to cast her (commander tax raises X). Attack: you may cast an instant or sorcery from among cards exiled with her without paying its mana cost. Plan (owner blueprint 2026-10-14): stage a high-impact spell on top (Mystical, Vampiric, Imperial Seal, Personal Tutor, Scheming Symmetry, Long-Term Plans, Brainstorm, Scroll Rack, Sensei's Divining Top), cast Jeleva, give haste (Torch Courier, Lightning Greaves, Arena of Glory, or Borne Upon a Wind end-step flash), attack and cast it free (Mind's Desire, Peer into the Abyss, Mnemonic Betrayal, Doomsday, Yawgmoth's Will, Final Fortune). Harmonic Prodigy doubles both triggers. Backups: Thassa's Oracle + Demonic Consultation / Tainted Pact / Doomsday and Underworld Breach + Lion's Eye Diamond + Brain Freeze / Wheel of Fortune / Jeska's Will.",
+  "protected_core": [
+   "Jeleva, Nephalia's Scourge",
+   "Harmonic Prodigy",
+   "Personal Tutor",
+   "Scheming Symmetry",
+   "Long-Term Plans",
+   "Scroll Rack",
+   "Sensei's Divining Top",
+   "Brainstorm",
+   "Mystical Tutor",
+   "Vampiric Tutor",
+   "Imperial Seal",
+   "Lightning Greaves",
+   "Torch Courier",
+   "Arena of Glory",
+   "Mind's Desire",
+   "Peer into the Abyss",
+   "Mnemonic Betrayal",
+   "Doomsday",
+   "Yawgmoth's Will",
+   "Final Fortune",
+   "Thassa's Oracle",
+   "Demonic Consultation",
+   "Tainted Pact",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Brain Freeze"
+  ],
+  "natural_ceiling": "Power Bracket 5 (fringe cEDH; owner-approved), unchanged. Game Changers: 20 in both baseline and candidate (Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Opposition Agent, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor). The owner's decisions file records 2026 EDHTop16 Jeleva entries (best 18th of 103) and 0% large-event conversion.",
+  "anti_homogenization": "Commander-first to Jeleva's Oracle: no generic Grixis staple is added. Distinctness (nonbasic names shared with the Grixis cEDH cores, baseline = candidate, canonical Archidekt exports): Kess, Dissident Mage 78; Kefka, Court Mage 77; Inalla, Archmage Ritualist 68; Evelyn, the Covetous 67. The overlap is the cEDH staple core (fast mana, tutors, free counters, Oracle/Breach). Jeleva-unique against all four: Doomsday, Lightning Greaves, Long-Term Plans, Mind's Desire, Peer into the Abyss, Preordain, Scheming Symmetry, Scroll Rack, Sensei's Divining Top, Torch Courier, Yawgmoth's Will. Every rejected generic add (Dramatic Reversal + Isochron Scepter, Reanimate, Intuition) would raise that overlap. Owner-removed or rejected cards and classes (Mana Drain, Cyclonic Rift, Mizzix's Mastery, Time Stretch, Nexus of Fate, Swiftfoot Boots, Frantic Search, signets, Mountain, The One Ring, Beseech the Mirror, Praetor's Grasp, Notion Thief, Dauthi Voidwalker, Orcish Bowmasters, Valley Floodcaller, Roaming Throne, Strionic Resonator, Burnt Offering, Rain of Filth) are not re-added."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards (99 rows; 1x Island, 1x Swamp; 100 distinct names for Tainted Pact) were reviewed; every one is owner-directed (37 retained from the FINAL60 baseline + 62 added on 2026-10-14). Roles: 27 lands; 7 library creatures (Harmonic Prodigy, Hexing Squelcher, Opposition Agent, Ragavan, Nimble Pilferer, Simian Spirit Guide, Thassa's Oracle, Torch Courier); 45 instants and sorceries; 16 artifacts (fast mana Sol Ring, Mana Vault, Grim Monolith, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, Lion's Eye Diamond, Talismans, Arcane Signet, Fellwar Stone; plus Lightning Greaves, Scroll Rack, Sensei's Divining Top, Wishclaw Talisman); 11 Jeleva stagers (bounded T1); 4 haste/flash enablers (T3); stack suite (Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Flusterstorm, Swan Song, Mental Misstep, Mindbreak Trap, Pyroblast, Red Elemental Blast, An Offer You Can't Refuse, Deflecting Swat); engines (Necropotence, Rhystic Study, Mystic Remora, Ad Nauseam, Wheel of Fortune, Windfall). Overlaps: Pyroblast/Red Elemental Blast, Snap/Chain of Vapor and Intuition/Long-Term Plans judged in the candidate list.",
+  "mana_base_and_curve": "Unchanged (zero swaps). 27 lands, U/B/R sources 21/20/19 (fetches and rainbow lands counted per colour; bounded T6). 72 nonland cards; curve MV0 6, MV1 27, MV2 19, MV3 15, MV4 1, MV5 2, MV6 1, MV7 1; average nonland MV 1.9.",
+  "interaction_resilience": "Twelve stack-interaction cards (most free or one mana), Hexing Squelcher (our spells can't be countered), Opposition Agent, Toxic Deluge, Into the Flood Maw / Chain of Vapor / Otawara bounce and Lightning Greaves shroud for Jeleva. Weak to Jeleva removal before the attack (the linked pool is lost) and to graveyard hate against Breach. Unchanged by this pass.",
+  "weakest_slots": [
+   {
+    "card": "Long-Term Plans",
+    "weakness": "A 3-MV instant tutor that is absent from the 30-deck cEDH sample.",
+    "alternative_named": "Intuition",
+    "reasoning": "Owner explicit keep. Pass C's Intuition test measured worse (T1/T2). Kept."
+   },
+   {
+    "card": "Scheming Symmetry",
+    "weakness": "Also lets another player tutor (CR 115.3); cEDH 5/30.",
+    "alternative_named": "Intuition",
+    "reasoning": "Blueprint card; {B} two-card stage for Jeleva. Intuition stages nothing. Kept."
+   },
+   {
+    "card": "Borne Upon a Wind",
+    "weakness": "A 2-MV cantrip with no direct effect; cEDH 11/30.",
+    "alternative_named": "Galvanic Iteration",
+    "reasoning": "One of four Jeleva haste/flash enablers; Galvanic lowers enabler access (T3). Kept."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "Costs 2 life for a low-impact cantrip; cEDH 17/30.",
+    "alternative_named": "Snap",
+    "reasoning": "Free storm/Breach fuel; cEDH 17/30 vs 11/30. Snap staged as an owner decision. Kept."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "A narrow counter that only hits MV1 spells; cEDH 16/30.",
+    "alternative_named": "Spellseeker",
+    "reasoning": "Free counter; Spellseeker is 3 MV and 5/30. Kept."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Forbidden Orchard",
+    "reasoning": "Owner keep; Forbidden Orchard gives no colour gain and feeds opponents bodies. Kept."
+   },
+   {
+    "card": "Arena of Glory",
+    "weakness": "Enters tapped unless you control a Mountain; cEDH 5/30.",
+    "alternative_named": "Hanweir Battlements",
+    "reasoning": "Blueprint haste land; Hanweir loses a red source. Kept."
+   },
+   {
+    "card": "Scroll Rack",
+    "weakness": "A slow 2-MV artifact with the lowest cEDH rate (2/30).",
+    "alternative_named": "Dramatic Reversal",
+    "reasoning": "Owner explicit keep (Jeleva-unique hand-to-top). The Reversal/Scepter package is generic. Kept."
+   },
+   {
+    "card": "Personal Tutor",
+    "weakness": "A sorcery-only {U} stager (instants and sorceries); cEDH 6/30.",
+    "alternative_named": "Isochron Scepter",
+    "reasoning": "Blueprint stager; Merchant Scroll and Cruel Tutor are worse. Kept."
+   },
+   {
+    "card": "Torch Courier",
+    "weakness": "A 1/1 haste enabler that is absent from the cEDH sample.",
+    "alternative_named": "Goblin Bushwhacker",
+    "reasoning": "Blueprint haste enabler that can be deployed a turn early. Kept."
+   },
+   {
+    "card": "Final Fortune",
+    "weakness": "You lose at the end step of the extra turn unless you win first.",
+    "alternative_named": "Savage Beating",
+    "reasoning": "Blueprint extra-turn Jeleva target at 2 MV. Kept."
+   },
+   {
+    "card": "Mox Opal",
+    "weakness": "Metalcraft is live with P 0.2277 given Opal plus 6 other cards.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Owner addition; Amber is worse with 2 legendary creatures. Kept."
+   },
+   {
+    "card": "Wishclaw Talisman",
+    "weakness": "Hands an opponent a tutor after use; cEDH 10/30.",
+    "alternative_named": "Merchant Scroll",
+    "reasoning": "Owner addition; finds any card; no clearly better tutor. Kept."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner baseline keep; the owner noted '-Fellwar Stone endangers colours in 27 lands' (Pass C). Kept."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Colourless unless it is in the opening hand and you are not the starting player.",
+    "alternative_named": "Starting Town",
+    "reasoning": "Owner addition; 16/30 cEDH. Kept."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 5 fringe-cEDH Jeleva list (2026-10-14) whose owner red-team pass found ZERO NEW MATERIAL IMPROVEMENTS. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING for +Intuition/-Long-Term Plans (alternative cut Scheming Symmetry) and +Galvanic Iteration/-Borne Upon a Wind. This M7 pass ran them as bounded exact tests (T1-T6): all three measured worse at Jeleva's own job.",
+  "candidate_pool_scope": "EDHREC Jeleva general, upgraded, optimized and cEDH (30-deck sample) page JSON; live Scryfall /cards/collection batch (100 baseline + 109 candidates; banned Dockside Extortionist, Jeweled Lotus and Mana Crypt and off-identity Manamorphose and Silence excluded); OFF-RANKING searches for Jeleva-specific stagers, haste sources and resets absent from the cEDH sample (Galvanic Iteration, Hanweir Battlements, Merchant Scroll, Goblin Bushwhacker, Snapback, Insidious Dreams, Cruel Tutor, Savage Beating, Conjurer's Closet); Commander Spellbook for baseline, candidate and all 8 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Galvanic Iteration (Pass C; staged and measured), Hanweir Battlements (staged, loses a red source), Merchant Scroll, Goblin Bushwhacker, Snapback, Insidious Dreams, Cruel Tutor, Savage Beating, Conjurer's Closet. None beats an incumbent on Jeleva staging, haste access or colours. No off-ranked card is selected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Jeleva, Nephalia's Scourge approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Jeleva_Nephalia_s_Scourge_Approved_2026-10-14.txt, blob 8cdc5b5a, introduced by d53789d1 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Jeleva__Nephalia_s_Scourge_approved_source_2026-10-14.txt)",
+  "EDHREC Jeleva, Nephalia's Scourge commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T13:33:29-0500, discovery only: data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T13:34:20-0500: data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T13:37:16-0500: data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for Jeleva stagers, haste sources and resets absent from the cEDH sample (Galvanic Iteration, Hanweir Battlements, Merchant Scroll, Goblin Bushwhacker, Snapback, Insidious Dreams, Cruel Tutor, Savage Beating, Conjurer's Closet)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Jeleva__Nephalia_s_Scourge.md; data/grixis/m6/deep_reviews/Jeleva__Nephalia_s_Scourge.md",
+  "Owner 2026-10-14 current-cycle decisions (blueprint, retained 37, cut 61, added 62, adversarial second pass): canonical refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 107.3m, 115.3, 302.6, 601.2f, 603.2d, 607.2a, 702.10b, 702.40a, 707.10, 903.8; frozen rulings for Jeleva, Long-Term Plans, Intuition, Galvanic Iteration, Borne Upon a Wind, Snap, Spellseeker, Final Fortune, Mind's Desire, Isochron Scepter, Arena of Glory, Exotic Orchard, Hanweir Battlements, Underworld Breach, Gemstone Caverns, Mox Opal: data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+  "Bounded finite measured tests (the Pass C request): T1 exact Jeleva stager access, T2 exhaustive hostile Intuition piles, T3 Galvanic copy outcomes and haste/flash enabler access, T4 Mox Opal metalcraft, T5 Spellseeker reach, T6 land colour sources; tested pool of 11 complete 100s: data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Jeleva__Nephalia_s_Scourge_M7_tested_configurations_20261023.json; tests/test_m6_jeleva_nephalias_scourge_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Intuition",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH 4/30 (synergy 0.117); live Scryfall batch; Pass C's first requested test (sealed Stage A verdict NEEDS TESTING +Intuition/-Long-Term Plans)",
+   "role": "{2}{U} instant: reveal three cards; target opponent puts one into your hand and the rest into your graveyard (Game Changer).",
+   "named_cuts": [
+    "Long-Term Plans",
+    "Scheming Symmetry"
+   ],
+   "incumbent_opportunity_cost": "Long-Term Plans is an owner explicit keep ('RETAINED over Mana Drain', 2026-10-14 adversarial second pass): {2}{U} instant tutor to third from top, which Jeleva's ETB (X>=4 on any normal cast) captures immediately. It is one of 11 Jeleva stagers (bounded T1). Absent from the 30-deck cEDH sample. Alternative cut: Scheming Symmetry is an owner addition named in the commander blueprint ('unusually strong here'): {B} sorcery; two different target players (CR 115.3) each tutor to the top, and Jeleva's ETB can exile both staged cards. cEDH 5/30.",
+   "commander_synergy": "None for Jeleva's top-stage job: Intuition never puts a card into the library, so nothing it finds can be exiled with Jeleva (CR 607.2a). It feeds graveyard lines (Underworld Breach, Yawgmoth's Will).",
+   "adversarial_downside": "Bounded T2, exhaustive hostile-choice enumeration: the Breach/LED/Brain Freeze pile fails (the opponent hands over LED or Brain Freeze and strands Breach in the graveyard). The Oracle/Consultation/Pact pile hands over the dead piece. The triple-tutor pile is a slower stager. Cutting Long-Term Plans drops direct stagers 11 -> 10 (P(>=1 stager) by 8 cards 0.6246 -> 0.5875). It cuts an owner explicit keep (or, with the alternative cut, the {B} blueprint stager Scheming Symmetry; both staged as complete 100s). It adds a 21st Game Changer. Spellbook 7 -> 7 for both.",
+   "judgment": "REJECT",
+   "reason": "Measured worse at the commander's job and cuts an owner explicit keep; the GrokBot 'waits two draws' premise is false (T1 rules).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/final_disposition.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Jeleva__Nephalia_s_Scourge.md",
+    "canonical refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_LongTermPlans_20261023.txt",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_SchemingSymmetry_20261023.txt"
+   ]
+  },
+  {
+   "card": "Galvanic Iteration",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general 302/3222 (synergy 0.078), upgraded 30/285 (synergy 0.089), optimized 12/114 (synergy 0.089), cEDH absent; live Scryfall batch; Pass C's second requested test",
+   "role": "{U}{R} instant, flashback {1}{U}{R}: copy the next instant or sorcery you cast this turn.",
+   "named_cuts": [
+    "Borne Upon a Wind"
+   ],
+   "incumbent_opportunity_cost": "Borne Upon a Wind is an owner addition: {1}{U} instant, flash for spells this turn plus draw; it lets Jeleva be cast at an opponent's end step and attack on your turn without a haste source. cEDH 11/30.",
+   "commander_synergy": "Jeleva casts her free spell, so a Galvanic Iteration cast earlier in the turn copies it.",
+   "adversarial_downside": "Bounded T3: the copy is not cast (CR 707.10), so it adds no storm count. Eight key targets gain nothing or are harmed (Demonic Consultation, Doomsday, Final Fortune, Mnemonic Betrayal, Peer into the Abyss, Tainted Pact, Toxic Deluge, Yawgmoth's Will). Removing Borne drops Jeleva haste/flash enablers 4 -> 3: P(>=1) 0.2577-0.3514 -> 0.1994-0.2760 over 7-10 cards. Off-ranking (absent from the cEDH sample). Spellbook 7 -> 7.",
+   "judgment": "REJECT",
+   "reason": "Measured worse on Jeleva attack access; the copy gains little on the deck's real targets.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/final_disposition.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_GalvanicIteration_minus_BorneUponAWind_20261023.txt"
+   ]
+  },
+  {
+   "card": "Snap",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general 414/3222 (synergy 0.03), upgraded 46/285 (synergy 0.063), optimized 17/114 (synergy 0.051), cEDH 11/30 (synergy 0.268); live Scryfall batch",
+   "role": "{1}{U} instant: return target creature to its owner's hand; untap up to two lands.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Gitaxian Probe is an owner addition: a 0-mana (2 life) cantrip and LED/Breach/storm enabler that also shows a hand before a Jeleva turn. cEDH 17/30.",
+   "commander_synergy": "Free with two untapped lands; saves Jeleva from removal and resets her to a larger X on recast (CR 903.8 tax raises X; a returned Jeleva loses her old pool per the 2013-10-17 ruling); also answers creature hate pieces at tempo. It adds to storm.",
+   "adversarial_downside": "Lower cEDH adoption (11/30 against 17/30). It needs a creature target and two lands in play; Probe is free on turn 1 and is a Breach escape fuel card. Spellbook 7 -> 7.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "A real Jeleva-protective role but the data and tempo do not clearly beat Probe; staged as a complete 100 for an owner decision, not counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Snap_over_GitaxianProbe_20261023.txt"
+   ]
+  },
+  {
+   "card": "Spellseeker",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH 5/30 (synergy 0.135); live Scryfall batch",
+   "role": "{2}{U} 1/1 Human Wizard: ETB search for an instant or sorcery with MV <= 2.",
+   "named_cuts": [
+    "Mental Misstep"
+   ],
+   "incumbent_opportunity_cost": "Mental Misstep is an owner addition: a free counter for MV1 spells that protects Breach/Oracle turns and blanks opposing rituals and tutors. cEDH 16/30.",
+   "commander_synergy": "A Wizard, so Harmonic Prodigy doubles the ETB. It reaches 29 MV<=2 instants/sorceries in the 99 (bounded T5), including Personal Tutor and Scheming Symmetry stagers.",
+   "adversarial_downside": "3 MV against free protection; it needs Prodigy already in play to double. cEDH 5/30. Spellbook 7 -> 7.",
+   "judgment": "REJECT",
+   "reason": "Slower and lower-data than the incumbent free counter.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Spellseeker_over_MentalMisstep_20261023.txt"
+   ]
+  },
+  {
+   "card": "Forbidden Orchard",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH 9/30 (synergy 0.278); live Scryfall batch",
+   "role": "Land: any colour; target opponent creates a 1/1 Spirit each time it is tapped.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Exotic Orchard is an owner baseline keep (retained 37): rainbow land conditioned on opponents' lands.",
+   "commander_synergy": "Unconditional rainbow on turn 1; the Spirits cannot block flying Jeleva.",
+   "adversarial_downside": "Bounded T6: U/B/R sources unchanged at 21/20/19, so no colour gain. It gives opponents bodies (sacrifice fodder, attackers, Opposition-style triggers). cEDH 9/30 against 18/30. Spellbook 7 -> 7.",
+   "judgment": "REJECT",
+   "reason": "No colour gain over the owner keep; it gives opponents resources; data favours the incumbent.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_ForbiddenOrchard_over_ExoticOrchard_20261023.txt"
+   ]
+  },
+  {
+   "card": "Hanweir Battlements",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded 17/285 (synergy 0.056), optimized 6/114 (synergy 0.049), cEDH absent; live Scryfall batch",
+   "role": "Land: {C}; {R},{T}: target creature gains haste.",
+   "named_cuts": [
+    "Arena of Glory"
+   ],
+   "incumbent_opportunity_cost": "Arena of Glory is an owner addition named in the haste blueprint: R land (enters tapped without a Mountain) whose exert RR mana gives Jeleva haste. cEDH 5/30.",
+   "commander_synergy": "Repeatable haste for Jeleva on every recast.",
+   "adversarial_downside": "Makes only {C}: red sources 19 -> 18 (bounded T6). It needs {R} plus its own tap, so 5 mana for Jeleva plus haste versus Arena's exert. Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Loses a red source and is off-ranking.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_HanweirBattlements_over_ArenaOfGlory_20261023.txt"
+   ]
+  },
+  {
+   "card": "Dramatic Reversal",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized 11/114 (synergy 0.076), cEDH 11/30 (synergy 0.346); live Scryfall batch; with Isochron Scepter as a two-card package",
+   "role": "{1}{U} instant: untap all nonland permanents you control.",
+   "named_cuts": [
+    "Scroll Rack"
+   ],
+   "incumbent_opportunity_cost": "Scroll Rack is an owner explicit keep ('uniquely converts expensive spells stranded in hand into known Jeleva exile targets'). cEDH 2/30.",
+   "commander_synergy": "Generic infinite mana/storm with Isochron Scepter and >= {3} of nonland mana (Commander Spellbook 4821-5261) that can fuel Brain Freeze or Mind's Desire; no Jeleva text.",
+   "adversarial_downside": "A homogenizing Grixis combo shared with the Kess/Inalla cores. It cuts an owner explicit keep and Personal Tutor (blueprint stager). Spellbook 7 -> 8. Two dead-alone pieces.",
+   "judgment": "REJECT",
+   "reason": "The owner-direction rule is not clearly beaten; it moves the deck away from Jeleva.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "canonical refinement/decisions/Jeleva_Nephalia_s_Scourge_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_two_DramaticReversal_IsochronScepter_over_ScrollRack_PersonalTutor_20261023.txt"
+   ]
+  },
+  {
+   "card": "Isochron Scepter",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized 11/114 (synergy 0.074), cEDH 8/30 (synergy 0.244); live Scryfall batch; package partner of Dramatic Reversal",
+   "role": "{2} artifact: imprint an instant with MV <= 2; {2},{T}: copy and cast it free.",
+   "named_cuts": [
+    "Personal Tutor"
+   ],
+   "incumbent_opportunity_cost": "Personal Tutor is an owner addition named in the blueprint top-stagers: {U} sorcery to the top for Jeleva's ETB. cEDH 6/30.",
+   "commander_synergy": "An artifact for Mox Opal (16 -> 17); with Dramatic Reversal see above.",
+   "adversarial_downside": "Same package downside; it removes a direct Jeleva stager (11 -> 10).",
+   "judgment": "REJECT",
+   "reason": "Package partner of a rejected generic combo; cuts a stager.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_two_DramaticReversal_IsochronScepter_over_ScrollRack_PersonalTutor_20261023.txt"
+   ]
+  },
+  {
+   "card": "Reanimate",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general 259/3222 (synergy -0.181), upgraded 26/285 (synergy -0.17), optimized absent, cEDH 11/30 (synergy 0.106); live Scryfall batch",
+   "role": "{B} sorcery: put target creature card from a graveyard onto the battlefield; lose life equal to its MV.",
+   "named_cuts": [
+    "Final Fortune"
+   ],
+   "incumbent_opportunity_cost": "Final Fortune is an owner addition named as a Jeleva target (extra turn, another attack). cEDH 9/30.",
+   "commander_synergy": "None as a Jeleva free cast: it needs a creature in a graveyard and the deck runs 7 creatures with no Entomb package.",
+   "adversarial_downside": "The deck has no self-mill or Entomb; its cEDH popularity (11/30) comes from Entomb/Reanimate shells. Not commander-first.",
+   "judgment": "REJECT",
+   "reason": "No reanimation targets in this 99.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Merchant Scroll",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{1}{U} sorcery: search for a blue instant card to hand.",
+   "named_cuts": [
+    "Personal Tutor"
+   ],
+   "incumbent_opportunity_cost": "Personal Tutor is a blueprint stager.",
+   "commander_synergy": "Finds Borne Upon a Wind, Brainstorm, Long-Term Plans or blue counters.",
+   "adversarial_downside": "To hand, not to top: it stages nothing for Jeleva. Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Does not stage for Jeleva; worse than the incumbent stager.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mox Amber",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH 9/30 (synergy 0.243); live Scryfall batch",
+   "role": "{0} legendary artifact: mana of a colour among legendary creatures/planeswalkers you control.",
+   "named_cuts": [
+    "Mox Opal"
+   ],
+   "incumbent_opportunity_cost": "Mox Opal is an owner addition: metalcraft with 16 artifacts; P(>=2 other artifacts | Opal, 6 other cards) 0.2277 (bounded T4).",
+   "commander_synergy": "Taps for U/B/R once Jeleva or Ragavan is in play.",
+   "adversarial_downside": "Dead before Jeleva: the deck has only two legendary creatures (Jeleva, Ragavan) and no planeswalkers; cEDH 9/30 vs Opal 19/30.",
+   "judgment": "REJECT",
+   "reason": "Worse than Mox Opal in this artifact-dense, legend-light 99.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json"
+   ]
+  },
+  {
+   "card": "Starting Town",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH 5/26 (synergy 0.143); live Scryfall batch",
+   "role": "Land: {C}, or any colour for 1 life on turns 1-3.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Exotic Orchard is an owner keep.",
+   "commander_synergy": "Rainbow early, colourless later.",
+   "adversarial_downside": "Not clearly better: colour later costs nothing for Orchard; 5/26 sample.",
+   "judgment": "REJECT",
+   "reason": "A marginal land-for-land swap with no colour gain.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hall of the Bandit Lord",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general 348/3222 (synergy 0.104), upgraded 37/285 (synergy 0.126), optimized 18/114 (synergy 0.154), cEDH 3/30 (synergy 0.096); live Scryfall batch",
+   "role": "Land: enters tapped; 3 life + {T}: {C}; spent on a creature spell gives haste.",
+   "named_cuts": [
+    "Arena of Glory"
+   ],
+   "incumbent_opportunity_cost": "Arena of Glory is a blueprint haste land.",
+   "commander_synergy": "Haste for Jeleva when its mana is spent on her.",
+   "adversarial_downside": "Enters tapped, colourless, 3 life; Arena gives R. cEDH 3/30.",
+   "judgment": "REJECT",
+   "reason": "Loses a red source and enters tapped; no gain over Arena.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Goblin Bushwhacker",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{R} 1/1 Goblin, kicker {R}: creatures you control get +1/+0 and haste.",
+   "named_cuts": [
+    "Torch Courier"
+   ],
+   "incumbent_opportunity_cost": "Torch Courier is a blueprint haste enabler ({R} 1/1, sacrifice: another creature gains haste).",
+   "commander_synergy": "Haste for Jeleva from the same mana.",
+   "adversarial_downside": "Kicked it costs {R}{R} and must be cast after Jeleva on the same turn; Courier can be played the turn before and held. Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Not better than the blueprint enabler.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Snapback",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{1}{U} instant, alt cost exile a blue card: return target creature to its owner's hand.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Gitaxian Probe is an owner addition.",
+   "commander_synergy": "Free Jeleva protection/reset like Snap.",
+   "adversarial_downside": "Card disadvantage when pitched; Snap is the stronger version and is itself staged only as an alternative.",
+   "judgment": "REJECT",
+   "reason": "Dominated by Snap, which is itself only an alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Twinflame",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{1}{R} sorcery: hasty token copy of target creature.",
+   "named_cuts": [
+    "Torch Courier"
+   ],
+   "incumbent_opportunity_cost": "Torch Courier is a blueprint haste enabler.",
+   "commander_synergy": "A hasty token copy of Jeleva attacks at once.",
+   "adversarial_downside": "A token copy was not cast, so no mana was spent to cast it, X=0 and its ETB exiles nothing (Jeleva 2014-02-01 ruling: X is mana spent to cast); its attack trigger has an empty linked pool. Dead for Jeleva.",
+   "judgment": "REJECT",
+   "reason": "The token copy has no exile pool.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Conjurer's Closet",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{5} artifact: blink a creature each end step.",
+   "named_cuts": [
+    "Scroll Rack"
+   ],
+   "incumbent_opportunity_cost": "Scroll Rack is an owner explicit keep.",
+   "commander_synergy": "Repeats creature ETBs at each end step.",
+   "adversarial_downside": "A blinked Jeleva is not cast, so X=0 and nothing is exiled; 5 MV.",
+   "judgment": "REJECT",
+   "reason": "A blinked Jeleva is not cast, so X=0 and her pool is empty.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Insidious Dreams",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{3}{B} instant, discard X: put X cards on top in any order.",
+   "named_cuts": [
+    "Long-Term Plans"
+   ],
+   "incumbent_opportunity_cost": "Long-Term Plans is an owner explicit keep ('RETAINED over Mana Drain', 2026-10-14 adversarial second pass): {2}{U} instant tutor to third from top, which Jeleva's ETB (X>=4 on any normal cast) captures immediately. It is one of 11 Jeleva stagers (bounded T1). Absent from the 30-deck cEDH sample.",
+   "commander_synergy": "Stages several cards on top for a large Jeleva X.",
+   "adversarial_downside": "4 MV plus discards; slower than the incumbent stagers.",
+   "judgment": "REJECT",
+   "reason": "Too slow for Bracket 5 against the existing stagers.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Cruel Tutor",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{2}{B} sorcery: card to top, lose 2.",
+   "named_cuts": [
+    "Personal Tutor"
+   ],
+   "incumbent_opportunity_cost": "Personal Tutor is a blueprint stager.",
+   "commander_synergy": "A Jeleva stager for any card type.",
+   "adversarial_downside": "3 MV sorcery against Personal Tutor's {U}; the deck's stagers already cover any card (Vampiric, Imperial Seal, Scheming Symmetry, Long-Term Plans).",
+   "judgment": "REJECT",
+   "reason": "Slower than the incumbent {U} stager (3 MV sorcery).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Savage Beating",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{3}{R}{R} instant: double strike or extra combat with entwine.",
+   "named_cuts": [
+    "Final Fortune"
+   ],
+   "incumbent_opportunity_cost": "Final Fortune is a blueprint extra-turn target.",
+   "commander_synergy": "An extra combat gives a second Jeleva attack trigger when cast free.",
+   "adversarial_downside": "Only castable in combat; dead in hand at 5 MV. Final Fortune works from hand at 2 MV.",
+   "judgment": "REJECT",
+   "reason": "A dead card in hand outside combat; Final Fortune is better.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dockside Extortionist",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "Treasure for each opposing artifact/enchantment.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "None: it has no Jeleva staging or haste text.",
+   "adversarial_downside": "Banned in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander; excluded before evaluation.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Manamorphose",
+   "source": "EDHREC Jeleva, Nephalia's Scourge general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Jeleva, Nephalia's Scourge EDHREC page)",
+   "role": "{1}{R/G} instant: add two mana of any colours, draw.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "None: it has no Jeleva staging or haste text.",
+   "adversarial_downside": "R/G hybrid colour identity includes G, outside Jeleva's U/B/R.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Outside Jeleva's U/B/R colour identity; excluded.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [],
+  "cuts": [],
+  "coherent_package_tradeoff": "No change: zero genuine swaps. The candidate is the canonical 100, re-serialized (case-insensitive sort, terminal newline) with an identical logical hash. Staged owner decision: +Snap -Gitaxian Probe (one swap, not counted)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Long-Term Plans",
+    "weakness": "A 3-MV instant tutor that is absent from the 30-deck cEDH sample.",
+    "alternative_named": "Intuition",
+    "reasoning": "Owner explicit keep. Pass C's Intuition test measured worse (T1/T2). Kept."
+   },
+   {
+    "card": "Scheming Symmetry",
+    "weakness": "Also lets another player tutor (CR 115.3); cEDH 5/30.",
+    "alternative_named": "Intuition",
+    "reasoning": "Blueprint card; {B} two-card stage for Jeleva. Intuition stages nothing. Kept."
+   },
+   {
+    "card": "Borne Upon a Wind",
+    "weakness": "A 2-MV cantrip with no direct effect; cEDH 11/30.",
+    "alternative_named": "Galvanic Iteration",
+    "reasoning": "One of four Jeleva haste/flash enablers; Galvanic lowers enabler access (T3). Kept."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "Costs 2 life for a low-impact cantrip; cEDH 17/30.",
+    "alternative_named": "Snap",
+    "reasoning": "Free storm/Breach fuel; cEDH 17/30 vs 11/30. Snap staged as an owner decision. Kept."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "A narrow counter that only hits MV1 spells; cEDH 16/30.",
+    "alternative_named": "Spellseeker",
+    "reasoning": "Free counter; Spellseeker is 3 MV and 5/30. Kept."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Forbidden Orchard",
+    "reasoning": "Owner keep; Forbidden Orchard gives no colour gain and feeds opponents bodies. Kept."
+   },
+   {
+    "card": "Arena of Glory",
+    "weakness": "Enters tapped unless you control a Mountain; cEDH 5/30.",
+    "alternative_named": "Hanweir Battlements",
+    "reasoning": "Blueprint haste land; Hanweir loses a red source. Kept."
+   },
+   {
+    "card": "Scroll Rack",
+    "weakness": "A slow 2-MV artifact with the lowest cEDH rate (2/30).",
+    "alternative_named": "Dramatic Reversal",
+    "reasoning": "Owner explicit keep (Jeleva-unique hand-to-top). The Reversal/Scepter package is generic. Kept."
+   },
+   {
+    "card": "Personal Tutor",
+    "weakness": "A sorcery-only {U} stager (instants and sorceries); cEDH 6/30.",
+    "alternative_named": "Isochron Scepter",
+    "reasoning": "Blueprint stager; Merchant Scroll and Cruel Tutor are worse. Kept."
+   },
+   {
+    "card": "Torch Courier",
+    "weakness": "A 1/1 haste enabler that is absent from the cEDH sample.",
+    "alternative_named": "Goblin Bushwhacker",
+    "reasoning": "Blueprint haste enabler that can be deployed a turn early. Kept."
+   },
+   {
+    "card": "Final Fortune",
+    "weakness": "You lose at the end step of the extra turn unless you win first.",
+    "alternative_named": "Savage Beating",
+    "reasoning": "Blueprint extra-turn Jeleva target at 2 MV. Kept."
+   },
+   {
+    "card": "Mox Opal",
+    "weakness": "Metalcraft is live with P 0.2277 given Opal plus 6 other cards.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Owner addition; Amber is worse with 2 legendary creatures. Kept."
+   },
+   {
+    "card": "Wishclaw Talisman",
+    "weakness": "Hands an opponent a tutor after use; cEDH 10/30.",
+    "alternative_named": "Merchant Scroll",
+    "reasoning": "Owner addition; finds any card; no clearly better tutor. Kept."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Its colours depend on what opponents' lands can produce.",
+    "alternative_named": "Arcane Signet",
+    "reasoning": "Owner baseline keep; the owner noted '-Fellwar Stone endangers colours in 27 lands' (Pass C). Kept."
+   },
+   {
+    "card": "Gemstone Caverns",
+    "weakness": "Colourless unless it is in the opening hand and you are not the starting player.",
+    "alternative_named": "Starting Town",
+    "reasoning": "Owner addition; 16/30 cEDH. Kept."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Galvanic Iteration (staged, measured, rejected), Hanweir Battlements (staged, rejected), Merchant Scroll, Goblin Bushwhacker, Snapback, Insidious Dreams, Cruel Tutor, Savage Beating, Conjurer's Closet (none beats an incumbent).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Dramatic Reversal",
+     "Isochron Scepter"
+    ],
+    "cuts": [
+     "Scroll Rack",
+     "Personal Tutor"
+    ],
+    "result_and_rationale": "Data-led two-card combo (cEDH 11/30 and 8/30), staged as a complete 100. Spellbook 7 -> 8 (4821-5261). REJECTED: generic Grixis infinite with no Jeleva text, cuts an owner explicit keep and a blueprint stager."
+   }
+  ],
+  "no_two_package_reason": "Only one credible multi-slot package exists: Dramatic Reversal + Isochron Scepter, the one pair of non-incumbents whose value depends on each other (Spellbook 4821-5261). Every other admissible candidate works alone, and its single-slot test already settles it. Combining rejected singles (for example Intuition + Galvanic Iteration over Long-Term Plans + Borne Upon a Wind, or Snap + Spellseeker over Gitaxian Probe + Mental Misstep) adds no interaction. The measured losses simply add up: fewer stagers, fewer haste/flash enablers, slower protection. So no second package is credible.",
+  "alternate_cuts_for_prior_holds": "Pass C requested +Intuition against Long-Term Plans and against Scheming Symmetry, and +Galvanic Iteration against Borne Upon a Wind. All three are staged as complete 100s and measured (T1-T3). Alternate cuts outside the owner keep list were checked (Gitaxian Probe, Mental Misstep, Exotic Orchard, Arena of Glory, Personal Tutor); every incumbent is owner-directed (retained 37 or added 62), so no non-owner-directed cut exists.",
+  "strongest_argument_against_baseline": "Scroll Rack (2/30), Scheming Symmetry (5/30), Arena of Glory (5/30) and Personal Tutor (6/30) are the lowest-data incumbents, while Snap, Dramatic Reversal and Reanimate each sit at 11/30 in the cEDH sample.",
+  "evidence_based_answer": "Zero genuine admissible swaps. The low-data incumbents are Jeleva-specific stagers and haste pieces named in the owner blueprint; the high-data challengers are generic (Dramatic Reversal + Isochron Scepter, Reanimate) or do not clearly beat their slot (Snap over Gitaxian Probe, staged as an owner decision). The Pass C tests (Intuition, Galvanic Iteration) measured worse on Jeleva's own job.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Jeleva__Nephalia_s_Scourge.txt",
+  "sha256": "4818b32a8f8bcbbadef7c4a46bead2b089d1e104d2faa68c4c1c14cd65ce6df1",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 1x Island, 1x Swamp, every card 1x (100 distinct names). Zero substitutions against the canonical source; same logical hash lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c. 27 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Jeleva__Nephalia_s_Scourge_M7_tested_configurations_20261023.json",
+   "tests/test_m6_jeleva_nephalias_scourge_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/final_disposition.md"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "cEDH",
+   "Spellslinger",
+   "Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: zero genuine swaps were found. Pass C's requested tests (+Intuition over Long-Term Plans or Scheming Symmetry; +Galvanic Iteration over Borne Upon a Wind) measured worse on bounded exact tests of Jeleva staging and attack access. The best other alternative, Snap over Gitaxian Probe, is staged as an owner decision and not counted (data 11/30 vs 17/30). Every other candidate is generic or homogenizing (Dramatic Reversal + Isochron Scepter, Reanimate), marginal (Spellseeker, Forbidden Orchard, Starting Town, Mox Amber, Merchant Scroll, Cruel Tutor, Insidious Dreams), loses colour (Hanweir Battlements, Hall of the Bandit Lord), has no Jeleva value (Twinflame and Conjurer's Closet give X=0; Savage Beating is dead in hand) or is invalid (Dockside Extortionist banned, Manamorphose off-identity). The five-swap owner-presentation floor is not met without padding. This packet is NOT owner-presentable and NOT owner approved; the canonical Jeleva, Nephalia's Scourge list is unchanged."
+}
