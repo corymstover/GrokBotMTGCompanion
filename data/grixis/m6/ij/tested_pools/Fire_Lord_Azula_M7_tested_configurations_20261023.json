@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Fire_Lord_Azula",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Fire_Lord_Azula_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 10,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Fire_Lord_Azula_approved_source_2026-10-14.txt",
+   "raw_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+   "logical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw b6ef3966…, fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 0aa3e809, introduced by canonical approval commit 901face 2026-10-14; registry source_commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/fire-lord-azula.txt",
+   "raw_sha256": "e52f1cbbf1b17f3e3cef0ef9d466e93bdf5e85bc4d32ac5f2856b4bd2b36fda4",
+   "logical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Fire_Lord_Azula.txt",
+   "raw_sha256": "f4136ea0028ee787dddad379e12a7e34ccdaa6578a52d1c63ae953734e5806f2",
+   "logical_hash": "lh1:c322775496765320d1e9ccef49784108965afe28500d98e56ba70e6eb0b1ee7a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Turnabout +Sink into Stupor // Soporific Springs +Unexpected Windfall +Flashback +Mistrise Village / -Samut, Tyrant of Naktamun -Exotic Orchard -Vivi Ornitier -Swan Song -Gemstone Caverns. FLAGGED: cuts the owner-added Samut (split second disables the bargained Beseech free cast and both Azula + Narset's Reversal loops); keep-Samut alternative staged. Lands 26 -> 25 plus the Soporific Springs MDFC; R/U/B land sources 21/21/20 -> 19/20/18 (U 21 counting the Soporific Springs MDFC; baseline counts Gemstone Caverns as rainbow, an upper bound); Spellbook complete combos 9 -> 10 (+11-4276-7089). Azula castable by turn 4 on the play 0.4920 -> 0.4905 with the MDFC played as a land (0.4632 if never played as a land). Game Changers 20 -> 20. MODERATE confidence; no measured playtests."
+  },
+  {
+   "id": "FOUR_KEEP_SAMUT_NO_TURNABOUT",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_Samut_no_Turnabout_20261023.txt",
+   "raw_sha256": "539c7e1895a6f2eb6f80ab79b788ff8321bd5d90b4e7d5eeda322c25fd118bca",
+   "logical_hash": "lh1:ceef4e5cbf9eaae88888ad4517b84bce407e46e43d51903522f1a3e452028589",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor). The owner-keep alternative: the primary without +Turnabout/-Samut. Keeps the owner's split-second protection; the Narset's Reversal loop and bargained Beseech free cast stay disabled whenever Samut is on the battlefield."
+  },
+  {
+   "id": "FOUR_KEEP_SWAN_SONG_NO_FLASHBACK",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_four_keep_SwanSong_no_Flashback_20261023.txt",
+   "raw_sha256": "527e7ac1fef646dc80458570c06509fef6a22620805fc1b578f316e98f2731c4",
+   "logical_hash": "lh1:b61489e413a00f13b4c0b47baf358710a6b2685c4bd62d3b494451c5e9f53ac2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor). The primary without +Flashback/-Swan Song: keeps the 1-mana counter (stats.cedh.events staple 56.9%) if the owner values stack count over Flashback's combat-turn recursion."
+  },
+  {
+   "id": "FIVE_KEEP_GEMSTONE_CAVERNS_CUT_WOODED_FOOTHILLS",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_five_keep_GemstoneCaverns_cut_WoodedFoothills_20261023.txt",
+   "raw_sha256": "d9168774aeacb55e13a9785a8e2f372eb89f20b3937764b0340e0d394eaa6310",
+   "logical_hash": "lh1:9ef66c624661ee103e295251542e16b711b30efc1a98db0a250ca2fee6539d35",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Keeps Gemstone Caverns (EDHREC cEDH 78%) and cuts Wooded Foothills (52%) for Mistrise Village instead; fetch count 9 -> 8."
+  },
+  {
+   "id": "SIX_MOX_AMBER_OVER_FELLWAR_STONE",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_six_MoxAmber_over_FellwarStone_20261023.txt",
+   "raw_sha256": "4af9f0e33d337382772097758ba5b6bd1789e3a45cee233d8eeb5d8f2745a9e0",
+   "logical_hash": "lh1:af092ef4ca23430331bfa5bce17794db0e99aa7b9a54f5a579966eff5dd6778d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged). Adds Mox Amber (EDHREC cEDH 53%) over Fellwar Stone on top of the primary. Not primary: Mox Amber is dead before a legendary creature lands (Azula, Ragavan, Birgi, Wan Shi Tong, Geist), and the castability model drops turn-4 Azula on the play 0.4905 -> 0.4638 (MDFC as land)."
+  },
+  {
+   "id": "PASS_C_SPELLSEEKER_OVER_SAMUT_BASELINE",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_Spellseeker_minus_Samut_20261023.txt",
+   "raw_sha256": "e860be6267d1bfd9fae5c689fc3398aa6d7a7661ca8b9cee9f70156404a12dfc",
+   "logical_hash": "lh1:bbcead1f6f4d549f37e257ee778ec2e99e59958a966e88a05a0ffa194635ebbc",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; the exact Pass C Priority 1 test on the baseline). Spellseeker reaches 30 instants/sorceries with MV <= 2 in the baseline. Not primary: Spellseeker is owner-removed (three-mana tutor body loses to Beseech/Wishclaw/one-mana tutors); Turnabout fills the Samut slot instead."
+  },
+  {
+   "id": "PASS_C_STORMKILN_OVER_BIGSCORE_BASELINE",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_BigScore_20261023.txt",
+   "raw_sha256": "55c0463acfbb8399971b0adc04cad470980e1dffb3714f46ca95beb968b9cd78",
+   "logical_hash": "lh1:f3046f67ea38da2495af83b9571d07b497d97fb6f553eaa93b483d1be9c14996",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; the exact Pass C Priority 2 test). Bounded ledger: a pre-combat Artist makes 2 Treasures per spell cast while Azula attacks (net 2k - 4 after its own cost); Big Score copied gives 4 cards and 4 Treasures for one discard at instant speed. Not primary: Storm-Kiln is owner-removed (four-mana setup), and it needs k >= 4 combat spells to beat Big Score's mana while drawing nothing."
+  },
+  {
+   "id": "PASS_C_STORMKILN_OVER_WANSHITONG_BASELINE",
+   "path": "data/grixis/m7/research_challengers/Fire_Lord_Azula_PassC_baseline_plus_StormKilnArtist_minus_WanShiTong_20261023.txt",
+   "raw_sha256": "bb987c4d2309a454dfddeec53ea9c4c0d5c926aa8ff28b3f350ae4199d6c7f43",
+   "logical_hash": "lh1:51120abf6f994cdf0863642f6ec1edf7596b4465f020b30459a7467e55be0467",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; the Pass C optional separate test). Keeps Big Score and trades the Wan Shi Tong flash value body for the Artist. Not primary: owner-removed card, and Wan Shi Tong is a 43.6% stats.cedh.events staple with flash."
+  }
+ ]
+}

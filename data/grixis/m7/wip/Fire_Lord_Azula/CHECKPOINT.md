@@ -11,5 +11,6 @@
 - Shared infra copied byte-identically from PR #666 head 8150b968 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance; research snapshot (EDHREC 4 pages + stats.cedh.events 181 entries, live Scryfall legality, Spellbook baseline 9 included / candidate 10, bounded Pass C tests); provisional 5-swap candidate f4136ea0... and 7 staged alternatives.
 - Provisional swaps: +Turnabout/-Samut, Tyrant of Naktamun (FLAGGED override of owner addition); +Sink into Stupor // Soporific Springs/-Exotic Orchard; +Unexpected Windfall/-Vivi Ornitier; +Flashback/-Swan Song; +Mistrise Village/-Gemstone Caverns.
-- Next: oracle/rules snapshots, tested pool, decision packet, I/J memos, bundle/certificate, adversarial packet, tests, workflow.
-- Checkpoint written: 2026-10-23T11:00:23-0500
+- Completed: oracle snapshot (205 names, 0 diffs vs frozen), rules snapshot, tested pool (10 configurations).
+- Next: decision packet, I/J memos, bundle/certificate, adversarial packet, tests, workflow.
+- Checkpoint written: 2026-10-23T11:03:49-0500
