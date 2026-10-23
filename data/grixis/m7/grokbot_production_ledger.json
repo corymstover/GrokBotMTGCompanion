@@ -231,26 +231,30 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
    "working_branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
-   "last_pushed_commit": "9938707e4459ca33ef9aa783d8139f1dbc2dba5a",
+   "last_pushed_commit": "d4a38b73a50e1889a78f0122d5927694b8b354c1",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/655",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [
-    "Overrides key Be_lakor_the_Dark_Master (single underscore) vs tracker deck_id Be_lakor__the_Dark_Master (double); IDs preserved exactly"
+    "Overrides key Be_lakor_the_Dark_Master (single underscore) vs tracker deck_id Be_lakor__the_Dark_Master (double); IDs preserved exactly",
+    "Pass C corpus: #30 Lord_Xander__the_Collector and #31 Lynde__Cheerful_Tormentor seals record a stage_a.md SHA-256 that does not match committed bytes (git_blob_sha matches); stabilized checker keeps rejecting them - owner decision needed",
+    "Post-merge pinned checker refresh: Ashad (#653) 4fb8e8b1... and Ashnod (#654) cd0be27a... bundles -> c5688abc...; #651/#652 bundles do not pin the checker"
    ],
    "completed_stages": [
     "baseline_provenance",
     "gate_infra_copied_from_654",
-    "draft_pr_opened"
+    "draft_pr_opened",
+    "checker_stabilized_decks_7_62"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Comprehensive fail-closed checker stabilization (decks #7-#62), then EDHREC/Scryfall discovery + 99-slot audit",
-   "next_step": "Comprehensive fail-closed checker stabilization (decks #7-#62), then EDHREC/Scryfall discovery + 99-slot audit",
-   "head_commit": "9938707e4459ca33ef9aa783d8139f1dbc2dba5a",
-   "last_checkpoint": "2026-10-23T05:08-05:00"
+   "next_step": "EDHREC/Scryfall discovery + 99-slot audit",
+   "head_commit": "d4a38b73a50e1889a78f0122d5927694b8b354c1",
+   "last_checkpoint": "2026-10-23 checker stabilization",
+   "stabilized_checker_sha256": "c5688abca806e1023572f88bb7d014773d75b4a6573a0eb37372e0da12319538"
   },
   {
    "tracker_number": 8,
