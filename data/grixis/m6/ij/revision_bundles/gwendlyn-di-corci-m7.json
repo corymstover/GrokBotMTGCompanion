@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "slug": "gwendlyn-di-corci",
+ "baseline_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "result_hash": "lh1:0540cd4214a506957bd239bf774256dff10f1fd34e6c74ec7bf7131235dd0bdd",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/gwendlyn-di-corci.json.gz",
+   "sha256": "sha256:49c586177c345d2fb407a13ceec94fad05e48b2c76c5658c32a81ebfce80db85"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz",
+   "sha256": "sha256:b350a405a7f00a235a6d686a2f5c8631e3558f7ac4295f21e177a7a34db121cd"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/gwendlyn-di-corci.json",
+   "sha256": "sha256:194a44dd34aa8502f81699603a53e9c61336661e93ceb170ce0a8232ebd9d474"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/gwendlyn-di-corci.json",
+   "sha256": "sha256:c0d5c1f5cdd51fb2a59c3276280e0f7b99bc752f77ae2678b50360bff40f7916"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/gwendlyn-di-corci.json",
+   "sha256": "sha256:314b6c961d0fd788aca5f2b1eb75ad52bca1ba24c94e74c430324c4291f59352"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Gwendlyn_Di_Corci.json",
+   "sha256": "sha256:79792bf9adfa1b253f1c27341f2192f0e8794f65a323e8dd402a42d00655c2ca"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:421dcdd029cae469d19f4be5239b87bc5fa0b91d68adc266d2ffbf5e97c9daa2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+   "sha256": "sha256:b4f9d2bb1118593bd266eb79acb3ec79b5ed264df6816c6ecd23fcff7f33ad8f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:3510ddd72a9b4f17ccb23e483732822af194f6a3952d24e19c921d5089ad893e"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:6eb55e82a7df3a2d3194d957efbb6aaf4be020e14e81cefcd8aa860c8e614483"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Gwendlyn_Di_Corci_approved_source_2026-10-14.txt",
+   "sha256": "sha256:9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9"
+  },
+  {
+   "path": "exports/grixis-archidekt/gwendlyn-di-corci.txt",
+   "sha256": "sha256:4120c13480a4daa65cfd672e720c9e8a7bc83b7964730aaf342bf1da44589ca4"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Gwendlyn_Di_Corci.txt",
+   "sha256": "sha256:f5f26b78a09f9247be2e311dd76b6e1ff3ed012cd2eaa66692cb33b68fc38197"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_AphettoAlchemist_minus_MagewrightsStone_20261023.txt",
+   "sha256": "sha256:73fb6ff6febee753502728907ed2635950867e248ce7c3851e746194b7735104"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_HymnToTourach_AphettoAlchemist_over_Dauthi_MagewrightsStone_20261023.txt",
+   "sha256": "sha256:3e08150a8f2d83e7525dd1f6bc79310e2c567d5b90b1a9444e6af61de7af0388"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_RingsOfBrighthearth_minus_MindTwist_20261023.txt",
+   "sha256": "sha256:e5ba632a616c92e3391bb04d473f60970be87f1d6bf42d54f169258d73dc0832"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_one_RingsOfBrighthearth_over_DauthiVoidwalker_20261023.txt",
+   "sha256": "sha256:8641646ed8ba5a09cfc2f07376cf138299eb055083450753e9a50341c01a9808"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_WhisperingMadness_over_ReforgeTheSoul_20261023.txt",
+   "sha256": "sha256:a66d931646f4d59881c1c0fd75597b1450a82438d1a7e2b389bf8d53deb250fc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_challenge_SulfurousSprings_over_CrumblingNecropolis_20261023.txt",
+   "sha256": "sha256:489dffa6778c131a349efc9099db10caf7eab88db10488312b6a2d951c4e93d4"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+   "sha256": "sha256:a29db9770a3273c9c5cf635de6311c2bdbf4ce80efabb5a832a68398bc94b92a"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+   "sha256": "sha256:8ba5bdbdd1817a737be87f8baed527cf2c5eaf53fe4ebeb92e733c88b01157aa"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/gwendlyn-di-corci-m7.json",
+   "sha256": "sha256:dfc14e4bfff1c10bdc403b3686e73cf16a909cca6bdc67139d0507deb2159bd4"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Gwendlyn_Di_Corci_M6_I_local_best_20261023.md",
+   "sha256": "sha256:c9924fb1f5906f76357cd573bd6c01ab78a19ddaabc19ed958c8212d42843446"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Gwendlyn_Di_Corci_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:8823db9296fce001997e8be7333710e00fa0420d0b70ab94362bb6ea16533ec7"
+  },
+  {
+   "path": ".github/workflows/m7-gwendlyn-di-corci.yml",
+   "sha256": "sha256:f28ec617861d8d5e710c29f9642e073775301f4293a98bf409ddc97c4c8f44db"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Gwendlyn_Di_Corci_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:35f1a0643ff28ee2a5de013ead0a83a3a31ac9ca636d0ac58c3918605cca5738"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/gwendlyn-di-corci.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/gwendlyn-di-corci.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:23dceb4ec721fad70c410f0f15fec085d920786517b4b8a228e33eeec7647a3d",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:1460a15ca70e359b8ac946013f596e9d020ac1c0c5b6b7aeaf31300c35b870b4"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_gwendlyn_di_corci_m7_mechanics.py",
+    "source_sha256": "sha256:57ff273362de31104dc529a6756570f7c2f14c113c904ee7a146940ca935ea5c",
+    "seed": 0,
+    "harness_version": "gwendlyn_di_corci_m7_finite_rules_and_bounded_pass_c_12_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Twelve finite exact (no RNG) Oracle-anchored cases. Gwendlyn Di Corci Oracle ({U}{B}{B}{R} 3/5; {T}: target player discards a card at random, only during your turn), add/cut Oracle anchors (Hymn to Tourach two random discards; Dauthi Voidwalker exile-with-void-counter replacement), exact single swap, owner keeps and additions present and owner-removed cards absent, 35 lands and U/B/R sources 21/24/17, curve, opening-hand hypergeometric 0.7306/0.9069, the same Spellbook combo; bounded Pass C: 9 fixed untapper states (Magewright's Stone vs Aphetto Alchemist, Illusionist's Bracers CR 605.1a), exact no-tutor assembly odds, the 36-row Hymn vs Dauthi ledger plus 5 adversarial rows (CR 614.1a), Rings of Brighthearth mana arithmetic, and exact source-paid UBBR castability turns 3-5 recomputed for baseline, candidate and the Sulfurous Springs challenge. No opponent model, matched opening hands or games; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_gwendlyn_di_corci_candidate.py",
+    "source_sha256": "sha256:17616157f6d47d91f94a860446cbe45beabbbd1bbf81bf57b2539ab2ff5e4835",
+    "seed": 0,
+    "harness_version": "gwendlyn_di_corci_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact single physical swap against vendored and canonical sources, gate RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, single commander first, alphabetical, 100 physical with only basics repeated, distinctness vs the closest Grixis decks disclosed, the flagged owner-blueprint override and owner-removed cards not re-added, at least 10 candidates and 8 incumbent challenges, staged alternatives as complete 100s, commander legality and release, Bracket 4, tags and combo disclosure; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #668 head 909543a5 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_gwendlyn_di_corci_m7_ij.py",
+    "source_sha256": "sha256:017aecdee264fa82164d419037dcce040a750226029f99369fabc2ea8e472b5b",
+    "seed": 0,
+    "harness_version": "gwendlyn_di_corci_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 9 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises fail-closed Pass C explicit-false technical-independence wording and Stage A seal alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Gwendlyn_Di_Corci_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d589102a6acb91e00c2bef5136e2e1638387151ec67fc125c23cef7838869778"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Gwendlyn_Di_Corci_M6_J_mana_20261023.md",
+  "sha256": "sha256:1f933cbd443a8c3e8e357ffbc70717d49523a6d907cf5bd4ccd2f1025617333e"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

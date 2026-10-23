@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Gwendlyn_Di_Corci",
+  "slug": "gwendlyn-di-corci",
+  "generated_at": "2026-10-23T12:57:30-05:00",
+  "list_hash": "lh1:0540cd4214a506957bd239bf774256dff10f1fd34e6c74ec7bf7131235dd0bdd",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Gwendlyn_Di_Corci_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:8823db9296fce001997e8be7333710e00fa0420d0b70ab94362bb6ea16533ec7",
+    "tested_pool_size": 9
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_gwendlyn_di_corci_m7_mechanics.py",
+      "tests/test_m7_gwendlyn_di_corci_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_gwendlyn_di_corci_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Gwendlyn_Di_Corci_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Gwendlyn_Di_Corci_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Gwendlyn_Di_Corci.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 9 complete configurations in the pool: raw baseline, registry canonical export, the research one-swap (+Hymn to Tourach -Dauthi Voidwalker; one genuine swap; RESEARCH_ONLY, far below the five-swap floor), the Pass C exact one-swap on the baseline (Aphetto Alchemist over Magewright's Stone) and on the candidate, the Pass C fallback (Rings of Brighthearth over Mind Twist), Rings of Brighthearth over Dauthi Voidwalker, the two-swap Hymn to Tourach plus Whispering Madness over Dauthi Voidwalker plus Reforge the Soul, and the mana challenge Sulfurous Springs over Crumbling Necropolis. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}
