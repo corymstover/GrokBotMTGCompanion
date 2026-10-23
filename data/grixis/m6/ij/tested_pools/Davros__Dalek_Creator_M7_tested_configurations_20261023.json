@@ -56,7 +56,7 @@
    "logical_hash": "lh1:c42aca3e29862e54e20863d5140a1405bec1bf2d4b9631aa209315ef4ec7c5c7",
    "physical_cards": 100,
    "companion_outside_100": null,
-   "judgment": "REJECT (six-swap, staged). Keeps Blasphemous Act as a reset and cuts Ashad, the Lone Cyberman instead. Ashad's copy line (copy Davros or Roaming Throne / Dalek Emperor) multiplies Davros end-step triggers and keeps the artifact count for Unlicensed Disintegration and Mox Opal; Blasphemous Act kills our own Daleks and Davros. MODERATE confidence."
+   "judgment": "REJECT (six-swap, staged). Keeps Blasphemous Act as a reset and cuts Ashad, the Lone Cyberman instead. Ashad's casualty copies of nonlegendary artifact spells (Roaming Throne naming Alien or Scientist, Auton Soldier, Dalek Squadron) multiplies Davros end-step triggers and keeps the artifact count for Unlicensed Disintegration and Mox Opal; Blasphemous Act kills our own Daleks and Davros. MODERATE confidence."
   },
   {
    "id": "SIX_PASS_C_PAIRINGS",

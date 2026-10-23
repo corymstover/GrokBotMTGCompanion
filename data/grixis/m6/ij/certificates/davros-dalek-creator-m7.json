@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Davros__Dalek_Creator",
+  "slug": "davros-dalek-creator",
+  "generated_at": "2026-10-23T07:31:30-05:00",
+  "list_hash": "lh1:bc802d95f8b6dac3fc108e2c5c87250c250137495374944d8726cfa21994787f",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Davros__Dalek_Creator_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:99f00046bdf6e7a4e22259336d1d2fe2d96617460e1354bb7a56bb3dafeaf5bd",
+    "tested_pool_size": 8
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_davros_dalek_creator_m7_mechanics.py",
+      "tests/test_m7_davros_dalek_creator_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_davros_dalek_creator_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Davros__Dalek_Creator_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Davros__Dalek_Creator_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Davros__Dalek_Creator_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Davros__Dalek_Creator_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Davros__Dalek_Creator_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Davros__Dalek_Creator.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 8 complete configurations in the pool: raw baseline, registry canonical export, preferred six, five-swap keeping Swan Song, six-swap cutting Ashad and keeping Blasphemous Act, Pass C pairings six-swap (Fiery over Weeping Angel, Disintegration over This Is How It Ends), the Artillerist-over-Sycorax seven-swap and the Flame Rift-over-Ashad seven-swap. It also covers the named single-card contenders. They were judged with finite current-Oracle rules cases; bounded enumerations answering the Pass C requested measured tests (a 16-case Unlicensed Disintegration grid; Ingenious Artillerist vs Purphoros over 5 entry patterns, removal response and a second Davros resolution; Fiery Confluence vs Boltwave and Maestros Charm, including the 608.2b artifact-target failure); Commander Spellbook combo lookups (0 included combos in both lists); and a quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-davros-dalek-creator.yml; run URLs are recorded in the PR body. There is no statistical multiplayer ranking, no matched opponent/mana sample and no removal-response rate. The A/B seals and the owner-equivalent Pass C (final disposition NEEDS TESTING) are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}

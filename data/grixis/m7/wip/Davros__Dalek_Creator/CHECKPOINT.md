@@ -12,4 +12,7 @@ Done:
 - Rules snapshot, I/J tested-configuration pool (8 configurations).
 - Decision packet data/grixis/m7/decision_reviews/Davros__Dalek_Creator.json passes the gate (21 candidates, 16 weak slots, 10 post-floor challenges, 2 larger staged packages); Deck #11 overlap (52 shared nonbasic names) in commander_identity.anti_homogenization.
 
-Next: memos, adversarial packet, workflow, certificate/bundle, IJ test, full suite, PR ready.
+- I/J memos (local best, mana, red team), ChatGPT adversarial review packet (Deck #11 overlap disclosed), focused workflow (step names without '#'), I certificate and J bundle; IJ test 8/8; gate --check --check-sources and bundle_check --check pass; 188 focused tests pass.
+- Owner history verified at canonical 9b26aa28: Liliana's Caress, Bottomless Pit, The Rack and Oppression were in the 10-13 Proposed_Final and are not in the 10-14 Approved list.
+
+Next: remove this WIP file, full suite vs b6b40ac8, PR ready, exact-head CI.

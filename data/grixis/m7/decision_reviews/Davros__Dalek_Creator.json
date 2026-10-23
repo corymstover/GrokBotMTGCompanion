@@ -155,7 +155,7 @@
     "Death in Heaven"
    ],
    "incumbent_opportunity_cost": "Loses Death in Heaven ({3}{B} Saga: chapters I-II mill two and exile a player's graveyard, chapter III returns the exiled creature cards face down as 2/2 Cyberman artifacts under our control), a slow value card that takes two turns to pay off.",
-   "commander_synergy": "Davros's whole condition is 'an opponent lost 3 or more life this turn' on our turn. Bloodletter halves that threshold: every 2 points becomes 4. Boltwave becomes 6 each, Fiery Confluence 12 each, Loyal Subordinate 6, Purphoros 4 per creature, Tectonic Giant 6, a single unblocked Dalek token 6. It also doubles Wound Reflection's end-step loss (ordered before Davros), Perforating Artist, Court of Ambition, Torment of Hailfire, Entropic Battlecruiser and Kroxa-style punishers, so opponents pay more for choosing life.",
+   "commander_synergy": "Davros's whole condition is 'an opponent lost 3 or more life this turn' on our turn. Bloodletter halves that threshold: every 2 points becomes 4. Boltwave becomes 6 each, Fiery Confluence 12 each, Loyal Subordinate 6, Purphoros 4 per creature, Tectonic Giant 6, a single unblocked Dalek token 6. It also doubles Wound Reflection's end-step loss (ordered before Davros), Perforating Artist, Court of Ambition, Torment of Hailfire, and Entropic Battlecruiser, so opponents pay more for choosing life.",
    "adversarial_downside": "BBB pips (B sources 18 + rocks); a 2/4 flyer that is the obvious lightning rod; legendary. Only on our turn. Its land back face means it is never dead.",
    "judgment": "SELECT_ADD",
    "reason": "The single most commander-specific card found: it converts every partial life loss into a Davros qualification on our turn. Doubling is finite (no loop); Spellbook lists no included combo with the 100.",
@@ -198,7 +198,7 @@
     "The Cyber-Controller"
    ],
    "incumbent_opportunity_cost": "Loses The Cyber-Controller ({X}{U}{U}{B}: each opponent mills X and we take the milled creatures as 2/2 Cybermen; other artifact creatures +1/+1), an army payoff shared with Deck #11.",
-   "commander_synergy": "Davros's villainous choice offers 'discard a card'; Court of Ambition, Torment of Hailfire, Perforating Artist, Sycorax Commander, Kroxa-style edicts in The Dalek Emperor and Doomsday Confluence and Labyrinth Raptor offer or force discard/sacrifice. Tergrid turns each permanent paid into our permanent, so the safe option becomes the expensive one and pushes opponents toward life loss, which is what Davros wants. Menace body like Davros.",
+   "commander_synergy": "Davros's villainous choice offers 'discard a card'; Court of Ambition, Torment of Hailfire, Perforating Artist, Sycorax Commander, the edicts in The Dalek Emperor, Doomsday Confluence and Labyrinth Raptor offer or force discard/sacrifice. Tergrid turns each permanent paid into our permanent, so the safe option becomes the expensive one and pushes opponents toward life loss, which is what Davros wants. Menace body like Davros.",
    "adversarial_downside": "Game Changer (Bracket 4 count 5 -> 6). Opponents pick which card to discard and can discard nonpermanents, or choose an impossible option when empty-handed (701.55b). Anti-synergy: Dauthi Voidwalker exiles those cards (disclosed).",
    "judgment": "SELECT_ADD",
    "reason": "Converts the deck's punisher choices into card advantage; the Game Changer is disclosed and the deck is already Bracket 4.",
