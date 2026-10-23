@@ -1,0 +1,197 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Ashnod_the_Uncaring",
+ "slug": "ashnod-the-uncaring",
+ "baseline_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "result_hash": "lh1:4ac4aed8ba1db6c913f19396e7d8a04645b3035bfe387cb8b04b694e5bfc862f",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Ashnod_the_Uncaring_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/ashnod-the-uncaring.json.gz",
+   "sha256": "sha256:36f3ea54719c57ac47616841ccb5f63bf0307610d0958f6a4eaed335ca01e632"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz",
+   "sha256": "sha256:a487396ffa9421d2fc0cce5551e6a60db3d7552be0ea85b681e58fd88f4b4096"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/ashnod-the-uncaring.json",
+   "sha256": "sha256:10cc95b7f0f30bd3bf87fb7d467965ed3334d43836aed5503d69c1dacab7de48"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/ashnod-the-uncaring.json",
+   "sha256": "sha256:62c0799d81a2d9fcc9f5a5ee757d7d01069030612318f5982d8a209343ca71d5"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/ashnod-the-uncaring.json",
+   "sha256": "sha256:4a42805b23934a314baa0267b7814f9b3e8f8a6bf3b91145e2ec75e1ee220ded"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Ashnod_the_Uncaring.json",
+   "sha256": "sha256:7e4c29298d1a4683be39b25877bbdd48d9338134b2afa2c997abd4fcce849032"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:4666b773c480fac340d3f83b056362260e398ca09e0c3b7ac9ce53f38182ff79"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+   "sha256": "sha256:2797a6009556630c46fed442fd8e56d8d05b781ee7cac9261fa86c5fd06bccc0"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:14fcf618e66cb95a38c47ce057752880dca09984af1bbe51cd57e98f0f86ae96"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
+   "sha256": "sha256:f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring.txt",
+   "sha256": "sha256:b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_five_alt_Priest_over_KrarkClanShaman_20261023.txt",
+   "sha256": "sha256:d1b79b0515ca956ff152fb8343df6d5f8ba1de512286d8e8388a373593614680"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SageOfLatNam_over_Jhoira_20261023.txt",
+   "sha256": "sha256:42bed41c323407cdc9d4686e745159e7e273333634a723db4eb11cc52b0f51e4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SpireOfIndustry_over_ExoticOrchard_20261023.txt",
+   "sha256": "sha256:ebdd77b1e79d433c52d688034ae26d9d6944528b784affebe66d9f6426f91ed4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_seven_Sage_Spire_20261023.txt",
+   "sha256": "sha256:e87f7d2473ffda084dcc1fc0ca9474038f3f7008f2c000b48277a92d48349a8a"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+   "sha256": "sha256:3419e6055d87788fb0f18207332d55759d4f9d7c58931a3f9013a116f8226593"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Ashnod_the_Uncaring_M7_20261023.md",
+   "sha256": "sha256:95ddbc2710d7d94cf9d4d5069d6142af2a41809e9c96a384f0d0d8409aad5368"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/ashnod-the-uncaring-m7.json",
+   "sha256": "sha256:ee2d88ef23172c39fe0e297eea38da7a2af10934825e01d3998e95728b4712fb"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Ashnod_the_Uncaring_M6_I_local_best_20261023.md",
+   "sha256": "sha256:08a49d72bb632f6221f99e2f367c5c6c9c4c00ae1ae372b84e7e8609eaeaf69e"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Ashnod_the_Uncaring_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:47e49dd782a9573f20a92e7b73e8738e5d5fe561366bf8eb28b7de28e46e6775"
+  },
+  {
+   "path": ".github/workflows/m7-ashnod-the-uncaring.yml",
+   "sha256": "sha256:3beff3ae576048de145d9eea14206d15d4c8b6affdcdf2ca7c74af433c212e7a"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/ashnod-the-uncaring.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/ashnod-the-uncaring.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:41bc119e77e524b43e43e351296647fc46f6d4f854cb7dea366ee19f58e53c79",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:685206fe60750584033b20e043aa1d4bbdb52a156a8ff619d7d7cee3001100c3"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py",
+    "source_sha256": "sha256:6bf3b0de862a29d766fd6c4192660fb8d11527942f3f4ea1dd40ada7ab140e30",
+    "seed": 0,
+    "harness_version": "ashnod_m7_finite_rules_11_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eleven finite seed-0 Oracle-anchored cases (Ashnod copies non-mana artifact/creature abilities with a sacrifice in the cost, no turn limit; lands, mana abilities and resolution sacrifices not copied; Engineer+Monitor+Petal loop mana-neutral; Squadron loop needs Novelist and Altar/KCI; Spellbook delta; quantity-counted lands 33->33 and rocks 9->7; legality; Game Changers). Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_ashnod_the_uncaring_candidate.py",
+    "source_sha256": "sha256:2da3f80eec43cee8d79ab7949d32d7a91cbf9ff475cba0e0a83390bb00b8176b",
+    "seed": 0,
+    "harness_version": "ashnod_m7_gate_candidate_4_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps, registry hashes untouched, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #653 head fee682f3."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_ashnod_the_uncaring_m7_ij.py",
+    "source_sha256": "sha256:35bc48bf222d699225426e89a9db01b36a782d0e40e725e761fa6330a29424c8",
+    "seed": 0,
+    "harness_version": "ashnod_m7_IJ_14_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes, runs the J checker and fail-closed Pass C disclosure-wording cases incl. the new parenthetical independent=FALSE pattern and the legacy A_SEAL field-name mapping; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Ashnod_the_Uncaring_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d48fc71a9f28111495ef670b3f88ed37ef7084c8f1b853612c96711edb5018cd"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Ashnod_the_Uncaring_M6_J_mana_20261023.md",
+  "sha256": "sha256:8c8fcebad9c3ccb9a24e23d75c33424ea88f97f287505609fc1daf068a5903a6"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

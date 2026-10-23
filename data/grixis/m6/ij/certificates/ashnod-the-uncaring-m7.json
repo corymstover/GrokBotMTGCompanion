@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Ashnod_the_Uncaring",
+  "slug": "ashnod-the-uncaring",
+  "generated_at": "2026-10-23T09:00:00-05:00",
+  "list_hash": "lh1:4ac4aed8ba1db6c913f19396e7d8a04645b3035bfe387cb8b04b694e5bfc862f",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Ashnod_the_Uncaring_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:47e49dd782a9573f20a92e7b73e8738e5d5fe561366bf8eb28b7de28e46e6775",
+    "tested_pool_size": 6
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py",
+      "tests/test_m7_ashnod_the_uncaring_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_ashnod_the_uncaring_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Ashnod_the_Uncaring_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Ashnod_the_Uncaring_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Ashnod_the_Uncaring_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Ashnod_the_Uncaring.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 6 complete 100-card configurations in the pool (baseline, preferred five, same-count Krark-Clan Shaman-cut alternative, two six-swap and one seven-swap alternatives) plus named single-card contenders, judged with finite current-Oracle rules cases, Commander Spellbook combo lookups and quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-ashnod-the-uncaring.yml; run URLs are recorded in the PR body. No statistical multiplayer ranking. A/B seals and the owner-equivalent Pass C are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}

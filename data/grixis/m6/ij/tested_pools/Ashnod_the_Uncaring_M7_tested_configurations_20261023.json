@@ -1,0 +1,77 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Ashnod_the_Uncaring",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+ "registry_recorded_matches_raw": true,
+ "source_full": "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 6,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
+   "raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+   "logical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Approved list unchanged and the comparison anchor: 33 physical lands, 9 static rocks (42 static sources), 43 artifacts, 25 noncommander creatures, Commander Spellbook 15 included combos with none using Ashnod. Registry recorded digest equals the raw bytes (no provenance exception)."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring.txt",
+   "raw_sha256": "b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d",
+   "logical_hash": "lh1:4ac4aed8ba1db6c913f19396e7d8a04645b3035bfe387cb8b04b694e5bfc862f",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Corridor Monitor +Aether Spellbomb +Audacious Reshapers +Priest of Forgotten Gods +Thopter Squadron / -Foundry Inspector -Fellwar Stone -Talisman of Indulgence -Walking Ballista -Esoteric Duplicator. 33 lands + 7 rocks; artifacts 43->41, creatures 25->27. Every add has a sacrifice-cost ability Ashnod copies or completes a Spellbook-listed Ashnod line (1414-1649-2068-4404; 2034-2068-2762-5346; 2068-2762-4659-5346), disclosed. Losses: two rocks, Esoteric Duplicator, Walking Ballista."
+  },
+  {
+   "id": "FIVE_ALT_PRIEST_OVER_KRARK_CLAN_SHAMAN",
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_five_alt_Priest_over_KrarkClanShaman_20261023.txt",
+   "raw_sha256": "d1b79b0515ca956ff152fb8343df6d5f8ba1de512286d8e8388a373593614680",
+   "logical_hash": "lh1:45ece717b44d21f75ccfdbc39bf5aa6f4ee72fc968367874705db27be4ec326d",
+   "physical_cards": 100,
+   "judgment": "REJECT (same-count alternative, staged). Same five adds except Priest of Forgotten Gods replaces Krark-Clan Shaman rather than Walking Ballista. Pass C defended Shaman as the deck's copyable sweeper (sacrifice an artifact: 1 damage to each nonflying creature, doubled by Ashnod); Ballista's abilities never sacrifice, so it is the right cut. MODERATE confidence."
+  },
+  {
+   "id": "SIX_SAGE",
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SageOfLatNam_over_Jhoira_20261023.txt",
+   "raw_sha256": "42bed41c323407cdc9d4686e745159e7e273333634a723db4eb11cc52b0f51e4",
+   "logical_hash": "lh1:516da89abefecf96e9ca193da74e74d402ebe39a8769e2e306454281f9432a50",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). Preferred five + Sage of Lat-Nam over Jhoira, Weatherlight Captain. Sage draws two per artifact with Ashnod for zero mana, but Jhoira draws on every historic cast without needing the commander. MODERATE confidence."
+  },
+  {
+   "id": "SIX_SPIRE",
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SpireOfIndustry_over_ExoticOrchard_20261023.txt",
+   "raw_sha256": "ebdd77b1e79d433c52d688034ae26d9d6944528b784affebe66d9f6426f91ed4",
+   "logical_hash": "lh1:1fb608580ec79b68731cff030a2cf4a56a8708a4c5d1956852eed7bfa60fed48",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). Preferred five + Spire of Industry over Exotic Orchard. Any colour with an artifact out, but costs life and has no commander interaction; a marginal sidegrade. LOW_WITH_DISCLOSED_LIMITS."
+  },
+  {
+   "id": "SEVEN_SAGE_SPIRE",
+   "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_seven_Sage_Spire_20261023.txt",
+   "raw_sha256": "e87f7d2473ffda084dcc1fc0ca9474038f3f7008f2c000b48277a92d48349a8a",
+   "logical_hash": "lh1:9cb52f826fb8a6872784355204fd6eebd30e9e43cc55bbf7997a8d74d8a73d28",
+   "physical_cards": 100,
+   "judgment": "STAGED_NOT_SELECTED. Both six-swap alternatives together (Sage over Jhoira, Spire over Exotic Orchard). Neither beat its incumbent alone, so stacking them would be padding; five is a floor, not a target."
+  }
+ ],
+ "named_single_card_contenders_rejected": [
+  "Marionette Master",
+  "Voltaic Key",
+  "Manifold Key",
+  "Burnished Hart",
+  "Skullclamp",
+  "Courier's Capsule",
+  "Commander's Sphere",
+  "Mirkwood Bats",
+  "Fain, the Broker",
+  "Mindslaver",
+  "Paradox Engine (banned; EXCLUDE_INVALID)"
+ ],
+ "owner_m7_approved": false
+}

@@ -57,6 +57,22 @@ _PASS_C_EXPLICIT_FALSE = re.compile(
 _PASS_C_EXPLICIT_TRUE = re.compile(r"\btechnical(?:ly)?\s+independen(?:ce|t)[\s*:_`]*(?:true|yes)\b", re.I)
 
 
+# Strict parenthetical Pass C non-independence disclosure (added after PR #653 for Ashnod_the_Uncaring,
+# whose preserved receipt reads "technical third-model independence (actual evaluator ...; independent=FALSE,
+# owner-waived)"). Accepts only an explicit independent=FALSE inside the parenthetical that directly follows
+# "technical third-model independence"; any independent=TRUE/YES or explicit TRUE/YES statement anywhere vetoes.
+_PASS_C_PAREN_FALSE = re.compile(
+    r"\btechnical\s+third-model\s+independence\s*\([^()]*?\bindependent\s*=\s*false\b[^()]*\)", re.I)
+_PASS_C_PAREN_TRUE = re.compile(r"\bindependent\s*=\s*(?:true|yes)\b", re.I)
+
+
+def pass_c_parenthetical_false_disclosure(text):
+    """Fail closed: True only for the explicit parenthetical independent=FALSE form, with no
+    independent=TRUE/YES and no explicit TRUE/YES technical-independence statement anywhere."""
+    return (bool(_PASS_C_PAREN_FALSE.search(text)) and not _PASS_C_PAREN_TRUE.search(text)
+            and not _PASS_C_EXPLICIT_TRUE.search(text))
+
+
 def pass_c_explicit_false_disclosure(text):
     """Fail closed: True only for an explicit FALSE/NO technical-independence statement with no
     explicit TRUE/YES statement anywhere in the receipt. Absent or ambiguous wording returns False."""
@@ -65,6 +81,33 @@ def pass_c_explicit_false_disclosure(text):
 
 def _bare(h):
     return (h or "").removeprefix("sha256:")
+
+
+# Legacy Stage A seal field names (added after PR #653 for Ashnod_the_Uncaring, whose preserved, immutable
+# seal.json uses the "A_SEAL" schema). Only these exact one-to-one renames are mapped; values are never
+# rewritten or inferred. Fail closed: a seal carrying both a canonical key and its legacy alias is rejected,
+# and a seal that is not the complete A_SEAL legacy form is returned unchanged (so it fails as before).
+_LEGACY_A_SEAL_ALIASES = {
+    "canonical_input_sha256": "canonical_approved_sha256",
+    "git_first_stage_commit_sha": "first_stage_git_commit_sha",
+    "review_class_after_final": "formal_pass_c_classification",
+    "technically_independent": "technical_independence",
+    "actual_evaluator": "actual_model",
+}
+
+
+def normalize_legacy_stage_a_seal(seal):
+    """Return seal with canonical field names for the exact legacy A_SEAL schema, else unchanged."""
+    if any(c in seal and a in seal for c, a in _LEGACY_A_SEAL_ALIASES.items()):
+        raise ValueError("Stage A seal carries both canonical and legacy field names")
+    if (seal.get("stage") != "A_SEAL" or seal.get("owner_independence_waiver") is not True
+            or any(c in seal for c in _LEGACY_A_SEAL_ALIASES)
+            or not all(a in seal for a in _LEGACY_A_SEAL_ALIASES.values())):
+        return seal
+    out = {k: v for k, v in seal.items() if k not in _LEGACY_A_SEAL_ALIASES.values()}
+    for c, a in _LEGACY_A_SEAL_ALIASES.items():
+        out[c] = seal[a]
+    return out
 
 
 def registry_bound_digest_discrepancy(row, seal, deck_id):
@@ -115,7 +158,7 @@ def validate_pass_c(judgment, deck_id):
         bind(judgment[key + "_path"], judgment[key + "_sha256"])
     waiver = load(safe_repo_file(OWNER_WAIVER))
     progress = load(safe_repo_file(OWNER_PROGRESS))
-    seal = load(safe_repo_file(expected["stage_a_seal_path"]))
+    seal = normalize_legacy_stage_a_seal(load(safe_repo_file(expected["stage_a_seal_path"])))  # e.g. Ashnod_the_Uncaring
     if (judgment.get("technically_independent") is not False
         or progress.get("technically_independent") is not False
         or progress.get("genuinely_independent_third_model_reviews") != 0
@@ -159,6 +202,7 @@ def validate_pass_c(judgment, deck_id):
         or "**Technically independent:** NO." in final
         or "**Technically independent:** FALSE." in final  # Anhelo__the_Painter preserved wording
         or pass_c_explicit_false_disclosure(final)  # strict pattern, e.g. Ashad__the_Lone_Cyberman
+        or pass_c_parenthetical_false_disclosure(final)  # strict parenthetical, e.g. Ashnod_the_Uncaring
     )
     if ("ChatGPT/OpenAI GPT-6" not in final
         or not disclosed_nonindependence
