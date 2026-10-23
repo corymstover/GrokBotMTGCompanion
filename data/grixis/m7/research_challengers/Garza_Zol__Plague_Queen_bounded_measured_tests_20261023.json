@@ -1,0 +1,1814 @@
+{
+ "method": "Bounded, finite, deterministic Pass C test for Garza_Zol__Plague_Queen: double strike (Fireshrieker / Lizard Blades) vs Inquisitor's Flail,\nand both together. No sampling, no RNG; every row is one fully specified single-combat state resolved by hand-coded CR rules\n(CR 510.4 first-strike step, 702.4 double strike, 702.2 deathtouch, 702.12 indestructible, 702.19 trample, 702.90 infect, 120.3/120.4).\nGarza Zol, Plague Queen base 5/5 flying haste; +1/+1 counter when a creature she damaged this turn dies (trigger resolves between strike\nsteps under double strike); may draw on combat damage to a player. Opponent life 40. Kediss, Emberclaw Familiar: when a commander deals\ncombat damage to an opponent, it deals that much damage to each other opponent (Garza is the source). Curiosity: draw on damage to an\nopponent (counts Kediss damage too). Quietus Spike: player loses half life rounded up per combat-damage event. NOT a game simulation:\nno matched-game win-rate is claimed.",
+ "setup_mana": {
+  "none": 0,
+  "Inquisitor's Flail": 4,
+  "Fireshrieker": 5,
+  "Lizard Blades": 4,
+  "Inquisitor's Flail + Fireshrieker": 9,
+  "Inquisitor's Flail + Lizard Blades": 8
+ },
+ "combat_rows": [
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "unblocked",
+   "config": "a_bare",
+   "commander_damage": 5,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "unblocked",
+   "config": "c_collar",
+   "commander_damage": 5,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "unblocked",
+   "config": "trample_shadowspear",
+   "commander_damage": 5,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "2/2 flyer",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "2/2 flyer",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "2/2 flyer",
+   "config": "trample_shadowspear",
+   "commander_damage": 3,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 first strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 first strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 first strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "3/3 deathtouch",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "3/3 deathtouch",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "3/3 deathtouch",
+   "config": "trample_shadowspear",
+   "commander_damage": 2,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 indestructible",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 indestructible",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "5/5 indestructible",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "8/8 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "8/8 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "8/8 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "4/4 double strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "4/4 double strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "none",
+   "setup_mana": 0,
+   "blocker": "4/4 double strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 1,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "a_bare",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "c_collar",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "trample_shadowspear",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "trample_shadowspear",
+   "commander_damage": 6,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "trample_shadowspear",
+   "commander_damage": 4,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "unblocked",
+   "config": "a_bare",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "unblocked",
+   "config": "c_collar",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "unblocked",
+   "config": "trample_shadowspear",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 6,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "2/2 flyer",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "2/2 flyer",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "2/2 flyer",
+   "config": "trample_shadowspear",
+   "commander_damage": 9,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 first strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 first strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 first strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "3/3 deathtouch",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "3/3 deathtouch",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "3/3 deathtouch",
+   "config": "trample_shadowspear",
+   "commander_damage": 8,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 indestructible",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 indestructible",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "5/5 indestructible",
+   "config": "trample_shadowspear",
+   "commander_damage": 5,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "8/8 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "8/8 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "8/8 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 2,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "4/4 double strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "4/4 double strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "setup_mana": 5,
+   "blocker": "4/4 double strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 7,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "a_bare",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "c_collar",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "unblocked",
+   "config": "trample_shadowspear",
+   "commander_damage": 10,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 6,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "2/2 flyer",
+   "config": "trample_shadowspear",
+   "commander_damage": 9,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 first strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "3/3 deathtouch",
+   "config": "trample_shadowspear",
+   "commander_damage": 8,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "5/5 indestructible",
+   "config": "trample_shadowspear",
+   "commander_damage": 5,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "8/8 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 2,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "setup_mana": 4,
+   "blocker": "4/4 double strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 7,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "unblocked",
+   "config": "a_bare",
+   "commander_damage": 20,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "unblocked",
+   "config": "c_collar",
+   "commander_damage": 20,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 20
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "unblocked",
+   "config": "trample_shadowspear",
+   "commander_damage": 20,
+   "garza_dies": false,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 12,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "2/2 flyer",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "2/2 flyer",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "2/2 flyer",
+   "config": "trample_shadowspear",
+   "commander_damage": 18,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 first strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 first strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 first strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "3/3 deathtouch",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "3/3 deathtouch",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "3/3 deathtouch",
+   "config": "trample_shadowspear",
+   "commander_damage": 16,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 2,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 indestructible",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 indestructible",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 0,
+   "lifegain": 20
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "5/5 indestructible",
+   "config": "trample_shadowspear",
+   "commander_damage": 10,
+   "garza_dies": true,
+   "blocker_dies": false,
+   "garza_counters": 0,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "8/8 vanilla",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "8/8 vanilla",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "8/8 vanilla",
+   "config": "trample_shadowspear",
+   "commander_damage": 12,
+   "garza_dies": false,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "4/4 double strike",
+   "config": "a_bare",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 0
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "4/4 double strike",
+   "config": "c_collar",
+   "commander_damage": 0,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 0,
+   "lifegain": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "setup_mana": 8,
+   "blocker": "4/4 double strike",
+   "config": "trample_shadowspear",
+   "commander_damage": 2,
+   "garza_dies": true,
+   "blocker_dies": true,
+   "garza_counters": 1,
+   "draws_garza": 1,
+   "lifegain": 0
+  }
+ ],
+ "special_rows": [
+  {
+   "equipment": "none",
+   "test": "unblocked + Curiosity + Kediss (3 opponents)",
+   "draws_garza": 1,
+   "draws_curiosity": 3,
+   "kediss_each_other": 5,
+   "commander_damage": 5
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked + Quietus Spike (opp at 40)",
+   "life": 17,
+   "spike_loss": 18,
+   "commander_damage": 5
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked + Grafted Exoskeleton infect (7 power)",
+   "poison": 7,
+   "lethal_poison": false
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked, instant removal on Garza after first-strike damage",
+   "draws_garza": 1,
+   "commander_damage": 5
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked one-hit commander damage at power 5",
+   "commander_damage": 5,
+   "lethal_21": false
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked one-hit commander damage at power 6",
+   "commander_damage": 6,
+   "lethal_21": false
+  },
+  {
+   "equipment": "none",
+   "test": "unblocked one-hit commander damage at power 10",
+   "commander_damage": 10,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked + Curiosity + Kediss (3 opponents)",
+   "draws_garza": 1,
+   "draws_curiosity": 3,
+   "kediss_each_other": 10,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked + Quietus Spike (opp at 40)",
+   "life": 15,
+   "spike_loss": 15,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked + Grafted Exoskeleton infect (7 power)",
+   "poison": 14,
+   "lethal_poison": true
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked, instant removal on Garza after first-strike damage",
+   "draws_garza": 1,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked one-hit commander damage at power 5",
+   "commander_damage": 10,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked one-hit commander damage at power 6",
+   "commander_damage": 12,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Inquisitor's Flail",
+   "test": "unblocked one-hit commander damage at power 10",
+   "commander_damage": 20,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked + Curiosity + Kediss (3 opponents)",
+   "draws_garza": 2,
+   "draws_curiosity": 6,
+   "kediss_each_other": 10,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked + Quietus Spike (opp at 40)",
+   "life": 6,
+   "spike_loss": 24,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked + Grafted Exoskeleton infect (7 power)",
+   "poison": 14,
+   "lethal_poison": true
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked, instant removal on Garza after first-strike damage",
+   "draws_garza": 1,
+   "commander_damage": 5
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked one-hit commander damage at power 5",
+   "commander_damage": 10,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked one-hit commander damage at power 6",
+   "commander_damage": 12,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Fireshrieker",
+   "test": "unblocked one-hit commander damage at power 10",
+   "commander_damage": 20,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked + Curiosity + Kediss (3 opponents)",
+   "draws_garza": 2,
+   "draws_curiosity": 6,
+   "kediss_each_other": 10,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked + Quietus Spike (opp at 40)",
+   "life": 6,
+   "spike_loss": 24,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked + Grafted Exoskeleton infect (7 power)",
+   "poison": 14,
+   "lethal_poison": true
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked, instant removal on Garza after first-strike damage",
+   "draws_garza": 1,
+   "commander_damage": 5
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 5",
+   "commander_damage": 10,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 6",
+   "commander_damage": 12,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 10",
+   "commander_damage": 20,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked + Curiosity + Kediss (3 opponents)",
+   "draws_garza": 2,
+   "draws_curiosity": 6,
+   "kediss_each_other": 20,
+   "commander_damage": 20
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked + Quietus Spike (opp at 40)",
+   "life": 2,
+   "spike_loss": 18,
+   "commander_damage": 20
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked + Grafted Exoskeleton infect (7 power)",
+   "poison": 28,
+   "lethal_poison": true
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked, instant removal on Garza after first-strike damage",
+   "draws_garza": 1,
+   "commander_damage": 10
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 5",
+   "commander_damage": 20,
+   "lethal_21": false
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 6",
+   "commander_damage": 24,
+   "lethal_21": true
+  },
+  {
+   "equipment": "Inquisitor's Flail + Lizard Blades",
+   "test": "unblocked one-hit commander damage at power 10",
+   "commander_damage": 40,
+   "lethal_21": true
+  }
+ ],
+ "removal_exposure": [
+  {
+   "card": "Inquisitor's Flail",
+   "when_garza_removed": "stays as unattached Equipment; re-equip {2}",
+   "sweeper_exposure": "none (noncreature artifact)"
+  },
+  {
+   "card": "Fireshrieker",
+   "when_garza_removed": "stays as unattached Equipment; re-equip {2}",
+   "sweeper_exposure": "none"
+  },
+  {
+   "card": "Lizard Blades",
+   "when_garza_removed": "becomes a 1/1 double-strike Equipment Lizard creature; reconfigure {2}",
+   "sweeper_exposure": "dies to creature sweepers/removal only while unattached; while attached it is not a creature, so our own Garza-sourced sweepers (Chandra's Ignition, Nibelheim Aflame) do not hit it"
+  }
+ ],
+ "pass_c_alternate_cuts": {
+  "note": "Pass C named Robe of the Archmagi and Quietus Spike as alternate cuts. Both multiply with double strike (Robe: same total cards, two triggers; Spike: two halvings) so they are the worst cuts for a double-strike add; neither is cut."
+ },
+ "not_run": {
+  "matched_game_winrate": "not run: no validated Garza game model exists in the repo; claiming a win-rate would be unsupported"
+ },
+ "castability": {
+  "base.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   },
+   "mdfc_as_land": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   }
+  },
+  "cand.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_PassC_baseline_plus_Fireshrieker_minus_InquisitorsFlail_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   },
+   "mdfc_as_land": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   }
+  },
+  "Garza_Zol__Plague_Queen_keep_NovaFlame_cut_ToxicDeluge_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_six_FireWhip_over_Pongify_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_five_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1751,
+    "5": 0.2865,
+    "6": 0.4328
+   },
+   "mdfc_as_land": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   }
+  },
+  "Garza_Zol__Plague_Queen_four_keep_NovaFlame_no_Nibelheim_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_six_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1553,
+    "5": 0.2483,
+    "6": 0.3819
+   },
+   "mdfc_as_land": {
+    "4": 0.1668,
+    "5": 0.2682,
+    "6": 0.4179
+   }
+  },
+  "Garza_Zol__Plague_Queen_five_Fireshrieker_instead_of_LizardBlades_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  }
+ },
+ "castability_method": "Exact hypergeometric castability of Garza Zol {4}{U}{B}{R} (7 mana) by turn T on the play.\nCategories: L=lands (Ancient Tomb counted as L worth 2), R1=1-mana-net rocks (Signets, Talismans, Arcane Signet, Fellwar Stone), R2=Sol Ring, R3=Mana Vault/Grim Monolith (+3 once).\nMana by turn T = min(lands,T) (+1 if Tomb among them) + value of up to T-1 rocks (best first). Colors assumed satisfied (35+ coloured sources). MDFC counted as nonland (conservative) or land."
+}
