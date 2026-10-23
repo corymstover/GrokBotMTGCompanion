@@ -22,3 +22,8 @@
 - Oracle snapshot (250 cards, frozen-cache diff empty), rules snapshot, bounded measured-tests JSON committed.
 - Decision packet data/grixis/m7/decision_reviews/Edward_Kenway.json: 25 candidate judgments, 14 weak slots, 8 post-floor challenges, 1 larger (six-swap) package; verify_packet passes locally.
 - Next: tested pool, I/J memos, adversarial packet, tests, workflow, certificate and bundle.
+
+## Checkpoint 2026-10-23 10:16 CDT (I/J evidence and tests)
+- Commit 12371f12: tested pool (8 configurations), I/J memos (I local best, J mana, J red team), certificate and revision bundle, ChatGPT adversarial review packet, 3 deck tests (10 + 12 + 8 methods) and focused workflow m7-edward-kenway.yml (no '#' in step names).
+- Local: deck tests + Pass C corpus test 134 passed; gate --check --check-sources exit 0; bundle_check --check exit 0 (2/62 valid).
+- Next: remove WIP file, full suite once, mark PR ready, exact-head CI, ledger REVIEW_READY_AWAITING_CHATGPT.
