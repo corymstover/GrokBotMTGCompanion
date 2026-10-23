@@ -24,7 +24,9 @@ snapshot `data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.jso
     is cast if anything attacks.
   - **Shaun + Karlach ordering (603.3b)**: both are ours and trigger together. Put Karlach's trigger on the stack first and Shaun's on
     top. Shaun resolves first: the Synth copy of Cult enters tapped and attacking. Karlach then untaps all attacking creatures, including
-    the Synth, which can be declared as an attacker in the extra combat and triggers Cult there.
+    the Synth. The Synth came under our control this turn, so it can be declared as an attacker in the extra combat only with
+    haste (302.6): **Hammer of Purphoros**, or **The Dalek Emperor** (other Daleks; the Synth copies a Dalek). Then it triggers Cult
+    there (3 triggers that turn); without haste the turn total stays 2.
   - The Synth token is not exiled at end of combat; it stays until Shaun leaves the battlefield ("exile all Synth tokens"). On later turns
     it is a normal non-legendary Cult copy that attacks and triggers.
 - **707.9b / 704.5j**: Shaun's, **Quantum Misalignment**'s, **Spark Double**'s, **Irenicus's Vile Duplication**'s, **Auton Soldier**'s and

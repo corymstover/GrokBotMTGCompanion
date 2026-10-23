@@ -59,18 +59,20 @@ def cult_trigger_expectation():
     return {"draw": 2 * q, "dalek_tokens": q, "drain_each_opp": 4 * q}
 
 
-def cult_attack_triggers(cult_bodies_first, karlach=False, shaun=False, throne_dalek=False):
+def cult_attack_triggers(cult_bodies_first, karlach=False, shaun=False, throne_dalek=False, synth_haste=False):
     """Number of Cult attack triggers in one turn. cult_bodies_first = Cult plus legal untapped nonlegendary Cult
     copies able to attack in combat 1. Karlach: 'whenever you attack, if it's the first combat phase, untap all
     attacking creatures ... additional combat phase' -> the same bodies attack again (declared attack -> trigger).
     Shaun: 'whenever you attack' -> a tapped-and-attacking non-legendary Synth copy of attacking legendary Cult;
     it enters attacking so it does NOT trigger 'attacks' in that combat (508.3a/508.4), but if Shaun's trigger
-    resolves before Karlach's, Karlach untaps it and it is declared as an attacker in the extra combat.
+    resolves before Karlach's, Karlach untaps it. The Synth came under our control this turn, so it can be declared
+    as an attacker in the extra combat only with haste (302.6): Hammer of Purphoros, or The Dalek Emperor (other
+    Daleks; the Synth is a Dalek copy). synth_haste models that condition.
     Roaming Throne naming Dalek doubles each trigger of another Dalek."""
     first = cult_bodies_first
     second = 0
     if karlach:
-        second = cult_bodies_first + (1 if shaun else 0)
+        second = cult_bodies_first + (1 if (shaun and synth_haste) else 0)
     total = first + second
     return total * (2 if throne_dalek else 1)
 
@@ -129,13 +131,18 @@ class CultOfSkaroOracle(unittest.TestCase):
         self.assertIn("Artifact Creature", o["Skorpekh Lord"]["type_line"])
 
     def test_attack_trigger_counts_per_turn(self):
-        # Cult alone, no extra combat: 1 trigger. Karlach: 2. Karlach+Shaun (Shaun resolves first): 3.
+        # Cult alone, no extra combat: 1 trigger. Karlach: 2. Karlach+Shaun (Shaun resolves first): 3 only if the new
+        # Synth has haste (Hammer of Purphoros / The Dalek Emperor); otherwise it is summoning sick (302.6): still 2.
         self.assertEqual(cult_attack_triggers(1), 1)
         self.assertEqual(cult_attack_triggers(1, karlach=True), 2)
-        self.assertEqual(cult_attack_triggers(1, karlach=True, shaun=True), 3)
+        self.assertEqual(cult_attack_triggers(1, karlach=True, shaun=True), 2)
+        self.assertEqual(cult_attack_triggers(1, karlach=True, shaun=True, synth_haste=True), 3)
+        self.assertIn("Creatures you control have haste", self.o["Hammer of Purphoros"]["oracle_text"])
+        self.assertIn("haste", self.o["The Dalek Emperor"]["oracle_text"])
         self.assertEqual(cult_attack_triggers(1, shaun=True), 1)  # Synth enters attacking: no trigger this combat
         # Next turn the persistent Synth copy attacks too (it is not exiled at end of combat, only if Shaun leaves).
-        self.assertEqual(cult_attack_triggers(2, karlach=True, shaun=True), 5)
+        self.assertEqual(cult_attack_triggers(2, karlach=True, shaun=True, synth_haste=True), 5)
+        self.assertEqual(cult_attack_triggers(2, karlach=True, shaun=True), 4)
         self.assertEqual(cult_attack_triggers(1, karlach=True, throne_dalek=True), 4)
         exp = cult_trigger_expectation()
         self.assertEqual(3 * exp["draw"], F(3, 2))

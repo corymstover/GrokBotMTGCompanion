@@ -23,3 +23,9 @@
 - tests/test_m6_cult_of_skaro_m7_mechanics.py (11 pass): Oracle facts, bounded Pass C measured tests (Kindred/Thief/TSN/Spyder draw enumeration, Karlach trigger counts), candidate checks.
 - Added FOUR_KEEP_MYRIAD_PACKAGE alternative (278fb08f…). Tested pool (8 configs) and rules snapshot written.
 - Next: decision packet + gate, memos, I/J, candidate/IJ tests, workflow.
+
+## Checkpoint 2026-10-23T07:01:41-05:00 — decision review + preflight memos
+- data/grixis/m7/decision_reviews/Cult_of_Skaro.json: gate M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED (17 candidates, 6 swaps).
+- Correction: Shaun's Synth (entered this turn) needs haste (CR 302.6; Hammer of Purphoros or The Dalek Emperor) to attack in Karlach's extra combat; model/test/rules snapshot updated (Karlach+Shaun = 2 triggers without haste, 3 with).
+- Archidekt tags aligned with Pass C: Artifacts / Extra Combats / Copies.
+- Three M6 preflight memos written. Next: adversarial packet, I/J bundle, candidate/IJ tests, workflow.
