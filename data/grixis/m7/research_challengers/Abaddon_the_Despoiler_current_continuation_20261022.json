@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_ABADDON_M7_STAGE7_100_CARD_ADVERSARIAL_COMPARISON_ACTIVE",
+  "status": "RESEARCH_ONLY_STAGE9_VEYRAN_IMPACT_WIDE_CAST_COPY_OPPORTUNITY_ACTIVE",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -48,7 +48,7 @@
     "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "RESEARCH_ONLY_STAGE7_RULES_AND_TWO_PHYSICAL_100_PACKAGES_CI_SUCCESS",
+    "status": "RESEARCH_ONLY_STAGE9_NOVEL_OFFRANKING_VERIFIED_CI_SUCCESS",
     "executed_rules_only_test_cases": 9,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
@@ -139,20 +139,76 @@
     "stage7_exact_pr_head": "df91bd36b6ece821be9ee548e992fa3f9cb044e4",
     "stage7_exact_head_ci_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39894817787",
     "stage7_exact_head_ci_conclusion": "SUCCESS",
-    "stage7_pr_receipt_comment_id": 6356639763
+    "stage7_pr_receipt_comment_id": 6356639763,
+    "stage8": {
+      "source_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+      "strategy": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_ignus_payable_review_20261022.json",
+      "tests": "tests/test_m7_abaddon_stage8_ignus_birgi_impact_paid.py",
+      "discovery": "Impact Tremors gives direct each-opponent 1 damage per payable Birgi FRONT + Grinning Ignus main phase loop; current 40K Lost Spawn token ETBs feed it. Nine source-live legal/U+B+R identity cards assessed.",
+      "research_sha256": [
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_assault_cut_research_20261022.txt",
+          "raw_sha256": "98451755ed971435ddeeedc9bf44d7f1228a07ad926df97c12d0bff9358c132b",
+          "swaps": 1
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_ruinous_cut_research_20261022.txt",
+          "raw_sha256": "6dd51ba7ef430e4cc93919af730628f924a6967bf3d081b4dff34cc93f56aa85",
+          "swaps": 1
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_early_threshold_combo_three_research_20261022.txt",
+          "raw_sha256": "775ff763860d8940bd252dd46c9e9dc19d94100dc48c5bdb0095193d8e12919e",
+          "swaps": 3
+        }
+      ],
+      "merged_pr": 626,
+      "merged_sha": "a7fbb0798e4b2bcd03cd85d0b6ebb395eba4279f",
+      "exact_head": "54b9c2bbb2f6f846e460d35a4547f175339a73db",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39895860612",
+      "ci_conclusion": "SUCCESS"
+    },
+    "stage9": {
+      "source_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_roaming_throne_Scryfall_20261022.json",
+      "strategy": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_warhammer_trigger_review_20261022.json",
+      "tests": "tests/test_m7_abaddon_stage9_veyran_permanent_triggers.py",
+      "discovery": "Veyran {1}{U}{R} doubles cast/copy induced triggered abilities of ten CURRENT Abaddon permanents (among them Birgi, Lost, Keeper, Nalfeshnee, Prosper, Passionate granted to commander); does NOT double Abaddon static cascade or spell's cascade triggers, nor creature-only Ignus/Tremors ETB directly.",
+      "research_sha256": [
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_nightscape_one_research_20261022.txt",
+          "raw_sha256": "dfe84ac89968c1e9a5f04a7a4a30b9172910828466ecf9c6dff39383bb22bc41",
+          "swaps": 1
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ponder_two_research_20261022.txt",
+          "raw_sha256": "d21444a3d434d49091c35066ff77ecc38c5e30d8fea8b7bbcd8e0303151a33eb",
+          "swaps": 2
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ruinous_two_research_20261022.txt",
+          "raw_sha256": "68d4094f0b09bd322b924e39c492c1cdcfc7838e392ee21f149b01482b764af5",
+          "swaps": 2
+        }
+      ],
+      "merged_pr": 627,
+      "merged_sha": "28ceafa451ea2a2cb5f8d2de32681f31b4a07808",
+      "exact_head": "09078f2dd510ae68809e9c15267bc40ed65f5c54",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39896513008",
+      "ci_conclusion": "SUCCESS",
+      "receipt_comment_id": 6356865812
+    }
   },
   "mandatory_next_deterministic_checks": [
-    "Stage6 and Stage7 all newly claimed finite rules/physical-100 cases PASSED exact-head CI; do not rerun by default.",
-    "Resolve 5/7 candidate cut costs against protected incumbent multipliers, Warhammer Ruinous theft, Nightscape discount, Pyroblast/Loyal under a bounded payer/opponent-response comparison, not fake gameplay win rates.",
-    "Search credible alternate cuts and offranking source-legal cards beyond the five-swap owner floor; no default or cap and no padding.",
-    "Once best exact candidate selected, rebind full 100 Oracle/Commander legality, changed-effect P0 cases and exact SHA M6 I/J/reproducibility requirements before owner-ready."
+    "Stages6-9 finite trigger and exact physical-100 rules tests already executed with exact-head CI successes. Do not repeat them by default.",
+    "Compare the high-leverage Veyran/Impact opportunity against the approved rev2 exact 100, especially Ponder vs Ruinous vs Nightscape cut costs, through payable turn and at least one adverse interaction; test opponent Rule of Law, spot removal and counter response before claiming strategic superiority.",
+    "Continue unbounded role/EDHREC high-lift off-ranking discovery only for remaining concrete improvement opportunities; do not anchor at 5, require real multi-card synergy and no padding.",
+    "If final package of at least 5 genuinely better strategic replacements is defensible, update full candidate-specific 100 Oracle/legality, relevant M6 P0, I/J reproducibility and hash, CI before OWNER APPROVAL REQUIRED. If not, report an honest governance conflict, do not ask approval."
   ],
   "strategic_next": [
-    "Read stage7 report: source-bound research-only five/swap seven physical 100s preserve Call Forth's two printed cascades, but lose important broad damage/life-loss multipliers and may be strategically weaker than approved rev2.",
-    "Do an adversarial payable mana + at least one opponent instant-speed interaction comparison. Opponents may remove Ghyrson/Kessig/Ob or counter Abaddon. Do not cut Pyroblast or Loyal without a real advantage.",
-    "Investigate additional credible candidate/cut packages as necessary; unbounded search and EDHREC inclusion/high lift are mandatory, five swaps is just owner eligibility.",
-    "Source reverify actual finalist 100, changed P0 mechanics, M6 I/J exact candidate and new owner-ready CI before proposing replacement; do not transfer prior rev2 certificate/hash.",
-    "Never change locked canonical Abaddon until Cory explicitly approves exact replacement, never advance deck #3 before Abaddon done."
+    "Lead with Veyran's exact instant/sorc cast/copy permanent-trigger breadth (10 eligible current permanents) and Impact's Birgi/Ignus all-opponent combo; compare as source-verified, high-value additions, not assumed upgrades.",
+    "Challenge protection, mana reducers, cantrips, Ruinous 40K thematic engine and independent Neheb/Aggravated secondary combat loop as expensive real incumbent opportunities. Search alternatives to cutting protected cards.",
+    "Keep full physical 100 variants from stages4-9 as adversarial RESEARCH_ONLY. None is owner-ready under latest 5+ genuine swap floor and candidate-specific M6/CI gates.",
+    "Preserve canonical 0d9f6d... approved locked Abaddon; Admiral ff5f... locked; deck3 held pending Cory's new exact Abaddon M7 owner approval."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
