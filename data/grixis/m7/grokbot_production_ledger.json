@@ -1222,28 +1222,60 @@
    "baseline_raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
    "registry_recorded_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Inalla__Archmage_Ritualist.txt",
+   "candidate_raw_sha256": "916e056ba387fc7e162a359069f11a1b59e91ffb358931742d2a0b912c6c4ed1",
+   "current_candidate_sha": "916e056ba387fc7e162a359069f11a1b59e91ffb358931742d2a0b912c6c4ed1",
    "branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
    "working_branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
-   "last_pushed_commit": "edbfaae5f51ca4470c44eb7b6f29467c2088d0db",
+   "last_pushed_commit": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/671",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 0,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 23 Inalla, Archmage Ritualist research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40003261919",
+     "conclusion": "success",
+     "head": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40003261692",
+     "conclusion": "success",
+     "head": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40003261669",
+     "conclusion": "success",
+     "head": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1"
+    }
+   ],
+   "blockers": [
+    "zero genuine swaps; five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 0, 19 material candidates); best-evidenced +Dualcaster Mage -Kefka re-adds an owner-removed card (OWNER DECISION)"
+   ],
+   "unresolved_issues": [
+    "Pass C matched-hand games / win rates not run: no validated Inalla game model (exact castability, tutor reach 33/20/13, Spellbook delta 16->18 for Dualcaster, Trainer hit 0.973098/0.999442, rules facts only)",
+    "Pass C exact +Dualcaster Mage -Kefka, Court Mage // Kefka, Ruler of Ruin staged RETAIN_ALTERNATIVE as OWNER DECISION (owner removed Dualcaster 2026-10-14; +2 combos 147-500, 147-4598); +Micromancer -Kefka and +Snapcaster Mage -Thundertrap Trainer rejected (owner-rejected/removed)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 81333ac7 == overrides == tracker == registry; blob 204b8096 from approval commit afb35c06; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #670 head 7483728a; draft PR #671",
-    "research (live Scryfall 100+108, EDHREC 4 pages incl. 817 cEDH decks, Commander Spellbook baseline/candidate/6 alternatives) and Pass C bounded tests (exact castability, tutor reach, combo delta); interim 0 genuine admissible swaps"
+    "research (live Scryfall 100+108, EDHREC 4 pages incl. 817 cEDH decks, Commander Spellbook baseline/candidate/6 alternatives) and Pass C bounded tests (exact castability, tutor reach, combo delta); interim 0 genuine admissible swaps",
+    "oracle/rules snapshots, tested pool (9 configs), decision packet (gate withdrawn RESEARCH_ONLY, 19 material candidates, 12 incumbents challenged), I/J memos, certificate + J revision bundle, adversarial packet, mechanics/candidate/IJ tests 9/10/8, focused workflow; WIP removed in last content commit 1efba1a2",
+    "full suite head 1efba1a2 24F/1629P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #671 ready 2026-10-23T13:28:10-0500 (GitHub ready_for_review 18:28:10Z) with RESEARCH_ONLY + blocker; exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Snapshots, tested pool, decision review, memos, tests, workflow; full suite; mark PR ready",
-   "next_step": "Generate certification artifacts",
-   "updated_at": "2026-10-23T13:13:49-0500",
-   "last_checkpoint_at": "2026-10-23T13:13:49-0500"
+   "next_action": "owner decision on RESEARCH_ONLY zero-swap candidate (Dualcaster OWNER DECISION staged); next deck #24 Jeleva__Nephalia_s_Scourge",
+   "next_step": "owner decision on RESEARCH_ONLY zero-swap candidate; next deck #24 Jeleva__Nephalia_s_Scourge",
+   "updated_at": "2026-10-23T13:28:43-0500",
+   "last_checkpoint_at": "2026-10-23T13:28:43-0500",
+   "last_pushed_sha": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1",
+   "last_checkpoint_commit": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1",
+   "stage": "RESEARCH_ONLY_BLOCKED",
+   "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/671",
+   "pr_is_draft": false,
+   "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 204b8096, introduced by afb35c06 2026-10-14; registry source_commit 1836b97 same bytes)"
   },
   {
    "tracker_number": 24,
