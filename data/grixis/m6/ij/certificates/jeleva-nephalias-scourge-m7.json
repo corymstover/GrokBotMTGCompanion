@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Jeleva__Nephalia_s_Scourge",
+  "slug": "jeleva-nephalias-scourge",
+  "generated_at": "2026-10-23T13:52:02-0500",
+  "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Jeleva__Nephalia_s_Scourge_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:5f18102d5d8f312f502f8e783d404acc3e3bab6c0299e2cc10a11ac1768f595b",
+    "tested_pool_size": 11
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_jeleva_nephalias_scourge_m7_mechanics.py",
+      "tests/test_m7_jeleva_nephalias_scourge_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_jeleva_nephalias_scourge_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Jeleva__Nephalia_s_Scourge_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Jeleva__Nephalia_s_Scourge_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Jeleva__Nephalia_s_Scourge.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 11 complete configurations in the pool: raw baseline, registry canonical export, the research candidate (zero swaps; the canonical 100 re-serialized; RESEARCH_ONLY, far below the five-swap floor), the Pass C requested one-swaps Intuition over Long-Term Plans, Intuition over Scheming Symmetry and Galvanic Iteration over Borne Upon a Wind (all measured worse), Snap over Gitaxian Probe (staged owner-decision alternative, not counted), Spellseeker over Mental Misstep, Forbidden Orchard over Exotic Orchard, Hanweir Battlements over Arena of Glory, and the two-swap Dramatic Reversal plus Isochron Scepter over Scroll Rack plus Personal Tutor. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}

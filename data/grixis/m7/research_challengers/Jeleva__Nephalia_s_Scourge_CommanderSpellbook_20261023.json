@@ -1,0 +1,2409 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1295-3189",
+    "uses": [
+     "Doomsday",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 76,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2720",
+    "uses": [
+     "Peer into the Abyss",
+     "Underworld Dreams"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-2384",
+    "uses": [
+     "Psychosis Crawler",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite lifeloss",
+     "Near-infinite card draw",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "1561-1972",
+    "uses": [
+     "Nekusar, the Mindrazer",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-5919",
+    "uses": [
+     "Razorkin Needlehead",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite lifeloss for target opponent"
+    ]
+   },
+   {
+    "id": "1561-5165",
+    "uses": [
+     "Ob Nixilis, the Hate-Twisted",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Target player loses the game"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "742-1295",
+    "uses": [
+     "Demonic Consultation",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Exile your library",
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1295-3093",
+    "uses": [
+     "Tainted Pact",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1295-3189",
+    "uses": [
+     "Doomsday",
+     "Thassa's Oracle"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 76,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2720",
+    "uses": [
+     "Peer into the Abyss",
+     "Underworld Dreams"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-2384",
+    "uses": [
+     "Psychosis Crawler",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite lifeloss",
+     "Near-infinite card draw",
+     "Near-infinite draw triggers"
+    ]
+   },
+   {
+    "id": "1561-1972",
+    "uses": [
+     "Nekusar, the Mindrazer",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-5919",
+    "uses": [
+     "Razorkin Needlehead",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite damage to one opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite lifeloss for target opponent"
+    ]
+   },
+   {
+    "id": "1561-5165",
+    "uses": [
+     "Ob Nixilis, the Hate-Twisted",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Target player loses the game"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Jeleva__Nephalia_s_Scourge_PassC_plus_GalvanicIteration_minus_BorneUponAWind_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_LongTermPlans_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_SchemingSymmetry_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_one_ForbiddenOrchard_over_ExoticOrchard_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_one_HanweirBattlements_over_ArenaOfGlory_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_one_Snap_over_GitaxianProbe_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_one_Spellseeker_over_MentalMisstep_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 76,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  },
+  "Jeleva__Nephalia_s_Scourge_two_DramaticReversal_IsochronScepter_over_ScrollRack_PersonalTutor_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "742-1295",
+     "uses": [
+      "Demonic Consultation",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Exile your library",
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1295-3093",
+     "uses": [
+      "Tainted Pact",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "4821-5261",
+     "uses": [
+      "Dramatic Reversal",
+      "Isochron Scepter"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite mana nonland permanents you control can produce",
+      "Infinite storm count",
+      "Infinite untap of nonland permanents you control"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1295-3189",
+     "uses": [
+      "Doomsday",
+      "Thassa's Oracle"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 94,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-2384",
+     "uses": [
+      "Psychosis Crawler",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite lifeloss",
+      "Near-infinite card draw",
+      "Near-infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1561-1972",
+     "uses": [
+      "Nekusar, the Mindrazer",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-5919",
+     "uses": [
+      "Razorkin Needlehead",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite damage to one opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite lifeloss for target opponent"
+     ]
+    },
+    {
+     "id": "1561-5165",
+     "uses": [
+      "Ob Nixilis, the Hate-Twisted",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Target player loses the game"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T13:37:16-0500"
+}

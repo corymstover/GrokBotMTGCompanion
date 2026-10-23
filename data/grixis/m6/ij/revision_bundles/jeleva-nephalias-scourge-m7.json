@@ -1,0 +1,229 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "slug": "jeleva-nephalias-scourge",
+ "baseline_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "result_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/jeleva-nephalias-scourge.json.gz",
+   "sha256": "sha256:d531217ccce5e918eb04ecfa88974fdb524befbc4d090219f4426652eaabaad9"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz",
+   "sha256": "sha256:50435343580ce230d9b249052779b848e679ff134bad8876f61f62c21c456cfc"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/jeleva-nephalias-scourge.json",
+   "sha256": "sha256:5e30caf105ab73c0c210c82d21151d9a89eb6a5ea4d2eea8176a52ad12311503"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/jeleva-nephalias-scourge.json",
+   "sha256": "sha256:cd614856aabb77df593492a116c6d937ebf018978823d01fc6d919882f55e6d3"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/jeleva-nephalias-scourge.json",
+   "sha256": "sha256:2567a6c591aba3ac83afa07e95a658c9d31be04653d16a667338468890b1d062"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Jeleva__Nephalia_s_Scourge.json",
+   "sha256": "sha256:f637828311dd1ebf9dd16f9a7779267e5734f4be39f90af6b961422887191600"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:7fc4c4a5d6ee8b0bb22684bb2aad1bd78ab5dec76cb2b410407a7ee70dce5766"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_Scryfall_live_20261023.json",
+   "sha256": "sha256:77a7db30c3e64114f65c6d8d36a5def4b262c1529762740823b3cf48dc3c2116"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:11d2ddfb037ec06799e17ba8a4531297f8e5b0237a64f6e407d9e5a81d83a6c7"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:526d2c1dd4e44b430d2603100f94d62898bde6449a62b1dfa01ea72ea176b8cc"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Jeleva__Nephalia_s_Scourge_approved_source_2026-10-14.txt",
+   "sha256": "sha256:00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
+  },
+  {
+   "path": "exports/grixis-archidekt/jeleva-nephalias-scourge.txt",
+   "sha256": "sha256:900a09d494293665662756ef2be07998b9d86af42c2a23ea54900953f9f181af"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Jeleva__Nephalia_s_Scourge.txt",
+   "sha256": "sha256:4818b32a8f8bcbbadef7c4a46bead2b089d1e104d2faa68c4c1c14cd65ce6df1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_LongTermPlans_20261023.txt",
+   "sha256": "sha256:1c2e0011617cabee0a2b7028c8e48a16aa5291f1dca81672373e2550e5bfa22b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_Intuition_minus_SchemingSymmetry_20261023.txt",
+   "sha256": "sha256:62b37848cfff535d6ecffb9242c38dd0deda254f670e173df05c5ca31d62c834"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_PassC_plus_GalvanicIteration_minus_BorneUponAWind_20261023.txt",
+   "sha256": "sha256:154ccac2e65d8ecfe25110c10d16663fce72e5e1ef41a53664f680b83c820155"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Snap_over_GitaxianProbe_20261023.txt",
+   "sha256": "sha256:c222fbe5cd48559be04eba4413c71f0f09ec79b83c3bed21b530144aaa778229"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_Spellseeker_over_MentalMisstep_20261023.txt",
+   "sha256": "sha256:133d24e6750235461df0b6de17665ba54e3f256710e6ba4bb7425a4047cdc123"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_ForbiddenOrchard_over_ExoticOrchard_20261023.txt",
+   "sha256": "sha256:b419e517524a0a508dabb7284992b8fd2493f33f44b06d550403773d451b558d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_one_HanweirBattlements_over_ArenaOfGlory_20261023.txt",
+   "sha256": "sha256:c7893b7370942c77ee1f61ec5ade78fa75c3657910441e8e2bf08844651ec608"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Jeleva__Nephalia_s_Scourge_two_DramaticReversal_IsochronScepter_over_ScrollRack_PersonalTutor_20261023.txt",
+   "sha256": "sha256:d3d196acbb0b30926366b28e65fa6d2aa739272e8640e40dda3d9063cf6f080c"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Jeleva__Nephalia_s_Scourge_M7_Scryfall_20261023.json",
+   "sha256": "sha256:24b1cdcad37753fb07f36eb7672ccd069648c558b24742050bb5de681b2256c3"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Jeleva__Nephalia_s_Scourge_M7_20261023.md",
+   "sha256": "sha256:6b7007ecdf1597f2d49cf98ead5621c342971722224228169e38c0050d2c1cec"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/jeleva-nephalias-scourge-m7.json",
+   "sha256": "sha256:695c7fad640afd80190e5954f39c0761f9fd7c62e8b59032a740346425ad78dc"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Jeleva__Nephalia_s_Scourge_M6_I_local_best_20261023.md",
+   "sha256": "sha256:23821b3d92e926c94320934d9a6f5081318db334ac97cc4bc2872c3cab241f7c"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Jeleva__Nephalia_s_Scourge_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:5f18102d5d8f312f502f8e783d404acc3e3bab6c0299e2cc10a11ac1768f595b"
+  },
+  {
+   "path": ".github/workflows/m7-jeleva-nephalias-scourge.yml",
+   "sha256": "sha256:b9433e892fedcc8da990946be64bae280de6ace7c7a8081feca82ebc2368aae4"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Jeleva__Nephalia_s_Scourge_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:b8aedeecc4f7873194535c60fe570acaee46e6132b9f8a9d7dff32e56e3eac89"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/jeleva-nephalias-scourge.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/jeleva-nephalias-scourge.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:02649d8c573515ac0a22527e81257de7b61cd56c62a7a8a1a05957a238a5587c",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Jeleva__Nephalia_s_Scourge/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:a42ebae8d6be2fb04fc9a7a3fde71799121ef4aefc457bad125cb06d1a4ad432"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_jeleva_nephalias_scourge_m7_mechanics.py",
+    "source_sha256": "sha256:c135fc42f539dbbd4d3514f8f1b86539bf5cb8eb16ded75f1283815a350a7771",
+    "seed": 0,
+    "harness_version": "jeleva_nephalias_scourge_m7_finite_rules_and_bounded_pass_c_12_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Twelve finite exact (no RNG) Oracle-anchored cases: Jeleva Oracle (top-X exile with X = mana spent; free instant/sorcery cast on attack; Harmonic Prodigy doubling), 99 singleton with 27 lands, exact P(at least one of 11 direct stagers) 0.5736-0.7103 vs 0.5372-0.6736 with Intuition replacing Long-Term Plans or Scheming Symmetry, Intuition hostile-pile enumeration, Galvanic Iteration copy (not cast, CR 707.10) with enabler access 0.2577-0.3514 vs 0.1994-0.2760, Mox Opal metalcraft 0.2277-0.4152, Spellseeker reach 29, land colour sources 21/20/19, Commander Spellbook delta (+4821-5261 only with Dramatic Reversal plus Isochron Scepter), banned/off-identity exclusions and rules-snapshot anchors. Not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_jeleva_nephalias_scourge_candidate.py",
+    "source_sha256": "sha256:4ae950d36fd15d3f66f9b80915523134b4c707b633e4f84e1c8aa1ee0ee836fb",
+    "seed": 0,
+    "harness_version": "jeleva_nephalias_scourge_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Zero-swap identity against vendored and canonical sources, gate RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, single commander first, alphabetical, 100 physical singleton (1x Island, 1x Swamp), distinctness vs the Grixis cEDH cores (Kess, Kefka, Inalla, Evelyn), owner-removed cards not re-added and owner keeps retained, eight staged alternatives as complete 100s with exact deltas, Game Changers 20, commander legality; structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #668 head 909543a5 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_jeleva_nephalias_scourge_m7_ij.py",
+    "source_sha256": "sha256:d909ae7bbf5362d7bbd60423a5b07b18545c20a49742f1491a017c2dea90c199",
+    "seed": 0,
+    "harness_version": "jeleva_nephalias_scourge_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 11 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises fail-closed Pass C explicit technical-independence-false wording and jlk-neutral-seal-1 Stage A seal alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Jeleva__Nephalia_s_Scourge_M6_J_red_team_20261023.md",
+  "sha256": "sha256:0327f4b50fb8db4eba333d140fbb1d96e552f7f958412f4a623d5fa0f77f5bcc"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Jeleva__Nephalia_s_Scourge_M6_J_mana_20261023.md",
+  "sha256": "sha256:fd7d624377c8a464433762ea44f3ca17c998381ee9b61ce609b8be7c44612681"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
