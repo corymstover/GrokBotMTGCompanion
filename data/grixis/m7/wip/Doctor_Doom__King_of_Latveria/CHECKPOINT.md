@@ -28,3 +28,8 @@
 - Dakmor loop: finite, library-bounded (40 life: 20 iterations / 38 library cards; with Buccaneer 14 / 26). Exact lands-only colour access: turn-4 Doom 0.5550 -> 0.5570 (on the play), RRR by turn 5 0.3895 -> 0.4248. Oscorp Industries counted UBR per Oracle.
 - Commander Spellbook re-run on the revised candidate (1 included combo; 22 almost-included).
 - Oracle + rules snapshots committed. Next: candidate/IJ tests, pool, decision review, memos, certificate, bundle, workflow.
+
+## Checkpoint 4 (2026-10-23 08:05 CDT) — pool, decision review, tests, memos, certificate, bundle, workflow
+- Tested pool (10 configurations), decision review (21 material candidates, 12 post-floor challenges, Power Bracket 4, tags Land Discard / Villains / Connive), candidate and IJ tests, I/J memos (local best, mana, red team), adversarial packet, zero-improvement certificate, M6 J revision bundle and focused workflow (step names without '#').
+- Local: focused tests 195 passed; gate --check --check-sources PASS (Doom M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED); bundle checker --check PASS.
+- Next: remove this WIP file (final content commit), full suite vs base b6b40ac8, PR body, ready for review, exact-head CI.

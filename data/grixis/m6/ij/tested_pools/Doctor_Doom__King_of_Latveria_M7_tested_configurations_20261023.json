@@ -1,0 +1,107 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 10,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Doctor_Doom__King_of_Latveria_approved_source_2026-10-14.txt",
+   "raw_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+   "logical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw c97bd448…, fetched from canonical encyclopedia main 9b26aa28, blob 324fdb30; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash). 38 lands, all 1x (Island, Mountain, Swamp one each); the file is not alphabetical (its last six rows are the owner's 2026-10-14 adds), so this pool records the logical hash as the comparison key."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/doctor-doom-king-of-latveria.txt",
+   "raw_sha256": "3505f9a465a8ed61f9689d7a38c67b47d68b487001565b9ccc08de82a62f1574",
+   "logical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order, so the raw bytes differ. Logical hash = registry current_canonical_hash = baseline_hash."
+  },
+  {
+   "id": "PREFERRED_SIX",
+   "path": "data/grixis/m7/candidate_lists/Doctor_Doom__King_of_Latveria.txt",
+   "raw_sha256": "21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb",
+   "logical_hash": "lh1:6e779fc71f33bb82f2d4ed3a4813956c04454e0fab8370f662b97bfd5be1926d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Lightning Axe +Glint-Horn Buccaneer +Red Ghost, Intangible Genius +Coastal Peak +Swiftfoot Boots +Mox Diamond / -Feed the Swarm -Change of Fortune -Loki, the Deceiver -Shipwreck Marsh -Fellwar Stone -Talisman of Creativity. 38 lands; red land sources 20 -> 21 (Coastal Peak replaces UB Shipwreck Marsh); exact lands-only P(RRR by turn 5, 11 cards) 0.3895 -> 0.4248; turn-4 Doom colour access 0.5550 -> 0.5570. Game Changers 6 -> 7 (Mox Diamond), Bracket 4 either way. MODERATE confidence."
+  },
+  {
+   "id": "FIVE_KEEP_TALISMAN_OF_CREATIVITY",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_five_keep_TalismanOfCreativity_no_MoxDiamond_20261023.txt",
+   "raw_sha256": "793d34fac22b95fb145b544ee60f372bb61afa28f50663368cf56cb02ded8fdd",
+   "logical_hash": "lh1:f5c166f499b93df7df0c98f8ed6f277e2ef146dc08e27576ab6007b46ebd7ac9",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged, not selected). The preferred six without Mox Diamond, keeping Talisman of Creativity. Keeps the Game Changer count at 6 and a rock that does not cost a card; loses a 0-mana any-colour source whose cost is itself a Doom land-discard event (2 to each opponent on turn 1). Choose this if the owner prefers not to add a seventh Game Changer. MODERATE confidence."
+  },
+  {
+   "id": "SIX_WITHERING_TORMENT_INSTEAD_OF_LIGHTNING_AXE",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_WitheringTorment_instead_of_LightningAxe_20261023.txt",
+   "raw_sha256": "a9b582f1b4ab67b45bfd42f3f7e2712b214ec01b5bfa5741d7c18bd1dbd66845",
+   "logical_hash": "lh1:9ab718834b59a13c117b5790b3f7c400b8d5bb536648ab657e3ab0cf533168ef",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Withering Torment ({2}{B} instant, creature or enchantment) keeps Feed the Swarm's enchantment coverage at instant speed; Lightning Axe costs one mana and its discard cost is a Doom drain event (or pays {5} late). Enchantment answers remaining in the selected list: Chaos Warp, Cyclonic Rift, Otawara. MODERATE confidence."
+  },
+  {
+   "id": "SIX_ARTILLERIST_INSTEAD_OF_BUCCANEER",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_Artillerist_instead_of_GlintHorn_20261023.txt",
+   "raw_sha256": "b4acf9995679a06cbf200f836bdaa8c40c580b180e50b3f1b64622d646ffdfa8",
+   "logical_hash": "lh1:2cca875f80fede4e73358b8e71a35c929959642f495dcc5eaade63f6efda01bf",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged; this was the provisional candidate at checkpoint 2). Magmakin Artillerist deals the same per-card damage as Glint-Horn Buccaneer (\"that much damage\" per event vs 1 per card) with one R pip and a cycling mode; the bounded Pass C grid has Buccaneer >= Artillerist in all 20 cells (79 vs 64 damage units, 5 vs 0 cards) because of the hasty attack loot. Artillerist's edges (single R; cycling {1}{R} for 1 to each when redundant) are real but smaller. LOW-MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_EXACT_PAIRING_BUCCANEER_OVER_REVENANT",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_PassC_GlintHorn_over_Revenant_keep_ChangeOfFortune_20261023.txt",
+   "raw_sha256": "07ecf60b24a8cbfe22ace0bd536c518cded5f358f739b976b1b635d0133b2e7f",
+   "logical_hash": "lh1:9ef5b680b0292e8defc2bebf801cf998fc7dcd8c81c79faa95c08b3488961d98",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Pass C's exact pairing inside the six: Glint-Horn Buccaneer cuts Green Goblin, Revenant and Change of Fortune stays. The grid: Buccaneer > Revenant on damage in 20/20 cells; Revenant > Buccaneer on cards in 4/20 (it needs an attack and has no haste) with a ceiling of 8 cards on a wheel turn. Revenant is a Villain (Doom's connive target, Strucker/Tombstone discount, Prowler and Doom Reigns Supreme triggers); with the refill slot freed by cutting Change of Fortune it becomes the deck's one-sided refill, so the selected list cuts Change of Fortune instead. MODERATE confidence."
+  },
+  {
+   "id": "ONE_PASS_C_EXACT_SINGLE_SWAP_ON_BASELINE",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_one_PassC_exact_GlintHorn_over_Revenant_on_baseline_20261023.txt",
+   "raw_sha256": "afc05b4120408d453197f7357ef357fe21d32774527773362d352768cb4574dd",
+   "logical_hash": "lh1:d517db5eb1da396c0a1240b929acd2a28b47cf45dee4ee200c6bb3f7bd99446a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (one-swap, staged for traceability only; below the five-swap floor). Pass C's exact +Glint-Horn Buccaneer -Green Goblin, Revenant applied to the canonical 100 with nothing else changed."
+  },
+  {
+   "id": "SEVEN_PASS_C_LEDGER_SHREDDER_OVER_IRON_MONGER",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_LedgerShredder_over_IronMonger_20261023.txt",
+   "raw_sha256": "3e09a72e0cf809637e5041b57ddf70e80facfa6f20519fa503c13bd979b867d9",
+   "logical_hash": "lh1:4b7898ce8c9e73943ab294a3f11d9c82c40d0d388f28e56bfc686c95246916d2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). Ledger Shredder connives on any player's second spell, adding land-discard events, but it is not a Villain (no Doom target, no Strucker/Tombstone discount, no Prowler/Doom Reigns trigger); Iron Monger puts a counter on every Villain whenever anything connives, including Doom's own combat connive. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_PASS_C_PUTRID_IMP_OVER_DEMAND_ANSWERS",
+   "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_PutridImp_over_DemandAnswers_20261023.txt",
+   "raw_sha256": "e172f19b64c191045f5aaebeef91853fec9012e2f5653c22c0d2610436679214",
+   "logical_hash": "lh1:0f805956c2114c17194f715f01993bf5a5b19e416ab767c6441ceebf5bfdcd43",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). Putrid Imp is a free instant-speed discard outlet (each land = a separate Doom event). The deck already has Psychic Frog (free), Seismic Assault, Trade Routes, Tectonic Reformation and cycling lands as graveyard-independent outlets (static count in the mechanics test); its bottleneck is land cards in hand, and Demand Answers draws two (finding lands) while its own discard cost is a Doom event. MODERATE confidence."
+  }
+ ]
+}

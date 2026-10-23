@@ -1,0 +1,984 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "canonical_baseline_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+ "canonical_baseline_logical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "commander_identity": {
+  "mechanical_plan": "Doctor Doom, King of Latveria ({1}{U}{B}{R} 3/3 Human Noble Villain): (1) whenever we discard one or more land cards, each opponent loses 2 life, once per discard event (603.2c), so the deck counts separate events, not cards: Seismic Assault, Tectonic Reformation's cycling {R}, cycling lands (Canyon Slough, Fetid Pools, Xander's Lounge, and now Coastal Peak), Trade Routes, Psychic Frog, Desolate Lighthouse, Geier Reach, connives, wheels, Faithless Looting/Frantic Search, Big Score/Unexpected Windfall/Demand Answers costs, and now Lightning Axe's cost and Mox Diamond's replacement; (2) at the beginning of combat on our turn a target Villain gains menace and connives (701.50a: a land discarded gives no counter but drains 2). Land-discard payoffs stack on each event: Surly Badgersaur and Green Goblin, Nemesis (Treasure), Bone Miser ({B}{B}), Monument to Endurance (once-per-turn modes), Cool but Rude level 2 and now Glint-Horn Buccaneer (per card). Villain payoffs: Prowler, Baron Strucker, Iron Monger, Tombstone, Doom Reigns Supreme, Ultron, Kang, M.O.D.O.K., Leader, Doctor Doom, and now Red Ghost's Ape Villains. Recursion: Crucible of Worlds, Containment Construct, Moonstone, Currency Converter, Oscorp Industries' mayhem, Shadow of the Grave, Dakmor Salvage's dredge.",
+  "protected_core": [
+   "Doctor Doom, King of Latveria",
+   "Seismic Assault",
+   "Tectonic Reformation",
+   "Dakmor Salvage",
+   "Surly Badgersaur",
+   "Green Goblin, Nemesis",
+   "Bone Miser",
+   "Monument to Endurance",
+   "Cool but Rude",
+   "Crucible of Worlds",
+   "Prowler, Clawed Thief",
+   "Baron Strucker, HYDRA Overlord",
+   "Iron Monger, Sadistic Tycoon",
+   "Leader, Super-Genius",
+   "Psychic Frog",
+   "Trade Routes"
+  ],
+  "natural_ceiling": "Power Bracket 4 (registry ceiling 4, Optimized; Grok estimate 4). Game Changers: baseline 6 (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Vampiric Tutor); candidate 7 (+Mox Diamond). Commander Spellbook: 1 included combo in both (Surly Badgersaur + Tectonic Reformation + Dakmor Salvage, listed as infinite self-mill / near-infinite self-discard triggers); in this deck it is finite and bounded by library size (n iterations need 2n library cards; with Doom alone 40 life needs 20 iterations / 38 library cards; with Glint-Horn 14 / 26) and stops on graveyard exile. No infinite is claimed.",
+  "anti_homogenization": "Every add serves Doom's own Oracle: a land-discard event (Lightning Axe, Mox Diamond, Coastal Peak), a per-card payoff on those events (Glint-Horn), a Villain fed by Doom's connive (Red Ghost) or protection that preserves Doom's self-target (Boots). Owner-removed classes (opponent-discard punishers such as Kefka and Syphon Mind; Dark Deal) were judged and not re-added. Distinctness: the closest other roster deck by nonbasic overlap is Loki (exports/grixis-archidekt/loki-the-deceiver.txt): the baseline shares 53 nonbasic names and the candidate also 53 (the cut Loki, the Deceiver and Talisman of Creativity are in the Loki deck, and so are the adds Red Ghost and Swiftfoot Boots). Disclosed honestly: this candidate does not reduce that overlap; the separation is commander-first: Doom's land-discard drain package (Seismic Assault, Tectonic Reformation, Dakmor Salvage, Badgersaur, Bone Miser, Monument, cycling lands, and now Lightning Axe, Mox Diamond, Coastal Peak, Glint-Horn) is not in the Loki list. Overlap with Deck #12 Davros (PR #660 candidate): 34 nonbasic names in the baseline, 32 in the candidate."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x; Island, Mountain, Swamp one each).\nRoles:\n- 38 lands incl. Dakmor Salvage, Ancient Tomb, Villainous Hideout, Oscorp Industries (mayhem), Takenuma, Otawara, Desolate Lighthouse, Geier Reach Sanitarium, Training Center, Luxury Suite, Morphic Pool, Xander's Lounge, Canyon Slough, Fetid Pools, City of Brass, Mana Confluence, Exotic Orchard, Command Tower, four fetches incl. Fabled Passage, originals/shocks/check lands, Shipwreck Marsh (cut) and Haunted Ridge.\n- Ramp (7 rocks): Sol Ring, Arcane Signet, Fellwar Stone (cut), Talismans of Creativity (cut), Dominance and Indulgence, The Soul Stone ({B}); the candidate adds Mox Diamond (6 rocks).\n- Land-discard outlets: Seismic Assault, Tectonic Reformation, Trade Routes, Psychic Frog, Faithless Looting, Frantic Search, Big Score, Unexpected Windfall, Demand Answers, Wheel of Fortune, Windfall, Change of Fortune (cut), Containment Construct/Currency Converter loots, connive Villains.\n- Payoffs: Surly Badgersaur, Green Goblin, Nemesis, Bone Miser, Monument to Endurance, Cool but Rude, Archfiend of Ifnir.\n- Villains: Prowler, Baron Strucker, Iron Monger, Tombstone, Ultron, Kang, M.O.D.O.K., Leader, Doctor Doom, Norman Osborn, Green Goblin Revenant, Moonstone, Chameleon, Loki (cut); Doom Reigns Supreme, Glorious Purpose, Roaming Throne, Spark Double.\n- Recursion: Crucible of Worlds, Shadow of the Grave, Reanimate, Containment Construct, Moonstone, Currency Converter.\n- Interaction: Fierce Guardianship, Swan Song, Deflecting Swat, Cyclonic Rift, Chaos Warp, Lethal Scheme, Feed the Swarm (cut), Toxic Deluge, Vandalblast.\n- Tutors/fuel: Demonic Tutor, Vampiric Tutor, Jeska's Will, Black Market Connections.\nOverlaps: seven rocks incl. two colour-flexible ones; a sorcery-speed life-costing removal spell; a Villain whose attack copies miss the commander's combat trigger; no protection for the engine commander.",
+  "mana_base_and_curve": "Baseline: 38 lands; land colour sources (fetches counted by fetchable typed lands; Exotic Orchard colourless; Villainous Hideout counted only for Villain spells; Oscorp Industries U/B/R) red 20; average nonland MV 2.852; 22 creatures; 22 instants/sorceries. Candidate: 38 lands, red land sources 21; average nonland MV 2.787; 23 creatures; 21 instants/sorceries. Exact lands-only hypergeometric (mechanics test): P(4 lands covering U, B and R among 10 cards) 0.5550 -> 0.5570, 11 cards 0.6477 -> 0.6498; P(RRR for Seismic among 11 cards) 0.3895 -> 0.4248, 12 cards 0.4529 -> 0.4904. Rocks, Mox Diamond and Treasures are excluded from those numbers (conservative).",
+  "interaction_resilience": "Stack: Fierce Guardianship, Swan Song, Deflecting Swat. Removal: Lightning Axe (new), Lethal Scheme, Chaos Warp, Cyclonic Rift, Vandalblast, Toxic Deluge, Otawara (Feed the Swarm cut). Protection: Swiftfoot Boots (new; hexproof keeps Doom's self-target). Graveyard hate: the Dakmor loop, Crucible, Shadow of the Grave, Oscorp mayhem and Reanimate depend on the graveyard; Seismic Assault, Tectonic Reformation, Trade Routes, Psychic Frog, cycling lands, Lightning Axe, Mox Diamond, Cool but Rude and Glint-Horn do not (static count in the mechanics test: 10 independent vs 3 dependent outlets). Weak points: fewer enchantment answers, lifegain, a thin counter suite.",
+  "weakest_slots": [
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal that costs life and has no discard tie.",
+    "alternative_named": "Lightning Axe",
+    "reasoning": "1-mana instant whose discard cost is a Doom drain event."
+   },
+   {
+    "card": "Change of Fortune",
+    "weakness": "One-sided wheel at 4 mana that Doom triggers once.",
+    "alternative_named": "Glint-Horn Buccaneer",
+    "reasoning": "Per-card ping turns every wheel and loot into table damage."
+   },
+   {
+    "card": "Loki, the Deceiver",
+    "weakness": "Its attack copies enter after the beginning of combat and miss Doom's connive (Pass C note).",
+    "alternative_named": "Red Ghost, Intangible Genius",
+    "reasoning": "Doom's connive is the second draw: a hasty Ape Villain every turn."
+   },
+   {
+    "card": "Shipwreck Marsh",
+    "weakness": "UB slow-land in a deck short of red; no cycling.",
+    "alternative_named": "Coastal Peak",
+    "reasoning": "Cycling land (Doom event), fetchable Island Mountain, +1 red source."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Most redundant of seven rocks; depends on opponents' lands.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Protects the single engine; hexproof keeps Doom's self-target."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two-mana rock that pings us for each coloured use; redundant with two other Talismans.",
+    "alternative_named": "Mox Diamond",
+    "reasoning": "0-mana any colour; its land discard is a Doom drain."
+   },
+   {
+    "card": "Green Goblin, Revenant",
+    "weakness": "5-mana Villain that needs to attack and has no haste.",
+    "alternative_named": "Magmakin Artillerist",
+    "reasoning": "Rejected: Revenant is the one-sided refill after cutting Change of Fortune; the grid's damage edge goes to Buccaneer instead."
+   },
+   {
+    "card": "Iron Monger, Sadistic Tycoon",
+    "weakness": "3-mana body that needs connives to matter.",
+    "alternative_named": "Ledger Shredder",
+    "reasoning": "Rejected: Ledger Shredder is not a Villain, so Doom and the Villain payoffs never see it."
+   },
+   {
+    "card": "Demand Answers",
+    "weakness": "Draw two at instant speed, no board presence.",
+    "alternative_named": "Putrid Imp",
+    "reasoning": "Rejected: outlets are not the bottleneck; lands in hand are."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "UR dual that depends on two opponents.",
+    "alternative_named": "Bazaar of Baghdad",
+    "reasoning": "Rejected: Bazaar of Baghdad produces no mana in a 38-land three-colour list."
+   },
+   {
+    "card": "Kang, Temporal Tyrant",
+    "weakness": "4-mana Villain that must attack to connive.",
+    "alternative_named": "Living Laser",
+    "reasoning": "Rejected: 5 mana; copies miss Doom's connive."
+   },
+   {
+    "card": "Lethal Scheme",
+    "weakness": "4-mana removal unless convoked.",
+    "alternative_named": "Terminate",
+    "reasoning": "Rejected: Lethal Scheme's convoke connives are Doom events."
+   },
+   {
+    "card": "Desolate Lighthouse",
+    "weakness": "Colourless land in a three-colour deck.",
+    "alternative_named": "Lonely Sandbar",
+    "reasoning": "Rejected: Lighthouse loot is a repeatable outlet."
+   },
+   {
+    "card": "Tombstone, Career Criminal",
+    "weakness": "Small Villain body whose value depends on graveyard Villains.",
+    "alternative_named": "Madame Hydra",
+    "reasoning": "Rejected: Tombstone is cheaper and recursive."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Costs 1-3 life for each mode chosen at the beginning of each first main phase.",
+    "alternative_named": "Faith of the Devoted",
+    "reasoning": "Rejected: redundant per-card drain with a {1} tax."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Wipes our own Villain board along with opponents' creatures.",
+    "alternative_named": "Bedevil",
+    "reasoning": "Rejected: the deck's only sweeper."
+   },
+   {
+    "card": "Geier Reach Sanitarium",
+    "weakness": "Symmetric loot in a land slot.",
+    "alternative_named": "Ash Barrens",
+    "reasoning": "Rejected: Geier Reach is repeatable."
+   },
+   {
+    "card": "Leader, Super-Genius",
+    "weakness": "4-mana UU Villain that is slow to impact the board.",
+    "alternative_named": "Kefka, Court Mage",
+    "reasoning": "Rejected: owner-removed opponent-discard class (flagged)."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Doom list (2026-10-14) with a deep land-discard engine and a finite Dakmor/Reformation/Badgersaur loop. M6 Pass C (#13) kept it (NEEDS TESTING, 0 measured playtests) and asked for a reproduction of the loop with its constraints, a Glint-Horn vs Green Goblin, Revenant test (also Putrid Imp and Ledger Shredder) and colour/graveyard-hate checks. Weaknesses: no engine protection, a Villain whose copies miss the commander's trigger, a slow refill, sorcery-speed removal and a land base short of red for RRR.",
+  "candidate_pool_scope": "EDHREC Doom general (11386 decks), upgraded (947) and optimized (216) pages JSON; live Scryfall /cards/collection batch (100 baseline rows + 135 evaluated names); Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; and OFF-RANKING searches for discard-cost spells, land-discard replacements, cycling lands and per-card discard payoffs.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Lightning Axe (absent from every Doom page; selected), Mox Diamond (optimized only, 23/216; selected), Putrid Imp and Bazaar of Baghdad (absent; rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Doom approved source refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 324fdb30; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Doom commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23, discovery only: data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (100 baseline rows + 135 evaluated names): data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for discard-cost spells, land-discard replacements, cycling lands and per-card discard payoffs (Lightning Axe; Mox Diamond; Putrid Imp; Bazaar of Baghdad)",
+  "M6 Pass C final disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md",
+  "Comprehensive Rules (frozen cache, 2026-09-25) for once-per-event triggers, connive, additional costs, replacement discards, dredge, hexproof vs shroud and Villainous Hideout's mana restriction: data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+  "Bounded finite measured tests for the three Pass C requests (finite Dakmor loop trace with interruptions; Glint-Horn/Revenant/Artillerist 20-cell grid; exact hypergeometric colour access and graveyard-independent outlet count): tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Lightning Axe",
+   "source": "OFF-RANKING (absent from every Doom EDHREC page: general, upgraded, optimized); live Scryfall batch",
+   "role": "{R} instant: as an additional cost discard a card or pay {5}; 5 damage to target creature.",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Loses Feed the Swarm ({1}{B} sorcery: destroy a creature or enchantment an opponent controls; we lose life equal to its mana value), the list's only cheap answer that also hits enchantments.",
+   "commander_synergy": "The discard is an additional cost (CR 601.2h): discarding a land is a Doom land-discard event (2 to each opponent), a Badgersaur/Nemesis Treasure, Bone Miser {B}{B}, a Glint-Horn ping and a Monument mode, even if the spell is later countered. One mana, instant speed, and late it can pay {5} instead.",
+   "adversarial_downside": "Card disadvantage when no spare land is in hand; 5 damage misses indestructible and big creatures; loses the enchantment mode (Chaos Warp, Cyclonic Rift and Otawara remain as enchantment answers).",
+   "judgment": "SELECT_ADD",
+   "reason": "Removal whose cost is the commander's trigger; the alternative keeping instant-speed enchantment coverage (Withering Torment) is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+    "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_WitheringTorment_instead_of_LightningAxe_20261023.txt"
+   ]
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "source": "EDHREC Doom general 2268/11386, upgraded 242/947, optimized 63/216; M6 Pass C #13 requested +Glint-Horn / -Green Goblin, Revenant test; live Scryfall batch",
+   "role": "{1}{R}{R} 2/4 haste Minotaur Pirate: whenever you discard a card, 1 damage to each opponent; {1}{R}, discard a card: draw a card (only while attacking).",
+   "named_cuts": [
+    "Change of Fortune"
+   ],
+   "incumbent_opportunity_cost": "Loses Change of Fortune ({3}{R} sorcery: discard your hand, then draw a card for each card discarded this turn), a one-sided refill that Doom triggers once.",
+   "commander_synergy": "Doom triggers once per event (603.2c) but Buccaneer triggers per card: a 7-card wheel is 7 to each opponent, every Tectonic Reformation cycle, Seismic activation, connive and Lightning Axe cost is +1 each. In the finite Dakmor loop it lowers the lethal library requirement from 38 to 26 cards (mechanics test). Hasty attack loot is one more land-discard event on the turn it lands.",
+   "adversarial_downside": "RR pip competes with Seismic Assault's RRR (exact lands-only P(3+ lands, two of them red, among the top 9 cards) 0.5318 -> 0.5573); a 2/4 body is not a Villain (no Doom connive target, no Strucker/Tombstone discount); dies to most removal.",
+   "judgment": "SELECT_ADD",
+   "reason": "The bounded Pass C grid has Buccaneer >= Magmakin Artillerist in all 20 cells and > Green Goblin, Revenant on damage in 20/20; it takes Change of Fortune's slot rather than Revenant's (Revenant becomes the one-sided refill). Pass C's exact pairing is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+    "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_PassC_GlintHorn_over_Revenant_keep_ChangeOfFortune_20261023.txt"
+   ]
+  },
+  {
+   "card": "Red Ghost, Intangible Genius",
+   "source": "EDHREC Doom general 5877/10768, upgraded 394/914, optimized 48/209; live Scryfall batch",
+   "role": "{2}{U}{R} legendary Human Scientist Villain: ward 2, can't be blocked; whenever you draw your second card each turn, create a 3/3 red Ape Villain token with haste.",
+   "named_cuts": [
+    "Loki, the Deceiver"
+   ],
+   "incumbent_opportunity_cost": "Loses Loki, the Deceiver ({1}{U}{B}{R} Villain: on attack, a tapped-and-attacking token copy of another Villain; Villain combat damage draws a card), EDHREC's 65% inclusion (discovery only).",
+   "commander_synergy": "Doom's connive at the beginning of combat guarantees a second draw on our turn, so Red Ghost makes a hasty 3/3 Ape Villain every turn; the Apes enter as Villains and trigger Prowler's connive, Baron Strucker's once-per-turn connive and Doom Reigns Supreme's drain (and those connives trigger Iron Monger). Red Ghost itself is an unblockable Villain target for Doom's connive and menace, protected by ward 2.",
+   "adversarial_downside": "Ward is only a tax; the Ape is created on opponents' turns too only if we draw two there. Loki's attack copies, by contrast, enter after the beginning of combat has passed and never get Doom's connive (Pass C note), which is the main reason Loki underperforms here.",
+   "judgment": "SELECT_ADD",
+   "reason": "A Villain engine keyed to the connive Doom already provides; it replaces a Villain whose copy text misses the commander's trigger window.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+    "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Coastal Peak",
+   "source": "EDHREC Doom general 6156/11097, upgraded 465/933, optimized 60/211; live Scryfall batch",
+   "role": "Land — Island Mountain, enters tapped; {T}: {U} or {R}; cycling {2}.",
+   "named_cuts": [
+    "Shipwreck Marsh"
+   ],
+   "incumbent_opportunity_cost": "Loses Shipwreck Marsh (UB slow-land, untapped from turn 3 with two other lands).",
+   "commander_synergy": "Cycling is a land-discard event (Doom 2 to each opponent, Badgersaur/Nemesis Treasure, Bone Miser BB) without needing Tectonic Reformation; it is an Island Mountain, so Scalding Tarn, Polluted Delta and Bloodstained Mire fetch it, and Crucible of Worlds replays it to cycle again. Red was the scarcest land colour: red land sources 20 -> 21 and exact lands-only P(three red lands among the top 11 cards) 0.3895 -> 0.4248.",
+   "adversarial_downside": "Enters tapped; blue land sources unchanged and one fewer black land source (Shipwreck Marsh was UB).",
+   "judgment": "SELECT_ADD",
+   "reason": "A land that is also a commander trigger, chosen over Haunted Ridge as the cut because red is the constrained colour.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+    "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Doom general 6777/11386, upgraded 533/947, optimized 84/216; live Scryfall batch",
+   "role": "{2} Equipment: equipped creature has hexproof and haste; equip {1}.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses Fellwar Stone ({2} rock: any colour an opponent's land could produce), one of seven mana rocks (Sol Ring, Arcane Signet, Fellwar, three Talismans, The Soul Stone).",
+   "commander_synergy": "Doom is the engine (every land discard drains the table); hexproof (702.11b) stops only opponents' targeting, so Doom's own beginning-of-combat ability can still target Doom himself; haste lets a fresh Villain attack under menace the turn Doom connives it.",
+   "adversarial_downside": "Lightning Greaves' shroud (702.18a) would stop Doom targeting himself, which is why Boots, not Greaves. Doesn't stop wipes or edicts; the candidate has six rocks (incl. Mox Diamond) instead of seven.",
+   "judgment": "SELECT_ADD",
+   "reason": "Protection for the single engine the list cannot replace; the cut is the most redundant rock.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Mox Diamond",
+   "source": "EDHREC Doom optimized 23/216 (absent from general/upgraded pages); live Scryfall batch (Game Changer)",
+   "role": "{0} artifact: if it would enter, you may discard a land card instead (if you don't, it goes to the graveyard); {T}: one mana of any colour.",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Loses Talisman of Creativity ({2} rock, {U}/{R} with 1 damage), and the Game Changer count rises 6 -> 7.",
+   "commander_synergy": "The replacement discard (614.1a) is a land-discard event: Doom drains 2 from each opponent, and Badgersaur, Nemesis, Bone Miser, Monument and Glint-Horn trigger; Dakmor Salvage discarded to it is ready to dredge; Crucible of Worlds replays the land. Any colour for 0 mana fixes the {1}{U}{B}{R} commander and RRR Seismic.",
+   "adversarial_downside": "Card disadvantage (two cards for one mana source); Game Changer (Bracket 4 either way). The five-swap list keeping Talisman is staged for an owner who prefers six Game Changers.",
+   "judgment": "SELECT_ADD",
+   "reason": "Fast mana whose cost is the commander's trigger.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_five_keep_TalismanOfCreativity_no_MoxDiamond_20261023.txt"
+   ]
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "source": "EDHREC Doom general 2839/11386, upgraded 279/947, optimized 62/216; live Scryfall batch",
+   "role": "{2}{R} 1/4 Elemental Pirate: whenever you discard one or more cards, deal that much damage to each opponent; cycling {1}{R} (1 to each opponent when cycled).",
+   "named_cuts": [
+    "Change of Fortune"
+   ],
+   "incumbent_opportunity_cost": "Would lose Change of Fortune (one-sided refill).",
+   "commander_synergy": "Same per-card damage as Buccaneer on every discard event; single R pip; cycles for 1 to each opponent when not needed.",
+   "adversarial_downside": "The bounded grid has it below Buccaneer in every attack cell (no attack loot); 64 vs 79 damage units, 0 vs 5 cards.",
+   "judgment": "REJECT",
+   "reason": "Provisional at checkpoint 2, replaced by Glint-Horn after the bounded Pass C grid; staged as a complete 100.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_Artillerist_instead_of_GlintHorn_20261023.txt"
+   ]
+  },
+  {
+   "card": "Withering Torment",
+   "source": "EDHREC Doom general 7250/11386, upgraded 604/947, optimized 103/216; live Scryfall batch",
+   "role": "{2}{B} instant: destroy target creature or enchantment; you lose 2 life.",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Would lose Feed the Swarm, the same slot Lightning Axe takes.",
+   "commander_synergy": "Keeps creature+enchantment coverage at instant speed.",
+   "adversarial_downside": "Three mana and no commander trigger; Lightning Axe's discard cost is itself a Doom drain at one mana.",
+   "judgment": "REJECT",
+   "reason": "Staged six-swap; Lightning Axe preferred for the commander tie.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_six_WitheringTorment_instead_of_LightningAxe_20261023.txt"
+   ]
+  },
+  {
+   "card": "Ledger Shredder",
+   "source": "EDHREC Doom general 3670/11386, upgraded 362/947, optimized 98/216; M6 Pass C #13 named it; live Scryfall batch",
+   "role": "{1}{U} 1/3 flyer: connives whenever a player casts their second spell each turn.",
+   "named_cuts": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "incumbent_opportunity_cost": "Would lose Iron Monger (Villain artifact flyer: whenever a creature we control connives, +1/+1 counter on each Villain).",
+   "commander_synergy": "More connives = more land-discard events across the table's turns.",
+   "adversarial_downside": "Not a Villain: Doom can't target it, Strucker/Tombstone don't discount it, Prowler/Doom Reigns don't trigger; Iron Monger turns every connive (Doom's included) into a Villain-wide anthem.",
+   "judgment": "REJECT",
+   "reason": "Staged seven-swap; Iron Monger is the Villain payoff for the same connive count.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_LedgerShredder_over_IronMonger_20261023.txt"
+   ]
+  },
+  {
+   "card": "Putrid Imp",
+   "source": "OFF-RANKING (absent from every Doom EDHREC page); M6 Pass C #13 named it; live Scryfall batch",
+   "role": "{B} 1/1 Zombie Imp: discard a card: gains flying until end of turn; threshold +1/+1 and can't block.",
+   "named_cuts": [
+    "Demand Answers"
+   ],
+   "incumbent_opportunity_cost": "Would lose Demand Answers ({1}{R} instant: sacrifice an artifact or discard a card, draw two).",
+   "commander_synergy": "A free instant-speed outlet: each land discarded is a separate Doom event.",
+   "adversarial_downside": "The deck already has a free outlet (Psychic Frog) and Seismic Assault, Trade Routes, Tectonic Reformation and four cycling lands; the bottleneck is land cards in hand, which Demand Answers digs for while its own discard cost is a Doom event. The mechanics test records ten graveyard-independent outlets in the candidate.",
+   "judgment": "REJECT",
+   "reason": "Staged seven-swap; redundant outlet, loses card flow.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Doctor_Doom__King_of_Latveria/final_disposition.md",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_PutridImp_over_DemandAnswers_20261023.txt"
+   ]
+  },
+  {
+   "card": "Bazaar of Baghdad",
+   "source": "OFF-RANKING (absent from every Doom EDHREC page); live Scryfall batch",
+   "role": "Land: {T}: draw two cards, then discard three cards.",
+   "named_cuts": [
+    "Training Center"
+   ],
+   "incumbent_opportunity_cost": "Would lose Training Center (UR dual, untapped with two opponents).",
+   "commander_synergy": "A repeatable land-discard engine in a land slot.",
+   "adversarial_downside": "Produces no mana, and -1 card per use; the deck plays 38 lands for a 4-mana commander and RRR Seismic.",
+   "judgment": "REJECT",
+   "reason": "Not worth losing a mana source here; the list already has enough outlets.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Faith of the Devoted",
+   "source": "EDHREC Doom general 1367/11386, upgraded 131/947, optimized 20/216; live Scryfall batch",
+   "role": "{2}{B} enchantment: whenever you cycle or discard a card, you may pay {1}: each opponent loses 2, you gain 2.",
+   "named_cuts": [
+    "Black Market Connections"
+   ],
+   "incumbent_opportunity_cost": "Would lose Black Market Connections (each first main phase: Treasure, draw and/or a 3/2 body for life).",
+   "commander_synergy": "Per-card drain on top of Doom's per-event drain.",
+   "adversarial_downside": "Taxes {1} per trigger, which competes with the Dakmor/Reformation loop's {R} costs; Cool but Rude level 2 already does 2 per card for free; Black Market Connections is the list's repeatable card and mana source.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Cool but Rude and Glint-Horn.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lonely Sandbar",
+   "source": "EDHREC Doom general 2031/11386, upgraded 171/947, optimized 34/216; live Scryfall batch",
+   "role": "Land — enters tapped; {T}: {U}; cycling {U}.",
+   "named_cuts": [
+    "Desolate Lighthouse"
+   ],
+   "incumbent_opportunity_cost": "Would lose Desolate Lighthouse (colourless utility land with a repeatable {1}{U}{R} loot).",
+   "commander_synergy": "One more cycling land, each cycle a Doom land-discard event.",
+   "adversarial_downside": "Mono-blue, enters tapped; Lighthouse's loot is itself a repeatable land-discard outlet that survives graveyard hate.",
+   "judgment": "REJECT",
+   "reason": "Lighthouse already is a repeatable outlet in the same slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Living Laser",
+   "source": "EDHREC Doom general 5607/10768, upgraded 392/914, optimized 59/209; live Scryfall batch",
+   "role": "{4}{R} haste Villain: on attack, a token copy for each card discarded this turn (tapped and attacking, exiled at end).",
+   "named_cuts": [
+    "Kang, Temporal Tyrant"
+   ],
+   "incumbent_opportunity_cost": "Would lose Kang, Temporal Tyrant (Villain: connives on attack; second draw each turn drains 1).",
+   "commander_synergy": "Rewards a high discard count with attackers.",
+   "adversarial_downside": "Five mana, and its copies enter after the beginning of combat (no Doom connive); Kang connives itself and drains on the second draw that Doom's connive already supplies.",
+   "judgment": "REJECT",
+   "reason": "Kang is cheaper and tied to the same draw/connive count.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Madame Hydra",
+   "source": "EDHREC Doom general 5203/10913, upgraded 331/921, optimized 49/209; live Scryfall batch",
+   "role": "{2}{B}{R} Villain: whenever you cast a Villain spell, create a 2/1 menace Villain token.",
+   "named_cuts": [
+    "Tombstone, Career Criminal"
+   ],
+   "incumbent_opportunity_cost": "Would lose Tombstone (Villain: returns a Villain card from the graveyard on entering; Villain spells cost {1} less).",
+   "commander_synergy": "More Villain bodies for Prowler/Strucker/Doom Reigns.",
+   "adversarial_downside": "Four mana, no discard text; Tombstone recovers Doom-adjacent Villains after graveyard plays and discounts Villains.",
+   "judgment": "REJECT",
+   "reason": "Tombstone is cheaper and recursive.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Terminate",
+   "source": "EDHREC Doom general 7015/11386, upgraded 517/947, optimized 94/216; live Scryfall batch",
+   "role": "{B}{R} instant: destroy target creature; it can't be regenerated.",
+   "named_cuts": [
+    "Lethal Scheme"
+   ],
+   "incumbent_opportunity_cost": "Would lose Lethal Scheme (convoke instant creature/planeswalker removal; each convoking creature connives).",
+   "commander_synergy": "Clean two-mana creature removal.",
+   "adversarial_downside": "Lethal Scheme can cost nothing with tapped Villains and makes each convoker connive (land discards = Doom drains); Terminate has no commander tie.",
+   "judgment": "REJECT",
+   "reason": "Lethal Scheme is the on-plan removal.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Bedevil",
+   "source": "EDHREC Doom general 6027/11386, upgraded 449/947, optimized 60/216; live Scryfall batch",
+   "role": "{B}{B}{R} instant: destroy target artifact, creature or planeswalker.",
+   "named_cuts": [
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would lose Toxic Deluge (the only scalable creature wipe).",
+   "commander_synergy": "Flexible instant spot removal for three permanent types.",
+   "adversarial_downside": "The list's only sweeper would go; spot removal remains (Lightning Axe, Lethal Scheme, Chaos Warp, Vandalblast for artifacts).",
+   "judgment": "REJECT",
+   "reason": "Keep the only sweeper; spot removal is already adequate.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lightning Greaves",
+   "source": "EDHREC Doom general 1354/11386, upgraded 110/947, optimized 44/216; live Scryfall batch",
+   "role": "{2} Equipment: haste and shroud; equip {0}.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone, the same slot Swiftfoot Boots takes.",
+   "commander_synergy": "Free-equip protection plus haste for any Villain.",
+   "adversarial_downside": "Shroud (702.18a) stops Doom's own beginning-of-combat ability from targeting a shrouded Villain, including Doom; Swiftfoot Boots' hexproof does not.",
+   "judgment": "REJECT",
+   "reason": "Rules conflict with the commander's targeted trigger.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Kefka, Court Mage",
+   "source": "EDHREC Doom general 1903/11386, upgraded 203/947, optimized 46/216; live Scryfall batch; OWNER-REMOVED CLASS (opponent-discard)",
+   "role": "{2}{U}{B}{R} legendary: on entering or attacking, each player discards a card; draw for each card type discarded.",
+   "named_cuts": [
+    "Leader, Super-Genius"
+   ],
+   "incumbent_opportunity_cost": "Would lose Leader, Super-Genius (each connive draws an extra card first; connives a creature at beginning of combat).",
+   "commander_synergy": "Symmetric discard that includes a land discard for Doom.",
+   "adversarial_downside": "The owner's 2026-10-14 approval removed the opponent-discard punisher class; re-adding a symmetric-discard card would reverse that direction, and Commander Spellbook pairs it with Glint-Horn only as a near-miss (not in the list).",
+   "judgment": "REJECT",
+   "reason": "Flagged: owner-removed class; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_CommanderSpellbook_20261023.json"
+   ]
+  },
+  {
+   "card": "Syphon Mind",
+   "source": "EDHREC Doom general 2397/11386, upgraded 132/947, optimized 11/216; live Scryfall batch; OWNER-REMOVED CLASS (opponent-discard)",
+   "role": "{3}{B} sorcery: each other player discards a card; draw one for each.",
+   "named_cuts": [
+    "Black Market Connections"
+   ],
+   "incumbent_opportunity_cost": "Would lose Black Market Connections.",
+   "commander_synergy": "Card draw from opponents' discards.",
+   "adversarial_downside": "Opponent discard, the class the owner removed on 2026-10-14; it does not trigger Doom (our discard only).",
+   "judgment": "REJECT",
+   "reason": "Flagged: owner-removed class; no commander tie.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Ash Barrens",
+   "source": "EDHREC Doom general 1602/11386, upgraded 159/947; live Scryfall batch",
+   "role": "Land: {T}: {C}; basic landcycling {1}.",
+   "named_cuts": [
+    "Geier Reach Sanitarium"
+   ],
+   "incumbent_opportunity_cost": "Would lose Geier Reach Sanitarium ({2},{T}: each player draws then discards; a land-discard outlet in a land slot).",
+   "commander_synergy": "Cycling-type land discard for {1}.",
+   "adversarial_downside": "Basic landcycling only finds the three basics; Geier Reach is repeatable and symmetric looting for Doom.",
+   "judgment": "REJECT",
+   "reason": "Geier Reach is the repeatable outlet.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Lightning Axe",
+   "Glint-Horn Buccaneer",
+   "Red Ghost, Intangible Genius",
+   "Coastal Peak",
+   "Swiftfoot Boots",
+   "Mox Diamond"
+  ],
+  "cuts": [
+   "Feed the Swarm",
+   "Change of Fortune",
+   "Loki, the Deceiver",
+   "Shipwreck Marsh",
+   "Fellwar Stone",
+   "Talisman of Creativity"
+  ],
+  "coherent_package_tradeoff": "Six one-for-one swaps that add Doom land-discard events with a second job (removal, fast mana, a land), a per-card payoff, a Villain engine and engine protection. Losses: Feed the Swarm's enchantment removal (Chaos Warp, Cyclonic Rift, Otawara remain), Change of Fortune's refill (Green Goblin, Revenant, wheels and Big Score remain), Loki's Villain copies and combat-damage draw, Shipwreck Marsh's untapped UB, Fellwar Stone and Talisman of Creativity (two rocks; Mox Diamond replaces one). Game Changers 6 -> 7 (Mox Diamond)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal that costs life and has no discard tie.",
+    "alternative_named": "Lightning Axe",
+    "reasoning": "1-mana instant whose discard cost is a Doom drain event."
+   },
+   {
+    "card": "Change of Fortune",
+    "weakness": "One-sided wheel at 4 mana that Doom triggers once.",
+    "alternative_named": "Glint-Horn Buccaneer",
+    "reasoning": "Per-card ping turns every wheel and loot into table damage."
+   },
+   {
+    "card": "Loki, the Deceiver",
+    "weakness": "Its attack copies enter after the beginning of combat and miss Doom's connive (Pass C note).",
+    "alternative_named": "Red Ghost, Intangible Genius",
+    "reasoning": "Doom's connive is the second draw: a hasty Ape Villain every turn."
+   },
+   {
+    "card": "Shipwreck Marsh",
+    "weakness": "UB slow-land in a deck short of red; no cycling.",
+    "alternative_named": "Coastal Peak",
+    "reasoning": "Cycling land (Doom event), fetchable Island Mountain, +1 red source."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Most redundant of seven rocks; depends on opponents' lands.",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "Protects the single engine; hexproof keeps Doom's self-target."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two-mana rock that pings us for each coloured use; redundant with two other Talismans.",
+    "alternative_named": "Mox Diamond",
+    "reasoning": "0-mana any colour; its land discard is a Doom drain."
+   },
+   {
+    "card": "Green Goblin, Revenant",
+    "weakness": "5-mana Villain that needs to attack and has no haste.",
+    "alternative_named": "Magmakin Artillerist",
+    "reasoning": "Rejected: Revenant is the one-sided refill after cutting Change of Fortune; the grid's damage edge goes to Buccaneer instead."
+   },
+   {
+    "card": "Iron Monger, Sadistic Tycoon",
+    "weakness": "3-mana body that needs connives to matter.",
+    "alternative_named": "Ledger Shredder",
+    "reasoning": "Rejected: Ledger Shredder is not a Villain, so Doom and the Villain payoffs never see it."
+   },
+   {
+    "card": "Demand Answers",
+    "weakness": "Draw two at instant speed, no board presence.",
+    "alternative_named": "Putrid Imp",
+    "reasoning": "Rejected: outlets are not the bottleneck; lands in hand are."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "UR dual that depends on two opponents.",
+    "alternative_named": "Bazaar of Baghdad",
+    "reasoning": "Rejected: Bazaar of Baghdad produces no mana in a 38-land three-colour list."
+   },
+   {
+    "card": "Kang, Temporal Tyrant",
+    "weakness": "4-mana Villain that must attack to connive.",
+    "alternative_named": "Living Laser",
+    "reasoning": "Rejected: 5 mana; copies miss Doom's connive."
+   },
+   {
+    "card": "Lethal Scheme",
+    "weakness": "4-mana removal unless convoked.",
+    "alternative_named": "Terminate",
+    "reasoning": "Rejected: Lethal Scheme's convoke connives are Doom events."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Lightning Axe and Mox Diamond (selected); Putrid Imp, Bazaar of Baghdad (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity"
+    ],
+    "result_and_rationale": "Selected six-swap package: commander-first. Two more land-discard outlets that are themselves cards with a job (Lightning Axe's cost, Mox Diamond's replacement, Coastal Peak's cycling), a per-card payoff (Glint-Horn), a Villain engine fed by Doom's connive (Red Ghost) and protection that keeps Doom's self-target (Boots). Land count unchanged (38); red land sources 20 -> 21."
+   },
+   {
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone"
+    ],
+    "result_and_rationale": "Staged five-swap keeping Talisman of Creativity (no Mox Diamond, 6 Game Changers). Retained alternative."
+   },
+   {
+    "adds": [
+     "Withering Torment",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity"
+    ],
+    "result_and_rationale": "Staged six-swap with Withering Torment instead of Lightning Axe. Rejected: no commander trigger, 3 mana."
+   },
+   {
+    "adds": [
+     "Lightning Axe",
+     "Magmakin Artillerist",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity"
+    ],
+    "result_and_rationale": "Staged six-swap with Magmakin Artillerist instead of Glint-Horn Buccaneer. Rejected by the bounded grid (Buccaneer >= Artillerist in all 20 cells)."
+   },
+   {
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Green Goblin, Revenant",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity"
+    ],
+    "result_and_rationale": "Staged Pass C exact pairing: Glint-Horn over Green Goblin, Revenant, keeping Change of Fortune. Rejected: Revenant is a Villain and becomes the refill."
+   },
+   {
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond",
+     "Ledger Shredder"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity",
+     "Iron Monger, Sadistic Tycoon"
+    ],
+    "result_and_rationale": "Staged seven-swap with Pass C's Ledger Shredder over Iron Monger. Rejected: not a Villain."
+   },
+   {
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond",
+     "Putrid Imp"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity",
+     "Demand Answers"
+    ],
+    "result_and_rationale": "Staged seven-swap with Pass C's Putrid Imp over Demand Answers. Rejected: redundant outlet, loses card flow."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C paired Glint-Horn Buccaneer with Green Goblin, Revenant. The bounded grid supports Glint-Horn, but it takes Change of Fortune's slot so Revenant stays as the Villain refill; the exact Pass C pairing (inside the six, and as a single swap on the baseline) is staged as complete 100s and rejected. Putrid Imp over Demand Answers and Ledger Shredder over Iron Monger are staged seven-swap 100s.",
+  "strongest_argument_against_baseline": "Doom pays per land-discard event and needs to survive to do it, yet the baseline had no protection for him, spent a Villain slot on Loki (whose copies miss the commander's combat trigger), a 4-mana refill Doom triggers once, sorcery-speed life-costing removal, a redundant opponent-dependent rock, a pinging Talisman and a UB land in a deck short of red for RRR Seismic.",
+  "evidence_based_answer": "Six swaps, all commander-first: three cards whose costs or cycling are Doom events (Lightning Axe, Mox Diamond, Coastal Peak), a per-card payoff (Glint-Horn), a connive-fed Villain engine (Red Ghost) and hexproof protection (Boots). Bounded Pass C tests are in the mechanics test. Spellbook: still 1 included combo (finite)."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Doctor_Doom__King_of_Latveria.txt",
+  "sha256": "21d5ebd66352c34e9f7b786e71d121e9e0101f2426049741c2ddb1d95d1ab3fb",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically, all 1x. Six substitutions against the canonical source. 38 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Doctor_Doom__King_of_Latveria_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Doctor_Doom__King_of_Latveria_M7_20261023.md",
+   "tests/test_m6_doctor_doom_king_of_latveria_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Land Discard",
+   "Villains",
+   "Connive"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five-swap floor, Mox Diamond over Talisman of Creativity was added as a sixth swap, and every remaining incumbent was re-read against the candidate pool. Twelve post-floor challenges were recorded and rejected on Doom-specific grounds; two larger seven-swap packages (Pass C's Ledger Shredder over Iron Monger; Pass C's Putrid Imp over Demand Answers) are staged as complete 100s.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Green Goblin, Revenant",
+    "challenger": "Magmakin Artillerist",
+    "tradeoff": "A second per-card pinger next to Glint-Horn adds damage but removes the only one-sided refill left after cutting Change of Fortune; Revenant is a flying deathtouch Villain (Doom's connive target, Strucker/Tombstone discount, Prowler and Doom Reigns triggers).",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Iron Monger, Sadistic Tycoon",
+    "challenger": "Ledger Shredder",
+    "tradeoff": "Shredder adds connives but is not a Villain; Iron Monger converts every connive (Doom's every turn) into counters on each Villain.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Demand Answers",
+    "challenger": "Putrid Imp",
+    "tradeoff": "Imp is a redundant free outlet beside Psychic Frog; Demand Answers finds the land cards that are the real bottleneck and its cost is a Doom event.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Training Center",
+    "challenger": "Bazaar of Baghdad",
+    "tradeoff": "Bazaar makes no mana in a 38-land deck with a 4-mana three-colour commander and RRR Seismic.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Kang, Temporal Tyrant",
+    "challenger": "Living Laser",
+    "tradeoff": "Living Laser costs 5 and its copies arrive after Doom's beginning-of-combat trigger; Kang drains on the second draw that Doom's connive supplies.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Lethal Scheme",
+    "challenger": "Terminate",
+    "tradeoff": "Lethal Scheme's convokers connive (Doom events) and it hits planeswalkers; Terminate has no commander tie.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Desolate Lighthouse",
+    "challenger": "Lonely Sandbar",
+    "tradeoff": "Lighthouse's loot is a repeatable graveyard-independent outlet; Sandbar is a mono-blue tapped land.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Tombstone, Career Criminal",
+    "challenger": "Madame Hydra",
+    "tradeoff": "Tombstone is a cheaper Villain with recursion and a Villain cost reduction.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Black Market Connections",
+    "challenger": "Faith of the Devoted",
+    "tradeoff": "Faith's {1} tax competes with the loop's {R}; Cool but Rude and Glint-Horn already pay per card.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Toxic Deluge",
+    "challenger": "Bedevil",
+    "tradeoff": "Deluge is the only sweeper; spot removal is already adequate.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Geier Reach Sanitarium",
+    "challenger": "Ash Barrens",
+    "tradeoff": "Ash Barrens cycles once for a basic; Geier Reach is a repeatable outlet.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Leader, Super-Genius",
+    "challenger": "Kefka, Court Mage",
+    "tradeoff": "Owner-removed opponent-discard class; Leader doubles the draw on every connive.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_LedgerShredder_over_IronMonger_20261023.txt",
+    "sha256": "3e09a72e0cf809637e5041b57ddf70e80facfa6f20519fa503c13bd979b867d9",
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond",
+     "Ledger Shredder"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity",
+     "Iron Monger, Sadistic Tycoon"
+    ],
+    "case_for_extra_swaps": "Pass C asked for Ledger Shredder: connives on any player's second spell, so more land-discard events on opponents' turns.",
+    "why_not_selected": "Not a Villain: Doom can't target it and the Villain payoffs (Iron Monger, Prowler, Strucker, Doom Reigns Supreme) don't see it; Iron Monger is the Villain payoff for the same connives."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Doctor_Doom__King_of_Latveria_seven_PassC_PutridImp_over_DemandAnswers_20261023.txt",
+    "sha256": "e172f19b64c191045f5aaebeef91853fec9012e2f5653c22c0d2610436679214",
+    "adds": [
+     "Lightning Axe",
+     "Glint-Horn Buccaneer",
+     "Red Ghost, Intangible Genius",
+     "Coastal Peak",
+     "Swiftfoot Boots",
+     "Mox Diamond",
+     "Putrid Imp"
+    ],
+    "cuts": [
+     "Feed the Swarm",
+     "Change of Fortune",
+     "Loki, the Deceiver",
+     "Shipwreck Marsh",
+     "Fellwar Stone",
+     "Talisman of Creativity",
+     "Demand Answers"
+    ],
+    "case_for_extra_swaps": "Pass C asked for Putrid Imp: a free, instant-speed outlet that turns every land in hand into a separate Doom drain.",
+    "why_not_selected": "Redundant with Psychic Frog, Seismic Assault, Trade Routes, Tectonic Reformation and cycling lands; the limit is land cards in hand, which Demand Answers digs for."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at six; the five-swap floor was not used as a target. Each remaining weak-looking slot beats its best challenger on Doom-specific grounds: Villain status for the connive and Villain payoffs (Revenant, Iron Monger, Kang, Tombstone, Leader), outlets that are already in excess of land supply (Demand Answers digs instead), mana in a 38-land three-colour list (Training Center), on-plan convoke removal (Lethal Scheme), repeatable land-slot outlets (Desolate Lighthouse, Geier Reach), the only wipe (Toxic Deluge), and respect for the owner's removal of opponent-discard punishers (Kefka, Syphon Mind not re-added)."
+ }
+}
