@@ -559,7 +559,11 @@
    ],
    "blockers": [],
    "unresolved_issues": [
-    "Not done: matched-opening playtest samples / multiplayer simulation"
+    "Owner review: Glint-Horn Buccaneer (punishes our own discards) vs the owner-removed opponent-discard-punisher class",
+    "Mox Diamond adds a 7th Game Changer (6 -> 7, Bracket 4)",
+    "Loki-deck overlap not reduced (53 -> 53)",
+    "Not done: matched-opening playtest samples / multiplayer simulation",
+    "Pass C is owner-equivalent, NOT independent; disposition NEEDS TESTING"
    ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw c97bd448 == overrides == tracker == registry; 100 physical/100 rows; 38 lands); shared infra copied from #660 bb3be7d3; draft PR #661 2026-10-23 07:42 CDT",
@@ -591,7 +595,7 @@
     "regressions": 0
    },
    "shared_infra_change": "none (byte-identical to #660 head bb3be7d3)",
-   "updated_at": "2026-10-23T08:10:00-05:00"
+   "updated_at": "2026-10-23T08:09:00-05:00"
   },
   {
    "tracker_number": 14,
