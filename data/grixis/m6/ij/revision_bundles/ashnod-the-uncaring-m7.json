@@ -57,6 +57,10 @@
    "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
   },
   {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:cd0be27a14dc6126e7cf7ec8fa7adc1f5461c8072718637eb64a673e4c1c1f90"
+  },
+  {
    "path": "data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
    "sha256": "sha256:f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf"
   },
@@ -103,6 +107,10 @@
   {
    "path": ".github/workflows/m7-ashnod-the-uncaring.yml",
    "sha256": "sha256:3beff3ae576048de145d9eea14206d15d4c8b6affdcdf2ca7c74af433c212e7a"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Ashnod_the_Uncaring_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:1b998ba96bbb6f2c6b3c5aa684895b1e4b4093844e538aa9d6f6ad6eae9894e4"
   }
  ],
  "sealed_passes": {
