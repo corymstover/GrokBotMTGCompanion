@@ -1,0 +1,747 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Crosis__the_Purger",
+ "canonical_baseline_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+ "canonical_baseline_logical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "commander_identity": {
+  "mechanical_plan": "Crosis, the Purger ({3}{U}{B}{R} 6/6 flying Dragon): whenever he deals combat damage to a player, pay {2}{B} to name a color; that player reveals and discards all cards of that color. The deck ramps hard into Crosis (36 lands, 11 mana rocks after the cuts, Dark Ritual), protects and connects (Lightning Greaves, Swiftfoot Boots, Brotherhood Regalia unblockable + ward, Sword of Feast and Famine pro-black/green, Cavern of Souls), and turns discards into damage and value (Liliana's Caress, Waste Not, Tergrid, Tinybones; the candidate adds Megrim and Raiders' Wake). Painter's Servant makes Crosis's purge take the whole hand. Wheels (Wheel of Fortune, Windfall, Dark Deal) and the discard suite (Hymn to Tourach, Mind Twist, Bottomless Pit, Tourach, the Specters) keep the punishers firing.",
+  "protected_core": [
+   "Crosis, the Purger",
+   "Painter's Servant",
+   "Sword of Feast and Famine",
+   "Brotherhood Regalia",
+   "Lightning Greaves",
+   "Swiftfoot Boots",
+   "Liliana's Caress",
+   "Waste Not",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Wheel of Fortune",
+   "Windfall",
+   "Notion Thief",
+   "Teferi's Puzzle Box",
+   "Cavern of Souls",
+   "Plaza of Heroes"
+  ],
+  "natural_ceiling": "Power Bracket 4 (registry ceiling 4, Optimized). 14 Game Changers, all unchanged; none of the five adds is a Game Changer. Commander Spellbook: baseline 1 included combo (Notion Thief + Teferi's Puzzle Box lock); candidate adds Sword of Feast and Famine + Aggravated Assault (infinite combat phases, conditional on connecting each combat). No unconditional infinite is claimed.",
+  "anti_homogenization": "Every add serves the Crosis trigger itself: per-card punishers that multiply a multi-card purge (Megrim, Raiders' Wake), more combat-damage triggers (Rankle's haste hit, Aggravated Assault's extra combats), and a removal spell that is free only while the commander is out. Generic Grixis staples (Hullbreacher (banned), Counterspell, Snuff Out, Dauthi Voidwalker, painlands) were rejected on Crosis-specific grounds. This keeps Crosis a Dragon/combat-damage/discard deck distinct from the UBR spellslinger, storm and reanimator decks in the roster."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (91 rows: Island x4, Mountain x3, Swamp x4, the rest 1x).\nRoles:\n- 36 lands (incl. Ancient Tomb, Cavern of Souls, Plaza of Heroes, Shizo, Geier Reach Sanitarium, Training Center, Morphic Pool, Luxury Suite, Xander's Lounge).\n- Ramp: Sol Ring, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal, Arcane/Dimir/Rakdos/Izzet Signets, three Talismans, Jet Medallion, Dark Ritual, Black Market Connections.\n- Tutors: Demonic, Vampiric, Mystical, Gamble.\n- Commander support: Painter's Servant, Sword of Feast and Famine, Brotherhood Regalia, Lightning Greaves, Swiftfoot Boots, Geth's Grimoire.\n- Discard: Hymn to Tourach, Mind Twist, Bottomless Pit, Oppression, Syphon Mind, wheels (Wheel of Fortune, Windfall, Dark Deal), Specters (Blizzard, Sedraxis, Fell), The Raven Man, Tourach, Tinybones x3, Kroxa, Bandit's Talent.\n- Payoffs: Liliana's Caress, Waste Not, Tergrid, Dream Salvage, Notion Thief, Teferi's Puzzle Box, Orcish Bowmasters.\n- Interaction: Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat, Drown in the Loch, Chaos Warp, Feed the Swarm, Recoil, Cyclonic Rift, Damnation, Toxic Deluge.\nOverlaps: four Signets, two haste equipment, two symmetric discard enchantments (Oppression, Pit).",
+  "mana_base_and_curve": "Baseline: 36 lands (one always tapped: Xander's Lounge); heuristic land sources B 22, R 18, U 20; average nonland MV 2.286; 25 instants/sorceries; 13 library creatures. Candidate: 36 lands, sources unchanged (no land swaps); average nonland MV 2.381; 25 instants/sorceries; 13 library creatures. Mana rocks 13 -> 11 (Jet Medallion and Izzet Signet cut); counting Dark Ritual and Black Market Connections, nonland accelerants 15 -> 13, with 36 lands.",
+  "interaction_resilience": "Stack: Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat; Cavern of Souls for Crosis. Removal: Chaos Warp, Feed the Swarm, Drown in the Loch, Recoil, Cyclonic Rift, Damnation, Toxic Deluge, Orcish Bowmasters, plus Deadly Rollick (free with Crosis out). Commander protection: Greaves, Boots, Regalia (ward 2), Sword (pro-black/green). Weak points: enchantment removal against the punishers, fog/blockers stopping the Sword + Assault loop, and graveyard hate against Tergrid/Kroxa/Reanimate.",
+  "weakest_slots": [
+   {
+    "card": "Jet Medallion",
+    "weakness": "Only discounts black spells; the weakest of 13 rocks and does not help Crosis's {U}/{R} pips (general 122/1140).",
+    "alternative_named": "Megrim",
+    "reasoning": "The commander's signature per-discard payoff."
+   },
+   {
+    "card": "Blizzard Specter",
+    "weakness": "2/3 flyer without haste; one mode per hit (Pass C correction).",
+    "alternative_named": "Rankle, Master of Pranks",
+    "reasoning": "Haste flyer with three modes per hit."
+   },
+   {
+    "card": "Dream Salvage",
+    "weakness": "Payoff only after a discard turn; card draw keyed to one opponent.",
+    "alternative_named": "Aggravated Assault",
+    "reasoning": "Extra combats repeat Crosis's purge; Sword combo 900-3750."
+   },
+   {
+    "card": "Oppression",
+    "weakness": "Symmetric: taxes our own spells and empties opponents' hands before Crosis can purge them.",
+    "alternative_named": "Raiders' Wake",
+    "reasoning": "Asymmetric per-discard damage plus raid discard."
+   },
+   {
+    "card": "Izzet Signet",
+    "weakness": "U/R is the least-needed pair; third Signet in a 36-land list.",
+    "alternative_named": "Deadly Rollick",
+    "reasoning": "Free exile while Crosis is out."
+   },
+   {
+    "card": "Dark Deal",
+    "weakness": "Symmetric wheel giving opponents a near-full hand back.",
+    "alternative_named": "Bloodchief Ascension",
+    "reasoning": "Retained alternative; staged six-swap list."
+   },
+   {
+    "card": "Bottomless Pit",
+    "weakness": "Symmetric random discard that also hits us.",
+    "alternative_named": "Painful Quandary",
+    "reasoning": "Rejected: five mana, opponents choose."
+   },
+   {
+    "card": "Sedraxis Specter",
+    "weakness": "Three-mana 3/2; first to die to wipes.",
+    "alternative_named": "Blazing Specter",
+    "reasoning": "Rejected: more expensive, no unearth."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud also blocks our own Regalia equips and pump; no evasion.",
+    "alternative_named": "Whispersilk Cloak",
+    "reasoning": "Rejected: Greaves' haste for a 6-drop matters more."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Gives an opponent a 2/2 flyer that can block Crosis.",
+    "alternative_named": "Counterspell",
+    "reasoning": "Rejected: UU in a black-heavy base; Mana Drain fills the UU slot."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "The only land that always enters tapped.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Rejected: Lounge is the tri-typed fetch target."
+   },
+   {
+    "card": "Tinybones, Pocket Nuisance",
+    "weakness": "Small body; part of a legendary sub-theme that is not commander-critical.",
+    "alternative_named": "Hypnotic Specter",
+    "reasoning": "Rejected: keeps the Tinybones legendary package."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Crosis list (2026-10-14) with a strong discard suite and Painter's Servant purge. M6 Pass C kept it (KEEP-LOCKED, NEEDS TESTING) but listed Megrim, Aggravated Assault, Dauthi Voidwalker and Bloodchief Ascension as hypotheses, mostly against Blizzard Specter or Sedraxis Specter. Remaining weaknesses: only one per-discard punisher (Liliana's Caress) for a commander that discards many cards at once, a symmetric stax piece (Oppression) that fights the commander, a slow non-haste Specter, a black-only cost reducer, and no repeat-combat effect for the commander trigger.",
+  "candidate_pool_scope": "EDHREC Crosis general (1140 decks), upgraded (77) and optimized (23) pages JSON (the cEDH page has 1 deck and was ignored); live Scryfall /cards/collection batch for 106 candidates plus the 92-row baseline; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; and OFF-RANKING searches for extra-combat effects, per-discard punishers, commander-conditional free spells and haste combat-damage creatures.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Aggravated Assault (absent from every Crosis page; selected), Rankle, Master of Pranks (91/1140, absent from upgraded/optimized; selected), Deadly Rollick (absent from general, 7/77 upgraded; selected), Snuff Out (2/23 optimized; rejected), Bloodchief Ascension (195/1140; retained alternative), Dauthi Voidwalker (133/1140; rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Crosis approved source refinement/decklists/Crosis_the_Purger_Approval_Candidate_2026-10-14.txt (read-only clone 9b26aa2; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Crosis commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23: data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (92 baseline rows + 106 candidates): data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Crosis__the_Purger_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for extra-combat effects, per-discard punishers, commander-conditional free spells and haste combat-damage creatures (Aggravated Assault; Rankle, Master of Pranks; Deadly Rollick; Snuff Out; Bloodchief Ascension)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for combat-damage triggers, multiple-occurrence triggers, trigger ordering, additional phases, color choice and controlling a commander: data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Megrim",
+   "source": "EDHREC Crosis general 729/1140, upgraded 48/77, optimized 12/23; M6 Pass C hypothesis (+Megrim); live Scryfall batch",
+   "role": "{2}{B} enchantment: 2 damage to an opponent each time they discard a card.",
+   "named_cuts": [
+    "Jet Medallion"
+   ],
+   "incumbent_opportunity_cost": "Loses Jet Medallion's {1} discount on black spells, the weakest of the deck's 13 mana rocks. It only fixes and ramps black spells, and it is colorless-useless for Crosis's blue and red pips.",
+   "commander_synergy": "Crosis's trigger discards several cards at once (all cards of a color, or the whole hand with Painter's Servant). Per CR 603.2c, Megrim triggers once per card, so a 4-card purge deals 8 more damage. It stacks with Liliana's Caress and adds a second punisher for the wheels (Wheel of Fortune, Windfall, Dark Deal), Hymn to Tourach, Mind Twist, Sword of Feast and Famine, Tourach and Bottomless Pit. This is the commander's signature payoff, played in 64% of Crosis decks.",
+   "adversarial_downside": "A do-nothing enchantment without discard and dead against empty hands. It is vulnerable to enchantment removal, and three mana at sorcery speed slows the curve slightly.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts the commander's purge and the existing discard suite into direct damage. Pass C named it as the top hypothesis; the question was only which cut. Jet Medallion is the lowest-impact rock in a 36-land list with 12 other rocks.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+    "tests/test_m6_crosis_the_purger_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "source": "EDHREC Crosis general 91/1140 (low inclusion; OFF-RANKING on upgraded/optimized pages); live Scryfall batch",
+   "role": "{2}{B}{B} 3/3 flying haste Faerie: on combat damage to a player, choose any number of the following: each player discards a card, each player loses 1 life and draws a card, each player sacrifices a creature.",
+   "named_cuts": [
+    "Blizzard Specter"
+   ],
+   "incumbent_opportunity_cost": "Loses Blizzard Specter (2/3 flying, no haste; on combat damage either bounce a permanent or discard a card). That is a choice of one effect per hit and a turn of summoning sickness.",
+   "commander_synergy": "Fits the evasive combat-damage discard plan. Haste lets Rankle hit the turn it lands. Its discard mode feeds Megrim, Caress and Wake in every opponent's hand. The sacrifice mode trades our Painter's Servant or token against blockers and opposing commanders. The draw mode refuels hands for Crosis to purge. It is a legendary creature, so Plaza of Heroes can cast it and Brotherhood Regalia equips it for {1}.",
+   "adversarial_downside": "The modes are symmetric, so we discard and sacrifice too (we choose the modes). It costs {B}{B}, and as a 3/3 it dies to any removal.",
+   "judgment": "SELECT_ADD",
+   "reason": "Strictly stronger evasive discard body for this plan: it has haste, three modes in one hit, and it hits the turn it is cast, where Blizzard Specter needs a turn. Pass C confirmed Blizzard Specter has no haste.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+    "tests/test_m6_crosis_the_purger_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Aggravated Assault",
+   "source": "OFF-RANKING (absent from all Crosis EDHREC pages); M6 Pass C Sword-of-Feast-and-Famine repeat-combat hypothesis; Commander Spellbook 900-3750; live Scryfall batch",
+   "role": "{2}{R} enchantment: {3}{R}{R}, sorcery speed: untap all creatures we control and add an extra combat phase plus main phase.",
+   "named_cuts": [
+    "Dream Salvage"
+   ],
+   "incumbent_opportunity_cost": "Loses Dream Salvage, a {U/B} instant drawing cards equal to discards by one opponent this turn. It is good after a Crosis purge but does nothing on its own.",
+   "commander_synergy": "Every extra combat is another Crosis trigger, so another color is purged, often emptying a hand in two or three combats. With Sword of Feast and Famine on Crosis, order the triggers so Sword untaps lands first, then pay {2}{B}. The untapped lands pay {3}{R}{R} again in the next main phase. Spellbook 900-3750 lists Sword + Assault as infinite combat phases. Here it is conditional on connecting each combat (flying, protection from black/green, Brotherhood Regalia unblockable). Without Sword it is still a five-mana mana sink for a second purge late.",
+   "adversarial_downside": "Five mana per activation without Sword is expensive. Our board is small, so it is a do-nothing card without Crosis in play. It introduces a disclosed two-card combo (B4-compatible).",
+   "judgment": "SELECT_ADD",
+   "reason": "The highest-ceiling commander-specific add: it multiplies Crosis's trigger, and it turns the incumbent Sword of Feast and Famine into a repeat-purge engine. Dream Salvage is the most replaceable discard payoff once Megrim and Raiders' Wake are in.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+    "tests/test_m6_crosis_the_purger_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Raiders' Wake",
+   "source": "EDHREC Crosis general 632/1140, upgraded 38/77, optimized 8/23; live Scryfall batch",
+   "role": "{3}{B} enchantment: each opponent discard costs them 2 life; Raid end step: target opponent discards a card.",
+   "named_cuts": [
+    "Oppression"
+   ],
+   "incumbent_opportunity_cost": "Loses Oppression, a symmetric stax enchantment: every player who casts a spell discards a card, including us.",
+   "commander_synergy": "A second Caress-style punisher that also creates a discard every turn we attack, which Crosis, Rankle, the Specters and Tinybones do every turn. It triggers on every card in a Crosis purge (603.2c). Oppression cuts against the commander: it taxes our own 25 instants/sorceries and Crosis's support, and it empties opponents' hands before Crosis can purge them for value.",
+   "adversarial_downside": "Four mana, an enchantment with no immediate board impact, and dead if we cannot attack. Oppression was the stronger lock in an opponent-heavy spell meta.",
+   "judgment": "SELECT_ADD",
+   "reason": "Asymmetric damage per discard plus a recurring discard, replacing a symmetric tax that conflicts with both the commander's purge and our own spell count.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+    "tests/test_m6_crosis_the_purger_m7_mechanics.py",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_four_keep_Oppression_20261023.txt"
+   ]
+  },
+  {
+   "card": "Deadly Rollick",
+   "source": "EDHREC Crosis upgraded 7/77, optimized 2/23 (OFF-RANKING on general); live Scryfall batch",
+   "role": "{3}{B} instant: exile target creature; free if we control a commander.",
+   "named_cuts": [
+    "Izzet Signet"
+   ],
+   "incumbent_opportunity_cost": "Loses Izzet Signet. U/R is the least-needed color pair here (black has 22 heuristic sources; the deck also keeps Arcane Signet, Dimir Signet, Rakdos Signet, three Talismans, Sol Ring, Mana Vault, Chrome Mox, Mox Diamond, Lotus Petal).",
+   "commander_synergy": "Crosis is a 6-mana combat commander. Once he is on the battlefield, the deck needs to clear blockers and answer the opposing threat while still holding up {2}{B} for the trigger. Rollick is free then (CR 903.3d) and exiles, so it handles indestructible and recursive creatures. The baseline had only Feed the Swarm, Chaos Warp and Drown in the Loch as instant creature answers.",
+   "adversarial_downside": "Free only while Crosis (a commander we control) is on the battlefield; otherwise four mana. It does not hit noncreature permanents.",
+   "judgment": "SELECT_ADD",
+   "reason": "A free exile answer while Crosis is out beats a third two-mana signet in a deck with 36 lands and 11 remaining rocks.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+    "tests/test_m6_crosis_the_purger_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "source": "EDHREC Crosis general 195/1140, upgraded 16/77, optimized 4/23; M6 Pass C hypothesis; live Scryfall batch",
+   "role": "{B} quest enchantment: once active, each card put into an opponent's graveyard drains 2.",
+   "named_cuts": [
+    "Dark Deal"
+   ],
+   "incumbent_opportunity_cost": "Loses Dark Deal, a {2}{B} symmetric wheel (each player discards hand, draws one fewer), which triggers Megrim, Caress and Wake on every opponent card.",
+   "commander_synergy": "With three quest counters, every Crosis purge, wheel or Sword discard becomes an additional 2-point drain per card. Megrim, Caress and Wake make 2+ life loss happen every turn, which turns it on.",
+   "adversarial_downside": "Needs three separate end steps with 2+ life lost. Slow and weak to enchantment removal. Dark Deal is a burst of discard triggers with the punishers we now play.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a six-swap list. Not selected: Dark Deal is better with three punishers in play (an immediate burst), and Ascension is slow to come online.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Crosis__the_Purger/final_disposition.md",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_six_Bloodchief_over_DarkDeal_20261023.txt"
+   ]
+  },
+  {
+   "card": "Painful Quandary",
+   "source": "EDHREC Crosis general 558/1140, upgraded 33/77, optimized 12/23; live Scryfall batch",
+   "role": "{3}{B}{B} enchantment: each opponent spell costs 5 life unless they discard.",
+   "named_cuts": [
+    "Bottomless Pit"
+   ],
+   "incumbent_opportunity_cost": "Loses Bottomless Pit, a {1}{B}{B} symmetric random discard each upkeep (ours too).",
+   "commander_synergy": "Asymmetric: opponents pay 5 life or discard, which in turn triggers Megrim, Caress and Wake.",
+   "adversarial_downside": "Five mana and opponents choose the mode. It does not lower hands as reliably as Pit.",
+   "judgment": "REJECT",
+   "reason": "Staged in the seven-swap list and rejected. Five mana on top of Crosis's six and Raiders' Wake strains the curve; Pit is a 3-mana every-turn discard engine for our punishers, and its symmetry hurts us less because we empty our hand fast.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_seven_Quandary_over_BottomlessPit_20261023.txt"
+   ]
+  },
+  {
+   "card": "Blazing Specter",
+   "source": "EDHREC Crosis general 552/1140; live Scryfall batch",
+   "role": "{2}{B}{R} 2/2 flying haste Specter: combat damage to a player makes them discard.",
+   "named_cuts": [
+    "Sedraxis Specter"
+   ],
+   "incumbent_opportunity_cost": "Loses Sedraxis Specter: a {U}{B}{R} 3/2 flyer that makes a player discard on hit, with unearth {1}{B}.",
+   "commander_synergy": "A haste flyer with a combat-damage discard trigger, the same plan as Crosis.",
+   "adversarial_downside": "Four mana for a 2/2, where Sedraxis is three mana with unearth recursion (a second hit after a wipe).",
+   "judgment": "REJECT",
+   "reason": "Sedraxis is cheaper and recurs. Rankle already supplies the haste flyer slot.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "source": "EDHREC Crosis general 133/1140, optimized 3/23; Pass C hypothesis (+Dauthi/-Blizzard); live Scryfall batch",
+   "role": "{B}{B} 3/2 shadow: opponents' cards going to the graveyard are exiled with void counters.",
+   "named_cuts": [
+    "Blizzard Specter"
+   ],
+   "incumbent_opportunity_cost": "Loses Blizzard Specter's 2/3 flying discard body.",
+   "commander_synergy": "Shadow is evasion, but the body has no combat-damage discard trigger; it only shuts off opposing graveyards.",
+   "adversarial_downside": "Anti-synergy: exiling discarded cards turns off Tergrid, God of Fright (which reanimates discarded permanent cards), Tinybones, Bauble Burglar (which casts opponents' graveyard cards) and Reanimate on opponents' discarded creatures. It has no discard trigger.",
+   "judgment": "REJECT",
+   "reason": "Directly conflicts with Tergrid and Tinybones, Bauble Burglar, which use opponents' discarded cards. Rankle is the better Blizzard replacement.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Snuff Out",
+   "source": "EDHREC Crosis optimized 2/23 (OFF-RANKING); live Scryfall batch",
+   "role": "{3}{B} instant: destroy target nonblack creature; free by paying 4 life if we control a Swamp.",
+   "named_cuts": [
+    "Izzet Signet"
+   ],
+   "incumbent_opportunity_cost": "Loses Izzet Signet, the U/R Signet.",
+   "commander_synergy": "A free removal spell available without Crosis in play (Swamp: 4 basics plus Underground Sea, Badlands, Blood Crypt, Watery Grave, Xander's Lounge and fetches).",
+   "adversarial_downside": "Cannot target black creatures (many Grixis/ Rakdos opponents and every Dimir commander) and only destroys; 4 life in a deck that pays life for Mana Confluence, City of Brass and Ancient Tomb.",
+   "judgment": "REJECT",
+   "reason": "Rollick exiles any creature, including black ones, and is free in the exact situation where Crosis needs a path. Snuff Out's black-creature hole is too wide in Grixis pods.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "source": "EDHREC Crosis general 385/1140; live Scryfall batch",
+   "role": "{3} Equipment: equipped creature can't be blocked and has shroud.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Loses Lightning Greaves: haste plus shroud with equip {0}.",
+   "commander_synergy": "Makes Crosis unblockable so his combat-damage trigger lands.",
+   "adversarial_downside": "Three mana and equip {2}; Brotherhood Regalia already makes Crosis unblockable with ward {2}, equip {1} for legendaries. Greaves gives haste so a six-drop Crosis attacks the turn he lands.",
+   "judgment": "REJECT",
+   "reason": "Haste on the commander matters more than duplicate unblockability; Regalia covers that role.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Counterspell",
+   "source": "EDHREC Crosis general 652/1140, optimized 18/23; live Scryfall batch",
+   "role": "{U}{U} instant: counter target spell (a hard counter).",
+   "named_cuts": [
+    "Swan Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Swan Song ({U}, counters enchantment/instant/sorcery, gives a 2/2 flyer).",
+   "commander_synergy": "Generic protection for Crosis or the punisher enchantments.",
+   "adversarial_downside": "UU is harder in a deck whose heaviest color is black. Swan Song covers the board wipes and removal that threaten Crosis for one mana.",
+   "judgment": "REJECT",
+   "reason": "Mana Drain already fills the UU counter slot. Swan Song protects Crosis from instants and wipes for one mana.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sulfurous Springs",
+   "source": "EDHREC Crosis general 257/1140; live Scryfall batch",
+   "role": "Untapped B/R painland (1 damage for colored mana).",
+   "named_cuts": [
+    "Xander's Lounge"
+   ],
+   "incumbent_opportunity_cost": "Loses Xander's Lounge (Island Swamp Mountain, enters tapped, cycling {3}).",
+   "commander_synergy": "An untapped black/red source for Crosis's {B}{R} pips and the {2}{B} trigger.",
+   "adversarial_downside": "Xander's Lounge is a three-typed land that every one of the seven fetches can find, and it makes all three Crosis colors.",
+   "judgment": "REJECT",
+   "reason": "The tapped tri-land is the best fetch target for Crosis's {U}{B}{R} pip set; the painland is a narrower dual.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hypnotic Specter",
+   "source": "EDHREC Crosis general 548/1140; live Scryfall batch",
+   "role": "{1}{B}{B} 2/2 flyer: damage to an opponent makes them discard at random.",
+   "named_cuts": [
+    "Tinybones, Pocket Nuisance"
+   ],
+   "incumbent_opportunity_cost": "Loses Tinybones, Pocket Nuisance, a legendary 1-drop.",
+   "commander_synergy": "A cheap evasive body whose hits make opponents discard at random.",
+   "adversarial_downside": "Tinybones, Pocket Nuisance is legendary (Plaza of Heroes, Regalia equip {1}) and part of the Tinybones discard package with Bauble Burglar and Trinket Thief.",
+   "judgment": "REJECT",
+   "reason": "Marginal upgrade at best; the Tinybones trio is a deliberate legendary/discard sub-theme and Rankle already improves the flyer slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Hullbreacher",
+   "source": "EDHREC Crosis general page; live Scryfall batch",
+   "role": "{2}{U} 3/2 flash creature that steals opponents' extra draws.",
+   "named_cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "incumbent_opportunity_cost": "Would lose Teferi's Puzzle Box, the Notion Thief lock piece.",
+   "commander_synergy": "Punishes opponents' extra draws from our wheels.",
+   "adversarial_downside": "Banned in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander on live Scryfall; not legal.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json"
+   ]
+  },
+  {
+   "card": "Valgavoth's Onslaught",
+   "source": "EDHREC Crosis general page; live Scryfall batch",
+   "role": "A green sorcery (outside Grixis identity).",
+   "named_cuts": [
+    "Dream Salvage"
+   ],
+   "incumbent_opportunity_cost": "Would lose Dream Salvage, the post-purge draw spell.",
+   "commander_synergy": "No Crosis-specific synergy was identified.",
+   "adversarial_downside": "Green color identity, which is outside U/B/R.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Off color identity (green), so it is not legal in a Crosis deck.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Megrim",
+   "Rankle, Master of Pranks",
+   "Aggravated Assault",
+   "Raiders' Wake",
+   "Deadly Rollick"
+  ],
+  "cuts": [
+   "Jet Medallion",
+   "Blizzard Specter",
+   "Dream Salvage",
+   "Oppression",
+   "Izzet Signet"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that multiply the value of each Crosis purge (Megrim, Raiders' Wake), give the deck more combat-damage triggers (Rankle with haste, Aggravated Assault extra combats) and add commander-conditional free removal (Deadly Rollick). Losses: Jet Medallion's black cost reduction, Izzet Signet's ramp/fixing (mana rocks 13 -> 11), Blizzard Specter's bounce mode, Dream Salvage's post-purge draw, and Oppression's symmetric stax."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Jet Medallion",
+    "weakness": "Only discounts black spells; the weakest of 13 rocks and does not help Crosis's {U}/{R} pips (general 122/1140).",
+    "alternative_named": "Megrim",
+    "reasoning": "The commander's signature per-discard payoff."
+   },
+   {
+    "card": "Blizzard Specter",
+    "weakness": "2/3 flyer without haste; one mode per hit (Pass C correction).",
+    "alternative_named": "Rankle, Master of Pranks",
+    "reasoning": "Haste flyer with three modes per hit."
+   },
+   {
+    "card": "Dream Salvage",
+    "weakness": "Payoff only after a discard turn; card draw keyed to one opponent.",
+    "alternative_named": "Aggravated Assault",
+    "reasoning": "Extra combats repeat Crosis's purge; Sword combo 900-3750."
+   },
+   {
+    "card": "Oppression",
+    "weakness": "Symmetric: taxes our own spells and empties opponents' hands before Crosis can purge them.",
+    "alternative_named": "Raiders' Wake",
+    "reasoning": "Asymmetric per-discard damage plus raid discard."
+   },
+   {
+    "card": "Izzet Signet",
+    "weakness": "U/R is the least-needed pair; third Signet in a 36-land list.",
+    "alternative_named": "Deadly Rollick",
+    "reasoning": "Free exile while Crosis is out."
+   },
+   {
+    "card": "Dark Deal",
+    "weakness": "Symmetric wheel giving opponents a near-full hand back.",
+    "alternative_named": "Bloodchief Ascension",
+    "reasoning": "Retained alternative; staged six-swap list."
+   },
+   {
+    "card": "Bottomless Pit",
+    "weakness": "Symmetric random discard that also hits us.",
+    "alternative_named": "Painful Quandary",
+    "reasoning": "Rejected: five mana, opponents choose."
+   },
+   {
+    "card": "Sedraxis Specter",
+    "weakness": "Three-mana 3/2; first to die to wipes.",
+    "alternative_named": "Blazing Specter",
+    "reasoning": "Rejected: more expensive, no unearth."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud also blocks our own Regalia equips and pump; no evasion.",
+    "alternative_named": "Whispersilk Cloak",
+    "reasoning": "Rejected: Greaves' haste for a 6-drop matters more."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Gives an opponent a 2/2 flyer that can block Crosis.",
+    "alternative_named": "Counterspell",
+    "reasoning": "Rejected: UU in a black-heavy base; Mana Drain fills the UU slot."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "The only land that always enters tapped.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Rejected: Lounge is the tri-typed fetch target."
+   },
+   {
+    "card": "Tinybones, Pocket Nuisance",
+    "weakness": "Small body; part of a legendary sub-theme that is not commander-critical.",
+    "alternative_named": "Hypnotic Specter",
+    "reasoning": "Rejected: keeps the Tinybones legendary package."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Aggravated Assault, Rankle, Master of Pranks and Deadly Rollick (selected); Bloodchief Ascension (retained alternative); Snuff Out and Dauthi Voidwalker (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Raiders' Wake",
+     "Deadly Rollick"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Oppression",
+     "Izzet Signet"
+    ],
+    "result_and_rationale": "Selected five-swap package: two per-discard punishers (Megrim, Raiders' Wake) that multiply every Crosis purge, a hasty three-mode flyer (Rankle), repeat combats for repeated purges (Aggravated Assault, Sword combo), and free exile removal while Crosis is out (Deadly Rollick). Lands stay at 36."
+   },
+   {
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Deadly Rollick"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Izzet Signet"
+    ],
+    "result_and_rationale": "Staged four-swap alternative keeping Oppression (no Raiders' Wake). Rejected: Oppression's symmetric tax conflicts with our 25 instants/sorceries and pre-empties hands Crosis wants to purge."
+   },
+   {
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Raiders' Wake",
+     "Deadly Rollick",
+     "Bloodchief Ascension"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Oppression",
+     "Izzet Signet",
+     "Dark Deal"
+    ],
+    "result_and_rationale": "Staged six-swap alternative adding Bloodchief Ascension over Dark Deal. Retained as an alternative, not selected: Dark Deal is an immediate burst with three punishers."
+   },
+   {
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Raiders' Wake",
+     "Deadly Rollick",
+     "Bloodchief Ascension",
+     "Painful Quandary"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Oppression",
+     "Izzet Signet",
+     "Dark Deal",
+     "Bottomless Pit"
+    ],
+    "result_and_rationale": "Staged seven-swap alternative also adding Painful Quandary over Bottomless Pit. Rejected: curve too high and the opponents' choice weakens it."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C paired Megrim with Blizzard Specter (and the reconciliation with Sedraxis Specter). Here Megrim takes Jet Medallion's slot and Rankle replaces Blizzard Specter; the Pass C pairing (Megrim over Sedraxis, Jet Medallion kept) is staged as a complete five-swap alternative and rejected because Sedraxis is a cheaper recursive flyer that feeds the punishers. Aggravated Assault (Pass C's Sword hypothesis) takes Dream Salvage instead of Blizzard Specter.",
+  "strongest_argument_against_baseline": "Crosis's trigger discards many cards at once, yet the baseline had only one per-card punisher (Liliana's Caress), no way to get a second Crosis trigger in a turn, a symmetric stax piece (Oppression) that empties hands before Crosis can purge them, and two low-impact rocks (Jet Medallion, the third Signet).",
+  "evidence_based_answer": "Five swaps: two per-discard punishers (Megrim, Raiders' Wake), a hasty three-mode flyer (Rankle), repeat combats (Aggravated Assault; new Spellbook 900-3750 with the incumbent Sword), and free exile removal while Crosis is out (Deadly Rollick). The baseline Spellbook combo (Notion Thief + Teferi's Puzzle Box) is kept."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Crosis__the_Purger.txt",
+  "sha256": "244f19b9465e499c390bcac10eb96ad04d73f4b760a09cfef1d526f47be98347",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically (Island x4, Mountain x3, Swamp x4). Five substitutions against the canonical source. 36 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Crosis__the_Purger_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Crosis__the_Purger_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Crosis__the_Purger_M7_20261023.md",
+   "tests/test_m6_crosis_the_purger_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Discard",
+   "Dragons",
+   "Extra Combats"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five swaps, every remaining incumbent was re-read against the candidate pool. Seven post-floor challenges were recorded: one retained alternative staged as complete 100s (Bloodchief Ascension over Dark Deal, six- and seven-swap lists) and six rejected on Crosis-specific grounds (Painful Quandary, Blazing Specter, Whispersilk Cloak, Counterspell, Sulfurous Springs, Hypnotic Specter).",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Dark Deal",
+    "challenger": "Bloodchief Ascension",
+    "tradeoff": "Ascension adds 2-point drains per card once active, but it needs three end steps to turn on; Dark Deal is an instant burst of discard triggers for Megrim, Caress and Wake.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Bottomless Pit",
+    "challenger": "Painful Quandary",
+    "tradeoff": "Quandary is asymmetric but costs five and lets opponents choose life; Pit is three mana and reliably produces a discard each upkeep.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Sedraxis Specter",
+    "challenger": "Blazing Specter",
+    "tradeoff": "Blazing has haste but costs four for a 2/2 and has no unearth.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Lightning Greaves",
+    "challenger": "Whispersilk Cloak",
+    "tradeoff": "Cloak gives unblockable, which Regalia already gives; Greaves gives haste to a six-drop commander.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Swan Song",
+    "challenger": "Counterspell",
+    "tradeoff": "Counterspell is a hard counter, but UU is costly and Mana Drain already fills it.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Xander's Lounge",
+    "challenger": "Sulfurous Springs",
+    "tradeoff": "Springs enters untapped but is only B/R and not a fetch target; the Lounge is Island Swamp Mountain.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Tinybones, Pocket Nuisance",
+    "challenger": "Hypnotic Specter",
+    "tradeoff": "Hypnotic is a 3-mana flyer, but the Tinybones trio is a legendary sub-theme for Plaza and Regalia.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_six_Bloodchief_over_DarkDeal_20261023.txt",
+    "sha256": "d56ffa3e232f34bf726d9551262f958a101602e5ac92d5f175135c771e4a6651",
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Raiders' Wake",
+     "Deadly Rollick",
+     "Bloodchief Ascension"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Oppression",
+     "Izzet Signet",
+     "Dark Deal"
+    ],
+    "case_for_extra_swaps": "Turns every purge and wheel into an additional drain once active, a third damage source per discard with Megrim/Caress/Wake.",
+    "why_not_selected": "Slow to activate; Dark Deal already converts the punishers into an immediate burst."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_seven_Quandary_over_BottomlessPit_20261023.txt",
+    "sha256": "e76d319f75b5f87d710f00d89bdf3c19590d9d37cc295607e2d8f87b8b4f437f",
+    "adds": [
+     "Megrim",
+     "Rankle, Master of Pranks",
+     "Aggravated Assault",
+     "Raiders' Wake",
+     "Deadly Rollick",
+     "Bloodchief Ascension",
+     "Painful Quandary"
+    ],
+    "cuts": [
+     "Jet Medallion",
+     "Blizzard Specter",
+     "Dream Salvage",
+     "Oppression",
+     "Izzet Signet",
+     "Dark Deal",
+     "Bottomless Pit"
+    ],
+    "case_for_extra_swaps": "Maximizes asymmetric punishment: opponents lose 5 or discard on every spell.",
+    "why_not_selected": "Curve rises (five-mana enchantment), opponents choose the mode, and Pit's symmetric discard hurts us less than it helps."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five; the five-swap floor was not used as a target. The remaining weak-looking slots each beat their best challenger on deck-specific grounds: an immediate wheel burst with three punishers (Dark Deal), a cheap every-upkeep discard (Bottomless Pit), a cheaper recursive Specter (Sedraxis), haste for the commander (Lightning Greaves), a one-mana answer to wipes (Swan Song), the tri-typed fetch target (Xander's Lounge), and the legendary Tinybones package (Tinybones, Pocket Nuisance)."
+ }
+}
