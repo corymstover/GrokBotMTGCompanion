@@ -890,20 +890,21 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck18-evelyn-the-covetous-m7-20261023",
    "working_branch": "grokbot-deck18-evelyn-the-covetous-m7-20261023",
-   "last_pushed_commit": "a720ba46611427cde9b6bb3fa0c4d4e5bfc5387d",
+   "last_pushed_commit": "6e7764783a2fd6a4b2301b9db53959699d68a15f",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/666",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 1d602b5d == overrides == tracker == registry; 100 physical/100 rows); shared infra copied from #665 5f5a3a0f; draft PR #666 2026-10-23 10:22 CDT"
+    "baseline_provenance (canonical main 9b26aa28; raw 1d602b5d == overrides == tracker == registry; 100 physical/100 rows); shared infra copied from #665 5f5a3a0f; draft PR #666 2026-10-23 10:22 CDT",
+    "research snapshot (EDHREC 4 pages + stats.cedh.events, live Scryfall, Spellbook 7=7, bounded Pass C tests) + provisional 5-swap candidate and 5 staged alternatives; pushed 2026-10-23 10:30 CDT"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Pass C read, live Scryfall/EDHREC/Spellbook research, candidate judgments",
-   "next_step": "Pass C read, live Scryfall/EDHREC/Spellbook research, candidate judgments",
+   "next_action": "snapshots, decision packet, I/J bundle, deck tests, focused CI",
+   "next_step": "snapshots, decision packet, I/J bundle, deck tests, focused CI",
    "stage": "RESEARCH_IN_PROGRESS",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/666",
    "pr_is_draft": true,
@@ -911,7 +912,7 @@
    "head_commit": "a720ba46611427cde9b6bb3fa0c4d4e5bfc5387d",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 03574140, frozen by 43c0ceca; registry source_commit 1836b97 same bytes)",
    "last_checkpoint_at": "2026-10-23T10:22:30-05:00",
-   "updated_at": "2026-10-23T10:22:30-05:00"
+   "updated_at": "2026-10-23T10:30:40-05:00"
   },
   {
    "tracker_number": 19,
