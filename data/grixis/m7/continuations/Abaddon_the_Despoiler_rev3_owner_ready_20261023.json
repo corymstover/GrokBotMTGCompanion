@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "milestone": "M7",
+  "date": "2026-10-23_America_Chicago",
+  "status": "OWNER_APPROVAL_REQUIRED",
+  "owner_authority": "Cory Stover",
+  "approved_locked_current_canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "source_path": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "registry_path": "state/current_deck_overrides.json",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "git_blob_sha": "6ce148a6a291dd3dc349e10fe9dd1e1c29ea8aac",
+    "verified_live_date": "2026-10-23",
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "modified_by_this_work": false
+  },
+  "proposed_exact_candidate": {
+    "decision_review_path": "data/grixis/m7/decision_reviews/Abaddon_the_Despoiler_rev3.json",
+    "staged_path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev3.txt",
+    "raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+    "logical_hash": "lh1:965f298aa71b9a3f28d805ee99b2d2576913ca8ba78a0824e9aa205cc8133ceb",
+    "physical_cards": 100,
+    "lands": 34,
+    "distinct_names": 95,
+    "additions": [
+      "Impact Tremors",
+      "Sanctum of Stone Fangs",
+      "Coruscation Mage",
+      "Sakashima of a Thousand Faces",
+      "Mount Doom",
+      "Sheoldred, the Apocalypse"
+    ],
+    "cuts": [
+      "Thermo-Alchemist",
+      "The Ruinous Powers",
+      "Kessig Flamebreather",
+      "Keeper of Secrets",
+      "Mountain",
+      "Ponder"
+    ],
+    "material_judgments": 16,
+    "challenged_incumbent_slots": 12,
+    "complete_stage13_portfolios": 4,
+    "larger_7_swap_portfolio_rejected_for_protected_Noise_Marine": true,
+    "owner_approved": false
+  },
+  "evidence": {
+    "new_candidate_changed_p0_executed_passed": 14,
+    "historical_p0_core_source_mechanics_conditionally_reusable": 77,
+    "historical_p0_displaced_do_not_transfer": 27,
+    "m6_i_j_scope": "BOUNDED_TESTED_POOL_FOUR_COMPLETE_CONFIGURATION_DECISION_AND_HASHED_CANDIDATE_REPRODUCIBILITY_NOT_GLOBAL_OPTIMUM",
+    "stage20_i": "data/grixis/m6/ij/candidate_certificates/Abaddon_protected_six_stage20_20261023.json",
+    "stage20_j": "data/grixis/m6/bundles/candidate_exact/Abaddon_protected_six_stage20_20261023.json",
+    "oracle_source": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
+    "source_historical_approved_oracle": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39911935249",
+    "head_sha": "6dea40fb11b1cbaf366ea90f14e5bf3b0e36ca3c",
+    "head_ci_93_of_93": "PASS",
+    "owner_ready_merge_pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/645",
+    "owner_ready_merge_sha": "618d4e0d5c861b10b1cb0cb22499e6a2758bbf6d"
+  },
+  "protected_work": {
+    "admiral_locked_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "deck_3_held": true,
+    "pass_c_62_of_62_complete_not_rerun": true,
+    "pass_c_owner_waiver_not_rerun": true,
+    "formal_m6_10_owner_acceptance": false,
+    "aggregate_m6_m7_m8_completion_not_claimed": true
+  },
+  "next_exact_action": "Present the complete 100 physical-card Abaddon Rev3 six-swap candidate and this source-bound raw SHA for Cory's exact owner decision. No canonical replacement before an explicit yes. If approved, verify SHA, change canonical only via approved workflow, log decision and lock; if rejected, preserve Rev2 and reopen actual objection. After Abaddon and Admiral finished, proceed to deck #3 per Cory. M6.10 milestone owner acceptance remains separate."
+}

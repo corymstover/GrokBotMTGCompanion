@@ -12,6 +12,7 @@ on:
       - exports/grixis-archidekt/source-baseline/**
       - data/grixis/schemas/m7_decisive_optimization.schema.json
       - data/grixis/m7/decision_reviews/**
+      - data/grixis/m7/continuations/**
       - data/grixis/m7/owner_approvals/**
       - data/grixis/m7/candidate_lists/**
       - data/grixis/m7/research_challengers/**
