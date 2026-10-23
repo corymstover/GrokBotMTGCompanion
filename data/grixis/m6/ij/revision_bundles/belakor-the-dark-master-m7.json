@@ -58,7 +58,7 @@
   },
   {
    "path": "scripts/grixis_m6_bundle_check.py",
-   "sha256": "sha256:c5688abca806e1023572f88bb7d014773d75b4a6573a0eb37372e0da12319538"
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
   },
   {
    "path": "data/grixis/m7/baseline_sources/Be_lakor_the_Dark_Master_approved_source_2026-10-13.txt",
@@ -110,7 +110,7 @@
   },
   {
    "path": "data/grixis/m7/decision_reviews/Be_lakor__the_Dark_Master_chatgpt_adversarial_review_packet.md",
-   "sha256": "sha256:2f0ffcfe2c813fb29ebd44b557ebd4f20035f39a3b399f2f515511906d7afdfc"
+   "sha256": "sha256:fe018a6bcd3c50d013fe6fb9e810884ea433c48f62f4175cc4dedf40b9401e03"
   }
  ],
  "sealed_passes": {

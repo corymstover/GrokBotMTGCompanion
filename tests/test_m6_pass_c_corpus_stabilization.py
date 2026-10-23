@@ -228,3 +228,20 @@ def test_enumerated_phrases_are_verbatim_and_unique_per_deck():
         assert _final(deck).count(phrase) >= 1
     for deck, spelling in bc._PASS_C_PRESERVED_EVALUATOR_SPELLING.items():
         assert deck in DECKS and spelling in _final(deck) and "ChatGPT/OpenAI GPT-6" not in _final(deck)
+
+
+@pytest.mark.parametrize("key,bad", [
+    ("stage", "B_SEAL"), ("stage", "STAGE_B"), ("stage", None), ("sealed_stage", "STAGE_B_UNBLINDED"),
+    ("owner_independence_waiver", False), ("owner_independence_waiver", "true"),
+    ("owner_authorized_independence_waiver", False), ("owner_waived_independence", 1),
+    ("cannot_claim_technical_independence", False), ("independence_requirement", "INDEPENDENT"),
+    ("stage_b_unblinded_before_seal", True), ("stage_b_unblinding_not_performed_before_seal", False)])
+def test_seal_stage_and_waiver_vetoes_fail_closed(monkeypatch, key, bad):
+    seal = dict(_seal(BELAKOR), **{key: bad})
+    with pytest.raises(ValueError, match="veto field"):
+        _validate_with_seal(monkeypatch, BELAKOR, seal)
+
+
+def test_every_corpus_seal_satisfies_vetoes():
+    for deck in DECKS:
+        bc.check_seal_vetoes(_seal(deck))

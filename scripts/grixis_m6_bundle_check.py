@@ -183,6 +183,41 @@ _SEALED_STAGE_A_JSON_FIELDS = {
 }
 _MISSING = object()
 
+# Seal-level fail-closed vetoes (checked for every seal, canonical or legacy). Each key is optional, but when a
+# seal carries it, its value must be exactly one of the enumerated values preserved in the 62-receipt corpus:
+# the seal must be a Stage A seal, must record the owner waiver, and must never assert independence or a
+# Stage B unblinding before sealing. Anything else (e.g. stage "B_SEAL", waiver False) rejects.
+_SEAL_STAGE_VALUES = frozenset({
+    "A_SEAL", "A_CRYPTOGRAPHIC_SEAL", "A_SEALED_BEFORE_UNBLINDING", "A_SEALED_PRE_UNBLINDING",
+    "A_SHA256_SEALED_BEFORE_UNBLIND", "STAGE_A_CRYPTOGRAPHIC_SEAL", "STAGE_A_SEALED_BEFORE_UNBLIND",
+    "STAGE_A_SEALED_BEFORE_UNBLINDING"})
+_SEAL_REQUIRED_IF_PRESENT = {
+    "stage": _SEAL_STAGE_VALUES,
+    "sealed_stage": frozenset({"STAGE_A_NEUTRAL"}),
+    "owner_independence_waiver": (True,),
+    "owner_authorized_independence_waiver": (True,),
+    "owner_waived_independence": (True,),
+    "cannot_claim_technical_independence": (True,),
+    "independence_requirement": frozenset({"OWNER_WAIVED_FOR_FORMAL_PASS_C"}),
+    "stage_b_unblinded_before_seal": (False,),
+    "stage_b_unblinding_not_performed_before_seal": (True,),
+}
+
+
+def check_seal_vetoes(seal):
+    """Reject a seal whose optional stage/waiver/independence fields carry any non-enumerated value."""
+    for key, allowed in _SEAL_REQUIRED_IF_PRESENT.items():
+        if key in seal:
+            value = seal[key]
+            if isinstance(value, bool) or any(isinstance(a, bool) for a in allowed):
+                ok = any(value is a for a in allowed)
+            else:
+                ok = isinstance(value, str) and value in allowed
+            if not ok:
+                raise ValueError("Stage A seal veto field has a non-permitted value: " + key)
+
+
+
 
 def _dig(obj, path):
     for key in path:
@@ -370,7 +405,9 @@ def validate_pass_c(judgment, deck_id):
         bind(judgment[key + "_path"], judgment[key + "_sha256"])
     waiver = load(safe_repo_file(OWNER_WAIVER))
     progress = load(safe_repo_file(OWNER_PROGRESS))
-    seal = normalize_legacy_stage_a_seal(load(safe_repo_file(expected["stage_a_seal_path"])))  # e.g. Ashnod_the_Uncaring
+    raw_seal = load(safe_repo_file(expected["stage_a_seal_path"]))
+    check_seal_vetoes(raw_seal)  # fail-closed stage/waiver vetoes (M7 Deck #7)
+    seal = normalize_legacy_stage_a_seal(raw_seal)  # e.g. Ashnod_the_Uncaring
     seal = normalize_stage_a_seal_aliases(seal, deck_id)  # decks #7-#62 legacy seal schemas (M7 Deck #7)
     if (judgment.get("technically_independent") is not False
         or progress.get("technically_independent") is not False

@@ -75,10 +75,12 @@ Other named rejections:
 
 ## Infra disclosure
 - The gate, schema and gate-test files are byte-identical to PR #654 head cb670d59 (they originate in PR #651).
-- `scripts/grixis_m6_bundle_check.py` is stabilized corpus-wide (SHA-256 `c5688abc…`). It adds fail-closed, enumerated legacy seal-alias
-  mapping, per-deck preserved non-independence wordings, and registry-bound digest reconciliation.
-  - 60 of 62 Pass C receipts now validate, with 0 regressions; tests are in `tests/test_m6_pass_c_corpus_stabilization.py`.
+- `scripts/grixis_m6_bundle_check.py` is stabilized corpus-wide (SHA-256 `2962a640…`). It adds fail-closed, enumerated legacy seal-alias
+  mapping, per-deck preserved non-independence wordings, registry-bound digest reconciliation, and fail-closed seal
+  stage/waiver vetoes (a non-Stage-A `stage`, a false waiver, or any independence/unblinding assertion rejects; this
+  restores the #654 Ashnod legacy-seal tamper test under the stacked merge).
+  - 60 of 62 Pass C receipts now validate, with 0 regressions; tests are in `tests/test_m6_pass_c_corpus_stabilization.py` (104).
   - #30 Lord Xander and #31 Lynde stay rejected because their seal's stage_a.md SHA-256 does not match the committed bytes. This needs an owner decision.
-- **Merge order:** #651 → #652 → #653 → #654 → this PR. After merge, the #653 Ashad and #654 Ashnod bundle checker pins must be refreshed to `c5688abc…`.
+- **Merge order:** #651 → #652 → #653 → #654 → this PR. After merge, the #653 Ashad and #654 Ashnod bundle checker pins must be refreshed to `2962a640…`.
 - Pass C is FORMAL_PASS_C_OWNER_EQUIVALENT under the owner waiver and is **not** technically independent.
 - CI run URLs are recorded in the PR body, not in hashed files.
