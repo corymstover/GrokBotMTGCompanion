@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Dr__Eggman",
+ "slug": "dr-eggman",
+ "baseline_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "result_hash": "lh1:c092a5e2e7a3d77a208cf726323a1855b095fddb2f08e60c2fcda1b3f3e11249",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/dr-eggman.json.gz",
+   "sha256": "sha256:1ead999153dbd69d27cc5163ce639d6ed7d11203e85389a60b09bd465b157f05"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/dr-eggman.json.gz",
+   "sha256": "sha256:0494b5eac1103d3c081bf0c95905ab4c5ec86844e6633640b7cccf17648178a7"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/dr-eggman.json",
+   "sha256": "sha256:6f7e2d97f9dda52267d9a1b4c8dc95732b0b9af9def5f3acae777bd1d086a93b"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/dr-eggman.json",
+   "sha256": "sha256:20fa614c28ee1b59230fc16a075e1f0cef96bddc7c428e66745a518f589e1145"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/dr-eggman.json",
+   "sha256": "sha256:b53bec1af4a329a13781f9ca041d2f9be7edbd464661d5a5dee78f3239eaa44b"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Dr__Eggman.json",
+   "sha256": "sha256:142e6bc4c71314507fe0ee455d8cca52060b03db5b4f5ed86aa4c244c3b3c9dc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:e1169bb2e0cd00ce66e03f7b36b8ad47c216d77e070e9a5ec6463062de8fef2a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_Scryfall_live_20261023.json",
+   "sha256": "sha256:8ffc5f4e71662fe0e85a73bf693368bad58a3b255e4ec96ac697a9850285290d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:fbdd8b3910863d5ea074ef4f5ccab43e4faa6ebd861b2696a4063923c82e7406"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Dr__Eggman_approved_source_2026-10-14.txt",
+   "sha256": "sha256:ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3"
+  },
+  {
+   "path": "exports/grixis-archidekt/dr-eggman.txt",
+   "sha256": "sha256:7110223f41570f87c3e5aa879cb46f2727ab94c43f96163cd861f2561882744a"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Dr__Eggman.txt",
+   "sha256": "sha256:85bcd5a250c097a8b94322416c85272a8550728a43edc9a257b7fbd39823f792"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_four_keep_BlasphemousAct_no_PossessionEngine_20261023.txt",
+   "sha256": "sha256:f60fda6de3e73636f024f0bfca0d5c09a8ebb2a50ecccd850bd077911b7eabee"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_five_keep_FoundryInspector_cut_WeaponsManufacturing_20261023.txt",
+   "sha256": "sha256:620fa5f7570e535669a5449016622831d18dec51a2f5f57a9f93622093f484e8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_five_MidnightCrusaderShuttle_instead_of_SuChi_20261023.txt",
+   "sha256": "sha256:8975e7a3d9e4450f0949c45b312bbbcd29cdd599f8f9d25ccbb4188e08df189e"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_GoblinWelder_over_LilianasCaress_20261023.txt",
+   "sha256": "sha256:b56ad715371bfec5889cf35fec2f63ce08719e08eb115c3b712a1776e40e61cc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_Tergrid_over_LilianasCaress_20261023.txt",
+   "sha256": "sha256:28bc5a9216d6721eeb48af02fcf9aa46447ffb2505cb07875abe55aebb02c246"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Dr__Eggman_six_PassC_32lands_SilverbluffBridge_over_Thoughtcast_20261023.txt",
+   "sha256": "sha256:f7d3a9a73863009a953afdb5e5897eb0f1cea8459c9d962bab50c5ee97af43a6"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Dr__Eggman_M7_Scryfall_20261023.json",
+   "sha256": "sha256:3dbbf3fee163952b6cf6f5564b044025b90f6d6ff044621eb793ec0d6d7071bd"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Dr__Eggman_M7_20261023.md",
+   "sha256": "sha256:e2812f99009262383e7f1793cfae9a7ff2861d006efc72c1dee12fe1a2731919"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/dr-eggman-m7.json",
+   "sha256": "sha256:d9fd64f183248f9dddbbbbe7d6e8a7d081d0a6287d9b76798bb394d9e06bcc28"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Dr__Eggman_M6_I_local_best_20261023.md",
+   "sha256": "sha256:67c1ddca214076c1735e7b34b6a6cea0091ea2304945ac1b64bc206d8309b8c2"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Dr__Eggman_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:d653144e472e82ac5df3044b29d9029f91522a339b21d9e32ad9112bf7c27ef9"
+  },
+  {
+   "path": ".github/workflows/m7-dr-eggman.yml",
+   "sha256": "sha256:3be48c0c934510cb4e1984eb504f9df7315c138771b3c4e4c0771d055110500a"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Dr__Eggman_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:3be2ccad2f6806c8210c3168e8ae6a4afa133561e7a2e9d8db699a5a7fe672f1"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/dr-eggman.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/dr-eggman.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:48b571e56f66bf2fcc13662051c055e85d94abbd3f425818fd1c350f81105bb5",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Dr__Eggman/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:21c059c5513f4324c75a6fe38a9c184c4d257544f028decf0a453edc8943ca2b"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_dr_eggman_m7_mechanics.py",
+    "source_sha256": "sha256:5f9a214225f0e2b0927c300369efbc78c5237b11aaa0d91350bd655d1d7fc6e5",
+    "seed": 0,
+    "harness_version": "dr_eggman_m7_finite_rules_and_bounded_pass_c_12_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Twelve finite seed-0 Oracle-anchored cases. Eggman Oracle (end-step draw then villainous choice, 701.55a-d; put is not cast, 601.2; ETBs fire, 603.6a); add/cut Oracle anchors; exact five swaps, UBR identity, singleton and Game Changers 3; owner-removed cards not re-added; payload density 28 -> 31; cast-only vs ETB payloads; recursion to hand; Spellbook 0 included; bounded Pass C: 64-cell villainous grid, finite trigger multipliers (max 9), 192-cell Goblin Welder vs Liliana's Caress grid and exact 31/32/33-land DP. No opponent model, mulligans or multiplayer simulation; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_dr_eggman_candidate.py",
+    "source_sha256": "sha256:a0816c77a3209ca22a51a37fab084195854e06306d98d3aca3f882447f4a8bfa",
+    "seed": 0,
+    "harness_version": "dr_eggman_m7_gate_candidate_9_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, 2x Island/Mountain/Swamp the only multi-copy rows, case-insensitive alphabetical and 100 physical, gate owner-presentable structure, distinctness vs the artifact decks disclosed (Davros 45 to 43, Mishra Eminent One 41 to 41, Mishra Artificer Prodigy 40 to 39, The Valeyard 35 to 34), owner-removed cards rejected, owner-retention flags with staged keep-Act and keep-Inspector alternatives, Bracket 4 and tags; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #662 head bc4b9d53 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_dr_eggman_m7_ij.py",
+    "source_sha256": "sha256:bb61c3b798dee251ca882ce0a0332d8c5f28b2ab0660ab22c8befc389f55530b",
+    "seed": 0,
+    "harness_version": "dr_eggman_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 9 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C preserved non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Dr__Eggman_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d6e130148766f92c9f319fbf5be539822f26ff4ff66c1d93e2aaf8539715244c"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Dr__Eggman_M6_J_mana_20261023.md",
+  "sha256": "sha256:24b9ce5938949232014acc29c936fc7e34ce23cc14531739f31945bde613cb14"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

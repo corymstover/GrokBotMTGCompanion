@@ -1,0 +1,285 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 36,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "181-1571",
+    "uses": [
+     "Cybermen Squadron",
+     "Blightsteel Colossus"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1999-3363",
+    "uses": [
+     "The One Ring",
+     "Master Transmuter"
+    ],
+    "produces": [
+     "Lock",
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything"
+    ]
+   },
+   {
+    "id": "2734-4740",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Cyberdrive Awakener"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1167-1384",
+    "uses": [
+     "Mindslaver",
+     "Academy Ruins"
+    ],
+    "produces": [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "876-4944",
+    "uses": [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinitely large creature until end of turn"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 30,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "542-4009",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    "produces": [
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1999-3363",
+    "uses": [
+     "The One Ring",
+     "Master Transmuter"
+    ],
+    "produces": [
+     "Lock",
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything"
+    ]
+   },
+   {
+    "id": "2734-4740",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Cyberdrive Awakener"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1167-1384",
+    "uses": [
+     "Mindslaver",
+     "Academy Ruins"
+    ],
+    "produces": [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "876-4944",
+    "uses": [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinitely large creature until end of turn"
+    ]
+   },
+   {
+    "id": "2751-6286",
+    "uses": [
+     "Unstoppable Plan",
+     "Strionic Resonator"
+    ],
+    "produces": [
+     "Infinite mana nonland permanents you control can produce",
+     "Infinite untap of nonland permanents you control"
+    ]
+   },
+   {
+    "id": "876-2904",
+    "uses": [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinite self-mill"
+    ]
+   },
+   {
+    "id": "618-3908",
+    "uses": [
+     "Kiki-Jiki, Mirror Breaker",
+     "Spark Double"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite tapped creature tokens until end of turn"
+    ]
+   },
+   {
+    "id": "1561-5008",
+    "uses": [
+     "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1651-1999-4840",
+    "uses": [
+     "Master Transmuter",
+     "Clock of Omens",
+     "Myr Battlesphere"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite tapped creature tokens"
+    ]
+   }
+  ]
+ },
+ "retrieved": "2026-10-23 08:55 America/Chicago (re-queried after the candidate changed: Su-Chi Cave Guard replaced Midnight Crusader Shuttle)"
+}
