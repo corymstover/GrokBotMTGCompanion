@@ -142,6 +142,7 @@ def validate_pass_c(judgment, deck_id):
         "Technically independent third model" in final
         or "**actual technical independence:** false" in final
         or "**Technically independent:** NO." in final
+        or "**Technically independent:** FALSE." in final  # Anhelo__the_Painter preserved wording
     )
     if ("ChatGPT/OpenAI GPT-6" not in final
         or not disclosed_nonindependence

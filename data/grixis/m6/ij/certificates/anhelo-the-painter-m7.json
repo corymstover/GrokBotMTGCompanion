@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "deck_id": "Anhelo__the_Painter",
+  "slug": "anhelo-the-painter",
+  "generated_at": "2026-10-23T04:30:00-05:00",
+  "list_hash": "lh1:284c4e096696838efbcc8cd69e694c8339cc9eb926f218d21bf805934497ed39",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Anhelo__the_Painter_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:4fe6a3c572a1220d7eee113f2af3a1cb6de1db9b08fe6bf06dc5b04a7f9a3e04",
+    "tested_pool_size": 6
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_anhelo_the_painter_m7_mechanics.py",
+      "tests/test_m7_anhelo_the_painter_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_anhelo_the_painter_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Anhelo__the_Painter_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Anhelo__the_Painter_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Anhelo__the_Painter_M7_20261023.md",
+    "data/grixis/m7/decision_reviews/Anhelo__the_Painter.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 6 complete 100-card configurations in the pool (baseline, preferred five, same-count Primal Amulet alternative, two six-swap and one seven-swap alternatives) plus named single-card contenders, judged with finite current-Oracle rules cases and quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-anhelo-the-painter.yml; run URLs are recorded in the PR body. No statistical multiplayer ranking. A/B seals and the owner-equivalent Pass C are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}

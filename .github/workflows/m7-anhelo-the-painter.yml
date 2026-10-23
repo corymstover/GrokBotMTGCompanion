@@ -1,0 +1,46 @@
+name: M7 Deck 4 Anhelo, the Painter candidate (focused)
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-anhelo-the-painter.yml
+      - data/grixis/registry.json
+      - data/grixis/schemas/**
+      - data/grixis/m7/**
+      - data/grixis/m6/**
+      - scripts/grixis_authority.py
+      - scripts/grixis_m6_bundle_check.py
+      - scripts/grixis_m7_decision_gate.py
+      - tests/test_m7_anhelo_the_painter_candidate.py
+      - tests/test_m6_anhelo_the_painter_m7_mechanics.py
+      - tests/test_m6_anhelo_the_painter_m7_ij.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  anhelo-the-painter-m7:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: Deck 4 M7 gate candidate (exact five physical swaps, hashes, no approval)
+        run: python -m pytest -v tests/test_m7_anhelo_the_painter_candidate.py
+      - name: Deck 4 finite Oracle-anchored rules and quantity mana cases
+        run: python -m pytest -v tests/test_m6_anhelo_the_painter_m7_mechanics.py
+      - name: Deck 4 candidate-specific I/J hash binding and J checker
+        run: python -m pytest -v tests/test_m6_anhelo_the_painter_m7_ij.py
+      - name: All M7 packets structural gate with sources
+        run: python scripts/grixis_m7_decision_gate.py --check --check-sources
