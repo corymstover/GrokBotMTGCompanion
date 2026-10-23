@@ -432,28 +432,48 @@
    "current_candidate_sha": "8b765d85649db64607c508bb3535466673593768ce729a9087a0260dc512624d",
    "branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
    "working_branch": "grokbot-deck11-cult-of-skaro-m7-20261023",
-   "last_pushed_commit": "b18378aa888c59f9f9f8d15e2ccf060f37a114fa",
+   "last_pushed_commit": "488e1d05fb994a1770a663baa971d7b3e9001c74",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/659",
    "swap_count": 6,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "workflow": "M7 Deck 11 Cult of Skaro candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39950598080",
+     "conclusion": "success"
+    },
+    {
+     "workflow": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39950598109",
+     "conclusion": "success"
+    },
+    {
+     "workflow": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39950598303",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Pass C NEEDS TESTING (lead Kindred over Research Thief; Karlach over Biotransference) vs candidate Kindred over Canoptek Spyder and Karlach over Cybermen Squadron plus 4 more swaps: exact Pass C pairings staged and rejected, needs owner/ChatGPT adjudication; Pass C's requested measured tests answered only by bounded finite enumerations (no shared opponent/mana sample, removal-response rates or win rates; Kindred overdraw not modeled); Skorpekh Lord re-added after an earlier owner revision cut it for Ashad (Ashad kept; five-swap keeping Etherium Sculptor is RETAIN_ALTERNATIVE); tracker CSV note cc2f7a54 stale vs bound hash 4c221e5b (documented, not repaired)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71; raw 4c221e5b == overrides == registry; 100 physical / 94 rows; tracker note cc2f7a54 is the pre-approval 10-13 list, documented not repaired); draft PR #659",
     "research_snapshots_and_draft_candidate",
     "mechanics_tests_bounded_pass_c_tested_pool_rules_snapshot",
-    [
-     "decision_review_gate_pass"
-    ]
+    "decision_review_gate_pass (17 candidates, 6 swaps); Synth haste correction (CR 302.6); tags Artifacts/Extra Combats/Copies",
+    "tests (mechanics 11, candidate 5, IJ 8), tested pool 8 configs, I certificate + J bundle (checker pass), preflight memos, adversarial packet, focused workflow with no '#' step names",
+    "WIP removed; full suite after last content commit: head 24F/86E/1626P/18S vs base b6b40ac8 24F/86E/1465P/18S, identical failing set (0 regressions); PR #659 ready (REVIEW_READY_NOT_OWNER_APPROVED); exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Decision packet + gate, memos, I/J, tests, workflow",
-   "next_step": "Decision packet + gate, memos, I/J, tests, workflow",
-   "last_checkpoint_at": "2026-10-23T06:55:30-05:00",
-   "updated_at": "2026-10-23T06:55:30-05:00",
-   "engineering_head": "1da58c1f"
+   "next_action": "ChatGPT adversarial review of PR #659",
+   "next_step": "Deck #12 Davros__Dalek_Creator (tracker index 11)",
+   "last_checkpoint_at": "2026-10-23T07:06:47-05:00",
+   "updated_at": "2026-10-23T07:06:47-05:00",
+   "engineering_head": "488e1d05",
+   "head_commit": "488e1d05fb994a1770a663baa971d7b3e9001c74",
+   "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71"
   },
   {
    "tracker_number": 12,
