@@ -1,0 +1,660 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "canonical_baseline_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+ "canonical_baseline_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "commander_identity": {
+  "mechanical_plan": "Gwendlyn Di Corci ({U}{B}{B}{R} 3/5 legendary Human Rogue; Legends 1994-06-01, reprinted in Masters Edition III 2009-09-07; Reserved List; commander-legal, not a Game Changer, no project exception). '{T}: Target player discards a card at random. Activate only during your turn.' Plan (owner blueprint 2026-10-14): make Gwendlyn a repeatable random-discard engine with haste (Lightning Greaves, Thousand-Year Elixir), untaps (Pemmin's Aura, Minamo, Magewright's Stone, Patriar's Seal, Elixir) and copies (Illusionist's Bracers). Refill opposing hands with wheels and strip them again. Convert discards into cards, mana, stolen permanents and life loss (Waste Not, Geth's Grimoire, Liliana's Caress, the three Tinybones, Tergrid, Sheoldred, Bowmasters, Bloodchief Ascension). Candidate: Hymn to Tourach replaces Dauthi Voidwalker, whose exile replacement stopped Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension.",
+  "protected_core": [
+   "Gwendlyn Di Corci",
+   "Illusionist's Bracers",
+   "Pemmin's Aura",
+   "Minamo, School at Water's Edge",
+   "Magewright's Stone",
+   "Patriar's Seal",
+   "Thousand-Year Elixir",
+   "Lightning Greaves",
+   "Mind Twist",
+   "Tinybones, Pocket Nuisance",
+   "Withering Torment",
+   "Bottomless Pit",
+   "Oppression",
+   "Chains of Mephistopheles",
+   "Notion Thief",
+   "Waste Not",
+   "Geth's Grimoire",
+   "Liliana's Caress",
+   "Tinybones, Trinket Thief",
+   "Tinybones, Bauble Burglar",
+   "Tergrid, God of Fright // Tergrid's Lantern",
+   "Underworld Breach",
+   "Yawgmoth's Will",
+   "Kess, Dissident Mage",
+   "Bloodchief Ascension",
+   "Wheel of Fortune",
+   "Wheel of Misfortune",
+   "Windfall",
+   "Timetwister",
+   "Dark Deal",
+   "Reforge the Soul",
+   "Jace's Archivist",
+   "Magus of the Wheel"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized), unchanged. Game Changers: 17 in both baseline and candidate (Ancient Tomb, Chrome Mox, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Imperial Seal, Lion's Eye Diamond, Mystical Tutor, Notion Thief, Opposition Agent, Orcish Bowmasters, Rhystic Study, Tergrid, God of Fright // Tergrid's Lantern, Underworld Breach, Vampiric Tutor). Commander Spellbook find-my-combos: 1 -> 1 complete combo (1368-2706-3518 Underworld Breach + Lion's Eye Diamond + Wheel of Fortune); almost-included 52 -> 50. The owner rejected generic combo conversion (Mindcrank + Bloodchief Ascension) and a Thoracle/Breach turbo shell, so the Aphetto + Bracers infinite (283-4091) is not adopted without the owner.",
+  "anti_homogenization": "Commander-first to Gwendlyn's Oracle: the add is random discard in the commander's own idiom, and the cut restores the graveyard payoffs the owner kept. Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline -> candidate, canonical Archidekt exports): Crosis, the Purger 55 -> 56 (Crosis also runs Hymn to Tourach); Nekusar, the Mindrazer 54 -> 54; Lord Xander, the Collector 50 -> 50; Nicol Bolas 46 -> 46; The Madcap Jester 45 -> 44; Grixistax October 2026 45 -> 44. Dauthi Voidwalker appears in seven other Grixis decks, so cutting it here also reduces homogenization. Nekusar is the nearest wheel deck. This list stays commander-first on Gwendlyn's own tap-to-discard Oracle (untap/copy package), not draw punishment. Owner-removed or rejected cards and classes (Megrim, Counterspell, Burning Inquiry, Winds of Change, The Locust God, Bone Miser, Fell Specter, Hypnotic Specter, Sangromancer, Feed the Swarm, Aphetto Alchemist, Battlemage's Bracers, Freed from the Real, Liliana of the Veil, Syphon Mind, Unnerve, Necrogen Mists, Naktamun Lorespinner, Quest for the Nihil Stone, Raiders' Wake, Painful Quandary, Cao Cao, Lord of Wei, Monument to Endurance, Mindcrank, Mox Diamond, generic Thoracle/Breach turbo-combo) are not re-added."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards (93 rows; 2x Island, 2x Mountain, 5x Swamp) were reviewed by quantity.\nRoles:\n- 35 lands: Ancient Tomb, Badlands, Blood Crypt, Bloodstained Mire, Bojuka Bog, City of Brass, Command Tower, Crumbling Necropolis, Drowned Catacomb, Exotic Orchard, 2 Island, Luxury Suite, Mana Confluence, Minamo, School at Water's Edge, Morphic Pool, 2 Mountain, Otawara, Soaring City, Polluted Delta, Scalding Tarn, Steam Vents, 5 Swamp, Takenuma, Abandoned Mire, Training Center, Underground River, Underground Sea, Urborg, Tomb of Yawgmoth, Volcanic Island, Watery Grave, Xander's Lounge.\n- Fast mana: Sol Ring, Arcane Signet, Chrome Mox, Lotus Petal, Lion's Eye Diamond, Dark Ritual, Talisman of Dominance, Talisman of Indulgence.\n- Commander haste/untap/copy: Lightning Greaves, Thousand-Year Elixir, Illusionist's Bracers, Pemmin's Aura, Magewright's Stone, Patriar's Seal (Minamo above).\n- Random/forced discard: Mind Twist, Hymn to Tourach (new), Tourach, Dread Cantor, Tinybones, Pocket Nuisance, Bottomless Pit, Oppression, Tergrid's Lantern; Dauthi Voidwalker (cut).\n- Wheels: Wheel of Fortune, Wheel of Misfortune, Windfall, Timetwister, Dark Deal, Reforge the Soul, Jace's Archivist, Magus of the Wheel.\n- Draw denial: Chains of Mephistopheles, Notion Thief, Anvil of Bogardan, Opposition Agent.\n- Payoffs: Waste Not, Geth's Grimoire, Liliana's Caress, Tinybones, Trinket Thief, Tinybones, Bauble Burglar, Tergrid, God of Fright, Sheoldred, the Apocalypse, Orcish Bowmasters, Underworld Dreams, Bloodchief Ascension, The Raven Man.\n- Card advantage: Rhystic Study, Mystic Remora, Dream Salvage.\n- Recursion: Underworld Breach, Yawgmoth's Will, Kess, Dissident Mage.\n- Tutors: Demonic Tutor, Vampiric Tutor, Mystical Tutor, Imperial Seal, Gamble.\n- Interaction: Force of Will, Force of Negation, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat, An Offer You Can't Refuse, Cyclonic Rift, Toxic Deluge, Withering Torment.",
+  "mana_base_and_curve": "Unchanged by the swap. 35 lands. U/B/R sources (fetches and rainbow lands counted per colour) are 21/24/17. 64 nonland cards; curve MV0 3, MV1 12, MV2 20, MV3 22, MV4 4, MV5 3 (identical: Dauthi and Hymn are both MV2); average nonland MV 2.328. Creatures 14 -> 13. Exact enumeration of paid {U}{B}{B}{R}: play T3 0.1439, play T4 0.5110, draw T4 0.6035 in both lists. The colour-agnostic upper bound is play T4 0.555 (only 4.4 points higher), so no manabase swap is indicated. Sulfurous Springs over Crumbling Necropolis: 0.5094.",
+  "interaction_resilience": "Stack: Force of Will, Force of Negation, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat, An Offer You Can't Refuse. Removal: Cyclonic Rift, Toxic Deluge, Withering Torment, Otawara. Graveyard hate: Bojuka Bog only after the cut. Dauthi's continuous exile was the deck's second graveyard answer, which is a disclosed loss against opposing Breach/reanimator decks. Commander protection: Lightning Greaves, Pemmin's Aura shroud (optional), Deflecting Swat.",
+  "weakest_slots": [
+   {
+    "card": "Dauthi Voidwalker",
+    "weakness": "Its graveyard replacement switches off the owner-kept Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension payoffs.",
+    "alternative_named": "Hymn to Tourach",
+    "reasoning": "Cut (flagged: named in the owner blueprint). Hymn feeds every discard payoff and all of them work again."
+   },
+   {
+    "card": "Magewright's Stone",
+    "weakness": "Costs {1} per untap, every time.",
+    "alternative_named": "Aphetto Alchemist",
+    "reasoning": "Kept: explicit owner keep. It works the turn it is cast (row A3: 2 vs 1), and the Alchemist + Bracers infinite is an owner decision."
+   },
+   {
+    "card": "Dream Salvage",
+    "weakness": "Situational draw (optimized EDHREC 3/31).",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: after Gwendlyn activations plus wheels it draws several cards at instant speed for {U}{B}; part of the FINAL membership the owner reconciled."
+   },
+   {
+    "card": "Anvil of Bogardan",
+    "weakness": "Symmetric: gives opponents a draw-and-discard.",
+    "alternative_named": "Kederekt Parasite",
+    "reasoning": "Kept: with Notion Thief we draw and they only discard (Notion Thief 2018-03-16 and Anvil 2004-10-04 rulings); no hand size limit for our wheels."
+   },
+   {
+    "card": "Reforge the Soul",
+    "weakness": "5 MV when it is not cast for its miracle cost.",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: owner-listed wheel; {1}{R} miracle off top-of-library tutors; refills to seven."
+   },
+   {
+    "card": "Underworld Dreams",
+    "weakness": "Symmetric with Chains of Mephistopheles (replaced draws do not trigger it).",
+    "alternative_named": "Kederekt Parasite",
+    "reasoning": "Kept: an enchantment rather than a fragile 1/1; optimized EDHREC 13/31 (synergy 0.356)."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Enters the battlefield tapped.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Kept: castability 0.5110 > 0.5094 for the challenger; owner mana keep."
+   },
+   {
+    "card": "Ancient Tomb",
+    "weakness": "Colourless; cannot pay Gwendlyn's pips.",
+    "alternative_named": "Mana Vault",
+    "reasoning": "Kept: owner fast mana that pays Bracers' equip, Stone and Patriar's Seal; Game Changer already counted."
+   },
+   {
+    "card": "Opposition Agent",
+    "weakness": "4 MV flash; matters only against tutors.",
+    "alternative_named": "Drown in the Loch",
+    "reasoning": "Kept: Bracket 4 tables tutor heavily; flash interaction that steals fetches."
+   },
+   {
+    "card": "Mind Twist",
+    "weakness": "X-scaling; weak in the early turns.",
+    "alternative_named": "Rings of Brighthearth",
+    "reasoning": "Kept: explicit owner addition; Pass C's fallback cut not taken."
+   },
+   {
+    "card": "Jace's Archivist",
+    "weakness": "Symmetric wheel on a 3-drop body.",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: repeatable and untappable by Stone, Pemmin's Aura and Patriar's Seal; owner-listed."
+   },
+   {
+    "card": "The Raven Man",
+    "weakness": "Slow token payoff; needs time on board.",
+    "alternative_named": "Lavaborn Muse",
+    "reasoning": "Kept: its tokens punish every opponent discard; EDHREC upgraded 10/26 (synergy 0.378)."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on what opponents play.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Kept: untapped tri-colour in multiplayer; castability is bounded by source count, not fixing (colour-agnostic bound only 4.4 points higher)."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random self-discard of the tutored card.",
+    "alternative_named": "Mana Vault",
+    "reasoning": "Kept: 1-mana tutor; with wheels in hand, discarding is upside (optimized EDHREC 15/31)."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Gwendlyn list (2026-10-14) whose owner second pass found ZERO NEW MATERIAL IMPROVEMENTS. M6 Pass C (owner-equivalent substitute, NOT independent) requested a measured test of +Aphetto Alchemist / -Magewright's Stone, with Rings of Brighthearth / -Mind Twist as a deprioritized fallback. This M7 pass ran that request as a bounded finite matrix (9 states), with exact assembly odds.",
+  "candidate_pool_scope": "EDHREC Gwendlyn Di Corci general, upgraded, optimized and cEDH page JSON; live Scryfall /cards/collection batch (94 baseline + 115 candidates; banned Jeweled Lotus excluded); OFF-RANKING searches for untappers, ability copiers and empty-hand punishers; Commander Spellbook find-my-combos for baseline, candidate and every alternative; M6 Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Rings of Brighthearth, Vizier of Tumbling Sands, Retreat to Coralhelm and Battlemage's Bracers (owner-rejected), all absent from every Gwendlyn page. Rings is staged as an alternative; the rest are rejected. The selection (Hymn to Tourach) is ranked."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Gwendlyn Di Corci approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt, blob 4ef2c267, introduced by 111f903e on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Gwendlyn_Di_Corci_approved_source_2026-10-14.txt)",
+  "EDHREC Gwendlyn Di Corci commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T12:31:38-0500, discovery only: data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T12:34:33-0500: data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T12:43:49-0500: data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for untappers, ability copiers and empty-hand punishers (Rings of Brighthearth, Vizier of Tumbling Sands, Retreat to Coralhelm, Battlemage's Bracers)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Gwendlyn_Di_Corci.md; data/grixis/m6/deep_reviews/Gwendlyn_Di_Corci.md",
+  "Owner 2026-10-14 current-cycle decisions (blueprint, accepted swaps, retained cards and rejected challengers): canonical refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 602.5d, 605.1a, 614.1a, 701.9a/b; frozen rulings for Dauthi Voidwalker, Tergrid, Tinybones, Bauble Burglar, Bloodchief Ascension, Illusionist's Bracers, Magewright's Stone, Rings of Brighthearth, Chains of Mephistopheles, Notion Thief, Anvil of Bogardan: data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+  "Bounded finite measured tests: the Pass C matrix (9 scripted states, baseline vs +Aphetto Alchemist -Magewright's Stone), exact assembly odds, the Hymn vs Dauthi exact-expectation ledger with adversarial rows, the Rings mana arithmetic, and exact paid {U}{B}{B}{R} castability for baseline, candidate and the manabase challenge: data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json and tests/test_m6_gwendlyn_di_corci_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Hymn to Tourach",
+   "source": "EDHREC Gwendlyn Di Corci general 48/380 (synergy 0.124), upgraded 5/26 (synergy 0.19), optimized 5/31 (synergy 0.159), cEDH absent; live Scryfall batch",
+   "role": "{B}{B} sorcery: target player discards two cards at random.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Loses Dauthi Voidwalker ({B}{B} 3/2 shadow; replaces opponents' cards going to a graveyard with exile plus a void counter; sacrifice to play one void card free). Dauthi is not in the owner's explicit retained-challenged list, but the owner's blueprint names it under 'resource denial/value asymmetry'. Cutting it is therefore a FLAGGED override, made on rules evidence. Its replacement stops three cards the owner explicitly kept: Tergrid, God of Fright must put the card 'from a graveyard' (ruling 2021-02-05: it fails if the card left the graveyard); Tinybones, Bauble Burglar must 'exile it from their graveyard'; and Bloodchief Ascension's payoff needs a card 'put into an opponent's graveyard'. Discard-trigger payoffs (Liliana's Caress, Waste Not, Geth's Grimoire, Tourach, Tinybones, Trinket Thief) still work under Dauthi (ruling 2021-06-18). Also lost: continuous graveyard hate against opposing Breach/reanimator decks (only Bojuka Bog remains), a 3-power shadow clock, and one free opposing card.",
+   "commander_synergy": "The same {B}{B} becomes two more random discards, mirroring Gwendlyn's Oracle as Mind Twist does (the owner accepted Mind Twist as 'efficient, scalable random discard that directly mirrors the commander's defining mechanic'). With Dauthi gone, every discarded or sacrificed card reaches the graveyard, so Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension work again. In the bounded ledger, one turn with one Gwendlyn activation goes from 1 discard to 3; Caress life loss 2 -> 6; Waste Not triggers 1 -> 3; Burglar stash 0 -> 3; Ascension drains 0 -> 6 life; expected Tergrid steals vs a 7-card hand with 3 permanents 0 -> 9/7.",
+   "adversarial_downside": "One-shot: dead against empty hands, where Dauthi still attacks and still hates graveyards. The owner rejected Syphon Mind, Unnerve and Necrogen Mists as 'generic redundancy'. Hymn differs because it is random, 2 MV and one-target like Mind Twist, but that distinction is a judgment call and is disclosed. Loses continuous graveyard hate.",
+   "judgment": "SELECT_ADD",
+   "reason": "The cut is high-confidence rules evidence: Dauthi switches off three owner-kept engines. Hymn is the best in-class random-discard filler for the same {B}{B}. One genuine swap; not enough for the five-swap floor.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+    "canonical refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Aphetto Alchemist",
+   "source": "EDHREC Gwendlyn Di Corci general 63/380 (synergy 0.164), upgraded 8/26 (synergy 0.306), optimized absent, cEDH absent; live Scryfall batch; Pass C's exact requested test",
+   "role": "{1}{U} 1/2 Wizard: {T}: untap target artifact or creature; morph {U}.",
+   "named_cuts": [
+    "Magewright's Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Magewright's Stone, which the owner explicitly kept as a 'direct commander untap effect'. The Stone works the turn it lands, while the Alchemist is summoning-sick (bounded row A3: 2 vs 1 discards).",
+   "commander_synergy": "Untaps Gwendlyn for no mana. With Illusionist's Bracers on Gwendlyn it is 4 vs 4 (row A1). With Bracers on the Alchemist it untaps Gwendlyn and itself: 9 vs 4 discards (A2) and 21 vs 4 with three full hands (A8).",
+   "adversarial_downside": "The owner rejected the Alchemist by name (summoning sickness and fragility). With Bracers it is a generic two-card infinite untap/mana engine (Commander Spellbook 283-4091: unbounded mana from any rock), the class the owner rejected with Mindcrank + Bloodchief Ascension. Killed after two loops: 3 vs 4 (A5).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Real commander-native upside, but it overrides both an owner keep and an owner rejection, and it adds a generic infinite. Staged as an OWNER DECISION (complete 100s on the baseline and on the candidate); not counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/final_disposition.md",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_AphettoAlchemist_minus_MagewrightsStone_20261023.txt",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_HymnToTourach_AphettoAlchemist_over_Dauthi_MagewrightsStone_20261023.txt"
+   ]
+  },
+  {
+   "card": "Rings of Brighthearth",
+   "source": "EDHREC Gwendlyn Di Corci general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Gwendlyn Di Corci EDHREC page); Pass C fallback",
+   "role": "{3} artifact: whenever you activate a non-mana ability, you may pay {2} to copy it.",
+   "named_cuts": [
+    "Mind Twist",
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Pass C's fallback cut was Mind Twist, an owner addition. The other staged cut is Dauthi.",
+   "commander_synergy": "Copies Gwendlyn, Tergrid's Lantern, Jace's Archivist and Tinybones, Bauble Burglar activations for {2} each.",
+   "adversarial_downside": "Costs {2} per copy. The owner rejected Battlemage's Bracers because 'each copy requires an additional mana'. Rings out-discards Hymn only after it has resolved and with 4+ spare mana every turn (bounded ledger).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged in Dauthi's slot as the commander-throughput option; rejected over Mind Twist (it would cut an owner addition).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_PassC_plus_RingsOfBrighthearth_minus_MindTwist_20261023.txt",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_one_RingsOfBrighthearth_over_DauthiVoidwalker_20261023.txt"
+   ]
+  },
+  {
+   "card": "Whispering Madness",
+   "source": "EDHREC Gwendlyn Di Corci general 73/380 (synergy 0.13), upgraded 7/26 (synergy 0.207), optimized 8/31 (synergy 0.196), cEDH absent; live Scryfall batch",
+   "role": "{2}{U}{B} sorcery: each player discards their hand, then draws the greatest number discarded; cipher.",
+   "named_cuts": [
+    "Reforge the Soul"
+   ],
+   "incumbent_opportunity_cost": "Would cut Reforge the Soul, an owner-listed wheel with a {1}{R} miracle set up by Mystical Tutor, Vampiric Tutor and Imperial Seal.",
+   "commander_synergy": "A cheaper wheel whose cipher can repeat when the encoded creature connects.",
+   "adversarial_downside": "Draws only the largest hand discarded, not seven. Cipher needs a creature to connect.",
+   "judgment": "REJECT",
+   "reason": "Marginal against an owner-listed wheel; staged as a rejected two-swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_two_WhisperingMadness_over_ReforgeTheSoul_20261023.txt"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Gwendlyn Di Corci general 57/380 (synergy -0.124), upgraded 8/26 (synergy 0.034), optimized 5/31 (synergy -0.113), cEDH absent; live Scryfall batch",
+   "role": "{2} Equipment: hexproof and haste; equip {1}.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the freed {B}{B} slot.",
+   "commander_synergy": "Haste and protection for Gwendlyn.",
+   "adversarial_downside": "Redundant with Lightning Greaves, Thousand-Year Elixir and Pemmin's Aura shroud; negative synergy in general and optimized EDHREC samples.",
+   "judgment": "REJECT",
+   "reason": "Redundant haste; not better than Hymn.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Drown in the Loch",
+   "source": "EDHREC Gwendlyn Di Corci general 60/380 (synergy 0.13), upgraded 4/26 (synergy 0.126), optimized 6/31 (synergy 0.165), cEDH absent; live Scryfall batch",
+   "role": "{U}{B} instant: counter target spell or destroy target creature with MV up to the cards in its controller's graveyard.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Scales with the graveyards Gwendlyn fills (stronger once Dauthi is gone).",
+   "adversarial_downside": "The deck already has Mana Drain, Swan Song, Force of Will, Force of Negation, Fierce Guardianship, Deflecting Swat and An Offer You Can't Refuse. It does not raise discard throughput.",
+   "judgment": "REJECT",
+   "reason": "Interaction is already dense; not commander throughput.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kederekt Parasite",
+   "source": "EDHREC Gwendlyn Di Corci general absent, upgraded 3/26 (synergy 0.068), optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{B} 1/1: whenever an opponent draws a card, if you control a red permanent, you may have that player lose 1 life.",
+   "named_cuts": [
+    "Underworld Dreams"
+   ],
+   "incumbent_opportunity_cost": "Would cut Underworld Dreams or take the freed slot.",
+   "commander_synergy": "Punishes the draws from our own wheels.",
+   "adversarial_downside": "Fragile 1/1 that duplicates Underworld Dreams and Orcish Bowmasters; it is also switched off by Chains of Mephistopheles' replaced draws.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Underworld Dreams and fragile.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lavaborn Muse",
+   "source": "EDHREC Gwendlyn Di Corci general 53/380 (synergy 0.139), upgraded 3/26 (synergy 0.114), optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{3}{R} 3/3: at each opponent's upkeep, if they have two or fewer cards in hand, 2 damage.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Punishes the empty hands Gwendlyn creates.",
+   "adversarial_downside": "4 MV body. Bottomless Pit, Oppression and Liliana's Caress already convert empty hands into pressure. The owner rejected more payoffs ('payoff density is already high').",
+   "judgment": "REJECT",
+   "reason": "Payoff density is already high (owner direction).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "source": "EDHREC Gwendlyn Di Corci general 72/380 (synergy 0.174), upgraded 7/26 (synergy 0.254), optimized 4/31 (synergy 0.114), cEDH 1/3 (synergy 0.318); live Scryfall batch",
+   "role": "{2}{B}{B} 3/3 flying haste: on combat damage choose modes (discard, lose life, sacrifice).",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Each-player discard mode on connection; feeds Tergrid via sacrifice.",
+   "adversarial_downside": "Combat-dependent 4-drop; generic Grixis value; symmetric discard and sacrifice modes.",
+   "judgment": "REJECT",
+   "reason": "Generic; not better than Hymn in the slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Tinybones, the Pickpocket",
+   "source": "EDHREC Gwendlyn Di Corci general 34/380 (synergy 0.076), upgraded 5/26 (synergy 0.179), optimized 3/31 (synergy 0.084), cEDH absent; live Scryfall batch",
+   "role": "{B} 1/1 deathtouch: on combat damage cast a nonland permanent card from that player's graveyard.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Uses opponents' discarded permanents.",
+   "adversarial_downside": "Needs to connect. Tergrid and Burglar already exploit those cards without combat.",
+   "judgment": "REJECT",
+   "reason": "Combat-dependent and redundant.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Davriel, Rogue Shadowmage",
+   "source": "EDHREC Gwendlyn Di Corci general 22/380 (synergy 0.056), upgraded absent, optimized absent, cEDH absent; live Scryfall batch",
+   "role": "{2}{B} planeswalker: opponents with one or fewer cards lose 2 at upkeep; -1: target player discards.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Empty-hand punishment plus a discard mode.",
+   "adversarial_downside": "Low impact (3 loyalty); payoff density already high.",
+   "judgment": "REJECT",
+   "reason": "Low impact for a 3-mana planeswalker.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Vizier of Tumbling Sands",
+   "source": "EDHREC Gwendlyn Di Corci general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Gwendlyn Di Corci EDHREC page)",
+   "role": "{2}{U} 1/1: {T}: untap another target permanent; cycling {1}{U}.",
+   "named_cuts": [
+    "Magewright's Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut an owner-kept untapper.",
+   "commander_synergy": "Untaps Gwendlyn for another activation.",
+   "adversarial_downside": "'Another target permanent' means that, with Bracers, its copy cannot untap itself. It is just a slower Magewright's Stone.",
+   "judgment": "REJECT",
+   "reason": "No better than the owner keep.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Retreat to Coralhelm",
+   "source": "EDHREC Gwendlyn Di Corci general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Gwendlyn Di Corci EDHREC page)",
+   "role": "{2}{U} enchantment: landfall: scry 1 or untap target creature.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "An untap of Gwendlyn on each land drop.",
+   "adversarial_downside": "About one untap per turn from land drops; 3 MV; fetches give two.",
+   "judgment": "REJECT",
+   "reason": "Marginal throughput for 3 mana.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sulfurous Springs",
+   "source": "EDHREC Gwendlyn Di Corci general 113/380 (synergy 0.01), upgraded 9/26 (synergy 0.059), optimized 9/31 (synergy 0.003), cEDH absent; live Scryfall batch",
+   "role": "Painland: {T}: {C}; {T}: {B} or {R} with 1 damage.",
+   "named_cuts": [
+    "Crumbling Necropolis"
+   ],
+   "incumbent_opportunity_cost": "Would cut Crumbling Necropolis, an owner mana keep.",
+   "commander_synergy": "Enters untapped for black/red; no Gwendlyn text synergy.",
+   "adversarial_downside": "Loses the tri-land's blue. Exact paid {U}{B}{B}{R} play-T4 castability falls 0.5110 -> 0.5094.",
+   "judgment": "REJECT",
+   "reason": "Measured as worse; Crumbling Necropolis is an owner mana keep.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_challenge_SulfurousSprings_over_CrumblingNecropolis_20261023.txt"
+   ]
+  },
+  {
+   "card": "Mana Vault",
+   "source": "EDHREC Gwendlyn Di Corci general 47/380 (synergy 0.04), upgraded absent, optimized 11/31 (synergy 0.271), cEDH 3/3 (synergy 0.916); live Scryfall batch",
+   "role": "{1} artifact: {T}: add {C}{C}{C}; doesn't untap normally.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "Generic fast mana; no Gwendlyn text synergy.",
+   "adversarial_downside": "Gwendlyn is {U}{B}{B}{R} with no generic cost; colourless mana mainly pays Bracers, Stone and Rings. The owner declined generic fast-mana churn (Mox Diamond); Mana Vault is also a Game Changer (17 -> 18).",
+   "judgment": "REJECT",
+   "reason": "Generic acceleration; owner direction.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Jeweled Lotus",
+   "source": "EDHREC Gwendlyn Di Corci general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Gwendlyn Di Corci EDHREC page)",
+   "role": "{0} artifact: sacrifice for three mana of one colour for commander spells.",
+   "named_cuts": [
+    "Lotus Petal"
+   ],
+   "incumbent_opportunity_cost": "Would cut Lotus Petal, part of the fast mana suite.",
+   "commander_synergy": "Turn-1 commander acceleration.",
+   "adversarial_downside": "BANNED in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander per live Scryfall legality.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json"
+   ]
+  },
+  {
+   "card": "Megrim",
+   "source": "EDHREC Gwendlyn Di Corci general 202/380 (synergy 0.467), upgraded 21/26 (synergy 0.743), optimized 14/31 (synergy 0.387), cEDH absent; live Scryfall batch",
+   "role": "{2}{B} enchantment: 2 damage per opponent discard.",
+   "named_cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "incumbent_opportunity_cost": "Would take the slot freed by cutting Dauthi Voidwalker.",
+   "commander_synergy": "The top EDHREC discard payoff for Gwendlyn.",
+   "adversarial_downside": "Removed in the owner's FINAL reconciliation (the older v8.1.4 audit's Megrim configuration was superseded); not re-added.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Owner-removed card; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "canonical refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Hymn to Tourach"
+  ],
+  "cuts": [
+   "Dauthi Voidwalker"
+  ],
+  "coherent_package_tradeoff": "One one-for-one swap: Hymn to Tourach for Dauthi Voidwalker, both {B}{B}. Losses: continuous graveyard hate (Bojuka Bog remains), a 3-power shadow clock, one free opposing card from Dauthi's sacrifice, and Hymn is dead against empty hands. Gains: Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension work again, plus two more random discards. Mana base, curve and castability are unchanged. Flagged: Dauthi is named in the owner's blueprint, though not in the explicit retained list."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Dauthi Voidwalker",
+    "weakness": "Its graveyard replacement switches off the owner-kept Tergrid, Tinybones, Bauble Burglar and Bloodchief Ascension payoffs.",
+    "alternative_named": "Hymn to Tourach",
+    "reasoning": "Cut (flagged: named in the owner blueprint). Hymn feeds every discard payoff and all of them work again."
+   },
+   {
+    "card": "Magewright's Stone",
+    "weakness": "Costs {1} per untap, every time.",
+    "alternative_named": "Aphetto Alchemist",
+    "reasoning": "Kept: explicit owner keep. It works the turn it is cast (row A3: 2 vs 1), and the Alchemist + Bracers infinite is an owner decision."
+   },
+   {
+    "card": "Dream Salvage",
+    "weakness": "Situational draw (optimized EDHREC 3/31).",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: after Gwendlyn activations plus wheels it draws several cards at instant speed for {U}{B}; part of the FINAL membership the owner reconciled."
+   },
+   {
+    "card": "Anvil of Bogardan",
+    "weakness": "Symmetric: gives opponents a draw-and-discard.",
+    "alternative_named": "Kederekt Parasite",
+    "reasoning": "Kept: with Notion Thief we draw and they only discard (Notion Thief 2018-03-16 and Anvil 2004-10-04 rulings); no hand size limit for our wheels."
+   },
+   {
+    "card": "Reforge the Soul",
+    "weakness": "5 MV when it is not cast for its miracle cost.",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: owner-listed wheel; {1}{R} miracle off top-of-library tutors; refills to seven."
+   },
+   {
+    "card": "Underworld Dreams",
+    "weakness": "Symmetric with Chains of Mephistopheles (replaced draws do not trigger it).",
+    "alternative_named": "Kederekt Parasite",
+    "reasoning": "Kept: an enchantment rather than a fragile 1/1; optimized EDHREC 13/31 (synergy 0.356)."
+   },
+   {
+    "card": "Crumbling Necropolis",
+    "weakness": "Enters the battlefield tapped.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Kept: castability 0.5110 > 0.5094 for the challenger; owner mana keep."
+   },
+   {
+    "card": "Ancient Tomb",
+    "weakness": "Colourless; cannot pay Gwendlyn's pips.",
+    "alternative_named": "Mana Vault",
+    "reasoning": "Kept: owner fast mana that pays Bracers' equip, Stone and Patriar's Seal; Game Changer already counted."
+   },
+   {
+    "card": "Opposition Agent",
+    "weakness": "4 MV flash; matters only against tutors.",
+    "alternative_named": "Drown in the Loch",
+    "reasoning": "Kept: Bracket 4 tables tutor heavily; flash interaction that steals fetches."
+   },
+   {
+    "card": "Mind Twist",
+    "weakness": "X-scaling; weak in the early turns.",
+    "alternative_named": "Rings of Brighthearth",
+    "reasoning": "Kept: explicit owner addition; Pass C's fallback cut not taken."
+   },
+   {
+    "card": "Jace's Archivist",
+    "weakness": "Symmetric wheel on a 3-drop body.",
+    "alternative_named": "Whispering Madness",
+    "reasoning": "Kept: repeatable and untappable by Stone, Pemmin's Aura and Patriar's Seal; owner-listed."
+   },
+   {
+    "card": "The Raven Man",
+    "weakness": "Slow token payoff; needs time on board.",
+    "alternative_named": "Lavaborn Muse",
+    "reasoning": "Kept: its tokens punish every opponent discard; EDHREC upgraded 10/26 (synergy 0.378)."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on what opponents play.",
+    "alternative_named": "Sulfurous Springs",
+    "reasoning": "Kept: untapped tri-colour in multiplayer; castability is bounded by source count, not fixing (colour-agnostic bound only 4.4 points higher)."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random self-discard of the tutored card.",
+    "alternative_named": "Mana Vault",
+    "reasoning": "Kept: 1-mana tutor; with wheels in hand, discarding is upside (optimized EDHREC 15/31)."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Rings of Brighthearth (retained alternative, staged in two slots), Vizier of Tumbling Sands, Retreat to Coralhelm (rejected), Battlemage's Bracers (owner-rejected; not re-added).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Hymn to Tourach",
+     "Aphetto Alchemist"
+    ],
+    "cuts": [
+     "Dauthi Voidwalker",
+     "Magewright's Stone"
+    ],
+    "result_and_rationale": "Staged two-swap; OWNER DECISION: adds the Pass C priority loop but brings in a generic two-card infinite (Spellbook 283-4091) and overrides an owner keep and an owner rejection."
+   },
+   {
+    "adds": [
+     "Hymn to Tourach",
+     "Whispering Madness"
+    ],
+    "cuts": [
+     "Dauthi Voidwalker",
+     "Reforge the Soul"
+    ],
+    "result_and_rationale": "Staged two-swap; rejected as marginal against an owner-listed wheel."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested +Aphetto Alchemist / -Magewright's Stone. It was run as a bounded deterministic matrix of 9 states (A1-A9: Bracers on Gwendlyn, Bracers on the Alchemist, untapper cast this turn without and with Elixir, Alchemist killed after two loops, no Gwendlyn, opponents hellbent, three 7-card hands, Pemmin's Aura with 3 blue). Useful discards baseline vs variant: 4/4, 4/9, 2/1, 2/2, 4/3, 0/0, 0/0, 4/21, 4/5. The variant wins only through the Bracers-on-Alchemist infinite (Commander Spellbook 283-4091). Exact no-tutor odds of seeing both pieces: 0.0093 / 0.0113 / 0.0136 / 0.0188 at 10 / 11 / 12 / 14 cards seen. It is staged as an OWNER DECISION, not counted. The Rings / -Mind Twist fallback was staged and rejected because it cuts an owner addition.",
+  "strongest_argument_against_baseline": "Dauthi Voidwalker, a card the owner's blueprint lists, silently disables three cards the owner explicitly kept for this deck: Tergrid's steals, Tinybones, Bauble Burglar's stash, and Bloodchief Ascension's drain. While it is on the battlefield, every opposing discard and sacrifice lands in exile instead of the graveyard those engines read.",
+  "evidence_based_answer": "One genuine swap: Hymn to Tourach for Dauthi Voidwalker (flagged blueprint override; MODERATE). No second genuine improvement was found without overriding an owner keep or rejection (Aphetto Alchemist over Magewright's Stone, which also adds a generic infinite; Rings over Mind Twist), making a marginal swap (Whispering Madness over Reforge the Soul) or lowering castability (Sulfurous Springs over Crumbling Necropolis). The deck is held as research only.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Gwendlyn_Di_Corci.txt",
+  "sha256": "f5f26b78a09f9247be2e311dd76b6e1ff3ed012cd2eaa66692cb33b68fc38197",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 2x Island, 2x Mountain, 5x Swamp, every other card 1x. One substitution against the canonical source. 35 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Gwendlyn_Di_Corci_M7_20261023.md",
+   "tests/test_m6_gwendlyn_di_corci_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Discard",
+   "Wheels",
+   "Untap"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: only one genuine swap was found (Hymn to Tourach over Dauthi Voidwalker, a flagged override of a card named in the owner's blueprint). The five-swap owner-presentation floor is not met without padding. Every other candidate either overrides an owner keep or rejection (Aphetto Alchemist over Magewright's Stone, which also creates the generic Bracers + Alchemist infinite; Rings of Brighthearth over Mind Twist), is marginal (Whispering Madness, Swiftfoot Boots, Drown in the Loch), re-adds an owner-removed card (Megrim) or lowers castability (Sulfurous Springs). This packet is NOT owner-presentable and NOT owner approved; the canonical Gwendlyn Di Corci list is unchanged."
+}

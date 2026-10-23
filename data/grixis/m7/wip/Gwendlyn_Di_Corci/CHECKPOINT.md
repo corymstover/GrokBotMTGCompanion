@@ -14,4 +14,6 @@
 - Gwendlyn Di Corci: Legends (leg) 1994-06-01, reprint me3 2009-09-07; live Scryfall Commander legal; not a Game Changer. No exception needed.
 - Working finding: Spellbook 283-4091 shows Aphetto Alchemist + Illusionist's Bracers is a 2-card infinite untap/mana engine (owner decision, not a first-pass swap).
 - Working candidate: +Hymn to Tourach / -Dauthi Voidwalker (Dauthi's graveyard replacement disables owner-kept Tergrid, Bloodchief Ascension, Tinybones, Bauble Burglar). Expected RESEARCH_ONLY (under five genuine swaps).
-- Checkpoint written: 2026-10-23T12:40:04-0500
+- Package checkpoint: candidate list, Scryfall oracle snapshot (208 cards, 0 differences from frozen), rules snapshot, tested pool (10 configurations), five staged alternatives + Sulfurous Springs manabase challenge, bounded measured tests, M7 decision review (gate: M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, 17 candidates, 1 swap).
+- Remaining: adversarial packet, M6 I/J memos, certificate + revision bundle, per-deck tests + workflow, full suite, PR ready.
+- Checkpoint written: 2026-10-23T12:47:33-0500
