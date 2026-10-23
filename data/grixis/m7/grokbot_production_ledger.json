@@ -1285,34 +1285,61 @@
    "baseline_raw_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
    "registry_recorded_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Jeleva__Nephalia_s_Scourge.txt",
+   "candidate_raw_sha256": "4818b32a8f8bcbbadef7c4a46bead2b089d1e104d2faa68c4c1c14cd65ce6df1",
+   "current_candidate_sha": "4818b32a8f8bcbbadef7c4a46bead2b089d1e104d2faa68c4c1c14cd65ce6df1",
    "branch": "grokbot-deck24-jeleva-nephalias-scourge-m7-20261023",
    "working_branch": "grokbot-deck24-jeleva-nephalias-scourge-m7-20261023",
-   "last_pushed_commit": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
+   "last_pushed_commit": "e77466fa8323f56133baea3ddbad0cedb09b5df5",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/672",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 0,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 24 Jeleva, Nephalia's Scourge research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40006986378",
+     "conclusion": "success",
+     "head": "e77466fa8323f56133baea3ddbad0cedb09b5df5"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40006986144",
+     "conclusion": "success",
+     "head": "e77466fa8323f56133baea3ddbad0cedb09b5df5"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40006986153",
+     "conclusion": "success",
+     "head": "e77466fa8323f56133baea3ddbad0cedb09b5df5"
+    }
+   ],
+   "blockers": [
+    "zero genuine swaps; five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 0, 22 material candidates, 15 incumbents challenged); closest call +Snap -Gitaxian Probe not clearly better (RETAIN_ALTERNATIVE, OWNER DECISION)"
+   ],
+   "unresolved_issues": [
+    "Pass C matched-hand games / win rates not run: no validated Jeleva game model (exact stager access 0.5736-0.7103 vs 0.5372-0.6736 with Intuition, hostile Intuition piles, Galvanic copy not cast and enablers 4->3, Mox Opal, Spellseeker reach 29, colour sources 21/20/19, rules facts only)",
+    "Pass C +Intuition -Long-Term Plans / -Scheming Symmetry and +Galvanic Iteration -Borne Upon a Wind measured worse and rejected; +Snap -Gitaxian Probe staged as OWNER DECISION; +Dramatic Reversal +Isochron Scepter -Scroll Rack -Personal Tutor rejected (generic, cuts owner keep Scroll Rack)",
+    "box-local only: /workspace/d23 worktree HEAD points at the deck24 branch with Inalla files untracked; PR #671 remote head 1efba1a2 intact"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 00e3f521 == overrides == tracker == registry; blob 8cdc5b5a from approval commit d53789d1; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #671 head 1efba1a2; draft PR #672",
-    "research (live Scryfall 100+109, EDHREC 4 pages incl. 30-deck cEDH sample, Commander Spellbook baseline 7 combos/candidate/8 alternatives) and Pass C bounded tests T1-T6 (stager access, hostile Intuition enumeration, Galvanic copy classification, enabler access, Mox Opal metalcraft, land sources); interim 0 genuine admissible swaps"
+    "research (live Scryfall 100+109, EDHREC 4 pages incl. 30-deck cEDH sample, Commander Spellbook baseline 7 combos/candidate/8 alternatives) and Pass C bounded tests T1-T6 (stager access, hostile Intuition enumeration, Galvanic copy classification, enabler access, Mox Opal metalcraft, land sources); interim 0 genuine admissible swaps",
+    "oracle/rules snapshots, tested pool (11 configs), decision packet (gate withdrawn RESEARCH_ONLY, 22 material candidates, 15 incumbents challenged), I/J memos, certificate + J revision bundle, adversarial packet, mechanics/candidate/IJ tests 12/10/8, focused workflow; WIP removed in last content commit e77466fa",
+    "full suite head e77466fa 24F/1632P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #672 ready 2026-10-23T13:56:43-0500 (GitHub ready_for_review 18:56:43Z) with RESEARCH_ONLY + blocker; exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_REQUESTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Snapshots, tested pool, decision review, memos, tests, workflow; full suite; mark PR ready",
-   "next_step": "Generate certification artifacts",
-   "stage": "RESEARCH_IN_PROGRESS",
-   "last_pushed_sha": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
-   "last_checkpoint_commit": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
+   "next_action": "owner decision on RESEARCH_ONLY zero-swap candidate (Snap OWNER DECISION staged); next deck #25 Kefka__Court_Mage",
+   "next_step": "owner decision on RESEARCH_ONLY zero-swap candidate; next deck #25 Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "stage": "RESEARCH_ONLY_BLOCKED",
+   "last_pushed_sha": "e77466fa8323f56133baea3ddbad0cedb09b5df5",
+   "last_checkpoint_commit": "e77466fa8323f56133baea3ddbad0cedb09b5df5",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/672",
-   "pr_is_draft": true,
+   "pr_is_draft": false,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 8cdc5b5a, introduced by d53789d1 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T13:39:38-0500",
-   "last_checkpoint_at": "2026-10-23T13:39:38-0500"
+   "updated_at": "2026-10-23T13:57:47-0500",
+   "last_checkpoint_at": "2026-10-23T13:57:47-0500"
   },
   {
    "tracker_number": 25,
