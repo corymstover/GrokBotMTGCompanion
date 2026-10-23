@@ -890,31 +890,56 @@
    "current_candidate_sha": "c3f6862c6f4498778069f45e7a5e5bc7efe92d70158b5e9b3f438c8c861b89ac",
    "branch": "grokbot-deck18-evelyn-the-covetous-m7-20261023",
    "working_branch": "grokbot-deck18-evelyn-the-covetous-m7-20261023",
-   "last_pushed_commit": "dfa96f7218fedff8283a941a602623092200f75e",
+   "last_pushed_commit": "8150b96898bcd4d8631ae80352b5f59ec158dbcf",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/666",
    "swap_count": 5,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 18 Evelyn, the Covetous candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39980805698",
+     "conclusion": "success",
+     "head": "8150b96898bcd4d8631ae80352b5f59ec158dbcf"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39980805691",
+     "conclusion": "success",
+     "head": "8150b96898bcd4d8631ae80352b5f59ec158dbcf"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39980805686",
+     "conclusion": "success",
+     "head": "8150b96898bcd4d8631ae80352b5f59ec158dbcf"
+    }
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    "Insolent Neonate flagged vs owner's optimized-tribal Vampire package rejection (revert restores Spellskite)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 1d602b5d == overrides == tracker == registry; 100 physical/100 rows); shared infra copied from #665 5f5a3a0f; draft PR #666 2026-10-23 10:22 CDT",
     "research snapshot (EDHREC 4 pages + stats.cedh.events, live Scryfall, Spellbook 7=7, bounded Pass C tests) + provisional 5-swap candidate and 5 staged alternatives; pushed 2026-10-23 10:30 CDT",
     "snapshots, rules, tested pool (8 configs), decision packet (gate passes, 5 swaps); pushed f731767d",
-    "I/J memos, bundle+certificate (J checker exit 0), adversarial packet, 3 deck tests + focused workflow (192 focused tests pass locally); pushed dfa96f72 2026-10-23T10:43:51-05:00"
+    "I/J memos, bundle+certificate (J checker exit 0), adversarial packet, 3 deck tests + focused workflow (192 focused tests pass locally); pushed dfa96f72 2026-10-23T10:43:51-05:00",
+    "WIP removed (8150b968, last content commit); full suite vs base; PR #666 ready; exact-head CI 3/3 success; 2026-10-23T10:47:01-05:00"
    ],
-   "status": "PACKAGE_BUILT_FINALIZING",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "remove WIP, full suite vs base, mark PR ready, exact-head CI",
-   "next_step": "remove WIP, full suite vs base, mark PR ready, exact-head CI",
-   "stage": "PACKAGE_BUILT_FINALIZING",
+   "next_action": "await ChatGPT adversarial review / owner decision; next deck #19 Fire_Lord_Azula",
+   "next_step": "await ChatGPT adversarial review / owner decision; next deck #19 Fire_Lord_Azula",
+   "stage": "REVIEW_READY_AWAITING_CHATGPT",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/666",
-   "pr_is_draft": true,
-   "last_checkpoint_commit": "dfa96f7218fedff8283a941a602623092200f75e",
-   "head_commit": "dfa96f7218fedff8283a941a602623092200f75e",
+   "pr_is_draft": false,
+   "last_checkpoint_commit": "8150b96898bcd4d8631ae80352b5f59ec158dbcf",
+   "head_commit": "8150b96898bcd4d8631ae80352b5f59ec158dbcf",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 03574140, frozen by 43c0ceca; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T10:43:51-05:00",
-   "updated_at": "2026-10-23T10:43:51-05:00"
+   "last_checkpoint_at": "2026-10-23T10:47:01-05:00",
+   "updated_at": "2026-10-23T10:47:01-05:00",
+   "pr_title": "M7 Deck 18 Evelyn, the Covetous first pass (REVIEW_READY_NOT_OWNER_APPROVED)",
+   "full_suite": "head 8150b968: 24F/1631P/18S/86E vs base b6b40ac8: 24F/1465P/18S/86E; identical 110 failure/error IDs, no new failures",
+   "next_deck": "#19 Fire_Lord_Azula"
   },
   {
    "tracker_number": 19,
