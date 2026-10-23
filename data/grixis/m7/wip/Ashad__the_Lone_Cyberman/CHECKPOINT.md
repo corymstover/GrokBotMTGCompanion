@@ -9,5 +9,5 @@ NOT OWNER APPROVED. Work in progress; this file is removed at finish.
 - Logical hash lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b.
 - Gate infra copied byte-identically from PR #652 head a6798cf2 (schema, M7 gate, gate test, bundle_check before narrow Pass C fix).
 - Discovery snapshots: EDHREC (1793 decks) and live Scryfall /cards/collection (95 baseline + 171 pool), 2026-10-23.
-- Completed: baseline provenance, discovery, candidate TXT dfd1158c… (5 swaps) + 4 staged alternatives, Spellbook check.
-- Next: decision packet, oracle/rules snapshots, tests, IJ, Pass C fix.
+- Completed: baseline provenance, discovery, candidate TXT dfd1158c… (5 swaps) + 4 staged alternatives, Spellbook check. Decision packet (gate PASS), oracle/rules snapshots, I/J memos, candidate+mechanics tests (14 pass).
+- Next: Pass C bundle_check fix, M6 I tested pool + certificate, J bundle, IJ test, workflow, review packet.

@@ -1,0 +1,772 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "canonical_baseline_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+ "canonical_baseline_logical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "commander_identity": {
+  "mechanical_plan": "Ashad ({1}{U}{B}{R} 3/3 legendary artifact Cyberman) gives the first nonlegendary artifact spell each turn casualty 2. Sacrificing a power-2+ creature copies that spell, the copy becomes a token (not cast, not 'created'), and every other creature sacrificed grows Ashad. Shimmer Myr and flash artifacts make 'each turn' include opponents' turns. Twinning Staff adds a copy and Biotransference turns creature spells into artifact spells. Value comes from copying ETB artifacts (Wurmcoil, Solemn, Noxious Gearhulk, Portal) and converting sacrifices with altars, KCI, Plunderer, Mayhem Devil and Disciple. The plan is gated by having a power-2+ body before the first artifact spell.",
+  "protected_core": [
+   "Ashad, the Lone Cyberman",
+   "Twinning Staff",
+   "Shimmer Myr",
+   "Biotransference",
+   "Esoteric Duplicator",
+   "Urza, Lord High Artificer",
+   "Worldwalker Helm",
+   "Artificer Class",
+   "Krark-Clan Ironworks",
+   "Ashnod's Altar",
+   "Phyrexian Altar",
+   "Pitiless Plunderer",
+   "Mayhem Devil",
+   "Wurmcoil Engine",
+   "Solemn Simulacrum",
+   "Iron Man, Bleeding Edge",
+   "Portal to Phyrexia",
+   "The Cyber-Controller"
+  ],
+  "natural_ceiling": "Power Bracket 4 - Optimized artifact factory: three Game Changers (Cyclonic Rift, Demonic Tutor, Fierce Guardianship), the Spellbook Urza + Worldwalker Helm + Artificer Class line, and (candidate) the conditional Razorlash + Pitiless Plunderer + Phyrexian Altar loop. Only 30 lands, and it is fragile to artifact hate. Not cEDH.",
+  "anti_homogenization": "Every add is a nonlegendary artifact that either pays casualty 2 (Piggy Bank, Razorlash, Royal Warden + tokens), makes the copy matter (Necron Deathmark), or turns sacrifices into cards (Skullclamp). Missy, Davros and Cult of Skaro-style legendary payoffs were rejected because they are separate encyclopedia commanders and Ashad can't copy legendaries."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 reviewed by quantity (95 rows, 100 physical): 30 lands (22 nonbasic incl. 3 artifact lands and Urza's Saga, plus 3 Island, 2 Mountain, 3 Swamp), 9 static rocks, 4 cost reducers/Class, 41 nonland artifacts (37 nonlegendary), and 17 creatures with power 2+. Overlap: nine rocks for avg nonland MV 3.41. The weak point is fodder: Disciple, Welder, Emry, Padeem, Plunderer, Urza, Fireweaver, Sculptor, Strix and Marionette are all 1-power bodies, and Thopter Spy Network makes 1/1s that can't pay casualty 2.",
+  "mana_base_and_curve": "Baseline: 30 lands + 9 rocks = 39 static sources, avg nonland MV 3.41. Candidate: 30 lands + 8 rocks = 38 (Fellwar Stone cut), avg nonland MV 3.35, plus Piggy Bank/Plunderer Treasures and four reducers. Curve by MV 0/1/2/3/4/5/6+: 1/3/19/21/11/2/12 -> 1/4/19/21/10/3/11 (printed MV; Thoughtcast and Thought Monitor count at full MV). Colored land sources U/B/R are unchanged at 18/16/14, counting fetches and Exotic Orchard (17/16/14 without Orchard, matching the repo mana_base record). Nonland pips U/B/R go from 35/16/13 to 32/18/13 (Deathmark and Warden BB, plus Razorlash BB to return). Honest cost: P(at least 4 lands-or-rocks in the top 10 cards, i.e. Ashad on turn 4 on the draw) falls from 0.610 to 0.583, and black demand rises against 16 black land sources",
+  "interaction_resilience": "Stack: Arcane Denial, Mana Drain, Fierce Guardianship, Deflecting Swat. Removal: Chaos Warp, Cyclonic Rift, Cyber Conversion, Noxious Gearhulk, Delete, Their Name Is Death, Portal to Phyrexia, plus Necron Deathmark (new, flash, copyable). Protection: Lightning Greaves, Padeem. Graveyard: recursion via Emry, Welder, Scrap Trawler, Academy Ruins and Razorlash; graveyard hate stops Razorlash and the welders. Commander-removed state: Skullclamp, Royal Warden and Deathmark all work without Ashad.",
+  "weakest_slots": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Ninth static rock; makes only colors opponents' lands make.",
+    "alternative_named": "Skullclamp",
+    "reasoning": "39 static sources for avg nonland MV 3.41 is generous; the commander needs fodder and cards, not a ninth rock."
+   },
+   {
+    "card": "Reckless Fireweaver",
+    "weakness": "1/3 nonartifact pinger; can't pay casualty 2.",
+    "alternative_named": "Piggy Bank",
+    "reasoning": "Ingenious Artillerist already does the role better and is itself fodder."
+   },
+   {
+    "card": "Thoughtcast",
+    "weakness": "Sorcery draw two that doesn't interact with the commander.",
+    "alternative_named": "Razorlash Transmogrant",
+    "reasoning": "Card flow is covered by Skullclamp and engines; recursive fodder is scarcer."
+   },
+   {
+    "card": "Marionette Master",
+    "weakness": "6-mana nonartifact; Servos are 1/1 and can't pay casualty.",
+    "alternative_named": "Necron Deathmark",
+    "reasoning": "The most expensive card Ashad can't copy without Biotransference."
+   },
+   {
+    "card": "Thopter Spy Network",
+    "weakness": "4-mana enchantment, not an artifact spell; 1/1 Thopters can't pay casualty 2.",
+    "alternative_named": "Royal Warden",
+    "reasoning": "Pass C already flagged it as a possible cut; Warden's tokens are 2/2 artifact fodder."
+   },
+   {
+    "card": "Ichor Wellspring",
+    "weakness": "Noncreature draw artifact; can't be fodder.",
+    "alternative_named": "Cyberman Patrol",
+    "reasoning": "Retained: two cards per copy and a sacrifice target; Patrol staged as alternative."
+   },
+   {
+    "card": "Auton Soldier",
+    "weakness": "Six-mana clone; target-dependent.",
+    "alternative_named": "Treasure Keeper",
+    "reasoning": "Retained: high ceiling and Doctor Who identity; Keeper staged as alternative."
+   },
+   {
+    "card": "Artificer Class",
+    "weakness": "Slow enchantment, not an artifact spell.",
+    "alternative_named": "Three Steps Ahead",
+    "reasoning": "Retained: complete Spellbook combo piece and repeatable discount."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "Seven-mana top end that is slow to deploy.",
+    "alternative_named": "Missy",
+    "reasoning": "Retained: copyable finisher; Missy rejected for homogenization."
+   },
+   {
+    "card": "Cursed Mirror",
+    "weakness": "Three-mana rock with a temporary copy mode.",
+    "alternative_named": "Dalek Drone",
+    "reasoning": "Retained: cutting a second rock leaves mana too thin."
+   },
+   {
+    "card": "Etherium Sculptor",
+    "weakness": "1/2 reducer; can't pay casualty.",
+    "alternative_named": "Skorpekh Lord",
+    "reasoning": "Retained: early discount matters; Skullclamp lifts its power when needed."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Pod-dependent color fixing; may tap for nothing useful.",
+    "alternative_named": "Spire of Industry",
+    "reasoning": "Retained: marginal; no commander impact."
+   },
+   {
+    "card": "Disciple of the Vault",
+    "weakness": "1/1 body that cannot pay casualty 2 on its own.",
+    "alternative_named": "Ultron, Artificial Malevolence",
+    "reasoning": "Retained: drain payoff for KCI and the Razorlash loop."
+   }
+  ],
+  "current_baseline_strength": "The approved list is a strong Bracket 4 artifact-copy deck with a complete Spellbook line and deep sacrifice payoffs. Its limit is the supply of power-2+ bodies and card flow after the first copy turn, not raw mana.",
+  "candidate_pool_scope": "EDHREC Ashad page (1793 decks; high lift, top creatures/artifacts/lands), canonical Proposed_Final and closeout history (Dalek Drone, Canoptek Spyder, Jadar), M6 blind inputs A/B and Pass C comparators (Three Steps Ahead, Ultron, Cyberman Patrol, Thran Dynamo), and an off-ranking search for artifact fodder with death value. 171 pool names plus all 95 baseline names were Oracle- and legality-checked live via Scryfall /cards/collection.",
+  "off_ranked_search_conclusion": "OFF-RANKING search found Treasure Keeper and Filigree Familiar (absent from the Ashad EDHREC page). Treasure Keeper is staged as a six-swap alternative over Auton Soldier; Filigree Familiar is rejected vs Ichor Wellspring. Burnished Hart was examined and rejected (ramp body worse than Solemn)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Ashad Approval_Ready source, Proposed_Final history and closeout (read-only clone @9b26aa2)",
+  "EDHREC commander page JSON retrieved 2026-10-23: data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (266 names): data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for artifact fodder with death value not on the EDHREC page (Treasure Keeper, Filigree Familiar, Burnished Hart)",
+  "M6 blind inputs A/B and Pass C final disposition: data/grixis/m6/owner_pass_c_substitute/Ashad__the_Lone_Cyberman/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for casualty, copies of permanent spells, unearth: data/grixis/m6/rules_snapshots/Ashad__the_Lone_Cyberman_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Skullclamp",
+   "source": "EDHREC Ashad page (artifact section); live Scryfall Oracle",
+   "role": "Repeatable card draw and casualty enabler: equip {1}, +1/-1, draw two when the equipped creature dies",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses the ninth static mana rock (Fellwar Stone only makes colors opponents' lands can make). Static sources go from 39 to 38: 30 lands plus Sol Ring, Arcane Signet, Rakdos Signet, three Talismans, Mox Opal and Cursed Mirror, plus Treasure makers and four cost reducers.",
+   "commander_synergy": "Ashad needs a power-2+ creature to sacrifice. +1/-1 lifts 1-power bodies with toughness 2+ (Etherium Sculptor, Emry, Urza, Padeem, Pitiless Plunderer) to power 2 so they can pay casualty, and the equipped creature's death, including as the casualty payment, draws two. On 1-toughness bodies (Disciple, Goblin Welder, Baleful Strix, Construct/Servo-style tokens) it kills them for two cards instead. It is a 1-mana nonlegendary artifact, so a casualty copy makes a second Clamp.",
+   "adversarial_downside": "Equip is sorcery speed. It does nothing without creatures, and artifact removal/Vandalblast hits it. It is a tutor target for opponents' artifact hate.",
+   "judgment": "SELECT_ADD",
+   "reason": "The cheapest repeatable card-draw engine in colorless, and it directly widens which bodies can pay casualty 2. Fellwar Stone is the weakest of nine rocks.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Piggy Bank",
+   "source": "EDHREC Ashad High Lift; live Scryfall Oracle",
+   "role": "Two-mana 3/2 artifact fodder that refunds a Treasure on death",
+   "named_cuts": [
+    "Reckless Fireweaver"
+   ],
+   "incumbent_opportunity_cost": "Loses Reckless Fireweaver's 1 damage to each opponent per artifact entering. Ingenious Artillerist, Mayhem Devil and Disciple keep the ping/drain role.",
+   "commander_synergy": "A 3-power body for {1}{R} is ideal casualty fodder. When sacrificed it leaves a Treasure, so the copy partly pays for itself. The Treasure is an artifact entering (Artillerist), a sacrifice (Mayhem Devil), and with Pitiless Plunderer the death gives a second Treasure. It is a nonlegendary artifact spell for Jhoira, Uthros Research Craft, Poetic Ingenuity and Biotransference.",
+   "adversarial_downside": "Can't do anything alone, and a 3/2 dies to every sweeper. Fireweaver's damage would have been more reach in a long KCI turn.",
+   "judgment": "SELECT_ADD",
+   "reason": "Same mana cost as Fireweaver, but Fireweaver is a 1/3 that can't pay casualty; Piggy Bank pays casualty and refunds mana.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Razorlash Transmogrant",
+   "source": "EDHREC Ashad page; live Scryfall Oracle; Commander Spellbook 4050-4871-6429",
+   "role": "Two-mana 3/1 artifact fodder that returns from the graveyard at instant speed",
+   "named_cuts": [
+    "Thoughtcast"
+   ],
+   "incumbent_opportunity_cost": "Loses Thoughtcast (affinity draw two, usually 1-2 mana). Skullclamp, Jhoira, Uthros Research Craft, Thought Monitor, Ichor Wellspring, Mystic Forge and Padeem stay as draw.",
+   "commander_synergy": "Fodder that recurs: {4}{B}{B} returns it with a +1/+1 counter, and the ability costs {4} less when an opponent controls four or more nonbasic lands (normal at this power level), so {B}{B}. It is an activated ability with no timing restriction, so the body comes back for the next turn's or an opponent-turn (Shimmer Myr) casualty. With Pitiless Plunderer + Phyrexian Altar, both already in the deck, Spellbook lists an infinite loop (4050-4871-6429) when the discount applies. Disciple of the Vault and Mayhem Devil turn that loop into a win, and each sacrifice adds a counter to Ashad.",
+   "adversarial_downside": "The discount depends on opponents' land bases. Graveyard exile stops the recursion, it can't block, and the loop needs three pieces plus a payoff. That makes the deck's combo density higher, which must be disclosed for Bracket talk (still not a two-card combo).",
+   "judgment": "SELECT_ADD",
+   "reason": "Repeatable fodder at two mana, plus a disclosed three-card conditional loop made from incumbents. Thoughtcast is the least commander-relevant draw spell.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json"
+   ]
+  },
+  {
+   "card": "Necron Deathmark",
+   "source": "EDHREC Ashad page; live Scryfall Oracle",
+   "role": "Flash 5/3 artifact creature: ETB destroy up to one target creature, target player mills three",
+   "named_cuts": [
+    "Marionette Master"
+   ],
+   "incumbent_opportunity_cost": "Loses Marionette Master, a 6-mana nonartifact creature (Ashad can't copy it without Biotransference). Fabricate 3 gives either 1/1 Servos (can't pay casualty) or a 4/6 body. Its drain equal to its power whenever an artifact dies is a real KCI/Treasure payoff and is the largest loss in the package.",
+   "commander_synergy": "Flash makes it the first nonlegendary artifact spell on an opponent's turn without Shimmer Myr: casualty 2 copies it, so it kills two creatures at instant speed and leaves two power-5 bodies that are themselves fodder. Milling yourself feeds Emry, Goblin Welder, Scrap Trawler and Academy Ruins.",
+   "adversarial_downside": "Five mana. 'Up to one' creature, so no planeswalker or artifact answer beyond creatures. The milled player choice can't hit a combo piece in hand.",
+   "judgment": "SELECT_ADD",
+   "reason": "Adds instant-speed, copyable removal that is also fodder. Marionette Master is the most expensive non-artifact payoff the commander can't amplify.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Royal Warden",
+   "source": "EDHREC Ashad High Lift (top lift); live Scryfall Oracle",
+   "role": "Five-mana artifact Necron that makes two tapped 2/2 artifact Necron tokens; unearth {3}{B}",
+   "named_cuts": [
+    "Thopter Spy Network"
+   ],
+   "incumbent_opportunity_cost": "Loses Thopter Spy Network, a 4-mana enchantment (not an artifact spell) that makes one 1/1 Thopter per upkeep (too small for casualty 2) and draws when artifacts connect. It also loses the Thopter + Skullclamp draw synergy.",
+   "commander_synergy": "Three bodies of power 2+ in one card. A casualty copy is a second Warden: six bodies. Unearth brings it back for another two tokens. Tapped tokens can still be sacrificed. Feeds Ashad counters, Pitiless Plunderer, Esoteric Duplicator (artifact creatures), Mayhem Devil and Disciple.",
+   "adversarial_downside": "Five mana, with sorcery-speed unearth. If the unearthed Warden is sacrificed it is exiled, so it doesn't die for Plunderer, but the sacrifice still counts for Ashad. Tokens are exposed to sweepers.",
+   "judgment": "SELECT_ADD",
+   "reason": "The best fodder factory for a commander that eats a body every turn. Thopter Spy Network's 1/1s don't pay casualty 2 (Pass C already flagged Spy Network as a possible cut).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Cyberman Patrol",
+   "source": "EDHREC Ashad page (top creature); live Scryfall Oracle",
+   "role": "Two-mana 2/2 artifact Cyberman; artifact creatures get afflict 3",
+   "named_cuts": [
+    "Ichor Wellspring"
+   ],
+   "incumbent_opportunity_cost": "Would lose Ichor Wellspring, which draws when it enters and when it dies, can be a sacrifice for KCI or Esoteric Duplicator, and was selected in the 2026-10-13 closeout over Dalek Drone.",
+   "commander_synergy": "Cheap power-2 Cyberman fodder (flavor match) and afflict damage from Warden tokens and copies.",
+   "adversarial_downside": "A 2/2 with no card advantage. Wellspring's copy is two cards on entry and two on death.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "After the five adds, fodder is already 17->21 cards plus Warden tokens. Wellspring's card flow is the better marginal slot. Staged as a six-swap alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Treasure Keeper",
+   "source": "OFF-RANKING search (not on the Ashad EDHREC page); live Scryfall Oracle",
+   "role": "Four-mana 3/3 artifact; when it dies, cascade-style free spell (MV 3 or less)",
+   "named_cuts": [
+    "Auton Soldier"
+   ],
+   "incumbent_opportunity_cost": "Would lose Auton Soldier, the 6-mana Doctor Who clone with myriad that copies the best creature on any board and is copyable by Ashad.",
+   "commander_synergy": "Perfect casualty fodder: sacrificing it gives a free spell, so the copy turn becomes a three-for-one. A copy of Keeper is a second free spell later.",
+   "adversarial_downside": "The free spell is random (could be a rock). It is worse than Auton Soldier's ceiling copying Wurmcoil/Gearhulk/an opposing bomb, and it cuts a Doctor Who identity card.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Lowers the curve and adds fodder, but Auton Soldier's ceiling and identity are worth the six mana. Staged as a six-swap alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Three Steps Ahead",
+   "source": "Pass C comparator (Artificer Class); EDHREC; live Scryfall Oracle",
+   "role": "Spree instant: counter, copy an artifact/creature, loot",
+   "named_cuts": [
+    "Artificer Class"
+   ],
+   "incumbent_opportunity_cost": "Would lose Artificer Class, the Spellbook combo piece (66-457-5491 with Urza + Worldwalker Helm) and the repeatable first-artifact discount.",
+   "commander_synergy": "Copy mode creates an artifact token (Helm Map replacement applies) without fodder. Counter mode protects the engine.",
+   "adversarial_downside": "It is a nonartifact one-shot, so it never uses Ashad's casualty. Cutting Class breaks the deck's only complete Spellbook line.",
+   "judgment": "REJECT",
+   "reason": "Pass C's 'NEEDS TESTING' comparator. Artificer Class is protected core (combo piece + tempo), and Three Steps doesn't use the commander.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Missy",
+   "source": "EDHREC Ashad page; live Scryfall Oracle",
+   "role": "Six-mana legendary: nonartifact creatures that die return as 2/2 Cyberman artifact creatures under your control",
+   "named_cuts": [
+    "Cybermen Squadron"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cybermen Squadron, the 7-mana copyable Cyberman finisher that gives artifact creatures myriad.",
+   "commander_synergy": "Turns Their Name Is Death and Delete into board steals of 2/2 fodder, which is strong Cyberman flavor.",
+   "adversarial_downside": "Legendary, so Ashad can't copy it. It is a nonartifact six-drop, and Missy is its own commander deck in this encyclopedia.",
+   "judgment": "REJECT",
+   "reason": "Anti-homogenization: Missy is a separate encyclopedia commander whose identity is exactly this conversion engine. Squadron stays as the copyable finisher.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Dalek Drone",
+   "source": "Canonical 2026-10-13 Proposed_Final history; EDHREC; live Scryfall Oracle",
+   "role": "Five-mana artifact: flying menace 3/3, ETB destroy a creature and drain 3",
+   "named_cuts": [
+    "Cursed Mirror"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cursed Mirror, a three-mana rock that can become a hasty copy of a creature.",
+   "commander_synergy": "A casualty copy kills two creatures and drains six.",
+   "adversarial_downside": "Sorcery speed. Overlaps with the selected Necron Deathmark, which does the same at instant speed. The closeout already cut it for Ichor Wellspring.",
+   "judgment": "REJECT",
+   "reason": "Necron Deathmark fills the copyable-removal role better (flash). Cutting another rock would take the mana too low.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Skorpekh Lord",
+   "source": "EDHREC Ashad page; live Scryfall Oracle",
+   "role": "Three-mana 3/2 artifact Necron: other artifact creatures get +1/+0 and menace; unearth",
+   "named_cuts": [
+    "Etherium Sculptor"
+   ],
+   "incumbent_opportunity_cost": "Would lose Etherium Sculptor, a 2-mana artifact cost reducer.",
+   "commander_synergy": "+1/+0 lets 1-power artifact creatures (Baleful Strix, Etherium Sculptor, small Construct tokens) pay casualty.",
+   "adversarial_downside": "Skullclamp already covers the power-lift role for one creature at a time and draws cards. Losing a reducer slows the deck.",
+   "judgment": "REJECT",
+   "reason": "Skullclamp covers the enabler role. Sculptor's discount is more valuable early.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Thran Dynamo",
+   "source": "EDHREC Ashad page; live Scryfall Oracle",
+   "role": "Four-mana rock making {C}{C}{C}",
+   "named_cuts": [
+    "Cursed Mirror"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cursed Mirror (colored mana plus a copy mode).",
+   "commander_synergy": "Ramps toward Portal to Phyrexia and Cybermen Squadron, and it is a copyable artifact spell.",
+   "adversarial_downside": "Colorless only, and a four-mana rock competes with the deck's four-drop engines.",
+   "judgment": "REJECT",
+   "reason": "The mana base is not the bottleneck. Fodder density was.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Spire of Industry",
+   "source": "EDHREC Ashad lands; live Scryfall Oracle",
+   "role": "Land: colorless, or any color for 1 life if you control an artifact",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would lose Exotic Orchard, a painless any-color land.",
+   "commander_synergy": "Neutral to the commander; only a mana-fixing swap.",
+   "adversarial_downside": "Life cost for colored mana. Orchard is usually fine in a 4-player pod.",
+   "judgment": "REJECT",
+   "reason": "Marginal land-for-land change with no commander impact. Not worth churn.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Ultron, Artificial Malevolence",
+   "source": "M6 blind input A (Ultron over Disciple/Fellwar); live Scryfall Oracle",
+   "role": "Three-mana legendary 2/4: pay {2} to copy each nontoken artifact entering",
+   "named_cuts": [
+    "Disciple of the Vault"
+   ],
+   "incumbent_opportunity_cost": "Would lose Disciple of the Vault, the 1-mana drain that pays off KCI loops and the new Razorlash loop.",
+   "commander_synergy": "Copy engine overlapping Ashad.",
+   "adversarial_downside": "Each copy costs {2}, and the legendary 2/4 itself can't be copied by Ashad. Losing Disciple removes the cleanest loop payoff.",
+   "judgment": "REJECT",
+   "reason": "Disciple is now a combo payoff (Razorlash loop). Ultron is a mana-hungry redundancy.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Filigree Familiar",
+   "source": "OFF-RANKING search (not on the Ashad EDHREC page); live Scryfall Oracle",
+   "role": "Three-mana 2/2 artifact: gain 2 on ETB, draw on death",
+   "named_cuts": [
+    "Ichor Wellspring"
+   ],
+   "incumbent_opportunity_cost": "Would lose Ichor Wellspring (2 mana, draw on enter and leave).",
+   "commander_synergy": "It is a creature, so it is fodder that replaces itself.",
+   "adversarial_downside": "One mana more, and only one card on entry vs. Wellspring's.",
+   "judgment": "REJECT",
+   "reason": "Close to Wellspring but not clearly better. Patrol is the better fodder-only alternative.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Golos, Tireless Pilgrim",
+   "source": "Live Scryfall legality check (/cards/collection 2026-10-23)",
+   "role": "Five-mana land-fetching artifact creature",
+   "named_cuts": [
+    "Solemn Simulacrum"
+   ],
+   "incumbent_opportunity_cost": "Would lose Solemn Simulacrum, a copyable ramp-and-draw body.",
+   "commander_synergy": "Nothing beyond a copyable artifact body.",
+   "adversarial_downside": "BANNED in Commander; cannot be played at all.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander per live Scryfall legality data.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Bio-Asset Allocator",
+   "source": "Live Scryfall legality check (/cards/collection 2026-10-23)",
+   "role": "Five-mana artifact creature granting drain on attack",
+   "named_cuts": [
+    "Cybermen Squadron"
+   ],
+   "incumbent_opportunity_cost": "Would lose Cybermen Squadron, the copyable finisher.",
+   "commander_synergy": "Artifact creature drain on attack; copyable.",
+   "adversarial_downside": "Not legal in Commander per live Scryfall legality data.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Not Commander-legal (live Scryfall).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Skullclamp",
+   "Piggy Bank",
+   "Razorlash Transmogrant",
+   "Necron Deathmark",
+   "Royal Warden"
+  ],
+  "cuts": [
+   "Fellwar Stone",
+   "Reckless Fireweaver",
+   "Thoughtcast",
+   "Marionette Master",
+   "Thopter Spy Network"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that turn three low-impact incumbents (Fellwar Stone, Reckless Fireweaver, Thoughtcast) into Skullclamp, Piggy Bank and Razorlash Transmogrant, and two non-artifact engines the commander can't copy (Marionette Master, Thopter Spy Network) into copyable artifact fodder and removal (Royal Warden, Necron Deathmark). Costs: one fewer rock (39->38 static sources), no Fireweaver pings, no Marionette drain, no Spy Network card draw, more black pips. Gains: casualty-eligible creatures 17->21 cards plus two Warden tokens, nonlegendary artifacts 37->41, repeatable Skullclamp draw, instant-speed copyable removal, and a disclosed three-card conditional loop from incumbents."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Ninth static rock; makes only colors opponents' lands make.",
+    "alternative_named": "Skullclamp",
+    "reasoning": "39 static sources for avg nonland MV 3.41 is generous; the commander needs fodder and cards, not a ninth rock."
+   },
+   {
+    "card": "Reckless Fireweaver",
+    "weakness": "1/3 nonartifact pinger; can't pay casualty 2.",
+    "alternative_named": "Piggy Bank",
+    "reasoning": "Ingenious Artillerist already does the role better and is itself fodder."
+   },
+   {
+    "card": "Thoughtcast",
+    "weakness": "Sorcery draw two that doesn't interact with the commander.",
+    "alternative_named": "Razorlash Transmogrant",
+    "reasoning": "Card flow is covered by Skullclamp and engines; recursive fodder is scarcer."
+   },
+   {
+    "card": "Marionette Master",
+    "weakness": "6-mana nonartifact; Servos are 1/1 and can't pay casualty.",
+    "alternative_named": "Necron Deathmark",
+    "reasoning": "The most expensive card Ashad can't copy without Biotransference."
+   },
+   {
+    "card": "Thopter Spy Network",
+    "weakness": "4-mana enchantment, not an artifact spell; 1/1 Thopters can't pay casualty 2.",
+    "alternative_named": "Royal Warden",
+    "reasoning": "Pass C already flagged it as a possible cut; Warden's tokens are 2/2 artifact fodder."
+   },
+   {
+    "card": "Ichor Wellspring",
+    "weakness": "Noncreature draw artifact; can't be fodder.",
+    "alternative_named": "Cyberman Patrol",
+    "reasoning": "Retained: two cards per copy and a sacrifice target; Patrol staged as alternative."
+   },
+   {
+    "card": "Auton Soldier",
+    "weakness": "Six-mana clone; target-dependent.",
+    "alternative_named": "Treasure Keeper",
+    "reasoning": "Retained: high ceiling and Doctor Who identity; Keeper staged as alternative."
+   },
+   {
+    "card": "Artificer Class",
+    "weakness": "Slow enchantment, not an artifact spell.",
+    "alternative_named": "Three Steps Ahead",
+    "reasoning": "Retained: complete Spellbook combo piece and repeatable discount."
+   },
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "Seven-mana top end that is slow to deploy.",
+    "alternative_named": "Missy",
+    "reasoning": "Retained: copyable finisher; Missy rejected for homogenization."
+   },
+   {
+    "card": "Cursed Mirror",
+    "weakness": "Three-mana rock with a temporary copy mode.",
+    "alternative_named": "Dalek Drone",
+    "reasoning": "Retained: cutting a second rock leaves mana too thin."
+   },
+   {
+    "card": "Etherium Sculptor",
+    "weakness": "1/2 reducer; can't pay casualty.",
+    "alternative_named": "Skorpekh Lord",
+    "reasoning": "Retained: early discount matters; Skullclamp lifts its power when needed."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Pod-dependent color fixing; may tap for nothing useful.",
+    "alternative_named": "Spire of Industry",
+    "reasoning": "Retained: marginal; no commander impact."
+   },
+   {
+    "card": "Disciple of the Vault",
+    "weakness": "1/1 body that cannot pay casualty 2 on its own.",
+    "alternative_named": "Ultron, Artificial Malevolence",
+    "reasoning": "Retained: drain payoff for KCI and the Razorlash loop."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Treasure Keeper (staged six-swap alternative), Filigree Familiar and Burnished Hart (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Thoughtcast",
+     "Marionette Master",
+     "Thopter Spy Network"
+    ],
+    "result_and_rationale": "Selected five-swap package: fodder + draw + copyable removal."
+   },
+   {
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Disciple of the Vault",
+     "Marionette Master",
+     "Thopter Spy Network"
+    ],
+    "result_and_rationale": "Five-swap alternative keeping Thoughtcast and cutting Disciple; rejected because Disciple is the loop payoff and Thoughtcast is weaker. Staged: data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_five_alt_Razorlash_over_Disciple_20261023.txt"
+   },
+   {
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden",
+     "Cyberman Patrol",
+     "Treasure Keeper"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Thoughtcast",
+     "Marionette Master",
+     "Thopter Spy Network",
+     "Ichor Wellspring",
+     "Auton Soldier"
+    ],
+    "result_and_rationale": "Seven-swap maximum-fodder package; rejected for losing Wellspring card flow and Auton Soldier's ceiling/identity. Staged: data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_seven_Patrol_TreasureKeeper_20261023.txt"
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Razorlash was also tested over Disciple of the Vault (staged five-swap alternative). Pass C's Three Steps Ahead over Artificer Class comparator is rejected because Class is a complete Spellbook combo piece.",
+  "strongest_argument_against_baseline": "The commander copies one artifact spell per turn only if a power-2+ creature is already on board, yet ten creatures and the Spy Network tokens have power 1, and nine rocks plus a sorcery draw spell occupy slots that could be bodies.",
+  "evidence_based_answer": "Trade the ninth rock, a 1/3 pinger, a sorcery draw spell and two engines Ashad can't copy for four casualty-eligible artifacts (one recursive, one a token factory, one instant removal) plus Skullclamp."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman.txt",
+  "sha256": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
+  "card_count": 100,
+  "deckwide_reconciliation": "Exact copy of the canonical source order with five in-place substitutions; 30 lands, 8 rocks, 100 physical cards verified by quantity (95 rows; Island x3, Mountain x2, Swamp x3)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Ashad__the_Lone_Cyberman_M7_20261023.md",
+   "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Artifact Copy",
+   "Casualty Aristocrats",
+   "Artifact Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five swaps, every remaining incumbent was re-read against the commander. Mana: 30 lands + 8 rocks is the floor; no further rock or land cut. Draw: Ichor Wellspring, Thought Monitor, Jhoira, Uthros Research Craft, Mystic Forge and Padeem stay. Top end: Auton Soldier, Cybermen Squadron, Portal, Wurmcoil, Gearhulk, Cyberdrive Awakener and Kappa are copy targets worth the mana. Utility 1-power creatures (Emry, Welder, Urza, Plunderer, Disciple) are engines or combo pieces, not fodder slots.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Ichor Wellspring",
+    "challenger": "Cyberman Patrol",
+    "tradeoff": "Patrol is a 2-mana Cyberman body for casualty; Wellspring is two cards per copy and a KCI/Duplicator sacrifice. With fodder already 17->21, card flow wins. Staged six-swap.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Auton Soldier",
+    "challenger": "Treasure Keeper",
+    "tradeoff": "Keeper is cheaper fodder that pays out a free spell; Auton's copyable clone has a higher ceiling and is Doctor Who identity. Kept Auton; staged six-swap.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Artificer Class",
+    "challenger": "Three Steps Ahead",
+    "tradeoff": "Three Steps is flexible but never uses casualty; Class is a complete Spellbook combo piece and a repeatable discount. Kept Class.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Cybermen Squadron",
+    "challenger": "Missy",
+    "tradeoff": "Missy turns sweepers into fodder but is legendary (uncopyable) and is its own encyclopedia commander; Squadron is the copyable finisher. Kept Squadron.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_CybermanPatrol_over_IchorWellspring_20261023.txt",
+    "sha256": "ea105a15625cfdb68933cd6cc72f3411ee0bff721efe1231e7b95d233542376e",
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden",
+     "Cyberman Patrol"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Thoughtcast",
+     "Marionette Master",
+     "Thopter Spy Network",
+     "Ichor Wellspring"
+    ],
+    "case_for_extra_swaps": "A sixth cheap power-2 Cyberman body maximizes turn-two/three casualty readiness and adds afflict pressure from tokens.",
+    "why_not_selected": "Wellspring's copy draws two on entry and two on death and feeds KCI/Esoteric Duplicator; after the five adds, more fodder has lower marginal value than card flow."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_TreasureKeeper_over_AutonSoldier_20261023.txt",
+    "sha256": "5cf5ec8a0b61819d5729a9f90a79687be515923af773a280da00ed7e98b5e537",
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden",
+     "Treasure Keeper"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Thoughtcast",
+     "Marionette Master",
+     "Thopter Spy Network",
+     "Auton Soldier"
+    ],
+    "case_for_extra_swaps": "Treasure Keeper lowers the curve and turns each casualty payment into a free spell, an off-ranked find.",
+    "why_not_selected": "Auton Soldier copies the best creature on any board, is copyable by Ashad, and is a Doctor Who identity card; Keeper's free spell is random and often a rock."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_seven_Patrol_TreasureKeeper_20261023.txt",
+    "sha256": "fd6728e355a540947218000a71b7afb25a6cc75349f070e7fd9df50b11f616a9",
+    "adds": [
+     "Skullclamp",
+     "Piggy Bank",
+     "Razorlash Transmogrant",
+     "Necron Deathmark",
+     "Royal Warden",
+     "Cyberman Patrol",
+     "Treasure Keeper"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Reckless Fireweaver",
+     "Thoughtcast",
+     "Marionette Master",
+     "Thopter Spy Network",
+     "Ichor Wellspring",
+     "Auton Soldier"
+    ],
+    "case_for_extra_swaps": "Maximum-fodder seven-swap: 23 casualty-eligible cards and a lower curve.",
+    "why_not_selected": "It combines both rejected trades: it loses Wellspring's card flow and Auton's ceiling and identity for marginal extra bodies the deck no longer lacks."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five because the remaining weak-looking slots (Wellspring, Auton Soldier, Class, Squadron, Cursed Mirror, Sculptor, Orchard, Disciple) each have a named, concrete role a challenger loses: card flow, ceiling, a combo piece, the finisher, mana floor, early discount or loop payoff. No sixth trade was a clear upgrade on quality, not count."
+ }
+}
