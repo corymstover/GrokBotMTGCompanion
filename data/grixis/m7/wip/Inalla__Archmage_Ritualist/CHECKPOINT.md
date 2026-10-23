@@ -19,3 +19,7 @@
 - Pass C bounded tests run (exact hypergeometric castability, tutor reach, combo delta, Trainer hit rate).
 - Interim result: 0 genuine admissible swaps; strongest change (+Dualcaster Mage -Kefka, +2 two-card combos) re-adds an owner-removed card -> staged OWNER_DECISION. Expected outcome RESEARCH_ONLY.
 - Next: snapshots, tested pool, decision review, memos, tests, workflow, full suite.
+
+## Checkpoint 2026-10-23 13:20:05 CDT (clock)
+- Oracle snapshot, tested pool (9 configurations), rules snapshot, decision review (0 swaps, RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE; gate --check --check-sources passes).
+- Next: memos, certificate, bundle, tests, workflow, full suite.
