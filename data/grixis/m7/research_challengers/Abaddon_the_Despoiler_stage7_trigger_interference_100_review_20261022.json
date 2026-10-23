@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_REOPEN_STAGE7_PROTECTED_CASCADE_TRIGGER_INTERFERENCE",
+  "date": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "owner_ready": false,
+  "new_owner_approval": false,
+  "formal_m6_10_accepted": false,
+  "deck3_on_hold": true,
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "status": "APPROVED_LOCKED_UNMODIFIED",
+    "change_authority": false
+  },
+  "prior_evidence": {
+    "stage4": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_qualitative_100_comparison_20261022.json",
+    "stage5": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage5_harmonic_payable_review_20261022.json",
+    "stage6": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage6_mana_value_cascade_disposition_20261022.md",
+    "material_judgments": 30,
+    "credible_incumbent_challenges": 10,
+    "source_bound_candidate_oracle_snapshots": [
+      "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+      "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json"
+    ],
+    "canonical_oracle_snapshot": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+  },
+  "structural_comparison": {
+    "baseline": {
+      "physical_cards": 100,
+      "lands": 34,
+      "basic_island": 3,
+      "basic_mountain": 3,
+      "basic_swamp": 3
+    },
+    "both_stage7": {
+      "physical_cards": 100,
+      "lands": 34,
+      "basic_island": 3,
+      "basic_mountain": 2,
+      "basic_swamp": 3,
+      "all_only_basic_duplicates": true,
+      "commander": "Abaddon the Despoiler",
+      "no_off_identity_new_cards": true
+    },
+    "commander_protected": "Abaddon casts from hand on own turn get cascade only if opponents' prior aggregate life loss X meets spell's printed mana value; exiled spells continue Warhammer and other nonhand engines.",
+    "tier": "Bracket 4 — Optimized; pending revised exact-candidate re-verification"
+  },
+  "full_100_alternatives": [
+    {
+      "id": "protected_exact_one_five",
+      "status": "RESEARCH_ONLY",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage7_protected_exact_one_five_20261022.txt",
+      "sha256": "c9944225d7d92d24e24441f32e8fa7bc25514f8e9faec14e368d06321394945b",
+      "adds": [
+        "Ob Nixilis, Captive Kingpin",
+        "Harmonic Prodigy",
+        "Ghyrson Starn, Kelermorph",
+        "Kederekt Parasite",
+        "Mount Doom"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Nightscape Familiar",
+        "Bloodletter of Aclazotz",
+        "Solphim, Mayhem Dominus",
+        "Mountain"
+      ],
+      "swaps": 5,
+      "physical_cards": 100,
+      "lands": 34,
+      "protected": [
+        "Call Forth the Tempest",
+        "Pyroblast",
+        "Pact of Negation",
+        "Loyal Subordinate",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze",
+        "Neheb, the Eternal",
+        "Aggravated Assault"
+      ],
+      "strategic_intent": "Trades two broad opponent-life-loss multipliers for Ob/Ghyrson/Harmonic's exact-one incremental engine and Kederekt wheel-scale triggers without deleting counterspells or printed double cascade.",
+      "decisive_risk": "Loses both Bloodletter and Solphim's robust immediate scaling and Ruinous Powers Warhammer theft; engine is vulnerable to removal and delayed cast sequencing, Mount Doom costs life."
+    },
+    {
+      "id": "aggressive_pinger_burn_seven",
+      "status": "RESEARCH_ONLY",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage7_aggressive_pinger_burn_seven_20261022.txt",
+      "sha256": "e7db63267458aed2a694498c52514f7537681e5d07a5eecc945e30c4c5c8ff67",
+      "adds": [
+        "Ob Nixilis, Captive Kingpin",
+        "Harmonic Prodigy",
+        "Ghyrson Starn, Kelermorph",
+        "Kederekt Parasite",
+        "Mount Doom",
+        "Spear Spewer",
+        "Fiery Confluence"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Nightscape Familiar",
+        "Bloodletter of Aclazotz",
+        "Solphim, Mayhem Dominus",
+        "Mountain",
+        "Loyal Subordinate",
+        "Pyroblast"
+      ],
+      "swaps": 7,
+      "physical_cards": 100,
+      "lands": 34,
+      "protected": [
+        "Call Forth the Tempest",
+        "Pact of Negation",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze",
+        "Neheb, the Eternal",
+        "Aggravated Assault"
+      ],
+      "strategic_intent": "Tests extending the five-swap exact-one engine with Spear's one-mana repeatable pings and Fiery Confluence's two-to-each/versatile artifacts while retaining Call Forth's two printed cascades.",
+      "decisive_risk": "Loses Loyal Subordinate's guaranteed commander-on-combat X9 and Pyroblast's one-mana anti-blue stack/permanent answer, also Spear is summoning-sick and Ghyrson punishes own life total; may be worse despite seven swaps."
+    }
+  ],
+  "critical_nonadditive_oracle_finding": {
+    "source_rule": "Wizards 2026 Comprehensive Rules 120.3a and 120.4b/c: damage dealt and resulting player life loss are distinct events/values.",
+    "source_rules_url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf",
+    "source_card_names": [
+      "Bloodletter of Aclazotz",
+      "Solphim, Mayhem Dominus",
+      "Ghyrson Starn, Kelermorph",
+      "Ob Nixilis, Captive Kingpin",
+      "Harmonic Prodigy",
+      "Kessig Flamebreather"
+    ],
+    "findings": [
+      "Ob Nixilis triggers on exactly ONE life lost by one-or-more opponents in an event. A Kessig single simultaneous one-to-each-opponent ping creates one Ob trigger, not three.",
+      "Solphim replaces one source damage with TWO damage before that event is dealt; such Kessig or Spear events cause no Ghyrson exactly-one-damage trigger and no Ob exactly-one-life-loss trigger absent other replacement/context.",
+      "Bloodletter instead replaces resulting opponent LIFE LOSS, not the underlying amount of DAMAGE dealt. An original one-damage Kessig event still triggers Ghyrson, but its opponent life loss becomes two, suppressing Ob. Ghyrson's later two-damage event can result in four life loss with Bloodletter.",
+      "Harmonic doubles Kessig/Thermo/Vivi/Storm-Kiln Shaman/Wizard triggered abilities, not Abaddon's static cascade grant, not the self damage of non-Shaman Spear Spewer, and not Kederekt (Horror).",
+      "With four players and ready Kessig+Harmonic+Ghyrson+Ob but NO doublers, one noncreature cast makes two separate Kessig one-to-each damage events and six Ghyrson followup two-damage events: three opponents lose 18 aggregate life, Ob triggers TWICE, and the initiating hand-cast spell never retroactively gains Abaddon cascade.",
+      "With both Solphim and Bloodletter absent, Kederekt while controlling a red permanent and a Wheel/Windfall opponent seven-draw event makes one damage event per actual opponent card draw, creating 21 potential Ob triggers across three opponents; triggers resolve after the wheel, not before its original Abaddon cascade check.",
+      "Spear Spewer's original one-to-EACH-player event plus Ghyrson followups causes its controller to lose 3 life too (one Spear damage plus 2 Ghyrson damage), while opponents lose 3 each. Spear must be able to activate {T}; no automatic summoning-sick immediate ping."
+    ]
+  },
+  "opportunity_costs": [
+    {
+      "cut": "The Ruinous Powers",
+      "cost": "Unique Warhammer opponent-card theft with owner's life loss on cast, meaningful nonhand reward; replacing with Ob is not free and may erase flavor."
+    },
+    {
+      "cut": "Nightscape Familiar",
+      "cost": "One generic discount on blue and red spells, including UBR Abaddon and many spells, reducing commander tax and early storm mana friction."
+    },
+    {
+      "cut": "Bloodletter of Aclazotz",
+      "cost": "Doubles ALL opponents' life loss on own turn including no-damage life-loss; B B B pip tension but huge threshold and finisher value."
+    },
+    {
+      "cut": "Solphim, Mayhem Dominus",
+      "cost": "Doubles all noncombat controlled-source damage to opponents and their permanents, instant independent threshold amplification and indestructibility access."
+    },
+    {
+      "cut": "Mountain",
+      "cost": "Damage-free basic red/fetch resilience versus Mount Doom which costs one life per colored tap and 3 mana plus tap for X3 opponent loss."
+    },
+    {
+      "cut": "Loyal Subordinate",
+      "cost": "Reliable commander-present start-of-combat three-to-each life loss X9, no extra mana after initial 3 MV deployment; later second main cascades."
+    },
+    {
+      "cut": "Pyroblast",
+      "cost": "One-R blue stack or blue permanent counter/answer and flexibility; aggressive seven-swap loses a critical shield against control."
+    }
+  ],
+  "conditional_judgments": [
+    {
+      "card": "Harmonic Prodigy",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Four sourced live Shaman/Wizard engines and one mana-free cascade synergy; requires them alive, losing Nightscape's broad discount."
+    },
+    {
+      "card": "Ghyrson Starn, Kelermorph",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "On-theme Warhammer ping multiplier with ward; anti-synergy with Solphim damage-doubling prevents exactly-one trigger."
+    },
+    {
+      "card": "Ob Nixilis, Captive Kingpin",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Reliable exiled playable-card draw with individual exact-one ping triggers; Bloodletter and Solphim suppress that trigger, forcing expensive package tradeoffs."
+    },
+    {
+      "card": "Kederekt Parasite",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "B one-mana red-permanent-powered wheel engine enabling Ob and a post-wheel X; highly vulnerable 1-toughness body, sometimes unenabled."
+    },
+    {
+      "card": "Mount Doom",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Tapped-mana BR fixer plus repeatable own-turn X3 at {1}{B}{R} plus tap, but costs life and loses fetchable Mountain basic."
+    },
+    {
+      "card": "Spear Spewer",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Cheap repeatable X3 group loss but summoning sickness and Ghyrson X3 controller life loss make self-race real."
+    },
+    {
+      "card": "Fiery Confluence",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Four mana 6-to-each or flexible artifact removal, credible when losing stack protection but cannot replace Call Forth printed double cascade."
+    },
+    {
+      "card": "Call Forth the Tempest",
+      "disposition": "SELECT_ADD",
+      "reason": "Retain incumbent: MV8 printed double cascade, MV9 Blasphemous Act can cascade into it; Blood MV11 cannot be hit by current cascade sources."
+    },
+    {
+      "card": "Pyroblast",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Do not cut by count; protect with it in protected five option, adversarial removal only in seven option."
+    }
+  ],
+  "finite_scenarios": [
+    {
+      "id": "uninterrupted_four_player_pinger",
+      "phase": "own main after permanent setup",
+      "summary": "Dual Kessig triggers yield total X18 with Ghyrson, two Ob triggers, after starting spell cast; requires four bodies including Abaddon if cascading."
+    },
+    {
+      "id": "postwipe_no_engine",
+      "phase": "after opposing board sweep",
+      "summary": "Approved Bloodletter/Solphim give independently useful amplification when redrawn; proposed exact-one package needs rebuild, Ghyrson/Ob alone can be blank."
+    },
+    {
+      "id": "blue_opponent_response",
+      "phase": "instant-speed counter on protected turn",
+      "summary": "Seven-swap option cannot Pyroblast a blue counter/permanent; all remaining answers require their actual own costs, cards, targets and stack timing."
+    },
+    {
+      "id": "turn_cycle_commander_recast",
+      "phase": "Abaddon removed once or twice",
+      "summary": "Deleting Nightscape's generic discount raises actual pay by {1} whenever it would have applied, including initial UBR and commander-tax recasts."
+    },
+    {
+      "id": "wheel_from_hand_timing",
+      "phase": "trigger window after Windfall or Wheel resolves",
+      "summary": "Opponent draw pings and Ob exiles improve following spells, never retroactively affect wheel's own cascade check."
+    },
+    {
+      "id": "life_race_pain",
+      "phase": "repeated Ghyrson/Spear taps",
+      "summary": "Self damage three per Spear activation can be lethal at low life; Mount Doom colored taps lose further life."
+    }
+  ],
+  "governance": {
+    "minimum_five_is_eligibility_not_optimization_goal": true,
+    "unbounded_search": true,
+    "not_proven_local_best": true,
+    "these_two_100s_are_adversarial_research_not_owner_ready": true,
+    "not_approved_sha_change": true,
+    "research_outcome": "MULTIPLIERS_VS_EXACT_ONE_ENGINE_TRADEOFF_UNRESOLVED",
+    "next": [
+      "Resolve with finite source-paid adversarial comparison rather than false win-rate model; favor package only if cuts net improve genuine commander performance, not because 5/7 swaps.",
+      "If neither protected five nor aggressive seven dominates, challenge alternative cuts without weakening Call Forth or critical protection; preserve original source if upgrades fail.",
+      "Rebind exact complete 100 source Oracle/legality and changed-packet M6 P0 and I/J scopes; update certificate only upon executed verification, run exact PR-head CI.",
+      "Do not ask Cory to approve unless strongest alternative exceeds owner minimum honestly and M6/legality all pass."
+    ]
+  }
+}
