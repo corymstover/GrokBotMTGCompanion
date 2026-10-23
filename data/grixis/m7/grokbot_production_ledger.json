@@ -28,7 +28,7 @@
    "current_candidate_sha": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
    "branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
    "working_branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
-   "last_pushed_commit": "f9c6d47ceb945e0556f6bbe400a39337c317ec00",
+   "last_pushed_commit": "f9b9e8940a065f5a5a1d9512345c9c51bd43046e",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/652 (draft)",
    "swap_count": 5,
    "ci_runs": [],
@@ -41,13 +41,14 @@
     "baseline_provenance",
     "shared_gate_infra_copy_from_651",
     "discovery_edhrec_scryfall",
-    "candidate_judgments_and_decision_packet"
+    "candidate_judgments_and_decision_packet",
+    "IJ_BUNDLE_COMPLETE"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Write tests, rules snapshot, I/J, memos, CI workflow",
-   "next_step": "Write tests, rules snapshot, I/J, memos, CI workflow"
+   "next_action": "adversarial packet, full suite, ready PR",
+   "next_step": "adversarial packet, full suite, ready PR"
   },
   {
    "tracker_number": 5,
