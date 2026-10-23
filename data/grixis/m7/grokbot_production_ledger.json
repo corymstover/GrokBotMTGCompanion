@@ -499,13 +499,15 @@
     [
      "research_snapshots",
      "draft_candidate"
-    ]
+    ],
+    "decision packet + mechanics tests (gate pass) 2026-10-23 07:28 CDT"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660",
-   "next_step": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660"
+   "next_step": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660",
+   "last_checkpoint_commit": "fd0446ac0ef7e240af6af6c350256a3153f05c53"
   },
   {
    "tracker_number": 13,
