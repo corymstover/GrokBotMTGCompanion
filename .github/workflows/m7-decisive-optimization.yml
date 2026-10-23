@@ -96,6 +96,9 @@ on:
       - tests/test_m7_abaddon_stage7_trigger_interference_100.py
       - tests/test_m7_abaddon_stage8_ignus_birgi_impact_paid.py
       - tests/test_m7_abaddon_stage9_veyran_permanent_triggers.py
+      - tests/test_m7_abaddon_stage10_familiar_resource_discipline.py
+      - tests/test_m7_abaddon_stage11_shrine_token_timing.py
+      - tests/test_m7_abaddon_stage12_openended_portfolios.py
       - tests/test_m7_abaddon_oracle_erratum_v2.py
       - tests/test_m6_abaddon_lost_keeper_effect.py
       - data/grixis/m6/phase_b_plans/abaddon_lost_keeper_effect_20261022.json
@@ -300,6 +303,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage10_familiar_resource_discipline.py' -v
       - name: Verify Abaddon stage11 precombat Shrine, token-timing, and complete research 100s
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage11_shrine_token_timing.py' -v
+      - name: Verify Abaddon stage12 unbounded five/six strategic packages remain source-bound research only
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage12_openended_portfolios.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
