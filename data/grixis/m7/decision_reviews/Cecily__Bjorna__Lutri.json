@@ -217,7 +217,7 @@
    "commander_synergy": "Bjorna costs two and is usually on the battlefield, so Swat is free. It protects Cecily or a combo piece from targeted removal while the deck taps out for big spells.",
    "adversarial_downside": "Does nothing against wraths or counterspells that do not target, and it needs a commander on the battlefield to be free.",
    "judgment": "SELECT_ADD",
-   "reason": "The deck had only two counterspells and Fierce Guardianship as free protection. Swat protects the attack turn at no mana cost.",
+   "reason": "The deck had only two counterspells (Counterspell and Fierce Guardianship) as stack protection. Swat protects the attack turn at no mana cost.",
    "confidence": "HIGH",
    "evidence_refs": [
     "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
@@ -273,7 +273,7 @@
    ],
    "incumbent_opportunity_cost": "Loses Lightning Greaves' haste and shroud. Greaves can protect Cecily on the turn she comes down.",
    "commander_synergy": "A third trigger copier for Cecily, and an artifact Bjorna can sacrifice.",
-   "adversarial_downside": "Slower than Resonator and adds no protection. Removing Greaves exposes Cecily on the turn she is cast.",
+   "adversarial_downside": "Same {2},{T} cost as Resonator but only three film counters, and it adds no protection. Removing Greaves exposes Cecily on the turn she is cast.",
    "judgment": "RETAIN_ALTERNATIVE",
    "reason": "Staged as a seven-swap package. Three copiers is overkill, and Greaves' haste is the cheaper way to attack immediately with Cecily.",
    "confidence": "MODERATE",

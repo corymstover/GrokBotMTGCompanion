@@ -1,0 +1,80 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 2 commanders + 98 library; 1x Lutri, the Spellchaser [Companion] outside the 100 (project exception, never officially legal, never applied elsewhere)",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 7,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Cecily__Bjorna__Lutri_approved_source_2026-10-13.txt",
+   "raw_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+   "logical_hash": "lh1:f1a44d6b85d2d182f006d8535be14d78e4ab1ee88f85c3e122e723bdcf77dac5",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Approved raw 100 unchanged and the byte anchor (no companion line; logical hash = registry baseline_hash). 33 lands, 9 rocks, avg nonland MV 3.338, pips U/B/R 36/21/29. Commander Spellbook: 1368-1878-2706, 1561-2384, 1561-5042. Registry recorded digest equals the raw bytes (no provenance exception)."
+  },
+  {
+   "id": "CANONICAL_WITH_COMPANION",
+   "path": "exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt",
+   "raw_sha256": "745885c96c41ba3b00c4e7bab3fe677c333cfb225927ea914ecc3212a9a0d871",
+   "logical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project list = the same 100 plus 1 Lutri, the Spellchaser [Companion] outside the 100 (documented project exception). Logical hash = registry current_canonical_hash = sealed A/B list hash."
+  },
+  {
+   "id": "PREFERRED_SIX",
+   "path": "data/grixis/m7/candidate_lists/Cecily__Bjorna__Lutri.txt",
+   "raw_sha256": "2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717",
+   "logical_hash": "lh1:514596aaf599116e15083596021e97a0dc24b1c03b2b51f341ed6f927576e5e3",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Strionic Resonator +Echo, Perceptive Prodigy +Twenty-Toed Toad +Sea Gate Restoration // Sea Gate, Reborn +Deflecting Swat +Mana Drain / -Emry, Lurker of the Loch -Goblin Engineer -Sai, Master Thopterist -Dark Deal -Mana Geyser -Seething Song. 33 lands + Sea Gate MDFC, 9 rocks, avg nonland MV 3.369, pips 41/20/26. Adds Spellbook 1561-5850 (Toad + Peer, win the game). Losses: artifact recursion/value creatures, Dark Deal, two rituals."
+  },
+  {
+   "id": "FIVE_FLOOR_WITHOUT_MANA_DRAIN",
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_five_floor_without_ManaDrain_20261023.txt",
+   "raw_sha256": "012005644873f20dbff804a12ee82a05ea46e74d65562534f5d7964fe07b0ddf",
+   "logical_hash": "lh1:843df41842637693ffe5c7eedb18991db96a7c2edc08e1a67e3bb4801e901aa4",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "REJECT (five-swap floor, staged). First five swaps, Seething Song kept. Song's five-mana burst is one-shot; Mana Drain protects the Cecily attack turn and its delayed mana pays for Lutri or post-combat spells. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_RESONATOR_OVER_WAKE",
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_six_PassC_Resonator_over_InGarruksWake_20261023.txt",
+   "raw_sha256": "6f71ef4a44d030632c6208ae053fe83a8271580f341f5f4fe4ca5ae447d56a57",
+   "logical_hash": "lh1:51b19832392809fa69a62eab50581469d4056491a92d078a4ec2687b6e86fd7b",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "REJECT (six-swap, staged). Pass C's exact challenger (Resonator over In Garruk's Wake) with the other five swaps; Emry kept. Pass C itself defended Wake as a top free-cast payoff; cutting Emry keeps the one-sided wipe. HIGH confidence."
+  },
+  {
+   "id": "SEVEN_ENTER_THE_INFINITE",
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_EnterTheInfinite_over_WheelOfMisfortune_20261023.txt",
+   "raw_sha256": "be85743d8c09a60742a92c79f3994d7c4517d2233bc356a78cc37e268953dda8",
+   "logical_hash": "lh1:8937f9bd3a6db2f21f6d88b43c0080505ade7aba24500d5568a40fe18618cedd",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "RETAIN_ALTERNATIVE (seven-swap, staged, not selected). Preferred six + Enter the Infinite over Wheel of Misfortune. A free-cast library draw, but uncastable by hand and Peer + Toad already covers the job. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_PETER_PARKERS_CAMERA",
+   "path": "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_seven_PeterParkersCamera_over_LightningGreaves_20261023.txt",
+   "raw_sha256": "78f88f7424dcf942c2c6cbd7ee4439bfbe34208c260cf843873f2958f327cf6e",
+   "logical_hash": "lh1:9f05b2b798db91f17761968a49db392db2d8188c4de7c892d7c4291a753c4c6c",
+   "physical_cards": 100,
+   "companion_outside_100": "Lutri, the Spellchaser",
+   "judgment": "RETAIN_ALTERNATIVE (seven-swap, staged, not selected). Preferred six + Peter Parker's Camera over Lightning Greaves. A third trigger copier is overkill and Greaves' haste lets Cecily attack the turn she lands. MODERATE confidence."
+  }
+ ]
+}

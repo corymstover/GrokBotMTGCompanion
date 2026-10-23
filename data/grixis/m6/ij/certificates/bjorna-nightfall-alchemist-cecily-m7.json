@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Cecily__Bjorna__Lutri",
+  "slug": "bjorna-nightfall-alchemist-cecily",
+  "generated_at": "2026-10-23T15:00:00-05:00",
+  "list_hash": "lh1:514596aaf599116e15083596021e97a0dc24b1c03b2b51f341ed6f927576e5e3",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Cecily__Bjorna__Lutri_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:e5bdaadd55b25fe216950bec49d11659b966668cb110b55603df1c7c27cdef76",
+    "tested_pool_size": 7
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_bjorna_nightfall_alchemist_cecily_m7_mechanics.py",
+      "tests/test_m7_bjorna_nightfall_alchemist_cecily_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_bjorna_nightfall_alchemist_cecily_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Cecily__Bjorna__Lutri_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Cecily__Bjorna__Lutri_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cecily__Bjorna__Lutri_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cecily__Bjorna__Lutri_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Cecily__Bjorna__Lutri_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Cecily__Bjorna__Lutri.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 7 complete configurations in the pool (raw baseline, canonical export with the Lutri companion outside the 100, preferred six, five-swap floor without Mana Drain, Pass C's Resonator-over-Wake six-swap, and two seven-swap alternatives) plus named single-card contenders. They were judged with finite current-Oracle rules cases, Commander Spellbook combo lookups and a quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-bjorna-nightfall-alchemist-cecily.yml; run URLs are recorded in the PR body. There is no statistical multiplayer ranking. The A/B seals and the owner-equivalent Pass C are historical, baseline-scoped and not technically independent. Lutri as companion, Trade Secrets and Yawgmoth's Bargain remain project exceptions for this deck only. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}
