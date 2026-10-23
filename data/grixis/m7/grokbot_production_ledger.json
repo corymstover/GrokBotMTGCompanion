@@ -372,20 +372,25 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
+   "working_branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
+   "last_pushed_commit": "fe66bcfb484dd8a220574933f329a32116bebe86",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/658",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance (canonical 9b26aa2; raw a59150c3 == overrides == registry; 100 physical / 92 rows; tracker note 'only change Regalia->Blizzard' stale: list contains both); draft PR #658"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "research: live Scryfall, EDHREC, Spellbook, candidate judgments",
+   "next_step": "research",
+   "head_commit": "fe66bcfb484dd8a220574933f329a32116bebe86",
+   "last_checkpoint_at": "2026-10-23T06:28:06-05:00",
+   "last_checkpoint": "2026-10-23 06:28 CDT baseline + draft PR"
   },
   {
    "tracker_number": 11,
