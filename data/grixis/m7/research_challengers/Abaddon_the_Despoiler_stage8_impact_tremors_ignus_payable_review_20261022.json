@@ -46,134 +46,134 @@
       "Abaddon X can become ≥3 after a Tremors hit and grant subsequent Ignus FROM HAND casts cascade. Those cascade triggers are optional to CAST exiled hits, not an instruction that Ignus itself must be cast from exile. They may change stack/resource state; do not assume any free interaction immunity.",
       "Impact Tremors also triggers on each 3/3 Spawn TOKEN entering from The Lost and the Damned after qualifying nonhand cast, and additional Nalfeshnee copied creature permanent spell token ETBs.",
       "Opponent removal of Birgi/Ignus/Tremors, Rule of Law, Drannith affecting cascade, ability denial, and damage-prevention change the result; the fixture proves a legal uncontested cycle, not full game probability."
-    ],
-    "baseline_impact_assault_competition": {
-      "add": "Impact Tremors",
-      "cut": "Aggravated Assault",
-      "pros": "Direct per-ETB 2-mana payoff; closes existing Birgi+Ignus 3-card repeat line and token creation triggers, works without entering combat.",
-      "cons": "Deletes existing Neheb the Eternal + Aggravated Assault postcombat paid {3}{R}{R} extra-combat engine, threatening commander-specific secondary win path and possible attacks through shields."
+    ]
+  },
+  "baseline_impact_assault_competition": {
+    "add": "Impact Tremors",
+    "cut": "Aggravated Assault",
+    "pros": "Direct per-ETB 2-mana payoff; closes existing Birgi+Ignus 3-card repeat line and token creation triggers, works without entering combat.",
+    "cons": "Deletes existing Neheb the Eternal + Aggravated Assault postcombat paid {3}{R}{R} extra-combat engine, threatening commander-specific secondary win path and possible attacks through shields."
+  },
+  "baseline_impact_ruinous_competition": {
+    "add": "Impact Tremors",
+    "cut": "The Ruinous Powers",
+    "pros": "Two-mana reliable controlled own-library independent ETB pings versus four-mana randomized opponent-library one-card per upkeep theft.",
+    "cons": "Removes unique 40K flavor, opposing-card theft, flexibility spend mana as any color on stolen spells, and life-loss to the spell's owner on casting; harms encyclopedia personality."
+  },
+  "complete_100_research_variants": [
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_assault_cut_research_20261022.txt",
+      "sha256": "98451755ed971435ddeeedc9bf44d7f1228a07ad926df97c12d0bff9358c132b",
+      "physical_cards": 100,
+      "adds": [
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Aggravated Assault"
+      ],
+      "swaps": 1,
+      "status": "RESEARCH_ONLY",
+      "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
     },
-    "baseline_impact_ruinous_competition": {
-      "add": "Impact Tremors",
-      "cut": "The Ruinous Powers",
-      "pros": "Two-mana reliable controlled own-library independent ETB pings versus four-mana randomized opponent-library one-card per upkeep theft.",
-      "cons": "Removes unique 40K flavor, opposing-card theft, flexibility spend mana as any color on stolen spells, and life-loss to the spell's owner on casting; harms encyclopedia personality."
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_ruinous_cut_research_20261022.txt",
+      "sha256": "6dd51ba7ef430e4cc93919af730628f924a6967bf3d081b4dff34cc93f56aa85",
+      "physical_cards": 100,
+      "adds": [
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "The Ruinous Powers"
+      ],
+      "swaps": 1,
+      "status": "RESEARCH_ONLY",
+      "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
     },
-    "complete_100_research_variants": [
-      {
-        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_assault_cut_research_20261022.txt",
-        "sha256": "98451755ed971435ddeeedc9bf44d7f1228a07ad926df97c12d0bff9358c132b",
-        "physical_cards": 100,
-        "adds": [
-          "Impact Tremors"
-        ],
-        "cuts": [
-          "Aggravated Assault"
-        ],
-        "swaps": 1,
-        "status": "RESEARCH_ONLY",
-        "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
-      },
-      {
-        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_impact_tremors_ruinous_cut_research_20261022.txt",
-        "sha256": "6dd51ba7ef430e4cc93919af730628f924a6967bf3d081b4dff34cc93f56aa85",
-        "physical_cards": 100,
-        "adds": [
-          "Impact Tremors"
-        ],
-        "cuts": [
-          "The Ruinous Powers"
-        ],
-        "swaps": 1,
-        "status": "RESEARCH_ONLY",
-        "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
-      },
-      {
-        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_early_threshold_combo_three_research_20261022.txt",
-        "sha256": "775ff763860d8940bd252dd46c9e9dc19d94100dc48c5bdb0095193d8e12919e",
-        "physical_cards": 100,
-        "adds": [
-          "Impact Tremors",
-          "Sanctum of Stone Fangs",
-          "Creeping Bloodsucker"
-        ],
-        "cuts": [
-          "Aggravated Assault",
-          "The Ruinous Powers",
-          "Nightscape Familiar"
-        ],
-        "swaps": 3,
-        "status": "RESEARCH_ONLY",
-        "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
-      }
-    ],
-    "nine_source_judgments": [
-      {
-        "card": "Impact Tremors",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "Two mana, deterministic Birgi+Ignus own-main cast/ETB finisher and Spawn synergy; needs one substantive cut and counter-interaction risk; no proven winner vs protected canonical."
-      },
-      {
-        "card": "Sanctum of Stone Fangs",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "One-shrine {1}{B} enchantment first-main trigger reliably loses one life per opponent X3 in four-player after prior deployment, bypasses damage prevention and Solphim, but next-turn first-main only and otherwise no broad deck synergy."
-      },
-      {
-        "card": "Creeping Bloodsucker",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{1}{B} vampire beginning upkeep damages each opponent one and gains life equal to actual damage, establishing X3 pre-main next turn, but body dies to common 1-2 damage and Harmonic does not double vampire."
-      },
-      {
-        "card": "Reckless Fireweaver",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{1}{R} creature triggers one to each upon artifacts entering including Storm-Kiln Artist Treasures from instant/sorc cast or copy; needs engine and survives poorly against removal."
-      },
-      {
-        "card": "Mirkwood Bats",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{3}{B} creature drains one per token create or sacrifice, direct benefit from Warhammer Spawn tokens and Storm-Kiln Treasures both ways; four-mana setup crowded by existing premium payoffs."
-      },
-      {
-        "card": "Mayhem Devil",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{1}{B}{R} creature pings one target per ANY player's sacrificed permanent, including sacrificed Treasures and LED, offering selective removal or threshold; only one target/opponent, not automatic all-opponent loss."
-      },
-      {
-        "card": "Nadier's Nightblade",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{2}{B} creature drains all opponents and gains one when one of your tokens LEAVES; strong with Treasury spend/Spawn loss but does nothing just on token creation unlike Mirkwood Bats."
-      },
-      {
-        "card": "Torbran, Thane of Red Fell",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{1}{R}{R}{R} permanent adds two to red-source opponent damage and boosts one-ping, but triple red setup, nonred pings omitted, potential damage-replacement ordering with existing Solphim."
-      },
-      {
-        "card": "Purphoros, God of the Forge",
-        "disposition": "RETAIN_ALTERNATIVE",
-        "reason": "{3}{R} indestructible enchantment creature repeat creature-ETB two to each opponent, same Ignus/Birgi line and Spawn synergy with stronger stand-alone resilience; costs two mana more than Tremors and can become creature/removal target with devotion≥5."
-      }
-    ],
-    "adverse_checks": [
-      "Ruins early 40K flavor by cutting The Ruinous Powers; verify commander protected identity before selecting.",
-      "Cutting Aggravated Assault sacrifices a fully distinct Neheb postcombat infinite combat pathway; must show alternate finisher is better.",
-      "Both Sanctum and Creeping contribute X3 before own turn's first main only after surviving a full turn; their triggers cannot happen retroactively on ETB.",
-      "All extra creatures may increase vulnerability to board wipes and be dead without the corresponding tokens, triggers, or permanent.",
-      "A three-card direct loop with Impact does not by itself justify five owner-presentable swaps; do not pad to five."
-    ],
-    "governance": {
-      "never_anchor_at_five": true,
-      "source_bound_rules_only": true,
-      "not_a_full_opponent_model": true,
-      "minimum_five_owner_floor_unmet": true,
-      "owner_ready": false,
-      "source_card_legality_not_exact_100_certification": true,
-      "required_next": [
-        "Assess Impact Tremors versus both strongest exact cuts under true commander-theme and independent Neheb/Assault resilience; find a less costly third cut if possible.",
-        "Compare two-mana first-main/upkeep threshold engines against protected Loyal Subordinate and existing Flame Rift/Boltwave without assuming survival.",
-        "Evaluate previously unconsidered token artifact payoffs from these nine Oracle verified offranking cards as full physical 100, not as arbitrary +1 card.",
-        "Only after substantive strongest finalist chosen, reconcile 100 new Oracle/legal, per-mutation M6 P0 and I/J, SHA, bracket and tags before owner's exact approval; maintain locked canonical."
-      ]
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_early_threshold_combo_three_research_20261022.txt",
+      "sha256": "775ff763860d8940bd252dd46c9e9dc19d94100dc48c5bdb0095193d8e12919e",
+      "physical_cards": 100,
+      "adds": [
+        "Impact Tremors",
+        "Sanctum of Stone Fangs",
+        "Creeping Bloodsucker"
+      ],
+      "cuts": [
+        "Aggravated Assault",
+        "The Ruinous Powers",
+        "Nightscape Familiar"
+      ],
+      "swaps": 3,
+      "status": "RESEARCH_ONLY",
+      "baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
     }
+  ],
+  "nine_source_judgments": [
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Two mana, deterministic Birgi+Ignus own-main cast/ETB finisher and Spawn synergy; needs one substantive cut and counter-interaction risk; no proven winner vs protected canonical."
+    },
+    {
+      "card": "Sanctum of Stone Fangs",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "One-shrine {1}{B} enchantment first-main trigger reliably loses one life per opponent X3 in four-player after prior deployment, bypasses damage prevention and Solphim, but next-turn first-main only and otherwise no broad deck synergy."
+    },
+    {
+      "card": "Creeping Bloodsucker",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{1}{B} vampire beginning upkeep damages each opponent one and gains life equal to actual damage, establishing X3 pre-main next turn, but body dies to common 1-2 damage and Harmonic does not double vampire."
+    },
+    {
+      "card": "Reckless Fireweaver",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{1}{R} creature triggers one to each upon artifacts entering including Storm-Kiln Artist Treasures from instant/sorc cast or copy; needs engine and survives poorly against removal."
+    },
+    {
+      "card": "Mirkwood Bats",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{3}{B} creature drains one per token create or sacrifice, direct benefit from Warhammer Spawn tokens and Storm-Kiln Treasures both ways; four-mana setup crowded by existing premium payoffs."
+    },
+    {
+      "card": "Mayhem Devil",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{1}{B}{R} creature pings one target per ANY player's sacrificed permanent, including sacrificed Treasures and LED, offering selective removal or threshold; only one target/opponent, not automatic all-opponent loss."
+    },
+    {
+      "card": "Nadier's Nightblade",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{2}{B} creature drains all opponents and gains one when one of your tokens LEAVES; strong with Treasury spend/Spawn loss but does nothing just on token creation unlike Mirkwood Bats."
+    },
+    {
+      "card": "Torbran, Thane of Red Fell",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{1}{R}{R}{R} permanent adds two to red-source opponent damage and boosts one-ping, but triple red setup, nonred pings omitted, potential damage-replacement ordering with existing Solphim."
+    },
+    {
+      "card": "Purphoros, God of the Forge",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "{3}{R} indestructible enchantment creature repeat creature-ETB two to each opponent, same Ignus/Birgi line and Spawn synergy with stronger stand-alone resilience; costs two mana more than Tremors and can become creature/removal target with devotion≥5."
+    }
+  ],
+  "adverse_checks": [
+    "Ruins early 40K flavor by cutting The Ruinous Powers; verify commander protected identity before selecting.",
+    "Cutting Aggravated Assault sacrifices a fully distinct Neheb postcombat infinite combat pathway; must show alternate finisher is better.",
+    "Both Sanctum and Creeping contribute X3 before own turn's first main only after surviving a full turn; their triggers cannot happen retroactively on ETB.",
+    "All extra creatures may increase vulnerability to board wipes and be dead without the corresponding tokens, triggers, or permanent.",
+    "A three-card direct loop with Impact does not by itself justify five owner-presentable swaps; do not pad to five."
+  ],
+  "governance": {
+    "never_anchor_at_five": true,
+    "source_bound_rules_only": true,
+    "not_a_full_opponent_model": true,
+    "minimum_five_owner_floor_unmet": true,
+    "owner_ready": false,
+    "source_card_legality_not_exact_100_certification": true,
+    "required_next": [
+      "Assess Impact Tremors versus both strongest exact cuts under true commander-theme and independent Neheb/Assault resilience; find a less costly third cut if possible.",
+      "Compare two-mana first-main/upkeep threshold engines against protected Loyal Subordinate and existing Flame Rift/Boltwave without assuming survival.",
+      "Evaluate previously unconsidered token artifact payoffs from these nine Oracle verified offranking cards as full physical 100, not as arbitrary +1 card.",
+      "Only after substantive strongest finalist chosen, reconcile 100 new Oracle/legal, per-mutation M6 P0 and I/J, SHA, bracket and tags before owner's exact approval; maintain locked canonical."
+    ]
   }
 }
