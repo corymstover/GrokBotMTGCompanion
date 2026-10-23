@@ -1,0 +1,650 @@
+{
+  "schema_version": 1,
+  "artifact_kind": "M7_RESEARCH_ONLY_CHALLENGER_ORACLE_CAPTURE",
+  "deck_id": "Abaddon_the_Despoiler",
+  "retrieved_at_utc": "2026-10-23T02:42:37.635Z",
+  "source_api": "https://api.scryfall.com/cards/collection",
+  "source_mode": "39 exact-name identifiers, source response normalized without deleting split-face Oracle text",
+  "canonical_approved_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "canonical_status": "APPROVED_LOCKED_UNCHANGED",
+  "candidate_count": 39,
+  "not_found": [],
+  "all_official_commander_legal": true,
+  "all_within_grixis_color_identity": true,
+  "caveat": "Source-bound Oracle and legality of researched cards only, not proof of strategy, payable cast, executed M6 or owner approval.",
+  "oracle_cards": {
+    "Blood for the Blood God!": {
+      "name": "Blood for the Blood God!",
+      "id": "f41d59f6-7fbe-4e67-8098-190b01281fe0",
+      "oracle_id": "a6079dff-9479-4665-aba5-2cddefb9a2bc",
+      "mana_cost": "{8}{B}{B}{R}",
+      "cmc": 11,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "This spell costs {1} less to cast for each creature that died this turn.\nDiscard your hand, then draw eight cards. Blood for the Blood God! deals 8 damage to each opponent. Exile Blood for the Blood God!",
+      "type_line": "Instant",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/108/blood-for-the-blood-god!?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Aurora Phoenix": {
+      "name": "Aurora Phoenix",
+      "id": "f9a9e74f-8090-4314-9361-97777fb7b63a",
+      "oracle_id": "a98cc4d0-a322-4142-aee0-83f39b137616",
+      "mana_cost": "{4}{R}{R}",
+      "cmc": 6,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Flying\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nWhenever you cast a spell with cascade, return this card from your graveyard to your hand.",
+      "type_line": "Creature — Phoenix",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/clb/778/aurora-phoenix?utm_source=api",
+      "released_at": "2022-06-10"
+    },
+    "Spear Spewer": {
+      "name": "Spear Spewer",
+      "id": "dbee1daa-b4ba-49ee-bed1-e70fa09942a2",
+      "oracle_id": "1a668cef-bdc5-410b-b9e3-044e4203a0aa",
+      "mana_cost": "{R}",
+      "cmc": 1,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Defender\n{T}: This creature deals 1 damage to each player.",
+      "type_line": "Creature — Goblin Warrior",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/rna/117/spear-spewer?utm_source=api",
+      "released_at": "2019-01-25"
+    },
+    "Dark Apostle": {
+      "name": "Dark Apostle",
+      "id": "6e346481-c01c-4a93-876e-1130c5edd970",
+      "oracle_id": "8a446307-d9ff-4854-90e6-9cdff5b77aa6",
+      "mana_cost": "{3}{R}",
+      "cmc": 4,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Gift of Chaos — {3}, {T}: The next noncreature spell you cast this turn has cascade. (When you cast that spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "type_line": "Creature — Astartes Warlock",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/75/dark-apostle?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Cryptolith Fragment // Aurora of Emrakul": {
+      "name": "Cryptolith Fragment // Aurora of Emrakul",
+      "id": "262b7b55-0b32-4c4f-a2ca-02f0b83fa7a2",
+      "oracle_id": "60c8a1d4-8d0a-4906-bcaf-d3a09d57c452",
+      "mana_cost": null,
+      "cmc": 3,
+      "color_identity": [],
+      "oracle_text": null,
+      "type_line": "Artifact // Creature — Eldrazi Reflection",
+      "card_faces": [
+        {
+          "name": "Cryptolith Fragment",
+          "mana_cost": "{3}",
+          "oracle_text": "This artifact enters tapped.\n{T}: Add one mana of any color. Each player loses 1 life.\nAt the beginning of your upkeep, if each player has 10 or less life, transform this artifact.",
+          "type_line": "Artifact"
+        },
+        {
+          "name": "Aurora of Emrakul",
+          "mana_cost": "",
+          "oracle_text": "Flying, deathtouch\nWhenever this creature attacks, each opponent loses 3 life.",
+          "type_line": "Creature — Eldrazi Reflection"
+        }
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/inr/260/cryptolith-fragment-aurora-of-emrakul?utm_source=api",
+      "released_at": "2025-01-24"
+    },
+    "Knight Rampager": {
+      "name": "Knight Rampager",
+      "id": "6105271d-76ae-4df0-bc95-fcccc229fc21",
+      "oracle_id": "2fa681b2-ca94-4f0c-83a4-98f00b8e1af8",
+      "mana_cost": "{4}{R}",
+      "cmc": 5,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Trample\nFrenzied Rampage — At the beginning of combat on your turn, choose an opponent at random. This creature attacks that player this combat if able.\nWhen this creature dies, it deals 4 damage to target opponent chosen at random.",
+      "type_line": "Artifact Creature — Knight",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/80/knight-rampager?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Lucius the Eternal": {
+      "name": "Lucius the Eternal",
+      "id": "6b86f229-0cbd-4d32-a1dc-ea4b24f835f2",
+      "oracle_id": "fa726aac-f4ae-4e34-ac08-36c1f50215f3",
+      "mana_cost": "{3}{B}{R}",
+      "cmc": 5,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "Haste\nArmour of Shrieking Souls — When Lucius the Eternal dies, exile it and choose target creature an opponent controls. When that creature leaves the battlefield, return this card from exile to the battlefield under its owner's control.",
+      "type_line": "Legendary Creature — Astartes Warrior",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/130/lucius-the-eternal?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Mutalith Vortex Beast": {
+      "name": "Mutalith Vortex Beast",
+      "id": "4a1b6cfe-8927-4d9d-ba32-82453f7157ca",
+      "oracle_id": "7e6ca948-a66d-46a9-9174-ac7b75d7b348",
+      "mana_cost": "{4}{U}{R}",
+      "cmc": 6,
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "oracle_text": "Trample\nWarp Vortex — When this creature enters, flip a coin for each opponent you have. For each flip you win, draw a card. For each flip you lose, this creature deals 3 damage to that player.",
+      "type_line": "Creature — Mutant Beast",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/134/mutalith-vortex-beast?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Poxwalkers": {
+      "name": "Poxwalkers",
+      "id": "ca79cd21-daaa-4a1c-bab5-cc4c783994ae",
+      "oracle_id": "e4275202-4960-4cde-b941-27be8163ad6e",
+      "mana_cost": "{2}{B}",
+      "cmc": 3,
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Deathtouch\nCurse of the Walking Pox — Whenever you cast a spell from anywhere other than your hand, return this card from your graveyard to the battlefield tapped.",
+      "type_line": "Creature — Zombie",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/49/poxwalkers?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Helbrute": {
+      "name": "Helbrute",
+      "id": "27cc91c9-39dc-455c-aed0-6334bb6e1270",
+      "oracle_id": "4b216b4d-f9cb-4ce2-af70-c91eef3db083",
+      "mana_cost": "{3}{B}{R}",
+      "cmc": 5,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "Haste\nSarcophagus — You may cast this card from your graveyard by exiling another creature card from your graveyard in addition to paying its other costs.",
+      "type_line": "Artifact Creature — Astartes Dreadnought",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/125/helbrute?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Keen Duelist": {
+      "name": "Keen Duelist",
+      "id": "0446a3df-6f77-4b86-b694-ce99feb3d9ab",
+      "oracle_id": "b8602f19-6fc2-43c4-b0c4-2cd11d5dbda2",
+      "mana_cost": "{1}{B}",
+      "cmc": 2,
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "At the beginning of your upkeep, you and target opponent each reveal the top card of your library. You each lose life equal to the mana value of the card revealed by the other player. You each put the card you revealed into your hand.",
+      "type_line": "Creature — Human Wizard",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/soc/218/keen-duelist?utm_source=api",
+      "released_at": "2026-04-24"
+    },
+    "Electrostatic Field": {
+      "name": "Electrostatic Field",
+      "id": "21923a95-e65e-4f4a-81f8-fc0895beb107",
+      "oracle_id": "2fa94a07-c932-4f85-b6e0-a97d2b29eb52",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Defender\nWhenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent.",
+      "type_line": "Creature — Wall",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/otc/164/electrostatic-field?utm_source=api",
+      "released_at": "2024-04-19"
+    },
+    "Ghyrson Starn, Kelermorph": {
+      "name": "Ghyrson Starn, Kelermorph",
+      "id": "fa7349d9-c82f-4cf8-a852-92168d1f4966",
+      "oracle_id": "b110b8e6-859b-4370-aceb-b21c6cf61532",
+      "mana_cost": "{1}{U}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nThree Autostubs — Whenever another source you control deals exactly 1 damage to a permanent or player, Ghyrson Starn deals 2 damage to that permanent or player.",
+      "type_line": "Legendary Creature — Tyranid Human",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph?utm_source=api",
+      "released_at": "2022-10-07"
+    },
+    "Ob Nixilis, Captive Kingpin": {
+      "name": "Ob Nixilis, Captive Kingpin",
+      "id": "ddb68233-3683-41bd-9b6e-4f07a1b54244",
+      "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+      "mana_cost": "{2}{B}{R}",
+      "cmc": 4,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "Flying, trample\nWhenever one or more opponents each lose exactly 1 life, put a +1/+1 counter on Ob Nixilis. Exile the top card of your library. Until your next end step, you may play that card.",
+      "type_line": "Legendary Creature — Demon",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin?utm_source=api",
+      "released_at": "2023-05-12"
+    },
+    "Sheoldred, the Apocalypse": {
+      "name": "Sheoldred, the Apocalypse",
+      "id": "d67be074-cdd4-41d9-ac89-0a0456c4e4b2",
+      "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4,
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Deathtouch\nWhenever you draw a card, you gain 2 life.\nWhenever an opponent draws a card, they lose 2 life.",
+      "type_line": "Legendary Creature — Phyrexian Praetor",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse?utm_source=api",
+      "released_at": "2022-09-09"
+    },
+    "Sulfuric Vortex": {
+      "name": "Sulfuric Vortex",
+      "id": "3253a624-50cc-4a8a-9b0c-9902aa53775f",
+      "oracle_id": "7652f328-e142-494b-a869-772ced10c26a",
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "At the beginning of each player's upkeep, this enchantment deals 2 damage to that player.\nIf a player would gain life, that player gains no life instead.",
+      "type_line": "Enchantment",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmr/144/sulfuric-vortex?utm_source=api",
+      "released_at": "2023-01-13"
+    },
+    "Descent into Avernus": {
+      "name": "Descent into Avernus",
+      "id": "faadf72f-b2d5-4271-8d5c-a586acf63453",
+      "oracle_id": "1313da2f-92bb-4862-9153-373972cc1520",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "At the beginning of your upkeep, put two descent counters on this enchantment. Then each player creates X Treasure tokens and this enchantment deals X damage to each player, where X is the number of descent counters on this enchantment.",
+      "type_line": "Enchantment",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/clb/169/descent-into-avernus?utm_source=api",
+      "released_at": "2022-06-10"
+    },
+    "Mount Doom": {
+      "name": "Mount Doom",
+      "id": "b5bc71a1-2344-4bc6-aa60-658cec19d0d6",
+      "oracle_id": "995c8dac-fd27-468a-abd4-02372cf0c850",
+      "mana_cost": "",
+      "cmc": 0,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "{T}, Pay 1 life: Add {B} or {R}.\n{1}{B}{R}, {T}: Mount Doom deals 1 damage to each opponent.\n{5}{B}{R}, {T}, Sacrifice Mount Doom and a legendary artifact: Choose up to two creatures, then destroy the rest. Activate only as a sorcery.",
+      "type_line": "Legendary Land",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/ltr/258/mount-doom?utm_source=api",
+      "released_at": "2023-06-23"
+    },
+    "Kederekt Parasite": {
+      "name": "Kederekt Parasite",
+      "id": "bc5da9e8-c070-4cf4-a21b-24ff2178d751",
+      "oracle_id": "fc7b46af-6c07-455a-99c7-f1bccaa2a5f4",
+      "mana_cost": "{B}",
+      "cmc": 1,
+      "color_identity": [
+        "B"
+      ],
+      "oracle_text": "Whenever an opponent draws a card, if you control a red permanent, you may have this creature deal 1 damage to that player.",
+      "type_line": "Creature — Horror",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dsc/144/kederekt-parasite?utm_source=api",
+      "released_at": "2024-09-27"
+    },
+    "Guttersnipe": {
+      "name": "Guttersnipe",
+      "id": "f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f",
+      "oracle_id": "c6bdaf76-6a03-4695-9c4b-f040e73435af",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent.",
+      "type_line": "Creature — Goblin Shaman",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/hoc/196/guttersnipe?utm_source=api",
+      "released_at": "2026-08-14"
+    },
+    "Firebrand Archer": {
+      "name": "Firebrand Archer",
+      "id": "fe0312f1-4c98-4b7f-8a34-0059ea80edef",
+      "oracle_id": "2e9289d6-dbc6-456d-88cf-d1f534e731d6",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+      "type_line": "Creature — Human Archer",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/196/firebrand-archer?utm_source=api",
+      "released_at": "2024-11-15"
+    },
+    "Stormfist Crusader": {
+      "name": "Stormfist Crusader",
+      "id": "0b420ce8-3dd1-430b-a090-4b4e8dcb6aa9",
+      "oracle_id": "0d3bebc6-662a-4cd4-ad1e-aeed0c5e04f6",
+      "mana_cost": "{B}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_text": "Menace\nAt the beginning of your upkeep, each player draws a card and loses 1 life.",
+      "type_line": "Creature — Human Knight",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dsc/234/stormfist-crusader?utm_source=api",
+      "released_at": "2024-09-27"
+    },
+    "Light Up the Stage": {
+      "name": "Light Up the Stage",
+      "id": "912b94c9-7200-452d-940f-df0a7cceb377",
+      "oracle_id": "8d286376-f386-43ab-a9bd-8478fb9e2497",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Spectacle {R} (You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.)\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+      "type_line": "Sorcery",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dsc/166/light-up-the-stage?utm_source=api",
+      "released_at": "2024-09-27"
+    },
+    "Valakut Exploration": {
+      "name": "Valakut Exploration",
+      "id": "18cb7bf6-9c7c-4e62-a678-7b75862e2f64",
+      "oracle_id": "d6861319-ae16-4e6c-af87-a264f667d694",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Landfall — Whenever a land you control enters, exile the top card of your library. You may play that card for as long as it remains exiled.\nAt the beginning of your end step, if there are cards exiled with this enchantment, put them into their owner's graveyard, then this enchantment deals that much damage to each opponent.",
+      "type_line": "Enchantment",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/znr/175/valakut-exploration?utm_source=api",
+      "released_at": "2020-09-25"
+    },
+    "Impact Tremors": {
+      "name": "Impact Tremors",
+      "id": "d0b7cecf-b51b-4d30-b7e9-cd7976271e07",
+      "oracle_id": "9242cd3e-1a71-4700-8182-9c1005616033",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+      "type_line": "Enchantment",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api",
+      "released_at": "2024-11-15"
+    },
+    "Price of Progress": {
+      "name": "Price of Progress",
+      "id": "b1342144-7a15-438b-a848-3196238a79e8",
+      "oracle_id": "e9da499c-fa43-4e94-8395-5c030ff39502",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Price of Progress deals damage to each player equal to twice the number of nonbasic lands that player controls.",
+      "type_line": "Instant",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/ema/141/price-of-progress?utm_source=api",
+      "released_at": "2016-06-10"
+    },
+    "Fiery Confluence": {
+      "name": "Fiery Confluence",
+      "id": "85d431c2-e4fa-426d-83cb-ecb782e7e87d",
+      "oracle_id": "3c22e031-4804-4c31-bd3c-c3f29d456b34",
+      "mana_cost": "{2}{R}{R}",
+      "cmc": 4,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Choose three. You may choose the same mode more than once.\n• Fiery Confluence deals 1 damage to each creature.\n• Fiery Confluence deals 2 damage to each opponent.\n• Destroy target artifact.",
+      "type_line": "Sorcery",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tle/165/fiery-confluence?utm_source=api",
+      "released_at": "2025-11-21"
+    },
+    "Chandra, Dressed to Kill": {
+      "name": "Chandra, Dressed to Kill",
+      "id": "640b112d-fe82-4294-a632-efbb7f2467f5",
+      "oracle_id": "4686f776-2055-470c-bd99-7c4bb32902c0",
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "+1: Add {R}. Chandra deals 1 damage to up to one target player or planeswalker.\n+1: Exile the top card of your library. If it's red, you may cast it this turn.\n−7: Exile the top five cards of your library. You may cast red spells from among them this turn. You get an emblem with \"Whenever you cast a red spell, this emblem deals X damage to any target, where X is the amount of mana spent to cast that spell.\"",
+      "type_line": "Legendary Planeswalker — Chandra",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/inr/148/chandra-dressed-to-kill?utm_source=api",
+      "released_at": "2025-01-24"
+    },
+    "Wheel of Misfortune": {
+      "name": "Wheel of Misfortune",
+      "id": "74177b51-a300-49d9-8ea7-557b19cf80c7",
+      "oracle_id": "10aff3f6-8347-4e1b-b8e7-c204c9e46657",
+      "mana_cost": "{2}{R}",
+      "cmc": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Each player secretly chooses a number 0 or greater, then all players reveal those numbers simultaneously and determine the highest and lowest numbers revealed this way. Wheel of Misfortune deals damage equal to the highest number to each player who chose that number. Each player who didn't choose the lowest number discards their hand, then draws seven cards.",
+      "type_line": "Sorcery",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/211/wheel-of-misfortune?utm_source=api",
+      "released_at": "2020-11-20"
+    },
+    "Memory Jar": {
+      "name": "Memory Jar",
+      "id": "60b70b7f-6f24-4c00-947a-b109f302205b",
+      "oracle_id": "eb9c9a34-88a8-4afe-a053-806f6b29834f",
+      "mana_cost": "{5}",
+      "cmc": 5,
+      "color_identity": [],
+      "oracle_text": "{T}, Sacrifice this artifact: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.",
+      "type_line": "Artifact",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/vma/276/memory-jar?utm_source=api",
+      "released_at": "2014-06-16"
+    },
+    "Burning Inquiry": {
+      "name": "Burning Inquiry",
+      "id": "a448bc9e-f5db-4507-ac40-7d8ee3598585",
+      "oracle_id": "af98156b-3064-4f16-940e-10039241f2b0",
+      "mana_cost": "{R}",
+      "cmc": 1,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Each player draws three cards, then discards three cards at random.",
+      "type_line": "Sorcery",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/m10/128/burning-inquiry?utm_source=api",
+      "released_at": "2009-07-17"
+    },
+    "Urza's Saga": {
+      "name": "Urza's Saga",
+      "id": "c1e0f201-42cb-46a1-901a-65bb4fc18f6c",
+      "oracle_id": "4c6a0c30-b547-4eff-8ff4-0ca25803c076",
+      "mana_cost": "",
+      "cmc": 0,
+      "color_identity": [],
+      "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — This Saga gains \"{T}: Add {C}.\"\nII — This Saga gains \"{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'\"\nIII — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",
+      "type_line": "Enchantment Land — Urza's Saga",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/259/urzas-saga?utm_source=api",
+      "released_at": "2021-06-18"
+    },
+    "Gemstone Caverns": {
+      "name": "Gemstone Caverns",
+      "id": "7f273641-c5f3-48bc-b89e-3cff52d26a0b",
+      "oracle_id": "c0adbddc-b070-4c5f-afe0-0474c72a9251",
+      "mana_cost": "",
+      "cmc": 0,
+      "color_identity": [],
+      "oracle_text": "If this card is in your opening hand and you're not the starting player, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.\n{T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color.",
+      "type_line": "Legendary Land",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tsr/280/gemstone-caverns?utm_source=api",
+      "released_at": "2021-03-19"
+    },
+    "Cavern of Souls": {
+      "name": "Cavern of Souls",
+      "id": "3aad15a2-8a1b-4460-9b06-e85863081878",
+      "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+      "mana_cost": "",
+      "cmc": 0,
+      "color_identity": [],
+      "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
+      "type_line": "Land",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lci/269/cavern-of-souls?utm_source=api",
+      "released_at": "2023-11-17"
+    },
+    "Command Beacon": {
+      "name": "Command Beacon",
+      "id": "435e9678-9ff3-4e5d-8061-3f806e1c2ed2",
+      "oracle_id": "7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e",
+      "mana_cost": "",
+      "cmc": 0,
+      "color_identity": [],
+      "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice this land: Put your commander into your hand from the command zone.",
+      "type_line": "Land",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tdc/352/command-beacon?utm_source=api",
+      "released_at": "2025-04-11"
+    },
+    "Reforge the Soul": {
+      "name": "Reforge the Soul",
+      "id": "1c3509c6-2ae7-45be-8ac9-4d14d69db32f",
+      "oracle_id": "ece854f8-8c60-4f30-894f-2286d3dd61b9",
+      "mana_cost": "{3}{R}{R}",
+      "cmc": 5,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Each player discards their hand, then draws seven cards.\nMiracle {1}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+      "type_line": "Sorcery",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/inr/167/reforge-the-soul?utm_source=api",
+      "released_at": "2025-01-24"
+    },
+    "Chandra's Incinerator": {
+      "name": "Chandra's Incinerator",
+      "id": "ed875705-b7b6-4464-b16f-61629ffed04f",
+      "oracle_id": "515cee6a-a2e1-4eeb-8e1d-293724313b14",
+      "mana_cost": "{5}{R}",
+      "cmc": 6,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "This spell costs {X} less to cast, where X is the total amount of noncombat damage dealt to your opponents this turn.\nTrample\nWhenever a source you control deals noncombat damage to an opponent, this creature deals that much damage to target creature or planeswalker that player controls.",
+      "type_line": "Creature — Elemental",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/m21/136/chandras-incinerator?utm_source=api",
+      "released_at": "2020-07-03"
+    },
+    "Harmonic Prodigy": {
+      "name": "Harmonic Prodigy",
+      "id": "63a565e3-d7a8-469d-898f-49fef634c107",
+      "oracle_id": "2e2ace5b-4018-43af-8e72-ebafec1a7739",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",
+      "type_line": "Creature — Human Wizard",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/soc/123/harmonic-prodigy?utm_source=api",
+      "released_at": "2026-04-24"
+    },
+    "Curse of Opulence": {
+      "name": "Curse of Opulence",
+      "id": "494a6f50-9cd3-4bfc-9382-dce4f7047a81",
+      "oracle_id": "ba0d3df2-3acf-46d7-8d64-8d67d1579adc",
+      "mana_cost": "{R}",
+      "cmc": 1,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Enchant player\nWhenever enchanted player is attacked, create a Gold token. Each opponent attacking that player does the same. (A Gold token is an artifact with \"Sacrifice this token: Add one mana of any color.\")",
+      "type_line": "Enchantment — Aura Curse",
+      "card_faces": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tdc/209/curse-of-opulence?utm_source=api",
+      "released_at": "2025-04-11"
+    }
+  }
+}
