@@ -1,0 +1,1427 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 28,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "4052-6264",
+    "uses": [
+     "Cryptcaller Chariot",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Near-infinite tapped creature tokens"
+    ]
+   },
+   {
+    "id": "1339-4052",
+    "uses": [
+     "The Locust God",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite creature ETB"
+    ]
+   },
+   {
+    "id": "876-4944",
+    "uses": [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinitely large creature until end of turn"
+    ]
+   },
+   {
+    "id": "876-2904",
+    "uses": [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinite self-mill"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 28,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "4052-6264",
+    "uses": [
+     "Cryptcaller Chariot",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite self-discard triggers",
+     "Near-infinite creature ETB",
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Near-infinite tapped creature tokens"
+    ]
+   },
+   {
+    "id": "1339-4052",
+    "uses": [
+     "The Locust God",
+     "Kindred Discovery"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite creature ETB"
+    ]
+   },
+   {
+    "id": "876-4944",
+    "uses": [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinitely large creature until end of turn"
+    ]
+   },
+   {
+    "id": "876-2904",
+    "uses": [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    "produces": [
+     "Infinite self-mill"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_BlackMarketConnections_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 29,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_UrzasIncubator_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 29,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_PassC_plus_StrionicResonator_minus_SwiftfootBoots_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 31,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "2751-6286",
+     "uses": [
+      "Unstoppable Plan",
+      "Strionic Resonator"
+     ],
+     "produces": [
+      "Infinite mana nonland permanents you control can produce",
+      "Infinite untap of nonland permanents you control"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_alt_Elektra_over_IronMonger_keep_Killmonger_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 28,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_alt_Ultimo_over_KangPrime_keep_CrimsonCowl_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 28,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_rejected_plus_KingpinWilsonFisk_minus_MadameHydra_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 28,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_rejected_plus_SecludedCourtyard_minus_PathOfAncestry_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 28,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  },
+  "Loki__the_Deceiver_staged_plus_VictorTimely_minus_KangPrime_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 28,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2552-3263",
+     "uses": [
+      "Mycosynth Lattice",
+      "Vandalblast"
+     ],
+     "produces": [
+      "Destroy all permanents opponents control",
+      "Mass Land Denial"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "4052-6264",
+     "uses": [
+      "Cryptcaller Chariot",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite self-discard triggers",
+      "Near-infinite creature ETB",
+      "Infinite draw triggers",
+      "Infinite rummaging",
+      "Near-infinite tapped creature tokens"
+     ]
+    },
+    {
+     "id": "1339-4052",
+     "uses": [
+      "The Locust God",
+      "Kindred Discovery"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite creature tokens with haste",
+      "Near-infinite creature ETB"
+     ]
+    },
+    {
+     "id": "876-4944",
+     "uses": [
+      "Crackdown Construct",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinitely large creature until end of turn"
+     ]
+    },
+    {
+     "id": "876-2904",
+     "uses": [
+      "Cephalid Illusionist",
+      "Lightning Greaves"
+     ],
+     "produces": [
+      "Infinite self-mill"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T15:53:34-0500"
+}
