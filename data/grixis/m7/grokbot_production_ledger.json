@@ -279,9 +279,9 @@
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/656",
    "swap_count": 6,
    "ci_runs": {
-    "focused": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942666343",
-    "gate_contract": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942666294",
-    "provenance_guard": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942666288"
+    "focused": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942943196",
+    "gate_contract": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942943181",
+    "provenance_guard": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39942943136"
    },
    "blockers": [],
    "unresolved_issues": [],
@@ -289,18 +289,19 @@
     "baseline_provenance (canonical 9b26aa28; raw==overrides; 99 rows=100 physical; Lutri companion outside 100)",
     "research (live Scryfall, EDHREC pair page, Spellbook) + draft candidate 2cc7227f (6 swaps) + staged alternatives",
     "I/J pool (7 configs), certificate, bundle, preflights, adversarial packet, focused tests (23) + workflow; gate + J checker pass; full suite 24F/86E/1625P/18S = base failure IDs; simulated stack #651-#655+#656 after 2-pin refresh 24F/86E/1744P/18S; WIP removed",
-    "PR #656 ready for review (REVIEW_READY_NOT_OWNER_APPROVED); exact-head CI 3/3 success"
+    "PR #656 ready for review (REVIEW_READY_NOT_OWNER_APPROVED); exact-head CI 3/3 success",
+    "Cert generated_at corrected to 05:45 CDT, bundle rebound; exact-head 14f33de8 CI 3/3 success"
    ],
    "status": "REVIEW_READY_AWAITING_CHATGPT",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "decision review, snapshots, I/J evidence, tests, gate",
    "next_step": "decision review, snapshots, I/J evidence, tests, gate",
-   "head_commit": "4e5aba8e6d654fab451a7cdb3231ec467394eb64",
+   "head_commit": "14f33de88685dbcbee9c8cc59e59ac5272ccf2fe",
    "stabilized_checker_sha256": "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b",
    "last_checkpoint": "2026-10-23 research+draft candidate",
    "candidate_logical_hash": "lh1:514596aaf599116e15083596021e97a0dc24b1c03b2b51f341ed6f927576e5e3",
-   "ci_head": "4e5aba8e6d654fab451a7cdb3231ec467394eb64",
+   "ci_head": "14f33de88685dbcbee9c8cc59e59ac5272ccf2fe",
    "ci_conclusion": "success"
   },
   {
