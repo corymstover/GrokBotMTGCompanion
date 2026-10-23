@@ -1744,20 +1744,26 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck31-lynde-cheerful-tormentor-m7-20261023",
+   "working_branch": "grokbot-deck31-lynde-cheerful-tormentor-m7-20261023",
+   "last_pushed_commit": "dae55e5fbceabb6197e566ea81228b5e32b4febf",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/679",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
-   "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "unresolved_issues": [
+    "Pass C Stage A seal mismatch: seal.json (c4c5fa5d) records stage_a.md 59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e, committed bytes (b4c98568, blob b253ed9c) hash 02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a; under investigation, not edited"
+   ],
+   "completed_stages": [
+    "baseline byte copy + shared infra (dae55e5f), draft PR 679"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Commander-first research, EDHREC/Scryfall/Spellbook, candidate judgments",
+   "next_step": "Commander-first research, EDHREC/Scryfall/Spellbook, candidate judgments",
+   "updated_at": "2026-10-23T17:36:44-0500",
+   "last_checkpoint_at": "2026-10-23T17:36:44-0500"
   },
   {
    "tracker_number": 32,
