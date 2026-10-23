@@ -610,20 +610,25 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
    "working_branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "last_pushed_commit": "04be1c094f645e99b2fa8a8c44cecb60a06f27bd",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
+   "completed_stages": [
+    "baseline_provenance (canonical main 9b26aa28; raw a6022fdd == overrides == tracker == registry; 100 physical/99 rows, Island x2); shared infra copied from #661 8bcc4c54; draft PR #662 2026-10-23 08:12 CDT"
+   ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Baseline provenance commit + draft PR",
-   "next_step": "Baseline provenance commit + draft PR",
-   "last_checkpoint_at": "2026-10-23T08:11-05:00",
-   "updated_at": "2026-10-23T08:11:00-05:00"
+   "next_action": "Research snapshots + candidate",
+   "next_step": "Research snapshots + candidate",
+   "last_checkpoint_at": "2026-10-23T08:12-05:00",
+   "updated_at": "2026-10-23T08:12:00-05:00",
+   "pr_status": "DRAFT_WIP",
+   "pr_is_draft": true,
+   "last_checkpoint_commit": "04be1c094f645e99b2fa8a8c44cecb60a06f27bd"
   },
   {
    "tracker_number": 15,
