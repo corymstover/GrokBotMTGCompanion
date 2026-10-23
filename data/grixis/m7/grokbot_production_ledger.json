@@ -325,14 +325,17 @@
    "unresolved_issues": [],
    "completed_stages": [
     "baseline_provenance (canonical 9b26aa2; raw 80f4bdef == overrides == registry; 100 rows = 100 physical; tracker note text stale vs bound hash, documented); draft PR #657",
-    "research (live Scryfall 168 cards, EDHREC general+cEDH, Spellbook baseline 22/candidate 24), draft 5-swap candidate + 4 staged alternatives"
+    "research (live Scryfall 168 cards, EDHREC general+cEDH, Spellbook baseline 22/candidate 24), draft 5-swap candidate + 4 staged alternatives",
+    "decision_review_gate_pass"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "research + draft candidate",
    "next_step": "gate packet, snapshots, I/J, tests, workflow",
-   "last_checkpoint": "2026-10-23 06:11 CDT research (baseline checkpoint was ~06:05 CDT; earlier '06:15' label corrected)"
+   "last_checkpoint": "2026-10-23 06:11 CDT research (baseline checkpoint was ~06:05 CDT; earlier '06:15' label corrected)",
+   "head_commit": "a727813fbe91f594013ab4acdba9e8f7a72a0f7a",
+   "last_checkpoint_at": "2026-10-23T06:15:00-05:00"
   },
   {
    "tracker_number": 10,
