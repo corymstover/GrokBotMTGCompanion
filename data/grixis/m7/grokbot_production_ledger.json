@@ -1634,6 +1634,9 @@
     [
      "rules_snapshot",
      "decision_review_gate_pass"
+    ],
+    [
+     "phase5_evidence_package_438b3ce0"
     ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
@@ -1647,8 +1650,8 @@
    "last_pushed_sha": "65d6ad4702576de8ef84c776122f381fc50072e8",
    "last_checkpoint_commit": "65d6ad4702576de8ef84c776122f381fc50072e8",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob d9ff96da, introduced by af3c889 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T16:50:20-0500",
-   "last_checkpoint_at": "2026-10-23T16:50:20-0500"
+   "updated_at": "2026-10-23T16:59:49-0500",
+   "last_checkpoint_at": "2026-10-23T16:59:49-0500"
   },
   {
    "tracker_number": 30,
