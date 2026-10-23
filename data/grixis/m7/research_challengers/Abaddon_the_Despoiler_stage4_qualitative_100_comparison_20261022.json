@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "date": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "prior_approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "canonical_approval_unmodified": true,
+  "owner_reopened": true,
+  "third_commander_hold": true,
+  "source_snapshots": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+  ],
+  "scope": "Compared current approved 100 vs high-lift and off-ranking cards with exact Oracle and candidate cut costs. Two new complete 100-card six-/eight-swap packets are adversarial stress tests, NOT necessarily upgrades. No forced five-swap minimum, no game win-rate claims.",
+  "source_bound_whole_deck": {
+    "physical_cards": 100,
+    "library_cards": 99,
+    "lands": 34,
+    "basic_island": 3,
+    "basic_mountain": 3,
+    "basic_swamp": 3,
+    "commander": "Abaddon the Despoiler",
+    "natural_ceiling": "Bracket 4 — Optimized",
+    "mana": "Premium fetch/dual/rainbow mana, nine basics, Arcane Signet/three Talismans, zero/one-mana rocks and rituals, Birgi, Storm-Kiln, Vivi, Nightscape. Swapping Talismans/colored lands for slower or colorless utilities can delay the UBR five-MV commander.",
+    "card_access": "Wheel of Fortune, Windfall, Brainstorm, Ponder, Rhystic Study, Mystic Remora, tutors, Ancestral Vision and zero-MV Profane Tutor. Additional generic draw should not crowd exact cascade/threshold engines.",
+    "threshold": "Boltwave, Flame Rift, Loyal Subordinate, Kessig Flamebreather, Thermo-Alchemist, Vivi, Bowmasters and Noise Marine, aided by Bloodletter/Solphim, are genuine repeated or one-shot opponent-life-loss outlets.",
+    "payoffs": "Spark Double duplicates Abaddon granting extra cascade; printed Call Forth the Tempest has double cascade, Noise Marine one. Keeper, The Lost and the Damned, Nalfeshnee, Passionate Archaeologist, Wild-Magic Sorcerer and Prosper reward nonhand/exile casts.",
+    "defense": "Free/cheap stack shields Force of Will, Fierce Guardianship, Pact of Negation, Flusterstorm, Swan Song, Pyroblast, Deflecting Swat plus solved-permanent answers Chaos Warp/Cyclonic Rift. Cutting Pact and Pyroblast both is a serious anti-stax/protection liability, not a free opportunity.",
+    "recovery": "Underworld Breach, Lion's Eye Diamond, Brain Freeze compact recursive finish, Neheb+Aggravated Assault conditional postcombat repeat path. New cards must not erase both."
+  },
+  "oracle_rules_findings": [
+    "Harmonic Prodigy DOES double abilities triggered by existing Kessig Flamebreather and Thermo-Alchemist (both Human Shamans), Vivi Ornitier (Wizard; its noncreature cast damage/counter only), and Storm-Kiln Artist (Dwarf Shaman; its cast OR copied instant/sorcery Magecraft Treasures). It does NOT double Abaddon's static cascade-grant effect, the cascade triggers on non-Shaman spells, or Vivi's activated mana ability.",
+    "Ghyrson adds separate two damage for each exactly-one-damage event. Spear Spewer also deals one damage to its controller, so Ghyrson adds two more to self as well; self-loss matters.",
+    "One simultaneous all-opponent 1-damage event creates one Ob Nixilis trigger, not three. Separate pings create separate triggers. Kederekt Parasite triggers on OPPONENT draws with a red permanent present, including Wheel/Windfall resolution, not on the initial spell cast.",
+    "Vortex pings only upkeep's active player and fails to create own-turn pre-cast X; Descent on own upkeep instead pings all players and provides Treasures to every player.",
+    "Cryptolith Fragment mana ability can raise X while paying for a hand spell; tapped entry and extra mana cost remain large tempo losses versus a Talisman.",
+    "Blood for the Blood God! always has printed MV11; creature-death discount reduces payable generic but its eight-to-each damage resolves too late for its own cascade eligibility. Its source exiles on resolution.",
+    "Call Forth the Tempest is MV8 with TWO printed cascades and creature-only board damage after other spells. Replacing with Blood or Fiery Confluence loses those two guaranteed cascades even when Abaddon X is low."
+  ],
+  "challenged_incumbents": [
+    {
+      "card": "The Ruinous Powers",
+      "versus": [
+        "Ob Nixilis, Captive Kingpin",
+        "Harmonic Prodigy",
+        "Ghyrson Starn, Kelermorph"
+      ],
+      "cost": "Loss of Warhammer 40K opponent-library exile casting and owner-life-loss on cast; random opponent card is slow but uniquely on-identity."
+    },
+    {
+      "card": "Call Forth the Tempest",
+      "versus": [
+        "Blood for the Blood God!",
+        "Fiery Confluence"
+      ],
+      "cost": "Loss of unconditional printed DOUBLE cascade even when Abaddon X is insufficient; triple-red and eight-mana cost are burdens."
+    },
+    {
+      "card": "Nightscape Familiar",
+      "versus": [
+        "Ghyrson Starn, Kelermorph",
+        "Stormfist Crusader"
+      ],
+      "cost": "Loses one generic reduction on blue/red spells including Abaddon and Ignus chains; faster life-loss engines must earn saved/extra mana."
+    },
+    {
+      "card": "Pyroblast",
+      "versus": [
+        "Kederekt Parasite",
+        "Price of Progress"
+      ],
+      "cost": "Loses one-red hard blue-stack/permanent protection at a table with blue opponents."
+    },
+    {
+      "card": "Pact of Negation",
+      "versus": [
+        "Spear Spewer",
+        "Harmonic Prodigy"
+      ],
+      "cost": "Loses a free decisive combo-turn counter and emergency board protection; generic mana-value-zero cascade hit is not enough reason to dismiss it."
+    },
+    {
+      "card": "Bloodletter of Aclazotz",
+      "versus": [
+        "Sakashima of a Thousand Faces",
+        "Irenicus's Vile Duplication"
+      ],
+      "cost": "Loses doubling ALL opponent life loss during your turn and winged attack body, in exchange for additional fragile four-mana Abaddon clone setup."
+    },
+    {
+      "card": "Mountain",
+      "versus": [
+        "Mount Doom"
+      ],
+      "cost": "Loses damage-free red basic/fetch target but gains conditional BR source and paid X3 ping."
+    },
+    {
+      "card": "Island",
+      "versus": [
+        "Urza's Saga"
+      ],
+      "cost": "Loses blue early color and basic-fetch resilience for colorless temporary land tutor to LED/Sol Ring."
+    },
+    {
+      "card": "Talisman of Indulgence",
+      "versus": [
+        "Cryptolith Fragment"
+      ],
+      "cost": "Two-mana immediately usable artifact versus three-mana enters-tapped rock; life-loss during mana payment is distinct but tempo is large."
+    },
+    {
+      "card": "Mind's Desire",
+      "versus": [
+        "Memory Jar",
+        "Reforge the Soul"
+      ],
+      "cost": "Loses storm-based exile-cast payoff core, important multispell burst; expensive generic wheel/swap may be weaker."
+    }
+  ],
+  "distinct_material_judgments": 30,
+  "material_judgments": [
+    {
+      "card": "Harmonic Prodigy",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana Shaman/Wizard trigger doubler meaningfully boosts current Kessig Flamebreather, Thermo-Alchemist, Vivi Ornitier and Storm-Kiln Artist; especially two Treasure per Magecraft event. Needs real noncore cut; does NOT double Abaddon's static granted-cascade mechanism."
+    },
+    {
+      "card": "Ob Nixilis, Captive Kingpin",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Repeated exactly-one life-loss events from current Kessig, Thermo, Vivi, Bowmasters—and prospective Kederekt—can grow and exile usable cards, feeding nonhand 40K effects. Against The Ruinous Powers loses owner-card theft/life loss and Warhammer identity."
+    },
+    {
+      "card": "Kederekt Parasite",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "One-mana opponent-draw punisher; red-permanent condition met by Abaddon and existing red creatures, own-turn Wheel/Windfall each cause many opponent draws. Exposes one-toughness body and may replace needed Pyroblast protection."
+    },
+    {
+      "card": "Ghyrson Starn, Kelermorph",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Warhammer three-mana ward-2 amplifier adds two damage whenever a controlled source deals exactly one. Converts existing small pings into faster life-loss and damage; Spear would also damage its controller for three total."
+    },
+    {
+      "card": "Spear Spewer",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "One-mana all-player ping advances four-player own-turn X to three after activation, but requires surviving summoning sickness and harms controller; potential counterspell cut is a costly real tradeoff."
+    },
+    {
+      "card": "Blood for the Blood God!",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Warhammer 11-MV instant discounted one generic per creature death, draws eight and damages each opponent eight on resolution; can replenish into cascading spells but discards its current hand, exiles itself and loses Call Forth's unconditional printed double cascade."
+    },
+    {
+      "card": "Fiery Confluence",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Four-mana flexible three-choice sorcery can produce up to six damage to each opponent or destroy one or more artifacts, better utility/floor than eight-mana Tempest in some tables; no printed cascade and triple red top-end is lost."
+    },
+    {
+      "card": "Price of Progress",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana damage to EACH player scaled by their own nonbasic lands can raise X sharply against optimized mana bases; does nothing versus basics-only opposition and the current deck's many nonbasics can cause lethal self-damage."
+    },
+    {
+      "card": "Mount Doom",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Potential Mountain utility upgrade: taps for B or R at a life cost, 3-mana activation pings each opponent for X3; cannot tap for colored mana and ping without untapping, sacrifices basic-fetch and damage-free mana."
+    },
+    {
+      "card": "Sakashima of a Thousand Faces",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "A second Abaddon clone gives another separate hand-spell cascade instance, stacking with Spark Double; needs four mana and a valid original creature and sacrifices retained life-loss doubling or a strategic noncore slot."
+    },
+    {
+      "card": "Irenicus's Vile Duplication",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Four-mana sorcery nonlegendary targeted token copy of Abaddon can add one more cascade instance; target-removal vulnerability and duplicate setup compete with protection and actual threshold sources."
+    },
+    {
+      "card": "Urza's Saga",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Can locate LED, Sol Ring or Mana Vault while producing temporary colorless mana, potentially increasing Breach access; as a land it sacrifices itself, reduces UBR fixing and may cause early commander color failures."
+    },
+    {
+      "card": "Cryptolith Fragment",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Live Scryfall plus rules establish its mana ability can raise X during payment for current MV3 hand cast; but its three-mana enters-tapped tempo is materially slower than two-mana Talisman of Indulgence and costs crucial commander acceleration."
+    },
+    {
+      "card": "Electrostatic Field",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana 0/4 ping on actual instant/sorcery casts, including from exile; unlike Kessig it does not trigger on other noncreature card types or copies and its later trigger never retroactively grants cascade."
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Wheel-scale opponent draw life loss and own draw lifegain; strong but double-black four-mana creature competes with earlier Bowmasters/Kederekt and potential overlarge cascade X."
+    },
+    {
+      "card": "Descent into Avernus",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Upkeep before main can deal two/four/more to each player and create Treasures, enabling cascading mana and X, but gifts every opponent equal Treasure resources to counter or race the caster."
+    },
+    {
+      "card": "Stormfist Crusader",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Own upkeep draws a card and causes each opponent to lose one before main for threshold X3; also draws opponents cards, may help their interaction, and competes with cheaper ramp and early life-loss."
+    },
+    {
+      "card": "Aurora Phoenix",
+      "judgment": "REJECT",
+      "reason": "Six-mana body with printed cascade and graveyard-to-hand return on later actual cascade casts; needs an expensive first cast then death/discard before recovery, less immediate than current 40K engines and not a free repeat spell."
+    },
+    {
+      "card": "Dark Apostle",
+      "judgment": "REJECT",
+      "reason": "Four-mana setup creature followed by three-mana tap ability grants next noncreature cast one cascade; Spark and potential clone options multiply Abaddon casts with lower ongoing mana."
+    },
+    {
+      "card": "Knight Rampager",
+      "judgment": "REJECT",
+      "reason": "Five-mana random opponent attack and random opponent four-damage on death are not controlled own-turn all-opponent threshold, nor a stronger cascade payoff than existing 40K top-end."
+    },
+    {
+      "card": "Lucius the Eternal",
+      "judgment": "REJECT",
+      "reason": "Five-mana hasty 40K creature can recur from exile to battlefield after tracked opponent creature leaves; battlefield return is NOT casting from exile and cannot trigger nonhand cast engines."
+    },
+    {
+      "card": "Mutalith Vortex Beast",
+      "judgment": "REJECT",
+      "reason": "Six-mana random independent coin flips sometimes draw, sometimes damage selected opponents three; lacks reliable same-turn X and loses to deterministic cheap pingers and cascade payoffs."
+    },
+    {
+      "card": "Poxwalkers",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Can recur tapped from graveyard when any nonhand spell is cast; no credible repeated sacrifice outlet in current 100, so attrition value is much narrower than The Lost and the Damned's proactive token engine."
+    },
+    {
+      "card": "Helbrute",
+      "judgment": "REJECT",
+      "reason": "Five-mana haste graveyard recast requires exiling another creature card plus full other costs; nonhand cast helps 40K triggers but no Abaddon hand cascade, lower floor than current recovery spells."
+    },
+    {
+      "card": "Keen Duelist",
+      "judgment": "REJECT",
+      "reason": "One opponent at random selected target upkeep draw/life-loss based unknown top revealed mana value, frequent lands yield zero and controller risks high self-loss; Stormfist gives more predictable own-turn X."
+    },
+    {
+      "card": "Sulfuric Vortex",
+      "judgment": "REJECT",
+      "reason": "At own upkeep damages the active player (you), NOT every opponent. It therefore does not establish Abaddon X on your own turn by itself; life-gain denial isn't enough to replace an engine slot."
+    },
+    {
+      "card": "Guttersnipe",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Three-mana Shaman pings each opponent two for actual instant/sorcery cast and synergizes with Harmonic doubling, but vulnerable creature and narrower cast mix than Kessig."
+    },
+    {
+      "card": "Fiery Inscription",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Three-mana enchantment pings each opponent two per instant/sorcery cast with higher removal resilience than Guttersnipe; loses cheap broad noncreature-trigger coverage and takes a turn/mana to establish."
+    },
+    {
+      "card": "Firebrand Archer",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Redundant inexpensive all-noncreature pinger with current Kessig, but one-toughness creature is vulnerable; judge against source-specific interactions and resilience instead of assuming redundancy always improves the 100."
+    },
+    {
+      "card": "Impact Tremors",
+      "judgment": "REJECT",
+      "reason": "Efficient token-ETB pings can benefit from The Lost and the Damned but cannot establish X until tokens exist; weaker independent Abaddon turn engine than current cast-trigger pingers."
+    }
+  ],
+  "fully_specified_research_alternatives": [
+    {
+      "name": "threshold_exile_six",
+      "status": "RESEARCH_ONLY_ADVERSARIAL_PACKAGE_NO_OPTIMALITY_CLAIM",
+      "physical_cards": 100,
+      "unique_names": 95,
+      "add_count": 6,
+      "adds": [
+        "Ob Nixilis, Captive Kingpin",
+        "Kederekt Parasite",
+        "Spear Spewer",
+        "Ghyrson Starn, Kelermorph",
+        "Blood for the Blood God!",
+        "Mount Doom"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Pyroblast",
+        "Pact of Negation",
+        "Nightscape Familiar",
+        "Call Forth the Tempest",
+        "Mountain"
+      ],
+      "raw_sha256": "f46ef714213a5385eef77430926b98d5cd36b5cd17c6e1ab50ab403b64914e92",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_threshold_exile_six_research_20261022.txt",
+      "strength": "Tests coherent alternative investment in repeated small-ping threshold/exile access and, for eight-swap version, additional commander copies and LED/Saga.",
+      "decisive_counterargument": "Both cut multiple stack-protection cards plus printed double cascade; the eight-swap version also removes Bloodletter and two colored basics. Passing a deck count check says nothing about opponent counterplay or colored tempo."
+    },
+    {
+      "name": "stacked_cascade_eight",
+      "status": "RESEARCH_ONLY_ADVERSARIAL_PACKAGE_NO_OPTIMALITY_CLAIM",
+      "physical_cards": 100,
+      "unique_names": 96,
+      "add_count": 8,
+      "adds": [
+        "Ob Nixilis, Captive Kingpin",
+        "Kederekt Parasite",
+        "Spear Spewer",
+        "Ghyrson Starn, Kelermorph",
+        "Sakashima of a Thousand Faces",
+        "Irenicus's Vile Duplication",
+        "Mount Doom",
+        "Urza's Saga"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Pyroblast",
+        "Pact of Negation",
+        "Nightscape Familiar",
+        "Call Forth the Tempest",
+        "Bloodletter of Aclazotz",
+        "Mountain",
+        "Island"
+      ],
+      "raw_sha256": "7632cdf40c53d713e70634c8a2586b0e7b0e1bd7df862680b15af5142dd1199f",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stacked_cascade_eight_research_20261022.txt",
+      "strength": "Tests coherent alternative investment in repeated small-ping threshold/exile access and, for eight-swap version, additional commander copies and LED/Saga.",
+      "decisive_counterargument": "Both cut multiple stack-protection cards plus printed double cascade; the eight-swap version also removes Bloodletter and two colored basics. Passing a deck count check says nothing about opponent counterplay or colored tempo."
+    }
+  ],
+  "analysis_next": [
+    "Use Scryfall types plus current shell to decide Harmonic Prodigy alternative named cut; directly model 4 existing triggered sources, but do NOT claim it doubles Abaddon cascade.",
+    "Compare Fiery Confluence and Price of Progress against exact Call Forth and existing Boltwave/Flame Rift; explicitly record own-life loss and multiplayer nonbasic mana distribution.",
+    "Run one source-paid small finite anti-stax/counterspell comparison for the package removing both Pact and Pyroblast, including an actual Rule of Law or Drannith adversarial line before concluding.",
+    "Stress threshold early-turn hands with 34 lands and all 3 UBR color requirements. Compare Mount Doom and Urza Saga vs basic slots with representative mana-payable sequences.",
+    "Explore stronger than six/eight alternatives without anchoring at the floor, then make SELECT_ADD/REJECT decisions only when supported.",
+    "Refresh entire 100-card source+candidate Oracle/legality on actual chosen list, rebind changed I/J scopes, rerun invalidated P0/P1, compute fresh SHA, only then present exact final owner deck for approval."
+  ],
+  "hard_blockers": [
+    "No determination yet that any full replacement beats the existing approved rev2 100 while preserving protection, mana and Warhammer cascade identity.",
+    "No whole-final-candidate I/J or M6.10 certification for either staged research list.",
+    "No new Abaddon exact M7 owner approval; existing 0d9... canonical list locked and unchanged."
+  ],
+  "owner_ready": false,
+  "owner_decision_required_now": false,
+  "can_advance_deck3": false
+}
