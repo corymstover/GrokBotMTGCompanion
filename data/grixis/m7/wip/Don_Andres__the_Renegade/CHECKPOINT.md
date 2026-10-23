@@ -25,3 +25,11 @@
 - Oracle snapshot (249 legal U/B/R names) and rules snapshot committed. Baseline logical hash recomputed == registry baseline_hash lh1:012d9c8c…; candidate lh1:d387b103….
 - Mechanics test (16 tests, passing): Pass C (a) Mob Rule vs Insurrection grid 2 spells x 5 tables x 6/7/8 mana x Don present/absent: Insurrection uncastable below 8; at 8 it steals >= Mob Rule everywhere; Mob Rule keeps 115/144 of Insurrection's stolen power (equal on 2/5 tables); Don flips Mob Rule's best mode on one table. (b) Bribery vs Amalgam/Jhoira over densities 0/4/8/15/25: Bribery <= 1 permanent ever (0 at density 0); Amalgam 3 per round from the first opponent upkeep; Jhoira 1 on ETB + 1 per surviving attack. Tapped-Treasure chain check; exact colour access (candidate -0.34 pt with Verges' second colour off, identical when on).
 - Next: tested pool, decision review, I/J memos, adversarial packet, certificate/bundle, workflow, ij/candidate tests.
+
+## Checkpoint 4 — pool + decision review (2026-10-23 08:30 CDT, commit cfad225d)
+- Tested pool (9 configurations), decision review (30 material candidates, 18 weak slots; gate passes, READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED), mechanics test now 17 methods (adds lands-only RR/RRR red availability by 13 cards).
+
+## Checkpoint 5 — memos, packet, certificate/bundle, workflow, tests (2026-10-23 08:37 CDT)
+- I local-best / J mana / J red-team memos; ChatGPT adversarial review packet; M7 certificate + revision bundle (data/grixis/m6/ij/...don-andres-the-renegade-m7.json); workflow m7-don-andres-the-renegade.yml (step names "Deck 14", no '#'); ij test (8) + candidate test (8).
+- Focused: 137 passed (candidate, mechanics, ij, Pass C corpus); gate --check --check-sources passes; bundle checker --check unchanged vs base (2/62 valid).
+- Next: remove WIP, full suite vs b6b40ac8, PR body, ready, exact-head CI.

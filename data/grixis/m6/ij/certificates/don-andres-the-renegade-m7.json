@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Don_Andres__the_Renegade",
+  "slug": "don-andres-the-renegade",
+  "generated_at": "2026-10-23T08:45:00-05:00",
+  "list_hash": "lh1:d387b103e297de4c405cb044322c889c2e1f9a87cb987ff11aba09ec53b11da2",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Don_Andres__the_Renegade_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:56d60885afa81230554ceaf91d40ea2f8aecba1d092d4b83eb8902fe0d0c0c32",
+    "tested_pool_size": 9
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_don_andres_the_renegade_m7_mechanics.py",
+      "tests/test_m7_don_andres_the_renegade_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_don_andres_the_renegade_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Don_Andres__the_Renegade_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Don_Andres__the_Renegade_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Don_Andres__the_Renegade.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 9 complete configurations in the pool: raw baseline, registry canonical export, preferred five, four-swap keeping Blasphemous Act (no Treachery), the Pass C Stage A six-swap (+Mob Rule -Insurrection), the two Pass C named-cut six-swaps (+Bribery -Thieving Amalgam; +Bribery -Jhoira, Weatherlight Corsair), the five-swap with Dazzling Sphinx instead of Gríma and the Nightveil Specter-over-Locke six-swap. It also covers the named single-card contenders. They were judged with finite current-Oracle rules cases; bounded enumerations answering the Pass C requested measured tests (a 60-cell Mob Rule vs Insurrection grid over five fixed mixed tables, 6/7/8 mana and Don present or removed, with lands-only RR/RRR red availability by 13 cards; Bribery vs Thieving Amalgam and Jhoira over five opponent creature densities counting opponent-owned permanents and opponent turns to the first); exact lands-only colour access; Commander Spellbook combo lookups (0 included combos in both lists); and a quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-don-andres-the-renegade.yml; run URLs are recorded in the PR body. There is no statistical multiplayer ranking, no matched-opening playtest sample, no opponent block/response model and no removal-response rate. The A/B seals and the owner-equivalent Pass C (final disposition KEEP; genuinely independent model NO) are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}

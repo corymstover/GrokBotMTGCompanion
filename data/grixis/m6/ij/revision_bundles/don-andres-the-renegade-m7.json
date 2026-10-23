@@ -1,0 +1,217 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Don_Andres__the_Renegade",
+ "slug": "don-andres-the-renegade",
+ "baseline_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "result_hash": "lh1:d387b103e297de4c405cb044322c889c2e1f9a87cb987ff11aba09ec53b11da2",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/don-andres-the-renegade.json.gz",
+   "sha256": "sha256:ef2ae28c2c75d47a363eaf4d48bf15d53c25ee37b082924872a22a68ebd00bcb"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz",
+   "sha256": "sha256:05971870483ee677441cbe650b628e8ebd67a0b982370c9ba65eeab26f0f03bd"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/don-andres-the-renegade.json",
+   "sha256": "sha256:72221e5baa6cfe0e410cc665ee181dd3bbaedcbebbb5af9b91fa487ba0259447"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/don-andres-the-renegade.json",
+   "sha256": "sha256:ec3f649b9ba3f082a4dea84c0aa9efec6f73f1874a31e1d91bee2d3ee58798c0"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/don-andres-the-renegade.json",
+   "sha256": "sha256:d81f3ecab1c06b4f6d7e26b01e89e9b7139fd164134ee3f2dbe2c1136f7723ed"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Don_Andres__the_Renegade.json",
+   "sha256": "sha256:ab2f5d3955dd06cd53bc45f05c90367f9787a4330ae96f8fa06d4df0cf0d6d3f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:3e2f6efee1029d0fb2205e8d1c437bb132fc9a739740593e605235adf73f6625"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_Scryfall_live_20261023.json",
+   "sha256": "sha256:6930fbd1a5bf6909c5b1495db8f3159f50c538904b07823386cbdf15716b9efd"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:5744892463da982053c5533e1503a306605057ee1284b47a553d375a63275fc7"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Don_Andres__the_Renegade_approved_source_2026-10-14.txt",
+   "sha256": "sha256:a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb"
+  },
+  {
+   "path": "exports/grixis-archidekt/don-andres-the-renegade.txt",
+   "sha256": "sha256:3c5a31e6cf23e2b81d7d4e85d28426231de10d714aae769da886aeff384c7e03"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Don_Andres__the_Renegade.txt",
+   "sha256": "sha256:05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_four_keep_BlasphemousAct_no_Treachery_20261023.txt",
+   "sha256": "sha256:d4baf9d635daad40ac79f362eabd67bbd73dd0e3c5e3f4fc0dc3657ba1226ccc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_MobRule_over_Insurrection_20261023.txt",
+   "sha256": "sha256:6ffdaf47d16bb7c17d578d96fa05155d2413c2bb4c6a6803952a93530f73df35"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_ThievingAmalgam_20261023.txt",
+   "sha256": "sha256:dcd5ed862bffe0a630b3f7111cacbb5f0855a5261d54d3204d97488cb6322f38"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_PassC_Bribery_over_Jhoira_20261023.txt",
+   "sha256": "sha256:3f2c534a8e2b31a4ccd31c4a9ea8f469d342a3d10f9f55e5e38bb65f018a1efb"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_five_DazzlingSphinx_instead_of_Grima_20261023.txt",
+   "sha256": "sha256:5fe26dc7258e3fa032b7c4191422dd51f70a0e60f9588f6bf6c90c123b344dba"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Don_Andres__the_Renegade_six_NightveilSpecter_over_Locke_20261023.txt",
+   "sha256": "sha256:0509e7c4fa747b4af12ed9ce4a6a86a3ff137f1c5a9951e39787f8c1946280ea"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Don_Andres__the_Renegade_M7_Scryfall_20261023.json",
+   "sha256": "sha256:139d61baa779a5691df06010f11ac0ee6e8edfe3511b2d2e7a557d12968ec643"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Don_Andres__the_Renegade_M7_20261023.md",
+   "sha256": "sha256:db25a5280fc384dd730fa98bb07e634ccd687265a2bae501c446cd249b60db3f"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/don-andres-the-renegade-m7.json",
+   "sha256": "sha256:6795f8c75c2977133dce8ea0adce69883d19a84e1af8189835242dde2928006d"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Don_Andres__the_Renegade_M6_I_local_best_20261023.md",
+   "sha256": "sha256:d9ce4cc9f05d953c96c743689a6804a9d27a9dafd84ffa74297388c87bf335a2"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Don_Andres__the_Renegade_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:56d60885afa81230554ceaf91d40ea2f8aecba1d092d4b83eb8902fe0d0c0c32"
+  },
+  {
+   "path": ".github/workflows/m7-don-andres-the-renegade.yml",
+   "sha256": "sha256:2c9974da9d4e90e1252fa94790a0b7062e6b976a4979f35bd3f386e15ce60d04"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Don_Andres__the_Renegade_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:06effed0f6aa09e58a36fc33bf6dfc7ff841447e85ab667e8ce452f81973688a"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/don-andres-the-renegade.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/don-andres-the-renegade.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:405961089f78a763fe91866bd8876617a1acbd659b15f6e10406bc2d4371dbb8",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Don_Andres__the_Renegade/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:c2f7a29b6f342133e501de6de2a8b8d16ef958b2ad031d50af2013efc235efd6"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_don_andres_the_renegade_m7_mechanics.py",
+    "source_sha256": "sha256:b20c5352c6dfa1b8d0a1aa30ab83658e61d88f8e021d9cee1edb397770479c98",
+    "seed": 0,
+    "harness_version": "don_andres_m7_finite_rules_and_bounded_pass_c_17_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Seventeen finite seed-0 Oracle-anchored cases. Don Oracle (+2/+2, menace, deathtouch and Pirate type for creatures we control but don't own, 613.1b/613.4c; two tapped Treasures per noncreature spell we cast but don't own, 108.3/110.2/111.2/707.10/111.10a); add and Pass C card Oracle anchors; exact five swaps, UBR identity, singleton, Game Changers 5 to 5, owner-removed classes not re-added, 35 lands and a complete land table; early conditional/tapped lands 5 to 3; 0 Spellbook included combos. Bounded Pass C measured tests: a 60-cell Mob Rule vs Insurrection grid (Insurrection uncastable at 6-7; at 8 it takes at least as much on all five tables; Mob Rule keeps 115/144 of the stolen power, ties on 2/5; Don flips Mob Rule's best mode on one table; 84 power without Don); lands-only red availability by 13 cards (RR 0.8396 to 0.8169, RRR 0.5901 to 0.5529, identical with the Verge condition met; red land sources 22 to 21); Bribery vs Thieving Amalgam and Jhoira over densities 0/4/8/15/25 (Bribery at most 1 permanent, 0 at density 0; Amalgam 3 per round from the first opponent upkeep; none triggers Don); tapped-Treasure chain; exact colour access for Don by 10 cards 0.4898 to 0.4864 (identical with the Verge condition met). Not a game engine or win-rate; no matched-opening playtest or multiplayer sample."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_don_andres_the_renegade_candidate.py",
+    "source_sha256": "sha256:248d8566c93fb6e16dfd3eb107f2e98fe518ea9d26687063ffd3e6c1ed16e302",
+    "seed": 0,
+    "harness_version": "don_andres_m7_gate_candidate_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first, 2x Island the only multi-copy row, case-insensitive alphabetical and 100 physical, gate owner-presentable structure, distinctness vs the Pirate/theft decks disclosed (Nathan Drake 62 to 61, Brass Unsinkable 55 to 53, Beckett Brass 54 to 52, Cormela 31 to 31), owner-removed class flagged and not re-added, Power Bracket 4 and three tags; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #661 head 8bcc4c54 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_don_andres_the_renegade_m7_ij.py",
+    "source_sha256": "sha256:e0225c8bf6180510e9e9c9b02d8b072f2e8bbb62ad878b285b93ccbfff7009ef",
+    "seed": 0,
+    "harness_version": "don_andres_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 9 configurations, runs the J checker, pins the checker sha, and exercises fail-closed Pass C preserved non-independence wording and Stage A seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Don_Andres__the_Renegade_M6_J_red_team_20261023.md",
+  "sha256": "sha256:e8d6ac15a30464db801d094e14fa5467530015c23300c3bc97ca2b34ac1a4cec"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Don_Andres__the_Renegade_M6_J_mana_20261023.md",
+  "sha256": "sha256:90116323d06ce85cd0a9e2d1b86342c35d63097a65a1e6616dc28b3c351740ed"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
