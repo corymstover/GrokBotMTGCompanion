@@ -1,0 +1,4696 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "2577-4050",
+    "uses": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2034-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-2842-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1385-2577-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Zulaport Cutthroat"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-4050-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2034-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2842-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1385-1580-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Zulaport Cutthroat",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "2292-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2438-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Carrion Feeder"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2438-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Carrion Feeder"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "2034-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2577-4871-5147",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Goblin Bombardment"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1218-2822",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Tainted Strike"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "2292-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2822-4651",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Phyresis"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "264-1218",
+    "uses": [
+     "Lord of Tresserhorn",
+     "Tainted Strike"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "264-4651",
+    "uses": [
+     "Lord of Tresserhorn",
+     "Phyresis"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "2452-2577-5147",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Goblin Bombardment"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage",
+     "Infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 283,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2842-5544-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Forsaken Miner",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-3025-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Bastion of Remembrance"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-3025-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Bastion of Remembrance"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "2577-5670-6578",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "884-2577-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Ayara, First of Locthwain"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1580-4050-4314",
+    "uses": [
+     "Reassembling Skeleton",
+     "Phyrexian Altar",
+     "Pawn of Ulamog"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2842-4050-5544",
+    "uses": [
+     "Forsaken Miner",
+     "Phyrexian Altar",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifegain",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-2932-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Bontu's Monument"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifegain",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "2577-4050",
+    "uses": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2034-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-2842-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1385-2577-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Zulaport Cutthroat"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-4050-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2034-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2842-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1385-1580-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Zulaport Cutthroat",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "2292-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2438-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Carrion Feeder"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2438-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Carrion Feeder"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "2034-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2577-4871-5147",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Goblin Bombardment"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1218-2822",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Tainted Strike"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "2292-2452-2577",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2822-4651",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Phyresis"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   },
+   {
+    "id": "264-1218",
+    "uses": [
+     "Lord of Tresserhorn",
+     "Tainted Strike"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "264-4651",
+    "uses": [
+     "Lord of Tresserhorn",
+     "Phyresis"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "2452-2577-5147",
+    "uses": [
+     "Gravecrawler",
+     "Rooftop Storm",
+     "Goblin Bombardment"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite damage",
+     "Infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 286,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2842-5544-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Forsaken Miner",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-3025-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Bastion of Remembrance"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-3025-4871-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Bastion of Remembrance"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "2577-5670-6578",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "884-2577-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Ayara, First of Locthwain"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1580-4050-4314",
+    "uses": [
+     "Reassembling Skeleton",
+     "Phyrexian Altar",
+     "Pawn of Ulamog"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2842-4050-5544",
+    "uses": [
+     "Forsaken Miner",
+     "Phyrexian Altar",
+     "Blood Artist"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite lifegain",
+     "Infinite lifegain triggers",
+     "Infinite lifeloss",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2577-2932-5670",
+    "uses": [
+     "Warren Soultrader",
+     "Gravecrawler",
+     "Bontu's Monument"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite lifegain triggers",
+     "Infinite lifegain",
+     "Infinite storm count",
+     "Infinite lifeloss"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Lord_of_Tresserhorn_PassC_plus_DistortionStrike_minus_RoguesPassage_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_PassC_plus_FierceGuardianship_minus_NightscapeFamiliar_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_PassC_plus_SoulsFire_minus_SheoldredsEdict_over_candidate_Skullclamp_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 280,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_alt_A_four_swaps_keep_SheoldredsEdict_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 280,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_alt_B_Skullclamp_minus_MuddleTheMixture_keep_SheoldredsEdict_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_alt_C_Skullclamp_minus_NightscapeFamiliar_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_rejected_original_tentative_plan_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  },
+  "Lord_of_Tresserhorn_rejected_plus_AqueousForm_minus_MuddleTheMixture_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "2577-4050",
+     "uses": [
+      "Gravecrawler",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2034-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2842-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1385-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Zulaport Cutthroat"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-4050-4871",
+     "uses": [
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Phyrexian Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2034-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-2842-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1385-1580-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Zulaport Cutthroat",
+      "Reassembling Skeleton"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2292-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2577-4871",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2438-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Carrion Feeder"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "2034-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Ashnod's Altar"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite colorless mana",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2577-4871-5147",
+     "uses": [
+      "Gravecrawler",
+      "Pitiless Plunderer",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1218-2822",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "2292-2452-2577",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Viscera Seer"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite scry 1",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2822-4651",
+     "uses": [
+      "Kediss, Emberclaw Familiar",
+      "Phyresis"
+     ],
+     "produces": [
+      "Each opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-1218",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Tainted Strike"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "264-4651",
+     "uses": [
+      "Lord of Tresserhorn",
+      "Phyresis"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "2452-2577-5147",
+     "uses": [
+      "Gravecrawler",
+      "Rooftop Storm",
+      "Goblin Bombardment"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite damage",
+      "Infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 286,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2842-5544-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Forsaken Miner",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-3025-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1580-3025-4871-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Pitiless Plunderer",
+      "Reassembling Skeleton",
+      "Bastion of Remembrance"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "2577-5670-6578",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "884-2577-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Ayara, First of Locthwain"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1580-4050-4314",
+     "uses": [
+      "Reassembling Skeleton",
+      "Phyrexian Altar",
+      "Pawn of Ulamog"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "2842-4050-5544",
+     "uses": [
+      "Forsaken Miner",
+      "Phyrexian Altar",
+      "Blood Artist"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite lifegain",
+      "Infinite lifegain triggers",
+      "Infinite lifeloss",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    },
+    {
+     "id": "2577-2932-5670",
+     "uses": [
+      "Warren Soultrader",
+      "Gravecrawler",
+      "Bontu's Monument"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite lifegain triggers",
+      "Infinite lifegain",
+      "Infinite storm count",
+      "Infinite lifeloss"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T16:31:47-0500"
+}
