@@ -3,17 +3,21 @@
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
   "overall_status": "PARTIAL",
-  "m7_status": "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
-  "note": "Owner-directed no-floor-anchoring and EDHREC top-inclusion/High Lift complete Admiral reevaluation: candidate-specific six-swap full 100, 28 judgments, 16 distinct existing weak roles, and coherent seven/nine replacement 100s. Prior D remains withdrawn, canonical approved/locked unchanged. 2026-10-22 Chicago-local date (GitHub may show October 23 UTC).",
+  "m7_status": "M7_EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
+  "note": "Admiral exact 100-card six-swap rev2 source ff5f54f9... is now explicitly owner-approved and canonically locked via PR #47, SHA 51175f42..., with successful exact-head canonical GitHub Actions. The six improvements were selected after unbounded post-floor and EDHREC High Lift work, not anchored to a five-swap target. Historical unapproved engineering packet remains immutable. Abaddon now active for further RESEARCH_ONLY reassessment; its existing owner-approved six-swap baseline stays locked. No M6.10/M7/M8 milestone owner acceptance.",
   "canonical_authority": {
     "repo": "corymstover/grixis-commander-encyclopediaGPT",
     "branch": "main",
-    "last_verified_head": "915f498e9b1ba018721316c729da41520611570c",
-    "list_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+    "last_verified_head": "da8f2b44d131be3ec7cbee27f9bff1e06e5542c6",
+    "list_path": "refinement/decklists/Admiral_Beckett_Brass_M7_Approved_2026-10-22.txt",
     "approval_registry": "state/current_deck_overrides.json",
-    "approved_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
-    "state": "APPROVED_LOCKED_UNCHANGED",
-    "new_m7_owner_approval": false
+    "approved_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "state": "APPROVED_LOCKED_M7_REV2",
+    "new_m7_owner_approval": true,
+    "previous_approved_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "owner_receipt": "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json",
+    "canonical_approval_pr": "https://github.com/corymstover/grixis-commander-encyclopediaGPT/pull/47",
+    "canonical_approval_merge_commit": "51175f42db559bf161efc0e043a3f2f8d7e1d0d5"
   },
   "engineering_authority": {
     "repo": "corymstover/GrokBotMTGCompanion",
@@ -95,6 +99,10 @@
       {
         "pr": 606,
         "merge_commit": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b"
+      },
+      {
+        "pr": 616,
+        "merge_commit": "81f81dee7c460225955f42ae4f4cf2c199142d40"
       }
     ]
   },
@@ -220,17 +228,17 @@
     "m6_9_reproducibility_J": "COMPLETE_ADMIRAL_BUNDLE_AGGREGATE_PARTIAL_2_OF_62",
     "m6_10_owner_acceptance": "BLOCKED_NOT_OWNER_ACCEPTED_0_OF_62",
     "formal_m6_certifications": "0/62",
-    "new_m7_final_owner_approvals": "1/62_ABADDON_ONLY",
+    "new_m7_final_owner_approvals": "2/62_ABADDON_AND_ADMIRAL",
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Verify both GitHub Actions exact latest PR #616 head SUCCESS after this owner-required ledger receipt/status commit and merge the green reviewed engineering PR.",
-    "Present the exact final Admiral 100-card rev2 list to Cory, six strategic swaps, 28 judgments, 16 challenged incumbents, seven/nine actual 100 alternatives, M6 I/J scope, hash, Bracket 4 and three tags. Do NOT assume his approval.",
-    "On explicit exact-list owner approval, reconfirm SHA and canonically approve/lock Admiral. Otherwise record owner feedback, keep canonical baseline and reopen missing real opportunities.",
-    "After Admiral final owner approval reopen already-approved/locked Abaddon under the owner five-floor-not-target and EDHREC top-inclusion/High Lift rules; do not start deck #3 until both final approved."
+    "Record and preserve Admiral new M7 exact owner approval; no automatic M6.10 certification or formal M7 intake.",
+    "REOPEN Abaddon after its existing approved rev2 exact SHA 0d9f6df8... as immutable baseline: perform open-ended whole-deck post-five-floor strategic discovery, EDHREC top-inclusion and High Lift absent from repo candidate rankings, candidate-specific Oracle/source checks, and at least two complete alternative 100-card packages.",
+    "Preserve Abaddon approved/locked canon; present a newly verified exact candidate only after full M7 gate; do not ask Cory for individual swap decisions.",
+    "Do not advance to commander #3 until Abaddon revised M7 owner approval is explicit and verified."
   ],
-  "owner_decision_required_now": true,
-  "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
+  "owner_decision_required_now": false,
+  "authority_caveat": "Admiral M7 rev2 exact list was explicitly approved and canonically locked; its original owner-ready packet remains historically owner-unapproved in that snapshot and is superseded by the separate owner receipt. Abaddon already has an exact M7 approved canonical lock but is newly owner-directed to reopen research. Neither exact approval is M6.10 or formal aggregate M7/M8 milestone acceptance. The 62 historical approvals are not 62 new M7 exact decisions.",
   "m7_decision_packet": {
     "status": "WITHDRAWN_RESEARCH_ONLY_OWNER_REOPENED",
     "path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass.json",
@@ -712,13 +720,15 @@
       "Reopen and comprehensively revise Abaddon the Despoiler, tracker #1, under unbounded >five floor and EDHREC inclusion/high-lift discovery; preserve its current approved canonical version until new exact owner approval.",
       "Only then advance to tracker deck #3 and beyond."
     ],
-    "active_commander": "Admiral_Beckett_Brass",
-    "abaddon_reopening_status": "SCHEDULED_NOT_YET_REOPENED",
+    "active_commander": "Abaddon_the_Despoiler",
+    "abaddon_reopening_status": "RESEARCH_ONLY_REOPEN_REQUIRED_AFTER_ADMIRAL_CANONICAL_APPROVAL",
     "deck3_hold": true,
-    "canonical_mutation_authorized_now": false
+    "canonical_mutation_authorized_now": false,
+    "admiral_approved_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "admiral_approval_receipt": "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json"
   },
   "m7_rev2_decision_packet": {
-    "status": "OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NEW_M7_LIST_NOT_YET_APPROVED",
+    "status": "EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
     "pr": 616,
     "branch": "chatgpt-admiral-stage13-m7_rev2_ownerready-20261022",
     "path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass_rev2.json",
@@ -733,8 +743,8 @@
       9
     ],
     "edhrec_inclusion_and_high_lift": true,
-    "owner_approval": false,
-    "canonical_changed": false,
+    "owner_approval": true,
+    "canonical_changed": true,
     "independent_M6_10_owner_acceptance": false,
     "full_packet_gate_script": "scripts/grixis_m7_decision_gate.py",
     "candidate_specific_test": "tests/test_m7_admiral_rev2_owner_ready.py",
@@ -744,6 +754,18 @@
       "focused_run": 39883623509,
       "broad_run": 39883623485,
       "both": "SUCCESS"
+    },
+    "owner_approval_receipt": "data/grixis/m7/owner_approvals/Admiral_Beckett_Brass_M7_20261022.json",
+    "completed_pr_merge": "81f81dee7c460225955f42ae4f4cf2c199142d40",
+    "exact_head_passed": {
+      "engineering": [
+        "39883767974",
+        "39883768028"
+      ],
+      "canonical": [
+        "39886352659",
+        "39886352644"
+      ]
     }
   }
 }
