@@ -305,6 +305,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage11_shrine_token_timing.py' -v
       - name: Verify Abaddon stage12 unbounded five/six strategic packages remain source-bound research only
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage12_openended_portfolios.py' -v
+      - name: Verify Abaddon stage13 live EDHREC Oracle, Mage offspring cost, protected 5-7 swap exact 100s
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage13_offranking_protected_packages.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
