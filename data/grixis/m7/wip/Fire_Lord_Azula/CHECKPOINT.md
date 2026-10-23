@@ -1,0 +1,13 @@
+# WIP CHECKPOINT — Deck #19 Fire_Lord_Azula (RESEARCH_IN_PROGRESS, NOT owner-approved)
+
+- Branch: grokbot-deck19-fire-lord-azula-m7-20261023 (base chatgpt-cycle76-m6-refinement b6b40ac8)
+- Baseline: canonical corymstover/grixis-commander-encyclopediaGPT main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path
+  refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt (git blob 0aa3e809; introduced by canonical approval commit 901face
+  2026-10-14, unchanged since; registry source_commit 1836b97 carries the same blob),
+  raw SHA-256 b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5 == state/current_deck_overrides.json
+  approved_list_sha256 == tracker (index 18) final_list_hash == registry recorded_sha256 (recorded_matches_raw true).
+  100 physical cards / 100 rows (all 1x; no basics). Vendored byte-exact copy committed. Archidekt export
+  exports/grixis-archidekt/fire-lord-azula.txt has the same 100 names.
+- Shared infra copied byte-identically from PR #666 head 8150b968 (bundle checker SHA 2962a640...).
+- Completed: baseline_provenance. Next: Pass C read, research (Scryfall live, EDHREC, Spellbook), candidate judgments.
+- Checkpoint written: 2026-10-23T10:49:38-0500
