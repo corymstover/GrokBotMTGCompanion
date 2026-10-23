@@ -1,0 +1,826 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Cult_of_Skaro",
+ "canonical_baseline_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+ "canonical_baseline_logical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "commander_identity": {
+  "mechanical_plan": "Cult of Skaro ({1}{U}{B}{R} 4/4 legendary artifact Dalek, no haste): whenever it attacks, choose one at random: Thay (+1/+1 counter on each artifact creature), Caan (draw two), Sec (3/3 menace Dalek token), Jast (each opponent loses 4). One trigger is worth 1/2 card, 1/4 Dalek and 1 life per opponent in expectation. The deck makes more triggers: clones (Spark Double, Sakashima, Phyrexian Metamorph, Auton Soldier, Irenicus's Vile Duplication, Helm of the Host; the candidate adds Quantum Misalignment and Shaun), trigger copies (Strionic Resonator, Scientist Supreme, Roaming Throne naming Dalek), extra combats (Full Throttle, Great Train Heist, Aggravated Assault; the candidate adds Karlach) and haste (Greaves, Boots, Dalek Emperor; the candidate adds Hammer of Purphoros). An artifact army (Dalek tokens, Thopters, Cybermen, Necrons) turns Thay counters, Master of Etherium, Steel Overseer and combat-damage draw (Research Thief, Thopter Spy Network) into pressure.",
+  "protected_core": [
+   "Cult of Skaro",
+   "Strionic Resonator",
+   "Scientist Supreme of A.I.M.",
+   "Roaming Throne",
+   "Helm of the Host",
+   "Spark Double",
+   "Sakashima of a Thousand Faces",
+   "Phyrexian Metamorph",
+   "Lightning Greaves",
+   "Sword of Feast and Famine",
+   "Aggravated Assault",
+   "Full Throttle",
+   "The Dalek Emperor",
+   "Genesis of the Daleks",
+   "Davros, Dalek Creator"
+  ],
+  "natural_ceiling": "Power Bracket 4 (registry source ceiling 4, Optimized; Grok estimate 4). Game Changers: Cyclonic Rift, Fierce Guardianship, Mana Vault, all unchanged; none of the six adds is a Game Changer. Commander Spellbook: baseline and candidate both have exactly one included combo (900-3750 Sword of Feast and Famine + Aggravated Assault, infinite combat phases, conditional on connecting each combat). No unconditional infinite is claimed.",
+  "anti_homogenization": "Every add multiplies the commander's own attack trigger or its card flow: an every-turn extra combat (Karlach), persistent and rebound Cult copies (Shaun, Quantum Misalignment), haste for each new Cult body (Hammer), Dalek-keyed draw (Kindred Discovery) and team menace (Skorpekh Lord). Generic artifact staples (Foundry Inspector, Cryptothrall, Mirror Box) and off-color cards (Grand Abolisher) were rejected. This keeps Cult a Dalek/Doctor Who attack-trigger deck, distinct from the Grixis artifact-combo and spellslinger decks in the roster."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (93 library rows: Island x3, Mountain x3, Swamp x3, the rest 1x).\nRoles:\n- 34 lands (28 rows) incl. Academy Ruins, Urza's Saga, Inventors' Fair, Plaza of Heroes, Arena of Glory, Great Furnace, Seat of the Synod, Vault of Whispers, Spire of Industry, Urborg, Training Center, Luxury Suite, Morphic Pool, Xander's Lounge, three fetches and seven duals.\n- Ramp: Sol Ring, Mana Vault, Mox Opal, Arcane Signet, Dimir Signet, Fellwar Stone, three Talismans (9 rocks); reducers Etherium Sculptor, Enthusiastic Mechanaut, Shuri.\n- Trigger multipliers: Strionic Resonator, Scientist Supreme, Roaming Throne; clones Spark Double, Sakashima, Phyrexian Metamorph, Auton Soldier, Irenicus's Vile Duplication, Helm of the Host, Nanogene Conversion; extra combats Full Throttle, Great Train Heist, Aggravated Assault.\n- Haste/protection: Lightning Greaves, Swiftfoot Boots, Padeem, Sword of Feast and Famine.\n- Army/payoffs: Dalek Drone, Dalek Squadron, The Dalek Emperor, Davros, Genesis of the Daleks, Doomsday Confluence, Exterminate!, Master of Etherium, Steel Overseer, Cyberman Patrol, Cybermen Squadron, The Master, Multiplied, Ashad, The Cyber-Controller, Missy, Brudiclad, Sai, Biotransference, Thopter Spy Network.\n- Card flow: Research Thief, Canoptek Spyder, Thought Monitor, Baleful Strix, Adaptive Omnitool, Emry, Anrakyr.\n- Interaction: Mana Drain, Fierce Guardianship, Deflecting Swat, Cyber Conversion, Chaos Warp, Cyclonic Rift, Deadly Rollick, Delete, Desynchronization, Their Name Is Death.\nOverlaps: three reducers, two myriad sources whose tokens do not trigger Cult, two haste equipment, several 5+ MV non-trigger payoffs.",
+  "mana_base_and_curve": "Baseline: 34 lands (28 rows; Arena of Glory conditional, Xander's Lounge always tapped); heuristic land sources R 18, B 17, U 17; average nonland MV 3.354; 16 instants/sorceries; 30 creatures incl. Cult. Candidate: 34 lands, sources unchanged (no land swaps); average nonland MV 3.338; 17 instants/sorceries; 28 creatures; rocks 9 (unchanged); artifact reducers 3 -> 2. Kindred Discovery's UU and Hammer's RR rely on 17 blue / 18 red sources plus rocks.",
+  "interaction_resilience": "Stack: Mana Drain, Fierce Guardianship, Deflecting Swat. Removal: Chaos Warp, Cyclonic Rift, Deadly Rollick, Cyber Conversion, Dalek Drone, Exterminate!, Delete, Desynchronization (historic-safe), Their Name Is Death (artifacts survive). Protection: Greaves, Boots, Padeem, Sword. Weak points: artifact wipes, Shaun's death exiling all Synths, Kindred overdraw on large token turns.",
+  "weakest_slots": [
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana payoff whose myriad tokens enter attacking and never trigger Cult (508.4).",
+    "alternative_named": "Karlach, Fury of Avernus",
+    "reasoning": "A second Cult attack trigger every turn for five mana."
+   },
+   {
+    "card": "Canoptek Spyder",
+    "weakness": "Draws only on nontoken artifact creature entries; ignores every token.",
+    "alternative_named": "Kindred Discovery",
+    "reasoning": "Draws on Dalek entry and attack, tokens included (bounded test)."
+   },
+   {
+    "card": "Adaptive Omnitool",
+    "weakness": "Equip {3} dig that only works when the equipped creature attacks.",
+    "alternative_named": "Hammer of Purphoros",
+    "reasoning": "Global haste for Cult and every clone that arrives."
+   },
+   {
+    "card": "The Master, Multiplied",
+    "weakness": "Myriad copies do not trigger Cult; protection mostly served the cut Squadron.",
+    "alternative_named": "Shaun, Father of Synths",
+    "reasoning": "Persistent Cult copies that trigger from the next combat."
+   },
+   {
+    "card": "Anrakyr the Traveller",
+    "weakness": "Life-costly free artifact cast; few expensive artifacts.",
+    "alternative_named": "Quantum Misalignment",
+    "reasoning": "Two non-legendary Cult copies over two turns."
+   },
+   {
+    "card": "Etherium Sculptor",
+    "weakness": "Third artifact reducer; small body.",
+    "alternative_named": "Skorpekh Lord",
+    "reasoning": "Team-wide menace and +1/+0 for every artifact attacker."
+   },
+   {
+    "card": "Thought Monitor",
+    "weakness": "7-drop affinity card draw that does not attack well.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Rejected: Karlach already gives the extra combat."
+   },
+   {
+    "card": "Biotransference",
+    "weakness": "Costs life per artifact spell; enchantment with no immediate board.",
+    "alternative_named": "Hexplate Wallbreaker",
+    "reasoning": "Rejected: 9 mana before its first extra combat."
+   },
+   {
+    "card": "Doomsday Confluence",
+    "weakness": "Expensive X sorcery (XXB) that scales slowly.",
+    "alternative_named": "Mechanized Production",
+    "reasoning": "Rejected: aura on Cult; owner already cut it."
+   },
+   {
+    "card": "Swiftfoot Boots",
+    "weakness": "Second haste equipment next to Lightning Greaves.",
+    "alternative_named": "Rising of the Day",
+    "reasoning": "Rejected: redundant with Hammer; Boots protect Cult."
+   },
+   {
+    "card": "Thopter Spy Network",
+    "weakness": "UU enchantment needing an artifact each upkeep.",
+    "alternative_named": "Reckless Fireweaver",
+    "reasoning": "Rejected: pings only, with no card flow or bodies."
+   },
+   {
+    "card": "Padeem, Consul of Innovation",
+    "weakness": "4-mana non-artifact protection body.",
+    "alternative_named": "Cryptothrall",
+    "reasoning": "Rejected: protects only artifact creatures."
+   },
+   {
+    "card": "Sakashima of a Thousand Faces",
+    "weakness": "4-mana clone with no evasion of its own.",
+    "alternative_named": "Mirror Box",
+    "reasoning": "Rejected: no body and no extra Cult trigger."
+   },
+   {
+    "card": "Full Throttle",
+    "weakness": "6-mana sorcery that does nothing without attackers.",
+    "alternative_named": "World at War",
+    "reasoning": "Rejected: only one extra combat per cast."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Opponent-dependent colors; a plain 2-mana rock.",
+    "alternative_named": "Foundry Inspector",
+    "reasoning": "Rejected: a 3-mana reducer is slower than a 2-mana rock."
+   },
+   {
+    "card": "Baleful Strix",
+    "weakness": "Small 1/1 body in a deck that wants attackers.",
+    "alternative_named": "Weeping Angel",
+    "reasoning": "Rejected: loses creature status whenever an opponent casts a creature."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Cult of Skaro list (2026-10-14) with strong trigger copying and clones. M6 Pass C kept it (NEEDS TESTING) and asked for measured tests of Kindred Discovery, Karlach and Hexplate Wallbreaker. Remaining weaknesses: myriad payoffs whose tokens never trigger Cult, no permanent extra-combat source, no global haste, and card draw keyed to nontoken entries or equipment.",
+  "candidate_pool_scope": "EDHREC Cult of Skaro general (882 decks), upgraded (63) and optimized (13) pages JSON; live Scryfall /cards/collection batch (94 baseline rows + 116 candidates); Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; and OFF-RANKING searches for Dalek-type payoffs, global haste, extra combats and copy effects.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Kindred Discovery and Hammer of Purphoros (absent from every Cult page; both selected), Karlach (135/882; selected), Reckless Fireweaver (absent; rejected), Hexplate Wallbreaker (50/882; rejected), Combat Celebrant (84/882; rejected), World at War (84/882; rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Cult of Skaro approved source refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Cult of Skaro commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23: data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (94 baseline rows + 116 candidates): data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Cult_of_Skaro_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for Dalek-type payoffs, global haste, extra combats and copy effects (Kindred Discovery; Hammer of Purphoros; Reckless Fireweaver; Hexplate Wallbreaker; World at War)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for random modal triggers, copies, entering attacking, additional combats, haste, rebound and the legend rule: data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+  "Bounded finite measured test for the Pass C requests (Kindred/Thief/Spy Network/Spyder draws on 5 fixed boards x 5 hit rates; Karlach/Hexplate trigger and tempo counts): tests/test_m6_cult_of_skaro_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Karlach, Fury of Avernus",
+   "source": "EDHREC Cult of Skaro general 135/882, upgraded 8/63, optimized 2/13; M6 Pass C hypothesis (Karlach over Biotransference or Spyder); live Scryfall batch",
+   "role": "{4}{R} 5/4 legendary Tiefling Barbarian: whenever you attack, if it's the first combat phase, untap all attacking creatures, they gain first strike, and there is an additional combat phase.",
+   "named_cuts": [
+    "Cybermen Squadron"
+   ],
+   "incumbent_opportunity_cost": "Loses Cybermen Squadron ({7} 6/6 artifact creature: nonlegendary artifact creatures have myriad). Its myriad tokens enter tapped and attacking, are exiled at end of combat, and never trigger Cult (CR 508.4).",
+   "commander_synergy": "A second Cult attack trigger every turn, from the turn it lands: Karlach's trigger needs any attacker, not Karlach. Cult and every non-legendary Cult copy (Quantum, Spark Double, Helm, Auton, Irenicus, Shaun's Synth) untap and attack again, so each copy also triggers twice. The second combat also gives Sword of Feast and Famine, Research Thief and Thopter Spy Network a second damage step, and makes Davros's 3-life end-step condition easier. It costs 2 less than Squadron.",
+   "adversarial_downside": "A 5-mana non-artifact body (off-theme for Thay, Master of Etherium, Skorpekh Lord unless Biotransference is out) that does nothing without an attacker. Pass C noted that a second extra-combat source is redundant with Full Throttle, Great Train Heist and Aggravated Assault on the turns those are cast; Karlach is the only permanent one.",
+   "judgment": "SELECT_ADD",
+   "reason": "The commander's value is its attack trigger; Karlach is the only permanent, every-turn source of a second Cult trigger in Grixis. The bounded test counts 1 -> 2 triggers per turn (3 with Shaun plus haste for the Synth) for 5 mana, against a 7-mana damage-only myriad payoff.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+    "tests/test_m6_cult_of_skaro_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Kindred Discovery",
+   "source": "OFF-RANKING (absent from every Cult of Skaro EDHREC page); M6 Pass C Kindred hypothesis; live Scryfall batch",
+   "role": "{3}{U}{U} enchantment: choose Dalek; whenever a Dalek you control enters or attacks, draw a card.",
+   "named_cuts": [
+    "Canoptek Spyder"
+   ],
+   "incumbent_opportunity_cost": "Loses Canoptek Spyder ({5} 2/2 flyer: draw when another nontoken artifact creature or Vehicle enters). Spyder ignores every Dalek, Thopter, Necron and copy token, which are most of this deck's bodies.",
+   "commander_synergy": "Cult, Dalek Drone, Dalek Squadron, The Dalek Emperor, every Cult copy (all Daleks) and the Dalek tokens from Cult's Sec mode, Davros, Genesis of the Daleks, Doomsday Confluence and the Emperor draw on entry and again on each attack, before blockers. With Karlach, each Dalek draws twice in one turn. The bounded measured test (5 fixed boards, hit rates 0..1): Kindred draws 5/4 with Cult alone, 29/4 on a Genesis chapter III turn, and beats Spyder on 4 of 5 boards and Research Thief at every hit rate up to 1/2 on the same 4.",
+   "adversarial_downside": "UU in a deck with 17 heuristic blue land sources and 34 lands; 5 mana for a do-nothing enchantment. Draws are mandatory, so a large Genesis/Confluence turn can overdraw (CR 704.5b deck-out risk, disclosed, not modelled). The deck is deliberately mixed Dalek/Cyberman/Necron (Pass C warning): 15 non-Dalek artifact creatures do not draw.",
+   "judgment": "SELECT_ADD",
+   "reason": "Pass C asked for a Kindred measured test; the bounded version shows it beats Spyder on every Dalek-containing board, so it takes Spyder's slot (Pass C's other pairing, Kindred over Research Thief, is staged and rejected).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+    "tests/test_m6_cult_of_skaro_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_six_PassC_Kindred_over_ResearchThief_20261023.txt"
+   ]
+  },
+  {
+   "card": "Hammer of Purphoros",
+   "source": "OFF-RANKING (absent from every Cult of Skaro EDHREC page); live Scryfall batch",
+   "role": "{1}{R}{R} legendary enchantment artifact: creatures you control have haste; {2}{R}, T, sacrifice a land: create a 3/3 Golem enchantment artifact creature token.",
+   "named_cuts": [
+    "Adaptive Omnitool"
+   ],
+   "incumbent_opportunity_cost": "Loses Adaptive Omnitool ({2} equipment: +1/+1 per artifact; on attack, look at six and take an artifact). Equip {3} and it only digs when the equipped creature attacks.",
+   "commander_synergy": "Cult has no haste (CR 302.6). Hammer lets Cult attack the turn it is cast from the command zone, including after removal and commander tax, and gives haste to every clone the turn it arrives (Quantum Misalignment including its upkeep rebound copy, Spark Double, Sakashima, Phyrexian Metamorph, Auton Soldier, Irenicus's Vile Duplication). It is an artifact for Mox Opal, affinity and Urza's Saga Construct size; late it turns spare lands into 3/3 artifact attackers for Thay counters and Research Thief.",
+   "adversarial_downside": "Only one of several haste sources (Lightning Greaves, Swiftfoot Boots, Brudiclad for tokens, The Dalek Emperor for other Daleks, Arena of Glory). RR pips. Does nothing without creatures.",
+   "judgment": "SELECT_ADD",
+   "reason": "Global haste turns every new Cult body into an immediate trigger; Omnitool is a slow equip-3 dig that Pass C did not defend.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+    "tests/test_m6_cult_of_skaro_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "source": "EDHREC Cult of Skaro general 331/882, upgraded 21/63, optimized 6/13; live Scryfall batch",
+   "role": "{3}{U}{R} legendary Human Scientist: whenever you attack, you may create a tapped and attacking non-legendary Synth artifact creature copy of target attacking legendary creature you control other than Shaun; when Shaun leaves, exile all Synth tokens.",
+   "named_cuts": [
+    "The Master, Multiplied"
+   ],
+   "incumbent_opportunity_cost": "Loses The Master, Multiplied ({4}{B}{R} myriad; legend rule off for creature tokens; our triggers can't exile/sacrifice our creature tokens). Its myriad copies enter attacking and do not trigger Cult (508.4); its protection mostly kept Cybermen Squadron's myriad tokens, which are cut as a package.",
+   "commander_synergy": "Each turn Shaun makes another persistent Cult copy (unlike myriad, the Synth stays until Shaun leaves). The copy enters attacking, so it does not trigger that combat, but with Karlach (order Shaun's trigger above Karlach's, CR 603.3b) it is untapped and, given haste from Hammer of Purphoros or The Dalek Emperor (CR 302.6), attacks in the extra combat for a trigger, and on every later turn it is a normal non-legendary Cult that attacks and triggers. Davros, Ashad, Brudiclad, Missy and Karlach are also valid legendary targets when they attack.",
+   "adversarial_downside": "Copies only legendary attackers. All Synths are exiled if Shaun dies; a non-artifact 5-drop.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts the myriad package (temporary copies that never trigger Cult) into permanent Cult copies that each add an attack trigger from the following combat on.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+    "tests/test_m6_cult_of_skaro_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Quantum Misalignment",
+   "source": "EDHREC Cult of Skaro general 379/882, upgraded 28/63, optimized 6/13; live Scryfall batch",
+   "role": "{4}{U} sorcery with rebound: create a non-legendary token copy of target creature you control.",
+   "named_cuts": [
+    "Anrakyr the Traveller"
+   ],
+   "incumbent_opportunity_cost": "Loses Anrakyr the Traveller ({4}{B} 4/4 legendary Necron: on attack, cast an artifact from hand or graveyard by paying life equal to its MV).",
+   "commander_synergy": "Two non-legendary Cult copies for one card (cast from hand, rebound next upkeep; CR 702.88a). Each copy is a Dalek (Kindred draws, Emperor haste, Roaming Throne) with its own attack trigger. With Hammer or the Emperor the rebound copy attacks that turn.",
+   "adversarial_downside": "Sorcery speed, needs Cult (or another creature) on the battlefield, and the copies die to wipes; rebound fails if it was not cast from hand.",
+   "judgment": "SELECT_ADD",
+   "reason": "Doubles the number of Cult triggers for 5 mana over two turns; Anrakyr's free artifact cast is life-costly and the deck rarely has expensive artifacts in the graveyard.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Skorpekh Lord",
+   "source": "EDHREC Cult of Skaro general 286/882, upgraded 26/63, optimized 2/13; tracker note records an earlier owner revision that cut it for Ashad (Ashad is kept here); live Scryfall batch",
+   "role": "{2}{B} 3/1 artifact Necron: menace; other artifact creatures get +1/+0 and have menace; unearth {2}{B}.",
+   "named_cuts": [
+    "Etherium Sculptor"
+   ],
+   "incumbent_opportunity_cost": "Loses Etherium Sculptor ({1}{U} 1/2: artifact spells cost {1} less), one of three artifact reducers (Enthusiastic Mechanaut and Shuri remain).",
+   "commander_synergy": "Team-wide menace and +1/+0 make Cult, every Cult copy, Cybermen, Necrons and Thopters hard to block. That converts into Research Thief and Thopter Spy Network draws, Sword of Feast and Famine untaps, Davros's 3-life end-step Daleks and the Jast drain finishing. Unearth gives a second use after a wipe.",
+   "adversarial_downside": "A 3/1 that dies to everything; Dalek tokens already have menace. Loses a mana reducer in an affinity/artifact deck.",
+   "judgment": "SELECT_ADD",
+   "reason": "Post-floor sixth swap: evasion for the whole artifact team helps every combat-damage payoff, while two reducers remain. The five-swap list keeping Sculptor is staged as the retained alternative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_five_keep_EtheriumSculptor_20261023.txt"
+   ]
+  },
+  {
+   "card": "Combat Celebrant",
+   "source": "EDHREC Cult of Skaro general 84/882, optimized 3/13; live Scryfall batch",
+   "role": "{2}{R} 4/1 Human Warrior: exert as it attacks to untap all other creatures and get an additional combat.",
+   "named_cuts": [
+    "Thought Monitor"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thought Monitor (affinity 7-drop artifact flyer, draw two on entry), usually cast for 1-3 mana.",
+   "commander_synergy": "A cheap third extra-combat source: one more Cult trigger on a turn Celebrant attacks.",
+   "adversarial_downside": "Must attack itself and exert (every other turn); a 4/1 non-artifact body that dies to any blocker or ping; redundant with Karlach.",
+   "judgment": "REJECT",
+   "reason": "Staged as the seven-swap list. Karlach already provides the every-turn extra combat; Thought Monitor is cheap card advantage on an artifact flyer.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_seven_Celebrant_over_ThoughtMonitor_20261023.txt"
+   ]
+  },
+  {
+   "card": "Hexplate Wallbreaker",
+   "source": "EDHREC Cult of Skaro general 50/882; M6 Pass C Hexplate hypothesis; live Scryfall batch",
+   "role": "{3}{R}{R} equipment, For Mirrodin! (2/2 Rebel): equipped creature gets +2/+2; whenever it attacks in the first combat, untap each attacking creature and add a combat; equip {3}{R}.",
+   "named_cuts": [
+    "Biotransference"
+   ],
+   "incumbent_opportunity_cost": "Would lose Biotransference (all our creatures are artifacts; 2/2 Necron whenever we cast an artifact spell, losing 1 life).",
+   "commander_synergy": "Equipped on Cult it gives a second combat and a second trigger, like Karlach.",
+   "adversarial_downside": "The Rebel is summoning sick; moving it to Cult costs 5 + {3}{R} = 9 mana before the first extra combat (bounded tempo test). Karlach does the same for 5 with no equip step.",
+   "judgment": "REJECT",
+   "reason": "Karlach is the cheaper, immediate version of the same effect.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "tests/test_m6_cult_of_skaro_m7_mechanics.py",
+    "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Mechanized Production",
+   "source": "EDHREC Cult of Skaro general 234/882, upgraded 12/63, optimized 4/13; M6 Pass C secondary; live Scryfall batch",
+   "role": "{2}{U}{U} aura on an artifact you control: each upkeep create a token copy of it; win with eight same-named artifacts.",
+   "named_cuts": [
+    "Doomsday Confluence"
+   ],
+   "incumbent_opportunity_cost": "Would lose Doomsday Confluence (X-modal sorcery: edict nonartifact creatures, make 3/3 Daleks, or scry/draw).",
+   "commander_synergy": "On Cult it makes a non-legendary Cult copy each upkeep.",
+   "adversarial_downside": "An aura on our best creature is 2-for-1 bait; the owner cut it on 2026-10-14, and the Dalek copies need haste to attack the turn they are made.",
+   "judgment": "REJECT",
+   "reason": "Confluence is a flexible wipe/army/draw spell; the owner already removed Mechanized Production from this list.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Rising of the Day",
+   "source": "EDHREC Cult of Skaro general 73/882, optimized 3/13; live Scryfall batch",
+   "role": "{2}{R} enchantment: creatures you control have haste; legendary creatures get +1/+0.",
+   "named_cuts": [
+    "Swiftfoot Boots"
+   ],
+   "incumbent_opportunity_cost": "Would lose Swiftfoot Boots (haste + hexproof, equip {1}).",
+   "commander_synergy": "Global haste like Hammer, so new Cult copies attack at once.",
+   "adversarial_downside": "Redundant with Hammer of Purphoros once Hammer is in; not an artifact; gives no protection to Cult.",
+   "judgment": "REJECT",
+   "reason": "Boots protect Cult from targeted removal; with Hammer already giving global haste, a second haste enchantment adds little.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reckless Fireweaver",
+   "source": "OFF-RANKING (absent from Cult of Skaro EDHREC pages); M6 Pass C secondary; live Scryfall batch",
+   "role": "{1}{R} 1/3 Human Artificer: whenever an artifact you control enters, deal 1 damage to each opponent.",
+   "named_cuts": [
+    "Thopter Spy Network"
+   ],
+   "incumbent_opportunity_cost": "Would lose Thopter Spy Network (upkeep 1/1 flying Thopter while we control an artifact; draw when artifact creatures connect).",
+   "commander_synergy": "Pings on every Dalek token, Thopter, Necron and copy.",
+   "adversarial_downside": "A small non-artifact damage engine; no card flow. Thopter Spy Network gives bodies and draws every turn.",
+   "judgment": "REJECT",
+   "reason": "Thopter Spy Network is both a token source and the deck's per-combat draw engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md"
+   ]
+  },
+  {
+   "card": "Cryptothrall",
+   "source": "EDHREC Cult of Skaro general 371/882, upgraded 33/63, optimized 8/13; live Scryfall batch",
+   "role": "{4} artifact Construct, Protector: other artifact creatures you control have hexproof.",
+   "named_cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "incumbent_opportunity_cost": "Would lose Padeem (artifacts have hexproof; upkeep draw if we control the most-expensive artifact).",
+   "commander_synergy": "Protects Cult and the artifact army from targeted removal.",
+   "adversarial_downside": "Padeem protects all artifacts (equipment, rocks, Helm, Throne, Resonator) and draws; Cryptothrall only artifact creatures.",
+   "judgment": "REJECT",
+   "reason": "Padeem covers more permanents and adds cards.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mirror Box",
+   "source": "EDHREC Cult of Skaro general 176/882, upgraded 8/63, optimized 4/13; live Scryfall batch",
+   "role": "{3} artifact: the legend rule doesn't apply; legendary creatures +1/+1; nontoken creatures get +1/+1 per same-named creature.",
+   "named_cuts": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "incumbent_opportunity_cost": "Would lose Sakashima (clone of Cult that also turns off the legend rule).",
+   "commander_synergy": "Lets Phyrexian Metamorph keep a legendary Cult copy.",
+   "adversarial_downside": "Not a body or trigger by itself; Sakashima is both a Cult copy (Dalek, trigger) and the legend-rule fix.",
+   "judgment": "REJECT",
+   "reason": "Sakashima is two effects in one card; Mirror Box adds no trigger.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "World at War",
+   "source": "EDHREC Cult of Skaro general 84/882, upgraded 6/63, optimized 1/13; live Scryfall batch",
+   "role": "{3}{R}{R} sorcery with rebound: one additional combat after the second main phase; untap the creatures that attacked.",
+   "named_cuts": [
+    "Full Throttle"
+   ],
+   "incumbent_opportunity_cost": "Would lose Full Throttle (two additional combats; untap attackers each combat).",
+   "commander_synergy": "Rebound gives an extra combat on two consecutive turns.",
+   "adversarial_downside": "One extra combat per cast versus two in one turn for Full Throttle, which is what an extra-combat finisher with Jast drains wants.",
+   "judgment": "REJECT",
+   "reason": "Full Throttle's three-combat turn is the stronger finisher.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Foundry Inspector",
+   "source": "EDHREC Cult of Skaro general 454/882, upgraded 36/63, optimized 8/13; live Scryfall batch",
+   "role": "{3} artifact Construct: artifact spells cost {1} less.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would lose Fellwar Stone (2-mana rock).",
+   "commander_synergy": "Replaces Sculptor's reducer role as an artifact body.",
+   "adversarial_downside": "Three mana for a reducer is slower than a 2-mana rock; reducers do not help Cult's colored pips or non-artifact spells.",
+   "judgment": "REJECT",
+   "reason": "Fellwar Stone ramps every spell including Cult; two reducers remain.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Weeping Angel",
+   "source": "EDHREC Cult of Skaro general 300/882, upgraded 23/63, optimized 3/13; live Scryfall batch",
+   "role": "{1}{U}{B} artifact flash first strike vigilance Angel; stops being a creature when an opponent casts a creature spell.",
+   "named_cuts": [
+    "Baleful Strix"
+   ],
+   "incumbent_opportunity_cost": "Would lose Baleful Strix (2-mana artifact flyer, deathtouch, cantrip).",
+   "commander_synergy": "Artifact body for Thay counters.",
+   "adversarial_downside": "Unreliable as an attacker or blocker in creature-heavy pods; no card draw.",
+   "judgment": "REJECT",
+   "reason": "Strix is cheaper card advantage and a reliable deathtouch blocker.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Grand Abolisher",
+   "source": "EDHREC Doctor Who/artifact discovery; live Scryfall batch",
+   "role": "{W}{W} 2/2: opponents can't cast spells on our turn.",
+   "named_cuts": [
+    "Deflecting Swat"
+   ],
+   "incumbent_opportunity_cost": "Would lose Deflecting Swat, a free redirect while Cult is out.",
+   "commander_synergy": "Would stop counterspells and instant removal on our combat turns.",
+   "adversarial_downside": "White color identity, outside U/B/R.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Off color identity (white); not legal in a Cult of Skaro deck.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Karlach, Fury of Avernus",
+   "Kindred Discovery",
+   "Hammer of Purphoros",
+   "Shaun, Father of Synths",
+   "Quantum Misalignment",
+   "Skorpekh Lord"
+  ],
+  "cuts": [
+   "Cybermen Squadron",
+   "Canoptek Spyder",
+   "Adaptive Omnitool",
+   "The Master, Multiplied",
+   "Anrakyr the Traveller",
+   "Etherium Sculptor"
+  ],
+  "coherent_package_tradeoff": "Six one-for-one swaps that raise Cult attack triggers per turn (Karlach, Shaun, Quantum Misalignment, Hammer of Purphoros), add Dalek-keyed card draw (Kindred Discovery) and team evasion (Skorpekh Lord). Losses: the myriad package (Cybermen Squadron + The Master, Multiplied, incl. the Master's token protection), Spyder's nontoken-entry draws, Omnitool's artifact dig, Anrakyr's free artifact casting and one of three artifact reducers (Etherium Sculptor)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Cybermen Squadron",
+    "weakness": "7-mana payoff whose myriad tokens enter attacking and never trigger Cult (508.4).",
+    "alternative_named": "Karlach, Fury of Avernus",
+    "reasoning": "A second Cult attack trigger every turn for five mana."
+   },
+   {
+    "card": "Canoptek Spyder",
+    "weakness": "Draws only on nontoken artifact creature entries; ignores every token.",
+    "alternative_named": "Kindred Discovery",
+    "reasoning": "Draws on Dalek entry and attack, tokens included (bounded test)."
+   },
+   {
+    "card": "Adaptive Omnitool",
+    "weakness": "Equip {3} dig that only works when the equipped creature attacks.",
+    "alternative_named": "Hammer of Purphoros",
+    "reasoning": "Global haste for Cult and every clone that arrives."
+   },
+   {
+    "card": "The Master, Multiplied",
+    "weakness": "Myriad copies do not trigger Cult; protection mostly served the cut Squadron.",
+    "alternative_named": "Shaun, Father of Synths",
+    "reasoning": "Persistent Cult copies that trigger from the next combat."
+   },
+   {
+    "card": "Anrakyr the Traveller",
+    "weakness": "Life-costly free artifact cast; few expensive artifacts.",
+    "alternative_named": "Quantum Misalignment",
+    "reasoning": "Two non-legendary Cult copies over two turns."
+   },
+   {
+    "card": "Etherium Sculptor",
+    "weakness": "Third artifact reducer; small body.",
+    "alternative_named": "Skorpekh Lord",
+    "reasoning": "Team-wide menace and +1/+0 for every artifact attacker."
+   },
+   {
+    "card": "Thought Monitor",
+    "weakness": "7-drop affinity card draw that does not attack well.",
+    "alternative_named": "Combat Celebrant",
+    "reasoning": "Rejected: Karlach already gives the extra combat."
+   },
+   {
+    "card": "Biotransference",
+    "weakness": "Costs life per artifact spell; enchantment with no immediate board.",
+    "alternative_named": "Hexplate Wallbreaker",
+    "reasoning": "Rejected: 9 mana before its first extra combat."
+   },
+   {
+    "card": "Doomsday Confluence",
+    "weakness": "Expensive X sorcery (XXB) that scales slowly.",
+    "alternative_named": "Mechanized Production",
+    "reasoning": "Rejected: aura on Cult; owner already cut it."
+   },
+   {
+    "card": "Swiftfoot Boots",
+    "weakness": "Second haste equipment next to Lightning Greaves.",
+    "alternative_named": "Rising of the Day",
+    "reasoning": "Rejected: redundant with Hammer; Boots protect Cult."
+   },
+   {
+    "card": "Thopter Spy Network",
+    "weakness": "UU enchantment needing an artifact each upkeep.",
+    "alternative_named": "Reckless Fireweaver",
+    "reasoning": "Rejected: pings only, with no card flow or bodies."
+   },
+   {
+    "card": "Padeem, Consul of Innovation",
+    "weakness": "4-mana non-artifact protection body.",
+    "alternative_named": "Cryptothrall",
+    "reasoning": "Rejected: protects only artifact creatures."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Kindred Discovery, Hammer of Purphoros and Karlach (selected); Reckless Fireweaver, Hexplate Wallbreaker, Combat Celebrant, World at War (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment",
+     "Skorpekh Lord"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor"
+    ],
+    "result_and_rationale": "Selected six-swap package: more Cult attack triggers per turn (Karlach's extra combat, Shaun's persistent copies, Quantum's two copies, Hammer's haste for every new Cult body), pre-damage Dalek card flow (Kindred Discovery) and team evasion (Skorpekh Lord). Lands stay at 34; rocks stay at 9."
+   },
+   {
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller"
+    ],
+    "result_and_rationale": "Staged five-swap alternative keeping Etherium Sculptor. Retained: keeps a third reducer but loses team menace for the combat-damage payoffs."
+   },
+   {
+    "adds": [
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Quantum Misalignment",
+     "Skorpekh Lord"
+    ],
+    "cuts": [
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor"
+    ],
+    "result_and_rationale": "Staged four-swap alternative keeping the myriad package (Cybermen Squadron + The Master, Multiplied). Rejected: myriad copies never trigger Cult (508.4)."
+   },
+   {
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment",
+     "Skorpekh Lord"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Research Thief",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor"
+    ],
+    "result_and_rationale": "Staged Pass C Kindred pairing: Kindred over Research Thief, Spyder kept. Rejected by the bounded draw test."
+   },
+   {
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment",
+     "Skorpekh Lord"
+    ],
+    "cuts": [
+     "Biotransference",
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor"
+    ],
+    "result_and_rationale": "Staged Pass C Karlach pairing: Karlach over Biotransference, Cybermen Squadron kept. Rejected: Biotransference makes Shaun, Karlach and clones artifacts and creates Necrons."
+   },
+   {
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment",
+     "Skorpekh Lord",
+     "Combat Celebrant"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor",
+     "Thought Monitor"
+    ],
+    "result_and_rationale": "Staged seven-swap list adding Combat Celebrant over Thought Monitor. Rejected: redundant extra combat for a card-draw flyer."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C paired Kindred Discovery with Research Thief and Karlach with Biotransference or Canoptek Spyder. Here Kindred takes Spyder's slot and Karlach takes Cybermen Squadron's; both Pass C pairings are staged as complete six-swap 100s and rejected (Thief beats Kindred on non-Dalek or fully connecting boards; Biotransference supports the non-artifact adds).",
+  "strongest_argument_against_baseline": "The commander's value is its attack trigger, yet the baseline spent 13 mana on a myriad package whose tokens never trigger Cult, had no permanent extra-combat source, no global haste for new Cult copies, and card draw keyed to nontoken entries (Spyder) or an equip-3 dig (Omnitool).",
+  "evidence_based_answer": "Six swaps: an every-turn extra combat (Karlach), persistent and rebound Cult copies (Shaun, Quantum Misalignment), global haste (Hammer), Dalek-keyed draw (Kindred Discovery, supported by the bounded measured test) and team menace (Skorpekh Lord). The Spellbook combo set is unchanged (900-3750 only)."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Cult_of_Skaro.txt",
+  "sha256": "8b765d85649db64607c508bb3535466673593768ce729a9087a0260dc512624d",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically (Island x3, Mountain x3, Swamp x3). Six substitutions against the canonical source. 34 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Cult_of_Skaro_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+   "tests/test_m6_cult_of_skaro_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Artifacts",
+   "Extra Combats",
+   "Copies"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five-swap floor, Skorpekh Lord over Etherium Sculptor was added as a sixth swap, and every remaining incumbent was re-read against the candidate pool. Ten post-floor challenges were recorded and rejected on Cult-specific grounds; one larger seven-swap package (Combat Celebrant over Thought Monitor) is staged as a complete 100.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Thought Monitor",
+    "challenger": "Combat Celebrant",
+    "tradeoff": "Celebrant gives a third extra-combat source, but it must attack and exert; Thought Monitor draws two on an affinity artifact flyer that often costs 1-3.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Biotransference",
+    "challenger": "Hexplate Wallbreaker",
+    "tradeoff": "Wallbreaker adds a combat only once moved to Cult for 9 total mana; Biotransference makes every creature an artifact and creates a Necron per artifact spell.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Doomsday Confluence",
+    "challenger": "Mechanized Production",
+    "tradeoff": "Production copies Cult each upkeep, but as an aura on our key creature it is a 2-for-1 risk, and the owner already cut it; Confluence is a flexible wipe/army/draw spell.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Swiftfoot Boots",
+    "challenger": "Rising of the Day",
+    "tradeoff": "Rising adds global haste, which Hammer of Purphoros already gives; Boots also give Cult hexproof against spot removal.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Thopter Spy Network",
+    "challenger": "Reckless Fireweaver",
+    "tradeoff": "Fireweaver pings per artifact entry, but gives no cards or bodies; Spy Network makes a flyer each upkeep and draws per connecting combat.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Padeem, Consul of Innovation",
+    "challenger": "Cryptothrall",
+    "tradeoff": "Cryptothrall protects artifact creatures only; Padeem protects every artifact and draws when we control the most expensive artifact.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Sakashima of a Thousand Faces",
+    "challenger": "Mirror Box",
+    "tradeoff": "Mirror Box turns off the legend rule without adding a body; Sakashima is also a triggering Cult copy.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Full Throttle",
+    "challenger": "World at War",
+    "tradeoff": "World at War spreads one extra combat over two turns; Full Throttle's two extra combats in one turn is the finisher.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Fellwar Stone",
+    "challenger": "Foundry Inspector",
+    "tradeoff": "Inspector reduces artifact costs from turn four on; Fellwar Stone ramps every spell including Cult's colored cost.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Baleful Strix",
+    "challenger": "Weeping Angel",
+    "tradeoff": "Weeping Angel stops being a creature whenever an opponent casts a creature; Strix is a cheap cantrip deathtouch flyer.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_seven_Celebrant_over_ThoughtMonitor_20261023.txt",
+    "sha256": "70cfc56863323ba42e731674195309b19b0d719a3a2c4133138de74c24518234",
+    "adds": [
+     "Karlach, Fury of Avernus",
+     "Kindred Discovery",
+     "Hammer of Purphoros",
+     "Shaun, Father of Synths",
+     "Quantum Misalignment",
+     "Skorpekh Lord",
+     "Combat Celebrant"
+    ],
+    "cuts": [
+     "Cybermen Squadron",
+     "Canoptek Spyder",
+     "Adaptive Omnitool",
+     "The Master, Multiplied",
+     "Anrakyr the Traveller",
+     "Etherium Sculptor",
+     "Thought Monitor"
+    ],
+    "case_for_extra_swaps": "Adds a third extra-combat source for turns when Karlach is not available, so Cult triggers on more turns.",
+    "why_not_selected": "Karlach already supplies the extra combat every turn; Celebrant exerts and dies to any blocker, and Thought Monitor's card draw matters more."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at six; the five-swap floor was not used as a target. Each remaining weak-looking slot beats its best challenger on deck-specific grounds: cheap affinity draw (Thought Monitor), artifact typing and Necrons for the non-artifact adds (Biotransference), a flexible wipe/army spell (Doomsday Confluence), hexproof plus haste on Cult (Swiftfoot Boots), per-combat draw (Thopter Spy Network), all-artifact protection (Padeem), a triggering clone that also fixes the legend rule (Sakashima), the three-combat finisher (Full Throttle), early ramp (Fellwar Stone) and a cheap cantrip blocker (Baleful Strix)."
+ }
+}

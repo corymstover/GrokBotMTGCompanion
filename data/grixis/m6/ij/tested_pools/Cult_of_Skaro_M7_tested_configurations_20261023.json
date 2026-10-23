@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Cult_of_Skaro",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Cult_of_Skaro_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 8,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Cult_of_Skaro_approved_source_2026-10-14.txt",
+   "raw_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+   "logical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 4c221e5b…, canonical encyclopedia main 9b26aa28 blob bcb22f01; logical hash = registry baseline_hash). 34 lands (Island x3, Mountain x3, Swamp x3), 9 mana rocks, average nonland MV 3.354, 16 instants/sorceries, 30 creatures. Commander Spellbook: 1 included combo (900-3750 Sword of Feast and Famine + Aggravated Assault). The registry's recorded digest equals the raw bytes, so there is no provenance exception. The tracker note's 'cc2f7a54' reference is a different 10-13 file and is documented, not used."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/cult-of-skaro.txt",
+   "raw_sha256": "e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d",
+   "logical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format, so the raw bytes differ. Logical hash = registry current_canonical_hash = baseline_hash."
+  },
+  {
+   "id": "PREFERRED_SIX",
+   "path": "data/grixis/m7/candidate_lists/Cult_of_Skaro.txt",
+   "raw_sha256": "8b765d85649db64607c508bb3535466673593768ce729a9087a0260dc512624d",
+   "logical_hash": "lh1:59daa556db94bb2a0ba3226415e82871cd9e98fb3bb3888049ed0eda31b3b7f7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Karlach, Fury of Avernus +Kindred Discovery +Hammer of Purphoros +Shaun, Father of Synths +Quantum Misalignment +Skorpekh Lord / -Cybermen Squadron -Canoptek Spyder -Adaptive Omnitool -The Master, Multiplied -Anrakyr the Traveller -Etherium Sculptor. 34 lands (unchanged), 9 rocks (unchanged), average nonland MV 3.338, 17 instants/sorceries, 28 creatures. Spellbook unchanged (900-3750 only). Multiplies Cult attack triggers (Karlach second combat, Shaun persistent Synth copies, Quantum two copies, Hammer haste for Cult and every clone) and adds pre-damage Dalek card flow. Losses: the myriad package (Cybermen Squadron + The Master, Multiplied), Spyder's nontoken-ETB draws, Omnitool's artifact dig, Anrakyr's free artifact casting, one of three artifact cost reducers."
+  },
+  {
+   "id": "FIVE_KEEP_ETHERIUM_SCULPTOR",
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_five_keep_EtheriumSculptor_20261023.txt",
+   "raw_sha256": "097b67710d96f8ba8205a547ea71271bf9946649492b90897345317b4a5e304f",
+   "logical_hash": "lh1:ecdae7f1a087a6d8836bb268b7cbba29ce0d942277995949942e2866d82a4a14",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged, not selected). The preferred six without Skorpekh Lord, keeping Etherium Sculptor. Keeps a third two-mana reducer for the 9-rock / expensive-artifact curve; loses team-wide menace and +1/+0 that make Cult, Dalek tokens and Cybermen connect for Sword, Research Thief and Thopter Spy Network. MODERATE confidence."
+  },
+  {
+   "id": "FOUR_KEEP_MYRIAD_PACKAGE",
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_four_keep_myriad_package_20261023.txt",
+   "raw_sha256": "278fb08fe39bd1a2aff20a715471ebd766abdbd000d84875873478aa2c25dc22",
+   "logical_hash": "lh1:290f754d6e325c44b00f26f4c3cb4973442e1bada77b89324c302bd54d1681f0",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (four-swap, staged). The preferred six without Karlach and Shaun, keeping Cybermen Squadron and The Master, Multiplied. Myriad copies enter attacking and never trigger Cult (508.4); 13 mana of payoffs for damage only, versus 10 mana that adds Cult attack triggers every turn. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_KINDRED_OVER_RESEARCH_THIEF",
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_six_PassC_Kindred_over_ResearchThief_20261023.txt",
+   "raw_sha256": "bab8db1290cffed43d1acd66ea7be0aed5f2bfa473049bf7b406a6d0c6f71659",
+   "logical_hash": "lh1:01dfa64b61e10c3da415a72a4eae00a9147b0245427c0ea1d5bcbcbadf0f9383",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Pass C's Kindred pairing: Kindred Discovery takes Research Thief's slot and Canoptek Spyder stays. The bounded measured test shows Thief is the better draw engine on non-Dalek or fully connecting boards and is a flash flying artifact body; Spyder draws only on nontoken artifact creature entries (15 non-Dalek artifact creature cards in the candidate, none of the tokens). MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_KARLACH_OVER_BIOTRANSFERENCE",
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_six_PassC_Karlach_over_Biotransference_20261023.txt",
+   "raw_sha256": "c61db56ccd255d7faf7cfb2a4b737fb36498dc115845dc58c815d73b1372ffbb",
+   "logical_hash": "lh1:955af188d38d067e1fbec588d568964d0d17afa7b692890f14ad65838d2eb5cc",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). Pass C's Karlach pairing: Karlach takes Biotransference's slot and Cybermen Squadron stays. Biotransference makes a 2/2 Necron per artifact spell and turns Shaun, Karlach and the clones into artifacts for Thay, Skorpekh Lord, Research Thief and Master of Etherium; Squadron is a 7-mana damage-only payoff. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_CELEBRANT_OVER_THOUGHT_MONITOR",
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_seven_Celebrant_over_ThoughtMonitor_20261023.txt",
+   "raw_sha256": "70cfc56863323ba42e731674195309b19b0d719a3a2c4133138de74c24518234",
+   "logical_hash": "lh1:0e2a2f9355a7d6e2955f6288a7181874aa3d85a224e35d6fcb821cef0adf0fa1",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). The preferred six plus Combat Celebrant over Thought Monitor. Celebrant is a third extra-combat source, but it must attack itself, is a nonartifact 3-drop and exerts; Thought Monitor is affinity card draw on an artifact flyer. MODERATE confidence."
+  }
+ ]
+}

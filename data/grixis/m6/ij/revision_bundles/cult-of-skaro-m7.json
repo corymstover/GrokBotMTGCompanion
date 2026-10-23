@@ -1,0 +1,213 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Cult_of_Skaro",
+ "slug": "cult-of-skaro",
+ "baseline_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "result_hash": "lh1:59daa556db94bb2a0ba3226415e82871cd9e98fb3bb3888049ed0eda31b3b7f7",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/cult-of-skaro.json.gz",
+   "sha256": "sha256:4ed163b71119bc5ed3f0f6d41c0d6700f13f05fbd54c31d308dade7671319f33"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/cult-of-skaro.json.gz",
+   "sha256": "sha256:139faad86e12289d855cfb0b29e9982181f400ee46e554f0d0445e3edc1ec95f"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/cult-of-skaro.json",
+   "sha256": "sha256:56cf2a6687d13619db4a08fc96f62ae9ced1eecd4ad635151fa09d6a235e7e37"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/cult-of-skaro.json",
+   "sha256": "sha256:1b19ca93a602206c65440cc16811a77fa9d39bb7738776da4b2ba490b76d5cdc"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/cult-of-skaro.json",
+   "sha256": "sha256:5b0472628b853f7521133d37f2a48d79cfa548512ddd24c2c2beb2bb520fdb1b"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cult_of_Skaro.json",
+   "sha256": "sha256:3f563f6fb5dfb383d211b131bc820d7c761f2949e766e4f0f14b298f7a4a6a41"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:a2edae3c05f3769f98229a5e9866b0090362e34e52a0f5e9291ef2c3dc43041b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_Scryfall_live_20261023.json",
+   "sha256": "sha256:2eee7548231b7df30432ed048cbfc637c4b5f46ad0e5b9efa527f924a4965a02"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:67b030e57e1b5d89839c3ed747748234149bb3beb3161330de716f25363c043e"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Cult_of_Skaro_approved_source_2026-10-14.txt",
+   "sha256": "sha256:4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b"
+  },
+  {
+   "path": "exports/grixis-archidekt/cult-of-skaro.txt",
+   "sha256": "sha256:e17919e46769952d0318157693b278c29ba9a39a352105fa76df9abb9a868e7d"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Cult_of_Skaro.txt",
+   "sha256": "sha256:8b765d85649db64607c508bb3535466673593768ce729a9087a0260dc512624d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_five_keep_EtheriumSculptor_20261023.txt",
+   "sha256": "sha256:097b67710d96f8ba8205a547ea71271bf9946649492b90897345317b4a5e304f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_four_keep_myriad_package_20261023.txt",
+   "sha256": "sha256:278fb08fe39bd1a2aff20a715471ebd766abdbd000d84875873478aa2c25dc22"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_six_PassC_Kindred_over_ResearchThief_20261023.txt",
+   "sha256": "sha256:bab8db1290cffed43d1acd66ea7be0aed5f2bfa473049bf7b406a6d0c6f71659"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_six_PassC_Karlach_over_Biotransference_20261023.txt",
+   "sha256": "sha256:c61db56ccd255d7faf7cfb2a4b737fb36498dc115845dc58c815d73b1372ffbb"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cult_of_Skaro_seven_Celebrant_over_ThoughtMonitor_20261023.txt",
+   "sha256": "sha256:70cfc56863323ba42e731674195309b19b0d719a3a2c4133138de74c24518234"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json",
+   "sha256": "sha256:e898e2602005920cb84b45dcff7a4685212272c2a66d159ee26637f956b2062a"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Cult_of_Skaro_M7_20261023.md",
+   "sha256": "sha256:bf84d9e24d00773b58e7052c57130817256e108baad30ce9aa81fcb4bf00c0a0"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/cult-of-skaro-m7.json",
+   "sha256": "sha256:aa9d66d36697699455ab09467ed1c66966c11bb29bab86eb898ae815f5ca642a"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Cult_of_Skaro_M6_I_local_best_20261023.md",
+   "sha256": "sha256:8c9f69bc4c57215241041027b490cd3d3233e13e851c8c438dfc66d11a9ba409"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Cult_of_Skaro_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:9a6b117d2fb9a19db080fa3b331e3fb607ce900a4b343bcc468f2c691f98f387"
+  },
+  {
+   "path": ".github/workflows/m7-cult-of-skaro.yml",
+   "sha256": "sha256:25ec60b9c2dbab2e0043915739226941d86d88967f5cbcd90d23a403a9ec2d62"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cult_of_Skaro_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:ac3477aeec778e724ccf8da770258f9249de28614798e6388d066867d67113ae"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/cult-of-skaro.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/cult-of-skaro.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:5b7a984e643f8e5ad458381492b82b757310dd9b977ca0862997a8141d0e39cd",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Cult_of_Skaro/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:872532a330eb56e4ba55095091c81b147a13557e5d73d7822b8fde2dc1285a9c"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_cult_of_skaro_m7_mechanics.py",
+    "source_sha256": "sha256:1e5811b91a1defc4cdab2fa3699e43bb5d2989d80f1e6acf80a8e7a370964a92",
+    "seed": 0,
+    "harness_version": "cult_m7_finite_rules_and_bounded_pass_c_11_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eleven finite seed-0 Oracle-anchored cases: Cult of Skaro Oracle (random attack mode, no haste), add Oracle anchors; Cult attack-trigger counts per turn (1; Karlach 2; Karlach+Shaun 2 without and 3 with haste for the new Synth under CR 302.6; Roaming Throne doubling) and expected value per trigger (1/2 card, 1/4 Dalek, 1 life per opponent); myriad and entering-attacking tokens never trigger Cult (508.4); the actual subtype mix of the 100 (4 Dalek creature cards, 18 -> 15 other artifact creatures); bounded Pass C measured test enumerating Kindred Discovery vs Research Thief vs Thopter Spy Network vs Canoptek Spyder draws over 5 fixed boards x 5 hit rates (Kindred 5/4 Cult alone, 29/4 Genesis chapter III, 13/4 mixed board, 0 post-wipe non-Dalek; Kindred >= Thief at hit rate <= 1/2 on the 4 Dalek boards; Kindred > Spyder on 4 of 5); Karlach vs Biotransference/Spyder opportunity costs; Hexplate Wallbreaker needs 9 mana before its first extra combat vs 5 for Karlach; exact swaps with core preserved, 34 lands; legality, UBR identity, singleton, 3 Game Changers unchanged; Spellbook combos unchanged (900-3750 only). Not a game engine or win-rate; Kindred overdraw not modeled."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_cult_of_skaro_candidate.py",
+    "source_sha256": "sha256:2f553d4f5fc231dbfd240467edcb7489909ae6061de09cc9e42230e1d3a4af59",
+    "seed": 0,
+    "harness_version": "cult_m7_gate_candidate_5_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact six physical swaps against vendored and canonical sources, registry hashes untouched, single commander first and 100 physical, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #658 head 7953eef5 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_cult_of_skaro_m7_ij.py",
+    "source_sha256": "sha256:06070e934464b6e0d93f88291778d9fe982d0ffa49cd015ad932e6a2fb172c30",
+    "seed": 0,
+    "harness_version": "cult_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas, runs the J checker, pins the checker sha, and exercises fail-closed Pass C non-independence wording and Stage A seal mapping cases (explicit-FALSE disclosure path); provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Cult_of_Skaro_M6_J_red_team_20261023.md",
+  "sha256": "sha256:4c12ff8a5d59d1d527bb655635865d8fa110b06f9f6a3f992458f18e3e3ae0c6"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Cult_of_Skaro_M6_J_mana_20261023.md",
+  "sha256": "sha256:c49804cf736d58d7238a3da613eef15a78909d03cdb7b563037ea74e5b0a16a8"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
