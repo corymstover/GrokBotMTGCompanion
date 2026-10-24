@@ -7,8 +7,11 @@ on:
       - .github/workflows/m7-kess-chatgpt-rev1.yml
       - data/grixis/m7/independent_reviews/Kess__Dissident_Mage_ChatGPT_Rev1_candidate.txt
       - data/grixis/m7/independent_reviews/Kess__Dissident_Mage_ChatGPT_Rev1_review.md
+      - data/grixis/m7/decision_reviews/Kess__Dissident_Mage_rev1.json
+      - data/grixis/m7/candidate_lists/Kess__Dissident_Mage_ChatGPT_Rev1*.txt
       - data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json
       - tests/test_m7_kess_chatgpt_rev1.py
+      - tests/test_m6_kess_rev1_case_transfer.py
   workflow_dispatch:
 
 permissions:
@@ -31,3 +34,7 @@ jobs:
         run: git rev-parse HEAD
       - name: Verify exact 100, SHA, five swaps, current sourced Commander legality and mechanics, no authority changes
         run: python -m unittest discover -s tests -p test_m7_kess_chatgpt_rev1.py -v
+      - name: Execute all fourteen source-bound Kess M6-transfer mechanical cases
+        run: python -m unittest discover -s tests -p test_m6_kess_rev1_case_transfer.py -v
+      - name: Validate decisive M7 Rev1 packet and full-deck staged challenger audit
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Kess__Dissident_Mage_rev1.json
