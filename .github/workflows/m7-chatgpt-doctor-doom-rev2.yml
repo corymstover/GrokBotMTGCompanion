@@ -1,0 +1,26 @@
+name: Doctor Doom ChatGPT Independent M7 Rev2 Nine-Swap Verification
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/independent_reviews/Doctor_Doom__King_of_Latveria_ChatGPT_M7_Rev2_Candidate_2026-10-23.txt"
+      - "data/grixis/m7/independent_reviews/Doctor_Doom__King_of_Latveria_Approved_Baseline_2026-10-14.txt"
+      - "data/grixis/m7/independent_reviews/Doctor_Doom__King_of_Latveria_ChatGPT_M7_Rev2_Selected_Oracle_2026-10-23.json"
+      - "data/grixis/m7/independent_reviews/Doctor_Doom__King_of_Latveria_ChatGPT_M7_Rev2_Decision_2026-10-23.md"
+      - "data/grixis/m7/independent_reviews/Doctor_Doom__King_of_Latveria_ChatGPT_M7_Rev2_Tested_Pool_2026-10-23.json"
+      - "tests/test_m7_doctor_doom_chatgpt_rev2_independent.py"
+      - ".github/workflows/m7-chatgpt-doctor-doom-rev2.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent-doctor-doom-nine-swap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify exact Doom candidate source identities legality and bounded interactions
+        run: python -m unittest discover -s tests -p 'test_m7_doctor_doom_chatgpt_rev2_independent.py' -v
