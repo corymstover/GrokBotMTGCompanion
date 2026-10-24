@@ -1,6 +1,6 @@
 # Deck #19 Fire Lord Azula — ChatGPT independent M7 adversarial checkpoint (2026-10-24)
 
-**STATUS: RESEARCH_ONLY / NOT OWNER-APPROVED / NOT CANONICAL / NO FINAL CANDIDATE YET.**
+**STATUS: CHATGPT M7 REV2 EXACT-100 APPROVAL CANDIDATE STAGED / NOT OWNER-APPROVED / NOT CANONICAL.** See the separate Rev2 decision packet and CI receipt; earlier comparisons below remain historical research.
 
 This review is stacked on GrokBot PR #667 head `1946a316e457f5751dbd8bca2f3e67bdf0530cd7` for provenance. It does **not** revise the approved canonical October 14 source `refinement/decklists/Fire_Lord_Azula_Approved_2026-10-14.txt` (raw SHA-256 `b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5`). GrokBot's proposed candidate `f4136ea0028ee787dddad379e12a7e34ccdaa6578a52d1c63ae953734e5806f2` is first-pass research, **not** an owner-approved M7 deck.
 
@@ -79,3 +79,8 @@ Both add Turnabout (over Samut Tyrant), Sink into Stupor MDFC (over Exotic Orcha
 **Bounded finite Azula-castability model:** baseline turn-four-play estimate 0.4920; Electro Five 0.4900 with MDFC as land (0.4626 without); Electro Six 0.4874 with MDFC as land (0.4604 without). Electro Five on the draw 0.5834 and Electro Six 0.5805. These are **not** multiplayer win rates and omit much relevant cEDH play; they only constrain simplistic claims that a mana-base switch is free. The revised source-bound check is `tests/test_m7_fire_lord_azula_chatgpt_alternatives.py`. Exact-head CI outcome must be checked before any approval-ready statement.
 
 No canonical file was edited. Staged alternatives remain **RESEARCH_ONLY**, and the final candidate and signed strategic tradeoff await independent selection and tests.
+
+
+## Owner-facing selected candidate and final engineering seal
+
+Following all five alternatives, **Electro Five** was selected for a five-swap owner review. Identical raw bytes were promoted to `data/grixis/m7/candidate_lists/Fire_Lord_Azula_ChatGPT_M7_Rev2_Approval_Candidate_2026-10-24.txt`, raw SHA-256 `77ac26a4f4ff70d0a7a666b07fa9fe051e52fe0547d8320d84490d088c0cc273`. Complete strategic reasoning, interactions, rejected sixth, and owner approval boundary are in `Fire_Lord_Azula_M7_Rev2_Decision_Packet_2026-10-24.md`. GitHub Actions focused validation **passed** on pre-checkpoint head `843959ce8e7b8b05fea834be93bb45031e540d52` (job `120792508189`); **verify new exact final head after this document commit**. This proposal does not change canonical approved decks.
