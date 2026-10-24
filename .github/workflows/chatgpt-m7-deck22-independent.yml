@@ -1,0 +1,31 @@
+name: ChatGPT M7 Deck 22 Gwendlyn Di Corci independent research candidate
+on:
+  pull_request:
+    branches: [grokbot-deck22-gwendlyn-di-corci-m7-20261023]
+    paths:
+      - .github/workflows/chatgpt-m7-deck22-independent.yml
+      - data/grixis/m7/independent_reviews/Gwendlyn_Di_Corci_*
+      - data/grixis/m7/independent_candidates/Gwendlyn_Di_Corci_*
+      - tests/test_m7_gwendlyn_di_corci_independent_review.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  independent-gwendlyn-m7:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact research PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Use Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Report source head
+        run: git rev-parse HEAD
+      - name: Verify complete 100, raw hashes, legality, commander triggers, timing and mana cases
+        run: python -m unittest -v tests.test_m7_gwendlyn_di_corci_independent_review

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "deck_id": "Gwendlyn_Di_Corci",
+  "as_of_date": "2026-10-24",
+  "snapshot_reference": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+  "purpose": "Published Scryfall page facts only; full-live-100 Scryfall API collection not asserted; Freed from the Real is alternative only.",
+  "cards": {
+    "Sting, the Glinting Dagger": {
+      "cmc": 2,
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "mana_cost": "{2}",
+      "name": "Sting, the Glinting Dagger",
+      "oracle_id": null,
+      "oracle_text": "Equipped creature gets +1/+1 and has haste.\nAt the beginning of each combat, untap equipped creature.\nEquipped creature has first strike as long as it's blocking or blocked by a Goblin or Orc.\nEquip {2}",
+      "type_line": "Legendary Artifact — Equipment",
+      "source": "https://scryfall.com/card/ltr/250/sting-the-glinting-dagger"
+    },
+    "Misty Rainforest": {
+      "cmc": 0,
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "mana_cost": "",
+      "name": "Misty Rainforest",
+      "oracle_id": null,
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "source": "https://scryfall.com/card/spg/116/misty-rainforest"
+    },
+    "Freed from the Real": {
+      "cmc": 3,
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "mana_cost": "{2}{U}",
+      "name": "Freed from the Real",
+      "oracle_id": null,
+      "oracle_text": "Enchant creature\n{U}: Tap enchanted creature.\n{U}: Untap enchanted creature.",
+      "type_line": "Enchantment — Aura",
+      "source": "https://scryfall.com/card/sok/38/freed-from-the-real",
+      "alternative_only": true
+    }
+  }
+}
