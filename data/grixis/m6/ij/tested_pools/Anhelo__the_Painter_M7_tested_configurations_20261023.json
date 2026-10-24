@@ -1,0 +1,79 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Anhelo__the_Painter",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+ "historical_registry_digest_not_matching_raw": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+ "source_full": "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+ "explicit_pool_size": 6,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Anhelo_the_Painter_approved_source_2026-10-13.txt",
+   "raw_sha256": "8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+   "logical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Approved list unchanged and the comparison anchor: 34 physical lands (25 nonbasic rows + 3x Island/Mountain/Swamp; closeout's '31 lands' is a row count), 9 static rocks, avg nonland MV 2.83."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Anhelo__the_Painter.txt",
+   "raw_sha256": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
+   "logical_hash": "lh1:284c4e096696838efbcc8cd69e694c8339cc9eb926f218d21bf805934497ed39",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Skyclave Shade +Sinister Concierge +Dogged Detective +Tenacious Underdog +Bedevil / -Fellwar Stone -Talisman of Indulgence -Exotic Orchard -Talisman of Dominance -Feed the Swarm. 33 lands + 6 rocks; four recursive power-2+ casualty bodies; instant removal copyable on opponents' turns."
+  },
+  {
+   "id": "FIVE_ALT_AMULET",
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_five_alt_Underdog_over_PrimalAmulet_20261023.txt",
+   "raw_sha256": "f1f7747e3ecfa3036924e246b5a8047cb0638b626f9bef52f4b6ed1fabd75e8b",
+   "logical_hash": "lh1:79e2b8a1c2e44a1806a49d7fcaa3590858cfb47c607d66985c60302a3d015166",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (same count). Underdog over Primal Amulet, keeping Talisman of Dominance (33 lands + 7 rocks). Better mana numbers, but loses the Wellspring copy engine and Frantic Search combo; judged slightly worse. MODERATE confidence."
+  },
+  {
+   "id": "SIX_WIZARDS",
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_WizardsOfThay_20261023.txt",
+   "raw_sha256": "5e995f67e81d33b01e3bfc128e2a5b3666b0e0d99296a74c925e97e8654b7a4d",
+   "logical_hash": "lh1:12ea9c3546a786d75e73cde5d3d6ee4277b4baa6ce9f301ca1454f2ee7d06f70",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE. Preferred five + Wizards of Thay over Thunderclap Drake. Sorcery flash for opponent-turn casualty vs a cheaper flying reducer/fodder; not clearly better."
+  },
+  {
+   "id": "SIX_SANCTUARY",
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_MysticSanctuary_20261023.txt",
+   "raw_sha256": "988e3764ac9161912b8eb5908a564e32e20c1a5613f57451c03d8d888ee446ce",
+   "logical_hash": "lh1:920bbdf69ff563c8ed1e57212bd53e5e573d75bc1e96a5b96c2e42cee72ebae9",
+   "physical_cards": 100,
+   "judgment": "REJECT. Preferred five + Mystic Sanctuary over Training Center: mono-U, often tapped with three basic Islands, loses red."
+  },
+  {
+   "id": "SEVEN_GRAVECRAWLER_WINDFALL",
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_seven_Gravecrawler_Windfall_20261023.txt",
+   "raw_sha256": "7e050aa20977f0c7d9dcff160b08aa35e91066f6bbcf07b80e756092151ff992",
+   "logical_hash": "lh1:51f64e93d1d0b8edd80c001f2105566298eae85948952f8a4da88f91e82fbfaa",
+   "physical_cards": 100,
+   "judgment": "REJECT. Preferred five + Unexpected Windfall + Gravecrawler over Mana Geyser + Galvanic Iteration: breaks Reiterate+Geyser and adds conditional recursion."
+  }
+ ],
+ "named_single_card_contenders_rejected_without_full_100": [
+  "Cult Conscript",
+  "Sedgemoor Witch",
+  "Rotten Reunion",
+  "Waste Management",
+  "Talrand's Invocation",
+  "Double Vision",
+  "Reverberate",
+  "Make an Example",
+  "Metallurgic Summonings",
+  "Exsanguinate"
+ ],
+ "owner_m7_approved": false,
+ "authority": {
+  "can_decide": false,
+  "can_approve_or_lock": false
+ }
+}

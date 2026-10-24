@@ -1,0 +1,30 @@
+name: M7 Deck 4 Anhelo ChatGPT independent Rev2 candidate (focused)
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-anhelo-chatgpt-rev2.yml
+      - data/grixis/m7/candidate_lists/Anhelo__the_Painter_ChatGPT_Rev2.txt
+      - data/grixis/m7/research_challengers/Anhelo__the_Painter_ChatGPT_Rev2_*
+      - data/grixis/m7/decision_reviews/Anhelo__the_Painter_ChatGPT_Rev2_independent_comparison.md
+      - tests/test_m7_anhelo_chatgpt_rev2.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-rev2-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run independent source-bound 100-card Oracle, swap, and mana tests
+        run: python -m unittest discover -s tests -p 'test_m7_anhelo_chatgpt_rev2.py' -v

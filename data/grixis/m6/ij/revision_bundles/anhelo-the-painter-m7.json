@@ -1,0 +1,197 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Anhelo__the_Painter",
+ "slug": "anhelo-the-painter",
+ "baseline_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "result_hash": "lh1:284c4e096696838efbcc8cd69e694c8339cc9eb926f218d21bf805934497ed39",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Anhelo__the_Painter_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/anhelo-the-painter.json.gz",
+   "sha256": "sha256:1f264f0af51e1511e96c0bb3af9b0eea2146dcc9bd398005b838d1dcc397c06d"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz",
+   "sha256": "sha256:350a5e494df02f1a3274f877579188573d68ae9bab164df68000b9d1d1812274"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/anhelo-the-painter.json",
+   "sha256": "sha256:2c4c107c549a532c29dc1898f682c73f1ae35944ecbf04d2a883d327fa3563cb"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/anhelo-the-painter.json",
+   "sha256": "sha256:d7a70752a1e9aa86004901860d2d6726c399c4903a56a733339167517f910879"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/anhelo-the-painter.json",
+   "sha256": "sha256:491a7feeeba1fd960381c69c6f1de5ad098fd6199ddb868460981db53ece30e4"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Anhelo__the_Painter.json",
+   "sha256": "sha256:512ec797d7043609963601557325c3d9f6cddc7726e2fcb4a0294e5b1cf7aef1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:03d3eceb566760393ba50ac8cc3564281507bc70f6352c3d4312420c51505ec4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+   "sha256": "sha256:a74e1a8427488c96992f765f424a823e8df1b3b7e51a44c552cdb82101903742"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Anhelo_the_Painter_approved_source_2026-10-13.txt",
+   "sha256": "sha256:8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Anhelo__the_Painter.txt",
+   "sha256": "sha256:2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_five_alt_Underdog_over_PrimalAmulet_20261023.txt",
+   "sha256": "sha256:f1f7747e3ecfa3036924e246b5a8047cb0638b626f9bef52f4b6ed1fabd75e8b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_WizardsOfThay_20261023.txt",
+   "sha256": "sha256:5e995f67e81d33b01e3bfc128e2a5b3666b0e0d99296a74c925e97e8654b7a4d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_MysticSanctuary_20261023.txt",
+   "sha256": "sha256:988e3764ac9161912b8eb5908a564e32e20c1a5613f57451c03d8d888ee446ce"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_seven_Gravecrawler_Windfall_20261023.txt",
+   "sha256": "sha256:7e050aa20977f0c7d9dcff160b08aa35e91066f6bbcf07b80e756092151ff992"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+   "sha256": "sha256:a7d77726efc03d0fd134fb2acf0d9bae405752ae6899b9225a7a462c16dcf6e4"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Anhelo__the_Painter_M7_20261023.md",
+   "sha256": "sha256:03c20e1d222afd57b9a12f0322a0659006547471f8eeb226004671fcaa25df97"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/anhelo-the-painter-m7.json",
+   "sha256": "sha256:28823ec479cf9fb28d529ec8b34dc46d9ffda7d16562ea7199fab0fa67e54243"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Anhelo__the_Painter_M6_I_local_best_20261023.md",
+   "sha256": "sha256:c8e7871e4e843333be658bf581183deb439ae2005daabdebdb351e7964f988da"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Anhelo__the_Painter_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:4fe6a3c572a1220d7eee113f2af3a1cb6de1db9b08fe6bf06dc5b04a7f9a3e04"
+  },
+  {
+   "path": ".github/workflows/m7-anhelo-the-painter.yml",
+   "sha256": "sha256:0de62cf69d2f9b79f2f3441e9da2c4799428a622eeb4fa8f9b4d8b92dff31d6c"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Anhelo__the_Painter_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:212d7e1e07af4676f3f4a7f446056566c4763c1b01f061bd685de64dd1a9586d"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/anhelo-the-painter.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/anhelo-the-painter.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Anhelo__the_Painter/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:b710eb1066c9706de58863b2a91761aee0fda418efc42767eb10f1f34667efbe",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Anhelo__the_Painter/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:34d0bf45ef57636fbbb1b50efa385ae842a0c4c0288a256cc2d69c57ef2e6bee"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_anhelo_the_painter_m7_mechanics.py",
+    "source_sha256": "sha256:15a4a3b403e547726c4390ba65f9edd838ac6e9894bfd12510aba9d320cc51a9",
+    "seed": 0,
+    "harness_version": "anhelo_m7_finite_rules_9_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Nine finite seed-0 Oracle-anchored cases (casualty once per turn on the first cast instant/sorcery, copies not cast, power-2 fodder legality for the four added bodies, Bedevil instant/targets, quantity-counted lands 34->33 and rocks 9->6, legality, Game Changer count). Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_anhelo_the_painter_candidate.py",
+    "source_sha256": "sha256:8142bd504ac170fa0e930e108c3990529b51a38ddc9bec405a6889648e121048",
+    "seed": 0,
+    "harness_version": "anhelo_m7_gate_candidate_4_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps, registry hashes untouched, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #651 head 447d9d69."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_anhelo_the_painter_m7_ij.py",
+    "source_sha256": "sha256:6b58f8c19bad5aeb8d51bcf0984f3d13c4284afc8dff8e306dcf75a94b900bf9",
+    "seed": 0,
+    "harness_version": "anhelo_m7_IJ_9_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes, runs the J checker and fail-closed Pass C disclosure-wording cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Anhelo__the_Painter_M6_J_red_team_20261023.md",
+  "sha256": "sha256:619513662c843c228a5029379ade245104821fd8b1ec009ee0aed50e1a332ea8"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Anhelo__the_Painter_M6_J_mana_20261023.md",
+  "sha256": "sha256:fcb7bca362eb01d0d39cf0e9b809227af851de151c8cc4f3a0db78be85ae5ce9"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
