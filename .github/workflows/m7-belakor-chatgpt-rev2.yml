@@ -1,0 +1,30 @@
+name: M7 Deck 7 Be'lakor ChatGPT Rev2 eight-swap review
+on:
+  pull_request:
+    branches: [grokbot-deck07-belakor-the-dark-master-m7-20261023, chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-belakor-chatgpt-rev2.yml
+      - data/grixis/m7/candidate_lists/Be_lakor__the_Dark_Master_ChatGPT_M7_Rev2_Eight_Approval_Candidate.txt
+      - data/grixis/m6/oracle_snapshots/Be_lakor__the_Dark_Master_ChatGPT_M7_Rev2_Selected_20261023.json
+      - data/grixis/m7/decision_reviews/Be_lakor__the_Dark_Master_ChatGPT_M7_Rev2_Independent.md
+      - tests/test_m7_belakor_chatgpt_rev2.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-bound-rev2:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Record exact PR SHA
+        run: git rev-parse HEAD
+      - name: Exact-source Be'lakor eight-swap verification (not owner approval)
+        run: python -m unittest discover -s tests -p test_m7_belakor_chatgpt_rev2.py -v
+      - name: Existing GrokBot first-pass candidate regression
+        run: python -m unittest discover -s tests -p test_m7_belakor_the_dark_master_candidate.py -v
