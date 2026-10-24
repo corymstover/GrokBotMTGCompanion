@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Install offline source validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
       - name: Record exact PR SHA
         run: git rev-parse HEAD
       - name: Exact-source Be'lakor eight-swap verification (not owner approval)
