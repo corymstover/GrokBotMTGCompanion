@@ -1,0 +1,58 @@
+# Don Andres, the Renegade — ChatGPT independent M7 Rev2 decision (2026-10-23)
+
+**SEVEN-SWAP PROPOSAL FOR CORY — NOT APPROVED, NOT CANONICAL, NOT LOCKED.** Owner approval of the exact final SHA is required before any canonical update. No Grok paid credits or new research pipeline.
+
+## Live historical authority and independent source reconciliation
+- Canonical Oct14 approved baseline `corymstover/grixis-commander-encyclopediaGPT` main `refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt`; raw `a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb`, fetched live after Doctor Doom #13 merge, byte-exact matched the Grok vendored baseline. M7 new-cycle lock not approved yet.
+- Grok [PR #662](https://github.com/corymstover/GrokBotMTGCompanion/pull/662), actual head `bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6`, firstpass candidate five swaps, raw `05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773`. Reused its 246-name October23 live Scryfall snapshot, EDHREC source, tested alternatives and red-team scenarios; not its shared duplicate CI infrastructure.
+- One newly discovered card outside the Grok archive, `Passionate Archaeologist`, independently fetched from current Scryfall `/cards/named` on October23: Oracle ID `6299d18e-a6a7-414c-85c0-d57a8e7d2627`, official Commander legal, red color identity. The [official Wizards Background mechanics](https://magic.wizards.com/en/news/feature/commander-legends-battle-for-baldurs-gate-mechanics) explicitly permit Background enchantments in the 99 even without choose a Background.
+- Candidate `59c62e50874816a434e0198e272084a3aad619a4eff2e374fc9b38fbdaf62f8f`: 100 physical; 99 distinct entries, only Island ×2; 1 commander + 99 library, 35 lands, nine rocks. Five Scryfall Game Changers (Ancient Tomb, Cyclonic Rift, Fierce Guardianship, Opposition Agent, Vampiric Tutor), no exceptions. Bracket **4 — Optimized**, tags **Theft / Pirates / Treasure**.
+
+## Critical correction to GrokBot land analysis
+
+**Grok's claim that Shipwreck Marsh needs two BASIC lands is false.** Current Oracle: `This land enters tapped unless you control two or more other lands.` The **other-land** condition is met by any lands, so Shipwreck Marsh enters untapped by land drop three and supplies both U/B regardless of their types. In contrast, **Smoldering Marsh really needs two basic lands** to enter untapped, a difficult condition with only four basics.
+
+`Gloomlake Verge` enters untapped and taps for U unconditionally but only taps for B if we control an Island or Swamp. Therefore +Gloomlake/−Shipwreck is **not** a universal mana-fixing upgrade: it improves early U and the complementary Blazemire Verge two-land UB opening, but **weakens guaranteed B on turn three** when no Island/Swamp type is present. This is explicitly tested as a retained six-swap alternative keeping Shipwreck; no "two basics" fiction is used in the recommendation.
+
+`Blazemire Verge` enters untapped, produces B unconditionally, and produces R with a Swamp or Mountain, improving tempo over early-tapped Smoldering Marsh. Its nonbasic non-typed nature reduces fetch targets and its R is conditional, so red-for-Insurrection availability is a real cost. With 35 lands/nine rocks and Treasure support, those tradeoffs are judged net favorable, not free.
+
+## Seven exact commander-first upgrades (five Grok-derived, two independent)
+
+| Added | Cut | Benefit and bounded tradeoff |
+|---|---|---|
+| Gríma, Saruman's Footman | Professional Face-Breaker | Unblockable four-mana threat repeatedly **casts** opponent-owned instants/sorceries for free from exile on damage, triggering Don's tapped Treasures and now Passionate Archaeologist's exile-cast damage. Face-Breaker provided three-mana Treasure and our own impulse draw; this is a real early-ramp sacrifice for more theft. |
+| Fallen Shinobi | Seize the Spotlight | Ninjutsu `{2}{U}{B}` onto an unblocked attacker. On damage casts opponent top-two exiled cards free or plays a land; opponent creatures cast become stolen/permanently controlled and Don-buffed. Spotlight opponent chooses fame/fortune, so may refuse theft. Shinobi is slower and needs unblocked damage. |
+| Treachery | Blasphemous Act | Five-mana permanent control of an opponent-owned creature, Don's +2/+2 menace deathtouch, and **untaps up to five lands only when the Aura actually enters**. Act often costs R against wide boards but destroys our stolen board and commander; losing it leaves Toxic Deluge/Cyclonic Rift as principal sweepers. |
+| Gloomlake Verge | Shipwreck Marsh | Early unconditional U with a possible B based on Island/Swamp, complementing unconditional B from Blazemire. **Corrected** Shipwreck's two-OTHER-lands condition and retained it as a legitimate alternative if black sequencing wins for a particular opener. |
+| Blazemire Verge | Smoldering Marsh | Early always-untapped B and later conditional R; Smoldering needs two **basic** lands to avoid tapping. Tradeoff: Smoldering is a fetchable Swamp Mountain and always R when tapped. |
+| Mind's Dilation | Stolen Strategy | When an opponent casts their first spell **each turn**, their top nonland may be **cast for free**, so stolen noncreatures yield Don's two tapped Treasures and every spell cast from exile triggers Passionate. Compared to Strategy's own-upkeep top exiles, which we must pay to cast that turn. Dilation costs seven instead of five, requires opponents to cast spells and can whiff on lands or uncastable cards. |
+| Passionate Archaeologist | Breeches, Eager Pillager | Legal two-mana Background in the 99 grants Don the triggered ability to deal cast-from-exile spell mana value to target opponent, turning **every exile-cast** (our or opponent-owned) into reach. Also synergizes with Mind's Dilation, Gríma, Shinobi, Thief of Sanity, Siphon Insight, Breeches Brazen, Ragavan and more. Loses three-mana Pirate first strike, attack-generated Treasure/evasion and our own impulse card; commander absence switches off payoff. |
+
+## Essential actual mechanics / rules boundaries
+
+1. Don checks **permanent ownership**: stolen opponent-owned creature controlled by us becomes +2/+2 menace deathtouch Pirate; a copied creature token we create is usually owned by us and **doesn't** receive Don's buff. Thieving Amalgam manifesting an actual opponent library card generates an opponent-owned face-down permanent, not a token owned by us.
+2. Don triggers only when we **CAST** a **noncreature spell we don't own**. Merely putting opposing permanents onto battlefield (Jhoira, Treachery) does not make Treasures; copying a **spell on stack** is not casting. Cards cast by a spell copying a **card** from exile can be cast, but ownership still matters.
+3. Don creates **two tapped Treasure** tokens: they cannot pay the triggering cast or another same-turn cast until untapped. Gonti, Night Minister separately creates one untapped Treasure when someone casts a spell they don't own, available only afterward.
+4. Background is **not** being used in the command zone; it is one of the 99. With Passionate Archaeologist on battlefield, only a commander creature we own has the gained ability; damage is **noncombat** and therefore not commander-damage toward the 21-combat threshold.
+5. `Mind's Dilation` responds to each opponent's first spell **on each turn** (not just their turn). The cast of the free nonland card occurs during trigger resolution, outside normal sorcery timing. Mandatory additional costs and legal targets still matter. If that spell is noncreature and opponent-owned, Don triggers for two tapped Treasures; its cast from exile triggers Passionate no matter the card's owner.
+6. `Gríma` casts opponent instant/sorcery **from exile** for free when he deals combat damage; it doesn't simply copy the spell. `Fallen Shinobi` permits land plays among its two exiled cards only at normal land-play timing (our main phase with an empty stack and an available land play), **not** during the damage trigger's resolution. Only actual **cast spells** trigger Don/Background. Ninjutsu happens after an attacker is unblocked, but before combat damage.
+7. `Treachery` must resolve, be able to enchant its creature and enter for the five-land untap. If the target disappears before Aura resolves it fizzles without untapping. Aura removal later returns creature control and does **not** undo lands already untapped.
+8. `Roaming Throne` choosing Pirate doubles **Don's triggered Treasure ability** for noncreature stolen casts (four tapped Treasures, not two), not the passive +2/+2 and not token ownership. Stolen creatures become Pirates under Don and receive Admiral Beckett Brass/Pirate benefits.
+9. `Insurrection` needs RRR and all 8 mana; the two Verge changes can worsen conditional red access despite improving some early sequences. 35 lands/nine rocks remain, no fictitious Treasure paying immediately and no invented combo infinite.
+
+## Adversarial alternatives honestly retained or rejected
+
+- `CHATGPT_SIX_KEEP_SHIPWRECK`: keeps unconditionally UB by turn three and retains the old conditional tapped early; chosen candidate prefers early untapped U and B from Blazemire for turn-2 plays. **Neither strictly dominates**.
+- `GROK_FOUR_KEEP_BLASPHEMOUS_ACT`: retains the cheap emergency one-red wide-board kill. Sacrifices permanent theft and potentially five-land untap; selected candidate uses Toxic Deluge/Cyclonic Rift for sweepers.
+- `CHATGPT_SEVEN_MASS_MUTINY_ALTERNATIVE`: one-shot 5-mana steal up to three attacking creatures versus repeated seven-mana free casts from Mind's Dilation. A different tempo endpoint, tested as a complete 100.
+- `CHATGPT_SIX_WITH_MIND_DILATION` and `SIX_WITH_PASSIONATE` separately show the two incremental upgrades; the selected seven includes both to compound immediate free exiled casts and commander-owned noncombat damage.
+- `Mob Rule` vs `Insurrection`: six-mana partial-power theft is faster but leaves part of opponent boards; the 8-mana all-creature finisher remains Don's natural top end. No padding.
+- `Bribery`, `Agent of Treachery`, `Zara`, `Memory Plunder`, `Cunning Rhetoric`, `Share the Spoils`, and `The Ruinous Powers` were **previously rejected/removed** by Cory. None is re-added. Mind's Dilation differs from slower removed upkeep effects by casting **free** during each opponent first-spell trigger but costs seven and fails if opponents stop casting.
+- `Xanathar`, `Dazzling Sphinx`, `Nightveil Specter`, `Thieving Skydiver`, `Reins of Power`, `Mass Mutiny` and other potential thieves were considered; their conditional setup, mana, resource/timing costs did not clearly beat the retained 99 at this stage.
+
+## Honest testing and certification disclosure
+
+- Selected 99 named Oracle records / 100 physical cards, official UBR Commander legal, no exceptions, 35 lands, nine rocks and five Game Changers, all frozen with source pointers. Grok archived 246 names; Passionate was directly checked against live Scryfall and official Wizards Background mechanic.
+- Nine full 100-card alternative configurations archived with this PR. Tests cover exact raw hash, historical source, owner lock preservation (no canonical mutation), physical count with Island ×2, seven substitutions, legal identities, corrected Shipwreck/Smoldering conditions, cast-vs-copy, untap timing, and bounded three-opponent cast scenarios.
+- No matched-opening multiplayer sample or asserted win rate. No newly independent third-model Pass C was run, no M6 certification bundle was re-sealed. Source-bound mechanical checks are **not** an independent win-rate simulator. This is research only pending Cory's exact-SHA approval.
+

@@ -1,0 +1,26 @@
+name: Don Andres ChatGPT Independent M7 Rev2 Seven-Swap Verification
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/independent_reviews/Don_Andres__the_Renegade_Approved_Baseline_2026-10-14.txt"
+      - "data/grixis/m7/independent_reviews/Don_Andres__the_Renegade_ChatGPT_M7_Rev2_Candidate_2026-10-23.txt"
+      - "data/grixis/m7/independent_reviews/Don_Andres__the_Renegade_ChatGPT_M7_Rev2_Decision_2026-10-23.md"
+      - "data/grixis/m7/independent_reviews/Don_Andres__the_Renegade_ChatGPT_M7_Rev2_Selected_Oracle_2026-10-23.json"
+      - "data/grixis/m7/independent_reviews/Don_Andres__the_Renegade_ChatGPT_M7_Rev2_Tested_Pool_2026-10-23.json"
+      - "tests/test_m7_don_andres_chatgpt_rev2_independent.py"
+      - ".github/workflows/m7-chatgpt-don-andres-rev2.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent-don-andres-seven-swap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify exact Don Andres source ownership timing land conditions and complete 100
+        run: python -m unittest discover -s tests -p 'test_m7_don_andres_chatgpt_rev2_independent.py' -v
