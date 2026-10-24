@@ -32,6 +32,8 @@ jobs:
           python-version: '3.13'
       - name: Record exact head
         run: git rev-parse HEAD
+      - name: Install decision-packet validation dependency
+        run: python -m pip install 'jsonschema>=4,<5'
       - name: Verify exact 100, SHA, five swaps, current sourced Commander legality and mechanics, no authority changes
         run: python -m unittest discover -s tests -p test_m7_kess_chatgpt_rev1.py -v
       - name: Execute all fourteen source-bound Kess M6-transfer mechanical cases
