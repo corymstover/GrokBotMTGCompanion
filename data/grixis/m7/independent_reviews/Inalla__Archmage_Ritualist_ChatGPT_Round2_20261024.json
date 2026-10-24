@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "pass": "ChatGPT independent M7 research round 2",
+  "as_of_date": "2026-10-24",
+  "status": "RESEARCH_ONLY_BELOW_FIVE_MATERIAL_QUALITY_POSITIVE_SWAPS",
+  "owner_approved": false,
+  "canonical_changed": false,
+  "preserved_newly_m7_locked_decks": 22,
+  "baseline": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+    "raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+    "exact_physical_cards": 100,
+    "distinct_names": 100,
+    "lands": 27,
+    "game_changers": 18
+  },
+  "new_discoveries": {
+    "flashback": {
+      "name": "Flashback",
+      "mana_cost": "{R}",
+      "type": "Instant",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "oracle_text": "Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.",
+      "official_gatherer": "https://gatherer.wizards.com/SOS/en-us/115/flashback",
+      "official_wizards_legality_rules": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
+      "scryfall": "https://scryfall.com/card/sos/115/flashback",
+      "not_in_20261023_archived_204_candidate_cards": true,
+      "strategic_status": "credible_new_M7_upgrade_after_explicit_Oct14_owner_cut_disclosure",
+      "tradeoff": "Kefka Wizard ETB discard/draw and alternative face removed; Flashback requires actual mana and exiles spell after flashback use"
+    },
+    "corpse_dance": {
+      "name": "Corpse Dance",
+      "source": "20261023 Scryfall 204-card archive",
+      "oracle_mana": "{2}{B}",
+      "buyback_mana": "{2}",
+      "instant": true,
+      "indexed_combo": "https://edhrec.com/combos/grixis/313-813-1777",
+      "requires": [
+        "Scholar of the Ages",
+        "Burnt Offering",
+        "Corpse Dance"
+      ],
+      "extra_prerequisites": "Scholar battlefield, Burnt Offering+Corpse Dance hand, enough initial mana and stable top-creature graveyard ordering",
+      "tradeoff": "Loses Final Fortune two-red extra-turn closeout; 5 total mana with buyback and creature graveyard ordering"
+    },
+    "land_challenges": [
+      {
+        "add": "Forbidden Orchard",
+        "cut": "Exotic Orchard",
+        "status": "CONDITIONAL",
+        "upside": "Unconditional untapped rainbow",
+        "downside": "1/1 creature token to opponent each colored activation; Ragavan blocker and opposing sacrifice fuel"
+      },
+      {
+        "add": "Starting Town",
+        "cut": "Island",
+        "status": "CONDITIONAL",
+        "upside": "Turns 1–3 untapped rainbow for 1 life",
+        "downside": "New Town drawn/played after turn3 ETB tapped; loses basic untapped fetchable Island"
+      }
+    ],
+    "rejected_fifth": {
+      "add": "Pyroblast",
+      "cut": "Red Elemental Blast",
+      "reason": "REB in 190/250 compared to Pyro 82/250; five current tournament lists retained REB and only two used Pyro in addition, not as replacement. Pyro may target nonblue but can be misdirected to nonblue; fifth net positive unproven."
+    }
+  },
+  "sample_stats": {
+    "source": "https://cedhstats.org/commanders/inalla-archmage-ritualist/cards",
+    "as_of": "2026-10-17",
+    "parsed_tournament_decks": 250,
+    "noncausal_inclusions": {
+      "Flashback": 115,
+      "Kefka, Court Mage // Kefka, Ruler of Ruin": 109,
+      "Corpse Dance": 151,
+      "Final Fortune": 136,
+      "Pyroblast": 82,
+      "Red Elemental Blast": 190,
+      "Dualcaster Mage": 21,
+      "Buried Alive": 130,
+      "Gifts Ungiven": 119,
+      "Ad Nauseam": 98
+    },
+    "dual_caster_ppg_observation": {
+      "estimate": -0.47,
+      "ci90_low": -0.78,
+      "ci90_high": -0.13,
+      "causal": false
+    },
+    "fresh_october_top_eight": {
+      "source": "https://mtgtop8.com/archetype?a=1209&f=cEDH&meta=344",
+      "sampled_complete_100_card_lists": 5,
+      "dates": "2026-10-04 to 2026-10-12",
+      "inclusions_not_in_baseline": {
+        "Starting Town": 4,
+        "Forbidden Orchard": 3,
+        "Corpse Dance": 3,
+        "Flashback": 2,
+        "Buried Alive": 3,
+        "Phyrexian Tower": 3,
+        "Daze": 3,
+        "Mindbreak Trap": 3,
+        "Pyroblast": 2
+      },
+      "evidence_caveat": "selection bias, small sample, not gameplay outcome proof"
+    }
+  },
+  "alternatives": [
+    {
+      "name": "flashback_one_swap",
+      "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Flashback_One_Swap_20261024.txt",
+      "raw_sha256": "0bbe50e990f58ea36c9cb0a0c442dba3cc41fe9cf9580fffe08d095834b75e51",
+      "additions": [
+        "Flashback"
+      ],
+      "cuts": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "exact_cards": 100,
+      "distinct": 100,
+      "lands": 27,
+      "owner_presentable": false
+    },
+    {
+      "name": "four_swap_challenge",
+      "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Four_Swap_Combat_20261024.txt",
+      "raw_sha256": "fa7e1434332b0abdf5cdbd656c4483c02ce76f7431342116a0e9b0c426633d00",
+      "additions": [
+        "Flashback",
+        "Corpse Dance",
+        "Forbidden Orchard",
+        "Starting Town"
+      ],
+      "cuts": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin",
+        "Final Fortune",
+        "Exotic Orchard",
+        "Island"
+      ],
+      "exact_cards": 100,
+      "distinct": 100,
+      "lands": 27,
+      "owner_presentable": false
+    },
+    {
+      "name": "five_swap_stress_rejected",
+      "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Five_Swap_Stress_NotApproved_20261024.txt",
+      "raw_sha256": "0327b8413ca38182b4710346087d7f35f5e0c6cfee1bd0af90fc61c757c181bb",
+      "additions": [
+        "Flashback",
+        "Corpse Dance",
+        "Forbidden Orchard",
+        "Starting Town",
+        "Pyroblast"
+      ],
+      "cuts": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin",
+        "Final Fortune",
+        "Exotic Orchard",
+        "Island",
+        "Red Elemental Blast"
+      ],
+      "exact_cards": 100,
+      "distinct": 100,
+      "lands": 27,
+      "owner_presentable": false,
+      "rejected_reason": "Pyroblast for already-preserved Red Elemental Blast does not pass quality-positive threshold"
+    }
+  ],
+  "mechanical_claims_not_tested": [
+    "real multiplayer win rates",
+    "full Magic engine state simulation",
+    "time-indexed mana access against actual opponents",
+    "all complex stack interaction contingencies"
+  ],
+  "power_bracket": "5 — cEDH",
+  "archidekt_tags": [
+    "Spellseeker Combo",
+    "Reanimator",
+    "Turbo"
+  ]
+}

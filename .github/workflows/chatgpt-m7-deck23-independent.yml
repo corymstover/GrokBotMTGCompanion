@@ -8,6 +8,12 @@ on:
       - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_M7_Adversarial_20261024.json"
       - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Independent_20261024.md"
       - "tests/test_m7_inalla_chatgpt_independent_review.py"
+      - "tests/test_m7_inalla_flashback_round2.py"
+      - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Round2_20261024.md"
+      - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Round2_20261024.json"
+      - "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Flashback_One_Swap_20261024.txt"
+      - "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Four_Swap_Combat_20261024.txt"
+      - "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Five_Swap_Stress_NotApproved_20261024.txt"
       - ".github/workflows/chatgpt-m7-deck23-independent.yml"
 
 permissions:
@@ -27,4 +33,6 @@ jobs:
       - name: Verify exact checked-out head
         run: git rev-parse HEAD
       - name: Source-bound 100-card challenger tests (not canonical approval)
-        run: python -m unittest discover -s tests -p 'test_m7_inalla_chatgpt_independent_review.py' -v
+        run: |
+          python -m unittest discover -s tests -p 'test_m7_inalla_chatgpt_independent_review.py' -v
+          python -m unittest discover -s tests -p 'test_m7_inalla_flashback_round2.py' -v
