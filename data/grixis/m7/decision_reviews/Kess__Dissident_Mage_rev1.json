@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE_REV1",
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
   "deck_id": "Kess__Dissident_Mage",
   "canonical_baseline_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
   "canonical_baseline_logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
