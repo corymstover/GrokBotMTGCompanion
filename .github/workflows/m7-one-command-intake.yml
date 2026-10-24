@@ -1,0 +1,64 @@
+name: M7 One-Command Evidence Intake
+
+on:
+  workflow_dispatch:
+    inputs:
+      deck:
+        description: 'Deck number (#25), exact canonical ID, or next'
+        required: true
+        default: next
+        type: string
+  pull_request:
+    paths:
+      - 'scripts/grixis_m7_one_command.py'
+      - 'tests/test_grixis_m7_one_command.py'
+      - '.github/workflows/m7-one-command-intake.yml'
+      - 'grixis/M7 ONE_COMMAND FINISH.md'
+      - 'AGENTS.md'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/grixis_m7_one_command.py'
+      - 'tests/test_grixis_m7_one_command.py'
+      - '.github/workflows/m7-one-command-intake.yml'
+      - 'grixis/M7 ONE_COMMAND FINISH.md'
+      - 'AGENTS.md'
+
+permissions:
+  contents: read
+
+jobs:
+  contract-tests:
+    name: One-command intake contract tests (no paid AI)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_grixis_m7_one_command.py -v
+
+  pinned-evidence-intake:
+    name: Build pinned M7 source brief (NOT owner-ready)
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recover live canonical and existing Grok/M6 evidence
+        env:
+          DECK: ${{ inputs.deck }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python scripts/grixis_m7_one_command.py --deck "$DECK" --output m7_intake.json | tee m7_intake.md
+          cat m7_intake.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: m7-source-intake-${{ github.run_number }}
+          path: |
+            m7_intake.json
+            m7_intake.md
+          retention-days: 7
