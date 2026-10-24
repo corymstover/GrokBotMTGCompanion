@@ -18,6 +18,7 @@ RESEARCH = ROOT / "data/grixis/m7/chatgpt_reviews"
 BASELINE = ROOT / "data/grixis/m7/baseline_sources/Fire_Lord_Azula_approved_source_2026-10-14.txt"
 ORACLE = ROOT / "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json"
 BASELINE_SHA = "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5"
+SELECTED = ROOT / "data/grixis/m7/candidate_lists/Fire_Lord_Azula_ChatGPT_M7_Rev2_Approval_Candidate_2026-10-24.txt"
 
 OPTIONS = {
     "defense_five": {
@@ -100,6 +101,19 @@ class AzulaChatGPTResearchChecks(unittest.TestCase):
                 self.assertTrue(all(set(self.oracle[n]["color_identity"]) <= {"U", "B", "R"} for n in names))
                 self.assertEqual(sum("Land" in self.oracle[n]["type_line"] for n in names), 26)
                 self.assertEqual(sum(bool(self.oracle[n]["game_changer"]) for n in names), 20)
+
+    def test_owner_review_candidate_is_exactly_sealed_electro_five(self):
+        selected_raw, rows, names = read_list(SELECTED)
+        source_raw, _, _ = read_list(RESEARCH / OPTIONS["electro_five"]["path"])
+        self.assertEqual(selected_raw, source_raw)
+        self.assertEqual(hashlib.sha256(selected_raw).hexdigest(), OPTIONS["electro_five"]["sha256"])
+        self.assertEqual(len(rows), 100)
+        self.assertEqual(rows[0], "1x Fire Lord Azula [Commander]")
+        self.assertEqual(len(set(names)), 100)
+        self.assertEqual(set(names) - set(self.baseline_names), OPTIONS["electro_five"]["adds"])
+        self.assertEqual(set(self.baseline_names) - set(names), OPTIONS["electro_five"]["cuts"])
+        self.assertIn("Wooded Foothills", names)
+        self.assertNotIn("Mistrise Village", names)  # Tested sixth rejected on mana/tempo grounds.
 
     def test_exact_source_bound_swaps_and_protected_cedh_keeps(self):
         source = set(self.baseline_names)
