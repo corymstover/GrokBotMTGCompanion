@@ -9,6 +9,10 @@ on:
       - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Independent_20261024.md"
       - "tests/test_m7_inalla_chatgpt_independent_review.py"
       - "tests/test_m7_inalla_flashback_round2.py"
+      - "tests/test_m7_inalla_five_swap_gifts_candidate.py"
+      - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_M7_Rev1_20261024.md"
+      - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_M7_Rev1_20261024.json"
+      - "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Rev1_Five_Swap_Gifts_20261024.txt"
       - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Round2_20261024.md"
       - "data/grixis/m7/independent_reviews/Inalla__Archmage_Ritualist_ChatGPT_Round2_20261024.json"
       - "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Flashback_One_Swap_20261024.txt"
@@ -36,3 +40,4 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_m7_inalla_chatgpt_independent_review.py' -v
           python -m unittest discover -s tests -p 'test_m7_inalla_flashback_round2.py' -v
+          python -m unittest discover -s tests -p 'test_m7_inalla_five_swap_gifts_candidate.py' -v

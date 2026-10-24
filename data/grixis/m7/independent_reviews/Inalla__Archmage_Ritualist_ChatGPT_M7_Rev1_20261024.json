@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "review_date": "2026-10-24",
+  "phase": "M7",
+  "candidate_version": "M7 Rev1",
+  "disposition": "OWNER_APPROVAL_READY_AWAITING_EXPLICIT_EXACT_SHA_APPROVAL",
+  "canonical_changed": false,
+  "owner_approved": false,
+  "prior_newly_m7_approved_locked": 22,
+  "canonical_baseline": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+    "raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3"
+  },
+  "candidate": {
+    "repo": "corymstover/GrokBotMTGCompanion",
+    "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Rev1_Five_Swap_Gifts_20261024.txt",
+    "raw_sha256": "c9f35cac41a7717ef49b4dd3cb4f6031c2795a0082b31b54a13e645652df9b69",
+    "lf_terminated": true,
+    "physical_count": 100,
+    "distinct": 100,
+    "lands": 27,
+    "archived_existing_game_changers": 19,
+    "power_bracket": "5 — cEDH",
+    "archidekt_tags": [
+      "Spellseeker Combo",
+      "Reanimator",
+      "Turbo"
+    ],
+    "swaps": [
+      {
+        "add": "Flashback",
+        "cut": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+        "role": "Spellseeker-tutorable instant spell recursion",
+        "material_cost": "Loses owner-selected ETB mass discard/draw legendary Wizard; flashback exiles and requires paying spell's mana cost"
+      },
+      {
+        "add": "Corpse Dance",
+        "cut": "Final Fortune",
+        "role": "Scholar/Burnt Offering buyback loop",
+        "material_cost": "Loses red extra turn; five mana with buyback and top graveyard creature order required"
+      },
+      {
+        "add": "Gifts Ungiven",
+        "cut": "Wheel of Fortune",
+        "role": "Deterministic Spellseeker access using Gifts split",
+        "material_cost": "Loses 3-mana wheel seven-card redraw and Breach graveyard refill; Gifts costs4, conditional pile"
+      },
+      {
+        "add": "Forbidden Orchard",
+        "cut": "Exotic Orchard",
+        "role": "Unconditional rainbow land",
+        "material_cost": "Feeds opposing token blockers and sac outlets"
+      },
+      {
+        "add": "Starting Town",
+        "cut": "Island",
+        "role": "Early turns 1–3 unconditional color access",
+        "material_cost": "After turn3 new land enters tapped; loses fetchable basic Island and nonbasic hate resilience"
+      }
+    ]
+  },
+  "gifts_spellseeker_pile": {
+    "cards": [
+      "Spellseeker",
+      "Step Through",
+      "Reanimate",
+      "Unearth"
+    ],
+    "in_library_required": true,
+    "opponent_grave_choice_count": 2,
+    "all_six_splits_verified": true,
+    "logic": "Either Spellseeker in hand and cast normally or Spellseeker in graveyard and at least one of Reanimate/Unearth in hand. Both creatures trigger Eminence on entering.",
+    "limitations": [
+      "Can be countered",
+      "Relevant graveyard hate disrupts reanimation",
+      "All four named cards must initially be in library",
+      "Requires enough mana/life and intact Spellseeker combo"
+    ]
+  },
+  "oracle_sources": {
+    "existing_card_snapshot": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "flashback_gatherer": "https://gatherer.wizards.com/SOS/en-us/115/flashback",
+    "flashback_scryfall": "https://scryfall.com/card/sos/115/flashback",
+    "wizards_legal_rules": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
+    "corpsedance_combo": "https://edhrec.com/combos/grixis/313-813-1777",
+    "tournament_evidence": "https://cedhstats.org/commanders/inalla-archmage-ritualist/cards",
+    "five_recent_lists": "https://mtgtop8.com/archetype?a=1209&f=cEDH&meta=344",
+    "archive_date": "2026-10-23",
+    "note": "All candidate cards other than Flashback were checked in 2026-10-23 live Scryfall archive; the official 2026-04 new Flashback printing has separate current Wizards/Scryfall sourcing."
+  },
+  "verified_research_gate": {
+    "card_count": true,
+    "singleton": true,
+    "commander_identity_ubr": true,
+    "commander_legality": true,
+    "prior_exception_required": false,
+    "core_combo_preserved": true,
+    "gifts_pile_splits": true,
+    "source_bound_not_full_rules_engine": true,
+    "actual_multiplayer_simulation": false,
+    "win_rates_claimed": false,
+    "independent_third_model_review": false
+  },
+  "critical_prohibitions": [
+    "No canonical approval PR until Cory explicitly approves exact raw SHA",
+    "No edits to 22 existing new M7 locks",
+    "No paid Grok or broad Colab run"
+  ],
+  "predecessor_research_pr": 698
+}
