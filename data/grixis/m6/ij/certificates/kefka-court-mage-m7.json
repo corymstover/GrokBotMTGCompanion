@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Kefka__Court_Mage",
+  "slug": "kefka-court-mage",
+  "generated_at": "2026-10-23T14:26:17-0500",
+  "list_hash": "lh1:ba340792b7383533f17207ac48228ad283d13ad513b0b52d310e6f964f964b01",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Kefka__Court_Mage_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:c3f2e1cd08421e25caafe741f9e0c90dad965bc8d3c4100df16d00f87b38d7d3",
+    "tested_pool_size": 12
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_kefka_court_mage_m7_mechanics.py",
+      "tests/test_m7_kefka_court_mage_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_kefka_court_mage_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Kefka__Court_Mage_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Kefka__Court_Mage_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Kefka__Court_Mage.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 12 complete configurations in the pool: raw baseline, registry canonical export, the research candidate (one genuine swap, +Dualcaster Mage -Culling the Weak; RESEARCH_ONLY, below the five-swap floor), the Pass C requested one-swaps Entomb over Demonic Counsel and Entomb over Borne Upon a Wind (rejected), the optional Dragon's Rage Channeler over Tinybones, Bauble Burglar challenge (rejected; owner keep), Talisman of Indulgence over Culling the Weak (staged fallback, not counted), Mockingbird over Molten Duplication, Vivi Ornitier over Talisman of Creativity, Mistrise Village over Island, Dualcaster Mage over Diabolic Intent (staged alternative cut, not counted) and Spark Double over Gogo, Mysterious Mime. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}
