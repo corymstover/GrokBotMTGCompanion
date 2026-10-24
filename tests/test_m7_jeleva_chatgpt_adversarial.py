@@ -23,6 +23,13 @@ FILES = {
     "flare": "Flare_Over_MnemonicBetrayal_Research_20261024.txt",
     "madcap": "Madcap_Over_HexingSquelcher_Research_20261024.txt",
     "riptide": "RiptideLab_Over_CityOfTraitors_Research_20261024.txt",
+    "fire_covenant": "FireCovenant_Over_ToxicDeluge_Research_20261024.txt",
+    "flame_anor": "FlameAnor_Over_MindbreakTrap_Research_20261024.txt",
+    "spellseeker": "Spellseeker_Over_MnemonicBetrayal_Research_20261024.txt",
+    "dramatic": "DramaticReversal_Over_CabalRitual_Research_20261024.txt",
+    "gemstone": "GemstoneMine_Over_MorphicPool_Research_20261024.txt",
+    "frantic": "FranticSearch_Over_GitaxianProbe_Research_20261024.txt",
+    "five_stress": "FiveStress_NotApproved_Research_20261024.txt",
 }
 EXPECTED = {
     "baseline": {},
@@ -38,6 +45,15 @@ EXPECTED = {
     "flare": {"Flare of Duplication": "Mnemonic Betrayal"},
     "madcap": {"The Madcap Jester": "Hexing Squelcher"},
     "riptide": {"Riptide Laboratory": "City of Traitors"},
+    "fire_covenant": {"Fire Covenant": "Toxic Deluge"},
+    "flame_anor": {"Flame of Anor": "Mindbreak Trap"},
+    "spellseeker": {"Spellseeker": "Mnemonic Betrayal"},
+    "dramatic": {"Dramatic Reversal": "Cabal Ritual"},
+    "gemstone": {"Gemstone Mine": "Morphic Pool"},
+    "frantic": {"Frantic Search": "Gitaxian Probe"},
+    "five_stress": {"Fire Covenant": "Toxic Deluge", "Flame of Anor": "Mindbreak Trap",
+                    "Spellseeker": "Mnemonic Betrayal", "Dramatic Reversal": "Cabal Ritual",
+                    "Gemstone Mine": "Morphic Pool"},
 }
 HISTORICAL_RAW_SHA256 = "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
 LANDS = {
@@ -109,6 +125,8 @@ class JelevaAdversarialStress(unittest.TestCase):
                     expected_lands = (LANDS - {"Exotic Orchard"}) | {"Forbidden Orchard"}
                 elif key == "riptide":
                     expected_lands = (LANDS - {"City of Traitors"}) | {"Riptide Laboratory"}
+                elif key in ("gemstone", "five_stress"):
+                    expected_lands = (LANDS - {"Morphic Pool"}) | {"Gemstone Mine"}
                 else:
                     expected_lands = LANDS
                 self.assertEqual(len(names), 99)
@@ -186,7 +204,11 @@ class JelevaAdversarialStress(unittest.TestCase):
         self.assertIn("no owner approval", self.report)
         self.assertIn("zero five-swap-ready proposals", self.report)
         self.assertIn("not a validated Magic rules engine", self.report)
-        self.assertLess(max(len(changes) for changes in EXPECTED.values()), 5)
+        # FiveStress is an explicitly REJECTED negative control, not approval.
+        self.assertLess(max(len(changes) for k, changes in EXPECTED.items() if k != "five_stress"), 5)
+        self.assertEqual(len(EXPECTED["five_stress"]), 5)
+        self.assertIn("negative control", self.report)
+        self.assertIn("does not satisfy M7", self.report)
 
     def test_fresh_october_and_wizard_bounce_hypotheses_carry_explicit_limits(self):
         # This is source-bound review traceability, not a Magic stack simulator.
@@ -209,6 +231,64 @@ class JelevaAdversarialStress(unittest.TestCase):
             self.assertEqual(len(names), 99)
         # No false claim that one new wizard yields five positive deck changes.
         self.assertIn("not a demonstrated improvement", self.report)
+
+    def test_spellseeker_fire_flex_and_artifact_burst_have_falsifiable_limits(self):
+        for exact in (
+            "Fire Covenant", "Toxic Deluge", "additional cost", "Drannith Magistrate",
+            "Flame of Anor", "Mindbreak Trap", "Wizard", "five damage",
+            "Spellseeker", "Mnemonic Betrayal", "twice", "<=2",
+            "Dramatic Reversal", "Cabal Ritual", "Mana Vault", "Grim Monolith",
+            "Frantic Search", "Gitaxian Probe", "Gemstone Mine", "Morphic Pool",
+            "1,975 of 2,925", "1,984 of 2,925", "~0.31 percentage points",
+        ):
+            with self.subTest(exact=exact):
+                self.assertIn(exact, self.report)
+
+    def test_exact_land_three_color_bounded_enumeration(self):
+        from itertools import combinations, permutations
+
+        land_names = sorted(LANDS)
+        color_options = {}
+        grouped = {
+            "UBR": ["Arid Mesa", "Bloodstained Mire", "City of Brass", "Command Tower",
+                    "Exotic Orchard", "Flooded Strand", "Mana Confluence", "Marsh Flats",
+                    "Misty Rainforest", "Polluted Delta", "Scalding Tarn",
+                    "Verdant Catacombs", "Wooded Foothills", "Gemstone Mine", "Starting Town",
+                    "Forbidden Orchard"],
+            "UB": ["Morphic Pool", "Underground Sea", "Watery Grave"],
+            "UR": ["Steam Vents", "Volcanic Island"],
+            "BR": ["Badlands", "Blood Crypt"],
+            "U": ["Island", "Otawara, Soaring City"],
+            "B": ["Swamp"],
+            "R": ["Arena of Glory"],
+            "": ["Ancient Tomb", "City of Traitors", "Gemstone Caverns"],
+        }
+        for colors, names in grouped.items():
+            for name in names:
+                self.assertNotIn(name, color_options)
+                color_options[name] = colors
+        self.assertEqual(set(LANDS), set(land_names))
+        self.assertTrue(set(LANDS).issubset(color_options))
+
+        def supports_ubr(chosen):
+            return any(all(want in color_options[name] for name, want in zip(chosen, ordering))
+                       for ordering in permutations("UBR"))
+
+        def count_covered(lands):
+            triples = list(combinations(sorted(lands), 3))
+            self.assertEqual(len(triples), 2925)
+            return sum(supports_ubr(triple) for triple in triples)
+
+        self.assertEqual(count_covered(LANDS), 1975)
+        for replacement, cut, expected in (
+            ("Gemstone Mine", "Morphic Pool", 1984),
+            ("Starting Town", "Morphic Pool", 1984),
+            ("Forbidden Orchard", "Exotic Orchard", 1975),
+        ):
+            with self.subTest(replacement=replacement):
+                new_lands = (LANDS - {cut}) | {replacement}
+                self.assertEqual(count_covered(new_lands), expected)
+        self.assertIn("not** probability of casting the four-mana commander", self.report)
 
 
 if __name__ == "__main__":
