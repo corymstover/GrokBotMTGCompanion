@@ -1,4 +1,4 @@
-"""Kefka independent 33 whole-100 research variants; no canonical owner approval."""
+"""Kefka independent 34 whole-100 research variants; no canonical owner approval."""
 import hashlib
 import json
 import unittest
@@ -72,6 +72,9 @@ PAIRS = {
     "Irma_GeneratorServant_TwoSwap": [
         ("Irma, Part-Time Mutant", "Demonic Counsel"),
         ("Generator Servant", "Culling the Weak")],
+    "GeneratorServant_StepThrough_TwoSwap": [
+        ("Generator Servant", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel")],
 }
 
 
@@ -98,8 +101,8 @@ class KefkaIndependentChallengers(unittest.TestCase):
         self.assertEqual(hashlib.sha256(self.baseline_raw[:-1]).hexdigest(), BASE_SHA)
         self.assertEqual(len(self.base), 100)
 
-    def test_all_thirty_three_are_exact_full_100_with_only_staged_swaps(self):
-        self.assertEqual(len(PAIRS), 33)
+    def test_all_thirty_four_are_exact_full_100_with_only_staged_swaps(self):
+        self.assertEqual(len(PAIRS), 34)
         base = Counter(self.base)
         for key, swaps in PAIRS.items():
             with self.subTest(configuration=key):
@@ -186,6 +189,23 @@ class KefkaIndependentChallengers(unittest.TestCase):
                      "three mana", "RESEARCH_ONLY"):
             with self.subTest(term=term):
                 self.assertIn(term.lower(), self.report.lower())
+
+    def test_generator_step_through_pair_operational_boundaries(self):
+        j = {c["name"]: c for c in self.index["cards"]}
+        servant = j["Generator Servant"]
+        self.assertEqual(servant["mana_cost"], "{1}{R}")
+        self.assertIn("{T}, Sacrifice this creature: Add {C}{C}", servant["oracle_text"])
+        self.assertIn("haste", servant["oracle_text"].lower())
+        self.assertEqual(j["Kefka, Court Mage // Kefka, Ruler of Ruin"]["mana_cost"], "{2}{U}{B}{R}")
+        _, cards = read("GeneratorServant_StepThrough_TwoSwap")
+        self.assertIn("Generator Servant", cards)
+        self.assertIn("Step Through", cards)
+        self.assertNotIn("Culling the Weak", cards)
+        self.assertNotIn("Demonic Counsel", cards)
+        for term in ("turn two", "turn three", "U, B and R", "cannot normally tap",
+                     "mulligan-free", "commander-first",
+                     "conditional castability"):
+            self.assertIn(term.lower(), self.report.lower())
 
     def test_floor_and_preservation(self):
         self.assertIn("RESEARCH_ONLY", self.report)
