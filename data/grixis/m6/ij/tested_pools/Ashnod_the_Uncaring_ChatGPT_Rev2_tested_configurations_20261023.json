@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "deck_id": "Ashnod_the_Uncaring",
+  "status": "M7_REV2_SOURCE_BOUND_BOUNDED_LOCAL_POOL_NOT_OWNER_APPROVED",
+  "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+  "canonical_raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+  "source_oracle": "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_ChatGPT_M7_Rev2_Selected_20261023.json",
+  "source_research": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+  "source_combo_evidence": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+  "methodology": "Eight complete legal same-commander 100-card configurations, exact raw and logical hashes, finite Oracle-text algebra, role/mana comparisons. No stochastic win-rate claim or global optimality theorem.",
+  "explicit_pool_size": 8,
+  "configurations": [
+    {
+      "id": "BASELINE",
+      "path": "data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
+      "raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "logical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+      "physical_cards": 100,
+      "judgment": "historical canonical baseline; not revised"
+    },
+    {
+      "id": "GROKBOT_FIVE",
+      "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring.txt",
+      "raw_sha256": "b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d",
+      "logical_hash": "lh1:4ac4aed8ba1db6c913f19396e7d8a04645b3035bfe387cb8b04b694e5bfc862f",
+      "physical_cards": 100,
+      "judgment": "reject as final: loses two rocks and Walking Ballista while missing Basalt/Module/Pit"
+    },
+    {
+      "id": "CHATGPT_REV2_NINE",
+      "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring_ChatGPT_M7_Rev2_Nine_Approval_Candidate.txt",
+      "raw_sha256": "a045579b6f9d21f50c47da0096cb0dfc0dee772493eb522186944f61cb6c4761",
+      "logical_hash": "lh1:bd81a60cfbd2728705bfe2e14bd32f56a4081b51cf72b46a7d6cb057e9a30140",
+      "physical_cards": 100,
+      "judgment": "preferred bounded commander-first candidate; nine swaps and stronger artifact loops"
+    },
+    {
+      "id": "AUDACIOUS_OVER_KNAVE",
+      "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_ChatGPT_Rev2_alt_audacious_over_knave_20261023.txt",
+      "raw_sha256": "2d8ff381fc7aa7036d12b6bec806d470f9a134e9163f08368013881ca5034b36",
+      "logical_hash": "lh1:cac4147f56bcdcde785f7e29c35be200032963c8595dcff0da090a9f09815f1f",
+      "physical_cards": 100,
+      "judgment": "retained alternative, not selected: Audacious Reshapers frees two random artifacts each tap with Ashnod, but has summoning sickness, self-damage and no guarantee of mana or payoff; Knave gives repeatable immediate four Treasures and doubled draw."
+    },
+    {
+      "id": "SQUADRON_OVER_PIT",
+      "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_ChatGPT_Rev2_alt_squadron_over_pit_20261023.txt",
+      "raw_sha256": "283ca4f6b352a3d60175e78a4e20d4da7957311180f3dafadc2b976979e52237",
+      "logical_hash": "lh1:5f4761d967461ff87c3f7f899f7d182d1464717716e1682516be6dad4424acf6",
+      "physical_cards": 100,
+      "judgment": "retained alternative, not selected: Thopter Squadron's Commander-specific lines are four-piece, five-mana and need Novelist plus Altar/KCI; Pit is two-mana and requires no taps, makes a smaller three-card loop."
+    },
+    {
+      "id": "WEAPONS_OVER_MODULE",
+      "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_ChatGPT_Rev2_alt_weapons_over_module_20261023.txt",
+      "raw_sha256": "2b95f93d19462943be8d4629a8ab439a545a8f612eb374fe0d3b684dce27d892",
+      "logical_hash": "lh1:7c679736bc349774d9ec4801d0e839f167a6781d3268fcd901226e88b71f2981",
+      "physical_cards": 100,
+      "judgment": "retained alternative, not selected: Weapons Manufacturing yields Munitions for nontoken artifact ETBs and potential lethal damage; Animation Module enables three existing-inventory Spellbook loops with Ravager/Altar/KCI and Novelist, at one mana."
+    },
+    {
+      "id": "SKULLCLAMP_OVER_SKULLBOMB",
+      "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_ChatGPT_Rev2_alt_skullclamp_over_skullbomb_20261023.txt",
+      "raw_sha256": "0196c0c05cb6908fe4088fd08c8ac710d39460fb1fa87359240a6869c334e424",
+      "logical_hash": "lh1:696d840ef4ff8f8dd04d6c5b9c655b6c95379986d0d1159b636c0e8069864da5",
+      "physical_cards": 100,
+      "judgment": "retained alternative, not selected: Skullclamp is efficient token draw; Skullbomb is a commander-doubled instant draw-two/recursion piece, one-mana artifact sacrifice fodder and has more direct commander identity."
+    },
+    {
+      "id": "SAGE_OVER_PRIEST",
+      "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_ChatGPT_Rev2_alt_sage_over_priest_20261023.txt",
+      "raw_sha256": "4148d73a6c41c1e58e65b8895278be0fad1d3929d77d67a1fbded163d5b9db8e",
+      "logical_hash": "lh1:afaf16cbd090122b1268b9315c34403cba89a88171c3a0afbd7afd263cc49ca9",
+      "physical_cards": 100,
+      "judgment": "retained alternative, not selected: Sage draws two with Ashnod, but Priest also produces four black mana, double edict/life loss and two draws while retaining creature fodder synergy."
+    }
+  ],
+  "owner_m7_approved": false
+}

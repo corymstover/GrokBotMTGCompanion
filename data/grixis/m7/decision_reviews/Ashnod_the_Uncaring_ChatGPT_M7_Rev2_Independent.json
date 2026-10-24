@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "deck_id": "Ashnod_the_Uncaring",
+  "stage": "CHATGPT_M7_REV2_NINE_INDEPENDENT_REVIEW_CANDIDATE_NOT_OWNER_APPROVED",
+  "baseline": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "approved_source": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
+    "physical_raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+    "registry_matches_raw": true,
+    "status": "historically APPROVED/LOCKED; no new M7 approval"
+  },
+  "grok_first_pass": {
+    "engineering_pr": 654,
+    "head": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
+    "raw_sha256": "b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d",
+    "status": "RESEARCH_ONLY_NOT_OWNER_APPROVED",
+    "major_disagreement": "First pass dropped two rocks and Walking Ballista; did not compare Basalt, Module, or Pit."
+  },
+  "candidate": {
+    "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring_ChatGPT_M7_Rev2_Nine_Approval_Candidate.txt",
+    "raw_sha256": "a045579b6f9d21f50c47da0096cb0dfc0dee772493eb522186944f61cb6c4761",
+    "logical_hash": "lh1:bd81a60cfbd2728705bfe2e14bd32f56a4081b51cf72b46a7d6cb057e9a30140",
+    "physical_cards": 100,
+    "distinct_names": 95,
+    "lands": 33,
+    "rocks": 8,
+    "game_changers": 6,
+    "commander_color_identity": "U/B/R",
+    "commander_legal": true,
+    "exceptions": [],
+    "owner_approved": false,
+    "canonical_modified": false
+  },
+  "design": {
+    "identity": "Copy non-mana activated artifact/creature abilities with sacrifice in their activation costs; recursive artifacts, fodder generation, extra turns and sacrifice payoffs, with specific Ashnod commander-dependent infinite lines.",
+    "power_bracket": "4 — Optimized",
+    "archidekt_tags": [
+      "Ability Copy",
+      "Artifact Sacrifice",
+      "Artifact Combo"
+    ],
+    "core_protected": [
+      "Ashnod the Uncaring",
+      "Krark-Clan Shaman",
+      "Kuldotha Forgemaster",
+      "Repurposing Bay",
+      "Trading Post",
+      "Time Sieve",
+      "Clan Crafter",
+      "Goblin Engineer",
+      "Goblin Welder",
+      "Krark-Clan Ironworks",
+      "Ashnod's Altar",
+      "Rings of Brighthearth",
+      "Forensic Gadgeteer",
+      "Arcbound Ravager",
+      "Crime Novelist",
+      "Retrofitter Foundry",
+      "Walking Ballista",
+      "Myr Retriever",
+      "Scrap Trawler",
+      "Dross Scorpion",
+      "Nim Deathmantle",
+      "Urza, Lord High Artificer",
+      "Lotus Petal"
+    ],
+    "anti_homogenization": "Basalt's two artifact-loop synergies and the Pit/Module sacrifice/token loops are selected for this deck's existing engine, not to insert a generic Grixis combo package. No Thassa's Oracle/Consultation package."
+  },
+  "swaps": [
+    {
+      "add": "Corridor Monitor",
+      "cut": "Foundry Inspector",
+      "reason": "The Goblin Engineer + Lotus Petal + Monitor loop actually uses Ashnod's copy, creates repeatable artifact/creature death and ETBs, and Monitor untaps key artifacts even outside the combo. Inspector was the third reducer; two remain.",
+      "confidence": "HIGH"
+    },
+    {
+      "add": "Basalt Monolith",
+      "cut": "Fellwar Stone",
+      "reason": "Missed by first-pass M7: one card unlocks TWO independent two-card colorless-infinite combos with existing Rings of Brighthearth or Forensic Gadgeteer (Spellbook 4131-4235 and 4131-5390), plus triples mana once without combo. The deck keeps Walking Ballista to convert colorless mana into a win.",
+      "confidence": "HIGH"
+    },
+    {
+      "add": "Aether Spellbomb",
+      "cut": "Talisman of Indulgence",
+      "reason": "Both sacrifice abilities are copied by Ashnod: bounce up to two target creatures for U or draw two for 1. Replaces the most replaceable color Talisman; 33 lands/8 rocks plus more reliable untapped rainbow lands mitigate the one-rock loss.",
+      "confidence": "HIGH_WITH_MANA_TRADEOFF"
+    },
+    {
+      "add": "Spawning Pit",
+      "cut": "Esoteric Duplicator",
+      "reason": "Two-mana free repeatable artifact activated sacrifice outlet; Ashnod copies its charge-counter ability. Along with Crime Novelist, a creature to start, and 1 mana if that creature is not an artifact, it can repeat sacrificing the newly made artifact Spawn, adding two Pit counters, getting R from Novelist and spending R to replace the Spawn. New manually derived Ashnod-specific death/ETB/sacrifice loop. Duplicator's late end-step copying remains a real opportunity cost.",
+      "confidence": "HIGH_RULES_MODERATE_STRATEGY"
+    },
+    {
+      "add": "Animation Module",
+      "cut": "Reckless Fireweaver",
+      "reason": "One-mana Urza's Saga target, exploits Novelist's counters and already-present Arcbound Ravager/Ashnod's Altar/KCI. Commander Spellbook independently lists three near-complete three-card combos with exactly Module missing: 2829-3490-5346, 2034-3490-5346, 3490-4659-5346. Fireweaver is a reliable damage payoff, but several other sacrifice-win outlets remain.",
+      "confidence": "HIGH"
+    },
+    {
+      "add": "Priest of Forgotten Gods",
+      "cut": "Jhoira, Weatherlight Captain",
+      "reason": "Ashnod copies targeted Priest ability after two other creatures are sacrificed: each selected opponent may lose 4/sacrifice two creatures and we receive BBBB plus two draws. This trades unconditional 4-MV historic-card draw for a 2-MV commander-doubled mana, removal and draw engine.",
+      "confidence": "MODERATE_WITH_FODDER_AND_SUMMONING_SICKNESS"
+    },
+    {
+      "add": "Ruthless Knave",
+      "cut": "Farid, Enterprising Salvager",
+      "reason": "Ruthless is 3 MV and immediately turns 2B plus one creature into four Treasure tokens with Ashnod; sacrificing three Treasures to Knave's second ability draws two instead of one. Farid's nontoken-death Scrap production, rummaging and one Deathmantle combo are meaningful losses, but Knave's mana and no-tap doubled draw better support this token-sacrifice build.",
+      "confidence": "MODERATE"
+    },
+    {
+      "add": "City of Brass",
+      "cut": "Xander's Lounge",
+      "reason": "Immediate unconditional three-color mana avoids a turn-tapped land for casting UBR five-mana Ashnod; pay one damage when tapped, forgo cycling.",
+      "confidence": "HIGH"
+    },
+    {
+      "add": "Mana Confluence",
+      "cut": "Exotic Orchard",
+      "reason": "Guarantees all Ashnod colors independently of opponents' land types, at one life per colored tap; improving commander access outweighs the life cost in this high-power shell.",
+      "confidence": "MODERATE_HIGH"
+    }
+  ],
+  "independent_discoveries": {
+    "source_bound_spellbook": [
+      {
+        "id": "4131-4235",
+        "cards": [
+          "Basalt Monolith",
+          "Rings of Brighthearth"
+        ],
+        "result": "infinite colorless mana, with available activation-seeding mana"
+      },
+      {
+        "id": "4131-5390",
+        "cards": [
+          "Basalt Monolith",
+          "Forensic Gadgeteer"
+        ],
+        "result": "infinite colorless mana after Basalt untap costs 2 and its tap produces 3"
+      },
+      {
+        "id": "2829-3490-5346",
+        "cards": [
+          "Arcbound Ravager",
+          "Animation Module",
+          "Crime Novelist"
+        ],
+        "result": "unbounded token ETB/death/sac, Novelist counter growth when supplied initial artifact creature"
+      },
+      {
+        "id": "2034-3490-5346",
+        "cards": [
+          "Ashnod's Altar",
+          "Animation Module",
+          "Crime Novelist"
+        ],
+        "result": "infinite colorless/red mana and sacrifice/death/ETB with artifact creature fuel"
+      },
+      {
+        "id": "3490-4659-5346",
+        "cards": [
+          "Animation Module",
+          "Krark-Clan Ironworks",
+          "Crime Novelist"
+        ],
+        "result": "infinite colorless/red mana with artifact creature fuel"
+      }
+    ],
+    "independent_manual_rules_case": {
+      "cards": [
+        "Ashnod the Uncaring",
+        "Spawning Pit",
+        "Crime Novelist"
+      ],
+      "requires": "A creature to sacrifice initially; if nonartifact, 1 starting generic mana; opponent interaction can interrupt; Ashnod and Crime Novelist remain in play.",
+      "line": "Activate Spawning Pit sacrificing the creature. Ashnod copies the nonmana ability; both counters resolve for two charges. Create a 2/2 Spawn artifact creature for 1. Sacrifice that Spawn to the first Pit ability: two charges again, Crime Novelist adds R. Spend that R to create the next Spawn; loop. No infinite mana claim.",
+      "indexed_by_spellbook": false
+    }
+  },
+  "mana": {
+    "baseline_static_sources": 42,
+    "grok_first_pass": 40,
+    "chatgpt_rev2": 41,
+    "baseline_lands": 33,
+    "candidate_lands": 33,
+    "baseline_rocks": 9,
+    "candidate_rocks": 8,
+    "prob_ge_5_sources_in_first_11_99_card_library": {
+      "baseline": 0.5374351663733277,
+      "grok_first_pass": 0.47893517852011575,
+      "rev2": 0.5082808947269865
+    },
+    "note": "These are hypergeometric access probabilities, NOT calibrated multiplayer win rates; ignore rituals, opponent interaction, and colored availability. Two fully untapped guaranteed UBR land replacements offset some reliability cost from one fewer static rock. Includes one-shot Lotus Petal and conditional Mox Opal/Basalt in the source-card proxy; not a cast-probability or win-rate model."
+  },
+  "open_ended_search": {
+    "edhrec": "2026-10-23 full EDHREC Ashnod Top Cards and High Lift evidence from Grok PR #654",
+    "spellbook": "2026-10-23 find-my-combos and almost-included evidence from PR #654",
+    "oracle": "2026-10-23 316-name live Scryfall research snapshot plus two same-day canonical selected-card records",
+    "whole_99_reviewed": true,
+    "alternatives_examined": [
+      "Audacious Reshapers",
+      "Thopter Squadron",
+      "Weapons Manufacturing",
+      "Skullclamp",
+      "Sage of Lat-Nam",
+      "Spire of Industry",
+      "Mana Vault",
+      "Mirkwood Bats",
+      "Burnished Hart",
+      "Marionette Master",
+      "Lightning Greaves",
+      "Whisper, Blood Liturgist",
+      "Doomed Necromancer",
+      "Mindslaver",
+      "Transmutation Font",
+      "Slagstone Refinery"
+    ],
+    "stop_reason": "No further replacement among the remaining 99 proved clearly quality-positive in finite board/rules and mana comparisons. Nine is not a cap; more changes require a concrete superior cut rather than padding."
+  },
+  "caveats": [
+    "Grok's historical five-swap I/J bundle certifies only the Grok first-pass candidate, not this Rev2. Rev2 requires its OWN source-bound J validation.",
+    "Spellbook counts count listed card combinations and may require board-state substrates; independently check activation timing and potential finishing outlets.",
+    "The Spawning Pit loop is manually derived from Oracle text, not independently indexed by Commander Spellbook.",
+    "The eight configuration pool is bounded qualitative evidence only, not global deck optimization or controlled win-rate measurements.",
+    "No canonical state, tracker, owner approval, or lock is changed."
+  ]
+}

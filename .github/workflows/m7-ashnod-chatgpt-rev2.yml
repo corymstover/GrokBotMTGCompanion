@@ -1,0 +1,35 @@
+name: M7 Deck 6 Ashnod ChatGPT Rev2 nine-swap source-bound verification
+on:
+  pull_request:
+    branches: [grokbot-deck06-ashnod-the-uncaring-m7-20261023]
+    paths:
+      - .github/workflows/m7-ashnod-chatgpt-rev2.yml
+      - data/grixis/m7/**
+      - data/grixis/m6/**
+      - tests/test_m7_ashnod_chatgpt_rev2_candidate.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rev2-source-bound:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: New Rev2 whole-100, Oracle, mana, bounded M6 I/J
+        run: python -m pytest -v tests/test_m7_ashnod_chatgpt_rev2_candidate.py
+      - name: Prior Grok five-swap tests remain green
+        run: python -m pytest -v tests/test_m7_ashnod_the_uncaring_candidate.py tests/test_m6_ashnod_the_uncaring_m7_mechanics.py tests/test_m6_ashnod_the_uncaring_m7_ij.py
+      - name: Ensure no approval or lock was written
+        run: python -c 'import json; p=json.load(open("data/grixis/m7/decision_reviews/Ashnod_the_Uncaring_ChatGPT_M7_Rev2_Independent.json")); assert not p["candidate"]["owner_approved"] and not p["candidate"]["canonical_modified"]'
