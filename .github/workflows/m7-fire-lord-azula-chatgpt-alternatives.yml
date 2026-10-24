@@ -1,0 +1,29 @@
+name: M7 Deck 19 Azula ChatGPT source-bound exploratory alternatives
+on:
+  pull_request:
+    branches:
+      - grokbot-deck19-fire-lord-azula-m7-20261023
+    paths:
+      - .github/workflows/m7-fire-lord-azula-chatgpt-alternatives.yml
+      - data/grixis/m7/chatgpt_reviews/**
+      - tests/test_m7_fire_lord_azula_chatgpt_alternatives.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  azula-exploratory-alternatives:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Show exact head
+        run: git rev-parse HEAD
+      - name: Source bound count identity legality protected keeps mana and haste checks
+        run: python -m unittest discover -s tests -p test_m7_fire_lord_azula_chatgpt_alternatives.py -v
