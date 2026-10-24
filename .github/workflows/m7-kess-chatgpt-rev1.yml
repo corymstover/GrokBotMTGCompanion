@@ -1,0 +1,33 @@
+name: M7 Deck 26 Kess ChatGPT independent Rev1 five-swap review
+
+on:
+  pull_request:
+    branches: [grokbot-deck26-kess-dissident-mage-m7-20261023]
+    paths:
+      - .github/workflows/m7-kess-chatgpt-rev1.yml
+      - data/grixis/m7/independent_reviews/Kess__Dissident_Mage_ChatGPT_Rev1_candidate.txt
+      - data/grixis/m7/independent_reviews/Kess__Dissident_Mage_ChatGPT_Rev1_review.md
+      - data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json
+      - tests/test_m7_kess_chatgpt_rev1.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kess-rev1-exact-source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: Verify exact 100, SHA, five swaps, current sourced Commander legality and mechanics, no authority changes
+        run: python -m unittest discover -s tests -p test_m7_kess_chatgpt_rev1.py -v
