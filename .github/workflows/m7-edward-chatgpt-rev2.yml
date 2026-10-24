@@ -1,0 +1,25 @@
+name: Verify Edward ChatGPT M7 Rev2 Research Candidate
+
+on:
+  push:
+    branches: ["chatgpt-deck17-edward-m7-rev2-independent-audit-20261023"]
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Edward_Kenway_ChatGPT_M7_Rev2_20261023.txt"
+      - "data/grixis/m7/decision_reviews/Edward_Kenway_ChatGPT_M7_Rev2_Oracle_Selected_20261023.json"
+      - "data/grixis/m7/decision_reviews/Edward_Kenway_ChatGPT_M7_Rev2_Independent_20261023.md"
+      - "tests/test_m7_edward_chatgpt_rev2.py"
+      - ".github/workflows/m7-edward-chatgpt-rev2.yml"
+permissions:
+  contents: read
+jobs:
+  review-edward-rev2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Exact 100 card SHA preserved mana Pirate Treasure outlets legality and timing
+        run: python -m unittest discover -s tests -p 'test_m7_edward_chatgpt_rev2.py' -v
