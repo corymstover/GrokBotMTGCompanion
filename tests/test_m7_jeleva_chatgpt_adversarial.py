@@ -20,6 +20,9 @@ FILES = {
     "snap": "Snap_Over_Probe_Research_20261024.txt",
     "forbidden": "ForbiddenOrchard_Over_Exotic_Research_20261024.txt",
     "snap_forbidden": "Snap_Forbidden_TwoSwap_Research_20261024.txt",
+    "flare": "Flare_Over_MnemonicBetrayal_Research_20261024.txt",
+    "madcap": "Madcap_Over_HexingSquelcher_Research_20261024.txt",
+    "riptide": "RiptideLab_Over_CityOfTraitors_Research_20261024.txt",
 }
 EXPECTED = {
     "baseline": {},
@@ -32,6 +35,9 @@ EXPECTED = {
     "snap": {"Snap": "Gitaxian Probe"},
     "forbidden": {"Forbidden Orchard": "Exotic Orchard"},
     "snap_forbidden": {"Snap": "Gitaxian Probe", "Forbidden Orchard": "Exotic Orchard"},
+    "flare": {"Flare of Duplication": "Mnemonic Betrayal"},
+    "madcap": {"The Madcap Jester": "Hexing Squelcher"},
+    "riptide": {"Riptide Laboratory": "City of Traitors"},
 }
 HISTORICAL_RAW_SHA256 = "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
 LANDS = {
@@ -99,7 +105,12 @@ class JelevaAdversarialStress(unittest.TestCase):
             with self.subTest(candidate=key):
                 cards, _ = read_cards(key)
                 names = set(cards)
-                expected_lands = (LANDS - {"Exotic Orchard"}) | {"Forbidden Orchard"} if key in ("forbidden", "snap_forbidden") else LANDS
+                if key in ("forbidden", "snap_forbidden"):
+                    expected_lands = (LANDS - {"Exotic Orchard"}) | {"Forbidden Orchard"}
+                elif key == "riptide":
+                    expected_lands = (LANDS - {"City of Traitors"}) | {"Riptide Laboratory"}
+                else:
+                    expected_lands = LANDS
                 self.assertEqual(len(names), 99)
                 self.assertEqual(names - base, set(changes))
                 self.assertEqual(base - names, set(changes.values()))
@@ -176,6 +187,28 @@ class JelevaAdversarialStress(unittest.TestCase):
         self.assertIn("zero five-swap-ready proposals", self.report)
         self.assertIn("not a validated Magic rules engine", self.report)
         self.assertLess(max(len(changes) for changes in EXPECTED.values()), 5)
+
+    def test_fresh_october_and_wizard_bounce_hypotheses_carry_explicit_limits(self):
+        # This is source-bound review traceability, not a Magic stack simulator.
+        for exact in (
+            "Flare of Duplication", "Mnemonic Betrayal", "sacrifice Jeleva",
+            "stack target", "The Madcap Jester", "four mana before Jeleva",
+            "normal costs", "Riptide Laboratory", "City of Traitors",
+            "{1}{U}", "colorless", "Mirror Universe Intrusion",
+            "November 13, 2026", "Turbulent Wetlands", "eight or more lands",
+        ):
+            with self.subTest(exact=exact):
+                self.assertIn(exact, self.report)
+        for key, new_name in (
+            ("flare", "Flare of Duplication"),
+            ("madcap", "The Madcap Jester"),
+            ("riptide", "Riptide Laboratory"),
+        ):
+            names, _ = read_cards(key)
+            self.assertIn(new_name, names)
+            self.assertEqual(len(names), 99)
+        # No false claim that one new wizard yields five positive deck changes.
+        self.assertIn("not a demonstrated improvement", self.report)
 
 
 if __name__ == "__main__":
