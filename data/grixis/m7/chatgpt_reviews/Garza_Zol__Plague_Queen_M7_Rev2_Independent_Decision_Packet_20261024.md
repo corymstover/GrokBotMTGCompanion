@@ -1,6 +1,6 @@
 # Garza Zol, Plague Queen — ChatGPT independent M7 Rev2 decision packet (2026-10-24)
 
-Status: **SEVEN-SWAP RESEARCH CANDIDATE; AWAITING EXACT-HEAD CI AND EXPLICIT CORY APPROVAL. NOT CANONICAL AND NOT LOCKED.**
+Status: **SEVEN-SWAP RESEARCH CANDIDATE; AWAITING EXACT-HEAD CI AND EXPLICIT OWNER APPROVAL FROM CORY. NOT CANONICAL AND NOT LOCKED.**
 Repository: corymstover/GrokBotMTGCompanion; stacked on Grok PR #668 (909543a544aee2a170aca9e668141624d2343e50); engineering only.
 Canonical repository state/current_deck_overrides.json and refinement/decklists remain UNTOUCHED. The Oct14 baseline remains approved/locked historically, not yet NEW-M7 approved.
 Source: canonical main refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt; source raw SHA-256 32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f.
