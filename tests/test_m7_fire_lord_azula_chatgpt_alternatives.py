@@ -38,6 +38,18 @@ OPTIONS = {
         "adds": {"Sink into Stupor // Soporific Springs", "Samut, Hazoret's Champion", "Flashback", "Mistrise Village"},
         "cuts": {"Exotic Orchard", "Vivi Ornitier", "Repeal", "Wooded Foothills"},
     },
+    "electro_five": {
+        "path": "Fire_Lord_Azula_ChatGPT_Electro_Five_Under_Review.txt",
+        "sha256": "77ac26a4f4ff70d0a7a666b07fa9fe051e52fe0547d8320d84490d088c0cc273",
+        "adds": {"Turnabout", "Sink into Stupor // Soporific Springs", "Samut, Hazoret's Champion", "Flashback", "Electrodominance"},
+        "cuts": {"Samut, Tyrant of Naktamun", "Exotic Orchard", "Vivi Ornitier", "Repeal", "Redirect Lightning"},
+    },
+    "electro_six": {
+        "path": "Fire_Lord_Azula_ChatGPT_Electro_Six_Under_Review.txt",
+        "sha256": "5c50bffd5335e03e9739d1b1d8f552bf23cce0eb050bccabf0b53196b21ea25b",
+        "adds": {"Turnabout", "Sink into Stupor // Soporific Springs", "Samut, Hazoret's Champion", "Flashback", "Mistrise Village", "Electrodominance"},
+        "cuts": {"Samut, Tyrant of Naktamun", "Exotic Orchard", "Vivi Ornitier", "Repeal", "Wooded Foothills", "Redirect Lightning"},
+    },
 }
 
 
@@ -135,6 +147,24 @@ class AzulaChatGPTResearchChecks(unittest.TestCase):
         self.assertIn("split second", self.oracle["Samut, Tyrant of Naktamun"]["oracle_text"])
         self.assertIn("copy target instant or sorcery spell", self.oracle["Narset's Reversal"]["oracle_text"].lower())
 
+    def test_electrodominance_copied_free_casts_require_real_conditions(self):
+        electro = self.oracle["Electrodominance"]
+        self.assertEqual(electro["mana_cost"], "{X}{R}{R}")
+        self.assertEqual(electro["commander_legality"], "legal")
+        self.assertIn("deals X damage to any target", electro["oracle_text"])
+        self.assertIn("cast a spell with mana value X or less from your hand without paying its mana cost", electro["oracle_text"])
+        self.assertIn("Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell",
+                      self.oracle["Fire Lord Azula"]["oracle_text"])
+        # At X=1 or 2, two red firebending mana cover RR; one or two other mana pay X.
+        self.assertTrue(castable_with_pool("{1}{R}{R}", ["R", "R", "U"]))
+        self.assertTrue(castable_with_pool("{2}{R}{R}", ["R", "R", "U", "B"]))
+        self.assertFalse(castable_with_pool("{2}{R}{R}", ["R", "R", "U"]))
+        for label in ("electro_five", "electro_six"):
+            _, _, names = read_list(RESEARCH / OPTIONS[label]["path"])
+            self.assertIn("Electrodominance", names)
+            self.assertNotIn("Samut, Tyrant of Naktamun", names)
+            self.assertNotIn("Redirect Lightning", names)  # Explicit protection opportunity cost.
+
     def test_haste_access_raw_draw_proxy_not_game_model(self):
         source = set(self.baseline_names)
         base_haste = {"Arena of Glory", "Crimson Wisps", "Expedite"}
@@ -150,11 +180,18 @@ class AzulaChatGPTResearchChecks(unittest.TestCase):
         # Reuse Grok's finite test helper, with all its disclosed blind spots:
         # no moxen, rituals, haste, tapped-land timing or real multiplayer play.
         self.assertEqual(run_cast(BASELINE, mdfc_land=True)["play"]["4"], 0.492)
+        expected = {
+            "defense_five": (0.4874, 0.4604),
+            "haste_five": (0.4874, 0.4604),
+            "keep_samut_four": (0.4874, 0.4604),
+            "electro_five": (0.49, 0.4626),
+            "electro_six": (0.4874, 0.4604),
+        }
         for label, option in OPTIONS.items():
             with self.subTest(option=label):
                 path = RESEARCH / option["path"]
-                self.assertEqual(run_cast(path, mdfc_land=True)["play"]["4"], 0.4874)
-                self.assertEqual(run_cast(path, mdfc_land=False)["play"]["4"], 0.4604)
+                self.assertEqual(run_cast(path, mdfc_land=True)["play"]["4"], expected[label][0])
+                self.assertEqual(run_cast(path, mdfc_land=False)["play"]["4"], expected[label][1])
 
 
 if __name__ == "__main__":
