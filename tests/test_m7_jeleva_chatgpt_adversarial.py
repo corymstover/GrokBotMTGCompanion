@@ -30,6 +30,9 @@ FILES = {
     "gemstone": "GemstoneMine_Over_MorphicPool_Research_20261024.txt",
     "frantic": "FranticSearch_Over_GitaxianProbe_Research_20261024.txt",
     "five_stress": "FiveStress_NotApproved_Research_20261024.txt",
+    "cavern_city": "Cavern_Over_CityOfTraitors_Research_20261024.txt",
+    "cavern_morphic": "Cavern_Over_MorphicPool_Research_20261024.txt",
+    "plaza_city": "PlazaOfHeroes_Over_CityOfTraitors_Research_20261024.txt",
 }
 EXPECTED = {
     "baseline": {},
@@ -54,6 +57,9 @@ EXPECTED = {
     "five_stress": {"Fire Covenant": "Toxic Deluge", "Flame of Anor": "Mindbreak Trap",
                     "Spellseeker": "Mnemonic Betrayal", "Dramatic Reversal": "Cabal Ritual",
                     "Gemstone Mine": "Morphic Pool"},
+    "cavern_city": {"Cavern of Souls": "City of Traitors"},
+    "cavern_morphic": {"Cavern of Souls": "Morphic Pool"},
+    "plaza_city": {"Plaza of Heroes": "City of Traitors"},
 }
 HISTORICAL_RAW_SHA256 = "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
 LANDS = {
@@ -127,6 +133,10 @@ class JelevaAdversarialStress(unittest.TestCase):
                     expected_lands = (LANDS - {"City of Traitors"}) | {"Riptide Laboratory"}
                 elif key in ("gemstone", "five_stress"):
                     expected_lands = (LANDS - {"Morphic Pool"}) | {"Gemstone Mine"}
+                elif key in ("cavern_city", "plaza_city"):
+                    expected_lands = (LANDS - {"City of Traitors"}) | {"Cavern of Souls" if key == "cavern_city" else "Plaza of Heroes"}
+                elif key == "cavern_morphic":
+                    expected_lands = (LANDS - {"Morphic Pool"}) | {"Cavern of Souls"}
                 else:
                     expected_lands = LANDS
                 self.assertEqual(len(names), 99)
@@ -270,14 +280,14 @@ class JelevaAdversarialStress(unittest.TestCase):
         self.assertEqual(set(LANDS), set(land_names))
         self.assertTrue(set(LANDS).issubset(color_options))
 
-        def supports_ubr(chosen):
-            return any(all(want in color_options[name] for name, want in zip(chosen, ordering))
+        def supports_ubr(chosen, options):
+            return any(all(want in options[name] for name, want in zip(chosen, ordering))
                        for ordering in permutations("UBR"))
 
-        def count_covered(lands):
+        def count_covered(lands, options=color_options):
             triples = list(combinations(sorted(lands), 3))
             self.assertEqual(len(triples), 2925)
-            return sum(supports_ubr(triple) for triple in triples)
+            return sum(supports_ubr(triple, options) for triple in triples)
 
         self.assertEqual(count_covered(LANDS), 1975)
         for replacement, cut, expected in (
@@ -288,7 +298,27 @@ class JelevaAdversarialStress(unittest.TestCase):
             with self.subTest(replacement=replacement):
                 new_lands = (LANDS - {cut}) | {replacement}
                 self.assertEqual(count_covered(new_lands), expected)
+        wizard_mana = {**color_options, "Cavern of Souls": "UBR", "Plaza of Heroes": "UBR"}
+        spell_mana = {**color_options, "Cavern of Souls": "", "Plaza of Heroes": ""}
+        for replacement in ("Cavern of Souls", "Plaza of Heroes"):
+            with self.subTest(commander_land=replacement):
+                alternative = (LANDS - {"City of Traitors"}) | {replacement}
+                self.assertEqual(count_covered(alternative, wizard_mana), 2250)
+                # Both the displaced City and Cavern/Plaza provide only colorless
+                # toward ordinary noncreature spells in this simplified check.
+                self.assertEqual(count_covered(alternative, spell_mana), 1975)
+        morphic_replacement = (LANDS - {"Morphic Pool"}) | {"Cavern of Souls"}
+        self.assertEqual(count_covered(morphic_replacement, wizard_mana), 1984)
+        self.assertEqual(count_covered(morphic_replacement, spell_mana), 1732)
         self.assertIn("not** probability of casting the four-mana commander", self.report)
+
+    def test_cavern_wizard_protection_and_generic_burst_loss_disclosed(self):
+        for phrase in ("Cavern of Souls", "City of Traitors", "Plaza of Heroes",
+                       "Thassa's Oracle", "Harmonic Prodigy", "Wizard", "Drannith Magistrate",
+                       "2,250 / 2,925", "1,732 / 2,925", "9.40 percentage-point",
+                       "City's additional generic mana", "not** probability"):
+            with self.subTest(phrase=phrase):
+                self.assertIn(phrase, self.report)
 
 
 if __name__ == "__main__":
