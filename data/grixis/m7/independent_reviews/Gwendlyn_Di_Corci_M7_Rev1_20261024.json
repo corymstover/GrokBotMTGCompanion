@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "deck_id": "Gwendlyn_Di_Corci",
+  "as_of_date": "2026-10-24",
+  "stage": "CHATGPT_M7_INDEPENDENT_SIX_SWAP_RESEARCH_CANDIDATE_NOT_OWNER_APPROVED",
+  "source": {
+    "canonical_baseline_path": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+    "canonical_baseline_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+    "baseline_terminal_lf": false,
+    "grok_pr": 670,
+    "grok_head": "7483728a700e01f2b45172c9c55438903d9092ac",
+    "grok_one_swap_sha": "f5f26b78a09f9247be2e311dd76b6e1ff3ed012cd2eaa66692cb33b68fc38197"
+  },
+  "primary_candidate": {
+    "path": "data/grixis/m7/independent_candidates/Gwendlyn_Di_Corci_M7_Rev1_Proposed_20261024.txt",
+    "raw_sha256": "36b76cbe47a04b7492007103e4baaad50324b3e72fb2067b28aa8bb9da70e355",
+    "owner_approved": false,
+    "canonical_changed": false,
+    "physical_cards": 100,
+    "distinct_names": 95,
+    "lines": 95,
+    "lands": 35,
+    "nonland_library": 64,
+    "average_nonland_mana_value": 2.328125,
+    "game_changers": 17,
+    "bracket": "4 — Optimized",
+    "tags": [
+      "Discard",
+      "Wheels",
+      "Untap"
+    ],
+    "project_exceptions": []
+  },
+  "swaps": [
+    {
+      "add": "Hymn to Tourach",
+      "cut": "Dauthi Voidwalker",
+      "advantage": "Two random discards for {B}{B}; removes Dauthi exile replacement that prevents Tergrid reanimating discarded permanents, Tinybones Bauble Burglar accessing their graveyard cards, and Bloodchief Ascension cards going to graveyard.",
+      "loss": "Lose continuous opponent graveyard exile, 3/2 shadow clock, void card free-cast ability; blank against hellbent target."
+    },
+    {
+      "add": "Rings of Brighthearth",
+      "cut": "Underworld Dreams",
+      "advantage": "{3} colorless instead of {B}{B}{B}; pay {2} to copy Gwendlyn's nonmana tap ability per activation and choose another player, including with Bracers for 3 total discard activations; can copy other useful nonmana activated abilities.",
+      "loss": "Lose reliable 1 damage for each opponent draw, especially Wheel of Fortune/Timetwister seven-card draw bursts; Rings needs {2} each copy and Gwendlyn available."
+    },
+    {
+      "add": "Sting, the Glinting Dagger",
+      "cut": "The Raven Man",
+      "advantage": "{2} equipment grants Gwendlyn haste; beginning of own combat untaps equipped Gwendlyn for extra no-mana activation after main-phase tap, improving commander availability alongside preserved Greaves/Elixir/Stone/Pemmin.",
+      "loss": "Real equip cost {2} in addition to casting cost {2}; loss of 1/1 flying Birds generated per end step with a discard and Raven Man's {3}{B},{T} each-opponent discard; no protection and only untaps in each combat, while Gwendlyn may activate only during your own turn."
+    },
+    {
+      "add": "Misty Rainforest",
+      "cut": "Crumbling Necropolis",
+      "advantage": "Fetches Island-typed Underground Sea/Watery Grave/Volcanic Island/Steam Vents untapped (pay shock life if applicable), or tapped Xander's Lounge, improving early typed-dual tempo.",
+      "loss": "1 life per fetch and possible 2 for shock; cannot offer all UBR untapped from one target; Crumbling guaranteed no-life 3-color but tapped."
+    },
+    {
+      "add": "Marsh Flats",
+      "cut": "Drowned Catacomb",
+      "advantage": "Fetches Swamp-typed Underground Sea/Watery Grave or Badlands/Blood Crypt; makes red available where the UB checkland cannot; can fetch Xander's Lounge tapped.",
+      "loss": "1 life plus possible shock life, searching risk; Drowned has unconditional UB production when untapped without life cost."
+    },
+    {
+      "add": "Shivan Reef",
+      "cut": "one copy of Mountain (2x → 1x)",
+      "advantage": "Adds an untapped blue source for Gwendlyn's {U}{B}{B}{R} and repeated Pemmin's Aura untaps while preserving red access, and retains one Mountain as basic typed fetch target.",
+      "loss": "Pain land costs 1 life per colored use and fewer basic Mountains for Blood Moon/fetch resiliency; not an unconditional win-rate improvement."
+    }
+  ],
+  "whole_deck_scope": {
+    "baseline_lands": 35,
+    "new_lands": 35,
+    "baseline_game_changers": 17,
+    "new_game_changers": 17,
+    "nominal_UBR_sources_baseline": [
+      21,
+      24,
+      17
+    ],
+    "nominal_UBR_sources_candidate": [
+      22,
+      24,
+      18
+    ],
+    "nominal_source_caveat": "Misty/Marsh counted as three-color only if willing to fetch Xander's Lounge tapped; shock/dual targets provide only two color choices. Nominal counts are not turn-four castability probabilities.",
+    "old_owner_keeps_preserved": [
+      "Mind Twist",
+      "Magewright's Stone",
+      "Pemmin's Aura",
+      "Illusionist's Bracers",
+      "Minamo, School at Water's Edge",
+      "Patriar's Seal",
+      "Thousand-Year Elixir",
+      "Lightning Greaves",
+      "Waste Not",
+      "Geth's Grimoire",
+      "Liliana's Caress",
+      "Tinybones, Trinket Thief",
+      "Tinybones, Bauble Burglar",
+      "Bloodchief Ascension",
+      "Tergrid, God of Fright // Tergrid's Lantern",
+      "Chains of Mephistopheles",
+      "Notion Thief",
+      "Oppression",
+      "Bottomless Pit"
+    ],
+    "no_generic_combo_conversion": true
+  },
+  "conditional_scenarios": [
+    {
+      "state": "Gwendlyn untapped and usable, Rings on battlefield, at least one target with cards, two extra generic mana available.",
+      "outcome": "Tap Gwendlyn to make one random discard plus one copy for another random discard. With Illusionist's Bracers also equipped and {2} Rings payment, three total activations (original + two copies), not four. Opponent cards and response window matter."
+    },
+    {
+      "state": "Gwendlyn equipped with Sting during controller's turn, before combat main and not affected by summoning sickness due to Sting haste.",
+      "outcome": "Gwendlyn can tap in main phase, Sting untaps at beginning of combat, and Gwendlyn can tap again during that turn; under same conditions no more than one free own-turn combat untap absent extra combats."
+    },
+    {
+      "state": "Dauthi Voidwalker on battlefield",
+      "outcome": "Opponent discard cards are exiled with void counters instead of entering graveyard, preventing the from-graveyard retrieval in Tergrid and Tinybones Bauble Burglar and the graveyard-entry trigger in Bloodchief Ascension."
+    },
+    {
+      "state": "Fetchland last-land on turn four",
+      "outcome": "Misty/Marsh can produce untapped appropriate typed duals when available; old Crumbling always taps and old Drowned may enter tapped when no Island/Swamp in play. Actual paid UBBR depends on combined color sources, prior plays and life."
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "FIVE_SWAP_WITHOUT_SHIVAN",
+      "path": "data/grixis/m7/independent_candidates/Gwendlyn_Di_Corci_M7_Rev1_Five_Swap_Without_Shivan_20261024.txt",
+      "raw_sha256": "b62797355940546b1d6fdc1d8485e3c797189225bb2ffdc817a7f5fe29633e53",
+      "physical": 100,
+      "judgment": "STAGED_CONTROL; safe basic count but less blue fixing."
+    },
+    {
+      "id": "FREED_FROM_REAL_OVER_STING_SIX_SWAP",
+      "path": "data/grixis/m7/independent_candidates/Gwendlyn_Di_Corci_M7_Rev1_Freed_Six_Swap_Alternative_20261024.txt",
+      "raw_sha256": "33a86979b9ff1376908e383b8ab4103a37db3eb6cbc8cafad3088f04cd9a93e3",
+      "physical": 100,
+      "judgment": "STAGED_NOT_SELECTED; {U} repeat untap may exceed Sting late when blue-rich, but no haste, vulnerability to aura removal, more redundancy with Pemmin. Oracle source in addendum."
+    }
+  ],
+  "source_evidence": {
+    "oracle_snapshot": "data/grixis/m6/oracle_snapshots/Gwendlyn_Di_Corci_M7_Scryfall_20261023.json",
+    "oracle_addendum": "data/grixis/m7/independent_reviews/Gwendlyn_Di_Corci_Oracle_Addendum_20261024.json",
+    "archived_names": 93,
+    "published_manual_names": 2,
+    "edhrec_snapshot": "data/grixis/m7/research_challengers/Gwendlyn_Di_Corci_EDHREC_discovery_20261023.json",
+    "spellbook_note": "Previously archived only complete Underworld Breach + Lion's Eye Diamond + Wheel of Fortune combo kept. No newly asserted infinite."
+  },
+  "limitations": "No actual matches, win-rate calculation or comprehensive game-engine simulation, and no new full live Scryfall API request. Focused conditional rules assertions plus source-bound all-100 verification. Existing Grok source and canonical historical approval stay unchanged until exact owner approval."
+}
