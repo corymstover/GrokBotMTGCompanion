@@ -1,4 +1,4 @@
-"""Kefka independent 14 whole-100 research variants; no canonical owner approval."""
+"""Kefka independent 33 whole-100 research variants; no canonical owner approval."""
 import hashlib
 import json
 import unittest
@@ -35,6 +35,43 @@ PAIRS = {
     "Chameleon_Glasspool_TwoSwap": [
         ("Chameleon, Master of Disguise", "Culling the Weak"),
         ("Glasspool Mimic // Glasspool Shore", "Demonic Counsel")],
+    "StepThrough_Over_DemonicCounsel": [("Step Through", "Demonic Counsel")],
+    "Spellseeker_Over_DemonicCounsel": [("Spellseeker", "Demonic Counsel")],
+    "StepThrough_Over_DiabolicIntent": [("Step Through", "Diabolic Intent")],
+    "Spellseeker_Over_DiabolicIntent": [("Spellseeker", "Diabolic Intent")],
+    "Dualcaster_StepThrough_TwoSwap": [
+        ("Dualcaster Mage", "Culling the Weak"), ("Step Through", "Demonic Counsel")],
+    "Dualcaster_Spellseeker_TwoSwap": [
+        ("Dualcaster Mage", "Culling the Weak"), ("Spellseeker", "Demonic Counsel")],
+    "Chameleon_StepThrough_TwoSwap": [
+        ("Chameleon, Master of Disguise", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel")],
+    "Dualcaster_StepThrough_FireCovenant_Triple": [
+        ("Dualcaster Mage", "Culling the Weak"), ("Step Through", "Demonic Counsel"),
+        ("Fire Covenant", "Toxic Deluge")],
+    "Irma_Over_DemonicCounsel": [("Irma, Part-Time Mutant", "Demonic Counsel")],
+    "Irma_Over_Culling": [("Irma, Part-Time Mutant", "Culling the Weak")],
+    "Irma_Over_PhantasmalImage": [("Irma, Part-Time Mutant", "Phantasmal Image")],
+    "Irma_Over_PhyrexianMetamorph": [("Irma, Part-Time Mutant", "Phyrexian Metamorph")],
+    "Irma_StepThrough_TwoSwap": [
+        ("Irma, Part-Time Mutant", "Culling the Weak"), ("Step Through", "Demonic Counsel")],
+    "Irma_Dualcaster_TwoSwap": [
+        ("Irma, Part-Time Mutant", "Demonic Counsel"), ("Dualcaster Mage", "Culling the Weak")],
+    "Irma_Spellseeker_TwoSwap": [
+        ("Irma, Part-Time Mutant", "Culling the Weak"), ("Spellseeker", "Demonic Counsel")],
+    "Irma_StepThrough_Dualcaster_Triple": [
+        ("Irma, Part-Time Mutant", "Phantasmal Image"), ("Dualcaster Mage", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel")],
+    "Irma_Chameleon_StepThrough_Triple": [
+        ("Irma, Part-Time Mutant", "Phantasmal Image"),
+        ("Chameleon, Master of Disguise", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel")],
+    "Irma_StepThrough_FireCovenant_Triple": [
+        ("Irma, Part-Time Mutant", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel"), ("Fire Covenant", "Toxic Deluge")],
+    "Irma_GeneratorServant_TwoSwap": [
+        ("Irma, Part-Time Mutant", "Demonic Counsel"),
+        ("Generator Servant", "Culling the Weak")],
 }
 
 
@@ -61,8 +98,8 @@ class KefkaIndependentChallengers(unittest.TestCase):
         self.assertEqual(hashlib.sha256(self.baseline_raw[:-1]).hexdigest(), BASE_SHA)
         self.assertEqual(len(self.base), 100)
 
-    def test_all_fourteen_are_exact_full_100_with_only_staged_swaps(self):
-        self.assertEqual(len(PAIRS), 14)
+    def test_all_thirty_three_are_exact_full_100_with_only_staged_swaps(self):
+        self.assertEqual(len(PAIRS), 33)
         base = Counter(self.base)
         for key, swaps in PAIRS.items():
             with self.subTest(configuration=key):
@@ -80,18 +117,21 @@ class KefkaIndependentChallengers(unittest.TestCase):
     def test_source_bound_oracle_identity_and_legality(self):
         j = self.index
         self.assertEqual(j["source_date"], "2026-10-23")
-        self.assertEqual(len(j["cards"]), 106)
+        self.assertEqual(len(j["cards"]), 108)
         indexed = {c["name"]: c for c in j["cards"]}
-        self.assertEqual(len(indexed), 106)
+        self.assertEqual(len(indexed), 108)
         external = j["external_card"]
+        additional = j["additional_external_card"]
         self.assertEqual(external["name"], "Chameleon, Master of Disguise")
         self.assertIn("gatherer.wizards.com", external["official_card_url"])
+        self.assertEqual(additional["name"], "Irma, Part-Time Mutant")
+        self.assertIn("magic.wizards.com", additional["official_rules_url"])
         for key in PAIRS:
             _, names = read(key)
             with self.subTest(configuration=key):
-                self.assertEqual(set(names) - set(indexed), 
-                                 {"Chameleon, Master of Disguise"} if external["name"] in names else set())
-        for card in j["cards"] + [external]:
+                self.assertEqual(set(names) - set(indexed),
+                                 {name for name in (external["name"], additional["name"]) if name in names})
+        for card in j["cards"] + [external, additional]:
             with self.subTest(card=card["name"]):
                 self.assertEqual(card["commander_legality"], "legal")
                 self.assertTrue(set(card["color_identity"]) <= {"U", "B", "R"})
@@ -111,6 +151,39 @@ class KefkaIndependentChallengers(unittest.TestCase):
                      "tapped-only blue", "Generator Servant", "Culling the Weak",
                      "Demonic Counsel", "Fire Covenant", "Toxic Deluge",
                      "Naban", "Harmonic Prodigy", "owner-direction"):
+            with self.subTest(term=term):
+                self.assertIn(term.lower(), self.report.lower())
+
+    def test_wizardcycling_and_spellseeker_exact_reachable_targets(self):
+        j = {c["name"]: c for c in self.index["cards"]}
+        step = j["Step Through"]
+        self.assertEqual(step["mana_cost"], "{3}{U}{U}")
+        self.assertIn("Wizardcycling {2}", step["oracle_text"])
+        wizard_library = {name for name in self.base[1:] if "Wizard" in j[name]["type_line"]}
+        self.assertEqual(wizard_library, {"Valley Floodcaller", "Gogo, Mysterious Mime",
+                                          "Harmonic Prodigy", "Thassa's Oracle"})
+        self.assertEqual(j["Demonic Counsel"]["mana_cost"], "{1}{B}")
+        self.assertIn("four or more card types", j["Demonic Counsel"]["oracle_text"])
+        self.assertIn("Demon card", j["Demonic Counsel"]["oracle_text"])
+        seek = j["Spellseeker"]
+        self.assertEqual(seek["mana_cost"], "{2}{U}")
+        self.assertIn("mana value 2 or less", seek["oracle_text"])
+        _, two = read("Dualcaster_StepThrough_TwoSwap")
+        self.assertIn("Dualcaster Mage", two)
+        self.assertIn("Step Through", two)
+        self.assertNotIn("Culling the Weak", two)
+        self.assertNotIn("Demonic Counsel", two)
+        self.assertIn("does not", self.report.lower())
+
+    def test_irma_exact_official_timing_limitations_stated(self):
+        irma = self.index["additional_external_card"]
+        self.assertEqual(irma["mana_cost"], "{2}{U}")
+        self.assertIn("At the beginning of combat on your turn", irma["oracle_text"])
+        self.assertIn("her name is Irma, Part-Time Mutant", irma["oracle_text"])
+        self.assertIn("Then put a +1/+1 counter", irma["oracle_text"])
+        for term in ("Irma, Part-Time Mutant", "already controlled", "no new ETB",
+                     "Gogo", "not a commander", "attack trigger", "same-name legend rule",
+                     "three mana", "RESEARCH_ONLY"):
             with self.subTest(term=term):
                 self.assertIn(term.lower(), self.report.lower())
 
