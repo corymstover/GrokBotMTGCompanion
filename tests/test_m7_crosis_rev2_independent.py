@@ -127,7 +127,7 @@ class TestCrosisM7Rev2(unittest.TestCase):
                       self.cards["Bloodchief Ascension"]["oracle_text"])
         self.assertIn("At the beginning of each end step",
                       self.cards["Bloodchief Ascension"]["oracle_text"])
-        self.assertIn("loses 2 life. If you do, you gain 2 life",
+        self.assertIn("have that player lose 2 life. If you do, you gain 2 life",
                       self.cards["Bloodchief Ascension"]["oracle_text"])
         self.assertEqual(5 * (2 + 2 + 2), 30)  # finite five-card Painter purge (active 3 punishers)
         self.assertEqual(5 * (2 + 2 + 2 + 2), 40)  # only AFTER Ascension has 3 quest counters
