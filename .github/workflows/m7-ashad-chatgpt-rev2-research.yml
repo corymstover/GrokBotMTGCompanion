@@ -6,6 +6,7 @@ on:
       - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt"
       - "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_mana_and_identity_review.md"
       - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_new_lands_primary_sources.json"
+      - "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev2_Scryfall_20261023.json"
       - "tests/test_m7_ashad_chatgpt_rev2_research.py"
       - ".github/workflows/m7-ashad-chatgpt-rev2-research.yml"
   push:
@@ -14,6 +15,8 @@ on:
     paths:
       - "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Nine_Research.txt"
       - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_new_lands_primary_sources.json"
+      - "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev2_Scryfall_20261023.json"
       - "tests/test_m7_ashad_chatgpt_rev2_research.py"
 permissions:
   contents: read
