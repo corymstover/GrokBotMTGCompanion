@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE_REV1",
+  "deck_id": "Kess__Dissident_Mage",
+  "canonical_baseline_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+  "canonical_baseline_logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+  "commander_identity": {
+    "mechanical_plan": "Kess ({1}{U}{B}{R}, flying) grants one instant/sorcery cast from the graveyard during each of her controller's own turns; exile replacement applies to spells cast via this permission. Her signature Consultation/Tainted Pact into Thassa's Oracle, Intuition/Gifts Reanimate piles, Displacer Kitten new-object reset and Breach/LED/Brain Freeze/Grinding Station engines remain intact. Rev1 adds Mana Drain on-own-turn interaction, unconditional recastable Grim Tutor, commander-enabled Jeska's Will resource generation, recastable Cyclonic Rift and conditional multiplayer Exotic Orchard color access; all five physically replace weaker or role-constrained incumbents and preserve Kess's distinct graveyard-replay ceiling.",
+    "protected_core": [
+      "Kess, Dissident Mage",
+      "Thassa's Oracle",
+      "Demonic Consultation",
+      "Tainted Pact",
+      "Demonic Tutor",
+      "Demonic Counsel",
+      "Entomb",
+      "Intuition",
+      "Gifts Ungiven",
+      "Faithless Looting",
+      "Dragon's Rage Channeler",
+      "Ledger Shredder",
+      "Displacer Kitten",
+      "Snapcaster Mage",
+      "Spellseeker",
+      "Reanimate",
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze",
+      "Valley Floodcaller"
+    ],
+    "natural_ceiling": "Bracket 5 — fringe cEDH. Current authoritative Rev1 has 23 Game Changers (21 baseline plus Cyclonic Rift and Jeska's Will); 27 lands; 100 distinct cards and no project exception. Tournament selection observations are not controlled outcome evidence. Kess's commander-first Consultation/Intuition/Gifts and own-turn spell replay differentiate her despite shared cEDH mana/counter cores.",
+    "anti_homogenization": "The exact five-swap Rev1 reinforces Kess-specific casting: tutors, rituals and removal are live again from her own graveyard on her own turn. Mana Drain only counters a spell when there is a legal spell on the stack during Kess's turn; Jeska's Will is not guaranteed positive mana against a small hand; Exotic Orchard is conditional fixing. The baseline's Personal Tutor, Counsel and Ledger Shredder were owner additions/keeps; Jeska's Will was previously cut: these are explicitly disclosed reversals now separately approved by Cory on 2026-10-24, not prior permissions silently presumed. All Oracle/Consult, Intuition/Gifts, Displacer Kitten, Entomb, Brain Freeze/Breach, and relevant resilience pieces remain."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 baseline slots were challenged by category: 27 lands, fast mana/rocks, 10 creatures, 30 instants, 13 sorceries, 15 artifacts, 4 enchantments (excluding commander; overlap roles are possible); attention to color thresholds, tutor congestion, interaction and graveyard recast. The final Rev1 has 27 lands, 9 creatures, 31 instants, 13 sorceries, 15 artifacts, 4 enchantments; Kess as commander. The previously accepted 41-card Oct14 rebuild remains historical, while five exact contemporary improvements are selected without replacing the cEDH identity engine.",
+    "mana_base_and_curve": "Baseline and Rev1 both have 27 lands. Fiery Islet's guaranteed U/R and late card-sacrifice option are exchanged for Exotic Orchard's potential U/B/R, conditional on opponents' land production. There is no unconditional added black source. Blue Force pitch cards 26 to 25; 72 library nonland average MV 1.84722 to 1.90278, and 21 to 23 Game Changers. Kess demands an exact UBR plus generic and Mana Drain an exact UU; do not treat colorless acceleration as UBR fixing.",
+    "interaction_resilience": "Core Force of Will, Force of Negation, Fierce Guardianship, Flusterstorm, Pact, Swan Song, Mental Misstep, Mindbreak Trap, Pyroblast, Red Elemental Blast, Deflecting Swat and An Offer remain; Mana Drain adds unconditional hard countering. Deadly Rollick, Toxic Deluge, Chain of Vapor, Otawara survive. Cyclonic Rift over Maw loses a 1-mana emergency bounce and gains no-gift generic nonland reach and conditional expensive board reset. Vulnerable to graveyard hate, Drannith/Rule of Law effects, colored mana and own-turn limitation.",
+    "weakest_slots": [
+      {
+        "card": "Personal Tutor",
+        "weakness": "Top-of-library sorcery tutor; cannot find the instant win pieces; lowest adoption in the 99 (EDHREC cEDH 26/387).",
+        "alternative_named": "Mana Drain",
+        "reasoning": "SELECT CUT for Mana Drain. Loses sorcery-to-top precision, but improves instant speed stack defense; an explicit reversal of the Oct14 owner addition."
+      },
+      {
+        "card": "Deadly Rollick",
+        "weakness": "Creature-only removal; four mana if no commander is in play.",
+        "alternative_named": "Mana Drain",
+        "reasoning": "Free with Kess in play and free again when recast via Kess; retained from the original list. Kept; staged as the owner-respecting alternative cut."
+      },
+      {
+        "card": "Demonic Counsel",
+        "weakness": "Dead without delirium (no Demon in the 99); low adoption (25/387).",
+        "alternative_named": "Grim Tutor",
+        "reasoning": "SELECT CUT for Grim Tutor. This 99 has no Demon; before four card types reach graveyard, Counsel finds nothing. Grim costs an extra mana and 3 life but always tutors, and Kess can recast."
+      },
+      {
+        "card": "Ledger Shredder",
+        "weakness": "A two-mana body the turbo lines do not need (GrokBot advisory).",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "SELECT CUT for Jeska's Will after disclosed owner reversal. Loses connive/graveyard filtering and one blue Force pitch; gains commander-both-modes mana plus access and later Kess recast."
+      },
+      {
+        "card": "Displacer Kitten",
+        "weakness": "Four mana, low adoption (39/387).",
+        "alternative_named": "Notion Thief",
+        "reasoning": "Owner keep (accepted); a new Kess object grants another graveyard cast. Kept."
+      },
+      {
+        "card": "City of Traitors",
+        "weakness": "Colourless and sacrificed when another land is played; EDHTop16 31 entries, 1 top cut.",
+        "alternative_named": "Undercity Sewers",
+        "reasoning": "Owner addition burst land; Sewers enters tapped. Kept."
+      },
+      {
+        "card": "Ponder",
+        "weakness": "A cantrip with no direct effect on the board.",
+        "alternative_named": "Praetor's Grasp",
+        "reasoning": "One-mana sorcery feeds Kess and blue pitch; Grasp is low-confidence. Kept."
+      },
+      {
+        "card": "Into the Flood Maw",
+        "weakness": "Narrow bounce: creature only unless the gift is promised.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "SELECT CUT for Cyclonic Rift. One-mana creature/nonland gift bounce traded for wider no-gift two-mana bounce and late overload. Against early stax, the incumbent can be better."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colours depend on opponents' lands.",
+        "alternative_named": "Spell Pierce",
+        "reasoning": "Owner addition; EDHREC cEDH 275/387; accelerates the four-mana commander. Kept."
+      },
+      {
+        "card": "Grinding Station",
+        "weakness": "Artifact combo piece with no stand-alone value.",
+        "alternative_named": "Exotic Orchard",
+        "reasoning": "Owner addition; Commander Spellbook 1368-3698--44 (Breach + Grinding Station + 0-cost artifact). Kept."
+      },
+      {
+        "card": "Final Fortune",
+        "weakness": "Lose the game at the end of the extra turn.",
+        "alternative_named": "Lightning Bolt",
+        "reasoning": "An extra turn is another Kess permission; cEDH events 51.7%. Kept."
+      },
+      {
+        "card": "Gitaxian Probe",
+        "weakness": "Card-neutral information spell.",
+        "alternative_named": "Dispel",
+        "reasoning": "cEDH events 69.0%; a free graveyard sorcery for Breach/Kess. Kept."
+      },
+      {
+        "card": "Rite of Flame",
+        "weakness": "One-shot red ritual that nets only one mana.",
+        "alternative_named": "Lightning Bolt",
+        "reasoning": "cEDH events 64.4%; a sorcery Kess can recast for another ritual. Kept."
+      },
+      {
+        "card": "Mental Misstep",
+        "weakness": "Only counters mana-value-1 spells.",
+        "alternative_named": "Dispel",
+        "reasoning": "Free counter; EDHREC cEDH 291/387; cEDH events 87.4%. Kept."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Symmetric wheel that refills opponents too.",
+        "alternative_named": "Timetwister",
+        "reasoning": "Owner addition; Timetwister shuffles your graveyard away. Kept."
+      },
+      {
+        "card": "Fiery Islet",
+        "weakness": "Produces U/R but never B; every colored tap costs one life. Late sacrifice-to-draw is a real benefit.",
+        "alternative_named": "Exotic Orchard",
+        "reasoning": "SELECT CUT for conditional U/B/R Orchard in four-player cEDH. Opponents may provide black for Necropotence, Beseech and Grim, at risk of no usable color early. Evaluated against Gemstone Mine's three-tap attrition."
+      }
+    ],
+    "current_baseline_strength": "An approved Bracket 5 fringe cEDH Kess list (2026-10-14) after an owner 41-quantity rebuild. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING and retained the list, with two requested comparisons: +Jeska's Will -Ledger Shredder and +Frantic Search -Personal Tutor. This M7 pass ran bounded versions of both; both adds were cut by the owner and remain owner decisions. The Personal Tutor slot is better as Mana Drain.",
+    "candidate_pool_scope": "25 prior GrokBot material judgments and 14 complete bounded stage-I alternatives are retained as evidence; this independent revisit added post-floor six- and seven-swap exact full-100 counterfactuals, a direct candidate-specific Kess five-swap review and explicit October 24 EDHREC Top/inclusion and off-ranking opportunities. Five is a floor, not a search limit.",
+    "off_ranked_search_conclusion": "Beyond ranking/popularity, evaluated spell replay support (Muddle the Mixture, Frantic Search), conditional lands (Gemstone Mine, Undercity Sewers, Exotic Orchard), early interaction alternatives (Spell Pierce, Dispel), and owner-disallowed slow generic engines (The One Ring, Opposition Agent, Dauthi Voidwalker). Higher-count alternatives lose the free storm counter and commander ramp; they are staged, not merely dismissed."
+  },
+  "candidate_sources": [
+    "Canonical encyclopedia Kess, Dissident Mage approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt, blob 4e3feb62, introduced by b83e7d0 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Kess__Dissident_Mage_approved_source_2026-10-14.txt)",
+    "EDHREC Kess, Dissident Mage commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T14:34:26-0500, discovery only: data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+    "stats.cedh.events Kess staples (87 decklists, low sample) retrieved 2026-10-23T14:46:20-0500 (America/Chicago; page text as returned by the web search/fetch provider): data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+    "EDHTop16 one-year Kess aggregate (repo, retrieved 2026-10-16): data/grixis/candidates/tournament/kess-dissident-mage.json",
+    "Live Scryfall /cards/collection batch retrieved 2026-10-23T14:37:02-0500: data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+    "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T14:45:16-0500: data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+    "OFF-RANKING search for cards absent from every Kess EDHREC page (Silence, Manamorphose; both off-identity)",
+    "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Kess__Dissident_Mage/final_disposition.md",
+    "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Kess__Dissident_Mage.md; data/grixis/m6/deep_reviews/Kess__Dissident_Mage.md",
+    "Owner 2026-10-14 current-cycle decisions (41-quantity rebuild, accepted second-pass keeps, rejections): canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "Comprehensive Rules (frozen cache, 2026-09-25): 106.4, 117.1a, 118.9, 400.7, 505.1, 608.2n, 903.8; frozen rulings: data/grixis/m6/rules_snapshots/Kess__Dissident_Mage_M7_20261023.md",
+    "Bounded finite measured tests (the Pass C request): colour sources, UU/UBR/Kess castability by turn, blue Force-pitch availability, Jeska's Will hand-size table, Frantic Search three-land probability, Demonic Counsel delirium proxy; tested pool of 14 complete 100s: data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Kess__Dissident_Mage_M7_tested_configurations_20261023.json; tests/test_m6_kess_dissident_mage_m7_mechanics.py",
+    "INDEPENDENT OFF-RANKING October24 2026 Kess whole-99 review and EDHREC Top Cards/High Lift/themed cEDH discovery at https://edhrec.com/commanders/kess-dissident-mage/cedh; exact revised five-swap source and post-floor 6/7 complete 100s in data/grixis/m7/candidate_lists/"
+  ],
+  "material_candidates": [
+    {
+      "card": "Mana Drain",
+      "source": "EDHREC Kess, Dissident Mage general 2348/8694, upgraded 149/745, optimized 255/664, cEDH 234/387; EDHTop16 one-year Kess entries 32, top cuts 4, conversion 0.125 (field 0.1207, 58 entries); stats.cedh.events 51.7% of 87 Kess decklists; live Scryfall batch",
+      "role": "{U}{U} instant: counter target spell; at the beginning of your next main phase add {C} equal to its mana value.",
+      "named_cuts": [
+        "Personal Tutor",
+        "Deadly Rollick"
+      ],
+      "incumbent_opportunity_cost": "Personal Tutor is an owner addition from the 2026-10-14 rebuild (one of the 41 adds; not in the adversarial second pass and not spine-named). {U} sorcery: search for a sorcery and put it on top of the library. It cannot find the instant win pieces (Demonic Consultation, Tainted Pact, Brain Freeze), puts the card on top rather than in hand (a dead draw step unless paired with a draw), and overlaps Mystical Tutor (instant, any instant or sorcery) inside a 14-card tutor suite. Lowest adoption in the 99: EDHREC cEDH 26/387 (6.7%); absent from the stats.cedh.events 61-card staple list; no EDHTop16 aggregate row. Alternative cut (staged, owner-respecting): Deadly Rollick, a free exile spell retained from the original list (not an owner addition; EDHREC cEDH 106/387).",
+      "commander_synergy": "Kess recasts it from the graveyard on her own turn (paid {U}{U}, normal timing): cast in the precombat main phase or combat, its mana arrives in the postcombat main phase of the same turn (Mana Drain ruling 2020-11-10), so a protected combo turn refunds mana. From hand it is a hard counter at instant speed on any turn. It is a blue card for Force of Will / Force of Negation pitch, keeping the blue count at 26.",
+      "adversarial_downside": "UU is the strictest blue cost among the counters (bounded P(UU available) turn 2-6 0.50/0.67/0.74/0.80/0.84). Kess gives no permission on opponents' turns, so the graveyard recast only works against spells cast during your turn. Delirium proxy drops by at most about 1.5 points (Personal Tutor is a sorcery; Mana Drain an instant). Spellbook 6 -> 6. Owner-direction flag: the cut overrides an owner addition; fallback +Mana Drain -Deadly Rollick staged.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD over Oct14 owner-added Personal Tutor after independent challenge: a hard counter that can protect own-turn Kess Consultation and may generate next-main-phase colorless mana only on a legal countered spell. UU, tutor loss and no opponent-turn Kess recast disclosed.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kess__Dissident_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/candidate_lists/Kess__Dissident_Mage.txt",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_ManaDrain_over_DeadlyRollick_20261023.txt"
+      ]
+    },
+    {
+      "card": "Spell Pierce",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH 122/387; EDHTop16 one-year Kess entries 24, top cuts 4, conversion 0.1667 (field 0.1207, 58 entries); stats.cedh.events 35.6% of 87 Kess decklists; live Scryfall batch",
+      "role": "{U} instant: counter target noncreature spell unless its controller pays {2}.",
+      "named_cuts": [
+        "Personal Tutor",
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Personal Tutor is an owner addition from the 2026-10-14 rebuild (one of the 41 adds; not in the adversarial second pass and not spine-named). {U} sorcery: search for a sorcery and put it on top of the library. It cannot find the instant win pieces (Demonic Consultation, Tainted Pact, Brain Freeze), puts the card on top rather than in hand (a dead draw step unless paired with a draw), and overlaps Mystical Tutor (instant, any instant or sorcery) inside a 14-card tutor suite. Lowest adoption in the 99: EDHREC cEDH 26/387 (6.7%); absent from the stats.cedh.events 61-card staple list; no EDHTop16 aggregate row. Two-swap variant also cuts Fellwar Stone (owner addition; EDHREC cEDH 275/387).",
+      "commander_synergy": "A one-mana blue pitch card that Kess can recast for {U} on your turn.",
+      "adversarial_downside": "A soft counter that fails late; lower adoption than Mana Drain for the same slot (EDHREC cEDH 122/387; cEDH events 35.6%). The two-swap package cuts a two-mana rock that accelerates a four-mana commander. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Dominated by Mana Drain for the same slot; the second slot (Fellwar Stone) is not clearly worse.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_SpellPierce_over_PersonalTutor_20261023.txt",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_two_ManaDrain_SpellPierce_over_PersonalTutor_FellwarStone_20261023.txt"
+      ]
+    },
+    {
+      "card": "Grim Tutor",
+      "source": "EDHREC Kess, Dissident Mage general 778/8694, upgraded 57/745, optimized 80/664, cEDH 88/387; stats.cedh.events 42.5% of 87 Kess decklists; live Scryfall batch",
+      "role": "{1}{B}{B} sorcery: search your library for a card, put it into your hand, lose 3 life.",
+      "named_cuts": [
+        "Personal Tutor",
+        "Demonic Counsel"
+      ],
+      "incumbent_opportunity_cost": "Demonic Counsel is an owner addition explicitly ACCEPTED in the 2026-10-14 second pass and spine-named. The 99 has no Demon, so it needs delirium (four card types in the graveyard). Bounded delirium proxy (seen-card bounds) turn 2-6: lower 0.025/0.039/0.055/0.072/0.092, upper 0.152/0.216/0.279/0.341/0.401. EDHREC cEDH 25/387.",
+      "commander_synergy": "Unconditional tutor to hand; Kess can recast it from the graveyard for a second tutor.",
+      "adversarial_downside": "Adds one mana and loses three life, important under Ad Nauseam; source-bound no-Demon check plus low strict delirium probability make Counsel's early two-mana discount less meaningful. Owner kept Counsel Oct14; explicit override only for this SHA.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD over owner-kept Demonic Counsel. Since no Demon exists in this 99, before delirium Counsel has zero targets; archived strict turn-six delirium proxy only 9.22%, and Grim unconditionally finds any part of Kess's own Consultation/Breach plan. Pays {1}{B}{B} and 3 life.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_GrimTutor_over_PersonalTutor_20261023.txt",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_GrimTutor_over_DemonicCounsel_20261023.txt"
+      ]
+    },
+    {
+      "card": "Praetor's Grasp",
+      "source": "EDHREC Kess, Dissident Mage general 626/8694, upgraded absent, optimized 45/664, cEDH 184/387; stats.cedh.events 59.8% of 87 Kess decklists; live Scryfall batch",
+      "role": "{1}{B}{B} sorcery: search target opponent's library, exile a card face down; you may play it.",
+      "named_cuts": [
+        "Ponder"
+      ],
+      "incumbent_opportunity_cost": "Ponder is a one-mana blue cantrip (EDHREC cEDH 165/387) that sets up draws, fills the graveyard with a sorcery for Kess, and is a blue pitch card.",
+      "commander_synergy": "Kess can recast it to take a second card from an opponent.",
+      "adversarial_downside": "Depends on the opponent's deck; three mana and BB at sorcery speed. cEDH events 59.8% is higher than Ponder's absence there, but Ponder is a generic staple the list likely filters. Low-confidence improvement only. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Not clearly better; low confidence.",
+      "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_PraetorsGrasp_over_Ponder_20261023.txt"
+      ]
+    },
+    {
+      "card": "Cyclonic Rift",
+      "source": "EDHREC Kess, Dissident Mage general 2941/8694, upgraded 145/745, optimized 393/664, cEDH 282/387; EDHTop16 one-year Kess entries 33, top cuts 3, conversion 0.0909 (field 0.1207, 58 entries); stats.cedh.events 52.9% of 87 Kess decklists; live Scryfall batch",
+      "role": "{1}{U} instant: return target nonland permanent you don't control; overload {6}{U}.",
+      "named_cuts": [
+        "Into the Flood Maw"
+      ],
+      "incumbent_opportunity_cost": "Into the Flood Maw is a one-mana instant bounce (creature, or nonland permanent when gifted) that clears a stax piece or blocker on a combo turn; EDHREC cEDH 104/387; cEDH events 52.9%.",
+      "commander_synergy": "Kess can recast it on your turn.",
+      "adversarial_downside": "One mana slower than Into the Flood Maw and cannot bounce own permanents; overload costs seven. Benefit is no-gift nonland removal and the late multi-permanent line. Never claim deterministic early improvement.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD over Into the Flood Maw with explicit speed tradeoff: broader target set without gifting a creature, and seven-mana overload board reset if reached. At one extra mana it is worse at immediate anti-hate tempo, so this is strategic flexibility not dominance.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_CyclonicRift_over_IntoTheFloodMaw_20261023.txt"
+      ]
+    },
+    {
+      "card": "Notion Thief",
+      "source": "EDHREC Kess, Dissident Mage general 1316/8694, upgraded 86/745, optimized 180/664, cEDH 110/387; live Scryfall batch",
+      "role": "{2}{U}{B} flash creature: opponents' extra draws are replaced by your draws.",
+      "named_cuts": [
+        "Ledger Shredder"
+      ],
+      "incumbent_opportunity_cost": "Ledger Shredder is spine-named by the owner (connive on second spells; stocks the graveyard for Kess; blue pitch card).",
+      "commander_synergy": "Turns wheels (Wheel of Fortune, Windfall) one-sided.",
+      "adversarial_downside": "Four-mana Game Changer (21 -> 22); EDHREC cEDH 110/387; one extra almost-included Spellbook line only. Overrides an owner spine card without clear evidence. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Does not clearly beat the owner spine card.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_NotionThief_over_LedgerShredder_20261023.txt"
+      ]
+    },
+    {
+      "card": "Undercity Sewers",
+      "source": "EDHREC Kess, Dissident Mage general 1761/8694, upgraded 169/745, optimized 147/664, cEDH 122/387; live Scryfall batch",
+      "role": "Island Swamp land; enters tapped; surveil 1.",
+      "named_cuts": [
+        "City of Traitors"
+      ],
+      "incumbent_opportunity_cost": "City of Traitors is an owner-added burst land (two colourless) for early Kess or Ad Nauseam; EDHREC cEDH 57/387; EDHTop16 31 entries, 1 top cut.",
+      "commander_synergy": "Fetchable U/B source; surveil fills the graveyard.",
+      "adversarial_downside": "Enters tapped in a turbo list; the colour gain is small (U21/B18/R19 land sources already). Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Tapped land in a turbo shell; not clearly better than the owner addition.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_one_UndercitySewers_over_CityOfTraitors_20261023.txt"
+      ]
+    },
+    {
+      "card": "Jeska's Will",
+      "source": "EDHREC Kess, Dissident Mage general 2746/8694, upgraded 156/745, optimized 311/664, cEDH 243/387; EDHTop16 one-year Kess entries 37, top cuts 1, conversion 0.027 (field 0.1207, 58 entries); stats.cedh.events 65.5% of 87 Kess decklists; live Scryfall batch; Pass C priority-1 requested comparison (+Jeska's Will -Ledger Shredder)",
+      "role": "{2}{R} sorcery: add {R} per card in target opponent's hand and/or exile top three to play this turn (both modes with a commander).",
+      "named_cuts": [
+        "Ledger Shredder"
+      ],
+      "incumbent_opportunity_cost": "Ledger Shredder is owner spine (see Notion Thief). Jeska's Will itself was cut by the owner in the 2026-10-14 rebuild ('narrowly').",
+      "commander_synergy": "Kess can recast it in the same turn; adds Commander Spellbook 1368-1878-2706 (Underworld Breach + Wheel of Fortune + Jeska's Will).",
+      "adversarial_downside": "Owner removed Jeska and previously kept Ledger Shredder. Jeska's mana is negative below three target-hand cards and does not guarantee the top-three spells can be cast; blue Force pitch 26 to25 and graveyard connive engine lost. Observational EDHTop16 conversion was weak; not a causal win claim.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD over owner-spine Ledger Shredder with explicit owner reversal. While Kess is controlled, both impulse and mana modes resolve; a later own-turn graveyard recast adds another resource window. Its target hand size is unmeasured and it costs a blue Force pitch/grave outlet.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kess__Dissident_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "data/grixis/m6/owner_pass_c_substitute/Kess__Dissident_Mage/final_disposition.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Kess__Dissident_Mage.md",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_PassC_plus_JeskasWill_minus_LedgerShredder_20261023.txt"
+      ]
+    },
+    {
+      "card": "Frantic Search",
+      "source": "EDHREC Kess, Dissident Mage general 5067/8694, upgraded 480/745, optimized 420/664, cEDH 115/387; EDHTop16 one-year Kess entries 13, top cuts 3, conversion 0.2308 (field 0.1207, 58 entries); live Scryfall batch; Pass C priority-2 requested comparison (+Frantic Search -Personal Tutor)",
+      "role": "{2}{U} instant: draw two, discard two, untap up to three lands.",
+      "named_cuts": [
+        "Personal Tutor"
+      ],
+      "incumbent_opportunity_cost": "Personal Tutor is an owner addition from the 2026-10-14 rebuild (one of the 41 adds; not in the adversarial second pass and not spine-named). {U} sorcery: search for a sorcery and put it on top of the library. It cannot find the instant win pieces (Demonic Consultation, Tainted Pact, Brain Freeze), puts the card on top rather than in hand (a dead draw step unless paired with a draw), and overlaps Mystical Tutor (instant, any instant or sorcery) inside a 14-card tutor suite. Lowest adoption in the 99: EDHREC cEDH 26/387 (6.7%); absent from the stats.cedh.events 61-card staple list; no EDHTop16 aggregate row.",
+      "commander_synergy": "Kess can recast it; it fills the graveyard and adds Commander Spellbook 1368-2196-3766 (Underworld Breach + Frantic Search + Dragon's Rage Channeler).",
+      "adversarial_downside": "Bounded test: free only with three lands in play; P(three lands) by turns 3-6 0.466/0.549/0.624/0.691 (27 lands, rocks do not count). EDHTop16 13 entries, 3 top cuts (small sample). The owner cut it in the 2026-10-14 rebuild; re-adding owner-removed cards is not allowed in this pass. Spellbook 6 -> 7.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Staged as an OWNER DECISION only (owner cut it); not counted.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kess__Dissident_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json",
+        "data/grixis/m6/owner_pass_c_substitute/Kess__Dissident_Mage/final_disposition.md",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_PassC_plus_FranticSearch_minus_PersonalTutor_20261023.txt"
+      ]
+    },
+    {
+      "card": "Mnemonic Betrayal",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH 133/387; live Scryfall batch",
+      "role": "{1}{U}{B} sorcery: exile all opponents' graveyards; you may cast spells from among them this turn; exile Mnemonic Betrayal.",
+      "named_cuts": [
+        "Demonic Counsel"
+      ],
+      "incumbent_opportunity_cost": "Demonic Counsel is an owner addition explicitly ACCEPTED in the 2026-10-14 second pass and spine-named. The 99 has no Demon, so it needs delirium (four card types in the graveyard). Bounded delirium proxy (seen-card bounds) turn 2-6: lower 0.025/0.039/0.055/0.072/0.092, upper 0.152/0.216/0.279/0.341/0.401. EDHREC cEDH 25/387.",
+      "commander_synergy": "None with Kess's own-graveyard permission.",
+      "adversarial_downside": "Exiles itself, so Kess cannot recast it; depends on opponents' graveyards; EDHREC cEDH 133/387. Generic.",
+      "judgment": "REJECT",
+      "reason": "Generic, no Kess synergy; would cut an owner keep.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Lim-Dûl's Vault",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized 109/664, cEDH 111/387; live Scryfall batch",
+      "role": "{U}{B} instant: look at the top five, pay 1 life to repeat; stack one set on top.",
+      "named_cuts": [
+        "Personal Tutor"
+      ],
+      "incumbent_opportunity_cost": "Personal Tutor is an owner addition from the 2026-10-14 rebuild (one of the 41 adds; not in the adversarial second pass and not spine-named). {U} sorcery: search for a sorcery and put it on top of the library. It cannot find the instant win pieces (Demonic Consultation, Tainted Pact, Brain Freeze), puts the card on top rather than in hand (a dead draw step unless paired with a draw), and overlaps Mystical Tutor (instant, any instant or sorcery) inside a 14-card tutor suite. Lowest adoption in the 99: EDHREC cEDH 26/387 (6.7%); absent from the stats.cedh.events 61-card staple list; no EDHTop16 aggregate row.",
+      "commander_synergy": "Instant-speed top-of-library tutor that Kess can recast on your turn.",
+      "adversarial_downside": "Still a top-of-library tutor (same weakness as Personal Tutor) at two mana; EDHREC cEDH 111/387. The slot is better as interaction.",
+      "judgment": "REJECT",
+      "reason": "Same role as the cut card; not an improvement over Mana Drain in the slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Snap",
+      "source": "EDHREC Kess, Dissident Mage general 1771/8694, upgraded 167/745, optimized 141/664, cEDH 121/387; EDHTop16 one-year Kess entries 26, top cuts 0, conversion 0 (field 0.1207, 58 entries); live Scryfall batch",
+      "role": "{1}{U} instant: return target creature to hand; untap up to two lands.",
+      "named_cuts": [
+        "Into the Flood Maw"
+      ],
+      "incumbent_opportunity_cost": "Into the Flood Maw is a one-mana bounce.",
+      "commander_synergy": "Free with two untapped lands; Kess can recast it.",
+      "adversarial_downside": "EDHTop16 aggregate shows no top cuts with it in a small sample; land untaps only (not rocks). Not better than the incumbent bounce. EDHREC cEDH 121/387.",
+      "judgment": "REJECT",
+      "reason": "Marginal: not better than the incumbent one-mana bounce.",
+      "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kess-dissident-mage.json"
+      ]
+    },
+    {
+      "card": "Muddle the Mixture",
+      "source": "EDHREC Kess, Dissident Mage general 943/8694, upgraded absent, optimized 94/664, cEDH 99/387; live Scryfall batch",
+      "role": "{U}{U} instant: counter target instant or sorcery; transmute {1}{U}{U} for a two-mana-value card.",
+      "named_cuts": [
+        "Personal Tutor"
+      ],
+      "incumbent_opportunity_cost": "Personal Tutor is an owner addition from the 2026-10-14 rebuild (one of the 41 adds; not in the adversarial second pass and not spine-named). {U} sorcery: search for a sorcery and put it on top of the library. It cannot find the instant win pieces (Demonic Consultation, Tainted Pact, Brain Freeze), puts the card on top rather than in hand (a dead draw step unless paired with a draw), and overlaps Mystical Tutor (instant, any instant or sorcery) inside a 14-card tutor suite. Lowest adoption in the 99: EDHREC cEDH 26/387 (6.7%); absent from the stats.cedh.events 61-card staple list; no EDHTop16 aggregate row.",
+      "commander_synergy": "Transmutes for Thassa's Oracle, Underworld Breach or Mana Drain.",
+      "adversarial_downside": "Transmute is from hand only (not recastable via Kess for the tutor); narrower counter than Mana Drain; EDHREC cEDH 99/387.",
+      "judgment": "REJECT",
+      "reason": "Dominated by Mana Drain for the slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Dispel",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH 98/387; live Scryfall batch",
+      "role": "{U} instant: counter target instant spell.",
+      "named_cuts": [
+        "Mental Misstep"
+      ],
+      "incumbent_opportunity_cost": "Mental Misstep is a free counter for one-mana spells (EDHREC cEDH 291/387; cEDH events 87.4%).",
+      "commander_synergy": "Kess can recast it for {U} on your own turn.",
+      "adversarial_downside": "Narrow; costs mana while Misstep is free; EDHREC cEDH 98/387.",
+      "judgment": "REJECT",
+      "reason": "Not better than the free incumbent.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Narset, Parter of Veils",
+      "source": "EDHREC Kess, Dissident Mage general 956/8694, upgraded 45/745, optimized 128/664, cEDH 98/387; live Scryfall batch",
+      "role": "{1}{U}{U} planeswalker: opponents can't draw more than one card each turn; -2 dig for noncreature, nonland.",
+      "named_cuts": [
+        "Ledger Shredder"
+      ],
+      "incumbent_opportunity_cost": "Ledger Shredder is owner spine.",
+      "commander_synergy": "Makes Wheel of Fortune and Windfall one-sided.",
+      "adversarial_downside": "Game Changer (21 -> 22); three mana UU; EDHREC cEDH 98/387. Overrides an owner spine card without clear evidence.",
+      "judgment": "REJECT",
+      "reason": "Not clearly better than the owner spine card.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Urza's Saga",
+      "source": "EDHREC Kess, Dissident Mage general 505/8694, upgraded absent, optimized 48/664, cEDH 76/387; live Scryfall batch",
+      "role": "Saga land: colourless mana, Constructs, then tutors a 0/1-cost artifact.",
+      "named_cuts": [
+        "City of Traitors"
+      ],
+      "incumbent_opportunity_cost": "City of Traitors is an owner-added burst land.",
+      "commander_synergy": "Finds Lion's Eye Diamond, Lotus Petal, Chrome Mox, Mox Diamond, Mox Opal, Mana Vault or Sol Ring.",
+      "adversarial_downside": "Colourless like City of Traitors but slow: the chapter III tutor arrives two turns later and the Saga then sacrifices itself; no colour gain for a three-colour base and no immediate burst toward a four-mana Kess. EDHREC cEDH 76/387.",
+      "judgment": "REJECT",
+      "reason": "Colourless engine in a UBR-demanding base.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Timetwister",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH 86/387; live Scryfall batch",
+      "role": "{2}{U} sorcery: each player shuffles hand and graveyard into library, draws seven.",
+      "named_cuts": [
+        "Windfall"
+      ],
+      "incumbent_opportunity_cost": "Windfall is an owner addition wheel.",
+      "commander_synergy": "A wheel that Kess could recast from the graveyard.",
+      "adversarial_downside": "Shuffles your own graveyard away, which is anti-synergistic with Kess and Underworld Breach; EDHREC cEDH 86/387.",
+      "judgment": "REJECT",
+      "reason": "Anti-Kess (empties your graveyard).",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Hexing Squelcher",
+      "source": "EDHREC Kess, Dissident Mage general 595/4207, upgraded 48/455, optimized 66/366, cEDH 65/143; live Scryfall batch",
+      "role": "{1}{R} creature (can't be countered; ward—pay 2 life): spells you control can't be countered; other creatures you control have ward—pay 2 life.",
+      "named_cuts": [
+        "Ledger Shredder"
+      ],
+      "incumbent_opportunity_cost": "Ledger Shredder is owner spine.",
+      "commander_synergy": "Protects the combo turn from counters.",
+      "adversarial_downside": "A creature with no graveyard role; the cEDH figure (65/143) comes from a partial page sample; overrides an owner spine card without clear evidence.",
+      "judgment": "REJECT",
+      "reason": "Does not clearly beat the owner spine card.",
+      "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Lightning Bolt",
+      "source": "EDHREC Kess, Dissident Mage general 2641/8694, upgraded 220/745, optimized 202/664, cEDH 71/387; EDHTop16 one-year Kess entries 16, top cuts 4, conversion 0.25 (field 0.1207, 58 entries); live Scryfall batch",
+      "role": "{R} instant: 3 damage to any target.",
+      "named_cuts": [
+        "Deadly Rollick"
+      ],
+      "incumbent_opportunity_cost": "Deadly Rollick is a free exile spell, also free when recast via Kess.",
+      "commander_synergy": "Kess can recast it from the graveyard on your turn.",
+      "adversarial_downside": "Costs mana, deals only 3 damage; EDHREC cEDH 71/387 and a tiny tournament sample.",
+      "judgment": "REJECT",
+      "reason": "Worse than the free incumbent removal.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Exotic Orchard",
+      "source": "EDHREC Kess, Dissident Mage general 5096/8694, upgraded 437/745, optimized 396/664, cEDH 265/387; EDHTop16 one-year Kess entries 20, top cuts 2, conversion 0.1 (field 0.1207, 58 entries); live Scryfall batch",
+      "role": "Land: tap for a colour an opponent's land could produce.",
+      "named_cuts": [
+        "Fiery Islet",
+        "City of Traitors"
+      ],
+      "incumbent_opportunity_cost": "Fiery Islet, a retained U/R land, supplies guaranteed blue or red for 1 life and may cash itself for a card. Exotic Orchard instead depends on the lands controlled by up to three opponents but can produce black for Kess, Beseech, Necropotence and Grim. This exact target was not the GrokBot first-pass Orchard cut; it is a new evaluated cut.",
+      "commander_synergy": "Commander demands UBR, sometimes multiple black pips. Opponents' black-producing lands make Orchard an untapped conditional black source, without losing the 27-land count.",
+      "adversarial_downside": "May tap for no desired color before opponents establish mana; Fiery Islet guaranteed blue/red and offers a late draw. This is conditional multiplayer fixing, no quantitative color guarantee.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD over Fiery Islet for conditional black/U/R colors as cEDH pods develop land abilities; no unconditional source-count improvement, and loss of Islet's guaranteed early U/R and late card draw is disclosed. Its targeted colored spells are Kess, Grim and Beseech.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "The One Ring",
+      "source": "EDHREC Kess, Dissident Mage general 1032/8694, upgraded absent, optimized 134/664, cEDH 231/387; stats.cedh.events 66.7% of 87 Kess decklists; live Scryfall batch",
+      "role": "{4} legendary artifact: protection, then draws.",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Owner-rejected in the 2026-10-14 rebuild.",
+      "commander_synergy": "None with Kess's graveyard permission.",
+      "adversarial_downside": "Inadmissible: re-adds an owner-rejected card regardless of adoption (cEDH events 66.7%).",
+      "judgment": "REJECT",
+      "reason": "Owner-rejected on 2026-10-14; inadmissible in this pass.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+      ]
+    },
+    {
+      "card": "Opposition Agent",
+      "source": "EDHREC Kess, Dissident Mage general 919/8694, upgraded absent, optimized 101/664, cEDH 228/387; stats.cedh.events 49.4% of 87 Kess decklists; live Scryfall batch",
+      "role": "{2}{B} flash creature: control opponents' searches.",
+      "named_cuts": [
+        "Demonic Counsel"
+      ],
+      "incumbent_opportunity_cost": "Owner explicitly accepted Demonic Counsel over Opposition Agent in the 2026-10-14 second pass.",
+      "commander_synergy": "No interaction with Kess's graveyard permission.",
+      "adversarial_downside": "Inadmissible: owner-rejected (cEDH events 49.4%).",
+      "judgment": "REJECT",
+      "reason": "Owner-rejected on 2026-10-14; inadmissible in this pass.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+      ]
+    },
+    {
+      "card": "Dauthi Voidwalker",
+      "source": "EDHREC Kess, Dissident Mage general 801/8694, upgraded absent, optimized 78/664, cEDH 144/387; live Scryfall batch",
+      "role": "{B}{B} shadow creature: opponents' cards go to exile with void counters.",
+      "named_cuts": [
+        "Deadly Rollick"
+      ],
+      "incumbent_opportunity_cost": "Owner-rejected in the 2026-10-14 rebuild.",
+      "commander_synergy": "No interaction with Kess's graveyard permission.",
+      "adversarial_downside": "Inadmissible: owner-rejected on 2026-10-14.",
+      "judgment": "REJECT",
+      "reason": "Owner-rejected on 2026-10-14; inadmissible in this pass.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+        "canonical refinement/decisions/Kess_Dissident_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+      ]
+    },
+    {
+      "card": "Manamorphose",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Kess, Dissident Mage EDHREC page)",
+      "role": "{1}{R/G} instant: add two mana, draw.",
+      "named_cuts": [
+        "Personal Tutor"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: the card is invalid here.",
+      "adversarial_downside": "R/G hybrid colour identity includes G, outside U/B/R (live Scryfall).",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Outside Kess's U/B/R colour identity; excluded.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Silence",
+      "source": "EDHREC Kess, Dissident Mage general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Kess, Dissident Mage EDHREC page)",
+      "role": "{W} instant: opponents can't cast spells this turn.",
+      "named_cuts": [
+        "Mental Misstep"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: the card is invalid here.",
+      "adversarial_downside": "White, outside U/B/R (live Scryfall).",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Outside Kess's U/B/R colour identity; excluded.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Mana Drain",
+      "Grim Tutor",
+      "Jeska's Will",
+      "Cyclonic Rift",
+      "Exotic Orchard"
+    ],
+    "cuts": [
+      "Personal Tutor",
+      "Demonic Counsel",
+      "Ledger Shredder",
+      "Into the Flood Maw",
+      "Fiery Islet"
+    ],
+    "coherent_package_tradeoff": "Five substantive one-for-one upgrades trade a narrow topdeck tutor for a hard counter, unreliable delirium-only Counsel for unconditional Grim, Shredder connive/blue pitch for commander-enabled Jeska resource compression, one-mana gifted bounce for broadly flexible Rift, and a guaranteed U/R draw-land for conditional U/B/R Orchard. Kess Consultation/Intuition/Gifts and Breach engines all remain; no artificial tempo/ramp cuts are hidden."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Personal Tutor",
+        "weakness": "Top-of-library sorcery tutor; cannot find the instant win pieces; lowest adoption in the 99 (EDHREC cEDH 26/387).",
+        "alternative_named": "Mana Drain",
+        "reasoning": "SELECT CUT for Mana Drain. Loses sorcery-to-top precision, but improves instant speed stack defense; an explicit reversal of the Oct14 owner addition."
+      },
+      {
+        "card": "Deadly Rollick",
+        "weakness": "Creature-only removal; four mana if no commander is in play.",
+        "alternative_named": "Mana Drain",
+        "reasoning": "Free with Kess in play and free again when recast via Kess; retained from the original list. Kept; staged as the owner-respecting alternative cut."
+      },
+      {
+        "card": "Demonic Counsel",
+        "weakness": "Dead without delirium (no Demon in the 99); low adoption (25/387).",
+        "alternative_named": "Grim Tutor",
+        "reasoning": "SELECT CUT for Grim Tutor. This 99 has no Demon; before four card types reach graveyard, Counsel finds nothing. Grim costs an extra mana and 3 life but always tutors, and Kess can recast."
+      },
+      {
+        "card": "Ledger Shredder",
+        "weakness": "A two-mana body the turbo lines do not need (GrokBot advisory).",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "SELECT CUT for Jeska's Will after disclosed owner reversal. Loses connive/graveyard filtering and one blue Force pitch; gains commander-both-modes mana plus access and later Kess recast."
+      },
+      {
+        "card": "Displacer Kitten",
+        "weakness": "Four mana, low adoption (39/387).",
+        "alternative_named": "Notion Thief",
+        "reasoning": "Owner keep (accepted); a new Kess object grants another graveyard cast. Kept."
+      },
+      {
+        "card": "City of Traitors",
+        "weakness": "Colourless and sacrificed when another land is played; EDHTop16 31 entries, 1 top cut.",
+        "alternative_named": "Undercity Sewers",
+        "reasoning": "Owner addition burst land; Sewers enters tapped. Kept."
+      },
+      {
+        "card": "Ponder",
+        "weakness": "A cantrip with no direct effect on the board.",
+        "alternative_named": "Praetor's Grasp",
+        "reasoning": "One-mana sorcery feeds Kess and blue pitch; Grasp is low-confidence. Kept."
+      },
+      {
+        "card": "Into the Flood Maw",
+        "weakness": "Narrow bounce: creature only unless the gift is promised.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "SELECT CUT for Cyclonic Rift. One-mana creature/nonland gift bounce traded for wider no-gift two-mana bounce and late overload. Against early stax, the incumbent can be better."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colours depend on opponents' lands.",
+        "alternative_named": "Spell Pierce",
+        "reasoning": "Owner addition; EDHREC cEDH 275/387; accelerates the four-mana commander. Kept."
+      },
+      {
+        "card": "Grinding Station",
+        "weakness": "Artifact combo piece with no stand-alone value.",
+        "alternative_named": "Exotic Orchard",
+        "reasoning": "Owner addition; Commander Spellbook 1368-3698--44 (Breach + Grinding Station + 0-cost artifact). Kept."
+      },
+      {
+        "card": "Final Fortune",
+        "weakness": "Lose the game at the end of the extra turn.",
+        "alternative_named": "Lightning Bolt",
+        "reasoning": "An extra turn is another Kess permission; cEDH events 51.7%. Kept."
+      },
+      {
+        "card": "Gitaxian Probe",
+        "weakness": "Card-neutral information spell.",
+        "alternative_named": "Dispel",
+        "reasoning": "cEDH events 69.0%; a free graveyard sorcery for Breach/Kess. Kept."
+      },
+      {
+        "card": "Rite of Flame",
+        "weakness": "One-shot red ritual that nets only one mana.",
+        "alternative_named": "Lightning Bolt",
+        "reasoning": "cEDH events 64.4%; a sorcery Kess can recast for another ritual. Kept."
+      },
+      {
+        "card": "Mental Misstep",
+        "weakness": "Only counters mana-value-1 spells.",
+        "alternative_named": "Dispel",
+        "reasoning": "Free counter; EDHREC cEDH 291/387; cEDH events 87.4%. Kept."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Symmetric wheel that refills opponents too.",
+        "alternative_named": "Timetwister",
+        "reasoning": "Owner addition; Timetwister shuffles your graveyard away. Kept."
+      },
+      {
+        "card": "Fiery Islet",
+        "weakness": "Produces U/R but never B; every colored tap costs one life. Late sacrifice-to-draw is a real benefit.",
+        "alternative_named": "Exotic Orchard",
+        "reasoning": "SELECT CUT for conditional U/B/R Orchard in four-player cEDH. Opponents may provide black for Necropotence, Beseech and Grim, at risk of no usable color early. Evaluated against Gemstone Mine's three-tap attrition."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKED/LOW-LIFT: Muddle the Mixture for Oracle/Breach transmute, Gemstone Mine or Exotic Orchard conditional-fixing alternatives, Spell Pierce for early interaction, Frantic Search for graveyard milling, and the prior owner-rejected stax cards. Each considered by real opportunity cost; no off-color Manamorphose or white Silence included.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Mana Drain",
+          "Spell Pierce"
+        ],
+        "cuts": [
+          "Personal Tutor",
+          "Fellwar Stone"
+        ],
+        "result_and_rationale": "Complete 100 source staged in historical one/two-swap tested pool; misses Kess deployment with two-mana Fellwar Stone for a soft one-mana counter. Not selected."
+      },
+      {
+        "adds": [
+          "Jeska's Will",
+          "Frantic Search"
+        ],
+        "cuts": [
+          "Ledger Shredder",
+          "Personal Tutor"
+        ],
+        "result_and_rationale": "Complete legal 100 defined by exact two substitutions and sourced stage Pass C single-slot comparator records; Kess's free/land-only untap is not automatic with 27 lands; replacing the Tutor with a land-untap cantrip instead of Mana Drain loses hard protection."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Mana Drain over Deadly Rollick, Grim Tutor over Personal Tutor, Jeska's Will + Frantic Search over Ledger Shredder + Personal Tutor, and counter-heavy Mana Drain + Spell Pierce over Personal Tutor + Fellwar Stone were challenged. Our chosen five retains Rollick/Stone and rejects Frantic's uncertain three-land refund. Owner consent expressly supersedes previous Oct14 Jeska/Counsel/Tutor choices only for this exact Rev1.",
+    "strongest_argument_against_baseline": "Owner's Oct14 list is a strong 100 but Counsel cannot tutor a card without delirium (no Demon), Personal Tutor only topdecks a sorcery and competes with Mystical Tutor, and Shredder's slow connive may be less decisive than Jeska's mana/impulse recast. Maw cannot produce Rift's multi-permanent late reset, and Islet cannot supply black.",
+    "evidence_based_answer": "Five meaningful replacements survive this whole-99 / off-ranking / owner-protected challenge, selected as an interacting package after testing 14 prior full-100 counterfactuals and source-valid six-/seven-swap alternatives. All losses (one blue Force pitch, Shredder connive, Tutor to top, Maw one-mana play, Islet card draw and conditional Orchard) explicitly surfaced for owner choice; no measured win-rate increase claimed.",
+    "fewer_than_five_weak_slots_reason": null
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Kess__Dissident_Mage_ChatGPT_Rev1.txt",
+    "sha256": "11415352a453e52afe4b1cc6881061e0d255e8403f8d5af5a24f9803c004fde4",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact 100 physical unique (one Kess commander + 99 library; no basics/companion) sorted commander-first and terminal LF. Five exact additions/cuts against frozen Oct14 baseline 93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb; 27 lands, 25 blue Force pitch cards, 23 Game Changers, avg library nonland mana value 1.90278. Independent Oracle/Commander legality verified 100/100 in October23 live-Scryfall archive and focused CI; earlier one-swap M6 IJ does not automatically transfer."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Kess__Dissident_Mage_EDHREC_discovery_20261023.json",
+      "data/grixis/m7/research_challengers/Kess__Dissident_Mage_Scryfall_live_20261023.json",
+      "data/grixis/m7/research_challengers/Kess__Dissident_Mage_CommanderSpellbook_20261023.json",
+      "data/grixis/m7/research_challengers/Kess__Dissident_Mage_bounded_measured_tests_20261023.json",
+      "data/grixis/m7/research_challengers/Kess__Dissident_Mage_cEDH_events_staples_20261023.json",
+      "data/grixis/m6/oracle_snapshots/Kess__Dissident_Mage_M7_Scryfall_20261023.json",
+      "data/grixis/m6/rules_snapshots/Kess__Dissident_Mage_M7_20261023.md",
+      "data/grixis/m6/ij/tested_pools/Kess__Dissident_Mage_M7_tested_configurations_20261023.json",
+      "tests/test_m6_kess_dissident_mage_m7_mechanics.py",
+      "data/grixis/m6/owner_pass_c_substitute/Kess__Dissident_Mage/final_disposition.md",
+      "data/grixis/candidates/tournament/kess-dissident-mage.json",
+      "data/grixis/m7/independent_reviews/Kess__Dissident_Mage_ChatGPT_Rev1_review.md",
+      "tests/test_m6_kess_rev1_case_transfer.py",
+      "data/grixis/m7/candidate_lists/Kess__Dissident_Mage_ChatGPT_Rev1.txt"
+    ],
+    "power_bracket": 5,
+    "archidekt_tags": [
+      "cEDH",
+      "Graveyard Spells",
+      "Consultation Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After reaching five, challenged at least eight retained roles: Mindbreak Trap vs Muddle the Mixture; Fellwar Stone vs Spell Pierce; City of Traitors vs Undercity Sewers; Final Fortune vs Frantic Search; Deadly Rollick vs Mana Drain alternate cut; Displacer Kitten vs Notion Thief; Ponder vs Praetor's Grasp; Windfall vs Timetwister. Each loses a relevant Kess early interaction, commander reset, tutoring or fast-mana quality. No sixth was assumed undesirable solely on count.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Mindbreak Trap",
+        "challenger": "Muddle the Mixture",
+        "disposition": "REJECT",
+        "tradeoff": "Muddle offers a costly 1UU transmute to Oracle/Breach and own-turn counter, but losing a conditional free spell-exile trap is a serious turn-zero defense regression versus cEDH storm; UU casting also strains Kess."
+      },
+      {
+        "incumbent": "Fellwar Stone",
+        "challenger": "Spell Pierce",
+        "disposition": "REJECT",
+        "tradeoff": "Pierce is cheaper reactive protection but stops taxing after turns and loses the two-mana Fellwar source that accelerates and colors the four-mana Kess commander."
+      },
+      {
+        "incumbent": "City of Traitors",
+        "challenger": "Undercity Sewers",
+        "disposition": "REJECT",
+        "tradeoff": "Tapped surveil dual land aids graveyard and UB consistency but sacrifices the exceptionally fast two-colorless burst that can accelerate Kess or early Breach infrastructure."
+      },
+      {
+        "incumbent": "Final Fortune",
+        "challenger": "Frantic Search",
+        "disposition": "RETAIN_ALTERNATIVE",
+        "tradeoff": "Frantic Search mills/selects for Kess and untaps up to three lands; 27-land configuration often has fewer than three, while Final Fortune grants a second Kess turn and decisive protected combo attempt."
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Kess__Dissident_Mage_ChatGPT_Rev1_Six_Challenger.txt",
+        "sha256": "a9482fd80423b1fe7463c477be3aa322b1d4cfa040add752cdbe8076e8491946",
+        "adds": [
+          "Mana Drain",
+          "Grim Tutor",
+          "Jeska's Will",
+          "Cyclonic Rift",
+          "Exotic Orchard",
+          "Muddle the Mixture"
+        ],
+        "cuts": [
+          "Personal Tutor",
+          "Demonic Counsel",
+          "Ledger Shredder",
+          "Into the Flood Maw",
+          "Fiery Islet",
+          "Mindbreak Trap"
+        ],
+        "case_for_extra_swaps": "A sixth recastable UU counter with 1UU transmute can tutor Oracle or Breach and synergize with Kess while reducing need for a purely defensive storm slot.",
+        "why_not_selected": "It loses Mindbreak Trap, one of the most important free stack-exile defensive answers against storm, and adds a slow 1UU tutoring activation in a three-color deck already rich in faster general tutors."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/Kess__Dissident_Mage_ChatGPT_Rev1_Seven_Challenger.txt",
+        "sha256": "f3f2213896d8ac4611b2ba81e1973eeb550f15cc15ab1b540ed62c0ca060c3d4",
+        "adds": [
+          "Mana Drain",
+          "Grim Tutor",
+          "Jeska's Will",
+          "Cyclonic Rift",
+          "Exotic Orchard",
+          "Muddle the Mixture",
+          "Spell Pierce"
+        ],
+        "cuts": [
+          "Personal Tutor",
+          "Demonic Counsel",
+          "Ledger Shredder",
+          "Into the Flood Maw",
+          "Fiery Islet",
+          "Mindbreak Trap",
+          "Fellwar Stone"
+        ],
+        "case_for_extra_swaps": "A seven-change stack and transmute portfolio creates extra cheap noncreature counterplay and a flexible Oracle/Breach transmute line, while keeping the selected five's tutor/mana/bounce upgrades.",
+        "why_not_selected": "It simultaneously trades away free Mindbreak Trap and the two-mana Fellwar Stone ramp required for casting a four-mana Grixis commander; this weakens both fast-defense and colored-development axes for marginal late soft permission."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The six- and seven-change full-100 variants survive literal legality but fail the Kess commander-first opportunity-cost challenge: free Mindbreak Trap exile and colored early Fellwar ramp matter more than one expensive transmute or soft permission. Other additional challenged incumbent cuts (City, Kitten, Fortune, Ponder, Rollick, Windfall) destroy burst development, an additional Kess permission, a second turn, efficient cantrip setup or graveyard synergy. Thus selecting five is a consequence of judged slot quality and engine retention, not a swap-count stop rule."
+  }
+}
