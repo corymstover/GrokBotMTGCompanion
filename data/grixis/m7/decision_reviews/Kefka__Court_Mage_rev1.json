@@ -838,7 +838,7 @@
   "owner_authority": {
     "canonical_deck_changed": false,
     "exact_candidate_owner_approved": false,
-    "owner_approval_question": "Cory, do you separately approve this exact 100-card Kefka Rev1, raw SHA-256 14277f6e9774c5ef02b4f92332b52684794367007abf81bc2d84ef7ad7bcaa7d? No approval is assumed from the Kefka-only five-swap floor waiver."
+    "owner_approval_question": "This deck is complete. Do you approve it?"
   },
   "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
   "open_ended_optimization_audit": {
