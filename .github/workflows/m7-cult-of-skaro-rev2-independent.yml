@@ -1,0 +1,32 @@
+name: M7 Deck 11 Cult of Skaro Rev2 independent audit
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-cult-of-skaro-rev2-independent.yml
+      - data/grixis/m7/chatgpt_final_candidates/Cult_of_Skaro_M7_Rev2_Approval_Candidate_20261023.txt
+      - data/grixis/m7/research_challengers/Cult_of_Skaro_M7_Rev2_Addon_Scryfall_20261023.json
+      - data/grixis/m7/decision_packets/Cult_of_Skaro_M7_Rev2_ChatGPT_Independent_20261023.md
+      - tests/test_m7_cult_rev2_independent.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cult-rev2-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: Verify owner candidate nine swaps source legality and Master Synth rules
+        run: python -m unittest discover -s tests -p 'test_m7_cult_rev2_independent.py' -v
