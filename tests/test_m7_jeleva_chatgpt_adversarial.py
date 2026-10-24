@@ -15,6 +15,7 @@ FILES = {
     "two": "Savage_Delayed_TwoSwap_Research_20261024.txt",
     "haste": "HasteMagic_Over_TorchCourier_Research_20261024.txt",
     "samut": "Samut_Over_TorchCourier_Research_20261024.txt",
+    "tyrant": "SamutTyrant_Over_HexingSquelcher_Research_20261024.txt",
 }
 EXPECTED = {
     "baseline": {},
@@ -23,6 +24,7 @@ EXPECTED = {
     "two": {"Savage Beating": "Mind's Desire", "Delayed Blast Fireball": "Toxic Deluge"},
     "haste": {"Haste Magic": "Torch Courier"},
     "samut": {"Samut, Hazoret's Champion": "Torch Courier"},
+    "tyrant": {"Samut, Tyrant of Naktamun": "Hexing Squelcher"},
 }
 HISTORICAL_RAW_SHA256 = "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
 LANDS = {
