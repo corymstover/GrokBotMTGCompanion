@@ -1,0 +1,24 @@
+name: Verify Edea ChatGPT M7 Rev2 Research Candidate
+on:
+  pull_request:
+    paths:
+      - 'data/grixis/m7/candidate_lists/Edea__Possessed_Sorceress_ChatGPT_M7_Rev2_20261023.txt'
+      - 'data/grixis/m7/decision_reviews/Edea__Possessed_Sorceress_ChatGPT_M7_Rev2_*'
+      - 'tests/test_m7_edea_chatgpt_rev2.py'
+      - '.github/workflows/m7-edea-chatgpt-rev2.yml'
+  push:
+    branches:
+      - 'chatgpt-deck16-edea-m7-rev2-independent-audit-20261023'
+permissions:
+  contents: read
+jobs:
+  source-exactness:
+    name: Edea owner-keeps, exact source, 100 cards, and mechanics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run candidate-specific checks
+        run: python -m unittest discover -s tests -p 'test_m7_edea_chatgpt_rev2.py' -v
