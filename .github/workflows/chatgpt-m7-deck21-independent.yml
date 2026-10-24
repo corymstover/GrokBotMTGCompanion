@@ -1,0 +1,31 @@
+name: ChatGPT M7 Deck 21 Goro-Goro and Satoru independent candidate
+on:
+  pull_request:
+    branches: [grokbot-deck21-goro-goro-and-satoru-m7-20261023]
+    paths:
+      - .github/workflows/chatgpt-m7-deck21-independent.yml
+      - data/grixis/m7/independent_reviews/Goro_Goro_and_Satoru_*
+      - data/grixis/m7/independent_candidates/Goro_Goro_and_Satoru_*
+      - tests/test_m7_goro_goro_and_satoru_independent_review.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  independent-goro-m7:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact review head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Report source head
+        run: git rev-parse HEAD
+      - name: Exact raw SHA, 100 card structural, legality and bounded rules review
+        run: python -m unittest -v tests.test_m7_goro_goro_and_satoru_independent_review

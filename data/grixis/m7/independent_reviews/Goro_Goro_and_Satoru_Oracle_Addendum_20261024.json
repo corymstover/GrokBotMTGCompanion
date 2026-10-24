@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-24",
+  "purpose": "Manually Scryfall-verified additional card records; NOT a replacement for frozen 2026-10-23 Scryfall snapshot and NOT evidence of a full live 100-card query.",
+  "source_snapshot": "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+  "cards": {
+    "Roaming Throne": {
+      "mana_cost": "{4}",
+      "cmc": 4,
+      "type_line": "Artifact Creature — Golem",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "Ward {2}\nAs Roaming Throne enters the battlefield, choose a creature type.\nRoaming Throne is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time.",
+      "source": "https://scryfall.com/card/lci/258/roaming-throne"
+    },
+    "Misty Rainforest": {
+      "mana_cost": "",
+      "cmc": 0,
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "source": "https://scryfall.com/card/spg/116/misty-rainforest"
+    },
+    "Marsh Flats": {
+      "mana_cost": "",
+      "cmc": 0,
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+      "source": "https://scryfall.com/card/spg/115/marsh-flats"
+    },
+    "Chandra, Acolyte of Flame": {
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3,
+      "type_line": "Legendary Planeswalker — Chandra",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "0: Create two 1/1 red Elemental creature tokens. They gain haste. Sacrifice them at the beginning of the next end step.",
+      "source": "https://scryfall.com/card/m20/126/chandra-acolyte-of-flame",
+      "limitation": "Only the ability at issue was independently reviewed; full card text must be checked before selecting this alternative."
+    }
+  },
+  "warning": "Official Scryfall search snippets and WotC rulings manually checked. Full Chandra Oracle text not captured; Chandra is an alternative only."
+}
