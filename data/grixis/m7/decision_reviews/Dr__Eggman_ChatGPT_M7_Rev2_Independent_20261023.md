@@ -1,0 +1,41 @@
+# Dr. Eggman — ChatGPT independent M7 second pass (Rev2, 2026-10-23)
+
+**STATUS: REVIEW CANDIDATE — NOT OWNER-APPROVED, NOT CANONICAL, NOT LOCKED.** This is a staged alternative to GrokBot PR #663; no prior source, current canonical approval, or Grok first-pass candidate was replaced. Do not merge the #651–#663 shared-infrastructure chain blindly.
+
+## Live provenance and reference points
+- Read current canonical `main` approved source `refinement/decklists/Dr_Eggman_Approved_2026-10-14.txt`, byte-matched against Grok's vendored approved source; raw SHA-256 `ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3`.
+- GrokBot first pass [PR #663](https://github.com/corymstover/GrokBotMTGCompanion/pull/663), exact source HEAD `3b67994a8fdfa1f3fe11e801ed02d0de94222cbc`, five-swap candidate `85bcd5a250c097a8b94322416c85272a8550728a43edc9a257b7fbd39823f792`.
+- **ChatGPT independent Rev2**: `data/grixis/m7/candidate_lists/Dr__Eggman_ChatGPT_M7_Rev2_20261023.txt`. Raw SHA-256 **`3ef9dc5bcda84834ccea2f13c1227b6bffda8f4bd914754894ae508adcc404ec`**.
+- Card identity/Oracle/legality from Grok's 2026-10-23 saved live Scryfall snapshot for 96 existing names and canonical Don Andres 2026-10-23 live-Scryfall-selected source for **Gloomlake Verge** (new to Eggman's initial 239-name snapshot). These are archived snapshots, not evidence of a fresh third-party reviewer.
+- EDHREC (2026-10-23 archived general/upgraded/optimized) examined for Top Cards/High Lift, including high-lift cards not present in the baseline; popularity is discovery, not proof. Cards explicitly removed or rejected by owner on 2026-10-14 were not reintroduced. Commander Spellbook research in #663 reports no included infinite combo in its baseline or first pass; none is claimed here.
+
+## Revised five genuine strategic substitutions relative to Oct 14 owner baseline
+
+| Add | Cut | Independent judgment and costs |
+|---|---|---|
+| **Possession Engine** | **Blasphemous Act** | A 5-mana **Vehicle** Eggman can put directly, with an ETB control effect that suppresses a key opposing creature's attacks/blocks. Act damages Eggman and our artifact board; Toxic Deluge, Their Name Is Death, Cyclonic Rift remain. **Explicit owner-retention conflict**: Cory named Act for retention Oct 14. This remains proposed only until full-list explicit approval; owner may prefer the staged no-Possession keep-Act alternative. |
+| **Skysovereign, Consul Flagship** | **Cybermen Squadron** | 5-mana **Vehicle** can enter via Eggman and deal 3 immediately; Eggman can crew 3 alone, and it can fire again attacking. Squadron costs 7, is a Cyberman (not an eligible put-from-hand payload), and can generate formidable myriad ETB copies only after conventional deployment and attacks. This deliberately trades its high ceiling for reliable commander access and immediate utility. |
+| **Interceptor Mechan** | **Cryptothrall** | 4-mana **Robot** can be put via Eggman, flying and ETB returning a dead artifact/creature to hand for future villainous choices. Cryptothrall is also a valid Construct payload and a real protection piece, but its artifact-creature hexproof overlaps Padeem's broader artifact hexproof; record this genuine protection loss rather than describing it as irrelevant. |
+| **Behemoth of Vault 0** | **Weapons Manufacturing** | 6-mana **Robot** with 6/6 trample, four energy on entry and conditional death removal; direct Eggman payload with board effect, unlike the 2-mana enchantment. Manufacturing is an efficient artifact-token and sacrifice-fodder engine, especially with Scrapyard Recombiner / Kuldotha Forgemaster, so this is a nontrivial tempo/value tradeoff. We retained stronger repeatable tap infrastructure below. |
+| **Gloomlake Verge** | **Withering Torment** | **Land 31 → 32** with guaranteed untapped {U}, and conditional {B} when an Island or Swamp is controlled. Three-color five-mana Eggman faces early access pressure. Removal loss is real: Torment directly destroys enchantments; Chaos Warp/Cyclonic Rift and artifact-based interaction provide alternate coverage. Do not pretend this is categorically free. |
+
+**Important corrections to Grok's five-swap anchor:**
+- **Foundry Inspector is retained.** It is itself an eligible **Construct** and reduces costs for naturally cast artifacts when Eggman is answered. Cory explicitly retained it Oct 14.
+- **Unwinding Clock is retained.** It untaps Master Transmuter, Kuldotha Forgemaster and Scrapyard Recombiner on *each opposing untap step*, alongside Sol Ring, signets/talismans and other rocks. With 3 opponents, this can translate into repeated put-from-hand/tutor/Construct-chain activity — often more consequential than Su-Chi Cave Guard's delayed death mana. Grok proposed trading away this high-leverage engine for an 8/8 body.
+- **Su-Chi Cave Guard is not included.** It is a Construct, vigilance 8/8 ward {4} with eight colorless on dying; without immediate ETB or attacks, its large delayed mana payoff is less reliable than preserved Clock.
+- **No artificially padded sixth or seventh swap.** Full pool reviewed; future substitutions should meet a positive marginal-gain burden, and the five-swap floor is neither a cap nor a target.
+
+## Mechanical, mana, and strategic checks
+
+- 100 physical cards; **97 distinct names/rows**; Island×2, Mountain×2, Swamp×2 only repeated. Commander one card. 32 lands; 31 eligible Construct/Robot/Vehicle cards (excluding commander); seven listed rocks if Mox Opal is counted, though Mox Opal metalcraft is conditional. Three Game Changers: **Ancient Tomb, Cyclonic Rift, Fierce Guardianship**. UBR commander identity. All 97 named cards read `commander: legal` on archived live Scryfall evidence. No project exception.
+- Eggman's end-step ability **puts** eligible artifacts, not **casts** them. Enter-the-battlefield triggers occur on puts; Cityscape Leveler's cast trigger does **not**. An empty-handed opponent may choose “discard” and discard nothing, giving no discard payoff — confirmed against official Wizards Doctor Who mechanics. A Vehicle put in this way is not a creature until crewed (unless another effect makes it one). Eggman's power 3 crews Skysovereign (Crew 3) or Possession Engine (Crew 3).
+- **Land access model is not gameplay win rate.** A deterministic 160,000-trial no-mulligan hypergeometric-style sampling of card-access combinations (conservative Mox Opal/Fellwar exclusion, assumed Spire/Orchard availability, no turn sequencing) estimates the color-and-mana proxy by cards 11/12 as **37.8% / 47.1%** for 31 lands versus **40.9% / 50.6%** for 32 lands. A single land offers ~3.0–3.5 percentage points of access, not a promised turn-five win. Play/draw timings, rock castability and opponents are not modeled.
+- **Source test caveat:** Grok's exact DP `eggman_access` uses a union color-mask test `m == 7`; one multicolor source cannot itself supply {U}{B}{R} simultaneously. It also counts Sol Ring as one mana instead of two and requires at least three lands despite possible 2-land/rock starts. Its headline figures must not be called a fully exact castability probability. The new targeted test includes a concrete failing color-mask counterexample, and the candidate's current note labels all numerical access evidence as an approximation.
+- Four first-pass additions survive; **Gloomlake Verge replaces Su-Chi Cave Guard** in the revised five because the value of preserving Clock + Inspector outweighs a delayed eight-colorless death trigger in this build. The cuts also differ.
+- **No claim** of independently observed game wins, exact multiplayer opponent strategy, independent third-model M6 Pass C, or complete suite green.
+
+## Owner review still required
+This intentionally proposes cutting the historically owner-retained Blasphemous Act, so it is **NOT** a canonical update. If Cory approves the *exact complete 100-card Rev2 list and SHA*, then separately verify and promote only that exact file through a canonical approval PR, exact-head CI, merge and post-merge rehash. No “Proceed” or approval of another deck covers Eggman. Otherwise keep its Oct14 approved canonical baseline unchanged.
+
+Proposed Power Bracket: **4 — Optimized**.
+Proposed Archidekt tags: **Villainous Choice / Robots / Artifact Cheat**.

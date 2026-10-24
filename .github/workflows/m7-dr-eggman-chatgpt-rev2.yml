@@ -1,0 +1,24 @@
+name: Verify Dr Eggman ChatGPT M7 Rev2 Research Candidate
+on:
+  pull_request:
+    paths:
+      - 'data/grixis/m7/candidate_lists/Dr__Eggman_ChatGPT_M7_Rev2_20261023.txt'
+      - 'data/grixis/m7/decision_reviews/Dr__Eggman_ChatGPT_M7_Rev2_*'
+      - 'tests/test_m7_dr_eggman_chatgpt_rev2.py'
+      - '.github/workflows/m7-dr-eggman-chatgpt-rev2.yml'
+  push:
+    branches:
+      - 'chatgpt-deck15-eggman-m7-rev2-independent-audit-20261023'
+permissions:
+  contents: read
+jobs:
+  source-exactness:
+    name: Source exactness, 100 cards, legality and owner boundary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run candidate-specific bounded source tests
+        run: python -m unittest discover -s tests -p 'test_m7_dr_eggman_chatgpt_rev2.py' -v
