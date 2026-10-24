@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "as_of_date": "2026-10-24",
+  "status": "CHATGPT_M7_INDEPENDENT_RESEARCH_ONLY_BELOW_FIVE_SWAP_FLOOR",
+  "owner_approved": false,
+  "canonical_changed": false,
+  "provenance": {
+    "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_baseline": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+    "canonical_raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+    "historical_owner_decision": "refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md",
+    "prior_grok_pr": 671,
+    "prior_grok_head": "1efba1a2fb541eaa2d3ea8f8347d6668acf0ffa1",
+    "archived_oracle": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+    "archived_edhrec": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+    "archived_spellbook": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json"
+  },
+  "baseline": {
+    "physical_cards": 100,
+    "distinct_names": 100,
+    "lands": 27,
+    "game_changers": 18,
+    "commander_identity": "UBR",
+    "bracket": "5 — cEDH",
+    "tags": [
+      "cEDH",
+      "Wizards",
+      "Combo"
+    ]
+  },
+  "findings": [
+    {
+      "id": "dual",
+      "add": "Dualcaster Mage",
+      "cut": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "status": "STRONGEST_DEFENSIBLE_ONLY_IF_OWNER_RECONSIDERS_PRIOR_CUT",
+      "reason": "Wizard with flash and spell copy; with already present Saw in Half and Essence Flux makes two extra Commander Spellbook combo lines (16→18 included), plus castable two red mana before five-mana Kefka. Adds direct Wizard-copy interaction at Inalla's cEDH ceiling.",
+      "loss": "Explicitly removed in Oct14 initial 49-card rebuild; costs {1}{R}{R} (RR source constraint); losing Kefka's discard/draw ETB and possible copied trigger. Needs upfront owner disclosure and full approval; prior removal is not an absolute ban."
+    },
+    {
+      "id": "pyro",
+      "add": "Pyroblast",
+      "cut": "Red Elemental Blast",
+      "status": "BORDERLINE_SMALL_GAIN_NOT_CERTIFIED_DECISIVE",
+      "reason": "Oracle permits legal target of any spell or permanent and only counters/destroys when blue, allowing cast for storm/graveyard without existing blue target. Both one red mana.",
+      "loss": "REB targeting only blue offers greater resilience to retarget-to-nonblue tricks and already covers the primary blue-interaction role. EDHREC cEDH sampled REB 52.8% vs Pyro 36.6%; prevalence is not proof of superiority; gain may be too marginal to qualify."
+    },
+    {
+      "id": "probe",
+      "add": "Gitaxian Probe",
+      "cut": "Ragavan, Nimble Pilferer",
+      "status": "STAGED_CHALLENGE_NOT_QUALITY_POSITIVE_PROVEN",
+      "reason": "For two life, zero mana cantrip plus opponent-hand information can help sequence proactive Spellseeker/Breach turn; sorcery cast and graveyard card for Breach. Commander-legal U identity.",
+      "loss": "Ragavan turn-one combat creates Treasures and card advantage, accelerating critical red/black mana; EDHREC cEDH 67.6% Ragavan vs 24.6% Probe. Cannot claim the trade is favorable without pod composition/opponent blockers."
+    },
+    {
+      "id": "town",
+      "add": "Starting Town",
+      "cut": "Exotic Orchard",
+      "status": "REJECTED",
+      "reason": "Guaranteed untapped rainbow on turns 1–3 for life1 each colored activation, independent of enemy lands.",
+      "loss": "After turn3 enters tapped; Exotic Orchard often rainbow and painless in three-opponent cEDH; neither source statistics nor card Oracle establishes whole-game advantage. Not a free upgrade."
+    },
+    {
+      "id": "exhibition",
+      "add": "Exhibition Tidecaller",
+      "cut": "Blood Pet",
+      "status": "REJECTED",
+      "reason": "One-mana Djinn Wizard with Inalla {1} copy can self-mill six cards per instant/sorcery cast this turn, helping Breach.",
+      "loss": "Needs spell follow-up and 1 extra generic; its token expires end step. Blood Pet is immediate sacrificial black body for Culling the Weak, Sacrifice and early turbo; loses reliable existing line resource."
+    },
+    {
+      "id": "molten",
+      "add": "Molten Duplication",
+      "cut": "Final Fortune",
+      "status": "REJECTED",
+      "reason": "With Dualcaster Mage plus another controlled artifact/creature, can generate infinite Dualcaster tokens; as sorcery it can copy Spellseeker ETB even though tokens don't retrigger Eminence.",
+      "loss": "Adds redundant combo contingent on unapproved Dualcaster reintroduction; removes low-cost emergency extra-turn tool for proactive combo. Distinctness and slot quality insufficient."
+    },
+    {
+      "id": "snap",
+      "add": "Snap",
+      "cut": "Chain of Vapor",
+      "status": "REJECTED",
+      "reason": "Returns Wizard and untaps up to two lands; could rebuy Spellseeker while yielding tempo in favorable land states.",
+      "loss": "Can target creatures only; Chain of Vapor also clears noncreature Rule-of-Law/stax pieces and saves Inalla lines at one blue mana, so substitution undermines permission to combo."
+    },
+    {
+      "id": "creature_clone",
+      "add": "Phantasmal Image",
+      "cut": "Thundertrap Trainer",
+      "status": "REJECTED",
+      "reason": "Two mana clone copying existing Spellseeker becomes Wizard and can trigger Inalla Eminence.",
+      "loss": "Requires excellent creature already on battlefield; Trainer's self-contained top-four noncreature/nonland selection is 0.973 on first ETB and duplicable under Eminence, and is an October 14 owner chosen piece."
+    },
+    {
+      "id": "rain",
+      "add": "Rain of Filth",
+      "cut": "Cabal Ritual",
+      "status": "REJECTED",
+      "reason": "One black mana can convert lands into extra black for one all-in combo turn.",
+      "loss": "Sacrifices long-term mana base and at two or three lands can underperform unthresholded Cabal Ritual; loses graveyard-threshold ritual that is core to owner-approved turbo shell."
+    },
+    {
+      "id": "grid_gifts",
+      "add": [
+        "Defense Grid",
+        "Gifts Ungiven"
+      ],
+      "cut": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin",
+        "Blood Pet"
+      ],
+      "status": "REJECTED",
+      "reason": "More protection and graveyard tutor pile options; in cEDH adoption is nonzero.",
+      "loss": "Defense Grid also taxes own off-turn free interaction by three; Gifts four-mana and a new Game Changer; losing Blood Pet impacts sac burst."
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "TWO_SWAP_DUALCASTER_PYRO",
+      "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Two_Swap_Dualcaster_Pyroblast_20261024.txt",
+      "raw_sha256": "5d182d9b9814fde5e04ec0687d7245bf3cd29c31d200c70a13f76e72bb932aef",
+      "physical_cards": 100,
+      "owner_presentable": false
+    },
+    {
+      "id": "THREE_SWAP_PROBE_STRESS",
+      "path": "data/grixis/m7/independent_candidates/Inalla__Archmage_Ritualist_M7_Three_Swap_Probe_Stress_20261024.txt",
+      "raw_sha256": "b3ce0a3f6943889dd2bdfb0221a6daed4e07b338e5c3c5026bf1da0bc4e0ca26",
+      "physical_cards": 100,
+      "owner_presentable": false
+    }
+  ],
+  "gameplan": "Command-zone Eminence copies nontoken Wizard ETBs; Spellseeker/Scholar/Burnt Offering/Finale and Bloodline Necromancer/Ruthless Technomancer win lines; backups Thassa's Oracle/Pact and Breach/LED/Brain Freeze. Inalla need not be cast.",
+  "constraints": "Five material quality-positive swaps MINIMUM for owner presentation; not five arbitrary edits. This pass identifies one relatively strong owner-removed reversal and two debatable follow-up experiments, none forming a five-swap whole-100 improvement. Preserve historical canonical Inalla and 22 preceding M7 locks.",
+  "testing_scope": "Dry deterministic source-bound audit and focused unit tests of experimental 100-card alternatives, Oracle identities and conditional combo facts. No actual matches, win rates, third-model peer review or new live full API pull."
+}
