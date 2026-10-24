@@ -1,0 +1,25 @@
+name: Verify Evelyn ChatGPT M7 Independent Confirmation
+
+on:
+  push:
+    branches: ["chatgpt-deck18-evelyn-m7-rev2-independent-audit-20261023"]
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Evelyn__the_Covetous_ChatGPT_M7_Rev2_Confirmed_20261023.txt"
+      - "data/grixis/m7/decision_reviews/Evelyn__the_Covetous_ChatGPT_M7_Rev2_Oracle_Selected_20261023.json"
+      - "data/grixis/m7/decision_reviews/Evelyn__the_Covetous_ChatGPT_M7_Rev2_Independent_20261023.md"
+      - "tests/test_m7_evelyn_chatgpt_rev2.py"
+      - ".github/workflows/m7-evelyn-chatgpt-rev2.yml"
+permissions:
+  contents: read
+jobs:
+  review-evelyn-rev2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify identical owner-review research 100 cEDH cards archived Oracle mechanics legality
+        run: python -m unittest discover -s tests -p 'test_m7_evelyn_chatgpt_rev2.py' -v
