@@ -29,8 +29,8 @@
       "color_identity": [],
       "commander_legality": "legal",
       "game_changer": false,
-      "oracle_text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
-      "source": "https://scryfall.com/card/2xm/321/city-of-brass",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "source": "https://scryfall.com/card/2x2/321/city-of-brass",
       "usage_warning": "Tapped trigger deals damage even when tapped by outside effect; mana-color coverage is unconditional."
     },
     {
