@@ -426,6 +426,50 @@
           "pattern": "^data/grixis/m6/oracle_snapshots/[^/]+\\.json$"
         }
       }
+    },
+    "baseline_provenance_exception": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Source-bound exception ONLY for a registry deck whose historical recorded digest does not match its physical canonical raw bytes (registry source.recorded_matches_raw is false). Binds both hashes separately; never manufactures a match, never re-approves the canonical list, and is forbidden for every deck whose recorded digest is not explicitly marked mismatched.",
+      "required": [
+        "historical_registry_digest",
+        "physical_raw_sha256",
+        "source_repository",
+        "source_path",
+        "vendored_source_copy",
+        "discrepancy_explanation",
+        "evidence_refs"
+      ],
+      "properties": {
+        "historical_registry_digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "physical_raw_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "source_repository": {
+          "$ref": "#/$defs/name"
+        },
+        "source_path": {
+          "$ref": "#/$defs/name"
+        },
+        "vendored_source_copy": {
+          "type": "string",
+          "pattern": "^data/grixis/m7/baseline_sources/[^/]+\\.txt$"
+        },
+        "discrepancy_explanation": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/meaningful"
+          }
+        }
+      }
     }
   },
   "$defs": {
