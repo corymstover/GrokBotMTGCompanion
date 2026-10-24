@@ -12,7 +12,6 @@ on:
       - scripts/grixis_m6_bundle_check.py
       - scripts/grixis_m7_decision_gate.py
       - tests/test_m7_crosis_the_purger_candidate.py
-      - tests/test_m7_crosis_rev2_independent.py
       - tests/test_m6_crosis_the_purger_m7_mechanics.py
       - tests/test_m6_crosis_the_purger_m7_ij.py
       - tests/test_m6_pass_c_corpus_stabilization.py
@@ -40,8 +39,6 @@ jobs:
         run: git rev-parse HEAD
       - name: Deck 10 M7 gate candidate (exact five physical swaps, single commander, hashes, no approval)
         run: python -m pytest -v tests/test_m7_crosis_the_purger_candidate.py
-      - name: Deck 10 ChatGPT Rev2 nine-swap independent source-bound checks
-        run: python -m pytest -v tests/test_m7_crosis_rev2_independent.py
       - name: Deck 10 finite Oracle-anchored rules and quantity mana cases
         run: python -m pytest -v tests/test_m6_crosis_the_purger_m7_mechanics.py
       - name: Deck 10 candidate-specific I/J hash binding, J checker and Pass C wording

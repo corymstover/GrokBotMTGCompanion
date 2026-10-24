@@ -49,4 +49,8 @@ Crosis is a six-mana flying 6/6. Combat damage to a player allows paying {2}{B} 
 - Independent strategic judgments; source-bound finite checks and focused CI are not gameplay simulations, statistical win rates, or external owner approval.
 - The research PR is stacked on Grok #658 and includes inherited unmerged earlier PR infrastructure. Do not blind merge into integration; retain as engineering proposal until safely consolidated. Canonical October 14 approval remains exactly as-is unless Cory explicitly approves **this raw 100**.
 
+## Source-seal preservation / exact-head CI
+
+The first engineering revision appended the independent test to the *old* `.github/workflows/m7-crosis-the-purger.yml`. M6 J rightfully reported SHA drift because that workflow is explicitly sealed in the preserved historical J bundle. **The sealed workflow was restored to its exact Git blob** `c9648cd5ae2112dce0ed349bac9a553cbe4a1db2`, with no seal edits or checker bypass. The new test now runs in its own additive workflow `.github/workflows/m7-crosis-rev2-independent.yml`; the original sealed workflow continues to run original candidate and provenance tests, separately. A first independent test assertion mistakenly used `loses` instead of Oracle's exact `lose` for Bloodchief; fixed in test-only follow-up. Candidate raw content and hash never changed. Both failures are recorded in PR history and should not be erased.
+
 **Gate:** PRESENT `a2f842355958dc8579b01eb067197ea303102e358d1c4ff658c3aed18cfd9d4a` to Cory with the entire list, nine add/cut pairs and tradeoffs; only his explicit approval of the exact candidate authorizes canonical PR, merge and post-merge lock.
