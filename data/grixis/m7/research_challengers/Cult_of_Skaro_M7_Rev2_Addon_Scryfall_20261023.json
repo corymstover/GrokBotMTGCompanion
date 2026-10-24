@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "deck_id": "Cult_of_Skaro",
+  "stage": "M7_CHATGPT_REV2_SCRYFALL_ADDON_RESEARCH_ONLY_NOT_OWNER_APPROVED",
+  "as_of": "2026-10-23 America/Chicago",
+  "main_scryfall_source": "data/grixis/m6/oracle_snapshots/Cult_of_Skaro_M7_Scryfall_20261023.json (210-name Oct23 source, Grok #659)",
+  "channel_source": "corymstover/grixis-commander-encyclopediaGPT main/refinement/verification/Crosis__the_Purger_M7_Rev2_Scryfall_Selected_2026-10-23.json (exact Oct23 live Scryfall record, same Oracle ID verified for two channel lands)",
+  "candidate_raw_sha256": "e7c264409bd23bd6b3dc02548f555e3f64f2d2d11cc0430d61f49cbf452a1e3d",
+  "project_exceptions": [],
+  "cards": [
+    {
+      "name": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "cmc": 0,
+      "keywords": [
+        "Channel"
+      ],
+      "quantity": 1
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "cmc": 0,
+      "keywords": [
+        "Mill",
+        "Channel"
+      ],
+      "quantity": 1
+    }
+  ]
+}
