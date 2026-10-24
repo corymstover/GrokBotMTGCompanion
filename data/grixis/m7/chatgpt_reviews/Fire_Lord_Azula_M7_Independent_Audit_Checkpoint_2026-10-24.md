@@ -44,3 +44,19 @@ Big Score is *more flexible outside combat* because it needs only one red mana. 
 - Commander Spellbook source-backed baseline 9 combos / Grok candidate 10: `data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json`.
 - Current official/rules texts are staged, but **no validated multiplayer goldfish or win-rate model** exists. The previous finite turn-four castability proxy omits several fast-mana lines and is not a success-rate claim.
 - Need exact 100, full interactions and mana tests, selected current Oracle/rules and card legality, SHA, staged focused tests and exact-head CI **before** owner presentation. No canonical write or approval now.
+
+## Exact research-only 100-card alternative seals and bounded comparison
+
+Three **complete 100-card, singleton, official-Commander-legal, UBR** alternatives have been added as noncanonical evidence (each with 26 land faces including the Sink MDFC and 20 Game Changers). Each raw source was independently SHA-256 hashed before staging; all are named `Under_Review`, and **none is presented to Cory for approval**.
+
+| Staged alternative | Raw SHA-256 | Swaps | Protected current staples |
+|---|---|---:|---|
+| Defense-preserving five | `390d09cd01672fb30b4f6d758db9562c04b453d11bcf9d434808c61bde4b3f7c` | 5 | Swan Song, Gemstone Caverns, Big Score |
+| Haste five | `76f298c328d5ce76e43dba32c04d4f3dc4d8e57d2ff3827e681563da254d2ec3` | 5 | Swan Song, Gemstone Caverns, Big Score, Samut Hazoret's Champion |
+| Keep-Samut four | `2e3deb60bce700d5a59478c4ca65c8c84b18c37c576a54bc54a3a5af9d4a91bb` | 4 | Swan Song, Gemstone Caverns, Samut Tyrant and Big Score |
+
+**Finite castability proxy, Azula by turn four on the play:** frozen baseline 0.4920; each alternative 0.4874 when the Sink MDFC may be played as a land, 0.4604 when it is never a land. This is a **0.0046 (0.46 percentage-point) decline** compared with the baseline when the MDFC provides mana; it does not count the MDFC's three-life untapped cost, Mistrise tapped timing, fetch/shock life, moxen, rituals, haste, or actual opponent interaction. These proxy values are **not win rates** and do not settle the strategic value of any alternative.
+
+The matching independent test `tests/test_m7_fire_lord_azula_chatgpt_alternatives.py` checks raw SHA, complete count, singleton, UBR, current stored Commander legality, exact diffs, Swan/Caverns keeps, Big Score/Windfall correct payment, Ad Nauseam/MDFC life tradeoffs, haste raw-draw proxy and these bounded castability values. CI on the exact alternate branch must pass; it does not certify a final owner-ready deck.
+
+**Next strategic decision:** whether a fifth quality-positive change exists beyond the clear commander-synergy opportunities, given the genuine costs of replacing an any-color fetch/Orchard with conditional blue lands and the tension between duplicate four-mana draw and immediate haste access. If not, mark RESEARCH_ONLY, never pad merely to reach five.
