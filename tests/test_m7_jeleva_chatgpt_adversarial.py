@@ -1,5 +1,6 @@
 """Jeleva independent research-only stress configurations; no card is owner approved here."""
 import hashlib
+from math import comb
 import re
 import unittest
 from pathlib import Path
@@ -39,6 +40,20 @@ TOP_STAGERS = {
     "Long-Term Plans", "Brainstorm", "Scroll Rack", "Sensei's Divining Top", "Ponder", "Preordain",
 }
 HASTE_ENABLERS = {"Torch Courier", "Lightning Greaves", "Arena of Glory", "Borne Upon a Wind"}
+BASELINE_INSTANT_SORCERY_NAMES = {
+    "Ad Nauseam", "An Offer You Can't Refuse", "Borne Upon a Wind", "Brain Freeze",
+    "Brainstorm", "Cabal Ritual", "Chain of Vapor", "Dark Ritual",
+    "Deflecting Swat", "Demonic Consultation", "Demonic Tutor", "Doomsday",
+    "Fierce Guardianship", "Final Fortune", "Flusterstorm", "Force of Negation",
+    "Force of Will", "Gamble", "Gitaxian Probe", "Imperial Seal",
+    "Into the Flood Maw", "Jeska's Will", "Lim-Dûl's Vault", "Long-Term Plans",
+    "Mental Misstep", "Mind's Desire", "Mindbreak Trap", "Mnemonic Betrayal",
+    "Mystical Tutor", "Pact of Negation", "Peer into the Abyss", "Personal Tutor",
+    "Ponder", "Preordain", "Pyroblast", "Red Elemental Blast",
+    "Rite of Flame", "Scheming Symmetry", "Swan Song", "Tainted Pact",
+    "Toxic Deluge", "Vampiric Tutor", "Wheel of Fortune", "Windfall",
+    "Yawgmoth's Will",
+}
 
 
 def read_cards(key):
@@ -100,7 +115,26 @@ class JelevaAdversarialStress(unittest.TestCase):
                 self.assertIn(text, self.report)
         self.assertIn("5", self.report)
         self.assertIn("cast from exile", self.report)
-        self.assertIn("indestructible", self.report)
+        self.assertIn("indestructibility", self.report)
+        self.assertIn("Drannith Magistrate", self.report)
+        self.assertIn("cannot be cast while Magistrate is present", self.report)
+        self.assertIn("3 life", self.report)
+
+    def test_savage_staged_remaining_own_spell_availability_is_conditional(self):
+        """Exact card-type-only combinatorics, not simulation/castability/win rates."""
+        self.assertEqual(len(BASELINE_INSTANT_SORCERY_NAMES), 45)
+        self.assertEqual(BASELINE_INSTANT_SORCERY_NAMES.intersection(self.base), BASELINE_INSTANT_SORCERY_NAMES)
+        savage_names, _ = read_cards("savage")
+        research_spells = (BASELINE_INSTANT_SORCERY_NAMES - {"Mind's Desire"}) | {"Savage Beating"}
+        self.assertEqual(len(research_spells), 45)
+        self.assertEqual(len(set(savage_names).intersection(research_spells)), 45)
+        for x, expected in ((4, 0.836919), (6, 0.953431), (8, 0.987199)):
+            with self.subTest(mana_spent_to_cast_jeleva=x):
+                # Top card staged as Savage, among other 98: 44 spells/54 nonspells.
+                probability = 1 - comb(54, x - 1) / comb(98, x - 1)
+                self.assertAlmostEqual(probability, expected, places=6)
+        self.assertIn("not success rates", self.report)
+        self.assertIn("additional cost or other condition", self.report)
 
     def test_no_five_swap_claim_or_owner_approval(self):
         self.assertIn("RESEARCH_ONLY", self.report)
