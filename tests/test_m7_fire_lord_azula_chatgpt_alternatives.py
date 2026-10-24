@@ -149,7 +149,7 @@ class AzulaChatGPTResearchChecks(unittest.TestCase):
     def test_bounded_azula_castability_proxy_discloses_mana_cost(self):
         # Reuse Grok's finite test helper, with all its disclosed blind spots:
         # no moxen, rituals, haste, tapped-land timing or real multiplayer play.
-        self.assertEqual(run_cast(BASE, mdfc_land=True)["play"]["4"], 0.492)
+        self.assertEqual(run_cast(BASELINE, mdfc_land=True)["play"]["4"], 0.492)
         for label, option in OPTIONS.items():
             with self.subTest(option=label):
                 path = RESEARCH / option["path"]
