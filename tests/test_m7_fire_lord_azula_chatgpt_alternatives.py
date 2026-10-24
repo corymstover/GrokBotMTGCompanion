@@ -10,6 +10,7 @@ import math
 import re
 from pathlib import Path
 import unittest
+from test_m6_fire_lord_azula_m7_mechanics import run_cast
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -144,6 +145,16 @@ class AzulaChatGPTResearchChecks(unittest.TestCase):
         self.assertIn("Creatures you control have haste", self.oracle["Samut, Hazoret's Champion"]["oracle_text"])
         self.assertAlmostEqual(probability_at_least_one(99, 3, 10), 0.27596605652570305)
         self.assertAlmostEqual(probability_at_least_one(99, 4, 10), 0.3513862589709422)
+
+    def test_bounded_azula_castability_proxy_discloses_mana_cost(self):
+        # Reuse Grok's finite test helper, with all its disclosed blind spots:
+        # no moxen, rituals, haste, tapped-land timing or real multiplayer play.
+        self.assertEqual(run_cast(BASE, mdfc_land=True)["play"]["4"], 0.492)
+        for label, option in OPTIONS.items():
+            with self.subTest(option=label):
+                path = RESEARCH / option["path"]
+                self.assertEqual(run_cast(path, mdfc_land=True)["play"]["4"], 0.4874)
+                self.assertEqual(run_cast(path, mdfc_land=False)["play"]["4"], 0.4604)
 
 
 if __name__ == "__main__":
