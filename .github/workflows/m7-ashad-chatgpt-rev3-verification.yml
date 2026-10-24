@@ -1,0 +1,28 @@
+name: M7 Ashad ChatGPT Rev3 Exact Candidate Evidence (NO APPROVAL)
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_M7_Rev3_Ten_Approval_Candidate.txt"
+      - "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json"
+      - "data/grixis/m6/ij/tested_pools/Ashad__the_Lone_Cyberman_M7_Rev3_tested_configurations_20261023.json"
+      - "tests/test_m7_ashad_chatgpt_rev3_owner_candidate.py"
+      - ".github/workflows/m7-ashad-chatgpt-rev3-verification.yml"
+  push:
+    branches: ["grokbot-deck05-ashad-the-lone-cyberman-m7-20261023"]
+    paths:
+      - "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_M7_Rev3_Ten_Approval_Candidate.txt"
+      - "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json"
+      - "data/grixis/m6/ij/tested_pools/Ashad__the_Lone_Cyberman_M7_Rev3_tested_configurations_20261023.json"
+      - "tests/test_m7_ashad_chatgpt_rev3_owner_candidate.py"
+permissions:
+  contents: read
+jobs:
+  exact-source-not-owner-approval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify exact preferred 100, raw and logical SHA, Oracle identity, and bounded local alternatives
+        run: python -m unittest discover -s tests -p 'test_m7_ashad_chatgpt_rev3_owner_candidate.py' -v
