@@ -57,7 +57,7 @@ class BeLakorChatGPTRev2Test(unittest.TestCase):
 
     def test_exact_new_candidate_hash_and_shape(self):
         self.assertEqual(sha(FINAL), RAW)
-        self.assertTrue(FINAL.read_bytes().endswith(b"\\n"))
+        self.assertTrue(FINAL.read_bytes().endswith(b"\n"))
         self.assertEqual(len(self.final), 94)
         self.assertEqual(sum(q for q,n in self.final), 100)
         self.assertEqual(len(self.final_counts), 94)
