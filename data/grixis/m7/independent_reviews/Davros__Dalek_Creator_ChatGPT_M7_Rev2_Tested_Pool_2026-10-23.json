@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "BOUNDED_CONFIGURATIONS_NO_SIMULATED_GAMES_NO_OWNER_APPROVAL",
+  "deck_id": "Davros__Dalek_Creator",
+  "evaluated_as_of": "2026-10-23 America/Chicago",
+  "selected": "CHATGPT_NINE",
+  "selected_raw_sha256": "96c6b1cde56eb79db1527e64b82d218f341511a8de99c2395729c0388fd88cfc",
+  "prior_grok_six_sha256": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
+  "configurations": [
+    {
+      "id": "BASELINE",
+      "notes": "Historical Oct14 approved 100, no M7 lock",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Ashad, the Lone Cyberman\n1x Badlands\n1x Blasphemous Act\n1x Blood Crypt\n1x Bloodstained Mire\n1x Boltwave\n1x Court of Ambition\n1x Command Tower\n1x Counterspell\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyberman Patrol\n1x Cybermen Squadron\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Death in Heaven\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x City of Brass\n1x Mana Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Islet\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n1x Maestros Charm\n1x Plaza of Heroes\n2x Island\n1x Jeska's Will\n1x Lightning Greaves\n1x Entropic Battlecruiser\n1x Loyal Subordinate\n1x Luxury Suite\n1x Mana Drain\n1x Missy\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Scientist Supreme of A.I.M.\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Polluted Delta\n1x Roaming Throne\n1x Scalding Tarn\n1x Marsh Flats\n1x Snuff Out\n1x Sol Ring\n1x Steam Vents\n1x Misty Rainforest\n1x Strionic Resonator\n3x Swamp\n1x Swan Song\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tezzeret, Master of the Bridge\n1x The Cyber-Controller\n1x The Dalek Emperor\n1x Labyrinth Raptor\n1x Auton Soldier\n1x The Valeyard\n1x Their Name Is Death\n1x This Is How It Ends\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Vandalblast\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Weeping Angel\n1x Wound Reflection\n1x Xander's Lounge\n"
+    },
+    {
+      "id": "GROK_SIX",
+      "notes": "First-pass six. Cuts Swan Song and Vandalblast and includes Tectonic Giant. Original PR #660 evidence, not chosen.",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Ashad, the Lone Cyberman\n1x Auton Soldier\n1x Badlands\n1x Blood Crypt\n1x Bloodletter of Aclazotz\n1x Bloodstained Mire\n1x Boltwave\n1x City of Brass\n1x Command Tower\n1x Counterspell\n1x Court of Ambition\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyberman Patrol\n1x Cybermen Squadron\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Entropic Battlecruiser\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Confluence\n1x Fiery Islet\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n2x Island\n1x Jeska's Will\n1x Labyrinth Raptor\n1x Lightning Greaves\n1x Loyal Subordinate\n1x Luxury Suite\n1x Maestros Charm\n1x Mana Confluence\n1x Mana Drain\n1x Marsh Flats\n1x Missy\n1x Misty Rainforest\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Plaza of Heroes\n1x Polluted Delta\n1x Purphoros, God of the Forge\n1x Roaming Throne\n1x Scalding Tarn\n1x Scientist Supreme of A.I.M.\n1x Snuff Out\n1x Sol Ring\n1x Steam Vents\n1x Strionic Resonator\n3x Swamp\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tectonic Giant\n1x Tergrid, God of Fright\n1x Tezzeret, Master of the Bridge\n1x The Dalek Emperor\n1x The Valeyard\n1x Their Name Is Death\n1x This Is How It Ends\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Unlicensed Disintegration\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Wound Reflection\n1x Xander's Lounge\n"
+    },
+    {
+      "id": "CHATGPT_NINE",
+      "notes": "Selected nine: two preserved protection anchors, clone package, table qualification. No simulations, not approved.",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Auton Soldier\n1x Badlands\n1x Blood Crypt\n1x Bloodletter of Aclazotz\n1x Bloodstained Mire\n1x Boltwave\n1x City of Brass\n1x Command Tower\n1x Counterspell\n1x Court of Ambition\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Entropic Battlecruiser\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Confluence\n1x Fiery Islet\n1x Flame Rift\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n1x Irenicus's Vile Duplication\n2x Island\n1x Jeska's Will\n1x Lightning Greaves\n1x Loyal Subordinate\n1x Luxury Suite\n1x Maestros Charm\n1x Mana Confluence\n1x Mana Drain\n1x Marsh Flats\n1x Mechanized Warfare\n1x Missy\n1x Misty Rainforest\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Plaza of Heroes\n1x Polluted Delta\n1x Purphoros, God of the Forge\n1x Quantum Misalignment\n1x Roaming Throne\n1x Scalding Tarn\n1x Scientist Supreme of A.I.M.\n1x Snuff Out\n1x Sol Ring\n1x Spark Double\n1x Steam Vents\n1x Strionic Resonator\n3x Swamp\n1x Swan Song\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tergrid, God of Fright\n1x Tezzeret, Master of the Bridge\n1x The Dalek Emperor\n1x The Valeyard\n1x Their Name Is Death\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Vandalblast\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Wound Reflection\n1x Xander's Lounge\n"
+    },
+    {
+      "id": "EIGHT_NO_MECHANIZED",
+      "notes": "Drops Mechanized Warfare, keeps Cyberman Patrol; lacks single-Dalek Purphoros three-damage table threshold.",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Auton Soldier\n1x Badlands\n1x Blood Crypt\n1x Bloodletter of Aclazotz\n1x Bloodstained Mire\n1x Boltwave\n1x City of Brass\n1x Command Tower\n1x Counterspell\n1x Court of Ambition\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyberman Patrol\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Entropic Battlecruiser\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Confluence\n1x Fiery Islet\n1x Flame Rift\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n1x Irenicus's Vile Duplication\n2x Island\n1x Jeska's Will\n1x Lightning Greaves\n1x Loyal Subordinate\n1x Luxury Suite\n1x Maestros Charm\n1x Mana Confluence\n1x Mana Drain\n1x Marsh Flats\n1x Missy\n1x Misty Rainforest\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Plaza of Heroes\n1x Polluted Delta\n1x Purphoros, God of the Forge\n1x Quantum Misalignment\n1x Roaming Throne\n1x Scalding Tarn\n1x Scientist Supreme of A.I.M.\n1x Snuff Out\n1x Sol Ring\n1x Spark Double\n1x Steam Vents\n1x Strionic Resonator\n3x Swamp\n1x Swan Song\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tergrid, God of Fright\n1x Tezzeret, Master of the Bridge\n1x The Dalek Emperor\n1x The Valeyard\n1x Their Name Is Death\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Vandalblast\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Wound Reflection\n1x Xander's Lounge\n"
+    },
+    {
+      "id": "EIGHT_NO_QUANTUM",
+      "notes": "Drops Quantum Misalignment, keeps Ashad; sacrifices two future permanent Davros triggers for casualty of nonlegendary artifacts.",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Ashad, the Lone Cyberman\n1x Auton Soldier\n1x Badlands\n1x Blood Crypt\n1x Bloodletter of Aclazotz\n1x Bloodstained Mire\n1x Boltwave\n1x City of Brass\n1x Command Tower\n1x Counterspell\n1x Court of Ambition\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Entropic Battlecruiser\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Confluence\n1x Fiery Islet\n1x Flame Rift\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n1x Irenicus's Vile Duplication\n2x Island\n1x Jeska's Will\n1x Lightning Greaves\n1x Loyal Subordinate\n1x Luxury Suite\n1x Maestros Charm\n1x Mana Confluence\n1x Mana Drain\n1x Marsh Flats\n1x Mechanized Warfare\n1x Missy\n1x Misty Rainforest\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Plaza of Heroes\n1x Polluted Delta\n1x Purphoros, God of the Forge\n1x Roaming Throne\n1x Scalding Tarn\n1x Scientist Supreme of A.I.M.\n1x Snuff Out\n1x Sol Ring\n1x Spark Double\n1x Steam Vents\n1x Strionic Resonator\n3x Swamp\n1x Swan Song\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tergrid, God of Fright\n1x Tezzeret, Master of the Bridge\n1x The Dalek Emperor\n1x The Valeyard\n1x Their Name Is Death\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Vandalblast\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Wound Reflection\n1x Xander's Lounge\n"
+    },
+    {
+      "id": "EIGHT_NO_FLAME",
+      "notes": "Drops Flame Rift, keeps Cyberman Patrol; lacks immediate two-mana qualifying damage to the entire table.",
+      "cards": "1x Davros, Dalek Creator [Commander]\n1x Ancient Tomb\n1x Arcane Signet\n1x Auton Soldier\n1x Badlands\n1x Blood Crypt\n1x Bloodletter of Aclazotz\n1x Bloodstained Mire\n1x Boltwave\n1x City of Brass\n1x Command Tower\n1x Counterspell\n1x Court of Ambition\n1x Cult of Skaro\n1x Cyber Conversion\n1x Cyberman Patrol\n1x Cyclonic Rift\n1x Dalek Drone\n1x Dalek Squadron\n1x Dauthi Voidwalker\n1x Deadly Rollick\n1x Deflecting Swat\n1x Delete\n1x Demonic Tutor\n1x Doomsday Confluence\n1x Ensnared by the Mara\n1x Enthusiastic Mechanaut\n1x Entropic Battlecruiser\n1x Exotic Orchard\n1x Exterminate!\n1x Feed the Swarm\n1x Fellwar Stone\n1x Fierce Guardianship\n1x Fiery Confluence\n1x Fiery Islet\n1x Geier Reach Sanitarium\n1x Genesis of the Daleks\n1x Geth's Grimoire\n1x Irenicus's Vile Duplication\n2x Island\n1x Jeska's Will\n1x Lightning Greaves\n1x Loyal Subordinate\n1x Luxury Suite\n1x Maestros Charm\n1x Mana Confluence\n1x Mana Drain\n1x Marsh Flats\n1x Mechanized Warfare\n1x Missy\n1x Misty Rainforest\n1x Morphic Pool\n3x Mountain\n1x Mox Opal\n1x Otawara, Soaring City\n1x Padeem, Consul of Innovation\n1x Perforating Artist\n1x Plaza of Heroes\n1x Polluted Delta\n1x Purphoros, God of the Forge\n1x Quantum Misalignment\n1x Roaming Throne\n1x Scalding Tarn\n1x Scientist Supreme of A.I.M.\n1x Snuff Out\n1x Sol Ring\n1x Spark Double\n1x Steam Vents\n1x Strionic Resonator\n3x Swamp\n1x Swan Song\n1x Swiftfoot Boots\n1x Sycorax Commander\n1x Sygg, River Cutthroat\n1x Talisman of Creativity\n1x Talisman of Dominance\n1x Talisman of Indulgence\n1x Tergrid, God of Fright\n1x Tezzeret, Master of the Bridge\n1x The Dalek Emperor\n1x The Valeyard\n1x Their Name Is Death\n1x Tinybones, Trinket Thief\n1x Torment of Hailfire\n1x Toxic Deluge\n1x Training Center\n1x Underground Sea\n1x Urborg, Tomb of Yawgmoth\n1x Urza's Saga\n1x Vandalblast\n1x Volcanic Island\n1x Waste Not\n1x Watery Grave\n1x Wound Reflection\n1x Xander's Lounge\n"
+    }
+  ],
+  "rejected_unverified_card_swaps": [
+    {
+      "add": "Price of Progress",
+      "cut": "Flame Rift",
+      "why": "Potential high-damage nonbasic metagame spell, but high self-damage with 26 own nonbasic lands. Research-only until Oracle source-bound verification."
+    },
+    {
+      "add": "Solphim, Mayhem Dominus",
+      "cut": "Mechanized Warfare",
+      "why": "Double noncombat damage but costs more, has higher red pip demand, and does not assist artifact creature combat."
+    }
+  ],
+  "scene_checks": {
+    "purphoros_with_2_davros_triggers_A3_B0_C0": {
+      "without_modifier": {
+        "second_qualified": [
+          "A"
+        ],
+        "first_dalek_pings_each": 2
+      },
+      "with_mechanized": {
+        "second_qualified": [
+          "A",
+          "B",
+          "C"
+        ],
+        "first_dalek_pings_each": 3
+      },
+      "with_bloodletter": {
+        "second_qualified": [
+          "A",
+          "B",
+          "C"
+        ],
+        "first_dalek_pings_each": 4
+      }
+    },
+    "known_limits": [
+      "No multiplayer win-rate estimate",
+      "Opponent choices not simulated",
+      "No automatic threshold just because multiple commander copies exist",
+      "Davros token entry cannot retroactively qualify its own creating resolution",
+      "Tergrid and Dauthi Voidwalker interfer when replacement puts cards into exile"
+    ]
+  }
+}

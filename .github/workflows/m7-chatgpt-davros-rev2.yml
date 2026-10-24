@@ -1,0 +1,26 @@
+name: Davros ChatGPT Independent M7 Rev2 Nine-Swap Verification
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/independent_reviews/Davros__Dalek_Creator_ChatGPT_M7_Rev2_Candidate_2026-10-23.txt"
+      - "data/grixis/m7/independent_reviews/Davros__Dalek_Creator_Approved_Baseline_2026-10-14.txt"
+      - "data/grixis/m7/independent_reviews/Davros__Dalek_Creator_ChatGPT_M7_Rev2_Selected_Oracle_2026-10-23.json"
+      - "data/grixis/m7/independent_reviews/Davros__Dalek_Creator_ChatGPT_M7_Rev2_Decision_2026-10-23.md"
+      - "data/grixis/m7/independent_reviews/Davros__Dalek_Creator_ChatGPT_M7_Rev2_Tested_Pool_2026-10-23.json"
+      - "tests/test_m7_davros_chatgpt_rev2_independent.py"
+      - ".github/workflows/m7-chatgpt-davros-rev2.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent-nine-swap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify Davros exact candidate baseline Oracle and bounded strategy scenarios
+        run: python -m unittest discover -s tests -p 'test_m7_davros_chatgpt_rev2_independent.py' -v
