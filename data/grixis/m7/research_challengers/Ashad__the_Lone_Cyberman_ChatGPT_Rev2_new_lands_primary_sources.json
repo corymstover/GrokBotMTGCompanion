@@ -1,0 +1,56 @@
+{
+  "status": "LIVE_DIRECT_SCRYFALL_VERIFIED_RESEARCH_NOT_OWNER_APPROVAL",
+  "retrieved_date": "2026-10-23",
+  "scope": "Four new names, primary live Scryfall Oracle/Commander legality/Game Changer, independent of old 112-name source.",
+  "cards": [
+    {
+      "name": "Mishra's Workshop",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": true,
+      "oracle_text": "{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells.",
+      "source": "https://scryfall.com/card/vma/305/mishras-workshop",
+      "usage_warning": "The restricted three mana cannot be spent on nonartifact spells or abilities; it pays only generic costs of artifact spells, including Ashad's generic {1} but not U/B/R pips.",
+      "oracle_id": "ba284fe6-bb29-455c-8321-9714a0cdc05e",
+      "source_api": "https://api.scryfall.com/cards/named?exact=Mishra's%20Workshop"
+    },
+    {
+      "name": "Ancient Tomb",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": true,
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "source": "https://scryfall.com/card/tmp/315/ancient-tomb",
+      "usage_warning": "Colorless only, two life per tapping; one generic pip is payable on Ashad, the remainder needs a valid mana sink.",
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "source_api": "https://api.scryfall.com/cards/named?exact=Ancient%20Tomb"
+    },
+    {
+      "name": "City of Brass",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "source": "https://scryfall.com/card/2x2/321/city-of-brass",
+      "usage_warning": "Tapped trigger deals damage even when tapped by outside effect; mana-color coverage is unconditional.",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "source_api": "https://api.scryfall.com/cards/named?exact=City%20of%20Brass"
+    },
+    {
+      "name": "Mana Confluence",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "source": "https://scryfall.com/card/jou/163/mana-confluence",
+      "usage_warning": "Life is paid as ability activation cost; colored mana available without artifact condition.",
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "source_api": "https://api.scryfall.com/cards/named?exact=Mana%20Confluence"
+    }
+  ],
+  "method": "Retrieved directly via Scryfall GET /cards/named?exact= using curl on 2026-10-23; committed exact relevant raw response fields (name, oracle_id, oracle_text, type_line, color_identity, legalities.commander and game_changer). Not an entire raw API response or formal M6 J certification."
+}

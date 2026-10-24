@@ -1,0 +1,65 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+ "registry_recorded_matches_raw": true,
+ "source_full": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 6,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Ashad_the_Lone_Cyberman_approved_source_2026-10-13.txt",
+   "raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+   "logical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Approved list unchanged and the comparison anchor: 30 physical lands, 9 static rocks (39 static sources), 37 nonlegendary artifacts, 17 power-2+ creature cards as casualty fodder, avg MV 3.406. Registry recorded digest equals the raw bytes (no provenance exception)."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman.txt",
+   "raw_sha256": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
+   "logical_hash": "lh1:672c3945d8fd2f44a7d03dce4672b9d4aa25391a26b8c1607b5242ca05cc946f",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Skullclamp +Piggy Bank +Razorlash Transmogrant +Necron Deathmark +Royal Warden / -Fellwar Stone -Reckless Fireweaver -Thoughtcast -Marionette Master -Thopter Spy Network. 30 lands + 8 rocks; nonlegendary artifacts 37->41, power-2+ fodder 17->21. Adds the conditional three-card Razorlash+Pitiless Plunderer+Phyrexian Altar loop (Commander Spellbook 4050-4871-6429; needs an opponent with >=4 nonbasic lands), disclosed. Loses Marionette Master's drain and one rock."
+  },
+  {
+   "id": "FIVE_ALT_RAZORLASH_OVER_DISCIPLE",
+   "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_five_alt_Razorlash_over_Disciple_20261023.txt",
+   "raw_sha256": "f672a742c257e678e5cb2a948e4a4cfb52ba07af8b82d946b0288e9307f7e6ff",
+   "logical_hash": "lh1:f1bd999be5ac65172e483ec214c72ac6debdef83da4bc07e48b5755474cd2849",
+   "physical_cards": 100,
+   "judgment": "REJECT (same-count alternative, staged). Same five adds but cuts Disciple of the Vault instead of Thoughtcast. Disciple is the drain payoff for casualty/sacrifice loops including the new Razorlash loop; keeping Thoughtcast does not compensate. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PATROL",
+   "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_CybermanPatrol_over_IchorWellspring_20261023.txt",
+   "raw_sha256": "ea105a15625cfdb68933cd6cc72f3411ee0bff721efe1231e7b95d233542376e",
+   "logical_hash": "lh1:50f70c2a852a237f146ac073acbac02f3ab3048fd901b721c96ff3bac82fdd7f",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). Preferred five + Cyberman Patrol over Ichor Wellspring. Adds another artifact creature body for casualty, but Wellspring's draw on entering and dying is worth more card flow. MODERATE confidence."
+  },
+  {
+   "id": "SIX_KEEPER",
+   "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_TreasureKeeper_over_AutonSoldier_20261023.txt",
+   "raw_sha256": "5cf5ec8a0b61819d5729a9f90a79687be515923af773a280da00ed7e98b5e537",
+   "logical_hash": "lh1:da5172165d8e521136bafa42a11a6538fa343603df39da20f057937cfe24062a",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected; Treasure Keeper is off-ranked on EDHREC). Preferred five + Treasure Keeper over Auton Soldier. Death trigger casts a free MV<=3 nonland card and is good casualty fodder, but Auton Soldier has the higher ceiling. LOW_WITH_DISCLOSED_LIMITS."
+  },
+  {
+   "id": "SEVEN_PATROL_KEEPER",
+   "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_seven_Patrol_TreasureKeeper_20261023.txt",
+   "raw_sha256": "fd6728e355a540947218000a71b7afb25a6cc75349f070e7fd9df50b11f616a9",
+   "logical_hash": "lh1:08e50b412ba470776aeef4028afb902f08367ee1e118127e45545a39b220c769",
+   "physical_cards": 100,
+   "judgment": "STAGED_NOT_SELECTED. Both six-swap alternatives together (Patrol over Wellspring, Treasure Keeper over Auton Soldier). Neither change beat its incumbent alone, so stacking them would be padding; five is a floor, not a target."
+  }
+ ],
+ "owner_m7_approved": false,
+ "scope_caveat": "Local comparison over these six explicit complete 100-card configurations plus named single-card contenders in the M7 packet; not a global or mathematical optimum and not a win-rate measurement."
+}

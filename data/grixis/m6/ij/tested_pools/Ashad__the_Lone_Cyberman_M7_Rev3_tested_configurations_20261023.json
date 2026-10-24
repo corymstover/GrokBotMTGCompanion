@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "deck_id": "Ashad__the_Lone_Cyberman",
+  "status": "CHATGPT_REV3_EXPLICIT_TESTED_POOL_CANDIDATE_ONLY_NOT_OWNER_APPROVAL",
+  "baseline_raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+  "candidate_raw_sha256": "352911498345e78bd55773f4c9d1c49d05599610d5fc806f7b779c85eb5f6267",
+  "candidate_logical_hash": "lh1:9ebaa891f2ff0e7af81ff2856b54a012c915f8d5cb1936a8ca579579aa8cb8c9",
+  "source_full": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json",
+  "source_edhrec_new": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+  "source_combos": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json",
+  "source_additional": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_high_lift_direct_sources.json",
+  "explicit_pool_size": 5,
+  "configurations": [
+    {
+      "id": "BASELINE",
+      "path": "data/grixis/m7/baseline_sources/Ashad_the_Lone_Cyberman_approved_source_2026-10-13.txt",
+      "raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+      "logical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+      "physical_cards": 100,
+      "judgment": "HISTORICAL_APPROVED_SOURCE_READONLY: 30 lands, 9 rocks, high-value copy and sacrifice core. No new M7 owner approval."
+    },
+    {
+      "id": "NINE",
+      "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Nine_Research.txt",
+      "raw_sha256": "1a9e875a06971734d7bd7211b3338cb888a3f8135c88530bab7e9e8544402704",
+      "logical_hash": "lh1:359d564e92085bd69e82e085b4e48344c354e229ef46214894904a0f196ff9d9",
+      "physical_cards": 100,
+      "judgment": "VIABLE_LOCAL_CHALLENGER: nine improvements, 32 lands, eight rocks, preserves Wellspring/Kappa; lacks redundant Flash artifact permission."
+    },
+    {
+      "id": "TEN_PATROL",
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt",
+      "raw_sha256": "daf54f692a508db867d84ef9c047897cfc3669f54c841b23a273af4de925558b",
+      "logical_hash": "lh1:762d006c40e5053991b6aa8a8e7128d2cfba163a5a4b4d9db4ef7df4463a5d53",
+      "physical_cards": 100,
+      "judgment": "REJECT_AS_DEFAULT: extra 2/2 afflict body but sacrifices Wellspring's two draw triggers and repeatable copyable card economy."
+    },
+    {
+      "id": "TEN_LIBERATOR",
+      "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_M7_Rev3_Ten_Approval_Candidate.txt",
+      "raw_sha256": "352911498345e78bd55773f4c9d1c49d05599610d5fc806f7b779c85eb5f6267",
+      "logical_hash": "lh1:9ebaa891f2ff0e7af81ff2856b54a012c915f8d5cb1936a8ca579579aa8cb8c9",
+      "physical_cards": 100,
+      "judgment": "PROVISIONAL_LOCAL_BEST_FOR_M7_REVIEW: second flash artifact enabler alongside Shimmer Myr enables casting artifact spells on each opponent's turn, exploiting Ashad's unique each-turn trigger. Cuts resilient pressure Kappa (real cost). Needs final I/J and explicit Cory approval."
+    },
+    {
+      "id": "TEN_TECHNOMANCER",
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Technomancer_Over_Kappa_Challenge.txt",
+      "raw_sha256": "afdd6678f2d3e58555bdf67287a040e240057ab488de82fb1625a7dc62593515",
+      "logical_hash": "lh1:023a3c78324dd183ef1c5f7091ee23f757f4175886f01f1e8e1208f185cfeffb",
+      "physical_cards": 100,
+      "judgment": "RETAIN_SPECULATIVE_ALTERNATIVE: ETB reanimation when graveyard stocked, can be copied; 7MV BB and loss of Kappa tempo is significant, versus immediate redundant flash ceiling."
+    }
+  ],
+  "owner_m7_approved": false,
+  "scope_caveat": "Only these five explicit complete 100-card configurations and named high-lift/cut challenges were judged. No global optimality, controlled win-rate or statistical superiority claim."
+}

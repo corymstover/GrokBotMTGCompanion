@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "stage": "M6_final_reproducibility_bundle",
+  "deck_id": "Ashad__the_Lone_Cyberman",
+  "slug": "ashad-the-lone-cyberman",
+  "baseline_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+  "result_hash": "lh1:9ebaa891f2ff0e7af81ff2856b54a012c915f8d5cb1936a8ca579579aa8cb8c9",
+  "snapshot": {
+    "birthday_id": "birthday-20261017-6e5c604e1459",
+    "oracle_ref": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json",
+    "rules_ref": "data/grixis/m6/rules_snapshots/Ashad__the_Lone_Cyberman_M7_20261023.md",
+    "legality_ref": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json"
+  },
+  "inputs": [
+    {
+      "path": "data/grixis/birthday_m5/candidates/ashad-the-lone-cyberman.json.gz",
+      "sha256": "sha256:ecdff3e620b2e9d6d0e8e8ab45df106c3e4aaa33b758a2cd22f033c0da6b50e5"
+    },
+    {
+      "path": "data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz",
+      "sha256": "sha256:1b8fa70f030f293aa5a9d031efbea1969e45eba31aad726c2965bb5128bf1ada"
+    },
+    {
+      "path": "data/grixis/birthday_m5/evidence/ashad-the-lone-cyberman.json",
+      "sha256": "sha256:125ae609b998765778b67b1990c70b32a8b5c919713b17641ade23fbc1e663c6"
+    },
+    {
+      "path": "data/grixis/m6/optimizer/ashad-the-lone-cyberman.json",
+      "sha256": "sha256:4c3491ecb69b2ed53f948c5c6ec09551f34648f5c7e9d082c8c3de021236cbb6"
+    },
+    {
+      "path": "data/grixis/m6/review_packets/ashad-the-lone-cyberman.json",
+      "sha256": "sha256:0216b639445481eeb06875f9614449e43e1dfe37c2c761bcb79eaa75013a1346"
+    },
+    {
+      "path": "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman.json",
+      "sha256": "sha256:a46c1a42a59f319822ffb3d2435b7a0517d204344e0a0e8bf88bffae7340936f"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_EDHREC_discovery_20261023.json",
+      "sha256": "sha256:99b2594dc9d151de29333d08009098b8fff1376b2e24fb72f93e51a698db8481"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_Scryfall_live_20261023.json",
+      "sha256": "sha256:1cd6b6c5c887618a8ad162d7ecf3b831e266c6d38bde89488b2f8c3d86dcf5a1"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_CommanderSpellbook_20261023.json",
+      "sha256": "sha256:6754965a37267fdbd05647d799fe2ce2b28a471819278d79b209d096ada2e8c3"
+    },
+    {
+      "path": "scripts/grixis_m7_decision_gate.py",
+      "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+    },
+    {
+      "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+      "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+    },
+    {
+      "path": "scripts/grixis_m6_bundle_check.py",
+      "sha256": "sha256:4fb8e8b1a5bb841a79184e4666cba93ae4727f828f7d9ce0fad7f80aea44fad5"
+    },
+    {
+      "path": "data/grixis/m7/baseline_sources/Ashad_the_Lone_Cyberman_approved_source_2026-10-13.txt",
+      "sha256": "sha256:087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman.txt",
+      "sha256": "sha256:dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_five_alt_Razorlash_over_Disciple_20261023.txt",
+      "sha256": "sha256:f672a742c257e678e5cb2a948e4a4cfb52ba07af8b82d946b0288e9307f7e6ff"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_CybermanPatrol_over_IchorWellspring_20261023.txt",
+      "sha256": "sha256:ea105a15625cfdb68933cd6cc72f3411ee0bff721efe1231e7b95d233542376e"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_six_TreasureKeeper_over_AutonSoldier_20261023.txt",
+      "sha256": "sha256:5cf5ec8a0b61819d5729a9f90a79687be515923af773a280da00ed7e98b5e537"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_seven_Patrol_TreasureKeeper_20261023.txt",
+      "sha256": "sha256:fd6728e355a540947218000a71b7afb25a6cc75349f070e7fd9df50b11f616a9"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Scryfall_20261023.json",
+      "sha256": "sha256:66062e0659c89d34cd96def8f59256db51043b8473d94abdcdef35254883128a"
+    },
+    {
+      "path": "data/grixis/m6/rules_snapshots/Ashad__the_Lone_Cyberman_M7_20261023.md",
+      "sha256": "sha256:6e94f3f5b1f5ca9ec12ba80c525a6628ddd2782b1a499806ad5908db9303aa7b"
+    },
+    {
+      "path": "data/grixis/m6/ij/certificates/ashad-the-lone-cyberman-m7.json",
+      "sha256": "sha256:6fcd13365fca6cae3dde66e3a5cdf5bc79dc3c9239b1b0239474a9cd35fc8657"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_I_local_best_20261023.md",
+      "sha256": "sha256:b6c2f4c82225d35d2ba901f2fa53b24bebaae85a60c15e43f832c31e693f109d"
+    },
+    {
+      "path": "data/grixis/m6/ij/tested_pools/Ashad__the_Lone_Cyberman_M7_tested_configurations_20261023.json",
+      "sha256": "sha256:13d86b986493d4bf0b1cd69c89b64307a3f65cb0c134f36ae18e49047d9ec3ab"
+    },
+    {
+      "path": ".github/workflows/m7-ashad-the-lone-cyberman.yml",
+      "sha256": "sha256:abb751995946cfeb1c6895e4a5911e8b50ce864b4e67e68e31dae7d5e9cf82e9"
+    },
+    {
+      "path": "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman_chatgpt_adversarial_review_packet.md",
+      "sha256": "sha256:41aac9a0a295883394e3749ce1199558e96deb9d8f0bb787afbbb70fda21f59c"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_M7_Rev3_Ten_Approval_Candidate.txt",
+      "sha256": "sha256:352911498345e78bd55773f4c9d1c49d05599610d5fc806f7b779c85eb5f6267"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev3_118_Scryfall_20261023.json",
+      "sha256": "sha256:1c989cb1f72eea444a02b22084700be260aea92b5935126a8b8fcf33deb8d5a7"
+    },
+    {
+      "path": "data/grixis/m6/ij/tested_pools/Ashad__the_Lone_Cyberman_M7_Rev3_tested_configurations_20261023.json",
+      "sha256": "sha256:306ff16639181a2999b8cb06c70271d8459a11e3b1a063e989f3103e74cd9ff8"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Nine_Research.txt",
+      "sha256": "sha256:1a9e875a06971734d7bd7211b3338cb888a3f8135c88530bab7e9e8544402704"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt",
+      "sha256": "sha256:daf54f692a508db867d84ef9c047897cfc3669f54c841b23a273af4de925558b"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Technomancer_Over_Kappa_Challenge.txt",
+      "sha256": "sha256:afdd6678f2d3e58555bdf67287a040e240057ab488de82fb1625a7dc62593515"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Liberator_Over_Kappa_Challenge.txt",
+      "sha256": "sha256:352911498345e78bd55773f4c9d1c49d05599610d5fc806f7b779c85eb5f6267"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_high_lift_direct_sources.json",
+      "sha256": "sha256:8984b6bed53693a6e5010c369760b926bccee4782658058152eeedfcf6fc6900"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_new_lands_primary_sources.json",
+      "sha256": "sha256:98055604e00612b40b13da92356f2e9ac3e99652217262a553e778421c168347"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev2_Scryfall_20261023.json",
+      "sha256": "sha256:b3cbac847d1377ee7e42c0756532939eb401b7da1e39b7ada28758f93cc55f4e"
+    },
+    {
+      "path": "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_mana_and_identity_review.md",
+      "sha256": "sha256:806ffd4875a1b83823f03237a5e23d982bae1d8e359279c567c8c1d19c3a247f"
+    },
+    {
+      "path": "data/grixis/m6/ij/certificates/ashad-the-lone-cyberman-m7-rev3.json",
+      "sha256": "sha256:62df63bb5fb9de51a7ca01691dac30fa3393d826ec62ca28227db6114e531774"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_I_Rev3_local_best_20261023.md",
+      "sha256": "sha256:7d4fe13f82880388e282e866b604092d3d78ee2ad4ff5002258f4b870ab2b380"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_J_Rev3_mana_20261023.md",
+      "sha256": "sha256:7df1bd633ebdbaede30a81f5634a3e8b2c54301021f5e11c4b09605c975418b0"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_J_Rev3_red_team_20261023.md",
+      "sha256": "sha256:9c58443cf3777aba2c5aeca86bfccf82fef129cba97ff79c83ad667af16b1f7a"
+    },
+    {
+      "path": "tests/test_m7_ashad_chatgpt_rev3_owner_candidate.py",
+      "sha256": "sha256:d7e91bfabdba4ed467394c05120a5b99d9c9a2afec1e23a968c14c02036d0b97"
+    },
+    {
+      "path": "tests/test_m6_ashad_rev3_ij.py",
+      "sha256": "sha256:b737ff9e721cf1c773a26ed764c16fdae1754f02a574dd4fe98676385437ad06"
+    },
+    {
+      "path": ".github/workflows/m7-ashad-chatgpt-rev3-ij.yml",
+      "sha256": "sha256:9933599b7159f681d7cbafb2010d032e89f394d98ba7a6417a101190b01fd0cb"
+    },
+    {
+      "path": ".github/workflows/m7-ashad-chatgpt-rev3-verification.yml",
+      "sha256": "sha256:7dfbc605240b7558716ff4446bdaaa557b0ea42b1e61b51c66d54fe66d2933a3"
+    },
+    {
+      "path": "tests/test_m7_ashad_chatgpt_rev2_research.py",
+      "sha256": "sha256:d748d421422f328a8d2433798fded2bfe102fb11eaad9ae7bc9556af5285f431"
+    },
+    {
+      "path": "tests/test_m7_ashad_rev2_edhrec_high_lift_challenges.py",
+      "sha256": "sha256:fbbddfecdbab11ce067446f1797bca7654fad3ab7f5fe1c911805cf9677881b8"
+    }
+  ],
+  "sealed_passes": {
+    "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+    "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+    "a_output_ref": "data/grixis/m6/sealed/A/ashad-the-lone-cyberman.json",
+    "b_output_ref": "data/grixis/m6/sealed/B/ashad-the-lone-cyberman.json",
+    "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+  },
+  "pass_c": {
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Ashad__the_Lone_Cyberman/final_disposition.md",
+    "judgment_receipt_sha256": "sha256:5e28ab07db8a4356e86d4734fcfa1fef005fa1c908efaca7a6b353b14a15d6c1",
+    "conflicts_resolved": true,
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "technically_independent": false,
+    "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Ashad__the_Lone_Cyberman/seal.json",
+    "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+    "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+    "stage_a_seal_sha256": "sha256:aac3e38e44399ef623a56ad8f63c40f92138b45fe3e40e683333fc3cab16b328"
+  },
+  "phase_b": {
+    "complete": true,
+    "tests": [
+      {
+        "test_ref": "tests/test_m6_ashad_the_lone_cyberman_m7_mechanics.py",
+        "source_sha256": "sha256:4d2692c2df4d04b0df8d384896830abd1abecc7ab67f9db864e3d2ecf3ba4721",
+        "seed": 0,
+        "harness_version": "ashad_m7_finite_rules_10_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Ten finite seed-0 Oracle-anchored cases: Ashad casualty-2 Oracle text; slot used by the first nonlegendary artifact spell even without fodder; all adds are nonlegendary artifacts with casualty-legal bodies; cuts are non-casualty bodies or nonartifact engines; Skullclamp lifts power-1 toughness-2+ bodies to power 2; Necron Deathmark flash copy kills two; Razorlash conditional loop mana-neutral and Spellbook-listed; exact swaps with core preserved; quantity-counted lands 30, rocks 9->8, fodder 17->21; legality, identity, singleton, Game Changers. Not a game engine or win-rate."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_ashad_the_lone_cyberman_candidate.py",
+        "source_sha256": "sha256:a080444d387d470b4ffe644d69e18211ba26ce6d724b41bfa70f04e81494bb85",
+        "seed": 0,
+        "harness_version": "ashad_m7_gate_candidate_4_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Exact five physical swaps, registry hashes untouched, gate owner-presentable structure; no gameplay performance."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+        "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+        "seed": 0,
+        "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #652 head a6798cf2 (from PR #651)."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_ashad_the_lone_cyberman_m7_ij.py",
+        "source_sha256": "sha256:08bd20f16cc8fc665a4576614beb4c8274ca30a845eca83c82fc6c3e9b86450d",
+        "seed": 0,
+        "harness_version": "ashad_m7_IJ_9_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Recomputes pool raw/logical hashes, runs the J checker and fail-closed Pass C wording cases (TRUE, ambiguous, missing, contradictory rejected; legacy substrings retained); provenance, not mechanical simulation."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_ashad_chatgpt_rev2_research.py",
+        "source_sha256": "sha256:d748d421422f328a8d2433798fded2bfe102fb11eaad9ae7bc9556af5285f431",
+        "seed": 0,
+        "harness_version": "ashad_rev2_4_land_primary_4_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Original 112 research pool plus four directly Scryfall-verified lands; source, count, conditional restrictions, mana probability bound; no actual game simulation."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_ashad_rev2_edhrec_high_lift_challenges.py",
+        "source_sha256": "sha256:fbbddfecdbab11ce067446f1797bca7654fad3ab7f5fe1c911805cf9677881b8",
+        "seed": 0,
+        "harness_version": "ashad_highlift_two_exact_100",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Two EDHREC challengers reviewed with live Scryfall Oracle and exact 100 cards; no statistical performance."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_ashad_chatgpt_rev3_owner_candidate.py",
+        "source_sha256": "sha256:d7e91bfabdba4ed467394c05120a5b99d9c9a2afec1e23a968c14c02036d0b97",
+        "seed": 0,
+        "harness_version": "ashad_rev3_exact_100_118_source_4_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Exact raw/logical SHA, five pool lists, legality/color/singleton/physical count/Game Changers; no gameplay engine."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_ashad_rev3_ij.py",
+        "source_sha256": "sha256:b737ff9e721cf1c773a26ed764c16fdae1754f02a574dd4fe98676385437ad06",
+        "seed": 0,
+        "harness_version": "ashad_rev3_strict_IJ_4_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Strict J checker SHA binds, historical five-swap preservation and negative digest; provenance only, not playtesting."
+        ]
+      }
+    ]
+  },
+  "red_team": {
+    "report_path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_J_Rev3_red_team_20261023.md",
+    "sha256": "sha256:9c58443cf3777aba2c5aeca86bfccf82fef129cba97ff79c83ad667af16b1f7a"
+  },
+  "mana_analysis": {
+    "report_path": "data/grixis/m6/certification_preflight/Ashad__the_Lone_Cyberman_M6_J_Rev3_mana_20261023.md",
+    "sha256": "sha256:7df1bd633ebdbaede30a81f5634a3e8b2c54301021f5e11c4b09605c975418b0"
+  },
+  "unresolved_material_questions": [],
+  "bundle_status": "complete_evidence_not_approval",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}
