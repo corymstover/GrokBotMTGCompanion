@@ -1,0 +1,46 @@
+{
+  "status": "LIVE_DIRECT_SCRYFALL_HIGHLIFT_CHALLENGERS_RESEARCH_ONLY_NOT_OWNER_APPROVAL",
+  "date": "2026-10-23",
+  "source": "https://api.scryfall.com/cards/named?exact=; queried independently by exact name; full response filtered to authoritative Oracle/legality fields",
+  "candidate_lists": [
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Liberator_Over_Kappa_Challenge.txt",
+    "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Technomancer_Over_Kappa_Challenge.txt"
+  ],
+  "cards": [
+    {
+      "name": "Liberator, Urza's Battlethopter",
+      "oracle_id": "798a4a6f-7443-4e8e-afcb-0a694fdfcbb3",
+      "oracle_text": "Flash\nFlying\nYou may cast colorless spells and artifact spells as though they had flash.\nWhenever you cast a spell, if the amount of mana spent to cast that spell is greater than Liberator's power, put a +1/+1 counter on Liberator.",
+      "mana_cost": "{3}",
+      "cmc": 3,
+      "type_line": "Legendary Artifact Creature — Thopter",
+      "power": "1",
+      "toughness": "2",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "source_api": "https://api.scryfall.com/cards/named?exact=Liberator%2C%20Urza%27s%20Battlethopter"
+    },
+    {
+      "name": "Technomancer",
+      "oracle_id": "3f97541e-34f3-4f7f-8ac2-7167b2ec9b33",
+      "oracle_text": "When this creature enters, mill three cards, then return any number of artifact creature cards with total mana value 6 or less from your graveyard to the battlefield.",
+      "mana_cost": "{5}{B}{B}",
+      "cmc": 7,
+      "type_line": "Artifact Creature — Necron Wizard",
+      "power": "5",
+      "toughness": "1",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "source_api": "https://api.scryfall.com/cards/named?exact=Technomancer"
+    }
+  ],
+  "notes": [
+    "Independent EDHREC high-lift examination beyond original five and nine; cards not automatically selected because of popularity.",
+    "Liberator: legendary artifact itself cannot receive Ashad casualty; it enables flash artifacts every turn and grows by spells cast with mana spent above its power.",
+    "Technomancer: seven mana including BB; Ashad copy doubles ETB reanimation when graveyard contains eligible artifact creatures, but competition against lower-cost pressure is conditional."
+  ]
+}

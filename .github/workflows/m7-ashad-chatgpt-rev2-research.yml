@@ -7,6 +7,10 @@ on:
       - "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_mana_and_identity_review.md"
       - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_new_lands_primary_sources.json"
       - "data/grixis/m6/oracle_snapshots/Ashad__the_Lone_Cyberman_M7_Rev2_Scryfall_20261023.json"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Liberator_Over_Kappa_Challenge.txt"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Technomancer_Over_Kappa_Challenge.txt"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_high_lift_direct_sources.json"
+      - "tests/test_m7_ashad_rev2_edhrec_high_lift_challenges.py"
       - "tests/test_m7_ashad_chatgpt_rev2_research.py"
       - ".github/workflows/m7-ashad-chatgpt-rev2-research.yml"
   push:
@@ -30,3 +34,5 @@ jobs:
           python-version: "3.12"
       - name: Verify source-hashed noncanonical Ashad options and bounded comparisons
         run: python -m unittest discover -s tests -p 'test_m7_ashad_chatgpt_rev2_research.py' -v
+      - name: Verify high-lift challengers and primary Oracle without selecting them
+        run: python -m unittest discover -s tests -p 'test_m7_ashad_rev2_edhrec_high_lift_challenges.py' -v
