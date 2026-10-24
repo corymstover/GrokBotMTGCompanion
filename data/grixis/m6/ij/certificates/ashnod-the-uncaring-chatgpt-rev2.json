@@ -32,7 +32,7 @@
   "local_optimum_for_tested_pool": true,
   "certificate_status": "pass",
   "blockers": [],
-  "scope_caveat": "Local-best judgment among eight explicitly hashed full 100-card configurations and named card challengers; not a mathematical or global proof of optimality, and no win-rate or autonomous approval claim.",
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
   "authority": {
     "can_decide": false,
     "can_approve_or_lock": false,
