@@ -1,7 +1,7 @@
-name: M7 Deck 20 Garza Zol, Plague Queen research candidate (focused)
+name: M7 Deck 20 Garza Zol research plus ChatGPT independent candidate (focused)
 on:
   pull_request:
-    branches: [chatgpt-cycle76-m6-refinement]
+    branches: [chatgpt-cycle76-m6-refinement, grokbot-deck20-garza-zol-plague-queen-m7-20261023]
     paths:
       - .github/workflows/m7-garza-zol-plague-queen.yml
       - data/grixis/registry.json
@@ -15,6 +15,7 @@ on:
       - tests/test_m6_garza_zol_plague_queen_m7_mechanics.py
       - tests/test_m6_garza_zol_plague_queen_m7_ij.py
       - tests/test_m6_pass_c_corpus_stabilization.py
+      - tests/test_m7_garza_zol_chatgpt_rev2.py
   workflow_dispatch:
 
 permissions:
@@ -43,6 +44,8 @@ jobs:
         run: python -m pytest -v tests/test_m6_garza_zol_plague_queen_m7_mechanics.py
       - name: Deck 20 candidate-specific I/J hash binding, J checker and Pass C wording
         run: python -m pytest -v tests/test_m6_garza_zol_plague_queen_m7_ij.py
+      - name: ChatGPT Garza Rev2 exact-100 source-bound independent verification (research, not owner approval)
+        run: python -m pytest -v tests/test_m7_garza_zol_chatgpt_rev2.py
       - name: Shared Pass C corpus stabilization (fail-closed, 60 of 62 pass, decks 30 and 31 rejected)
         run: python -m pytest -v tests/test_m6_pass_c_corpus_stabilization.py
       - name: All M7 packets structural gate with sources
