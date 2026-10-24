@@ -17,6 +17,9 @@ FILES = {
     "haste": "HasteMagic_Over_TorchCourier_Research_20261024.txt",
     "samut": "Samut_Over_TorchCourier_Research_20261024.txt",
     "tyrant": "SamutTyrant_Over_HexingSquelcher_Research_20261024.txt",
+    "snap": "Snap_Over_Probe_Research_20261024.txt",
+    "forbidden": "ForbiddenOrchard_Over_Exotic_Research_20261024.txt",
+    "snap_forbidden": "Snap_Forbidden_TwoSwap_Research_20261024.txt",
 }
 EXPECTED = {
     "baseline": {},
@@ -26,6 +29,9 @@ EXPECTED = {
     "haste": {"Haste Magic": "Torch Courier"},
     "samut": {"Samut, Hazoret's Champion": "Torch Courier"},
     "tyrant": {"Samut, Tyrant of Naktamun": "Hexing Squelcher"},
+    "snap": {"Snap": "Gitaxian Probe"},
+    "forbidden": {"Forbidden Orchard": "Exotic Orchard"},
+    "snap_forbidden": {"Snap": "Gitaxian Probe", "Forbidden Orchard": "Exotic Orchard"},
 }
 HISTORICAL_RAW_SHA256 = "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f"
 LANDS = {
@@ -93,11 +99,12 @@ class JelevaAdversarialStress(unittest.TestCase):
             with self.subTest(candidate=key):
                 cards, _ = read_cards(key)
                 names = set(cards)
+                expected_lands = (LANDS - {"Exotic Orchard"}) | {"Forbidden Orchard"} if key in ("forbidden", "snap_forbidden") else LANDS
                 self.assertEqual(len(names), 99)
                 self.assertEqual(names - base, set(changes))
                 self.assertEqual(base - names, set(changes.values()))
-                self.assertEqual(len(LANDS.intersection(names)), 27)
-                self.assertEqual(LANDS.intersection(names), LANDS)
+                self.assertEqual(len(expected_lands.intersection(names)), 27)
+                self.assertEqual(expected_lands.intersection(names), expected_lands)
                 self.assertEqual(TOP_STAGERS.intersection(names), TOP_STAGERS)
                 if key not in ("haste", "samut"):
                     self.assertEqual(HASTE_ENABLERS.intersection(names), HASTE_ENABLERS)
@@ -135,6 +142,31 @@ class JelevaAdversarialStress(unittest.TestCase):
                 self.assertAlmostEqual(probability, expected, places=6)
         self.assertIn("not success rates", self.report)
         self.assertIn("additional cost or other condition", self.report)
+
+    def test_snap_commander_tax_and_orchard_color_cost_tradeoffs_disclosed(self):
+        self.assertIn("no commander tax", self.report.lower())
+        self.assertIn("not an automatically larger tax-boosted pool", self.report.lower())
+        self.assertIn("Drannith Magistrate", self.report)
+        self.assertIn("no flying", self.report)
+        self.assertIn("cannot block", self.report)
+        self.assertIn("Pod-composition-dependent", self.report)
+        # Oracle-text scenarios only, not a metagame-frequency or win-rate model.
+        grixis = {"U", "B", "R"}
+        for opponent_land_colors, expected_exotic in (
+            ({"U", "B", "R"}, {"U", "B", "R"}),
+            ({"U", "B"}, {"U", "B"}),
+            ({"W", "G"}, set()),
+        ):
+            with self.subTest(opposing_lands=opponent_land_colors):
+                exotic_grixis = grixis.intersection(opponent_land_colors)
+                forbidden_grixis = grixis
+                self.assertEqual(exotic_grixis, expected_exotic)
+                self.assertEqual(forbidden_grixis, grixis)
+        names, _ = read_cards("snap_forbidden")
+        self.assertIn("Snap", names)
+        self.assertIn("Forbidden Orchard", names)
+        self.assertNotIn("Gitaxian Probe", names)
+        self.assertNotIn("Exotic Orchard", names)
 
     def test_no_five_swap_claim_or_owner_approval(self):
         self.assertIn("RESEARCH_ONLY", self.report)
