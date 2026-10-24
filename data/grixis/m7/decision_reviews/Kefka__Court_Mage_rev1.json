@@ -767,6 +767,28 @@
           "Tinybones, Bauble Burglar"
         ],
         "result_and_rationale": "Graveyard/delirium package: Entomb bins Anger and DRC surveils into delirium, which is the only reason to keep Demonic Counsel. REJECTED: it would cut Demonic Counsel (the card the package is meant to enable) and an owner explicit keep; the bounded Anger-window gain is small."
+      },
+      {
+        "adds": [
+          "Step Through",
+          "Generator Servant"
+        ],
+        "cuts": [
+          "Demonic Counsel",
+          "Culling the Weak"
+        ],
+        "result_and_rationale": "Rejected two-swap exact-100 challenge: unconditional Wizardcycling helps Kefka, but Generator Servant requires surviving a turn and removes Culling's fast black burst from the final cEDH mana configuration."
+      },
+      {
+        "adds": [
+          "Step Through",
+          "Sakashima of a Thousand Faces"
+        ],
+        "cuts": [
+          "Demonic Counsel",
+          "Phyrexian Metamorph"
+        ],
+        "result_and_rationale": "Selected two-swap coherent package: immediate Wizardcycling plus persistent Kefka legend-bypass clone, while explicitly losing delirium broad tutor and Metamorph's flexible artifact-copy/three generic plus two life mode."
       }
     ],
     "no_two_package_reason": "Only one credible multi-slot package exists: Entomb + Dragon's Rage Channeler, the one pair whose value depends on each other (delirium for Demonic Counsel and Anger in the graveyard). Every other candidate works alone and its single-slot test settles it. Dualcaster Mage plus a second copy card (Twinflame, Flesh Duplicate) only adds redundancy; Grinding Station is a generic Breach line. So no second package is credible.",
