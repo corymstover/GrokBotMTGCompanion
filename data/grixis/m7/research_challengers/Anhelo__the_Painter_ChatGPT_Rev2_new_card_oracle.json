@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "deck_id": "Anhelo__the_Painter",
+  "purpose": "Live Oracle supplemental records for ChatGPT M7 Rev2 comparisons; not an approval",
+  "retrieved_at": "2026-10-23 (America/Chicago)",
+  "source": "Scryfall /cards/named?exact= via direct GET (HTTP 200 for each)",
+  "base_oracle_snapshot": "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+  "cards": [
+    {
+      "name": "Forsaken Miner",
+      "oracle_id": "d37e0127-6f68-438e-8b9e-a71bb3c34733",
+      "layout": "normal",
+      "type_line": "Creature — Skeleton Rogue",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{B}",
+      "oracle_text": "This creature can't block.\nWhenever you commit a crime, you may pay {B}. If you do, return this card from your graveyard to the battlefield. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)",
+      "card_faces": [],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=Forsaken%20Miner"
+    },
+    {
+      "name": "Case of the Stashed Skeleton",
+      "oracle_id": "64219e17-1302-4a43-85d2-8a6214448890",
+      "layout": "case",
+      "type_line": "Enchantment — Case",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "oracle_text": "When this Case enters, create a 2/1 black Skeleton creature token and suspect it. (It has menace and can't block.)\nTo solve — You control no suspected Skeletons. (If unsolved, solve at the beginning of your end step.)\nSolved — {1}{B}, Sacrifice this Case: Search your library for a card, put it into your hand, then shuffle. Activate only as a sorcery.",
+      "card_faces": [],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=Case%20of%20the%20Stashed%20Skeleton"
+    },
+    {
+      "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+      "oracle_id": "c0957e5e-c71b-439c-931c-9f55d2f76ace",
+      "layout": "transform",
+      "type_line": "Enchantment — Saga // Enchantment Creature — Goblin Shaman",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": null,
+      "oracle_text": null,
+      "card_faces": [
+        {
+          "name": "Fable of the Mirror-Breaker",
+          "mana_cost": "{2}{R}",
+          "type_line": "Enchantment — Saga",
+          "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 2/2 red Goblin Shaman creature token with \"Whenever this token attacks, create a Treasure token.\"\nII — You may discard up to two cards. If you do, draw that many cards.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."
+        },
+        {
+          "name": "Reflection of Kiki-Jiki",
+          "mana_cost": "",
+          "type_line": "Enchantment Creature — Goblin Shaman",
+          "oracle_text": "{1}, {T}: Create a token that's a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step."
+        }
+      ],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=Fable%20of%20the%20Mirror-Breaker"
+    },
+    {
+      "name": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "layout": "normal",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "card_faces": [],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=City%20of%20Brass"
+    },
+    {
+      "name": "Misty Rainforest",
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "layout": "normal",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=Misty%20Rainforest"
+    },
+    {
+      "name": "Deadly Dispute",
+      "oracle_id": "457af74a-02b3-4659-846d-63e482667f34",
+      "layout": "normal",
+      "type_line": "Instant",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "card_faces": [],
+      "game_changer": false,
+      "source_url": "https://api.scryfall.com/cards/named?exact=Deadly%20Dispute"
+    }
+  ]
+}
