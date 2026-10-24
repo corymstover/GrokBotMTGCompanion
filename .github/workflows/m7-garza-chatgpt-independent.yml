@@ -1,0 +1,35 @@
+name: M7 Deck 20 Garza Zol ChatGPT independent Rev2 exact candidate
+on:
+  pull_request:
+    branches: [grokbot-deck20-garza-zol-plague-queen-m7-20261023]
+    paths:
+      - .github/workflows/m7-garza-chatgpt-independent.yml
+      - data/grixis/m7/candidate_lists/Garza_Zol__Plague_Queen_ChatGPT_M7_Rev2_20261024.txt
+      - data/grixis/m7/chatgpt_reviews/Garza_Zol__Plague_Queen_M7_Rev2_Independent_Decision_Packet_20261024.md
+      - tests/test_m7_garza_zol_chatgpt_rev2.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  garza-chatgpt-independent:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: ChatGPT Garza Rev2 independent exact-100 and bounded source checks
+        run: python -m pytest -v tests/test_m7_garza_zol_chatgpt_rev2.py
+      - name: Preserve Grok exact research packet and baseline gates
+        run: python -m pytest -v tests/test_m7_garza_zol_plague_queen_candidate.py tests/test_m6_garza_zol_plague_queen_m7_ij.py
