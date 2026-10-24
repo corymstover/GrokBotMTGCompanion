@@ -1,4 +1,4 @@
-"""Kefka independent 34 whole-100 research variants; no canonical owner approval."""
+"""Kefka independent 44 whole-100 research variants; no canonical owner approval."""
 import hashlib
 import json
 import re
@@ -76,6 +76,31 @@ PAIRS = {
     "GeneratorServant_StepThrough_TwoSwap": [
         ("Generator Servant", "Culling the Weak"),
         ("Step Through", "Demonic Counsel")],
+    "Sakashima_Over_PhyrexianMetamorph": [
+        ("Sakashima of a Thousand Faces", "Phyrexian Metamorph")],
+    "Sakashima_Over_Culling": [
+        ("Sakashima of a Thousand Faces", "Culling the Weak")],
+    "Sakashima_Over_DemonicCounsel": [
+        ("Sakashima of a Thousand Faces", "Demonic Counsel")],
+    "FleshDuplicate_Over_PhyrexianMetamorph": [
+        ("Flesh Duplicate", "Phyrexian Metamorph")],
+    "Chameleon_Over_PhyrexianMetamorph": [
+        ("Chameleon, Master of Disguise", "Phyrexian Metamorph")],
+    "SparkDouble_Over_PhyrexianMetamorph": [
+        ("Spark Double", "Phyrexian Metamorph")],
+    "Sakashima_StepThrough_TwoSwap": [
+        ("Sakashima of a Thousand Faces", "Phyrexian Metamorph"),
+        ("Step Through", "Demonic Counsel")],
+    "Sakashima_Generator_StepThrough_Triple": [
+        ("Sakashima of a Thousand Faces", "Phyrexian Metamorph"),
+        ("Generator Servant", "Culling the Weak"),
+        ("Step Through", "Demonic Counsel")],
+    "Sakashima_Chameleon_TwoSwap": [
+        ("Sakashima of a Thousand Faces", "Phyrexian Metamorph"),
+        ("Chameleon, Master of Disguise", "Culling the Weak")],
+    "Sakashima_Irma_TwoSwap": [
+        ("Sakashima of a Thousand Faces", "Phyrexian Metamorph"),
+        ("Irma, Part-Time Mutant", "Culling the Weak")],
 }
 
 
@@ -102,8 +127,8 @@ class KefkaIndependentChallengers(unittest.TestCase):
         self.assertEqual(hashlib.sha256(self.baseline_raw[:-1]).hexdigest(), BASE_SHA)
         self.assertEqual(len(self.base), 100)
 
-    def test_all_thirty_four_are_exact_full_100_with_only_staged_swaps(self):
-        self.assertEqual(len(PAIRS), 34)
+    def test_all_forty_four_are_exact_full_100_with_only_staged_swaps(self):
+        self.assertEqual(len(PAIRS), 44)
         base = Counter(self.base)
         for key, swaps in PAIRS.items():
             with self.subTest(configuration=key):
@@ -121,21 +146,25 @@ class KefkaIndependentChallengers(unittest.TestCase):
     def test_source_bound_oracle_identity_and_legality(self):
         j = self.index
         self.assertEqual(j["source_date"], "2026-10-23")
-        self.assertEqual(len(j["cards"]), 108)
+        self.assertEqual(len(j["cards"]), 109)
         indexed = {c["name"]: c for c in j["cards"]}
-        self.assertEqual(len(indexed), 108)
+        self.assertEqual(len(indexed), 109)
         external = j["external_card"]
         additional = j["additional_external_card"]
+        third = j["third_external_card"]
         self.assertEqual(external["name"], "Chameleon, Master of Disguise")
         self.assertIn("gatherer.wizards.com", external["official_card_url"])
         self.assertEqual(additional["name"], "Irma, Part-Time Mutant")
         self.assertIn("magic.wizards.com", additional["official_rules_url"])
+        self.assertEqual(third["name"], "Sakashima of a Thousand Faces")
+        self.assertIn("magic.wizards.com", third["official_rules_url"])
         for key in PAIRS:
             _, names = read(key)
             with self.subTest(configuration=key):
                 self.assertEqual(set(names) - set(indexed),
-                                 {name for name in (external["name"], additional["name"]) if name in names})
-        for card in j["cards"] + [external, additional]:
+                                 {name for name in (external["name"], additional["name"],
+                                                   third["name"]) if name in names})
+        for card in j["cards"] + [external, additional, third]:
             with self.subTest(card=card["name"]):
                 self.assertEqual(card["commander_legality"], "legal")
                 self.assertTrue(set(card["color_identity"]) <= {"U", "B", "R"})
@@ -232,6 +261,23 @@ class KefkaIndependentChallengers(unittest.TestCase):
         for term in ("Ad Nauseam curve", "by four", "beseech the mirror",
                      "cannot free-cast", "twinflame", "cool but rude",
                      "both generator servant and culling the weak"):
+            with self.subTest(term=term):
+                self.assertIn(term.lower(), self.report.lower())
+
+    def test_sakashima_suppresses_legend_rule_but_not_commander_identity(self):
+        third = self.index["third_external_card"]
+        self.assertEqual(third["mana_cost"], "{3}{U}")
+        self.assertIn('The "legend rule" doesn\'t apply', third["oracle_text"])
+        self.assertIn("except it has Sakashima of a Thousand Faces's other abilities",
+                      third["oracle_text"])
+        self.assertEqual(third["color_identity"], ["U"])
+        _, cards = read("Sakashima_StepThrough_TwoSwap")
+        self.assertEqual(cards.count("Kefka, Court Mage // Kefka, Ruler of Ruin"), 1)
+        self.assertEqual(cards.count("Sakashima of a Thousand Faces"), 1)
+        self.assertNotIn("Phyrexian Metamorph", cards)
+        for term in ("Sakashima of a Thousand Faces", "same-name", "legend rule",
+                     "Molten Duplication", "Saw in Half", "four mana",
+                     "not a second commander", "not yet certified"):
             with self.subTest(term=term):
                 self.assertIn(term.lower(), self.report.lower())
 

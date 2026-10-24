@@ -5,7 +5,7 @@
   "research_source": "GrokBotMTGCompanion PR #673, data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json, 228 names",
   "source_date": "2026-10-23",
   "owner_historical_canonical_raw_sha": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
-  "note": "Current candidate research uses archived 2026-10-23 Scryfall identities, no fresh live Scryfall API refresh. Chameleon and Irma are external to this archival pool; official Wizards/Gatherer text and legality are documented as separate research evidence, not falsely attributed to the Oct23 snapshot. Online card text/legality not machine-retested in this archive.",
+  "note": "Current candidate research uses archived 2026-10-23 Scryfall identities, no fresh live Scryfall API refresh. Chameleon, Irma and Sakashima are external to this archival pool; official Wizards/Gatherer text and legality are documented as separate research evidence, not falsely attributed to the Oct23 snapshot. Spark Double is separately reintroduced from the Oct23 frozen 228-name source. Online card text/legality not machine-retested in this archive.",
   "external_card": {
     "name": "Chameleon, Master of Disguise",
     "mana_cost": "{3}{U}",
@@ -34,6 +34,18 @@
     "official_rules_url": "https://magic.wizards.com/en/news/feature/teenage-mutant-ninja-turtles-release-notes",
     "commander_legality_basis": "New TMC cards are permitted in Commander according to the official Wizards release notes; Irma is TMC Commander card #12. No independent live Scryfall API validation performed.",
     "scryfall_search_url": "https://scryfall.com/search?q=%21%22Irma%2C+Part-Time+Mutant%22"
+  },
+  "third_external_card": {
+    "name": "Sakashima of a Thousand Faces",
+    "mana_cost": "{3}{U}",
+    "type_line": "Legendary Creature — Human Rogue",
+    "color_identity": ["U"],
+    "commander_legality": "legal",
+    "game_changer": false,
+    "oracle_text": "You may have Sakashima of a Thousand Faces enter the battlefield as a copy of another creature you control, except it has Sakashima of a Thousand Faces's other abilities.\nThe \"legend rule\" doesn't apply to permanents you control.\nPartner (You can have two commanders if both have partner.)",
+    "official_rules_url": "https://magic.wizards.com/en/news/feature/commander-legends-release-notes-2020-11-06",
+    "commander_legality_basis": "Commander Legends Commander-legal card with blue color identity; this candidate is in the library, not a second commander. Current October 24 live Scryfall API not rerun.",
+    "scryfall_search_url": "https://scryfall.com/search?q=%21%22Sakashima+of+a+Thousand+Faces%22"
   },
   "cards": [
     {
@@ -1291,6 +1303,16 @@
       "commander_legality": "legal",
       "game_changer": false,
       "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle."
+    },
+    {
+      "name": "Spark Double",
+      "oracle_id": "8dcb35e5-ae44-455f-86e3-4a77d496ff34",
+      "type_line": "Creature — Illusion",
+      "mana_cost": "{3}{U}",
+      "color_identity": ["U"],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary."
     }
   ]
 }
