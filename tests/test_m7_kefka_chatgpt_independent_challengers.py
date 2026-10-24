@@ -281,6 +281,28 @@ class KefkaIndependentChallengers(unittest.TestCase):
             with self.subTest(term=term):
                 self.assertIn(term.lower(), self.report.lower())
 
+    def test_provisional_two_swap_raw_hash_and_full_100_source_gate(self):
+        research_bytes, names = read("Sakashima_StepThrough_TwoSwap")
+        raw = research_bytes[:-1]
+        self.assertFalse(raw.endswith(b"\n"))
+        self.assertEqual(
+            hashlib.sha256(raw).hexdigest(),
+            "14277f6e9774c5ef02b4f92332b52684794367007abf81bc2d84ef7ad7bcaa7d")
+        self.assertIn("14277f6e9774c5ef02b4f92332b52684794367007abf81bc2d84ef7ad7bcaa7d",
+                      self.report)
+        oracle = {c["name"]: c for c in self.index["cards"]}
+        for key in ("external_card", "additional_external_card", "third_external_card"):
+            card = self.index[key]
+            oracle[card["name"]] = card
+        self.assertEqual(len(names), 100)
+        self.assertEqual(len(set(names)), 100)
+        self.assertEqual(sum("Land" in oracle[n]["type_line"] for n in names), 28)
+        self.assertEqual(sum(bool(oracle[n]["game_changer"]) for n in names), 20)
+        self.assertTrue(all(oracle[n]["commander_legality"] == "legal" for n in names))
+        self.assertTrue(all(set(oracle[n]["color_identity"]) <= {"U", "B", "R"} for n in names))
+        self.assertIn("No canonical PR", self.report)
+        self.assertIn("not approval-ready", self.report)
+
     def test_floor_and_preservation(self):
         self.assertIn("RESEARCH_ONLY", self.report)
         self.assertIn("No owner-presentable M7 list", self.report)
