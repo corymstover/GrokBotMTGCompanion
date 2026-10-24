@@ -1,6 +1,7 @@
 """Kefka independent 34 whole-100 research variants; no canonical owner approval."""
 import hashlib
 import json
+import re
 import unittest
 from collections import Counter
 from pathlib import Path
@@ -206,6 +207,33 @@ class KefkaIndependentChallengers(unittest.TestCase):
                      "mulligan-free", "commander-first",
                      "conditional castability"):
             self.assertIn(term.lower(), self.report.lower())
+
+    def test_ad_nauseam_curve_and_bargained_beseech_tradeoff(self):
+        j = {c["name"]: c for c in self.index["cards"]}
+        mana_values = {
+            "Culling the Weak": 1,
+            "Generator Servant": 2,
+            "Demonic Counsel": 2,
+            "Step Through": 5,
+        }
+        for name, mv in mana_values.items():
+            with self.subTest(card=name):
+                self.assertEqual(
+                    sum(int(symbol) if symbol.isdigit() else 1
+                        for symbol in re.findall(r"\{([^}]+)\}", j[name]["mana_cost"])),
+                    mv)
+        self.assertEqual(
+            sum(mana_values[k] for k in ("Generator Servant", "Step Through"))
+            - sum(mana_values[k] for k in ("Culling the Weak", "Demonic Counsel")),
+            4)
+        self.assertIn("mana value is 4 or less", j["Beseech the Mirror"]["oracle_text"])
+        self.assertIn("You lose life equal to its mana value", j["Ad Nauseam"]["oracle_text"])
+        self.assertEqual(j["Step Through"]["color_identity"], ["U"])
+        for term in ("Ad Nauseam curve", "by four", "beseech the mirror",
+                     "cannot free-cast", "twinflame", "cool but rude",
+                     "both generator servant and culling the weak"):
+            with self.subTest(term=term):
+                self.assertIn(term.lower(), self.report.lower())
 
     def test_floor_and_preservation(self):
         self.assertIn("RESEARCH_ONLY", self.report)
