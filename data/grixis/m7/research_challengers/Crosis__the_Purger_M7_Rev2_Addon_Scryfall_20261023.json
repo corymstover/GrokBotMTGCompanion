@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "deck_id": "Crosis__the_Purger",
+  "stage": "M7_REV2_ADDITIONAL_ORACLE_RESEARCH_ONLY_NOT_OWNER_APPROVED",
+  "as_of": "2026-10-23 America/Chicago",
+  "research_provenance": "corymstover/grixis-commander-encyclopediaGPT main: refinement/verification/Cecily__Bjorna__Lutri_M7_Rev2_Scryfall_Selected_2026-10-23.json (three exact Oct23 live Scryfall records; originally archived in GrokBot PR #656)",
+  "crosis_source": "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json (97 other unique names source-bound)",
+  "owner_m7_approved": false,
+  "expected_candidate_raw_sha256": "a2f842355958dc8579b01eb067197ea303102e358d1c4ff658c3aed18cfd9d4a",
+  "cards": [
+    {
+      "name": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "cmc": 0,
+      "keywords": [
+        "Channel"
+      ]
+    },
+    {
+      "name": "Sokenzan, Crucible of Defiance",
+      "oracle_id": "c5ee72d5-3a9e-4fe5-8802-3286ee612055",
+      "oracle_text": "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "cmc": 0,
+      "keywords": [
+        "Channel"
+      ]
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "cmc": 0,
+      "keywords": [
+        "Mill",
+        "Channel"
+      ]
+    }
+  ]
+}
