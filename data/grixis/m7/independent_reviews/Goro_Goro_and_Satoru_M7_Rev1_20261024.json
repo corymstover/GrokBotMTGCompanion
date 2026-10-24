@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "deck_id": "Goro_Goro_and_Satoru",
+  "as_of": "2026-10-24",
+  "stage": "M7_CHATGPT_INDEPENDENT_FIVE_SWAP_RESEARCH_CANDIDATE_NOT_OWNER_APPROVED",
+  "source": {
+    "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_path": "refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt",
+    "canonical_raw_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+    "grok_pr": 669,
+    "grok_head": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a",
+    "grok_research_sha": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b"
+  },
+  "selected_candidate": {
+    "path": "data/grixis/m7/independent_candidates/Goro_Goro_and_Satoru_M7_Rev1_Proposed_20261024.txt",
+    "raw_sha256": "36b71b76f913c38503f6cd1a59ba9e29a5aab48d1d6b9fd4c29eba5b69775d5c",
+    "total_physical_cards": 100,
+    "rows": 99,
+    "lands": 33,
+    "nonland_library": 66,
+    "game_changers": [
+      "Ancient Tomb",
+      "Cyclonic Rift",
+      "Demonic Tutor",
+      "Fierce Guardianship",
+      "Jeska's Will",
+      "Vampiric Tutor"
+    ],
+    "power_bracket": 4,
+    "tags": [
+      "Ninjas",
+      "Dragons",
+      "Extra Combats"
+    ],
+    "owner_approved": false,
+    "canonical_changed": false
+  },
+  "swaps": [
+    {
+      "add": "Bitterblossom",
+      "cut": "Mist-Syndicate Naga",
+      "reason": "Repeatable flying freshly-entered tokens that can attack with Goro/Samut/Dragon Tempest haste; removes slower post-damage Naga copier.",
+      "loss": "Recurring 1 life at upkeep, lacks automatic haste, loses Ninja ninjutsu body."
+    },
+    {
+      "add": "Roaming Throne",
+      "cut": "Grim Hireling",
+      "reason": "Choosing Human doubles Goro's Dragon-making trigger, Hanweir Garrison's attack trigger, Professional Face-Breaker's Treasure trigger, and Satoru the Infiltrator's conditional draw trigger.",
+      "loss": "Lose independent two-Treasure-per-opponent attacks and {B} Treasure-fueled -X/-X removal; 4 mana and vulnerable to removal."
+    },
+    {
+      "add": "Hanweir Garrison",
+      "cut": "Kaito, Bane of Nightmares",
+      "reason": "Garrison puts two fresh attacking Human tokens onto battlefield on EACH attack, scales with extra combats and doubles to four with Roaming Throne; Tetsuko makes 1/1 tokens unblockable.",
+      "loss": "Lose 1UB planeswalker ninjutsu, hexproof on our turn, repeatable surveil+multi-player draw, Ninja emblems and stun removal. Garrison must attack and expose its 2/3 body."
+    },
+    {
+      "add": "Misty Rainforest",
+      "cut": "Crumbling Necropolis",
+      "reason": "Island fetch can be untapped U/B or U/R typed dual on early turn, plus Xander's Lounge if rainbow needed, replacing always-tapped tri-land.",
+      "loss": "Pay 1 life (and sometimes 2 for shock), sacrifice exposes to Opposition Agent/Ashiok, can access all three colors only through a tapped triome; Crumbling taps for U/B/R without paying life."
+    },
+    {
+      "add": "Marsh Flats",
+      "cut": "Fabled Passage",
+      "reason": "Swamp fetch can be untapped U/B or B/R typed dual for three-color early deployment; Fabled Passage is tapped when third land before four-land threshold.",
+      "loss": "Pay 1 life (possibly plus 2 life shock), fetch restriction to Swamp/Plains types; Fabled Passage fixes through any basic without life cost."
+    }
+  ],
+  "independent_challenges": [
+    "Owner 2026-10-14 expressly kept the core ninjutsu cards and Bident of Thassa; the selected five-swaps leave all those named protected Ninja and draw cards intact.",
+    "Replacing Grim Hireling with Roaming Throne is an engine trade, not an unconditional objective improvement: the dragon multiplier requires Goro to survive AND fresh entrants to connect; Grim generates mana even from older connecting attackers.",
+    "Replacing Kaito with Hanweir swaps immediate card selection/control for increased fresh entrant combat production; blocker-heavy tables make Hanweir worse. The same-mana Chandra alternative is staged, but only generates fresh tokens once each turn and her loyalty action is not doubled by Roaming Throne.",
+    "Fetchland improvements are strongest on early turns when replacing last-land tapped entries; not a claim of increased unconditional three-color sources or a deck win rate.",
+    "The commander creates one Dragon per opponent per combat-damage step when one or more fresh entrants deal damage, not one Dragon per attacking token. With Roaming Throne Human, each such trigger happens twice. Hanweir tokens entering tapped and attacking do not themselves have attacked; they can deal damage."
+  ],
+  "scenario_model": {
+    "condition": "Goro and Roaming Throne (choosing Human) are on battlefield; one Hanweir attack trigger; no other Dragon triggers; attacking Hanweir's four new 1/1 tokens survive and connect with k unique opponents.",
+    "hanweir_tokens": 4,
+    "example_unique_opponents_hit": [
+      1,
+      2,
+      3
+    ],
+    "dragon_output_if_all_hit": [
+      2,
+      4,
+      6
+    ],
+    "restrictions": "No independent gameplay or RNG. Requires unblocked combat damage; tokens must be assigned to attacked opponents, and commander presence. With no Throne, Hanweir creates 2 tokens and one Dragon per damaged opponent."
+  },
+  "alternatives": [
+    {
+      "id": "CHANDRA_OVER_KAITO",
+      "path": "data/grixis/m7/independent_candidates/Goro_Goro_and_Satoru_M7_Rev1_Chandra_Alternative_20261024.txt",
+      "raw_sha256": "7e5ebc7acaf11ee7476cc1e2867e27456162376a0919ce5a783189fb7e4d64da",
+      "physical_cards": 100,
+      "judgment": "STAGED_NOT_SELECTED",
+      "reason": "Chandra makes two fresh hasty Elementals on each of our turns without needing to attack herself, but has no Roaming-Throne multiplier or extra-combat scaling; weaker payoff alongside Goro+Hanweir+Roaming."
+    },
+    {
+      "id": "FOUR_SWAP_KEEP_KAITO",
+      "path": "data/grixis/m7/independent_candidates/Goro_Goro_and_Satoru_M7_Four_Swap_Alternative_20261024.txt",
+      "raw_sha256": "0d6d522b3ae9cb7497e50ad47304129ef08243db9aac41b3d368c3a59473e317",
+      "physical_cards": 100,
+      "judgment": "STAGED_CONTROL_BELOW_FLOOR",
+      "reason": "Keeping Kaito reduces commitment to token-engine engine; avoids contested fifth swap but fails normal M7 five-swap proposal floor."
+    }
+  ],
+  "legality": {
+    "oracle_frozen_source": "data/grixis/m6/oracle_snapshots/Goro_Goro_and_Satoru_M7_Scryfall_20261023.json",
+    "oracle_addendum": "data/grixis/m7/independent_reviews/Goro_Goro_and_Satoru_Oracle_Addendum_20261024.json",
+    "all_100_oracle_names_resolved": true,
+    "all_commander_legal": true,
+    "color_identity": "U/B/R",
+    "basic_lands_repeated": [
+      "Island"
+    ],
+    "project_exceptions": [],
+    "complete_live_100_scryfall_requery": false
+  },
+  "limits": "Focused deterministic tests are structural and bounded scenarios, not independent game engine or win rates. Before explicit owner approval, exact full candidate should be shown and new Scryfall cards optionally verified via live batch endpoint; engineering pass never equals owner approval."
+}
