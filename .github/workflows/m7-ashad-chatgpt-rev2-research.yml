@@ -1,0 +1,29 @@
+name: M7 Ashad ChatGPT Rev2 Research Options (NOT APPROVAL)
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Nine_Research.txt"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt"
+      - "data/grixis/m7/decision_reviews/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_mana_and_identity_review.md"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_new_lands_primary_sources.json"
+      - "tests/test_m7_ashad_chatgpt_rev2_research.py"
+      - ".github/workflows/m7-ashad-chatgpt-rev2-research.yml"
+  push:
+    branches:
+      - "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023"
+    paths:
+      - "data/grixis/m7/candidate_lists/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Nine_Research.txt"
+      - "data/grixis/m7/research_challengers/Ashad__the_Lone_Cyberman_ChatGPT_Rev2_Ten_Patrol_Alternative.txt"
+      - "tests/test_m7_ashad_chatgpt_rev2_research.py"
+permissions:
+  contents: read
+jobs:
+  candidate-only-not-owner-approval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify source-hashed noncanonical Ashad options and bounded comparisons
+        run: python -m unittest discover -s tests -p 'test_m7_ashad_chatgpt_rev2_research.py' -v

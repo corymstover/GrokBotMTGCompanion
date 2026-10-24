@@ -1,0 +1,48 @@
+{
+  "status": "RESEARCH_ORACLE_SOURCE_NOT_OWNER_APPROVAL",
+  "retrieved_date": "2026-10-23",
+  "scope": "Four new unprinted-on-baseline, colorless-identity land names for Ashad ChatGPT Rev2 comparison; web search of public primary Scryfall card records and existing Anhelo Scryfall oracle snapshots.",
+  "cards": [
+    {
+      "name": "Mishra's Workshop",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": true,
+      "oracle_text": "{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells.",
+      "source": "https://scryfall.com/card/vma/305/mishras-workshop",
+      "usage_warning": "The restricted three mana cannot be spent on nonartifact spells or abilities; it pays only generic costs of artifact spells, including Ashad's generic {1} but not U/B/R pips."
+    },
+    {
+      "name": "Ancient Tomb",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": true,
+      "oracle_text": "{T}: Add {C}{C}. Ancient Tomb deals 2 damage to you.",
+      "source": "https://scryfall.com/card/tmp/315/ancient-tomb",
+      "usage_warning": "Colorless only, two life per tapping; one generic pip is payable on Ashad, the remainder needs a valid mana sink."
+    },
+    {
+      "name": "City of Brass",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "source": "https://scryfall.com/card/2xm/321/city-of-brass",
+      "usage_warning": "Tapped trigger deals damage even when tapped by outside effect; mana-color coverage is unconditional."
+    },
+    {
+      "name": "Mana Confluence",
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "source": "https://scryfall.com/card/jou/163/mana-confluence",
+      "usage_warning": "Life is paid as ability activation cost; colored mana available without artifact condition."
+    }
+  ],
+  "method": "Manually recorded primary Scryfall card Oracle/Commander legality and Game Changer search results; direct card-ID JSON response was not archived. DO NOT represent this as machine-refetched all-new Scryfall API, or as formal independent M6 I/J certification."
+}
