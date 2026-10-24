@@ -1,0 +1,34 @@
+name: M7 Deck 9 Cormela ChatGPT Rev2 six-swap selected source review
+on:
+  pull_request:
+    branches: [grokbot-deck09-cormela-glamour-thief-m7-20261023, chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-cormela-chatgpt-rev2.yml
+      - data/grixis/m7/candidate_lists/Cormela__Glamour_Thief_ChatGPT_M7_Rev2_Six_Approval_Candidate.txt
+      - data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_ChatGPT_M7_Rev2_Selected_20261023.json
+      - data/grixis/m7/decision_reviews/Cormela__Glamour_Thief_ChatGPT_M7_Rev2_Independent.md
+      - tests/test_m7_cormela_chatgpt_rev2.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-bound-rev2:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact PR head
+        run: git rev-parse HEAD
+      - name: Six-swap selected Oracle and post-floor anti-hate source verification
+        run: python -m unittest discover -s tests -p test_m7_cormela_chatgpt_rev2.py -v
+      - name: Preserve exact Grok five-swap regression snapshot
+        run: python -m pytest -v tests/test_m7_cormela_glamour_thief_candidate.py
+      - name: Inherited focused finite rules and firstpass M6 I/J historical regressions
+        run: python -m pytest -v tests/test_m6_cormela_glamour_thief_m7_mechanics.py tests/test_m6_cormela_glamour_thief_m7_ij.py
