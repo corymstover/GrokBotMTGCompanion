@@ -1,0 +1,38 @@
+name: M7 Deck 30 Lord Xander Rev1 exact 100 certification
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-lord-xander-rev1-exact.yml
+      - data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/**
+      - data/grixis/m7/**
+      - scripts/grixis_m6_bundle_check.py
+      - scripts/grixis_m7_decision_gate.py
+      - tests/test_m7_lord_xander_rev1_exact.py
+      - tests/test_m6_lord_xander_the_collector_m7_ij.py
+      - tests/test_m6_pass_c_corpus_stabilization.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-owner-approved-100:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact engineering commit
+        run: git rev-parse HEAD
+      - name: Verify M7 nine-swap, portfolio, 100-card decision packet
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Lord_Xander__the_Collector_rev1.json
+      - name: Run the 5 P0 and 9 P1 exact-revision paid finite cases and historical seal guard
+        run: python -m pytest -v tests/test_m7_lord_xander_rev1_exact.py tests/test_m6_lord_xander_the_collector_m7_ij.py tests/test_m6_pass_c_corpus_stabilization.py
+      - name: Run strict Pass C source provenance corpus check
+        run: python scripts/grixis_m6_bundle_check.py --check

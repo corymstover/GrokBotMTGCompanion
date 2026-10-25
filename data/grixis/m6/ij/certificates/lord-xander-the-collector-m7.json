@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "deck_id": "Lord_Xander__the_Collector",
+  "slug": "lord-xander-the-collector",
+  "generated_at": "2026-10-23T17:30:47-05:00",
+  "list_hash": "lh1:51caa7ea583ad70417bbdf4e1c896e2db3a87021e87fe0425d452bd911fe3620",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:bdaae5c35f1533c2034d9b5df6b9855e4a6baf320d92ee230bd28bcde7adfcc3",
+    "tested_pool_size": 11
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_lord_xander_the_collector_m7_mechanics.py",
+      "tests/test_m7_lord_xander_the_collector_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_lord_xander_the_collector_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [
+    "Owner decision on the Pass C Stage A seal mismatch (re-seal under a new disclosed record or a documented hash-correction exception).",
+    "Owner decision on Persist (explicit owner keep) versus Necromancy; alternatives A (cut Karlach, Fury of Avernus) and B (cut An Offer You Can't Refuse) keep every owner keep."
+  ],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Lord_Xander__the_Collector_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Lord_Xander__the_Collector.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": false,
+  "certificate_status": "blocked",
+  "blockers": [
+    "Pass C Stage A seal mismatch: data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json (added in commit bca97b98980869974388134e0b133d75e5782a55) records stage_a.md SHA-256 89a78d803b5cb5ea886b2402828aaff00b78497db0b3c0fe569c6c0ee5a879d1, but the committed stage_a.md (git blob e97d35fe, Stage A commit 6ebb511e4b1bc4d6d0b9f0103cf1f95519f7eaae) hashes to 826f07707a6fdd1583b815ba6b80ad99bd8a71d57d03ac05766ed2a0a4cd0322; scripts/grixis_m6_bundle_check.py rejects the J bundle ('Stage A source diverged from separately sealed byte commitment'). Sealed evidence and checker deliberately not edited; owner decision required.",
+    "Only three genuine swaps (below the five-swap owner-presentation floor); RESEARCH_ONLY, not padded."
+  ],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "BLOCKED, not PASS. Within the 11 complete configurations in the pool (raw baseline, registry canonical export, the research candidate with three genuine swaps: +Necromancy -Persist (FLAGGED explicit owner keep), +Swiftfoot Boots -Lightning Greaves, +Malakir Rebirth // Malakir Mire -Bojuka Bog; owner-keeping alternatives A (Necromancy over Karlach, Fury of Avernus) and B (Necromancy over An Offer You Can't Refuse); the Pass C requested Goryo's Vengeance over Persist (retained alternative) and Seize the Day over Karlach (rejected); Kiki-Jiki, Mirror Breaker over Karlach (staged, adds three generic infinites); and the rejected Glasspool Mimic, Chrome Mox and Command Beacon probes) no configuration beats the research candidate on the bounded measures, but the certificate cannot pass because the J bundle is rejected on the Pass C Stage A seal mismatch and the candidate is RESEARCH_ONLY below the five-swap floor. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}

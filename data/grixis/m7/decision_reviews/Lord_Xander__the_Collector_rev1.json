@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Lord_Xander__the_Collector",
+  "canonical_baseline_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+  "canonical_baseline_logical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+  "commander_identity": {
+    "mechanical_plan": "Seven-mana UBR Lord Xander: ETB discards floor(hand/2), declared attack mills floor(library/2), dies sacrifices floor(nonland/2). Build now prioritizes Hellkite/Persist command-zone cheats, Goryo/Necromancy actual graveyard reanimation, Samut/Boots haste and owner-safe targeting, Irenicus persistent nonlegendary Xander, Syr Konrad damage on creature milling, and Bloodchief-Mindcrank on-theme close. Myriad tokens enter attacking without attack triggers, and odd Bruvac half mills leave one card.",
+    "protected_core": [
+      "Lord Xander, the Collector",
+      "Auton Soldier",
+      "Phantasmal Image",
+      "Cruel Calculations",
+      "Hall of Echoes",
+      "Bruvac the Grandiloquent",
+      "Fraying Sanity",
+      "Riverchurn Monument",
+      "Blade of Selves",
+      "Helm of the Host",
+      "Roaming Throne",
+      "Sakashima of a Thousand Faces",
+      "Spark Double",
+      "Molten Duplication",
+      "Saw in Half",
+      "Strionic Resonator",
+      "Feign Death",
+      "Animate Dead",
+      "Persist",
+      "Reanimate",
+      "Entomb",
+      "Duskmantle Guildmage",
+      "Mindcrank",
+      "Aggravated Assault",
+      "Sword of Feast and Famine",
+      "Bojuka Bog"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized, 16 Scryfall Game Changers in the exact revised physical 100. Combo finishes Mindcrank with Duskmantle/Bloodchief (Bloodchief requires three counters), Assault plus Sword combat-damage paid repeats, and commander trigger compression. No generic Breach/LED/Brain Freeze independent turbo requirement.",
+    "anti_homogenization": "Nine substitutions prioritize actual Xander zone access, command-zone haste, targetable clone/protection effects and mill/discard payoffs over an independent three-card Grixis Breach turbo engine. Retain premium tutors, interaction and colored mana consistency as necessary to deploy a seven-mana commander. Rejected top-end copy enchantments and more generic cEDH consultation shells do not replace the unique trigger plan."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Whole original 99 evaluated: 33 front lands, 2 each basic, premium fast mana and talismans, wheel plus Notion/Opposition/Bowmasters, five cheap target/recursion effects, all clone engines, Xander-mill payoffs, three separate backup combos, 8+ interaction cards. Nine selected cuts remove an unneeded independent Breach/LED/Brain Freeze trio, two generic draw-punish creatures, two redundant/conditional free counters, additive kicked Cacophony, and shroud equipment. Retained historic owner-add Hall of Echoes and owner-keep Persist, with new Hellkite/Courser paid interaction.",
+    "mana_base_and_curve": "Exact 100, 97 names; 33 conventional land front faces (2x Island/2x Swamp/2x Mountain) and one new Malakir Mire MDFC as a tapped black option, which increases conditional functional sources to 34 without removing Bojuka Bog. Core U/B/R fetch-dual-triome coverage unchanged; primary new double-red Hellkite and double-black Syr are paid 6/5 mana curve liabilities, offset by one/two-mana Bloodchief/Goryo/Samut/Malakir and seven-mana commander cheat lines. Lost LED burst is explicitly acknowledged, not hidden.",
+    "interaction_resilience": "Retain Force of Will, Fierce Guardianship, Mana Drain, Swan Song, An Offer You Cannot Refuse, Deflecting Swat, Chaos Warp, Cyclonic Rift, Deadly Rollick and Toxic Deluge. Cut Force of Negation (free only opponent turn) and Pact (upkeep 3UU risk) for Malakir death-return and Samut immediate haste. Swiftfoot hexproof rather than Greaves shroud permits owner targeting; graveyard hate still beats Necromancy/Goryo/Persist, so Bojuka Bog is preserved to fight opponents being milled.",
+    "weakest_slots": [
+      {
+        "card": "Lion's Eye Diamond",
+        "weakness": "Loses zero-mana burst and disables the old Breach/LED/Brain Freeze independent combo; six-mana 4RR hardcast is slower.",
+        "alternative_named": "Hellkite Courser",
+        "reasoning": "The final owner-approved exact 100 prioritizes Courser is nonlegendary and its entry puts the seven-mana commander from the command zone onto the battlefield with haste. Entomb plus retained Persist on Courser is a payable commander-access line. The tradeoff is paid by removing Lion's Eye Diamond."
+      },
+      {
+        "card": "Brain Freeze",
+        "weakness": "Five mana and BB increase the upper curve; removes part of the old Breach/LED loop.",
+        "alternative_named": "Syr Konrad, the Grim",
+        "reasoning": "The final owner-approved exact 100 prioritizes Each creature card milled by Xander from an opposing library triggers one damage to every opponent; damage scales with the actual creature count, not a fabricated unconditional win. The tradeoff is paid by removing Brain Freeze."
+      },
+      {
+        "card": "Underworld Breach",
+        "weakness": "One mana more than Persist, depends on graveyard permission, and enchantment removal may force an unwanted sacrifice.",
+        "alternative_named": "Necromancy",
+        "reasoning": "The final owner-approved exact 100 prioritizes Reanimates legendary Xander directly from the graveyard or a creature that Xander milled; when cast at instant timing the cleanup sacrifice can cause Xander to die. The tradeoff is paid by removing Underworld Breach."
+      },
+      {
+        "card": "Maddening Cacophony",
+        "weakness": "Ascension is inactive until three counters; replacing a kicked multiplayer half-mill spell costs a board-independent mass-mill route.",
+        "alternative_named": "Bloodchief Ascension",
+        "reasoning": "The final owner-approved exact 100 prioritizes After three legitimately earned quest counters, each opponent graveyard card creates life-loss triggers; joins retained Mindcrank as a commander-mill-compatible finish. The tradeoff is paid by removing Maddening Cacophony."
+      },
+      {
+        "card": "Notion Thief",
+        "weakness": "Loses the flash card-draw denial and direct Wheel of Fortune lock; needs Xander on the battlefield.",
+        "alternative_named": "Irenicus's Vile Duplication",
+        "reasoning": "The final owner-approved exact 100 prioritizes Four mana makes a persistent, flying, nonlegendary Xander; its entry discards and subsequent declared attacks mill without the legend-rule death. The tradeoff is paid by removing Notion Thief."
+      },
+      {
+        "card": "Orcish Bowmasters",
+        "weakness": "Temporary exile is not a dies trigger by itself; loses Bowmasters cheap creature removal and draw punishment.",
+        "alternative_named": "Goryo's Vengeance",
+        "reasoning": "The final owner-approved exact 100 prioritizes Two-mana instant reanimation of legendary Xander from the graveyard grants haste for an attack; sacrifice through retained Altar before delayed exile allows a dies trigger. The tradeoff is paid by removing Orcish Bowmasters."
+      },
+      {
+        "card": "Pact of Negation",
+        "weakness": "Loses zero-mana stack protection; Samut is creature-removal vulnerable and does not itself accelerate seven mana.",
+        "alternative_named": "Samut, Hazoret's Champion",
+        "reasoning": "The final owner-approved exact 100 prioritizes A current 2026 two-mana, 2/2 legendary creature grants haste to every controlled creature, letting Xander actually declare an attack on arrival. The tradeoff is paid by removing Pact of Negation."
+      },
+      {
+        "card": "Force of Negation",
+        "weakness": "Loses a free opponent-turn noncreature counter; Malakir returns tapped and asks the owner to leave Xander in graveyard.",
+        "alternative_named": "Malakir Rebirth // Malakir Mire",
+        "reasoning": "The final owner-approved exact 100 prioritizes A one-black instant shields Xander from ordinary destruction while yielding dies then new ETB, and the alternate face increases functional land access without cutting Bojuka Bog. The tradeoff is paid by removing Force of Negation."
+      },
+      {
+        "card": "Lightning Greaves",
+        "weakness": "Equipping costs one mana instead of zero; immediate haste requires that extra resource.",
+        "alternative_named": "Swiftfoot Boots",
+        "reasoning": "The final owner-approved exact 100 prioritizes Hexproof preserves opponent targeting protection while letting its owner target Xander with Helm, Blade, Irenicus, Saw in Half, Feign Death and Malakir. The tradeoff is paid by removing Lightning Greaves."
+      },
+      {
+        "card": "Riverchurn Monument",
+        "weakness": "The Monument has a one-time four-mana mill finisher after Xander attacks; Waste Not is cheaper but discard scales down after each Xander ETB.",
+        "alternative_named": "Waste Not",
+        "reasoning": "The Monument has a one-time four-mana mill finisher after Xander attacks; Waste Not is cheaper but discard scales down after each Xander ETB. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Karlach, Fury of Avernus",
+        "weakness": "Karlach creates an additional Xander declared attack, so late Kicked Rite is not a free upgrade at nine mana.",
+        "alternative_named": "Rite of Replication",
+        "reasoning": "Karlach creates an additional Xander declared attack, so late Kicked Rite is not a free upgrade at nine mana. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Hall of Echoes",
+        "weakness": "Hall is a colorless 5-mana commander copy that can attack if controlled since the turn began; replacing it loses a unique owner add.",
+        "alternative_named": "Phyrexian Tower",
+        "reasoning": "Hall is a colorless 5-mana commander copy that can attack if controlled since the turn began; replacing it loses a unique owner add. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Bojuka is the only maindeck graveyard exile, so the Malakir MDFC moves into a spell slot instead of overwriting it.",
+        "alternative_named": "Malakir Rebirth // Malakir Mire",
+        "reasoning": "Bojuka is the only maindeck graveyard exile, so the Malakir MDFC moves into a spell slot instead of overwriting it. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Persist",
+        "weakness": "Persist cannot target legendary Xander but can target nonlegendary Hellkite Courser, so it is consciously retained even with Necromancy.",
+        "alternative_named": "Necromancy",
+        "reasoning": "Persist cannot target legendary Xander but can target nonlegendary Hellkite Courser, so it is consciously retained even with Necromancy. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Sword of Feast and Famine",
+        "weakness": "The sword is a costly combat-damage requirement but directly enables payable Aggravated Assault Xander extra combats.",
+        "alternative_named": "Waste Not",
+        "reasoning": "The sword is a costly combat-damage requirement but directly enables payable Aggravated Assault Xander extra combats. Retain the stronger card after full-source role and actual physical alternative comparison."
+      }
+    ],
+    "current_baseline_strength": "Historical owner-approved Oct14 100 was a legitimate optimized clone/reanimation shell with 33 lands, free protection, Breach self-mill shortcut, alternate combos and deliberate Hall/Auton/Phantasmal/Cruel additions. This Rev1 supersedes only after Cory approved the full exact SHA de348618...; it is not an automatic de-approval of historical evidence or mathematical optimality.",
+    "candidate_pool_scope": "At least 25 substantive 2026 current Scryfall names including 9 selected and 16 rejected/retained, full original 99 and all 11 older PR #678 configurations, new 10/11/12-swap staged exact physical challengers, EDHREC commander optimized Clones/Reanimator Top/Inclusion and observed historic High-Synergy labels (not mislabeled as current lift), and off-ranking 2026 Samut/Courser/quest/MDFC synergies.",
+    "off_ranked_search_conclusion": "OFF-RANKED fresh October 2026 Samut universal haste, Hellkite/Persist commander-zone access, Goryo instant attack and Malakir spell-side land were compared with prior excluded Kiki/Seize, Rite, Echoing Assault, Kitten, Tower, Waste Not, Sneak/Beacon, Thassa, Anger and others. No additional candidate proved a superior full100 after losing command-zone resource reliability, repeating native Xander attacks, or necessary protection."
+  },
+  "candidate_sources": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json — Scryfall /cards/collection and /cards/named queried 2026-10-25 for all exact 97 names and off-ranking relevant additions; authoritative legality and Oracle.",
+    "https://edhrec.com/commanders/lord-xander-the-collector/clones — 2026-10-25 retrieval, unfiltered Clones 68 sample; observed historic High Synergy: Spark Double 63% inclusion/+54% synergy, Irenicus 43%/+40%, Syr Konrad 46%/+43%; these are not current EDHREC High Lift metrics.",
+    "https://edhrec.com/commanders/lord-xander-the-collector/reanimate — 2026-10-25 retrieval, historical small 38 decks; reanimation inclusion shows Necromancy/Sneak Attack and 39% Syr; sample and label limitations explicit.",
+    "https://edhrec.com/commanders/lord-xander-the-collector/optimized/clones — 2026-10-25 retrieved; 9 self-reported optimized Clones decks, small-sample top/high-lift discovery; no lift not actually observed was fabricated.",
+    "https://edhrec.com/commanders/lord-xander-the-collector/optimized/combo — 2026-10-25 retrieved; 11 user-bracketed lists, qualitative competitor discovery only.",
+    "OFF-RANKED 2026 card and rules search: Samut, Hazoret's Champion two-mana universal haste; Malakir black MDFC; Goryo legendary temporary return; Hellkite/Persist command-zone access; actual Scryfall receipt index.",
+    "data/grixis/m7/decision_reviews/Lord_Xander__the_Collector.json — prior PR #678 withdrawn historical three-swap research; not falsely transformed into passing M7 packet.",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/stage_a_seal_correction_v2_20261025.json — owner-authorized SHA provenance correction, original sealed evidence retained."
+  ],
+  "material_candidates": [
+    {
+      "card": "Hellkite Courser",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Lion's Eye Diamond, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Lion's Eye Diamond"
+      ],
+      "incumbent_opportunity_cost": "Loses zero-mana burst and disables the old Breach/LED/Brain Freeze independent combo; six-mana 4RR hardcast is slower.",
+      "commander_synergy": "Courser is nonlegendary and its entry puts the seven-mana commander from the command zone onto the battlefield with haste. Entomb plus retained Persist on Courser is a payable commander-access line.",
+      "adversarial_downside": "Loses zero-mana burst and disables the old Breach/LED/Brain Freeze independent combo; six-mana 4RR hardcast is slower.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Courser is nonlegendary and its entry puts the seven-mana commander from the command zone onto the battlefield with haste. Entomb plus retained Persist on Courser is a payable commander-access line. Countercase and opportunity cost: Loses zero-mana burst and disables the old Breach/LED/Brain Freeze independent combo; six-mana 4RR hardcast is slower.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Syr Konrad, the Grim",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Brain Freeze, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Brain Freeze"
+      ],
+      "incumbent_opportunity_cost": "Five mana and BB increase the upper curve; removes part of the old Breach/LED loop.",
+      "commander_synergy": "Each creature card milled by Xander from an opposing library triggers one damage to every opponent; damage scales with the actual creature count, not a fabricated unconditional win.",
+      "adversarial_downside": "Five mana and BB increase the upper curve; removes part of the old Breach/LED loop.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Each creature card milled by Xander from an opposing library triggers one damage to every opponent; damage scales with the actual creature count, not a fabricated unconditional win. Countercase and opportunity cost: Five mana and BB increase the upper curve; removes part of the old Breach/LED loop.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Necromancy",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Underworld Breach, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Underworld Breach"
+      ],
+      "incumbent_opportunity_cost": "One mana more than Persist, depends on graveyard permission, and enchantment removal may force an unwanted sacrifice.",
+      "commander_synergy": "Reanimates legendary Xander directly from the graveyard or a creature that Xander milled; when cast at instant timing the cleanup sacrifice can cause Xander to die.",
+      "adversarial_downside": "One mana more than Persist, depends on graveyard permission, and enchantment removal may force an unwanted sacrifice.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Reanimates legendary Xander directly from the graveyard or a creature that Xander milled; when cast at instant timing the cleanup sacrifice can cause Xander to die. Countercase and opportunity cost: One mana more than Persist, depends on graveyard permission, and enchantment removal may force an unwanted sacrifice.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Bloodchief Ascension",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Maddening Cacophony, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Maddening Cacophony"
+      ],
+      "incumbent_opportunity_cost": "Ascension is inactive until three counters; replacing a kicked multiplayer half-mill spell costs a board-independent mass-mill route.",
+      "commander_synergy": "After three legitimately earned quest counters, each opponent graveyard card creates life-loss triggers; joins retained Mindcrank as a commander-mill-compatible finish.",
+      "adversarial_downside": "Ascension is inactive until three counters; replacing a kicked multiplayer half-mill spell costs a board-independent mass-mill route.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: After three legitimately earned quest counters, each opponent graveyard card creates life-loss triggers; joins retained Mindcrank as a commander-mill-compatible finish. Countercase and opportunity cost: Ascension is inactive until three counters; replacing a kicked multiplayer half-mill spell costs a board-independent mass-mill route.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Irenicus's Vile Duplication",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Notion Thief, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Notion Thief"
+      ],
+      "incumbent_opportunity_cost": "Loses the flash card-draw denial and direct Wheel of Fortune lock; needs Xander on the battlefield.",
+      "commander_synergy": "Four mana makes a persistent, flying, nonlegendary Xander; its entry discards and subsequent declared attacks mill without the legend-rule death.",
+      "adversarial_downside": "Loses the flash card-draw denial and direct Wheel of Fortune lock; needs Xander on the battlefield.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Four mana makes a persistent, flying, nonlegendary Xander; its entry discards and subsequent declared attacks mill without the legend-rule death. Countercase and opportunity cost: Loses the flash card-draw denial and direct Wheel of Fortune lock; needs Xander on the battlefield.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Goryo's Vengeance",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Orcish Bowmasters, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Orcish Bowmasters"
+      ],
+      "incumbent_opportunity_cost": "Temporary exile is not a dies trigger by itself; loses Bowmasters cheap creature removal and draw punishment.",
+      "commander_synergy": "Two-mana instant reanimation of legendary Xander from the graveyard grants haste for an attack; sacrifice through retained Altar before delayed exile allows a dies trigger.",
+      "adversarial_downside": "Temporary exile is not a dies trigger by itself; loses Bowmasters cheap creature removal and draw punishment.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Two-mana instant reanimation of legendary Xander from the graveyard grants haste for an attack; sacrifice through retained Altar before delayed exile allows a dies trigger. Countercase and opportunity cost: Temporary exile is not a dies trigger by itself; loses Bowmasters cheap creature removal and draw punishment.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Samut, Hazoret's Champion",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Pact of Negation, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Pact of Negation"
+      ],
+      "incumbent_opportunity_cost": "Loses zero-mana stack protection; Samut is creature-removal vulnerable and does not itself accelerate seven mana.",
+      "commander_synergy": "A current 2026 two-mana, 2/2 legendary creature grants haste to every controlled creature, letting Xander actually declare an attack on arrival.",
+      "adversarial_downside": "Loses zero-mana stack protection; Samut is creature-removal vulnerable and does not itself accelerate seven mana.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: A current 2026 two-mana, 2/2 legendary creature grants haste to every controlled creature, letting Xander actually declare an attack on arrival. Countercase and opportunity cost: Loses zero-mana stack protection; Samut is creature-removal vulnerable and does not itself accelerate seven mana.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Malakir Rebirth // Malakir Mire",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Force of Negation, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Force of Negation"
+      ],
+      "incumbent_opportunity_cost": "Loses a free opponent-turn noncreature counter; Malakir returns tapped and asks the owner to leave Xander in graveyard.",
+      "commander_synergy": "A one-black instant shields Xander from ordinary destruction while yielding dies then new ETB, and the alternate face increases functional land access without cutting Bojuka Bog.",
+      "adversarial_downside": "Loses a free opponent-turn noncreature counter; Malakir returns tapped and asks the owner to leave Xander in graveyard.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: A one-black instant shields Xander from ordinary destruction while yielding dies then new ETB, and the alternate face increases functional land access without cutting Bojuka Bog. Countercase and opportunity cost: Loses a free opponent-turn noncreature counter; Malakir returns tapped and asks the owner to leave Xander in graveyard.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Swiftfoot Boots",
+      "source": "Fresh 2026-10-25 Scryfall selected Oracle and commander identity mechanics; current EDHREC clones/reanimator research.",
+      "role": "Lord Xander commander-first engine alternative against Lightning Greaves, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Lightning Greaves"
+      ],
+      "incumbent_opportunity_cost": "Equipping costs one mana instead of zero; immediate haste requires that extra resource.",
+      "commander_synergy": "Hexproof preserves opponent targeting protection while letting its owner target Xander with Helm, Blade, Irenicus, Saw in Half, Feign Death and Malakir.",
+      "adversarial_downside": "Equipping costs one mana instead of zero; immediate haste requires that extra resource.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Hexproof preserves opponent targeting protection while letting its owner target Xander with Helm, Blade, Irenicus, Saw in Half, Feign Death and Malakir. Countercase and opportunity cost: Equipping costs one mana instead of zero; immediate haste requires that extra resource.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Waste Not",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Riverchurn Monument, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Riverchurn Monument"
+      ],
+      "incumbent_opportunity_cost": "Late Xander entries quickly reduce a single opponent hand, whereas two-mana Monument can finish a half-milled library via its one-time exhaust.",
+      "commander_synergy": "Discard trigger payoff and Wheel of Fortune resource engine; useful if a hand-denial build is prioritized.",
+      "adversarial_downside": "Late Xander entries quickly reduce a single opponent hand, whereas two-mana Monument can finish a half-milled library via its one-time exhaust.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Discard trigger payoff and Wheel of Fortune resource engine; useful if a hand-denial build is prioritized. Countercase and opportunity cost: Late Xander entries quickly reduce a single opponent hand, whereas two-mana Monument can finish a half-milled library via its one-time exhaust.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Rite of Replication",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Karlach, Fury of Avernus, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Karlach, Fury of Avernus"
+      ],
+      "incumbent_opportunity_cost": "Nine mana kicker is scarce with a seven-mana commander, and replacing Karlach removes a repeatable extra-combat attack trigger.",
+      "commander_synergy": "At four mana makes an ETB/death legend-rule copy; nine-mana kicked mode makes five clones and numerous triggers.",
+      "adversarial_downside": "Nine mana kicker is scarce with a seven-mana commander, and replacing Karlach removes a repeatable extra-combat attack trigger.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: At four mana makes an ETB/death legend-rule copy; nine-mana kicked mode makes five clones and numerous triggers. Countercase and opportunity cost: Nine mana kicker is scarce with a seven-mana commander, and replacing Karlach removes a repeatable extra-combat attack trigger.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Echoing Assault",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Swan Song, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Swan Song"
+      ],
+      "incumbent_opportunity_cost": "Five-mana enchantment waits for Xander to attack and cutting Swan Song weakens one-mana protection; riskier twelve-swap portfolio rejected.",
+      "commander_synergy": "Each declared Xander attack can make a 1/1 Xander with ETB and legend-rule dies triggers; attacking token does not generate attack trigger.",
+      "adversarial_downside": "Five-mana enchantment waits for Xander to attack and cutting Swan Song weakens one-mana protection; riskier twelve-swap portfolio rejected.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Each declared Xander attack can make a 1/1 Xander with ETB and legend-rule dies triggers; attacking token does not generate attack trigger. Countercase and opportunity cost: Five-mana enchantment waits for Xander to attack and cutting Swan Song weakens one-mana protection; riskier twelve-swap portfolio rejected.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Displacer Kitten",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Force of Negation, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Force of Negation"
+      ],
+      "incumbent_opportunity_cost": "Diminishing hand-discard and weaker early answer interaction than protection; four-mana fragile creature needs Xander in play.",
+      "commander_synergy": "Can blink Xander off a noncreature spell for another discard-half ETB, and can protect or reuse artifacts.",
+      "adversarial_downside": "Diminishing hand-discard and weaker early answer interaction than protection; four-mana fragile creature needs Xander in play.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Can blink Xander off a noncreature spell for another discard-half ETB, and can protect or reuse artifacts. Countercase and opportunity cost: Diminishing hand-discard and weaker early answer interaction than protection; four-mana fragile creature needs Xander in play.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Kaya's Ghostform",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Pact of Negation, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Pact of Negation"
+      ],
+      "incumbent_opportunity_cost": "Visible Aura can be removed and lacks the Malakir MDFC land option; low incremental value after Feign Death and selected Malakir.",
+      "commander_synergy": "One-black permanent death/exile return protection would yield ETB on a commander return.",
+      "adversarial_downside": "Visible Aura can be removed and lacks the Malakir MDFC land option; low incremental value after Feign Death and selected Malakir.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: One-black permanent death/exile return protection would yield ETB on a commander return. Countercase and opportunity cost: Visible Aura can be removed and lacks the Malakir MDFC land option; low incremental value after Feign Death and selected Malakir.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Phyrexian Tower",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Hall of Echoes, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Hall of Echoes"
+      ],
+      "incumbent_opportunity_cost": "Hall of Echoes is a previously owner-added unique attacker-copy engine; Altar of Dementia already grants sacrifice access.",
+      "commander_synergy": "Land sacrifice outlet makes a real Xander dies trigger and pays BB to help another graveyard spell.",
+      "adversarial_downside": "Hall of Echoes is a previously owner-added unique attacker-copy engine; Altar of Dementia already grants sacrifice access.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Land sacrifice outlet makes a real Xander dies trigger and pays BB to help another graveyard spell. Countercase and opportunity cost: Hall of Echoes is a previously owner-added unique attacker-copy engine; Altar of Dementia already grants sacrifice access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Sneak Attack",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Brainstorm, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Brainstorm"
+      ],
+      "incumbent_opportunity_cost": "Commander begins in command zone; needs Command Beacon/other hand access and another material slot, versus Courser acting directly.",
+      "commander_synergy": "Repeated one-red hasty cheat for Xander if commander card can actually be put in hand.",
+      "adversarial_downside": "Commander begins in command zone; needs Command Beacon/other hand access and another material slot, versus Courser acting directly.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Repeated one-red hasty cheat for Xander if commander card can actually be put in hand. Countercase and opportunity cost: Commander begins in command zone; needs Command Beacon/other hand access and another material slot, versus Courser acting directly.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Command Beacon",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Hall of Echoes, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Hall of Echoes"
+      ],
+      "incumbent_opportunity_cost": "Sacrificing a colorless land lowers mana resources and the two-card dependency underperforms Hellkite Courser.",
+      "commander_synergy": "Moving Xander from command zone to hand permits Sneak Attack to put it onto the battlefield.",
+      "adversarial_downside": "Sacrificing a colorless land lowers mana resources and the two-card dependency underperforms Hellkite Courser.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Moving Xander from command zone to hand permits Sneak Attack to put it onto the battlefield. Countercase and opportunity cost: Sacrificing a colorless land lowers mana resources and the two-card dependency underperforms Hellkite Courser.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Flameshadow Conjuring",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Swan Song, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Swan Song"
+      ],
+      "incumbent_opportunity_cost": "Four-mana enchantment plus red needs Xander already entering and exposes a counterspell slot; compact clones already cover.",
+      "commander_synergy": "Can pay red as Xander enters to make a temporary legendary token, triggering ETB and potentially legend-rule death.",
+      "adversarial_downside": "Four-mana enchantment plus red needs Xander already entering and exposes a counterspell slot; compact clones already cover.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Can pay red as Xander enters to make a temporary legendary token, triggering ETB and potentially legend-rule death. Countercase and opportunity cost: Four-mana enchantment plus red needs Xander already entering and exposes a counterspell slot; compact clones already cover.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Jaxis, the Troublemaker",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Karlach, Fury of Avernus, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Karlach, Fury of Avernus"
+      ],
+      "incumbent_opportunity_cost": "Tap activation requires Jaxis to survive and Karlach supplies a clean extra Xander attack; slower recurring engine.",
+      "commander_synergy": "Four-mana creature activated with one red and a discard to copy Xander for an ETB/death event.",
+      "adversarial_downside": "Tap activation requires Jaxis to survive and Karlach supplies a clean extra Xander attack; slower recurring engine.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Four-mana creature activated with one red and a discard to copy Xander for an ETB/death event. Countercase and opportunity cost: Tap activation requires Jaxis to survive and Karlach supplies a clean extra Xander attack; slower recurring engine.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Flesh Duplicate",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Spark Double, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Spark Double"
+      ],
+      "incumbent_opportunity_cost": "Blue-blue is constrained and Spark Double provides nonlegendary persistent Xander; no reason to replace protected clone.",
+      "commander_synergy": "Two-blue clone with vanishing can copy Xander and generate ETB/legend death.",
+      "adversarial_downside": "Blue-blue is constrained and Spark Double provides nonlegendary persistent Xander; no reason to replace protected clone.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Two-blue clone with vanishing can copy Xander and generate ETB/legend death. Countercase and opportunity cost: Blue-blue is constrained and Spark Double provides nonlegendary persistent Xander; no reason to replace protected clone.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Thassa, Deep-Dwelling",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Swiftfoot Boots, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Swiftfoot Boots"
+      ],
+      "incumbent_opportunity_cost": "Blink removes Xander during combat if mistimed, repeats diminishing discard and forgoes instant haste/protection from Boots.",
+      "commander_synergy": "End-step blink Xander provides repeated ETB and helps avoid damage-based destruction.",
+      "adversarial_downside": "Blink removes Xander during combat if mistimed, repeats diminishing discard and forgoes instant haste/protection from Boots.",
+      "judgment": "REJECT",
+      "reason": "REJECT: End-step blink Xander provides repeated ETB and helps avoid damage-based destruction. Countercase and opportunity cost: Blink removes Xander during combat if mistimed, repeats diminishing discard and forgoes instant haste/protection from Boots.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Anger",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Hall of the Bandit Lord, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Hall of the Bandit Lord"
+      ],
+      "incumbent_opportunity_cost": "Competes with Entomb for Courser and has conditional Mountain dependence; Hall supplies immediate haste as land.",
+      "commander_synergy": "Entomb can put Anger into graveyard to grant global haste with Mountain, adding a graveyard-based attack route.",
+      "adversarial_downside": "Competes with Entomb for Courser and has conditional Mountain dependence; Hall supplies immediate haste as land.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Entomb can put Anger into graveyard to grant global haste with Mountain, adding a graveyard-based attack route. Countercase and opportunity cost: Competes with Entomb for Courser and has conditional Mountain dependence; Hall supplies immediate haste as land.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Rising of the Day",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Pact of Negation, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Pact of Negation"
+      ],
+      "incumbent_opportunity_cost": "Samut has the same crucial haste at two mana and can pressure early Bloodchief quest counters, albeit fragile.",
+      "commander_synergy": "A three-mana enchantment gives creatures haste and +1/+0 to legendary Xander and Samut.",
+      "adversarial_downside": "Samut has the same crucial haste at two mana and can pressure early Bloodchief quest counters, albeit fragile.",
+      "judgment": "REJECT",
+      "reason": "REJECT: A three-mana enchantment gives creatures haste and +1/+0 to legendary Xander and Samut. Countercase and opportunity cost: Samut has the same crucial haste at two mana and can pressure early Bloodchief quest counters, albeit fragile.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Geode Golem",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Helm of the Host, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Helm of the Host"
+      ],
+      "incumbent_opportunity_cost": "Requires successful creature combat from a five-mana 5/3 and more setup than Courser; loses permanent repeating Helm clones.",
+      "commander_synergy": "A trample creature that connects can cast Xander from the command zone free of normal base mana.",
+      "adversarial_downside": "Requires successful creature combat from a five-mana 5/3 and more setup than Courser; loses permanent repeating Helm clones.",
+      "judgment": "REJECT",
+      "reason": "REJECT: A trample creature that connects can cast Xander from the command zone free of normal base mana. Countercase and opportunity cost: Requires successful creature combat from a five-mana 5/3 and more setup than Courser; loses permanent repeating Helm clones.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "The Master of Lake-town",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Syr Konrad, the Grim, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Syr Konrad, the Grim"
+      ],
+      "incumbent_opportunity_cost": "It also mills its controller from Ancient Tomb/Reanimate damage and asks for another damage engine; Konrad directly turns Xander mill into damage.",
+      "commander_synergy": "Three-mana effect mills whenever players lose life, potentially feeding Mindcrank and Bloodchief interactions.",
+      "adversarial_downside": "It also mills its controller from Ancient Tomb/Reanimate damage and asks for another damage engine; Konrad directly turns Xander mill into damage.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Three-mana effect mills whenever players lose life, potentially feeding Mindcrank and Bloodchief interactions. Countercase and opportunity cost: It also mills its controller from Ancient Tomb/Reanimate damage and asks for another damage engine; Konrad directly turns Xander mill into damage.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    },
+    {
+      "card": "Panharmonicon",
+      "source": "Fresh Scryfall rules/legality plus EDHREC top/lift, off-ranking candidate research and exact physical competing packages.",
+      "role": "Lord Xander commander-first engine alternative against Strionic Resonator, with source Oracle and full-100 opportunity-cost comparison.",
+      "named_cuts": [
+        "Strionic Resonator"
+      ],
+      "incumbent_opportunity_cost": "Strionic Resonator copies entry, attack OR dies with payable generic mana, giving better trigger-role flexibility.",
+      "commander_synergy": "Four-mana artifact doubles only Xander entry triggers and other artifact/creature ETBs.",
+      "adversarial_downside": "Strionic Resonator copies entry, attack OR dies with payable generic mana, giving better trigger-role flexibility.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Four-mana artifact doubles only Xander entry triggers and other artifact/creature ETBs. Countercase and opportunity cost: Strionic Resonator copies entry, attack OR dies with payable generic mana, giving better trigger-role flexibility.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+        "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Hellkite Courser",
+      "Syr Konrad, the Grim",
+      "Necromancy",
+      "Bloodchief Ascension",
+      "Irenicus's Vile Duplication",
+      "Goryo's Vengeance",
+      "Samut, Hazoret's Champion",
+      "Malakir Rebirth // Malakir Mire",
+      "Swiftfoot Boots"
+    ],
+    "cuts": [
+      "Lion's Eye Diamond",
+      "Brain Freeze",
+      "Underworld Breach",
+      "Maddening Cacophony",
+      "Notion Thief",
+      "Orcish Bowmasters",
+      "Pact of Negation",
+      "Force of Negation",
+      "Lightning Greaves"
+    ],
+    "coherent_package_tradeoff": "Nine real one-for-one upgrades shift resources from LED/Breach/Brain Freeze independent storm, generic draw punishment and expensive-upkeep/opponent-turn counters into Xander haste, command-zone cheat via nonlegendary Courser and retained Persist, flash/instant grave recursion, hexproof allowing own targeting, MDFC death-return and two commander-mill finishers. Losses: faster independent combo, early Bowmasters interaction, Notion/Wheel lock, Pact emergency permission, and original shroud zero-equip. The final 33 lands plus Malakir option preserve colors and Bojuka hate."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Lion's Eye Diamond",
+        "weakness": "Loses zero-mana burst and disables the old Breach/LED/Brain Freeze independent combo; six-mana 4RR hardcast is slower.",
+        "alternative_named": "Hellkite Courser",
+        "reasoning": "The final owner-approved exact 100 prioritizes Courser is nonlegendary and its entry puts the seven-mana commander from the command zone onto the battlefield with haste. Entomb plus retained Persist on Courser is a payable commander-access line. The tradeoff is paid by removing Lion's Eye Diamond."
+      },
+      {
+        "card": "Brain Freeze",
+        "weakness": "Five mana and BB increase the upper curve; removes part of the old Breach/LED loop.",
+        "alternative_named": "Syr Konrad, the Grim",
+        "reasoning": "The final owner-approved exact 100 prioritizes Each creature card milled by Xander from an opposing library triggers one damage to every opponent; damage scales with the actual creature count, not a fabricated unconditional win. The tradeoff is paid by removing Brain Freeze."
+      },
+      {
+        "card": "Underworld Breach",
+        "weakness": "One mana more than Persist, depends on graveyard permission, and enchantment removal may force an unwanted sacrifice.",
+        "alternative_named": "Necromancy",
+        "reasoning": "The final owner-approved exact 100 prioritizes Reanimates legendary Xander directly from the graveyard or a creature that Xander milled; when cast at instant timing the cleanup sacrifice can cause Xander to die. The tradeoff is paid by removing Underworld Breach."
+      },
+      {
+        "card": "Maddening Cacophony",
+        "weakness": "Ascension is inactive until three counters; replacing a kicked multiplayer half-mill spell costs a board-independent mass-mill route.",
+        "alternative_named": "Bloodchief Ascension",
+        "reasoning": "The final owner-approved exact 100 prioritizes After three legitimately earned quest counters, each opponent graveyard card creates life-loss triggers; joins retained Mindcrank as a commander-mill-compatible finish. The tradeoff is paid by removing Maddening Cacophony."
+      },
+      {
+        "card": "Notion Thief",
+        "weakness": "Loses the flash card-draw denial and direct Wheel of Fortune lock; needs Xander on the battlefield.",
+        "alternative_named": "Irenicus's Vile Duplication",
+        "reasoning": "The final owner-approved exact 100 prioritizes Four mana makes a persistent, flying, nonlegendary Xander; its entry discards and subsequent declared attacks mill without the legend-rule death. The tradeoff is paid by removing Notion Thief."
+      },
+      {
+        "card": "Orcish Bowmasters",
+        "weakness": "Temporary exile is not a dies trigger by itself; loses Bowmasters cheap creature removal and draw punishment.",
+        "alternative_named": "Goryo's Vengeance",
+        "reasoning": "The final owner-approved exact 100 prioritizes Two-mana instant reanimation of legendary Xander from the graveyard grants haste for an attack; sacrifice through retained Altar before delayed exile allows a dies trigger. The tradeoff is paid by removing Orcish Bowmasters."
+      },
+      {
+        "card": "Pact of Negation",
+        "weakness": "Loses zero-mana stack protection; Samut is creature-removal vulnerable and does not itself accelerate seven mana.",
+        "alternative_named": "Samut, Hazoret's Champion",
+        "reasoning": "The final owner-approved exact 100 prioritizes A current 2026 two-mana, 2/2 legendary creature grants haste to every controlled creature, letting Xander actually declare an attack on arrival. The tradeoff is paid by removing Pact of Negation."
+      },
+      {
+        "card": "Force of Negation",
+        "weakness": "Loses a free opponent-turn noncreature counter; Malakir returns tapped and asks the owner to leave Xander in graveyard.",
+        "alternative_named": "Malakir Rebirth // Malakir Mire",
+        "reasoning": "The final owner-approved exact 100 prioritizes A one-black instant shields Xander from ordinary destruction while yielding dies then new ETB, and the alternate face increases functional land access without cutting Bojuka Bog. The tradeoff is paid by removing Force of Negation."
+      },
+      {
+        "card": "Lightning Greaves",
+        "weakness": "Equipping costs one mana instead of zero; immediate haste requires that extra resource.",
+        "alternative_named": "Swiftfoot Boots",
+        "reasoning": "The final owner-approved exact 100 prioritizes Hexproof preserves opponent targeting protection while letting its owner target Xander with Helm, Blade, Irenicus, Saw in Half, Feign Death and Malakir. The tradeoff is paid by removing Lightning Greaves."
+      },
+      {
+        "card": "Riverchurn Monument",
+        "weakness": "The Monument has a one-time four-mana mill finisher after Xander attacks; Waste Not is cheaper but discard scales down after each Xander ETB.",
+        "alternative_named": "Waste Not",
+        "reasoning": "The Monument has a one-time four-mana mill finisher after Xander attacks; Waste Not is cheaper but discard scales down after each Xander ETB. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Karlach, Fury of Avernus",
+        "weakness": "Karlach creates an additional Xander declared attack, so late Kicked Rite is not a free upgrade at nine mana.",
+        "alternative_named": "Rite of Replication",
+        "reasoning": "Karlach creates an additional Xander declared attack, so late Kicked Rite is not a free upgrade at nine mana. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Hall of Echoes",
+        "weakness": "Hall is a colorless 5-mana commander copy that can attack if controlled since the turn began; replacing it loses a unique owner add.",
+        "alternative_named": "Phyrexian Tower",
+        "reasoning": "Hall is a colorless 5-mana commander copy that can attack if controlled since the turn began; replacing it loses a unique owner add. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Bojuka is the only maindeck graveyard exile, so the Malakir MDFC moves into a spell slot instead of overwriting it.",
+        "alternative_named": "Malakir Rebirth // Malakir Mire",
+        "reasoning": "Bojuka is the only maindeck graveyard exile, so the Malakir MDFC moves into a spell slot instead of overwriting it. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Persist",
+        "weakness": "Persist cannot target legendary Xander but can target nonlegendary Hellkite Courser, so it is consciously retained even with Necromancy.",
+        "alternative_named": "Necromancy",
+        "reasoning": "Persist cannot target legendary Xander but can target nonlegendary Hellkite Courser, so it is consciously retained even with Necromancy. Retain the stronger card after full-source role and actual physical alternative comparison."
+      },
+      {
+        "card": "Sword of Feast and Famine",
+        "weakness": "The sword is a costly combat-damage requirement but directly enables payable Aggravated Assault Xander extra combats.",
+        "alternative_named": "Waste Not",
+        "reasoning": "The sword is a costly combat-damage requirement but directly enables payable Aggravated Assault Xander extra combats. Retain the stronger card after full-source role and actual physical alternative comparison."
+      }
+    ],
+    "off_ranked_opportunities": "Fresh off-ranking Samut from October 2026, Hellkite/Persist targeted entry, Bloodchief quest/Mindcrank, Malakir MDFC, and Irenicus permanent nonlegendary clone were compared against EDHREC inclusion and actual High-Synergy labels; no obligation to add every popular card.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument"
+        ],
+        "result_and_rationale": "Add Waste Not for early discard conversion and Wheel mana/draw while increasing commander-specific payoff density beyond nine swaps. Rejected after full physical 100 because Removing Riverchurn Monument loses the compact two-mana artifact whose once-per-game exhaust converts a prior Xander half-library attack into depletion; Waste Not needs discard when hands often run low."
+      },
+      {
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not",
+          "Rite of Replication"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument",
+          "Karlach, Fury of Avernus"
+        ],
+        "result_and_rationale": "Use extra discard and Rite of Replication clone bursts as a coherent heavier upper-game package, optimizing burst rather than immediate combat readiness. Rejected after full physical 100 because Removing Karlach on top of Riverchurn loses a second declared Xander attack and the reliable mill-finish exhaust; kicked Rite costs nine mana on top of commander seven, and four-mana mode needs an existing Xander."
+      },
+      {
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not",
+          "Rite of Replication",
+          "Echoing Assault"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument",
+          "Karlach, Fury of Avernus",
+          "Swan Song"
+        ],
+        "result_and_rationale": "Also deploy Echoing Assault to make a temporary Xander ETB/legend-death on repeated attacks, pushing trigger density even higher. Rejected after full physical 100 because Cutting Swan Song additionally removes cheap protection from an already reduced counter suite, while the five-mana Echoing Assault waits until Xander survives to declare an attack. Worse low-turn protection and more high-end congestion."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Older PR #678 proposed Necromancy over Persist as owner-keep cut and Malakir over Bojuka as grave-hate loss. This revision adds Hellkite so Persist is now a real commander-access reanimation target; Necromancy instead displaces Underworld Breach. Malakir is paid by Force of Negation while keeping Bojuka. Boots replaces Greaves by supported own-targeting analysis; 10/11/12 higher-count alternatives preserve decisions.",
+    "strongest_argument_against_baseline": "Breach/LED/Brain Freeze can win with a deterministic commander-independent line using cheap spells and extra protection; removing it plus Pact and Force of Negation reduces fast goldfish and stack interaction. It could be strongest in hostile combo pods, but it makes the seven-mana Xander a side show and does not capitalize on his printed attack/dies triggers.",
+    "evidence_based_answer": "At Bracket 4 optimized but commander-first, the nine replacements develop real Xander zone access, haste, persistent clones and mill-to-life conversion with retained Mindcrank, while retaining five-plus key counters and Altar/Sword combat engines. No randomized multiplayer win rate or total mathematical optimum claimed."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After nine swaps, re-challenged all 33 land slots and the retained Hall of Echoes owner copy, Bojuka Bog against graveyard exploitation, Persist targetable Courser versus Necromancy and Kaya, Karlach and Sword/Assault paid extra combats, Riverchurn Monument late library finishing, Rhystic/One Ring dependable draw, and 5+ remaining stack/protection answers. Three full 100 alternatives with ten, eleven and twelve substitutions were actually composed and SHA-bound; they suffer rising copy top end and loss of direct Xander mill finishing or cheap interaction.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Riverchurn Monument",
+        "challenger": "Waste Not",
+        "disposition": "RETAIN_ALTERNATIVE",
+        "tradeoff": "A two-mana mill-repeat and one-shot graveyard-sized exhaust can finish Xander-targeted libraries even with empty opponent hands. Waste Not benefits early discard but its trigger floor declines after the first Xander ETB and offers no mill completion."
+      },
+      {
+        "incumbent": "Karlach, Fury of Avernus",
+        "challenger": "Rite of Replication",
+        "disposition": "RETAIN_ALTERNATIVE",
+        "tradeoff": "Karlach grants a second actual declared Xander attack when its combat trigger resolves. Rite is flexible one-copy at four mana but costly kicked at nine, and legend-copy death does not create a new attack trigger."
+      },
+      {
+        "incumbent": "Hall of Echoes",
+        "challenger": "Phyrexian Tower",
+        "disposition": "RETAIN_ALTERNATIVE",
+        "tradeoff": "The owner-added Hall becomes a second potential declared Xander attacker after five-mana activation; Tower is an efficient sacrificial black source but Altar of Dementia already covers command-zone death routing."
+      },
+      {
+        "incumbent": "Persist",
+        "challenger": "Kaya's Ghostform",
+        "disposition": "RETAIN_ALTERNATIVE",
+        "tradeoff": "Persist recurs nonlegendary Hellkite Courser after Entomb to put Xander directly from command zone with haste. Kaya protects actual Xander already in play but is enchantment vulnerable and has no MDFC land side."
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rev1_alt10_waste_not_vs_monument.txt",
+        "sha256": "46814512c3107cd7a68017a60241e3ef3f052e2f766bcf73d57b9df85d82c92d",
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument"
+        ],
+        "case_for_extra_swaps": "Add Waste Not for early discard conversion and Wheel mana/draw while increasing commander-specific payoff density beyond nine swaps.",
+        "why_not_selected": "Removing Riverchurn Monument loses the compact two-mana artifact whose once-per-game exhaust converts a prior Xander half-library attack into depletion; Waste Not needs discard when hands often run low."
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rev1_alt11_riskier_clone_package.txt",
+        "sha256": "b57eae60e33e1a544ca3348f5e8e1cd68c2be78d9442b24d243a608579c7653c",
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not",
+          "Rite of Replication"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument",
+          "Karlach, Fury of Avernus"
+        ],
+        "case_for_extra_swaps": "Use extra discard and Rite of Replication clone bursts as a coherent heavier upper-game package, optimizing burst rather than immediate combat readiness.",
+        "why_not_selected": "Removing Karlach on top of Riverchurn loses a second declared Xander attack and the reliable mill-finish exhaust; kicked Rite costs nine mana on top of commander seven, and four-mana mode needs an existing Xander."
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rev1_alt12_extra_topend.txt",
+        "sha256": "3fe4c6ed1ad3a5113dc1d1594aff3c9837c2f113efdab4692b88b1ccba3d9278",
+        "adds": [
+          "Hellkite Courser",
+          "Syr Konrad, the Grim",
+          "Necromancy",
+          "Bloodchief Ascension",
+          "Irenicus's Vile Duplication",
+          "Goryo's Vengeance",
+          "Samut, Hazoret's Champion",
+          "Malakir Rebirth // Malakir Mire",
+          "Swiftfoot Boots",
+          "Waste Not",
+          "Rite of Replication",
+          "Echoing Assault"
+        ],
+        "cuts": [
+          "Lion's Eye Diamond",
+          "Brain Freeze",
+          "Underworld Breach",
+          "Maddening Cacophony",
+          "Notion Thief",
+          "Orcish Bowmasters",
+          "Pact of Negation",
+          "Force of Negation",
+          "Lightning Greaves",
+          "Riverchurn Monument",
+          "Karlach, Fury of Avernus",
+          "Swan Song"
+        ],
+        "case_for_extra_swaps": "Also deploy Echoing Assault to make a temporary Xander ETB/legend-death on repeated attacks, pushing trigger density even higher.",
+        "why_not_selected": "Cutting Swan Song additionally removes cheap protection from an already reduced counter suite, while the five-mana Echoing Assault waits until Xander survives to declare an attack. Worse low-turn protection and more high-end congestion."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "Nine reflects the better whole-100 card mix, not the five-swap minimum or any upper limit. The strongest tenth (Waste Not over Riverchurn) loses an executable half-library follow-up once opponents have few discardable cards; the eleventh (Rite over Karlach) loses a native extra declared Xander attack and adds nine-mana kicker, and the twelfth (Echoing over Swan) erodes necessary early counter protection for a five-mana engine that needs Xander already attacking. Other candidate-specific tradeoffs are listed. Stop because remaining substitutions exchange unique commander engine, color access, or interaction reliability for redundant/delayed trigger density."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector_rev1.txt",
+    "sha256": "de348618961269083a44a3f3e05a7f0be7ddbd7e943da0ac82a115e5e4aeb6cd",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exactly 100 physical cards, 97 distinct names, only Island/Mountain/Swamp repeat twice, 33 front-face lands plus Malakir Mire option; 9 approved adds/cuts from SHA-bound October14 canonical, all selected names Scryfall Commander legal within Grixis, 16 Game Changers and no exception; full owner's 2026-10-25 SHA reproduced without normalization."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+      "tests/test_m7_lord_xander_rev1_exact.py — 14 prescribed P0/P1 source-paid positive/adversarial finite assertions; exact SHA and current Oracle names.",
+      "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/stage_a_seal_correction_v2_20261025.json — verified pinned source correction and unchanged original."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Mill",
+      "Clones",
+      "Reanimation"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}

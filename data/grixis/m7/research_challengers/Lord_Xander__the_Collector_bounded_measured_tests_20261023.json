@@ -1,0 +1,2402 @@
+{
+ "deck_id": "Lord_Xander__the_Collector",
+ "purpose": "Bounded finite measured tests requested by M6 Pass C (+Necromancy -Persist versus two-mana nonlegendary Auton recursion and two-mana Goryo's Vengeance haste burst; Seize the Day) plus Lightning Greaves vs Swiftfoot Boots self-targeting, Bojuka Bog vs Malakir Rebirth, and the deployment cost of the selected swaps and staged alternatives. Seeded goldfish deployment model and exhaustive rules-encoded scenario grids; not a game simulation, not a source-bound game-engine receipt and not a win rate.",
+ "scripts": {
+  "meas": "\"\"\"Bounded finite Pass C tests for Lord_Xander__the_Collector (Deck 30). Part A: seeded finite Monte Carlo goldfish of\ncommander deployment (seed 30, fixed N, on the play, no mulligans, no opponent, paired common random numbers: each\nchallenger replaces the cut card at the same library position). Part B: exhaustive finite rules-encoded scenario grids.\nNeither part is a win-rate simulation.\"\"\"\nimport json,re,random,itertools,collections\nW='/workspace/d30w/'\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==99\ndef swap(d,pairs):\n    d=d[:]\n    for a,c in pairs: d[d.index(c)]=a\n    return d\nNEC=(\"Necromancy\",\"Persist\"); BOOTS=(\"Swiftfoot Boots\",\"Lightning Greaves\"); MAL=(\"Malakir Rebirth // Malakir Mire\",\"Bojuka Bog\")\nFINAL=[NEC,BOOTS,MAL]\ndef key(a,c): return f\"plus_{a.split(' // ')[0]}_minus_{c}\".replace(' ','_').replace(\"'\",'').replace(',','')\nCFG={\"baseline\":base}\nfor a,c in FINAL: CFG[\"single_\"+key(a,c)]=swap(base,[(a,c)])\nCFG[\"candidate\"]=swap(base,FINAL)\nPROBES=[(\"Chrome Mox\",\"Talisman of Creativity\"),(\"Command Beacon\",\"Xander's Lounge\"),(\"Glasspool Mimic // Glasspool Shore\",\"Training Center\"),\n        (\"Kiki-Jiki, Mirror Breaker\",\"Karlach, Fury of Avernus\"),(\"Seize the Day\",\"Karlach, Fury of Avernus\")]\nfor a,c in PROBES: CFG[\"probe_on_candidate_\"+key(a,c)]=swap(CFG[\"candidate\"],[(a,c)] if c in CFG[\"candidate\"] else [])\nCFG[\"PassC_single_plus_Goryos_Vengeance_minus_Persist_on_baseline\"]=swap(base,[(\"Goryo's Vengeance\",\"Persist\")])\nCFG[\"alt_A_owner_keeps_Necromancy_minus_Karlach\"]=swap(base,[(\"Necromancy\",\"Karlach, Fury of Avernus\"),BOOTS,MAL])\nCFG[\"alt_B_owner_keeps_Necromancy_minus_An_Offer_You_Cant_Refuse\"]=swap(base,[(\"Necromancy\",\"An Offer You Can't Refuse\"),BOOTS,MAL])\n# ---- mana model\nANY=\"UBR\"\nLAND={\"Island\":(\"U\",0),\"Swamp\":(\"B\",0),\"Mountain\":(\"R\",0),\"Badlands\":(\"BR\",0),\"Blood Crypt\":(\"BR\",0),\"Steam Vents\":(\"UR\",0),\"Watery Grave\":(\"UB\",0),\n \"Underground Sea\":(\"UB\",0),\"Volcanic Island\":(\"UR\",0),\"Bloodstained Mire\":(ANY,0),\"Polluted Delta\":(ANY,0),\"Scalding Tarn\":(ANY,0),\"Marsh Flats\":(ANY,0),\n \"Flooded Strand\":(ANY,0),\"Prismatic Vista\":(ANY,0),\"Command Tower\":(ANY,0),\"Mana Confluence\":(ANY,0),\"City of Brass\":(ANY,0),\n \"Luxury Suite\":(\"BR\",0),\"Morphic Pool\":(\"UB\",0),\"Training Center\":(\"UR\",0),\"Haunted Ridge\":(\"BR\",\"ridge\"),\"Xander's Lounge\":(ANY,1),\n \"Bojuka Bog\":(\"B\",1),\"Malakir Rebirth // Malakir Mire\":(\"B\",1),\"Glasspool Mimic // Glasspool Shore\":(\"U\",1),\"Otawara, Soaring City\":(\"U\",0),\n \"Takenuma, Abandoned Mire\":(\"B\",0),\"Hall of Echoes\":(\"C\",0),\"Urza's Saga\":(\"C\",0),\"Command Beacon\":(\"C\",0),\"Hall of the Bandit Lord\":(\"H\",1),\"Ancient Tomb\":(\"CC\",0)}\nROCK={\"Sol Ring\":(1,[\"C\",\"C\"]),\"Arcane Signet\":(2,[ANY]),\"Talisman of Creativity\":(2,[\"UR\"]),\"Talisman of Dominance\":(2,[\"UB\"]),\"Talisman of Indulgence\":(2,[\"BR\"])}\nONESHOT={\"Mana Vault\":(1,[\"C\",\"C\",\"C\"]),\"Grim Monolith\":(2,[\"C\",\"C\",\"C\"])}\nHASTE_EQ={\"Lightning Greaves\":0,\"Swiftfoot Boots\":1}\ndef pay(srcs,need_col,g):\n    s=srcs[:]\n    if len(s)<len(need_col)+g: return None\n    order=sorted(range(len(s)),key=lambda j:len(s[j]) if s[j] not in(\"C\",\"H\") else 0)\n    used=set()\n    def dfs(i,used):\n        if i==len(need_col): return used\n        for j in sorted(range(len(s)),key=lambda j:len(s[j])):\n            if j not in used and need_col[i] in s[j]: \n                r=dfs(i+1,used|{j})\n                if r is not None: return r\n        return None\n    u=dfs(0,frozenset())\n    if u is None: return None\n    rest=[j for j in order if j not in u]\n    if len(rest)<g: return None\n    return set(u)|set(rest[:g])\ndef game(deck,rnd,T=7):\n    d=deck[:]; rnd.shuffle(d); hand=d[:7]; lib=d[7:]\n    lands=[]; rocks=[]; eq=[]; xt=None; xh=False; recs=[]; oneshot_used=set()\n    for t in range(1,T+1):\n        if t>1: hand.append(lib.pop(0))\n        lh=[c for c in hand if c in LAND]; newtapped=False\n        def untapped(c):\n            k=LAND[c][1]\n            if k==\"ridge\": return len(lands)>=2\n            return k==0\n        if lh:\n            pref=sorted(lh,key=lambda c:((0 if not untapped(c) else 1) if t<=2 else (0 if untapped(c) else 1), c==\"Command Beacon\"))\n            L=pref[0]; hand.remove(L); newtapped=not untapped(L); lands.append(L)\n        srcs=[]\n        for i,x in enumerate(lands):\n            if i==len(lands)-1 and newtapped: continue\n            v=LAND[x][0]\n            if v==\"CC\": srcs+=[\"C\",\"C\"]\n            else: srcs.append(v)\n        for r in rocks: srcs+=ROCK[r][1] if r in ROCK else [\"ANYMOX\"]\n        avail=[(\"UBR\" if x==\"ANYMOX\" else x) for x in srcs]\n        # rocks first (cheapest), Chrome Mox imprints a nonland nonartifact card if one is spare\n        for r in sorted([c for c in hand if c in ROCK or c in ONESHOT or c==\"Chrome Mox\"],key=lambda c:(ROCK.get(c) or ONESHOT.get(c) or (0,))[0]):\n            if r==\"Chrome Mox\":\n                spare=[c for c in hand if c not in LAND and c not in ROCK and c not in ONESHOT and c not in(\"Chrome Mox\",\"Lotus Petal\",\"Dark Ritual\",\"Lion's Eye Diamond\") and c not in HASTE_EQ]\n                if spare: hand.remove(r); hand.remove(spare[0]); rocks.append(\"Chrome Mox\"); avail.append(\"UBR\")\n                continue\n            cost,prod=(ROCK.get(r) or ONESHOT.get(r))\n            u=pay(avail,[],cost)\n            if u is None: continue\n            avail=[x for j,x in enumerate(avail) if j not in u]; hand.remove(r)\n            if r in ROCK: rocks.append(r); avail+=prod\n            else: avail+=prod   # Mana Vault / Grim Monolith: one burst the turn they land (no untap modelled)\n        if xt is None:\n            extra=[]\n            if \"Lotus Petal\" in hand: extra.append((\"Lotus Petal\",[\"UBR\"]))\n            if \"Dark Ritual\" in hand: extra.append((\"Dark Ritual\",\"RIT\"))\n            if \"Lion's Eye Diamond\" in hand: extra.append((\"Lion's Eye Diamond\",[\"UBR\"]*3))\n            pool=avail[:]\n            usedx=[]\n            for n,p in extra:\n                if p==\"RIT\":\n                    u=pay(pool,[\"B\"],0)\n                    if u is None: continue\n                    pool=[x for j,x in enumerate(pool) if j not in u]+[\"B\",\"B\",\"B\"]\n                else: pool=pool+p\n                usedx.append(n)\n                if pay([(\"C\" if x==\"H\" else x) for x in pool],[\"U\",\"B\",\"R\"],4) is not None: break\n            P=[(\"C\" if x==\"H\" else x) for x in pool]\n            u=pay(P,[\"U\",\"B\",\"R\"],4)\n            if u is not None:\n                xt=t; rem=[x for j,x in enumerate(pool) if j not in u]\n                for n in usedx: hand.remove(n)\n                bandit = \"H\" in [pool[j] for j in u]\n                if not bandit and \"H\" in rem:  # re-solve preferring the Bandit Lord mana for haste\n                    pre=[j for j,x in enumerate(pool) if x==\"H\"][0]\n                    P2=[x for j,x in enumerate(P) if j!=pre]; u2=pay(P2,[\"U\",\"B\",\"R\"],3)\n                    if u2 is not None:\n                        bandit=True; idx=[j for j in range(len(pool)) if j!=pre]; rem=[pool[idx[j]] for j in range(len(P2)) if j not in u2]\n                xh=bandit\n                for e in [c for c in eq]:\n                    if not xh and len(rem)>=HASTE_EQ[e]: xh=True; rem=rem[HASTE_EQ[e]:]\n                for e in [c for c in hand if c in HASTE_EQ]:\n                    if not xh and len(rem)>=2+HASTE_EQ[e]: xh=True; hand.remove(e); eq.append(e); rem=rem[2+HASTE_EQ[e]:]\n                avail=rem\n        for e in [c for c in hand if c in HASTE_EQ]:\n            u=pay(avail,[],2)\n            if u is not None: avail=[x for j,x in enumerate(avail) if j not in u]; hand.remove(e); eq.append(e)\n        recs.append(dict(cast=xt is not None, attack=xt is not None and (xt<t or xh), haste_same_turn=xt==t and xh))\n    return recs\ndef run(deck,seed=30,N=20000,T=7):\n    rnd=random.Random(seed); acc=collections.defaultdict(collections.Counter)\n    for _ in range(N):\n        for t,o in enumerate(game(deck,rnd,T),1):\n            for k,v in o.items(): acc[t][k]+=v\n    return {f\"turn {t}\":{\"P_Xander_cast\":round(a['cast']/N,4),\"P_Xander_attack_trigger_declared\":round(a['attack']/N,4),\"P_Xander_haste_attack_on_cast_turn_by_this_turn\":round(a['haste_same_turn']/N,4)} for t,a in acc.items()}\n\n# ---------------- Part B: exhaustive finite rules-encoded grids\ndef gridB():\n    B={}\n    # B1 recursion slot: Persist vs Necromancy vs Goryo's Vengeance\n    TG={\"Lord_Xander_own_graveyard\":dict(own=True,leg=True,xander=True),\n        \"Tergrid_or_Karlach_or_Bruvac_own_graveyard\":dict(own=True,leg=True,xander=False),\n        \"Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield\":dict(own=True,leg=False,xander=False,clone=True),\n        \"Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard\":dict(own=True,leg=False,xander=False),\n        \"opponent_creature_card_milled_by_Xander\":dict(own=False,leg=False,xander=False),\n        \"opponent_legendary_creature_card_milled_by_Xander\":dict(own=False,leg=True,xander=False)}\n    MANA=[1,2,3]; TIMING=[\"own_precombat_main\",\"opponent_end_step_or_in_response\"]\n    def res(card,tg,m,ti):\n        t=TG[tg]; r=dict(returns=False,etb=False,attack_trigger_this_turn=False,extra_dies_trigger=False,stays=False)\n        if card==\"Persist\":\n            if m<2 or ti!=\"own_precombat_main\" or not t[\"own\"] or t[\"leg\"]: return r\n            r.update(returns=True,etb=True,stays=True); return r\n        if card==\"Goryo's Vengeance\":\n            if m<2 or not t[\"own\"] or not t[\"leg\"]: return r\n            r.update(returns=True,etb=True,attack_trigger_this_turn=(t[\"xander\"] and ti==\"own_precombat_main\")); return r   # exiled at end step: no dies trigger\n        if card==\"Necromancy\":\n            if m<3: return r\n            off=ti!=\"own_precombat_main\"\n            r.update(returns=True,etb=True,stays=not off,extra_dies_trigger=(off and t[\"xander\"])); return r\n        return r\n    g=collections.Counter(); cells=0; rows=[]\n    for tg,m,ti in itertools.product(TG,MANA,TIMING):\n        cells+=1; o={c:res(c,tg,m,ti) for c in(\"Persist\",\"Necromancy\",\"Goryo's Vengeance\")}\n        for c,v in o.items():\n            k=c.replace(' ','_').replace(\"'\",'')\n            for kk,vv in v.items(): g[k+'_'+kk]+=vv\n        g['Necromancy_returns_Persist_does_not']+=o[\"Necromancy\"][\"returns\"] and not o[\"Persist\"][\"returns\"]\n        g['Persist_returns_Necromancy_does_not']+=o[\"Persist\"][\"returns\"] and not o[\"Necromancy\"][\"returns\"]\n        g['Goryos_returns_Necromancy_does_not']+=o[\"Goryo's Vengeance\"][\"returns\"] and not o[\"Necromancy\"][\"returns\"]\n        rows.append(dict(target=tg,mana=m,timing=ti,**{c:v for c,v in o.items()}))\n    B[\"B1_recursion_Persist_vs_Necromancy_vs_Goryos\"]=dict(cells=cells,**g,rows=rows,notes=\"Frozen-cache Oracle: Persist returns target NONLEGENDARY creature card from YOUR graveyard (sorcery, -1/-1 counter), so it can never return Lord Xander, Tergrid, Karlach or Bruvac. Necromancy ({2}{B}, castable as though it had flash) returns a creature card from ANY graveyard; cast off sorcery timing it is sacrificed at the next cleanup step, its leaves trigger sacrifices the creature, so an end-step Necromancy on Lord Xander yields the enters (discard half) AND a second dies (sacrifice half) trigger. Goryo's Vengeance returns only a legendary card from your graveyard with haste, exiled (not dies) at the next end step. Commander replacement: Lord Xander must have been put into the graveyard (owner's choice) to be a target. Unweighted cells, not frequencies.\")\n    # B2 haste equipment: Lightning Greaves (shroud, equip 0) vs Swiftfoot Boots (hexproof, equip 1) attached to Lord Xander\n    ACT=[\"none_just_attack\",\"equip_Helm_of_the_Host_to_Xander\",\"equip_Sword_of_Feast_and_Famine_to_Xander\",\"equip_Blade_of_Selves_to_Xander\",\n         \"Saw_in_Half_own_Xander\",\"Molten_Duplication_own_Xander\",\"Feign_Death_own_Xander\",\"Malakir_Rebirth_own_Xander\",\"Necromancy_or_Animate_Dead_unaffected_card_in_graveyard\",\n         \"opponent_targeted_removal_on_Xander\",\"opponent_wrath_or_edict\"]\n    OTHER=[\"another_creature_you_control\",\"no_other_creature\"]; SPARE=[0,1]\n    def eqres(card,a,o,sp):\n        own=a not in(\"none_just_attack\",\"Necromancy_or_Animate_Dead_unaffected_card_in_graveyard\",\"opponent_targeted_removal_on_Xander\",\"opponent_wrath_or_edict\")\n        haste_ok = card==\"Lightning Greaves\" or sp>=1\n        if a==\"opponent_targeted_removal_on_Xander\": return dict(action_ok=True,protected=True,haste=haste_ok)\n        if a==\"opponent_wrath_or_edict\": return dict(action_ok=True,protected=False,haste=haste_ok)\n        if own and card==\"Lightning Greaves\":\n            # shroud stops your own targeting; Greaves can be moved off with Equip {0} only onto another creature you control (sorcery speed), losing haste/shroud on Xander\n            ok=o==\"another_creature_you_control\" and not a.startswith((\"Feign\",\"Malakir\"))  or (o==\"another_creature_you_control\" and a.startswith((\"Feign\",\"Malakir\")))\n            return dict(action_ok=ok,protected=not ok,haste=haste_ok,needs_reequip_away=ok)\n        return dict(action_ok=True,protected=True,haste=haste_ok,needs_reequip_away=False)\n    g=collections.Counter(); cells=0; rows=[]\n    for a,o,sp in itertools.product(ACT,OTHER,SPARE):\n        cells+=1; gr=eqres(\"Lightning Greaves\",a,o,sp); bo=eqres(\"Swiftfoot Boots\",a,o,sp)\n        g['Greaves_action_ok']+=gr[\"action_ok\"]; g['Boots_action_ok']+=bo[\"action_ok\"]; g['Greaves_haste']+=gr[\"haste\"]; g['Boots_haste']+=bo[\"haste\"]\n        g['Boots_ok_Greaves_blocked']+=bo[\"action_ok\"] and not gr[\"action_ok\"]; g['Greaves_ok_Boots_blocked']+=gr[\"action_ok\"] and not bo[\"action_ok\"]\n        g['Greaves_must_strip_own_protection']+=gr.get(\"needs_reequip_away\",False)\n        g['Greaves_haste_Boots_no_haste']+=gr[\"haste\"] and not bo[\"haste\"]\n        rows.append(dict(action=a,other=o,spare_mana_after_Xander=sp,greaves=gr,boots=bo))\n    B[\"B2_haste_equipment_Greaves_vs_Boots\"]=dict(cells=cells,**g,rows=rows,notes=\"Lightning Greaves: haste and shroud, Equip {0}. Swiftfoot Boots: haste and hexproof, Equip {1}. Equip, Saw in Half, Molten Duplication, Feign Death and Malakir Rebirth all target; shroud stops your own targeting, hexproof stops only opponents. With Greaves on Lord Xander you can enable the action only by moving Greaves to another creature you control (Equip {0}, sorcery speed), which strips Xander's protection and is impossible for instant-speed responses with no other creature (encoded conservatively as allowed when another creature exists). Boots costs 1 more to grant haste the turn Xander is cast (spare 0 cells). Phantasmal Image copies are sacrificed if either is equipped to them.\")\n    # B3 land slot: Bojuka Bog vs Malakir Rebirth // Malakir Mire\n    ST=[\"opponent_destroys_Xander\",\"opponent_edict_or_sacrifice\",\"opponent_wrath_destroy\",\"opponent_exiles_or_bounces_Xander\",\"own_Altar_of_Dementia_sacrifice_Xander\",\n        \"opponent_graveyard_combo_Breach_or_reanimator\",\"opponent_flashback_or_escape_value\",\"no_event_need_land_drop\"]\n    MB=[\"B_open\",\"no_B_open\"]\n    def land(card,s,m):\n        if s==\"no_event_need_land_drop\": return dict(answers=True,note=\"both enter tapped and tap for {B}\")\n        if card==\"Bojuka Bog\": return dict(answers=s.startswith(\"opponent_graveyard\") or s.startswith(\"opponent_flashback\"),note=\"exile one graveyard on entry (needs to be held as the land drop)\")\n        if s in(\"opponent_destroys_Xander\",\"opponent_edict_or_sacrifice\",\"opponent_wrath_destroy\",\"own_Altar_of_Dementia_sacrifice_Xander\"):\n            return dict(answers=m==\"B_open\",note=\"dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield\")\n        return dict(answers=False,note=\"exile/bounce or graveyard issue: no help\")\n    g=collections.Counter(); cells=0; rows=[]\n    for s,m in itertools.product(ST,MB):\n        cells+=1; b=land(\"Bojuka Bog\",s,m); r=land(\"Malakir Rebirth // Malakir Mire\",s,m)\n        g['Bog_answers']+=b[\"answers\"]; g['Malakir_answers']+=r[\"answers\"]; g['Malakir_only']+=r[\"answers\"] and not b[\"answers\"]; g['Bog_only']+=b[\"answers\"] and not r[\"answers\"]\n        rows.append(dict(state=s,mana=m,bojuka_bog=b,malakir=r))\n    B[\"B3_land_slot_Bojuka_Bog_vs_Malakir_Rebirth\"]=dict(cells=cells,**g,rows=rows,notes=\"Malakir Rebirth ({B} instant, lose 2 life): target creature gains 'when this dies, return it to the battlefield tapped' until end of turn; its back face Malakir Mire enters tapped for {B}, same as Bojuka Bog. Graveyard-hate loss (Bog_only cells) is the disclosed cost; the deck keeps no other repeatable graveyard hate (Tergrid's Lantern is not hate). Xander dying must be routed to the graveyard (decline the command-zone replacement) for the return.\")\n    return B\nif __name__==\"__main__\":\n    import sys\n    A={k:run(d) for k,d in CFG.items()}\n    B=gridB(); json.dump({'A':A,'B':B},open(W+'meas30.json','w'),indent=1)\n    for k,v in B.items(): print(k,{a:b for a,b in v.items() if a not in('notes','rows')})\n    for k,v in A.items(): print(k[:70].ljust(70),{t[5:]:(r['P_Xander_cast'],r['P_Xander_attack_trigger_declared']) for t,r in v.items() if t in('turn 4','turn 5','turn 6','turn 7')})\n"
+ },
+ "results": {
+  "A": {
+   "baseline": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0003
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0103,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0021
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0413,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0094
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.1036,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0137
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1924,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0217
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2978,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0257
+    }
+   },
+   "single_plus_Necromancy_minus_Persist": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0003
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0103,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0021
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0413,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0094
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.1036,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0137
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1924,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0217
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2978,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0257
+    }
+   },
+   "single_plus_Swiftfoot_Boots_minus_Lightning_Greaves": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "single_plus_Malakir_Rebirth_minus_Bojuka_Bog": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0003
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0103,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0021
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0413,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0094
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.1036,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0137
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1924,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0217
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2978,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0257
+    }
+   },
+   "candidate": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "probe_on_candidate_plus_Chrome_Mox_minus_Talisman_of_Creativity": {
+    "turn 1": {
+     "P_Xander_cast": 0.0008,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0094,
+     "P_Xander_attack_trigger_declared": 0.0009,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.0343,
+     "P_Xander_attack_trigger_declared": 0.0114,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0019
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.0919,
+     "P_Xander_attack_trigger_declared": 0.0406,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0063
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1727,
+     "P_Xander_attack_trigger_declared": 0.1017,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0099
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2746,
+     "P_Xander_attack_trigger_declared": 0.1878,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.015
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3808,
+     "P_Xander_attack_trigger_declared": 0.292,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "probe_on_candidate_plus_Command_Beacon_minus_Xanders_Lounge": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0084,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.0323,
+     "P_Xander_attack_trigger_declared": 0.0103,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0019
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.0906,
+     "P_Xander_attack_trigger_declared": 0.0387,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0064
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1709,
+     "P_Xander_attack_trigger_declared": 0.1,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0094
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2727,
+     "P_Xander_attack_trigger_declared": 0.1863,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0155
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3786,
+     "P_Xander_attack_trigger_declared": 0.2902,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "probe_on_candidate_plus_Glasspool_Mimic_minus_Training_Center": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0078,
+     "P_Xander_attack_trigger_declared": 0.0007,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.0318,
+     "P_Xander_attack_trigger_declared": 0.0095,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0018
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.0892,
+     "P_Xander_attack_trigger_declared": 0.0382,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0064
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1691,
+     "P_Xander_attack_trigger_declared": 0.0987,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0095
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2699,
+     "P_Xander_attack_trigger_declared": 0.1841,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.015
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3749,
+     "P_Xander_attack_trigger_declared": 0.2871,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0172
+    }
+   },
+   "probe_on_candidate_plus_Kiki-Jiki_Mirror_Breaker_minus_Karlach_Fury_of_Avernus": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "probe_on_candidate_plus_Seize_the_Day_minus_Karlach_Fury_of_Avernus": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "PassC_single_plus_Goryos_Vengeance_minus_Persist_on_baseline": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0003
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0103,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0021
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0413,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0094
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.1036,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0137
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1924,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0217
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2978,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0257
+    }
+   },
+   "alt_A_owner_keeps_Necromancy_minus_Karlach": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   },
+   "alt_B_owner_keeps_Necromancy_minus_An_Offer_You_Cant_Refuse": {
+    "turn 1": {
+     "P_Xander_cast": 0.0006,
+     "P_Xander_attack_trigger_declared": 0.0,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0
+    },
+    "turn 2": {
+     "P_Xander_cast": 0.0082,
+     "P_Xander_attack_trigger_declared": 0.0008,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0001
+    },
+    "turn 3": {
+     "P_Xander_cast": 0.032,
+     "P_Xander_attack_trigger_declared": 0.0099,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0017
+    },
+    "turn 4": {
+     "P_Xander_cast": 0.09,
+     "P_Xander_attack_trigger_declared": 0.0386,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0066
+    },
+    "turn 5": {
+     "P_Xander_cast": 0.1706,
+     "P_Xander_attack_trigger_declared": 0.0995,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0096
+    },
+    "turn 6": {
+     "P_Xander_cast": 0.2721,
+     "P_Xander_attack_trigger_declared": 0.1857,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0151
+    },
+    "turn 7": {
+     "P_Xander_cast": 0.3779,
+     "P_Xander_attack_trigger_declared": 0.2897,
+     "P_Xander_haste_attack_on_cast_turn_by_this_turn": 0.0175
+    }
+   }
+  },
+  "B": {
+   "B1_recursion_Persist_vs_Necromancy_vs_Goryos": {
+    "cells": 36,
+    "Persist_returns": 4,
+    "Persist_etb": 4,
+    "Persist_attack_trigger_this_turn": 0,
+    "Persist_extra_dies_trigger": 0,
+    "Persist_stays": 4,
+    "Necromancy_returns": 12,
+    "Necromancy_etb": 12,
+    "Necromancy_attack_trigger_this_turn": 0,
+    "Necromancy_extra_dies_trigger": 1,
+    "Necromancy_stays": 6,
+    "Goryos_Vengeance_returns": 8,
+    "Goryos_Vengeance_etb": 8,
+    "Goryos_Vengeance_attack_trigger_this_turn": 2,
+    "Goryos_Vengeance_extra_dies_trigger": 0,
+    "Goryos_Vengeance_stays": 0,
+    "Necromancy_returns_Persist_does_not": 10,
+    "Persist_returns_Necromancy_does_not": 2,
+    "Goryos_returns_Necromancy_does_not": 4,
+    "rows": [
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": true,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": true,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Lord_Xander_own_graveyard",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": true,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Tergrid_or_Karlach_or_Bruvac_own_graveyard",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Spark_Double_or_Auton_Soldier_card_own_graveyard_Xander_on_battlefield",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "Notion_Thief_or_Opposition_Agent_or_Orcish_Bowmasters_own_graveyard",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_creature_card_milled_by_Xander",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 1,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 1,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 2,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 2,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 3,
+      "timing": "own_precombat_main",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": true
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     },
+     {
+      "target": "opponent_legendary_creature_card_milled_by_Xander",
+      "mana": 3,
+      "timing": "opponent_end_step_or_in_response",
+      "Persist": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Necromancy": {
+       "returns": true,
+       "etb": true,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      },
+      "Goryo's Vengeance": {
+       "returns": false,
+       "etb": false,
+       "attack_trigger_this_turn": false,
+       "extra_dies_trigger": false,
+       "stays": false
+      }
+     }
+    ],
+    "notes": "Frozen-cache Oracle: Persist returns target NONLEGENDARY creature card from YOUR graveyard (sorcery, -1/-1 counter), so it can never return Lord Xander, Tergrid, Karlach or Bruvac. Necromancy ({2}{B}, castable as though it had flash) returns a creature card from ANY graveyard; cast off sorcery timing it is sacrificed at the next cleanup step, its leaves trigger sacrifices the creature, so an end-step Necromancy on Lord Xander yields the enters (discard half) AND a second dies (sacrifice half) trigger. Goryo's Vengeance returns only a legendary card from your graveyard with haste, exiled (not dies) at the next end step. Commander replacement: Lord Xander must have been put into the graveyard (owner's choice) to be a target. Unweighted cells, not frequencies."
+   },
+   "B2_haste_equipment_Greaves_vs_Boots": {
+    "cells": 44,
+    "Greaves_action_ok": 30,
+    "Boots_action_ok": 44,
+    "Greaves_haste": 44,
+    "Boots_haste": 22,
+    "Boots_ok_Greaves_blocked": 14,
+    "Greaves_ok_Boots_blocked": 0,
+    "Greaves_must_strip_own_protection": 14,
+    "Greaves_haste_Boots_no_haste": 22,
+    "rows": [
+     {
+      "action": "none_just_attack",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "none_just_attack",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "none_just_attack",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "none_just_attack",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Helm_of_the_Host_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Helm_of_the_Host_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Helm_of_the_Host_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Helm_of_the_Host_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Sword_of_Feast_and_Famine_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Sword_of_Feast_and_Famine_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Sword_of_Feast_and_Famine_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Sword_of_Feast_and_Famine_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Blade_of_Selves_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Blade_of_Selves_to_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Blade_of_Selves_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "equip_Blade_of_Selves_to_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Saw_in_Half_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Saw_in_Half_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Saw_in_Half_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Saw_in_Half_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Molten_Duplication_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Molten_Duplication_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Molten_Duplication_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Molten_Duplication_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Feign_Death_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Feign_Death_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Feign_Death_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Feign_Death_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Malakir_Rebirth_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Malakir_Rebirth_own_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true,
+       "needs_reequip_away": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Malakir_Rebirth_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Malakir_Rebirth_own_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": false,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Necromancy_or_Animate_Dead_unaffected_card_in_graveyard",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Necromancy_or_Animate_Dead_unaffected_card_in_graveyard",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Necromancy_or_Animate_Dead_unaffected_card_in_graveyard",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "Necromancy_or_Animate_Dead_unaffected_card_in_graveyard",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true,
+       "needs_reequip_away": false
+      }
+     },
+     {
+      "action": "opponent_targeted_removal_on_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false
+      }
+     },
+     {
+      "action": "opponent_targeted_removal_on_Xander",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      }
+     },
+     {
+      "action": "opponent_targeted_removal_on_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": false
+      }
+     },
+     {
+      "action": "opponent_targeted_removal_on_Xander",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": true,
+       "haste": true
+      }
+     },
+     {
+      "action": "opponent_wrath_or_edict",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": false,
+       "haste": false
+      }
+     },
+     {
+      "action": "opponent_wrath_or_edict",
+      "other": "another_creature_you_control",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      }
+     },
+     {
+      "action": "opponent_wrath_or_edict",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 0,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": false,
+       "haste": false
+      }
+     },
+     {
+      "action": "opponent_wrath_or_edict",
+      "other": "no_other_creature",
+      "spare_mana_after_Xander": 1,
+      "greaves": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      },
+      "boots": {
+       "action_ok": true,
+       "protected": false,
+       "haste": true
+      }
+     }
+    ],
+    "notes": "Lightning Greaves: haste and shroud, Equip {0}. Swiftfoot Boots: haste and hexproof, Equip {1}. Equip, Saw in Half, Molten Duplication, Feign Death and Malakir Rebirth all target; shroud stops your own targeting, hexproof stops only opponents. With Greaves on Lord Xander you can enable the action only by moving Greaves to another creature you control (Equip {0}, sorcery speed), which strips Xander's protection and is impossible for instant-speed responses with no other creature (encoded conservatively as allowed when another creature exists). Boots costs 1 more to grant haste the turn Xander is cast (spare 0 cells). Phantasmal Image copies are sacrificed if either is equipped to them."
+   },
+   "B3_land_slot_Bojuka_Bog_vs_Malakir_Rebirth": {
+    "cells": 16,
+    "Bog_answers": 6,
+    "Malakir_answers": 6,
+    "Malakir_only": 4,
+    "Bog_only": 4,
+    "rows": [
+     {
+      "state": "opponent_destroys_Xander",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_destroys_Xander",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_edict_or_sacrifice",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_edict_or_sacrifice",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_wrath_destroy",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_wrath_destroy",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_exiles_or_bounces_Xander",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "opponent_exiles_or_bounces_Xander",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "own_Altar_of_Dementia_sacrifice_Xander",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "own_Altar_of_Dementia_sacrifice_Xander",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": false,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "dies trigger (sacrifice half) then returns tapped: enters trigger (discard half); Xander stays on the battlefield"
+      }
+     },
+     {
+      "state": "opponent_graveyard_combo_Breach_or_reanimator",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "opponent_graveyard_combo_Breach_or_reanimator",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "opponent_flashback_or_escape_value",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "opponent_flashback_or_escape_value",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "exile one graveyard on entry (needs to be held as the land drop)"
+      },
+      "malakir": {
+       "answers": false,
+       "note": "exile/bounce or graveyard issue: no help"
+      }
+     },
+     {
+      "state": "no_event_need_land_drop",
+      "mana": "B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "both enter tapped and tap for {B}"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "both enter tapped and tap for {B}"
+      }
+     },
+     {
+      "state": "no_event_need_land_drop",
+      "mana": "no_B_open",
+      "bojuka_bog": {
+       "answers": true,
+       "note": "both enter tapped and tap for {B}"
+      },
+      "malakir": {
+       "answers": true,
+       "note": "both enter tapped and tap for {B}"
+      }
+     }
+    ],
+    "notes": "Malakir Rebirth ({B} instant, lose 2 life): target creature gains 'when this dies, return it to the battlefield tapped' until end of turn; its back face Malakir Mire enters tapped for {B}, same as Bojuka Bog. Graveyard-hate loss (Bog_only cells) is the disclosed cost; the deck keeps no other repeatable graveyard hate (Tergrid's Lantern is not hate). Xander dying must be routed to the graveyard (decline the command-zone replacement) for the return."
+   }
+  }
+ }
+}
