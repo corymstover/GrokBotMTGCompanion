@@ -194,7 +194,7 @@ class LokiRev1ExactM6Cases(unittest.TestCase):
     def test_F2_attack_trigger_villains_not_triggered_by_enter_attacking(self):
         self.assertNotIn("Kang, Temporal Tyrant", self.names)
         self.assertNotIn("Kang Prime", self.names)
-        self.source("Loki, God of Mischief", "Whenever Loki")
+        self.source("Loki, God of Mischief", "Whenever a player or permanent becomes the target of an ability you control")
         self.source("Ultimo, Civilization's End", "When Ultimo enters")
         declared_attackers = 1
         entered_attacking = 1
