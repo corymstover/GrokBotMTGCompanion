@@ -1,0 +1,18 @@
+name: "M7 Deck 27 Grixistax independent Rev1 structural checks"
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/baseline_sources/Grixistax___October_2026_approved_source_2026-10-14.txt"
+      - "data/grixis/m7/candidate_lists/Grixistax___October_2026_ChatGPT_Rev1.txt"
+      - "data/grixis/m7/decision_reviews/Grixistax___October_2026_ChatGPT_Rev1_owner_review.md"
+      - "tests/test_m7_grixistax_chatgpt_rev1.py"
+      - ".github/workflows/m7-grixistax-chatgpt-rev1.yml"
+  workflow_dispatch:
+
+jobs:
+  candidate-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify source-bound exact 100 and five swaps
+        run: python3 -m unittest discover -s tests -p 'test_m7_grixistax_chatgpt_rev1.py' -v
