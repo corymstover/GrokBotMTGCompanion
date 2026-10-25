@@ -6,6 +6,8 @@ on:
       - "data/grixis/m7/candidate_lists/Grixistax___October_2026_ChatGPT_Rev1.txt"
       - "data/grixis/m7/decision_reviews/Grixistax___October_2026_ChatGPT_Rev1_owner_review.md"
       - "tests/test_m7_grixistax_chatgpt_rev1.py"
+      - "tests/test_m6_grixistax_rev1_case_transfer.py"
+      - "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Rev1_Selected_Oracle_20261025.json"
       - ".github/workflows/m7-grixistax-chatgpt-rev1.yml"
   workflow_dispatch:
 
@@ -16,3 +18,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify source-bound exact 100 and five swaps
         run: python3 -m unittest discover -s tests -p 'test_m7_grixistax_chatgpt_rev1.py' -v
+      - name: Execute 15 M6 P0/P1 exact-revision cases and 100 Oracle identity checks
+        run: python3 -m unittest discover -s tests -p 'test_m6_grixistax_rev1_case_transfer.py' -v
