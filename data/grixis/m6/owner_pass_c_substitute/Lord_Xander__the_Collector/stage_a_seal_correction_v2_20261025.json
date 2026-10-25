@@ -1,0 +1,22 @@
+{
+  "schema_version": "xander-stage-a-byte-hash-correction-v2",
+  "deck_id": "Lord_Xander__the_Collector",
+  "deck_number": 30,
+  "correction_date": "2026-10-25",
+  "owner_authorization": "Cory explicitly authorized a documented, versioned correction to the historical Pass C Stage A seal mismatch, preserving original evidence, on 2026-10-25. This is a source-byte provenance correction only, not independent third-model execution or overall M6/M7/M8 milestone acceptance.",
+  "historical_original_seal_path": "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json",
+  "historical_original_seal_sha256": "1052e6b3032c1d5d018c3740222ce586b8ea30eaecfd6f86ad05a8d8e6837dd4",
+  "historical_original_recorded_stage_a_md_sha256": "89a78d803b5cb5ea886b2402828aaff00b78497db0b3c0fe569c6c0ee5a879d1",
+  "observed_original_stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/stage_a.md",
+  "observed_original_stage_a_md_sha256": "826f07707a6fdd1583b815ba6b80ad99bd8a71d57d03ac05766ed2a0a4cd0322",
+  "original_stage_a_git_blob_sha": "e97d35fe9666519ed8ff0fc5e605d3ff2b5a5e07",
+  "original_stage_a_first_commit_sha": "6ebb511e4b1bc4d6d0b9f0103cf1f95519f7eaae",
+  "original_stage_a_json_sha256": "aff5f64c0a59ede5b77eb3a58d39fc5cf04bc8eebdc791c238a94898a25181ca",
+  "canonical_historical_baseline_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "finding": "The original separately committed seal names the correct first-stage commit and Stage A Git blob, but its Markdown SHA-256 does not equal the bytes of that exact preserved Git blob. The original file's SHA-256 is listed here. The Stage A JSON already matches its preserved seal digest. No original stage file, original seal, final disposition, or initial review is rewritten.",
+  "scope": "Only the Lord_Xander__the_Collector Stage A Markdown SHA comparison in the owner-equivalent Pass C source chain may consult this exact pinned correction record. Every other hash, file, provenance, case, exception, source, approval and independence gate stays in force.",
+  "not_claimed": ["independent model review", "Stage A content amendment", "global seal waiver", "mechanical M6 I/J execution", "multiplayer win-rate measurement", "M6.10/M7/M8 owner milestone acceptance"]
+}
