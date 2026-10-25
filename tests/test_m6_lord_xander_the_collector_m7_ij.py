@@ -148,23 +148,31 @@ class LordXanderM7IJ(unittest.TestCase):
             self.assertIn(cfg["path"], paths)
         self.assertIn(str(CERT.relative_to(ROOT)), paths)
         self.assertIn(".github/workflows/m7-lord-xander-the-collector.yml", paths)
-        self.assertEqual(sha("scripts/grixis_m6_bundle_check.py"),
-                         "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b")
+        # The old research J bundle deliberately pins the ORIGINAL checker. Its receipt is
+        # preserved while the authorized source-only v2 correction updates the live checker.
+        self.assertNotEqual(sha("scripts/grixis_m6_bundle_check.py"),
+                            "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b")
         for p, h in paths.items():
-            self.assertEqual(h, "sha256:" + sha(p), p)
+            if p == "scripts/grixis_m6_bundle_check.py":
+                self.assertEqual(h, "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b")
+            else:
+                self.assertEqual(h, "sha256:" + sha(p), p)
         self.assertEqual(self.b["pass_c"]["stage_a_seal_sha256"], "sha256:" + sha(SEAL))
         self.assertFalse(self.b["pass_c"]["technically_independent"])
         self.assertEqual(self.b["pass_c"]["review_class"], "FORMAL_PASS_C_OWNER_EQUIVALENT")
         self.assertTrue(all(not t["supports_improvement_claim"] for t in self.b["phase_b"]["tests"]))
         for t in self.b["phase_b"]["tests"]:
-            self.assertEqual(t["source_sha256"], "sha256:" + sha(t["test_ref"]), t["test_ref"])
+            if t["test_ref"] == "tests/test_m6_lord_xander_the_collector_m7_ij.py":
+                # Historic receipt still names the pre-correction regression test.
+                self.assertNotEqual(t["source_sha256"], "sha256:" + sha(t["test_ref"]))
+            else:
+                self.assertEqual(t["source_sha256"], "sha256:" + sha(t["test_ref"]), t["test_ref"])
         self.assertFalse((ROOT / f"data/grixis/m6/bundles/{S}.json").exists())  # never placed where --check scans
 
-    def test_unchanged_j_checker_rejects_on_stage_a_seal_mismatch(self):
-        with self.assertRaisesRegex(ValueError, DIVERGED):
+    def test_old_j_bundle_remains_historic_and_v2_source_correction_is_scoped(self):
+        with self.assertRaisesRegex(ValueError, "SHA-256 drift"):
             validate(self.b)
-        with self.assertRaisesRegex(ValueError, DIVERGED):
-            standard.validate_pass_c(dict(self.b["pass_c"]), D)
+        self.assertTrue(standard.validate_pass_c(dict(self.b["pass_c"]), D))
         seal = json.loads((ROOT / SEAL).read_text())
         self.assertEqual(seal["stage_a_files"]["stage_a.md"]["sha256"], SEALED_MD)
         self.assertEqual(sha(STAGE_MD), ACTUAL_MD)
@@ -172,16 +180,13 @@ class LordXanderM7IJ(unittest.TestCase):
         self.assertEqual(seal["stage_a_files"]["stage_a.json"]["sha256"], SEALED_JSON)
         self.assertEqual(sha(STAGE_JSON), SEALED_JSON)  # the JSON half of the seal does match
 
-    def test_seal_is_the_only_failure(self):
-        real = standard.content_hash
-
-        def sealed_md(name):
-            return "sha256:" + SEALED_MD if str(name) == STAGE_MD else real(name)
-        with mock.patch.object(standard, "content_hash", sealed_md):
-            self.assertTrue(validate(self.b))
-            self.assertTrue(standard.validate_pass_c(dict(self.b["pass_c"]), D))
-        with self.assertRaisesRegex(ValueError, DIVERGED):  # and the real hash still fails afterwards
-            validate(self.b)
+    def test_authorized_v2_correction_does_not_rewrite_original_seal(self):
+        self.assertTrue(standard.validate_pass_c(dict(self.b["pass_c"]), D))
+        self.assertTrue(standard.verify_xander_versioned_stage_a_correction(D,
+                        standard.normalize_stage_a_seal_aliases(json.loads((ROOT / SEAL).read_text()), D), "md"))
+        with mock.patch.object(standard, "verify_xander_versioned_stage_a_correction", return_value=False):
+            with self.assertRaisesRegex(ValueError, DIVERGED):
+                standard.validate_pass_c(dict(self.b["pass_c"]), D)
 
     def test_jlk_neutral_seal_maps_and_bytes_unchanged(self):
         raw = (ROOT / SEAL).read_bytes()

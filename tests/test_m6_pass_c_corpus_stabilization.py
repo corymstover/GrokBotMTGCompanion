@@ -19,10 +19,10 @@ SPEC.loader.exec_module(bc)
 
 PROGRESS = json.loads((ROOT / bc.OWNER_PROGRESS).read_text(encoding="utf-8"))
 DECKS = [row["deck_id"] for row in PROGRESS["decks"]]
-# Preserved seals whose recorded stage_a.md SHA-256 does not match the committed bytes (their git_blob_sha does
-# match). The stabilized checker deliberately keeps rejecting these; they need an owner decision, not a rename.
+# The Xander Stage A mismatch is now accepted ONLY through Cory's 2026-10-25 exact
+# source-bound, versioned correction; its original seal/files remain untouched.
+# Lynde remains blocked, with no owner-approved correction or generalized waiver.
 EXPECTED_FAIL = {
-    "Lord_Xander__the_Collector": "diverged from separately sealed byte commitment",
     "Lynde__Cheerful_Tormentor": "diverged from separately sealed byte commitment",
 }
 PREVIOUSLY_ACCEPTED = DECKS[:6]  # accepted by the PR #654 checker (cd0be27a...)
@@ -59,7 +59,7 @@ def test_full_corpus_exact_outcome(deck_id):
 def test_nothing_previously_accepted_is_rejected_and_counts():
     passed = [d for d in DECKS if d not in EXPECTED_FAIL]
     assert set(PREVIOUSLY_ACCEPTED) <= set(passed)
-    assert len(passed) == 60
+    assert len(passed) == 61
 
 
 @pytest.mark.parametrize("deck_id", PREVIOUSLY_ACCEPTED)

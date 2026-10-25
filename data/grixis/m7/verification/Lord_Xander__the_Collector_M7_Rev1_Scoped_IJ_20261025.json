@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "deck_id": "Lord_Xander__the_Collector",
+  "scope": "EXACT_APPROVED_100",
+  "owner_approved_raw_sha256": "de348618961269083a44a3f3e05a7f0be7ddbd7e943da0ac82a115e5e4aeb6cd",
+  "baseline_raw_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+  "exact_candidate_ref": "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector_rev1.txt",
+  "decision_ref": "data/grixis/m7/decision_reviews/Lord_Xander__the_Collector_rev1.json",
+  "oracle_source_ref": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Rev1_Fresh_Scryfall_20261025.json",
+  "required_cases_ref": "data/grixis/m6/test_blueprints/Lord_Xander__the_Collector.json",
+  "source_correction_ref": "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/stage_a_seal_correction_v2_20261025.json",
+  "source_correction_scope": "A versioned pinned SHA-256 discrepancy annotation to Xander Stage A MD; original MD, JSON, and independent seal preserved byte-for-byte. Reviewer was non-independent with an explicit owner waiver. Lynde remains blocked.",
+  "old_m6_ij_status": "PR #678 research-only three-swap I certificate was BLOCKED; old history-bound J bundle is not transferred as a passing candidate certificate because exact candidate SHA, checker and historical input tests differ.",
+  "tested_configurations": [
+    "de348618961269083a44a3f3e05a7f0be7ddbd7e943da0ac82a115e5e4aeb6cd",
+    "46814512c3107cd7a68017a60241e3ef3f052e2f766bcf73d57b9df85d82c92d",
+    "b57eae60e33e1a544ca3348f5e8e1cd68c2be78d9442b24d243a608579c7653c",
+    "3fe4c6ed1ad3a5113dc1d1594aff3c9837c2f113efdab4692b88b1ccba3d9278"
+  ],
+  "local_source_bound_execution": "PYTHONPATH=/tmp/grixis-xander-pytest-deps python3 -m pytest -q tests/test_m7_lord_xander_rev1_exact.py tests/test_m6_lord_xander_the_collector_m7_ij.py tests/test_m6_pass_c_corpus_stabilization.py",
+  "local_result": "PASS: 126 tests, including the 14 exact named cases; 2026-10-25. This is finite-case testing, not a universal rules engine or proven global deck optimum.",
+  "exact_head_ci_workflow": ".github/workflows/m7-lord-xander-rev1-exact.yml",
+  "exact_head_ci_receipt": "MUST_BE_CONFIRMED_FROM_REAL_GITHUB_ACTIONS_BEFORE_CANONICAL_LOCK",
+  "case_ids": {
+    "P0": ["C1", "K1", "K2", "K3", "F1"],
+    "P1": ["K4", "K5", "E1", "E2", "W1", "W2", "W3", "F2", "F3"]
+  },
+  "case_test_ref": "tests/test_m7_lord_xander_rev1_exact.py",
+  "baseline_differences": {
+    "cuts": ["Lion's Eye Diamond", "Brain Freeze", "Underworld Breach", "Maddening Cacophony", "Notion Thief", "Orcish Bowmasters", "Pact of Negation", "Force of Negation", "Lightning Greaves"],
+    "adds": ["Hellkite Courser", "Syr Konrad, the Grim", "Necromancy", "Bloodchief Ascension", "Irenicus's Vile Duplication", "Goryo's Vengeance", "Samut, Hazoret's Champion", "Malakir Rebirth // Malakir Mire", "Swiftfoot Boots"]
+  },
+  "scope_guard": "Removed Cacophony and Breach/LED/Brain Freeze win conditions are not asserted as remaining. Retained Persist cannot target legendary Xander directly but can return nonlegendary Hellkite Courser. Hellkite puts Xander from command zone; Goryo exile never counts as dies. Myriad tokens enter attacking rather than declared-attacking. Bloodchief needs three quest counters, and Bruvac odd half-mill leaves one.",
+  "authority": "Cory explicitly approved exact SHA and this historical correction; this scoped local evidence does not by itself transfer GitHub CI or create canonical approval/lock."
+}

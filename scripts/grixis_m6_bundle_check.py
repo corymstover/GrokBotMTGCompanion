@@ -48,6 +48,59 @@ OWNER_EQUIVALENT = "FORMAL_PASS_C_OWNER_EQUIVALENT"
 OWNER_WAIVER = "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
 OWNER_PROGRESS = "data/grixis/m6/owner_pass_c_substitute/progress.json"
 
+# The original Xander Stage A Markdown, Stage A JSON, and original seal are IMMUTABLE.
+# Cory explicitly authorized a VERSIONED, DISCLOSED byte-hash correction on 2026-10-25.
+# This is deliberately a one-deck/one-file exception with every old/new byte digest and
+# the original Git blob pinned; never broaden it to Lynde or other mismatched seals.
+_XANDER_CORRECTION = (
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/"
+    "stage_a_seal_correction_v2_20261025.json"
+)
+_XANDER_CORRECTION_SHA = "7db5628952da3d4ca165fff30e9ab443071ed99f97b521ff84239c8692e16c0b"
+_XANDER_ORIGINAL_SEAL_SHA = "1052e6b3032c1d5d018c3740222ce586b8ea30eaecfd6f86ad05a8d8e6837dd4"
+_XANDER_SEALED_MD_SHA = "89a78d803b5cb5ea886b2402828aaff00b78497db0b3c0fe569c6c0ee5a879d1"
+_XANDER_ACTUAL_MD_SHA = "826f07707a6fdd1583b815ba6b80ad99bd8a71d57d03ac05766ed2a0a4cd0322"
+_XANDER_STAGE_A_BLOB = "e97d35fe9666519ed8ff0fc5e605d3ff2b5a5e07"
+
+
+def verify_xander_versioned_stage_a_correction(deck_id, seal, ext):
+    """Accept only Cory's exact v2 record; never substitute a fabricated digest.
+
+    We recompute the original Stage A Markdown SHA, Git object hash, sealed JSON,
+    original seal SHA and immutable correction-record SHA. This only reconciles the
+    historical *recorded digest*, not Stage A content or actual independence.
+    """
+    if deck_id != "Lord_Xander__the_Collector" or ext != "md":
+        return False
+    base = "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/"
+    correct_path = base + "stage_a.md"
+    seal_path = base + "seal.json"
+    if (seal.get("stage_a_md_path") != correct_path
+            or seal.get("stage_a_md_sha256") != _XANDER_SEALED_MD_SHA
+            or content_hash(seal_path) != "sha256:" + _XANDER_ORIGINAL_SEAL_SHA):
+        return False
+    if content_hash(_XANDER_CORRECTION) != "sha256:" + _XANDER_CORRECTION_SHA:
+        return False
+    correction = load(safe_repo_file(_XANDER_CORRECTION))
+    if not all((
+        correction.get("schema_version") == "xander-stage-a-byte-hash-correction-v2",
+        correction.get("deck_id") == deck_id,
+        correction.get("historical_original_seal_sha256") == _XANDER_ORIGINAL_SEAL_SHA,
+        correction.get("historical_original_recorded_stage_a_md_sha256") == _XANDER_SEALED_MD_SHA,
+        correction.get("observed_original_stage_a_md_sha256") == _XANDER_ACTUAL_MD_SHA,
+        correction.get("original_stage_a_git_blob_sha") == _XANDER_STAGE_A_BLOB,
+        correction.get("technically_independent") is False,
+        correction.get("canonical_historical_baseline_sha256") == seal.get("canonical_input_sha256"),
+    )):
+        return False
+    data = safe_repo_file(correct_path).read_bytes()
+    computed_blob = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
+    return (hashlib.sha256(data).hexdigest() == _XANDER_ACTUAL_MD_SHA
+            and computed_blob == _XANDER_STAGE_A_BLOB
+            and content_hash(base + "stage_a.json")
+            == "sha256:" + correction["original_stage_a_json_sha256"]
+            and correction["original_stage_a_json_sha256"] == seal.get("stage_a_json_sha256"))
+
 # Strict Pass C non-independence disclosure (added for PR #653, Ashad): "technical(ly) independen(ce|t)"
 # followed only by markdown/colon punctuation and then an explicit FALSE, or a NO that ends the clause
 # (so "no longer ..." never matches). Any explicit TRUE/YES statement anywhere vetoes this path.
@@ -443,7 +496,8 @@ def validate_pass_c(judgment, deck_id):
         raise ValueError("Owner-equivalent deck/Stage A seal provenance mismatch")
     for ext in ("md", "json"):
         if content_hash(seal["stage_a_" + ext + "_path"]) != "sha256:" + seal["stage_a_" + ext + "_sha256"]:
-            raise ValueError("Stage A source diverged from separately sealed byte commitment")
+            if not verify_xander_versioned_stage_a_correction(deck_id, seal, ext):
+                raise ValueError("Stage A source diverged from separately sealed byte commitment")
     final = safe_repo_file(judgment["judgment_receipt_path"]).read_text(encoding="utf-8")
     # Historical owner-equivalent reviews used two explicit negative-independence labels.
     # Accept the actual preserved wordings, never an absent or implied disclosure.
