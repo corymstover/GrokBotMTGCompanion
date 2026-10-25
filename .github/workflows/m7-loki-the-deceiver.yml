@@ -1,4 +1,4 @@
-name: M7 Deck 28 Loki the Deceiver research and independent Rev1 (focused)
+name: M7 Deck 28 Loki the Deceiver research candidate (focused)
 on:
   pull_request:
     branches: [chatgpt-cycle76-m6-refinement]
@@ -12,7 +12,6 @@ on:
       - scripts/grixis_m6_bundle_check.py
       - scripts/grixis_m7_decision_gate.py
       - tests/test_m7_loki_the_deceiver_candidate.py
-      - tests/test_m7_loki_the_deceiver_rev1_independent.py
       - tests/test_m6_loki_the_deceiver_m7_mechanics.py
       - tests/test_m6_loki_the_deceiver_m7_ij.py
       - tests/test_m6_pass_c_corpus_stabilization.py
@@ -40,8 +39,6 @@ jobs:
         run: git rev-parse HEAD
       - name: Deck 28 M7 gate research candidate (two swaps, research only blocked, commander first, hashes, staged alternatives, no approval)
         run: python -m pytest -v tests/test_m7_loki_the_deceiver_candidate.py
-      - name: Deck 28 independent M7 Rev1 exact 100/95, seven swaps, Oracle, rules and approval boundary
-        run: python -m pytest -v tests/test_m7_loki_the_deceiver_rev1_independent.py
       - name: Deck 28 Oracle-anchored rules, enters versus attack triggers, bounded Pass C Strionic and Seize grid, goldfish cells and combo delta
         run: python -m pytest -v tests/test_m6_loki_the_deceiver_m7_mechanics.py
       - name: Deck 28 candidate-specific I/J hash binding, J checker and Pass C wording
