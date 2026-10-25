@@ -1,3 +1,9 @@
+# Current one-command M7 owner workflow (2026-10-24)
+
+**Latest owner instruction:** Saying **“Finish Deck #N”** or **“Finish the next deck”** initiates the complete existing M6/M6.x → Grok saved research → actual case-level I/J transfer → whole-100 M7 owner-packet process **without repeated “Proceed” messages**. Read `grixis/M7 ONE_COMMAND FINISH.md` and `AGENTS.md` **from engineering `main` at a pinned commit** before preparing any new approval-ready candidate. Those documents (main PR #702) are the permanent intake, quality and owner-output contract; the standalone Actions button gathers evidence only, never approves. The current source of truth is canonical `corymstover/grixis-commander-encyclopediaGPT/main` (24 new M7 locks as of owner direction). Kefka #25 is next unless the owner changes order. Historical scheduling notes later in this file were fulfilled and must not override more recent explicit approval/queue instructions. No reduction of the mandatory M6/IJ/Oracle/legality gates is authorized. The canonical prospective provenance check remains mandatory.
+
+---
+
 # Repository agent instructions
 
 This repository supports several MTG Companion workflows. The instructions below govern only work on the **Grixis Commander Encyclopedia's M6/M7 refinement and the 62 canonical decks**. They do not authorize changing unrelated MTG Companion work.
