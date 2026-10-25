@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Loki__the_Deceiver",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Loki__the_Deceiver_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 11,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Loki__the_Deceiver_approved_source_2026-10-14.txt",
+   "raw_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+   "logical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 5079291c..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt, blob 456d62d4, introduced by canonical approval commit d97bc2b on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides APPROVED/LOCKED and tracker row 27 agree). Owner 2026-10-14 adds Red Ghost, Intangible Genius, Titan of Littjara and Hall of Echoes are kept."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/loki-the-deceiver.txt",
+   "raw_sha256": "a46c0474940b72ac3ae843bd8e6fdcdd9dd10988222dbe0a23a42daeb96cfd53",
+   "logical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline (lh1:1af6ee04...). Current, not stale."
+  },
+  {
+   "id": "RESEARCH_TWO_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Loki__the_Deceiver.txt",
+   "raw_sha256": "ce64e22265467a7032cf7814bbbadb4c215f24e9c3a63f9217bcf2f4f47fcb5d",
+   "logical_hash": "lh1:d26a9eea1d9d69ecd6c8e029d446bb587ad5b71b75371d494035a1211c1b40d8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (two genuine admissible swaps, +Ultimo, Civilization's End -Crimson Cowl, Master of Evil and +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Both adds are Villains whose enters trigger repeats on every Loki token copy (each-opponent edict; destroy a power-3-or-less creature), replacing two Villains whose copies do nothing (Crimson Cowl's trigger is a declared-attack trigger) or only a combat-damage half (Killmonger). Measured cost in the seeded goldfish (seed 28, 20000 games): P(MV<=3 Villain deployed by turn 3) 0.3005 -> 0.2567; P(Loki attacks with a valid other Villain target) turn 4 0.1803 -> 0.1682, turn 5 0.5849 -> 0.5696. Spellbook 0 -> 0 combos; Game Changers 5 -> 5; lands 34 -> 34."
+  },
+  {
+   "id": "PASS_C_STRIONIC_RESONATOR_OVER_SWIFTFOOT_BOOTS",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_StrionicResonator_minus_SwiftfootBoots_20261023.txt",
+   "raw_sha256": "6ba26d3c7d9a22b0025cb112560353eef30b866226be6eb284b3d0822d3186e4",
+   "logical_hash": "lh1:eb28c97e4b05b33b5a668a59801f841b28c9bb2b75d3e96b0f4f84860fce310f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_NOT_COUNTED (Pass C requested comparison; on top of the two core swaps). Exhaustive grid: Strionic gives more Loki copies in 80/756 paired cells, but Boots adds a whole Loki combat in 144/342 of its cells versus no equipment (and more copies in 48). Goldfish: P(Strionic activation payable on a Loki attack turn) only 0.0164 by turn 5 and 0.0393 by turn 6. Lightning Greaves alone would leave the deck one haste piece and shroud blocks Loki's own targeting. Not clearly better; staged."
+  },
+  {
+   "id": "PASS_C_SEIZE_THE_DAY_OVER_BLACK_MARKET_CONNECTIONS",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_BlackMarketConnections_20261023.txt",
+   "raw_sha256": "e58ca039449f469310d8f43f6df1ad51aac4c6f666fc917dd70b40fa97a4193c",
+   "logical_hash": "lh1:5045aab4407756496e45eeccb54c550bffa920e8cdfc1c24abcdd29f6dbd392c",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (Pass C requested comparison). Seize the Day must be cast postcombat with Loki surviving combat one; P(castable postcombat on a Loki attack turn) 0.0219 by turn 6. Grid: more copies in 42/756 cells but fewer total draws in 630/756 once Black Market Connections' per-turn draw is counted. EDHREC optimized 2/26 versus Black Market Connections 11/26."
+  },
+  {
+   "id": "PASS_C_SEIZE_THE_DAY_OVER_URZAS_INCUBATOR",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_PassC_plus_SeizeTheDay_minus_UrzasIncubator_20261023.txt",
+   "raw_sha256": "8c84a56e9a31368ce4dd936ff065df2eeee60571d73239eda3a7b1b22c56532d",
+   "logical_hash": "lh1:160709102253a89bf09bf622a5ff8b9ab429a2cf9541c25f5b9e30c75f35696d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (Pass C competing cut). Urza's Incubator (Villain cost reduction, optimized 11/26) is a live mana engine in most games; Seize the Day is live in about 2 percent of games by turn 6. Not better."
+  },
+  {
+   "id": "ALT_ULTIMO_OVER_KANG_PRIME_KEEP_CRIMSON_COWL",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_alt_Ultimo_over_KangPrime_keep_CrimsonCowl_20261023.txt",
+   "raw_sha256": "be190537d95c455553f25e751b4aa1e02ec9d48ed400bc57b2c302a793842d20",
+   "logical_hash": "lh1:4b95700afe1ddb73b2cb840822b503afd933f5a1bb2569eb641998f4d4e365d7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged alternative cut for the Ultimo add, with the Elektra swap). Keeps Crimson Cowl (general 862/2281, optimized 5/25) and cuts Kang Prime (optimized 14/26). Not preferred: Kang Prime is a stronger incumbent by adoption, while Crimson Cowl's Loki copy does nothing."
+  },
+  {
+   "id": "ALT_ELEKTRA_OVER_IRON_MONGER_KEEP_KILLMONGER",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_alt_Elektra_over_IronMonger_keep_Killmonger_20261023.txt",
+   "raw_sha256": "2203ddbb8588fb7ee290a09e7fb5737ee9d0b20a7dcbf8f121b27f4962056d22",
+   "logical_hash": "lh1:3a1ddf86aad559554931d8c15fc8df49231fb85d82204b8c34cdf7bce2881625",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged alternative cut for the Elektra add, with the Ultimo swap). Keeps Killmonger, Ruthless Usurper and cuts Iron Monger, Sadistic Tycoon (optimized 14/25). Not preferred: Iron Monger has the higher adoption."
+  },
+  {
+   "id": "STAGED_VICTOR_TIMELY_OVER_KANG_PRIME",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_staged_plus_VictorTimely_minus_KangPrime_20261023.txt",
+   "raw_sha256": "4207ccfbabe403e731e857d69bd7c23ce42c2cad66217836252e909b38e93a04",
+   "logical_hash": "lh1:ad8ee5560ab9bb7921d6ae7f7bb2cc0d6b586b97a5342d6146bf672d551298ec",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_NOT_COUNTED (three-swap staged). Victor Timely, Wily Tycoon's enters trigger recasts a mana-value-4-or-less artifact, instant or sorcery from the graveyard on every Loki copy, but it needs graveyard fuel and is off-ranking (card page 53/2281 Loki decks) against Kang Prime (optimized 14/26). Not clearly better; owner decision only."
+  },
+  {
+   "id": "REJECT_KINGPIN_OVER_MADAME_HYDRA",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_rejected_plus_KingpinWilsonFisk_minus_MadameHydra_20261023.txt",
+   "raw_sha256": "3f92360346c052081a9813bb4b2de7e6a9a2aff3c2b2babdc41bbec7b31591df",
+   "logical_hash": "lh1:29e0b04f01894ed5de6092ba3be928ef3bc00675dad053abc254d43096b2586d",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (three-swap). Kingpin, Wilson Fisk turns Loki's end-step token sacrifice into two Treasures once per turn, but Madame Hydra (optimized 15/26) is the stronger incumbent, and The Master, Multiplied stops the sacrifice. General 469/2281, absent from optimized."
+  },
+  {
+   "id": "REJECT_SECLUDED_COURTYARD_OVER_PATH_OF_ANCESTRY",
+   "path": "data/grixis/m7/research_challengers/Loki__the_Deceiver_rejected_plus_SecludedCourtyard_minus_PathOfAncestry_20261023.txt",
+   "raw_sha256": "d2979b32c6f0f7d0caa2a060e28e05fb67ed909472c6d1b22cf8be6f4fe8680a",
+   "logical_hash": "lh1:5f349ccc0a686def552c14abadbfeb90d2b41b6953aed30a795a71411d133c7a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (three-swap, marginal). Untapped, but its coloured mana is restricted to Villain creature spells and abilities, while the deck's coloured noncreature spells (Mana Drain, Rhystic Study, Demonic Tutor, Toxic Deluge, Dark Ritual, Jeska's Will, Chaos Warp) would get only {C}. Goldfish (which models the Villain-only restriction for deployment): P(Loki attacks with a valid target) turn 4 0.1682 -> 0.1767 and turn 5 0.5696 -> 0.5803, about one point against Monte Carlo noise of about plus or minus 0.5 points, while the {C}-only cost to the coloured noncreature spells is not fully captured by a deployment goldfish. Marginal, not counted (no padding)."
+  }
+ ]
+}

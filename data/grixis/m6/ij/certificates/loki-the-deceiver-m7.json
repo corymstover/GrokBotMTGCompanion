@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Loki__the_Deceiver",
+  "slug": "loki-the-deceiver",
+  "generated_at": "2026-10-23T16:10:57-05:00",
+  "list_hash": "lh1:d26a9eea1d9d69ecd6c8e029d446bb587ad5b71b75371d494035a1211c1b40d8",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:71fd914fece798141e8797095077df0024b76818140b10f2d2f00596c1defb86",
+    "tested_pool_size": 11
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_loki_the_deceiver_m7_mechanics.py",
+      "tests/test_m7_loki_the_deceiver_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_loki_the_deceiver_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Loki__the_Deceiver_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Loki__the_Deceiver_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Loki__the_Deceiver_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Loki__the_Deceiver_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Loki__the_Deceiver.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 11 complete configurations in the pool: raw baseline, registry canonical export, the research candidate (two genuine swaps, +Ultimo, Civilization's End -Crimson Cowl, Master of Evil and +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper; RESEARCH_ONLY, below the five-swap floor; no owner addition or explicit keep cut), the Pass C requested Strionic Resonator over Swiftfoot Boots (retained alternative, not counted: payable on an attack only 0.0393 by turn 6), the Pass C requested Seize the Day over Black Market Connections and over Urza's Incubator (rejected: castable postcombat 0.0219 by turn 6 and fewer draws in 630 of 756 cells), Ultimo over Kang Prime keeping Crimson Cowl and Elektra over Iron Monger keeping Killmonger (staged alternative cuts, not counted), Victor Timely over Kang Prime (staged, not counted), and the rejected Kingpin over Madame Hydra and Secluded Courtyard over Path of Ancestry. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}
