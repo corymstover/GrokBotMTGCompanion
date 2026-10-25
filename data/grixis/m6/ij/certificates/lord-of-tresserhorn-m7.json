@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Lord_of_Tresserhorn",
+  "slug": "lord-of-tresserhorn",
+  "generated_at": "2026-10-23T16:59:08-05:00",
+  "list_hash": "lh1:c01c0d9c2ea75d54c110a6fa0345ce27094eea53a7a7a226b77f711e22984961",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:82eefd1fff407b190e7a77543fec18090ba7579646b192d5232de95c8fc160be",
+    "tested_pool_size": 12
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_lord_of_tresserhorn_m7_mechanics.py",
+      "tests/test_m7_lord_of_tresserhorn_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_lord_of_tresserhorn_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Lord_of_Tresserhorn_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Lord_of_Tresserhorn_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_of_Tresserhorn_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_of_Tresserhorn_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_of_Tresserhorn_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Lord_of_Tresserhorn.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 12 complete configurations in the pool: raw baseline, registry canonical export, the five-swap review candidate (+Fierce Guardianship -Stubborn Denial, +Consign to Memory -Feed the Swarm, +Black Market Connections -Cover of Darkness, +Ornithopter of Paradise -Fellwar Stone, +Skullclamp -Sheoldred's Edict; Stubborn Denial is an owner-cycle add and the other four cuts were owner audit keeps, all flagged), staged alternatives alt A (four swaps keeping Sheoldred's Edict), alt B (Skullclamp over Muddle the Mixture keeping the Edict; deployment 0.6672 vs 0.6613, within noise, not selected because Muddle is an owner add), alt C (Skullclamp over Nightscape Familiar), the Pass C requested Soul's Fire over Sheoldred's Edict, Fierce Guardianship over Nightscape Familiar and Distortion Strike over Rogue's Passage (retained alternatives, not counted), and the rejected Aqueous Form over Muddle the Mixture, the withdrawn prior draft Temur Battle Rage over Pain for All (owner cut, inadmissible) and the original tentative plan. Uses Lord of Tresserhorn's actual Oracle text (enters: lose 2 life, sacrifice two creatures, target opponent draws two; {B}: regenerate Lord); there is no opponent-regeneration clause. Not owner approval; the canonical list is unchanged."
+  }
+}
