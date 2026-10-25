@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Grixistax___October_2026",
+  "slug": "grixistax-october-2026",
+  "generated_at": "2026-10-23T15:36:37-05:00",
+  "list_hash": "lh1:81656e61ce5b299509c70da8d8d39aaa41d6ecfbf4281f05857a936575207baf",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Grixistax___October_2026_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:d27ec6d4b28dbb151d3893094a1575ec167e07d596fac435ba340d64d44f975e",
+    "tested_pool_size": 12
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_grixistax_october_2026_m7_mechanics.py",
+      "tests/test_m7_grixistax_october_2026_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_grixistax_october_2026_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Grixistax___October_2026_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Grixistax___October_2026_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Grixistax___October_2026_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Grixistax___October_2026.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 12 complete configurations in the pool: raw baseline, registry canonical export, the research candidate (two genuine swaps, +Arcane Signet -Mox Amber and +Bitterblossom -Windfall; RESEARCH_ONLY, below the five-swap floor; no owner card overridden), the Pass C requested Talisman of Indulgence over Mox Amber (rejected, dominated by Arcane Signet), the Pass C competing cut Arcane Signet over Overburden keeping Mox Amber (rejected, owner keep), Arcane Signet over Mox Amber alone, Bitterblossom over Cyclonic Rift and over Magus of the Moon keeping Windfall (staged alternative cuts, not counted), Opposition over Static Orb and over Magus of the Moon (staged owner decisions, not counted), and the rejected Frozen Aether over Static Orb and Strip Mine over Gemstone Caverns. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}

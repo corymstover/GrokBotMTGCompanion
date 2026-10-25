@@ -1,0 +1,126 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Grixistax___October_2026",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 2 partner commanders + 98 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Grixistax___October_2026_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Grixistax___October_2026_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Grixistax___October_2026_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Grixistax___October_2026_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 12,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Grixistax___October_2026_approved_source_2026-10-14.txt",
+   "raw_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+   "logical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw f36346d4..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt, blob 86b8d18a, introduced by canonical approval commit cc7a938 on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides, tracker final_list_hash, registry and Pass C seal record the same bytes; copied exactly)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/grixistax-october-2026.txt",
+   "raw_sha256": "f0a28f936c03705df0e215738e4ad314d337bb3e713dcf7b2c50beba5a2f9a08",
+   "logical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline (lh1:f56e9d1d...). Current, not stale."
+  },
+  {
+   "id": "RESEARCH_TWO_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+   "raw_sha256": "a04f16ba3a75bd53963866fd0b18c0390af54930b5526e6893ac6c6a6503b858",
+   "logical_hash": "lh1:81656e61ce5b299509c70da8d8d39aaa41d6ecfbf4281f05857a936575207baf",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (two genuine admissible swaps, +Arcane Signet -Mox Amber and +Bitterblossom -Windfall; the five-swap owner-presentation floor is not met, so NOT owner-presentable). Arcane Signet: the Pass C requested test; bounded seeded goldfish (seed 27, 40000 games per cell) raises mean turn-4 mana sources 3.138 -> 3.193 and P(UU) under our own Contamination 0.038 -> 0.053; Mox Amber is live given deployed only 0.051/0.086/0.173/0.274 on turns 1-4 (Karn alone makes it produce nothing); EDHREC partner cEDH 79/81 vs Amber 18/81. Bitterblossom: a commander-independent token stream for Tevesh's +1, Contamination upkeep, Skullclamp, Phyrexian Tower, Culling the Weak and Beseech bargain; P(token engine online by turn 4) 0.1532 (Tevesh only, baseline) -> 0.2309, under Contamination 0.1187 -> 0.2019. Windfall refills opponents unless Narset or Notion Thief is out and is in no Spellbook combo here (adoption caveat: partner cEDH 53/81, mostly turbo lists). Neither cut is an owner addition or explicit keep. Spellbook 6 -> 6; lands 26 unchanged; Game Changers 22 unchanged. Serialized two commanders first, case-insensitive alphabetical, terminal newline."
+  },
+  {
+   "id": "PASS_C_TALISMAN_OF_INDULGENCE_OVER_MOX_AMBER",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_TalismanOfIndulgence_minus_MoxAmber_20261023.txt",
+   "raw_sha256": "9d4b2acf31209667de41aa75a2e98cf3f5345897fbfa515757a3ef0c55f8ac43",
+   "logical_hash": "lh1:5fc09cc378d487923b993037b6eb8e7885f5b7ba09986a3fab9f9ced5573c7e7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (Pass C requested comparison; two-swap with Bitterblossom). Talisman of Indulgence equals Arcane Signet on raw mana (turn-4 mean 3.193) but makes only C/B/R and pings; P(U) by turn 4 under Contamination 0.272 vs Signet 0.330 (baseline 0.279). Dominated by Arcane Signet. Spellbook 6 -> 6."
+  },
+  {
+   "id": "PASS_C_ARCANE_SIGNET_OVER_OVERBURDEN_KEEP_AMBER",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_Overburden_keep_MoxAmber_20261023.txt",
+   "raw_sha256": "089b09e775cd32c4e45bde86f8a17fb2ed3f3b1b02a4dfe47edfaa66cf6412a0",
+   "logical_hash": "lh1:0b6fef6589e4bc8e2b749a108391e897852c205b1cb5bc28b80872b33bcd11a8",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (Pass C competing cut). Overburden is explicitly retained by the owner on 2026-10-14; the evidence for Signet is against Amber specifically (Amber's low live rate), so cutting the owner keep is not clearly better. Spellbook 6 -> 6."
+  },
+  {
+   "id": "ARCANE_SIGNET_ONLY",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_PassC_plus_ArcaneSignet_minus_MoxAmber_only_20261023.txt",
+   "raw_sha256": "22b4adf15986798ec7fddb36627d636cdfdde8a648da89ab471e1cccaa956fe8",
+   "logical_hash": "lh1:0c6fb7af181994218a402b5c5ceb63d94c1cbd7e8dfedb0e6075e4b91ed91945",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap subset, staged). The Pass C mana swap alone, if the owner declines Bitterblossom. Spellbook 6 -> 6."
+  },
+  {
+   "id": "BITTERBLOSSOM_OVER_CYCLONIC_RIFT_KEEP_WINDFALL",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_CyclonicRift_keep_Windfall_20261023.txt",
+   "raw_sha256": "21b8530bf8fc30a3bb227a2bbda54d2f081a81b2bd27cb7e3620a309b5be721a",
+   "logical_hash": "lh1:7429d4450982adcb8d1883924f469053dc0c38ea8b1981e4468be4255c0fc2d4",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged alternative cut for the Bitterblossom add). Keeps Windfall (higher partner cEDH adoption) and cuts Cyclonic Rift (Game Changer, 22 -> 21; overload costs seven under our own Orbs). Not preferred: Rift is the deck's main mass answer to opposing boards under stax. Spellbook 6 -> 6."
+  },
+  {
+   "id": "BITTERBLOSSOM_OVER_MAGUS_OF_THE_MOON_KEEP_WINDFALL",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_alt_Bitterblossom_over_MagusOfTheMoon_keep_Windfall_20261023.txt",
+   "raw_sha256": "d39c902ff56c24f809060fc1cc0f2e11a2a3cc785a30d84780a4e5f9baf431ba",
+   "logical_hash": "lh1:33be7638278223c2b50af05d76be344fd3cf831f09cf684e212008c6c1e19969",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged alternative cut). Magus of the Moon is a redundant, fragile Moon creature (deep review) and a nontoken creature that bounces our own land under Overburden; the deck keeps Blood Moon and Back to Basics. Not preferred over cutting Windfall because Magus is the third land-lock piece. Spellbook 6 -> 6."
+  },
+  {
+   "id": "STAGED_OPPOSITION_OVER_STATIC_ORB",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_StaticOrb_20261023.txt",
+   "raw_sha256": "977742866147db36314ed371593bb7ea3fce079369b63eaecd0f3a76d7547ee8",
+   "logical_hash": "lh1:0aa7e53935c191bc7e387edacca1d8e2408e15c78df59902f9474092602b3aca",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_NOT_COUNTED (three-swap staged). Opposition is an asymmetric Thrull/Faerie lock that taps opponents' remaining untapped land under Winter Orb and is anti-synergistic with Static Orb's two-permanent untap cap, but measured deployability is far worse: P(seen and castable) by turn 4 0.0329 vs Static Orb 0.0599 with no lock, 0.0034 vs 0.0584 under our own Contamination. Not clearly better. Spellbook 6 -> 6."
+  },
+  {
+   "id": "STAGED_OPPOSITION_OVER_MAGUS_OF_THE_MOON",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_staged_plus_Opposition_minus_MagusOfTheMoon_20261023.txt",
+   "raw_sha256": "9247b1529b5909871a032b5079a62070b912d2c7ea0b9db413ade071e99d7149",
+   "logical_hash": "lh1:7ac7d3f86bb0c30e874d094eac8f2e89b787aeba4c2ea4bec08d211950e12163",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE_NOT_COUNTED (three-swap staged). Same Opposition add, keeping Static Orb and cutting Magus of the Moon; the UU-under-own-lock problem remains and Opposition/Static Orb still conflict. Owner decision only. Spellbook 6 -> 6."
+  },
+  {
+   "id": "REJECT_FROZEN_AETHER_OVER_STATIC_ORB",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_FrozenAether_minus_StaticOrb_20261023.txt",
+   "raw_sha256": "b3aeea403a19632402d927f97e677ecbf1e5d576bb501ff28822a9fec9f4a388",
+   "logical_hash": "lh1:13570522ec68f7b7b6f23c3aee3ae468979e0309e0e844629eb1f03b2a32dd11",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (three-swap). Frozen Aether is four mana, does not touch permanents already in play, and does not stop instant-speed combo; absent from every EDHREC page for this pair or Tevesh. Spellbook 6 -> 6."
+  },
+  {
+   "id": "REJECT_STRIP_MINE_OVER_GEMSTONE_CAVERNS",
+   "path": "data/grixis/m7/research_challengers/Grixistax___October_2026_rejected_plus_StripMine_minus_GemstoneCaverns_20261023.txt",
+   "raw_sha256": "7ec9bb59a89368cb4675165a505b5f476d65d09b9920cc8dcfba8352df3f0e9f",
+   "logical_hash": "lh1:5aef26472f98afdd03fa5b4a36f1881b53e02a33b4cba8fd84c2a243fdce2422",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (three-swap). Strip Mine is colourless and loses its ability under our own Blood Moon / Magus; Gemstone Caverns is any-colour with a luck counter about three games in four (partner cEDH 73/81). Spellbook 6 -> 6."
+  }
+ ]
+}
