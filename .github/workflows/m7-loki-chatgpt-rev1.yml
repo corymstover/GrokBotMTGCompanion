@@ -1,0 +1,35 @@
+name: M7 Deck 28 Loki ChatGPT Rev1 independent (focused)
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-loki-chatgpt-rev1.yml
+      - data/grixis/m7/candidate_lists/Loki__the_Deceiver_ChatGPT_Rev1.txt
+      - data/grixis/m7/decision_reviews/Loki__the_Deceiver_ChatGPT_Rev1_20261025.md
+      - tests/test_m7_loki_the_deceiver_rev1_independent.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  loki-independent-rev1:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact proposed head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pytest
+        run: python -m pip install --disable-pip-version-check pytest
+      - name: Record SHA
+        run: git rev-parse HEAD
+      - name: Loki M7 Rev1 source and Oracle gate
+        run: python -m pytest -v tests/test_m7_loki_the_deceiver_rev1_independent.py
+      - name: Archive source bindings remain unchanged
+        run: python -m pytest -v tests/test_m6_loki_the_deceiver_m7_ij.py

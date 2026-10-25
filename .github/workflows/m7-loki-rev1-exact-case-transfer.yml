@@ -1,0 +1,30 @@
+name: M7 Loki Rev1 Exact 13-Case Transfer
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - "tests/test_m6_loki_rev1_case_transfer.py"
+      - ".github/workflows/m7-loki-rev1-exact-case-transfer.yml"
+      - "data/grixis/m7/candidate_lists/Loki__the_Deceiver_ChatGPT_Rev1.txt"
+      - "data/grixis/m6/oracle_snapshots/Loki__the_Deceiver_M7_Scryfall_20261023.json"
+  push:
+    branches: [chatgpt-loki-m7-rev1-independent-20261025]
+permissions:
+  contents: read
+jobs:
+  exact-source-p0-p1-case-mapping:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Print exact tested head
+        run: git rev-parse HEAD
+      - name: Run all 13 exact Loki Blueprint M6 P0 P1 finite source-bound fixtures
+        run: python3 -m unittest discover -s tests -p test_m6_loki_rev1_case_transfer.py -v
+      - name: Check independent whole-99 and exact seven swaps
+        run: python3 -m unittest discover -s tests -p test_m7_loki_the_deceiver_rev1_independent.py -v

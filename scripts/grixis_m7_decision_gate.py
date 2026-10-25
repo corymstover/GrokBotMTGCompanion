@@ -222,6 +222,43 @@ def verified_superseding_owner_approved_source(packet, root):
     return source, False
 
 
+def verify_baseline_provenance_exception(packet, deck, root):
+    """Fail-closed handling of a registry digest that is NOT the physical source hash.
+
+    Only when the registry explicitly records ``recorded_matches_raw: false``
+    may (and must) a packet carry ``baseline_provenance_exception``. The
+    historical digest and physical raw SHA-256 are bound separately; the packet
+    baseline must be the physical bytes, which must be vendored byte-for-byte.
+    Returns the vendored source path, or None when the ordinary rule applies.
+    No match between the two hashes is ever manufactured or implied.
+    """
+    source = deck.get("source", {})
+    exception = packet.get("baseline_provenance_exception")
+    if source.get("recorded_matches_raw") is not False:
+        if exception is not None:
+            raise DecisionGateError(
+                "Baseline provenance exception is forbidden unless the registry records a digest/raw mismatch")
+        return None
+    if exception is None:
+        raise DecisionGateError(
+            "Registry digest does not match physical source bytes; a source-bound baseline provenance exception is required")
+    raw = str(source.get("raw_sha256", ""))
+    raw = raw[len("sha256:"):] if raw.startswith("sha256:") else raw
+    if (not re.fullmatch(r"[0-9a-f]{64}", raw)
+            or exception["historical_registry_digest"] != source.get("recorded_sha256")
+            or exception["physical_raw_sha256"] != raw
+            or exception["historical_registry_digest"] == exception["physical_raw_sha256"]
+            or packet["canonical_baseline_sha256"] != raw
+            or exception["source_repository"] != source.get("repository")
+            or exception["source_path"] != source.get("path")):
+        raise DecisionGateError("Baseline provenance exception does not bind the registry's separate digest and raw hash")
+    check_text(exception["discrepancy_explanation"], "Baseline digest/raw discrepancy explanation", 80)
+    vendored = safe_file(root, exception["vendored_source_copy"])
+    if hashlib.sha256(vendored.read_bytes()).hexdigest() != raw:
+        raise DecisionGateError("Vendored canonical source bytes do not match the registry physical raw SHA-256")
+    return vendored
+
+
 def verify_post_floor_search(packet, baseline, commanders, companions, material_ids, root):
     """Prospective owner rule: five is presentation floor, not research target.
 
@@ -297,14 +334,23 @@ def verify_packet(packet, *, root=ROOT, registry=None):
         raise DecisionGateError("Unknown canonical roster deck ID: " + deck_id)
     superseding = verified_superseding_owner_approved_source(packet, root)
     if superseding is None:
-        if packet["canonical_baseline_sha256"] != r["source"]["recorded_sha256"]:
+        mismatch = verify_baseline_provenance_exception(packet, r, root)
+        if not mismatch and packet["canonical_baseline_sha256"] != r["source"]["recorded_sha256"]:
             raise DecisionGateError("M7 baseline does not match registry's exact recorded approved raw SHA")
         if packet["canonical_baseline_logical_hash"] != r["current_canonical_hash"]:
             raise DecisionGateError("M7 baseline does not match canonical logical source hash")
         source, markdown = canonical_source(root, r)
     else:
+        if packet.get("baseline_provenance_exception") is not None:
+            raise DecisionGateError("Baseline provenance exception cannot combine with a superseding approval")
         source, markdown = superseding
     baseline, commanders, companions = parse_list(source, source_markdown=markdown)
+    if superseding is None and mismatch:
+        vendored, vcmds, vcomps = parse_list(mismatch)
+        front = lambda cards: Counter(name.split(" // ", 1)[0] for name in cards)
+        if front(vendored) != front(baseline) or vcmds != commanders or vcomps != companions:
+            raise DecisionGateError(
+                "Vendored physical canonical source inventory differs from the registry canonical project list")
     validate_companion(deck_id, companions)
     final_path = packet["final_candidate"]["path"]
     if not final_path.startswith("data/grixis/m7/candidate_lists/") or not final_path.endswith(".txt"):
