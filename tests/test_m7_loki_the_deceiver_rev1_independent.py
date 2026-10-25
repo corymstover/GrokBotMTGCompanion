@@ -80,7 +80,11 @@ class LokiM7Rev1IndependentTests(unittest.TestCase):
             record = self.oracle[name]
             self.assertEqual(record["commander_legality"], "legal", name)
             self.assertTrue(set(record["color_identity"]) <= {"U", "B", "R"}, name)
-            self.assertLessEqual(record["released_at"], "2026-10-25", name)
+            # Scryfall's selected print can be a future REPRINT of a legal older
+            # name (Blood Crypt, basic lands, etc.). The date of that printing
+            # is not the first legality date of the underlying card.
+        for name in SWAPS:
+            self.assertLessEqual(self.oracle[name]["released_at"], "2026-10-25", name)
         self.assertEqual(self.oracle["Loki, the Deceiver"]["set"], "msc")
         self.assertEqual(self.oracle["Loki, the Deceiver"]["released_at"], "2026-06-26")
         self.assertEqual(sorted(n for n in self.candidate if self.oracle[n]["game_changer"]),
