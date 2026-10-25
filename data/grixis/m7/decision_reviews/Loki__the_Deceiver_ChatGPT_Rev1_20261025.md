@@ -47,7 +47,7 @@ Alternatives fully considered:
 
 ## Exact-source gates and limits
 
-The 2026-10-23 live Scryfall 450-name Oracle archive on this engineering branch contains **every selected card**, with Commander-legal status and Grixis color identity. Wizards' current Commander banned list and October 2026 announcements were checked on 2026-10-25. This is not a claim that a new 100-name Scryfall collection query occurred today. No project exceptions.
+The 2026-10-23 live Scryfall 450-name Oracle archive on this engineering branch contains **every selected card**, with Commander-legal status and Grixis color identity. Wizards' current Commander banned list and October 2026 announcements were checked on 2026-10-25. Some selected entries in that card-level snapshot have future *reprint* dates (for example Blood Crypt); these are already legal older card names. All seven newly added card names have released printings no later than 2026-10-25. This is not a claim that a new 100-name Scryfall collection query occurred today. No project exceptions.
 
 100 cards, 95 distinct names; only Island x3, Mountain x2, Swamp x3 repeat. 34 lands; 34 library creatures; 12 artifacts; 6 enchantments; 7 instants; 6 sorceries; 1 commander. Printed noncommander Villains MV 3 or less: 10 -> 12. Mean nonland library MV: 3.3846 -> 3.3077. Game Changers unchanged at five: Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will and Rhystic Study.
 
