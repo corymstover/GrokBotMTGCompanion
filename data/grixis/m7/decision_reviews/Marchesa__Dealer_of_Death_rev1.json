@@ -432,7 +432,7 @@
   "owner_authority": {
     "canonical_deck_changed": false,
     "exact_candidate_owner_approved": false,
-    "owner_approval_question": "Deck #34 Marchesa, Dealer of Death M7 Rev1 is complete. Do you approve this exact SHA?"
+    "owner_approval_question": "This deck is complete. Do you approve it?"
   },
   "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
   "open_ended_optimization_audit": {
