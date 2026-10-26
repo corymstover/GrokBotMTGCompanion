@@ -173,7 +173,7 @@ upgrade exists.
   engine or randomized four-player test; its fixture outputs do not prove
   cEDH win percentage, full stack semantics, or every unmodeled card effect.
 - **M6 case provenance:** Exact commander-effect blueprint
-  `data/grixis/m6/test_blueprints/Marchesa__Dealer_of_Death.json` has 15
+  `data/grixis/m6/test_blueprints/Marchesa__Dealer_of_Death.json` has 16
   planned P0/P1 cases, all originally
   `DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN`. New tests are case-labeled partial
   executions but have **not yet been accepted and scope-transferred** by the
@@ -183,7 +183,7 @@ upgrade exists.
   input bytes attested, `phase_b_replayed=false`, and downstream
   incomplete. The exact eight-card candidate creates new effects/targets and
   invalidates any blind transfer of historical full-100 outcome claims.
-  An explicit case-by-case 15-ID plan is above; current finished I/J final
+  An explicit case-by-case 16-ID plan is above; current finished I/J final
   bundle, test-pool local optimum certificate, exact-head CI receipt and final
   decision gate remain **unverified/pending**.
 
