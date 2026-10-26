@@ -1,0 +1,1155 @@
+{
+  "source": "https://api.scryfall.com/cards/collection",
+  "query_date_utc": "2026-10-26",
+  "candidate_raw_sha256": "c4857d176eaa6ed682da7cab974014d393fce2efe698bdca6994d77bb27ddf02",
+  "cards": [
+    {
+      "name": "Marchesa, the Black Rose",
+      "oracle_id": "17a59d3d-9e01-48cd-bb4a-3eaaa077751c",
+      "oracle_text": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)\nOther creatures you control have dethrone.\nWhenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.",
+      "type_line": "Legendary Creature — Human Wizard",
+      "mana_cost": "{1}{U}{B}{R}",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Accursed Marauder",
+      "oracle_id": "d8ad23a1-0b43-48ea-9fbe-d89b29194509",
+      "oracle_text": "When this creature enters, each player sacrifices a nontoken creature of their choice.",
+      "type_line": "Creature — Zombie Warrior",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Aether Channeler",
+      "oracle_id": "fb220f46-f8b8-4804-baa4-e7d50b4871f7",
+      "oracle_text": "When this creature enters, choose one —\n• Create a 1/1 white Bird creature token with flying.\n• Return another target nonland permanent to its owner's hand.\n• Draw a card.",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Agatha's Soul Cauldron",
+      "oracle_id": "c259e16f-2a44-4552-8678-815f757a02e8",
+      "oracle_text": "You may spend mana as though it were mana of any color to activate abilities of creatures you control.\nCreatures you control with +1/+1 counters on them have all activated abilities of all creature cards exiled with Agatha's Soul Cauldron.\n{T}: Exile target card from a graveyard. When a creature card is exiled this way, put a +1/+1 counter on target creature you control.",
+      "type_line": "Legendary Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Altar of Dementia",
+      "oracle_id": "d64e9152-ef24-4394-aeb0-9c3befc56549",
+      "oracle_text": "Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "An Offer You Can't Refuse",
+      "oracle_id": "234a734b-ba28-4f1b-9d01-3c3e7d516590",
+      "oracle_text": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "type_line": "Instant",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Ancient Tomb",
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": true
+    },
+    {
+      "name": "Arcane Signet",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Ashnod's Altar",
+      "oracle_id": "4d18bcba-a346-445e-a182-6cc30b7e066d",
+      "oracle_text": "Sacrifice a creature: Add {C}{C}.",
+      "type_line": "Artifact",
+      "mana_cost": "{3}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Badlands",
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "oracle_text": "({T}: Add {B} or {R}.)",
+      "type_line": "Land — Swamp Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Baleful Strix",
+      "oracle_id": "37688720-03de-4eca-a82d-a0afe8d58adc",
+      "oracle_text": "Flying, deathtouch\nWhen this creature enters, draw a card.",
+      "type_line": "Artifact Creature — Bird",
+      "mana_cost": "{U}{B}",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Blasphemous Act",
+      "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+      "oracle_text": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+      "type_line": "Sorcery",
+      "mana_cost": "{8}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Blood Artist",
+      "oracle_id": "310f141c-7f37-4729-aed6-dd9c09db448d",
+      "oracle_text": "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
+      "type_line": "Creature — Vampire",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Blood Crypt",
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "type_line": "Land — Swamp Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Bloodstained Mire",
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Carrion Feeder",
+      "oracle_id": "a1cc5e37-b09a-4b7f-afd5-77c1c35aa425",
+      "oracle_text": "This creature can't block.\nSacrifice a creature: Put a +1/+1 counter on this creature.",
+      "type_line": "Creature — Zombie",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Chaos Warp",
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "type_line": "Instant",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Command Tower",
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Curse-Marred Demon",
+      "oracle_id": "f30a084c-5705-40f5-8e0d-2083d33973c7",
+      "oracle_text": "Flying, trample\nWhen this creature enters, search your library for a card, put it into your hand, shuffle, then discard a card at random.",
+      "type_line": "Creature — Demon",
+      "mana_cost": "{2}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Cyclonic Rift",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": true
+    },
+    {
+      "name": "Danny Pink",
+      "oracle_id": "92cda790-7907-47d1-8e5a-d3364c1e881f",
+      "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nCreatures you control have \"Whenever one or more counters are put on this creature for the first time each turn, draw a card.\"",
+      "type_line": "Legendary Creature — Human Soldier Advisor",
+      "mana_cost": "{3}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Demonic Tutor",
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": true
+    },
+    {
+      "name": "Diabolic Intent",
+      "oracle_id": "038519b9-bca8-4b27-b5ac-2409595469d0",
+      "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a card, put that card into your hand, then shuffle.",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Exotic Orchard",
+      "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Fellwar Stone",
+      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Fierce Guardianship",
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+      "type_line": "Instant",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": true
+    },
+    {
+      "name": "Flare of Denial",
+      "oracle_id": "437cfd16-94bc-43ba-afd8-e9e9d028a4ca",
+      "oracle_text": "You may sacrifice a nontoken blue creature rather than pay this spell's mana cost.\nCounter target spell.",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Flayer of the Hatebound",
+      "oracle_id": "ba9f3c5d-556f-48d1-8d87-723f7893cfcd",
+      "oracle_text": "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)\nWhenever this creature or another creature enters from your graveyard, that creature deals damage equal to its power to any target.",
+      "type_line": "Creature — Devil",
+      "mana_cost": "{5}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Flooded Strand",
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Forge of Heroes",
+      "oracle_id": "77807103-bcd5-479f-bedd-f5d97aa6d3d2",
+      "oracle_text": "{T}: Add {C}.\n{T}: Choose target commander that entered this turn. Put a +1/+1 counter on it if it's a creature and a loyalty counter on it if it's a planeswalker.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Gev, Scaled Scorch",
+      "oracle_id": "77b832a8-a3af-44fe-bc67-72510d292667",
+      "oracle_text": "Ward—Pay 2 life.\nOther creatures you control enter with an additional +1/+1 counter on them for each opponent who lost life this turn.\nWhenever you cast a Lizard spell, Gev deals 1 damage to target opponent.",
+      "type_line": "Legendary Creature — Lizard Mercenary",
+      "mana_cost": "{B}{R}",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Glen Elendra Archmage",
+      "oracle_id": "5f3f68b5-8c6a-4181-bb8a-9c73967d198a",
+      "oracle_text": "Flying\n{U}, Sacrifice this creature: Counter target noncreature spell.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+      "type_line": "Creature — Faerie Wizard",
+      "mana_cost": "{3}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Goblin Bombardment",
+      "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
+      "oracle_text": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Grave Pact",
+      "oracle_id": "6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2",
+      "oracle_text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{B}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Gray Merchant of Asphodel",
+      "oracle_id": "38f3b157-0df4-409b-89cc-086e1531cd5b",
+      "oracle_text": "When this creature enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+      "type_line": "Creature — Zombie",
+      "mana_cost": "{3}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Grim Haruspex",
+      "oracle_id": "72aef1d8-11df-4bc2-af83-907b05df73a8",
+      "oracle_text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "High Market",
+      "oracle_id": "86fb3749-37d6-48a6-8524-71e996850307",
+      "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Imperial Recruiter",
+      "oracle_id": "4d6a1391-817a-4ddc-840d-886b138eeb3f",
+      "oracle_text": "When this creature enters, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle.",
+      "type_line": "Creature — Human Advisor",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Iron Apprentice",
+      "oracle_id": "cd0c8db0-67ee-483b-8298-455cce35fef7",
+      "oracle_text": "This creature enters with a +1/+1 counter on it.\nWhen this creature dies, if it had counters on it, put those counters on target creature you control.",
+      "type_line": "Artifact Creature — Construct",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Island",
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "oracle_text": "({T}: Add {U}.)",
+      "type_line": "Basic Land — Island",
+      "mana_cost": "",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Lightning Greaves",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Luxury Suite",
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Madame Null, Power Broker",
+      "oracle_id": "73413bd5-8c40-4d45-8f05-c20c39ee4017",
+      "oracle_text": "Deathtouch\nWhenever another creature you control enters, you may pay life equal to its power. If you do, put that many +1/+1 counters on it.",
+      "type_line": "Legendary Creature — Demon Advisor",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Mana Confluence",
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Marionette Apprentice",
+      "oracle_id": "726d9d2c-736a-4852-9938-a0f50d8fd89f",
+      "oracle_text": "Fabricate 1 (When this creature enters, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)\nWhenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life.",
+      "type_line": "Creature — Human Artificer",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Mayhem Devil",
+      "oracle_id": "4709f11c-aef8-45ac-b2bf-e640c568dfac",
+      "oracle_text": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target.",
+      "type_line": "Creature — Devil",
+      "mana_cost": "{1}{B}{R}",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Metallic Mimic",
+      "oracle_id": "1f91297a-ec2b-4ea8-9198-aa1daac20ff8",
+      "oracle_text": "As this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nEach other creature you control of the chosen type enters with an additional +1/+1 counter on it.",
+      "type_line": "Artifact Creature — Shapeshifter",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Mikaeus, the Unhallowed",
+      "oracle_id": "5d27c63e-d1ef-48af-b51d-01ebc6daeac9",
+      "oracle_text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)\nWhenever a Human deals damage to you, destroy it.\nOther non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+      "type_line": "Legendary Creature — Zombie Cleric",
+      "mana_cost": "{3}{B}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Misty Rainforest",
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Morphic Pool",
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Mountain",
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "oracle_text": "({T}: Add {R}.)",
+      "type_line": "Basic Land — Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Murderous Redcap",
+      "oracle_id": "a498bc70-36e7-4454-bc44-906893df38b8",
+      "oracle_text": "When this creature enters, it deals damage equal to its power to any target.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+      "type_line": "Creature — Goblin Assassin",
+      "mana_cost": "{2}{B/R}{B/R}",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Phyrexian Altar",
+      "oracle_id": "8d02b297-97c4-4379-9862-0a462400f66f",
+      "oracle_text": "Sacrifice a creature: Add one mana of any color.",
+      "type_line": "Artifact",
+      "mana_cost": "{3}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Phyrexian Tower",
+      "oracle_id": "1861e642-21d5-4232-89f3-b5557f2946c1",
+      "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: Add {B}{B}.",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Pitiless Plunderer",
+      "oracle_id": "a784481f-eccb-4112-bb38-04a659319660",
+      "oracle_text": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "type_line": "Creature — Human Pirate",
+      "mana_cost": "{3}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Polluted Delta",
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Puppeteer Clique",
+      "oracle_id": "00e0b103-892c-49b3-836d-867fff197bbd",
+      "oracle_text": "Flying\nWhen this creature enters, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+      "type_line": "Creature — Faerie Wizard",
+      "mana_cost": "{3}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Reanimate",
+      "oracle_id": "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0",
+      "oracle_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+      "type_line": "Sorcery",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Sage of Fables",
+      "oracle_id": "f53da056-97be-41ad-8cfc-0d92e17dcd7b",
+      "oracle_text": "Each other Wizard creature you control enters with an additional +1/+1 counter on it.\n{2}, Remove a +1/+1 counter from a creature you control: Draw a card.",
+      "type_line": "Creature — Merfolk Wizard",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Satoru, the Infiltrator",
+      "oracle_id": "7555c429-5f2d-4171-b6b0-8e3c8da7f314",
+      "oracle_text": "Menace\nWhenever Satoru and/or one or more other nontoken creatures you control enter, if none of them were cast or no mana was spent to cast them, draw a card.",
+      "type_line": "Legendary Creature — Human Ninja Rogue",
+      "mana_cost": "{U}{B}",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Scalding Tarn",
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Scorn-Blade Berserker",
+      "oracle_id": "93107139-b743-4d62-b0ac-9997202e0562",
+      "oracle_text": "Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following ability until end of turn.)\n{1}, Sacrifice this creature: Draw a card.",
+      "type_line": "Creature — Human Berserker",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Shivan Reef",
+      "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Skullclamp",
+      "oracle_id": "65986c1b-8e51-4604-b685-d82fa7d1263a",
+      "oracle_text": "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards.\nEquip {1}",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Sneak Attack",
+      "oracle_id": "e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d",
+      "oracle_text": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step.",
+      "type_line": "Enchantment",
+      "mana_cost": "{3}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Sol Ring",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "oracle_text": "{T}: Add {C}{C}.",
+      "type_line": "Artifact",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Spark Double",
+      "oracle_id": "8dcb35e5-ae44-455f-86e3-4a77d496ff34",
+      "oracle_text": "You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary.",
+      "type_line": "Creature — Illusion",
+      "mana_cost": "{3}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Steam Vents",
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "type_line": "Land — Island Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Sulfurous Springs",
+      "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Swamp",
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "oracle_text": "({T}: Add {B}.)",
+      "type_line": "Basic Land — Swamp",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Talisman of Creativity",
+      "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Talisman of Dominance",
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "The Ooze",
+      "oracle_id": "82a6fa6f-13c2-4ea3-bec2-c51b56b2783b",
+      "oracle_text": "Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it. (A Mutagen token is an artifact with \"{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.\")\n{T}: Exile target card from a graveyard. Create a Mutagen token.",
+      "type_line": "Legendary Artifact",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "The Ozolith",
+      "oracle_id": "1946ded1-5f53-409f-b0a6-5433bb0357d2",
+      "oracle_text": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.\nAt the beginning of combat on your turn, if The Ozolith has counters on it, you may move all counters from The Ozolith onto target creature.",
+      "type_line": "Legendary Artifact",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Thran Vigil",
+      "oracle_id": "01c179aa-533e-47e1-b6e5-c35587a39680",
+      "oracle_text": "Whenever one or more artifact and/or creature cards leave your graveyard during your turn, put a +1/+1 counter on target creature you control.",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Toxic Deluge",
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Training Center",
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Uncivil Unrest",
+      "oracle_id": "bd655e8b-f192-4635-9e23-357b6f89ef8f",
+      "oracle_text": "Nontoken creatures you control have riot. (They enter with your choice of a +1/+1 counter or haste.)\nIf a creature you control with a +1/+1 counter on it would deal damage to a permanent or player, it deals double that damage instead.",
+      "type_line": "Enchantment",
+      "mana_cost": "{4}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Underground River",
+      "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Underground Sea",
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "oracle_text": "({T}: Add {U} or {B}.)",
+      "type_line": "Land — Island Swamp",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Unspeakable Symbol",
+      "oracle_id": "a5690d5f-633c-4a1e-afba-5fd79dcbf20e",
+      "oracle_text": "Pay 3 life: Put a +1/+1 counter on target creature.",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Vampiric Tutor",
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+      "type_line": "Instant",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": true
+    },
+    {
+      "name": "Verdant Catacombs",
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",
+      "type_line": "Land",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Victimize",
+      "oracle_id": "240e85d3-e495-4877-8609-4b4056c402f7",
+      "oracle_text": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Viscera Seer",
+      "oracle_id": "f82a4e85-526d-4456-b700-7760043a31be",
+      "oracle_text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "type_line": "Creature — Vampire Wizard",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Volcanic Island",
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "oracle_text": "({T}: Add {U} or {R}.)",
+      "type_line": "Land — Island Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Voldaren Thrillseeker",
+      "oracle_id": "b3cc2ed9-1da3-4ad2-a9a7-de7665d800ff",
+      "oracle_text": "Backup 2 (When this creature enters, put two +1/+1 counters on target creature. If that's another creature, it gains the following ability until end of turn.)\n{1}, Sacrifice this creature: It deals damage equal to its power to any target.",
+      "type_line": "Creature — Vampire Warrior",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Warren Soultrader",
+      "oracle_id": "ace86e56-efde-4eb7-8815-71456a4c3abe",
+      "oracle_text": "Pay 1 life, Sacrifice another creature: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "type_line": "Creature — Zombie Goblin Wizard",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Watery Grave",
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "type_line": "Land — Island Swamp",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Withering Torment",
+      "oracle_id": "ffce81c5-1b58-4882-a4e7-6f8d7cb170de",
+      "oracle_text": "Destroy target creature or enchantment. You lose 2 life.",
+      "type_line": "Instant",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Xander's Lounge",
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+      "type_line": "Land — Island Swamp Mountain",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Yahenni, Undying Partisan",
+      "oracle_id": "fdba89eb-1cf5-46e6-9d09-1adb9bc40fcd",
+      "oracle_text": "Haste\nWhenever a creature an opponent controls dies, put a +1/+1 counter on Yahenni.\nSacrifice another creature: Yahenni gains indestructible until end of turn.",
+      "type_line": "Legendary Creature — Aetherborn Vampire",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Yawgmoth, Thran Physician",
+      "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+      "oracle_text": "Protection from Humans\nPay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.\n{B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+      "type_line": "Legendary Creature — Human Cleric",
+      "mana_cost": "{2}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    },
+    {
+      "name": "Zulaport Cutthroat",
+      "oracle_id": "76b003e0-15af-4f22-bdf2-1ade5430964a",
+      "oracle_text": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
+      "type_line": "Creature — Human Rogue Ally",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false
+    }
+  ]
+}
