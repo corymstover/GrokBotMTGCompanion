@@ -1,10 +1,10 @@
-# Deck #41 — Nicol Bolas — M7 Rev1 owner-review proposal
+# Deck #41 — Nicol Bolas — M7 Rev1 approved candidate
 
-Date: 2026-10-26. Status: OWNER APPROVAL PENDING. Do NOT overwrite the historically approved/locked Nicol Bolas version or merge canonical deck changes until the owner explicitly approves this exact revision.
+Date: 2026-10-26. Status: OWNER APPROVED for exact M7 Rev1 SHA-256 a6079935a50b9469ca487e58e6bac159f8b777348b31585256b967f92c5d0df6. User replied **Approve** directly to the complete 100-card Archidekt-ready proposal after the verified 10 swaps were presented. This approval authorizes canonical replacement through a versioned PR, preserving the October 15 approved artifact.
 
 Baseline authority: corymstover/grixis-commander-encyclopediaGPT/refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt; original raw SHA-256 e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617.
 
-Proposed artifact: data/grixis/m7/candidate_lists/Nicol_Bolas_chatgpt_rev1.txt; candidate raw SHA-256 a6079935a50b9469ca487e58e6bac159f8b777348b31585256b967f92c5d0df6 (verify hash from actual file before certification).
+Proposed artifact: data/grixis/m7/candidate_lists/Nicol_Bolas_chatgpt_rev1.txt; candidate raw SHA-256 a6079935a50b9469ca487e58e6bac159f8b777348b31585256b967f92c5d0df6 (exact bytes verified by SHA-bound GitHub Actions).
 
 Scope: 10 exact 1:1 swaps, commander unchanged; 100 cards, 99 distinct card names, Island x2 only repeat, 37 lands, Grixis-only identity, no deliberate exception. Power Bracket 4 — Optimized. Archidekt tags Discard / Commander Damage / Control.
 
@@ -35,4 +35,4 @@ Scope: 10 exact 1:1 swaps, commander unchanged; 100 cards, 99 distinct card name
 - Whole-deck 2026-10-15 Oracle/legality audit is baseline evidence. The 10 additions were separately publicly researched 2026-10-26, but a complete fresh per-name Scryfall check / engineering CI remains a certification gate before declaring approval-ready PASS.
 - Historic approvals and frozen exports are NOT modified by this proposal.
 
-Owner must approve once; no second approval challenge required. Do not alter locked decks outside scope.
+Owner approval recorded once: **Approve**, October 26, 2026. No second approval is needed. Engineering GitHub Actions run 40411457402 completed SUCCESS at head e9855de13d49dad8ff01012cb3240e440e395548: 7/7 finite checks, live Scryfall 99/99 Commander legality and UBR identity, 14 Oracle witnesses PASS. Keep the historical October 15 artifact and lock only the verified Rev1 list; do not alter other locked decks.
