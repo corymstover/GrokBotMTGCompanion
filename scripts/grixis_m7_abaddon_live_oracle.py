@@ -190,8 +190,13 @@ def assess(cards, all_lists):
         # (e.g. VMA Badlands) for an otherwise paper-printed, legal card name.
         # Do not conflate chosen printing.games with card-name legality; our
         # pinned source supplies separate paper-printing provenance.
-        if not isinstance(card.get("games"), list) or not card["games"]:
-            raise OracleGateError("Incomplete Scryfall printing games field: " + name)
+        # Scryfall /cards/collection can now resolve a not-yet-game-enabled
+        # printing (games=[]) for an already paper-released card name, e.g.
+        # Arcane Signet TRC/485 on 2026-10-26. The pinned independent
+        # paper-source provenance and official Commander legality are checked
+        # separately; requiring a nonempty printing.games is invalid here.
+        if not isinstance(card.get("games"), list):
+            raise OracleGateError("Malformed Scryfall printing games field: " + name)
         if not card.get("oracle_id") or not card.get("scryfall_uri"):
             raise OracleGateError("Card provenance missing: " + name)
         oracle_text = text_and_faces(card)
