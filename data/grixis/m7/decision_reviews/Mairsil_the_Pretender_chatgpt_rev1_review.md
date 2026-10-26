@@ -38,7 +38,7 @@ The two fetches are not presented as newly discovered: original M6 endorsed them
 ## Rules, structure and limits
 
 - Exact text: 100 lines, 100 distinct names, Mairsil first and unique [Commander], 32 land faces, no companion, singleton PASS. Exactly six additions and six cuts relative to baseline.
-- New card color identities are all UBR-compatible: Harpy UB, Cauldron/Devourer colorless, fetches and Laboratory lands colorless. Frozen Oct 14 100-card Oracle/legality audit plus live Oct 25 Scryfall added-card rulings and Wizards' current Commander ban list were cross-checked; zero exceptions.
+- New card color identities are all UBR-compatible: Harpy UB, Cauldron/Devourer and fetchlands colorless, Riptide Laboratory blue identity because its activated ability contains {U} (although its mana ability produces only {C}). Frozen Oct 14 100-card Oracle/legality audit plus live Oct 25 Scryfall added-card rulings and Wizards' current Commander ban list were cross-checked; zero exceptions.
 - Mairsil's own once-per-turn restriction still applies to each acquired original ability. Quicksilver grants additional instances, not removal of printed restrictions; target/self-copy and priority/timing requirements matter. Marvin does not inherit Mairsil's static restriction, only his activated abilities; do not confuse either with infinite mana in isolation.
 - Cavern Harpy ETB triggered bounce is **not** inherited; only the activated pay-life self-return is. Riptide requires untapped land and a legal Wizard target.
 - Agatha's Cauldron's on-board static text is **not** gained if the Cauldron itself is caged. Its exiled cards are separate from Mairsil's cage-counted cards.
