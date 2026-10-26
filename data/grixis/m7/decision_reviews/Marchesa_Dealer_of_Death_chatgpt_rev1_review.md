@@ -1,8 +1,9 @@
 # Deck #34 — Marchesa, Dealer of Death — M7 Rev1 evidence and candidate
 
-Date: 2026-10-25 America/Chicago. **Authority status: RESEARCH_ONLY, owner-unapproved.**
-Do **not** change canonical `APPROVED/LOCKED` state or present this as an M6
-certification or owner-ready packet until exact-head gates have passed.
+Date: 2026-10-25 America/Chicago; current Scryfall transaction 2026-10-26 UTC.
+**Authority status: candidate-only, owner-unapproved.** Do not change canonical
+`APPROVED/LOCKED` state without explicit owner approval. Historical full M6
+pipeline is not asserted to have been globally replayed.
 
 ## Cryptographic source and boundary
 
@@ -142,12 +143,16 @@ upgrade exists.
   Consultation 86% (121/140). Counts are community association, not efficacy.
   A separately distinct current **High Lift** value was not exposed by that
   page; do not mislabel old synergy percentages as lift.
-- Scryfall named Oracle pages checked through public search for the eight
-  additions. Official Wizards Commander banned list checked Oct 25, including
-  its current October 12 announcement. None of these eight is banned or
-  outside UBR; existing 92 retain October 15 whole-list checkpoint and October
-  20 prior Scryfall `/cards/collection` advisory check. **No new fresh
-  100/100 October 25 Scryfall collection transaction has run.**
+- Fresh 2026-10-26 UTC Scryfall `/cards/collection` transaction reconciled
+  99 cards through 75/25 requests; the exact named front face `Sink into
+  Stupor` resolved the remaining `Sink into Stupor // Soporific Springs`
+  double-face name. `Birgi, God of Storytelling` was mapped from Scryfall's
+  full `Birgi // Harnfel` Oracle record. Thus **100/100 identities, all 100
+  Commander legal, all UBR color identity, and no project exceptions** are
+  confirmed from current card objects. Every exact Scryfall Oracle ID, name,
+  full relevant Oracle text, legality and source URL is recorded in
+  `data/grixis/m7/oracle_snapshots/Marchesa_Dealer_of_Death_Rev1_Scryfall_20261026.json`.
+  Official Wizards Commander banned list was also checked October 25.
 - The 100 is exactly distinct and one commander; no project exceptions.
   Names with modal faces occupy a single Commander slot.
 - Oracle caveats: A single spell/ability commits at most one crime at target
@@ -159,13 +164,15 @@ upgrade exists.
   `Sink into Stupor` targets an opposing spell/nonland permanent on its spell
   face; the land face has no target. `Gilded Drake`'s exchange is not mandatory
   if no target was chosen, and then it doesn't yield Marchesa's crime.
-- Printed `Hawkeye's Bow` legality and exact Oracle remain tied to the
-  earlier baseline legal-card audit, not falsely fresh-certified here.
+- `Hawkeye's Bow` and every other baseline name now have fresh Scryfall
+  record-level legality and Oracle snapshot evidence, not just historical
+  baseline verification.
 
 ## Actual test coverage versus open gates
 
-- **Executed locally:** 19 named finite authored tests in
-  `tests/test_m7_marchesa_dealer_rev1_exact.py`, including 100-card
+- **Executed locally:** 24 tests across
+  `tests/test_m7_marchesa_dealer_rev1_exact.py` and
+  `tests/test_m7_marchesa_dealer_rev1_oracle_snapshot.py`, including 100-card
   SHA/delta/count, C1, K1–K7, E1–E2, W1–W3, F1–F3 and the changed new-card
   target caveats. The little model asserts source-paid sequential examples,
   targeted definitions, Marchesa being absent, invalid self targets,
@@ -175,19 +182,20 @@ upgrade exists.
 - **M6 case provenance:** Exact commander-effect blueprint
   `data/grixis/m6/test_blueprints/Marchesa__Dealer_of_Death.json` has 16
   planned P0/P1 cases, all originally
-  `DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN`. New tests are case-labeled partial
-  executions but have **not yet been accepted and scope-transferred** by the
-  formal M6/I/J governance ledger.
+  `DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN`. New tests are case-labeled bounded
+  executions. The 16-case scoped transfer ledger is
+  `data/grixis/m7/verification/Marchesa_Dealer_of_Death_Rev1_Scoped_M6_IJ_20261026.json`;
+  K6's old two-extra-turn package no longer exists and E2/W2/W3 are expressly
+  limited rather than full game-state engine certifications.
 - **I/J honest state:** Historic
   `data/grixis/m6/ij/input_receipts/marchesa-dealer-of-death.json` reports
   input bytes attested, `phase_b_replayed=false`, and downstream
   incomplete. The exact eight-card candidate creates new effects/targets and
   invalidates any blind transfer of historical full-100 outcome claims.
-  An explicit case-by-case 16-ID plan is above; current finished I/J final
-  bundle, test-pool local optimum certificate, exact-head CI receipt and final
-  decision gate remain **unverified/pending**.
+  Exact-candidate scoped tests are not a false retroactive replay of the
+  historic M6/J bundle; no global optimizer certificate is claimed. Exact-head
+  GitHub CI for this refreshed snapshot and decision readiness must still pass.
 
-**Disposition:** coherent, source-pinned full-100 M7 candidate selected;
-**not yet approval-ready** under ONE_COMMAND_FINISH_V1. Prepare research PR,
-complete real remaining P0/I/J transfer, fresh complete Oracle transaction,
-and exact-head CI before asking Cory for a SHA-bound "Approve".
+**Disposition:** coherent, current Oracle-verified full-100 M7 candidate
+selected; canonical deck unchanged. Finish exact-head 24-test GitHub CI and
+the final scoped case review before Cory's single SHA-bound "Approve".
