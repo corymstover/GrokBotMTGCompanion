@@ -122,7 +122,8 @@
     "https://edhrec.com/average-decks/missy/optimized/morph",
     "https://mtgcommander.net/index.php/banned-list/",
     "Missy 2026-10-15 commander-first blueprint and decisions",
-    "Fresh finite nonartifact-death / face-down / sacrifice / commander-protection Oracle tests"
+    "Fresh finite nonartifact-death / face-down / sacrifice / commander-protection Oracle tests",
+    "OFF-RANKED and commander-native Missy candidate discovery: Altar of the Brood, Goblin Sharpshooter, Gift of Doom and Yawgmoth evaluated against current EDHREC inclusion and high-lift rather than selected by rank."
   ],
   "material_candidates": [
     {
@@ -503,22 +504,76 @@
   "low_swap_heightened_audit": {
     "weakest_slot_challenge": [
       {
-        "card": "The Master, Gallifrey's End",
-        "weakness": "Four-mana reactive artifact-Cyberman death payoff.",
-        "alternative_named": "Roaming Throne",
-        "reasoning": "Keep Master because artifactual death complements Missy's nonartifact restriction and preserves commander-native Cyberman/villainous-choice identity."
+        "card": "Aphetto Runecaster",
+        "weakness": "Four-mana optional draw dependent on face-up actions; no board effect on deployment.",
+        "alternative_named": "Altar of the Brood",
+        "reasoning": "One-mana permanent-entry milling closes every valid Missy loop, including 0-power Savants; loses draw."
       },
       {
-        "card": "Braids, Arisen Nightmare",
-        "weakness": "Requires end-step sacrifice and opponents can deny cards.",
-        "alternative_named": "Imperial Seal",
-        "reasoning": "Keep a repeatable sac/card-or-denial engine rather than another tutor."
+        "card": "Ashad, the Lone Cyberman",
+        "weakness": "Four-color-pip legendary artifact casualty ability needs further nonlegendary artifact spells to copy.",
+        "alternative_named": "Yawgmoth, Thran Physician",
+        "reasoning": "Sacrifice plus draw/creature attrition directly converts dead nonartifact bodies to Cybermen; one life per activation is a real cost."
       },
       {
-        "card": "Shipwreck Marsh",
-        "weakness": "Shipwreck Marsh enters tapped during the early setup turns when Missy most needs reliable untapped blue-black mana.",
-        "alternative_named": "Gemstone Caverns",
-        "reasoning": "Keep reliable colored access instead of conditional pregame colorland."
+        "card": "Bane of the Living",
+        "weakness": "Morph -X/-X costs variable BB and can harm our own board.",
+        "alternative_named": "Gift of Doom",
+        "reasoning": "Morph at sacrifice cost turns a nonartifact death into a protective Aura on Missy; loses repeatable sweeper."
+      },
+      {
+        "card": "Cybermen Squadron",
+        "weakness": "Seven mana and attack-dependent myriad; no immediate value without other established artifact attackers.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Two-mana fast mana helps resolve the indispensable six-mana commander and keep up protection."
+      },
+      {
+        "card": "Cybership",
+        "weakness": "Six mana, crew 4, then must connect for face-down two-card theft.",
+        "alternative_named": "Goblin Sharpshooter",
+        "reasoning": "Three-mana creature death payoff removes small opposing nonartifacts and can finish native free-loop cycles."
+      },
+      {
+        "card": "Doomsday Confluence",
+        "weakness": "Scalable options are real but double-X mana makes two edicts cost five mana.",
+        "alternative_named": "Carrion Feeder",
+        "reasoning": "One-mana free sacrifice improves access to combo/converted-Cyberman loops."
+      },
+      {
+        "card": "Etrata, Deadly Fugitive",
+        "weakness": "Three-mana body plus four per activation for stolen cards; Ixidor and Skirk keep turn-up coverage.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Permanent zero-mana colored acceleration supports turn-early Missy at imprint card cost."
+      },
+      {
+        "card": "Their Name Is Death",
+        "weakness": "Six-mana BBB nonartifact wipe can kill Missy too; Delete and sacrifice edicts remain.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "With commander in play protects from noncreature removal at zero mana."
+      },
+      {
+        "card": "Ugin's Mastery",
+        "weakness": "Four-mana manifest payoff needs further face-down colorless spell casts/attacks.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "With commander in play can redirect a hostile targeted spell or ability for zero mana."
+      },
+      {
+        "card": "Dragonskull Summit",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "Fetch black dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "Fetch blue dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Inventors' Fair",
+        "weakness": "Colorless land and late metalcraft/4-mana artifact tutor.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Time Lord selection gives uncounterable six-mana Missy and specific tribal colored mana."
       }
     ],
     "off_ranked_opportunities": "Altar of Brood, Gift of Doom, Goblin Sharpshooter, Yawgmoth, Grim Monolith and land fetches challenged EDHREC top-card selections.",
