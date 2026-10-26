@@ -1,0 +1,31 @@
+name: M7 Deck35 Marchesa Black Rose Rev1 exact certification
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-marchesa-black-rose-rev1.yml
+      - data/grixis/m7/candidate_lists/Marchesa__the_Black_Rose_chatgpt_rev1.txt
+      - data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_rev1.json
+      - data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md
+      - data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json
+      - data/grixis/m7/research_challengers/Marchesa__the_Black_Rose_rev1_*.txt
+      - tests/test_m7_marchesa_black_rose_rev1.py
+permissions:
+  contents: read
+jobs:
+  deck35-exact-candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install structural dependency
+        run: python -m pip install jsonschema
+      - name: Verify full-Oracle snapshot and bounded commander cases
+        run: python -m unittest discover -s tests -p 'test_m7_marchesa_black_rose_rev1.py' -v
+      - name: Verify open-ended whole-99 M7 decision gate and source binding
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_rev1.json
