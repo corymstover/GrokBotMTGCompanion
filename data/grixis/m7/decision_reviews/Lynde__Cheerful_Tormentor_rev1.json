@@ -876,7 +876,7 @@
   "owner_authority": {
     "canonical_deck_changed": false,
     "exact_candidate_owner_approved": false,
-    "owner_approval_question": "Cory approved the exact eight-swap Lynde Rev1 SHA once on 2026-10-25. Complete engineering transfer without another approval request; the canonical lock is a separate downstream step."
+    "owner_approval_question": "This deck is complete. Do you approve it?"
   },
   "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
   "open_ended_optimization_audit": {
