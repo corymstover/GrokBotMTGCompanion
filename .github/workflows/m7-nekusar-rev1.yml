@@ -20,3 +20,5 @@ jobs:
           python-version: '3.11'
       - name: Source-bound finite P0 and P1 checks
         run: python -m unittest discover -v -s data/grixis/m7/nekusar_rev1 -p 'test_nekusar_m7_rev1.py'
+      - name: Live 97-name Scryfall Commander legality and Oracle check
+        run: python data/grixis/m7/nekusar_rev1/verify_nekusar_scryfall.py
