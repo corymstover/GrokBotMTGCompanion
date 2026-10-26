@@ -67,7 +67,7 @@ class NicolM7(unittest.TestCase):
 
     def test_exact_ten_swaps_and_not_generic_shell(self):
         a,b=parse(BASE),parse(CAND)
-        self.assertEqual(a-b,Counter(SWAPS))
+        self.assertEqual(a-b,Counter(SWAPS.keys()))
         self.assertEqual(b-a,Counter(SWAPS.values()))
         for name in ("Dragon Tempest","Ingris Stingerquill","Kediss, Emberclaw Familiar",
                      "Chandra's Ignition","Pain for All","Quicksilver Dagger","Waste Not",
