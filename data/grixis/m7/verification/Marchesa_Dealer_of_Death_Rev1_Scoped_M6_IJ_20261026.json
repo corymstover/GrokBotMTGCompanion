@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "deck_id": "Marchesa__Dealer_of_Death",
+  "stage": "SCOPED_M7_EXACT_CANDIDATE_CASE_TRANSFER_NOT_GLOBAL_M6_CERTIFICATION",
+  "baseline_raw_sha256": "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1",
+  "candidate_raw_sha256": "f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e",
+  "candidate_path": "data/grixis/m7/candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt",
+  "blueprint_path": "data/grixis/m6/test_blueprints/Marchesa__Dealer_of_Death.json",
+  "oracle_snapshot_path": "data/grixis/m7/oracle_snapshots/Marchesa_Dealer_of_Death_Rev1_Scryfall_20261026.json",
+  "oracle_transaction": {
+    "utc_date": "2026-10-26",
+    "source": "Scryfall collection for 99 names and named exact for the Soporific Springs MDFC",
+    "reconciled_names": 100,
+    "unique": 100,
+    "current_official_commander_legality_pass": 100,
+    "grixis_identity_pass": 100,
+    "exceptions": []
+  },
+  "test_files": [
+    "tests/test_m7_marchesa_dealer_rev1_exact.py",
+    "tests/test_m7_marchesa_dealer_rev1_oracle_snapshot.py"
+  ],
+  "case_transfer": [
+    {"id": "C1", "priority": "P0", "verification": "Oracle anchored and bounded paid top-two library/hand/graveyard, absent commander and unpaid negative case", "disposition": "SCOPED_PASS"},
+    {"id": "K1", "priority": "P0", "verification": "Opponent/owned targeting, single crime per ability, no-target negative case", "disposition": "SCOPED_PASS"},
+    {"id": "K2", "priority": "P0", "verification": "Hex Parasite X=0 and paid phyrexian mana/life; self-target negative", "disposition": "SCOPED_PASS"},
+    {"id": "K3", "priority": "P0", "verification": "Spatial Binding 1 life per activation, separate source payment and self-target negative", "disposition": "SCOPED_PASS"},
+    {"id": "K4", "priority": "P1", "verification": "Lapis targeted triggered ability, declined optional three still crime, nonblue negative", "disposition": "SCOPED_PASS"},
+    {"id": "K5", "priority": "P1", "verification": "Tezzeret zero loyalty source wording and source-object reset via Displacer Kitten in bounded window", "disposition": "SCOPED_PASS"},
+    {"id": "K6", "priority": "P1", "verification": "Source baseline had two extra-turn cards; Last Chance is cut, only Final Fortune survives. Historical last-created-first timing not used to claim a current two-spell engine", "disposition": "SOURCE_CHANGED_NOT_APPLICABLE_TWO_CARD_LINE"},
+    {"id": "K7", "priority": "P1", "verification": "Mox Amber legendary-color case and Magda tapped once-per-turn Treasure negative case", "disposition": "SCOPED_PASS"},
+    {"id": "E1", "priority": "P1", "verification": "Three newly added target/crime sources paid sequentially, invalid opposing creature, and Marchesa library zone conservation", "disposition": "SCOPED_PASS"},
+    {"id": "E2", "priority": "P1", "verification": "Three distinct UBR pip condition and missing-red negative; no quantitative early mana probability claim", "disposition": "SCOPED_PASS_LIMITED"},
+    {"id": "W1", "priority": "P1", "verification": "Oracle/Consult absence-named card empty-library trigger and ability-counter negative", "disposition": "SCOPED_PASS"},
+    {"id": "W2", "priority": "P1", "verification": "Breach/LED/Brain Freeze Oracle, graveyard escape material availability and targeted hate negative", "disposition": "SCOPED_PASS_LIMITED"},
+    {"id": "W3", "priority": "P1", "verification": "Bow/Alchemist Oracle and three bounded tap/untap loops, summoning sick/Totem adversary, Bow no-target correction", "disposition": "SCOPED_PASS_LIMITED"},
+    {"id": "F1", "priority": "P0", "verification": "Scrabbling Claws targeted grave exile and grave target removed before resolution", "disposition": "SCOPED_PASS"},
+    {"id": "F2", "priority": "P1", "verification": "No selection in bounded fixture with absent Marchesa", "disposition": "SCOPED_PASS"},
+    {"id": "F3", "priority": "P1", "verification": "The historical M5 48-card reconstruction was rejected; this revision exactly preserves 92 of the October15 owner-approved 100", "disposition": "SCOPED_PASS"}
+  ],
+  "limitations": [
+    "Finite authored assertions with source Oracle text and explicit counterexamples; no general MTG engine, full opponent stack implementation, win-rate estimate, or independent third-model review.",
+    "The historical M6/I/J pipeline is not represented as globally replayed. This exact M7 candidate has its own scoped evidence; the input receipt's historical phase_b_replayed=false remains unchanged.",
+    "No global statistical or exhaustive deck-optimum proof, and no claim that a particular pod or metagame performance is guaranteed.",
+    "GitHub exact-head CI must report success with the candidate snapshot included before requesting owner approval."
+  ],
+  "owner_decision": "PENDING_EXPLICIT_SHA_BOUND_APPROVAL",
+  "canonical_lock_allowed": false
+}
