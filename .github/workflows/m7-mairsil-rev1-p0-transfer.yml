@@ -1,0 +1,23 @@
+name: M7 Mairsil Rev1 source-bound P0 scope transfer
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-mairsil-rev1-p0-transfer.yml
+      - tests/test_m7_mairsil_rev1_case_transfer.py
+      - data/grixis/m7/oracle_snapshots/Mairsil_the_Pretender_Rev1_P0_Scryfall_20261026.json
+permissions:
+  contents: read
+jobs:
+  exact-retrospective-p0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run exact-100 Oracle and five Mairsil P0 payable/negative tests
+        run: python -m unittest discover -s tests -p test_m7_mairsil_rev1_case_transfer.py -v
