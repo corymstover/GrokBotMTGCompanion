@@ -1,0 +1,29 @@
+name: M7 Deck 34 Marchesa Dealer Rev1 exact research tests
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-marchesa-dealer-rev1-research.yml
+      - data/grixis/m7/baseline_sources/Marchesa_Dealer_of_Death_chatgpt_rev1_baseline.txt
+      - data/grixis/m7/candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt
+      - data/grixis/m7/research_challengers/Marchesa_Dealer_of_Death_rev1_*.txt
+      - data/grixis/m7/decision_reviews/Marchesa_Dealer_of_Death_chatgpt_rev1_review.md
+      - data/grixis/m7/continuations/Marchesa_Dealer_of_Death_rev1_open_gates.md
+      - tests/test_m7_marchesa_dealer_rev1_exact.py
+permissions:
+  contents: read
+jobs:
+  deck34-exact-bounded-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run source-bound Deck 34 physical and bounded rules fixtures
+        run: python -m unittest discover -s tests -p test_m7_marchesa_dealer_rev1_exact.py -v
