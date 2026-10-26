@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 ROOT_M7 = ROOT / "data/grixis/m7"
 BASE = ROOT_M7 / "baseline_sources/Mairsil_the_Pretender_chatgpt_rev1_baseline.txt"
 CAND = ROOT_M7 / "candidate_lists/Mairsil_the_Pretender_chatgpt_rev1.txt"
-REV = ROOT_M7 / "decision_reviews/Mairsil_the_Pretender_rev1.json"
+REV = ROOT_M7 / "decision_reviews/Mairsil__the_Pretender_rev1.json"
 ALT_SANCTUM = ROOT_M7 / "research_challengers/Mairsil_the_Pretender_ChatGPT_Rev1_alt7_Sanctum.txt"
 ALT_RESONATOR = ROOT_M7 / "research_challengers/Mairsil_the_Pretender_ChatGPT_Rev1_alt7_Resonator.txt"
 
