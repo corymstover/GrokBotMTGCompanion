@@ -61,6 +61,30 @@ class TestMaiZukoRev1(unittest.TestCase):
         self.assertFalse(self.review["owner_authority"]["canonical_deck_changed"])
         self.assertFalse(self.review["owner_authority"]["exact_candidate_owner_approved"])
 
+    def test_both_real_eight_swap_challengers(self):
+        variants = [
+            (
+                ROOT / "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_alt8_Arid_over_Bog.txt",
+                "a73ac5672bd890b25c3e12454804bf705711482b696e72f5dc39972fe1d88ece",
+                "Arid Mesa", "Bojuka Bog",
+            ),
+            (
+                ROOT / "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_alt8_Grim_over_Fellwar.txt",
+                "4922e70ed3e38bba38bc85ad4e689d8ff2e3957c63ba0244d4f047ca2161f39f",
+                "Grim Monolith", "Fellwar Stone",
+            ),
+        ]
+        final_adds = set(self.review["final_changes"]["adds"])
+        final_cuts = set(self.review["final_changes"]["cuts"])
+        for path, digest, extra_add, extra_cut in variants:
+            cards = names(path)
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), digest)
+            self.assertEqual(len(cards), 100)
+            self.assertEqual(len(set(cards)), 100)
+            self.assertEqual(cards[0], "Mai and Zuko")
+            self.assertEqual(set(cards) - set(self.original), final_adds | {extra_add})
+            self.assertEqual(set(self.original) - set(cards), final_cuts | {extra_cut})
+
     def test_oracle_card_identity_and_legality(self):
         self.assertEqual(len(self.by_name), 100)
         self.assertEqual(set(self.by_name), set(self.candidate))

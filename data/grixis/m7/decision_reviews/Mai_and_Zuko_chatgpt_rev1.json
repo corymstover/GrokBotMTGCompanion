@@ -78,6 +78,18 @@
         "weakness": "Shroud prevents some own targeted protection, and Greaves itself does not counter stack interaction; does grant important haste.",
         "alternative_named": "Pact of Negation",
         "reasoning": "Zero-cost protection on an actual win turn replaces proactive haste/protection; upkeep 3UU is a serious risk."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Tapped black-only graveyard-exile land is slow in the deployment model, and its exile ability cannot be used at instant speed without land-play tricks.",
+        "alternative_named": "Arid Mesa",
+        "reasoning": "Retained because it gives direct graveyard interaction without spending a spell slot. Full alternative eight-swap Arid portfolio is faster on land-only proxy but drops a unique matchup answer."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colored output depends on opponent land types, and it does not burst three mana on another player's turn like a Monolith.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Retained reliable colored two-mana acceleration for the triple-colored commander; exact eight-swap Grim portfolio and earlier WIP proxy hurt commander access."
       }
     ],
     "current_baseline_strength": "October 14 100/100 locked predecessor already carries Basalt/Rings, Citadel/Top/Reservoir, Breach/LED/Freeze, flashable artifact creatures, ten Allies, instant-speed untapping, premium blue counters and draw. These are not casually removed.",
@@ -88,7 +100,8 @@
     "Live canonical approved list Oct 14 read via GitHub main, raw aa2036f4..., 100 lines, no mutation to currently locked original.",
     "Grok M7 first-pass WIP PR #680 with live Scryfall 2026-10-23 Oracle, EDHREC Top/High Lift, Commander Spellbook queries, bounded finite tests, and five-swap baseline; research-only, not owner-approved.",
     "Independent current Wizards of the Coast Forensic Gadgeteer release notes (MKM) and Scryfall card page and Commander legality, checked 2026-10-25; Wizards October 12 2026 official Banned & Restricted list.",
-    "Previous M6 Pass C owner-equivalent Mai and Zuko seal/reconciliation PR #438 and deep-review PR #284, explicitly not independent third-party certification."
+    "Previous M6 Pass C owner-equivalent Mai and Zuko seal/reconciliation PR #438 and deep-review PR #284, explicitly not independent third-party certification.",
+    "OFF-RANKING and missed-synergy discovery: Forensic Gadgeteer/Basalt cost arithmetic and Fire Nation Turret upgraded alternative cut, in addition to commander EDHREC optimized High Lift and Commander Spellbook 208 almost-included ideas."
   ],
   "material_candidates": [
     {
@@ -393,8 +406,172 @@
         "disposition": "REJECT"
       }
     ],
-    "larger_swap_packages": [],
-    "no_credible_larger_package_reason": "The tested alternatives for an eighth would remove the remaining primary graveyard hate, a two-mana colored rock, the unique general board wipe, or another high-leverage Ally/artifact engine; none yields robust improvement across the full commander's states.",
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_alt8_Arid_over_Bog.txt",
+        "sha256": "a73ac5672bd890b25c3e12454804bf705711482b696e72f5dc39972fe1d88ece",
+        "adds": [
+          "Verdant Catacombs",
+          "Spire of Industry",
+          "Sink into Stupor // Soporific Springs",
+          "Jeska's Will",
+          "Pact of Negation",
+          "Fire Nation Turret",
+          "Forensic Gadgeteer",
+          "Arid Mesa"
+        ],
+        "cuts": [
+          "Sulfurous Springs",
+          "Path of Ancestry",
+          "Xander's Lounge",
+          "Chaos Warp",
+          "Lightning Greaves",
+          "Avatar Roku, Firebender",
+          "Tundra Tank",
+          "Bojuka Bog"
+        ],
+        "case_for_extra_swaps": "In an aggressive low-land Grixis shell, an eighth untapped fetch improves access to typed duals and reduces an unconditional ETB-tapped graveyard land.",
+        "why_not_selected": "Bojuka Bog is the one-land direct graveyard exile in this compact combo shell; the previous goldfish only modeled acceleration, not opposing graveyard lines, so the gain is not comprehensive."
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_alt8_Grim_over_Fellwar.txt",
+        "sha256": "4922e70ed3e38bba38bc85ad4e689d8ff2e3957c63ba0244d4f047ca2161f39f",
+        "adds": [
+          "Verdant Catacombs",
+          "Spire of Industry",
+          "Sink into Stupor // Soporific Springs",
+          "Jeska's Will",
+          "Pact of Negation",
+          "Fire Nation Turret",
+          "Forensic Gadgeteer",
+          "Grim Monolith"
+        ],
+        "cuts": [
+          "Sulfurous Springs",
+          "Path of Ancestry",
+          "Xander's Lounge",
+          "Chaos Warp",
+          "Lightning Greaves",
+          "Avatar Roku, Firebender",
+          "Tundra Tank",
+          "Fellwar Stone"
+        ],
+        "case_for_extra_swaps": "Grim enables large colorless bursts during opponents' turns when Unwinding Clock refreshes artifacts, and helps deploy expensive artifacts through the new flash permission.",
+        "why_not_selected": "Colored two-mana Fellwar Stone better casts {1}{U}{B}{R} commander. Saved paired finite goldfish of analogous portfolio loses about two T4 percentage points; without Gadgeteer Grim/Rings is net-zero and not a new independent infinite."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
     "quality_based_stop_reason": "Stopped at seven genuine one-for-one changes on effect comparisons, not because seven is a project ceiling. Following the five WIP improvements, Turret and Forensic were extra independent commander-first wins; further alternatives introduce a disproportionate loss of graveyard interruption, blue/black/red fixing, board control, or flash-available Ally/artifact card draw. No stronger eighth card survives the adversarial challenger tradeoff based on these sources and bounded tests."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Avatar Roku, Firebender",
+        "weakness": "Six-mana triple-red off-type creature cannot use Mai and Zuko's artifact or Ally flash and appears late in a 31-land deck.",
+        "alternative_named": "Fire Nation Turret",
+        "reasoning": "Three-mana artifact arrives at flash and gives commander an additional firebending2 in future combats; accepts loss of six red on every player's attacks."
+      },
+      {
+        "card": "Tundra Tank",
+        "weakness": "Three-mana Vehicle needs crew to attack for its firebending1; most timely value is a one-turn indestructible ETB.",
+        "alternative_named": "Forensic Gadgeteer",
+        "reasoning": "Gadgeteer creates Clues during instant-speed artifact chains and converts Basalt into an independent infinite-mana engine, while acknowledging protection loss."
+      },
+      {
+        "card": "Path of Ancestry",
+        "weakness": "Always enters tapped and only scries on matching Human/Noble/Ally casts while the plan prioritizes early four-mana deployment.",
+        "alternative_named": "Spire of Industry",
+        "reasoning": "Thirty-three artifact spells plus cheap permanents enable dependable colored production now rather than on following turn."
+      },
+      {
+        "card": "Xander's Lounge",
+        "weakness": "Unconditional tapped triome materially suppresses flash-window deployment in low 31-land source.",
+        "alternative_named": "Sink into Stupor // Soporific Springs",
+        "reasoning": "An optional untapped blue mana MDFC with bounce-spell floor improves tempo and instant interaction; sacrifices tricolor typing."
+      },
+      {
+        "card": "Sulfurous Springs",
+        "weakness": "BR painland cannot supply U for a four-color-symbol split requirement and no graveyard fetch synergy.",
+        "alternative_named": "Verdant Catacombs",
+        "reasoning": "Fetches the necessary color pair from existing Grixis typed duals, trading search reliance and life for flexibility."
+      },
+      {
+        "card": "Chaos Warp",
+        "weakness": "Single three-mana catch-all, useful but does not increase proactive deployment or artifact storm turns.",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "Main-phase red mana and impulse selection accelerate artifact storm; enchantment-answer loss expressly recorded as material."
+      },
+      {
+        "card": "Lightning Greaves",
+        "weakness": "Shroud prevents some own targeted protection, and Greaves itself does not counter stack interaction; does grant important haste.",
+        "alternative_named": "Pact of Negation",
+        "reasoning": "Zero-cost protection on an actual win turn replaces proactive haste/protection; upkeep 3UU is a serious risk."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Tapped black-only graveyard-exile land is slow in the deployment model, and its exile ability cannot be used at instant speed without land-play tricks.",
+        "alternative_named": "Arid Mesa",
+        "reasoning": "Retained because it gives direct graveyard interaction without spending a spell slot. Full alternative eight-swap Arid portfolio is faster on land-only proxy but drops a unique matchup answer."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colored output depends on opponent land types, and it does not burst three mana on another player's turn like a Monolith.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Retained reliable colored two-mana acceleration for the triple-colored commander; exact eight-swap Grim portfolio and earlier WIP proxy hurt commander access."
+      }
+    ],
+    "off_ranked_opportunities": "Independent off-ranking and under-inclusion checks identified the overlooked Forensic Gadgeteer reduction-to-Basalt infinite mana line, cheaper Fire Nation Turret firebending amplifier, Whir's overtaxed blue-pip role, and misapplied Grim/Rings arithmetic; EDHREC optimized High Lift, Commander Spellbook and official Oracle compared directly.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Verdant Catacombs",
+          "Spire of Industry",
+          "Sink into Stupor // Soporific Springs",
+          "Jeska's Will",
+          "Pact of Negation",
+          "Fire Nation Turret",
+          "Forensic Gadgeteer",
+          "Arid Mesa"
+        ],
+        "cuts": [
+          "Sulfurous Springs",
+          "Path of Ancestry",
+          "Xander's Lounge",
+          "Chaos Warp",
+          "Lightning Greaves",
+          "Avatar Roku, Firebender",
+          "Tundra Tank",
+          "Bojuka Bog"
+        ],
+        "result_and_rationale": "Real complete 100-card eight-swap alternative staged with SHA a73ac5... Retests current seven-swap plan while adding an untapped Grixis fetchland. Improves low-turn color consistency but removes standalone graveyard-exile utility; rejected due missing interaction."
+      },
+      {
+        "adds": [
+          "Verdant Catacombs",
+          "Spire of Industry",
+          "Sink into Stupor // Soporific Springs",
+          "Jeska's Will",
+          "Pact of Negation",
+          "Fire Nation Turret",
+          "Forensic Gadgeteer",
+          "Grim Monolith"
+        ],
+        "cuts": [
+          "Sulfurous Springs",
+          "Path of Ancestry",
+          "Xander's Lounge",
+          "Chaos Warp",
+          "Lightning Greaves",
+          "Avatar Roku, Firebender",
+          "Tundra Tank",
+          "Fellwar Stone"
+        ],
+        "result_and_rationale": "Real complete 100-card eight-swap alternative staged with SHA 4922e7... Adds Grim Monolith colorless burst in Unwinding Clock turns but removes 2-mana UBR fixing. Existing paired 20k goldfish of five-plus-Grim showed slower early commander access; rejected."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Re-opened source-preserved Tundra Tank as Forensic Gadgeteer's better cut rather than holding it due old vehicle identity; changed Fire Nation Turret's suggested cut from Talisman of Dominance to six-mana Avatar Roku. Other Arid/Bog, Grim/Fellwar, Whir/Wishclaw and Mox/Talisman pairings remained opposed by genuine interaction or mana losses.",
+    "strongest_argument_against_baseline": "The existing full 100 has strong generic Grixis artifacts and enough compact combo wins, but three land slots slow a four-mana triple-color commander, a six-mana triple-red nonflash creature and a conditional crew Vehicle underperform direct artifact-flash/combat mana payoffs; source five-swap research still overlooked two material synergies.",
+    "evidence_based_answer": "The candidate retains precise high-power combo suites while improving three land-play sequences, a protection/velocity trade, and especially the fast Turret + Forensic artifact payoff package. Two actual eight-swap alternatives were staged and rejected based on graveyard interaction and commander color-fixing tradeoffs, rather than an arbitrary seven-swap cap."
   }
 }

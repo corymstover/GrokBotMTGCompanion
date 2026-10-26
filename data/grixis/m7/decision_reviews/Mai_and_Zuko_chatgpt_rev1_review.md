@@ -40,6 +40,14 @@ The last two upgrades are independent challenges to the saved five-swap Grok WIP
 - `Fire Nation Turret` was omitted from the saved five-swap WIP as a `Talisman of Dominance` cut. **Reconsidered with a different cut**, Avatar Roku; preserve colored acceleration.
 - `Forensic Gadgeteer` was surfaced by commander-specific EDHREC optimized High Lift and an off-rank combo challenge. **Reconsidered with Tundra Tank as cut**, not the artifact ramp or combo pieces.
 
+
+### Two actual higher-count complete-100 alternatives
+
+- **Eight-swap land alternative:** the seven selected changes **plus Arid Mesa / minus Bojuka Bog**, staged as a separate exactly 100-card file, raw SHA-256 `a73ac5672bd890b25c3e12454804bf705711482b696e72f5dc39972fe1d88ece`. Better untapped acceleration, but surrendering targeted graveyard-exile land in a Breach-heavy pod loses a real matchup tool.
+- **Eight-swap acceleration alternative:** seven changes **plus Grim Monolith / minus Fellwar Stone**, staged separately, raw SHA-256 `4922e70ed3e38bba38bc85ad4e689d8ff2e3957c63ba0244d4f047ca2161f39f`. Its colorless burst and Clock synergy do not replace Fellwar's early UBR fixing, and saved finite proxy cases for analogous Grim package depressed T4 commander access.
+
+Both alternatives have full physical 100s and precise seven-plus-one deltas. The seven-swap selection wins on balanced color, graveyard defense and direct commander payoff; **eight was considered rather than assumed better**.
+
 ## Structural and rules verification
 
 - One commander, 99 other physical cards, **100 distinct names**, 31 cards usable as lands including Sink MDFC, and no duplicates or companion.
