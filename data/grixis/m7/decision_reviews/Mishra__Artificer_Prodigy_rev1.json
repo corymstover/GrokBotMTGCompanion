@@ -566,18 +566,6 @@
         "challenger": "Reshape",
         "tradeoff": "Reshape puts artifact directly in play and can trigger Scrap Trawler from sacrificed artifact, but is UUX and counterable as nonartifact under Funnel; Wishclaw retains universal tutoring.",
         "disposition": "RETAIN_ALTERNATIVE"
-      },
-      {
-        "incumbent": "Uthros Research Craft",
-        "challenger": "Lotus Petal",
-        "tradeoff": "Same early fixing but would remove repeatable commander-stationed cast draw and leave 9MV Gargoyle.",
-        "disposition": "RETAIN_ALTERNATIVE"
-      },
-      {
-        "incumbent": "Sculpting Steel",
-        "challenger": "Grinding Station",
-        "tradeoff": "Keep Thought Monitor as draw but lose key artifact copying/cross-package tutor role.",
-        "disposition": "RETAIN_ALTERNATIVE"
       }
     ],
     "larger_swap_packages": [
