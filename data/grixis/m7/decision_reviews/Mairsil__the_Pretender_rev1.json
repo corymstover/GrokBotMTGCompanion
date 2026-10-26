@@ -33,7 +33,7 @@
     "all_noncommand_cards_reviewed": true,
     "roles_and_overlaps": "99 cards reviewed by cage payloads, grave setup, blink/bounce, copies, draw/tutors, haste/untap, combo payoffs, interaction, 32 lands and colored rocks. Chosen cuts are one redundant defensive cage, one redundant red untapper, one conditional activated-only mana dork, and three lands.",
     "mana_base_and_curve": "32 lands preserved. Two slow conditional dual lands replaced with fetchlands, and red Sokenzan becomes colorless Riptide utility; the two fetches improve typed dual choices but do not erase colored source loss. Fellwar Stone and all 3 Talismans preserved.",
-    "interaction_resilience": "Retains Aetherling/Essence Flux/Kitten, countermagic, removal and free defenses; gains Riptide/Harpy protection but loses Inkshrouder shroud. Cauldron adds grave hate.",
+    "interaction_resilience": "Retains Aetherling/Essence Flux/Kitten, countermagic, removal and free defenses; gains Riptide/Harpy protection but loses Inkshrouder shroud/unblockability/discard. Cauldron adds grave hate.",
     "weakest_slots": [
       {
         "card": "Haunted Ridge",
@@ -55,7 +55,7 @@
       },
       {
         "card": "Cephalid Inkshrouder",
-        "weakness": "Loses discard-and-shroud ability; recast costs 4",
+        "weakness": "Inkshrouder offers free discard and shroud plus unblockability; Harpy's life-only bounce dodges wipes but needs Mairsil recast.",
         "alternative_named": "Cavern Harpy",
         "reasoning": "Caged pay-1-life self-bounce for hand recasting"
       },
@@ -155,9 +155,9 @@
       "named_cuts": [
         "Cephalid Inkshrouder"
       ],
-      "incumbent_opportunity_cost": "Loses discard-and-shroud ability; recast costs 4",
+      "incumbent_opportunity_cost": "Loses Inkshrouder's free discard, shroud protection and unblockability, and returning Mairsil requires a 4-mana recast.",
       "commander_synergy": "Caged pay-1-life self-bounce for hand recasting",
-      "adversarial_downside": "Loses discard-and-shroud ability; recast costs 4",
+      "adversarial_downside": "Loses Inkshrouder's free discard cost plus shroud and unblockability; hand-recast Mairsil costs four mana.",
       "judgment": "SELECT_ADD",
       "reason": "Replaces Cephalid Inkshrouder for stronger Mairsil cage/ability/tempo value while preserving the commander-first shell.",
       "confidence": "MODERATE",
