@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "deck_id": "Mishra__Artificer_Prodigy",
+  "revision": "M7 Rev1",
+  "date_utc": "2026-10-26",
+  "baseline_raw_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+  "candidate_raw_sha256": "45c0d559f0aa859b84e2fb52baf31fdbb683de3e7bc7f211821b50420dee9761",
+  "oracle_source": "https://api.scryfall.com/cards/collection",
+  "oracle_snapshot": "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json",
+  "blueprint": "data/grixis/m6/test_blueprints/Mishra__Artificer_Prodigy.json",
+  "test_implementation": "tests/test_m7_mishra_artificer_rev1.py",
+  "command": "python -m unittest discover -s tests -p 'test_m7_mishra_artificer_rev1.py' -v",
+  "local_execution_utc_date": "2026-10-26",
+  "local_execution_result": "12 tests PASS; no gameplay outcome sampling",
+  "case_transfer": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_C1_commander_cast_trigger_same_name_zones",
+      "status": "PASS_FINITE",
+      "disposition": "Mishra triggers only on artifact casts, can search only named card in eligible grave/hand/library zones; fails while artifact is still on stack."
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K1_paid_counter_first_and_response_loss",
+      "status": "PASS_FINITE",
+      "disposition": "Actual Oracle-driven Blood Funnel, Nether Void, Chalice, Void Mirror counter predicate with trigger ordered above Mishra; object grave then enters, fails if trigger absent or card exiled."
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K2_possibility_storm_hand_only_bottom_search",
+      "status": "PASS_FINITE",
+      "disposition": "Cast from hand moves original to exile then library bottom; Mishra finds it from library, not from exile; graveyard cast does not trigger Storm."
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K3_bauble_mirror_free_spell_and_legal_escape",
+      "status": "PASS_FINITE",
+      "disposition": "Bauble checks total mana spent, Mirror colored mana spent, opponent's free replacement can be countered, paid additional colored mana can avoid Mirror. Not unconditional lock."
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_F1_mishra_removed_before_vs_after_cast",
+      "status": "PASS_FINITE",
+      "disposition": "Removing Mishra before casting prevents trigger; removing after it triggers does not cancel trigger; responding with graveyard exile prevents finding original."
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_C1_commander_cast_trigger_same_name_zones",
+      "status": "PASS_FINITE",
+      "disposition": "Singleton same-name search requires the same physical original after stack exit; no phantom second copy."
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K4_K5_K6_K7_E1_commander_parity_and_self_hate",
+      "status": "PASS_FINITE",
+      "disposition": "Mishra putting Chalice onto field without casting uses X=0, so no arbitrary counters."
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K4_K5_K6_K7_E1_commander_parity_and_self_hate",
+      "status": "PASS_FINITE_REMAPPED",
+      "disposition": "Removed Nullstone Gargoyle from final. Remaining Funnel, Nether, Planar and Storm still affect own nonartifacts; overhead hazard and Vandalblast/Storm mismatch documented."
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K4_K5_K6_K7_E1_commander_parity_and_self_hate",
+      "status": "PASS_FINITE",
+      "disposition": "Void Mirror and Bauble stop unpaid Top/KCI spell loops without Mishra; presence of already triggered rescue can allow recovery."
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_K4_K5_K6_K7_E1_commander_parity_and_self_hate",
+      "status": "PASS_FINITE_REMAPPED",
+      "disposition": "Self-counter recovery retested across six surviving counter axes and Storm. Historical Nullstone branch dropped, no false transfer."
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_E2_color_exact_petal_and_workshop_restriction",
+      "status": "PASS_FINITE",
+      "disposition": "Actual 1UBR pip assignment with Badlands, Island, Ancient Tomb and Petal, Workshop spell-only restriction."
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_W1_W2_top_reservoir_cost_accounting",
+      "status": "PASS_FINITE",
+      "disposition": "Top 1-mana cost reduced to zero by one artifact reducer; Forge can cast Top from library, no automatic win without draw loop setup."
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_W1_W2_top_reservoir_cost_accounting",
+      "status": "PASS_FINITE",
+      "disposition": "Reservoir gains 1..n per cast, activation costs 50 life, only conditional lethal payoff."
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_W3_new_grinding_station_kci_cycle_paid_and_adversarial",
+      "status": "PASS_FINITE",
+      "disposition": "Current artifact Trawler/Retriever/Diver + KCI and one reducer yields +1 generic per paid cycle, Grinding Station sacrifice branch costs 1 banked generic for one mill-three. Adversarial no reduction loses mana."
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_F2_F3_opponent_interference_and_new_spells",
+      "status": "DEFERRED_DOCUMENTED",
+      "disposition": "Grave exile between triggered resolutions is tested; full opponent artifact-wipe board-state game simulation unmodeled, known source limitation; does not assert hate resilience."
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "reference": "test_m7_mishra_artificer_rev1.py::test_F2_F3_opponent_interference_and_new_spells",
+      "status": "PASS_FINITE",
+      "disposition": "Free Swat self-counters under own Bauble/Mirror; Otawara channel is activated; Station cannot mill without a sacrificed artifact. Opponent removal/source mismatch flagged."
+    }
+  ],
+  "P0": {
+    "designed": 5,
+    "executed_finite": 5,
+    "passed_finite": 5,
+    "deferred": 0
+  },
+  "P1": {
+    "designed": 11,
+    "executed_finite": 10,
+    "passed_finite": 10,
+    "deferred_documented": 1
+  },
+  "changed_card_scope": {
+    "Nullstone Gargoyle": "REMOVED; K6/E1 baseline branches involving this 9-mana card do not transfer; retained core rechecked",
+    "Lotus Petal": "ADDED; test E2 corrected color model, free spell/self-counter with Bauble guarded",
+    "Deflecting Swat": "ADDED; free mode is countered by own Bauble/Mirror with no Mishra recovery",
+    "Imperial Seal": "ADDED; cost B, top-of-library timing and Blood Funnel vulnerability assessed",
+    "Otawara, Soaring City": "ADDED; untapped U, channel activated ability and color budget assessed",
+    "Flusterstorm": "ADDED; 1U pip requirement, spell-type restriction, storm defensive window and own prison assessed",
+    "Grinding Station": "ADDED; finite KCI recursion with explicit cost/milling throughput and artifact source checked",
+    "Thought Monitor": "REMOVED; historical affinity ETB draw case not transferred"
+  },
+  "provenance": "Finite Oracle-anchored state/payable fixtures, no independently run third model, no full multiplayer Magic simulation or win rate. Existing old M6/I/J source hashes not equated to this new SHA.",
+  "unresolved_nonblocking": "Opponent complete artifact-sweeper game outcome branch not modeled; F2 P1 explicitly deferred. The resolved exact rules examples are finite and source-dependent.",
+  "canonical_mutation": false,
+  "owner_approval": false
+}
