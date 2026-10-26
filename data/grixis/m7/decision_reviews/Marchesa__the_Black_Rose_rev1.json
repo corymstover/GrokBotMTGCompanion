@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Marchesa__the_Black_Rose",
+  "canonical_baseline_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+  "canonical_baseline_logical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+  "commander_identity": {
+    "mechanical_plan": "Dethrone and counter-seeding protect creatures before sacrifice; Marchesa returns them next end step, enabling ETB/death value and persist resets.",
+    "protected_core": [
+      "Marchesa, the Black Rose",
+      "Unspeakable Symbol",
+      "The Ozolith",
+      "Mikaeus, the Unhallowed",
+      "Murderous Redcap",
+      "Glen Elendra Archmage",
+      "Puppeteer Clique",
+      "Sage of Fables",
+      "Flayer of the Hatebound",
+      "Gray Merchant of Asphodel",
+      "Gev, Scaled Scorch",
+      "Thran Vigil",
+      "Goblin Bombardment",
+      "Ashnod's Altar",
+      "Phyrexian Altar"
+    ],
+    "natural_ceiling": "Power Bracket 4 Optimized because creature, +1 counter, sacrifice and delayed end step dependencies are powerful but meaningfully interruptible.",
+    "anti_homogenization": "Reject generic tax-draw and cEDH combo substitutions that discard Marchesa's counter-dependent ETB death loop identity."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "The October 19 M6 source has each of the 99 card roles individually annotated, reviewed anew for seven concrete cuts and additional rejected slots; main core protected.",
+    "mana_base_and_curve": "Retains exactly 34 lands and all six nonland rocks, no new utility colorless lands; four-mana RR Curse-Marred Demon is harder to cast than Braids, while other creature replacements lower the top curve.",
+    "interaction_resilience": "Keeps Flare of Denial, Fierce Guardianship, Cyclonic Rift, Chaos Warp, sac outlets, Toxic Deluge, Blasphemous Act; Withering Torment improves enchantment interaction but costs one extra mana.",
+    "weakest_slots": [
+      {
+        "card": "Braids, Arisen Nightmare",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Recurring creature ETB tutor improves Marchesa's reanimation value and locates compact recursion pieces.",
+        "alternative_named": "Curse-Marred Demon",
+        "reasoning": "The double-red casting cost and random discard compromise consistency versus Braids' end-step sacrifice cards. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Deadly Dispute",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Every countered creature leaving creates Mutagen artifacts that replenish plus-one counters and artifact death synergies.",
+        "alternative_named": "The Ooze",
+        "reasoning": "Loses instant sacrifice and two immediate cards; Mutagen counters cost mana and can be placed only at sorcery speed. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Feed the Swarm",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Instant speed protects Marchesa from enchantments and removes creatures while preserving the deck's rare black enchantment answer.",
+        "alternative_named": "Withering Torment",
+        "reasoning": "The spell costs three rather than two, so low-mana interaction becomes less accessible. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Fleshbag Marauder",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Cheaper nontoken edict repeats as a Marchesa ETB and retains Mikaeus undying because it is a Zombie.",
+        "alternative_named": "Accursed Marauder",
+        "reasoning": "Cannot force sacrifice of all-token boards, which the original Fleshbag could interact with. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "River Kelpie",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Repeatable three-mana Wizard ETB chooses draw, nonland bounce, or a flying token; Sage gives a counter.",
+        "alternative_named": "Aether Channeler",
+        "reasoning": "Loses Kelpie's persist and graveyard-entry draw across broad simultaneous returns. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Syr Konrad, the Grim",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Backup seeds return counters and can grant a creature paid self-sacrifice damage, with Marchesa recovering the body.",
+        "alternative_named": "Voldaren Thrillseeker",
+        "reasoning": "Loses all-opponent graveyard movement drain and requires one mana per sacrifice activation. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Twilight Diviner",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Repeatable counter grants on creature entry let Marchesa recur nontoken bodies without requiring dethrone combat.",
+        "alternative_named": "Madame Null, Power Broker",
+        "reasoning": "Costs life equal to body power each time and loses Diviner's once-per-turn copy tokens and surveil. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Grim Haruspex",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Powerful standalone opponent-tax draw, but Haruspex scales directly with repeated Marchesa creature sacrifices.",
+        "alternative_named": "Rhystic Study",
+        "reasoning": "Loses the recursive creature-based death-draw engine while increasing generic Grixis homogenization. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Grave Pact",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Flash and easier black pip cost allow a surprise sacrifice lock.",
+        "alternative_named": "Dictate of Erebos",
+        "reasoning": "Five-mana cost delays a role already performed at four mana by Grave Pact. The proposed disposition is opportunity-cost dependent."
+      }
+    ],
+    "current_baseline_strength": "The locked October 15 100 was heavily tuned with 21 prior improvements, all altars, counter enablers and compact persist/undying kills retained.",
+    "candidate_pool_scope": "Reviewed 99 card roles, original M6 129 challenger screens and EDHREC 260 vectors, full October 2026 names, seven selected and eight rejected candidate judgments, plus complete 8/9 alternatives.",
+    "off_ranked_search_conclusion": "The Ooze and Madame Null are off-inherited-rank commander-specific resources; Curse-Marred Demon adds recurring tutor value after October 2026 Reality Fracture."
+  },
+  "candidate_sources": [
+    "Canonical Oct 15 locked GitHub exact SHA and owner approval",
+    "October19 M6 99-slot roles, 129 candidate comparisons and 260 EDHREC inclusion vectors",
+    "Live October26 Scryfall 98/98 Oracle names and Wizards banned list",
+    "OFF-RANKING new-release and lesser-played commander counter/sacrifice synergy discovery"
+  ],
+  "material_candidates": [
+    {
+      "card": "Curse-Marred Demon",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Recurring creature ETB tutor improves Marchesa's reanimation value and locates compact recursion pieces.",
+      "named_cuts": [
+        "Braids, Arisen Nightmare"
+      ],
+      "incumbent_opportunity_cost": "The double-red casting cost and random discard compromise consistency versus Braids' end-step sacrifice cards.",
+      "commander_synergy": "Recurring creature ETB tutor improves Marchesa's reanimation value and locates compact recursion pieces.",
+      "adversarial_downside": "The double-red casting cost and random discard compromise consistency versus Braids' end-step sacrifice cards.",
+      "judgment": "SELECT_ADD",
+      "reason": "Recurring creature ETB tutor improves Marchesa's reanimation value and locates compact recursion pieces. The double-red casting cost and random discard compromise consistency versus Braids' end-step sacrifice cards.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "The Ooze",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Every countered creature leaving creates Mutagen artifacts that replenish plus-one counters and artifact death synergies.",
+      "named_cuts": [
+        "Deadly Dispute"
+      ],
+      "incumbent_opportunity_cost": "Loses instant sacrifice and two immediate cards; Mutagen counters cost mana and can be placed only at sorcery speed.",
+      "commander_synergy": "Every countered creature leaving creates Mutagen artifacts that replenish plus-one counters and artifact death synergies.",
+      "adversarial_downside": "Loses instant sacrifice and two immediate cards; Mutagen counters cost mana and can be placed only at sorcery speed.",
+      "judgment": "SELECT_ADD",
+      "reason": "Every countered creature leaving creates Mutagen artifacts that replenish plus-one counters and artifact death synergies. Loses instant sacrifice and two immediate cards; Mutagen counters cost mana and can be placed only at sorcery speed.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Withering Torment",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Instant speed protects Marchesa from enchantments and removes creatures while preserving the deck's rare black enchantment answer.",
+      "named_cuts": [
+        "Feed the Swarm"
+      ],
+      "incumbent_opportunity_cost": "The spell costs three rather than two, so low-mana interaction becomes less accessible.",
+      "commander_synergy": "Instant speed protects Marchesa from enchantments and removes creatures while preserving the deck's rare black enchantment answer.",
+      "adversarial_downside": "The spell costs three rather than two, so low-mana interaction becomes less accessible.",
+      "judgment": "SELECT_ADD",
+      "reason": "Instant speed protects Marchesa from enchantments and removes creatures while preserving the deck's rare black enchantment answer. The spell costs three rather than two, so low-mana interaction becomes less accessible.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Accursed Marauder",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Cheaper nontoken edict repeats as a Marchesa ETB and retains Mikaeus undying because it is a Zombie.",
+      "named_cuts": [
+        "Fleshbag Marauder"
+      ],
+      "incumbent_opportunity_cost": "Cannot force sacrifice of all-token boards, which the original Fleshbag could interact with.",
+      "commander_synergy": "Cheaper nontoken edict repeats as a Marchesa ETB and retains Mikaeus undying because it is a Zombie.",
+      "adversarial_downside": "Cannot force sacrifice of all-token boards, which the original Fleshbag could interact with.",
+      "judgment": "SELECT_ADD",
+      "reason": "Cheaper nontoken edict repeats as a Marchesa ETB and retains Mikaeus undying because it is a Zombie. Cannot force sacrifice of all-token boards, which the original Fleshbag could interact with.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Aether Channeler",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Repeatable three-mana Wizard ETB chooses draw, nonland bounce, or a flying token; Sage gives a counter.",
+      "named_cuts": [
+        "River Kelpie"
+      ],
+      "incumbent_opportunity_cost": "Loses Kelpie's persist and graveyard-entry draw across broad simultaneous returns.",
+      "commander_synergy": "Repeatable three-mana Wizard ETB chooses draw, nonland bounce, or a flying token; Sage gives a counter.",
+      "adversarial_downside": "Loses Kelpie's persist and graveyard-entry draw across broad simultaneous returns.",
+      "judgment": "SELECT_ADD",
+      "reason": "Repeatable three-mana Wizard ETB chooses draw, nonland bounce, or a flying token; Sage gives a counter. Loses Kelpie's persist and graveyard-entry draw across broad simultaneous returns.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Voldaren Thrillseeker",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Backup seeds return counters and can grant a creature paid self-sacrifice damage, with Marchesa recovering the body.",
+      "named_cuts": [
+        "Syr Konrad, the Grim"
+      ],
+      "incumbent_opportunity_cost": "Loses all-opponent graveyard movement drain and requires one mana per sacrifice activation.",
+      "commander_synergy": "Backup seeds return counters and can grant a creature paid self-sacrifice damage, with Marchesa recovering the body.",
+      "adversarial_downside": "Loses all-opponent graveyard movement drain and requires one mana per sacrifice activation.",
+      "judgment": "SELECT_ADD",
+      "reason": "Backup seeds return counters and can grant a creature paid self-sacrifice damage, with Marchesa recovering the body. Loses all-opponent graveyard movement drain and requires one mana per sacrifice activation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Madame Null, Power Broker",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Repeatable counter grants on creature entry let Marchesa recur nontoken bodies without requiring dethrone combat.",
+      "named_cuts": [
+        "Twilight Diviner"
+      ],
+      "incumbent_opportunity_cost": "Costs life equal to body power each time and loses Diviner's once-per-turn copy tokens and surveil.",
+      "commander_synergy": "Repeatable counter grants on creature entry let Marchesa recur nontoken bodies without requiring dethrone combat.",
+      "adversarial_downside": "Costs life equal to body power each time and loses Diviner's once-per-turn copy tokens and surveil.",
+      "judgment": "SELECT_ADD",
+      "reason": "Repeatable counter grants on creature entry let Marchesa recur nontoken bodies without requiring dethrone combat. Costs life equal to body power each time and loses Diviner's once-per-turn copy tokens and surveil.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Rhystic Study",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Powerful standalone opponent-tax draw, but Haruspex scales directly with repeated Marchesa creature sacrifices.",
+      "named_cuts": [
+        "Grim Haruspex"
+      ],
+      "incumbent_opportunity_cost": "Loses the recursive creature-based death-draw engine while increasing generic Grixis homogenization.",
+      "commander_synergy": "Powerful standalone opponent-tax draw, but Haruspex scales directly with repeated Marchesa creature sacrifices.",
+      "adversarial_downside": "Loses the recursive creature-based death-draw engine while increasing generic Grixis homogenization.",
+      "judgment": "REJECT",
+      "reason": "Powerful standalone opponent-tax draw, but Haruspex scales directly with repeated Marchesa creature sacrifices. Loses the recursive creature-based death-draw engine while increasing generic Grixis homogenization.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Dictate of Erebos",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Flash and easier black pip cost allow a surprise sacrifice lock.",
+      "named_cuts": [
+        "Grave Pact"
+      ],
+      "incumbent_opportunity_cost": "Five-mana cost delays a role already performed at four mana by Grave Pact.",
+      "commander_synergy": "Flash and easier black pip cost allow a surprise sacrifice lock.",
+      "adversarial_downside": "Five-mana cost delays a role already performed at four mana by Grave Pact.",
+      "judgment": "REJECT",
+      "reason": "Flash and easier black pip cost allow a surprise sacrifice lock. Five-mana cost delays a role already performed at four mana by Grave Pact.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Vigean Graftmage",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Graft counters can seed creatures and enable untap utility.",
+      "named_cuts": [
+        "The Ozolith"
+      ],
+      "incumbent_opportunity_cost": "Requires extra mana and tapping creatures, while Ozolith stores existing dying-creature counters at one mana.",
+      "commander_synergy": "Graft counters can seed creatures and enable untap utility.",
+      "adversarial_downside": "Requires extra mana and tapping creatures, while Ozolith stores existing dying-creature counters at one mana.",
+      "judgment": "REJECT",
+      "reason": "Graft counters can seed creatures and enable untap utility. Requires extra mana and tapping creatures, while Ozolith stores existing dying-creature counters at one mana.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Spymaster's Vault",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Land provides connive after creature deaths for card filtering and counter placement.",
+      "named_cuts": [
+        "Sulfurous Springs"
+      ],
+      "incumbent_opportunity_cost": "Can enter tapped, removes a red source and needs black mana and tap to activate.",
+      "commander_synergy": "Land provides connive after creature deaths for card filtering and counter placement.",
+      "adversarial_downside": "Can enter tapped, removes a red source and needs black mana and tap to activate.",
+      "judgment": "REJECT",
+      "reason": "Land provides connive after creature deaths for card filtering and counter placement. Can enter tapped, removes a red source and needs black mana and tap to activate.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Plaguecrafter",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Planeswalker edict and discard on empty battlefield broaden the option space.",
+      "named_cuts": [
+        "Fleshbag Marauder"
+      ],
+      "incumbent_opportunity_cost": "Human subtype prevents Mikaeus undying and costs more than selected Accursed Marauder.",
+      "commander_synergy": "Planeswalker edict and discard on empty battlefield broaden the option space.",
+      "adversarial_downside": "Human subtype prevents Mikaeus undying and costs more than selected Accursed Marauder.",
+      "judgment": "REJECT",
+      "reason": "Planeswalker edict and discard on empty battlefield broaden the option space. Human subtype prevents Mikaeus undying and costs more than selected Accursed Marauder.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Ravenous Chupacabra",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Targeted destruction of an opposing creature on every Marchesa return.",
+      "named_cuts": [
+        "Fleshbag Marauder"
+      ],
+      "incumbent_opportunity_cost": "Four-mana sorcery-speed ETB cannot answer hexproof or indestructible as well as an edict.",
+      "commander_synergy": "Targeted destruction of an opposing creature on every Marchesa return.",
+      "adversarial_downside": "Four-mana sorcery-speed ETB cannot answer hexproof or indestructible as well as an edict.",
+      "judgment": "REJECT",
+      "reason": "Targeted destruction of an opposing creature on every Marchesa return. Four-mana sorcery-speed ETB cannot answer hexproof or indestructible as well as an edict.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Lazotep Quarry",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "Land can sacrifice a creature to make any color mana and later create a creature-copy token.",
+      "named_cuts": [
+        "High Market"
+      ],
+      "incumbent_opportunity_cost": "Colorless until sacrifice and slower graveyard recreation lose High Market's accessible life gain.",
+      "commander_synergy": "Land can sacrifice a creature to make any color mana and later create a creature-copy token.",
+      "adversarial_downside": "Colorless until sacrifice and slower graveyard recreation lose High Market's accessible life gain.",
+      "judgment": "REJECT",
+      "reason": "Land can sacrifice a creature to make any color mana and later create a creature-copy token. Colorless until sacrifice and slower graveyard recreation lose High Market's accessible life gain.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Kaya's Ghostform",
+      "source": "Scryfall live Oracle 98-name collection 2026-10-26, EDHREC High Lift/optimized filters, historical M6 review and off-ranking discovery",
+      "role": "One-mana aura can immediately return commander or a creature once after death/exile.",
+      "named_cuts": [
+        "Lightning Greaves"
+      ],
+      "incumbent_opportunity_cost": "Single-use protection loses repeatable haste and shroud, forcing another protected cut.",
+      "commander_synergy": "One-mana aura can immediately return commander or a creature once after death/exile.",
+      "adversarial_downside": "Single-use protection loses repeatable haste and shroud, forcing another protected cut.",
+      "judgment": "REJECT",
+      "reason": "One-mana aura can immediately return commander or a creature once after death/exile. Single-use protection loses repeatable haste and shroud, forcing another protected cut.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Curse-Marred Demon",
+      "The Ooze",
+      "Withering Torment",
+      "Accursed Marauder",
+      "Aether Channeler",
+      "Voldaren Thrillseeker",
+      "Madame Null, Power Broker"
+    ],
+    "cuts": [
+      "Braids, Arisen Nightmare",
+      "Deadly Dispute",
+      "Feed the Swarm",
+      "Fleshbag Marauder",
+      "River Kelpie",
+      "Syr Konrad, the Grim",
+      "Twilight Diviner"
+    ],
+    "coherent_package_tradeoff": "Seven changes trade high-cost and one-shot value for counter-granting, cheap recurring ETB edict, flexible instant answer and direct sacrifice-damage; mana-base, ten free sacrifice options and classic persist finishes remain."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Braids, Arisen Nightmare",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Recurring creature ETB tutor improves Marchesa's reanimation value and locates compact recursion pieces.",
+        "alternative_named": "Curse-Marred Demon",
+        "reasoning": "The double-red casting cost and random discard compromise consistency versus Braids' end-step sacrifice cards. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Deadly Dispute",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Every countered creature leaving creates Mutagen artifacts that replenish plus-one counters and artifact death synergies.",
+        "alternative_named": "The Ooze",
+        "reasoning": "Loses instant sacrifice and two immediate cards; Mutagen counters cost mana and can be placed only at sorcery speed. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Feed the Swarm",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Instant speed protects Marchesa from enchantments and removes creatures while preserving the deck's rare black enchantment answer.",
+        "alternative_named": "Withering Torment",
+        "reasoning": "The spell costs three rather than two, so low-mana interaction becomes less accessible. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Fleshbag Marauder",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Cheaper nontoken edict repeats as a Marchesa ETB and retains Mikaeus undying because it is a Zombie.",
+        "alternative_named": "Accursed Marauder",
+        "reasoning": "Cannot force sacrifice of all-token boards, which the original Fleshbag could interact with. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "River Kelpie",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Repeatable three-mana Wizard ETB chooses draw, nonland bounce, or a flying token; Sage gives a counter.",
+        "alternative_named": "Aether Channeler",
+        "reasoning": "Loses Kelpie's persist and graveyard-entry draw across broad simultaneous returns. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Syr Konrad, the Grim",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Backup seeds return counters and can grant a creature paid self-sacrifice damage, with Marchesa recovering the body.",
+        "alternative_named": "Voldaren Thrillseeker",
+        "reasoning": "Loses all-opponent graveyard movement drain and requires one mana per sacrifice activation. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Twilight Diviner",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Repeatable counter grants on creature entry let Marchesa recur nontoken bodies without requiring dethrone combat.",
+        "alternative_named": "Madame Null, Power Broker",
+        "reasoning": "Costs life equal to body power each time and loses Diviner's once-per-turn copy tokens and surveil. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Grim Haruspex",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Powerful standalone opponent-tax draw, but Haruspex scales directly with repeated Marchesa creature sacrifices.",
+        "alternative_named": "Rhystic Study",
+        "reasoning": "Loses the recursive creature-based death-draw engine while increasing generic Grixis homogenization. The proposed disposition is opportunity-cost dependent."
+      },
+      {
+        "card": "Grave Pact",
+        "weakness": "An alternate card competes for this slot after comprehensive role and mana review. Flash and easier black pip cost allow a surprise sacrifice lock.",
+        "alternative_named": "Dictate of Erebos",
+        "reasoning": "Five-mana cost delays a role already performed at four mana by Grave Pact. The proposed disposition is opportunity-cost dependent."
+      }
+    ],
+    "off_ranked_opportunities": "Off-ranking review identified The Ooze, Madame Null and October 2026 Curse-Marred Demon beyond inherited M5 rankings, plus Spymaster's Vault and Lazotep Quarry lands.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Curse-Marred Demon",
+          "The Ooze",
+          "Withering Torment",
+          "Accursed Marauder",
+          "Aether Channeler",
+          "Voldaren Thrillseeker",
+          "Madame Null, Power Broker",
+          "Rhystic Study"
+        ],
+        "cuts": [
+          "Braids, Arisen Nightmare",
+          "Deadly Dispute",
+          "Feed the Swarm",
+          "Fleshbag Marauder",
+          "River Kelpie",
+          "Syr Konrad, the Grim",
+          "Twilight Diviner",
+          "Grim Haruspex"
+        ],
+        "result_and_rationale": "Grim Haruspex is a commander-recurring creature keyed to repeated sacrifice deaths, while Rhystic shifts pressure toward generic tax draw."
+      },
+      {
+        "adds": [
+          "Curse-Marred Demon",
+          "The Ooze",
+          "Withering Torment",
+          "Accursed Marauder",
+          "Aether Channeler",
+          "Voldaren Thrillseeker",
+          "Madame Null, Power Broker",
+          "Rhystic Study",
+          "Dictate of Erebos"
+        ],
+        "cuts": [
+          "Braids, Arisen Nightmare",
+          "Deadly Dispute",
+          "Feed the Swarm",
+          "Fleshbag Marauder",
+          "River Kelpie",
+          "Syr Konrad, the Grim",
+          "Twilight Diviner",
+          "Grim Haruspex",
+          "Grave Pact"
+        ],
+        "result_and_rationale": "Five mana for Dictate delays the same engine and generic Rhystic compromises commander-driven draw, increasing high-curve exposure."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Preserved Flayer of the Hatebound, Gray Merchant, Mikaeus, the Ozolith and all main sacrifice outlets after explicit source-driven review of their combo roles.",
+    "strongest_argument_against_baseline": "The preexisting high-cost card advantage and one-shot Deadly Dispute crowd out lower-curve engines that improve Marchesa's counter safety and ETB looping.",
+    "evidence_based_answer": "Seven exact replacements retain the proven mana base and persist finishes while strengthening counter-entry, sacrifice and recurring tutoring; the full eight/nine options lose identity."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "All incumbent card roles were revisited against original M6 detailed 99-slot audit, recent EDHREC commander filters and current Scryfall release discoveries. Seven selected swaps were followed by two additional challenges and two complete higher-count replacement packages. No padding was added for a numeric threshold.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Grim Haruspex",
+        "challenger": "Rhystic Study",
+        "tradeoff": "Rhystic is universally powerful tax draw, but removing Grim loses an inexpensive recurring Marchesa creature and rewards less of the dedicated free-sacrifice plan.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Grave Pact",
+        "challenger": "Dictate of Erebos",
+        "tradeoff": "Dictate can flash in and reduces black-pip pressure but costs five instead of four and increases curve exposure without adding a new sacrifice axis.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/research_challengers/Marchesa__the_Black_Rose_rev1_alt8_rhystic.txt",
+        "sha256": "b2e1cde4f760e9733eea451e86487c31304e59919651aa2e941656231f5d53a0",
+        "adds": [
+          "Curse-Marred Demon",
+          "The Ooze",
+          "Withering Torment",
+          "Accursed Marauder",
+          "Aether Channeler",
+          "Voldaren Thrillseeker",
+          "Madame Null, Power Broker",
+          "Rhystic Study"
+        ],
+        "cuts": [
+          "Braids, Arisen Nightmare",
+          "Deadly Dispute",
+          "Feed the Swarm",
+          "Fleshbag Marauder",
+          "River Kelpie",
+          "Syr Konrad, the Grim",
+          "Twilight Diviner",
+          "Grim Haruspex"
+        ],
+        "case_for_extra_swaps": "A high-output generic draw enchantment may see more cards against spell-heavy pods than a dying-creature draw source.",
+        "why_not_selected": "Grim Haruspex is a commander-recurring creature keyed to repeated sacrifice deaths, while Rhystic shifts pressure toward generic tax draw."
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Marchesa__the_Black_Rose_rev1_alt9_rhystic_dictate.txt",
+        "sha256": "3d492e6a78c4c5f579ef486db4463b16c7dadc84b1365561a73af56816bda75c",
+        "adds": [
+          "Curse-Marred Demon",
+          "The Ooze",
+          "Withering Torment",
+          "Accursed Marauder",
+          "Aether Channeler",
+          "Voldaren Thrillseeker",
+          "Madame Null, Power Broker",
+          "Rhystic Study",
+          "Dictate of Erebos"
+        ],
+        "cuts": [
+          "Braids, Arisen Nightmare",
+          "Deadly Dispute",
+          "Feed the Swarm",
+          "Fleshbag Marauder",
+          "River Kelpie",
+          "Syr Konrad, the Grim",
+          "Twilight Diviner",
+          "Grim Haruspex",
+          "Grave Pact"
+        ],
+        "case_for_extra_swaps": "Adds broader untargeted draw and flash sacrifice pressure with easier black pips for Grave Pact's replacement.",
+        "why_not_selected": "Five mana for Dictate delays the same engine and generic Rhystic compromises commander-driven draw, increasing high-curve exposure."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The two completed higher-swap portfolios trade away on-theme death-trigger draw for a generic tax enchantment and/or increase mana value in an already black-heavy grave pact role. Earlier retained Flayer and Gray Merchant participate in real compact wins. More swaps can be written but have less Marchesa-specific upside than their incumbent opportunity costs."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Marchesa__the_Black_Rose_chatgpt_rev1.txt",
+    "sha256": "c4857d176eaa6ed682da7cab974014d393fce2efe698bdca6994d77bb27ddf02",
+    "card_count": 100,
+    "deckwide_reconciliation": "The exact source has 100 physical cards, 98 distinct names, Island x2 and Swamp x2 only repeats, 34 lands, one Marchesa commander, seven balanced additions/cuts."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Marchesa__the_Black_Rose_Rev1_Scryfall_20261026.json",
+      "data/grixis/m7/decision_reviews/Marchesa__the_Black_Rose_chatgpt_rev1_review.md",
+      "Wizards October 2026 official Commander banned list; Scryfall Cards Collection live 2026-10-26"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "+1/+1 Counters",
+      "Aristocrats",
+      "Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}
