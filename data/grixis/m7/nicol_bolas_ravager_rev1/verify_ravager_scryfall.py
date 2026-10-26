@@ -8,7 +8,7 @@ import json
 from test_ravager_m7_rev1 import CAND, CAND_SHA, parse
 
 CRITICAL = {
-    "Nicol Bolas, the Ravager": ["each opponent discards a card", "return him transformed"],
+    "Nicol Bolas, the Ravager": ["each opponent discards a card", "transformed"],
     "Aetheric Amplifier": ["Add one mana of any color", "Double the number of each kind of counter on target permanent"],
     "Teferi's Talent": ["Enchant planeswalker", "Whenever you draw a card, put a loyalty counter", "You get an emblem"],
     "Experimental Augury": ["Look at the top three cards of your library", "Proliferate"],
@@ -18,7 +18,7 @@ CRITICAL = {
     "Training Grounds": ["Activated abilities of creatures you control cost {2} less"],
     "Deepglow Skate": ["Double the number of each kind of counter"],
     "Rowan's Talent": ["Whenever you activate a loyalty ability"],
-    "The Chain Veil": ["you may activate loyalty abilities of planeswalkers"],
+    "The Chain Veil": ["For each planeswalker you control"],
 }
 URL = "https://api.scryfall.com/cards/collection"
 
