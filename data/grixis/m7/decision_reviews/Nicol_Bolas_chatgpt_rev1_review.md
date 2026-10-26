@@ -12,7 +12,7 @@ Scope: 10 exact 1:1 swaps, commander unchanged; 100 cards, 99 distinct card name
 
 | Cut | Add | Strategy |
 |---|---|---|
-| Hypnotic Specter | Sarkhan, Soul Aflame | Dragon cost reduction and nonlegendary Nicol copy when Dragon enters; own next upkeep avoids Nicol copy upkeep tax because copy lasts until end of turn. |
+| Hypnotic Specter | Sarkhan, Soul Aflame | Dragon cost reduction and distinctly named Nicol copy when Dragon enters; own next upkeep avoids Nicol copy upkeep tax because copy lasts until end of turn. |
 | Nightscape Familiar | Rivaz of the Claw | Dedicated two-color mana for Nicol Dragon spells; recast Nicol from graveyard if voluntarily left there after dying, with exile-on-dying granted to returned creature. |
 | Oppression | Imperial Seal | Remove symmetric discard tax impeding our 8-mana setup; cheaply find Dragon Tempest, Ingris, or attack/ETB enabler. |
 | Raiders' Wake | Ophidian Eye | Multiple draw triggers from Nicol dealing damage to multiple opponents; flash permits protection and timing flexibility; opponent life-loss payoff decreased. |
@@ -27,7 +27,7 @@ Scope: 10 exact 1:1 swaps, commander unchanged; 100 cards, 99 distinct card name
 
 - Original Nicol Bolas: whenever he deals damage to an opponent **for any reason**, that opponent discards their entire hand; not restricted to combat damage.
 - Dragon Tempest / Ingris Stingerquill / Kediss / Chandra's Ignition / Pain for All / Quicksilver Dagger still make Bolas himself a damage source in their respective interactions.
-- Sarkhan copies original Bolas except its own name and nonlegendary status; the legend rule does not force an immediate sacrifice. If Sarkhan entered that turn, copying does not grant haste.
+- Sarkhan copies original Bolas except its own name; Sarkhan remains legendary, but the legend rule does not force an immediate sacrifice because the names differ. If Sarkhan entered that turn, copying does not grant haste.
 - Dream Halls does not automatically protect the commander or pay commander tax/upkeep. Opponents can also cast spells with its replacement cost, so deployment timing matters.
 - Plaza of Heroes's any-color restriction for a legendary spell applies when casting Bolas, but not necessarily to the upkeep payment unless its third mana mode can use the colors of a legend currently controlled.
 - Reanimate doesn't reach the command zone; a dying Bolas must remain in its graveyard, not move to the command zone, for the line to work.
