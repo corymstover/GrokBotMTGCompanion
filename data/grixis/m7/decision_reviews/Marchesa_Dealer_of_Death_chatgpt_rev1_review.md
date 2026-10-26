@@ -98,6 +98,40 @@ testing remains important with Ad Nauseam/life costs.
   tests contradict current judgment, revisit *only the coherent full 100*
   instead of gratuitously adding a ninth card.
 
+### Open-ended full-100 package audit after the eight selections
+
+The eight selected cuts were **not** a search stop. Two other distinct plausible
+incumbents challenged after the floor were `Magda, the Hoardmaster` (once-turn,
+**tapped** Treasure payoff) and `Praetor's Grasp` (three-mana opponent-target
+theft with double-black requirement). The following three **actual complete
+100-card** alternatives were constructed from the selected candidate and
+checked for exact singleton/physical count:
+
+1. `alt8_counterbalance`: `+Counterbalance / -Magda` relative to selected
+   100; SHA `728bcddce4c8f80c4c81c8f192f53958e515af035ea9cf8a08aedbd047cce98e`.
+   Retains free top-of-library cEDH taxing and Gilded Drake, but deletes an
+   actual commander-specific turn-cycle Treasure engine. **REJECT** in favor
+   of the selected 100's Magda crime identity.
+2. `alt8_talisman`: `+Talisman of Indulgence / -Scrabbling Claws`, SHA
+   `1cfa6d9d4c6d6015c9a3676c84e12776407182bbf93159f8c4a071a08e260248`.
+   Improves consistent two-mana B/R acceleration, but removes repeatable
+   target-player crime plus exact emergency GY exile. **RETAIN_ALTERNATIVE**
+   for demonstrated colored-pip bottlenecks.
+3. `alt9_intuition`: `+Intuition / -Praetor's Grasp` on top of all eight,
+   SHA `eaac15030cbe0c153c01ce6b7e25efa623087142e5e2f4ccc9f4b12e6d054fed`.
+   The instant targets an opponent (crime) and can bin Breach pieces, but
+   opponents choose the hand card: an `Underworld Breach / LED / Brain Freeze`
+   pile **cannot guarantee** placing Breach in hand. Praetor's Grasp can
+   disrupt rival combo access and exploit known opposing lists, at the cost of
+   sorcery timing and double black. **RETAIN_ALTERNATIVE**, but not enough
+   reliable incremental win-line access to displace Grasp now.
+
+The stop reason is that remaining credible extra changes either remove a
+Marchesa-specific engine, worsen turn-cycle threat coverage, or add a
+graveyard-dependent package in an already Breach-vulnerable 100. This is a
+qualitative local choice, **not** a proof that no future meta-specific 9th
+upgrade exists.
+
 ## Source and scope checks
 
 - Source-date context: October 25, 2026. EDHREC Marchesa cEDH page
@@ -130,7 +164,7 @@ testing remains important with Ad Nauseam/life costs.
 
 ## Actual test coverage versus open gates
 
-- **Executed locally:** 18 named finite authored tests in
+- **Executed locally:** 19 named finite authored tests in
   `tests/test_m7_marchesa_dealer_rev1_exact.py`, including 100-card
   SHA/delta/count, C1, K1–K7, E1–E2, W1–W3, F1–F3 and the changed new-card
   target caveats. The little model asserts source-paid sequential examples,
