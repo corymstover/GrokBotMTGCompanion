@@ -1,22 +1,23 @@
-name: M7 Deck 31 Lynde Rev1 source-paid preapproval research
+name: M7 Deck 31 Lynde Rev1 exact certification
 on:
   pull_request:
     branches: [chatgpt-cycle76-m6-refinement]
     paths:
       - .github/workflows/m7-lynde-rev1-research.yml
-      - data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor_chatgpt_rev1.txt
-      - data/grixis/m7/baseline_sources/Lynde__Cheerful_Tormentor_chatgpt_rev1_baseline.txt
-      - data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md
-      - data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json
-      - data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Alternatives_20261025.json
+      - data/grixis/m7/**
+      - data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/**
+      - data/grixis/m6/ij/revision_bundles/lynde-cheerful-tormentor-m7-rev1.json
+      - data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_*_Rev1_20261025.md
+      - scripts/grixis_m6_bundle_check.py
       - tests/test_m7_lynde_rev1_exact.py
+      - tests/test_m7_lynde_rev1_certification.py
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  source-paid-precertification:
+  exact-owner-selected-100:
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
@@ -28,11 +29,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Install pytest
-        run: python -m pip install --disable-pip-version-check pytest
+      - name: Install bounded verification dependencies
+        run: python -m pip install --disable-pip-version-check pytest jsonschema
       - name: Record exact engineering commit
         run: git rev-parse HEAD
-      - name: Run 13 blueprint case groups and structural tests on the exact proposed SHA
-        run: python -m pytest -v tests/test_m7_lynde_rev1_exact.py
-      - name: Preserve the unresolved seal and missing full Oracle-ID gate
-        run: python -m pytest -v tests/test_m7_lynde_rev1_exact.py -k uncertified
+      - name: Verify decisive eight-swap full-100 M7 packet
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_rev1.json
+      - name: Verify 13 blueprint groups and exact Rev1 I/J provenance
+        run: python -m pytest -v tests/test_m7_lynde_rev1_exact.py tests/test_m7_lynde_rev1_certification.py
+      - name: Verify strict M6 source provenance corpus
+        run: python scripts/grixis_m6_bundle_check.py --check

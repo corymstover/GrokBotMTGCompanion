@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "stage": "M6_final_reproducibility_bundle",
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "slug": "lynde-cheerful-tormentor",
+  "baseline_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+  "result_hash": "lh1:421bcaea277b8542c3b158089794036155aecb7949bd243514578ec20d054cb7",
+  "snapshot": {
+    "birthday_id": "birthday-20261017-6e5c604e1459",
+    "oracle_ref": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+    "rules_ref": "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+    "legality_ref": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json"
+  },
+  "inputs": [
+    {
+      "path": "data/grixis/birthday_m5/candidates/lynde-cheerful-tormentor.json.gz",
+      "sha256": "sha256:b4a636b75a968a716f1aac02ab817d55b6de3e3020b738d5f31a33310979027e"
+    },
+    {
+      "path": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz",
+      "sha256": "sha256:36744cc2309860d9a7e1508e8672779c2e37a32a3df614d60173cbaccd7c7067"
+    },
+    {
+      "path": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json",
+      "sha256": "sha256:65748944667a45e45552d7f2a22d818d19a139f7a7463bbdf82b4593a1c4a006"
+    },
+    {
+      "path": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json",
+      "sha256": "sha256:0658482287ae714e5400848f3d76e694a02ab039f1636c9b13033c32fbab164d"
+    },
+    {
+      "path": "data/grixis/m6/review_packets/lynde-cheerful-tormentor.json",
+      "sha256": "sha256:6dba2db8ddf9d5480b85d560e111d6a13c09a68e50767ec897a270a5610d9186"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor_chatgpt_rev1.txt",
+      "sha256": "sha256:6e088891b3c92b632d95e4b6dbd83ffedb06834f812e6728cc5bfa7bdc13556e"
+    },
+    {
+      "path": "data/grixis/m7/baseline_sources/Lynde__Cheerful_Tormentor_chatgpt_rev1_baseline.txt",
+      "sha256": "sha256:05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+      "sha256": "sha256:0e62fb1f387b6a03110f1cab484de1dd87c60aac6a1b30e68dbbbc5202415116"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Alternatives_20261025.json",
+      "sha256": "sha256:d1edd75dee0ee94e7d7896c6d6832e440ceb6e95efca2170022bcc63725e177a"
+    },
+    {
+      "path": "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_rev1.json",
+      "sha256": "sha256:43aeb7fee2d56d3aa9d8337d860f42bcf80cdc791df3ea65583e09db7148c5d7"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/stage_a_seal_correction_v2_20261025.json",
+      "sha256": "sha256:f7ffaef0d8e5181e959de30b061fcf56a8fd09a854d18b745691c60a9ec7087c"
+    }
+  ],
+  "sealed_passes": {
+    "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+    "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+    "a_output_ref": "data/grixis/m6/sealed/A/lynde-cheerful-tormentor.json",
+    "b_output_ref": "data/grixis/m6/sealed/B/lynde-cheerful-tormentor.json",
+    "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+  },
+  "pass_c": {
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md",
+    "judgment_receipt_sha256": "sha256:72d8bfcd2d6fd7757de5c151f2781e04980fb90fd5fcc2aa5a63964c290284c1",
+    "conflicts_resolved": true,
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "technically_independent": false,
+    "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json",
+    "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+    "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+    "stage_a_seal_sha256": "sha256:ed5a1c20af6bdf0e999499fd1e07ad8652796051438ec59ec802b6f619e51a98"
+  },
+  "phase_b": {
+    "complete": true,
+    "tests": [
+      {
+        "test_ref": "tests/test_m7_lynde_rev1_exact.py",
+        "source_sha256": "sha256:fe3c25ca540a6d963d5822c60dce9f115da67ded7187421b27a77a09579697fd",
+        "seed": 31,
+        "harness_version": "lynde_rev1_exact_13_blueprints_25_plus_assertions",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "P0/P1 Oracle-anchored finite-case state predicates, cards/colors/legality/source hashes and alternative lists; not a universal Magic rules simulation or multiplayer win-rate measurement."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_lynde_rev1_certification.py",
+        "source_sha256": "sha256:65dd66f0f5f4c364d94f091bd10f351111ff0dd7583411dc81b4054feec46ba2",
+        "seed": 31,
+        "harness_version": "lynde_rev1_exact_source_provenance_gate_and_J",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Byte-preserving Stage A hash-correction audit, exact raw/logical selected list, M7 structural gate and source-hash J bundle verification; no global optimum proof or owner's authority."
+        ]
+      }
+    ]
+  },
+  "red_team": {
+    "report_path": "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_J_Red_Team_Rev1_20261025.md",
+    "sha256": "sha256:967e13ac002fe3f2316e3669b8a2160c3ff392ecac4be0308a2f6c9ef083ee54"
+  },
+  "mana_analysis": {
+    "report_path": "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_J_Mana_Rev1_20261025.md",
+    "sha256": "sha256:1e51a16f9b425ce3a952b3df0ce832580d20f374930fa92ca36ad2cd5e744362"
+  },
+  "unresolved_material_questions": [],
+  "bundle_status": "complete_evidence_not_approval",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}

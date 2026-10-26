@@ -1,0 +1,903 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "canonical_baseline_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+  "canonical_baseline_logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+  "commander_identity": {
+    "mechanical_plan": "Lynde, Cheerful Tormentor ({1}{U}{B}{R} legendary Human Warlock 2/4 deathtouch). Commander-legal per live Scryfall, not a Game Changer, released, no project exception. Oracle: whenever a Curse is put into your graveyard from the battlefield, return it attached to you at the beginning of the next end step; at the beginning of your upkeep you may attach a Curse attached to you to an opponent, and if you do, draw two. Plan (owner 2026-10-14): Curse recycling and control. Put Curses on opponents, deliberately send your own Curses to your graveyard (Despotic Scepter, Claws of Gix, Perilous Research, Braids, Demon of Fate's Design), Lynde returns them to you and moves one each upkeep for two cards; extra upkeeps (Paradox Haze, The Ninth Doctor, Obeka) and Curse copying (Copy Enchantment, Mirrormade, Estrid's Invocation, Clever Impersonator) scale it. Both adds are upkeep copy engines that make new Curses attached to you for Lynde to move, and both cuts are the Curses whose Lynde return damages your own board.",
+    "protected_core": [
+      "Lynde, Cheerful Tormentor",
+      "Claws of Gix",
+      "Braids, Arisen Nightmare",
+      "Demon of Fate's Design",
+      "Curse of Misfortunes",
+      "Paradox Haze",
+      "Obeka, Splitter of Seconds",
+      "The Ninth Doctor",
+      "Curse of Bloodletting",
+      "Curse of Obsession",
+      "Curse of Fool's Wisdom",
+      "Copy Enchantment",
+      "Mirrormade",
+      "Estrid's Invocation",
+      "Clever Impersonator",
+      "Ashiok's Reaper",
+      "Wicked Visitor",
+      "Entity Tracker",
+      "Grim Guardian",
+      "Doomwake Giant",
+      "Curse of Shaken Faith",
+      "Curse of Hospitality",
+      "Curse of Echoes",
+      "Curse of Vengeance",
+      "Despotic Scepter",
+      "Perilous Research"
+    ],
+    "natural_ceiling": "Power Bracket 4 (Optimized; owner-approved, registry ceiling 4), unchanged. Game Changers: 8 in both baseline and candidate; none of the adds is a Game Changer. Commander Spellbook: 0 included combos in baseline and candidate (almost-included 17 -> 22); no combo is added or lost.",
+    "anti_homogenization": "Commander-first to Lynde's Oracle: each add makes Curses for Lynde to move. No generic Thassa's Oracle/Consultation or Breach package, no non-Curse Aura (Archnemesis class; Grievous Wound rejected for that reason), no mill Curse (Fraying Sanity class), and no owner-removed card (Curse of Oblivion, Curse of Chaos, Curse of Shallow Graves, Fraying Sanity, Crystal Chimes, Protean Thaumaturge, Sphinx of the Second Sun or the seven replaced lands) or owner-rejected card (Strionic Resonator, Beseech the Mirror, Shadow of the Second Sun, Valeria Richards, The Unluckiest Planeswalker, Jabs) is added. Distinctness (nonbasic names shared with the other 61 registry Archidekt exports; the aggregate ALL-DECKS export excluded; 90 nonbasic names): Garza Zol, Plague Queen 42; Solkanar the Swamp King 41; Nicol Bolas 40; Solkanar the Tainted 39; Mai and Zuko 39 (the same for baseline and candidate). The overlap is the Grixis mana base and staples (fetches, duals, Signets/Talismans, tutors, free counters). Lynde-specific against those five: the Curse suite (Thirst, Bloodletting, Misfortunes, Surveillance, Unbinding, Obsession, Fool's Wisdom and the rest), the own-Curse outlets (Despotic Scepter, Claws of Gix, Perilous Research, Braids, Demon of Fate's Design) and the extra-upkeep package (Paradox Haze, The Ninth Doctor, Obeka). Across the other registry exports Court of Vantress and Extravagant Replication each appear in 1 deck; Cruel Reality and Curse of Death's Hold appear in none."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Whole 99 baseline cards challenged by role: Curse density, Lynde graveyard transitions, free or repeatable sacrifice outlets, target handling, monarch upkeep scaling, acceleration, color fixing and sorcery-speed blockers. Eight final cuts weighed against physical 17 Curse faces, and full list retains Curse of Misfortunes, Claws of Gix, Despotic Scepter, Paradox Haze, Obeka, the Ninth Doctor and enchantment synergies. Full direct review: data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md.",
+    "mana_base_and_curve": "Exactly 35 lands after one-for-one swaps, including utility Saga, Otawara and Shizo replacing a Mountain, Island and Swamp. Loss of Nightscape Familiar cost reduction is accepted for the expanded repeatable Curse-sacrifice toolbox. Retains original rocks, fetches, duals, commander access.",
+    "interaction_resilience": "Stack: Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat. Board: Cyclonic Rift, Chaos Warp, Deadly Rollick, Damnation, Toxic Deluge, Blasphemous Act. Lynde's recursion makes Curse removal by opponents a card advantage for you. Removal grid B4 (12 events each): Cruel Reality and Death's Hold return to you in 6 and then harm you (6 and 4); Court and Replication are not Curses, so removal simply removes them (0 returns, 0 self-harm). The candidate loses two table locks (sacrifice-per-upkeep and anti-token) and gains two engines that can be destroyed without a Lynde return.",
+    "weakest_slots": [
+      {
+        "card": "Cruel Reality",
+        "weakness": "Returned to you by Lynde, its upkeep sacrifice still hits you after the move; Lynde is the sacrifice in 42/96 B1 cells.",
+        "alternative_named": "Court of Vantress",
+        "reasoning": "CUT for Court of Vantress (genuine swap 1). Not an owner card; the loss of a symmetrical lock and its higher adoption are disclosed."
+      },
+      {
+        "card": "Curse of Death's Hold",
+        "weakness": "Returned to you, -1/-1 to your creatures until your upkeep; kills Nightscape Familiar or any X/1 in 32/96 B1 cells.",
+        "alternative_named": "Extravagant Replication",
+        "reasoning": "CUT for Extravagant Replication (genuine swap 2). Not an owner card; the anti-token lock and its higher adoption are disclosed."
+      },
+      {
+        "card": "Nightscape Familiar",
+        "weakness": "A 1/1 cost reducer that dies to the deck's own Death's Hold.",
+        "alternative_named": "Staff of Compleation",
+        "reasoning": "Kept: P(Lynde cast) turn 4 0.629 versus 0.6179 without it; the Staff trade is staged, not counted. With Death's Hold cut it no longer dies to the deck's own Curse."
+      },
+      {
+        "card": "Curse of Unbinding",
+        "weakness": "Seven mana, the most expensive Curse in the list.",
+        "alternative_named": "Teferi's Ageless Insight",
+        "reasoning": "Kept: steals a creature every upkeep and is a premium Curse to move; Teferi's adds no table impact."
+      },
+      {
+        "card": "Exotic Orchard",
+        "weakness": "Depends on what lands opponents control.",
+        "alternative_named": "Reliquary Tower",
+        "reasoning": "Kept: in Grixis pods it nearly always taps for U/B/R; Reliquary Tower is colourless."
+      },
+      {
+        "card": "Torment of Scarabs",
+        "weakness": "Returned to you, it can cost a card, a permanent or 3 life.",
+        "alternative_named": "Mogis, God of Slaughter",
+        "reasoning": "Kept: B1 zero life lost in 72/96 Torment cells (you choose discard or sacrifice); still feeds Lynde."
+      },
+      {
+        "card": "Maddening Hex",
+        "weakness": "Random movement can land on the weakest opponent.",
+        "alternative_named": "Curse of the Bloody Tome",
+        "reasoning": "Kept: real damage and self-moving; Bloody Tome is mill without a plan."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Not a Curse, so Lynde cannot move or recur it.",
+        "alternative_named": "Silent Arbiter",
+        "reasoning": "Kept: protects a 2/4 commander and the monarchy; Arbiter is symmetric and pricier."
+      },
+      {
+        "card": "Curse of the Restless Dead",
+        "weakness": "Value depends on the cursed player's land drops.",
+        "alternative_named": "Beseech the Mirror",
+        "reasoning": "Kept: three-mana Curse with steady tokens; Beseech is owner-rejected."
+      },
+      {
+        "card": "Curse of Thirst",
+        "weakness": "Self-damage risk when returned (Pass C concern).",
+        "alternative_named": "Grievous Wound",
+        "reasoning": "Kept: B1 maximum life lost 2 in any cell; a solo returned Thirst moved first deals 0."
+      },
+      {
+        "card": "Bitterheart Witch",
+        "weakness": "A five-mana 1/2 with no immediate effect.",
+        "alternative_named": "Thoughtrender Lamia",
+        "reasoning": "Kept: dying tutors a Curse onto the battlefield; Lamia is a six-mana payoff."
+      },
+      {
+        "card": "Trespasser's Curse",
+        "weakness": "A small drain of 1 per creature entering.",
+        "alternative_named": "Disturbing Mirth",
+        "reasoning": "Kept: two-mana Curse, the cheapest body for Lynde to move; Mirth is a redundant one-shot outlet."
+      },
+      {
+        "card": "Curse of Surveillance",
+        "weakness": "Five mana for a draw Curse that scales slowly.",
+        "alternative_named": "Teferi's Ageless Insight",
+        "reasoning": "Kept: you choose who draws (only you), scaling with Curses on that player."
+      }
+    ],
+    "current_baseline_strength": "An approved Bracket 4 Optimized Curse-recycling list (2026-10-14) with fourteen owner swaps. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING with no proven add/cut and asked for bounded tests of self-Curse upkeep stacks, Braids/exile/DFC return timing, extra-upkeep supply, and only if meaningful Curse of Chaos/Curse of Echoes and the author's Strionic Resonator/Beseech the Mirror variants. This M7 pass ran bounded finite versions (seeded goldfish plus exhaustive rules-encoded grids; manual-rules models, not win rates or source-bound engine receipts).",
+    "candidate_pool_scope": "Eight selected meaningful card changes from whole-99 scrutiny; 21 old challenger verdicts retained and six additional source-validated challengers considered, plus two alternative full 100s at seven and six swaps. The five-swap threshold is an eligibility floor and not a stopping target.",
+    "off_ranked_search_conclusion": "OFF-RANKED true Curse recursion synergy: Barrin's sacrifice cost, Into the Pit's sacrifice additional cost, Staff's destruction outlet, Saga fetching Claws or Scepter, Otawara utility and Shizo combat. Each weighed against Curse density and retained core cards, not imported blindly from candidate rankings."
+  },
+  "candidate_sources": [
+    "Canonical encyclopedia Lynde, Cheerful Tormentor approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt, blob 5731e689, introduced by 7258398 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Lynde__Cheerful_Tormentor_approved_source_2026-10-14.txt)",
+    "EDHREC Lynde, Cheerful Tormentor commander pages JSON (general, upgraded, optimized, cEDH) and off-ranking card pages, retrieved commander pages (general, upgraded, optimized, cEDH) 2026-10-23; card pages for off-ranking checks retrieved 2026-10-23 17:49 CDT, discovery only: data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+    "Live Scryfall /cards/collection batch retrieved 2026-10-23 17:41 CDT: data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+    "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T17:44:24-0500: data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+    "OFF-RANKING search for Curse copy engines, own-permanent outlets, draw amplifiers, upkeep taxes and Curse-adjacent Auras absent from Lynde's pages (Staff of Compleation, Teferi's Ageless Insight, Witchbane Orb, Disturbing Mirth, Grievous Wound, Mogis, Painful Quandary, Price of Knowledge)",
+    "M6 Pass C disposition (owner-equivalent substitute, NOT independent; its Stage A seal fails the shared checker, see blocker): data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md; data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json",
+    "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Lynde__Cheerful_Tormentor.md; data/grixis/m6/deep_reviews/Lynde__Cheerful_Tormentor.md",
+    "Owner 2026-10-14 current-cycle decisions (14 swaps, retained packages, rejections, removed cards): canonical refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "Comprehensive Rules (frozen cache) 303.4f, 303.4h, 503.1a, 603.7c, 603.10a, 704.5d, 704.5f, 704.5m, 712.8a; frozen rulings: data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+    "Bounded finite measured tests (the Pass C request): seeded goldfish (seed 31, 20000 games, 7 turns) of Lynde deployment with outlets, extra-upkeep sources and the swapped engines; exhaustive rules-encoded grids B1 self-Curse upkeep stacks (246 cells), B2 rules cases (12), B3 extra-upkeep and copy-engine supply (180), B4 removal and return (72); tested pool of 13 configurations: data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json; tests/test_m6_lynde_cheerful_tormentor_m7_mechanics.py",
+    "OFF-RANKING October 25 commander-first Barrin, Into the Pit and Staff outlet investigations; Urza's Saga finds Claws/Scepter, Otawara and Shizo strengthen on-board options; data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+  ],
+  "material_candidates": [
+    {
+      "card": "Court of Vantress",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 1705/7774, upgraded 118/443, optimized 13/82, cEDH 1/3; live Scryfall batch; card page Top Commanders row: Lynde 1705/7774",
+      "role": "{2}{U}{U} enchantment: you become the monarch on entry; each upkeep, if you're the monarch, create a token copy of up to one other target enchantment or artifact (if not, Court becomes a copy of it with this ability).",
+      "named_cuts": [
+        "Cruel Reality"
+      ],
+      "incumbent_opportunity_cost": "Cruel Reality is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Curse package; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {5}{B}{B} Aura Curse: enchanted player sacrifices a creature or planeswalker each upkeep, else loses 5 life. EDHREC general 5703/7774, optimized 54/82. This M7 Rev1 outcome selects the outlet despite the quantifiable cost-reducer loss.",
+      "commander_synergy": "A Curse token copy is not cast, so you choose the player it enchants (CR 303.4f): attach it to yourself and Lynde moves it to an opponent for two cards, or attach it straight to an opponent. Copies Paradox Haze, Curse of Misfortunes or Rhystic-class enchantments too, plus a monarch card each end step. Grid B3 (36 cells, monarch): Lynde draws 82 -> 204 and Curse tokens 0 -> 102. Cruel Reality returned to you by Lynde costs a creature next upkeep (moving it does not cancel the trigger): Lynde herself is lost in 42 of 96 B1 cells; B4 self-harm 6 of 12.",
+      "adversarial_downside": "Depends on retaining monarchy; tokens cannot be recurred from graveyard.",
+      "judgment": "SELECT_ADD",
+      "reason": "Makes repeatable Curse enchantment copies while monarch, replacing a seven-mana Curse that turns against Lynde when it returns to you.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor.txt",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_A_CourtOnly_minus_CruelReality_20261023.txt"
+      ]
+    },
+    {
+      "card": "Extravagant Replication",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2712/7774, upgraded 157/443, optimized 20/82, cEDH 1/3; live Scryfall batch; card page Top Commanders row: Lynde 2712/7774",
+      "role": "{4}{U}{U} enchantment: at the beginning of your upkeep, create a token copy of another target nonland permanent you control.",
+      "named_cuts": [
+        "Curse of Death's Hold"
+      ],
+      "incumbent_opportunity_cost": "Curse of Death's Hold is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Curse package; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {3}{B}{B} Aura Curse: creatures enchanted player controls get -1/-1. EDHREC general 5548/7774, optimized 50/82. This M7 Rev1 outcome selects the outlet despite the quantifiable cost-reducer loss.",
+      "commander_synergy": "No monarch condition: every upkeep (and every extra upkeep from Paradox Haze, The Ninth Doctor or Obeka) it copies a Curse you control, attached to you for Lynde to move or straight to an opponent, or copies a creature or engine. Grid B3: Lynde draws 82 -> 204, Curse tokens 0 -> 102 (204 with Court). Death's Hold returned to you shrinks your creatures from the end step to your upkeep and kills Nightscape Familiar or any X/1 in 32 of 96 B1 cells.",
+      "adversarial_downside": "Six mana, does nothing immediately, and a copied Curse token is not a graveyard-recurring card.",
+      "judgment": "SELECT_ADD",
+      "reason": "Copies nonland engine pieces on your upkeep or makes additional Curse tokens, instead of a Curse that shrinks your own team once returned to you.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor.txt",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_B_ReplicationOnly_minus_CurseOfDeathsHold_20261023.txt"
+      ]
+    },
+    {
+      "card": "Staff of Compleation",
+      "source": "EDHREC Lynde, Cheerful Tormentor general absent, upgraded 28/443, optimized absent, cEDH absent; live Scryfall batch; card page: Lynde absent from Top Commanders",
+      "role": "{3} artifact: {T}, pay 1 life: destroy target permanent you own; other modes for mana, proliferate, a card; {5}: untap.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Nightscape Familiar is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Acceleration/cost reduction; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. EDHREC general 5525/7774, optimized 49/82. This M7 Rev1 outcome selects the outlet despite the quantifiable cost-reducer loss.",
+      "commander_synergy": "A repeatable outlet: destroy your own Curse attached to an opponent, Lynde returns it to you at the end step, move it next upkeep for two cards. Goldfish P(Lynde + repeatable outlet) turn 7 0.2716 -> 0.3379.",
+      "adversarial_downside": "Loses two-mana cost reduction; tap timing and once-per-turn limitation require a real tradeoff.",
+      "judgment": "SELECT_ADD",
+      "reason": "Pays 1 life and taps to destroy a permanent you own, including your Curse on an opponent, setting up its Lynde return; also offers emergency draw and mana.",
+      "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_staged_plus_StaffOfCompleation_minus_NightscapeFamiliar_20261023.txt"
+      ]
+    },
+    {
+      "card": "Curse of Chaos",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2651/7774, upgraded 117/443, optimized 18/82, cEDH 1/3; live Scryfall batch; Pass C Stage A lower-priority challenger",
+      "role": "{2}{R} Curse: whenever a player attacks the cursed player with one or more creatures, that attacking player may discard a card and draw a card.",
+      "named_cuts": [
+        "Curse of Echoes"
+      ],
+      "incumbent_opportunity_cost": "Curse of Echoes is an EXPLICIT owner add (2026-10-14: Curse of Shallow Graves -> Curse of Echoes). {4}{U} Curse: other players may copy the cursed player's instants and sorceries. EDHREC general 5324/7774, cEDH 3/3.",
+      "commander_synergy": "A cheaper, attack-driven political Curse that Pass C's sealed Stage A named as a lower-priority test.",
+      "adversarial_downside": "Owner REMOVED Curse of Chaos on 2026-10-14 (replaced by Curse of Hospitality), and Curse of Echoes is an explicit owner add. Re-adding it reverses an owner decision; no measured advantage (the deployment model does not score Curse text).",
+      "judgment": "REJECT",
+      "reason": "Owner-removed card; compare-only 100 staged as the Pass C test, not re-added.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md",
+        "canonical refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_CurseOfChaos_minus_CurseOfEchoes_20261023.txt"
+      ]
+    },
+    {
+      "card": "Strionic Resonator",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 1662/7774, upgraded 109/443, optimized 12/82, cEDH absent; live Scryfall batch; Pass C author hypothesis",
+      "role": "{2} artifact: {2},{T}: copy target triggered ability you control.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Nightscape Familiar is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Acceleration/cost reduction; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. EDHREC general 5525/7774, optimized 49/82.",
+      "commander_synergy": "Copies Lynde's upkeep trigger (two more cards if a second Curse is still attached to you) or a Curse trigger.",
+      "adversarial_downside": "Owner REJECTED it by name on 2026-10-14 (repeated mana; does not beat direct engines). Costs Nightscape (P(Lynde cast) turn 7 0.8601); Spellbook almost-included 22 -> 24, included still 0.",
+      "judgment": "REJECT",
+      "reason": "Owner-rejected card; compare-only.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md",
+        "canonical refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_StrionicResonator_minus_NightscapeFamiliar_20261023.txt"
+      ]
+    },
+    {
+      "card": "Beseech the Mirror",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 852/7774, upgraded 77/443, optimized 19/82, cEDH 1/3; live Scryfall batch; Pass C author hypothesis",
+      "role": "{1}{B}{B}{B} sorcery, bargain: search for a card and exile it; if bargained, you may cast it free if its mana value is 4 or less.",
+      "named_cuts": [
+        "Curse of the Restless Dead"
+      ],
+      "incumbent_opportunity_cost": "Curse of the Restless Dead is not an owner add or explicit keep: {2}{B} Curse that makes a decayed 2/2 Zombie whenever a land the cursed player controls enters. EDHREC general 5901/7774.",
+      "commander_synergy": "Bargaining a Curse triggers Lynde and tutors.",
+      "adversarial_downside": "Owner REJECTED it by name on 2026-10-14 (no slot weaker enough). BBB in a deck with 20 black sources; the deck already has Demonic Tutor, Vampiric Tutor, Imperial Seal and Curse of Misfortunes.",
+      "judgment": "REJECT",
+      "reason": "Owner-rejected card; compare-only.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md",
+        "canonical refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_BeseechTheMirror_minus_CurseOfTheRestlessDead_20261023.txt"
+      ]
+    },
+    {
+      "card": "Disturbing Mirth",
+      "source": "EDHREC Lynde, Cheerful Tormentor general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lynde, Cheerful Tormentor commander page); card page Top Commanders row: Lynde 118/7774",
+      "role": "{B}{R} enchantment: when it enters, you may sacrifice another enchantment or creature; if you do, draw two. When you sacrifice it, manifest dread.",
+      "named_cuts": [
+        "Trespasser's Curse"
+      ],
+      "incumbent_opportunity_cost": "Trespasser's Curse is not an owner add or explicit keep: {1}{B} Curse, drain 1 whenever a creature enters under the cursed player's control. EDHREC general 7118/7774, optimized 61/82.",
+      "commander_synergy": "Two mana: sacrifice a Curse, draw two, and Lynde returns the Curse at the end step.",
+      "adversarial_downside": "A one-shot outlet that needs a Curse already on the battlefield; the deck already has Perilous Research, Despotic Scepter, Claws of Gix, Braids and Demon of Fate's Design. Low adoption (118/7774).",
+      "judgment": "REJECT",
+      "reason": "Redundant one-shot outlet; not clearly better than Trespasser's Curse.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_DisturbingMirth_minus_TrespassersCurse_20261023.txt"
+      ]
+    },
+    {
+      "card": "Teferi's Ageless Insight",
+      "source": "EDHREC Lynde, Cheerful Tormentor general absent, upgraded absent, optimized absent, cEDH 2/3; live Scryfall batch",
+      "role": "{2}{U}{U} legendary enchantment: each draw except the first in your draw step becomes two.",
+      "named_cuts": [
+        "Curse of Unbinding"
+      ],
+      "incumbent_opportunity_cost": "Curse of Unbinding is not an owner add or explicit keep: {6}{U} Curse that steals the cursed player's next creature each upkeep. EDHREC general 6845/7774, optimized 66/82.",
+      "commander_synergy": "Doubles Lynde's two cards to four, and Curse of Surveillance and monarch draws.",
+      "adversarial_downside": "No table impact on its own; absent from Lynde's general, upgraded and optimized pages (cEDH 2/3 only). Curse of Unbinding is a premium steal Curse. Spellbook almost-included 22 -> 23.",
+      "judgment": "REJECT",
+      "reason": "Draw amplification is not short of cards in this deck; costs a premium Curse.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_TeferisAgelessInsight_minus_CurseOfUnbinding_20261023.txt"
+      ]
+    },
+    {
+      "card": "Thoughtrender Lamia",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2373/7774, upgraded 109/443, optimized 13/82, cEDH absent; live Scryfall batch",
+      "role": "{4}{B}{B} 5/3 enchantment creature: constellation, each opponent discards a card.",
+      "named_cuts": [
+        "Bitterheart Witch"
+      ],
+      "incumbent_opportunity_cost": "Bitterheart Witch is not an owner add or explicit keep: {4}{B} 1/2 deathtouch; when it dies, search for a Curse and put it onto the battlefield attached to target player. EDHREC general 6185/7774.",
+      "commander_synergy": "Every Curse return or token copy makes each opponent discard.",
+      "adversarial_downside": "Six mana; Bitterheart Witch tutors a Curse onto the battlefield and is a deathtouch blocker. 2373/7774.",
+      "judgment": "REJECT",
+      "reason": "Expensive payoff; Bitterheart is more commander-specific.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_ThoughtrenderLamia_minus_BitterheartWitch_20261023.txt"
+      ]
+    },
+    {
+      "card": "Curse of the Bloody Tome",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2444/7774, upgraded 116/443, optimized 15/82, cEDH 2/3; live Scryfall batch",
+      "role": "{2}{U} Curse: the cursed player mills two each upkeep.",
+      "named_cuts": [
+        "Maddening Hex"
+      ],
+      "incumbent_opportunity_cost": "Maddening Hex is not an owner add or explicit keep: {1}{R}{R} Curse, d6 damage whenever the cursed player casts a noncreature spell, then it moves to a random other opponent. EDHREC general 6292/7774, optimized 62/82.",
+      "commander_synergy": "A cheap Curse body for Lynde to move.",
+      "adversarial_downside": "Mill without a mill plan (the owner removed Fraying Sanity for that reason on 2026-10-14); Maddening Hex deals real damage and moves itself.",
+      "judgment": "REJECT",
+      "reason": "Low-impact Curse; owner-rejected mill class.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+        "canonical refinement/decisions/Lynde_Cheerful_Tormentor_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+        "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_CurseOfTheBloodyTome_minus_MaddeningHex_20261023.txt"
+      ]
+    },
+    {
+      "card": "Grievous Wound",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2035/7774, upgraded 122/443, optimized 16/82, cEDH 1/3; live Scryfall batch",
+      "role": "{3}{B}{B} Aura (Enchant player, NOT a Curse): no lifegain; whenever dealt damage, lose half their life.",
+      "named_cuts": [
+        "Cruel Reality"
+      ],
+      "incumbent_opportunity_cost": "Cruel Reality is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Curse package; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {5}{B}{B} Aura Curse: enchanted player sacrifices a creature or planeswalker each upkeep, else loses 5 life. EDHREC general 5703/7774, optimized 54/82.",
+      "commander_synergy": "Pairs with Curse damage (Thirst, Maddening Hex).",
+      "adversarial_downside": "Not a Curse, so Lynde neither recurs nor moves it (the owner's Archnemesis reasoning, 2026-10-14).",
+      "judgment": "REJECT",
+      "reason": "Not a Curse, so it is off Lynde's engine.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Witchbane Orb",
+      "source": "EDHREC Lynde, Cheerful Tormentor general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lynde, Cheerful Tormentor commander page); card page Top Commanders row: Lynde 121/7774",
+      "role": "{4} artifact: on entry destroy all Curses attached to you; you have hexproof.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Nightscape Familiar is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Acceleration/cost reduction; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. EDHREC general 5525/7774, optimized 49/82.",
+      "commander_synergy": "Destroys every Curse attached to you at once, each returning by Lynde.",
+      "adversarial_downside": "Hexproof stops opponents' targeted Curses only; one-shot. Returned Curses come back attached to you anyway; Lynde moves only one per upkeep.",
+      "judgment": "REJECT",
+      "reason": "One-shot and slow; not better than incumbents.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Price of Knowledge",
+      "source": "EDHREC Lynde, Cheerful Tormentor general absent, upgraded absent, optimized absent, cEDH 1/3; live Scryfall batch",
+      "role": "{6}{B} enchantment: no maximum hand size; each opponent's upkeep it deals damage equal to their hand size.",
+      "named_cuts": [
+        "Curse of Unbinding"
+      ],
+      "incumbent_opportunity_cost": "Curse of Unbinding is not an owner add or explicit keep: {6}{U} Curse that steals the cursed player's next creature each upkeep. EDHREC general 6845/7774, optimized 66/82.",
+      "commander_synergy": "Punishes Curse of Obsession/Surveillance hands.",
+      "adversarial_downside": "Seven mana, not a Curse, symmetric no-max-hand; absent from the general page (cEDH 1/3 only).",
+      "judgment": "REJECT",
+      "reason": "Off Lynde's engine and seven mana.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Mogis, God of Slaughter",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 660/7774, upgraded 43/443, optimized 10/82, cEDH absent; live Scryfall batch",
+      "role": "{2}{B}{R} indestructible God: each opponent's upkeep, 2 damage unless they sacrifice a creature.",
+      "named_cuts": [
+        "Cruel Reality"
+      ],
+      "incumbent_opportunity_cost": "Cruel Reality is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Curse package; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {5}{B}{B} Aura Curse: enchanted player sacrifices a creature or planeswalker each upkeep, else loses 5 life. EDHREC general 5703/7774, optimized 54/82.",
+      "commander_synergy": "A Cruel-Reality-like tax that never returns to you.",
+      "adversarial_downside": "Not a Curse (no Lynde recursion or movement); 660/7774. It is the safe-tax alternative if the owner wants Cruel Reality's role without the Lynde self-harm, but does not feed the engine.",
+      "judgment": "REJECT",
+      "reason": "Off-engine; the selected Court feeds Lynde instead.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Painful Quandary",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 711/7774, upgraded 50/443, optimized 9/82, cEDH 1/3; live Scryfall batch",
+      "role": "{3}{B}{B} enchantment: opponents lose 5 or discard whenever they cast a spell.",
+      "named_cuts": [
+        "Curse of Death's Hold"
+      ],
+      "incumbent_opportunity_cost": "Curse of Death's Hold is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Curse package; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {3}{B}{B} Aura Curse: creatures enchanted player controls get -1/-1. EDHREC general 5548/7774, optimized 50/82.",
+      "commander_synergy": "A strong spell-tax pressure enchantment.",
+      "adversarial_downside": "Not a Curse; 711/7774. The selected copy engine is commander-specific.",
+      "judgment": "REJECT",
+      "reason": "Off Lynde's engine: not a Curse to move.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Swiftfoot Boots",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2594/7774, upgraded 139/443, optimized 20/82, cEDH 1/3; live Scryfall batch",
+      "role": "{2} Equipment: hexproof and haste; equip {1}.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Nightscape Familiar is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Acceleration/cost reduction; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. EDHREC general 5525/7774, optimized 49/82.",
+      "commander_synergy": "Protects Lynde from targeted removal.",
+      "adversarial_downside": "Lynde's value is upkeep-based, haste is irrelevant; the deck protects with counters (Fierce Guardianship, Deflecting Swat, Mana Drain, Swan Song).",
+      "judgment": "REJECT",
+      "reason": "Generic protection not needed by the plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Reliquary Tower",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 4261/7774, upgraded 246/443, optimized 46/82, cEDH 1/3; live Scryfall batch",
+      "role": "Land: no maximum hand size; {T}: add {C}.",
+      "named_cuts": [
+        "Exotic Orchard"
+      ],
+      "incumbent_opportunity_cost": "Exotic Orchard is not an owner card: untapped land for any colour an opponent's land could produce. EDHREC general 4746/7774.",
+      "commander_synergy": "Keeps the extra Lynde/monarch cards.",
+      "adversarial_downside": "Colourless in a three-colour deck with demanding pips; the hand is usually spent.",
+      "judgment": "REJECT",
+      "reason": "Colour cost exceeds the benefit.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Cloud Key",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2859/7774, upgraded 147/443, optimized 28/82, cEDH 1/3; live Scryfall batch",
+      "role": "{3} artifact: chosen card type costs {1} less.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Nightscape Familiar is not an owner add or an explicit owner keep. The 2026-10-14 whole-list audit CSV marks every card KEEP generically ('Acceleration/cost reduction; KEEP after impact/recursion audit'); it is not named among the decisions file's explicit retained packages or the 14 owner swaps. {1}{B} 1/1: blue and red spells cost {1} less; {1}{B}: regenerate. EDHREC general 5525/7774, optimized 49/82.",
+      "commander_synergy": "Enchantment discount for Curses.",
+      "adversarial_downside": "Three mana for a one-mana discount; Nightscape is two mana, discounts blue and red spells and blocks.",
+      "judgment": "REJECT",
+      "reason": "Slower and weaker than the incumbent Nightscape Familiar.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Silent Arbiter",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 2304/7774, upgraded 142/443, optimized 20/82, cEDH 1/3; live Scryfall batch",
+      "role": "{4} 1/5 artifact creature: one attacker and one blocker per combat.",
+      "named_cuts": [
+        "Propaganda"
+      ],
+      "incumbent_opportunity_cost": "Propaganda is not an owner card: {2}{U}, creatures can't attack you unless their controller pays {2} each. EDHREC general 5824/7774.",
+      "commander_synergy": "Defends the monarchy (relevant with Court).",
+      "adversarial_downside": "Symmetric, also limits Obeka's damage line; Crawlspace (two attackers) is weaker still. Propaganda is cheaper.",
+      "judgment": "REJECT",
+      "reason": "Not better than Propaganda for this deck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "The Unluckiest Planeswalker",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 264/1373, upgraded 22/96, optimized 3/15, cEDH absent; live Scryfall batch; live Scryfall commander: not_legal",
+      "role": "Legendary planeswalker (mbc, released 2026-10-19).",
+      "named_cuts": [
+        "Cruel Reality"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: not legal in Commander on live Scryfall.",
+      "adversarial_downside": "Live Scryfall reads commander not_legal; the owner also declined it on 2026-10-14.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Not Commander-legal on live Scryfall.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json"
+      ]
+    },
+    {
+      "card": "Jabs, Mistress of Mockery",
+      "source": "EDHREC Lynde, Cheerful Tormentor general 20/1373, upgraded absent, optimized 1/15, cEDH absent; live Scryfall batch; live Scryfall commander: not_legal",
+      "role": "Legendary creature (mbc, released 2026-10-19).",
+      "named_cuts": [
+        "Cruel Reality"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: not legal in Commander on live Scryfall.",
+      "adversarial_downside": "Live Scryfall reads commander not_legal; the owner also declined it on 2026-10-14.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Not Commander-legal on live Scryfall.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json"
+      ]
+    },
+    {
+      "card": "Barrin, Master Wizard",
+      "source": "Oct 25 Lynde Rev1 whole-99 challenger search; Scryfall Oracle-ID/legality index and source-paid commander-identity review.",
+      "role": "Lets you sacrifice a real Curse as the paid activation cost to bounce a legal creature, then Lynde puts that Curse onto you at the next end step.",
+      "named_cuts": [
+        "Torment of Scarabs"
+      ],
+      "incumbent_opportunity_cost": "The prior card is an existing baseline slot and cutting it costs: Requires {2} and a valid creature target and sacrifices a card that otherwise applies attrition on an opponent.",
+      "commander_synergy": "Lets you sacrifice a real Curse as the paid activation cost to bounce a legal creature, then Lynde puts that Curse onto you at the next end step.",
+      "adversarial_downside": "Requires {2} and a valid creature target and sacrifices a card that otherwise applies attrition on an opponent.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for Lynde-specific Curse recursion, draw engine resilience or utility land access, not generic Grixis staples.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Into the Pit",
+      "source": "Oct 25 Lynde Rev1 whole-99 challenger search; Scryfall Oracle-ID/legality index and source-paid commander-identity review.",
+      "role": "Converts a nonland permanent, including a Curse, into an alternative cost to cast the top card of your library under ordinary timing restrictions; moves Curse to graveyard for Lynde.",
+      "named_cuts": [
+        "Curse of the Restless Dead"
+      ],
+      "incumbent_opportunity_cost": "The prior card is an existing baseline slot and cutting it costs: Without usable top cards or a fodder nonland permanent it gives no value; losing the decayed-token curse reduces Curse density.",
+      "commander_synergy": "Converts a nonland permanent, including a Curse, into an alternative cost to cast the top card of your library under ordinary timing restrictions; moves Curse to graveyard for Lynde.",
+      "adversarial_downside": "Without usable top cards or a fodder nonland permanent it gives no value; losing the decayed-token curse reduces Curse density.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for Lynde-specific Curse recursion, draw engine resilience or utility land access, not generic Grixis staples.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Urza's Saga",
+      "source": "Oct 25 Lynde Rev1 whole-99 challenger search; Scryfall Oracle-ID/legality index and source-paid commander-identity review.",
+      "role": "A land that finds Claws of Gix or Despotic Scepter at chapter III and therefore gives more access to Curse sacrifice engines.",
+      "named_cuts": [
+        "Mountain"
+      ],
+      "incumbent_opportunity_cost": "The prior card is an existing baseline slot and cutting it costs: Automatically sacrifices itself and is colorless while present, so it costs an unconditional basic red source.",
+      "commander_synergy": "A land that finds Claws of Gix or Despotic Scepter at chapter III and therefore gives more access to Curse sacrifice engines.",
+      "adversarial_downside": "Automatically sacrifices itself and is colorless while present, so it costs an unconditional basic red source.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for Lynde-specific Curse recursion, draw engine resilience or utility land access, not generic Grixis staples.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Otawara, Soaring City",
+      "source": "Oct 25 Lynde Rev1 whole-99 challenger search; Scryfall Oracle-ID/legality index and source-paid commander-identity review.",
+      "role": "Colored blue land with an uncounterable channel-cost spell ability to bounce an opposing nonland permanent or own Curse without taking a normal spell slot.",
+      "named_cuts": [
+        "Island"
+      ],
+      "incumbent_opportunity_cost": "The prior card is an existing baseline slot and cutting it costs: Channel is temporary return to hand, not to graveyard; it replaces a fetchable basic and costs extra mana.",
+      "commander_synergy": "Colored blue land with an uncounterable channel-cost spell ability to bounce an opposing nonland permanent or own Curse without taking a normal spell slot.",
+      "adversarial_downside": "Channel is temporary return to hand, not to graveyard; it replaces a fetchable basic and costs extra mana.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for Lynde-specific Curse recursion, draw engine resilience or utility land access, not generic Grixis staples.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Shizo, Death's Storehouse",
+      "source": "Oct 25 Lynde Rev1 whole-99 challenger search; Scryfall Oracle-ID/legality index and source-paid commander-identity review.",
+      "role": "Black-producing land turns Lynde into a harder-to-block deathtouch attacker, with a low-cost activated ability useful when attacking to retain monarchy.",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "The prior card is an existing baseline slot and cutting it costs: May help opponent legendary creatures, is not a basic and is a small combat lift rather than a Curse engine.",
+      "commander_synergy": "Black-producing land turns Lynde into a harder-to-block deathtouch attacker, with a low-cost activated ability useful when attacking to retain monarchy.",
+      "adversarial_downside": "May help opponent legendary creatures, is not a basic and is a small combat lift rather than a Curse engine.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for Lynde-specific Curse recursion, draw engine resilience or utility land access, not generic Grixis staples.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Court of Vantress",
+      "Extravagant Replication",
+      "Barrin, Master Wizard",
+      "Into the Pit",
+      "Staff of Compleation",
+      "Urza's Saga",
+      "Otawara, Soaring City",
+      "Shizo, Death's Storehouse"
+    ],
+    "cuts": [
+      "Cruel Reality",
+      "Curse of Death's Hold",
+      "Torment of Scarabs",
+      "Curse of the Restless Dead",
+      "Nightscape Familiar",
+      "Mountain",
+      "Island",
+      "Swamp"
+    ],
+    "coherent_package_tradeoff": "Eight connected, commander-first changes: five Curse-support and repeatable outlet/replication engines replace underperforming or self-punishing Curses plus a cost reducer, and three Grixis utility lands replace a basic of each color while maintaining exactly 35 lands. Four Curse faces leave the physical 100 (21 to 17), counterbalanced by tangible sacrifice, copy, draw and tutor access. Barrin has target requirements, Court needs monarchy, Into the Pit pays a nonland sacrifice, Staff costs life and taps, Urza's Saga sacrifices itself, utility lands reduce basics. This is intentionally optimized Lynde rather than generic turbo."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Cruel Reality",
+        "weakness": "Returned to you by Lynde, its upkeep sacrifice still hits you after the move; Lynde is the sacrifice in 42/96 B1 cells.",
+        "alternative_named": "Court of Vantress",
+        "reasoning": "Selected as the actual eight-swap package: Makes repeatable Curse enchantment copies while monarch, replacing a seven-mana Curse that turns against Lynde when it returns to you. Tradeoff: Depends on retaining monarchy; tokens cannot be recurred from graveyard."
+      },
+      {
+        "card": "Curse of Death's Hold",
+        "weakness": "Returned to you, -1/-1 to your creatures until your upkeep; kills Nightscape Familiar or any X/1 in 32/96 B1 cells.",
+        "alternative_named": "Extravagant Replication",
+        "reasoning": "Selected as the actual eight-swap package: Copies nonland engine pieces on your upkeep or makes additional Curse tokens, instead of a Curse that shrinks your own team once returned to you. Tradeoff: Six mana, does nothing immediately, and a copied Curse token is not a graveyard-recurring card."
+      },
+      {
+        "card": "Nightscape Familiar",
+        "weakness": "A 1/1 cost reducer that dies to the deck's own Death's Hold.",
+        "alternative_named": "Staff of Compleation",
+        "reasoning": "Selected as the actual eight-swap package: Pays 1 life and taps to destroy a permanent you own, including your Curse on an opponent, setting up its Lynde return; also offers emergency draw and mana. Tradeoff: Loses two-mana cost reduction; tap timing and once-per-turn limitation require a real tradeoff."
+      },
+      {
+        "card": "Curse of Unbinding",
+        "weakness": "Seven mana, the most expensive Curse in the list.",
+        "alternative_named": "Teferi's Ageless Insight",
+        "reasoning": "Kept: steals a creature every upkeep and is a premium Curse to move; Teferi's adds no table impact."
+      },
+      {
+        "card": "Exotic Orchard",
+        "weakness": "Depends on what lands opponents control.",
+        "alternative_named": "Reliquary Tower",
+        "reasoning": "Kept: in Grixis pods it nearly always taps for U/B/R; Reliquary Tower is colourless."
+      },
+      {
+        "card": "Torment of Scarabs",
+        "weakness": "Returned to you, it can cost a card, a permanent or 3 life.",
+        "alternative_named": "Barrin, Master Wizard",
+        "reasoning": "Selected as the actual eight-swap package: Lets you sacrifice a real Curse as the paid activation cost to bounce a legal creature, then Lynde puts that Curse onto you at the next end step. Tradeoff: Requires {2} and a valid creature target and sacrifices a card that otherwise applies attrition on an opponent."
+      },
+      {
+        "card": "Maddening Hex",
+        "weakness": "Random movement can land on the weakest opponent.",
+        "alternative_named": "Curse of the Bloody Tome",
+        "reasoning": "Kept: real damage and self-moving; Bloody Tome is mill without a plan."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Not a Curse, so Lynde cannot move or recur it.",
+        "alternative_named": "Silent Arbiter",
+        "reasoning": "Kept: protects a 2/4 commander and the monarchy; Arbiter is symmetric and pricier."
+      },
+      {
+        "card": "Curse of the Restless Dead",
+        "weakness": "Value depends on the cursed player's land drops.",
+        "alternative_named": "Into the Pit",
+        "reasoning": "Selected as the actual eight-swap package: Converts a nonland permanent, including a Curse, into an alternative cost to cast the top card of your library under ordinary timing restrictions; moves Curse to graveyard for Lynde. Tradeoff: Without usable top cards or a fodder nonland permanent it gives no value; losing the decayed-token curse reduces Curse density."
+      },
+      {
+        "card": "Curse of Thirst",
+        "weakness": "Self-damage risk when returned (Pass C concern).",
+        "alternative_named": "Grievous Wound",
+        "reasoning": "Kept: B1 maximum life lost 2 in any cell; a solo returned Thirst moved first deals 0."
+      },
+      {
+        "card": "Bitterheart Witch",
+        "weakness": "A five-mana 1/2 with no immediate effect.",
+        "alternative_named": "Thoughtrender Lamia",
+        "reasoning": "Kept: dying tutors a Curse onto the battlefield; Lamia is a six-mana payoff."
+      },
+      {
+        "card": "Trespasser's Curse",
+        "weakness": "A small drain of 1 per creature entering.",
+        "alternative_named": "Disturbing Mirth",
+        "reasoning": "Kept: two-mana Curse, the cheapest body for Lynde to move; Mirth is a redundant one-shot outlet."
+      },
+      {
+        "card": "Curse of Surveillance",
+        "weakness": "Five mana for a draw Curse that scales slowly.",
+        "alternative_named": "Teferi's Ageless Insight",
+        "reasoning": "Kept: you choose who draws (only you), scaling with Curses on that player."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKING: Staff of Compleation staged; Teferi's Ageless Insight, Witchbane Orb, Disturbing Mirth, Grievous Wound, Mogis, Painful Quandary, Price of Knowledge rejected; The Unluckiest Planeswalker and Jabs, Mistress of Mockery not Commander-legal.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Court of Vantress",
+          "Extravagant Replication",
+          "Barrin, Master Wizard",
+          "Into the Pit",
+          "Staff of Compleation",
+          "Urza's Saga",
+          "Otawara, Soaring City",
+          "Shizo, Death's Storehouse"
+        ],
+        "cuts": [
+          "Cruel Reality",
+          "Curse of Death's Hold",
+          "Torment of Scarabs",
+          "Curse of the Restless Dead",
+          "Nightscape Familiar",
+          "Mountain",
+          "Island",
+          "Swamp"
+        ],
+        "result_and_rationale": "SELECTED: full physical one-to-one eight-swap deck; 17 Curse faces remain, 35 lands, eight source-paid role improvements and utility."
+      },
+      {
+        "adds": [
+          "Court of Vantress",
+          "Extravagant Replication",
+          "Barrin, Master Wizard",
+          "Into the Pit",
+          "Urza's Saga",
+          "Otawara, Soaring City",
+          "Shizo, Death's Storehouse"
+        ],
+        "cuts": [
+          "Cruel Reality",
+          "Curse of Death's Hold",
+          "Torment of Scarabs",
+          "Curse of the Restless Dead",
+          "Mountain",
+          "Island",
+          "Swamp"
+        ],
+        "result_and_rationale": "ALTERNATIVE A: full 100 available in 2026-10-25 alternatives JSON; keep Nightscape Familiar to retain early cost reduction, but sacrifice-outlet redundancy is lower."
+      },
+      {
+        "adds": [
+          "Court of Vantress",
+          "Extravagant Replication",
+          "Staff of Compleation",
+          "Urza's Saga",
+          "Otawara, Soaring City",
+          "Shizo, Death's Storehouse"
+        ],
+        "cuts": [
+          "Cruel Reality",
+          "Curse of Death's Hold",
+          "Nightscape Familiar",
+          "Mountain",
+          "Island",
+          "Swamp"
+        ],
+        "result_and_rationale": "ALTERNATIVE B: full 100 in alternatives JSON; preserve two Curse faces (Torment, Restless Dead), but fail to increase repeatable sacrifice/casting outlets."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Pass C's lower-priority Curse of Chaos/Curse of Echoes test and the author's Strionic Resonator/Nightscape and Beseech the Mirror hypotheses were each staged as complete compare-only 100s and rejected (owner-removed or owner-rejected cards). Neither selected cut is an owner keep, so no owner-keep override alternative is needed; alternatives A and B split the two swaps.",
+    "strongest_argument_against_baseline": "Lynde returns every Curse attached to YOU, and two of the deck's Curses punish the player they are attached to on the way back: Cruel Reality's upkeep sacrifice still resolves against you after Lynde moves it (Lynde is the sacrifice in 42/96 B1 cells), and Curse of Death's Hold kills your X/1s before your upkeep (32/96). The engine works best with Curses that are harmless to hold for one turn.",
+    "evidence_based_answer": "Two genuine swaps: +Court of Vantress -Cruel Reality and +Extravagant Replication -Curse of Death's Hold (both MODERATE; both cuts are more popular on EDHREC). Pass C's requested tests were run; Curse of Chaos, Strionic Resonator and Beseech the Mirror stay rejected; Staff of Compleation is a staged trade. Every other challenger is dominated, owner-rejected, off-engine or invalid. RESEARCH_ONLY.",
+    "fewer_than_five_weak_slots_reason": null
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor_chatgpt_rev1.txt",
+    "sha256": "6e088891b3c92b632d95e4b6dbd83ffedb06834f812e6728cc5bfa7bdc13556e",
+    "card_count": 100,
+    "deckwide_reconciliation": "Full exact physical 100, one commander, 99 library cards, 96 distinct names; 35 lands; repeated basics Island x3, Mountain x2, Swamp x2 only. Eight balanced swaps validated against the canonical 2026-10-14 baseline; all 96 distinct Oracle identities show official Commander legal and UBR within the October 25 source index; no project exception invoked. SHA-256 bound to exact LF formatted Archidekt import."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Oracle_Index_20261025.json",
+      "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_ChatGPT_Rev1_Alternatives_20261025.json",
+      "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_rev1_review.md",
+      "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+      "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+      "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/stage_a_seal_correction_v2_20261025.json",
+      "tests/test_m7_lynde_rev1_exact.py",
+      "tests/test_m7_lynde_rev1_certification.py"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Curses",
+      "Enchantress",
+      "Control"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "Cory approved the exact eight-swap Lynde Rev1 SHA once on 2026-10-25. Complete engineering transfer without another approval request; the canonical lock is a separate downstream step."
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Repeated the scan after reaching five swaps: every retained Curse, top-end enchantment, copy engine, draw component, bounce spell, interaction, outlet, tutor and land was examined for Lynde-specific leverage, including their downside if reattached to you. Candidate review weighed 17 remaining Curse faces against the option to retain 19; no generic Grixis turbo combo was added.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Curse of Echoes",
+        "challenger": "Curse of Chaos",
+        "disposition": "REJECT",
+        "tradeoff": "Curse of Chaos was previously removed by the owner; cutting the retained Echoes for merely another political Curse does not improve reliable Lynde graveyard recursion or payoff."
+      },
+      {
+        "incumbent": "Curse of Vengeance",
+        "challenger": "Strionic Resonator",
+        "disposition": "REJECT",
+        "tradeoff": "Strionic Resonator is a previously owner-rejected repeatable trigger copier; it consumes mana and weakens Curse density without clear improvement over the selected enchantment copy engines."
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "The next identified nine- or ten-swap packages would need to cut an additional protected Curse engine, cheap disruption spell, or key piece of the mana base for a previously rejected or marginal card. Deliberately examined Curse of Chaos, Strionic Resonator, Teferi's Ageless Insight, Beseech the Mirror, Grievous Wound and Witchbane Orb. Each either reduces Curse identity, makes an owner-rejected reintroduction, or adds less than the selected eight and was not justified as a stronger complete 100.",
+    "quality_based_stop_reason": "Stop at eight genuine changes because each selected slot increases Curse sacrifice/return accessibility, upkeep copying, interaction or land utility, whereas each ninth challenger demonstrably sacrifices more commander-specific value or owner preference than it gains. Five was only a research eligibility floor, not the target number."
+  }
+}

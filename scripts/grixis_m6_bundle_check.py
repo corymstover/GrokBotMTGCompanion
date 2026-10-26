@@ -101,6 +101,52 @@ def verify_xander_versioned_stage_a_correction(deck_id, seal, ext):
             == "sha256:" + correction["original_stage_a_json_sha256"]
             and correction["original_stage_a_json_sha256"] == seal.get("stage_a_json_sha256"))
 
+# Lynde carries its own provenance-only Stage A correction. This is not a global waiver.
+# Original Stage A MD/JSON/seal remain byte-identical; owner approval is one deck decision.
+_LYNDE_CORRECTION = (
+    "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/"
+    "stage_a_seal_correction_v2_20261025.json"
+)
+_LYNDE_CORRECTION_SHA = "f7ffaef0d8e5181e959de30b061fcf56a8fd09a854d18b745691c60a9ec7087c"
+_LYNDE_ORIGINAL_SEAL_SHA = "ed5a1c20af6bdf0e999499fd1e07ad8652796051438ec59ec802b6f619e51a98"
+_LYNDE_SEALED_MD_SHA = "59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e"
+_LYNDE_ACTUAL_MD_SHA = "02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a"
+_LYNDE_STAGE_A_BLOB = "b253ed9c4c7543b4c369dba957b2b4971c059133"
+
+
+def verify_lynde_versioned_stage_a_correction(deck_id, seal, ext):
+    """Validate exactly one immutable Lynde MD hash correction, fail closed."""
+    if deck_id != "Lynde__Cheerful_Tormentor" or ext != "md":
+        return False
+    base = "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/"
+    md_path, seal_path = base + "stage_a.md", base + "seal.json"
+    if (seal.get("stage_a_md_path") != md_path
+            or seal.get("stage_a_md_sha256") != _LYNDE_SEALED_MD_SHA
+            or content_hash(seal_path) != "sha256:" + _LYNDE_ORIGINAL_SEAL_SHA):
+        return False
+    if content_hash(_LYNDE_CORRECTION) != "sha256:" + _LYNDE_CORRECTION_SHA:
+        return False
+    correction = load(safe_repo_file(_LYNDE_CORRECTION))
+    if not all((
+        correction.get("schema_version") == "lynde-stage-a-byte-hash-correction-v2",
+        correction.get("deck_id") == deck_id,
+        correction.get("historical_original_seal_sha256") == _LYNDE_ORIGINAL_SEAL_SHA,
+        correction.get("historical_original_recorded_stage_a_md_sha256") == _LYNDE_SEALED_MD_SHA,
+        correction.get("observed_original_stage_a_md_sha256") == _LYNDE_ACTUAL_MD_SHA,
+        correction.get("original_stage_a_git_blob_sha") == _LYNDE_STAGE_A_BLOB,
+        correction.get("technically_independent") is False,
+        correction.get("canonical_historical_baseline_sha256") == seal.get("canonical_input_sha256"),
+    )):
+        return False
+    data = safe_repo_file(md_path).read_bytes()
+    computed_blob = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
+    return (hashlib.sha256(data).hexdigest() == _LYNDE_ACTUAL_MD_SHA
+            and computed_blob == _LYNDE_STAGE_A_BLOB
+            and content_hash(base + "stage_a.json")
+            == "sha256:" + correction["original_stage_a_json_sha256"]
+            and correction["original_stage_a_json_sha256"] == seal.get("stage_a_json_sha256"))
+
+
 # Strict Pass C non-independence disclosure (added for PR #653, Ashad): "technical(ly) independen(ce|t)"
 # followed only by markdown/colon punctuation and then an explicit FALSE, or a NO that ends the clause
 # (so "no longer ..." never matches). Any explicit TRUE/YES statement anywhere vetoes this path.
@@ -496,7 +542,8 @@ def validate_pass_c(judgment, deck_id):
         raise ValueError("Owner-equivalent deck/Stage A seal provenance mismatch")
     for ext in ("md", "json"):
         if content_hash(seal["stage_a_" + ext + "_path"]) != "sha256:" + seal["stage_a_" + ext + "_sha256"]:
-            if not verify_xander_versioned_stage_a_correction(deck_id, seal, ext):
+            if not (verify_xander_versioned_stage_a_correction(deck_id, seal, ext)
+                    or verify_lynde_versioned_stage_a_correction(deck_id, seal, ext)):
                 raise ValueError("Stage A source diverged from separately sealed byte commitment")
     final = safe_repo_file(judgment["judgment_receipt_path"]).read_text(encoding="utf-8")
     # Historical owner-equivalent reviews used two explicit negative-independence labels.

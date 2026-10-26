@@ -1,0 +1,1686 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 17,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "2047-5471",
+    "uses": [
+     "Obeka, Splitter of Seconds",
+     "Mechanized Production"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "5228-5471",
+    "uses": [
+     "Obeka, Splitter of Seconds",
+     "Descent into Avernus"
+    ],
+    "produces": [
+     "Near-infinite Treasure tokens for all players",
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "3011-5206",
+    "uses": [
+     "Heartless Hidetsugu",
+     "Curse of Bloodletting"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "3965-4691",
+    "uses": [
+     "Vilis, Broker of Blood",
+     "Curse of Fool's Wisdom"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1530-2210-4948",
+    "uses": [
+     "Second Chance",
+     "Mirrormade",
+     "Estrid's Invocation"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 22,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   },
+   {
+    "id": "2047-5471",
+    "uses": [
+     "Obeka, Splitter of Seconds",
+     "Mechanized Production"
+    ],
+    "produces": [
+     "Win the game"
+    ]
+   },
+   {
+    "id": "5228-5471",
+    "uses": [
+     "Obeka, Splitter of Seconds",
+     "Descent into Avernus"
+    ],
+    "produces": [
+     "Near-infinite Treasure tokens for all players",
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "2484-7502",
+    "uses": [
+     "Expedited Inheritance",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+     "Exile your library with the ability to play the exiled cards until the end of your next turn"
+    ]
+   },
+   {
+    "id": "3011-5206",
+    "uses": [
+     "Heartless Hidetsugu",
+     "Curse of Bloodletting"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1061-2061",
+    "uses": [
+     "Timestream Navigator",
+     "Extravagant Replication"
+    ],
+    "produces": [
+     "Infinite turns",
+     "Lock"
+    ]
+   },
+   {
+    "id": "3965-4691",
+    "uses": [
+     "Vilis, Broker of Blood",
+     "Curse of Fool's Wisdom"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite lifegain triggers"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Lynde__Cheerful_Tormentor_PassC_plus_BeseechTheMirror_minus_CurseOfTheRestlessDead_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_PassC_plus_CurseOfChaos_minus_CurseOfEchoes_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_PassC_plus_StrionicResonator_minus_NightscapeFamiliar_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 24,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "2751-6286",
+     "uses": [
+      "Unstoppable Plan",
+      "Strionic Resonator"
+     ],
+     "produces": [
+      "Infinite mana nonland permanents you control can produce",
+      "Infinite untap of nonland permanents you control"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_alt_A_CourtOnly_minus_CruelReality_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 19,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1469-1558-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Time Sieve",
+      "Court of Vantress"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_alt_B_ReplicationOnly_minus_CurseOfDeathsHold_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 20,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_rejected_plus_CurseOfTheBloodyTome_minus_MaddeningHex_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_rejected_plus_DisturbingMirth_minus_TrespassersCurse_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_rejected_plus_TeferisAgelessInsight_minus_CurseOfUnbinding_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 23,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "1561-5042",
+     "uses": [
+      "Peer into the Abyss",
+      "Teferi's Ageless Insight"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_rejected_plus_ThoughtrenderLamia_minus_BitterheartWitch_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Lynde__Cheerful_Tormentor_staged_plus_StaffOfCompleation_minus_NightscapeFamiliar_20261023.txt": {
+   "identity": "UBR",
+   "included": [],
+   "included_with_commander": [],
+   "almost_included_count": 22,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "2484-4083",
+     "uses": [
+      "Blasphemous Act",
+      "Repercussion"
+     ],
+     "produces": [
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1775-2484",
+     "uses": [
+      "Toralf, God of Fury // Toralf's Hammer",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Near-infinite damage"
+     ]
+    },
+    {
+     "id": "1823-2484",
+     "uses": [
+      "Fall of Cair Andros",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite damage to creatures"
+     ]
+    },
+    {
+     "id": "2047-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Mechanized Production"
+     ],
+     "produces": [
+      "Win the game"
+     ]
+    },
+    {
+     "id": "5228-5471",
+     "uses": [
+      "Obeka, Splitter of Seconds",
+      "Descent into Avernus"
+     ],
+     "produces": [
+      "Near-infinite Treasure tokens for all players",
+      "Near-infinite damage to all players"
+     ]
+    },
+    {
+     "id": "2484-7502",
+     "uses": [
+      "Expedited Inheritance",
+      "Blasphemous Act"
+     ],
+     "produces": [
+      "Each player may exile a portion of their library with the ability to play the exiled cards until the end of their next turn",
+      "Exile your library with the ability to play the exiled cards until the end of your next turn"
+     ]
+    },
+    {
+     "id": "3011-5206",
+     "uses": [
+      "Heartless Hidetsugu",
+      "Curse of Bloodletting"
+     ],
+     "produces": [
+      "Near-infinite damage",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1061-2061",
+     "uses": [
+      "Timestream Navigator",
+      "Extravagant Replication"
+     ],
+     "produces": [
+      "Infinite turns",
+      "Lock"
+     ]
+    },
+    {
+     "id": "3965-4691",
+     "uses": [
+      "Vilis, Broker of Blood",
+      "Curse of Fool's Wisdom"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite lifegain triggers"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T17:44:24-0500"
+}

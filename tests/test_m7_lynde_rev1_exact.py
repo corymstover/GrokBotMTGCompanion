@@ -1,7 +1,7 @@
 """Lynde M7 Rev1 exact-list, bounded P0/P1 source predicates (not an MTG engine).
 
-This is engineering research. PASS is not final M6/M7 certification while the
-historical Stage A seal disagrees with bytes or the Oracle index has partial IDs.
+These bounded tests check the exact selected list, not universal rules simulation.
+Historical Stage A bytes are preserved; the exact pinned correction is checked separately.
 """
 from collections import Counter
 import hashlib
@@ -231,7 +231,7 @@ def test_alternatives_are_full_100s_and_not_same_candidate(evidence):
         assert a[k]["list"] != P_CANDIDATE.read_text()
 
 
-def test_uncertified_seal_and_partial_oracle_are_explicit(evidence):
+def test_preserved_seal_and_complete_oracle_are_explicit(evidence):
     o = json.loads(P_ORACLE.read_text())
     missing_ids = [x["name"] for x in o["cards"] if not x["oracle_id"]]
     assert missing_ids == []
@@ -243,4 +243,4 @@ def test_uncertified_seal_and_partial_oracle_are_explicit(evidence):
         metadata = json.loads(seal.read_text())
         assert hashlib.sha256(stage_a.read_bytes()).hexdigest() == (
             "02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a")
-        # Historical seal mismatch is intentional and not corrected in research.
+        # Original sealed bytes remain unchanged; versioned overlay is independently verified.
