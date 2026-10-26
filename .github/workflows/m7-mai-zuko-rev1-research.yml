@@ -6,7 +6,7 @@ on:
       - .github/workflows/m7-mai-zuko-rev1-research.yml
       - data/grixis/m7/candidate_lists/Mai_and_Zuko_chatgpt_rev1.txt
       - data/grixis/m7/baseline_sources/Mai_and_Zuko_chatgpt_rev1_baseline.txt
-      - data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1*
+      - data/grixis/m7/decision_reviews/Mai_and_Zuko*rev1*
       - data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json
       - tests/test_m7_mai_zuko_rev1_exact.py
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
       - name: Show exact engineering commit
         run: git rev-parse HEAD
       - name: Validate decisive seven-swap full 100 review schema
-        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1.json
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Mai_and_Zuko_rev1.json
       - name: Validate raw hashes, deck delta, full Oracle index, combo rules
         run: python -m pytest -v tests/test_m7_mai_zuko_rev1_exact.py
       - name: Preserve strict M6 Pass C source integrity

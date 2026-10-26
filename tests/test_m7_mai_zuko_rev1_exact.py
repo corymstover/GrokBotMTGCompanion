@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 BASE = ROOT / "data/grixis/m7/baseline_sources/Mai_and_Zuko_chatgpt_rev1_baseline.txt"
 CAND = ROOT / "data/grixis/m7/candidate_lists/Mai_and_Zuko_chatgpt_rev1.txt"
 INDEX = ROOT / "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json"
-REVIEW = ROOT / "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1.json"
+REVIEW = ROOT / "data/grixis/m7/decision_reviews/Mai_and_Zuko_rev1.json"
 BASE_SHA = "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2"
 CAND_SHA = "8cdf614e47eadf3ec33049a770a3f0a2b84338e84c31bb26a49e6f26f5c60d97"
 
