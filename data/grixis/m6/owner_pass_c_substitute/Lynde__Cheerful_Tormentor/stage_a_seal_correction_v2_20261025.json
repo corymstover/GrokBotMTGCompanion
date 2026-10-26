@@ -1,0 +1,29 @@
+{
+  "schema_version": "lynde-stage-a-byte-hash-correction-v2",
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "deck_number": 31,
+  "correction_date": "2026-10-25",
+  "owner_authorization": "Cory approved the exact Lynde M7 Rev1 100-card list once, then expressly rejected a request for a second approval solely to perform routine certification and a provenance-preserving Stage A hash correction. Under the single-approval process acknowledged on 2026-10-25, this correction documents the existing byte mismatch without rewriting evidence; it does not claim independent third-model execution or overall milestone acceptance.",
+  "historical_original_seal_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json",
+  "historical_original_seal_sha256": "ed5a1c20af6bdf0e999499fd1e07ad8652796051438ec59ec802b6f619e51a98",
+  "historical_original_recorded_stage_a_md_sha256": "59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e",
+  "observed_original_stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/stage_a.md",
+  "observed_original_stage_a_md_sha256": "02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a",
+  "original_stage_a_git_blob_sha": "b253ed9c4c7543b4c369dba957b2b4971c059133",
+  "original_stage_a_first_commit_sha": "b4c985688c4bee3db76d18bb0c3ada940ec79c98",
+  "original_stage_a_json_sha256": "d2b968bb9990d57920f983e9a5a40cf3fefe849d567b925b48bfc085ee7407eb",
+  "canonical_historical_baseline_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "finding": "The original separately committed seal names the correct first-stage commit and Stage A Markdown Git blob, but its recorded Markdown SHA-256 omits the original file's terminal newline. The original file's full byte SHA-256 is listed here. The sealed Stage A JSON already matches. Original file, seal, reviewer history, and dispositions remain untouched.",
+  "scope": "Only Lynde__Cheerful_Tormentor Stage A Markdown digest comparison may consult this exact pinned correction record. Original hashes, Git blobs, Stage A JSON, historical reviewer provenance, all other cases and approval checks remain enforced.",
+  "not_claimed": [
+    "independent model review",
+    "Stage A content amendment",
+    "global seal waiver",
+    "full M6 I/J simulation",
+    "multiplayer win-rate measurement",
+    "owner approval of other deck revisions"
+  ]
+}
