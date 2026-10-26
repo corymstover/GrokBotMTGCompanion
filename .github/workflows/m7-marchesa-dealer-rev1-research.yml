@@ -1,4 +1,4 @@
-name: M7 Deck 34 Marchesa Dealer Rev1 exact research tests
+name: M7 Deck 34 Marchesa Dealer Rev1 exact certification checks
 on:
   pull_request:
     branches: [chatgpt-cycle76-m6-refinement]
@@ -10,6 +10,10 @@ on:
       - data/grixis/m7/decision_reviews/Marchesa_Dealer_of_Death_chatgpt_rev1_review.md
       - data/grixis/m7/continuations/Marchesa_Dealer_of_Death_rev1_open_gates.md
       - tests/test_m7_marchesa_dealer_rev1_exact.py
+      - tests/test_m7_marchesa_dealer_rev1_oracle_snapshot.py
+      - data/grixis/m7/oracle_snapshots/Marchesa_Dealer_of_Death_Rev1_Scryfall_20261026.json
+      - data/grixis/m7/verification/Marchesa_Dealer_of_Death_Rev1_Scoped_M6_IJ_20261026.json
+      - data/grixis/m7/decision_reviews/Marchesa__Dealer_of_Death_rev1.json
 permissions:
   contents: read
 jobs:
@@ -25,5 +29,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Run source-bound Deck 34 physical and bounded rules fixtures
-        run: python -m unittest discover -s tests -p test_m7_marchesa_dealer_rev1_exact.py -v
+      - name: Install M7 structural gate dependency
+        run: python -m pip install jsonschema
+      - name: Run source-bound Deck 34 physical, Oracle and scoped P0/P1 fixtures
+        run: python -m unittest discover -s tests -p 'test_m7_marchesa_dealer_rev1*.py' -v
+      - name: Run M7 whole-deck exact-candidate decision gate
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Marchesa__Dealer_of_Death_rev1.json
