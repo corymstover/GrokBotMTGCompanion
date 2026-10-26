@@ -52,7 +52,7 @@ class MishraEminentRev1(unittest.TestCase):
         self.assertIn("target noncreature artifact", self.text("Mishra, Eminent One"))
         self.assertIn("another artifact you control enters", self.text("Gonti's Aether Heart"))
         self.assertIn("Pay eight", self.text("Gonti's Aether Heart"))
-        self.assertIn("trigger an additional time", self.text("Panharmonicon"))
+        self.assertIn("triggers an additional time", self.text("Panharmonicon"))
         # Original Heart and Warform each trigger on the first Warform entering;
         # Panharmonicon doubles both 2-energy triggers: 2x2x2 = 8.
         first_copy_energy = 2 * 2 * 2
