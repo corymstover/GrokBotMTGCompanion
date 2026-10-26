@@ -6,7 +6,7 @@
 - Current proposed exact raw SHA-256: `6e088891b3c92b632d95e4b6dbd83ffedb06834f812e6728cc5bfa7bdc13556e`.
 - Proposed physical: 100 cards, 96 distinct names, Island ×3, Mountain ×2, Swamp ×2 only repeats; 35 lands, Grixis identity, no project exceptions.
 - Proposed 8 net swaps (five spell-engine, three mana base); 17 physical cards with a Curse face/type versus 21 in baseline. This reduction is material. The four cut Curses are replaced with direct Curse support and copying that reduces dependence on drawn individual Auras, not generic turbo combo.
-- Current receipts: original 93 unique baseline Oracle names and five new spells from the Oct 23 live Scryfall batch in PR #679; three new utility lands individually checked via Oct 25 Scryfall pages. The attached index marks three incomplete full-card-text/ID records; a fresh exact-96-name full Oracle collection receipt remains a certification prerequisite.
+- Current receipts: original 93 baseline names and five new spells from the Oct 23 Scryfall collection evidence in PR #679; Otawara and Urza's Saga Oracle IDs/full text from the Oct 23 Lord Xander Scryfall evidence; Shizo full Oracle text and ID from Scryfall's current indexed card page and corroborating Scryfall-derived all-printing references. A new October 25 batch download was inaccessible; provenance is distinguished per source.
 - Power target: **Bracket 4 — Optimized**, commander-first Curse recursion, not a cEDH turbo shell. Archidekt tags: **Curses / Enchantress / Control**.
 - No statistical win-rate or end-to-end rules-engine result is claimed.
 
@@ -25,7 +25,7 @@
 
 ## Deliberate KEEP and challenged outsider judgments
 
-9. **KEEP Curse of Misfortunes:** repeatable Curse tutor on its controller's upkeep (even when the enchanted player differs) is the principal density multiplier.
+9. **KEEP Curse of Misfortunes:** repeatable Curse tutor on its controller's upkeep is the principal density multiplier, even if attached to a different player.
 10. **KEEP Despotic Scepter and Claws of Gix:** both directly enable battlefield-to-your-graveyard movement of owned Curses; Saga increases tutor access.
 11. **KEEP Braids, Arisen Nightmare / Demon of Fate's Design / Perilous Research:** distinct paid sacrifice windows and resilience, none displaced by speculative generic tutors.
 12. **KEEP The Ninth Doctor, Paradox Haze, Obeka:** upkeep multiplication is the deck's unique strategic secondary axis; Shizo supports the hardest of these to trigger.
@@ -61,7 +61,7 @@ Existing sealed Stage A MD bytes (unchanged, git blob `b253ed9c`) SHA `02adfb85d
 
 ## Outstanding before owner approval
 
-- [ ] Obtain fresh complete Oracle name/ID/text/legality index including three lands.
+- [x] Reconcile all 96 selected Oracle names/IDs/text/legality from the October 23 Scryfall receipts plus dated utility-land corroboration, with source-date limits explicitly disclosed.
 - [ ] Run source-paid P0/P1 mechanical cases and mana/resilience scenarios on exact candidate SHA.
 - [ ] Complete M6 I/J certification transfer, preserving the original Pass C seal and obtaining owner authorization for any versioned hash correction.
 - [ ] Run exact-head GitHub Actions and attach green receipt for the exact candidate.

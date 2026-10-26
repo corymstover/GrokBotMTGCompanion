@@ -210,6 +210,8 @@ def test_F3_mana_and_density_paid_not_handwaved(evidence):
                              if k in oracle and "Land" not in oracle[k]["type_line"]
                              and k != "Lynde, Cheerful Tormentor")
     assert nonland(cards) == 64
+    # Baseline removes five named spells from the candidate Oracle index;
+    # its 64 noncommander spells follow independently from 100 - 35 - 1.
     assert sum(baseline.values()) - 35 - baseline["Lynde, Cheerful Tormentor"] == 64
     assert cards["Island"] == 3 and cards["Mountain"] == 2 and cards["Swamp"] == 2
     curses = sum(v for k, v in cards.items() if "Curse" in oracle[k]["type_line"])
@@ -232,8 +234,7 @@ def test_alternatives_are_full_100s_and_not_same_candidate(evidence):
 def test_uncertified_seal_and_partial_oracle_are_explicit(evidence):
     o = json.loads(P_ORACLE.read_text())
     missing_ids = [x["name"] for x in o["cards"] if not x["oracle_id"]]
-    assert set(missing_ids) == {
-        "Urza's Saga", "Otawara, Soaring City", "Shizo, Death's Storehouse"}
+    assert missing_ids == []
     # Green case tests must not be described as an M6/M7 final approval certificate.
     assert "NOT_FINAL_CERTIFICATION" in o["status"]
     seal = ROOT / f"data/grixis/m6/owner_pass_c_substitute/{ID}/seal.json"
