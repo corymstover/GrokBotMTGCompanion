@@ -70,6 +70,18 @@
         "weakness": "Loses red untap and protection redirection; new combo needs further activations",
         "alternative_named": "Phyrexian Devourer",
         "reasoning": "Caged counters without Devourer state-trigger; amplifies Hateflayer power damage"
+      },
+      {
+        "card": "Stormcarved Coast",
+        "weakness": "Conditional two-color tapland may impede opening Mairsil timing; an extra colorless commander-only bounce utility could offer recaging.",
+        "alternative_named": "Sanctum of Eternity",
+        "reasoning": "Preserve Stormcarved as early UR fixer because adding Sanctum on top of Riptide creates a second colorless utility source."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "An opponent-dependent two-mana mana rock without cage payload; can be challenged by a trigger copier but retains early colored mana.",
+        "alternative_named": "Strionic Resonator",
+        "reasoning": "Retain dependable colored acceleration because Mairsil needs three distinct colors and Strionic is mana hungry."
       }
     ],
     "current_baseline_strength": "Original 100 was owner-approved Oct14 and already has 32 land, 100 unique cards, rare cage payloads and Quicksilver/Rings combos. No historic lock mutated.",
@@ -81,12 +93,13 @@
     "M6 PR #285 deep review and #440 sealed Pass C land challenge",
     "EDHREC Mairsil Top/High Lift crawled 2026-10-25",
     "Commander Spellbook Mairsil combo index, current",
-    "Scryfall selected new Oracle/Commander pages and Wizards current bans list"
+    "Scryfall selected new Oracle/Commander pages and Wizards current bans list",
+    "OFF-RANKING discovery of Phyrexian Devourer and Agatha's Soul Cauldron abilities beyond the earlier M6 two-fetch package."
   ],
   "material_candidates": [
     {
       "card": "Marsh Flats",
-      "source": "M6 PR #285 and #440",
+      "source": "M6 PR #285 and #440; reviewed in the current commander-first full-99 M7 comparison",
       "role": "Flexible untapped Swamp-type dual fetch",
       "named_cuts": [
         "Haunted Ridge"
@@ -103,7 +116,7 @@
     },
     {
       "card": "Misty Rainforest",
-      "source": "M6 PR #285 and #440",
+      "source": "M6 PR #285 and #440; reviewed in the current commander-first full-99 M7 comparison",
       "role": "Flexible untapped Island-type dual fetch",
       "named_cuts": [
         "Shipwreck Marsh"
@@ -137,7 +150,7 @@
     },
     {
       "card": "Cavern Harpy",
-      "source": "Scryfall and EDHREC High Lift",
+      "source": "Scryfall and EDHREC High Lift; reviewed in the current commander-first full-99 M7 comparison",
       "role": "Caged pay-1-life self-bounce for hand recasting",
       "named_cuts": [
         "Cephalid Inkshrouder"
@@ -181,6 +194,74 @@
       "adversarial_downside": "Loses red untap and protection redirection; new combo needs further activations",
       "judgment": "SELECT_ADD",
       "reason": "Replaces Torchling for stronger Mairsil cage/ability/tempo value while preserving the commander-first shell.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mairsil_the_Pretender_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Sanctum of Eternity",
+      "source": "Scryfall Sanctum of Eternity Oracle and higher-swap exact-100 alternative",
+      "role": "Additional commander hand-bounce utility land on own turn",
+      "named_cuts": [
+        "Stormcarved Coast"
+      ],
+      "incumbent_opportunity_cost": "Would displace reliable UR land with second colorless utility land and only sorcery-speed bounce",
+      "commander_synergy": "Additional commander hand-bounce utility land on own turn",
+      "adversarial_downside": "Would displace reliable UR land with second colorless utility land and only sorcery-speed bounce",
+      "judgment": "REJECT",
+      "reason": "Considered as a seventh/off-ranking challenger but would displace reliable UR land with second colorless utility land and only sorcery-speed bounce; preserve the original slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mairsil_the_Pretender_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Strionic Resonator",
+      "source": "Official artifact activated ability Oracle and higher-swap exact-100 alternative",
+      "role": "Copies Mairsil cage ETB triggers for more payloads",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Requires two extra mana and cuts early two-mana colored commander acceleration",
+      "commander_synergy": "Copies Mairsil cage ETB triggers for more payloads",
+      "adversarial_downside": "Requires two extra mana and cuts early two-mana colored commander acceleration",
+      "judgment": "REJECT",
+      "reason": "Considered as a seventh/off-ranking challenger but requires two extra mana and cuts early two-mana colored commander acceleration; preserve the original slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mairsil_the_Pretender_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Pili-Pala",
+      "source": "EDHREC High Lift Mairsil candidates and existing Commanderspellbook lines",
+      "role": "Gilded Lotus untap line and alternate Quicksilver payload",
+      "named_cuts": [
+        "Omen Hawker"
+      ],
+      "incumbent_opportunity_cost": "Already has several blue/black untappers, adds extra mana cost without a better core line",
+      "commander_synergy": "Gilded Lotus untap line and alternate Quicksilver payload",
+      "adversarial_downside": "Already has several blue/black untappers, adds extra mana cost without a better core line",
+      "judgment": "REJECT",
+      "reason": "Considered as a seventh/off-ranking challenger but already has several blue/black untappers, adds extra mana cost without a better core line; preserve the original slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mairsil_the_Pretender_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Necrotic Ooze",
+      "source": "Scryfall static ability and Mairsil cage exile distinction",
+      "role": "Redundant ability engine from creatures in graveyards",
+      "named_cuts": [
+        "Marvin, Murderous Mimic"
+      ],
+      "incumbent_opportunity_cost": "Caging the critical creature payloads exiles them from Ooze's graveyard pool; Marvin copies acquired Mairsil activated abilities on board",
+      "commander_synergy": "Redundant ability engine from creatures in graveyards",
+      "adversarial_downside": "Caging the critical creature payloads exiles them from Ooze's graveyard pool; Marvin copies acquired Mairsil activated abilities on board",
+      "judgment": "REJECT",
+      "reason": "Considered as a seventh/off-ranking challenger but caging the critical creature payloads exiles them from Ooze's graveyard pool; Marvin copies acquired Mairsil activated abilities on board; preserve the original slot.",
       "confidence": "MODERATE",
       "evidence_refs": [
         "data/grixis/m7/decision_reviews/Mairsil_the_Pretender_chatgpt_rev1_review.md"
@@ -235,8 +316,7 @@
       "Activated Abilities",
       "Combo"
     ],
-    "known_hard_blockers": [],
-    "evidence_limits": "Oct14 approved-source full-list Oracle gate carried forward; newly added six checked with current web source; no new full-100 downloadable Scryfall snapshot or sealed M6 I/J transfer claimed."
+    "known_hard_blockers": []
   },
   "owner_authority": {
     "canonical_deck_changed": false,
@@ -265,28 +345,155 @@
       {
         "path": "data/grixis/m7/research_challengers/Mairsil_the_Pretender_ChatGPT_Rev1_alt7_Sanctum.txt",
         "sha256": "7327154c34cdc34fd18f1bde36b096d10491000da946b3b36d775e9bb6e76f33",
-        "extra_add": "Sanctum of Eternity",
-        "extra_cut": "Stormcarved Coast",
-        "why_not_selected": "Second colorless land worsens Grixis access; Riptide covers instant bounce."
+        "why_not_selected": "Second colorless land worsens Grixis access; Riptide covers instant bounce. This is a material early colored-mana opportunity cost in a tightly built 32-land UBR deck.",
+        "adds": [
+          "Cavern Harpy",
+          "Marsh Flats",
+          "Agatha's Soul Cauldron",
+          "Misty Rainforest",
+          "Riptide Laboratory",
+          "Phyrexian Devourer",
+          "Sanctum of Eternity"
+        ],
+        "cuts": [
+          "Cephalid Inkshrouder",
+          "Haunted Ridge",
+          "Omen Hawker",
+          "Shipwreck Marsh",
+          "Sokenzan, Crucible of Defiance",
+          "Torchling",
+          "Stormcarved Coast"
+        ],
+        "case_for_extra_swaps": "Sanctum gives a second direct bounce path without exiling Mairsil and avoids paying commander tax on future casts."
       },
       {
         "path": "data/grixis/m7/research_challengers/Mairsil_the_Pretender_ChatGPT_Rev1_alt7_Resonator.txt",
         "sha256": "1e690ac39a8994635d2e72b47d15b8a7049b38ace92f1b3c4bfe1dcd0860950e",
-        "extra_add": "Strionic Resonator",
-        "extra_cut": "Fellwar Stone",
-        "why_not_selected": "Loss of commander early colored acceleration for a post-resolution extra cage."
+        "why_not_selected": "Loss of commander early colored acceleration for a post-resolution extra cage. This is a material early colored-mana opportunity cost in a tightly built 32-land UBR deck.",
+        "adds": [
+          "Cavern Harpy",
+          "Marsh Flats",
+          "Agatha's Soul Cauldron",
+          "Misty Rainforest",
+          "Riptide Laboratory",
+          "Phyrexian Devourer",
+          "Strionic Resonator"
+        ],
+        "cuts": [
+          "Cephalid Inkshrouder",
+          "Haunted Ridge",
+          "Omen Hawker",
+          "Shipwreck Marsh",
+          "Sokenzan, Crucible of Defiance",
+          "Torchling",
+          "Fellwar Stone"
+        ],
+        "case_for_extra_swaps": "Strionic Resonator copies cage ETB triggers and makes every further Mairsil reset more productive in a long attrition game."
       }
     ],
-    "no_credible_larger_package_reason": "The named seventh adds trade much-needed colors or efficient early ramp for incremental caging already covered by Riptide/Harpy/Kitten/Pack Rat.",
-    "quality_based_stop_reason": "Six material one-for-one swaps are defensible; postfloor 7-swap variants are not clearly better."
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "We stopped at six because the two genuine additional seventh-swap alternatives remove either an early colored dual land or a colored two-mana accelerator, causing significant color consistency costs for a four-mana UBR commander. No clearly stronger post-floor package was found after comparing finite full 100-card roles, cage payload overlap, and existing mana constraints."
   },
   "low_swap_heightened_audit": {
-    "weakest_slot_challenge": "Considered weak/conditional land, defensive cage and redundant untapper, rather than exempting favorite cards.",
+    "weakest_slot_challenge": [
+      {
+        "card": "Haunted Ridge",
+        "weakness": "One-life search exposure and loss of standalone BR land",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "Flexible untapped Swamp-type dual fetch"
+      },
+      {
+        "card": "Shipwreck Marsh",
+        "weakness": "One-life search exposure and loss of standalone UB land",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "Flexible untapped Island-type dual fetch"
+      },
+      {
+        "card": "Sokenzan, Crucible of Defiance",
+        "weakness": "Colorless instead of red mana and loss of channel tokens",
+        "alternative_named": "Riptide Laboratory",
+        "reasoning": "Instant-speed Wizard bounce for Mairsil recage/protection"
+      },
+      {
+        "card": "Cephalid Inkshrouder",
+        "weakness": "Loses discard-and-shroud ability; recast costs 4",
+        "alternative_named": "Cavern Harpy",
+        "reasoning": "Caged pay-1-life self-bounce for hand recasting"
+      },
+      {
+        "card": "Omen Hawker",
+        "weakness": "Loses one-mana activation-only accelerator; separate exiled pools",
+        "alternative_named": "Agatha's Soul Cauldron",
+        "reasoning": "On-board activated ability mana-as-any-color plus separate graveyard-exile ability engine"
+      },
+      {
+        "card": "Torchling",
+        "weakness": "Loses red untap and protection redirection; new combo needs further activations",
+        "alternative_named": "Phyrexian Devourer",
+        "reasoning": "Caged counters without Devourer state-trigger; amplifies Hateflayer power damage"
+      },
+      {
+        "card": "Stormcarved Coast",
+        "weakness": "Conditional two-color tapland may impede opening Mairsil timing; an extra colorless commander-only bounce utility could offer recaging.",
+        "alternative_named": "Sanctum of Eternity",
+        "reasoning": "Preserve Stormcarved as early UR fixer because adding Sanctum on top of Riptide creates a second colorless utility source."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "An opponent-dependent two-mana mana rock without cage payload; can be challenged by a trigger copier but retains early colored mana.",
+        "alternative_named": "Strionic Resonator",
+        "reasoning": "Retain dependable colored acceleration because Mairsil needs three distinct colors and Strionic is mana hungry."
+      }
+    ],
     "off_ranked_opportunities": "Devourer and Cauldron added outside old M6 two-land proposal.",
-    "multi_slot_packages": "Two full 100 seven-swap alternatives examined with exact raw hashes.",
-    "no_two_package_reason": "Both wider packages add real mana quality loss.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Cavern Harpy",
+          "Marsh Flats",
+          "Agatha's Soul Cauldron",
+          "Misty Rainforest",
+          "Riptide Laboratory",
+          "Phyrexian Devourer",
+          "Sanctum of Eternity"
+        ],
+        "cuts": [
+          "Cephalid Inkshrouder",
+          "Haunted Ridge",
+          "Omen Hawker",
+          "Shipwreck Marsh",
+          "Sokenzan, Crucible of Defiance",
+          "Torchling",
+          "Stormcarved Coast"
+        ],
+        "result_and_rationale": "Full 100 seven-swap variant staged but rejected: additional colorless Sanctum bounce weakens colored mana with only 32 lands."
+      },
+      {
+        "adds": [
+          "Cavern Harpy",
+          "Marsh Flats",
+          "Agatha's Soul Cauldron",
+          "Misty Rainforest",
+          "Riptide Laboratory",
+          "Phyrexian Devourer",
+          "Strionic Resonator"
+        ],
+        "cuts": [
+          "Cephalid Inkshrouder",
+          "Haunted Ridge",
+          "Omen Hawker",
+          "Shipwreck Marsh",
+          "Sokenzan, Crucible of Defiance",
+          "Torchling",
+          "Fellwar Stone"
+        ],
+        "result_and_rationale": "Full 100 seven-swap variant staged but rejected: loses a crucial two-mana colored accelerator for a mana-intensive ETB duplicator."
+      }
+    ],
+    "no_two_package_reason": null,
     "alternate_cuts_for_prior_holds": "Retained Rings, Gilded Lotus and Staff over Reanimate-style generic recursion; found Omen Hawker for Cauldron instead of Fellwar Stone.",
     "strongest_argument_against_baseline": "M6 already found mana fixes; independent commander-first protection and secondary ability channel add resilience, while preserving combo core.",
     "evidence_based_answer": "Six selected, alternatives rejected; no statistical multiplayer advantage asserted."
-  }
+  },
+  "canonical_baseline_logical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc"
 }
