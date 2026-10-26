@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Mishra__Eminent_One",
+  "canonical_baseline_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+  "canonical_baseline_logical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+  "commander_identity": {
+    "mechanical_plan": "Five-mana Mishra repeatedly makes hasty 4/4 Warform copies of owned noncreature artifacts at beginning of combat, harvesting ETB/card draw, instant activated utility and scheduled sacrifice into KCI/recursion/token-copy finishes.",
+    "protected_core": [
+      "Mishra, Eminent One",
+      "Gonti's Aether Heart",
+      "Determined Iteration",
+      "Strionic Resonator",
+      "Lithoform Engine",
+      "Worldwalker Helm",
+      "Thousand-Year Elixir",
+      "Urza, Lord High Artificer",
+      "Krark-Clan Ironworks",
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Coveted Jewel",
+      "Portal to Phyrexia",
+      "Ichor Wellspring",
+      "Cryogen Relic",
+      "Prized Statue",
+      "Simulacrum Synthesizer",
+      "Esoteric Duplicator",
+      "Brudiclad, Telchor Engineer",
+      "Mindslaver"
+    ],
+    "natural_ceiling": "Power Bracket 4 Optimized: powerful commander-centered artifact token/extra-turn loops and fast interaction, but a five-mana combat-dependent engine has vulnerability and speed constraints against true tournament cEDH.",
+    "anti_homogenization": "Protect the noncreature-artifact Warform copy identity and retain the removal of generic Underworld Breach and Brain Freeze. Do not turn this into the same Oracle/Consult/Citadel pile as every Grixis shell."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Reconciled all 99 names against Oct 15 complete 99-slot source ledger and six selected changed roles; 34 lands, heavy fast mana and tutors, ETB Warform targets, alternate activated copied artifacts, artifact graveyard recursion, token swarm, protection and multi-piece combo finishes retained.",
+    "mana_base_and_curve": "All 34 lands unchanged; multiple fetches/dual/shocks and artifact lands support Mishra's UBR pips while Workshop only casts artifacts. Swap effects remove three 4-to-5 mana setup pieces and a two-mana artifact discount creature, offset with two-mana Idol/Station/Apprentice and four-mana Throne/Panharmonicon.",
+    "interaction_resilience": "Fierce Guardianship, Deflecting Swat, Force of Will, Mana Drain, Offer, Chaos Warp, Cyclonic Rift, Toxic Deluge, Portal and Spine remain. Greaves improves commander protection but cutting Padeem loses broad artifact shroud, and Station trades away Lich's Relic multiplayer removal.",
+    "weakest_slots": [
+      {
+        "card": "Smelting Vat",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose a four-mana tap/sacrifice artifact that can deploy up to two random noncreature artifacts from the top eight; Bay, Arcum and Whir retain more controlled tutors.",
+        "alternative_named": "Panharmonicon",
+        "reasoning": "Double the triggered abilities generated when Mishra Warforms enter, giving repeated Ichor, Prized, Coveted and Portal ETBs as well as enough Heart energy for extra turns."
+      },
+      {
+        "card": "The Mightstone and Weakstone",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose a real five-mana Powerstone ETB draw-two/-5/-5 and restricted mana source; the retained artifacts have more potent high-leverage copy targets.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Choose Human or Artificer to double Mishra's beginning-of-combat Warform trigger with no further activation mana."
+      },
+      {
+        "card": "Uthros Research Craft",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose Uthros's potential multiple cards from artifact casts after station; Idol is capped by number of untapped instances.",
+        "alternative_named": "Idol of Oblivion",
+        "reasoning": "Two-mana repeatable draw with original and hasty copied Idol both able to tap after Mishra creates a token."
+      },
+      {
+        "card": "Padeem, Consul of Innovation",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Padeem protected all artifacts with hexproof and drew cards conditionally; Greaves only protects the equipped creature.",
+        "alternative_named": "Lightning Greaves",
+        "reasoning": "Directly grant shroud to the five-mana commander for zero equip once it is deployed, protecting repeated Warform value."
+      },
+      {
+        "card": "Lich's Relic",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose efficient Lich's Relic copy target that can destroy up to one creature or planeswalker from each opponent for two mana.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Cheap artifact-based sacrifice outlet, graveyard setup for Welder/Emry and deterministic mill sink when a paid repeatable artifact loop exists."
+      },
+      {
+        "card": "Enthusiastic Mechanaut",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose an early artifact casting discount and flying body; Etherium Sculptor and artifact fast mana remain for acceleration.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "Cheap each-opponent death drain, an expendable Servo and an outlet for KCI artifact sacrifice loops."
+      },
+      {
+        "card": "Brudiclad, Telchor Engineer",
+        "weakness": "Six mana for token-wide conversion after its beginning-of-combat trigger; fragile before the swarm connects.",
+        "alternative_named": "Braids, Arisen Nightmare",
+        "reasoning": "Retained because turning multiple Treasures and Maps into Warform clones creates a unique high-ceiling commander/token finish."
+      },
+      {
+        "card": "Mindslaver",
+        "weakness": "Six-mana setup plus four-mana activation is slower than a two-mana universal artifact duplicate.",
+        "alternative_named": "Copy Artifact",
+        "reasoning": "Retained as a high-impact repeatable hasty Warform activated ability to control an opponent's next turn."
+      },
+      {
+        "card": "Master Transmuter",
+        "weakness": "Needs a full turn or Thousand-Year Elixir and a high-value artifact already in hand.",
+        "alternative_named": "Kuldotha Forgemaster",
+        "reasoning": "Retained because returning any expendable artifact to cheat Portal or Coveted Jewel from hand costs fewer sacrificed board resources."
+      },
+      {
+        "card": "Coveted Jewel",
+        "weakness": "Six mana to cast normally and tempting theft target after attacking with an artifact creature.",
+        "alternative_named": "Memory Jar",
+        "reasoning": "Retained because each Warform copy draws three cards permanently and can tap for three mana; Jar refreshes all opponents' hands too."
+      }
+    ],
+    "current_baseline_strength": "October 15 16-change historical approved source already had complete whole-99 review, native Heart/Iteration/Resonator/Engine infinite turns, Helm-Urza-Elixir token loops, KCI recycling, full Grixis legality and 34 lands; the entire package is preserved where strategically superior.",
+    "candidate_pool_scope": "All historical 99 named slots and Oct 15 adjudication reviewed; six decisive replacements compared to ten new or reopened meaningful challengers, including two seventh-swap higher-count combinations and EDHREC commander-specific high-synergy research, not a five-swap cap.",
+    "off_ranked_search_conclusion": "OFF-RANKED artifact sacrifice and damage sinks Grinding Station/Marionette Apprentice, commander protection Greaves, and effect-specific ETB/trigger multiplication were compared with ranked cards rather than automatically copied from rankings."
+  },
+  "candidate_sources": [
+    "Canonical Oct 15 exactly approved 100-card current live source ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0 and whole-99 audit",
+    "Live Scryfall 100/100 October 26 cards/collection Oracle identities, legalities, color identities, type lines and current Oracle text",
+    "Current Wizards Commander banned list https://magic.wizards.com/en/banned-restricted-list consulted October 26",
+    "Commander EDHREC high-synergy/top cards https://edhrec.com/commanders/mishra-eminent-one/optimized/expensive",
+    "OFF-RANKED fresh judgment of Roaming Throne, Grinding Station and Marionette Apprentice against real baseline engine slots",
+    "Wizards original The Brothers' War and Outlaws of Thunder Junction mechanics release notes on Warform and Worldwaker Helm"
+  ],
+  "material_candidates": [
+    {
+      "card": "Panharmonicon",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Double the triggered abilities generated when Mishra Warforms enter, giving repeated Ichor, Prized, Coveted and Portal ETBs as well as enough Heart energy for extra turns.",
+      "named_cuts": [
+        "Smelting Vat"
+      ],
+      "incumbent_opportunity_cost": "Lose a four-mana tap/sacrifice artifact that can deploy up to two random noncreature artifacts from the top eight; Bay, Arcum and Whir retain more controlled tutors.",
+      "commander_synergy": "Copies of Heart plus the original Heart each trigger an extra time as a new Warform enters, producing eight energy from one combat.",
+      "adversarial_downside": "A four-mana do-nothing alone and removable artifact; requires actual ETB triggers rather than Mishra trigger multiplication.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Double the triggered abilities generated when Mishra Warforms enter, giving repeated Ichor, Prized, Coveted and Portal ETBs as well as enough Heart energy for extra turns.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Choose Human or Artificer to double Mishra's beginning-of-combat Warform trigger with no further activation mana.",
+      "named_cuts": [
+        "The Mightstone and Weakstone"
+      ],
+      "incumbent_opportunity_cost": "Lose a real five-mana Powerstone ETB draw-two/-5/-5 and restricted mana source; the retained artifacts have more potent high-leverage copy targets.",
+      "commander_synergy": "Two Heart Warforms produce at least ten energy each combat for the same native extra-turn finish while duplicating other good targets.",
+      "adversarial_downside": "A four-mana creature is vulnerable to creature removal and does not double the noncreature Heart ETB itself.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Choose Human or Artificer to double Mishra's beginning-of-combat Warform trigger with no further activation mana.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Idol of Oblivion",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Two-mana repeatable draw with original and hasty copied Idol both able to tap after Mishra creates a token.",
+      "named_cuts": [
+        "Uthros Research Craft"
+      ],
+      "incumbent_opportunity_cost": "Lose Uthros's potential multiple cards from artifact casts after station; Idol is capped by number of untapped instances.",
+      "commander_synergy": "Mishra creates the token each turn and copies Idol as a hasty activated draw artifact, giving two possible cards per combat cycle.",
+      "adversarial_downside": "Without token creation the draw ability is unavailable, and the hasty Warform can still be removed before activation.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Two-mana repeatable draw with original and hasty copied Idol both able to tap after Mishra creates a token.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Lightning Greaves",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Directly grant shroud to the five-mana commander for zero equip once it is deployed, protecting repeated Warform value.",
+      "named_cuts": [
+        "Padeem, Consul of Innovation"
+      ],
+      "incumbent_opportunity_cost": "Padeem protected all artifacts with hexproof and drew cards conditionally; Greaves only protects the equipped creature.",
+      "commander_synergy": "The entire deck depends on Mishra surviving through combat; shroud moves defense to the indispensable creature rather than only copied artifacts.",
+      "adversarial_downside": "Shroud can interfere with our own targeting and equipment sequencing; Greaves does not grant hexproof to valuable artifacts.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Directly grant shroud to the five-mana commander for zero equip once it is deployed, protecting repeated Warform value.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Grinding Station",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Cheap artifact-based sacrifice outlet, graveyard setup for Welder/Emry and deterministic mill sink when a paid repeatable artifact loop exists.",
+      "named_cuts": [
+        "Lich's Relic"
+      ],
+      "incumbent_opportunity_cost": "Lose efficient Lich's Relic copy target that can destroy up to one creature or planeswalker from each opponent for two mana.",
+      "commander_synergy": "Warforms are expendable artifact creatures, and repeated artifact entering untaps Station, which can sacrifice tokens before end-step loss.",
+      "adversarial_downside": "Station is not inherently infinite and has low immediate impact on threatening creature boards; no unproven win-rate claim.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Cheap artifact-based sacrifice outlet, graveyard setup for Welder/Emry and deterministic mill sink when a paid repeatable artifact loop exists.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Marionette Apprentice",
+      "source": "Live Scryfall October 26 Oracle card receipt, commander-specific EDHREC research and historical 99-slot audit",
+      "role": "Cheap each-opponent death drain, an expendable Servo and an outlet for KCI artifact sacrifice loops.",
+      "named_cuts": [
+        "Enthusiastic Mechanaut"
+      ],
+      "incumbent_opportunity_cost": "Lose an early artifact casting discount and flying body; Etherium Sculptor and artifact fast mana remain for acceleration.",
+      "commander_synergy": "Every sacrificed Warform or artifact entering the graveyard triggers once, so native discard/death engines get a direct table-wide finish.",
+      "adversarial_downside": "One life per token is incremental without a large token engine; unlike Mechanaut it is a creature, not an artifact.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected after native trigger/value and opportunity-cost comparison: Cheap each-opponent death drain, an expendable Servo and an outlet for KCI artifact sacrifice loops.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Braids, Arisen Nightmare",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Could sacrifice an otherwise expiring Warform at end step for card advantage or opponents' artifacts and creatures.",
+      "named_cuts": [
+        "Brudiclad, Telchor Engineer"
+      ],
+      "incumbent_opportunity_cost": "Retaining Brudiclad's unique token conversion permits a wide board of Map/Treasure/Servo tokens to become attacking Warform clones.",
+      "commander_synergy": "Could sacrifice an otherwise expiring Warform at end step for card advantage or opponents' artifacts and creatures.",
+      "adversarial_downside": "The Warform is artifact and creature, letting each opponent sacrifice either type; low-value creatures or Treasure tokens can deny the draw.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Retaining Brudiclad's unique token conversion permits a wide board of Map/Treasure/Servo tokens to become attacking Warform clones.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Copy Artifact",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Two-mana extra permanent artifact copy helps duplicate the best repeated Warform target.",
+      "named_cuts": [
+        "Mindslaver"
+      ],
+      "incumbent_opportunity_cost": "Mindslaver remains a premier copy target allowing opponent-turn control rather than generic extra artifact copies.",
+      "commander_synergy": "Two-mana extra permanent artifact copy helps duplicate the best repeated Warform target.",
+      "adversarial_downside": "Requires an attractive artifact in play and has no immediate independent payoff; loses Mindslaver's unique lock.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Mindslaver remains a premier copy target allowing opponent-turn control rather than generic extra artifact copies.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Memory Jar",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Warform copy provides a hasty activated temporary draw-seven each combat.",
+      "named_cuts": [
+        "Coveted Jewel"
+      ],
+      "incumbent_opportunity_cost": "Coveted Jewel provides three cards and three mana to only us on repeated ETB, retaining long-term resources.",
+      "commander_synergy": "Warform copy provides a hasty activated temporary draw-seven each combat.",
+      "adversarial_downside": "Opponents also draw seven for the current turn and may access free interaction; Jar's hand is temporary.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Coveted Jewel provides three cards and three mana to only us on repeated ETB, retaining long-term resources.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Bolas's Citadel",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Adds a third Top/Forge style top-deck cast combo with Aetherflux Reservoir.",
+      "named_cuts": [
+        "The Mightstone and Weakstone"
+      ],
+      "incumbent_opportunity_cost": "BBB is hard with Workshop and artifact-heavy colors; Mightstone provides immediately repeatable Warform draw/removal.",
+      "commander_synergy": "Adds a third Top/Forge style top-deck cast combo with Aetherflux Reservoir.",
+      "adversarial_downside": "Citadel has no ETB when Mishra copies it and risks homogenizing the artifact-copy core into generic Citadel storm.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: BBB is hard with Workshop and artifact-heavy colors; Mightstone provides immediately repeatable Warform draw/removal.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Academy Manufactor",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Treasure and Map replacements could triple artifact token flow with Prized Statue and Worldwalker Helm.",
+      "named_cuts": [
+        "Prized Statue"
+      ],
+      "incumbent_opportunity_cost": "Prized Statue is already the direct copy target and makes two Treasures per Warform without another card.",
+      "commander_synergy": "Treasure and Map replacements could triple artifact token flow with Prized Statue and Worldwalker Helm.",
+      "adversarial_downside": "Manufactor is a creature and cannot be copied by Mishra; depends on separate token producers to do anything.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Prized Statue is already the direct copy target and makes two Treasures per Warform without another card.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Kuldotha Forgemaster",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Repeatable direct artifact battlefield tutor in an artifact-heavy shell.",
+      "named_cuts": [
+        "Master Transmuter"
+      ],
+      "incumbent_opportunity_cost": "Requires three additional artifact sacrifices and summoning sickness on a five-mana artifact creature; Transmuter cheats from hand for one return.",
+      "commander_synergy": "Repeatable direct artifact battlefield tutor in an artifact-heavy shell.",
+      "adversarial_downside": "Loses token material and often waits a complete turn exposed; Arcum, Bay, Whir and Transmute already find artifacts.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Requires three additional artifact sacrifices and summoning sickness on a five-mana artifact creature; Transmuter cheats from hand for one return.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Sundial of the Infinite",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Retains one Warform by ending turn with the delayed sacrifice trigger on stack.",
+      "named_cuts": [
+        "Lich's Relic"
+      ],
+      "incumbent_opportunity_cost": "A permanent 4/4 copied artifact can be valuable but lacks trigger multiplication or immediate interaction compared with chosen Station.",
+      "commander_synergy": "Retains one Warform by ending turn with the delayed sacrifice trigger on stack.",
+      "adversarial_downside": "Requires spending mana and skipping further main-phase play; weaker when Mishra dies or target is removed.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: A permanent 4/4 copied artifact can be valuable but lacks trigger multiplication or immediate interaction compared with chosen Station.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Cursed Mirror",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Flexible mana rock that can copy the best creature for one turn and later be a Mishra artifact target.",
+      "named_cuts": [
+        "Uthros Research Craft"
+      ],
+      "incumbent_opportunity_cost": "Three mana for red rather than early dual-colored fixing and copies requiring complex replacement timing; Idol draws sooner.",
+      "commander_synergy": "Flexible mana rock that can copy the best creature for one turn and later be a Mishra artifact target.",
+      "adversarial_downside": "Mishra's Warform copy does not simply become any selected creature permanently; cast-time copy and Warform rules require stack precision.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Three mana for red rather than early dual-colored fixing and copies requiring complex replacement timing; Idol draws sooner.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "The Mycosynth Gardens",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Utility land can permanently clone a valuable artifact without consuming a nonland slot.",
+      "named_cuts": [
+        "Xander's Lounge"
+      ],
+      "incumbent_opportunity_cost": "Replacing a fetchable tri-land with colorless land worsens access to UBR for the five-mana commander.",
+      "commander_synergy": "Utility land can permanently clone a valuable artifact without consuming a nonland slot.",
+      "adversarial_downside": "Copy activation scales with mana value and often strands the land during colored-development turns.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Replacing a fetchable tri-land with colorless land worsens access to UBR for the five-mana commander.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Saheeli, the Sun's Brilliance",
+      "source": "Commander-specific EDHREC, Scryfall Oracle and project prior decisions, manually adjudicated October 26",
+      "role": "Second creature-or-artifact token copier opens more ETB loops and benefits from artifact synergies.",
+      "named_cuts": [
+        "Brudiclad, Telchor Engineer"
+      ],
+      "incumbent_opportunity_cost": "Summoning sickness and a tap condition slow it compared with Mishra's automatic combat copy, while Brudiclad closes wide boards.",
+      "commander_synergy": "Second creature-or-artifact token copier opens more ETB loops and benefits from artifact synergies.",
+      "adversarial_downside": "It is not a noncreature artifact to copy via Mishra and temporarily copied artifacts need end-step sacrifice management.",
+      "judgment": "REJECT",
+      "reason": "Retained baseline or rejected speculative upside after comparing the exact incumbent cost: Summoning sickness and a tap condition slow it compared with Mishra's automatic combat copy, while Brudiclad closes wide boards.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Panharmonicon",
+      "Roaming Throne",
+      "Idol of Oblivion",
+      "Lightning Greaves",
+      "Grinding Station",
+      "Marionette Apprentice"
+    ],
+    "cuts": [
+      "Smelting Vat",
+      "The Mightstone and Weakstone",
+      "Uthros Research Craft",
+      "Padeem, Consul of Innovation",
+      "Lich's Relic",
+      "Enthusiastic Mechanaut"
+    ],
+    "coherent_package_tradeoff": "Six commander-first roles improve source Heart loops, combat trigger redundancy, Warform draw, direct commander shielding, artifact sacrifice selection and multiplayer damage, while sacrificing Vat/Powerstone high-MV utility, Uthros cast draw, Padeem artifact hexproof, Lich multiplayer removal and Mechanaut discount."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Smelting Vat",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose a four-mana tap/sacrifice artifact that can deploy up to two random noncreature artifacts from the top eight; Bay, Arcum and Whir retain more controlled tutors.",
+        "alternative_named": "Panharmonicon",
+        "reasoning": "Double the triggered abilities generated when Mishra Warforms enter, giving repeated Ichor, Prized, Coveted and Portal ETBs as well as enough Heart energy for extra turns."
+      },
+      {
+        "card": "The Mightstone and Weakstone",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose a real five-mana Powerstone ETB draw-two/-5/-5 and restricted mana source; the retained artifacts have more potent high-leverage copy targets.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Choose Human or Artificer to double Mishra's beginning-of-combat Warform trigger with no further activation mana."
+      },
+      {
+        "card": "Uthros Research Craft",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose Uthros's potential multiple cards from artifact casts after station; Idol is capped by number of untapped instances.",
+        "alternative_named": "Idol of Oblivion",
+        "reasoning": "Two-mana repeatable draw with original and hasty copied Idol both able to tap after Mishra creates a token."
+      },
+      {
+        "card": "Padeem, Consul of Innovation",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Padeem protected all artifacts with hexproof and drew cards conditionally; Greaves only protects the equipped creature.",
+        "alternative_named": "Lightning Greaves",
+        "reasoning": "Directly grant shroud to the five-mana commander for zero equip once it is deployed, protecting repeated Warform value."
+      },
+      {
+        "card": "Lich's Relic",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose efficient Lich's Relic copy target that can destroy up to one creature or planeswalker from each opponent for two mana.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Cheap artifact-based sacrifice outlet, graveyard setup for Welder/Emry and deterministic mill sink when a paid repeatable artifact loop exists."
+      },
+      {
+        "card": "Enthusiastic Mechanaut",
+        "weakness": "Role overlap or high setup cost relative to a stronger Mishra-combat interaction: Lose an early artifact casting discount and flying body; Etherium Sculptor and artifact fast mana remain for acceleration.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "Cheap each-opponent death drain, an expendable Servo and an outlet for KCI artifact sacrifice loops."
+      },
+      {
+        "card": "Brudiclad, Telchor Engineer",
+        "weakness": "Six mana for token-wide conversion after its beginning-of-combat trigger; fragile before the swarm connects.",
+        "alternative_named": "Braids, Arisen Nightmare",
+        "reasoning": "Retained because turning multiple Treasures and Maps into Warform clones creates a unique high-ceiling commander/token finish."
+      },
+      {
+        "card": "Mindslaver",
+        "weakness": "Six-mana setup plus four-mana activation is slower than a two-mana universal artifact duplicate.",
+        "alternative_named": "Copy Artifact",
+        "reasoning": "Retained as a high-impact repeatable hasty Warform activated ability to control an opponent's next turn."
+      },
+      {
+        "card": "Master Transmuter",
+        "weakness": "Needs a full turn or Thousand-Year Elixir and a high-value artifact already in hand.",
+        "alternative_named": "Kuldotha Forgemaster",
+        "reasoning": "Retained because returning any expendable artifact to cheat Portal or Coveted Jewel from hand costs fewer sacrificed board resources."
+      },
+      {
+        "card": "Coveted Jewel",
+        "weakness": "Six mana to cast normally and tempting theft target after attacking with an artifact creature.",
+        "alternative_named": "Memory Jar",
+        "reasoning": "Retained because each Warform copy draws three cards permanently and can tap for three mana; Jar refreshes all opponents' hands too."
+      }
+    ],
+    "off_ranked_opportunities": "Evaluated not-only-EDHREC candidates Grinding Station, Marionette Apprentice, Roaming Throne, Braids, Copy Artifact and Memory Jar. Oracle interactions and actual retained alternative finishers controlled selection.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Panharmonicon",
+          "Roaming Throne",
+          "Idol of Oblivion",
+          "Lightning Greaves",
+          "Grinding Station",
+          "Marionette Apprentice",
+          "Braids, Arisen Nightmare"
+        ],
+        "cuts": [
+          "Smelting Vat",
+          "The Mightstone and Weakstone",
+          "Uthros Research Craft",
+          "Padeem, Consul of Innovation",
+          "Lich's Relic",
+          "Enthusiastic Mechanaut",
+          "Brudiclad, Telchor Engineer"
+        ],
+        "result_and_rationale": "Full conceptual 100-card seven-change branch sacrifices unique Brudiclad token conversion for an end-step opponent-sacrifice engine; rejected as lower ceiling when opponents can sacrifice spare creatures or treasures."
+      },
+      {
+        "adds": [
+          "Panharmonicon",
+          "Roaming Throne",
+          "Idol of Oblivion",
+          "Lightning Greaves",
+          "Grinding Station",
+          "Marionette Apprentice",
+          "Copy Artifact"
+        ],
+        "cuts": [
+          "Smelting Vat",
+          "The Mightstone and Weakstone",
+          "Uthros Research Craft",
+          "Padeem, Consul of Innovation",
+          "Lich's Relic",
+          "Enthusiastic Mechanaut",
+          "Mindslaver"
+        ],
+        "result_and_rationale": "Full conceptual 100-card seven-change branch adds a cheap general artifact copy but removes repeatable opponent-turn control through a hasty Mishra Warform; rejected after preserving distinctive copy target."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Brudiclad and Mindslaver were independently challenged for seventh swaps even though prior source marked KEEP; both remained stronger in their distinct end-game role.",
+    "strongest_argument_against_baseline": "The approved October candidate is already highly optimized and some new replacements sacrifice hard-earned multiplayer removal, broad artifact hexproof and cast reduction; six cosmetic swaps would be unacceptable.",
+    "evidence_based_answer": "Each selected card opens a more direct Warform trigger, activated or death conversion; retained Synthesizer/Brudiclad/KCI/Heart protects existing distinctive ceiling. The worst replacement is Lich's Relic to Station, explicitly exposed for owner review."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Prior complete 99-card October15 structural/role ledger was reread and reconciled against the live 100-card exact approved source. Every role was classified as artifact-copy payload, engine multiplier, ETB value, sacrifice tutor/finish, graveyard loop, interaction/protection, lands/fast mana or flex. Beyond six selected cuts, retained Brudiclad, Mindslaver, Master Transmuter, Coveted Jewel, Synthesizer and the existing alt combo payoffs were materially challenged for a seventh or eighth replacement.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Brudiclad, Telchor Engineer",
+        "challenger": "Braids, Arisen Nightmare",
+        "tradeoff": "Braids reliably spends Warform before delayed end-step sacrifice but opponents can offer a token of either shared type; Brudiclad converts an entire existing treasure/map/servo swarm into attacking 4/4 copies of a Warform.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Mindslaver",
+        "challenger": "Copy Artifact",
+        "tradeoff": "Copy Artifact is cheaper and allows duplicate premium artifacts but does not replace Mindslaver's unique copied hasty ability to control an opponent's next turn; no seventh swap earned.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "Two concrete seven-swap portfolios were evaluated slot by slot and recorded in heightened audit. Adding Braids while cutting Brudiclad discards the unique board-wide token-conversion finish; adding Copy Artifact while cutting Mindslaver sacrifices the distinctive repeatable control lock. Additional eighth changes using Jar/Citadel or Manufactor depended on opponents' draws, harder black mana, or extra supporting cards. None is a persuasive quality improvement; increasing the swap count alone would degrade commander identity.",
+    "quality_based_stop_reason": "The six replacements preserve the previously source-proven extra-turn, token-Helm, KCI and Top/Forge/Aetherflux engines and improve direct turn-to-turn Warform conversion. Remaining credible challengers were scrutinized against real retained high-impact targets, not omitted because a numeric floor was met. The removal/protection and mana-discount losses are documented; no gameplay win-rate or unsupported blanket M6 certification is inferred."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Mishra__Eminent_One_chatgpt_rev1.txt",
+    "sha256": "0fa7b00d9d74b208f3fd5783b30aa190c4e5b17e72ea64851f895315f05083a0",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact 100 distinct, commander first, unchanged 34 lands, six selected adds and six source-verified cuts, all source-bound live current Scryfall Commander legal and only Grixis/colorless identities."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Mishra__Eminent_One_Rev1_Scryfall_20261026.json",
+      "data/grixis/m7/decision_reviews/Mishra__Eminent_One_chatgpt_rev1_review.md",
+      "tests/test_m7_mishra_eminent_rev1.py"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Artifacts",
+      "Warform Tokens",
+      "Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}
