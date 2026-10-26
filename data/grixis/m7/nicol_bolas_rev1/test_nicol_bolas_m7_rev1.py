@@ -49,7 +49,7 @@ def parse(path):
     assert rows[0]=="1x Nicol Bolas [Commander]",rows[0]
     cards=Counter()
     for line in rows:
-        m=re.fullmatch(r"([1-9][0-9]*)x (.+?)(?: \\[Commander\\])?",line)
+        m=re.fullmatch(r"([1-9][0-9]*)x (.+?)(?: \[Commander\])?",line)
         assert m,repr(line)
         cards[m.group(2)]+=int(m.group(1))
     return cards
