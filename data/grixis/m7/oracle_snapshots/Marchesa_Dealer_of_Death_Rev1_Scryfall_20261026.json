@@ -3,7 +3,7 @@
   "deck_id": "Marchesa__Dealer_of_Death",
   "source": "Scryfall cards/collection two batches of 75 and 25, double-face resolved by cards/named exact front face",
   "retrieval_utc_date": "2026-10-26",
-  "candidate_raw_sha256": "f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e",
+  "candidate_raw_sha256": "931baa2762738ab32cd274ae8e128d0e3cd1aa85e81e51c2faa4934c1c70f363",
   "card_count": 100,
   "distinct_names": 100,
   "commander_legal_count": 100,
@@ -39,7 +39,7 @@
       "oracle_text": "{T}: Untap target artifact or creature.\nMorph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)"
     },
     {
-      "decklist_name": "Birgi, God of Storytelling",
+      "decklist_name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
       "scryfall_name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
       "scryfall_id": "44657ab1-0a6a-4a5f-9688-86f239083821",
       "oracle_id": "fb81e4d3-1d8c-4779-be62-87cf49277e51",

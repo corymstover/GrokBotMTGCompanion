@@ -17,7 +17,7 @@ BASE = M7 / "baseline_sources/Marchesa_Dealer_of_Death_chatgpt_rev1_baseline.txt
 CAND = M7 / "candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt"
 ALTS = M7 / "research_challengers"
 BASE_SHA = "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1"
-CAND_SHA = "f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e"
+CAND_SHA = "931baa2762738ab32cd274ae8e128d0e3cd1aa85e81e51c2faa4934c1c70f363"
 ADDS = {
     "Demonic Consultation", "Gilded Drake", "Marsh Flats", "Mayhem Devil",
     "Opposition Agent", "Scrabbling Claws", "Sink into Stupor // Soporific Springs",
@@ -32,7 +32,15 @@ CUTS = {
 def names(path: Path) -> list[str]:
     lines = path.read_text(encoding="utf-8").splitlines()
     assert all(re.fullmatch(r"1x .+(?: \[Commander\])?", s) for s in lines)
-    return [s[3:].removesuffix(" [Commander]") for s in lines]
+    output = [s[3:].removesuffix(" [Commander]") for s in lines]
+    # The approved October15 TXT names only the front face, whereas the
+    # registry's canonical source Markdown spells the complete double-face.
+    # These are one Oracle object, not a material ninth add/cut.
+    return [
+        "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+        if name == "Birgi, God of Storytelling" else name
+        for name in output
+    ]
 
 
 def crime(targets: tuple[str, ...]) -> bool:
@@ -96,11 +104,11 @@ class TestMarchesaRev1(unittest.TestCase):
     def test_three_full_100_package_challengers(self):
         selected = set(names(CAND))
         alternatives = [
-            ("alt8_counterbalance", "728bcddce4c8f80c4c81c8f192f53958e515af035ea9cf8a08aedbd047cce98e",
+            ("alt8_counterbalance", "cf0954bf0d56213db52d89c56dd70da2edafecd0d9dbc7904ded6943f07d7bd9",
              "Counterbalance", "Magda, the Hoardmaster"),
-            ("alt8_talisman", "1cfa6d9d4c6d6015c9a3676c84e12776407182bbf93159f8c4a071a08e260248",
+            ("alt8_talisman", "4936fa487baab4f844f95cd4dd8f3b126ba466c6daa105765085d784992ef7c1",
              "Talisman of Indulgence", "Scrabbling Claws"),
-            ("alt9_intuition", "eaac15030cbe0c153c01ce6b7e25efa623087142e5e2f4ccc9f4b12e6d054fed",
+            ("alt9_intuition", "c167161b8ec25103a5a3c52ff36c26ce9b9e337081f706ca8ab31541a5dac6a7",
              "Intuition", "Praetor's Grasp"),
         ]
         for suffix, expected_sha, add, cut in alternatives:

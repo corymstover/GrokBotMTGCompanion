@@ -12,7 +12,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 DECK = ROOT / "data/grixis/m7/candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt"
 ORACLE = ROOT / "data/grixis/m7/oracle_snapshots/Marchesa_Dealer_of_Death_Rev1_Scryfall_20261026.json"
-SHA = "f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e"
+SHA = "931baa2762738ab32cd274ae8e128d0e3cd1aa85e81e51c2faa4934c1c70f363"
 
 
 class TestMarchesaOracle(unittest.TestCase):
@@ -86,7 +86,7 @@ class TestMarchesaOracle(unittest.TestCase):
     def test_p1_land_faces_and_new_card_oracle(self):
         self.assertEqual(self.records["Sink into Stupor // Soporific Springs"]["type_line"], "Instant // Land")
         self.assertEqual(len(self.records["Sink into Stupor // Soporific Springs"]["faces"]), 2)
-        self.assertEqual(len(self.records["Birgi, God of Storytelling"]["faces"]), 2)
+        self.assertEqual(len(self.records["Birgi, God of Storytelling // Harnfel, Horn of Bounty"]["faces"]), 2)
         self.assertIn("Search your library for a Plains or Swamp card", self.oracle("Marsh Flats"))
         self.assertIn("You control your opponents while they're searching their libraries", self.oracle("Opposition Agent"))
 

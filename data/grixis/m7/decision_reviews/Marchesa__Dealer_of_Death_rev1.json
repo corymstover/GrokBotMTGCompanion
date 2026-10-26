@@ -403,7 +403,7 @@
   },
   "final_candidate": {
     "path": "data/grixis/m7/candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt",
-    "sha256": "f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e",
+    "sha256": "931baa2762738ab32cd274ae8e128d0e3cd1aa85e81e51c2faa4934c1c70f363",
     "card_count": 100,
     "deckwide_reconciliation": "Exactly 100 physical cards, 100 distinct names, commander first, 8 exact equal swaps; 29 land faces one MDFC; full fresh Scryfall 100/100 legally UBR; no exceptions."
   },
@@ -455,7 +455,7 @@
     "larger_swap_packages": [
       {
         "path": "data/grixis/m7/research_challengers/Marchesa_Dealer_of_Death_rev1_alt9_intuition.txt",
-        "sha256": "eaac15030cbe0c153c01ce6b7e25efa623087142e5e2f4ccc9f4b12e6d054fed",
+        "sha256": "c167161b8ec25103a5a3c52ff36c26ce9b9e337081f706ca8ab31541a5dac6a7",
         "adds": [
           "Demonic Consultation",
           "Gilded Drake",

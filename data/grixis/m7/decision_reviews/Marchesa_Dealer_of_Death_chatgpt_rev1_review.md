@@ -15,7 +15,15 @@ pipeline is not asserted to have been globally replayed.
   `data/grixis/m7/baseline_sources/Marchesa_Dealer_of_Death_chatgpt_rev1_baseline.txt`.
 - Proposed 100 bytes:
   `data/grixis/m7/candidate_lists/Marchesa_Dealer_of_Death_chatgpt_rev1.txt`;
-  raw SHA-256 `f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e`.
+  raw SHA-256 `931baa2762738ab32cd274ae8e128d0e3cd1aa85e81e51c2faa4934c1c70f363`.
+- M7 gate source spelling correction: the October 15 approved TXT abbreviated
+  `Birgi, God of Storytelling` to its front face, whereas the engineering
+  canonical Markdown writes `Birgi, God of Storytelling // Harnfel, Horn of
+  Bounty`. The candidate and all three complete challenger lists use the
+  latter full double-face spelling. **Same Oracle card, not a ninth strategic
+  swap**; do not mutate the historical approved TXT. Prior research draft SHA
+  `f6f68d204925ef3528166722d874cd4122e50755b30f8b9a9ac19d7eff9afd3e`
+  was superseded by this exact serialization correction before owner review.
 - Original prior October 15 approval and all other 61 decklocks remain intact.
 - The M6 October 19 authored review was KEEP, while the sealed owner-equivalent
   Pass C October 21 said NEEDS TESTING rather than falsely accepting KEEP as
@@ -109,17 +117,17 @@ theft with double-black requirement). The following three **actual complete
 checked for exact singleton/physical count:
 
 1. `alt8_counterbalance`: `+Counterbalance / -Magda` relative to selected
-   100; SHA `728bcddce4c8f80c4c81c8f192f53958e515af035ea9cf8a08aedbd047cce98e`.
+   100; SHA `cf0954bf0d56213db52d89c56dd70da2edafecd0d9dbc7904ded6943f07d7bd9`.
    Retains free top-of-library cEDH taxing and Gilded Drake, but deletes an
    actual commander-specific turn-cycle Treasure engine. **REJECT** in favor
    of the selected 100's Magda crime identity.
 2. `alt8_talisman`: `+Talisman of Indulgence / -Scrabbling Claws`, SHA
-   `1cfa6d9d4c6d6015c9a3676c84e12776407182bbf93159f8c4a071a08e260248`.
+   `4936fa487baab4f844f95cd4dd8f3b126ba466c6daa105765085d784992ef7c1`.
    Improves consistent two-mana B/R acceleration, but removes repeatable
    target-player crime plus exact emergency GY exile. **RETAIN_ALTERNATIVE**
    for demonstrated colored-pip bottlenecks.
 3. `alt9_intuition`: `+Intuition / -Praetor's Grasp` on top of all eight,
-   SHA `eaac15030cbe0c153c01ce6b7e25efa623087142e5e2f4ccc9f4b12e6d054fed`.
+   SHA `c167161b8ec25103a5a3c52ff36c26ce9b9e337081f706ca8ab31541a5dac6a7`.
    The instant targets an opponent (crime) and can bin Breach pieces, but
    opponents choose the hand card: an `Underworld Breach / LED / Brain Freeze`
    pile **cannot guarantee** placing Breach in hand. Praetor's Grasp can
