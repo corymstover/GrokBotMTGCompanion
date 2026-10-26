@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Mai_and_Zuko",
+  "canonical_baseline_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+  "canonical_baseline_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+  "commander_identity": {
+    "mechanical_plan": "Mai and Zuko ({1}{U}{B}{R}) turn both artifacts and Allies into instant-speed spells while firebending3 turns their combat into red-mana casting windows. Flash artifact/Ally value and attack-driven combustion with disciplined compact artifact wins, not independent generic turbo.",
+    "protected_core": [
+      "Mai and Zuko",
+      "Fire Lord Azula",
+      "Fire Nation Occupation",
+      "Firebender Ascension",
+      "Zuko, Firebending Master",
+      "Boiling Rock Rioter",
+      "The Mechanist, Aerial Artisan",
+      "Bender's Waterskin",
+      "Unwinding Clock",
+      "Roaming Throne",
+      "Basalt Monolith",
+      "Rings of Brighthearth",
+      "Walking Ballista",
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze",
+      "Mystic Forge",
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized. High-powered artifact combo/value deck with unique combat-mana flash windows; limited to 31 flexible lands and Grixis pip requirements, not proven top-table cEDH.",
+    "anti_homogenization": "Reject Thassa's Oracle plus Demonic Consultation/Tainted Pact transformation; preserve ten Ally creatures, combat firebending and flash artifact utility as genuine distinct pillars."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Whole 99 assessed by attack/flash payoffs, ten Ally creatures, thirty-three artifact spells, color ramp and 31 mana/land faces, compact 3 combo families, card advantage, artifact activated costs, stack interaction, graveyard hate, spot removal, sorcery and combo vulnerabilities. Individual expensive Avatar Roku and Tundra Tank contrasted with commander-specific Fire Nation Turret and Forensic Gadgeteer; all high-power staple slots challenged without homogenization.",
+    "mana_base_and_curve": "31 physical land faces including Soporific Springs MDFC. The three land replacements remove unconditional taplands Xander's Lounge and Path of Ancestry, then add Verdant fetch in place of a BR painland. The source's 20k finite simplified test for the common five-swap package raised T4 commander deployment proxy 52.53% to 54.49%, while its six-swap Grim package reached only 52.42%; extra engine swaps have NOT been win-rate simulated.",
+    "interaction_resilience": "Kept counters Fierce Guardianship, Force of Will, Mana Drain, Swan Song, Offer, Deflecting Swat, Deadly Rollick, and Cyclonic Rift, with new Pact; Sink is versatile but temporary. Jeska replaces Chaos Warp, losing true permanent/stack-independent answer. Tundra Tank and Greaves protection leave for Forensic and Pact, lowering proactive commander resilience. Bojuka Bog and Boiling Rock Rioter remain grave hate.",
+    "weakest_slots": [
+      {
+        "card": "Avatar Roku, Firebender",
+        "weakness": "Six-mana triple-red off-type creature cannot use Mai and Zuko's artifact or Ally flash and appears late in a 31-land deck.",
+        "alternative_named": "Fire Nation Turret",
+        "reasoning": "Three-mana artifact arrives at flash and gives commander an additional firebending2 in future combats; accepts loss of six red on every player's attacks."
+      },
+      {
+        "card": "Tundra Tank",
+        "weakness": "Three-mana Vehicle needs crew to attack for its firebending1; most timely value is a one-turn indestructible ETB.",
+        "alternative_named": "Forensic Gadgeteer",
+        "reasoning": "Gadgeteer creates Clues during instant-speed artifact chains and converts Basalt into an independent infinite-mana engine, while acknowledging protection loss."
+      },
+      {
+        "card": "Path of Ancestry",
+        "weakness": "Always enters tapped and only scries on matching Human/Noble/Ally casts while the plan prioritizes early four-mana deployment.",
+        "alternative_named": "Spire of Industry",
+        "reasoning": "Thirty-three artifact spells plus cheap permanents enable dependable colored production now rather than on following turn."
+      },
+      {
+        "card": "Xander's Lounge",
+        "weakness": "Unconditional tapped triome materially suppresses flash-window deployment in low 31-land source.",
+        "alternative_named": "Sink into Stupor // Soporific Springs",
+        "reasoning": "An optional untapped blue mana MDFC with bounce-spell floor improves tempo and instant interaction; sacrifices tricolor typing."
+      },
+      {
+        "card": "Sulfurous Springs",
+        "weakness": "BR painland cannot supply U for a four-color-symbol split requirement and no graveyard fetch synergy.",
+        "alternative_named": "Verdant Catacombs",
+        "reasoning": "Fetches the necessary color pair from existing Grixis typed duals, trading search reliance and life for flexibility."
+      },
+      {
+        "card": "Chaos Warp",
+        "weakness": "Single three-mana catch-all, useful but does not increase proactive deployment or artifact storm turns.",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "Main-phase red mana and impulse selection accelerate artifact storm; enchantment-answer loss expressly recorded as material."
+      },
+      {
+        "card": "Lightning Greaves",
+        "weakness": "Shroud prevents some own targeted protection, and Greaves itself does not counter stack interaction; does grant important haste.",
+        "alternative_named": "Pact of Negation",
+        "reasoning": "Zero-cost protection on an actual win turn replaces proactive haste/protection; upkeep 3UU is a serious risk."
+      }
+    ],
+    "current_baseline_strength": "October 14 100/100 locked predecessor already carries Basalt/Rings, Citadel/Top/Reservoir, Breach/LED/Freeze, flashable artifact creatures, ten Allies, instant-speed untapping, premium blue counters and draw. These are not casually removed.",
+    "candidate_pool_scope": "Reviewed current Scryfall and 2026-10-23 EDHREC general/upgraded/optimized/cEDH inclusion and High Lift, 208 nearly-included Commander Spellbook interactions, source-bound 20k finite goldfish and 96-cell Pact grid, plus selected independent WotC Oracle/Forensic and off-ranking artifact utilities.",
+    "off_ranked_search_conclusion": "Forensic Gadgeteer's cost reduction and Basalt loop is stronger than overlooked protection Vehicle Tundra Tank; Fire Nation Turret is a reliable commander-centered combat amplifier at a more accessible slot than six-mana Roku. Eight+ wider packages all demand sacrifice of interaction, grave hate, colored fixing, protected artifact tools or Ally depth."
+  },
+  "candidate_sources": [
+    "Live canonical approved list Oct 14 read via GitHub main, raw aa2036f4..., 100 lines, no mutation to currently locked original.",
+    "Grok M7 first-pass WIP PR #680 with live Scryfall 2026-10-23 Oracle, EDHREC Top/High Lift, Commander Spellbook queries, bounded finite tests, and five-swap baseline; research-only, not owner-approved.",
+    "Independent current Wizards of the Coast Forensic Gadgeteer release notes (MKM) and Scryfall card page and Commander legality, checked 2026-10-25; Wizards October 12 2026 official Banned & Restricted list.",
+    "Previous M6 Pass C owner-equivalent Mai and Zuko seal/reconciliation PR #438 and deep-review PR #284, explicitly not independent third-party certification."
+  ],
+  "material_candidates": [
+    {
+      "card": "Verdant Catacombs",
+      "source": "Saved PR #680 Scryfall and bounded land goldfish",
+      "role": "Untapped dual-land fetch with graveyard-filling optionality",
+      "named_cuts": [
+        "Sulfurous Springs"
+      ],
+      "incumbent_opportunity_cost": "The cut Sulfurous Springs loses real features: Loses guaranteed immediate BR source, pays a life to fetch and is exposed to search denial..",
+      "commander_synergy": "Finds untapped typed Grixis dual or shock to unlock color and fetchland flexibility.",
+      "adversarial_downside": "Loses guaranteed immediate BR source, pays a life to fetch and is exposed to search denial.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Sulfurous Springs, after loss evaluation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Spire of Industry",
+      "source": "PR #680 land finite grid and direct Oracle source",
+      "role": "Untapped colored artifact-density land",
+      "named_cuts": [
+        "Path of Ancestry"
+      ],
+      "incumbent_opportunity_cost": "The cut Path of Ancestry loses real features: Loses Ally cast scry and conditional colored mana without an artifact..",
+      "commander_synergy": "With one artifact, spends one life to cast UBR on turn played; baseline has extensive artifact permanents.",
+      "adversarial_downside": "Loses Ally cast scry and conditional colored mana without an artifact.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Path of Ancestry, after loss evaluation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Sink into Stupor // Soporific Springs",
+      "source": "PR #680 Scryfall face index and mana grid",
+      "role": "Flexible instant bounce or MDFC blue land",
+      "named_cuts": [
+        "Xander's Lounge"
+      ],
+      "incumbent_opportunity_cost": "The cut Xander's Lounge loses real features: Loses tricolor fixing, typed fetch target, cycling; bounce is temporary..",
+      "commander_synergy": "Makes a tapped triome slot an optionally untapped blue source or instant spell interaction, important when holding flash artifacts.",
+      "adversarial_downside": "Loses tricolor fixing, typed fetch target, cycling; bounce is temporary.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Xander's Lounge, after loss evaluation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Jeska's Will",
+      "source": "PR #680 EDHREC optimized data and live Scryfall; own red-team tradeoff",
+      "role": "One-turn red burst and impulse three spells",
+      "named_cuts": [
+        "Chaos Warp"
+      ],
+      "incumbent_opportunity_cost": "The cut Chaos Warp loses real features: Loses unique catch-all instant permanent removal, especially against stax enchantments..",
+      "commander_synergy": "Main-phase red burst powers high artifact density and combo turn; low deck mana curve lets red pay generic costs.",
+      "adversarial_downside": "Loses unique catch-all instant permanent removal, especially against stax enchantments.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Chaos Warp, after loss evaluation.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Pact of Negation",
+      "source": "PR #680 finite upkeep test and source Oracle",
+      "role": "Free protection in a winning counter war",
+      "named_cuts": [
+        "Lightning Greaves"
+      ],
+      "incumbent_opportunity_cost": "The cut Lightning Greaves loses real features: Loses first-attack haste/shroud for Mai and Zuko; five upkeep mana with UU or game loss..",
+      "commander_synergy": "Protects artifact storm or a Breach turn while mana is committed; works under commander flash timing as instant.",
+      "adversarial_downside": "Loses first-attack haste/shroud for Mai and Zuko; five upkeep mana with UU or game loss.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Lightning Greaves, after loss evaluation.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Fire Nation Turret",
+      "source": "Official Avatar card data in 2026-10-23 Scryfall snapshot and revised full-99 review",
+      "role": "Flashable artifact to enhance firebending at next combat",
+      "named_cuts": [
+        "Avatar Roku, Firebender"
+      ],
+      "incumbent_opportunity_cost": "The cut Avatar Roku, Firebender loses real features: Loses 6 red in every player's combat and a large pump mana sink..",
+      "commander_synergy": "Gives +2/+0 and distinct firebending2 before attack, stacking with Mai and Zuko native firebending3; costs only 2R vs Roku triple red 6.",
+      "adversarial_downside": "Loses 6 red in every player's combat and a large pump mana sink.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Avatar Roku, Firebender, after loss evaluation.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Forensic Gadgeteer",
+      "source": "Wizards MKM official release notes 2024, Scryfall card 2026-10-25, Commander Spellbook card 5390",
+      "role": "Artifact-spell Clues plus reduced activated ability costs",
+      "named_cuts": [
+        "Tundra Tank"
+      ],
+      "incumbent_opportunity_cost": "The cut Tundra Tank loses real features: Loses flashed ETB indestructible protection and crew1 firebending1 Vehicle..",
+      "commander_synergy": "Clues reward each flash artifact cast; Basalt Monolith untap 3 becomes 2 and goes infinite with tap-for-3, a second standalone two-card compact combo.",
+      "adversarial_downside": "Loses flashed ETB indestructible protection and crew1 firebending1 Vehicle.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected because its effect on the full Mai and Zuko 100 is materially stronger at this mana and interaction slot than Tundra Tank, after loss evaluation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Grim Monolith",
+      "source": "PR #680 20k finite goldfish and monolith grid",
+      "role": "Opponent-turn large colorless burst",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "The cut Fellwar Stone loses real features: Colorless rock slows UBR commander in simplified finite goldfish and does not alone replace Rings infinite line..",
+      "commander_synergy": "Unwinding Clock refreshes Grim on other untaps and supports instant artifact spells.",
+      "adversarial_downside": "Colorless rock slows UBR commander in simplified finite goldfish and does not alone replace Rings infinite line.",
+      "judgment": "REJECT",
+      "reason": "Rejected because Colorless rock slows UBR commander in simplified finite goldfish and does not alone replace Rings infinite line.; the retained slot better supports the balanced 31-land, triple-color commander-first plan.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Arid Mesa",
+      "source": "PR #680 six-configuration mana comparison",
+      "role": "Untapped fetchland alternative",
+      "named_cuts": [
+        "Bojuka Bog"
+      ],
+      "incumbent_opportunity_cost": "The cut Bojuka Bog loses real features: Bojuka Bog's graveyard exile is an important single card interaction not modeled by land-only goldfish..",
+      "commander_synergy": "Land improves untapped opening turns and typed dual access.",
+      "adversarial_downside": "Bojuka Bog's graveyard exile is an important single card interaction not modeled by land-only goldfish.",
+      "judgment": "REJECT",
+      "reason": "Rejected because Bojuka Bog's graveyard exile is an important single card interaction not modeled by land-only goldfish.; the retained slot better supports the balanced 31-land, triple-color commander-first plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Kappa Cannoneer",
+      "source": "PR #680 candidate chart and live Scryfall",
+      "role": "Artifact-flash growing unblockable threat",
+      "named_cuts": [
+        "Toxic Deluge"
+      ],
+      "incumbent_opportunity_cost": "The cut Toxic Deluge loses real features: Deluge is indispensable cheap all-creature removal in an otherwise light sweeper package..",
+      "commander_synergy": "With artifact ETB frequency it grows into large evasion; Mai and Zuko can flash it.",
+      "adversarial_downside": "Deluge is indispensable cheap all-creature removal in an otherwise light sweeper package.",
+      "judgment": "REJECT",
+      "reason": "Rejected because Deluge is indispensable cheap all-creature removal in an otherwise light sweeper package.; the retained slot better supports the balanced 31-land, triple-color commander-first plan.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Whir of Invention",
+      "source": "PR #680 larger tested seven-plus package",
+      "role": "Instant artifact tutor to field",
+      "named_cuts": [
+        "Wishclaw Talisman"
+      ],
+      "incumbent_opportunity_cost": "The cut Wishclaw Talisman loses real features: Triple blue instant is difficult with red combat firebending; Wishclaw finds nonartifacts..",
+      "commander_synergy": "Could turn opponents' end step into finding a win artifact and has improvise on other artifacts.",
+      "adversarial_downside": "Triple blue instant is difficult with red combat firebending; Wishclaw finds nonartifacts.",
+      "judgment": "REJECT",
+      "reason": "Rejected because Triple blue instant is difficult with red combat firebending; Wishclaw finds nonartifacts.; the retained slot better supports the balanced 31-land, triple-color commander-first plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    },
+    {
+      "card": "Mox Amber",
+      "source": "PR #680 rejected seeded portfolio",
+      "role": "Zero-cost legend-dependent accelerator",
+      "named_cuts": [
+        "Talisman of Indulgence"
+      ],
+      "incumbent_opportunity_cost": "The cut Talisman of Indulgence loses real features: Zero colored mana when no legend, while Talisman casts Mai and Zuko consistently..",
+      "commander_synergy": "Multiple legendary permanents potentially turn it on without mana spent.",
+      "adversarial_downside": "Zero colored mana when no legend, while Talisman casts Mai and Zuko consistently.",
+      "judgment": "REJECT",
+      "reason": "Rejected because Zero colored mana when no legend, while Talisman casts Mai and Zuko consistently.; the retained slot better supports the balanced 31-land, triple-color commander-first plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+        "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+        "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Verdant Catacombs",
+      "Spire of Industry",
+      "Sink into Stupor // Soporific Springs",
+      "Jeska's Will",
+      "Pact of Negation",
+      "Fire Nation Turret",
+      "Forensic Gadgeteer"
+    ],
+    "cuts": [
+      "Sulfurous Springs",
+      "Path of Ancestry",
+      "Xander's Lounge",
+      "Chaos Warp",
+      "Lightning Greaves",
+      "Avatar Roku, Firebender",
+      "Tundra Tank"
+    ],
+    "coherent_package_tradeoff": "Three land quality moves improve the commander turn; Jeska plus Pact consolidate explosive setup/stack protection while conceding Chaos Warp and Greaves; Turret plus Gadgeteer lower the curve and create two distinct commander-led artifact/combat engine gains versus slow high-red Roku and narrow one-shot vehicle. Seven full swaps are a strategic decision, not a five-swap floor."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Mai_and_Zuko_chatgpt_rev1.txt",
+    "sha256": "8cdf614e47eadf3ec33049a770a3f0a2b84338e84c31bb26a49e6f26f5c60d97",
+    "card_count": 100,
+    "deckwide_reconciliation": "100 physical cards, 100 distinct exact names, one Mai and Zuko Commander, no companion, 31 physical land faces including one MDFC, 33 artifact spells and 10 Allies including commander. All 99 source-snapshot names plus one independently sourced Forensic Gadgeteer fall in UBR and currently officially Commander legal. Seven exact additions and seven cuts reconciled with frozen aa2036f4 predecessor; no project exceptions."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Mai_and_Zuko_ChatGPT_Rev1_Oracle_Index_20261025.json",
+      "data/grixis/m7/decision_reviews/Mai_and_Zuko_chatgpt_rev1_review.md",
+      "tests/test_m7_mai_zuko_rev1_exact.py",
+      "https://magic.wizards.com/en/news/feature/murders-at-karlov-manor-release-notes",
+      "https://github.com/corymstover/GrokBotMTGCompanion/pull/680"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Artifacts",
+      "Flash",
+      "Firebending"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "All remaining slots post five-swap draft were reconsidered by role. Two additional commander-relevant weak spots were found at 6-mana triple-red nonflash Roku and the limited one-shot Tank Vehicle; Forensic Gadgeteer and Fire Nation Turret improve multiple engine dimensions rather than serving as filler. A third increase to eight would require losing Bog graveyard hate, colored talisman rock, essential Deluge or Ally count, so seven is defended by effects.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Bojuka Bog",
+        "challenger": "Arid Mesa",
+        "tradeoff": "Reject eighth, since small untapped mana consistency does not represent enemy graveyard risk in source proxy and loses the clean mass graveyard exile.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Talisman of Indulgence",
+        "challenger": "Mox Amber",
+        "tradeoff": "Reject extra ninth because prelegend dead zero-mana accelerator sacrifices crucial reliable Grixis colored access.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "The tested alternatives for an eighth would remove the remaining primary graveyard hate, a two-mana colored rock, the unique general board wipe, or another high-leverage Ally/artifact engine; none yields robust improvement across the full commander's states.",
+    "quality_based_stop_reason": "Stopped at seven genuine one-for-one changes on effect comparisons, not because seven is a project ceiling. Following the five WIP improvements, Turret and Forensic were extra independent commander-first wins; further alternatives introduce a disproportionate loss of graveyard interruption, blue/black/red fixing, board control, or flash-available Ally/artifact card draw. No stronger eighth card survives the adversarial challenger tradeoff based on these sources and bounded tests."
+  }
+}
