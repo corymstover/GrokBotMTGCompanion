@@ -46,7 +46,7 @@ This was not a five-card quota. Each candidate was assessed against all 99 exist
 
 ## Verification status and limits
 
-- Local exact-file script `obeka_splitter_m7_rev1_verify.py` passed: raw SHA; weighted 100; 96 names; 35 lands; basic-only repeats; six exact additions/cuts; bounded conditional damage and artifact-count cases.
+- Exact-file script at `data/grixis/m7/obeka_splitter_rev1/verify_obeka_splitter_rev1.py` (local working filename `obeka_splitter_m7_rev1_verify.py`) passed: raw SHA; weighted 100; 96 names; 35 lands; basic-only repeats; six exact additions/cuts; bounded conditional damage and artifact-count cases. Run in the engineering repository with `python3 data/grixis/m7/obeka_splitter_rev1/verify_obeka_splitter_rev1.py`.
 - Existing October 15 baseline had a full 99-slot and official Commander legality review. All 90 retained distinct names are unchanged from that officially audited list. All six new additions are historical printed colorless or mono-red Commander cards; checked against October 2026 WotC Commander banned list and card-specific Oracle/Scryfall sources. No banned or off-color addition found.
 - No new 100/100 live external Oracle batch, performance simulation, tournament win rate, or full cross-deck M6 transfer-certification pass is claimed by these checks. Inherited historical gates and newer checks are distinguished.
 - Owner action: approve the **complete exact 100** with raw SHA `f80d882944d5e39f3c6661da4dcdce3ec6eead577cd981dc54f7dc522be50859` once. Only then versioned canonical locking may happen.
