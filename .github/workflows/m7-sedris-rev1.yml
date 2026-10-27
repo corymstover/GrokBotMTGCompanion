@@ -1,0 +1,36 @@
+name: M7 Deck 51 Sedris Rev1 Oracle finite cases and M7 owner gate
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - '.github/workflows/m7-sedris-rev1.yml'
+      - 'data/grixis/m7/sedris_rev1/**'
+      - 'data/grixis/m7/candidate_lists/Sedris__the_Traitor_King_M7_Rev1.txt'
+      - 'data/grixis/m7/decision_reviews/Sedris__the_Traitor_King_rev1.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sedris-source-oracle-cases:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - name: Checkout exact owner-review head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source hashes physical 100 and 16 bounded source cases
+        run: python data/grixis/m7/sedris_rev1/sedris_rev1_verify.py
+      - name: Verify current all card Scryfall identity and official Commander legality
+        run: python data/grixis/m7/sedris_rev1/sedris_rev1_verify.py --live-scryfall
+      - name: Verify all-source M7 decision schema and post floor challenge
+        run: |
+          python -m pip install jsonschema
+          python scripts/grixis_m7_decision_gate.py --check
