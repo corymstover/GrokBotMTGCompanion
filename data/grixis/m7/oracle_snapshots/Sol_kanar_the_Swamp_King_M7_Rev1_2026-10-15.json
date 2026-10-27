@@ -2,8 +2,8 @@
   "source": "corymstover/GrokBotMTGCompanion data/card_index.csv Scryfall oracle_cards bulk",
   "source_blob_sha": "c84463e9fa4708165027404d4ca54af5dcf5774b",
   "oracle_bulk_date": "2026-10-15",
-  "candidate_sha256": "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02",
-  "claims": "Archival Scryfall source snapshot, NOT a live 2026-10-27 Scryfall sweep",
+  "candidate_sha256": "2bd99c569df4a86897bca0164d2a1fa309b92f8b721e406b8394dfb04b1239e3",
+  "claims": "Archived October 15 Scryfall source, not a fresh Oct27 bulk sweep; M7 Rev1 six swaps after mana challenge.",
   "cards": [
     {
       "name": "Sol'kanar the Swamp King",
@@ -582,10 +582,10 @@
       "type_line": "Instant"
     },
     {
-      "name": "Mindcrank",
+      "name": "Rakdos Signet",
       "count": 1,
-      "oracle_id": "c73c1d91-0163-49c6-832a-b9327e7a2c9b",
-      "color_identity": "C",
+      "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+      "color_identity": "BR",
       "commander_legality": "legal",
       "game_changer": false,
       "type_line": "Artifact"
