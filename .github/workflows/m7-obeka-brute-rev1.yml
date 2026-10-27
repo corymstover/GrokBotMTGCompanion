@@ -1,0 +1,38 @@
+name: M7 Obeka Brute Chronologist Rev1 exact-source
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-obeka-brute-rev1.yml
+      - data/grixis/m7/obeka_rev1/**
+      - data/grixis/m7/candidate_lists/Obeka__Brute_Chronologist*
+      - data/grixis/m7/decision_reviews/Obeka__Brute_Chronologist*
+      - data/grixis/m7/oracle_snapshots/Obeka__Brute_Chronologist*
+      - data/grixis/m7/verification/Obeka__Brute_Chronologist*
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-obeka-source-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Check out exact PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install M7 structural schema checker
+        run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Exact 100 physical and captured Scryfall legal/identity snapshot
+        run: python data/grixis/m7/obeka_rev1/verify_obeka_rev1.py
+      - name: Execute all fifteen Obeka source-bound C/K/E/W/F finite cases
+        run: python data/grixis/m7/obeka_rev1/test_obeka_rev1.py
+      - name: Verify source-bound M7 decision packet and stronger alternatives
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Obeka__Brute_Chronologist_rev1.json
