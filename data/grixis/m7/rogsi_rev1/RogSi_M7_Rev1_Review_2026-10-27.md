@@ -1,6 +1,6 @@
 # Deck #47 — RogSi M7 Rev1 owner-review packet (2026-10-27)
 
-**Status: REVIEW READY — NOT OWNER APPROVED — NOT CANONICAL — NOT LOCKED AS M7 REV1.** The October 15 canonical RogSi list remains approved/locked until Cory explicitly approves the exact 100-card Rev1 candidate.
+**POST-APPROVAL STATUS: OWNER APPROVED / CANONICALLY LOCKED on 2026-10-27.** Cory explicitly replied “Approve” to the exact 100-card M7 Rev1 SHA `97f3c0ca70303b44cd887938c320b75de01e991feec7d71d4c18811aeaa88225`. Canonical [PR #94](https://github.com/corymstover/grixis-commander-encyclopediaGPT/pull/94) merged as commit `f35d1fad326269fdcf231bbc2ee458bcb24de79a`; post-merge exact text/state/old-source readbacks passed. Preapproval analysis below remains as historical evidence, not a pending gate.
 
 - Commanders: Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept
 - Canonical October 15 source: `corymstover/grixis-commander-encyclopediaGPT:refinement/decklists/RogSi_Approved_2026-10-15.txt`
@@ -77,4 +77,4 @@ Compared with the October 15 candidate, this independent pass gives more weight 
 - [September 26 first-place list](https://edhtop16.com/tournament/css-20000-cedh-invitational-qualifier-5/decklist/RlX8UKFqR1euXnRbyzMymHKqsef1)
 - [October 4 first-place list](https://edhtop16.com/tournament/mortal-kraumbat-3/decklist/crjjFgcVC0hi4otJ6ls9Wf9EdGl1)
 
-**Next decision:** Cory may reply once with **Approve** to authorize only this exact hash and candidate, followed by canonical versioned locking and post-merge verification. No second approval should be requested.
+**Decision closeout:** Cory approved once, canonical versioned lock/merge completed on 2026-10-27, previous Oct15 source preserved. Advance to Deck #48 Saruman; no second approval needed.
