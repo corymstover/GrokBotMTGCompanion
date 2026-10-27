@@ -3,7 +3,7 @@
 **Status:** REVIEW / NOT OWNER-APPROVED. Do not merge this PR or mutate canonical approval/lock state before Cory explicitly approves the exact raw SHA.
 **Date:** 2026-10-27 (America/Chicago)
 **Canonical predecessor:** `corymstover/grixis-commander-encyclopediaGPT`, `refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt`; original raw SHA-256 `7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106`.
-**Proposed M7 raw SHA-256:** `f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f0e02`.
+**Proposed M7 raw SHA-256:** `f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02`.
 **Candidate:** `data/grixis/m7/candidate_lists/Sol_kanar_the_Swamp_King_M7_Rev1.txt`.
 **Source-bound oracle metadata:** `data/grixis/m7/oracle_snapshots/Sol_kanar_the_Swamp_King_M7_Rev1_2026-10-15.json` (Scryfall oracle_cards snapshot, not a live October 27 mass query).
 
@@ -49,4 +49,4 @@ Sol'kanar is {2}{U}{B}{R}, 5/5 Demon, swampwalk, and **gains 1 life whenever ANY
 
 ## Approval boundary
 
-Owner review requested for **exact 100-card raw SHA-256 `f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f0e02`**, M7 Rev1, seven net swaps. Keep prior approved Sol'kanar and all other canonical files locked and byte-identical; do not merge engineering candidate or update canonical state until Cory approves the exact candidate. No M6.10/M7/M8 aggregate acceptance implied.
+Owner review requested for **exact 100-card raw SHA-256 `f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02`**, M7 Rev1, seven net swaps. Keep prior approved Sol'kanar and all other canonical files locked and byte-identical; do not merge engineering candidate or update canonical state until Cory approves the exact candidate. No M6.10/M7/M8 aggregate acceptance implied.
