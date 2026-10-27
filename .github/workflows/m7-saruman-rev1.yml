@@ -1,0 +1,30 @@
+name: M7 Deck 48 Saruman Rev1 exact-source and live Oracle
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-saruman-rev1.yml
+      - data/grixis/m7/saruman_rev1/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  saruman-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout exact review PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Certify frozen October 15 source and seven-swap candidate
+        run: python data/grixis/m7/saruman_rev1/verify_saruman_rev1.py
+      - name: Fetch live Scryfall legalities and color identity for all 100 cards
+        run: python data/grixis/m7/saruman_rev1/verify_saruman_rev1.py --live-scryfall
