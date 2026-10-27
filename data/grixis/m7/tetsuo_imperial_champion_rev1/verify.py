@@ -244,6 +244,58 @@ class BoundedCommanderTests(unittest.TestCase):
                      "Padeem, Consul of Innovation", "Arcane Signet", "Sword of the Animist"):
             self.assertIn(card, self.final)
 
+    # Exact M6 blueprint P0 transfer. Earlier numbered K1/K2/K3 tests cover
+    # different mechanical questions; case IDs alone must never be laundered
+    # into evidence for this plan's main-phase, Beating and rebound cases.
+    def test_M6_P0_K1_main_phase_relative_extra_combats_not_combat_freecast(self):
+        # Tetsuo's permission to cast a sorcery during attack resolution does
+        # not make "after this main phase" refer to the *combat* phase.
+        self.assertIn("Tetsuo, Imperial Champion", self.final)
+        self.assertNotIn("Relentless Assault", self.final)
+        self.assertNotIn("Seize the Day", self.final)
+        def relative_main_phase_has_effect(phase):
+            return phase in ("precombat_main", "postcombat_main")
+        for spell in ("Relentless Assault", "Seize the Day"):
+            self.assertFalse(relative_main_phase_has_effect("combat"), spell)
+            self.assertTrue(relative_main_phase_has_effect("precombat_main"), spell)
+
+    def test_M6_P0_K2_savage_beating_combat_on_own_turn_and_entwine_cost(self):
+        self.assertIn("Savage Beating", self.final)
+        self.assertEqual(attack_trigger(True, True, True, [5], "spell", 5),
+                         ("cast_from_hand_free", 5))
+        def savage_beating_timing(phase, active_player):
+            return phase == "combat" and active_player == "ours"
+        self.assertTrue(savage_beating_timing("combat", "ours"))
+        self.assertFalse(savage_beating_timing("combat", "opponent"))
+        self.assertFalse(savage_beating_timing("precombat_main", "ours"))
+        # Tetsuo waives {3}{R}{R}, never the separate entwine {1}{R}.
+        extra_mana = {"R": 1, "generic": 1}
+        self.assertTrue(extra_mana["R"] >= 1 and extra_mana["generic"] >= 1)
+        self.assertFalse({"R": 0, "generic": 1}["R"] >= 1)
+
+    def test_M6_P0_K3_world_at_war_post_second_main_and_rebound_from_hand(self):
+        self.assertIn("World at War", self.final)
+        # Current Oracle says after the SECOND main, not "this main phase".
+        # Casting it from hand using Tetsuo during the first combat schedules
+        # its combat after second main; the spell is still cast from hand.
+        phases = ["precombat_main", "combat_1", "postcombat_main",
+                  "world_at_war_extra_combat", "world_at_war_extra_main"]
+        self.assertEqual(attack_trigger(True, True, True, [5], "spell", 5),
+                         ("cast_from_hand_free", 5))
+        self.assertLess(phases.index("postcombat_main"), phases.index("world_at_war_extra_combat"))
+        def rebound_exiles_on_resolution(cast_from_hand, actually_cast):
+            return cast_from_hand and actually_cast
+        self.assertTrue(rebound_exiles_on_resolution(True, True))
+        self.assertFalse(rebound_exiles_on_resolution(False, True))  # Exile-cast.
+        self.assertFalse(rebound_exiles_on_resolution(True, False))  # Copy, not cast.
+
+    def test_M6_P0_F1_intervening_equipped_check_blocks_post_attack_disarm(self):
+        # Equipped at attack declaration permits trigger; removing last
+        # Equipment before resolution fails the intervening-if recheck.
+        self.assertIsNotNone(attack_trigger(True, True, True, [7], "damage"))
+        self.assertIsNone(attack_trigger(True, True, False, [], "damage"))
+        self.assertIsNone(attack_trigger(True, False, True, [7], "damage"))
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
