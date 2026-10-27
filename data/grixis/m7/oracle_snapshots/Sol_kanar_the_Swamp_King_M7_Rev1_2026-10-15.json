@@ -2,7 +2,7 @@
   "source": "corymstover/GrokBotMTGCompanion data/card_index.csv Scryfall oracle_cards bulk",
   "source_blob_sha": "c84463e9fa4708165027404d4ca54af5dcf5774b",
   "oracle_bulk_date": "2026-10-15",
-  "candidate_sha256": "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f0e02",
+  "candidate_sha256": "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02",
   "claims": "Archival Scryfall source snapshot, NOT a live 2026-10-27 Scryfall sweep",
   "cards": [
     {
