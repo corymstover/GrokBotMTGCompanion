@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 NAME = "Sol_kanar_the_Swamp_King_M7_Rev1"
 LIST = ROOT / "data/grixis/m7/candidate_lists" / f"{NAME}.txt"
 SNAP = ROOT / "data/grixis/m7/oracle_snapshots" / f"{NAME}_2026-10-15.json"
-HASH = "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f0e02"
+HASH = "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02"
 ADDS = {
     "Necropotence", "Orcish Bowmasters", "Rowan, Scion of War",
     "Hatred", "Yawgmoth's Will", "Mindcrank", "Bubbling Muck"
