@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "The_Madcap_Jester",
+  "canonical_baseline_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+  "canonical_baseline_logical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+  "commander_identity": {
+    "mechanical_plan": "Four-mana Grixis 3/2 exiles top one from each opponent on ATTACK, and any controlled spell/ability that exiles opposing LIBRARY cards grants normal-timing ability to play those specific exiled objects through our next turn using any type of mana. Accelerate this exile access, defend its fragility, and convert stolen cards into board/tempo. Compact Oracle/Pact/Breach are secondary finishes, not a substitute for the source commander.",
+    "protected_core": [
+      "The Madcap Jester",
+      "Dragon's Smile",
+      "Tasha's Hideous Laughter",
+      "Extract",
+      "Sadistic Sacrament",
+      "Psychic Surgery",
+      "Ashiok, Nightmare Weaver",
+      "Jester's Cap",
+      "Jester's Scepter",
+      "Inside Information",
+      "Ensnared by the Mara",
+      "Circu, Dimir Lobotomist",
+      "Bilbo, Thief in the Night",
+      "Don Andres, the Renegade",
+      "Prosper, Tome-Bound",
+      "Praetor's Grasp",
+      "Thieving Varmint",
+      "Lightning Greaves",
+      "Thassa's Oracle",
+      "Demonic Consultation",
+      "Tainted Pact",
+      "Underworld Breach",
+      "Brain Freeze",
+      "Lion's Eye Diamond",
+      "Dauthi Voidwalker"
+    ],
+    "natural_ceiling": "Power Bracket 5 — cEDH-capable from fast Oracle/Consult/Pact/Breach and protection; the commander is a meaningful independent exile-value resource, although no verified deterministic win condition requires it. Seven revised slots favor source-paid early access and interaction over five-/six-mana payoffs.",
+    "anti_homogenization": "Do not dilute the chosen opponent-library exile spells, Jester's attack, stolen-spell payoff density or two named future-release exceptions with a generic turbo Oracle/Breach shell. Extra stack protection must be justified by enabling the exile play window and reliable native commander deployment."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "A 99/99 physical slot CSV reuses the precise 2026-10-20 authored card-by-card M6 observations and independently adjudicates each with this 2026-10-27 candidate. 92 KEEP/7 CUT; retained 34 lands, early fast mana, unique three-color access, 1/2/3-mana library exile (Extract, Psychic Surgery, Ashiok, Tasha, Scepter, Sacrament, Inside Information) and selected expensive Dragon's Smile as the single intentional high-ceiling vehicle. Lowered six-/five-/four-mana creature payoff congestion while retaining the signature library search/exile core.",
+    "mana_base_and_curve": "34 lands to 34; no repeated names, Tainted Pact clean. Gloomlake Verge replaces conditional-tapped Drowned Catacomb with always-untapped U and B conditional on Island/Swamp; no R gained. Thieving Varmint's two mana may ONLY cast spells not owned, so it cannot accelerate native Jester/Oracle/Consult. Fast one-shot LED/Petal/rituals remain, Jester still requires UBR simultaneously; no fictitious all-color mana probabilities asserted.",
+    "interaction_resilience": "Keeps Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mana Drain, Swan Song, Deflecting Swat, Deadly Rollick and Toxic Deluge. Adds Flusterstorm, uncounterable Hexing Squelcher and flash Opposition Agent; these cover stack, commander resolution and opponent search more cheaply, but creature removal, opposing combat blockers and a fragile Jester still create a realistic failure mode.",
+    "weakest_slots": [
+      {
+        "card": "Sire of Stagnation",
+        "weakness": "Flash search interception at three mana can steal the searched card and stop a cEDH tutor/fetch line before six-mana Sire ever takes a landfall turn.",
+        "alternative_named": "Opposition Agent",
+        "reasoning": "Sire exiles two cards and draws two on every opposing land entry; Agent is reactive and search-dependent. No automatic Jester trigger from Agent is assumed."
+      },
+      {
+        "card": "Nalfeshnee",
+        "weakness": "Two-mana menace creates a cheap opposing-library exile-on-hit threat. Its until-nonland reveal may exile multiple cards that Jester can play through the next turn.",
+        "alternative_named": "Black Widow, Super Spy",
+        "reasoning": "Widow needs actual combat damage and waiting through summoning sickness; Nalfeshnee copies every exile-cast spell and gives token copies haste at six mana."
+      },
+      {
+        "card": "Plargg and Nassari",
+        "weakness": "A two-mana tapped-on-attack exile-three engine can feed Jester without requiring combat damage, rather than waiting a five-mana upkeep cycle.",
+        "alternative_named": "Grimoire Thief",
+        "reasoning": "Double-blue development and Jester-on-battlefield timing matter; Plargg can cast up to two free spells even without Jester and exiles across players."
+      },
+      {
+        "card": "Gonti, Night Minister",
+        "weakness": "Two-mana cantrip grants flash to stolen sorceries and other spells for the full turn, making Jester's finite permission usable across opponent-turn windows and protecting combo sequencing.",
+        "alternative_named": "Borne Upon a Wind",
+        "reasoning": "Gonti creates Treasures on stolen casts and repeated combat exile, although it can grant an opposing attacker a stolen card too; Borne is one-turn only."
+      },
+      {
+        "card": "Wild-Magic Sorcerer",
+        "weakness": "An uncounterable two-mana creature protects the commander spell and every stolen/combo spell from counters and adds pay-two-life ward to other creatures.",
+        "alternative_named": "Hexing Squelcher",
+        "reasoning": "It does not prevent removal or counter triggered abilities; Sorcerer instead cascades the first exile-cast spell each turn but requires four mana."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Unconditionally taps for blue when developing early protection/Jester, with black once any Island or Swamp is present; Catacomb can enter tapped without one.",
+        "alternative_named": "Gloomlake Verge",
+        "reasoning": "Verge may not tap for black in an early hand with no Island/Swamp, while Catacomb produces both colors once untapped."
+      },
+      {
+        "card": "Bitter Ordeal",
+        "weakness": "One-blue storm counter protects threatened exile/combo turns and contests opposing Ad Nauseam, tutors or Breach, while the existing Extract/Sacrament/Cap/Scepter/Praetor package still searches libraries.",
+        "alternative_named": "Flusterstorm",
+        "reasoning": "Loses Bitter Ordeal's directly chosen opponent-library card and gravestorm copies, particularly powerful in sacrifice-heavy turns."
+      },
+      {
+        "card": "Jester's Cap",
+        "weakness": "Two plus two mana removes one named combo card from a searched opponent's hand/library/grave; a two-mana cheaper upfront deployment and useful while commander absent.",
+        "alternative_named": "The Stone Brain",
+        "reasoning": "Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards."
+      },
+      {
+        "card": "Sulfurous Springs",
+        "weakness": "Spent red mana from its exerted two-red activation grants Jester haste immediately upon casting and can improve first-attack access.",
+        "alternative_named": "Arena of Glory",
+        "reasoning": "Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding."
+      },
+      {
+        "card": "Circu, Dimir Lobotomist",
+        "weakness": "Choosing Wizard or Clown adds a second Jester attack-exile trigger whenever he attacks; ward two buys some resilience.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis."
+      },
+      {
+        "card": "Inside Information",
+        "weakness": "Two-mana instant exiles a selected top-two opposing card, then flashback repeats the effect; native indefinite play permission.",
+        "alternative_named": "Siphon Insight",
+        "reasoning": "Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use."
+      },
+      {
+        "card": "Shivan Reef",
+        "weakness": "Make Jester uncounterable by naming Clown or Wizard and still pay one needed colored creature mana.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Outside Clown/Wizard creature casting provides only colorless; Reef always makes U or R and pays crucial noncreature spells, so can harm a three-color storm hand."
+      },
+      {
+        "card": "Rite of Flame",
+        "weakness": "An extra turn can exploit cards under Jester's until-next-turn window and accelerate a Breach/Oracle assembled finish.",
+        "alternative_named": "Final Fortune",
+        "reasoning": "Double red and lose-the-game delayed trigger risk; cutting red ritual loses early mana needed for Jester and Breach rather than merely removing a slow top-end."
+      }
+    ],
+    "current_baseline_strength": "The Oct15 approved 100 with exact raw sha caeffc07 has 100 distinct names, 34 lands, 98 ordinary legal cards and two registered future-release exceptions. The former five swaps (Dauthi, Ashiok Weaver, Oracle enablers, Greaves) are already applied. M6's authored KEEP and Stage C NEEDS TESTING are scoped evidence, not proof the then-selected six-mana theft payoffs beat current low-cost alternatives.",
+    "candidate_pool_scope": "25+ distinct material judgments from live Oct27 EDHREC 1,659 deck general Top Cards/High Lift, low-sample 21 deck bracket5, Theft and Exile subpages, Wizard printed Oracle snapshot, saved 38 M5 pairs, M6 deep review, non-independent Stage C, and outside-rank source candidates. 13 distinct physical incumbent challenges and two full higher-swap 100-card configurations are recorded with their tradeoffs.",
+    "off_ranked_search_conclusion": "Black Widow 1B menace damage until nonland, Grimoire Thief UU tap exile three, Borne Upon a Wind temporary flash for stolen sorceries, and Hexing Squelcher protecting the cast Jester/stolen spells are off-baseline commander-specific lines; status as genuinely stronger than the incumbent is based on comparative costs and rules, not EDHREC popularity. MBC Jabs is excluded as unauthorized future-release."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/the-madcap-jester — 2026-10-27 all 1,659 decks, Top Cards Tasha 91% / Extract 79% / Jester Cap 76%; High Lift Grimoire Thief 12% inclusion/62 Lift and Raven Guild Master 32%/61 Lift.",
+    "https://edhrec.com/commanders/the-madcap-jester/cedh — 2026-10-27 user-tagged Bracket5 21 decks; Flusterstorm 95%, Borne Upon a Wind 86%, Hexing Squelcher 95%, Opposition Agent 71%, Black Widow 24%; low-sample discovery only.",
+    "https://edhrec.com/commanders/the-madcap-jester/theft and /exile — 2026-10-27 commander-specific themes; no numerical extrapolation across tag samples.",
+    "OFF-RANKING October27 Scryfall Oracle Cards JSONL public GET at https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz, locally checked all final 100 identities, colour and Commander statuses.",
+    "https://magic.wizards.com/en/news/feature/mystery-booster-commander-edition-release-notes — official Jester timing/paid-cost ruling; https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf rules 603.2, 614.1, 614.6.",
+    "Saved engineering M6 38-pair candidate packet, authored 100-slot Oct20 review, owner-equivalent Pass C Oct21 NEEDS TESTING, input-only M6 I/J receipt with Phase B not replayed; historical uncertain Dauthi causation not claimed as a verified extra win."
+  ],
+  "material_candidates": [
+    {
+      "card": "Opposition Agent",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "Flash search interception at three mana can steal the searched card and stop a cEDH tutor/fetch line before six-mana Sire ever takes a landfall turn.",
+      "named_cuts": [
+        "Sire of Stagnation"
+      ],
+      "incumbent_opportunity_cost": "Sire exiles two cards and draws two on every opposing land entry; Agent is reactive and search-dependent. No automatic Jester trigger from Agent is assumed.",
+      "commander_synergy": "Flash search interception at three mana can steal the searched card and stop a cEDH tutor/fetch line before six-mana Sire ever takes a landfall turn.",
+      "adversarial_downside": "Sire exiles two cards and draws two on every opposing land entry; Agent is reactive and search-dependent. No automatic Jester trigger from Agent is assumed.",
+      "judgment": "SELECT_ADD",
+      "reason": "Flash search interception at three mana can steal the searched card and stop a cEDH tutor/fetch line before six-mana Sire ever takes a landfall turn. Actual loss: Sire exiles two cards and draws two on every opposing land entry; Agent is reactive and search-dependent. No automatic Jester trigger from Agent is assumed.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Black Widow, Super Spy",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "Two-mana menace creates a cheap opposing-library exile-on-hit threat. Its until-nonland reveal may exile multiple cards that Jester can play through the next turn.",
+      "named_cuts": [
+        "Nalfeshnee"
+      ],
+      "incumbent_opportunity_cost": "Widow needs actual combat damage and waiting through summoning sickness; Nalfeshnee copies every exile-cast spell and gives token copies haste at six mana.",
+      "commander_synergy": "Two-mana menace creates a cheap opposing-library exile-on-hit threat. Its until-nonland reveal may exile multiple cards that Jester can play through the next turn.",
+      "adversarial_downside": "Widow needs actual combat damage and waiting through summoning sickness; Nalfeshnee copies every exile-cast spell and gives token copies haste at six mana.",
+      "judgment": "SELECT_ADD",
+      "reason": "Two-mana menace creates a cheap opposing-library exile-on-hit threat. Its until-nonland reveal may exile multiple cards that Jester can play through the next turn. Actual loss: Widow needs actual combat damage and waiting through summoning sickness; Nalfeshnee copies every exile-cast spell and gives token copies haste at six mana.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Grimoire Thief",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "A two-mana tapped-on-attack exile-three engine can feed Jester without requiring combat damage, rather than waiting a five-mana upkeep cycle.",
+      "named_cuts": [
+        "Plargg and Nassari"
+      ],
+      "incumbent_opportunity_cost": "Double-blue development and Jester-on-battlefield timing matter; Plargg can cast up to two free spells even without Jester and exiles across players.",
+      "commander_synergy": "A two-mana tapped-on-attack exile-three engine can feed Jester without requiring combat damage, rather than waiting a five-mana upkeep cycle.",
+      "adversarial_downside": "Double-blue development and Jester-on-battlefield timing matter; Plargg can cast up to two free spells even without Jester and exiles across players.",
+      "judgment": "SELECT_ADD",
+      "reason": "A two-mana tapped-on-attack exile-three engine can feed Jester without requiring combat damage, rather than waiting a five-mana upkeep cycle. Actual loss: Double-blue development and Jester-on-battlefield timing matter; Plargg can cast up to two free spells even without Jester and exiles across players.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Borne Upon a Wind",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "Two-mana cantrip grants flash to stolen sorceries and other spells for the full turn, making Jester's finite permission usable across opponent-turn windows and protecting combo sequencing.",
+      "named_cuts": [
+        "Gonti, Night Minister"
+      ],
+      "incumbent_opportunity_cost": "Gonti creates Treasures on stolen casts and repeated combat exile, although it can grant an opposing attacker a stolen card too; Borne is one-turn only.",
+      "commander_synergy": "Two-mana cantrip grants flash to stolen sorceries and other spells for the full turn, making Jester's finite permission usable across opponent-turn windows and protecting combo sequencing.",
+      "adversarial_downside": "Gonti creates Treasures on stolen casts and repeated combat exile, although it can grant an opposing attacker a stolen card too; Borne is one-turn only.",
+      "judgment": "SELECT_ADD",
+      "reason": "Two-mana cantrip grants flash to stolen sorceries and other spells for the full turn, making Jester's finite permission usable across opponent-turn windows and protecting combo sequencing. Actual loss: Gonti creates Treasures on stolen casts and repeated combat exile, although it can grant an opposing attacker a stolen card too; Borne is one-turn only.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Hexing Squelcher",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "An uncounterable two-mana creature protects the commander spell and every stolen/combo spell from counters and adds pay-two-life ward to other creatures.",
+      "named_cuts": [
+        "Wild-Magic Sorcerer"
+      ],
+      "incumbent_opportunity_cost": "It does not prevent removal or counter triggered abilities; Sorcerer instead cascades the first exile-cast spell each turn but requires four mana.",
+      "commander_synergy": "An uncounterable two-mana creature protects the commander spell and every stolen/combo spell from counters and adds pay-two-life ward to other creatures.",
+      "adversarial_downside": "It does not prevent removal or counter triggered abilities; Sorcerer instead cascades the first exile-cast spell each turn but requires four mana.",
+      "judgment": "SELECT_ADD",
+      "reason": "An uncounterable two-mana creature protects the commander spell and every stolen/combo spell from counters and adds pay-two-life ward to other creatures. Actual loss: It does not prevent removal or counter triggered abilities; Sorcerer instead cascades the first exile-cast spell each turn but requires four mana.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Gloomlake Verge",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "Unconditionally taps for blue when developing early protection/Jester, with black once any Island or Swamp is present; Catacomb can enter tapped without one.",
+      "named_cuts": [
+        "Drowned Catacomb"
+      ],
+      "incumbent_opportunity_cost": "Verge may not tap for black in an early hand with no Island/Swamp, while Catacomb produces both colors once untapped.",
+      "commander_synergy": "Unconditionally taps for blue when developing early protection/Jester, with black once any Island or Swamp is present; Catacomb can enter tapped without one.",
+      "adversarial_downside": "Verge may not tap for black in an early hand with no Island/Swamp, while Catacomb produces both colors once untapped.",
+      "judgment": "SELECT_ADD",
+      "reason": "Unconditionally taps for blue when developing early protection/Jester, with black once any Island or Swamp is present; Catacomb can enter tapped without one. Actual loss: Verge may not tap for black in an early hand with no Island/Swamp, while Catacomb produces both colors once untapped.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Flusterstorm",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review",
+      "role": "One-blue storm counter protects threatened exile/combo turns and contests opposing Ad Nauseam, tutors or Breach, while the existing Extract/Sacrament/Cap/Scepter/Praetor package still searches libraries.",
+      "named_cuts": [
+        "Bitter Ordeal"
+      ],
+      "incumbent_opportunity_cost": "Loses Bitter Ordeal's directly chosen opponent-library card and gravestorm copies, particularly powerful in sacrifice-heavy turns.",
+      "commander_synergy": "One-blue storm counter protects threatened exile/combo turns and contests opposing Ad Nauseam, tutors or Breach, while the existing Extract/Sacrament/Cap/Scepter/Praetor package still searches libraries.",
+      "adversarial_downside": "Loses Bitter Ordeal's directly chosen opponent-library card and gravestorm copies, particularly powerful in sacrifice-heavy turns.",
+      "judgment": "SELECT_ADD",
+      "reason": "One-blue storm counter protects threatened exile/combo turns and contests opposing Ad Nauseam, tutors or Breach, while the existing Extract/Sacrament/Cap/Scepter/Praetor package still searches libraries. Actual loss: Loses Bitter Ordeal's directly chosen opponent-library card and gravestorm copies, particularly powerful in sacrifice-heavy turns.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "The Stone Brain",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Two plus two mana removes one named combo card from a searched opponent's hand/library/grave; a two-mana cheaper upfront deployment and useful while commander absent.",
+      "named_cuts": [
+        "Jester's Cap"
+      ],
+      "incumbent_opportunity_cost": "Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards.",
+      "commander_synergy": "Two plus two mana removes one named combo card from a searched opponent's hand/library/grave; a two-mana cheaper upfront deployment and useful while commander absent.",
+      "adversarial_downside": "Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two plus two mana removes one named combo card from a searched opponent's hand/library/grave; a two-mana cheaper upfront deployment and useful while commander absent. Counter-case: Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Arena of Glory",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Spent red mana from its exerted two-red activation grants Jester haste immediately upon casting and can improve first-attack access.",
+      "named_cuts": [
+        "Sulfurous Springs"
+      ],
+      "incumbent_opportunity_cost": "Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding.",
+      "commander_synergy": "Spent red mana from its exerted two-red activation grants Jester haste immediately upon casting and can improve first-attack access.",
+      "adversarial_downside": "Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Spent red mana from its exerted two-red activation grants Jester haste immediately upon casting and can improve first-attack access. Counter-case: Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Choosing Wizard or Clown adds a second Jester attack-exile trigger whenever he attacks; ward two buys some resilience.",
+      "named_cuts": [
+        "Circu, Dimir Lobotomist"
+      ],
+      "incumbent_opportunity_cost": "Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis.",
+      "commander_synergy": "Choosing Wizard or Clown adds a second Jester attack-exile trigger whenever he attacks; ward two buys some resilience.",
+      "adversarial_downside": "Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Choosing Wizard or Clown adds a second Jester attack-exile trigger whenever he attacks; ward two buys some resilience. Counter-case: Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Samut, Tyrant of Naktamun",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Split second on controlled instants/sorceries helps resolve stolen spells and Breach/Consultation sequences once Samut is on the board.",
+      "named_cuts": [
+        "Wild-Magic Sorcerer"
+      ],
+      "incumbent_opportunity_cost": "Unlike Hexing Squelcher, does not stop countering the Jester creature, does not ward other creatures, and restricts our own responses while one of our instant/sorceries is on stack.",
+      "commander_synergy": "Split second on controlled instants/sorceries helps resolve stolen spells and Breach/Consultation sequences once Samut is on the board.",
+      "adversarial_downside": "Unlike Hexing Squelcher, does not stop countering the Jester creature, does not ward other creatures, and restricts our own responses while one of our instant/sorceries is on stack.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Split second on controlled instants/sorceries helps resolve stolen spells and Breach/Consultation sequences once Samut is on the board. Counter-case: Unlike Hexing Squelcher, does not stop countering the Jester creature, does not ward other creatures, and restricts our own responses while one of our instant/sorceries is on stack.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Valley Floodcaller",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Permanent noncreature flash permission across turns can extend stolen-spell timing and Breach stack windows.",
+      "named_cuts": [
+        "Gonti, Night Minister"
+      ],
+      "incumbent_opportunity_cost": "Three mana vulnerable creature versus Borne's two mana plus cantrip; does not grant flash to stolen creature cards, and Gonti's theft payoff remains lost.",
+      "commander_synergy": "Permanent noncreature flash permission across turns can extend stolen-spell timing and Breach stack windows.",
+      "adversarial_downside": "Three mana vulnerable creature versus Borne's two mana plus cantrip; does not grant flash to stolen creature cards, and Gonti's theft payoff remains lost.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Permanent noncreature flash permission across turns can extend stolen-spell timing and Breach stack windows. Counter-case: Three mana vulnerable creature versus Borne's two mana plus cantrip; does not grant flash to stolen creature cards, and Gonti's theft payoff remains lost.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Raven Guild Master",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "A successful 1/1 combat-damage hit exiles ten opposing cards, a very high Jester access ceiling.",
+      "named_cuts": [
+        "Plargg and Nassari"
+      ],
+      "incumbent_opportunity_cost": "Triple-blue-intensive 1UU body requires an unblocked hit, haste/evasion and Jester alive; the cEDH table can block or remove it.",
+      "commander_synergy": "A successful 1/1 combat-damage hit exiles ten opposing cards, a very high Jester access ceiling.",
+      "adversarial_downside": "Triple-blue-intensive 1UU body requires an unblocked hit, haste/evasion and Jester alive; the cEDH table can block or remove it.",
+      "judgment": "REJECT",
+      "reason": "A successful 1/1 combat-damage hit exiles ten opposing cards, a very high Jester access ceiling. Counter-case: Triple-blue-intensive 1UU body requires an unblocked hit, haste/evasion and Jester alive; the cEDH table can block or remove it.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Siphon Insight",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Two-mana instant exiles a selected top-two opposing card, then flashback repeats the effect; native indefinite play permission.",
+      "named_cuts": [
+        "Inside Information"
+      ],
+      "incumbent_opportunity_cost": "Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use.",
+      "commander_synergy": "Two-mana instant exiles a selected top-two opposing card, then flashback repeats the effect; native indefinite play permission.",
+      "adversarial_downside": "Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana instant exiles a selected top-two opposing card, then flashback repeats the effect; native indefinite play permission. Counter-case: Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Mindbreak Trap",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "A possible free storm/counter-stack answer against three-spell turns; exiles troublesome stack spells rather than countering.",
+      "named_cuts": [
+        "Bitter Ordeal"
+      ],
+      "incumbent_opportunity_cost": "Four mana outside a three-spell turn and does not source library-exile; Flusterstorm one blue with scalable copies is a more reliable protection density addition.",
+      "commander_synergy": "A possible free storm/counter-stack answer against three-spell turns; exiles troublesome stack spells rather than countering.",
+      "adversarial_downside": "Four mana outside a three-spell turn and does not source library-exile; Flusterstorm one blue with scalable copies is a more reliable protection density addition.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "A possible free storm/counter-stack answer against three-spell turns; exiles troublesome stack spells rather than countering. Counter-case: Four mana outside a three-spell turn and does not source library-exile; Flusterstorm one blue with scalable copies is a more reliable protection density addition.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Final Fortune",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "An extra turn can exploit cards under Jester's until-next-turn window and accelerate a Breach/Oracle assembled finish.",
+      "named_cuts": [
+        "Rite of Flame"
+      ],
+      "incumbent_opportunity_cost": "Double red and lose-the-game delayed trigger risk; cutting red ritual loses early mana needed for Jester and Breach rather than merely removing a slow top-end.",
+      "commander_synergy": "An extra turn can exploit cards under Jester's until-next-turn window and accelerate a Breach/Oracle assembled finish.",
+      "adversarial_downside": "Double red and lose-the-game delayed trigger risk; cutting red ritual loses early mana needed for Jester and Breach rather than merely removing a slow top-end.",
+      "judgment": "REJECT",
+      "reason": "An extra turn can exploit cards under Jester's until-next-turn window and accelerate a Breach/Oracle assembled finish. Counter-case: Double red and lose-the-game delayed trigger risk; cutting red ritual loses early mana needed for Jester and Breach rather than merely removing a slow top-end.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Uba Mask",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Symmetrical draw replacement produces library exile that can be leveraged in some owner-controlled spell/ability effects.",
+      "named_cuts": [
+        "Nalfeshnee"
+      ],
+      "incumbent_opportunity_cost": "Static replacement does not unconditionally grant Jester access, shuts off Remora/Rhystic/Necropotence draws and benefits opponents; historical owner rejection confirmed.",
+      "commander_synergy": "Symmetrical draw replacement produces library exile that can be leveraged in some owner-controlled spell/ability effects.",
+      "adversarial_downside": "Static replacement does not unconditionally grant Jester access, shuts off Remora/Rhystic/Necropotence draws and benefits opponents; historical owner rejection confirmed.",
+      "judgment": "REJECT",
+      "reason": "Symmetrical draw replacement produces library exile that can be leveraged in some owner-controlled spell/ability effects. Counter-case: Static replacement does not unconditionally grant Jester access, shuts off Remora/Rhystic/Necropotence draws and benefits opponents; historical owner rejection confirmed.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Memory Vessel",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Twenty-one opposing cards exiled at once can offer broad Jester access under a resolved five-mana artifact activation.",
+      "named_cuts": [
+        "Plargg and Nassari"
+      ],
+      "incumbent_opportunity_cost": "Five mana plus tap/sacrifice sorcery action, symmetrical opponent access to seven, and hand-spell lock; loses Plargg's free-cast ceiling, owner previously rejected.",
+      "commander_synergy": "Twenty-one opposing cards exiled at once can offer broad Jester access under a resolved five-mana artifact activation.",
+      "adversarial_downside": "Five mana plus tap/sacrifice sorcery action, symmetrical opponent access to seven, and hand-spell lock; loses Plargg's free-cast ceiling, owner previously rejected.",
+      "judgment": "REJECT",
+      "reason": "Twenty-one opposing cards exiled at once can offer broad Jester access under a resolved five-mana artifact activation. Counter-case: Five mana plus tap/sacrifice sorcery action, symmetrical opponent access to seven, and hand-spell lock; loses Plargg's free-cast ceiling, owner previously rejected.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Gríma, Saruman's Footman",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Unblockable repeatable instant/sorcery theft after connecting can feed Jester with attack access while removing small cards from opponents.",
+      "named_cuts": [
+        "Laughing Jasper Flint"
+      ],
+      "incumbent_opportunity_cost": "Requires dealing combat damage and only finds specific spell types; Flint creates outlaw-scaled theft from opposing libraries at upkeep with no hit requirement.",
+      "commander_synergy": "Unblockable repeatable instant/sorcery theft after connecting can feed Jester with attack access while removing small cards from opponents.",
+      "adversarial_downside": "Requires dealing combat damage and only finds specific spell types; Flint creates outlaw-scaled theft from opposing libraries at upkeep with no hit requirement.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Unblockable repeatable instant/sorcery theft after connecting can feed Jester with attack access while removing small cards from opponents. Counter-case: Requires dealing combat damage and only finds specific spell types; Flint creates outlaw-scaled theft from opposing libraries at upkeep with no hit requirement.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Cavern of Souls",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Make Jester uncounterable by naming Clown or Wizard and still pay one needed colored creature mana.",
+      "named_cuts": [
+        "Shivan Reef"
+      ],
+      "incumbent_opportunity_cost": "Outside Clown/Wizard creature casting provides only colorless; Reef always makes U or R and pays crucial noncreature spells, so can harm a three-color storm hand.",
+      "commander_synergy": "Make Jester uncounterable by naming Clown or Wizard and still pay one needed colored creature mana.",
+      "adversarial_downside": "Outside Clown/Wizard creature casting provides only colorless; Reef always makes U or R and pays crucial noncreature spells, so can harm a three-color storm hand.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Make Jester uncounterable by naming Clown or Wizard and still pay one needed colored creature mana. Counter-case: Outside Clown/Wizard creature casting provides only colorless; Reef always makes U or R and pays crucial noncreature spells, so can harm a three-color storm hand.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Jabs, Mistress of Mockery",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Could double abilities of stolen controlled permanents but adds a commander-adjacent future-release payoff.",
+      "named_cuts": [
+        "Wild-Magic Sorcerer"
+      ],
+      "incumbent_opportunity_cost": "Official not_legal in the Oct27 Oracle file, and this card is not one of the owner's two named Madcap project exceptions; cannot be added.",
+      "commander_synergy": "Could double abilities of stolen controlled permanents but adds a commander-adjacent future-release payoff.",
+      "adversarial_downside": "Official not_legal in the Oct27 Oracle file, and this card is not one of the owner's two named Madcap project exceptions; cannot be added.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Could double abilities of stolen controlled permanents but adds a commander-adjacent future-release payoff. Counter-case: Official not_legal in the Oct27 Oracle file, and this card is not one of the owner's two named Madcap project exceptions; cannot be added.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Grinding Station",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "One-mana Breach self-mill/LED loop support and repeatable outlet when sacrificing artifact tokens.",
+      "named_cuts": [
+        "Mox Opal"
+      ],
+      "incumbent_opportunity_cost": "Original M6 candidate cut of zero-cost colored Opal loses three-color acceleration; opponent mill/Jester replacement causation still not independently certified and this slot is not a clean direct upgrade.",
+      "commander_synergy": "One-mana Breach self-mill/LED loop support and repeatable outlet when sacrificing artifact tokens.",
+      "adversarial_downside": "Original M6 candidate cut of zero-cost colored Opal loses three-color acceleration; opponent mill/Jester replacement causation still not independently certified and this slot is not a clean direct upgrade.",
+      "judgment": "REJECT",
+      "reason": "One-mana Breach self-mill/LED loop support and repeatable outlet when sacrificing artifact tokens. Counter-case: Original M6 candidate cut of zero-cost colored Opal loses three-color acceleration; opponent mill/Jester replacement causation still not independently certified and this slot is not a clean direct upgrade.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    },
+    {
+      "card": "Hullbreaker Horror",
+      "source": "Oct27 EDHREC commander / bracket5 / theft and exile pages, public 2026-10-27 Scryfall Oracle bulk and recorded M6/Pass C source review and source-indexed M5 alternatives",
+      "role": "Potential late-game cast-trigger bounce lock and broad emergency stabilization.",
+      "named_cuts": [
+        "Deadly Rollick"
+      ],
+      "incumbent_opportunity_cost": "Seven mana with no native library exile; deleting free conditional removal endangers early Jester and Oracle lines, an unsound selected incumbent cut.",
+      "commander_synergy": "Potential late-game cast-trigger bounce lock and broad emergency stabilization.",
+      "adversarial_downside": "Seven mana with no native library exile; deleting free conditional removal endangers early Jester and Oracle lines, an unsound selected incumbent cut.",
+      "judgment": "REJECT",
+      "reason": "Potential late-game cast-trigger bounce lock and broad emergency stabilization. Counter-case: Seven mana with no native library exile; deleting free conditional removal endangers early Jester and Oracle lines, an unsound selected incumbent cut.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/the-madcap-jester",
+        "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+        "https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Opposition Agent",
+      "Black Widow, Super Spy",
+      "Grimoire Thief",
+      "Borne Upon a Wind",
+      "Hexing Squelcher",
+      "Gloomlake Verge",
+      "Flusterstorm"
+    ],
+    "cuts": [
+      "Sire of Stagnation",
+      "Nalfeshnee",
+      "Plargg and Nassari",
+      "Gonti, Night Minister",
+      "Wild-Magic Sorcerer",
+      "Drowned Catacomb",
+      "Bitter Ordeal"
+    ],
+    "coherent_package_tradeoff": "The seven simultaneous substitutions lower the average payable exile/interaction setup, add direct library exile (Widow/Thief) and real flash/search/counter protection, while preserving exact 34-land UBR access, source exceptions, high-lift direct library exile and two compact finish families. Lost big-creature recursive copy/landfall/upkeep theft ceilings and the exact Bitter Ordeal search are priced explicitly; the complete package is commander-first even with a Bracket5 combo backup."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Sire of Stagnation",
+        "weakness": "Flash search interception at three mana can steal the searched card and stop a cEDH tutor/fetch line before six-mana Sire ever takes a landfall turn.",
+        "alternative_named": "Opposition Agent",
+        "reasoning": "Sire exiles two cards and draws two on every opposing land entry; Agent is reactive and search-dependent. No automatic Jester trigger from Agent is assumed."
+      },
+      {
+        "card": "Nalfeshnee",
+        "weakness": "Two-mana menace creates a cheap opposing-library exile-on-hit threat. Its until-nonland reveal may exile multiple cards that Jester can play through the next turn.",
+        "alternative_named": "Black Widow, Super Spy",
+        "reasoning": "Widow needs actual combat damage and waiting through summoning sickness; Nalfeshnee copies every exile-cast spell and gives token copies haste at six mana."
+      },
+      {
+        "card": "Plargg and Nassari",
+        "weakness": "A two-mana tapped-on-attack exile-three engine can feed Jester without requiring combat damage, rather than waiting a five-mana upkeep cycle.",
+        "alternative_named": "Grimoire Thief",
+        "reasoning": "Double-blue development and Jester-on-battlefield timing matter; Plargg can cast up to two free spells even without Jester and exiles across players."
+      },
+      {
+        "card": "Gonti, Night Minister",
+        "weakness": "Two-mana cantrip grants flash to stolen sorceries and other spells for the full turn, making Jester's finite permission usable across opponent-turn windows and protecting combo sequencing.",
+        "alternative_named": "Borne Upon a Wind",
+        "reasoning": "Gonti creates Treasures on stolen casts and repeated combat exile, although it can grant an opposing attacker a stolen card too; Borne is one-turn only."
+      },
+      {
+        "card": "Wild-Magic Sorcerer",
+        "weakness": "An uncounterable two-mana creature protects the commander spell and every stolen/combo spell from counters and adds pay-two-life ward to other creatures.",
+        "alternative_named": "Hexing Squelcher",
+        "reasoning": "It does not prevent removal or counter triggered abilities; Sorcerer instead cascades the first exile-cast spell each turn but requires four mana."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Unconditionally taps for blue when developing early protection/Jester, with black once any Island or Swamp is present; Catacomb can enter tapped without one.",
+        "alternative_named": "Gloomlake Verge",
+        "reasoning": "Verge may not tap for black in an early hand with no Island/Swamp, while Catacomb produces both colors once untapped."
+      },
+      {
+        "card": "Bitter Ordeal",
+        "weakness": "One-blue storm counter protects threatened exile/combo turns and contests opposing Ad Nauseam, tutors or Breach, while the existing Extract/Sacrament/Cap/Scepter/Praetor package still searches libraries.",
+        "alternative_named": "Flusterstorm",
+        "reasoning": "Loses Bitter Ordeal's directly chosen opponent-library card and gravestorm copies, particularly powerful in sacrifice-heavy turns."
+      },
+      {
+        "card": "Jester's Cap",
+        "weakness": "Two plus two mana removes one named combo card from a searched opponent's hand/library/grave; a two-mana cheaper upfront deployment and useful while commander absent.",
+        "alternative_named": "The Stone Brain",
+        "reasoning": "Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards."
+      },
+      {
+        "card": "Sulfurous Springs",
+        "weakness": "Spent red mana from its exerted two-red activation grants Jester haste immediately upon casting and can improve first-attack access.",
+        "alternative_named": "Arena of Glory",
+        "reasoning": "Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding."
+      },
+      {
+        "card": "Circu, Dimir Lobotomist",
+        "weakness": "Choosing Wizard or Clown adds a second Jester attack-exile trigger whenever he attacks; ward two buys some resilience.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis."
+      },
+      {
+        "card": "Inside Information",
+        "weakness": "Two-mana instant exiles a selected top-two opposing card, then flashback repeats the effect; native indefinite play permission.",
+        "alternative_named": "Siphon Insight",
+        "reasoning": "Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use."
+      },
+      {
+        "card": "Shivan Reef",
+        "weakness": "Make Jester uncounterable by naming Clown or Wizard and still pay one needed colored creature mana.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Outside Clown/Wizard creature casting provides only colorless; Reef always makes U or R and pays crucial noncreature spells, so can harm a three-color storm hand."
+      },
+      {
+        "card": "Rite of Flame",
+        "weakness": "An extra turn can exploit cards under Jester's until-next-turn window and accelerate a Breach/Oracle assembled finish.",
+        "alternative_named": "Final Fortune",
+        "reasoning": "Double red and lose-the-game delayed trigger risk; cutting red ritual loses early mana needed for Jester and Breach rather than merely removing a slow top-end."
+      }
+    ],
+    "off_ranked_opportunities": "EDHREC non-cEDH High Lift Grimoire Thief and Black Widow; cEDH Borne/Squelcher/Fluster/Opp Agent; OFF-RANKING Stone Brain, Roaming Throne, Samut, Arena and Valley Floodcaller investigated alongside original M5 holds. No arbitrary rank cutoff or five-swap stop.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Opposition Agent",
+          "Black Widow, Super Spy",
+          "Grimoire Thief",
+          "Borne Upon a Wind",
+          "Hexing Squelcher",
+          "Gloomlake Verge",
+          "Flusterstorm",
+          "The Stone Brain"
+        ],
+        "cuts": [
+          "Sire of Stagnation",
+          "Nalfeshnee",
+          "Plargg and Nassari",
+          "Gonti, Night Minister",
+          "Wild-Magic Sorcerer",
+          "Drowned Catacomb",
+          "Bitter Ordeal",
+          "Jester's Cap"
+        ],
+        "result_and_rationale": "Full 100 alt8 source and SHA: faster single-name artifact line but loses three-card identity exile engine and instant use."
+      },
+      {
+        "adds": [
+          "Opposition Agent",
+          "Black Widow, Super Spy",
+          "Grimoire Thief",
+          "Borne Upon a Wind",
+          "Hexing Squelcher",
+          "Gloomlake Verge",
+          "Flusterstorm",
+          "The Stone Brain",
+          "Arena of Glory"
+        ],
+        "cuts": [
+          "Sire of Stagnation",
+          "Nalfeshnee",
+          "Plargg and Nassari",
+          "Gonti, Night Minister",
+          "Wild-Magic Sorcerer",
+          "Drowned Catacomb",
+          "Bitter Ordeal",
+          "Jester's Cap",
+          "Sulfurous Springs"
+        ],
+        "result_and_rationale": "Full 100 alt9 source and SHA: add immediate-haste axis, but lose dependable black/red fixing, risk tapped entry and next-turn exert lock."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Revisited M5 Grinding Station/Mox Opal with slow-payoff alternative: still no independent causal Jester proof for Dauthi-replaced opponent mill and weak loss of 0-cost colored Opal. Hullbreaker Horror/Deadly Rollick fails urgent creature answer; Talismans over Rite/Petal weaken bursts.",
+    "strongest_argument_against_baseline": "Six- and five-mana permanent payoffs eat turns before creating any exile while Jester is a four-mana fragile 3/2 and opponent's tutor can win earlier; an M6 keep due weak effect-sparse simulation ignores lower-cost identity-positive substitutions.",
+    "evidence_based_answer": "Seven actual upgrades shorten engine setup and protect Jester while keeping ten-plus opposing-library exile/leverage lines. The strongest proposed eighth/ninth options genuinely cost the deck three-card targeted library access and/or three-color mana reliability, so they remain SHA-bound alternatives, not fake extra improvements."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/The_Madcap_Jester_M7_Rev1.txt",
+    "sha256": "643eb1cc4827c1dd95485e9922506b514746e6bbc5b4b8a4cfff0f44b1007e43",
+    "card_count": 100,
+    "deckwide_reconciliation": "100 physical / 100 distinct, 34 lands, one commander, no companion, 92 unchanged noncommander copies and seven true one-for-one additions/cuts; both complete rejected alternatives also 100/100. Raw UTF-8 bytes include a final LF and no CR."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/madcap_jester_rev1/The_Madcap_Jester_Oct15_baseline.txt",
+      "data/grixis/m7/madcap_jester_rev1/verify.py",
+      "data/grixis/m7/decision_reviews/The_Madcap_Jester_M7_Rev1_99slot_ledger.csv",
+      "data/grixis/m6/deep_reviews/The_Madcap_Jester.md",
+      "data/grixis/m6/owner_pass_c_substitute/The_Madcap_Jester/final_disposition.md",
+      "data/grixis/m6/ij/input_receipts/the-madcap-jester.json"
+    ],
+    "power_bracket": 5,
+    "archidekt_tags": [
+      "Exile Theft",
+      "Library Control",
+      "Grixis Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After the seven selected changes, every retained historical noncommander slot was revisited via 99-slot ledger. Exact remaining live challenges include Jester's Cap versus The Stone Brain, Sulfurous Springs versus Arena of Glory, Circu versus Roaming Throne, Inside Information versus Siphon Insight, Shivan Reef versus Cavern of Souls, Rite of Flame versus Final Fortune and tutor/zero-mana acceleration versus older M5 challenges. No card count was chosen in advance; big Jester Cap and rare Dragon's Smile are consciously protected despite mana cost.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Jester's Cap",
+        "challenger": "The Stone Brain",
+        "tradeoff": "Cap removes three individually chosen cards, has instant-speed activation, and can grant Jester access to three at once; Brain is sorcery-only and in singleton may find zero library cards.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Sulfurous Springs",
+        "challenger": "Arena of Glory",
+        "tradeoff": "Enters tapped without a Mountain, red-only instead of BR, expends one red to activate and misses the next untap. Less reliable three-color and black tutor funding.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Circu, Dimir Lobotomist",
+        "challenger": "Roaming Throne",
+        "tradeoff": "Four mana plus an attack without haste; Circu independently makes top-card exile on each blue/black cast and has a same-name suppression axis.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Inside Information",
+        "challenger": "Siphon Insight",
+        "tradeoff": "Inside Information's X scalable exile hits many opponent-library cards and life-for-mana cast can convert the whole Jester engine; Siphon only exiles one per use.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Madcap_Jester_M7_Rev1_alt8.txt",
+        "sha256": "65c548d31e38e11ff05d66404720bb322275d751b953f3a6eee357a254a93c34",
+        "adds": [
+          "Opposition Agent",
+          "Black Widow, Super Spy",
+          "Grimoire Thief",
+          "Borne Upon a Wind",
+          "Hexing Squelcher",
+          "Gloomlake Verge",
+          "Flusterstorm",
+          "The Stone Brain"
+        ],
+        "cuts": [
+          "Sire of Stagnation",
+          "Nalfeshnee",
+          "Plargg and Nassari",
+          "Gonti, Night Minister",
+          "Wild-Magic Sorcerer",
+          "Drowned Catacomb",
+          "Bitter Ordeal",
+          "Jester's Cap"
+        ],
+        "case_for_extra_swaps": "Replacing six-mana Cap total cast/activation with four-mana Stone Brain cast/activation makes single-name suppression and early targeted exile more achievable at cEDH pace.",
+        "why_not_selected": "Cap can select THREE DIFFERENT opposing library cards at instant-speed activation and give Jester access to all three; Brain names one card and can miss if in hand/grave. Losing a signature library-tutoring engine is worse than the speed gain here."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Madcap_Jester_M7_Rev1_alt9.txt",
+        "sha256": "fd4ea044323ce9cffd7952ca6e97fc052a7ea7c92f3438fd331957e366d7b83d",
+        "adds": [
+          "Opposition Agent",
+          "Black Widow, Super Spy",
+          "Grimoire Thief",
+          "Borne Upon a Wind",
+          "Hexing Squelcher",
+          "Gloomlake Verge",
+          "Flusterstorm",
+          "The Stone Brain",
+          "Arena of Glory"
+        ],
+        "cuts": [
+          "Sire of Stagnation",
+          "Nalfeshnee",
+          "Plargg and Nassari",
+          "Gonti, Night Minister",
+          "Wild-Magic Sorcerer",
+          "Drowned Catacomb",
+          "Bitter Ordeal",
+          "Jester's Cap",
+          "Sulfurous Springs"
+        ],
+        "case_for_extra_swaps": "Add Arena of Glory's exert-produced haste to a hypothetical faster Stone Brain exile package, increasing same-turn Jester attack potential with a fewer-colors land configuration.",
+        "why_not_selected": "Requires an initial red payment, may enter tapped without Mountain, does not produce black, and loses Sulfurous Springs reliable BR early development; combines the Cap loss with a commander-color bottleneck."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "Stop after source-paid comparative value: the chosen seven provide practical two-/three-mana exile and robust stack/commander protection while retaining 34 reliable lands and key targeted library theft. Staged real eight- and nine-swap candidate lists each worsen unique multi-card selection or early UBR color access, and additional Roaming/Siphon/Raven/M5 engines demand attack-hit or more turns without preserving the current targeted exile suite. Neither a fixed swap ceiling nor an unsupported simulator winner drove this judgment."
+  }
+}
