@@ -1,0 +1,28 @@
+name: M7 Deck 47 RogSi Rev1 exact-source
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-rogsi-rev1.yml
+      - data/grixis/m7/rogsi_rev1/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-rogsi-rev1-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Checkout exact PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate preserved source and exact 100-card M7 Rev1
+        run: python data/grixis/m7/rogsi_rev1/verify_rogsi_rev1.py
