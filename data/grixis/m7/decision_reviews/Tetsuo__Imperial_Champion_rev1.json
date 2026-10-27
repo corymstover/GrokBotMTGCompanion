@@ -1,0 +1,981 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "canonical_baseline_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+  "canonical_baseline_logical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+  "commander_identity": {
+    "mechanical_plan": "Tetsuo Imperial attacks EQUIPPED for a chosen noncombat burn based on highest attached Equipment MV or casts a matching MV instant/sorcery from hand for free. Multiple extra combats, attachment cheats and a tightly integrated poison/burn Equipment kill remain the engine.",
+    "protected_core": [
+      "Tetsuo, Imperial Champion",
+      "Excalibur, Sword of Eden",
+      "Kaldra Compleat",
+      "Embercleave",
+      "Genji Glove",
+      "Hexplate Wallbreaker",
+      "Brass Squire",
+      "Hammer of Nazahn",
+      "Blacksmith's Talent",
+      "Buster Sword",
+      "Basilisk Collar",
+      "Aggravated Assault",
+      "Sword of Feast and Famine",
+      "Savage Beating",
+      "World at War",
+      "Ancestral Vision",
+      "Profane Tutor",
+      "Wheel of Fate",
+      "Inevitable Betrayal",
+      "Chandra's Ignition",
+      "Godo, Bandit Warlord",
+      "Oathkeeper, Takeno's Daisho",
+      "Swiftfoot Boots"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized. A three-color commander needs Equipment preattached, exposed attacks and hand spells; lethal infect/extra combat pressure is powerful but interactable and not a generic cEDH backup.",
+    "anti_homogenization": "No Thoracle/Consult, Ad Nauseam, Breach, deterministic combo pile or unconnected Grixis goodstuff. Tutors, mana, protection and draw must accelerate Tetsuo's Equipment attack / free-cast / noncombat damage route."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "99/99 original library physical slots independently reconciled in companion 99-slot ledger using authored source annotations plus current-cycle judgments: 86 KEEP / 13 CUT. Expensive high-MV Equipment and their attach cheats are protected; interaction, free-cast payloads, extra-combat timings and red/blue/black mana were challenged. New infect and doubled damage are conditional commander-native wins, not generic unrelated combos.",
+    "mana_base_and_curve": "35 land cards unchanged. Canonical 5 Island/4 Mountain/3 Swamp become 4 Island/4 Mountain/2 Swamp, with +Otawara and +Shizo; always-tapped/conditional Smoldering Marsh becomes City of Brass. Three-color commander cost UBR; City removes a tapped/fetchable bottleneck, Otawara/Shizo offer colored utility; two fewer fetchable basics increase nonbasic hate exposure. Existing Arcane Signet, Sol Ring, three signets/three talismans, Ancient Tomb and typed dual/fetch land access retained.",
+    "interaction_resilience": "Keep Force of Will, Fierce Guardianship, Deflecting Swat, Cyclonic Rift, Chaos Warp, Withering Torment, Blasphemous Act, Chandra's Ignition, Mithril Coat and Swiftfoot Boots. Trading Terminate for Tutor cuts a cheap creature kill, offset by Drach'Nyen ETB exile and Mjolnir ETB creature damage; missing untargeted artifact hate remains an enemy risk.",
+    "weakest_slots": [
+      {
+        "card": "Akki Battle Squad",
+        "weakness": "The exact baseline's Akki Battle Squad is weaker in Tetsuo's new 13-swap physical package; Karlach costs five rather than six, grants first strike and works without checking modification; trades away a Samurai body.",
+        "alternative_named": "Karlach, Fury of Avernus",
+        "reasoning": "Costs five and can draw removal; unlike Akki, isn't a Samurai for Godo's Samurai untap."
+      },
+      {
+        "card": "Argentum Armor",
+        "weakness": "The exact baseline's Argentum Armor is weaker in Tetsuo's new 13-swap physical package; Both equipment are MV6, but Drach'Nyen exiles an enemy creature on entry and equips for two; lose repeatable any-permanent destruction.",
+        "alternative_named": "Drach'Nyen",
+        "reasoning": "No longer destroy an arbitrary permanent on repeated combat like Argentum Armor."
+      },
+      {
+        "card": "Brainstorm",
+        "weakness": "The exact baseline's Brainstorm is weaker in Tetsuo's new 13-swap physical package; A normal main-phase Will accelerates equipment, and free-casting during attack grants end-turn access to three cards; attack-step red mana cannot be banked for the main.",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "Combat-phase red mana empties before main and exiled cards obey normal timing; loses one-blue Brainstorm fixing."
+      },
+      {
+        "card": "Heiko Yamazaki, the General",
+        "weakness": "The exact baseline's Heiko Yamazaki, the General is weaker in Tetsuo's new 13-swap physical package; Firion supplies haste and duplicates nonlegendary equipment for a turn to reduce equip costs; loses persistent artifact recursion.",
+        "alternative_named": "Firion, Wild Rose Warrior",
+        "reasoning": "Heiko's permanent artifact graveyard access is lost; legendary Equipment copies conflict with legend rule and token sacrifices next upkeep."
+      },
+      {
+        "card": "Island",
+        "weakness": "The exact baseline's Island is weaker in Tetsuo's new 13-swap physical package; Untapped U land offers discounted legend-enabled bounce interaction; loses a fetchable basic.",
+        "alternative_named": "Otawara, Soaring City",
+        "reasoning": "Nonbasic fails basic fetch/anti-nonbasic effects and bounce can cost mana."
+      },
+      {
+        "card": "Kediss, Emberclaw Familiar",
+        "weakness": "The exact baseline's Kediss, Emberclaw Familiar is weaker in Tetsuo's new 13-swap physical package; Kediss only spreads combat damage, not Tetsuo's attack-trigger burn; Strike can give that burn infect in response for a lethal 10-poison line.",
+        "alternative_named": "Tainted Strike",
+        "reasoning": "Needs open B/priority and a legal targeting window; cannot deal damage and free-cast Strike from the same Tetsuo trigger."
+      },
+      {
+        "card": "Smoldering Marsh",
+        "weakness": "The exact baseline's Smoldering Marsh is weaker in Tetsuo's new 13-swap physical package; Any-color untapped mana improves three-color setup; costs life and loses a typed fetch target.",
+        "alternative_named": "City of Brass",
+        "reasoning": "Life paid on each tap and nonbasic vulnerability replace typed/fetchable fixing."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "The exact baseline's Swamp is weaker in Tetsuo's new 13-swap physical package; Untapped B plus one-mana legendary fear helps commander land combat-damage Equipment triggers; loses basic Swamp fetch/resilience.",
+        "alternative_named": "Shizo, Death's Storehouse",
+        "reasoning": "Fear still fails against black/artifact blockers and the Swamp basic count decreases."
+      },
+      {
+        "card": "Sword of Fire and Ice",
+        "weakness": "The exact baseline's Sword of Fire and Ice is weaker in Tetsuo's new 13-swap physical package; Mjölnir is attachable to red legendary Tetsuo for one and doubles his attack-trigger damage; lose on-hit draw and two damage.",
+        "alternative_named": "Mjölnir, Hammer of Thor",
+        "reasoning": "Does not draw a card on player contact as Sword of Fire and Ice does; only four MV."
+      },
+      {
+        "card": "Terminate",
+        "weakness": "The exact baseline's Terminate is weaker in Tetsuo's new 13-swap physical package; Tutor can find exact Equipment, attach cheat, infect payoff or protection; lose efficient two-mana creature removal.",
+        "alternative_named": "Demonic Tutor",
+        "reasoning": "Sacrifices a cheap creature answer before Tetsuo is online; tutor is not itself a board answer."
+      },
+      {
+        "card": "The Reality Chip",
+        "weakness": "The exact baseline's The Reality Chip is weaker in Tetsuo's new 13-swap physical package; Infect makes Tetsuo's triggered noncombat damage a direct poison win route; loses top-deck spell access and gains unattach-sacrifice risk.",
+        "alternative_named": "Grafted Exoskeleton",
+        "reasoning": "Destroying or moving the Equipment sacrifices its formerly equipped permanent; requires protection."
+      },
+      {
+        "card": "Vorpal Sword",
+        "weakness": "The exact baseline's Vorpal Sword is weaker in Tetsuo's new 13-swap physical package; R instant can attach expensive Equipment to Tetsuo before attack even without equip activation; loses eight-mana hit-to-kill activation.",
+        "alternative_named": "Magnetic Theft",
+        "reasoning": "Needs Equipment in play, a creature target, and a card in hand; no Equipment fetch."
+      },
+      {
+        "card": "Winged Boots",
+        "weakness": "The exact baseline's Winged Boots is weaker in Tetsuo's new 13-swap physical package; Equip legendary one gives unblockable and ward two; loses flying and the larger ward from Winged Boots.",
+        "alternative_named": "Brotherhood Regalia",
+        "reasoning": "Ward is only two versus Winged Boots' stronger protection and does not preserve flying."
+      },
+      {
+        "card": "Padeem, Consul of Innovation",
+        "weakness": "Four-mana protective artifact creature is challenged by a three-mana extra-combat body, but protection matters against repeated artifact removal.",
+        "alternative_named": "Combat Celebrant",
+        "reasoning": "Retain: Padeem provides artifact hexproof and can draw with the largest Equipment, while Celebrant often cannot attack safely."
+      },
+      {
+        "card": "Basilisk Collar",
+        "weakness": "A low-MV collar caps free casts if attached alone, so Shadowspear's trample and indestructible-stripping is credible.",
+        "alternative_named": "Shadowspear",
+        "reasoning": "Retain: Collar converts Tetsuo's NONCOMBAT attack-trigger damage to deathtouch/lifelink, especially to neutralize gigantic blockers."
+      },
+      {
+        "card": "Sword of the Animist",
+        "weakness": "Attack-based land ramp is slow and requires connecting or at least attacking with attachment; Bitterthorn creates an incidental creature.",
+        "alternative_named": "Bitterthorn, Nissa's Animus",
+        "reasoning": "Retain: Sword is already a cheap attachable two-mana ramp piece; Bitterthorn duplicates the same role without a conclusive upgrade."
+      }
+    ],
+    "current_baseline_strength": "The October15 100 is a real Bracket4 Equipment/free-spell shell with 35 lands, 91 names and 12 well-founded historical swaps. M6 deep review, Grok prior-involved advisory and formal owner-equivalent Pass C all KEPT it under narrower evidence; none completed the post-floor live EDHREC and infect/double-damage search required in October27 M7.",
+    "candidate_pool_scope": "Current EDHREC Oct27 optimized bracket4 Top Cards and High Lift, optimized/equipment subpage (18-20 low sample) and off-ranking current Scryfall candidates inspected beyond initial 13. 25 distinct current material decisions, 16 physical incumbent challenges, alternative 14 and 15 whole-100 decks, interaction and true opportunity-cost stopping rationale. Prior 44 M5 candidate pairs and current M6 plan/advisory reused without granting old KEEP binding authority.",
+    "off_ranked_search_conclusion": "Important new synergy missed by the old candidate pool: Magnetic Theft instant attach R, Firion one-turn Equipment copy + haste, Mjolnir damage doubling even for Tetsuo ability, Grafted Exoskeleton infect for NONCOMBAT attack burn, and Tainted Strike B response. Test pitfalls include legend rule copies, Exoskeleton unattach sacrifice, Savage Beating entwine payment, World at War timing, and Jeska combat mana emptying."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized — 2026-10-27, bracket4 93 decks; Top Cards Hammer 81%, Swiftfoot 81%, Godo 71%, Brass Squire 62%; High Lift Firion 9%/219x, Gilgamesh 42%/207x, Magnetic Theft 48%/188x, Mjolnir 32%/74x.",
+    "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment — 2026-10-27, 18-20 filtered decks with historical High Synergy not conflated with newer lift; Sword of Wealth and Power commonly selected, proposed and rejected on interaction-specific grounds.",
+    "OFF-RANKED Scryfall public Oracle Cards bulk dataset 2026-10-27T21:02:43.600+00:00, local 93-name comparison and material outsider ability Oracle fact checks; no user decklist submitted to third party.",
+    "data/grixis/m6/deep_reviews/Tetsuo__Imperial_Champion.md and data/grixis/m6/grokbot_pass_c_advisory/Tetsuo__Imperial_Champion.md; historical narrowed KEEP not treated as M7 conclusion.",
+    "data/grixis/m6/test_blueprints/Tetsuo__Imperial_Champion.json design 14 C/K/E/W/F cases (5 P0); data/grixis/m6/ij/input_receipts/tetsuo-imperial-champion.json input only, Phase B downstream unexecuted.",
+    "data/grixis/m7/decision_reviews/Tetsuo_Imperial_Champion_M7_Rev1_99slot_ledger.csv and data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py, local exact 100 and 18 scoped source/mana-state tests."
+  ],
+  "material_candidates": [
+    {
+      "card": "Karlach, Fury of Avernus",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Five-mana extra combat on first attack with creature untap/first strike, even if creature not modified",
+      "named_cuts": [
+        "Akki Battle Squad"
+      ],
+      "incumbent_opportunity_cost": "Costs five and can draw removal; unlike Akki, isn't a Samurai for Godo's Samurai untap.",
+      "commander_synergy": "Five-mana extra combat on first attack with creature untap/first strike, even if creature not modified",
+      "adversarial_downside": "Costs five and can draw removal; unlike Akki, isn't a Samurai for Godo's Samurai untap.",
+      "judgment": "SELECT_ADD",
+      "reason": "Karlach costs five rather than six, grants first strike and works without checking modification; trades away a Samurai body. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Drach'Nyen",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "MV6 ceiling, immediate creature exile on entering, equip two and menace/power scaling",
+      "named_cuts": [
+        "Argentum Armor"
+      ],
+      "incumbent_opportunity_cost": "No longer destroy an arbitrary permanent on repeated combat like Argentum Armor.",
+      "commander_synergy": "MV6 ceiling, immediate creature exile on entering, equip two and menace/power scaling",
+      "adversarial_downside": "No longer destroy an arbitrary permanent on repeated combat like Argentum Armor.",
+      "judgment": "SELECT_ADD",
+      "reason": "Both equipment are MV6, but Drach'Nyen exiles an enemy creature on entry and equips for two; lose repeatable any-permanent destruction. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Jeska's Will",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Hard-cast in precombat main supplies red ramp; attack-trigger free-cast accesses top three until end turn",
+      "named_cuts": [
+        "Brainstorm"
+      ],
+      "incumbent_opportunity_cost": "Combat-phase red mana empties before main and exiled cards obey normal timing; loses one-blue Brainstorm fixing.",
+      "commander_synergy": "Hard-cast in precombat main supplies red ramp; attack-trigger free-cast accesses top three until end turn",
+      "adversarial_downside": "Combat-phase red mana empties before main and exiled cards obey normal timing; loses one-blue Brainstorm fixing.",
+      "judgment": "SELECT_ADD",
+      "reason": "A normal main-phase Will accelerates equipment, and free-casting during attack grants end-turn access to three cards; attack-step red mana cannot be banked for the main. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Firion, Wild Rose Warrior",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Three mana grants all equipped creatures haste and a temporary copy of each nontoken Equipment ETB",
+      "named_cuts": [
+        "Heiko Yamazaki, the General"
+      ],
+      "incumbent_opportunity_cost": "Heiko's permanent artifact graveyard access is lost; legendary Equipment copies conflict with legend rule and token sacrifices next upkeep.",
+      "commander_synergy": "Three mana grants all equipped creatures haste and a temporary copy of each nontoken Equipment ETB",
+      "adversarial_downside": "Heiko's permanent artifact graveyard access is lost; legendary Equipment copies conflict with legend rule and token sacrifices next upkeep.",
+      "judgment": "SELECT_ADD",
+      "reason": "Firion supplies haste and duplicates nonlegendary equipment for a turn to reduce equip costs; loses persistent artifact recursion. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Otawara, Soaring City",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Untapped blue source and channel bounce at a discount with a legend in play",
+      "named_cuts": [
+        "Island"
+      ],
+      "incumbent_opportunity_cost": "Nonbasic fails basic fetch/anti-nonbasic effects and bounce can cost mana.",
+      "commander_synergy": "Untapped blue source and channel bounce at a discount with a legend in play",
+      "adversarial_downside": "Nonbasic fails basic fetch/anti-nonbasic effects and bounce can cost mana.",
+      "judgment": "SELECT_ADD",
+      "reason": "Untapped U land offers discounted legend-enabled bounce interaction; loses a fetchable basic. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Tainted Strike",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "One black instant infect response to Tetsuo damage-mode trigger; MV>=10, or doubled 5+, can poison lethal",
+      "named_cuts": [
+        "Kediss, Emberclaw Familiar"
+      ],
+      "incumbent_opportunity_cost": "Needs open B/priority and a legal targeting window; cannot deal damage and free-cast Strike from the same Tetsuo trigger.",
+      "commander_synergy": "One black instant infect response to Tetsuo damage-mode trigger; MV>=10, or doubled 5+, can poison lethal",
+      "adversarial_downside": "Needs open B/priority and a legal targeting window; cannot deal damage and free-cast Strike from the same Tetsuo trigger.",
+      "judgment": "SELECT_ADD",
+      "reason": "Kediss only spreads combat damage, not Tetsuo's attack-trigger burn; Strike can give that burn infect in response for a lethal 10-poison line. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "City of Brass",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Unconditional untapped UBR access for a three-color commander and attaching spells",
+      "named_cuts": [
+        "Smoldering Marsh"
+      ],
+      "incumbent_opportunity_cost": "Life paid on each tap and nonbasic vulnerability replace typed/fetchable fixing.",
+      "commander_synergy": "Unconditional untapped UBR access for a three-color commander and attaching spells",
+      "adversarial_downside": "Life paid on each tap and nonbasic vulnerability replace typed/fetchable fixing.",
+      "judgment": "SELECT_ADD",
+      "reason": "Any-color untapped mana improves three-color setup; costs life and loses a typed fetch target. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Shizo, Death's Storehouse",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Untapped black land that can make legendary Tetsuo hard to block for combat-damage swords",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "Fear still fails against black/artifact blockers and the Swamp basic count decreases.",
+      "commander_synergy": "Untapped black land that can make legendary Tetsuo hard to block for combat-damage swords",
+      "adversarial_downside": "Fear still fails against black/artifact blockers and the Swamp basic count decreases.",
+      "judgment": "SELECT_ADD",
+      "reason": "Untapped B plus one-mana legendary fear helps commander land combat-damage Equipment triggers; loses basic Swamp fetch/resilience. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Mjölnir, Hammer of Thor",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Equip worthy one on red legendary Tetsuo; doubles the triggered burn or combat damage and removes creature on ETB",
+      "named_cuts": [
+        "Sword of Fire and Ice"
+      ],
+      "incumbent_opportunity_cost": "Does not draw a card on player contact as Sword of Fire and Ice does; only four MV.",
+      "commander_synergy": "Equip worthy one on red legendary Tetsuo; doubles the triggered burn or combat damage and removes creature on ETB",
+      "adversarial_downside": "Does not draw a card on player contact as Sword of Fire and Ice does; only four MV.",
+      "judgment": "SELECT_ADD",
+      "reason": "Mjölnir is attachable to red legendary Tetsuo for one and doubles his attack-trigger damage; lose on-hit draw and two damage. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Demonic Tutor",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Find high-MV gear, repeat combats, infect or a needed attachment effect",
+      "named_cuts": [
+        "Terminate"
+      ],
+      "incumbent_opportunity_cost": "Sacrifices a cheap creature answer before Tetsuo is online; tutor is not itself a board answer.",
+      "commander_synergy": "Find high-MV gear, repeat combats, infect or a needed attachment effect",
+      "adversarial_downside": "Sacrifices a cheap creature answer before Tetsuo is online; tutor is not itself a board answer.",
+      "judgment": "SELECT_ADD",
+      "reason": "Tutor can find exact Equipment, attach cheat, infect payoff or protection; lose efficient two-mana creature removal. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Grafted Exoskeleton",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Four-mana-value Equipment gives the commander damage-mode infect for a poison route",
+      "named_cuts": [
+        "The Reality Chip"
+      ],
+      "incumbent_opportunity_cost": "Destroying or moving the Equipment sacrifices its formerly equipped permanent; requires protection.",
+      "commander_synergy": "Four-mana-value Equipment gives the commander damage-mode infect for a poison route",
+      "adversarial_downside": "Destroying or moving the Equipment sacrifices its formerly equipped permanent; requires protection.",
+      "judgment": "SELECT_ADD",
+      "reason": "Infect makes Tetsuo's triggered noncombat damage a direct poison win route; loses top-deck spell access and gains unattach-sacrifice risk. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Magnetic Theft",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "One-red instant attachment of expensive Equipment before combat without equip tax",
+      "named_cuts": [
+        "Vorpal Sword"
+      ],
+      "incumbent_opportunity_cost": "Needs Equipment in play, a creature target, and a card in hand; no Equipment fetch.",
+      "commander_synergy": "One-red instant attachment of expensive Equipment before combat without equip tax",
+      "adversarial_downside": "Needs Equipment in play, a creature target, and a card in hand; no Equipment fetch.",
+      "judgment": "SELECT_ADD",
+      "reason": "R instant can attach expensive Equipment to Tetsuo before attack even without equip activation; loses eight-mana hit-to-kill activation. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Brotherhood Regalia",
+      "source": "EDHREC Oct27 2026 commander Top Cards/High Lift or off-ranking Scryfall Oracle discovery, cross-compared to Oct15 exact canonical source",
+      "role": "Unblockable carrier access at equip one",
+      "named_cuts": [
+        "Winged Boots"
+      ],
+      "incumbent_opportunity_cost": "Ward is only two versus Winged Boots' stronger protection and does not preserve flying.",
+      "commander_synergy": "Unblockable carrier access at equip one",
+      "adversarial_downside": "Ward is only two versus Winged Boots' stronger protection and does not preserve flying.",
+      "judgment": "SELECT_ADD",
+      "reason": "Equip legendary one gives unblockable and ward two; loses flying and the larger ward from Winged Boots. Result remains a commander-first improvement under the paid setup and enemy interaction constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Combat Celebrant",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Extra combat through a three-mana exert body that joins the attacking team",
+      "named_cuts": [
+        "Padeem, Consul of Innovation"
+      ],
+      "incumbent_opportunity_cost": "Fragile 4/1 must attack and survive setup; replacing Padeem loses artifact hexproof and high-MV draw.",
+      "commander_synergy": "Extra combat through a three-mana exert body that joins the attacking team",
+      "adversarial_downside": "Fragile 4/1 must attack and survive setup; replacing Padeem loses artifact hexproof and high-MV draw.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Fragile 4/1 must attack and survive setup; replacing Padeem loses artifact hexproof and high-MV draw. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Sword of Wealth and Power",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Treasure and a follow-up instant/sorcery copy on player connection",
+      "named_cuts": [
+        "Chandra's Ignition"
+      ],
+      "incumbent_opportunity_cost": "Protection from instants/sorceries makes Tetsuo an illegal target for Tainted Strike and Chandra's Ignition; also requires connecting.",
+      "commander_synergy": "Treasure and a follow-up instant/sorcery copy on player connection",
+      "adversarial_downside": "Protection from instants/sorceries makes Tetsuo an illegal target for Tainted Strike and Chandra's Ignition; also requires connecting.",
+      "judgment": "REJECT",
+      "reason": "Protection from instants/sorceries makes Tetsuo an illegal target for Tainted Strike and Chandra's Ignition; also requires connecting. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Shadowspear",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Lifelink/trample and remove opponents' hexproof/indestructible for one mana",
+      "named_cuts": [
+        "Basilisk Collar"
+      ],
+      "incumbent_opportunity_cost": "Loses deathtouch on Tetsuo's noncombat ability, a high-value way to kill huge creature threats with small Equipment.",
+      "commander_synergy": "Lifelink/trample and remove opponents' hexproof/indestructible for one mana",
+      "adversarial_downside": "Loses deathtouch on Tetsuo's noncombat ability, a high-value way to kill huge creature threats with small Equipment.",
+      "judgment": "REJECT",
+      "reason": "Loses deathtouch on Tetsuo's noncombat ability, a high-value way to kill huge creature threats with small Equipment. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Ultima Weapon",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "MV7 threshold and equipped attack target creature destruction",
+      "named_cuts": [
+        "Drach'Nyen"
+      ],
+      "incumbent_opportunity_cost": "Seven-mana cast and equip costs are worse than Drach'Nyen MV6 ETB exile and equip two, with narrower permanent targeting.",
+      "commander_synergy": "MV7 threshold and equipped attack target creature destruction",
+      "adversarial_downside": "Seven-mana cast and equip costs are worse than Drach'Nyen MV6 ETB exile and equip two, with narrower permanent targeting.",
+      "judgment": "REJECT",
+      "reason": "Seven-mana cast and equip costs are worse than Drach'Nyen MV6 ETB exile and equip two, with narrower permanent targeting. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Tatsumasa, the Dragon's Fang",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "MV6 equipment and +5 power; detachable 5/5 Dragon fallback",
+      "named_cuts": [
+        "Kaldra Compleat"
+      ],
+      "incumbent_opportunity_cost": "Six mana to cast and three to equip, less haste/immediate board impact than Kaldra's living weapon, trample, indestructible.",
+      "commander_synergy": "MV6 equipment and +5 power; detachable 5/5 Dragon fallback",
+      "adversarial_downside": "Six mana to cast and three to equip, less haste/immediate board impact than Kaldra's living weapon, trample, indestructible.",
+      "judgment": "REJECT",
+      "reason": "Six mana to cast and three to equip, less haste/immediate board impact than Kaldra's living weapon, trample, indestructible. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Bladegraft Aspirant",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Equipment discount plus equipped-body activated ability discounts",
+      "named_cuts": [
+        "Enthusiastic Mechanaut"
+      ],
+      "incumbent_opportunity_cost": "Costs three and its targeted equip discount only benefits Aspirant, not the commander; Mechanaut reduces all artifact casts and has haste/flying.",
+      "commander_synergy": "Equipment discount plus equipped-body activated ability discounts",
+      "adversarial_downside": "Costs three and its targeted equip discount only benefits Aspirant, not the commander; Mechanaut reduces all artifact casts and has haste/flying.",
+      "judgment": "REJECT",
+      "reason": "Costs three and its targeted equip discount only benefits Aspirant, not the commander; Mechanaut reduces all artifact casts and has haste/flying. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Renowned Weaponsmith",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Two colorless for casting artifacts and activating equip abilities",
+      "named_cuts": [
+        "Etherium Sculptor"
+      ],
+      "incumbent_opportunity_cost": "Tapped creature cannot pay colored equipment casting pips or Tetsuo UBR; delayed setup and tiny tutor targets, unlike Sculptor's global artifact reduction.",
+      "commander_synergy": "Two colorless for casting artifacts and activating equip abilities",
+      "adversarial_downside": "Tapped creature cannot pay colored equipment casting pips or Tetsuo UBR; delayed setup and tiny tutor targets, unlike Sculptor's global artifact reduction.",
+      "judgment": "REJECT",
+      "reason": "Tapped creature cannot pay colored equipment casting pips or Tetsuo UBR; delayed setup and tiny tutor targets, unlike Sculptor's global artifact reduction. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Umezawa's Jitte",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Low-cost combat damage counters for creature control and stat/life utility",
+      "named_cuts": [
+        "Basilisk Collar"
+      ],
+      "incumbent_opportunity_cost": "Needs combat connection and combat damage, while Basilisk Collar immediately turns Tetsuo's attack-trigger burn into deathtouch/lifelink.",
+      "commander_synergy": "Low-cost combat damage counters for creature control and stat/life utility",
+      "adversarial_downside": "Needs combat connection and combat damage, while Basilisk Collar immediately turns Tetsuo's attack-trigger burn into deathtouch/lifelink.",
+      "judgment": "REJECT",
+      "reason": "Needs combat connection and combat damage, while Basilisk Collar immediately turns Tetsuo's attack-trigger burn into deathtouch/lifelink. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Temporal Manipulation",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "A free extra turn with MV5 via Tetsuo's equipped attack",
+      "named_cuts": [
+        "World at War"
+      ],
+      "incumbent_opportunity_cost": "Strong but shifts payoff toward generic turn skipping; World at War provides combat-native untap and rebound while staying on-identity.",
+      "commander_synergy": "A free extra turn with MV5 via Tetsuo's equipped attack",
+      "adversarial_downside": "Strong but shifts payoff toward generic turn skipping; World at War provides combat-native untap and rebound while staying on-identity.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Strong but shifts payoff toward generic turn skipping; World at War provides combat-native untap and rebound while staying on-identity. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Expropriate",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Massive MV9 payoff with extra turns or permanent theft if Excalibur is attached",
+      "named_cuts": [
+        "Wheel of Fate"
+      ],
+      "incumbent_opportunity_cost": "Only reliable under printed MV12 Excalibur; otherwise stranded at nine mana and homogenizes away from combat/Equipment.",
+      "commander_synergy": "Massive MV9 payoff with extra turns or permanent theft if Excalibur is attached",
+      "adversarial_downside": "Only reliable under printed MV12 Excalibur; otherwise stranded at nine mana and homogenizes away from combat/Equipment.",
+      "judgment": "REJECT",
+      "reason": "Only reliable under printed MV12 Excalibur; otherwise stranded at nine mana and homogenizes away from combat/Equipment. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Helm of the Host",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Persistent token creatures from an equipped Tetsuo at beginning of combat",
+      "named_cuts": [
+        "Mithril Coat"
+      ],
+      "incumbent_opportunity_cost": "Equip five, first attack token enters unequipped so no attack trigger unless attached, and losing flash indestructible protection is too costly.",
+      "commander_synergy": "Persistent token creatures from an equipped Tetsuo at beginning of combat",
+      "adversarial_downside": "Equip five, first attack token enters unequipped so no attack trigger unless attached, and losing flash indestructible protection is too costly.",
+      "judgment": "REJECT",
+      "reason": "Equip five, first attack token enters unequipped so no attack trigger unless attached, and losing flash indestructible protection is too costly. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Bitterthorn, Nissa's Animus",
+      "source": "2026-10-27 EDHREC optimized equipment and high-lift discovery plus exact Scryfall bulk Oracle fact check",
+      "role": "Attack-based basic land ramp and an incidental body",
+      "named_cuts": [
+        "Sword of the Animist"
+      ],
+      "incumbent_opportunity_cost": "Same main role as retained Animist while creature token/cost tradeoffs do not solve high-MV attachment/poison threats; no clear full-list uplift.",
+      "commander_synergy": "Attack-based basic land ramp and an incidental body",
+      "adversarial_downside": "Same main role as retained Animist while creature token/cost tradeoffs do not solve high-MV attachment/poison threats; no clear full-list uplift.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Same main role as retained Animist while creature token/cost tradeoffs do not solve high-MV attachment/poison threats; no clear full-list uplift. Selected thirteen-swap version maintains stronger protected attack engine and source-paid access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized",
+        "https://edhrec.com/commanders/tetsuo-imperial-champion/optimized/equipment",
+        "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Karlach, Fury of Avernus",
+      "Drach'Nyen",
+      "Jeska's Will",
+      "Firion, Wild Rose Warrior",
+      "Otawara, Soaring City",
+      "Tainted Strike",
+      "City of Brass",
+      "Shizo, Death's Storehouse",
+      "Mjölnir, Hammer of Thor",
+      "Demonic Tutor",
+      "Grafted Exoskeleton",
+      "Magnetic Theft",
+      "Brotherhood Regalia"
+    ],
+    "cuts": [
+      "Akki Battle Squad",
+      "Argentum Armor",
+      "Brainstorm",
+      "Heiko Yamazaki, the General",
+      "Island",
+      "Kediss, Emberclaw Familiar",
+      "Smoldering Marsh",
+      "Swamp",
+      "Sword of Fire and Ice",
+      "Terminate",
+      "The Reality Chip",
+      "Vorpal Sword",
+      "Winged Boots"
+    ],
+    "coherent_package_tradeoff": "Thirteen swaps improve attach access, haste, poison/burn and double-damage attack modes, extra combats, top-card access/tutor, untapped/legend fixing and cheap high-MV removal. They lose some blue draw, a basic pair, a two-mana creature kill, a persistent artifact recursion line and a repeatable Argentum removal mode; those costs are quantified by named incumbents and high-counterplay scenarios, not concealed by the swap count."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Akki Battle Squad",
+        "weakness": "The exact baseline's Akki Battle Squad is weaker in Tetsuo's new 13-swap physical package; Karlach costs five rather than six, grants first strike and works without checking modification; trades away a Samurai body.",
+        "alternative_named": "Karlach, Fury of Avernus",
+        "reasoning": "Costs five and can draw removal; unlike Akki, isn't a Samurai for Godo's Samurai untap."
+      },
+      {
+        "card": "Argentum Armor",
+        "weakness": "The exact baseline's Argentum Armor is weaker in Tetsuo's new 13-swap physical package; Both equipment are MV6, but Drach'Nyen exiles an enemy creature on entry and equips for two; lose repeatable any-permanent destruction.",
+        "alternative_named": "Drach'Nyen",
+        "reasoning": "No longer destroy an arbitrary permanent on repeated combat like Argentum Armor."
+      },
+      {
+        "card": "Brainstorm",
+        "weakness": "The exact baseline's Brainstorm is weaker in Tetsuo's new 13-swap physical package; A normal main-phase Will accelerates equipment, and free-casting during attack grants end-turn access to three cards; attack-step red mana cannot be banked for the main.",
+        "alternative_named": "Jeska's Will",
+        "reasoning": "Combat-phase red mana empties before main and exiled cards obey normal timing; loses one-blue Brainstorm fixing."
+      },
+      {
+        "card": "Heiko Yamazaki, the General",
+        "weakness": "The exact baseline's Heiko Yamazaki, the General is weaker in Tetsuo's new 13-swap physical package; Firion supplies haste and duplicates nonlegendary equipment for a turn to reduce equip costs; loses persistent artifact recursion.",
+        "alternative_named": "Firion, Wild Rose Warrior",
+        "reasoning": "Heiko's permanent artifact graveyard access is lost; legendary Equipment copies conflict with legend rule and token sacrifices next upkeep."
+      },
+      {
+        "card": "Island",
+        "weakness": "The exact baseline's Island is weaker in Tetsuo's new 13-swap physical package; Untapped U land offers discounted legend-enabled bounce interaction; loses a fetchable basic.",
+        "alternative_named": "Otawara, Soaring City",
+        "reasoning": "Nonbasic fails basic fetch/anti-nonbasic effects and bounce can cost mana."
+      },
+      {
+        "card": "Kediss, Emberclaw Familiar",
+        "weakness": "The exact baseline's Kediss, Emberclaw Familiar is weaker in Tetsuo's new 13-swap physical package; Kediss only spreads combat damage, not Tetsuo's attack-trigger burn; Strike can give that burn infect in response for a lethal 10-poison line.",
+        "alternative_named": "Tainted Strike",
+        "reasoning": "Needs open B/priority and a legal targeting window; cannot deal damage and free-cast Strike from the same Tetsuo trigger."
+      },
+      {
+        "card": "Smoldering Marsh",
+        "weakness": "The exact baseline's Smoldering Marsh is weaker in Tetsuo's new 13-swap physical package; Any-color untapped mana improves three-color setup; costs life and loses a typed fetch target.",
+        "alternative_named": "City of Brass",
+        "reasoning": "Life paid on each tap and nonbasic vulnerability replace typed/fetchable fixing."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "The exact baseline's Swamp is weaker in Tetsuo's new 13-swap physical package; Untapped B plus one-mana legendary fear helps commander land combat-damage Equipment triggers; loses basic Swamp fetch/resilience.",
+        "alternative_named": "Shizo, Death's Storehouse",
+        "reasoning": "Fear still fails against black/artifact blockers and the Swamp basic count decreases."
+      },
+      {
+        "card": "Sword of Fire and Ice",
+        "weakness": "The exact baseline's Sword of Fire and Ice is weaker in Tetsuo's new 13-swap physical package; Mjölnir is attachable to red legendary Tetsuo for one and doubles his attack-trigger damage; lose on-hit draw and two damage.",
+        "alternative_named": "Mjölnir, Hammer of Thor",
+        "reasoning": "Does not draw a card on player contact as Sword of Fire and Ice does; only four MV."
+      },
+      {
+        "card": "Terminate",
+        "weakness": "The exact baseline's Terminate is weaker in Tetsuo's new 13-swap physical package; Tutor can find exact Equipment, attach cheat, infect payoff or protection; lose efficient two-mana creature removal.",
+        "alternative_named": "Demonic Tutor",
+        "reasoning": "Sacrifices a cheap creature answer before Tetsuo is online; tutor is not itself a board answer."
+      },
+      {
+        "card": "The Reality Chip",
+        "weakness": "The exact baseline's The Reality Chip is weaker in Tetsuo's new 13-swap physical package; Infect makes Tetsuo's triggered noncombat damage a direct poison win route; loses top-deck spell access and gains unattach-sacrifice risk.",
+        "alternative_named": "Grafted Exoskeleton",
+        "reasoning": "Destroying or moving the Equipment sacrifices its formerly equipped permanent; requires protection."
+      },
+      {
+        "card": "Vorpal Sword",
+        "weakness": "The exact baseline's Vorpal Sword is weaker in Tetsuo's new 13-swap physical package; R instant can attach expensive Equipment to Tetsuo before attack even without equip activation; loses eight-mana hit-to-kill activation.",
+        "alternative_named": "Magnetic Theft",
+        "reasoning": "Needs Equipment in play, a creature target, and a card in hand; no Equipment fetch."
+      },
+      {
+        "card": "Winged Boots",
+        "weakness": "The exact baseline's Winged Boots is weaker in Tetsuo's new 13-swap physical package; Equip legendary one gives unblockable and ward two; loses flying and the larger ward from Winged Boots.",
+        "alternative_named": "Brotherhood Regalia",
+        "reasoning": "Ward is only two versus Winged Boots' stronger protection and does not preserve flying."
+      },
+      {
+        "card": "Padeem, Consul of Innovation",
+        "weakness": "Four-mana protective artifact creature is challenged by a three-mana extra-combat body, but protection matters against repeated artifact removal.",
+        "alternative_named": "Combat Celebrant",
+        "reasoning": "Retain: Padeem provides artifact hexproof and can draw with the largest Equipment, while Celebrant often cannot attack safely."
+      },
+      {
+        "card": "Basilisk Collar",
+        "weakness": "A low-MV collar caps free casts if attached alone, so Shadowspear's trample and indestructible-stripping is credible.",
+        "alternative_named": "Shadowspear",
+        "reasoning": "Retain: Collar converts Tetsuo's NONCOMBAT attack-trigger damage to deathtouch/lifelink, especially to neutralize gigantic blockers."
+      },
+      {
+        "card": "Sword of the Animist",
+        "weakness": "Attack-based land ramp is slow and requires connecting or at least attacking with attachment; Bitterthorn creates an incidental creature.",
+        "alternative_named": "Bitterthorn, Nissa's Animus",
+        "reasoning": "Retain: Sword is already a cheap attachable two-mana ramp piece; Bitterthorn duplicates the same role without a conclusive upgrade."
+      }
+    ],
+    "off_ranked_opportunities": "Current 2026-10-27 Scryfall targeted discovery plus EDHREC High Lift surfaced Magnetic Theft, Firion, Mjolnir and Tainted Strike/Grafted as commander-native cards not chosen in the October15 conservative baseline.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Karlach, Fury of Avernus",
+          "Drach'Nyen",
+          "Jeska's Will",
+          "Firion, Wild Rose Warrior",
+          "Otawara, Soaring City",
+          "Tainted Strike",
+          "City of Brass",
+          "Shizo, Death's Storehouse",
+          "Mjölnir, Hammer of Thor",
+          "Demonic Tutor",
+          "Grafted Exoskeleton",
+          "Magnetic Theft",
+          "Brotherhood Regalia",
+          "Combat Celebrant"
+        ],
+        "cuts": [
+          "Akki Battle Squad",
+          "Argentum Armor",
+          "Brainstorm",
+          "Heiko Yamazaki, the General",
+          "Island",
+          "Kediss, Emberclaw Familiar",
+          "Smoldering Marsh",
+          "Swamp",
+          "Sword of Fire and Ice",
+          "Terminate",
+          "The Reality Chip",
+          "Vorpal Sword",
+          "Winged Boots",
+          "Padeem, Consul of Innovation"
+        ],
+        "result_and_rationale": "Complete 100 alt14 adds Combat Celebrant while cutting Padeem in addition to the 13 selected changes; plausible additional attack but fragile and lowers artifact protection against removal."
+      },
+      {
+        "adds": [
+          "Karlach, Fury of Avernus",
+          "Drach'Nyen",
+          "Jeska's Will",
+          "Firion, Wild Rose Warrior",
+          "Otawara, Soaring City",
+          "Tainted Strike",
+          "City of Brass",
+          "Shizo, Death's Storehouse",
+          "Mjölnir, Hammer of Thor",
+          "Demonic Tutor",
+          "Grafted Exoskeleton",
+          "Magnetic Theft",
+          "Brotherhood Regalia",
+          "Combat Celebrant",
+          "Sword of Wealth and Power"
+        ],
+        "cuts": [
+          "Akki Battle Squad",
+          "Argentum Armor",
+          "Brainstorm",
+          "Heiko Yamazaki, the General",
+          "Island",
+          "Kediss, Emberclaw Familiar",
+          "Smoldering Marsh",
+          "Swamp",
+          "Sword of Fire and Ice",
+          "Terminate",
+          "The Reality Chip",
+          "Vorpal Sword",
+          "Winged Boots",
+          "Padeem, Consul of Innovation",
+          "Chandra's Ignition"
+        ],
+        "result_and_rationale": "Complete 100 alt15 adds Combat Celebrant and Sword of Wealth and Power, cutting Padeem and Chandra's Ignition. Better on-hit copying but Sword's protection disables targeting Tetsuo with Tainted Strike, and loses the five-mana team damage sweeper."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Reexamined historical M6/PassC Bitterthorn vs Leyline Axe, Colossus Hammer's low MV, and Grok-flagged Swordsman's Steel/Mithril Coat. Neither weakening the 12-MV threshold nor dropping flashing indestructibility exceeds selected enhanced access/damage.",
+    "strongest_argument_against_baseline": "The historical KEEP overvalued consistency of the 12 already approved old swaps and failed to compare direct-damage infect/double-damage plus one-red attachment changes, and did not challenge the low-MV Vorpal Sword or Kediss combat-only text against Tetsuo's NONCOMBAT damage mode.",
+    "evidence_based_answer": "The new 13-card package directly changes how often the commander attacks equipped, what that attack produces and how much it can immediately threaten. Source-based downsides are real, but two larger complete alternatives produce inferior protection and targeting access; the 13-swap outcome is a justified commander-native M7 upgrade."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Tetsuo_Imperial_Champion_M7_Rev1.txt",
+    "sha256": "36890584524fb32d038ba27926af663dc98197f06f87d84a08282ce1f3fb29db",
+    "card_count": 100,
+    "deckwide_reconciliation": "Pinned Oct15 baseline raw 100 / 91 names, M7 final raw 100 / 93 names, exactly 13 genuine substitutions, Island4/Mountain4/Swamp2 only singleton exceptions, 35 actual lands, Tetsuo first with correct command-zone tag. Candidate has independent raw-byte SHA."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py — 18 locally executed bounded C/K/E/W/F cases, no full simulator",
+      "Scryfall public Oracle Cards JSONL gzip last updated 2026-10-27 21:02 UTC, locally checked every one of the 93 names from complete list (no list transmitted)",
+      "data/grixis/m6/test_blueprints/Tetsuo__Imperial_Champion.json — 5 historical P0 and 9 P1 designed, not falsely credited as M6 certification",
+      "data/grixis/m6/ij/input_receipts/tetsuo-imperial-champion.json — inputs_attested_downstream_incomplete, not a Phase B replay"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Equipment",
+      "Free-Cast Spells",
+      "Extra Combats"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After finding the selected 13 swaps, all retained original positions were reconsidered by role. The distinct post-floor live candidates examined Padeem vs Combat Celebrant, Basilisk Collar vs Shadowspear, Sword of the Animist vs Bitterthorn, Kaldra Compleat vs Tatsumasa, Mechanaut vs Bladegraft, Mithril Coat vs Helm, and Chandra Ignition vs Wealth. These are not token eleventh-hour swaps: each removes a substantive existing effect, and full 100-card competing lists are staged.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Padeem, Consul of Innovation",
+        "challenger": "Combat Celebrant",
+        "tradeoff": "Three-mana exerted extra combat is real when attacking with Tetsuo, but it is a fragile 4/1 without immediate haste, and removing Padeem exposes all artifact Equipment to targeted removal plus loses possible card draw.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Basilisk Collar",
+        "challenger": "Shadowspear",
+        "tradeoff": "Shadowspear trample and temporary indestructible removal aid combat kills, but loses deathtouch on Tetsuo's attack-trigger NONCOMBAT damage, which kills oversized creatures with a one-MV Equipment.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Sword of the Animist",
+        "challenger": "Bitterthorn, Nissa's Animus",
+        "tradeoff": "A similar repeated attack-fetch basic ramp slot with a living Equipment token, but changing the reliable Sword ramp payoff does not improve infect or high MV enough for the additional setup cost.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Tetsuo_Imperial_Champion_M7_Rev1_alt14.txt",
+        "sha256": "b42e1247a3fc1359e82221979477289a4ef51c351aa400adbb260a7884f6601d",
+        "adds": [
+          "Karlach, Fury of Avernus",
+          "Drach'Nyen",
+          "Jeska's Will",
+          "Firion, Wild Rose Warrior",
+          "Otawara, Soaring City",
+          "Tainted Strike",
+          "City of Brass",
+          "Shizo, Death's Storehouse",
+          "Mjölnir, Hammer of Thor",
+          "Demonic Tutor",
+          "Grafted Exoskeleton",
+          "Magnetic Theft",
+          "Brotherhood Regalia",
+          "Combat Celebrant"
+        ],
+        "cuts": [
+          "Akki Battle Squad",
+          "Argentum Armor",
+          "Brainstorm",
+          "Heiko Yamazaki, the General",
+          "Island",
+          "Kediss, Emberclaw Familiar",
+          "Smoldering Marsh",
+          "Swamp",
+          "Sword of Fire and Ice",
+          "Terminate",
+          "The Reality Chip",
+          "Vorpal Sword",
+          "Winged Boots",
+          "Padeem, Consul of Innovation"
+        ],
+        "case_for_extra_swaps": "Fourteenth change gives a three-mana Combat Celebrant additional attack, creating more chances to use Tetsuo's attack trigger and Equipment hit payoff.",
+        "why_not_selected": "Padeem is a material artifact-hexproof and high-MV-card-draw shield; Celebrant must survive and attack with support, is fragile, and overlaps Karlach/Godo/Genji/Hexplate. Complete fourteen swaps are worse against instant equipment hate."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/Tetsuo_Imperial_Champion_M7_Rev1_alt15.txt",
+        "sha256": "9a18706f85e5cc778f8620c7613f23fe3ba86abe43325e5365fc54af93f5fd5e",
+        "adds": [
+          "Karlach, Fury of Avernus",
+          "Drach'Nyen",
+          "Jeska's Will",
+          "Firion, Wild Rose Warrior",
+          "Otawara, Soaring City",
+          "Tainted Strike",
+          "City of Brass",
+          "Shizo, Death's Storehouse",
+          "Mjölnir, Hammer of Thor",
+          "Demonic Tutor",
+          "Grafted Exoskeleton",
+          "Magnetic Theft",
+          "Brotherhood Regalia",
+          "Combat Celebrant",
+          "Sword of Wealth and Power"
+        ],
+        "cuts": [
+          "Akki Battle Squad",
+          "Argentum Armor",
+          "Brainstorm",
+          "Heiko Yamazaki, the General",
+          "Island",
+          "Kediss, Emberclaw Familiar",
+          "Smoldering Marsh",
+          "Swamp",
+          "Sword of Fire and Ice",
+          "Terminate",
+          "The Reality Chip",
+          "Vorpal Sword",
+          "Winged Boots",
+          "Padeem, Consul of Innovation",
+          "Chandra's Ignition"
+        ],
+        "case_for_extra_swaps": "Fifteenth-swap portfolio tests the further EDHREC Sword of Wealth and Power damage-on-hit Treasure/instant-copy engine, giving up Chandra's Ignition and Padeem alongside the extra Celebrant.",
+        "why_not_selected": "Sword grants Tetsuo protection from INSTANTS so the selected Tainted Strike can't legally target him while attached; it also trades out Chandra's high-ceiling direct damage boardwipe and Padeem artifact protection. Double-value on connecting is too conditional for the complete infect/burn route."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "Stop is determined by actual commander-function gains, not thirteen as a number: the coherent poison/doubled noncombat damage, one-red attachment, faster extra combat and colored utility upgrade package preserves 35 lands and the core free-spell weapons. Further credible fourteen/fifteen full 100 options remove artifact protection or create their own targeting prohibition, while other evaluated high-MV equipment require worse mana/equip costs or reduce haste/card access. No positive-value remaining complete multi-slot challenger survived the cost and rules review."
+  }
+}

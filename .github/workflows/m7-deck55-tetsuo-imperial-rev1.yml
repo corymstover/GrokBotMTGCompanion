@@ -1,0 +1,38 @@
+name: "M7 Deck 55 Tetsuo Imperial Champion Rev1 exact-source certification"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Tetsuo_Imperial_Champion_M7_Rev1*.txt"
+      - "data/grixis/m7/tetsuo_imperial_champion_rev1/**"
+      - "data/grixis/m7/decision_reviews/Tetsuo__Imperial_Champion*"
+      - ".github/workflows/m7-deck55-tetsuo-imperial-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-offline-oracle-and-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Pinned Oct15 physical baseline, 13 swaps, and 18 bounded commander rules cases"
+        run: python3 data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py
+      - name: "Download publicly available pinned Scryfall Oracle bulk feed (GET only; no deck upload)"
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            -H 'User-Agent: GrixisCommanderEncyclopedia/1.0' \
+            -o "$RUNNER_TEMP/oracle-2026-10-27.jsonl.gz" \
+            'https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz'
+      - name: "Local all-93 Scryfall Oracle IDs / UBR / Commander-legal check"
+        run: python3 data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py --oracle-file "$RUNNER_TEMP/oracle-2026-10-27.jsonl.gz"
+      - name: "Install M7 structural schema validator"
+        run: python3 -m pip install jsonschema
+      - name: "Whole-99 ledger, 13 swaps, 25 judgments and two complete larger options"
+        run: python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Tetsuo__Imperial_Champion_rev1.json
+      - name: "Repository-wide M7 contract regression"
+        run: python3 scripts/grixis_m7_decision_gate.py --check
