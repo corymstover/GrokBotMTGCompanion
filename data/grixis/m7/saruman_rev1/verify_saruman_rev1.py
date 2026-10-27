@@ -95,7 +95,9 @@ def scryfall_live(candidate):
         batch = names[start:start + 75]
         request = Request(
             "https://api.scryfall.com/cards/collection",
-            data=json.dumps({"identifiers": [{"name": name} for name in batch]}).encode(),
+            # Scryfall named lookup expects the *front-face name* for MDFCs,
+            # then returns the canonical full "front // back" card name.
+            data=json.dumps({"identifiers": [{"name": name.split(" // ")[0]} for name in batch]}).encode(),
             headers={
                 "Content-Type": "application/json",
                 "Accept": "application/json;q=0.9,*/*;q=0.8",
