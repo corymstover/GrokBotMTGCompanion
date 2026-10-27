@@ -101,6 +101,8 @@ Relic for more evasion and faster rock. This is a *credible larger search
 configuration*, not evidence that two additional swaps are better. Its
 combat line is more vulnerable to losing Arcane's Wraith typing and it
 gives up Relic's discard/Anger-Wonder enabler.
+Full 100-card alternative: `sauron_dark_lord_alt12.txt`, raw SHA-256
+`093ca97894cf29774505b7d97eccaf29f5b2fbb7ab6e39cda2bdf6876cebb9e7`.
 
 **C — low-setup recurring temptation alternative:** the exact A 100,
 except `Gollum, Patient Plotter / Moonstone, Harsh Mistress` and
@@ -108,6 +110,8 @@ except `Gollum, Patient Plotter / Moonstone, Harsh Mistress` and
 recursion at the cost of real repeatable hand-discard economics once
 the six-mana commander lands. Good against decks killing small bodies,
 weaker when Sauron survives a full turn cycle.
+Full 100-card alternative: `sauron_dark_lord_alt_early_ring.txt`, raw SHA-256
+`ae88c6e4885a23100380b6691eadaefd9cb643d35c4e765231aeeba978927991`.
 
 Post-floor search conclusion: the retained cards each beat their
 named challenger on at least one valuable independence, mana-color,
