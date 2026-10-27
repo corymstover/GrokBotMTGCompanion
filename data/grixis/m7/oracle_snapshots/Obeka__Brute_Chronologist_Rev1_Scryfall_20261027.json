@@ -1,0 +1,1288 @@
+{
+  "source": "https://api.scryfall.com/cards/collection",
+  "retrieved_utc": "2026-10-27T02:22:40.689362+00:00",
+  "candidate_sha256": "43f1249c9a1da82bc1e74254a44613a0ab5763c91295a56ffae3b75a889029f2",
+  "source_count": 100,
+  "cards": [
+    {
+      "query": "Obeka, Brute Chronologist",
+      "name": "Obeka, Brute Chronologist",
+      "oracle_id": "21b76a94-d9f3-4c34-ab24-7e89321b04f0",
+      "type_line": "Legendary Creature — Ogre Wizard",
+      "mana_cost": "{1}{U}{B}{R}",
+      "oracle_text": "{T}: The player whose turn it is may end the turn. (Exile all spells and abilities from the stack. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Alchemist's Gambit",
+      "name": "Alchemist's Gambit",
+      "oracle_id": "271d8db6-8606-46d7-9812-75aa22fcfd8e",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{R}{R}",
+      "oracle_text": "Cleave {4}{U}{U}{R} (You may cast this spell for its cleave cost. If you do, remove the words in square brackets.)\nTake an extra turn after this one. During that turn, damage can't be prevented. [At the beginning of that turn's end step, you lose the game.]\nExile Alchemist's Gambit.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Ancient Tomb",
+      "name": "Ancient Tomb",
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Animate Dead",
+      "name": "Animate Dead",
+      "oracle_id": "c0d8fef4-65f4-4769-982d-b397d2b7e977",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{1}{B}",
+      "oracle_text": "Enchant creature card in a graveyard\nWhen this Aura enters, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with this Aura.\" Return enchanted creature card to the battlefield under your control and attach this Aura to it. When this Aura leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Apprentice Necromancer",
+      "name": "Apprentice Necromancer",
+      "oracle_id": "d1a6aa5f-2ad6-4bc7-82f0-4262f66af730",
+      "type_line": "Creature — Zombie Wizard",
+      "mana_cost": "{1}{B}",
+      "oracle_text": "{B}, {T}, Sacrifice this creature: Return target creature card from your graveyard to the battlefield. That creature gains haste. At the beginning of the next end step, sacrifice it.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Arcane Signet",
+      "name": "Arcane Signet",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Arena of Glory",
+      "name": "Arena of Glory",
+      "oracle_id": "63dfe794-5f56-41ec-9883-5523b41cc3e0",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "This land enters tapped unless you control a Mountain.\n{T}: Add {R}.\n{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Arid Mesa",
+      "name": "Arid Mesa",
+      "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Badlands",
+      "name": "Badlands",
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "type_line": "Land — Swamp Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {B} or {R}.)",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Blood Crypt",
+      "name": "Blood Crypt",
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "type_line": "Land — Swamp Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Bloodstained Mire",
+      "name": "Bloodstained Mire",
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Bojuka Bog",
+      "name": "Bojuka Bog",
+      "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Chaos Warp",
+      "name": "Chaos Warp",
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "type_line": "Instant",
+      "mana_cost": "{2}{R}",
+      "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Chrome Mox",
+      "name": "Chrome Mox",
+      "oracle_id": "ec3d4466-547c-4e02-b1b5-a156ec4637e9",
+      "type_line": "Artifact",
+      "mana_cost": "{0}",
+      "oracle_text": "Imprint — When this artifact enters, you may exile a nonartifact, nonland card from your hand.\n{T}: Add one mana of any of the exiled card's colors.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "City of Brass",
+      "name": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Come Back Wrong",
+      "name": "Come Back Wrong",
+      "oracle_id": "2a9783c5-084b-4cd3-b7fa-ae9d7fed51d1",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{B}",
+      "oracle_text": "Destroy target creature. If a creature card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Command Tower",
+      "name": "Command Tower",
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Counterspell",
+      "name": "Counterspell",
+      "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+      "type_line": "Instant",
+      "mana_cost": "{U}{U}",
+      "oracle_text": "Counter target spell.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Cyclonic Rift",
+      "name": "Cyclonic Rift",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "type_line": "Instant",
+      "mana_cost": "{1}{U}",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Deflecting Swat",
+      "name": "Deflecting Swat",
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "type_line": "Instant",
+      "mana_cost": "{2}{R}",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Demonic Tutor",
+      "name": "Demonic Tutor",
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{B}",
+      "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Discontinuity",
+      "name": "Discontinuity",
+      "oracle_id": "5cfd73ab-8509-4e4b-9704-68d8dad3b301",
+      "type_line": "Instant",
+      "mana_cost": "{3}{U}{U}{U}",
+      "oracle_text": "During your turn, this spell costs {2}{U}{U} less to cast.\nEnd the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Dualcaster Mage",
+      "name": "Dualcaster Mage",
+      "oracle_id": "8eb7c0a5-6190-40de-b473-2d1daa3bbe28",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{1}{R}{R}",
+      "oracle_text": "Flash\nWhen this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Entomb",
+      "name": "Entomb",
+      "oracle_id": "299fc083-0834-4064-8344-f895aff68867",
+      "type_line": "Instant",
+      "mana_cost": "{B}",
+      "oracle_text": "Search your library for a card, put that card into your graveyard, then shuffle.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+      "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+      "oracle_id": "c0957e5e-c71b-439c-931c-9f55d2f76ace",
+      "type_line": "Enchantment — Saga // Enchantment Creature — Goblin Shaman",
+      "mana_cost": null,
+      "oracle_text": null,
+      "card_faces": [
+        {
+          "name": "Fable of the Mirror-Breaker",
+          "type_line": "Enchantment — Saga",
+          "oracle_text": "(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 2/2 red Goblin Shaman creature token with \"Whenever this token attacks, create a Treasure token.\"\nII — You may discard up to two cards. If you do, draw that many cards.\nIII — Exile this Saga, then return it to the battlefield transformed under your control."
+        },
+        {
+          "name": "Reflection of Kiki-Jiki",
+          "type_line": "Enchantment Creature — Goblin Shaman",
+          "oracle_text": "{1}, {T}: Create a token that's a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step."
+        }
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Feldon of the Third Path",
+      "name": "Feldon of the Third Path",
+      "oracle_id": "be094704-5232-4b10-beeb-aa9bbfae063d",
+      "type_line": "Legendary Creature — Human Artificer",
+      "mana_cost": "{1}{R}{R}",
+      "oracle_text": "{2}{R}, {T}: Create a token that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Fellwar Stone",
+      "name": "Fellwar Stone",
+      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Fierce Guardianship",
+      "name": "Fierce Guardianship",
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "type_line": "Instant",
+      "mana_cost": "{2}{U}",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Final Fortune",
+      "name": "Final Fortune",
+      "oracle_id": "8d0adc5c-3fdd-4e22-b783-5651f8e57b65",
+      "type_line": "Instant",
+      "mana_cost": "{R}{R}",
+      "oracle_text": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Flameshadow Conjuring",
+      "name": "Flameshadow Conjuring",
+      "oracle_id": "343460ea-7999-4d9e-b425-97fa1621f9d6",
+      "type_line": "Enchantment",
+      "mana_cost": "{3}{R}",
+      "oracle_text": "Whenever a nontoken creature you control enters, you may pay {R}. If you do, create a token that's a copy of that creature. That token gains haste. Exile it at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Flooded Strand",
+      "name": "Flooded Strand",
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Footsteps of the Goryo",
+      "name": "Footsteps of the Goryo",
+      "oracle_id": "d0e8d9f0-86e9-46b7-ba6f-2976ff9148d6",
+      "type_line": "Sorcery — Arcane",
+      "mana_cost": "{2}{B}",
+      "oracle_text": "Return target creature card from your graveyard to the battlefield. Sacrifice that creature at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Force of Will",
+      "name": "Force of Will",
+      "oracle_id": "956381ba-6d37-4a8a-846c-bad79222dbee",
+      "type_line": "Instant",
+      "mana_cost": "{3}{U}{U}",
+      "oracle_text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Frantic Search",
+      "name": "Frantic Search",
+      "oracle_id": "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c",
+      "type_line": "Instant",
+      "mana_cost": "{2}{U}",
+      "oracle_text": "Draw two cards, then discard two cards. Untap up to three lands.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Gamble",
+      "name": "Gamble",
+      "oracle_id": "a54f0869-94c8-42af-9080-166efb9486a4",
+      "type_line": "Sorcery",
+      "mana_cost": "{R}",
+      "oracle_text": "Search your library for a card, put that card into your hand, discard a card at random, then shuffle.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Glorious End",
+      "name": "Glorious End",
+      "oracle_id": "e611a3e0-eb0e-466e-a771-51310eeb34cd",
+      "type_line": "Instant",
+      "mana_cost": "{2}{R}",
+      "oracle_text": "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)\nAt the beginning of your next end step, you lose the game.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Hellkite Courser",
+      "name": "Hellkite Courser",
+      "oracle_id": "c5abd58f-3e00-447b-a978-64cb88ad501b",
+      "type_line": "Creature — Dragon",
+      "mana_cost": "{4}{R}{R}",
+      "oracle_text": "Flying\nWhen this creature enters, you may put a commander you own from the command zone onto the battlefield. It gains haste. Return it to the command zone at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Ideas Unbound",
+      "name": "Ideas Unbound",
+      "oracle_id": "6b4d34bc-fa64-4c42-90e0-190671a5b988",
+      "type_line": "Sorcery — Arcane",
+      "mana_cost": "{U}{U}",
+      "oracle_text": "Draw three cards. Discard three cards at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Identity Thief",
+      "name": "Identity Thief",
+      "oracle_id": "a200daec-983c-4ea6-ae98-1c963b50fbb1",
+      "type_line": "Creature — Shapeshifter",
+      "mana_cost": "{2}{U}{U}",
+      "oracle_text": "Whenever this creature attacks, you may exile another target nontoken creature. If you do, this creature becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Island",
+      "name": "Island",
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "type_line": "Basic Land — Island",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U}.)",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Isochron Scepter",
+      "name": "Isochron Scepter",
+      "oracle_id": "ddd649f4-dbaf-48ec-8ff7-95581257772d",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "Imprint — When this artifact enters, you may exile an instant card with mana value 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Izzet Signet",
+      "name": "Izzet Signet",
+      "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{1}, {T}: Add {U}{R}.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Jaxis, the Troublemaker",
+      "name": "Jaxis, the Troublemaker",
+      "oracle_id": "764121bf-535d-40d0-ab9d-65486da31734",
+      "type_line": "Legendary Creature — Human Warrior",
+      "mana_cost": "{3}{R}",
+      "oracle_text": "{R}, {T}, Discard a card: Create a token that's a copy of another target creature you control. It gains haste and \"When this token dies, draw a card.\" Sacrifice it at the beginning of the next end step. Activate only as a sorcery.\nBlitz {1}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Jeska's Will",
+      "name": "Jeska's Will",
+      "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{R}",
+      "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Kiki-Jiki, Mirror Breaker",
+      "name": "Kiki-Jiki, Mirror Breaker",
+      "oracle_id": "a34b7416-cfe3-4a1e-a8c1-a3056b747519",
+      "type_line": "Legendary Creature — Goblin Shaman",
+      "mana_cost": "{2}{R}{R}{R}",
+      "oracle_text": "Haste\n{T}: Create a token that's a copy of target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Last Chance",
+      "name": "Last Chance",
+      "oracle_id": "360039a5-1cbd-4ee3-8f94-21b5348e106a",
+      "type_line": "Sorcery",
+      "mana_cost": "{R}{R}",
+      "oracle_text": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Lightning Greaves",
+      "name": "Lightning Greaves",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{2}",
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Lotus Petal",
+      "name": "Lotus Petal",
+      "oracle_id": "32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5",
+      "type_line": "Artifact",
+      "mana_cost": "{0}",
+      "oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Luxury Suite",
+      "name": "Luxury Suite",
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mana Confluence",
+      "name": "Mana Confluence",
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mana Drain",
+      "name": "Mana Drain",
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "type_line": "Instant",
+      "mana_cost": "{U}{U}",
+      "oracle_text": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mana Vault",
+      "name": "Mana Vault",
+      "oracle_id": "736892cb-a34b-4bb9-b56c-e26e3db207a2",
+      "type_line": "Artifact",
+      "mana_cost": "{1}",
+      "oracle_text": "This artifact doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.\nAt the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Marsh Flats",
+      "name": "Marsh Flats",
+      "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mimic Vat",
+      "name": "Mimic Vat",
+      "oracle_id": "6ebdc9f3-6b23-4716-8011-48f00d7e30c8",
+      "type_line": "Artifact",
+      "mana_cost": "{3}",
+      "oracle_text": "Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with this artifact to its owner's graveyard.\n{3}, {T}: Create a token that's a copy of a card exiled with this artifact. It gains haste. Exile it at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Minamo, School at Water's Edge",
+      "name": "Minamo, School at Water's Edge",
+      "oracle_id": "17784f90-89a1-47a5-83ef-ae60dfc30bd1",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Misty Rainforest",
+      "name": "Misty Rainforest",
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Morphic Pool",
+      "name": "Morphic Pool",
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mountain",
+      "name": "Mountain",
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "type_line": "Basic Land — Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {R}.)",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mystic Remora",
+      "name": "Mystic Remora",
+      "oracle_id": "8a52f3c0-2552-4425-b2e3-5496eb2232a7",
+      "type_line": "Enchantment",
+      "mana_cost": "{U}",
+      "oracle_text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Mystical Tutor",
+      "name": "Mystical Tutor",
+      "oracle_id": "fb81f95c-70f8-4eb7-8d15-15d0ae23ec03",
+      "type_line": "Instant",
+      "mana_cost": "{U}",
+      "oracle_text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Necromancy",
+      "name": "Necromancy",
+      "oracle_id": "699b192c-f3f2-4ac5-9ca9-e35bcf08ad8a",
+      "type_line": "Enchantment",
+      "mana_cost": "{2}{B}",
+      "oracle_text": "You may cast this spell as though it had flash. If you cast it any time a sorcery couldn't have been cast, the controller of the permanent it becomes sacrifices it at the beginning of the next cleanup step.\nWhen this enchantment enters, if it's on the battlefield, it becomes an Aura with \"enchant creature put onto the battlefield with Necromancy.\" Put target creature card from a graveyard onto the battlefield under your control and attach this enchantment to it. When this enchantment leaves the battlefield, that creature's controller sacrifices it.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Otawara, Soaring City",
+      "name": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Polluted Delta",
+      "name": "Polluted Delta",
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Psychic Vortex",
+      "name": "Psychic Vortex",
+      "oracle_id": "451e35dd-e0b5-4157-8511-bacb315e19bd",
+      "type_line": "Enchantment",
+      "mana_cost": "{2}{U}{U}",
+      "oracle_text": "Cumulative upkeep—Draw a card. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nAt the beginning of your end step, sacrifice a land and discard your hand.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Puppeteer Clique",
+      "name": "Puppeteer Clique",
+      "oracle_id": "00e0b103-892c-49b3-836d-867fff197bbd",
+      "type_line": "Creature — Faerie Wizard",
+      "mana_cost": "{3}{B}{B}",
+      "oracle_text": "Flying\nWhen this creature enters, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Reanimate",
+      "name": "Reanimate",
+      "oracle_id": "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0",
+      "type_line": "Sorcery",
+      "mana_cost": "{B}",
+      "oracle_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Reflecting Pool",
+      "name": "Reflecting Pool",
+      "oracle_id": "67f43ac6-2a58-4b53-b5d7-0330e2a252e2",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add one mana of any type that a land you control could produce.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Rhystic Study",
+      "name": "Rhystic Study",
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+      "type_line": "Enchantment",
+      "mana_cost": "{2}{U}",
+      "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Rionya, Fire Dancer",
+      "name": "Rionya, Fire Dancer",
+      "oracle_id": "be4f47e9-1bd2-4aa9-bc85-3f203ad21639",
+      "type_line": "Legendary Creature — Human Wizard",
+      "mana_cost": "{3}{R}{R}",
+      "oracle_text": "At the beginning of combat on your turn, create X tokens that are copies of another target creature you control, where X is one plus the number of instant and sorcery spells you've cast this turn. They gain haste. Exile them at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Saheeli, the Sun's Brilliance",
+      "name": "Saheeli, the Sun's Brilliance",
+      "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+      "type_line": "Legendary Creature — Human Artificer",
+      "mana_cost": "{U}{R}",
+      "oracle_text": "{U}{R}, {T}: Create a token that's a copy of another target creature or artifact you control, except it's an artifact in addition to its other types. It gains haste. Sacrifice it at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Scalding Tarn",
+      "name": "Scalding Tarn",
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Shivan Reef",
+      "name": "Shivan Reef",
+      "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Sneak Attack",
+      "name": "Sneak Attack",
+      "oracle_id": "e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d",
+      "type_line": "Enchantment",
+      "mana_cost": "{3}{R}",
+      "oracle_text": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Sol Ring",
+      "name": "Sol Ring",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "type_line": "Artifact",
+      "mana_cost": "{1}",
+      "oracle_text": "{T}: Add {C}{C}.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Spellseeker",
+      "name": "Spellseeker",
+      "oracle_id": "47a785ed-8095-4685-8daa-02c4e2b0ffcd",
+      "type_line": "Creature — Human Wizard",
+      "mana_cost": "{2}{U}",
+      "oracle_text": "When this creature enters, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "card_faces": [],
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Splinter Twin",
+      "name": "Splinter Twin",
+      "oracle_id": "2df3187b-4b91-4de9-9b26-d48a30700cec",
+      "type_line": "Enchantment — Aura",
+      "mana_cost": "{2}{R}{R}",
+      "oracle_text": "Enchant creature\nEnchanted creature has \"{T}: Create a token that's a copy of this creature, except it has haste. Exile that token at the beginning of the next end step.\"",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Steam Vents",
+      "name": "Steam Vents",
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "type_line": "Land — Island Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Sulfurous Springs",
+      "name": "Sulfurous Springs",
+      "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Sundial of the Infinite",
+      "name": "Sundial of the Infinite",
+      "oracle_id": "79d46e09-2548-440f-9c02-3c3dc39a0cd1",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{1}, {T}: End the turn. Activate only during your turn. (Exile all spells and abilities from the stack. Discard down to your maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Swamp",
+      "name": "Swamp",
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "type_line": "Basic Land — Swamp",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {B}.)",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Swiftfoot Boots",
+      "name": "Swiftfoot Boots",
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+      "type_line": "Artifact — Equipment",
+      "mana_cost": "{2}",
+      "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Takenuma, Abandoned Mire",
+      "name": "Takenuma, Abandoned Mire",
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "type_line": "Legendary Land",
+      "mana_cost": "",
+      "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Talisman of Creativity",
+      "name": "Talisman of Creativity",
+      "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Talisman of Dominance",
+      "name": "Talisman of Dominance",
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Talisman of Indulgence",
+      "name": "Talisman of Indulgence",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "type_line": "Artifact",
+      "mana_cost": "{2}",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Thousand-Year Elixir",
+      "name": "Thousand-Year Elixir",
+      "oracle_id": "4dc5726e-2f7e-4c2b-9616-c3301d212f78",
+      "type_line": "Artifact",
+      "mana_cost": "{3}",
+      "oracle_text": "You may activate abilities of creatures you control as though those creatures had haste.\n{1}, {T}: Untap target creature.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Toxic Deluge",
+      "name": "Toxic Deluge",
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "type_line": "Sorcery",
+      "mana_cost": "{2}{B}",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Training Center",
+      "name": "Training Center",
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Twinflame",
+      "name": "Twinflame",
+      "oracle_id": "83cf1169-5853-4332-b897-7b17d72d76ab",
+      "type_line": "Sorcery",
+      "mana_cost": "{1}{R}",
+      "oracle_text": "Strive — This spell costs {2}{R} more to cast for each target beyond the first.\nChoose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Underground Sea",
+      "name": "Underground Sea",
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "type_line": "Land — Island Swamp",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U} or {B}.)",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Underworld Breach",
+      "name": "Underworld Breach",
+      "oracle_id": "27e0948b-9916-473b-8d8c-a51bdfbc7457",
+      "type_line": "Enchantment",
+      "mana_cost": "{1}{R}",
+      "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice this enchantment.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Vampiric Tutor",
+      "name": "Vampiric Tutor",
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "type_line": "Instant",
+      "mana_cost": "{B}",
+      "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+      "card_faces": [],
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Venser, Fervent Forger",
+      "name": "Venser, Fervent Forger",
+      "oracle_id": "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd",
+      "type_line": "Legendary Creature — Human Sorcerer",
+      "mana_cost": "{4}{R}{R}",
+      "oracle_text": "Flash\nWhen Venser enters, choose one —\n• Copy target instant or sorcery spell an opponent controls twice. You may choose new targets for the copies.\n• Create two tokens that are copies of target permanent an opponent controls. They gain haste. At the beginning of the next end step, sacrifice them.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Verdant Catacombs",
+      "name": "Verdant Catacombs",
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Volcanic Island",
+      "name": "Volcanic Island",
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "type_line": "Land — Island Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U} or {R}.)",
+      "card_faces": [],
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Warrior's Oath",
+      "name": "Warrior's Oath",
+      "oracle_id": "574044cf-2e2f-4b5c-b4d1-cf05ba814ab2",
+      "type_line": "Sorcery",
+      "mana_cost": "{R}{R}",
+      "oracle_text": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Watery Grave",
+      "name": "Watery Grave",
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "type_line": "Land — Island Swamp",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Wooded Foothills",
+      "name": "Wooded Foothills",
+      "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+      "type_line": "Land",
+      "mana_cost": "",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+      "card_faces": [],
+      "color_identity": [],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Xander's Lounge",
+      "name": "Xander's Lounge",
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "type_line": "Land — Island Swamp Mountain",
+      "mana_cost": "",
+      "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+      "card_faces": [],
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal"
+    },
+    {
+      "query": "Zealous Conscripts",
+      "name": "Zealous Conscripts",
+      "oracle_id": "1dae6f39-2cbd-485c-b190-017a26401fd4",
+      "type_line": "Creature — Human Warrior",
+      "mana_cost": "{4}{R}",
+      "oracle_text": "Haste\nWhen this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.",
+      "card_faces": [],
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal"
+    }
+  ]
+}
