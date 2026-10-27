@@ -20,7 +20,8 @@ CASE_IDS = ('C1', 'K1', 'K2', 'K3', 'F1')
 class SourceBoundRaniP0(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        approved = ROOT / 'The_Rani_M7_Rev1.txt'
+        candidate_dir = (ROOT.parent / 'candidate_lists' if (ROOT.parent / 'candidate_lists').is_dir() else ROOT)
+        approved = candidate_dir / 'The_Rani_M7_Rev1.txt'
         cls.raw = approved.read_bytes()
         cls.cards = [name.removesuffix(' [Commander]')
                      for line in cls.raw.decode().splitlines()
