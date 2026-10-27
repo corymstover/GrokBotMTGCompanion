@@ -43,7 +43,8 @@ jobs:
           assert hashlib.sha256(plans_bytes).hexdigest() == "195e2dd6f15aed70cc4384e68d33e200623e34e8f088da939752ea28216dcac8"
           frozen = json.loads(frozen_bytes)['approved_sha256_by_deck']
           required = json.loads(plans_bytes)['decks']
-          tree = json.loads(fetch(f"https://api.github.com/repos/{owner}/{repo}/git/trees/{pin}?recursive=1"))
+          tree_sha = "c796c4971186f74902db00773786dc93b862699d"  # tree of pinned commit
+          tree = json.loads(fetch(f"https://api.github.com/repos/{owner}/{repo}/git/trees/{tree_sha}?recursive=1"))
           assert not tree.get('truncated'), "Cannot certify complete file inventory from truncated tree"
           paths = {e['path'] for e in tree['tree']}
           changed = [(name, deck['approved_list_sha256']) for name, deck in registry.items()
