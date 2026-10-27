@@ -62,7 +62,7 @@ quantity,card,role,decision,replacement,reason
 1,Painter's Servant,Commander core,KEEP,,"naming black expands every-player Sol'kanar/Horn spell triggers, with Grindstone finish"
 1,Polluted Delta,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
 1,Rakdos Charm,Interaction / protection,KEEP,,instant graveyard exclusion and artifact answer; deliberately not cut
-1,Rakdos Signet,Mana land / utility,CUT,Mindcrank,BR rock swapped for cheap life-loss-to-mill feedback and Bloodchief partner
+1,Rakdos Signet,Ramp / black-spell velocity,KEEP,,retains BR colored acceleration toward 5MV commander; Mindcrank rejected after colored-rock probability challenge
 1,Rhystic Study,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
 1,Scalding Tarn,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
 1,Sensei's Divining Top,Draw / tutor / wheel,KEEP,,paired Citadel/Aetherflux loop and topdeck smoothing
