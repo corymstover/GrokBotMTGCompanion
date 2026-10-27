@@ -15,8 +15,12 @@ from urllib.request import Request, urlopen
 HERE = Path(__file__).resolve().parent
 BASE = HERE / "sauron_dark_lord_baseline.txt"
 CANDIDATE = HERE / "sauron_dark_lord_m7_rev1.txt"
+ALT12 = HERE / "sauron_dark_lord_alt12.txt"
+ALT_EARLY = HERE / "sauron_dark_lord_alt_early_ring.txt"
 BASE_SHA = "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8"
 CANDIDATE_SHA = "266660c6a3241c07a052da7624366be1f9617cb5db4c35c422b0e8f828977d9b"
+ALT12_SHA = "093ca97894cf29774505b7d97eccaf29f5b2fbb7ab6e39cda2bdf6876cebb9e7"
+ALT_EARLY_SHA = "ae88c6e4885a23100380b6691eadaefd9cb643d35c4e765231aeeba978927991"
 SWAPS = {
     "Blasphemous Act": "Soothing of Sméagol",
     "Moria Scavenger": "Bone Miser",
@@ -79,7 +83,14 @@ def structural():
     assert set(final) - set(source) == set(SWAPS.values())
     assert all(source[cut] == final[add] == 1 for cut, add in SWAPS.items())
     assert PROTECTED <= set(final)
+    larger = read_list(ALT12, ALT12_SHA)
+    early = read_list(ALT_EARLY, ALT_EARLY_SHA)
+    assert set(larger) - set(final) == {"Cover of Darkness", "Fellwar Stone"}
+    assert set(final) - set(larger) == {"Orcish Siegemaster", "Relic of Sauron"}
+    assert set(early) - set(final) == {"Gollum, Patient Plotter", "Sam's Desperate Rescue"}
+    assert set(final) - set(early) == {"Moonstone, Harsh Mistress", "Bone Miser"}
     print("PASS exact source and Rev1 raw hashes, 100/91/34, legal repeats, ten swaps")
+    print("PASS two full 100-card alternatives: larger twelve-swap and early-Ring package")
     return final
 
 
