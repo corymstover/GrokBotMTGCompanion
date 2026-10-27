@@ -89,9 +89,16 @@ def live_scryfall(candidate):
     seen = {}
     for start in range(0, len(names), 75):
         batch = names[start:start + 75]
+        # Disambiguate standalone Tempest Reanimate from the back face of
+        # Grave Researcher // Reanimate; both occupy distinct deck slots.
+        identifiers = [
+            {"set": "tmp", "collector_number": "151"}
+            if n == "Reanimate" else {"name": n.split(" // ")[0]}
+            for n in batch
+        ]
         request = Request(
             "https://api.scryfall.com/cards/collection",
-            data=json.dumps({"identifiers": [{"name": n.split(" // ")[0]} for n in batch]}).encode(),
+            data=json.dumps({"identifiers": identifiers}).encode(),
             headers={
                 "Content-Type": "application/json",
                 "Accept": "application/json",
