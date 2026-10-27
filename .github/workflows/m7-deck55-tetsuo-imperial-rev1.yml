@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: "Pinned Oct15 physical baseline, 13 swaps, and 18 bounded commander rules cases"
+      - name: "Pinned Oct15 baseline, 13 swaps, 18 original plus four M6-P0-specific bounded cases"
         run: python3 data/grixis/m7/tetsuo_imperial_champion_rev1/verify.py
       - name: "Download publicly available pinned Scryfall Oracle bulk feed (GET only; no deck upload)"
         run: |
