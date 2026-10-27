@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Sedris__the_Traitor_King",
+  "canonical_baseline_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+  "canonical_baseline_logical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+  "commander_identity": {
+    "mechanical_plan": "Sedris grants every creature card in our graveyard its own sorcery-speed unearth 2B; turn discard/mill into high-impact hasty ETB and attack triggers, discount repeat activations with Convergence while defending the end-step exile window with Obeka, Sundial, Teferi's Veil, Thassa or Deadeye.",
+    "protected_core": [
+      "Sedris, the Traitor King",
+      "Convergence of Dominion",
+      "Obeka, Brute Chronologist",
+      "Sundial of the Infinite",
+      "Teferi's Veil",
+      "Deadeye Navigator",
+      "Peregrine Drake",
+      "Panharmonicon",
+      "River Kelpie",
+      "Twilight Diviner",
+      "Archon of Cruelty",
+      "Grave Titan",
+      "Buried Alive",
+      "Ripples of Undeath",
+      "Vile Entomber",
+      "Terror of the Peaks"
+    ],
+    "natural_ceiling": "Bracket 4 optimized. Six-mana triple-color commander, graveyard vulnerability, black activation costs and end-step setup preclude substantiated cEDH consistency.",
+    "anti_homogenization": "No Oracle/Consultation or Breach conversion, no generic staple quota. Build around Sedris-owned unearth triggers, ETB copying and timed rescue."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 exact canonical physical library slots reconciled against the Oct20 authored one-by-one deep review. Ten dedicated rocks, 31 lands, 2 basics of Swamp, seven original reanimation/dedicated setup lines, four rescue pieces and creature payoffs. The nine cut roles create deliberate opportunity-cost tradeoffs; retained Panharmonicon, Convergence, Kelpie, Diviner, Sundial, Obeka, Veil and Deadeye remain structurally critical.",
+    "mana_base_and_curve": "Baseline 31 physical lands with ten repeatable artifacts and a six-mana UBR commander; revision adds Cephalid Coliseum and a castable MDFC Agadeem spell-land for 33 physical land faces. Careful Study reduces setup mana; Gyruda six vs Jin ten, Delver five vs Sheoldred seven. Losing Ashnod's creature-fed colorless acceleration is mitigated by ten unchanged rocks; threshold and the untapped MDFC life tax are real.",
+    "interaction_resilience": "Preserves Force of Will, Fierce Guardianship, Deflecting Swat, Mana Drain, Deadly Rollick, Toxic Deluge, Cyclonic Rift and Feed the Swarm. Rescue stack includes Obeka/Sundial/Veil/Deadeye plus Thassa. Graveyard hate still blanks Sedris and Delver targets; no claimed protection against exiling entire grave.",
+    "weakest_slots": [
+      {
+        "card": "Ashnod's Altar",
+        "weakness": "Converts expendable Titans and unearthed creatures into self-mill immediately, seeding later Sedris targets or milling opponents with spare tokens.",
+        "alternative_named": "Altar of Dementia",
+        "reasoning": "Loses the sacrifice-for-two-colorless mana engine. Unearthed creatures sacrificed this way exile, so this is not a recursive sacrifice loop."
+      },
+      {
+        "card": "Chainer, Nightmare Adept",
+        "weakness": "At the beginning of our end step, blink an unearthed ETB creature before its delayed exile trigger resolves; return as a new object for durable repeated ETBs.",
+        "alternative_named": "Thassa, Deep-Dwelling",
+        "reasoning": "Four mana and an exposed enchantment; removes independent discard and cast-a-creature-from-graveyard backup when Sedris is unavailable."
+      },
+      {
+        "card": "Feldon of the Third Path",
+        "weakness": "Makes land drop 33 while retaining an expensive late-game reanimation spell as a land/spell choice, easing six-mana commander sequencing.",
+        "alternative_named": "Agadeem's Awakening // Agadeem, the Undercrypt",
+        "reasoning": "Loses Feldon's repeatable graveyard token copies and early-game power; Awakening has substantial black requirements and tapped or three-life land cost."
+      },
+      {
+        "card": "Gifts Ungiven",
+        "weakness": "Raises physical land density to 32-33 and retains a threshold looting land that draws three/discards three to bin payoffs after the graveyard develops.",
+        "alternative_named": "Cephalid Coliseum",
+        "reasoning": "Replaces a flexible instant that moves two chosen cards to grave. Coliseum only activates at threshold and sacrifices itself while paying blue."
+      },
+      {
+        "card": "Jin-Gitaxias, Core Augur",
+        "weakness": "A six-mana creature ETB that mills four cards per player and converts one even-MV milled creature to our battlefield, doubled by Panharmonicon.",
+        "alternative_named": "Gyruda, Doom of Depths",
+        "reasoning": "Gyruda may hit no eligible even-MV creature and fuels opposing graveyards; loses Jin's end-step draw-seven and rescued hand-size lockdown."
+      },
+      {
+        "card": "Likeness Looter",
+        "weakness": "One blue mana draws two and deliberately discards two expensive creatures for Sedris, speeding the pre-commander graveyard assembly.",
+        "alternative_named": "Careful Study",
+        "reasoning": "One-shot spell replaces a recurring tap looter and its graveyard-creature copying option; lower late-game standalone utility."
+      },
+      {
+        "card": "Sepulchral Primordial",
+        "weakness": "An unearthed Agent steals ANY target permanent immediately, and that change of control continues after Agent exiles; Panharmonicon doubles its ETB.",
+        "alternative_named": "Agent of Treachery",
+        "reasoning": "Seven mana and a fragile theft ETB; loses Primordial's potential three-opponent graveyard reanimation against stocked opponents."
+      },
+      {
+        "card": "Sheoldred, Whispering One",
+        "weakness": "Five-mana ETB returns our best creature immediately without waiting for an upkeep that an unearthed Sheoldred normally never reaches.",
+        "alternative_named": "Phyrexian Delver",
+        "reasoning": "Costs life equal to each target's mana value, especially sharp if Panharmonicon doubles it; forfeits Sheoldred's continuing sacrifice pressure when rescued."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Three-mana instant finds a three-creature pile, making two assured graveyard unearth targets and giving the third to hand; directly tutors Sedris plans.",
+        "alternative_named": "Intuition",
+        "reasoning": "Loses Windfall's mass hand reset/discard and potential seven-card refill, decreases generic card velocity in stalled hands."
+      },
+      {
+        "card": "Vile Entomber",
+        "weakness": "Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+        "alternative_named": "Ghostly Flicker",
+        "reasoning": "Retained after post-floor challenge because sacrificing the incumbent engine is a worse all-matchup trade for this build."
+      },
+      {
+        "card": "Ripples of Undeath",
+        "weakness": "Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+        "alternative_named": "Mesmeric Orb",
+        "reasoning": "Retained after post-floor challenge because sacrificing the incumbent engine is a worse all-matchup trade for this build."
+      }
+    ],
+    "current_baseline_strength": "Oct15 approved 100 is already strong commander-first Sedris with Archon/Titan ETBs, Flayer/Terror damage, Panharmon doubling, Deadeye/Drake, Convergence and mature fast-mana interaction. The prior approval is preserved as the baseline, not called faulty.",
+    "candidate_pool_scope": "All 99 source slots, 15 material current candidates with exact cut decisions, EDHREC Sedris Top/High Lift and OFF-RANKED self-mill/rescue, prior 111 M5 challenger pairs, Pass C Sedris Altar dilemma, two full 100-card adversarial packages, and bounded blueprint cases.",
+    "off_ranked_search_conclusion": "Off-ranking self-mill and object-zone scrutiny supports Altar over Ashnod rather than losing Panharmonicon, Thassa end-step reset, Gyruda even-MV milling, Agent permanent-theft persistence, Delver direct ETB reanimation and 33 physical land faces; extra Flicker and Orb do not beat losing buried-target density and Ripples selection."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/sedris-the-traitor-king — current 2190-deck Sedris Top/High Lift and creature/instant categories.",
+    "2026-10-27 OFF-RANKED new engine candidate analysis: Altar, Thassa, Gyruda, Cephalid, Agadeem and Intuition from explicit Sedris mechanics.",
+    "data/grixis/m6/deep_reviews/Sedris__the_Traitor_King.md — one-by-one 99 slot historical authored independent challenge.",
+    "data/grixis/m6/owner_pass_c_substitute/Sedris__the_Traitor_King/final_disposition.md — Altar vs Panharmonicon original challenge and settled Sundial ruling.",
+    "data/grixis/m6/test_blueprints/Sedris__the_Traitor_King.json — 15 exact historical named cases.",
+    "data/grixis/m7/sedris_rev1/sedris_review.md — 9 tradeoffs, exact two whole-100 alternatives."
+  ],
+  "material_candidates": [
+    {
+      "card": "Altar of Dementia",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Ashnod's Altar"
+      ],
+      "incumbent_opportunity_cost": "Loses the sacrifice-for-two-colorless mana engine. Unearthed creatures sacrificed this way exile, so this is not a recursive sacrifice loop.",
+      "commander_synergy": "Converts expendable Titans and unearthed creatures into self-mill immediately, seeding later Sedris targets or milling opponents with spare tokens.",
+      "adversarial_downside": "Loses the sacrifice-for-two-colorless mana engine. Unearthed creatures sacrificed this way exile, so this is not a recursive sacrifice loop.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Altar of Dementia over Ashnod's Altar: Converts expendable Titans and unearthed creatures into self-mill immediately, seeding later Sedris targets or milling opponents with spare tokens. Loses the sacrifice-for-two-colorless mana engine. Unearthed creatures sacrificed this way exile, so this is not a recursive sacrifice loop.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Thassa, Deep-Dwelling",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Chainer, Nightmare Adept"
+      ],
+      "incumbent_opportunity_cost": "Four mana and an exposed enchantment; removes independent discard and cast-a-creature-from-graveyard backup when Sedris is unavailable.",
+      "commander_synergy": "At the beginning of our end step, blink an unearthed ETB creature before its delayed exile trigger resolves; return as a new object for durable repeated ETBs.",
+      "adversarial_downside": "Four mana and an exposed enchantment; removes independent discard and cast-a-creature-from-graveyard backup when Sedris is unavailable.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Thassa, Deep-Dwelling over Chainer, Nightmare Adept: At the beginning of our end step, blink an unearthed ETB creature before its delayed exile trigger resolves; return as a new object for durable repeated ETBs. Four mana and an exposed enchantment; removes independent discard and cast-a-creature-from-graveyard backup when Sedris is unavailable.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Agadeem's Awakening // Agadeem, the Undercrypt",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Feldon of the Third Path"
+      ],
+      "incumbent_opportunity_cost": "Loses Feldon's repeatable graveyard token copies and early-game power; Awakening has substantial black requirements and tapped or three-life land cost.",
+      "commander_synergy": "Makes land drop 33 while retaining an expensive late-game reanimation spell as a land/spell choice, easing six-mana commander sequencing.",
+      "adversarial_downside": "Loses Feldon's repeatable graveyard token copies and early-game power; Awakening has substantial black requirements and tapped or three-life land cost.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Agadeem's Awakening // Agadeem, the Undercrypt over Feldon of the Third Path: Makes land drop 33 while retaining an expensive late-game reanimation spell as a land/spell choice, easing six-mana commander sequencing. Loses Feldon's repeatable graveyard token copies and early-game power; Awakening has substantial black requirements and tapped or three-life land cost.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Cephalid Coliseum",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Gifts Ungiven"
+      ],
+      "incumbent_opportunity_cost": "Replaces a flexible instant that moves two chosen cards to grave. Coliseum only activates at threshold and sacrifices itself while paying blue.",
+      "commander_synergy": "Raises physical land density to 32-33 and retains a threshold looting land that draws three/discards three to bin payoffs after the graveyard develops.",
+      "adversarial_downside": "Replaces a flexible instant that moves two chosen cards to grave. Coliseum only activates at threshold and sacrifices itself while paying blue.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Cephalid Coliseum over Gifts Ungiven: Raises physical land density to 32-33 and retains a threshold looting land that draws three/discards three to bin payoffs after the graveyard develops. Replaces a flexible instant that moves two chosen cards to grave. Coliseum only activates at threshold and sacrifices itself while paying blue.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Gyruda, Doom of Depths",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Jin-Gitaxias, Core Augur"
+      ],
+      "incumbent_opportunity_cost": "Gyruda may hit no eligible even-MV creature and fuels opposing graveyards; loses Jin's end-step draw-seven and rescued hand-size lockdown.",
+      "commander_synergy": "A six-mana creature ETB that mills four cards per player and converts one even-MV milled creature to our battlefield, doubled by Panharmonicon.",
+      "adversarial_downside": "Gyruda may hit no eligible even-MV creature and fuels opposing graveyards; loses Jin's end-step draw-seven and rescued hand-size lockdown.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Gyruda, Doom of Depths over Jin-Gitaxias, Core Augur: A six-mana creature ETB that mills four cards per player and converts one even-MV milled creature to our battlefield, doubled by Panharmonicon. Gyruda may hit no eligible even-MV creature and fuels opposing graveyards; loses Jin's end-step draw-seven and rescued hand-size lockdown.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Careful Study",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Likeness Looter"
+      ],
+      "incumbent_opportunity_cost": "One-shot spell replaces a recurring tap looter and its graveyard-creature copying option; lower late-game standalone utility.",
+      "commander_synergy": "One blue mana draws two and deliberately discards two expensive creatures for Sedris, speeding the pre-commander graveyard assembly.",
+      "adversarial_downside": "One-shot spell replaces a recurring tap looter and its graveyard-creature copying option; lower late-game standalone utility.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Careful Study over Likeness Looter: One blue mana draws two and deliberately discards two expensive creatures for Sedris, speeding the pre-commander graveyard assembly. One-shot spell replaces a recurring tap looter and its graveyard-creature copying option; lower late-game standalone utility.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Agent of Treachery",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Sepulchral Primordial"
+      ],
+      "incumbent_opportunity_cost": "Seven mana and a fragile theft ETB; loses Primordial's potential three-opponent graveyard reanimation against stocked opponents.",
+      "commander_synergy": "An unearthed Agent steals ANY target permanent immediately, and that change of control continues after Agent exiles; Panharmonicon doubles its ETB.",
+      "adversarial_downside": "Seven mana and a fragile theft ETB; loses Primordial's potential three-opponent graveyard reanimation against stocked opponents.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Agent of Treachery over Sepulchral Primordial: An unearthed Agent steals ANY target permanent immediately, and that change of control continues after Agent exiles; Panharmonicon doubles its ETB. Seven mana and a fragile theft ETB; loses Primordial's potential three-opponent graveyard reanimation against stocked opponents.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Phyrexian Delver",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Sheoldred, Whispering One"
+      ],
+      "incumbent_opportunity_cost": "Costs life equal to each target's mana value, especially sharp if Panharmonicon doubles it; forfeits Sheoldred's continuing sacrifice pressure when rescued.",
+      "commander_synergy": "Five-mana ETB returns our best creature immediately without waiting for an upkeep that an unearthed Sheoldred normally never reaches.",
+      "adversarial_downside": "Costs life equal to each target's mana value, especially sharp if Panharmonicon doubles it; forfeits Sheoldred's continuing sacrifice pressure when rescued.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Phyrexian Delver over Sheoldred, Whispering One: Five-mana ETB returns our best creature immediately without waiting for an upkeep that an unearthed Sheoldred normally never reaches. Costs life equal to each target's mana value, especially sharp if Panharmonicon doubles it; forfeits Sheoldred's continuing sacrifice pressure when rescued.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Intuition",
+      "source": "2026-10-27 Scryfall/EDHREC commander-specific and direct OFF-RANKED role challenge against exact October 15 100-card Sedris source.",
+      "role": "Sedris-specific graveyard setup, ETB payoff, rescue or six-mana mana-base consistency.",
+      "named_cuts": [
+        "Windfall"
+      ],
+      "incumbent_opportunity_cost": "Loses Windfall's mass hand reset/discard and potential seven-card refill, decreases generic card velocity in stalled hands.",
+      "commander_synergy": "Three-mana instant finds a three-creature pile, making two assured graveyard unearth targets and giving the third to hand; directly tutors Sedris plans.",
+      "adversarial_downside": "Loses Windfall's mass hand reset/discard and potential seven-card refill, decreases generic card velocity in stalled hands.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Intuition over Windfall: Three-mana instant finds a three-creature pile, making two assured graveyard unearth targets and giving the third to hand; directly tutors Sedris plans. Loses Windfall's mass hand reset/discard and potential seven-card refill, decreases generic card velocity in stalled hands.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Ghostly Flicker",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Vile Entomber"
+      ],
+      "incumbent_opportunity_cost": "Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+      "commander_synergy": "Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+      "adversarial_downside": "Against the selected all-99 plan: Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Mesmeric Orb",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Ripples of Undeath"
+      ],
+      "incumbent_opportunity_cost": "Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+      "commander_synergy": "Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+      "adversarial_downside": "Against the selected all-99 plan: Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Discontinuity",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Teferi's Veil"
+      ],
+      "incumbent_opportunity_cost": "One-shot end-turn at 1U on own turn can clear exile triggers, but trading repeatable all-attacker rescue for an interruptible instant lowers resilient duration.",
+      "commander_synergy": "One-shot end-turn at 1U on own turn can clear exile triggers, but trading repeatable all-attacker rescue for an interruptible instant lowers resilient duration.",
+      "adversarial_downside": "Against the selected all-99 plan: One-shot end-turn at 1U on own turn can clear exile triggers, but trading repeatable all-attacker rescue for an interruptible instant lowers resilient duration.",
+      "judgment": "REJECT",
+      "reason": "REJECT: One-shot end-turn at 1U on own turn can clear exile triggers, but trading repeatable all-attacker rescue for an interruptible instant lowers resilient duration.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Ancient Brass Dragon",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Etali, Primal Storm"
+      ],
+      "incumbent_opportunity_cost": "Hasty flying combat can reanimate several creatures on contact but depends on combat damage and a variable d20 roll; Etali triggers on attack without connecting.",
+      "commander_synergy": "Hasty flying combat can reanimate several creatures on contact but depends on combat damage and a variable d20 roll; Etali triggers on attack without connecting.",
+      "adversarial_downside": "Against the selected all-99 plan: Hasty flying combat can reanimate several creatures on contact but depends on combat damage and a variable d20 roll; Etali triggers on attack without connecting.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Hasty flying combat can reanimate several creatures on contact but depends on combat damage and a variable d20 roll; Etali triggers on attack without connecting.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Incarnation Technique",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Victimize"
+      ],
+      "incumbent_opportunity_cost": "Mill five and reanimate one creature, with demonstrate giving repeat value and an opponent a copy; Victimize instead gives two assured bodies for three mana.",
+      "commander_synergy": "Mill five and reanimate one creature, with demonstrate giving repeat value and an opponent a copy; Victimize instead gives two assured bodies for three mana.",
+      "adversarial_downside": "Against the selected all-99 plan: Mill five and reanimate one creature, with demonstrate giving repeat value and an opponent a copy; Victimize instead gives two assured bodies for three mana.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Mill five and reanimate one creature, with demonstrate giving repeat value and an opponent a copy; Victimize instead gives two assured bodies for three mana.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    },
+    {
+      "card": "Conjurer's Closet",
+      "source": "2026-10-27 historical Sedris M6 deep review, EDHREC High Lift/Top Cards and independent OFF-RANKED search.",
+      "role": "Credible competing rescue, self-mill, combat or ETB alternative.",
+      "named_cuts": [
+        "Obeka, Brute Chronologist"
+      ],
+      "incumbent_opportunity_cost": "One reliable end-step blink without opponent agreement can save a creature, but five-mana Closet is narrower and less repeatable across one end-step stack than Obeka's tap.",
+      "commander_synergy": "One reliable end-step blink without opponent agreement can save a creature, but five-mana Closet is narrower and less repeatable across one end-step stack than Obeka's tap.",
+      "adversarial_downside": "Against the selected all-99 plan: One reliable end-step blink without opponent agreement can save a creature, but five-mana Closet is narrower and less repeatable across one end-step stack than Obeka's tap.",
+      "judgment": "REJECT",
+      "reason": "REJECT: One reliable end-step blink without opponent agreement can save a creature, but five-mana Closet is narrower and less repeatable across one end-step stack than Obeka's tap.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sedris_rev1/sedris_review.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Altar of Dementia",
+      "Thassa, Deep-Dwelling",
+      "Agadeem's Awakening // Agadeem, the Undercrypt",
+      "Cephalid Coliseum",
+      "Gyruda, Doom of Depths",
+      "Careful Study",
+      "Agent of Treachery",
+      "Phyrexian Delver",
+      "Intuition"
+    ],
+    "cuts": [
+      "Ashnod's Altar",
+      "Chainer, Nightmare Adept",
+      "Feldon of the Third Path",
+      "Gifts Ungiven",
+      "Jin-Gitaxias, Core Augur",
+      "Likeness Looter",
+      "Sepulchral Primordial",
+      "Sheoldred, Whispering One",
+      "Windfall"
+    ],
+    "coherent_package_tradeoff": "Nine substantive substitutions: preserve Sedris's rescue/ETB core, shift two library slots into 33 physical lands, replace slow/non-immediate reanimator bodies with Delver/Gyruda/Agent ETBs, exchange redundant auxiliary casting/sacrifice for Thassa/Altar, and sharpen single-mana grave setup/instant creature piles. Lose Ashnod mana, Chainer/Feldon backups, Jin's draw seven, Sepulchral opponent grave access, Gifts/Windfall velocity."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Sedris__the_Traitor_King_M7_Rev1.txt",
+    "sha256": "b0aa141fe5d27b1e0d0bc804e692d56ae645c74de4bd6777c501b1ae057969da",
+    "card_count": 100,
+    "deckwide_reconciliation": "Nine one-for-one exact source replacements from physical Oct15 100: final 100 physical cards, 99 names, only Swamp x2 repeats, 33 land-faced slots including one MDFC. No companion, Commander Sedris remains first, UBR, zero project exceptions."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/sedris_rev1/sedris_rev1_verify.py — raw hash, inventory, whole Oracle/legality fetch, sixteen bounded cases.",
+      ".github/workflows/m7-sedris-rev1.yml — exact-head CI live Scryfall, bounded cases and full M7 gate.",
+      "data/grixis/m7/sedris_rev1/sedris_review.md — setup, unearth timing, case accounting and exclusions."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Unearth",
+      "Reanimator",
+      "End-Step Control"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Ashnod's Altar",
+        "weakness": "Converts expendable Titans and unearthed creatures into self-mill immediately, seeding later Sedris targets or milling opponents with spare tokens.",
+        "alternative_named": "Altar of Dementia",
+        "reasoning": "Loses the sacrifice-for-two-colorless mana engine. Unearthed creatures sacrificed this way exile, so this is not a recursive sacrifice loop."
+      },
+      {
+        "card": "Chainer, Nightmare Adept",
+        "weakness": "At the beginning of our end step, blink an unearthed ETB creature before its delayed exile trigger resolves; return as a new object for durable repeated ETBs.",
+        "alternative_named": "Thassa, Deep-Dwelling",
+        "reasoning": "Four mana and an exposed enchantment; removes independent discard and cast-a-creature-from-graveyard backup when Sedris is unavailable."
+      },
+      {
+        "card": "Feldon of the Third Path",
+        "weakness": "Makes land drop 33 while retaining an expensive late-game reanimation spell as a land/spell choice, easing six-mana commander sequencing.",
+        "alternative_named": "Agadeem's Awakening // Agadeem, the Undercrypt",
+        "reasoning": "Loses Feldon's repeatable graveyard token copies and early-game power; Awakening has substantial black requirements and tapped or three-life land cost."
+      },
+      {
+        "card": "Gifts Ungiven",
+        "weakness": "Raises physical land density to 32-33 and retains a threshold looting land that draws three/discards three to bin payoffs after the graveyard develops.",
+        "alternative_named": "Cephalid Coliseum",
+        "reasoning": "Replaces a flexible instant that moves two chosen cards to grave. Coliseum only activates at threshold and sacrifices itself while paying blue."
+      },
+      {
+        "card": "Jin-Gitaxias, Core Augur",
+        "weakness": "A six-mana creature ETB that mills four cards per player and converts one even-MV milled creature to our battlefield, doubled by Panharmonicon.",
+        "alternative_named": "Gyruda, Doom of Depths",
+        "reasoning": "Gyruda may hit no eligible even-MV creature and fuels opposing graveyards; loses Jin's end-step draw-seven and rescued hand-size lockdown."
+      },
+      {
+        "card": "Likeness Looter",
+        "weakness": "One blue mana draws two and deliberately discards two expensive creatures for Sedris, speeding the pre-commander graveyard assembly.",
+        "alternative_named": "Careful Study",
+        "reasoning": "One-shot spell replaces a recurring tap looter and its graveyard-creature copying option; lower late-game standalone utility."
+      },
+      {
+        "card": "Sepulchral Primordial",
+        "weakness": "An unearthed Agent steals ANY target permanent immediately, and that change of control continues after Agent exiles; Panharmonicon doubles its ETB.",
+        "alternative_named": "Agent of Treachery",
+        "reasoning": "Seven mana and a fragile theft ETB; loses Primordial's potential three-opponent graveyard reanimation against stocked opponents."
+      },
+      {
+        "card": "Sheoldred, Whispering One",
+        "weakness": "Five-mana ETB returns our best creature immediately without waiting for an upkeep that an unearthed Sheoldred normally never reaches.",
+        "alternative_named": "Phyrexian Delver",
+        "reasoning": "Costs life equal to each target's mana value, especially sharp if Panharmonicon doubles it; forfeits Sheoldred's continuing sacrifice pressure when rescued."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Three-mana instant finds a three-creature pile, making two assured graveyard unearth targets and giving the third to hand; directly tutors Sedris plans.",
+        "alternative_named": "Intuition",
+        "reasoning": "Loses Windfall's mass hand reset/discard and potential seven-card refill, decreases generic card velocity in stalled hands."
+      },
+      {
+        "card": "Vile Entomber",
+        "weakness": "Blink two legal artifacts/creatures/lands for a one-time rescue and repeated ETBs; removing another buried-creature tutor reduces targets Sedris actually sees.",
+        "alternative_named": "Ghostly Flicker",
+        "reasoning": "Retained after post-floor challenge because sacrificing the incumbent engine is a worse all-matchup trade for this build."
+      },
+      {
+        "card": "Ripples of Undeath",
+        "weakness": "Symmetrical untap self-mill may fill more graveyard cards, but fuels rivals and loses Ripples' selective return-to-hand and predictable first-main mill.",
+        "alternative_named": "Mesmeric Orb",
+        "reasoning": "Retained after post-floor challenge because sacrificing the incumbent engine is a worse all-matchup trade for this build."
+      }
+    ],
+    "off_ranked_opportunities": "Look beyond top EDHREC tags: Altar's sacrifice mills self after unaerthed power, Thassa's end-step stack blink, Agent's lasting theft, Gyruda's ETB mill/reanimate and mana-base spell-lands replace existing genuine opportunity costs, with Panharmonicon preserved.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Altar of Dementia",
+          "Thassa, Deep-Dwelling",
+          "Agadeem's Awakening // Agadeem, the Undercrypt",
+          "Cephalid Coliseum",
+          "Gyruda, Doom of Depths",
+          "Careful Study",
+          "Agent of Treachery",
+          "Phyrexian Delver",
+          "Intuition",
+          "Ghostly Flicker",
+          "Mesmeric Orb"
+        ],
+        "cuts": [
+          "Ashnod's Altar",
+          "Chainer, Nightmare Adept",
+          "Feldon of the Third Path",
+          "Gifts Ungiven",
+          "Jin-Gitaxias, Core Augur",
+          "Likeness Looter",
+          "Sepulchral Primordial",
+          "Sheoldred, Whispering One",
+          "Windfall",
+          "Vile Entomber",
+          "Ripples of Undeath"
+        ],
+        "result_and_rationale": "Full 100 alt11 via sedris_alt11.txt: two extra blink/mill substitutions challenge Vile Entomber/Ripples but reduce deterministic grave tutor and repeated self-grave selection; withheld."
+      },
+      {
+        "adds": [
+          "Altar of Dementia",
+          "Thassa, Deep-Dwelling",
+          "Agadeem's Awakening // Agadeem, the Undercrypt",
+          "Cephalid Coliseum",
+          "Gyruda, Doom of Depths",
+          "Careful Study",
+          "Agent of Treachery",
+          "Phyrexian Delver",
+          "Intuition"
+        ],
+        "cuts": [
+          "Panharmonicon",
+          "Chainer, Nightmare Adept",
+          "Feldon of the Third Path",
+          "Gifts Ungiven",
+          "Jin-Gitaxias, Core Augur",
+          "Likeness Looter",
+          "Sepulchral Primordial",
+          "Sheoldred, Whispering One",
+          "Windfall"
+        ],
+        "result_and_rationale": "Full 100 alt9 Panharmon-cut from Stage A: keep Ashnod's mana as second outlet but lose double high-impact ETBs; strongly rejected after direct comparison."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Kept Panharmonicon against Altar because doubling Rune-Scarred, Agent, Delver, Archon and Titan ETB pays every game; found Ashnod's Altar alternative cut. Kept Sundial's correctly timed exile-trigger dismissal against Ghostly Flicker. Preserved Kelpie and Twilight as unearth identity, chose Chainer/Feldon as slower redundant backups.",
+    "strongest_argument_against_baseline": "The original source has only 31 physical lands for a six-mana commander and carries deferred/upkeep creature payoffs that normally exile before activating. Current direct-ETB and land-faced options can reduce deck's setup debt while preserving rescue engines.",
+    "evidence_based_answer": "The nine selected swaps replace specifically expendable auxiliary pieces, and two full alternate configurations were considered; no numeric win-rate claim. Retained sources still have role advantages, so nine is a quality stop after additional post-floor challengers, not a count target."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After nine swaps crossed the presentation floor, challenged other retained original slots including Ripples, Vile Entomber, Teferi's Veil, Etali, Victimize and Obeka, inspected two source-bound full-100 packages, and kept mana/ETB protection/targeted graveyard filling instead of padding the list.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Vile Entomber",
+        "challenger": "Ghostly Flicker",
+        "tradeoff": "Two-target blink can save two unearthed objects but costs a buried-creature tutor; source deck is activation-target limited and already has five rescue lines.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Ripples of Undeath",
+        "challenger": "Mesmeric Orb",
+        "tradeoff": "Orb mills potentially more but symmetrical risk and random resources are inferior to first-main Ripples controllable mill-plus-buy hand access.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/sedris_rev1/sedris_alt11.txt",
+        "sha256": "229bd064dffb8948d187099fdc70b06ab246835597d18ddcb3646ff503589201",
+        "adds": [
+          "Altar of Dementia",
+          "Thassa, Deep-Dwelling",
+          "Agadeem's Awakening // Agadeem, the Undercrypt",
+          "Cephalid Coliseum",
+          "Gyruda, Doom of Depths",
+          "Careful Study",
+          "Agent of Treachery",
+          "Phyrexian Delver",
+          "Intuition",
+          "Ghostly Flicker",
+          "Mesmeric Orb"
+        ],
+        "cuts": [
+          "Ashnod's Altar",
+          "Chainer, Nightmare Adept",
+          "Feldon of the Third Path",
+          "Gifts Ungiven",
+          "Jin-Gitaxias, Core Augur",
+          "Likeness Looter",
+          "Sepulchral Primordial",
+          "Sheoldred, Whispering One",
+          "Windfall",
+          "Vile Entomber",
+          "Ripples of Undeath"
+        ],
+        "case_for_extra_swaps": "Two more high-lift setup/rescue cards can increase volume of milled grave creatures and save two ETB bodies simultaneously in long, slow games.",
+        "why_not_selected": "Sacrifices best creature Entomb-on-ETB and a repeatable first-main draw-to-hand chooser; protects rescue redundancy at cost of always-needed precise grave targets and card access."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The additional two actual 100-card substitutions marginally increase rescue and random grave fill, but Vile Entomber's deterministic target and Ripples' early selective mill are more valuable in the six-mana Sedris plan; Ancient Brass, Discontinuity, Closet and Incarnation Technique similarly lose measurable retained unique roles. No padding."
+  }
+}
