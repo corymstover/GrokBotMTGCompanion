@@ -1,0 +1,33 @@
+name: "M7 Deck 54 Tetsuo Umezawa Rev1 exact-source certification"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Tetsuo_Umezawa_M7_Rev1*.txt"
+      - "data/grixis/m7/tetsuo_umezawa_rev1/**"
+      - "data/grixis/m7/decision_reviews/Tetsuo_Umezawa*"
+      - "data/grixis/schemas/m7_decisive_optimization.schema.json"
+      - ".github/workflows/m7-deck54-tetsuo-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-oracle-and-finite-case-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Pinned Oct15 baseline, exact 100 and 22 scoped finite cases"
+        run: python3 data/grixis/m7/tetsuo_umezawa_rev1/verify.py
+      - name: "All 93 selected Scryfall Oracle identities, UBR, legal Commander"
+        run: python3 data/grixis/m7/tetsuo_umezawa_rev1/verify.py --live
+      - name: "Install M7 schema dependency"
+        run: python3 -m pip install jsonschema
+      - name: "Current Deck 54 M7 complete 99-slot, 19 swaps, post-floor alternatives"
+        run: python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Tetsuo_Umezawa_rev1.json
+      - name: "Full repository M7 structural decision regression"
+        run: python3 scripts/grixis_m7_decision_gate.py --check
