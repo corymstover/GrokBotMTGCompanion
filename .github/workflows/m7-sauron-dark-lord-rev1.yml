@@ -1,0 +1,30 @@
+name: M7 Deck 50 Sauron Dark Lord Rev1 Oracle and bounded rules
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-sauron-dark-lord-rev1.yml
+      - data/grixis/m7/sauron_dark_lord_rev1/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sauron-dark-lord-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - name: Checkout pinned review head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify approved raw bytes and candidate physical 100
+        run: python data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_verify.py
+      - name: Verify current all-card Scryfall identity and official Commander legality
+        run: python data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_verify.py --live-scryfall
