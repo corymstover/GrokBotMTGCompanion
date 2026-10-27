@@ -14,14 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 NAME = "Sol_kanar_the_Swamp_King_M7_Rev1"
 LIST = ROOT / "data/grixis/m7/candidate_lists" / f"{NAME}.txt"
 SNAP = ROOT / "data/grixis/m7/oracle_snapshots" / f"{NAME}_2026-10-15.json"
-HASH = "f7ff68f912839accc7177c288536c9abf9deefc8332d975236ef6f028b6f0e02"
+HASH = "2bd99c569df4a86897bca0164d2a1fa309b92f8b721e406b8394dfb04b1239e3"
 ADDS = {
     "Necropotence", "Orcish Bowmasters", "Rowan, Scion of War",
-    "Hatred", "Yawgmoth's Will", "Mindcrank", "Bubbling Muck"
+    "Hatred", "Yawgmoth's Will", "Bubbling Muck"
 }
 CUTS = {
     "Alhammarret's Archive", "Underworld Dreams", "Bontu's Monument",
-    "Bloodletter of Aclazotz", "Dimir Signet", "Rakdos Signet",
+    "Bloodletter of Aclazotz", "Dimir Signet",
     "Talisman of Creativity"
 }
 
@@ -51,6 +51,8 @@ class Solkanar52M7(unittest.TestCase):
     def test_exact_swap_membership_and_exclusion(self):
         self.assertTrue(ADDS <= self.counts.keys())
         self.assertFalse(CUTS & self.counts.keys())
+        self.assertIn("Rakdos Signet", self.counts)
+        self.assertNotIn("Mindcrank", self.counts)
         self.assertNotIn("Sorin of House Markov // Sorin, Ravenous Neonate", self.counts)
 
     def test_october_archive_oracle_legality_and_identity(self):
@@ -103,16 +105,17 @@ class Solkanar52M7(unittest.TestCase):
         extra_for_each = 4
         self.assertEqual(tapping_four_swamps_for_b + extra_for_each, 8)
 
-    def test_bloodchief_mindcrank_requires_quest_counters(self):
-        def active(counter):
-            return counter >= 3
-        self.assertFalse(active(2))
-        self.assertTrue(active(3))
-        # Without cards entering the graveyard, Ascension's second trigger
-        # does not fire, even if an opponent already has an empty library.
-        cards_milled_into_graveyard = 0
-        life_loss_from_ascension = cards_milled_into_graveyard * 2
-        self.assertEqual(life_loss_from_ascension, 0)
+    def test_mana_challenge_keeps_rakdos_rock(self):
+        from math import comb
+        def chance_at_least_one_rock(rock_count, cards_seen=10, library=99):
+            return 1 - comb(library - rock_count, cards_seen) / comb(library, cards_seen)
+        baseline_seven_colored_two_mana_rocks = 7
+        after_two_cuts = 5
+        rejected_after_three_cuts = 4
+        self.assertGreater(chance_at_least_one_rock(after_two_cuts),
+                           chance_at_least_one_rock(rejected_after_three_cuts))
+        self.assertLess(chance_at_least_one_rock(after_two_cuts),
+                        chance_at_least_one_rock(baseline_seven_colored_two_mana_rocks))
 
 
 if __name__ == "__main__":
