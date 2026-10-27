@@ -126,7 +126,7 @@
     {
       "card": "Displacer Kitten",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Repeatable mode reset",
+      "role": "Repeatable noncreature-triggered blink to reset Sol's previously chosen modes",
       "named_cuts": [
         "Assault Suit"
       ],
@@ -146,13 +146,13 @@
     {
       "card": "Nightscape Familiar",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Blue/red cost efficiency",
+      "role": "Reduce generic casting costs on blue or red spells without losing UBR fixing",
       "named_cuts": [
         "Perplexing Chimera"
       ],
       "incumbent_opportunity_cost": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast",
       "commander_synergy": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
-      "adversarial_downside": "is a removable 1/1.",
+      "adversarial_downside": "Nightscape Familiar is a fragile, removable 1/1 and reduces only one generic mana from a spell of multiple qualifying colors.",
       "judgment": "SELECT_ADD",
       "reason": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
       "confidence": "MODERATE",
@@ -166,7 +166,7 @@
     {
       "card": "Brand",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Ownership recovery",
+      "role": "One-mana owner-control retrieval after a dangerous Sol mode-four transfer",
       "named_cuts": [
         "Reins of Power"
       ],
@@ -186,7 +186,7 @@
     {
       "card": "Alexios, Deimos of Kosmos",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Political transfer pressure",
+      "role": "Automatic across-upkeep transfer pressure among opponents with owner safety",
       "named_cuts": [
         "Visions of Duplicity"
       ],
@@ -206,7 +206,7 @@
     {
       "card": "Sleeper Agent",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Native gift liability",
+      "role": "One-black self-gifting creature that creates sustained recipient upkeep damage",
       "named_cuts": [
         "The Trickster-God's Heist"
       ],
@@ -226,7 +226,7 @@
     {
       "card": "Wishclaw Talisman",
       "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
-      "role": "Native combo tutoring",
+      "role": "Artifact tutor that finds a native Pact/Donate gift pair before changing control",
       "named_cuts": [
         "Propaganda"
       ],
@@ -473,7 +473,7 @@
   "owner_authority": {
     "canonical_deck_changed": false,
     "exact_candidate_owner_approved": false,
-    "owner_approval_question": "Cory, approve Deck #53 Sol'Kanar the Tainted M7 Rev1 exact raw SHA-256 c244b7c3e31b108a0730db37790de14dd167c9ee274259b3f18bbb5971a1ef20?"
+    "owner_approval_question": "This deck is complete. Do you approve it?"
   },
   "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
   "low_swap_heightened_audit": {
