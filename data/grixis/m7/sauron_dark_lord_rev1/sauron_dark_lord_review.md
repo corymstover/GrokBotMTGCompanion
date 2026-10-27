@@ -19,6 +19,13 @@ counters into unblocked attacks, and converts the entire-hand discard into
 mana, damage, future card access or selection rather than relying on
 three separate symmetrical board sweeps.
 
+**Critical post-fixture correction:** Arcane Adaptation naming Wraith also
+turns **Sauron and The Great Goblin** into Wraiths. Roaming Throne choosing
+Wraith then doubles *their* relevant triggered abilities along with each
+Nazgûl's. One choice can amplify the entire creature engine at once while
+Adaptation remains on the battlefield; the previous mutually-exclusive
+Avatar-versus-Wraith assumption applies only without that type conversion.
+
 Natural ceiling: **Bracket 4 — Optimized**, not a proven cEDH list.
 Tags: **Amass Orcs / Ring Temptation / Wraiths**.
 
@@ -128,7 +135,14 @@ ten 1-for-1 changes and identity core. Nazgûl explicitly allows up to
 nine copies under card Oracle; no project exceptions. UBR and official
 Commander legality require CI's *live collection* check of all 91 names.
 
-Bounded deterministic fixtures cover Sauron ward, spell-cast timing,
+Bona fide **16 finite source-bound executable fixture tests** now cover the
+15 blueprint C/K/E/W/F case IDs and an additional discard-package check,
+including actual cost counters, zones, independent LIFO triggers, adversarial
+negated preconditions, mass-removal and the new Throne/Adaptation bridge.
+They are in `tests/test_m6_sauron_dark_lord_m7_rev1_cases.py` and must pass
+at exact PR head alongside the repository M7 decision gate; see the scoped
+I/J adjudication (not a retroactive M6 milestone seal). Baseline quick
+checks additionally cover Sauron ward, spell-cast timing,
 Mauhúr counter replacement, Great Goblin event counts, Roaming Throne
 choice, 7-Nazgûl temptation, Minas Morgul, combat-only Ring,
 quiet opponents, sweeper loss, and candidate Arcane/Herald/Moonstone/

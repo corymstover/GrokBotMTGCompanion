@@ -1,4 +1,4 @@
-name: M7 Deck 50 Sauron Dark Lord Rev1 Oracle and bounded rules
+name: M7 Deck 50 Sauron Dark Lord Rev1 Oracle cases and M7 decision gate
 
 on:
   pull_request:
@@ -6,6 +6,10 @@ on:
     paths:
       - .github/workflows/m7-sauron-dark-lord-rev1.yml
       - data/grixis/m7/sauron_dark_lord_rev1/**
+      - data/grixis/m7/candidate_lists/Sauron__the_Dark_Lord_M7_Rev1.txt
+      - data/grixis/m7/decision_reviews/Sauron__the_Dark_Lord_rev1.json
+      - data/grixis/m6/ij/adjudications/Sauron_the_Dark_Lord_M7_Rev1_20261027.json
+      - tests/test_m6_sauron_dark_lord_m7_rev1_cases.py
   workflow_dispatch:
 
 permissions:
@@ -28,3 +32,9 @@ jobs:
         run: python data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_verify.py
       - name: Verify current all-card Scryfall identity and official Commander legality
         run: python data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_verify.py --live-scryfall
+      - name: Execute all 15 blueprint P0 and P1 finite cases plus changed-card test
+        run: python -m unittest discover -s tests -p 'test_m6_sauron_dark_lord_m7_rev1_cases.py' -v
+      - name: Verify source-bound M7 full-99 final-decision schema and post-floor gate
+        run: |
+          python -m pip install jsonschema
+          python scripts/grixis_m7_decision_gate.py --check

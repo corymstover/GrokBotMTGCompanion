@@ -119,13 +119,14 @@ def rules_fixtures():
     assert counter_event(1, False, True) == (1, 1)
     assert counter_event(0, True, True) == (1, 1)
 
-    # K5: Roaming Throne's ONE choice cannot simultaneously double Avatar
-    # Sauron triggers and Wraith Nazgul triggers.
-    def copies(choice, sauron_triggers, nazgul_triggers):
-        return (sauron_triggers * (2 if choice == "Avatar" else 1),
+    # K5: Throne's one chosen type may nevertheless match BOTH Sauron and
+    # Nazgul: Arcane Adaptation naming Wraith grants Sauron that subtype.
+    def copies(choice, sauron_triggers, nazgul_triggers, adaptation=False):
+        return (sauron_triggers * (2 if choice == "Avatar" or (choice == "Wraith" and adaptation) else 1),
                 nazgul_triggers * (2 if choice == "Wraith" else 1))
     assert copies("Avatar", 2, 7) == (4, 7)
     assert copies("Wraith", 2, 7) == (2, 14)
+    assert copies("Wraith", 2, 7, adaptation=True) == (4, 14)
 
     # K6/E2: One temptation triggers each of seven Nazgul, but Sauron's
     # discard-whole-hand choice is optional; only choosing it draws four.
