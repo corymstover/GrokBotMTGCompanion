@@ -1,0 +1,95 @@
+quantity,card,role,decision,replacement,reason
+1,Aetherflux Reservoir,Lifegain / drain finisher,KEEP,,converts black-spell life gain or Coffers mana into player pressure
+1,Alhammarret's Archive,Mana land / utility,CUT,Necropotence,5 MV slow lifegain/draw doubler replaced by 3MV life-to-cards Necropotence
+1,Ancient Tomb,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Arcane Signet,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Badlands,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Baleful Strix,"Black spell, value or payoff",KEEP,,black-spell cast or board value retained after candidate challenge
+1,Beseech the Mirror,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Black Market Connections,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Blanket of Night,Commander core,KEEP,,redundant global Swamp conversion for swampwalk and Swamp scaling
+1,Fell the Profane // Fell Mire,Modal land / removal,KEEP,,"land-capable black spell removal, protects 36 functional land-capable slots"
+1,Blood Crypt,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Bloodchief Ascension,Lifegain / drain finisher,KEEP,,existing life-loss-to-gain engine that gains Mindcrank partner
+1,Bloodletter of Aclazotz,Mana land / utility,CUT,Hatred,duplicative 4MV loss amplifier; Hatred is a commander-swampwalk one-hit line
+1,Bloodstained Mire,Typed-Swamp fetch,KEEP,,fetch typed Swamps while fixing red/black
+1,Bloodthirsty Conqueror,Lifegain / drain finisher,KEEP,,gain when opponent loses life for drain feedback lines
+1,Bojuka Bog,Mana land / utility,KEEP,,uncounterable land-based opponent graveyard exile; Lake rejected
+1,Bolas's Citadel,Draw / tutor / wheel,KEEP,,uses replenishable life buffer as card velocity and finish
+1,Bontu's Monument,Mana land / utility,CUT,"Rowan, Scion of War",creature-cast discount is underused in low-creature shell; Rowan converts life loss into black/red spells
+1,Cabal Coffers,Swamp infrastructure,KEEP,,maintains Swamp count or land-type payoff and essential black production
+1,Chrome Mox,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,City of Brass,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Command Tower,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Consuming Corruption,"Black spell, value or payoff",KEEP,,black Swamp-count creature removal that gains life
+1,Counterspell,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Crypt Ghast,"Black spell, value or payoff",KEEP,,actual Swamp mana multiplier with extort
+1,Cyclonic Rift,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Dark Ritual,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Deadly Rollick,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Deflecting Swat,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Demon's Horn,Commander core,KEEP,,separate every-player black-spell gain event independent of commander
+1,Demonic Tutor,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Dimir Signet,Mana land / utility,CUT,Yawgmoth's Will,UB rock less crucial than graveyard black-spell replay; mana density still scrutinized
+1,Raucous Theater,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Dread Presence,"Black spell, value or payoff",KEEP,,Swamp ETB life and draw engine
+1,Undercity Sewers,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Enduring Tenacity,Lifegain / drain finisher,KEEP,,gain-to-loss conversion and resilient black enchantment body
+1,Exquisite Blood,Lifegain / drain finisher,KEEP,,life-loss-to-gain feedback partner for four gain-to-loss payoffs
+1,Exsanguinate,Lifegain / drain finisher,KEEP,,big Swamp-mana drain that replenishes life
+1,Withering Torment,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,The Soul Stone,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Fierce Guardianship,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Flooded Strand,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
+1,Gray Merchant of Asphodel,"Black spell, value or payoff",KEEP,,black devotion converts to table drain and life
+1,Grindstone,Commander core,KEEP,,compact finish on Painter's Servant color-setting axis
+1,Imperial Seal,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Jeska's Will,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Jet Medallion,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,"K'rrik, Son of Yawgmoth","Black spell, value or payoff",KEEP,,life buffer substitutes for black mana to cast many triggers
+1,Lotus Petal,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Luxury Suite,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Mana Confluence,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Mana Drain,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Mana Vault,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Marauding Blight-Priest,Lifegain / drain finisher,KEEP,,one separate table drain per gain event
+1,Marsh Flats,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
+1,Misty Rainforest,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Morphic Pool,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Mox Diamond,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Mystic Remora,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,"Otawara, Soaring City",Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Painter's Servant,Commander core,KEEP,,"naming black expands every-player Sol'kanar/Horn spell triggers, with Grindstone finish"
+1,Polluted Delta,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
+1,Rakdos Charm,Interaction / protection,KEEP,,instant graveyard exclusion and artifact answer; deliberately not cut
+1,Rakdos Signet,Ramp / black-spell velocity,KEEP,,retains BR colored acceleration toward 5MV commander; Mindcrank rejected after colored-rock probability challenge
+1,Rhystic Study,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Scalding Tarn,Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
+1,Sensei's Divining Top,Draw / tutor / wheel,KEEP,,paired Citadel/Aetherflux loop and topdeck smoothing
+1,"Sheoldred, the Apocalypse",Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Smoldering Marsh,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Sol Ring,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Starscape Cleric,Lifegain / drain finisher,KEEP,,black BLB 116; repeated opponent drain per gain event
+1,Steam Vents,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Sunken Hollow,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+6,Swamp,Swamp infrastructure,KEEP,,maintains Swamp count or land-type payoff and essential black production
+1,Swan Song,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,"Takenuma, Abandoned Mire",Typed-Swamp fetch,KEEP,,fetches typed Swamp duals for Coffers/Ghast and multicolor fixing
+1,Talisman of Creativity,Mana land / utility,CUT,Bubbling Muck,UR rock off black-spell axis swapped for Swamp-doubling Bubbling Muck
+1,Talisman of Dominance,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,Talisman of Indulgence,Ramp / black-spell velocity,KEEP,,accelerates toward five-mana commander and black spells
+1,The One Ring,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Torment of Hailfire,Lifegain / drain finisher,KEEP,,Swamp-mana win payoff and table pressure
+1,Toxic Deluge,Interaction / protection,KEEP,,protects five-mana commander and interrupts opposing combos
+1,Training Center,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Underground Sea,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Underworld Dreams,Mana land / utility,CUT,Orcish Bowmasters,BBB passive wheel-punisher replaced with 1B flash black Bowmasters
+1,"Urborg, Tomb of Yawgmoth",Swamp infrastructure,KEEP,,"creates Swamps for commander swampwalk, Coffers and Ghast"
+1,Vampiric Tutor,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,"Vito, Thorn of the Dusk Rose",Lifegain / drain finisher,KEEP,,converts every gain event to target life loss; feedback with Exquisite Blood
+1,Volcanic Island,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Watery Grave,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
+1,Wheel of Fortune,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Windfall,Draw / tutor / wheel,KEEP,,sustains efficient card flow and finds commander synergies
+1,Witch of the Moors,"Black spell, value or payoff",KEEP,,every end step with life gained enables opponent sacrifice plus grave recursion
+1,Xander's Lounge,Mana land / utility,KEEP,,maintains 5MV commander color sources while supporting utility or life-cost lines
