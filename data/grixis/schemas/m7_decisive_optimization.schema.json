@@ -155,7 +155,7 @@
           "items": {
             "$ref": "#/$defs/name"
           },
-          "uniqueItems": true
+          "description": "Physical cut copies; repeat only when the authoritative 100 contains multiple copies (typically basic lands). The exact Counter-based source reconciliation enforces this."
         },
         "coherent_package_tradeoff": {
           "$ref": "#/$defs/meaningful"
@@ -372,7 +372,7 @@
               "cuts": {
                 "type": "array",
                 "minItems": 2,
-                "uniqueItems": true,
+                "description": "Physical cut copies, checked against the complete staged 100 and canonical baseline.",
                 "items": {
                   "$ref": "#/$defs/name"
                 }
@@ -736,7 +736,7 @@
                 "items": {
                   "$ref": "#/$defs/name"
                 },
-                "uniqueItems": true
+                "description": "Physical copies including multiple basic-land cuts; staged alternatives are reconciled separately against the authoritative 100."
               },
               "result_and_rationale": {
                 "$ref": "#/$defs/meaningful"

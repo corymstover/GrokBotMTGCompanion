@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Tetsuo_Umezawa",
+  "canonical_baseline_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+  "canonical_baseline_logical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+  "commander_identity": {
+    "mechanical_plan": "Tetsuo Umezawa ({U}{B}{R}) destroys a tapped OR blocking creature for {U}{B}{B}{R}, tap. Create legal targets through forced combat or exact taps, support continuous colored-mana and untaps, and protect the source while paying four colored mana per destruction.",
+    "protected_core": [
+      "Tetsuo Umezawa",
+      "Aphetto Alchemist",
+      "Bloodthirsty Blade",
+      "Blustersquall",
+      "Disrupt Decorum",
+      "Fatestitcher",
+      "Firkraag, Cunning Instigator",
+      "Flood",
+      "Frozen Aether",
+      "Hylda's Crown of Winter",
+      "Illusionist's Bracers",
+      "Karazikar, the Eye Tyrant",
+      "Kardur, Doomscourge",
+      "Magewright's Stone",
+      "Minamo, School at Water's Edge",
+      "Patriar's Seal",
+      "Puppeteer",
+      "Rathi Trapper",
+      "Red Death, Shipwrecker",
+      "Retreat to Coralhelm",
+      "Royal Assassin",
+      "Sting, the Glinting Dagger",
+      "Thousand-Year Elixir",
+      "Vengeful Ancestor",
+      "Verity Circle"
+    ],
+    "natural_ceiling": "Bracket 4 Optimized — colored-pip-intensive political creature-control with conditional opposing targets. Reversal/Scepter plus productive on-color rocks can supply an infinite untap/mana engine, but needs setup and a legal target for Tetsuo to use it; no generic backup win inserted.",
+    "anti_homogenization": "Keep goad/tap/untap and commander-ability copying dominant. No Oracle-less Aura engine, Thoracle/Consultation or Breach generic Grixis shell; free protection and draw serve four-pip activated removal."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "99/99 original noncommander physical copies reviewed individually in the 99slot CSV. Eighty KEEP and 19 CUT. Source role table comes from Oct20 authored M6 review, and each deleted physical copy has a named replacement. Retain eight-plus untap, six-plus target makers, ten on-theme goad/political pieces and powerful colored rocks; replace delayed and generic actions with reusable direct tap, death untap, protection and strict pip-fixing.",
+    "mana_base_and_curve": "35 front-face lands, one Soporific Springs MDFC = 36 land-capable cards, Maze of Ith produces no mana. Initial sixteen basics become Island3/Mountain3/Swamp4; two Islands, two Mountains and two Swamps plus Sulfur Falls become Otawara/Morphic Pool, City of Brass/Mana Confluence, Takenuma/Urborg and Forbidden Orchard. This creates multiple new B and any-color sources to pay UBBR repeatedly. Life loss and nonbasic hate are actual tradeoffs; colored signets/talismans stay.",
+    "interaction_resilience": "Keep Bedevil, Chaos Warp, Terminate, Withering Torment, Mana Drain, Force of Will, Cyclonic Rift, Vandalblast, Damnation, Rakdos Charm and Swiftfoot Boots/Lightning Greaves. Fierce/Swat protect without tapping needed UBBR. Deluge can spare 3-toughness Tetsuo at X2, but losing Propaganda and Counterspell increases defense and creature-spell-response risks.",
+    "weakest_slots": [
+      {
+        "card": "Rings of Brighthearth",
+        "weakness": "Incumbent challenge: An equipped Tetsuo copies the UBBR destroy activation for one extra generic rather than Rings' two; haste on the equipped creature also handles a recast.",
+        "alternative_named": "Battlemage's Bracers",
+        "reasoning": "Requires casting a three-mana red artifact and paying equip two, whereas Rings can copy activated abilities of other permanents without equipping."
+      },
+      {
+        "card": "Mountain",
+        "weakness": "Incumbent challenge: Any-color land supplies whichever activation pip is missing instead of a fifth single-red basic, especially the second black.",
+        "alternative_named": "City of Brass",
+        "reasoning": "Costs one life whenever tapped for mana and is vulnerable to nonbasic-land hate."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Incumbent challenge: With Tetsuo controlled, redirecting an opponent's targeted removal or stack interaction while retaining UBBR for activation is stronger than a three-mana passive attack tax.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Does not stop board wipes, untargeted removal or an attack in a two-player endgame; Propaganda was a defensive floor."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Incumbent challenge: At instant speed readies Tetsuo plus all nonland permanents, and with Isochron Scepter and productive colored rocks creates repeatable mana/untap access rather than one black burst.",
+        "alternative_named": "Dramatic Reversal",
+        "reasoning": "Alone it requires an established board and does not untap lands; one-shot Dark Ritual could accelerate a black-heavy early turn."
+      },
+      {
+        "card": "Counterspell",
+        "weakness": "Incumbent challenge: A free noncreature counter when Tetsuo is present preserves all four colored mana to destroy threats while answering interaction.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "Cannot counter creatures and costs 2U when the commander is absent, unlike Counterspell's unconditional UU."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Incumbent challenge: Turns conditional U/R dual into untapped U/B/R source for Tetsuo, and Spirits given to opponents can later be goaded or destroyed once tapped.",
+        "alternative_named": "Forbidden Orchard",
+        "reasoning": "Every activation gifts an opposing 1/1 flying token; those tokens may pressure us and enter untapped."
+      },
+      {
+        "card": "Geode Rager",
+        "weakness": "Incumbent challenge: Four-mana artifact can pay one and tap an active utility creature during an opponent's upkeep, then make Tetsuo's destroy ability immediately relevant; Geode costs six plus a future landfall.",
+        "alternative_named": "Icy Manipulator",
+        "reasoning": "Single target at once and one-mana extra activation; loses Rager's repeatable entire-player goad and first strike body."
+      },
+      {
+        "card": "Brainstorm",
+        "weakness": "Incumbent challenge: Imprinting Reversal converts the existing colored-rock suite into repeated Tetsuo and rock untaps, potentially positive colored mana with three or more mana per iteration.",
+        "alternative_named": "Isochron Scepter",
+        "reasoning": "Two-card setup needs an instant in hand and multiple productive rocks; Brainstorm gave immediate one-blue selection with fetch shuffles."
+      },
+      {
+        "card": "Fumiko the Lowblood",
+        "weakness": "Incumbent challenge: Four-mana creature supplies each opponent a permanently goaded hasty first-striking trample token, and the tokens become tapped Tetsuo targets when they attack.",
+        "alternative_named": "Life of the Party",
+        "reasoning": "Gives real threats to opponents, and tokens can attack Cory in endgame or when other opponents cannot be attacked; Fumiko forced every opposing creature to attack."
+      },
+      {
+        "card": "Island",
+        "weakness": "Incumbent challenge: In multiplayer the UB dual supplies either blue or an additional source for Tetsuo's double-black activation where an Island could only supply blue.",
+        "alternative_named": "Morphic Pool",
+        "reasoning": "Enters tapped in heads-up play or after opponents have been eliminated; fewer fetchable basics remain."
+      },
+      {
+        "card": "Sly Instigator",
+        "weakness": "Incumbent challenge: Artifact is usable the turn it enters to tap any creature for a Tetsuo target or untap Tetsuo for another payable activation, without a sick creature body.",
+        "alternative_named": "Puppet Strings",
+        "reasoning": "Two mana per activation and only one target; Sly's persistent goad and evasion manipulation could be superior in a slow political table."
+      },
+      {
+        "card": "Xantcha, Sleeper Agent",
+        "weakness": "Incumbent challenge: Opponents' spells now generate either cards or mana taxes; keeps removal/protection available without giving opponent cards as Xantcha's activated draw can.",
+        "alternative_named": "Rhystic Study",
+        "reasoning": "The trigger can be paid for and Study is a generic Grixis power card; Xantcha created a distinct shared political damage outlet."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "Incumbent challenge: Preserves B production and channels back a lost untap creature such as Aphetto Alchemist or Puppeteer, with a discount while Tetsuo is on board.",
+        "alternative_named": "Takenuma, Abandoned Mire",
+        "reasoning": "Milling three may be undesirable in some draws, and it is a nonbasic rather than an easily searched basic Swamp."
+      },
+      {
+        "card": "Grenzo, Havoc Raiser",
+        "weakness": "Incumbent challenge: Each creature killed by Tetsuo normally dies, untapping the equipped commander for another payable UBBR activation; extra death events also reset him.",
+        "alternative_named": "Thornbite Staff",
+        "reasoning": "Equip four and no extra colored mana make setup costly; Grenzo's two-mana body could goad or generate card access through combat connections."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Incumbent challenge: For three mana and X life, X=2 clears small utility creatures while Tetsuo stays a 1/1 until end of turn; Act's 13 damage kills our whole tap/untap setup.",
+        "alternative_named": "Toxic Deluge",
+        "reasoning": "Paying life can be severe against large creatures and Deluge may leave high-toughness threats without a high X."
+      },
+      {
+        "card": "Urabrask the Hidden",
+        "weakness": "Incumbent challenge: Three-mana enchantment makes creatures played by opponents enter tapped two turns sooner than Urabrask's five-mana symmetrical haste/entry lock, so new utility creatures start as legal Tetsuo targets.",
+        "alternative_named": "Uphill Battle",
+        "reasoning": "Does not grant our team haste and does not cover every token entering; Urabrask's broader two-sided effect wins some high-mana games."
+      },
+      {
+        "card": "Rathi Trapper",
+        "weakness": "Untaps Tetsuo or another permanent, and cycling offers an immediate untap card draw.",
+        "alternative_named": "Vizier of Tumbling Sands",
+        "reasoning": "Keep for the target/answer role: Rathi's cheap repeatable B tap directly manufactures legal targets; Vizier cannot tap opposing creatures and its cycling needs two mana plus discarded card."
+      },
+      {
+        "card": "Bedevil",
+        "weakness": "Cheap 1B creature reduces red/blue spell generic requirements and can block.",
+        "alternative_named": "Nightscape Familiar",
+        "reasoning": "Keep for the target/answer role: Tetsuo's cast cost UBR and destroy cost UBBR contain no generic symbols, so a spell discount cannot cure the central activation bottleneck; Bedevil answers artifacts/planeswalkers."
+      },
+      {
+        "card": "Royal Assassin",
+        "weakness": "Provides a repeatable tap mode and kill-tapped mode in one 1UB body.",
+        "alternative_named": "Stalking Assassin",
+        "reasoning": "Keep for the target/answer role: Its tap costs 3U or kill 3B plus tap and summoning sickness, much slower than Royal Assassin's free kill and current Crown/Strings tap."
+      }
+    ],
+    "current_baseline_strength": "The Oct15 approved 14-swap tap/untap list is commander-first, legal and internally coherent. M6 deep review/Grok advisory identified Icy versus Geode but held it for payable enemy-upkeep comparison. M7 reconsiders all of that rather than treating historical HOLD as final.",
+    "candidate_pool_scope": "EDHREC Tetsuo base Top Cards/High Lift, forced-combat and tap/untap tags, 162 unfiltered decks but 10/3 tagged samples. Current 93-card live Scryfall Oracle and 25 material decisions. Existing M6/Grok/Pass C research, alternate exact physical 18/21 swap lists, and fresh off-ranking Reversal/Scepter/Staff and utility-land research.",
+    "off_ranked_search_conclusion": "Off-ranking Scepter/Reversal and Thornbite Staff unlock repeated colored-rock/Tetsuo access; Battlemage reduces copy cost and adds haste; precision artifacts address opponents' nonattacking utility creatures. Additional Vizier, Nightscape, Stalking Assassin, Ensnare and Angler candidates weaken target coverage or answers in larger portfolios."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/tetsuo-umezawa — October 27 2026, Top Cards/High Lift, 162 decks; Uphill Battle 29% / 1081x lift, Icy Manipulator 22% / 370x lift, Royal Assassin and Arrows already included; metric label actually observed.",
+    "https://edhrec.com/commanders/tetsuo-umezawa/forced-combat — October 27 2026, 10 tagged-deck sample, goad candidate discovery not quality proof.",
+    "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap — October 27 2026 older cached page, three decks and deprecated synergy numbers not conflated with High Lift.",
+    "2026-10-27 OFF-RANKED current Scryfall search: Thornbite Staff, Dramatic Reversal, Isochron Scepter, Battlemage's Bracers, Otawara, Takenuma, Urborg, City of Brass, Mana Confluence, Forbidden Orchard.",
+    "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md and data/grixis/m6/grokbot_pass_c_advisory/Tetsuo_Umezawa.md; prior-involved advisory not independent.",
+    "data/grixis/m6/test_blueprints/Tetsuo_Umezawa.json — 5 P0 + 9 P1 design cases corresponded to 22 bounded executed candidate fixtures, not rewritten as historical M6 success.",
+    "data/grixis/m6/ij/input_receipts/tetsuo-umezawa.json — historical input attestation; phase_b_replayed false and I/J downstream incomplete, no retrospective milestone claim."
+  ],
+  "material_candidates": [
+    {
+      "card": "Battlemage's Bracers",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "repeatable commander-ability copy with haste",
+      "named_cuts": [
+        "Rings of Brighthearth"
+      ],
+      "incumbent_opportunity_cost": "Requires casting a three-mana red artifact and paying equip two, whereas Rings can copy activated abilities of other permanents without equipping.",
+      "commander_synergy": "An equipped Tetsuo copies the UBBR destroy activation for one extra generic rather than Rings' two; haste on the equipped creature also handles a recast.",
+      "adversarial_downside": "Requires casting a three-mana red artifact and paying equip two, whereas Rings can copy activated abilities of other permanents without equipping.",
+      "judgment": "SELECT_ADD",
+      "reason": "An equipped Tetsuo copies the UBBR destroy activation for one extra generic rather than Rings' two; haste on the equipped creature also handles a recast. The named opportunity cost is outweighed in the complete 100: Requires casting a three-mana red artifact and paying equip two, whereas Rings can copy activated abilities of other permanents without equipping.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "City of Brass",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "reliable U/B/B/R access in the Tetsuo commander plan",
+      "named_cuts": [
+        "Mountain"
+      ],
+      "incumbent_opportunity_cost": "Costs one life whenever tapped for mana and is vulnerable to nonbasic-land hate.",
+      "commander_synergy": "Any-color land supplies whichever activation pip is missing instead of a fifth single-red basic, especially the second black.",
+      "adversarial_downside": "Costs one life whenever tapped for mana and is vulnerable to nonbasic-land hate.",
+      "judgment": "SELECT_ADD",
+      "reason": "Any-color land supplies whichever activation pip is missing instead of a fifth single-red basic, especially the second black. The named opportunity cost is outweighed in the complete 100: Costs one life whenever tapped for mana and is vulnerable to nonbasic-land hate.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Deflecting Swat",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "protect Tetsuo and expensive paid abilities at zero mana",
+      "named_cuts": [
+        "Propaganda"
+      ],
+      "incumbent_opportunity_cost": "Does not stop board wipes, untargeted removal or an attack in a two-player endgame; Propaganda was a defensive floor.",
+      "commander_synergy": "With Tetsuo controlled, redirecting an opponent's targeted removal or stack interaction while retaining UBBR for activation is stronger than a three-mana passive attack tax.",
+      "adversarial_downside": "Does not stop board wipes, untargeted removal or an attack in a two-player endgame; Propaganda was a defensive floor.",
+      "judgment": "SELECT_ADD",
+      "reason": "With Tetsuo controlled, redirecting an opponent's targeted removal or stack interaction while retaining UBBR for activation is stronger than a three-mana passive attack tax. The named opportunity cost is outweighed in the complete 100: Does not stop board wipes, untargeted removal or an attack in a two-player endgame; Propaganda was a defensive floor.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Dramatic Reversal",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "untap Tetsuo and colored mana rocks",
+      "named_cuts": [
+        "Dark Ritual"
+      ],
+      "incumbent_opportunity_cost": "Alone it requires an established board and does not untap lands; one-shot Dark Ritual could accelerate a black-heavy early turn.",
+      "commander_synergy": "At instant speed readies Tetsuo plus all nonland permanents, and with Isochron Scepter and productive colored rocks creates repeatable mana/untap access rather than one black burst.",
+      "adversarial_downside": "Alone it requires an established board and does not untap lands; one-shot Dark Ritual could accelerate a black-heavy early turn.",
+      "judgment": "SELECT_ADD",
+      "reason": "At instant speed readies Tetsuo plus all nonland permanents, and with Isochron Scepter and productive colored rocks creates repeatable mana/untap access rather than one black burst. The named opportunity cost is outweighed in the complete 100: Alone it requires an established board and does not untap lands; one-shot Dark Ritual could accelerate a black-heavy early turn.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Fierce Guardianship",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "free protection of commander-dependent engine",
+      "named_cuts": [
+        "Counterspell"
+      ],
+      "incumbent_opportunity_cost": "Cannot counter creatures and costs 2U when the commander is absent, unlike Counterspell's unconditional UU.",
+      "commander_synergy": "A free noncreature counter when Tetsuo is present preserves all four colored mana to destroy threats while answering interaction.",
+      "adversarial_downside": "Cannot counter creatures and costs 2U when the commander is absent, unlike Counterspell's unconditional UU.",
+      "judgment": "SELECT_ADD",
+      "reason": "A free noncreature counter when Tetsuo is present preserves all four colored mana to destroy threats while answering interaction. The named opportunity cost is outweighed in the complete 100: Cannot counter creatures and costs 2U when the commander is absent, unlike Counterspell's unconditional UU.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Forbidden Orchard",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "three-color fixing with creature creation",
+      "named_cuts": [
+        "Sulfur Falls"
+      ],
+      "incumbent_opportunity_cost": "Every activation gifts an opposing 1/1 flying token; those tokens may pressure us and enter untapped.",
+      "commander_synergy": "Turns conditional U/R dual into untapped U/B/R source for Tetsuo, and Spirits given to opponents can later be goaded or destroyed once tapped.",
+      "adversarial_downside": "Every activation gifts an opposing 1/1 flying token; those tokens may pressure us and enter untapped.",
+      "judgment": "SELECT_ADD",
+      "reason": "Turns conditional U/R dual into untapped U/B/R source for Tetsuo, and Spirits given to opponents can later be goaded or destroyed once tapped. The named opportunity cost is outweighed in the complete 100: Every activation gifts an opposing 1/1 flying token; those tokens may pressure us and enter untapped.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Icy Manipulator",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "on-demand exact target creation",
+      "named_cuts": [
+        "Geode Rager"
+      ],
+      "incumbent_opportunity_cost": "Single target at once and one-mana extra activation; loses Rager's repeatable entire-player goad and first strike body.",
+      "commander_synergy": "Four-mana artifact can pay one and tap an active utility creature during an opponent's upkeep, then make Tetsuo's destroy ability immediately relevant; Geode costs six plus a future landfall.",
+      "adversarial_downside": "Single target at once and one-mana extra activation; loses Rager's repeatable entire-player goad and first strike body.",
+      "judgment": "SELECT_ADD",
+      "reason": "Four-mana artifact can pay one and tap an active utility creature during an opponent's upkeep, then make Tetsuo's destroy ability immediately relevant; Geode costs six plus a future landfall. The named opportunity cost is outweighed in the complete 100: Single target at once and one-mana extra activation; loses Rager's repeatable entire-player goad and first strike body.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Isochron Scepter",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "reusable Dramatic Reversal or cheap instant engine",
+      "named_cuts": [
+        "Brainstorm"
+      ],
+      "incumbent_opportunity_cost": "Two-card setup needs an instant in hand and multiple productive rocks; Brainstorm gave immediate one-blue selection with fetch shuffles.",
+      "commander_synergy": "Imprinting Reversal converts the existing colored-rock suite into repeated Tetsuo and rock untaps, potentially positive colored mana with three or more mana per iteration.",
+      "adversarial_downside": "Two-card setup needs an instant in hand and multiple productive rocks; Brainstorm gave immediate one-blue selection with fetch shuffles.",
+      "judgment": "SELECT_ADD",
+      "reason": "Imprinting Reversal converts the existing colored-rock suite into repeated Tetsuo and rock untaps, potentially positive colored mana with three or more mana per iteration. The named opportunity cost is outweighed in the complete 100: Two-card setup needs an instant in hand and multiple productive rocks; Brainstorm gave immediate one-blue selection with fetch shuffles.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Life of the Party",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "lasting opponent-versus-opponent forced combat",
+      "named_cuts": [
+        "Fumiko the Lowblood"
+      ],
+      "incumbent_opportunity_cost": "Gives real threats to opponents, and tokens can attack Cory in endgame or when other opponents cannot be attacked; Fumiko forced every opposing creature to attack.",
+      "commander_synergy": "Four-mana creature supplies each opponent a permanently goaded hasty first-striking trample token, and the tokens become tapped Tetsuo targets when they attack.",
+      "adversarial_downside": "Gives real threats to opponents, and tokens can attack Cory in endgame or when other opponents cannot be attacked; Fumiko forced every opposing creature to attack.",
+      "judgment": "SELECT_ADD",
+      "reason": "Four-mana creature supplies each opponent a permanently goaded hasty first-striking trample token, and the tokens become tapped Tetsuo targets when they attack. The named opportunity cost is outweighed in the complete 100: Gives real threats to opponents, and tokens can attack Cory in endgame or when other opponents cannot be attacked; Fumiko forced every opposing creature to attack.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Mana Confluence",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "all-color activation source in the Tetsuo commander plan",
+      "named_cuts": [
+        "Mountain"
+      ],
+      "incumbent_opportunity_cost": "Requires paying life for every colored tap and increases exposure to nonbasic hate.",
+      "commander_synergy": "Trades a second redundant single-red basic for immediately available blue or double-black pips, addressing the actual UBBR bottleneck.",
+      "adversarial_downside": "Requires paying life for every colored tap and increases exposure to nonbasic hate.",
+      "judgment": "SELECT_ADD",
+      "reason": "Trades a second redundant single-red basic for immediately available blue or double-black pips, addressing the actual UBBR bottleneck. The named opportunity cost is outweighed in the complete 100: Requires paying life for every colored tap and increases exposure to nonbasic hate.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Morphic Pool",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "early untapped U/B fixing in the Tetsuo commander plan",
+      "named_cuts": [
+        "Island"
+      ],
+      "incumbent_opportunity_cost": "Enters tapped in heads-up play or after opponents have been eliminated; fewer fetchable basics remain.",
+      "commander_synergy": "In multiplayer the UB dual supplies either blue or an additional source for Tetsuo's double-black activation where an Island could only supply blue.",
+      "adversarial_downside": "Enters tapped in heads-up play or after opponents have been eliminated; fewer fetchable basics remain.",
+      "judgment": "SELECT_ADD",
+      "reason": "In multiplayer the UB dual supplies either blue or an additional source for Tetsuo's double-black activation where an Island could only supply blue. The named opportunity cost is outweighed in the complete 100: Enters tapped in heads-up play or after opponents have been eliminated; fewer fetchable basics remain.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Otawara, Soaring City",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "on-color untapped channel interaction",
+      "named_cuts": [
+        "Island"
+      ],
+      "incumbent_opportunity_cost": "Channel needs available mana and losing a basic slightly weakens basic-search and nonbasic-hate resilience.",
+      "commander_synergy": "Retains blue land function and adds a Tetsuo-discounted channel bounce for untapped creatures, artifacts, enchantments or planeswalkers when removal must stay open.",
+      "adversarial_downside": "Channel needs available mana and losing a basic slightly weakens basic-search and nonbasic-hate resilience.",
+      "judgment": "SELECT_ADD",
+      "reason": "Retains blue land function and adds a Tetsuo-discounted channel bounce for untapped creatures, artifacts, enchantments or planeswalkers when removal must stay open. The named opportunity cost is outweighed in the complete 100: Channel needs available mana and losing a basic slightly weakens basic-search and nonbasic-hate resilience.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Puppet Strings",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "immediate tap-or-untap commander utility",
+      "named_cuts": [
+        "Sly Instigator"
+      ],
+      "incumbent_opportunity_cost": "Two mana per activation and only one target; Sly's persistent goad and evasion manipulation could be superior in a slow political table.",
+      "commander_synergy": "Artifact is usable the turn it enters to tap any creature for a Tetsuo target or untap Tetsuo for another payable activation, without a sick creature body.",
+      "adversarial_downside": "Two mana per activation and only one target; Sly's persistent goad and evasion manipulation could be superior in a slow political table.",
+      "judgment": "SELECT_ADD",
+      "reason": "Artifact is usable the turn it enters to tap any creature for a Tetsuo target or untap Tetsuo for another payable activation, without a sick creature body. The named opportunity cost is outweighed in the complete 100: Two mana per activation and only one target; Sly's persistent goad and evasion manipulation could be superior in a slow political table.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Rhystic Study",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "sustained resource draw for colored activations",
+      "named_cuts": [
+        "Xantcha, Sleeper Agent"
+      ],
+      "incumbent_opportunity_cost": "The trigger can be paid for and Study is a generic Grixis power card; Xantcha created a distinct shared political damage outlet.",
+      "commander_synergy": "Opponents' spells now generate either cards or mana taxes; keeps removal/protection available without giving opponent cards as Xantcha's activated draw can.",
+      "adversarial_downside": "The trigger can be paid for and Study is a generic Grixis power card; Xantcha created a distinct shared political damage outlet.",
+      "judgment": "SELECT_ADD",
+      "reason": "Opponents' spells now generate either cards or mana taxes; keeps removal/protection available without giving opponent cards as Xantcha's activated draw can. The named opportunity cost is outweighed in the complete 100: The trigger can be paid for and Study is a generic Grixis power card; Xantcha created a distinct shared political damage outlet.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Takenuma, Abandoned Mire",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "untapped black source plus creature recovery",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "Milling three may be undesirable in some draws, and it is a nonbasic rather than an easily searched basic Swamp.",
+      "commander_synergy": "Preserves B production and channels back a lost untap creature such as Aphetto Alchemist or Puppeteer, with a discount while Tetsuo is on board.",
+      "adversarial_downside": "Milling three may be undesirable in some draws, and it is a nonbasic rather than an easily searched basic Swamp.",
+      "judgment": "SELECT_ADD",
+      "reason": "Preserves B production and channels back a lost untap creature such as Aphetto Alchemist or Puppeteer, with a discount while Tetsuo is on board. The named opportunity cost is outweighed in the complete 100: Milling three may be undesirable in some draws, and it is a nonbasic rather than an easily searched basic Swamp.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Thornbite Staff",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "death-triggered Tetsuo untaps in the Tetsuo commander plan",
+      "named_cuts": [
+        "Grenzo, Havoc Raiser"
+      ],
+      "incumbent_opportunity_cost": "Equip four and no extra colored mana make setup costly; Grenzo's two-mana body could goad or generate card access through combat connections.",
+      "commander_synergy": "Each creature killed by Tetsuo normally dies, untapping the equipped commander for another payable UBBR activation; extra death events also reset him.",
+      "adversarial_downside": "Equip four and no extra colored mana make setup costly; Grenzo's two-mana body could goad or generate card access through combat connections.",
+      "judgment": "SELECT_ADD",
+      "reason": "Each creature killed by Tetsuo normally dies, untapping the equipped commander for another payable UBBR activation; extra death events also reset him. The named opportunity cost is outweighed in the complete 100: Equip four and no extra colored mana make setup costly; Grenzo's two-mana body could goad or generate card access through combat connections.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Toxic Deluge",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "selective earlier board control",
+      "named_cuts": [
+        "Blasphemous Act"
+      ],
+      "incumbent_opportunity_cost": "Paying life can be severe against large creatures and Deluge may leave high-toughness threats without a high X.",
+      "commander_synergy": "For three mana and X life, X=2 clears small utility creatures while Tetsuo stays a 1/1 until end of turn; Act's 13 damage kills our whole tap/untap setup.",
+      "adversarial_downside": "Paying life can be severe against large creatures and Deluge may leave high-toughness threats without a high X.",
+      "judgment": "SELECT_ADD",
+      "reason": "For three mana and X life, X=2 clears small utility creatures while Tetsuo stays a 1/1 until end of turn; Act's 13 damage kills our whole tap/untap setup. The named opportunity cost is outweighed in the complete 100: Paying life can be severe against large creatures and Deluge may leave high-toughness threats without a high X.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Uphill Battle",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "early opponent creature-spell tap access",
+      "named_cuts": [
+        "Urabrask the Hidden"
+      ],
+      "incumbent_opportunity_cost": "Does not grant our team haste and does not cover every token entering; Urabrask's broader two-sided effect wins some high-mana games.",
+      "commander_synergy": "Three-mana enchantment makes creatures played by opponents enter tapped two turns sooner than Urabrask's five-mana symmetrical haste/entry lock, so new utility creatures start as legal Tetsuo targets.",
+      "adversarial_downside": "Does not grant our team haste and does not cover every token entering; Urabrask's broader two-sided effect wins some high-mana games.",
+      "judgment": "SELECT_ADD",
+      "reason": "Three-mana enchantment makes creatures played by opponents enter tapped two turns sooner than Urabrask's five-mana symmetrical haste/entry lock, so new utility creatures start as legal Tetsuo targets. The named opportunity cost is outweighed in the complete 100: Does not grant our team haste and does not cover every token entering; Urabrask's broader two-sided effect wins some high-mana games.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Urborg, Tomb of Yawgmoth",
+      "source": "2026-10-27 commander EDHREC Top Cards/High Lift, off-ranking Scryfall candidate discovery and existing M6/Grok source",
+      "role": "reliable double-black pip infrastructure",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "It is nonbasic, may strengthen opposing mana bases, and removes one basic Swamp from the deck.",
+      "commander_synergy": "Retains black land production and makes fetch/utility/color lands capable of producing B for repeated UBBR activations, substantially increasing second-black reliability.",
+      "adversarial_downside": "It is nonbasic, may strengthen opposing mana bases, and removes one basic Swamp from the deck.",
+      "judgment": "SELECT_ADD",
+      "reason": "Retains black land production and makes fetch/utility/color lands capable of producing B for repeated UBBR activations, substantially increasing second-black reliability. The named opportunity cost is outweighed in the complete 100: It is nonbasic, may strengthen opposing mana bases, and removes one basic Swamp from the deck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa",
+        "data/grixis/m7/tetsuo_umezawa_rev1/verify.py"
+      ]
+    },
+    {
+      "card": "Vizier of Tumbling Sands",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "flexible untap with cycling in the Tetsuo commander plan",
+      "named_cuts": [
+        "Rathi Trapper"
+      ],
+      "incumbent_opportunity_cost": "Untaps Tetsuo or another permanent, and cycling offers an immediate untap card draw.",
+      "commander_synergy": "Untaps Tetsuo or another permanent, and cycling offers an immediate untap card draw.",
+      "adversarial_downside": "Rathi's cheap repeatable B tap directly manufactures legal targets; Vizier cannot tap opposing creatures and its cycling needs two mana plus discarded card.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: Rathi's cheap repeatable B tap directly manufactures legal targets; Vizier cannot tap opposing creatures and its cycling needs two mana plus discarded card.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    },
+    {
+      "card": "Nightscape Familiar",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "generic discount and regen in the Tetsuo commander plan",
+      "named_cuts": [
+        "Bedevil"
+      ],
+      "incumbent_opportunity_cost": "Cheap 1B creature reduces red/blue spell generic requirements and can block.",
+      "commander_synergy": "Cheap 1B creature reduces red/blue spell generic requirements and can block.",
+      "adversarial_downside": "Tetsuo's cast cost UBR and destroy cost UBBR contain no generic symbols, so a spell discount cannot cure the central activation bottleneck; Bedevil answers artifacts/planeswalkers.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: Tetsuo's cast cost UBR and destroy cost UBBR contain no generic symbols, so a spell discount cannot cure the central activation bottleneck; Bedevil answers artifacts/planeswalkers.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    },
+    {
+      "card": "Stalking Assassin",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "versatile backup assassin in the Tetsuo commander plan",
+      "named_cuts": [
+        "Royal Assassin"
+      ],
+      "incumbent_opportunity_cost": "Provides a repeatable tap mode and kill-tapped mode in one 1UB body.",
+      "commander_synergy": "Provides a repeatable tap mode and kill-tapped mode in one 1UB body.",
+      "adversarial_downside": "Its tap costs 3U or kill 3B plus tap and summoning sickness, much slower than Royal Assassin's free kill and current Crown/Strings tap.",
+      "judgment": "REJECT",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: Its tap costs 3U or kill 3B plus tap and summoning sickness, much slower than Royal Assassin's free kill and current Crown/Strings tap.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    },
+    {
+      "card": "Ensnare",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "instant-wide tap spike in the Tetsuo commander plan",
+      "named_cuts": [
+        "Blustersquall"
+      ],
+      "incumbent_opportunity_cost": "Can tap all creatures with alternate cost of returning two Islands, including some opponents' blockers.",
+      "commander_synergy": "Can tap all creatures with alternate cost of returning two Islands, including some opponents' blockers.",
+      "adversarial_downside": "It taps own Tetsuo too, the deck drops to three Islands, and bouncing lands worsens UBBR supply; Blustersquall overload spares Tetsuo.",
+      "judgment": "REJECT",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: It taps own Tetsuo too, the deck drops to three Islands, and bouncing lands worsens UBBR supply; Blustersquall overload spares Tetsuo.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    },
+    {
+      "card": "Angler Turtle",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "opponent forced-attacks in the Tetsuo commander plan",
+      "named_cuts": [
+        "Firkraag, Cunning Instigator"
+      ],
+      "incumbent_opportunity_cost": "A seven-mana creature encourages all opposing creatures to attack if able.",
+      "commander_synergy": "A seven-mana creature encourages all opposing creatures to attack if able.",
+      "adversarial_downside": "No goad-away rule and late seven-mana exposure, unlike Firkraag's attack-directed goad and card advantage.",
+      "judgment": "REJECT",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: No goad-away rule and late seven-mana exposure, unlike Firkraag's attack-directed goad and card advantage.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    },
+    {
+      "card": "Pemmin's Aura",
+      "source": "2026-10-27 EDHREC tap-untap/forced-combat and OFF-RANKING Scryfall source comparison",
+      "role": "repeatable blue-mana untap in the Tetsuo commander plan",
+      "named_cuts": [
+        "Aphetto Alchemist"
+      ],
+      "incumbent_opportunity_cost": "Enchanted Tetsuo could theoretically pay U to untap, but this requires the Aura to be attached without casting it targeting Tetsuo.",
+      "commander_synergy": "Enchanted Tetsuo could theoretically pay U to untap, but this requires the Aura to be attached without casting it targeting Tetsuo.",
+      "adversarial_downside": "Tetsuo cannot be targeted by Aura spells; normal casting on him is prohibited, so the supposed direct commander untap package does not function.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Against the selected 100 this candidate loses on functional access or interaction: Tetsuo cannot be targeted by Aura spells; normal casting on him is prohibited, so the supposed direct commander untap package does not function.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Tetsuo_Umezawa.md",
+        "https://edhrec.com/commanders/tetsuo-umezawa/tap-untap"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Battlemage's Bracers",
+      "City of Brass",
+      "Deflecting Swat",
+      "Dramatic Reversal",
+      "Fierce Guardianship",
+      "Forbidden Orchard",
+      "Icy Manipulator",
+      "Isochron Scepter",
+      "Life of the Party",
+      "Mana Confluence",
+      "Morphic Pool",
+      "Otawara, Soaring City",
+      "Puppet Strings",
+      "Rhystic Study",
+      "Takenuma, Abandoned Mire",
+      "Thornbite Staff",
+      "Toxic Deluge",
+      "Uphill Battle",
+      "Urborg, Tomb of Yawgmoth"
+    ],
+    "cuts": [
+      "Rings of Brighthearth",
+      "Mountain",
+      "Propaganda",
+      "Dark Ritual",
+      "Counterspell",
+      "Sulfur Falls",
+      "Geode Rager",
+      "Brainstorm",
+      "Fumiko the Lowblood",
+      "Mountain",
+      "Island",
+      "Island",
+      "Sly Instigator",
+      "Xantcha, Sleeper Agent",
+      "Swamp",
+      "Grenzo, Havoc Raiser",
+      "Blasphemous Act",
+      "Urabrask the Hidden",
+      "Swamp"
+    ],
+    "coherent_package_tradeoff": "Nineteen justified physical swaps, twelve nonland and seven color-base changes: better exact tap, repeated untaps/death cascades, free commander protection, selective sweep and more UBBR sources. Costs are weaker generic combat defense, one fewer blanket counter and more nonbasic/life exposure. On-theme line count stays high and no generic terminal combo inserted."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Rings of Brighthearth",
+        "weakness": "Incumbent challenge: An equipped Tetsuo copies the UBBR destroy activation for one extra generic rather than Rings' two; haste on the equipped creature also handles a recast.",
+        "alternative_named": "Battlemage's Bracers",
+        "reasoning": "Requires casting a three-mana red artifact and paying equip two, whereas Rings can copy activated abilities of other permanents without equipping."
+      },
+      {
+        "card": "Mountain",
+        "weakness": "Incumbent challenge: Any-color land supplies whichever activation pip is missing instead of a fifth single-red basic, especially the second black.",
+        "alternative_named": "City of Brass",
+        "reasoning": "Costs one life whenever tapped for mana and is vulnerable to nonbasic-land hate."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Incumbent challenge: With Tetsuo controlled, redirecting an opponent's targeted removal or stack interaction while retaining UBBR for activation is stronger than a three-mana passive attack tax.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Does not stop board wipes, untargeted removal or an attack in a two-player endgame; Propaganda was a defensive floor."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Incumbent challenge: At instant speed readies Tetsuo plus all nonland permanents, and with Isochron Scepter and productive colored rocks creates repeatable mana/untap access rather than one black burst.",
+        "alternative_named": "Dramatic Reversal",
+        "reasoning": "Alone it requires an established board and does not untap lands; one-shot Dark Ritual could accelerate a black-heavy early turn."
+      },
+      {
+        "card": "Counterspell",
+        "weakness": "Incumbent challenge: A free noncreature counter when Tetsuo is present preserves all four colored mana to destroy threats while answering interaction.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "Cannot counter creatures and costs 2U when the commander is absent, unlike Counterspell's unconditional UU."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Incumbent challenge: Turns conditional U/R dual into untapped U/B/R source for Tetsuo, and Spirits given to opponents can later be goaded or destroyed once tapped.",
+        "alternative_named": "Forbidden Orchard",
+        "reasoning": "Every activation gifts an opposing 1/1 flying token; those tokens may pressure us and enter untapped."
+      },
+      {
+        "card": "Geode Rager",
+        "weakness": "Incumbent challenge: Four-mana artifact can pay one and tap an active utility creature during an opponent's upkeep, then make Tetsuo's destroy ability immediately relevant; Geode costs six plus a future landfall.",
+        "alternative_named": "Icy Manipulator",
+        "reasoning": "Single target at once and one-mana extra activation; loses Rager's repeatable entire-player goad and first strike body."
+      },
+      {
+        "card": "Brainstorm",
+        "weakness": "Incumbent challenge: Imprinting Reversal converts the existing colored-rock suite into repeated Tetsuo and rock untaps, potentially positive colored mana with three or more mana per iteration.",
+        "alternative_named": "Isochron Scepter",
+        "reasoning": "Two-card setup needs an instant in hand and multiple productive rocks; Brainstorm gave immediate one-blue selection with fetch shuffles."
+      },
+      {
+        "card": "Fumiko the Lowblood",
+        "weakness": "Incumbent challenge: Four-mana creature supplies each opponent a permanently goaded hasty first-striking trample token, and the tokens become tapped Tetsuo targets when they attack.",
+        "alternative_named": "Life of the Party",
+        "reasoning": "Gives real threats to opponents, and tokens can attack Cory in endgame or when other opponents cannot be attacked; Fumiko forced every opposing creature to attack."
+      },
+      {
+        "card": "Island",
+        "weakness": "Incumbent challenge: In multiplayer the UB dual supplies either blue or an additional source for Tetsuo's double-black activation where an Island could only supply blue.",
+        "alternative_named": "Morphic Pool",
+        "reasoning": "Enters tapped in heads-up play or after opponents have been eliminated; fewer fetchable basics remain."
+      },
+      {
+        "card": "Sly Instigator",
+        "weakness": "Incumbent challenge: Artifact is usable the turn it enters to tap any creature for a Tetsuo target or untap Tetsuo for another payable activation, without a sick creature body.",
+        "alternative_named": "Puppet Strings",
+        "reasoning": "Two mana per activation and only one target; Sly's persistent goad and evasion manipulation could be superior in a slow political table."
+      },
+      {
+        "card": "Xantcha, Sleeper Agent",
+        "weakness": "Incumbent challenge: Opponents' spells now generate either cards or mana taxes; keeps removal/protection available without giving opponent cards as Xantcha's activated draw can.",
+        "alternative_named": "Rhystic Study",
+        "reasoning": "The trigger can be paid for and Study is a generic Grixis power card; Xantcha created a distinct shared political damage outlet."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "Incumbent challenge: Preserves B production and channels back a lost untap creature such as Aphetto Alchemist or Puppeteer, with a discount while Tetsuo is on board.",
+        "alternative_named": "Takenuma, Abandoned Mire",
+        "reasoning": "Milling three may be undesirable in some draws, and it is a nonbasic rather than an easily searched basic Swamp."
+      },
+      {
+        "card": "Grenzo, Havoc Raiser",
+        "weakness": "Incumbent challenge: Each creature killed by Tetsuo normally dies, untapping the equipped commander for another payable UBBR activation; extra death events also reset him.",
+        "alternative_named": "Thornbite Staff",
+        "reasoning": "Equip four and no extra colored mana make setup costly; Grenzo's two-mana body could goad or generate card access through combat connections."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Incumbent challenge: For three mana and X life, X=2 clears small utility creatures while Tetsuo stays a 1/1 until end of turn; Act's 13 damage kills our whole tap/untap setup.",
+        "alternative_named": "Toxic Deluge",
+        "reasoning": "Paying life can be severe against large creatures and Deluge may leave high-toughness threats without a high X."
+      },
+      {
+        "card": "Urabrask the Hidden",
+        "weakness": "Incumbent challenge: Three-mana enchantment makes creatures played by opponents enter tapped two turns sooner than Urabrask's five-mana symmetrical haste/entry lock, so new utility creatures start as legal Tetsuo targets.",
+        "alternative_named": "Uphill Battle",
+        "reasoning": "Does not grant our team haste and does not cover every token entering; Urabrask's broader two-sided effect wins some high-mana games."
+      },
+      {
+        "card": "Rathi Trapper",
+        "weakness": "Untaps Tetsuo or another permanent, and cycling offers an immediate untap card draw.",
+        "alternative_named": "Vizier of Tumbling Sands",
+        "reasoning": "Keep for the target/answer role: Rathi's cheap repeatable B tap directly manufactures legal targets; Vizier cannot tap opposing creatures and its cycling needs two mana plus discarded card."
+      },
+      {
+        "card": "Bedevil",
+        "weakness": "Cheap 1B creature reduces red/blue spell generic requirements and can block.",
+        "alternative_named": "Nightscape Familiar",
+        "reasoning": "Keep for the target/answer role: Tetsuo's cast cost UBR and destroy cost UBBR contain no generic symbols, so a spell discount cannot cure the central activation bottleneck; Bedevil answers artifacts/planeswalkers."
+      },
+      {
+        "card": "Royal Assassin",
+        "weakness": "Provides a repeatable tap mode and kill-tapped mode in one 1UB body.",
+        "alternative_named": "Stalking Assassin",
+        "reasoning": "Keep for the target/answer role: Its tap costs 3U or kill 3B plus tap and summoning sickness, much slower than Royal Assassin's free kill and current Crown/Strings tap."
+      }
+    ],
+    "off_ranked_opportunities": "The off-ranking key is repeatable Scepter/Dramatic colored-rock untap and Thornbite Staff kill-trigger reset, plus Battlemage's Bracers and land-channel/all-color source improvement.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Battlemage's Bracers",
+          "City of Brass",
+          "Deflecting Swat",
+          "Dramatic Reversal",
+          "Fierce Guardianship",
+          "Forbidden Orchard",
+          "Isochron Scepter",
+          "Life of the Party",
+          "Mana Confluence",
+          "Morphic Pool",
+          "Otawara, Soaring City",
+          "Rhystic Study",
+          "Takenuma, Abandoned Mire",
+          "Thornbite Staff",
+          "Toxic Deluge",
+          "Uphill Battle",
+          "Urborg, Tomb of Yawgmoth",
+          "Vizier of Tumbling Sands"
+        ],
+        "cuts": [
+          "Rings of Brighthearth",
+          "Mountain",
+          "Propaganda",
+          "Dark Ritual",
+          "Counterspell",
+          "Sulfur Falls",
+          "Brainstorm",
+          "Fumiko the Lowblood",
+          "Mountain",
+          "Island",
+          "Island",
+          "Xantcha, Sleeper Agent",
+          "Swamp",
+          "Grenzo, Havoc Raiser",
+          "Blasphemous Act",
+          "Urabrask the Hidden",
+          "Swamp",
+          "Rathi Trapper"
+        ],
+        "result_and_rationale": "An exact complete 100 retaining original Geode Rager and Sly Instigator and adding Vizier instead of Rathi. Goad breadth wins in creature-swarm tables but weakens immediate upkeep tap and kill timing."
+      },
+      {
+        "adds": [
+          "Battlemage's Bracers",
+          "City of Brass",
+          "Deflecting Swat",
+          "Dramatic Reversal",
+          "Fierce Guardianship",
+          "Forbidden Orchard",
+          "Icy Manipulator",
+          "Isochron Scepter",
+          "Life of the Party",
+          "Mana Confluence",
+          "Morphic Pool",
+          "Otawara, Soaring City",
+          "Puppet Strings",
+          "Rhystic Study",
+          "Takenuma, Abandoned Mire",
+          "Thornbite Staff",
+          "Toxic Deluge",
+          "Uphill Battle",
+          "Urborg, Tomb of Yawgmoth",
+          "Nightscape Familiar",
+          "Vizier of Tumbling Sands"
+        ],
+        "cuts": [
+          "Rings of Brighthearth",
+          "Mountain",
+          "Propaganda",
+          "Dark Ritual",
+          "Counterspell",
+          "Sulfur Falls",
+          "Geode Rager",
+          "Brainstorm",
+          "Fumiko the Lowblood",
+          "Mountain",
+          "Island",
+          "Island",
+          "Sly Instigator",
+          "Xantcha, Sleeper Agent",
+          "Swamp",
+          "Grenzo, Havoc Raiser",
+          "Blasphemous Act",
+          "Urabrask the Hidden",
+          "Swamp",
+          "Bedevil",
+          "Rathi Trapper"
+        ],
+        "result_and_rationale": "A complete 21-swap 100 adds Vizier/Familiar by cutting Rathi/Bedevil. Additional generic discounts and cycling lose the cheap repeat target maker and artifact/planeswalker removal."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Icy versus Geode is revisited with turn-four artifact and five total mana paid versus six-plus-landfall body, on enemy upkeep or before attackers. Frozen Aether's multi-player permanent-entry denial is preserved; Sly instead of Geode and Fumiko are alternate cuts judged weaker. Previous M6 'HOLD' not copied.",
+    "strongest_argument_against_baseline": "Six-mana Geode requires landfall and future attack to make a target; Sly waits through creature summoning sickness; original double-black availability is stressed by six red/blue-only basics and a conditional UR dual.",
+    "evidence_based_answer": "The complete 19-change chosen package generates ready target conditions, colored payments and untaps while preserving direct goad identity. The 21-change package is rejected on target-access and answer-coverage grounds, not because nineteen is a target."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Tetsuo_Umezawa_M7_Rev1.txt",
+    "sha256": "e00196135931bde6e380e47d5ffe9e4360d4756f00ad083ee5ed0757919fddd7",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact hash source 100 physical, 93 distinct, basics Island3 Mountain3 Swamp4 only repeats, Grixis legal, 35 lands + 1 MDFC, commander first, source-diff 19 adds/19 cuts."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "canonical main live October 27 Oct15 Tetsuo owner-approved raw 100-card SHA 14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6 and pinned blob.",
+      "data/grixis/m7/tetsuo_umezawa_rev1/verify.py --live: Scryfall POST collection resolves all 93 distinct selected IDs, all UBR or colorless, all officially Commander legal; no exception.",
+      "data/grixis/m7/tetsuo_umezawa_rev1/verify.py: 22 finite candidate-scope source/payability/interaction checks PASS mapping all 14 M6 P0/P1 planned IDs, not full rules engine.",
+      "data/grixis/m7/decision_reviews/Tetsuo_Umezawa_M7_Rev1_99slot_ledger.csv 99/99 source physical slots and proposed dispositions.",
+      "data/grixis/m7/candidate_lists/Tetsuo_Umezawa_M7_Rev1_alt18.txt and Tetsuo_Umezawa_M7_Rev1_alt21.txt full actual staged 100-card alternatives.",
+      "data/grixis/m6/ij/input_receipts/tetsuo-umezawa.json historically attested only; downstream incomplete, not a new I/J or M6.10 milestone."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Tap/Untap",
+      "Forced Combat",
+      "Activated Abilities"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Post-five floor audit revisited every original 99 physical slot including all 16 original basic lands, spell-to-colored mana tradeoffs, copy/haste redundancy, timed tap preconditions, and losses of blanket removal/pillowfort. The present 19 is not a cap: the complete 21-swap alternative was evaluated, and three further retained incumbent roles Bedevil, Rathi Trapper and Royal Assassin faced named new challengers.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Bedevil",
+        "challenger": "Nightscape Familiar",
+        "tradeoff": "Keep the BBR instant that removes artifacts/planeswalkers; Nightscape reduces generic only, while both Tetsuo cast UBR and activate UBBR have zero generic.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Rathi Trapper",
+        "challenger": "Vizier of Tumbling Sands",
+        "tradeoff": "Keep two-mana repeatable enemy tap; Vizier's cycling untap can reset Tetsuo once but cannot make a nonattacker become a legal tapped target.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Royal Assassin",
+        "challenger": "Stalking Assassin",
+        "tradeoff": "Keep backup free tap-to-kill; Stalking's 3U or 3B tap/kill activations are prohibitively generic expensive versus existing cheaper sources.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Tetsuo_Umezawa_M7_Rev1_alt21.txt",
+        "sha256": "f00107bb185625d66b5d2cdd140145a45830cf2c1d1f02ebfb73362d3f2e0941",
+        "adds": [
+          "Battlemage's Bracers",
+          "City of Brass",
+          "Deflecting Swat",
+          "Dramatic Reversal",
+          "Fierce Guardianship",
+          "Forbidden Orchard",
+          "Icy Manipulator",
+          "Isochron Scepter",
+          "Life of the Party",
+          "Mana Confluence",
+          "Morphic Pool",
+          "Otawara, Soaring City",
+          "Puppet Strings",
+          "Rhystic Study",
+          "Takenuma, Abandoned Mire",
+          "Thornbite Staff",
+          "Toxic Deluge",
+          "Uphill Battle",
+          "Urborg, Tomb of Yawgmoth",
+          "Nightscape Familiar",
+          "Vizier of Tumbling Sands"
+        ],
+        "cuts": [
+          "Rings of Brighthearth",
+          "Mountain",
+          "Propaganda",
+          "Dark Ritual",
+          "Counterspell",
+          "Sulfur Falls",
+          "Geode Rager",
+          "Brainstorm",
+          "Fumiko the Lowblood",
+          "Mountain",
+          "Island",
+          "Island",
+          "Sly Instigator",
+          "Xantcha, Sleeper Agent",
+          "Swamp",
+          "Grenzo, Havoc Raiser",
+          "Blasphemous Act",
+          "Urabrask the Hidden",
+          "Swamp",
+          "Bedevil",
+          "Rathi Trapper"
+        ],
+        "case_for_extra_swaps": "Add Vizier and Nightscape on top of all 19 selected changes to increase untap cycling and spell discount in a complete 100.",
+        "why_not_selected": "It sacrifices Bedevil artifact/planeswalker removal and Rathi cheap direct tap; Nightscape's generic discount has no bearing on UBR casting Tetsuo or his UBBR destruction activation."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The decisive metric is payable, protected UBBR removal opportunities with actual legal tapped/blocking targets. The remaining challengers either delay exact tap creation, cannot reduce colored activation costs, lose uncommon artifact/planeswalker answers, or require untenable mana setup. Source and finite rules checks support this stopping judgment independently of any swap count."
+  }
+}
