@@ -1,0 +1,35 @@
+name: "M7 Deck 56 original M6 P0 finite attribution follow-up"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/madcap_jester_rev1/m6_p0_followup.py"
+      - "data/grixis/m7/madcap_jester_rev1/M6_P0_event_attribution_followup_2026-10-27.md"
+      - ".github/workflows/m7-deck56-m6-p0-followup.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-approved-100-five-p0-models:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Five original P0 finite source, zone, cost, event and negative checks"
+        run: python3 data/grixis/m7/madcap_jester_rev1/m6_p0_followup.py
+      - name: "Fetch one immutable public Scryfall Oracle Cards feed"
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            -H 'User-Agent: GrixisCommanderEncyclopedia/1.0' \
+            -o "$RUNNER_TEMP/oracle-cards-20261027210243.jsonl.gz" \
+            'https://data.scryfall.io/oracle-cards/oracle-cards-20261027210243.jsonl.gz'
+      - name: "Same five P0 cases against pinned archive bytes and seven source Oracle IDs"
+        run: python3 data/grixis/m7/madcap_jester_rev1/m6_p0_followup.py --oracle-file "$RUNNER_TEMP/oracle-cards-20261027210243.jsonl.gz"
+      - name: "Retain M7 structural decision gate"
+        run: |
+          python3 -m pip install jsonschema
+          python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/The_Madcap_Jester_rev1.json
