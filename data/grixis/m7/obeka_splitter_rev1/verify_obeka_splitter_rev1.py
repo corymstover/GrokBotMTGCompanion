@@ -9,7 +9,9 @@ from hashlib import sha256
 from pathlib import Path
 
 
-CANDIDATE = Path(__file__).with_name("obeka_splitter_m7_rev1.txt")
+THIS = Path(__file__).resolve()
+REPO_CANDIDATE = THIS.parent.parent / "candidate_lists" / "Obeka__Splitter_of_Seconds_chatgpt_rev1.txt"
+CANDIDATE = REPO_CANDIDATE if REPO_CANDIDATE.exists() else THIS.with_name("obeka_splitter_m7_rev1.txt")
 EXPECTED_SHA = "f80d882944d5e39f3c6661da4dcdce3ec6eead577cd981dc54f7dc522be50859"
 ADDS = {
     "Academy Manufactor", "Aggravated Assault", "Blackblade Reforged",
