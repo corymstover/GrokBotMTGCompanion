@@ -1,0 +1,30 @@
+name: "M7 Deck 53 Sol'Kanar Tainted Rev1 exact-source certification"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Sol_kanar_the_Tainted_M7_Rev1*.txt"
+      - "data/grixis/m7/solkanar_tainted_rev1/**"
+      - "data/grixis/m7/decision_reviews/Sol_kanar_the_Tainted_M7_Rev1*"
+      - ".github/workflows/m7-deck53-solkanar-tainted-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-and-oracle-and-mechanics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Verify baseline, exact 100, and source-scoped 17 bounded rules tests"
+        run: python3 data/grixis/m7/solkanar_tainted_rev1/verify.py
+      - name: "Live Scryfall every selected Oracle identity, UBR, legal Commander"
+        run: python3 data/grixis/m7/solkanar_tainted_rev1/verify.py --live
+      - name: "Install structural gate dependency"
+        run: python3 -m pip install jsonschema
+      - name: "Full repository M7 decision gate, physical alternatives and post-floor audit"
+        run: python3 scripts/grixis_m7_decision_gate.py --check
