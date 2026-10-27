@@ -11,6 +11,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parent
+CANDIDATES = ROOT.parent / 'candidate_lists' if (ROOT.parent / 'candidate_lists').is_dir() else ROOT
 BASE = ROOT / 'The_Rani_Oct15_baseline.txt'
 SOURCE = ROOT / 'The_Rani_M7_Rev1_Scryfall_snapshot.json'
 EXPECTED = {
@@ -100,7 +101,7 @@ def main():
     for fn, quantity in [('The_Rani_M7_Rev1.txt', 8),
                          ('The_Rani_M7_Rev1_alt9.txt', 9),
                          ('The_Rani_M7_Rev1_alt10.txt', 10)]:
-        proposed = cards(ROOT / fn)
+        proposed = cards(CANDIDATES / fn)
         adds = Counter(proposed) - Counter(baseline)
         cuts = Counter(baseline) - Counter(proposed)
         assert adds == Counter(new for old, new in ALTS[:quantity])
