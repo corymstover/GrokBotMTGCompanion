@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "The_Rani",
+  "canonical_baseline_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+  "canonical_baseline_logical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+  "commander_identity": {
+    "mechanical_plan": "The Rani generates Mark Aura tokens on entering or attacking, goading creatures; each goaded attacker that actually damages one of our opponents investigates. Clues become resource and a commander-specific closing engine.",
+    "protected_core": [
+      "The Rani",
+      "Academy Manufactor",
+      "Erdwal Illuminator",
+      "Bjorna, Nightfall Alchemist",
+      "Puppet Master, String Puller",
+      "Disrupt Decorum",
+      "Shiny Impetus",
+      "Time Sieve",
+      "Thassa, Deep-Dwelling",
+      "Displacer Kitten",
+      "Firkraag, Cunning Instigator",
+      "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized: strong forced-combat and high-output artifact token payoffs, but a four-mana commander relying on opponent creatures reaching other opponents is unsuitable for unproven cEDH claims.",
+    "anti_homogenization": "Do not replace opponent-to-opponent combat or Clue multiplication with stand-alone Breach, Oracle or unrelated Grixis goodstuff. All new primary win routes use the Rani-created Marks and/or investigation tokens."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "99 of 99 incumbent library cards reconciled in physical CSV, with eight explicit cuts and 91 retained copies. Original source is the authoritative 2026-10-15 locked 100. Cheap targeted goad, mass goad, blink, protective counters, artifact usage and commander-triggered draw retained.",
+    "mana_base_and_curve": "All three configurations retain 33 lands and original nine basics plus UBR fixing; no source or rock cut. The eight swap package removes six-/seven-mana Death Kiss, Confluence and Kelp for five-/two-/six-mana replacement; Rani still needs 1UBR and enough early colored rocks.",
+    "interaction_resilience": "Force of Will (correct 23 alternative true-blue cards), Mana Drain, Fierce Guardianship, Deflecting Swat, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Rakdos Charm and Toxic Deluge survive. Reanimate loss reduces recovery, but no instant-speed removal is removed.",
+    "weakest_slots": [
+      {
+        "card": "Death Kiss",
+        "weakness": "Five-mana ETB goads one creature for EACH opponent and grants menace to creatures attacking our opponents; direct additional Rani investigation opportunities.",
+        "alternative_named": "Frenzied Gorespawn",
+        "reasoning": "Death Kiss rewards and multiplies forced attacks, and its damage reward may be larger in a blocked pod; Gorespawn needs opposing creatures available when it enters."
+      },
+      {
+        "card": "Maestros Confluence",
+        "weakness": "Cheap enchant-player attack incentive draws a card for us when the marked player is attacked, reliably reinforcing opponents targeting one another.",
+        "alternative_named": "Curse of Verbosity",
+        "reasoning": "Confluence is a costly but flexible six-mana modal spell with targeted removal/recursion; Verbosity can also draw an opponent into an answer."
+      },
+      {
+        "card": "Grenzo, Havoc Raiser",
+        "weakness": "Every Clue/Food/Treasure/Mark token creation or sacrifice drains each opponent; converts Rani investigation into a noncombat finish and rewards Time Sieve costs.",
+        "alternative_named": "Mirkwood Bats",
+        "reasoning": "Grenzo can goad or steal spells on our creatures connecting, but the deck rarely floods the board with attacking nonartifact creatures; Bats is a four-mana fragile payoff."
+      },
+      {
+        "card": "Tangletrove Kelp",
+        "weakness": "Six-mana flyer turns existing Clues and other noncreature artifacts into flying 4/4 creatures for a decisive aerial attack; also grants other artifact creatures flying.",
+        "alternative_named": "Cyberdrive Awakener",
+        "reasoning": "Kelp is a seven-mana warded repeatable 6/6-Clue animation at EVERY combat, whereas Cyberdrive is one-turn only and notably does not grant haste."
+      },
+      {
+        "card": "Mocking Doppelganger",
+        "weakness": "The Rani can Mark Alexios; it then changes control, untaps, gains haste and is required to attack every combat, cannot attack its owner, and may repeatedly investigate on hits.",
+        "alternative_named": "Alexios, Deimos of Kosmos",
+        "reasoning": "Doppelganger is flexible flash interaction that can clone any opposing ETB/bomb and goad same-named creatures; Alexios must be marked and can become lethal to others."
+      },
+      {
+        "card": "Reanimate",
+        "weakness": "Low two-mana artifact-death drain on each Clue/Treasure/Food sacrificed to draw or Time Sieve; fabricated Servo supplies an immediate token and body.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "Reanimate is irreplaceably cheap recovery for Manufactor, Bjorna and other creatures after removal, and can steal graveyard bombs; new payoff is removal-sensitive."
+      },
+      {
+        "card": "Five Hundred Year Diary",
+        "weakness": "Independently investigates each upkeep even when Rani cannot connect; accumulated Clues are three-token tutor fuel for goad, Blink or Time Sieve.",
+        "alternative_named": "Tamiyo's Journal",
+        "reasoning": "Diary provides a burst of blue mana proportional to Clues starting the turn after tapped entry, while Journal costs five and does not make a first clue until upkeep."
+      },
+      {
+        "card": "Hateful Eidolon",
+        "weakness": "Choosing the one creature type Time Lord doubles Rani ETB/attack Mark triggers and her investigations; directly scales the unique commander ability.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Hateful Eidolon is one-mana draw when creatures enchanted by our Marks or Impetus Auras die, whereas Throne requires Rani on board and costs four."
+      },
+      {
+        "card": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+        "weakness": "A nonlegendary Rani copy yields its own Mark and investigation triggers, potentially doubling card generation while both live.",
+        "alternative_named": "Spark Double",
+        "reasoning": "Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes."
+      },
+      {
+        "card": "Mystical Tutor",
+        "weakness": "Two-mana draw activation is live after producing any Mark or Clue token, making the Rani trigger a steady incremental card advantage loop.",
+        "alternative_named": "Idol of Oblivion",
+        "reasoning": "Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search."
+      },
+      {
+        "card": "Vengeful Ancestor",
+        "weakness": "At our end step independently goads one opposing creature each turn and phases out to weather removal on opposing turns.",
+        "alternative_named": "Renegade Silent",
+        "reasoning": "Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out."
+      },
+      {
+        "card": "Bloodthirsty Blade",
+        "weakness": "Repeatable attack damage to an opponent can goad all of that player’s creatures, a higher ceiling than one Blade transfer.",
+        "alternative_named": "Komainu Battle Armor",
+        "reasoning": "Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor."
+      }
+    ],
+    "current_baseline_strength": "Existing list is strongly goad-oriented with persistent Marks, excellent cheap interaction, mana access and Clue multipliers. M6 KEEP was justified versus generic combo candidates; new off-ranking options target previously untested high-cost and narrow payoff slots.",
+    "candidate_pool_scope": "All 80 earlier M5/M6 pairs over 42 candidate identities read via comprehensive M6 review; thirteen current material candidates directly compared against distinct incumbents, including high-lift EDHREC and meaningful off-ranking commander-native adds.",
+    "off_ranked_search_conclusion": "Roaming Throne, Bats, Cyberdrive, Apprentice and Spark Double were seriously challenged outside ranked pairings. Eight survive actual incumbent costs; ninth/tenth and Silent/Armor face material losses. No arbitrary five-card stop."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/the-rani/clues — contemporary Clue category and synergy candidates, not an inclusion mandate",
+    "https://edhrec.com/commanders/the-rani/core/clues — off-ranking Gorespawn, journal and token payoff research",
+    "https://api.scryfall.com/cards/collection — source snapshot of 104 current Oracle IDs, color identity and official Commander legality, 2026-10-27",
+    "data/grixis/m6/deep_reviews/The_Rani.md — full 99-library audit and 80 ranked add/cut challenges, historical KEEP reassessed independently",
+    "grixis/interactions/the-rani.md — source-bound Mark, Force blue pitch pool and Time Sieve rules checks",
+    "OFF-RANKING: Roaming Throne, Spark Double, Mirkwood Bats, Marionette Apprentice and Cyberdrive Awakener independently challenged as distinct engine slots"
+  ],
+  "material_candidates": [
+    {
+      "card": "Frenzied Gorespawn",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Five-mana ETB goads one creature for EACH opponent and grants menace to creatures attacking our opponents; direct additional Rani investigation opportunities.",
+      "named_cuts": [
+        "Death Kiss"
+      ],
+      "incumbent_opportunity_cost": "Death Kiss rewards and multiplies forced attacks, and its damage reward may be larger in a blocked pod; Gorespawn needs opposing creatures available when it enters.",
+      "commander_synergy": "Five-mana ETB goads one creature for EACH opponent and grants menace to creatures attacking our opponents; direct additional Rani investigation opportunities.",
+      "adversarial_downside": "Death Kiss rewards and multiplies forced attacks, and its damage reward may be larger in a blocked pod; Gorespawn needs opposing creatures available when it enters.",
+      "judgment": "SELECT_ADD",
+      "reason": "Five-mana ETB goads one creature for EACH opponent and grants menace to creatures attacking our opponents; direct additional Rani investigation opportunities. Actual loss: Death Kiss rewards and multiplies forced attacks, and its damage reward may be larger in a blocked pod; Gorespawn needs opposing creatures available when it enters.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Curse of Verbosity",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Cheap enchant-player attack incentive draws a card for us when the marked player is attacked, reliably reinforcing opponents targeting one another.",
+      "named_cuts": [
+        "Maestros Confluence"
+      ],
+      "incumbent_opportunity_cost": "Confluence is a costly but flexible six-mana modal spell with targeted removal/recursion; Verbosity can also draw an opponent into an answer.",
+      "commander_synergy": "Cheap enchant-player attack incentive draws a card for us when the marked player is attacked, reliably reinforcing opponents targeting one another.",
+      "adversarial_downside": "Confluence is a costly but flexible six-mana modal spell with targeted removal/recursion; Verbosity can also draw an opponent into an answer.",
+      "judgment": "SELECT_ADD",
+      "reason": "Cheap enchant-player attack incentive draws a card for us when the marked player is attacked, reliably reinforcing opponents targeting one another. Actual loss: Confluence is a costly but flexible six-mana modal spell with targeted removal/recursion; Verbosity can also draw an opponent into an answer.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Mirkwood Bats",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Every Clue/Food/Treasure/Mark token creation or sacrifice drains each opponent; converts Rani investigation into a noncombat finish and rewards Time Sieve costs.",
+      "named_cuts": [
+        "Grenzo, Havoc Raiser"
+      ],
+      "incumbent_opportunity_cost": "Grenzo can goad or steal spells on our creatures connecting, but the deck rarely floods the board with attacking nonartifact creatures; Bats is a four-mana fragile payoff.",
+      "commander_synergy": "Every Clue/Food/Treasure/Mark token creation or sacrifice drains each opponent; converts Rani investigation into a noncombat finish and rewards Time Sieve costs.",
+      "adversarial_downside": "Grenzo can goad or steal spells on our creatures connecting, but the deck rarely floods the board with attacking nonartifact creatures; Bats is a four-mana fragile payoff.",
+      "judgment": "SELECT_ADD",
+      "reason": "Every Clue/Food/Treasure/Mark token creation or sacrifice drains each opponent; converts Rani investigation into a noncombat finish and rewards Time Sieve costs. Actual loss: Grenzo can goad or steal spells on our creatures connecting, but the deck rarely floods the board with attacking nonartifact creatures; Bats is a four-mana fragile payoff.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Cyberdrive Awakener",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Six-mana flyer turns existing Clues and other noncreature artifacts into flying 4/4 creatures for a decisive aerial attack; also grants other artifact creatures flying.",
+      "named_cuts": [
+        "Tangletrove Kelp"
+      ],
+      "incumbent_opportunity_cost": "Kelp is a seven-mana warded repeatable 6/6-Clue animation at EVERY combat, whereas Cyberdrive is one-turn only and notably does not grant haste.",
+      "commander_synergy": "Six-mana flyer turns existing Clues and other noncreature artifacts into flying 4/4 creatures for a decisive aerial attack; also grants other artifact creatures flying.",
+      "adversarial_downside": "Kelp is a seven-mana warded repeatable 6/6-Clue animation at EVERY combat, whereas Cyberdrive is one-turn only and notably does not grant haste.",
+      "judgment": "SELECT_ADD",
+      "reason": "Six-mana flyer turns existing Clues and other noncreature artifacts into flying 4/4 creatures for a decisive aerial attack; also grants other artifact creatures flying. Actual loss: Kelp is a seven-mana warded repeatable 6/6-Clue animation at EVERY combat, whereas Cyberdrive is one-turn only and notably does not grant haste.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Alexios, Deimos of Kosmos",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "The Rani can Mark Alexios; it then changes control, untaps, gains haste and is required to attack every combat, cannot attack its owner, and may repeatedly investigate on hits.",
+      "named_cuts": [
+        "Mocking Doppelganger"
+      ],
+      "incumbent_opportunity_cost": "Doppelganger is flexible flash interaction that can clone any opposing ETB/bomb and goad same-named creatures; Alexios must be marked and can become lethal to others.",
+      "commander_synergy": "The Rani can Mark Alexios; it then changes control, untaps, gains haste and is required to attack every combat, cannot attack its owner, and may repeatedly investigate on hits.",
+      "adversarial_downside": "Doppelganger is flexible flash interaction that can clone any opposing ETB/bomb and goad same-named creatures; Alexios must be marked and can become lethal to others.",
+      "judgment": "SELECT_ADD",
+      "reason": "The Rani can Mark Alexios; it then changes control, untaps, gains haste and is required to attack every combat, cannot attack its owner, and may repeatedly investigate on hits. Actual loss: Doppelganger is flexible flash interaction that can clone any opposing ETB/bomb and goad same-named creatures; Alexios must be marked and can become lethal to others.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Marionette Apprentice",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Low two-mana artifact-death drain on each Clue/Treasure/Food sacrificed to draw or Time Sieve; fabricated Servo supplies an immediate token and body.",
+      "named_cuts": [
+        "Reanimate"
+      ],
+      "incumbent_opportunity_cost": "Reanimate is irreplaceably cheap recovery for Manufactor, Bjorna and other creatures after removal, and can steal graveyard bombs; new payoff is removal-sensitive.",
+      "commander_synergy": "Low two-mana artifact-death drain on each Clue/Treasure/Food sacrificed to draw or Time Sieve; fabricated Servo supplies an immediate token and body.",
+      "adversarial_downside": "Reanimate is irreplaceably cheap recovery for Manufactor, Bjorna and other creatures after removal, and can steal graveyard bombs; new payoff is removal-sensitive.",
+      "judgment": "SELECT_ADD",
+      "reason": "Low two-mana artifact-death drain on each Clue/Treasure/Food sacrificed to draw or Time Sieve; fabricated Servo supplies an immediate token and body. Actual loss: Reanimate is irreplaceably cheap recovery for Manufactor, Bjorna and other creatures after removal, and can steal graveyard bombs; new payoff is removal-sensitive.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Tamiyo's Journal",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Independently investigates each upkeep even when Rani cannot connect; accumulated Clues are three-token tutor fuel for goad, Blink or Time Sieve.",
+      "named_cuts": [
+        "Five Hundred Year Diary"
+      ],
+      "incumbent_opportunity_cost": "Diary provides a burst of blue mana proportional to Clues starting the turn after tapped entry, while Journal costs five and does not make a first clue until upkeep.",
+      "commander_synergy": "Independently investigates each upkeep even when Rani cannot connect; accumulated Clues are three-token tutor fuel for goad, Blink or Time Sieve.",
+      "adversarial_downside": "Diary provides a burst of blue mana proportional to Clues starting the turn after tapped entry, while Journal costs five and does not make a first clue until upkeep.",
+      "judgment": "SELECT_ADD",
+      "reason": "Independently investigates each upkeep even when Rani cannot connect; accumulated Clues are three-token tutor fuel for goad, Blink or Time Sieve. Actual loss: Diary provides a burst of blue mana proportional to Clues starting the turn after tapped entry, while Journal costs five and does not make a first clue until upkeep.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Choosing the one creature type Time Lord doubles Rani ETB/attack Mark triggers and her investigations; directly scales the unique commander ability.",
+      "named_cuts": [
+        "Hateful Eidolon"
+      ],
+      "incumbent_opportunity_cost": "Hateful Eidolon is one-mana draw when creatures enchanted by our Marks or Impetus Auras die, whereas Throne requires Rani on board and costs four.",
+      "commander_synergy": "Choosing the one creature type Time Lord doubles Rani ETB/attack Mark triggers and her investigations; directly scales the unique commander ability.",
+      "adversarial_downside": "Hateful Eidolon is one-mana draw when creatures enchanted by our Marks or Impetus Auras die, whereas Throne requires Rani on board and costs four.",
+      "judgment": "SELECT_ADD",
+      "reason": "Choosing the one creature type Time Lord doubles Rani ETB/attack Mark triggers and her investigations; directly scales the unique commander ability. Actual loss: Hateful Eidolon is one-mana draw when creatures enchanted by our Marks or Impetus Auras die, whereas Throne requires Rani on board and costs four.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Spark Double",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "A nonlegendary Rani copy yields its own Mark and investigation triggers, potentially doubling card generation while both live.",
+      "named_cuts": [
+        "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      ],
+      "incumbent_opportunity_cost": "Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes.",
+      "commander_synergy": "A nonlegendary Rani copy yields its own Mark and investigation triggers, potentially doubling card generation while both live.",
+      "adversarial_downside": "Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "A nonlegendary Rani copy yields its own Mark and investigation triggers, potentially doubling card generation while both live. Actual loss: Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Idol of Oblivion",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Two-mana draw activation is live after producing any Mark or Clue token, making the Rani trigger a steady incremental card advantage loop.",
+      "named_cuts": [
+        "Mystical Tutor"
+      ],
+      "incumbent_opportunity_cost": "Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search.",
+      "commander_synergy": "Two-mana draw activation is live after producing any Mark or Clue token, making the Rani trigger a steady incremental card advantage loop.",
+      "adversarial_downside": "Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana draw activation is live after producing any Mark or Clue token, making the Rani trigger a steady incremental card advantage loop. Actual loss: Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Renegade Silent",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "At our end step independently goads one opposing creature each turn and phases out to weather removal on opposing turns.",
+      "named_cuts": [
+        "Vengeful Ancestor"
+      ],
+      "incumbent_opportunity_cost": "Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out.",
+      "commander_synergy": "At our end step independently goads one opposing creature each turn and phases out to weather removal on opposing turns.",
+      "adversarial_downside": "Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "At our end step independently goads one opposing creature each turn and phases out to weather removal on opposing turns. Actual loss: Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Komainu Battle Armor",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Repeatable attack damage to an opponent can goad all of that player’s creatures, a higher ceiling than one Blade transfer.",
+      "named_cuts": [
+        "Bloodthirsty Blade"
+      ],
+      "incumbent_opportunity_cost": "Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor.",
+      "commander_synergy": "Repeatable attack damage to an opponent can goad all of that player’s creatures, a higher ceiling than one Blade transfer.",
+      "adversarial_downside": "Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Repeatable attack damage to an opponent can goad all of that player’s creatures, a higher ceiling than one Blade transfer. Actual loss: Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    },
+    {
+      "card": "Thopter Assembly",
+      "source": "Current 2026-10-27 Scryfall 104-card original Oracle record and commander-specific EDHREC challenge, plus whole 99-slot review.",
+      "role": "Alternative six-mana Thopter creation can pair with Sieve to loop extra turns if six mana is available on EACH added turn.",
+      "named_cuts": [
+        "Time Sieve"
+      ],
+      "incumbent_opportunity_cost": "This sacrifices the native Clue-to-extra-turn reward itself, so the proposed one-for-one cut destroys the advertised combo rather than completing it.",
+      "commander_synergy": "Alternative six-mana Thopter creation can pair with Sieve to loop extra turns if six mana is available on EACH added turn.",
+      "adversarial_downside": "This sacrifices the native Clue-to-extra-turn reward itself, so the proposed one-for-one cut destroys the advertised combo rather than completing it.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Alternative six-mana Thopter creation can pair with Sieve to loop extra turns if six mana is available on EACH added turn. Actual loss: This sacrifices the native Clue-to-extra-turn reward itself, so the proposed one-for-one cut destroys the advertised combo rather than completing it.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Rani.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Frenzied Gorespawn",
+      "Curse of Verbosity",
+      "Mirkwood Bats",
+      "Cyberdrive Awakener",
+      "Alexios, Deimos of Kosmos",
+      "Marionette Apprentice",
+      "Tamiyo's Journal",
+      "Roaming Throne"
+    ],
+    "cuts": [
+      "Death Kiss",
+      "Maestros Confluence",
+      "Grenzo, Havoc Raiser",
+      "Tangletrove Kelp",
+      "Mocking Doppelganger",
+      "Reanimate",
+      "Five Hundred Year Diary",
+      "Hateful Eidolon"
+    ],
+    "coherent_package_tradeoff": "Eight actual replacements favor Rani-scaled Marks, forced opponent combat with menace, two simultaneous token-drain lines, proactive Clue production and an aerial artifact finish, while keeping all 33 lands. Losses include reanimation resilience, cheap aura-death draw, flash-clone flexibility, conditional blue-mana burst and Kelp repeatability; rules caveats are documented."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Death Kiss",
+        "weakness": "Five-mana ETB goads one creature for EACH opponent and grants menace to creatures attacking our opponents; direct additional Rani investigation opportunities.",
+        "alternative_named": "Frenzied Gorespawn",
+        "reasoning": "Death Kiss rewards and multiplies forced attacks, and its damage reward may be larger in a blocked pod; Gorespawn needs opposing creatures available when it enters."
+      },
+      {
+        "card": "Maestros Confluence",
+        "weakness": "Cheap enchant-player attack incentive draws a card for us when the marked player is attacked, reliably reinforcing opponents targeting one another.",
+        "alternative_named": "Curse of Verbosity",
+        "reasoning": "Confluence is a costly but flexible six-mana modal spell with targeted removal/recursion; Verbosity can also draw an opponent into an answer."
+      },
+      {
+        "card": "Grenzo, Havoc Raiser",
+        "weakness": "Every Clue/Food/Treasure/Mark token creation or sacrifice drains each opponent; converts Rani investigation into a noncombat finish and rewards Time Sieve costs.",
+        "alternative_named": "Mirkwood Bats",
+        "reasoning": "Grenzo can goad or steal spells on our creatures connecting, but the deck rarely floods the board with attacking nonartifact creatures; Bats is a four-mana fragile payoff."
+      },
+      {
+        "card": "Tangletrove Kelp",
+        "weakness": "Six-mana flyer turns existing Clues and other noncreature artifacts into flying 4/4 creatures for a decisive aerial attack; also grants other artifact creatures flying.",
+        "alternative_named": "Cyberdrive Awakener",
+        "reasoning": "Kelp is a seven-mana warded repeatable 6/6-Clue animation at EVERY combat, whereas Cyberdrive is one-turn only and notably does not grant haste."
+      },
+      {
+        "card": "Mocking Doppelganger",
+        "weakness": "The Rani can Mark Alexios; it then changes control, untaps, gains haste and is required to attack every combat, cannot attack its owner, and may repeatedly investigate on hits.",
+        "alternative_named": "Alexios, Deimos of Kosmos",
+        "reasoning": "Doppelganger is flexible flash interaction that can clone any opposing ETB/bomb and goad same-named creatures; Alexios must be marked and can become lethal to others."
+      },
+      {
+        "card": "Reanimate",
+        "weakness": "Low two-mana artifact-death drain on each Clue/Treasure/Food sacrificed to draw or Time Sieve; fabricated Servo supplies an immediate token and body.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "Reanimate is irreplaceably cheap recovery for Manufactor, Bjorna and other creatures after removal, and can steal graveyard bombs; new payoff is removal-sensitive."
+      },
+      {
+        "card": "Five Hundred Year Diary",
+        "weakness": "Independently investigates each upkeep even when Rani cannot connect; accumulated Clues are three-token tutor fuel for goad, Blink or Time Sieve.",
+        "alternative_named": "Tamiyo's Journal",
+        "reasoning": "Diary provides a burst of blue mana proportional to Clues starting the turn after tapped entry, while Journal costs five and does not make a first clue until upkeep."
+      },
+      {
+        "card": "Hateful Eidolon",
+        "weakness": "Choosing the one creature type Time Lord doubles Rani ETB/attack Mark triggers and her investigations; directly scales the unique commander ability.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "Hateful Eidolon is one-mana draw when creatures enchanted by our Marks or Impetus Auras die, whereas Throne requires Rani on board and costs four."
+      },
+      {
+        "card": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+        "weakness": "A nonlegendary Rani copy yields its own Mark and investigation triggers, potentially doubling card generation while both live.",
+        "alternative_named": "Spark Double",
+        "reasoning": "Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes."
+      },
+      {
+        "card": "Mystical Tutor",
+        "weakness": "Two-mana draw activation is live after producing any Mark or Clue token, making the Rani trigger a steady incremental card advantage loop.",
+        "alternative_named": "Idol of Oblivion",
+        "reasoning": "Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search."
+      },
+      {
+        "card": "Vengeful Ancestor",
+        "weakness": "At our end step independently goads one opposing creature each turn and phases out to weather removal on opposing turns.",
+        "alternative_named": "Renegade Silent",
+        "reasoning": "Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out."
+      },
+      {
+        "card": "Bloodthirsty Blade",
+        "weakness": "Repeatable attack damage to an opponent can goad all of that player’s creatures, a higher ceiling than one Blade transfer.",
+        "alternative_named": "Komainu Battle Armor",
+        "reasoning": "Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor."
+      }
+    ],
+    "off_ranked_opportunities": "Investigated Roaming Throne Time Lord doubling, Spark Double Rani duplication, token-drain Bats/Apprentice, cyber Clue transformation, and Idol of Oblivion. These improve different roles from generic M5 combo completions and meet the manual off-ranking discovery requirement.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Frenzied Gorespawn",
+          "Curse of Verbosity",
+          "Mirkwood Bats",
+          "Cyberdrive Awakener",
+          "Alexios, Deimos of Kosmos",
+          "Marionette Apprentice",
+          "Tamiyo's Journal",
+          "Roaming Throne",
+          "Spark Double"
+        ],
+        "cuts": [
+          "Death Kiss",
+          "Maestros Confluence",
+          "Grenzo, Havoc Raiser",
+          "Tangletrove Kelp",
+          "Mocking Doppelganger",
+          "Reanimate",
+          "Five Hundred Year Diary",
+          "Hateful Eidolon",
+          "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+        ],
+        "result_and_rationale": "Staged alt9 actually adds Spark Double over Slicer. It adds a second Rani but sacrifices standalone goaded attacks on each opponent turn."
+      },
+      {
+        "adds": [
+          "Frenzied Gorespawn",
+          "Curse of Verbosity",
+          "Mirkwood Bats",
+          "Cyberdrive Awakener",
+          "Alexios, Deimos of Kosmos",
+          "Marionette Apprentice",
+          "Tamiyo's Journal",
+          "Roaming Throne",
+          "Spark Double",
+          "Idol of Oblivion"
+        ],
+        "cuts": [
+          "Death Kiss",
+          "Maestros Confluence",
+          "Grenzo, Havoc Raiser",
+          "Tangletrove Kelp",
+          "Mocking Doppelganger",
+          "Reanimate",
+          "Five Hundred Year Diary",
+          "Hateful Eidolon",
+          "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+          "Mystical Tutor"
+        ],
+        "result_and_rationale": "Staged alt10 additionally trades Mystical Tutor for Idol of Oblivion. More passive draw on Marks but loses critical immediate spell selection/protection."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Rechecked M6 Drafna vs Curse of Opulence (Clue tokens are not artifact spells), Tamiyo versus early tutors, and Thopter Assembly/Sieve loop. Existing early rock and Goad Aura roles retained; 8 additions cut slow or redundant roles instead.",
+    "strongest_argument_against_baseline": "M6 previously ended KEEP after comparisons dominated by unrelated combo cards, but it missed directly scalable Time Lord trigger doubling, token-sacrifice life pressure, conditional Alexios attacks, and an efficient mass goad/menace card.",
+    "evidence_based_answer": "Eight concrete changes pass commander-first and source-bound scrutiny; alt9 and alt10 are real auditable 100s but yield greater strategic losses. Eight is a consequence of per-slot judgment, never the fixed minimum target."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/The_Rani_M7_Rev1.txt",
+    "sha256": "924296ed24fdc5e79431821d31a77134c5ed5c089a92cb5e69c78f78bde4fe27",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact 100 physical main-deck cards, 94 distinct printed names, basics Island/Mountain/Swamp x3 each and no other repeats; 33 lands untouched; eight true one-for-one changes, the remaining 91 library copies preserved. UTF-8 LF final newline."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/the_rani_rev1/The_Rani_Oct15_baseline.txt",
+      "data/grixis/m7/the_rani_rev1/The_Rani_M7_Rev1_Scryfall_snapshot.json",
+      "data/grixis/m7/the_rani_rev1/verify.py",
+      "data/grixis/m7/decision_reviews/The_Rani_M7_Rev1_99slot_ledger.csv",
+      "data/grixis/m6/deep_reviews/The_Rani.md"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Goad",
+      "Clue Tokens",
+      "Artifact Drain"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After these eight replacements, each of the other 91 library physical copies was checked against the full M6 99-role audit. All early color rocks, land pips, cheap defenses, active goad Auras, Rani blink, Clue multiplier and Time Sieve were kept. Slicer, Mystical Tutor, Vengeful Ancestor and Bloodthirsty Blade faced explicit additional challengers. Costs of replacing these genuine engine pieces exceed demonstrated gains.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+        "challenger": "Spark Double",
+        "tradeoff": "Slicer naturally becomes a goaded attacker on opposing turns without needing a second Rani body, and resists sacrificing while passed to foes.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Mystical Tutor",
+        "challenger": "Idol of Oblivion",
+        "tradeoff": "Mystical Tutor costs one blue at instant speed to find emergency disruption/mass goad; Idol needs a token and tap and cannot replace an instant search.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Vengeful Ancestor",
+        "challenger": "Renegade Silent",
+        "tradeoff": "Vengeful Ancestor flies, goads on its ETB and attacks, and pings on opposing goaded creature attacks; Silent cannot attack or block while phased out.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Bloodthirsty Blade",
+        "challenger": "Komainu Battle Armor",
+        "tradeoff": "Blade cheaply goads immediately and repeatedly without landing combat damage or paying cumbersome equip costs for Armor.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Rani_M7_Rev1_alt9.txt",
+        "sha256": "a1538f965b4e5e641ce6e46e7c2dc436d720387fcac134e21e3cdd1ecd4b4db5",
+        "adds": [
+          "Frenzied Gorespawn",
+          "Curse of Verbosity",
+          "Mirkwood Bats",
+          "Cyberdrive Awakener",
+          "Alexios, Deimos of Kosmos",
+          "Marionette Apprentice",
+          "Tamiyo's Journal",
+          "Roaming Throne",
+          "Spark Double"
+        ],
+        "cuts": [
+          "Death Kiss",
+          "Maestros Confluence",
+          "Grenzo, Havoc Raiser",
+          "Tangletrove Kelp",
+          "Mocking Doppelganger",
+          "Reanimate",
+          "Five Hundred Year Diary",
+          "Hateful Eidolon",
+          "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+        ],
+        "case_for_extra_swaps": "Spark Double becomes a second nonlegendary The Rani, repeats her Mark and investigation effects and offers a substantial commander-specific ceiling.",
+        "why_not_selected": "Slicer supplies reliable goaded attack attempts through opposing turns independently of Rani surviving. Copy requires another four-mana Rani-shaped creature, and the loss of automatic opponent-turn goad threatens the very clue events the copy amplifies."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Rani_M7_Rev1_alt10.txt",
+        "sha256": "91ffe20a97ba0f8813f50684c33d3ade48f77da80af1cc72848a5eff1f596fa6",
+        "adds": [
+          "Frenzied Gorespawn",
+          "Curse of Verbosity",
+          "Mirkwood Bats",
+          "Cyberdrive Awakener",
+          "Alexios, Deimos of Kosmos",
+          "Marionette Apprentice",
+          "Tamiyo's Journal",
+          "Roaming Throne",
+          "Spark Double",
+          "Idol of Oblivion"
+        ],
+        "cuts": [
+          "Death Kiss",
+          "Maestros Confluence",
+          "Grenzo, Havoc Raiser",
+          "Tangletrove Kelp",
+          "Mocking Doppelganger",
+          "Reanimate",
+          "Five Hundred Year Diary",
+          "Hateful Eidolon",
+          "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+          "Mystical Tutor"
+        ],
+        "case_for_extra_swaps": "Idol of Oblivion produces repeated tap draw whenever The Rani produces a Mark, adding cheap card advantage to Spark Double growth in a ten-swap configuration.",
+        "why_not_selected": "The additional removal of Mystical Tutor trades away instant access to counters, Cyclonic Rift and Disrupt Decorum for delayed conditional draw. Losing Slicer as well damages opponent-turn investigate reliability."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The chosen eight real swaps each support goad, Mark multiplier, Clue creation or Clue conversion. Both complete larger candidates were independently built and checked for exact 100 legality, but add slower board-dependent engines while cutting Slicer and instant tutor timing. Other challengers Silent/Armor replace more efficient repeatable incumbent goad cards. Therefore eight, not a preset quota, is the strongest currently grounded whole-deck configuration."
+  }
+}

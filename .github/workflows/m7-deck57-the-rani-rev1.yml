@@ -1,0 +1,29 @@
+name: "M7 Deck 57 The Rani Rev1 exact-head review"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/The_Rani_M7_Rev1*.txt"
+      - "data/grixis/m7/decision_reviews/The_Rani_rev1.json"
+      - "data/grixis/m7/decision_reviews/The_Rani_M7_Rev1_*"
+      - "data/grixis/m7/the_rani_rev1/**"
+      - ".github/workflows/m7-deck57-the-rani-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-exact-source-and-decision:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pin baseline, candidate and both more-aggressive full-100 alternatives
+        run: python3 data/grixis/m7/the_rani_rev1/verify.py
+      - name: Validate independent M7 decision packet against repository schema
+        run: |
+          python3 -m pip install jsonschema
+          python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/The_Rani_rev1.json
