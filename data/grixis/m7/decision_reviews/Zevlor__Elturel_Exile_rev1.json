@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Zevlor__Elturel_Exile",
+  "canonical_baseline_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+  "canonical_baseline_logical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+  "commander_identity": {
+    "mechanical_plan": "Activate Zevlor by paying {2} and tapping him, then cast a spell targeting only one opponent or one opposing permanent. Each other opponent gets a separate targeted copy with identical X and choices. Preserve one-target opponent spells that multiply theft, edicts, mana, draw and hand control, with actual magecraft and legal untap support.",
+    "protected_core": [
+      "Zevlor, Elturel Exile",
+      "Cruel Ultimatum",
+      "Praetor's Grasp",
+      "Acquire",
+      "Bribery",
+      "River's Rebuke",
+      "Leadership Vacuum",
+      "Illusionist's Bracers",
+      "Training Grounds",
+      "Omen Hawker",
+      "Pemmin's Aura",
+      "Twinning Staff",
+      "Sedgemoor Witch",
+      "Storm-Kiln Artist",
+      "Worst Fears",
+      "Rhystic Study"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized. Zevlor yields spectacular three-opponent spell advantage but first demands commander survival, an activation with haste and a legal one-target payload in the same turn; no reliable compact deterministic cEDH win is proved.",
+    "anti_homogenization": "Keep this encyclopedia deck's targeted opponent copying, theft and response timing distinct from generic Grixis Oracle/Consultation/Breach combo; high card power alone is not enough to displace a Zevlor-specific role."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "The bound 99-physical-slot CSV audits the original October 15 source, with six mutually distinct cuts, 93 kept physical slots and all 34 lands retained. It separates one-target payloads, interaction, fast resources, magecraft/copy, untap support, tutor/card flow and land role.",
+    "mana_base_and_curve": "Exactly 34 dedicated lands before and after, including two each of Island, Mountain and Swamp and typed Grixis duals with nine fetches. The six swaps change nonland timing: three new two-mana sorceries, four-mana Gifts, five-mana Refrain and UR X filtering make early red/black/blue needs more distinct; no extra land is silently credited.",
+    "interaction_resilience": "Exchanging Abrade, Terminate and Counterspell loses instant artifact, targeted creature and counterspell coverage; Bedevil, Chaos Warp, Rakdos Charm, Deadly Rollick, Force of Will, Fierce Guardianship, Mana Drain, Swan Song and Deflecting Swat still protect critical windows. Blasphemous Act is retained as an actual reset.",
+    "weakest_slots": [
+      {
+        "card": "Abrade",
+        "weakness": "Challenged actual baseline role: Abrade is instant-speed and retains artifact destruction or precise three-damage removal; edict is sorcery and cannot pick a small threat.",
+        "alternative_named": "End of the Hunt",
+        "reasoning": "The non-targeted exile payload scales Zevlor against indestructible/hexproof boards, while other instant and artifact answers remain. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Terminate",
+        "weakness": "Challenged actual baseline role: Terminate kills a selected creature at instant speed; this sorcery's opponent chooses what goes and cannot aim around expendable tokens.",
+        "alternative_named": "Strategic Betrayal",
+        "reasoning": "Three graveyard exiles plus three forced sacrifices exploit Zevlor's copied single-target opponent line while other pin removal stays. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Gamble",
+        "weakness": "Challenged actual baseline role: Gamble is one mana and often finds the exact card despite random discard; Gifts costs four, opponent partitions and can interrupt a tempo turn.",
+        "alternative_named": "Gifts Ungiven",
+        "reasoning": "One cast with Zevlor obtains independent piles for the three opponents, building Kess/Snapcaster graveyard and hand resources. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Challenged actual baseline role: Dark Ritual provides three black for just B immediately; Refrain costs five to cast normally, requires cards in hands and generates red only.",
+        "alternative_named": "Rousing Refrain",
+        "reasoning": "Makes Zevlor's opponent-target copying turn into a large red-mana burst, improving multicasting in the theft shell. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Portent",
+        "weakness": "Challenged actual baseline role: Portent costs one blue and manipulates top cards with deferred draw; critique requires blue and red, discards each resolution and needs target legality.",
+        "alternative_named": "Traumatic Critique",
+        "reasoning": "It converts a normally one-for-one cantrip slot into three immediate filtering resolutions and scalable damage under Zevlor. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Counterspell",
+        "weakness": "Challenged actual baseline role: Counterspell provides broad instant-speed stack defense and remains flexible against combo; Heist costs two black and can whiff on empty hands.",
+        "alternative_named": "Cruelclaw's Heist",
+        "reasoning": "Takes key opposing nonland cards proactively in a single triple-opponent Zevlor turn; retains Force, Drain, Swan Song and Guardianship. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Worst Fears",
+        "weakness": "Challenged actual baseline role: Worst Fears is an expensive but irreplaceable take-an-opponent-turn finisher, a major encyclopedia identity payoff.",
+        "alternative_named": "Intuition",
+        "reasoning": "An additional tutor is real consistency but duplicates Gifts and undermines the high-end control-their-turn narrative; tested in exact alt8/alt9. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Rhystic Study",
+        "weakness": "Challenged actual baseline role: Rhystic Study independently refills hand when commander dies and may draw many cards at interaction-heavy tables.",
+        "alternative_named": "Magewright's Stone",
+        "reasoning": "A second untap tool is conditional on creature survival; trading the resilient global draw engine for redundant activation did not pass. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Challenged actual baseline role: Blasphemous Act is the sole dedicated all-board sweeper and often costs just one red; Inside Information costs X and time-limited life-paid casting.",
+        "alternative_named": "Inside Information",
+        "reasoning": "Three-library burst theft is exciting but removal of last reliable reset exposes creature boards; alt9 demonstrates this opportunity cost. The incumbent's unique defensive/tempo job is explicitly counted."
+      }
+    ],
+    "current_baseline_strength": "The Oct15 100 already contains a tuned target-copy core, plentiful untaps, magecraft, fast mana and three functional basic pairs. The M7 pass reopens physical opportunity costs while preserving the unique control-their-turn Worst Fears, multiple global answers and major untap synergies.",
+    "candidate_pool_scope": "All 99 original physical slots reexamined in the ledger; at least eleven material candidate comparisons include new October 2026 opponent-target cards, alternative tutoring, extra untaps, top-X theft, an edict role duplicate and cast-only token engine. Exact 8- and 9-swap physical full 100-card portfolios challenge the six-swap stop.",
+    "off_ranked_search_conclusion": "OFF-RANKING targeted 2026 printing End of the Hunt, Strategic Betrayal, Traumatic Critique and Cruelclaw's Heist; alternative Intuition, Magewright's Stone, Inside Information, Cornered by Black Mages, Blot Out and enchantment/stack protection opportunities. Each rejected card was evaluated against a real occupied slot and the six approved improvements."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/zevlor-elturel-exile — commander-specific targeted spell discovery, checked 2026-10-27; ranks are advisory",
+    "https://api.scryfall.com/cards/collection — live exact Oracle identity, commander legality and color data frozen 2026-10-27",
+    "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json — 108 Oracle records including candidate/alternative names",
+    "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv — independent physical 99-slot role/weakest-slot audit",
+    "data/grixis/m6/deep_reviews/Zevlor__Elturel_Exile.md — historical pass, not proof of new final candidate",
+    "OFF-RANKING targeted-opponent search: End of the Hunt, Strategic Betrayal, Cruelclaw's Heist, Traumatic Critique, Intuition, Inside Information, Magewright's Stone, Blot Out and Cornered by Black Mages"
+  ],
+  "material_candidates": [
+    {
+      "card": "End of the Hunt",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "Two-mana opponent-targeted edict exiles a highest mana-value creature or planeswalker per opponent when copied.",
+      "named_cuts": [
+        "Abrade"
+      ],
+      "incumbent_opportunity_cost": "Abrade is instant-speed and retains artifact destruction or precise three-damage removal; edict is sorcery and cannot pick a small threat.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Two-mana opponent-targeted edict exiles a highest mana-value creature or planeswalker per opponent when copied.",
+      "adversarial_downside": "Abrade is instant-speed and retains artifact destruction or precise three-damage removal; edict is sorcery and cannot pick a small threat.",
+      "judgment": "SELECT_ADD",
+      "reason": "The non-targeted exile payload scales Zevlor against indestructible/hexproof boards, while other instant and artifact answers remain.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Strategic Betrayal",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "Two-mana opponent-targeted exile effect removes a creature chosen by each affected player and that player's graveyard.",
+      "named_cuts": [
+        "Terminate"
+      ],
+      "incumbent_opportunity_cost": "Terminate kills a selected creature at instant speed; this sorcery's opponent chooses what goes and cannot aim around expendable tokens.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Two-mana opponent-targeted exile effect removes a creature chosen by each affected player and that player's graveyard.",
+      "adversarial_downside": "Terminate kills a selected creature at instant speed; this sorcery's opponent chooses what goes and cannot aim around expendable tokens.",
+      "judgment": "SELECT_ADD",
+      "reason": "Three graveyard exiles plus three forced sacrifices exploit Zevlor's copied single-target opponent line while other pin removal stays.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Gifts Ungiven",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "Target one opponent but search the caster's own library for up to four distinct names; copied resolutions can seed multiple hand/graveyard piles.",
+      "named_cuts": [
+        "Gamble"
+      ],
+      "incumbent_opportunity_cost": "Gamble is one mana and often finds the exact card despite random discard; Gifts costs four, opponent partitions and can interrupt a tempo turn.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Target one opponent but search the caster's own library for up to four distinct names; copied resolutions can seed multiple hand/graveyard piles.",
+      "adversarial_downside": "Gamble is one mana and often finds the exact card despite random discard; Gifts costs four, opponent partitions and can interrupt a tempo turn.",
+      "judgment": "SELECT_ADD",
+      "reason": "One cast with Zevlor obtains independent piles for the three opponents, building Kess/Snapcaster graveyard and hand resources.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Rousing Refrain",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "Single-target opponent hand-size ritual produces red mana per affected opponent and can suspend for repeat future physical casts.",
+      "named_cuts": [
+        "Dark Ritual"
+      ],
+      "incumbent_opportunity_cost": "Dark Ritual provides three black for just B immediately; Refrain costs five to cast normally, requires cards in hands and generates red only.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Single-target opponent hand-size ritual produces red mana per affected opponent and can suspend for repeat future physical casts.",
+      "adversarial_downside": "Dark Ritual provides three black for just B immediately; Refrain costs five to cast normally, requires cards in hands and generates red only.",
+      "judgment": "SELECT_ADD",
+      "reason": "Makes Zevlor's opponent-target copying turn into a large red-mana burst, improving multicasting in the theft shell.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Traumatic Critique",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "Target an opponent as any target with X=0 to get copied draw-two/discard-one events; at X>0 also deals X damage per target.",
+      "named_cuts": [
+        "Portent"
+      ],
+      "incumbent_opportunity_cost": "Portent costs one blue and manipulates top cards with deferred draw; critique requires blue and red, discards each resolution and needs target legality.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Target an opponent as any target with X=0 to get copied draw-two/discard-one events; at X>0 also deals X damage per target.",
+      "adversarial_downside": "Portent costs one blue and manipulates top cards with deferred draw; critique requires blue and red, discards each resolution and needs target legality.",
+      "judgment": "SELECT_ADD",
+      "reason": "It converts a normally one-for-one cantrip slot into three immediate filtering resolutions and scalable damage under Zevlor.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Cruelclaw's Heist",
+      "source": "2026-10-27 Zevlor independent commander-first material search, EDHREC card discovery and exact Scryfall Oracle.",
+      "role": "BB sorcery targets one opponent and can exile a nonland choice from each hand after Zevlor copies it.",
+      "named_cuts": [
+        "Counterspell"
+      ],
+      "incumbent_opportunity_cost": "Counterspell provides broad instant-speed stack defense and remains flexible against combo; Heist costs two black and can whiff on empty hands.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: BB sorcery targets one opponent and can exile a nonland choice from each hand after Zevlor copies it.",
+      "adversarial_downside": "Counterspell provides broad instant-speed stack defense and remains flexible against combo; Heist costs two black and can whiff on empty hands.",
+      "judgment": "SELECT_ADD",
+      "reason": "Takes key opposing nonland cards proactively in a single triple-opponent Zevlor turn; retains Force, Drain, Swan Song and Guardianship.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Intuition",
+      "source": "OFF-RANKING focused role/counterfactual search plus exact 2026-10-27 Scryfall Oracle; full alternatives where applicable.",
+      "role": "Three-card targeted-opponent tutor can multiply into library and graveyard selection with Zevlor.",
+      "named_cuts": [
+        "Worst Fears"
+      ],
+      "incumbent_opportunity_cost": "Worst Fears is an expensive but irreplaceable take-an-opponent-turn finisher, a major encyclopedia identity payoff.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Three-card targeted-opponent tutor can multiply into library and graveyard selection with Zevlor.",
+      "adversarial_downside": "Worst Fears is an expensive but irreplaceable take-an-opponent-turn finisher, a major encyclopedia identity payoff.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "An additional tutor is real consistency but duplicates Gifts and undermines the high-end control-their-turn narrative; tested in exact alt8/alt9.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Magewright's Stone",
+      "source": "OFF-RANKING focused role/counterfactual search plus exact 2026-10-27 Scryfall Oracle; full alternatives where applicable.",
+      "role": "Artifact can untap a tap-ability creature at one-mana activation to prime a later Zevlor activation.",
+      "named_cuts": [
+        "Rhystic Study"
+      ],
+      "incumbent_opportunity_cost": "Rhystic Study independently refills hand when commander dies and may draw many cards at interaction-heavy tables.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Artifact can untap a tap-ability creature at one-mana activation to prime a later Zevlor activation.",
+      "adversarial_downside": "Rhystic Study independently refills hand when commander dies and may draw many cards at interaction-heavy tables.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "A second untap tool is conditional on creature survival; trading the resilient global draw engine for redundant activation did not pass.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Inside Information",
+      "source": "OFF-RANKING focused role/counterfactual search plus exact 2026-10-27 Scryfall Oracle; full alternatives where applicable.",
+      "role": "Opponent-targeted exile-the-top-X theft spell becomes multiple opponent libraries when Zevlor copies it.",
+      "named_cuts": [
+        "Blasphemous Act"
+      ],
+      "incumbent_opportunity_cost": "Blasphemous Act is the sole dedicated all-board sweeper and often costs just one red; Inside Information costs X and time-limited life-paid casting.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Opponent-targeted exile-the-top-X theft spell becomes multiple opponent libraries when Zevlor copies it.",
+      "adversarial_downside": "Blasphemous Act is the sole dedicated all-board sweeper and often costs just one red; Inside Information costs X and time-limited life-paid casting.",
+      "judgment": "REJECT",
+      "reason": "Three-library burst theft is exciting but removal of last reliable reset exposes creature boards; alt9 demonstrates this opportunity cost.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Blot Out",
+      "source": "OFF-RANKING focused role/counterfactual search plus exact 2026-10-27 Scryfall Oracle; full alternatives where applicable.",
+      "role": "Single-opponent highest-mana-value exile edict is exactly the same key role as End of the Hunt.",
+      "named_cuts": [
+        "Abrade"
+      ],
+      "incumbent_opportunity_cost": "One extra black generic mana compared with the selected End of the Hunt and still lacks Abrade artifact answer.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Single-opponent highest-mana-value exile edict is exactly the same key role as End of the Hunt.",
+      "adversarial_downside": "One extra black generic mana compared with the selected End of the Hunt and still lacks Abrade artifact answer.",
+      "judgment": "REJECT",
+      "reason": "Identical target-copy role at worse rate than the selected two-mana alternative; reject redundant upgrade.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    },
+    {
+      "card": "Cornered by Black Mages",
+      "source": "OFF-RANKING focused role/counterfactual search plus exact 2026-10-27 Scryfall Oracle; full alternatives where applicable.",
+      "role": "Opponent-targeted edict plus 0/1 Wizard token per spell resolution can increase later noncreature cast damage.",
+      "named_cuts": [
+        "Bedevil"
+      ],
+      "incumbent_opportunity_cost": "Bedevil is instant-speed direct artifact, creature or planeswalker removal; Wizard damage triggers on casts, not Zevlor copies.",
+      "commander_synergy": "Zevlor's target-only-one-opponent/controlled-permanent delayed copy effect: Opponent-targeted edict plus 0/1 Wizard token per spell resolution can increase later noncreature cast damage.",
+      "adversarial_downside": "Bedevil is instant-speed direct artifact, creature or planeswalker removal; Wizard damage triggers on casts, not Zevlor copies.",
+      "judgment": "REJECT",
+      "reason": "Extra tokens do not trigger from copies, and sacrificing another precise answer for setup-dependent tiny bodies fails the whole-deck resilience test.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "End of the Hunt",
+      "Strategic Betrayal",
+      "Gifts Ungiven",
+      "Rousing Refrain",
+      "Traumatic Critique",
+      "Cruelclaw's Heist"
+    ],
+    "cuts": [
+      "Abrade",
+      "Terminate",
+      "Gamble",
+      "Dark Ritual",
+      "Portent",
+      "Counterspell"
+    ],
+    "coherent_package_tradeoff": "Exactly six real opponent-copy-focused replacements upgrade exile removal, graveyard hate, three-opponent Gifts piles, red hand-size ritual, X-draw and nonland hand exile. It deliberately sacrifices early instant defense and black ritual speed, then stops on quality after two higher-swap exact physical portfolios lose iconic high-end theft, independent draw and mass removal."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Abrade",
+        "weakness": "Challenged actual baseline role: Abrade is instant-speed and retains artifact destruction or precise three-damage removal; edict is sorcery and cannot pick a small threat.",
+        "alternative_named": "End of the Hunt",
+        "reasoning": "The non-targeted exile payload scales Zevlor against indestructible/hexproof boards, while other instant and artifact answers remain. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Terminate",
+        "weakness": "Challenged actual baseline role: Terminate kills a selected creature at instant speed; this sorcery's opponent chooses what goes and cannot aim around expendable tokens.",
+        "alternative_named": "Strategic Betrayal",
+        "reasoning": "Three graveyard exiles plus three forced sacrifices exploit Zevlor's copied single-target opponent line while other pin removal stays. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Gamble",
+        "weakness": "Challenged actual baseline role: Gamble is one mana and often finds the exact card despite random discard; Gifts costs four, opponent partitions and can interrupt a tempo turn.",
+        "alternative_named": "Gifts Ungiven",
+        "reasoning": "One cast with Zevlor obtains independent piles for the three opponents, building Kess/Snapcaster graveyard and hand resources. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Challenged actual baseline role: Dark Ritual provides three black for just B immediately; Refrain costs five to cast normally, requires cards in hands and generates red only.",
+        "alternative_named": "Rousing Refrain",
+        "reasoning": "Makes Zevlor's opponent-target copying turn into a large red-mana burst, improving multicasting in the theft shell. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Portent",
+        "weakness": "Challenged actual baseline role: Portent costs one blue and manipulates top cards with deferred draw; critique requires blue and red, discards each resolution and needs target legality.",
+        "alternative_named": "Traumatic Critique",
+        "reasoning": "It converts a normally one-for-one cantrip slot into three immediate filtering resolutions and scalable damage under Zevlor. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Counterspell",
+        "weakness": "Challenged actual baseline role: Counterspell provides broad instant-speed stack defense and remains flexible against combo; Heist costs two black and can whiff on empty hands.",
+        "alternative_named": "Cruelclaw's Heist",
+        "reasoning": "Takes key opposing nonland cards proactively in a single triple-opponent Zevlor turn; retains Force, Drain, Swan Song and Guardianship. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Worst Fears",
+        "weakness": "Challenged actual baseline role: Worst Fears is an expensive but irreplaceable take-an-opponent-turn finisher, a major encyclopedia identity payoff.",
+        "alternative_named": "Intuition",
+        "reasoning": "An additional tutor is real consistency but duplicates Gifts and undermines the high-end control-their-turn narrative; tested in exact alt8/alt9. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Rhystic Study",
+        "weakness": "Challenged actual baseline role: Rhystic Study independently refills hand when commander dies and may draw many cards at interaction-heavy tables.",
+        "alternative_named": "Magewright's Stone",
+        "reasoning": "A second untap tool is conditional on creature survival; trading the resilient global draw engine for redundant activation did not pass. The incumbent's unique defensive/tempo job is explicitly counted."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Challenged actual baseline role: Blasphemous Act is the sole dedicated all-board sweeper and often costs just one red; Inside Information costs X and time-limited life-paid casting.",
+        "alternative_named": "Inside Information",
+        "reasoning": "Three-library burst theft is exciting but removal of last reliable reset exposes creature boards; alt9 demonstrates this opportunity cost. The incumbent's unique defensive/tempo job is explicitly counted."
+      }
+    ],
+    "off_ranked_opportunities": "Searched beyond popular commander rankings for End of the Hunt, Strategic Betrayal, Cruelclaw's Heist, Traumatic Critique, redundant Blot Out, Intuition, additional untaps and exile-library theft. Compared with conditional cast-only Wizard value, each purchase costs a precise original role.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "End of the Hunt",
+          "Strategic Betrayal",
+          "Gifts Ungiven",
+          "Rousing Refrain",
+          "Traumatic Critique",
+          "Cruelclaw's Heist",
+          "Intuition",
+          "Magewright's Stone"
+        ],
+        "cuts": [
+          "Abrade",
+          "Terminate",
+          "Gamble",
+          "Dark Ritual",
+          "Portent",
+          "Counterspell",
+          "Worst Fears",
+          "Rhystic Study"
+        ],
+        "result_and_rationale": "An eighth-swap setup portfolio supplements Gifts with Intuition and a repeated-activation equipment line from Magewright's Stone, enabling more table-wide casts when Zevlor remains protected. Worst Fears gives a genuinely different high-end steal-a-turn option, not redundant generic draw, and Rhystic Study is commander-independent sustain against removal; the two new slots amplify existing strengths while creating worse failure states."
+      },
+      {
+        "adds": [
+          "End of the Hunt",
+          "Strategic Betrayal",
+          "Gifts Ungiven",
+          "Rousing Refrain",
+          "Traumatic Critique",
+          "Cruelclaw's Heist",
+          "Intuition",
+          "Magewright's Stone",
+          "Inside Information"
+        ],
+        "cuts": [
+          "Abrade",
+          "Terminate",
+          "Gamble",
+          "Dark Ritual",
+          "Portent",
+          "Counterspell",
+          "Worst Fears",
+          "Rhystic Study",
+          "Blasphemous Act"
+        ],
+        "result_and_rationale": "The nine-swap expanded theft plan adds Inside Information's X-card exile from each opposing library on top of Intuition and additional repeatability, maximizing spectacular Zevlor-multiplied resource seizures. Without Blasphemous Act the deck has no robust mass creature reset; Inside Information's temporary permission and life-cost casts do not replace surviving early attacker swarms. It inherits the alt8 loss of independent card flow and Worst Fears."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Worst Fears, Rhystic Study and Blasphemous Act are the further held incumbents in exact alt8/alt9. Their retention was earned by effect diversity, independence from the commander, and a unique emergency answer, not by avoiding more than the six selected changes.",
+    "strongest_argument_against_baseline": "Broad instant answers and Gamble/Portent have high generic rate but do little with Zevlor's exclusive one-target copied-opponent effect. Moving toward six independently strong opponent-targeted payoff cards sharply raises action density once an activation resolves.",
+    "evidence_based_answer": "Actual physical baseline-to-final and two full higher-count source lists were audited, with 108 Scryfall Oracle records and finite test fixtures for the exact 16 original Zevlor case IDs. This confirms identity and bounded rules assumptions but does not claim empirical multiplayer win rates."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After the sixth swap, all 93 retained noncommander physical slots were checked in the 99-slot CSV, including the 34-land count, cheap colored mana, sweepers, control-stack interaction, self-contained draw engines, activation and repeated cast/copy value. Additional credible substitutions were constructed into two entire 100-card alternatives and rejected on role-specific costs, not because six was a quota.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Worst Fears",
+        "challenger": "Intuition",
+        "tradeoff": "Intuition raises three-opponent tutoring and Kess graveyard setup, but Worst Fears delivers a distinct premium take-an-opponent-turn control payoff that makes this commander more than a repetitive library-search deck.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Rhystic Study",
+        "challenger": "Magewright's Stone",
+        "tradeoff": "One additional Zevlor untap activation can produce an extra table-wide payload, but Study is vital commander-independent card advantage when removal or artifact hate prevents setup.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Blasphemous Act",
+        "challenger": "Inside Information",
+        "tradeoff": "Copying X exiled cards from each of three enemy libraries raises burst theft, but sacrifices the only unconditional wide creature reset and exposes the vulnerable spell-copy engine to creature armies.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1_alt8.txt",
+        "sha256": "23518e9c7bf894e7643f946a8801c58a031e99d98750c867305adc4fdb7e8878",
+        "adds": [
+          "End of the Hunt",
+          "Strategic Betrayal",
+          "Gifts Ungiven",
+          "Rousing Refrain",
+          "Traumatic Critique",
+          "Cruelclaw's Heist",
+          "Intuition",
+          "Magewright's Stone"
+        ],
+        "cuts": [
+          "Abrade",
+          "Terminate",
+          "Gamble",
+          "Dark Ritual",
+          "Portent",
+          "Counterspell",
+          "Worst Fears",
+          "Rhystic Study"
+        ],
+        "case_for_extra_swaps": "An eighth-swap setup portfolio supplements Gifts with Intuition and a repeated-activation equipment line from Magewright's Stone, enabling more table-wide casts when Zevlor remains protected.",
+        "why_not_selected": "Worst Fears gives a genuinely different high-end steal-a-turn option, not redundant generic draw, and Rhystic Study is commander-independent sustain against removal; the two new slots amplify existing strengths while creating worse failure states."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1_alt9.txt",
+        "sha256": "9ffc69741f36ce7a07ce48f5ff9df692d4b326770ed83781c457856196c482da",
+        "adds": [
+          "End of the Hunt",
+          "Strategic Betrayal",
+          "Gifts Ungiven",
+          "Rousing Refrain",
+          "Traumatic Critique",
+          "Cruelclaw's Heist",
+          "Intuition",
+          "Magewright's Stone",
+          "Inside Information"
+        ],
+        "cuts": [
+          "Abrade",
+          "Terminate",
+          "Gamble",
+          "Dark Ritual",
+          "Portent",
+          "Counterspell",
+          "Worst Fears",
+          "Rhystic Study",
+          "Blasphemous Act"
+        ],
+        "case_for_extra_swaps": "The nine-swap expanded theft plan adds Inside Information's X-card exile from each opposing library on top of Intuition and additional repeatability, maximizing spectacular Zevlor-multiplied resource seizures.",
+        "why_not_selected": "Without Blasphemous Act the deck has no robust mass creature reset; Inside Information's temporary permission and life-cost casts do not replace surviving early attacker swarms. It inherits the alt8 loss of independent card flow and Worst Fears."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The stop is quality based: further targeted opponent tutoring via Intuition duplicates six-swap Gifts and takes Worst Fears's special turn theft; a Magewright's Stone untap consumes Rhystic Study's irreplaceable commander-independent cards; Inside Information's top-X theft costs Blasphemous Act's indispensable unconditional mass reset. Those are real improvements in best-case Zevlor activation turns but degrade the more likely disrupted and creature-heavy games. Neither complete alt8 nor alt9 earned a stronger coherent 100."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1.txt",
+    "sha256": "071e9a8b9eaa0f2cfad65f4e7ef05cc5cf0a8b5f74f2221c75d68e6c4dd1bb8f",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exactly one tagged Zevlor and 99 physical library slots, 97 distinct names, exactly six removals and six additions versus Oct15 raw approved source, Island/Mountain/Swamp each twice and all other names singleton; 34 unchanged lands, all 97 final Oracle IDs legal Grixis in 2026-10-27 snapshot."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/zevlor_rev1/Zevlor_Oct15_Authority_Baseline.txt",
+      "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_Scryfall_snapshot.json",
+      "data/grixis/m7/zevlor_rev1/Zevlor_M7_Rev1_99slot_ledger.csv",
+      "data/grixis/m7/zevlor_rev1/verify.py",
+      "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1.txt",
+      "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1_alt8.txt",
+      "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1_alt9.txt"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Targeted Spells",
+      "Spell Copy",
+      "Theft-Control"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}

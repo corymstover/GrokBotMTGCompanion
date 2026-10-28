@@ -1,0 +1,30 @@
+name: "M7 Deck 62 Zevlor Rev1 exact-source certification"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Zevlor__Elturel_Exile_M7_Rev1*.txt"
+      - "data/grixis/m7/zevlor_rev1/**"
+      - "data/grixis/m7/decision_reviews/Zevlor__Elturel_Exile_rev1.json"
+      - ".github/workflows/m7-deck62-zevlor-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-oracle-rules-and-m7-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Oct15 and Rev1 raw SHA, 100 physical cards, 16 original cases and six swap fixtures"
+        run: python3 data/grixis/m7/zevlor_rev1/verify.py
+      - name: "Install project M7 JSON Schema validator"
+        run: python3 -m pip install jsonschema
+      - name: "Six exact swaps, 11 candidate judgments and two larger 100s"
+        run: python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Zevlor__Elturel_Exile_rev1.json
+      - name: "M7 repository-wide regression"
+        run: python3 scripts/grixis_m7_decision_gate.py --check
