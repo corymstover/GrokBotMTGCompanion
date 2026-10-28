@@ -141,6 +141,55 @@ def apply_legend_rule(copies: list[KefkaCopy], legend_exception: bool):
     return [same_name[0]] if same_name else copies
 
 
+@dataclass
+class BreachLEDLoop:
+    """Conservative finite ledger, not a full Magic priority/zone engine.
+
+    graveyard_fuel is the count of expendable OTHER graveyard cards, excluding
+    LED, Brain Freeze, and Oracle; we never silently exile a combo piece.
+    """
+
+    library: int
+    graveyard_fuel: int
+    blue_mana: int = 0
+    spells_cast: int = 0
+    breach_active: bool = True
+    led_in_grave: bool = True
+    freeze_in_grave: bool = True
+    oracle_in_grave: bool = True
+
+    def led_freeze(self, *, self_target=True, storm_countered=False):
+        # LED's escape {0} + exile three OTHER cards, then cast/resolve LED;
+        # sacrifice it at instant speed BEFORE casting the next Brain Freeze.
+        # Brain Freeze needs {1}{U} + exile three additional OTHER cards.
+        if not (self.breach_active and self.led_in_grave and self.freeze_in_grave
+                and self.graveyard_fuel >= 6):
+            return None
+        self.graveyard_fuel -= 3
+        self.led_in_grave = False
+        self.spells_cast += 1
+        self.blue_mana += 3  # LED activation resolves; LED returns to graveyard.
+        self.led_in_grave = True
+        if self.blue_mana < 2:  # No invented zero-mana Brain Freeze.
+            return None
+        self.graveyard_fuel -= 3
+        self.blue_mana -= 2
+        self.freeze_in_grave = False
+        storm_copies_plus_original = (1 if storm_countered else 1 + self.spells_cast)
+        self.spells_cast += 1
+        milled = min(self.library, 3 * storm_copies_plus_original) if self_target else 0
+        self.library -= milled
+        self.graveyard_fuel += milled
+        self.freeze_in_grave = True  # Resolved spell goes back to the graveyard.
+        return storm_copies_plus_original, milled
+
+    def can_escape_oracle_and_win_unanswered(self):
+        # Thassa's Oracle costs UU plus three OTHER graveyard cards under
+        # Breach, and the library must be empty at the ETB resolution.
+        return (self.breach_active and self.oracle_in_grave and self.library == 0
+                and self.blue_mana >= 2 and self.graveyard_fuel >= 3)
+
+
 class KefkaExactP0Transfer(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -282,6 +331,45 @@ class KefkaExactP0Transfer(unittest.TestCase):
         self.assertFalse(devotion >= 3)
         self.assertIsNotNone(pay(Counter({"B": 1, "U": 2}), {"B": 1}))
         self.assertIsNotNone(pay(Counter({"U": 2}), {"U": 2}))
+
+    def test_P1_W2_breach_led_freeze_paid_finite_storm_to_oracle(self):
+        for name in ("Underworld Breach", "Lion's Eye Diamond", "Brain Freeze", "Thassa's Oracle"):
+            self.assertIn(name, self.list_names)  # Exact, SHA-pinned 100.
+        self.assertIn("exile three other cards", self.cards["Underworld Breach"]["oracle_text"])
+        self.assertIn("Discard your hand, Sacrifice this artifact", self.cards["Lion's Eye Diamond"]["oracle_text"])
+        self.assertIn("Storm", self.cards["Brain Freeze"]["oracle_text"])
+        self.assertIn("greater than or equal to the number of cards in your library",
+                      self.cards["Thassa's Oracle"]["oracle_text"])
+
+        state = BreachLEDLoop(library=42, graveyard_fuel=12)
+        self.assertFalse(state.can_escape_oracle_and_win_unanswered())
+        self.assertEqual([state.led_freeze() for _ in range(4)],
+                         [(2, 6), (4, 12), (6, 18), (8, 6)])
+        self.assertEqual(state.library, 0)
+        self.assertEqual(state.blue_mana, 4)  # Each LED yields UUU, Freeze costs UU.
+        self.assertEqual(state.graveyard_fuel, 30)  # 12 - (4 x 6) + 42 milled.
+        self.assertTrue(state.can_escape_oracle_and_win_unanswered())
+
+    def test_P1_W2_breach_failures_and_counterplay_require_real_fuel(self):
+        self.assertIsNone(BreachLEDLoop(library=42, graveyard_fuel=5).led_freeze())
+        self.assertIsNone(BreachLEDLoop(library=42, graveyard_fuel=12,
+                                        breach_active=False).led_freeze())
+        self.assertIsNone(BreachLEDLoop(library=42, graveyard_fuel=12,
+                                        freeze_in_grave=False).led_freeze())
+        diverted = BreachLEDLoop(library=42, graveyard_fuel=6)
+        self.assertEqual(diverted.led_freeze(self_target=False), (2, 0))
+        self.assertIsNone(diverted.led_freeze())  # Opponent mill did not feed our yard.
+        stopped_storm = BreachLEDLoop(library=42, graveyard_fuel=6)
+        self.assertEqual(stopped_storm.led_freeze(storm_countered=True), (1, 3))
+        self.assertIsNone(stopped_storm.led_freeze())  # Countered storm trigger matters.
+        no_oracle_mana = BreachLEDLoop(library=0, graveyard_fuel=3, blue_mana=1)
+        self.assertFalse(no_oracle_mana.can_escape_oracle_and_win_unanswered())
+        exiled_oracle = BreachLEDLoop(library=0, graveyard_fuel=10, blue_mana=4,
+                                      oracle_in_grave=False)
+        self.assertFalse(exiled_oracle.can_escape_oracle_and_win_unanswered())
+        # An opponent can still counter Oracle, remove Breach before the next
+        # escape, or intervene in the stack. This tests a legal bounded trace,
+        # not unconditional repeatability or a forced multiplayer win.
 
     def test_P1_W3_F2_repeated_hand_attack_and_extra_turn_liability(self):
         self.assertIn("Take an extra turn after this one", self.cards["Final Fortune"]["oracle_text"])
