@@ -1,0 +1,52 @@
+# Deck #61 — Wick, the Whorled Mind — M7 Rev1 research checkpoint
+
+**Status: RESEARCH_ONLY / NOT OWNER-APPROVAL-READY.** This is a source-bound provisional strategic recommendation, not an M6 mechanical certificate, I/J completion, M7 decision-gate success, GitHub exact-head CI receipt, canonical replacement, or Cory's approval. The October 15 approved/locked 100-card list and all other 61 deck locks remain untouched.
+
+## Authority and source
+
+- Canonical repository: `corymstover/grixis-commander-encyclopediaGPT/main`, checked against commit `89ef6f71eddf6e18b49b76d0bfb6f82e7f721bc5` on 2026-10-27 (America/Chicago).
+- Canonical key `Wick__the_Whorled_Mind`, exact source `refinement/decklists/Wick_the_Whorled_Mind_Approved_2026-10-15.txt`, raw SHA-256 `f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98`. Live state APPROVED/LOCKED 2026-10-15. Additional M6/M7 milestone acceptance is not inferred.
+- Prior 99-slot Oct15 audit, 214 candidate comparisons across 192 names in Oct20 M6 authored review, Oct21 owner-equivalent Pass C KEEP, and Oct17 I/J intake receipt were inspected as *historical evidence*. Their KEEP is not the present M7 decision.
+- Commander-specific EDHREC [Top Cards / High Lift](https://edhrec.com/commanders/wick-the-whorled-mind) and [Rats filtered page](https://edhrec.com/commanders/wick-the-whorled-mind/rats), viewed 2026-10-27. Notable Top Cards include Lord Skitter, Vren, Song, Marrow-Gnawer; High Lift includes Rat Kings, Swarmyard Massacre, Sword of the Squeak. New Cards includes Rank Rat. Inclusion/lift are discovery signals, never deck quality proof.
+- Live Scryfall `POST /cards/collection` checked all 99 unique canonical names and 49 other material names, including DFCs by their front-face names, with 148/148 resolved, no illegal/off-Grixis card. Oracle snapshot in `wick_oracle_2026-10-27.json` is a local research artifact; it is **not** an integrated GitHub source-bound Oracle receipt.
+
+## Commander-first game plan
+
+Wick `{3}{B}` turns successive Rat entries into a single growing Snail, then pays `{U}{B}{R}` and sacrifices a Snail to make Wick deal that power to **each** opponent and draw that many cards. Type changers that ADD Rat without removing Snail (Arcane Adaptation, Leyline of Transformation, Maskwood Nexus) support a self-renewing Rat-Snail entry/sacrifice stack sequence **when a Wick trigger is pending and a genuine repeatable sacrifice outlet exists**. Mirkwood Bats, Impact Tremors, Goblin Bombardment, Altar of Dementia and Zulaport can convert finite repetitions into a win. Marrow-Gnawer + Intruder Alarm provides another Rat-entry engine. Preserve these packages, low-cost stack interaction and enough unrestricted U/B/R sources.
+
+Natural ceiling remains **Bracket 4 — Optimized**, not a generic B5 Oracle/Consult/Breach pile. Suggested Archidekt tags: **Rats / Snail Growth / Sacrifice Combo**.
+
+## Preferred provisional Rev1: nine distinct upgrades, one coherent 100
+
+| Add | Cut | Improvement | Real downside / adverse case |
+| --- | --- | --- | --- |
+| Rank Rat | Tangled Colony | Two-mana *Rat* immediately advances Wick and makes every opponent discard. With Blasphemous Act removed below, Colony loses its most reliable mass-damage Rat-production setup. | Discard quality depends on opponents' hands; loses Colony's explosive damage-then-die token ceiling. |
+| Azure Beastbinder | Persistent Marshstalker | Cheap evasive Rat that can suppress an opposing artifact, creature or planeswalker ability through your next turn while triggering Wick. | Attack-dependent and not permanent removal; loses Marshstalker's graveyard re-entry after threshold. |
+| Yawgmoth, Thran Physician | Totentanz, Swarm Piper | Repeatable Snail/Rat sacrifice and card draw, selective creature shrink, and proliferate for Snail counters. | Four mana and **one life per sacrifice**, so Yawgmoth alone is not a boundless free outlet; it is not naturally a Rat. Loses Totentanz's Rat token on nontoken deaths. |
+| Swarmyard Massacre | Blasphemous Act | Rat-preserving scalable removal, with two Squirrel bodies and especially strong play patterns once a Rat board exists. | Costs five mana, scales poorly with low Rat count; absent a type changer, the **Snail is not a Rat and may die**. Act is dramatically cheaper in large-board games. |
+| Beseech the Mirror | Plumb the Forbidden | Bargain an expendable Rat token to tutor and directly cast a key 4-or-less mana type changer, outlet, or protection spell. | Triple black mana demands robust fixing; loses Plumb's instant-speed wipe-response draw. Do not bargain away the only Snail without considering pending Rat triggers. |
+| Malakir Rebirth // Malakir Mire | Swarmyard | Converts a colorless utility land into black mana (optionally untapped for 3 life) or a one-black Wick death-protection spell that brings Wick back for another entry trigger. | No regeneration line for a Rat; back face is tapped unless life is paid and does not provide U or R. |
+| Misty Rainforest | Shipwreck Marsh | Fetches typed Underground Sea, Volcanic Island, Watery Grave, Steam Vents or triome immediately; fixes early access without check-land turn-1/2 tap. | One life, search hate, fetch vulnerability versus an easy later untapped U/B dual. |
+| Verdant Catacombs | Haunted Ridge | Fetches typed black duals including Badlands/Underground Sea/Watery Grave, reducing early turn tap friction. | One life and search-dependence versus a late untapped B/R dual. |
+| Wooded Foothills | Stormcarved Coast | Fetches typed red duals including Badlands/Volcanic Island and shocks; early untapped fixing. | One life, search-denial exposure, and choosing the right original dual matters for future U/B/R activation. |
+
+**Preferred candidate exact UTF-8 raw SHA-256:** `1aea08a53b983ee9ce083c1e9c95b366a3abc478a43b75517714d6280b484c48` (file `Wick_M7_Rev1_research_9.txt`, final newline included). It has 100 copies and only Island x2 duplicated; 34 front-face dedicated lands plus two land-capable MDFCs (Boggart Trawler, Malakir Rebirth) = **36 land-capable slots**. Nonland non-MDFC mean mana value ~2.55 versus baseline 2.56. All selected additions have a current Scryfall Commander legal, U/B/R-compatible record.
+
+## Full-100 alternative package challenges
+
+1. `Wick_M7_Rev1_alt11_growth_and_untap.txt`, raw SHA `bb79980af439382f8ff0810efcfdb42ecd80aa5cf6efb8c8f41607c1146e13f1`: the preferred nine **plus** Sword of the Squeak / The Ozolith and Minamo, School at Water's Edge / Island. A wide board yields a much larger equippable Snail, and Minamo can untap legendary Marrow-Gnawer or Rat King, Verminister. However it cuts Ozolith's persistent counters and a basic Island, while pushing more resources into board-dependent power with more Blood Moon vulnerability.
+2. `Wick_M7_Rev1_alt12_extra_type_changer.txt`, raw SHA `38b3c4480d5a57a9caf82f6164c0399a1067eebae3b3f3c4c992e6afc83ac58f`: alt11 **plus** Xenograft / Piper of the Swarm. A fourth add-not-replace Rat type changer raises combo redundancy, but Xenograft costs five mana and loses the cheap recurring Rat-token engine, menace, and creature theft of Piper. This is a more expensive, type-changer-heavy complete 100 with worse independent setup.
+
+Other plausible challenges resolved provisionally: Sword of the Squeak and Swarmyard Massacre are strongly on theme, but Sword's auto-attachment to later Rats can move it off the Snail unless declined and it requires an established 1/1 board; The Ozolith gives post-sacrifice resilience. Yawgmoth is limited by life without Zulaport/life gain. Mystic Remora/Rhystic Study are excellent generic draw but may displace Wick-specific pieces; Panharmonicon provides no Rat body and costs four, unlike Roaming Throne. Xenograft can be valuable as a fourth type changer but is slower than its 3/4-mana incumbents. Thornbite Staff is a Marrow-Gnawer alternative to Intruder Alarm, but costs two plus equip four and demands Gnawer survival; the latter is symmetrical yet cheaper to establish. Beseech the Mirror improves combo access but loses instant-speed Plumb protection. Other examined outsiders: Reanimate, Victimize, Imperial Recruiter, Kindred Discovery, Chthonian Nightmare, Gravecrawler, Ratcatcher, Ruthless Radrat, Ogre Chitterlord, Shoreline Looter, Perfected Theory, Blood Artist, and generic tutors/lands. None is auto-selected merely because of EDHREC inclusion.
+
+## Checks actually completed / outstanding
+
+**Completed locally:** canonical SHA reproduced; card-by-card Scryfall current collection 148/148 resolution, all 100 baseline and all nine additions legal/color-compatible; generated 9/11/12-swap whole lists, 100 cards and singleton. Fourteen bounded Python unit fixtures passed for C1, K1–K5, F1–F3, E1/E2, W1–W3 and candidate structure, including positive and adverse preconditions, Rat-Snail stack timing, last-known-power, infect's actual source, Cavern restrictions, Marrow-Gnawer two-Rat self-sustaining versus three-Rat growing loop, Ozolith combat timing, and finite draw/deck-out risk. These tests model the named transitions only; they **do not** simulate complete MTG games or certify M6 P0/P1.
+
+**Hard blocks to an owner-ready M7 packet:**
+
+1. The authoritative Wick 14-case M6 P0/P1 plan remains `DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN` (five P0: C1, K1, K2, K3, F1; nine P1: K4, K5, E1, E2, W1, W2, W3, F2, F3). It requires actual source-bound fixtures and execution receipts in the engineering repository, including coverage of the final revised list.
+2. Wick's archived I/J record is an `M6_IJ_input_receipt` with `inputs_attested_downstream_incomplete` and `phase_b_replayed:false`, **not** a final source-to-candidate transfer/certificate. Map any valid saved case to the final nine-swap config; do not claim historical source tests transfer automatically.
+3. The prospective machine `grixis_m7_decision_gate.py --check` has not passed a complete integrated final-review record and GitHub exact-head CI has **not** been run for this new list. The engineering branch evidence and canonical prospective transfer contract must be completed before asking for an exact SHA owner approval.
+
+**Next exact action:** create/execute the source-bound Wick P0/P1 implementation on a narrow engineering branch, adjudicate I/J scoped case correspondence and current source hashes, run the M7 decision/CI gate, and only then present one exact 100-card M7 Rev1 owner approval packet. **Do not change canonical approval state or export yet.**
