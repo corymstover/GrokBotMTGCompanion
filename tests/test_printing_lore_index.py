@@ -7,6 +7,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import printing_lore_index as pli
@@ -89,6 +90,22 @@ class PrintingLoreIndexTests(unittest.TestCase):
         r = self.command("card", "Plains")
         self.assertEqual(len(r["items"]), 3)
         self.assertTrue(all(x["faces"] for x in r["items"]))
+
+    def test_back_face_name_resolves_fast_without_scan(self):
+        r = self.command("card", "Architect of Restoration")
+        self.assertEqual([x["id"] for x in r["items"]], ["saga-1"])
+
+    def test_frozen_grixis_source_wins_over_newer_cache(self):
+        base = Path(self.tmp.name)
+        root = base / "mini-repo"
+        (root / "data" / "grixis").mkdir(parents=True)
+        (root / ".cache").mkdir()
+        (root / ".cache" / "default-cards-20261015000000.jsonl.gz").touch()
+        (root / ".cache" / "default-cards-20261028000000.jsonl.gz").touch()
+        (root / "data" / "grixis" / "dev_snapshot_lock.json").write_text(
+            json.dumps({"files": {"default-cards": "default-cards-20261015000000.jsonl.gz"}}), encoding="utf-8")
+        with mock.patch.object(pli, "ROOT", root):
+            self.assertEqual(pli.latest_source().name, "default-cards-20261015000000.jsonl.gz")
 
 
 if __name__ == "__main__":
