@@ -9,6 +9,7 @@ Examples (from repository root):
   python3 scripts/lore_query.py timeline ar
   python3 scripts/lore_query.py timeline omenpaths
   python3 scripts/lore_query.py candidates "Urza" --limit 30
+  python3 scripts/lore_query.py beats "Ugin vs Nicol Bolas" --limit 12
 
 JSON is the default for ChatGPT scripts; --human gives a concise readable view.
 Scryfall export covers English/default-language printings, not all translations.
@@ -157,6 +158,12 @@ def run(args):
         return E.printing_matches(args.term, archive, args.sets, args.limit)
     if args.action == "timeline":
         return timeline_view(args.timeline.read_text(encoding="utf-8"), args.scope)
+    if args.action == "beats":
+        import lore_lib as L
+        from story_deck_planner import plan
+        data = json.loads((ROOT / "data" / "lore_entries.json").read_text(encoding="utf-8"))
+        sources = {f"{e['page']}#{e['anchor']}": L.official_urls(e["text"]) for e in L.all_entries()}
+        return plan(args.term, data, args.timeline.read_text(encoding="utf-8"), args.limit, sources)
     if args.action in ("lore", "candidates"):
         import lore_lib as L
         evidence = E.lookup(args.term, archive, L.all_entries(), args.sets, args.limit)
@@ -173,7 +180,7 @@ def main(argv=None):
     parser.add_argument("--timeline", type=Path, default=ROOT / "Master Timeline.md")
     parser.add_argument("--human", action="store_true")
     sub = parser.add_subparsers(dest="action", required=True)
-    for action in ("set", "card", "flavor", "lore", "candidates"):
+    for action in ("set", "card", "flavor", "lore", "candidates", "beats"):
         p = sub.add_parser(action)
         p.add_argument("term")
         p.add_argument("--limit", type=int, default=30)
@@ -191,6 +198,10 @@ def main(argv=None):
             print(f"{args.scope}: {result['count']} source-labeled events ({result['ordering_rule']})")
             for row in result["rows"]:
                 print(f"  {row['marker']}: {row['cells_markdown'][0]}")
+        elif args.action == "beats":
+            print(f"{result['theme']}: {result['beat_total']} evidence-labeled story beats")
+            for beat in result["beats"]:
+                print(f"  {beat['narrative_group']}: {beat['title']} ({beat['lore_key']})")
         elif args.action == "candidates":
             for row in result["candidates"]:
                 print(f"  {row['rank']}. {row['card_or_reference']} [{', '.join(row['evidence'])}]")
