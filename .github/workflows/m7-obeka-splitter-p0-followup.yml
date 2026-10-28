@@ -27,3 +27,5 @@ jobs:
         run: python3 data/grixis/m7/obeka_splitter_rev1/verify_obeka_splitter_rev1.py
       - name: Source-bound five original required P0 C1 K1 K2 K3 F1
         run: python3 data/grixis/m7/obeka_splitter_rev1/m6_p0_followup.py
+      - name: Current SHA source-bound P1 upkeep and Sieve bounded traces
+        run: python3 data/grixis/m7/obeka_splitter_rev1/m6_p1_closeout.py
