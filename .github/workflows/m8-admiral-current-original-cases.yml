@@ -1,0 +1,22 @@
+name: M8 Admiral current-SHA original P0 P1 case transfer
+
+on:
+  pull_request:
+    paths:
+      - 'tests/test_m8_admiral_rev2_current_case_transfer.py'
+      - 'data/grixis/m7/decision_reviews/Admiral_Beckett_Brass_rev2_Original_Case_Transfer_20261028.md'
+      - '.github/workflows/m8-admiral-current-original-cases.yml'
+  workflow_dispatch:
+
+jobs:
+  exact-current-admiral-original-cases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Re-execute all 13 original P0 and P1 group models on the exact Rev2 source
+        run: python -m unittest discover -s tests -p 'test_m8_admiral_rev2_current_case_transfer.py' -v
+      - name: Original baseline case regressions remain valid in their own historical scope
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_brass_p*.py' -v
