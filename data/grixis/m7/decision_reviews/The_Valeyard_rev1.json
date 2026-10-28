@@ -1,0 +1,761 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "The_Valeyard",
+  "canonical_baseline_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
+  "canonical_baseline_logical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+  "commander_identity": {
+    "mechanical_plan": "The Valeyard makes each opponent face every actual villainous choice an additional time and gives its controller a second real vote. Multiply the commander and vote spells, not generic political 'choose' text.",
+    "protected_core": [
+      "The Valeyard",
+      "Davros, Dalek Creator",
+      "Dr. Eggman",
+      "Missy",
+      "The Master, Gallifrey's End",
+      "Coercive Portal",
+      "Plea for Power",
+      "Grudge Keeper",
+      "Illusion of Choice",
+      "Model of Unity",
+      "Auton Soldier",
+      "Quantum Misalignment",
+      "Spark Double",
+      "Sakashima of a Thousand Faces",
+      "Midnight Crusader Shuttle"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized. Current live Scryfall flags eight Game Changers, but this is a five-mana choice-based commander and opponent-selectable outcomes; no cEDH consistency is asserted.",
+    "anti_homogenization": "Preserve all thirteen actual villainous-choice sources and eighteen Grixis voting support cards, including three Path spells. New Valeyard copy and Double Vision repeat those unique mechanics, with no unrelated Oracle/Breach combo package."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 physical library slots reconciled with exact October 15 canonical source, the M6 whole-list review and current Oracle. Six selected cuts and 93 retained slots documented in 99-slot CSV, with separate assessments of voting, choice, clone, tempo, counters and lands.",
+    "mana_base_and_curve": "Exactly 36 lands retained. Haunted Ridge BR replaced with colorless Ancient Tomb, while two-mana Izzet Signet is replaced with conditional Chrome Mox imprint mana. Faster Valeyard deployment has a real extra color-pip risk; other multicolor rocks, duals and fetches remain.",
+    "interaction_resilience": "Mana Drain, Force of Will, Fierce Guardianship, Deflecting Swat, Deadly Rollick, Cyclonic Rift, Chaos Warp and Feed the Swarm remain. Swan Song protects for one blue but cannot counter creatures or artifacts; Toxic Deluge loses Blasphemous Act one-red mode while handling indestructible toughness.",
+    "weakest_slots": [
+      {
+        "card": "Brainstorm",
+        "weakness": "Incumbent tradeoff challenged: Nonlegendary Valeyard copy increases each opponent's sequential villainous choices and controller's votes; four mana for a persistent second effect.",
+        "alternative_named": "Irenicus's Vile Duplication",
+        "reasoning": "Loses one-blue card selection with fetchland shuffling; creature copy can be removed."
+      },
+      {
+        "card": "Kess, Dissident Mage",
+        "weakness": "Incumbent tradeoff challenged: Copies the first instant or sorcery cast each turn, giving a new vote or villainous-choice resolution without a card.",
+        "alternative_named": "Double Vision",
+        "reasoning": "Kess allows graveyard recast at four mana, while this costs five and cannot retrieve a spent spell."
+      },
+      {
+        "card": "Arcane Denial",
+        "weakness": "Incumbent tradeoff challenged: One-blue protection lets Valeyard and a vote spell come down with stack defense open.",
+        "alternative_named": "Swan Song",
+        "reasoning": "Arcane Denial counters all spell types and gives an opponent two cards; Swan Song makes a 2/2 flyer."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Incumbent tradeoff challenged: Three-mana toughness reduction handles indestructible threats and leaves room to recast choice engines.",
+        "alternative_named": "Toxic Deluge",
+        "reasoning": "Blasphemous Act can cost one red with enough creatures; Deluge spends controller life."
+      },
+      {
+        "card": "Izzet Signet",
+        "weakness": "Incumbent tradeoff challenged: Zero-mana imprint acceleration supports casting the five-mana Valeyard sooner than a two-mana signet.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Izzet Signet is repeatable UR filtering with no imprint card loss, while Chrome Mox trades resources for tempo."
+      },
+      {
+        "card": "Haunted Ridge",
+        "weakness": "Incumbent tradeoff challenged: Two-colorless acceleration is valuable for five-mana commander and expensive repeat-vote machinery.",
+        "alternative_named": "Ancient Tomb",
+        "reasoning": "Haunted Ridge supplies both B/R without life cost, while Ancient Tomb lacks colored pips and costs two life."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Incumbent tradeoff challenged: A seven-swap full list gets one-mana artifact with three colorless to deploy commander early.",
+        "alternative_named": "Mana Vault",
+        "reasoning": "Fellwar Stone reliably supplies colored UBR in a multiplayer pod across many turns; Vault costs four to untap."
+      },
+      {
+        "card": "Midnight Crusader Shuttle",
+        "weakness": "Incumbent tradeoff challenged: Helm eventually makes one nonlegendary Valeyard copy at each combat to stack static effects.",
+        "alternative_named": "Helm of the Host",
+        "reasoning": "Helm costs four to cast and five to equip, and removing Shuttle loses one of only thirteen actual villainous-choice sources."
+      },
+      {
+        "card": "Path of the Pyromancer",
+        "weakness": "Incumbent tradeoff challenged: The planeswalker copies the first instant or sorcery cast on each turn and can generate red mana.",
+        "alternative_named": "Chandra, Hope's Beacon",
+        "reasoning": "Path supplies a genuine vote, wheel and red burst; Chandra raises cost to six and drops an irreplaceable actual-vote card."
+      },
+      {
+        "card": "Messenger Jays",
+        "weakness": "Incumbent tradeoff challenged: Blinking Jays after noncreature spells can repeat their genuine Council's Dilemma voting event.",
+        "alternative_named": "Displacer Kitten",
+        "reasoning": "Jays alone provides vote plus selection; Kitten without Jays doesn't, so it cannot replace the actual vote source."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Incumbent tradeoff challenged: Returning and copying a vote spell can cause extra vote event and preserve a hand copy.",
+        "alternative_named": "Narset's Reversal",
+        "reasoning": "Requires UU and an existing suitable spell on the stack, while Ritual accelerates Valeyard's early turn."
+      },
+      {
+        "card": "The Master, Gallifrey's End",
+        "weakness": "Incumbent tradeoff challenged: A low-cost tutor could find Tyrant's Choice, Split Decision or Illusion of Choice.",
+        "alternative_named": "Spellseeker",
+        "reasoning": "The Master is a real villainous-choice source and Missy's nontoken Cybermen can trigger it when they die."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Incumbent tradeoff challenged: Can make The Valeyard uncounterable if Time Lord is the named creature type.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Noncreature vote/counter spells need versatile U and R; Cavern does not supply those outside creature casts."
+      },
+      {
+        "card": "Shipwreck Marsh",
+        "weakness": "Incumbent tradeoff challenged: Conditional pre-game colored land when on draw can accelerate five-mana commander.",
+        "alternative_named": "Gemstone Caverns",
+        "reasoning": "Most games it produces colorless and costs another card when lucky, losing steady UB fixing from Marsh."
+      },
+      {
+        "card": "Model of Unity",
+        "weakness": "Incumbent tradeoff challenged: Turns off the legend rule for normal clones and grants legendary buffs.",
+        "alternative_named": "Mirror Box",
+        "reasoning": "Does not create its own copy; Model both produces any-color mana and directly rewards actual votes."
+      },
+      {
+        "card": "Coercive Portal",
+        "weakness": "Incumbent tradeoff challenged: Can pay to copy some supporting triggered political effects.",
+        "alternative_named": "Strionic Resonator",
+        "reasoning": "Cannot copy Valeyard's static effects and replacing Portal removes recurrent genuine voting events."
+      }
+    ],
+    "current_baseline_strength": "All eighteen possible eligible Grixis real-vote cards are already in the source; thirteen native villainous choice sources and four commander-copy mechanisms define its identity. M6 KEEP was rational against generic combo proposals, but did not exhaust off-ranking direct commander-copy candidates.",
+    "candidate_pool_scope": "Reviewed thirty M6 screened exact add/cut pairs over eighteen unique adds, existing EDHREC inclusion/high-lift, live Scryfall 19-result vote-text Grixis search including The Valeyard, and eighteen new or newly challenged material replacements.",
+    "off_ranked_search_conclusion": "OFF-RANKING Irenicus's Vile Duplication and Double Vision provide direct copy and actual vote-event replication. Chandra/Kitten/Helm/Resonator are valid but lose more voting density or require fragile extra setup at their proposed cuts."
+  },
+  "candidate_sources": [
+    "OFF-RANKING October 2026 EDHREC The Valeyard high-synergy and high-lift review plus full Scryfall color-restricted vote search.",
+    "Source-bound 2026-10-27 Scryfall exact-name 104-card snapshot for all staged four complete 100s and their real Oracle/legality.",
+    "Engineering M6 The Valeyard comprehensive 99-card role audit, Oct15 canonical project approvals and documented M6 ownership seal."
+  ],
+  "material_candidates": [
+    {
+      "card": "Irenicus's Vile Duplication",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Nonlegendary Valeyard copy increases each opponent's sequential villainous choices and controller's votes; four mana for a persistent second effect.",
+      "named_cuts": [
+        "Brainstorm"
+      ],
+      "incumbent_opportunity_cost": "Loses one-blue card selection with fetchland shuffling; creature copy can be removed.",
+      "commander_synergy": "Nonlegendary Valeyard copy increases each opponent's sequential villainous choices and controller's votes; four mana for a persistent second effect.",
+      "adversarial_downside": "Loses one-blue card selection with fetchland shuffling; creature copy can be removed.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Nonlegendary Valeyard copy increases each opponent's sequential villainous choices and controller's votes; four mana for a persistent second effect. Real opportunity cost: Loses one-blue card selection with fetchland shuffling; creature copy can be removed.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Double Vision",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Copies the first instant or sorcery cast each turn, giving a new vote or villainous-choice resolution without a card.",
+      "named_cuts": [
+        "Kess, Dissident Mage"
+      ],
+      "incumbent_opportunity_cost": "Kess allows graveyard recast at four mana, while this costs five and cannot retrieve a spent spell.",
+      "commander_synergy": "Copies the first instant or sorcery cast each turn, giving a new vote or villainous-choice resolution without a card.",
+      "adversarial_downside": "Kess allows graveyard recast at four mana, while this costs five and cannot retrieve a spent spell.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Copies the first instant or sorcery cast each turn, giving a new vote or villainous-choice resolution without a card. Real opportunity cost: Kess allows graveyard recast at four mana, while this costs five and cannot retrieve a spent spell.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Swan Song",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "One-blue protection lets Valeyard and a vote spell come down with stack defense open.",
+      "named_cuts": [
+        "Arcane Denial"
+      ],
+      "incumbent_opportunity_cost": "Arcane Denial counters all spell types and gives an opponent two cards; Swan Song makes a 2/2 flyer.",
+      "commander_synergy": "One-blue protection lets Valeyard and a vote spell come down with stack defense open.",
+      "adversarial_downside": "Arcane Denial counters all spell types and gives an opponent two cards; Swan Song makes a 2/2 flyer.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: One-blue protection lets Valeyard and a vote spell come down with stack defense open. Real opportunity cost: Arcane Denial counters all spell types and gives an opponent two cards; Swan Song makes a 2/2 flyer.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Toxic Deluge",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Three-mana toughness reduction handles indestructible threats and leaves room to recast choice engines.",
+      "named_cuts": [
+        "Blasphemous Act"
+      ],
+      "incumbent_opportunity_cost": "Blasphemous Act can cost one red with enough creatures; Deluge spends controller life.",
+      "commander_synergy": "Three-mana toughness reduction handles indestructible threats and leaves room to recast choice engines.",
+      "adversarial_downside": "Blasphemous Act can cost one red with enough creatures; Deluge spends controller life.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Three-mana toughness reduction handles indestructible threats and leaves room to recast choice engines. Real opportunity cost: Blasphemous Act can cost one red with enough creatures; Deluge spends controller life.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Chrome Mox",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Zero-mana imprint acceleration supports casting the five-mana Valeyard sooner than a two-mana signet.",
+      "named_cuts": [
+        "Izzet Signet"
+      ],
+      "incumbent_opportunity_cost": "Izzet Signet is repeatable UR filtering with no imprint card loss, while Chrome Mox trades resources for tempo.",
+      "commander_synergy": "Zero-mana imprint acceleration supports casting the five-mana Valeyard sooner than a two-mana signet.",
+      "adversarial_downside": "Izzet Signet is repeatable UR filtering with no imprint card loss, while Chrome Mox trades resources for tempo.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Zero-mana imprint acceleration supports casting the five-mana Valeyard sooner than a two-mana signet. Real opportunity cost: Izzet Signet is repeatable UR filtering with no imprint card loss, while Chrome Mox trades resources for tempo.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Ancient Tomb",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Two-colorless acceleration is valuable for five-mana commander and expensive repeat-vote machinery.",
+      "named_cuts": [
+        "Haunted Ridge"
+      ],
+      "incumbent_opportunity_cost": "Haunted Ridge supplies both B/R without life cost, while Ancient Tomb lacks colored pips and costs two life.",
+      "commander_synergy": "Two-colorless acceleration is valuable for five-mana commander and expensive repeat-vote machinery.",
+      "adversarial_downside": "Haunted Ridge supplies both B/R without life cost, while Ancient Tomb lacks colored pips and costs two life.",
+      "judgment": "SELECT_ADD",
+      "reason": "SELECT_ADD: Two-colorless acceleration is valuable for five-mana commander and expensive repeat-vote machinery. Real opportunity cost: Haunted Ridge supplies both B/R without life cost, while Ancient Tomb lacks colored pips and costs two life.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Mana Vault",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "A seven-swap full list gets one-mana artifact with three colorless to deploy commander early.",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Fellwar Stone reliably supplies colored UBR in a multiplayer pod across many turns; Vault costs four to untap.",
+      "commander_synergy": "A seven-swap full list gets one-mana artifact with three colorless to deploy commander early.",
+      "adversarial_downside": "Fellwar Stone reliably supplies colored UBR in a multiplayer pod across many turns; Vault costs four to untap.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: A seven-swap full list gets one-mana artifact with three colorless to deploy commander early. Real opportunity cost: Fellwar Stone reliably supplies colored UBR in a multiplayer pod across many turns; Vault costs four to untap.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Helm of the Host",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Helm eventually makes one nonlegendary Valeyard copy at each combat to stack static effects.",
+      "named_cuts": [
+        "Midnight Crusader Shuttle"
+      ],
+      "incumbent_opportunity_cost": "Helm costs four to cast and five to equip, and removing Shuttle loses one of only thirteen actual villainous-choice sources.",
+      "commander_synergy": "Helm eventually makes one nonlegendary Valeyard copy at each combat to stack static effects.",
+      "adversarial_downside": "Helm costs four to cast and five to equip, and removing Shuttle loses one of only thirteen actual villainous-choice sources.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Helm eventually makes one nonlegendary Valeyard copy at each combat to stack static effects. Real opportunity cost: Helm costs four to cast and five to equip, and removing Shuttle loses one of only thirteen actual villainous-choice sources.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Chandra, Hope's Beacon",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "The planeswalker copies the first instant or sorcery cast on each turn and can generate red mana.",
+      "named_cuts": [
+        "Path of the Pyromancer"
+      ],
+      "incumbent_opportunity_cost": "Path supplies a genuine vote, wheel and red burst; Chandra raises cost to six and drops an irreplaceable actual-vote card.",
+      "commander_synergy": "The planeswalker copies the first instant or sorcery cast on each turn and can generate red mana.",
+      "adversarial_downside": "Path supplies a genuine vote, wheel and red burst; Chandra raises cost to six and drops an irreplaceable actual-vote card.",
+      "judgment": "REJECT",
+      "reason": "REJECT: The planeswalker copies the first instant or sorcery cast on each turn and can generate red mana. Real opportunity cost: Path supplies a genuine vote, wheel and red burst; Chandra raises cost to six and drops an irreplaceable actual-vote card.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Displacer Kitten",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Blinking Jays after noncreature spells can repeat their genuine Council's Dilemma voting event.",
+      "named_cuts": [
+        "Messenger Jays"
+      ],
+      "incumbent_opportunity_cost": "Jays alone provides vote plus selection; Kitten without Jays doesn't, so it cannot replace the actual vote source.",
+      "commander_synergy": "Blinking Jays after noncreature spells can repeat their genuine Council's Dilemma voting event.",
+      "adversarial_downside": "Jays alone provides vote plus selection; Kitten without Jays doesn't, so it cannot replace the actual vote source.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Blinking Jays after noncreature spells can repeat their genuine Council's Dilemma voting event. Real opportunity cost: Jays alone provides vote plus selection; Kitten without Jays doesn't, so it cannot replace the actual vote source.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Narset's Reversal",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Returning and copying a vote spell can cause extra vote event and preserve a hand copy.",
+      "named_cuts": [
+        "Dark Ritual"
+      ],
+      "incumbent_opportunity_cost": "Requires UU and an existing suitable spell on the stack, while Ritual accelerates Valeyard's early turn.",
+      "commander_synergy": "Returning and copying a vote spell can cause extra vote event and preserve a hand copy.",
+      "adversarial_downside": "Requires UU and an existing suitable spell on the stack, while Ritual accelerates Valeyard's early turn.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Returning and copying a vote spell can cause extra vote event and preserve a hand copy. Real opportunity cost: Requires UU and an existing suitable spell on the stack, while Ritual accelerates Valeyard's early turn.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Mystical Tutor",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Searches for true vote, choice spell or emergency interaction for one blue instant.",
+      "named_cuts": [
+        "Brainstorm"
+      ],
+      "incumbent_opportunity_cost": "Selected Irenicus already outclasses this tutor at the same slot by producing a second actual Valeyard.",
+      "commander_synergy": "Searches for true vote, choice spell or emergency interaction for one blue instant.",
+      "adversarial_downside": "Selected Irenicus already outclasses this tutor at the same slot by producing a second actual Valeyard.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Searches for true vote, choice spell or emergency interaction for one blue instant. Real opportunity cost: Selected Irenicus already outclasses this tutor at the same slot by producing a second actual Valeyard.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Spellseeker",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "A low-cost tutor could find Tyrant's Choice, Split Decision or Illusion of Choice.",
+      "named_cuts": [
+        "The Master, Gallifrey's End"
+      ],
+      "incumbent_opportunity_cost": "The Master is a real villainous-choice source and Missy's nontoken Cybermen can trigger it when they die.",
+      "commander_synergy": "A low-cost tutor could find Tyrant's Choice, Split Decision or Illusion of Choice.",
+      "adversarial_downside": "The Master is a real villainous-choice source and Missy's nontoken Cybermen can trigger it when they die.",
+      "judgment": "REJECT",
+      "reason": "REJECT: A low-cost tutor could find Tyrant's Choice, Split Decision or Illusion of Choice. Real opportunity cost: The Master is a real villainous-choice source and Missy's nontoken Cybermen can trigger it when they die.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Cavern of Souls",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Can make The Valeyard uncounterable if Time Lord is the named creature type.",
+      "named_cuts": [
+        "Sulfur Falls"
+      ],
+      "incumbent_opportunity_cost": "Noncreature vote/counter spells need versatile U and R; Cavern does not supply those outside creature casts.",
+      "commander_synergy": "Can make The Valeyard uncounterable if Time Lord is the named creature type.",
+      "adversarial_downside": "Noncreature vote/counter spells need versatile U and R; Cavern does not supply those outside creature casts.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Can make The Valeyard uncounterable if Time Lord is the named creature type. Real opportunity cost: Noncreature vote/counter spells need versatile U and R; Cavern does not supply those outside creature casts.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Gemstone Caverns",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Conditional pre-game colored land when on draw can accelerate five-mana commander.",
+      "named_cuts": [
+        "Shipwreck Marsh"
+      ],
+      "incumbent_opportunity_cost": "Most games it produces colorless and costs another card when lucky, losing steady UB fixing from Marsh.",
+      "commander_synergy": "Conditional pre-game colored land when on draw can accelerate five-mana commander.",
+      "adversarial_downside": "Most games it produces colorless and costs another card when lucky, losing steady UB fixing from Marsh.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Conditional pre-game colored land when on draw can accelerate five-mana commander. Real opportunity cost: Most games it produces colorless and costs another card when lucky, losing steady UB fixing from Marsh.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Mirror Box",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Turns off the legend rule for normal clones and grants legendary buffs.",
+      "named_cuts": [
+        "Model of Unity"
+      ],
+      "incumbent_opportunity_cost": "Does not create its own copy; Model both produces any-color mana and directly rewards actual votes.",
+      "commander_synergy": "Turns off the legend rule for normal clones and grants legendary buffs.",
+      "adversarial_downside": "Does not create its own copy; Model both produces any-color mana and directly rewards actual votes.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Turns off the legend rule for normal clones and grants legendary buffs. Real opportunity cost: Does not create its own copy; Model both produces any-color mana and directly rewards actual votes.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Strionic Resonator",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Can pay to copy some supporting triggered political effects.",
+      "named_cuts": [
+        "Coercive Portal"
+      ],
+      "incumbent_opportunity_cost": "Cannot copy Valeyard's static effects and replacing Portal removes recurrent genuine voting events.",
+      "commander_synergy": "Can pay to copy some supporting triggered political effects.",
+      "adversarial_downside": "Cannot copy Valeyard's static effects and replacing Portal removes recurrent genuine voting events.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Can pay to copy some supporting triggered political effects. Real opportunity cost: Cannot copy Valeyard's static effects and replacing Portal removes recurrent genuine voting events.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    },
+    {
+      "card": "Ballot Broker",
+      "source": "Current 2026-10-27 Scryfall Oracle/Commander legality, EDHREC Valeyard high-lift discovery and M6 99-card audit.",
+      "role": "Apparent politics-themed candidate hypothesized before verifying a legal print and color identity.",
+      "named_cuts": [
+        "Model of Unity"
+      ],
+      "incumbent_opportunity_cost": "No authenticated Grixis Commander-legal card for this name; speculative votes cannot replace a legal real payoff.",
+      "commander_synergy": "Apparent politics-themed candidate hypothesized before verifying a legal print and color identity.",
+      "adversarial_downside": "No authenticated Grixis Commander-legal card for this name; speculative votes cannot replace a legal real payoff.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "EXCLUDE_INVALID: Apparent politics-themed candidate hypothesized before verifying a legal print and color identity. Real opportunity cost: No authenticated Grixis Commander-legal card for this name; speculative votes cannot replace a legal real payoff.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json",
+        "data/grixis/m6/deep_reviews/The_Valeyard.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Irenicus's Vile Duplication",
+      "Double Vision",
+      "Swan Song",
+      "Toxic Deluge",
+      "Chrome Mox",
+      "Ancient Tomb"
+    ],
+    "cuts": [
+      "Brainstorm",
+      "Kess, Dissident Mage",
+      "Arcane Denial",
+      "Blasphemous Act",
+      "Izzet Signet",
+      "Haunted Ridge"
+    ],
+    "coherent_package_tradeoff": "Six real role replacements add a second nonlegendary commander, a spell-copy engine, one-blue protection, life-scaled removal and earlier mana. They sacrifice Kess graveyard reuse, broader Arcane Denial coverage, Brainstorm selection, reliable BR and UR fixing, and cheaper Blasphemous Act; all genuine voting and native choice cards survive."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Brainstorm",
+        "weakness": "Incumbent tradeoff challenged: Nonlegendary Valeyard copy increases each opponent's sequential villainous choices and controller's votes; four mana for a persistent second effect.",
+        "alternative_named": "Irenicus's Vile Duplication",
+        "reasoning": "Loses one-blue card selection with fetchland shuffling; creature copy can be removed."
+      },
+      {
+        "card": "Kess, Dissident Mage",
+        "weakness": "Incumbent tradeoff challenged: Copies the first instant or sorcery cast each turn, giving a new vote or villainous-choice resolution without a card.",
+        "alternative_named": "Double Vision",
+        "reasoning": "Kess allows graveyard recast at four mana, while this costs five and cannot retrieve a spent spell."
+      },
+      {
+        "card": "Arcane Denial",
+        "weakness": "Incumbent tradeoff challenged: One-blue protection lets Valeyard and a vote spell come down with stack defense open.",
+        "alternative_named": "Swan Song",
+        "reasoning": "Arcane Denial counters all spell types and gives an opponent two cards; Swan Song makes a 2/2 flyer."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Incumbent tradeoff challenged: Three-mana toughness reduction handles indestructible threats and leaves room to recast choice engines.",
+        "alternative_named": "Toxic Deluge",
+        "reasoning": "Blasphemous Act can cost one red with enough creatures; Deluge spends controller life."
+      },
+      {
+        "card": "Izzet Signet",
+        "weakness": "Incumbent tradeoff challenged: Zero-mana imprint acceleration supports casting the five-mana Valeyard sooner than a two-mana signet.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Izzet Signet is repeatable UR filtering with no imprint card loss, while Chrome Mox trades resources for tempo."
+      },
+      {
+        "card": "Haunted Ridge",
+        "weakness": "Incumbent tradeoff challenged: Two-colorless acceleration is valuable for five-mana commander and expensive repeat-vote machinery.",
+        "alternative_named": "Ancient Tomb",
+        "reasoning": "Haunted Ridge supplies both B/R without life cost, while Ancient Tomb lacks colored pips and costs two life."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Incumbent tradeoff challenged: A seven-swap full list gets one-mana artifact with three colorless to deploy commander early.",
+        "alternative_named": "Mana Vault",
+        "reasoning": "Fellwar Stone reliably supplies colored UBR in a multiplayer pod across many turns; Vault costs four to untap."
+      },
+      {
+        "card": "Midnight Crusader Shuttle",
+        "weakness": "Incumbent tradeoff challenged: Helm eventually makes one nonlegendary Valeyard copy at each combat to stack static effects.",
+        "alternative_named": "Helm of the Host",
+        "reasoning": "Helm costs four to cast and five to equip, and removing Shuttle loses one of only thirteen actual villainous-choice sources."
+      },
+      {
+        "card": "Path of the Pyromancer",
+        "weakness": "Incumbent tradeoff challenged: The planeswalker copies the first instant or sorcery cast on each turn and can generate red mana.",
+        "alternative_named": "Chandra, Hope's Beacon",
+        "reasoning": "Path supplies a genuine vote, wheel and red burst; Chandra raises cost to six and drops an irreplaceable actual-vote card."
+      },
+      {
+        "card": "Messenger Jays",
+        "weakness": "Incumbent tradeoff challenged: Blinking Jays after noncreature spells can repeat their genuine Council's Dilemma voting event.",
+        "alternative_named": "Displacer Kitten",
+        "reasoning": "Jays alone provides vote plus selection; Kitten without Jays doesn't, so it cannot replace the actual vote source."
+      },
+      {
+        "card": "Dark Ritual",
+        "weakness": "Incumbent tradeoff challenged: Returning and copying a vote spell can cause extra vote event and preserve a hand copy.",
+        "alternative_named": "Narset's Reversal",
+        "reasoning": "Requires UU and an existing suitable spell on the stack, while Ritual accelerates Valeyard's early turn."
+      },
+      {
+        "card": "The Master, Gallifrey's End",
+        "weakness": "Incumbent tradeoff challenged: A low-cost tutor could find Tyrant's Choice, Split Decision or Illusion of Choice.",
+        "alternative_named": "Spellseeker",
+        "reasoning": "The Master is a real villainous-choice source and Missy's nontoken Cybermen can trigger it when they die."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Incumbent tradeoff challenged: Can make The Valeyard uncounterable if Time Lord is the named creature type.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Noncreature vote/counter spells need versatile U and R; Cavern does not supply those outside creature casts."
+      },
+      {
+        "card": "Shipwreck Marsh",
+        "weakness": "Incumbent tradeoff challenged: Conditional pre-game colored land when on draw can accelerate five-mana commander.",
+        "alternative_named": "Gemstone Caverns",
+        "reasoning": "Most games it produces colorless and costs another card when lucky, losing steady UB fixing from Marsh."
+      },
+      {
+        "card": "Model of Unity",
+        "weakness": "Incumbent tradeoff challenged: Turns off the legend rule for normal clones and grants legendary buffs.",
+        "alternative_named": "Mirror Box",
+        "reasoning": "Does not create its own copy; Model both produces any-color mana and directly rewards actual votes."
+      },
+      {
+        "card": "Coercive Portal",
+        "weakness": "Incumbent tradeoff challenged: Can pay to copy some supporting triggered political effects.",
+        "alternative_named": "Strionic Resonator",
+        "reasoning": "Cannot copy Valeyard's static effects and replacing Portal removes recurrent genuine voting events."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKING Valeyard-specific clone, Double Vision, spell-copy support, true vote search, enchantment protection and fast-mana challenger pool reviewed after M6 left the old list intact.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Irenicus's Vile Duplication",
+          "Double Vision",
+          "Swan Song",
+          "Toxic Deluge",
+          "Chrome Mox",
+          "Ancient Tomb"
+        ],
+        "cuts": [
+          "Brainstorm",
+          "Kess, Dissident Mage",
+          "Arcane Denial",
+          "Blasphemous Act",
+          "Izzet Signet",
+          "Haunted Ridge"
+        ],
+        "result_and_rationale": "Selected six-swap exact 100/36 land portfolio with zero native vote/choice-source cuts."
+      },
+      {
+        "adds": [
+          "Irenicus's Vile Duplication",
+          "Double Vision",
+          "Swan Song",
+          "Toxic Deluge",
+          "Chrome Mox",
+          "Ancient Tomb",
+          "Mana Vault"
+        ],
+        "cuts": [
+          "Brainstorm",
+          "Kess, Dissident Mage",
+          "Arcane Denial",
+          "Blasphemous Act",
+          "Izzet Signet",
+          "Haunted Ridge",
+          "Fellwar Stone"
+        ],
+        "result_and_rationale": "Seven-swap full 100 adds Mana Vault at expense of Fellwar Stone; colorless acceleration costs repeatable Grixis color fixing."
+      },
+      {
+        "adds": [
+          "Irenicus's Vile Duplication",
+          "Double Vision",
+          "Swan Song",
+          "Toxic Deluge",
+          "Chrome Mox",
+          "Ancient Tomb",
+          "Mana Vault",
+          "Helm of the Host"
+        ],
+        "cuts": [
+          "Brainstorm",
+          "Kess, Dissident Mage",
+          "Arcane Denial",
+          "Blasphemous Act",
+          "Izzet Signet",
+          "Haunted Ridge",
+          "Fellwar Stone",
+          "Midnight Crusader Shuttle"
+        ],
+        "result_and_rationale": "Eight-swap full 100 adds Helm for the Shuttle; high equipment cost and one fewer villainous choice are unacceptable."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "The Master is not cut because Missy's face-down Cybermen creature cards are nontoken artifacts that enable its death-triggered choices. Cutting any of the three Path spells reduces the already exhausted true-vote pool. Shuttle is retained against expensive Helm.",
+    "strongest_argument_against_baseline": "M6 correctly rejected broad Grixis combo homogenization but overlooked an extra permanent legal Valeyard copy and a recurring method to copy actual voting spell resolutions.",
+    "evidence_based_answer": "Current Oracle search confirms that the source has all eighteen actual vote support cards. Six carefully paid swaps materially advance repeat vote/choice gameplay; larger seven/eight-swap configurations have been staged and rejected for real role loss."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After six swaps, every retained physical library card was rechecked against the full M6 99-card role audit and the fresh Oracle records, including Fellwar Stone, Midnight Crusader Shuttle, Dark Ritual, the three voting Paths, the Master/Missy combo, Kess's role transfer to Double Vision and all early tapped colored lands. No five-swap target dictated the stopping point.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Fellwar Stone",
+        "challenger": "Mana Vault",
+        "tradeoff": "Mana Vault provides three generic burst to help Valeyard, but replacing Fellwar removes repeatable actual U, B or R in a deck with three required commander color pips and colored votes.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Midnight Crusader Shuttle",
+        "challenger": "Helm of the Host",
+        "tradeoff": "Helm creates another Valeyard only after four mana to cast plus five equip and survival to combat, while losing one of thirteen direct villainous choice sources when it replaces Shuttle.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Valeyard_M7_Rev1_alt7.txt",
+        "sha256": "c05cd0dbefe9b79178bfb448a89275f4122e145005cb7c7a8dda89eaa8b12ac0",
+        "adds": [
+          "Irenicus's Vile Duplication",
+          "Double Vision",
+          "Swan Song",
+          "Toxic Deluge",
+          "Chrome Mox",
+          "Ancient Tomb",
+          "Mana Vault"
+        ],
+        "cuts": [
+          "Brainstorm",
+          "Kess, Dissident Mage",
+          "Arcane Denial",
+          "Blasphemous Act",
+          "Izzet Signet",
+          "Haunted Ridge",
+          "Fellwar Stone"
+        ],
+        "case_for_extra_swaps": "Mana Vault provides a burst of colorless mana for the expensive commander and cloned voting engine in a hand with UBR colors already supplied.",
+        "why_not_selected": "Fellwar Stone provides repeated missing colors on the following turns; Mana Vault cannot cast an isolated U/B/R vote pip and demands an expensive untap cost."
+      },
+      {
+        "path": "data/grixis/m7/candidate_lists/The_Valeyard_M7_Rev1_alt8.txt",
+        "sha256": "e39ec2c076650057ae1b55d5c5de4d2149168e2e2cbc5e5a0d4763d5a300c497",
+        "adds": [
+          "Irenicus's Vile Duplication",
+          "Double Vision",
+          "Swan Song",
+          "Toxic Deluge",
+          "Chrome Mox",
+          "Ancient Tomb",
+          "Mana Vault",
+          "Helm of the Host"
+        ],
+        "cuts": [
+          "Brainstorm",
+          "Kess, Dissident Mage",
+          "Arcane Denial",
+          "Blasphemous Act",
+          "Izzet Signet",
+          "Haunted Ridge",
+          "Fellwar Stone",
+          "Midnight Crusader Shuttle"
+        ],
+        "case_for_extra_swaps": "Helm offers repeated nonlegendary Valeyard tokens each combat, an eventually massive pile of additive villainous-choice modifiers.",
+        "why_not_selected": "Its nine-mana casting/equipping burden requires survival to combat and removes the Shuttle's irreplaceable intrinsic villainous choice source from the deck."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The selected count follows a review of two larger legal 100-card packages, not an arbitrary numerical floor. Extra colorless acceleration degrades sustained UBR pips; further Helm cloning costs nine mana and deletes a unique villainous choice. Cutting voting Path spells removes real votes, and generic Breach/Oracle finishes would erase commander identity. No larger tested package improved the realistic whole deck."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/The_Valeyard_M7_Rev1.txt",
+    "sha256": "1735629783fbea2c9b8782fe18835f6dc8b3b980715344249cdb0941fbd9887b",
+    "card_count": 100,
+    "deckwide_reconciliation": "October 15 source exact raw unchanged. All four staged decks have 100 physical cards and 96 distinct names with only 2 Island, 2 Mountain and 3 Swamp repeats. Final six balanced one-for-one replacements maintain 36 lands, all 18 true-vote support and all 13 villainous-choice sources."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/the_valeyard_rev1/The_Valeyard_M7_Rev1_Scryfall_snapshot.json — all 104 names, current 2026-10-27 Oracle records.",
+      "data/grixis/m7/the_valeyard_rev1/verify.py — four fixed SHA exact 100s, legality and bounded voting/replacement/copy interactions.",
+      "data/grixis/m7/decision_reviews/The_Valeyard_M7_Rev1_99slot_ledger.csv — all original 99 physical library slots."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Villainous Choice",
+      "Voting",
+      "Valeyard Copies"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}
