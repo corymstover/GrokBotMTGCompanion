@@ -25,6 +25,8 @@ jobs:
         run: python3 data/grixis/m7/the_valeyard_rev1/verify.py
       - name: Execute bounded Deck 58 C1 K1 K2 K3 P0 and K4 F1 cases
         run: python3 data/grixis/m7/the_valeyard_rev1/m6_p0_followup.py
+      - name: Execute eight additional original M6 P1 source-bound finite cases
+        run: python3 data/grixis/m7/the_valeyard_rev1/m6_p1_followup.py
       - name: Validate open-ended eighteen-judgment decision packet against repository-wide M7 schema
         run: |
           python3 -m pip install jsonschema
