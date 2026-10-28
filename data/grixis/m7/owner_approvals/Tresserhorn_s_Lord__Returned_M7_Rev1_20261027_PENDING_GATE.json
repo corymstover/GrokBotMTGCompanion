@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "stage": "OWNER_EXACT_SOURCE_APPROVAL_PENDING_MANDATORY_CANONICAL_GATES",
+  "owner": "Cory Stover",
+  "owner_decision": "APPROVE_EXACT_CANDIDATE",
+  "owner_response_verbatim": "Approve. And be quick about it. Do everything, lock it, everything. And be quick about it.",
+  "owner_approval_date_america_chicago": "2026-10-27",
+  "approved_raw_sha256": "9a9d2f7a344e2491444c0a0e4c48525dfe8faa37032eaf8e22a94082f6fbf60e",
+  "candidate_source": "data/grixis/m7/candidate_lists/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.txt",
+  "candidate_optimization_pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/744",
+  "candidate_exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40617123123",
+  "historical_approved_raw_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+  "new_swaps": 7,
+  "new_owner_approval_required_if_cardlist_changes": true,
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_approved_and_locked": false,
+  "canonical_update_authorized_subject_to_protected_gates": true,
+  "m7_structural_decision_gate_complete": false,
+  "m6_ij_phase_b_complete": false,
+  "current_oracle_source": "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json",
+  "official_commander_legality_as_of_approval": "not_legal",
+  "official_commander_legality_expected_from": "2026-11-13",
+  "project_exception": "AUTHORIZED_FUTURE_RELEASE",
+  "provenance_limits": [
+    "Owner approved the exactly displayed 100 and raw SHA, not a future revised list.",
+    "Approval in conversation does not waive engineering M7 decision, M6 transfer or canonical certification gates.",
+    "The October 15 approved/locked list remains live until a new exact-head canonical PR passes all mandatory checks and merges.",
+    "No claim of official Commander legality before the published November 13 release date."
+  ]
+}
