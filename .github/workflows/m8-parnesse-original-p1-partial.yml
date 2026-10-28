@@ -1,0 +1,22 @@
+name: M8 Parnesse exact-current original P1 partial tranche
+
+on:
+  pull_request:
+    paths:
+      - 'tests/test_m8_parnesse_original_p1_bounded.py'
+      - 'data/grixis/m7/decision_reviews/Parnesse_Rev1_Original_P1_K5_K6_K7_E1_F3_20261028.md'
+      - '.github/workflows/m8-parnesse-original-p1-partial.yml'
+  workflow_dispatch:
+
+jobs:
+  original-five-source-bound:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Replay exact-current Parnesse P1 cases
+        run: python3 -m unittest discover -s tests -p 'test_m8_parnesse_original_p1_bounded.py' -v
+      - name: Recheck original P0 transfer source models
+        run: python3 -m unittest discover -s tests -p 'test_m7_missing_transfer_p0_source_bound.py' -v
