@@ -1,0 +1,22 @@
+name: M8 Parnesse exact-current whole99 quality coverage
+
+on:
+  pull_request:
+    paths:
+      - 'tests/test_m8_parnesse_current_whole99_quality.py'
+      - 'data/grixis/m7/decision_reviews/Parnesse_M7_Rev1_Exact_Current_Whole99_20261028.md'
+      - '.github/workflows/m8-parnesse-whole99-quality.yml'
+  workflow_dispatch:
+
+jobs:
+  current99-ledger-and-existing-bounded-mechanics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Assert current 99 ledger and meaningful alternate physical lists
+        run: python3 -m unittest discover -s tests -p 'test_m8_parnesse_current_whole99_quality.py' -v
+      - name: Reuse exact-current bounded original P1 cases
+        run: python3 -m unittest discover -s tests -p 'test_m8_parnesse_original_p1_bounded.py' -v
