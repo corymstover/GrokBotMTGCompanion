@@ -2,9 +2,10 @@
 """Source integrity for Deck #60 M7 RESEARCH ONLY, never an owner-ready gate.
 
 Card legality and Oracle identity are checked against the engineering
-2026-10-15 Scryfall-derived frozen index.  This is NOT a fresh October 27
-100-name lookup, source-verified P1 execution, M7 decision-gate execution,
-nor owner approval. The MBC commander is project-only until 2026-11-13.
+2026-10-15 Scryfall-derived frozen index. The separate verify_live.py checks
+the exact candidate against a consent-authorized October 27 Scryfall snapshot.
+This script is not an I/J Phase B, final M7 gate or owner approval. The MBC
+commander is project-only until its official 2026-11-13 legality date.
 """
 from __future__ import annotations
 
@@ -117,7 +118,8 @@ def main():
           "; front lands:", front_lands, "; land MDFCs:", mdfc_lands)
     print("Frozen October 15 Oracle/singleton/UBR for baseline and all alternatives: PASS")
     print("Official Commander legality: PENDING RELEASE 2026-11-13")
-    print("Fresh full Oracle and M6 P1/IJ/M7 CI: NOT CERTIFIED")
+    print("For current Rev1-only Oracle audit run verify_live.py separately")
+    print("I/J Phase B, final M7 gate and owner approval: NOT CERTIFIED")
 
 
 if __name__ == "__main__":
