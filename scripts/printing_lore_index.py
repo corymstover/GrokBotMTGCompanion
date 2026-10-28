@@ -12,6 +12,10 @@ Unlike data/printings_summary.csv, this stores *individual editions*, faces,
 flavor wording and the source Scryfall URL. It never edits the existing card
 shards, curated lore evidence, approved decks, or canonical Grixis state.
 The local SQLite index is a rebuildable cache, not a hand-maintained authority.
+Default-cards contains English or the sole printed language, not every foreign-
+language printing. For a newer lore-only bulk while Grixis has a frozen dev
+snapshot, keep it under .cache/lore-printings/ and pass --source explicitly;
+never change the locked .cache/default-cards-* input files.
 """
 
 from __future__ import annotations
@@ -71,6 +75,15 @@ def source_rows(path: Path):
 
 
 def latest_source() -> Path:
+    # The Grixis dev snapshot is deliberately frozen. Never select a newer
+    # default-cards file just because a second snapshot happens to be cached.
+    lock = ROOT / "data" / "grixis" / "dev_snapshot_lock.json"
+    if lock.is_file():
+        name = json.loads(lock.read_text(encoding="utf-8"))["files"]["default-cards"]
+        frozen = ROOT / ".cache" / name
+        if not frozen.is_file():
+            raise FileNotFoundError(f"Frozen default-cards snapshot missing: {frozen}; restore it or pass --source explicitly")
+        return frozen
     matches = sorted((ROOT / ".cache").glob("default-cards-*.jsonl.gz"))
     if not matches:
         raise FileNotFoundError("No .cache/default-cards-*.jsonl.gz; populate the existing Scryfall cache first")
@@ -126,7 +139,8 @@ def build(source: Path, destination: Path) -> dict:
                 sha.update(block)
         meta = {"schema": "1", "built_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
                 "source": source.name, "source_sha256": sha.hexdigest(), "printings": str(count),
-                "authority": "Scryfall default-cards printing data (local snapshot)"}
+                "authority": "Scryfall default-cards printing data (local snapshot)",
+                "coverage": "English/default-language card objects; not a claim of every foreign-language edition"}
         conn.executemany("INSERT INTO meta VALUES (?,?)", meta.items())
         conn.commit()
         conn.close()
@@ -171,12 +185,14 @@ def query(conn: sqlite3.Connection, args) -> dict:
                             f"ORDER BY CAST(p.collector_number AS INTEGER), p.collector_number, p.lang{limit}", vals)
         result = {"set_code": args.set_code.lower(), "counts": dict(counts), "items": [dict(r) for r in rows]}
     elif args.action == "card":
-        pred = "(p.name = ? COLLATE NOCASE OR EXISTS "
-        pred += "(SELECT 1 FROM faces f WHERE f.printing_id = p.id AND f.name = ? COLLATE NOCASE))"
-        terms = vals[:len(vals) - (0 if args.all else 1)] + [args.name, args.name]
+        # Candidate union leverages two name indexes; a correlated OR EXISTS
+        # would scan every printing and becomes minutes-long for common lands.
+        terms = [args.name, args.name] + vals[:len(vals) - (0 if args.all else 1)]
         if not args.all:
             terms.append(args.limit)
-        rows = conn.execute(f"SELECT p.* FROM printings p WHERE {where} AND {pred} "
+        rows = conn.execute("WITH matched AS (SELECT id FROM printings WHERE name = ? COLLATE NOCASE "
+                            "UNION SELECT printing_id FROM faces WHERE name = ? COLLATE NOCASE) "
+                            f"SELECT p.* FROM matched m JOIN printings p ON p.id=m.id WHERE {where} "
                             f"ORDER BY p.released_at, p.set_code, p.collector_number{limit}", terms)
         result = {"card": args.name, "items": [with_faces(conn, dict(r)) for r in rows]}
     elif args.action == "flavor":
@@ -225,7 +241,7 @@ def main(argv=None) -> int:
             p.add_argument("--set", dest="set_code", help="limit to a Scryfall set code")
         p.add_argument("--all", action="store_true", help="do not limit result count")
         p.add_argument("--limit", type=int, default=30)
-        p.add_argument("--all-languages", action="store_true")
+        p.add_argument("--all-languages", action="store_true", help="all languages present in this source (default-cards is not all-cards)")
         p.add_argument("--include-digital", action="store_true")
         p.add_argument("--json", action="store_true", help="compact machine-readable output")
     args = parser.parse_args(argv)
