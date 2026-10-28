@@ -1,0 +1,1117 @@
+{
+  "schema": "OBEKA_SPLITTER_M7_REV1_SCRYFALL_100",
+  "retrieved_utc": "2026-10-28T04:42:51.711340+00:00",
+  "candidate_raw_sha256": "f80d882944d5e39f3c6661da4dcdce3ec6eead577cd981dc54f7dc522be50859",
+  "physical_cards": 100,
+  "unique_oracle_names": 96,
+  "source": "Scryfall API cards/collection",
+  "cards": [
+    {
+      "query": "Academy Manufactor",
+      "oracle_id": "f36d1d8b-8303-44a9-ab56-531931641ea2",
+      "type_line": "Artifact Creature — Assembly-Worker",
+      "oracle_text": "If you would create a Clue, Food, or Treasure token, instead create one of each.",
+      "mana_cost": "{3}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/otc/251/academy-manufactor?utm_source=api"
+    },
+    {
+      "query": "Aggravated Assault",
+      "oracle_id": "20129459-a386-41eb-899d-1aede3427300",
+      "type_line": "Enchantment",
+      "oracle_text": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/ons/185/aggravated-assault?utm_source=api"
+    },
+    {
+      "query": "An Offer You Can't Refuse",
+      "oracle_id": "234a734b-ba28-4f1b-9d01-3c3e7d516590",
+      "type_line": "Instant",
+      "oracle_text": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse?utm_source=api"
+    },
+    {
+      "query": "Ancestral Vision",
+      "oracle_id": "9728dec9-d482-4c7a-8cdc-44d010dc878d",
+      "type_line": "Sorcery",
+      "oracle_text": "Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nTarget player draws three cards.",
+      "mana_cost": "",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tdc/144/ancestral-vision?utm_source=api"
+    },
+    {
+      "query": "Ancient Tomb",
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/uma/236/ancient-tomb?utm_source=api"
+    },
+    {
+      "query": "Aqueous Form",
+      "oracle_id": "3378fef3-4d8c-4d9e-a338-4abb6f70d410",
+      "type_line": "Enchantment — Aura",
+      "oracle_text": "Enchant creature\nEnchanted creature can't be blocked.\nWhenever enchanted creature attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/56/aqueous-form?utm_source=api"
+    },
+    {
+      "query": "Arcane Signet",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/485/arcane-signet?utm_source=api"
+    },
+    {
+      "query": "Arena of Glory",
+      "oracle_id": "63dfe794-5f56-41ec-9883-5523b41cc3e0",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you control a Mountain.\n{T}: Add {R}.\n{R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)",
+      "mana_cost": "",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh3/215/arena-of-glory?utm_source=api"
+    },
+    {
+      "query": "Arid Mesa",
+      "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/244/arid-mesa?utm_source=api"
+    },
+    {
+      "query": "As Foretold",
+      "oracle_id": "e4b3e0af-5caa-47c1-b5be-c56a875cbb15",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of your upkeep, put a time counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on this enchantment.",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/2x2/38/as-foretold?utm_source=api"
+    },
+    {
+      "query": "Badlands",
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "type_line": "Land — Swamp Mountain",
+      "oracle_text": "({T}: Add {B} or {R}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/vma/291/badlands?utm_source=api"
+    },
+    {
+      "query": "Blackblade Reforged",
+      "oracle_id": "dca51281-fb21-45b6-beb4-1f13397caee2",
+      "type_line": "Legendary Artifact — Equipment",
+      "oracle_text": "Equipped creature gets +1/+1 for each land you control.\nEquip legendary creature {3}\nEquip {7}",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmc/178/blackblade-reforged?utm_source=api"
+    },
+    {
+      "query": "Blood Crypt",
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "type_line": "Land — Swamp Mountain",
+      "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trk/278/blood-crypt?utm_source=api"
+    },
+    {
+      "query": "Bloodstained Mire",
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh3/216/bloodstained-mire?utm_source=api"
+    },
+    {
+      "query": "Bonehoard Dracosaur",
+      "oracle_id": "7ba550a5-81fc-42c2-8df8-ad455d938605",
+      "type_line": "Creature — Dinosaur Dragon",
+      "oracle_text": "Flying, first strike\nAt the beginning of your upkeep, exile the top two cards of your library. You may play them this turn. If you exiled a land card this way, create a 3/1 red Dinosaur creature token. If you exiled a nonland card this way, create a Treasure token.",
+      "mana_cost": "{3}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lci/134/bonehoard-dracosaur?utm_source=api"
+    },
+    {
+      "query": "Brotherhood Regalia",
+      "oracle_id": "d169738e-af0b-4488-a399-3aa1d1933aa1",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/acr/71/brotherhood-regalia?utm_source=api"
+    },
+    {
+      "query": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "type_line": "Land",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tmc/62/city-of-brass?utm_source=api"
+    },
+    {
+      "query": "Combat Research",
+      "oracle_id": "fbfd7f38-be9a-49bf-8769-79e1e7e8dfdc",
+      "type_line": "Enchantment — Aura",
+      "oracle_text": "Enchant creature\nEnchanted creature has \"Whenever this creature deals combat damage to a player, draw a card.\"\nAs long as enchanted creature is legendary, it gets +1/+1 and has ward {1}. (Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmu/44/combat-research?utm_source=api"
+    },
+    {
+      "query": "Command Tower",
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/521/command-tower?utm_source=api"
+    },
+    {
+      "query": "Court of Ambition",
+      "oracle_id": "652e71a9-e46f-41b3-8695-76b3606b1955",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, each opponent loses 3 life unless they discard a card. If you're the monarch, instead each opponent loses 6 life unless they discard two cards.",
+      "mana_cost": "{2}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/114/court-of-ambition?utm_source=api"
+    },
+    {
+      "query": "Court of Cunning",
+      "oracle_id": "2ab88c99-aaa0-4a91-9225-0bbfba04b6bc",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, any number of target players each mill two cards. If you're the monarch, each of those players mills ten cards instead. (To mill a card, a player puts the top card of their library into their graveyard.)",
+      "mana_cost": "{1}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/63/court-of-cunning?utm_source=api"
+    },
+    {
+      "query": "Court of Embereth",
+      "oracle_id": "87a82441-9dfb-49bd-8b9e-eaab2c552843",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, create a 3/1 red Knight creature token. Then if you're the monarch, this enchantment deals X damage to each opponent, where X is the number of creatures you control.",
+      "mana_cost": "{2}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/plst/WOC-24/court-of-embereth?utm_source=api"
+    },
+    {
+      "query": "Court of Ire",
+      "oracle_id": "13f58292-9b78-4cd1-a16e-b1779a170d33",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, this enchantment deals 2 damage to any target. If you're the monarch, it deals 7 damage instead.",
+      "mana_cost": "{3}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/170/court-of-ire?utm_source=api"
+    },
+    {
+      "query": "Court of Locthwain",
+      "oracle_id": "6106ba65-f07b-41ec-8b59-e052bbde5529",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, exile the top card of target opponent's library. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it. If you're the monarch, until end of turn, you may cast a spell from among cards exiled with this enchantment without paying its mana cost.",
+      "mana_cost": "{2}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/woc/23/court-of-locthwain?utm_source=api"
+    },
+    {
+      "query": "Court of Vantress",
+      "oracle_id": "ad82b43b-b15e-48f4-86ab-5ee2c448cf14",
+      "type_line": "Enchantment",
+      "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, choose up to one other target enchantment or artifact. If you're the monarch, you may create a token that's a copy of it. If you're not the monarch, you may have this enchantment become a copy of it, except it has this ability.",
+      "mana_cost": "{2}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/plst/WOC-22/court-of-vantress?utm_source=api"
+    },
+    {
+      "query": "Creeping Bloodsucker",
+      "oracle_id": "0bdddaf9-579a-4588-b5b3-faa189d4bdcc",
+      "type_line": "Creature — Vampire",
+      "oracle_text": "At the beginning of your upkeep, this creature deals 1 damage to each opponent. You gain life equal to the damage dealt this way.",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/j25/415/creeping-bloodsucker?utm_source=api"
+    },
+    {
+      "query": "Cyclonic Rift",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "type_line": "Instant",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "mana_cost": "{1}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api"
+    },
+    {
+      "query": "Deadly Rollick",
+      "oracle_id": "0456ec64-2c81-4763-a352-8ff64a4c3d6b",
+      "type_line": "Instant",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
+      "mana_cost": "{3}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmm/147/deadly-rollick?utm_source=api"
+    },
+    {
+      "query": "Deflecting Swat",
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "type_line": "Instant",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmm/214/deflecting-swat?utm_source=api"
+    },
+    {
+      "query": "Demonic Tutor",
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "type_line": "Sorcery",
+      "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+      "mana_cost": "{1}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmm/150/demonic-tutor?utm_source=api"
+    },
+    {
+      "query": "Dragonfire Blade",
+      "oracle_id": "e809b847-b712-4558-95ea-9bb7356cde91",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature gets +2/+2 and has hexproof from monocolored.\nEquip {4}. This ability costs {1} less to activate for each color of the creature it targets.",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tdm/240/dragonfire-blade?utm_source=api"
+    },
+    {
+      "query": "Dragonmaster Outcast",
+      "oracle_id": "b6fb79c3-cd32-4045-8177-e52841eea65b",
+      "type_line": "Creature — Human Shaman",
+      "oracle_text": "At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying.",
+      "mana_cost": "{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tdc/211/dragonmaster-outcast?utm_source=api"
+    },
+    {
+      "query": "Embercleave",
+      "oracle_id": "4d6120d6-fcce-40bc-9fc6-e1f5beb6c728",
+      "type_line": "Legendary Artifact — Equipment",
+      "oracle_text": "Flash\nThis spell costs {1} less to cast for each attacking creature you control.\nWhen Embercleave enters, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3}",
+      "mana_cost": "{4}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/eld/120/embercleave?utm_source=api"
+    },
+    {
+      "query": "Extravagant Replication",
+      "oracle_id": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control.",
+      "mana_cost": "{4}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/154/extravagant-replication?utm_source=api"
+    },
+    {
+      "query": "Fellwar Stone",
+      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mbc/74/fellwar-stone?utm_source=api"
+    },
+    {
+      "query": "Fierce Guardianship",
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "type_line": "Instant",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmm/94/fierce-guardianship?utm_source=api"
+    },
+    {
+      "query": "Flooded Strand",
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh3/220/flooded-strand?utm_source=api"
+    },
+    {
+      "query": "Hatred",
+      "oracle_id": "40601061-1b25-4db8-8b99-33324ce945cf",
+      "type_line": "Instant",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nTarget creature gets +X/+0 until end of turn.",
+      "mana_cost": "{3}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/exo/64/hatred?utm_source=api"
+    },
+    {
+      "query": "Inspiring Refrain",
+      "oracle_id": "1773c4e8-dc08-482a-9f26-30ef96c5b200",
+      "type_line": "Sorcery",
+      "oracle_text": "Draw two cards. Exile Inspiring Refrain with three time counters on it.\nSuspend 3—{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+      "mana_cost": "{4}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/c21/27/inspiring-refrain?utm_source=api"
+    },
+    {
+      "query": "Island",
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "type_line": "Basic Land — Island",
+      "oracle_text": "({T}: Add {U}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mdd/294/island?utm_source=api"
+    },
+    {
+      "query": "Jeska, Thrice Reborn",
+      "oracle_id": "b1fbfcf3-6921-4417-a58e-0f5e5d34a105",
+      "type_line": "Legendary Planeswalker — Jeska",
+      "oracle_text": "Jeska enters with a loyalty counter on her for each time you've cast a commander from the command zone this game.\n0: Choose target creature. Until your next turn, if that creature would deal combat damage to one of your opponents, it deals triple that damage to that player instead.\n−X: Jeska deals X damage to each of up to three targets.\nJeska, Thrice Reborn can be your commander.\nPartner",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/186/jeska-thrice-reborn?utm_source=api"
+    },
+    {
+      "query": "Karlach, Fury of Avernus",
+      "oracle_id": "037355be-71e7-4866-80a6-80352c304970",
+      "type_line": "Legendary Creature — Tiefling Barbarian",
+      "oracle_text": "Whenever you attack, if it's the first combat phase of the turn, untap all attacking creatures. They gain first strike until end of turn. After this phase, there is an additional combat phase.\nChoose a Background (You can have a Background as a second commander.)",
+      "mana_cost": "{4}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/clb/186/karlach-fury-of-avernus?utm_source=api"
+    },
+    {
+      "query": "Lightning Greaves",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/msc/202/lightning-greaves?utm_source=api"
+    },
+    {
+      "query": "Luxury Suite",
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/msc/252/luxury-suite?utm_source=api"
+    },
+    {
+      "query": "Mana Confluence",
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/jou/163/mana-confluence?utm_source=api"
+    },
+    {
+      "query": "Mana Drain",
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "type_line": "Instant",
+      "oracle_text": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
+      "mana_cost": "{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/2x2/57/mana-drain?utm_source=api"
+    },
+    {
+      "query": "Marsh Flats",
+      "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/248/marsh-flats?utm_source=api"
+    },
+    {
+      "query": "Mechanized Production",
+      "oracle_id": "39d8406a-90c3-460c-b4e8-0f590573db51",
+      "type_line": "Enchantment — Aura",
+      "oracle_text": "Enchant artifact you control\nAt the beginning of your upkeep, create a token that's a copy of enchanted artifact. Then if you control eight or more artifacts with the same name as one another, you win the game.",
+      "mana_cost": "{2}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mkc/109/mechanized-production?utm_source=api"
+    },
+    {
+      "query": "Misty Rainforest",
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/250/misty-rainforest?utm_source=api"
+    },
+    {
+      "query": "Mjölnir, Hammer of Thor",
+      "oracle_id": "7f9a8845-d760-44a7-a4c9-8a20dba4e14a",
+      "type_line": "Legendary Artifact — Equipment",
+      "oracle_text": "When Mjölnir enters, it deals 4 damage to up to one target creature.\nDouble all damage equipped creature would deal.\nEquip worthy {1} (A creature is worthy if it's a legendary non-Villain that's red and/or white.)\n{2}{R}, Discard this card: It deals 2 damage to each creature.",
+      "mana_cost": "{3}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/msh/146/mj%C3%B6lnir-hammer-of-thor?utm_source=api"
+    },
+    {
+      "query": "Morphic Pool",
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/390/morphic-pool?utm_source=api"
+    },
+    {
+      "query": "Mountain",
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "type_line": "Basic Land — Mountain",
+      "oracle_text": "({T}: Add {R}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mdd/298/mountain?utm_source=api"
+    },
+    {
+      "query": "Obeka, Splitter of Seconds",
+      "oracle_id": "1d15a06f-5471-48f2-8c4a-9b0886bef5af",
+      "type_line": "Legendary Creature — Ogre Warlock",
+      "oracle_text": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+      "mana_cost": "{1}{U}{B}{R}",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/otj/222/obeka-splitter-of-seconds?utm_source=api"
+    },
+    {
+      "query": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "type_line": "Legendary Land",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "mana_cost": "",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/neo/271/otawara-soaring-city?utm_source=api"
+    },
+    {
+      "query": "Phyrexian Arena",
+      "oracle_id": "ee579a32-a048-4335-b966-231ba731cdea",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of your upkeep, you draw a card and lose 1 life.",
+      "mana_cost": "{1}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/180/phyrexian-arena?utm_source=api"
+    },
+    {
+      "query": "Plargg and Nassari",
+      "oracle_id": "9e769a65-7aa5-484d-9493-badb485b5964",
+      "type_line": "Legendary Creature — Orc Efreet",
+      "oracle_text": "At the beginning of your upkeep, each player exiles cards from the top of their library until they exile a nonland card. An opponent chooses a nonland card exiled this way. You may cast up to two spells from among the other cards exiled this way without paying their mana costs.",
+      "mana_cost": "{3}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/soc/250/plargg-and-nassari?utm_source=api"
+    },
+    {
+      "query": "Polluted Delta",
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh3/224/polluted-delta?utm_source=api"
+    },
+    {
+      "query": "Profane Tutor",
+      "oracle_id": "27a1f42c-0b86-4609-9609-1fa9cab7e7c9",
+      "type_line": "Sorcery",
+      "oracle_text": "Suspend 2—{1}{B} (Rather than cast this card from your hand, pay {1}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)\nSearch your library for a card, put that card into your hand, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/97/profane-tutor?utm_source=api"
+    },
+    {
+      "query": "Reflecting Pool",
+      "oracle_id": "67f43ac6-2a58-4b53-b5d7-0330e2a252e2",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add one mana of any type that a land you control could produce.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/frc/23/reflecting-pool?utm_source=api"
+    },
+    {
+      "query": "Replicating Ring",
+      "oracle_id": "1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f",
+      "type_line": "Snow Artifact",
+      "oracle_text": "{T}: Add one mana of any color.\nAt the beginning of your upkeep, put a night counter on this artifact. Then if it has eight or more night counters on it, remove all of them and create eight colorless snow artifact tokens named Replicated Ring with \"{T}: Add one mana of any color.\"",
+      "mana_cost": "{3}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/moc/372/replicating-ring?utm_source=api"
+    },
+    {
+      "query": "Rhystic Study",
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+      "type_line": "Enchantment",
+      "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api"
+    },
+    {
+      "query": "Ring of Evos Isle",
+      "oracle_id": "4548f379-2647-4446-9e56-e7ef0662793a",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "{2}: Equipped creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)\nAt the beginning of your upkeep, put a +1/+1 counter on equipped creature if it's blue.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/m13/211/ring-of-evos-isle?utm_source=api"
+    },
+    {
+      "query": "Rising of the Day",
+      "oracle_id": "434a20f8-3f87-4004-9155-0f196fc2257e",
+      "type_line": "Enchantment",
+      "oracle_text": "Creatures you control have haste.\nLegendary creatures you control get +1/+0.",
+      "mana_cost": "{2}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/ltr/145/rising-of-the-day?utm_source=api"
+    },
+    {
+      "query": "Roaming Throne",
+      "oracle_id": "3640c29b-1534-4952-b297-619ade948431",
+      "type_line": "Artifact Creature — Golem",
+      "oracle_text": "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time.",
+      "mana_cost": "{4}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lci/258/roaming-throne?utm_source=api"
+    },
+    {
+      "query": "Scalding Tarn",
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/254/scalding-tarn?utm_source=api"
+    },
+    {
+      "query": "Shizo, Death's Storehouse",
+      "oracle_id": "008f2698-1721-45a3-8353-10f2f400dc8f",
+      "type_line": "Legendary Land",
+      "oracle_text": "{T}: Add {B}.\n{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmc/233/shizo-deaths-storehouse?utm_source=api"
+    },
+    {
+      "query": "Silent Arbiter",
+      "oracle_id": "1cdf30de-d88c-421a-80df-4917bbd2f09e",
+      "type_line": "Artifact Creature — Construct",
+      "oracle_text": "No more than one creature can attack each combat.\nNo more than one creature can block each combat.",
+      "mana_cost": "{4}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmm/972/silent-arbiter?utm_source=api"
+    },
+    {
+      "query": "Silver Shroud Costume",
+      "oracle_id": "b40138c3-48bc-4825-ae48-5fea95304088",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains shroud until end of turn. (It can't be the target of spells or abilities.)\nEquipped creature can't be blocked.\nEquip {3}",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/sld/915/silver-shroud-costume?utm_source=api"
+    },
+    {
+      "query": "Smaug the Magnificent",
+      "oracle_id": "c53b7602-5e36-4900-896c-844bf6eac22e",
+      "type_line": "Legendary Creature — Dragon",
+      "oracle_text": "Flying, haste\nWhenever Smaug attacks, he deals damage equal to the number of Treasures you control to any target.\nAt the beginning of your upkeep, create a Treasure token.",
+      "mana_cost": "{2}{R}{R}",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/hob/110/smaug-the-magnificent?utm_source=api"
+    },
+    {
+      "query": "Sol Ring",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}{C}.",
+      "mana_cost": "{1}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api"
+    },
+    {
+      "query": "Steam Vents",
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "type_line": "Land — Island Mountain",
+      "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trk/298/steam-vents?utm_source=api"
+    },
+    {
+      "query": "Super Intelligence",
+      "oracle_id": "d82929f2-57ad-45be-a834-984437046026",
+      "type_line": "Enchantment — Aura",
+      "oracle_text": "Enchant creature\nAt the beginning of the upkeep of enchanted creature's controller, that player draws a card.",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/msh/77/super-intelligence?utm_source=api"
+    },
+    {
+      "query": "Suspended Sentence",
+      "oracle_id": "98641070-93bd-4088-90cb-956c2b21979e",
+      "type_line": "Instant",
+      "oracle_text": "Destroy target creature an opponent controls. That player loses 3 life. Exile Suspended Sentence with three time counters on it.\nSuspend 3—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+      "mana_cost": "{3}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dsc/25/suspended-sentence?utm_source=api"
+    },
+    {
+      "query": "Swamp",
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "type_line": "Basic Land — Swamp",
+      "oracle_text": "({T}: Add {B}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mdd/296/swamp?utm_source=api"
+    },
+    {
+      "query": "Swan Song",
+      "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+      "type_line": "Instant",
+      "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+      "mana_cost": "{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/eoc/46/swan-song?utm_source=api"
+    },
+    {
+      "query": "Swiftfoot Boots",
+      "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "mana_cost": "{2}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/501/swiftfoot-boots?utm_source=api"
+    },
+    {
+      "query": "Sword of Feast and Famine",
+      "oracle_id": "d0901053-6de0-46d0-9ee3-8d40510236c1",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}",
+      "mana_cost": "{3}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/2xm/296/sword-of-feast-and-famine?utm_source=api"
+    },
+    {
+      "query": "Talisman of Creativity",
+      "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/504/talisman-of-creativity?utm_source=api"
+    },
+    {
+      "query": "Talisman of Dominance",
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/505/talisman-of-dominance?utm_source=api"
+    },
+    {
+      "query": "Talisman of Indulgence",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+      "mana_cost": "{2}",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/frc/63/talisman-of-indulgence?utm_source=api"
+    },
+    {
+      "query": "Tamiyo's Journal",
+      "oracle_id": "20591a83-7138-4876-b088-035bd3788be3",
+      "type_line": "Legendary Artifact — Book",
+      "oracle_text": "At the beginning of your upkeep, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{T}, Sacrifice three Clues: Search your library for a card, put that card into your hand, then shuffle.",
+      "mana_cost": "{5}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/inr/272/tamiyos-journal?utm_source=api"
+    },
+    {
+      "query": "Thassa, God of the Sea",
+      "oracle_id": "69e5df2f-be1f-4608-a90f-3e2f51e2fea4",
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)\nAt the beginning of your upkeep, scry 1.\n{1}{U}: Target creature you control can't be blocked this turn.",
+      "mana_cost": "{2}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lcc/176/thassa-god-of-the-sea?utm_source=api"
+    },
+    {
+      "query": "Thopter Spy Network",
+      "oracle_id": "49be65fd-3755-410d-b0dc-2e5861ea2552",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of your upkeep, if you control an artifact, create a 1/1 colorless Thopter artifact creature token with flying.\nWhenever one or more artifact creatures you control deal combat damage to a player, draw a card.",
+      "mana_cost": "{2}{U}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/moc/241/thopter-spy-network?utm_source=api"
+    },
+    {
+      "query": "Time Sieve",
+      "oracle_id": "3da5977a-36d4-4f32-ab9b-8b93809d818d",
+      "type_line": "Artifact",
+      "oracle_text": "{T}, Sacrifice five artifacts: Take an extra turn after this one.",
+      "mana_cost": "{U}{B}",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/2xm/223/time-sieve?utm_source=api"
+    },
+    {
+      "query": "Toxic Deluge",
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "type_line": "Sorcery",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "mana_cost": "{2}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/277/toxic-deluge?utm_source=api"
+    },
+    {
+      "query": "Training Center",
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trc/572/training-center?utm_source=api"
+    },
+    {
+      "query": "Twilight Prophet",
+      "oracle_id": "a3afd8b9-d499-40f7-be41-f8fee6636a1d",
+      "type_line": "Creature — Vampire Cleric",
+      "oracle_text": "Flying\nAscend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAt the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's mana value.",
+      "mana_cost": "{2}{B}{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mkc/143/twilight-prophet?utm_source=api"
+    },
+    {
+      "query": "Underground Sea",
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "type_line": "Land — Island Swamp",
+      "oracle_text": "({T}: Add {U} or {B}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/vma/323/underground-sea?utm_source=api"
+    },
+    {
+      "query": "Urborg, Tomb of Yawgmoth",
+      "oracle_id": "db6174d7-211d-4817-b8e4-8384594c83f9",
+      "type_line": "Legendary Land",
+      "oracle_text": "Each land is a Swamp in addition to its other land types.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth?utm_source=api"
+    },
+    {
+      "query": "Vampiric Tutor",
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "type_line": "Instant",
+      "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+      "mana_cost": "{B}",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmr/108/vampiric-tutor?utm_source=api"
+    },
+    {
+      "query": "Verdant Catacombs",
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh2/260/verdant-catacombs?utm_source=api"
+    },
+    {
+      "query": "Volcanic Island",
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "type_line": "Land — Island Mountain",
+      "oracle_text": "({T}: Add {U} or {R}.)",
+      "mana_cost": "",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/vma/324/volcanic-island?utm_source=api"
+    },
+    {
+      "query": "Watery Grave",
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "type_line": "Land — Island Swamp",
+      "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/trk/306/watery-grave?utm_source=api"
+    },
+    {
+      "query": "Wizard's Staff",
+      "oracle_id": "30c3c700-46f4-4a77-8c45-5c7e3a21bd62",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has prowess. (Whenever its controller casts a noncreature spell, that creature gets +1/+1 until end of turn.)\nIf a triggered ability of equipped creature triggers, that ability triggers an additional time.\nEquip Wizard {1}\nEquip {3}",
+      "mana_cost": "{1}{U}",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/hob/59/wizards-staff?utm_source=api"
+    },
+    {
+      "query": "Wooded Foothills",
+      "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+      "mana_cost": "",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mh3/236/wooded-foothills?utm_source=api"
+    },
+    {
+      "query": "Xander's Lounge",
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "type_line": "Land — Island Swamp Mountain",
+      "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+      "mana_cost": "",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/snc/260/xanders-lounge?utm_source=api"
+    }
+  ]
+}
