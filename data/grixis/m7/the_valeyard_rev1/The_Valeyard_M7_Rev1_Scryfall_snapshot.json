@@ -1,0 +1,1244 @@
+{
+  "source": "Scryfall public /cards/collection exact-name API",
+  "retrieved_utc": "2026-10-27T23:58:09.872050+00:00",
+  "deck_id": "The_Valeyard",
+  "card_count_unique": 104,
+  "oracle_cards": {
+    "Ancient Tomb": {
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/uma/236/ancient-tomb?utm_source=api",
+      "game_changer": true
+    },
+    "Arcane Denial": {
+      "oracle_id": "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37",
+      "oracle_text": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/msc/147/arcane-denial?utm_source=api",
+      "game_changer": false
+    },
+    "Arcane Signet": {
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/trc/485/arcane-signet?utm_source=api",
+      "game_changer": false
+    },
+    "Arid Mesa": {
+      "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh2/244/arid-mesa?utm_source=api",
+      "game_changer": false
+    },
+    "Auton Soldier": {
+      "oracle_id": "94357494-4ccc-43d4-b2d4-351581cbf9b6",
+      "oracle_text": "You may have this creature enter as a copy of any creature on the battlefield, except it isn't legendary, is an artifact in addition to its other types, and has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{U}{U}",
+      "type_line": "Artifact Creature — Alien Soldier",
+      "scryfall_uri": "https://scryfall.com/card/who/36/auton-soldier?utm_source=api",
+      "game_changer": false
+    },
+    "Badlands": {
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "oracle_text": "({T}: Add {B} or {R}.)",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Swamp Mountain",
+      "scryfall_uri": "https://scryfall.com/card/vma/291/badlands?utm_source=api",
+      "game_changer": false
+    },
+    "Bite of the Black Rose": {
+      "oracle_id": "4db04e23-e1da-4c41-9dba-5502dfff73fb",
+      "oracle_text": "Will of the council — Starting with you, each player votes for sickness or psychosis. If sickness gets more votes, creatures your opponents control get -2/-2 until end of turn. If psychosis gets more votes or the vote is tied, each opponent discards two cards.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/cns/26/bite-of-the-black-rose?utm_source=api",
+      "game_changer": false
+    },
+    "Blasphemous Act": {
+      "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+      "oracle_text": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{8}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/msc/163/blasphemous-act?utm_source=api",
+      "game_changer": false
+    },
+    "Blood Crypt": {
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Swamp Mountain",
+      "scryfall_uri": "https://scryfall.com/card/trk/278/blood-crypt?utm_source=api",
+      "game_changer": false
+    },
+    "Bloodstained Mire": {
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh3/216/bloodstained-mire?utm_source=api",
+      "game_changer": false
+    },
+    "Brainstorm": {
+      "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+      "oracle_text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/frc/39/brainstorm?utm_source=api",
+      "game_changer": false
+    },
+    "Capital Punishment": {
+      "oracle_id": "c2902f4f-b40e-49f7-8ab0-5b6a70021482",
+      "oracle_text": "Council's dilemma — Starting with you, each player votes for death or taxes. Each opponent sacrifices a creature of their choice for each death vote and discards a card for each taxes vote.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{B}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/cn2/40/capital-punishment?utm_source=api",
+      "game_changer": false
+    },
+    "Chaos Warp": {
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/mbc/72/chaos-warp?utm_source=api",
+      "game_changer": false
+    },
+    "Chrome Mox": {
+      "oracle_id": "ec3d4466-547c-4e02-b1b5-a156ec4637e9",
+      "oracle_text": "Imprint — When this artifact enters, you may exile a nonartifact, nonland card from your hand.\n{T}: Add one mana of any of the exiled card's colors.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{0}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/2xm/240/chrome-mox?utm_source=api",
+      "game_changer": true
+    },
+    "City of Brass": {
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/tmc/62/city-of-brass?utm_source=api",
+      "game_changer": false
+    },
+    "Coercive Portal": {
+      "oracle_id": "eea4feef-2595-4ed2-92a0-11ccb3e7d40e",
+      "oracle_text": "Will of the council — At the beginning of your upkeep, starting with you, each player votes for carnage or homage. If carnage gets more votes, sacrifice this artifact and destroy all nonland permanents. If homage gets more votes or the vote is tied, draw a card.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{4}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/vma/266/coercive-portal?utm_source=api",
+      "game_changer": false
+    },
+    "Command Tower": {
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/trc/521/command-tower?utm_source=api",
+      "game_changer": false
+    },
+    "Cult of Skaro": {
+      "oracle_id": "1cf40a30-5b42-4dce-ae4f-699bc879e180",
+      "oracle_text": "Whenever Cult of Skaro attacks, choose one at random —\n• Thay — Put a +1/+1 counter on each artifact creature you control.\n• Caan — Draw two cards.\n• Sec — Create a 3/3 black Dalek artifact creature token with menace.\n• Jast — Each opponent loses 4 life.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Artifact Creature — Dalek",
+      "scryfall_uri": "https://scryfall.com/card/who/117/cult-of-skaro?utm_source=api",
+      "game_changer": false
+    },
+    "Cyclonic Rift": {
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api",
+      "game_changer": true
+    },
+    "Damocles Base, Sword of Kang": {
+      "oracle_id": "544c9ad2-86f9-483e-a53c-f64c8602c393",
+      "oracle_text": "Flying, deathtouch\nWhenever Damocles Base deals combat damage to a player, that player faces a villainous choice — They sacrifice a nontoken creature of their choice, or they lose 2 life and you draw two cards.\nCrew 3",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{B}",
+      "type_line": "Legendary Artifact — Vehicle",
+      "scryfall_uri": "https://scryfall.com/card/msc/42/damocles-base-sword-of-kang?utm_source=api",
+      "game_changer": false
+    },
+    "Dark Ritual": {
+      "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b",
+      "oracle_text": "Add {B}{B}{B}.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{B}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api",
+      "game_changer": false
+    },
+    "Davros, Dalek Creator": {
+      "oracle_id": "25c0bbc8-b0c3-4166-967f-e8b096487a6c",
+      "oracle_text": "Menace\nAt the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn. Then each opponent who lost 3 or more life this turn faces a villainous choice — You draw a card, or that player discards a card.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Artifact Creature — Alien Scientist",
+      "scryfall_uri": "https://scryfall.com/card/who/1/davros-dalek-creator?utm_source=api",
+      "game_changer": false
+    },
+    "Deadly Rollick": {
+      "oracle_id": "0456ec64-2c81-4763-a352-8ff64a4c3d6b",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{B}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/cmm/147/deadly-rollick?utm_source=api",
+      "game_changer": false
+    },
+    "Deflecting Swat": {
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/cmm/214/deflecting-swat?utm_source=api",
+      "game_changer": false
+    },
+    "Demonic Tutor": {
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/cmm/150/demonic-tutor?utm_source=api",
+      "game_changer": true
+    },
+    "Dimir Signet": {
+      "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+      "oracle_text": "{1}, {T}: Add {U}{B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/frc/56/dimir-signet?utm_source=api",
+      "game_changer": false
+    },
+    "Double Vision": {
+      "oracle_id": "6629a48b-be9a-4636-8add-69d096a1ca7e",
+      "oracle_text": "Whenever you cast your first instant or sorcery spell each turn, copy that spell. You may choose new targets for the copy.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{R}{R}",
+      "type_line": "Enchantment",
+      "scryfall_uri": "https://scryfall.com/card/ncc/267/double-vision?utm_source=api",
+      "game_changer": false
+    },
+    "Dr. Eggman": {
+      "oracle_id": "fb68c1ae-a129-4c17-81fa-be5da2c32ec5",
+      "oracle_text": "Flying\nAt the beginning of your end step, draw a card. Then each opponent faces a villainous choice — That player discards a card, or you may put a Construct, Robot, or Vehicle card from your hand onto the battlefield.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Scientist",
+      "scryfall_uri": "https://scryfall.com/card/sld/2084/dr-eggman?utm_source=api",
+      "game_changer": false
+    },
+    "Ensnared by the Mara": {
+      "oracle_id": "16090270-0ac5-404c-b0c8-a6c8a4b508a4",
+      "oracle_text": "Each opponent faces a villainous choice — They exile cards from the top of their library until they exile a nonland card, then you may cast that card without paying its mana cost, or that player exiles the top four cards of their library and Ensnared by the Mara deals damage equal to the total mana value of those exiled cards to that player.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{R}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/who/84/ensnared-by-the-mara?utm_source=api",
+      "game_changer": false
+    },
+    "Exotic Orchard": {
+      "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/trc/378/exotic-orchard?utm_source=api",
+      "game_changer": false
+    },
+    "Expropriate": {
+      "oracle_id": "a69265b2-0e37-4d86-866e-e4a923233b4d",
+      "oracle_text": "Council's dilemma — Starting with you, each player votes for time or money. For each time vote, take an extra turn after this one. For each money vote, choose a permanent owned by the voter and gain control of it. Exile Expropriate.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{7}{U}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/cn2/30/expropriate?utm_source=api",
+      "game_changer": false
+    },
+    "Fateful Tempest": {
+      "oracle_id": "9d2f02f7-adcd-4d23-a051-ebca70f22ba5",
+      "oracle_text": "Council's dilemma — Starting with you, each player votes for past or present. You mill a card for each past vote, then Fateful Tempest deals damage to each opponent equal to the total mana value of cards milled this way. Exile the top card of your library for each present vote. Until the end of your next turn, you may play the exiled cards.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/soc/31/fateful-tempest?utm_source=api",
+      "game_changer": false
+    },
+    "Feed the Swarm": {
+      "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed",
+      "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/tle/257/feed-the-swarm?utm_source=api",
+      "game_changer": false
+    },
+    "Fellwar Stone": {
+      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/mbc/74/fellwar-stone?utm_source=api",
+      "game_changer": false
+    },
+    "Fierce Guardianship": {
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/cmm/94/fierce-guardianship?utm_source=api",
+      "game_changer": true
+    },
+    "Flooded Strand": {
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh3/220/flooded-strand?utm_source=api",
+      "game_changer": false
+    },
+    "Force of Will": {
+      "oracle_id": "956381ba-6d37-4a8a-846c-bad79222dbee",
+      "oracle_text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/dmr/50/force-of-will?utm_source=api",
+      "game_changer": true
+    },
+    "Gallifrey Council Chamber": {
+      "oracle_id": "26e4b49e-77e7-41d9-94c5-924669a82591",
+      "oracle_text": "When Gallifrey Council Chamber enters, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a Time Lord or Alien spell or activate an ability of a Time Lord or Alien.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "scryfall_uri": "https://scryfall.com/card/who/188/gallifrey-council-chamber?utm_source=api",
+      "game_changer": false
+    },
+    "Genesis of the Daleks": {
+      "oracle_id": "71ff4603-9f7a-459e-b5b3-9b39583f1dc7",
+      "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Create a 3/3 black Dalek artifact creature token with menace for each lore counter on Genesis of the Daleks.\nIV — Target opponent faces a villainous choice — Destroy all Dalek creatures and each of your opponents loses life equal to the total power of Daleks that died this turn, or destroy all non-Dalek creatures.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{B}{B}",
+      "type_line": "Enchantment — Saga",
+      "scryfall_uri": "https://scryfall.com/card/who/69/genesis-of-the-daleks?utm_source=api",
+      "game_changer": false
+    },
+    "Great Intelligence's Plan": {
+      "oracle_id": "cb9abc41-07f8-4a06-b7b9-9dd6be526e42",
+      "oracle_text": "Draw three cards. Then target opponent faces a villainous choice — They discard three cards, or you may cast a spell from your hand without paying its mana cost.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{U}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/who/133/great-intelligences-plan?utm_source=api",
+      "game_changer": false
+    },
+    "Grudge Keeper": {
+      "oracle_id": "ffbf8459-fda2-4c1d-9841-c001c37d2141",
+      "oracle_text": "Whenever players finish voting, each opponent who voted for a choice you didn't vote for loses 2 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "type_line": "Creature — Zombie Wizard",
+      "scryfall_uri": "https://scryfall.com/card/cns/28/grudge-keeper?utm_source=api",
+      "game_changer": false
+    },
+    "Haunted Ridge": {
+      "oracle_id": "e2a37967-4212-4553-9f77-bcb613405807",
+      "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api",
+      "game_changer": false
+    },
+    "Helm of the Host": {
+      "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+      "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{4}",
+      "type_line": "Legendary Artifact — Equipment",
+      "scryfall_uri": "https://scryfall.com/card/msc/200/helm-of-the-host?utm_source=api",
+      "game_changer": false
+    },
+    "Hunted by The Family": {
+      "oracle_id": "7d178f1c-faf7-4efd-87a6-201a40c55ec8",
+      "oracle_text": "Choose up to four target creatures you don't control. For each of them, that creature's controller faces a villainous choice — That creature becomes a 1/1 white Human creature and loses all abilities, or you create a token that's a copy of it.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{5}{U}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/who/46/hunted-by-the-family?utm_source=api",
+      "game_changer": false
+    },
+    "Illusion of Choice": {
+      "oracle_id": "e3ad9287-ef13-4b66-9df8-b17e15bb4b0f",
+      "oracle_text": "You choose how each player votes this turn.\nDraw a card.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/cn2/31/illusion-of-choice?utm_source=api",
+      "game_changer": false
+    },
+    "Irenicus's Vile Duplication": {
+      "oracle_id": "a3faf698-1dac-45ef-9c43-c8cead489ffc",
+      "oracle_text": "Create a token that's a copy of target creature you control, except the token has flying and it isn't legendary.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/clb/78/irenicuss-vile-duplication?utm_source=api",
+      "game_changer": false
+    },
+    "Island": {
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "oracle_text": "({T}: Add {U}.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Basic Land — Island",
+      "scryfall_uri": "https://scryfall.com/card/mdd/294/island?utm_source=api",
+      "game_changer": false
+    },
+    "Izzet Signet": {
+      "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+      "oracle_text": "{1}, {T}: Add {U}{R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/frc/58/izzet-signet?utm_source=api",
+      "game_changer": false
+    },
+    "Kess, Dissident Mage": {
+      "oracle_id": "f5092c14-eec4-472c-999c-ba96c36b2fbb",
+      "oracle_text": "Flying\nOnce during each of your turns, you may cast an instant or sorcery spell from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Wizard",
+      "scryfall_uri": "https://scryfall.com/card/ncc/344/kess-dissident-mage?utm_source=api",
+      "game_changer": false
+    },
+    "Lightning Greaves": {
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact — Equipment",
+      "scryfall_uri": "https://scryfall.com/card/msc/202/lightning-greaves?utm_source=api",
+      "game_changer": false
+    },
+    "Luxury Suite": {
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/msc/252/luxury-suite?utm_source=api",
+      "game_changer": false
+    },
+    "Mana Confluence": {
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/jou/163/mana-confluence?utm_source=api",
+      "game_changer": false
+    },
+    "Mana Drain": {
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "oracle_text": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{U}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/2x2/57/mana-drain?utm_source=api",
+      "game_changer": false
+    },
+    "Mana Vault": {
+      "oracle_id": "736892cb-a34b-4bb9-b56c-e26e3db207a2",
+      "oracle_text": "This artifact doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.\nAt the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{1}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/2x2/308/mana-vault?utm_source=api",
+      "game_changer": true
+    },
+    "Marsh Flats": {
+      "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh2/248/marsh-flats?utm_source=api",
+      "game_changer": false
+    },
+    "Messenger Jays": {
+      "oracle_id": "dfeb1d36-d1d9-43dd-a79f-a98560676bb3",
+      "oracle_text": "Flying\nCouncil's dilemma — When this creature enters, starting with you, each player votes for feather or quill. Put a +1/+1 counter on this creature for each feather vote and draw a card for each quill vote. For each card drawn this way, discard a card.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{U}",
+      "type_line": "Creature — Bird",
+      "scryfall_uri": "https://scryfall.com/card/cn2/35/messenger-jays?utm_source=api",
+      "game_changer": false
+    },
+    "Midnight Crusader Shuttle": {
+      "oracle_id": "22fa2860-d746-4429-b7e3-3403bef27f7b",
+      "oracle_text": "Midnight Entity — Whenever this Vehicle attacks, defending player faces a villainous choice — That player sacrifices a creature of their choice, or you gain control of a creature of your choice that player controls until end of turn. If you gain control of a creature this way, tap it, and it's attacking that player.\nCrew 2",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{4}",
+      "type_line": "Artifact — Vehicle",
+      "scryfall_uri": "https://scryfall.com/card/who/179/midnight-crusader-shuttle?utm_source=api",
+      "game_changer": false
+    },
+    "Missy": {
+      "oracle_id": "905610cd-1461-4f5a-b9c8-19b193b9d513",
+      "oracle_text": "Whenever another nonartifact creature dies, return it to the battlefield under your control face down and tapped. It's a 2/2 Cyberman artifact creature.\nAt the beginning of your end step, each opponent faces a villainous choice — Each artifact creature you control deals 1 damage to that opponent, or you draw a card and chaos ensues.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}{B}{R}",
+      "type_line": "Legendary Creature — Time Lord Rogue",
+      "scryfall_uri": "https://scryfall.com/card/who/8/missy?utm_source=api",
+      "game_changer": false
+    },
+    "Misty Rainforest": {
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh2/250/misty-rainforest?utm_source=api",
+      "game_changer": false
+    },
+    "Mob Verdict": {
+      "oracle_id": "cb91e09e-f7fb-44bc-b78f-de29705bd2d6",
+      "oracle_text": "Secret council — Each player secretly votes for another player, then those votes are revealed. For each vote an opponent received, Mob Verdict deals 2 damage to that player and each creature that player controls. For each vote you received, draw a card.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{R}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/mkc/33/mob-verdict?utm_source=api",
+      "game_changer": false
+    },
+    "Model of Unity": {
+      "oracle_id": "d7b69fd7-e575-4009-8549-f576249ba641",
+      "oracle_text": "Whenever players finish voting, you and each opponent who voted for a choice you voted for may scry 2.\n{T}: Add one mana of any color.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{3}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/ltc/78/model-of-unity?utm_source=api",
+      "game_changer": false
+    },
+    "Morphic Pool": {
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/trc/390/morphic-pool?utm_source=api",
+      "game_changer": false
+    },
+    "Mountain": {
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "oracle_text": "({T}: Add {R}.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Basic Land — Mountain",
+      "scryfall_uri": "https://scryfall.com/card/mdd/298/mountain?utm_source=api",
+      "game_changer": false
+    },
+    "Mystic Remora": {
+      "oracle_id": "8a52f3c0-2552-4425-b2e3-5496eb2232a7",
+      "oracle_text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{U}",
+      "type_line": "Enchantment",
+      "scryfall_uri": "https://scryfall.com/card/dmr/59/mystic-remora?utm_source=api",
+      "game_changer": false
+    },
+    "Otawara, Soaring City": {
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "scryfall_uri": "https://scryfall.com/card/neo/271/otawara-soaring-city?utm_source=api",
+      "game_changer": false
+    },
+    "Path of the Enigma": {
+      "oracle_id": "602f3203-91ae-423c-8a19-c6c1a5034f27",
+      "oracle_text": "Target player draws four cards.\nWill of the Planeswalkers — Starting with you, each player votes for planeswalk or chaos. If planeswalk gets more votes, planeswalk. If chaos gets more votes or the vote is tied, chaos ensues.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/moc/23/path-of-the-enigma?utm_source=api",
+      "game_changer": false
+    },
+    "Path of the Pyromancer": {
+      "oracle_id": "b908fad9-25a6-441b-bba8-0d7fc12ee2dc",
+      "oracle_text": "Discard all the cards in your hand. Add {R} for each card discarded this way, then draw that many cards plus one.\nWill of the Planeswalkers — Starting with you, each player votes for planeswalk or chaos. If planeswalk gets more votes, planeswalk. If chaos gets more votes or the vote is tied, chaos ensues.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/moc/34/path-of-the-pyromancer?utm_source=api",
+      "game_changer": false
+    },
+    "Path of the Schemer": {
+      "oracle_id": "9cdb1cf6-2bf1-401b-83ae-6f3f7512e5a6",
+      "oracle_text": "Each player mills two cards. Then you put a creature card from a graveyard onto the battlefield under your control. It's an artifact in addition to its other types.\nWill of the Planeswalkers — Starting with you, each player votes for planeswalk or chaos. If planeswalk gets more votes, planeswalk. If chaos gets more votes or the vote is tied, chaos ensues.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/moc/28/path-of-the-schemer?utm_source=api",
+      "game_changer": false
+    },
+    "Plea for Power": {
+      "oracle_id": "8b886623-5c96-48dd-a3d2-fd5865c58ff5",
+      "oracle_text": "Will of the council — Starting with you, each player votes for time or knowledge. If time gets more votes, take an extra turn after this one. If knowledge gets more votes or the vote is tied, draw three cards.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/vma/87/plea-for-power?utm_source=api",
+      "game_changer": false
+    },
+    "Polluted Delta": {
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh3/224/polluted-delta?utm_source=api",
+      "game_changer": false
+    },
+    "Quantum Misalignment": {
+      "oracle_id": "197582b9-4c86-41a3-ad0c-789a0db8e087",
+      "oracle_text": "Create a token that's a copy of target creature you control, except it isn't legendary.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{4}{U}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/msc/152/quantum-misalignment?utm_source=api",
+      "game_changer": false
+    },
+    "Rakdos Signet": {
+      "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+      "oracle_text": "{1}, {T}: Add {B}{R}.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/frc/60/rakdos-signet?utm_source=api",
+      "game_changer": false
+    },
+    "Rhystic Study": {
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+      "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}",
+      "type_line": "Enchantment",
+      "scryfall_uri": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api",
+      "game_changer": true
+    },
+    "Sakashima of a Thousand Faces": {
+      "oracle_id": "8ecdaf4b-4442-42da-9714-4257a83faf50",
+      "oracle_text": "You may have Sakashima enter as a copy of another creature you control, except it has Sakashima's other abilities.\nThe \"legend rule\" doesn't apply to permanents you control.\nPartner (You can have two commanders if both have partner.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}",
+      "type_line": "Legendary Creature — Human Rogue",
+      "scryfall_uri": "https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces?utm_source=api",
+      "game_changer": false
+    },
+    "Scalding Tarn": {
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh2/254/scalding-tarn?utm_source=api",
+      "game_changer": false
+    },
+    "Shipwreck Marsh": {
+      "oracle_id": "5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8",
+      "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/fra/189/shipwreck-marsh?utm_source=api",
+      "game_changer": false
+    },
+    "Sol Ring": {
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "oracle_text": "{T}: Add {C}{C}.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "{1}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api",
+      "game_changer": false
+    },
+    "Spark Double": {
+      "oracle_id": "8dcb35e5-ae44-455f-86e3-4a77d496ff34",
+      "oracle_text": "You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{U}",
+      "type_line": "Creature — Illusion",
+      "scryfall_uri": "https://scryfall.com/card/rvr/62/spark-double?utm_source=api",
+      "game_changer": false
+    },
+    "Split Decision": {
+      "oracle_id": "5f725d51-e133-488c-9ca9-1c7b0523b5bd",
+      "oracle_text": "Will of the council — Choose target instant or sorcery spell. Starting with you, each player votes for denial or duplication. If denial gets more votes, counter the spell. If duplication gets more votes or the vote is tied, copy the spell. You may choose new targets for the copy.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/cns/25/split-decision?utm_source=api",
+      "game_changer": false
+    },
+    "Steam Vents": {
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Island Mountain",
+      "scryfall_uri": "https://scryfall.com/card/trk/298/steam-vents?utm_source=api",
+      "game_changer": false
+    },
+    "Stormcarved Coast": {
+      "oracle_id": "4722105b-0085-4bb8-bca1-9de0d3eb5600",
+      "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/sos/263/stormcarved-coast?utm_source=api",
+      "game_changer": false
+    },
+    "Sulfur Falls": {
+      "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+      "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/trc/563/sulfur-falls?utm_source=api",
+      "game_changer": false
+    },
+    "Swamp": {
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "oracle_text": "({T}: Add {B}.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Basic Land — Swamp",
+      "scryfall_uri": "https://scryfall.com/card/mdd/296/swamp?utm_source=api",
+      "game_changer": false
+    },
+    "Swan Song": {
+      "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+      "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/eoc/46/swan-song?utm_source=api",
+      "game_changer": false
+    },
+    "Sycorax Commander": {
+      "oracle_id": "78ed3e01-6d22-429a-a9db-baff38d7bc03",
+      "oracle_text": "First strike, haste\nSanctified Rules of Combat — When this creature enters, each opponent faces a villainous choice — That opponent discards all the cards in their hand, then draws that many cards minus one, or this creature deals damage to that player equal to the number of cards in their hand.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{B}{R}",
+      "type_line": "Creature — Alien Soldier",
+      "scryfall_uri": "https://scryfall.com/card/who/161/sycorax-commander?utm_source=api",
+      "game_changer": false
+    },
+    "Talisman of Creativity": {
+      "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/trc/504/talisman-of-creativity?utm_source=api",
+      "game_changer": false
+    },
+    "Talisman of Dominance": {
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/trc/505/talisman-of-dominance?utm_source=api",
+      "game_changer": false
+    },
+    "Talisman of Indulgence": {
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "scryfall_uri": "https://scryfall.com/card/frc/63/talisman-of-indulgence?utm_source=api",
+      "game_changer": false
+    },
+    "The Dalek Emperor": {
+      "oracle_id": "07799012-7051-400e-adde-b54b41b80c70",
+      "oracle_text": "Affinity for Daleks (This spell costs {1} less to cast for each Dalek you control.)\nOther Daleks you control have haste.\nAt the beginning of combat on your turn, each opponent faces a villainous choice — That player sacrifices a creature of their choice, or you create a 3/3 black Dalek artifact creature token with menace.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{5}{B}{R}",
+      "type_line": "Legendary Artifact Creature — Dalek",
+      "scryfall_uri": "https://scryfall.com/card/who/120/the-dalek-emperor?utm_source=api",
+      "game_changer": false
+    },
+    "The Master, Gallifrey's End": {
+      "oracle_id": "e5e2e4ef-1d78-41eb-b634-1a90d4cb7125",
+      "oracle_text": "Make Them Pay — Whenever a nontoken artifact creature you control dies, you may exile it. If you do, choose an opponent with the most life among your opponents. That player faces a villainous choice — They lose 4 life, or you create a token that's a copy of that card.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{B}{R}",
+      "type_line": "Legendary Creature — Time Lord Rogue",
+      "scryfall_uri": "https://scryfall.com/card/who/144/the-master-gallifreys-end?utm_source=api",
+      "game_changer": false
+    },
+    "The Valeyard": {
+      "oracle_id": "ed202f1d-3511-45f4-bfbc-e6b76d4311d1",
+      "oracle_text": "If an opponent would face a villainous choice, they face that choice an additional time. (They can make the same or different choices.)\nWhile voting, you may vote an additional time.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}{B}{R}",
+      "type_line": "Legendary Creature — Time Lord Noble",
+      "scryfall_uri": "https://scryfall.com/card/who/165/the-valeyard?utm_source=api",
+      "game_changer": false
+    },
+    "This Is How It Ends": {
+      "oracle_id": "53467cf4-5db2-4b9c-af2b-03b044c558cd",
+      "oracle_text": "Target creature's owner shuffles it into their library, then faces a villainous choice — They lose 5 life, or they shuffle another creature they own into their library.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{3}{B}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/who/70/this-is-how-it-ends?utm_source=api",
+      "game_changer": false
+    },
+    "Toxic Deluge": {
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/trc/277/toxic-deluge?utm_source=api",
+      "game_changer": false
+    },
+    "Training Center": {
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/trc/572/training-center?utm_source=api",
+      "game_changer": false
+    },
+    "Trap the Trespassers": {
+      "oracle_id": "ef72af33-37fc-48ed-90d8-547c90e1609d",
+      "oracle_text": "Secret council — Each player secretly votes for a creature you don't control, then those votes are revealed. For each creature with one or more votes, put that many stun counters on it, then tap it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/ltc/25/trap-the-trespassers?utm_source=api",
+      "game_changer": false
+    },
+    "Truth or Consequences": {
+      "oracle_id": "58d944fb-d1ba-4141-baaf-37dd10978656",
+      "oracle_text": "Secret council — Each player secretly votes for truth or consequences, then those votes are revealed. You draw cards equal to the number of truth votes. Then choose an opponent at random. Truth or Consequences deals 3 damage to that player for each consequences vote.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{2}{U}{R}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/who/163/truth-or-consequences?utm_source=api",
+      "game_changer": false
+    },
+    "Tyrant's Choice": {
+      "oracle_id": "ee7d2c2f-e32f-4be6-82ac-ff1e32055376",
+      "oracle_text": "Will of the council — Starting with you, each player votes for death or torture. If death gets more votes, each opponent sacrifices a creature of their choice. If torture gets more votes or the vote is tied, each opponent loses 4 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{1}{B}",
+      "type_line": "Sorcery",
+      "scryfall_uri": "https://scryfall.com/card/vma/143/tyrants-choice?utm_source=api",
+      "game_changer": false
+    },
+    "Underground Sea": {
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "oracle_text": "({T}: Add {U} or {B}.)",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp",
+      "scryfall_uri": "https://scryfall.com/card/vma/323/underground-sea?utm_source=api",
+      "game_changer": false
+    },
+    "Vampiric Tutor": {
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "{B}",
+      "type_line": "Instant",
+      "scryfall_uri": "https://scryfall.com/card/dmr/108/vampiric-tutor?utm_source=api",
+      "game_changer": true
+    },
+    "Verdant Catacombs": {
+      "oracle_id": "67d60b24-d429-4ded-90d9-06e49f28c396",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh2/260/verdant-catacombs?utm_source=api",
+      "game_changer": false
+    },
+    "Volcanic Island": {
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "oracle_text": "({T}: Add {U} or {R}.)",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Island Mountain",
+      "scryfall_uri": "https://scryfall.com/card/vma/324/volcanic-island?utm_source=api",
+      "game_changer": false
+    },
+    "Watery Grave": {
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp",
+      "scryfall_uri": "https://scryfall.com/card/trk/306/watery-grave?utm_source=api",
+      "game_changer": false
+    },
+    "Wooded Foothills": {
+      "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land",
+      "scryfall_uri": "https://scryfall.com/card/mh3/236/wooded-foothills?utm_source=api",
+      "game_changer": false
+    },
+    "Xander's Lounge": {
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp Mountain",
+      "scryfall_uri": "https://scryfall.com/card/snc/260/xanders-lounge?utm_source=api",
+      "game_changer": false
+    }
+  }
+}

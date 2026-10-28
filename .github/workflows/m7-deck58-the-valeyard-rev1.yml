@@ -1,0 +1,33 @@
+name: "M7 Deck 58 The Valeyard Rev1 exact-head review"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/The_Valeyard_M7_Rev1*.txt"
+      - "data/grixis/m7/decision_reviews/The_Valeyard_rev1.json"
+      - "data/grixis/m7/decision_reviews/The_Valeyard_M7_Rev1_*"
+      - "data/grixis/m7/the_valeyard_rev1/**"
+      - ".github/workflows/m7-deck58-the-valeyard-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-exact-source-decision-and-p0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pin complete baseline, six-swap proposal and 7/8-swap alternatives against live archival Oracle
+        run: python3 data/grixis/m7/the_valeyard_rev1/verify.py
+      - name: Execute bounded Deck 58 C1 K1 K2 K3 P0 and K4 F1 cases
+        run: python3 data/grixis/m7/the_valeyard_rev1/m6_p0_followup.py
+      - name: Execute eight additional original M6 P1 source-bound finite cases
+        run: python3 data/grixis/m7/the_valeyard_rev1/m6_p1_followup.py
+      - name: Validate open-ended eighteen-judgment decision packet against repository-wide M7 schema
+        run: |
+          python3 -m pip install jsonschema
+          python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/The_Valeyard_rev1.json

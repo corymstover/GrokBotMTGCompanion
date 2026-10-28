@@ -1,0 +1,100 @@
+library_slot,canonical_card,decision,candidate_replacement,evidence_and_opportunity_cost
+1,Arcane Denial,CUT,Swan Song,Replace two-mana broad counter plus two opponent cards with one-blue noncreature stack protection; concede no creature/artifact counter and opponent 2/2 flyer.
+2,Arcane Signet,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+3,Arid Mesa,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+4,Auton Soldier,KEEP,,Preserved nonlegendary Valeyard copier; myriad combat clones add separate modifiers only while they exist.
+5,Badlands,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+6,Bite of the Black Rose,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+7,Blasphemous Act,CUT,Toxic Deluge,"Replace situational 13-damage wrath with three-mana, life-scaled -X/-X to defeat indestructible threats; lose cheap one-red sweeper into packed creature boards."
+8,Blood Crypt,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+9,Bloodstained Mire,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+10,Brainstorm,CUT,Irenicus's Vile Duplication,"Trade one-blue fetchland-assisted selection for a permanent nonlegendary Valeyard token, one more independent static choice/vote modifier."
+11,Capital Punishment,KEEP,,"Preserved asymmetric council's dilemma, with each vote producing sacrifice/discard and controller's second vote strengthening effect."
+12,Chaos Warp,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+13,City of Brass,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+14,Coercive Portal,KEEP,,Preserved upkeep Will of the Council every turn; extra Valeyard vote helps favor draw over sweep when opponent votes split.
+15,Command Tower,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+16,Cult of Skaro,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+17,Cyclonic Rift,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+18,"Damocles Base, Sword of Kang",KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+19,Dark Ritual,KEEP,,"Preserved colored burst that can deploy five-mana commander by turn three, versus proposed Mana Vault replacement elsewhere."
+20,"Davros, Dalek Creator",KEEP,,Preserved end-step villains-choose trigger and Dalek production; core Doctor Who identity.
+21,Deadly Rollick,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+22,Deflecting Swat,KEEP,,"Preserved free targeted redirection while commander is controlled, shielding choice engine from removal."
+23,Demonic Tutor,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+24,Dimir Signet,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+25,Dr. Eggman,KEEP,,Preserved repeatable end-step villainous-choice attack on opponents via alternate discard/payload choice.
+26,Ensnared by the Mara,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+27,Exotic Orchard,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+28,Expropriate,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+29,Fateful Tempest,KEEP,,"Preserved cost-three council's dilemma, damage/exile resource engine, major Double Vision target."
+30,Feed the Swarm,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+31,Fellwar Stone,KEEP,,"Preserved two-mana colored artifact in a BRU pod, favoring repeatable UBR access over one-shot Mana Vault tempo."
+32,Fierce Guardianship,KEEP,,"Preserved free stack shield after commander resolves, not necessarily free before Valeyard arrives."
+33,Flooded Strand,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+34,Force of Will,KEEP,,"Preserved free commander/engine protection; even after losing Brainstorm/Arcane Denial/Kess, plenty of other true blue cards remain."
+35,Gallifrey Council Chamber,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+36,Genesis of the Daleks,KEEP,,Preserved chapter choices and Dalek token payoff; Clone/copy suite increases those real choice events.
+37,Great Intelligence's Plan,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+38,Grudge Keeper,KEEP,,Preserved real voting payoff; warn that voting for both choices oneself can turn off its punishment condition.
+39,Haunted Ridge,CUT,Ancient Tomb,Trade reliable BR dual for untapped two-colorless acceleration toward five-mana Valeyard and expensive choice spells; costs two life and no colors.
+40,Hunted by The Family,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+41,Illusion of Choice,KEEP,,Preserved low-mana way to set every vote while drawing a card; resolves both majority control and Grudge Keeper choices.
+42,Island,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+43,Island,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+44,Izzet Signet,CUT,Chrome Mox,Trade sustained two-mana UR filter for zero-mana conditional colored acceleration; imprint loses a nonartifact/nonland card and reduces late-game resources.
+45,"Kess, Dissident Mage",CUT,Double Vision,"Trade one spell recast from graveyard each our turn for copying first instant/sorcery cast EACH turn, potentially repeating genuine votes/choices; costs one extra mana."
+46,Lightning Greaves,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+47,Luxury Suite,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+48,Mana Confluence,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+49,Mana Drain,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+50,Marsh Flats,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+51,Messenger Jays,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+52,Midnight Crusader Shuttle,KEEP,,Preserved hard-to-replace direct villainous-choice source despite crew/combat demand; rejected helm alternative removes one native choice card.
+53,Missy,KEEP,,Preserved Doctor Who artifact/nontoken creature conversion that can fuel the Master's villainous choice and board recursion.
+54,Misty Rainforest,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+55,Mob Verdict,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+56,Model of Unity,KEEP,,Preserved repeat vote finish scry plus multicolor mana from artifact; a unique two-role card.
+57,Morphic Pool,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+58,Mountain,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+59,Mountain,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+60,Mystic Remora,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+61,"Otawara, Soaring City",KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+62,Path of the Enigma,KEEP,,Preserved five-mana draw four with bona fide Will of the Planeswalkers voting; planeswalk/chaos rider requires rules-context caution.
+63,Path of the Pyromancer,KEEP,,Preserved red hand refresh and mana burst plus true planeswalker vote; no speculative claim of value from planar effects in normal Commander.
+64,Path of the Schemer,KEEP,,Preserved five-mana graveyard creature acquisition plus true vote; unlike off-theme tutor it contributes voting occasions.
+65,Plea for Power,KEEP,,"Preserved true will-of-the-council vote; Valeyard casts a second vote, but opposing three votes still determine majority unless influenced."
+66,Polluted Delta,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+67,Quantum Misalignment,KEEP,,Preserved one-token nonlegendary Valeyard copy plus rebound as a second cast; native power rather than general combo.
+68,Rakdos Signet,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+69,Rhystic Study,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+70,Sakashima of a Thousand Faces,KEEP,,Preserved legal commander copy by suspending your legend rule; unlike ordinary Clone it can remain with Valeyard.
+71,Scalding Tarn,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+72,Shipwreck Marsh,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+73,Sol Ring,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+74,Spark Double,KEEP,,Preserved direct nonlegendary Valeyard copy at four mana; part of the protected multiplier engine.
+75,Split Decision,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+76,Steam Vents,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+77,Stormcarved Coast,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+78,Sulfur Falls,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+79,Swamp,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+80,Swamp,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+81,Swamp,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+82,Sycorax Commander,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+83,Talisman of Creativity,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+84,Talisman of Dominance,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+85,Talisman of Indulgence,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+86,The Dalek Emperor,KEEP,,Preserved repeated combat-stage villainous choice and Dalek haste; affinity mitigates seven printed mana cost.
+87,"The Master, Gallifrey's End",KEEP,,A retained native villainous-choice source: Missy can produce actual face-down nontoken Cybermen cards whose deaths trigger the Master; not a disposable generic 4-drop.
+88,This Is How It Ends,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+89,Training Center,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+90,Trap the Trespassers,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+91,Truth or Consequences,KEEP,,Preserved secret council and damage/draw payoff; extra vote counts in choice totals.
+92,Tyrant's Choice,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+93,Underground Sea,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+94,Vampiric Tutor,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+95,Verdant Catacombs,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+96,Volcanic Island,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+97,Watery Grave,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+98,Wooded Foothills,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
+99,Xander's Lounge,KEEP,,"KEEP: independently reconciled with M6 all-99 role audit and M7 current Scryfall review; no challenger beats its mana, interaction, vote, choice or fixing role."
