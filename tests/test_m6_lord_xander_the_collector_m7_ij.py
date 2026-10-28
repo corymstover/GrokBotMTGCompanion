@@ -155,6 +155,12 @@ class LordXanderM7IJ(unittest.TestCase):
         for p, h in paths.items():
             if p == "scripts/grixis_m6_bundle_check.py":
                 self.assertEqual(h, "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b")
+            elif p == "data/grixis/schemas/m7_decisive_optimization.schema.json":
+                # The frozen research J bundle pins its original schema bytes.
+                # The later live schema revision is independently SHA-bound;
+                # never rewrite the historical bundle or claim it passes now.
+                self.assertEqual(h, "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376")
+                self.assertEqual(sha(p), "babc54a313fc54ec41f8b6b21ad303f1dc2c6706d225216bbe0ae577c07cc7b1")
             else:
                 self.assertEqual(h, "sha256:" + sha(p), p)
         self.assertEqual(self.b["pass_c"]["stage_a_seal_sha256"], "sha256:" + sha(SEAL))
