@@ -1,4 +1,4 @@
-name: M7 exact-approved eight-deck P0 source-bound evidence
+name: M7 exact-approved nine-deck P0 source-bound evidence
 
 on:
   pull_request:
@@ -20,5 +20,5 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Execute 41 original M6 P0 cases bound to exact approved 100-card hashes
+      - name: Execute 46 original M6 P0 cases bound to exact approved 100-card hashes
         run: python3 -m unittest discover -s tests -p 'test_m7_missing_transfer_p0_source_bound.py' -v
