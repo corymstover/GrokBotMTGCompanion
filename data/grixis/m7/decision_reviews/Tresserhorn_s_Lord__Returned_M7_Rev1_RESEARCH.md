@@ -97,3 +97,34 @@ The **strongest counterargument** to the research seven is not "only seven swaps
 - Actual `scripts/grixis_m7_decision_gate.py --check` for a complete schema-conforming final packet, exact candidate I/J scope transfer, fresh Oracle and P0/P1 GitHub exact-head CI, and whole-deck final owner approval **NOT DONE**.
 
 **Status: `RESEARCH_ONLY_NOT_OWNER_READY`.** The October 15 canonical deck stays APPROVED/LOCKED, not superseded. Next actions: whole-deck stochastic or matched-hand comparison if it would change the Autocrat/Endrek judgment, case-specific M6/IJ validity mapping **from its downstream-incomplete input receipt**, and the machine M7 gate. The focused exact-head GitHub research workflow does not substitute for those or official Commander legality before November 13. Only after passing those should one exact full 100/SHA packet go to Cory for affirmative approval, and only after that should a narrow canonical approval PR be opened.
+
+## Subsequent exact-owner approval and bounded M7 review reconciliation (October 27)
+
+The preceding section is the preserved *earlier research-stage assessment*, not the
+latest ownership decision. Cory subsequently explicitly approved **the same**
+seven-swap 100, raw SHA `9a9d2f7a344e2491444c0a0e4c48525dfe8faa37032eaf8e22a94082f6fbf60e`:
+the verbatim decision and its conditional canonical authorization are pinned in
+`data/grixis/m7/owner_approvals/Tresserhorn_s_Lord__Returned_M7_Rev1_20261027_PENDING_GATE.json`.
+No repeat owner approval is required for those identical bytes.
+
+The post-floor fourteen-material-candidate, eleven-incumbent-review and
+complete nine-swap alternative record is now captured by
+`data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_rev1.json`.
+It is run through the original fail-closed M7 **structural** gate rather than
+claiming the earlier review prose was already schema complete. Original M6
+C1/K1/K2/K3/F1 P0 and all ten P1 finite cases are directly executed against
+the candidate in the dedicated exact-head workflow. The four named-state
+Rev1/Alt5 comparisons show a genuine setup-speed benefit and real downside
+under removal/precommander draw. They do **not** statistically prove that
+Rev1 is a local optimum or a better winner across unseen multiplayer starts.
+
+**Remaining limitation:** historical M6 I/J input receipt still says Phase B
+downstream incomplete; no independent Phase B or multiplayer win rate has
+been attested. The prior October 15 list's retrospective Pass C KEEP cannot
+be transferred as a certificate for these seven swaps. The named source-bound
+P0/P1 tests and owner-visible debt are the actual transfer scope. Also,
+Tresserhorn's Lord, Returned still has an *officially not-legal* Commander flag
+as of this date and remains included only through the existing authorized
+future-release project exception until the published November 13 release.
+These limitations must be carried forward verbatim into any later canonical
+approval receipt; a green structural M7 CI is not a blanket M6.10 milestone.
