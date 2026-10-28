@@ -8,11 +8,12 @@ is not a substitute for a future-release or M7 approval gate.
 from __future__ import annotations
 
 import collections
+import csv
 import hashlib
 import json
 from pathlib import Path
 
-from verify import CAND, MAIN_SHA, COMMANDER, deck
+from verify import CAND, MAIN_SHA, COMMANDER, INDEX, deck
 
 ROOT = Path(__file__).resolve().parents[4]
 SNAP = ROOT / "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
@@ -32,9 +33,13 @@ def main():
     cards = {c["name"]: c for c in snapshot["cards"]}
     assert len(cards) == len(snapshot["cards"]) == 94
     assert set(cards) == set(names)
+    with INDEX.open(encoding="utf-8", newline="") as input_file:
+        frozen = {row["name"]: row for row in csv.DictReader(input_file)}
     for name, qty in collections.Counter(names).items():
         item = cards[name]
         assert item["oracle_id"] and len(item["oracle_id"]) >= 32, name
+        assert item["oracle_id"] == frozen[name]["oracle_id"], (
+            "frozen/current card identity drift", name)
         assert set(item["color_identity"]) <= {"U", "B", "R"}, (name, item["color_identity"])
         assert item.get("oracle_text") or any(f.get("oracle_text") for f in item["card_faces"]), name
         assert (item["commander_legality"] == "not_legal") == (name == COMMANDER), (
@@ -63,6 +68,7 @@ def main():
     print("Deck #60 exact candidate + live Scryfall snapshot SHA: PASS")
     print("Live query cards:", len(cards), "| physical:", len(names))
     print("All 93 noncommander identities legal and UBR: PASS")
+    print("All 94 current Oracle IDs match frozen October 15 identities: PASS")
     print("Commander official Commander legality: NOT LEGAL until expected 2026-11-13")
     print("No unqueried alternative or full I/J/M7 gate asserted")
 
