@@ -5,7 +5,8 @@ import types
 import unittest
 from pathlib import Path
 
-from lore_evidence_work import printing_matches, lore_sources, graph_context, lookup
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+from lore_evidence import printing_matches, lore_sources, graph_context, lookup
 
 
 class LoreEvidenceTests(unittest.TestCase):
