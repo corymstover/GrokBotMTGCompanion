@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "canonical_baseline_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+  "canonical_baseline_logical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+  "commander_identity": {
+    "mechanical_plan": "Make Obeka connect with actual player combat damage and turn that many postcombat additional upkeep steps into Courts, Treasure/Clues and artifact conversions with Time Sieve; support first-hit damage and paid extra combats.",
+    "protected_core": [
+      "Obeka, Splitter of Seconds",
+      "Mjölnir, Hammer of Thor",
+      "Wizard's Staff",
+      "Roaming Throne",
+      "Smaug the Magnificent",
+      "Tamiyo's Journal",
+      "Time Sieve",
+      "Mechanized Production",
+      "Embercleave",
+      "Hatred"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized: real player-damage connections, five-mana follow-ups and upkeep engines can create powerful snowball lines, but not a compact reliable cEDH goldfish.",
+    "anti_homogenization": "Protect commander-damage extra-upkeep identity and Court/Smaug/Sieve conversion; reject unrelated Consultation or Breach shells and generic fast-combo replacements."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 original noncommander slots were considered against retained Court, Smaug, Journal, upkeep-counter, combat, protection, token and Time Sieve roles. Six selected redundant/slower slots, two additional held incumbents, and six external challenger cards were individually judged.",
+    "mana_base_and_curve": "35 lands remain physically identical, including Island x3, Mountain x2 and Swamp x2; UBR identity and legalities all pass fresh 96-identity Scryfall snapshot. Rogue's Passage was rejected to avoid trading one Swamp for four-mana evasion; selected changes are red or colorless.",
+    "interaction_resilience": "Obeka still has menace, haste/evade sources, equipment/protection and existing interactive spells. Karlach, Jeska, Assault and Manufactor require board survival, two legal attackers or mana, and opponent priority can disrupt every modeled repeat.",
+    "weakest_slots": [
+      {
+        "card": "Rousing Refrain",
+        "weakness": "Upkeep spell red mana arrives at a step boundary, often emptying before main, and does not secure first Obeka contact.",
+        "alternative_named": "Jeska, Thrice Reborn",
+        "reasoning": "Candidate Jeska, Thrice Reborn provides Jeska triples real Obeka combat damage to a player, scaling first connection into many upkeep-only steps. The retained role is Upkeep spell red mana arrives at a step boundary, often emptying before main, and does not secure first Obeka contact."
+      },
+      {
+        "card": "Ring of Xathrid",
+        "weakness": "Ring accumulates counters only after upkeeps and grants regeneration, so before first hit its power contribution is delayed.",
+        "alternative_named": "Blackblade Reforged",
+        "reasoning": "Candidate Blackblade Reforged provides Legendary equip turns current land count into power for the very first Obeka player-damage trigger. The retained role is Ring accumulates counters only after upkeeps and grants regeneration, so before first hit its power contribution is delayed."
+      },
+      {
+        "card": "Jhoira of the Ghitu",
+        "weakness": "Jhoira requires two mana per suspend and delayed time counters, competing with establishing first Obeka contact.",
+        "alternative_named": "Academy Manufactor",
+        "reasoning": "Candidate Academy Manufactor provides Each Smaug Treasure or Journal Clue event becomes one Food, one Clue and one Treasure for Time Sieve. The retained role is Jhoira requires two mana per suspend and delayed time counters, competing with establishing first Obeka contact."
+      },
+      {
+        "card": "Ring of Valkas",
+        "weakness": "Ring grows later via controller upkeeps and can provide single-creature haste; first-hit output is delayed.",
+        "alternative_named": "Rising of the Day",
+        "reasoning": "Candidate Rising of the Day provides Team haste plus conditional legendary +1 power speeds initial Obeka contact and grows damage at first hit. The retained role is Ring grows later via controller upkeeps and can provide single-creature haste; first-hit output is delayed."
+      },
+      {
+        "card": "Paradox Haze",
+        "weakness": "One precombat extra upkeep is unconditional but is not multiplied by each additional Obeka upkeep phase.",
+        "alternative_named": "Karlach, Fury of Avernus",
+        "reasoning": "Candidate Karlach, Fury of Avernus provides If Karlach sees the first attack, grants another combat and Obeka can connect twice in one turn. The retained role is One precombat extra upkeep is unconditional but is not multiplied by each additional Obeka upkeep phase."
+      },
+      {
+        "card": "Darksteel Reactor",
+        "weakness": "Indestructible reactor counter win needs twenty upkeep placements even after combat-heavy turns.",
+        "alternative_named": "Aggravated Assault",
+        "reasoning": "Candidate Aggravated Assault provides Repeat postcombat combat steps at paid 3RR; upkeep-made Treasures can fund further attacks. The retained role is Indestructible reactor counter win needs twenty upkeep placements even after combat-heavy turns."
+      },
+      {
+        "card": "Extravagant Replication",
+        "weakness": "Six-mana clone value could be trimmed for faster repeat-upkeep draw or an Aura copying a better creature.",
+        "alternative_named": "Followed Footsteps",
+        "reasoning": "Retain: replication avoids a targeted Aura's vulnerability and can switch targets among nonlegendary creatures on future upkeeps."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "One black source could theoretically become unblockable utility for Obeka to trigger extra upkeep steps.",
+        "alternative_named": "Rogue's Passage",
+        "reasoning": "Retain: four activation mana plus tapping Passage is too much for first-hit pressure, and one fewer Swamp worsens black pips."
+      }
+    ],
+    "current_baseline_strength": "The October 15 approved list already had six Courts, Smaug and Tamiyo's Journal, existing initial Obeka evasion, Time Sieve, upkeep counters, Mjölnir, Staff, Roaming Throne and multiple finish lines. No wholesale refocus is warranted.",
+    "candidate_pool_scope": "Reviewed original 99 positions, six selected material new adds, extra upkeep/pump/clone political candidates, retained protection/black land, M6 Pass C and alternate off-ranking engine/reach synergies. No unexecuted randomized trials are credited.",
+    "off_ranked_search_conclusion": "Off-ranking challenger search considered Protection Racket, Endless Evil, Followed Footsteps, single-use Unleash Fury and Temur Battle Rage, and Rogue's Passage. More exposed or opponent-dependent than selected package."
+  },
+  "candidate_sources": [
+    "Canonical frozen October 15 approved Obeka Splitter source SHA c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63, registry logical hash lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912.",
+    "Authored full-six-swap review and OFF-RANKING challenger objections: data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md.",
+    "Source-bound 96 Scryfall current Oracle/official Commander legality snapshot 2026-10-28; original M6 blueprint C/K/E/W/F cases; bounded P0 followup."
+  ],
+  "material_candidates": [
+    {
+      "card": "Jeska, Thrice Reborn",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: Jeska triples real Obeka combat damage to a player, scaling first connection into many upkeep-only steps.",
+      "named_cuts": [
+        "Rousing Refrain"
+      ],
+      "incumbent_opportunity_cost": "Upkeep spell red mana arrives at a step boundary, often emptying before main, and does not secure first Obeka contact.",
+      "commander_synergy": "Jeska triples real Obeka combat damage to a player, scaling first connection into many upkeep-only steps.",
+      "adversarial_downside": "Requires a commander cast to survive its low-loyalty entry and still needs an unprevented hit.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because Jeska triples real Obeka combat damage to a player, scaling first connection into many upkeep-only steps. Tradeoff: Requires a commander cast to survive its low-loyalty entry and still needs an unprevented hit.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Blackblade Reforged",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: Legendary equip turns current land count into power for the very first Obeka player-damage trigger.",
+      "named_cuts": [
+        "Ring of Xathrid"
+      ],
+      "incumbent_opportunity_cost": "Ring accumulates counters only after upkeeps and grants regeneration, so before first hit its power contribution is delayed.",
+      "commander_synergy": "Legendary equip turns current land count into power for the very first Obeka player-damage trigger.",
+      "adversarial_downside": "Costs equipment/cast mana and loses late compounding regeneration under repeated upkeeps.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because Legendary equip turns current land count into power for the very first Obeka player-damage trigger. Tradeoff: Costs equipment/cast mana and loses late compounding regeneration under repeated upkeeps.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Academy Manufactor",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: Each Smaug Treasure or Journal Clue event becomes one Food, one Clue and one Treasure for Time Sieve.",
+      "named_cuts": [
+        "Jhoira of the Ghitu"
+      ],
+      "incumbent_opportunity_cost": "Jhoira requires two mana per suspend and delayed time counters, competing with establishing first Obeka contact.",
+      "commander_synergy": "Each Smaug Treasure or Journal Clue event becomes one Food, one Clue and one Treasure for Time Sieve.",
+      "adversarial_downside": "Needs token engine in play and dies to ordinary creature removal; does not triple each token type.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because Each Smaug Treasure or Journal Clue event becomes one Food, one Clue and one Treasure for Time Sieve. Tradeoff: Needs token engine in play and dies to ordinary creature removal; does not triple each token type.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Rising of the Day",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: Team haste plus conditional legendary +1 power speeds initial Obeka contact and grows damage at first hit.",
+      "named_cuts": [
+        "Ring of Valkas"
+      ],
+      "incumbent_opportunity_cost": "Ring grows later via controller upkeeps and can provide single-creature haste; first-hit output is delayed.",
+      "commander_synergy": "Team haste plus conditional legendary +1 power speeds initial Obeka contact and grows damage at first hit.",
+      "adversarial_downside": "Vulnerable enchantment and weaker long-run growth than repeated Ring counters when protected.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because Team haste plus conditional legendary +1 power speeds initial Obeka contact and grows damage at first hit. Tradeoff: Vulnerable enchantment and weaker long-run growth than repeated Ring counters when protected.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Karlach, Fury of Avernus",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: If Karlach sees the first attack, grants another combat and Obeka can connect twice in one turn.",
+      "named_cuts": [
+        "Paradox Haze"
+      ],
+      "incumbent_opportunity_cost": "One precombat extra upkeep is unconditional but is not multiplied by each additional Obeka upkeep phase.",
+      "commander_synergy": "If Karlach sees the first attack, grants another combat and Obeka can connect twice in one turn.",
+      "adversarial_downside": "Five-mana creature and second successful unprevented hit required; opponent interaction can break line.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because If Karlach sees the first attack, grants another combat and Obeka can connect twice in one turn. Tradeoff: Five-mana creature and second successful unprevented hit required; opponent interaction can break line.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Aggravated Assault",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first selected role: Repeat postcombat combat steps at paid 3RR; upkeep-made Treasures can fund further attacks.",
+      "named_cuts": [
+        "Darksteel Reactor"
+      ],
+      "incumbent_opportunity_cost": "Indestructible reactor counter win needs twenty upkeep placements even after combat-heavy turns.",
+      "commander_synergy": "Repeat postcombat combat steps at paid 3RR; upkeep-made Treasures can fund further attacks.",
+      "adversarial_downside": "Needs surviving Obeka, repeatable attacks and actual five usable mana; abandons passive Reactor alt-win.",
+      "judgment": "SELECT_ADD",
+      "reason": "Selected for the exact six-swap owner candidate because Repeat postcombat combat steps at paid 3RR; upkeep-made Treasures can fund further attacks. Tradeoff: Needs surviving Obeka, repeatable attacks and actual five usable mana; abandons passive Reactor alt-win.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Protection Racket",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: Upkeep-driven political reveal/damage engine",
+      "named_cuts": [
+        "Extravagant Replication"
+      ],
+      "incumbent_opportunity_cost": "Retaining Extravagant Replication offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "Upkeep-driven political reveal/damage engine",
+      "adversarial_downside": "Opponents control reveals and land costs can deny cards at no life; cloning our best nonlegend creature is safer.",
+      "judgment": "REJECT",
+      "reason": "Not selected: Opponents control reveals and land costs can deny cards at no life; cloning our best nonlegend creature is safer. Retaining Extravagant Replication protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Endless Evil",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: Cheap repeatable copies during upkeep",
+      "named_cuts": [
+        "Extravagant Replication"
+      ],
+      "incumbent_opportunity_cost": "Retaining Extravagant Replication offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "Cheap repeatable copies during upkeep",
+      "adversarial_downside": "Legendary Smaug token copies die to legend rule; requires another nonlegend target and survives Aura removal.",
+      "judgment": "REJECT",
+      "reason": "Not selected: Legendary Smaug token copies die to legend rule; requires another nonlegend target and survives Aura removal. Retaining Extravagant Replication protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Followed Footsteps",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: Aura making repeatable nonlegendary token copies",
+      "named_cuts": [
+        "Extravagant Replication"
+      ],
+      "incumbent_opportunity_cost": "Retaining Extravagant Replication offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "Aura making repeatable nonlegendary token copies",
+      "adversarial_downside": "Best Smaug plan fails legendary copy without workaround and targeted Aura increases removal exposure.",
+      "judgment": "REJECT",
+      "reason": "Not selected: Best Smaug plan fails legendary copy without workaround and targeted Aura increases removal exposure. Retaining Extravagant Replication protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Unleash Fury",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: One-shot double-power surprise on connecting Obeka",
+      "named_cuts": [
+        "Ring of Evos Isle"
+      ],
+      "incumbent_opportunity_cost": "Retaining Ring of Evos Isle offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "One-shot double-power surprise on connecting Obeka",
+      "adversarial_downside": "One-use pump is timing-vulnerable and replacing upkeep-growing protection weakens future Obeka contact.",
+      "judgment": "REJECT",
+      "reason": "Not selected: One-use pump is timing-vulnerable and replacing upkeep-growing protection weakens future Obeka contact. Retaining Ring of Evos Isle protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Temur Battle Rage",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: One-shot conditional double strike and trample",
+      "named_cuts": [
+        "Ring of Evos Isle"
+      ],
+      "incumbent_opportunity_cost": "Retaining Ring of Evos Isle offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "One-shot conditional double strike and trample",
+      "adversarial_downside": "Already has Embercleave and Hatred; spending a protected permanent for one-shot surprise costs long-game resilience.",
+      "judgment": "REJECT",
+      "reason": "Not selected: Already has Embercleave and Hatred; spending a protected permanent for one-shot surprise costs long-game resilience. Retaining Ring of Evos Isle protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    },
+    {
+      "card": "Rogue's Passage",
+      "source": "The existing authored Deck45 commander-first six-swap review, original M6 blueprint, and latest exact-list Scryfall Oracle/legality snapshot (2026-10-28).",
+      "role": "Commander-first reviewed alternative role: Land-based unblockability for commander damage",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "Retaining Swamp offers longer-term resilient board value despite the alternative.",
+      "commander_synergy": "Land-based unblockability for commander damage",
+      "adversarial_downside": "Four activation mana plus tapped land cost and one fewer black source lose to existing evasion suite.",
+      "judgment": "REJECT",
+      "reason": "Not selected: Four activation mana plus tapped land cost and one fewer black source lose to existing evasion suite. Retaining Swamp protects the coherent first-connection, upkeep-conversion plan.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Obeka__Splitter_of_Seconds_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Jeska, Thrice Reborn",
+      "Blackblade Reforged",
+      "Academy Manufactor",
+      "Rising of the Day",
+      "Karlach, Fury of Avernus",
+      "Aggravated Assault"
+    ],
+    "cuts": [
+      "Rousing Refrain",
+      "Ring of Xathrid",
+      "Jhoira of the Ghitu",
+      "Ring of Valkas",
+      "Paradox Haze",
+      "Darksteel Reactor"
+    ],
+    "coherent_package_tradeoff": "Replace six late/upkeep-only and slow passive slots with initial combat power, haste, real new combats, and artifact conversion. The package is not a five-card quota; it preserves all 35 lands and existing Court/Smaug/Sieve identity."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Rousing Refrain",
+        "weakness": "Upkeep spell red mana arrives at a step boundary, often emptying before main, and does not secure first Obeka contact.",
+        "alternative_named": "Jeska, Thrice Reborn",
+        "reasoning": "Candidate Jeska, Thrice Reborn provides Jeska triples real Obeka combat damage to a player, scaling first connection into many upkeep-only steps. The retained role is Upkeep spell red mana arrives at a step boundary, often emptying before main, and does not secure first Obeka contact."
+      },
+      {
+        "card": "Ring of Xathrid",
+        "weakness": "Ring accumulates counters only after upkeeps and grants regeneration, so before first hit its power contribution is delayed.",
+        "alternative_named": "Blackblade Reforged",
+        "reasoning": "Candidate Blackblade Reforged provides Legendary equip turns current land count into power for the very first Obeka player-damage trigger. The retained role is Ring accumulates counters only after upkeeps and grants regeneration, so before first hit its power contribution is delayed."
+      },
+      {
+        "card": "Jhoira of the Ghitu",
+        "weakness": "Jhoira requires two mana per suspend and delayed time counters, competing with establishing first Obeka contact.",
+        "alternative_named": "Academy Manufactor",
+        "reasoning": "Candidate Academy Manufactor provides Each Smaug Treasure or Journal Clue event becomes one Food, one Clue and one Treasure for Time Sieve. The retained role is Jhoira requires two mana per suspend and delayed time counters, competing with establishing first Obeka contact."
+      },
+      {
+        "card": "Ring of Valkas",
+        "weakness": "Ring grows later via controller upkeeps and can provide single-creature haste; first-hit output is delayed.",
+        "alternative_named": "Rising of the Day",
+        "reasoning": "Candidate Rising of the Day provides Team haste plus conditional legendary +1 power speeds initial Obeka contact and grows damage at first hit. The retained role is Ring grows later via controller upkeeps and can provide single-creature haste; first-hit output is delayed."
+      },
+      {
+        "card": "Paradox Haze",
+        "weakness": "One precombat extra upkeep is unconditional but is not multiplied by each additional Obeka upkeep phase.",
+        "alternative_named": "Karlach, Fury of Avernus",
+        "reasoning": "Candidate Karlach, Fury of Avernus provides If Karlach sees the first attack, grants another combat and Obeka can connect twice in one turn. The retained role is One precombat extra upkeep is unconditional but is not multiplied by each additional Obeka upkeep phase."
+      },
+      {
+        "card": "Darksteel Reactor",
+        "weakness": "Indestructible reactor counter win needs twenty upkeep placements even after combat-heavy turns.",
+        "alternative_named": "Aggravated Assault",
+        "reasoning": "Candidate Aggravated Assault provides Repeat postcombat combat steps at paid 3RR; upkeep-made Treasures can fund further attacks. The retained role is Indestructible reactor counter win needs twenty upkeep placements even after combat-heavy turns."
+      },
+      {
+        "card": "Extravagant Replication",
+        "weakness": "Six-mana clone value could be trimmed for faster repeat-upkeep draw or an Aura copying a better creature.",
+        "alternative_named": "Followed Footsteps",
+        "reasoning": "Retain: replication avoids a targeted Aura's vulnerability and can switch targets among nonlegendary creatures on future upkeeps."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "One black source could theoretically become unblockable utility for Obeka to trigger extra upkeep steps.",
+        "alternative_named": "Rogue's Passage",
+        "reasoning": "Retain: four activation mana plus tapping Passage is too much for first-hit pressure, and one fewer Swamp worsens black pips."
+      }
+    ],
+    "off_ranked_opportunities": "The additional Protection Racket, nonlegend clone Auras, single-use power/double strike, and Rogue's Passage land challenge were examined directly, not selected by popularity or swap quota.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Protection Racket",
+          "Followed Footsteps"
+        ],
+        "cuts": [
+          "Extravagant Replication",
+          "Ring of Evos Isle"
+        ],
+        "result_and_rationale": "Rejected because opposing choice and target Aura exposure combined with loss of resilient replication and commander protection; it can compound upkeeps but is fragile."
+      },
+      {
+        "adds": [
+          "Unleash Fury",
+          "Rogue's Passage"
+        ],
+        "cuts": [
+          "Ring of Evos Isle",
+          "Swamp"
+        ],
+        "result_and_rationale": "Rejected because first-hit burst requires casting a vulnerable instant and paying four land-based evasion mana while weakening black sources and durable protection."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Considered sacrificing Replication for enchantment clone or Passage for Swamp, and Ring of Evos Isle for combat tricks; each costs more durable board/black pip support than it adds.",
+    "strongest_argument_against_baseline": "The baseline may underpressure initial commander damage and leave many payoffs inert if Obeka never connects; high-lift upkeep payoffs alone do not fix access.",
+    "evidence_based_answer": "Jeska, Blackblade, Rising and Karlach increase first contact or additional real combat events; Academy Manufactor and Aggravated Assault convert actual upkeep assets without weakening 35-land base."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Obeka__Splitter_of_Seconds_chatgpt_rev1.txt",
+    "sha256": "f80d882944d5e39f3c6661da4dcdce3ec6eead577cd981dc54f7dc522be50859",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact source-bound six adds/six cuts; 100 physical/96 distinct/35 lands, basics Island3 Mountain2 Swamp2 only repeated; no commander or companion change; all 96 official Commander legal and UBR in 2026-10-28 snapshot."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Obeka__Splitter_of_Seconds_Rev1_Scryfall_20261028.json — full candidate 96 Oracle/legality.",
+      "data/grixis/m7/obeka_splitter_rev1/m6_p0_followup.py — five original blueprint finite P0 tests, no P1 full certification.",
+      "data/grixis/m7/obeka_splitter_rev1/verify_obeka_splitter_rev1.py — exact-100 and bounded conditional scenario checks."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Extra Upkeeps",
+      "Combat Damage",
+      "Upkeep Triggers"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "The historical complete 99-slot audit plus fresh challenge kept Courts, Smaug, Journal, Time Sieve, protection, the 35-land source base, pressure equipment and upkeep conversion. The six actual cuts lost to first-hit output and extra combats; additional retained Replication, Ring of Evos Isle and Swamp were challenged without manufacturing a weak cut.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Extravagant Replication",
+        "challenger": "Followed Footsteps",
+        "tradeoff": "Aura could make token copies every upkeep, but target exposure and the legend rule on Smaug reduce reliability versus a flexible non-Aura Replication engine.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Swamp",
+        "challenger": "Rogue's Passage",
+        "tradeoff": "Land unblockability competes with four mana and a lost black source; existing Aqueous Form, Brotherhood Regalia, Shizo and menace protection offer better first-hit pressure.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "Both seventh/eighth-slot challenges were evaluated after the six positive exchanges: losing Extravagant Replication for Followed Footsteps makes targeted Aura and legendary Smaug risks worse, and losing Swamp for Rogue's Passage costs a black source plus four activation mana each combat. Unleash Fury and Protection Racket similarly exchange permanent protection or clone flexibility for timing-vulnerable burst/opponent-controlled outcomes. Two distinct higher-count conceptual portfolios were rejected and are recorded in the heightened audit; no extra full-100 package improves role balance enough to stage as a winner.",
+    "quality_based_stop_reason": "The stop is based on the net role tradeoff, not having reached six swaps. The selected package improves early Obeka player-damage output, haste and payable repeated combat while preserving all 35 lands and original Court/Smaug/Journal/Time Sieve engines. After challenging held Replication, Ring of Evos Isle, Swamp, Protection Racket, aura clones, combat tricks and Rogue's Passage, every extra trade loses black mana, durable protection, flexible copying, or relies on opposing decisions/fragile timing. No unexecuted win-rate claim is used."
+  }
+}
