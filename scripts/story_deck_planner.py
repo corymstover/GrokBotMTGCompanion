@@ -86,6 +86,25 @@ def plan(theme, index, timeline, limit=18, entry_sources=None):
                 key = f"{e['page']}#{e['anchor']}"
                 arcs.add(key)
                 discovery[key].add("named_arc_itself")
+            elif e["kind"] == "summary":
+                # Short summary headings (e.g. "March of the Machine") can
+                # exactly match a user's query while the underlying arc has
+                # a date suffix. Keep them navigable without claiming that
+                # name similarity proves any new historical relationship.
+                for related in items:
+                    if related["kind"] != "arc":
+                        continue
+                    name = related["name"].casefold()
+                    base = e["name"].casefold()
+                    if name == base or name.startswith(base + " (") or name.startswith(base + ":"):
+                        key = f"{related['page']}#{related['anchor']}"
+                        arcs.add(key)
+                        discovery[key].add("summary_heading_name_match_contextual")
+    if not arcs and subjects:
+        for e in subjects:
+            key = f"{e['page']}#{e['anchor']}"
+            arcs.add(key)
+            discovery[key].add("focused_subject_entry_no_linked_arc")
     # A timeline row mentioning *all* requested subjects can surface an arc
     # omitted from the character index. This is contextual discovery only;
     # co-occurrence is never promoted to proof they met/fought.

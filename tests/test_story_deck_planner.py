@@ -29,6 +29,16 @@ def entry(page, name, anchor, kind, links=None, enriched=()):
 
 
 class StoryDeckPlannerTests(unittest.TestCase):
+    def test_short_summary_title_yields_real_arc_beats(self):
+        index = {"items": [
+            entry("Story Arc Summaries.md", "March of the Machine", "march-of-the-machine", "summary"),
+            entry("Conflicts & Arcs.md", "March of the Machine (2023)", "march-of-the-machine-2023", "arc"),
+        ]}
+        result = plan("March of the Machine", index, TIME)
+        self.assertEqual(result["beat_total"], 1)
+        self.assertEqual(result["beats"][0]["title"], "March of the Machine (2023)")
+        self.assertIn("summary_heading_name_match_contextual", result["beats"][0]["discovery_evidence"])
+
     def test_shipped_karn_example_is_complete_but_not_auto_approved(self):
         path = Path(__file__).resolve().parents[1] / "data/lore_decks/examples/karn_life_story_draft.json"
         spec = json.loads(path.read_text(encoding="utf-8"))
