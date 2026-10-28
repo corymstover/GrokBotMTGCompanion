@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Thraximundar",
+  "canonical_baseline_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+  "canonical_baseline_logical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+  "commander_identity": {
+    "mechanical_plan": "Cast seven-mana haste Zombie Assassin Thraximundar, make defending opponent sacrifice a creature on attack, grow him for every player's creature-sacrifice event and use Zombies, edicts and free altars to fuel death-drain or commander-damage wins.",
+    "protected_core": [
+      "Thraximundar",
+      "Gravecrawler",
+      "Reassembling Skeleton",
+      "Pitiless Plunderer",
+      "Ashnod's Altar",
+      "Phyrexian Altar",
+      "Goblin Bombardment",
+      "Altar of Dementia",
+      "Rooftop Storm",
+      "Blood Artist",
+      "Zulaport Cutthroat",
+      "Cultist of the Absolute"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized: engine-based sacrifice loops plus seven-mana commander-damage clock, without claims of independently verified Bracket 5 cEDH performance.",
+    "anti_homogenization": "Do not replace the attack-when-attacks sacrifice, Zombie recursion, sacrifice-cost advantage and counter-growing commander with generic Oracle/Consultation or spell-combo shells."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "The M6 comprehensive per-source review accounts for all 93 rows and 99 library cards, while this ten-swap review reweighs slower five-to-seven-mana top end, repeated sacrifice payoffs, Grave Pact/Dictate, Gravecrawler and Skeleton loops, ramp and three slow dual lands. Core edict, Zombie and drain coverage remains.",
+    "mana_base_and_curve": "The exact 100 keeps 36 lands and Island x3/Mountain x2/Swamp x5; three conditional tap duals become Marsh Flats/Misty Rainforest/Verdant Catacombs. Fetches can search types, not arbitrary lands, and pay life; UBR color identity and official legality passed 93/93 live Scryfall names.",
+    "interaction_resilience": "Keeps Fierce Guardianship, Mana Drain, Deflecting Swat, Cyclonic Rift, Toxic Deluge, Flare of Malice and low-mana edicts. Regalia grants ward two/unblockable but loses Boots hexproof, and cheaper Priest/Ophiomancer/Plumb improve play under expensive Thrax tax.",
+    "weakest_slots": [
+      {
+        "card": "Archfiend of Depravity",
+        "weakness": "Five-mana end-step creature limiter is slower and less direct for cheap recurring Zombie casts.",
+        "alternative_named": "Bontu's Monument",
+        "reasoning": "The approved challenger Bontu's Monument brings Black creature discount and any creature cast drain turns Gravecrawler loops into opponent life-loss while easing Thrax-colored setup. The cost remains Loses flying board-pressure ceiling and independent opposing sacrifice each end step; requires creature casting."
+      },
+      {
+        "card": "Swiftfoot Boots",
+        "weakness": "Two-mana boots with equip one give hexproof and haste, but Thraximundar already has native haste.",
+        "alternative_named": "Brotherhood Regalia",
+        "reasoning": "The approved challenger Brotherhood Regalia brings One-mana legendary equip grants unblockable and ward two to make seven-mana Thrax connect repeatedly. The cost remains Ward is weaker than hexproof against targeted removal if the attacker has available mana; no emergency haste for support bodies."
+      },
+      {
+        "card": "Diregraf Captain",
+        "weakness": "Captain's three-color Zombie anthem/drain is good but three mana and restricted to Zombies dying.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "The approved challenger Marionette Apprentice brings Apprentice makes a Servo or counter and drains when another owned creature or artifact dies, covering Treasure and Zombie loops. The cost remains Its own death does not trigger itself and it does not anthem Zombies; needs sacrifice/graveyard churn."
+      },
+      {
+        "card": "Dragonskull Summit",
+        "weakness": "Conditionally tapped dual can delay commander UBR when no Swamp/Mountain is controlled.",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "The approved challenger Marsh Flats brings Fetch basic Swamp or typed Underground Sea/Badlands into play, improving timely black/blue/red access. The cost remains Fetch costs one life and is susceptible to land-search denial; land availability must be legal."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Conditional dual may enter tapped without prior Island/Swamp.",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "The approved challenger Misty Rainforest brings Fetch Island/Swamp typed duals or basic Island to increase untapped color access and shuffle. The cost remains Fetch requires valid land type target and one life, not infinite tri-color access."
+      },
+      {
+        "card": "Grimgrin, Corpse-Born",
+        "weakness": "Five-mana self-growth Zombie untap-sac engine competes with costly commander deployment.",
+        "alternative_named": "Ophiomancer",
+        "reasoning": "The approved challenger Ophiomancer brings Three-mana Snake token each upkeep when no Snake exists supplies ongoing zero-investment sacrifice fodder. The cost remains Snake is not a Zombie and only makes one at a time while another Snake remains; removal shuts off engine."
+      },
+      {
+        "card": "Liliana, Dreadhorde General",
+        "weakness": "Six-mana planeswalker provides broad grind value but starts late compared with fast sacrifice turns.",
+        "alternative_named": "Plumb the Forbidden",
+        "reasoning": "The approved challenger Plumb the Forbidden brings Two-mana instant sacrifices multiple bodies as optional cost to copy a draw spell, yielding source-paid cards and Thrax counters. The cost remains Consumes own fodder and life; copy counts require actual paid sacrifices; loses recurring planeswalker draw/wrath."
+      },
+      {
+        "card": "Necrotic Hex",
+        "weakness": "Seven-mana mass-sacrifice sorcery is powerful but cannot repeatedly feed commander growth early.",
+        "alternative_named": "Priest of Forgotten Gods",
+        "reasoning": "The approved challenger Priest of Forgotten Gods brings Two-mana Priest trades two spare bodies for forced player sacrifices, BB and a card, feeding Thrax and drain engines. The cost remains Needs two other creatures, tap-ready Priest and legal targets; mass-wide answer is lost."
+      },
+      {
+        "card": "Sheoldred, Whispering One",
+        "weakness": "Seven-mana Praetor supplies ongoing enemy edicts and own graveyard recursion, but competes with commander turn.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "The approved challenger Roaming Throne brings Four-mana Throne named Zombie doubles other controlled Zombie triggers, including each Thrax sacrifice counter trigger. The cost remains Needs chosen Zombie type and Thrax to remain; does not itself recur dead creatures or force upkeep edicts."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Conditionally tapped U/R dual may miss critical early black-pip access.",
+        "alternative_named": "Verdant Catacombs",
+        "reasoning": "The approved challenger Verdant Catacombs brings Fetch Swamp or typed dual to correct black plus another needed color, and reduces tapland exposure. The cost remains Cannot fetch red alone without typed appropriate dual; one life and search denial apply."
+      },
+      {
+        "card": "Vona's Hunger",
+        "weakness": "A three-mana instant edict is less permanent card advantage than a resilient death-drain enchantment.",
+        "alternative_named": "Bastion of Remembrance",
+        "reasoning": "Retain: can force sacrifice at opponent priority before Thrax attacks, and City's Blessing potentially expands edict scope; already many drain payoffs."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Enters tapped and is poor at immediate colored tempo compared with an additional fetchland.",
+        "alternative_named": "Fabled Passage",
+        "reasoning": "Retain: graveyard exile effect is unique land-slot interaction; Passage fetches tapped early and cannot replace that graveyard-hate insurance."
+      }
+    ],
+    "current_baseline_strength": "The previous owner-approved October 15 100 was a coherent Bracket 4 KEEP under historical independent M6 Pass C, with 36 lands, fast Altars, Grave Pact/Dictate, Zombie support, sacrifice engines, recursion and strong black tutors. It was not a wrong or unapproved list.",
+    "candidate_pool_scope": "Historical 99-slot M6 Thraximundar source review, 135 exploratory candidate pairs, commander-first identity, ten owner-approved exact changes and three material post-floor alternatives inspected. Proxies do not establish win rates.",
+    "off_ranked_search_conclusion": "OFF-RANKING repeated-drain alternatives Bastion of Remembrance, Woe Strider free outlet and Fabled Passage fetch were challenged as alternative use of retained Vona's Hunger, Cultist and Bojuka Bog slots, and declined on role costs."
+  },
+  "candidate_sources": [
+    "October15 Thraximundar canonical owner-approved source SHA d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442, frozen imported logical hash lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d.",
+    "Full original M6 93-row / 99-slot role audit, Pass C and 135 exploratory add-cut pairs at data/grixis/m6/deep_reviews/Thraximundar.md; not new independent decision authority.",
+    "Exact owner-provided October27 Thraximundar M7 100 reconstructed byte-identically from final ZIP, 93/93 Scryfall current Oracle/legality/UBR snapshot and source-bound five P0 cases.",
+    "OFF-RANKING challenge of Bastion of Remembrance, Woe Strider and Fabled Passage against retained instant sacrifice, commander evasion and graveyard-hate slots."
+  ],
+  "material_candidates": [
+    {
+      "card": "Bontu's Monument",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Black creature discount and any creature cast drain turns Gravecrawler loops into opponent life-loss while easing Thrax-colored setup.",
+      "named_cuts": [
+        "Archfiend of Depravity"
+      ],
+      "incumbent_opportunity_cost": "Five-mana end-step creature limiter is slower and less direct for cheap recurring Zombie casts.",
+      "commander_synergy": "Black creature discount and any creature cast drain turns Gravecrawler loops into opponent life-loss while easing Thrax-colored setup.",
+      "adversarial_downside": "Loses flying board-pressure ceiling and independent opposing sacrifice each end step; requires creature casting.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Black creature discount and any creature cast drain turns Gravecrawler loops into opponent life-loss while easing Thrax-colored setup. Tradeoff admitted: Loses flying board-pressure ceiling and independent opposing sacrifice each end step; requires creature casting.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Brotherhood Regalia",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "One-mana legendary equip grants unblockable and ward two to make seven-mana Thrax connect repeatedly.",
+      "named_cuts": [
+        "Swiftfoot Boots"
+      ],
+      "incumbent_opportunity_cost": "Two-mana boots with equip one give hexproof and haste, but Thraximundar already has native haste.",
+      "commander_synergy": "One-mana legendary equip grants unblockable and ward two to make seven-mana Thrax connect repeatedly.",
+      "adversarial_downside": "Ward is weaker than hexproof against targeted removal if the attacker has available mana; no emergency haste for support bodies.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: One-mana legendary equip grants unblockable and ward two to make seven-mana Thrax connect repeatedly. Tradeoff admitted: Ward is weaker than hexproof against targeted removal if the attacker has available mana; no emergency haste for support bodies.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Marionette Apprentice",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Apprentice makes a Servo or counter and drains when another owned creature or artifact dies, covering Treasure and Zombie loops.",
+      "named_cuts": [
+        "Diregraf Captain"
+      ],
+      "incumbent_opportunity_cost": "Captain's three-color Zombie anthem/drain is good but three mana and restricted to Zombies dying.",
+      "commander_synergy": "Apprentice makes a Servo or counter and drains when another owned creature or artifact dies, covering Treasure and Zombie loops.",
+      "adversarial_downside": "Its own death does not trigger itself and it does not anthem Zombies; needs sacrifice/graveyard churn.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Apprentice makes a Servo or counter and drains when another owned creature or artifact dies, covering Treasure and Zombie loops. Tradeoff admitted: Its own death does not trigger itself and it does not anthem Zombies; needs sacrifice/graveyard churn.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Marsh Flats",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Fetch basic Swamp or typed Underground Sea/Badlands into play, improving timely black/blue/red access.",
+      "named_cuts": [
+        "Dragonskull Summit"
+      ],
+      "incumbent_opportunity_cost": "Conditionally tapped dual can delay commander UBR when no Swamp/Mountain is controlled.",
+      "commander_synergy": "Fetch basic Swamp or typed Underground Sea/Badlands into play, improving timely black/blue/red access.",
+      "adversarial_downside": "Fetch costs one life and is susceptible to land-search denial; land availability must be legal.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Fetch basic Swamp or typed Underground Sea/Badlands into play, improving timely black/blue/red access. Tradeoff admitted: Fetch costs one life and is susceptible to land-search denial; land availability must be legal.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Misty Rainforest",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Fetch Island/Swamp typed duals or basic Island to increase untapped color access and shuffle.",
+      "named_cuts": [
+        "Drowned Catacomb"
+      ],
+      "incumbent_opportunity_cost": "Conditional dual may enter tapped without prior Island/Swamp.",
+      "commander_synergy": "Fetch Island/Swamp typed duals or basic Island to increase untapped color access and shuffle.",
+      "adversarial_downside": "Fetch requires valid land type target and one life, not infinite tri-color access.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Fetch Island/Swamp typed duals or basic Island to increase untapped color access and shuffle. Tradeoff admitted: Fetch requires valid land type target and one life, not infinite tri-color access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Ophiomancer",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Three-mana Snake token each upkeep when no Snake exists supplies ongoing zero-investment sacrifice fodder.",
+      "named_cuts": [
+        "Grimgrin, Corpse-Born"
+      ],
+      "incumbent_opportunity_cost": "Five-mana self-growth Zombie untap-sac engine competes with costly commander deployment.",
+      "commander_synergy": "Three-mana Snake token each upkeep when no Snake exists supplies ongoing zero-investment sacrifice fodder.",
+      "adversarial_downside": "Snake is not a Zombie and only makes one at a time while another Snake remains; removal shuts off engine.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Three-mana Snake token each upkeep when no Snake exists supplies ongoing zero-investment sacrifice fodder. Tradeoff admitted: Snake is not a Zombie and only makes one at a time while another Snake remains; removal shuts off engine.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Plumb the Forbidden",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Two-mana instant sacrifices multiple bodies as optional cost to copy a draw spell, yielding source-paid cards and Thrax counters.",
+      "named_cuts": [
+        "Liliana, Dreadhorde General"
+      ],
+      "incumbent_opportunity_cost": "Six-mana planeswalker provides broad grind value but starts late compared with fast sacrifice turns.",
+      "commander_synergy": "Two-mana instant sacrifices multiple bodies as optional cost to copy a draw spell, yielding source-paid cards and Thrax counters.",
+      "adversarial_downside": "Consumes own fodder and life; copy counts require actual paid sacrifices; loses recurring planeswalker draw/wrath.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Two-mana instant sacrifices multiple bodies as optional cost to copy a draw spell, yielding source-paid cards and Thrax counters. Tradeoff admitted: Consumes own fodder and life; copy counts require actual paid sacrifices; loses recurring planeswalker draw/wrath.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Priest of Forgotten Gods",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Two-mana Priest trades two spare bodies for forced player sacrifices, BB and a card, feeding Thrax and drain engines.",
+      "named_cuts": [
+        "Necrotic Hex"
+      ],
+      "incumbent_opportunity_cost": "Seven-mana mass-sacrifice sorcery is powerful but cannot repeatedly feed commander growth early.",
+      "commander_synergy": "Two-mana Priest trades two spare bodies for forced player sacrifices, BB and a card, feeding Thrax and drain engines.",
+      "adversarial_downside": "Needs two other creatures, tap-ready Priest and legal targets; mass-wide answer is lost.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Two-mana Priest trades two spare bodies for forced player sacrifices, BB and a card, feeding Thrax and drain engines. Tradeoff admitted: Needs two other creatures, tap-ready Priest and legal targets; mass-wide answer is lost.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Four-mana Throne named Zombie doubles other controlled Zombie triggers, including each Thrax sacrifice counter trigger.",
+      "named_cuts": [
+        "Sheoldred, Whispering One"
+      ],
+      "incumbent_opportunity_cost": "Seven-mana Praetor supplies ongoing enemy edicts and own graveyard recursion, but competes with commander turn.",
+      "commander_synergy": "Four-mana Throne named Zombie doubles other controlled Zombie triggers, including each Thrax sacrifice counter trigger.",
+      "adversarial_downside": "Needs chosen Zombie type and Thrax to remain; does not itself recur dead creatures or force upkeep edicts.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Four-mana Throne named Zombie doubles other controlled Zombie triggers, including each Thrax sacrifice counter trigger. Tradeoff admitted: Needs chosen Zombie type and Thrax to remain; does not itself recur dead creatures or force upkeep edicts.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Verdant Catacombs",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Fetch Swamp or typed dual to correct black plus another needed color, and reduces tapland exposure.",
+      "named_cuts": [
+        "Sulfur Falls"
+      ],
+      "incumbent_opportunity_cost": "Conditionally tapped U/R dual may miss critical early black-pip access.",
+      "commander_synergy": "Fetch Swamp or typed dual to correct black plus another needed color, and reduces tapland exposure.",
+      "adversarial_downside": "Cannot fetch red alone without typed appropriate dual; one life and search denial apply.",
+      "judgment": "SELECT_ADD",
+      "reason": "The selected ten-swap approved source improves the seven-mana attack-sacrifice engine: Fetch Swamp or typed dual to correct black plus another needed color, and reduces tapland exposure. Tradeoff admitted: Cannot fetch red alone without typed appropriate dual; one life and search denial apply.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Bastion of Remembrance",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Three-mana enchantment makes a 1/1 Soldier and drains when our creatures die, competing with existing aristocrat payoffs.",
+      "named_cuts": [
+        "Vona's Hunger"
+      ],
+      "incumbent_opportunity_cost": "Vona's Hunger provides instant forced opposing sacrifices to grow Thrax and can scale with city's blessing.",
+      "commander_synergy": "A durable backup drain effect could profit from our Gravecrawler and Skeleton recursion loops and supply one creature on entry.",
+      "adversarial_downside": "Drains redundantly beside Blood Artist, Zulaport, Marionette and Monument while losing instant forced sacrifice for Thrax.",
+      "judgment": "REJECT",
+      "reason": "Rejected: one more delayed drain enchantment is less unique than Vona's Hunger immediate opposing sacrifice and combat counter growth.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Fabled Passage",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "A basic-land fetch can smooth color development once four lands are present, but it cannot provide Bog's unique graveyard exile.",
+      "named_cuts": [
+        "Bojuka Bog"
+      ],
+      "incumbent_opportunity_cost": "Bojuka Bog enters tapped but exiles one player's graveyard at ETB, denying hostile recursion paths.",
+      "commander_synergy": "Passage finds a relevant basic and can thin the deck, but the fetched basic arrives tapped before the four-land condition.",
+      "adversarial_downside": "Loses graveyard exile and supplies tapped basic early, weakening answer density despite better eventual colors.",
+      "judgment": "REJECT",
+      "reason": "Rejected: a fourth fetch is not worth losing the only Bojuka Bog land-based graveyard answer and early tempo.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    },
+    {
+      "card": "Woe Strider",
+      "source": "Historic full Thraximundar M6 99-slot audit and October 2026 current M7 source-bound commander-first review.",
+      "role": "Three-mana free sacrifice outlet and Goat fodder plus escape, giving supplementary recursion-loop access.",
+      "named_cuts": [
+        "Cultist of the Absolute"
+      ],
+      "incumbent_opportunity_cost": "Cultist of the Absolute grows Thrax, grants evasion and forces sacrifice for repeated +1 counters.",
+      "commander_synergy": "A free sacrifice ability helps Thrax counters and death payoffs if already on battlefield with other creatures.",
+      "adversarial_downside": "Already has free Altars, Carrion Feeder and Bombardment; losing Cultist flying/size undermines commander damage.",
+      "judgment": "REJECT",
+      "reason": "Rejected: adding a redundant free outlet while cutting Cultist's commander-specific flying and power reduces the attack clock.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Thraximundar.md — prior full 99-card historical source role audit",
+        "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — 93 final Oracle identities and current Commander legalities"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Bontu's Monument",
+      "Brotherhood Regalia",
+      "Marionette Apprentice",
+      "Marsh Flats",
+      "Misty Rainforest",
+      "Ophiomancer",
+      "Plumb the Forbidden",
+      "Priest of Forgotten Gods",
+      "Roaming Throne",
+      "Verdant Catacombs"
+    ],
+    "cuts": [
+      "Archfiend of Depravity",
+      "Swiftfoot Boots",
+      "Diregraf Captain",
+      "Dragonskull Summit",
+      "Drowned Catacomb",
+      "Grimgrin, Corpse-Born",
+      "Liliana, Dreadhorde General",
+      "Necrotic Hex",
+      "Sheoldred, Whispering One",
+      "Sulfur Falls"
+    ],
+    "coherent_package_tradeoff": "Ten owner-approved genuine one-for-one swaps lower slow 5-7 mana sacrifice top-end into cheap repeatable engines and real fetches, replacing Boots haste with Regalia protection/evasion for the native-haste commander. All 36 land slots remain, original Zombie/Altars/Rooftop plan protected."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Archfiend of Depravity",
+        "weakness": "Five-mana end-step creature limiter is slower and less direct for cheap recurring Zombie casts.",
+        "alternative_named": "Bontu's Monument",
+        "reasoning": "The approved challenger Bontu's Monument brings Black creature discount and any creature cast drain turns Gravecrawler loops into opponent life-loss while easing Thrax-colored setup. The cost remains Loses flying board-pressure ceiling and independent opposing sacrifice each end step; requires creature casting."
+      },
+      {
+        "card": "Swiftfoot Boots",
+        "weakness": "Two-mana boots with equip one give hexproof and haste, but Thraximundar already has native haste.",
+        "alternative_named": "Brotherhood Regalia",
+        "reasoning": "The approved challenger Brotherhood Regalia brings One-mana legendary equip grants unblockable and ward two to make seven-mana Thrax connect repeatedly. The cost remains Ward is weaker than hexproof against targeted removal if the attacker has available mana; no emergency haste for support bodies."
+      },
+      {
+        "card": "Diregraf Captain",
+        "weakness": "Captain's three-color Zombie anthem/drain is good but three mana and restricted to Zombies dying.",
+        "alternative_named": "Marionette Apprentice",
+        "reasoning": "The approved challenger Marionette Apprentice brings Apprentice makes a Servo or counter and drains when another owned creature or artifact dies, covering Treasure and Zombie loops. The cost remains Its own death does not trigger itself and it does not anthem Zombies; needs sacrifice/graveyard churn."
+      },
+      {
+        "card": "Dragonskull Summit",
+        "weakness": "Conditionally tapped dual can delay commander UBR when no Swamp/Mountain is controlled.",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "The approved challenger Marsh Flats brings Fetch basic Swamp or typed Underground Sea/Badlands into play, improving timely black/blue/red access. The cost remains Fetch costs one life and is susceptible to land-search denial; land availability must be legal."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Conditional dual may enter tapped without prior Island/Swamp.",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "The approved challenger Misty Rainforest brings Fetch Island/Swamp typed duals or basic Island to increase untapped color access and shuffle. The cost remains Fetch requires valid land type target and one life, not infinite tri-color access."
+      },
+      {
+        "card": "Grimgrin, Corpse-Born",
+        "weakness": "Five-mana self-growth Zombie untap-sac engine competes with costly commander deployment.",
+        "alternative_named": "Ophiomancer",
+        "reasoning": "The approved challenger Ophiomancer brings Three-mana Snake token each upkeep when no Snake exists supplies ongoing zero-investment sacrifice fodder. The cost remains Snake is not a Zombie and only makes one at a time while another Snake remains; removal shuts off engine."
+      },
+      {
+        "card": "Liliana, Dreadhorde General",
+        "weakness": "Six-mana planeswalker provides broad grind value but starts late compared with fast sacrifice turns.",
+        "alternative_named": "Plumb the Forbidden",
+        "reasoning": "The approved challenger Plumb the Forbidden brings Two-mana instant sacrifices multiple bodies as optional cost to copy a draw spell, yielding source-paid cards and Thrax counters. The cost remains Consumes own fodder and life; copy counts require actual paid sacrifices; loses recurring planeswalker draw/wrath."
+      },
+      {
+        "card": "Necrotic Hex",
+        "weakness": "Seven-mana mass-sacrifice sorcery is powerful but cannot repeatedly feed commander growth early.",
+        "alternative_named": "Priest of Forgotten Gods",
+        "reasoning": "The approved challenger Priest of Forgotten Gods brings Two-mana Priest trades two spare bodies for forced player sacrifices, BB and a card, feeding Thrax and drain engines. The cost remains Needs two other creatures, tap-ready Priest and legal targets; mass-wide answer is lost."
+      },
+      {
+        "card": "Sheoldred, Whispering One",
+        "weakness": "Seven-mana Praetor supplies ongoing enemy edicts and own graveyard recursion, but competes with commander turn.",
+        "alternative_named": "Roaming Throne",
+        "reasoning": "The approved challenger Roaming Throne brings Four-mana Throne named Zombie doubles other controlled Zombie triggers, including each Thrax sacrifice counter trigger. The cost remains Needs chosen Zombie type and Thrax to remain; does not itself recur dead creatures or force upkeep edicts."
+      },
+      {
+        "card": "Sulfur Falls",
+        "weakness": "Conditionally tapped U/R dual may miss critical early black-pip access.",
+        "alternative_named": "Verdant Catacombs",
+        "reasoning": "The approved challenger Verdant Catacombs brings Fetch Swamp or typed dual to correct black plus another needed color, and reduces tapland exposure. The cost remains Cannot fetch red alone without typed appropriate dual; one life and search denial apply."
+      },
+      {
+        "card": "Vona's Hunger",
+        "weakness": "A three-mana instant edict is less permanent card advantage than a resilient death-drain enchantment.",
+        "alternative_named": "Bastion of Remembrance",
+        "reasoning": "Retain: can force sacrifice at opponent priority before Thrax attacks, and City's Blessing potentially expands edict scope; already many drain payoffs."
+      },
+      {
+        "card": "Bojuka Bog",
+        "weakness": "Enters tapped and is poor at immediate colored tempo compared with an additional fetchland.",
+        "alternative_named": "Fabled Passage",
+        "reasoning": "Retain: graveyard exile effect is unique land-slot interaction; Passage fetches tapped early and cannot replace that graveyard-hate insurance."
+      }
+    ],
+    "off_ranked_opportunities": "Three extra outside-ranked alternatives Bastion, Woe Strider and Fabled Passage were challenged against actual current core roles and rejected on specific commander-first costs.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Bastion of Remembrance",
+          "Fabled Passage"
+        ],
+        "cuts": [
+          "Vona's Hunger",
+          "Bojuka Bog"
+        ],
+        "result_and_rationale": "Rejected: persistent drain duplicates existing payoffs while sacrificing immediate edict/counter growth and unique one-land graveyard answer; Passage taps early."
+      },
+      {
+        "adds": [
+          "Woe Strider",
+          "Bastion of Remembrance"
+        ],
+        "cuts": [
+          "Cultist of the Absolute",
+          "Vona's Hunger"
+        ],
+        "result_and_rationale": "Rejected: another free sacrifice outlet and passive drain replicate existing Altars/Bombardment/Blood Artist but lose flying/size damage clock and instant edict."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Retaining Vona's Hunger over Bastion, Cultist over Woe Strider and Bog over Fabled Passage prevents erosion of forced sacrifice, commander damage and independent graveyard hate.",
+    "strongest_argument_against_baseline": "The original M6 KEEP evaluated its approved 100 correctly; only a later owner-authorized larger change package can revise its unique role balance without treating historic proxy outcomes as causal proof.",
+    "evidence_based_answer": "Reweighted 99 library slots favour Bontu's Monument/Marionette for paid loop finish, Regalia for Thrax contact, Ophiomancer/Priest/Plumb for low-curve sacrifice, Throne for specific Zombie triggers and three legal typed fetches for better UBR deployment."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Thraximundar_chatgpt_m7_approved_rev1.txt",
+    "sha256": "f3e71b71fc10fbe6d8a1afde29b5291e9e32d4e83db44c2dcb7aab0773f18da2",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exactly owner-exported commander-first raw 100, 93 distinct, 36 lands; basics Island3 Mountain2 Swamp5 only repeated, seven nonland cards and three fetches among ten 1:1 changes; no commander replacement."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json — exact-93 current Oracle and Commander legalities, no exceptions.",
+      "data/grixis/m7/thraximundar_rev1/m6_p0_followup.py — five bounded original C/K/F P0, no formal Phase B.",
+      "data/grixis/m6/deep_reviews/Thraximundar.md — historical 99-slot audit and role tradeoffs."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Sacrifice Edicts",
+      "Zombie Aristocrats",
+      "Commander Damage"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After ten changes the remaining 99 slot checks challenged the retained edict core, protective Cultist, independent graveyard hate Bojuka Bog, numerous free sac outlets and the two recursion lines. The exact revised 100 preserves all original unique jobs while the three extra outside-ranked material candidates fail on commander-specific alternatives.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Vona's Hunger",
+        "challenger": "Bastion of Remembrance",
+        "tradeoff": "Bastion provides one more resilient death-drain enchantment and sacrificial body but loses instant forced opponent creature sacrifice that directly grows Thrax through the attack/edict plan.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Bojuka Bog",
+        "challenger": "Fabled Passage",
+        "tradeoff": "An extra fetch improves color access but enters tapped for early basics, and removing the only Bog land loses important graveyard exile that can stop opposing recursion/combo.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "Two separate larger packages were tested as decision alternatives but rejected before changing another physical decklist. Bastion over Vona's Hunger duplicates four drain effects while losing forced sacrificial edict timing; Fabled Passage over Bojuka Bog changes unique graveyard denial into a tapped-basic fetch; Woe Strider over Cultist replaces high-value commander flying and growing attack pressure with another free outlet when four such outlets remain. Without better payable role evidence no seventh extra or twelfth swap is a genuine improvement.",
+    "quality_based_stop_reason": "Ten replacements were selected because each addresses a source-specific cost or synergy gap, not because ten was a quota. Current exact 100 preserves 36-land UBR access, all sacrifice/recursion combo pillars and independent graveyard/instant interaction. After revisiting Bastion, Woe Strider and Fabled Passage plus retained Vona's Hunger, Cultist and Bog, larger packages remove forced sacrifice, evasion/damage clock or graveyard answer for redundant drain/outlet/land fixing. No unexecuted multiplayer win rate is asserted."
+  }
+}
