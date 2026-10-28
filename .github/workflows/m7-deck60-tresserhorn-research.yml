@@ -26,6 +26,8 @@ jobs:
         run: python3 data/grixis/m7/tresserhorn_returned_rev1/m6_p0_followup.py
       - name: Execute ten changed-context M6 P1 finite cases
         run: python3 data/grixis/m7/tresserhorn_returned_rev1/m6_p1_followup.py
+      - name: Compare Rev1 and Alt5 in four finite named starting states
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py
       # This is a research-check workflow, not an M7 owner-ready certificate.
       # Fresh complete Oracle, I/J scope mapping, M7 decision gate and owner
       # approval are separate mandatory steps and are NOT asserted here.
