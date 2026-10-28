@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sauron__the_Dark_Lord",
+  "stage": "M6_M7_REV1_CANDIDATE_SCOPED_CASE_TRANSFER_AND_I_J_ADJUDICATION",
+  "date": "2026-10-27_America_Chicago",
+  "baseline_approved_raw_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+  "candidate_raw_sha256": "266660c6a3241c07a052da7624366be1f9617cb5db4c35c422b0e8f828977d9b",
+  "canonical_writes": false,
+  "owner_m7_approval": false,
+  "formal_m6_10_owner_acceptance": false,
+  "scope": "Candidate-scoped finite exact-100 P0/P1 transfer and I/J tested-pool local choice. Historical M6 I/J input receipt is only an attestation, not a sealed independent A/B C + Phase B replay. No outcome probabilities, general-stack completeness, universal rules engine, or global optimum are claimed.",
+  "original_cases": {
+    "blueprint": "data/grixis/m6/test_blueprints/Sauron__the_Dark_Lord.json",
+    "total": 15,
+    "P0": [
+      "C1",
+      "K1",
+      "K2",
+      "K3",
+      "F1"
+    ],
+    "P1": [
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "E1",
+      "E2",
+      "W1",
+      "W2",
+      "F2",
+      "F3"
+    ],
+    "historical_execution": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN (preserved unchanged)"
+  },
+  "new_candidate_tests": {
+    "source": "tests/test_m6_sauron_dark_lord_m7_rev1_cases.py",
+    "expected_exact_candidate_raw_sha256": "266660c6a3241c07a052da7624366be1f9617cb5db4c35c422b0e8f828977d9b",
+    "case_count": 15,
+    "extra_changed_discard_case_count": 1,
+    "local_result": "PASS 16/16 via python3 -m unittest discover -s tests -p 'test_m6_sauron_dark_lord_m7_rev1_cases.py' -v",
+    "ci_result": "PENDING EXACT HEAD",
+    "case_ids": [
+      "C1",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "E1",
+      "E2",
+      "W1",
+      "W2",
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "substantive_coverage": "Explicit mana payment and costs, independent spell and triggered-effect stack, original spell countered after Sauron trigger, battlefield/graveyard/exile, commander absence, exact Army counters and seven Nazgul waves, source-changing type with Throne, removal and sweeper adversaries, opponent life, hand refill, finite three-opponent and three-upkeep states."
+  },
+  "corrected_case_K5": "Arcane Adaptation chooses Wraith, thereby changing the Army and Sauron, The Great Goblin and all other controlled creatures into Wraiths. Roaming Throne choosing Wraith doubles both Sauron's triggering and each Nazgul's, and Goblin's trigger when applicable. The old claim that Avatar and Wraith double effects are strictly exclusive is false with Adaptation in play.",
+  "changed_card_transfer": "W2's older Widespread Brutality source was cut; new W2 uses actual Lazotep Plating amass then records Great Goblin's target-opponent -2 per eligible event, with +Throne Wraith under Adaptation. F3's The Ozolith was cut and the new test proves no token or counters are preserved in its absence. Glint/Bone/Moonstone reset zone and effect test is separately run.",
+  "tested_pool": [
+    {
+      "name": "selected_ten",
+      "path": "data/grixis/m7/candidate_lists/Sauron__the_Dark_Lord_M7_Rev1.txt",
+      "sha256": "266660c6a3241c07a052da7624366be1f9617cb5db4c35c422b0e8f828977d9b",
+      "swaps": 10,
+      "disposition": "PROVISIONAL_FOR_OWNER_EXACT_SHA_APPROVAL",
+      "why": "Best tradeoff between Army-Wraith type bridging, lower-cost Ring events, discard reset payoffs and preserved thematic engines."
+    },
+    {
+      "name": "twelve_extended",
+      "path": "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_alt12.txt",
+      "sha256": "093ca97894cf29774505b7d97eccaf29f5b2fbb7ab6e39cda2bdf6876cebb9e7",
+      "swaps": 12,
+      "disposition": "RETAIN_ALTERNATIVE",
+      "why": "Fellwar/Cover improve some opening/evasion states but lose colored Relic discard outlet and independent Orcish Siegemaster."
+    },
+    {
+      "name": "early_ring",
+      "path": "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_alt_early_ring.txt",
+      "sha256": "ae88c6e4885a23100380b6691eadaefd9cb643d35c4e765231aeeba978927991",
+      "swaps": 10,
+      "disposition": "RETAIN_ALTERNATIVE",
+      "why": "Gollum and Sam encourage lower curve Ring tempo but lose Moonstone and Bone Miser repeatable discarded card value."
+    }
+  ],
+  "limitations": [
+    "Oracle/card legality source comes from exact full-name live Scryfall runner, not an offline universal database.",
+    "Finite scripts do not test random opponent decks or statistically estimate win percentages.",
+    "Historical accepted M5 corpus, independent sealed Pass A/B/C and Phase B original input replay are not reproduced; do not describe them as passing.",
+    "Card effects outside the fifteen named source cases are reviewed qualitatively but not exhaustively run as full matches."
+  ],
+  "evidence": [
+    "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md",
+    "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+    "data/grixis/m7/decision_reviews/Sauron__the_Dark_Lord_rev1.json",
+    "https://github.com/corymstover/GrokBotMTGCompanion/pull/731"
+  ],
+  "status": "CANDIDATE_SCOPED_P0_P1_EXECUTED_I_J_LOCAL_CHOICE_CI_PENDING_NO_HISTORICAL_REPLAY",
+  "owner_action": "When the exact-head 16 cases, live Scryfall 91-name check and M7 decision gate all pass, present the exact candidate list and SHA to Cory once. Do not touch the current approved canonical record until his direct approval."
+}

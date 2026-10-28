@@ -1,0 +1,41 @@
+name: "M7 Deck 60 Tresserhorn exact-head research"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Tresserhorn_s_Lord__Returned_M7_Rev1*.txt"
+      - "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md"
+      - "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_rev1.json"
+      - "data/grixis/m7/tresserhorn_returned_rev1/**"
+      - "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      - ".github/workflows/m7-deck60-tresserhorn-research.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-head-research-only:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pin approved source, full-100 research candidate, Alt5 and Alt9
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/verify.py
+      - name: Verify consent-authorized current Scryfall Oracle for exact Rev1 100
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/verify_live.py
+      - name: Execute five exact-source M6 P0 finite cases
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/m6_p0_followup.py
+      - name: Execute ten changed-context M6 P1 finite cases
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/m6_p1_followup.py
+      - name: Compare Rev1 and Alt5 in four finite named starting states
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py
+      - name: Install formal M7 packet schema dependency
+        run: python3 -m pip install jsonschema
+      - name: Fail-closed exact-source full M7 decision-review structural gate
+        run: python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_rev1.json
+      # Bounded original M6 P0/P1 and structural M7 decision evidence do not
+      # imply independent M6 I/J Phase B or statistical multiplayer outcomes.
+      # The separately pinned owner-approval receipt is NOT a certification bypass.

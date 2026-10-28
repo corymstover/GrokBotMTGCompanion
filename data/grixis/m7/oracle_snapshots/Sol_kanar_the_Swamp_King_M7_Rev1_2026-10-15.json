@@ -1,0 +1,864 @@
+{
+  "source": "corymstover/GrokBotMTGCompanion data/card_index.csv Scryfall oracle_cards bulk",
+  "source_blob_sha": "c84463e9fa4708165027404d4ca54af5dcf5774b",
+  "oracle_bulk_date": "2026-10-15",
+  "candidate_sha256": "2bd99c569df4a86897bca0164d2a1fa309b92f8b721e406b8394dfb04b1239e3",
+  "claims": "Archived October 15 Scryfall source, not a fresh Oct27 bulk sweep; M7 Rev1 six swaps after mana challenge.",
+  "cards": [
+    {
+      "name": "Sol'kanar the Swamp King",
+      "count": 1,
+      "oracle_id": "b8aac8e8-4588-4cb9-8b95-5c4abab1c48b",
+      "color_identity": "BRU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Creature — Demon"
+    },
+    {
+      "name": "Aetherflux Reservoir",
+      "count": 1,
+      "oracle_id": "5f15125e-ae89-471e-b055-226a783bc7c1",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Necropotence",
+      "count": 1,
+      "oracle_id": "94a844d2-0574-45a7-b347-e0e329767c42",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Ancient Tomb",
+      "count": 1,
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Land"
+    },
+    {
+      "name": "Arcane Signet",
+      "count": 1,
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Badlands",
+      "count": 1,
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Swamp Mountain"
+    },
+    {
+      "name": "Baleful Strix",
+      "count": 1,
+      "oracle_id": "37688720-03de-4eca-a82d-a0afe8d58adc",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact Creature — Bird"
+    },
+    {
+      "name": "Beseech the Mirror",
+      "count": 1,
+      "oracle_id": "cbbe535b-12d6-4e6c-8b26-9220f06a1604",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Black Market Connections",
+      "count": 1,
+      "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Blanket of Night",
+      "count": 1,
+      "oracle_id": "10e95489-a94d-4523-964c-ec9753103a62",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Fell the Profane // Fell Mire",
+      "count": 1,
+      "oracle_id": "053a69d8-2b5e-4f14-8b02-ca405891dc4a",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant // Land"
+    },
+    {
+      "name": "Blood Crypt",
+      "count": 1,
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Swamp Mountain"
+    },
+    {
+      "name": "Bloodchief Ascension",
+      "count": 1,
+      "oracle_id": "d5ea905b-4bb6-48d0-9082-c472703db550",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Hatred",
+      "count": 1,
+      "oracle_id": "40601061-1b25-4db8-8b99-33324ce945cf",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Bloodstained Mire",
+      "count": 1,
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Bloodthirsty Conqueror",
+      "count": 1,
+      "oracle_id": "fd505c02-c59e-476d-8e88-35da862ddc23",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Vampire Knight"
+    },
+    {
+      "name": "Bojuka Bog",
+      "count": 1,
+      "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Bolas's Citadel",
+      "count": 1,
+      "oracle_id": "2bd111bb-ce02-414c-b5b7-e0e037d8d96b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Legendary Artifact"
+    },
+    {
+      "name": "Rowan, Scion of War",
+      "count": 1,
+      "oracle_id": "333c15c6-c8fd-4cdd-89d2-06b921edeb8b",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Creature — Human Wizard"
+    },
+    {
+      "name": "Cabal Coffers",
+      "count": 1,
+      "oracle_id": "7358e164-5704-4e78-9b21-6a9bf2a968ce",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Chrome Mox",
+      "count": 1,
+      "oracle_id": "ec3d4466-547c-4e02-b1b5-a156ec4637e9",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "City of Brass",
+      "count": 1,
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Command Tower",
+      "count": 1,
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Consuming Corruption",
+      "count": 1,
+      "oracle_id": "3bc0bd36-70be-4180-9fb3-b10ce054107b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Counterspell",
+      "count": 1,
+      "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Crypt Ghast",
+      "count": 1,
+      "oracle_id": "a3c8d817-7949-4dae-b9f5-f9d952479270",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Spirit"
+    },
+    {
+      "name": "Cyclonic Rift",
+      "count": 1,
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Dark Ritual",
+      "count": 1,
+      "oracle_id": "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Deadly Rollick",
+      "count": 1,
+      "oracle_id": "0456ec64-2c81-4763-a352-8ff64a4c3d6b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Deflecting Swat",
+      "count": 1,
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "color_identity": "R",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Demon's Horn",
+      "count": 1,
+      "oracle_id": "ee38377f-8d3a-402e-a5d7-a01cfe3a5322",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Demonic Tutor",
+      "count": 1,
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Yawgmoth's Will",
+      "count": 1,
+      "oracle_id": "322f0459-f394-44f0-977b-55fd0cbe0712",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Raucous Theater",
+      "count": 1,
+      "oracle_id": "04e5e84f-8fd4-43ab-8f9d-5b24646f7ae5",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Swamp Mountain"
+    },
+    {
+      "name": "Dread Presence",
+      "count": 1,
+      "oracle_id": "1690a782-9e54-4231-9a72-abae5ed7050c",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Nightmare"
+    },
+    {
+      "name": "Undercity Sewers",
+      "count": 1,
+      "oracle_id": "08d80efc-9542-4ba2-824c-c8615d8d07f2",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Swamp"
+    },
+    {
+      "name": "Enduring Tenacity",
+      "count": 1,
+      "oracle_id": "98e698ae-1a69-469c-9cfb-0e3fedeb71d4",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment Creature — Snake Glimmer"
+    },
+    {
+      "name": "Exquisite Blood",
+      "count": 1,
+      "oracle_id": "8f933fae-6c0c-42d7-a817-14760d8285cd",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Exsanguinate",
+      "count": 1,
+      "oracle_id": "8164b1e8-3350-465e-8a17-75f57d326344",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Withering Torment",
+      "count": 1,
+      "oracle_id": "ffce81c5-1b58-4882-a4e7-6f8d7cb170de",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "The Soul Stone",
+      "count": 1,
+      "oracle_id": "92cfba68-12f6-4f97-9187-0f6a39656a0f",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Artifact — Infinity Stone"
+    },
+    {
+      "name": "Fierce Guardianship",
+      "count": 1,
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Flooded Strand",
+      "count": 1,
+      "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Gray Merchant of Asphodel",
+      "count": 1,
+      "oracle_id": "38f3b157-0df4-409b-89cc-086e1531cd5b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Zombie"
+    },
+    {
+      "name": "Grindstone",
+      "count": 1,
+      "oracle_id": "97560adc-814e-450c-9ca7-f9364e910a0b",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Imperial Seal",
+      "count": 1,
+      "oracle_id": "16cd0b90-f70c-4efa-b252-8de8784ef9a3",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Jeska's Will",
+      "count": 1,
+      "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+      "color_identity": "R",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Jet Medallion",
+      "count": 1,
+      "oracle_id": "bccb06f1-8839-4104-9ffa-c79a817f8378",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "K'rrik, Son of Yawgmoth",
+      "count": 1,
+      "oracle_id": "cbe3a4e7-5dbe-4f58-8ee6-a1762b65acfd",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Creature — Phyrexian Horror Minion"
+    },
+    {
+      "name": "Lotus Petal",
+      "count": 1,
+      "oracle_id": "32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Luxury Suite",
+      "count": 1,
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Mana Confluence",
+      "count": 1,
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Mana Drain",
+      "count": 1,
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Mana Vault",
+      "count": 1,
+      "oracle_id": "736892cb-a34b-4bb9-b56c-e26e3db207a2",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Marauding Blight-Priest",
+      "count": 1,
+      "oracle_id": "814b87fe-2a75-4ff2-8637-7e69e3fb285b",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Vampire Cleric"
+    },
+    {
+      "name": "Marsh Flats",
+      "count": 1,
+      "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Misty Rainforest",
+      "count": 1,
+      "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Morphic Pool",
+      "count": 1,
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Mox Diamond",
+      "count": 1,
+      "oracle_id": "f3c5978a-70fa-431f-933b-b954bd0db0ea",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Mystic Remora",
+      "count": 1,
+      "oracle_id": "8a52f3c0-2552-4425-b2e3-5496eb2232a7",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "count": 1,
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Land"
+    },
+    {
+      "name": "Painter's Servant",
+      "count": 1,
+      "oracle_id": "baf93873-35e6-4bf2-bdcc-78a5206422fb",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact Creature — Scarecrow"
+    },
+    {
+      "name": "Polluted Delta",
+      "count": 1,
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Rakdos Charm",
+      "count": 1,
+      "oracle_id": "5e62b51d-faec-4aa0-9504-cf2c282d08ea",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Rakdos Signet",
+      "count": 1,
+      "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Rhystic Study",
+      "count": 1,
+      "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Enchantment"
+    },
+    {
+      "name": "Scalding Tarn",
+      "count": 1,
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Sensei's Divining Top",
+      "count": 1,
+      "oracle_id": "13575cf9-65c1-4861-b21e-eb2155e07766",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Sheoldred, the Apocalypse",
+      "count": 1,
+      "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Creature — Phyrexian Praetor"
+    },
+    {
+      "name": "Smoldering Marsh",
+      "count": 1,
+      "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Swamp Mountain"
+    },
+    {
+      "name": "Sol Ring",
+      "count": 1,
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Starscape Cleric",
+      "count": 1,
+      "oracle_id": "8d72ddb3-ef6e-4847-b6d4-5d85b1dd5802",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Bat Cleric"
+    },
+    {
+      "name": "Steam Vents",
+      "count": 1,
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "color_identity": "RU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Mountain"
+    },
+    {
+      "name": "Sunken Hollow",
+      "count": 1,
+      "oracle_id": "cd2c90ac-2b04-461c-92f3-939871b6b6a3",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Swamp"
+    },
+    {
+      "name": "Swamp",
+      "count": 6,
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Basic Land — Swamp"
+    },
+    {
+      "name": "Swan Song",
+      "count": 1,
+      "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "count": 1,
+      "oracle_id": "ac2dd694-d2f1-4025-8400-12332bdc882a",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Land"
+    },
+    {
+      "name": "Bubbling Muck",
+      "count": 1,
+      "oracle_id": "3c7f2b29-9f42-41ab-a2d4-7a450fb0242d",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Talisman of Dominance",
+      "count": 1,
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "count": 1,
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "color_identity": "BR",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Artifact"
+    },
+    {
+      "name": "The One Ring",
+      "count": 1,
+      "oracle_id": "3aa83ed2-f48b-4ce6-a614-2c54ddf50538",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Legendary Artifact"
+    },
+    {
+      "name": "Torment of Hailfire",
+      "count": 1,
+      "oracle_id": "30a0a6c2-1fbb-4784-ab96-22611d57e62c",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Toxic Deluge",
+      "count": 1,
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Training Center",
+      "count": 1,
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "color_identity": "RU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land"
+    },
+    {
+      "name": "Underground Sea",
+      "count": 1,
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Swamp"
+    },
+    {
+      "name": "Orcish Bowmasters",
+      "count": 1,
+      "oracle_id": "ea5103f5-27e0-4eb1-902c-7f34652d6bf3",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Creature — Orc Archer"
+    },
+    {
+      "name": "Urborg, Tomb of Yawgmoth",
+      "count": 1,
+      "oracle_id": "db6174d7-211d-4817-b8e4-8384594c83f9",
+      "color_identity": "C",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Land"
+    },
+    {
+      "name": "Vampiric Tutor",
+      "count": 1,
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": true,
+      "type_line": "Instant"
+    },
+    {
+      "name": "Vito, Thorn of the Dusk Rose",
+      "count": 1,
+      "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Legendary Creature — Vampire Cleric"
+    },
+    {
+      "name": "Volcanic Island",
+      "count": 1,
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "color_identity": "RU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Mountain"
+    },
+    {
+      "name": "Watery Grave",
+      "count": 1,
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "color_identity": "BU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Swamp"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "count": 1,
+      "oracle_id": "a8abd966-de7b-46a3-8ac7-8747ab35653a",
+      "color_identity": "R",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Windfall",
+      "count": 1,
+      "oracle_id": "08becc07-28bc-4a2f-a6b0-28a2998d2f50",
+      "color_identity": "U",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Sorcery"
+    },
+    {
+      "name": "Witch of the Moors",
+      "count": 1,
+      "oracle_id": "7ad97dd9-1342-4ed4-bea9-1bb21d748e04",
+      "color_identity": "B",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Creature — Human Warlock"
+    },
+    {
+      "name": "Xander's Lounge",
+      "count": 1,
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "color_identity": "BRU",
+      "commander_legality": "legal",
+      "game_changer": false,
+      "type_line": "Land — Island Swamp Mountain"
+    }
+  ]
+}

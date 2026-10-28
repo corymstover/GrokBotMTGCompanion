@@ -1,0 +1,3059 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "95-5080",
+    "uses": [
+     "Bruvac the Grandiloquent",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Infinite mill"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "5080-6285",
+    "uses": [
+     "Riverchurn Monument",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Infinite mill"
+    ]
+   },
+   {
+    "id": "936-5069",
+    "uses": [
+     "Duskmantle Guildmage",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Each opponent loses the game",
+     "Infinite mill",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "5069-5080",
+    "uses": [
+     "Duskmantle Guildmage",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Each opponent loses the game",
+     "Near-infinite lifeloss",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "95-1022",
+    "uses": [
+     "Bruvac the Grandiloquent",
+     "Lord Xander, the Collector"
+    ],
+    "produces": [
+     "Infinite mill for target opponent"
+    ]
+   },
+   {
+    "id": "1022-6285",
+    "uses": [
+     "Riverchurn Monument",
+     "Lord Xander, the Collector"
+    ],
+    "produces": [
+     "Infinite mill for target opponent"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 132,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "936-1290",
+    "uses": [
+     "Bloodchief Ascension",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Infinite mill",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "147-5487",
+    "uses": [
+     "Dualcaster Mage",
+     "Molten Duplication"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite creature tokens with haste",
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "1692-2105",
+    "uses": [
+     "Combat Celebrant",
+     "Helm of the Host"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite creature ETB",
+     "Infinite mana creatures you control can produce",
+     "Infinite tapped creature tokens",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "95-5080",
+    "uses": [
+     "Bruvac the Grandiloquent",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Infinite mill"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "5080-6285",
+    "uses": [
+     "Riverchurn Monument",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Infinite mill"
+    ]
+   },
+   {
+    "id": "936-5069",
+    "uses": [
+     "Duskmantle Guildmage",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Each opponent loses the game",
+     "Infinite mill",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "5069-5080",
+    "uses": [
+     "Duskmantle Guildmage",
+     "Maddening Cacophony"
+    ],
+    "produces": [
+     "Each opponent loses the game",
+     "Near-infinite lifeloss",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "95-1022",
+    "uses": [
+     "Bruvac the Grandiloquent",
+     "Lord Xander, the Collector"
+    ],
+    "produces": [
+     "Infinite mill for target opponent"
+    ]
+   },
+   {
+    "id": "1022-6285",
+    "uses": [
+     "Riverchurn Monument",
+     "Lord Xander, the Collector"
+    ],
+    "produces": [
+     "Infinite mill for target opponent"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 131,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "936-1290",
+    "uses": [
+     "Bloodchief Ascension",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Infinite mill",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "147-5487",
+    "uses": [
+     "Dualcaster Mage",
+     "Molten Duplication"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite creature tokens with haste",
+     "Infinite magecraft triggers"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "1692-2105",
+    "uses": [
+     "Combat Celebrant",
+     "Helm of the Host"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite creature ETB",
+     "Infinite mana creatures you control can produce",
+     "Infinite tapped creature tokens",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Lord_Xander__the_Collector_PassC_plus_GoryosVengeance_minus_Persist_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 128,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_PassC_plus_SeizeTheDay_minus_Karlach_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 132,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_alt_A_owner_keeps_Necromancy_minus_Karlach_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 132,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_alt_B_owner_keeps_Necromancy_minus_AnOfferYouCantRefuse_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 132,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_rejected_plus_ChromeMox_minus_TalismanOfCreativity_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 131,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_rejected_plus_CommandBeacon_minus_XandersLounge_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 131,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_staged_plus_KikiJiki_minus_Karlach_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "618-1692",
+     "uses": [
+      "Kiki-Jiki, Mirror Breaker",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite tapped creature tokens",
+      "Infinite tapped creature tokens until end of turn"
+     ]
+    },
+    {
+     "id": "618-3908",
+     "uses": [
+      "Kiki-Jiki, Mirror Breaker",
+      "Spark Double"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite tapped creature tokens until end of turn"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "618-5361",
+     "uses": [
+      "Kiki-Jiki, Mirror Breaker",
+      "Auton Soldier"
+     ],
+     "produces": [
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers",
+      "Infinite tapped creature tokens until end of turn"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 184,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "618-1537",
+     "uses": [
+      "Kiki-Jiki, Mirror Breaker",
+      "Zealous Conscripts"
+     ],
+     "produces": [
+      "Infinite creature tokens with haste",
+      "Infinite death triggers",
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite creature sacrifice triggers"
+     ]
+    }
+   ]
+  },
+  "Lord_Xander__the_Collector_rejected_plus_GlasspoolMimic_minus_TrainingCenter_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "95-5080",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "900-3750",
+     "uses": [
+      "Sword of Feast and Famine",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite combat phases"
+     ]
+    },
+    {
+     "id": "5080-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Infinite mill"
+     ]
+    },
+    {
+     "id": "936-5069",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Infinite mill",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "5069-5080",
+     "uses": [
+      "Duskmantle Guildmage",
+      "Maddening Cacophony"
+     ],
+     "produces": [
+      "Each opponent loses the game",
+      "Near-infinite lifeloss",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "95-1022",
+     "uses": [
+      "Bruvac the Grandiloquent",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    },
+    {
+     "id": "1022-6285",
+     "uses": [
+      "Riverchurn Monument",
+      "Lord Xander, the Collector"
+     ],
+     "produces": [
+      "Infinite mill for target opponent"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 137,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "147-5487",
+     "uses": [
+      "Dualcaster Mage",
+      "Molten Duplication"
+     ],
+     "produces": [
+      "Infinite creature LTB",
+      "Infinite creature ETB",
+      "Infinite creature sacrifice triggers",
+      "Infinite death triggers",
+      "Infinite creature tokens with haste",
+      "Infinite magecraft triggers"
+     ]
+    },
+    {
+     "id": "3750-5039",
+     "uses": [
+      "The Reaver Cleaver",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Infinite artifact ETB",
+      "Infinite artifact LTB",
+      "Infinite artifact sacrifice triggers",
+      "Infinite artifact tokens",
+      "Infinite colored mana",
+      "Infinite combat damage",
+      "Infinite combat phases",
+      "Infinite mana creatures you control can produce",
+      "Infinite Treasure tokens",
+      "Infinite untap of creatures you control"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "147-500",
+     "uses": [
+      "Dualcaster Mage",
+      "Saw in Half"
+     ],
+     "produces": [
+      "Infinite creature tokens",
+      "Infinite creature ETB",
+      "Infinite magecraft triggers",
+      "Infinite creature LTB",
+      "Infinite death triggers"
+     ]
+    },
+    {
+     "id": "778-3750",
+     "uses": [
+      "Ancient Copper Dragon",
+      "Aggravated Assault"
+     ],
+     "produces": [
+      "Near-infinite colored mana",
+      "Near-infinite combat damage",
+      "Near-infinite Treasure tokens",
+      "Near-infinite combat phases",
+      "Near-infinite untap of creatures you control",
+      "Near-infinite mana creatures you control can produce"
+     ]
+    },
+    {
+     "id": "1692-2105",
+     "uses": [
+      "Combat Celebrant",
+      "Helm of the Host"
+     ],
+     "produces": [
+      "Infinite combat phases",
+      "Infinite creature ETB",
+      "Infinite mana creatures you control can produce",
+      "Infinite tapped creature tokens",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T17:15:02-0500"
+}

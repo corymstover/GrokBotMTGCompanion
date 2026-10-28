@@ -104,10 +104,15 @@ class AbaddonLiveOracleOfflineContract(unittest.TestCase):
         self.assertEqual(set(evidence),self.names)
         self.assertEqual(evidence["The Lost and the Damned"]["mana_value"],3)
         self.assertEqual(evidence["Call Forth the Tempest"]["mana_value"],8)
+        # A newly indexed Scryfall printing can report games=[] while
+        # the card name already has independent paper provenance.
+        paper_legal_with_future_printing={n:dict(c) for n,c in cards.items()}
+        paper_legal_with_future_printing["Keeper of Secrets"]["games"]=[]
+        self.assertEqual(set(assess(paper_legal_with_future_printing,self.variants)),self.names)
         for name,field,val in (
             ("Chaos Warp","color_identity",["G"]),
             ("Inevitable Betrayal","legalities",{"commander":"banned"}),
-            ("Keeper of Secrets","games",[]),
+            ("Keeper of Secrets","games","malformed"),
             ("Grinning Ignus","oracle_id",None),
             ("Call Forth the Tempest","oracle_text","No cascade here"),
         ):

@@ -33,7 +33,7 @@ schema: 2
 
 Norman Osborn // Green Goblin is a modal double-faced card that transforms. Norman connives on unblockable hits. Green Goblin gives every nonland card in your graveyard mayhem and discounts graveyard casts by {2}. The canonical list (source baseline) floods the graveyard with discard outlets (LED, Breakthrough, Attunement, Artist's Talent, Dark Deal), uses flash enablers for off-turn mayhem, and closes with Thassa's Oracle and Underworld Breach. All 7 Spellbook lines are present.
 
-Rules surprises: mayhem only needs a discard earlier this turn, even before the transform; Yawgmoth's Will exiles that turn's discards; Green Goblin makes Mox Amber tap for black and red, not just blue; Goblin is never cast, so Cavern protects only Norman. No list errors.
+Rules surprises: mayhem only needs a discard earlier this turn, even before the transform; Yawgmoth's Will exiles that turn's discards; Green Goblin makes Mox Amber tap for black and red, not just blue; Goblin may be cast as the back face directly from the command zone, so Cavern naming Human can protect either face's creature spell. No list errors.
 
 ## Commander rules text and edge cases
 
@@ -41,7 +41,7 @@ Rules surprises: mayhem only needs a discard earlier this turn, even before the 
 
 **Status:** ✅ verified · **Evidence:** fact · **Cards:** Norman Osborn // Green Goblin
 
-**Ruling.** Norman Osborn // Green Goblin is a modal double-faced card. Under the current rules it can still transform: {1}{U}{B}{R}, at sorcery speed, flips Norman (unblockable 1/1, connives on combat damage) into Green Goblin (3/3 flying, menace). On the battlefield, only the face that's up counts, so Green Goblin has his own mana cost ({1}{U}{B}{R}), colors, types and mana value. Everywhere else, including the command zone, only Norman's front face counts. A recast always comes back as Norman, and you pay to transform again. Color identity uses both faces: U/B/R.
+**Ruling.** Norman Osborn // Green Goblin is a modal double-faced card. Under the current rules it can still transform: {1}{U}{B}{R}, at sorcery speed, flips Norman (unblockable 1/1, connives on combat damage) into Green Goblin (3/3 flying, menace). On the battlefield, only the face that's up counts, so Green Goblin has his own mana cost ({1}{U}{B}{R}), colors, types and mana value. Outside the stack/battlefield, only the front face's characteristics normally apply; however, when casting this modal double-faced card (including from the command zone), you may choose to cast either face. Green Goblin may be cast directly for {1}{U}{B}{R} plus applicable commander tax, or Norman may be cast for {1}{U} and then transformed by paying {1}{U}{B}{R} at sorcery speed. Commander tax counts prior casts of the card regardless of face. Color identity uses both faces: U/B/R.
 
 **Citations**
 
@@ -158,7 +158,7 @@ Artist's Talent level 1 is also a discard outlet each time you cast a noncreatur
 **Status:** ✅ verified · **Evidence:** fact · **Cards:** Norman Osborn // Green Goblin, Lion's Eye Diamond, Breakthrough, Attunement, Dark Deal, Wheel of Fortune, Reckless Handling
 
 **Ruling.** Each of these discards several cards at once, and all of them become mayhem-eligible for the rest of the turn:
-- **Lion's Eye Diamond:** a mana ability usable only at instant timing. It can be activated mid-cast, so you can discard your hand while paying for a spell, then cast the discards afterward.
+- **Lion's Eye Diamond:** a mana ability usable only at instant timing. Because it says activate only as an instant, it cannot be activated during another spell's 601.2g cost-payment step. Activate in a legal priority window before or after casting a spell; then any same-turn discarded nonlands can use Mayhem if permitted.
 - **Breakthrough:** for X=0 it costs {U}, draws four, then discards the whole hand.
 - **Attunement:** returns itself to hand as its cost, then you draw three and discard four, or your whole hand if you have fewer.
 - **Reckless Handling:** the tutored artifact can be the random discard, and nothing can happen in between. That card can still be mayhem-cast later.
@@ -173,17 +173,17 @@ Artist's Talent level 1 is also a discard outlet each time you cast a noncreatur
 
 ## Legality and project exceptions
 
-### norman-09: Cavern of Souls naming Human protects the Norman cast only
+### norman-09: Cavern of Souls naming Human protects either creature-face cast
 
 **Status:** ✅ verified · **Evidence:** fact · **Cards:** Norman Osborn // Green Goblin, Cavern of Souls
 
-**Ruling.** Norman Osborn is a Human Scientist Villain, so Cavern naming Human makes him uncounterable and pays a colored mana toward him. Green Goblin is never cast, because he's reached by transforming. The transform ability can still be answered like any activated ability.
+**Ruling.** Norman Osborn is a Human Scientist Villain, so Cavern naming Human makes him uncounterable and pays a colored mana toward him. Green Goblin can also be chosen and cast directly from the command zone as the back face; because he is a Human too, Cavern naming Human can make either face's creature spell uncounterable when its restricted mana pays for that spell. Cavern does not protect the transform activated ability.
 
 **Citations**
 
 - Scryfall ruling, *Cavern of Souls*: “You must choose an existing creature type, such as Human or Warrior. Card types such as artifact can't be chosen.”
 - [CR 712.11b](#cr-71211b), [CR 712.8f](#cr-7128f)
-- Source (re-verified): [`Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md) → “the back face is reached by transformation and is **not separately cast**.”
+- Source (front-face Human type only): [`Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md`](../source-archive/grixis-commander-encyclopediaGPT/refinement/verification/Norman_Osborn_Green_Goblin_Approval_Ready_Verification_2026-10-15.md) → “legendary Human Scientist Villain”. **Correction:** The same historical source erroneously said the back face could not be cast; current CR 712.11b and 903.8 supersede that outdated inference.
 
 ## Rules cited
 

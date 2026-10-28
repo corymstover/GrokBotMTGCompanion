@@ -1,0 +1,51 @@
+name: M7 Deck 39 Nathan Drake Rev1 exact finite certification
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-nathan-drake-rev1.yml
+      - data/grixis/m7/baseline_sources/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt
+      - data/grixis/m7/candidate_lists/Nathan_Drake_Treasure_Hunter_M7_Rev1_Approval_Candidate_2026-10-26.txt
+      - data/grixis/m7/oracle_snapshots/Nathan_Drake_M7_Research_Scryfall_20261026.json
+      - data/grixis/m7/oracle_snapshots/Nathan_Drake_M7_Rev1_Selected_Scryfall_20261026.json
+      - data/grixis/m7/decision_reviews/Nathan_Drake__Treasure_Hunter_rev1.json
+      - data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_*.txt
+      - tests/test_m7_nathan_drake_rev1.py
+      - scripts/grixis_m7_nathan_*.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-nathan-rev1:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Check out exact pull request HEAD
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install decision-gate schema validator
+        run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Verify frozen historical canonical source bytes
+        run: |
+          echo 'a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0  data/grixis/m7/baseline_sources/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt' | sha256sum -c -
+      - name: Verify candidate and independent complete alternatives
+        run: |
+          python scripts/grixis_m7_nathan_candidate.py
+          python scripts/grixis_m7_nathan_alternatives.py
+      - name: Verify exact-source finite five P0 and seven P1 coverage and legality
+        run: python tests/test_m7_nathan_drake_rev1.py
+      - name: Run structural M7 decision gate on Deck 39 only
+        run: python scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Nathan_Drake__Treasure_Hunter_rev1.json
+      - name: Verify candidate and two 13-swap complete configurations unchanged
+        run: |
+          echo 'e461d3e89828c7d4950f33301eb5ce658818014304de3771664ec19ce608ef57  data/grixis/m7/candidate_lists/Nathan_Drake_Treasure_Hunter_M7_Rev1_Approval_Candidate_2026-10-26.txt' | sha256sum -c -
+          echo 'c37b3298471ab668f692ae0978bef72e89d30c050e72993f765ff030de49659f  data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_FastManaBoard.txt' | sha256sum -c -
+          echo 'b1ea111d49b5d7d2c16a5b0028725496cb5c74e1567fbbd5d044e5ed846d0250  data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_AggressiveHeist.txt' | sha256sum -c -

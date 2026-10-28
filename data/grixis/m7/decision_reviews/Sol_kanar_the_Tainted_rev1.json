@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Sol_kanar_the_Tainted",
+  "canonical_baseline_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+  "canonical_baseline_logical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+  "commander_identity": {
+    "mechanical_plan": "Sol'Kanar is a 2UBR 5/5 whose own end-step trigger chooses one previously unchosen draw/drain/bolt/transfer mode per battlefield object. Optimize reliable noncreature-spell and end-step blinking to repeat profitable choices while giving cursed permanents (Pact, Coil, Illusions, Archfiend, Greed's Gambit) to opponents and recovering owned Sol through Planar Incision, Homeward Path, Coveted Falcon and now Brand.",
+    "protected_core": [
+      "Sol'Kanar the Tainted",
+      "Demonic Pact",
+      "Donate",
+      "Harmless Offering",
+      "Immortal Coil",
+      "Bojuka Bog",
+      "Rakdos Charm",
+      "Illusions of Grandeur",
+      "Greed's Gambit",
+      "Archfiend of the Dross",
+      "Captive Audience",
+      "Thassa, Deep-Dwelling",
+      "Conjurer's Closet",
+      "Planar Incision",
+      "Homeward Path",
+      "Coveted Falcon",
+      "Bazaar Trader",
+      "Blim, Comedic Genius",
+      "Fateful Handoff",
+      "Sudden Substitution",
+      "Gilded Drake",
+      "Jon Irenicus, Shattered One",
+      "Puca's Mischief",
+      "Shifting Grift",
+      "Goblin Bombardment",
+      "Ertai Resurrected"
+    ],
+    "natural_ceiling": "Bracket 4 Optimized. Repeated 5MV end-step mode payoffs, compact Pact and Coil transfer kills, but multiple turns and interactive donations prevent treating this as a turbo cEDH shell.",
+    "anti_homogenization": "No Thoracle/Consultation, generic Breach or high-cost unthemed Grixis finisher. Actual transfer/blink/exact curse support first."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All original 99 noncommander physical copies were individually examined from the Oct20 M6 comprehensive review and newly enumerated 99-slot ledger. Preserve 35 lands, nine colorless/colored accelerators, 2 recurring end-step reset permanents, one 2MV owner-rescue blink, Pact/Coil plus seven-plus curse/gift lines and unusually broad reactive suite. Six selected cuts remove expensive indirect/political effects rather than the actual donor/curse engine.",
+    "mana_base_and_curve": "35 unchanged physical lands (Island x3, Mountain x3, Swamp x4) and nine unchanged rocks; five-mana 2UBR commander has three colored pips. Familiar's blue/red discount is only ONE generic even for a multicolored Sol'Kanar, and may be removed. Wishclaw is two mana plus one activation rather than raw ramp; six swaps do not replace colored fixing. Red/blue pitch count to Force of Will falls from 28 other blue nonland cards to 24, remaining playable.",
+    "interaction_resilience": "Retain free Force of Will, Fierce Guardianship, Deflecting Swat, Deadly Rollick, Swan Song, Mana Drain, Ertai flash counter, Withering Torment, Rift, Vandalblast, Deluge, Blasphemous Act and Spiteful Banditry. Losing Propaganda exposes combat defense but Alexios and Agent press other opponents; losing Reins reduces temporary instant combat blowouts.",
+    "weakest_slots": [
+      {
+        "card": "Assault Suit",
+        "weakness": "Challenge: Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol.",
+        "alternative_named": "Displacer Kitten",
+        "reasoning": "Whole-list cost/alternative: Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol."
+      },
+      {
+        "card": "Perplexing Chimera",
+        "weakness": "Challenge: Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
+        "alternative_named": "Nightscape Familiar",
+        "reasoning": "Whole-list cost/alternative: Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1."
+      },
+      {
+        "card": "Reins of Power",
+        "weakness": "Challenge: Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully.",
+        "alternative_named": "Brand",
+        "reasoning": "Whole-list cost/alternative: Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully."
+      },
+      {
+        "card": "Visions of Duplicity",
+        "weakness": "Challenge: Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature.",
+        "alternative_named": "Alexios, Deimos of Kosmos",
+        "reasoning": "Whole-list cost/alternative: Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature."
+      },
+      {
+        "card": "The Trickster-God's Heist",
+        "weakness": "Challenge: Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat.",
+        "alternative_named": "Sleeper Agent",
+        "reasoning": "Whole-list cost/alternative: Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Challenge: Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor.",
+        "alternative_named": "Wishclaw Talisman",
+        "reasoning": "Whole-list cost/alternative: Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor."
+      },
+      {
+        "card": "Ertai Resurrected",
+        "weakness": "Challenge: Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+        "alternative_named": "Ghostly Flicker",
+        "reasoning": "Whole-list cost/alternative: Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve."
+      },
+      {
+        "card": "Goblin Bombardment",
+        "weakness": "Challenge: Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+        "alternative_named": "Jinxed Ring",
+        "reasoning": "Whole-list cost/alternative: Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures."
+      },
+      {
+        "card": "Kain, Traitorous Dragoon",
+        "weakness": "Challenge: Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+        "alternative_named": "Goldnight Castigator",
+        "reasoning": "Whole-list cost/alternative: Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics."
+      },
+      {
+        "card": "Puca's Mischief",
+        "weakness": "Challenge: Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal.",
+        "alternative_named": "Modify Memory",
+        "reasoning": "Whole-list cost/alternative: Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal."
+      },
+      {
+        "card": "Spiteful Banditry",
+        "weakness": "Challenge: High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+        "alternative_named": "Rust Elemental",
+        "reasoning": "Whole-list cost/alternative: High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income."
+      }
+    ],
+    "current_baseline_strength": "Original gift liability portfolio and direct sorcery Donate/Offering, Falcon attack recovery, Puca repeat exchange, Thassa and Closet end-step reset are coherent. All locked predecessor approvals remain history, not authorized changes.",
+    "candidate_pool_scope": "Read M6 deep review 28 hypotheses, Grok prior-involved ADVISORY KEEP and weak Chimera/Suit, commander EDHREC live top and high-lift plus donate and blink subpages, off-ranking rule-matched mode blink, ownership recovery, Gift gifts, tutor and mana. Fifteen named challengers including larger-swap portfolio, not a target of five.",
+    "off_ranked_search_conclusion": "Kitten and Brand are missed in the original donor/blink baseline; Goldnight Castigator, Ebon Drake, Jinxed Ring, Ghostly Flicker, Order of Succession, Modify Memory, Rust Elemental and generic counters were weighed against the whole 100 rather than copied from lift ranking. Stronger 8-card cut set sacrifices mandatory flexible answers."
+  },
+  "candidate_sources": [
+    "https://edhrec.com/commanders/solkanar-the-tainted — 2026-10-27 current commander Top Cards/High Lift; Nightscape Familiar 44% top, Alexios 35% creatures, Agent high-lift.",
+    "https://edhrec.com/commanders/solkanar-the-tainted/donate — 2026-10-27 donate filter; Brand, Wishclaw, Agent and alternative gift liabilities.",
+    "https://edhrec.com/commanders/solkanar-the-tainted/blink — 2026-10-27 blink filter (8-deck small-sample caution), Ghostly Flicker/Blur, Kitten source comparison.",
+    "2026-10-27 OFF-RANKED candidate research: Displacer Kitten and Brand direct Sol object/ownership recovery; Alexios supported by official Assassin's Creed release notes.",
+    "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md (99-slot source, M5 28 hypotheses); data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md (prior-involved advisory KEEP, not independent).",
+    "data/grixis/m6/ij/input_receipts/solkanar-the-tainted.json — source attestations only, M6 I/J historical transfer incomplete; candidate-scoped finite P0/P1 tests must not be backdated."
+  ],
+  "material_candidates": [
+    {
+      "card": "Displacer Kitten",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "Repeatable noncreature-triggered blink to reset Sol's previously chosen modes",
+      "named_cuts": [
+        "Assault Suit"
+      ],
+      "incumbent_opportunity_cost": "Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy",
+      "commander_synergy": "Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol.",
+      "adversarial_downside": "costs a four-mana fragile creature and cannot target stolen Sol.",
+      "judgment": "SELECT_ADD",
+      "reason": "Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Nightscape Familiar",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "Reduce generic casting costs on blue or red spells without losing UBR fixing",
+      "named_cuts": [
+        "Perplexing Chimera"
+      ],
+      "incumbent_opportunity_cost": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast",
+      "commander_synergy": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
+      "adversarial_downside": "Nightscape Familiar is a fragile, removable 1/1 and reduces only one generic mana from a spell of multiple qualifying colors.",
+      "judgment": "SELECT_ADD",
+      "reason": "Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Brand",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "One-mana owner-control retrieval after a dangerous Sol mode-four transfer",
+      "named_cuts": [
+        "Reins of Power"
+      ],
+      "incumbent_opportunity_cost": "Four-mana until-EOT exchange can make a surprise combat win",
+      "commander_synergy": "Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully.",
+      "adversarial_downside": "ALSO returns gifted Demonic Pact or Coil and must be timed carefully.",
+      "judgment": "SELECT_ADD",
+      "reason": "Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Alexios, Deimos of Kosmos",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "Automatic across-upkeep transfer pressure among opponents with owner safety",
+      "named_cuts": [
+        "Visions of Duplicity"
+      ],
+      "incumbent_opportunity_cost": "Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six",
+      "commander_synergy": "Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature.",
+      "adversarial_downside": "gives opponents temporary control of a large creature.",
+      "judgment": "SELECT_ADD",
+      "reason": "Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Sleeper Agent",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "One-black self-gifting creature that creates sustained recipient upkeep damage",
+      "named_cuts": [
+        "The Trickster-God's Heist"
+      ],
+      "incumbent_opportunity_cost": "Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow",
+      "commander_synergy": "Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat.",
+      "adversarial_downside": "timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat.",
+      "judgment": "SELECT_ADD",
+      "reason": "Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Wishclaw Talisman",
+      "source": "2026-10-27 Sol'Kanar commander-specific EDHREC Top/High Lift, donate/blink tag comparison plus direct off-ranking role evaluation",
+      "role": "Artifact tutor that finds a native Pact/Donate gift pair before changing control",
+      "named_cuts": [
+        "Propaganda"
+      ],
+      "incumbent_opportunity_cost": "Three-mana attack tax buys defensive time but does not locate Pact plus transfer",
+      "commander_synergy": "Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor.",
+      "adversarial_downside": "gives an opponent a powerful remaining tutor.",
+      "judgment": "SELECT_ADD",
+      "reason": "Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Ghostly Flicker",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Ertai Resurrected"
+      ],
+      "incumbent_opportunity_cost": "Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+      "commander_synergy": "Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+      "adversarial_downside": "cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Jinxed Ring",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Goblin Bombardment"
+      ],
+      "incumbent_opportunity_cost": "Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+      "commander_synergy": "Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+      "adversarial_downside": "cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Goldnight Castigator",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Kain, Traitorous Dragoon"
+      ],
+      "incumbent_opportunity_cost": "Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+      "commander_synergy": "Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+      "adversarial_downside": "until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+      "judgment": "REJECT",
+      "reason": "Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Modify Memory",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Puca's Mischief"
+      ],
+      "incumbent_opportunity_cost": "Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object",
+      "commander_synergy": "Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal.",
+      "adversarial_downside": "cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal.",
+      "judgment": "REJECT",
+      "reason": "Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Ebon Drake",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Kain, Traitorous Dragoon"
+      ],
+      "incumbent_opportunity_cost": "Early three-mana flying spell-trigger life toll is strong when gifted, but when untransferred punishes its owner and lacks Kain's built-in repeated combat control changes.",
+      "commander_synergy": "Early three-mana flying spell-trigger life toll is strong when gifted, but when untransferred punishes its owner and lacks Kain's built-in repeated combat control changes.",
+      "adversarial_downside": "when untransferred punishes its owner and lacks Kain's built-in repeated combat control changes.",
+      "judgment": "REJECT",
+      "reason": "Early three-mana flying spell-trigger life toll is strong when gifted, but when untransferred punishes its owner and lacks Kain's built-in repeated combat control changes.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Order of Succession",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Puca's Mischief"
+      ],
+      "incumbent_opportunity_cost": "Four-mana mass creature exchange can rearrange political threats but cannot give away Demonic Pact, Coil or Illusions and removes repeatable nonland curse transfer.",
+      "commander_synergy": "Four-mana mass creature exchange can rearrange political threats but cannot give away Demonic Pact, Coil or Illusions and removes repeatable nonland curse transfer.",
+      "adversarial_downside": "cannot give away Demonic Pact, Coil or Illusions and removes repeatable nonland curse transfer.",
+      "judgment": "REJECT",
+      "reason": "Four-mana mass creature exchange can rearrange political threats but cannot give away Demonic Pact, Coil or Illusions and removes repeatable nonland curse transfer.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Abyssal Persecutor",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Kain, Traitorous Dragoon"
+      ],
+      "incumbent_opportunity_cost": "Persecutor gifts an imposing 6/6 but actively prevents that opponent from losing until removed, obstructing Pact/Coil kills",
+      "commander_synergy": "Persecutor gifts an imposing 6/6 but actively prevents that opponent from losing until removed, obstructing Pact/Coil kills; not a safer finisher than Kain.",
+      "adversarial_downside": "actively prevents that opponent from losing until removed, obstructing Pact/Coil kills; not a safer finisher than Kain.",
+      "judgment": "REJECT",
+      "reason": "Persecutor gifts an imposing 6/6 but actively prevents that opponent from losing until removed, obstructing Pact/Coil kills; not a safer finisher than Kain.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "Rust Elemental",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Spiteful Banditry"
+      ],
+      "incumbent_opportunity_cost": "High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+      "commander_synergy": "High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+      "adversarial_downside": "four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+      "judgment": "REJECT",
+      "reason": "High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    },
+    {
+      "card": "An Offer You Can't Refuse",
+      "source": "2026-10-27 EDHREC/high-lift/off-ranking and M6 deep-review weakest-slot adversarial challenge",
+      "role": "Further role challenger or higher-count full-100 configuration",
+      "named_cuts": [
+        "Ertai Resurrected"
+      ],
+      "incumbent_opportunity_cost": "One-mana stack counter improves protection tempo but cannot counter Sol's fourth-mode trigger and gives two Treasures",
+      "commander_synergy": "One-mana stack counter improves protection tempo but cannot counter Sol's fourth-mode trigger and gives two Treasures; flexible Ertai flash ability coverage is precious.",
+      "adversarial_downside": "cannot counter Sol's fourth-mode trigger and gives two Treasures; flexible Ertai flash ability coverage is precious.",
+      "judgment": "REJECT",
+      "reason": "One-mana stack counter improves protection tempo but cannot counter Sol's fourth-mode trigger and gives two Treasures; flexible Ertai flash ability coverage is precious.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Sol_kanar_the_Tainted.md",
+        "https://edhrec.com/commanders/solkanar-the-tainted",
+        "https://edhrec.com/commanders/solkanar-the-tainted/donate"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Displacer Kitten",
+      "Nightscape Familiar",
+      "Brand",
+      "Alexios, Deimos of Kosmos",
+      "Sleeper Agent",
+      "Wishclaw Talisman"
+    ],
+    "cuts": [
+      "Assault Suit",
+      "Perplexing Chimera",
+      "Reins of Power",
+      "Visions of Duplicity",
+      "The Trickster-God's Heist",
+      "Propaganda"
+    ],
+    "coherent_package_tradeoff": "Six actual identity-positive swaps: one repeatable self-blink, one generic-cost reducer for U/R spells, instant owned-permanent recovery with dangerous-curse caveat, aggressive automatic across-upkeep creature gift, one-mana upkeep liability, and a tutor that literally gifts an artifact. Lose Suit's temporary transfer, Chimera's reactive exchange, Reins combat surprise, Visions opponent-opponent switch, saga's multi-turn exchange, and Propaganda attack tax; core Pact/Coil/Illusions and donor redundancy kept."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Sol_kanar_the_Tainted_M7_Rev1.txt",
+    "sha256": "c244b7c3e31b108a0730db37790de14dd167c9ee274259b3f18bbb5971a1ef20",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact six one-for-one changes to canonical Oct15 100, 100 physical/93 distinct names, Island 3/Mountain 3/Swamp 4 only repeats, 35 land cards unchanged; 1 commander, no companion, UBR, no project exceptions."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/solkanar_tainted_rev1/verify.py — fixed exact SHA, all 93 card names live Scryfall /collection, 17 finite bounded cases (not a full game simulation).",
+      "data/grixis/m6/test_blueprints/Sol_kanar_the_Tainted.json — C/K/E/W/F case design, prospective transfer only",
+      "data/grixis/m6/ij/input_receipts/solkanar-the-tainted.json — historical input attestations; not the sealed executed IJ certificate."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Donate",
+      "Blink",
+      "Giftable Curses"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Assault Suit",
+        "weakness": "Challenge: Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol.",
+        "alternative_named": "Displacer Kitten",
+        "reasoning": "Whole-list cost/alternative: Temporary opponent control never resets Sol's modes and requires seven mana equip/deploy; Kitten makes a fresh Sol object for every controllable noncreature spell, but costs a four-mana fragile creature and cannot target stolen Sol."
+      },
+      {
+        "card": "Perplexing Chimera",
+        "weakness": "Challenge: Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1.",
+        "alternative_named": "Nightscape Familiar",
+        "reasoning": "Whole-list cost/alternative: Five-mana reactive exchange creature sometimes yields a spell, but may reward an opponent with a body and requires an opponent to cast; two-mana Familiar discounts each blue/red spell by one generic (not twice for UBR), including Sol, but is a removable 1/1."
+      },
+      {
+        "card": "Reins of Power",
+        "weakness": "Challenge: Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully.",
+        "alternative_named": "Brand",
+        "reasoning": "Whole-list cost/alternative: Four-mana until-EOT exchange can make a surprise combat win; one-mana Brand can recover Sol even after forced mode four and cycles when unnecessary, but ALSO returns gifted Demonic Pact or Coil and must be timed carefully."
+      },
+      {
+        "card": "Visions of Duplicity",
+        "weakness": "Challenge: Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature.",
+        "alternative_named": "Alexios, Deimos of Kosmos",
+        "reasoning": "Whole-list cost/alternative: Sorcery swaps other players' two creatures, never our liabilities, and flashback costs six; Alexios passes itself to each active player and grows into compelled trample damage but gives opponents temporary control of a large creature."
+      },
+      {
+        "card": "The Trickster-God's Heist",
+        "weakness": "Challenge: Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat.",
+        "alternative_named": "Sleeper Agent",
+        "reasoning": "Whole-list cost/alternative: Four-mana Saga delivers exchanges over multiple chapters and can move curses, but timing is slow; one-black Agent immediately gifts itself and deals two each recipient upkeep. It is removable or sacrificeable and can empower that opponent in combat."
+      },
+      {
+        "card": "Propaganda",
+        "weakness": "Challenge: Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor.",
+        "alternative_named": "Wishclaw Talisman",
+        "reasoning": "Whole-list cost/alternative: Three-mana attack tax buys defensive time but does not locate Pact plus transfer; two-mana Wishclaw tutors a critical half on the next turn, naturally gifts a liability after activation but gives an opponent a powerful remaining tutor."
+      },
+      {
+        "card": "Ertai Resurrected",
+        "weakness": "Challenge: Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve.",
+        "alternative_named": "Ghostly Flicker",
+        "reasoning": "Whole-list cost/alternative: Three-mana blink Sol plus another ETB land/creature helps mode reset, but cutting four-mana Ertai loses unusually flexible flash counter of triggers/abilities or creature removal just as a Pact death mode may resolve."
+      },
+      {
+        "card": "Goblin Bombardment",
+        "weakness": "Challenge: Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures.",
+        "alternative_named": "Jinxed Ring",
+        "reasoning": "Whole-list cost/alternative: Two-mana self-gifting artifact taxes a recipient's permanent losses, but cutting free sacrifice outlet loses a critical proactive emergency exit from impending Sol fourth mode and instant-speed conversion of dangerous stolen creatures."
+      },
+      {
+        "card": "Kain, Traitorous Dragoon",
+        "weakness": "Challenge: Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics.",
+        "alternative_named": "Goldnight Castigator",
+        "reasoning": "Whole-list cost/alternative: Castigator is a sharp four-mana double-damage gift, but until given away it doubles our incoming damage, and redundant pre-gift combat liabilities risk uncastable curse congestion. Kain already supplies combat-based ownership dynamics."
+      },
+      {
+        "card": "Puca's Mischief",
+        "weakness": "Challenge: Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal.",
+        "alternative_named": "Modify Memory",
+        "reasoning": "Whole-list cost/alternative: Five-mana one-off triple creature redistribution is dramatic, but cuts repeatable upkeep nonland exchange capable of donating Pact and stealing an opposing low-mana object; overlap with Shifting Grift and Role Reversal."
+      },
+      {
+        "card": "Spiteful Banditry",
+        "weakness": "Challenge: High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income.",
+        "alternative_named": "Rust Elemental",
+        "reasoning": "Whole-list cost/alternative: High-lift artifact curse can punish a recipient without spare artifacts, but four-mana gift delay and reliance on hostile artifacts lose Banditry's scalable board sweep and recurring Treasure income."
+      }
+    ],
+    "off_ranked_opportunities": "EDHREC high lift plus theme pages and off-ranking Kitten/Brand/Wishclaw assessed; selected engine improvements materially address mode timing/owner recovery, unlike 28 prior M5 weak benchmark proposals.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Displacer Kitten",
+          "Nightscape Familiar",
+          "Brand",
+          "Alexios, Deimos of Kosmos",
+          "Sleeper Agent",
+          "Wishclaw Talisman",
+          "Ghostly Flicker",
+          "Jinxed Ring"
+        ],
+        "cuts": [
+          "Assault Suit",
+          "Perplexing Chimera",
+          "Reins of Power",
+          "Visions of Duplicity",
+          "The Trickster-God's Heist",
+          "Propaganda",
+          "Ertai Resurrected",
+          "Goblin Bombardment"
+        ],
+        "result_and_rationale": "Genuine full 100-card alt8 staged. Two more engine pieces Ghostly Flicker/Jinxed Ring improve blink and gift burden but eliminate flexible Ertai ability counter and emergency Goblin sacrifice; tighter theoretical theme but worse stack integrity."
+      },
+      {
+        "adds": [
+          "Displacer Kitten",
+          "Nightscape Familiar",
+          "Brand",
+          "Alexios, Deimos of Kosmos",
+          "Sleeper Agent",
+          "Wishclaw Talisman"
+        ],
+        "cuts": [
+          "Assault Suit",
+          "Perplexing Chimera",
+          "Reins of Power",
+          "Visions of Duplicity",
+          "The Trickster-God's Heist",
+          "Kain, Traitorous Dragoon"
+        ],
+        "result_and_rationale": "Genuine full 100-card alternate 6 kept Propaganda defensive tax and cut Kain instead of it; preserves defensive turns but removes an autonomous on-hit donation creature that overlaps profitably with Alexios and Khârn."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Against original M6 HOLD on Chimera/Suit, six other distinct role slots were challenged, and Ghostly Flicker/Jinxed Ring were built into alt8 rather than accepted without source-paid cut scrutiny.",
+    "strongest_argument_against_baseline": "Current list contains five-mana Chimera, seven-mana equipped Assault Suit and multistage trickster saga, while commander mode engine has only Thassa/Closet/Incision. Replacing indirect chaos with Kitten and Familiar creates meaningful repeatability and castability gains.",
+    "evidence_based_answer": "Six identity-centered changes passed role scrutiny. There are credible more-than-six additions but they cost indispensable Ertai and sacrifice outlet; ending at six reflects preserving critical interaction and—not an arbitrary five-swap ceiling."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After the initial five-worthy cards, the live 99 slots were re-reviewed for Puca transfer, Bowmasters, Ertai trigger counter, Goblin sacrifice, Spiteful Banditry board wipe, Dross oil kill, nonbasic fixing, Kain and major giftable liabilities. Wishclaw was added as sixth on native tutorable Pact/Offering access. A genuine eight-swap variant was authored and rejected only after comparing emergency safety roles.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Ertai Resurrected",
+        "challenger": "Ghostly Flicker",
+        "tradeoff": "Two-creature or land-and-Sol bounce can reset modes or protect a threat, but 2UB flash Ertai counters spell AND activated/triggered abilities (including fatal or transfer modes) while Flicker cannot interact with the hostile spell stack.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Goblin Bombardment",
+        "challenger": "Jinxed Ring",
+        "tradeoff": "Jinxed Ring is a low-cost giftable damage trap; Bombardment has no mana activation and can sacrifice Sol before a dangerous fourth-mode resolution, and Ring damage is conditional and can be donated onward.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Sol_kanar_the_Tainted_M7_Rev1_alt8.txt",
+        "sha256": "f1fba7f5d2f4d993a08c2cc15974540d0f45fde2e872bf53b6e77064ba84fcc6",
+        "adds": [
+          "Displacer Kitten",
+          "Nightscape Familiar",
+          "Brand",
+          "Alexios, Deimos of Kosmos",
+          "Sleeper Agent",
+          "Wishclaw Talisman",
+          "Ghostly Flicker",
+          "Jinxed Ring"
+        ],
+        "cuts": [
+          "Assault Suit",
+          "Perplexing Chimera",
+          "Reins of Power",
+          "Visions of Duplicity",
+          "The Trickster-God's Heist",
+          "Propaganda",
+          "Ertai Resurrected",
+          "Goblin Bombardment"
+        ],
+        "case_for_extra_swaps": "Additional Ghostly Flicker gives burst protection and resets, Jinxed Ring another cheap transferrable cursed artifact, coherent eighth-swap pressure package.",
+        "why_not_selected": "Removing Ertai and Goblin Bombardment destroys two distinct emergency outs to commander mode four and hostile Pact/Coil trigger pressure. The deck already has three repeatable or one-shot blink paths, and the extra gift Ring is less deterministic than existing seven liabilities."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "Continue research past five, include sixth Wishclaw, and build physically real eight-swap package; stop at six because remaining credible cards displace unique on-stack trigger counter, free self-sac rescue, or slower-but-repeatable nonland donation, increasing attrition vulnerability for only redundant gift or blink."
+  }
+}

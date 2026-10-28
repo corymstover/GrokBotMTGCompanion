@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "canonical_baseline_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+  "canonical_baseline_logical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+  "commander_identity": {
+    "mechanical_plan": "Nathan's UBR 3/2 Rogue attack trigger exiles one top card from every library and permits one PAID spell cast during resolution. Multiplier attacks and pre-resolution combat mana, rather than damage-triggered secondary theft, maximize his unique four-library heist.",
+    "protected_core": ["Nathan Drake, Treasure Hunter", "Roaming Throne", "Firebender Ascension", "Karlach, Fury of Avernus", "Fire Lord Azula", "Fire Nation Palace", "Interdimensional Web Watch", "Thieving Varmint", "Don Andres, the Renegade", "Nalfeshnee", "Passionate Archaeologist"],
+    "natural_ceiling": "Bracket 4 Optimized: low-cost heist commander with premier resources, repeated attacks and interaction; opponent-dependent hits and payment windows are not a deterministic fast cEDH kill.",
+    "anti_homogenization": "Preserve direct Nathan attack triggers, a high density of stolen/unowned spell payoffs, free/cheap response protection and supporting independent theft. Avoid Oracle/Breach generic Grixis win shells and additive high-cost passive theft that fails to fund attack triggers."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Every one of the approved 99 noncommander physical slots re-challenged against the October 15 exact TXT and October 19 exhaustive 100-card M6 deck-depth artifact. Core trigger multiplication, exile payoffs, cheap counterspells, broad removal and Rogue/stealing subtheme preserved. The re-challenge finds six damage- or upkeep-delayed independent theft slots, one symmetrical opponent-payoff, a Dauthi/Tinybones tension, one damage-only equipment and own-turn pitch counter misaligned with Nathan's main attack window.",
+    "mana_base_and_curve": "34 lands preserved, including six basic copies, all nine typed-dual-compatible fetches, three premium duals/shocks and Fire Nation Palace. RRR/BBB costs and any-color spend restriction remain distinct. Three fast-mana replacements reduce average nonland mana demand; Chrome Mox imprint card cost and Vault/Monolith untap taxes are real. Palace and attack Treasures can pay inside combat; Jeska's Will main-phase mana cannot float to that window.",
+    "interaction_resilience": "Keep An Offer You Can't Refuse, Swan Song, Mana Drain, Fierce Guardianship, Deadly Rollick, Deflecting Swat, Chaos Warp, Cyclonic Rift, Blasphemous Act and artifact answer You Find Some Prisoners. Force of Will improves free counter coverage on Nathan's own turn relative to Force of Negation. Cutting Hostage Taker was rejected because the deck needs artifact/creature access.",
+    "weakest_slots": [
+      {"card":"Siphon Insight","weakness":"Independent two-card look with three-mana flashback; duplicates heist selection without paying for Nathan's selected cast.","alternative_named":"Mana Vault","reasoning":"Vault can be held and tapped as a mana ability at the precise stolen-spell payment window."},
+      {"card":"Tinybones, the Pickpocket","weakness":"Needs combat damage and an opponent graveyard permanent, in tension with retained Dauthi Voidwalker.","alternative_named":"Chrome Mox","reasoning":"Zero-mana permanent colored resource accelerates commander and future combat cast payments at imprint cost."},
+      {"card":"Robber of the Rich","weakness":"Hand-size restriction plus one temporary exile hit; redundant low-payoff attack thief when Nathan is online.","alternative_named":"Grim Monolith","reasoning":"Three saved colorless mana can be paid as any color for stolen spell while Nathan survives."},
+      {"card":"Thief of Sanity","weakness":"Does not provide theft until after unblocked combat damage and cannot fund Nathan's attack-resolution spell.","alternative_named":"Captain Lannery Storm","reasoning":"Haste and pre-heist attack Treasure give a usable mana unit, doubled by Goldspan."},
+      {"card":"Gonti, Night Minister","weakness":"All players gain symmetric combat theft and Treasure when casting unowned spells, helping opponents in multiplayer.","alternative_named":"Combat Celebrant","reasoning":"Three-mana attack exertion untaps Nathan and creates another immediate combat heist."},
+      {"card":"Stolen Strategy","weakness":"Five-mana upkeep theft with no attack-window mana and continued payment for each stolen cast.","alternative_named":"Goldspan Dragon","reasoning":"Hasty attack Treasure is available before heist and doubles all Treasure generation."},
+      {"card":"Court of Locthwain","weakness":"Four-mana upkeep-triggered thief; no free cast if monarch lost and no immediate spell before next upkeep.","alternative_named":"Azula, Cunning Usurper","reasoning":"Immediate targeted exile removal, second graveyard spell candidate and attack firebending 2, albeit one extra mana."},
+      {"card":"Etali, Primal Storm","weakness":"Six mana before a first attack with no haste, duplicate multi-library attack exile engine.","alternative_named":"Seize the Day","reasoning":"Four-mana additional Nathan combat and three-mana flashback in following main phase give directly repeatable heists."},
+      {"card":"Dream-Thief's Bandana","weakness":"Equipment only steals after combat damage; competes with Regalia and boots and offers no commander protection.","alternative_named":"Dolmen Gate","reasoning":"Two-mana pre-emptive combat damage protection preserves Nathan through blockers without requiring evasion."},
+      {"card":"Notion Thief","weakness":"Powerful generic reactive draw denial but little explicit wheel synergy within Nathan's shell.","alternative_named":"Sakashima of a Thousand Faces","reasoning":"Four-mana persistent second Nathan attack trigger copy that survives removal of the original; still needs to attack."},
+      {"card":"Force of Negation","weakness":"Pitch alternative applies on opponents' turns, so cannot freely protect own combat heist casts.","alternative_named":"Force of Will","reasoning":"Life and blue-card pitch can protect Nathan's own turn and counter creatures too, at card-disadvantage cost."},
+      {"card":"Plargg and Nassari","weakness":"Five-mana upkeep engine waits a rotation and lets opponent remove best choice.","alternative_named":"Port Razer","reasoning":"Examined extra-combat damage trigger but rejected; free up-to-two spells are valuable removal-resistant theft redundancy."},
+      {"card":"Hostage Taker","weakness":"Four-mana sorcery-speed theft/removal fragile to creature removal.","alternative_named":"Strionic Resonator","reasoning":"Examined two-mana trigger copy and activation, but retain unique artifact/creature removal and avoid payment-window competition."},
+      {"card":"Blasphemous Act","weakness":"Can kill Nathan as collateral and may cost much on low-creature boards.","alternative_named":"Toxic Deluge","reasoning":"Deluge is compact but life payment and X that kills Nathan make it a metagame rather than strict upgrade."}
+    ],
+    "current_baseline_strength": "October 15 exact 12-swap revision had a whole 99-slot audit and 100/97/34 legality, so this is a genuine replacement challenge rather than a rebuild. Keep its best four new attack/mana engines and eleven premium interaction slots.",
+    "candidate_pool_scope": "Live EDHREC Nathan general Top Cards/High Lift and optimized, theft, treasure and extra-combat views; the saved 245-add M6 review packet, October 20 Grok advisory, current Scryfall 134 resolved cards, prior complete 99 audit and broader off-ranking attack mana, haste, extra combat, clone, protection and interaction candidates.",
+    "off_ranked_search_conclusion": "Mana Vault, Chrome Mox, Grim Monolith, Dolmen Gate, Captain Lannery Storm, Combat Celebrant, Seize the Day and Sakashima are contextual off-ranking improvements because they enable or repeat Nathan's exact pre-damage cast. Spider-Verse, Memory Worm, Mari, Thieves' Tools, Cover of Darkness and Port Razer were not selected solely for high lift or theme."
+  },
+  "candidate_sources": [
+    "Current canonical October 15 SHA-bound Nathan approved TXT and October 19 source-bound 100-card M6 deep review",
+    "Current Scryfall 2026-10-26 collection 97 selected names: data/grixis/m7/oracle_snapshots/Nathan_Drake_M7_Rev1_Selected_Scryfall_20261026.json",
+    "https://edhrec.com/commanders/nathan-drake-treasure-hunter — 2026-10-26 Top Cards and High Lift",
+    "https://edhrec.com/commanders/nathan-drake-treasure-hunter/theft — 2026-10-26 theft subpage",
+    "https://edhrec.com/commanders/nathan-drake-treasure-hunter/treasure — 2026-10-26 Treasure subpage",
+    "https://edhrec.com/commanders/nathan-drake-treasure-hunter/extra-combats — 2026-10-26 nine-deck tagged page, low sample",
+    "https://mtgcommander.net/index.php/banned-list/ — official commander ban-list checkpoint 2026-10-26",
+    "data/grixis/m6/test_blueprints/Nathan_Drake__Treasure_Hunter.json — 5 planned P0, 9 planned P1, historical design-only",
+    "tests/test_m7_nathan_drake_rev1.py — 5 finite source-mapped P0 and six P1 groups plus two exact-list/legality methods; not a full game engine",
+    "data/grixis/m6/grokbot_pass_c_advisory/Nathan_Drake__Treasure_Hunter.md — saved dated non-independent advisory KEEP challenged and not treated as conclusive"
+  ],
+  "material_candidates": [
+    {"card":"Mana Vault","source":"Current Scryfall and off-ranking mana timing","role":"Three-mana attack-window reserve","named_cuts":["Siphon Insight"],"incumbent_opportunity_cost":"Lose instant-speed selective theft plus flashback.","commander_synergy":"Taps three colorless during chosen opponent spell payment, converted to colors by Nathan.","adversarial_downside":"Does not naturally untap and drains life if tapped; poorer without Nathan.","judgment":"SELECT_ADD","reason":"Mana shortage inside Nathan's trigger is a first-order loss condition.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Chrome Mox","source":"Current Scryfall and fast colored ramp","role":"Zero-mana repeatable colored source","named_cuts":["Tinybones, the Pickpocket"],"incumbent_opportunity_cost":"Lose one-drop damage-based graveyard theft body.","commander_synergy":"Enables earlier UBR commander and leaves recurring mana for heist casts.","adversarial_downside":"Requires exiling nonartifact nonland hand card; card disadvantage.","judgment":"SELECT_ADD","reason":"Tinybones is Dauthi-conflicted; Mox materially improves attack tempo.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+{"card":"Grim Monolith","source":"Current Scryfall precombat mana proof","role":"Stored three generic mana within the heist payment window","named_cuts":["Robber of the Rich"],"incumbent_opportunity_cost":"Lose hasty Rogue exile on favorable opponent hand sizes.","commander_synergy":"Can tap at heist payment and Nathan converts mana colors for stolen spells.","adversarial_downside":"Four to untap; one-shot resource without external synergy.","judgment":"SELECT_ADD","reason":"Improves most constrained part of Nathan rather than conditional secondary theft.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Captain Lannery Storm","source":"Scryfall off-ranking attack Treasure","role":"Hasty pre-heist Treasure on attack","named_cuts":["Thief of Sanity"],"incumbent_opportunity_cost":"Lose repeatable damage-based choose-one-of-three opponent theft.","commander_synergy":"Attack Treasure trigger can resolve ahead of Nathan heist, yielding payment in same combat.","adversarial_downside":"Treasure is consumable and Captain needs to attack, with exposure to blocks.","judgment":"SELECT_ADD","reason":"Same three-mana slot solves the actual cast window instead of waiting for damage.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Combat Celebrant","source":"Scryfall extra combats and historical rejected alternatives","role":"Three-mana exerted extra combat","named_cuts":["Gonti, Night Minister"],"incumbent_opportunity_cost":"Lose symmetrical ongoing thief and unowned-cast Treasure.","commander_synergy":"Untaps Nathan and adds a combat after the attack, triggering the four-library heist again.","adversarial_downside":"Likely one-shot without an untap; 4/1 body needs attack survival but trigger persists after death.","judgment":"SELECT_ADD","reason":"Direct commander trigger count is worth more than funding opponents' theft.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Goldspan Dragon","source":"Scryfall attack Treasure and replacement wording","role":"Hasty pre-heist Treasure and doubling","named_cuts":["Stolen Strategy"],"incumbent_opportunity_cost":"Lose upkeep exile of top card from each opponent and persistent enchantment.","commander_synergy":"Attack Treasure resolves before heist and yields two mana; doubles other Treasure sources.","adversarial_downside":"Five-mana creature vulnerable to removal and RR pip cost.","judgment":"SELECT_ADD","reason":"Immediate combat liquidity strengthens every attack and most theft-payoff Treasure turns.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Azula, Cunning Usurper","source":"Current Scryfall Avatar print and EDHREC themed off-rank","role":"Removal/theft plus firebending 2","named_cuts":["Court of Locthwain"],"incumbent_opportunity_cost":"Lose monarch draw and potentially free upkeep stolen cast.","commander_synergy":"On entry causes opponent exile creature/graveyard spell; on attacks produces red mana before Nathan resolves.","adversarial_downside":"Five mana, three colored pips and must survive to keep casting exiled cards.","judgment":"SELECT_ADD","reason":"Immediate denial with attack-window resource is more commander-native than upkeep monarchy.","confidence":"MODERATE","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+{"card":"Seize the Day","source":"Scryfall extra combat and alternative-cut reassessment","role":"One or two additional combat-step Nathan attack triggers","named_cuts":["Etali, Primal Storm"],"incumbent_opportunity_cost":"Lose high-impact free-cast four-library Etali attack engine.","commander_synergy":"Untaps Nathan before another combat; three-mana flashback can create a subsequent combat.","adversarial_downside":"Sorcery cast only in own main, requires Nathan present for heist; Etali is more removal-resistant as an independent plan.","judgment":"SELECT_ADD","reason":"Four rather than six mana focuses resources on twice triggering the actual commander.","confidence":"MODERATE","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Dolmen Gate","source":"Current Scryfall protection alternative","role":"Prevent combat damage to attack team","named_cuts":["Dream-Thief's Bandana"],"incumbent_opportunity_cost":"Lose repeatable combat-damage exile theft on equipped creature.","commander_synergy":"Lets Nathan attack through blockers repeatedly without relying on damage or one equipment slot.","adversarial_downside":"Does not stop exile, destroy, bounce or sacrifice effects.","judgment":"SELECT_ADD","reason":"Attack survival is a better commander-first objective than damage-trigger theft repetition.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Sakashima of a Thousand Faces","source":"Scryfall clone and prior October 15 off-ranked challenge","role":"Persistent copied Nathan and legend-rule exception","named_cuts":["Notion Thief"],"incumbent_opportunity_cost":"Lose powerful four-mana flash draw-denial/control piece.","commander_synergy":"Creates another real Nathan attack trigger, scales Throne/Ascension and remains after original dies.","adversarial_downside":"Four-mana creature lacks haste; commander copy protection not guaranteed and generic draw disruption lost.","judgment":"SELECT_ADD","reason":"More commander attacks and resilience beats generic reactive wheel-free stax.","confidence":"MODERATE","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Force of Will","source":"Scryfall current exact pitch restriction comparison","role":"Own-turn free broad stack interaction and counter","named_cuts":["Force of Negation"],"incumbent_opportunity_cost":"Lose Force of Negation's exile replacement for countered noncreature spell.","commander_synergy":"Can pitch a blue card to stop disruption during your own Nathan attack or selected spell cast.","adversarial_downside":"Two-card loss and one life; blue card density still constrains alternate cost.","judgment":"SELECT_ADD","reason":"Protects the actual own-turn heist window that Negation's free mode cannot.","confidence":"HIGH","evidence_refs":["tests/test_m7_nathan_drake_rev1.py"]},
+    {"card":"Port Razer","source":"EDHREC Extra Combats and Scryfall","role":"Repeat combat on opponent combat damage","named_cuts":["Plargg and Nassari"],"incumbent_opportunity_cost":"Lose two free spell casts each upkeep from a noncommander engine.","commander_synergy":"Extra combats would replay Nathan when it connects.","adversarial_downside":"Five mana, requires damage and can't hit same opponent twice, poor versus blockers.","judgment":"REJECT","reason":"13-swap challenger adds damage dependency and loses better independent stolen-spell density.","confidence":"MODERATE","evidence_refs":["data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_AggressiveHeist.txt"]},
+    {"card":"Strionic Resonator","source":"EDHREC extra combats and former blueprint challenge","role":"Repeatable two-mana attack-trigger ability copy","named_cuts":["Hostage Taker"],"incumbent_opportunity_cost":"Lose artifact and creature catchall theft/removal.","commander_synergy":"Copies Nathan heist ability on stack for one more four-library selection.","adversarial_downside":"Two mana activation competes with stolen spell payment and must tap.","judgment":"REJECT","reason":"Roaming Throne and Ascension already copy triggers without competing mana costs.","confidence":"HIGH","evidence_refs":["data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_AggressiveHeist.txt"]},
+    {"card":"Mox Diamond","source":"Current Scryfall fast-mana card text and 34-land audit","role":"Zero-mana any-color permanent mana source","named_cuts":["Fellwar Stone"],"incumbent_opportunity_cost":"Lose two-mana rock that does not require discarding a land.","commander_synergy":"Can cast Nathan earlier and pay spell costs during combat.","adversarial_downside":"34-land deck needs land drops for UBR and Palace; discarding land can reduce commander recastability.","judgment":"RETAIN_ALTERNATIVE","reason":"13-swap max-fast-mana portfolio loses land stability more than its upside in this 34-land heist list.","confidence":"MODERATE","evidence_refs":["data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_FastManaBoard.txt"]},
+    {"card":"Toxic Deluge","source":"EDHREC optimized and current Scryfall","role":"Three-mana scalable -X/-X mass creature removal","named_cuts":["Blasphemous Act"],"incumbent_opportunity_cost":"Lose often one-red-mana board clear in creature-heavy tables.","commander_synergy":"Board reset before redeploying Nathan at three mana when blockers are overwhelming.","adversarial_downside":"Loses life and can still kill Nathan; not reliable strict improvement over Blasphemous Act.","judgment":"RETAIN_ALTERNATIVE","reason":"Metagame-dependent second member of max-fast-mana 13 configuration, not universally superior.","confidence":"MODERATE","evidence_refs":["data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_FastManaBoard.txt"]},
+    {"card":"Memory Worm","source":"Live EDHREC High Lift / current Scryfall","role":"Two-mana exile-cast damage, wheel/discard and growth","named_cuts":["Wild-Magic Sorcerer"],"incumbent_opportunity_cost":"Lose first exiled spell cascade each turn.","commander_synergy":"Triggers on every Nathan cast from exile and pressures opposing hands.","adversarial_downside":"Enemy rummage sometimes enables graveyard strategies; cascade into a free spell has greater raw value.","judgment":"REJECT","reason":"Damage/control rider is less reliable than cascade with successful heists.","confidence":"MODERATE","evidence_refs":["https://edhrec.com/commanders/nathan-drake-treasure-hunter"]},
+    {"card":"Spider-Verse","source":"Live EDHREC High Lift / Scryfall","role":"Five-mana once-per-turn spell copy","named_cuts":["Fire Lord Azula"],"incumbent_opportunity_cost":"Lose attack mana and copies for every spell while Azula attacking.","commander_synergy":"Copies a spell cast from exile once per turn even if Azula cannot attack.","adversarial_downside":"Costs RR at five mana, lacks combat mana and is capped once per turn.","judgment":"REJECT","reason":"Fire Lord Azula is cheaper and funds/copied spell in Nathan's critical combat window.","confidence":"HIGH","evidence_refs":["https://edhrec.com/commanders/nathan-drake-treasure-hunter"]},
+    {"card":"Thieves' Tools","source":"Live EDHREC High Lift / Scryfall","role":"Treasure plus conditional unblockability","named_cuts":["Brotherhood Regalia"],"incumbent_opportunity_cost":"Lose ward and reliable legend equip for Nathan.","commander_synergy":"Early Treasure can pay one stolen spell, and unblockable low-power Nathan.","adversarial_downside":"Power changes over three turn off unblockability and no ward protection.","judgment":"REJECT","reason":"Regalia is more reliable recurring protection; extra on-entry Treasure is minor.","confidence":"HIGH","evidence_refs":["https://edhrec.com/commanders/nathan-drake-treasure-hunter"]},
+    {"card":"Mari, the Killing Quill","source":"Live EDHREC High Lift / Scryfall","role":"Rogue deathtouch and damage-based Treasures","named_cuts":["Rev, Tithe Extractor"],"incumbent_opportunity_cost":"Lose on-attack deathtouch selection and repeatable immediate combat damage theft.","commander_synergy":"More Rogue deathtouch aids safe first-strike Nathan attacks and eventually two Treasures.","adversarial_downside":"Hit counters plus combat damage gate; Dauthi already interferes with opponent graveyard objects.","judgment":"REJECT","reason":"Rev's attack skill and no-setup theft fit current combat turns better.","confidence":"MODERATE","evidence_refs":["https://edhrec.com/commanders/nathan-drake-treasure-hunter"]}
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": ["Mana Vault", "Chrome Mox", "Grim Monolith", "Captain Lannery Storm", "Combat Celebrant", "Goldspan Dragon", "Azula, Cunning Usurper", "Seize the Day", "Dolmen Gate", "Sakashima of a Thousand Faces", "Force of Will"],
+    "cuts": ["Siphon Insight", "Tinybones, the Pickpocket", "Robber of the Rich", "Thief of Sanity", "Gonti, Night Minister", "Stolen Strategy", "Court of Locthwain", "Etali, Primal Storm", "Dream-Thief's Bandana", "Notion Thief", "Force of Negation"],
+    "coherent_package_tradeoff": "Eleven actual source-bound swaps trade secondary damage/upkeep theft and one broad free Etali haymaker for three stored fast-mana sources, two attack-source Treasures, two extra-combat cards, a firebending theft/removal creature, blocker-survival artifact, second Nathan copy and own-turn free stack protection. Thematic stolen payoff core and 34-land UBR fixing preserved; card-disadvantage and loss of commander-independent theft are explicit costs."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Siphon Insight",
+        "weakness": "Independent two-card look with three-mana flashback; duplicates heist selection without paying for Nathan's selected cast.",
+        "alternative_named": "Mana Vault",
+        "reasoning": "Vault can be held and tapped as a mana ability at the precise stolen-spell payment window."
+      },
+      {
+        "card": "Tinybones, the Pickpocket",
+        "weakness": "Needs combat damage and an opponent graveyard permanent, in tension with retained Dauthi Voidwalker.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Zero-mana permanent colored resource accelerates commander and future combat cast payments at imprint cost."
+      },
+      {
+        "card": "Robber of the Rich",
+        "weakness": "Hand-size restriction plus one temporary exile hit; redundant low-payoff attack thief when Nathan is online.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Three saved colorless mana can be paid as any color for stolen spell while Nathan survives."
+      },
+      {
+        "card": "Thief of Sanity",
+        "weakness": "Does not provide theft until after unblocked combat damage and cannot fund Nathan's attack-resolution spell.",
+        "alternative_named": "Captain Lannery Storm",
+        "reasoning": "Haste and pre-heist attack Treasure give a usable mana unit, doubled by Goldspan."
+      },
+      {
+        "card": "Gonti, Night Minister",
+        "weakness": "All players gain symmetric combat theft and Treasure when casting unowned spells, helping opponents in multiplayer.",
+        "alternative_named": "Combat Celebrant",
+        "reasoning": "Three-mana attack exertion untaps Nathan and creates another immediate combat heist."
+      },
+      {
+        "card": "Stolen Strategy",
+        "weakness": "Five-mana upkeep theft with no attack-window mana and continued payment for each stolen cast.",
+        "alternative_named": "Goldspan Dragon",
+        "reasoning": "Hasty attack Treasure is available before heist and doubles all Treasure generation."
+      },
+      {
+        "card": "Court of Locthwain",
+        "weakness": "Four-mana upkeep-triggered thief; no free cast if monarch lost and no immediate spell before next upkeep.",
+        "alternative_named": "Azula, Cunning Usurper",
+        "reasoning": "Immediate targeted exile removal, second graveyard spell candidate and attack firebending 2, albeit one extra mana."
+      },
+      {
+        "card": "Etali, Primal Storm",
+        "weakness": "Six mana before a first attack with no haste, duplicate multi-library attack exile engine.",
+        "alternative_named": "Seize the Day",
+        "reasoning": "Four-mana additional Nathan combat and three-mana flashback in following main phase give directly repeatable heists."
+      },
+      {
+        "card": "Dream-Thief's Bandana",
+        "weakness": "Equipment only steals after combat damage; competes with Regalia and boots and offers no commander protection.",
+        "alternative_named": "Dolmen Gate",
+        "reasoning": "Two-mana pre-emptive combat damage protection preserves Nathan through blockers without requiring evasion."
+      },
+      {
+        "card": "Notion Thief",
+        "weakness": "Powerful generic reactive draw denial but little explicit wheel synergy within Nathan's shell.",
+        "alternative_named": "Sakashima of a Thousand Faces",
+        "reasoning": "Four-mana persistent second Nathan attack trigger copy that survives removal of the original; still needs to attack."
+      },
+      {
+        "card": "Force of Negation",
+        "weakness": "Pitch alternative applies on opponents' turns, so cannot freely protect own combat heist casts.",
+        "alternative_named": "Force of Will",
+        "reasoning": "Life and blue-card pitch can protect Nathan's own turn and counter creatures too, at card-disadvantage cost."
+      }
+    ],
+    "off_ranked_opportunities": "Outside EDHREC High Lift and the October 15 finished deck's top-candidate pool, the strongest missed commander-native cluster is combat-window resources and repeated attack priority. Mana Vault, Grim Monolith, Chrome Mox, Lannery, Dolmen Gate, Seize the Day and Sakashima were challenged as a coherent multi-card portfolio with card disadvantage and over-commitment assessed.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Mana Vault",
+          "Chrome Mox",
+          "Grim Monolith",
+          "Captain Lannery Storm",
+          "Combat Celebrant",
+          "Goldspan Dragon",
+          "Azula, Cunning Usurper",
+          "Seize the Day",
+          "Dolmen Gate",
+          "Sakashima of a Thousand Faces",
+          "Force of Will"
+        ],
+        "cuts": [
+          "Siphon Insight",
+          "Tinybones, the Pickpocket",
+          "Robber of the Rich",
+          "Thief of Sanity",
+          "Gonti, Night Minister",
+          "Stolen Strategy",
+          "Court of Locthwain",
+          "Etali, Primal Storm",
+          "Dream-Thief's Bandana",
+          "Notion Thief",
+          "Force of Negation"
+        ],
+        "result_and_rationale": "Selected eleven-swap coherent current package. It recasts delayed standalone theft slots as heist-mana, direct extra attacks and protection while preserving 34 lands and core Grixis exile payoffs."
+      },
+      {
+        "adds": [
+          "Mana Vault",
+          "Chrome Mox",
+          "Grim Monolith",
+          "Captain Lannery Storm",
+          "Combat Celebrant",
+          "Goldspan Dragon",
+          "Azula, Cunning Usurper",
+          "Seize the Day",
+          "Dolmen Gate",
+          "Sakashima of a Thousand Faces",
+          "Force of Will",
+          "Mox Diamond",
+          "Toxic Deluge"
+        ],
+        "cuts": [
+          "Siphon Insight",
+          "Tinybones, the Pickpocket",
+          "Robber of the Rich",
+          "Thief of Sanity",
+          "Gonti, Night Minister",
+          "Stolen Strategy",
+          "Court of Locthwain",
+          "Etali, Primal Storm",
+          "Dream-Thief's Bandana",
+          "Notion Thief",
+          "Force of Negation",
+          "Fellwar Stone",
+          "Blasphemous Act"
+        ],
+        "result_and_rationale": "Full 13-swap fast mana/wipe challenger, recorded as exact alternative TXT; accelerates ideal hands but discards a land from 34 and replaces often one-mana mass damage with life-intensive Deluge."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Revisited the original October 15 rejections of Sakashima, Spark Double, Strionic Resonator, Combat Celebrant, Seize the Day, Access Tunnel and Spider-Verse under different cuts. Sakashima now beats generic Notion Thief, Celebrant beats symmetrical Gonti and Seize beats expensive Etali; Resonator under the Hostage Taker alternative and Spider-Verse against Fire Lord Azula still lose exact-role value.",
+    "strongest_argument_against_baseline": "The October 15 list already has extensive tuned stolen-card density, free Etali casts, monarchy resources, damage-trigger creature thieves and fifteen interactive ways to play through disruption; removing too much card access could make the deck a fast-mana pile with too few spells of its own.",
+    "evidence_based_answer": "Retain the highest-yield independent theft (Plargg and Nassari, Gríma, Black Cat, Hostage Taker, Laughing Jasper, Tasha, Vaan), actual exile-cast rewards and the full Nathan attack-core. Replace redundancy and symmetrical cards where strict combat-window benefit is proven, preserve the land count and verify active cast payment and extra-combat conditions against Scryfall with finite source-grounded tests."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After candidate reached five true swaps, audited all remaining October 15 noncommander slots again using source-list and comprehensive October 19 per-card role ledger. In particular re-tested Plargg and Nassari, Hostage Taker, Rev, Blasphemous Act, Black Cat, Web Watch, Wild-Magic Sorcerer and every land. Found eleven, not five, quality-positive replacements. Maintained core payoff/card-volume density and cheap stack answers.",
+    "post_floor_challenges": [
+      {"incumbent":"Plargg and Nassari","challenger":"Port Razer","tradeoff":"More combats only when 5-mana Razer hits players versus up to two free stolen spells each upkeep, a meaningful independent commander-failure fallback.","disposition":"REJECT"},
+      {"incumbent":"Hostage Taker","challenger":"Strionic Resonator","tradeoff":"A potentially extra four-library heist costs two tap mana every attack and removes scarce artifact/creature interaction.","disposition":"REJECT"},
+      {"incumbent":"Blasphemous Act","challenger":"Toxic Deluge","tradeoff":"Deluge clears indestructible and scales -X but costs life and cannot preserve 2-toughness Nathan while clearing medium blockers.","disposition":"RETAIN_ALTERNATIVE"},
+      {"incumbent":"Fellwar Stone","challenger":"Mox Diamond","tradeoff":"Accelerates first combat by a turn in ideal hands but discards one of only 34 lands and worsens repeated UBR commander cast reliability.","disposition":"RETAIN_ALTERNATIVE"}
+    ],
+    "larger_swap_packages": [
+{"path":"data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_FastManaBoard.txt","sha256":"c37b3298471ab668f692ae0978bef72e89d30c050e72993f765ff030de49659f","adds":["Mana Vault","Chrome Mox","Grim Monolith","Captain Lannery Storm","Combat Celebrant","Goldspan Dragon","Azula, Cunning Usurper","Seize the Day","Dolmen Gate","Sakashima of a Thousand Faces","Force of Will","Mox Diamond","Toxic Deluge"],"cuts":["Siphon Insight","Tinybones, the Pickpocket","Robber of the Rich","Thief of Sanity","Gonti, Night Minister","Stolen Strategy","Court of Locthwain","Etali, Primal Storm","Dream-Thief's Bandana","Notion Thief","Force of Negation","Fellwar Stone","Blasphemous Act"],"case_for_extra_swaps":"Try even faster cast with zero-mana Diamond and compact three-mana universal -X board wipe; full 100 still has six basics and same 34 lands.","why_not_selected":"Discard-land costs exceed speed value under fetch-heavy UBR land count; paid-life wipe is not strictly better than one-mana Blasphemous in creature tables."},
+      {"path":"data/grixis/m7/research_challengers/Nathan_Drake_M7_Rev1_Alt13_AggressiveHeist.txt","sha256":"b1ea111d49b5d7d2c16a5b0028725496cb5c74e1567fbbd5d044e5ed846d0250","adds":["Mana Vault","Chrome Mox","Grim Monolith","Captain Lannery Storm","Combat Celebrant","Goldspan Dragon","Azula, Cunning Usurper","Seize the Day","Dolmen Gate","Sakashima of a Thousand Faces","Force of Will","Port Razer","Strionic Resonator"],"cuts":["Siphon Insight","Tinybones, the Pickpocket","Robber of the Rich","Thief of Sanity","Gonti, Night Minister","Stolen Strategy","Court of Locthwain","Etali, Primal Storm","Dream-Thief's Bandana","Notion Thief","Force of Negation","Plargg and Nassari","Hostage Taker"],"case_for_extra_swaps":"Increase nominal Nathan combat and attack-trigger frequency with two more repeat/activation engines.","why_not_selected":"Razer requires damage and cannot attack same player; Resonator taxes scarce mana in cast window and removes artifact interaction. Both are less reliable than high-value incumbents."}
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "Stopped after 11 selected swaps because the strongest materially larger complete packages both create a clear loss: discarded lands/paid-life sweeper displace reliable fast fixing and low-cost global removal, and the extra-combat/trigger-copy pair sacrifices removal and free stole spells for damage-dependent or resource-hungry repetition. Notion Thief, Etali and monarchy losses were already weighed; additional candidates remaining are low-synergy or worse in an exact named slot. This is a falsifiable strategic judgment, not proof of universal optimality or a simulation-derived win rate."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Nathan_Drake_Treasure_Hunter_M7_Rev1_Approval_Candidate_2026-10-26.txt",
+    "sha256": "e461d3e89828c7d4950f33301eb5ce658818014304de3771664ec19ce608ef57",
+    "card_count": 100,
+    "deckwide_reconciliation": "100 physical cards, 97 unique names, only 2 Islands/2 Mountains/2 Swamps repeat, exactly 34 lands, all 97 current Scryfall Commander legal UBR, all eleven adds/cuts present and none duplicated. No companion; no authorized exception needed."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Nathan_Drake_M7_Rev1_Selected_Scryfall_20261026.json",
+      "tests/test_m7_nathan_drake_rev1.py",
+      "data/grixis/m6/test_blueprints/Nathan_Drake__Treasure_Hunter.json",
+      "data/grixis/m6/ij/input_receipts/nathan-drake-treasure-hunter.json — historical input attestation only, not full I/J",
+      "data/grixis/m7/decision_reviews/Nathan_Drake__Treasure_Hunter_rev1.json"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": ["Theft", "Attack Triggers", "Exile"],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}

@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Mishra__Artificer_Prodigy",
+  "canonical_baseline_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+  "canonical_baseline_logical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+  "commander_identity": {
+    "mechanical_plan": "Mishra turns symmetric artifact spell-counter/tuck triggers into one-sided artifact deployment from graveyard/library. Assemble cheap artifacts, colored 1UBR commander and parity prison then win through Top/Citadel/KCI/Station or Karn-Lattice.",
+    "protected_core": [
+      "Mishra, Artificer Prodigy",
+      "Blood Funnel",
+      "Nether Void",
+      "Possibility Storm",
+      "Chalice of the Void",
+      "Void Mirror",
+      "Vexing Bauble",
+      "Planar Chaos",
+      "Encroaching Mycosynth",
+      "Krark-Clan Ironworks",
+      "Scrap Trawler",
+      "Myr Retriever",
+      "Junk Diver",
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Bolas's Citadel",
+      "Karn, the Great Creator",
+      "Mycosynth Lattice"
+    ],
+    "natural_ceiling": "Bracket 5 fringe cEDH artifact stax-combo: 4-mana color-heavy commander constrains consistency despite high-priority self-counter locks and fast artifacts.",
+    "anti_homogenization": "Reject Thassa Oracle/Consult/Breach packages and Scepter/Reversal swap deleting Blood Funnel; preserve specific Mishra cast-counter-trigger stack sequences."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Reused October19 named 99-slot comprehensive M6 role ledger and challenged all seven baseline self-counters, colored mana, artifact spell loops, low-curve tutors, stack protection and KCI win roles. Six selected cut slots plus at least six independent post-floor weak slots received exact role-cost arguments in memo.",
+    "mana_base_and_curve": "29 lands preserved, Academy Ruins colorless replaced by untapped Otawara blue; Petal adds one-shot any-color to previously color-stranded 1UBR hands, 9-mana Gargoyle removed; Workshop remains only artifact-cast colorless, Mox Amber conditional on legend.",
+    "interaction_resilience": "Swat, Fluster improve commander deployment defense but free Swat is countered by own Bauble/Mirror, both nonartifact spells may self-counter after Funnel/Chaos/Storm. Force suite and Vandalblast/Rift/Toxic remain.",
+    "weakest_slots": [
+      {
+        "card": "Nullstone Gargoyle",
+        "weakness": "Nine-mana artifact lock rarely hardcast; demands cheat resources.",
+        "alternative_named": "Lotus Petal",
+        "reasoning": "Unique Welder-target first-spell prison sacrificed for one-shot colored access."
+      },
+      {
+        "card": "Praetor's Grasp",
+        "weakness": "3-mana opportunistic theft not always usable for own native win.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Loses theft but improves commander protection when safe from self-Bauble."
+      },
+      {
+        "card": "Fabricate",
+        "weakness": "Nonartifact three-mana tutor to hand needs separate artifact casting.",
+        "alternative_named": "Imperial Seal",
+        "reasoning": "One-black universal top tutor is delayed but protects early UBR access."
+      },
+      {
+        "card": "Academy Ruins",
+        "weakness": "Colorless-only land in high-pip 29-land base.",
+        "alternative_named": "Otawara, Soaring City",
+        "reasoning": "Loses dedicated artifact recursion for blue plus channel answer."
+      },
+      {
+        "card": "Mana Drain",
+        "weakness": "UU held open while casting 1UBR strains tight blue access.",
+        "alternative_named": "Flusterstorm",
+        "reasoning": "Loses universality and later colorless tempo."
+      },
+      {
+        "card": "Thought Monitor",
+        "weakness": "Often late draw-two even with artifact affinity, no deterministic outlet.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Loses ETB refill but gains cheap native recursion outlet."
+      },
+      {
+        "card": "Uthros Research Craft",
+        "weakness": "Needs Mishra tap or another high-power crew; conditional draw.",
+        "alternative_named": "Lotus Petal",
+        "reasoning": "Kept stationed cast-draw; prison-first challenger removes it."
+      },
+      {
+        "card": "Sculpting Steel",
+        "weakness": "Three mana copy has value but must have suitable battlefield object.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Kept copying lock/Forge while value-first challenger removes it."
+      },
+      {
+        "card": "Planar Chaos",
+        "weakness": "Random self-counter can interfere with nonartifact protection.",
+        "alternative_named": "Defense Grid",
+        "reasoning": "Kept true Mishra parity effect; higher-swap grid shifts into own-turn tempo."
+      },
+      {
+        "card": "Mox Amber",
+        "weakness": "Zero colored only after a qualifying legendary permanent.",
+        "alternative_named": "The Enigma Jewel",
+        "reasoning": "Kept repeatable post-Mishra mana; Jewel cannot cast commander."
+      },
+      {
+        "card": "Wishclaw Talisman",
+        "weakness": "Universal artifact tutor may transfer to opponents.",
+        "alternative_named": "Reshape",
+        "reasoning": "Kept fast access as artifact; Reshape self-counter and sacrifice cost."
+      },
+      {
+        "card": "Blood Funnel",
+        "weakness": "Counters our own noncreature instants/sorceries.",
+        "alternative_named": "Isochron Scepter",
+        "reasoning": "Kept premier Mishra reducer/counter; Scepter package self-fails under Bauble/Mirror."
+      }
+    ],
+    "current_baseline_strength": "October15 approved 12-swap candidate has true Blood Funnel/Mishra counter-recovery, seven lock effects plus Storm, 29 lands, 99 reviewed artifacts/interactions and Top/KCI/Karn finishers. No card changed in that historical record.",
+    "candidate_pool_scope": "99 named incumbent roles, 127 M5 proposals, 305 M6 EDHREC vectors, 16 commander-effect blueprint cases, fresh EDHREC cEDH stax Top Cards/High Lift (3 sample decks), sixteen M7 material judgments, six final swaps and four complete alternatives.",
+    "off_ranked_search_conclusion": "Grinding Station's artifact ETB/KCI alternate mill line, color-fixing Otawara and free Deflecting Swat are additional strategic opportunities; Ice Cave/Power Artifact/Reshape/Defense Grid analyzed rather than blindly included."
+  },
+  "candidate_sources": [
+    "Live canonical 2026-10-26 main approved exact hash 9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+    "October19 engineering M6 comprehensive review, 127 proposal rows and 305 EDHREC vectors; owner-equivalent Pass C Stage B Petal/Gargoyle dispute",
+    "https://edhrec.com/commanders/mishra-artificer-prodigy/cedh/stax retrieved 2026-10-26: 3 decks, Lotus Petal 3/3 lift 1.1x, Imperial Seal 3/3 lift 1.4x, Deflecting Swat 2/3 lift 1.0x, Flusterstorm 2/3 lift 0.9x, Otawara 2/3 lift 1.0x, Grinding Station 2/3 lift 3.2x",
+    "https://edhrec.com/commanders/mishra-artificer-prodigy/stax retrieved 2026-10-26; broader 26-deck Stax theme with historically labeled synergy, not equated to lift",
+    "Live Scryfall 100/100 cards/collection dated 2026-10-26, exact Oracle IDs, official Commander legal/UBR plus https://magic.wizards.com/en/banned-restricted-list",
+    "Existing deck-specific Blueprint 16 designed cases C/K/E/W/F and source-supported M6 comprehensive manual mechanics"
+  ],
+  "material_candidates": [
+    {
+      "card": "Lotus Petal",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Zero-cost artifact adds any one colored mana to cast 1UBR Mishra in otherwise color-stranded early land hands and feeds cast/recovery/KCI.",
+      "named_cuts": [
+        "Nullstone Gargoyle"
+      ],
+      "incumbent_opportunity_cost": "One-shot mana, missing future sustained colored fixing and genuine nine-mana first-noncreature lock. Pulling Gargoyle eliminates Welder cheat line.",
+      "commander_synergy": "Zero-cost artifact adds any one colored mana to cast 1UBR Mishra in otherwise color-stranded early land hands and feeds cast/recovery/KCI.",
+      "adversarial_downside": "One-shot mana, missing future sustained colored fixing and genuine nine-mana first-noncreature lock. Pulling Gargoyle eliminates Welder cheat line.",
+      "judgment": "SELECT_ADD",
+      "reason": "Early colored commander access is more reliable under cEDH turns 2-4; Stage A's unresolved exact trade receives a qualitative tempo-first decision.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Deflecting Swat",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Free targeted protection and redirection with Mishra present; preserves commander-dependent prison and critical artifact.",
+      "named_cuts": [
+        "Praetor's Grasp"
+      ],
+      "incumbent_opportunity_cost": "Loses targeted opponent-library theft; free version is countered by own Vexing Bauble or Void Mirror, and other self-stax can intervene.",
+      "commander_synergy": "Free targeted protection and redirection with Mishra present; preserves commander-dependent prison and critical artifact.",
+      "adversarial_downside": "Loses targeted opponent-library theft; free version is countered by own Vexing Bauble or Void Mirror, and other self-stax can intervene.",
+      "judgment": "SELECT_ADD",
+      "reason": "Protected Mishra enables parity core better than a three-mana black opportunistic theft.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Imperial Seal",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "One-black universal top tutor provides early access to Mishra, missing colors, prison or artifact outlet; Forge/Top convert top to cast.",
+      "named_cuts": [
+        "Fabricate"
+      ],
+      "incumbent_opportunity_cost": "Loses immediate hand access to the searched artifact, two life, and must be cast before our own Blood Funnel nonartifact counter.",
+      "commander_synergy": "One-black universal top tutor provides early access to Mishra, missing colors, prison or artifact outlet; Forge/Top convert top to cast.",
+      "adversarial_downside": "Loses immediate hand access to the searched artifact, two life, and must be cast before our own Blood Funnel nonartifact counter.",
+      "judgment": "SELECT_ADD",
+      "reason": "At 1 black vs 2U it preserves flexible assembly through high colored pressure.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Otawara, Soaring City",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Adds actual untapped blue mana to 29-land base plus channel interaction bypassing own spell counters.",
+      "named_cuts": [
+        "Academy Ruins"
+      ],
+      "incumbent_opportunity_cost": "Loses repeatable artifact top-deck recursion; channel still requires mana and a discard.",
+      "commander_synergy": "Adds actual untapped blue mana to 29-land base plus channel interaction bypassing own spell counters.",
+      "adversarial_downside": "Loses repeatable artifact top-deck recursion; channel still requires mana and a discard.",
+      "judgment": "SELECT_ADD",
+      "reason": "The early blue and late channel modes improve both early commander access and resilience; seven other recursion cards offset Ruins.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Flusterstorm",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "One-blue defensive stack storm answers interaction and opposing explosive instants/sorceries on key first Mishra turn.",
+      "named_cuts": [
+        "Mana Drain"
+      ],
+      "incumbent_opportunity_cost": "Loses unconditional UU counter and future colorless burst, and cannot directly counter creatures or artifacts.",
+      "commander_synergy": "One-blue defensive stack storm answers interaction and opposing explosive instants/sorceries on key first Mishra turn.",
+      "adversarial_downside": "Loses unconditional UU counter and future colorless burst, and cannot directly counter creatures or artifacts.",
+      "judgment": "SELECT_ADD",
+      "reason": "Holding U rather than UU when deploying Mishra makes protection more credible; existing Force suite covers broader spell types.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Grinding Station",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Searchable MV2 artifact mills self to Engineer/Welder and turns demonstrable KCI/Trawler/recursion loops into mill payoff.",
+      "named_cuts": [
+        "Thought Monitor"
+      ],
+      "incumbent_opportunity_cost": "Loses affinity-discounted 2-card ETB refill, evasive body and immediate card access; mill needs real sac fodder and repeatability.",
+      "commander_synergy": "Searchable MV2 artifact mills self to Engineer/Welder and turns demonstrable KCI/Trawler/recursion loops into mill payoff.",
+      "adversarial_downside": "Loses affinity-discounted 2-card ETB refill, evasive body and immediate card access; mill needs real sac fodder and repeatability.",
+      "judgment": "SELECT_ADD",
+      "reason": "An inexpensive artifact combo outlet increases secondary win redundancy at the commander's realistic artifact ceiling.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Reshape",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "With sacrifice fodder, searches and deploys artifact directly from deck, without casting it.",
+      "named_cuts": [
+        "Wishclaw Talisman"
+      ],
+      "incumbent_opportunity_cost": "UUX and additional sacrifice limit early consistency; self-countered under Blood Funnel because Reshape is a sorcery.",
+      "commander_synergy": "With sacrifice fodder, searches and deploys artifact directly from deck, without casting it.",
+      "adversarial_downside": "UUX and additional sacrifice limit early consistency; self-countered under Blood Funnel because Reshape is a sorcery.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Seven-swap challenger adds tutor mode but weakens repeatable universally flexible Wishclaw, so primary retains it.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Defense Grid",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "MV2 artifact protects proactively cast Mishra and artifact combos by taxing opponents' instant-speed responses.",
+      "named_cuts": [
+        "Planar Chaos"
+      ],
+      "incumbent_opportunity_cost": "Taxes our own reactive counters on opponents' turns and removes a true Mishra self-counter rescue line.",
+      "commander_synergy": "MV2 artifact protects proactively cast Mishra and artifact combos by taxing opponents' instant-speed responses.",
+      "adversarial_downside": "Taxes our own reactive counters on opponents' turns and removes a true Mishra self-counter rescue line.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Seven-swap challenger is playable for combo-heavy meta but less flexible for this prison-control shell.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "The Enigma Jewel",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Its activated-ability mana helps specific artifact permanent abilities and can later be crafted.",
+      "named_cuts": [
+        "Mox Amber"
+      ],
+      "incumbent_opportunity_cost": "Enters tapped; {C}{C} can pay only to activate abilities and cannot cast 1UBR commander.",
+      "commander_synergy": "Its activated-ability mana helps specific artifact permanent abilities and can later be crafted.",
+      "adversarial_downside": "Enters tapped; {C}{C} can pay only to activate abilities and cannot cast 1UBR commander.",
+      "judgment": "REJECT",
+      "reason": "Misleading M5 proxy rank is not a mana-correct upgrade to Mox Amber.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Isochron Scepter",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Scepter plus Dramatic Reversal offers a generic untap engine with sufficient nonland mana.",
+      "named_cuts": [
+        "Blood Funnel"
+      ],
+      "incumbent_opportunity_cost": "Free Dramatic copy gets countered by our own Bauble or Mirror; removing Blood Funnel removes core Mishra asymmetry.",
+      "commander_synergy": "Scepter plus Dramatic Reversal offers a generic untap engine with sufficient nonland mana.",
+      "adversarial_downside": "Free Dramatic copy gets countered by our own Bauble or Mirror; removing Blood Funnel removes core Mishra asymmetry.",
+      "judgment": "REJECT",
+      "reason": "Prior two-model reconciliation correctly rejected the companion two-card package.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Dramatic Reversal",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Untaps nonland mana under Scepter when the copy resolves.",
+      "named_cuts": [
+        "Planar Chaos"
+      ],
+      "incumbent_opportunity_cost": "The copy is nonartifact and free cast; Bauble and Mirror counter it, and Nether Void taxes each cast.",
+      "commander_synergy": "Untaps nonland mana under Scepter when the copy resolves.",
+      "adversarial_downside": "The copy is nonartifact and free cast; Bauble and Mirror counter it, and Nether Void taxes each cast.",
+      "judgment": "REJECT",
+      "reason": "Do not replace a parity piece to enable unreliable generic Grixis combo.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Ice Cave",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Opponent-funded countering can tax spell casts.",
+      "named_cuts": [
+        "Planar Chaos"
+      ],
+      "incumbent_opportunity_cost": "The spell's controller is not an 'other player' permitted to pay Ice Cave for their own cast, so no self-counter Mishra retrieval.",
+      "commander_synergy": "Opponent-funded countering can tax spell casts.",
+      "adversarial_downside": "The spell's controller is not an 'other player' permitted to pay Ice Cave for their own cast, so no self-counter Mishra retrieval.",
+      "judgment": "REJECT",
+      "reason": "Lacks the intended commander asymmetry and can consume allied resources.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Winter Orb",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Artifact prison makes mana development asymmetric only if own artifacts replace lands.",
+      "named_cuts": [
+        "Uthros Research Craft"
+      ],
+      "incumbent_opportunity_cost": "Our 1UBR commander and blue counters are already color-constrained; Orb increases color bottleneck and does not enable Mishra recovery.",
+      "commander_synergy": "Artifact prison makes mana development asymmetric only if own artifacts replace lands.",
+      "adversarial_downside": "Our 1UBR commander and blue counters are already color-constrained; Orb increases color bottleneck and does not enable Mishra recovery.",
+      "judgment": "REJECT",
+      "reason": "Retain artifact-cast draw Uthros while prioritizing first commander access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Power Artifact",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Combines with Grim Monolith for unbounded colorless mana.",
+      "named_cuts": [
+        "Planar Chaos"
+      ],
+      "incumbent_opportunity_cost": "Nonartifact Aura self-counters under Blood Funnel, doesn't pay UBR and needs a second outlet to win; cuts true parity breaker.",
+      "commander_synergy": "Combines with Grim Monolith for unbounded colorless mana.",
+      "adversarial_downside": "Nonartifact Aura self-counters under Blood Funnel, doesn't pay UBR and needs a second outlet to win; cuts true parity breaker.",
+      "judgment": "REJECT",
+      "reason": "Generic infinite colorless is lower whole-deck fit than current Top/KCI package and prison core.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Kuldotha Forgemaster",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Creature tutors artifacts directly to battlefield after sacrificing three artifacts.",
+      "named_cuts": [
+        "Thought Monitor"
+      ],
+      "incumbent_opportunity_cost": "Five mana, summoning sickness, triple sacrifice and overlapping Engineer/Welder/Transmute roles.",
+      "commander_synergy": "Creature tutors artifacts directly to battlefield after sacrificing three artifacts.",
+      "adversarial_downside": "Five mana, summoning sickness, triple sacrifice and overlapping Engineer/Welder/Transmute roles.",
+      "judgment": "REJECT",
+      "reason": "Selected two-mana Station supports existing engines more consistently.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    },
+    {
+      "card": "Beseech the Mirror",
+      "source": "Live Scryfall 2026-10-26; EDHREC cEDH Stax and M6 full-99 research",
+      "role": "Bargain allows powerful universal tutoring and free-cast MV4-or-less options.",
+      "named_cuts": [
+        "Praetor's Grasp"
+      ],
+      "incumbent_opportunity_cost": "Triple black before high-pressure early game and vulnerable nonartifact cast in Blood Funnel.",
+      "commander_synergy": "Bargain allows powerful universal tutoring and free-cast MV4-or-less options.",
+      "adversarial_downside": "Triple black before high-pressure early game and vulnerable nonartifact cast in Blood Funnel.",
+      "judgment": "REJECT",
+      "reason": "Imperial Seal's single B is a cleaner role fit.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+        "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Lotus Petal",
+      "Deflecting Swat",
+      "Imperial Seal",
+      "Otawara, Soaring City",
+      "Flusterstorm",
+      "Grinding Station"
+    ],
+    "cuts": [
+      "Nullstone Gargoyle",
+      "Praetor's Grasp",
+      "Fabricate",
+      "Academy Ruins",
+      "Mana Drain",
+      "Thought Monitor"
+    ],
+    "coherent_package_tradeoff": "Six substantive simultaneous trades keep 29 lands and six of original seven counter-axis permanents plus Possibility Storm; accelerate colored Mishra access, one-U proactive protection, artifact combo outlet and land-channel interaction. Costs: the unique Gargoyle prison, artifact ETB draw, Academy recursion and Mana Drain universality. No forced extra substitutions."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Nullstone Gargoyle",
+        "weakness": "Nine-mana artifact lock rarely hardcast; demands cheat resources.",
+        "alternative_named": "Lotus Petal",
+        "reasoning": "Unique Welder-target first-spell prison sacrificed for one-shot colored access."
+      },
+      {
+        "card": "Praetor's Grasp",
+        "weakness": "3-mana opportunistic theft not always usable for own native win.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Loses theft but improves commander protection when safe from self-Bauble."
+      },
+      {
+        "card": "Fabricate",
+        "weakness": "Nonartifact three-mana tutor to hand needs separate artifact casting.",
+        "alternative_named": "Imperial Seal",
+        "reasoning": "One-black universal top tutor is delayed but protects early UBR access."
+      },
+      {
+        "card": "Academy Ruins",
+        "weakness": "Colorless-only land in high-pip 29-land base.",
+        "alternative_named": "Otawara, Soaring City",
+        "reasoning": "Loses dedicated artifact recursion for blue plus channel answer."
+      },
+      {
+        "card": "Mana Drain",
+        "weakness": "UU held open while casting 1UBR strains tight blue access.",
+        "alternative_named": "Flusterstorm",
+        "reasoning": "Loses universality and later colorless tempo."
+      },
+      {
+        "card": "Thought Monitor",
+        "weakness": "Often late draw-two even with artifact affinity, no deterministic outlet.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Loses ETB refill but gains cheap native recursion outlet."
+      },
+      {
+        "card": "Uthros Research Craft",
+        "weakness": "Needs Mishra tap or another high-power crew; conditional draw.",
+        "alternative_named": "Lotus Petal",
+        "reasoning": "Kept stationed cast-draw; prison-first challenger removes it."
+      },
+      {
+        "card": "Sculpting Steel",
+        "weakness": "Three mana copy has value but must have suitable battlefield object.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Kept copying lock/Forge while value-first challenger removes it."
+      },
+      {
+        "card": "Planar Chaos",
+        "weakness": "Random self-counter can interfere with nonartifact protection.",
+        "alternative_named": "Defense Grid",
+        "reasoning": "Kept true Mishra parity effect; higher-swap grid shifts into own-turn tempo."
+      },
+      {
+        "card": "Mox Amber",
+        "weakness": "Zero colored only after a qualifying legendary permanent.",
+        "alternative_named": "The Enigma Jewel",
+        "reasoning": "Kept repeatable post-Mishra mana; Jewel cannot cast commander."
+      },
+      {
+        "card": "Wishclaw Talisman",
+        "weakness": "Universal artifact tutor may transfer to opponents.",
+        "alternative_named": "Reshape",
+        "reasoning": "Kept fast access as artifact; Reshape self-counter and sacrifice cost."
+      },
+      {
+        "card": "Blood Funnel",
+        "weakness": "Counters our own noncreature instants/sorceries.",
+        "alternative_named": "Isochron Scepter",
+        "reasoning": "Kept premier Mishra reducer/counter; Scepter package self-fails under Bauble/Mirror."
+      }
+    ],
+    "off_ranked_opportunities": "Explored Grinding Station, Ice Cave, Power Artifact, Reshape, Defense Grid, Otawara alongside EDHREC high lift and prior Petal/Gargoyle candidate.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Lotus Petal",
+          "Deflecting Swat",
+          "Imperial Seal",
+          "Otawara, Soaring City",
+          "Flusterstorm",
+          "Grinding Station"
+        ],
+        "cuts": [
+          "Uthros Research Craft",
+          "Praetor's Grasp",
+          "Fabricate",
+          "Academy Ruins",
+          "Mana Drain",
+          "Thought Monitor"
+        ],
+        "result_and_rationale": "Prison-first complete 100 preserved Gargoyle but sacrificed draw Uthros. Loses repeatable triggered card access and leaves awkward nine mana."
+      },
+      {
+        "adds": [
+          "Lotus Petal",
+          "Deflecting Swat",
+          "Imperial Seal",
+          "Otawara, Soaring City",
+          "Flusterstorm",
+          "Grinding Station"
+        ],
+        "cuts": [
+          "Nullstone Gargoyle",
+          "Praetor's Grasp",
+          "Fabricate",
+          "Academy Ruins",
+          "Mana Drain",
+          "Sculpting Steel"
+        ],
+        "result_and_rationale": "Artifact-value complete 100 preserves Monitor but sacrifices lock copy Sculpting Steel. Direct draw upside loses Mishra-specific prison copying."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Lotus Petal reconsidered over both Nullstone Gargoyle and Uthros; Grinding Station over Thought Monitor and Sculpting Steel; Reshape versus Wishclaw or Fabricate. All compared as exact legal 100s.",
+    "strongest_argument_against_baseline": "One-shot Petal is absent despite a 4-color-symbol 1UBR commander in a 29-land deck with Workshop and other colorless sources; protection needs early U/R rather than late reactive mana.",
+    "evidence_based_answer": "Selected six open-ended, quality-grounded swaps after full source recovery and role-cost evaluation, despite losing real Gargoyle and Monitor strengths. No simulated win percentages."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Rechecked all 99 roles against earlier full named audit after sixth selected trade; tested the case for additional lower-curve tutors, artifact stax, protection and conditional mana without treating six as ceiling.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Planar Chaos",
+        "challenger": "Defense Grid",
+        "tradeoff": "Grid shields own turn at two mana but taxes own interaction on opponents' turns and deletes native counter-recoup trigger.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Wishclaw Talisman",
+        "challenger": "Reshape",
+        "tradeoff": "Reshape puts artifact directly in play and can trigger Scrap Trawler from sacrificed artifact, but is UUX and counterable as nonartifact under Funnel; Wishclaw retains universal tutoring.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/research_challengers/Mishra__Artificer_Prodigy_rev1_alt7_reshape.txt",
+        "sha256": "708d03593c2864df18d6bbcaecec12bc2fd07a46d011a5ce2849cd6c9e2129d4",
+        "adds": [
+          "Lotus Petal",
+          "Deflecting Swat",
+          "Imperial Seal",
+          "Otawara, Soaring City",
+          "Flusterstorm",
+          "Grinding Station",
+          "Reshape"
+        ],
+        "cuts": [
+          "Nullstone Gargoyle",
+          "Praetor's Grasp",
+          "Fabricate",
+          "Academy Ruins",
+          "Mana Drain",
+          "Thought Monitor",
+          "Wishclaw Talisman"
+        ],
+        "case_for_extra_swaps": "MVX battlefield artifact tutoring on top of primary six can speed specific lock completion with fodder.",
+        "why_not_selected": "Wishclaw's 2-mana artifact-based universal tutor has stronger flexibility and fewer second-color/replacement costs."
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Mishra__Artificer_Prodigy_rev1_alt7_defense_grid.txt",
+        "sha256": "82c2a25895910c947e20d7eb4ff2d49c31e76457e4be87857e789d688b98f7e5",
+        "adds": [
+          "Lotus Petal",
+          "Deflecting Swat",
+          "Imperial Seal",
+          "Otawara, Soaring City",
+          "Flusterstorm",
+          "Grinding Station",
+          "Defense Grid"
+        ],
+        "cuts": [
+          "Nullstone Gargoyle",
+          "Praetor's Grasp",
+          "Fabricate",
+          "Academy Ruins",
+          "Mana Drain",
+          "Thought Monitor",
+          "Planar Chaos"
+        ],
+        "case_for_extra_swaps": "Adds lower-curve artifact shielding combo turns, could be preferred at countermagic-heavy tables.",
+        "why_not_selected": "Deletes native self-counter parity and taxes own opposing-turn defensive spells, especially with less-than-ideal blue access."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "After tested whole 100 and four exact full 100 challengers, marginal additions weaken known native counter recursion, late artifact-copy/Universal tutor flexibility, or defense relative to role gains. Remaining credible dispute is Gargoyle prison versus Petal colored access; early UBR was prioritized transparently, not mathematically proven."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Mishra__Artificer_Prodigy_chatgpt_rev1.txt",
+    "sha256": "45c0d559f0aa859b84e2fb52baf31fdbb683de3e7bc7f211821b50420dee9761",
+    "card_count": 100,
+    "deckwide_reconciliation": "Exact 100/100 singleton and 29 lands, owner Oct15 source 100/100 baseline; 6 exact one-for-one swaps, six-source parity core+Storm retained, clean current 100/100 Scryfall selected identities (Oracle IDs, legal UBR) and live banned-list checkpoint."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/decision_reviews/Mishra__Artificer_Prodigy_chatgpt_rev1_review.md",
+      "data/grixis/m7/oracle_snapshots/Mishra__Artificer_Prodigy_Rev1_Scryfall_20261026.json",
+      "data/grixis/m7/verification/Mishra__Artificer_Prodigy_M7_Rev1_Case_Transfer_20261026.json"
+    ],
+    "power_bracket": 5,
+    "archidekt_tags": [
+      "Artifacts",
+      "Stax",
+      "Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}

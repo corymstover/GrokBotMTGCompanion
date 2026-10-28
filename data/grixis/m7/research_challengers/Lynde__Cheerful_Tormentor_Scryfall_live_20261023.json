@@ -1,0 +1,2925 @@
+{
+ "baseline_cards": [
+  {
+   "name": "Lynde, Cheerful Tormentor",
+   "oracle_id": "dc386f6c-bd4a-462a-8d42-0e7a552a4f17",
+   "mana_cost": "{1}{U}{B}{R}",
+   "cmc": 4.0,
+   "type_line": "Legendary Creature — Human Warlock",
+   "oracle_text": "Deathtouch\nWhenever a Curse is put into your graveyard from the battlefield, return it to the battlefield attached to you at the beginning of the next end step.\nAt the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards.",
+   "color_identity": [
+    "B",
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mic",
+   "power": "2",
+   "toughness": "4",
+   "keywords": [
+    "Deathtouch"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Accursed Witch // Infectious Curse",
+   "oracle_id": "80b07882-e144-4815-8b6f-04b3ab343d97",
+   "mana_cost": "{3}{B} // ",
+   "cmc": 4.0,
+   "type_line": "Creature — Human Shaman // Enchantment — Aura Curse",
+   "oracle_text": "Spells your opponents cast that target this creature cost {1} less to cast.\nWhen this creature dies, return it to the battlefield transformed under your control attached to target opponent.\n//\nEnchant player\nSpells you cast that target enchanted player cost {1} less to cast.\nAt the beginning of enchanted player's upkeep, that player loses 1 life and you gain 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2016-04-08",
+   "set": "soi",
+   "power": "4",
+   "toughness": "2",
+   "keywords": [
+    "Transform",
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Ancient Tomb",
+   "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+   "color_identity": [],
+   "game_changer": true,
+   "released_at": "2018-12-07",
+   "set": "uma",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Arcane Signet",
+   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Ashiok's Reaper",
+   "oracle_id": "6f1e5571-ddda-4cea-84ef-36a571d8fd51",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Creature — Nightmare",
+   "oracle_text": "Whenever an enchantment you control is put into a graveyard from the battlefield, draw a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-09-08",
+   "set": "woe",
+   "power": "3",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Badlands",
+   "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Swamp Mountain",
+   "oracle_text": "({T}: Add {B} or {R}.)",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2014-06-16",
+   "set": "vma",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Bitterheart Witch",
+   "oracle_id": "67466d56-9f28-4bbe-ae54-6fd834581e77",
+   "mana_cost": "{4}{B}",
+   "cmc": 5.0,
+   "type_line": "Creature — Human Shaman",
+   "oracle_text": "Deathtouch\nWhen this creature dies, you may search your library for a Curse card, put it onto the battlefield attached to target player, then shuffle.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2011-09-30",
+   "set": "isd",
+   "power": "1",
+   "toughness": "2",
+   "keywords": [
+    "Deathtouch"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Blasphemous Act",
+   "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+   "mana_cost": "{8}{R}",
+   "cmc": 9.0,
+   "type_line": "Sorcery",
+   "oracle_text": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Blood Crypt",
+   "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Swamp Mountain",
+   "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-11-13",
+   "set": "trk",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Bloodstained Mire",
+   "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2024-06-14",
+   "set": "mh3",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Bojuka Bog",
+   "oracle_id": "04b7362d-0490-4cb0-b5d7-2a7732f659ce",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2026-04-24",
+   "set": "soc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Braids, Arisen Nightmare",
+   "oracle_id": "e0445c80-fa53-4c3e-881e-940e9fce7f57",
+   "mana_cost": "{1}{B}{B}",
+   "cmc": 3.0,
+   "type_line": "Legendary Creature — Nightmare",
+   "oracle_text": "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2025-08-01",
+   "set": "eoc",
+   "power": "3",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Chaos Warp",
+   "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "City of Brass",
+   "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-03-06",
+   "set": "tmc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Claws of Gix",
+   "oracle_id": "c4d384d7-f294-4b2d-9971-a4689c150255",
+   "mana_cost": "{0}",
+   "cmc": 0.0,
+   "type_line": "Artifact",
+   "oracle_text": "{1}, Sacrifice a permanent: You gain 1 life.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2006-10-06",
+   "set": "tsb",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Clever Impersonator",
+   "oracle_id": "d4ec0df9-a4a3-48cf-a0aa-b1aea5c49142",
+   "mana_cost": "{2}{U}{U}",
+   "cmc": 4.0,
+   "type_line": "Creature — Shapeshifter",
+   "oracle_text": "You may have this creature enter as a copy of any nonland permanent on the battlefield.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2019-08-23",
+   "set": "c19",
+   "power": "0",
+   "toughness": "0",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Command Tower",
+   "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Copy Enchantment",
+   "oracle_id": "87bc0b1f-49ef-4c06-9049-2c148b467882",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "You may have this enchantment enter as a copy of any enchantment on the battlefield.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-01-12",
+   "set": "rvr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Cruel Reality",
+   "oracle_id": "2e3cc9b6-7849-4385-a487-c8f5364174e7",
+   "mana_cost": "{5}{B}{B}",
+   "cmc": 7.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker of their choice. If the player can't, they lose 5 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2017-04-28",
+   "set": "akh",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Bloodletting",
+   "oracle_id": "3383a72f-fb83-4b9a-aca6-b736ed929c2e",
+   "mana_cost": "{3}{R}{R}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nIf a source would deal damage to enchanted player, it deals double that damage to that player instead.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2012-02-03",
+   "set": "dka",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant",
+    "Double"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Death's Hold",
+   "oracle_id": "7194cf15-69fc-46f0-987a-2cea8b498f50",
+   "mana_cost": "{3}{B}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nCreatures enchanted player controls get -1/-1.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2011-09-30",
+   "set": "isd",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Disturbance",
+   "oracle_id": "6cbd36d9-de47-41b0-9ef4-a72ca01adccd",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player is attacked, create a 2/2 black Zombie creature token. Each opponent attacking that player does the same.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2021-04-23",
+   "set": "c21",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Echoes",
+   "oracle_id": "c99bac4b-7eec-4fdf-b344-0cf9639ff073",
+   "mana_cost": "{4}{U}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy they control.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2012-02-03",
+   "set": "dka",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Fool's Wisdom",
+   "oracle_id": "93b2a685-8267-4cbd-ac55-db6ff95fe98d",
+   "mana_cost": "{4}{B}{B}",
+   "cmc": 6.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player draws a card, they lose 2 life and you gain 2 life.\nMadness {3}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2019-08-23",
+   "set": "c19",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Madness",
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Hospitality",
+   "oracle_id": "0fb70b94-0847-4155-8953-cb53fef82ef1",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nCreatures attacking enchanted player have trample.\nWhenever a creature deals combat damage to enchanted player, that player exiles the top card of their library. Until end of turn, that creature's controller may play that card and they may spend mana as though it were mana of any color to cast that spell.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2021-11-19",
+   "set": "vow",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Misfortunes",
+   "oracle_id": "b03c7c8d-8206-45cd-8ead-8f7b35c03a7a",
+   "mana_cost": "{4}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of your upkeep, you may search your library for a Curse card that doesn't have the same name as a Curse attached to enchanted player, put it onto the battlefield attached to that player, then shuffle.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2012-02-03",
+   "set": "dka",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Obsession",
+   "oracle_id": "ca4b4bf2-ed34-444c-9088-dd1ea488ec4e",
+   "mana_cost": "{4}{R}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's draw step, that player draws two additional cards.\nAt the beginning of enchanted player's end step, that player discards their hand.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mic",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Opulence",
+   "oracle_id": "ba0d3df2-3acf-46d7-8d64-8d67d1579adc",
+   "mana_cost": "{R}",
+   "cmc": 1.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player is attacked, create a Gold token. Each opponent attacking that player does the same. (A Gold token is an artifact with \"Sacrifice this token: Add one mana of any color.\")",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2025-04-11",
+   "set": "tdc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Shaken Faith",
+   "oracle_id": "297494f0-1f79-4f77-b68b-6ed858e21f4e",
+   "mana_cost": "{1}{R}",
+   "cmc": 2.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player casts a spell other than the first spell they cast each turn or copies a spell, this Aura deals 2 damage to them.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mid",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Surveillance",
+   "oracle_id": "4fd061f2-7269-4eea-bc7c-95a123893efa",
+   "mana_cost": "{4}{U}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, any number of target players other than that player each draw cards equal to the number of Curses attached to that player.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mid",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Thirst",
+   "oracle_id": "ffe3ad06-50d8-4ca3-a1f7-aa31dc2c486e",
+   "mana_cost": "{4}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, this Aura deals damage to that player equal to the number of Curses attached to them.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2012-02-03",
+   "set": "dka",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Unbinding",
+   "oracle_id": "7e79cb6c-df9a-46d1-b3c6-240297e7d47d",
+   "mana_cost": "{6}{U}",
+   "cmc": 7.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player reveals cards from the top of their library until they reveal a creature card. Put that card onto the battlefield under your control. That player puts the rest of the revealed cards into their graveyard.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mic",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Vengeance",
+   "oracle_id": "b9b1c644-041a-4b61-9d6d-bc73a3a95bb8",
+   "mana_cost": "{B}",
+   "cmc": 1.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player casts a spell, put a spite counter on this Aura.\nWhen enchanted player loses the game, you gain X life and draw X cards, where X is the number of spite counters on this Aura.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2016-11-11",
+   "set": "c16",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Verbosity",
+   "oracle_id": "c6f76fa7-095e-4bfe-a38c-5c4531880880",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player is attacked, you draw a card. Each opponent attacking that player does the same.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2022-06-10",
+   "set": "clb",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of the Restless Dead",
+   "oracle_id": "0b5f7a1b-fbb9-4659-8fcb-7822dc0263bc",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever a land enchanted player controls enters, you create a 2/2 black Zombie creature token with decayed. (It can't block. When it attacks, sacrifice it at end of combat.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mic",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Cyclonic Rift",
+   "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+   "mana_cost": "{1}{U}",
+   "cmc": 2.0,
+   "type_line": "Instant",
+   "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": true,
+   "released_at": "2024-01-12",
+   "set": "rvr",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Overload"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Damnation",
+   "oracle_id": "d57a8f0b-7989-4db5-8756-6f2690097252",
+   "mana_cost": "{2}{B}{B}",
+   "cmc": 4.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Destroy all creatures. They can't be regenerated.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2022-07-08",
+   "set": "2x2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Deadly Rollick",
+   "oracle_id": "0456ec64-2c81-4763-a352-8ff64a4c3d6b",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Instant",
+   "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Deflecting Swat",
+   "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Demon of Fate's Design",
+   "oracle_id": "53716e0b-4d4e-40b0-8370-38e11f73d195",
+   "mana_cost": "{4}{B}{B}",
+   "cmc": 6.0,
+   "type_line": "Enchantment Creature — Demon",
+   "oracle_text": "Flying, trample\nOnce during each of your turns, you may cast an enchantment spell by paying life equal to its mana value rather than paying its mana cost.\n{2}{B}, Sacrifice another enchantment: This creature gets +X/+0 until end of turn, where X is the sacrificed enchantment's mana value.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": "6",
+   "toughness": "6",
+   "keywords": [
+    "Flying",
+    "Trample"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Demonic Tutor",
+   "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": true,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Despotic Scepter",
+   "oracle_id": "34a85d7f-d4ea-4a0f-aa4c-bf0b0f4987bf",
+   "mana_cost": "{1}",
+   "cmc": 1.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Destroy target permanent you own. It can't be regenerated.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2008-09-22",
+   "set": "me2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Dimir Signet",
+   "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{1}, {T}: Add {U}{B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Doomwake Giant",
+   "oracle_id": "ba069664-9f92-47c7-b556-9e5143a22579",
+   "mana_cost": "{4}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment Creature — Giant",
+   "oracle_text": "Constellation — Whenever this creature or another enchantment you control enters, creatures your opponents control get -1/-1 until end of turn.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2026-04-24",
+   "set": "soc",
+   "power": "4",
+   "toughness": "6",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Entity Tracker",
+   "oracle_id": "c9db5293-4866-46ec-9ae8-059d27bd50fc",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Creature — Human Scout",
+   "oracle_text": "Flash\nEerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, draw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsk",
+   "power": "2",
+   "toughness": "3",
+   "keywords": [
+    "Flash",
+    "Eerie"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Estrid's Invocation",
+   "oracle_id": "7f5f10ee-6428-4053-8824-3bc70420ec2c",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "You may have this enchantment enter as a copy of an enchantment you control, except it has \"At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.\"",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-06-14",
+   "set": "mh3",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Exotic Orchard",
+   "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Fierce Guardianship",
+   "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": true,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Flooded Strand",
+   "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2024-06-14",
+   "set": "mh3",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Grim Guardian",
+   "oracle_id": "c1f1babf-13d0-4fc4-b192-127d2d5db7f1",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Enchantment Creature — Zombie",
+   "oracle_text": "Constellation — Whenever this creature or another enchantment you control enters, each opponent loses 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2014-05-02",
+   "set": "jou",
+   "power": "1",
+   "toughness": "4",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Imperial Seal",
+   "oracle_id": "16cd0b90-f70c-4efa-b252-8de8784ef9a3",
+   "mana_cost": "{B}",
+   "cmc": 1.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": true,
+   "released_at": "2022-07-08",
+   "set": "2x2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Island",
+   "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Basic Land — Island",
+   "oracle_text": "({T}: Add {U}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2027-04-09",
+   "set": "mdd",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Jeska's Will",
+   "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": true,
+   "released_at": "2024-02-09",
+   "set": "mkc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Luxury Suite",
+   "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Maddening Hex",
+   "oracle_id": "5d96170f-14dd-496e-a485-bd3b9eedfe02",
+   "mana_cost": "{1}{R}{R}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever enchanted player casts a noncreature spell, roll a d6. This Aura deals damage to that player equal to the result. Then attach this Aura to another one of your opponents chosen at random.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2021-07-23",
+   "set": "afc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mana Confluence",
+   "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2014-05-02",
+   "set": "jou",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mana Drain",
+   "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+   "mana_cost": "{U}{U}",
+   "cmc": 2.0,
+   "type_line": "Instant",
+   "oracle_text": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2022-07-08",
+   "set": "2x2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Marsh Flats",
+   "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2021-06-18",
+   "set": "mh2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mirrormade",
+   "oracle_id": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+   "mana_cost": "{1}{U}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "You may have this enchantment enter as a copy of any artifact or enchantment on the battlefield.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Misty Rainforest",
+   "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2021-06-18",
+   "set": "mh2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Morphic Pool",
+   "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2022-06-10",
+   "set": "clb",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mountain",
+   "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Basic Land — Mountain",
+   "oracle_text": "({T}: Add {R}.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2027-04-09",
+   "set": "mdd",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Nightscape Familiar",
+   "oracle_id": "57296ea3-3c0d-49b7-bc08-0d0d8414e9ad",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Creature — Zombie",
+   "oracle_text": "Blue spells and red spells you cast cost {1} less to cast.\n{1}{B}: Regenerate this creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": "1",
+   "toughness": "1",
+   "keywords": [
+    "Regenerate"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Obeka, Splitter of Seconds",
+   "oracle_id": "1d15a06f-5471-48f2-8c4a-9b0886bef5af",
+   "mana_cost": "{1}{U}{B}{R}",
+   "cmc": 4.0,
+   "type_line": "Legendary Creature — Ogre Warlock",
+   "oracle_text": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+   "color_identity": [
+    "B",
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-04-19",
+   "set": "otj",
+   "power": "2",
+   "toughness": "5",
+   "keywords": [
+    "Menace"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Paradox Haze",
+   "oracle_id": "daff0e7b-08f2-435f-97b9-9b000e94ffa8",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's first upkeep each turn, that player gets an additional upkeep step after this step.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2006-10-06",
+   "set": "tsp",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Perilous Research",
+   "oracle_id": "9243b539-5f9e-4bb3-9973-3d48366aa7cc",
+   "mana_cost": "{1}{U}",
+   "cmc": 2.0,
+   "type_line": "Instant",
+   "oracle_text": "Draw two cards, then sacrifice a permanent.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2013-06-07",
+   "set": "mma",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Polluted Delta",
+   "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2024-06-14",
+   "set": "mh3",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Propaganda",
+   "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Rakdos Signet",
+   "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{1}, {T}: Add {B}{R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Rhystic Study",
+   "oracle_id": "53236dd7-845a-444c-96d5-f41ed7325d8f",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": true,
+   "released_at": "2022-12-02",
+   "set": "j22",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Riverglide Pathway // Lavaglide Pathway",
+   "oracle_id": "4924b3a4-a218-4783-8a4d-82361fdecc78",
+   "mana_cost": " // ",
+   "cmc": 0.0,
+   "type_line": "Land // Land",
+   "oracle_text": "{T}: Add {U}.\n//\n{T}: Add {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2020-09-25",
+   "set": "znr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Scalding Tarn",
+   "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2021-06-18",
+   "set": "mh2",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Shivan Reef",
+   "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Sol Ring",
+   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+   "mana_cost": "{1}",
+   "cmc": 1.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add {C}{C}.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Steam Vents",
+   "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Island Mountain",
+   "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-11-13",
+   "set": "trk",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Sulfurous Springs",
+   "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Swamp",
+   "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Basic Land — Swamp",
+   "oracle_text": "({T}: Add {B}.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2027-04-09",
+   "set": "mdd",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Swan Song",
+   "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+   "mana_cost": "{U}",
+   "cmc": 1.0,
+   "type_line": "Instant",
+   "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2025-08-01",
+   "set": "eoc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Talisman of Creativity",
+   "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Talisman of Dominance",
+   "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Talisman of Indulgence",
+   "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "The Ninth Doctor",
+   "oracle_id": "c99f59c0-5cce-41a4-908f-d34e2c697419",
+   "mana_cost": "{1}{U}{R}",
+   "cmc": 3.0,
+   "type_line": "Legendary Creature — Time Lord Doctor",
+   "oracle_text": "Haste\nInto the TARDIS — Whenever The Ninth Doctor becomes untapped during your untap step, you get an additional upkeep step after this step.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2023-10-13",
+   "set": "who",
+   "power": "2",
+   "toughness": "4",
+   "keywords": [
+    "Into the TARDIS",
+    "Haste"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Torment of Scarabs",
+   "oracle_id": "4ba5bcee-fc95-4d05-965e-b1762529ec5f",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2017-07-14",
+   "set": "hou",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Toxic Deluge",
+   "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Sorcery",
+   "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Training Center",
+   "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Trespasser's Curse",
+   "oracle_id": "2769751d-ca67-4d6e-93c9-9587367ae8ab",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever a creature enchanted player controls enters, that player loses 1 life and you gain 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2017-04-28",
+   "set": "akh",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Underground Sea",
+   "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Island Swamp",
+   "oracle_text": "({T}: Add {U} or {B}.)",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2014-06-16",
+   "set": "vma",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Vampiric Tutor",
+   "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+   "mana_cost": "{B}",
+   "cmc": 1.0,
+   "type_line": "Instant",
+   "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": true,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Volcanic Island",
+   "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Island Mountain",
+   "oracle_text": "({T}: Add {U} or {R}.)",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2014-06-16",
+   "set": "vma",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Watery Grave",
+   "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Island Swamp",
+   "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-11-13",
+   "set": "trk",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Wicked Visitor",
+   "oracle_id": "10330a79-a416-40da-bf5a-8b7cbd9a0498",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Creature — Nightmare",
+   "oracle_text": "Whenever an enchantment you control is put into a graveyard from the battlefield, each opponent loses 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-09-08",
+   "set": "woe",
+   "power": "2",
+   "toughness": "2",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Withering Torment",
+   "oracle_id": "ffce81c5-1b58-4882-a4e7-6f8d7cb170de",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "Destroy target creature or enchantment. You lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Xander's Lounge",
+   "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land — Island Swamp Mountain",
+   "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "B",
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2022-04-29",
+   "set": "snc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Cycling"
+   ],
+   "commander_legality": "legal"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Staff of Compleation",
+   "oracle_id": "11c7662f-e688-40a6-98fd-6ae89d231b44",
+   "mana_cost": "{3}",
+   "cmc": 3.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}, Pay 1 life: Destroy target permanent you own.\n{T}, Pay 2 life: Add one mana of any color.\n{T}, Pay 3 life: Proliferate.\n{T}, Pay 4 life: Draw a card.\n{5}: Untap this artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2025-04-11",
+   "set": "tdc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Proliferate"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Court of Vantress",
+   "oracle_id": "ad82b43b-b15e-48f4-86ab-5ee2c448cf14",
+   "mana_cost": "{2}{U}{U}",
+   "cmc": 4.0,
+   "type_line": "Enchantment",
+   "oracle_text": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, choose up to one other target enchantment or artifact. If you're the monarch, you may create a token that's a copy of it. If you're not the monarch, you may have this enchantment become a copy of it, except it has this ability.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "plst",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Extravagant Replication",
+   "oracle_id": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+   "mana_cost": "{4}{U}{U}",
+   "cmc": 6.0,
+   "type_line": "Enchantment",
+   "oracle_text": "At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-11-15",
+   "set": "fdn",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Thoughtrender Lamia",
+   "oracle_id": "d97c4bca-6433-4cb0-b63a-fdf8360fc29c",
+   "mana_cost": "{4}{B}{B}",
+   "cmc": 6.0,
+   "type_line": "Enchantment Creature — Lamia",
+   "oracle_text": "Constellation — Whenever this creature or another enchantment you control enters, each opponent discards a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2014-05-02",
+   "set": "jou",
+   "power": "5",
+   "toughness": "3",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Disturbing Mirth",
+   "oracle_id": "7010bfbb-8aea-473b-a9a5-27488de13cc5",
+   "mana_cost": "{B}{R}",
+   "cmc": 2.0,
+   "type_line": "Enchantment",
+   "oracle_text": "When this enchantment enters, you may sacrifice another enchantment or creature. If you do, draw two cards.\nWhen you sacrifice this enchantment, manifest dread. (Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.)",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsk",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Manifest",
+    "Manifest dread"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Teferi's Ageless Insight",
+   "oracle_id": "1c9e1f75-73f0-4846-b53f-458a0984b1bb",
+   "mana_cost": "{2}{U}{U}",
+   "cmc": 4.0,
+   "type_line": "Legendary Enchantment",
+   "oracle_text": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-02-09",
+   "set": "mkc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Cloud Key",
+   "oracle_id": "2a838818-d590-4374-9a63-d9e6381a0f0d",
+   "mana_cost": "{3}",
+   "cmc": 3.0,
+   "type_line": "Artifact",
+   "oracle_text": "As this artifact enters, choose artifact, creature, enchantment, instant, or sorcery.\nSpells you cast of the chosen type cost {1} less to cast.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2025-08-01",
+   "set": "eoc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Crawlspace",
+   "oracle_id": "2296370c-fe34-4df6-92a5-260f1634bede",
+   "mana_cost": "{3}",
+   "cmc": 3.0,
+   "type_line": "Artifact",
+   "oracle_text": "No more than two creatures can attack you each combat.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Forgeborn Oreads",
+   "oracle_id": "8289190c-b180-48e3-b92f-7dccbca61b39",
+   "mana_cost": "{2}{R}{R}",
+   "cmc": 4.0,
+   "type_line": "Enchantment Creature — Nymph",
+   "oracle_text": "Constellation — Whenever this creature or another enchantment you control enters, this creature deals 1 damage to any target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2014-05-02",
+   "set": "jou",
+   "power": "4",
+   "toughness": "2",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Agent of Erebos",
+   "oracle_id": "3fa5e109-4a67-4523-8183-90e48a906400",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Enchantment Creature — Zombie",
+   "oracle_text": "Constellation — Whenever this creature or another enchantment you control enters, exile target player's graveyard.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2014-05-02",
+   "set": "jou",
+   "power": "2",
+   "toughness": "2",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Balemurk Leech",
+   "oracle_id": "a511772c-3739-469d-a5a2-5827b7ce9b5c",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Creature — Leech",
+   "oracle_text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, each opponent loses 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsk",
+   "power": "2",
+   "toughness": "2",
+   "keywords": [
+    "Eerie"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Blightcaster",
+   "oracle_id": "b40e2aae-3a1d-4bc2-bf67-e821ec800434",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Creature — Human Wizard",
+   "oracle_text": "Whenever you cast an enchantment spell, you may have target creature get -2/-2 until end of turn.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2015-07-17",
+   "set": "ori",
+   "power": "2",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Fear of Sleep Paralysis",
+   "oracle_id": "a3a1f149-febe-4ff6-9e34-8b82ef21c2ee",
+   "mana_cost": "{5}{U}",
+   "cmc": 6.0,
+   "type_line": "Enchantment Creature — Nightmare",
+   "oracle_text": "Flying\nEerie — Whenever this creature or another enchantment you control enters and whenever you fully unlock a Room, tap up to one target creature and put a stun counter on it.\nStun counters can't be removed from permanents your opponents control. (They won't untap if they have stun counters.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": "6",
+   "toughness": "6",
+   "keywords": [
+    "Flying",
+    "Eerie"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of the Bloody Tome",
+   "oracle_id": "5480f855-80b7-45c7-94a9-071c7b5d5ccf",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, that player mills two cards.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2011-09-30",
+   "set": "isd",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant",
+    "Mill"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Grievous Wound",
+   "oracle_id": "4d97b9d1-1138-40da-b593-8065ea6ed7b3",
+   "mana_cost": "{3}{B}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment — Aura",
+   "oracle_text": "Enchant player\nEnchanted player can't gain life.\nWhenever enchanted player is dealt damage, they lose half their life, rounded up.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsk",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Rowan's Grim Search",
+   "oracle_id": "f60234e4-9b53-47a5-a21a-82c80b5af072",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nIf this spell was bargained, look at the top four cards of your library, then put up to two of them back on top of your library in any order and the rest into your graveyard.\nYou draw two cards and you lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-09-08",
+   "set": "woe",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Bargain"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Reliquary Tower",
+   "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-04-24",
+   "set": "soc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Barrin, Master Wizard",
+   "oracle_id": "8c6d6684-1943-4af3-98da-951604193911",
+   "mana_cost": "{1}{U}{U}",
+   "cmc": 3.0,
+   "type_line": "Legendary Creature — Human Wizard",
+   "oracle_text": "{2}, Sacrifice a permanent: Return target creature to its owner's hand.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "1998-10-12",
+   "set": "usg",
+   "power": "1",
+   "toughness": "1",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Magmaw",
+   "oracle_id": "bc891258-2f22-4248-9972-4f41905744c6",
+   "mana_cost": "{3}{R}{R}",
+   "cmc": 5.0,
+   "type_line": "Creature — Elemental",
+   "oracle_text": "{1}, Sacrifice a nonland permanent: This creature deals 1 damage to any target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2018-12-07",
+   "set": "uma",
+   "power": "4",
+   "toughness": "4",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Witchbane Orb",
+   "oracle_id": "7411a8f4-b736-482f-886e-5fa671e94e0d",
+   "mana_cost": "{4}",
+   "cmc": 4.0,
+   "type_line": "Artifact",
+   "oracle_text": "When this artifact enters, destroy all Curses attached to you.\nYou have hexproof. (You can't be the target of spells or abilities your opponents control, including Aura spells.)",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2011-09-30",
+   "set": "isd",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Phyrexian Arena",
+   "oracle_id": "ee579a32-a048-4335-b966-231ba731cdea",
+   "mana_cost": "{1}{B}{B}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "At the beginning of your upkeep, you draw a card and lose 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-11-15",
+   "set": "fdn",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mystic Remora",
+   "oracle_id": "8a52f3c0-2552-4425-b2e3-5496eb2232a7",
+   "mana_cost": "{U}",
+   "cmc": 1.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Cumulative upkeep"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Strionic Resonator",
+   "oracle_id": "cf751552-156f-4f81-ac94-9814dce099f9",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2023-04-21",
+   "set": "moc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Chaos",
+   "oracle_id": "a242af4b-5de6-4961-b684-f4bd809977c6",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nWhenever a player attacks enchanted player with one or more creatures, that attacking player may discard a card. If the player does, they draw a card.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2013-11-01",
+   "set": "c13",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Sphinx of the Second Sun",
+   "oracle_id": "516101be-be39-4d84-8fee-d8a79930dd0a",
+   "mana_cost": "{6}{U}{U}",
+   "cmc": 8.0,
+   "type_line": "Creature — Sphinx",
+   "oracle_text": "Flying\nAt the beginning of each of your postcombat main phases, there is an additional beginning phase after this phase. (The beginning phase includes the untap, upkeep, and draw steps.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-02-09",
+   "set": "mkc",
+   "power": "6",
+   "toughness": "6",
+   "keywords": [
+    "Flying"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Protean Thaumaturge",
+   "oracle_id": "148331cc-24de-481f-9131-c3089d1ff7ce",
+   "mana_cost": "{1}{U}",
+   "cmc": 2.0,
+   "type_line": "Creature — Human Wizard",
+   "oracle_text": "Constellation — Whenever an enchantment you control enters, you may have this creature become a copy of another target creature, except it has this ability.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2020-01-24",
+   "set": "thb",
+   "power": "1",
+   "toughness": "1",
+   "keywords": [
+    "Constellation"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Crystal Chimes",
+   "oracle_id": "fbff7452-1da4-4cd0-8247-a625e4b4da2b",
+   "mana_cost": "{3}",
+   "cmc": 3.0,
+   "type_line": "Artifact",
+   "oracle_text": "{3}, {T}, Sacrifice this artifact: Return all enchantment cards from your graveyard to your hand.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2015-11-13",
+   "set": "c15",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Silent Arbiter",
+   "oracle_id": "1cdf30de-d88c-421a-80df-4917bbd2f09e",
+   "mana_cost": "{4}",
+   "cmc": 4.0,
+   "type_line": "Artifact Creature — Construct",
+   "oracle_text": "No more than one creature can attack each combat.\nNo more than one creature can block each combat.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": "1",
+   "toughness": "5",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Stuffy Doll",
+   "oracle_id": "499dceab-1890-49c8-b35d-b059a1dc950f",
+   "mana_cost": "{5}",
+   "cmc": 5.0,
+   "type_line": "Artifact Creature — Construct",
+   "oracle_text": "Indestructible\nAs this creature enters, choose a player.\nWhenever this creature is dealt damage, it deals that much damage to the chosen player.\n{T}: This creature deals 1 damage to itself.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2022-06-10",
+   "set": "clb",
+   "power": "0",
+   "toughness": "1",
+   "keywords": [
+    "Indestructible"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Callaphe, Beloved of the Sea",
+   "oracle_id": "faf081dc-1fb2-47ac-a9c7-8001b4904120",
+   "mana_cost": "{1}{U}{U}",
+   "cmc": 3.0,
+   "type_line": "Legendary Enchantment Creature — Demigod",
+   "oracle_text": "Callaphe's power is equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)\nCreatures and enchantments you control have \"Spells your opponents cast that target this permanent cost {1} more to cast.\"",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2020-01-24",
+   "set": "thb",
+   "power": "*",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Wound Reflection",
+   "oracle_id": "b09206a4-8b73-4125-8b79-53f6fd511b16",
+   "mana_cost": "{5}{B}",
+   "cmc": 6.0,
+   "type_line": "Enchantment",
+   "oracle_text": "At the beginning of each end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2020-08-07",
+   "set": "2xm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Revenge of Ravens",
+   "oracle_id": "dd96f145-73eb-4a6d-bcfd-5d6313fac1f9",
+   "mana_cost": "{3}{B}",
+   "cmc": 4.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Whenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life and you gain 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2019-10-04",
+   "set": "eld",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "No Mercy",
+   "oracle_id": "b9538d53-480b-481a-abbf-83ab17e1a45b",
+   "mana_cost": "{2}{B}{B}",
+   "cmc": 4.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Whenever a creature deals damage to you, destroy it.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Swiftfoot Boots",
+   "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact — Equipment",
+   "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Equip"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Lightning Greaves",
+   "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact — Equipment",
+   "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Equip"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Hateful Eidolon",
+   "oracle_id": "a3b39590-34b7-4fd0-877f-748e6df30e88",
+   "mana_cost": "{B}",
+   "cmc": 1.0,
+   "type_line": "Enchantment Creature — Spirit",
+   "oracle_text": "Lifelink\nWhenever an enchanted creature dies, draw a card for each Aura you controlled that was attached to it.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2026-04-24",
+   "set": "soc",
+   "power": "1",
+   "toughness": "2",
+   "keywords": [
+    "Lifelink"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Maze of Ith",
+   "oracle_id": "38a12bd7-4394-44a8-91a0-6a4ff7fa4f71",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Land",
+   "oracle_text": "{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2023-01-13",
+   "set": "dmr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Urborg, Tomb of Yawgmoth",
+   "oracle_id": "db6174d7-211d-4817-b8e4-8384594c83f9",
+   "mana_cost": "",
+   "cmc": 0.0,
+   "type_line": "Legendary Land",
+   "oracle_text": "Each land is a Swamp in addition to its other land types.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2021-03-19",
+   "set": "tsr",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Fellwar Stone",
+   "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Izzet Signet",
+   "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "{1}, {T}: Add {U}{R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-02",
+   "set": "frc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Thought Vessel",
+   "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be",
+   "mana_cost": "{2}",
+   "cmc": 2.0,
+   "type_line": "Artifact",
+   "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
+   "color_identity": [],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of Leeches // Leeching Lurker",
+   "oracle_id": "44eb0caa-ba16-49e4-915c-bd5e1ce770e6",
+   "mana_cost": "{2}{B} // ",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura Curse // Creature — Leech Horror",
+   "oracle_text": "Enchant player\nAs this permanent transforms into Curse of Leeches, attach it to a player.\nAt the beginning of enchanted player's upkeep, they lose 1 life and you gain 1 life.\nDaybound (If a player casts no spells during their own turn, it becomes night next turn.)\n//\nLifelink\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2021-09-24",
+   "set": "mid",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Lifelink",
+    "Transform",
+    "Daybound",
+    "Enchant",
+    "Nightbound"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Curse of the Pierced Heart",
+   "oracle_id": "f22c3624-6bd5-4761-b8ad-ac301ad9351c",
+   "mana_cost": "{1}{R}",
+   "cmc": 2.0,
+   "type_line": "Enchantment — Aura Curse",
+   "oracle_text": "Enchant player\nAt the beginning of enchanted player's upkeep, this Aura deals 1 damage to that player or a planeswalker that player controls.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2011-09-30",
+   "set": "isd",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Feed the Swarm",
+   "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed",
+   "mana_cost": "{1}{B}",
+   "cmc": 2.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2025-11-21",
+   "set": "tle",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Bedevil",
+   "oracle_id": "bceecc64-96f1-4e7b-8904-0aef90377764",
+   "mana_cost": "{B}{B}{R}",
+   "cmc": 3.0,
+   "type_line": "Instant",
+   "oracle_text": "Destroy target artifact, creature, or planeswalker.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Counterspell",
+   "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+   "mana_cost": "{U}{U}",
+   "cmc": 2.0,
+   "type_line": "Instant",
+   "oracle_text": "Counter target spell.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Terminate",
+   "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+   "mana_cost": "{B}{R}",
+   "cmc": 2.0,
+   "type_line": "Instant",
+   "oracle_text": "Destroy target creature. It can't be regenerated.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Valeria Richards, Precocious",
+   "oracle_id": "89931cf0-f20b-49b5-88c6-2a92aee8c50c",
+   "mana_cost": "{3}{U}",
+   "cmc": 4.0,
+   "type_line": "Legendary Creature — Human Scientist Hero",
+   "oracle_text": "Noncreature spells you cast cost {1} less to cast.\nWhenever you cast your first noncreature spell each turn, draw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2026-06-26",
+   "set": "msc",
+   "power": "3",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Xantcha, Sleeper Agent",
+   "oracle_id": "0f0f3712-8d13-41a5-b332-2ab34e48d79d",
+   "mana_cost": "{1}{B}{R}",
+   "cmc": 3.0,
+   "type_line": "Legendary Creature — Phyrexian Minion",
+   "oracle_text": "Xantcha enters under the control of an opponent of your choice.\nXantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.\n{3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2023-08-04",
+   "set": "cmm",
+   "power": "5",
+   "toughness": "5",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Brash Taunter",
+   "oracle_id": "3e41648f-c5a9-4b26-b97e-8176fe5e9c85",
+   "mana_cost": "{4}{R}",
+   "cmc": 5.0,
+   "type_line": "Creature — Goblin",
+   "oracle_text": "Indestructible\nWhenever this creature is dealt damage, it deals that much damage to target opponent.\n{2}{R}, {T}: This creature fights another target creature.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": "1",
+   "toughness": "1",
+   "keywords": [
+    "Indestructible",
+    "Fight"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Kardur, Doomscourge",
+   "oracle_id": "bc14356c-3a1a-47af-9a6e-2b449de0331f",
+   "mana_cost": "{2}{B}{R}",
+   "cmc": 4.0,
+   "type_line": "Legendary Creature — Demon Berserker",
+   "oracle_text": "When Kardur enters, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able.\nWhenever an attacking creature dies, each opponent loses 1 life and you gain 1 life.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": "4",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Mogis, God of Slaughter",
+   "oracle_id": "e5912d21-e188-4b9e-8e92-a6e8196353c6",
+   "mana_cost": "{2}{B}{R}",
+   "cmc": 4.0,
+   "type_line": "Legendary Enchantment Creature — God",
+   "oracle_text": "Indestructible\nAs long as your devotion to black and red is less than seven, Mogis isn't a creature.\nAt the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature of their choice.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": "7",
+   "toughness": "5",
+   "keywords": [
+    "Indestructible"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Puca's Mischief",
+   "oracle_id": "a8e6655c-e63f-4a60-98f6-9d5bf8631488",
+   "mana_cost": "{3}{U}",
+   "cmc": 4.0,
+   "type_line": "Enchantment",
+   "oracle_text": "At the beginning of your upkeep, you may exchange control of target nonland permanent you control and target nonland permanent an opponent controls with equal or lesser mana value.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2008-05-02",
+   "set": "shm",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Imprisoned in the Moon",
+   "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936",
+   "mana_cost": "{2}{U}",
+   "cmc": 3.0,
+   "type_line": "Enchantment — Aura",
+   "oracle_text": "Enchant creature, land, or planeswalker\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2025-01-24",
+   "set": "inr",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Enchant"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Painful Quandary",
+   "oracle_id": "c37051cc-6683-4dbb-b5ff-5c3a5bdab1df",
+   "mana_cost": "{3}{B}{B}",
+   "cmc": 5.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Whenever an opponent casts a spell, that player loses 5 life unless they discard a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-11-15",
+   "set": "fdn",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Into the Pit",
+   "oracle_id": "e330412f-46a1-4e7c-8766-f644606049e0",
+   "mana_cost": "{2}{B}",
+   "cmc": 3.0,
+   "type_line": "Enchantment",
+   "oracle_text": "You may look at the top card of your library any time.\nYou may cast spells from the top of your library by sacrificing a nonland permanent in addition to paying their other costs.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2024-09-27",
+   "set": "dsc",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Geyadrone Dihada",
+   "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
+   "mana_cost": "{1}{U}{B}{R}",
+   "cmc": 4.0,
+   "type_line": "Legendary Planeswalker — Dihada",
+   "oracle_text": "Protection from permanents with corruption counters on them\n+1: Each opponent loses 2 life and you gain 2 life. Put a corruption counter on up to one other target creature or planeswalker.\n−3: Gain control of target creature or planeswalker until end of turn. Untap it and put a corruption counter on it. It gains haste until end of turn.\n−7: Gain control of each permanent with a corruption counter on it.",
+   "color_identity": [
+    "B",
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "released_at": "2021-06-18",
+   "set": "mh2",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Protection"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Disrupt Decorum",
+   "oracle_id": "9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6",
+   "mana_cost": "{2}{R}{R}",
+   "cmc": 4.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Goad all creatures you don't control. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2024-02-09",
+   "set": "mkc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Goad"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Price of Knowledge",
+   "oracle_id": "1c586aa7-7a61-464f-abba-b33f9a525f0e",
+   "mana_cost": "{6}{B}",
+   "cmc": 7.0,
+   "type_line": "Enchantment",
+   "oracle_text": "Players have no maximum hand size.\nAt the beginning of each opponent's upkeep, this enchantment deals damage to that player equal to the number of cards in that player's hand.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2013-11-01",
+   "set": "c13",
+   "power": null,
+   "toughness": null,
+   "keywords": [],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Sheoldred, the Apocalypse",
+   "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+   "mana_cost": "{2}{B}{B}",
+   "cmc": 4.0,
+   "type_line": "Legendary Creature — Phyrexian Praetor",
+   "oracle_text": "Deathtouch\nWhenever you draw a card, you gain 2 life.\nWhenever an opponent draws a card, they lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2022-09-09",
+   "set": "dmu",
+   "power": "4",
+   "toughness": "5",
+   "keywords": [
+    "Deathtouch"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "Beseech the Mirror",
+   "oracle_id": "cbbe535b-12d6-4e6c-8b26-9220f06a1604",
+   "mana_cost": "{1}{B}{B}{B}",
+   "cmc": 4.0,
+   "type_line": "Sorcery",
+   "oracle_text": "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nSearch your library for a card, exile it face down, then shuffle. If this spell was bargained, you may cast the exiled card without paying its mana cost if that spell's mana value is 4 or less. Put the exiled card into your hand if it wasn't cast this way.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "released_at": "2023-09-08",
+   "set": "woe",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Bargain"
+   ],
+   "commander_legality": "legal"
+  },
+  {
+   "name": "The Unluckiest Planeswalker",
+   "oracle_id": "c7ea2ce7-f684-44a2-94b2-d4aa7353f6fc",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Legendary Planeswalker",
+   "oracle_text": "Rulebreaker — A deck with this commander can have Aura cards of any color identity and any basic land cards.\n+1: Add one mana of any color. When you spend this mana to cast an Aura spell this turn, create a 1/1 red Gremlin creature token.\n−3: Discard your hand, then draw cards equal to twice the number of Auras you control. For each Aura attached to you, attach it to an opponent of your choice.\nThe Unluckiest Planeswalker can be your commander.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": null,
+   "toughness": null,
+   "keywords": [
+    "Rulebreaker"
+   ],
+   "commander_legality": "not_legal"
+  },
+  {
+   "name": "Jabs, Mistress of Mockery",
+   "oracle_id": "723959e1-8356-4fdb-99e2-818df317dc72",
+   "mana_cost": "{2}{R}",
+   "cmc": 3.0,
+   "type_line": "Legendary Creature — Human Rogue",
+   "oracle_text": "If a triggered ability of a permanent you control but don't own triggers, that ability triggers an additional time.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "released_at": "2026-10-19",
+   "set": "mbc",
+   "power": "2",
+   "toughness": "3",
+   "keywords": [],
+   "commander_legality": "not_legal"
+  }
+ ],
+ "retrieved": "2026-10-23 17:41 CDT",
+ "source": "https://api.scryfall.com/cards/collection"
+}

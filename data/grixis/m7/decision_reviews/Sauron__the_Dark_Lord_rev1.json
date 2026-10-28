@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Sauron__the_Dark_Lord",
+  "canonical_baseline_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+  "canonical_baseline_logical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+  "commander_identity": {
+    "mechanical_plan": "Six-mana Sauron reacts to every opponent spell cast by amassing Orcs; only Army combat damage to a player tempts the Ring, which conditionally discards an entire hand to draw four. Seven Nazgûl make Ring temptations boardwide Wraith counter waves, now including Arcane Adaptation's Wraith Army. Moonstone, Bone Miser and Glint-Horn make optional resets a resource decision.",
+    "protected_core": [
+      "Nazgûl",
+      "Call of the Ring",
+      "Sauron, the Dark Lord",
+      "Mauhúr, Uruk-hai Captain",
+      "Roaming Throne",
+      "Minas Morgul, Dark Fortress",
+      "The Great Goblin",
+      "Great Goblin, Foul-Hearted",
+      "In the Darkness Bind Them",
+      "The Black Gate",
+      "Witch-king of Angmar",
+      "The One Ring"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized multiplayer commander-first combat/engine deck. Its six-mana commander, exposed creature/enchantment package, and dependence on opponent casting and combat damage prevent unsubstantiated cEDH claims.",
+    "anti_homogenization": "Keep the seven Nazgûl, iconic Ring legends, Army production, Shadow/Army combat and actual Ring mechanics. Reject automatic Consult/Oracle/Breach combo-shell substitution; the deck is distinct from the eight-mana Sauron reanimator in Deck 49."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 baseline noncommander physical cards reviewed: seven Nazgûl and Call/saga/Bilbo/claim provide temptation; Sauron/Great Goblins/Mauhúr/Barad-dûr/Black Gate build and push Army; Roaming Throne and Arcane bridge amplify all creature trigger sources; Sheoldred/Wheel/Rhystic/Remora give draw and pressure; Anger/Wonder/Entomb and three reanimate spells support recursion; protected Force/Fierce/Swat/Mana Drain/Deluge/Rift cover disruption. See card-role breakdown in the research note.",
+    "mana_base_and_curve": "Both exact sources have 34 physical lands, 2 Mountains, 3 Swamps and seven Nazgûl; Cavern replaces Rogue's Passage one for one while naming Avatar for a Sauron cast. Mana Vault, Sol Ring, Relic of Sauron, three Talismans, Signet, Dark Ritual and Jeska's Will fund six-mana commander. Replacing four-to-eight-mana flavor with one/two-mana Ring events helps a taxed start but three five-mana+ discard engines remain setup demands.",
+    "interaction_resilience": "Targeted answers must contend with ward's actual opponent legendary sacrifice and Lazotep hexproof, while Force, Fierce, Deflecting, Swan Song, Mana Drain, Saruman's Trickery and Rollick preserve stack interaction. Untargeted sweepers still destroy the Wraith/Army board and this list loses Ozolith and two damage sweeps; Toxic Deluge, Rift, Living Death and one-card reanimation mitigate, not eliminate, that risk.",
+    "weakest_slots": [
+      {
+        "card": "Saruman, the White Hand",
+        "weakness": "Compared to Arcane Adaptation: Creature-type conversion grants the Army Wraith identity; it receives every Nazgûl pump and makes Sauron plus Goblin eligible for Wraith-named Roaming Throne.",
+        "alternative_named": "Arcane Adaptation",
+        "reasoning": "Remove the independent four-mana amass-on-own-noncreature-spells creature; enchantment dependence creates an exposed synergy piece. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Sauron, Lord of the Rings",
+        "weakness": "Compared to Lord of the Nazgûl: Five-mana Wraith spell trigger adds bodies for nine-Wraith army plan while Sauron already provides the commander slot.",
+        "alternative_named": "Lord of the Nazgûl",
+        "reasoning": "Loses expensive backup cast-trigger reanimation and an eight-mana high-impact graveyard target. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Moria Scavenger",
+        "weakness": "Compared to Bone Miser: Sauron's complete-hand discard makes Bone Miser produce separate creature tokens, BB from land discards, or cards from noncreature/nonland discards.",
+        "alternative_named": "Bone Miser",
+        "reasoning": "Five-mana setup and graveyard exposure; weaker if commander cannot trigger temptations. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Sauron's Ransom",
+        "weakness": "Compared to Moonstone, Harsh Mistress: Discarded cards can optionally go from graveyard to playable exile until the end of next turn, retaining resources through Sauron's voluntary reset.",
+        "alternative_named": "Moonstone, Harsh Mistress",
+        "reasoning": "Four-mana creature vulnerable to removal; choosing exile prevents Animate Dead/Reanimate access and normal costs still apply. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Summons of Saruman",
+        "weakness": "Compared to Glint-Horn Buccaneer: Each physical card discarded to Sauron's wheel produces one damage to every opponent; red creature also threatens hasty attacks.",
+        "alternative_named": "Glint-Horn Buccaneer",
+        "reasoning": "Loses a paid X spell's burst amass, self-mill and free-cast upside; payoff requires Sauron triggers and creature survival. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "The Ozolith",
+        "weakness": "Compared to Herald of Secret Streams: Every Army with amass counters becomes unblockable while Herald survives, turning commander's Army combat trigger into reliable temptation.",
+        "alternative_named": "Herald of Secret Streams",
+        "reasoning": "Lost one-mana counter banking against wipes; four-mana creature fails against removal/untargeted board sweep. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Widespread Brutality",
+        "weakness": "Compared to Lazotep Plating: Instant-speed player/permanent hexproof shields from targeting and amasses Zombie counters onto the Army for Sauron/Goblin triggers.",
+        "alternative_named": "Lazotep Plating",
+        "reasoning": "Removes a three-mana Army-powered creature sweeper; hexproof does not stop untargeted mass removal. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Compared to Birthday Escape: One-blue sorcery gives a paid guaranteed Ring temptation and can trip Sauron hand reset plus seven Nazgûl counter waves.",
+        "alternative_named": "Birthday Escape",
+        "reasoning": "Cuts inexpensive full table wheel, decreases Sheoldred/Archfiend discard and draw burst; Wheel of Fortune retained. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Rogue's Passage",
+        "weakness": "Compared to Cavern of Souls: Avatar choice fixes a color for Sauron and can make that creature spell uncounterable, preventing expensive commander tax tempo loss.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Costs repeatable land-based four-mana unblockability and cannot render Wraith spells uncounterable while naming Avatar. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Compared to Soothing of Sméagol: Two-mana bounce of a legal nontoken creature plus a Ring temptation is a tactical opponent answer and cheap commander trigger enabler.",
+        "alternative_named": "Soothing of Sméagol",
+        "reasoning": "Removes scalable creature mass removal, increasing reliance on Deluge and Rift; bounce fizzles without a legal target. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Relic of Sauron",
+        "weakness": "Challenged by Fellwar Stone, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Fellwar Stone",
+        "reasoning": "Relic keeps repeatable loot for Anger/Wonder, exact UBR color and Sauron flavor; Fellwar is faster but opponent-dependent."
+      },
+      {
+        "card": "Orcish Siegemaster",
+        "weakness": "Challenged by Cover of Darkness, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Cover of Darkness",
+        "reasoning": "Siegemaster is independent Army combat identity; fear is useless against black blockers and depends on Wraith typing."
+      },
+      {
+        "card": "Black Market Connections",
+        "weakness": "Challenged by Dimir Signet, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Dimir Signet",
+        "reasoning": "Connections pays life for cards/Treasure and independent recurring bodies; cheap Signet improves a narrow tempo window only."
+      },
+      {
+        "card": "In the Darkness Bind Them",
+        "weakness": "Challenged by Gollum, Patient Plotter, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Gollum, Patient Plotter",
+        "reasoning": "Three saga Ring temptations and Wraith bodies occur predictably; Gollum is lower curve but requires future death/sacrifice."
+      },
+      {
+        "card": "Victimize",
+        "weakness": "Challenged by Sam's Desperate Rescue, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Sam's Desperate Rescue",
+        "reasoning": "Victimize returns two creatures for one sacrifice at sorcery speed; Sam returns one plus a Ring trigger at a lower cost."
+      },
+      {
+        "card": "Toxic Deluge",
+        "weakness": "Challenged by Orcish Medicine, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Orcish Medicine",
+        "reasoning": "Keep the efficient surviving sweeper against creature swarms; Medicine cannot answer a broad opposing board."
+      }
+    ],
+    "current_baseline_strength": "The October 15 baseline is already a commander-first 100 with Call of the Ring, seven Nazgûl, the full amass engines and strong interaction. This candidate preserves its identity; none of ten swaps implies old approval was defective or that every game becomes favored.",
+    "candidate_pool_scope": "Whole-99 baseline role audit, ten exact additions and cut judgments, eight explicitly rejected/retained alternatives, EDHREC no-filter Top Cards and High Lift, Wraith/Orc/Ring theme pages, historical M6 red-team and current legality checks. Two physically complete alternative 100s challenge the ten-swap choice after crossing the five-swap presentation floor.",
+    "off_ranked_search_conclusion": "OFF-RANKED and unranked search specifically identified Arcane Adaptation combining Army with Wraith pumps and all-type Roaming Throne doubling; Moonstone hand-resource access, Bone Miser per-card discard payment, Glint-Horn each-opponent burn, Herald Army evasion, and paid Lazotep Zombie amass. These mechanic-specific alternatives were evaluated beyond a raw inclusion sort."
+  },
+  "candidate_sources": [
+    "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md — all physical roles and exact opportunity-cost verdicts.",
+    "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md — historic 99-slot and payable interaction critique.",
+    "data/grixis/m6/test_blueprints/Sauron__the_Dark_Lord.json — immutable fifteen-case M6 blueprint.",
+    "tests/test_m6_sauron_dark_lord_m7_rev1_cases.py — sixteen actual finite state, payment, zone and stack checks.",
+    "https://edhrec.com/commanders/sauron-the-dark-lord — Top Cards, High Lift and direct OFF-RANKED synergy research on Oct 27, 2026.",
+    "https://edhrec.com/commanders/sauron-the-dark-lord/core/wraiths — Wraith identity source, not strength authority.",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40483351890 — earlier PR live 91-name Scryfall legality and Oracle fetch.",
+    "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md — source-bound receipt scope and known noninferences."
+  ],
+  "material_candidates": [
+    {
+      "card": "Arcane Adaptation",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Saruman, the White Hand"
+      ],
+      "incumbent_opportunity_cost": "Remove the independent four-mana amass-on-own-noncreature-spells creature; enchantment dependence creates an exposed synergy piece.",
+      "commander_synergy": "Creature-type conversion grants the Army Wraith identity; it receives every Nazgûl pump and makes Sauron plus Goblin eligible for Wraith-named Roaming Throne.",
+      "adversarial_downside": "Remove the independent four-mana amass-on-own-noncreature-spells creature; enchantment dependence creates an exposed synergy piece.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Arcane Adaptation over Saruman, the White Hand: Creature-type conversion grants the Army Wraith identity; it receives every Nazgûl pump and makes Sauron plus Goblin eligible for Wraith-named Roaming Throne. Remove the independent four-mana amass-on-own-noncreature-spells creature; enchantment dependence creates an exposed synergy piece.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Lord of the Nazgûl",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Sauron, Lord of the Rings"
+      ],
+      "incumbent_opportunity_cost": "Loses expensive backup cast-trigger reanimation and an eight-mana high-impact graveyard target.",
+      "commander_synergy": "Five-mana Wraith spell trigger adds bodies for nine-Wraith army plan while Sauron already provides the commander slot.",
+      "adversarial_downside": "Loses expensive backup cast-trigger reanimation and an eight-mana high-impact graveyard target.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Lord of the Nazgûl over Sauron, Lord of the Rings: Five-mana Wraith spell trigger adds bodies for nine-Wraith army plan while Sauron already provides the commander slot. Loses expensive backup cast-trigger reanimation and an eight-mana high-impact graveyard target.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Bone Miser",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Moria Scavenger"
+      ],
+      "incumbent_opportunity_cost": "Five-mana setup and graveyard exposure; weaker if commander cannot trigger temptations.",
+      "commander_synergy": "Sauron's complete-hand discard makes Bone Miser produce separate creature tokens, BB from land discards, or cards from noncreature/nonland discards.",
+      "adversarial_downside": "Five-mana setup and graveyard exposure; weaker if commander cannot trigger temptations.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Bone Miser over Moria Scavenger: Sauron's complete-hand discard makes Bone Miser produce separate creature tokens, BB from land discards, or cards from noncreature/nonland discards. Five-mana setup and graveyard exposure; weaker if commander cannot trigger temptations.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Moonstone, Harsh Mistress",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Sauron's Ransom"
+      ],
+      "incumbent_opportunity_cost": "Four-mana creature vulnerable to removal; choosing exile prevents Animate Dead/Reanimate access and normal costs still apply.",
+      "commander_synergy": "Discarded cards can optionally go from graveyard to playable exile until the end of next turn, retaining resources through Sauron's voluntary reset.",
+      "adversarial_downside": "Four-mana creature vulnerable to removal; choosing exile prevents Animate Dead/Reanimate access and normal costs still apply.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Moonstone, Harsh Mistress over Sauron's Ransom: Discarded cards can optionally go from graveyard to playable exile until the end of next turn, retaining resources through Sauron's voluntary reset. Four-mana creature vulnerable to removal; choosing exile prevents Animate Dead/Reanimate access and normal costs still apply.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Glint-Horn Buccaneer",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Summons of Saruman"
+      ],
+      "incumbent_opportunity_cost": "Loses a paid X spell's burst amass, self-mill and free-cast upside; payoff requires Sauron triggers and creature survival.",
+      "commander_synergy": "Each physical card discarded to Sauron's wheel produces one damage to every opponent; red creature also threatens hasty attacks.",
+      "adversarial_downside": "Loses a paid X spell's burst amass, self-mill and free-cast upside; payoff requires Sauron triggers and creature survival.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Glint-Horn Buccaneer over Summons of Saruman: Each physical card discarded to Sauron's wheel produces one damage to every opponent; red creature also threatens hasty attacks. Loses a paid X spell's burst amass, self-mill and free-cast upside; payoff requires Sauron triggers and creature survival.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Herald of Secret Streams",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "The Ozolith"
+      ],
+      "incumbent_opportunity_cost": "Lost one-mana counter banking against wipes; four-mana creature fails against removal/untargeted board sweep.",
+      "commander_synergy": "Every Army with amass counters becomes unblockable while Herald survives, turning commander's Army combat trigger into reliable temptation.",
+      "adversarial_downside": "Lost one-mana counter banking against wipes; four-mana creature fails against removal/untargeted board sweep.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Herald of Secret Streams over The Ozolith: Every Army with amass counters becomes unblockable while Herald survives, turning commander's Army combat trigger into reliable temptation. Lost one-mana counter banking against wipes; four-mana creature fails against removal/untargeted board sweep.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Lazotep Plating",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Widespread Brutality"
+      ],
+      "incumbent_opportunity_cost": "Removes a three-mana Army-powered creature sweeper; hexproof does not stop untargeted mass removal.",
+      "commander_synergy": "Instant-speed player/permanent hexproof shields from targeting and amasses Zombie counters onto the Army for Sauron/Goblin triggers.",
+      "adversarial_downside": "Removes a three-mana Army-powered creature sweeper; hexproof does not stop untargeted mass removal.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Lazotep Plating over Widespread Brutality: Instant-speed player/permanent hexproof shields from targeting and amasses Zombie counters onto the Army for Sauron/Goblin triggers. Removes a three-mana Army-powered creature sweeper; hexproof does not stop untargeted mass removal.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Birthday Escape",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Windfall"
+      ],
+      "incumbent_opportunity_cost": "Cuts inexpensive full table wheel, decreases Sheoldred/Archfiend discard and draw burst; Wheel of Fortune retained.",
+      "commander_synergy": "One-blue sorcery gives a paid guaranteed Ring temptation and can trip Sauron hand reset plus seven Nazgûl counter waves.",
+      "adversarial_downside": "Cuts inexpensive full table wheel, decreases Sheoldred/Archfiend discard and draw burst; Wheel of Fortune retained.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Birthday Escape over Windfall: One-blue sorcery gives a paid guaranteed Ring temptation and can trip Sauron hand reset plus seven Nazgûl counter waves. Cuts inexpensive full table wheel, decreases Sheoldred/Archfiend discard and draw burst; Wheel of Fortune retained.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Cavern of Souls",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Rogue's Passage"
+      ],
+      "incumbent_opportunity_cost": "Costs repeatable land-based four-mana unblockability and cannot render Wraith spells uncounterable while naming Avatar.",
+      "commander_synergy": "Avatar choice fixes a color for Sauron and can make that creature spell uncounterable, preventing expensive commander tax tempo loss.",
+      "adversarial_downside": "Costs repeatable land-based four-mana unblockability and cannot render Wraith spells uncounterable while naming Avatar.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Cavern of Souls over Rogue's Passage: Avatar choice fixes a color for Sauron and can make that creature spell uncounterable, preventing expensive commander tax tempo loss. Costs repeatable land-based four-mana unblockability and cannot render Wraith spells uncounterable while naming Avatar.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Soothing of Sméagol",
+      "source": "Current Scryfall-legal physical-100 review, October 27 EDHREC Top/High Lift and targeted OFF-RANKED challenger check.",
+      "role": "Selected on-plan Ring, Army, Wraith, discard or commander-casting upgrade in the Sauron six-mana engine.",
+      "named_cuts": [
+        "Blasphemous Act"
+      ],
+      "incumbent_opportunity_cost": "Removes scalable creature mass removal, increasing reliance on Deluge and Rift; bounce fizzles without a legal target.",
+      "commander_synergy": "Two-mana bounce of a legal nontoken creature plus a Ring temptation is a tactical opponent answer and cheap commander trigger enabler.",
+      "adversarial_downside": "Removes scalable creature mass removal, increasing reliance on Deluge and Rift; bounce fizzles without a legal target.",
+      "judgment": "SELECT_ADD",
+      "reason": "Select Soothing of Sméagol over Blasphemous Act: Two-mana bounce of a legal nontoken creature plus a Ring temptation is a tactical opponent answer and cheap commander trigger enabler. Removes scalable creature mass removal, increasing reliance on Deluge and Rift; bounce fizzles without a legal target.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md"
+      ]
+    },
+    {
+      "card": "Fellwar Stone",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Relic of Sauron"
+      ],
+      "incumbent_opportunity_cost": "Relic keeps repeatable loot for Anger/Wonder, exact UBR color and Sauron flavor; Fellwar is faster but opponent-dependent.",
+      "commander_synergy": "Fellwar Stone could substitute for Relic of Sauron in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Relic keeps repeatable loot for Anger/Wonder, exact UBR color and Sauron flavor; Fellwar is faster but opponent-dependent.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Relic keeps repeatable loot for Anger/Wonder, exact UBR color and Sauron flavor; Fellwar is faster but opponent-dependent.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Cover of Darkness",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Orcish Siegemaster"
+      ],
+      "incumbent_opportunity_cost": "Siegemaster is independent Army combat identity; fear is useless against black blockers and depends on Wraith typing.",
+      "commander_synergy": "Cover of Darkness could substitute for Orcish Siegemaster in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Siegemaster is independent Army combat identity; fear is useless against black blockers and depends on Wraith typing.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Siegemaster is independent Army combat identity; fear is useless against black blockers and depends on Wraith typing.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Dimir Signet",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Black Market Connections"
+      ],
+      "incumbent_opportunity_cost": "Connections pays life for cards/Treasure and independent recurring bodies; cheap Signet improves a narrow tempo window only.",
+      "commander_synergy": "Dimir Signet could substitute for Black Market Connections in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Connections pays life for cards/Treasure and independent recurring bodies; cheap Signet improves a narrow tempo window only.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Connections pays life for cards/Treasure and independent recurring bodies; cheap Signet improves a narrow tempo window only.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Gollum, Patient Plotter",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "In the Darkness Bind Them"
+      ],
+      "incumbent_opportunity_cost": "Three saga Ring temptations and Wraith bodies occur predictably; Gollum is lower curve but requires future death/sacrifice.",
+      "commander_synergy": "Gollum, Patient Plotter could substitute for In the Darkness Bind Them in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Three saga Ring temptations and Wraith bodies occur predictably; Gollum is lower curve but requires future death/sacrifice.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Three saga Ring temptations and Wraith bodies occur predictably; Gollum is lower curve but requires future death/sacrifice.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Sam's Desperate Rescue",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Victimize"
+      ],
+      "incumbent_opportunity_cost": "Victimize returns two creatures for one sacrifice at sorcery speed; Sam returns one plus a Ring trigger at a lower cost.",
+      "commander_synergy": "Sam's Desperate Rescue could substitute for Victimize in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Victimize returns two creatures for one sacrifice at sorcery speed; Sam returns one plus a Ring trigger at a lower cost.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Victimize returns two creatures for one sacrifice at sorcery speed; Sam returns one plus a Ring trigger at a lower cost.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Orcish Medicine",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Toxic Deluge"
+      ],
+      "incumbent_opportunity_cost": "Keep the efficient surviving sweeper against creature swarms; Medicine cannot answer a broad opposing board.",
+      "commander_synergy": "Orcish Medicine could substitute for Toxic Deluge in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Keep the efficient surviving sweeper against creature swarms; Medicine cannot answer a broad opposing board.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Keep the efficient surviving sweeper against creature swarms; Medicine cannot answer a broad opposing board.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "Phial of Galadriel",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "Call of the Ring"
+      ],
+      "incumbent_opportunity_cost": "Call's each-upkeep Ring event is independent of army attack; Phial lacks native recurring temptation.",
+      "commander_synergy": "Phial of Galadriel could substitute for Call of the Ring in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Call's each-upkeep Ring event is independent of army attack; Phial lacks native recurring temptation.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Call's each-upkeep Ring event is independent of army attack; Phial lacks native recurring temptation.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    },
+    {
+      "card": "All Will Be One",
+      "source": "EDHREC Top/High Lift, OFF-RANKED alternate package search, M6 deep review and full-100 post-floor challenges.",
+      "role": "Alternative on-curve acceleration, Ring trigger, creature protection or Army evasion opportunity.",
+      "named_cuts": [
+        "The Great Goblin"
+      ],
+      "incumbent_opportunity_cost": "Goblin converts each Orc/Army counter event to two targeted opponent damage, retains typed creature identity; enchantment scales damage but generalizes shell.",
+      "commander_synergy": "All Will Be One could substitute for The Great Goblin in a differently weighted game environment; not selected for this exact on-theme 100.",
+      "adversarial_downside": "Goblin converts each Orc/Army counter event to two targeted opponent damage, retains typed creature identity; enchantment scales damage but generalizes shell.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Goblin converts each Orc/Army counter event to two targeted opponent damage, retains typed creature identity; enchantment scales damage but generalizes shell.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_review.md",
+        "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Arcane Adaptation",
+      "Lord of the Nazgûl",
+      "Bone Miser",
+      "Moonstone, Harsh Mistress",
+      "Glint-Horn Buccaneer",
+      "Herald of Secret Streams",
+      "Lazotep Plating",
+      "Birthday Escape",
+      "Cavern of Souls",
+      "Soothing of Sméagol"
+    ],
+    "cuts": [
+      "Saruman, the White Hand",
+      "Sauron, Lord of the Rings",
+      "Moria Scavenger",
+      "Sauron's Ransom",
+      "Summons of Saruman",
+      "The Ozolith",
+      "Widespread Brutality",
+      "Windfall",
+      "Rogue's Passage",
+      "Blasphemous Act"
+    ],
+    "coherent_package_tradeoff": "Ten 1-for-1 swaps replace high-cost generic/background cards and two redundant sweepers with a coherent Wraith-typed Orc Army, immediate Ring enablers, protected attacks and the optional discard-to-resource/damage subengine. Loses sweep density, early land-based unblockability, Ozolith wipe resilience and one potent wheel; no full win-rate claim."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Sauron__the_Dark_Lord_M7_Rev1.txt",
+    "sha256": "266660c6a3241c07a052da7624366be1f9617cb5db4c35c422b0e8f828977d9b",
+    "card_count": 100,
+    "deckwide_reconciliation": "Candidate and October15 baseline raw hashes audited; exact 100 physical cards, 91 distinct names, 34 physical lands, 7 Nazgûl under official up-to-nine exception, basic Mountain x2 and Swamp x3. Ten source removals and ten named replacements; commander remains first and unchanged."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_verify.py — structural/exact-source, fixed scenario, and live Scryfall all-card audit.",
+      "tests/test_m6_sauron_dark_lord_m7_rev1_cases.py — finite source-paid P0/P1 case-level tests, with negative conditions.",
+      "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_case_ledger.md — explicit historical I/J non-replay and case mapping.",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40483351890 — previous exact-head legality CI result."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Amass Orcs",
+      "Ring Temptation",
+      "Wraiths"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Saruman, the White Hand",
+        "weakness": "Compared to Arcane Adaptation: Creature-type conversion grants the Army Wraith identity; it receives every Nazgûl pump and makes Sauron plus Goblin eligible for Wraith-named Roaming Throne.",
+        "alternative_named": "Arcane Adaptation",
+        "reasoning": "Remove the independent four-mana amass-on-own-noncreature-spells creature; enchantment dependence creates an exposed synergy piece. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Sauron, Lord of the Rings",
+        "weakness": "Compared to Lord of the Nazgûl: Five-mana Wraith spell trigger adds bodies for nine-Wraith army plan while Sauron already provides the commander slot.",
+        "alternative_named": "Lord of the Nazgûl",
+        "reasoning": "Loses expensive backup cast-trigger reanimation and an eight-mana high-impact graveyard target. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Moria Scavenger",
+        "weakness": "Compared to Bone Miser: Sauron's complete-hand discard makes Bone Miser produce separate creature tokens, BB from land discards, or cards from noncreature/nonland discards.",
+        "alternative_named": "Bone Miser",
+        "reasoning": "Five-mana setup and graveyard exposure; weaker if commander cannot trigger temptations. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Sauron's Ransom",
+        "weakness": "Compared to Moonstone, Harsh Mistress: Discarded cards can optionally go from graveyard to playable exile until the end of next turn, retaining resources through Sauron's voluntary reset.",
+        "alternative_named": "Moonstone, Harsh Mistress",
+        "reasoning": "Four-mana creature vulnerable to removal; choosing exile prevents Animate Dead/Reanimate access and normal costs still apply. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Summons of Saruman",
+        "weakness": "Compared to Glint-Horn Buccaneer: Each physical card discarded to Sauron's wheel produces one damage to every opponent; red creature also threatens hasty attacks.",
+        "alternative_named": "Glint-Horn Buccaneer",
+        "reasoning": "Loses a paid X spell's burst amass, self-mill and free-cast upside; payoff requires Sauron triggers and creature survival. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "The Ozolith",
+        "weakness": "Compared to Herald of Secret Streams: Every Army with amass counters becomes unblockable while Herald survives, turning commander's Army combat trigger into reliable temptation.",
+        "alternative_named": "Herald of Secret Streams",
+        "reasoning": "Lost one-mana counter banking against wipes; four-mana creature fails against removal/untargeted board sweep. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Widespread Brutality",
+        "weakness": "Compared to Lazotep Plating: Instant-speed player/permanent hexproof shields from targeting and amasses Zombie counters onto the Army for Sauron/Goblin triggers.",
+        "alternative_named": "Lazotep Plating",
+        "reasoning": "Removes a three-mana Army-powered creature sweeper; hexproof does not stop untargeted mass removal. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Windfall",
+        "weakness": "Compared to Birthday Escape: One-blue sorcery gives a paid guaranteed Ring temptation and can trip Sauron hand reset plus seven Nazgûl counter waves.",
+        "alternative_named": "Birthday Escape",
+        "reasoning": "Cuts inexpensive full table wheel, decreases Sheoldred/Archfiend discard and draw burst; Wheel of Fortune retained. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Rogue's Passage",
+        "weakness": "Compared to Cavern of Souls: Avatar choice fixes a color for Sauron and can make that creature spell uncounterable, preventing expensive commander tax tempo loss.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Costs repeatable land-based four-mana unblockability and cannot render Wraith spells uncounterable while naming Avatar. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Blasphemous Act",
+        "weakness": "Compared to Soothing of Sméagol: Two-mana bounce of a legal nontoken creature plus a Ring temptation is a tactical opponent answer and cheap commander trigger enabler.",
+        "alternative_named": "Soothing of Sméagol",
+        "reasoning": "Removes scalable creature mass removal, increasing reliance on Deluge and Rift; bounce fizzles without a legal target. Relative cost is explicitly weighed in the ten-swap review."
+      },
+      {
+        "card": "Relic of Sauron",
+        "weakness": "Challenged by Fellwar Stone, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Fellwar Stone",
+        "reasoning": "Relic keeps repeatable loot for Anger/Wonder, exact UBR color and Sauron flavor; Fellwar is faster but opponent-dependent."
+      },
+      {
+        "card": "Orcish Siegemaster",
+        "weakness": "Challenged by Cover of Darkness, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Cover of Darkness",
+        "reasoning": "Siegemaster is independent Army combat identity; fear is useless against black blockers and depends on Wraith typing."
+      },
+      {
+        "card": "Black Market Connections",
+        "weakness": "Challenged by Dimir Signet, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Dimir Signet",
+        "reasoning": "Connections pays life for cards/Treasure and independent recurring bodies; cheap Signet improves a narrow tempo window only."
+      },
+      {
+        "card": "In the Darkness Bind Them",
+        "weakness": "Challenged by Gollum, Patient Plotter, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Gollum, Patient Plotter",
+        "reasoning": "Three saga Ring temptations and Wraith bodies occur predictably; Gollum is lower curve but requires future death/sacrifice."
+      },
+      {
+        "card": "Victimize",
+        "weakness": "Challenged by Sam's Desperate Rescue, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Sam's Desperate Rescue",
+        "reasoning": "Victimize returns two creatures for one sacrifice at sorcery speed; Sam returns one plus a Ring trigger at a lower cost."
+      },
+      {
+        "card": "Toxic Deluge",
+        "weakness": "Challenged by Orcish Medicine, which could raise tempo or synergy against some pods.",
+        "alternative_named": "Orcish Medicine",
+        "reasoning": "Keep the efficient surviving sweeper against creature swarms; Medicine cannot answer a broad opposing board."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKED direct mechanic discovery beyond inclusion tables: all-type Wraith Throne, Army unblockability from Herald, Bone Miser and Glint hand-discard economics, Moonstone exile choice, new cheap Ring events, and larger/smaller coherent alternative portfolios.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Arcane Adaptation",
+          "Lord of the Nazgûl",
+          "Bone Miser",
+          "Moonstone, Harsh Mistress",
+          "Glint-Horn Buccaneer",
+          "Herald of Secret Streams",
+          "Lazotep Plating",
+          "Birthday Escape",
+          "Cavern of Souls",
+          "Soothing of Sméagol",
+          "Cover of Darkness",
+          "Fellwar Stone"
+        ],
+        "cuts": [
+          "Saruman, the White Hand",
+          "Sauron, Lord of the Rings",
+          "Moria Scavenger",
+          "Sauron's Ransom",
+          "Summons of Saruman",
+          "The Ozolith",
+          "Widespread Brutality",
+          "Windfall",
+          "Rogue's Passage",
+          "Blasphemous Act",
+          "Orcish Siegemaster",
+          "Relic of Sauron"
+        ],
+        "result_and_rationale": "Complete exact 100-card higher-count alternative adds Cover of Darkness and Fellwar Stone, but cuts Siegemaster and Relic; gains fear/acceleration but weakens independent Orc Army identity and discard-enabled Anger/Wonder."
+      },
+      {
+        "adds": [
+          "Arcane Adaptation",
+          "Lord of the Nazgûl",
+          "Glint-Horn Buccaneer",
+          "Herald of Secret Streams",
+          "Lazotep Plating",
+          "Birthday Escape",
+          "Cavern of Souls",
+          "Soothing of Sméagol",
+          "Gollum, Patient Plotter",
+          "Sam's Desperate Rescue"
+        ],
+        "cuts": [
+          "Saruman, the White Hand",
+          "Sauron, Lord of the Rings",
+          "Moria Scavenger",
+          "Sauron's Ransom",
+          "Summons of Saruman",
+          "The Ozolith",
+          "Widespread Brutality",
+          "Windfall",
+          "Rogue's Passage",
+          "Blasphemous Act"
+        ],
+        "result_and_rationale": "Complete exact 100-card early Ring alternative replaces Moonstone and Bone Miser with Gollum Patient Plotter and Sam's Desperate Rescue; improves early creature recursion/temptation but loses repeated discard economics on Sauron's engine."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Retained Relic versus Fellwar, Siegemaster versus Cover and Call versus Phial were challenged after initial ten; none is included just to satisfy a quota. Trimming Toxic Deluge makes the board vulnerable to opponent creature swarms; trimming saga means losing three reliable temptations.",
+    "strongest_argument_against_baseline": "The original hand-discard/draw-four is wasteful without cards converting the discarded resources, its large Army can be chump-blocked, and multiple huge Sorceries/creatures overlap existing options; a smarter Wraith typing/cheap Ring package may improve real commander impact.",
+    "evidence_based_answer": "Exact finite Wraith/Army, Throne, mana and reset traces show material new interaction value. Against this benefit weigh lost Azolith counters, Windfall draw synergy and Blasphemous Act/Widespread Brutality clear. The proposed ten are a judgment with disclosed counterplay, not measured win-rate proof."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Challenge extended to all 99 noncommander baseline slots by role: 34 mana sources; eight protected Ring/temptation sources; seven Nazgûl; Army + shadow/trample/black gate engines; no-spell draw and Wheel/Sheoldred package; six-mana access; reanimation; seven instant stack/protection answers; and actual sweep coverage. Other named challenges Relic, Siegemaster, Connections, saga, Deluge and Call were compared against viable higher-count configurations.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Relic of Sauron",
+        "challenger": "Fellwar Stone",
+        "tradeoff": "Fellwar comes online sooner but depends on opponent colors and loses Relic's repeatable looting for Anger/Wonder; selected candidate keeps a thematic independent discard outlet.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Orcish Siegemaster",
+        "challenger": "Cover of Darkness",
+        "tradeoff": "Fear adds evasion without four mana but is beaten by black creatures and depends on typing; Siegemaster is proactive Orc/Army combat value without Arcane's enchantment.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/sauron_dark_lord_rev1/sauron_dark_lord_alt12.txt",
+        "sha256": "093ca97894cf29774505b7d97eccaf29f5b2fbb7ab6e39cda2bdf6876cebb9e7",
+        "adds": [
+          "Arcane Adaptation",
+          "Lord of the Nazgûl",
+          "Bone Miser",
+          "Moonstone, Harsh Mistress",
+          "Glint-Horn Buccaneer",
+          "Herald of Secret Streams",
+          "Lazotep Plating",
+          "Birthday Escape",
+          "Cavern of Souls",
+          "Soothing of Sméagol",
+          "Cover of Darkness",
+          "Fellwar Stone"
+        ],
+        "cuts": [
+          "Saruman, the White Hand",
+          "Sauron, Lord of the Rings",
+          "Moria Scavenger",
+          "Sauron's Ransom",
+          "Summons of Saruman",
+          "The Ozolith",
+          "Widespread Brutality",
+          "Windfall",
+          "Rogue's Passage",
+          "Blasphemous Act",
+          "Orcish Siegemaster",
+          "Relic of Sauron"
+        ],
+        "case_for_extra_swaps": "The twelve-change configuration accelerates colors with a two-mana Fellwar Stone and supplies fear to a Wraith-typed Orc Army through Cover of Darkness; both can overcome different mana or blocker pressures.",
+        "why_not_selected": "Relic keeps Anger/Wonder discard, unconditional exact UBR fixing and thematic repeatable access; Siegemaster provides independently useful Orc attack output. Cover fails into black blockers and when Arcane disappears, so twelve is not obviously a better engine."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "All ten selected swaps strengthen actual Ring, Army, Wraith and discard-reset mechanics while paying explicit opportunity costs. The fully physical twelve-change option improves some speed/evasion draws but gives up independent Army combat and discard-to-graveyard access. The early-Ring alternative pays away Bone Miser and Moonstone. Additional exclusions preserve necessary interaction, unconditional upkeep Ring and colored sources rather than chasing swap count."
+  }
+}

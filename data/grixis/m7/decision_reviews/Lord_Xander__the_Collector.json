@@ -1,0 +1,876 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Lord_Xander__the_Collector",
+ "canonical_baseline_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+ "canonical_baseline_logical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "commander_identity": {
+  "mechanical_plan": "Lord Xander, the Collector ({4}{U}{B}{R} legendary Vampire Demon Noble 6/6; Streets of New Capenna, snc, released 2022-04-29; oracle_id d17bfa94-5046-46ae-80af-be5d1d35af13). Commander-legal per live Scryfall, not a Game Changer, released, no project exception. Oracle: when it enters, target opponent discards half their hand (rounded down); whenever it attacks, defending player mills half their library; when it dies, target opponent sacrifices half their nonland permanents. Plan (owner 2026-10-14): Xander trigger multiplication. Reanimate or copy the seven-mana commander (Animate Dead, Reanimate, Feign Death, Entomb; Auton Soldier, Phantasmal Image, Spark Double, Sakashima, Helm of the Host, Blade of Selves, Molten Duplication, Saw in Half, Hall of Echoes; Roaming Throne, Strionic Resonator), then convert the half-library mill (Bruvac, Fraying Sanity, Riverchurn Monument, Cruel Calculations). All three adds serve exactly that: Necromancy reanimates the legendary commander, Boots protects him without blocking the deck's own targeting, and Malakir Rebirth turns a death into a dies-plus-enters pair.",
+  "protected_core": [
+   "Lord Xander, the Collector",
+   "Auton Soldier",
+   "Phantasmal Image",
+   "Cruel Calculations",
+   "Hall of Echoes",
+   "Bruvac the Grandiloquent",
+   "Fraying Sanity",
+   "Riverchurn Monument",
+   "Blade of Selves",
+   "Helm of the Host",
+   "Roaming Throne",
+   "Sakashima of a Thousand Faces",
+   "Spark Double",
+   "Molten Duplication",
+   "Saw in Half",
+   "Strionic Resonator",
+   "Feign Death",
+   "Animate Dead",
+   "Persist",
+   "Reanimate",
+   "Entomb",
+   "Duskmantle Guildmage",
+   "Mindcrank",
+   "Underworld Breach",
+   "Lion's Eye Diamond",
+   "Brain Freeze",
+   "Aggravated Assault",
+   "Sword of Feast and Famine"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized; owner-approved, registry ceiling 4), unchanged. Game Changers: 20 in both baseline and candidate; none of the adds is a Game Changer. Commander Spellbook: 11 included combos in baseline and candidate (almost-included 132 -> 131); no combo is added or lost.",
+  "anti_homogenization": "Commander-first to Xander's Oracle: each add exists to return, protect or re-trigger the commander. No generic Oracle/Consultation package, no additive mill (owner-rejected class: Fractured Sanity, Ruin Crab, Syr Konrad, Traumatize and others), no further clone (owner-rejected Phyrexian Metamorph, Irenicus's Vile Duplication; Glasspool Mimic rejected for that reason), no Panharmonicon, Displacer Kitten, Deadeye Navigator, Jidoor or Kitsune's Technique, and no owner-removed card (Grindstone, Painter's Servant, Narset, Parter of Veils, Reliquary Tower) is added. Distinctness (nonbasic names shared with the registry Archidekt exports, candidate/baseline, of 94 nonbasic names): Cormela, Glamour Thief 52/52; Kess, Dissident Mage 52/52; Kefka, Court Mage 51/51; Mai and Zuko 49/51; Gwendlyn Di Corci 48/50 (the last two also run Lightning Greaves and Bojuka Bog, so the swaps slightly reduce overlap with them). The overlap is the Grixis mana base and staples (fast mana, free counters, tutors). Xander-specific against the five closest in the candidate: the copy package (Auton Soldier, Spark Double, Sakashima of a Thousand Faces, Helm of the Host, Blade of Selves, Hall of Echoes), the mill conversions (Bruvac the Grandiloquent, Fraying Sanity, Riverchurn Monument, Maddening Cacophony, Cruel Calculations) and the dies-trigger tools (Altar of Dementia, Feign Death, Malakir Rebirth). Across all registry exports, Necromancy appears in 4 decks, Swiftfoot Boots in 14 and Malakir Rebirth in none; the cuts appear in 2 (Persist), 32 (Lightning Greaves) and 14 (Bojuka Bog)."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed (93 single rows plus 2 Island, 2 Swamp, 2 Mountain; 96 distinct names). Owner 2026-10-14 adds: Auton Soldier, Phantasmal Image, Cruel Calculations, Hall of Echoes (replacing Grindstone, Painter's Servant, Narset, Parter of Veils, Reliquary Tower). The whole-list audit CSV marks all 100 KEEP_AFTER_WHOLE_LIST_AUDIT generically; the decisions file names the explicit keeps (reanimation axis including Persist, the trigger multipliers, the mill conversions, the secondary closes and the challenged staples). Persist is the one explicit keep cut (FLAGGED); Lightning Greaves and Bojuka Bog are not named. Candidate roles: reanimation Necromancy, Animate Dead, Reanimate, Entomb, Feign Death, Malakir Rebirth; copies Auton Soldier, Phantasmal Image, Spark Double, Sakashima, Helm of the Host, Blade of Selves, Molten Duplication, Saw in Half, Hall of Echoes; trigger doublers Roaming Throne, Strionic Resonator; mill conversion Bruvac, Fraying Sanity, Riverchurn Monument, Cruel Calculations; protection Swiftfoot Boots and the counter suite; secondary closes Duskmantle Guildmage + Mindcrank, Underworld Breach + Lion's Eye Diamond + Brain Freeze, Aggravated Assault + Sword of Feast and Famine.",
+  "mana_base_and_curve": "Land slots 33 -> 33: the candidate has 32 lands plus the Malakir Rebirth // Malakir Mire MDFC (Bojuka Bog out); basics 2 Island, 2 Swamp, 2 Mountain. Nonland curve (front faces; Malakir counted at MV1): MV0 3, MV1 14 -> 15, MV2 23 -> 22, MV3 15 -> 16, MV4 7, MV5 3, MV6 1; average nonland MV 2.33 unchanged. Coloured pips U/B/R in the library 27/18/9 -> 27/19/9. Coloured land sources (dedicated lands, Prismatic Vista counted for all three) U/B/R 18/20/18 -> 18/19/18, plus Malakir Mire as a B source when played as a land. Bounded goldfish (seed 30, 20000 games): P(Xander cast) by turn 7 0.3779 unchanged; P(Xander attack trigger) turn 6 0.1924 -> 0.1857, turn 7 0.2978 -> 0.2897 (all from the Boots equip cost). Hypergeometric P(2-4 land slots in the opening 7 of 99 with 33) 0.7069.",
+  "interaction_resilience": "Stack: Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse and the rest of the counter suite. Board: Cyclonic Rift, Chaos Warp and the removal suite; Xander's dies trigger is itself removal. The candidate keeps Xander hexproof (Boots) without blocking the deck's own tricks, and adds two ways to turn his death into value (Necromancy end-step line, Malakir Rebirth). Loses Bojuka Bog, the only maindeck graveyard exile: weaker to opposing reanimation and Breach mirrors.",
+  "weakest_slots": [
+   {
+    "card": "Persist",
+    "weakness": "Targets only nonlegendary creature cards, so it can never return Lord Xander, the Collector.",
+    "alternative_named": "Necromancy",
+    "reasoning": "CUT for Necromancy (genuine swap 1). FLAGGED: explicit owner keep; owner-keeping alternatives A (cut Karlach) and B (cut An Offer You Can't Refuse) are staged complete 100s."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks the deck's own equips and targeted tricks on Xander (14/44 grid cells).",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "CUT for Swiftfoot Boots (genuine swap 2). Not an owner card; the haste cost is disclosed."
+   },
+   {
+    "card": "Bojuka Bog",
+    "weakness": "One-shot graveyard exile on a tapped land; no commander synergy.",
+    "alternative_named": "Malakir Rebirth // Malakir Mire",
+    "reasoning": "CUT for Malakir Rebirth (genuine swap 3, weakest; B3 tie 6/6). Not an owner card; graveyard-hate loss disclosed."
+   },
+   {
+    "card": "Karlach, Fury of Avernus",
+    "weakness": "Five-mana creature whose extra combat needs Xander already attacking.",
+    "alternative_named": "Kiki-Jiki, Mirror Breaker",
+    "reasoning": "Kept in the candidate; it is the cut in alt A (Necromancy keeping Persist) and in the staged Kiki-Jiki and rejected Seize the Day configurations."
+   },
+   {
+    "card": "An Offer You Can't Refuse",
+    "weakness": "Gives an opponent two Treasures.",
+    "alternative_named": "Necromancy",
+    "reasoning": "Kept in the candidate; it is the cut in alt B (Necromancy keeping Persist). Twelve-plus counters and free interaction remain either way."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Narrow counter that gives a 2/2 flier.",
+    "alternative_named": "Mental Misstep",
+    "reasoning": "Kept: cheap protection for Breach/Xander lines; Mental Misstep is narrower."
+   },
+   {
+    "card": "Chaos Warp",
+    "weakness": "Random replacement permanent for the opponent.",
+    "alternative_named": "Dauthi Voidwalker",
+    "reasoning": "Kept: the deck's only red catch-all permanent answer; optimized 60/188."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two-mana rock that pings for coloured mana.",
+    "alternative_named": "Chrome Mox",
+    "reasoning": "Kept: Chrome Mox is noise-level faster and a Game Changer."
+   },
+   {
+    "card": "Hall of the Bandit Lord",
+    "weakness": "Legendary colourless land that costs 3 life.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: gives Xander haste when cast with its mana (a haste source alongside Swiftfoot Boots); Beacon is marginal."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random discard can hit the tutored card.",
+    "alternative_named": "Mox Diamond",
+    "reasoning": "Kept: with Underworld Breach and Lion's Eye Diamond lines the random discard is often upside, and the owner explicitly retained premium tutors; Mox Diamond (the generic cheap-card alternative for this slot) is rejected."
+   },
+   {
+    "card": "Urza's Saga",
+    "weakness": "Land that sacrifices itself; tutors only zero/one-cost artifacts.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: finds Lion's Eye Diamond, Mana Vault, Sol Ring and other cheap artifacts, and makes Constructs."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "Enters tapped, slowing a seven-mana commander.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: three colours plus cycling; Command Beacon is colourless and marginal."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "A dual that can enter tapped in one-on-one.",
+    "alternative_named": "Glasspool Mimic // Glasspool Shore",
+    "reasoning": "Kept: untapped U/R in multiplayer; Glasspool is an owner-rejected clone class and a tapped land."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Optimized Xander trigger-multiplication list (2026-10-14) with four owner swaps. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING and kept the list, naming +Necromancy -Persist as the best defined upgrade test and asking to confirm it against two-mana nonlegendary Auton recursion and a two-mana Goryo's Vengeance haste burst. This M7 pass ran bounded finite versions (seeded goldfish plus exhaustive rules-encoded grids; manual-rules models, not win rates or source-bound engine receipts).",
+  "candidate_pool_scope": "EDHREC Lord Xander, the Collector general (3595), upgraded (256), optimized (188) and cEDH (14) pages, plus off-ranking card pages for Necromancy, Persist, Swiftfoot Boots, Lightning Greaves, Bojuka Bog, Goryo's Vengeance, Kiki-Jiki, Seize the Day and Chrome Mox; live Scryfall /cards/collection batch of 98 non-baseline names plus the 97 baseline names; Commander Spellbook for baseline, candidate and all 8 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file and whole-list audit CSV.",
+  "off_ranked_search_conclusion": "OFF-RANKING search: Necromancy (selected; upgraded 14/256 only), Goryo's Vengeance (staged), Kiki-Jiki, Mirror Breaker (staged), Seize the Day, Mirror-Mad Phantasm, Splinter Twin and Mox Diamond (rejected) were judged. Sorin of House Markov is outside the colour identity. One off-ranked card (Necromancy) is selected, on rules evidence, with its low adoption disclosed."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Lord Xander, the Collector approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt, blob 025aa284, introduced by 214fd50 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Lord_Xander__the_Collector_approved_source_2026-10-14.txt)",
+  "EDHREC Lord Xander, the Collector commander pages JSON (general, upgraded, optimized, cEDH) and off-ranking card pages, retrieved commander pages (general, upgraded, optimized, cEDH) 2026-10-23T17:07:12-0500; card pages for off-ranking checks retrieved 2026-10-23 during this pass (America/Chicago), discovery only: data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch retrieved 2026-10-23T17:16:18-0500: data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T17:15:02-0500: data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for recursion, haste/protection, dies-return and copy effects absent from every Xander page (Necromancy, Goryo's Vengeance, Kiki-Jiki, Seize the Day, Mirror-Mad Phantasm, Splinter Twin, Mox Diamond)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent; its Stage A seal fails the shared checker, see blocker): data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md; data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Lord_Xander__the_Collector.md; data/grixis/m6/deep_reviews/Lord_Xander__the_Collector.md",
+  "Owner 2026-10-14 current-cycle decisions (4 swaps, explicit keeps, rejections, removed cards): canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+  "Comprehensive Rules (frozen cache) 514.3a, 608.2b, 700.4, 702.6a, 702.11b, 702.18a; frozen rulings: data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+  "Bounded finite measured tests (the Pass C request): seeded goldfish (seed 30, 20000 games, 7 turns, 13 configurations) of Xander deployment and attack; exhaustive rules-encoded grids B1 Persist/Necromancy/Goryo's (36 cells), B2 Greaves/Boots (44), B3 Bog/Malakir (16); tested pool of 11 complete 100s: data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json; tests/test_m6_lord_xander_the_collector_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Necromancy",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded 14/256, optimized absent, cEDH absent; live Scryfall batch; card page: Lord Xander absent from Top Commanders",
+   "role": "{2}{B} enchantment, castable as though it had flash: put target creature card from ANY graveyard onto the battlefield under your control; if cast at instant speed it is sacrificed at the next cleanup step and the creature is sacrificed with it.",
+   "named_cuts": [
+    "Persist",
+    "Karlach, Fury of Avernus",
+    "An Offer You Can't Refuse"
+   ],
+   "incumbent_opportunity_cost": "Persist is an EXPLICIT owner keep (2026-10-14 decisions: 'Feign Death, Animate Dead, Persist, Reanimate, and Entomb retain the reanimation axis that makes a seven-mana commander realistic'). {1}{B} sorcery: return target NONLEGENDARY creature card from your graveyard with a -1/-1 counter. It can never return Lord Xander, the Collector, so the owner's stated reason applies only to nonlegendary copies (Auton Soldier, Phantasmal Image is sacrificed, not a card) and other nonlegendary creatures. EDHREC general absent, cEDH 1/14. Owner-keeping alternative cuts staged: Karlach, Fury of Avernus (alt A) and An Offer You Can't Refuse (alt B).",
+   "commander_synergy": "Returns the legendary commander itself (enters trigger: half-hand discard), or an opponent's milled creature. Cast at an opponent's end step: Xander enters (discard), Necromancy is sacrificed at cleanup and takes Xander with it, so his dies trigger (half nonland permanents) also fires. Grid B1 (36 cells): returns in 12 versus Persist 4; 10 cells Necromancy-only, 2 Persist-only; 1 extra dies trigger.",
+   "adversarial_downside": "One more mana than Persist ({2}{B} versus {1}{B}); loses the Persist-only cells where exactly two mana is available (2/36). The end-step line leaves nothing on board. Low adoption: upgraded 14/256 only. Overrides an explicit owner keep, so it is FLAGGED and an owner-keeping alternative 100 is staged.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 1 (FLAGGED owner-keep override): Pass C's top-priority test; clear rules evidence that Persist cannot do the job the owner kept it for (return Xander), and Necromancy also adds a dies trigger. Owner-keeping alternatives A and B are complete 100s.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_A_owner_keeps_Necromancy_minus_Karlach_20261023.txt",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_B_owner_keeps_Necromancy_minus_AnOfferYouCantRefuse_20261023.txt"
+   ]
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "source": "EDHREC Lord Xander, the Collector general 1470/3595, upgraded 108/256, optimized 75/188, cEDH 3/14; live Scryfall batch; card page: Lord Xander absent from Top Commanders (the commander page lists it)",
+   "role": "{2} Equipment: equipped creature has hexproof and haste; equip {1}.",
+   "named_cuts": [
+    "Lightning Greaves"
+   ],
+   "incumbent_opportunity_cost": "Lightning Greaves is not an owner add or explicit keep (the decisions file never names it). Haste and SHROUD, equip {0}. Shroud stops the deck's own targeting of Xander: equips (Sword of Feast and Famine, Blade of Selves, Helm of the Host), Saw in Half, Molten Duplication, Feign Death, Hall of Echoes and Malakir Rebirth (ruling 2020-08-07). EDHREC general 1391/3595, optimized 87/188.",
+   "commander_synergy": "Hasty, opponent-proof Xander that the deck can still target with its own equips, Saw in Half, Molten Duplication, Feign Death, Hall of Echoes and Malakir Rebirth. Grid B2 (44 cells): Boots allows the own-target action in 44, Greaves in 30; in 14 cells Greaves must first be moved off Xander, stripping his protection.",
+   "adversarial_downside": "Equip {1} instead of {0}: haste the turn Xander is cast in only 22/44 cells (Greaves 44); goldfish P(Xander attack trigger) turn 7 0.2978 -> 0.2897, turn 6 0.1924 -> 0.1857. Optimized adoption is slightly lower than Greaves (75/188 versus 87/188).",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 2: the deck's own targeting package is large and shroud blocks all of it; the haste cost is measured and disclosed. Not an owner card.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+   ]
+  },
+  {
+   "card": "Malakir Rebirth // Malakir Mire",
+   "source": "EDHREC Lord Xander, the Collector general 445/3595, upgraded 49/256, optimized 26/188, cEDH absent; live Scryfall batch; EDHREC lists it as Malakir Rebirth",
+   "role": "{B} instant (lose 2 life): target creature gains 'when this dies, return it to the battlefield tapped' until end of turn // Malakir Mire, a tapped {B} land.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Bojuka Bog is not an owner add or explicit keep. Tapped {B} land that exiles one graveyard on entry; the deck's only maindeck graveyard-exile effect. EDHREC general 1365/3595, optimized 75/188.",
+   "commander_synergy": "On Xander it turns removal or an Altar of Dementia sacrifice into a dies trigger plus an enters trigger (half nonland permanents, then half-hand discard), and as a land it fills Bog's tapped-{B} slot. Grid B3 (16 cells): answers 6, the same as Bog; 4 Malakir-only, 4 Bog-only.",
+   "adversarial_downside": "The weakest of the three: grid B3 ties 6/6 and the deck loses its only maindeck graveyard exile (Underworld Breach mirrors, opposing reanimation). Feign Death already does the dies-return job; 2 life. Optimized 26/188 versus Bog 75/188.",
+   "judgment": "SELECT_ADD",
+   "reason": "Genuine swap 3 (weakest; tie disclosed): a land slot that doubles as a commander dies/ETB enabler. Not an owner card. The owner may prefer Bog for graveyard hate.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt"
+   ]
+  },
+  {
+   "card": "Goryo's Vengeance",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH 1/14; live Scryfall batch; Pass C requested comparison (two-mana Goryo haste burst)",
+   "role": "{1}{B} instant: return target legendary creature card from your graveyard with haste; exile it at the next end step.",
+   "named_cuts": [
+    "Persist"
+   ],
+   "incumbent_opportunity_cost": "Persist is an EXPLICIT owner keep (2026-10-14 decisions: 'Feign Death, Animate Dead, Persist, Reanimate, and Entomb retain the reanimation axis that makes a seven-mana commander realistic'). {1}{B} sorcery: return target NONLEGENDARY creature card from your graveyard with a -1/-1 counter. It can never return Lord Xander, the Collector, so the owner's stated reason applies only to nonlegendary copies (Auton Soldier, Phantasmal Image is sacrificed, not a card) and other nonlegendary creatures. EDHREC general absent, cEDH 1/14.",
+   "commander_synergy": "Reanimates Xander with haste: enters and attack triggers the same turn (2/36 grid cells), and returns him where Necromancy does not in 4 cells.",
+   "adversarial_downside": "Exiled at end step, so no dies trigger and no lasting body; only legendary targets (returns 8/36 versus Necromancy 12/36). Goldfish unchanged (recursion is not modelled). cEDH 1/14 only.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Pass C test run: a real haste burst but narrower than Necromancy; staged as a complete 100, not counted.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_GoryosVengeance_minus_Persist_20261023.txt"
+   ]
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord Xander, the Collector commander page)",
+   "role": "{2}{R}{R}{R} haste: {T}: hasty token copy of target nonlegendary creature you control, sacrificed at end step.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Copies Auton Soldier or Spark Double already copying Xander (both nonlegendary), so every turn makes a hasty Xander copy: enters trigger, attack trigger and a dies trigger when sacrificed.",
+   "adversarial_downside": "RRR in a deck with 9 red pips and 17-18 red sources; adds three commander-independent infinite combos (Spellbook 618-1692 with Helm of the Host, 618-3908 with Spark Double, 618-5361 with Auton Soldier; 11 -> 14 included), against the owner's guard on generic Oracle/combo packages. Absent from every Xander page.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "A strong Xander multiplier but it changes the deck's combo identity; staged as a complete 100 for the owner, not counted.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_staged_plus_KikiJiki_minus_Karlach_20261023.txt"
+   ]
+  },
+  {
+   "card": "Seize the Day",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord Xander, the Collector commander page); Pass C secondary item",
+   "role": "{3}{R} sorcery, flashback {2}{R}: untap target creature; additional combat and main phase after this main phase.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Cast postcombat, Xander attacks again for a second mill trigger.",
+   "adversarial_downside": "Karlach already adds a combat (and untaps all attackers) every turn it attacks; Seize is one-shot plus one flashback at 4 and 3 mana. Absent from every Xander page.",
+   "judgment": "REJECT",
+   "reason": "Pass C test run: not better than Karlach for the extra-combat slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+    "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_SeizeTheDay_minus_Karlach_20261023.txt"
+   ]
+  },
+  {
+   "card": "Glasspool Mimic // Glasspool Shore",
+   "source": "EDHREC Lord Xander, the Collector general 307/3595, upgraded 36/256, optimized 15/188, cEDH absent; live Scryfall batch",
+   "role": "{2}{U} clone of a creature you control // tapped {U} land.",
+   "named_cuts": [
+    "Training Center"
+   ],
+   "incumbent_opportunity_cost": "Training Center is not an owner add or explicit keep: U/R dual, untapped with two or more opponents. EDHREC optimized 45/188.",
+   "commander_synergy": "A clone of Xander in a land slot (enters trigger, then the legend rule puts one into the graveyard for a dies trigger).",
+   "adversarial_downside": "Owner-rejected class: the 2026-10-14 decisions rejected further clones (Phyrexian Metamorph, Irenicus's Vile Duplication) as redundant after the selected clone package; replacing untapped U/R with a tapped mono-U land costs deployment (goldfish turn 7 cast 0.3779 -> 0.3749).",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected redundant-clone class; deployment cost.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_GlasspoolMimic_minus_TrainingCenter_20261023.txt"
+   ]
+  },
+  {
+   "card": "Chrome Mox",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized 17/188, cEDH 9/14; live Scryfall batch",
+   "role": "{0} artifact: imprint a nonartifact, nonland card; taps for its colour.",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Talisman of Creativity is not an owner add or explicit keep: {2} rock for {C} or {U}/{R} (1 damage). EDHREC optimized 62/188.",
+   "commander_synergy": "Fast mana toward a seven-mana commander.",
+   "adversarial_downside": "+0.29 points of P(Xander cast) by turn 7 (0.3808 versus 0.3779), Monte Carlo noise level, at the cost of a card; generic acceleration; Game Changer (20 -> 21).",
+   "judgment": "REJECT",
+   "reason": "Noise-level gain, card disadvantage and an extra Game Changer.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_ChromeMox_minus_TalismanOfCreativity_20261023.txt"
+   ]
+  },
+  {
+   "card": "Command Beacon",
+   "source": "EDHREC Lord Xander, the Collector general 495/3595, upgraded 45/256, optimized 32/188, cEDH 2/14; live Scryfall batch",
+   "role": "Land: {C}; {T}, sacrifice: put your commander into your hand from the command zone.",
+   "named_cuts": [
+    "Xander's Lounge"
+   ],
+   "incumbent_opportunity_cost": "Xander's Lounge is not an owner add or explicit keep: tapped U/B/R triome with cycling {3}. EDHREC optimized 107/188.",
+   "commander_synergy": "Avoids commander tax on a seven-mana commander.",
+   "adversarial_downside": "Colourless in place of a three-colour triome; goldfish turn 7 cast 0.3786 versus 0.3779 (noise); the deck mostly reanimates or copies Xander instead of recasting him.",
+   "judgment": "REJECT",
+   "reason": "Marginal; not counted (no padding).",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_CommandBeacon_minus_XandersLounge_20261023.txt"
+   ]
+  },
+  {
+   "card": "Dualcaster Mage",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized 11/188, cEDH 5/14; live Scryfall batch",
+   "role": "{1}{R}{R} flash: when it enters, copy target instant or sorcery spell.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Copies a Molten Duplication or Saw in Half aimed at Xander.",
+   "adversarial_downside": "Spellbook lists it as an infinite with Molten Duplication and with Saw in Half (almost-included 147-5487, 147-500): a commander-independent infinite of the class the owner guarded against.",
+   "judgment": "REJECT",
+   "reason": "Generic infinite, not commander-first.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord Xander, the Collector commander page)",
+   "role": "{3}{U}{U} flier: {1}{U}: shuffle it into its owner's library and mill until another copy is revealed.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Classic self-mill outlet with Underworld Breach.",
+   "adversarial_downside": "The deck's mill is aimed at opponents; with one copy it mills our own library entirely (a reanimator line the deck does not run). Off-ranking.",
+   "judgment": "REJECT",
+   "reason": "Self-mill, not Xander's opponent-mill axis.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "source": "EDHREC Lord Xander, the Collector general 714/3595, upgraded 40/256, optimized 43/188, cEDH 7/14; live Scryfall batch",
+   "role": "{B}{B} shadow: cards going to opponents' graveyards are exiled with void counters instead.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Bojuka Bog is not an owner add or explicit keep. Tapped {B} land that exiles one graveyard on entry; the deck's only maindeck graveyard-exile effect. EDHREC general 1365/3595, optimized 75/188.",
+   "commander_synergy": "Graveyard hate on a two-mana body with shadow.",
+   "adversarial_downside": "Anti-synergy: Xander's mill and discard would exile cards instead of putting them into graveyards, so those cards are not milled for Cruel Calculations and opponents' creatures stop being Necromancy/Animate Dead/Reanimate targets. Optimized 43/188.",
+   "judgment": "REJECT",
+   "reason": "Fights the commander's graveyard plan.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Counterspell",
+   "source": "EDHREC Lord Xander, the Collector general 2036/3595, upgraded 142/256, optimized 116/188, cEDH 6/14; live Scryfall batch",
+   "role": "{U}{U} instant: counter target spell.",
+   "named_cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "incumbent_opportunity_cost": "An Offer You Can't Refuse is not named in the decisions file; it is part of the challenged-and-retained 'free interaction' floor in general terms. {U}: counter target noncreature spell, its controller makes two Treasures. EDHREC general 1258/3595, optimized 55/188.",
+   "commander_synergy": "Unconditional two-mana hard counter.",
+   "adversarial_downside": "Generic; the deck already runs Force of Will, Fierce Guardianship, Swan Song, An Offer You Can't Refuse and more free/cheap counters; UU is harder than {U}. Optimized 116/188.",
+   "judgment": "REJECT",
+   "reason": "Generic staple, not an improvement over the interaction floor.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mental Misstep",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH 6/14; live Scryfall batch",
+   "role": "{U/P} instant: counter target spell with mana value 1.",
+   "named_cuts": [
+    "Swan Song"
+   ],
+   "incumbent_opportunity_cost": "Swan Song (not an owner card) counters enchantments, instants and sorceries for {U}.",
+   "commander_synergy": "Free answer to one-mana tutors and rituals.",
+   "adversarial_downside": "Narrow in a Bracket 4 pod; generic cEDH card (6/14 cEDH only).",
+   "judgment": "REJECT",
+   "reason": "Narrow and generic cEDH interaction.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Waste Not",
+   "source": "EDHREC Lord Xander, the Collector general 914/3595, upgraded 72/256, optimized 53/188, cEDH 3/14; live Scryfall batch",
+   "role": "{1}{B} enchantment: rewards when an opponent discards.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Pays off Xander's half-hand discard.",
+   "adversarial_downside": "Rewards only the enters trigger, once per Xander entry; a do-nothing enchantment otherwise. Optimized 53/188.",
+   "judgment": "REJECT",
+   "reason": "Narrow payoff; not clearly better than incumbents.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Twinflame",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized 12/188, cEDH 4/14; live Scryfall batch",
+   "role": "{1}{R} sorcery: hasty token copy of target creature you control (strive).",
+   "named_cuts": [
+    "Molten Duplication"
+   ],
+   "incumbent_opportunity_cost": "Molten Duplication is an explicit owner keep (trigger multiplier).",
+   "commander_synergy": "A hasty token copy of Xander for one turn.",
+   "adversarial_downside": "The token copy of legendary Xander dies to the legend rule unless Hall of Echoes is active; Molten Duplication does the same and is owner-kept. Optimized 12/188.",
+   "judgment": "REJECT",
+   "reason": "Redundant with an explicit owner keep; legend rule.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Splinter Twin",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord Xander, the Collector commander page)",
+   "role": "{2}{R}{R} Aura: enchanted creature taps to make a hasty token copy.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Repeatable copies on a nonlegendary Xander copy.",
+   "adversarial_downside": "Generic infinite with Pestermite-class cards and an Aura that dies with its host; absent from every Xander page.",
+   "judgment": "REJECT",
+   "reason": "Generic combo piece, not commander-first.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Supernatural Stamina",
+   "source": "EDHREC Lord Xander, the Collector general 447/3595, upgraded 31/256, optimized 12/188, cEDH absent; live Scryfall batch",
+   "role": "{B} instant: +2/+0 and return to the battlefield when it dies this turn.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Bojuka Bog is not an owner add or explicit keep. Tapped {B} land that exiles one graveyard on entry; the deck's only maindeck graveyard-exile effect. EDHREC general 1365/3595, optimized 75/188.",
+   "commander_synergy": "Same dies-and-return effect as Malakir Rebirth.",
+   "adversarial_downside": "Costs a spell slot; Malakir Rebirth gives the same effect in a land slot. Optimized 12/188.",
+   "judgment": "REJECT",
+   "reason": "Dominated by the selected Malakir Rebirth for this slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Undying Evil",
+   "source": "EDHREC Lord Xander, the Collector general 270/3595, upgraded 22/256, optimized absent, cEDH 1/14; live Scryfall batch",
+   "role": "{B} instant: target creature gains undying until end of turn.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Bojuka Bog is not an owner add or explicit keep. Tapped {B} land that exiles one graveyard on entry; the deck's only maindeck graveyard-exile effect. EDHREC general 1365/3595, optimized 75/188.",
+   "commander_synergy": "Dies-and-return on Xander for one black mana.",
+   "adversarial_downside": "Spell slot rather than land slot; the +1/+1 counter matters little. Dominated by Malakir Rebirth for the land slot.",
+   "judgment": "REJECT",
+   "reason": "Dominated by the selected MDFC.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Fake Your Own Death",
+   "source": "EDHREC Lord Xander, the Collector general 489/3595, upgraded 35/256, optimized 18/188, cEDH absent; live Scryfall batch",
+   "role": "{1}{B} instant: +2/+0, return when it dies, and a Treasure.",
+   "named_cuts": [
+    "Bojuka Bog"
+   ],
+   "incumbent_opportunity_cost": "Bojuka Bog is not an owner add or explicit keep. Tapped {B} land that exiles one graveyard on entry; the deck's only maindeck graveyard-exile effect. EDHREC general 1365/3595, optimized 75/188.",
+   "commander_synergy": "Dies-and-return on Xander plus a Treasure.",
+   "adversarial_downside": "Two mana in a spell slot; Feign Death already fills the role. Optimized 18/188.",
+   "judgment": "REJECT",
+   "reason": "Redundant with Feign Death; Malakir uses a land slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Victimize",
+   "source": "EDHREC Lord Xander, the Collector general 304/3595, upgraded 24/256, optimized 17/188, cEDH absent; live Scryfall batch",
+   "role": "{2}{B} sorcery: sacrifice a creature, return two creature cards from your graveyard tapped.",
+   "named_cuts": [
+    "Persist"
+   ],
+   "incumbent_opportunity_cost": "Persist is an EXPLICIT owner keep (2026-10-14 decisions: 'Feign Death, Animate Dead, Persist, Reanimate, and Entomb retain the reanimation axis that makes a seven-mana commander realistic'). {1}{B} sorcery: return target NONLEGENDARY creature card from your graveyard with a -1/-1 counter. It can never return Lord Xander, the Collector, so the owner's stated reason applies only to nonlegendary copies (Auton Soldier, Phantasmal Image is sacrificed, not a card) and other nonlegendary creatures. EDHREC general absent, cEDH 1/14.",
+   "commander_synergy": "Returns Xander and another creature, and the sacrifice can be a Xander copy for a dies trigger.",
+   "adversarial_downside": "Needs a creature to sacrifice and two targets; sorcery speed; tapped returns. Necromancy is more flexible. Optimized 17/188.",
+   "judgment": "REJECT",
+   "reason": "Narrower and slower than Necromancy.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mox Diamond",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH 6/14; live Scryfall batch",
+   "role": "{0} artifact: discard a land to cast; any colour.",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Talisman of Creativity is not an owner add or explicit keep: {2} rock for {C} or {U}/{R} (1 damage). EDHREC optimized 62/188.",
+   "commander_synergy": "Zero-mana acceleration toward a seven-mana commander.",
+   "adversarial_downside": "Costs a land in a 33-land deck with a seven-mana commander; generic cEDH card (6/14).",
+   "judgment": "REJECT",
+   "reason": "Generic fast mana and card-negative.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "The Master of Lake-town",
+   "source": "EDHREC Lord Xander, the Collector general 92/667, upgraded 7/64, optimized 7/44, cEDH 1/6; live Scryfall batch",
+   "role": "{1}{B}{B} deathtouch: whenever a player loses life, they mill that many.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "Mill engine and Duskmantle Guildmage partner.",
+   "adversarial_downside": "Owner-rejected by name on 2026-10-14 (does not improve Xander's triggers enough); not re-added.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected card; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Phyrexian Metamorph",
+   "source": "EDHREC Lord Xander, the Collector general 478/3595, upgraded 33/256, optimized 21/188, cEDH 6/14; live Scryfall batch",
+   "role": "{3}{U/P} artifact creature that can enter as a copy of any artifact or creature.",
+   "named_cuts": [
+    "Karlach, Fury of Avernus"
+   ],
+   "incumbent_opportunity_cost": "Karlach, Fury of Avernus is not an owner add or explicit keep, and is the author-side cut named in the Pass C advisory. {4}{R}: whenever you attack in the first combat, untap attackers, first strike, one extra combat; with Xander that is a second attack trigger. Absent from the EDHREC Xander pages.",
+   "commander_synergy": "An artifact clone of Xander (legend rule then gives a dies trigger).",
+   "adversarial_downside": "Owner-rejected by name on 2026-10-14 (redundant after the clone package); not re-added.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected card; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Lord_Xander_the_Collector_Current_Cycle_Decisions_2026-10-14.md (read-only; archived copy grixis/source-archive/grixis-commander-encyclopediaGPT/refinement/decisions/)"
+   ]
+  },
+  {
+   "card": "Sorin of House Markov // Sorin, Ravenous Neonate",
+   "source": "EDHREC Lord Xander, the Collector general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Lord Xander, the Collector commander page); live Scryfall colour identity B/W",
+   "role": "{1}{B} legendary creature // planeswalker (W in identity).",
+   "named_cuts": [
+    "Persist"
+   ],
+   "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+   "commander_synergy": "Not assessed: the card is outside U/B/R colour identity.",
+   "adversarial_downside": "Colour identity includes white (live Scryfall), so it is illegal in a U/B/R deck.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Outside the commander's colour identity.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Necromancy",
+   "Swiftfoot Boots",
+   "Malakir Rebirth // Malakir Mire"
+  ],
+  "cuts": [
+   "Persist",
+   "Lightning Greaves",
+   "Bojuka Bog"
+  ],
+  "coherent_package_tradeoff": "Three swaps: a recursion spell that can return the legendary commander (and add a dies trigger) replaces one that cannot; haste/hexproof equipment that lets the deck still target its own commander replaces shroud equipment; and an MDFC dies-return trick replaces a graveyard-hate land. Cost: one more mana for the recursion, equip {1} instead of {0} (P(Xander attack trigger) turn 7 0.2978 -> 0.2897), and the loss of the only maindeck graveyard exile. Game Changers stay at 20; land slots 33; Spellbook 11 included; Bracket 4. Persist is an explicit owner keep (FLAGGED); owner-keeping alternatives A and B are staged."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Persist",
+    "weakness": "Targets only nonlegendary creature cards, so it can never return Lord Xander, the Collector.",
+    "alternative_named": "Necromancy",
+    "reasoning": "CUT for Necromancy (genuine swap 1). FLAGGED: explicit owner keep; owner-keeping alternatives A (cut Karlach) and B (cut An Offer You Can't Refuse) are staged complete 100s."
+   },
+   {
+    "card": "Lightning Greaves",
+    "weakness": "Shroud blocks the deck's own equips and targeted tricks on Xander (14/44 grid cells).",
+    "alternative_named": "Swiftfoot Boots",
+    "reasoning": "CUT for Swiftfoot Boots (genuine swap 2). Not an owner card; the haste cost is disclosed."
+   },
+   {
+    "card": "Bojuka Bog",
+    "weakness": "One-shot graveyard exile on a tapped land; no commander synergy.",
+    "alternative_named": "Malakir Rebirth // Malakir Mire",
+    "reasoning": "CUT for Malakir Rebirth (genuine swap 3, weakest; B3 tie 6/6). Not an owner card; graveyard-hate loss disclosed."
+   },
+   {
+    "card": "Karlach, Fury of Avernus",
+    "weakness": "Five-mana creature whose extra combat needs Xander already attacking.",
+    "alternative_named": "Kiki-Jiki, Mirror Breaker",
+    "reasoning": "Kept in the candidate; it is the cut in alt A (Necromancy keeping Persist) and in the staged Kiki-Jiki and rejected Seize the Day configurations."
+   },
+   {
+    "card": "An Offer You Can't Refuse",
+    "weakness": "Gives an opponent two Treasures.",
+    "alternative_named": "Necromancy",
+    "reasoning": "Kept in the candidate; it is the cut in alt B (Necromancy keeping Persist). Twelve-plus counters and free interaction remain either way."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Narrow counter that gives a 2/2 flier.",
+    "alternative_named": "Mental Misstep",
+    "reasoning": "Kept: cheap protection for Breach/Xander lines; Mental Misstep is narrower."
+   },
+   {
+    "card": "Chaos Warp",
+    "weakness": "Random replacement permanent for the opponent.",
+    "alternative_named": "Dauthi Voidwalker",
+    "reasoning": "Kept: the deck's only red catch-all permanent answer; optimized 60/188."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two-mana rock that pings for coloured mana.",
+    "alternative_named": "Chrome Mox",
+    "reasoning": "Kept: Chrome Mox is noise-level faster and a Game Changer."
+   },
+   {
+    "card": "Hall of the Bandit Lord",
+    "weakness": "Legendary colourless land that costs 3 life.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: gives Xander haste when cast with its mana (a haste source alongside Swiftfoot Boots); Beacon is marginal."
+   },
+   {
+    "card": "Gamble",
+    "weakness": "Random discard can hit the tutored card.",
+    "alternative_named": "Mox Diamond",
+    "reasoning": "Kept: with Underworld Breach and Lion's Eye Diamond lines the random discard is often upside, and the owner explicitly retained premium tutors; Mox Diamond (the generic cheap-card alternative for this slot) is rejected."
+   },
+   {
+    "card": "Urza's Saga",
+    "weakness": "Land that sacrifices itself; tutors only zero/one-cost artifacts.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: finds Lion's Eye Diamond, Mana Vault, Sol Ring and other cheap artifacts, and makes Constructs."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "Enters tapped, slowing a seven-mana commander.",
+    "alternative_named": "Command Beacon",
+    "reasoning": "Kept: three colours plus cycling; Command Beacon is colourless and marginal."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "A dual that can enter tapped in one-on-one.",
+    "alternative_named": "Glasspool Mimic // Glasspool Shore",
+    "reasoning": "Kept: untapped U/R in multiplayer; Glasspool is an owner-rejected clone class and a tapped land."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Necromancy selected; Goryo's Vengeance and Kiki-Jiki, Mirror Breaker staged; Seize the Day, Mirror-Mad Phantasm, Splinter Twin, Mox Diamond rejected; Sorin of House Markov outside identity.",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Necromancy",
+     "Swiftfoot Boots",
+     "Malakir Rebirth // Malakir Mire"
+    ],
+    "cuts": [
+     "Persist",
+     "Lightning Greaves",
+     "Bojuka Bog"
+    ],
+    "result_and_rationale": "SELECTED research candidate (three genuine swaps). Each swap is independent; the Necromancy half overrides the explicit owner keep Persist and is FLAGGED, with complete owner-keeping alternatives staged."
+   },
+   {
+    "adds": [
+     "Necromancy",
+     "Swiftfoot Boots",
+     "Malakir Rebirth // Malakir Mire"
+    ],
+    "cuts": [
+     "Karlach, Fury of Avernus",
+     "Lightning Greaves",
+     "Bojuka Bog"
+    ],
+    "result_and_rationale": "Alt A (staged complete 100): keeps every owner keep and owner add, including Persist; Necromancy replaces Karlach, Fury of Avernus (the extra-combat close is lost)."
+   },
+   {
+    "adds": [
+     "Necromancy",
+     "Swiftfoot Boots",
+     "Malakir Rebirth // Malakir Mire"
+    ],
+    "cuts": [
+     "An Offer You Can't Refuse",
+     "Lightning Greaves",
+     "Bojuka Bog"
+    ],
+    "result_and_rationale": "Alt B (staged complete 100): keeps every owner keep and owner add; Necromancy replaces An Offer You Can't Refuse (one cheap counter is lost)."
+   },
+   {
+    "adds": [
+     "Goryo's Vengeance",
+     "Swiftfoot Boots",
+     "Malakir Rebirth // Malakir Mire"
+    ],
+    "cuts": [
+     "Persist",
+     "Lightning Greaves",
+     "Bojuka Bog"
+    ],
+    "result_and_rationale": "Pass C Goryo's Vengeance package (staged complete 100). NOT COUNTED: hasty but exiled at end step; narrower than Necromancy in grid B1."
+   },
+   {
+    "adds": [
+     "Necromancy",
+     "Swiftfoot Boots",
+     "Malakir Rebirth // Malakir Mire",
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "cuts": [
+     "Persist",
+     "Lightning Greaves",
+     "Bojuka Bog",
+     "Karlach, Fury of Avernus"
+    ],
+    "result_and_rationale": "Kiki-Jiki package (staged complete 100). NOT COUNTED: strong Xander multiplier but adds three commander-independent infinites (Spellbook 11 -> 14)."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C requested Necromancy against Persist and a comparison with Goryo's Vengeance; Goryo's is staged as a complete 100. Because Persist is an explicit owner keep, Necromancy is also staged against Karlach, Fury of Avernus (alt A) and An Offer You Can't Refuse (alt B), each a complete 100 keeping every owner keep and add.",
+  "strongest_argument_against_baseline": "The owner kept Persist to reanimate a seven-mana commander, but Persist cannot target a legendary card; and Lightning Greaves' shroud blocks the deck's own equips and targeted death/copy tricks on Xander. Both are rules mismatches with the owner's stated plan.",
+  "evidence_based_answer": "Three genuine swaps: +Necromancy -Persist (FLAGGED owner-keep override, rules-driven), +Swiftfoot Boots -Lightning Greaves (rules-driven, haste cost disclosed) and +Malakir Rebirth // Malakir Mire -Bojuka Bog (weakest, tie disclosed). Pass C's comparison was run: Goryo's Vengeance is staged, Seize the Day rejected. Every other challenger is dominated, owner-rejected, generic, marginal or invalid. RESEARCH_ONLY.",
+  "fewer_than_five_weak_slots_reason": null
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt",
+  "sha256": "8dc209682c00608e1d903b41988ac7bcec540005624ef7938593ee520f1a28c8",
+  "card_count": 100,
+  "deckwide_reconciliation": "One [Commander] line first (Lord Xander, the Collector), then lines case-insensitively alphabetical; 2 Island, 2 Mountain, 2 Swamp, every other card 1x (96 distinct library names). Exactly three substitutions against the canonical source (+Necromancy -Persist; +Swiftfoot Boots -Lightning Greaves; +Malakir Rebirth // Malakir Mire -Bojuka Bog); logical hash lh1:51caa7ea583ad70417bbdf4e1c896e2db3a87021e87fe0425d452bd911fe3620 (baseline lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a). 32 lands plus 1 MDFC land; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+   "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+   "tests/test_m6_lord_xander_the_collector_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Mill",
+   "Clones",
+   "Optimized"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY and BLOCKED. (1) Seal blocker: this deck's existing M6 owner-equivalent Pass C Stage A seal (data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json, added in commit bca97b98) records stage_a.md SHA-256 89a78d803b5cb5ea886b2402828aaff00b78497db0b3c0fe569c6c0ee5a879d1 (git blob e97d35fe), but the committed stage_a.md (blob e97d35fe, commit 6ebb511e) hashes to 826f07707a6fdd1583b815ba6b80ad99bd8a71d57d03ac05766ed2a0a4cd0322, so the shared J checker (scripts/grixis_m6_bundle_check.py, sha 2962a640...3bf3b) rejects any bundle with 'Stage A source diverged from separately sealed byte commitment'. The sealed evidence and the checker are not edited; a valid J bundle cannot be produced honestly. (2) Only three genuine swaps (+Necromancy -Persist, FLAGGED owner-keep override; +Swiftfoot Boots -Lightning Greaves; +Malakir Rebirth // Malakir Mire -Bojuka Bog), below the five-swap owner-presentation floor; the rest are dominated, owner-rejected, generic, marginal or invalid. This packet is NOT owner-presentable and NOT owner approved; the canonical Lord Xander, the Collector list is unchanged."
+}

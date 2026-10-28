@@ -1,0 +1,25 @@
+name: M7 Deck 42 Ravager Rev1 exact 100 and live Oracle certification
+
+on:
+  push:
+    branches:
+      - chatgpt-m7-42-ravager-rev1-proposal
+  pull_request:
+    paths:
+      - 'data/grixis/m7/nicol_bolas_ravager_rev1/**'
+      - 'data/grixis/m7/candidate_lists/Nicol_Bolas__the_Ravager_chatgpt_rev1.txt'
+      - '.github/workflows/m7-nicol-ravager-rev1.yml'
+  workflow_dispatch:
+
+jobs:
+  ravager-source-structure-oracle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Exact 100, SHA, singleton, 34 lands, six swaps, finite transform rules
+        run: python -m unittest discover -v -s data/grixis/m7/nicol_bolas_ravager_rev1 -p 'test_ravager_m7_rev1.py'
+      - name: Live 98-name Commander legality, UBR identity and Oracle witnesses
+        run: python data/grixis/m7/nicol_bolas_ravager_rev1/verify_ravager_scryfall.py

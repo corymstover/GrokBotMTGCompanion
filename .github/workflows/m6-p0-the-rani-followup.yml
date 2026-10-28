@@ -1,0 +1,24 @@
+name: "Deck 57 The Rani M6 five P0 follow-up cases"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/the_rani_rev1/m6_p0_followup.py"
+      - ".github/workflows/m6-p0-the-rani-followup.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-exact-approved-deck-57-p0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Reconfirm the complete 100-card M7 source and independent decision gate
+        run: python3 data/grixis/m7/the_rani_rev1/verify.py
+      - name: Execute five source-bound M6 P0 finite positive/adversarial cases
+        run: python3 data/grixis/m7/the_rani_rev1/m6_p0_followup.py

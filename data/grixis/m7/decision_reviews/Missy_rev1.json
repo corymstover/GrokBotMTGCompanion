@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Missy",
+  "canonical_baseline_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+  "canonical_baseline_logical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+  "commander_identity": {
+    "mechanical_plan": "Six-mana Missy converts dead nonartifact creatures, including opponents' cards, to stolen tapped 2/2 Cyberman artifacts; reveal-morph cards turn face up into nonartifacts and can die repeatedly to loop through Missy. Cybermen and artifact-entry/death payoffs multiply end-step villainous choices.",
+    "protected_core": [
+      "Missy",
+      "Ruthless Ripper",
+      "Dragon's Eye Savants",
+      "Horde Ambusher",
+      "Goblin Bombardment",
+      "Altar of Dementia",
+      "Ashnod's Altar",
+      "Phyrexian Altar",
+      "Viscera Seer",
+      "Reckless Fireweaver",
+      "The Valeyard",
+      "The Cyber-Controller",
+      "Cyberman Patrol",
+      "Death in Heaven",
+      "Grave Pact",
+      "Delete",
+      "Ixidor, Reality Sculptor",
+      "Skirk Alarmist",
+      "Panoptic Projektor",
+      "They Came from the Pipes"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized: deterministic Missy-dependent loops, fast acceleration, efficient protection and Grixis interaction, not generic cEDH due to six-mana commander and multi-piece setup.",
+    "anti_homogenization": "Do not replace Missy's Cyberman conversion and zero-cost morph recurrence with a generic Thoracle/Consult/Breach cEDH core. Retain cards that magnify stolen artifacts and villainous choices."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "Reconciled all 99 current October 15 approved noncommander slots to historical 99-slot audit and reopened slow morph draw, expensive Cyberman top-end, repeated variable-cost edicts/wipes, conditional theft unlock, protection, mana ramp and all 35 lands. Retained the three free-turn-up bodies, six outlets after Carrion Feeder, five core face-down unlock/interaction pieces, artifact-entry and death win conditions, cyberman/villainous package, cheap counter interaction, main tutors and remaining asymmetric kills.",
+    "mana_base_and_curve": "35 physical lands before and after. Two checklands and the slow Inventors' Fair metalcraft tutor convert into two additional fetches and Cavern of Souls naming Time Lord for uncounterable Missy. Chrome Mox and Grim Monolith add early acceleration, while 7-mana Squadron and 6-mana Cybership/Their Name Is Death leave; no claim that Cavern fixes non-Time-Lord spells.",
+    "interaction_resilience": "Retain Offer, Swan Song, Greaves, Boltbender, Willbender, Silencer, Stratus Dancer, Terminate, Feed, Chaos Warp, Cyclonic Rift, Delete, Toxic Deluge, Grave Pact, Plaguecrafter, Accursed Marauder. Add Fierce Guardianship, Deflecting Swat, Gift of Doom and Sharpshooter. Loses one six-mana sweep and variable edict but preserves broad nonartifact death conversion.",
+    "weakest_slots": [
+      {
+        "card": "Aphetto Runecaster",
+        "weakness": "Four-mana optional draw dependent on face-up actions; no board effect on deployment.",
+        "alternative_named": "Altar of the Brood",
+        "reasoning": "One-mana permanent-entry milling closes every valid Missy loop, including 0-power Savants; loses draw."
+      },
+      {
+        "card": "Ashad, the Lone Cyberman",
+        "weakness": "Four-color-pip legendary artifact casualty ability needs further nonlegendary artifact spells to copy.",
+        "alternative_named": "Yawgmoth, Thran Physician",
+        "reasoning": "Sacrifice plus draw/creature attrition directly converts dead nonartifact bodies to Cybermen; one life per activation is a real cost."
+      },
+      {
+        "card": "Bane of the Living",
+        "weakness": "Morph -X/-X costs variable BB and can harm our own board.",
+        "alternative_named": "Gift of Doom",
+        "reasoning": "Morph at sacrifice cost turns a nonartifact death into a protective Aura on Missy; loses repeatable sweeper."
+      },
+      {
+        "card": "Cybermen Squadron",
+        "weakness": "Seven mana and attack-dependent myriad; no immediate value without other established artifact attackers.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Two-mana fast mana helps resolve the indispensable six-mana commander and keep up protection."
+      },
+      {
+        "card": "Cybership",
+        "weakness": "Six mana, crew 4, then must connect for face-down two-card theft.",
+        "alternative_named": "Goblin Sharpshooter",
+        "reasoning": "Three-mana creature death payoff removes small opposing nonartifacts and can finish native free-loop cycles."
+      },
+      {
+        "card": "Doomsday Confluence",
+        "weakness": "Scalable options are real but double-X mana makes two edicts cost five mana.",
+        "alternative_named": "Carrion Feeder",
+        "reasoning": "One-mana free sacrifice improves access to combo/converted-Cyberman loops."
+      },
+      {
+        "card": "Etrata, Deadly Fugitive",
+        "weakness": "Three-mana body plus four per activation for stolen cards; Ixidor and Skirk keep turn-up coverage.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Permanent zero-mana colored acceleration supports turn-early Missy at imprint card cost."
+      },
+      {
+        "card": "Their Name Is Death",
+        "weakness": "Six-mana BBB nonartifact wipe can kill Missy too; Delete and sacrifice edicts remain.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "With commander in play protects from noncreature removal at zero mana."
+      },
+      {
+        "card": "Ugin's Mastery",
+        "weakness": "Four-mana manifest payoff needs further face-down colorless spell casts/attacks.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "With commander in play can redirect a hostile targeted spell or ability for zero mana."
+      },
+      {
+        "card": "Dragonskull Summit",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "Fetch black dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "Fetch blue dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Inventors' Fair",
+        "weakness": "Colorless land and late metalcraft/4-mana artifact tutor.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Time Lord selection gives uncounterable six-mana Missy and specific tribal colored mana."
+      }
+    ],
+    "current_baseline_strength": "October 15 approval was already 16 strategic swaps and had an explicit 99-slot audit, 35 lands, legal Grixis and commander-native zero-reveal morph loops. This pass is a substantive revision that preserves its verified structural and themed core.",
+    "candidate_pool_scope": "Source 99 audit plus twelve selected replacements; current EDHREC Missy Morph/Upgraded/Optimized candidates; fresh Scryfall 97 selected plus dozens of candidate Oracle records; free outlets, removal, ramp, tutor, lands, themed artifact payoffs, forbidden and generic alternative packages.",
+    "off_ranked_search_conclusion": "Commander-native off-ranking Altar of Brood, Gift of Doom, Sharpshooter and Yawgmoth outrank several EDHREC high-inclusion but expensive Cybermen; high synergy alone did not dictate selection."
+  },
+  "candidate_sources": [
+    "Current canonical repository Missy SHA 9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed and whole-99 audit",
+    "Live Scryfall /cards/collection October 26: selected 97/97 Oracle IDs, types, color identities and Commander legalities",
+    "https://edhrec.com/commanders/missy",
+    "https://edhrec.com/commanders/missy/upgraded/morph",
+    "https://edhrec.com/average-decks/missy/optimized/morph",
+    "https://mtgcommander.net/index.php/banned-list/",
+    "Missy 2026-10-15 commander-first blueprint and decisions",
+    "Fresh finite nonartifact-death / face-down / sacrifice / commander-protection Oracle tests",
+    "OFF-RANKED and commander-native Missy candidate discovery: Altar of the Brood, Goblin Sharpshooter, Gift of Doom and Yawgmoth evaluated against current EDHREC inclusion and high-lift rather than selected by rank."
+  ],
+  "material_candidates": [
+    {
+      "card": "Altar of the Brood",
+      "source": "Current Scryfall and off-ranking Missy loop research",
+      "role": "One-mana permanent ETB opponent mill payoff",
+      "named_cuts": [
+        "Aphetto Runecaster"
+      ],
+      "incumbent_opportunity_cost": "Lose face-up card draw. Compared against the actual selected October 15 approved 100 cards.",
+      "commander_synergy": "Every Missy return is an ETB, so free morph cycle mills everyone regardless of printed power.",
+      "adversarial_downside": "Low impact without recurring permanents and graveyard strategies may benefit.",
+      "judgment": "SELECT_ADD",
+      "reason": "Most compact alternate native loop payoff.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Yawgmoth, Thran Physician",
+      "source": "Scryfall, sacrifice-outlet audit",
+      "role": "Repeatable sacrifice/draw and creature-counter shrink",
+      "named_cuts": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "incumbent_opportunity_cost": "Lose artifact casualty and counters.",
+      "commander_synergy": "Sacs nonartifact creatures and can cause enemy nonartifact deaths to become Cybermen.",
+      "adversarial_downside": "One life per use; BB cast and not unlimited without life gain.",
+      "judgment": "SELECT_ADD",
+      "reason": "One of the strongest Missy-inclusive independent sacrifice/value engines.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Gift of Doom",
+      "source": "Scryfall, EDHREC optimized morph",
+      "role": "Face-down commander protection",
+      "named_cuts": [
+        "Bane of the Living"
+      ],
+      "incumbent_opportunity_cost": "Lose scalable -X/-X morph sweep.",
+      "commander_synergy": "Morph reveal cost sacrifices a nonartifact creature for Missy to convert while Aura shields Missy.",
+      "adversarial_downside": "Indestructible fails versus exile/edict/bounce and requires eligible sac fodder.",
+      "judgment": "SELECT_ADD",
+      "reason": "Commander uptime is more pivotal than another variable-cost face-up wipe.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Grim Monolith",
+      "source": "Scryfall current legality and mana review",
+      "role": "Two-mana burst to six-mana commander",
+      "named_cuts": [
+        "Cybermen Squadron"
+      ],
+      "incumbent_opportunity_cost": "Lose high-ceiling seven-mana artifact-myriad effect.",
+      "commander_synergy": "Three immediate colorless mana helps accelerate Missy or pay for engines.",
+      "adversarial_downside": "Natural untap disabled; four mana to untap.",
+      "judgment": "SELECT_ADD",
+      "reason": "Tempo and available interaction improve over slow combat top-end.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Goblin Sharpshooter",
+      "source": "Scryfall current Oracle, off-ranking death-loop analysis",
+      "role": "Death-untap ping control and win condition",
+      "named_cuts": [
+        "Cybership"
+      ],
+      "incumbent_opportunity_cost": "Lose vehicle face-down theft on combat damage.",
+      "commander_synergy": "Each creature dying untaps Sharpshooter, kill 1-toughness opposing nonartifacts and get stolen Cybermen; finite loop finishes.",
+      "adversarial_downside": "Summoning sickness, tap dependence, vulnerable creature.",
+      "judgment": "SELECT_ADD",
+      "reason": "Immediate engine potential over six-mana crew-and-hit vehicle.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Carrion Feeder",
+      "source": "Scryfall, EDHREC Missy sacrifice combo",
+      "role": "One-mana unconditional sacrifice outlet",
+      "named_cuts": [
+        "Doomsday Confluence"
+      ],
+      "incumbent_opportunity_cost": "Lose scalable nonartifact edict/Dalek/discard sorcery.",
+      "commander_synergy": "Free Ripper, Horde or Savants death-and-reveal loop setup.",
+      "adversarial_downside": "Cannot block, accumulating +1/+1 counters may draw spot removal.",
+      "judgment": "SELECT_ADD",
+      "reason": "Sacrifice access is a hard dependency for native loops.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Chrome Mox",
+      "source": "Scryfall and optimized acceleration review",
+      "role": "0-mana colored permanent acceleration",
+      "named_cuts": [
+        "Etrata, Deadly Fugitive"
+      ],
+      "incumbent_opportunity_cost": "Lose four-mana turn-up/steal accessibility.",
+      "commander_synergy": "Accelerates Missy and leaves mana for protection; Ixidor/Skirk retain unlock options.",
+      "adversarial_downside": "Imprint exiles another card, card disadvantage.",
+      "judgment": "SELECT_ADD",
+      "reason": "Six-mana commander asks for fast reliable ramp.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Fierce Guardianship",
+      "source": "Scryfall and commander-protection review",
+      "role": "Free noncreature counter while commander is out",
+      "named_cuts": [
+        "Their Name Is Death"
+      ],
+      "incumbent_opportunity_cost": "Lose six-mana nonartifact sweep.",
+      "commander_synergy": "Protects Missy from exile/board clears and combo from noncreature interaction.",
+      "adversarial_downside": "Costs 3 when Missy absent; does not counter opposing creature threats.",
+      "judgment": "SELECT_ADD",
+      "reason": "Existing Delete and Grave Pact/edicts preserve removal while free protection fixes fragile costly commander.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Deflecting Swat",
+      "source": "Scryfall and commander-protection review",
+      "role": "Free spell/ability redirect while commander is out",
+      "named_cuts": [
+        "Ugin's Mastery"
+      ],
+      "incumbent_opportunity_cost": "Lose face-down manifest/cast/attack infrastructure.",
+      "commander_synergy": "Protects Missy/engine at zero mana on critical turn.",
+      "adversarial_downside": "Only changes targets; not a universal counter.",
+      "judgment": "SELECT_ADD",
+      "reason": "Protection and mana efficiency outrank fourth-mana setup.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Marsh Flats",
+      "source": "Scryfall land identity and fetchability",
+      "role": "Untapped flexible black-fetch fixing",
+      "named_cuts": [
+        "Dragonskull Summit"
+      ],
+      "incumbent_opportunity_cost": "Lose BR checkland; fetch costs life.",
+      "commander_synergy": "Reliably fetches Swamp, Badlands, Blood Crypt, Underground Sea or Watery Grave.",
+      "adversarial_downside": "Needs available fetch targets, subject to land hate.",
+      "judgment": "SELECT_ADD",
+      "reason": "Tempo/fixing upgrade over conditional checkland.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Misty Rainforest",
+      "source": "Scryfall land identity and fetchability",
+      "role": "Untapped flexible blue-fetch fixing",
+      "named_cuts": [
+        "Drowned Catacomb"
+      ],
+      "incumbent_opportunity_cost": "Lose UB checkland; fetch costs life.",
+      "commander_synergy": "Reliably fetches Island, Underground Sea, Volcanic Island, Watery Grave or Steam Vents.",
+      "adversarial_downside": "Needs available fetch targets and pays life.",
+      "judgment": "SELECT_ADD",
+      "reason": "More reliable access to blue source and shock/dual combinations.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Cavern of Souls",
+      "source": "Scryfall land text and Time Lord subtype",
+      "role": "Time Lord commander noncounterability",
+      "named_cuts": [
+        "Inventors' Fair"
+      ],
+      "incumbent_opportunity_cost": "Lose metalcraft artifact tutor utility.",
+      "commander_synergy": "Choose Time Lord and cast Missy with uncounterable colored mana.",
+      "adversarial_downside": "Colorless for non-Time-Lord noncreature spells; narrower fixing.",
+      "judgment": "SELECT_ADD",
+      "reason": "A six-mana commander counters are a major liability.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Mox Diamond",
+      "source": "Scryfall current Oracle and 35-land assessment",
+      "role": "Zero-mana rainbow rock in Missy's sacrifice, recursion and Cyberman conversion strategy.",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Loses reliable 35-land sequencing/card count.",
+      "commander_synergy": "Earlier Missy. Directly weighed against Missy's face-down conversion plan.",
+      "adversarial_downside": "Requires discarding a land in hand.",
+      "judgment": "REJECT",
+      "reason": "Acceleration is real but land cost relative to current colored base makes this a weaker marginal slot than selected Chrome.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Gemstone Caverns",
+      "source": "Scryfall current Oracle and land review",
+      "role": "Pregame mana conditional in Missy's sacrifice, recursion and Cyberman conversion strategy.",
+      "named_cuts": [
+        "Shipwreck Marsh"
+      ],
+      "incumbent_opportunity_cost": "Loses colored slowland. Compared against the actual selected October 15 approved 100 cards.",
+      "commander_synergy": "Early Missy when not start player and in opening hand.",
+      "adversarial_downside": "Otherwise taps only colorless.",
+      "judgment": "REJECT",
+      "reason": "Low-condition opening benefit fails to justify color fixing loss.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Mana Drain",
+      "source": "Scryfall and control package review",
+      "role": "Counterspell into colorless mana next main phase",
+      "named_cuts": [
+        "Swan Song"
+      ],
+      "incumbent_opportunity_cost": "Loses one-mana counter and increases UU burden.",
+      "commander_synergy": "Can accelerate commander after stopping a spell.",
+      "adversarial_downside": "Requires UU held up; not free on Missy turn.",
+      "judgment": "REJECT",
+      "reason": "Fierce and existing one-mana protection cover primary bottleneck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Snuff Out",
+      "source": "Scryfall and death-conversion interaction review",
+      "role": "Life-paid free creature destruction",
+      "named_cuts": [
+        "Feed the Swarm"
+      ],
+      "incumbent_opportunity_cost": "Loses enchantment removal and ability to destroy black creatures.",
+      "commander_synergy": "Destroying target nonblack nonartifact feeds Missy.",
+      "adversarial_downside": "Four life, cannot hit black; removes rare Grixis enchantment answer if Feed cut.",
+      "judgment": "REJECT",
+      "reason": "Preserve role diversity. This decision preserves commander-first roles under actual card-count constraints.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Warren Soultrader",
+      "source": "Scryfall and free-outlet comparison",
+      "role": "Life-paid sac/treasure in Missy's sacrifice, recursion and Cyberman conversion strategy.",
+      "named_cuts": [
+        "Plaguecrafter"
+      ],
+      "incumbent_opportunity_cost": "Loses adversary edict. Compared against the actual selected October 15 approved 100 cards.",
+      "commander_synergy": "Death and Treasure engine. Directly weighed against Missy's face-down conversion plan.",
+      "adversarial_downside": "One life every sacrifice, not inherently infinite.",
+      "judgment": "REJECT",
+      "reason": "Carrion and altars provide cleaner native combo access.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "source": "Scryfall and EDHREC high-impact comparison",
+      "role": "Extra Missy creature triggers choosing Time Lord",
+      "named_cuts": [
+        "The Master, Gallifrey's End"
+      ],
+      "incumbent_opportunity_cost": "Loses direct artifact-creature-death villainous choice/payoff.",
+      "commander_synergy": "Doubles Missy conversions. Directly weighed against Missy's face-down conversion plan.",
+      "adversarial_downside": "Four mana setup, cut protected themed payoff.",
+      "judgment": "REJECT",
+      "reason": "Retaining broader Cyberman death payoff and lower-curve selected upgrades.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    },
+    {
+      "card": "Imperial Seal",
+      "source": "Scryfall and tutor evaluation; cross-checked against current October 26 Scryfall Oracle data.",
+      "role": "One-mana top-of-library tutor in Missy's sacrifice, recursion and Cyberman conversion strategy.",
+      "named_cuts": [
+        "Braids, Arisen Nightmare"
+      ],
+      "incumbent_opportunity_cost": "Loses repeated sacrifice and cards.",
+      "commander_synergy": "Finds outlet/loop body. Directly weighed against Missy's face-down conversion plan.",
+      "adversarial_downside": "Sorcery-speed card-negative setup.",
+      "judgment": "REJECT",
+      "reason": "Deck already has strong tutor suite; sacrifice engine kept.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+        "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Altar of the Brood",
+      "Yawgmoth, Thran Physician",
+      "Gift of Doom",
+      "Grim Monolith",
+      "Goblin Sharpshooter",
+      "Carrion Feeder",
+      "Chrome Mox",
+      "Fierce Guardianship",
+      "Deflecting Swat",
+      "Marsh Flats",
+      "Misty Rainforest",
+      "Cavern of Souls"
+    ],
+    "cuts": [
+      "Aphetto Runecaster",
+      "Ashad, the Lone Cyberman",
+      "Bane of the Living",
+      "Cybermen Squadron",
+      "Cybership",
+      "Doomsday Confluence",
+      "Etrata, Deadly Fugitive",
+      "Their Name Is Death",
+      "Ugin's Mastery",
+      "Dragonskull Summit",
+      "Drowned Catacomb",
+      "Inventors' Fair"
+    ],
+    "coherent_package_tradeoff": "Twelve earned replacements cut high-cost attack engines, redundant slow sweep/edict and overlapping face-down support for immediate protection, faster Missy deployment, stronger free sacrifice and nonartifact-death loops, low-cost table kill, repeatable creature removal, and uncounterable/fetchable land sequencing. Keeps meaningful Cyberman/villainous-choice core and multiple morph unlocks."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Aphetto Runecaster",
+        "weakness": "Four-mana optional draw dependent on face-up actions; no board effect on deployment.",
+        "alternative_named": "Altar of the Brood",
+        "reasoning": "One-mana permanent-entry milling closes every valid Missy loop, including 0-power Savants; loses draw."
+      },
+      {
+        "card": "Ashad, the Lone Cyberman",
+        "weakness": "Four-color-pip legendary artifact casualty ability needs further nonlegendary artifact spells to copy.",
+        "alternative_named": "Yawgmoth, Thran Physician",
+        "reasoning": "Sacrifice plus draw/creature attrition directly converts dead nonartifact bodies to Cybermen; one life per activation is a real cost."
+      },
+      {
+        "card": "Bane of the Living",
+        "weakness": "Morph -X/-X costs variable BB and can harm our own board.",
+        "alternative_named": "Gift of Doom",
+        "reasoning": "Morph at sacrifice cost turns a nonartifact death into a protective Aura on Missy; loses repeatable sweeper."
+      },
+      {
+        "card": "Cybermen Squadron",
+        "weakness": "Seven mana and attack-dependent myriad; no immediate value without other established artifact attackers.",
+        "alternative_named": "Grim Monolith",
+        "reasoning": "Two-mana fast mana helps resolve the indispensable six-mana commander and keep up protection."
+      },
+      {
+        "card": "Cybership",
+        "weakness": "Six mana, crew 4, then must connect for face-down two-card theft.",
+        "alternative_named": "Goblin Sharpshooter",
+        "reasoning": "Three-mana creature death payoff removes small opposing nonartifacts and can finish native free-loop cycles."
+      },
+      {
+        "card": "Doomsday Confluence",
+        "weakness": "Scalable options are real but double-X mana makes two edicts cost five mana.",
+        "alternative_named": "Carrion Feeder",
+        "reasoning": "One-mana free sacrifice improves access to combo/converted-Cyberman loops."
+      },
+      {
+        "card": "Etrata, Deadly Fugitive",
+        "weakness": "Three-mana body plus four per activation for stolen cards; Ixidor and Skirk keep turn-up coverage.",
+        "alternative_named": "Chrome Mox",
+        "reasoning": "Permanent zero-mana colored acceleration supports turn-early Missy at imprint card cost."
+      },
+      {
+        "card": "Their Name Is Death",
+        "weakness": "Six-mana BBB nonartifact wipe can kill Missy too; Delete and sacrifice edicts remain.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "With commander in play protects from noncreature removal at zero mana."
+      },
+      {
+        "card": "Ugin's Mastery",
+        "weakness": "Four-mana manifest payoff needs further face-down colorless spell casts/attacks.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "With commander in play can redirect a hostile targeted spell or ability for zero mana."
+      },
+      {
+        "card": "Dragonskull Summit",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Marsh Flats",
+        "reasoning": "Fetch black dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Drowned Catacomb",
+        "weakness": "Two-color checkland sometimes enters tapped, cannot shuffle/fetch.",
+        "alternative_named": "Misty Rainforest",
+        "reasoning": "Fetch blue dual/shock/basic instantly at one-life cost."
+      },
+      {
+        "card": "Inventors' Fair",
+        "weakness": "Colorless land and late metalcraft/4-mana artifact tutor.",
+        "alternative_named": "Cavern of Souls",
+        "reasoning": "Time Lord selection gives uncounterable six-mana Missy and specific tribal colored mana."
+      }
+    ],
+    "off_ranked_opportunities": "Altar of Brood, Gift of Doom, Goblin Sharpshooter, Yawgmoth, Grim Monolith and land fetches challenged EDHREC top-card selections.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Mox Diamond",
+          "Gemstone Caverns"
+        ],
+        "cuts": [
+          "Fellwar Stone",
+          "Shipwreck Marsh"
+        ],
+        "result_and_rationale": "Thirteenth/fourteenth speed changes rejected due to land-discard and colorless late-game failures."
+      },
+      {
+        "adds": [
+          "Mana Drain",
+          "Imperial Seal"
+        ],
+        "cuts": [
+          "Swan Song",
+          "Braids, Arisen Nightmare"
+        ],
+        "result_and_rationale": "Additional generic power sacrifices faster counter and commander-native sac engine, so quality declined."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "The Master, Braids, Shipwreck Marsh, Panoptic Projektor and The Cyber-Controller challenged as possible further removals and retained for unique identity or colored consistency.",
+    "strongest_argument_against_baseline": "October15 already had robust free reveal morph loops and low-cost staples; replacements that remove too much Cyberman texture could homogenize the deck.",
+    "evidence_based_answer": "Twelve selected replacements retain Valeyard, Master, Cyber-Controller, Cyberman Patrol, Death in Heaven and the essential face-down infrastructure, while transforming previously slow engines into cheaper native finish, sacrifice and protection."
+  },
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "Every noncommander slot checked against October15 whole-list audit and actual current approved source, including retained rare Cyberman payoffs, counterplay, graveyard engines, land sequencing, and competing mana acceleration.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "The Master, Gallifrey's End",
+        "challenger": "Roaming Throne",
+        "tradeoff": "Doubles Missy death-conversion, but removes unique complementary artifact-Cyberman death choice.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Braids, Arisen Nightmare",
+        "challenger": "Imperial Seal",
+        "tradeoff": "Tutor is faster but fewer repeatable sac/draw opportunities.",
+        "disposition": "REJECT"
+      },
+      {
+        "incumbent": "Shipwreck Marsh",
+        "challenger": "Gemstone Caverns",
+        "tradeoff": "Occasional pregame colored mana versus persistent UB source reliability.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "Two concrete theoretical 14-replacement packages were examined: adding Mox Diamond and Gemstone Caverns would compromise colored late-game sources and early hand resources, while Mana Drain plus Imperial Seal would displace faster Swan Song and commander-native Braids sacrifice value. No further source-bound full-100 package earned inclusion; the two conceptual tests are not represented as staged, CI-executed lists.",
+    "quality_based_stop_reason": "The 12 selected changes fix concrete six-mana commander resiliency, sacrifice payoff, speed and land tempo gaps. Additional changes tested exact opportunities and declined rather than stopping at a numerical cap."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Missy_chatgpt_rev1.txt",
+    "sha256": "f3f8ffa671cef5df9612a52ab0a5003931f2b71110f6d7fef45906b4f052f83d",
+    "card_count": 100,
+    "deckwide_reconciliation": "100 physical/97 unique/35 lands, only Island2 and Swamp3 duplicated. Twelve actual one-for-one swaps vs October15 approved source, 97 exact-current Scryfall Oracle records official Commander legal, no out-of-Grixis identity."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Missy_Rev1_Scryfall_20261026.json",
+      "data/grixis/m7/decision_reviews/Missy_chatgpt_rev1_review.md",
+      "https://github.com/corymstover/GrokBotMTGCompanion/blob/m7-deck38-missy-rev1-20261026/tests/test_m7_missy_rev1.py"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Cybermen",
+      "Morph Recursion",
+      "Aristocrats Combo"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}

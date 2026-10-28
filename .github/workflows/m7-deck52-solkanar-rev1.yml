@@ -1,0 +1,25 @@
+name: "M7 Deck 52 Sol'kanar Rev1 exact certification"
+
+on:
+  pull_request:
+    paths:
+      - "data/grixis/m7/candidate_lists/Sol_kanar_the_Swamp_King_M7_Rev1.txt"
+      - "data/grixis/m7/oracle_snapshots/Sol_kanar_the_Swamp_King_M7_Rev1_2026-10-15.json"
+      - "data/grixis/m7/decision_reviews/Sol_kanar_the_Swamp_King_M7_Rev1_*"
+      - "tests/test_m7_solkanar_swamp_king_rev1.py"
+      - ".github/workflows/m7-deck52-solkanar-rev1.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-static-and-bounded-cases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: "Verify Sol'kanar raw source and archived legality + bounded cases"
+        run: python3 -m unittest discover -s tests -p test_m7_solkanar_swamp_king_rev1.py -v

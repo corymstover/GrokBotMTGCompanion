@@ -63,7 +63,12 @@ def validate(*, fetch=None, sleeper=None):
         identity = row.get("color_identity")
         if legal != "legal" or not isinstance(identity, list) or not set(identity) <= set("UBR"):
             raise OracleGateError("Illegal identity/Commander status: " + name)
-        if not row.get("oracle_id") or not row.get("scryfall_uri") or not row.get("games"):
+        # Scryfall collection can select a new printing with games=[] for an
+        # established officially legal paper card name. Reject malformed
+        # fields, but do not confuse the current printing with card-name
+        # legality or the separately SHA-pinned physical source baseline.
+        if (not row.get("oracle_id") or not row.get("scryfall_uri")
+                or not isinstance(row.get("games"), list)):
             raise OracleGateError("Missing current card source: " + name)
         oracle = text_and_faces(row)
         if not oracle:
