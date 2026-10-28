@@ -1,0 +1,865 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Kefka__Court_Mage",
+  "canonical_baseline_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+  "canonical_baseline_logical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+  "commander_identity": {
+    "mechanical_plan": "Kefka, Court Mage // Kefka, Ruler of Ruin ({2}{U}{B}{R} 4/5 legendary Human Wizard // Avatar Wizard; Final Fantasy, set fin, released 2025-06-13; commander-legal, not a Game Changer, no project exception). Front: whenever Kefka enters or attacks, each player discards a card, then you draw a card for each card type among the discarded cards; {8}: each opponent sacrifices a permanent, transform (sorcery speed). Back: flying; whenever an opponent loses life during your turn, draw that many. Plan (owner blueprint 2026-10-14): repeat Kefka's enter/attack trigger (Harmonic Prodigy doubles it; Essence Flux and Displacer Kitten blink; Phantasmal Image, Phyrexian Metamorph, Molten Duplication and Saw in Half copy; Gogo, Mysterious Mime adds a second attack trigger), give haste (Anger discarded to Kefka with a Mountain, Arena of Glory, Gogo), and convert discards with Tinybones, Bauble Burglar and Waste Not. Secondary compact wins: Thassa's Oracle + Demonic Consultation / Tainted Pact and Underworld Breach + Lion's Eye Diamond / Lotus Petal + Brain Freeze / Wheel of Fortune / Jeska's Will. Candidate adds Dualcaster Mage lines with Molten Duplication, Saw in Half and Essence Flux.",
+    "protected_core": [
+      "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "Harmonic Prodigy",
+      "Essence Flux",
+      "Displacer Kitten",
+      "Anger",
+      "Arena of Glory",
+      "Gogo, Mysterious Mime",
+      "Phantasmal Image",
+      "Phyrexian Metamorph",
+      "Saw in Half",
+      "Molten Duplication",
+      "Tinybones, Bauble Burglar",
+      "Waste Not",
+      "Hexing Squelcher",
+      "Valley Floodcaller",
+      "Demonic Counsel",
+      "Thassa's Oracle",
+      "Demonic Consultation",
+      "Tainted Pact",
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+    ],
+    "natural_ceiling": "Power Bracket 5 (cEDH; owner-approved), unchanged. Game Changers: 20 in both baseline and candidate (Ad Nauseam, Ancient Tomb, Chrome Mox, Demonic Tutor, Fierce Guardianship, Force of Will, Gamble, Grim Monolith, Imperial Seal, Jeska's Will, Lion's Eye Diamond, Mana Vault, Mox Diamond, Mystical Tutor, Necropotence, Orcish Bowmasters, Rhystic Study, Thassa's Oracle, Underworld Breach, Vampiric Tutor). The owner's decisions file records multiple 2026 Kefka tournament top cuts including wins; EDHTop16 one-year: 1396 entries, conversion 0.196.",
+    "anti_homogenization": "Commander-first to Kefka's Oracle: the one add uses owner spine copy cards and loops Kefka enter triggers with Harmonic Prodigy. Distinctness (nonbasic names shared with the registry Archidekt exports, candidate/baseline): Kess, Dissident Mage 80/80; Jeleva, Nephalia's Scourge 78/78; Inalla, Archmage Ritualist 72/73 (Inalla runs Kefka itself in its 99); Evelyn, the Covetous 67/68. The overlap is the cEDH staple core (fast mana, tutors, free counters, Oracle/Breach). Kefka-unique against all four in the candidate: Anger, Diabolic Intent, Dualcaster Mage, Gogo, Mysterious Mime, Molten Duplication, Phantasmal Image, Phyrexian Metamorph, Starting Town, Tinybones, Bauble Burglar, Waste Not. The swap lowers overlap: Culling the Weak is shared with Inalla and Evelyn; Dualcaster Mage is in none of the four. Owner-removed or rejected cards and classes (Animate Dead, Dauthi Voidwalker, Geth's Grimoire, Kroxa, Titan of Death's Hunger, Laughing Mad, Liliana's Caress, Megrim, Monument to Endurance, Nightscape Familiar, Sheoldred, the Apocalypse, Strionic Resonator, Windfall, Mountain, Swamp, Xander's Lounge, Exotic Orchard, Cyclonic Rift, Opposition Agent, Psychosis Crawler, Cursed Totem, Samut, Tyrant of Naktamun, the Banishing Knack/Retraction Helix package, The One Ring, Birgi, Faerie Mastermind, Wan Shi Tong, extra discard payoffs) are not re-added. Owner-direction flag: Dualcaster Mage's Molten Duplication kill does not require Kefka, which is close to the owner's reason for rejecting the Floodcaller bounce package; disclosed for owner decision."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 library cards were reviewed (99 rows; 1x Island; 100 distinct names). Every baseline card is owner-directed (80 retained + 19 added on 2026-10-14); only some are explicit keeps (Gogo, Hexing Squelcher, Phyrexian Metamorph, Tinybones, Waste Not, the blueprint spine). Candidate roles: 28 lands; 14 creatures (Anger, Displacer Kitten, Dualcaster Mage, Gogo, Harmonic Prodigy, Hexing Squelcher, Orcish Bowmasters, Phantasmal Image, Phyrexian Metamorph, Ragavan, Simian Spirit Guide, Thassa's Oracle, Tinybones, Valley Floodcaller); 26 instants and 13 sorceries; 13 noncreature artifacts (Sol Ring, Mana Vault, Grim Monolith, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, Lion's Eye Diamond, two Talismans, Arcane Signet, Fellwar Stone, Wishclaw Talisman); 5 enchantments (Mystic Remora, Necropotence, Rhystic Study, Underworld Breach, Waste Not). Stack suite: Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Flusterstorm, Swan Song, Mental Misstep, Mindbreak Trap, Pyroblast, Red Elemental Blast, An Offer You Can't Refuse, Deflecting Swat. Rituals after the cut: Dark Ritual, Cabal Ritual, Rite of Flame.",
+    "mana_base_and_curve": "28 lands unchanged (13 Mountain-subtype sources: 4 duals plus 9 fetches; bounded). 71 nonland cards in the candidate; curve MV0 6, MV1 21, MV2 23, MV3 13, MV4 6, MV5 2; average nonland MV 1.97 (baseline: one more MV1, one fewer MV3). Red pips: Dualcaster Mage needs {R}{R}.",
+    "interaction_resilience": "Twelve stack-interaction cards (most free or one mana), Hexing Squelcher and Cavern of Souls for uncounterable Kefka, Orcish Bowmasters, Toxic Deluge, Into the Flood Maw / Chain of Vapor / Otawara bounce. Weak to graveyard hate against Anger, Breach and Demonic Counsel delirium. Dualcaster Mage adds an instant-speed copy of a removal spell or tutor.",
+    "weakest_slots": [
+      {
+        "card": "Culling the Weak",
+        "weakness": "Dead without a creature; makes only black; not an owner keep; Pass C questioned it.",
+        "alternative_named": "Dualcaster Mage",
+        "reasoning": "CUT for Dualcaster Mage (one genuine swap). Fallback replacement: Talisman of Indulgence."
+      },
+      {
+        "card": "Diabolic Intent",
+        "weakness": "Needs a creature to sacrifice and is a sorcery.",
+        "alternative_named": "Snapcaster Mage",
+        "reasoning": "Tutor to hand that finds either Dualcaster line half or Thassa's Oracle. Kept; staged as the alternative cut for Dualcaster Mage."
+      },
+      {
+        "card": "Demonic Counsel",
+        "weakness": "Dead without delirium (no Demon in the 99).",
+        "alternative_named": "Entomb",
+        "reasoning": "Owner addition; Pass C's Entomb test gains little (bounded). Kept."
+      },
+      {
+        "card": "Borne Upon a Wind",
+        "weakness": "A cantrip with no direct effect on the board.",
+        "alternative_named": "Entomb",
+        "reasoning": "Owner baseline card and the flash enabler for sorcery-speed wheels and copies; EDHREC cEDH 1786/2232. Kept."
+      },
+      {
+        "card": "Tinybones, Bauble Burglar",
+        "weakness": "Low cEDH rate (358/2232); Mnemonic Betrayal nonbo.",
+        "alternative_named": "Dragon's Rage Channeler",
+        "reasoning": "Owner explicit keep (retained direct front-face payoff). Kept."
+      },
+      {
+        "card": "Molten Duplication",
+        "weakness": "Sorcery-speed; the token is sacrificed at end step.",
+        "alternative_named": "Mockingbird",
+        "reasoning": "Owner addition and blueprint card; now Dualcaster Mage's strongest partner. Kept."
+      },
+      {
+        "card": "Talisman of Creativity",
+        "weakness": "A plain two-mana rock with no Kefka text.",
+        "alternative_named": "Vivi Ornitier",
+        "reasoning": "Vivi's tournament conversion is below the field. Kept."
+      },
+      {
+        "card": "Island",
+        "weakness": "A basic land that makes only one colour.",
+        "alternative_named": "Mistrise Village",
+        "reasoning": "Only basic; Cavern of Souls and Hexing Squelcher already stop counters. Kept."
+      },
+      {
+        "card": "Gogo, Mysterious Mime",
+        "weakness": "Four mana and no enter trigger of its own.",
+        "alternative_named": "Spark Double",
+        "reasoning": "Owner explicit keep (RETAINED in the second pass for haste and a second Kefka attack trigger). Kept."
+      },
+      {
+        "card": "Anger",
+        "weakness": "Absent from the cEDH page (0/2232).",
+        "alternative_named": "Entomb",
+        "reasoning": "Commander-specific owner add (haste after Kefka's own discard). Kept."
+      },
+      {
+        "card": "Mental Misstep",
+        "weakness": "Only counters spells with mana value 1.",
+        "alternative_named": "Vexing Bauble",
+        "reasoning": "Free counter; Bauble counters the deck's own free spells. Kept."
+      },
+      {
+        "card": "Swan Song",
+        "weakness": "Gives the countered player a 2/2 flier token.",
+        "alternative_named": "Strix Serenade",
+        "reasoning": "Covers instant/sorcery interaction on combo turns. Kept."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colours depend on opponents' lands.",
+        "alternative_named": "Mox Amber",
+        "reasoning": "Owner addition; Mox Amber is dead before a legend. Kept."
+      },
+      {
+        "card": "Arena of Glory",
+        "weakness": "Enters tapped without a Mountain.",
+        "alternative_named": "Generator Servant",
+        "reasoning": "Blueprint haste land that works the turn it is used. Kept."
+      },
+      {
+        "card": "Starting Town",
+        "weakness": "Makes only colourless mana after turn 3.",
+        "alternative_named": "Urza's Saga",
+        "reasoning": "Urza's Saga is colourless from the start. Kept."
+      },
+      {
+        "card": "Wishclaw Talisman",
+        "weakness": "Its activation hands an opponent a tutor too.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Any-card tutor; Grinding Station is a generic Breach line. Kept."
+      },
+      {
+        "card": "Phyrexian Metamorph",
+        "weakness": "Flexible clone but cannot keep second Kefka permanently without legend exception",
+        "alternative_named": "Sakashima of a Thousand Faces",
+        "reasoning": "Exact owner-retained alternative independently challenged."
+      }
+    ],
+    "current_baseline_strength": "An approved Bracket 5 cEDH Kefka list (2026-10-14) after an owner red-team pass that superseded an earlier candidate. M6 Pass C (owner-equivalent substitute, NOT independent) returned NEEDS TESTING for +Entomb/-Demonic Counsel (also against Borne Upon a Wind), with optional DRC/Tinybones and Culling the Weak vs a third rock checks. This M7 pass ran bounded versions: the Entomb gain is small; the Culling the Weak slot is better as Dualcaster Mage.",
+    "candidate_pool_scope": "EDHREC Kefka, Court Mage general, upgraded, optimized and cEDH (2232 decks) page JSON; repo EDHTop16 one-year Kefka aggregate (1396 entries, retrieved 2026-10-16); live Scryfall /cards/collection batch (228 legal U/B/R names; banned and off-identity names excluded); OFF-RANKING searches for Kefka copy/haste cards absent from the cEDH page (Spark Double, Electroduplicate); Commander Spellbook for baseline, candidate and all 9 alternatives; M6 Pass C disposition, deep review and GrokBot advisory; owner decisions file.",
+    "off_ranked_search_conclusion": "OFF-RANKING cards found: Spark Double (staged, owner keep not beaten) and Electroduplicate (dominated by Molten Duplication). No off-ranked card is selected."
+  },
+  "candidate_sources": [
+    "Canonical encyclopedia Kefka, Court Mage approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt, blob 84dbe0b4, introduced by 7bf011ac on 2026-10-14; registry source_commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Kefka__Court_Mage_approved_source_2026-10-14.txt)",
+    "EDHREC Kefka, Court Mage commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T14:01:16-0500, discovery only: data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+    "EDHTop16 one-year Kefka aggregate (repo, retrieved 2026-10-16): data/grixis/candidates/tournament/kefka-court-mage.json",
+    "Live Scryfall /cards/collection batch retrieved 2026-10-23T14:01:57-0500: data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+    "Commander Spellbook find-my-combos baseline, candidate and alternatives retrieved 2026-10-23T14:09:08-0500: data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+    "OFF-RANKING search for Kefka copy and haste effects absent from the cEDH page (Spark Double, Electroduplicate)",
+    "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+    "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Kefka__Court_Mage.md; data/grixis/m6/deep_reviews/Kefka__Court_Mage.md",
+    "Owner 2026-10-14 current-cycle decisions (blueprint, 19 cuts, 19 adds, adversarial second pass): canonical refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "Comprehensive Rules (frozen cache, 2026-09-25): 205.2a, 302.6, 603.2d, 702.8a, 702.10b, 704.5j, 707.10, 707.10c, 712.8a, 903.8; frozen rulings: data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+    "Bounded finite measured tests (the Pass C request): Mountain-subtype sources, Anger haste window with and without Entomb, Demonic Counsel delirium proxy, Dualcaster partner access, Culling the Weak creature access; tested pool of 12 complete 100s: data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json; data/grixis/m6/ij/tested_pools/Kefka__Court_Mage_M7_tested_configurations_20261023.json; tests/test_m6_kefka_court_mage_m7_mechanics.py",
+    "OFF-RANKED original independent Wizardcycling discovery Step Through and Sakashima synergistic legend-rule comparison against all 44 complete-100 alternatives; Oct24 official Scryfall 100-card snapshot."
+  ],
+  "material_candidates": [
+    {
+      "card": "Dualcaster Mage",
+      "source": "EDHREC Kefka, Court Mage general 5867/32536, upgraded 337/2908, optimized 772/2427, cEDH 497/2232; EDHTop16 one-year Kefka entries 252, top-cut conversion 0.1706 (field 0.196); live Scryfall batch; Commander Spellbook almost-included for the baseline (147-5487, 147-500)",
+      "role": "{1}{R}{R} 2/2 Human Wizard with flash: when it enters, copy target instant or sorcery spell; you may choose new targets for the copy.",
+      "named_cuts": [
+        "Culling the Weak",
+        "Diabolic Intent"
+      ],
+      "incumbent_opportunity_cost": "Culling the Weak is not an owner explicit keep or blueprint card (one of the 80 retained baseline slots): {B} instant, sacrifice a creature as an additional cost, add {B}{B}{B}{B}. It is dead without a creature on the battlefield (P(at least one MV<=2 creature seen) 0.4115 on turn 1 to 0.6075 on turn 6, bounded test), makes only black, and Pass C questioned it against a third colored rock. EDHREC cEDH 861/2232; EDHTop16 one-year 557 entries, conversion 0.1867 (field 0.196). Alternative cut (staged): Diabolic Intent, a sacrifice-a-creature tutor to hand that finds either combo half or Thassa's Oracle.",
+      "commander_synergy": "Turns three owner-added Kefka spine cards already in the 99 into two-card lines: Molten Duplication (Commander Spellbook 147-5487, infinite hasty tokens, a same-turn combat kill for 5 mana), Saw in Half (147-500, infinite tokens; haste via Anger) and Essence Flux (147-4598, infinite enter triggers). It is a Wizard, so Harmonic Prodigy doubles its enter trigger; the spare copy may target Kefka (CR 707.10c), giving a Kefka enter trigger (blink via Essence Flux, or a hasty token Kefka via Molten Duplication) on every iteration. It is also a flash instant-speed copy of Gamble, Demonic Tutor, Toxic Deluge or an opponent's spell when the combo is not assembled.",
+      "adversarial_downside": "Commander Spellbook 6 -> 9. Data are neutral to slightly against: EDHREC cEDH 497/2232 vs Culling the Weak 861/2232, and EDHTop16 one-year conversion 0.1706 (252 entries) vs Culling 0.1867 (557 entries); the 0.016 gap is inside sampling noise (difference standard error about 0.027) and both are below the 0.196 field. Bounded: P(Dualcaster and at least one partner seen) 0.0123 on turn 1 to 0.0367 on turn 6 before tutors. Owner-direction flag: the owner rejected a 'dedicated Valley Floodcaller bounce-combo package' as a generic combo that consumes additional slots and does not require Kefka. Dualcaster is one slot that uses three cards already in the deck for Kefka's copy plan, and it integrates Kefka through Harmonic Prodigy, but its Molten Duplication kill also works without Kefka. The owner must decide; the zero-swap baseline remains available.",
+      "judgment": "REJECT",
+      "reason": "Rejected for this commander-first exact 100: generic Dualcaster lines do not justify cutting Culling the Weak fast black mana. The alternative is not silently an additional approved swap.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json",
+        "canonical refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/candidate_lists/Kefka__Court_Mage.txt",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_DualcasterMage_over_DiabolicIntent_20261023.txt"
+      ]
+    },
+    {
+      "card": "Entomb",
+      "source": "EDHREC Kefka, Court Mage general 3181/32536, upgraded 257/2908, optimized 401/2427, cEDH 316/2232; live Scryfall batch; Pass C's requested test (NEEDS TESTING +Entomb/-Demonic Counsel; also against Borne Upon a Wind)",
+      "role": "{B} instant: search your library for a card and put it into your graveyard.",
+      "named_cuts": [
+        "Demonic Counsel",
+        "Borne Upon a Wind"
+      ],
+      "incumbent_opportunity_cost": "Demonic Counsel is an owner addition accepted over Opposition Agent in the 2026-10-14 adversarial second pass ('efficient proactive tutor'). The 99 has no Demon, so it is dead without delirium (four card types in your graveyard); bounded delirium proxy turn 4 0.0659 lower / 0.4229 upper, turn 6 0.111 / 0.5463. EDHREC cEDH 549/2232. Alternative cut: Borne Upon a Wind, an owner baseline card that gives flash to Wheel of Fortune, Gamble and the copy sorceries and draws a card (EDHREC cEDH 1786/2232).",
+      "commander_synergy": "Bins Anger before Kefka is cast, so Kefka has haste the turn it lands if you control a Mountain-subtype land; it also adds a type for delirium and can bin a Reanimate target.",
+      "adversarial_downside": "Bounded: Anger-or-Entomb plus a Mountain-subtype source by turn 5 rises from 0.0863 to 0.1642 (turn 1 0.0413 -> 0.0804). The gain is small in absolute terms, and Kefka's own enter-trigger discard already bins Anger in the native line. Entomb tutors nothing to hand and exposes the card to graveyard hate (Anger's haste ends if it is exiled). Demonic Counsel becomes a two-mana any-card tutor once Kefka triggers and fetchlands have filled the graveyard; Borne Upon a Wind is the deck's flash enabler. Spellbook 6 -> 6 for both.",
+      "judgment": "REJECT",
+      "reason": "The measured gain on the haste window is small and it does not beat either named cut.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+        "data/grixis/m6/grokbot_pass_c_advisory/Kefka__Court_Mage.md",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_DemonicCounsel_20261023.txt",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_BorneUponAWind_20261023.txt"
+      ]
+    },
+    {
+      "card": "Dragon's Rage Channeler",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH 648/2232; live Scryfall batch; Pass C optional challenge",
+      "role": "{R} 1/1 Human Shaman: whenever you cast a noncreature spell, surveil 1; with delirium it is 3/3 flying and must attack.",
+      "named_cuts": [
+        "Tinybones, Bauble Burglar"
+      ],
+      "incumbent_opportunity_cost": "Tinybones, Bauble Burglar is an explicit owner keep: one of the two 'retained direct front-face payoffs' with Waste Not. It exiles opponents' discards to Kefka with stash counters and lets you play them. EDHREC cEDH 358/2232.",
+      "commander_synergy": "A Shaman, so Harmonic Prodigy doubles its surveil; it fills the graveyard toward Demonic Counsel's delirium.",
+      "adversarial_downside": "Only Demonic Counsel cares about delirium (the proxy already bounds that benefit), and it has no Kefka discard text. It cuts an owner explicit keep. Pass C noted the Tinybones/Mnemonic Betrayal nonbo; it is not a blocker. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Does not clearly beat an owner explicit keep.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+        "canonical refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_DragonsRageChanneler_minus_TinybonesBaubleBurglar_20261023.txt"
+      ]
+    },
+    {
+      "card": "Talisman of Indulgence",
+      "source": "EDHREC Kefka, Court Mage general 19914/32536, upgraded 1934/2908, optimized 1640/2427, cEDH 1134/2232; EDHTop16 one-year Kefka entries 629, top-cut conversion 0.1717 (field 0.196); live Scryfall batch; Pass C optional comparison: Culling the Weak vs a third colored rock",
+      "role": "{2} artifact: {T}: add {C}, or {B} or {R} for 1 damage.",
+      "named_cuts": [
+        "Culling the Weak"
+      ],
+      "incumbent_opportunity_cost": "Culling the Weak is not an owner explicit keep or blueprint card (one of the 80 retained baseline slots): {B} instant, sacrifice a creature as an additional cost, add {B}{B}{B}{B}. It is dead without a creature on the battlefield (P(at least one MV<=2 creature seen) 0.4115 on turn 1 to 0.6075 on turn 6, bounded test), makes only black, and Pass C questioned it against a third colored rock. EDHREC cEDH 861/2232; EDHTop16 one-year 557 entries, conversion 0.1867 (field 0.196).",
+      "commander_synergy": "Permanent acceleration toward a five-mana commander, and an artifact for Mox Opal.",
+      "adversarial_downside": "Its EDHTop16 one-year conversion (0.1717, 629 entries) is below both the field and Culling the Weak; the deck already runs Talisman of Creativity, Talisman of Dominance, Arcane Signet and Fellwar Stone. The same slot is better spent on Dualcaster Mage. Spellbook 6 -> 6.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "The documented fallback for the Culling the Weak slot if the owner declines Dualcaster Mage; not counted.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_TalismanOfIndulgence_minus_CullingTheWeak_20261023.txt"
+      ]
+    },
+    {
+      "card": "Mockingbird",
+      "source": "EDHREC Kefka, Court Mage general 3216/32536, upgraded absent, optimized absent, cEDH 961/2232; live Scryfall batch",
+      "role": "{X}{U} flying Bird Bard: enters as a copy of a creature with mana value up to the mana spent.",
+      "named_cuts": [
+        "Molten Duplication"
+      ],
+      "incumbent_opportunity_cost": "Molten Duplication is an owner addition named in the blueprint ('two-mana Kefka ETB copy with haste'), and in the candidate it is Dualcaster Mage's strongest partner (147-5487). EDHREC cEDH 341/2232.",
+      "commander_synergy": "Flash timing via Valley Floodcaller is not needed: it is a creature; it copies Kefka permanently with flying.",
+      "adversarial_downside": "Copying Kefka needs X=5 (six mana) against Molten Duplication's two, and it gives no haste. EDHREC cEDH 961/2232 is higher, but that adoption is for cheap clone targets. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Too expensive for the Kefka copy and it breaks the new Dualcaster line; does not clearly beat the owner addition.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_Mockingbird_over_MoltenDuplication_20261023.txt"
+      ]
+    },
+    {
+      "card": "Vivi Ornitier",
+      "source": "EDHREC Kefka, Court Mage general 9206/32536, upgraded 849/2908, optimized 794/2427, cEDH 746/2232; EDHTop16 one-year Kefka entries 408, top-cut conversion 0.1593 (field 0.196); live Scryfall batch",
+      "role": "{1}{U}{R} legendary 0/3 Wizard: {0}: add X mana (U/R) equal to its power once per turn; noncreature casts grow it and ping each opponent.",
+      "named_cuts": [
+        "Talisman of Creativity"
+      ],
+      "incumbent_opportunity_cost": "Talisman of Creativity is a two-mana U/R rock toward the five-mana commander. EDHREC cEDH 1256/2232.",
+      "commander_synergy": "A Wizard, so Prodigy doubles its trigger; it makes opponents lose life for the Ruler of Ruin face.",
+      "adversarial_downside": "Starts at power 0, so it ramps nothing the turn it lands; a three-mana creature that dies to every sweeper. EDHTop16 one-year 408 entries, conversion 0.1593 (below the field). Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Below-field tournament data and slower than the rock it replaces.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_ViviOrnitier_over_TalismanOfCreativity_20261023.txt"
+      ]
+    },
+    {
+      "card": "Mistrise Village",
+      "source": "EDHREC Kefka, Court Mage general 6562/32536, upgraded 492/2908, optimized 601/2427, cEDH 791/2232; live Scryfall batch",
+      "role": "Land: {T}: add {U}; {U},{T}: the next spell you cast this turn can't be countered. Enters tapped unless you control a Mountain or a Forest.",
+      "named_cuts": [
+        "Island"
+      ],
+      "incumbent_opportunity_cost": "Island is the only basic: Blood Moon / Back to Basics insurance and a fetch target.",
+      "commander_synergy": "Protects Kefka from counterspells.",
+      "adversarial_downside": "Cavern of Souls and Hexing Squelcher already do that job; it can enter tapped; EDHREC cEDH 791 vs 668 is not a clear margin. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Marginal; removes the only basic.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_MistriseVillage_over_Island_20261023.txt"
+      ]
+    },
+    {
+      "card": "Spark Double",
+      "source": "EDHREC Kefka, Court Mage general 3977/32536, upgraded 426/2908, optimized 364/2427, cEDH absent; live Scryfall batch",
+      "role": "{3}{U} Illusion: enters as a non-legendary copy of a creature you control with a +1/+1 counter.",
+      "named_cuts": [
+        "Gogo, Mysterious Mime"
+      ],
+      "incumbent_opportunity_cost": "Gogo, Mysterious Mime is an explicit owner keep ('RETAINED': grants Kefka haste and a second Kefka attack trigger without the legend rule).",
+      "commander_synergy": "A permanent non-legendary Kefka with an enter trigger.",
+      "adversarial_downside": "No haste; absent from the cEDH page; four mana like Gogo. Spellbook 6 -> 6.",
+      "judgment": "REJECT",
+      "reason": "Does not clearly beat an owner explicit keep.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+        "canonical refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_SparkDouble_over_GogoMysteriousMime_20261023.txt"
+      ]
+    },
+    {
+      "card": "Vexing Bauble",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH 399/2232; EDHTop16 one-year Kefka entries 326, top-cut conversion 0.2331 (field 0.196); live Scryfall batch",
+      "role": "{1} artifact: counters every spell cast with no mana spent; {1},{T}, sacrifice: draw.",
+      "named_cuts": [
+        "Mental Misstep"
+      ],
+      "incumbent_opportunity_cost": "Mental Misstep is a free counter for MV1 spells.",
+      "commander_synergy": "No interaction with Kefka's Oracle text.",
+      "adversarial_downside": "Symmetric: it counters this deck's own free spells (Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Deflecting Swat, Mindbreak Trap pitch casts, and Final Fortune or other spells cast free). EDHTop16 conversion 0.2331 is high, but the nonbo is structural.",
+      "judgment": "REJECT",
+      "reason": "Nonbo with eight of the deck's own free spells.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json"
+      ]
+    },
+    {
+      "card": "Defense Grid",
+      "source": "EDHREC Kefka, Court Mage general 2026/32536, upgraded absent, optimized absent, cEDH 725/2232; live Scryfall batch",
+      "role": "{2} artifact: each spell costs {3} more except during its controller's turn.",
+      "named_cuts": [
+        "Mindbreak Trap"
+      ],
+      "incumbent_opportunity_cost": "Mindbreak Trap is a free answer to storm turns.",
+      "commander_synergy": "Protects Kefka's turn from counterspells.",
+      "adversarial_downside": "It taxes this deck's own off-turn counters (Flusterstorm, Swan Song, Pyroblast, Red Elemental Blast) and the Valley Floodcaller / Borne Upon a Wind flash plan. No Kefka text.",
+      "judgment": "REJECT",
+      "reason": "Taxes the deck's own reactive plan; generic.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Praetor's Grasp",
+      "source": "EDHREC Kefka, Court Mage general 2352/32536, upgraded absent, optimized absent, cEDH 731/2232; live Scryfall batch",
+      "role": "{1}{B}{B} sorcery: exile a card from an opponent's library face down; you may play it.",
+      "named_cuts": [
+        "Demonic Counsel"
+      ],
+      "incumbent_opportunity_cost": "Demonic Counsel is an owner addition accepted over Opposition Agent in the 2026-10-14 adversarial second pass ('efficient proactive tutor'). The 99 has no Demon, so it is dead without delirium (four card types in your graveyard); bounded delirium proxy turn 4 0.0659 lower / 0.4229 upper, turn 6 0.111 / 0.5463. EDHREC cEDH 549/2232.",
+      "commander_synergy": "Tutors an opponent's combo piece.",
+      "adversarial_downside": "Three-mana sorcery that depends on the opponent's deck; Demonic Counsel finds from your own library once delirium is on.",
+      "judgment": "REJECT",
+      "reason": "Slower and less reliable than the owner-added tutor.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Grinding Station",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH 306/2232; EDHTop16 one-year Kefka entries 244, top-cut conversion 0.2172 (field 0.196); live Scryfall batch; Commander Spellbook almost-included 1368-3698 with Underworld Breach",
+      "role": "{2} artifact: {T}, sacrifice an artifact: target player mills three; untap whenever an artifact enters.",
+      "named_cuts": [
+        "Wishclaw Talisman"
+      ],
+      "incumbent_opportunity_cost": "Wishclaw Talisman is a {1} any-card tutor.",
+      "commander_synergy": "No interaction with Kefka's Oracle text.",
+      "adversarial_downside": "A generic Breach line that does not involve Kefka (the owner rejected generic combo additions that do not require Kefka); Breach already has four lines. EDHTop16 0.2172 on 244 entries.",
+      "judgment": "REJECT",
+      "reason": "Generic Breach redundancy against the owner direction.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+        "canonical refinement/decisions/Kefka_Court_Mage_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+      ]
+    },
+    {
+      "card": "Strix Serenade",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded 174/2908, optimized absent, cEDH 248/2232; EDHTop16 one-year Kefka entries 171, top-cut conversion 0.2339 (field 0.196); live Scryfall batch",
+      "role": "{U} instant: counter target artifact, creature or planeswalker spell; its controller gets a 2/2 flier.",
+      "named_cuts": [
+        "Swan Song"
+      ],
+      "incumbent_opportunity_cost": "Swan Song counters enchantment, instant and sorcery spells for {U}.",
+      "commander_synergy": "Protects against creature hate pieces.",
+      "adversarial_downside": "Swan Song covers the instant/sorcery interaction that stops a combo turn; Strix hands over a flier. EDHTop16 0.2339 on only 171 entries.",
+      "judgment": "REJECT",
+      "reason": "Not clearly better than the incumbent one-mana counter; small sample.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+        "data/grixis/candidates/tournament/kefka-court-mage.json"
+      ]
+    },
+    {
+      "card": "Flesh Duplicate",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH 495/2232; live Scryfall batch",
+      "role": "{U}{U} Shapeshifter: enters as a copy of any creature, with vanishing 3.",
+      "named_cuts": [
+        "Diabolic Intent"
+      ],
+      "incumbent_opportunity_cost": "Diabolic Intent is a two-mana tutor to hand. EDHREC cEDH 909/2232.",
+      "commander_synergy": "A two-mana Kefka copy with an enter trigger (legend rule; you keep one).",
+      "adversarial_downside": "The deck already has Phantasmal Image, Phyrexian Metamorph, Molten Duplication and Saw in Half for Kefka copies; UU. Cutting the tutor loses access to the new Dualcaster line.",
+      "judgment": "REJECT",
+      "reason": "Redundant copy effect for a tutor.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Twinflame",
+      "source": "EDHREC Kefka, Court Mage general 3038/32536, upgraded 195/2908, optimized 391/2427, cEDH 276/2232; live Scryfall batch",
+      "role": "{1}{R} sorcery: hasty token copy of target creature, exiled at end of turn.",
+      "named_cuts": [
+        "Molten Duplication"
+      ],
+      "incumbent_opportunity_cost": "Molten Duplication is an owner addition and blueprint card.",
+      "commander_synergy": "Also combos with Dualcaster Mage.",
+      "adversarial_downside": "Redundant with Molten Duplication, which also copies artifacts; no gain.",
+      "judgment": "REJECT",
+      "reason": "Functional duplicate of the incumbent.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Snapcaster Mage",
+      "source": "EDHREC Kefka, Court Mage general 3028/32536, upgraded absent, optimized 279/2427, cEDH 501/2232; live Scryfall batch",
+      "role": "{1}{U} Human Wizard with flash: target instant or sorcery in your graveyard gains flashback.",
+      "named_cuts": [
+        "Diabolic Intent"
+      ],
+      "incumbent_opportunity_cost": "Diabolic Intent is a tutor to hand.",
+      "commander_synergy": "A Wizard, so Prodigy doubles it.",
+      "adversarial_downside": "Value card; replaying a ritual or counter is weaker than a tutor in a combo deck.",
+      "judgment": "REJECT",
+      "reason": "A value card does not beat a tutor in a combo deck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Mox Amber",
+      "source": "EDHREC Kefka, Court Mage general 2670/32536, upgraded absent, optimized 268/2427, cEDH 560/2232; live Scryfall batch",
+      "role": "{0} legendary artifact: mana of a colour among legendary creatures and planeswalkers you control.",
+      "named_cuts": [
+        "Fellwar Stone"
+      ],
+      "incumbent_opportunity_cost": "Fellwar Stone is an owner addition ('extremely high-adoption').",
+      "commander_synergy": "Taps for U/B/R once Kefka is in play.",
+      "adversarial_downside": "Dead before a legend lands: only Ragavan, Gogo and Tinybones are legendary in the 99.",
+      "judgment": "REJECT",
+      "reason": "Dead early in a five-mana-commander deck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Urza's Saga",
+      "source": "EDHREC Kefka, Court Mage general 3380/32536, upgraded 169/2908, optimized 313/2427, cEDH 629/2232; live Scryfall batch",
+      "role": "Saga land: colourless, then Constructs, then tutors a 0/1-cost artifact.",
+      "named_cuts": [
+        "Starting Town"
+      ],
+      "incumbent_opportunity_cost": "Starting Town gives any colour for 1 life on turns 1-3.",
+      "commander_synergy": "No interaction with Kefka's Oracle text.",
+      "adversarial_downside": "Colourless; it sacrifices itself; artifact targets (Lotus Petal, Chrome Mox, Mox Diamond, Mox Opal, Lion's Eye Diamond, Mana Vault, Sol Ring) are mana only.",
+      "judgment": "REJECT",
+      "reason": "Loses colours for a generic engine.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Generator Servant",
+      "source": "EDHREC Kefka, Court Mage general 3739/32536, upgraded 287/2908, optimized 405/2427, cEDH 309/2232; live Scryfall batch",
+      "role": "{1}{R} creature: {T}, sacrifice: add {C}{C}; a creature spell paid with it gains haste.",
+      "named_cuts": [
+        "Arena of Glory"
+      ],
+      "incumbent_opportunity_cost": "Arena of Glory is a blueprint haste land.",
+      "commander_synergy": "Haste for Kefka the next turn.",
+      "adversarial_downside": "Needs to survive a turn cycle, is summoning sick, and replaces a land; Arena of Glory gives haste the turn it is used.",
+      "judgment": "REJECT",
+      "reason": "Slower than the blueprint haste land.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Dockside Extortionist",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Kefka, Court Mage EDHREC page)",
+      "role": "Treasure for each opposing artifact and enchantment.",
+      "named_cuts": [
+        "Culling the Weak"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: the card is invalid here.",
+      "adversarial_downside": "Banned in Commander (live Scryfall).",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Banned in Commander; excluded before evaluation.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Manamorphose",
+      "source": "EDHREC Kefka, Court Mage general absent, upgraded absent, optimized absent, cEDH absent; live Scryfall batch; OFF-RANKING (absent from every Kefka, Court Mage EDHREC page)",
+      "role": "{1}{R/G} instant: add two mana, draw.",
+      "named_cuts": [
+        "Culling the Weak"
+      ],
+      "incumbent_opportunity_cost": "Not evaluated further because the card is invalid.",
+      "commander_synergy": "Not assessed: the card is invalid here.",
+      "adversarial_downside": "R/G hybrid colour identity includes G, outside U/B/R.",
+      "judgment": "EXCLUDE_INVALID",
+      "reason": "Outside Kefka's U/B/R colour identity; excluded.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+        "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+      ]
+    },
+    {
+      "card": "Step Through",
+      "source": "Current 2026-10-24 live Scryfall 100-card Oracle; official Wizards release notes; EDHREC High Lift treated as discovery, plus Oct14 owner decision ledger",
+      "role": "{2} Wizardcycling from hand; tutor noncommander Wizard without requiring delirium",
+      "named_cuts": [
+        "Demonic Counsel"
+      ],
+      "incumbent_opportunity_cost": "Removes owner's broadly tutoring Demonic Counsel once delirium enabled; printed MV5 vs Counsel MV2 exposes +3 Ad Nauseam life if revealed; bargained Beseech cannot free-cast Step Through.",
+      "commander_synergy": "Finds Harmonic Prodigy, Gogo, Valley Floodcaller or Thassa's Oracle at any point, whichever advances Kefka's discard trigger, cloning or finish.",
+      "adversarial_downside": "Removes owner's broadly tutoring Demonic Counsel once delirium enabled; printed MV5 vs Counsel MV2 exposes +3 Ad Nauseam life if revealed; bargained Beseech cannot free-cast Step Through.",
+      "judgment": "SELECT_ADD",
+      "reason": "Conditional commander-first role speed/consistency improvement with documented owner-approved tutor tradeoff.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/independent_reviews/Kefka__Court_Mage_M7_Current_Scryfall_20261024.json",
+        "data/grixis/m7/case_transfers/Kefka__Court_Mage_M7_Rev1_Exact_IJ_Transfer_20261024.json",
+        "data/grixis/m7/independent_reviews/Kefka__Court_Mage_ChatGPT_New_Challenger_Checkpoint_20261024.md"
+      ]
+    },
+    {
+      "card": "Sakashima of a Thousand Faces",
+      "source": "Current 2026-10-24 live Scryfall 100-card Oracle; official Wizards release notes; EDHREC High Lift treated as discovery, plus Oct14 owner decision ledger",
+      "role": "{3}{U} legendary clone that copies a creature you control and disables legend rule for your permanents",
+      "named_cuts": [
+        "Phyrexian Metamorph"
+      ],
+      "incumbent_opportunity_cost": "Replaces historically deliberate flexible artifact/creature Metamorph paying three generic and two life; Sakashima needs four with blue, must copy own creature, dies to removal reactivating legend rule.",
+      "commander_synergy": "Existing Kefka plus Sakashima-copy stay in play; cheap Phantasmal Image and owned Molten Duplication/Saw in Half copy tokens can remain alongside true commander.",
+      "adversarial_downside": "Replaces historically deliberate flexible artifact/creature Metamorph paying three generic and two life; Sakashima needs four with blue, must copy own creature, dies to removal reactivating legend rule.",
+      "judgment": "SELECT_ADD",
+      "reason": "Multi-turn commander-specific ETB and attack synergy is worth narrower/fairer Metamorph utility only in this owner-identity shell.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/independent_reviews/Kefka__Court_Mage_M7_Current_Scryfall_20261024.json",
+        "data/grixis/m7/case_transfers/Kefka__Court_Mage_M7_Rev1_Exact_IJ_Transfer_20261024.json",
+        "data/grixis/m7/independent_reviews/Kefka__Court_Mage_ChatGPT_New_Challenger_Checkpoint_20261024.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Step Through",
+      "Sakashima of a Thousand Faces"
+    ],
+    "cuts": [
+      "Demonic Counsel",
+      "Phyrexian Metamorph"
+    ],
+    "coherent_package_tradeoff": "Two quality-positive commander-first changes, not a five-swap padded list. Direct two-generic Wizardcycling selects among existing Prodigy/Gogo/Floodcaller/Oracle early without the old delirium gate, while Sakashima enables permanent Kefka clone and legend exception for retained copy package. The deliberately owner-added Demonic Counsel broad late tutor and deliberately retained Metamorph three-mana-plus-life artifact versatility are genuinely lost. Culling fast black ramp, 28 printed lands and cEDH win conditions remain. Printed Ad Nauseam total mana-value exposure +3."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Culling the Weak",
+        "weakness": "Dead without a creature; makes only black; not an owner keep; Pass C questioned it.",
+        "alternative_named": "Dualcaster Mage",
+        "reasoning": "CUT for Dualcaster Mage (one genuine swap). Fallback replacement: Talisman of Indulgence."
+      },
+      {
+        "card": "Diabolic Intent",
+        "weakness": "Needs a creature to sacrifice and is a sorcery.",
+        "alternative_named": "Snapcaster Mage",
+        "reasoning": "Tutor to hand that finds either Dualcaster line half or Thassa's Oracle. Kept; staged as the alternative cut for Dualcaster Mage."
+      },
+      {
+        "card": "Demonic Counsel",
+        "weakness": "Dead without delirium (no Demon in the 99).",
+        "alternative_named": "Entomb",
+        "reasoning": "Owner addition; Pass C's Entomb test gains little (bounded). Kept."
+      },
+      {
+        "card": "Borne Upon a Wind",
+        "weakness": "A cantrip with no direct effect on the board.",
+        "alternative_named": "Entomb",
+        "reasoning": "Owner baseline card and the flash enabler for sorcery-speed wheels and copies; EDHREC cEDH 1786/2232. Kept."
+      },
+      {
+        "card": "Tinybones, Bauble Burglar",
+        "weakness": "Low cEDH rate (358/2232); Mnemonic Betrayal nonbo.",
+        "alternative_named": "Dragon's Rage Channeler",
+        "reasoning": "Owner explicit keep (retained direct front-face payoff). Kept."
+      },
+      {
+        "card": "Molten Duplication",
+        "weakness": "Sorcery-speed; the token is sacrificed at end step.",
+        "alternative_named": "Mockingbird",
+        "reasoning": "Owner addition and blueprint card; now Dualcaster Mage's strongest partner. Kept."
+      },
+      {
+        "card": "Talisman of Creativity",
+        "weakness": "A plain two-mana rock with no Kefka text.",
+        "alternative_named": "Vivi Ornitier",
+        "reasoning": "Vivi's tournament conversion is below the field. Kept."
+      },
+      {
+        "card": "Island",
+        "weakness": "A basic land that makes only one colour.",
+        "alternative_named": "Mistrise Village",
+        "reasoning": "Only basic; Cavern of Souls and Hexing Squelcher already stop counters. Kept."
+      },
+      {
+        "card": "Gogo, Mysterious Mime",
+        "weakness": "Four mana and no enter trigger of its own.",
+        "alternative_named": "Spark Double",
+        "reasoning": "Owner explicit keep (RETAINED in the second pass for haste and a second Kefka attack trigger). Kept."
+      },
+      {
+        "card": "Anger",
+        "weakness": "Absent from the cEDH page (0/2232).",
+        "alternative_named": "Entomb",
+        "reasoning": "Commander-specific owner add (haste after Kefka's own discard). Kept."
+      },
+      {
+        "card": "Mental Misstep",
+        "weakness": "Only counters spells with mana value 1.",
+        "alternative_named": "Vexing Bauble",
+        "reasoning": "Free counter; Bauble counters the deck's own free spells. Kept."
+      },
+      {
+        "card": "Swan Song",
+        "weakness": "Gives the countered player a 2/2 flier token.",
+        "alternative_named": "Strix Serenade",
+        "reasoning": "Covers instant/sorcery interaction on combo turns. Kept."
+      },
+      {
+        "card": "Fellwar Stone",
+        "weakness": "Its colours depend on opponents' lands.",
+        "alternative_named": "Mox Amber",
+        "reasoning": "Owner addition; Mox Amber is dead before a legend. Kept."
+      },
+      {
+        "card": "Arena of Glory",
+        "weakness": "Enters tapped without a Mountain.",
+        "alternative_named": "Generator Servant",
+        "reasoning": "Blueprint haste land that works the turn it is used. Kept."
+      },
+      {
+        "card": "Starting Town",
+        "weakness": "Makes only colourless mana after turn 3.",
+        "alternative_named": "Urza's Saga",
+        "reasoning": "Urza's Saga is colourless from the start. Kept."
+      },
+      {
+        "card": "Wishclaw Talisman",
+        "weakness": "Its activation hands an opponent a tutor too.",
+        "alternative_named": "Grinding Station",
+        "reasoning": "Any-card tutor; Grinding Station is a generic Breach line. Kept."
+      },
+      {
+        "card": "Phyrexian Metamorph",
+        "weakness": "Artifact-versatile clone but same-name Kefka legend rule curtails persistent copy",
+        "alternative_named": "Sakashima of a Thousand Faces",
+        "reasoning": "CUT only after confirming lost Metamorph flexible artifact copy; replaces with persistent legend-bypass Kefka clone."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKING: Spark Double (staged, rejected against the owner keep Gogo), Electroduplicate (dominated by Molten Duplication).",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Entomb",
+          "Dragon's Rage Channeler"
+        ],
+        "cuts": [
+          "Demonic Counsel",
+          "Tinybones, Bauble Burglar"
+        ],
+        "result_and_rationale": "Graveyard/delirium package: Entomb bins Anger and DRC surveils into delirium, which is the only reason to keep Demonic Counsel. REJECTED: it would cut Demonic Counsel (the card the package is meant to enable) and an owner explicit keep; the bounded Anger-window gain is small."
+      },
+      {
+        "adds": [
+          "Step Through",
+          "Generator Servant"
+        ],
+        "cuts": [
+          "Demonic Counsel",
+          "Culling the Weak"
+        ],
+        "result_and_rationale": "Rejected two-swap exact-100 challenge: unconditional Wizardcycling helps Kefka, but Generator Servant requires surviving a turn and removes Culling's fast black burst from the final cEDH mana configuration."
+      },
+      {
+        "adds": [
+          "Step Through",
+          "Sakashima of a Thousand Faces"
+        ],
+        "cuts": [
+          "Demonic Counsel",
+          "Phyrexian Metamorph"
+        ],
+        "result_and_rationale": "Selected two-swap coherent package: immediate Wizardcycling plus persistent Kefka legend-bypass clone, while explicitly losing delirium broad tutor and Metamorph's flexible artifact-copy/three generic plus two life mode."
+      }
+    ],
+    "no_two_package_reason": "Only one credible multi-slot package exists: Entomb + Dragon's Rage Channeler, the one pair whose value depends on each other (delirium for Demonic Counsel and Anger in the graveyard). Every other candidate works alone and its single-slot test settles it. Dualcaster Mage plus a second copy card (Twinflame, Flesh Duplicate) only adds redundancy; Grinding Station is a generic Breach line. So no second package is credible.",
+    "alternate_cuts_for_prior_holds": "Pass C requested +Entomb against Demonic Counsel and against Borne Upon a Wind; both are staged as complete 100s. The Culling the Weak slot was tested against a third rock (Talisman of Indulgence, staged as the fallback) and against Dualcaster Mage (selected). The Dualcaster add is also staged with the alternative cut Diabolic Intent.",
+    "strongest_argument_against_baseline": "Culling the Weak is a black-only ritual that needs a creature, while three owner spine cards (Molten Duplication, Saw in Half, Essence Flux) each sit one card away from a two-card infinite (Commander Spellbook almost-included 147-5487, 147-500, 147-4598).",
+    "evidence_based_answer": "One genuine swap, +Dualcaster Mage -Culling the Weak, on mechanics; adoption data are neutral to slightly against it (disclosed). Every other challenger either cuts an owner keep without clearly beating it, is generic, or is marginal. RESEARCH_ONLY.",
+    "fewer_than_five_weak_slots_reason": null
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Kefka__Court_Mage_M7_Rev1.txt",
+    "sha256": "14277f6e9774c5ef02b4f92332b52684794367007abf81bc2d84ef7ad7bcaa7d",
+    "card_count": 100,
+    "deckwide_reconciliation": "One no-trailing-newline 100-card TXT copied exactly from Oct14 owner baseline with two named substitutions only. Exactly one commander, 100 singleton names, 28 printed lands, no illegal or off-Grixis card; raw SHA-256 pinned and independently revalidated against live Oct24 all-100 Oracle. No other card changes."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+      "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+      "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+      "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+      "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+      "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+      "data/grixis/m6/ij/tested_pools/Kefka__Court_Mage_M7_tested_configurations_20261023.json",
+      "tests/test_m6_kefka_court_mage_m7_mechanics.py",
+      "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+      "data/grixis/candidates/tournament/kefka-court-mage.json",
+      "data/grixis/m7/independent_reviews/Kefka__Court_Mage_M7_Current_Scryfall_20261024.json",
+      "data/grixis/m7/case_transfers/Kefka__Court_Mage_M7_Rev1_Exact_IJ_Transfer_20261024.json",
+      "data/grixis/m7/independent_reviews/Kefka__Court_Mage_ChatGPT_New_Challenger_Checkpoint_20261024.md",
+      "tests/test_m6_kefka_m7_rev1_exact_case_transfer.py",
+      "tests/test_m7_kefka_rev1_oracle_and_exact_bytes.py"
+    ],
+    "power_bracket": 5,
+    "archidekt_tags": [
+      "cEDH",
+      "Discard",
+      "Clones"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "All 99 support cards (28 printed lands, retained fast mana including Culling, Kefka blink/clone, Anger, Waste Not/Tinybones, Oracle/Breach and protective interaction) were reconciled against the October 14 baseline and 44 staged distinct 100-card full-deck hypotheses; extra removals must beat tutor breadth, colored acceleration, clone utility and cEDH tempo, not chase five swaps.",
+    "quality_based_stop_reason": "Two independent commander-specific roles survive comprehensive adversarial whole-100 alternatives. Additional Generator Servant/Culling loses black burst and removal resiliency, Dualcaster introduces Kefka-independent kill, third clone/card swaps strip protected identity, and MDFC/land changes worsen colored speed; therefore no honest unmanufactured third-through-fifth changes remain.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Culling the Weak",
+        "challenger": "Generator Servant",
+        "disposition": "REJECT",
+        "tradeoff": "Generator requires a turn of survival and cannot produce U/B/R; the retained Culling supports burst black mana in an existing creature-heavy opening. Both were evaluated in exact whole-100 alternatives."
+      },
+      {
+        "incumbent": "Molten Duplication",
+        "challenger": "Twinflame",
+        "disposition": "REJECT",
+        "tradeoff": "Twinflame duplicates one short-lived Kefka ETB role already met by Molten Duplication; it does not justify removing the existing copy spell, and Dualcaster combo homogenization is not selected."
+      }
+    ],
+    "larger_swap_packages": [],
+    "no_credible_larger_package_reason": "Staged whole-100 three-swap stress configurations with Fire Covenant for Toxic Deluge, Generator Servant for Culling the Weak, or Irma/Chameleon for an owner-retained card. Every additional change imposes greater removal speed, colored-cost, low-curve Ad Nauseam, tutor or clone-utility losses and lacks positive net commander-first justification; the larger tested alternatives remain research hypotheses, not owner-presentable wins."
+  }
+}

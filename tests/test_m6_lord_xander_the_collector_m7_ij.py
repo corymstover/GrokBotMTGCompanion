@@ -161,6 +161,12 @@ class LordXanderM7IJ(unittest.TestCase):
                 # never rewrite the historical bundle or claim it passes now.
                 self.assertEqual(h, "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376")
                 self.assertEqual(sha(p), "babc54a313fc54ec41f8b6b21ad303f1dc2c6706d225216bbe0ae577c07cc7b1")
+            elif p == "scripts/grixis_m7_decision_gate.py":
+                # Kefka's later approved single-deck floor-waiver gate changes
+                # the live script. Xander's old J bundle must retain its
+                # ORIGINAL script receipt, not silently adopt new bytes.
+                self.assertEqual(h, "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a")
+                self.assertNotEqual(h, "sha256:" + sha(p))
             else:
                 self.assertEqual(h, "sha256:" + sha(p), p)
         self.assertEqual(self.b["pass_c"]["stage_a_seal_sha256"], "sha256:" + sha(SEAL))

@@ -318,6 +318,34 @@ def verify_post_floor_search(packet, baseline, commanders, companions, material_
             check_text(alt["why_not_selected"], "Opportunity-cost comparison rejecting larger package", 70)
 
 
+def verified_kefka_one_deck_swap_floor_waiver(packet, root):
+    """2026-10-24 exact SHA, Kefka only; NOT owner deck approval.
+
+    No other deck, different candidate bytes or missing scoped case receipt can
+    bypass the independent mandatory M6 P0/P1, Oracle, source or CI checks.
+    """
+    expected = "14277f6e9774c5ef02b4f92332b52684794367007abf81bc2d84ef7ad7bcaa7d"
+    if not (packet["deck_id"] == "Kefka__Court_Mage"
+            and packet["final_candidate"]["sha256"] == expected
+            and packet["final_candidate"]["path"] == "data/grixis/m7/candidate_lists/Kefka__Court_Mage_M7_Rev1.txt"):
+        return False
+    evidence = safe_file(root, "data/grixis/m7/case_transfers/Kefka__Court_Mage_M7_Rev1_Exact_IJ_Transfer_20261024.json")
+    data = read(evidence)
+    if (data["candidate_raw_sha256"] != expected
+            or data["deck_id"] != "Kefka__Court_Mage"
+            or not data["kefka_only_owner_waiver"].startswith("I authorize a Kefka-only exception")
+            or data["owner_exact_sha_approved"] is not False
+            or data["canonical_changed"] is not False):
+        raise DecisionGateError("Kefka's narrow floor waiver is not source-bound and unapproved")
+    if {x["id"] for x in data["P0"]} != {"C1", "K1", "K2", "K3", "F1"}:
+        raise DecisionGateError("Kefka floor-waiver P0 case inventory is incomplete")
+    if {x["id"] for x in data["P1"]} != {"K4", "K5", "E1", "E2", "W1", "W2", "W3", "F2", "F3"}:
+        raise DecisionGateError("Kefka floor-waiver P1 case inventory is incomplete")
+    if any(x["result"] != "PASS_BOUNDED" for x in data["P0"]):
+        raise DecisionGateError("Kefka P0 requirement has unverified case")
+    return True
+
+
 def verify_packet(packet, *, root=ROOT, registry=None):
     if registry is None:
         registry = read(root / "data/grixis/registry.json")
@@ -445,7 +473,7 @@ def verify_packet(packet, *, root=ROOT, registry=None):
     else:
         if packet.get("withdrawal_reason"):
             raise DecisionGateError("A withdrawn owner-objection packet cannot be owner-ready")
-        if len(requested["adds"]) < MIN_OWNER_PRESENTABLE_SWAPS:
+        if len(requested["adds"]) < MIN_OWNER_PRESENTABLE_SWAPS and not verified_kefka_one_deck_swap_floor_waiver(packet, root):
             raise DecisionGateError(
                 "OWNER HARD BLOCK: only " + str(len(requested["adds"])) +
                 " genuine swaps; 0–4 replacements cannot be presented for M7 owner approval. "
