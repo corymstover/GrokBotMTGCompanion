@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "authority": "Scryfall default-cards printing data (local snapshot)",
- "coverage": "default-cards snapshot",
+ "coverage": "English/default-language card objects; not a claim of every foreign-language edition",
  "source": "default-cards-20261028090549.jsonl.gz",
  "source_sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
  "shard_bytes_max": 450000,
