@@ -9,6 +9,7 @@ independent I/J verdict, an M7 acceptance or a replacement for Phase B.
 - Current research raw SHA: `9a9d2f7a344e2491444c0a0e4c48525dfe8faa37032eaf8e22a94082f6fbf60e`.
 - Original `data/grixis/m6/test_blueprints/Tresserhorn_s_Lord__Returned.json`: five P0, ten P1 case IDs. The execution scripts bind the exact old and new 100s by raw SHA and use named frozen Oracle sections; live Scryfall checks bind the proposed new 100.
 - Original `data/grixis/m6/ij/input_receipts/tresserhorns-lord-returned.json`: only M6 I/J **input integrity** (`inputs_attested_downstream_incomplete`); `phase_b_replayed: false`, `positive_simulator_verdicts_decisive: false`, `can_decide: false`, and `can_approve_or_lock: false`. The receipt's own `required_next` list includes independent A/B commits, Pass C critique, validated Phase B, judgment review, final receipt bundle and local-optimum certificate.
+- Subsequent `data/grixis/m6/sealed/A` and `sealed/B` source artifacts and the `owner_pass_c_substitute/Tresserhorn_s_Lord__Returned/final_disposition.md` **do exist**. The October 21 owner-equivalent Pass C decided **KEEP** of the *old exact 100*, expressly identified itself as not genuinely independent, and said measured Phase B was not performed. These prior materials neither authorize our seven additions nor certify a new 100.
 
 | Original M6 ID | Executed test and proposed-list scope | Changed-card transfer / adversarial risk |
 |---|---|---|
