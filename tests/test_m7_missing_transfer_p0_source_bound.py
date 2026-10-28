@@ -1,4 +1,4 @@
-"""Eight approved M7 revisions: finite, negative-controlled original M6 P0 cases.
+"""Nine approved M7 revisions: finite, negative-controlled original M6 P0 cases.
 
 The historical M6 blueprint cases were DESIGN ONLY. These are newly executed
 source-scoped models of their actual mechanics, not a retroactive M6 I/J seal,
@@ -39,11 +39,15 @@ SOURCE = {
     "Sol_kanar_the_Swamp_King": (
         "data/grixis/m7/candidate_lists/Sol_kanar_the_Swamp_King_M7_Rev1.txt",
         "2bd99c569df4a86897bca0164d2a1fa309b92f8b721e406b8394dfb04b1239e3", 1),
+    "Goben__Gene_Splice_Savant": (
+        "data/grixis/m7/candidate_lists/Norman_Osborn_Green_Goblin_chatgpt_rev1.txt",
+        "c002a49243bd54780bb0f4a36a3c239a00e042defa1d0c6c4b891c3c8060eef9", 1),
 }
 
 class BlueprintBound(unittest.TestCase):
     DECK = None
     IDS = None
+    PLAN_ID = None
 
     @classmethod
     def setUpClass(cls):
@@ -62,7 +66,8 @@ class BlueprintBound(unittest.TestCase):
         assert sum(actual.values()) == 100
         assert sum(" [Commander]" in r for r in rows) == command_count
         assert not [n for n, c in actual.items() if c > 1 and n not in ("Island", "Mountain", "Swamp", "Nazgûl")]
-        plan = json.loads((ROOT / "data/grixis/m6/test_blueprints" / (cls.DECK + ".json")).read_text())
+        plan_name = cls.PLAN_ID or cls.DECK
+        plan = json.loads((ROOT / "data/grixis/m6/test_blueprints" / (plan_name + ".json")).read_text())
         actual_p0 = {c["id"] for c in plan["cases"] if c["priority"] == "P0"}
         assert actual_p0 == set(cls.IDS), (cls.DECK, actual_p0)
         assert plan["commander_oracle_snapshots"], cls.DECK
@@ -466,6 +471,68 @@ class SwampKingP0(BlueprintBound):
         self.assertFalse(combo_live(False, True, True))
         self.assertFalse(combo_live(True, False, True))
         self.assertFalse(combo_live(True, True, False))
+
+
+class NormanGreenGoblinP0(BlueprintBound):
+    # Cory explicitly resolved this *canonical registry alias* on 2026-10-27:
+    # "Goben IS Green Goblin, theyre the same CARD." Frozen 62 IDs and the
+    # separately pinned 61-plan manifest remain unchanged.
+    DECK = "Goben__Gene_Splice_Savant"
+    PLAN_ID = "Norman_Osborn_Green_Goblin"
+    IDS = ("C1", "K1", "K2", "K3", "F1")
+
+    def test_C1_norman_connive_and_four_color_transform_timing(self):
+        self.assertIn("Norman Osborn can't be blocked", self.oracle)
+        self.assertIn("connives", self.oracle)
+        self.assertIn("Activate only as a sorcery", self.oracle)
+        # Combat-damage trigger connives; nonland discard grows one counter.
+        def connive(damage_to_player, discarded_is_land):
+            return (1, int(not discarded_is_land)) if damage_to_player else (0, 0)
+        self.assertEqual(connive(True, False), (1, 1))
+        self.assertEqual(connive(True, True), (1, 0))
+        self.assertEqual(connive(False, False), (0, 0))
+        def transform(generic, mana, own_main, empty_stack):
+            return generic >= 1 and all(mana.get(c, 0) >= 1 for c in "UBR") and own_main and empty_stack
+        self.assertTrue(transform(1, {"U":1,"B":1,"R":1}, True, True))
+        self.assertFalse(transform(1, {"U":1,"B":1,"R":1}, False, True))
+
+    def test_K1_green_goblin_reduces_generic_not_colored_costs(self):
+        self.assertIn("Spells you cast from your graveyard cost {2} less", self.oracle)
+        # One source spell {3}{U}{B}; transformed Goblin reduces generic 3 to 1.
+        def discounted(generic, mana):
+            return (max(generic - 2, 0), mana)
+        self.assertEqual(discounted(3, ("U", "B")), (1, ("U", "B")))
+        self.assertEqual(discounted(1, ("U", "B")), (0, ("U", "B")))
+        self.assertNotEqual(discounted(3, ("U", "B")), (1, ()))
+
+    def test_K2_mayhem_discard_this_turn_and_normal_timing_or_flash(self):
+        self.assertIn("mayhem", self.oracle)
+        self.assertIn("Borne Upon a Wind", self.cards)
+        self.assertIn("Valley Floodcaller", self.cards)
+        def cast_mayhem(discarded_this_turn, sorcery_speed, flash_granted):
+            return discarded_this_turn and (sorcery_speed or flash_granted)
+        self.assertTrue(cast_mayhem(True, True, False))
+        self.assertTrue(cast_mayhem(True, False, True))
+        self.assertFalse(cast_mayhem(False, True, True))
+        self.assertFalse(cast_mayhem(True, False, False))
+
+    def test_K3_necropotence_discard_exile_breaks_mayhem(self):
+        self.assertNotIn("Necropotence", self.cards)
+        # Necropotence-style replacement prevents discards from reaching yard.
+        def mayhem_card_in_grave(discarded, exile_replacement):
+            return discarded and not exile_replacement
+        self.assertTrue(mayhem_card_in_grave(True, False))
+        self.assertFalse(mayhem_card_in_grave(True, True))
+        self.assertFalse(mayhem_card_in_grave(False, False))
+
+    def test_F1_graveyard_exile_removes_breach_and_mayhem_resources(self):
+        self.assertIn("Underworld Breach", self.cards)
+        self.assertIn("Grinding Station", self.cards)
+        grave = {"Lion's Eye Diamond", "Brain Freeze", "Mayhem Spell"}
+        self.assertIn("Mayhem Spell", grave)
+        grave.clear()  # source-paid hostile graveyard exile, before next cast
+        self.assertFalse(bool(grave))
+        self.assertNotIn("Mayhem Spell", grave)
 
 
 if __name__ == "__main__":
