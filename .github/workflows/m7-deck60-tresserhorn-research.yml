@@ -6,6 +6,7 @@ on:
       - "data/grixis/m7/candidate_lists/Tresserhorn_s_Lord__Returned_M7_Rev1*.txt"
       - "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md"
       - "data/grixis/m7/tresserhorn_returned_rev1/**"
+      - "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
       - ".github/workflows/m7-deck60-tresserhorn-research.yml"
   workflow_dispatch:
 
@@ -22,6 +23,8 @@ jobs:
           python-version: "3.11"
       - name: Pin approved source, full-100 research candidate, Alt5 and Alt9
         run: python3 data/grixis/m7/tresserhorn_returned_rev1/verify.py
+      - name: Verify consent-authorized current Scryfall Oracle for exact Rev1 100
+        run: python3 data/grixis/m7/tresserhorn_returned_rev1/verify_live.py
       - name: Execute five exact-source M6 P0 finite cases
         run: python3 data/grixis/m7/tresserhorn_returned_rev1/m6_p0_followup.py
       - name: Execute ten changed-context M6 P1 finite cases
