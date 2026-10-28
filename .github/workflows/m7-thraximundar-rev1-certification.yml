@@ -1,0 +1,32 @@
+name: M7 Deck 59 Thraximundar exact 100 Oracle original P0 and decision gate
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - '.github/workflows/m7-thraximundar-rev1-certification.yml'
+      - 'data/grixis/m7/candidate_lists/Thraximundar_chatgpt_m7_approved_rev1.txt'
+      - 'data/grixis/m7/oracle_snapshots/Thraximundar_Rev1_Scryfall_20261028.json'
+      - 'data/grixis/m7/thraximundar_rev1/**'
+      - 'data/grixis/m7/decision_reviews/Thraximundar_rev1.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-source-thrax-case-and-decision:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install --disable-pip-version-check jsonschema
+      - name: Commander-first decisive 10-swap M7 complete 99-role packet
+        run: python3 scripts/grixis_m7_decision_gate.py --check --file data/grixis/m7/decision_reviews/Thraximundar_rev1.json
+      - name: Original required five M6 P0 source-bound cases and full-93 Oracle
+        run: python3 data/grixis/m7/thraximundar_rev1/m6_p0_followup.py
