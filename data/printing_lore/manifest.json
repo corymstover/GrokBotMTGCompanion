@@ -1,0 +1,9104 @@
+{
+ "schema": 1,
+ "authority": "Scryfall default-cards printing data (local snapshot)",
+ "coverage": "default-cards snapshot",
+ "source": "default-cards-20261028090549.jsonl.gz",
+ "source_sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
+ "shard_bytes_max": 450000,
+ "sets": {
+  "10e": {
+   "name": "Tenth Edition",
+   "printings": 510,
+   "english_paper": 508,
+   "files": [
+    "1-000.jsonl"
+   ]
+  },
+  "2ed": {
+   "name": "Unlimited Edition",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "2-000.jsonl"
+   ]
+  },
+  "2x2": {
+   "name": "Double Masters 2022",
+   "printings": 579,
+   "english_paper": 579,
+   "files": [
+    "2-000.jsonl"
+   ]
+  },
+  "2xm": {
+   "name": "Double Masters",
+   "printings": 384,
+   "english_paper": 384,
+   "files": [
+    "2-000.jsonl"
+   ]
+  },
+  "30a": {
+   "name": "30th Anniversary Edition",
+   "printings": 594,
+   "english_paper": 594,
+   "files": [
+    "3-000.jsonl"
+   ]
+  },
+  "3ed": {
+   "name": "Revised Edition",
+   "printings": 306,
+   "english_paper": 306,
+   "files": [
+    "3-000.jsonl"
+   ]
+  },
+  "40k": {
+   "name": "Warhammer 40,000 Commander",
+   "printings": 617,
+   "english_paper": 617,
+   "files": [
+    "4-000.jsonl"
+   ]
+  },
+  "4bb": {
+   "name": "Fourth Edition Foreign Black Border",
+   "printings": 378,
+   "english_paper": 0,
+   "files": [
+    "4-000.jsonl"
+   ]
+  },
+  "4ed": {
+   "name": "Fourth Edition",
+   "printings": 380,
+   "english_paper": 378,
+   "files": [
+    "4-000.jsonl"
+   ]
+  },
+  "5dn": {
+   "name": "Fifth Dawn",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "5-000.jsonl"
+   ]
+  },
+  "5ed": {
+   "name": "Fifth Edition",
+   "printings": 460,
+   "english_paper": 454,
+   "files": [
+    "5-000.jsonl"
+   ]
+  },
+  "6ed": {
+   "name": "Classic Sixth Edition",
+   "printings": 351,
+   "english_paper": 350,
+   "files": [
+    "6-000.jsonl"
+   ]
+  },
+  "7ed": {
+   "name": "Seventh Edition",
+   "printings": 708,
+   "english_paper": 700,
+   "files": [
+    "7-000.jsonl"
+   ]
+  },
+  "8ed": {
+   "name": "Eighth Edition",
+   "printings": 711,
+   "english_paper": 707,
+   "files": [
+    "8-000.jsonl"
+   ]
+  },
+  "9ed": {
+   "name": "Ninth Edition",
+   "printings": 710,
+   "english_paper": 709,
+   "files": [
+    "9-000.jsonl"
+   ]
+  },
+  "a25": {
+   "name": "Masters 25",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aa1": {
+   "name": "Arena Anthology 1",
+   "printings": 26,
+   "english_paper": 0,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aa2": {
+   "name": "Arena Anthology 2",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aa3": {
+   "name": "Arena Anthology 3",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aa4": {
+   "name": "Arena Anthology 4",
+   "printings": 28,
+   "english_paper": 0,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aacr": {
+   "name": "Assassin's Creed Art Series",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aafr": {
+   "name": "Adventures in the Forgotten Realms Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "ablb": {
+   "name": "Bloomburrow Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "abro": {
+   "name": "The Brothers' War Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aclb": {
+   "name": "Battle for Baldur's Gate Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "acmm": {
+   "name": "Commander Masters Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "acr": {
+   "name": "Assassin's Creed",
+   "printings": 309,
+   "english_paper": 306,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "adft": {
+   "name": "Aetherdrift Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "admu": {
+   "name": "Dominaria United Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "adsk": {
+   "name": "Duskmourn: House of Horror Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aecl": {
+   "name": "Lorwyn Eclipsed Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aeoe": {
+   "name": "Edge of Eternities Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-000.jsonl"
+   ]
+  },
+  "aer": {
+   "name": "Aether Revolt",
+   "printings": 197,
+   "english_paper": 197,
+   "files": [
+    "a-000.jsonl",
+    "a-001.jsonl"
+   ]
+  },
+  "afc": {
+   "name": "Forgotten Realms Commander",
+   "printings": 331,
+   "english_paper": 331,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "afdn": {
+   "name": "Foundations Art Series",
+   "printings": 55,
+   "english_paper": 55,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "afic": {
+   "name": "Final Fantasy Scene Box",
+   "printings": 24,
+   "english_paper": 24,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "afin": {
+   "name": "Final Fantasy Art Series",
+   "printings": 53,
+   "english_paper": 53,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "afr": {
+   "name": "Adventures in the Forgotten Realms",
+   "printings": 402,
+   "english_paper": 402,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "afra": {
+   "name": "Reality Fracture Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "ahob": {
+   "name": "The Hobbit Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "ahoc": {
+   "name": "The Hobbit Eternal Art Series",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "ainr": {
+   "name": "Innistrad Remastered Art Series",
+   "printings": 25,
+   "english_paper": 25,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "ajmp": {
+   "name": "Jumpstart Arena Exclusives",
+   "printings": 18,
+   "english_paper": 0,
+   "files": [
+    "a-001.jsonl"
+   ]
+  },
+  "akh": {
+   "name": "Amonkhet",
+   "printings": 287,
+   "english_paper": 287,
+   "files": [
+    "a-001.jsonl",
+    "a-002.jsonl"
+   ]
+  },
+  "akhm": {
+   "name": "Kaldheim Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "akr": {
+   "name": "Amonkhet Remastered",
+   "printings": 339,
+   "english_paper": 0,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "ala": {
+   "name": "Shards of Alara",
+   "printings": 250,
+   "english_paper": 250,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "alci": {
+   "name": "The Lost Caverns of Ixalan Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "all": {
+   "name": "Alliances",
+   "printings": 199,
+   "english_paper": 199,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "altc": {
+   "name": "Tales of Middle-earth Scene Box",
+   "printings": 24,
+   "english_paper": 24,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "altr": {
+   "name": "Tales of Middle-earth Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "amh1": {
+   "name": "Modern Horizons Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-002.jsonl"
+   ]
+  },
+  "amh2": {
+   "name": "Modern Horizons 2 Art Series",
+   "printings": 162,
+   "english_paper": 162,
+   "files": [
+    "a-002.jsonl",
+    "a-003.jsonl"
+   ]
+  },
+  "amh3": {
+   "name": "Modern Horizons 3 Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "amid": {
+   "name": "Midnight Hunt Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "amkm": {
+   "name": "Murders at Karlov Manor Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "amom": {
+   "name": "March of the Machine Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "amsh": {
+   "name": "Marvel Super Heroes Art Series",
+   "printings": 66,
+   "english_paper": 66,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "ana": {
+   "name": "Arena New Player Experience",
+   "printings": 49,
+   "english_paper": 0,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "anb": {
+   "name": "Arena Beginner Set",
+   "printings": 118,
+   "english_paper": 0,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "aneo": {
+   "name": "Neon Dynasty Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "aone": {
+   "name": "Phyrexia: All Will Be One Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "aotj": {
+   "name": "Outlaws of Thunder Junction Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "apc": {
+   "name": "Apocalypse",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "arb": {
+   "name": "Alara Reborn",
+   "printings": 145,
+   "english_paper": 145,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "arc": {
+   "name": "Archenemy",
+   "printings": 150,
+   "english_paper": 150,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "arn": {
+   "name": "Arabian Nights",
+   "printings": 92,
+   "english_paper": 92,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "asnc": {
+   "name": "New Capenna Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-003.jsonl"
+   ]
+  },
+  "asos": {
+   "name": "Secrets of Strixhaven Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-003.jsonl",
+    "a-004.jsonl"
+   ]
+  },
+  "aspm": {
+   "name": "Marvel's Spider-Man Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "astx": {
+   "name": "Strixhaven Art Series",
+   "printings": 162,
+   "english_paper": 162,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "atdm": {
+   "name": "Tarkir: Dragonstorm Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "ath": {
+   "name": "Anthologies",
+   "printings": 85,
+   "english_paper": 85,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "atla": {
+   "name": "Avatar: the Last Airbender Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "atle": {
+   "name": "Avatar: the Last Airbender Eternal Art Series",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "atmt": {
+   "name": "Teenage Mutant Ninja Turtles Art Series",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "atq": {
+   "name": "Antiquities",
+   "printings": 102,
+   "english_paper": 102,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "avow": {
+   "name": "Crimson Vow Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "avr": {
+   "name": "Avacyn Restored",
+   "printings": 244,
+   "english_paper": 244,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "awoe": {
+   "name": "Wilds of Eldraine Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "aznr": {
+   "name": "Zendikar Rising Art Series",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "a-004.jsonl"
+   ]
+  },
+  "bbd": {
+   "name": "Battlebond",
+   "printings": 256,
+   "english_paper": 256,
+   "files": [
+    "b-000.jsonl"
+   ]
+  },
+  "bchr": {
+   "name": "Chronicles Foreign Black Border",
+   "printings": 125,
+   "english_paper": 0,
+   "files": [
+    "b-000.jsonl"
+   ]
+  },
+  "bfz": {
+   "name": "Battle for Zendikar",
+   "printings": 299,
+   "english_paper": 299,
+   "files": [
+    "b-000.jsonl"
+   ]
+  },
+  "big": {
+   "name": "The Big Score",
+   "printings": 95,
+   "english_paper": 95,
+   "files": [
+    "b-000.jsonl"
+   ]
+  },
+  "blb": {
+   "name": "Bloomburrow",
+   "printings": 397,
+   "english_paper": 397,
+   "files": [
+    "b-000.jsonl"
+   ]
+  },
+  "blc": {
+   "name": "Bloomburrow Commander",
+   "printings": 356,
+   "english_paper": 356,
+   "files": [
+    "b-000.jsonl",
+    "b-001.jsonl"
+   ]
+  },
+  "bng": {
+   "name": "Born of the Gods",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "bok": {
+   "name": "Betrayers of Kamigawa",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "bot": {
+   "name": "Transformers",
+   "printings": 29,
+   "english_paper": 29,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "brb": {
+   "name": "Battle Royale Box Set",
+   "printings": 136,
+   "english_paper": 136,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "brc": {
+   "name": "The Brothers' War Commander",
+   "printings": 209,
+   "english_paper": 209,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "bro": {
+   "name": "The Brothers' War",
+   "printings": 387,
+   "english_paper": 387,
+   "files": [
+    "b-001.jsonl"
+   ]
+  },
+  "brr": {
+   "name": "The Brothers' War Retro Artifacts",
+   "printings": 189,
+   "english_paper": 189,
+   "files": [
+    "b-001.jsonl",
+    "b-002.jsonl"
+   ]
+  },
+  "btd": {
+   "name": "Beatdown Box Set",
+   "printings": 90,
+   "english_paper": 90,
+   "files": [
+    "b-002.jsonl"
+   ]
+  },
+  "c13": {
+   "name": "Commander 2013",
+   "printings": 356,
+   "english_paper": 356,
+   "files": [
+    "c-000.jsonl"
+   ]
+  },
+  "c14": {
+   "name": "Commander 2014",
+   "printings": 337,
+   "english_paper": 337,
+   "files": [
+    "c-000.jsonl"
+   ]
+  },
+  "c15": {
+   "name": "Commander 2015",
+   "printings": 342,
+   "english_paper": 342,
+   "files": [
+    "c-000.jsonl"
+   ]
+  },
+  "c16": {
+   "name": "Commander 2016",
+   "printings": 351,
+   "english_paper": 351,
+   "files": [
+    "c-000.jsonl"
+   ]
+  },
+  "c17": {
+   "name": "Commander 2017",
+   "printings": 309,
+   "english_paper": 309,
+   "files": [
+    "c-000.jsonl",
+    "c-001.jsonl"
+   ]
+  },
+  "c18": {
+   "name": "Commander 2018",
+   "printings": 307,
+   "english_paper": 307,
+   "files": [
+    "c-001.jsonl"
+   ]
+  },
+  "c19": {
+   "name": "Commander 2019",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "c-001.jsonl"
+   ]
+  },
+  "c20": {
+   "name": "Commander 2020",
+   "printings": 322,
+   "english_paper": 322,
+   "files": [
+    "c-001.jsonl"
+   ]
+  },
+  "c21": {
+   "name": "Commander 2021",
+   "printings": 409,
+   "english_paper": 409,
+   "files": [
+    "c-001.jsonl",
+    "c-002.jsonl"
+   ]
+  },
+  "cc1": {
+   "name": "Commander Collection: Green",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "cc2": {
+   "name": "Commander Collection: Black",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "ced": {
+   "name": "Collectors' Edition",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "cei": {
+   "name": "Intl. Collectors' Edition",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "chk": {
+   "name": "Champions of Kamigawa",
+   "printings": 307,
+   "english_paper": 307,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "chr": {
+   "name": "Chronicles",
+   "printings": 125,
+   "english_paper": 125,
+   "files": [
+    "c-002.jsonl"
+   ]
+  },
+  "clb": {
+   "name": "Commander Legends: Battle for Baldur's Gate",
+   "printings": 936,
+   "english_paper": 936,
+   "files": [
+    "c-002.jsonl",
+    "c-003.jsonl"
+   ]
+  },
+  "clu": {
+   "name": "Ravnica: Clue Edition",
+   "printings": 284,
+   "english_paper": 284,
+   "files": [
+    "c-003.jsonl"
+   ]
+  },
+  "cm1": {
+   "name": "Commander's Arsenal",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "c-003.jsonl"
+   ]
+  },
+  "cm2": {
+   "name": "Commander Anthology Volume II",
+   "printings": 312,
+   "english_paper": 312,
+   "files": [
+    "c-003.jsonl"
+   ]
+  },
+  "cma": {
+   "name": "Commander Anthology",
+   "printings": 320,
+   "english_paper": 320,
+   "files": [
+    "c-003.jsonl",
+    "c-004.jsonl"
+   ]
+  },
+  "cmb1": {
+   "name": "Mystery Booster Playtest Cards 2019",
+   "printings": 121,
+   "english_paper": 121,
+   "files": [
+    "c-004.jsonl"
+   ]
+  },
+  "cmb2": {
+   "name": "Mystery Booster Playtest Cards 2021",
+   "printings": 121,
+   "english_paper": 121,
+   "files": [
+    "c-004.jsonl"
+   ]
+  },
+  "cmd": {
+   "name": "Commander 2011",
+   "printings": 318,
+   "english_paper": 318,
+   "files": [
+    "c-004.jsonl"
+   ]
+  },
+  "cmm": {
+   "name": "Commander Masters",
+   "printings": 1067,
+   "english_paper": 1067,
+   "files": [
+    "c-004.jsonl",
+    "c-005.jsonl"
+   ]
+  },
+  "cmr": {
+   "name": "Commander Legends",
+   "printings": 718,
+   "english_paper": 718,
+   "files": [
+    "c-005.jsonl"
+   ]
+  },
+  "cn2": {
+   "name": "Conspiracy: Take the Crown",
+   "printings": 222,
+   "english_paper": 222,
+   "files": [
+    "c-005.jsonl",
+    "c-006.jsonl"
+   ]
+  },
+  "cns": {
+   "name": "Conspiracy",
+   "printings": 210,
+   "english_paper": 210,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "con": {
+   "name": "Conflux",
+   "printings": 145,
+   "english_paper": 145,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "cp1": {
+   "name": "Magic 2015 Clash Pack",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "cp2": {
+   "name": "Fate Reforged Clash Pack",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "cp3": {
+   "name": "Magic Origins Clash Pack",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "csp": {
+   "name": "Coldsnap",
+   "printings": 155,
+   "english_paper": 155,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "cst": {
+   "name": "Coldsnap Theme Decks",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "c-006.jsonl"
+   ]
+  },
+  "dbl": {
+   "name": "Innistrad: Double Feature",
+   "printings": 535,
+   "english_paper": 535,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "dci": {
+   "name": "DCI Promos",
+   "printings": 80,
+   "english_paper": 79,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "dd1": {
+   "name": "Duel Decks: Elves vs. Goblins",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "dd2": {
+   "name": "Duel Decks: Jace vs. Chandra",
+   "printings": 64,
+   "english_paper": 62,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddc": {
+   "name": "Duel Decks: Divine vs. Demonic",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddd": {
+   "name": "Duel Decks: Garruk vs. Liliana",
+   "printings": 63,
+   "english_paper": 63,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "dde": {
+   "name": "Duel Decks: Phyrexia vs. the Coalition",
+   "printings": 71,
+   "english_paper": 71,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddf": {
+   "name": "Duel Decks: Elspeth vs. Tezzeret",
+   "printings": 79,
+   "english_paper": 79,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddg": {
+   "name": "Duel Decks: Knights vs. Dragons",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddh": {
+   "name": "Duel Decks: Ajani vs. Nicol Bolas",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddi": {
+   "name": "Duel Decks: Venser vs. Koth",
+   "printings": 77,
+   "english_paper": 77,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddj": {
+   "name": "Duel Decks: Izzet vs. Golgari",
+   "printings": 90,
+   "english_paper": 90,
+   "files": [
+    "d-000.jsonl"
+   ]
+  },
+  "ddk": {
+   "name": "Duel Decks: Sorin vs. Tibalt",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "d-000.jsonl",
+    "d-001.jsonl"
+   ]
+  },
+  "ddl": {
+   "name": "Duel Decks: Heroes vs. Monsters",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddm": {
+   "name": "Duel Decks: Jace vs. Vraska",
+   "printings": 88,
+   "english_paper": 88,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddn": {
+   "name": "Duel Decks: Speed vs. Cunning",
+   "printings": 82,
+   "english_paper": 82,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddo": {
+   "name": "Duel Decks: Elspeth vs. Kiora",
+   "printings": 67,
+   "english_paper": 67,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddp": {
+   "name": "Duel Decks: Zendikar vs. Eldrazi",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddq": {
+   "name": "Duel Decks: Blessed vs. Cursed",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddr": {
+   "name": "Duel Decks: Nissa vs. Ob Nixilis",
+   "printings": 76,
+   "english_paper": 76,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "dds": {
+   "name": "Duel Decks: Mind vs. Might",
+   "printings": 65,
+   "english_paper": 65,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddt": {
+   "name": "Duel Decks: Merfolk vs. Goblins",
+   "printings": 63,
+   "english_paper": 63,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "ddu": {
+   "name": "Duel Decks: Elves vs. Inventors",
+   "printings": 76,
+   "english_paper": 76,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "dft": {
+   "name": "Aetherdrift",
+   "printings": 553,
+   "english_paper": 553,
+   "files": [
+    "d-001.jsonl"
+   ]
+  },
+  "dgm": {
+   "name": "Dragon's Maze",
+   "printings": 156,
+   "english_paper": 156,
+   "files": [
+    "d-001.jsonl",
+    "d-002.jsonl"
+   ]
+  },
+  "dis": {
+   "name": "Dissension",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "d-002.jsonl"
+   ]
+  },
+  "dka": {
+   "name": "Dark Ascension",
+   "printings": 158,
+   "english_paper": 158,
+   "files": [
+    "d-002.jsonl"
+   ]
+  },
+  "dkm": {
+   "name": "Deckmasters",
+   "printings": 58,
+   "english_paper": 58,
+   "files": [
+    "d-002.jsonl"
+   ]
+  },
+  "dmc": {
+   "name": "Dominaria United Commander",
+   "printings": 240,
+   "english_paper": 240,
+   "files": [
+    "d-002.jsonl"
+   ]
+  },
+  "dmr": {
+   "name": "Dominaria Remastered",
+   "printings": 457,
+   "english_paper": 457,
+   "files": [
+    "d-002.jsonl"
+   ]
+  },
+  "dmu": {
+   "name": "Dominaria United",
+   "printings": 436,
+   "english_paper": 434,
+   "files": [
+    "d-002.jsonl",
+    "d-003.jsonl"
+   ]
+  },
+  "dom": {
+   "name": "Dominaria",
+   "printings": 280,
+   "english_paper": 280,
+   "files": [
+    "d-003.jsonl"
+   ]
+  },
+  "dpa": {
+   "name": "Duels of the Planeswalkers",
+   "printings": 113,
+   "english_paper": 113,
+   "files": [
+    "d-003.jsonl"
+   ]
+  },
+  "drb": {
+   "name": "From the Vault: Dragons",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "d-003.jsonl"
+   ]
+  },
+  "drc": {
+   "name": "Aetherdrift Commander",
+   "printings": 184,
+   "english_paper": 184,
+   "files": [
+    "d-003.jsonl"
+   ]
+  },
+  "drk": {
+   "name": "The Dark",
+   "printings": 122,
+   "english_paper": 122,
+   "files": [
+    "d-003.jsonl"
+   ]
+  },
+  "dsc": {
+   "name": "Duskmourn: House of Horror Commander",
+   "printings": 373,
+   "english_paper": 373,
+   "files": [
+    "d-003.jsonl",
+    "d-004.jsonl"
+   ]
+  },
+  "dsk": {
+   "name": "Duskmourn: House of Horror",
+   "printings": 417,
+   "english_paper": 417,
+   "files": [
+    "d-004.jsonl"
+   ]
+  },
+  "dst": {
+   "name": "Darksteel",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "d-004.jsonl"
+   ]
+  },
+  "dtk": {
+   "name": "Dragons of Tarkir",
+   "printings": 264,
+   "english_paper": 264,
+   "files": [
+    "d-004.jsonl"
+   ]
+  },
+  "dvd": {
+   "name": "Duel Decks Anthology: Divine vs. Demonic",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "d-004.jsonl"
+   ]
+  },
+  "e01": {
+   "name": "Archenemy: Nicol Bolas",
+   "printings": 106,
+   "english_paper": 106,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "e02": {
+   "name": "Explorers of Ixalan",
+   "printings": 48,
+   "english_paper": 48,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ea1": {
+   "name": "Explorer Anthology 1",
+   "printings": 20,
+   "english_paper": 0,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ea2": {
+   "name": "Explorer Anthology 2",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ea3": {
+   "name": "Explorer Anthology 3",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ecc": {
+   "name": "Lorwyn Eclipsed Commander",
+   "printings": 176,
+   "english_paper": 176,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ecl": {
+   "name": "Lorwyn Eclipsed",
+   "printings": 408,
+   "english_paper": 408,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "eld": {
+   "name": "Throne of Eldraine",
+   "printings": 397,
+   "english_paper": 397,
+   "files": [
+    "e-000.jsonl"
+   ]
+  },
+  "ema": {
+   "name": "Eternal Masters",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "e-000.jsonl",
+    "e-001.jsonl"
+   ]
+  },
+  "emn": {
+   "name": "Eldritch Moon",
+   "printings": 208,
+   "english_paper": 208,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "eoc": {
+   "name": "Edge of Eternities Commander",
+   "printings": 191,
+   "english_paper": 191,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "eoe": {
+   "name": "Edge of Eternities",
+   "printings": 400,
+   "english_paper": 400,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "eos": {
+   "name": "Edge of Eternities: Stellar Sights",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "eve": {
+   "name": "Eventide",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "evg": {
+   "name": "Duel Decks Anthology: Elves vs. Goblins",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "e-001.jsonl"
+   ]
+  },
+  "exo": {
+   "name": "Exodus",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "e-001.jsonl",
+    "e-002.jsonl"
+   ]
+  },
+  "exp": {
+   "name": "Zendikar Expeditions",
+   "printings": 45,
+   "english_paper": 45,
+   "files": [
+    "e-002.jsonl"
+   ]
+  },
+  "f01": {
+   "name": "Friday Night Magic 2001",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f02": {
+   "name": "Friday Night Magic 2002",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f03": {
+   "name": "Friday Night Magic 2003",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f04": {
+   "name": "Friday Night Magic 2004",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f05": {
+   "name": "Friday Night Magic 2005",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f06": {
+   "name": "Friday Night Magic 2006",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f07": {
+   "name": "Friday Night Magic 2007",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f08": {
+   "name": "Friday Night Magic 2008",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f09": {
+   "name": "Friday Night Magic 2009",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f10": {
+   "name": "Friday Night Magic 2010",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f11": {
+   "name": "Friday Night Magic 2011",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f12": {
+   "name": "Friday Night Magic 2012",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f13": {
+   "name": "Friday Night Magic 2013",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f14": {
+   "name": "Friday Night Magic 2014",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f15": {
+   "name": "Friday Night Magic 2015",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f16": {
+   "name": "Friday Night Magic 2016",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f17": {
+   "name": "Friday Night Magic 2017",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "f18": {
+   "name": "Friday Night Magic 2018",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fbb": {
+   "name": "Foreign Black Border",
+   "printings": 307,
+   "english_paper": 0,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fbro": {
+   "name": "The Brothers' War Jumpstart Front Cards",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fca": {
+   "name": "Final Fantasy: Through the Ages",
+   "printings": 65,
+   "english_paper": 65,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fclu": {
+   "name": "Ravnica: Clue Edition Front Cards",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fdc": {
+   "name": "Foundations Commander",
+   "printings": 319,
+   "english_paper": 319,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fdmu": {
+   "name": "Dominaria United Jumpstart Front Cards",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "f-000.jsonl"
+   ]
+  },
+  "fdn": {
+   "name": "Foundations",
+   "printings": 771,
+   "english_paper": 771,
+   "files": [
+    "f-000.jsonl",
+    "f-001.jsonl"
+   ]
+  },
+  "fem": {
+   "name": "Fallen Empires",
+   "printings": 187,
+   "english_paper": 187,
+   "files": [
+    "f-001.jsonl"
+   ]
+  },
+  "ffdn": {
+   "name": "Foundations Front Cards",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "f-001.jsonl"
+   ]
+  },
+  "fic": {
+   "name": "Final Fantasy Commander",
+   "printings": 486,
+   "english_paper": 486,
+   "files": [
+    "f-001.jsonl"
+   ]
+  },
+  "fin": {
+   "name": "Final Fantasy",
+   "printings": 598,
+   "english_paper": 597,
+   "files": [
+    "f-001.jsonl",
+    "f-002.jsonl"
+   ]
+  },
+  "fj22": {
+   "name": "Jumpstart 2022 Front Cards",
+   "printings": 46,
+   "english_paper": 46,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fj25": {
+   "name": "Foundations Jumpstart Front Cards",
+   "printings": 46,
+   "english_paper": 46,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fjmp": {
+   "name": "Jumpstart Front Cards",
+   "printings": 46,
+   "english_paper": 46,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fltr": {
+   "name": "Tales of Middle-earth Front Cards",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fmom": {
+   "name": "March of the Machine Jumpstart Front Cards",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fmsc": {
+   "name": "Marvel Super Heroes Jumpstart Front Cards",
+   "printings": 61,
+   "english_paper": 61,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fnm": {
+   "name": "Friday Night Magic 2000",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fone": {
+   "name": "Phyrexia: All Will Be One Jumpstart Front Cards",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fra": {
+   "name": "Reality Fracture",
+   "printings": 462,
+   "english_paper": 462,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "frc": {
+   "name": "Reality Fracture Commander",
+   "printings": 103,
+   "english_paper": 103,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "frf": {
+   "name": "Fate Reforged",
+   "printings": 191,
+   "english_paper": 191,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "ftla": {
+   "name": "Avatar: The Last Airbender Beginner Box Front Cards",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "ftmc": {
+   "name": "Teenage Mutant Ninja Turtles Eternal Front Cards",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "f-002.jsonl"
+   ]
+  },
+  "fut": {
+   "name": "Future Sight",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "f-002.jsonl",
+    "f-003.jsonl"
+   ]
+  },
+  "g00": {
+   "name": "Judge Gift Cards 2000",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g01": {
+   "name": "Judge Gift Cards 2001",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g02": {
+   "name": "Judge Gift Cards 2002",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g03": {
+   "name": "Judge Gift Cards 2003",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g04": {
+   "name": "Judge Gift Cards 2004",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g05": {
+   "name": "Judge Gift Cards 2005",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g06": {
+   "name": "Judge Gift Cards 2006",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g07": {
+   "name": "Judge Gift Cards 2007",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g08": {
+   "name": "Judge Gift Cards 2008",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g09": {
+   "name": "Judge Gift Cards 2009",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g10": {
+   "name": "Judge Gift Cards 2010",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g11": {
+   "name": "Judge Gift Cards 2011",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g17": {
+   "name": "2017 Gift Pack",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g18": {
+   "name": "M19 Gift Pack",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "g99": {
+   "name": "Judge Gift Cards 1999",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gdy": {
+   "name": "Game Day Promos",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gk1": {
+   "name": "GRN Guild Kit",
+   "printings": 127,
+   "english_paper": 127,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gk2": {
+   "name": "RNA Guild Kit",
+   "printings": 133,
+   "english_paper": 133,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gn2": {
+   "name": "Game Night 2019",
+   "printings": 64,
+   "english_paper": 64,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gn3": {
+   "name": "Game Night: Free-for-All",
+   "printings": 135,
+   "english_paper": 135,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gnt": {
+   "name": "Game Night",
+   "printings": 68,
+   "english_paper": 68,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gpt": {
+   "name": "Guildpact",
+   "printings": 167,
+   "english_paper": 167,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "grn": {
+   "name": "Guilds of Ravnica",
+   "printings": 273,
+   "english_paper": 273,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gs1": {
+   "name": "Global Series Jiang Yanggu & Mu Yanling",
+   "printings": 41,
+   "english_paper": 41,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gtc": {
+   "name": "Gatecrash",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "g-000.jsonl"
+   ]
+  },
+  "gvl": {
+   "name": "Duel Decks Anthology: Garruk vs. Liliana",
+   "printings": 63,
+   "english_paper": 63,
+   "files": [
+    "g-000.jsonl",
+    "g-001.jsonl"
+   ]
+  },
+  "h09": {
+   "name": "Premium Deck Series: Slivers",
+   "printings": 41,
+   "english_paper": 41,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "h17": {
+   "name": "HasCon 2017",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "h1r": {
+   "name": "Modern Horizons 1 Timeshifts",
+   "printings": 40,
+   "english_paper": 40,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "h2r": {
+   "name": "Modern Horizons 2 Timeshifts",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha1": {
+   "name": "Historic Anthology 1",
+   "printings": 20,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha2": {
+   "name": "Historic Anthology 2",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha3": {
+   "name": "Historic Anthology 3",
+   "printings": 27,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha4": {
+   "name": "Historic Anthology 4",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha5": {
+   "name": "Historic Anthology 5",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha6": {
+   "name": "Historic Anthology 6",
+   "printings": 20,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "ha7": {
+   "name": "Historic Anthology 7",
+   "printings": 25,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hbg": {
+   "name": "Alchemy Horizons: Baldur's Gate",
+   "printings": 408,
+   "english_paper": 0,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hho": {
+   "name": "Happy Holidays",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hml": {
+   "name": "Homelands",
+   "printings": 140,
+   "english_paper": 140,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hob": {
+   "name": "The Hobbit",
+   "printings": 321,
+   "english_paper": 321,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hoc": {
+   "name": "The Hobbit Eternal",
+   "printings": 158,
+   "english_paper": 153,
+   "files": [
+    "h-000.jsonl"
+   ]
+  },
+  "hop": {
+   "name": "Planechase",
+   "printings": 169,
+   "english_paper": 169,
+   "files": [
+    "h-000.jsonl",
+    "h-001.jsonl"
+   ]
+  },
+  "hou": {
+   "name": "Hour of Devastation",
+   "printings": 209,
+   "english_paper": 209,
+   "files": [
+    "h-001.jsonl"
+   ]
+  },
+  "ice": {
+   "name": "Ice Age",
+   "printings": 383,
+   "english_paper": 383,
+   "files": [
+    "i-000.jsonl"
+   ]
+  },
+  "iko": {
+   "name": "Ikoria: Lair of Behemoths",
+   "printings": 389,
+   "english_paper": 384,
+   "files": [
+    "i-000.jsonl"
+   ]
+  },
+  "ima": {
+   "name": "Iconic Masters",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "i-000.jsonl"
+   ]
+  },
+  "inr": {
+   "name": "Innistrad Remastered",
+   "printings": 495,
+   "english_paper": 495,
+   "files": [
+    "i-000.jsonl",
+    "i-001.jsonl"
+   ]
+  },
+  "inv": {
+   "name": "Invasion",
+   "printings": 354,
+   "english_paper": 352,
+   "files": [
+    "i-001.jsonl"
+   ]
+  },
+  "isd": {
+   "name": "Innistrad",
+   "printings": 264,
+   "english_paper": 264,
+   "files": [
+    "i-001.jsonl"
+   ]
+  },
+  "itp": {
+   "name": "Introductory Two-Player Set",
+   "printings": 67,
+   "english_paper": 67,
+   "files": [
+    "i-001.jsonl"
+   ]
+  },
+  "j12": {
+   "name": "Judge Gift Cards 2012",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j13": {
+   "name": "Judge Gift Cards 2013",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j14": {
+   "name": "Judge Gift Cards 2014",
+   "printings": 14,
+   "english_paper": 13,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j15": {
+   "name": "Judge Gift Cards 2015",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j16": {
+   "name": "Judge Gift Cards 2016",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j17": {
+   "name": "Judge Gift Cards 2017",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j18": {
+   "name": "Judge Gift Cards 2018",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j19": {
+   "name": "Judge Gift Cards 2019",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j20": {
+   "name": "Judge Gift Cards 2020",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j21": {
+   "name": "Jumpstart: Historic Horizons",
+   "printings": 389,
+   "english_paper": 0,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j22": {
+   "name": "Jumpstart 2022",
+   "printings": 835,
+   "english_paper": 835,
+   "files": [
+    "j-000.jsonl"
+   ]
+  },
+  "j25": {
+   "name": "Foundations Jumpstart",
+   "printings": 779,
+   "english_paper": 779,
+   "files": [
+    "j-000.jsonl",
+    "j-001.jsonl"
+   ]
+  },
+  "jgp": {
+   "name": "Judge Gift Cards 1998",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "j-001.jsonl"
+   ]
+  },
+  "jmp": {
+   "name": "Jumpstart",
+   "printings": 496,
+   "english_paper": 495,
+   "files": [
+    "j-001.jsonl"
+   ]
+  },
+  "jou": {
+   "name": "Journey into Nyx",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "j-001.jsonl",
+    "j-002.jsonl"
+   ]
+  },
+  "jp1": {
+   "name": "Hobby Japan Promos",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "j-002.jsonl"
+   ]
+  },
+  "jtla": {
+   "name": "Avatar: The Last Airbender Jumpstart Front Cards",
+   "printings": 46,
+   "english_paper": 46,
+   "files": [
+    "j-002.jsonl"
+   ]
+  },
+  "jud": {
+   "name": "Judgment",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "j-002.jsonl"
+   ]
+  },
+  "jvc": {
+   "name": "Duel Decks Anthology: Jace vs. Chandra",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "j-002.jsonl"
+   ]
+  },
+  "khc": {
+   "name": "Kaldheim Commander",
+   "printings": 119,
+   "english_paper": 119,
+   "files": [
+    "k-000.jsonl"
+   ]
+  },
+  "khm": {
+   "name": "Kaldheim",
+   "printings": 407,
+   "english_paper": 406,
+   "files": [
+    "k-000.jsonl"
+   ]
+  },
+  "kld": {
+   "name": "Kaladesh",
+   "printings": 278,
+   "english_paper": 278,
+   "files": [
+    "k-000.jsonl"
+   ]
+  },
+  "klr": {
+   "name": "Kaladesh Remastered",
+   "printings": 302,
+   "english_paper": 0,
+   "files": [
+    "k-000.jsonl"
+   ]
+  },
+  "ktk": {
+   "name": "Khans of Tarkir",
+   "printings": 293,
+   "english_paper": 269,
+   "files": [
+    "k-000.jsonl",
+    "k-001.jsonl"
+   ]
+  },
+  "l12": {
+   "name": "League Tokens 2012",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "l13": {
+   "name": "League Tokens 2013",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "l14": {
+   "name": "League Tokens 2014",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "l15": {
+   "name": "League Tokens 2015",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "l16": {
+   "name": "League Tokens 2016",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "l17": {
+   "name": "League Tokens 2017",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "lcc": {
+   "name": "The Lost Caverns of Ixalan Commander",
+   "printings": 370,
+   "english_paper": 370,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "lci": {
+   "name": "The Lost Caverns of Ixalan",
+   "printings": 415,
+   "english_paper": 415,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "lea": {
+   "name": "Limited Edition Alpha",
+   "printings": 295,
+   "english_paper": 295,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "leb": {
+   "name": "Limited Edition Beta",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "l-000.jsonl"
+   ]
+  },
+  "leg": {
+   "name": "Legends",
+   "printings": 310,
+   "english_paper": 310,
+   "files": [
+    "l-000.jsonl",
+    "l-001.jsonl"
+   ]
+  },
+  "lgn": {
+   "name": "Legions",
+   "printings": 145,
+   "english_paper": 145,
+   "files": [
+    "l-001.jsonl"
+   ]
+  },
+  "lmar": {
+   "name": "Marvel Legends Series Inserts",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "l-001.jsonl"
+   ]
+  },
+  "lrw": {
+   "name": "Lorwyn",
+   "printings": 301,
+   "english_paper": 301,
+   "files": [
+    "l-001.jsonl"
+   ]
+  },
+  "ltc": {
+   "name": "Tales of Middle-earth Commander",
+   "printings": 591,
+   "english_paper": 585,
+   "files": [
+    "l-001.jsonl",
+    "l-002.jsonl"
+   ]
+  },
+  "ltr": {
+   "name": "The Lord of the Rings: Tales of Middle-earth",
+   "printings": 854,
+   "english_paper": 853,
+   "files": [
+    "l-002.jsonl"
+   ]
+  },
+  "m10": {
+   "name": "Magic 2010",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-000.jsonl"
+   ]
+  },
+  "m11": {
+   "name": "Magic 2011",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-000.jsonl"
+   ]
+  },
+  "m12": {
+   "name": "Magic 2012",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-000.jsonl"
+   ]
+  },
+  "m13": {
+   "name": "Magic 2013",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-000.jsonl"
+   ]
+  },
+  "m14": {
+   "name": "Magic 2014",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-000.jsonl"
+   ]
+  },
+  "m15": {
+   "name": "Magic 2015",
+   "printings": 284,
+   "english_paper": 284,
+   "files": [
+    "m-000.jsonl",
+    "m-001.jsonl"
+   ]
+  },
+  "m19": {
+   "name": "Core Set 2019",
+   "printings": 314,
+   "english_paper": 314,
+   "files": [
+    "m-001.jsonl"
+   ]
+  },
+  "m20": {
+   "name": "Core Set 2020",
+   "printings": 345,
+   "english_paper": 345,
+   "files": [
+    "m-001.jsonl"
+   ]
+  },
+  "m21": {
+   "name": "Core Set 2021",
+   "printings": 397,
+   "english_paper": 397,
+   "files": [
+    "m-001.jsonl"
+   ]
+  },
+  "m3c": {
+   "name": "Modern Horizons 3 Commander",
+   "printings": 398,
+   "english_paper": 398,
+   "files": [
+    "m-001.jsonl",
+    "m-002.jsonl"
+   ]
+  },
+  "macr": {
+   "name": "Assassin's Creed Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mafr": {
+   "name": "Adventures in the Forgotten Realms Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mar": {
+   "name": "Marvel Universe",
+   "printings": 100,
+   "english_paper": 100,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mat": {
+   "name": "March of the Machine: The Aftermath",
+   "printings": 230,
+   "english_paper": 230,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mb2": {
+   "name": "Mystery Booster 2",
+   "printings": 385,
+   "english_paper": 385,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mbc": {
+   "name": "Mystery Booster Commander Edition",
+   "printings": 80,
+   "english_paper": 77,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mbro": {
+   "name": "The Brothers' War Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mbs": {
+   "name": "Mirrodin Besieged",
+   "printings": 155,
+   "english_paper": 155,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mclb": {
+   "name": "Commander Legends: Battle for Baldur's Gate Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "md1": {
+   "name": "Modern Event Deck 2014",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mdc": {
+   "name": "Darkhold Destiny Commander",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mdd": {
+   "name": "Marvel: Darkhold Destiny",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "mdmu": {
+   "name": "Dominaria United Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-002.jsonl"
+   ]
+  },
+  "me1": {
+   "name": "Masters Edition",
+   "printings": 195,
+   "english_paper": 0,
+   "files": [
+    "m-002.jsonl",
+    "m-003.jsonl"
+   ]
+  },
+  "me2": {
+   "name": "Masters Edition II",
+   "printings": 245,
+   "english_paper": 0,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "me3": {
+   "name": "Masters Edition III",
+   "printings": 230,
+   "english_paper": 0,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "me4": {
+   "name": "Masters Edition IV",
+   "printings": 269,
+   "english_paper": 0,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "med": {
+   "name": "Mythic Edition",
+   "printings": 24,
+   "english_paper": 24,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "mgb": {
+   "name": "Multiverse Gift Box",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "mh1": {
+   "name": "Modern Horizons",
+   "printings": 255,
+   "english_paper": 255,
+   "files": [
+    "m-003.jsonl"
+   ]
+  },
+  "mh2": {
+   "name": "Modern Horizons 2",
+   "printings": 492,
+   "english_paper": 492,
+   "files": [
+    "m-003.jsonl",
+    "m-004.jsonl"
+   ]
+  },
+  "mh3": {
+   "name": "Modern Horizons 3",
+   "printings": 524,
+   "english_paper": 524,
+   "files": [
+    "m-004.jsonl"
+   ]
+  },
+  "mic": {
+   "name": "Midnight Hunt Commander",
+   "printings": 187,
+   "english_paper": 187,
+   "files": [
+    "m-004.jsonl"
+   ]
+  },
+  "mid": {
+   "name": "Innistrad: Midnight Hunt",
+   "printings": 392,
+   "english_paper": 391,
+   "files": [
+    "m-004.jsonl"
+   ]
+  },
+  "mir": {
+   "name": "Mirage",
+   "printings": 353,
+   "english_paper": 351,
+   "files": [
+    "m-004.jsonl",
+    "m-005.jsonl"
+   ]
+  },
+  "mkc": {
+   "name": "Murders at Karlov Manor Commander",
+   "printings": 358,
+   "english_paper": 358,
+   "files": [
+    "m-005.jsonl"
+   ]
+  },
+  "mkhm": {
+   "name": "Kaldheim Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-005.jsonl"
+   ]
+  },
+  "mkm": {
+   "name": "Murders at Karlov Manor",
+   "printings": 451,
+   "english_paper": 451,
+   "files": [
+    "m-005.jsonl"
+   ]
+  },
+  "mltr": {
+   "name": "The Lord of the Rings: Tales of Middle-earth Minigames",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "m-005.jsonl"
+   ]
+  },
+  "mm2": {
+   "name": "Modern Masters 2015",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-005.jsonl"
+   ]
+  },
+  "mm3": {
+   "name": "Modern Masters 2017",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "m-005.jsonl",
+    "m-006.jsonl"
+   ]
+  },
+  "mma": {
+   "name": "Modern Masters",
+   "printings": 229,
+   "english_paper": 229,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "mmh2": {
+   "name": "Modern Horizons 2 Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "mmid": {
+   "name": "Innistrad: Midnight Hunt Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "mmq": {
+   "name": "Mercadian Masques",
+   "printings": 350,
+   "english_paper": 350,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "mneo": {
+   "name": "Kamigawa: Neon Dynasty Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "moc": {
+   "name": "March of the Machine Commander",
+   "printings": 450,
+   "english_paper": 450,
+   "files": [
+    "m-006.jsonl"
+   ]
+  },
+  "mom": {
+   "name": "March of the Machine",
+   "printings": 387,
+   "english_paper": 387,
+   "files": [
+    "m-006.jsonl",
+    "m-007.jsonl"
+   ]
+  },
+  "mone": {
+   "name": "Phyrexia: All Will Be One Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "mor": {
+   "name": "Morningtide",
+   "printings": 150,
+   "english_paper": 150,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "mp2": {
+   "name": "Amonkhet Invocations",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "mpr": {
+   "name": "Magic Player Rewards 2001",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "mps": {
+   "name": "Kaladesh Inventions",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "mrd": {
+   "name": "Mirrodin",
+   "printings": 306,
+   "english_paper": 306,
+   "files": [
+    "m-007.jsonl"
+   ]
+  },
+  "msc": {
+   "name": "Marvel Super Heroes Commander",
+   "printings": 866,
+   "english_paper": 866,
+   "files": [
+    "m-007.jsonl",
+    "m-008.jsonl"
+   ]
+  },
+  "msh": {
+   "name": "Marvel Super Heroes",
+   "printings": 453,
+   "english_paper": 453,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "msnc": {
+   "name": "Streets of New Capenna Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "mstx": {
+   "name": "Strixhaven: School of Mages Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "mul": {
+   "name": "Multiverse Legends",
+   "printings": 260,
+   "english_paper": 260,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "mvow": {
+   "name": "Innistrad: Crimson Vow Minigames",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "mznr": {
+   "name": "Zendikar Rising Minigames",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "m-008.jsonl"
+   ]
+  },
+  "ncc": {
+   "name": "New Capenna Commander",
+   "printings": 447,
+   "english_paper": 447,
+   "files": [
+    "n-000.jsonl"
+   ]
+  },
+  "nec": {
+   "name": "Neon Dynasty Commander",
+   "printings": 179,
+   "english_paper": 179,
+   "files": [
+    "n-000.jsonl"
+   ]
+  },
+  "nem": {
+   "name": "Nemesis",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "n-000.jsonl"
+   ]
+  },
+  "neo": {
+   "name": "Kamigawa: Neon Dynasty",
+   "printings": 515,
+   "english_paper": 501,
+   "files": [
+    "n-000.jsonl"
+   ]
+  },
+  "nph": {
+   "name": "New Phyrexia",
+   "printings": 175,
+   "english_paper": 175,
+   "files": [
+    "n-000.jsonl",
+    "n-001.jsonl"
+   ]
+  },
+  "o90p": {
+   "name": "Oversized 90's Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oafc": {
+   "name": "Forgotten Realms Commander Display Commanders",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oafr": {
+   "name": "Forgotten Realms Oversized Cards",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oana": {
+   "name": "Arena New Player Experience Cards",
+   "printings": 14,
+   "english_paper": 0,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oarc": {
+   "name": "Archenemy Schemes",
+   "printings": 45,
+   "english_paper": 45,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc13": {
+   "name": "Commander 2013 Oversized",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc14": {
+   "name": "Commander 2014 Oversized",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc15": {
+   "name": "Commander 2015 Oversized",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc16": {
+   "name": "Commander 2016 Oversized",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc17": {
+   "name": "Commander 2017 Oversized",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc18": {
+   "name": "Commander 2018 Oversized",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc19": {
+   "name": "Commander 2019 Oversized",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc20": {
+   "name": "Commander 2020 Oversized",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oc21": {
+   "name": "Commander 2021 Display Commanders",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oclb": {
+   "name": "Battle for Baldur's Gate Oversized Cards",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "ocm1": {
+   "name": "Commander's Arsenal Oversized",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "ocmd": {
+   "name": "Commander 2011 Oversized",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "ody": {
+   "name": "Odyssey",
+   "printings": 353,
+   "english_paper": 352,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "oe01": {
+   "name": "Archenemy: Nicol Bolas Schemes",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "ogw": {
+   "name": "Oath of the Gatewatch",
+   "printings": 187,
+   "english_paper": 187,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "ohop": {
+   "name": "Planechase Planes",
+   "printings": 40,
+   "english_paper": 40,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "olep": {
+   "name": "Oversized League Prizes",
+   "printings": 83,
+   "english_paper": 83,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "olgc": {
+   "name": "Legacy Championship",
+   "printings": 27,
+   "english_paper": 27,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "om1": {
+   "name": "Through the Omenpaths",
+   "printings": 189,
+   "english_paper": 0,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "omb": {
+   "name": "Through the Omenpaths Bonus Sheet",
+   "printings": 40,
+   "english_paper": 0,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "omic": {
+   "name": "Midnight Hunt Commander Display Commanders",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "onc": {
+   "name": "Phyrexia: All Will Be One Commander",
+   "printings": 174,
+   "english_paper": 174,
+   "files": [
+    "o-000.jsonl"
+   ]
+  },
+  "one": {
+   "name": "Phyrexia: All Will Be One",
+   "printings": 479,
+   "english_paper": 456,
+   "files": [
+    "o-000.jsonl",
+    "o-001.jsonl"
+   ]
+  },
+  "ons": {
+   "name": "Onslaught",
+   "printings": 351,
+   "english_paper": 351,
+   "files": [
+    "o-001.jsonl"
+   ]
+  },
+  "opc2": {
+   "name": "Planechase 2012 Planes",
+   "printings": 40,
+   "english_paper": 40,
+   "files": [
+    "o-001.jsonl"
+   ]
+  },
+  "opca": {
+   "name": "Planechase Anthology Planes",
+   "printings": 86,
+   "english_paper": 86,
+   "files": [
+    "o-001.jsonl"
+   ]
+  },
+  "ori": {
+   "name": "Magic Origins",
+   "printings": 288,
+   "english_paper": 288,
+   "files": [
+    "o-001.jsonl"
+   ]
+  },
+  "otc": {
+   "name": "Outlaws of Thunder Junction Commander",
+   "printings": 342,
+   "english_paper": 342,
+   "files": [
+    "o-001.jsonl"
+   ]
+  },
+  "otj": {
+   "name": "Outlaws of Thunder Junction",
+   "printings": 374,
+   "english_paper": 374,
+   "files": [
+    "o-001.jsonl",
+    "o-002.jsonl"
+   ]
+  },
+  "otp": {
+   "name": "Breaking News",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "o-002.jsonl"
+   ]
+  },
+  "ovnt": {
+   "name": "Vintage Championship",
+   "printings": 35,
+   "english_paper": 35,
+   "files": [
+    "o-002.jsonl"
+   ]
+  },
+  "ovoc": {
+   "name": "Crimson Vow Commander Display Commanders",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "o-002.jsonl"
+   ]
+  },
+  "p02": {
+   "name": "Portal Second Age",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p03": {
+   "name": "Magic Player Rewards 2003",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p04": {
+   "name": "Magic Player Rewards 2004",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p05": {
+   "name": "Magic Player Rewards 2005",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p06": {
+   "name": "Magic Player Rewards 2006",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p07": {
+   "name": "Magic Player Rewards 2007",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p08": {
+   "name": "Magic Player Rewards 2008",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p09": {
+   "name": "Magic Player Rewards 2009",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p10": {
+   "name": "Magic Player Rewards 2010",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p10e": {
+   "name": "Tenth Edition Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p11": {
+   "name": "Magic Player Rewards 2011",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p15a": {
+   "name": "15th Anniversary Cards",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p22": {
+   "name": "Judge Gift Cards 2022",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p23": {
+   "name": "Judge Gift Cards 2023",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p2hg": {
+   "name": "Two-Headed Giant Tournament",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p30a": {
+   "name": "30th Anniversary Play Promos",
+   "printings": 30,
+   "english_paper": 23,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p30h": {
+   "name": "30th Anniversary History Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p30m": {
+   "name": "30th Anniversary Misc Promos",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p30t": {
+   "name": "30th Anniversary Celebration Tokyo",
+   "printings": 2,
+   "english_paper": 0,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p5dn": {
+   "name": "Fifth Dawn Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p8ed": {
+   "name": "Eighth Edition Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "p9ed": {
+   "name": "Ninth Edition Promos",
+   "printings": 2,
+   "english_paper": 1,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pa1": {
+   "name": "Pioneer Anthology 1",
+   "printings": 11,
+   "english_paper": 0,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "paer": {
+   "name": "Aether Revolt Promos",
+   "printings": 65,
+   "english_paper": 65,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pafr": {
+   "name": "Adventures in the Forgotten Realms Promos",
+   "printings": 241,
+   "english_paper": 241,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pakh": {
+   "name": "Amonkhet Promos",
+   "printings": 77,
+   "english_paper": 77,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal00": {
+   "name": "Arena League 2000",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal01": {
+   "name": "Arena League 2001",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal02": {
+   "name": "Arena League 2002",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal03": {
+   "name": "Arena League 2003",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal04": {
+   "name": "Arena League 2004",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal05": {
+   "name": "Arena League 2005",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal06": {
+   "name": "Arena League 2006",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pal99": {
+   "name": "Arena League 1999",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pala": {
+   "name": "Shards of Alara Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "palp": {
+   "name": "Asia Pacific Land Program",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pana": {
+   "name": "MTG Arena Promos",
+   "printings": 83,
+   "english_paper": 0,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "papc": {
+   "name": "Apocalypse Promos",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "parb": {
+   "name": "Alara Reborn Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "parl": {
+   "name": "Arena League 1996",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "past": {
+   "name": "Astral Cards",
+   "printings": 12,
+   "english_paper": 0,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pavr": {
+   "name": "Avacyn Restored Promos",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbbd": {
+   "name": "Battlebond Promos",
+   "printings": 22,
+   "english_paper": 22,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbfz": {
+   "name": "Battle for Zendikar Promos",
+   "printings": 90,
+   "english_paper": 90,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbig": {
+   "name": "The Big Score Promos",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pblb": {
+   "name": "Bloomburrow Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbng": {
+   "name": "Born of the Gods Promos",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbok": {
+   "name": "Betrayers of Kamigawa Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pbro": {
+   "name": "The Brothers' War Promos",
+   "printings": 171,
+   "english_paper": 171,
+   "files": [
+    "p-000.jsonl"
+   ]
+  },
+  "pc2": {
+   "name": "Planechase 2012",
+   "printings": 156,
+   "english_paper": 156,
+   "files": [
+    "p-000.jsonl",
+    "p-001.jsonl"
+   ]
+  },
+  "pca": {
+   "name": "Planechase Anthology",
+   "printings": 156,
+   "english_paper": 156,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcbb": {
+   "name": "Cowboy Bebop",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcel": {
+   "name": "Celebration Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pchk": {
+   "name": "Champions of Kamigawa Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pclb": {
+   "name": "Battle for Baldur's Gate Promos",
+   "printings": 104,
+   "english_paper": 104,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcmd": {
+   "name": "Commander 2011 Launch Party",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcmp": {
+   "name": "Champs and States",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcmr": {
+   "name": "Commander Legends Promos",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcns": {
+   "name": "Conspiracy Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcon": {
+   "name": "Conflux Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcsp": {
+   "name": "Coldsnap Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pcy": {
+   "name": "Prophecy",
+   "printings": 144,
+   "english_paper": 143,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pd2": {
+   "name": "Premium Deck Series: Fire and Lightning",
+   "printings": 34,
+   "english_paper": 34,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pd3": {
+   "name": "Premium Deck Series: Graveborn",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdft": {
+   "name": "Aetherdrift Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdgm": {
+   "name": "Dragon's Maze Promos",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdis": {
+   "name": "Dissension Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdka": {
+   "name": "Dark Ascension Promos",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdmu": {
+   "name": "Dominaria United Promos",
+   "printings": 161,
+   "english_paper": 161,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdom": {
+   "name": "Dominaria Promos",
+   "printings": 118,
+   "english_paper": 117,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdp10": {
+   "name": "Duels of the Planeswalkers 2010 Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdp12": {
+   "name": "Duels of the Planeswalkers 2012 Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdp13": {
+   "name": "Duels of the Planeswalkers 2013 Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdp14": {
+   "name": "Duels of the Planeswalkers 2014 Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdp15": {
+   "name": "Duels of the Planeswalkers 2015 Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdrc": {
+   "name": "Dragon Con",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdsk": {
+   "name": "Duskmourn: House of Horror Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdst": {
+   "name": "Darksteel Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdtk": {
+   "name": "Dragons of Tarkir Promos",
+   "printings": 51,
+   "english_paper": 51,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pdtp": {
+   "name": "Duels of the Planeswalkers 2009 Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "pecl": {
+   "name": "Lorwyn Eclipsed Promos",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "p-001.jsonl"
+   ]
+  },
+  "peld": {
+   "name": "Throne of Eldraine Promos",
+   "printings": 138,
+   "english_paper": 138,
+   "files": [
+    "p-001.jsonl",
+    "p-002.jsonl"
+   ]
+  },
+  "pelp": {
+   "name": "European Land Program",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pemn": {
+   "name": "Eldritch Moon Promos",
+   "printings": 77,
+   "english_paper": 77,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "peoe": {
+   "name": "Edge of Eternities Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "peve": {
+   "name": "Eventide Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pewk": {
+   "name": "Eternal Weekend",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pexo": {
+   "name": "Exodus Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf19": {
+   "name": "MagicFest 2019",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf20": {
+   "name": "MagicFest 2020",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf23": {
+   "name": "MagicFest 2023",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf24": {
+   "name": "MagicFest 2024",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf25": {
+   "name": "MagicFest 2025",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf26": {
+   "name": "MagicFest 2026",
+   "printings": 17,
+   "english_paper": 17,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pf27": {
+   "name": "MagicFest 2027",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pfdn": {
+   "name": "Foundations Promos",
+   "printings": 106,
+   "english_paper": 106,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pfin": {
+   "name": "Final Fantasy Promos",
+   "printings": 94,
+   "english_paper": 94,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pfra": {
+   "name": "Reality Fracture Promos",
+   "printings": 90,
+   "english_paper": 90,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pfrf": {
+   "name": "Fate Reforged Promos",
+   "printings": 43,
+   "english_paper": 43,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pfut": {
+   "name": "Future Sight Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pgpt": {
+   "name": "Guildpact Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pgpx": {
+   "name": "Grand Prix Promos",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pgrn": {
+   "name": "Guilds of Ravnica Promos",
+   "printings": 84,
+   "english_paper": 84,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pgru": {
+   "name": "Guru",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pgtc": {
+   "name": "Gatecrash Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph17": {
+   "name": "2017 Heroes of the Realm",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph18": {
+   "name": "2018 Heroes of the Realm",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph19": {
+   "name": "2019 Heroes of the Realm",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph20": {
+   "name": "2020 Heroes of the Realm",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph21": {
+   "name": "2021 Heroes of the Realm",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph22": {
+   "name": "2022 Heroes of the Realm",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "ph23": {
+   "name": "2023 Heroes of the Realm",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phel": {
+   "name": "Open the Helvault",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phop": {
+   "name": "Planechase Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phou": {
+   "name": "Hour of Devastation Promos",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phpr": {
+   "name": "HarperPrism Book Promos",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phtr": {
+   "name": "2016 Heroes of the Realm",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "phuk": {
+   "name": "Hachette UK",
+   "printings": 60,
+   "english_paper": 60,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pidw": {
+   "name": "IDW Comics Inserts",
+   "printings": 17,
+   "english_paper": 17,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "piko": {
+   "name": "Ikoria: Lair of Behemoths Promos",
+   "printings": 137,
+   "english_paper": 137,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pinv": {
+   "name": "Invasion Promos",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-002.jsonl"
+   ]
+  },
+  "pio": {
+   "name": "Pioneer Masters",
+   "printings": 398,
+   "english_paper": 0,
+   "files": [
+    "p-002.jsonl",
+    "p-003.jsonl"
+   ]
+  },
+  "pip": {
+   "name": "Fallout",
+   "printings": 1068,
+   "english_paper": 1068,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pisd": {
+   "name": "Innistrad Promos",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pj21": {
+   "name": "Judge Gift Cards 2021",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjas": {
+   "name": "Junior APAC Series",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjjt": {
+   "name": "Japan Junior Tournament",
+   "printings": 12,
+   "english_paper": 0,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjou": {
+   "name": "Journey into Nyx Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjsc": {
+   "name": "Japan Standard Cup",
+   "printings": 4,
+   "english_paper": 2,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjse": {
+   "name": "Junior Series Europe",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pjud": {
+   "name": "Judgment Promos",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-003.jsonl"
+   ]
+  },
+  "pkhm": {
+   "name": "Kaldheim Promos",
+   "printings": 158,
+   "english_paper": 157,
+   "files": [
+    "p-003.jsonl",
+    "p-004.jsonl"
+   ]
+  },
+  "pkld": {
+   "name": "Kaladesh Promos",
+   "printings": 83,
+   "english_paper": 83,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pktk": {
+   "name": "Khans of Tarkir Promos",
+   "printings": 56,
+   "english_paper": 56,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl21": {
+   "name": "Year of the Ox 2021",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl22": {
+   "name": "Year of the Tiger 2022",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl23": {
+   "name": "Year of the Rabbit 2023",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl24": {
+   "name": "Year of the Dragon 2024",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl25": {
+   "name": "Year of the Snake 2025",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pl26": {
+   "name": "Year of the Horse 2026",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plc": {
+   "name": "Planar Chaos",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plci": {
+   "name": "The Lost Caverns of Ixalan Promos",
+   "printings": 136,
+   "english_paper": 136,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plg20": {
+   "name": "Love Your LGS 2020",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plg21": {
+   "name": "Love Your LGS 2021",
+   "printings": 11,
+   "english_paper": 6,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plg22": {
+   "name": "Love Your LGS 2022",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plg24": {
+   "name": "Love Your LGS 2024",
+   "printings": 7,
+   "english_paper": 1,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plg25": {
+   "name": "Love Your LGS 2025",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plgm": {
+   "name": "DCI Legend Membership",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plgn": {
+   "name": "Legions Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plny": {
+   "name": "Lunar New Year 2018",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plrw": {
+   "name": "Lorwyn Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "pls": {
+   "name": "Planeshift",
+   "printings": 146,
+   "english_paper": 146,
+   "files": [
+    "p-004.jsonl"
+   ]
+  },
+  "plst": {
+   "name": "The List",
+   "printings": 5741,
+   "english_paper": 5736,
+   "files": [
+    "p-004.jsonl",
+    "p-005.jsonl",
+    "p-006.jsonl",
+    "p-007.jsonl",
+    "p-008.jsonl"
+   ]
+  },
+  "pltc": {
+   "name": "Tales of Middle-earth Deluxe Commander Kit",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pltr": {
+   "name": "Tales of Middle-earth Promos",
+   "printings": 86,
+   "english_paper": 86,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm10": {
+   "name": "Magic 2010 Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm11": {
+   "name": "Magic 2011 Promos",
+   "printings": 6,
+   "english_paper": 4,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm12": {
+   "name": "Magic 2012 Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm13": {
+   "name": "Magic 2013 Promos",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm14": {
+   "name": "Magic 2014 Promos",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm15": {
+   "name": "Magic 2015 Promos",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "p-008.jsonl"
+   ]
+  },
+  "pm19": {
+   "name": "Core Set 2019 Promos",
+   "printings": 95,
+   "english_paper": 95,
+   "files": [
+    "p-008.jsonl",
+    "p-009.jsonl"
+   ]
+  },
+  "pm20": {
+   "name": "Core Set 2020 Promos",
+   "printings": 144,
+   "english_paper": 144,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pm21": {
+   "name": "Core Set 2021 Promos",
+   "printings": 137,
+   "english_paper": 137,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmat": {
+   "name": "March of the Machine: The Aftermath Promos",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmbs": {
+   "name": "Mirrodin Besieged Promos",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmda": {
+   "name": "Magic × Duel Masters Promos",
+   "printings": 4,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmei": {
+   "name": "Media and Collaboration Promos",
+   "printings": 116,
+   "english_paper": 67,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmh1": {
+   "name": "Modern Horizons Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmh2": {
+   "name": "Modern Horizons 2 Promos",
+   "printings": 86,
+   "english_paper": 86,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmh3": {
+   "name": "Modern Horizons 3 Promos",
+   "printings": 92,
+   "english_paper": 92,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmic": {
+   "name": "MicroProse Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmid": {
+   "name": "Innistrad: Midnight Hunt Promos",
+   "printings": 155,
+   "english_paper": 155,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmkm": {
+   "name": "Murders at Karlov Manor Promos",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmmq": {
+   "name": "Mercadian Masques Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmoa": {
+   "name": "Magic Online Avatars",
+   "printings": 85,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmom": {
+   "name": "March of the Machine Promos",
+   "printings": 134,
+   "english_paper": 134,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmor": {
+   "name": "Morningtide Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps": {
+   "name": "Magic Premiere Shop 2005",
+   "printings": 20,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps06": {
+   "name": "Magic Premiere Shop 2006",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps07": {
+   "name": "Magic Premiere Shop 2007",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps08": {
+   "name": "Magic Premiere Shop 2008",
+   "printings": 6,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps09": {
+   "name": "Magic Premiere Shop 2009",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps10": {
+   "name": "Magic Premiere Shop 2010",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmps11": {
+   "name": "Magic Premiere Shop 2011",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pmrd": {
+   "name": "Mirrodin Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pnat": {
+   "name": "Nationals Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pncc": {
+   "name": "New Capenna Commander Promos",
+   "printings": 75,
+   "english_paper": 75,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pnem": {
+   "name": "Nemesis Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-009.jsonl"
+   ]
+  },
+  "pneo": {
+   "name": "Kamigawa: Neon Dynasty Promos",
+   "printings": 148,
+   "english_paper": 148,
+   "files": [
+    "p-009.jsonl",
+    "p-010.jsonl"
+   ]
+  },
+  "pnph": {
+   "name": "New Phyrexia Promos",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pody": {
+   "name": "Odyssey Promos",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pogw": {
+   "name": "Oath of the Gatewatch Promos",
+   "printings": 65,
+   "english_paper": 65,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pone": {
+   "name": "Phyrexia: All Will Be One Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pons": {
+   "name": "Onslaught Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "por": {
+   "name": "Portal",
+   "printings": 257,
+   "english_paper": 228,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pori": {
+   "name": "Magic Origins Promos",
+   "printings": 54,
+   "english_paper": 54,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "potj": {
+   "name": "Outlaws of Thunder Junction Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "ppc1": {
+   "name": "M15 Prerelease Challenge",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "ppcy": {
+   "name": "Prophecy Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pplc": {
+   "name": "Planar Chaos Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "ppls": {
+   "name": "Planeshift Promos",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "ppp1": {
+   "name": "M20 Promo Packs",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "ppro": {
+   "name": "Pro Tour Promos",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pptk": {
+   "name": "Portal Three Kingdoms Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pr2": {
+   "name": "Magic Player Rewards 2002",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pr23": {
+   "name": "Regional Championship Qualifiers 2023",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "prav": {
+   "name": "Ravnica: City of Guilds Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "prcq": {
+   "name": "Regional Championship Qualifiers 2022",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "pred": {
+   "name": "Redemption Program",
+   "printings": 1,
+   "english_paper": 0,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "prix": {
+   "name": "Rivals of Ixalan Promos",
+   "printings": 98,
+   "english_paper": 98,
+   "files": [
+    "p-010.jsonl"
+   ]
+  },
+  "prm": {
+   "name": "Magic Online Promos",
+   "printings": 3096,
+   "english_paper": 0,
+   "files": [
+    "p-010.jsonl",
+    "p-011.jsonl",
+    "p-012.jsonl"
+   ]
+  },
+  "prna": {
+   "name": "Ravnica Allegiance Promos",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "p-012.jsonl"
+   ]
+  },
+  "proe": {
+   "name": "Rise of the Eldrazi Promos",
+   "printings": 4,
+   "english_paper": 3,
+   "files": [
+    "p-012.jsonl"
+   ]
+  },
+  "prtr": {
+   "name": "Return to Ravnica Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-012.jsonl"
+   ]
+  },
+  "prw2": {
+   "name": "RNA Ravnica Weekend",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-012.jsonl"
+   ]
+  },
+  "prwk": {
+   "name": "GRN Ravnica Weekend",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-012.jsonl"
+   ]
+  },
+  "ps11": {
+   "name": "Salvat 2011",
+   "printings": 224,
+   "english_paper": 0,
+   "files": [
+    "p-012.jsonl",
+    "p-013.jsonl"
+   ]
+  },
+  "ps14": {
+   "name": "San Diego Comic-Con 2014",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ps15": {
+   "name": "San Diego Comic-Con 2015",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ps16": {
+   "name": "San Diego Comic-Con 2016",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ps17": {
+   "name": "San Diego Comic-Con 2017",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ps18": {
+   "name": "San Diego Comic-Con 2018",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ps19": {
+   "name": "San Diego Comic-Con 2019",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psal": {
+   "name": "Salvat 2005",
+   "printings": 720,
+   "english_paper": 0,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pscg": {
+   "name": "Scourge Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psdc": {
+   "name": "San Diego Comic-Con 2013",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psdg": {
+   "name": "Sega Dreamcast Cards",
+   "printings": 10,
+   "english_paper": 0,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pshm": {
+   "name": "Shadowmoor Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psnc": {
+   "name": "Streets of New Capenna Promos",
+   "printings": 161,
+   "english_paper": 161,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psoi": {
+   "name": "Shadows over Innistrad Promos",
+   "printings": 90,
+   "english_paper": 90,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psok": {
+   "name": "Saviors of Kamigawa Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psom": {
+   "name": "Scars of Mirrodin Promos",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psos": {
+   "name": "Secrets of Strixhaven Promos",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pspl": {
+   "name": "Spotlight Series",
+   "printings": 14,
+   "english_paper": 13,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pspm": {
+   "name": "Marvel's Spider-Man Promos",
+   "printings": 68,
+   "english_paper": 68,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pss1": {
+   "name": "BFZ Standard Series",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pss2": {
+   "name": "XLN Standard Showdown",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pss3": {
+   "name": "M19 Standard Showdown",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pss4": {
+   "name": "MKM Standard Showdown",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pss5": {
+   "name": "FIN Standard Showdown",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pssc": {
+   "name": "Secret Lair Showcase Planes",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psth": {
+   "name": "Stronghold Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "pstx": {
+   "name": "Strixhaven: School of Mages Promos",
+   "printings": 164,
+   "english_paper": 164,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psus": {
+   "name": "Junior Super Series",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "psvc": {
+   "name": "Summer Vacation Promos 2022",
+   "printings": 3,
+   "english_paper": 0,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ptbro": {
+   "name": "The Brothers' War Southeast Asia Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-013.jsonl"
+   ]
+  },
+  "ptc": {
+   "name": "Pro Tour Collector Set",
+   "printings": 308,
+   "english_paper": 308,
+   "files": [
+    "p-013.jsonl",
+    "p-014.jsonl"
+   ]
+  },
+  "ptdm": {
+   "name": "Tarkir: Dragonstorm Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptdmu": {
+   "name": "Dominaria United Southeast Asia Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptg": {
+   "name": "Ponies: The Galloping",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pthb": {
+   "name": "Theros Beyond Death Promos",
+   "printings": 137,
+   "english_paper": 137,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pths": {
+   "name": "Theros Promos",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptk": {
+   "name": "Portal Three Kingdoms",
+   "printings": 180,
+   "english_paper": 180,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptkdf": {
+   "name": "Tarkir Dragonfury",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptla": {
+   "name": "Avatar: The Last Airbender Promos",
+   "printings": 80,
+   "english_paper": 80,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptmp": {
+   "name": "Tempest Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptor": {
+   "name": "Torment Promos",
+   "printings": 3,
+   "english_paper": 0,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptsnc": {
+   "name": "Streets of New Capenna Southeast Asia Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptsp": {
+   "name": "Time Spiral Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "ptsr": {
+   "name": "Time Spiral Remastered Promos",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "puds": {
+   "name": "Urza's Destiny Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pulg": {
+   "name": "Urza's Legacy Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "puma": {
+   "name": "Ultimate Box Topper",
+   "printings": 40,
+   "english_paper": 40,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "punh": {
+   "name": "Unhinged Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "punk": {
+   "name": "Black Lotus Unknown Planechase",
+   "printings": 52,
+   "english_paper": 52,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "purl": {
+   "name": "URL/Convention Promos",
+   "printings": 18,
+   "english_paper": 16,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pusg": {
+   "name": "Urza's Saga Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pust": {
+   "name": "Unstable Promos",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pvan": {
+   "name": "Vanguard Series",
+   "printings": 32,
+   "english_paper": 32,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pvow": {
+   "name": "Innistrad: Crimson Vow Promos",
+   "printings": 121,
+   "english_paper": 121,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw11": {
+   "name": "Wizards Play Network 2011",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw12": {
+   "name": "Wizards Play Network 2012",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw21": {
+   "name": "Wizards Play Network 2021",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw22": {
+   "name": "Wizards Play Network 2022",
+   "printings": 6,
+   "english_paper": 4,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw23": {
+   "name": "Wizards Play Network 2023",
+   "printings": 11,
+   "english_paper": 9,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw24": {
+   "name": "Wizards Play Network 2024",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw25": {
+   "name": "Wizards Play Network 2025",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw26": {
+   "name": "Wizards Play Network 2026",
+   "printings": 23,
+   "english_paper": 22,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pw27": {
+   "name": "Wizards Play Network 2027",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-014.jsonl"
+   ]
+  },
+  "pwar": {
+   "name": "War of the Spark Promos",
+   "printings": 176,
+   "english_paper": 140,
+   "files": [
+    "p-014.jsonl",
+    "p-015.jsonl"
+   ]
+  },
+  "pwcs": {
+   "name": "Planeswalker Championship Promos",
+   "printings": 46,
+   "english_paper": 0,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pwoe": {
+   "name": "Wilds of Eldraine Promos",
+   "printings": 160,
+   "english_paper": 160,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pwor": {
+   "name": "World Championship Promos",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pwos": {
+   "name": "Wizards of the Coast Online Store",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pwwk": {
+   "name": "Worldwake Promos",
+   "printings": 6,
+   "english_paper": 4,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pxln": {
+   "name": "Ixalan Promos",
+   "printings": 120,
+   "english_paper": 120,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pxtc": {
+   "name": "XLN Treasure Chest",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pz1": {
+   "name": "Legendary Cube Prize Pack",
+   "printings": 149,
+   "english_paper": 0,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pz2": {
+   "name": "Treasure Chest",
+   "printings": 270,
+   "english_paper": 0,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pza": {
+   "name": "Teenage Mutant Ninja Turtles Source Material",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pzen": {
+   "name": "Zendikar Promos",
+   "printings": 5,
+   "english_paper": 4,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "pznr": {
+   "name": "Zendikar Rising Promos",
+   "printings": 153,
+   "english_paper": 153,
+   "files": [
+    "p-015.jsonl"
+   ]
+  },
+  "q06": {
+   "name": "Pioneer Challenger Decks 2021",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "q-000.jsonl"
+   ]
+  },
+  "q07": {
+   "name": "Challenger Decks 2022",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "q-000.jsonl"
+   ]
+  },
+  "rav": {
+   "name": "Ravnica: City of Guilds",
+   "printings": 306,
+   "english_paper": 306,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "ren": {
+   "name": "Renaissance",
+   "printings": 122,
+   "english_paper": 0,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rex": {
+   "name": "Jurassic World Collection",
+   "printings": 45,
+   "english_paper": 45,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rfin": {
+   "name": "Final Fantasy Regional Promos",
+   "printings": 2,
+   "english_paper": 0,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rin": {
+   "name": "Rinascimento",
+   "printings": 69,
+   "english_paper": 0,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rix": {
+   "name": "Rivals of Ixalan",
+   "printings": 205,
+   "english_paper": 205,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rna": {
+   "name": "Ravnica Allegiance",
+   "printings": 273,
+   "english_paper": 273,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "roe": {
+   "name": "Rise of the Eldrazi",
+   "printings": 248,
+   "english_paper": 248,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rqs": {
+   "name": "Rivals Quick Start Set",
+   "printings": 65,
+   "english_paper": 65,
+   "files": [
+    "r-000.jsonl"
+   ]
+  },
+  "rtr": {
+   "name": "Return to Ravnica",
+   "printings": 274,
+   "english_paper": 274,
+   "files": [
+    "r-000.jsonl",
+    "r-001.jsonl"
+   ]
+  },
+  "rvr": {
+   "name": "Ravnica Remastered",
+   "printings": 531,
+   "english_paper": 531,
+   "files": [
+    "r-001.jsonl"
+   ]
+  },
+  "s00": {
+   "name": "Starter 2000",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "s99": {
+   "name": "Starter 1999",
+   "printings": 173,
+   "english_paper": 173,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "sbro": {
+   "name": "The Brothers' War Substitute Cards",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "scd": {
+   "name": "Starter Commander Decks",
+   "printings": 352,
+   "english_paper": 352,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "scg": {
+   "name": "Scourge",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "sch": {
+   "name": "Store Championships",
+   "printings": 53,
+   "english_paper": 53,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "sds": {
+   "name": "Stardates",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "shm": {
+   "name": "Shadowmoor",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "sir": {
+   "name": "Shadows over Innistrad Remastered",
+   "printings": 294,
+   "english_paper": 0,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "sis": {
+   "name": "Shadows of the Past",
+   "printings": 76,
+   "english_paper": 0,
+   "files": [
+    "s-000.jsonl"
+   ]
+  },
+  "skhm": {
+   "name": "Kaldheim Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-000.jsonl",
+    "s-001.jsonl"
+   ]
+  },
+  "slc": {
+   "name": "Secret Lair Countdown",
+   "printings": 114,
+   "english_paper": 114,
+   "files": [
+    "s-001.jsonl"
+   ]
+  },
+  "slci": {
+   "name": "The Lost Caverns of Ixalan Substitute Cards",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "s-001.jsonl"
+   ]
+  },
+  "sld": {
+   "name": "Secret Lair Drop",
+   "printings": 2866,
+   "english_paper": 2838,
+   "files": [
+    "s-001.jsonl",
+    "s-002.jsonl",
+    "s-003.jsonl"
+   ]
+  },
+  "slp": {
+   "name": "Secret Lair Promo",
+   "printings": 57,
+   "english_paper": 57,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "slu": {
+   "name": "Secret Lair: Ultimate Edition",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "slx": {
+   "name": "Universes Within",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "slz": {
+   "name": "The Zeta Set",
+   "printings": 363,
+   "english_paper": 363,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "smh3": {
+   "name": "Modern Horizons 3 Substitute Cards",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "smid": {
+   "name": "Innistrad: Midnight Hunt Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "smom": {
+   "name": "March of the Machine Substitute Cards",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "snc": {
+   "name": "Streets of New Capenna",
+   "printings": 469,
+   "english_paper": 458,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "sneo": {
+   "name": "Kamigawa: Neon Dynasty Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "soa": {
+   "name": "Secrets of Strixhaven Mystical Archive",
+   "printings": 195,
+   "english_paper": 65,
+   "files": [
+    "s-003.jsonl"
+   ]
+  },
+  "soc": {
+   "name": "Secrets of Strixhaven Commander",
+   "printings": 426,
+   "english_paper": 426,
+   "files": [
+    "s-003.jsonl",
+    "s-004.jsonl"
+   ]
+  },
+  "soi": {
+   "name": "Shadows over Innistrad",
+   "printings": 302,
+   "english_paper": 302,
+   "files": [
+    "s-004.jsonl"
+   ]
+  },
+  "sok": {
+   "name": "Saviors of Kamigawa",
+   "printings": 165,
+   "english_paper": 165,
+   "files": [
+    "s-004.jsonl"
+   ]
+  },
+  "som": {
+   "name": "Scars of Mirrodin",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "s-004.jsonl"
+   ]
+  },
+  "sos": {
+   "name": "Secrets of Strixhaven",
+   "printings": 368,
+   "english_paper": 368,
+   "files": [
+    "s-004.jsonl",
+    "s-005.jsonl"
+   ]
+  },
+  "spe": {
+   "name": "Marvel's Spider-Man Eternal",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "spg": {
+   "name": "Special Guests",
+   "printings": 175,
+   "english_paper": 174,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "spm": {
+   "name": "Marvel's Spider-Man",
+   "printings": 286,
+   "english_paper": 286,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "ss1": {
+   "name": "Signature Spellbook: Jace",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "ss2": {
+   "name": "Signature Spellbook: Gideon",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "ss3": {
+   "name": "Signature Spellbook: Chandra",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "sstx": {
+   "name": "Strixhaven: School of Mages Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "sta": {
+   "name": "Strixhaven Mystical Archive",
+   "printings": 126,
+   "english_paper": 63,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "sth": {
+   "name": "Stronghold",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "stx": {
+   "name": "Strixhaven: School of Mages",
+   "printings": 383,
+   "english_paper": 383,
+   "files": [
+    "s-005.jsonl"
+   ]
+  },
+  "sum": {
+   "name": "Summer Magic / Edgar",
+   "printings": 306,
+   "english_paper": 306,
+   "files": [
+    "s-005.jsonl",
+    "s-006.jsonl"
+   ]
+  },
+  "sunf": {
+   "name": "Unfinity Sticker Sheets",
+   "printings": 48,
+   "english_paper": 48,
+   "files": [
+    "s-006.jsonl"
+   ]
+  },
+  "svow": {
+   "name": "Innistrad: Crimson Vow Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-006.jsonl"
+   ]
+  },
+  "sznr": {
+   "name": "Zendikar Rising Substitute Cards",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "s-006.jsonl"
+   ]
+  },
+  "t10e": {
+   "name": "Tenth Edition Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "t2x2": {
+   "name": "Double Masters 2022 Tokens",
+   "printings": 24,
+   "english_paper": 24,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "t2xm": {
+   "name": "Double Masters Tokens",
+   "printings": 31,
+   "english_paper": 31,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "t30a": {
+   "name": "30th Anniversary Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "t40k": {
+   "name": "Warhammer 40,000 Tokens",
+   "printings": 31,
+   "english_paper": 31,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "ta25": {
+   "name": "Masters 25 Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tacr": {
+   "name": "Assassin's Creed Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "taer": {
+   "name": "Aether Revolt Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tafc": {
+   "name": "Forgotten Realms Commander Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tafr": {
+   "name": "Adventures in the Forgotten Realms Tokens",
+   "printings": 22,
+   "english_paper": 22,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "takh": {
+   "name": "Amonkhet Tokens",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tala": {
+   "name": "Shards of Alara Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tarb": {
+   "name": "Alara Reborn Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tavr": {
+   "name": "Avacyn Restored Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbbd": {
+   "name": "Battlebond Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbfz": {
+   "name": "Battle for Zendikar Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbig": {
+   "name": "The Big Score Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tblb": {
+   "name": "Bloomburrow Tokens",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tblc": {
+   "name": "Bloomburrow Commander Tokens",
+   "printings": 41,
+   "english_paper": 41,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbng": {
+   "name": "Born of the Gods Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbot": {
+   "name": "Transformers Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbrc": {
+   "name": "The Brothers' War Commander Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbro": {
+   "name": "The Brothers' War Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tbth": {
+   "name": "Battle the Horde",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc14": {
+   "name": "Commander 2014 Tokens",
+   "printings": 36,
+   "english_paper": 36,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc15": {
+   "name": "Commander 2015 Tokens",
+   "printings": 25,
+   "english_paper": 25,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc16": {
+   "name": "Commander 2016 Tokens",
+   "printings": 21,
+   "english_paper": 21,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc17": {
+   "name": "Commander 2017 Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc18": {
+   "name": "Commander 2018 Tokens",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc19": {
+   "name": "Commander 2019 Tokens",
+   "printings": 29,
+   "english_paper": 29,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc20": {
+   "name": "Commander 2020 Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tc21": {
+   "name": "Commander 2021 Tokens",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tclb": {
+   "name": "Battle for Baldur's Gate Tokens",
+   "printings": 51,
+   "english_paper": 51,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcm2": {
+   "name": "Commander Anthology Volume II Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcma": {
+   "name": "Commander Anthology Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcmm": {
+   "name": "Commander Masters Tokens",
+   "printings": 81,
+   "english_paper": 81,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcmr": {
+   "name": "Commander Legends Tokens",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcn2": {
+   "name": "Conspiracy: Take the Crown Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcns": {
+   "name": "Conspiracy Tokens",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tcon": {
+   "name": "Conflux Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "td0": {
+   "name": "Magic Online Theme Decks",
+   "printings": 197,
+   "english_paper": 0,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "td2": {
+   "name": "Duel Decks: Mirrodin Pure vs. New Phyrexia",
+   "printings": 88,
+   "english_paper": 0,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdag": {
+   "name": "Defeat a God",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdc": {
+   "name": "Tarkir: Dragonstorm Commander",
+   "printings": 413,
+   "english_paper": 413,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdd1": {
+   "name": "Duel Decks: Elves vs. Goblins Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdd2": {
+   "name": "Duel Decks: Jace vs. Chandra Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddc": {
+   "name": "Duel Decks: Divine vs. Demonic Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddd": {
+   "name": "Duel Decks: Garruk vs. Liliana Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdde": {
+   "name": "Duel Decks: Phyrexia vs. the Coalition Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddf": {
+   "name": "Duel Decks: Elspeth vs. Tezzeret Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddg": {
+   "name": "Duel Decks: Knights vs. Dragons Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddh": {
+   "name": "Duel Decks: Ajani vs. Nicol Bolas Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddi": {
+   "name": "Duel Decks: Venser vs. Koth Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddj": {
+   "name": "Duel Decks: Izzet vs. Golgari Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddk": {
+   "name": "Duel Decks: Sorin vs. Tibalt Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddl": {
+   "name": "Duel Decks: Heroes vs. Monsters Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddm": {
+   "name": "Duel Decks: Jace vs. Vraska Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdds": {
+   "name": "Duel Decks: Mind vs. Might Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddt": {
+   "name": "Duel Decks: Merfolk vs. Goblins Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tddu": {
+   "name": "Duel Decks: Elves vs. Inventors Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdft": {
+   "name": "Aetherdrift Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdgm": {
+   "name": "Dragon's Maze Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdka": {
+   "name": "Dark Ascension Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-000.jsonl"
+   ]
+  },
+  "tdm": {
+   "name": "Tarkir: Dragonstorm",
+   "printings": 426,
+   "english_paper": 426,
+   "files": [
+    "t-000.jsonl",
+    "t-001.jsonl"
+   ]
+  },
+  "tdmc": {
+   "name": "Dominaria United Commander Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdmr": {
+   "name": "Dominaria Remastered Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdmu": {
+   "name": "Dominaria United Tokens",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdom": {
+   "name": "Dominaria Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdrc": {
+   "name": "Aetherdrift Commander Tokens",
+   "printings": 17,
+   "english_paper": 17,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdsc": {
+   "name": "Duskmourn Commander Tokens",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdsk": {
+   "name": "Duskmourn: House of Horror Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdtk": {
+   "name": "Dragons of Tarkir Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tdvd": {
+   "name": "Duel Decks Anthology: Divine vs. Demonic Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "te01": {
+   "name": "Archenemy: Nicol Bolas Tokens",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tecc": {
+   "name": "Lorwyn Eclipsed Commander Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tecl": {
+   "name": "Lorwyn Eclipsed Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "teld": {
+   "name": "Throne of Eldraine Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tema": {
+   "name": "Eternal Masters Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "temn": {
+   "name": "Eldritch Moon Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "teoc": {
+   "name": "Edge of Eternities Commander Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "teoe": {
+   "name": "Edge of Eternities Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "teve": {
+   "name": "Eventide Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tevg": {
+   "name": "Duel Decks Anthology: Elves vs. Goblins Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfdc": {
+   "name": "Foundations Commander Tokens",
+   "printings": 17,
+   "english_paper": 17,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfdn": {
+   "name": "Foundations Tokens",
+   "printings": 33,
+   "english_paper": 33,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfic": {
+   "name": "Final Fantasy Commander Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfin": {
+   "name": "Final Fantasy Tokens",
+   "printings": 37,
+   "english_paper": 37,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfra": {
+   "name": "Reality Fracture Tokens",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfrc": {
+   "name": "Reality Fracture Commander Tokens",
+   "printings": 17,
+   "english_paper": 17,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfrf": {
+   "name": "Fate Reforged Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tfth": {
+   "name": "Face the Hydra",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgk1": {
+   "name": "GRN Guild Kit Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgk2": {
+   "name": "RNA Guild Kit Tokens",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgn2": {
+   "name": "Game Night 2019 Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgn3": {
+   "name": "Game Night: Free-for-All Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgrn": {
+   "name": "Guilds of Ravnica Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgtc": {
+   "name": "Gatecrash Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "tgvl": {
+   "name": "Duel Decks Anthology: Garruk vs. Liliana Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thb": {
+   "name": "Theros Beyond Death",
+   "printings": 358,
+   "english_paper": 358,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thob": {
+   "name": "The Hobbit Tokens",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thou": {
+   "name": "Hour of Devastation Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thp1": {
+   "name": "Theros Hero's Path",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thp2": {
+   "name": "Born of the Gods Hero's Path",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "thp3": {
+   "name": "Journey into Nyx Hero's Path",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-001.jsonl"
+   ]
+  },
+  "ths": {
+   "name": "Theros",
+   "printings": 249,
+   "english_paper": 249,
+   "files": [
+    "t-001.jsonl",
+    "t-002.jsonl"
+   ]
+  },
+  "tiko": {
+   "name": "Ikoria: Lair of Behemoths Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tima": {
+   "name": "Iconic Masters Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tinr": {
+   "name": "Innistrad Remastered Tokens",
+   "printings": 27,
+   "english_paper": 27,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tisd": {
+   "name": "Innistrad Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tjou": {
+   "name": "Journey into Nyx Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tjvc": {
+   "name": "Duel Decks Anthology: Jace vs. Chandra Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tkhc": {
+   "name": "Kaldheim Commander Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tkhm": {
+   "name": "Kaldheim Tokens",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tkld": {
+   "name": "Kaladesh Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tktk": {
+   "name": "Khans of Tarkir Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tla": {
+   "name": "Avatar: The Last Airbender",
+   "printings": 394,
+   "english_paper": 394,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tlcc": {
+   "name": "The Lost Caverns of Ixalan Commander Tokens",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tlci": {
+   "name": "The Lost Caverns of Ixalan Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tle": {
+   "name": "Avatar: The Last Airbender Eternal",
+   "printings": 317,
+   "english_paper": 317,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tlrw": {
+   "name": "Lorwyn Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tltc": {
+   "name": "Tales of Middle-earth Commander Tokens",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tltr": {
+   "name": "Tales of Middle-earth Tokens",
+   "printings": 25,
+   "english_paper": 25,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm10": {
+   "name": "Magic 2010 Tokens",
+   "printings": 8,
+   "english_paper": 8,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm11": {
+   "name": "Magic 2011 Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm12": {
+   "name": "Magic 2012 Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm13": {
+   "name": "Magic 2013 Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm14": {
+   "name": "Magic 2014 Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm15": {
+   "name": "Magic 2015 Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm19": {
+   "name": "Core Set 2019 Tokens",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm20": {
+   "name": "Core Set 2020 Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm21": {
+   "name": "Core Set 2021 Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tm3c": {
+   "name": "Modern Horizons 3 Commander Tokens",
+   "printings": 28,
+   "english_paper": 28,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmbs": {
+   "name": "Mirrodin Besieged Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmc": {
+   "name": "Teenage Mutant Ninja Turtles Eternal",
+   "printings": 132,
+   "english_paper": 132,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmd1": {
+   "name": "Modern Event Deck 2014 Tokens",
+   "printings": 4,
+   "english_paper": 4,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmdd": {
+   "name": "Marvel: Darkhold Destiny Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmed": {
+   "name": "Mythic Edition Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmh1": {
+   "name": "Modern Horizons Tokens",
+   "printings": 21,
+   "english_paper": 21,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmh2": {
+   "name": "Modern Horizons 2 Tokens",
+   "printings": 21,
+   "english_paper": 21,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmh3": {
+   "name": "Modern Horizons 3 Tokens",
+   "printings": 43,
+   "english_paper": 43,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmic": {
+   "name": "Midnight Hunt Commander Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmid": {
+   "name": "Innistrad: Midnight Hunt Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmkc": {
+   "name": "Murders at Karlov Manor Commander Tokens",
+   "printings": 31,
+   "english_paper": 31,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmkm": {
+   "name": "Murders at Karlov Manor Tokens",
+   "printings": 22,
+   "english_paper": 22,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmm2": {
+   "name": "Modern Masters 2015 Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmm3": {
+   "name": "Modern Masters 2017 Tokens",
+   "printings": 21,
+   "english_paper": 21,
+   "files": [
+    "t-002.jsonl"
+   ]
+  },
+  "tmma": {
+   "name": "Modern Masters Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-002.jsonl",
+    "t-003.jsonl"
+   ]
+  },
+  "tmoc": {
+   "name": "March of the Machine Commander Tokens",
+   "printings": 46,
+   "english_paper": 46,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmom": {
+   "name": "March of the Machine Tokens",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmor": {
+   "name": "Morningtide Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmp": {
+   "name": "Tempest",
+   "printings": 350,
+   "english_paper": 350,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmsc": {
+   "name": "Marvel Super Heroes Commander Tokens",
+   "printings": 32,
+   "english_paper": 32,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmsh": {
+   "name": "Marvel Super Heroes Tokens",
+   "printings": 27,
+   "english_paper": 27,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmt": {
+   "name": "Teenage Mutant Ninja Turtles",
+   "printings": 320,
+   "english_paper": 320,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tmul": {
+   "name": "Multiverse Legends Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tnau": {
+   "name": "Nauctis: The Sunken Realm Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tncc": {
+   "name": "New Capenna Commander Tokens",
+   "printings": 36,
+   "english_paper": 36,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tnec": {
+   "name": "Neon Dynasty Commander Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tneo": {
+   "name": "Kamigawa: Neon Dynasty Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tnph": {
+   "name": "New Phyrexia Tokens",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "togw": {
+   "name": "Oath of the Gatewatch Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tonc": {
+   "name": "Phyrexia: All Will Be One Commander Tokens",
+   "printings": 23,
+   "english_paper": 23,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tone": {
+   "name": "Phyrexia: All Will Be One Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tor": {
+   "name": "Torment",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tori": {
+   "name": "Magic Origins Tokens",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "totc": {
+   "name": "Outlaws of Thunder Junction Commander Tokens",
+   "printings": 41,
+   "english_paper": 41,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "totj": {
+   "name": "Outlaws of Thunder Junction Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "totp": {
+   "name": "Breaking News Tokens",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tpca": {
+   "name": "Planechase Anthology Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tpip": {
+   "name": "Fallout Tokens",
+   "printings": 22,
+   "english_paper": 22,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "tpr": {
+   "name": "Tempest Remastered",
+   "printings": 269,
+   "english_paper": 0,
+   "files": [
+    "t-003.jsonl"
+   ]
+  },
+  "trc": {
+   "name": "Star Trek Commander",
+   "printings": 274,
+   "english_paper": 274,
+   "files": [
+    "t-003.jsonl",
+    "t-004.jsonl"
+   ]
+  },
+  "trex": {
+   "name": "Jurassic World Collection Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "trix": {
+   "name": "Rivals of Ixalan Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "trk": {
+   "name": "Star Trek",
+   "printings": 487,
+   "english_paper": 481,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "trna": {
+   "name": "Ravnica Allegiance Tokens",
+   "printings": 13,
+   "english_paper": 13,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "troe": {
+   "name": "Rise of the Eldrazi Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "trtr": {
+   "name": "Return to Ravnica Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "trvr": {
+   "name": "Ravnica Remastered Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsb": {
+   "name": "Time Spiral Timeshifted",
+   "printings": 121,
+   "english_paper": 121,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tscd": {
+   "name": "Starter Commander Deck Tokens",
+   "printings": 27,
+   "english_paper": 27,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tshm": {
+   "name": "Shadowmoor Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsnc": {
+   "name": "Streets of New Capenna Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsoc": {
+   "name": "Secrets of Strixhaven Commander Tokens",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsoi": {
+   "name": "Shadows over Innistrad Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsom": {
+   "name": "Scars of Mirrodin Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsos": {
+   "name": "Secrets of Strixhaven Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsp": {
+   "name": "Time Spiral",
+   "printings": 301,
+   "english_paper": 301,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tspm": {
+   "name": "Marvel's Spider-Man Tokens",
+   "printings": 7,
+   "english_paper": 7,
+   "files": [
+    "t-004.jsonl"
+   ]
+  },
+  "tsr": {
+   "name": "Time Spiral Remastered",
+   "printings": 411,
+   "english_paper": 411,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tstx": {
+   "name": "Strixhaven: School of Mages Tokens",
+   "printings": 9,
+   "english_paper": 9,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttdc": {
+   "name": "Tarkir: Dragonstorm Commander Tokens",
+   "printings": 34,
+   "english_paper": 34,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttdm": {
+   "name": "Tarkir: Dragonstorm Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tthb": {
+   "name": "Theros Beyond Death Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tths": {
+   "name": "Theros Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttla": {
+   "name": "Avatar: The Last Airbender Tokens",
+   "printings": 22,
+   "english_paper": 22,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttle": {
+   "name": "Avatar: The Last Airbender Eternal Tokens",
+   "printings": 2,
+   "english_paper": 2,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttmc": {
+   "name": "Teenage Mutant Ninja Turtles Eternal Tokens",
+   "printings": 31,
+   "english_paper": 31,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttmt": {
+   "name": "Teenage Mutant Ninja Turtles Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttrk": {
+   "name": "Star Trek Tokens",
+   "printings": 1,
+   "english_paper": 1,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "ttsr": {
+   "name": "Time Spiral Remastered Tokens",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tugl": {
+   "name": "Unglued Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tuma": {
+   "name": "Ultimate Masters Tokens",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tund": {
+   "name": "Unsanctioned Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tunf": {
+   "name": "Unfinity Tokens",
+   "printings": 14,
+   "english_paper": 14,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tust": {
+   "name": "Unstable Tokens",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tvoc": {
+   "name": "Crimson Vow Commander Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tvow": {
+   "name": "Innistrad: Crimson Vow Tokens",
+   "printings": 21,
+   "english_paper": 21,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "twar": {
+   "name": "War of the Spark Tokens",
+   "printings": 19,
+   "english_paper": 19,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "twho": {
+   "name": "Doctor Who Tokens",
+   "printings": 64,
+   "english_paper": 64,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "twoc": {
+   "name": "Wilds of Eldraine Commander Tokens",
+   "printings": 10,
+   "english_paper": 10,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "twoe": {
+   "name": "Wilds of Eldraine Tokens",
+   "printings": 18,
+   "english_paper": 18,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "twwk": {
+   "name": "Worldwake Tokens",
+   "printings": 6,
+   "english_paper": 6,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "txln": {
+   "name": "Ixalan Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tzen": {
+   "name": "Zendikar Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tznc": {
+   "name": "Zendikar Rising Commander Tokens",
+   "printings": 11,
+   "english_paper": 11,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "tznr": {
+   "name": "Zendikar Rising Tokens",
+   "printings": 12,
+   "english_paper": 12,
+   "files": [
+    "t-005.jsonl"
+   ]
+  },
+  "uds": {
+   "name": "Urza's Destiny",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "ugin": {
+   "name": "Ugin's Fate",
+   "printings": 26,
+   "english_paper": 26,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "ugl": {
+   "name": "Unglued",
+   "printings": 88,
+   "english_paper": 88,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "ulg": {
+   "name": "Urza's Legacy",
+   "printings": 143,
+   "english_paper": 143,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "ulst": {
+   "name": "The List (Unfinity Foil Edition)",
+   "printings": 62,
+   "english_paper": 62,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "uma": {
+   "name": "Ultimate Masters",
+   "printings": 254,
+   "english_paper": 254,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "und": {
+   "name": "Unsanctioned",
+   "printings": 96,
+   "english_paper": 96,
+   "files": [
+    "u-000.jsonl"
+   ]
+  },
+  "unf": {
+   "name": "Unfinity",
+   "printings": 639,
+   "english_paper": 638,
+   "files": [
+    "u-000.jsonl",
+    "u-001.jsonl"
+   ]
+  },
+  "unh": {
+   "name": "Unhinged",
+   "printings": 168,
+   "english_paper": 168,
+   "files": [
+    "u-001.jsonl"
+   ]
+  },
+  "unk": {
+   "name": "Unknown Event",
+   "printings": 527,
+   "english_paper": 527,
+   "files": [
+    "u-001.jsonl"
+   ]
+  },
+  "usg": {
+   "name": "Urza's Saga",
+   "printings": 357,
+   "english_paper": 350,
+   "files": [
+    "u-001.jsonl"
+   ]
+  },
+  "ust": {
+   "name": "Unstable",
+   "printings": 268,
+   "english_paper": 268,
+   "files": [
+    "u-001.jsonl"
+   ]
+  },
+  "v09": {
+   "name": "From the Vault: Exiled",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v10": {
+   "name": "From the Vault: Relics",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v11": {
+   "name": "From the Vault: Legends",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v12": {
+   "name": "From the Vault: Realms",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v13": {
+   "name": "From the Vault: Twenty",
+   "printings": 20,
+   "english_paper": 20,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v14": {
+   "name": "From the Vault: Annihilation",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v15": {
+   "name": "From the Vault: Angels",
+   "printings": 15,
+   "english_paper": 15,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v16": {
+   "name": "From the Vault: Lore",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "v17": {
+   "name": "From the Vault: Transform",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "vis": {
+   "name": "Visions",
+   "printings": 167,
+   "english_paper": 167,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "vma": {
+   "name": "Vintage Masters",
+   "printings": 325,
+   "english_paper": 0,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "voc": {
+   "name": "Crimson Vow Commander",
+   "printings": 188,
+   "english_paper": 188,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "vow": {
+   "name": "Innistrad: Crimson Vow",
+   "printings": 412,
+   "english_paper": 412,
+   "files": [
+    "v-000.jsonl"
+   ]
+  },
+  "w16": {
+   "name": "Welcome Deck 2016",
+   "printings": 16,
+   "english_paper": 16,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "w17": {
+   "name": "Welcome Deck 2017",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "war": {
+   "name": "War of the Spark",
+   "printings": 311,
+   "english_paper": 275,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc00": {
+   "name": "World Championship Decks 2000",
+   "printings": 117,
+   "english_paper": 117,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc01": {
+   "name": "World Championship Decks 2001",
+   "printings": 138,
+   "english_paper": 138,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc02": {
+   "name": "World Championship Decks 2002",
+   "printings": 153,
+   "english_paper": 153,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc03": {
+   "name": "World Championship Decks 2003",
+   "printings": 142,
+   "english_paper": 142,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc04": {
+   "name": "World Championship Decks 2004",
+   "printings": 103,
+   "english_paper": 103,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc97": {
+   "name": "World Championship Decks 1997",
+   "printings": 131,
+   "english_paper": 131,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc98": {
+   "name": "World Championship Decks 1998",
+   "printings": 117,
+   "english_paper": 117,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wc99": {
+   "name": "World Championship Decks 1999",
+   "printings": 111,
+   "english_paper": 111,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wdmu": {
+   "name": "DMU Japanese Promo Tokens",
+   "printings": 5,
+   "english_paper": 0,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "wfin": {
+   "name": "FIN Asia WPN Promo Tokens",
+   "printings": 3,
+   "english_paper": 3,
+   "files": [
+    "w-000.jsonl"
+   ]
+  },
+  "who": {
+   "name": "Doctor Who",
+   "printings": 1178,
+   "english_paper": 1178,
+   "files": [
+    "w-000.jsonl",
+    "w-001.jsonl"
+   ]
+  },
+  "wmc": {
+   "name": "World Magic Cup Qualifiers",
+   "printings": 5,
+   "english_paper": 5,
+   "files": [
+    "w-001.jsonl"
+   ]
+  },
+  "wmkm": {
+   "name": "MKM Japanese Promo Tokens",
+   "printings": 4,
+   "english_paper": 0,
+   "files": [
+    "w-001.jsonl"
+   ]
+  },
+  "wmom": {
+   "name": "MOM Japanese Promo Tokens",
+   "printings": 12,
+   "english_paper": 0,
+   "files": [
+    "w-001.jsonl"
+   ]
+  },
+  "woc": {
+   "name": "Wilds of Eldraine Commander",
+   "printings": 173,
+   "english_paper": 173,
+   "files": [
+    "w-001.jsonl"
+   ]
+  },
+  "woe": {
+   "name": "Wilds of Eldraine",
+   "printings": 381,
+   "english_paper": 381,
+   "files": [
+    "w-001.jsonl",
+    "w-002.jsonl"
+   ]
+  },
+  "wone": {
+   "name": "ONE Japanese Promo Tokens",
+   "printings": 6,
+   "english_paper": 0,
+   "files": [
+    "w-002.jsonl"
+   ]
+  },
+  "wot": {
+   "name": "Wilds of Eldraine: Enchanting Tales",
+   "printings": 103,
+   "english_paper": 103,
+   "files": [
+    "w-002.jsonl"
+   ]
+  },
+  "wth": {
+   "name": "Weatherlight",
+   "printings": 167,
+   "english_paper": 167,
+   "files": [
+    "w-002.jsonl"
+   ]
+  },
+  "wwk": {
+   "name": "Worldwake",
+   "printings": 145,
+   "english_paper": 145,
+   "files": [
+    "w-002.jsonl"
+   ]
+  },
+  "wwoe": {
+   "name": "WOE Japanese Promo Tokens",
+   "printings": 6,
+   "english_paper": 0,
+   "files": [
+    "w-002.jsonl"
+   ]
+  },
+  "xana": {
+   "name": "Arena New Player Experience Extras",
+   "printings": 20,
+   "english_paper": 0,
+   "files": [
+    "x-000.jsonl"
+   ]
+  },
+  "xln": {
+   "name": "Ixalan",
+   "printings": 289,
+   "english_paper": 289,
+   "files": [
+    "x-000.jsonl"
+   ]
+  },
+  "yblb": {
+   "name": "Alchemy: Bloomburrow",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ybro": {
+   "name": "Alchemy: The Brothers' War",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ydft": {
+   "name": "Alchemy: Aetherdrift",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ydmu": {
+   "name": "Alchemy: Dominaria",
+   "printings": 39,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ydsk": {
+   "name": "Alchemy: Duskmourn",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yecl": {
+   "name": "Alchemy: Lorwyn Eclipsed",
+   "printings": 33,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yeoe": {
+   "name": "Alchemy: Edge of Eternities",
+   "printings": 41,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yfra": {
+   "name": "Alchemy: Reality Fracture",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ylci": {
+   "name": "Alchemy: Ixalan",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ymid": {
+   "name": "Alchemy: Innistrad",
+   "printings": 63,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ymkm": {
+   "name": "Alchemy: Murders at Karlov Manor",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yneo": {
+   "name": "Alchemy: Kamigawa",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yone": {
+   "name": "Alchemy: Phyrexia",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "yotj": {
+   "name": "Alchemy: Outlaws of Thunder Junction",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ysnc": {
+   "name": "Alchemy: New Capenna",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ysos": {
+   "name": "Alchemy: Secrets of Strixhaven",
+   "printings": 32,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ytdm": {
+   "name": "Alchemy: Tarkir",
+   "printings": 30,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "ywoe": {
+   "name": "Alchemy: Wilds of Eldraine",
+   "printings": 31,
+   "english_paper": 0,
+   "files": [
+    "y-000.jsonl"
+   ]
+  },
+  "zen": {
+   "name": "Zendikar",
+   "printings": 269,
+   "english_paper": 269,
+   "files": [
+    "z-000.jsonl"
+   ]
+  },
+  "znc": {
+   "name": "Zendikar Rising Commander",
+   "printings": 142,
+   "english_paper": 142,
+   "files": [
+    "z-000.jsonl"
+   ]
+  },
+  "zne": {
+   "name": "Zendikar Rising Expeditions",
+   "printings": 30,
+   "english_paper": 30,
+   "files": [
+    "z-000.jsonl"
+   ]
+  },
+  "znr": {
+   "name": "Zendikar Rising",
+   "printings": 392,
+   "english_paper": 391,
+   "files": [
+    "z-000.jsonl"
+   ]
+  }
+ },
+ "shards": {
+  "1-000.jsonl": {
+   "bytes": 175154,
+   "sha256": "6fe94b111d41cf3d96a446902a2b2539721d55ea06bf54c20cf0f0885f26ce49",
+   "rows": 510
+  },
+  "2-000.jsonl": {
+   "bytes": 406734,
+   "sha256": "196634b8a7d3bf16c3ae9d2e3a4f3892570c6f349fffcad4688ae49c96aea7aa",
+   "rows": 1265
+  },
+  "3-000.jsonl": {
+   "bytes": 274087,
+   "sha256": "e28ba303f20c1f9bb003eb24dee72e4da6b49acddca19cf3d9830b08127d38e9",
+   "rows": 900
+  },
+  "4-000.jsonl": {
+   "bytes": 438893,
+   "sha256": "63e508692c22c5e601cd3e6b0c9b255a099223737e402e150eed6f0a09876ce5",
+   "rows": 1375
+  },
+  "5-000.jsonl": {
+   "bytes": 206682,
+   "sha256": "403206a667bbc34c44de09bd60ca0a4f12970ba30dea3b20af012dd097c38d05",
+   "rows": 625
+  },
+  "6-000.jsonl": {
+   "bytes": 115126,
+   "sha256": "7b720d0b5e437c519ddeecfdbf2ec157e561859dbeaf7db1c5532d098787b17e",
+   "rows": 351
+  },
+  "7-000.jsonl": {
+   "bytes": 234814,
+   "sha256": "061cb257a59820f5694a58da3b02dbedb7bd67f2a971570fb0612be05337530b",
+   "rows": 708
+  },
+  "8-000.jsonl": {
+   "bytes": 241671,
+   "sha256": "7c643d4f8f732330918b9c77e5d246b000274edb586fea39f6befaa84fe5cdb1",
+   "rows": 711
+  },
+  "9-000.jsonl": {
+   "bytes": 240384,
+   "sha256": "ca140a51b7f1f43480f4d49c6c5028a39c20bb2b0a3eac27870afef1d6aa1dcb",
+   "rows": 710
+  },
+  "a-000.jsonl": {
+   "bytes": 449775,
+   "sha256": "2593b88d21e88e1cf62554abd3901c83c7787bb9eb23d17c8ecc93f5467e9638",
+   "rows": 1361
+  },
+  "a-001.jsonl": {
+   "bytes": 449886,
+   "sha256": "bd3c6e4a5e4ee02f4e3c6f353d886d9a5bebdfdb1d6f2515880aabc5efa49836",
+   "rows": 1383
+  },
+  "a-002.jsonl": {
+   "bytes": 449692,
+   "sha256": "922d45d8291e59d77fcf8e7d7b4b1a78a5e665bcc28e3386fa970fd3afabaa82",
+   "rows": 1375
+  },
+  "a-003.jsonl": {
+   "bytes": 449797,
+   "sha256": "1d24e1e86cf8c8364a9efd0b05f81bf6ab6e30166f5a6f0d0678225bf769dc00",
+   "rows": 1377
+  },
+  "a-004.jsonl": {
+   "bytes": 368904,
+   "sha256": "18d835e6c892e296bcb4ceafedbef20f76cfa9ecdeb3882fa401a5581bdbc14a",
+   "rows": 1092
+  },
+  "b-000.jsonl": {
+   "bytes": 449745,
+   "sha256": "599baceb6323f4edba2047280cce803b093357c284aa80028639bf0976d2d259",
+   "rows": 1405
+  },
+  "b-001.jsonl": {
+   "bytes": 449728,
+   "sha256": "33d756d7de0f34d48b27e4c2a4d97554cf442e2095ccccba964e986834e6527c",
+   "rows": 1356
+  },
+  "b-002.jsonl": {
+   "bytes": 45343,
+   "sha256": "e993530d1389bc63446b3def4c161de88b6fb7162557ee92ca53aca4a96e8fcb",
+   "rows": 137
+  },
+  "c-000.jsonl": {
+   "bytes": 449775,
+   "sha256": "d5f749c21e149026c4a9a5f85f62d29c93eebc43c4c150eac4e8b57cfe8b6c7e",
+   "rows": 1407
+  },
+  "c-001.jsonl": {
+   "bytes": 449868,
+   "sha256": "77b79751af483f778e1e72df6845a42e14d44389efb40fccfe98533f56512c86",
+   "rows": 1411
+  },
+  "c-002.jsonl": {
+   "bytes": 449757,
+   "sha256": "b14e662da605d42d450b5a16037ef0d5f1d708d43ff9c81291248a67b74f3ffe",
+   "rows": 1410
+  },
+  "c-003.jsonl": {
+   "bytes": 449913,
+   "sha256": "014c38df7a865b54ecda63e4803a48c2700a30961daa02a2c930de4a49192721",
+   "rows": 1418
+  },
+  "c-004.jsonl": {
+   "bytes": 449943,
+   "sha256": "f8dccdf0e15323079f1b0b2b1bb3c3c4c201b17c5f279b11641f5b0d26a61d65",
+   "rows": 1431
+  },
+  "c-005.jsonl": {
+   "bytes": 449973,
+   "sha256": "362202ca525781864c283555132884497854be4f887c220e7a2eea816ebf6590",
+   "rows": 1382
+  },
+  "c-006.jsonl": {
+   "bytes": 221331,
+   "sha256": "b664bd22d408adf903dc9ddb1993f9e8ebf5084b74cab5e31fbc1a09b0060e6f",
+   "rows": 656
+  },
+  "d-000.jsonl": {
+   "bytes": 449802,
+   "sha256": "840cbcc627fca9f8c78a6230ff7428461354c3c396a83b00b7df0ebd7f99ab4d",
+   "rows": 1361
+  },
+  "d-001.jsonl": {
+   "bytes": 449906,
+   "sha256": "10a83ce9b809d8d2bf13757d7f773667f642fcb9f8048081e3409eabc026b039",
+   "rows": 1424
+  },
+  "d-002.jsonl": {
+   "bytes": 449713,
+   "sha256": "b868ea576b4cdfc2049718ce0e8eb7a204d1a683b14b322df516784d2b53bf41",
+   "rows": 1344
+  },
+  "d-003.jsonl": {
+   "bytes": 449837,
+   "sha256": "22c05543170b9e670ace236cda05ab70233565f5fca0177408bacab095e04eda",
+   "rows": 1356
+  },
+  "d-004.jsonl": {
+   "bytes": 302483,
+   "sha256": "89b82b03f9f117d077a11406ee37ce4e172f6ffe8992d7241d3b33d64e4692a4",
+   "rows": 930
+  },
+  "e-000.jsonl": {
+   "bytes": 449907,
+   "sha256": "603476570cba63b157204924b327d61bd096ea714a8fc7c813f76caae7192488",
+   "rows": 1386
+  },
+  "e-001.jsonl": {
+   "bytes": 449903,
+   "sha256": "117f10c76a01699a904ce841cae166f5893bbbd521a3e25392579ba77a14c521",
+   "rows": 1400
+  },
+  "e-002.jsonl": {
+   "bytes": 22074,
+   "sha256": "fe1f40e83e21b33bad0a49ba4c145945138464b77a049fbe5cd54a96a062d331",
+   "rows": 77
+  },
+  "f-000.jsonl": {
+   "bytes": 449761,
+   "sha256": "83e6db75f7c8194f0cf6414ff3ab21cb419d882955296552cbfbd428fbf55a26",
+   "rows": 1402
+  },
+  "f-001.jsonl": {
+   "bytes": 449740,
+   "sha256": "4400a15ad46d871dfde5599f8ca5e96e09a075c8f2a90f81cb4eab7ec2225a0d",
+   "rows": 1292
+  },
+  "f-002.jsonl": {
+   "bytes": 449883,
+   "sha256": "0d8048e0e921d53081d4a5ef8179da4801fecd420aff9196ef0fffa1fdb89ec3",
+   "rows": 1405
+  },
+  "f-003.jsonl": {
+   "bytes": 17424,
+   "sha256": "b82811c64078fbe36e9666ac53e8a8e56192d2a65698e4461f9a583c01ce95cf",
+   "rows": 54
+  },
+  "g-000.jsonl": {
+   "bytes": 449832,
+   "sha256": "9e7ecf04a9054a5e07b8c279275a0fc056885b3eae4c1b255dc58ba9920cacb1",
+   "rows": 1342
+  },
+  "g-001.jsonl": {
+   "bytes": 17528,
+   "sha256": "f1ebea903596a2cd97bdbb8d13ec466a03495986245187bb1e8cce732cb99fda",
+   "rows": 57
+  },
+  "h-000.jsonl": {
+   "bytes": 449777,
+   "sha256": "f21dfb503901ab4373e4d1a7350eacb144fb4a6068411aa6d6f0cccde006ee1d",
+   "rows": 1399
+  },
+  "h-001.jsonl": {
+   "bytes": 95567,
+   "sha256": "1e18a6edb8f0088db21d4898f67e19f1db6d80600f8f91636c6728433f0f48c3",
+   "rows": 297
+  },
+  "i-000.jsonl": {
+   "bytes": 449957,
+   "sha256": "fa14c8209e2be09b4c21b1939362183c65f98b07dace8b2d44baf20fab600b1f",
+   "rows": 1348
+  },
+  "i-001.jsonl": {
+   "bytes": 283455,
+   "sha256": "db0df32917589f7aed3b0f7fdd245ec1bb87611cbb9561e8a057eabcfd7156c1",
+   "rows": 853
+  },
+  "j-000.jsonl": {
+   "bytes": 449850,
+   "sha256": "825941c8d50b41aa6010944098560c7162146ac292d8811e667d00577f82292c",
+   "rows": 1399
+  },
+  "j-001.jsonl": {
+   "bytes": 449755,
+   "sha256": "a39858075721ee618ef8df59e600aae9ae7468dd10ad2143944d385854287829",
+   "rows": 1318
+  },
+  "j-002.jsonl": {
+   "bytes": 87402,
+   "sha256": "610d08d6375c16cd60f2337707990eb93a62a84b7c0c2a42ec87b5c637517d81",
+   "rows": 289
+  },
+  "k-000.jsonl": {
+   "bytes": 449989,
+   "sha256": "11a344a8cb6b356d2e05f52cd95b943e2f65b91a701c1d590bf6c50de59a2ebb",
+   "rows": 1387
+  },
+  "k-001.jsonl": {
+   "bytes": 2928,
+   "sha256": "9330728871a87d78413061879d940aff556c14cb7a2b322e504ed9877c2f0b58",
+   "rows": 12
+  },
+  "l-000.jsonl": {
+   "bytes": 449960,
+   "sha256": "607cea4e07df39d9a7a382c4501a33baa636c0e3947814129e5f0764ad7fbb4a",
+   "rows": 1398
+  },
+  "l-001.jsonl": {
+   "bytes": 449770,
+   "sha256": "fc7151619f89cf26380ce8c7629274a7b8fd9db066d8255641f49934d61c98e2",
+   "rows": 1317
+  },
+  "l-002.jsonl": {
+   "bytes": 301492,
+   "sha256": "8a23576df25a7ec9bc8b46ed2f65d76cac410d6266c1bbd9002ffbecdea6f76e",
+   "rows": 889
+  },
+  "m-000.jsonl": {
+   "bytes": 449631,
+   "sha256": "ca1bff302db6667aad18aab941992df06cccd69de4f749b8dba65e717cfb7a24",
+   "rows": 1340
+  },
+  "m-001.jsonl": {
+   "bytes": 449876,
+   "sha256": "d138280104b9f270ce715f0e3972addc337e2853ae94f7b7c9942e8bdbc828ba",
+   "rows": 1382
+  },
+  "m-002.jsonl": {
+   "bytes": 449859,
+   "sha256": "dd4ddd84ae94ddba9820225f97bb89fac2476ea41772fc2b2684d9990d5dadd4",
+   "rows": 1429
+  },
+  "m-003.jsonl": {
+   "bytes": 449896,
+   "sha256": "b21626395cd445259ea32ff77c378bdba8bc9a11f6e5c2248c01dd493ed836bf",
+   "rows": 1391
+  },
+  "m-004.jsonl": {
+   "bytes": 449786,
+   "sha256": "49f3190cfb55c741b4bc59456351a11bd365b1fb2fef751f33f47540badb3fce",
+   "rows": 1381
+  },
+  "m-005.jsonl": {
+   "bytes": 449845,
+   "sha256": "659b747b8d0b2ea33a9312a727a9f8535985c2c254e3bc1d3a3c06b48dd2dbd8",
+   "rows": 1383
+  },
+  "m-006.jsonl": {
+   "bytes": 449797,
+   "sha256": "c364847ecac40c81bb0b7ee76f5ac3a0acedc500edbc56dddce6cd6f11cab68a",
+   "rows": 1372
+  },
+  "m-007.jsonl": {
+   "bytes": 449616,
+   "sha256": "fb64dd237da4b99994d4182b9c729992b68f272f38faf4339d4251c757d6c201",
+   "rows": 1333
+  },
+  "m-008.jsonl": {
+   "bytes": 363319,
+   "sha256": "4c5efdb27a8f7d131e28f254f60775b13713e72b8543c3cba77f64621f8c58b8",
+   "rows": 1066
+  },
+  "n-000.jsonl": {
+   "bytes": 449821,
+   "sha256": "41d7785c851f14d0848213694fb09bf57e94fc33793a1b7472de61fd4a90339c",
+   "rows": 1385
+  },
+  "n-001.jsonl": {
+   "bytes": 23815,
+   "sha256": "2d57ef416c508084b3b822de42e6774c08e79f153f425f83f23e4f4b428985b3",
+   "rows": 74
+  },
+  "o-000.jsonl": {
+   "bytes": 449896,
+   "sha256": "4a9c6a48191de1ac479575806e808d2d58c7b622acb5769331c971992998076c",
+   "rows": 1428
+  },
+  "o-001.jsonl": {
+   "bytes": 449864,
+   "sha256": "fc7251d8c5594cdee286d1e1f2b95018519f9db4347a616d97a711ef79edc046",
+   "rows": 1436
+  },
+  "o-002.jsonl": {
+   "bytes": 152676,
+   "sha256": "51449a5a227789afae59dd99ba82183f12351bec021c3f38f153b4beaebe2d94",
+   "rows": 482
+  },
+  "p-000.jsonl": {
+   "bytes": 449934,
+   "sha256": "df1f77b4f27d3be249acf589c9fc661aeb818642f9f21a401f79a61d973f631f",
+   "rows": 1476
+  },
+  "p-001.jsonl": {
+   "bytes": 449834,
+   "sha256": "ae206fa77606fcf6ed212b081e0039c3c8a75583ba603556907faf2fc9ebdedf",
+   "rows": 1388
+  },
+  "p-002.jsonl": {
+   "bytes": 449765,
+   "sha256": "890b65c3dc9643cbd9d905aad0ba692758f05bec3114b8d5e7662bbfbe13308b",
+   "rows": 1408
+  },
+  "p-003.jsonl": {
+   "bytes": 449852,
+   "sha256": "f87293714f83ce28c133b43e2dda5ec3634a2f61b86f2184ed05d9ca189de640",
+   "rows": 1380
+  },
+  "p-004.jsonl": {
+   "bytes": 449983,
+   "sha256": "bef7bff8ce1b98b190cad5f559244f63f9d97ebd5022710e81d05cf0f142c85a",
+   "rows": 1352
+  },
+  "p-005.jsonl": {
+   "bytes": 449870,
+   "sha256": "e912768462bd31441184897ccf226afc983fbebc64c3031f2127c4e327b47b7c",
+   "rows": 1321
+  },
+  "p-006.jsonl": {
+   "bytes": 449965,
+   "sha256": "5ca1de37a263c799f99a2014388f348c7b30c34c0a29b0c96cd1ed3401f6d873",
+   "rows": 1304
+  },
+  "p-007.jsonl": {
+   "bytes": 449859,
+   "sha256": "c0376b5ab0ee2594ade4d705d82d9c10cc60b1280e67dd2b75701b8339f46d35",
+   "rows": 1332
+  },
+  "p-008.jsonl": {
+   "bytes": 449919,
+   "sha256": "df66862c1cb8b3be18503a59730a91aa08443141d261ce0ace1af89ddd99d86a",
+   "rows": 1329
+  },
+  "p-009.jsonl": {
+   "bytes": 449592,
+   "sha256": "5a3cd2334531b6185ebb27613119b21528a142fe9b0f9cacf4a51c3da9a5785e",
+   "rows": 1407
+  },
+  "p-010.jsonl": {
+   "bytes": 449933,
+   "sha256": "902901ea4a05288f12fd6db602bc5b4e096a3fc9eae3cc5db3d460dbcc40a49c",
+   "rows": 1447
+  },
+  "p-011.jsonl": {
+   "bytes": 449826,
+   "sha256": "805275f7e5da6754979b5a7d20b185b08e2e01557a81140ea957e2d54bc46f52",
+   "rows": 1469
+  },
+  "p-012.jsonl": {
+   "bytes": 449917,
+   "sha256": "cc7d11df66ee27d4c0521e4b449e7a15c26e420b735109654a053c13afd33f38",
+   "rows": 1451
+  },
+  "p-013.jsonl": {
+   "bytes": 449762,
+   "sha256": "3196d8fb79477859aed293c00eb1e1db1707226a0191f4fb2940edd5d2dfe19e",
+   "rows": 1471
+  },
+  "p-014.jsonl": {
+   "bytes": 449782,
+   "sha256": "56b5f724dc03ead99280130937032a531bd0829cb32eb64cbd6df5420380f349",
+   "rows": 1344
+  },
+  "p-015.jsonl": {
+   "bytes": 324190,
+   "sha256": "e62e553a7939b47abd84a462af1c5ee30b7bc8b2bc86f2369329524edca86bb8",
+   "rows": 972
+  },
+  "q-000.jsonl": {
+   "bytes": 3250,
+   "sha256": "16cbde50fc827a0b498bbdbc4981c1b7523ed10108af1da947aaf8b00f6d2a08",
+   "rows": 11
+  },
+  "r-000.jsonl": {
+   "bytes": 449992,
+   "sha256": "38ab829b29c3a9f89b9141a4dfa5cf7cde2c69f8f47fab4bef7e7d99e470540b",
+   "rows": 1364
+  },
+  "r-001.jsonl": {
+   "bytes": 252380,
+   "sha256": "3c73db82c3dcc6383798a7607b787259d6a7d4a47aad7bace4d090016894cc77",
+   "rows": 776
+  },
+  "s-000.jsonl": {
+   "bytes": 449913,
+   "sha256": "00df8e2ee1a1c128ab2c405f4f40f49ce75ed30e26d46f34f2af420fecc6dea1",
+   "rows": 1425
+  },
+  "s-001.jsonl": {
+   "bytes": 449732,
+   "sha256": "26701efdb73606294103e8a73500527f5078214d0ac085027d888720efb3781a",
+   "rows": 1425
+  },
+  "s-002.jsonl": {
+   "bytes": 449754,
+   "sha256": "c5f4c93a67e2c3a45cc6c5b0f6a2128cdbece51cd71a5ead329c3ee86443ae22",
+   "rows": 1379
+  },
+  "s-003.jsonl": {
+   "bytes": 449929,
+   "sha256": "ad4e1ddad483fdd1f21cd0a732959bcac1c38a969124e7a8ee16372c23583eb7",
+   "rows": 1427
+  },
+  "s-004.jsonl": {
+   "bytes": 449933,
+   "sha256": "c8626a493958707354d4893dfeca1f8827b960d0014430088687c98df49ed5d7",
+   "rows": 1331
+  },
+  "s-005.jsonl": {
+   "bytes": 449970,
+   "sha256": "8a704b0f02a94a0459afe33e0ffb243c48dcda219f6f692bf59ea5e7f5624b51",
+   "rows": 1330
+  },
+  "s-006.jsonl": {
+   "bytes": 90751,
+   "sha256": "023bce7aba95839e2bcd9d291a74b2c65b64f45311020366e94fba648f93ac1e",
+   "rows": 296
+  },
+  "t-000.jsonl": {
+   "bytes": 449821,
+   "sha256": "8c8dd88962b40a738f275def8c163aef18d8a90291f95d02382ece43925ec588",
+   "rows": 1577
+  },
+  "t-001.jsonl": {
+   "bytes": 449914,
+   "sha256": "cbf7a1c24e35c77fe59d160c1d394d31468d05adee6dee16533d678805700370",
+   "rows": 1462
+  },
+  "t-002.jsonl": {
+   "bytes": 449788,
+   "sha256": "d5c756642086cc6900e556ce54726110bee470f38892350230c35cb4e1fb743b",
+   "rows": 1503
+  },
+  "t-003.jsonl": {
+   "bytes": 449981,
+   "sha256": "04219c1e6a1d9c3af4ae7de1b65f0ae38f667bf89c5934acd59eb9837fd0be99",
+   "rows": 1463
+  },
+  "t-004.jsonl": {
+   "bytes": 449903,
+   "sha256": "635355d61d152e01141ea38093bce0078b26d82f8c9ab2bfdffb0848b2559ad8",
+   "rows": 1380
+  },
+  "t-005.jsonl": {
+   "bytes": 242533,
+   "sha256": "bb3dc377dc7015c95f58e7bfb7da42a22fcdcb1d45920ba5c495b616817a451a",
+   "rows": 827
+  },
+  "u-000.jsonl": {
+   "bytes": 449798,
+   "sha256": "6c1d2900719f0e11439ea92c42ff0aa8c403c65a2440d13e92171a7e9bdc96f3",
+   "rows": 1386
+  },
+  "u-001.jsonl": {
+   "bytes": 426659,
+   "sha256": "4424382c7fd273b2a437aba8c26fd8dba775a4c1bdb6620646d80796d69edd3f",
+   "rows": 1385
+  },
+  "v-000.jsonl": {
+   "bytes": 399349,
+   "sha256": "106db6d721beece6243a5aa9973aa062db9a0fc8d175d6910a320de11f46df4a",
+   "rows": 1234
+  },
+  "w-000.jsonl": {
+   "bytes": 449970,
+   "sha256": "e213ade15d7083acba7ae176230b353f66e92dd231a663b0835952ceacea60d0",
+   "rows": 1423
+  },
+  "w-001.jsonl": {
+   "bytes": 449787,
+   "sha256": "83110c1379175d57cf0da1209a3b1cdd0c6ee8ba1dc9770d9f17ceb4ccdd8d06",
+   "rows": 1377
+  },
+  "w-002.jsonl": {
+   "bytes": 249646,
+   "sha256": "10555405603fea2b0e6644db451f1d7586640e35ebc1971dceb2669d9d618ebd",
+   "rows": 757
+  },
+  "x-000.jsonl": {
+   "bytes": 105395,
+   "sha256": "192d455da7486b5ded57c6b580964fa9c30993d049a960b3233b2b630e99c0a0",
+   "rows": 309
+  },
+  "y-000.jsonl": {
+   "bytes": 174187,
+   "sha256": "d49fdb0a186aba68b37a6b84847687d5766818bd73080f5814ad016ce5552695",
+   "rows": 604
+  },
+  "z-000.jsonl": {
+   "bytes": 272954,
+   "sha256": "3cd33be68cb9b7f390999d879e877e789494edc58203a237550ff7ced1ecd2ba",
+   "rows": 833
+  }
+ },
+ "total_printings": 119509,
+ "total_shards": 105
+}
