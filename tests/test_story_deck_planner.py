@@ -1,3 +1,4 @@
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -28,6 +29,19 @@ def entry(page, name, anchor, kind, links=None, enriched=()):
 
 
 class StoryDeckPlannerTests(unittest.TestCase):
+    def test_shipped_karn_example_is_complete_but_not_auto_approved(self):
+        path = Path(__file__).resolve().parents[1] / "data/lore_decks/examples/karn_life_story_draft.json"
+        spec = json.loads(path.read_text(encoding="utf-8"))
+        result = assemble(spec)
+        self.assertEqual(result["total"], 100)
+        self.assertEqual(result["validation"]["status"], "not_run")
+        names = result["decklist"].splitlines()
+        self.assertFalse(any("Mycosynth Lattice" in row for row in names))
+        self.assertEqual(result["basic_slots"], 19)
+        self.assertEqual(len(result["reasons"]), 80)
+        self.assertTrue(all(card.get("source", "").startswith("https://scryfall.com/card/")
+                            for beat in spec["beats"] for card in beat["cards"]))
+
     def test_dual_subject_story_beats_have_distinct_evidence_and_order_caveats(self):
         index = {"items": [
             entry("Characters Index.md", "Nicol Bolas", "nicol-bolas", "character",

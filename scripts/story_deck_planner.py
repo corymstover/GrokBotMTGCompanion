@@ -187,6 +187,12 @@ def assemble(spec, validator=None):
         result["validation"] = {"status": "passed" if not hard else "failed", "hard_issues": hard,
                                 "count": facts["total"], "color_identity": facts.get("ci"),
                                 "claim": "Validated against supplied current card data" if not hard else "Illegal or unresolved"}
+        if "bracket_floor" in facts:
+            result["validation"].update({"minimum_bracket_without_combo_audit": facts["bracket_floor"],
+                "game_changers": facts.get("game_changers", []),
+                "mass_land_denial": facts.get("mass_land_denial", []),
+                "lands": facts.get("lands"),
+                "bracket_note": "two-card infinite combos not yet independently checked"})
     return result
 
 
@@ -199,6 +205,8 @@ def main(argv=None):
     a = sub.add_parser("assemble")
     a.add_argument("spec", type=Path)
     a.add_argument("--validate", action="store_true")
+    a.add_argument("--bulk-file", type=Path, default=None,
+                   help="explicit local Scryfall JSONL/JSONL.gz for this lore test; does not alter the frozen Grixis lock")
     args = parser.parse_args(argv)
     try:
         if args.action == "plan":
@@ -213,11 +221,37 @@ def main(argv=None):
             if args.validate:
                 import evaluate_decklist as ev
                 try:
-                    R = ev.Resolver()
+                    # The main Grixis work has a frozen snapshot lock. Testing
+                    # a separate lore deck may name another explicit source,
+                    # but must never rewrite, delete, or silently replace it.
+                    original_get_bulk = ev.ing.get_bulk
+                    if args.bulk_file:
+                        source = args.bulk_file.resolve()
+                        if not source.is_file():
+                            parser.error(f"source not found: {source}")
+                        def explicit_bulk(cache, unused, kind="oracle-cards"):
+                            if kind == "oracle-cards":
+                                return original_get_bulk(cache, str(source), kind)
+                            return original_get_bulk(cache, unused, kind)
+                        ev.ing.get_bulk = explicit_bulk
+                    try:
+                        R = ev.Resolver()
+                    finally:
+                        ev.ing.get_bulk = original_get_bulk
                 except (OSError, IndexError) as exc:
                     parser.error(f"validation source unavailable: {exc}; cannot claim Commander legality")
-                validator = lambda deck: dict(ev.check(deck, R), hard_types=ev.HARD)
+                def validate_deck(deck):
+                    d = ev.check(deck, R)
+                    floor, gc, mld = ev.bracket_floor(d["cards"])
+                    d.update(hard_types=ev.HARD, bracket_floor=floor,
+                             game_changers=gc, mass_land_denial=mld,
+                             lands=sum(x["qty"] for x in d["cards"]
+                                       if "Land" in x["type"].split(" // ")[0].split("—")[0]))
+                    return d
+                validator = validate_deck
             result = assemble(spec, validator)
+            if args.validate:
+                result["validation"]["source"] = str(args.bulk_file.resolve()) if args.bulk_file else "repository frozen snapshot"
     except (OSError, ValueError) as exc:
         parser.error(str(exc))
     print(json.dumps(result, indent=2, ensure_ascii=False))

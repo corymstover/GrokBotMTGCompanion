@@ -40,8 +40,11 @@ The canonical 62 approved Grixis decks and their frozen source snapshot stay **l
 python3 scripts/story_deck_planner.py plan "Ugin vs Nicol Bolas"
 python3 scripts/story_deck_planner.py assemble proposed_deck.json
 python3 scripts/story_deck_planner.py assemble proposed_deck.json --validate
+python3 scripts/story_deck_planner.py assemble proposed_deck.json --validate --bulk-file /path/to/explicit-Scryfall-bulk.jsonl.gz
 ```
 
 A spec needs `theme`, `commander`, ordered `beats` (each with `title`, `lore_keys`, and `cards` containing `name`, `why`, `evidence`, and optional `source`), optional `playability` (each card has name/why), and a `basics` map (e.g. `{"Island": 28}`). The assembler does **not** silently add staples or lands; it identifies how many slots remain. It rejects duplicate names, unsupported direct-official labels, and playability cards without a reason. A legality claim requires `--validate` to pass against the existing Commander evaluator and an available card bulk snapshot. Lore claims remain author-supplied until independently corroborated; rule validation does not verify story accuracy.
+
+An unapproved but fully checked colorless prototype lives in [Karn life story draft](data/lore_decks/examples/karn_life_story_draft.md), with its [machine-readable evidence spec](data/lore_decks/examples/karn_life_story_draft.json). Its 100 cards pass Commander hard-rule checks against the explicitly supplied 2026-10-28 Scryfall source; the published minimum-bracket estimate excludes combo verification. It is **a demonstration, not a locked or approved Cory deck**.
 
 For the live readiness status, use [GitHub issue #758](https://github.com/corymstover/GrokBotMTGCompanion/issues/758). The repository is still undergoing the limited deck-builder and benchmark stages; this is a quickstart for the retrieval features already working.

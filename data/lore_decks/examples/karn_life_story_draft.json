@@ -1,0 +1,961 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "Karn: From Urza's Silver Golem to Mirrodin's Redemption",
+  "commander": "Karn, Legacy Reforged",
+  "beats": [
+    {
+      "title": "Urza's Legacy: the Brothers' War, the silver golem, and the Thran",
+      "lore_keys": [
+        "Characters Index.md#karn",
+        "Characters Index.md#urza",
+        "Master Timeline.md#brothers-war--phyrexian-wars"
+      ],
+      "cards": [
+        {
+          "name": "Karn, Silver Golem",
+          "why": "The original silver golem's own legendary card anchors Karn's early life.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api",
+          "printing": {
+            "set": "usg",
+            "collector_number": "298"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Thran Golem",
+          "why": "Its printed flavor compares another golem's purpose to Karn's worth to Urza.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/uds/141/thran-golem?utm_source=api",
+          "printing": {
+            "set": "uds",
+            "collector_number": "141"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Power Matrix",
+          "why": "Its flavor text traces Karn repairing the Weatherlight's planeswalking engine.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mb2/229/power-matrix?utm_source=api",
+          "printing": {
+            "set": "mb2",
+            "collector_number": "229"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Thran Dynamo",
+          "why": "A power source connected by flavor to Urza's mechanical ambitions.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/uds/139/thran-dynamo?utm_source=api",
+          "printing": {
+            "set": "uds",
+            "collector_number": "139"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Thran Foundry",
+          "why": "Urza's reclamation ethic appears in the printed quote.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/uds/140/thran-foundry?utm_source=api",
+          "printing": {
+            "set": "uds",
+            "collector_number": "140"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Thran Temporal Gateway",
+          "why": "The Thran artifact legacy bridges ancient technology and Karn's origins.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dom/233/thran-temporal-gateway?utm_source=api",
+          "printing": {
+            "set": "dom",
+            "collector_number": "233"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Gilded Lotus",
+          "why": "Karn's printed reflection on his hopes for Mirrodin and past failures.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dom/215/gilded-lotus?utm_source=api",
+          "printing": {
+            "set": "dom",
+            "collector_number": "215"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Worn Powerstone",
+          "why": "A powerstone fragment evokes the engines of the Legacy.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/c18/230/worn-powerstone?utm_source=api",
+          "printing": {
+            "set": "c18",
+            "collector_number": "230"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Powerstone Shard",
+          "why": "Its flavor recounts the way powerstones refract planar energy through Urza's eyes.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dom/227/powerstone-shard?utm_source=api",
+          "printing": {
+            "set": "dom",
+            "collector_number": "227"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Incubator",
+          "why": "Its flavor depicts Urza's conflicted role as a creator and father.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/uds/142/urzas-incubator?utm_source=api",
+          "printing": {
+            "set": "uds",
+            "collector_number": "142"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Armor",
+          "why": "Tawnos's blueprints and Urza's steel-bound body prefigure Karn's creation.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/usg/313/urzas-armor?utm_source=api",
+          "printing": {
+            "set": "usg",
+            "collector_number": "313"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Avenger",
+          "why": "An early artificer's golem design from Urza's workshop.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/atq/74/urzas-avenger?utm_source=api",
+          "printing": {
+            "set": "atq",
+            "collector_number": "74"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Tome",
+          "why": "The written memory of Urza's artifice and long research.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dom/235/urzas-tome?utm_source=api",
+          "printing": {
+            "set": "dom",
+            "collector_number": "235"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Saga",
+          "why": "A land-Saga that tells the Legacy's broader history through its chapters.",
+          "evidence": "curated_name_or_object_contextual",
+          "source": "https://scryfall.com/card/pmh2/259s/urzas-saga?utm_source=api",
+          "printing": {
+            "set": "pmh2",
+            "collector_number": "259s"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Workshop",
+          "why": "Urza's machine workshop and Tocasia's influence, per its flavor.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/brc/28/urzas-workshop?utm_source=api",
+          "printing": {
+            "set": "brc",
+            "collector_number": "28"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Mine",
+          "why": "Powerstone mining from Dominaria's ancient past.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/2xm/329/urzas-mine?utm_source=api",
+          "printing": {
+            "set": "2xm",
+            "collector_number": "329"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Power Plant",
+          "why": "Urza's escalating experiments and search for perfection.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/j22/830/urzas-power-plant?utm_source=api",
+          "printing": {
+            "set": "j22",
+            "collector_number": "830"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Tower",
+          "why": "Urza's study of Thran construction and desire to surpass it.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/atq/85c/urzas-tower?utm_source=api",
+          "printing": {
+            "set": "atq",
+            "collector_number": "85c"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Tocasia's Dig Site",
+          "why": "The cave expedition that began Urza and Mishra's story.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/bro/266/tocasias-dig-site?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "266"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Mishra's Factory",
+          "why": "The old war machine factory in the Brothers' War's aftermath.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/atq/80b/mishras-factory?utm_source=api",
+          "printing": {
+            "set": "atq",
+            "collector_number": "80b"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Mishra's Foundry",
+          "why": "The machinery of Mishra's side of the war in modern retellings.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/bro/265/mishras-foundry?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "265"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Hall of Tagsin",
+          "why": "The Thran powerstone site that begins the Brothers' War.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/bro/263/hall-of-tagsin?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "263"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Urza's Cave",
+          "why": "Urza's deep research and regrets revisited by the land's flavor.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mh3/234/urzas-cave?utm_source=api",
+          "printing": {
+            "set": "mh3",
+            "collector_number": "234"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Sculpting Steel",
+          "why": "Tawnos's self-assembling metals echo Karn's shaping of artifact life.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/brr/113z/sculpting-steel?utm_source=api",
+          "printing": {
+            "set": "brr",
+            "collector_number": "113z"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Bottle Gnomes",
+          "why": "A printing quotes Karn's fable of the silver egg and its humble center.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/wc99/js278/bottle-gnomes?utm_source=api",
+          "printing": {
+            "set": "wc99",
+            "collector_number": "js278"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "The Mightstone and Weakstone",
+          "why": "The old powerstone halves recur in Karn's inherited Legacy.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/bro/238/the-mightstone-and-weakstone?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "238"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "The Stasis Coffin",
+          "why": "Tawnos's sealed time-displacement artifact connects past and present.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/bro/245/the-stasis-coffin?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "245"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        }
+      ],
+      "official_sources": [
+        "https://magic.wizards.com/en/story/urza-planeswalker",
+        "https://magic.wizards.com/en/story/karn-planeswalker"
+      ]
+    },
+    {
+      "title": "Karn creates Argentum and entrusts it to Memnarch",
+      "lore_keys": [
+        "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+        "Planes Index.md#mirrodin-before-phyrexia"
+      ],
+      "cards": [
+        {
+          "name": "Mirari",
+          "why": "Karn later transforms the dangerous Mirari into the sentient caretaker who becomes Memnarch—not the material used to make Argentum.",
+          "evidence": "curated_name_or_object_contextual",
+          "source": "https://scryfall.com/card/v10/9/mirari?utm_source=api",
+          "printing": {
+            "set": "v10",
+            "collector_number": "9"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Forge",
+          "why": "A named Mirrodin forge whose flavor questions its impossible origins.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dst/110/darksteel-forge?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "110"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Citadel",
+          "why": "The Panopticon and the seat of Mirrodin's keeper, per printed flavor.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/brc/180/darksteel-citadel?utm_source=api",
+          "printing": {
+            "set": "brc",
+            "collector_number": "180"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Mirrodin's Core",
+          "why": "The source-plane's own central land card.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dst/165/mirrodins-core?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "165"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Ur-Golem's Eye",
+          "why": "The remnant of Karn's protector-creation, whose flavor accuses Memnarch.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dst/155/ur-golems-eye?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "155"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Argentum Armor",
+          "why": "Its flavor explicitly names Mirrodin's still-living creator.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/som/137/argentum-armor?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "137"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Memnarch, the Warden",
+          "why": "The plane's increasingly tyrannical guardian, created from the Mirari.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/frc/100/memnarch-the-warden?utm_source=api",
+          "printing": {
+            "set": "frc",
+            "collector_number": "100"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Memnite",
+          "why": "Memnarch's legacy reflected in the plane's small artifact creatures.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/som/174/memnite?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "174"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Mycosynth Golem",
+          "why": "Mirrodin's artificial organism before and during the spread of oil.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/5dn/137/mycosynth-golem?utm_source=api",
+          "printing": {
+            "set": "5dn",
+            "collector_number": "137"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Leveler",
+          "why": "Memnarch's century-spanning hunters ravage Mirrodin in printed flavor.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mrd/195/leveler?utm_source=api",
+          "printing": {
+            "set": "mrd",
+            "collector_number": "195"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Coretapper",
+          "why": "A Mirrodin core-worker feeding Memnarch's creations.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dst/107/coretapper?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "107"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Genesis Chamber",
+          "why": "Memnarch's machine reproduction system in the original Mirrodin era.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/dst/122/genesis-chamber?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "122"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Myr Retriever",
+          "why": "A Myr laborer tied to the world's machine ecology.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/mrd/215/myr-retriever?utm_source=api",
+          "printing": {
+            "set": "mrd",
+            "collector_number": "215"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Myr Battlesphere",
+          "why": "Mirrodin's many-machine armies and Myr culture in one card.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/som/180/myr-battlesphere?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "180"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Myr Turbine",
+          "why": "A factory engine for the Myr that Memnarch deployed.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/mbs/117/myr-turbine?utm_source=api",
+          "printing": {
+            "set": "mbs",
+            "collector_number": "117"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Icy Manipulator",
+          "why": "Its Mirrodin printing calls it a model of the plane in shape and spirit.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mrd/186/icy-manipulator?utm_source=api",
+          "printing": {
+            "set": "mrd",
+            "collector_number": "186"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Tower of Fortunes",
+          "why": "Flavor chronicles Mirrodin's creator and Memnarch's later betrayal.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mrd/267/tower-of-fortunes?utm_source=api",
+          "printing": {
+            "set": "mrd",
+            "collector_number": "267"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Ingot",
+          "why": "An artifact whose printed flavor recalls Mirrodin before Phyrexia.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/c13/241/darksteel-ingot?utm_source=api",
+          "printing": {
+            "set": "c13",
+            "collector_number": "241"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Reactor",
+          "why": "An iconic example of the plane's indestructible darksteel technology.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dst/114/darksteel-reactor?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "114"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Colossus",
+          "why": "The vast indestructible construct emblematic of darksteel's peak.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dst/109/darksteel-colossus?utm_source=api",
+          "printing": {
+            "set": "dst",
+            "collector_number": "109"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Glimmerpost",
+          "why": "A Locus whose flavor remembers the Mirrodin watcher and its absence.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/som/227/glimmerpost?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "227"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        }
+      ],
+      "official_sources": [
+        "https://magic.wizards.com/en/story/mirrodin-plane",
+        "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01"
+      ]
+    },
+    {
+      "title": "Mirrodin falls to Phyrexian oil and the multiverse invasion",
+      "lore_keys": [
+        "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse",
+        "Master Timeline.md#phyrexian-invasion",
+        "Items & Artifacts Index.md#golgothian-sylex"
+      ],
+      "cards": [
+        {
+          "name": "Mycosynth Wellspring",
+          "why": "Its printed flavor explicitly joins the oil, mycosynth, and New Phyrexia.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/nph/145/mycosynth-wellspring?utm_source=api",
+          "printing": {
+            "set": "nph",
+            "collector_number": "145"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Atlas",
+          "why": "Its printed flavor details the conquest's redesign of Mirrodin's layers.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/one/237/phyrexian-atlas?utm_source=api",
+          "printing": {
+            "set": "one",
+            "collector_number": "237"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Hulk",
+          "why": "The glistening oil's older war machines as preserved blueprints.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/nph/150/phyrexian-hulk?utm_source=api",
+          "printing": {
+            "set": "nph",
+            "collector_number": "150"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Revoker",
+          "why": "A Phyrexian machine made to punish dissent, in Venser's diary flavor.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/brr/103/phyrexian-revoker?utm_source=api",
+          "printing": {
+            "set": "brr",
+            "collector_number": "103"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Juggernaut",
+          "why": "A New Phyrexian siege-engine embodying machine supremacy.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mbs/121/phyrexian-juggernaut?utm_source=api",
+          "printing": {
+            "set": "mbs",
+            "collector_number": "121"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Triniform",
+          "why": "A massive construct of New Phyrexian military design.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/moc/370/phyrexian-triniform?utm_source=api",
+          "printing": {
+            "set": "moc",
+            "collector_number": "370"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Archivist",
+          "why": "A machine enforcing the invasion's oppressive silence.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/mom/262/phyrexian-archivist?utm_source=api",
+          "printing": {
+            "set": "mom",
+            "collector_number": "262"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Soul of New Phyrexia",
+          "why": "The metallic heart of the conquering plane.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/moc/382/soul-of-new-phyrexia?utm_source=api",
+          "printing": {
+            "set": "moc",
+            "collector_number": "382"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Wurmcoil Engine",
+          "why": "One of Mirrodin's Phyrexian-engine horrors.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/som/223/wurmcoil-engine?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "223"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Blightsteel Colossus",
+          "why": "The corruption of darksteel into a Phyrexian weapon.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/mbs/99/blightsteel-colossus?utm_source=api",
+          "printing": {
+            "set": "mbs",
+            "collector_number": "99"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Portal to Phyrexia",
+          "why": "Its flavor announces the ancient nightmare returning after millennia.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/bro/240/portal-to-phyrexia?utm_source=api",
+          "printing": {
+            "set": "bro",
+            "collector_number": "240"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "The Filigree Sylex",
+          "why": "The invasion-era echo of the bowl at the center of Karn's plan.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/one/394/the-filigree-sylex?utm_source=api",
+          "printing": {
+            "set": "one",
+            "collector_number": "394"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn's Sylex",
+          "why": "Karn's attempted answer to the threat of New Phyrexia.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dmu/234/karns-sylex?utm_source=api",
+          "printing": {
+            "set": "dmu",
+            "collector_number": "234"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Golgothian Sylex",
+          "why": "The original Brothers' War relic with an uncertain/conflicting origin.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/atq/51/golgothian-sylex?utm_source=api",
+          "printing": {
+            "set": "atq",
+            "collector_number": "51"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Monolith",
+          "why": "Printed flavor locates Phyrexian oil in Mirrodin's heart.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/cmm/743/darksteel-monolith?utm_source=api",
+          "printing": {
+            "set": "cmm",
+            "collector_number": "743"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Relic",
+          "why": "Its flavor mourns what the Mirran resistance can still claim.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/nph/134/darksteel-relic?utm_source=api",
+          "printing": {
+            "set": "nph",
+            "collector_number": "134"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Decimator Web",
+          "why": "Its flavor tracks mycosynth spreading beneath a black lacuna.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/mbs/105/decimator-web?utm_source=api",
+          "printing": {
+            "set": "mbs",
+            "collector_number": "105"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Contagion Clasp",
+          "why": "A literal artifact of New Phyrexia's proliferating contamination.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/onc/129/contagion-clasp?utm_source=api",
+          "printing": {
+            "set": "onc",
+            "collector_number": "129"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Contagion Engine",
+          "why": "The industrial machinery of infection and viral escalation.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/som/145/contagion-engine?utm_source=api",
+          "printing": {
+            "set": "som",
+            "collector_number": "145"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Processor",
+          "why": "An earlier Phyrexian engine linking old and new invasions.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/usg/306/phyrexian-processor?utm_source=api",
+          "printing": {
+            "set": "usg",
+            "collector_number": "306"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexian Dreadnought",
+          "why": "An Old Phyrexian war machine in the historical threat lineage.",
+          "evidence": "curated_name_or_object_contextual",
+          "source": "https://scryfall.com/card/g10/3/phyrexian-dreadnought?utm_source=api",
+          "printing": {
+            "set": "g10",
+            "collector_number": "3"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Phyrexia's Core",
+          "why": "A land whose flavor mourns the corruption of Mirrodin's very center.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/nph/165/phyrexias-core?utm_source=api",
+          "printing": {
+            "set": "nph",
+            "collector_number": "165"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "The Mycosynth Gardens",
+          "why": "The transformed mycosynth landscape across Mirrodin/New Phyrexia.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/one/256/the-mycosynth-gardens?utm_source=api",
+          "printing": {
+            "set": "one",
+            "collector_number": "256"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Weatherlight Compleated",
+          "why": "The corruption of the ship Karn helped develop and the Legacy crew once used.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dmu/242/weatherlight-compleated?utm_source=api",
+          "printing": {
+            "set": "dmu",
+            "collector_number": "242"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Darksteel Plate",
+          "why": "Koth's promise to fight on despite resistance's desperate odds.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/mbs/104/darksteel-plate?utm_source=api",
+          "printing": {
+            "set": "mbs",
+            "collector_number": "104"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Ichor Wellspring",
+          "why": "A Brothers' War retro-frame printing quotes Yawgmoth on self-multiplying glistening oil, directly illustrating the Phyrexian infection that spread through Mirrodin.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/brr/84z/ichor-wellspring?utm_source=api",
+          "printing": {
+            "set": "brr",
+            "collector_number": "84z"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        }
+      ],
+      "official_sources": [
+        "https://magic.wizards.com/en/story/new-phyrexia-plane",
+        "https://magic.wizards.com/en/story/mirrodin-plane"
+      ]
+    },
+    {
+      "title": "Karn's liberation, resistance, and renewed purpose",
+      "lore_keys": [
+        "Characters Index.md#karn",
+        "Conflicts & Arcs.md#march-of-the-machine-2023",
+        "Conflicts & Arcs.md#march-of-the-machine-the-aftermath-2023"
+      ],
+      "cards": [
+        {
+          "name": "Karn's Bastion",
+          "why": "A Mirrodin resistance land quoting Karn's vow to protect survivors.",
+          "evidence": "literal_printed_flavor_subject_mention",
+          "source": "https://scryfall.com/card/onc/156/karns-bastion?utm_source=api",
+          "printing": {
+            "set": "onc",
+            "collector_number": "156"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn Liberated",
+          "why": "Karn's emancipation from New Phyrexia and the pivot to resisting corruption.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/nph/1/karn-liberated?utm_source=api",
+          "printing": {
+            "set": "nph",
+            "collector_number": "1"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn, Scion of Urza",
+          "why": "His bond to Urza and his inherited role as an artificer's creation.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dom/1/karn-scion-of-urza?utm_source=api",
+          "printing": {
+            "set": "dom",
+            "collector_number": "1"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn, Living Legacy",
+          "why": "His return to Dominaria to confront the Sylex problem.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/dmu/372/karn-living-legacy?utm_source=api",
+          "printing": {
+            "set": "dmu",
+            "collector_number": "372"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn, the Great Creator",
+          "why": "His role as maker and guardian of artifact worlds.",
+          "evidence": "curated_name_or_object_contextual",
+          "source": "https://scryfall.com/card/sld/501/karn-the-great-creator?utm_source=api",
+          "printing": {
+            "set": "sld",
+            "collector_number": "501"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        },
+        {
+          "name": "Karn, Argent Defender",
+          "why": "Karn's later vows to repair the harm his creations helped cause.",
+          "evidence": "story_era_set_printing_contextual",
+          "source": "https://scryfall.com/card/fra/320/karn-argent-defender?utm_source=api",
+          "printing": {
+            "set": "fra",
+            "collector_number": "320"
+          },
+          "lore_assertion_verification": "requires_official_story_review"
+        }
+      ],
+      "official_sources": [
+        "https://magic.wizards.com/en/story/karn-planeswalker",
+        "https://magic.wizards.com/en/story/new-phyrexia-plane"
+      ]
+    }
+  ],
+  "playability": [],
+  "basics": {
+    "Wastes": 19
+  },
+  "source_snapshot": "Scryfall default-cards-20261028090549.jsonl.gz",
+  "evidence_audit": {
+    "flavor_subject": 42,
+    "story_set": 35,
+    "named_or_contextual": 4,
+    "interpretation": "Printed flavor mention and story-era printing are different evidence levels; neither automatically proves a story event."
+  },
+  "validation_target": "100-card colorless EDH prototype; separate lore card evidence from Commander-rules verification",
+  "canon_caveats": [
+    "Mirari became Memnarch; it was not the material used to create Argentum.",
+    "The Golgothian Sylex's original creator/history has competing official accounts; do not assert one version as settled.",
+    "Lore beat order is interpretive within chapters, not proof of precise dates for every card.",
+    "English/default-language Scryfall printing archive, not all foreign-language editions.",
+    "Mycosynth Lattice deliberately excluded from this low-bracket example: with Karn, the Great Creator it can lock opponents out of lands, and Karn, Silver Golem can animate their artifact lands into 0/0 creatures."
+  ]
+}
