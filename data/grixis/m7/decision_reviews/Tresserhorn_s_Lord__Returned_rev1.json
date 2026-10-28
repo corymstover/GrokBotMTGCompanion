@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "canonical_baseline_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+  "canonical_baseline_logical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+  "commander_identity": {
+    "mechanical_plan": "Tresserhorn's Lord, Returned is a five-mana 10/4 indestructible Zombie Warrior: three life, giving each opponent three cards and sacrificing three other creatures are a real cast/ETB cost; once on battlefield each own creature sacrifice draws a card. Prebuild cheap bodies and use Crawler/Altar, sacrifice payoffs and real attack pressure.",
+    "protected_core": [
+      "Tresserhorn's Lord, Returned",
+      "Gravecrawler",
+      "Phyrexian Altar",
+      "Ashnod's Altar",
+      "Warren Soultrader",
+      "The Locust God",
+      "Plumb the Forbidden",
+      "Jadar, Ghoulcaller of Nephalia",
+      "Ophiomancer",
+      "Infantry Shield",
+      "Wand of Orcus",
+      "Not of This World"
+    ],
+    "natural_ceiling": "Power Bracket 4 — Optimized sacrifice/aristocrats with a 10-power resilient commander, finite library/life limits and a real three-creature entry constraint; no proven statistical cEDH or guaranteed infinite wins.",
+    "anti_homogenization": "Retain the unique three-sacrifice ETB setup, commander-driven creature-sacrifice draws and zombie recursion rather than adding unrelated Grixis Oracle/Breach combo packages. Premium free counters are only selected as a practical protection tradeoff."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All 99 prior noncommander physical cards were audited from Oct15; prepared fodder producers, death/draw loops, token and free outlets, recursive Zombies, enchantment/sweepers, commander protection, color pips, 10-power attack finish and tapland costs challenged. A separate exact-source 100/94-name source and 7 real substitutions preserve the core and add card-specific interaction; no existing card is arbitrarily removed to reach seven swaps.",
+    "mana_base_and_curve": "The exact final 100 has 32 front-face lands plus Boggart Trawler // Boggart Bog and Agadeem's Awakening // Agadeem, the Undercrypt as land MDFCs; one Swamp replaces with tapped-or-3-life modal black land. This costs early basic reliability against late graveyard recursion. Lord needs UBR + two generic with available three creature fodder, not merely five mana.",
+    "interaction_resilience": "Deflecting Swat can redirect one legally targetable effect with commander active, not mass destruction. Fierce Guardianship is free only if Lord is controlled and cannot stop creature spells; original Not of This World protects 7+ power-targeted Lord. Meathook can kill own indestructible 10/4 at X=4 or greater. Fodder and graveyard hate remain vulnerabilities.",
+    "weakest_slots": [
+      {
+        "card": "Dark Ritual",
+        "weakness": "Full-99 incumbent challenge: Dark Ritual supplies a real original plan role, but the proposed Genesis Chamber directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Genesis Chamber",
+        "reasoning": "Two-mana Genesis Chamber pays in actual Myr creature fodder from subsequent nontoken creature casts, including independent sacrifice bodies before Lord arrives. Adversarial cost: Its symmetric triggers grant opponents Myr and consume a deck slot once used for a one-shot BBB ritual."
+      },
+      {
+        "card": "Endrek Sahr, Master Breeder",
+        "weakness": "Full-99 incumbent challenge: Endrek Sahr, Master Breeder supplies a real original plan role, but the proposed Sengir Autocrat directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Sengir Autocrat",
+        "reasoning": "Four-mana Autocrat creates three Serfs immediately, supporting a five-mana Lord next turn with three real creature sacrifices. Adversarial cost: Autocrat leaving exiles all Serfs; five-mana Endrek's later creature casts can yield more persistent Thrulls and higher repeatable ceiling."
+      },
+      {
+        "card": "Village Rites",
+        "weakness": "Full-99 incumbent challenge: Village Rites supplies a real original plan role, but the proposed Deflecting Swat directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Zero mana to redirect a legal target when Lord is controlled increases survival and can disrupt enemy targeting at the five-mana deployment turn. Adversarial cost: Can be three-mana dead weight precommander and cannot retarget spells without another legal target; loses one-mana creature-for-two-card draw."
+      },
+      {
+        "card": "Stubborn Denial",
+        "weakness": "Full-99 incumbent challenge: Stubborn Denial supplies a real original plan role, but the proposed Fierce Guardianship directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "Free hard noncreature counter while Lord is on battlefield defends a nearly tapped-out commander-centric turn. Adversarial cost: Costs three mana without commander versus one-blue Stubborn Denial; a generic premium spell risks homogenizing the native sacrifice package."
+      },
+      {
+        "card": "Tempt with Vengeance",
+        "weakness": "Full-99 incumbent challenge: Tempt with Vengeance supplies a real original plan role, but the proposed Song of Totentanz directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Song of Totentanz",
+        "reasoning": "Generates exactly X Rat creatures without opponent cooperation and grants haste to creatures already controlled to accelerate a Lord's attack after casting. Adversarial cost: Generated Rats cannot block; haste applies only to creatures already controlled at resolution and forfeits sometimes-extra Tempt tokens."
+      },
+      {
+        "card": "Blasphemous Edict",
+        "weakness": "Full-99 incumbent challenge: Blasphemous Edict supplies a real original plan role, but the proposed The Meathook Massacre directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "The Meathook Massacre",
+        "reasoning": "Scalable toughness reduction plus persistent creature-death drain and opponent-death lifegain combine board cleanup with the Lord sacrifice engine. Adversarial cost: X at least four kills the 10/4 indestructible Lord via zero toughness; expensive large sweeps and loses cheap wide-board edict."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "Full-99 incumbent challenge: Swamp supplies a real original plan role, but the proposed Agadeem's Awakening // Agadeem, the Undercrypt directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Agadeem's Awakening // Agadeem, the Undercrypt",
+        "reasoning": "Spell-land gives black mana as a land or returns differently costed sacrifice creatures late for another Lord ETB payment. Adversarial cost: Land face costs three life for untapped use, otherwise enters tapped; one fewer true basic Swamp with printed mana symbol reliability."
+      },
+      {
+        "card": "Nightscape Familiar",
+        "weakness": "Retained early Zombie discount was challenged for additional death-triggering Eldrazi Spawn.",
+        "alternative_named": "Pawn of Ulamog",
+        "reasoning": "Familiar consistently reduces generic Lord cost and enables Gravecrawler; Pawn only triggers on nontoken death and loses the two-mana Zombie body."
+      },
+      {
+        "card": "Mountain",
+        "weakness": "A basic untapped red source challenged by a modal instant-power finisher.",
+        "alternative_named": "Kazuul's Fury // Kazuul's Cliffs",
+        "reasoning": "An instant ten-damage sacrifice channel is attractive, but the tapped land and sacrificing Lord can trade away repeatable draw and the attack engine."
+      },
+      {
+        "card": "Chasm Skulker",
+        "weakness": "Token bank scales on many draws from Lord at low mana investment.",
+        "alternative_named": "Sifter of Skulls",
+        "reasoning": "Sifter makes Spawn on nontoken creature death only, so it misses numerous actual creature-token sacrifices that support Lord's triggers."
+      },
+      {
+        "card": "Chittering Witch",
+        "weakness": "Four-player Witch provides repeated sacrifice leverage and four bodies.",
+        "alternative_named": "Beetleback Chief",
+        "reasoning": "Chief supplies only three bodies and no removal/outlet; it cannot displace the Witch's commander-setup role."
+      }
+    ],
+    "current_baseline_strength": "The exact owner-approved October 15 100 already had coherent Bracket 4 Zombie/Altar/Plumb and Lord attack synergies; the historical Pass C KEEP judged that old source without full Phase B, not this new 100. It was never a wrong list.",
+    "candidate_pool_scope": "At least fourteen material add alternatives across live commander-specific EDHREC Top/High Lift, outside-ranked search and other meaningful challenged slots; complete simultaneous Alt5 and Alt9 exact 100s, 99-slot role audit and four named start-state side-by-side traces were published, with clear unresolved strategic edges.",
+    "off_ranked_search_conclusion": "OFF-RANKING challenge of Genesis Chamber, Kazuul's Fury, Dread Return, Chthonian Nightmare and Tombstone Stairwell against their real cuts; exact high-count Alt9 exposes tapped-land and narrower token-death consequences, not a rationale to manufacture swaps."
+  },
+  "candidate_sources": [
+    "Oct15 approved raw 100 SHA 8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8 and full M6 Tresserhorn role review/blueprint.",
+    "Oct27 exact 94-name live Scryfall Oracle source: 93/93 other cards official legal and UBR; commander officially NOT LEGAL before 2026-11-13 under authorized release exception.",
+    "Oct27 EDHREC The Tresserhorn Lord page Top Cards/High Lift and OFF-RANKING Genesis Chamber, Meathook, Kazuul Fury candidate discovery.",
+    "Original 5 P0/10 P1 bounded cases plus 4 named-state same-start comparisons, no full M6 Phase B or randomized multiplayer outcomes."
+  ],
+  "material_candidates": [
+    {
+      "card": "Genesis Chamber",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Two-mana Genesis Chamber pays in actual Myr creature fodder from subsequent nontoken creature casts, including independent sacrifice bodies before Lord arrives.",
+      "named_cuts": [
+        "Dark Ritual"
+      ],
+      "incumbent_opportunity_cost": "Its symmetric triggers grant opponents Myr and consume a deck slot once used for a one-shot BBB ritual.",
+      "commander_synergy": "Two-mana Genesis Chamber pays in actual Myr creature fodder from subsequent nontoken creature casts, including independent sacrifice bodies before Lord arrives.",
+      "adversarial_downside": "Its symmetric triggers grant opponents Myr and consume a deck slot once used for a one-shot BBB ritual.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Two-mana Genesis Chamber pays in actual Myr creature fodder from subsequent nontoken creature casts, including independent sacrifice bodies before Lord arrives. Real cost: Its symmetric triggers grant opponents Myr and consume a deck slot once used for a one-shot BBB ritual.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Sengir Autocrat",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Four-mana Autocrat creates three Serfs immediately, supporting a five-mana Lord next turn with three real creature sacrifices.",
+      "named_cuts": [
+        "Endrek Sahr, Master Breeder"
+      ],
+      "incumbent_opportunity_cost": "Autocrat leaving exiles all Serfs; five-mana Endrek's later creature casts can yield more persistent Thrulls and higher repeatable ceiling.",
+      "commander_synergy": "Four-mana Autocrat creates three Serfs immediately, supporting a five-mana Lord next turn with three real creature sacrifices.",
+      "adversarial_downside": "Autocrat leaving exiles all Serfs; five-mana Endrek's later creature casts can yield more persistent Thrulls and higher repeatable ceiling.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Four-mana Autocrat creates three Serfs immediately, supporting a five-mana Lord next turn with three real creature sacrifices. Real cost: Autocrat leaving exiles all Serfs; five-mana Endrek's later creature casts can yield more persistent Thrulls and higher repeatable ceiling.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Deflecting Swat",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Zero mana to redirect a legal target when Lord is controlled increases survival and can disrupt enemy targeting at the five-mana deployment turn.",
+      "named_cuts": [
+        "Village Rites"
+      ],
+      "incumbent_opportunity_cost": "Can be three-mana dead weight precommander and cannot retarget spells without another legal target; loses one-mana creature-for-two-card draw.",
+      "commander_synergy": "Zero mana to redirect a legal target when Lord is controlled increases survival and can disrupt enemy targeting at the five-mana deployment turn.",
+      "adversarial_downside": "Can be three-mana dead weight precommander and cannot retarget spells without another legal target; loses one-mana creature-for-two-card draw.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Zero mana to redirect a legal target when Lord is controlled increases survival and can disrupt enemy targeting at the five-mana deployment turn. Real cost: Can be three-mana dead weight precommander and cannot retarget spells without another legal target; loses one-mana creature-for-two-card draw.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Fierce Guardianship",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Free hard noncreature counter while Lord is on battlefield defends a nearly tapped-out commander-centric turn.",
+      "named_cuts": [
+        "Stubborn Denial"
+      ],
+      "incumbent_opportunity_cost": "Costs three mana without commander versus one-blue Stubborn Denial; a generic premium spell risks homogenizing the native sacrifice package.",
+      "commander_synergy": "Free hard noncreature counter while Lord is on battlefield defends a nearly tapped-out commander-centric turn.",
+      "adversarial_downside": "Costs three mana without commander versus one-blue Stubborn Denial; a generic premium spell risks homogenizing the native sacrifice package.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Free hard noncreature counter while Lord is on battlefield defends a nearly tapped-out commander-centric turn. Real cost: Costs three mana without commander versus one-blue Stubborn Denial; a generic premium spell risks homogenizing the native sacrifice package.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Song of Totentanz",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Generates exactly X Rat creatures without opponent cooperation and grants haste to creatures already controlled to accelerate a Lord's attack after casting.",
+      "named_cuts": [
+        "Tempt with Vengeance"
+      ],
+      "incumbent_opportunity_cost": "Generated Rats cannot block; haste applies only to creatures already controlled at resolution and forfeits sometimes-extra Tempt tokens.",
+      "commander_synergy": "Generates exactly X Rat creatures without opponent cooperation and grants haste to creatures already controlled to accelerate a Lord's attack after casting.",
+      "adversarial_downside": "Generated Rats cannot block; haste applies only to creatures already controlled at resolution and forfeits sometimes-extra Tempt tokens.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Generates exactly X Rat creatures without opponent cooperation and grants haste to creatures already controlled to accelerate a Lord's attack after casting. Real cost: Generated Rats cannot block; haste applies only to creatures already controlled at resolution and forfeits sometimes-extra Tempt tokens.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "The Meathook Massacre",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Scalable toughness reduction plus persistent creature-death drain and opponent-death lifegain combine board cleanup with the Lord sacrifice engine.",
+      "named_cuts": [
+        "Blasphemous Edict"
+      ],
+      "incumbent_opportunity_cost": "X at least four kills the 10/4 indestructible Lord via zero toughness; expensive large sweeps and loses cheap wide-board edict.",
+      "commander_synergy": "Scalable toughness reduction plus persistent creature-death drain and opponent-death lifegain combine board cleanup with the Lord sacrifice engine.",
+      "adversarial_downside": "X at least four kills the 10/4 indestructible Lord via zero toughness; expensive large sweeps and loses cheap wide-board edict.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Scalable toughness reduction plus persistent creature-death drain and opponent-death lifegain combine board cleanup with the Lord sacrifice engine. Real cost: X at least four kills the 10/4 indestructible Lord via zero toughness; expensive large sweeps and loses cheap wide-board edict.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Agadeem's Awakening // Agadeem, the Undercrypt",
+      "source": "Original exact Oct15 baseline, Oct27 live 94-name Scryfall card snapshot, M6 source review, EDHREC High Lift/Top and off-ranking M7 research.",
+      "role": "Spell-land gives black mana as a land or returns differently costed sacrifice creatures late for another Lord ETB payment.",
+      "named_cuts": [
+        "Swamp"
+      ],
+      "incumbent_opportunity_cost": "Land face costs three life for untapped use, otherwise enters tapped; one fewer true basic Swamp with printed mana symbol reliability.",
+      "commander_synergy": "Spell-land gives black mana as a land or returns differently costed sacrifice creatures late for another Lord ETB payment.",
+      "adversarial_downside": "Land face costs three life for untapped use, otherwise enters tapped; one fewer true basic Swamp with printed mana symbol reliability.",
+      "judgment": "SELECT_ADD",
+      "reason": "Owner-selected exact SHA candidate after candidate-specific tradeoff: Spell-land gives black mana as a land or returns differently costed sacrifice creatures late for another Lord ETB payment. Real cost: Land face costs three life for untapped use, otherwise enters tapped; one fewer true basic Swamp with printed mana symbol reliability.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json"
+      ]
+    },
+    {
+      "card": "Pawn of Ulamog",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Converts nontoken creature deaths into mana-capable Eldrazi Spawn for sac/cast sequencing.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Most Lord fodder dies as tokens, so Pawn has no trigger; Familiar is a Zombie, reduces commander generic by one and regenerates.",
+      "commander_synergy": "Converts nontoken creature deaths into mana-capable Eldrazi Spawn for sac/cast sequencing.",
+      "adversarial_downside": "Most Lord fodder dies as tokens, so Pawn has no trigger; Familiar is a Zombie, reduces commander generic by one and regenerates.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Converts nontoken creature deaths into mana-capable Eldrazi Spawn for sac/cast sequencing. Opposing full-deck opportunity cost: Most Lord fodder dies as tokens, so Pawn has no trigger; Familiar is a Zombie, reduces commander generic by one and regenerates.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Kazuul's Fury // Kazuul's Cliffs",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "An instant-speed ten-power Lord sacrifice can convert an attack-threat into direct damage, while land MDFC adds a spell-like slot.",
+      "named_cuts": [
+        "Mountain"
+      ],
+      "incumbent_opportunity_cost": "Tapped red land and sacrificing the 5-mana commander disrupts its native sacrifice-draw and attack plan, versus unconditional basic Mountain.",
+      "commander_synergy": "An instant-speed ten-power Lord sacrifice can convert an attack-threat into direct damage, while land MDFC adds a spell-like slot.",
+      "adversarial_downside": "Tapped red land and sacrificing the 5-mana commander disrupts its native sacrifice-draw and attack plan, versus unconditional basic Mountain.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: An instant-speed ten-power Lord sacrifice can convert an attack-threat into direct damage, while land MDFC adds a spell-like slot. Opposing full-deck opportunity cost: Tapped red land and sacrificing the 5-mana commander disrupts its native sacrifice-draw and attack plan, versus unconditional basic Mountain.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Dread Return",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Flashback consumes three creatures as a graveyard reanimation route, which can turn fodder into a Lord re-entry.",
+      "named_cuts": [
+        "Victimize"
+      ],
+      "incumbent_opportunity_cost": "Competes with already efficient reanimation and spends all three prepared creatures before the Lord ETB sacrifice demand; Victimize gives two targets.",
+      "commander_synergy": "Flashback consumes three creatures as a graveyard reanimation route, which can turn fodder into a Lord re-entry.",
+      "adversarial_downside": "Competes with already efficient reanimation and spends all three prepared creatures before the Lord ETB sacrifice demand; Victimize gives two targets.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Flashback consumes three creatures as a graveyard reanimation route, which can turn fodder into a Lord re-entry. Opposing full-deck opportunity cost: Competes with already efficient reanimation and spends all three prepared creatures before the Lord ETB sacrifice demand; Victimize gives two targets.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Chthonian Nightmare",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Repeatable energy-gated recursion can recycle lower-mana sacrifice engines.",
+      "named_cuts": [
+        "Victimize"
+      ],
+      "incumbent_opportunity_cost": "Requires energy setup, sorcery-speed activation and caps target mana value, with more work than immediate two-body Victimize.",
+      "commander_synergy": "Repeatable energy-gated recursion can recycle lower-mana sacrifice engines.",
+      "adversarial_downside": "Requires energy setup, sorcery-speed activation and caps target mana value, with more work than immediate two-body Victimize.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "RETAIN_ALTERNATIVE: Repeatable energy-gated recursion can recycle lower-mana sacrifice engines. Opposing full-deck opportunity cost: Requires energy setup, sorcery-speed activation and caps target mana value, with more work than immediate two-body Victimize.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Sifter of Skulls",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Nontoken deaths create sacrificeable mana Spawn in a Gravecrawler line.",
+      "named_cuts": [
+        "Chasm Skulker"
+      ],
+      "incumbent_opportunity_cost": "Skulker creates larger token banks as a consequence of Lord draw volume; token creature deaths never trigger Sifter.",
+      "commander_synergy": "Nontoken deaths create sacrificeable mana Spawn in a Gravecrawler line.",
+      "adversarial_downside": "Skulker creates larger token banks as a consequence of Lord draw volume; token creature deaths never trigger Sifter.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Nontoken deaths create sacrificeable mana Spawn in a Gravecrawler line. Opposing full-deck opportunity cost: Skulker creates larger token banks as a consequence of Lord draw volume; token creature deaths never trigger Sifter.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Tombstone Stairwell",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Repeat Zombies at each upkeep could generate many sacrifice bodies when graveyards are full.",
+      "named_cuts": [
+        "Endrek Sahr, Master Breeder"
+      ],
+      "incumbent_opportunity_cost": "At zero creature cards in graveyards creates zero Zombies, feeds all opponents and has growing cumulative upkeep; Autocrat creates three guaranteed Serfs.",
+      "commander_synergy": "Repeat Zombies at each upkeep could generate many sacrifice bodies when graveyards are full.",
+      "adversarial_downside": "At zero creature cards in graveyards creates zero Zombies, feeds all opponents and has growing cumulative upkeep; Autocrat creates three guaranteed Serfs.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Repeat Zombies at each upkeep could generate many sacrifice bodies when graveyards are full. Opposing full-deck opportunity cost: At zero creature cards in graveyards creates zero Zombies, feeds all opponents and has growing cumulative upkeep; Autocrat creates three guaranteed Serfs.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    },
+    {
+      "card": "Beetleback Chief",
+      "source": "Oct27 commander-specific EDHREC plus off-ranking candidate challenge and full-100 alternative review.",
+      "role": "Four mana produces three creature bodies with no four-player assumption.",
+      "named_cuts": [
+        "Chittering Witch"
+      ],
+      "incumbent_opportunity_cost": "Chittering Witch can produce four bodies in four-player pod and additionally offers a scalable sacrifice-for-debuff outlet.",
+      "commander_synergy": "Four mana produces three creature bodies with no four-player assumption.",
+      "adversarial_downside": "Chittering Witch can produce four bodies in four-player pod and additionally offers a scalable sacrifice-for-debuff outlet.",
+      "judgment": "REJECT",
+      "reason": "REJECT: Four mana produces three creature bodies with no four-player assumption. Opposing full-deck opportunity cost: Chittering Witch can produce four bodies in four-player pod and additionally offers a scalable sacrifice-for-debuff outlet.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/decision_reviews/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.md",
+        "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Genesis Chamber",
+      "Sengir Autocrat",
+      "Deflecting Swat",
+      "Fierce Guardianship",
+      "Song of Totentanz",
+      "The Meathook Massacre",
+      "Agadeem's Awakening // Agadeem, the Undercrypt"
+    ],
+    "cuts": [
+      "Dark Ritual",
+      "Endrek Sahr, Master Breeder",
+      "Village Rites",
+      "Stubborn Denial",
+      "Tempt with Vengeance",
+      "Blasphemous Edict",
+      "Swamp"
+    ],
+    "coherent_package_tradeoff": "Seven coordinated genuine swaps trade one-shot mana, delayed Endrek bodies and cheap Rites draw for early symmetric Myr, immediate but fragile Serfs, free commander-active stack defense, no-bargain X Rats, death-drain wipe and modal black recursion land. The strong five-swap alternative is not dominated across all starts; owner specifically chose the displayed Rev1 100, with caveats visible."
+  },
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Dark Ritual",
+        "weakness": "Full-99 incumbent challenge: Dark Ritual supplies a real original plan role, but the proposed Genesis Chamber directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Genesis Chamber",
+        "reasoning": "Two-mana Genesis Chamber pays in actual Myr creature fodder from subsequent nontoken creature casts, including independent sacrifice bodies before Lord arrives. Adversarial cost: Its symmetric triggers grant opponents Myr and consume a deck slot once used for a one-shot BBB ritual."
+      },
+      {
+        "card": "Endrek Sahr, Master Breeder",
+        "weakness": "Full-99 incumbent challenge: Endrek Sahr, Master Breeder supplies a real original plan role, but the proposed Sengir Autocrat directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Sengir Autocrat",
+        "reasoning": "Four-mana Autocrat creates three Serfs immediately, supporting a five-mana Lord next turn with three real creature sacrifices. Adversarial cost: Autocrat leaving exiles all Serfs; five-mana Endrek's later creature casts can yield more persistent Thrulls and higher repeatable ceiling."
+      },
+      {
+        "card": "Village Rites",
+        "weakness": "Full-99 incumbent challenge: Village Rites supplies a real original plan role, but the proposed Deflecting Swat directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Deflecting Swat",
+        "reasoning": "Zero mana to redirect a legal target when Lord is controlled increases survival and can disrupt enemy targeting at the five-mana deployment turn. Adversarial cost: Can be three-mana dead weight precommander and cannot retarget spells without another legal target; loses one-mana creature-for-two-card draw."
+      },
+      {
+        "card": "Stubborn Denial",
+        "weakness": "Full-99 incumbent challenge: Stubborn Denial supplies a real original plan role, but the proposed Fierce Guardianship directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Fierce Guardianship",
+        "reasoning": "Free hard noncreature counter while Lord is on battlefield defends a nearly tapped-out commander-centric turn. Adversarial cost: Costs three mana without commander versus one-blue Stubborn Denial; a generic premium spell risks homogenizing the native sacrifice package."
+      },
+      {
+        "card": "Tempt with Vengeance",
+        "weakness": "Full-99 incumbent challenge: Tempt with Vengeance supplies a real original plan role, but the proposed Song of Totentanz directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Song of Totentanz",
+        "reasoning": "Generates exactly X Rat creatures without opponent cooperation and grants haste to creatures already controlled to accelerate a Lord's attack after casting. Adversarial cost: Generated Rats cannot block; haste applies only to creatures already controlled at resolution and forfeits sometimes-extra Tempt tokens."
+      },
+      {
+        "card": "Blasphemous Edict",
+        "weakness": "Full-99 incumbent challenge: Blasphemous Edict supplies a real original plan role, but the proposed The Meathook Massacre directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "The Meathook Massacre",
+        "reasoning": "Scalable toughness reduction plus persistent creature-death drain and opponent-death lifegain combine board cleanup with the Lord sacrifice engine. Adversarial cost: X at least four kills the 10/4 indestructible Lord via zero toughness; expensive large sweeps and loses cheap wide-board edict."
+      },
+      {
+        "card": "Swamp",
+        "weakness": "Full-99 incumbent challenge: Swamp supplies a real original plan role, but the proposed Agadeem's Awakening // Agadeem, the Undercrypt directly increases commander sacrifice fodder, protection or spell-land flexibility at a known cost.",
+        "alternative_named": "Agadeem's Awakening // Agadeem, the Undercrypt",
+        "reasoning": "Spell-land gives black mana as a land or returns differently costed sacrifice creatures late for another Lord ETB payment. Adversarial cost: Land face costs three life for untapped use, otherwise enters tapped; one fewer true basic Swamp with printed mana symbol reliability."
+      },
+      {
+        "card": "Nightscape Familiar",
+        "weakness": "Retained early Zombie discount was challenged for additional death-triggering Eldrazi Spawn.",
+        "alternative_named": "Pawn of Ulamog",
+        "reasoning": "Familiar consistently reduces generic Lord cost and enables Gravecrawler; Pawn only triggers on nontoken death and loses the two-mana Zombie body."
+      },
+      {
+        "card": "Mountain",
+        "weakness": "A basic untapped red source challenged by a modal instant-power finisher.",
+        "alternative_named": "Kazuul's Fury // Kazuul's Cliffs",
+        "reasoning": "An instant ten-damage sacrifice channel is attractive, but the tapped land and sacrificing Lord can trade away repeatable draw and the attack engine."
+      },
+      {
+        "card": "Chasm Skulker",
+        "weakness": "Token bank scales on many draws from Lord at low mana investment.",
+        "alternative_named": "Sifter of Skulls",
+        "reasoning": "Sifter makes Spawn on nontoken creature death only, so it misses numerous actual creature-token sacrifices that support Lord's triggers."
+      },
+      {
+        "card": "Chittering Witch",
+        "weakness": "Four-player Witch provides repeated sacrifice leverage and four bodies.",
+        "alternative_named": "Beetleback Chief",
+        "reasoning": "Chief supplies only three bodies and no removal/outlet; it cannot displace the Witch's commander-setup role."
+      }
+    ],
+    "off_ranked_opportunities": "OFF-RANKED Genesis Chamber supplies symmetric two-mana creature fodder, The Meathook Massacre changes anti-indestructible sweeps, Kazuul's Fury offers ten-power sacrifice damage but costs mana-base reliability, and Chthonian Nightmare offers energy-limited recursion; their actual alternatives are compared against protected core.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Genesis Chamber",
+          "Fierce Guardianship",
+          "Song of Totentanz",
+          "The Meathook Massacre",
+          "Agadeem's Awakening // Agadeem, the Undercrypt"
+        ],
+        "cuts": [
+          "Dark Ritual",
+          "Stubborn Denial",
+          "Tempt with Vengeance",
+          "Blasphemous Edict",
+          "Swamp"
+        ],
+        "result_and_rationale": "Complete conservative Alt5 exact100, raw SHA a57de231... preserves Endrek repeatable Thrulls and precommander one-black Village Rites draw. It loses Rev1's immediate four-mana Autocrat three Serfs and commander-active Swat protection; neither option strictly dominates all starts."
+      },
+      {
+        "adds": [
+          "Genesis Chamber",
+          "Sengir Autocrat",
+          "Deflecting Swat",
+          "Fierce Guardianship",
+          "Song of Totentanz",
+          "The Meathook Massacre",
+          "Agadeem's Awakening // Agadeem, the Undercrypt",
+          "Kazuul's Fury // Kazuul's Cliffs",
+          "Pawn of Ulamog"
+        ],
+        "cuts": [
+          "Dark Ritual",
+          "Endrek Sahr, Master Breeder",
+          "Village Rites",
+          "Stubborn Denial",
+          "Tempt with Vengeance",
+          "Blasphemous Edict",
+          "Swamp",
+          "Mountain",
+          "Nightscape Familiar"
+        ],
+        "result_and_rationale": "Complete aggressive Alt9 exact100, raw SHA 5d2991dd..., introduces tapped Kazuul land and non-token-only Pawn Spawn, sacrificing basic Mountain and Familiar zombie discount. More swaps reduce early mana reliability and fail to improve the many token-sacrifice lines."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Chittering Witch versus Beetleback Chief remains a strong real four-body source with a sacrifice outlet, Chasm Skulker versus Sifter creates a large draw-fueled token bank, and Kher Keep land bodies are retained over another tapped red MDFC.",
+    "strongest_argument_against_baseline": "The previously approved source already maintains reliable one-black Village Rites, BBB ritual burst and repeated Endrek Thrulls without opponents getting Genesis Chamber Myr. These are real incumbent strengths that Rev1 trades for immediate setup and commander protection.",
+    "evidence_based_answer": "The selected exact seven improves bounded immediate Lord fodder setup when Autocrat lands at four, repeats cheap Chamber bodies as non-token creatures enter, and protects Lord after it resolves. It does not prove wins over Alt5; particular opening hands favor each, and approval is a strategic preference under explicitly acknowledged limitations."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Tresserhorn_s_Lord__Returned_M7_Rev1_RESEARCH.txt",
+    "sha256": "9a9d2f7a344e2491444c0a0e4c48525dfe8faa37032eaf8e22a94082f6fbf60e",
+    "card_count": 100,
+    "deckwide_reconciliation": "Owner-approved exact 100 raw, 94 distinct, three basic Islands, three basic Mountains, three Swamps (one replaced), 32 printed lands plus two playable land MDFCs, 7 one-for-one changes; immutable historical Oct15 approved source untouched."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/oracle_snapshots/Tresserhorn_Returned_M7_Rev1_Scryfall_20261027.json — exact 94 Scryfall, 93 official Commander-legal ordinary cards, one future-release not-legal commander exception.",
+      "data/grixis/m7/tresserhorn_returned_rev1/m6_p0_followup.py and m6_p1_followup.py — 15 original P0/P1 case IDs in bounded finite source-bound form, not measured M6 I/J Phase B.",
+      "data/grixis/m7/tresserhorn_returned_rev1/same_start_compare.py — four exact named-state Rev1 vs Alt5 tradeoff experiments.",
+      "data/grixis/m7/owner_approvals/Tresserhorn_s_Lord__Returned_M7_Rev1_20261027_PENDING_GATE.json — Cory's separate exact SHA approval receipt (this M7 packet does not itself authorize canonical modification)."
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Aristocrats",
+      "Sacrifice",
+      "Tokens"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+  "open_ended_optimization_audit": {
+    "floor_not_target": true,
+    "remaining_99_review": "After the owner-selected seven, re-evaluated retained low-curve Zombie loop pieces, Chittering Witch four bodies and sacrifice outlet, Chasm Skulker draw-fueled token bank, Kher Keep repeated tokens, Nightscape Familiar as a Zombie/cost reducer, and fixed basic red Mountain. Challenged extra off-ranking cards against these exact roles and the earlier seven choices, with ongoing opponent-benefit and removal tests. The selected 100 is a coherent quality judgment but not a full tested local optimum.",
+    "post_floor_challenges": [
+      {
+        "incumbent": "Nightscape Familiar",
+        "challenger": "Pawn of Ulamog",
+        "tradeoff": "Pawn can make Spawn on nontoken creature death, but the many token sacrifices under Lord yield zero triggers; Familiar reduces Lord generic mana by one and remains a Gravecrawler-enabling Zombie.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Mountain",
+        "challenger": "Kazuul's Fury // Kazuul's Cliffs",
+        "tradeoff": "A ten-power damage channel has utility, but the instant requires sacrificing expensive Lord and the land face always enters tapped, losing early reliable red mana.",
+        "disposition": "RETAIN_ALTERNATIVE"
+      },
+      {
+        "incumbent": "Chasm Skulker",
+        "challenger": "Sifter of Skulls",
+        "tradeoff": "Skulker grows and turns Lord draw into many Squid sacrifice creatures, while Sifter only triggers on nontoken death and misses the wider token-engine action.",
+        "disposition": "REJECT"
+      }
+    ],
+    "larger_swap_packages": [
+      {
+        "path": "data/grixis/m7/candidate_lists/Tresserhorn_s_Lord__Returned_M7_Rev1_alt9.txt",
+        "sha256": "5d2991dda31f00d4099185de8b791e0da1a057eb4ebb6d5e0dcc32648eb96b4d",
+        "adds": [
+          "Genesis Chamber",
+          "Sengir Autocrat",
+          "Deflecting Swat",
+          "Fierce Guardianship",
+          "Song of Totentanz",
+          "The Meathook Massacre",
+          "Agadeem's Awakening // Agadeem, the Undercrypt",
+          "Kazuul's Fury // Kazuul's Cliffs",
+          "Pawn of Ulamog"
+        ],
+        "cuts": [
+          "Dark Ritual",
+          "Endrek Sahr, Master Breeder",
+          "Village Rites",
+          "Stubborn Denial",
+          "Tempt with Vengeance",
+          "Blasphemous Edict",
+          "Swamp",
+          "Mountain",
+          "Nightscape Familiar"
+        ],
+        "case_for_extra_swaps": "Two more real slots supply a ten-power instant sacrifice-to-damage finisher and Spawn tokens after nontoken creature death, a plausible higher-card-swap aggression package.",
+        "why_not_selected": "Alt9 gives up untapped red Mountain and cheap Zombie/cost-reducing Familiar, while most Lord engine sacrifices are tokens that never trigger Pawn, weakening actual source-paid commander turns."
+      }
+    ],
+    "no_credible_larger_package_reason": null,
+    "quality_based_stop_reason": "The actual seven were not selected to hit a quota: Genesis Chamber and Sengir directly address three-body readiness; free commander-active counters and modal land provide defined improvements. After challenging retained Zombie discount, land reliability, draw-token engines and additional recursion options, Alt9 imposes tapped-land and narrow Spawn risks. Alt5 remains a different strategic preference, not a demonstrably inferior win-rate list. No full M6 Phase B or randomized multiplayer result claimed."
+  }
+}
