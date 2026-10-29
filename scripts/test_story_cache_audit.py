@@ -49,6 +49,30 @@ class CacheAuditTests(unittest.TestCase):
             report = S.audit([JOB, JOB], Path(folder))
         self.assertEqual(len(report["colliding_cache_paths"]), 1)
 
+    def test_repair_preserves_valid_cache_and_refetches_bad_cache(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            file = S.cache_path(JOB, root)
+            self.assertTrue(S.needs_fetch(JOB, root, repair=True))
+            file.parent.mkdir(parents=True)
+            file.write_text(f"URL: {URL}\nTITLE: Yawgmoth\nDATE: \n\n" + "lore " * 80,
+                            encoding="utf-8")
+            self.assertFalse(S.needs_fetch(JOB, root, repair=True))
+            self.assertTrue(S.needs_fetch(JOB, root, refresh=True))
+            file.write_text(f"URL: {URL}\nTITLE: Yawgmoth\nDATE: \n\nshort",
+                            encoding="utf-8")
+            self.assertFalse(S.needs_fetch(JOB, root))  # legacy resumable default
+            self.assertTrue(S.needs_fetch(JOB, root, repair=True))
+
+    def test_repair_detects_wrong_url_without_dropping_good_file(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            file = S.cache_path(JOB, root)
+            file.parent.mkdir(parents=True)
+            file.write_text("URL: https://example.org/wrong\nTITLE: X\nDATE: \n\n" +
+                            "lore " * 80, encoding="utf-8")
+            self.assertTrue(S.needs_fetch(JOB, root, repair=True))
+
 
 if __name__ == "__main__":
     unittest.main()
