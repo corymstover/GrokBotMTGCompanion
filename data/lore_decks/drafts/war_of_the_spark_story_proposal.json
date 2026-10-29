@@ -1,0 +1,533 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "War of the Spark: The Fall of Nicol Bolas — the God-Pharaoh vs the Gatewatch",
+  "status": "FINISHED STORY-FIRST PROPOSAL — not approved/locked by Cory",
+  "commander": "Niv-Mizzet Reborn",
+  "narrator_note": "Five-color Ravnican parun revived during the war and later Living Guildpact; chosen for real narrative relevance, not merely color access. His own rebirth is told by Firemind Vessel, Gateway Plaza, Finale of Promise and the official Operation Desperation story.",
+  "story_sources": [
+    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+    "https://magic.wizards.com/en/news/making-magic/more-war-games-2019-04-29",
+    "https://magic.wizards.com/en/news/making-magic/war-games-2019-04-22",
+    "https://magic.wizards.com/en/news/making-magic/waging-war-spark-part-1-2019-04-01",
+    "https://magic.wizards.com/en/news/card-image-gallery/war-of-the-spark"
+  ],
+  "canon_caveats": [
+    "Nicol Bolas is imprisoned and diminished, not canonically killed. Prison Realm stands for Ugin's confinement.",
+    "Gideon dies intercepting Liliana's fatal punishment; Liliana's Triumph is independence, not proof that she defeated Bolas alone.",
+    "Each of Ravnica's ten Guildgates is geography and guild context, not a literal documented set-piece battle.",
+    "The old Nicol Bolas and Amonkhet/Kaladesh cards are prequel scenes, not War of the Spark 2019 printings.",
+    "Individual Planeswalkers not listed are not evidence of absence from the war; the deck selects story-defining pages rather than exhaustive cameos.",
+    "The Finale of Promise depicts Niv-Mizzet's rebirth per official Wizards card design commentary.",
+    "Planewide Celebration is a hopeful coda; individual combat outcomes need separate sources."
+  ],
+  "beats": [
+    {
+      "title": "I. The God-Pharaoh lays his trap: Amonkhet, Kaladesh, Ixalan and Ravnica",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Nicol Bolas, the Ravager",
+          "why": "The elder dragon before the final war; a character portrait of the architect of the multiyear plan.",
+          "evidence": "named_historical_character_prequel"
+        },
+        {
+          "name": "Nicol Bolas, God-Pharaoh",
+          "why": "Bolas rules Amonkhet through manufactured devotion and prepares an undead army.",
+          "evidence": "named_historical_character_amonkhet"
+        },
+        {
+          "name": "Hour of Devastation",
+          "why": "The fall of Amonkhet and the crushing of the Gatewatch show the cost of Bolas's earlier scheme.",
+          "evidence": "named_historical_event"
+        },
+        {
+          "name": "God-Pharaoh's Gift",
+          "why": "The Amonkhet necromantic machinery behind the Eternal army that will later march on Ravnica.",
+          "evidence": "named_historical_artifact_prequel"
+        },
+        {
+          "name": "The Chain Veil",
+          "why": "Liliana's dangerous artifact and a visual link to her role as Bolas's coerced general.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "The Immortal Sun",
+          "why": "The anti-planeswalking device transported to Ravnica to keep Planeswalkers trapped during the Elderspell harvest.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Planar Bridge",
+          "why": "The Kaladesh device Tezzeret carries into Bolas's scheme to move the Eternal army between planes.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Tezzeret, Master of the Bridge",
+          "why": "Bolas's operative enabling the Planar Bridge's use in the invasion.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Dovin, Hand of Control",
+          "why": "Bolas-aligned authority figure who takes over the Azorius apparatus.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Domri, Anarch of Bolas",
+          "why": "Bolas's short-lived Gruul ally, manipulated into serving the dragon's invasion plans.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Niv-Mizzet, Parun",
+          "why": "The original dragon parun makes contingency plans for his own death and later five-color resurrection before the invasion begins.",
+          "evidence": "named_historical_character_prior_form"
+        },
+        {
+          "name": "God-Pharaoh's Statue",
+          "why": "Bolas imposes his own image on the occupied city, a symbol later toppled in defiance.",
+          "evidence": "named_historical_artifact_war"
+        },
+        {
+          "name": "Bolas's Citadel",
+          "why": "The villain's command center during the invasion and spark-harvest scheme.",
+          "evidence": "named_historical_setting_war"
+        }
+      ]
+    },
+    {
+      "title": "II. The Eternals descend: Ravnica becomes a battlefield",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Commence the Endgame",
+          "why": "War of the Spark's Bolas quotation announces his ambition to humble even gods.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Dreadhorde Invasion",
+          "why": "Direct War of the Spark enchantment depicting the Amonkhet army crossing over.",
+          "evidence": "named_historical_event"
+        },
+        {
+          "name": "Invade the City",
+          "why": "War of the Spark flavor and artwork identify the arriving Eternal host.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Enter the God-Eternals",
+          "why": "The four corrupted Amonkhet gods enter the conflict.",
+          "evidence": "named_historical_event"
+        },
+        {
+          "name": "God-Eternal Oketra",
+          "why": "The undead incarnation of Amonkhet's Oketra, wielded as an invasion weapon.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "God-Eternal Kefnet",
+          "why": "Bolas's corrupted version of Kefnet enters Ravnica.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "God-Eternal Rhonas",
+          "why": "The corrupted Rhonas joins the invading gods.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "God-Eternal Bontu",
+          "why": "The corrupted Bontu will later be turned against Bolas during the climax.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Neheb, Dreadhorde Champion",
+          "why": "The once-proud Amonkhet warrior raised as one of Bolas's Eternals.",
+          "evidence": "named_character_historical_prequel"
+        },
+        {
+          "name": "Herald of the Dreadhorde",
+          "why": "Its printed flavor explicitly explains Amonkhet's dead crossing to a new plane in service to Bolas.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Grim Initiate",
+          "why": "The original War of the Spark flavor describes the once-living warriors trapped within lazotep.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "No Escape",
+          "why": "Jace correctly realizes they have walked into Bolas's trap; an unusually direct narrative quote.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Eternal Taskmaster",
+          "why": "Jace's original quote identifies the Eternals as relentless killers.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Ravnica at War",
+          "why": "The city's center is devastated as the invasion begins; direct War of the Spark scene.",
+          "evidence": "literal_war_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "III. The Gatewatch and guilds rally; Niv-Mizzet returns",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Gideon Blackblade",
+          "why": "Gideon wields Blackblade in the battle and becomes the central sacrificial hero.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Liliana, Dreadhorde General",
+          "why": "Liliana commands the Eternal army for Bolas before rejecting his control.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Jace, Wielder of Mysteries",
+          "why": "The mind mage helps the coalition discover how to defeat Bolas.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Chandra, Fire Artisan",
+          "why": "Gatewatch pyromancer fights the invaders and Dovin's authority.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Nissa, Who Shakes the World",
+          "why": "Nissa rallies the living world of Ravnica to oppose the invading dead.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Ugin, the Ineffable",
+          "why": "Bolas's twin is central to understanding the gem and to the final prison-realm solution.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Ajani, the Greathearted",
+          "why": "Ajani stands with Gideon and the defenders, calling for mutual protection.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Kaya, Bane of the Dead",
+          "why": "Guild leader and defender who takes part in uniting the opposing forces.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Teyo, the Shieldmage",
+          "why": "The young planeswalker protects the ritual that restores Niv-Mizzet in the official story.",
+          "evidence": "named_character_official_story"
+        },
+        {
+          "name": "Ral, Storm Conduit",
+          "why": "Izzet guildmage and conduit to the plan and signals around the Planeswalker trap.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Vraska, Swarm's Eminence",
+          "why": "Golgari queen whose guild and loyalties are entangled with Bolas's schemes.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Contentious Plan",
+          "why": "War printing says Niv had devised the solution but could not force the guilds to adopt it.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Firemind Vessel",
+          "why": "Original War text explicitly says Niv left the physical components needed for resurrection.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Finale of Promise",
+          "why": "The red finale depicts Niv-Mizzet's rebirth according to Wizards' official card design commentary.",
+          "evidence": "official_card_story_scene"
+        },
+        {
+          "name": "Pledge of Unity",
+          "why": "Gideon's original War quote calls every citizen to become a hero together.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Awakening of Vitu-Ghazi",
+          "why": "Nissa orders the giant living tree to attack the Dreadhorde; the scene is explicit in flavor.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Parhelion II",
+          "why": "Boros angels and the Parhelion join the skies of Ravnica against the invasion.",
+          "evidence": "named_historical_artifact"
+        }
+      ]
+    },
+    {
+      "title": "IV. Liliana defies Bolas; Gideon's final sacrifice",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Divine Arrow",
+          "why": "War flavor narrates Oketra shooting Gideon's pegasus as he carries Blackblade.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Tyrant's Scorn",
+          "why": "Bolas's quote mocks the storybook idea of a hero with a sword slaying a dragon.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Desperate Lunge",
+          "why": "The original printing describes Gideon's desperate Blackblade attack on Bolas.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Unlikely Aid",
+          "why": "The Rakdos quote to Gideon recalls the demon helping the unexpected hero.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Spark Harvest",
+          "why": "The original flavor directly identifies the harvesting of Domri's spark as the Elderspell's beginning.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "The Elderspell",
+          "why": "The named ritual for draining captured Planeswalkers' sparks to power Bolas.",
+          "evidence": "named_historical_spell"
+        },
+        {
+          "name": "Command the Dreadhorde",
+          "why": "War flavor literally shows Liliana forcing herself to command Bolas's undead army behind the Chain Veil.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Price of Betrayal",
+          "why": "Printed scene of Liliana knowingly rejecting Bolas's contract and choosing her own fate despite the death penalty.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Gideon's Sacrifice",
+          "why": "Direct named event: Gideon intercepts Liliana's fatal punishment and dies in her place.",
+          "evidence": "official_story_and_literal_printed_flavor"
+        },
+        {
+          "name": "Heartwarming Redemption",
+          "why": "War epilogue shows Kytheon/Gideon finally at peace after lifelong fighting.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Despark",
+          "why": "Printed scene depicts Liliana convincing the corrupted Amonkhet gods to turn against their false master.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Finale of Eternity",
+          "why": "The War flavor states the tyrant's weakness: someone no longer afraid.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Liliana's Triumph",
+          "why": "The original flavor captures Liliana's victory as freedom rather than survival.",
+          "evidence": "literal_war_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "V. The final struggle, Bolas's defeat, and Gideon's legacy",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Storm the Citadel",
+          "why": "Ajani's quote commits the defenders to the last desperate assault on Bolas.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Topple the Statue",
+          "why": "A rallying victory as the resistance tears down Bolas's monument.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Sarkhan's Catharsis",
+          "why": "Sarkhan's original War quotation directly addresses Bolas for destroying his homeland and mind.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Finale of Revelation",
+          "why": "Ugin recognizes the significance of the gem connecting Bolas to the Meditation Realm.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Finale of Devastation",
+          "why": "Wild creatures join Ravnica's last major resistance; the card is part of the official finale cycle.",
+          "evidence": "official_cycle_story_scene"
+        },
+        {
+          "name": "Finale of Glory",
+          "why": "The angelic host arrives to fight in the skies, part of the original official finale cycle.",
+          "evidence": "official_cycle_story_scene"
+        },
+        {
+          "name": "Nicol Bolas, Dragon-God",
+          "why": "The central War of the Spark printing of Bolas at the height of his attempted godhood, immediately before his final defeat and confinement.",
+          "evidence": "named_historical_character_original_war_printing"
+        },
+        {
+          "name": "Prison Realm",
+          "why": "War flavor directly gives Bolas an eternity to face his failure; represents Ugin's imprisonment rather than a literal grave.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Gideon's Triumph",
+          "why": "The original flavor memorializes Gideon's victory through his saving others.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Jace's Triumph",
+          "why": "Jace learns the limits of Bolas's pursuit of absolute power.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Chandra's Triumph",
+          "why": "Chandra's triumph is a change in self-understanding, not a claim she killed Bolas.",
+          "evidence": "literal_war_printing_flavor"
+        },
+        {
+          "name": "Nissa's Triumph",
+          "why": "Nissa's victory is nurturing life instead of merely destroying threats.",
+          "evidence": "literal_war_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "VI. Ravnica's ten guilds and the planeswalker trap — lands",
+      "lore_keys": [
+        "Story Arc Summaries.md#war-of-the-spark-2019",
+        "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+      ],
+      "cards": [
+        {
+          "name": "Azorius Guildgate",
+          "why": "The Azorius Senate: Dovin's temporary power base and one of Ravnica's ten guilds.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Dimir Guildgate",
+          "why": "House Dimir's contribution of agents and intrigue to the defense.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Rakdos Guildgate",
+          "why": "The Cult of Rakdos, including the demon's unexpected help to Gideon.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Gruul Guildgate",
+          "why": "Gruul territory and Domri's disastrous allegiance.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Selesnya Guildgate",
+          "why": "The Conclave and Vitu-Ghazi's counterattack.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Orzhov Guildgate",
+          "why": "The Orzhov Syndicate and Kaya's place in the war.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Izzet Guildgate",
+          "why": "Niv-Mizzet and Ral's guild of Izzet mages.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Golgari Guildgate",
+          "why": "Vraska's Golgari faction in the citywide coalition.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Boros Guildgate",
+          "why": "Gideon, Aurelia, Feather and the Boros front.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Simic Guildgate",
+          "why": "The Simic presence among Ravnica's guilds as its defenses unite.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Blast Zone",
+          "why": "Ravnica's bombed-out battle geography in the war set.",
+          "evidence": "war_period_land_setting"
+        },
+        {
+          "name": "Emergence Zone",
+          "why": "Direct War flavor pinpoints the Planar Bridge appearing above and destroying the Chamber of the Guildpact.",
+          "evidence": "literal_war_land_flavor"
+        },
+        {
+          "name": "Gateway Plaza",
+          "why": "War flavor identifies the magical portal scar where guild leaders concentrate power for Niv-Mizzet's rebirth.",
+          "evidence": "literal_war_land_flavor"
+        },
+        {
+          "name": "Interplanar Beacon",
+          "why": "The signal for gathering planeswalkers across the Multiverse into Bolas's trap.",
+          "evidence": "named_historical_land"
+        },
+        {
+          "name": "Karn's Bastion",
+          "why": "Karn's original War flavor pledges to protect those he can.",
+          "evidence": "literal_war_land_flavor"
+        },
+        {
+          "name": "Mobilized District",
+          "why": "The city's neighborhoods mobilize as one; the original flavor honors cooperation.",
+          "evidence": "literal_war_land_flavor"
+        },
+        {
+          "name": "Plaza of Harmony",
+          "why": "Ravnica's guild unity made physical before and during the war.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Guildmages' Forum",
+          "why": "The guildmages' shared city infrastructure, context for the reluctant coalition.",
+          "evidence": "guild_geography_contextual"
+        },
+        {
+          "name": "Aether Hub",
+          "why": "Kaladesh energy infrastructure, origin-plane context for Tezzeret's stolen Planar Bridge.",
+          "evidence": "prequel_setting_contextual"
+        },
+        {
+          "name": "Survivors' Encampment",
+          "why": "Amonkhet's surviving civilians after the Hour of Devastation, antecedent to the war's undead army.",
+          "evidence": "prequel_setting_contextual"
+        }
+      ]
+    }
+  ],
+  "playability": [],
+  "basics": {
+    "Plains": 2,
+    "Island": 2,
+    "Swamp": 2,
+    "Mountain": 2,
+    "Forest": 2
+  }
+}
