@@ -1,0 +1,1273 @@
+{
+  "schema": "lore_printing_evidence/v1",
+  "theme": "Ugin: The Spirit Dragon — From the Ur-Dragon's Brood to the End of the Meditation Realm",
+  "source": "Local October 28 2026 Scryfall printing-lore snapshot; verify live Oracle text when needed",
+  "selection_note": "Exact collector numbers for Ugin-quote alternate Tarkir: Dragonstorm printings are intentional. Printed flavor is edition-specific, not a universal oracle field.",
+  "entries": {
+    "The Ur-Dragon": {
+      "set": "C17",
+      "collector": "48",
+      "scryfall": "https://scryfall.com/card/c17/48/the-ur-dragon?utm_source=api",
+      "set_name": "Commander 2017",
+      "printing_name": "The Ur-Dragon",
+      "flavor_faces": [
+        {
+          "face": "The Ur-Dragon",
+          "type_line": "Legendary Creature — Dragon Avatar",
+          "flavor": ""
+        }
+      ]
+    },
+    "The Elder Dragon War": {
+      "set": "DMU",
+      "collector": "121",
+      "scryfall": "https://scryfall.com/card/dmu/121/the-elder-dragon-war?utm_source=api",
+      "set_name": "Dominaria United",
+      "printing_name": "The Elder Dragon War",
+      "flavor_faces": [
+        {
+          "face": "The Elder Dragon War",
+          "type_line": "Enchantment — Saga",
+          "flavor": ""
+        }
+      ]
+    },
+    "Arcades Sabboth": {
+      "set": "LEG",
+      "collector": "218",
+      "scryfall": "https://scryfall.com/card/leg/218/arcades-sabboth?utm_source=api",
+      "set_name": "Legends",
+      "printing_name": "Arcades Sabboth",
+      "flavor_faces": [
+        {
+          "face": "Arcades Sabboth",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Chromium": {
+      "set": "LEG",
+      "collector": "224",
+      "scryfall": "https://scryfall.com/card/leg/224/chromium?utm_source=api",
+      "set_name": "Legends",
+      "printing_name": "Chromium",
+      "flavor_faces": [
+        {
+          "face": "Chromium",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Palladia-Mors": {
+      "set": "LEG",
+      "collector": "247",
+      "scryfall": "https://scryfall.com/card/leg/247/palladia-mors?utm_source=api",
+      "set_name": "Legends",
+      "printing_name": "Palladia-Mors",
+      "flavor_faces": [
+        {
+          "face": "Palladia-Mors",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Vaevictis Asmadi": {
+      "set": "LEG",
+      "collector": "269",
+      "scryfall": "https://scryfall.com/card/leg/269/vaevictis-asmadi?utm_source=api",
+      "set_name": "Legends",
+      "printing_name": "Vaevictis Asmadi",
+      "flavor_faces": [
+        {
+          "face": "Vaevictis Asmadi",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Piru, the Volatile": {
+      "set": "MH2",
+      "collector": "207",
+      "scryfall": "https://scryfall.com/card/mh2/207/piru-the-volatile?utm_source=api",
+      "set_name": "Modern Horizons 2",
+      "printing_name": "Piru, the Volatile",
+      "flavor_faces": [
+        {
+          "face": "Piru, the Volatile",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": "Chasms of dueling energies course within her."
+        }
+      ]
+    },
+    "Nicol Bolas": {
+      "set": "LEG",
+      "collector": "246",
+      "scryfall": "https://scryfall.com/card/leg/246/nicol-bolas?utm_source=api",
+      "set_name": "Legends",
+      "printing_name": "Nicol Bolas",
+      "flavor_faces": [
+        {
+          "face": "Nicol Bolas",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Nicol Bolas, the Ravager": {
+      "set": "M19",
+      "collector": "218",
+      "scryfall": "https://scryfall.com/card/m19/218/nicol-bolas-the-ravager-nicol-bolas-the-arisen?utm_source=api",
+      "set_name": "Core Set 2019",
+      "printing_name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "flavor_faces": [
+        {
+          "face": "Nicol Bolas, the Ravager",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        },
+        {
+          "face": "Nicol Bolas, the Arisen",
+          "type_line": "Legendary Planeswalker — Bolas",
+          "flavor": ""
+        }
+      ]
+    },
+    "Ghostfire": {
+      "set": "FUT",
+      "collector": "115",
+      "scryfall": "https://scryfall.com/card/fut/115/ghostfire?utm_source=api",
+      "set_name": "Future Sight",
+      "printing_name": "Ghostfire",
+      "flavor_faces": [
+        {
+          "face": "Ghostfire",
+          "type_line": "Instant",
+          "flavor": "Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath."
+        }
+      ]
+    },
+    "Spatial Contortion": {
+      "set": "OGW",
+      "collector": "8",
+      "scryfall": "https://scryfall.com/card/ogw/8/spatial-contortion?utm_source=api",
+      "set_name": "Oath of the Gatewatch",
+      "printing_name": "Spatial Contortion",
+      "flavor_faces": [
+        {
+          "face": "Spatial Contortion",
+          "type_line": "Instant",
+          "flavor": "\"For those without the Planeswalker spark, the merest touch of the Blind Eternities can kill.\"\n—Ugin"
+        }
+      ]
+    },
+    "Scroll of Fate": {
+      "set": "C19",
+      "collector": "58",
+      "scryfall": "https://scryfall.com/card/c19/58/scroll-of-fate?utm_source=api",
+      "set_name": "Commander 2019",
+      "printing_name": "Scroll of Fate",
+      "flavor_faces": [
+        {
+          "face": "Scroll of Fate",
+          "type_line": "Artifact",
+          "flavor": "\"Our stories define our reality.\"\n—Ugin"
+        }
+      ]
+    },
+    "Dragon Tempest": {
+      "set": "DTK",
+      "collector": "136",
+      "scryfall": "https://scryfall.com/card/dtk/136/dragon-tempest?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragon Tempest",
+      "flavor_faces": [
+        {
+          "face": "Dragon Tempest",
+          "type_line": "Enchantment",
+          "flavor": ""
+        }
+      ]
+    },
+    "Dragonstorm": {
+      "set": "SCG",
+      "collector": "90",
+      "scryfall": "https://scryfall.com/card/scg/90/dragonstorm?utm_source=api",
+      "set_name": "Scourge",
+      "printing_name": "Dragonstorm",
+      "flavor_faces": [
+        {
+          "face": "Dragonstorm",
+          "type_line": "Sorcery",
+          "flavor": ""
+        }
+      ]
+    },
+    "Fearsome Awakening": {
+      "set": "FRF",
+      "collector": "69",
+      "scryfall": "https://scryfall.com/card/frf/69/fearsome-awakening?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Fearsome Awakening",
+      "flavor_faces": [
+        {
+          "face": "Fearsome Awakening",
+          "type_line": "Sorcery",
+          "flavor": "On Tarkir, dragons emerge from enormous tempests, phenomena tied to Ugin's very presence on the plane."
+        }
+      ]
+    },
+    "Soul Summons": {
+      "set": "FRF",
+      "collector": "26",
+      "scryfall": "https://scryfall.com/card/frf/26/soul-summons?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Soul Summons",
+      "flavor_faces": [
+        {
+          "face": "Soul Summons",
+          "type_line": "Sorcery",
+          "flavor": "Ugin's magic reaches beyond the dragons. The clans have adapted it for war."
+        }
+      ]
+    },
+    "Ugin's Mastery": {
+      "set": "CMM",
+      "collector": "718",
+      "scryfall": "https://scryfall.com/card/cmm/718/ugins-mastery?utm_source=api",
+      "set_name": "Commander Masters",
+      "printing_name": "Ugin's Mastery",
+      "flavor_faces": [
+        {
+          "face": "Ugin's Mastery",
+          "type_line": "Enchantment",
+          "flavor": ""
+        }
+      ]
+    },
+    "Sorin Markov": {
+      "set": "ZEN",
+      "collector": "111",
+      "scryfall": "https://scryfall.com/card/zen/111/sorin-markov?utm_source=api",
+      "set_name": "Zendikar",
+      "printing_name": "Sorin Markov",
+      "flavor_faces": [
+        {
+          "face": "Sorin Markov",
+          "type_line": "Legendary Planeswalker — Sorin",
+          "flavor": ""
+        }
+      ]
+    },
+    "Nahiri, the Lithomancer": {
+      "set": "C14",
+      "collector": "10",
+      "scryfall": "https://scryfall.com/card/c14/10/nahiri-the-lithomancer?utm_source=api",
+      "set_name": "Commander 2014",
+      "printing_name": "Nahiri, the Lithomancer",
+      "flavor_faces": [
+        {
+          "face": "Nahiri, the Lithomancer",
+          "type_line": "Legendary Planeswalker — Nahiri",
+          "flavor": ""
+        }
+      ]
+    },
+    "Emrakul, the Aeons Torn": {
+      "set": "ROE",
+      "collector": "4",
+      "scryfall": "https://scryfall.com/card/roe/4/emrakul-the-aeons-torn?utm_source=api",
+      "set_name": "Rise of the Eldrazi",
+      "printing_name": "Emrakul, the Aeons Torn",
+      "flavor_faces": [
+        {
+          "face": "Emrakul, the Aeons Torn",
+          "type_line": "Legendary Creature — Eldrazi",
+          "flavor": ""
+        }
+      ]
+    },
+    "Kozilek, Butcher of Truth": {
+      "set": "ROE",
+      "collector": "6",
+      "scryfall": "https://scryfall.com/card/roe/6/kozilek-butcher-of-truth?utm_source=api",
+      "set_name": "Rise of the Eldrazi",
+      "printing_name": "Kozilek, Butcher of Truth",
+      "flavor_faces": [
+        {
+          "face": "Kozilek, Butcher of Truth",
+          "type_line": "Legendary Creature — Eldrazi",
+          "flavor": ""
+        }
+      ]
+    },
+    "Ulamog, the Infinite Gyre": {
+      "set": "ROE",
+      "collector": "12",
+      "scryfall": "https://scryfall.com/card/roe/12/ulamog-the-infinite-gyre?utm_source=api",
+      "set_name": "Rise of the Eldrazi",
+      "printing_name": "Ulamog, the Infinite Gyre",
+      "flavor_faces": [
+        {
+          "face": "Ulamog, the Infinite Gyre",
+          "type_line": "Legendary Creature — Eldrazi",
+          "flavor": ""
+        }
+      ]
+    },
+    "Aligned Hedron Network": {
+      "set": "BFZ",
+      "collector": "222",
+      "scryfall": "https://scryfall.com/card/bfz/222/aligned-hedron-network?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Aligned Hedron Network",
+      "flavor_faces": [
+        {
+          "face": "Aligned Hedron Network",
+          "type_line": "Artifact",
+          "flavor": "The last hedron slotted into place, locking Ulamog in an infinite loop of binding energy."
+        }
+      ]
+    },
+    "Perilous Vault": {
+      "set": "M15",
+      "collector": "224",
+      "scryfall": "https://scryfall.com/card/m15/224/perilous-vault?utm_source=api",
+      "set_name": "Magic 2015",
+      "printing_name": "Perilous Vault",
+      "flavor_faces": [
+        {
+          "face": "Perilous Vault",
+          "type_line": "Artifact",
+          "flavor": "The spirit dragon Ugin arranged the hedrons of Zendikar to direct leylines of energy. To disrupt one is to unleash devastation and chaos."
+        }
+      ]
+    },
+    "Hedron Archive": {
+      "set": "BFZ",
+      "collector": "223",
+      "scryfall": "https://scryfall.com/card/bfz/223/hedron-archive?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Hedron Archive",
+      "flavor_faces": [
+        {
+          "face": "Hedron Archive",
+          "type_line": "Artifact",
+          "flavor": "\"You've begun to understand the hedrons' true purpose,\" said Ugin. \"The Eldrazi can be imprisoned.\"\"And how did that work out last time?\" asked Jace."
+        }
+      ]
+    },
+    "Ugin's Construct": {
+      "set": "FRF",
+      "collector": "164",
+      "scryfall": "https://scryfall.com/card/frf/164/ugins-construct?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Ugin's Construct",
+      "flavor_faces": [
+        {
+          "face": "Ugin's Construct",
+          "type_line": "Artifact Creature — Construct",
+          "flavor": "While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri."
+        }
+      ]
+    },
+    "Dreamstone Hedron": {
+      "set": "ROE",
+      "collector": "216",
+      "scryfall": "https://scryfall.com/card/roe/216/dreamstone-hedron?utm_source=api",
+      "set_name": "Rise of the Eldrazi",
+      "printing_name": "Dreamstone Hedron",
+      "flavor_faces": [
+        {
+          "face": "Dreamstone Hedron",
+          "type_line": "Artifact",
+          "flavor": "Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within."
+        }
+      ]
+    },
+    "Lithomancer's Focus": {
+      "set": "BFZ",
+      "collector": "38",
+      "scryfall": "https://scryfall.com/card/bfz/38/lithomancers-focus?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Lithomancer's Focus",
+      "flavor_faces": [
+        {
+          "face": "Lithomancer's Focus",
+          "type_line": "Instant",
+          "flavor": "\"Even in the hands of amateurs, Nahiri's hedrons can harm the Eldrazi.\"\n—Ugin"
+        }
+      ]
+    },
+    "Crux of Fate": {
+      "set": "FRF",
+      "collector": "65",
+      "scryfall": "https://scryfall.com/card/frf/65/crux-of-fate?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Crux of Fate",
+      "flavor_faces": [
+        {
+          "face": "Crux of Fate",
+          "type_line": "Sorcery",
+          "flavor": "Ugin's whispered summons led Sarkhan Vol to the moment that would echo down the centuries and seal Tarkir's fate: the primal battle between Ugin and Nicol Bolas."
+        }
+      ]
+    },
+    "Bitter Revelation": {
+      "set": "KTK",
+      "collector": "65",
+      "scryfall": "https://scryfall.com/card/ktk/65/bitter-revelation?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Bitter Revelation",
+      "flavor_faces": [
+        {
+          "face": "Bitter Revelation",
+          "type_line": "Sorcery",
+          "flavor": "\"Here you lie then, Ugin. The corpses of worlds will join you in the tomb.\"\n—Sorin Markov"
+        }
+      ]
+    },
+    "Yasova Dragonclaw": {
+      "set": "FRF",
+      "collector": "148",
+      "scryfall": "https://scryfall.com/card/frf/148/yasova-dragonclaw?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Yasova Dragonclaw",
+      "flavor_faces": [
+        {
+          "face": "Yasova Dragonclaw",
+          "type_line": "Legendary Creature — Human Warrior",
+          "flavor": ""
+        }
+      ]
+    },
+    "Sarkhan Vol": {
+      "set": "ALA",
+      "collector": "191",
+      "scryfall": "https://scryfall.com/card/ala/191/sarkhan-vol?utm_source=api",
+      "set_name": "Shards of Alara",
+      "printing_name": "Sarkhan Vol",
+      "flavor_faces": [
+        {
+          "face": "Sarkhan Vol",
+          "type_line": "Legendary Planeswalker — Sarkhan",
+          "flavor": ""
+        }
+      ]
+    },
+    "Sarkhan Unbroken": {
+      "set": "DTK",
+      "collector": "230",
+      "scryfall": "https://scryfall.com/card/dtk/230/sarkhan-unbroken?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Sarkhan Unbroken",
+      "flavor_faces": [
+        {
+          "face": "Sarkhan Unbroken",
+          "type_line": "Legendary Planeswalker — Sarkhan",
+          "flavor": ""
+        }
+      ]
+    },
+    "Ugin's Nexus": {
+      "set": "KTK",
+      "collector": "227",
+      "scryfall": "https://scryfall.com/card/ktk/227/ugins-nexus?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Ugin's Nexus",
+      "flavor_faces": [
+        {
+          "face": "Ugin's Nexus",
+          "type_line": "Legendary Artifact",
+          "flavor": "All at once Sarkhan's mind fell silent."
+        }
+      ]
+    },
+    "Nexus of Fate": {
+      "set": "M19",
+      "collector": "306",
+      "scryfall": "https://scryfall.com/card/m19/306/nexus-of-fate?utm_source=api",
+      "set_name": "Core Set 2019",
+      "printing_name": "Nexus of Fate",
+      "flavor_faces": [
+        {
+          "face": "Nexus of Fate",
+          "type_line": "Instant",
+          "flavor": "Sarkhan wandered into a tomb and back in time."
+        }
+      ]
+    },
+    "Fate Forgotten": {
+      "set": "DTK",
+      "collector": "17",
+      "scryfall": "https://scryfall.com/card/dtk/17/fate-forgotten?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Fate Forgotten",
+      "flavor_faces": [
+        {
+          "face": "Fate Forgotten",
+          "type_line": "Instant",
+          "flavor": "When Sarkhan saved Ugin in Tarkir's past, it changed Tarkir's future. The Sultai no longer exist, having been supplanted by the dragonlord Silumgar and his clan."
+        }
+      ]
+    },
+    "Scion of Ugin": {
+      "set": "DTK",
+      "collector": "1",
+      "scryfall": "https://scryfall.com/card/dtk/1/scion-of-ugin?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Scion of Ugin",
+      "flavor_faces": [
+        {
+          "face": "Scion of Ugin",
+          "type_line": "Creature — Dragon Spirit",
+          "flavor": "For hundreds of years Ugin slept, encased in the cocoon of stone and magic Sarkhan had created using a shard of a Zendikari hedron. As Ugin lay dormant, his spectral guardians kept vigil."
+        }
+      ]
+    },
+    "Tormenting Voice": {
+      "set": "DTK",
+      "collector": "163",
+      "scryfall": "https://scryfall.com/card/dtk/163/tormenting-voice?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Tormenting Voice",
+      "flavor_faces": [
+        {
+          "face": "Tormenting Voice",
+          "type_line": "Sorcery",
+          "flavor": "A mocking laughter echoed in Ugin's mind. How many centuries had he slumbered, stricken, while Nicol Bolas moved unchallenged among the planes?"
+        }
+      ]
+    },
+    "Sarkhan's Triumph": {
+      "set": "DTK",
+      "collector": "154",
+      "scryfall": "https://scryfall.com/card/dtk/154/sarkhans-triumph?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Sarkhan's Triumph",
+      "flavor_faces": [
+        {
+          "face": "Sarkhan's Triumph",
+          "type_line": "Instant",
+          "flavor": "Sarkhan gazed on the world around him, the dragons sweeping through its skies, and joy kindled like a fire in his soul."
+        }
+      ]
+    },
+    "Ugin, the Spirit Dragon": {
+      "set": "FRF",
+      "collector": "1",
+      "scryfall": "https://scryfall.com/card/frf/1/ugin-the-spirit-dragon?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Ugin, the Spirit Dragon",
+      "flavor_faces": [
+        {
+          "face": "Ugin, the Spirit Dragon",
+          "type_line": "Legendary Planeswalker — Ugin",
+          "flavor": ""
+        }
+      ]
+    },
+    "Dragonlord Atarka": {
+      "set": "DTK",
+      "collector": "216",
+      "scryfall": "https://scryfall.com/card/dtk/216/dragonlord-atarka?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragonlord Atarka",
+      "flavor_faces": [
+        {
+          "face": "Dragonlord Atarka",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Dragonlord Dromoka": {
+      "set": "DTK",
+      "collector": "217",
+      "scryfall": "https://scryfall.com/card/dtk/217/dragonlord-dromoka?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragonlord Dromoka",
+      "flavor_faces": [
+        {
+          "face": "Dragonlord Dromoka",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": "Dromoka's followers forsake blood ties so that they may join a greater family."
+        }
+      ]
+    },
+    "Dragonlord Kolaghan": {
+      "set": "DTK",
+      "collector": "218",
+      "scryfall": "https://scryfall.com/card/dtk/218/dragonlord-kolaghan?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragonlord Kolaghan",
+      "flavor_faces": [
+        {
+          "face": "Dragonlord Kolaghan",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Dragonlord Ojutai": {
+      "set": "DTK",
+      "collector": "219",
+      "scryfall": "https://scryfall.com/card/dtk/219/dragonlord-ojutai?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragonlord Ojutai",
+      "flavor_faces": [
+        {
+          "face": "Dragonlord Ojutai",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": ""
+        }
+      ]
+    },
+    "Dragonlord Silumgar": {
+      "set": "DTK",
+      "collector": "220",
+      "scryfall": "https://scryfall.com/card/dtk/220/dragonlord-silumgar?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Dragonlord Silumgar",
+      "flavor_faces": [
+        {
+          "face": "Dragonlord Silumgar",
+          "type_line": "Legendary Creature — Elder Dragon",
+          "flavor": "Silumgar never passes up an opportunity to add to his opulence."
+        }
+      ]
+    },
+    "Ugin's Insight": {
+      "set": "BFZ",
+      "collector": "87",
+      "scryfall": "https://scryfall.com/card/bfz/87/ugins-insight?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Ugin's Insight",
+      "flavor_faces": [
+        {
+          "face": "Ugin's Insight",
+          "type_line": "Sorcery",
+          "flavor": "\"You speak to me of the threat of Ulamog. But do not forget: they came as three.\"\n—Ugin, to Jace Beleren"
+        }
+      ]
+    },
+    "Dispel": {
+      "set": "BFZ",
+      "collector": "76",
+      "scryfall": "https://scryfall.com/card/bfz/76/dispel?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Dispel",
+      "flavor_faces": [
+        {
+          "face": "Dispel",
+          "type_line": "Instant",
+          "flavor": "\"I said we should destroy the Eldrazi. Ugin wanted to return them to stasis. Ugin's arguments were . . . unconvincing.\"\n—Jace Beleren"
+        }
+      ]
+    },
+    "Fall of the Titans": {
+      "set": "OGW",
+      "collector": "109",
+      "scryfall": "https://scryfall.com/card/ogw/109/fall-of-the-titans?utm_source=api",
+      "set_name": "Oath of the Gatewatch",
+      "printing_name": "Fall of the Titans",
+      "flavor_faces": [
+        {
+          "face": "Fall of the Titans",
+          "type_line": "Instant",
+          "flavor": "As Gideon kept the brood lineages at bay, Chandra incinerated the bound Eldrazi titans."
+        }
+      ]
+    },
+    "Kozilek's Return": {
+      "set": "OGW",
+      "collector": "98",
+      "scryfall": "https://scryfall.com/card/ogw/98/kozileks-return?utm_source=api",
+      "set_name": "Oath of the Gatewatch",
+      "printing_name": "Kozilek's Return",
+      "flavor_faces": [
+        {
+          "face": "Kozilek's Return",
+          "type_line": "Instant",
+          "flavor": ""
+        }
+      ]
+    },
+    "Azor, the Lawbringer": {
+      "set": "RIX",
+      "collector": "154",
+      "scryfall": "https://scryfall.com/card/rix/154/azor-the-lawbringer?utm_source=api",
+      "set_name": "Rivals of Ixalan",
+      "printing_name": "Azor, the Lawbringer",
+      "flavor_faces": [
+        {
+          "face": "Azor, the Lawbringer",
+          "type_line": "Legendary Creature — Sphinx",
+          "flavor": ""
+        }
+      ]
+    },
+    "The Immortal Sun": {
+      "set": "RIX",
+      "collector": "180",
+      "scryfall": "https://scryfall.com/card/rix/180/the-immortal-sun?utm_source=api",
+      "set_name": "Rivals of Ixalan",
+      "printing_name": "The Immortal Sun",
+      "flavor_faces": [
+        {
+          "face": "The Immortal Sun",
+          "type_line": "Legendary Artifact",
+          "flavor": ""
+        }
+      ]
+    },
+    "Finale of Revelation": {
+      "set": "WAR",
+      "collector": "51",
+      "scryfall": "https://scryfall.com/card/war/51/finale-of-revelation?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Finale of Revelation",
+      "flavor_faces": [
+        {
+          "face": "Finale of Revelation",
+          "type_line": "Sorcery",
+          "flavor": "Ugin saw the gem that connected Bolas to his Meditation Realm as the key to his brother's downfall."
+        }
+      ]
+    },
+    "Prison Realm": {
+      "set": "WAR",
+      "collector": "26",
+      "scryfall": "https://scryfall.com/card/war/26/prison-realm?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Prison Realm",
+      "flavor_faces": [
+        {
+          "face": "Prison Realm",
+          "type_line": "Enchantment",
+          "flavor": "After millennia to craft victory, Bolas had eternity to contemplate defeat."
+        }
+      ]
+    },
+    "Nicol Bolas, Dragon-God": {
+      "set": "WAR",
+      "collector": "207",
+      "scryfall": "https://scryfall.com/card/war/207/nicol-bolas-dragon-god?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Nicol Bolas, Dragon-God",
+      "flavor_faces": [
+        {
+          "face": "Nicol Bolas, Dragon-God",
+          "type_line": "Legendary Planeswalker — Bolas",
+          "flavor": ""
+        }
+      ]
+    },
+    "The Elderspell": {
+      "set": "WAR",
+      "collector": "89",
+      "scryfall": "https://scryfall.com/card/war/89/the-elderspell?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "The Elderspell",
+      "flavor_faces": [
+        {
+          "face": "The Elderspell",
+          "type_line": "Sorcery",
+          "flavor": "The path to power is often paved with atrocities."
+        }
+      ]
+    },
+    "Ugin, the Ineffable": {
+      "set": "WAR",
+      "collector": "2",
+      "scryfall": "https://scryfall.com/card/war/2/ugin-the-ineffable?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Ugin, the Ineffable",
+      "flavor_faces": [
+        {
+          "face": "Ugin, the Ineffable",
+          "type_line": "Legendary Planeswalker — Ugin",
+          "flavor": ""
+        }
+      ]
+    },
+    "Sarkhan's Catharsis": {
+      "set": "WAR",
+      "collector": "144",
+      "scryfall": "https://scryfall.com/card/war/144/sarkhans-catharsis?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Sarkhan's Catharsis",
+      "flavor_faces": [
+        {
+          "face": "Sarkhan's Catharsis",
+          "type_line": "Instant",
+          "flavor": "\"You once brought havoc to my home and ruined my mind. I'm here to return the favor, Bolas.\""
+        }
+      ]
+    },
+    "Ugin, Eye of the Storms": {
+      "set": "TDM",
+      "collector": "1",
+      "scryfall": "https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Ugin, Eye of the Storms",
+      "flavor_faces": [
+        {
+          "face": "Ugin, Eye of the Storms",
+          "type_line": "Legendary Planeswalker — Ugin",
+          "flavor": ""
+        }
+      ]
+    },
+    "Call the Spirit Dragons": {
+      "set": "TDM",
+      "collector": "174",
+      "scryfall": "https://scryfall.com/card/tdm/174/call-the-spirit-dragons?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Call the Spirit Dragons",
+      "flavor_faces": [
+        {
+          "face": "Call the Spirit Dragons",
+          "type_line": "Enchantment",
+          "flavor": "The essence of Tarkir was shaped into draconic embodiments of the re-formed clans."
+        }
+      ]
+    },
+    "Roiling Dragonstorm": {
+      "set": "TDM",
+      "collector": "55",
+      "scryfall": "https://scryfall.com/card/tdm/55/roiling-dragonstorm?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Roiling Dragonstorm",
+      "flavor_faces": [
+        {
+          "face": "Roiling Dragonstorm",
+          "type_line": "Enchantment",
+          "flavor": "\"Beware dragonstorms that strike from the sea. Their size always disguises their force.\"\n—Narset"
+        }
+      ]
+    },
+    "Dracogenesis": {
+      "set": "TDM",
+      "collector": "402",
+      "scryfall": "https://scryfall.com/card/tdm/402/dracogenesis?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Dracogenesis",
+      "flavor_faces": [
+        {
+          "face": "Dracogenesis",
+          "type_line": "Enchantment",
+          "flavor": "Ugin and the dragonstorms of Tarkir are intrinsically linked. With his death they weakened. With his life they raged. But even the Spirit Dragon does not hold them fully under his sway."
+        }
+      ]
+    },
+    "Sarkhan, Dragon Ascendant": {
+      "set": "TDM",
+      "collector": "118",
+      "scryfall": "https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Sarkhan, Dragon Ascendant",
+      "flavor_faces": [
+        {
+          "face": "Sarkhan, Dragon Ascendant",
+          "type_line": "Legendary Creature — Human Druid",
+          "flavor": ""
+        }
+      ]
+    },
+    "Narset's Rebuke": {
+      "set": "TDM",
+      "collector": "114",
+      "scryfall": "https://scryfall.com/card/tdm/114/narsets-rebuke?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Narset's Rebuke",
+      "flavor_faces": [
+        {
+          "face": "Narset's Rebuke",
+          "type_line": "Instant",
+          "flavor": "With a swift motion Narset struck Sarkhan down. She would not let his fevered dreams of draconic dominance come to fruition. Not after all she had done to free Tarkir."
+        }
+      ]
+    },
+    "The Theorist, Jace Beleren": {
+      "set": "FRA",
+      "collector": "43",
+      "scryfall": "https://scryfall.com/card/fra/43/the-theorist-jace-beleren?utm_source=api",
+      "set_name": "Reality Fracture",
+      "printing_name": "The Theorist, Jace Beleren",
+      "flavor_faces": [
+        {
+          "face": "The Theorist, Jace Beleren",
+          "type_line": "Legendary Planeswalker — Jace",
+          "flavor": ""
+        }
+      ]
+    },
+    "Death Begets Life": {
+      "set": "TDM",
+      "collector": "406",
+      "scryfall": "https://scryfall.com/card/tdm/406/death-begets-life?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Death Begets Life",
+      "flavor_faces": [
+        {
+          "face": "Death Begets Life",
+          "type_line": "Sorcery",
+          "flavor": "\"Life ensures death. Death ensures life. Yet always I remain. Perhaps an abiding harvest needs an ageless shepherd.\"\n—Ugin"
+        }
+      ]
+    },
+    "Haven of the Spirit Dragon": {
+      "set": "DTK",
+      "collector": "249",
+      "scryfall": "https://scryfall.com/card/dtk/249/haven-of-the-spirit-dragon?utm_source=api",
+      "set_name": "Dragons of Tarkir",
+      "printing_name": "Haven of the Spirit Dragon",
+      "flavor_faces": [
+        {
+          "face": "Haven of the Spirit Dragon",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Tomb of the Spirit Dragon": {
+      "set": "KTK",
+      "collector": "245",
+      "scryfall": "https://scryfall.com/card/ktk/245/tomb-of-the-spirit-dragon?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Tomb of the Spirit Dragon",
+      "flavor_faces": [
+        {
+          "face": "Tomb of the Spirit Dragon",
+          "type_line": "Land",
+          "flavor": "\"The voice calls me here, yet I see only bones. Is this more dragon trickery?\"\n—Sarkhan Vol"
+        }
+      ]
+    },
+    "Crucible of the Spirit Dragon": {
+      "set": "FRF",
+      "collector": "167",
+      "scryfall": "https://scryfall.com/card/frf/167/crucible-of-the-spirit-dragon?utm_source=api",
+      "set_name": "Fate Reforged",
+      "printing_name": "Crucible of the Spirit Dragon",
+      "flavor_faces": [
+        {
+          "face": "Crucible of the Spirit Dragon",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Eye of Ugin": {
+      "set": "WWK",
+      "collector": "136",
+      "scryfall": "https://scryfall.com/card/wwk/136/eye-of-ugin?utm_source=api",
+      "set_name": "Worldwake",
+      "printing_name": "Eye of Ugin",
+      "flavor_faces": [
+        {
+          "face": "Eye of Ugin",
+          "type_line": "Legendary Land",
+          "flavor": "An eye closes. A race awakens."
+        }
+      ]
+    },
+    "Sanctum of Ugin": {
+      "set": "BFZ",
+      "collector": "242",
+      "scryfall": "https://scryfall.com/card/bfz/242/sanctum-of-ugin?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Sanctum of Ugin",
+      "flavor_faces": [
+        {
+          "face": "Sanctum of Ugin",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Ugin's Labyrinth": {
+      "set": "MH3",
+      "collector": "233",
+      "scryfall": "https://scryfall.com/card/mh3/233/ugins-labyrinth?utm_source=api",
+      "set_name": "Modern Horizons 3",
+      "printing_name": "Ugin's Labyrinth",
+      "flavor_faces": [
+        {
+          "face": "Ugin's Labyrinth",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Maelstrom of the Spirit Dragon": {
+      "set": "TDM",
+      "collector": "260",
+      "scryfall": "https://scryfall.com/card/tdm/260/maelstrom-of-the-spirit-dragon?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Maelstrom of the Spirit Dragon",
+      "flavor_faces": [
+        {
+          "face": "Maelstrom of the Spirit Dragon",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Shrine of the Forsaken Gods": {
+      "set": "BFZ",
+      "collector": "245",
+      "scryfall": "https://scryfall.com/card/bfz/245/shrine-of-the-forsaken-gods?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Shrine of the Forsaken Gods",
+      "flavor_faces": [
+        {
+          "face": "Shrine of the Forsaken Gods",
+          "type_line": "Land",
+          "flavor": "The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and Kozilek."
+        }
+      ]
+    },
+    "Sea Gate Wreckage": {
+      "set": "OGW",
+      "collector": "177",
+      "scryfall": "https://scryfall.com/card/ogw/177/sea-gate-wreckage?utm_source=api",
+      "set_name": "Oath of the Gatewatch",
+      "printing_name": "Sea Gate Wreckage",
+      "flavor_faces": [
+        {
+          "face": "Sea Gate Wreckage",
+          "type_line": "Land",
+          "flavor": "Once a center for knowledge, Sea Gate now serves as a reminder of what was lost."
+        }
+      ]
+    },
+    "Evolving Wilds": {
+      "set": "BFZ",
+      "collector": "236",
+      "scryfall": "https://scryfall.com/card/bfz/236/evolving-wilds?utm_source=api",
+      "set_name": "Battle for Zendikar",
+      "printing_name": "Evolving Wilds",
+      "flavor_faces": [
+        {
+          "face": "Evolving Wilds",
+          "type_line": "Land",
+          "flavor": "The Eldrazi may be ruthless, but Zendikar is relentless."
+        }
+      ]
+    },
+    "Emergence Zone": {
+      "set": "WAR",
+      "collector": "245",
+      "scryfall": "https://scryfall.com/card/war/245/emergence-zone?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Emergence Zone",
+      "flavor_faces": [
+        {
+          "face": "Emergence Zone",
+          "type_line": "Land",
+          "flavor": "The Planar Bridge opened over the Chamber of the Guildpact, reducing the symbol of Ravnica's endurance to rubble."
+        }
+      ]
+    },
+    "Gateway Plaza": {
+      "set": "WAR",
+      "collector": "246",
+      "scryfall": "https://scryfall.com/card/war/246/gateway-plaza?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Gateway Plaza",
+      "flavor_faces": [
+        {
+          "face": "Gateway Plaza",
+          "type_line": "Land — Gate",
+          "flavor": "Guild leaders focused their magic on the portal scar. Where the Chamber perished, a parun could be reborn."
+        }
+      ]
+    },
+    "Interplanar Beacon": {
+      "set": "WAR",
+      "collector": "247",
+      "scryfall": "https://scryfall.com/card/war/247/interplanar-beacon?utm_source=api",
+      "set_name": "War of the Spark",
+      "printing_name": "Interplanar Beacon",
+      "flavor_faces": [
+        {
+          "face": "Interplanar Beacon",
+          "type_line": "Land",
+          "flavor": ""
+        }
+      ]
+    },
+    "Cori Mountain Monastery": {
+      "set": "TDM",
+      "collector": "393",
+      "scryfall": "https://scryfall.com/card/tdm/393/cori-mountain-monastery?utm_source=api",
+      "set_name": "Tarkir: Dragonstorm",
+      "printing_name": "Cori Mountain Monastery",
+      "flavor_faces": [
+        {
+          "face": "Cori Mountain Monastery",
+          "type_line": "Land",
+          "flavor": "Come to learn. Stay to teach."
+        }
+      ]
+    },
+    "Talon Gates of Madara": {
+      "set": "M3C",
+      "collector": "82",
+      "scryfall": "https://scryfall.com/card/m3c/82/talon-gates-of-madara?utm_source=api",
+      "set_name": "Modern Horizons 3 Commander",
+      "printing_name": "Talon Gates of Madara",
+      "flavor_faces": [
+        {
+          "face": "Talon Gates of Madara",
+          "type_line": "Land — Gate",
+          "flavor": ""
+        }
+      ]
+    },
+    "Bloodstained Mire": {
+      "set": "KTK",
+      "collector": "230",
+      "scryfall": "https://scryfall.com/card/ktk/230/bloodstained-mire?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Bloodstained Mire",
+      "flavor_faces": [
+        {
+          "face": "Bloodstained Mire",
+          "type_line": "Land",
+          "flavor": "Where dragons once triumphed, their bones now molder."
+        }
+      ]
+    },
+    "Flooded Strand": {
+      "set": "KTK",
+      "collector": "233",
+      "scryfall": "https://scryfall.com/card/ktk/233/flooded-strand?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Flooded Strand",
+      "flavor_faces": [
+        {
+          "face": "Flooded Strand",
+          "type_line": "Land",
+          "flavor": "Where dragons once slept, their bones now rest."
+        }
+      ]
+    },
+    "Polluted Delta": {
+      "set": "KTK",
+      "collector": "239",
+      "scryfall": "https://scryfall.com/card/ktk/239/polluted-delta?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Polluted Delta",
+      "flavor_faces": [
+        {
+          "face": "Polluted Delta",
+          "type_line": "Land",
+          "flavor": "Where dragons once prevailed, their bones now sink."
+        }
+      ]
+    },
+    "Windswept Heath": {
+      "set": "KTK",
+      "collector": "248",
+      "scryfall": "https://scryfall.com/card/ktk/248/windswept-heath?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Windswept Heath",
+      "flavor_faces": [
+        {
+          "face": "Windswept Heath",
+          "type_line": "Land",
+          "flavor": "Where dragons once roared, their bones now keen."
+        }
+      ]
+    },
+    "Wooded Foothills": {
+      "set": "KTK",
+      "collector": "249",
+      "scryfall": "https://scryfall.com/card/ktk/249/wooded-foothills?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Wooded Foothills",
+      "flavor_faces": [
+        {
+          "face": "Wooded Foothills",
+          "type_line": "Land",
+          "flavor": "Where dragons' breath once burned, their bones now freeze."
+        }
+      ]
+    },
+    "Sandsteppe Citadel": {
+      "set": "KTK",
+      "collector": "241",
+      "scryfall": "https://scryfall.com/card/ktk/241/sandsteppe-citadel?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Sandsteppe Citadel",
+      "flavor_faces": [
+        {
+          "face": "Sandsteppe Citadel",
+          "type_line": "Land",
+          "flavor": "That which endures, survives."
+        }
+      ]
+    },
+    "Mystic Monastery": {
+      "set": "KTK",
+      "collector": "236",
+      "scryfall": "https://scryfall.com/card/ktk/236/mystic-monastery?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Mystic Monastery",
+      "flavor_faces": [
+        {
+          "face": "Mystic Monastery",
+          "type_line": "Land",
+          "flavor": "When asked how many paths reach enlightenment, the monk kicked a heap of sand. \"Count,\" he smiled, \"and then find more grains.\""
+        }
+      ]
+    },
+    "Nomad Outpost": {
+      "set": "KTK",
+      "collector": "237",
+      "scryfall": "https://scryfall.com/card/ktk/237/nomad-outpost?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Nomad Outpost",
+      "flavor_faces": [
+        {
+          "face": "Nomad Outpost",
+          "type_line": "Land",
+          "flavor": "\"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong.\"\n—Zurgo, khan of the Mardu"
+        }
+      ]
+    },
+    "Opulent Palace": {
+      "set": "KTK",
+      "collector": "238",
+      "scryfall": "https://scryfall.com/card/ktk/238/opulent-palace?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Opulent Palace",
+      "flavor_faces": [
+        {
+          "face": "Opulent Palace",
+          "type_line": "Land",
+          "flavor": "The dense jungle surrenders to a lush and lavish expanse. At its center uncoil the spires of Qarsi Palace."
+        }
+      ]
+    },
+    "Frontier Bivouac": {
+      "set": "KTK",
+      "collector": "234",
+      "scryfall": "https://scryfall.com/card/ktk/234/frontier-bivouac?utm_source=api",
+      "set_name": "Khans of Tarkir",
+      "printing_name": "Frontier Bivouac",
+      "flavor_faces": [
+        {
+          "face": "Frontier Bivouac",
+          "type_line": "Land",
+          "flavor": "\"The most powerful dreams visit those who shelter in a dragon's skull.\"\n—Chianul, Who Whispers Twice"
+        }
+      ]
+    }
+  }
+}
