@@ -6,11 +6,14 @@ card shards, or the Phase 8 coverage counter have been updated yet.
 
 import csv
 import json
+import sys
 import unittest
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+import build_card_enrichment as B  # noqa: E402
 STORY_URL = "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
 NEW_NOTES = {
     "Denzilore Fatehold", "Ingris Stingerquill", "Aerid Konstrari",
@@ -61,6 +64,31 @@ class RealityFractureLoreNotesTests(unittest.TestCase):
                 else:
                     self.assertNotIn("Echoverse continuity:", note["text"])
                     self.assertNotIn("flag", note)
+
+    def test_new_generated_batch_has_exact_reviewed_membership(self):
+        self.assertEqual(B.BATCH37_NAMES, NEW_NOTES)
+        selector = next(predicate for number, _, predicate in B.BATCHES if number == 37)
+        for name in NEW_NOTES:
+            self.assertTrue(selector({"name": name}, set()))
+        self.assertFalse(selector({"name": "Unreviewed legend"}, {"legendary-creature"}))
+        # An EDHREC rank under the old threshold must not mislabel a newly
+        # reviewed Ghalta card as a historical batch-36 enrichment.
+        ghalta = {"name": "Ghalta the Unstoppable", "edhrec_rank": 9000}
+        self.assertEqual(B.select_batch(ghalta, {"legendary-creature"}), 37)
+        self.assertEqual(B.select_batch(ghalta, {"legendary-creature"}, {"batch": 36}), 36)
+        ranked = {"name": "Unreviewed legend", "edhrec_rank": 9000}
+        self.assertIsNone(B.select_batch(ranked, {"legendary-creature"}))
+        self.assertEqual(B.select_batch(ranked, {"legendary-creature"},
+                                        allow_automatic_new=True), 36)
+
+    def test_intermediate_package_backlinks_are_the_only_deferred_errors(self):
+        errors = [
+            "Marwyn: EDH Packages → Graveyard: Recursion to hand does not list the card back",
+            "Marwyn: lore note needs official citations",
+            "Gallia: EDH Packages → +1/+1 counters: Counter payoffs does not list the card back",
+        ]
+        self.assertEqual(B.reportable_errors(errors), errors)
+        self.assertEqual(B.reportable_errors(errors, defer_package_backlinks=True), [errors[1]])
 
 
 if __name__ == "__main__":

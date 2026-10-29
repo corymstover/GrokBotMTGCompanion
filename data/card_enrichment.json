@@ -15,9 +15,13 @@
   {
    "cycle": 36,
    "rule": "remaining legendary creatures with EDHREC rank ≤ 9,647 (2026-10-15 bulk)"
+  },
+  {
+   "cycle": 37,
+   "rule": "twelve exact-name legends verified against Wizards' Reality Fracture backstories"
   }
  ],
- "bulk": "2026-10-16",
+ "bulk": "2026-10-29",
  "cards": {
   "00037840-6089-42ec-8c5c-281f9f474504": {
    "anchor": "nissa-worldsoul-speaker",
@@ -9279,6 +9283,137 @@
     "story-flavor"
    ],
    "type": "enchantment"
+  },
+  "07a28621-e617-46b0-af3e-2efb03b5056a": {
+   "anchor": "kwia-vigorbloom",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Kwia cultivates and controls plant growth, and healers at Hexhaven learn to treat injuries with flora under her guidance. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Kwia Vigorbloom + Soul Warden + Emiel the Blessed](https://commanderspellbook.com/combo/360-4499-8160/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 5,586 decks; highest synergy [Soul Warden](../../cards/S/so.md#soul-warden) (+71%), [Essence Warden](../../cards/E/es.md#essence-warden) (+68%), [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+66%) · EDHREC: in 5,098 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (25.8% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (23.5% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (19.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Kwia cultivates and controls plant growth, and healers at Hexhaven learn to treat injuries with flora under her guidance."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Kwia Vigorbloom",
+   "shard": "cards/K/kw.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 5586,
+      "top_synergy": [
+       {
+        "name": "Soul Warden",
+        "pct": 84.8,
+        "synergy": 71
+       },
+       {
+        "name": "Essence Warden",
+        "pct": 78.0,
+        "synergy": 68
+       },
+       {
+        "name": "Soul's Attendant",
+        "pct": 73.5,
+        "synergy": 66
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 5098,
+      "potential": 305851,
+      "top_commanders": [
+       {
+        "decks": 964,
+        "name": "Betor, Ancestor's Voice",
+        "pct": 25.8
+       },
+       {
+        "decks": 929,
+        "name": "Trostani, Selesnya's Voice",
+        "pct": 23.5
+       },
+       {
+        "decks": 237,
+        "name": "Lathiel, the Bounteous Dawn",
+        "pct": 19.8
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": true,
+      "count": 100,
+      "top": [
+       {
+        "cards": [
+         "Kwia Vigorbloom",
+         "Soul Warden",
+         "Emiel the Blessed"
+        ],
+        "id": "360-4499-8160",
+        "popularity": 1673,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite artifact LTB"
+        ]
+       },
+       {
+        "cards": [
+         "Kwia Vigorbloom",
+         "Essence Warden",
+         "Emiel the Blessed"
+        ],
+        "id": "2741-4499-8160",
+        "popularity": 1579,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite artifact LTB"
+        ]
+       },
+       {
+        "cards": [
+         "Kwia Vigorbloom",
+         "Soul's Attendant",
+         "Emiel the Blessed"
+        ],
+        "id": "567-4499-8160",
+        "popularity": 1511,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite artifact LTB"
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
   },
   "07c82cde-f00d-4454-9df4-9286e344c9bb": {
    "anchor": "muxus-goblin-grandee",
@@ -20310,6 +20445,137 @@
    ],
    "type": "legendary creature"
   },
+  "0f8de7f0-c61d-415d-b4db-4959374343da": {
+   "anchor": "denzilore-fatehold",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Denzilore founded a school on Arcavios to help its people and uses prophecy to show possible pasts and futures. This is an alternate-reality biography, not an event in the mainline Arcavios timeline. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Denzilore Fatehold + Proctor of Potential + Invisible Woman, Sue Storm](https://commanderspellbook.com/combo/7690-8166-8181--165/) (Infinite +1/+1 counters on creatures you control, Infinite surveil) · EDHREC as commander: 5,395 decks; highest synergy [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (+83%), [Rumor Gatherer](../../cards/R/ru.md#rumor-gatherer) (+69%), [Opt](../../cards/O/op.md#opt) (+68%) · EDHREC: in 4,411 decks; most often under [Elminster](../../cards/E/el.md#elminster) (41.0% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (6.5% of its decks), [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Denzilore founded a school on Arcavios to help its people and uses prophecy to show possible pasts and futures. This is an alternate-reality biography, not an event in the mainline Arcavios timeline."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Denzilore Fatehold",
+   "shard": "cards/D/den.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 5395,
+      "top_synergy": [
+       {
+        "name": "Matoya, Archon Elder",
+        "pct": 85.8,
+        "synergy": 83
+       },
+       {
+        "name": "Rumor Gatherer",
+        "pct": 71.7,
+        "synergy": 69
+       },
+       {
+        "name": "Opt",
+        "pct": 79.3,
+        "synergy": 68
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 4411,
+      "potential": 357912,
+      "top_commanders": [
+       {
+        "decks": 351,
+        "name": "Elminster",
+        "pct": 41.0
+       },
+       {
+        "decks": 193,
+        "name": "Galadriel, Light of Valinor",
+        "pct": 6.5
+       },
+       {
+        "decks": 179,
+        "name": "Hylda of the Icy Crown",
+        "pct": 12.3
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": true,
+      "count": 100,
+      "top": [
+       {
+        "cards": [
+         "Denzilore Fatehold",
+         "Proctor of Potential",
+         "Invisible Woman, Sue Storm"
+        ],
+        "id": "7690-8166-8181--165",
+        "popularity": 130,
+        "produces": [
+         "Infinite +1/+1 counters on creatures you control",
+         "Infinite surveil"
+        ]
+       },
+       {
+        "cards": [
+         "Denzilore Fatehold",
+         "Proctor of Potential",
+         "Basking Broodscale"
+        ],
+        "id": "5641-8166-8181",
+        "popularity": 4,
+        "produces": [
+         "Infinite +1/+1 counters on creatures you control",
+         "Infinite surveil"
+        ]
+       },
+       {
+        "cards": [
+         "Denzilore Fatehold",
+         "Proctor of Potential",
+         "Scurry Oak"
+        ],
+        "id": "4186-8166-8181",
+        "popularity": 2,
+        "produces": [
+         "Infinite +1/+1 counters on creatures you control",
+         "Infinite surveil"
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "0f93d88c-9d2e-416d-a10b-99483360b1fb": {
    "anchor": "zurgo-stormrender",
    "batch": 35,
@@ -29967,6 +30233,136 @@
    ],
    "type": "legendary creature"
   },
+  "172a8f58-c420-4497-b962-c5853f923667": {
+   "anchor": "aerid-konstrari",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Aerid uses heartwood crystals charged with Arcavios's leyline energy to animate constructs and teaches Hexhaven students to do the same. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Aerid Konstrari + Agatha of the Vile Cauldron](https://commanderspellbook.com/combo/2092-8162/) (Infinite artifact ETB, Infinite tapped Heartwood tokens) · EDHREC as commander: 5,524 decks; highest synergy [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (+76%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+59%), [Tree of Tales](../../cards/T/tre.md#tree-of-tales) (+58%) · EDHREC: in 4,576 decks; most often under [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (53.0% of its decks), [Henzie \"Toolbox\" Torre](../../cards/H/he.md#henzie-toolbox-torre) (23.5% of its decks), [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (50.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Aerid uses heartwood crystals charged with Arcavios's leyline energy to animate constructs and teaches Hexhaven students to do the same."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Aerid Konstrari",
+   "shard": "cards/A/ae.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 5524,
+      "top_synergy": [
+       {
+        "name": "Roxanne, Starfall Savant",
+        "pct": 80.0,
+        "synergy": 76
+       },
+       {
+        "name": "Great Furnace",
+        "pct": 62.6,
+        "synergy": 59
+       },
+       {
+        "name": "Tree of Tales",
+        "pct": 61.7,
+        "synergy": 58
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 4576,
+      "potential": 304254,
+      "top_commanders": [
+       {
+        "decks": 862,
+        "name": "Roxanne, Starfall Savant",
+        "pct": 53.0
+       },
+       {
+        "decks": 757,
+        "name": "Henzie \"Toolbox\" Torre",
+        "pct": 23.5
+       },
+       {
+        "decks": 347,
+        "name": "Agatha of the Vile Cauldron",
+        "pct": 50.1
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 3,
+      "top": [
+       {
+        "cards": [
+         "Aerid Konstrari",
+         "Agatha of the Vile Cauldron"
+        ],
+        "id": "2092-8162",
+        "popularity": 3773,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite tapped Heartwood tokens"
+        ]
+       },
+       {
+        "cards": [
+         "Aerid Konstrari",
+         "Nyxbloom Ancient",
+         "Mana Reflection"
+        ],
+        "id": "579-3430-8162",
+        "popularity": 425,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite tapped Heartwood tokens"
+        ]
+       },
+       {
+        "cards": [
+         "Nim Deathmantle",
+         "Ashnod's Altar",
+         "Aerid Konstrari"
+        ],
+        "id": "2034-5003-8162",
+        "popularity": 44,
+        "produces": [
+         "Infinite artifact ETB",
+         "Infinite creature ETB"
+        ]
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "17327d50-be12-423d-9d37-d6bae519f50c": {
    "anchor": "taii-wakeen-perfect-shot",
    "batch": 36,
@@ -31148,6 +31544,133 @@
       "capped": false,
       "count": 0,
       "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
+  "17e7212e-69d8-4014-af98-447baed2cae7": {
+   "anchor": "fblthp-impossibly-lost",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — *Depicts:* The familiar Ravnican Fblthp is now accidentally wandering through Omenpaths and other planes, repeatedly getting lost in dangerous events. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Fblthp, Impossibly Lost + Leveler](https://commanderspellbook.com/combo/1068-8266/) (Exile your library, Win the game) · EDHREC as commander: 697 decks; highest synergy [Slither Blade](../../cards/S/sl.md#slither-blade) (+53%), [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (+52%), [Leveler](../../cards/L/le.md#leveler) (+51%) · EDHREC: in 5,942 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (33.6% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (5.2% of its decks), [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "The familiar Ravnican Fblthp is now accidentally wandering through Omenpaths and other planes, repeatedly getting lost in dangerous events."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Fblthp, Impossibly Lost",
+   "shard": "cards/F/fb.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 697,
+      "top_synergy": [
+       {
+        "name": "Slither Blade",
+        "pct": 56.1,
+        "synergy": 53
+       },
+       {
+        "name": "Vnwxt, Verbose Host",
+        "pct": 55.2,
+        "synergy": 52
+       },
+       {
+        "name": "Leveler",
+        "pct": 52.7,
+        "synergy": 51
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 5942,
+      "potential": 677628,
+      "top_commanders": [
+       {
+        "decks": 524,
+        "name": "Vnwxt, Verbose Host",
+        "pct": 33.6
+       },
+       {
+        "decks": 175,
+        "name": "Yuriko, the Tiger's Shadow",
+        "pct": 5.2
+       },
+       {
+        "decks": 79,
+        "name": "Bard, King of Dale",
+        "pct": 4.1
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 8,
+      "top": [
+       {
+        "cards": [
+         "Fblthp, Impossibly Lost",
+         "Leveler"
+        ],
+        "id": "1068-8266",
+        "popularity": 588,
+        "produces": [
+         "Exile your library",
+         "Win the game"
+        ]
+       },
+       {
+        "cards": [
+         "Fblthp, Impossibly Lost",
+         "Demonic Consultation"
+        ],
+        "id": "742-8266",
+        "popularity": 500,
+        "produces": [
+         "Exile your library",
+         "Win the game"
+        ]
+       },
+       {
+        "cards": [
+         "Fblthp, Impossibly Lost",
+         "Enter the Infinite"
+        ],
+        "id": "953-8266",
+        "popularity": 442,
+        "produces": [
+         "Infinite card draw",
+         "Infinite draw triggers"
+        ]
+       }
+      ]
      }
     }
    },
@@ -91313,6 +91836,97 @@
    ],
    "type": "creature"
   },
+  "48b891b6-3175-4864-bb98-af131098c557": {
+   "anchor": "fblthp-knows-the-way",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Fblthp was created as an Izzet navigator, developed a passion for exploration, and can always find his way back to Ravnica. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 66 decks; highest synergy [Dryad of the Ilysian Grove](../../cards/D/dry.md#dryad-of-the-ilysian-grove) (+68%), [Rootpath Purifier](../../cards/R/ro.md#rootpath-purifier) (+61%), [Snow-Covered Forest](../../cards/S/sn.md#snow-covered-forest) (+61%) · EDHREC: in 1,246 decks; most often under [Borborygmos and Fblthp](../../cards/B/bo.md#borborygmos-and-fblthp) (36.5% of its decks), [Omnath, Locus of Creation](../../cards/O/om.md#omnath-locus-of-creation) (1.5% of its decks), [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Fblthp was created as an Izzet navigator, developed a passion for exploration, and can always find his way back to Ravnica."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Fblthp, Knows the Way",
+   "shard": "cards/F/fb.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 66,
+      "top_synergy": [
+       {
+        "name": "Dryad of the Ilysian Grove",
+        "pct": 74.2,
+        "synergy": 68
+       },
+       {
+        "name": "Rootpath Purifier",
+        "pct": 62.1,
+        "synergy": 61
+       },
+       {
+        "name": "Snow-Covered Forest",
+        "pct": 68.2,
+        "synergy": 61
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 1246,
+      "potential": 620250,
+      "top_commanders": [
+       {
+        "decks": 69,
+        "name": "Borborygmos and Fblthp",
+        "pct": 36.5
+       },
+       {
+        "decks": 32,
+        "name": "Omnath, Locus of Creation",
+        "pct": 1.5
+       },
+       {
+        "decks": 29,
+        "name": "Zimone, Infinite Analyst",
+        "pct": 1.1
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "48c0cd06-465d-4901-bf23-948a003afc0b": {
    "anchor": "honor",
    "batch": 34,
@@ -109623,6 +110237,97 @@
     "planeswalker"
    ],
    "type": "planeswalker"
+  },
+  "58285b70-0d13-4723-b5a4-91fb6f9ccf03": {
+   "anchor": "gallia-tragic-host",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: after dying from poisoned food at a feast, Gallia became a Returned who continues staging lonely banquets while losing her memories. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Undead Hand Ninja](../../cards/U/un.md#undead-hand-ninja) (+45%), [Loxodon Warhammer](../../cards/L/lo.md#loxodon-warhammer) (+44%), [Tormod, the Desecrator](../../cards/T/to.md#tormod-the-desecrator) (+43%) · EDHREC: in 270 decks; most often under [Ghoulcaller Gisa](../../cards/G/gh.md#ghoulcaller-gisa) (0.4% of its decks), [Liliana the Repentant](../../cards/L/li.md#liliana-the-repentant) (1.1% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: after dying from poisoned food at a feast, Gallia became a Returned who continues staging lonely banquets while losing her memories."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Gallia, Tragic Host",
+   "shard": "cards/G/ga.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 11,
+      "top_synergy": [
+       {
+        "name": "Undead Hand Ninja",
+        "pct": 45.5,
+        "synergy": 45
+       },
+       {
+        "name": "Loxodon Warhammer",
+        "pct": 45.5,
+        "synergy": 44
+       },
+       {
+        "name": "Tormod, the Desecrator",
+        "pct": 45.5,
+        "synergy": 43
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 270,
+      "potential": 680237,
+      "top_commanders": [
+       {
+        "decks": 11,
+        "name": "Ghoulcaller Gisa",
+        "pct": 0.4
+       },
+       {
+        "decks": 7,
+        "name": "Liliana the Repentant",
+        "pct": 1.1
+       },
+       {
+        "decks": 6,
+        "name": "Gisa and Geralf",
+        "pct": 0.6
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
   },
   "582c7e54-d64c-4ffb-ae5f-d2752b3ed10b": {
    "anchor": "redshift-rocketeer-chief",
@@ -168711,6 +169416,98 @@
    ],
    "type": "legendary creature"
   },
+  "87f39199-3e4b-44fa-8406-62019eb43c10": {
+   "anchor": "gallia-the-merrymaker",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — *Depicts:* Gallia is the revel-loving Lord of Misrule whose roaming festivities continued even through the Phyrexian Invasion. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Arcbound Tracker](../../cards/A/arc.md#arcbound-tracker) (+67%), [The Ooze](../../cards/T/theo.md#the-ooze) (+67%), [Uncivil Unrest](../../cards/U/un.md#uncivil-unrest) (+64%) · EDHREC: in 1,586 decks; most often under [Gallia of the Endless Dance](../../cards/G/ga.md#gallia-of-the-endless-dance) (54.0% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (3.9% of its decks), [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (5.4% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Gallia is the revel-loving Lord of Misrule whose roaming festivities continued even through the Phyrexian Invasion."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Gallia, the Merrymaker",
+   "shard": "cards/G/ga.md",
+   "synergy": {
+    "guidance": {
+     "packages": [
+      "+1/+1 counters: Counter payoffs"
+     ]
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 37,
+      "top_synergy": [
+       {
+        "name": "Arcbound Tracker",
+        "pct": 67.6,
+        "synergy": 67
+       },
+       {
+        "name": "The Ooze",
+        "pct": 67.6,
+        "synergy": 67
+       },
+       {
+        "name": "Uncivil Unrest",
+        "pct": 64.9,
+        "synergy": 64
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 1586,
+      "potential": 664601,
+      "top_commanders": [
+       {
+        "decks": 147,
+        "name": "Gallia of the Endless Dance",
+        "pct": 54.0
+       },
+       {
+        "decks": 66,
+        "name": "Marchesa, the Black Rose",
+        "pct": 3.9
+       },
+       {
+        "decks": 54,
+        "name": "Shalai and Hallar",
+        "pct": 5.4
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "880793a2-84b0-4ae1-9bb8-6e942e3dc723": {
    "anchor": "boggart-brute",
    "batch": 34,
@@ -176123,6 +176920,96 @@
         ]
        }
       ]
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
+  "8e5ea773-a60b-4502-9db5-ce93fa61cc89": {
+   "anchor": "ghalta-the-unstoppable",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — *Depicts:* The familiar Ixalan elder dinosaur Ghalta defended the continent and joined Huatli's defense against the Phyrexian invasion. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 196 decks; highest synergy [Gigantosaurus](../../cards/G/gi.md#gigantosaurus) (+65%), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+61%), [Hulking Raptor](../../cards/H/hu.md#hulking-raptor) (+61%) · EDHREC: in 15,572 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (25.2% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (41.8% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "The familiar Ixalan elder dinosaur Ghalta defended the continent and joined Huatli's defense against the Phyrexian invasion."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Ghalta the Unstoppable",
+   "shard": "cards/G/gh.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 196,
+      "top_synergy": [
+       {
+        "name": "Gigantosaurus",
+        "pct": 70.9,
+        "synergy": 65
+       },
+       {
+        "name": "Ghalta, Primal Hunger",
+        "pct": 77.6,
+        "synergy": 61
+       },
+       {
+        "name": "Hulking Raptor",
+        "pct": 66.3,
+        "synergy": 61
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 15572,
+      "potential": 652056,
+      "top_commanders": [
+       {
+        "decks": 1620,
+        "name": "Pantlaza, Sun-Favored",
+        "pct": 25.2
+       },
+       {
+        "decks": 1218,
+        "name": "Ghalta, Primal Hunger",
+        "pct": 41.8
+       },
+       {
+        "decks": 601,
+        "name": "Gishath, Sun's Avatar",
+        "pct": 21.3
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
      }
     }
    },
@@ -216094,6 +216981,97 @@
    ],
    "type": "legendary creature"
   },
+  "aff4e43d-cafa-47de-8e39-011f9254a26a": {
+   "anchor": "marwyn-the-clearcutter",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Marwyn clears Llanowar trees as a painful necessity to protect the Kelfae elves' future, believing the forest can later be replanted. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+75%), [Mycosynth Wellspring](../../cards/M/my.md#mycosynth-wellspring) (+66%), [Myr Retriever](../../cards/M/my.md#myr-retriever) (+65%) · EDHREC: in 1,433 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (3.7% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (3.1% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Marwyn clears Llanowar trees as a painful necessity to protect the Kelfae elves' future, believing the forest can later be replanted."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Marwyn, the Clearcutter",
+   "shard": "cards/M/mar.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 37,
+      "top_synergy": [
+       {
+        "name": "Ichor Wellspring",
+        "pct": 78.4,
+        "synergy": 75
+       },
+       {
+        "name": "Mycosynth Wellspring",
+        "pct": 67.6,
+        "synergy": 66
+       },
+       {
+        "name": "Myr Retriever",
+        "pct": 67.6,
+        "synergy": 65
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 1433,
+      "potential": 619293,
+      "top_commanders": [
+       {
+        "decks": 156,
+        "name": "Toph, the First Metalbender",
+        "pct": 3.7
+       },
+       {
+        "decks": 156,
+        "name": "Hearthhull, the Worldseed",
+        "pct": 3.1
+       },
+       {
+        "decks": 53,
+        "name": "Hazezon, Shaper of Sand",
+        "pct": 6.4
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "b000bcf5-529a-447a-bc2e-ae6f42d6073b": {
    "anchor": "vadmir-new-blood",
    "batch": 36,
@@ -231734,6 +232712,127 @@
       "capped": false,
       "count": 0,
       "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
+  "bda098cb-31ec-41a1-a9d7-122877cc69d2": {
+   "anchor": "ingris-stingerquill",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: Ingris teaches emotional and verbal magic at Hexhaven, amplifying those abilities with leyline energy; her followers defend the school against mage hunters. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — KB decks (1): [Nicol Bolas (Grixis)](../../grixis/decks/nicol-bolas.md) · Commander Spellbook: 2 combos; most popular [Ingris Stingerquill + Mana Echoes](https://commanderspellbook.com/combo/2440-8159/) (Infinite colorless mana, Infinite creature ETB) · EDHREC as commander: 5,773 decks; highest synergy [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+50%), [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+46%), [Garna, Bloodfist of Keld](../../cards/G/ga.md#garna-bloodfist-of-keld) (+40%) · EDHREC: in 5,274 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (24.1% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (14.1% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: Ingris teaches emotional and verbal magic at Hexhaven, amplifying those abilities with leyline energy; her followers defend the school against mage hunters."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Ingris Stingerquill",
+   "shard": "cards/I/ing.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 5773,
+      "top_synergy": [
+       {
+        "name": "Hawkeye, Young Avenger",
+        "pct": 53.4,
+        "synergy": 50
+       },
+       {
+        "name": "Loyal Apprentice",
+        "pct": 51.2,
+        "synergy": 46
+       },
+       {
+        "name": "Garna, Bloodfist of Keld",
+        "pct": 45.0,
+        "synergy": 40
+       }
+      ]
+     },
+     "decks": [
+      {
+       "label": "Nicol Bolas (Grixis)",
+       "path": "grixis/decks/nicol-bolas.md"
+      }
+     ],
+     "edhrec": {
+      "decks": 5274,
+      "potential": 349423,
+      "top_commanders": [
+       {
+        "decks": 917,
+        "name": "Isshin, Two Heavens as One",
+        "pct": 24.1
+       },
+       {
+        "decks": 368,
+        "name": "Zurgo Stormrender",
+        "pct": 14.1
+       },
+       {
+        "decks": 344,
+        "name": "Caesar, Legion's Emperor",
+        "pct": 11.7
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 2,
+      "top": [
+       {
+        "cards": [
+         "Ingris Stingerquill",
+         "Mana Echoes"
+        ],
+        "id": "2440-8159",
+        "popularity": 435,
+        "produces": [
+         "Infinite colorless mana",
+         "Infinite creature ETB"
+        ]
+       },
+       {
+        "cards": [
+         "Ingris Stingerquill",
+         "Plague of Vermin"
+        ],
+        "id": "5035-8159",
+        "popularity": 157,
+        "produces": [
+         "Near-infinite creature ETB",
+         "Near-infinite creature tokens with haste"
+        ]
+       }
+      ]
      }
     }
    },
@@ -286022,6 +287121,99 @@
    ],
    "type": "legendary creature"
   },
+  "eb03f6c1-c94f-4f09-b2e9-a55ce5533653": {
+   "anchor": "marwyn-the-preserver",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — *Depicts:* Marwyn is a respected Kelfae elf midwife and diplomat in Llanowar who also mentors younger elves. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 75 decks; highest synergy [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+48%), [Crop Rotation](../../cards/C/cr.md#crop-rotation) (+45%), [Zuran Orb](../../cards/Z/zu.md#zuran-orb) (+45%) · EDHREC: in 6,032 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (22.0% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (6.8% of its decks), [Thranduil, the Elvenking](../../cards/T/thr.md#thranduil-the-elvenking) (5.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [Lands / landfall: Lands from graveyard](../../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Marwyn is a respected Kelfae elf midwife and diplomat in Llanowar who also mentors younger elves."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Marwyn, the Preserver",
+   "shard": "cards/M/mar.md",
+   "synergy": {
+    "guidance": {
+     "packages": [
+      "Graveyard: Recursion to hand",
+      "Lands / landfall: Lands from graveyard"
+     ]
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 75,
+      "top_synergy": [
+       {
+        "name": "Azusa, Lost but Seeking",
+        "pct": 64.0,
+        "synergy": 48
+       },
+       {
+        "name": "Crop Rotation",
+        "pct": 62.7,
+        "synergy": 45
+       },
+       {
+        "name": "Zuran Orb",
+        "pct": 52.0,
+        "synergy": 45
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 6032,
+      "potential": 556503,
+      "top_commanders": [
+       {
+        "decks": 929,
+        "name": "Toph, the First Metalbender",
+        "pct": 22.0
+       },
+       {
+        "decks": 343,
+        "name": "Hearthhull, the Worldseed",
+        "pct": 6.8
+       },
+       {
+        "decks": 219,
+        "name": "Thranduil, the Elvenking",
+        "pct": 5.8
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "eb100b3b-bc3f-48f3-8f28-bb2d80225ea9": {
    "anchor": "hour-of-victory",
    "batch": 34,
@@ -302824,6 +304016,97 @@
    ],
    "type": "legendary creature"
   },
+  "f89b0143-4b19-4ab1-a96b-356b21e435ef": {
+   "anchor": "yuriko-blade-of-the-mighty",
+   "batch": 37,
+   "lines": [
+    "- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) — ⚠️ *Depicts:* Echoverse continuity: raised by a poet and storyteller, Yuriko trained intensely to become a sword-wielding hero of Towashi rather than following her familiar path. ([source](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 137 decks; highest synergy [Selfless Samurai](../../cards/S/sel.md#selfless-samurai) (+61%), [Ironsoul Enforcer](../../cards/I/ir.md#ironsoul-enforcer) (+52%), [Norika Yamazaki, the Poet](../../cards/N/no.md#norika-yamazaki-the-poet) (+51%) · EDHREC: in 3,245 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (22.2% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (5.0% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (39.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
+   ],
+   "lore": {
+    "art_flavor": null,
+    "art_on": [],
+    "flags": [],
+    "flavor_on": [],
+    "note": {
+     "flag": "⚠️",
+     "relation": "depicts",
+     "sources": [
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+     ],
+     "text": "Echoverse continuity: raised by a poet and storyteller, Yuriko trained intensely to become a sword-wielding hero of Towashi rather than following her familiar path."
+    },
+    "presented_on": [
+     [
+      "The Legends of Reality Fracture",
+      "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture",
+      "legends"
+     ]
+    ],
+    "relations": [],
+    "spotlight": []
+   },
+   "name": "Yuriko, Blade of the Mighty",
+   "shard": "cards/Y/yu.md",
+   "synergy": {
+    "guidance": {
+     "packages": []
+    },
+    "proven": {
+     "as_commander": {
+      "decks": 137,
+      "top_synergy": [
+       {
+        "name": "Selfless Samurai",
+        "pct": 62.0,
+        "synergy": 61
+       },
+       {
+        "name": "Ironsoul Enforcer",
+        "pct": 52.6,
+        "synergy": 52
+       },
+       {
+        "name": "Norika Yamazaki, the Poet",
+        "pct": 51.1,
+        "synergy": 51
+       }
+      ]
+     },
+     "decks": [],
+     "edhrec": {
+      "decks": 3245,
+      "potential": 672500,
+      "top_commanders": [
+       {
+        "decks": 600,
+        "name": "Jin Sakai, Ghost of Tsushima",
+        "pct": 22.2
+       },
+       {
+        "decks": 181,
+        "name": "Isshin, Two Heavens as One",
+        "pct": 5.0
+       },
+       {
+        "decks": 106,
+        "name": "Raiyuu, Storm's Edge",
+        "pct": 39.1
+       }
+      ]
+     },
+     "spellbook": {
+      "capped": false,
+      "count": 0,
+      "top": []
+     }
+    }
+   },
+   "tiers": [
+    "legendary-creature"
+   ],
+   "type": "legendary creature"
+  },
   "f89de40f-52d3-44b1-8faa-6ddaa32880d0": {
    "anchor": "rith-liberated-primeval",
    "batch": 35,
@@ -313365,7 +314648,7 @@
    "size": 128
   },
   "legendary-creature": {
-   "enriched": 1822,
+   "enriched": 1834,
    "size": 3786
   },
   "planeswalker": {
@@ -313373,12 +314656,12 @@
    "size": 338
   },
   "priority pool (any tier)": {
-   "enriched": 3397,
-   "size": 5361
+   "enriched": 3409,
+   "size": 5362
   },
   "story-flavor": {
    "enriched": 1431,
-   "size": 1431
+   "size": 1432
   }
  },
  "generated_by": "scripts/build_card_enrichment.py"

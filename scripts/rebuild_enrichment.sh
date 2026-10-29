@@ -50,16 +50,39 @@ case "$mode" in
       printf '%s\n' 'Refusing: existing enrichment baseline is missing.' >&2
       exit 2
     fi
-    if ! compgen -G '.cache/default-cards-*.jsonl.gz' >/dev/null ||
+    cache_dir='.cache'
+    if [ "${MTG_SCRYFALL_MODE:-}" = multiverse ]; then
+      cache_dir="${MTG_MULTIVERSE_CACHE:-.cache/multiverse}"
+      if [ ! -f "$cache_dir/manifest.json" ] ||
+         ! python3 scripts/scryfall_snapshot.py verify --dir "$cache_dir"; then
+        printf '%s\n' 'Refusing: modern Scryfall snapshot is not manifest-verified.' >&2
+        exit 2
+      fi
+    fi
+    if ! compgen -G "$cache_dir/default-cards-*.jsonl.gz" >/dev/null ||
        [ ! -d .cache/edhrec ] || [ ! -d .cache/spellbook ]; then
       printf '%s\n' 'Refusing: offline Scryfall/EDHREC/Spellbook caches are incomplete.' >&2
       printf '%s\n' 'Recover or refresh caches on the feature branch before generating a new slice.' >&2
       exit 2
     fi
+    # Without the verified official story cache a rebuild silently erases
+    # previously confirmed lore/backstory links. A read-only comparison on
+    # 2026-10-29 would have changed hundreds of existing entries this way.
+    if [ ! -d .cache/story/text22 ]; then
+      printf '%s\n' 'Refusing: official Wizards story cache is absent.' >&2
+      exit 2
+    fi
+    if ! python3 scripts/story_cache_audit.py --strict; then
+      printf '%s\n' 'Refusing: official Wizards source inventory failed strict integrity checks.' >&2
+      exit 2
+    fi
     export SCRYFALL_OFFLINE=1
     printf '%s\n' 'Rebuilding card enrichment and EDH Packages only; NO Grixis generators.'
-    python3 scripts/build_card_enrichment.py
-    python3 scripts/build_packages.py
+    # Newly enriched cards can refer to package sections before the package
+    # generator has had a chance to create their reciprocal backlinks.
+    # Defer only those transient errors; the final generation/check enforce all.
+    python3 scripts/build_card_enrichment.py --defer-package-backlinks
+    python3 scripts/build_packages.py --enrichment-backlinks-only
     python3 scripts/build_card_enrichment.py
     python3 scripts/build_card_enrichment.py --check
     python3 scripts/phase8_status.py

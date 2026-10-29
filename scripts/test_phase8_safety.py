@@ -42,6 +42,9 @@ class Phase8SafetyTests(unittest.TestCase):
         self.assertIn('mode="${1:---plan}"', source)
         self.assertIn('branch" = main', source)
         self.assertIn("git status --porcelain", source)
+        self.assertIn("story_cache_audit.py --strict", source)
+        self.assertIn(".cache/story/text22", source)
+        self.assertIn("scryfall_snapshot.py verify", source)
         syntax = subprocess.run(["bash", "-n", str(path)], capture_output=True, check=False)
         self.assertEqual(syntax.returncode, 0, syntax.stderr.decode("utf-8"))
 
