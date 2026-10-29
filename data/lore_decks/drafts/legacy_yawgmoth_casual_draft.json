@@ -1,0 +1,519 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "The Legacy: The Rise and Fall of Yawgmoth (Thran to Apocalypse) — casual-table cut",
+  "status": "DRAFT alternative (aimed at Bracket 2) — not approved by Cory",
+  "commander": "Sisay, Weatherlight Captain",
+  "story_sources": [
+    "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+    "https://magic.wizards.com/en/story/dominaria-plane",
+    "https://magic.wizards.com/en/story/urza-planeswalker",
+    "https://magic.wizards.com/en/news/making-magic/weatherlight-report-2007-12-03",
+    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+  ],
+  "beats": [
+    {
+      "title": "I. The Thran: Yawgmoth claims Phyrexia",
+      "lore_keys": [
+        "Characters Index.md#yawgmoth",
+        "Master Timeline.md#brothers-war--phyrexian-wars"
+      ],
+      "cards": [
+        {
+          "name": "Yawgmoth, Thran Physician",
+          "why": "Yawgmoth before his ascension: the Thran healer and tyrant who becomes Phyrexia's master.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Rebbec, Architect of Ascension",
+          "why": "Thran architect and Glacian's wife; her choices help seal the portal against Yawgmoth.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Glacian, Powerstone Engineer",
+          "why": "The Thran inventor whose powerstone legacy shapes the brothers' discovery and later artifacts.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Thran Foundry",
+          "why": "An original Urza's Destiny Thran relic with an Urza flavor quote, preserving the ancient-tech story without destroying every land.",
+          "evidence": "literal_printed_flavor_and_named_historical_artifact"
+        },
+        {
+          "name": "Thran Dynamo",
+          "why": "Thran power generation: physical evidence of the ancient machine civilization.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Thran Turbine",
+          "why": "A second distinctive Thran device, showing the technological society preceding the Brothers' War.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Thran Forge",
+          "why": "Ancient technology survives into the Weatherlight era; the Weatherlight printing explicitly quotes Gerrard using the forge with the elves.",
+          "evidence": "named_historical_artifact_and_printed_flavor"
+        },
+        {
+          "name": "Phyrexian Scriptures",
+          "why": "A later record of the religion and compleation ideology growing out of Yawgmoth's rule; retrospective, not an ancient Thran eyewitness card.",
+          "evidence": "contextual_retrospective"
+        }
+      ]
+    },
+    {
+      "title": "II. The Brothers' War: the stones, Gix and the Sylex",
+      "lore_keys": [
+        "Conflicts & Arcs.md#the-brothers-war",
+        "Master Timeline.md#brothers-war--phyrexian-wars"
+      ],
+      "cards": [
+        {
+          "name": "Tocasia, Dig Site Mentor",
+          "why": "Urza and Mishra's mentor at the excavation that precedes their destructive rivalry.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Urza, Lord Protector",
+          "why": "The elder brother's card is one half of the Urza-Planeswalker meld with the Mightstone and Weakstone.",
+          "evidence": "named_subject_card_and_meld"
+        },
+        {
+          "name": "Mishra, Claimed by Gix",
+          "why": "The younger brother's Phyrexian corruption; melds with the Dragon Engine as Mishra Lost to Phyrexia.",
+          "evidence": "named_subject_card_and_meld"
+        },
+        {
+          "name": "Ashnod, Flesh Mechanist",
+          "why": "Mishra's artificer and a central architect of the war's living-machinery horror.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Tawnos, Urza's Apprentice",
+          "why": "Urza's apprentice, showing the human hands behind Urza's machinery.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Queen Kayla bin-Kroog",
+          "why": "Kayla's account of the conflict preserved the history of the brothers' war.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Gix, Yawgmoth Praetor",
+          "why": "The Phyrexian manipulator who corrupts Mishra and ties the war to Yawgmoth.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "The Mightstone and Weakstone",
+          "why": "The original divided powerstone, also Urza's meld component.",
+          "evidence": "named_historical_artifact_and_meld"
+        },
+        {
+          "name": "Phyrexian Dragon Engine",
+          "why": "Mishra's mechanized fate; the paired meld card that makes the fall playable on the table.",
+          "evidence": "named_historical_artifact_and_meld"
+        },
+        {
+          "name": "Splitting the Powerstone",
+          "why": "A literal card depiction of the brothers dividing the ancient stone.",
+          "evidence": "named_historical_event"
+        },
+        {
+          "name": "The Brothers' War",
+          "why": "A Saga that recounts the central conflict rather than an unrelated efficient spell.",
+          "evidence": "named_story_saga"
+        },
+        {
+          "name": "The Antiquities War",
+          "why": "A historical Saga linking Urza and Mishra's war to the later surviving account.",
+          "evidence": "named_story_saga"
+        },
+        {
+          "name": "Urza's Sylex",
+          "why": "The weapon detonated on Argoth at the end of the Brothers' War.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Brotherhood's End",
+          "why": "The climax of the brothers' conflict and the world-altering destruction.",
+          "evidence": "named_historical_event"
+        }
+      ]
+    },
+    {
+      "title": "III. Urza's long war: Karn, Xantcha, Serra and the Legacy",
+      "lore_keys": [
+        "Characters Index.md#urza",
+        "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+      ],
+      "cards": [
+        {
+          "name": "Karn, Silver Golem",
+          "why": "Urza's silver golem, friend and the sentient keeper of the Legacy.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Xantcha, Sleeper Agent",
+          "why": "The Phyrexian sleeper who becomes Urza's companion and helps him understand his enemy.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Barrin, Master Wizard",
+          "why": "Urza's collaborator at the Tolarian Academy, shaping the long war.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Teferi, Temporal Archmage",
+          "why": "Urza's Tolarian student and the time mage whose decisions shape the invasion era; this card depicts the character in later life.",
+          "evidence": "contextual_character_version"
+        },
+        {
+          "name": "Jhoira, Weatherlight Captain",
+          "why": "Jhoira helped connect Tolarian artifice to the Weatherlight and was the ship's first captain; this card is a later depiction.",
+          "evidence": "contextual_character_version"
+        },
+        {
+          "name": "Serra the Benevolent",
+          "why": "Serra created the realm whose white mana later powered the Weatherlight.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Planar Collapse",
+          "why": "The destruction of Serra's Realm, transformed into power for the Weatherlight's planar engine.",
+          "evidence": "named_story_scene"
+        },
+        {
+          "name": "Urza Assembles the Titans",
+          "why": "A retrospective Saga of Urza's nine Planeswalkers and invasion plan.",
+          "evidence": "named_story_saga"
+        },
+        {
+          "name": "Power Matrix",
+          "why": "Its Mercadian Masques printing's flavor quotes Karn; a machine-fitting glimpse of the Legacy's guardian.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Heartstone",
+          "why": "The Sliver Queen's heartstone and Legacy-object imagery connect Rath's slivers with Urza's weapon.",
+          "evidence": "named_historical_artifact_contextual"
+        },
+        {
+          "name": "Urza, Lord High Artificer",
+          "why": "Urza in his long-term role as architect of the anti-Phyrexian Legacy and artifacts.",
+          "evidence": "named_subject_card"
+        }
+      ]
+    },
+    {
+      "title": "IV. The Weatherlight crew: Rath, betrayal and the Legacy's recovery",
+      "lore_keys": [
+        "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+        "Characters Index.md#sisay"
+      ],
+      "cards": [
+        {
+          "name": "Captain Sisay",
+          "why": "The original Weatherlight captain seeks the scattered Legacy; a second, period-specific Sisay printing distinct from the commander.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Gerrard Capashen",
+          "why": "The Legacy's destined human champion and original Weatherlight saga protagonist.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Hanna, Ship's Navigator",
+          "why": "The Weatherlight navigator and artificer keeping the ship and the search together.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Squee, Goblin Nabob",
+          "why": "The crew's iconic goblin, whose immortality becomes part of the saga.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Mirri, Cat Warrior",
+          "why": "The Weatherlight's fighter whose fate is tied to Crovax and the mission.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Tahngarth, Talruum Hero",
+          "why": "The crew's minotaur warrior, changed by imprisonment and Phyrexian violence.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Orim, Samite Healer",
+          "why": "The Weatherlight's medic, representing care and sacrifice amid the war.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Predator, Flagship",
+          "why": "The Phyrexian ship pursuing the Weatherlight across Rath.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Crovax the Cursed",
+          "why": "The Weatherlight ally who falls into vampirism and ultimately serves the enemy.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Ertai, the Corrupted",
+          "why": "The former Weatherlight mage turned into a Phyrexian opponent.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Volrath the Fallen",
+          "why": "The villainous evincar of Rath, linked to Sisay's abduction and the Legacy's dispersal.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Eladamri, Lord of Leaves",
+          "why": "The Skyshroud resistance leader who joins the fight against Rath's masters.",
+          "evidence": "named_subject_card"
+        },
+        {
+          "name": "Skyship Weatherlight",
+          "why": "The original story's ship, and one of the physical artifacts connected to the Legacy.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Sliver Queen",
+          "why": "Her heartstone is a key point in Karn's compassionate recovery of a Legacy component.",
+          "evidence": "named_subject_card_official_story"
+        }
+      ]
+    },
+    {
+      "title": "V. Invasion to Apocalypse: Yawgmoth's end",
+      "lore_keys": [
+        "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+        "Master Timeline.md#brothers-war--phyrexian-wars"
+      ],
+      "cards": [
+        {
+          "name": "Legacy Weapon",
+          "why": "The completed artifact culmination of Urza's long design and the Weatherlight crew's quest.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Coalition Honor Guard",
+          "why": "Apocalypse-era soldier bearing the Coalition's united flag, with original flavor about that sacrifice; avoids the Game Changer win card.",
+          "evidence": "literal_printed_flavor_and_story_era"
+        },
+        {
+          "name": "Vindicate",
+          "why": "The Apocalypse-era card depicts the conflict's bitter moral stakes; printing flavor must be checked before finalizing.",
+          "evidence": "story_era_printing_contextual"
+        },
+        {
+          "name": "Death Grasp",
+          "why": "An Apocalypse-era card with printed Yawgmoth flavor, explicitly portraying the cruelty of his campaign.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Pernicious Deed",
+          "why": "An Apocalypse-era permanent with Yawgmoth's flavor text and destructive design.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Jilt",
+          "why": "Apocalypse-era flavor mentions Yawgmoth and Gerrard, directly tying enemies and hero.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Yawgmoth's Agenda",
+          "why": "Yawgmoth's sweeping objectives as the Invasion approaches.",
+          "evidence": "named_subject_artifact_or_spell"
+        },
+        {
+          "name": "Urza's Guilt",
+          "why": "The Planeshift card's printed quote connects Urza's internal conflict to Yawgmoth and the war.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Yawgmoth's Edict",
+          "why": "Original Urza's Saga card whose flavor quotes Xantcha rejecting Phyrexian purity; preserves Yawgmoth connection without Sliver Queen / Heartstone / Altar loop.",
+          "evidence": "literal_printed_flavor_and_named_subject"
+        },
+        {
+          "name": "Yawgmoth's Vile Offering",
+          "why": "A later retrospective Legendary Sorcery invoking Yawgmoth's violence and legacy.",
+          "evidence": "named_subject_spell_retrospective"
+        },
+        {
+          "name": "Heroes' Reunion",
+          "why": "Invasion printing contains a Gerrard line and depicts reunification against the invaders.",
+          "evidence": "literal_printed_flavor_candidate"
+        },
+        {
+          "name": "Last Stand",
+          "why": "The Apocalypse set's literal five-color last stand represents the Coalition's final defense.",
+          "evidence": "story_era_printing_contextual"
+        }
+      ]
+    },
+    {
+      "title": "VI. Historical ground: Thran ruins, warfronts, Rath and Dominaria",
+      "lore_keys": [
+        "Master Timeline.md#brothers-war--phyrexian-wars",
+        "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+      ],
+      "cards": [
+        {
+          "name": "Thran Portal",
+          "why": "The ancient Thran portals are central to Yawgmoth's access to Phyrexia; this is a later retrospective card.",
+          "evidence": "named_historical_setting_retrospective"
+        },
+        {
+          "name": "Hall of Tagsin",
+          "why": "The buried Thran archaeological site underlying the brothers' discovery.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Caves of Koilos",
+          "why": "The site where the brothers found and divided the powerstone; its Dominaria United flavor is later Phyrexian-return foreshadowing, not a contemporaneous Brothers' War quote.",
+          "evidence": "named_historical_setting_and_retrospective"
+        },
+        {
+          "name": "Tocasia's Dig Site",
+          "why": "The dig that brought Urza and Mishra under Tocasia's instruction.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Mishra's Factory",
+          "why": "Mishra's war production, first represented in Antiquities.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Mishra's Foundry",
+          "why": "A Brothers' War-era Mishra industrial site.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Urza's Mine",
+          "why": "Urza's mining network and artifact-war supply; choose an early historical printing.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Urza's Power Plant",
+          "why": "Urza's industrial power network from the original Antiquities story set.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Urza's Tower",
+          "why": "Urza's tower network and archetypal Antiquities-era war infrastructure.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Argoth, Sanctum of Nature",
+          "why": "Argoth, whose destruction ends the Brothers' War and brings an Ice Age.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Phyrexian Tower",
+          "why": "A Phyrexian stronghold; the chosen later printing quotes Karn reflecting on Yawgmoth's death, so its flavor is a retrospective epilogue.",
+          "evidence": "named_historical_setting_retrospective"
+        },
+        {
+          "name": "Yavimaya Hollow",
+          "why": "An original Urza's Destiny landscape with flavor about Yavimaya's protective havens; a resistance-era location rather than an expensive Game Changer land.",
+          "evidence": "literal_printed_flavor_and_story_era"
+        },
+        {
+          "name": "Academy Ruins",
+          "why": "A later view of the Tolarian Academy's remains, recalling Urza, Barrin, Karn and Teferi.",
+          "evidence": "named_historical_setting_retrospective"
+        },
+        {
+          "name": "Volrath's Stronghold",
+          "why": "The stronghold on Rath housing the captives and opposition to the Weatherlight.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Rath's Edge",
+          "why": "A Rath landmark from the Nemesis setting, adjacent to the Legacy quest.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Urborg, Tomb of Yawgmoth",
+          "why": "Yawgmoth's ominous resting-place and a future retrospective of the aftermath of Apocalypse.",
+          "evidence": "named_historical_setting_retrospective"
+        },
+        {
+          "name": "Shivan Reef",
+          "why": "Shiv, the defended home of Jhoira and part of the Dominarian Coalition; an Apocalypse-era location card.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Battlefield Forge",
+          "why": "An Apocalypse-era battlefield land; atmospheric rather than proof of a specific named battle.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Llanowar Wastes",
+          "why": "Llanowar's threatened territory and the woodlands' role in Dominaria's resistance.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Yavimaya Coast",
+          "why": "Yavimaya, a major land and community in Dominaria's war against Phyrexia.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Salt Marsh",
+          "why": "An original Invasion-set Dominarian terrain printing, not claimed as a named decisive battle site.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Coastal Tower",
+          "why": "An Invasion-set Dominarian defensive landscape and two-color source.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Elfhame Palace",
+          "why": "An Invasion-set woodland settlement associated with the coalition era.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Urborg Volcano",
+          "why": "The devastated land of Urborg, a major setting for Yawgmoth's final invasion.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Shivan Oasis",
+          "why": "Shiv's land and settlements as represented in the Invasion set; contextual setting, not a dated action.",
+          "evidence": "story_era_setting_contextual"
+        },
+        {
+          "name": "Kor Haven",
+          "why": "The Rath/Kor resistance setting in Nemesis, connecting the Weatherlight journey with places of refuge.",
+          "evidence": "story_era_setting_contextual"
+        }
+      ]
+    }
+  ],
+  "playability": [
+    {
+      "name": "Coalition Relic",
+      "why": "Five-color fixing that also echoes the Coalition; future-set retrospective, not a literal original-invasion artifact."
+    },
+    {
+      "name": "Chromatic Sphere",
+      "why": "One-shot mana fixing; the Invasion printing quotes Gerrard, so it doubles as an authentic story card."
+    },
+    {
+      "name": "Phyrexian Lens",
+      "why": "Colored-mana generation from an Invasion-set artifact with Gerrard-era flavor."
+    },
+    {
+      "name": "Lotus Petal",
+      "why": "One-shot mana of any color, with Tempest-era Weatherlight/Hanna context in its printed flavor."
+    }
+  ],
+  "basics": {
+    "Plains": 2,
+    "Island": 2,
+    "Swamp": 2,
+    "Mountain": 2,
+    "Forest": 2
+  }
+}
