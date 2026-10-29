@@ -1,0 +1,57 @@
+name: MTG Multiverse snapshot reconciliation report
+
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot_tag:
+        description: Existing verified Scryfall snapshot release tag (blank = newest snap-* tag)
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - scripts/multiverse_snapshot_reconcile.py
+      - .github/workflows/multiverse-snapshot-reconcile.yml
+
+permissions:
+  contents: read
+
+jobs:
+  compare-current-to-committed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select a published snapshot and download all assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REQUESTED_TAG: ${{ inputs.snapshot_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          SNAP_ID="$REQUESTED_TAG"
+          if [[ -z "$SNAP_ID" ]]; then
+            SNAP_ID="$(gh release list --limit 100 --json tagName --jq '[.[].tagName | select(startswith("snap-"))][0]')"
+          fi
+          if [[ -z "$SNAP_ID" || "$SNAP_ID" == "null" ]]; then
+            echo 'No published snap-* release is available.' >&2
+            exit 1
+          fi
+          echo "SNAP_ID=$SNAP_ID" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/multiverse-release"
+          gh release download "$SNAP_ID" --dir "$RUNNER_TEMP/multiverse-release"
+      - name: Verify exact archived bytes and produce read-only delta report
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/scryfall_snapshot.py verify --dir "$RUNNER_TEMP/multiverse-release"
+          python3 scripts/multiverse_snapshot_reconcile.py \
+            --snapshot-dir "$RUNNER_TEMP/multiverse-release" \
+            --output "$RUNNER_TEMP/multiverse-reconciliation.json"
+          echo "## Multiverse snapshot reconciliation: $SNAP_ID" >> "$GITHUB_STEP_SUMMARY"
+          echo 'This report does not alter approved decks or curated lore.' >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: multiverse-reconciliation-${{ github.run_id }}
+          path: ${{ runner.temp }}/multiverse-reconciliation.json
+          retention-days: 30
