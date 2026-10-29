@@ -14,7 +14,9 @@ on:
       - 'scripts/phase8_name_match_triage.py'
       - 'scripts/test_phase8_name_match_triage.py'
       - 'scripts/rebuild_enrichment.sh'
+      - 'data/card_lore_notes.json'
       - 'data/lore_research/**'
+      - 'tests/test_phase8_reality_fracture_notes.py'
       - 'PHASE8_RESTART.md'
       - '.github/workflows/lore-phase8-validation.yml'
   workflow_dispatch:
@@ -39,6 +41,7 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_phase8_safety.py' -v
           python3 -m unittest discover -s scripts -p 'test_story_cache_audit.py' -v
           python3 -m unittest discover -s scripts -p 'test_phase8_name_match_triage.py' -v
+          python3 -m unittest discover -s tests -p 'test_phase8_reality_fracture_notes.py' -v
       - name: Report current Phase 8 coverage without changing files
         run: python3 scripts/phase8_status.py --json
       - name: Confirm default Phase 8 entrypoint is read-only
