@@ -27,6 +27,19 @@ A [2023–October 2026 Wizards-backed classification](data/set_atlas/wotc_releas
 
 Of the **142** released, nondigital `expansion`/`core` Scryfall category candidates in the entire snapshot, **21** have source-backed regular-main-release classification, **two** are documented as an epilogue/subset, and **119** older candidates remain unreviewed. **Do not report 142, or 21, as Magic's all-time premier set count.** The archive's 1,062 set codes include many tokens, promos, supplemental products, and digital releases.
 
+## Historical regular-set census: 1993–2002
+
+The [Wizards-source evidence file](data/set_atlas/wotc_early_release_evidence_1993_2002.json) and [deterministic 38-code audit](data/set_atlas/wotc_early_release_audit_1993_2002.json) review every 1993–2002 set code in Scryfall's *released non-digital expansion/core* category against Wizards' [year-by-year historical booster retrospective](https://magic.wizards.com/en/news/making-magic/looking-back-part-1) and [enumeration of regular core editions](https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less).
+
+- **35** codes are supported as historically regular expansion/core releases, including Limited Edition Alpha, Beta and Unlimited as separately sold core editions.
+- **Summer Magic/Edgar (`sum`)** is separately listed in Scryfall but Wizards [describes it as an abandoned Revised print run](https://magic.wizards.com/en/news/making-magic/25-more-random-things-about-magic-2016-06-20), with a small amount distributed accidentally. It is not counted as another regularly published core edition.
+- **`fbb` and `4bb`** represent localized black-border variations in Scryfall. Wizards' regular core edition enumeration omits them, but their exact production/edition classification is **provisional** pending more direct primary-source verification; neither is silently declared definitively excluded.
+- Arabian Nights is indexed by Scryfall as December 1993, with [Wizards acknowledging geographic release timing across late 1993 and early 1994](https://magic.wizards.com/en/news/making-magic/25-random-things-about-magic-2009-02-16).
+
+Across this early review and the 2023–October 2026 review, the published **142** released non-digital Scryfall expansion/core candidates break down into **56 primary-source-supported mainline/regular releases**, **3 directly documented auxiliary/discarded products**, **2 provisional localized variants**, and **81 entirely unreviewed 2003–2022 candidates**. **This does not yet constitute an all-time count of premier Magic sets.** The older era predates the modern Wizards marketing term *premier release*, and Scryfall `set_type` is not the same as a historical product taxonomy.
+
+The regeneration command is `python3 scripts/audit_wotc_early_sets.py` (use `--write` only to intentionally update the dated report). Passing tests reject unreviewed, duplicate, mismatched or unofficially sourced classifications.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
