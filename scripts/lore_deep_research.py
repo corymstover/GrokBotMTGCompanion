@@ -145,6 +145,12 @@ def parse_decklist(path):
     return included, slots
 
 
+def _deck_has_card(name, included):
+    """Recognize a front/back-face name when the list uses only one DFC face."""
+    aliases = [name.casefold()] + [x.strip().casefold() for x in name.split(" // ")]
+    return any(alias in included for alias in aliases)
+
+
 def index_cards(subject, path=DEFAULT_LORE_INDEX):
     """Reuse already indexed character/dossier card links with provenance.
 
@@ -274,12 +280,12 @@ def deep_research(subject, archive, *, decklist=None, profile_dir=DEFAULT_PROFIL
     items.sort(key=lambda x: (-x["score"], x["card"].casefold()))
     count = len(items)
     included, slots = parse_decklist(decklist) if decklist else (set(), 0)
-    excluded = [it for it in items if it["card"].casefold() not in included]
+    excluded = [it for it in items if not _deck_has_card(it["card"], included)]
     by_phase = defaultdict(lambda: {"discovered": 0, "in_deck": 0, "missing": 0})
     for it in items:
         phase = it["phase"]
         by_phase[phase]["discovered"] += 1
-        by_phase[phase]["in_deck" if it["card"].casefold() in included else "missing"] += 1
+        by_phase[phase]["in_deck" if _deck_has_card(it["card"], included) else "missing"] += 1
     return {"subject": subject, "profile_used": p["profile_used"],
             "linked_lore_entries": linked_context,
             "subject_signals": p["signals"], "reading_sources": p.get("reading_sources", []),
