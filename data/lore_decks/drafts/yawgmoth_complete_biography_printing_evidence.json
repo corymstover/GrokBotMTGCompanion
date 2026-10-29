@@ -1,0 +1,1267 @@
+{
+  "theme": "Yawgmoth: Father of Machines — A Biography of the Thran Tyrant and His Posthumous Shadow",
+  "raw_sha256": "d77fb2e2976c01c18db233a3e39816241f46e891c696b9a301a85bbd75b9812f",
+  "source": "local 2026-10-28 Scryfall printing SQLite cache",
+  "cards": [
+    {
+      "name": "Ramos, Dragon Engine",
+      "why": "Five-color Commander; former Mishra Dragon Engine whose five powerstones formed part of the Legacy; admitted narrator-frame role.",
+      "tier": "legacy_component_commander",
+      "printing": {
+        "set": "BRR",
+        "collector": "47",
+        "url": "https://scryfall.com/card/brr/47/ramos-dragon-engine?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Artifact Creature — Dragon",
+        "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth, Thran Physician",
+      "why": "The human Thran physician whose ambition, experimentation and atrocities precede his godhood.",
+      "tier": "direct_character",
+      "printing": {
+        "set": "MH1",
+        "collector": "116",
+        "url": "https://scryfall.com/card/mh1/116/yawgmoth-thran-physician?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Human Cleric",
+        "oracle": "Protection from Humans\nPay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.\n{B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Rebbec, Architect of Ascension",
+      "why": "Glacian’s wife brought Yawgmoth into Halcyon to try to save her husband; she ultimately sealed his portal.",
+      "tier": "named_witness",
+      "printing": {
+        "set": "CMR",
+        "collector": "42",
+        "url": "https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension?utm_source=api",
+        "printed_flavor": "\"She sees beyond technology to what it enables.\"\n—Glacian, powerstone engineer",
+        "type_line": "Legendary Creature — Human Artificer",
+        "oracle": "Artifacts you control have protection from each mana value among artifacts you control.\nPartner (You can have two commanders if both have partner.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Glacian, Powerstone Engineer",
+      "why": "His inventions powered the Thran; Yawgmoth exploited him and the two halves of his powerstone eventually became the brothers’ stones.",
+      "tier": "named_victim",
+      "printing": {
+        "set": "CMR",
+        "collector": "72",
+        "url": "https://scryfall.com/card/cmr/72/glacian-powerstone-engineer?utm_source=api",
+        "printed_flavor": "\"His energy is as boundless as the powerstones'.\"\n—Rebbec, architect of ascension",
+        "type_line": "Legendary Creature — Human Artificer",
+        "oracle": "{T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of those cards into your hand and the rest into your graveyard.\nPartner (You can have two commanders if both have partner.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phthisis",
+      "why": "The powerstone-induced wasting disease that struck Glacian and the Untouchables, giving Yawgmoth his route from exiled doctor to Halcyon ruler. The Time Spiral card names the condition, but its artwork is not a verified scene from the novel.",
+      "tier": "direct_novel_disease",
+      "printing": {
+        "set": "TSP",
+        "collector": "122",
+        "url": "https://scryfall.com/card/tsp/122/phthisis?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Sorcery",
+        "oracle": "Destroy target creature. Its controller loses life equal to its power plus its toughness.\nSuspend 5—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Mana Rig",
+      "why": "An original Thran powerstone-producing installation type, crucial to the industrial civilization behind phthisis. The printed card depicts the separate Shivan Mana Rig, not the specific Halcyon facility in the novel.",
+      "tier": "documented_related_thran_technology",
+      "printing": {
+        "set": "DMC",
+        "collector": "28",
+        "url": "https://scryfall.com/card/dmc/28/the-mana-rig?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Artifact",
+        "oracle": "Whenever you cast a multicolored spell, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")\n{X}{X}{X}, {T}: Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Fall of the Thran",
+      "why": "Historical Saga memorializing the civil war and destruction of the society Yawgmoth seized.",
+      "tier": "historical_saga",
+      "printing": {
+        "set": "DOM",
+        "collector": "18",
+        "url": "https://scryfall.com/card/dom/18/fall-of-the-thran?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Saga",
+        "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy all lands.\nII, III — Each player returns two land cards from their graveyard to the battlefield.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Thran Dynamo",
+      "why": "A literal Thran machine with a selected Yawgmoth-attributed philosophy of limitless advancement; later printing, not an eyewitness scene.",
+      "tier": "quoted_yawgmoth_printing",
+      "printing": {
+        "set": "CMM",
+        "collector": "658",
+        "url": "https://scryfall.com/card/cmm/658/thran-dynamo?utm_source=api",
+        "printed_flavor": "\"The 'pinnacle' of advancement is a concept that exists only in the narrow minds of those with no ambition.\"\n—Yawgmoth",
+        "type_line": "Artifact",
+        "oracle": "{T}: Add {C}{C}{C}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Portal to Phyrexia",
+      "why": "The immense artificial passage and Phyrexian forces, a retrospective Brothers’ War depiction.",
+      "tier": "named_historical_portal",
+      "printing": {
+        "set": "BRO",
+        "collector": "240",
+        "url": "https://scryfall.com/card/bro/240/portal-to-phyrexia?utm_source=api",
+        "printed_flavor": "After five thousand years, the nightmare returned.",
+        "type_line": "Artifact",
+        "oracle": "When this artifact enters, each opponent sacrifices three creatures of their choice.\nAt the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control. It's a Phyrexian in addition to its other types.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Gate to Phyrexia",
+      "why": "The Antiquities-era portal-flavor records Jarsyl’s later sighting; not the specific original Thran gateway.",
+      "tier": "historical_portal_later_visit",
+      "printing": {
+        "set": "ATQ",
+        "collector": "16",
+        "url": "https://scryfall.com/card/atq/16/gate-to-phyrexia?utm_source=api",
+        "printed_flavor": "\"The warm rain of grease on my face immediately made it clear I had entered Phyrexia.\" —Jarsyl, *Diary*",
+        "type_line": "Enchantment",
+        "oracle": "Sacrifice a creature: Destroy target artifact. Activate only during your upkeep and only once each turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Reclamation",
+      "why": "Original Urza’s Legacy card summarizes the regime’s refusal to let death end forced service; a distinct expression of Yawgmoth’s exploitation of flesh.",
+      "tier": "original_phyrexian_dogma",
+      "printing": {
+        "set": "ULG",
+        "collector": "63",
+        "url": "https://scryfall.com/card/ulg/63/phyrexian-reclamation?utm_source=api",
+        "printed_flavor": "Death is no excuse to stop working.",
+        "type_line": "Enchantment",
+        "oracle": "{1}{B}, Pay 2 life: Return target creature card from your graveyard to your hand.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Scriptures",
+      "why": "A Saga summarizing the ideological project of replacing flesh with engineered Phyrexian life.",
+      "tier": "doctrine_saga",
+      "printing": {
+        "set": "DOM",
+        "collector": "100",
+        "url": "https://scryfall.com/card/dom/100/phyrexian-scriptures?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Saga",
+        "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Put a +1/+1 counter on up to one target creature. That creature becomes an artifact in addition to its other types.\nII — Destroy all nonartifact creatures.\nIII — Exile all opponents' graveyards.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth Demon",
+      "why": "An early Antiquities-era Phyrexian Demon named for Yawgmoth; this is a servant, not Yawgmoth’s personal form.",
+      "tier": "named_yawgmoth_servant",
+      "printing": {
+        "set": "ATQ",
+        "collector": "21",
+        "url": "https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Creature — Phyrexian Demon",
+        "oracle": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nFirst strike (This creature deals combat damage before creatures without first strike.)\nAt the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap this creature and it deals 2 damage to you.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Processor",
+      "why": "Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection.",
+      "tier": "official_yawgmoth_machine",
+      "printing": {
+        "set": "SLD",
+        "collector": "2445",
+        "url": "https://scryfall.com/card/sld/2445/phyrexian-processor?utm_source=api",
+        "printed_flavor": "An assembly line of inhumanity.",
+        "type_line": "Artifact",
+        "oracle": "As this artifact enters, pay any amount of life.\n{4}, {T}: Create an X/X black Phyrexian Minion creature token, where X is the life paid as this artifact entered.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth's Will",
+      "why": "Yawgmoth’s overwhelming command over death and the Phyrexian war machine, originally Urza’s Saga.",
+      "tier": "named_signature_magic",
+      "printing": {
+        "set": "USG",
+        "collector": "171",
+        "url": "https://scryfall.com/card/usg/171/yawgmoths-will?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Sorcery",
+        "oracle": "Until end of turn, you may play lands and cast spells from your graveyard.\nIf a card would be put into your graveyard from anywhere this turn, exile that card instead.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth's Bargain",
+      "why": "The named Faustian bargain at the heart of Yawgmoth’s power; Commander-banned, deliberately retained as Rule 0 history.",
+      "tier": "named_signature_magic_rule0",
+      "printing": {
+        "set": "UDS",
+        "collector": "75",
+        "url": "https://scryfall.com/card/uds/75/yawgmoths-bargain?utm_source=api",
+        "printed_flavor": "He craves only one commodity.",
+        "type_line": "Enchantment",
+        "oracle": "Skip your draw step.\nPay 1 life: Draw a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth's Edict",
+      "why": "Seventh Edition printing describes his obsession with remaking bodies and souls.",
+      "tier": "quoted_yawgmoth_printing",
+      "printing": {
+        "set": "7ED",
+        "collector": "171",
+        "url": "https://scryfall.com/card/7ed/171/yawgmoths-edict?utm_source=api",
+        "printed_flavor": "The warping of bodies and souls has become the heart of Yawgmoth's existence.",
+        "type_line": "Enchantment",
+        "oracle": "Whenever an opponent casts a white spell, that player loses 1 life and you gain 1 life.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Altar",
+      "why": "Choose the 2X2 printing explicitly invoking Yawgmoth’s blessings and the Phyrexian Scriptures.",
+      "tier": "quoted_scripture_printing",
+      "printing": {
+        "set": "2X2",
+        "collector": "311",
+        "url": "https://scryfall.com/card/2x2/311/phyrexian-altar?utm_source=api",
+        "printed_flavor": "\"Unskin these impure bodies, Great Yawgmoth, that the flesh may welcome your blessings.\"\n—*Phyrexian Scriptures*",
+        "type_line": "Artifact",
+        "oracle": "Sacrifice a creature: Add one mana of any color.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Order of Yawgmoth",
+      "why": "The priestly enforcement arm bearing his name, directly representing the regime.",
+      "tier": "named_yawgmoth_order",
+      "printing": {
+        "set": "USG",
+        "collector": "144",
+        "url": "https://scryfall.com/card/usg/144/order-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Creature — Phyrexian Zombie Knight",
+        "oracle": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever this creature deals damage to a player, that player discards a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Priest of Yawgmoth",
+      "why": "An original Antiquities-era human cleric whose explicit allegiance makes the Father of Machines’ priesthood tangible.",
+      "tier": "named_yawgmoth_cleric",
+      "printing": {
+        "set": "ATQ",
+        "collector": "19",
+        "url": "https://scryfall.com/card/atq/19/priest-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Creature — Phyrexian Human Cleric",
+        "oracle": "{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's mana value.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Ichor Wellspring",
+      "why": "Brother’s War retro-artifact printing explicitly attributes the infectious-oil description to Yawgmoth.",
+      "tier": "quoted_yawgmoth_printing",
+      "printing": {
+        "set": "BRR",
+        "collector": "84",
+        "url": "https://scryfall.com/card/brr/84/ichor-wellspring?utm_source=api",
+        "printed_flavor": "\"Should a single drop take hold, the oil begins to consume organic tissue and will multiply until it overwhelms the host.\"\n—Yawgmoth, collected writings",
+        "type_line": "Artifact",
+        "oracle": "When this artifact enters or is put into a graveyard from the battlefield, draw a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Toxic Deluge",
+      "why": "Choose the special printing quoting Yawgmoth comparing himself to glistening oil and perfection.",
+      "tier": "quoted_yawgmoth_printing",
+      "printing": {
+        "set": "CC2",
+        "collector": "6",
+        "url": "https://scryfall.com/card/cc2/6/toxic-deluge?utm_source=api",
+        "printed_flavor": "\"I am greater than rain and nourishment. I am glistening oil and perfection.\"\n—Yawgmoth",
+        "type_line": "Sorcery",
+        "oracle": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Mightstone",
+      "why": "Original Antiquities flavor recounts the Thran powerstone discovery Urza made at Koilos.",
+      "tier": "original_historical_printing",
+      "printing": {
+        "set": "ATQ",
+        "collector": "55",
+        "url": "https://scryfall.com/card/atq/55/mightstone?utm_source=api",
+        "printed_flavor": "While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone.",
+        "type_line": "Artifact",
+        "oracle": "Attacking creatures get +1/+0.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Weakstone",
+      "why": "Original Antiquities flavor recounts Mishra’s counterpart to the split Thran powerstone.",
+      "tier": "original_historical_printing",
+      "printing": {
+        "set": "ATQ",
+        "collector": "78",
+        "url": "https://scryfall.com/card/atq/78/weakstone?utm_source=api",
+        "printed_flavor": "During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone.",
+        "type_line": "Artifact",
+        "oracle": "Attacking creatures get -1/-0.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Gix, Yawgmoth Praetor",
+      "why": "Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia.",
+      "tier": "named_agent",
+      "printing": {
+        "set": "BRO",
+        "collector": "95",
+        "url": "https://scryfall.com/card/bro/95/gix-yawgmoth-praetor?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Praetor",
+        "oracle": "Whenever a creature deals combat damage to one of your opponents, its controller may pay 1 life. If they do, they draw a card.\n{4}{B}{B}{B}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Cruelty of Gix",
+      "why": "The Brothers’ War historical Saga memorializes Gix’s exploitative methods and plots that advanced Yawgmoth’s long campaign through Mishra.",
+      "tier": "gix_historical_saga",
+      "printing": {
+        "set": "DMU",
+        "collector": "87",
+        "url": "https://scryfall.com/card/dmu/87/the-cruelty-of-gix?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Saga",
+        "oracle": "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card.\nII — Search your library for a card, put that card into your hand, then shuffle. You lose 3 life.\nIII — Put target creature card from a graveyard onto the battlefield under your control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Mishra, Claimed by Gix",
+      "why": "Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion.",
+      "tier": "named_corruption",
+      "printing": {
+        "set": "BRO",
+        "collector": "216",
+        "url": "https://scryfall.com/card/bro/216/mishra-claimed-by-gix?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Human Artificer",
+        "oracle": "Whenever you attack, each opponent loses X life and you gain X life, where X is the number of attacking creatures. If Mishra, Claimed by Gix and a creature named Phyrexian Dragon Engine are attacking, and you both own and control them, exile them, then meld them into Mishra, Lost to Phyrexia. It enters tapped and attacking.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Dragon Engine",
+      "why": "The war-machine paired with Mishra’s meld, a physical sign of Phyrexian domination.",
+      "tier": "named_war_machine",
+      "printing": {
+        "set": "BRO",
+        "collector": "163",
+        "url": "https://scryfall.com/card/bro/163/phyrexian-dragon-engine?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Artifact Creature — Phyrexian Dragon",
+        "oracle": "Double strike\nWhen this creature enters from your graveyard, you may discard your hand. If you do, draw three cards.\nUnearth {3}{R}{R}\n(Melds with Mishra, Claimed by Gix.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Retaliation",
+      "why": "Original Urza’s Saga flavor records Urza recognizing that Mishra is no longer himself, the emotional consequence of Gix’s and Phyrexia’s manipulation.",
+      "tier": "original_mishra_loss_scene",
+      "printing": {
+        "set": "USG",
+        "collector": "272",
+        "url": "https://scryfall.com/card/usg/272/retaliation?utm_source=api",
+        "printed_flavor": "A foul, metallic stench clogged Urza's senses. It was then he knew his brother was no more.",
+        "type_line": "Enchantment",
+        "oracle": "Creatures you control have \"Whenever this creature becomes blocked by a creature, this creature gets +1/+1 until end of turn.\"",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Sundering Titan",
+      "why": "Choose #120 Brothers’ War retroartifact variant specifically quoting Gix arming the younger brother; banned Rule 0 inclusion.",
+      "tier": "quoted_gix_printing_rule0",
+      "printing": {
+        "set": "BRR",
+        "collector": "120",
+        "url": "https://scryfall.com/card/brr/120/sundering-titan?utm_source=api",
+        "printed_flavor": "\"Give the schematic to the younger brother. Tell him that it will surely keep Argoth's resources out of Urza's hands.\"\n—Gix, Yawgmoth praetor",
+        "type_line": "Artifact Creature — Golem",
+        "oracle": "When this creature enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Brothers' War",
+      "why": "Historical Saga for the war in which Phyrexia operated through Gix.",
+      "tier": "historical_saga",
+      "printing": {
+        "set": "BRC",
+        "collector": "22",
+        "url": "https://scryfall.com/card/brc/22/the-brothers-war?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Saga",
+        "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create two tapped Powerstone tokens.\nII — Choose two target players. Until your next turn, each creature they control attacks the other chosen player each combat if able.\nIII — This Saga deals X damage to any target and X damage to any other target, where X is the number of artifacts you control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Golgothian Sylex",
+      "why": "The original Antiquities card for Urza’s blast that ends the war on Argoth.",
+      "tier": "historical_artifact",
+      "printing": {
+        "set": "ATQ",
+        "collector": "51",
+        "url": "https://scryfall.com/card/atq/51/golgothian-sylex?utm_source=api",
+        "printed_flavor": "From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia.",
+        "type_line": "Artifact",
+        "oracle": "{1}, {T}: Each nontoken permanent with a name originally printed in the Antiquities expansion is sacrificed by its controller.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Xantcha, Sleeper Agent",
+      "why": "A Phyrexian sleeper who rejected Yawgmoth, aided Urza, and exposed his regime’s cruelty.",
+      "tier": "named_defector",
+      "printing": {
+        "set": "C18",
+        "collector": "50",
+        "url": "https://scryfall.com/card/c18/50/xantcha-sleeper-agent?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Minion",
+        "oracle": "Xantcha enters under the control of an opponent of your choice.\nXantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.\n{3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "K'rrik, Son of Yawgmoth",
+      "why": "A Phyrexian time-rift invader at Tolaria; the title Son does not establish literal human parentage.",
+      "tier": "named_agent",
+      "printing": {
+        "set": "C19",
+        "collector": "18",
+        "url": "https://scryfall.com/card/c19/18/krrik-son-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Horror Minion",
+        "oracle": "({B/P} can be paid with either {B} or 2 life.)\nLifelink\nFor each {B} in a cost, you may pay 2 life rather than pay that mana.\nWhenever you cast a black spell, put a +1/+1 counter on K'rrik.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Broodlings",
+      "why": "Original Urza’s Legacy printing directly describes Kerrick (K’rrik) constructing new monsters from scavenged beasts during the Tolarian time-rift plot.",
+      "tier": "specific_kerrick_experiment_printing",
+      "printing": {
+        "set": "ULG",
+        "collector": "58",
+        "url": "https://scryfall.com/card/ulg/58/phyrexian-broodlings?utm_source=api",
+        "printed_flavor": "With limited resources and near unlimited time, Kerrick used parts from one beast to build another.",
+        "type_line": "Creature — Phyrexian Minion",
+        "oracle": "{1}, Sacrifice a creature: Put a +1/+1 counter on this creature.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Urza, Lord High Artificer",
+      "why": "Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire.",
+      "tier": "named_enemy",
+      "printing": {
+        "set": "MH1",
+        "collector": "75",
+        "url": "https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Human Artificer",
+        "oracle": "When Urza enters, create a 0/0 colorless Construct artifact creature token with \"This token gets +1/+1 for each artifact you control.\"\nTap an untapped artifact you control: Add {U}.\n{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Corrupt",
+      "why": "Use the original Urza’s Saga printing explicitly describing Yawgmoth touching Urza’s mind; unlike most later Corrupt reprints this is a direct named confrontation.",
+      "tier": "yawgmoth_named_printing",
+      "printing": {
+        "set": "USG",
+        "collector": "124",
+        "url": "https://scryfall.com/card/usg/124/corrupt?utm_source=api",
+        "printed_flavor": "Yawgmoth brushed Urza's mind, and Urza's world convulsed.",
+        "type_line": "Sorcery",
+        "oracle": "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Heartstone",
+      "why": "Xantcha’s Phyrexian heartstone survived her death and was used as Karn’s conscious personality core; the original Stronghold card depicts this type of stone, not a labeled portrait of Xantcha’s exact specimen.",
+      "tier": "heartstone_lore_bridge",
+      "printing": {
+        "set": "STH",
+        "collector": "134",
+        "url": "https://scryfall.com/card/sth/134/heartstone?utm_source=api",
+        "printed_flavor": "\"Finding a true heartstone is even harder than finding a true heart.\"\n—Hanna",
+        "type_line": "Artifact",
+        "oracle": "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Karn, Silver Golem",
+      "why": "Urza’s silver creation and eventual bearer of the Legacy that destroyed Yawgmoth.",
+      "tier": "named_future_victor",
+      "printing": {
+        "set": "USG",
+        "collector": "298",
+        "url": "https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Artifact Creature — Golem",
+        "oracle": "Whenever Karn blocks or becomes blocked, it gets -4/+4 until end of turn.\n{1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its mana value until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Volrath the Fallen",
+      "why": "The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground.",
+      "tier": "named_agent",
+      "printing": {
+        "set": "NEM",
+        "collector": "75",
+        "url": "https://scryfall.com/card/nem/75/volrath-the-fallen?utm_source=api",
+        "printed_flavor": "\"I stepped out. I did not step down.\"",
+        "type_line": "Legendary Creature — Phyrexian Shapeshifter",
+        "oracle": "{1}{B}, Discard a creature card: Volrath gets +X/+X until end of turn, where X is the discarded card's mana value.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Ertai, the Corrupted",
+      "why": "Former Weatherlight mage remade into a Phyrexian servant on Rath.",
+      "tier": "named_corrupted_agent",
+      "printing": {
+        "set": "PLS",
+        "collector": "107",
+        "url": "https://scryfall.com/card/pls/107/ertai-the-corrupted?utm_source=api",
+        "printed_flavor": "Altered by Phyrexian science, corrupted by black mana, and twisted by rage, Ertai still looked in the mirror and saw only glory.",
+        "type_line": "Legendary Creature — Phyrexian Human Wizard",
+        "oracle": "{U}, {T}, Sacrifice a creature or enchantment: Counter target spell.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Tsabo Tavoc",
+      "why": "Yawgmoth’s brutal invasion general and the speaker on many original Invasion-era cards.",
+      "tier": "named_invasion_general",
+      "printing": {
+        "set": "INV",
+        "collector": "281",
+        "url": "https://scryfall.com/card/inv/281/tsabo-tavoc?utm_source=api",
+        "printed_flavor": "\"I might almost pity my enemies—if it wasn't so amusing to watch them die.\"",
+        "type_line": "Legendary Creature — Phyrexian Horror",
+        "oracle": "First strike, protection from legendary creatures\n{B}{B}, {T}: Destroy target legendary creature. It can't be regenerated.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Slayer",
+      "why": "Original Invasion printing identifies Tsabo Tavoc’s specialized killers devastating Benalia, giving her campaign a specific target.",
+      "tier": "specific_tsabo_invasion_printing",
+      "printing": {
+        "set": "INV",
+        "collector": "118",
+        "url": "https://scryfall.com/card/inv/118/phyrexian-slayer?utm_source=api",
+        "printed_flavor": "Benalia was only the first nation victimized by Tsabo Tavoc's specialized killers.",
+        "type_line": "Creature — Phyrexian Minion",
+        "oracle": "Flying\nWhenever this creature becomes blocked by a white creature, destroy that creature. It can't be regenerated.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Yawgmoth's Agenda",
+      "why": "The named Invasion-era enchantment articulating his huge campaign.",
+      "tier": "named_signature_plan",
+      "printing": {
+        "set": "INV",
+        "collector": "135",
+        "url": "https://scryfall.com/card/inv/135/yawgmoths-agenda?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment",
+        "oracle": "You can't cast more than one spell each turn.\nYou may play lands and cast spells from your graveyard.\nIf a card would be put into your graveyard from anywhere, exile it instead.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Denouncer",
+      "why": "First stage of the Phyrexian illness; original Urza’s Legacy flavor begins a four-card progression.",
+      "tier": "first_illness_stage_printing",
+      "printing": {
+        "set": "ULG",
+        "collector": "61",
+        "url": "https://scryfall.com/card/ulg/61/phyrexian-denouncer?utm_source=api",
+        "printed_flavor": "\"The first stage of the illness: rash and nausea.\"\n—Phyrexian progress notes",
+        "type_line": "Creature — Phyrexian Carrier",
+        "oracle": "{T}, Sacrifice this creature: Target creature gets -1/-1 until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Debaser",
+      "why": "Second stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression.",
+      "tier": "second_illness_stage_printing",
+      "printing": {
+        "set": "ULG",
+        "collector": "59",
+        "url": "https://scryfall.com/card/ulg/59/phyrexian-debaser?utm_source=api",
+        "printed_flavor": "\"The second stage of the illness: high fever and severe infectiousness.\"\n—Phyrexian progress notes",
+        "type_line": "Creature — Phyrexian Carrier",
+        "oracle": "Flying\n{T}, Sacrifice this creature: Target creature gets -2/-2 until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Defiler",
+      "why": "Third stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression.",
+      "tier": "third_illness_stage_printing",
+      "printing": {
+        "set": "ULG",
+        "collector": "60",
+        "url": "https://scryfall.com/card/ulg/60/phyrexian-defiler?utm_source=api",
+        "printed_flavor": "\"The third stage of the illness: muscle aches and persistent cough.\"\n—Phyrexian progress notes",
+        "type_line": "Creature — Phyrexian Carrier",
+        "oracle": "{T}, Sacrifice this creature: Target creature gets -3/-3 until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Plaguelord",
+      "why": "Final stage of the Phyrexian illness; original Urza’s Legacy flavor concludes the four-card progression.",
+      "tier": "final_illness_stage_printing",
+      "printing": {
+        "set": "ULG",
+        "collector": "62",
+        "url": "https://scryfall.com/card/ulg/62/phyrexian-plaguelord?utm_source=api",
+        "printed_flavor": "\"The final stage of the illness: delirium, convulsions, and death.\"\n—Phyrexian progress notes",
+        "type_line": "Creature — Phyrexian Carrier",
+        "oracle": "{T}, Sacrifice this creature: Target creature gets -4/-4 until end of turn.\nSacrifice a creature: Target creature gets -1/-1 until end of turn.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Infiltrator",
+      "why": "The Invasion printing explicitly calls this agent Yawgmoth’s will made machine.",
+      "tier": "quoted_invasion_printing",
+      "printing": {
+        "set": "INV",
+        "collector": "116",
+        "url": "https://scryfall.com/card/inv/116/phyrexian-infiltrator?utm_source=api",
+        "printed_flavor": "\"It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh.\"\n—Tsabo Tavoc",
+        "type_line": "Creature — Phyrexian Minion",
+        "oracle": "{2}{U}{U}: Exchange control of this creature and target creature. (This effect lasts indefinitely.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Eye of Yawgmoth",
+      "why": "A Nemesis-era instrument bearing his name, embodying the watching, sacrificing, and scrutinizing of bodies in the invasion regime.",
+      "tier": "named_yawgmoth_instrument",
+      "printing": {
+        "set": "NEM",
+        "collector": "129",
+        "url": "https://scryfall.com/card/nem/129/eye-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Artifact",
+        "oracle": "{3}, {T}, Sacrifice a creature: Reveal a number of cards from the top of your library equal to the sacrificed creature's power. Put one into your hand and exile the rest.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Squee, Goblin Nabob",
+      "why": "Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation.",
+      "tier": "documented_cursed_victim_and_flavor",
+      "printing": {
+        "set": "UMA",
+        "collector": "150",
+        "url": "https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api",
+        "printed_flavor": "\"If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee.\"\n—Karn",
+        "type_line": "Legendary Creature — Goblin",
+        "oracle": "At the beginning of your upkeep, you may return this card from your graveyard to your hand.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Planar Portal",
+      "why": "Original Invasion printing explicitly announces the beginning of the Phyrexian invasion of Dominaria, giving its first entry its own scene.",
+      "tier": "literal_invasion_start_printing",
+      "printing": {
+        "set": "INV",
+        "collector": "308",
+        "url": "https://scryfall.com/card/inv/308/planar-portal?utm_source=api",
+        "printed_flavor": "The sky split, and the air crackled and roiled. The Phyrexian invasion of Dominaria had finally begun.",
+        "type_line": "Artifact",
+        "oracle": "{6}, {T}: Search your library for a card, put that card into your hand, then shuffle.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Planar Overlay",
+      "why": "Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest.",
+      "tier": "named_planar_invasion_event",
+      "printing": {
+        "set": "PLS",
+        "collector": "28",
+        "url": "https://scryfall.com/card/pls/28/planar-overlay?utm_source=api",
+        "printed_flavor": "The Phyrexians don't want to conquer Dominaria. They want to remake it.",
+        "type_line": "Sorcery",
+        "oracle": "Each player chooses a land they control of each basic land type. Return those lands to their owners' hands.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Urza Assembles the Titans",
+      "why": "Historical Saga of the group of planeswalkers Urza led to strike Phyrexia itself.",
+      "tier": "historical_saga",
+      "printing": {
+        "set": "DMU",
+        "collector": "37",
+        "url": "https://scryfall.com/card/dmu/37/urza-assembles-the-titans?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Saga",
+        "oracle": "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Scry 4, then you may reveal the top card of your library. If a planeswalker card is revealed this way, put it into your hand.\nII — You may put a planeswalker card with mana value 6 or less from your hand onto the battlefield.\nIII — You may activate the loyalty abilities of planeswalkers you control twice this turn rather than only once.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Warped Devotion",
+      "why": "Original Planeshift printing quotes Urza to Gerrard in admiration of Yawgmoth’s glory within Phyrexia, a harrowing corruption of his greatest opponent.",
+      "tier": "literal_yawgmoth_temptation",
+      "printing": {
+        "set": "PLS",
+        "collector": "57",
+        "url": "https://scryfall.com/card/pls/57/warped-devotion?utm_source=api",
+        "printed_flavor": "\"Before the glory of Yawgmoth, yes, even this makes sense.\"\n—Urza, to Gerrard",
+        "type_line": "Enchantment",
+        "oracle": "Whenever a permanent is returned to a player's hand, that player discards a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Tyranny",
+      "why": "Original Planeshift flavor records Crovax explicitly describing Ertai as Yawgmoth’s gift to him; a distinct triad-of-villains scene.",
+      "tier": "literal_yawgmoth_reward_printing",
+      "printing": {
+        "set": "PLS",
+        "collector": "118",
+        "url": "https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api",
+        "printed_flavor": "\"He is Yawgmoth's reward to me. I shall kill him a hundred times a day.\"\n—Crovax, to Ertai",
+        "type_line": "Enchantment",
+        "oracle": "Whenever a player draws a card, that player loses 2 life unless they pay {2}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Last Stand",
+      "why": "The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter.",
+      "tier": "visual_depiction_of_final_invasion",
+      "printing": {
+        "set": "APC",
+        "collector": "107",
+        "url": "https://scryfall.com/card/apc/107/last-stand?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Sorcery",
+        "oracle": "Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Urza's Guilt",
+      "why": "The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat.",
+      "tier": "literal_printed_moment",
+      "printing": {
+        "set": "PLS",
+        "collector": "130",
+        "url": "https://scryfall.com/card/pls/130/urzas-guilt?utm_source=api",
+        "printed_flavor": "Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. \"Mishra?\"",
+        "type_line": "Sorcery",
+        "oracle": "Each player draws two cards, then discards three cards, then loses 4 life.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Planar Despair",
+      "why": "The Apocalypse printing explicitly describes Dominaria recoiling at Yawgmoth’s arrival.",
+      "tier": "literal_printed_yawgmoth_flavor",
+      "printing": {
+        "set": "APC",
+        "collector": "50",
+        "url": "https://scryfall.com/card/apc/50/planar-despair?utm_source=api",
+        "printed_flavor": "All of Dominaria recoiled as Yawgmoth and his retainers arrived.",
+        "type_line": "Sorcery",
+        "oracle": "Domain — All creatures get -1/-1 until end of turn for each basic land type among lands you control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Death Grasp",
+      "why": "The Apocalypse printing directly reports Yawgmoth’s delight in turning heroes against each other.",
+      "tier": "literal_printed_yawgmoth_flavor",
+      "printing": {
+        "set": "APC",
+        "collector": "95",
+        "url": "https://scryfall.com/card/apc/95/death-grasp?utm_source=api",
+        "printed_flavor": "Yawgmoth's greatest joy came from watching one hero defeat another.",
+        "type_line": "Sorcery",
+        "oracle": "Death Grasp deals X damage to any target. You gain X life.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Pernicious Deed",
+      "why": "Freyalise’s original Apocalypse printing condemns Yawgmoth as she places a bomb.",
+      "tier": "literal_printed_yawgmoth_flavor",
+      "printing": {
+        "set": "APC",
+        "collector": "114",
+        "url": "https://scryfall.com/card/apc/114/pernicious-deed?utm_source=api",
+        "printed_flavor": "\"Yawgmoth,\" Freyalise whispered as she set the bomb, \"now you will pay for your treachery.\"",
+        "type_line": "Enchantment",
+        "oracle": "{X}, Sacrifice this enchantment: Destroy each artifact, creature, and enchantment with mana value X or less.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Jilt",
+      "why": "The Apocalypse scene records Gerrard rejecting a false Hanna and directly addressing Yawgmoth.",
+      "tier": "literal_printed_yawgmoth_flavor",
+      "printing": {
+        "set": "APC",
+        "collector": "27",
+        "url": "https://scryfall.com/card/apc/27/jilt?utm_source=api",
+        "printed_flavor": "\"You're not my Hanna!\"\n—Gerrard, to Yawgmoth",
+        "type_line": "Instant",
+        "oracle": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nReturn target creature to its owner's hand. If this spell was kicked, it deals 2 damage to another target creature.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Annihilate",
+      "why": "The original Invasion printing includes Tsabo Tavoc’s explicit description of Yawgmoth’s death sentence.",
+      "tier": "literal_printed_yawgmoth_flavor",
+      "printing": {
+        "set": "INV",
+        "collector": "94",
+        "url": "https://scryfall.com/card/inv/94/annihilate?utm_source=api",
+        "printed_flavor": "\"Whatever Yawgmoth marks, dies. There is no escape.\"\n—Tsabo Tavoc, Phyrexian general",
+        "type_line": "Instant",
+        "oracle": "Destroy target nonblack creature. It can't be regenerated.\nDraw a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Gerrard Capashen",
+      "why": "The Legacy’s human heir, whose actions finally helped bring down Yawgmoth.",
+      "tier": "named_final_victor",
+      "printing": {
+        "set": "APC",
+        "collector": "11",
+        "url": "https://scryfall.com/card/apc/11/gerrard-capashen?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Human Soldier",
+        "oracle": "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.\n{3}{W}: Tap target creature. Activate only if Gerrard Capashen is attacking.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Legacy Weapon",
+      "why": "Select Dominaria Remastered printing whose flavor expressly narrates Yawgmoth’s obliteration.",
+      "tier": "literal_printed_death_scene",
+      "printing": {
+        "set": "DMR",
+        "collector": "229",
+        "url": "https://scryfall.com/card/dmr/229/legacy-weapon?utm_source=api",
+        "printed_flavor": "In a single blinding flash, Yawgmoth was obliterated, and Urza could finally rest.",
+        "type_line": "Legendary Artifact",
+        "oracle": "{W}{U}{B}{R}{G}: Exile target permanent.\nIf Legacy Weapon would be put into a graveyard from anywhere, reveal Legacy Weapon and shuffle it into its owner's library instead.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Glistening Oil",
+      "why": "The infectious medium that outlived Yawgmoth and eventually transformed Mirrodin; not proof he survived.",
+      "tier": "posthumous_biological_legacy",
+      "printing": {
+        "set": "NPH",
+        "collector": "62",
+        "url": "https://scryfall.com/card/nph/62/glistening-oil?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Enchantment — Aura",
+        "oracle": "Enchant creature\nEnchanted creature has infect.\nAt the beginning of your upkeep, put a -1/-1 counter on enchanted creature.\nWhen this Aura is put into a graveyard from the battlefield, return it to its owner's hand.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyresis",
+      "why": "Sheoldred explicitly celebrates becoming compleat; depicts post-Yawgmoth New Phyrexia, not a living Yawgmoth order.",
+      "tier": "posthumous_compleation_process",
+      "printing": {
+        "set": "MBS",
+        "collector": "49",
+        "url": "https://scryfall.com/card/mbs/49/phyresis?utm_source=api",
+        "printed_flavor": "\"Perfection is at hand. You have been freed of weakness and made *compleat*.\"\n—Sheoldred, Whispering One",
+        "type_line": "Enchantment — Aura",
+        "oracle": "Enchant creature\nEnchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Karn Liberated",
+      "why": "Karn is reclaimed from the New Phyrexian contamination and later fights the successors.",
+      "tier": "historical_legacy_resistance",
+      "printing": {
+        "set": "NPH",
+        "collector": "1",
+        "url": "https://scryfall.com/card/nph/1/karn-liberated?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Planeswalker — Karn",
+        "oracle": "+4: Target player exiles a card from their hand.\n−3: Exile target permanent.\n−14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn. Then put those cards onto the battlefield under your control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Sheoldred, Whispering One",
+      "why": "A New Phyrexian praetor claiming direct spiritual succession to the Old Phyrexian order.",
+      "tier": "posthumous_ideological_heir",
+      "printing": {
+        "set": "NPH",
+        "collector": "73",
+        "url": "https://scryfall.com/card/nph/73/sheoldred-whispering-one?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Praetor",
+        "oracle": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nAt the beginning of your upkeep, return target creature card from your graveyard to the battlefield.\nAt the beginning of each opponent's upkeep, that player sacrifices a creature of their choice.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Elesh Norn, Mother of Machines",
+      "why": "The successor who tried to recreate the unified authority associated with Yawgmoth.",
+      "tier": "posthumous_ideological_successor",
+      "printing": {
+        "set": "ONE",
+        "collector": "10",
+        "url": "https://scryfall.com/card/one/10/elesh-norn-mother-of-machines?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Creature — Phyrexian Praetor",
+        "oracle": "Vigilance\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nPermanents entering don't cause abilities of permanents your opponents control to trigger.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Thran Portal",
+      "why": "The Thran access technology makes the betrayal of Dominaria possible.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "DMU",
+        "collector": "259",
+        "url": "https://scryfall.com/card/dmu/259/thran-portal?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Land — Gate",
+        "oracle": "This land enters tapped unless you control two or fewer other lands.\nAs this land enters, choose a basic land type.\nThis land is the chosen type in addition to its other types.\nMana abilities of this land cost an additional 1 life to activate.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Hall of Tagsin",
+      "why": "Ancient Thran site later discovered by the brothers.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRO",
+        "collector": "263",
+        "url": "https://scryfall.com/card/bro/263/hall-of-tagsin?utm_source=api",
+        "printed_flavor": "The Thran's machines were not dead after all, merely dormant . . . and waiting.",
+        "type_line": "Land",
+        "oracle": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{4}, {T}: Create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Caves of Koilos",
+      "why": "The cave of the Thran powerstone; later printings refer to a renewed Phyrexian menace.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "DMU",
+        "collector": "244",
+        "url": "https://scryfall.com/card/dmu/244/caves-of-koilos?utm_source=api",
+        "printed_flavor": "After years of silence, the caves once again echo with the grisly sounds of Phyrexians preparing for war.",
+        "type_line": "Land",
+        "oracle": "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Tocasia's Dig Site",
+      "why": "The archaeological expedition that found the brothers’ Thran inheritance.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRO",
+        "collector": "266",
+        "url": "https://scryfall.com/card/bro/266/tocasias-dig-site?utm_source=api",
+        "printed_flavor": "Sent by their noble parents to toughen up and learn something of the world's past, Urza and Mishra instead uncovered Terisiare's future.",
+        "type_line": "Land",
+        "oracle": "{T}: Add {C}.\n{3}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Mishra's Workshop",
+      "why": "Artifact-war industry that Gix’s plans exploited.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "ATQ",
+        "collector": "81",
+        "url": "https://scryfall.com/card/atq/81/mishras-workshop?utm_source=api",
+        "printed_flavor": "Though he eventually came to despise Tocasia, Mishra listened well to her lessons on clarity of purpose. Unlike his brother, he focused his mind on a single goal.",
+        "type_line": "Land",
+        "oracle": "{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Ancient Den",
+      "why": "Select the Brothers’ War Commander printing explicitly identifying Halcyon, the once-floating Thran capital destroyed in Yawgmoth’s rise. This is an exact-printing flavor-text connection, not a claim that Mirrodin-set art depicts Halcyon.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRC",
+        "collector": "172",
+        "url": "https://scryfall.com/card/brc/172/ancient-den?utm_source=api",
+        "printed_flavor": "\"Halcyon, the floating capital of the Thran. The once shining city in the clouds now lies ruined on the desert floor.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {W}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Vault of Whispers",
+      "why": "Select the Brothers’ War Commander printing quoting Fall of the Thran on Koilos, the Thran prison-city where the earliest Phyrexian influence took root; not a literal depiction of Glacian’s sickroom.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRC",
+        "collector": "211",
+        "url": "https://scryfall.com/card/brc/211/vault-of-whispers?utm_source=api",
+        "printed_flavor": "\"Koilos, the Thran prison-city, built to house their outcasts and dissidents. It was here that Phyrexia's influence first festered.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {B}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Contaminated Aquifer",
+      "why": "The Dominaria United land directly invokes Yawgmoth’s continuing legacy in the extensive underground caves. A retrospective landscape echo rather than a Thran-era scene.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "DMU",
+        "collector": "245",
+        "url": "https://scryfall.com/card/dmu/245/contaminated-aquifer?utm_source=api",
+        "printed_flavor": "The caves stretch farther than anyone knows, and the terrible legacy of Yawgmoth lurks in every shadow.",
+        "type_line": "Land — Island Swamp",
+        "oracle": "({T}: Add {U} or {B}.)\nThis land enters tapped.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Argoth, Sanctum of Nature",
+      "why": "The island destroyed by Urza’s Golgothian Sylex.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRO",
+        "collector": "256",
+        "url": "https://scryfall.com/card/bro/256/argoth-sanctum-of-nature?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Land",
+        "oracle": "This land enters tapped unless you control a legendary green creature.\n{T}: Add {G}.\n{2}{G}{G}, {T}: Create a 2/2 green Bear creature token, then mill three cards. Activate only as a sorcery.\n(Melds with Titania, Voice of Gaea.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Tolarian Academy",
+      "why": "Where Urza built his long response and where Phyrexian time-rift attacks struck; banned Rule 0 inclusion.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "USG",
+        "collector": "330",
+        "url": "https://scryfall.com/card/usg/330/tolarian-academy?utm_source=api",
+        "printed_flavor": "The academy worked with time—until time ran out.",
+        "type_line": "Legendary Land",
+        "oracle": "{T}: Add {U} for each artifact you control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexian Tower",
+      "why": "Choose a retrospective Karn quotation about Yawgmoth’s death.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "UMA",
+        "collector": "248",
+        "url": "https://scryfall.com/card/uma/248/phyrexian-tower?utm_source=api",
+        "printed_flavor": "\"Yawgmoth is dead, and his citadels lie empty. But there will always be some who seek power at any price.\"\n—Karn",
+        "type_line": "Legendary Land",
+        "oracle": "{T}: Add {C}.\n{T}, Sacrifice a creature: Add {B}{B}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Urborg, Tomb of Yawgmoth",
+      "why": "Choose the original land printing about Yawgmoth’s corpse corrupting the terrain.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "PLC",
+        "collector": "165",
+        "url": "https://scryfall.com/card/plc/165/urborg-tomb-of-yawgmoth?utm_source=api",
+        "printed_flavor": "\"Yawgmoth's corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse.\"\n—Lord Windgrace",
+        "type_line": "Legendary Land",
+        "oracle": "Each land is a Swamp in addition to its other land types.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Volrath's Stronghold",
+      "why": "The center of Rath’s Phyrexian-backed evincar regime.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "STH",
+        "collector": "143",
+        "url": "https://scryfall.com/card/sth/143/volraths-stronghold?utm_source=api",
+        "printed_flavor": "The seed of a world's evil.",
+        "type_line": "Legendary Land",
+        "oracle": "{T}: Add {C}.\n{1}{B}, {T}: Put target creature card from your graveyard on top of your library.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Rath's Edge",
+      "why": "The artificial staging-world in Yawgmoth’s invasion plan.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "NEM",
+        "collector": "142",
+        "url": "https://scryfall.com/card/nem/142/raths-edge?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Land",
+        "oracle": "{T}: Add {C}.\n{4}, {T}, Sacrifice a land: Rath's Edge deals 1 damage to any target.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Great Furnace",
+      "why": "Choose Brothers’ War Commander #187, whose Fall of the Thran quotation describes Phoenon, a ruined forge city of the ancient Thran Empire. The card art is originally Mirrodin and is not asserted to show Phoenon.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "BRC",
+        "collector": "187",
+        "url": "https://scryfall.com/card/brc/187/great-furnace?utm_source=api",
+        "printed_flavor": "\"Molten blood runs through the ruins of the forge city of Phoenon, a still-beating heart whose body rotted centuries ago.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {R}.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Serra's Sanctum",
+      "why": "Serra’s endangered realm, ultimately used by Urza against Phyrexia.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "USG",
+        "collector": "325",
+        "url": "https://scryfall.com/card/usg/325/serras-sanctum?utm_source=api",
+        "printed_flavor": "A fragile cocoon of dreaming will.",
+        "type_line": "Legendary Land",
+        "oracle": "{T}: Add {W} for each enchantment you control.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phyrexia's Core",
+      "why": "Mirrodin’s center once overtaken by the inheritors of Yawgmoth’s oil.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "NPH",
+        "collector": "165",
+        "url": "https://scryfall.com/card/nph/165/phyrexias-core?utm_source=api",
+        "printed_flavor": "\"So even the heart of our world has succumbed.\"\n—Koth of the Hammer",
+        "type_line": "Land",
+        "oracle": "{T}: Add {C}.\n{1}, {T}, Sacrifice an artifact: You gain 1 life.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Seedcore",
+      "why": "Where New Phyrexia’s second invasion design took root.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "ONE",
+        "collector": "259",
+        "url": "https://scryfall.com/card/one/259/the-seedcore?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Land — Sphere",
+        "oracle": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast Phyrexian creature spells.\nCorrupted — {T}: Target 1/1 creature gets +2/+1 until end of turn. Activate only if an opponent has three or more poison counters.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Dross Pits",
+      "why": "The New Phyrexian black sphere whose thanes venerate Old Phyrexia.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "ONE",
+        "collector": "251",
+        "url": "https://scryfall.com/card/one/251/the-dross-pits?utm_source=api",
+        "printed_flavor": "In Sheoldred's domain, the Steel Thanes wage a never-ending war in her long shadow.",
+        "type_line": "Land — Sphere",
+        "oracle": "This land enters tapped.\n{T}: Add {B}.\n{1}{B}, {T}, Sacrifice this land: Draw a card.",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Mycosynth Gardens",
+      "why": "Core of the later plane built on the infection left behind by the old empire.",
+      "tier": "historical_setting_land",
+      "printing": {
+        "set": "ONE",
+        "collector": "256",
+        "url": "https://scryfall.com/card/one/256/the-mycosynth-gardens?utm_source=api",
+        "printed_flavor": "As the Invasion Tree grew, its branches pierced through the world's silent core.",
+        "type_line": "Land — Sphere",
+        "oracle": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{X}, {T}: This land becomes a copy of target nontoken artifact you control with mana value X.",
+        "preferred_printing_found": true
+      }
+    }
+  ]
+}
