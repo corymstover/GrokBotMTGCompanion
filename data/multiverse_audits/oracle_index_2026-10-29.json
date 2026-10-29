@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-10-29",
+  "as_of": "2026-10-29",
+  "source_snapshot": "snap-20261029-40848334824-1",
+  "source_release": "https://github.com/corymstover/GrokBotMTGCompanion/releases/tag/snap-20261029-40848334824-1",
+  "oracle_sha256": "0358af62f92ac10f685d5ee6ad9ab23dfbff6f41bc32dfe81b5ab18cf3088adb",
+  "manifest_verified": true,
+  "oracle_records": 39164,
+  "indexed_records": 33894,
+  "indexed_present": 33894,
+  "indexed_not_in_snapshot": 0,
+  "indexed_outside_policy": 0,
+  "unindexed_records": 5270,
+  "classifications": {
+    "excluded_layout": 4154,
+    "nonpaper_noneternal": 811,
+    "eligible_future_dated": 305,
+    "eligible_released_missing": 0,
+    "eligible_undated_review": 0
+  },
+  "excluded_layouts": {
+    "art_series": 2352,
+    "double_faced_token": 80,
+    "emblem": 89,
+    "front_card": 291,
+    "planar": 207,
+    "scheme": 102,
+    "token": 926,
+    "vanguard": 107
+  },
+  "future_by_set": {
+    "pf26": 1,
+    "slc": 2,
+    "trc": 112,
+    "trk": 190
+  },
+  "future_by_date": {
+    "2026-11-02": 2,
+    "2026-11-13": 303
+  },
+  "scope": "Scryfall Oracle Cards snapshot; existing paper/eternal index predicate; classification by Scryfall release dates rather than current card availability or live format legality.",
+  "follow_up": "Do not ingest the 305 future-dated objects before their applicable release. Re-run this dated audit with a newly verified snapshot after release; independently review changes before allowing writes."
+}
