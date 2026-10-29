@@ -2,9 +2,23 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `23913d43fe206722dc35ce0fc7e8fae8db2c295414098d58bba10002f800b7f6`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7`.
 
-**Count:** 100 cards; 32 lands; 58 of 90 nonbasic/commander suggested printings have actual flavor text.
+**Count:** 100 cards; 30 lands; 62 of 90 nonbasic/commander suggested printings have actual flavor text.
+
+## Unapproved draft revision: more Phyrexians and phyresis
+
+**Previous draft SHA:** `23913d43fe206722dc35ce0fc7e8fae8db2c295414098d58bba10002f800b7f6`. **Reason:** Cory asked why Phyresis and more actual Phyrexians were missing. Added the complete four-stage illness-progress-notes sequence and explicit Old/New Phyrexia manufacturing and compleation scenes; removed redundant hero scenes and later setting lands.
+
+| Removed | Added |
+|---|---|
+| Yawgmoth Demon | Phyrexian Arena |
+| Urza, Lord Protector | Phyrexian Processor |
+| The Mightstone and Weakstone | Phyrexian Denouncer |
+| Belbe, Corrupted Observer | Phyrexian Debaser |
+| Freyalise, Llanowar's Fury | Phyrexian Defiler |
+| The Surgical Bay | Phyresis |
+| The Fair Basilica | Phyrexian Rebirth |
 
 ## How this differs from the approved *Legacy* deck #1
 
@@ -35,36 +49,37 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Gate to Phyrexia
 1x Dark Ritual
 1x Phyrexian Scriptures
-1x Yawgmoth Demon
+1x Phyrexian Processor
 1x Yawgmoth's Will
 1x Yawgmoth's Bargain
 1x Yawgmoth's Edict
 1x Phyrexian Altar
 1x Order of Yawgmoth
+1x Phyrexian Arena
 1x Ichor Wellspring
 1x Toxic Deluge
 1x Mightstone
 1x Weakstone
 1x Splitting the Powerstone
 1x Brotherhood's End
-1x Urza, Lord Protector
 1x Gix, Yawgmoth Praetor
 1x Mishra, Claimed by Gix
 1x Phyrexian Dragon Engine
 1x Sundering Titan
 1x The Brothers' War
-1x The Mightstone and Weakstone
 1x Golgothian Sylex
 1x Xantcha, Sleeper Agent
 1x K'rrik, Son of Yawgmoth
 1x Urza, Lord High Artificer
 1x Karn, Silver Golem
-1x Belbe, Corrupted Observer
 1x Volrath the Fallen
 1x Crovax the Cursed
 1x Ertai, the Corrupted
 1x Tsabo Tavoc
 1x Yawgmoth's Agenda
+1x Phyrexian Denouncer
+1x Phyrexian Debaser
+1x Phyrexian Defiler
 1x Phyrexian Plaguelord
 1x Phyrexian Infiltrator
 1x Phyrexian Tyranny
@@ -77,7 +92,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Planar Overlay
 1x Urza Assembles the Titans
 1x Tevesh Szat, Doom of Fools
-1x Freyalise, Llanowar's Fury
 1x Urza's Guilt
 1x Planar Despair
 1x Death Grasp
@@ -89,6 +103,8 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Yawgmoth's Vile Offering
 1x Phyrexian Vivisector
 1x Glistening Oil
+1x Phyresis
+1x Phyrexian Rebirth
 1x Karn Liberated
 1x Sheoldred, Whispering One
 1x Elesh Norn, Mother of Machines
@@ -112,8 +128,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Phyrexia's Core
 1x The Seedcore
 1x The Dross Pits
-1x The Surgical Bay
-1x The Fair Basilica
 1x The Mycosynth Gardens
 2x Plains
 2x Island
@@ -146,12 +160,13 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Gate to Phyrexia | The Antiquities-era portal-flavor records Jarsyl’s later sighting; not the specific original Thran gateway. | [ATQ #16](https://scryfall.com/card/atq/16/gate-to-phyrexia?utm_source=api) | "The warm rain of grease on my face immediately made it clear I had entered Phyrexia." —Jarsyl, *Diary* |
 | Dark Ritual | Choose the Duel Deck printing reciting the Phyrexian Scriptures and Yawgmoth’s claimed Grand Evolution. | [DDE #18](https://scryfall.com/card/dde/18/dark-ritual?utm_source=api) | "From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began." / —*Phyrexian Scriptures* |
 | Phyrexian Scriptures | A Saga summarizing the ideological project of replacing flesh with engineered Phyrexian life. | [DOM #100](https://scryfall.com/card/dom/100/phyrexian-scriptures?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Yawgmoth Demon | An early named personification of Yawgmoth’s monstrous servants, not a portrait of his own body. | [ATQ #21](https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Phyrexian Processor | Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection. | [SLD #2445](https://scryfall.com/card/sld/2445/phyrexian-processor?utm_source=api) | An assembly line of inhumanity. |
 | Yawgmoth's Will | Yawgmoth’s overwhelming command over death and the Phyrexian war machine, originally Urza’s Saga. | [USG #171](https://scryfall.com/card/usg/171/yawgmoths-will?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Yawgmoth's Bargain | The named Faustian bargain at the heart of Yawgmoth’s power; Commander-banned, deliberately retained as Rule 0 history. | [UDS #75](https://scryfall.com/card/uds/75/yawgmoths-bargain?utm_source=api) | He craves only one commodity. |
 | Yawgmoth's Edict | Seventh Edition printing describes his obsession with remaking bodies and souls. | [7ED #171](https://scryfall.com/card/7ed/171/yawgmoths-edict?utm_source=api) | The warping of bodies and souls has become the heart of Yawgmoth's existence. |
 | Phyrexian Altar | Choose the 2X2 printing explicitly invoking Yawgmoth’s blessings and the Phyrexian Scriptures. | [2X2 #311](https://scryfall.com/card/2x2/311/phyrexian-altar?utm_source=api) | "Unskin these impure bodies, Great Yawgmoth, that the flesh may welcome your blessings." / —*Phyrexian Scriptures* |
 | Order of Yawgmoth | The priestly enforcement arm bearing his name, directly representing the regime. | [USG #144](https://scryfall.com/card/usg/144/order-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Phyrexian Arena | The original Apocalypse edition captures the cruelty of the old regime, rather than the later Sheoldred or Jace/Vraska scenes of reprints. | [APC #47](https://scryfall.com/card/apc/47/phyrexian-arena?utm_source=api) | An audience of one with the malice of thousands. |
 | Ichor Wellspring | Brother’s War retro-artifact printing explicitly attributes the infectious-oil description to Yawgmoth. | [BRR #84](https://scryfall.com/card/brr/84/ichor-wellspring?utm_source=api) | "Should a single drop take hold, the oil begins to consume organic tissue and will multiply until it overwhelms the host." / —Yawgmoth, collected writings |
 | Toxic Deluge | Choose the special printing quoting Yawgmoth comparing himself to glistening oil and perfection. | [CC2 #6](https://scryfall.com/card/cc2/6/toxic-deluge?utm_source=api) | "I am greater than rain and nourishment. I am glistening oil and perfection." / —Yawgmoth |
 
@@ -165,13 +180,11 @@ Official narrative anchor: https://magic.wizards.com/en/news/making-magic/act-of
 | Weakstone | Original Antiquities flavor recounts Mishra’s counterpart to the split Thran powerstone. | [ATQ #78](https://scryfall.com/card/atq/78/weakstone?utm_source=api) | During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone. |
 | Splitting the Powerstone | Literal illustration of the brothers dividing the Thran inheritance. | [BRO #63](https://scryfall.com/card/bro/63/splitting-the-powerstone?utm_source=api) | As the glowing stone broke apart, so too did the last shred of the brothers' bond. |
 | Brotherhood's End | The brothers’ early conflict killed Tocasia and ended their childhood relationship; NOT the later Sylex explosion. | [BRO #128](https://scryfall.com/card/bro/128/brotherhoods-end?utm_source=api) | The brothers' rivalry escalated into all-out enmity, and Tocasia paid the price. |
-| Urza, Lord Protector | Mishra’s brother and Yawgmoth’s adversary for thousands of years. | [BRO #225](https://scryfall.com/card/bro/225/urza-lord-protector?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Gix, Yawgmoth Praetor | Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia. | [BRO #95](https://scryfall.com/card/bro/95/gix-yawgmoth-praetor?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Mishra, Claimed by Gix | Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion. | [BRO #216](https://scryfall.com/card/bro/216/mishra-claimed-by-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Dragon Engine | The war-machine paired with Mishra’s meld, a physical sign of Phyrexian domination. | [BRO #163](https://scryfall.com/card/bro/163/phyrexian-dragon-engine?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Sundering Titan | Choose #120 Brothers’ War retroartifact variant specifically quoting Gix arming the younger brother; banned Rule 0 inclusion. | [BRR #120](https://scryfall.com/card/brr/120/sundering-titan?utm_source=api) | "Give the schematic to the younger brother. Tell him that it will surely keep Argoth's resources out of Urza's hands." / —Gix, Yawgmoth praetor |
 | The Brothers' War | Historical Saga for the war in which Phyrexia operated through Gix. | [BRC #22](https://scryfall.com/card/brc/22/the-brothers-war?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| The Mightstone and Weakstone | Their combined material inheritance from Glacian, still the pivot of Urza’s fate. | [BRO #238](https://scryfall.com/card/bro/238/the-mightstone-and-weakstone?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Golgothian Sylex | The original Antiquities card for Urza’s blast that ends the war on Argoth. | [ATQ #51](https://scryfall.com/card/atq/51/golgothian-sylex?utm_source=api) | From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia. |
 
 ### IV. Agents, sleeper plots, Rath: Phyrexia reaches for Dominaria
@@ -184,13 +197,15 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | K'rrik, Son of Yawgmoth | A Phyrexian time-rift invader at Tolaria; the title Son does not establish literal human parentage. | [C19 #18](https://scryfall.com/card/c19/18/krrik-son-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza, Lord High Artificer | Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire. | [MH1 #75](https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Karn, Silver Golem | Urza’s silver creation and eventual bearer of the Legacy that destroyed Yawgmoth. | [USG #298](https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Belbe, Corrupted Observer | An elf made into a Phyrexian envoy during the Evincar succession, but she retained moral agency. | [CMR #270](https://scryfall.com/card/cmr/270/belbe-corrupted-observer?utm_source=api) | "Those who wish to become evincar must first cast off the shackles of compassion." |
 | Volrath the Fallen | The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground. | [NEM #75](https://scryfall.com/card/nem/75/volrath-the-fallen?utm_source=api) | "I stepped out. I did not step down." |
 | Crovax the Cursed | A member of the Weatherlight story who was corrupted and eventually installed as Rath’s evincar. | [STH #55](https://scryfall.com/card/sth/55/crovax-the-cursed?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Ertai, the Corrupted | Former Weatherlight mage remade into a Phyrexian servant on Rath. | [PLS #107](https://scryfall.com/card/pls/107/ertai-the-corrupted?utm_source=api) | Altered by Phyrexian science, corrupted by black mana, and twisted by rage, Ertai still looked in the mirror and saw only glory. |
 | Tsabo Tavoc | Yawgmoth’s brutal invasion general and the speaker on many original Invasion-era cards. | [INV #281](https://scryfall.com/card/inv/281/tsabo-tavoc?utm_source=api) | "I might almost pity my enemies—if it wasn't so amusing to watch them die." |
 | Yawgmoth's Agenda | The named Invasion-era enchantment articulating his huge campaign. | [INV #135](https://scryfall.com/card/inv/135/yawgmoths-agenda?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Phyrexian Plaguelord | Original Urza’s Legacy exemplification of the engineered servants in Yawgmoth’s force. | [ULG #62](https://scryfall.com/card/ulg/62/phyrexian-plaguelord?utm_source=api) | "The final stage of the illness: delirium, convulsions, and death." / —Phyrexian progress notes |
+| Phyrexian Denouncer | First stage of the Phyrexian illness; original Urza’s Legacy flavor begins a four-card progression. | [ULG #61](https://scryfall.com/card/ulg/61/phyrexian-denouncer?utm_source=api) | "The first stage of the illness: rash and nausea." / —Phyrexian progress notes |
+| Phyrexian Debaser | Second stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression. | [ULG #59](https://scryfall.com/card/ulg/59/phyrexian-debaser?utm_source=api) | "The second stage of the illness: high fever and severe infectiousness." / —Phyrexian progress notes |
+| Phyrexian Defiler | Third stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression. | [ULG #60](https://scryfall.com/card/ulg/60/phyrexian-defiler?utm_source=api) | "The third stage of the illness: muscle aches and persistent cough." / —Phyrexian progress notes |
+| Phyrexian Plaguelord | Final stage of the Phyrexian illness; original Urza’s Legacy flavor concludes the four-card progression. | [ULG #62](https://scryfall.com/card/ulg/62/phyrexian-plaguelord?utm_source=api) | "The final stage of the illness: delirium, convulsions, and death." / —Phyrexian progress notes |
 | Phyrexian Infiltrator | The Invasion printing explicitly calls this agent Yawgmoth’s will made machine. | [INV #116](https://scryfall.com/card/inv/116/phyrexian-infiltrator?utm_source=api) | "It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh." / —Tsabo Tavoc |
 | Phyrexian Tyranny | Planeshift card embodying the abusive campaign; later reprints also quote Crovax to Ertai. | [PLS #118](https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api) | "He is Yawgmoth's reward to me. I shall kill him a hundred times a day." / —Crovax, to Ertai |
 | Squee, Goblin Nabob | Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation. | [UMA #150](https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api) | "If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee." / —Karn |
@@ -209,7 +224,6 @@ Official narrative anchor: https://magic.wizards.com/en/story/dominaria-plane
 | Planar Overlay | Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest. | [PLS #28](https://scryfall.com/card/pls/28/planar-overlay?utm_source=api) | The Phyrexians don't want to conquer Dominaria. They want to remake it. |
 | Urza Assembles the Titans | Historical Saga of the group of planeswalkers Urza led to strike Phyrexia itself. | [DMU #37](https://scryfall.com/card/dmu/37/urza-assembles-the-titans?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Tevesh Szat, Doom of Fools | One of Urza’s Nine Titans, notorious for betrayal during the attack on Phyrexia. | [CMR #153](https://scryfall.com/card/cmr/153/tevesh-szat-doom-of-fools?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Freyalise, Llanowar's Fury | The planeswalker opposing Phyrexia, associated with the destruction of part of its defenses. | [C14 #43](https://scryfall.com/card/c14/43/freyalise-llanowars-fury?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza's Guilt | The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat. | [PLS #130](https://scryfall.com/card/pls/130/urzas-guilt?utm_source=api) | Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. "Mishra?" |
 | Planar Despair | The Apocalypse printing explicitly describes Dominaria recoiling at Yawgmoth’s arrival. | [APC #50](https://scryfall.com/card/apc/50/planar-despair?utm_source=api) | All of Dominaria recoiled as Yawgmoth and his retainers arrived. |
 | Death Grasp | The Apocalypse printing directly reports Yawgmoth’s delight in turning heroes against each other. | [APC #95](https://scryfall.com/card/apc/95/death-grasp?utm_source=api) | Yawgmoth's greatest joy came from watching one hero defeat another. |
@@ -228,6 +242,8 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Yawgmoth's Vile Offering | A later Dominarian retrospective on Yawgmoth’s old bargain and violence; it does not depict his resurrection. | [DOM #114](https://scryfall.com/card/dom/114/yawgmoths-vile-offering?utm_source=api) | Centuries ago, a mad god offered a simple trade. |
 | Phyrexian Vivisector | Its Dominaria United flavor explicitly ties New Phyrexian surgery to Yawgmoth’s earlier atrocities. | [DMU #100](https://scryfall.com/card/dmu/100/phyrexian-vivisector?utm_source=api) | Before he was the Father of Machines, Yawgmoth was a twisted Thran physician, and his legacy of medical atrocities lives on in New Phyrexia. |
 | Glistening Oil | The infectious medium that outlived Yawgmoth and eventually transformed Mirrodin; not proof he survived. | [NPH #62](https://scryfall.com/card/nph/62/glistening-oil?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Phyresis | Sheoldred explicitly celebrates becoming compleat; depicts post-Yawgmoth New Phyrexia, not a living Yawgmoth order. | [MBS #49](https://scryfall.com/card/mbs/49/phyresis?utm_source=api) | "Perfection is at hand. You have been freed of weakness and made *compleat*." / —Sheoldred, Whispering One |
+| Phyrexian Rebirth | Its original Mirrodin Besieged flavor says the work continues as long as any glistening oil remains. | [MBS #15](https://scryfall.com/card/mbs/15/phyrexian-rebirth?utm_source=api) | As long as one drop of the oil exists, the joyous work continues. |
 | Karn Liberated | Karn is reclaimed from the New Phyrexian contamination and later fights the successors. | [NPH #1](https://scryfall.com/card/nph/1/karn-liberated?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Sheoldred, Whispering One | A New Phyrexian praetor claiming direct spiritual succession to the Old Phyrexian order. | [NPH #73](https://scryfall.com/card/nph/73/sheoldred-whispering-one?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Elesh Norn, Mother of Machines | The successor who tried to recreate the unified authority associated with Yawgmoth. | [ONE #10](https://scryfall.com/card/one/10/elesh-norn-mother-of-machines?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
@@ -256,8 +272,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Phyrexia's Core | Mirrodin’s center once overtaken by the inheritors of Yawgmoth’s oil. | [NPH #165](https://scryfall.com/card/nph/165/phyrexias-core?utm_source=api) | "So even the heart of our world has succumbed." / —Koth of the Hammer |
 | The Seedcore | Where New Phyrexia’s second invasion design took root. | [ONE #259](https://scryfall.com/card/one/259/the-seedcore?utm_source=api) | — (geographic link; no flavor on chosen printing) |
 | The Dross Pits | The New Phyrexian black sphere whose thanes venerate Old Phyrexia. | [ONE #251](https://scryfall.com/card/one/251/the-dross-pits?utm_source=api) | In Sheoldred's domain, the Steel Thanes wage a never-ending war in her long shadow. |
-| The Surgical Bay | The later biomechanical surgery sphere; echo of Yawgmoth’s Thran experiments. | [ONE #260](https://scryfall.com/card/one/260/the-surgical-bay?utm_source=api) | In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics. |
-| The Fair Basilica | Elesh Norn’s religious power center, in rivalry with other interpretations of Yawgmoth’s legacy. | [ONE #252](https://scryfall.com/card/one/252/the-fair-basilica?utm_source=api) | In Elesh Norn's domain, the gospel of unity is the highest law. |
 | The Mycosynth Gardens | Core of the later plane built on the infection left behind by the old empire. | [ONE #256](https://scryfall.com/card/one/256/the-mycosynth-gardens?utm_source=api) | As the Invasion Tree grew, its branches pierced through the world's silent core. |
 
 ### Basic lands
@@ -272,6 +286,8 @@ Two of each basic land; for physical proxies, use one *The Brothers’ War* and 
 - https://magic.wizards.com/en/news/making-magic/act-of-war-part-1
 - https://magic.wizards.com/en/story/dominaria-plane
 - https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one
+- https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01
+- https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06
 - https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine
 - https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022
 - https://mtglore.com/web-articles/commander-2017-edition-commanders/
