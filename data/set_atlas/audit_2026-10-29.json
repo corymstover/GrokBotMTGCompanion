@@ -1,0 +1,189 @@
+{
+  "audit_date": "2026-10-29",
+  "baseline": {
+    "english_paper_records": 107700,
+    "printing_records": 119509,
+    "set_codes": 1062,
+    "shard_content_caveat": "Manifest arithmetic and paths verified; archived shard bytes were not available for hashing in this audit.",
+    "shard_content_verified": false,
+    "shard_rows": 119509,
+    "shards": 105,
+    "source": "default-cards-20261028090549.jsonl.gz",
+    "source_sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2"
+  },
+  "comparison": {
+    "absent_set_codes": [],
+    "changed_set_count": 5,
+    "changed_sets": {
+      "pf26": {
+        "english_paper": 2,
+        "printings": 2
+      },
+      "pw26": {
+        "english_paper": 1,
+        "printings": 1
+      },
+      "sds": {
+        "english_paper": 25,
+        "printings": 25
+      },
+      "trc": {
+        "english_paper": 121,
+        "printings": 121
+      },
+      "trk": {
+        "english_paper": 49,
+        "printings": 43
+      }
+    },
+    "net_english_paper_delta": 198,
+    "net_printing_delta": 192,
+    "new_set_codes": []
+  },
+  "interpretation": [
+    "Scryfall set_type describes its source category; expansion/core is not a certified list of premier releases.",
+    "Printing count is distinct Scryfall printing ID in Default Cards, including variants, promos and future-dated previews.",
+    "Debuts use each Oracle ID's earliest available released English paper printing through the audit date; same-day cross-set ties are tracked separately.",
+    "Earliest/latest printing dates are not independently verified product release dates.",
+    "The historical shard bytes were not audited here; only the baseline manifest's internal totals and references were checked."
+  ],
+  "schema": 1,
+  "scryfall_set_types": {
+    "alchemy": {
+      "english_paper": 0,
+      "printing_records": 1012,
+      "set_codes": 19
+    },
+    "archenemy": {
+      "english_paper": 321,
+      "printing_records": 321,
+      "set_codes": 4
+    },
+    "arsenal": {
+      "english_paper": 35,
+      "printing_records": 35,
+      "set_codes": 3
+    },
+    "box": {
+      "english_paper": 4632,
+      "printing_records": 6175,
+      "set_codes": 44
+    },
+    "commander": {
+      "english_paper": 16381,
+      "printing_records": 16387,
+      "set_codes": 46
+    },
+    "core": {
+      "english_paper": 8961,
+      "printing_records": 9670,
+      "set_codes": 25
+    },
+    "draft_innovation": {
+      "english_paper": 7833,
+      "printing_records": 8230,
+      "set_codes": 19
+    },
+    "duel_deck": {
+      "english_paper": 1855,
+      "printing_records": 1945,
+      "set_codes": 27
+    },
+    "eternal": {
+      "english_paper": 702,
+      "printing_records": 707,
+      "set_codes": 6
+    },
+    "expansion": {
+      "english_paper": 32255,
+      "printing_records": 32576,
+      "set_codes": 120
+    },
+    "from_the_vault": {
+      "english_paper": 157,
+      "printing_records": 157,
+      "set_codes": 10
+    },
+    "funny": {
+      "english_paper": 2251,
+      "printing_records": 2252,
+      "set_codes": 22
+    },
+    "masterpiece": {
+      "english_paper": 1576,
+      "printing_records": 1810,
+      "set_codes": 19
+    },
+    "masters": {
+      "english_paper": 11928,
+      "printing_records": 15191,
+      "set_codes": 32
+    },
+    "memorabilia": {
+      "english_paper": 5952,
+      "printing_records": 5972,
+      "set_codes": 102
+    },
+    "minigame": {
+      "english_paper": 55,
+      "printing_records": 55,
+      "set_codes": 15
+    },
+    "planechase": {
+      "english_paper": 647,
+      "printing_records": 647,
+      "set_codes": 6
+    },
+    "premium_deck": {
+      "english_paper": 105,
+      "printing_records": 105,
+      "set_codes": 3
+    },
+    "promo": {
+      "english_paper": 8324,
+      "printing_records": 11761,
+      "set_codes": 301
+    },
+    "spellbook": {
+      "english_paper": 24,
+      "printing_records": 24,
+      "set_codes": 3
+    },
+    "starter": {
+      "english_paper": 897,
+      "printing_records": 1125,
+      "set_codes": 15
+    },
+    "token": {
+      "english_paper": 2975,
+      "printing_records": 3008,
+      "set_codes": 217
+    },
+    "treasure_chest": {
+      "english_paper": 0,
+      "printing_records": 419,
+      "set_codes": 2
+    },
+    "vanguard": {
+      "english_paper": 32,
+      "printing_records": 117,
+      "set_codes": 2
+    }
+  },
+  "snapshot": {
+    "english_paper": 107898,
+    "future_dated_printings": 1051,
+    "oracle_ids_all_languages_and_media": 39164,
+    "printings": 119701,
+    "released_english_paper": 106855,
+    "same_day_debut_identities": 4087,
+    "sets": 1062,
+    "undated_printings": 0
+  },
+  "source": {
+    "compressed_bytes": 80336848,
+    "filename": "default-cards-20261029090546.jsonl.gz",
+    "manifest_records": 119701,
+    "sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+  }
+}
