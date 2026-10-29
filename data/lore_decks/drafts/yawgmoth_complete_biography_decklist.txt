@@ -2,6 +2,8 @@
 1x Yawgmoth, Thran Physician
 1x Rebbec, Architect of Ascension
 1x Glacian, Powerstone Engineer
+1x Phthisis
+1x The Mana Rig
 1x Fall of the Thran
 1x Thran Dynamo
 1x Portal to Phyrexia
@@ -41,7 +43,6 @@
 1x Phyrexian Plaguelord
 1x Phyrexian Infiltrator
 1x Eye of Yawgmoth
-1x Phyrexian Tyranny
 1x Squee, Goblin Nabob
 1x Eye of Ramos
 1x Heart of Ramos
@@ -67,15 +68,14 @@
 1x Karn Liberated
 1x Sheoldred, Whispering One
 1x Elesh Norn, Mother of Machines
-1x Realmbreaker, the Invasion Tree
 1x Thran Portal
 1x Hall of Tagsin
 1x Caves of Koilos
 1x Tocasia's Dig Site
 1x Mishra's Workshop
-1x Urza's Mine
-1x Urza's Power Plant
-1x Urza's Tower
+1x Ancient Den
+1x Vault of Whispers
+1x Contaminated Aquifer
 1x Argoth, Sanctum of Nature
 1x Tolarian Academy
 1x Phyrexian Tower
