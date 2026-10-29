@@ -91,6 +91,15 @@
     ],
     "caveat": "Yawgmoth Demon depicts a demon of Yawgmoth, not Yawgmoth himself; the true death-cloud form remains represented by Toxic Deluge CC2 #6 and Last Stand APC #107."
   },
+  "heartstone_revision": {
+    "previous_unapproved_sha256": "3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81",
+    "swap": {
+      "out": "Crovax the Cursed",
+      "in": "Heartstone"
+    },
+    "source": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
+    "caveat": "The specific printed Heartstone is a representative Thran/Phyrexian stone, not incontrovertibly the individual heartstone from Xantcha’s corpse; Wizards confirms Xantcha’s essence survived in Karn, and published lore references explain the heartstone mechanism."
+  },
   "beats": [
     {
       "title": "I. The Thran: the physician who exploited a dying civilization",
@@ -607,6 +616,22 @@
           }
         },
         {
+          "name": "Heartstone",
+          "why": "Xantcha’s Phyrexian heartstone survived her death and was used as Karn’s conscious personality core; the original Stronghold card depicts this type of stone, not a labeled portrait of Xantcha’s exact specimen.",
+          "evidence": "heartstone_lore_bridge",
+          "source": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
+          "preferred_set": "STH",
+          "printing": {
+            "set": "STH",
+            "collector": "134",
+            "url": "https://scryfall.com/card/sth/134/heartstone?utm_source=api",
+            "printed_flavor": "\"Finding a true heartstone is even harder than finding a true heart.\"\n—Hanna",
+            "type_line": "Artifact",
+            "oracle": "Activated abilities of creatures cost {1} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
+            "preferred_printing_found": true
+          }
+        },
+        {
           "name": "Karn, Silver Golem",
           "why": "Urza’s silver creation and eventual bearer of the Legacy that destroyed Yawgmoth.",
           "evidence": "named_future_victor",
@@ -635,22 +660,6 @@
             "printed_flavor": "\"I stepped out. I did not step down.\"",
             "type_line": "Legendary Creature — Phyrexian Shapeshifter",
             "oracle": "{1}{B}, Discard a creature card: Volrath gets +X/+X until end of turn, where X is the discarded card's mana value.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Crovax the Cursed",
-          "why": "A member of the Weatherlight story who was corrupted and eventually installed as Rath’s evincar.",
-          "evidence": "named_corrupted_agent",
-          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
-          "preferred_set": "STH",
-          "printing": {
-            "set": "STH",
-            "collector": "55",
-            "url": "https://scryfall.com/card/sth/55/crovax-the-cursed?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Legendary Creature — Vampire Noble",
-            "oracle": "Crovax enters with four +1/+1 counters on it.\nAt the beginning of your upkeep, you may sacrifice a creature. If you do, put a +1/+1 counter on Crovax. If you don't, remove a +1/+1 counter from Crovax.\n{B}: Crovax gains flying until end of turn.",
             "preferred_printing_found": true
           }
         },
@@ -1877,13 +1886,13 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81",
+  "raw_decklist_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
   "counts": {
     "all_cards": 100,
     "commander": 1,
     "distinct_nonbasic": 90,
     "basic_copies": 10,
     "lands": 30,
-    "with_printed_flavor": 59
+    "with_printed_flavor": 60
   }
 }
