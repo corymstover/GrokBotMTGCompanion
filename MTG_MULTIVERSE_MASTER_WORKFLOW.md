@@ -42,6 +42,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Document a repeatable update process for future Scryfall changes, current legality, and official rules.
 - [ ] Recount coverage and verify representative lookup queries after each published batch.
 
+**2026-10-29 first-batch checkpoint (curated inputs, not generated coverage):** Twelve exact-name notes from the already registered official *Legends of Reality Fracture* source were reviewed and added to `data/card_lore_notes.json`. Eight are explicitly marked as Echoverse alternate-continuity portrayals. The new static regression tests verify indexed names, source registration and continuity labels. The guarded enrichment generator has **not** been rerun: its required local Scryfall, EDHREC and Spellbook caches are not part of this checkout. Consequently the authoritative generated coverage remains **3,397/5,361**, with **1,964 remaining**. Next, recover/verify the complete offline input caches, apply a bounded batch on a clean feature branch, inspect generated card/shard diffs and certify the changed coverage before changing that counter.
+
 ## Phase 1B — MTG Set & Printing Atlas (official milestone)
 
 **Goal:** Make every recorded MTG release independently discoverable, countable, and searchable by set, while retaining accurate card-by-card printing histories. This is a distinct catalog/data-quality milestone within Phase 1, not a replacement for the existing card and lore work.

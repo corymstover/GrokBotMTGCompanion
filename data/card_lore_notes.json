@@ -196,5 +196,73 @@
   "sources": [
    "https://magic.wizards.com/en/news/card-preview/story-spotlight-cards-for-the-lost-caverns-of-ixalan"
   ]
+ },
+ "Denzilore Fatehold": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Denzilore founded a school on Arcavios to help its people and uses prophecy to show possible pasts and futures. This is an alternate-reality biography, not an event in the mainline Arcavios timeline.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Ingris Stingerquill": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Ingris teaches emotional and verbal magic at Hexhaven, amplifying those abilities with leyline energy; her followers defend the school against mage hunters.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Aerid Konstrari": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Aerid uses heartwood crystals charged with Arcavios's leyline energy to animate constructs and teaches Hexhaven students to do the same.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Kwia Vigorbloom": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Kwia cultivates and controls plant growth, and healers at Hexhaven learn to treat injuries with flora under her guidance.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Fblthp, Impossibly Lost": {
+  "relation": "depicts",
+  "text": "The familiar Ravnican Fblthp is now accidentally wandering through Omenpaths and other planes, repeatedly getting lost in dangerous events.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"]
+ },
+ "Fblthp, Knows the Way": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Fblthp was created as an Izzet navigator, developed a passion for exploration, and can always find his way back to Ravnica.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Gallia, the Merrymaker": {
+  "relation": "depicts",
+  "text": "Gallia is the revel-loving Lord of Misrule whose roaming festivities continued even through the Phyrexian Invasion.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"]
+ },
+ "Gallia, Tragic Host": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: after dying from poisoned food at a feast, Gallia became a Returned who continues staging lonely banquets while losing her memories.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Ghalta the Unstoppable": {
+  "relation": "depicts",
+  "text": "The familiar Ixalan elder dinosaur Ghalta defended the continent and joined Huatli's defense against the Phyrexian invasion.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"]
+ },
+ "Marwyn, the Preserver": {
+  "relation": "depicts",
+  "text": "Marwyn is a respected Kelfae elf midwife and diplomat in Llanowar who also mentors younger elves.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"]
+ },
+ "Marwyn, the Clearcutter": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: Marwyn clears Llanowar trees as a painful necessity to protect the Kelfae elves' future, believing the forest can later be replanted.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
+ },
+ "Yuriko, Blade of the Mighty": {
+  "relation": "depicts",
+  "text": "Echoverse continuity: raised by a poet and storyteller, Yuriko trained intensely to become a sword-wielding hero of Towashi rather than following her familiar path.",
+  "sources": ["https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"],
+  "flag": "⚠️"
  }
 }
