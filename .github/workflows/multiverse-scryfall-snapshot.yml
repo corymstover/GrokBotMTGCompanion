@@ -1,0 +1,50 @@
+name: MTG Multiverse durable Scryfall snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/scryfall_snapshot.py
+      - .github/workflows/multiverse-scryfall-snapshot.yml
+
+permissions:
+  contents: write
+
+jobs:
+  capture-publish-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture and check current Scryfall JSONL inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          SNAP_ID="snap-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          echo "SNAP_ID=$SNAP_ID" >> "$GITHUB_ENV"
+          python3 scripts/scryfall_snapshot.py capture --dir "$RUNNER_TEMP/mtg-scryfall" --snapshot-id "$SNAP_ID"
+          python3 scripts/scryfall_snapshot.py verify --dir "$RUNNER_TEMP/mtg-scryfall"
+      - name: Publish immutable release attachments
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$SNAP_ID" >/dev/null 2>&1; then
+            echo "Refusing to replace existing snapshot release $SNAP_ID" >&2
+            exit 1
+          fi
+          gh release create "$SNAP_ID" "$RUNNER_TEMP/mtg-scryfall/"* \
+            --target "$GITHUB_SHA" --title "MTG Multiverse Scryfall $SNAP_ID" \
+            --notes "Versioned input capture only. Does not revise canonical decklists or lore conclusions." \
+            --latest=false
+      - name: Re-download published release and independently verify hashes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/released-scryfall"
+          gh release download "$SNAP_ID" --dir "$RUNNER_TEMP/released-scryfall"
+          python3 scripts/scryfall_snapshot.py verify --dir "$RUNNER_TEMP/released-scryfall"

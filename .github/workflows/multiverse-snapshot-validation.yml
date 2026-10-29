@@ -1,0 +1,25 @@
+name: MTG Multiverse snapshot separation tests
+
+on:
+  pull_request:
+    paths:
+      - scripts/ingest_scryfall.py
+      - scripts/build_card_enrichment.py
+      - scripts/check_dev_snapshot_lock.py
+      - scripts/scryfall_snapshot.py
+      - tests/test_multiverse_snapshots.py
+      - data/scryfall_snapshots/**
+      - .github/workflows/multiverse-snapshot-*.yml
+
+permissions:
+  contents: read
+
+jobs:
+  isolated-snapshot-regressions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify isolated caches and archived manifest integrity
+        run: python3 -m unittest discover -s tests -p 'test_multiverse_snapshots.py' -v
+      - name: Check Python syntax
+        run: python3 -m py_compile scripts/ingest_scryfall.py scripts/build_card_enrichment.py scripts/check_dev_snapshot_lock.py scripts/scryfall_snapshot.py
