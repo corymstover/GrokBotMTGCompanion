@@ -1,0 +1,50 @@
+name: Phase 1B historical Wizards 1993-2002 census
+on:
+  pull_request:
+    paths:
+      - scripts/audit_wotc_early_sets.py
+      - tests/test_wotc_early_sets.py
+      - data/set_atlas/wotc_early_release_evidence_1993_2002.json
+      - data/set_atlas/wotc_early_release_audit_1993_2002.json
+      - .github/workflows/phase1b-wotc-early-sets.yml
+  push:
+    branches:
+      - chatgpt-phase1b-premier-1993-2002-20261029
+      - main
+    paths:
+      - scripts/audit_wotc_early_sets.py
+      - tests/test_wotc_early_sets.py
+      - data/set_atlas/wotc_early_release_evidence_1993_2002.json
+      - data/set_atlas/wotc_early_release_audit_1993_2002.json
+      - .github/workflows/phase1b-wotc-early-sets.yml
+permissions:
+  contents: write
+jobs:
+  verify-1993-2002:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test complete 38-code classification and evidence
+        run: python3 -m unittest discover -s tests -p 'test_wotc_early_sets.py' -v
+      - name: Generate on designated branch only
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-premier-1993-2002-20261029'
+        run: python3 scripts/audit_wotc_early_sets.py --write
+      - name: Verify deterministic report and syntax
+        run: |
+          python3 scripts/audit_wotc_early_sets.py
+          python3 -m py_compile scripts/audit_wotc_early_sets.py
+      - name: Publish generated report to research branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-premier-1993-2002-20261029'
+        run: |
+          git add data/set_atlas/wotc_early_release_audit_1993_2002.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish verified early-set census and exceptions"
+            git push origin HEAD:chatgpt-phase1b-premier-1993-2002-20261029
+          fi
