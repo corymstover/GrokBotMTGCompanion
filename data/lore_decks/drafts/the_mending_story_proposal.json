@@ -1,0 +1,511 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "The Mending: The Death of the Old Gods — Time Spiral to Future Sight",
+  "status": "FINISHED STORY-FIRST PROPOSAL — not yet approved/locked by Cory",
+  "commander": "Jodah, Archmage Eternal",
+  "narrator_note": "Jodah is a long-lived Dominarian chronicler and five-color color-identity gateway, not the actor who personally sealed every rift; the story centers Teferi, Jhoira, Karn, Venser, Radha and Jeska.",
+  "story_sources": [
+    "https://magic.wizards.com/en/story/dominaria-plane",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+    "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30",
+    "https://magic.wizards.com/en/story/teferi-planeswalker",
+    "https://magic.wizards.com/en/story/freyalise-planeswalker",
+    "https://magic.wizards.com/en/story/windgrace-planeswalker",
+    "https://magic.wizards.com/en/news/feature/checking-planeswalkers-2015-2015-08-19",
+    "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+    "https://magic.wizards.com/en/news/making-magic/a-double-take-part-1"
+  ],
+  "canon_caveats": [
+    "Death of the old gods is metaphorical: the Mending changes planeswalker powers and immortality, though not all old planeswalkers die.",
+    "Time Spiral, Planar Chaos, Future Sight are publication labels; only the cited official statements and original printings support scenes. Never assign invented years.",
+    "Many cards are symbolic, antecedents or later epilogues rather than direct scenes; evidence labels are explicit.",
+    "Jeska's sacrifice closes the final great rift in Otaria, according to official Wizards Jeska biography.",
+    "Teferi's spark loss at Shiv, Freyalise's and Windgrace's deaths, and Karn's sacrifice at Tolaria are distinct events, not one spell.",
+    "Jodah does not usurp Jeska as protagonist; he serves as five-color narrative framing."
+  ],
+  "beats": [
+    {
+      "title": "I. Wounds before the rifts — the war, Tolaria, Zhalfir, and Otaria",
+      "lore_keys": ["Master Timeline.md#time-rifts--the-mending", "Conflicts & Arcs.md#time-rifts--the-mending"],
+      "cards": [
+        {
+          "name": "Urza's Sylex",
+          "why": "Urza's blast at Argoth, a historical catastrophe in Dominaria's long accumulation of planar damage.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Urza's Ruinous Blast",
+          "why": "Retrospective account of the Brothers' War Sylex devastation and Ice Age; this 2018 printing is not an eyewitness card.",
+          "evidence": "printed_retrospective_flavor"
+        },
+        {
+          "name": "Time of Ice",
+          "why": "Saga recording the world-changing Ice Age that followed the Brothers' War.",
+          "evidence": "named_retrospective_saga"
+        },
+        {
+          "name": "Urza, Lord High Artificer",
+          "why": "The old Planeswalker whose experiments and wars left long-term damage behind.",
+          "evidence": "historical_named_character"
+        },
+        {
+          "name": "Barrin, Master Wizard",
+          "why": "Urza's collaborator and witness to Tolarian temporal experimentation; his final act matters to Tolaria's wound.",
+          "evidence": "historical_named_character"
+        },
+        {
+          "name": "Obliterate",
+          "why": "Use the original Invasion printing, whose printed flavor directly describes Barrin's funeral pyre for Tolaria.",
+          "evidence": "literal_original_invasion_flavor"
+        },
+        {
+          "name": "The Phasing of Zhalfir",
+          "why": "A retrospective Saga of Teferi's removal of Zhalfir during the Phyrexian invasion, an unresolved wound during Mending.",
+          "evidence": "retrospective_named_historical_saga"
+        },
+        {
+          "name": "Legacy Weapon",
+          "why": "The Phyrexian Invasion and Yawgmoth's destruction form the immediate prior era; this is an antecedent, not a Mending scene.",
+          "evidence": "historical_artifact_prequel"
+        },
+        {
+          "name": "Mirari",
+          "why": "The wish-granting artifact central to Otaria's magical upheaval and the chain of transformations that follows.",
+          "evidence": "historical_named_artifact"
+        },
+        {
+          "name": "Kamahl, Fist of Krosa",
+          "why": "Jeska's brother and Krosan druid; his violent acts and later reunion frame her eventual decision.",
+          "evidence": "historical_named_character"
+        },
+        {
+          "name": "Jeska, Warrior Adept",
+          "why": "Jeska's original mortal identity before the Phage and Karona transformations.",
+          "evidence": "historical_named_character"
+        },
+        {
+          "name": "Phage the Untouchable",
+          "why": "Jeska's corrupted identity after Kamahl wounds her with the Mirari sword.",
+          "evidence": "official_confirmed_character_transformation"
+        },
+        {
+          "name": "Akroma, Angel of Wrath",
+          "why": "One of the three entities whose collision produces Karona, linking the Otarian story to the later final rift.",
+          "evidence": "official_confirmed_named_character"
+        },
+        {
+          "name": "Karona, False God",
+          "why": "The being formed from Jeska/Phage, Akroma and Zagorka; her emergence helps explain the final Otarian rift.",
+          "evidence": "official_confirmed_named_character"
+        },
+        {
+          "name": "Mirari's Wake",
+          "why": "Select the Modern Horizons 2 #291 printing: its flavor explicitly remembers Karona as a false god, the Mirari sword that slew her, and magic torn from Dominaria; a direct bridge from Otaria's prelude into the crisis.",
+          "evidence": "literal_retrospective_karona_flavor"
+        }
+      ]
+    },
+    {
+      "title": "II. The Time Spiral — a broken, dying Dominaria",
+      "lore_keys": ["Master Timeline.md#time-rifts--the-mending", "Conflicts & Arcs.md#time-rifts--the-mending"],
+      "cards": [
+        {
+          "name": "Temporal Eddy",
+          "why": "Its Time Spiral flavor explicitly describes fractured time, past/future visitors, and present-day disappearances.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Paradox Haze",
+          "why": "Teferi gives a first-person warning about meeting one's own past and future selves.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Ground Rift",
+          "why": "Its printed Time Spiral flavor directly describes the earth itself vanishing through time rifts.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Deep-Sea Kraken",
+          "why": "Original flavor describes an ancient monster emerging from a temporary rift.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Foriysian Interceptor",
+          "why": "The original flavor names Foriys as a focus of time rifts.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Sudden Death",
+          "why": "Original flavor describes rift-powered alternate timelines manifesting lethal outcomes.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Ancient Grudge",
+          "why": "The Time Spiral flavor specifically says Yavimaya's rifts bring its old enemies back.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Return to Dust",
+          "why": "The original flavor describes timeline branches and sudden endings.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Sage of Epityr",
+          "why": "Original flavor directly says the widening rifts maddened diviners and awakened strange foresight.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Gemhide Sliver",
+          "why": "Freyalise's original quoted lament about depleted Skyshroud gives the dying land a voice.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Greenseeker",
+          "why": "Original flavor describes rumors of Freyalise alive in the ruins of Skyshroud.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Telekinetic Sliver",
+          "why": "Freyalise's original quotation on how slivers respond to threat; illustrates her rift-era investigations.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Stonebrow, Krosan Hero",
+          "why": "Original flavor literally shows a rift displacing him into the wasteland of Krosa.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Magus of the Candelabra",
+          "why": "Teferi's remark to Jhoira compares Urza's legacy with his apprentices' work.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Squall Line",
+          "why": "Original flavor describes severe storms created by the shredded timeline.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Rift Elemental",
+          "why": "Teferi's Future Sight quote directly discusses the difficulty of healing wandering rifts.",
+          "evidence": "literal_future_sight_flavor"
+        },
+        {
+          "name": "Retether",
+          "why": "Planar Chaos flavor explicitly describes divergent alternate histories spilling from the rifts.",
+          "evidence": "literal_planar_chaos_flavor"
+        },
+        {
+          "name": "Timecrafting",
+          "why": "The Planar Chaos flavor comments on spellcasters tinkering with unstable time streams.",
+          "evidence": "literal_planar_chaos_flavor"
+        },
+        {
+          "name": "Fury Sliver",
+          "why": "Time Spiral's eyewitness account from Adom Capashen describes motion frozen by a rift during combat.",
+          "evidence": "literal_time_spiral_flavor"
+        }
+      ]
+    },
+    {
+      "title": "III. The old and new Planeswalkers confront the catastrophe",
+      "lore_keys": ["Master Timeline.md#time-rifts--the-mending", "Planeswalker Dossiers.md#teferi"],
+      "cards": [
+        {
+          "name": "Teferi, Mage of Zhalfir",
+          "why": "The central time mage; the original Time Spiral card's flavor foreshadows his terrible choice.",
+          "evidence": "named_character_original_time_spiral_flavor"
+        },
+        {
+          "name": "Jhoira of the Ghitu",
+          "why": "The original Future Sight card of Teferi's immortal artificer ally and field companion.",
+          "evidence": "named_character_original_future_sight"
+        },
+        {
+          "name": "Venser, Shaper Savant",
+          "why": "The nascent artificer-planeswalker, central to confronting the rifts; original Future Sight depiction.",
+          "evidence": "named_character_original_future_sight_flavor"
+        },
+        {
+          "name": "Radha, Heir to Keld",
+          "why": "The young Keldon elf whose connection to the rifts proves central to Jeska's healing attempts.",
+          "evidence": "named_character_original_planar_chaos"
+        },
+        {
+          "name": "Karn, Silver Golem",
+          "why": "The original silver golem, later a Planeswalker who sacrifices his spark to seal the Tolarian rift.",
+          "evidence": "named_character_official_story"
+        },
+        {
+          "name": "Freyalise, Llanowar's Fury",
+          "why": "Oldwalker protector who gives her life to close the Skyshroud rift.",
+          "evidence": "named_character_official_story"
+        },
+        {
+          "name": "Lord Windgrace",
+          "why": "Oldwalker protector who gives his life to close the Urborg rift and binds himself to the land.",
+          "evidence": "named_character_official_story"
+        },
+        {
+          "name": "Jeska, Thrice Reborn",
+          "why": "Jeska's three incarnations and her eventual final sacrifice in Otaria are the deck's emotional climax.",
+          "evidence": "named_character_official_story"
+        },
+        {
+          "name": "Nicol Bolas",
+          "why": "The ancient elder dragon returns to Dominaria's conflict and opposes Leshrac around the Madaran rift.",
+          "evidence": "named_character_story"
+        },
+        {
+          "name": "Myojin of Night's Reach",
+          "why": "The Kamigawan divinity whose mask plays a role in Leshrac's machinations against Bolas.",
+          "evidence": "named_character_story"
+        },
+        {
+          "name": "Leshrac's Sigil",
+          "why": "Named Ice Age card acknowledging Leshrac, one of the old Planeswalkers active at Madara; this is symbolic, not direct scene depiction.",
+          "evidence": "named_character_symbolic"
+        },
+        {
+          "name": "Leshrac's Rite",
+          "why": "Older printed flavor quotes a pledge to Leshrac; symbolizes his power, not the Madaran rift itself.",
+          "evidence": "printed_named_flavor_symbolic"
+        },
+        {
+          "name": "Multani, Maro-Sorcerer",
+          "why": "The Yavimayan guardian who confronts Jeska during the Yavimaya rift crisis.",
+          "evidence": "named_character_story"
+        },
+        {
+          "name": "Jaya Ballard, Task Mage",
+          "why": "Original Time Spiral-era card for the surviving Oldwalker; a witness to the epoch, not a rift-sealer.",
+          "evidence": "named_character_period_printing"
+        },
+        {
+          "name": "Venser's Sliver",
+          "why": "Time Spiral flavor describes Venser building an autonomous sliver prototype; his early ingenuity.",
+          "evidence": "literal_time_spiral_flavor"
+        },
+        {
+          "name": "Jhoira's Timebug",
+          "why": "Jhoira's Time Spiral device for manipulating suspended phenomena; an exact artifact from the crisis set.",
+          "evidence": "named_character_era_artifact"
+        },
+        {
+          "name": "Venser's Diffusion",
+          "why": "Venser's Future Sight card philosophizes about nested realities.",
+          "evidence": "literal_future_sight_flavor"
+        }
+      ]
+    },
+    {
+      "title": "IV. Closing the wounds — sacrifice and a reborn world",
+      "lore_keys": ["Master Timeline.md#time-rifts--the-mending", "Conflicts & Arcs.md#time-rifts--the-mending"],
+      "cards": [
+        {
+          "name": "Teferi's Protection",
+          "why": "Later card named for Teferi: symbolic of his defense of Shiv, achieved by sacrificing his spark; not literal printed incident.",
+          "evidence": "named_character_symbolic_retrospective"
+        },
+        {
+          "name": "Windgrace's Judgment",
+          "why": "Later tribute to the Planeswalker who gave his life for Urborg; use as thematic sacrifice, not a literal rift-closing spell.",
+          "evidence": "named_character_symbolic_retrospective"
+        },
+        {
+          "name": "Karn's Temporal Sundering",
+          "why": "Later flavor recounts how attempts to harness time spiraled into disaster; evocative of the Tolarian catastrophe and Karn's work.",
+          "evidence": "printed_retrospective_flavor"
+        },
+        {
+          "name": "Riftsweeper",
+          "why": "Future Sight flavor explicitly condemns rift-born creatures and shows the effort to repair reality.",
+          "evidence": "literal_future_sight_flavor"
+        },
+        {
+          "name": "Freyalise's Radiance",
+          "why": "Named light of Freyalise from Coldsnap, symbolizing her final heroic expenditure; not a depiction of the Skyshroud closure.",
+          "evidence": "named_character_symbolic"
+        },
+        {
+          "name": "Jeska's Will",
+          "why": "Use the Commander Legends printing addressed by Jeska to Radha, reflecting the crucial partnership in the final repair.",
+          "evidence": "literal_named_dialogue_flavor"
+        },
+        {
+          "name": "Mox Amber",
+          "why": "Select The Brothers' War Retro Artifacts special printing that explicitly names a crystallized moment from the Mending Era; retrospective.",
+          "evidence": "literal_retrospective_printed_flavor"
+        },
+        {
+          "name": "The Mending of Dominaria",
+          "why": "The retrospective Saga explicitly named for the outcome: Dominaria's healing and renewal.",
+          "evidence": "named_historical_saga"
+        },
+        {
+          "name": "Llanowar Envoy",
+          "why": "Dominaria flavor explicitly cites The Mending of Dominaria and honors the martyrs who saved the world.",
+          "evidence": "literal_printed_mending_flavor"
+        },
+        {
+          "name": "Magus of the Vineyard",
+          "why": "Future Sight flavor depicts new growth after a ruined and salt-battered age.",
+          "evidence": "literal_future_sight_recovery_flavor"
+        },
+        {
+          "name": "Wrap in Vigor",
+          "why": "Future Sight flavor explicitly describes temporal energy being mistaken for life-giving magic.",
+          "evidence": "literal_future_sight_recovery_flavor"
+        },
+        {
+          "name": "Song of Freyalise",
+          "why": "Dominaria Saga remembers Freyalise's protection of the woodlands and her enduring legacy.",
+          "evidence": "named_character_retrospective_saga"
+        },
+        {
+          "name": "Relic of Legends",
+          "why": "A later quote by Teferi considers history's best moments returning, a hopeful epilogue.",
+          "evidence": "printed_later_epilogue_flavor"
+        },
+        {
+          "name": "Timeless Lotus",
+          "why": "Dominaria United flavor describes old Urza-era machinery restored by nature, a late post-Mending epilogue.",
+          "evidence": "printed_later_epilogue_flavor"
+        },
+        {
+          "name": "Windgrace Acolyte",
+          "why": "Dominaria printing shows Windgrace's adherents keeping his guardianship alive after his sacrifice.",
+          "evidence": "literal_postmending_flavor"
+        },
+        {
+          "name": "Krosan Druid",
+          "why": "Dominaria flavor confirms Krosa's renewal after calamity.",
+          "evidence": "literal_postmending_flavor"
+        },
+        {
+          "name": "Tolarian Scholar",
+          "why": "Dominaria flavor shows the later academies carefully remembering the original island's disastrous experiments.",
+          "evidence": "literal_postmending_flavor"
+        },
+        {
+          "name": "Temporal Isolation",
+          "why": "Original Time Spiral card representing the isolation and temporal displacement surrounding the repair; visual/contextual, not a named closure.",
+          "evidence": "period_artwork_contextual"
+        }
+      ]
+    },
+    {
+      "title": "V. Lands as historical map and aftermath",
+      "lore_keys": ["Master Timeline.md#time-rifts--the-mending", "Planes Index.md#dominaria"],
+      "cards": [
+        {
+          "name": "Tolarian Academy",
+          "why": "Original center of Urza's dangerous time experiments; banned but included under Cory's story-first policy.",
+          "evidence": "named_historical_setting_banned"
+        },
+        {
+          "name": "Academy Ruins",
+          "why": "Time Spiral printing of the wreckage of the original Academy; exact historical aftermath.",
+          "evidence": "literal_time_spiral_setting"
+        },
+        {
+          "name": "Tolaria West",
+          "why": "Future Sight location where Jhoira's later school and post-disaster researchers regroup.",
+          "evidence": "named_period_setting"
+        },
+        {
+          "name": "Zhalfirin Void",
+          "why": "Post-Mending land and Teferi quotation preserving the tragedy of Zhalfir's absence.",
+          "evidence": "literal_retrospective_epilogue"
+        },
+        {
+          "name": "Shivan Reef",
+          "why": "Shiv, where Teferi sacrificed his spark to repair a rift.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Shivan Gorge",
+          "why": "The Shivan home of Jhoira and the Ghitu, central to Teferi's reparative choice.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Skyshroud Forest",
+          "why": "Freyalise's forest and the Skyshroud rift she died repairing.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Urborg, Tomb of Yawgmoth",
+          "why": "Original Planar Chaos printing directly quotes Windgrace on Yawgmoth's corpse poisoning Urborg.",
+          "evidence": "literal_planar_chaos_flavor"
+        },
+        {
+          "name": "Yavimaya, Cradle of Growth",
+          "why": "The world-forest's spirit and landscape, where Multani confronted Jeska.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Yavimaya Coast",
+          "why": "The coast of Yavimaya's damaged forest; contextual geography.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Krosan Verge",
+          "why": "Otarian region tied to Kamahl, Jeska and the final temporal crisis.",
+          "evidence": "named_historical_setting"
+        },
+        {
+          "name": "Keldon Megaliths",
+          "why": "Keld, Radha's homeland and the warlord culture she returns to.",
+          "evidence": "named_period_setting"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "why": "Original Time Spiral flavor literally sets out four directions in an unsettled temporal landscape.",
+          "evidence": "literal_time_spiral_land_flavor"
+        },
+        {
+          "name": "Llanowar Reborn",
+          "why": "Future Sight land named for the restored woods after centuries of devastation.",
+          "evidence": "named_future_sight_aftermath"
+        },
+        {
+          "name": "New Benalia",
+          "why": "Future Sight land named for the recovering post-Mending society.",
+          "evidence": "named_future_sight_aftermath"
+        },
+        {
+          "name": "Urza's Factory",
+          "why": "Urza's surviving industrial legacy, an antecedent to the temporal experiments; select Time Spiral printing.",
+          "evidence": "historical_setting_retrospective"
+        },
+        {
+          "name": "Saltcrusted Steppe",
+          "why": "Time Spiral storage land portraying the desiccated and salt-scarred world.",
+          "evidence": "period_environmental_setting"
+        },
+        {
+          "name": "Riftstone Portal",
+          "why": "An older Otarian portal landmark from Judgment; contextual, not presented as the final rift itself.",
+          "evidence": "period_contextual_setting"
+        },
+        {
+          "name": "Gemstone Caverns",
+          "why": "Time Spiral-era Dominaria landmark, used as a period artifact of the unstable geography.",
+          "evidence": "period_contextual_setting"
+        },
+        {
+          "name": "Hall of Tagsin",
+          "why": "The oldest Thran/Urza precursor of the cataclysm; a historical framing landmark, not a site of the Mending.",
+          "evidence": "historical_prequel_setting"
+        }
+      ]
+    }
+  ],
+  "playability": [],
+  "basics": {
+    "Plains": 2,
+    "Island": 2,
+    "Swamp": 2,
+    "Mountain": 2,
+    "Forest": 2
+  }
+}
