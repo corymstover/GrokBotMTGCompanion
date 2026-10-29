@@ -1,0 +1,42 @@
+{
+  "schema": "lore_deep_research_profile/v1",
+  "subject": "Yawgmoth",
+  "scope_note": "This is a discovery aid, not an assertion that every card mentioning an associate depicts Yawgmoth. Old Phyrexia and its later successors are not the same episode. The full 1999 novel has NOT been ingested or read by this tooling.",
+  "signals": [
+    {"term": "Yawgmoth", "relation": "subject", "phase": "life and posthumous memory", "reason": "literal subject name; compare original and alternate printing flavor"},
+    {"term": "Rebbec", "relation": "associated_character", "phase": "I. The Thran", "reason": "Rebbec and the Thran gateway"},
+    {"term": "Glacian", "relation": "associated_character", "phase": "I. The Thran", "reason": "Glacian and Thran powerstone disease"},
+    {"term": "Gix", "relation": "associated_character", "phase": "III. Gix and the Brothers' War", "reason": "Gix served Yawgmoth, but not every Gix depiction is a Yawgmoth scene"},
+    {"term": "Mishra", "relation": "associated_character", "phase": "III. Gix and the Brothers' War", "reason": "Mishra's corruption by Phyrexia"},
+    {"term": "Xantcha", "relation": "associated_character", "phase": "IV. Time and sleeper plots", "reason": "sleeper-agent defection linked to Urza and Karn"},
+    {"term": "Kerrick", "relation": "associated_character", "phase": "IV. Time and sleeper plots", "reason": "historical spelling of K'rrik; examine named Tolarian experiments"},
+    {"term": "K'rrik", "relation": "associated_character", "phase": "IV. Time and sleeper plots", "reason": "same agent in later card naming"},
+    {"term": "Tsabo Tavoc", "relation": "associated_character", "phase": "V. Invasion and Apocalypse", "reason": "invasion commander whose flavor lines identify specific atrocities"},
+    {"term": "Crovax", "relation": "associated_character", "phase": "V. Invasion and Apocalypse", "reason": "Rath's evincar, linked to Ertai and Yawgmoth"},
+    {"term": "Ertai", "relation": "associated_character", "phase": "V. Invasion and Apocalypse", "reason": "corrupted Weatherlight mage and Crovax's victim"},
+    {"term": "Gerrard", "relation": "associated_character", "phase": "V. Invasion and Apocalypse", "reason": "the Legacy's final bearer and Yawgmoth's opponent"},
+    {"term": "Phyrexia", "relation": "theme", "phase": "Old Phyrexia or successors — distinguish in review", "reason": "broad setting mention only; verify old versus new"},
+    {"term": "Phyrexian", "relation": "theme", "phase": "Old Phyrexia or successors — distinguish in review", "reason": "broad identity adjective, low-weight discovery only"}
+  ],
+  "pinned_printings": [
+    {"card": "Phyrexian Tyranny", "set": "pls", "collector": "118", "phase": "V. Invasion and Apocalypse", "reason": "Crovax calls Ertai a reward from Yawgmoth: named three-character scene", "source": "https://magic.wizards.com/en/news/making-magic/add-text-flavor-2002-03-25"},
+    {"card": "Phyrexian Broodlings", "set": "ulg", "collector": "58", "phase": "IV. Time and sleeper plots", "reason": "original text explicitly records Kerrick constructing beasts from salvaged parts; K'rrik spelling connection requires independent character check", "source": "https://scryfall.com/card/ulg/58/phyrexian-broodlings"},
+    {"card": "Phyrexian Slayer", "set": "inv", "collector": "118", "phase": "V. Invasion and Apocalypse", "reason": "original text documents Tsabo Tavoc's killers devastating Benalia", "source": "https://scryfall.com/card/inv/118/phyrexian-slayer"},
+    {"card": "Phyrexian Reclamation", "set": "ulg", "collector": "63", "phase": "II. Phyrexian dogma", "reason": "original text encapsulates forced reuse of the dead; thematic association rather than a named Yawgmoth event", "source": "https://scryfall.com/card/ulg/63/phyrexian-reclamation"},
+    {"card": "Toxic Deluge", "set": "cc2", "collector": "6", "phase": "V. Invasion and Apocalypse", "reason": "special printing uses Yawgmoth's death-cloud artwork and Yawgmoth-attributed text; this is print-specific art interpretation", "source": "https://scryfall.com/card/cc2/6/toxic-deluge"},
+    {"card": "Last Stand", "set": "apc", "collector": "107", "phase": "V. Invasion and Apocalypse", "reason": "Apocalypse-era artwork interpreted as Yawgmoth's huge death-cloud form; art identification is a documented interpretation", "source": "https://scryfall.com/card/apc/107/last-stand"},
+    {"card": "Corrupt", "set": "usg", "collector": "124", "phase": "IV. Time and sleeper plots", "reason": "original flavor literally describes Yawgmoth reaching into Urza's mind", "source": "https://scryfall.com/card/usg/124/corrupt"},
+    {"card": "Retaliation", "set": "usg", "collector": "272", "phase": "III. Gix and the Brothers' War", "reason": "original flavor describes Urza realizing Mishra is gone", "source": "https://scryfall.com/card/usg/272/retaliation"},
+    {"card": "Warped Devotion", "set": "pls", "collector": "57", "phase": "V. Invasion and Apocalypse", "reason": "original flavor directly quotes Urza speaking of Yawgmoth's glory to Gerrard", "source": "https://scryfall.com/card/pls/57/warped-devotion"},
+    {"card": "Planar Portal", "set": "inv", "collector": "308", "phase": "V. Invasion and Apocalypse", "reason": "original flavor explicitly describes the start of the Phyrexian invasion of Dominaria", "source": "https://scryfall.com/card/inv/308/planar-portal"},
+    {"card": "Great Furnace", "set": "brc", "collector": "187", "phase": "I. The Thran", "reason": "Brothers' War Commander reprint quotes Phoenon from Fall of the Thran; original art depicts a different setting", "source": "https://scryfall.com/card/brc/187/great-furnace"},
+    {"card": "Heartstone", "set": "sth", "collector": "134", "phase": "IV. Time and sleeper plots", "reason": "represents Xantcha's type of Phyrexian heartstone, not proven to depict her individual stone", "source": "https://scryfall.com/card/sth/134/heartstone"}
+  ],
+  "reading_sources": [
+    {"title": "The Thran", "author": "J. Robert King", "year": 1999, "type": "published_novel", "access": "bibliographic_and_secondary_plot_only; complete text unavailable", "story_scope": "Yawgmoth, Rebbec, Glacian, the Thran collapse", "contextual_official_source": "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06"},
+    {"title": "The Known Multiverse", "type": "Wizards official article", "access": "public_summary", "story_scope": "Old Phyrexia origins, Dyfed, Yawgmoth", "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19"},
+    {"title": "The Legendary Characters of Commander Legends, Part 2", "type": "Wizards official article", "access": "public_summary", "story_scope": "Glacian, Rebbec, Thran powerstones", "url": "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06"},
+    {"title": "The Brothers' War story", "type": "Wizards official story", "access": "public_story", "story_scope": "Gix, Mishra, Urza, Sylex", "url": "https://magic.wizards.com/en/products/the-brothers-war"},
+    {"title": "Planeswalker's Guide to Phyrexia: All Will Be One", "type": "Wizards official article", "access": "public_summary", "story_scope": "distinguishes dead Yawgmoth and the successor New Phyrexia", "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"}
+  ]
+}
