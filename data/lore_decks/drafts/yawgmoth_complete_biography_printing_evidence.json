@@ -1,6 +1,6 @@
 {
   "theme": "Yawgmoth: Father of Machines — A Biography of the Thran Tyrant and His Posthumous Shadow",
-  "raw_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
+  "raw_sha256": "9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346",
   "source": "local 2026-10-28 Scryfall printing SQLite cache",
   "cards": [
     {
@@ -56,6 +56,34 @@
         "printed_flavor": "\"His energy is as boundless as the powerstones'.\"\n—Rebbec, architect of ascension",
         "type_line": "Legendary Creature — Human Artificer",
         "oracle": "{T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of those cards into your hand and the rest into your graveyard.\nPartner (You can have two commanders if both have partner.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Phthisis",
+      "why": "The powerstone-induced wasting disease that struck Glacian and the Untouchables, giving Yawgmoth his route from exiled doctor to Halcyon ruler. The Time Spiral card names the condition, but its artwork is not a verified scene from the novel.",
+      "tier": "direct_novel_disease",
+      "printing": {
+        "set": "TSP",
+        "collector": "122",
+        "url": "https://scryfall.com/card/tsp/122/phthisis?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Sorcery",
+        "oracle": "Destroy target creature. Its controller loses life equal to its power plus its toughness.\nSuspend 5—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "The Mana Rig",
+      "why": "An original Thran powerstone-producing installation type, crucial to the industrial civilization behind phthisis. The printed card depicts the separate Shivan Mana Rig, not the specific Halcyon facility in the novel.",
+      "tier": "documented_related_thran_technology",
+      "printing": {
+        "set": "DMC",
+        "collector": "28",
+        "url": "https://scryfall.com/card/dmc/28/the-mana-rig?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Legendary Artifact",
+        "oracle": "Whenever you cast a multicolored spell, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")\n{X}{X}{X}, {T}: Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.",
         "preferred_printing_found": true
       }
     },
@@ -606,20 +634,6 @@
       }
     },
     {
-      "name": "Phyrexian Tyranny",
-      "why": "Planeshift card embodying the abusive campaign; later reprints also quote Crovax to Ertai.",
-      "tier": "period_phyrexian_terror",
-      "printing": {
-        "set": "PLS",
-        "collector": "118",
-        "url": "https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api",
-        "printed_flavor": "\"He is Yawgmoth's reward to me. I shall kill him a hundred times a day.\"\n—Crovax, to Ertai",
-        "type_line": "Enchantment",
-        "oracle": "Whenever a player draws a card, that player loses 2 life unless they pay {2}.",
-        "preferred_printing_found": true
-      }
-    },
-    {
       "name": "Squee, Goblin Nabob",
       "why": "Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation.",
       "tier": "documented_cursed_victim_and_flavor",
@@ -970,20 +984,6 @@
       }
     },
     {
-      "name": "Realmbreaker, the Invasion Tree",
-      "why": "Elesh Norn’s later multiversal invasion method—a successor’s scheme, not Yawgmoth’s own weapon.",
-      "tier": "posthumous_successor_plan",
-      "printing": {
-        "set": "MOM",
-        "collector": "263",
-        "url": "https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree?utm_source=api",
-        "printed_flavor": "",
-        "type_line": "Legendary Artifact",
-        "oracle": "{2}, {T}: Target opponent mills three cards. Put a land card from their graveyard onto the battlefield tapped under your control. It gains \"If this land would leave the battlefield, exile it instead of putting it anywhere else.\"\n{10}, {T}, Sacrifice Realmbreaker: Search your library for any number of Praetor cards, put them onto the battlefield, then shuffle.",
-        "preferred_printing_found": true
-      }
-    },
-    {
       "name": "Thran Portal",
       "why": "The Thran access technology makes the betrayal of Dominaria possible.",
       "tier": "historical_setting_land",
@@ -1054,44 +1054,44 @@
       }
     },
     {
-      "name": "Urza's Mine",
-      "why": "Urza’s artifact war and long path toward the war on Yawgmoth.",
+      "name": "Ancient Den",
+      "why": "Select the Brothers’ War Commander printing explicitly identifying Halcyon, the once-floating Thran capital destroyed in Yawgmoth’s rise. This is an exact-printing flavor-text connection, not a claim that Mirrodin-set art depicts Halcyon.",
       "tier": "historical_setting_land",
       "printing": {
-        "set": "2XM",
-        "collector": "329",
-        "url": "https://scryfall.com/card/2xm/329/urzas-mine?utm_source=api",
-        "printed_flavor": "In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.",
-        "type_line": "Land — Urza's Mine",
-        "oracle": "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.",
+        "set": "BRC",
+        "collector": "172",
+        "url": "https://scryfall.com/card/brc/172/ancient-den?utm_source=api",
+        "printed_flavor": "\"Halcyon, the floating capital of the Thran. The once shining city in the clouds now lies ruined on the desert floor.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {W}.",
         "preferred_printing_found": true
       }
     },
     {
-      "name": "Urza's Power Plant",
-      "why": "Urza’s wartime infrastructure.",
+      "name": "Vault of Whispers",
+      "why": "Select the Brothers’ War Commander printing quoting Fall of the Thran on Koilos, the Thran prison-city where the earliest Phyrexian influence took root; not a literal depiction of Glacian’s sickroom.",
       "tier": "historical_setting_land",
       "printing": {
-        "set": "2XM",
-        "collector": "330",
-        "url": "https://scryfall.com/card/2xm/330/urzas-power-plant?utm_source=api",
-        "printed_flavor": "Urza threw himself into his research, pushing the boundaries of both possibility and morality.",
-        "type_line": "Land — Urza's Power-Plant",
-        "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.",
+        "set": "BRC",
+        "collector": "211",
+        "url": "https://scryfall.com/card/brc/211/vault-of-whispers?utm_source=api",
+        "printed_flavor": "\"Koilos, the Thran prison-city, built to house their outcasts and dissidents. It was here that Phyrexia's influence first festered.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {B}.",
         "preferred_printing_found": true
       }
     },
     {
-      "name": "Urza's Tower",
-      "why": "Urza’s wartime infrastructure.",
+      "name": "Contaminated Aquifer",
+      "why": "The Dominaria United land directly invokes Yawgmoth’s continuing legacy in the extensive underground caves. A retrospective landscape echo rather than a Thran-era scene.",
       "tier": "historical_setting_land",
       "printing": {
-        "set": "ATQ",
-        "collector": "85a",
-        "url": "https://scryfall.com/card/atq/85a/urzas-tower?utm_source=api",
-        "printed_flavor": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
-        "type_line": "Land — Urza's Tower",
-        "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.",
+        "set": "DMU",
+        "collector": "245",
+        "url": "https://scryfall.com/card/dmu/245/contaminated-aquifer?utm_source=api",
+        "printed_flavor": "The caves stretch farther than anyone knows, and the terrible legacy of Yawgmoth lurks in every shadow.",
+        "type_line": "Land — Island Swamp",
+        "oracle": "({T}: Add {U} or {B}.)\nThis land enters tapped.",
         "preferred_printing_found": true
       }
     },
