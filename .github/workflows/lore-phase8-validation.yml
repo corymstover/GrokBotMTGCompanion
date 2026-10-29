@@ -11,6 +11,8 @@ on:
       - 'scripts/test_phase8_safety.py'
       - 'scripts/story_cache_audit.py'
       - 'scripts/test_story_cache_audit.py'
+      - 'scripts/phase8_name_match_triage.py'
+      - 'scripts/test_phase8_name_match_triage.py'
       - 'scripts/rebuild_enrichment.sh'
       - 'data/lore_research/**'
       - 'PHASE8_RESTART.md'
@@ -36,6 +38,7 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_lore_deep_research.py' -v
           python3 -m unittest discover -s scripts -p 'test_phase8_safety.py' -v
           python3 -m unittest discover -s scripts -p 'test_story_cache_audit.py' -v
+          python3 -m unittest discover -s scripts -p 'test_phase8_name_match_triage.py' -v
       - name: Report current Phase 8 coverage without changing files
         run: python3 scripts/phase8_status.py --json
       - name: Confirm default Phase 8 entrypoint is read-only
