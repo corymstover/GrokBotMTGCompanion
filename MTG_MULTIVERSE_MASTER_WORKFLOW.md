@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 1.6
+**Version:** 1.7
 **Checkpoint date:** 2026-10-29  
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -58,6 +58,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 **2026-10-29 sourced set/product metadata checkpoint:** Scryfall's official `/sets` API supplied a dated Set-object metadata snapshot (UTC 2026-10-29 23:38:34); all **1,062** codes from the October 29 card-printing atlas matched set metadata with **0 conflicts/missing codes**. The API listed **1,063** codes at fetch time; the one extra, `nau` (2027-02-05), was not in the earlier bulk and is kept out of that snapshot's printing totals. Scryfall explicitly supplies **560 `parent_set_code` relations** and **10 future-dated set codes**. Under the strict cutoff of October 29, **142** non-digital entries were typed `expansion` or `core`; that is a *source category candidate count*, **not** a Wizards-certified number of premier sets. No unnamed or inferred product links were created. Immutable source metadata: `data/set_atlas/scryfall_set_metadata_2026-10-29.json`; normalized joins and audit: `data/set_atlas/product_catalog_2026-10-29.json`, `data/set_atlas/product_audit_2026-10-29.json`. Read-only `scripts/set_product_lookup.py` filters by code/name/year/type/date/parent without network access. `scripts/audit_set_product_links.py --check` and `tests/test_set_product_links.py` validate reproducibility. Human index: `SET_ATLAS.md`. Scryfall Set API metadata was fetched later than the archived same-day Default Cards bulk; source times and counters are not interchangeable.
 
+**2026-10-29 Wizards release-family classification checkpoint:** A bounded **30-code** exact-match review now cross-references Wizards' primary product archive, release notes and official product-family explanations against the October 29 1,062-code Scryfall product catalog. It verifies **21 officially documented main releases from 2023 through October 29, 2026** (13 first-party main set releases, six Universes Beyond main releases, and two earlier 2023 main-set release notes). It explicitly separates `mat` (Standard-legal epilogue micro set), `big` (OTJ's subset), `om1` (digital Universes Within counterpart), four special products (`mh3`, `acr`, `pip`, `inr`) and two future main releases (`trk`, `mdd`). A **142**-entry full-history, released, non-digital Scryfall expansion/core category contains **21 reviewed regular main releases**, **two documented auxiliary exceptions** and **119 not-yet-reviewed category candidates**. This is **not** an all-time premier release count. Sources and per-code evidence: `data/set_atlas/wotc_reviewed_release_evidence_2026-10-29.json`; deterministic result: `data/set_atlas/wotc_release_classification_2026-10-29.json`. Rebuild/check with `scripts/audit_wotc_premier_sets.py`; user guide `SET_ATLAS.md`. Future history must be explicitly reviewed against Wizards evidence instead of automatically accepting Scryfall's `set_type`.
+
 **Phase 1B pilot checks completed:**
 
 - [x] SHA-256 verification of the October 29 Scryfall Default Cards source and its reported record count; no duplicate printing IDs or conflicting set name/`set_type` values.
@@ -67,7 +69,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Verify all 105 **committed** historical shard file hashes, sizes, row counts, printing-ID uniqueness and set joins; reconstruct stable card/set lookup indexes.
 - [ ] Independently reconcile individual printing IDs against the **unavailable original October 28 bulk**; do not call that source verified until recovered.
 - [x] Import and freeze Scryfall Set API `released_at`, `digital`, `set_type` and **560 explicit `parent_set_code` links** for all 1,062 printing-atlas codes; validate against the independent October 29 printing catalog.
-- [ ] Independently source **Wizards premier-release/product taxonomy** and certify which of the 142 date-qualified Scryfall expansion/core candidates belong in that narrower official count; preserve all other types separately.
+- [x] Review a bounded 2023–October 2026 official-main-release sample (21 verified), plus nine reviewed exceptions/upcoming/special products, with direct Wizards citations and tests.
+- [ ] **Finish full-history 1993–2022 premier-release census:** 119 other date-qualified non-digital Scryfall expansion/core codes remain unreviewed. Do not call 142 the all-time premier count or silently conflate micro sets, timeshifted sheets and printings.
 - [x] Publish complete, GitHub-readable historical set-to-card and card-to-set indexes without a local bulk snapshot (32 deterministic JSON buckets and read-only CLI); the October 29 current-snapshot lookup remains separately dated.
 
 **Counting rules (mandatory in every answer/export):**
@@ -168,7 +171,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 1. **Continue Phase 8:** the first twelve-card generated batch is reviewed; select the next bounded, directly evidenced slice toward the remaining **1,953** priority enrichments. Preserve all previous records and rerun the full guarded source verification for each publication.
 2. **Index exclusions — completed for the October 29 snapshot:** retain the verified 5,270-record classification and review the 305 future-dated IDs after release, rather than prematurely importing them.
-3. **Continue Phase 1B Set & Printing Atlas:** the 105 historical shards, 32 lookup buckets, and 560 sourced Scryfall product-parent links are now published; next distinguish officially certified Wizards premier releases from Scryfall expansion/core categories, maintain dated indexes and preserve the missing October 28 original-bulk caveat.
+3. **Continue Phase 1B Set & Printing Atlas:** the 105 historical shards, 32 lookup buckets, and 560 sourced parent links are published. A first official 30-code Wizards classification now confirms 21 main releases for 2023–October 2026; review the remaining 119 older non-digital expansion/core candidates one evidence-backed period at a time for a defensible all-time premier census.
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.
 5. **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
 6. **Deliver the first research pack:** Ugin/Nicol Bolas and Elder Dragon origins, with canon distinctions and verified card ties.
