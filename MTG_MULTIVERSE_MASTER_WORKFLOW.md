@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 1.2
+**Version:** 1.3
 **Checkpoint date:** 2026-10-29  
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -19,7 +19,7 @@ Develop a comprehensive, evidence-backed Magic: The Gathering companion spanning
 | Oracle Cards snapshot | **39,164 Oracle IDs** | October 29 Scryfall source includes digital/special objects; not all are tabletop-playable cards. |
 | Individual card index | **33,894 records** | The 5,270 Oracle IDs outside the index are now classified from the verified October 29 Oracle snapshot: 4,154 excluded layouts, 811 outside paper/eternal scope, 305 future-dated eligible objects, **0 already-released eligible omissions**. |
 | Set/printing inventory | **1,062 set codes; 119,509 default-language printing records; 107,700 English paper records** | October 28, 2026 `data/printing_lore/manifest.json` baseline. Set codes include promos and supplemental products; these are **not** 1,062 premier expansions. Printing records are not distinct card designs. Phase 1B certification is still pending. |
-| Priority card enrichment | **3,397 / 5,361 (63.4%)** | **1,964 remaining** as of the historical Phase 8 scope. |
+| Priority card enrichment | **3,409 / 5,362 (63.6%)** | **1,953 remaining** on the verified October 29 priority-pool definition; twelve reviewed *Reality Fracture* records added without changing any of the earlier 3,397. |
 | Official Wizards story inventory | **660/660 recovered and strictly audited** | Hash/URL provenance committed; full article text was cached outside Git and must be refetched/audited in a new environment. |
 | Uncertain character links | **341 name-only links triaged** | Two official-page leads warrant review; triage is not canon approval. |
 | Cards without a linked lore entry | **~1,220** | Investigate or preserve as documented unknowns; never fabricate lore. |
@@ -37,12 +37,12 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [x] Separate historical and modern Scryfall caches and validation modes.
 - [x] Compare the new snapshot against the committed card index and enrichment inventory without mutating either.
 - [x] Classify the **5,270 currently unindexed Oracle records** against the independently verified October 29 snapshot and existing ingest policy; see `data/multiverse_audits/oracle_index_2026-10-29.json` and `scripts/audit_oracle_index.py`.
-- [ ] Add eligible missing records to the normal card index in bounded, verified batches.
-- [ ] Finish the **1,964 remaining priority-card lore/synergy enrichments** without flattening existing curated data.
+- [x] Audit eligible released missing records: **0** under the documented October 29 index predicate. Re-audit future-dated cards after release; do not force-add intentionally excluded objects.
+- [ ] Finish the **1,953 remaining priority-card lore/synergy enrichments** without flattening existing curated data.
 - [ ] Document a repeatable update process for future Scryfall changes, current legality, and official rules.
 - [ ] Recount coverage and verify representative lookup queries after each published batch.
 
-**2026-10-29 first-batch checkpoint (curated inputs, not generated coverage):** Twelve exact-name notes from the already registered official *Legends of Reality Fracture* source were reviewed and added to `data/card_lore_notes.json`. Eight are explicitly marked as Echoverse alternate-continuity portrayals. The new static regression tests verify indexed names, source registration and continuity labels. The guarded enrichment generator has **not** been rerun: its required local Scryfall, EDHREC and Spellbook caches are not part of this checkout. Consequently the authoritative generated coverage remains **3,397/5,361**, with **1,964 remaining**. Next, recover/verify the complete offline input caches, apply a bounded batch on a clean feature branch, inspect generated card/shard diffs and certify the changed coverage before changing that counter.
+**2026-10-29 first generated batch (cycle 37):** The twelve exact-name notes from the already registered official *Legends of Reality Fracture* source are now present in `data/card_enrichment.json`, `Card Enrichment.md`, and the nine affected card shards. Eight are explicitly labeled Echoverse alternate-continuity portrayals. The current Oracle, Default Cards, and Rulings archives passed SHA-256 manifest verification; all **660/660** official story sources passed strict cache auditing; EDHREC and Commander Spellbook source caches were recovered for the batch. The generator's replay from those offline caches passed with **0** consistency problems. A full JSON record-by-record comparison against the previous 3,397-card baseline found **0 changed, 0 removed, 12 added**; priority coverage is now **3,409/5,362 (63.6%)**. Three new package backlinks were updated without refreshing unrelated prices or EDHREC rankings. Source article text and third-party caches remain uncommitted and must be recovered and verified again in another environment. This is a batch-level verification, not completion of the entire Phase 8 backlog.
 
 **2026-10-29 index-exclusion audit:** The archived Oracle Cards file matches SHA-256 `0358af62f92ac10f685d5ee6ad9ab23dfbff6f41bc32dfe81b5ab18cf3088adb` in the release manifest. The read-only classifier partitions all **5,270** non-indexed IDs into **4,154** intentionally excluded layouts (tokens, art cards, etc.), **811** nonpaper/non-eternal objects, and **305** eligible but future-dated objects; **0** eligible released objects are missing and **0** already indexed IDs disappear or violate the documented predicate. The future-dated set-code distribution is `trk=190`, `trc=112`, `slc=2`, `pf26=1`, based on Scryfall's October 29 release dates. **Do not ingest these future records now**; re-audit after their release using a newly verified snapshot and explicit cutoff. This is an index-policy audit, not a universal card/playability or set census.
 
@@ -148,7 +148,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Immediate execution queue — DO THESE NEXT
 
-1. **Resume Phase 8:** establish a bounded first batch toward the remaining **1,964** priority enrichments; compare current source evidence and publish only reviewed differences.
+1. **Continue Phase 8:** the first twelve-card generated batch is reviewed; select the next bounded, directly evidenced slice toward the remaining **1,953** priority enrichments. Preserve all previous records and rerun the full guarded source verification for each publication.
 2. **Index exclusions — completed for the October 29 snapshot:** retain the verified 5,270-record classification and review the 305 future-dated IDs after release, rather than prematurely importing them.
 3. **Begin Phase 1B Set & Printing Atlas:** audit the existing 1,062-code printing manifest; define category and count rules; ship a verified first set-index/lookup batch before claiming the feature complete.
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.

@@ -4,6 +4,7 @@ Each sub-package = Oracle-text pattern (shown) → Commander-legal cards, most-p
 Usage: python3 scripts/build_packages.py"""
 import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import re
+import sys
 from edh_lib import Data
 import ingest_scryfall as ing
 
@@ -71,7 +72,58 @@ PKG = [
 ]
 
 
+def update_enrichment_backlinks():
+    """Refresh only Phase 8 reciprocal links, preserving historical package data.
+
+    Rebuilding the entire guide requires separately verified prices and rank
+    data. A bounded Phase 8 card batch must not silently refresh those rows.
+    """
+    import json
+    base = ing.ROOT
+    target = base / "EDH Packages.md"
+    cards = json.loads((base / "data" / "card_enrichment.json").read_text(encoding="utf-8"))["cards"]
+    enriched = {}
+    for v in sorted(cards.values(), key=lambda v: v["name"]):
+        for pk in v["synergy"]["guidance"]["packages"][:3]:
+            enriched.setdefault(pk, []).append(v)
+
+    # Keep the entire document, including front matter, tables, prices and
+    # author-written guidance, byte-for-byte except matching backlink lines.
+    lines = target.read_text(encoding="utf-8").splitlines(keepends=True)
+    current = None
+    replacements = 0
+    encountered = set()
+    for i, line in enumerate(lines):
+        if line.startswith("### "):
+            current = line[4:].strip()
+        elif line.startswith("## "):
+            current = None
+        if not line.startswith("Enriched cards naming this package ("):
+            continue
+        if current is None:
+            raise ValueError("Package backlink outside a named section")
+        encountered.add(current)
+        group = enriched.get(current, [])
+        if not group:
+            raise ValueError(f"Package {current} has a backlink line but no enriched cards")
+        new = ("Enriched cards naming this package ([card enrichment](Card%20Enrichment.md#by-package), "
+               f"guidance tier, {len(group)}): " + " · ".join(
+                   f"[{v['name']}]({v['shard'].replace(' ', '%20')}#{v['anchor']})" for v in group) + "\n")
+        if lines[i] != new:
+            lines[i] = new
+            replacements += 1
+    missing = set(enriched) - encountered
+    if missing:
+        raise ValueError(f"Missing existing package backlink sections: {sorted(missing)}")
+    if replacements:
+        target.write_text("".join(lines), encoding="utf-8")
+    print(f"package enrichment backlinks: {replacements} updated; {len(enriched)} sections verified")
+
+
 def main():
+    if "--enrichment-backlinks-only" in sys.argv[1:]:
+        update_enrichment_backlinks()
+        return
     import json
     dp = ing.ROOT / "data" / "deck_packages.json"  # written by scripts/build_crossrefs.py
     deck_use = json.loads(dp.read_text(encoding="utf-8"))["packages"] if dp.exists() else {}

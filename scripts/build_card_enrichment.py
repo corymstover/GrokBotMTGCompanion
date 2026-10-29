@@ -25,6 +25,8 @@ Batches: BATCHES below; one per Bot cycle.
   python3 scripts/build_card_enrichment.py --fetch   also fetch missing EDHREC / Spellbook data (polite, 1 s apart)
   python3 scripts/build_card_enrichment.py           rebuild from caches (missing caches → carry the stored data)
   python3 scripts/build_card_enrichment.py --check   exit 1 if stale, or on a citation / tier / reciprocity problem
+  python3 scripts/build_card_enrichment.py --expand-auto  explicitly reopen ranked/story-derived admission
+                                                       after a snapshot change; never implicit in a normal rebuild
 """
 import atomic_io  # noqa: F401  atomic Path.write_text/write_bytes (Bot cycle 34)
 import csv
@@ -108,6 +110,15 @@ RANK35 = 6915
 # the ones with no EDHREC rank (not Commander-legal or too new to rank).
 RANK36 = 9647
 UNRANKED36 = False
+# Exact, owner-reviewable official-story batch. Membership is frozen by card
+# name: adding another note must not silently expand this batch. The source
+# identifies eight Echoverse portrayals explicitly; see curated note flags.
+BATCH37_NAMES = frozenset({
+    "Denzilore Fatehold", "Ingris Stingerquill", "Aerid Konstrari",
+    "Kwia Vigorbloom", "Fblthp, Impossibly Lost", "Fblthp, Knows the Way",
+    "Gallia, the Merrymaker", "Gallia, Tragic Host", "Ghalta the Unstoppable",
+    "Marwyn, the Preserver", "Marwyn, the Clearcutter", "Yuriko, Blade of the Mighty",
+})
 BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entries",
             lambda c, tiers: "entry-linked" in tiers and is_legend_or_pw(c)),
            (34, "every other lore-entry-linked card, every name-matched character card, every story-flavor card",
@@ -115,7 +126,20 @@ BATCHES = [(33, "legendary cards and planeswalkers already linked from lore entr
            (35, (("every remaining planeswalker; " if PW35 else "") + f"legendary creatures with EDHREC rank ≤ {RANK35:,} (2026-10-15 bulk)"),
             lambda c, tiers: (PW35 and "planeswalker" in tiers) or ("legendary-creature" in tiers and (c.get("edhrec_rank") or 10**9) <= RANK35)),
            (36, f"remaining legendary creatures with EDHREC rank ≤ {RANK36:,}" + (", then those with no EDHREC rank" if UNRANKED36 else "") + " (2026-10-15 bulk)",
-            lambda c, tiers: "legendary-creature" in tiers and ((c.get("edhrec_rank") or 10**9) <= RANK36 or (UNRANKED36 and not c.get("edhrec_rank"))))]
+            lambda c, tiers: "legendary-creature" in tiers and ((c.get("edhrec_rank") or 10**9) <= RANK36 or (UNRANKED36 and not c.get("edhrec_rank")))),
+           (37, "twelve exact-name legends verified against Wizards' Reality Fracture backstories",
+            lambda c, tiers: c["name"] in BATCH37_NAMES)]
+
+
+def select_batch(card, tiers, previous=None, allow_automatic_new=False):
+    """Keep old membership fixed until an explicit batch or rank-expansion decision."""
+    if previous:
+        return previous["batch"]
+    if card["name"] in BATCH37_NAMES:
+        return 37
+    if not allow_automatic_new:
+        return None
+    return next((number for number, _, selector in BATCHES if selector(card, tiers)), None)
 
 
 # ------------------------------------------------------------------ inputs
@@ -698,7 +722,7 @@ def render(r, card, lore, syn, rows_by_name):
     return [lore_line, syn_line]
 
 
-def build(fetch=False):
+def build(fetch=False, expand_auto=False):
     import build_crossrefs as bx
     rows = list(csv.DictReader(ing.INDEX_CSV.open(encoding="utf-8")))
     rows_by_key = {(r["shard"], r["anchor"]): r for r in rows}
@@ -712,6 +736,10 @@ def build(fetch=False):
     caps = art_captions()
     afs = art_flavor_sections()
     prev = json.loads(OUT.read_text(encoding="utf-8")).get("cards", {}) if OUT.exists() else {}
+    # Once the stored baseline exists, changing EDHREC ranks or newly fetched
+    # story pages must not silently admit additional cards into old batches.
+    # A fresh initial build or an explicit --expand-auto may admit them.
+    allow_auto = not bool(prev) or expand_auto
     tiers = pool(rows_by_key, by_id, prints, links, cc, caps, prev)
     notes = json.loads(NOTES.read_text(encoding="utf-8")) if NOTES.exists() else {}
     notes = {k: v for k, v in notes.items() if not k.startswith("_")}
@@ -721,7 +749,8 @@ def build(fetch=False):
     sel = []
     for r in rows:
         c = by_id.get(r["oracle_id"])
-        if c and any(f(c, tiers.get(r["oracle_id"], set())) for _, _, f in BATCHES):
+        if c and r["oracle_id"] not in prev and select_batch(
+                c, tiers.get(r["oracle_id"], set()), allow_automatic_new=allow_auto) is not None:
             sel.append(c)
     if fetch:
         # only cards without stored synergy (the third-party caches are gitignored and may be gone; Bot cycle 35)
@@ -731,10 +760,10 @@ def build(fetch=False):
         c = by_id.get(r["oracle_id"])
         if not c:
             continue
-        batch = next((n for n, _, sel in BATCHES if sel(c, tiers.get(r["oracle_id"], set()))), None)
-        if batch is None:
-            # Bot cycle 38: membership is sticky, so a Scryfall bulk refresh (new EDHREC ranks) never drops an enriched card
-            batch = prev.get(r["oracle_id"], {}).get("batch")
+        # Existing cards keep their approved batch provenance across Scryfall
+        # rank changes; new exact-source cards use their explicit review batch.
+        batch = select_batch(c, tiers.get(r["oracle_id"], set()), prev.get(r["oracle_id"]),
+                             allow_automatic_new=allow_auto)
         if batch is None:
             continue
         lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
@@ -811,7 +840,13 @@ def write_page(d):
           "## Coverage of the priority pool",
           "Phase 8 priority order: legendary creatures, planeswalkers, story-significant cards (linked from lore entries or name-matched to characters), strong flavor-text cards (Story Spotlight, or flavor text quoted on a cached official page); then outward. A card can be in several tiers.", "",
           "| Tier | Cards in the KB | Enriched | Coverage |", "|---|---|---|---|"]
-    for t, v in d["coverage"].items():
+    # JSON is persisted with sort_keys=True, which changes dict insertion
+    # order when --check reloads it. Render the published tier order explicitly
+    # so a successful generation is not immediately marked stale.
+    tier_order = ("entry-linked", "character-card", "legendary-creature",
+                  "planeswalker", "story-flavor", "priority pool (any tier)")
+    for t in [k for k in tier_order if k in d["coverage"]] + sorted(set(d["coverage"]) - set(tier_order)):
+        v = d["coverage"][t]
         L_.append(f"| {t} | {v['size']:,} | {v['enriched']:,} | {100 * v['enriched'] / v['size']:.1f}% |" if v["size"] else f"| {t} | 0 | 0 | — |")
     au = Counter()
     for v in cards:
@@ -972,6 +1007,17 @@ def check(d):
     return bad
 
 
+def reportable_errors(problems, defer_package_backlinks=False):
+    """Allow only temporary package reciprocity gaps before build_packages runs.
+
+    All other enrichment checks remain blocking, and the final --check never
+    defers package backlinks.
+    """
+    if not defer_package_backlinks:
+        return problems
+    return [p for p in problems if ": EDH Packages → " not in p]
+
+
 def main(argv):
     if "--check" in argv:
         if not OUT.exists():
@@ -979,7 +1025,10 @@ def main(argv):
             return 1
         cur = json.loads(OUT.read_text(encoding="utf-8"))
         problems = []
-        if ing.DEFAULT_CACHE.exists() and glob.glob(str(ROOT / ".cache" / "default-cards-*.jsonl.gz")):
+        # Respect the separately verified modern Multiverse cache in --check;
+        # otherwise a clean checkout silently downgrades to stored-data-only.
+        bulk_cache = ing.active_cache_dir()
+        if bulk_cache.exists() and glob.glob(str(bulk_cache / "default-cards-*.jsonl.gz")):
             new = build(False)
             if json.dumps(new, sort_keys=True) != json.dumps(cur, sort_keys=True):
                 problems.append("data/card_enrichment.json stale — run python3 scripts/build_card_enrichment.py")
@@ -1002,7 +1051,7 @@ def main(argv):
         for p in problems[:30]:
             print("  " + p)
         return 1 if problems else 0
-    d = build("--fetch" in argv)
+    d = build("--fetch" in argv, expand_auto="--expand-auto" in argv)
     OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     ns = patch_shards(d, write=True)
     import front_matter as fm
@@ -1011,8 +1060,12 @@ def main(argv):
     if fm.body_of(old) != body:
         m = fm.FM.match(old)
         PAGE.write_text((m.group(0) if m else "") + body, encoding="utf-8")
-    bad = check(d)
-    print(f"card enrichment: {len(d['cards'])} cards; {ns} shards updated; {len(bad)} problems")
+    problems = check(d)
+    bad = reportable_errors(problems, defer_package_backlinks="--defer-package-backlinks" in argv)
+    deferred = len(problems) - len(bad)
+    if deferred:
+        print(f"card enrichment: deferred {deferred} temporary package backlinks until build_packages.py")
+    print(f"card enrichment: {len(d['cards'])} cards; {ns} shards updated; {len(bad)} blocking problems")
     for b in bad[:30]:
         print("  " + b)
     return 1 if bad else 0
