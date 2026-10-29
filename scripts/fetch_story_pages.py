@@ -28,6 +28,7 @@ import urllib.request
 from pathlib import Path
 
 from bs4 import BeautifulSoup
+from story_cache_audit import cache_path, check_job, inventory, needs_fetch
 
 ROOT = Path(__file__).resolve().parent.parent
 TEXT = ROOT / ".cache" / "story" / "text22"
@@ -90,25 +91,30 @@ def extract(url, html):
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--repair", action="store_true", help="refetch only missing, short, or invalid cached pages")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--only", default="")
     a = ap.parse_args(argv)
-    jobs = [(r["url"], TEXT) for r in csv.DictReader(CSV.open(encoding="utf-8"))] + [(u, ART) for u in ARTICLES]
-    if EXTRA_CSV.exists():
-        jobs += [(r["url"], EXTRA) for r in csv.DictReader(EXTRA_CSV.open(encoding="utf-8"))]
-    jobs = [(u, d) for u, d in jobs if a.only in u]
+    if a.refresh and a.repair:
+        ap.error("--refresh and --repair are mutually exclusive")
+    # Share exactly the same URL inventory and path mapping as the auditor.
+    jobs = [job for job in inventory() if a.only in job["url"]]
     TEXT.mkdir(parents=True, exist_ok=True)
     ART.mkdir(parents=True, exist_ok=True)
     EXTRA.mkdir(parents=True, exist_ok=True)
-    seen, failed, got, have = set(), [], 0, 0
-    for i, (u, d) in enumerate(jobs, 1):
-        f = d / f"{slug(u)}.txt"
+    seen, failed, got, have, repaired = set(), [], 0, 0, 0
+    for i, job in enumerate(jobs, 1):
+        u = job["url"]
+        f = cache_path(job)
         if f in seen:
             print(f"duplicate slug {f.name}: {u}", file=sys.stderr)
         seen.add(f)
-        if f.exists() and not a.refresh:
+        if not needs_fetch(job, refresh=a.refresh, repair=a.repair):
             have += 1
             continue
+        if a.repair and f.exists():
+            print(f"[{i}/{len(jobs)}] repairing {check_job(job)['status']}: {u}", flush=True)
+            repaired += 1
         html = get(u)
         time.sleep(a.delay)
         if not html:
@@ -120,7 +126,8 @@ def main(argv=None):
         got += 1
         if i % 25 == 0:
             print(f"[{i}/{len(jobs)}] {f.name} ({len(txt.split())} words)", flush=True)
-    print(f"story pages: {got} fetched, {have} already cached, {len(failed)} failed of {len(jobs)}")
+    print(f"story pages: {got} fetched ({repaired} repair attempts), "
+          f"{have} already cached, {len(failed)} failed of {len(jobs)}")
     for u in failed:
         print("  failed:", u)
     return 1 if failed else 0
