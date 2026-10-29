@@ -1,0 +1,30 @@
+{
+  "schema": "phase8-name-match-triage/v1",
+  "evidence_is_canon_approval": false,
+  "pending_links_examined": 341,
+  "official_page_candidates": 2,
+  "links_without_new_page_candidate": 339,
+  "candidates": [
+    {
+      "card": "Koth of the Hammer",
+      "character": "Koth",
+      "entry": "Planeswalker Dossiers.md#koth",
+      "evidence_type": "page",
+      "source_url": "https://magic.wizards.com/en/story/koth-planeswalker"
+    },
+    {
+      "card": "Wrenn and Six",
+      "character": "Wrenn",
+      "entry": "Planeswalker Dossiers.md#wrenn",
+      "evidence_type": "page",
+      "source_url": "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03"
+    }
+  ],
+  "limitations": [
+    "Official-page co-occurrence is a review lead, not independent proof of a card depiction.",
+    "No printing-specific art, flavor, or Story Spotlight checks: frozen Scryfall bulk is unavailable.",
+    "Existing approved cards and lore classifications are unchanged."
+  ],
+  "official_sources_audited": 660,
+  "source_manifest_sha256": "9dc5aacf314cdd36c3a67b68a8eb8bded96e55bc721eb544697e3d50a896d5ee"
+}
