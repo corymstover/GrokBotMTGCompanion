@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 1.4
+**Version:** 1.5
 **Checkpoint date:** 2026-10-29  
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -54,15 +54,18 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 **2026-10-29 first Phase 1B catalog/audit checkpoint:** `scripts/audit_set_printing_atlas.py` verifies the independently archived October 29 Default Cards file's SHA-256 and count against its release manifest, then compares its full **119,701** printings to the older manifest's **119,509**. Both snapshots cover **1,062 Scryfall set codes**. The older manifest's set and shard row arithmetic is internally consistent; **105 historic shard file bytes were not available to hash here**. Only **five** set-code totals changed (`trk`, `trc`, `sds`, `pf26`, `pw26`); the net differences are **+192** printing records and **+198** English paper records. The source has **107,898** English paper printings, of which future previews must be excluded when asking what was released as of October 29; **1,051 total printing records** have future `released_at` dates. See `data/set_atlas/audit_2026-10-29.json` for Scryfall `set_type` category counts and `data/set_atlas/catalog_2026-10-29.json` for a dated all-1,062-code set catalog with English-paper distinct Oracle IDs, single-set debuts, same-day tied debuts, and reprints. A verified read-only `scripts/set_atlas_lookup.py` supports **set → cards** and **card → chronological printings/sets**, including exact card-name/Oracle-ID queries. These are first-pass, explicitly snapshot-dated measures; not yet a certified classification of premier releases or canonical set/product associations.
 
+**2026-10-29 historical-shard publication checkpoint:** The 105 committed October 28 shard files are now **all verified against their saved SHA-256 hashes, byte counts, row counts and manifest set links**. A deterministic read-only validator, `scripts/publish_historical_set_index.py`, reconstructs **119,509 distinct printing IDs**, **1,062 set codes**, **107,700 English paper printing records**, and **39,099 stable Oracle identities**; it finds **0 missing Oracle IDs in the normalized historical shards**. As of October 29, the historical snapshot has **106,855 released English paper printings** and **859 future-dated printings across all media**. The generated 32 compact `data/set_atlas/historical_sets_*.json` and `historical_cards_*.json` buckets are now committed and the independent read-only `scripts/historical_set_lookup.py` works without an uncommitted Scryfall bulk download. See `data/set_atlas/historical_shard_audit_2026-10-29.json` for exact per-file hashes and per-set totals. This certifies **the committed historical shards**, not the missing October 28 original bulk file; cross-source byte/ID reconciliation remains unverified. The separate October 29 Scryfall atlas remains authoritative for its later snapshot date.
+
 **Phase 1B pilot checks completed:**
 
 - [x] SHA-256 verification of the October 29 Scryfall Default Cards source and its reported record count; no duplicate printing IDs or conflicting set name/`set_type` values.
 - [x] Internal arithmetic and shard-reference audit of the October 28 baseline manifest, with missing historical shard-byte verification explicitly recorded.
 - [x] Reproducible `set_type` category totals, all-code dated catalog, and explicit treatment of future-dated printing records.
 - [x] First source-backed, bidirectional set/card lookup CLI; Alpha and Black Lotus spot checks, date-gated Star Trek example, and six portable unit tests.
-- [ ] Verify all 105 historical shard byte hashes and reconcile individual printing IDs—not just set totals—against the original October 28 Default Cards source.
+- [x] Verify all 105 **committed** historical shard file hashes, sizes, row counts, printing-ID uniqueness and set joins; reconstruct stable card/set lookup indexes.
+- [ ] Independently reconcile individual printing IDs against the **unavailable original October 28 bulk**; do not call that source verified until recovered.
 - [ ] Source authoritative product/parent-set relationships and certify what qualifies as a main expansion versus other Scryfall categories.
-- [ ] Publish a user-facing, GitHub-accessible full set-to-card and card-to-set index, without requiring the uncommitted bulk snapshot locally.
+- [x] Publish complete, GitHub-readable historical set-to-card and card-to-set indexes without a local bulk snapshot (32 deterministic JSON buckets and read-only CLI); the October 29 current-snapshot lookup remains separately dated.
 
 **Counting rules (mandatory in every answer/export):**
 
@@ -162,7 +165,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 1. **Continue Phase 8:** the first twelve-card generated batch is reviewed; select the next bounded, directly evidenced slice toward the remaining **1,953** priority enrichments. Preserve all previous records and rerun the full guarded source verification for each publication.
 2. **Index exclusions — completed for the October 29 snapshot:** retain the verified 5,270-record classification and review the 305 future-dated IDs after release, rather than prematurely importing them.
-3. **Continue Phase 1B Set & Printing Atlas:** the first snapshot-dated set catalog and live set/card lookup are built; next verify the original 105 printing-shard hashes, source authoritative product-release/parent links, and ship a GitHub-readable full per-set/card index before calling it certified.
+3. **Continue Phase 1B Set & Printing Atlas:** the original 105 committed shards are now hash-verified and the 32-bucket historical set/card indexes are published; next source and certify parent/product relationships and premier-release categories, and retain the honest caveat that the original October 28 bulk file is unavailable.
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.
 5. **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
 6. **Deliver the first research pack:** Ugin/Nicol Bolas and Elder Dragon origins, with canon distinctions and verified card ties.
