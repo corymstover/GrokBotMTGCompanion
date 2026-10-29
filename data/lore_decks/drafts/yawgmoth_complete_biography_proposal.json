@@ -62,6 +62,16 @@
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022",
     "https://mtglore.com/web-articles/commander-2017-edition-commanders/"
   ],
+  "visual_revision": {
+    "previous_unapproved_sha256": "d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7",
+    "swap": {
+      "out": "Tevesh Szat, Doom of Fools",
+      "in": "Last Stand"
+    },
+    "image_evidence": "https://blog.cardkingdom.com/commander-collection-black/",
+    "printing_pin": "Toxic Deluge must be Commander Collection: Black CC2 #6, illustrated by Yeong-Hao Han, whose dark cloud is the final Yawgmoth apparition. Archidekt plain-name imports may not preserve this print selection.",
+    "visual_climax": "Last Stand (APC #107) depicts Yawgmoth’s dominating cloud in the original Apocalypse climax; artwork identification is corroborated by third-party visual analysis, not an explicit Wizards illustration-caption claim."
+  },
   "beats": [
     {
       "title": "I. The Thran: the physician who exploited a dying civilization",
@@ -923,18 +933,18 @@
           }
         },
         {
-          "name": "Tevesh Szat, Doom of Fools",
-          "why": "One of Urza’s Nine Titans, notorious for betrayal during the attack on Phyrexia.",
-          "evidence": "historical_planar_war_participant",
+          "name": "Last Stand",
+          "why": "The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter.",
+          "evidence": "visual_depiction_of_final_invasion",
           "source": "https://magic.wizards.com/en/story/dominaria-plane",
-          "preferred_set": "CMR",
+          "preferred_set": "APC",
           "printing": {
-            "set": "CMR",
-            "collector": "153",
-            "url": "https://scryfall.com/card/cmr/153/tevesh-szat-doom-of-fools?utm_source=api",
+            "set": "APC",
+            "collector": "107",
+            "url": "https://scryfall.com/card/apc/107/last-stand?utm_source=api",
             "printed_flavor": "",
-            "type_line": "Legendary Planeswalker — Szat",
-            "oracle": "+2: Create two 0/1 black Thrull creature tokens.\n+1: You may sacrifice another creature or planeswalker. If you do, draw two cards, then draw another card if the sacrificed permanent was a commander.\n−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control.\nTevesh Szat, Doom of Fools can be your commander.\nPartner",
+            "type_line": "Sorcery",
+            "oracle": "Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.",
             "preferred_printing_found": true
           }
         },
@@ -1848,7 +1858,7 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7",
+  "raw_decklist_sha256": "1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27",
   "counts": {
     "all_cards": 100,
     "commander": 1,
