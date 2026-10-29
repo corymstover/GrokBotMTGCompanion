@@ -1,0 +1,1458 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "Karn: The Silver Golem's Life from Tolaria to the Echoverse — A Story of Legacy, Guilt, and Redemption",
+  "status": "FINISHED PROPOSED STORY DECK #8; awaiting Cory's approval",
+  "commander": "Karn, Gilded Guardian",
+  "commander_printing": {
+    "set": "FRA",
+    "collector": "272",
+    "scryfall": "https://scryfall.com/card/fra/272/karn-gilded-guardian?utm_source=api",
+    "flavor_faces": [
+      {
+        "face": "Karn, Gilded Guardian",
+        "flavor": "Karn forged the empty world of Mirrodin and filled it with peaceful creations."
+      }
+    ]
+  },
+  "narrator_note": "The only five-color card depicting Karn himself is the 2026 Echoverse alternative 'Karn, Gilded Guardian'. It is a deliberate framing narrator, NOT the prime Karn from earlier chapters. The latest prime-Multiverse Karn is 'Karn, Argent Defender' (FRA #279), included in the 99. Five-color identity permits all historically necessary Legacy, Weatherlight, Urza, Venser, Jeska, Elspeth, and Phyrexian characters without silent color-identity violations.",
+  "story_sources": [
+    "https://magic.wizards.com/en/story/karn-planeswalker",
+    "https://magic.wizards.com/en/news/making-magic/origin-stories",
+    "https://magic.wizards.com/en/story/mirrodin-plane",
+    "https://magic.wizards.com/en/story/new-phyrexia-plane",
+    "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+    "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+    "https://magic.wizards.com/en/story/dominaria-plane",
+    "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia",
+    "https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
+    "https://magic.wizards.com/en/news/feature/reality-fracture-release-notes"
+  ],
+  "canon_caveats": [
+    "Timeline starts with Urza's era as causal prehistory, then Karn's actual creation. Urza's original Academy and the 2022 Temporal Anchor are DIFFERENT time machines.",
+    "Xantcha's heartstone is a documented narrative connection; the printed Heartstone card quotes Hanna but does not establish that the illustrated object is literally Xantcha's specific organ.",
+    "Urza's Saga Urza-era cards and original Antiquities lands are earlier history, not false claims Karn visited those sites before being created.",
+    "Karn's original Weatherlight and later restored Weatherlight are separate incarnations of the vessel. Jhoira, Weatherlight Captain is a retrospective portrayal, not the original invasion-era captain.",
+    "The selected Legacy Weapon edition and author notes distinguish the final anti-Yawgmoth weapon from Karn's continuing post-Apocalypse life.",
+    "Argentum was created by Karn BEFORE Mirari was remade into Memnarch. Mirari became Memnarch, not the plane itself; source Wizards From the Vault: Lore.",
+    "Karn and Jeska unwittingly brought glistening oil to Argentum. Memnarch's paranoia and the oil's spread were disastrous; Glissa subsequently defeated the caretaker.",
+    "Karn surrendered his original spark to close Tolaria's time rift during the Mending and disappeared into the Blind Eternities. Venser later gave him a replacement spark, and he was desparked again by the 2023 war.",
+    "Venser sacrificed his life and planeswalker spark to restore Karn. Karn later lost his own spark during the final Phyrexian war, becoming a legendary creature again.",
+    "The 2023 sylex mission failed at the Seedcore after the invasion tree had connected worlds. Karn personally disintegrated Elesh Norn in March of the Machine and bore the horror of doing so.",
+    "The 2026 Reality Fracture set depicts TWO DISTINCT Karn histories: original Multiverse 'Karn, Argent Defender' versus alternate Echoverse 'Karn, Gilded Guardian', which inhabits the command zone ONLY as a labeled alternate-reality narrator. No main-timeline event is inferred from Echoverse's peaceful Mirrodin.",
+    "Original Tolarian Academy is banned in sanctioned Commander but intentionally retained by Cory's story-first exception.",
+    "Mycosynth Lattice + Karn, the Great Creator can lock activated mana abilities of artifact lands; no gameplay-power or low-bracket claim is made."
+  ],
+  "beats": [
+    {
+      "title": "I. Karn is made: Tolaria, Xantcha's heartstone, time, and Urza",
+      "lore_keys": [
+        "Urza",
+        "Xantcha",
+        "Tolaria"
+      ],
+      "cards": [
+        {
+          "name": "Urza, Lord High Artificer",
+          "why": "The artificer who eventually fashioned Karn from silver for his temporal experiments and the Legacy; this older Urza portrait is contextual.",
+          "evidence": "founder_character",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "MH1",
+            "collector": "75",
+            "scryfall": "https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Xantcha, Sleeper Agent",
+          "why": "Urza's Phyrexian ally whose salvaged heartstone is traditionally associated with Karn's inner life; historical precursor, not a scene of his construction.",
+          "evidence": "historical_person_contextual",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "C18",
+            "collector": "50",
+            "scryfall": "https://scryfall.com/card/c18/50/xantcha-sleeper-agent?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Heartstone",
+          "why": "A literal original Stronghold artifact; Hanna's printed reflection about a true heartstone evokes Karn's treasured inner life, though this card's art does not authenticate a unique specific heartstone.",
+          "evidence": "printed_flavor_symbol",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "STH",
+            "collector": "134",
+            "scryfall": "https://scryfall.com/card/sth/134/heartstone?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Heartstone",
+                "flavor": "\"Finding a true heartstone is even harder than finding a true heart.\"\n—Hanna"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Karn, Silver Golem",
+          "why": "Karn's original Urza's Saga legendary creature—Urza's silver creation, pacifist, and keeper of the Legacy.",
+          "evidence": "primary_character_card",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "USG",
+            "collector": "298",
+            "scryfall": "https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Temporal Aperture",
+          "why": "Urza's Saga machine artifact illustrating the Tolarian temporal-research setting in which Karn was made; an atmospheric stand-in, not the 2022 Anchor.",
+          "evidence": "period_artifact_contextual",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "USG",
+            "collector": "310",
+            "scryfall": "https://scryfall.com/card/usg/310/temporal-aperture?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Thran Dynamo",
+          "why": "Urza-era ancient power technology preserved in Karn's Tolarian world and the larger anti-Phyrexian project.",
+          "evidence": "period_artifact_contextual",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "UDS",
+            "collector": "139",
+            "scryfall": "https://scryfall.com/card/uds/139/thran-dynamo?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Thran Dynamo",
+                "flavor": "Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Power Matrix",
+          "why": "A flavor-bearing edition links Karn to repairing the Weatherlight's planeswalking machinery.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "MB2",
+            "collector": "229",
+            "scryfall": "https://scryfall.com/card/mb2/229/power-matrix?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Power Matrix",
+                "flavor": "As he repaired the ship's planeswalking engine, Karn saw for the first time how he could catalyze the *Weatherlight*'s evolution."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Thran Golem",
+          "why": "A constructed life-form whose printed flavor compares artifact existence and Urza's expectations of Karn.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "UDS",
+            "collector": "141",
+            "scryfall": "https://scryfall.com/card/uds/141/thran-golem?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Thran Golem",
+                "flavor": "Karn felt more secure about his value to Urza when he realized he didn't need regular trimming."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Barrin, Tolarian Archmage",
+          "why": "Urza's ally and Tolaria's teacher during Karn's early centuries and the Academy's terrible time experiments.",
+          "evidence": "historical_tolarian_person",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "M21",
+            "collector": "45",
+            "scryfall": "https://scryfall.com/card/m21/45/barrin-tolarian-archmage?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Barrin, Tolarian Archmage",
+                "flavor": "\"There is no age at which you stop learning.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jhoira of the Ghitu",
+          "why": "Karn's friend from Tolaria, represented by her own time-magic portrait rather than a made-up original 'young Jhoira' card.",
+          "evidence": "historical_friend",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "FUT",
+            "collector": "157",
+            "scryfall": "https://scryfall.com/card/fut/157/jhoira-of-the-ghitu?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Urza, Lord Protector",
+          "why": "Another portrait of Karn's maker, illustrating the inherited history behind Karn's creation; the card's original art predates Karn.",
+          "evidence": "retrospective_character_portrait",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "BRO",
+            "collector": "225",
+            "scryfall": "https://scryfall.com/card/bro/225/urza-lord-protector?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn's Temporal Sundering",
+          "why": "The original printed Dominaria flavor directly revisits the catastrophes of time manipulation associated with Karn's life.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "DOM",
+            "collector": "55",
+            "scryfall": "https://scryfall.com/card/dom/55/karns-temporal-sundering?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Karn's Temporal Sundering",
+                "flavor": "Centuries ago, a quest to harness time became a spiral into chaos."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "II. The gentle giant: Weatherlight, the Legacy, and the death of Yawgmoth",
+      "lore_keys": [
+        "Weatherlight",
+        "Legacy Weapon",
+        "Yawgmoth"
+      ],
+      "cards": [
+        {
+          "name": "Skyship Weatherlight",
+          "why": "The flying ship to which Karn and the other Legacy heroes were bound for the fight against old Phyrexia.",
+          "evidence": "historical_legacy_object",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "PLS",
+            "collector": "133",
+            "scryfall": "https://scryfall.com/card/pls/133/skyship-weatherlight?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Legacy Weapon",
+          "why": "The assembled Legacy, of which Karn was a living component, used against Yawgmoth; the selected printing explicitly recalls the final victory.",
+          "evidence": "central_historical_object",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "DMR",
+            "collector": "229",
+            "scryfall": "https://scryfall.com/card/dmr/229/legacy-weapon?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Legacy Weapon",
+                "flavor": "In a single blinding flash, Yawgmoth was obliterated, and Urza could finally rest."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Gerrard Capashen",
+          "why": "Karn's friend and the destined Legacy hero whom the silver golem was designed to guard.",
+          "evidence": "historical_companion",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "APC",
+            "collector": "11",
+            "scryfall": "https://scryfall.com/card/apc/11/gerrard-capashen?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Captain Sisay",
+          "why": "The Weatherlight's captain during Karn's crew years, anchored by the original Invasion printing.",
+          "evidence": "historical_companion",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "INV",
+            "collector": "237",
+            "scryfall": "https://scryfall.com/card/inv/237/captain-sisay?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Captain Sisay",
+                "flavor": "Her leadership forged the *Weatherlight*'s finest crew."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Hanna, Ship's Navigator",
+          "why": "Karn's fellow crewmate and the person whose printed Heartstone reflection connects the ship to his identity.",
+          "evidence": "historical_companion",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "INV",
+            "collector": "249",
+            "scryfall": "https://scryfall.com/card/inv/249/hanna-ships-navigator?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Hanna, Ship's Navigator",
+                "flavor": "\"I never thought I'd spend my life fighting. I'm a maker, not a destroyer.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Squee, Goblin Nabob",
+          "why": "The beloved goblin companion during the Weatherlight campaign against old Phyrexia.",
+          "evidence": "historical_companion",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "MMQ",
+            "collector": "214",
+            "scryfall": "https://scryfall.com/card/mmq/214/squee-goblin-nabob?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Squee, Goblin Nabob",
+                "flavor": "\"General?!\" Tahngarth roared. \"General *nuisance*, maybe.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mirri, Cat Warrior",
+          "why": "A member of the Weatherlight's original band whose sacrifice and loss shape Karn's human relationships.",
+          "evidence": "historical_companion",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "EXO",
+            "collector": "114",
+            "scryfall": "https://scryfall.com/card/exo/114/mirri-cat-warrior?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Ertai, the Corrupted",
+          "why": "Once a Weatherlight ally, ultimately a Phyrexianized foe embodying the corruption the crew fought.",
+          "evidence": "historical_companion_turncoat",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "PLS",
+            "collector": "107",
+            "scryfall": "https://scryfall.com/card/pls/107/ertai-the-corrupted?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Ertai, the Corrupted",
+                "flavor": "Altered by Phyrexian science, corrupted by black mana, and twisted by rage, Ertai still looked in the mirror and saw only glory."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Yawgmoth, Thran Physician",
+          "why": "The original human incarnation of the enemy whose later godlike existence was destroyed through the Legacy; retrospective portrait, not the Apocalypse scene.",
+          "evidence": "historical_antagonist_portrait",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "MH1",
+            "collector": "116",
+            "scryfall": "https://scryfall.com/card/mh1/116/yawgmoth-thran-physician?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn's Touch",
+          "why": "A rare spell explicitly bearing Karn's name, bridging the silver golem's personal agency with artifacts he could awaken.",
+          "evidence": "direct_named_card",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "MMQ",
+            "collector": "86",
+            "scryfall": "https://scryfall.com/card/mmq/86/karns-touch?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Jhoira, Weatherlight Captain",
+          "why": "Karn's enduring friend takes command of the rebuilt Weatherlight centuries after its original voyages—a deliberate temporal epilogue within the ship chapter.",
+          "evidence": "later_companion_portrait",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "DOM",
+            "collector": "197",
+            "scryfall": "https://scryfall.com/card/dom/197/jhoira-weatherlight-captain?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Jhoira, Weatherlight Captain",
+                "flavor": "As she took the wheel of the *Weatherlight* for the first time in a millennium, Jhoira knew she'd been right to restore the ship. Anything was possible now."
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Mightstone and Weakstone",
+          "why": "Urza's powerstone inheritance; both pieces become part of Karn's and the Legacy's long anti-Phyrexian history.",
+          "evidence": "historical_legacy_relic",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "BRO",
+            "collector": "238",
+            "scryfall": "https://scryfall.com/card/bro/238/the-mightstone-and-weakstone?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Weatherlight",
+          "why": "The restored ship from Dominaria, a later incarnation of Karn's earliest home and legacy.",
+          "evidence": "historical_successor_vehicle",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "DOM",
+            "collector": "237",
+            "scryfall": "https://scryfall.com/card/dom/237/weatherlight?utm_source=api",
+            "flavor_faces": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "III. Karn the creator: Argentum, Mirari, Memnarch, and the first corruption",
+      "lore_keys": [
+        "Argentum",
+        "Mirrodin",
+        "Memnarch"
+      ],
+      "cards": [
+        {
+          "name": "Jeska, Thrice Reborn",
+          "why": "Jeska visited Karn's apparently perfect Argentum; their contact with oil spread the tragedy that reshaped his creation.",
+          "evidence": "official_historical_visitor",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "printing": {
+            "set": "CMR",
+            "collector": "186",
+            "scryfall": "https://scryfall.com/card/cmr/186/jeska-thrice-reborn?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Mirari",
+          "why": "Karn reshaped the sentient Mirari into Memnarch after the Odyssey-era chaos; the sphere was NOT what created Argentum itself.",
+          "evidence": "official_historical_object",
+          "source": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+          "printing": {
+            "set": "V10",
+            "collector": "9",
+            "scryfall": "https://scryfall.com/card/v10/9/mirari?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Mirari",
+                "flavor": "\"It offers you what you want, not what you need.\"\n—Braids, dementia summoner"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Memnarch",
+          "why": "Karn's caretaker who was poisoned by oil, renamed Argentum Mirrodin, and kidnapped inhabitants from other planes.",
+          "evidence": "central_historical_antagonist",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "129",
+            "scryfall": "https://scryfall.com/card/dst/129/memnarch?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Memnarch",
+                "flavor": "In the blur between metal and flesh, Memnarch found madness."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Memnarch, the Warden",
+          "why": "A later explicit printing of Karn's original caretaker before his full paranoid descent; retrospective depiction, not a second separate person.",
+          "evidence": "retrospective_same_character",
+          "source": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+          "printing": {
+            "set": "FRC",
+            "collector": "15",
+            "scryfall": "https://scryfall.com/card/frc/15/memnarch-the-warden?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Memnarch, the Warden",
+                "flavor": "In the gleam between metal and suns, Memnarch found meaning."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tower of Fortunes",
+          "why": "Original Mirrodin flavor references Karn's created world and its caretaking betrayal.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "267",
+            "scryfall": "https://scryfall.com/card/mrd/267/tower-of-fortunes?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Tower of Fortunes",
+                "flavor": "The ur-golem etchings begin by celebrating Mirrodin's creator, a golem of almost limitless power. They end by cursing its protector, a being called Memnarch."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ur-Golem's Eye",
+          "why": "A classic artifact remembrance of Karn as Mirrodin's creator and Memnarch's distorted ambitions.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "155",
+            "scryfall": "https://scryfall.com/card/dst/155/ur-golems-eye?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Ur-Golem's Eye",
+                "flavor": "It still stares accusingly at Memnarch, though millennia have passed since he separated the eye from its body."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Argentum Armor",
+          "why": "Named for Karn's uncorrupted world of Argentum; its printing flavor remembers Mirrodin's living creator.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "137",
+            "scryfall": "https://scryfall.com/card/som/137/argentum-armor?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Argentum Armor",
+                "flavor": "Mirrodin's creator still lives, still shapes metal, and still commands world-shaking power."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mycosynth Lattice",
+          "why": "The physically pervasive metal-and-life transformation essential to Mirrodin's corruption; historically critical even though this and Karn, the Great Creator can create a soft lock.",
+          "evidence": "core_environment_and_gameplay_warning",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "130",
+            "scryfall": "https://scryfall.com/card/dst/130/mycosynth-lattice?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Glissa Sunseeker",
+          "why": "The elf whose spark Memnarch coveted and who finally overthrew the mad caretaker.",
+          "evidence": "historical_mirran_hero",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "printing": {
+            "set": "MRD",
+            "collector": "120",
+            "scryfall": "https://scryfall.com/card/mrd/120/glissa-sunseeker?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Glissa Sunseeker",
+                "flavor": "\"There's a secret at the heart of this world, and I will unlock it.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bosh, Iron Golem",
+          "why": "A sentient iron golem allied to Glissa and Slobad against Memnarch; a mirror of Karn's artificial life.",
+          "evidence": "historical_mirran_ally",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "printing": {
+            "set": "MRD",
+            "collector": "147",
+            "scryfall": "https://scryfall.com/card/mrd/147/bosh-iron-golem?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Bosh, Iron Golem",
+                "flavor": "As Glissa searches for the truth about Memnarch, Bosh searches to unearth the secrets of his past."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Slobad, Goblin Tinkerer",
+          "why": "Glissa's goblin inventor companion in the early Mirrodin struggle against Memnarch.",
+          "evidence": "historical_mirran_ally",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "printing": {
+            "set": "DST",
+            "collector": "69",
+            "scryfall": "https://scryfall.com/card/dst/69/slobad-goblin-tinkerer?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Slobad, Goblin Tinkerer",
+                "flavor": "\"I used to joke that he had been exiled for being too smart. Now I know why he never laughed.\"\n—Glissa Sunseeker"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Darksteel Forge",
+          "why": "The indestructible technology of Karn's plane and Memnarch's age; a location/tool rather than a false personal possession of Karn.",
+          "evidence": "period_plane_artifact",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "110",
+            "scryfall": "https://scryfall.com/card/dst/110/darksteel-forge?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Darksteel Forge",
+                "flavor": "\"Did it have this shape upon Mirrodin's creation, or did some inconceivable force shape the unshapable?\"\n—Pontifex, elder researcher"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Leveler",
+          "why": "The original card's flavor places Memnarch's terrifying automated hunting machines in Mirrodin's devastation.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "195",
+            "scryfall": "https://scryfall.com/card/mrd/195/leveler?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Leveler",
+                "flavor": "Once a century, the levelers rip through every corner of Mirrodin, obeying the commands of an unseen master."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Myr Retriever",
+          "why": "A myr life form born of Mirrodin's artifact ecology, showing the nonhuman population Karn indirectly fathered.",
+          "evidence": "period_world_ecology",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "215",
+            "scryfall": "https://scryfall.com/card/mrd/215/myr-retriever?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Myr Retriever",
+                "flavor": "Mephidross gives up treasure easily . . . as long as you take its place."
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Mending of Dominaria",
+          "why": "Karn surrendered his original planeswalker spark to close Tolaria's time rift in the Mending and vanished into the Blind Eternities. This later historical Saga provides the necessary bridge from Mirrodin to his captivity.",
+          "evidence": "official_historical_event_retrospective_saga",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "DOM",
+            "collector": "173",
+            "scryfall": "https://scryfall.com/card/dom/173/the-mending-of-dominaria?utm_source=api",
+            "flavor_faces": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "IV. A father enslaved: the Phyrexian contagion and Venser's sacrifice",
+      "lore_keys": [
+        "New Phyrexia",
+        "Venser",
+        "Melira"
+      ],
+      "cards": [
+        {
+          "name": "Glistening Oil",
+          "why": "The substance Karn accidentally carried from old Phyrexia, which poisoned his perfect world and later Karn himself.",
+          "evidence": "historical_contagion",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "NPH",
+            "collector": "62",
+            "scryfall": "https://scryfall.com/card/nph/62/glistening-oil?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Glissa, the Traitor",
+          "why": "The corrupted later incarnation of the same Glissa who defeated Memnarch; a tragic contrast.",
+          "evidence": "historical_transformation",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "MBS",
+            "collector": "96",
+            "scryfall": "https://scryfall.com/card/mbs/96/glissa-the-traitor?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Wurmcoil Engine",
+          "why": "One of the terrifying artifact horrors of the returning Phyrexian influence on Mirrodin.",
+          "evidence": "period_phyrexian_machine",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "223",
+            "scryfall": "https://scryfall.com/card/som/223/wurmcoil-engine?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Ichor Wellspring",
+          "why": "Original New Phyrexian-era artifact embodying the oil-saturated machinery of Karn's fallen plane.",
+          "evidence": "period_phyrexian_artifact",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "MBS",
+            "collector": "110",
+            "scryfall": "https://scryfall.com/card/mbs/110/ichor-wellspring?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Ichor Wellspring",
+                "flavor": "\"Our glorious infection has taken hold.\"\n—Elesh Norn, Grand Cenobite"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Contagion Engine",
+          "why": "The contagion's industrial-scale spread across Mirrodin; an illustrative machine rather than Karn's own invention.",
+          "evidence": "period_contagion_machine",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "145",
+            "scryfall": "https://scryfall.com/card/som/145/contagion-engine?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Koth of the Hammer",
+          "why": "Mirran resistance planeswalker who fought for his home when Karn had become the corrupted Father of Machines.",
+          "evidence": "historical_rescuer",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "94",
+            "scryfall": "https://scryfall.com/card/som/94/koth-of-the-hammer?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Elspeth Tirel",
+          "why": "Planeswalker among the rescuers who attempted to reverse New Phyrexia's victory and save Karn.",
+          "evidence": "historical_rescuer",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "6",
+            "scryfall": "https://scryfall.com/card/som/6/elspeth-tirel?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Venser, Shaper Savant",
+          "why": "Venser surrendered his own life and spark to rescue Karn from Phyrexian corruption.",
+          "evidence": "official_sacrifice",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "FUT",
+            "collector": "46",
+            "scryfall": "https://scryfall.com/card/fut/46/venser-shaper-savant?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Venser, Shaper Savant",
+                "flavor": "His marvels of artifice pale in comparison to the developing machinery of his mind."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Melira, Sylvok Outcast",
+          "why": "Mirran survivor whose immunity and abilities supported the attempt to free Karn.",
+          "evidence": "historical_rescuer",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "NPH",
+            "collector": "115",
+            "scryfall": "https://scryfall.com/card/nph/115/melira-sylvok-outcast?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Melira, Sylvok Outcast",
+                "flavor": "Once a pariah, now Mirrodin's greatest hope."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Karn Liberated",
+          "why": "Karn's first printed planeswalker incarnation, representing his release from the Father of Machines identity after Venser's sacrifice.",
+          "evidence": "milestone_character_card",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "NPH",
+            "collector": "1",
+            "scryfall": "https://scryfall.com/card/nph/1/karn-liberated?utm_source=api",
+            "flavor_faces": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "V. Atonement: the sylex, invasion, Norn's end, and Karn's 2026 future",
+      "lore_keys": [
+        "Karn's Sylex",
+        "March of the Machine",
+        "Reality Fracture"
+      ],
+      "cards": [
+        {
+          "name": "Karn, Scion of Urza",
+          "why": "Karn reemerges on Dominaria and resumes resisting the old enemy, still haunted by Urza's legacy.",
+          "evidence": "character_era_portrait",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "DOM",
+            "collector": "1",
+            "scryfall": "https://scryfall.com/card/dom/1/karn-scion-of-urza?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn, the Great Creator",
+          "why": "Karn as a master of artifacts, increasingly focused on bringing an end to New Phyrexia before it can invade elsewhere.",
+          "evidence": "character_era_portrait",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "WAR",
+            "collector": "1",
+            "scryfall": "https://scryfall.com/card/war/1/karn-the-great-creator?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn, Living Legacy",
+          "why": "The Dominaria United Karn confronting the resurgent threat; fittingly his card emphasizes inherited and created powerstones.",
+          "evidence": "character_era_portrait",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "DMU",
+            "collector": "1",
+            "scryfall": "https://scryfall.com/card/dmu/1/karn-living-legacy?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn's Sylex",
+          "why": "His newly constructed catastrophic anti-Phyrexian weapon, echoing Urza's earlier use of an ancient sylex.",
+          "evidence": "direct_named_2022_artifact",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "DMU",
+            "collector": "234",
+            "scryfall": "https://scryfall.com/card/dmu/234/karns-sylex?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Weatherlight Compleated",
+          "why": "The nightmare fate of the ship that once carried Karn's friends, corrupted during Sheoldred's war on Dominaria.",
+          "evidence": "historical_artifact_loss",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "DMU",
+            "collector": "242",
+            "scryfall": "https://scryfall.com/card/dmu/242/weatherlight-compleated?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "The Temporal Anchor",
+          "why": "Saheeli's 2022–23 reconstructed time-projection device for Teferi's mission to learn about the original sylex—not Urza's original Tolaria time machine.",
+          "evidence": "specific_2022_machine",
+          "source": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
+          "printing": {
+            "set": "BRO",
+            "collector": "82",
+            "scryfall": "https://scryfall.com/card/bro/82/the-temporal-anchor?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Golgothian Sylex",
+          "why": "The original pre-Karn artifact whose destructive principle he later sought to reproduce; original Antiquities printing.",
+          "evidence": "historical_predecessor_object",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "ATQ",
+            "collector": "51",
+            "scryfall": "https://scryfall.com/card/atq/51/golgothian-sylex?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Golgothian Sylex",
+                "flavor": "From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia."
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Filigree Sylex",
+          "why": "The copy carried into New Phyrexia for the Seedcore mission; Jace tried to trigger it as the invasion began.",
+          "evidence": "historical_2023_sylex",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "ONE",
+            "collector": "227",
+            "scryfall": "https://scryfall.com/card/one/227/the-filigree-sylex?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Realmbreaker, the Invasion Tree",
+          "why": "The world-bridging invasion tree that made destroying the Seedcore a perilous threat to connected worlds.",
+          "evidence": "historical_invasion_engine",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "MOM",
+            "collector": "263",
+            "scryfall": "https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Jace, the Perfected Mind",
+          "why": "Jace's compleated state and attempt to detonate the Sylex forms the tragic failure of Karn's first invasion-prevention plan.",
+          "evidence": "historical_2023_character",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "ONE",
+            "collector": "57",
+            "scryfall": "https://scryfall.com/card/one/57/jace-the-perfected-mind?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Elesh Norn, Mother of Machines",
+          "why": "The chief architect of New Phyrexia whom Karn personally and reluctantly dismantles in the final reckoning.",
+          "evidence": "direct_final_antagonist",
+          "source": "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia",
+          "printing": {
+            "set": "ONE",
+            "collector": "416",
+            "scryfall": "https://scryfall.com/card/one/416/elesh-norn-mother-of-machines?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Mirrodin Avenged",
+          "why": "Original MOM flavor records Karn's personal accountability and the end of the horror he had unwittingly begun.",
+          "evidence": "literal_printing_flavor_finale",
+          "source": "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia",
+          "printing": {
+            "set": "MOM",
+            "collector": "118",
+            "scryfall": "https://scryfall.com/card/mom/118/mirrodin-avenged?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Mirrodin Avenged",
+                "flavor": "\"You were my mistake. I will forever bear the weight of your horrors, and of your end.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Karn, Legacy Reforged",
+          "why": "The 2023 postwar legendary creature reflects Karn's loss of his planeswalker spark and a new purpose.",
+          "evidence": "main_character_aftermath",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "MAT",
+            "collector": "49",
+            "scryfall": "https://scryfall.com/card/mat/49/karn-legacy-reforged?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Karn, Argent Defender",
+          "why": "The 2026 main-Multiverse portrait, distinct from the uncorrupted Echoverse Karn in the command zone; latest current card depiction, not proof he physically revisited inaccessible Mirrodin.",
+          "evidence": "current_main_continuity_portrait",
+          "source": "https://magic.wizards.com/en/news/making-magic/origin-stories",
+          "printing": {
+            "set": "FRA",
+            "collector": "279",
+            "scryfall": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Karn, Argent Defender",
+                "flavor": "\"I owe the Multiverse a debt I fear I can never repay. That remedy begins now, with a first step away from the past and toward the future I wish to see.\""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "VI. Karn's map: maker's ruins, his metallic world, and the enemy's heart",
+      "lore_keys": [
+        "Urza's Academy",
+        "Mirrodin",
+        "Seedcore"
+      ],
+      "cards": [
+        {
+          "name": "Tolarian Academy",
+          "why": "The actual school where Urza created Karn and pursued dangerous time research; a Commander-banned card retained for exact personal history.",
+          "evidence": "official_historical_location",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "USG",
+            "collector": "330",
+            "scryfall": "https://scryfall.com/card/usg/330/tolarian-academy?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Tolarian Academy",
+                "flavor": "The academy worked with time—until time ran out."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Academy Ruins",
+          "why": "The wreckage of Tolaria and its artifact experiments—a later printing recalling Karn's lost childhood home.",
+          "evidence": "historic_location_aftermath",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "TSP",
+            "collector": "269",
+            "scryfall": "https://scryfall.com/card/tsp/269/academy-ruins?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Academy Ruins",
+                "flavor": "Its secrets once wrought the greatest artifice ever known. Now crabs loot the rubble to decorate their shells."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tolaria West",
+          "why": "The later time-twisted region of Karn's earliest school and its temporal rifts.",
+          "evidence": "plane_historical_location",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "FUT",
+            "collector": "173",
+            "scryfall": "https://scryfall.com/card/fut/173/tolaria-west?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Urza's Workshop",
+          "why": "Urza's machinery and immense logistical preparations; contextual inheritance, not a claim Karn used this exact workshop.",
+          "evidence": "maker_contextual_location",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "BRC",
+            "collector": "28",
+            "scryfall": "https://scryfall.com/card/brc/28/urzas-workshop?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Urza's Workshop",
+                "flavor": "Urza eventually came to understand Tocasia's lessons on clarity of purpose. Perfection became his goal, and all other matters fell away in its pursuit."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Urza's Mine",
+          "why": "Original Antiquities resource landscape of Urza's pre-Karn life; an inherited technological past rather than an episode Karn witnessed.",
+          "evidence": "pre_birth_historical_context",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "ATQ",
+            "collector": "83a",
+            "scryfall": "https://scryfall.com/card/atq/83a/urzas-mine?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Urza's Mine",
+                "flavor": "Mines became common as cities during the days of the artificers."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Urza's Power Plant",
+          "why": "Original Antiquities power infrastructure that underlay the development of Thran-inspired devices.",
+          "evidence": "pre_birth_historical_context",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "ATQ",
+            "collector": "84a",
+            "scryfall": "https://scryfall.com/card/atq/84a/urzas-power-plant?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Urza's Power Plant",
+                "flavor": "Artifact construction required immense resources."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Urza's Tower",
+          "why": "Original Antiquities city-age memorial to Urza's construction empire before Karn's creation.",
+          "evidence": "pre_birth_historical_context",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "ATQ",
+            "collector": "85a",
+            "scryfall": "https://scryfall.com/card/atq/85a/urzas-tower?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Urza's Tower",
+                "flavor": "Urza always put Tocasia's lessons on resource-gathering to effective use."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Urza's Saga",
+          "why": "A land-Saga that acts as an overt documentary frame for Urza's long story and Karn's inheritance.",
+          "evidence": "named_historical_saga_land",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "MH2",
+            "collector": "259",
+            "scryfall": "https://scryfall.com/card/mh2/259/urzas-saga?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Tocasia's Dig Site",
+          "why": "Urza's childhood powerstone discovery, generations before Karn existed, but causal to his Legacy purpose.",
+          "evidence": "pre_birth_historical_context",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "BRO",
+            "collector": "266",
+            "scryfall": "https://scryfall.com/card/bro/266/tocasias-dig-site?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Tocasia's Dig Site",
+                "flavor": "Sent by their noble parents to toughen up and learn something of the world's past, Urza and Mishra instead uncovered Terisiare's future."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Hall of Tagsin",
+          "why": "Site of ancient Thran technology discovery that set Urza and Mishra's later story in motion; antecedent, not Karn's personal travel.",
+          "evidence": "pre_birth_historical_context",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "printing": {
+            "set": "BRO",
+            "collector": "263",
+            "scryfall": "https://scryfall.com/card/bro/263/hall-of-tagsin?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Hall of Tagsin",
+                "flavor": "The Thran's machines were not dead after all, merely dormant . . . and waiting."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mirrodin's Core",
+          "why": "The named heart of Karn's artificial plane, once Argentum, before oil transformed it.",
+          "evidence": "direct_created_world_location",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "165",
+            "scryfall": "https://scryfall.com/card/dst/165/mirrodins-core?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Darksteel Citadel",
+          "why": "The darksteel seat of Memnarch's later regime, contrasted with Karn's intended peaceful creation.",
+          "evidence": "direct_created_world_location",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "DST",
+            "collector": "164",
+            "scryfall": "https://scryfall.com/card/dst/164/darksteel-citadel?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Darksteel Citadel",
+                "flavor": "Panopticon, forge of the Darksteel Eye, home of Mirrodin's keeper."
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Mycosynth Gardens",
+          "why": "A New Phyrexia-era picture of the synthetic life that overtook Karn's created landscape.",
+          "evidence": "direct_corrupted_world_location",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "ONE",
+            "collector": "256",
+            "scryfall": "https://scryfall.com/card/one/256/the-mycosynth-gardens?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "The Mycosynth Gardens",
+                "flavor": "As the Invasion Tree grew, its branches pierced through the world's silent core."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Phyrexia's Core",
+          "why": "The plane's core under the Phyrexian occupation; the oil Karn had brought changed the entire world.",
+          "evidence": "direct_corrupted_world_location",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "NPH",
+            "collector": "165",
+            "scryfall": "https://scryfall.com/card/nph/165/phyrexias-core?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Phyrexia's Core",
+                "flavor": "\"So even the heart of our world has succumbed.\"\n—Koth of the Hammer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Glimmerpost",
+          "why": "A Mirrodin locus whose printed flavor recalls the watching golem and his long absence.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "SOM",
+            "collector": "227",
+            "scryfall": "https://scryfall.com/card/som/227/glimmerpost?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Glimmerpost",
+                "flavor": "What once spied upon Mirrodin from above now waits below for another to assume control."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Seat of the Synod",
+          "why": "One of Mirrodin's five first-cycle artifact lands, blue, marking its artificial mana ecology.",
+          "evidence": "created_world_sun_land",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "283",
+            "scryfall": "https://scryfall.com/card/mrd/283/seat-of-the-synod?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Seat of the Synod",
+                "flavor": "Lumengrid, site of the Knowledge Pool, source of vedalken arcana."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Vault of Whispers",
+          "why": "The black artifact-land region of Karn's metal world and its five-color civilization.",
+          "evidence": "created_world_sun_land",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "286",
+            "scryfall": "https://scryfall.com/card/mrd/286/vault-of-whispers?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Vault of Whispers",
+                "flavor": "Ish Sah, den of the warlord Geth, commander of countless nim."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Great Furnace",
+          "why": "The red artifact-land region of original Mirrodin, long before the red Phyrexian resistance.",
+          "evidence": "created_world_sun_land",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "282",
+            "scryfall": "https://scryfall.com/card/mrd/282/great-furnace?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Great Furnace",
+                "flavor": "Kuldotha, wellspring of molten metal, temple of the goblin horde."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ancient Den",
+          "why": "The white artifact-land region of original Mirrodin, showing its pre-corruption architecture.",
+          "evidence": "created_world_sun_land",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "278",
+            "scryfall": "https://scryfall.com/card/mrd/278/ancient-den?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Ancient Den",
+                "flavor": "Taj-Nar, throne of Raksha Golden Cub, destined leader of the leonin prides."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tree of Tales",
+          "why": "The green artifact-land forest on Karn's machine world, showing life intertwined with metal.",
+          "evidence": "created_world_sun_land",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "285",
+            "scryfall": "https://scryfall.com/card/mrd/285/tree-of-tales?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Tree of Tales",
+                "flavor": "Tel-Jilad, sanctum of the ancient trolls, keepers of the secret of Mirrodin's origin."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Karn's Bastion",
+          "why": "Karn's explicitly named defensive base in War of the Spark-era Ravnica, where his anti-Phyrexian work continues.",
+          "evidence": "direct_named_location",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "WAR",
+            "collector": "248",
+            "scryfall": "https://scryfall.com/card/war/248/karns-bastion?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Karn's Bastion",
+                "flavor": "\"I can't protect everyone here. But those I can, I will.\"\n—Karn"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Glimmervoid",
+          "why": "An original Mirrodin land illustrating the metallic world's ephemeral mana geography.",
+          "evidence": "created_world_geography",
+          "source": "https://magic.wizards.com/en/story/mirrodin-plane",
+          "printing": {
+            "set": "MRD",
+            "collector": "281",
+            "scryfall": "https://scryfall.com/card/mrd/281/glimmervoid?utm_source=api",
+            "flavor_faces": [
+              {
+                "face": "Glimmervoid",
+                "flavor": "An empty canvas holds infinite possibilities."
+              }
+            ]
+          }
+        },
+        {
+          "name": "The Seedcore",
+          "why": "New Phyrexia's critical invasion heart where the Sylex plan went catastrophically wrong.",
+          "evidence": "official_final_campaign_location",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+          "printing": {
+            "set": "ONE",
+            "collector": "259",
+            "scryfall": "https://scryfall.com/card/one/259/the-seedcore?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "The Monumental Facade",
+          "why": "The imposing public architecture of Elesh Norn's machine orthodoxy, which Karn eventually destroys.",
+          "evidence": "period_enemy_location",
+          "source": "https://magic.wizards.com/en/story/new-phyrexia-plane",
+          "printing": {
+            "set": "ONE",
+            "collector": "255",
+            "scryfall": "https://scryfall.com/card/one/255/the-monumental-facade?utm_source=api",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Thran Portal",
+          "why": "A Dominaria United artifact-land symbol of ancient technology resurfacing as Karn pursues the new Phyrexian threat.",
+          "evidence": "modern_legacy_geography",
+          "source": "https://magic.wizards.com/en/story/karn-planeswalker",
+          "printing": {
+            "set": "DMU",
+            "collector": "259",
+            "scryfall": "https://scryfall.com/card/dmu/259/thran-portal?utm_source=api",
+            "flavor_faces": []
+          }
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "Plains": 2,
+    "Island": 2,
+    "Swamp": 2,
+    "Mountain": 2,
+    "Forest": 2
+  },
+  "basic_printing_plan": [
+    {
+      "name": "Plains",
+      "quantity": 2,
+      "reason": "One original Mirrodin metal landscape and one Phyrexia: All Will Be One aftermath land of the same basic type; two different illustrated eras."
+    },
+    {
+      "name": "Island",
+      "quantity": 2,
+      "reason": "One original Mirrodin metal landscape and one Phyrexia: All Will Be One aftermath land of the same basic type; two different illustrated eras."
+    },
+    {
+      "name": "Swamp",
+      "quantity": 2,
+      "reason": "One original Mirrodin metal landscape and one Phyrexia: All Will Be One aftermath land of the same basic type; two different illustrated eras."
+    },
+    {
+      "name": "Mountain",
+      "quantity": 2,
+      "reason": "One original Mirrodin metal landscape and one Phyrexia: All Will Be One aftermath land of the same basic type; two different illustrated eras."
+    },
+    {
+      "name": "Forest",
+      "quantity": 2,
+      "reason": "One original Mirrodin metal landscape and one Phyrexia: All Will Be One aftermath land of the same basic type; two different illustrated eras."
+    }
+  ],
+  "playability": []
+}
+
