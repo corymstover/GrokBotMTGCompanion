@@ -113,6 +113,8 @@ Apply the 4 Phase 5 priorities to the material Phase 6 added (cycles 20–30: Co
 - ✅ **Bot cycle 32:** priorities 2 + 4 and the gap audit. 280 entries (Story Arc Summaries added, 20 entries). Bidirectional cross-reference blocks on 269 entries (1,460 symmetric relations; 2,943 entry→entry links all reciprocal; 23 lore-deck pointers back-linked). Lore-deck story maps and a Lore decks section in EDH Bracket Calibration. Quote checks now cover 25 pages / 2,719 quotes (12 rules/FAQ/EDH pages added). **Phase 7 complete**; snapshot tag `v2.2-phase7-optimization`.
 
 ## Phase 8 — Card-level lore & synergy deepening (Bot cycles 33+; Cory, 2026-10-15)
+
+> **2026-10-29 handoff:** These cycle-36 figures are historical, and the 1,964-card remainder is not yet certified complete. [PHASE8_RESTART.md](PHASE8_RESTART.md) documents the safe cache-dependent restart; [PR #779](https://github.com/corymstover/GrokBotMTGCompanion/pull/779) proposes removing Grixis-mutating steps from the old all-in-one regeneration script. The edition-specific lore audit was integrated in [PR #778](https://github.com/corymstover/GrokBotMTGCompanion/pull/778).
 Per-card **Lore** context and **Synergy** across the card database. Priority: legendary creatures, planeswalkers, story-significant cards (named in lore entries), strong flavor-text cards; then outward. Generated where possible, cited, tiered (proven vs guidance), with bidirectional links and a validate_all check. Milestone: [Phase 8 — Card-level lore & synergy deepening](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17). Grixis #63 stays on hold.
 
 | Issue | Item | Status | Output |
