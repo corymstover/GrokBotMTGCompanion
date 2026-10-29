@@ -1,0 +1,514 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "The Kami War: The Theft of a God and the Sisters of Flesh and Spirit",
+  "status": "FINISHED PROPOSAL — awaiting Cory's approval",
+  "commander": "Kyodai, Soul of Kamigawa",
+  "narrator_note": "Kyodai herself is the once-imprisoned child/fragment of O-Kagachi, later the protector spirit bonded to Michiko. Her WUBRG activation grants a true five-color historical narrator.",
+  "story_sources": [
+    "https://magic.wizards.com/en/story/kamigawa-plane",
+    "https://magic.wizards.com/en/news/feature/kami-war-2022-01-11",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+    "https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11",
+    "https://magic.wizards.com/en/news/feature/life-toshiro-umezawa-2022-01-12",
+    "https://magic.wizards.com/en/news/feature/michikos-reign-truth-2022-01-13",
+    "https://magic.wizards.com/en/news/card-preview/sagas-kamigawa-neon-dynasty-2022-01-27"
+  ],
+  "canon_caveats": [
+    "Kyodai is not a generic dragon and is not O-Kagachi himself; she is the freed piece/child taken from the god and bonded to Michiko.",
+    "Lord Konda causes the war by imprisoning Kyodai, though the mortal population initially believes the kami attacked without cause.",
+    "The conflict lasts roughly twenty years in the historical Kamigawa plane writeup; Neo Dynasty's framing occurs about 1,200 years later.",
+    "Toshiro helps free the captive Kyodai and is exiled by Night's Reach; label his selfishness alongside his historic contribution.",
+    "Neither Meloku nor Soratami Mirror-Mage is individually proven to have joined Konda's theft by their card printings; their cards stand for the moonfolk faction that official history describes.",
+    "The NEO Saga cards document history retrospectively. DFC back faces are not separate physical cards and are not added to the 100.",
+    "Postwar cards such as Shrine Steward, Brilliant Restoration, Spirit-Sister's Call and older ritual artifacts include thematic interpretation rather than direct evidence of a literal discrete story moment.",
+    "The NEO legendary lands are an epilogue showing Kamigawa's later geography, not claim that their modern forms existed during the original Kami War."
+  ],
+  "beats": [
+    {
+      "title": "I. Before the war: Konda steals a divine child",
+      "lore_keys": [
+        "The Kami War",
+        "Konda's theft of Kyodai"
+      ],
+      "cards": [
+        {
+          "name": "Konda, Lord of Eiganjo",
+          "why": "The ruler who stole part of O-Kagachi to secure immortality, provoking the Kami War.",
+          "evidence": "official_historical_character"
+        },
+        {
+          "name": "Mannichi, the Fevered Dream",
+          "why": "The original BOK flavor records Konda's fevered vision of a spirit-child early in his reign.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "That Which Was Taken",
+          "why": "The imprisoned fragment of O-Kagachi, later freed as Kyodai; original BOK flavor calls it humanity's fatal captivity.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Konda's Banner",
+          "why": "The daimyo's emblem and military apparatus as his authority hardens.",
+          "evidence": "named_historical_artifact_context"
+        },
+        {
+          "name": "Konda's Hatamoto",
+          "why": "One of the lord's retainers, a direct portrait of the political order shielding his crime.",
+          "evidence": "named_historical_character_context"
+        },
+        {
+          "name": "Isamaru, Hound of Konda",
+          "why": "The faithful hound serving Konda's court; his martial reputation survived in later Kamigawan lore.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Masako the Humorless",
+          "why": "The court watcher whose original flavor establishes surveillance and loyalty under Konda.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kami of Ancient Law",
+          "why": "The original flavor invokes Konda's doctrine of order, ironically undercut by his sacrilege.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Honden of Cleansing Fire",
+          "why": "A pre- and wartime shrine representing the mortal world's reverence for the white-aligned divine power.",
+          "evidence": "cultural_setting_shrine"
+        },
+        {
+          "name": "Honden of Seeing Winds",
+          "why": "One of the five original Hondens, showing the world of gods and worship before trust is broken.",
+          "evidence": "cultural_setting_shrine"
+        },
+        {
+          "name": "Honden of Night's Reach",
+          "why": "Shrine of the dark Myojin later linked to Toshiro's role in the war.",
+          "evidence": "cultural_setting_shrine"
+        },
+        {
+          "name": "Honden of Infinite Rage",
+          "why": "The red Myojin's shrine demonstrates the formidable spirits whose wrath mortals feared.",
+          "evidence": "cultural_setting_shrine"
+        },
+        {
+          "name": "Honden of Life's Web",
+          "why": "The green Myojin's shrine fills out Kamigawa's five-color prewar spiritual culture.",
+          "evidence": "cultural_setting_shrine"
+        }
+      ]
+    },
+    {
+      "title": "II. Reito massacred: the kami turn against their worshippers",
+      "lore_keys": [
+        "Reito Massacre",
+        "Kami War: Two Decades"
+      ],
+      "cards": [
+        {
+          "name": "Ghostly Prison",
+          "why": "Original CHK flavor memorializes Reito, destroyed in the first battles of the Kami War.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Befoul",
+          "why": "Direct original narrative of the kami overwhelming and consuming the militia at Reito.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Rend Flesh",
+          "why": "The original card describes the Reito massacre and the helplessness of mortal soldiers.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Horobi, Death's Wail",
+          "why": "The death spirit rising from Reito's ashes, attested in the original printed flavor.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kami of the Waning Moon",
+          "why": "The original card depicts Reito's defenders scattering under renewed kami attack.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kabuto Moth",
+          "why": "The horrors of even weapon spirits attacking soldiers in the war's first days.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Horizon Seed",
+          "why": "Original flavor turns peaceful shrine escorts into combat medics in the kami army.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Night of Souls' Betrayal",
+          "why": "The mortal horror when kami associated with human souls themselves appear to rebel.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kodama of the North Tree",
+          "why": "Original CHK flavor says the once-slumbering kodama awakens in rage during the war.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kodama of the South Tree",
+          "why": "The friendly spirit becomes fierce during the Kami War, a printed transformation of allegiance.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Bounteous Kirin",
+          "why": "The compassionate kami reluctantly join the conflict; the SOK flavor text says so outright.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Crack the Earth",
+          "why": "The original BOK quote describes growing and increasingly unpredictable spirit devastation.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Toils of Night and Day",
+          "why": "The original BOK flavor describes time and seasons destabilizing across Kamigawa during the war.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Stone Rain",
+          "why": "The original CHK flavor describes elemental kami destruction and Eiganjo's extraordinary safety.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Kami of the Painted Road",
+          "why": "Old road inscriptions of kami law become ominous war warnings in the original flavor.",
+          "evidence": "literal_chk_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "III. The mortal front: samurai, scholars, ogres and moonfolk",
+      "lore_keys": [
+        "Eiganjo",
+        "Minamo",
+        "Sokenzan",
+        "Takenuma"
+      ],
+      "cards": [
+        {
+          "name": "Kiyomaro, First to Stand",
+          "why": "The Eiganjo defender celebrated by descendants for refusing to surrender the fortress.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Opal-Eye, Konda's Yojimbo",
+          "why": "An actual bodyguard of Konda, representing the castle's desperate defense.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Takeno, Samurai General",
+          "why": "Commander of Eiganjo's troops, named in the period's military orders and flavor.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Kitsune Bonesetter",
+          "why": "A centuries-old healer turning wisdom toward casualties of the Kami War.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Kumano, Master Yamabushi",
+          "why": "The mountain fighter whose yamabushi arts offered mortal resistance to spirits.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Kumano's Pupils",
+          "why": "Original CHK quote recalls Kumano's pupils defeating kami before he reluctantly entered the war.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Rend Spirit",
+          "why": "Mortals learn to strike against kami directly, a thematic mirror to the Reito massacre's Rend Flesh.",
+          "evidence": "named_historical_spell_thematic"
+        },
+        {
+          "name": "Blood Rites",
+          "why": "Ogre rites let terrible oni escape into the mortal world, explicitly described by original flavor.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Villainous Ogre",
+          "why": "Original flavor describes ogre-kind emerging from caves with demonic aid during the war.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Heartless Hidetsugu",
+          "why": "The dangerous ogre mage whose oni blood-oaths and destruction become infamous.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Hidetsugu's Second Rite",
+          "why": "A later original card narrating Hidetsugu's obsession with vengeance.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Meloku the Clouded Mirror",
+          "why": "A major moonfolk figure; the Soratami culture is relevant to Konda's moonfolk conspiracy, but the card does not by itself prove Meloku personally performed the theft.",
+          "evidence": "historical_character_context_qualified"
+        },
+        {
+          "name": "Soratami Mirror-Mage",
+          "why": "A portrait of powerful moonfolk magic; used as factional context rather than an accusation of specific complicity.",
+          "evidence": "faction_context_qualified"
+        },
+        {
+          "name": "Field of Reality",
+          "why": "Original CHK quote records Minamo's scholars understanding and exploiting the veil between kami and mortals.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Hisoka, Minamo Sensei",
+          "why": "Period flavor explicitly remembers Minamo surviving the Kami War through ingenuity and secrets.",
+          "evidence": "literal_chk_printing_flavor"
+        },
+        {
+          "name": "Thoughtbind",
+          "why": "Original quote says Azami's researchers found spells crucial to mortal survival during the war.",
+          "evidence": "literal_chk_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "IV. Toshiro and Michiko discover the truth; O-Kagachi descends",
+      "lore_keys": [
+        "Toshiro Umezawa",
+        "Michiko Konda",
+        "O-Kagachi"
+      ],
+      "cards": [
+        {
+          "name": "Toshiro Umezawa",
+          "why": "The renegade samurai whose self-interested heroism helps free the captive spirit.",
+          "evidence": "official_historical_character"
+        },
+        {
+          "name": "Umezawa's Jitte",
+          "why": "His famous legendary blade, an unusually direct personal artifact.",
+          "evidence": "historical_named_artifact"
+        },
+        {
+          "name": "Myojin of Night's Reach",
+          "why": "The dark kami grants power to Toshiro, later exiling him for using it against her will.",
+          "evidence": "official_historical_character"
+        },
+        {
+          "name": "Choice of Damnations",
+          "why": "The original SOK flavor gives Toshiro's own cynical philosophy of desperate choices.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Life of Toshiro Umezawa",
+          "why": "An NEO Saga that deliberately retells Toshiro's conflicted heroism, not a new 1200-year-later Toshiro.",
+          "evidence": "retrospective_saga"
+        },
+        {
+          "name": "The Long Reach of Night",
+          "why": "The NEO Saga records the influence and gifts of Night's Reach on the historical events.",
+          "evidence": "retrospective_saga"
+        },
+        {
+          "name": "Michiko Konda, Truth Seeker",
+          "why": "Michiko's original SOK flavor announces that she will not return until she restores her father and peace.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Threads of Disloyalty",
+          "why": "Original BOK flavor documents Lord Konda's growing paranoia.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Hero's Demise",
+          "why": "The original BOK text directly questions Konda's arrogance and fate in the war.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "Reverence",
+          "why": "Period flavor states Konda never believed he could lose despite the forces against him.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Ribbons of the Reikai",
+          "why": "The original text describes the fundamental difference between mortal and spirit perception; context for crossing the worlds.",
+          "evidence": "spirit_realm_context"
+        },
+        {
+          "name": "Final Judgment",
+          "why": "Original BOK flavor depicts the terrified armies when O-Kagachi himself appears.",
+          "evidence": "literal_bok_printing_flavor"
+        },
+        {
+          "name": "O-Kagachi, Vengeful Kami",
+          "why": "The supreme original kami seeking the stolen part of himself; the C17 flavor directly names the war and stolen object.",
+          "evidence": "literal_c17_printing_flavor"
+        },
+        {
+          "name": "The Kami War",
+          "why": "The NEO five-color Saga is an explicit retrospective about O-Kagachi's rampage and downfall; its reverse face is O-Kagachi Made Manifest.",
+          "evidence": "retrospective_saga"
+        }
+      ]
+    },
+    {
+      "title": "V. The god is freed, Konda falls, and mortals and kami heal together",
+      "lore_keys": [
+        "Kyodai",
+        "Sisters of Flesh and Spirit",
+        "Kamigawa's new harmony"
+      ],
+      "cards": [
+        {
+          "name": "The Fall of Lord Konda",
+          "why": "The original NEO saga has the broken Konda story and reverse-side Fragment of Konda flavor.",
+          "evidence": "retrospective_saga_literal_back_flavor"
+        },
+        {
+          "name": "Spirit-Sister's Call",
+          "why": "A thematic nod to the Kyodai–Michiko partnership; do not claim the card's rules depict a specific unverified scene.",
+          "evidence": "thematic_character_connection"
+        },
+        {
+          "name": "Michiko's Reign of Truth",
+          "why": "The NEO Saga's reverse-side flavor directly remembers Michiko's bond with Kyodai and the end of the war.",
+          "evidence": "retrospective_saga_literal_back_flavor"
+        },
+        {
+          "name": "Brilliant Restoration",
+          "why": "The original NEO flavor is a reconstruction message; included as a thematic note on healing, with the speaker not asserted.",
+          "evidence": "literal_neo_flavor_context"
+        },
+        {
+          "name": "Era of Enlightenment",
+          "why": "The reverse-side NEO flavor describes laying down weapons under Kyodai's guidance.",
+          "evidence": "retrospective_saga_literal_back_flavor"
+        },
+        {
+          "name": "Reito Lantern",
+          "why": "An original artifact memorializing spirits and the first massacre at Reito.",
+          "evidence": "historical_memorial_artifact"
+        },
+        {
+          "name": "Long-Forgotten Gohei",
+          "why": "A prewar priestly ritual artifact, selected as a return to reverence after the conflict.",
+          "evidence": "retrospective_religious_symbol"
+        },
+        {
+          "name": "Reki, the History of Kamigawa",
+          "why": "A dedicated historian preserving stories of the era; flavor explicitly describes later compilation.",
+          "evidence": "literal_sok_printing_flavor"
+        },
+        {
+          "name": "Shrine Steward",
+          "why": "The NEO original flavor describes transforming broken swords into peaceful shrine servants.",
+          "evidence": "literal_neo_flavor_symbol"
+        },
+        {
+          "name": "Befriending the Moths",
+          "why": "A Saga remembering how Eiganjo's people patiently learned to train protective moths.",
+          "evidence": "retrospective_saga"
+        }
+      ]
+    },
+    {
+      "title": "VI. Land atlas: old Kamigawa and its world 1,200 years later",
+      "lore_keys": [
+        "Kamigawa old legendary lands",
+        "Kamigawa Neon Dynasty"
+      ],
+      "cards": [
+        {
+          "name": "Eiganjo Castle",
+          "why": "Konda's supposedly impregnable center of power during the Kami War.",
+          "evidence": "literal_chk_land_flavor"
+        },
+        {
+          "name": "Minamo, School at Water's Edge",
+          "why": "The Minamo magicians who researched the veil between the realms.",
+          "evidence": "historical_school_land"
+        },
+        {
+          "name": "Shizo, Death's Storehouse",
+          "why": "The haunted death-land of the historical region, evoking Kamigawa's oni and spirits.",
+          "evidence": "historical_location"
+        },
+        {
+          "name": "Shinka, the Bloodsoaked Keep",
+          "why": "The mountain stronghold associated with ogres and the Hidetsugu era.",
+          "evidence": "historical_location"
+        },
+        {
+          "name": "Okina, Temple to the Grandfathers",
+          "why": "Orochi and ancestral religious culture in the old spirit world.",
+          "evidence": "historical_religious_location"
+        },
+        {
+          "name": "Boseiju, Who Shelters All",
+          "why": "An original Kamigawa legendary sacred tree and spiritual landmark.",
+          "evidence": "historical_religious_location"
+        },
+        {
+          "name": "Gods' Eye, Gate to the Reikai",
+          "why": "The original gate to the spirit realm, directly relevant to the breached barrier.",
+          "evidence": "literal_bok_land_flavor"
+        },
+        {
+          "name": "Mikokoro, Center of the Sea",
+          "why": "A sacred historical setting used for spiritual contemplation.",
+          "evidence": "historical_location"
+        },
+        {
+          "name": "Oboro, Palace in the Clouds",
+          "why": "The moonfolk sky-city, a location for the Soratami culture involved in the larger conspiracy.",
+          "evidence": "historical_faction_location"
+        },
+        {
+          "name": "Miren, the Moaning Well",
+          "why": "An old spiritual site representing the tormented dead of the conflict.",
+          "evidence": "historical_location"
+        },
+        {
+          "name": "Untaidake, the Cloud Keeper",
+          "why": "Old-Kamigawa moonfolk geography, not a claim of a specific Konda theft scene.",
+          "evidence": "faction_location_context"
+        },
+        {
+          "name": "Eiganjo, Seat of the Empire",
+          "why": "NEO era view of Eiganjo over a millennium later; historical location change, not a contemporaneous war site.",
+          "evidence": "later_era_geographic_epilogue"
+        },
+        {
+          "name": "Takenuma, Abandoned Mire",
+          "why": "Modern view of the marshlands that had been dangerous through the old war.",
+          "evidence": "later_era_geographic_epilogue"
+        },
+        {
+          "name": "Sokenzan, Crucible of Defiance",
+          "why": "Modern view of the mountains where ogres and samurai fought in the war era.",
+          "evidence": "later_era_geographic_epilogue"
+        },
+        {
+          "name": "Otawara, Soaring City",
+          "why": "Modern view of the moonfolk's sky settlement and changing technology.",
+          "evidence": "later_era_geographic_epilogue"
+        },
+        {
+          "name": "Boseiju, Who Endures",
+          "why": "Modern continuation of the same revered tree, bridging 1,200 years of the plane's history.",
+          "evidence": "later_era_geographic_epilogue"
+        }
+      ]
+    }
+  ],
+  "playability": [],
+  "basics": {
+    "Plains": 3,
+    "Island": 3,
+    "Swamp": 3,
+    "Mountain": 3,
+    "Forest": 3
+  }
+}
