@@ -2,7 +2,7 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27`.
 
 **Count:** 100 cards; 30 lands; 62 of 90 nonbasic/commander suggested printings have actual flavor text.
 
@@ -19,6 +19,16 @@
 | Freyalise, Llanowar's Fury | Phyrexian Defiler |
 | The Surgical Bay | Phyresis |
 | The Fair Basilica | Phyrexian Rebirth |
+
+## Visual-biography refinement: Yawgmoth as a death cloud
+
+**Previous unapproved SHA:** `d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7`. **Additional swap:** Tevesh Szat, Doom of Fools → Last Stand.
+
+Toxic Deluge must be Commander Collection: Black CC2 #6, illustrated by Yeong-Hao Han, whose dark cloud is the final Yawgmoth apparition. Archidekt plain-name imports may not preserve this print selection.
+
+Last Stand (APC #107) depicts Yawgmoth’s dominating cloud in the original Apocalypse climax; artwork identification is corroborated by third-party visual analysis, not an explicit Wizards illustration-caption claim.
+
+Use these actual art/printing anchors together: `Toxic Deluge` **CC2 #6**, `Last Stand` **APC #107**, `Yawgmoth's Vile Offering` **DOM #114**, and `Legacy Weapon` **DMR #229**. The first card depicts his world-scouring arrival; the last memorializes his death. Source for the CC2 art reading: https://blog.cardkingdom.com/commander-collection-black/
 
 ## How this differs from the approved *Legacy* deck #1
 
@@ -91,7 +101,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Tooth of Ramos
 1x Planar Overlay
 1x Urza Assembles the Titans
-1x Tevesh Szat, Doom of Fools
+1x Last Stand
 1x Urza's Guilt
 1x Planar Despair
 1x Death Grasp
@@ -223,7 +233,7 @@ Official narrative anchor: https://magic.wizards.com/en/story/dominaria-plane
 |---|---|---|---|
 | Planar Overlay | Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest. | [PLS #28](https://scryfall.com/card/pls/28/planar-overlay?utm_source=api) | The Phyrexians don't want to conquer Dominaria. They want to remake it. |
 | Urza Assembles the Titans | Historical Saga of the group of planeswalkers Urza led to strike Phyrexia itself. | [DMU #37](https://scryfall.com/card/dmu/37/urza-assembles-the-titans?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Tevesh Szat, Doom of Fools | One of Urza’s Nine Titans, notorious for betrayal during the attack on Phyrexia. | [CMR #153](https://scryfall.com/card/cmr/153/tevesh-szat-doom-of-fools?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Last Stand | The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter. | [APC #107](https://scryfall.com/card/apc/107/last-stand?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza's Guilt | The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat. | [PLS #130](https://scryfall.com/card/pls/130/urzas-guilt?utm_source=api) | Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. "Mishra?" |
 | Planar Despair | The Apocalypse printing explicitly describes Dominaria recoiling at Yawgmoth’s arrival. | [APC #50](https://scryfall.com/card/apc/50/planar-despair?utm_source=api) | All of Dominaria recoiled as Yawgmoth and his retainers arrived. |
 | Death Grasp | The Apocalypse printing directly reports Yawgmoth’s delight in turning heroes against each other. | [APC #95](https://scryfall.com/card/apc/95/death-grasp?utm_source=api) | Yawgmoth's greatest joy came from watching one hero defeat another. |
