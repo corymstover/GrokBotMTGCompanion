@@ -22,6 +22,6 @@ All seven exact `.json` draft specifications were read successfully from `main` 
 
 - Each version is pinned to its merge commit above; a later revision is a *new candidate*, not an automatic replacement of Cory's approved copy.
 - The banned-card Rule 0 exceptions are expressly retained for story significance. Approval of a story deck is not a claim that its prohibited cards are sanctioned-legal.
-- The five unapproved earlier Yawgmoth variant/background files in PR #768 remain only for historical comparison; **the approved exact deck** is `legacy_yawgmoth_final_story.json` / `.md`, not its superseded casual/museum drafts.
+- The superseded older Yawgmoth variant/background files in PR #768 remain only for historical comparison; **the approved exact deck** is `legacy_yawgmoth_final_story.json` / `.md`, not its superseded casual/museum drafts.
 - Each original `.md` has its card-by-card story explanation, and the original 100-card list. No card substitution or gameplay retuning occurred during approval.
 - Do not touch `corymstover/grixis-commander-encyclopediaGPT/main` or its lock registry from this lore approval.
