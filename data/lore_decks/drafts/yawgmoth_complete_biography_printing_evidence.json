@@ -1,6 +1,6 @@
 {
   "theme": "Yawgmoth: Father of Machines — A Biography of the Thran Tyrant and His Posthumous Shadow",
-  "raw_sha256": "d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7",
+  "raw_sha256": "1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27",
   "source": "local 2026-10-28 Scryfall printing SQLite cache",
   "cards": [
     {
@@ -732,16 +732,16 @@
       }
     },
     {
-      "name": "Tevesh Szat, Doom of Fools",
-      "why": "One of Urza’s Nine Titans, notorious for betrayal during the attack on Phyrexia.",
-      "tier": "historical_planar_war_participant",
+      "name": "Last Stand",
+      "why": "The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter.",
+      "tier": "visual_depiction_of_final_invasion",
       "printing": {
-        "set": "CMR",
-        "collector": "153",
-        "url": "https://scryfall.com/card/cmr/153/tevesh-szat-doom-of-fools?utm_source=api",
+        "set": "APC",
+        "collector": "107",
+        "url": "https://scryfall.com/card/apc/107/last-stand?utm_source=api",
         "printed_flavor": "",
-        "type_line": "Legendary Planeswalker — Szat",
-        "oracle": "+2: Create two 0/1 black Thrull creature tokens.\n+1: You may sacrifice another creature or planeswalker. If you do, draw two cards, then draw another card if the sacrificed permanent was a commander.\n−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control.\nTevesh Szat, Doom of Fools can be your commander.\nPartner",
+        "type_line": "Sorcery",
+        "oracle": "Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.",
         "preferred_printing_found": true
       }
     },
