@@ -1,0 +1,3973 @@
+{
+ "api_set_codes_at_fetch": 1063,
+ "count_limitations": [
+  "Scryfall /sets metadata is fetched on the recorded timestamp, not assumed frozen with the October 29 Default Cards snapshot.",
+  "A set_type of expansion or core is not a Wizards-certified list of premier sets.",
+  "Scryfall card_count and printed_size are product metadata, not equal to Default Cards printing rows or distinct Oracle identities.",
+  "Only explicit Scryfall parent_set_code relationships are reported. Missing parent links must not be guessed from name or prefix.",
+  "Scryfall released_at is set release or first-card date; it is distinct from individual card printing dates.",
+  "Future-dated sets are announced products, not yet released as of the cutoff."
+ ],
+ "counts": {
+  "all_codes": 1062,
+  "digital_only_set_flag": 62,
+  "parent_links": 560,
+  "release_status:announced_future": 10,
+  "release_status:released_by_cutoff": 1052,
+  "released_nondigital_expansion_core_candidates_NOT_premier_certification": 142,
+  "set_type:alchemy": 19,
+  "set_type:archenemy": 4,
+  "set_type:arsenal": 3,
+  "set_type:box": 44,
+  "set_type:commander": 46,
+  "set_type:core": 25,
+  "set_type:draft_innovation": 19,
+  "set_type:duel_deck": 27,
+  "set_type:eternal": 6,
+  "set_type:expansion": 120,
+  "set_type:from_the_vault": 10,
+  "set_type:funny": 22,
+  "set_type:masterpiece": 19,
+  "set_type:masters": 32,
+  "set_type:memorabilia": 102,
+  "set_type:minigame": 15,
+  "set_type:planechase": 6,
+  "set_type:premium_deck": 3,
+  "set_type:promo": 301,
+  "set_type:spellbook": 3,
+  "set_type:starter": 15,
+  "set_type:token": 217,
+  "set_type:treasure_chest": 2,
+  "set_type:vanguard": 2
+ },
+ "direct_parent_relationships": [
+  {
+   "child": "4bb",
+   "parent": "4ed",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aacr",
+   "parent": "acr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aafr",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ablb",
+   "parent": "blb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "abro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aclb",
+   "parent": "clb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "acmm",
+   "parent": "cmm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "adft",
+   "parent": "dft",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "admu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "adsk",
+   "parent": "dsk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aecl",
+   "parent": "ecl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aeoe",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "afc",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "afdn",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "afic",
+   "parent": "fic",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "afin",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "afra",
+   "parent": "fra",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ahob",
+   "parent": "hob",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ahoc",
+   "parent": "hoc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ainr",
+   "parent": "inr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ajmp",
+   "parent": "jmp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "akhm",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "alci",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "altc",
+   "parent": "ltc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "altr",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amh1",
+   "parent": "mh1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amh2",
+   "parent": "mh2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amh3",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amid",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amkm",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "amsh",
+   "parent": "msh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aotj",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "asnc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "asos",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aspm",
+   "parent": "spm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "astx",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "atdm",
+   "parent": "tdm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "atla",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "atle",
+   "parent": "tle",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "atmt",
+   "parent": "tmt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "avow",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "awoe",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "aznr",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "bchr",
+   "parent": "chr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "big",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "blc",
+   "parent": "blb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "bot",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "brc",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "brr",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "clu",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "cp1",
+   "parent": "m15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "cp2",
+   "parent": "frf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "cp3",
+   "parent": "ori",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "cst",
+   "parent": "csp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "dmc",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "drc",
+   "parent": "dft",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "dsc",
+   "parent": "dsk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ecc",
+   "parent": "ecl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "eoc",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "eos",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "exp",
+   "parent": "bfz",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fbb",
+   "parent": "3ed",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fca",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fclu",
+   "parent": "clu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fdc",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ffdn",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fic",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fj22",
+   "parent": "j22",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fj25",
+   "parent": "j25",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fjmp",
+   "parent": "jmp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fltr",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fmom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fmsc",
+   "parent": "msc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "fone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "frc",
+   "parent": "fra",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ftla",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ftmc",
+   "parent": "tmc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "g18",
+   "parent": "m19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "h1r",
+   "parent": "mh2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "h2r",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "hoc",
+   "parent": "hob",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "j25",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "jtla",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "khc",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "lcc",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "lmar",
+   "parent": "mar",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ltc",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "m3c",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "macr",
+   "parent": "acr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mafr",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mclb",
+   "parent": "clb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mdc",
+   "parent": "mdd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mgb",
+   "parent": "vis",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mic",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mkc",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mkhm",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mltr",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mmh2",
+   "parent": "mh2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mmid",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "moc",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mp2",
+   "parent": "akh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mps",
+   "parent": "kld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "msc",
+   "parent": "msh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "msnc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mstx",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mul",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mvow",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "mznr",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ncc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "nec",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oafc",
+   "parent": "afc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oafr",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oana",
+   "parent": "ana",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oarc",
+   "parent": "arc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc13",
+   "parent": "c13",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc14",
+   "parent": "c14",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc15",
+   "parent": "c15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc16",
+   "parent": "c16",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc17",
+   "parent": "c17",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc18",
+   "parent": "c18",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc19",
+   "parent": "c19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc20",
+   "parent": "c20",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oc21",
+   "parent": "c21",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oclb",
+   "parent": "clb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ocm1",
+   "parent": "cm1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ocmd",
+   "parent": "cmd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "oe01",
+   "parent": "e01",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ohop",
+   "parent": "hop",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "om1",
+   "parent": "spm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "omb",
+   "parent": "mar",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "omic",
+   "parent": "mic",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "onc",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "opc2",
+   "parent": "pc2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "opca",
+   "parent": "pca",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "otc",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "otp",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ovoc",
+   "parent": "voc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p10e",
+   "parent": "10e",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p30a",
+   "parent": "30a",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p30h",
+   "parent": "30a",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p30m",
+   "parent": "30a",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p30t",
+   "parent": "30a",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p5dn",
+   "parent": "5dn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p8ed",
+   "parent": "8ed",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "p9ed",
+   "parent": "9ed",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "paer",
+   "parent": "aer",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pafr",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pakh",
+   "parent": "akh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pala",
+   "parent": "ala",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "papc",
+   "parent": "apc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "parb",
+   "parent": "arb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pavr",
+   "parent": "avr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbbd",
+   "parent": "bbd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbfz",
+   "parent": "bfz",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbig",
+   "parent": "big",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pblb",
+   "parent": "blb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbng",
+   "parent": "bng",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbok",
+   "parent": "bok",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pchk",
+   "parent": "chk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pclb",
+   "parent": "clb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pcmd",
+   "parent": "cmd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pcmr",
+   "parent": "cmr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pcns",
+   "parent": "cns",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pcon",
+   "parent": "con",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pcsp",
+   "parent": "csp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdft",
+   "parent": "dft",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdgm",
+   "parent": "dgm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdis",
+   "parent": "dis",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdka",
+   "parent": "dka",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdom",
+   "parent": "dom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdsk",
+   "parent": "dsk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdst",
+   "parent": "dst",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pdtk",
+   "parent": "dtk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pecl",
+   "parent": "ecl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "peld",
+   "parent": "eld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pemn",
+   "parent": "emn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "peoe",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "peve",
+   "parent": "eve",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pexo",
+   "parent": "exo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pfdn",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pfin",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pfra",
+   "parent": "fra",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pfrf",
+   "parent": "frf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pfut",
+   "parent": "fut",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pgpt",
+   "parent": "gpt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pgrn",
+   "parent": "grn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pgtc",
+   "parent": "gtc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "phel",
+   "parent": "avr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "phop",
+   "parent": "hop",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "phou",
+   "parent": "hou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "piko",
+   "parent": "iko",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pinv",
+   "parent": "inv",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pisd",
+   "parent": "isd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pjou",
+   "parent": "jou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pjud",
+   "parent": "jud",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pkhm",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pkld",
+   "parent": "kld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pktk",
+   "parent": "ktk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "plci",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "plgn",
+   "parent": "lgn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "plrw",
+   "parent": "lrw",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pltc",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pltr",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm10",
+   "parent": "m10",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm11",
+   "parent": "m11",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm12",
+   "parent": "m12",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm13",
+   "parent": "m13",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm14",
+   "parent": "m14",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm15",
+   "parent": "m15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm19",
+   "parent": "m19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm20",
+   "parent": "m20",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pm21",
+   "parent": "m21",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmat",
+   "parent": "mat",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmbs",
+   "parent": "mbs",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmh1",
+   "parent": "mh1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmh2",
+   "parent": "mh2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmh3",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmic",
+   "parent": "past",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmid",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmkm",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmmq",
+   "parent": "mmq",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmor",
+   "parent": "mor",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pmrd",
+   "parent": "mrd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pncc",
+   "parent": "ncc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pnem",
+   "parent": "nem",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pnph",
+   "parent": "nph",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pody",
+   "parent": "ody",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pogw",
+   "parent": "ogw",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pons",
+   "parent": "ons",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pori",
+   "parent": "ori",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "potj",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ppc1",
+   "parent": "m15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ppcy",
+   "parent": "pcy",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pplc",
+   "parent": "plc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ppls",
+   "parent": "pls",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ppp1",
+   "parent": "m20",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pptk",
+   "parent": "ptk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prav",
+   "parent": "rav",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prix",
+   "parent": "rix",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prna",
+   "parent": "rna",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "proe",
+   "parent": "roe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prtr",
+   "parent": "rtr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prw2",
+   "parent": "rna",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "prwk",
+   "parent": "grn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pscg",
+   "parent": "scg",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pshm",
+   "parent": "shm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psnc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psoi",
+   "parent": "soi",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psok",
+   "parent": "sok",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psom",
+   "parent": "som",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psos",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pspm",
+   "parent": "spm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pss1",
+   "parent": "bfz",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pss2",
+   "parent": "xln",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pss3",
+   "parent": "m19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pss4",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pss5",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pssc",
+   "parent": "sld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "psth",
+   "parent": "sth",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pstx",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptdm",
+   "parent": "tdm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pthb",
+   "parent": "thb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pths",
+   "parent": "ths",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptkdf",
+   "parent": "dtk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptla",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptmp",
+   "parent": "tmp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptor",
+   "parent": "tor",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptsnc",
+   "parent": "psnc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptsp",
+   "parent": "tsp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ptsr",
+   "parent": "tsr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "puds",
+   "parent": "uds",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pulg",
+   "parent": "ulg",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "puma",
+   "parent": "uma",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "punh",
+   "parent": "unh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "punk",
+   "parent": "unk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pusg",
+   "parent": "usg",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pust",
+   "parent": "ust",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pvow",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pwar",
+   "parent": "war",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pwoe",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pwwk",
+   "parent": "wwk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pxln",
+   "parent": "xln",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pxtc",
+   "parent": "xln",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pza",
+   "parent": "tmt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pzen",
+   "parent": "zen",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "pznr",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "rex",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "rfin",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sds",
+   "parent": "trk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sis",
+   "parent": "sir",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "skhm",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "slc",
+   "parent": "sld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "slci",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "slp",
+   "parent": "sld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "slu",
+   "parent": "sld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "slx",
+   "parent": "sld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "smh3",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "smid",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "smom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "soa",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "soc",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "spe",
+   "parent": "spm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sstx",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sta",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sunf",
+   "parent": "unf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "svow",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "sznr",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "t10e",
+   "parent": "10e",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "t2x2",
+   "parent": "2x2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "t2xm",
+   "parent": "2xm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "t30a",
+   "parent": "30a",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "t40k",
+   "parent": "40k",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ta25",
+   "parent": "a25",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tacr",
+   "parent": "acr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "taer",
+   "parent": "aer",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tafc",
+   "parent": "afc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tafr",
+   "parent": "afr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "takh",
+   "parent": "akh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tala",
+   "parent": "ala",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tarb",
+   "parent": "arb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tavr",
+   "parent": "avr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbbd",
+   "parent": "bbd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbfz",
+   "parent": "bfz",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbig",
+   "parent": "big",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tblb",
+   "parent": "blb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tblc",
+   "parent": "blc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbng",
+   "parent": "bng",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbot",
+   "parent": "bot",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbrc",
+   "parent": "brc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tbth",
+   "parent": "bng",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc14",
+   "parent": "c14",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc15",
+   "parent": "c15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc16",
+   "parent": "c16",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc17",
+   "parent": "c17",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc18",
+   "parent": "c18",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc19",
+   "parent": "c19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc20",
+   "parent": "c20",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tc21",
+   "parent": "c21",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tclb",
+   "parent": "clb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcm2",
+   "parent": "cm2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcma",
+   "parent": "cma",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcmm",
+   "parent": "cmm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcmr",
+   "parent": "cmr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcn2",
+   "parent": "cn2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcns",
+   "parent": "cns",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tcon",
+   "parent": "con",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdag",
+   "parent": "jou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdc",
+   "parent": "tdm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdd1",
+   "parent": "dd1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdd2",
+   "parent": "dd2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddc",
+   "parent": "ddc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddd",
+   "parent": "ddd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdde",
+   "parent": "dde",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddf",
+   "parent": "ddf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddg",
+   "parent": "ddg",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddh",
+   "parent": "ddh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddi",
+   "parent": "ddi",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddj",
+   "parent": "ddj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddk",
+   "parent": "ddk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddl",
+   "parent": "ddl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddm",
+   "parent": "ddm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdds",
+   "parent": "dds",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddt",
+   "parent": "ddt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tddu",
+   "parent": "ddu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdft",
+   "parent": "dft",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdgm",
+   "parent": "dgm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdka",
+   "parent": "dka",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdmc",
+   "parent": "dmc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdmr",
+   "parent": "dmr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdom",
+   "parent": "dom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdrc",
+   "parent": "drc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdsc",
+   "parent": "dsc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdsk",
+   "parent": "dsk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdtk",
+   "parent": "dtk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tdvd",
+   "parent": "dvd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "te01",
+   "parent": "e01",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tecc",
+   "parent": "ecc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tecl",
+   "parent": "ecl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "teld",
+   "parent": "eld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tema",
+   "parent": "ema",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "temn",
+   "parent": "emn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "teoc",
+   "parent": "eoc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "teoe",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "teve",
+   "parent": "eve",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tevg",
+   "parent": "evg",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfdc",
+   "parent": "fdc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfdn",
+   "parent": "fdn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfic",
+   "parent": "fic",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfin",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfra",
+   "parent": "fra",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfrc",
+   "parent": "frc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfrf",
+   "parent": "frf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tfth",
+   "parent": "ths",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgk1",
+   "parent": "gk1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgk2",
+   "parent": "gk2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgn2",
+   "parent": "gn2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgn3",
+   "parent": "gn3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgrn",
+   "parent": "grn",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgtc",
+   "parent": "gtc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tgvl",
+   "parent": "gvl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "thob",
+   "parent": "hob",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "thou",
+   "parent": "hou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "thp1",
+   "parent": "ths",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "thp2",
+   "parent": "bng",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "thp3",
+   "parent": "jou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tiko",
+   "parent": "iko",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tima",
+   "parent": "ima",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tinr",
+   "parent": "inr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tisd",
+   "parent": "isd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tjou",
+   "parent": "jou",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tjvc",
+   "parent": "jvc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tkhc",
+   "parent": "khc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tkhm",
+   "parent": "khm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tkld",
+   "parent": "kld",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tktk",
+   "parent": "ktk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tlcc",
+   "parent": "lcc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tlci",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tle",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tlrw",
+   "parent": "lrw",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tltc",
+   "parent": "ltc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tltr",
+   "parent": "ltr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm10",
+   "parent": "m10",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm11",
+   "parent": "m11",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm12",
+   "parent": "m12",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm13",
+   "parent": "m13",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm14",
+   "parent": "m14",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm15",
+   "parent": "m15",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm19",
+   "parent": "m19",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm20",
+   "parent": "m20",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm21",
+   "parent": "m21",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tm3c",
+   "parent": "m3c",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmbs",
+   "parent": "mbs",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmc",
+   "parent": "tmt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmd1",
+   "parent": "md1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmdd",
+   "parent": "mdd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmed",
+   "parent": "med",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmh1",
+   "parent": "mh1",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmh2",
+   "parent": "mh2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmh3",
+   "parent": "mh3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmic",
+   "parent": "mic",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmid",
+   "parent": "mid",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmkc",
+   "parent": "mkc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmkm",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmm2",
+   "parent": "mm2",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmm3",
+   "parent": "mm3",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmma",
+   "parent": "mma",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmoc",
+   "parent": "moc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmor",
+   "parent": "mor",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmsc",
+   "parent": "msc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmsh",
+   "parent": "msh",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tmul",
+   "parent": "mul",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tnau",
+   "parent": "nau",
+   "parent_in_printing_atlas": false,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tncc",
+   "parent": "ncc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tnec",
+   "parent": "nec",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tnph",
+   "parent": "nph",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "togw",
+   "parent": "ogw",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tonc",
+   "parent": "onc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tori",
+   "parent": "ori",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "totc",
+   "parent": "otc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "totj",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "totp",
+   "parent": "otp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tpca",
+   "parent": "pca",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tpip",
+   "parent": "pip",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trc",
+   "parent": "trk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trex",
+   "parent": "rex",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trix",
+   "parent": "rix",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trna",
+   "parent": "rna",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "troe",
+   "parent": "roe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trtr",
+   "parent": "rtr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "trvr",
+   "parent": "rvr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsb",
+   "parent": "tsp",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tscd",
+   "parent": "scd",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tshm",
+   "parent": "shm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsnc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsoc",
+   "parent": "soc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsoi",
+   "parent": "soi",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsom",
+   "parent": "som",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tsos",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tspm",
+   "parent": "spm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tstx",
+   "parent": "stx",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttdc",
+   "parent": "tdc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttdm",
+   "parent": "tdm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tthb",
+   "parent": "thb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tths",
+   "parent": "ths",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttla",
+   "parent": "tla",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttle",
+   "parent": "tle",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttmc",
+   "parent": "tmc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttmt",
+   "parent": "tmt",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttrk",
+   "parent": "trk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ttsr",
+   "parent": "tsr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tugl",
+   "parent": "ugl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tuma",
+   "parent": "uma",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tund",
+   "parent": "und",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tunf",
+   "parent": "unf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tust",
+   "parent": "ust",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tvoc",
+   "parent": "voc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tvow",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "twar",
+   "parent": "war",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "twho",
+   "parent": "who",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "twoc",
+   "parent": "woc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "twoe",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "twwk",
+   "parent": "wwk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "txln",
+   "parent": "xln",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tzen",
+   "parent": "zen",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tznc",
+   "parent": "znc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "tznr",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ugin",
+   "parent": "frf",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ulst",
+   "parent": "plst",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "voc",
+   "parent": "vow",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wdmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wfin",
+   "parent": "fin",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wmkm",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wmom",
+   "parent": "mom",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "woc",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wot",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "wwoe",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "xana",
+   "parent": "ana",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yblb",
+   "parent": "blb",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ybro",
+   "parent": "bro",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ydft",
+   "parent": "dft",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ydmu",
+   "parent": "dmu",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ydsk",
+   "parent": "dsk",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yecl",
+   "parent": "ecl",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yeoe",
+   "parent": "eoe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yfra",
+   "parent": "fra",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ylci",
+   "parent": "lci",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ymkm",
+   "parent": "mkm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yneo",
+   "parent": "neo",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yone",
+   "parent": "one",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "yotj",
+   "parent": "otj",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ysnc",
+   "parent": "snc",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ysos",
+   "parent": "sos",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ytdm",
+   "parent": "tdm",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "ywoe",
+   "parent": "woe",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "znc",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  },
+  {
+   "child": "zne",
+   "parent": "znr",
+   "parent_in_printing_atlas": true,
+   "parent_in_scryfall_set_snapshot": true,
+   "relation_source": "Scryfall Set.parent_set_code"
+  }
+ ],
+ "mapped_codes": 1062,
+ "metadata_fetched_utc": "2026-10-29T23:38:34+00:00",
+ "metadata_source": "https://api.scryfall.com/sets",
+ "printing_atlas_codes": 1062,
+ "schema": 1,
+ "snapshot_date": "2026-10-29",
+ "source_metadata_sha256": "0fd86fb3f9d55036684e54fc5ae3bdb975a85479c185321ffc2233bb2eebbb85",
+ "warnings": []
+}
