@@ -8,9 +8,12 @@ on:
       - scripts/check_dev_snapshot_lock.py
       - scripts/scryfall_snapshot.py
       - scripts/multiverse_snapshot_reconcile.py
+      - scripts/audit_oracle_index.py
       - tests/test_multiverse_snapshots.py
       - tests/test_multiverse_reconcile.py
+      - tests/test_oracle_index_audit.py
       - data/scryfall_snapshots/**
+      - data/multiverse_audits/**
       - .github/workflows/multiverse-snapshot-*.yml
 
 permissions:
@@ -23,5 +26,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify isolated caches and archived manifest integrity
         run: python3 -m unittest discover -s tests -p 'test_multiverse_*.py' -v
+      - name: Verify dated Oracle index-exclusion classifications
+        run: python3 -m unittest discover -s tests -p 'test_oracle_index_audit.py' -v
       - name: Check Python syntax
-        run: python3 -m py_compile scripts/ingest_scryfall.py scripts/build_card_enrichment.py scripts/check_dev_snapshot_lock.py scripts/scryfall_snapshot.py scripts/multiverse_snapshot_reconcile.py
+        run: python3 -m py_compile scripts/ingest_scryfall.py scripts/build_card_enrichment.py scripts/check_dev_snapshot_lock.py scripts/scryfall_snapshot.py scripts/multiverse_snapshot_reconcile.py scripts/audit_oracle_index.py
