@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 1.3
+**Version:** 1.4
 **Checkpoint date:** 2026-10-29  
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -18,7 +18,7 @@ Develop a comprehensive, evidence-backed Magic: The Gathering companion spanning
 | Grixis Encyclopedia | **62/62 finalized** | Historical approvals and exact lists remain protected. |
 | Oracle Cards snapshot | **39,164 Oracle IDs** | October 29 Scryfall source includes digital/special objects; not all are tabletop-playable cards. |
 | Individual card index | **33,894 records** | The 5,270 Oracle IDs outside the index are now classified from the verified October 29 Oracle snapshot: 4,154 excluded layouts, 811 outside paper/eternal scope, 305 future-dated eligible objects, **0 already-released eligible omissions**. |
-| Set/printing inventory | **1,062 set codes; 119,509 default-language printing records; 107,700 English paper records** | October 28, 2026 `data/printing_lore/manifest.json` baseline. Set codes include promos and supplemental products; these are **not** 1,062 premier expansions. Printing records are not distinct card designs. Phase 1B certification is still pending. |
+| Set/printing inventory | **1,062 set codes; 119,701 default-language printings; 107,898 English paper printings** | Verified October 29 Scryfall Default Cards snapshot and new `data/set_atlas/` Phase 1B pilot. The October 28 shard manifest held 119,509 / 107,700; five set codes changed. Includes **1,051 future-dated printings**, not 1,051 newly released cards. Set/product and shard certification remains incomplete. |
 | Priority card enrichment | **3,409 / 5,362 (63.6%)** | **1,953 remaining** on the verified October 29 priority-pool definition; twelve reviewed *Reality Fracture* records added without changing any of the earlier 3,397. |
 | Official Wizards story inventory | **660/660 recovered and strictly audited** | Hash/URL provenance committed; full article text was cached outside Git and must be refetched/audited in a new environment. |
 | Uncertain character links | **341 name-only links triaged** | Two official-page leads warrant review; triage is not canon approval. |
@@ -27,7 +27,7 @@ Develop a comprehensive, evidence-backed Magic: The Gathering companion spanning
 | Active Scryfall release | **Archived, re-downloaded, verified** | [snap-20261029-40848334824-1](https://github.com/corymstover/GrokBotMTGCompanion/releases/tag/snap-20261029-40848334824-1): Oracle Cards, Default Cards, Rulings and SHA-256 manifest. |
 | Snapshot reconciliation | **Passed read-only** | [PR #784](https://github.com/corymstover/GrokBotMTGCompanion/pull/784) and [report workflow](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40848889092): 0 previously indexed/enriched IDs disappeared; 0 differences in indexed type, color identity, Commander legality, Game Changer status or ruling counts. It is **not** a complete historical Oracle-text diff. |
 
-Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCompanion/pull/783) separated current Multiverse ingestion from the historical Grixis lock, added the durable snapshot capture/verification workflow, and passed CI. [PR #784](https://github.com/corymstover/GrokBotMTGCompanion/pull/784) added the read-only research reconciliation and passed CI.
+Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCompanion/pull/783) separated current Multiverse ingestion from the historical Grixis lock, added the durable snapshot capture/verification workflow, and passed CI. [PR #784](https://github.com/corymstover/GrokBotMTGCompanion/pull/784) added the read-only research reconciliation and passed CI. [PR #789](https://github.com/corymstover/GrokBotMTGCompanion/pull/789) merged the verified first Phase 8 generated batch; [lore/Phase 8 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40858943537), [Multiverse snapshot CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40858943744) and [focused Grixis CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40858943638) all passed.
 
 ## Phase 1 — Card database and research inputs
 
@@ -51,6 +51,18 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 **Goal:** Make every recorded MTG release independently discoverable, countable, and searchable by set, while retaining accurate card-by-card printing histories. This is a distinct catalog/data-quality milestone within Phase 1, not a replacement for the existing card and lore work.
 
 **Existing foundation:** Reuse `Printing History.md`, `data/printings_summary.csv`, `data/printing_lore/manifest.json`, its per-set printing shards, and the independently archived Scryfall Default Cards snapshot. The October 28 manifest reports **1,062 Scryfall set codes**, **119,509 default-language printing records**, and **107,700 English paper printing records**. These are historical input counts, **not** a verified number of main expansions, unique cards, or newly introduced designs.
+
+**2026-10-29 first Phase 1B catalog/audit checkpoint:** `scripts/audit_set_printing_atlas.py` verifies the independently archived October 29 Default Cards file's SHA-256 and count against its release manifest, then compares its full **119,701** printings to the older manifest's **119,509**. Both snapshots cover **1,062 Scryfall set codes**. The older manifest's set and shard row arithmetic is internally consistent; **105 historic shard file bytes were not available to hash here**. Only **five** set-code totals changed (`trk`, `trc`, `sds`, `pf26`, `pw26`); the net differences are **+192** printing records and **+198** English paper records. The source has **107,898** English paper printings, of which future previews must be excluded when asking what was released as of October 29; **1,051 total printing records** have future `released_at` dates. See `data/set_atlas/audit_2026-10-29.json` for Scryfall `set_type` category counts and `data/set_atlas/catalog_2026-10-29.json` for a dated all-1,062-code set catalog with English-paper distinct Oracle IDs, single-set debuts, same-day tied debuts, and reprints. A verified read-only `scripts/set_atlas_lookup.py` supports **set → cards** and **card → chronological printings/sets**, including exact card-name/Oracle-ID queries. These are first-pass, explicitly snapshot-dated measures; not yet a certified classification of premier releases or canonical set/product associations.
+
+**Phase 1B pilot checks completed:**
+
+- [x] SHA-256 verification of the October 29 Scryfall Default Cards source and its reported record count; no duplicate printing IDs or conflicting set name/`set_type` values.
+- [x] Internal arithmetic and shard-reference audit of the October 28 baseline manifest, with missing historical shard-byte verification explicitly recorded.
+- [x] Reproducible `set_type` category totals, all-code dated catalog, and explicit treatment of future-dated printing records.
+- [x] First source-backed, bidirectional set/card lookup CLI; Alpha and Black Lotus spot checks, date-gated Star Trek example, and six portable unit tests.
+- [ ] Verify all 105 historical shard byte hashes and reconcile individual printing IDs—not just set totals—against the original October 28 Default Cards source.
+- [ ] Source authoritative product/parent-set relationships and certify what qualifies as a main expansion versus other Scryfall categories.
+- [ ] Publish a user-facing, GitHub-accessible full set-to-card and card-to-set index, without requiring the uncommitted bulk snapshot locally.
 
 **Counting rules (mandatory in every answer/export):**
 
@@ -150,7 +162,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 1. **Continue Phase 8:** the first twelve-card generated batch is reviewed; select the next bounded, directly evidenced slice toward the remaining **1,953** priority enrichments. Preserve all previous records and rerun the full guarded source verification for each publication.
 2. **Index exclusions — completed for the October 29 snapshot:** retain the verified 5,270-record classification and review the 305 future-dated IDs after release, rather than prematurely importing them.
-3. **Begin Phase 1B Set & Printing Atlas:** audit the existing 1,062-code printing manifest; define category and count rules; ship a verified first set-index/lookup batch before claiming the feature complete.
+3. **Continue Phase 1B Set & Printing Atlas:** the first snapshot-dated set catalog and live set/card lookup are built; next verify the original 105 printing-shard hashes, source authoritative product-release/parent links, and ship a GitHub-readable full per-set/card index before calling it certified.
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.
 5. **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
 6. **Deliver the first research pack:** Ugin/Nicol Bolas and Elder Dragon origins, with canon distinctions and verified card ties.
