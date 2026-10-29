@@ -12,6 +12,11 @@
     "Ramos served Mishra, was captured and repurposed by Urza, and eventually yielded five Bones of Ramos to the Legacy. His biography is a framing story connection; he did not eyewitness the ancient Thran events.",
     "The original Thran portal and the Antiquities-era Jarsyl Gate to Phyrexia diary describe distinct temporal visits.",
     "Original and later reprint flavor are separately designated. New Phyrexia exists after Yawgmoth’s death, not under his living command.",
+    "Research on the 1999 novel The Thran uses Wizards official summaries and detailed secondary plot accounts; the full 311-page book was not available, so this is not a first-hand chapter-by-chapter novel certification.",
+    "Gix originally wounded Glacian as an Untouchable thousands of years before his later Phyrexian praetorship and manipulation of Mishra. The printed praetor card depicts the later identity, not the earlier attack.",
+    "Thran-war stonecharger chemical death clouds and the later Apocalypse depiction of Yawgmoth as a gigantic black death cloud are different events.",
+    "The Mana Rig card depicts the Shivan installation, a separate surviving Thran powerstone factory; it does not depict the Halcyon rig where phthisis affected the Untouchables.",
+    "The original Mirrodin artifact-land art of Ancient Den and Vault of Whispers is not assumed to depict Halcyon/Koilos, even where the chosen Brothers War Commander printings quote those locations.",
     "Three Commander-banned cards are knowingly included under Cory’s story-first Rule 0 exception: Yawgmoth’s Bargain, Sundering Titan, and Tolarian Academy.",
     "No power bracket or sanctioned Commander legality is asserted."
   ],
@@ -62,6 +67,45 @@
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022",
     "https://mtglore.com/web-articles/commander-2017-edition-commanders/"
   ],
+  "thran_origin_revision": {
+    "previous_unapproved_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
+    "status": "RESEARCH-BASED; full novel text unavailable, no claim of having read its chapters firsthand",
+    "reason": "Refocus the first act on powerstone radiation, Gix wounding Glacian, Yawgmoth exploiting phthisis, Thran technology and places, instead of three less direct Urza industry lands and two generic/later Phyrexian echoes.",
+    "swaps": [
+      {
+        "out": "Phyrexian Tyranny",
+        "in": "Phthisis"
+      },
+      {
+        "out": "Realmbreaker, the Invasion Tree",
+        "in": "The Mana Rig"
+      },
+      {
+        "out": "Urza's Mine",
+        "in": "Ancient Den"
+      },
+      {
+        "out": "Urza's Power Plant",
+        "in": "Vault of Whispers"
+      },
+      {
+        "out": "Urza's Tower",
+        "in": "Contaminated Aquifer"
+      }
+    ],
+    "primary_sources": [
+      "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+      "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30",
+      "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06"
+    ],
+    "secondary_plot_check": "https://mtg.fandom.com/wiki/The_Thran",
+    "reserved_not_forced": [
+      "Thran Vigil",
+      "Thran Lens"
+    ],
+    "note": "Gix appears in early Thran history before his later Brothers War card placement; no direct print of young rebel Gix has been assumed."
+  },
   "visual_revision": {
     "previous_unapproved_sha256": "d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7",
     "swap": {
@@ -153,6 +197,38 @@
             "printed_flavor": "\"His energy is as boundless as the powerstones'.\"\n—Rebbec, architect of ascension",
             "type_line": "Legendary Creature — Human Artificer",
             "oracle": "{T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of those cards into your hand and the rest into your graveyard.\nPartner (You can have two commanders if both have partner.)",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phthisis",
+          "why": "The powerstone-induced wasting disease that struck Glacian and the Untouchables, giving Yawgmoth his route from exiled doctor to Halcyon ruler. The Time Spiral card names the condition, but its artwork is not a verified scene from the novel.",
+          "evidence": "direct_novel_disease",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "TSP",
+          "printing": {
+            "set": "TSP",
+            "collector": "122",
+            "url": "https://scryfall.com/card/tsp/122/phthisis?utm_source=api",
+            "printed_flavor": "",
+            "type_line": "Sorcery",
+            "oracle": "Destroy target creature. Its controller loses life equal to its power plus its toughness.\nSuspend 5—{1}{B} (Rather than cast this card from your hand, you may pay {1}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "The Mana Rig",
+          "why": "An original Thran powerstone-producing installation type, crucial to the industrial civilization behind phthisis. The printed card depicts the separate Shivan Mana Rig, not the specific Halcyon facility in the novel.",
+          "evidence": "documented_related_thran_technology",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+          "preferred_set": "DMC",
+          "printing": {
+            "set": "DMC",
+            "collector": "28",
+            "url": "https://scryfall.com/card/dmc/28/the-mana-rig?utm_source=api",
+            "printed_flavor": "",
+            "type_line": "Legendary Artifact",
+            "oracle": "Whenever you cast a multicolored spell, create a tapped Powerstone token. (It's an artifact with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")\n{X}{X}{X}, {T}: Look at the top X cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in a random order.",
             "preferred_printing_found": true
           }
         },
@@ -808,22 +884,6 @@
           }
         },
         {
-          "name": "Phyrexian Tyranny",
-          "why": "Planeshift card embodying the abusive campaign; later reprints also quote Crovax to Ertai.",
-          "evidence": "period_phyrexian_terror",
-          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
-          "preferred_set": "PLS",
-          "printing": {
-            "set": "PLS",
-            "collector": "118",
-            "url": "https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api",
-            "printed_flavor": "\"He is Yawgmoth's reward to me. I shall kill him a hundred times a day.\"\n—Crovax, to Ertai",
-            "type_line": "Enchantment",
-            "oracle": "Whenever a player draws a card, that player loses 2 life unless they pay {2}.",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "Squee, Goblin Nabob",
           "why": "Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation.",
           "evidence": "documented_cursed_victim_and_flavor",
@@ -1240,22 +1300,6 @@
             "oracle": "Vigilance\nIf a permanent entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nPermanents entering don't cause abilities of permanents your opponents control to trigger.",
             "preferred_printing_found": true
           }
-        },
-        {
-          "name": "Realmbreaker, the Invasion Tree",
-          "why": "Elesh Norn’s later multiversal invasion method—a successor’s scheme, not Yawgmoth’s own weapon.",
-          "evidence": "posthumous_successor_plan",
-          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
-          "preferred_set": "MOM",
-          "printing": {
-            "set": "MOM",
-            "collector": "263",
-            "url": "https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Legendary Artifact",
-            "oracle": "{2}, {T}: Target opponent mills three cards. Put a land card from their graveyard onto the battlefield tapped under your control. It gains \"If this land would leave the battlefield, exile it instead of putting it anywhere else.\"\n{10}, {T}, Sacrifice Realmbreaker: Search your library for any number of Praetor cards, put them onto the battlefield, then shuffle.",
-            "preferred_printing_found": true
-          }
         }
       ]
     },
@@ -1341,47 +1385,47 @@
           }
         },
         {
-          "name": "Urza's Mine",
-          "why": "Urza’s artifact war and long path toward the war on Yawgmoth.",
+          "name": "Ancient Den",
+          "why": "Select the Brothers’ War Commander printing explicitly identifying Halcyon, the once-floating Thran capital destroyed in Yawgmoth’s rise. This is an exact-printing flavor-text connection, not a claim that Mirrodin-set art depicts Halcyon.",
           "evidence": "historical_setting_land",
-          "preferred_set": "2XM",
+          "preferred_set": "BRC",
           "printing": {
-            "set": "2XM",
-            "collector": "329",
-            "url": "https://scryfall.com/card/2xm/329/urzas-mine?utm_source=api",
-            "printed_flavor": "In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.",
-            "type_line": "Land — Urza's Mine",
-            "oracle": "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.",
+            "set": "BRC",
+            "collector": "172",
+            "url": "https://scryfall.com/card/brc/172/ancient-den?utm_source=api",
+            "printed_flavor": "\"Halcyon, the floating capital of the Thran. The once shining city in the clouds now lies ruined on the desert floor.\"\n—*Fall of the Thran*",
+            "type_line": "Artifact Land",
+            "oracle": "{T}: Add {W}.",
             "preferred_printing_found": true
           }
         },
         {
-          "name": "Urza's Power Plant",
-          "why": "Urza’s wartime infrastructure.",
+          "name": "Vault of Whispers",
+          "why": "Select the Brothers’ War Commander printing quoting Fall of the Thran on Koilos, the Thran prison-city where the earliest Phyrexian influence took root; not a literal depiction of Glacian’s sickroom.",
           "evidence": "historical_setting_land",
-          "preferred_set": "2XM",
+          "preferred_set": "BRC",
           "printing": {
-            "set": "2XM",
-            "collector": "330",
-            "url": "https://scryfall.com/card/2xm/330/urzas-power-plant?utm_source=api",
-            "printed_flavor": "Urza threw himself into his research, pushing the boundaries of both possibility and morality.",
-            "type_line": "Land — Urza's Power-Plant",
-            "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.",
+            "set": "BRC",
+            "collector": "211",
+            "url": "https://scryfall.com/card/brc/211/vault-of-whispers?utm_source=api",
+            "printed_flavor": "\"Koilos, the Thran prison-city, built to house their outcasts and dissidents. It was here that Phyrexia's influence first festered.\"\n—*Fall of the Thran*",
+            "type_line": "Artifact Land",
+            "oracle": "{T}: Add {B}.",
             "preferred_printing_found": true
           }
         },
         {
-          "name": "Urza's Tower",
-          "why": "Urza’s wartime infrastructure.",
+          "name": "Contaminated Aquifer",
+          "why": "The Dominaria United land directly invokes Yawgmoth’s continuing legacy in the extensive underground caves. A retrospective landscape echo rather than a Thran-era scene.",
           "evidence": "historical_setting_land",
-          "preferred_set": "ATQ",
+          "preferred_set": "DMU",
           "printing": {
-            "set": "ATQ",
-            "collector": "85a",
-            "url": "https://scryfall.com/card/atq/85a/urzas-tower?utm_source=api",
-            "printed_flavor": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
-            "type_line": "Land — Urza's Tower",
-            "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.",
+            "set": "DMU",
+            "collector": "245",
+            "url": "https://scryfall.com/card/dmu/245/contaminated-aquifer?utm_source=api",
+            "printed_flavor": "The caves stretch farther than anyone knows, and the terrible legacy of Yawgmoth lurks in every shadow.",
+            "type_line": "Land — Island Swamp",
+            "oracle": "({T}: Add {U} or {B}.)\nThis land enters tapped.",
             "preferred_printing_found": true
           }
         },
@@ -1652,47 +1696,47 @@
       }
     },
     {
-      "name": "Urza's Mine",
-      "why": "Urza’s artifact war and long path toward the war on Yawgmoth.",
-      "preferred_set": "2XM",
+      "name": "Ancient Den",
+      "why": "Select the Brothers’ War Commander printing explicitly identifying Halcyon, the once-floating Thran capital destroyed in Yawgmoth’s rise. This is an exact-printing flavor-text connection, not a claim that Mirrodin-set art depicts Halcyon.",
+      "preferred_set": "BRC",
       "source": "",
       "printing": {
-        "set": "2XM",
-        "collector": "329",
-        "url": "https://scryfall.com/card/2xm/329/urzas-mine?utm_source=api",
-        "printed_flavor": "In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.",
-        "type_line": "Land — Urza's Mine",
-        "oracle": "{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.",
+        "set": "BRC",
+        "collector": "172",
+        "url": "https://scryfall.com/card/brc/172/ancient-den?utm_source=api",
+        "printed_flavor": "\"Halcyon, the floating capital of the Thran. The once shining city in the clouds now lies ruined on the desert floor.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {W}.",
         "preferred_printing_found": true
       }
     },
     {
-      "name": "Urza's Power Plant",
-      "why": "Urza’s wartime infrastructure.",
-      "preferred_set": "2XM",
+      "name": "Vault of Whispers",
+      "why": "Select the Brothers’ War Commander printing quoting Fall of the Thran on Koilos, the Thran prison-city where the earliest Phyrexian influence took root; not a literal depiction of Glacian’s sickroom.",
+      "preferred_set": "BRC",
       "source": "",
       "printing": {
-        "set": "2XM",
-        "collector": "330",
-        "url": "https://scryfall.com/card/2xm/330/urzas-power-plant?utm_source=api",
-        "printed_flavor": "Urza threw himself into his research, pushing the boundaries of both possibility and morality.",
-        "type_line": "Land — Urza's Power-Plant",
-        "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.",
+        "set": "BRC",
+        "collector": "211",
+        "url": "https://scryfall.com/card/brc/211/vault-of-whispers?utm_source=api",
+        "printed_flavor": "\"Koilos, the Thran prison-city, built to house their outcasts and dissidents. It was here that Phyrexia's influence first festered.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {B}.",
         "preferred_printing_found": true
       }
     },
     {
-      "name": "Urza's Tower",
-      "why": "Urza’s wartime infrastructure.",
-      "preferred_set": "ATQ",
+      "name": "Contaminated Aquifer",
+      "why": "The Dominaria United land directly invokes Yawgmoth’s continuing legacy in the extensive underground caves. A retrospective landscape echo rather than a Thran-era scene.",
+      "preferred_set": "DMU",
       "source": "",
       "printing": {
-        "set": "ATQ",
-        "collector": "85a",
-        "url": "https://scryfall.com/card/atq/85a/urzas-tower?utm_source=api",
-        "printed_flavor": "Urza always put Tocasia's lessons on resource-gathering to effective use.",
-        "type_line": "Land — Urza's Tower",
-        "oracle": "{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.",
+        "set": "DMU",
+        "collector": "245",
+        "url": "https://scryfall.com/card/dmu/245/contaminated-aquifer?utm_source=api",
+        "printed_flavor": "The caves stretch farther than anyone knows, and the terrible legacy of Yawgmoth lurks in every shadow.",
+        "type_line": "Land — Island Swamp",
+        "oracle": "({T}: Add {U} or {B}.)\nThis land enters tapped.",
         "preferred_printing_found": true
       }
     },
@@ -1886,13 +1930,13 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
+  "raw_decklist_sha256": "9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346",
   "counts": {
     "all_cards": 100,
     "commander": 1,
     "distinct_nonbasic": 90,
     "basic_copies": 10,
     "lands": 30,
-    "with_printed_flavor": 60
+    "with_printed_flavor": 59
   }
 }
