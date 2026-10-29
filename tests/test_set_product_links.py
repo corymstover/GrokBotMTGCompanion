@@ -6,6 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 from audit_set_product_links import build, clean
+from set_product_lookup import lookup
 
 
 def entry(code, kind, *, parent=None, released="2020-01-01", digital=False):
@@ -57,6 +58,19 @@ class ProductLinkTests(unittest.TestCase):
             clean([entry("abc", "promo", released="2026-52-50")])
         with self.assertRaisesRegex(ValueError, "self-referential"):
             build(snapshot([entry("aaa", "expansion", parent="aaa")]), atlas(["aaa"]))
+
+    def test_offline_filters_and_future_exclusion(self):
+        source = snapshot([
+            entry("aaa", "expansion", released="1994-06-01"),
+            entry("pa", "promo", parent="aaa", released="1994-06-01"),
+            entry("later", "expansion", released="2027-02-05")
+        ])
+        catalog, _ = build(source, atlas(["aaa", "pa", "later"]))
+        self.assertEqual([r["code"] for r in lookup(catalog, year=1994, set_type="expansion")], ["aaa"])
+        self.assertEqual([r["code"] for r in lookup(catalog, parent="aaa")], ["pa"])
+        self.assertEqual(len(lookup(catalog)), 2)
+        self.assertEqual(len(lookup(catalog, include_future=True)), 3)
+        self.assertEqual([r["code"] for r in lookup(catalog, earliest="2027-01-01", include_future=True)], ["later"])
 
     def test_derived_output_is_stable(self):
         s = snapshot([entry("aaa", "expansion"), entry("bbb", "promo", parent="aaa")])
