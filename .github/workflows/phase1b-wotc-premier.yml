@@ -1,0 +1,51 @@
+name: Phase 1B Wizards release taxonomy validation
+on:
+  pull_request:
+    paths:
+      - scripts/audit_wotc_premier_sets.py
+      - tests/test_wotc_premier_sets.py
+      - data/set_atlas/wotc_reviewed_release_evidence_2026-10-29.json
+      - data/set_atlas/wotc_release_classification_2026-10-29.json
+      - .github/workflows/phase1b-wotc-premier.yml
+  push:
+    branches:
+      - chatgpt-phase1b-wotc-premier-20261029
+      - main
+    paths:
+      - scripts/audit_wotc_premier_sets.py
+      - tests/test_wotc_premier_sets.py
+      - data/set_atlas/wotc_reviewed_release_evidence_2026-10-29.json
+      - data/set_atlas/wotc_release_classification_2026-10-29.json
+      - .github/workflows/phase1b-wotc-premier.yml
+permissions:
+  contents: write
+jobs:
+  verify-reviewed-taxonomy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify evidence, type and cutoff invariants
+        run: python3 -m unittest discover -s tests -p test_wotc_premier_sets.py -v
+      - name: Publish reproducible reviewed classification on source branch only
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-wotc-premier-20261029'
+        run: |
+          python3 scripts/audit_wotc_premier_sets.py --write
+      - name: Replay exact committed classification
+        run: |
+          python3 scripts/audit_wotc_premier_sets.py
+          python3 -m py_compile scripts/audit_wotc_premier_sets.py
+      - name: Commit generated classification without editing other sources
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-wotc-premier-20261029'
+        run: |
+          git add data/set_atlas/wotc_release_classification_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish reproducible Wizards release-family evidence audit"
+            git push origin HEAD:chatgpt-phase1b-wotc-premier-20261029
+          fi
