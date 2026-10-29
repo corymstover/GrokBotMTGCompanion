@@ -15,6 +15,40 @@
     "Three Commander-banned cards are knowingly included under Cory’s story-first Rule 0 exception: Yawgmoth’s Bargain, Sundering Titan, and Tolarian Academy.",
     "No power bracket or sanctioned Commander legality is asserted."
   ],
+  "revision_note": {
+    "reason": "Cory asked why Phyresis and more actual Phyrexians were missing. Added the complete four-stage illness-progress-notes sequence and explicit Old/New Phyrexia manufacturing and compleation scenes; removed redundant hero scenes and later setting lands.",
+    "previous_unapproved_sha256": "23913d43fe206722dc35ce0fc7e8fae8db2c295414098d58bba10002f800b7f6",
+    "swaps": [
+      {
+        "out": "Yawgmoth Demon",
+        "in": "Phyrexian Arena"
+      },
+      {
+        "out": "Urza, Lord Protector",
+        "in": "Phyrexian Processor"
+      },
+      {
+        "out": "The Mightstone and Weakstone",
+        "in": "Phyrexian Denouncer"
+      },
+      {
+        "out": "Belbe, Corrupted Observer",
+        "in": "Phyrexian Debaser"
+      },
+      {
+        "out": "Freyalise, Llanowar's Fury",
+        "in": "Phyrexian Defiler"
+      },
+      {
+        "out": "The Surgical Bay",
+        "in": "Phyresis"
+      },
+      {
+        "out": "The Fair Basilica",
+        "in": "Phyrexian Rebirth"
+      }
+    ]
+  },
   "story_sources": [
     "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
     "https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30",
@@ -22,6 +56,8 @@
     "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
     "https://magic.wizards.com/en/story/dominaria-plane",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
+    "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022",
     "https://mtglore.com/web-articles/commander-2017-edition-commanders/"
@@ -188,18 +224,18 @@
           }
         },
         {
-          "name": "Yawgmoth Demon",
-          "why": "An early named personification of Yawgmoth’s monstrous servants, not a portrait of his own body.",
-          "evidence": "named_yawgmoth_servant",
-          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
-          "preferred_set": "ATQ",
+          "name": "Phyrexian Processor",
+          "why": "Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection.",
+          "evidence": "official_yawgmoth_machine",
+          "source": "https://magic.wizards.com/en/news/feature/vault-lore-2016-08-01",
+          "preferred_set": "SLD",
           "printing": {
-            "set": "ATQ",
-            "collector": "21",
-            "url": "https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Creature — Phyrexian Demon",
-            "oracle": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nFirst strike (This creature deals combat damage before creatures without first strike.)\nAt the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap this creature and it deals 2 damage to you.",
+            "set": "SLD",
+            "collector": "2445",
+            "url": "https://scryfall.com/card/sld/2445/phyrexian-processor?utm_source=api",
+            "printed_flavor": "An assembly line of inhumanity.",
+            "type_line": "Artifact",
+            "oracle": "As this artifact enters, pay any amount of life.\n{4}, {T}: Create an X/X black Phyrexian Minion creature token, where X is the life paid as this artifact entered.",
             "preferred_printing_found": true
           }
         },
@@ -280,6 +316,22 @@
             "printed_flavor": "",
             "type_line": "Creature — Phyrexian Zombie Knight",
             "oracle": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)\nWhenever this creature deals damage to a player, that player discards a card.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyrexian Arena",
+          "why": "The original Apocalypse edition captures the cruelty of the old regime, rather than the later Sheoldred or Jace/Vraska scenes of reprints.",
+          "evidence": "old_phyrexia_period_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "APC",
+          "printing": {
+            "set": "APC",
+            "collector": "47",
+            "url": "https://scryfall.com/card/apc/47/phyrexian-arena?utm_source=api",
+            "printed_flavor": "An audience of one with the malice of thousands.",
+            "type_line": "Enchantment",
+            "oracle": "At the beginning of your upkeep, you draw a card and lose 1 life.",
             "preferred_printing_found": true
           }
         },
@@ -389,22 +441,6 @@
           }
         },
         {
-          "name": "Urza, Lord Protector",
-          "why": "Mishra’s brother and Yawgmoth’s adversary for thousands of years.",
-          "evidence": "named_enemy",
-          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
-          "preferred_set": "BRO",
-          "printing": {
-            "set": "BRO",
-            "collector": "225",
-            "url": "https://scryfall.com/card/bro/225/urza-lord-protector?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Legendary Creature — Human Artificer",
-            "oracle": "Artifact, instant, and sorcery spells you cast cost {1} less to cast.\n{7}: If you both own and control Urza, Lord Protector and an artifact named The Mightstone and Weakstone, exile them, then meld them into Urza, Planeswalker. Activate only as a sorcery.",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "Gix, Yawgmoth Praetor",
           "why": "Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia.",
           "evidence": "named_agent",
@@ -481,22 +517,6 @@
             "printed_flavor": "",
             "type_line": "Enchantment — Saga",
             "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create two tapped Powerstone tokens.\nII — Choose two target players. Until your next turn, each creature they control attacks the other chosen player each combat if able.\nIII — This Saga deals X damage to any target and X damage to any other target, where X is the number of artifacts you control.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "The Mightstone and Weakstone",
-          "why": "Their combined material inheritance from Glacian, still the pivot of Urza’s fate.",
-          "evidence": "physical_historical_artifact",
-          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
-          "preferred_set": "BRO",
-          "printing": {
-            "set": "BRO",
-            "collector": "238",
-            "url": "https://scryfall.com/card/bro/238/the-mightstone-and-weakstone?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Legendary Artifact — Powerstone",
-            "oracle": "When The Mightstone and Weakstone enters, choose one —\n• Draw two cards.\n• Target creature gets -5/-5 until end of turn.\n{T}: Add {C}{C}. This mana can't be spent to cast nonartifact spells.\n(Melds with Urza, Lord Protector.)",
             "preferred_printing_found": true
           }
         },
@@ -590,22 +610,6 @@
           }
         },
         {
-          "name": "Belbe, Corrupted Observer",
-          "why": "An elf made into a Phyrexian envoy during the Evincar succession, but she retained moral agency.",
-          "evidence": "named_phyrexian_creation",
-          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
-          "preferred_set": "CMR",
-          "printing": {
-            "set": "CMR",
-            "collector": "270",
-            "url": "https://scryfall.com/card/cmr/270/belbe-corrupted-observer?utm_source=api",
-            "printed_flavor": "\"Those who wish to become evincar must first cast off the shackles of compassion.\"",
-            "type_line": "Legendary Creature — Phyrexian Zombie Elf",
-            "oracle": "At the beginning of each postcombat main phase, the active player adds {C}{C} for each of your opponents who lost life this turn. (Damage causes loss of life.)",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "Volrath the Fallen",
           "why": "The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground.",
           "evidence": "named_agent",
@@ -686,9 +690,57 @@
           }
         },
         {
+          "name": "Phyrexian Denouncer",
+          "why": "First stage of the Phyrexian illness; original Urza’s Legacy flavor begins a four-card progression.",
+          "evidence": "first_illness_stage_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "ULG",
+          "printing": {
+            "set": "ULG",
+            "collector": "61",
+            "url": "https://scryfall.com/card/ulg/61/phyrexian-denouncer?utm_source=api",
+            "printed_flavor": "\"The first stage of the illness: rash and nausea.\"\n—Phyrexian progress notes",
+            "type_line": "Creature — Phyrexian Carrier",
+            "oracle": "{T}, Sacrifice this creature: Target creature gets -1/-1 until end of turn.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyrexian Debaser",
+          "why": "Second stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression.",
+          "evidence": "second_illness_stage_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "ULG",
+          "printing": {
+            "set": "ULG",
+            "collector": "59",
+            "url": "https://scryfall.com/card/ulg/59/phyrexian-debaser?utm_source=api",
+            "printed_flavor": "\"The second stage of the illness: high fever and severe infectiousness.\"\n—Phyrexian progress notes",
+            "type_line": "Creature — Phyrexian Carrier",
+            "oracle": "Flying\n{T}, Sacrifice this creature: Target creature gets -2/-2 until end of turn.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyrexian Defiler",
+          "why": "Third stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression.",
+          "evidence": "third_illness_stage_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "ULG",
+          "printing": {
+            "set": "ULG",
+            "collector": "60",
+            "url": "https://scryfall.com/card/ulg/60/phyrexian-defiler?utm_source=api",
+            "printed_flavor": "\"The third stage of the illness: muscle aches and persistent cough.\"\n—Phyrexian progress notes",
+            "type_line": "Creature — Phyrexian Carrier",
+            "oracle": "{T}, Sacrifice this creature: Target creature gets -3/-3 until end of turn.",
+            "preferred_printing_found": true
+          }
+        },
+        {
           "name": "Phyrexian Plaguelord",
-          "why": "Original Urza’s Legacy exemplification of the engineered servants in Yawgmoth’s force.",
-          "evidence": "period_military_creation",
+          "why": "Final stage of the Phyrexian illness; original Urza’s Legacy flavor concludes the four-card progression.",
+          "evidence": "final_illness_stage_printing",
           "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
           "preferred_set": "ULG",
           "printing": {
@@ -887,22 +939,6 @@
           }
         },
         {
-          "name": "Freyalise, Llanowar's Fury",
-          "why": "The planeswalker opposing Phyrexia, associated with the destruction of part of its defenses.",
-          "evidence": "historical_planar_war_participant",
-          "source": "https://magic.wizards.com/en/story/dominaria-plane",
-          "preferred_set": "C14",
-          "printing": {
-            "set": "C14",
-            "collector": "43",
-            "url": "https://scryfall.com/card/c14/43/freyalise-llanowars-fury?utm_source=api",
-            "printed_flavor": "",
-            "type_line": "Legendary Planeswalker — Freyalise",
-            "oracle": "+2: Create a 1/1 green Elf Druid creature token with \"{T}: Add {G}.\"\n−2: Destroy target artifact or enchantment.\n−6: Draw a card for each green creature you control.\nFreyalise, Llanowar's Fury can be your commander.",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "Urza's Guilt",
           "why": "The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat.",
           "evidence": "literal_printed_moment",
@@ -1084,6 +1120,38 @@
             "printed_flavor": "",
             "type_line": "Enchantment — Aura",
             "oracle": "Enchant creature\nEnchanted creature has infect.\nAt the beginning of your upkeep, put a -1/-1 counter on enchanted creature.\nWhen this Aura is put into a graveyard from the battlefield, return it to its owner's hand.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyresis",
+          "why": "Sheoldred explicitly celebrates becoming compleat; depicts post-Yawgmoth New Phyrexia, not a living Yawgmoth order.",
+          "evidence": "posthumous_compleation_process",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
+          "preferred_set": "MBS",
+          "printing": {
+            "set": "MBS",
+            "collector": "49",
+            "url": "https://scryfall.com/card/mbs/49/phyresis?utm_source=api",
+            "printed_flavor": "\"Perfection is at hand. You have been freed of weakness and made *compleat*.\"\n—Sheoldred, Whispering One",
+            "type_line": "Enchantment — Aura",
+            "oracle": "Enchant creature\nEnchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyrexian Rebirth",
+          "why": "Its original Mirrodin Besieged flavor says the work continues as long as any glistening oil remains.",
+          "evidence": "posthumous_oil_rebirth",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
+          "preferred_set": "MBS",
+          "printing": {
+            "set": "MBS",
+            "collector": "15",
+            "url": "https://scryfall.com/card/mbs/15/phyrexian-rebirth?utm_source=api",
+            "printed_flavor": "As long as one drop of the oil exists, the joyous work continues.",
+            "type_line": "Sorcery",
+            "oracle": "Destroy all creatures, then create an X/X colorless Phyrexian Horror artifact creature token, where X is the number of creatures destroyed this way.",
             "preferred_printing_found": true
           }
         },
@@ -1445,36 +1513,6 @@
           }
         },
         {
-          "name": "The Surgical Bay",
-          "why": "The later biomechanical surgery sphere; echo of Yawgmoth’s Thran experiments.",
-          "evidence": "historical_setting_land",
-          "preferred_set": "ONE",
-          "printing": {
-            "set": "ONE",
-            "collector": "260",
-            "url": "https://scryfall.com/card/one/260/the-surgical-bay?utm_source=api",
-            "printed_flavor": "In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics.",
-            "type_line": "Land — Sphere",
-            "oracle": "This land enters tapped.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice this land: Draw a card.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "The Fair Basilica",
-          "why": "Elesh Norn’s religious power center, in rivalry with other interpretations of Yawgmoth’s legacy.",
-          "evidence": "historical_setting_land",
-          "preferred_set": "ONE",
-          "printing": {
-            "set": "ONE",
-            "collector": "252",
-            "url": "https://scryfall.com/card/one/252/the-fair-basilica?utm_source=api",
-            "printed_flavor": "In Elesh Norn's domain, the gospel of unity is the highest law.",
-            "type_line": "Land — Sphere",
-            "oracle": "This land enters tapped.\n{T}: Add {W}.\n{1}{W}, {T}, Sacrifice this land: Draw a card.",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "The Mycosynth Gardens",
           "why": "Core of the later plane built on the infection left behind by the old empire.",
           "evidence": "historical_setting_land",
@@ -1786,36 +1824,6 @@
       }
     },
     {
-      "name": "The Surgical Bay",
-      "why": "The later biomechanical surgery sphere; echo of Yawgmoth’s Thran experiments.",
-      "preferred_set": "ONE",
-      "source": "",
-      "printing": {
-        "set": "ONE",
-        "collector": "260",
-        "url": "https://scryfall.com/card/one/260/the-surgical-bay?utm_source=api",
-        "printed_flavor": "In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics.",
-        "type_line": "Land — Sphere",
-        "oracle": "This land enters tapped.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice this land: Draw a card.",
-        "preferred_printing_found": true
-      }
-    },
-    {
-      "name": "The Fair Basilica",
-      "why": "Elesh Norn’s religious power center, in rivalry with other interpretations of Yawgmoth’s legacy.",
-      "preferred_set": "ONE",
-      "source": "",
-      "printing": {
-        "set": "ONE",
-        "collector": "252",
-        "url": "https://scryfall.com/card/one/252/the-fair-basilica?utm_source=api",
-        "printed_flavor": "In Elesh Norn's domain, the gospel of unity is the highest law.",
-        "type_line": "Land — Sphere",
-        "oracle": "This land enters tapped.\n{T}: Add {W}.\n{1}{W}, {T}, Sacrifice this land: Draw a card.",
-        "preferred_printing_found": true
-      }
-    },
-    {
       "name": "The Mycosynth Gardens",
       "why": "Core of the later plane built on the infection left behind by the old empire.",
       "preferred_set": "ONE",
@@ -1840,13 +1848,13 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "23913d43fe206722dc35ce0fc7e8fae8db2c295414098d58bba10002f800b7f6",
+  "raw_decklist_sha256": "d6924307ddf0f6c1d5c43286543e6077b2642ed8c24548057e43e5841f5b9ec7",
   "counts": {
     "all_cards": 100,
     "commander": 1,
     "distinct_nonbasic": 90,
     "basic_copies": 10,
-    "lands": 32,
-    "with_printed_flavor": 58
+    "lands": 30,
+    "with_printed_flavor": 62
   }
 }
