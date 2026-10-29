@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "coverage": "First curated Wizards-backed recent-release classification; not a complete 1993-present premier-set certification.",
+  "evidence_policy": "Only exact set codes reviewed against Wizards primary sources. All unreviewed codes remain unclassified. Group means Wizards product family, not a game legality ruling. Scryfall expansion/core category alone never upgrades a code to premier.",
+  "sources": [
+    "https://magic.wizards.com/en/products",
+    "https://magic.wizards.com/en/news/making-magic/odds-ends-strixhaven-part-1-2021-05-03"
+  ],
+  "records": [
+    {
+      "code": "acr",
+      "group": "official_special_product",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Special Products"
+    },
+    {
+      "code": "big",
+      "group": "official_main_set_subset",
+      "source": "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-mechanics",
+      "source_section": "Set codes OTJ and BIG",
+      "reason": "30-card Big Score subset accompanying OTJ; do not count as a separate main release"
+    },
+    {
+      "code": "blb",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "dft",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "dsk",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "ecl",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "eoe",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "fdn",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "fin",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "fra",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "hob",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "inr",
+      "group": "official_special_product",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Special Products"
+    },
+    {
+      "code": "lci",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "mat",
+      "group": "official_epilogue_micro_set",
+      "source": "https://magic.wizards.com/en/news/making-magic/doing-the-aftermath",
+      "source_section": "Time for an Epilogue",
+      "reason": "Separate Standard-legal epilogue product; not folded into the normal main-release count"
+    },
+    {
+      "code": "mdd",
+      "group": "official_upcoming_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Upcoming Sets"
+    },
+    {
+      "code": "mh3",
+      "group": "official_special_product",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Special Products"
+    },
+    {
+      "code": "mkm",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "mom",
+      "group": "official_2023_main_set",
+      "source": "https://magic.wizards.com/en/news/feature/march-of-the-machine-release-notes",
+      "source_section": "General Notes: Card Legality"
+    },
+    {
+      "code": "msh",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "om1",
+      "group": "official_digital_universes_within_counterpart",
+      "source": "https://magic.wizards.com/en/news/announcements/through-the-omenpaths-and-digital-universes-beyond-updates",
+      "source_section": "Through the Omenpaths",
+      "reason": "Digital version of tabletop Universes Beyond content, not an additional premier paper release"
+    },
+    {
+      "code": "one",
+      "group": "official_2023_main_set",
+      "source": "https://magic.wizards.com/en/news/feature/phyrexia-all-will-be-one-release-notes",
+      "source_section": "General Notes: Card Legality"
+    },
+    {
+      "code": "otj",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "pip",
+      "group": "official_special_product",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Special Products"
+    },
+    {
+      "code": "sos",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "spm",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "tdm",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    },
+    {
+      "code": "tla",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "tmt",
+      "group": "official_universes_beyond_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Universes Beyond Set Releases"
+    },
+    {
+      "code": "trk",
+      "group": "official_upcoming_main_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Upcoming Sets"
+    },
+    {
+      "code": "woe",
+      "group": "official_main_set_release",
+      "source": "https://magic.wizards.com/en/products",
+      "source_section": "Set Releases"
+    }
+  ]
+}
