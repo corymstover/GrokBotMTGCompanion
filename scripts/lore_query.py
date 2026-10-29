@@ -10,6 +10,10 @@ Examples (from repository root):
   python3 scripts/lore_query.py timeline omenpaths
   python3 scripts/lore_query.py candidates "Urza" --limit 30
   python3 scripts/lore_query.py beats "Ugin vs Nicol Bolas" --limit 12
+  python3 scripts/lore_query.py variants "Toxic Deluge" --limit 10
+  python3 scripts/lore_query.py deep Yawgmoth --limit 30
+  python3 scripts/lore_query.py gaps Yawgmoth --decklist yawgmoth.txt --limit 30
+  python3 scripts/lore_query.py deep Yawgmoth --include-parody
 
 JSON is the default for ChatGPT scripts; --human gives a concise readable view.
 Scryfall export covers English/default-language printings, not all translations.
@@ -27,6 +31,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import export_printing_lore as P
 import lore_evidence as E
+import lore_deep_research as D
 
 TIMELINE_SECTIONS = {
     "ar": "Dated events (AR)",
@@ -150,6 +155,15 @@ def story_candidates(term, data, evidence, limit=30):
 
 def run(args):
     archive = args.archive
+    if args.action == "variants":
+        return D.variants(args.term, archive, limit=args.limit)
+    if args.action in ("deep", "gaps"):
+        return D.deep_research(args.term, archive,
+                               decklist=args.decklist if args.action == "gaps" else None,
+                               profile_dir=args.profile_dir, limit=args.limit,
+                               max_variants=args.max_variants,
+                               include_parody=args.include_parody,
+                               index_path=args.lore_index)
     if args.action == "set":
         return P.lookup(archive, args.term, None, limit=args.limit)
     if args.action == "card":
@@ -180,12 +194,19 @@ def main(argv=None):
     parser.add_argument("--timeline", type=Path, default=ROOT / "Master Timeline.md")
     parser.add_argument("--human", action="store_true")
     sub = parser.add_subparsers(dest="action", required=True)
-    for action in ("set", "card", "flavor", "lore", "candidates", "beats"):
+    for action in ("set", "card", "flavor", "lore", "candidates", "beats", "variants", "deep", "gaps"):
         p = sub.add_parser(action)
         p.add_argument("term")
         p.add_argument("--limit", type=int, default=30)
         if action in ("flavor", "lore", "candidates"):
             p.add_argument("--set", dest="sets", action="append", default=[])
+        if action in ("deep", "gaps"):
+            p.add_argument("--profile-dir", type=Path, default=D.DEFAULT_PROFILES)
+            p.add_argument("--max-variants", type=int, default=5)
+            p.add_argument("--include-parody", action="store_true")
+            p.add_argument("--lore-index", type=Path, default=D.DEFAULT_LORE_INDEX)
+        if action == "gaps":
+            p.add_argument("--decklist", type=Path, required=True)
     t = sub.add_parser("timeline")
     t.add_argument("scope", choices=list(TIMELINE_SECTIONS))
     args = parser.parse_args(argv)
@@ -205,6 +226,22 @@ def main(argv=None):
         elif args.action == "candidates":
             for row in result["candidates"]:
                 print(f"  {row['rank']}. {row['card_or_reference']} [{', '.join(row['evidence'])}]")
+        elif args.action == "variants":
+            print(f"{result['card']}: {result['total_english_paper_printing_faces']} printed faces, "
+                  f"{result['distinct_flavor_variants_including_blank']} distinct flavor variants")
+            for row in result["flavor_variants"]:
+                editions = ", ".join(f"{ed['set']} #{ed['collector']}" for ed in row["exact_printings"][:6])
+                print(f"  {row['flavor_text'] or '[no flavor text]'} ({editions})")
+        elif args.action in ("deep", "gaps"):
+            print(f"{result['subject']}: {result['total_evidence_candidates']} evidence candidates "
+                  f"(profile: {'yes' if result['profile_used'] else 'no'})")
+            if args.action == "gaps":
+                print(f"  {result['total_not_in_deck']} not in {result['decklist_slots']}-slot decklist")
+            for row in result["candidates"]:
+                ed = row["best_printing"]
+                print(f"  {row['score']}: {row['card']} [{row['phase']}] {ed['set']} #{ed['collector']}")
+                if ed['printed_flavor']:
+                    print(f"     {ed['printed_flavor'][:160]}")
         else:
             print(json.dumps(result, indent=2, ensure_ascii=False))
     else:
