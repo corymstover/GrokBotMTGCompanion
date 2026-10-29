@@ -2,6 +2,12 @@
 
 Status: **incomplete, paused after GrokBot cycle 36**. This file documents a safe recovery path; it does not retroactively claim the missing cards have been enriched.
 
+## Source recovery checkpoint — 2026-10-29
+
+A fresh, polite run of the documented official-source fetcher recovered all **660/660** inventoried URLs (626 primary stories, 26 extras, 8 rules/feature articles). The strict `story_cache_audit.py` pass reported **660 present**, **0 missing/invalid/suspect**, and **0 path collisions**. The result is preserved as [metadata-only provenance](data/story_cache_provenance_2026-10-29.json) (SHA-256 `9dc5aacf314cdd36c3a67b68a8eb8bded96e55bc721eb544697e3d50a896d5ee`). It records source URLs, titles, dates, extract lengths and individual hashes, **not** article bodies.
+
+The gitignored full-text cache existed in the recovery workspace only; it is **not** restored by cloning the repo or reading the metadata report. In a new environment, rerun the resumable fetcher and strict audit before using the text for lore claims. This checkpoint does not advance the separately gated **3,397/5,361** card enrichment count or resolve the **341** uncertain character connections.
+
 ## Recorded baseline (2026-10-15)
 
 From `ROADMAP.md`, `Progress Tracker.md` and the generated `Card Enrichment.md`:
@@ -21,6 +27,7 @@ These totals are **not** automatically current as new Magic sets release. Run `p
 2. **Recover source caches first.** The original repo's scratch recovery path `/workspace/salvage-c36/` was not part of the Git repository, and third-party caches may be absent in fresh environments. Regenerate Scryfall, EDHREC and Commander Spellbook snapshots through the approved scripts/normal credentials, preserving acquisition dates and licensing limits. Never substitute guessed values for an unavailable source.
    - The 660-entry *official Wizards* inventory is recoverable from `data/primary_sources.csv` (626 story URLs), `data/story_extra_sources.csv` (26 extra pages) and the eight published rules/policy URLs in `scripts/fetch_story_pages.py`. Install `beautifulsoup4` and `lxml`, then run `python3 scripts/fetch_story_pages.py --delay 1.0`; its cache is resumable under `.cache/story/` and must remain gitignored.
    - **Audit the recovered evidence before using it:** `python3 scripts/story_cache_audit.py --strict`. This checks expected URL headers, nonempty extracts, unusually short content, and cache-path collisions. A fetch succeeding is not proof that the desired article body was extracted. Use `--output /tmp/story-cache-audit.json` to retain a metadata-only provenance report (URLs, titles, word counts and SHA-256 hashes; never article bodies). Review failures individually and preserve them as unresolved instead of fabricating stories.
+   - **Repair suspect cache entries without refetching valid pages:** `python3 scripts/fetch_story_pages.py --repair --delay 1.0`. This uses the exact audit checks to refetch missing, wrong-URL, empty, or unusually short entries while preserving healthy cached pages. Run the strict audit again afterward. `--refresh` still intentionally refetches everything and is mutually exclusive with `--repair`.
    - Cache restoration does **not** by itself increase the 3,397-card enrichment count, validate an existing biography deck, or recover the original GrokBot EDHREC / Spellbook requests. Those are separate evidence-building tasks with their own gates.
 3. **Keep approvals frozen.** No write to `grixis/`, `data/grixis/`, `exports/grixis-archidekt/`, the 62 canonical decklists, approval hashes or owner-lock records. A separate authorization and its existing certification gates are required for any deck change.
 4. **Rebuild in bounded, versioned batches.** Recover the remaining 1,964 legendary creatures in incremental rank intervals/checkpoints, with a rollback-friendly PR per slice. Source code currently has `RANK36 = 9647` and `UNRANKED36 = False` as the historical stopping point; changing those numbers is a substantive new batch requiring caches and exact-head CI, not an automatic status flip.
@@ -33,6 +40,7 @@ These totals are **not** automatically current as new Magic sets release. Run `p
 ```bash
 python3 scripts/phase8_status.py --json
 python3 scripts/story_cache_audit.py --json
+python3 scripts/fetch_story_pages.py --repair --only chronicle-bolas-twins --delay 1.0
 bash scripts/rebuild_enrichment.sh --plan
 bash scripts/rebuild_enrichment.sh --check
 python3 scripts/lore_query.py --human variants 'Corrupt'

@@ -97,6 +97,18 @@ def check_job(job, root=CACHE):
     return result
 
 
+def needs_fetch(job, root=CACHE, refresh=False, repair=False):
+    """Preserve good caches; optionally refetch invalid or short extracts.
+
+    The historical fetcher skipped any existing path, even a corrupt one. Keep
+    that legacy default for resumability, but let a deliberate --repair pass
+    use the same integrity criteria as the audit itself.
+    """
+    if refresh or not cache_path(job, root).exists():
+        return True
+    return repair and check_job(job, root)["status"] != "present"
+
+
 def audit(jobs, root=CACHE):
     paths = [str(cache_path(job, root)) for job in jobs]
     duplicates = [p for p, n in Counter(paths).items() if n > 1]
