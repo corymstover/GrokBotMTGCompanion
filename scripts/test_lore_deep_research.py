@@ -91,6 +91,10 @@ class LoreDeepResearchTests(unittest.TestCase):
         self.assertEqual(result["decklist_slots"], 4)
         self.assertEqual(result["total_not_in_deck"], 5)
         self.assertNotIn("Phyrexian Tyranny", [r["card"] for r in result["candidates"]])
+        self.assertTrue(D._deck_has_card("Mishra, Claimed by Gix // Mishra, Lost to Phyrexia",
+                                         {"mishra, claimed by gix"}))
+        self.assertFalse(D._deck_has_card("Mishra, Claimed by Gix // Mishra, Lost to Phyrexia",
+                                          {"urza, prince of kroog"}))
 
     def test_generic_subject_fallback_is_labeled(self):
         result = D.deep_research("Karn", self.archive, profile_dir=self.profiles, limit=10)
