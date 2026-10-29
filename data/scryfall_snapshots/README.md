@@ -47,6 +47,12 @@ new evidence, explicitly compare changed fields against the committed index and
 enrichment data. Never mass-overwrite manually reviewed lore, historical Grixis
 approvals, or canonical 62-deck lists as a side effect of refreshing the input.
 
+`scripts/multiverse_snapshot_reconcile.py` compares the verified new input with
+the existing index, enrichment inventory, printing-lore source manifest, and
+ruling counts without modifying any of them. The companion Actions workflow
+uploads a bounded JSON difference report for review; its findings do not grant
+authority to change historical decks or automatically promote lore links.
+
 ## October 16 historical recovery
 
 The old cache was gitignored. Bot cycle 66.3 documented temporary restoration
