@@ -2,6 +2,12 @@
 
 Status: **incomplete, paused after GrokBot cycle 36**. This file documents a safe recovery path; it does not retroactively claim the missing cards have been enriched.
 
+## Source recovery checkpoint — 2026-10-29
+
+A fresh, polite run of the documented official-source fetcher recovered all **660/660** inventoried URLs (626 primary stories, 26 extras, 8 rules/feature articles). The strict `story_cache_audit.py` pass reported **660 present**, **0 missing/invalid/suspect**, and **0 path collisions**. The result is preserved as [metadata-only provenance](data/story_cache_provenance_2026-10-29.json) (SHA-256 `9dc5aacf314cdd36c3a67b68a8eb8bded96e55bc721eb544697e3d50a896d5ee`). It records source URLs, titles, dates, extract lengths and individual hashes, **not** article bodies.
+
+The gitignored full-text cache existed in the recovery workspace only; it is **not** restored by cloning the repo or reading the metadata report. In a new environment, rerun the resumable fetcher and strict audit before using the text for lore claims. This checkpoint does not advance the separately gated **3,397/5,361** card enrichment count or resolve the **341** uncertain character connections.
+
 ## Recorded baseline (2026-10-15)
 
 From `ROADMAP.md`, `Progress Tracker.md` and the generated `Card Enrichment.md`:
