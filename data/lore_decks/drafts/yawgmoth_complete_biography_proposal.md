@@ -2,11 +2,26 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `d77fb2e2976c01c18db233a3e39816241f46e891c696b9a301a85bbd75b9812f`.
 
 **Count:** 100 cards; 30 lands; 58 of 90 nonbasic/commander suggested printings have actual flavor text.
 
-## NEW: Yawgmoth-over-Ramos story focus — still unapproved
+## FINAL BIOGRAPHY REVISION — for Cory’s approval, not yet locked
+
+**Previous unapproved SHA:** `41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6`. Cory reviewed Phyrexia-named cards and requested one last character-first pass. Four original Old Phyrexian printings tell specific additional scenes in Kerrick’s laboratory, Tsabo’s Benalish atrocities, and Crovax’s treatment of Ertai as Yawgmoth’s gift, plus the regime’s reuse of the dead.
+
+| Removed | Added | Story reason |
+|---|---|---|
+| Dark Ritual | Phyrexian Reclamation | The Duel Deck Dark Ritual re-quotes scripture already represented by Phyrexian Scriptures, whereas Reclamation presents the distinct industrial use of the dead. |
+| Gixian Infiltrator | Phyrexian Broodlings | Gix remains heavily represented by his named card, Mishra, and his Cruelty Saga; Kerrick had no scene of his actual Tolarian experiments until Broodlings. |
+| Yawgmoth's Vile Offering | Phyrexian Tyranny | The later retrospective repeats Yawgmoth’s bargain, while Tyranny uniquely records Crovax and Ertai’s relationship to the living Yawgmoth. |
+| Phyrexian Vivisector | Phyrexian Slayer | The later flavor-based recap is redundant beside surviving posthumous oil, phyresis, Karn and praetors; Slayer adds the specifically named attack on Benalia under Tsabo Tavoc. |
+
+**Original printings to preserve:** Phyrexian Reclamation ULG #63, Phyrexian Broodlings ULG #58, Phyrexian Tyranny PLS #118, Phyrexian Slayer INV #118. These are deliberate lore additions, not a power upgrade.
+
+Older revision sections are preserved for audit history; a card described there may have been removed in this final proposal.
+
+## Earlier Yawgmoth-over-Ramos focus — historical revision, superseded
 
 **Previous unapproved SHA:** `9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346`. Cory objected to six Ramos-themed cards among the 99 and supplied specific older Phyrexian/Apocalypse candidates. Prefer literal Yawgmoth flavor, distinct invasion episodes, Gix’s manipulations, and the Thran collapse; keep Ramos as a five-color commander only.
 
@@ -20,7 +35,7 @@
 | Henge of Ramos | Great Furnace |
 | Phyrexian Rebirth | Gixian Infiltrator |
 
-Already included, therefore not duplicated: Tsabo Tavoc, Planar Overlay, and Death Grasp. Gixian Infiltrator was selected over the generic Sleeper Agent because Xantcha already occupies a specific sleeper-agent role and the Infiltrator has a directly relevant Brothers’ War printed line.
+Already included, therefore not duplicated: Tsabo Tavoc, Planar Overlay, and Death Grasp. Gixian Infiltrator was selected at that earlier revision, but has since been replaced with the named Kerrick laboratory scene on Phyrexian Broodlings.
 
 Corrupt must use USG #124 (Yawgmoth touching Urza’s mind), Retaliation USG #272 (Urza realizing Mishra was lost), Warped Devotion PLS #57 (Urza voicing admiration of Yawgmoth’s glory), Planar Portal INV #308 (the invasion beginning), Gixian Infiltrator BRO #98 (a named Gix operation), and Great Furnace BRC #187 (a Fall of the Thran quote about Phoenon). Their other printings and artwork can differ. The Cruelty of Gix DMU #87 is a historical Saga with no printed flavor.
 
@@ -74,7 +89,7 @@ Toxic Deluge must be Commander Collection: Black CC2 #6, illustrated by Yeong-Ha
 
 Last Stand (APC #107) depicts Yawgmoth’s dominating cloud in the original Apocalypse climax; artwork identification is corroborated by third-party visual analysis, not an explicit Wizards illustration-caption claim.
 
-Use these actual art/printing anchors together: `Toxic Deluge` **CC2 #6**, `Last Stand` **APC #107**, `Yawgmoth's Vile Offering` **DOM #114**, and `Legacy Weapon` **DMR #229**. The first card depicts his world-scouring arrival; the last memorializes his death. Source for the CC2 art reading: https://blog.cardkingdom.com/commander-collection-black/
+Use these actual art/printing anchors together: `Toxic Deluge` **CC2 #6**, `Last Stand` **APC #107**, and `Legacy Weapon` **DMR #229**. The first card depicts his world-scouring arrival; the last memorializes his death. A prior draft also contained Yawgmoth’s Vile Offering, now replaced by a more specific lifetime scene. Source for the CC2 art reading: https://blog.cardkingdom.com/commander-collection-black/
 
 ## Collage-driven Yawgmoth identity refinement
 
@@ -131,7 +146,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Thran Dynamo
 1x Portal to Phyrexia
 1x Gate to Phyrexia
-1x Dark Ritual
+1x Phyrexian Reclamation
 1x Phyrexian Scriptures
 1x Yawgmoth Demon
 1x Phyrexian Processor
@@ -146,7 +161,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Mightstone
 1x Weakstone
 1x Gix, Yawgmoth Praetor
-1x Gixian Infiltrator
 1x The Cruelty of Gix
 1x Mishra, Claimed by Gix
 1x Phyrexian Dragon Engine
@@ -156,6 +170,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Golgothian Sylex
 1x Xantcha, Sleeper Agent
 1x K'rrik, Son of Yawgmoth
+1x Phyrexian Broodlings
 1x Urza, Lord High Artificer
 1x Corrupt
 1x Heartstone
@@ -163,6 +178,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Volrath the Fallen
 1x Ertai, the Corrupted
 1x Tsabo Tavoc
+1x Phyrexian Slayer
 1x Yawgmoth's Agenda
 1x Phyrexian Denouncer
 1x Phyrexian Debaser
@@ -175,6 +191,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Planar Overlay
 1x Urza Assembles the Titans
 1x Warped Devotion
+1x Phyrexian Tyranny
 1x Last Stand
 1x Urza's Guilt
 1x Planar Despair
@@ -184,8 +201,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Annihilate
 1x Gerrard Capashen
 1x Legacy Weapon
-1x Yawgmoth's Vile Offering
-1x Phyrexian Vivisector
 1x Glistening Oil
 1x Phyresis
 1x Karn Liberated
@@ -242,7 +257,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 |---|---|---|---|
 | Portal to Phyrexia | The immense artificial passage and Phyrexian forces, a retrospective Brothers’ War depiction. | [BRO #240](https://scryfall.com/card/bro/240/portal-to-phyrexia?utm_source=api) | After five thousand years, the nightmare returned. |
 | Gate to Phyrexia | The Antiquities-era portal-flavor records Jarsyl’s later sighting; not the specific original Thran gateway. | [ATQ #16](https://scryfall.com/card/atq/16/gate-to-phyrexia?utm_source=api) | "The warm rain of grease on my face immediately made it clear I had entered Phyrexia." —Jarsyl, *Diary* |
-| Dark Ritual | Choose the Duel Deck printing reciting the Phyrexian Scriptures and Yawgmoth’s claimed Grand Evolution. | [DDE #18](https://scryfall.com/card/dde/18/dark-ritual?utm_source=api) | "From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began." / —*Phyrexian Scriptures* |
+| Phyrexian Reclamation | Original Urza’s Legacy card summarizes the regime’s refusal to let death end forced service; a distinct expression of Yawgmoth’s exploitation of flesh. | [ULG #63](https://scryfall.com/card/ulg/63/phyrexian-reclamation?utm_source=api) | Death is no excuse to stop working. |
 | Phyrexian Scriptures | A Saga summarizing the ideological project of replacing flesh with engineered Phyrexian life. | [DOM #100](https://scryfall.com/card/dom/100/phyrexian-scriptures?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Yawgmoth Demon | An early Antiquities-era Phyrexian Demon named for Yawgmoth; this is a servant, not Yawgmoth’s personal form. | [ATQ #21](https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Processor | Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection. | [SLD #2445](https://scryfall.com/card/sld/2445/phyrexian-processor?utm_source=api) | An assembly line of inhumanity. |
@@ -264,7 +279,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/making-magic/act-of
 | Mightstone | Original Antiquities flavor recounts the Thran powerstone discovery Urza made at Koilos. | [ATQ #55](https://scryfall.com/card/atq/55/mightstone?utm_source=api) | While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone. |
 | Weakstone | Original Antiquities flavor recounts Mishra’s counterpart to the split Thran powerstone. | [ATQ #78](https://scryfall.com/card/atq/78/weakstone?utm_source=api) | During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone. |
 | Gix, Yawgmoth Praetor | Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia. | [BRO #95](https://scryfall.com/card/bro/95/gix-yawgmoth-praetor?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Gixian Infiltrator | The Brothers’ War printing gives voice to Gix’s covert sabotage of Terisia City; one concrete Phyrexian infiltrator rather than an abstract reference to the regime. | [BRO #98](https://scryfall.com/card/bro/98/gixian-infiltrator?utm_source=api) | "Terisia City's fall is inevitable. My master's plan runs as sure and steady as the oil in my veins." |
 | The Cruelty of Gix | The Brothers’ War historical Saga memorializes Gix’s exploitative methods and plots that advanced Yawgmoth’s long campaign through Mishra. | [DMU #87](https://scryfall.com/card/dmu/87/the-cruelty-of-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Mishra, Claimed by Gix | Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion. | [BRO #216](https://scryfall.com/card/bro/216/mishra-claimed-by-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Dragon Engine | The war-machine paired with Mishra’s meld, a physical sign of Phyrexian domination. | [BRO #163](https://scryfall.com/card/bro/163/phyrexian-dragon-engine?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
@@ -281,6 +295,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 |---|---|---|---|
 | Xantcha, Sleeper Agent | A Phyrexian sleeper who rejected Yawgmoth, aided Urza, and exposed his regime’s cruelty. | [C18 #50](https://scryfall.com/card/c18/50/xantcha-sleeper-agent?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | K'rrik, Son of Yawgmoth | A Phyrexian time-rift invader at Tolaria; the title Son does not establish literal human parentage. | [C19 #18](https://scryfall.com/card/c19/18/krrik-son-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Phyrexian Broodlings | Original Urza’s Legacy printing directly describes Kerrick (K’rrik) constructing new monsters from scavenged beasts during the Tolarian time-rift plot. | [ULG #58](https://scryfall.com/card/ulg/58/phyrexian-broodlings?utm_source=api) | With limited resources and near unlimited time, Kerrick used parts from one beast to build another. |
 | Urza, Lord High Artificer | Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire. | [MH1 #75](https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Corrupt | Use the original Urza’s Saga printing explicitly describing Yawgmoth touching Urza’s mind; unlike most later Corrupt reprints this is a direct named confrontation. | [USG #124](https://scryfall.com/card/usg/124/corrupt?utm_source=api) | Yawgmoth brushed Urza's mind, and Urza's world convulsed. |
 | Heartstone | Xantcha’s Phyrexian heartstone survived her death and was used as Karn’s conscious personality core; the original Stronghold card depicts this type of stone, not a labeled portrait of Xantcha’s exact specimen. | [STH #134](https://scryfall.com/card/sth/134/heartstone?utm_source=api) | "Finding a true heartstone is even harder than finding a true heart." / —Hanna |
@@ -288,6 +303,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Volrath the Fallen | The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground. | [NEM #75](https://scryfall.com/card/nem/75/volrath-the-fallen?utm_source=api) | "I stepped out. I did not step down." |
 | Ertai, the Corrupted | Former Weatherlight mage remade into a Phyrexian servant on Rath. | [PLS #107](https://scryfall.com/card/pls/107/ertai-the-corrupted?utm_source=api) | Altered by Phyrexian science, corrupted by black mana, and twisted by rage, Ertai still looked in the mirror and saw only glory. |
 | Tsabo Tavoc | Yawgmoth’s brutal invasion general and the speaker on many original Invasion-era cards. | [INV #281](https://scryfall.com/card/inv/281/tsabo-tavoc?utm_source=api) | "I might almost pity my enemies—if it wasn't so amusing to watch them die." |
+| Phyrexian Slayer | Original Invasion printing identifies Tsabo Tavoc’s specialized killers devastating Benalia, giving her campaign a specific target. | [INV #118](https://scryfall.com/card/inv/118/phyrexian-slayer?utm_source=api) | Benalia was only the first nation victimized by Tsabo Tavoc's specialized killers. |
 | Yawgmoth's Agenda | The named Invasion-era enchantment articulating his huge campaign. | [INV #135](https://scryfall.com/card/inv/135/yawgmoths-agenda?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Denouncer | First stage of the Phyrexian illness; original Urza’s Legacy flavor begins a four-card progression. | [ULG #61](https://scryfall.com/card/ulg/61/phyrexian-denouncer?utm_source=api) | "The first stage of the illness: rash and nausea." / —Phyrexian progress notes |
 | Phyrexian Debaser | Second stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression. | [ULG #59](https://scryfall.com/card/ulg/59/phyrexian-debaser?utm_source=api) | "The second stage of the illness: high fever and severe infectiousness." / —Phyrexian progress notes |
@@ -307,6 +323,7 @@ Official narrative anchor: https://magic.wizards.com/en/story/dominaria-plane
 | Planar Overlay | Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest. | [PLS #28](https://scryfall.com/card/pls/28/planar-overlay?utm_source=api) | The Phyrexians don't want to conquer Dominaria. They want to remake it. |
 | Urza Assembles the Titans | Historical Saga of the group of planeswalkers Urza led to strike Phyrexia itself. | [DMU #37](https://scryfall.com/card/dmu/37/urza-assembles-the-titans?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Warped Devotion | Original Planeshift printing quotes Urza to Gerrard in admiration of Yawgmoth’s glory within Phyrexia, a harrowing corruption of his greatest opponent. | [PLS #57](https://scryfall.com/card/pls/57/warped-devotion?utm_source=api) | "Before the glory of Yawgmoth, yes, even this makes sense." / —Urza, to Gerrard |
+| Phyrexian Tyranny | Original Planeshift flavor records Crovax explicitly describing Ertai as Yawgmoth’s gift to him; a distinct triad-of-villains scene. | [PLS #118](https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api) | "He is Yawgmoth's reward to me. I shall kill him a hundred times a day." / —Crovax, to Ertai |
 | Last Stand | The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter. | [APC #107](https://scryfall.com/card/apc/107/last-stand?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza's Guilt | The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat. | [PLS #130](https://scryfall.com/card/pls/130/urzas-guilt?utm_source=api) | Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. "Mishra?" |
 | Planar Despair | The Apocalypse printing explicitly describes Dominaria recoiling at Yawgmoth’s arrival. | [APC #50](https://scryfall.com/card/apc/50/planar-despair?utm_source=api) | All of Dominaria recoiled as Yawgmoth and his retainers arrived. |
@@ -323,8 +340,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 
 | Card | Why it belongs | Specific physical edition | Actual flavor (when printed) |
 |---|---|---|---|
-| Yawgmoth's Vile Offering | A later Dominarian retrospective on Yawgmoth’s old bargain and violence; it does not depict his resurrection. | [DOM #114](https://scryfall.com/card/dom/114/yawgmoths-vile-offering?utm_source=api) | Centuries ago, a mad god offered a simple trade. |
-| Phyrexian Vivisector | Its Dominaria United flavor explicitly ties New Phyrexian surgery to Yawgmoth’s earlier atrocities. | [DMU #100](https://scryfall.com/card/dmu/100/phyrexian-vivisector?utm_source=api) | Before he was the Father of Machines, Yawgmoth was a twisted Thran physician, and his legacy of medical atrocities lives on in New Phyrexia. |
 | Glistening Oil | The infectious medium that outlived Yawgmoth and eventually transformed Mirrodin; not proof he survived. | [NPH #62](https://scryfall.com/card/nph/62/glistening-oil?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyresis | Sheoldred explicitly celebrates becoming compleat; depicts post-Yawgmoth New Phyrexia, not a living Yawgmoth order. | [MBS #49](https://scryfall.com/card/mbs/49/phyresis?utm_source=api) | "Perfection is at hand. You have been freed of weakness and made *compleat*." / —Sheoldred, Whispering One |
 | Karn Liberated | Karn is reclaimed from the New Phyrexian contamination and later fights the successors. | [NPH #1](https://scryfall.com/card/nph/1/karn-liberated?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
