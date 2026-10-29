@@ -1,6 +1,6 @@
 {
   "theme": "Yawgmoth: Father of Machines — A Biography of the Thran Tyrant and His Posthumous Shadow",
-  "raw_sha256": "1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27",
+  "raw_sha256": "3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81",
   "source": "local 2026-10-28 Scryfall printing SQLite cache",
   "cards": [
     {
@@ -144,6 +144,20 @@
       }
     },
     {
+      "name": "Yawgmoth Demon",
+      "why": "An early Antiquities-era Phyrexian Demon named for Yawgmoth; this is a servant, not Yawgmoth’s personal form.",
+      "tier": "named_yawgmoth_servant",
+      "printing": {
+        "set": "ATQ",
+        "collector": "21",
+        "url": "https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Creature — Phyrexian Demon",
+        "oracle": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nFirst strike (This creature deals combat damage before creatures without first strike.)\nAt the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap this creature and it deals 2 damage to you.",
+        "preferred_printing_found": true
+      }
+    },
+    {
       "name": "Phyrexian Processor",
       "why": "Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection.",
       "tier": "official_yawgmoth_machine",
@@ -228,16 +242,16 @@
       }
     },
     {
-      "name": "Phyrexian Arena",
-      "why": "The original Apocalypse edition captures the cruelty of the old regime, rather than the later Sheoldred or Jace/Vraska scenes of reprints.",
-      "tier": "old_phyrexia_period_printing",
+      "name": "Priest of Yawgmoth",
+      "why": "An original Antiquities-era human cleric whose explicit allegiance makes the Father of Machines’ priesthood tangible.",
+      "tier": "named_yawgmoth_cleric",
       "printing": {
-        "set": "APC",
-        "collector": "47",
-        "url": "https://scryfall.com/card/apc/47/phyrexian-arena?utm_source=api",
-        "printed_flavor": "An audience of one with the malice of thousands.",
-        "type_line": "Enchantment",
-        "oracle": "At the beginning of your upkeep, you draw a card and lose 1 life.",
+        "set": "ATQ",
+        "collector": "19",
+        "url": "https://scryfall.com/card/atq/19/priest-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Creature — Phyrexian Human Cleric",
+        "oracle": "{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's mana value.",
         "preferred_printing_found": true
       }
     },
@@ -294,34 +308,6 @@
         "printed_flavor": "During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone.",
         "type_line": "Artifact",
         "oracle": "Attacking creatures get -1/-0.",
-        "preferred_printing_found": true
-      }
-    },
-    {
-      "name": "Splitting the Powerstone",
-      "why": "Literal illustration of the brothers dividing the Thran inheritance.",
-      "tier": "depicted_event",
-      "printing": {
-        "set": "BRO",
-        "collector": "63",
-        "url": "https://scryfall.com/card/bro/63/splitting-the-powerstone?utm_source=api",
-        "printed_flavor": "As the glowing stone broke apart, so too did the last shred of the brothers' bond.",
-        "type_line": "Sorcery",
-        "oracle": "As an additional cost to cast this spell, sacrifice an artifact.\nCreate two tapped Powerstone tokens. If the sacrificed artifact was legendary, draw a card. (The tokens are artifacts with \"{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\")",
-        "preferred_printing_found": true
-      }
-    },
-    {
-      "name": "Brotherhood's End",
-      "why": "The brothers’ early conflict killed Tocasia and ended their childhood relationship; NOT the later Sylex explosion.",
-      "tier": "depicted_event",
-      "printing": {
-        "set": "BRO",
-        "collector": "128",
-        "url": "https://scryfall.com/card/bro/128/brotherhoods-end?utm_source=api",
-        "printed_flavor": "The brothers' rivalry escalated into all-out enmity, and Tocasia paid the price.",
-        "type_line": "Sorcery",
-        "oracle": "Choose one —\n• Brotherhood's End deals 3 damage to each creature and each planeswalker.\n• Destroy all artifacts with mana value 3 or less.",
         "preferred_printing_found": true
       }
     },
@@ -602,6 +588,20 @@
         "printed_flavor": "\"It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh.\"\n—Tsabo Tavoc",
         "type_line": "Creature — Phyrexian Minion",
         "oracle": "{2}{U}{U}: Exchange control of this creature and target creature. (This effect lasts indefinitely.)",
+        "preferred_printing_found": true
+      }
+    },
+    {
+      "name": "Eye of Yawgmoth",
+      "why": "A Nemesis-era instrument bearing his name, embodying the watching, sacrificing, and scrutinizing of bodies in the invasion regime.",
+      "tier": "named_yawgmoth_instrument",
+      "printing": {
+        "set": "NEM",
+        "collector": "129",
+        "url": "https://scryfall.com/card/nem/129/eye-of-yawgmoth?utm_source=api",
+        "printed_flavor": "",
+        "type_line": "Artifact",
+        "oracle": "{3}, {T}, Sacrifice a creature: Reveal a number of cards from the top of your library equal to the sacrificed creature's power. Put one into your hand and exile the rest.",
         "preferred_printing_found": true
       }
     },
