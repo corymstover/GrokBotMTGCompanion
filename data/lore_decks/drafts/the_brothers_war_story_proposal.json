@@ -1,0 +1,490 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "The Brothers' War: Urza, Mishra, and the Ruin of Argoth",
+  "status": "FINISHED PROPOSAL — not approved/locked by Cory",
+  "commander": "Ramos, Dragon Engine",
+  "narrator_note": "Ramos is both a historically relevant Brothers' War dragon engine and a WUBRG-capable Commander. He fought under Mishra and was later reprogrammed by Urza, eventually saving refugees; the latter details are attested in later Mercadia storytelling rather than a literal Ramos printed flavor text.",
+  "story_sources": [
+    "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
+    "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1",
+    "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2",
+    "https://magic.wizards.com/en/products/the-brothers-war",
+    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires",
+    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+  ],
+  "canon_caveats": [
+    "Ramos was a Mishra dragon engine reprogrammed by Urza and is a thematic eyewitness narrator; his printed card has no flavor text and later Mercadia narratives supply his detailed story.",
+    "Urza, Planeswalker; Mishra, Lost to Phyrexia; and Titania, Gaea Incarnate are meld BACK FACES and cannot be added as separate cards. Both front physical cards for Urza/Mishra and Titania's land are included.",
+    "The Brothers' War (BRC) and The Antiquities War (DOM) are retrospective sagas, not eyewitness records from the exact ending of the war.",
+    "Glacial Chasm and snow-covered basic lands evoke the Ice Age aftermath but are not claims about a precise Sylex crater location.",
+    "The story spans decades: group order is chronological at the act level, while some cards within an act depict parallel action.",
+    "Ramos's WUBRG color identity permits including Urza, Mishra, the Third Path, and Argoth; no off-color or duplicate nonbasic cards are intentionally allowed.",
+    "Gix is a praetor manipulating the brothers, but the broader Phyrexian portal later reopened millennia afterward. A modern-return printing such as Portal to Phyrexia is intentionally omitted."
+  ],
+  "beats": [
+    {
+      "title": "I. Two boys, one discovery: Tocasia, the Powerstones, and the broken bond",
+      "lore_keys": [
+        "The Brothers' War: Childhood",
+        "Caves of Koilos"
+      ],
+      "cards": [
+        {
+          "name": "Tocasia's Welcome",
+          "why": "Tocasia receives the orphaned brothers, creating the human beginning of the tragedy.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Tocasia, Dig Site Mentor",
+          "why": "The archeologist and adoptive teacher who guides Urza and Mishra to the Thran ruins.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Loran, Disciple of History",
+          "why": "Tocasia's devoted student and a future steward of the Sylex story; importantly, not a third brother.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Urza, Powerstone Prodigy",
+          "why": "Urza as the curious young scholar before power and bitterness consume his life.",
+          "evidence": "historical_named_character_period"
+        },
+        {
+          "name": "Mishra, Excavation Prodigy",
+          "why": "Mishra as the skilled young desert explorer, contrasted by the original card's flavor.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Ornithopter",
+          "why": "An early mechanical experiment; Antiquities printing explicitly treats it as Urza's youthful artifice.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Mightstone",
+          "why": "The stone Urza discovers in the Hall of Tagsin, according to the Antiquities flavor text.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Weakstone",
+          "why": "The stone Mishra discovers in the same underground chamber, according to the Antiquities flavor text.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Splitting the Powerstone",
+          "why": "The original Brothers' War card records the breakup of the stone and the brothers' relationship.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Sibling Rivalry",
+          "why": "An explicit title for their competition before it becomes a war among nations.",
+          "evidence": "named_historical_relationship"
+        },
+        {
+          "name": "Brotherhood's End",
+          "why": "Tocasia's death as the brothers fight, the decisive end of their childhood together.",
+          "evidence": "literal_bro_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "II. Rival empires: Kroog, Mak Fawa, the engineers and the war machines",
+      "lore_keys": [
+        "The Brothers' War: Adulthood"
+      ],
+      "cards": [
+        {
+          "name": "Urza, Prince of Kroog",
+          "why": "Urza enters the court of Yotia through Kayla and becomes the formidable artificer of Kroog.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Queen Kayla bin-Kroog",
+          "why": "Kayla, Urza's wife and an eyewitness whose history preserves much of this era.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Harbin, Vanguard Aviator",
+          "why": "The royal son and aviator who wants to fight for Yotia and win his father's respect.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Tawnos, the Toymaker",
+          "why": "Urza's inventive apprentice represents the human ingenuity behind the Argivian machines.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Drafna, Founder of Lat-Nam",
+          "why": "The scholar who, with Hurkyl, builds a lasting refuge of learning amid the war.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Hurkyl, Master Wizard",
+          "why": "A Third Path wizard and counterweight to the brothers' destructive artifact obsession.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Mishra, Tamer of Mak Fawa",
+          "why": "Mishra rises as a power among the Fallaji and masters dragon engines.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Hajar, Loyal Bodyguard",
+          "why": "Mishra's devoted companion despite the war's escalating moral cost.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Ashnod, Flesh Mechanist",
+          "why": "Mishra's gifted lieutenant and maker of gruesome war technology.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Urza, Chief Artificer",
+          "why": "A contemporaneous portrait of Urza as a commander of armies of constructs.",
+          "evidence": "named_historical_character_variant"
+        },
+        {
+          "name": "Mishra, Eminent One",
+          "why": "An alternate portrait of Mishra's dominion over the artifact armies.",
+          "evidence": "named_historical_character_variant"
+        },
+        {
+          "name": "Urza's Command",
+          "why": "An era-specific card commemorating Urza's commands in the war.",
+          "evidence": "named_historical_spell"
+        },
+        {
+          "name": "Mishra's Command",
+          "why": "Counterpart to Urza's Command; each brother directs a rival technological empire.",
+          "evidence": "named_historical_spell"
+        }
+      ]
+    },
+    {
+      "title": "III. Gix and the machine war: Phyrexian infiltration, Kroog destroyed",
+      "lore_keys": [
+        "The Brothers' War: Gix",
+        "The fall of Kroog"
+      ],
+      "cards": [
+        {
+          "name": "Gix, Yawgmoth Praetor",
+          "why": "The Phyrexian praetor secretly manipulates Mishra and the growing conflict.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Gate to Phyrexia",
+          "why": "Original Antiquities artifact and flavor reveal the terrifying world behind the corruption.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Disciples of Gix",
+          "why": "A direct look at the cult that spreads the praetor's influence.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Gix's Caress",
+          "why": "The direct flavor captures Gix delighting in the misery he has cultivated.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Gix's Command",
+          "why": "The praetor's own named command, contrasting his manipulation with the brothers' armies.",
+          "evidence": "named_historical_spell"
+        },
+        {
+          "name": "Mishra, Claimed by Gix",
+          "why": "The late-war Mishra on the edge of total Phyrexian assimilation; meld front face.",
+          "evidence": "named_historical_character_meld"
+        },
+        {
+          "name": "Phyrexian Dragon Engine",
+          "why": "The second actual card required to meld Mishra into Mishra, Lost to Phyrexia.",
+          "evidence": "physical_meld_component"
+        },
+        {
+          "name": "Ashnod's Altar",
+          "why": "The brutal technological practices associated with Mishra's artificer.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Ashnod's Transmogrant",
+          "why": "Original Antiquities card directly associated with Ashnod's experiments on living bodies.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Powerstone Fracture",
+          "why": "The original BRO printing shows Ashnod using a Powerstone explosion to destroy a war-machine behemoth; this is NOT the childhood splitting of the original stone.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Dragon Engine",
+          "why": "A period Antiquities machine named and illustrated as part of the brothers' industrial warfare.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Mishra's War Machine",
+          "why": "The original era's industrialized destructive force, by Mishra's own name.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Mishra's Onslaught",
+          "why": "Mishra's attack against Urza's defensive positions, explicitly voiced in the original flavor.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Mishra's Domination",
+          "why": "The original printed text describes Mishra binding a dragon engine through the Weakstone.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "The Fall of Kroog",
+          "why": "Directly depicts Mishra's destruction of the capital in retaliation for the peace-summit ambush.",
+          "evidence": "literal_bro_printing_flavor"
+        }
+      ]
+    },
+    {
+      "title": "IV. Witnesses, the Third Path, and the living forest of Argoth",
+      "lore_keys": [
+        "The Brothers' War: Third Path",
+        "Argoth"
+      ],
+      "cards": [
+        {
+          "name": "Loran of the Third Path",
+          "why": "A scholar who recognized the Sylex as vital knowledge rather than merely another weapon.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "The Archimandrite",
+          "why": "A leading Third Path figure representing the nonaligned tradition endangered by the conflict.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Union of the Third Path",
+          "why": "The independent alliance of scholars trying to respond to the brothers' devastation.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Hurkyl's Final Meditation",
+          "why": "A named decisive moment in Hurkyl's struggle against invading machinery.",
+          "evidence": "named_historical_spell"
+        },
+        {
+          "name": "Loran's Escape",
+          "why": "The original printing shows Feldon entrusting Loran with the Sylex amid Terisia City's destruction.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Ashnod's Intervention",
+          "why": "Ashnod warns Tawnos that Gix has manipulated both sides.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Fateful Handoff",
+          "why": "Ashnod directs Tawnos to deliver the Sylex to Urza, a decisive handover.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Titania, Voice of Gaea",
+          "why": "Argoth's nature guardian, a victim of the brothers' escalating war.",
+          "evidence": "named_historical_character_meld"
+        },
+        {
+          "name": "Titania's Song",
+          "why": "The original Antiquities card represents Titania and Argoth's living resistance.",
+          "evidence": "historical_named_spell"
+        },
+        {
+          "name": "Gwenna, Eyes of Gaea",
+          "why": "An Argothian character and witness to nature's suffering.",
+          "evidence": "named_historical_character"
+        },
+        {
+          "name": "Argothian Pixies",
+          "why": "Original Antiquities flavor situates the small forest folk on Argoth.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Argothian Treefolk",
+          "why": "Original Antiquities flavor preserves the sentient forest caught in the war.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Gaea's Gift",
+          "why": "The Brothers' War-era card literally pits the living forest against Mishra's military force.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Titania's Command",
+          "why": "The nature guardian's own named response to the attack on Argoth.",
+          "evidence": "named_historical_spell"
+        },
+        {
+          "name": "Fallaji Dragon Engine",
+          "why": "A war machine from Mishra's Fallaji military, representing the invasion of Argoth.",
+          "evidence": "named_historical_artifact"
+        }
+      ]
+    },
+    {
+      "title": "V. The last battle, the Sylex Blast, the Ice Age and the history left behind",
+      "lore_keys": [
+        "The Brothers' War: Final Conflict",
+        "The Sylex Blast"
+      ],
+      "cards": [
+        {
+          "name": "Urza, Lord Protector",
+          "why": "Urza at the ruinous final battle; meld front face from The Brothers' War.",
+          "evidence": "named_historical_character_meld"
+        },
+        {
+          "name": "The Mightstone and Weakstone",
+          "why": "The second actual card needed to meld Urza into Urza, Planeswalker.",
+          "evidence": "physical_meld_component"
+        },
+        {
+          "name": "Golgothian Sylex",
+          "why": "The original Antiquities printing of the destructive artifact that ends the war.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "Urza's Sylex",
+          "why": "A second, war-era illustration of the same weapon, used in Urza's catastrophic decision.",
+          "evidence": "named_historical_artifact"
+        },
+        {
+          "name": "Urza's Ruinous Blast",
+          "why": "Directly memorializes the blast that destroys Argoth and changes Dominaria.",
+          "evidence": "literal_printed_flavor"
+        },
+        {
+          "name": "Calamity's Wake",
+          "why": "The original flavor describes snow and sorrow following the blast, with Urza alone.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Citanul Druid",
+          "why": "Antiquities flavor explicitly remembers the Citanul driven mad by Argoth's fall; this is an aftermath card, not a surviving pre-blast army.",
+          "evidence": "literal_atq_printing_flavor"
+        },
+        {
+          "name": "One with the Multiverse",
+          "why": "Wizards' Brothers' War design article explicitly identifies this card as Urza becoming a Planeswalker after the final catastrophe.",
+          "evidence": "official_design_scene"
+        },
+        {
+          "name": "Tawnos, Solemn Survivor",
+          "why": "Urza's apprentice survives the tragedy and remains a witness to its cost.",
+          "evidence": "named_historical_character_aftermath"
+        },
+        {
+          "name": "Kayla's Reconstruction",
+          "why": "Kayla turns from witnessing destruction to rebuilding the lives left behind.",
+          "evidence": "literal_bro_printing_flavor"
+        },
+        {
+          "name": "Feldon, Ronom Excavator",
+          "why": "Feldon survives into the harsh aftermath, keeping the Third Path's history alive.",
+          "evidence": "named_historical_character_aftermath"
+        },
+        {
+          "name": "The Brothers' War",
+          "why": "A Saga card designed to retell the two brothers' long conflict.",
+          "evidence": "literal_saga_chapters"
+        },
+        {
+          "name": "The Antiquities War",
+          "why": "A later in-world-history Saga that lets the deck end as an archaeological remembrance.",
+          "evidence": "literal_saga_chapters"
+        }
+      ]
+    },
+    {
+      "title": "VI. Geography of invention and catastrophe — lands",
+      "lore_keys": [
+        "Koilos",
+        "Kroog",
+        "Argoth",
+        "Sylex Blast"
+      ],
+      "cards": [
+        {
+          "name": "Tocasia's Dig Site",
+          "why": "Where the brothers study Thran ruins before their relationship is shattered.",
+          "evidence": "literal_bro_land_flavor"
+        },
+        {
+          "name": "Caves of Koilos",
+          "why": "The ancient underground place linked to the Powerstone discoveries; the chosen old printing is a location callback, not a new war scene.",
+          "evidence": "historical_geography_context"
+        },
+        {
+          "name": "Mishra's Factory",
+          "why": "Original Antiquities land depicting the infrastructure of Mishra's war-making.",
+          "evidence": "historical_land"
+        },
+        {
+          "name": "Mishra's Workshop",
+          "why": "Original Antiquities land and flavor associated with the machinery of Mishra's side.",
+          "evidence": "literal_atq_land_flavor"
+        },
+        {
+          "name": "Mishra's Foundry",
+          "why": "The Brothers' War land illustrates Mishra's industrial production.",
+          "evidence": "historical_land"
+        },
+        {
+          "name": "Urza's Workshop",
+          "why": "The wartime workshop; Brothers' War Commander printing explicitly connects it to Urza.",
+          "evidence": "literal_brc_land_flavor"
+        },
+        {
+          "name": "Urza's Mine",
+          "why": "The original Antiquities set's Urza infrastructure; select a specific flavor-text variant.",
+          "evidence": "literal_atq_land_flavor"
+        },
+        {
+          "name": "Urza's Power Plant",
+          "why": "Original Antiquities power infrastructure; select a period-appropriate flavor-text printing.",
+          "evidence": "literal_atq_land_flavor"
+        },
+        {
+          "name": "Urza's Tower",
+          "why": "Original Antiquities fortress of Urza's engineering network.",
+          "evidence": "literal_atq_land_flavor"
+        },
+        {
+          "name": "Argoth, Sanctum of Nature",
+          "why": "Actual meld partner for Titania, Voice of Gaea; the island forest destroyed at the end of the war.",
+          "evidence": "historical_land_meld"
+        },
+        {
+          "name": "Glacial Chasm",
+          "why": "An Ice Age land illustrating the frozen aftermath, not a documented specific crater of the Sylex Blast.",
+          "evidence": "thematic_aftereffect_land"
+        },
+        {
+          "name": "Urza's Saga",
+          "why": "A later Saga land serving as a retrospective on Urza's long legacy, not an actual battle location.",
+          "evidence": "retrospective_lore_land"
+        }
+      ]
+    }
+  ],
+  "playability": [],
+  "basics": {
+    "Plains": 3,
+    "Island": 3,
+    "Swamp": 3,
+    "Mountain": 3,
+    "Forest": 3,
+    "Snow-Covered Plains": 1,
+    "Snow-Covered Island": 1,
+    "Snow-Covered Swamp": 1,
+    "Snow-Covered Mountain": 1,
+    "Snow-Covered Forest": 1
+  }
+}
