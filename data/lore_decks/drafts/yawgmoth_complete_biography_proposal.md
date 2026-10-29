@@ -2,9 +2,9 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68`.
 
-**Count:** 100 cards; 30 lands; 59 of 90 nonbasic/commander suggested printings have actual flavor text.
+**Count:** 100 cards; 30 lands; 60 of 90 nonbasic/commander suggested printings have actual flavor text.
 
 ## Unapproved draft revision: more Phyrexians and phyresis
 
@@ -41,6 +41,14 @@ Use these actual art/printing anchors together: `Toxic Deluge` **CC2 #6**, `Last
 | Brotherhood's End | Eye of Yawgmoth |
 
 Yawgmoth Demon depicts a demon of Yawgmoth, not Yawgmoth himself; the true death-cloud form remains represented by Toxic Deluge CC2 #6 and Last Stand APC #107.
+
+## Xantcha-to-Karn heartstone bridge
+
+**Previous unapproved SHA:** `3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81`. **Additional swap:** Crovax the Cursed → Heartstone.
+
+Xantcha’s Phyrexian heartstone was used as Karn’s consciousness core, connecting a Yawgmoth-origin creation to the Legacy’s eventual defeat of him and the inheritance of Phyrexian oil on Mirrodin. The printed **Heartstone** chosen is Stronghold #134 and bears Hanna’s direct quote. Story source: https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities
+
+The specific printed Heartstone is a representative Thran/Phyrexian stone, not incontrovertibly the individual heartstone from Xantcha’s corpse; Wizards confirms Xantcha’s essence survived in Karn, and published lore references explain the heartstone mechanism.
 
 ## How this differs from the approved *Legacy* deck #1
 
@@ -92,9 +100,9 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Xantcha, Sleeper Agent
 1x K'rrik, Son of Yawgmoth
 1x Urza, Lord High Artificer
+1x Heartstone
 1x Karn, Silver Golem
 1x Volrath the Fallen
-1x Crovax the Cursed
 1x Ertai, the Corrupted
 1x Tsabo Tavoc
 1x Yawgmoth's Agenda
@@ -217,9 +225,9 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Xantcha, Sleeper Agent | A Phyrexian sleeper who rejected Yawgmoth, aided Urza, and exposed his regime’s cruelty. | [C18 #50](https://scryfall.com/card/c18/50/xantcha-sleeper-agent?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | K'rrik, Son of Yawgmoth | A Phyrexian time-rift invader at Tolaria; the title Son does not establish literal human parentage. | [C19 #18](https://scryfall.com/card/c19/18/krrik-son-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza, Lord High Artificer | Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire. | [MH1 #75](https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Heartstone | Xantcha’s Phyrexian heartstone survived her death and was used as Karn’s conscious personality core; the original Stronghold card depicts this type of stone, not a labeled portrait of Xantcha’s exact specimen. | [STH #134](https://scryfall.com/card/sth/134/heartstone?utm_source=api) | "Finding a true heartstone is even harder than finding a true heart." / —Hanna |
 | Karn, Silver Golem | Urza’s silver creation and eventual bearer of the Legacy that destroyed Yawgmoth. | [USG #298](https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Volrath the Fallen | The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground. | [NEM #75](https://scryfall.com/card/nem/75/volrath-the-fallen?utm_source=api) | "I stepped out. I did not step down." |
-| Crovax the Cursed | A member of the Weatherlight story who was corrupted and eventually installed as Rath’s evincar. | [STH #55](https://scryfall.com/card/sth/55/crovax-the-cursed?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Ertai, the Corrupted | Former Weatherlight mage remade into a Phyrexian servant on Rath. | [PLS #107](https://scryfall.com/card/pls/107/ertai-the-corrupted?utm_source=api) | Altered by Phyrexian science, corrupted by black mana, and twisted by rage, Ertai still looked in the mirror and saw only glory. |
 | Tsabo Tavoc | Yawgmoth’s brutal invasion general and the speaker on many original Invasion-era cards. | [INV #281](https://scryfall.com/card/inv/281/tsabo-tavoc?utm_source=api) | "I might almost pity my enemies—if it wasn't so amusing to watch them die." |
 | Yawgmoth's Agenda | The named Invasion-era enchantment articulating his huge campaign. | [INV #135](https://scryfall.com/card/inv/135/yawgmoths-agenda?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
