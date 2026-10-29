@@ -40,6 +40,26 @@ Across this early review and the 2023–October 2026 review, the published **142
 
 The regeneration command is `python3 scripts/audit_wotc_early_sets.py` (use `--write` only to intentionally update the dated report). Passing tests reject unreviewed, duplicate, mismatched or unofficially sourced classifications.
 
+## Historical regular/mainline release review: 2003–2022
+
+The [81-code Wizards evidence ledger](data/set_atlas/wotc_mid_release_evidence_2003_2022.json) and [reproducible 2003–2022 audit](data/set_atlas/wotc_mid_release_audit_2003_2022.json) link exact set codes to Wizards' yearly release retrospectives [Part 1](https://magic.wizards.com/en/news/making-magic/looking-back-part-1), [Part 2](https://magic.wizards.com/en/news/making-magic/looking-back-part-2), and the [complete regular core-edition list](https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less).
+
+Of 81 dated, released, nondigital Scryfall `expansion`/`core` candidates, **80** are directly supported as regular historical expansion/core releases; **`tsb` (Time Spiral Timeshifted)** is an integrated *bonus sheet* described as such by Wizards, not a separately launched main expansion. The evidence is historical: neither editorial 2024 retrospective automatically labels every earlier product with the modern marketing term *premier*.
+
+### Snapshot-wide reconciliation
+
+| Defined category | Count |
+| --- | ---: |
+| Released, nondigital Scryfall `expansion`/`core` candidate codes | **142** |
+| Sourced historically regular/mainline releases across reviewed eras | **136** |
+| Directly documented micro/subset/abandoned/bonus codes (`mat`, `big`, `sum`, `tsb`) | **4** |
+| Foreign-border localized variant codes still requiring direct corroboration (`fbb`, `4bb`) | **2** |
+| Unreviewed codes *within this 142-code Scryfall category* | **0** |
+
+**This is not yet an all-time Wizards premier-set census.** It is a rigorous classification of a particular Scryfall category in a dated snapshot. Official main products outside `expansion`/`core` (for example other drafting or supplemental product families) must be considered under a separately stated definition. Early foreign-border variants remain provisional, and Wizards did not use modern product terminology for the full 1993–2022 history.
+
+Read-only replay: `python3 scripts/audit_wotc_mid_sets.py`; unit tests: `python3 -m unittest discover -s tests -p test_wotc_mid_sets.py -v`.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
