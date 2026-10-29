@@ -1,0 +1,55 @@
+name: Phase 1B sourced set/product metadata
+on:
+  push:
+    branches:
+      - chatgpt-phase1b-set-products-20261029
+      - main
+    paths:
+      - scripts/audit_set_product_links.py
+      - tests/test_set_product_links.py
+      - data/set_atlas/scryfall_set_metadata_2026-10-29.json
+      - data/set_atlas/product_catalog_2026-10-29.json
+      - data/set_atlas/product_audit_2026-10-29.json
+      - .github/workflows/phase1b-set-products.yml
+  pull_request:
+    paths:
+      - scripts/audit_set_product_links.py
+      - tests/test_set_product_links.py
+      - data/set_atlas/scryfall_set_metadata_2026-10-29.json
+      - data/set_atlas/product_catalog_2026-10-29.json
+      - data/set_atlas/product_audit_2026-10-29.json
+      - .github/workflows/phase1b-set-products.yml
+permissions:
+  contents: write
+jobs:
+  source-set-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests for source-defined parent relationships
+        run: python3 -m unittest discover -s tests -p 'test_set_product_links.py' -v
+      - name: Fetch original source snapshot once on the designated research branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-set-products-20261029'
+        run: |
+          if [[ ! -f data/set_atlas/scryfall_set_metadata_2026-10-29.json ]]; then
+            python3 scripts/audit_set_product_links.py --fetch-write
+          fi
+      - name: Replay derived metadata from immutable raw source
+        run: |
+          python3 scripts/audit_set_product_links.py --check
+          python3 -m py_compile scripts/audit_set_product_links.py
+      - name: Publish source snapshot and derived audit from designated branch only
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-set-products-20261029'
+        run: |
+          git add data/set_atlas/scryfall_set_metadata_2026-10-29.json data/set_atlas/product_catalog_2026-10-29.json data/set_atlas/product_audit_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: archive Scryfall Set metadata and verified product links"
+            git push origin HEAD:chatgpt-phase1b-set-products-20261029
+          fi
