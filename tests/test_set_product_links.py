@@ -34,19 +34,19 @@ class ProductLinkTests(unittest.TestCase):
                entry("unknown", "promo", parent="not-printed")]
         source = snapshot(raw)
         catalog, summary = build(source, atlas(["aaa", "pa", "future", "digital", "unknown"]))
-        self.assertEqual(catalog["pa"]["parent_set_code"], "aaa")
-        self.assertEqual(catalog["unknown"]["parent_set_code"], "not-printed")
+        self.assertEqual(catalog["sets"]["pa"]["parent_set_code"], "aaa")
+        self.assertEqual(catalog["sets"]["unknown"]["parent_set_code"], "not-printed")
         self.assertFalse(next(x for x in summary["direct_parent_relationships"]
                               if x["child"] == "unknown")["parent_in_scryfall_set_snapshot"])
-        self.assertEqual(catalog["future"]["release_status_as_of_cutoff"], "announced_future")
+        self.assertEqual(catalog["sets"]["future"]["release_status_as_of_cutoff"], "announced_future")
         self.assertEqual(summary["counts"]["released_nondigital_expansion_core_candidates_NOT_premier_certification"], 1)
-        self.assertEqual(catalog["aaa"]["premier_release_status"], "not_independently_certified")
-        self.assertEqual(catalog["aaa"]["scryfall_card_count_at_fetch"], 100)
-        self.assertEqual(catalog["aaa"]["printing_records_in_oct29_default_cards"], 12)
+        self.assertEqual(catalog["sets"]["aaa"]["premier_release_status"], "not_independently_certified")
+        self.assertEqual(catalog["sets"]["aaa"]["scryfall_card_count_at_fetch"], 100)
+        self.assertEqual(catalog["sets"]["aaa"]["printing_records_in_oct29_default_cards"], 12)
 
     def test_missing_metadata_preserved_not_guessed(self):
         catalog, summary = build(snapshot([entry("aaa", "expansion")]), atlas(["aaa", "zz"]))
-        self.assertTrue(catalog["zz"]["scryfall_set_metadata_missing"])
+        self.assertTrue(catalog["sets"]["zz"]["scryfall_set_metadata_missing"])
         self.assertEqual(summary["mapped_codes"], 1)
         self.assertEqual(len(summary["warnings"]), 1)
 
