@@ -1,0 +1,58 @@
+name: Phase 1B historical shards and standalone card/set lookup
+on:
+  push:
+    branches:
+      - chatgpt-phase1b-historic-shards-20261029
+      - main
+    paths:
+      - scripts/publish_historical_set_index.py
+      - scripts/historical_set_lookup.py
+      - tests/test_historical_set_index.py
+      - data/set_atlas/historical_*
+      - data/printing_lore/**
+      - .github/workflows/phase1b-historical-shards.yml
+  pull_request:
+    paths:
+      - scripts/publish_historical_set_index.py
+      - scripts/historical_set_lookup.py
+      - tests/test_historical_set_index.py
+      - data/set_atlas/historical_*
+      - .github/workflows/phase1b-historical-shards.yml
+
+permissions:
+  contents: write
+
+jobs:
+  historical-shard-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source and committed history
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Portable regression tests
+        run: python3 -m unittest discover -s tests -p 'test_historical_set_index.py' -v
+      - name: Validate manifest, exact shard hashes and stable joins
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == "push" && "$GITHUB_REF_NAME" == "chatgpt-phase1b-historic-shards-20261029" ]]; then
+            python3 scripts/publish_historical_set_index.py --write
+          else
+            python3 scripts/publish_historical_set_index.py
+          fi
+      - name: Verify deterministic output and Python syntax
+        run: |
+          python3 scripts/publish_historical_set_index.py
+          python3 -m py_compile scripts/publish_historical_set_index.py scripts/historical_set_lookup.py
+      - name: Publish exact reviewed branch artifacts
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-historic-shards-20261029'
+        run: |
+          git add data/set_atlas/historical_*.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish reproducible historical printing indexes"
+            git push origin HEAD:chatgpt-phase1b-historic-shards-20261029
+          fi
