@@ -10,6 +10,7 @@
     "Yawgmoth is not a planeswalker simply because Dyfed physically took him to another plane.",
     "K’rrik’s Son title does not prove literal parentage.",
     "Ramos served Mishra, was captured and repurposed by Urza, and eventually yielded five Bones of Ramos to the Legacy. His biography is a framing story connection; he did not eyewitness the ancient Thran events.",
+    "At Cory’s request, the five Bones of Ramos and Henge of Ramos are no longer included in the 99. Ramos remains only the five-color historical framing commander.",
     "The original Thran portal and the Antiquities-era Jarsyl Gate to Phyrexia diary describe distinct temporal visits.",
     "Original and later reprint flavor are separately designated. New Phyrexia exists after Yawgmoth’s death, not under his living command.",
     "Research on the 1999 novel The Thran uses Wizards official summaries and detailed secondary plot accounts; the full 311-page book was not available, so this is not a first-hand chapter-by-chapter novel certification.",
@@ -67,6 +68,63 @@
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-28-2022",
     "https://mtglore.com/web-articles/commander-2017-edition-commanders/"
   ],
+  "ramos_focus_revision": {
+    "previous_unapproved_sha256": "9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346",
+    "reason": "Cory objected to six Ramos-themed cards among the 99 and supplied specific older Phyrexian/Apocalypse candidates. Prefer literal Yawgmoth flavor, distinct invasion episodes, Gix’s manipulations, and the Thran collapse; keep Ramos as a five-color commander only.",
+    "swaps": [
+      {
+        "out": "Eye of Ramos",
+        "in": "Corrupt"
+      },
+      {
+        "out": "Heart of Ramos",
+        "in": "Retaliation"
+      },
+      {
+        "out": "Horn of Ramos",
+        "in": "Warped Devotion"
+      },
+      {
+        "out": "Skull of Ramos",
+        "in": "Planar Portal"
+      },
+      {
+        "out": "Tooth of Ramos",
+        "in": "The Cruelty of Gix"
+      },
+      {
+        "out": "Henge of Ramos",
+        "in": "Great Furnace"
+      },
+      {
+        "out": "Phyrexian Rebirth",
+        "in": "Gixian Infiltrator"
+      }
+    ],
+    "already_present": [
+      "Tsabo Tavoc",
+      "Planar Overlay",
+      "Death Grasp"
+    ],
+    "held_as_lower_priority": {
+      "Sleeper Agent": "Xantcha, Sleeper Agent already shows a specific sleeper who defected; Gixian Infiltrator adds a more precise Brothers’ War printing with story-specific flavor.",
+      "Mishra, Artificer Prodigy": "The printed Time Spiral sojourn-through-time flavor is not a literal Yawgmoth scene; Mishra, Claimed by Gix and Phyrexian Dragon Engine better show the specific corruption.",
+      "Dragon Engine": "The included Phyrexian Dragon Engine is the exact melded machine used with Mishra; a second more generic Dragon Engine offers less distinct story coverage.",
+      "Phyrexian Negator": "A valid Old Phyrexia horror but not a distinctive event or Yawgmoth quote on the selected original printing.",
+      "Plague Engineer": "A good progress-notes print but overlaps the current four-stage Phyrexian illness sequence and the original Thran phthisis story.",
+      "Soul Link": "Excellent direct Yawgmoth apocalypse flavor but overlaps existing Death Grasp, which Cory specifically offered as the alternative.",
+      "Soul of New Phyrexia": "Symbol of a successor plane after Yawgmoth died, weaker as a direct biographical scene."
+    },
+    "printing_anchors": {
+      "Corrupt": "USG #124",
+      "Retaliation": "USG #272",
+      "Warped Devotion": "PLS #57",
+      "Planar Portal": "INV #308",
+      "Gixian Infiltrator": "BRO #98",
+      "The Cruelty of Gix": "DMU #87",
+      "Great Furnace": "BRC #187"
+    }
+  },
   "thran_origin_revision": {
     "previous_unapproved_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
     "status": "RESEARCH-BASED; full novel text unavailable, no claim of having read its chapters firsthand",
@@ -555,6 +613,38 @@
           }
         },
         {
+          "name": "Gixian Infiltrator",
+          "why": "The Brothers’ War printing gives voice to Gix’s covert sabotage of Terisia City; one concrete Phyrexian infiltrator rather than an abstract reference to the regime.",
+          "evidence": "gix_infiltration_printing",
+          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
+          "preferred_set": "BRO",
+          "printing": {
+            "set": "BRO",
+            "collector": "98",
+            "url": "https://scryfall.com/card/bro/98/gixian-infiltrator?utm_source=api",
+            "printed_flavor": "\"Terisia City's fall is inevitable. My master's plan runs as sure and steady as the oil in my veins.\"",
+            "type_line": "Creature — Phyrexian Human",
+            "oracle": "Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "The Cruelty of Gix",
+          "why": "The Brothers’ War historical Saga memorializes Gix’s exploitative methods and plots that advanced Yawgmoth’s long campaign through Mishra.",
+          "evidence": "gix_historical_saga",
+          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
+          "preferred_set": "DMU",
+          "printing": {
+            "set": "DMU",
+            "collector": "87",
+            "url": "https://scryfall.com/card/dmu/87/the-cruelty-of-gix?utm_source=api",
+            "printed_flavor": "",
+            "type_line": "Enchantment — Saga",
+            "oracle": "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Target opponent reveals their hand. You choose a creature or planeswalker card from it. That player discards that card.\nII — Search your library for a card, put that card into your hand, then shuffle. You lose 3 life.\nIII — Put target creature card from a graveyard onto the battlefield under your control.",
+            "preferred_printing_found": true
+          }
+        },
+        {
           "name": "Mishra, Claimed by Gix",
           "why": "Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion.",
           "evidence": "named_corruption",
@@ -583,6 +673,22 @@
             "printed_flavor": "",
             "type_line": "Artifact Creature — Phyrexian Dragon",
             "oracle": "Double strike\nWhen this creature enters from your graveyard, you may discard your hand. If you do, draw three cards.\nUnearth {3}{R}{R}\n(Melds with Mishra, Claimed by Gix.)",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Retaliation",
+          "why": "Original Urza’s Saga flavor records Urza recognizing that Mishra is no longer himself, the emotional consequence of Gix’s and Phyrexia’s manipulation.",
+          "evidence": "original_mishra_loss_scene",
+          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
+          "preferred_set": "USG",
+          "printing": {
+            "set": "USG",
+            "collector": "272",
+            "url": "https://scryfall.com/card/usg/272/retaliation?utm_source=api",
+            "printed_flavor": "A foul, metallic stench clogged Urza's senses. It was then he knew his brother was no more.",
+            "type_line": "Enchantment",
+            "oracle": "Creatures you control have \"Whenever this creature becomes blocked by a creature, this creature gets +1/+1 until end of turn.\"",
             "preferred_printing_found": true
           }
         },
@@ -688,6 +794,22 @@
             "printed_flavor": "",
             "type_line": "Legendary Creature — Human Artificer",
             "oracle": "When Urza enters, create a 0/0 colorless Construct artifact creature token with \"This token gets +1/+1 for each artifact you control.\"\nTap an untapped artifact you control: Add {U}.\n{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Corrupt",
+          "why": "Use the original Urza’s Saga printing explicitly describing Yawgmoth touching Urza’s mind; unlike most later Corrupt reprints this is a direct named confrontation.",
+          "evidence": "yawgmoth_named_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "USG",
+          "printing": {
+            "set": "USG",
+            "collector": "124",
+            "url": "https://scryfall.com/card/usg/124/corrupt?utm_source=api",
+            "printed_flavor": "Yawgmoth brushed Urza's mind, and Urza's world convulsed.",
+            "type_line": "Sorcery",
+            "oracle": "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way.",
             "preferred_printing_found": true
           }
         },
@@ -898,86 +1020,6 @@
             "oracle": "At the beginning of your upkeep, you may return this card from your graveyard to your hand.",
             "preferred_printing_found": true
           }
-        },
-        {
-          "name": "Eye of Ramos",
-          "why": "The blue Bone of Ramos, among five dragon-engine powerstones eventually given to the Weatherlight as Legacy parts.",
-          "evidence": "documented_legacy_component",
-          "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
-          "preferred_set": "MMQ",
-          "printing": {
-            "set": "MMQ",
-            "collector": "294",
-            "url": "https://scryfall.com/card/mmq/294/eye-of-ramos?utm_source=api",
-            "printed_flavor": "Ramos wept, and there were seas.",
-            "type_line": "Artifact",
-            "oracle": "{T}: Add {U}.\nSacrifice this artifact: Add {U}.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Heart of Ramos",
-          "why": "The red Bone of Ramos; one of the five powerstones crucial to the completed Legacy.",
-          "evidence": "documented_legacy_component",
-          "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
-          "preferred_set": "MMQ",
-          "printing": {
-            "set": "MMQ",
-            "collector": "296",
-            "url": "https://scryfall.com/card/mmq/296/heart-of-ramos?utm_source=api",
-            "printed_flavor": "Ramos bled, and there was fire.",
-            "type_line": "Artifact",
-            "oracle": "{T}: Add {R}.\nSacrifice this artifact: Add {R}.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Horn of Ramos",
-          "why": "The green Bone of Ramos; a recovered physical part of the anti-Yawgmoth weapon.",
-          "evidence": "documented_legacy_component",
-          "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
-          "preferred_set": "MMQ",
-          "printing": {
-            "set": "MMQ",
-            "collector": "299",
-            "url": "https://scryfall.com/card/mmq/299/horn-of-ramos?utm_source=api",
-            "printed_flavor": "Ramos touched, and there was life.",
-            "type_line": "Artifact",
-            "oracle": "{T}: Add {G}.\nSacrifice this artifact: Add {G}.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Skull of Ramos",
-          "why": "The black Bone of Ramos; a witness of Old Phyrexian engineering repurposed against its ruler.",
-          "evidence": "documented_legacy_component",
-          "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
-          "preferred_set": "MMQ",
-          "printing": {
-            "set": "MMQ",
-            "collector": "312",
-            "url": "https://scryfall.com/card/mmq/312/skull-of-ramos?utm_source=api",
-            "printed_flavor": "Ramos fell, and there was night.",
-            "type_line": "Artifact",
-            "oracle": "{T}: Add {B}.\nSacrifice this artifact: Add {B}.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Tooth of Ramos",
-          "why": "The white Bone of Ramos; the final member of his five-color Legacy components.",
-          "evidence": "documented_legacy_component",
-          "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
-          "preferred_set": "MMQ",
-          "printing": {
-            "set": "MMQ",
-            "collector": "313",
-            "url": "https://scryfall.com/card/mmq/313/tooth-of-ramos?utm_source=api",
-            "printed_flavor": "Ramos smiled, and there was day.",
-            "type_line": "Artifact",
-            "oracle": "{T}: Add {W}.\nSacrifice this artifact: Add {W}.",
-            "preferred_printing_found": true
-          }
         }
       ]
     },
@@ -988,6 +1030,22 @@
       ],
       "source": "https://magic.wizards.com/en/story/dominaria-plane",
       "cards": [
+        {
+          "name": "Planar Portal",
+          "why": "Original Invasion printing explicitly announces the beginning of the Phyrexian invasion of Dominaria, giving its first entry its own scene.",
+          "evidence": "literal_invasion_start_printing",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "preferred_set": "INV",
+          "printing": {
+            "set": "INV",
+            "collector": "308",
+            "url": "https://scryfall.com/card/inv/308/planar-portal?utm_source=api",
+            "printed_flavor": "The sky split, and the air crackled and roiled. The Phyrexian invasion of Dominaria had finally begun.",
+            "type_line": "Artifact",
+            "oracle": "{6}, {T}: Search your library for a card, put that card into your hand, then shuffle.",
+            "preferred_printing_found": true
+          }
+        },
         {
           "name": "Planar Overlay",
           "why": "Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest.",
@@ -1017,6 +1075,22 @@
             "printed_flavor": "",
             "type_line": "Enchantment — Saga",
             "oracle": "Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.)\nI — Scry 4, then you may reveal the top card of your library. If a planeswalker card is revealed this way, put it into your hand.\nII — You may put a planeswalker card with mana value 6 or less from your hand onto the battlefield.\nIII — You may activate the loyalty abilities of planeswalkers you control twice this turn rather than only once.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Warped Devotion",
+          "why": "Original Planeshift printing quotes Urza to Gerrard in admiration of Yawgmoth’s glory within Phyrexia, a harrowing corruption of his greatest opponent.",
+          "evidence": "literal_yawgmoth_temptation",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "preferred_set": "PLS",
+          "printing": {
+            "set": "PLS",
+            "collector": "57",
+            "url": "https://scryfall.com/card/pls/57/warped-devotion?utm_source=api",
+            "printed_flavor": "\"Before the glory of Yawgmoth, yes, even this makes sense.\"\n—Urza, to Gerrard",
+            "type_line": "Enchantment",
+            "oracle": "Whenever a permanent is returned to a player's hand, that player discards a card.",
             "preferred_printing_found": true
           }
         },
@@ -1234,22 +1308,6 @@
             "printed_flavor": "\"Perfection is at hand. You have been freed of weakness and made *compleat*.\"\n—Sheoldred, Whispering One",
             "type_line": "Enchantment — Aura",
             "oracle": "Enchant creature\nEnchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Phyrexian Rebirth",
-          "why": "Its original Mirrodin Besieged flavor says the work continues as long as any glistening oil remains.",
-          "evidence": "posthumous_oil_rebirth",
-          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
-          "preferred_set": "MBS",
-          "printing": {
-            "set": "MBS",
-            "collector": "15",
-            "url": "https://scryfall.com/card/mbs/15/phyrexian-rebirth?utm_source=api",
-            "printed_flavor": "As long as one drop of the oil exists, the joyous work continues.",
-            "type_line": "Sorcery",
-            "oracle": "Destroy all creatures, then create an X/X colorless Phyrexian Horror artifact creature token, where X is the number of creatures destroyed this way.",
             "preferred_printing_found": true
           }
         },
@@ -1520,17 +1578,17 @@
           }
         },
         {
-          "name": "Henge of Ramos",
-          "why": "The Mercadian site where Ramos ceded his five Bones for the Legacy, connecting our commander to Yawgmoth’s defeat.",
+          "name": "Great Furnace",
+          "why": "Choose Brothers’ War Commander #187, whose Fall of the Thran quotation describes Phoenon, a ruined forge city of the ancient Thran Empire. The card art is originally Mirrodin and is not asserted to show Phoenon.",
           "evidence": "historical_setting_land",
-          "preferred_set": "MMQ",
+          "preferred_set": "BRC",
           "printing": {
-            "set": "MMQ",
-            "collector": "318",
-            "url": "https://scryfall.com/card/mmq/318/henge-of-ramos?utm_source=api",
-            "printed_flavor": "It is the hub. We are the wheel.\n—Dryad saying",
-            "type_line": "Land",
-            "oracle": "{T}: Add {C}.\n{2}, {T}: Add one mana of any color.",
+            "set": "BRC",
+            "collector": "187",
+            "url": "https://scryfall.com/card/brc/187/great-furnace?utm_source=api",
+            "printed_flavor": "\"Molten blood runs through the ruins of the forge city of Phoenon, a still-beating heart whose body rotted centuries ago.\"\n—*Fall of the Thran*",
+            "type_line": "Artifact Land",
+            "oracle": "{T}: Add {R}.",
             "preferred_printing_found": true
           }
         },
@@ -1831,17 +1889,17 @@
       }
     },
     {
-      "name": "Henge of Ramos",
-      "why": "The Mercadian site where Ramos ceded his five Bones for the Legacy, connecting our commander to Yawgmoth’s defeat.",
-      "preferred_set": "MMQ",
-      "source": "https://mtglore.com/web-articles/commander-2017-edition-commanders/",
+      "name": "Great Furnace",
+      "why": "Choose Brothers’ War Commander #187, whose Fall of the Thran quotation describes Phoenon, a ruined forge city of the ancient Thran Empire. The card art is originally Mirrodin and is not asserted to show Phoenon.",
+      "preferred_set": "BRC",
+      "source": "",
       "printing": {
-        "set": "MMQ",
-        "collector": "318",
-        "url": "https://scryfall.com/card/mmq/318/henge-of-ramos?utm_source=api",
-        "printed_flavor": "It is the hub. We are the wheel.\n—Dryad saying",
-        "type_line": "Land",
-        "oracle": "{T}: Add {C}.\n{2}, {T}: Add one mana of any color.",
+        "set": "BRC",
+        "collector": "187",
+        "url": "https://scryfall.com/card/brc/187/great-furnace?utm_source=api",
+        "printed_flavor": "\"Molten blood runs through the ruins of the forge city of Phoenon, a still-beating heart whose body rotted centuries ago.\"\n—*Fall of the Thran*",
+        "type_line": "Artifact Land",
+        "oracle": "{T}: Add {R}.",
         "preferred_printing_found": true
       }
     },
@@ -1930,13 +1988,13 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346",
+  "raw_decklist_sha256": "41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6",
   "counts": {
     "all_cards": 100,
     "commander": 1,
     "distinct_nonbasic": 90,
     "basic_copies": 10,
     "lands": 30,
-    "with_printed_flavor": 59
+    "with_printed_flavor": 58
   }
 }
