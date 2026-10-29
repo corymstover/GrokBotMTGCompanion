@@ -1,0 +1,39 @@
+name: Lore research and Phase 8 safety
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/lore_deep_research.py'
+      - 'scripts/lore_query.py'
+      - 'scripts/test_lore_deep_research.py'
+      - 'scripts/phase8_status.py'
+      - 'scripts/test_phase8_safety.py'
+      - 'scripts/rebuild_enrichment.sh'
+      - 'data/lore_research/**'
+      - 'PHASE8_RESTART.md'
+      - '.github/workflows/lore-phase8-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lore-and-phase8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm guard is syntactically valid
+        run: bash -n scripts/rebuild_enrichment.sh
+      - name: Run lore and Phase 8 safety regressions
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_lore_deep_research.py' -v
+          python3 -m unittest discover -s scripts -p 'test_phase8_safety.py' -v
+      - name: Report current Phase 8 coverage without changing files
+        run: python3 scripts/phase8_status.py --json
+      - name: Confirm default Phase 8 entrypoint is read-only
+        run: bash scripts/rebuild_enrichment.sh --plan
