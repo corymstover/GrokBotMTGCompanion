@@ -128,14 +128,14 @@ def card_href(r):
 
 
 def load_bulk():
-    cards, bulk = ing.get_bulk(ing.DEFAULT_CACHE, None)
+    cards, bulk = ing.get_bulk(ing.active_cache_dir(), None)
     return {c["oracle_id"]: c for c in cards}, bulk
 
 
 def load_printings(want=None):
     """{oracle_id: {"spotlight": [...], "flavors": [...], "ub": bool, "sets": [...]}} from default-cards (paper printings)."""
     out = defaultdict(lambda: {"spotlight": [], "flavors": [], "stamps": set(), "sets": [], "artists": set(), "set_types": set()})
-    f = sorted(glob.glob(str(ROOT / ".cache" / "default-cards-*.jsonl.gz")))[-1]
+    f = sorted(glob.glob(str(ing.active_cache_dir() / "default-cards-*.jsonl.gz")))[-1]
     with gzip.open(f, "rt", encoding="utf-8") as fh:
         for line in fh:
             c = json.loads(line)

@@ -29,6 +29,9 @@ def problems(lock_path=LOCK, cache=CACHE, hashes=True):
 
 
 if __name__ == "__main__":
+    if os.environ.get("MTG_SCRYFALL_MODE") == "multiverse":
+        print("dev-snapshot-lock: historical Grixis check intentionally isolated from multiverse research")
+        sys.exit(0)
     p = problems()
     for e in p:
         print("FAIL", e)

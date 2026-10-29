@@ -85,17 +85,32 @@ def http_get(url: str) -> bytes:
 
 
 LOCK_FILE = ROOT / "data" / "grixis" / "dev_snapshot_lock.json"  # Bot cycle 66.3b: frozen dev snapshot (Cory D6)
+MULTIVERSE_MODE = "MTG_SCRYFALL_MODE"
+
+
+def multiverse_mode() -> bool:
+    """Opt into independent current-data research without changing Grixis history."""
+    return os.environ.get(MULTIVERSE_MODE) == "multiverse"
+
+
+def active_cache_dir() -> Path:
+    """The active cache; historical Grixis and current research never share files."""
+    if multiverse_mode():
+        return Path(os.environ.get("MTG_MULTIVERSE_CACHE", ROOT / ".cache" / "multiverse"))
+    return DEFAULT_CACHE
 
 
 def snapshot_lock():
     """The dev-snapshot lock, or None when absent or overridden for the Birthday snapshot step."""
-    if os.environ.get("SCRYFALL_BIRTHDAY_SNAPSHOT") == "1" or not LOCK_FILE.is_file():
+    if multiverse_mode() or os.environ.get("SCRYFALL_BIRTHDAY_SNAPSHOT") == "1" or not LOCK_FILE.is_file():
         return None
     return json.loads(LOCK_FILE.read_text(encoding="utf-8"))
 
 
 def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards") -> tuple[list[dict], str]:
     """Return (objects, bulk_updated_at) for a Scryfall bulk type (oracle-cards, rulings, ...)."""
+    if multiverse_mode() and Path(cache_dir) == DEFAULT_CACHE:
+        cache_dir = active_cache_dir()
     lock = snapshot_lock()
     if lock and not bulk_file:
         # Frozen development snapshot: never fetch, replace or add a bulk; always read the locked file.
@@ -124,8 +139,11 @@ def get_bulk(cache_dir: Path, bulk_file: str | None, kind: str = "oracle-cards")
         cache_dir.mkdir(parents=True, exist_ok=True)
         path = cache_dir / Path(uri.split("?")[0]).name
         if not path.exists():
-            for old in cache_dir.glob(f"{kind}-*"):
-                old.unlink()
+            # Modern snapshots accumulate: never destroy the previous fetched
+            # input while downloading a newer source version.
+            if not multiverse_mode():
+                for old in cache_dir.glob(f"{kind}-*"):
+                    old.unlink()
             print(f"Downloading {uri} ...", file=sys.stderr)
             tmp = path.with_suffix(".part")
             tmp.write_bytes(http_get(uri))
