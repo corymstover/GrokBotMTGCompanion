@@ -2,9 +2,27 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346`.
 
-**Count:** 100 cards; 30 lands; 60 of 90 nonbasic/commander suggested printings have actual flavor text.
+**Count:** 100 cards; 30 lands; 59 of 90 nonbasic/commander suggested printings have actual flavor text.
+
+## Thran-origin research refinement — NEW, still unapproved
+
+**Previous draft SHA:** `6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68`. Refocus the first act on powerstone radiation, Gix wounding Glacian, Yawgmoth exploiting phthisis, Thran technology and places, instead of three less direct Urza industry lands and two generic/later Phyrexian echoes.
+
+| Removed | Added |
+|---|---|
+| Phyrexian Tyranny | Phthisis |
+| Realmbreaker, the Invasion Tree | The Mana Rig |
+| Urza's Mine | Ancient Den |
+| Urza's Power Plant | Vault of Whispers |
+| Urza's Tower | Contaminated Aquifer |
+
+**Evidence boundary:** I did not access the full text of J. Robert King’s *The Thran* (1999). These changes are based on officially published Wizards summaries, exact printed card text, and cross-checked secondary novel plot accounts. They do not constitute first-hand reading of the novel.
+
+Gix first attacked Glacian as an Untouchable; the later Gix, Yawgmoth Praetor card is used in the Brothers War chapter because it does **not** literally show the original attack. The Mana Rig depicts the Shivan Thran factory, not the Halcyon rig. Ancient Den BRC #172 speaks of Halcyon, Vault of Whispers BRC #211 speaks of Koilos, and Contaminated Aquifer DMU #245 directly names Yawgmoth’s remaining influence. Each is a print-specific textual connection; original card art is not automatically the quoted location.
+
+**Reserved for future evidence-sensitive consideration:** Thran Vigil (BRO #114, direct Glacian-flavor quote) and Thran Lens (ULG #133, Urza’s explanation of the rig). Neither is forced into the list by popularity or name alone.
 
 ## Unapproved draft revision: more Phyrexians and phyresis
 
@@ -63,6 +81,11 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 - Ramos served Mishra, was captured and repurposed by Urza, and eventually yielded five Bones of Ramos to the Legacy. His biography is a framing story connection; he did not eyewitness the ancient Thran events.
 - The original Thran portal and the Antiquities-era Jarsyl Gate to Phyrexia diary describe distinct temporal visits.
 - Original and later reprint flavor are separately designated. New Phyrexia exists after Yawgmoth’s death, not under his living command.
+- Research on the 1999 novel The Thran uses Wizards official summaries and detailed secondary plot accounts; the full 311-page book was not available, so this is not a first-hand chapter-by-chapter novel certification.
+- Gix originally wounded Glacian as an Untouchable thousands of years before his later Phyrexian praetorship and manipulation of Mishra. The printed praetor card depicts the later identity, not the earlier attack.
+- Thran-war stonecharger chemical death clouds and the later Apocalypse depiction of Yawgmoth as a gigantic black death cloud are different events.
+- The Mana Rig card depicts the Shivan installation, a separate surviving Thran powerstone factory; it does not depict the Halcyon rig where phthisis affected the Untouchables.
+- The original Mirrodin artifact-land art of Ancient Den and Vault of Whispers is not assumed to depict Halcyon/Koilos, even where the chosen Brothers War Commander printings quote those locations.
 - Three Commander-banned cards are knowingly included under Cory’s story-first Rule 0 exception: Yawgmoth’s Bargain, Sundering Titan, and Tolarian Academy.
 - No power bracket or sanctioned Commander legality is asserted.
 
@@ -73,6 +96,8 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Yawgmoth, Thran Physician
 1x Rebbec, Architect of Ascension
 1x Glacian, Powerstone Engineer
+1x Phthisis
+1x The Mana Rig
 1x Fall of the Thran
 1x Thran Dynamo
 1x Portal to Phyrexia
@@ -112,7 +137,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Phyrexian Plaguelord
 1x Phyrexian Infiltrator
 1x Eye of Yawgmoth
-1x Phyrexian Tyranny
 1x Squee, Goblin Nabob
 1x Eye of Ramos
 1x Heart of Ramos
@@ -138,15 +162,14 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Karn Liberated
 1x Sheoldred, Whispering One
 1x Elesh Norn, Mother of Machines
-1x Realmbreaker, the Invasion Tree
 1x Thran Portal
 1x Hall of Tagsin
 1x Caves of Koilos
 1x Tocasia's Dig Site
 1x Mishra's Workshop
-1x Urza's Mine
-1x Urza's Power Plant
-1x Urza's Tower
+1x Ancient Den
+1x Vault of Whispers
+1x Contaminated Aquifer
 1x Argoth, Sanctum of Nature
 1x Tolarian Academy
 1x Phyrexian Tower
@@ -177,6 +200,8 @@ Official narrative anchor: https://magic.wizards.com/en/news/card-preview/legend
 | Yawgmoth, Thran Physician | The human Thran physician whose ambition, experimentation and atrocities precede his godhood. | [MH1 #116](https://scryfall.com/card/mh1/116/yawgmoth-thran-physician?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Rebbec, Architect of Ascension | Glacian’s wife brought Yawgmoth into Halcyon to try to save her husband; she ultimately sealed his portal. | [CMR #42](https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension?utm_source=api) | "She sees beyond technology to what it enables." / —Glacian, powerstone engineer |
 | Glacian, Powerstone Engineer | His inventions powered the Thran; Yawgmoth exploited him and the two halves of his powerstone eventually became the brothers’ stones. | [CMR #72](https://scryfall.com/card/cmr/72/glacian-powerstone-engineer?utm_source=api) | "His energy is as boundless as the powerstones'." / —Rebbec, architect of ascension |
+| Phthisis | The powerstone-induced wasting disease that struck Glacian and the Untouchables, giving Yawgmoth his route from exiled doctor to Halcyon ruler. The Time Spiral card names the condition, but its artwork is not a verified scene from the novel. | [TSP #122](https://scryfall.com/card/tsp/122/phthisis?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| The Mana Rig | An original Thran powerstone-producing installation type, crucial to the industrial civilization behind phthisis. The printed card depicts the separate Shivan Mana Rig, not the specific Halcyon facility in the novel. | [DMC #28](https://scryfall.com/card/dmc/28/the-mana-rig?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Fall of the Thran | Historical Saga memorializing the civil war and destruction of the society Yawgmoth seized. | [DOM #18](https://scryfall.com/card/dom/18/fall-of-the-thran?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Thran Dynamo | A literal Thran machine with a selected Yawgmoth-attributed philosophy of limitless advancement; later printing, not an eyewitness scene. | [CMM #658](https://scryfall.com/card/cmm/658/thran-dynamo?utm_source=api) | "The 'pinnacle' of advancement is a concept that exists only in the narrow minds of those with no ambition." / —Yawgmoth |
 
@@ -237,7 +262,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Phyrexian Plaguelord | Final stage of the Phyrexian illness; original Urza’s Legacy flavor concludes the four-card progression. | [ULG #62](https://scryfall.com/card/ulg/62/phyrexian-plaguelord?utm_source=api) | "The final stage of the illness: delirium, convulsions, and death." / —Phyrexian progress notes |
 | Phyrexian Infiltrator | The Invasion printing explicitly calls this agent Yawgmoth’s will made machine. | [INV #116](https://scryfall.com/card/inv/116/phyrexian-infiltrator?utm_source=api) | "It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh." / —Tsabo Tavoc |
 | Eye of Yawgmoth | A Nemesis-era instrument bearing his name, embodying the watching, sacrificing, and scrutinizing of bodies in the invasion regime. | [NEM #129](https://scryfall.com/card/nem/129/eye-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Phyrexian Tyranny | Planeshift card embodying the abusive campaign; later reprints also quote Crovax to Ertai. | [PLS #118](https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api) | "He is Yawgmoth's reward to me. I shall kill him a hundred times a day." / —Crovax, to Ertai |
 | Squee, Goblin Nabob | Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation. | [UMA #150](https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api) | "If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee." / —Karn |
 | Eye of Ramos | The blue Bone of Ramos, among five dragon-engine powerstones eventually given to the Weatherlight as Legacy parts. | [MMQ #294](https://scryfall.com/card/mmq/294/eye-of-ramos?utm_source=api) | Ramos wept, and there were seas. |
 | Heart of Ramos | The red Bone of Ramos; one of the five powerstones crucial to the completed Legacy. | [MMQ #296](https://scryfall.com/card/mmq/296/heart-of-ramos?utm_source=api) | Ramos bled, and there was fire. |
@@ -277,7 +301,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Karn Liberated | Karn is reclaimed from the New Phyrexian contamination and later fights the successors. | [NPH #1](https://scryfall.com/card/nph/1/karn-liberated?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Sheoldred, Whispering One | A New Phyrexian praetor claiming direct spiritual succession to the Old Phyrexian order. | [NPH #73](https://scryfall.com/card/nph/73/sheoldred-whispering-one?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Elesh Norn, Mother of Machines | The successor who tried to recreate the unified authority associated with Yawgmoth. | [ONE #10](https://scryfall.com/card/one/10/elesh-norn-mother-of-machines?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Realmbreaker, the Invasion Tree | Elesh Norn’s later multiversal invasion method—a successor’s scheme, not Yawgmoth’s own weapon. | [MOM #263](https://scryfall.com/card/mom/263/realmbreaker-the-invasion-tree?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 
 ### Lands as historical places and thematic scenes
 
@@ -288,9 +311,9 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Caves of Koilos | The cave of the Thran powerstone; later printings refer to a renewed Phyrexian menace. | [DMU #244](https://scryfall.com/card/dmu/244/caves-of-koilos?utm_source=api) | After years of silence, the caves once again echo with the grisly sounds of Phyrexians preparing for war. |
 | Tocasia's Dig Site | The archaeological expedition that found the brothers’ Thran inheritance. | [BRO #266](https://scryfall.com/card/bro/266/tocasias-dig-site?utm_source=api) | Sent by their noble parents to toughen up and learn something of the world's past, Urza and Mishra instead uncovered Terisiare's future. |
 | Mishra's Workshop | Artifact-war industry that Gix’s plans exploited. | [ATQ #81](https://scryfall.com/card/atq/81/mishras-workshop?utm_source=api) | Though he eventually came to despise Tocasia, Mishra listened well to her lessons on clarity of purpose. Unlike his brother, he focused his mind on a single goal. |
-| Urza's Mine | Urza’s artifact war and long path toward the war on Yawgmoth. | [2XM #329](https://scryfall.com/card/2xm/329/urzas-mine?utm_source=api) | In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past. |
-| Urza's Power Plant | Urza’s wartime infrastructure. | [2XM #330](https://scryfall.com/card/2xm/330/urzas-power-plant?utm_source=api) | Urza threw himself into his research, pushing the boundaries of both possibility and morality. |
-| Urza's Tower | Urza’s wartime infrastructure. | [ATQ #85a](https://scryfall.com/card/atq/85a/urzas-tower?utm_source=api) | Urza always put Tocasia's lessons on resource-gathering to effective use. |
+| Ancient Den | Select the Brothers’ War Commander printing explicitly identifying Halcyon, the once-floating Thran capital destroyed in Yawgmoth’s rise. This is an exact-printing flavor-text connection, not a claim that Mirrodin-set art depicts Halcyon. | [BRC #172](https://scryfall.com/card/brc/172/ancient-den?utm_source=api) | "Halcyon, the floating capital of the Thran. The once shining city in the clouds now lies ruined on the desert floor." / —*Fall of the Thran* |
+| Vault of Whispers | Select the Brothers’ War Commander printing quoting Fall of the Thran on Koilos, the Thran prison-city where the earliest Phyrexian influence took root; not a literal depiction of Glacian’s sickroom. | [BRC #211](https://scryfall.com/card/brc/211/vault-of-whispers?utm_source=api) | "Koilos, the Thran prison-city, built to house their outcasts and dissidents. It was here that Phyrexia's influence first festered." / —*Fall of the Thran* |
+| Contaminated Aquifer | The Dominaria United land directly invokes Yawgmoth’s continuing legacy in the extensive underground caves. A retrospective landscape echo rather than a Thran-era scene. | [DMU #245](https://scryfall.com/card/dmu/245/contaminated-aquifer?utm_source=api) | The caves stretch farther than anyone knows, and the terrible legacy of Yawgmoth lurks in every shadow. |
 | Argoth, Sanctum of Nature | The island destroyed by Urza’s Golgothian Sylex. | [BRO #256](https://scryfall.com/card/bro/256/argoth-sanctum-of-nature?utm_source=api) | — (geographic link; no flavor on chosen printing) |
 | Tolarian Academy | Where Urza built his long response and where Phyrexian time-rift attacks struck; banned Rule 0 inclusion. | [USG #330](https://scryfall.com/card/usg/330/tolarian-academy?utm_source=api) | The academy worked with time—until time ran out. |
 | Phyrexian Tower | Choose a retrospective Karn quotation about Yawgmoth’s death. | [UMA #248](https://scryfall.com/card/uma/248/phyrexian-tower?utm_source=api) | "Yawgmoth is dead, and his citadels lie empty. But there will always be some who seek power at any price." / —Karn |
