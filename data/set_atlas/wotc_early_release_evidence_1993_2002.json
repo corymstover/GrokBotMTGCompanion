@@ -1,0 +1,394 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "scope": "1993-2002 Scryfall expansion/core candidates, all 38 codes",
+  "historical_terminology": "historical_regular_expansion_or_core_release is NOT a claim that the later marketing term premier release was used in 1993",
+  "primary_sources": {
+    "year": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+    "core": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+    "summer": "https://magic.wizards.com/en/news/making-magic/25-more-random-things-about-magic-2016-06-20",
+    "early": "https://magic.wizards.com/en/news/making-magic/25-random-things-about-magic-2009-02-16"
+  },
+  "records": [
+    {
+      "code": "2ed",
+      "year": 1993,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "arn",
+      "year": 1993,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1993 — randomized booster releases; 2009 article notes December 1993 / January 1994 regional availability",
+      "auxiliary_source": "https://magic.wizards.com/en/news/making-magic/25-random-things-about-magic-2009-02-16",
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "lea",
+      "year": 1993,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "leb",
+      "year": 1993,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "3ed",
+      "year": 1994,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "atq",
+      "year": 1994,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1994 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "drk",
+      "year": 1994,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1994 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "fbb",
+      "year": 1994,
+      "claim": "localized_core_printing_variant_pending",
+      "evidence_level": "provisional_structural_inference",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: exhaustive regular core editions, with no separate foreign-border editions",
+      "auxiliary_source": "https://api.scryfall.com/sets/fbb",
+      "classification_note": "Separate Scryfall border-language entry; official core-edition enumeration does not separately list it. Independent primary evidence for distribution/edition relationship still needed."
+    },
+    {
+      "code": "fem",
+      "year": 1994,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1994 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "leg",
+      "year": 1994,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1994 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "sum",
+      "year": 1994,
+      "claim": "discarded_print_run",
+      "evidence_level": "explicit_Wizards_exclusion",
+      "source": "https://magic.wizards.com/en/news/making-magic/25-more-random-things-about-magic-2016-06-20",
+      "section": "25 More Random Things About Magic — #9: scrapped Edgar/Summer Magic printing",
+      "auxiliary_source": "https://api.scryfall.com/sets/sum",
+      "classification_note": "Wizards describes Summer Magic as discarded Revised printing, with a handful of boxes released accidentally"
+    },
+    {
+      "code": "4bb",
+      "year": 1995,
+      "claim": "localized_core_printing_variant_pending",
+      "evidence_level": "provisional_structural_inference",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: exhaustive regular core editions, with no separate foreign-border editions",
+      "auxiliary_source": "https://api.scryfall.com/sets/4bb",
+      "classification_note": "Separate Scryfall border-language entry; official core-edition enumeration does not separately list it. Independent primary evidence for distribution/edition relationship still needed."
+    },
+    {
+      "code": "4ed",
+      "year": 1995,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "hml",
+      "year": 1995,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1995 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "ice",
+      "year": 1995,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1995 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "all",
+      "year": 1996,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1996 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "mir",
+      "year": 1996,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1996 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "5ed",
+      "year": 1997,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "tmp",
+      "year": 1997,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1997 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "vis",
+      "year": 1997,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1997 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "wth",
+      "year": 1997,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1997 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "exo",
+      "year": 1998,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1998 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "sth",
+      "year": 1998,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1998 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "usg",
+      "year": 1998,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1998 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "6ed",
+      "year": 1999,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "mmq",
+      "year": 1999,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1999 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "uds",
+      "year": 1999,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1999 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "ulg",
+      "year": 1999,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 1999 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "inv",
+      "year": 2000,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2000 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "nem",
+      "year": 2000,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2000 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "pcy",
+      "year": 2000,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2000 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "7ed",
+      "year": 2001,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/trivial-pursuit-more-or-less",
+      "section": "Question #19: officially enumerated 21 core sets",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' explicitly enumerated regular core edition"
+    },
+    {
+      "code": "apc",
+      "year": 2001,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2001 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "ody",
+      "year": 2001,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2001 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "pls",
+      "year": 2001,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2001 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "jud",
+      "year": 2002,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2002 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "ons",
+      "year": 2002,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2002 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    },
+    {
+      "code": "tor",
+      "year": 2002,
+      "claim": "historical_regular_expansion_or_core_release",
+      "evidence_level": "primary_Wizards_enumeration",
+      "source": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1",
+      "section": "Looking Back, Part 1 — 2002 — randomized booster releases",
+      "auxiliary_source": null,
+      "classification_note": "Wizards' retrospective lists this release in the specified year; Scryfall set_type corroborates expansion"
+    }
+  ]
+}
