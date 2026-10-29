@@ -125,6 +125,39 @@
       "Great Furnace": "BRC #187"
     }
   },
+  "final_biography_revision": {
+    "previous_unapproved_sha256": "41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6",
+    "reason": "Cory reviewed Phyrexia-named cards and requested one last character-first pass. Four original Old Phyrexian printings tell specific additional scenes in Kerrick’s laboratory, Tsabo’s Benalish atrocities, and Crovax’s treatment of Ertai as Yawgmoth’s gift, plus the regime’s reuse of the dead.",
+    "swaps": [
+      {
+        "out": "Dark Ritual",
+        "in": "Phyrexian Reclamation",
+        "why": "The Duel Deck Dark Ritual re-quotes scripture already represented by Phyrexian Scriptures, whereas Reclamation presents the distinct industrial use of the dead."
+      },
+      {
+        "out": "Gixian Infiltrator",
+        "in": "Phyrexian Broodlings",
+        "why": "Gix remains heavily represented by his named card, Mishra, and his Cruelty Saga; Kerrick had no scene of his actual Tolarian experiments until Broodlings."
+      },
+      {
+        "out": "Yawgmoth's Vile Offering",
+        "in": "Phyrexian Tyranny",
+        "why": "The later retrospective repeats Yawgmoth’s bargain, while Tyranny uniquely records Crovax and Ertai’s relationship to the living Yawgmoth."
+      },
+      {
+        "out": "Phyrexian Vivisector",
+        "in": "Phyrexian Slayer",
+        "why": "The later flavor-based recap is redundant beside surviving posthumous oil, phyresis, Karn and praetors; Slayer adds the specifically named attack on Benalia under Tsabo Tavoc."
+      }
+    ],
+    "printing_anchors": {
+      "Phyrexian Reclamation": "ULG #63",
+      "Phyrexian Broodlings": "ULG #58",
+      "Phyrexian Tyranny": "PLS #118",
+      "Phyrexian Slayer": "INV #118"
+    },
+    "caveat": "Older revision sections are preserved for audit history; a card described there may have been removed in this final proposal."
+  },
   "thran_origin_revision": {
     "previous_unapproved_sha256": "6f3ff8a9275d4518558623226d697b67171f25a86c1bd993ebc42db4942bce68",
     "status": "RESEARCH-BASED; full novel text unavailable, no claim of having read its chapters firsthand",
@@ -364,18 +397,18 @@
           }
         },
         {
-          "name": "Dark Ritual",
-          "why": "Choose the Duel Deck printing reciting the Phyrexian Scriptures and Yawgmoth’s claimed Grand Evolution.",
-          "evidence": "quoted_scripture_printing",
+          "name": "Phyrexian Reclamation",
+          "why": "Original Urza’s Legacy card summarizes the regime’s refusal to let death end forced service; a distinct expression of Yawgmoth’s exploitation of flesh.",
+          "evidence": "original_phyrexian_dogma",
           "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
-          "preferred_set": "DDE",
+          "preferred_set": "ULG",
           "printing": {
-            "set": "DDE",
-            "collector": "18",
-            "url": "https://scryfall.com/card/dde/18/dark-ritual?utm_source=api",
-            "printed_flavor": "\"From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began.\"\n—*Phyrexian Scriptures*",
-            "type_line": "Instant",
-            "oracle": "Add {B}{B}{B}.",
+            "set": "ULG",
+            "collector": "63",
+            "url": "https://scryfall.com/card/ulg/63/phyrexian-reclamation?utm_source=api",
+            "printed_flavor": "Death is no excuse to stop working.",
+            "type_line": "Enchantment",
+            "oracle": "{1}{B}, Pay 2 life: Return target creature card from your graveyard to your hand.",
             "preferred_printing_found": true
           }
         },
@@ -613,22 +646,6 @@
           }
         },
         {
-          "name": "Gixian Infiltrator",
-          "why": "The Brothers’ War printing gives voice to Gix’s covert sabotage of Terisia City; one concrete Phyrexian infiltrator rather than an abstract reference to the regime.",
-          "evidence": "gix_infiltration_printing",
-          "source": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
-          "preferred_set": "BRO",
-          "printing": {
-            "set": "BRO",
-            "collector": "98",
-            "url": "https://scryfall.com/card/bro/98/gixian-infiltrator?utm_source=api",
-            "printed_flavor": "\"Terisia City's fall is inevitable. My master's plan runs as sure and steady as the oil in my veins.\"",
-            "type_line": "Creature — Phyrexian Human",
-            "oracle": "Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.",
-            "preferred_printing_found": true
-          }
-        },
-        {
           "name": "The Cruelty of Gix",
           "why": "The Brothers’ War historical Saga memorializes Gix’s exploitative methods and plots that advanced Yawgmoth’s long campaign through Mishra.",
           "evidence": "gix_historical_saga",
@@ -782,6 +799,22 @@
           }
         },
         {
+          "name": "Phyrexian Broodlings",
+          "why": "Original Urza’s Legacy printing directly describes Kerrick (K’rrik) constructing new monsters from scavenged beasts during the Tolarian time-rift plot.",
+          "evidence": "specific_kerrick_experiment_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "ULG",
+          "printing": {
+            "set": "ULG",
+            "collector": "58",
+            "url": "https://scryfall.com/card/ulg/58/phyrexian-broodlings?utm_source=api",
+            "printed_flavor": "With limited resources and near unlimited time, Kerrick used parts from one beast to build another.",
+            "type_line": "Creature — Phyrexian Minion",
+            "oracle": "{1}, Sacrifice a creature: Put a +1/+1 counter on this creature.",
+            "preferred_printing_found": true
+          }
+        },
+        {
           "name": "Urza, Lord High Artificer",
           "why": "Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire.",
           "evidence": "named_enemy",
@@ -890,6 +923,22 @@
             "printed_flavor": "\"I might almost pity my enemies—if it wasn't so amusing to watch them die.\"",
             "type_line": "Legendary Creature — Phyrexian Horror",
             "oracle": "First strike, protection from legendary creatures\n{B}{B}, {T}: Destroy target legendary creature. It can't be regenerated.",
+            "preferred_printing_found": true
+          }
+        },
+        {
+          "name": "Phyrexian Slayer",
+          "why": "Original Invasion printing identifies Tsabo Tavoc’s specialized killers devastating Benalia, giving her campaign a specific target.",
+          "evidence": "specific_tsabo_invasion_printing",
+          "source": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+          "preferred_set": "INV",
+          "printing": {
+            "set": "INV",
+            "collector": "118",
+            "url": "https://scryfall.com/card/inv/118/phyrexian-slayer?utm_source=api",
+            "printed_flavor": "Benalia was only the first nation victimized by Tsabo Tavoc's specialized killers.",
+            "type_line": "Creature — Phyrexian Minion",
+            "oracle": "Flying\nWhenever this creature becomes blocked by a white creature, destroy that creature. It can't be regenerated.",
             "preferred_printing_found": true
           }
         },
@@ -1095,6 +1144,22 @@
           }
         },
         {
+          "name": "Phyrexian Tyranny",
+          "why": "Original Planeshift flavor records Crovax explicitly describing Ertai as Yawgmoth’s gift to him; a distinct triad-of-villains scene.",
+          "evidence": "literal_yawgmoth_reward_printing",
+          "source": "https://magic.wizards.com/en/story/dominaria-plane",
+          "preferred_set": "PLS",
+          "printing": {
+            "set": "PLS",
+            "collector": "118",
+            "url": "https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api",
+            "printed_flavor": "\"He is Yawgmoth's reward to me. I shall kill him a hundred times a day.\"\n—Crovax, to Ertai",
+            "type_line": "Enchantment",
+            "oracle": "Whenever a player draws a card, that player loses 2 life unless they pay {2}.",
+            "preferred_printing_found": true
+          }
+        },
+        {
           "name": "Last Stand",
           "why": "The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter.",
           "evidence": "visual_depiction_of_final_invasion",
@@ -1247,38 +1312,6 @@
       ],
       "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
       "cards": [
-        {
-          "name": "Yawgmoth's Vile Offering",
-          "why": "A later Dominarian retrospective on Yawgmoth’s old bargain and violence; it does not depict his resurrection.",
-          "evidence": "retrospective_memory",
-          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
-          "preferred_set": "DOM",
-          "printing": {
-            "set": "DOM",
-            "collector": "114",
-            "url": "https://scryfall.com/card/dom/114/yawgmoths-vile-offering?utm_source=api",
-            "printed_flavor": "Centuries ago, a mad god offered a simple trade.",
-            "type_line": "Legendary Sorcery",
-            "oracle": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nPut up to one target creature or planeswalker card from a graveyard onto the battlefield under your control. Destroy up to one target creature or planeswalker. Exile Yawgmoth's Vile Offering.",
-            "preferred_printing_found": true
-          }
-        },
-        {
-          "name": "Phyrexian Vivisector",
-          "why": "Its Dominaria United flavor explicitly ties New Phyrexian surgery to Yawgmoth’s earlier atrocities.",
-          "evidence": "explicit_posthumous_flavor",
-          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
-          "preferred_set": "DMU",
-          "printing": {
-            "set": "DMU",
-            "collector": "100",
-            "url": "https://scryfall.com/card/dmu/100/phyrexian-vivisector?utm_source=api",
-            "printed_flavor": "Before he was the Father of Machines, Yawgmoth was a twisted Thran physician, and his legacy of medical atrocities lives on in New Phyrexia.",
-            "type_line": "Creature — Phyrexian Human",
-            "oracle": "Whenever a creature you control dies, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
-            "preferred_printing_found": true
-          }
-        },
         {
           "name": "Glistening Oil",
           "why": "The infectious medium that outlived Yawgmoth and eventually transformed Mirrodin; not proof he survived.",
@@ -1988,7 +2021,7 @@
     "oracle": "Flying\nWhenever you cast a spell, put a +1/+1 counter on Ramos for each of that spell's colors.\nRemove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate only once each turn.",
     "preferred_printing_found": true
   },
-  "raw_decklist_sha256": "41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6",
+  "raw_decklist_sha256": "d77fb2e2976c01c18db233a3e39816241f46e891c696b9a301a85bbd75b9812f",
   "counts": {
     "all_cards": 100,
     "commander": 1,
