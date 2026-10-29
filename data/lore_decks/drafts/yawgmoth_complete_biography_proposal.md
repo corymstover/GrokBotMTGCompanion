@@ -2,9 +2,37 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `41b1de7bc780f864dfffbcf04a5e4f662cac399a2fc42e256f72aabf7946f2b6`.
 
-**Count:** 100 cards; 30 lands; 59 of 90 nonbasic/commander suggested printings have actual flavor text.
+**Count:** 100 cards; 30 lands; 58 of 90 nonbasic/commander suggested printings have actual flavor text.
+
+## NEW: Yawgmoth-over-Ramos story focus — still unapproved
+
+**Previous unapproved SHA:** `9af2549eefc8f263116881c9dca813904b0ca5cab5e2d0f60b22b09cf9cf9346`. Cory objected to six Ramos-themed cards among the 99 and supplied specific older Phyrexian/Apocalypse candidates. Prefer literal Yawgmoth flavor, distinct invasion episodes, Gix’s manipulations, and the Thran collapse; keep Ramos as a five-color commander only.
+
+| Removed | Added |
+|---|---|
+| Eye of Ramos | Corrupt |
+| Heart of Ramos | Retaliation |
+| Horn of Ramos | Warped Devotion |
+| Skull of Ramos | Planar Portal |
+| Tooth of Ramos | The Cruelty of Gix |
+| Henge of Ramos | Great Furnace |
+| Phyrexian Rebirth | Gixian Infiltrator |
+
+Already included, therefore not duplicated: Tsabo Tavoc, Planar Overlay, and Death Grasp. Gixian Infiltrator was selected over the generic Sleeper Agent because Xantcha already occupies a specific sleeper-agent role and the Infiltrator has a directly relevant Brothers’ War printed line.
+
+Corrupt must use USG #124 (Yawgmoth touching Urza’s mind), Retaliation USG #272 (Urza realizing Mishra was lost), Warped Devotion PLS #57 (Urza voicing admiration of Yawgmoth’s glory), Planar Portal INV #308 (the invasion beginning), Gixian Infiltrator BRO #98 (a named Gix operation), and Great Furnace BRC #187 (a Fall of the Thran quote about Phoenon). Their other printings and artwork can differ. The Cruelty of Gix DMU #87 is a historical Saga with no printed flavor.
+
+### Other Cory suggestions evaluated but not forced
+
+- **Sleeper Agent:** Xantcha, Sleeper Agent already shows a specific sleeper who defected; Gixian Infiltrator adds a more precise Brothers’ War printing with story-specific flavor.
+- **Mishra, Artificer Prodigy:** The printed Time Spiral sojourn-through-time flavor is not a literal Yawgmoth scene; Mishra, Claimed by Gix and Phyrexian Dragon Engine better show the specific corruption.
+- **Dragon Engine:** The included Phyrexian Dragon Engine is the exact melded machine used with Mishra; a second more generic Dragon Engine offers less distinct story coverage.
+- **Phyrexian Negator:** A valid Old Phyrexia horror but not a distinctive event or Yawgmoth quote on the selected original printing.
+- **Plague Engineer:** A good progress-notes print but overlaps the current four-stage Phyrexian illness sequence and the original Thran phthisis story.
+- **Soul Link:** Excellent direct Yawgmoth apocalypse flavor but overlaps existing Death Grasp, which Cory specifically offered as the alternative.
+- **Soul of New Phyrexia:** Symbol of a successor plane after Yawgmoth died, weaker as a direct biographical scene.
 
 ## Thran-origin research refinement — NEW, still unapproved
 
@@ -70,7 +98,7 @@ The specific printed Heartstone is a representative Thran/Phyrexian stone, not i
 
 ## How this differs from the approved *Legacy* deck #1
 
-Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherlight and Coalition. This one centers Yawgmoth: his crimes as a Thran physician, acquisition of a preexisting Phyrexia, cult and created soldiers, manipulating the brothers through Gix, Rath and invasion generals, death, and the oil/ideology surviving into New Phyrexia. The five Bones and Henge of Ramos supply a uniquely relevant Legacy bridge.
+Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherlight and Coalition. This one centers Yawgmoth: his crimes as a Thran physician, acquisition of a preexisting Phyrexia, cult and created soldiers, manipulating the brothers through Gix, Rath and invasion generals, death, and the oil/ideology surviving into New Phyrexia. Ramos supplies only the five-color historical framing commander; all five Bones and Henge were deliberately removed from this 99 at Cory’s request.
 
 ## Canon and rules cautions
 
@@ -79,6 +107,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 - Yawgmoth is not a planeswalker simply because Dyfed physically took him to another plane.
 - K’rrik’s Son title does not prove literal parentage.
 - Ramos served Mishra, was captured and repurposed by Urza, and eventually yielded five Bones of Ramos to the Legacy. His biography is a framing story connection; he did not eyewitness the ancient Thran events.
+- At Cory’s request, the five Bones of Ramos and Henge of Ramos are no longer included in the 99. Ramos remains only the five-color historical framing commander.
 - The original Thran portal and the Antiquities-era Jarsyl Gate to Phyrexia diary describe distinct temporal visits.
 - Original and later reprint flavor are separately designated. New Phyrexia exists after Yawgmoth’s death, not under his living command.
 - Research on the 1999 novel The Thran uses Wizards official summaries and detailed secondary plot accounts; the full 311-page book was not available, so this is not a first-hand chapter-by-chapter novel certification.
@@ -117,14 +146,18 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Mightstone
 1x Weakstone
 1x Gix, Yawgmoth Praetor
+1x Gixian Infiltrator
+1x The Cruelty of Gix
 1x Mishra, Claimed by Gix
 1x Phyrexian Dragon Engine
+1x Retaliation
 1x Sundering Titan
 1x The Brothers' War
 1x Golgothian Sylex
 1x Xantcha, Sleeper Agent
 1x K'rrik, Son of Yawgmoth
 1x Urza, Lord High Artificer
+1x Corrupt
 1x Heartstone
 1x Karn, Silver Golem
 1x Volrath the Fallen
@@ -138,13 +171,10 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Phyrexian Infiltrator
 1x Eye of Yawgmoth
 1x Squee, Goblin Nabob
-1x Eye of Ramos
-1x Heart of Ramos
-1x Horn of Ramos
-1x Skull of Ramos
-1x Tooth of Ramos
+1x Planar Portal
 1x Planar Overlay
 1x Urza Assembles the Titans
+1x Warped Devotion
 1x Last Stand
 1x Urza's Guilt
 1x Planar Despair
@@ -158,7 +188,6 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Phyrexian Vivisector
 1x Glistening Oil
 1x Phyresis
-1x Phyrexian Rebirth
 1x Karn Liberated
 1x Sheoldred, Whispering One
 1x Elesh Norn, Mother of Machines
@@ -176,7 +205,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Urborg, Tomb of Yawgmoth
 1x Volrath's Stronghold
 1x Rath's Edge
-1x Henge of Ramos
+1x Great Furnace
 1x Serra's Sanctum
 1x Phyrexia's Core
 1x The Seedcore
@@ -235,8 +264,11 @@ Official narrative anchor: https://magic.wizards.com/en/news/making-magic/act-of
 | Mightstone | Original Antiquities flavor recounts the Thran powerstone discovery Urza made at Koilos. | [ATQ #55](https://scryfall.com/card/atq/55/mightstone?utm_source=api) | While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone. |
 | Weakstone | Original Antiquities flavor recounts Mishra’s counterpart to the split Thran powerstone. | [ATQ #78](https://scryfall.com/card/atq/78/weakstone?utm_source=api) | During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone. |
 | Gix, Yawgmoth Praetor | Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia. | [BRO #95](https://scryfall.com/card/bro/95/gix-yawgmoth-praetor?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Gixian Infiltrator | The Brothers’ War printing gives voice to Gix’s covert sabotage of Terisia City; one concrete Phyrexian infiltrator rather than an abstract reference to the regime. | [BRO #98](https://scryfall.com/card/bro/98/gixian-infiltrator?utm_source=api) | "Terisia City's fall is inevitable. My master's plan runs as sure and steady as the oil in my veins." |
+| The Cruelty of Gix | The Brothers’ War historical Saga memorializes Gix’s exploitative methods and plots that advanced Yawgmoth’s long campaign through Mishra. | [DMU #87](https://scryfall.com/card/dmu/87/the-cruelty-of-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Mishra, Claimed by Gix | Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion. | [BRO #216](https://scryfall.com/card/bro/216/mishra-claimed-by-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Dragon Engine | The war-machine paired with Mishra’s meld, a physical sign of Phyrexian domination. | [BRO #163](https://scryfall.com/card/bro/163/phyrexian-dragon-engine?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Retaliation | Original Urza’s Saga flavor records Urza recognizing that Mishra is no longer himself, the emotional consequence of Gix’s and Phyrexia’s manipulation. | [USG #272](https://scryfall.com/card/usg/272/retaliation?utm_source=api) | A foul, metallic stench clogged Urza's senses. It was then he knew his brother was no more. |
 | Sundering Titan | Choose #120 Brothers’ War retroartifact variant specifically quoting Gix arming the younger brother; banned Rule 0 inclusion. | [BRR #120](https://scryfall.com/card/brr/120/sundering-titan?utm_source=api) | "Give the schematic to the younger brother. Tell him that it will surely keep Argoth's resources out of Urza's hands." / —Gix, Yawgmoth praetor |
 | The Brothers' War | Historical Saga for the war in which Phyrexia operated through Gix. | [BRC #22](https://scryfall.com/card/brc/22/the-brothers-war?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Golgothian Sylex | The original Antiquities card for Urza’s blast that ends the war on Argoth. | [ATQ #51](https://scryfall.com/card/atq/51/golgothian-sylex?utm_source=api) | From their earliest educations, the brothers had known that no human contrivance could stand against the true masters of Dominia. |
@@ -250,6 +282,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Xantcha, Sleeper Agent | A Phyrexian sleeper who rejected Yawgmoth, aided Urza, and exposed his regime’s cruelty. | [C18 #50](https://scryfall.com/card/c18/50/xantcha-sleeper-agent?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | K'rrik, Son of Yawgmoth | A Phyrexian time-rift invader at Tolaria; the title Son does not establish literal human parentage. | [C19 #18](https://scryfall.com/card/c19/18/krrik-son-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza, Lord High Artificer | Yawgmoth’s long-term nemesis devoted millennia to countering the original Phyrexian empire. | [MH1 #75](https://scryfall.com/card/mh1/75/urza-lord-high-artificer?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Corrupt | Use the original Urza’s Saga printing explicitly describing Yawgmoth touching Urza’s mind; unlike most later Corrupt reprints this is a direct named confrontation. | [USG #124](https://scryfall.com/card/usg/124/corrupt?utm_source=api) | Yawgmoth brushed Urza's mind, and Urza's world convulsed. |
 | Heartstone | Xantcha’s Phyrexian heartstone survived her death and was used as Karn’s conscious personality core; the original Stronghold card depicts this type of stone, not a labeled portrait of Xantcha’s exact specimen. | [STH #134](https://scryfall.com/card/sth/134/heartstone?utm_source=api) | "Finding a true heartstone is even harder than finding a true heart." / —Hanna |
 | Karn, Silver Golem | Urza’s silver creation and eventual bearer of the Legacy that destroyed Yawgmoth. | [USG #298](https://scryfall.com/card/usg/298/karn-silver-golem?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Volrath the Fallen | The Phyrexian-backed evincar of Rath, whose plane functioned as Yawgmoth’s invasion staging ground. | [NEM #75](https://scryfall.com/card/nem/75/volrath-the-fallen?utm_source=api) | "I stepped out. I did not step down." |
@@ -263,11 +296,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Phyrexian Infiltrator | The Invasion printing explicitly calls this agent Yawgmoth’s will made machine. | [INV #116](https://scryfall.com/card/inv/116/phyrexian-infiltrator?utm_source=api) | "It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh." / —Tsabo Tavoc |
 | Eye of Yawgmoth | A Nemesis-era instrument bearing his name, embodying the watching, sacrificing, and scrutinizing of bodies in the invasion regime. | [NEM #129](https://scryfall.com/card/nem/129/eye-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Squee, Goblin Nabob | Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation. | [UMA #150](https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api) | "If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee." / —Karn |
-| Eye of Ramos | The blue Bone of Ramos, among five dragon-engine powerstones eventually given to the Weatherlight as Legacy parts. | [MMQ #294](https://scryfall.com/card/mmq/294/eye-of-ramos?utm_source=api) | Ramos wept, and there were seas. |
-| Heart of Ramos | The red Bone of Ramos; one of the five powerstones crucial to the completed Legacy. | [MMQ #296](https://scryfall.com/card/mmq/296/heart-of-ramos?utm_source=api) | Ramos bled, and there was fire. |
-| Horn of Ramos | The green Bone of Ramos; a recovered physical part of the anti-Yawgmoth weapon. | [MMQ #299](https://scryfall.com/card/mmq/299/horn-of-ramos?utm_source=api) | Ramos touched, and there was life. |
-| Skull of Ramos | The black Bone of Ramos; a witness of Old Phyrexian engineering repurposed against its ruler. | [MMQ #312](https://scryfall.com/card/mmq/312/skull-of-ramos?utm_source=api) | Ramos fell, and there was night. |
-| Tooth of Ramos | The white Bone of Ramos; the final member of his five-color Legacy components. | [MMQ #313](https://scryfall.com/card/mmq/313/tooth-of-ramos?utm_source=api) | Ramos smiled, and there was day. |
 
 ### V. Invasion and Apocalypse: the fall of the Father of Machines
 
@@ -275,8 +303,10 @@ Official narrative anchor: https://magic.wizards.com/en/story/dominaria-plane
 
 | Card | Why it belongs | Specific physical edition | Actual flavor (when printed) |
 |---|---|---|---|
+| Planar Portal | Original Invasion printing explicitly announces the beginning of the Phyrexian invasion of Dominaria, giving its first entry its own scene. | [INV #308](https://scryfall.com/card/inv/308/planar-portal?utm_source=api) | The sky split, and the air crackled and roiled. The Phyrexian invasion of Dominaria had finally begun. |
 | Planar Overlay | Rath is overlaid on Dominaria to carry out Yawgmoth’s invasion plan, after the Weatherlight’s Mercadian quest. | [PLS #28](https://scryfall.com/card/pls/28/planar-overlay?utm_source=api) | The Phyrexians don't want to conquer Dominaria. They want to remake it. |
 | Urza Assembles the Titans | Historical Saga of the group of planeswalkers Urza led to strike Phyrexia itself. | [DMU #37](https://scryfall.com/card/dmu/37/urza-assembles-the-titans?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Warped Devotion | Original Planeshift printing quotes Urza to Gerrard in admiration of Yawgmoth’s glory within Phyrexia, a harrowing corruption of his greatest opponent. | [PLS #57](https://scryfall.com/card/pls/57/warped-devotion?utm_source=api) | "Before the glory of Yawgmoth, yes, even this makes sense." / —Urza, to Gerrard |
 | Last Stand | The original Apocalypse card artwork shows the war for Dominaria beneath Yawgmoth’s gigantic looming death cloud; a direct climactic visual chapter. | [APC #107](https://scryfall.com/card/apc/107/last-stand?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Urza's Guilt | The original Planeshift card shows Urza shaken by a vision of Mishra inside Yawgmoth’s realm, prior to Yawgmoth’s final defeat. | [PLS #130](https://scryfall.com/card/pls/130/urzas-guilt?utm_source=api) | Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. "Mishra?" |
 | Planar Despair | The Apocalypse printing explicitly describes Dominaria recoiling at Yawgmoth’s arrival. | [APC #50](https://scryfall.com/card/apc/50/planar-despair?utm_source=api) | All of Dominaria recoiled as Yawgmoth and his retainers arrived. |
@@ -297,7 +327,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Phyrexian Vivisector | Its Dominaria United flavor explicitly ties New Phyrexian surgery to Yawgmoth’s earlier atrocities. | [DMU #100](https://scryfall.com/card/dmu/100/phyrexian-vivisector?utm_source=api) | Before he was the Father of Machines, Yawgmoth was a twisted Thran physician, and his legacy of medical atrocities lives on in New Phyrexia. |
 | Glistening Oil | The infectious medium that outlived Yawgmoth and eventually transformed Mirrodin; not proof he survived. | [NPH #62](https://scryfall.com/card/nph/62/glistening-oil?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyresis | Sheoldred explicitly celebrates becoming compleat; depicts post-Yawgmoth New Phyrexia, not a living Yawgmoth order. | [MBS #49](https://scryfall.com/card/mbs/49/phyresis?utm_source=api) | "Perfection is at hand. You have been freed of weakness and made *compleat*." / —Sheoldred, Whispering One |
-| Phyrexian Rebirth | Its original Mirrodin Besieged flavor says the work continues as long as any glistening oil remains. | [MBS #15](https://scryfall.com/card/mbs/15/phyrexian-rebirth?utm_source=api) | As long as one drop of the oil exists, the joyous work continues. |
 | Karn Liberated | Karn is reclaimed from the New Phyrexian contamination and later fights the successors. | [NPH #1](https://scryfall.com/card/nph/1/karn-liberated?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Sheoldred, Whispering One | A New Phyrexian praetor claiming direct spiritual succession to the Old Phyrexian order. | [NPH #73](https://scryfall.com/card/nph/73/sheoldred-whispering-one?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Elesh Norn, Mother of Machines | The successor who tried to recreate the unified authority associated with Yawgmoth. | [ONE #10](https://scryfall.com/card/one/10/elesh-norn-mother-of-machines?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
@@ -320,7 +349,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/planeswalke
 | Urborg, Tomb of Yawgmoth | Choose the original land printing about Yawgmoth’s corpse corrupting the terrain. | [PLC #165](https://scryfall.com/card/plc/165/urborg-tomb-of-yawgmoth?utm_source=api) | "Yawgmoth's corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse." / —Lord Windgrace |
 | Volrath's Stronghold | The center of Rath’s Phyrexian-backed evincar regime. | [STH #143](https://scryfall.com/card/sth/143/volraths-stronghold?utm_source=api) | The seed of a world's evil. |
 | Rath's Edge | The artificial staging-world in Yawgmoth’s invasion plan. | [NEM #142](https://scryfall.com/card/nem/142/raths-edge?utm_source=api) | — (geographic link; no flavor on chosen printing) |
-| Henge of Ramos | The Mercadian site where Ramos ceded his five Bones for the Legacy, connecting our commander to Yawgmoth’s defeat. | [MMQ #318](https://scryfall.com/card/mmq/318/henge-of-ramos?utm_source=api) | It is the hub. We are the wheel. / —Dryad saying |
+| Great Furnace | Choose Brothers’ War Commander #187, whose Fall of the Thran quotation describes Phoenon, a ruined forge city of the ancient Thran Empire. The card art is originally Mirrodin and is not asserted to show Phoenon. | [BRC #187](https://scryfall.com/card/brc/187/great-furnace?utm_source=api) | "Molten blood runs through the ruins of the forge city of Phoenon, a still-beating heart whose body rotted centuries ago." / —*Fall of the Thran* |
 | Serra's Sanctum | Serra’s endangered realm, ultimately used by Urza against Phyrexia. | [USG #325](https://scryfall.com/card/usg/325/serras-sanctum?utm_source=api) | A fragile cocoon of dreaming will. |
 | Phyrexia's Core | Mirrodin’s center once overtaken by the inheritors of Yawgmoth’s oil. | [NPH #165](https://scryfall.com/card/nph/165/phyrexias-core?utm_source=api) | "So even the heart of our world has succumbed." / —Koth of the Hammer |
 | The Seedcore | Where New Phyrexia’s second invasion design took root. | [ONE #259](https://scryfall.com/card/one/259/the-seedcore?utm_source=api) | — (geographic link; no flavor on chosen printing) |
