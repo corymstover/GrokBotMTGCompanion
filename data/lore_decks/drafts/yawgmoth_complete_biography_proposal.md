@@ -2,9 +2,9 @@
 
 **DRAFT #10 — awaiting Cory approval. Do not merge/lock as approved.**
 
-**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27`.
+**Commander:** Ramos, Dragon Engine (a former Mishra-era engine whose five Bones actually became Legacy components; still not a literal Thran eyewitness). **Exact decklist SHA-256:** `3ca63d2cdb6811ca8d4adc21c0b1d5d39d0d00358a8d0ef68cc0c0659d1a5b81`.
 
-**Count:** 100 cards; 30 lands; 62 of 90 nonbasic/commander suggested printings have actual flavor text.
+**Count:** 100 cards; 30 lands; 59 of 90 nonbasic/commander suggested printings have actual flavor text.
 
 ## Unapproved draft revision: more Phyrexians and phyresis
 
@@ -29,6 +29,18 @@ Toxic Deluge must be Commander Collection: Black CC2 #6, illustrated by Yeong-Ha
 Last Stand (APC #107) depicts Yawgmoth’s dominating cloud in the original Apocalypse climax; artwork identification is corroborated by third-party visual analysis, not an explicit Wizards illustration-caption claim.
 
 Use these actual art/printing anchors together: `Toxic Deluge` **CC2 #6**, `Last Stand` **APC #107**, `Yawgmoth's Vile Offering` **DOM #114**, and `Legacy Weapon` **DMR #229**. The first card depicts his world-scouring arrival; the last memorializes his death. Source for the CC2 art reading: https://blog.cardkingdom.com/commander-collection-black/
+
+## Collage-driven Yawgmoth identity refinement
+
+**Previous unapproved SHA:** `1ab96c1cbca95a173c100a6ea23a714dfb030c6e3b32fd0c5527b6634ebfba27`. Cory supplied an illustrated collection of twelve specifically Yawgmoth-linked cards. Nine were in the current candidate; restored the three missing named figures/artifact, prioritizing the explicit antagonist biography over redundant Brothers War events and a general arena.
+
+| Removed | Added |
+|---|---|
+| Phyrexian Arena | Yawgmoth Demon |
+| Splitting the Powerstone | Priest of Yawgmoth |
+| Brotherhood's End | Eye of Yawgmoth |
+
+Yawgmoth Demon depicts a demon of Yawgmoth, not Yawgmoth himself; the true death-cloud form remains represented by Toxic Deluge CC2 #6 and Last Stand APC #107.
 
 ## How this differs from the approved *Legacy* deck #1
 
@@ -59,19 +71,18 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Gate to Phyrexia
 1x Dark Ritual
 1x Phyrexian Scriptures
+1x Yawgmoth Demon
 1x Phyrexian Processor
 1x Yawgmoth's Will
 1x Yawgmoth's Bargain
 1x Yawgmoth's Edict
 1x Phyrexian Altar
 1x Order of Yawgmoth
-1x Phyrexian Arena
+1x Priest of Yawgmoth
 1x Ichor Wellspring
 1x Toxic Deluge
 1x Mightstone
 1x Weakstone
-1x Splitting the Powerstone
-1x Brotherhood's End
 1x Gix, Yawgmoth Praetor
 1x Mishra, Claimed by Gix
 1x Phyrexian Dragon Engine
@@ -92,6 +103,7 @@ Deck #1 recounts the same catastrophe chiefly through Urza, Sisay, the Weatherli
 1x Phyrexian Defiler
 1x Phyrexian Plaguelord
 1x Phyrexian Infiltrator
+1x Eye of Yawgmoth
 1x Phyrexian Tyranny
 1x Squee, Goblin Nabob
 1x Eye of Ramos
@@ -170,13 +182,14 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Gate to Phyrexia | The Antiquities-era portal-flavor records Jarsyl’s later sighting; not the specific original Thran gateway. | [ATQ #16](https://scryfall.com/card/atq/16/gate-to-phyrexia?utm_source=api) | "The warm rain of grease on my face immediately made it clear I had entered Phyrexia." —Jarsyl, *Diary* |
 | Dark Ritual | Choose the Duel Deck printing reciting the Phyrexian Scriptures and Yawgmoth’s claimed Grand Evolution. | [DDE #18](https://scryfall.com/card/dde/18/dark-ritual?utm_source=api) | "From void evolved Phyrexia. Great Yawgmoth, Father of Machines, saw its perfection. Thus the Grand Evolution began." / —*Phyrexian Scriptures* |
 | Phyrexian Scriptures | A Saga summarizing the ideological project of replacing flesh with engineered Phyrexian life. | [DOM #100](https://scryfall.com/card/dom/100/phyrexian-scriptures?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
+| Yawgmoth Demon | An early Antiquities-era Phyrexian Demon named for Yawgmoth; this is a servant, not Yawgmoth’s personal form. | [ATQ #21](https://scryfall.com/card/atq/21/yawgmoth-demon?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Processor | Yawgmoth’s industrial manufacture of mutilated beings; Wizards explicitly singled it out as depicting his pursuit of engineered perfection. | [SLD #2445](https://scryfall.com/card/sld/2445/phyrexian-processor?utm_source=api) | An assembly line of inhumanity. |
 | Yawgmoth's Will | Yawgmoth’s overwhelming command over death and the Phyrexian war machine, originally Urza’s Saga. | [USG #171](https://scryfall.com/card/usg/171/yawgmoths-will?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Yawgmoth's Bargain | The named Faustian bargain at the heart of Yawgmoth’s power; Commander-banned, deliberately retained as Rule 0 history. | [UDS #75](https://scryfall.com/card/uds/75/yawgmoths-bargain?utm_source=api) | He craves only one commodity. |
 | Yawgmoth's Edict | Seventh Edition printing describes his obsession with remaking bodies and souls. | [7ED #171](https://scryfall.com/card/7ed/171/yawgmoths-edict?utm_source=api) | The warping of bodies and souls has become the heart of Yawgmoth's existence. |
 | Phyrexian Altar | Choose the 2X2 printing explicitly invoking Yawgmoth’s blessings and the Phyrexian Scriptures. | [2X2 #311](https://scryfall.com/card/2x2/311/phyrexian-altar?utm_source=api) | "Unskin these impure bodies, Great Yawgmoth, that the flesh may welcome your blessings." / —*Phyrexian Scriptures* |
 | Order of Yawgmoth | The priestly enforcement arm bearing his name, directly representing the regime. | [USG #144](https://scryfall.com/card/usg/144/order-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
-| Phyrexian Arena | The original Apocalypse edition captures the cruelty of the old regime, rather than the later Sheoldred or Jace/Vraska scenes of reprints. | [APC #47](https://scryfall.com/card/apc/47/phyrexian-arena?utm_source=api) | An audience of one with the malice of thousands. |
+| Priest of Yawgmoth | An original Antiquities-era human cleric whose explicit allegiance makes the Father of Machines’ priesthood tangible. | [ATQ #19](https://scryfall.com/card/atq/19/priest-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Ichor Wellspring | Brother’s War retro-artifact printing explicitly attributes the infectious-oil description to Yawgmoth. | [BRR #84](https://scryfall.com/card/brr/84/ichor-wellspring?utm_source=api) | "Should a single drop take hold, the oil begins to consume organic tissue and will multiply until it overwhelms the host." / —Yawgmoth, collected writings |
 | Toxic Deluge | Choose the special printing quoting Yawgmoth comparing himself to glistening oil and perfection. | [CC2 #6](https://scryfall.com/card/cc2/6/toxic-deluge?utm_source=api) | "I am greater than rain and nourishment. I am glistening oil and perfection." / —Yawgmoth |
 
@@ -188,8 +201,6 @@ Official narrative anchor: https://magic.wizards.com/en/news/making-magic/act-of
 |---|---|---|---|
 | Mightstone | Original Antiquities flavor recounts the Thran powerstone discovery Urza made at Koilos. | [ATQ #55](https://scryfall.com/card/atq/55/mightstone?utm_source=api) | While exploring the sacred cave of Koilos with his brother Mishra and their master Tocasia, Urza fell behind in the Hall of Tagsin, where he discovered the remarkable Mightstone. |
 | Weakstone | Original Antiquities flavor recounts Mishra’s counterpart to the split Thran powerstone. | [ATQ #78](https://scryfall.com/card/atq/78/weakstone?utm_source=api) | During the brothers' childhood, Tocasia took them to explore the sacred cave of Koilos. There, in the Hall of Tagsin, Mishra discovered the mysterious weakstone. |
-| Splitting the Powerstone | Literal illustration of the brothers dividing the Thran inheritance. | [BRO #63](https://scryfall.com/card/bro/63/splitting-the-powerstone?utm_source=api) | As the glowing stone broke apart, so too did the last shred of the brothers' bond. |
-| Brotherhood's End | The brothers’ early conflict killed Tocasia and ended their childhood relationship; NOT the later Sylex explosion. | [BRO #128](https://scryfall.com/card/bro/128/brotherhoods-end?utm_source=api) | The brothers' rivalry escalated into all-out enmity, and Tocasia paid the price. |
 | Gix, Yawgmoth Praetor | Yawgmoth’s praetor and agent whose manipulations turned Mishra toward Phyrexia. | [BRO #95](https://scryfall.com/card/bro/95/gix-yawgmoth-praetor?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Mishra, Claimed by Gix | Mishra’s direct transformation by Yawgmoth’s agent, a meld half for the original invasion. | [BRO #216](https://scryfall.com/card/bro/216/mishra-claimed-by-gix?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Dragon Engine | The war-machine paired with Mishra’s meld, a physical sign of Phyrexian domination. | [BRO #163](https://scryfall.com/card/bro/163/phyrexian-dragon-engine?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
@@ -217,6 +228,7 @@ Official narrative anchor: https://magic.wizards.com/en/news/feature/known-mutli
 | Phyrexian Defiler | Third stage of the Phyrexian illness; original Urza’s Legacy flavor continues the progression. | [ULG #60](https://scryfall.com/card/ulg/60/phyrexian-defiler?utm_source=api) | "The third stage of the illness: muscle aches and persistent cough." / —Phyrexian progress notes |
 | Phyrexian Plaguelord | Final stage of the Phyrexian illness; original Urza’s Legacy flavor concludes the four-card progression. | [ULG #62](https://scryfall.com/card/ulg/62/phyrexian-plaguelord?utm_source=api) | "The final stage of the illness: delirium, convulsions, and death." / —Phyrexian progress notes |
 | Phyrexian Infiltrator | The Invasion printing explicitly calls this agent Yawgmoth’s will made machine. | [INV #116](https://scryfall.com/card/inv/116/phyrexian-infiltrator?utm_source=api) | "It is Yawgmoth's will incarnate: an efficient machine that replaces inefficient flesh." / —Tsabo Tavoc |
+| Eye of Yawgmoth | A Nemesis-era instrument bearing his name, embodying the watching, sacrificing, and scrutinizing of bodies in the invasion regime. | [NEM #129](https://scryfall.com/card/nem/129/eye-of-yawgmoth?utm_source=api) | — (name, depiction, or Saga; no printed flavor on chosen edition) |
 | Phyrexian Tyranny | Planeshift card embodying the abusive campaign; later reprints also quote Crovax to Ertai. | [PLS #118](https://scryfall.com/card/pls/118/phyrexian-tyranny?utm_source=api) | "He is Yawgmoth's reward to me. I shall kill him a hundred times a day." / —Crovax, to Ertai |
 | Squee, Goblin Nabob | Yawgmoth cursed Squee with endless bodily rebirth. Choose Ultimate Masters #150 for its direct Karn/Yawgmoth quotation. | [UMA #150](https://scryfall.com/card/uma/150/squee-goblin-nabob?utm_source=api) | "If Yawgmoth meant Squee's immortality as a curse, no one ever told Squee." / —Karn |
 | Eye of Ramos | The blue Bone of Ramos, among five dragon-engine powerstones eventually given to the Weatherlight as Legacy parts. | [MMQ #294](https://scryfall.com/card/mmq/294/eye-of-ramos?utm_source=api) | Ramos wept, and there were seas. |
