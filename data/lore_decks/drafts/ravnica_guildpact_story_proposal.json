@@ -1,0 +1,1645 @@
+{
+  "schema": "lore_story_deck_draft/v1",
+  "theme": "Ravnica: The Ten Guilds and the Living Guildpact — Ten Thousand Years of a City-Plane",
+  "status": "FINISHED STORY-FIRST PROPOSAL — awaiting Cory's approval",
+  "commander": "Niv-Mizzet, Guildpact",
+  "commander_printing": {
+    "set": "MKM",
+    "collector": "220",
+    "scryfall": "https://scryfall.com/card/mkm/220/niv-mizzet-guildpact?utm_source=api",
+    "printed_name": "Niv-Mizzet, Guildpact",
+    "flavor_faces": []
+  },
+  "narrator_note": "The 2024 Niv-Mizzet is the current Living Guildpact, a five-color framing narrator. His earlier Izzet incarnations, death and 2019 resurrection appear inside the 99. The all-guild land map is deliberate; this is a city's biography, not a power deck.",
+  "story_sources": [
+    "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+    "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+    "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-allegiance-2019-02-07",
+    "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+    "https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07",
+    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+    "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+    "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor",
+    "https://magic.wizards.com/en/news/magic-story/episode-4-justice-before-mercy",
+    "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
+    "https://magic.wizards.com/en/story/ravnica-plane"
+  ],
+  "canon_caveats": [
+    "The original Guildpact bound ten rival guilds for approximately ten thousand years and broke in the Szadek/Augustin IV/Agrus Kos affair around the Decamillennial.",
+    "Azor founded the Azorius Senate and wrote the original Guildpact and Implicit Maze. His printed RIX card depicts his later Ixalan appearance, not an on-site depiction of Ravnica's founding.",
+    "Razia, Szadek, Niv-Mizzet, Rakdos and Azor were actual founding paruns. Borborygmos, Momir Vig, and the Ghost Council are later leaders/institutions, NOT invented founding paruns.",
+    "Teysa Karlov drafted a nonmagical guild accord after the original pact broke. Jace later became the magical Living Guildpact by solving Azor's Implicit Maze.",
+    "Isperia's GRN Guild Summit and Vraska's Assassin's Trophy are two distinct historical card moments; Vraska assassinates Isperia and Bolas-aligned Dovin assumes Azorius authority.",
+    "Niv-Mizzet was killed in Bolas's scheme and resurrected with support of the ten guilds as the new Living Guildpact. His 2024 incarnation in the command zone is the historical epilogue.",
+    "Parhelion II is the rebuilt War of the Spark flying fortress, NOT the original Parhelion that crashed into Prahv during Dissension.",
+    "Invasion of Ravnica represents the later 2023 New Phyrexian assault. The Karlov Manor cards represent 2024 aftermath and murders, not the first Guildpact period.",
+    "Ravnica shocklands, Guildgates and guildhall locations are exact plane/geography prints; their inclusion does NOT assert that every referenced named confrontation occurred on each depicted land.",
+    "The April–October 2026 alternate-reality Echoverse/Reality Fracture story is not included; it must not be folded into the prime main-continuity Ravnica chronicle without an explicit framing.",
+    "The list is chosen for lore and printing significance. Singleton, 100 count, color, Commander legality and bans must be evaluated independently."
+  ],
+  "beats": [
+    {
+      "title": "I. Ten thousand years of the original Guildpact and its great houses",
+      "lore_keys": [
+        "Azor",
+        "the original Guildpact",
+        "the ten guilds"
+      ],
+      "cards": [
+        {
+          "name": "Azor, the Lawbringer",
+          "why": "Azor founded the Azorius Senate, authored the original magical Guildpact, and set up the Implicit Maze for a future crisis.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-allegiance-2019-02-07",
+          "printing": {
+            "set": "RIX",
+            "collector": "154",
+            "scryfall": "https://scryfall.com/card/rix/154/azor-the-lawbringer?utm_source=api",
+            "printed_name": "Azor, the Lawbringer",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Niv-Mizzet, the Firemind",
+          "why": "The ancient Izzet parun; this original Guildpact printing shows the dragon before his later deaths, plots, and rebirth.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GPT",
+            "collector": "123",
+            "scryfall": "https://scryfall.com/card/gpt/123/niv-mizzet-the-firemind?utm_source=api",
+            "printed_name": "Niv-Mizzet, the Firemind",
+            "flavor_faces": [
+              {
+                "face": "Niv-Mizzet, the Firemind",
+                "flavor": "\"(Z->)90° - (E-N²W)90°t = 1\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Razia, Boros Archangel",
+          "why": "Founding Boros angel and emblem of the ten-thousand-year law, killed in the war around the pact's collapse.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "RAV",
+            "collector": "223",
+            "scryfall": "https://scryfall.com/card/rav/223/razia-boros-archangel?utm_source=api",
+            "printed_name": "Razia, Boros Archangel",
+            "flavor_faces": [
+              {
+                "face": "Razia, Boros Archangel",
+                "flavor": "Her sword burns with such brightness that foes avert their eyes and arrows divert their paths."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Szadek, Lord of Secrets",
+          "why": "Dimir's founding psychic vampire engineered the paradox that shattered the first Guildpact.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "RAV",
+            "collector": "234",
+            "scryfall": "https://scryfall.com/card/rav/234/szadek-lord-of-secrets?utm_source=api",
+            "printed_name": "Szadek, Lord of Secrets",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Rakdos the Defiler",
+          "why": "The original demon parun of the Rakdos cult, one of the ten enduring guild pillars.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "DIS",
+            "collector": "129",
+            "scryfall": "https://scryfall.com/card/dis/129/rakdos-the-defiler?utm_source=api",
+            "printed_name": "Rakdos the Defiler",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Ghost Council of Orzhova",
+          "why": "Orzhov's historical undead ruling council, showing the syndicate's old hierarchy; not one of the original paruns.",
+          "evidence": "historical_institution",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GPT",
+            "collector": "114",
+            "scryfall": "https://scryfall.com/card/gpt/114/ghost-council-of-orzhova?utm_source=api",
+            "printed_name": "Ghost Council of Orzhova",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Chorus of the Conclave",
+          "why": "Original Ravnica depiction of Selesnya's collective governing voice and connection to Mat'Selesnya; not an individual founder.",
+          "evidence": "guild_institution",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "RAV",
+            "collector": "195",
+            "scryfall": "https://scryfall.com/card/rav/195/chorus-of-the-conclave?utm_source=api",
+            "printed_name": "Chorus of the Conclave",
+            "flavor_faces": [
+              {
+                "face": "Chorus of the Conclave",
+                "flavor": "\"We are many, yet one. We are separate in body, yet speak with a single voice. Join us in our chorus.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Borborygmos",
+          "why": "Gruul's mighty original-block chieftain and face of their resistance to the civilization that supplanted the wilds; not a founding parun.",
+          "evidence": "historical_guild_leader",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "GPT",
+            "collector": "103",
+            "scryfall": "https://scryfall.com/card/gpt/103/borborygmos?utm_source=api",
+            "printed_name": "Borborygmos",
+            "flavor_faces": [
+              {
+                "face": "Borborygmos",
+                "flavor": "\"It's easy to see why those Gruul dirtbags follow him—the only orders he gives are 'Crush them!' and 'We eat!'\"\n—Teysa"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Momir Vig, Simic Visionary",
+          "why": "The Simic guildmaster whose Project Kraj becomes a catastrophic late-Guildpact threat; not the Simic founder.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "DIS",
+            "collector": "118",
+            "scryfall": "https://scryfall.com/card/dis/118/momir-vig-simic-visionary?utm_source=api",
+            "printed_name": "Momir Vig, Simic Visionary",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Festival of the Guildpact",
+          "why": "Original Ravnica flavor records a day when guild violence stops, showing how the magical peace entered ordinary life.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "17",
+            "scryfall": "https://scryfall.com/card/rav/17/festival-of-the-guildpact?utm_source=api",
+            "printed_name": "Festival of the Guildpact",
+            "flavor_faces": [
+              {
+                "face": "Festival of the Guildpact",
+                "flavor": "Everyone knows that violence at the Festival brings the worst of luck, so for at least one day a year arms are laid down in favor of brimming goblets."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Guardian of the Guildpact",
+          "why": "Its Dissension flavor describes spirits protected and tasked with defending the magical agreement.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07",
+          "printing": {
+            "set": "DIS",
+            "collector": "10",
+            "scryfall": "https://scryfall.com/card/dis/10/guardian-of-the-guildpact?utm_source=api",
+            "printed_name": "Guardian of the Guildpact",
+            "flavor_faces": [
+              {
+                "face": "Guardian of the Guildpact",
+                "flavor": "The magic of the Guildpact gives aegis to the spirits pressed into its service. Upon entering the afterlife, they find new focus and are charged with defending the Guildpact against those who would see it broken."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "II. Szadek's paradox, the fallen Guildpact, and the Decamillennial crisis",
+      "lore_keys": [
+        "Szadek",
+        "Agrus Kos",
+        "Razia",
+        "Parhelion",
+        "Guildpact broken"
+      ],
+      "cards": [
+        {
+          "name": "Agrus Kos, Wojek Veteran",
+          "why": "The Boros investigator who traced Szadek's plots, arrested him, and unwittingly triggered the Guildpact-breaking legal paradox.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "RAV",
+            "collector": "190",
+            "scryfall": "https://scryfall.com/card/rav/190/agrus-kos-wojek-veteran?utm_source=api",
+            "printed_name": "Agrus Kos, Wojek Veteran",
+            "flavor_faces": [
+              {
+                "face": "Agrus Kos, Wojek Veteran",
+                "flavor": "Lieutenant Kos has never met a group of recruits he could not inspire or a mob he could not quell."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Savra, Queen of the Golgari",
+          "why": "Szadek used Savra's bid for Golgari power to manipulate the Selesnya hierarchy and the magical contract.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "RAV",
+            "collector": "225",
+            "scryfall": "https://scryfall.com/card/rav/225/savra-queen-of-the-golgari?utm_source=api",
+            "printed_name": "Savra, Queen of the Golgari",
+            "flavor_faces": [
+              {
+                "face": "Savra, Queen of the Golgari",
+                "flavor": "\"Nature's most raw beauty is the circle: perfect in its continuance, with no break between death and life.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Grand Arbiter Augustin IV",
+          "why": "Azorius ruler who anticipated and exploited the pact's fall, then died in the climactic Parhelion disaster.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "DIS",
+            "collector": "112",
+            "scryfall": "https://scryfall.com/card/dis/112/grand-arbiter-augustin-iv?utm_source=api",
+            "printed_name": "Grand Arbiter Augustin IV",
+            "flavor_faces": [
+              {
+                "face": "Grand Arbiter Augustin IV",
+                "flavor": "The Arbiter is a conduit of justice, a will so disciplined that it dispenses justice without ego or remorse."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Teysa, Orzhov Scion",
+          "why": "The Orzhov advocate who helped stop the schemes and drafted Ravnica's nonmagical post-collapse guild accord.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "GPT",
+            "collector": "134",
+            "scryfall": "https://scryfall.com/card/gpt/134/teysa-orzhov-scion?utm_source=api",
+            "printed_name": "Teysa, Orzhov Scion",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Lyzolda, the Blood Witch",
+          "why": "Rakdos's acting leader helped awaken the sleeping demon during Dissension's chaos.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "DIS",
+            "collector": "117",
+            "scryfall": "https://scryfall.com/card/dis/117/lyzolda-the-blood-witch?utm_source=api",
+            "printed_name": "Lyzolda, the Blood Witch",
+            "flavor_faces": [
+              {
+                "face": "Lyzolda, the Blood Witch",
+                "flavor": "Sacrificial rites take place before an audience of cheering cultists, each begging to be the next on stage."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Experiment Kraj",
+          "why": "Momir Vig's runaway Simic experiment battled Rakdos in the upheaval after the pact broke.",
+          "evidence": "official_historical_creature",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "DIS",
+            "collector": "110",
+            "scryfall": "https://scryfall.com/card/dis/110/experiment-kraj?utm_source=api",
+            "printed_name": "Experiment Kraj",
+            "flavor_faces": [
+              {
+                "face": "Experiment Kraj",
+                "flavor": "\"Of course it will grow beyond control—it was designed to choose its own evolution.\"\n—Momir Vig"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Yore-Tiller Nephilim",
+          "why": "One of the ancient nephilim that devastated the city as the broken Guildpact's balance unraveled; illustrative brood representative.",
+          "evidence": "historical_creature_context",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "GPT",
+            "collector": "140",
+            "scryfall": "https://scryfall.com/card/gpt/140/yore-tiller-nephilim?utm_source=api",
+            "printed_name": "Yore-Tiller Nephilim",
+            "flavor_faces": [
+              {
+                "face": "Yore-Tiller Nephilim",
+                "flavor": "When it awoke, the worms of the earth hissed in a chorus of beckoning."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Razia's Purification",
+          "why": "An original Boros judgment card embodying the violent zeal surrounding Razia's era, not a literal depiction of her death.",
+          "evidence": "thematic_period_representation",
+          "source": "https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07",
+          "printing": {
+            "set": "RAV",
+            "collector": "224",
+            "scryfall": "https://scryfall.com/card/rav/224/razias-purification?utm_source=api",
+            "printed_name": "Razia's Purification",
+            "flavor_faces": [
+              {
+                "face": "Razia's Purification",
+                "flavor": "Only the chosen ones are spared."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Enemy of the Guildpact",
+          "why": "Its printing flavor describes vengeful dead rejecting the agreement that gave the guilds their power.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/feature/absolution-guildpact-2013-01-07",
+          "printing": {
+            "set": "DIS",
+            "collector": "44",
+            "scryfall": "https://scryfall.com/card/dis/44/enemy-of-the-guildpact?utm_source=api",
+            "printed_name": "Enemy of the Guildpact",
+            "flavor_faces": [
+              {
+                "face": "Enemy of the Guildpact",
+                "flavor": "Guilds often exterminate those who saw or knew too much. Some vindictive souls retain their knowledge, using it in the afterlife to crush the guilded and the vile bargain that gives them power."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Transguild Courier",
+          "why": "Its original Dissension flavor depicts the neutral go-between used by the ten suspicious guild leaders.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "168",
+            "scryfall": "https://scryfall.com/card/dis/168/transguild-courier?utm_source=api",
+            "printed_name": "Transguild Courier",
+            "flavor_faces": [
+              {
+                "face": "Transguild Courier",
+                "flavor": "Reluctant to meet face to face, the leaders of the ten guilds prefer to do official business through a go-between immune to bribes and threats."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "III. Ten guilds race Azor's Implicit Maze; Jace becomes the Living Guildpact",
+      "lore_keys": [
+        "Implicit Maze",
+        "Jace",
+        "the Living Guildpact"
+      ],
+      "cards": [
+        {
+          "name": "Jace, Architect of Thought",
+          "why": "A Return to Ravnica portrait of Jace, who later solved Azor's Maze and became the Living Guildpact.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "RTR",
+            "collector": "44",
+            "scryfall": "https://scryfall.com/card/rtr/44/jace-architect-of-thought?utm_source=api",
+            "printed_name": "Jace, Architect of Thought",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Niv-Mizzet, Dracogenius",
+          "why": "The Izzet ruler in the Maze era; Niv disclosed the race that Azor had prepared long before.",
+          "evidence": "official_historical_character",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "RTR",
+            "collector": "183",
+            "scryfall": "https://scryfall.com/card/rtr/183/niv-mizzet-dracogenius?utm_source=api",
+            "printed_name": "Niv-Mizzet, Dracogenius",
+            "flavor_faces": [
+              {
+                "face": "Niv-Mizzet, Dracogenius",
+                "flavor": "He has no patience for minds that do not inspire him or explode by trying."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Isperia, Supreme Judge",
+          "why": "Azorius leader after the original Guildpact's collapse, guiding the restored political institution.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "RTR",
+            "collector": "171",
+            "scryfall": "https://scryfall.com/card/rtr/171/isperia-supreme-judge?utm_source=api",
+            "printed_name": "Isperia, Supreme Judge",
+            "flavor_faces": [
+              {
+                "face": "Isperia, Supreme Judge",
+                "flavor": "\"I serve only justice. But through that duty, I serve all of Ravnica.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Aurelia, the Warleader",
+          "why": "The later Boros angelic leader replacing the old era of Razia and Feather.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GTC",
+            "collector": "143",
+            "scryfall": "https://scryfall.com/card/gtc/143/aurelia-the-warleader?utm_source=api",
+            "printed_name": "Aurelia, the Warleader",
+            "flavor_faces": [
+              {
+                "face": "Aurelia, the Warleader",
+                "flavor": "Where Razia was aloof and untouchable, Aurelia is on the frontlines, calling for war."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lazav, Dimir Mastermind",
+          "why": "The elusive post-Szadek Dimir master who keeps the shadow guild alive in the new era.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GTC",
+            "collector": "174",
+            "scryfall": "https://scryfall.com/card/gtc/174/lazav-dimir-mastermind?utm_source=api",
+            "printed_name": "Lazav, Dimir Mastermind",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Jarad, Golgari Lich Lord",
+          "why": "Savra's brother and successor led Golgari after the original block's upheaval.",
+          "evidence": "official_character",
+          "source": "https://magic.wizards.com/en/news/feature/ravnica-then-and-now-2012-08-29-0",
+          "printing": {
+            "set": "RTR",
+            "collector": "174",
+            "scryfall": "https://scryfall.com/card/rtr/174/jarad-golgari-lich-lord?utm_source=api",
+            "printed_name": "Jarad, Golgari Lich Lord",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Obzedat, Ghost Council",
+          "why": "The newer printed face of the Orzhov ghost oligarchy that continued manipulating Ravnica long after the original pact.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-allegiance-2019-02-07",
+          "printing": {
+            "set": "GTC",
+            "collector": "182",
+            "scryfall": "https://scryfall.com/card/gtc/182/obzedat-ghost-council?utm_source=api",
+            "printed_name": "Obzedat, Ghost Council",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Trostani, Selesnya's Voice",
+          "why": "The Selesnya dryads speak for the Conclave and its living city-tree.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "RTR",
+            "collector": "206",
+            "scryfall": "https://scryfall.com/card/rtr/206/trostani-selesnyas-voice?utm_source=api",
+            "printed_name": "Trostani, Selesnya's Voice",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Prime Speaker Zegana",
+          "why": "Simic reformer after Momir Vig's downfall; she led a more diplomatic era of the Combine.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GTC",
+            "collector": "188",
+            "scryfall": "https://scryfall.com/card/gtc/188/prime-speaker-zegana?utm_source=api",
+            "printed_name": "Prime Speaker Zegana",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Rakdos, Lord of Riots",
+          "why": "The ancient Rakdos parun still reigns over his violent guild into the returned ten-guild age.",
+          "evidence": "guild_leader_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "RTR",
+            "collector": "187",
+            "scryfall": "https://scryfall.com/card/rtr/187/rakdos-lord-of-riots?utm_source=api",
+            "printed_name": "Rakdos, Lord of Riots",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Ral Zarek",
+          "why": "Izzet planeswalker and Maze-era participant whose rivalry and interests intersect with Niv and Jace.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "DGM",
+            "collector": "94",
+            "scryfall": "https://scryfall.com/card/dgm/94/ral-zarek?utm_source=api",
+            "printed_name": "Ral Zarek",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Emmara Tandris",
+          "why": "Selesnya representative in the Implicit Maze plot and longtime connection to Jace's Ravnican life.",
+          "evidence": "maze_era_character",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "DGM",
+            "collector": "68",
+            "scryfall": "https://scryfall.com/card/dgm/68/emmara-tandris?utm_source=api",
+            "printed_name": "Emmara Tandris",
+            "flavor_faces": [
+              {
+                "face": "Emmara Tandris",
+                "flavor": "When Selesnya needed a champion, Emmara put the ranks of her guild before herself—making her the perfect choice."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tajic, Blade of the Legion",
+          "why": "The Boros champion and runner in the Implicit Maze's great interguild contest.",
+          "evidence": "maze_era_character",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "DGM",
+            "collector": "107",
+            "scryfall": "https://scryfall.com/card/dgm/107/tajic-blade-of-the-legion?utm_source=api",
+            "printed_name": "Tajic, Blade of the Legion",
+            "flavor_faces": [
+              {
+                "face": "Tajic, Blade of the Legion",
+                "flavor": "\"I run the maze alone, but I fight with the full might of the Legion.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lavinia of the Tenth",
+          "why": "The Azorius Maze runner who later became Jace's deputy in the Chamber of the Guildpact.",
+          "evidence": "maze_era_character",
+          "source": "https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12",
+          "printing": {
+            "set": "DGM",
+            "collector": "80",
+            "scryfall": "https://scryfall.com/card/dgm/80/lavinia-of-the-tenth?utm_source=api",
+            "printed_name": "Lavinia of the Tenth",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Jace, the Living Guildpact",
+          "why": "This version explicitly portrays the status Jace received for solving the Implicit Maze and re-embodying law.",
+          "evidence": "official_character_milestone",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "M15",
+            "collector": "62",
+            "scryfall": "https://scryfall.com/card/m15/62/jace-the-living-guildpact?utm_source=api",
+            "printed_name": "Jace, the Living Guildpact",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Supreme Verdict",
+          "why": "The iconic Return to Ravnica Azorius judgment; illustrates civic legal authority, not a single specific historical verdict.",
+          "evidence": "thematic_law_card",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "201",
+            "scryfall": "https://scryfall.com/card/rtr/201/supreme-verdict?utm_source=api",
+            "printed_name": "Supreme Verdict",
+            "flavor_faces": [
+              {
+                "face": "Supreme Verdict",
+                "flavor": "Leonos had no second thoughts about the abolishment edict. He'd left skyrunes warning of the eviction, even though it was cloudy."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "IV. A city of conspiracies: Isperia murdered and guilds subverted by Bolas",
+      "lore_keys": [
+        "Bolas's guild intrigue",
+        "Vraska",
+        "Isperia",
+        "Niv-Mizzet"
+      ],
+      "cards": [
+        {
+          "name": "Niv-Mizzet, Parun",
+          "why": "Niv's pre-resurrection portrayal amid the renewed guild tensions and the coming Bolas crisis.",
+          "evidence": "historical_character_era",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GRN",
+            "collector": "192",
+            "scryfall": "https://scryfall.com/card/grn/192/niv-mizzet-parun?utm_source=api",
+            "printed_name": "Niv-Mizzet, Parun",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Guild Summit",
+          "why": "The original GRN flavor directly states that Isperia sought unprecedented guild cooperation amid suspicion.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GRN",
+            "collector": "41",
+            "scryfall": "https://scryfall.com/card/grn/41/guild-summit?utm_source=api",
+            "printed_name": "Guild Summit",
+            "flavor_faces": [
+              {
+                "face": "Guild Summit",
+                "flavor": "In a climate of suspicion, Isperia gathered the guilds to propose a radical idea: cooperation."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Vraska, Golgari Queen",
+          "why": "Vraska claimed Golgari leadership and, under Bolas's manipulation, assassinated Isperia.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-old-friends-and-new-2019-05-08",
+          "printing": {
+            "set": "GRN",
+            "collector": "213",
+            "scryfall": "https://scryfall.com/card/grn/213/vraska-golgari-queen?utm_source=api",
+            "printed_name": "Vraska, Golgari Queen",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Assassin's Trophy",
+          "why": "Original GRN flavor explicitly frames Isperia's death as a power vacuum for Azorius and Vraska's trophy.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GRN",
+            "collector": "152",
+            "scryfall": "https://scryfall.com/card/grn/152/assassins-trophy?utm_source=api",
+            "printed_name": "Assassin's Trophy",
+            "flavor_faces": [
+              {
+                "face": "Assassin's Trophy",
+                "flavor": "A power vacuum for the Azorius. A keepsake for Vraska."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ral, Izzet Viceroy",
+          "why": "Ral rises in Izzet politics as Niv's plans and Bolas's secret interference converge.",
+          "evidence": "official_character_era",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "GRN",
+            "collector": "195",
+            "scryfall": "https://scryfall.com/card/grn/195/ral-izzet-viceroy?utm_source=api",
+            "printed_name": "Ral, Izzet Viceroy",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Dovin, Grand Arbiter",
+          "why": "Bolas-aligned Dovin takes advantage of the decapitated Azorius leadership.",
+          "evidence": "official_character_era",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "RNA",
+            "collector": "167",
+            "scryfall": "https://scryfall.com/card/rna/167/dovin-grand-arbiter?utm_source=api",
+            "printed_name": "Dovin, Grand Arbiter",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Domri, Chaos Bringer",
+          "why": "The ambitious Gruul leader used by Bolas to stoke the city's unrest.",
+          "evidence": "official_character_era",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "RNA",
+            "collector": "166",
+            "scryfall": "https://scryfall.com/card/rna/166/domri-chaos-bringer?utm_source=api",
+            "printed_name": "Domri, Chaos Bringer",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Kaya, Orzhov Usurper",
+          "why": "Kaya displaces the old Orzhov ghost oligarchs, transforming one of Ravnica's oldest institutions.",
+          "evidence": "official_character_era",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "RNA",
+            "collector": "186",
+            "scryfall": "https://scryfall.com/card/rna/186/kaya-orzhov-usurper?utm_source=api",
+            "printed_name": "Kaya, Orzhov Usurper",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Lavinia, Azorius Renegade",
+          "why": "Jace's former deputy resists Dovin's compromised Azorius administration.",
+          "evidence": "official_character_era",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "RNA",
+            "collector": "189",
+            "scryfall": "https://scryfall.com/card/rna/189/lavinia-azorius-renegade?utm_source=api",
+            "printed_name": "Lavinia, Azorius Renegade",
+            "flavor_faces": [
+              {
+                "face": "Lavinia, Azorius Renegade",
+                "flavor": "\"I told Jace that Ravnica would fall apart if he didn't take his responsibilities seriously. I didn't want to be right.\""
+              }
+            ]
+          }
+        },
+        {
+          "name": "Trostani Discordant",
+          "why": "The divided Conclave's voices illustrate Ravnica's wider fracture before unity became essential.",
+          "evidence": "period_character_representation",
+          "source": "https://magic.wizards.com/en/news/feature/flavorful-guide-guilds-ravnica-2018-10-03",
+          "printing": {
+            "set": "GRN",
+            "collector": "208",
+            "scryfall": "https://scryfall.com/card/grn/208/trostani-discordant?utm_source=api",
+            "printed_name": "Trostani Discordant",
+            "flavor_faces": []
+          }
+        }
+      ]
+    },
+    {
+      "title": "V. The city survives: Niv reborn, Phyrexian invasion, and Karlov Manor",
+      "lore_keys": [
+        "War of the Spark",
+        "Niv-Mizzet Reborn",
+        "March of the Machine",
+        "Murders at Karlov Manor"
+      ],
+      "cards": [
+        {
+          "name": "Firemind Vessel",
+          "why": "The WAR printing's flavor explicitly describes Niv's death and the apparatus he left for resurrection.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "WAR",
+            "collector": "237",
+            "scryfall": "https://scryfall.com/card/war/237/firemind-vessel?utm_source=api",
+            "printed_name": "Firemind Vessel",
+            "flavor_faces": [
+              {
+                "face": "Firemind Vessel",
+                "flavor": "The city mourned Niv-Mizzet's death, but he left behind the components for his rebirth."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bolas's Citadel",
+          "why": "The invading elder dragon's command seat on Ravnica during the War of the Spark.",
+          "evidence": "official_historical_artifact",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "printing": {
+            "set": "WAR",
+            "collector": "79",
+            "scryfall": "https://scryfall.com/card/war/79/bolass-citadel?utm_source=api",
+            "printed_name": "Bolas's Citadel",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Ravnica at War",
+          "why": "A literal card from WAR that depicts Ravnica devastated by Bolas's attack.",
+          "evidence": "period_scene_card",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "printing": {
+            "set": "WAR",
+            "collector": "28",
+            "scryfall": "https://scryfall.com/card/war/28/ravnica-at-war?utm_source=api",
+            "printed_name": "Ravnica at War",
+            "flavor_faces": [
+              {
+                "face": "Ravnica at War",
+                "flavor": "The heart of Ravnica disappeared before anyone could strike a blow in its defense."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Guild Globe",
+          "why": "Its original WAR flavor expresses Karn's hope that Ravnica survives; it embodies the guilds' joined colors.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "WAR",
+            "collector": "239",
+            "scryfall": "https://scryfall.com/card/war/239/guild-globe?utm_source=api",
+            "printed_name": "Guild Globe",
+            "flavor_faces": [
+              {
+                "face": "Guild Globe",
+                "flavor": "\"Hopefully Ravnica will prove harder to break.\"\n—Karn"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Niv-Mizzet Reborn",
+          "why": "The actual five-color resurrection portrait: Ral and the ten guilds reconstitute Niv as the new Living Guildpact.",
+          "evidence": "official_story_climax",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05",
+          "printing": {
+            "set": "WAR",
+            "collector": "208",
+            "scryfall": "https://scryfall.com/card/war/208/niv-mizzet-reborn?utm_source=api",
+            "printed_name": "Niv-Mizzet Reborn",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Awakening of Vitu-Ghazi",
+          "why": "The original flavor names Nissa animating Selesnya's city-tree to attack the Eternals.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "printing": {
+            "set": "WAR",
+            "collector": "152",
+            "scryfall": "https://scryfall.com/card/war/152/awakening-of-vitu-ghazi?utm_source=api",
+            "printed_name": "Awakening of Vitu-Ghazi",
+            "flavor_faces": [
+              {
+                "face": "Awakening of Vitu-Ghazi",
+                "flavor": "The Eternal armies advanced on Vitu-Ghazi. At Nissa's command, Vitu-Ghazi advanced on them."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Parhelion II",
+          "why": "The rebuilt Boros sky-fortress of War of the Spark; NOT the same ship that crashed into Prahv during Dissension.",
+          "evidence": "historical_successor_artifact",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "printing": {
+            "set": "WAR",
+            "collector": "24",
+            "scryfall": "https://scryfall.com/card/war/24/parhelion-ii?utm_source=api",
+            "printed_name": "Parhelion II",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Gideon's Sacrifice",
+          "why": "Original flavor records Gideon's death protecting Liliana during Bolas's fall, Ravnica's greatest offworld sacrifice.",
+          "evidence": "literal_printing_flavor",
+          "source": "https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12",
+          "printing": {
+            "set": "WAR",
+            "collector": "14",
+            "scryfall": "https://scryfall.com/card/war/14/gideons-sacrifice?utm_source=api",
+            "printed_name": "Gideon's Sacrifice",
+            "flavor_faces": [
+              {
+                "face": "Gideon's Sacrifice",
+                "flavor": "To Liliana's surprise, the cost of betraying Bolas did not fall on her."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Invasion of Ravnica",
+          "why": "A March of the Machine battle card depicting the later Phyrexian assault on the city-plane, decades after the founding era.",
+          "evidence": "official_historical_event",
+          "source": "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
+          "printing": {
+            "set": "MOM",
+            "collector": "1",
+            "scryfall": "https://scryfall.com/card/mom/1/invasion-of-ravnica-guildpact-paragon?utm_source=api",
+            "printed_name": "Invasion of Ravnica // Guildpact Paragon",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Teysa, Opulent Oligarch",
+          "why": "Teysa's post-invasion reign, manor, and murder launch the next major Ravnican crisis.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor",
+          "printing": {
+            "set": "MKM",
+            "collector": "234",
+            "scryfall": "https://scryfall.com/card/mkm/234/teysa-opulent-oligarch?utm_source=api",
+            "printed_name": "Teysa, Opulent Oligarch",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Kaya, Spirits' Justice",
+          "why": "Kaya investigates Teysa's murder as ghosts and politics entwine at Karlov Manor.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/magic-story/episode-4-justice-before-mercy",
+          "printing": {
+            "set": "MKM",
+            "collector": "211",
+            "scryfall": "https://scryfall.com/card/mkm/211/kaya-spirits-justice?utm_source=api",
+            "printed_name": "Kaya, Spirits' Justice",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Alquist Proft, Master Sleuth",
+          "why": "The detective central to unraveling the high-profile Karlov Manor murders.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
+          "printing": {
+            "set": "MKM",
+            "collector": "185",
+            "scryfall": "https://scryfall.com/card/mkm/185/alquist-proft-master-sleuth?utm_source=api",
+            "printed_name": "Alquist Proft, Master Sleuth",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Etrata, Deadly Fugitive",
+          "why": "A Dimir assassin caught in the murder investigation who becomes a crucial collaborator with Proft.",
+          "evidence": "official_story_person",
+          "source": "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
+          "printing": {
+            "set": "MKM",
+            "collector": "200",
+            "scryfall": "https://scryfall.com/card/mkm/200/etrata-deadly-fugitive?utm_source=api",
+            "printed_name": "Etrata, Deadly Fugitive",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Agrus Kos, Spirit of Justice",
+          "why": "The murdered original Guildpact detective now serves Ravnica as a spirit—an unusually meaningful bookend.",
+          "evidence": "official_character_epilogue",
+          "source": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor",
+          "printing": {
+            "set": "MKM",
+            "collector": "184",
+            "scryfall": "https://scryfall.com/card/mkm/184/agrus-kos-spirit-of-justice?utm_source=api",
+            "printed_name": "Agrus Kos, Spirit of Justice",
+            "flavor_faces": [
+              {
+                "face": "Agrus Kos, Spirit of Justice",
+                "flavor": "\"Eventually I'll give retirement another shot. But not today.\""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "VI. Plane atlas: ten guildhalls, ten gates, ten guild terrains and civic landmarks",
+      "lore_keys": [
+        "Guild architecture",
+        "Ravnica geography",
+        "Maze's End"
+      ],
+      "cards": [
+        {
+          "name": "Sunhome, Fortress of the Legion",
+          "why": "The original printed Boros guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "282",
+            "scryfall": "https://scryfall.com/card/rav/282/sunhome-fortress-of-the-legion?utm_source=api",
+            "printed_name": "Sunhome, Fortress of the Legion",
+            "flavor_faces": [
+              {
+                "face": "Sunhome, Fortress of the Legion",
+                "flavor": "Sunhome—the stalwart shield, the towering sentinel, the seat of justice."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Duskmantle, House of Shadow",
+          "why": "The original printed Dimir guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "277",
+            "scryfall": "https://scryfall.com/card/rav/277/duskmantle-house-of-shadow?utm_source=api",
+            "printed_name": "Duskmantle, House of Shadow",
+            "flavor_faces": [
+              {
+                "face": "Duskmantle, House of Shadow",
+                "flavor": "In a space where there is no room, in a structure that was never built, meets the guild that doesn't exist."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Svogthos, the Restless Tomb",
+          "why": "The original printed Golgari guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "283",
+            "scryfall": "https://scryfall.com/card/rav/283/svogthos-the-restless-tomb?utm_source=api",
+            "printed_name": "Svogthos, the Restless Tomb",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Vitu-Ghazi, the City-Tree",
+          "why": "The original printed Selesnya guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "285",
+            "scryfall": "https://scryfall.com/card/rav/285/vitu-ghazi-the-city-tree?utm_source=api",
+            "printed_name": "Vitu-Ghazi, the City-Tree",
+            "flavor_faces": [
+              {
+                "face": "Vitu-Ghazi, the City-Tree",
+                "flavor": "In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nivix, Aerie of the Firemind",
+          "why": "The original printed Izzet guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "160",
+            "scryfall": "https://scryfall.com/card/gpt/160/nivix-aerie-of-the-firemind?utm_source=api",
+            "printed_name": "Nivix, Aerie of the Firemind",
+            "flavor_faces": [
+              {
+                "face": "Nivix, Aerie of the Firemind",
+                "flavor": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Orzhova, the Church of Deals",
+          "why": "The original printed Orzhov guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "162",
+            "scryfall": "https://scryfall.com/card/gpt/162/orzhova-the-church-of-deals?utm_source=api",
+            "printed_name": "Orzhova, the Church of Deals",
+            "flavor_faces": [
+              {
+                "face": "Orzhova, the Church of Deals",
+                "flavor": "Unlike most churches, at Orzhova it's best to pray before you arrive."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Skarrg, the Rage Pits",
+          "why": "The original printed Gruul guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "163",
+            "scryfall": "https://scryfall.com/card/gpt/163/skarrg-the-rage-pits?utm_source=api",
+            "printed_name": "Skarrg, the Rage Pits",
+            "flavor_faces": [
+              {
+                "face": "Skarrg, the Rage Pits",
+                "flavor": "\"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!\"\n—Ghut Rak, Gruul guildmage"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Novijen, Heart of Progress",
+          "why": "The original printed Simic guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "175",
+            "scryfall": "https://scryfall.com/card/dis/175/novijen-heart-of-progress?utm_source=api",
+            "printed_name": "Novijen, Heart of Progress",
+            "flavor_faces": [
+              {
+                "face": "Novijen, Heart of Progress",
+                "flavor": "\"The unnatural pressures of life in this city are best withstood by lifeforms that adapt with unnatural swiftness.\"\n—Momir Vig"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Prahv, Spires of Order",
+          "why": "Original Azorius guildhall ultimately destroyed in the first Guildpact's violent collapse; its original printing is a concrete historical site.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "177",
+            "scryfall": "https://scryfall.com/card/dis/177/prahv-spires-of-order?utm_source=api",
+            "printed_name": "Prahv, Spires of Order",
+            "flavor_faces": [
+              {
+                "face": "Prahv, Spires of Order",
+                "flavor": "Prahv, where much work is done to make sure nothing is accomplished."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rix Maadi, Dungeon Palace",
+          "why": "The original printed Rakdos guildhall, a physical headquarters mapping that guild's part of the ten-thousand-year city.",
+          "evidence": "period_original_guildhall",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "179",
+            "scryfall": "https://scryfall.com/card/dis/179/rix-maadi-dungeon-palace?utm_source=api",
+            "printed_name": "Rix Maadi, Dungeon Palace",
+            "flavor_faces": [
+              {
+                "face": "Rix Maadi, Dungeon Palace",
+                "flavor": "Even miles away, if you put your ear to the sewer vents, you can hear the screams and the tempestuous laughter."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Azorius Guildgate",
+          "why": "The Azorius guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "237",
+            "scryfall": "https://scryfall.com/card/rtr/237/azorius-guildgate?utm_source=api",
+            "printed_name": "Azorius Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Azorius Guildgate",
+                "flavor": "Enter the Senate, the seat of justice and the foundation of Ravnican society."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Boros Guildgate",
+          "why": "The Boros guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GTC",
+            "collector": "239",
+            "scryfall": "https://scryfall.com/card/gtc/239/boros-guildgate?utm_source=api",
+            "printed_name": "Boros Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Boros Guildgate",
+                "flavor": "Enter with merciful hearts. Exit with battle cries."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Dimir Guildgate",
+          "why": "The Dimir guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GTC",
+            "collector": "241",
+            "scryfall": "https://scryfall.com/card/gtc/241/dimir-guildgate?utm_source=api",
+            "printed_name": "Dimir Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Dimir Guildgate",
+                "flavor": "Enter and become a mastermind of spies, lies, and deception."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Golgari Guildgate",
+          "why": "The Golgari guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "239",
+            "scryfall": "https://scryfall.com/card/rtr/239/golgari-guildgate?utm_source=api",
+            "printed_name": "Golgari Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Golgari Guildgate",
+                "flavor": "Enter those who are starving and sick. You are welcome among the Swarm when the rest of Ravnica rejects you."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Gruul Guildgate",
+          "why": "The Gruul guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GTC",
+            "collector": "243",
+            "scryfall": "https://scryfall.com/card/gtc/243/gruul-guildgate?utm_source=api",
+            "printed_name": "Gruul Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Gruul Guildgate",
+                "flavor": "Enter and leave the shackles of society behind."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Izzet Guildgate",
+          "why": "The Izzet guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "242",
+            "scryfall": "https://scryfall.com/card/rtr/242/izzet-guildgate?utm_source=api",
+            "printed_name": "Izzet Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Izzet Guildgate",
+                "flavor": "Enter those with the vision to create and the daring to release their creations."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Orzhov Guildgate",
+          "why": "The Orzhov guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GTC",
+            "collector": "244",
+            "scryfall": "https://scryfall.com/card/gtc/244/orzhov-guildgate?utm_source=api",
+            "printed_name": "Orzhov Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Orzhov Guildgate",
+                "flavor": "Enter to find wealth, security, and eternal life . . . for just a small price up front."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rakdos Guildgate",
+          "why": "The Rakdos guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "244",
+            "scryfall": "https://scryfall.com/card/rtr/244/rakdos-guildgate?utm_source=api",
+            "printed_name": "Rakdos Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Rakdos Guildgate",
+                "flavor": "Enter and indulge your darkest fantasies, for you may never pass this way again."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Selesnya Guildgate",
+          "why": "The Selesnya guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RTR",
+            "collector": "246",
+            "scryfall": "https://scryfall.com/card/rtr/246/selesnya-guildgate?utm_source=api",
+            "printed_name": "Selesnya Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Selesnya Guildgate",
+                "flavor": "Enter and rejoice! The Conclave stands united, open to one and all."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Simic Guildgate",
+          "why": "The Simic guild's named public gate in the Return to Ravnica / Gatecrash era, symbolizing its civic reach after the old pact broke.",
+          "evidence": "period_guild_gate_printing",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GTC",
+            "collector": "246",
+            "scryfall": "https://scryfall.com/card/gtc/246/simic-guildgate?utm_source=api",
+            "printed_name": "Simic Guildgate",
+            "flavor_faces": [
+              {
+                "face": "Simic Guildgate",
+                "flavor": "Enter and comprehend the perfection of orchestrated life."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Hallowed Fountain",
+          "why": "Original-era Azorius guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "174",
+            "scryfall": "https://scryfall.com/card/dis/174/hallowed-fountain?utm_source=api",
+            "printed_name": "Hallowed Fountain",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Sacred Foundry",
+          "why": "Original-era Boros guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "280",
+            "scryfall": "https://scryfall.com/card/rav/280/sacred-foundry?utm_source=api",
+            "printed_name": "Sacred Foundry",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Watery Grave",
+          "why": "Original-era Dimir guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "286",
+            "scryfall": "https://scryfall.com/card/rav/286/watery-grave?utm_source=api",
+            "printed_name": "Watery Grave",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Overgrown Tomb",
+          "why": "Original-era Golgari guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "279",
+            "scryfall": "https://scryfall.com/card/rav/279/overgrown-tomb?utm_source=api",
+            "printed_name": "Overgrown Tomb",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Stomping Ground",
+          "why": "Original-era Gruul guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "165",
+            "scryfall": "https://scryfall.com/card/gpt/165/stomping-ground?utm_source=api",
+            "printed_name": "Stomping Ground",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Steam Vents",
+          "why": "Original-era Izzet guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "164",
+            "scryfall": "https://scryfall.com/card/gpt/164/steam-vents?utm_source=api",
+            "printed_name": "Steam Vents",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Godless Shrine",
+          "why": "Original-era Orzhov guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GPT",
+            "collector": "157",
+            "scryfall": "https://scryfall.com/card/gpt/157/godless-shrine?utm_source=api",
+            "printed_name": "Godless Shrine",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Blood Crypt",
+          "why": "Original-era Rakdos guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "171",
+            "scryfall": "https://scryfall.com/card/dis/171/blood-crypt?utm_source=api",
+            "printed_name": "Blood Crypt",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Temple Garden",
+          "why": "Original-era Selesnya guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RAV",
+            "collector": "284",
+            "scryfall": "https://scryfall.com/card/rav/284/temple-garden?utm_source=api",
+            "printed_name": "Temple Garden",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Breeding Pool",
+          "why": "Original-era Simic guild landscape and mana alignment, represented by its first Ravnica-block printing; geographic context rather than a specific event.",
+          "evidence": "period_guild_landscape",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "DIS",
+            "collector": "172",
+            "scryfall": "https://scryfall.com/card/dis/172/breeding-pool?utm_source=api",
+            "printed_name": "Breeding Pool",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Maze's End",
+          "why": "Literal terminus of Azor's Implicit Maze, whose magical resolution elevated Jace to the Living Guildpact.",
+          "evidence": "official_historical_location",
+          "source": "https://magic.wizards.com/en/news/making-magic/checking-planeswalkers-2014-06-17",
+          "printing": {
+            "set": "DGM",
+            "collector": "152",
+            "scryfall": "https://scryfall.com/card/dgm/152/mazes-end?utm_source=api",
+            "printed_name": "Maze's End",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Plaza of Harmony",
+          "why": "Later guild-sharing civic plaza representing Ravnica's attempt at a public peace among ten rival guilds.",
+          "evidence": "period_civic_location",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "RNA",
+            "collector": "254",
+            "scryfall": "https://scryfall.com/card/rna/254/plaza-of-harmony?utm_source=api",
+            "printed_name": "Plaza of Harmony",
+            "flavor_faces": []
+          }
+        },
+        {
+          "name": "Guildmages' Forum",
+          "why": "A city meeting place that visually anchors practitioners of different guild traditions in one metropolis.",
+          "evidence": "period_civic_location",
+          "source": "https://magic.wizards.com/en/story/ravnica-plane",
+          "printing": {
+            "set": "GRN",
+            "collector": "250",
+            "scryfall": "https://scryfall.com/card/grn/250/guildmages-forum?utm_source=api",
+            "printed_name": "Guildmages' Forum",
+            "flavor_faces": []
+          }
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "Plains": 1,
+    "Island": 1,
+    "Swamp": 1,
+    "Mountain": 1,
+    "Forest": 1
+  },
+  "basic_printings": [
+    {
+      "name": "Plains",
+      "quantity": 1,
+      "printing": {
+        "set": "RAV",
+        "collector": "287",
+        "scryfall": "https://scryfall.com/card/rav/287/plains?utm_source=api",
+        "printed_name": "Plains",
+        "flavor_faces": []
+      },
+      "why": "Original Ravnica city-plane basic land artwork; one of each of the five sources that the two-color guilds partition."
+    },
+    {
+      "name": "Island",
+      "quantity": 1,
+      "printing": {
+        "set": "RAV",
+        "collector": "291",
+        "scryfall": "https://scryfall.com/card/rav/291/island?utm_source=api",
+        "printed_name": "Island",
+        "flavor_faces": []
+      },
+      "why": "Original Ravnica city-plane basic land artwork; one of each of the five sources that the two-color guilds partition."
+    },
+    {
+      "name": "Swamp",
+      "quantity": 1,
+      "printing": {
+        "set": "RAV",
+        "collector": "295",
+        "scryfall": "https://scryfall.com/card/rav/295/swamp?utm_source=api",
+        "printed_name": "Swamp",
+        "flavor_faces": []
+      },
+      "why": "Original Ravnica city-plane basic land artwork; one of each of the five sources that the two-color guilds partition."
+    },
+    {
+      "name": "Mountain",
+      "quantity": 1,
+      "printing": {
+        "set": "RAV",
+        "collector": "299",
+        "scryfall": "https://scryfall.com/card/rav/299/mountain?utm_source=api",
+        "printed_name": "Mountain",
+        "flavor_faces": []
+      },
+      "why": "Original Ravnica city-plane basic land artwork; one of each of the five sources that the two-color guilds partition."
+    },
+    {
+      "name": "Forest",
+      "quantity": 1,
+      "printing": {
+        "set": "RAV",
+        "collector": "303",
+        "scryfall": "https://scryfall.com/card/rav/303/forest?utm_source=api",
+        "printed_name": "Forest",
+        "flavor_faces": []
+      },
+      "why": "Original Ravnica city-plane basic land artwork; one of each of the five sources that the two-color guilds partition."
+    }
+  ],
+  "playability": []
+}
+
