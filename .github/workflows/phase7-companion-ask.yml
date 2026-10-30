@@ -5,6 +5,11 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/commander_rules.py'
+      - 'scripts/rules_interactions.py'
+      - 'scripts/build_cr_keyword_excerpt.py'
+      - 'tests/test_rules_interactions.py'
+      - 'data/lore_decks/drafts/*_decklist.txt'
+      - 'cards/**'
       - 'data/rules/**'
       - 'tests/test_commander_rules.py'
       - 'scripts/query_multiverse_graph.py'
@@ -17,6 +22,11 @@ on:
     paths:
       - 'scripts/mv_ask.py'
       - 'scripts/commander_rules.py'
+      - 'scripts/rules_interactions.py'
+      - 'scripts/build_cr_keyword_excerpt.py'
+      - 'tests/test_rules_interactions.py'
+      - 'data/lore_decks/drafts/*_decklist.txt'
+      - 'cards/**'
       - 'data/rules/**'
       - 'tests/test_mv_ask.py'
       - 'data/multiverse_graph/**'
@@ -45,3 +55,9 @@ jobs:
           python3 scripts/commander_rules.py include "Sol Ring" --commander "Urza, Lord High Artificer"
           python3 scripts/commander_rules.py audit-eligibility --check
           python3 -m unittest discover -s tests -p 'test_commander_rules.py' -v
+      - name: Gameplay rules-interaction checks (rulings + CR 701/702 excerpt)
+        run: |
+          python3 scripts/build_cr_keyword_excerpt.py --check
+          python3 scripts/rules_interactions.py pair "Urza's Saga" "Urza's Tower" > /dev/null
+          python3 scripts/rules_interactions.py audit --check
+          python3 -m unittest discover -s tests -p 'test_rules_interactions.py' -v
