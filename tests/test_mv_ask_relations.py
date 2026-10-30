@@ -25,6 +25,18 @@ def _rows(env):
 
 
 class EveryClaimEdgeIsAnswerable(unittest.TestCase):
+    def test_no_duplicate_named_entities(self):
+        # Two lore nodes of one type with one name make A.lore(name) resolve to only one of them (Batch 6c).
+        seen = {}
+        for n in GRAPH["nodes"]:
+            kind = n["id"].split(":", 1)[0]
+            if kind in {"card", "claim", "curated", "source"}:
+                continue
+            key = (kind, n["name"].strip().lower())
+            with self.subTest(node=n["id"]):
+                self.assertNotIn(key, seen, f"{n['id']} duplicates {seen.get(key)}")
+            seen.setdefault(key, n["id"])
+
     def test_claim_edge_set_is_substantial(self):
         self.assertGreaterEqual(len(CLAIM_EDGES), 250)
 

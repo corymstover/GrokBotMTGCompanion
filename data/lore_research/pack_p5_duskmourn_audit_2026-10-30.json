@@ -1,0 +1,122 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DSK",
+ "claims": 11,
+ "entities": 15,
+ "sources": 6,
+ "grades": {
+  "CANON_CONFIRMED": 8,
+  "CANON_IMPLIED": 3
+ },
+ "quotes": 17,
+ "quotes_verbatim": 17,
+ "quote_rows": [
+  {
+   "claim": "DS001",
+   "source_id": "dsk_guide",
+   "quote_sha256": "9218f0598f05ec5e0973fb04de107bf827c4724d6377c512cbeee0c4f99a0e47",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS001",
+   "source_id": "dsk_guide",
+   "quote_sha256": "194f3962c45d3c198c4bcbc58c29fdbb797dbbff795173cfac1fd3b7259767bd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS002",
+   "source_id": "dsk_guide",
+   "quote_sha256": "6593a42a149ed04705dd315b4448667a47f51f200eabd6e208bc75d7471c9221",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS002",
+   "source_id": "dsk_guide",
+   "quote_sha256": "0fd8cc2486ba47a8addd5b4cbfdee0bfb66afcae9ef0abaf6447d233b9b3c386",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS003",
+   "source_id": "dsk_guide",
+   "quote_sha256": "fb471ebff8416651ecc47928665ecb47a72759ab0a0b968fe770eb302a9ffc91",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS004",
+   "source_id": "dsk_ep3",
+   "quote_sha256": "93ad8dafa6bc3077207220f087a556a87412fabc438440a78949fbf1c2dcbd65",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS004",
+   "source_id": "dsk_ep3",
+   "quote_sha256": "71730fa764fa88fd4ca1130575e61c712e002a7ae572931c06088827f0cc146d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS005",
+   "source_id": "dsk_ep4",
+   "quote_sha256": "1907da2395d75974e9b8e6037e91ee83ead5e94c2effe6c2530d368869f6ead2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS006",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "947c5ecc3bf7ca43d28d3f1094ea651c18a9ab74fd6afcfc9254a1bca6cf5a8e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS007",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "47eff07acf62aace2a54be851dbd9b5e32934b621682efbfe208170d0696326f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS007",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "75c95f443e196f44126573ca7dc4785d97a2747bb5baafe1d94e7a1f71eff190",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS008",
+   "source_id": "dsk_ep1",
+   "quote_sha256": "96d461b0a2b91f525bd725b8448fe633438e95e6e41628a9bd38bed92b5742a1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS009",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "67951fd1bd300375da27c6f7274d6b4cacf5c0b236274930ceb2523bb24c52e2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS010",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "8ec189669c3b977ad734a2fced3343c4c5f71eac0cf43815ab62d446c0412f89",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS010",
+   "source_id": "dsk_ep6",
+   "quote_sha256": "62e6840a07a9c9f8ee95a3e446fa95bf7997fd02219eaa0cd241195b56042dc0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS011",
+   "source_id": "dsk_ep5",
+   "quote_sha256": "593cc659341ae54d43eb6611210a3be4af85026c3e3695719d4f5e82174a22e8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DS011",
+   "source_id": "dsk_guide",
+   "quote_sha256": "5b8ab28ddfbdeaa34a2ab158414c810173d8b115d908939bb584c8e8156b76e1",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "ed03a67d3356c5f8c3e3b8bf6d9c72edc59f7e5c59483081b65f5a549d4df6e5"
+}

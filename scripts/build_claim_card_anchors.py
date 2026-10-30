@@ -54,6 +54,11 @@ STORY_SETS = {
     "pack_p5_reality_fracture_2026-10-30.json": ["fra"],
     "pack_p5_wilds_of_eldraine_2026-10-30.json": ["woe"],
     "pack_p5_murders_at_karlov_manor_2026-10-30.json": ["mkm"],
+    "pack_p5_bloomburrow_2026-10-30.json": ["blb"],
+    "pack_p5_duskmourn_2026-10-30.json": ["dsk"],
+    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": ["otj"],
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": ["lci"],
+    "pack_p5_aetherdrift_2026-10-30.json": ["dft"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

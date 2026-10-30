@@ -175,8 +175,25 @@ def page_key_collisions(files=None) -> list[str]:
     return out
 
 
+def entity_alias_collisions(files=None) -> list[str]:
+    """One named entity must have one id: two ids with the same type and name split the graph and make
+    name lookups (mv_ask) resolve to the wrong node."""
+    owner, out = {}, []
+    for f in (files if files is not None else spec_files()):
+        spec = json.loads(Path(f).read_text(encoding="utf-8"))
+        for e in spec.get("entities", []):
+            k = (e["type"], e["name"].strip().lower())
+            prev = owner.setdefault(k, (e["id"], spec["pack_id"]))
+            if prev[0] != e["id"]:
+                out.append(f"{e['type']} {e['name']!r} is id {prev[0]!r} in {prev[1]} but {e['id']!r} in {spec['pack_id']}")
+    return out
+
+
 def cmd_build(only: list[str]) -> int:
     collisions = page_key_collisions()
+    for x in entity_alias_collisions():
+        print("ENTITY ALIAS COLLISION:", x)
+        collisions = collisions + [x]
     for x in collisions:
         print("PAGE KEY COLLISION:", x)
     if collisions:
@@ -237,6 +254,7 @@ def cmd_check() -> int:
         print(f"OK {pid}: {old['claims']} claims, {old['quotes_verbatim']}/{old['quotes']} verbatim "
               f"({'re-verified against cache' if cache_present else 'cache absent: hashes verified'})")
     fails += [f"page key collision: {x}" for x in page_key_collisions()]
+    fails += [f"entity alias collision: {x}" for x in entity_alias_collisions()]
     for x in fails:
         print("FAIL", x)
     return 1 if fails else 0

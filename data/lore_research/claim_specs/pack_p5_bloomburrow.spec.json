@@ -1,0 +1,312 @@
+{
+ "pack_id": "pack_p5_bloomburrow",
+ "arc": "BLB",
+ "event_stage": "bloomburrow_blb_2024",
+ "scope": "Targeted Phase 5 extraction from the five official Bloomburrow Magic Story episodes (2024-07-01 to 2024-07-08) and the Planeswalker's Guide to Bloomburrow, Parts 1 and 3. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "blb_ep1": "episode-1-calamity-comes-to-valley",
+  "blb_ep2": "episode-2-an-expected-party",
+  "blb_ep3": "episode-3-the-lost-and-the-found",
+  "blb_ep5": "episode-5-nightfall-in-fountainport",
+  "blb_guide1": "planeswalkers-guide-to-bloomburrow-part-1",
+  "blb_guide3": "planeswalkers-guide-to-bloomburrow-part-3"
+ },
+ "entities": [
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "tomik_vrona",
+   "type": "Character",
+   "name": "Tomik Vrona"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "the_wanderer",
+   "type": "Character",
+   "name": "The Wanderer"
+  },
+  {
+   "id": "king_glarb",
+   "type": "Character",
+   "name": "King Glarb"
+  },
+  {
+   "id": "cruelclaw",
+   "type": "Character",
+   "name": "Cruelclaw"
+  },
+  {
+   "id": "calamity_beast_egg",
+   "type": "Object",
+   "name": "The Calamity Beast egg"
+  },
+  {
+   "id": "maha",
+   "type": "Character",
+   "name": "Maha, the Night Owl"
+  },
+  {
+   "id": "pondside",
+   "type": "Place",
+   "name": "Pondside"
+  },
+  {
+   "id": "mabel",
+   "type": "Character",
+   "name": "Mabel"
+  },
+  {
+   "id": "lily_of_the_valley",
+   "type": "Character",
+   "name": "Lily of the Valley"
+  },
+  {
+   "id": "cragflame",
+   "type": "Object",
+   "name": "Cragflame"
+  },
+  {
+   "id": "zoraline",
+   "type": "Character",
+   "name": "Zoraline"
+  },
+  {
+   "id": "helga",
+   "type": "Character",
+   "name": "Helga"
+  },
+  {
+   "id": "calamity_beasts",
+   "type": "Faction",
+   "name": "Calamity Beasts"
+  },
+  {
+   "id": "bloomburrow",
+   "type": "Plane",
+   "name": "Bloomburrow"
+  }
+ ],
+ "claims": [
+  {
+   "id": "BL001",
+   "subject": "ral_zarek",
+   "predicate": "sought",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep1",
+     "quote": "\"I tried planeswalking to him. Ended up on some beach in Ixalan. But I know someone who might be able to track him.\""
+    },
+    {
+     "page": "blb_ep1",
+     "quote": "The place in Thunder Junction where he last saw Beleren was as empty as Ral had left it."
+    }
+   ],
+   "summary": "Ral Zarek searches for Jace Beleren, starting from where he last saw him on Thunder Junction.",
+   "event_stage": "blb_prologue_2024"
+  },
+  {
+   "id": "BL002",
+   "subject": "ral_zarek",
+   "predicate": "spouse_of",
+   "object": "tomik_vrona",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep1",
+     "quote": "Ral loved having a brilliant husband who didn't need everything explained to him."
+    }
+   ],
+   "summary": "Ral Zarek is married to Tomik."
+  },
+  {
+   "id": "BL003",
+   "subject": "the_wanderer",
+   "predicate": "related_to",
+   "object": "ral_zarek",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_ep1",
+     "quote": "\"I can no longer walk the planes. My spark is gone.\""
+    },
+    {
+     "page": "blb_ep1",
+     "quote": "He planeswalked away in a shower of sparks, leaving the Wanderer to her palace garden."
+    }
+   ],
+   "summary": "Ral asks the Wanderer to help track Jace; she says her spark is gone and she cannot help.",
+   "limitation": "The Wanderer's loss of her spark is her own statement in dialogue; related_to records the consultation only."
+  },
+  {
+   "id": "BL004",
+   "subject": "maha",
+   "predicate": "destroyed",
+   "object": "pondside",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep2",
+     "quote": "Slowly, in croaked whispers, she told the story of Maha's attack, the destruction of Pondside, the terrible darkness that erased the day like turpentine wiping away paint from a canvas."
+    }
+   ],
+   "summary": "Maha, the Night Owl Calamity Beast, attacks and destroys Helga's village of Pondside.",
+   "limitation": "The account is Helga's retelling, reported in narration.",
+   "event_stage": "blb_quest_2024"
+  },
+  {
+   "id": "BL005",
+   "subject": "king_glarb",
+   "predicate": "hired",
+   "object": "cruelclaw",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_ep5",
+     "quote": "\"I paid Cruelclaw extremely well to bring it here.\""
+    },
+    {
+     "page": "blb_ep5",
+     "quote": "\"The Direshade Company fulfills its contracts,\" Cruelclaw said, his voice rough as limestone."
+    }
+   ],
+   "summary": "King Glarb paid Cruelclaw of the Direshade Company to bring him the Calamity Beast egg.",
+   "limitation": "Stated in Glarb's and Cruelclaw's dialogue.",
+   "event_stage": "blb_climax_2024"
+  },
+  {
+   "id": "BL006",
+   "subject": "king_glarb",
+   "predicate": "sought_control_of",
+   "object": "calamity_beast_egg",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_ep5",
+     "quote": "\"You see, little Helga,\" the king continued, \"with the right weaving, I can control the Calamity Beast within that egg."
+    },
+    {
+     "page": "blb_ep5",
+     "quote": "Our very own champion would defend all animalfolk in Valley, repelling the other Calamity Beasts by my command.\""
+    }
+   ],
+   "summary": "King Glarb plans to control the Calamity Beast in the egg and use it as Valley's champion.",
+   "limitation": "His intention as stated in dialogue.",
+   "event_stage": "blb_climax_2024"
+  },
+  {
+   "id": "BL007",
+   "subject": "lily_of_the_valley",
+   "predicate": "defeated",
+   "object": "calamity_beasts",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_ep2",
+     "quote": "Lily of the Valley, champion of holly, had wielded the burning might of the sword Cragflame to drive those Calamity Beasts far away."
+    }
+   ],
+   "summary": "In Valley's legends, Lily of the Valley drove Calamity Beasts away with the sword Cragflame.",
+   "limitation": "A recounted legend, not an event shown in the story."
+  },
+  {
+   "id": "BL008",
+   "subject": "lily_of_the_valley",
+   "predicate": "named",
+   "object": "cragflame",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_guide1",
+     "quote": "Lily left as well, leaving the tooth of Wildsear that she named Cragflame and her armor to her descendants"
+    }
+   ],
+   "summary": "The guide says Lily named the tooth of Wildsear Cragflame and left it and her armor to her descendants."
+  },
+  {
+   "id": "BL009",
+   "subject": "mabel",
+   "predicate": "related_to",
+   "object": "lily_of_the_valley",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "blb_guide3",
+     "quote": "Mousefolk Mabel, Heir to Cragflame | Art by: Aurore Folny"
+    },
+    {
+     "page": "blb_guide1",
+     "quote": "leaving the tooth of Wildsear that she named Cragflame and her armor to her descendants"
+    }
+   ],
+   "summary": "Mabel is captioned 'Heir to Cragflame', and the guide says Cragflame passed to Lily's descendants.",
+   "limitation": "Descent is inferred from a card caption plus the guide; neither sentence says Mabel is Lily's descendant."
+  },
+  {
+   "id": "BL010",
+   "subject": "mabel",
+   "predicate": "allied_with",
+   "object": "zoraline",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep3",
+     "quote": "Mabel plotted a creek-side path using a star charted map supplied by Zoraline, the dark-furred batfolk."
+    }
+   ],
+   "summary": "Mabel travels with Zoraline, Hugs and others on the quest.",
+   "event_stage": "blb_quest_2024"
+  },
+  {
+   "id": "BL011",
+   "subject": "ral_zarek",
+   "predicate": "left",
+   "object": "bloomburrow",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep5",
+     "quote": "Mabel's question went unvoiced as Ral vanished in an explosion of lightning sparks that lit the evening, quickly fading into afterimages."
+    },
+    {
+     "page": "blb_ep5",
+     "quote": "\"Can't say I've loved having a tail, though.\""
+    }
+   ],
+   "summary": "Ral, who appeared as an otterfolk on Bloomburrow, planeswalks away after the adventure.",
+   "event_stage": "blb_epilogue_2024"
+  },
+  {
+   "id": "BL012",
+   "subject": "helga",
+   "predicate": "allied_with",
+   "object": "mabel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "blb_ep5",
+     "quote": "\"Maybe, possibly, I could get us in to see King Glarb, and ask for his help?\""
+    },
+    {
+     "page": "blb_ep5",
+     "quote": "\"You've let your fears overcome your good sense,\" Mabel said."
+    }
+   ],
+   "summary": "Helga and Mabel confront King Glarb together in Fountainport.",
+   "event_stage": "blb_climax_2024"
+  }
+ ],
+ "remaining": [
+  "The fate of the Calamity Beast egg and the battle at Fountainport are not graded",
+  "Guide Part 2 is not cited",
+  "Hugs, Gev and Finneas are not modelled"
+ ]
+}

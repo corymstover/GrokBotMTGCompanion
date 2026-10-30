@@ -145,7 +145,7 @@
    "name": "Orzhov Syndicate"
   },
   {
-   "id": "golgari_swarm",
+   "id": "golgari",
    "type": "Faction",
    "name": "Golgari Swarm"
   },
@@ -435,7 +435,7 @@
    "id": "MK013",
    "subject": "izoni",
    "predicate": "joined",
-   "object": "golgari_swarm",
+   "object": "golgari",
    "grade": "CANON_IMPLIED",
    "event_stage": "ravnica_mkm_2024",
    "source_ids": [
@@ -459,7 +459,7 @@
    "id": "MK014",
    "subject": "vraska",
    "predicate": "disappeared_after",
-   "object": "golgari_swarm",
+   "object": "golgari",
    "grade": "CANON_CONFIRMED",
    "event_stage": "ravnica_mkm_2024",
    "source_ids": [

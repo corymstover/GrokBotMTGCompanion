@@ -82,7 +82,7 @@
    "name": "Orzhov Syndicate"
   },
   {
-   "id": "golgari_swarm",
+   "id": "golgari",
    "type": "Faction",
    "name": "Golgari Swarm"
   },
@@ -314,7 +314,7 @@
    "id": "MK013",
    "subject": "izoni",
    "predicate": "joined",
-   "object": "golgari_swarm",
+   "object": "golgari",
    "grade": "CANON_IMPLIED",
    "quotes": [
     {
@@ -333,7 +333,7 @@
    "id": "MK014",
    "subject": "vraska",
    "predicate": "disappeared_after",
-   "object": "golgari_swarm",
+   "object": "golgari",
    "grade": "CANON_CONFIRMED",
    "quotes": [
     {
