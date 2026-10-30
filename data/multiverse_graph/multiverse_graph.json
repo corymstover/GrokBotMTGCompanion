@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "4ebfbe862a6738d2e67c86aeb5559daaf14962a73d9fc25cbe76a587b12a974e",
+ "content_sha256": "8fd9f67a3c7d263960d27c74a02f45214b4529f72a7a10cd262eaef7bb637a60",
  "edges": [
   {
    "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
@@ -1200,6 +1200,231 @@
    "to": "place:ugins_tomb_site"
   },
   {
+   "claim": "B001",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "bro_card_stories_1",
+    "bro_ep1"
+   ],
+   "to": "character:mishra"
+  },
+  {
+   "claim": "B002",
+   "from": "character:kayla_bin_kroog",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spouse_of",
+   "sources": [
+    "bro_ep1"
+   ],
+   "to": "character:urza"
+  },
+  {
+   "claim": "B003",
+   "from": "character:harbin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "child_of",
+   "sources": [
+    "bro_ep1"
+   ],
+   "to": "character:kayla_bin_kroog"
+  },
+  {
+   "claim": "B003",
+   "from": "character:harbin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "child_of",
+   "sources": [
+    "bro_ep1"
+   ],
+   "to": "character:urza"
+  },
+  {
+   "claim": "B004",
+   "from": "character:tawnos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "assistant_of",
+   "sources": [
+    "bro_ep1"
+   ],
+   "to": "character:urza"
+  },
+  {
+   "claim": "B005",
+   "from": "character:ashnod",
+   "grade": "CANON_CONFIRMED",
+   "relation": "worked_for",
+   "sources": [
+    "bro_ep1"
+   ],
+   "to": "character:mishra"
+  },
+  {
+   "claim": "B006",
+   "from": "character:mishra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "corrupted_by",
+   "sources": [
+    "bro_card_stories_1",
+    "bro_ep1"
+   ],
+   "to": "character:gix"
+  },
+  {
+   "claim": "B006",
+   "from": "character:mishra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "corrupted_by",
+   "sources": [
+    "bro_card_stories_1",
+    "bro_ep1"
+   ],
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "claim": "B007",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "activated",
+   "sources": [
+    "bro_card_stories_2",
+    "bro_ep5"
+   ],
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "claim": "B008",
+   "from": "event:sylex_blast",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "bro_ep1",
+    "bro_ep4"
+   ],
+   "to": "place:argoth"
+  },
+  {
+   "claim": "B009",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "became_planeswalker_at",
+   "sources": [
+    "bro_card_stories_2",
+    "bro_ep5"
+   ],
+   "to": "event:sylex_blast"
+  },
+  {
+   "claim": "B010",
+   "from": "artifact:mightstone_and_weakstone",
+   "grade": "CANON_CONFIRMED",
+   "relation": "became_eyes_of",
+   "sources": [
+    "bro_card_stories_2"
+   ],
+   "to": "character:urza"
+  },
+  {
+   "claim": "B011",
+   "from": "event:sylex_blast",
+   "grade": "CANON_CONFIRMED",
+   "relation": "preceded",
+   "sources": [
+    "bro_ep5"
+   ],
+   "to": "event:ice_age"
+  },
+  {
+   "claim": "B012",
+   "from": "artifact:golgothian_sylex",
+   "grade": "CANON_DISPUTED",
+   "relation": "origin",
+   "sources": [
+    "bro_ep5"
+   ],
+   "to": "literal:unknown"
+  },
+  {
+   "claim": "B013",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "vendetta_against",
+   "sources": [
+    "urza_profile"
+   ],
+   "to": "character:yawgmoth"
+  },
+  {
+   "claim": "B013",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "vendetta_against",
+   "sources": [
+    "urza_profile"
+   ],
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "claim": "B014",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "obsessed_with",
+   "sources": [
+    "urza_profile"
+   ],
+   "to": "concept:thran_empire"
+  },
+  {
+   "claim": "B015",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "perished_with",
+   "sources": [
+    "urza_profile"
+   ],
+   "to": "character:yawgmoth"
+  },
+  {
+   "claim": "B016",
+   "from": "character:teferi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "witnessed_via_time_travel",
+   "sources": [
+    "bro_ep5",
+    "bro_product_page"
+   ],
+   "to": "event:sylex_blast"
+  },
+  {
+   "claim": "B017",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "bro_ch1",
+    "bro_product_page"
+   ],
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "claim": "B018",
+   "from": "character:saheeli",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "bro_ch1",
+    "bro_product_page"
+   ],
+   "to": "artifact:sylex_replica"
+  },
+  {
+   "from": "artifact:golgothian_sylex",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#golgothian-sylex"
+  },
+  {
    "from": "character:arcades_sabboth",
    "limit": "Defensive card mechanics do not establish an in-lore political alignment.",
    "relation": "depicted_by",
@@ -1240,6 +1465,24 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#geyadrone-dihada"
+  },
+  {
+   "from": "character:karn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#karn"
+  },
+  {
+   "from": "character:karn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#karn"
+  },
+  {
+   "from": "character:mishra",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#mishra"
   },
   {
    "from": "character:narset",
@@ -1318,6 +1561,18 @@
    "to": "curated:Planeswalker Dossiers.md#sarkhan-vol"
   },
   {
+   "from": "character:teferi",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#teferi"
+  },
+  {
+   "from": "character:teferi",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#teferi"
+  },
+  {
    "from": "character:ugin",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -1330,6 +1585,12 @@
    "to": "curated:Planeswalker Dossiers.md#ugin"
   },
   {
+   "from": "character:urza",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#urza"
+  },
+  {
    "from": "character:vaevictis_asmadi",
    "limit": "Character depiction, not proof of a specific war scene.",
    "relation": "depicted_by",
@@ -1338,6 +1599,12 @@
    ],
    "tier": "NAMED_CHARACTER_CARD",
    "to": "card:vaevictis_asmadi_the_dire"
+  },
+  {
+   "from": "character:yawgmoth",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#yawgmoth"
   },
   {
    "from": "claim:A001",
@@ -1778,6 +2045,246 @@
    "to": "place:tomb_spirit_dragon"
   },
   {
+   "from": "claim:B001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:mishra"
+  },
+  {
+   "from": "claim:B001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kayla_bin_kroog"
+  },
+  {
+   "from": "claim:B003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kayla_bin_kroog"
+  },
+  {
+   "from": "claim:B003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:harbin"
+  },
+  {
+   "from": "claim:B004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tawnos"
+  },
+  {
+   "from": "claim:B005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:mishra"
+  },
+  {
+   "from": "claim:B005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ashnod"
+  },
+  {
+   "from": "claim:B006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gix"
+  },
+  {
+   "from": "claim:B006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:B006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:mishra"
+  },
+  {
+   "from": "claim:B007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "from": "claim:B007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:argoth"
+  },
+  {
+   "from": "claim:B008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:sylex_blast"
+  },
+  {
+   "from": "claim:B009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:sylex_blast"
+  },
+  {
+   "from": "claim:B009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:mightstone_and_weakstone"
+  },
+  {
+   "from": "claim:B011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:ice_age"
+  },
+  {
+   "from": "claim:B011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:sylex_blast"
+  },
+  {
+   "from": "claim:B012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:unknown"
+  },
+  {
+   "from": "claim:B012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "from": "claim:B013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:B013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:B013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:thran_empire"
+  },
+  {
+   "from": "claim:B014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:B015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:B016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:sylex_blast"
+  },
+  {
+   "from": "claim:B016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:B017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "from": "claim:B017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:B018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:sylex_replica"
+  },
+  {
+   "from": "claim:B018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:saheeli"
+  },
+  {
+   "from": "event:brothers_war",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Conflicts & Arcs.md#the-brothers-war"
+  },
+  {
    "from": "event:elder_dragon_wars",
    "limit": "The Saga names the event; its individual images/chapters are not certified as a literal battlefield reconstruction.",
    "relation": "depicted_by",
@@ -1875,6 +2382,121 @@
    "from": "source:blood_fire",
    "relation": "cited_by",
    "to": "claim:A017"
+  },
+  {
+   "from": "source:bro_card_stories_1",
+   "relation": "cited_by",
+   "to": "claim:B001"
+  },
+  {
+   "from": "source:bro_card_stories_1",
+   "relation": "cited_by",
+   "to": "claim:B006"
+  },
+  {
+   "from": "source:bro_card_stories_2",
+   "relation": "cited_by",
+   "to": "claim:B007"
+  },
+  {
+   "from": "source:bro_card_stories_2",
+   "relation": "cited_by",
+   "to": "claim:B009"
+  },
+  {
+   "from": "source:bro_card_stories_2",
+   "relation": "cited_by",
+   "to": "claim:B010"
+  },
+  {
+   "from": "source:bro_ch1",
+   "relation": "cited_by",
+   "to": "claim:B017"
+  },
+  {
+   "from": "source:bro_ch1",
+   "relation": "cited_by",
+   "to": "claim:B018"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B001"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B002"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B003"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B004"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B005"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B006"
+  },
+  {
+   "from": "source:bro_ep1",
+   "relation": "cited_by",
+   "to": "claim:B008"
+  },
+  {
+   "from": "source:bro_ep4",
+   "relation": "cited_by",
+   "to": "claim:B008"
+  },
+  {
+   "from": "source:bro_ep5",
+   "relation": "cited_by",
+   "to": "claim:B007"
+  },
+  {
+   "from": "source:bro_ep5",
+   "relation": "cited_by",
+   "to": "claim:B009"
+  },
+  {
+   "from": "source:bro_ep5",
+   "relation": "cited_by",
+   "to": "claim:B011"
+  },
+  {
+   "from": "source:bro_ep5",
+   "relation": "cited_by",
+   "to": "claim:B012"
+  },
+  {
+   "from": "source:bro_ep5",
+   "relation": "cited_by",
+   "to": "claim:B016"
+  },
+  {
+   "from": "source:bro_product_page",
+   "relation": "cited_by",
+   "to": "claim:B016"
+  },
+  {
+   "from": "source:bro_product_page",
+   "relation": "cited_by",
+   "to": "claim:B017"
+  },
+  {
+   "from": "source:bro_product_page",
+   "relation": "cited_by",
+   "to": "claim:B018"
   },
   {
    "from": "source:chronicle_blood_fire",
@@ -2104,6 +2726,21 @@
    "to": "claim:A010"
   },
   {
+   "from": "source:urza_profile",
+   "relation": "cited_by",
+   "to": "claim:B013"
+  },
+  {
+   "from": "source:urza_profile",
+   "relation": "cited_by",
+   "to": "claim:B014"
+  },
+  {
+   "from": "source:urza_profile",
+   "relation": "cited_by",
+   "to": "claim:B015"
+  },
+  {
    "from": "source:war_games",
    "relation": "cited_by",
    "to": "claim:A008"
@@ -2138,6 +2775,13 @@
     "file": "data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json",
     "sha256": "fb4a6bed888700fd41aa1ee374fd01df82a8e73f0aa267618f2762af77d3dc44",
     "sources": 6
+   },
+   {
+    "claims": 18,
+    "entities": 23,
+    "file": "data/lore_research/pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "sha256": "540d1a5514e58a20104cfc85476fc47491dae22babc777685b9c781f84069dee",
+    "sources": 8
    }
   ],
   "deck_evidence": [
@@ -2157,6 +2801,30 @@
  },
  "meaning": "Directional, cited relationships compiled from committed research packs. A relationship edge inherits its claim's canon status; deck-proposal and curated-bridge edges are navigation, never canon assertions.",
  "nodes": [
+  {
+   "id": "artifact:golgothian_sylex",
+   "name": "Golgothian Sylex",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:mightstone_and_weakstone",
+   "name": "The Mightstone and Weakstone",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:sylex_replica",
+   "name": "Saheeli's sylex replica",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
   {
    "id": "artifact:ugins_nexus",
    "name": "Ugin's Nexus",
@@ -3029,10 +3697,26 @@
    "type": "CardTheme"
   },
   {
+   "id": "character:ajani",
+   "name": "Ajani",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:arcades_sabboth",
    "name": "Arcades Sabboth",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ashnod",
+   "name": "Ashnod",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3065,6 +3749,46 @@
    "name": "Geyadrone Dihada",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:gix",
+   "name": "Gix",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:harbin",
+   "name": "Harbin",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:karn",
+   "name": "Karn",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kayla_bin_kroog",
+   "name": "Kayla bin-Kroog",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:mishra",
+   "name": "Mishra",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3109,6 +3833,14 @@
    "type": "Character"
   },
   {
+   "id": "character:saheeli",
+   "name": "Saheeli",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:sarkhan_vol",
    "name": "Sarkhan Vol",
    "origins": [
@@ -3117,10 +3849,34 @@
    "type": "Character"
   },
   {
+   "id": "character:tawnos",
+   "name": "Tawnos",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:teferi",
+   "name": "Teferi",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ugin",
    "name": "Ugin",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:urza",
+   "name": "Urza",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3137,6 +3893,14 @@
    "name": "Yasova Dragonclaw",
    "origins": [
     "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:yawgmoth",
+   "name": "Yawgmoth",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3545,6 +4309,221 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B001",
+   "limitation": "Birth order and childhood (Tocasia, Koilos) are not covered by the sources fetched for this pack.",
+   "name": "Urza and Mishra are brothers; Tawnos tells Kayla that Urza's brother was turned and fused with a machine.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B002",
+   "name": "Kayla bin-Kroog, princess of Kroog, is Urza's wife and rules Penregon after the war.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "spouse_of",
+   "stage": "post_war_69_AR",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B003",
+   "limitation": "His death is reported through Kayla's dialogue; its circumstances are not narrated here.",
+   "name": "Harbin is Kayla's son by Urza; he served as a pilot and officer and did not return from the war.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "child_of",
+   "stage": "brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B004",
+   "name": "Tawnos is Urza's former assistant and an artificer who returns to Penregon in 69 AR.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "assistant_of",
+   "stage": "brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B005",
+   "limitation": "Kayla also calls Ashnod Mishra's torturer of Tawnos and, by rumor, his lover; the rumor is not graded as fact.",
+   "name": "Ashnod was an artificer who worked for Mishra during the war; Tawnos names transmogrants as her work.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "worked_for",
+   "stage": "brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B006",
+   "limitation": "The design article and dialogue do not narrate the full mechanism of corruption.",
+   "name": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "corrupted_by",
+   "stage": "brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B007",
+   "name": "Urza activated the Golgothian Sylex on Argoth and ended the war.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "activated",
+   "stage": "sylex_blast",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B008",
+   "name": "The Last Battle took place on Argoth, an island shattered and buried by the sylex blast; by 69 AR it is reduced to basalt spires.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "sylex_blast",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B009",
+   "name": "Teferi witnesses a spark coalescing where Urza's body burned away inside the detonation; Urza becomes a Planeswalker.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "became_planeswalker_at",
+   "stage": "sylex_blast",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B010",
+   "limitation": "Stated in an official design article describing card art and story.",
+   "name": "When Urza became a Planeswalker, the Mightstone and Weakstone became his eyes.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "became_eyes_of",
+   "stage": "sylex_blast",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B011",
+   "limitation": "Sequence only; the physical causal chain is not explained in the fetched text.",
+   "name": "Episode 5 places the Shard of Twelve Worlds and the Ice Age after the detonation, and ends with the Ice Age upon Dominaria.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "preceded",
+   "stage": "sylex_blast",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:B012",
+   "limitation": "Official text frames these as competing legends; no single origin is canon in this source.",
+   "name": "Episode 5 deliberately gives incompatible origins for the sylex: found or made by Feldon, carved by Ashnod, pulled from Old Phyrexia by Gix, a giant's tooth, Tal's tear, and more.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "origin",
+   "stage": "pre_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B013",
+   "name": "Urza's obsession with Dominaria's history led to a millennia-long vendetta against Yawgmoth and Phyrexia.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "vendetta_against",
+   "stage": "post_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B014",
+   "limitation": "Yawgmoth's own Thran-era origin is not stated in the fetched official sources.",
+   "name": "As a young man Urza was obsessed with the history of Dominaria and the Thran Empire that once ruled the plane.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "obsessed_with",
+   "stage": "pre_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B015",
+   "limitation": "The profile does not name the event; novel-era detail (Invasion/Apocalypse) is not ingested.",
+   "name": "After countless years of conflict, Urza and Yawgmoth perished together.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "perished_with",
+   "stage": "phyrexian_invasion_era",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B016",
+   "name": "Teferi's spirit is sent back in time to witness how the sylex works firsthand.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "witnessed_via_time_travel",
+   "stage": "present_2022_frame",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B017",
+   "name": "Karn unearths the Golgothian Sylex; Ajani, revealed as a Phyrexian sleeper agent, destroys it.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "present_2022_frame",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:B018",
+   "name": "Saheeli crafts a replica of the sylex whose workings are unknown.",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "present_2022_frame",
+   "type": "Claim"
+  },
+  {
+   "id": "concept:thran_empire",
+   "name": "Thran Empire",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "continuity:echoverse",
    "name": "Echoverse",
    "origins": [
@@ -3563,6 +4542,22 @@
   {
    "id": "curated:Characters Index.md#geyadrone-dihada",
    "name": "Characters Index.md#geyadrone-dihada",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#karn",
+   "name": "Characters Index.md#karn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#mishra",
+   "name": "Characters Index.md#mishra",
    "origins": [
     "lore_graph.json"
    ],
@@ -3593,6 +4588,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#teferi",
+   "name": "Characters Index.md#teferi",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#ugin",
    "name": "Characters Index.md#ugin",
    "origins": [
@@ -3601,8 +4604,48 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#urza",
+   "name": "Characters Index.md#urza",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#yawgmoth",
+   "name": "Characters Index.md#yawgmoth",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Conflicts & Arcs.md#the-brothers-war",
+   "name": "Conflicts & Arcs.md#the-brothers-war",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#golgothian-sylex",
+   "name": "Items & Artifacts Index.md#golgothian-sylex",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#tarkir",
    "name": "Planes Index.md#tarkir",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#karn",
+   "name": "Planeswalker Dossiers.md#karn",
    "origins": [
     "lore_graph.json"
    ],
@@ -3633,6 +4676,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#teferi",
+   "name": "Planeswalker Dossiers.md#teferi",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#ugin",
    "name": "Planeswalker Dossiers.md#ugin",
    "origins": [
@@ -3651,6 +4702,14 @@
    "type": "DeckProposal"
   },
   {
+   "id": "event:brothers_war",
+   "name": "The Brothers' War",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:dragonstorm_escape",
    "name": "Meditation Realm escape during Tarkir: Dragonstorm",
    "origins": [
@@ -3667,10 +4726,34 @@
    "type": "Event"
   },
   {
+   "id": "event:ice_age",
+   "name": "Dominarian Ice Age",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:last_battle_argoth",
+   "name": "Last Battle on Argoth",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:original_tarkir_clash",
    "name": "Original-timeline Tarkir clash",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:sylex_blast",
+   "name": "Sylex detonation on Argoth",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Event"
   },
@@ -3718,9 +4801,18 @@
    "id": "literal:unknown",
    "name": "unknown",
    "origins": [
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Literal"
+  },
+  {
+   "id": "place:argoth",
+   "name": "Argoth",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Place"
   },
   {
    "id": "place:corondor_chasm",
@@ -3758,7 +4850,8 @@
    "id": "plane:dominaria",
    "name": "Dominaria",
    "origins": [
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -3767,6 +4860,14 @@
    "name": "Meditation Realm",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:old_phyrexia",
+   "name": "Phyrexia",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -3787,6 +4888,83 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18"
+  },
+  {
+   "id": "source:bro_card_stories_1",
+   "kind": "official_design_article",
+   "name": "Making Magic | The Brothers' War Card Stories, Part 1",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1"
+  },
+  {
+   "id": "source:bro_card_stories_2",
+   "kind": "official_design_article",
+   "name": "Making Magic | The Brothers' War Card Stories, Part 2",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2"
+  },
+  {
+   "id": "source:bro_ch1",
+   "kind": "official_story",
+   "name": "The Brothers' War | Chapter 1: Stronghold",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold"
+  },
+  {
+   "id": "source:bro_ep1",
+   "kind": "official_story",
+   "name": "The Brothers' War | Episode 1: The End",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end"
+  },
+  {
+   "id": "source:bro_ep4",
+   "kind": "official_story",
+   "name": "The Brothers' War | Episode 4: The Ink of Empires",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires"
+  },
+  {
+   "id": "source:bro_ep5",
+   "kind": "official_story",
+   "name": "The Brothers' War | Episode 5: As Cruel, As Necessary",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary"
+  },
+  {
+   "id": "source:bro_product_page",
+   "kind": "official_product_page",
+   "name": "The Brothers' War | Magic: The Gathering (product page)",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/products/the-brothers-war"
   },
   {
    "id": "source:chronicle_blood_fire",
@@ -4009,6 +5187,17 @@
    "url": "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return"
   },
   {
+   "id": "source:urza_profile",
+   "kind": "official_character_profile",
+   "name": "Urza | Planeswalker",
+   "origins": [
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/urza-planeswalker"
+  },
+  {
    "id": "source:war_games",
    "kind": "Wizards official design commentary",
    "name": "Even More War Games",
@@ -4025,31 +5214,31 @@
  "stats": {
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 28,
-   "CANON_DISPUTED": 2,
+   "CANON_CONFIRMED": 45,
+   "CANON_DISPUTED": 3,
    "OPEN_QUESTION": 1
   },
-  "curated_bridges": 11,
-  "edges": 271,
+  "curated_bridges": 20,
+  "edges": 366,
   "literal_objects": 3,
   "node_types": {
    "AlternateContinuity": 1,
    "Card": 90,
    "CardTheme": 1,
-   "Character": 14,
-   "Claim": 32,
-   "Concept": 11,
+   "Character": 26,
+   "Claim": 50,
+   "Concept": 21,
    "DeckProposal": 1,
-   "Event": 6,
+   "Event": 10,
    "Literal": 3,
-   "Object": 1,
-   "Place": 4,
-   "Plane": 3,
-   "Source": 23
+   "Object": 4,
+   "Place": 5,
+   "Plane": 4,
+   "Source": 31
   },
-  "nodes": 190,
+  "nodes": 247,
   "non_wizards_sources": 0,
-  "relations": 37,
-  "wizards_official_sources": 23
+  "relations": 54,
+  "wizards_official_sources": 31
  }
 }

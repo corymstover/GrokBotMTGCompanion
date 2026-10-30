@@ -36,10 +36,13 @@ class GraphBuildTests(unittest.TestCase):
         self.assertEqual({c["id"] for c in claims} - cited, set())
 
     def test_disputed_and_open_claims_preserved(self):
-        st = self.graph["stats"]["claims_by_status"]
-        self.assertEqual(st.get("CANON_DISPUTED"), 2)   # A003, A004
-        self.assertEqual(st.get("OPEN_QUESTION"), 1)    # A011
-        self.assertEqual(st.get("ALTERNATE_CONTINUITY"), 1)  # A012
+        by_status = {}
+        for n in self.graph["nodes"]:
+            if n["type"] == "Claim":
+                by_status.setdefault(n["grade"], set()).add(n["id"])
+        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012"})
+        self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011"})
+        self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"), {"claim:A012"})
 
     def test_no_broken_or_duplicate_edges(self):
         ids = {n["id"] for n in self.graph["nodes"]}
@@ -92,6 +95,30 @@ class QueryTests(unittest.TestCase):
 
     def test_status_query(self):
         self.assertEqual([r["claim"] for r in self.mg.status("OPEN_QUESTION")], ["claim:A011"])
+
+
+    # --- Pack B (Thran / Yawgmoth / Brothers' War) ---
+    def test_pack_b_brothers_and_sylex(self):
+        out = self.mg.neighbors("Urza")
+        rels = {(r["relation"], r.get("claim")) for r in out}
+        self.assertIn(("sibling_of", "B001"), rels)
+        self.assertIn(("activated", "B007"), rels)
+        self.assertIn(("vendetta_against", "B013"), rels)
+
+    def test_pack_b_path_mishra_to_yawgmoth(self):
+        hops = self.mg.path("mishra", "yawgmoth")
+        self.assertTrue(hops)
+        self.assertTrue(all(h["claim"] and h["source_urls"] for h in hops))
+
+    def test_pack_b_sylex_origin_stays_disputed(self):
+        edges = [e for e in self.mg.g["edges"] if e.get("claim") == "B012"]
+        self.assertTrue(edges)
+        self.assertTrue(all(e["grade"] == "CANON_DISPUTED" for e in edges))
+
+    def test_pack_b_bridges_to_curated_wiki(self):
+        bridged = {e["from"] for e in self.mg.g["edges"] if e["relation"] == "see_also_curated_entry"}
+        for nid in ("character:urza", "character:mishra", "character:yawgmoth", "artifact:golgothian_sylex"):
+            self.assertIn(nid, bridged)
 
 
 class MutationTests(unittest.TestCase):

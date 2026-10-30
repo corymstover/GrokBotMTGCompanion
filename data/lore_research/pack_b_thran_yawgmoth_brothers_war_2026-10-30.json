@@ -1,0 +1,425 @@
+{
+  "schema": "multiverse-claim-pack/v1",
+  "pack_id": "pack_b_thran_yawgmoth_brothers_war",
+  "evidence_cutoff": "2026-10-30",
+  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+  "source_register": {
+    "bro_ep1": {
+      "title": "The Brothers' War | Episode 1: The End",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-1-the-end",
+      "kind": "official_story",
+      "perspective": "69 AR aftermath narrative; Kayla bin-Kroog and Tawnos in Penregon"
+    },
+    "bro_ep4": {
+      "title": "The Brothers' War | Episode 4: The Ink of Empires",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-4-the-ink-of-empires",
+      "kind": "official_story",
+      "perspective": "later-era narrative referencing the Last Battle"
+    },
+    "bro_ep5": {
+      "title": "The Brothers' War | Episode 5: As Cruel, As Necessary",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary",
+      "kind": "official_story",
+      "perspective": "Teferi's time-travelled witness of the sylex detonation; deliberately multi-version sylex legend"
+    },
+    "bro_ch1": {
+      "title": "The Brothers' War | Chapter 1: Stronghold",
+      "url": "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold",
+      "kind": "official_story",
+      "perspective": "present-day (2022) frame story"
+    },
+    "bro_card_stories_1": {
+      "title": "Making Magic | The Brothers' War Card Stories, Part 1",
+      "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1",
+      "kind": "official_design_article",
+      "perspective": "head designer's account of story-driven card design"
+    },
+    "bro_card_stories_2": {
+      "title": "Making Magic | The Brothers' War Card Stories, Part 2",
+      "url": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-2",
+      "kind": "official_design_article",
+      "perspective": "head designer's account of story-driven card design"
+    },
+    "urza_profile": {
+      "title": "Urza | Planeswalker",
+      "url": "https://magic.wizards.com/en/story/urza-planeswalker",
+      "kind": "official_character_profile",
+      "perspective": "official summary biography"
+    },
+    "bro_product_page": {
+      "title": "The Brothers' War | Magic: The Gathering (product page)",
+      "url": "https://magic.wizards.com/en/products/the-brothers-war",
+      "kind": "official_product_page",
+      "perspective": "official set story synopsis"
+    }
+  },
+  "entities": [
+    {
+      "id": "urza",
+      "type": "Character",
+      "name": "Urza"
+    },
+    {
+      "id": "mishra",
+      "type": "Character",
+      "name": "Mishra"
+    },
+    {
+      "id": "kayla_bin_kroog",
+      "type": "Character",
+      "name": "Kayla bin-Kroog"
+    },
+    {
+      "id": "harbin",
+      "type": "Character",
+      "name": "Harbin"
+    },
+    {
+      "id": "tawnos",
+      "type": "Character",
+      "name": "Tawnos"
+    },
+    {
+      "id": "ashnod",
+      "type": "Character",
+      "name": "Ashnod"
+    },
+    {
+      "id": "gix",
+      "type": "Character",
+      "name": "Gix"
+    },
+    {
+      "id": "yawgmoth",
+      "type": "Character",
+      "name": "Yawgmoth"
+    },
+    {
+      "id": "teferi",
+      "type": "Character",
+      "name": "Teferi"
+    },
+    {
+      "id": "ajani",
+      "type": "Character",
+      "name": "Ajani"
+    },
+    {
+      "id": "saheeli",
+      "type": "Character",
+      "name": "Saheeli"
+    },
+    {
+      "id": "karn",
+      "type": "Character",
+      "name": "Karn"
+    },
+    {
+      "id": "golgothian_sylex",
+      "type": "Object",
+      "name": "Golgothian Sylex"
+    },
+    {
+      "id": "sylex_replica",
+      "type": "Object",
+      "name": "Saheeli's sylex replica"
+    },
+    {
+      "id": "mightstone_and_weakstone",
+      "type": "Object",
+      "name": "The Mightstone and Weakstone"
+    },
+    {
+      "id": "argoth",
+      "type": "Place",
+      "name": "Argoth"
+    },
+    {
+      "id": "old_phyrexia",
+      "type": "Plane",
+      "name": "Phyrexia"
+    },
+    {
+      "id": "dominaria",
+      "type": "Plane",
+      "name": "Dominaria"
+    },
+    {
+      "id": "thran_empire",
+      "type": "Concept",
+      "name": "Thran Empire"
+    },
+    {
+      "id": "brothers_war",
+      "type": "Event",
+      "name": "The Brothers' War"
+    },
+    {
+      "id": "sylex_blast",
+      "type": "Event",
+      "name": "Sylex detonation on Argoth"
+    },
+    {
+      "id": "ice_age",
+      "type": "Event",
+      "name": "Dominarian Ice Age"
+    },
+    {
+      "id": "last_battle_argoth",
+      "type": "Event",
+      "name": "Last Battle on Argoth"
+    }
+  ],
+  "claims": [
+    {
+      "id": "B001",
+      "subject": "urza",
+      "predicate": "sibling_of",
+      "object": "mishra",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "brothers_war",
+      "source_ids": [
+        "bro_ep1",
+        "bro_card_stories_1"
+      ],
+      "summary": "Urza and Mishra are brothers; Tawnos tells Kayla that Urza's brother was turned and fused with a machine.",
+      "limitation": "Birth order and childhood (Tocasia, Koilos) are not covered by the sources fetched for this pack."
+    },
+    {
+      "id": "B002",
+      "subject": "kayla_bin_kroog",
+      "predicate": "spouse_of",
+      "object": "urza",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "post_war_69_AR",
+      "source_ids": [
+        "bro_ep1"
+      ],
+      "summary": "Kayla bin-Kroog, princess of Kroog, is Urza's wife and rules Penregon after the war.",
+      "limitation": ""
+    },
+    {
+      "id": "B003",
+      "subject": "harbin",
+      "predicate": "child_of",
+      "object": "urza;kayla_bin_kroog",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "brothers_war",
+      "source_ids": [
+        "bro_ep1"
+      ],
+      "summary": "Harbin is Kayla's son by Urza; he served as a pilot and officer and did not return from the war.",
+      "limitation": "His death is reported through Kayla's dialogue; its circumstances are not narrated here."
+    },
+    {
+      "id": "B004",
+      "subject": "tawnos",
+      "predicate": "assistant_of",
+      "object": "urza",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "brothers_war",
+      "source_ids": [
+        "bro_ep1"
+      ],
+      "summary": "Tawnos is Urza's former assistant and an artificer who returns to Penregon in 69 AR.",
+      "limitation": ""
+    },
+    {
+      "id": "B005",
+      "subject": "ashnod",
+      "predicate": "worked_for",
+      "object": "mishra",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "brothers_war",
+      "source_ids": [
+        "bro_ep1"
+      ],
+      "summary": "Ashnod was an artificer who worked for Mishra during the war; Tawnos names transmogrants as her work.",
+      "limitation": "Kayla also calls Ashnod Mishra's torturer of Tawnos and, by rumor, his lover; the rumor is not graded as fact."
+    },
+    {
+      "id": "B006",
+      "subject": "mishra",
+      "predicate": "corrupted_by",
+      "object": "old_phyrexia;gix",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "brothers_war",
+      "source_ids": [
+        "bro_card_stories_1",
+        "bro_ep1"
+      ],
+      "summary": "Mishra was corrupted by the Phyrexians (cards: Mishra, Claimed by Gix; Mishra, Lost to Phyrexia); Tawnos says he was turned by 'that creature' and fused with a machine.",
+      "limitation": "The design article and dialogue do not narrate the full mechanism of corruption."
+    },
+    {
+      "id": "B007",
+      "subject": "urza",
+      "predicate": "activated",
+      "object": "golgothian_sylex",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "sylex_blast",
+      "source_ids": [
+        "bro_card_stories_2",
+        "bro_ep5"
+      ],
+      "summary": "Urza activated the Golgothian Sylex on Argoth and ended the war.",
+      "limitation": ""
+    },
+    {
+      "id": "B008",
+      "subject": "sylex_blast",
+      "predicate": "destroyed",
+      "object": "argoth",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "sylex_blast",
+      "source_ids": [
+        "bro_ep4",
+        "bro_ep1"
+      ],
+      "summary": "The Last Battle took place on Argoth, an island shattered and buried by the sylex blast; by 69 AR it is reduced to basalt spires.",
+      "limitation": ""
+    },
+    {
+      "id": "B009",
+      "subject": "urza",
+      "predicate": "became_planeswalker_at",
+      "object": "sylex_blast",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "sylex_blast",
+      "source_ids": [
+        "bro_ep5",
+        "bro_card_stories_2"
+      ],
+      "summary": "Teferi witnesses a spark coalescing where Urza's body burned away inside the detonation; Urza becomes a Planeswalker.",
+      "limitation": ""
+    },
+    {
+      "id": "B010",
+      "subject": "mightstone_and_weakstone",
+      "predicate": "became_eyes_of",
+      "object": "urza",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "sylex_blast",
+      "source_ids": [
+        "bro_card_stories_2"
+      ],
+      "summary": "When Urza became a Planeswalker, the Mightstone and Weakstone became his eyes.",
+      "limitation": "Stated in an official design article describing card art and story."
+    },
+    {
+      "id": "B011",
+      "subject": "sylex_blast",
+      "predicate": "preceded",
+      "object": "ice_age",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "sylex_blast",
+      "source_ids": [
+        "bro_ep5"
+      ],
+      "summary": "Episode 5 places the Shard of Twelve Worlds and the Ice Age after the detonation, and ends with the Ice Age upon Dominaria.",
+      "limitation": "Sequence only; the physical causal chain is not explained in the fetched text."
+    },
+    {
+      "id": "B012",
+      "subject": "golgothian_sylex",
+      "predicate": "origin",
+      "object": "unknown",
+      "grade": "CANON_DISPUTED",
+      "event_stage": "pre_war",
+      "source_ids": [
+        "bro_ep5"
+      ],
+      "summary": "Episode 5 deliberately gives incompatible origins for the sylex: found or made by Feldon, carved by Ashnod, pulled from Old Phyrexia by Gix, a giant's tooth, Tal's tear, and more.",
+      "limitation": "Official text frames these as competing legends; no single origin is canon in this source."
+    },
+    {
+      "id": "B013",
+      "subject": "urza",
+      "predicate": "vendetta_against",
+      "object": "yawgmoth;old_phyrexia",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "post_war",
+      "source_ids": [
+        "urza_profile"
+      ],
+      "summary": "Urza's obsession with Dominaria's history led to a millennia-long vendetta against Yawgmoth and Phyrexia.",
+      "limitation": ""
+    },
+    {
+      "id": "B014",
+      "subject": "urza",
+      "predicate": "obsessed_with",
+      "object": "thran_empire",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "pre_war",
+      "source_ids": [
+        "urza_profile"
+      ],
+      "summary": "As a young man Urza was obsessed with the history of Dominaria and the Thran Empire that once ruled the plane.",
+      "limitation": "Yawgmoth's own Thran-era origin is not stated in the fetched official sources."
+    },
+    {
+      "id": "B015",
+      "subject": "urza",
+      "predicate": "perished_with",
+      "object": "yawgmoth",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "phyrexian_invasion_era",
+      "source_ids": [
+        "urza_profile"
+      ],
+      "summary": "After countless years of conflict, Urza and Yawgmoth perished together.",
+      "limitation": "The profile does not name the event; novel-era detail (Invasion/Apocalypse) is not ingested."
+    },
+    {
+      "id": "B016",
+      "subject": "teferi",
+      "predicate": "witnessed_via_time_travel",
+      "object": "sylex_blast",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "present_2022_frame",
+      "source_ids": [
+        "bro_product_page",
+        "bro_ep5"
+      ],
+      "summary": "Teferi's spirit is sent back in time to witness how the sylex works firsthand.",
+      "limitation": ""
+    },
+    {
+      "id": "B017",
+      "subject": "ajani",
+      "predicate": "destroyed",
+      "object": "golgothian_sylex",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "present_2022_frame",
+      "source_ids": [
+        "bro_product_page",
+        "bro_ch1"
+      ],
+      "summary": "Karn unearths the Golgothian Sylex; Ajani, revealed as a Phyrexian sleeper agent, destroys it.",
+      "limitation": ""
+    },
+    {
+      "id": "B018",
+      "subject": "saheeli",
+      "predicate": "created",
+      "object": "sylex_replica",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "present_2022_frame",
+      "source_ids": [
+        "bro_product_page",
+        "bro_ch1"
+      ],
+      "summary": "Saheeli crafts a replica of the sylex whose workings are unknown.",
+      "limitation": ""
+    }
+  ],
+  "remaining": [
+    "Thran civilization and Yawgmoth's Thran-era origin (no official web source fetched yet; novel The Thran NOT read)",
+    "Koilos discovery, Tocasia's death and the powerstone split (novel-era; official card stories only reference the Mightstone and Weakstone)",
+    "Gix's arrival and the Brotherhood of Gix chronology (needs official source beyond passing references)",
+    "Old Phyrexia's spheres and its transition to New Phyrexia (Planeswalker's Guide to ONE/MOM not yet ingested)",
+    "Episodes 2-3 and Chapters 2-5 were fetched but only searched for keywords; full claim extraction pending",
+    "Card anchors (BRO card printings) not yet attached"
+  ]
+}
