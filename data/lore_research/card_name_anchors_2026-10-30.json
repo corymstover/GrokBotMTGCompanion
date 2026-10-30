@@ -490,6 +490,23 @@
    ]
   },
   {
+   "entity": "augusta_sos",
+   "entity_type": "Character",
+   "entity_name": "Augusta, Order Returned",
+   "aliases": [
+    "Augusta, Order Returned"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Augusta, Order Returned",
+     "oracle_id": "a80a1f84-ea49-4c8d-912d-c7036b814a6c",
+     "type_line": "Legendary Creature — Spirit Advisor",
+     "scryfall_uri": "https://scryfall.com/card/soc/11/augusta-order-returned"
+    }
+   ]
+  },
+  {
    "entity": "aurelia",
    "entity_type": "Character",
    "entity_name": "Aurelia",
@@ -515,6 +532,35 @@
      "oracle_id": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
      "type_line": "Legendary Creature — Angel",
      "scryfall_uri": "https://scryfall.com/card/fdn/651/aurelia-the-warleader"
+    }
+   ]
+  },
+  {
+   "entity": "avacyn",
+   "entity_type": "Character",
+   "entity_name": "Avacyn",
+   "aliases": [
+    "Avacyn"
+   ],
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Avacyn, Angel of Hope",
+     "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/inr/477/avacyn-angel-of-hope"
+    },
+    {
+     "name": "Avacyn, Angel of Horror",
+     "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/frc/7/avacyn-angel-of-horror"
+    },
+    {
+     "name": "Avacyn, Guardian Angel",
+     "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/m15/3/avacyn-guardian-angel"
     }
    ]
   },
@@ -856,6 +902,23 @@
    ]
   },
   {
+   "entity": "dawning_archaic",
+   "entity_type": "Character",
+   "entity_name": "The Dawning Archaic",
+   "aliases": [
+    "The Dawning Archaic"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Dawning Archaic",
+     "oracle_id": "a3e10b9b-9349-4b44-a46c-c825293dbd05",
+     "type_line": "Legendary Creature — Avatar",
+     "scryfall_uri": "https://scryfall.com/card/sos/1/the-dawning-archaic"
+    }
+   ]
+  },
+  {
    "entity": "daxos",
    "entity_type": "Character",
    "entity_name": "Daxos",
@@ -1150,6 +1213,23 @@
      "oracle_id": "10d13ff6-c4d0-4753-8939-a8a90f0e92bb",
      "type_line": "Legendary Land",
      "scryfall_uri": "https://scryfall.com/card/mm2/242/eye-of-ugin"
+    }
+   ]
+  },
+  {
+   "entity": "forum_of_amity",
+   "entity_type": "Place",
+   "entity_name": "Forum of Amity",
+   "aliases": [
+    "Forum of Amity"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Forum of Amity",
+     "oracle_id": "349ea6c7-6b3e-417f-b082-b712e2b1635b",
+     "type_line": "Land",
+     "scryfall_uri": "https://scryfall.com/card/sos/256/forum-of-amity"
     }
    ]
   },
@@ -1633,6 +1713,23 @@
      "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
      "type_line": "Legendary Planeswalker — Jace",
      "scryfall_uri": "https://scryfall.com/card/cmm/850/jace-beleren"
+    }
+   ]
+  },
+  {
+   "entity": "jadzi",
+   "entity_type": "Character",
+   "entity_name": "Jadzi, Steward of Fate",
+   "aliases": [
+    "Jadzi, Steward of Fate"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jadzi, Steward of Fate // Oracle's Gift",
+     "oracle_id": "c63b3511-d597-4c6e-9094-eabdeaa8a394",
+     "type_line": "Legendary Creature — Human Wizard // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/sos/55/jadzi-steward-of-fate-oracles-gift"
     }
    ]
   },
@@ -2272,6 +2369,29 @@
    ]
   },
   {
+   "entity": "lluwen",
+   "entity_type": "Character",
+   "entity_name": "Lluwen",
+   "aliases": [
+    "Lluwen"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lluwen, Exchange Student // Pest Friend",
+     "oracle_id": "cb125cd4-c7c2-415d-b802-bdcfc2454403",
+     "type_line": "Legendary Creature — Elf Druid // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/sos/199/lluwen-exchange-student-pest-friend"
+    },
+    {
+     "name": "Lluwen, Imperfect Naturalist",
+     "oracle_id": "81ff5764-72ce-4b9a-a14f-07413700d935",
+     "type_line": "Legendary Creature — Elf Druid",
+     "scryfall_uri": "https://scryfall.com/card/ecl/232/lluwen-imperfect-naturalist"
+    }
+   ]
+  },
+  {
    "entity": "loot",
    "entity_type": "Character",
    "entity_name": "Loot",
@@ -2606,6 +2726,23 @@
    ]
   },
   {
+   "entity": "moseo",
+   "entity_type": "Character",
+   "entity_name": "Moseo, Vein's New Dean",
+   "aliases": [
+    "Moseo, Vein's New Dean"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Moseo, Vein's New Dean",
+     "oracle_id": "c2e2f21a-0338-44d7-96a5-5a277f0ec419",
+     "type_line": "Legendary Creature — Bird Skeleton Warlock",
+     "scryfall_uri": "https://scryfall.com/card/sos/91/moseo-veins-new-dean"
+    }
+   ]
+  },
+  {
    "entity": "multani",
    "entity_type": "Character",
    "entity_name": "Multani",
@@ -2718,6 +2855,23 @@
      "oracle_id": "ade8fc6f-efaa-4a24-96d8-99ef5026cd74",
      "type_line": "Legendary Creature — Rat Ninja Wizard",
      "scryfall_uri": "https://scryfall.com/card/dsk/223/nashi-searcher-in-the-dark"
+    }
+   ]
+  },
+  {
+   "entity": "nev",
+   "entity_type": "Character",
+   "entity_name": "Nev, the Practical Dean",
+   "aliases": [
+    "Nev, the Practical Dean"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nev, the Practical Dean",
+     "oracle_id": "42750e30-d022-4623-a290-d91fa80721c9",
+     "type_line": "Legendary Creature — Merfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/soc/41/nev-the-practical-dean"
     }
    ]
   },
@@ -3127,6 +3281,23 @@
      "oracle_id": "853c6cc0-ed2b-4d65-add1-2449ade8cf68",
      "type_line": "Legendary Artifact",
      "scryfall_uri": "https://scryfall.com/card/2x2/313/planar-bridge"
+    }
+   ]
+  },
+  {
+   "entity": "primo",
+   "entity_type": "Character",
+   "entity_name": "Primo, the Unbounded",
+   "aliases": [
+    "Primo, the Unbounded"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Primo, the Unbounded",
+     "oracle_id": "65fb0e20-61f8-4c61-bc08-7f6f718ee9ee",
+     "type_line": "Legendary Creature — Fractal Wolf",
+     "scryfall_uri": "https://scryfall.com/card/soc/6/primo-the-unbounded"
     }
    ]
   },
@@ -3561,6 +3732,23 @@
      "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
      "type_line": "Legendary Artifact — Spacecraft",
      "scryfall_uri": "https://scryfall.com/card/eoe/35/the-seriema"
+    }
+   ]
+  },
+  {
+   "entity": "shadrix_silverquill",
+   "entity_type": "Character",
+   "entity_name": "Shadrix Silverquill",
+   "aliases": [
+    "Shadrix Silverquill"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Shadrix Silverquill",
+     "oracle_id": "2143f413-7baa-4fd6-a7ca-32f52bfa553f",
+     "type_line": "Legendary Creature — Elder Dragon",
+     "scryfall_uri": "https://scryfall.com/card/soc/330/shadrix-silverquill"
     }
    ]
   },
@@ -4361,6 +4549,23 @@
    ]
   },
   {
+   "entity": "valentin",
+   "entity_type": "Character",
+   "entity_name": "Valentin",
+   "aliases": [
+    "Valentin"
+   ],
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
+     "oracle_id": "6e1aa07a-5d9b-4daf-8dc4-c1717360855f",
+     "type_line": "Legendary Creature — Vampire Warlock // Legendary Creature — Human Druid",
+     "scryfall_uri": "https://scryfall.com/card/stx/161/valentin-dean-of-the-vein-lisette-dean-of-the-root"
+    }
+   ]
+  },
+  {
    "entity": "valgavoth",
    "entity_type": "Character",
    "entity_name": "Valgavoth",
@@ -4882,6 +5087,7 @@
   }
  ],
  "unanchored_entities": [
+  "adrix",
   "akros",
   "amalia",
   "ardenvale",
@@ -4921,6 +5127,7 @@
   "imperial_palace",
   "innistrad_silver_moon",
   "kayla_bin_kroog",
+  "killian_lu",
   "king_glarb",
   "kiran_nalaar",
   "kuberr",
@@ -4934,6 +5141,7 @@
   "magic_mirror",
   "maha",
   "mahitab",
+  "markov_manor",
   "meletis",
   "mom_invasion",
   "niharet",
@@ -4981,9 +5189,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 205,
-  "anchor_edges": 435,
-  "unanchored_entities": 90
+  "entities_anchored": 216,
+  "anchor_edges": 449,
+  "unanchored_entities": 93
  },
- "content_sha256": "041ff29a7a9b7588e0190bb87516efdae69f0205064f53493718a83499c95f8c"
+ "content_sha256": "017d2f3b91b9aeb74be57aa63998933931325fea72e30a5491f29c16624f98dc"
 }

@@ -66,6 +66,8 @@ STORY_SETS = {
     "pack_p5_theros_ths_2026-10-30.json": ["ths", "bng", "jou"],
     "pack_p5_mom_aftermath_2026-10-30.json": ["mat"],
     "pack_p5_throne_of_eldraine_2026-10-30.json": ["eld"],
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json": ["sos"],
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json": ["soi", "emn"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

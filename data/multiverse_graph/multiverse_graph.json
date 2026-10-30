@@ -7,8 +7,17 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "29caa513b9686df4bd4079eda8ae5f8392399a90fe4fcabf473f3d50ff990ba1",
+ "content_sha256": "8ead048a384d1100aa18c2b14b8aa338bdbe92fa70642a689a07d6f4a122f2f1",
  "edges": [
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_s_sanctum"
+  },
   {
    "artists": [
     "Adam Paquette"
@@ -148,6 +157,24 @@
    "artists": [
     "Anna Steinbauer"
    ],
+   "from": "source:emn_last_hope",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:indulgent_aristocrat"
+  },
+  {
+   "artists": [
+    "Anna Steinbauer"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:liliana_the_last_hope"
+  },
+  {
+   "artists": [
+    "Anna Steinbauer"
+   ],
    "from": "source:rtd_ep12",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -269,6 +296,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:zhalfirin_void"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:always_watching"
   },
   {
    "artists": [
@@ -553,6 +589,15 @@
    "artists": [
     "Cynthia Sheppard"
    ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dark_salvation"
+  },
+  {
+   "artists": [
+    "Cynthia Sheppard"
+   ],
    "from": "source:sorins_revelation",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -625,6 +670,15 @@
    "artists": [
     "Daarken"
    ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:geist_of_saint_traft"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
    "from": "source:tarkir_story_summary",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -638,6 +692,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:skyblade_of_the_legion"
+  },
+  {
+   "artists": [
+    "Daniel Ljunggren"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shrine_of_the_forsaken_gods"
   },
   {
    "artists": [
@@ -659,12 +722,39 @@
   },
   {
    "artists": [
+    "Daniel Ljunggren"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:increasing_devotion"
+  },
+  {
+   "artists": [
     "David Palumbo"
    ],
    "from": "source:akh_servants",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:trespasser_s_curse"
+  },
+  {
+   "artists": [
+    "David Rapoza"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:holy_justiciar"
+  },
+  {
+   "artists": [
+    "Deruchenko Alexander"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:liliana_s_elite"
   },
   {
    "artists": [
@@ -748,6 +838,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:metallic_rebuke"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_fire_of_kaladesh_chandra_roaring_flame"
   },
   {
    "artists": [
@@ -847,6 +946,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Franz Vohwinkel"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:evacuation"
   },
   {
    "artists": [
@@ -964,6 +1072,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:heart_of_kiran"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:emrakul_the_promised_end"
   },
   {
    "artists": [
@@ -1265,6 +1382,15 @@
   },
   {
    "artists": [
+    "John Avon"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:vault_of_the_archangel"
+  },
+  {
+   "artists": [
     "John Severin Brassell"
    ],
    "from": "source:aer_renewal",
@@ -1402,6 +1528,15 @@
    "artists": [
     "Karl Kopinski"
    ],
+   "from": "source:emn_last_hope",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sorin_s_thirst"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
    "from": "source:rtd_ep5",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1442,6 +1577,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:cemetery_recruitment"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rise_from_the_grave"
   },
   {
    "artists": [
@@ -1553,6 +1697,15 @@
   },
   {
    "artists": [
+    "Lake Hurwitz"
+   ],
+   "from": "source:emn_last_hope",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:call_the_bloodline"
+  },
+  {
+   "artists": [
     "Lars Grant-West"
    ],
    "from": "source:rix_wool",
@@ -1595,6 +1748,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:rashmi_eternities_crafter"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:pieces_of_the_puzzle"
   },
   {
    "artists": [
@@ -1658,6 +1820,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:narset_transcendent"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:emn_last_hope",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bloodhall_priest"
   },
   {
    "artists": [
@@ -1733,6 +1904,15 @@
   },
   {
    "artists": [
+    "Mike Bierek"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:banners_raised"
+  },
+  {
+   "artists": [
     "Nils Hamm"
    ],
    "from": "source:aer_breakthrough",
@@ -1757,6 +1937,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Peter Mohrbacher"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:erebos_god_of_the_dead"
   },
   {
    "artists": [
@@ -1829,6 +2018,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:quicksmith_spy"
+  },
+  {
+   "artists": [
+    "Ryan Alexander Lee"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:imprisoned_in_the_moon"
   },
   {
    "artists": [
@@ -2032,10 +2230,28 @@
    "artists": [
     "Slawomir Maniak"
    ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:selfless_cathar"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
    "from": "source:sorins_restoration",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:savage_ventmaw"
+  },
+  {
+   "artists": [
+    "Steve Argyle"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_ablaze"
   },
   {
    "artists": [
@@ -2108,6 +2324,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:run_amok"
+  },
+  {
+   "artists": [
+    "Tianhua X"
+   ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tamiyo_field_researcher"
   },
   {
    "artists": [
@@ -2248,6 +2473,15 @@
    "artists": [
     "Tyler Jacobson"
    ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_unraveler_of_secrets"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
    "from": "source:hou_eternity",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2345,6 +2579,15 @@
   },
   {
    "artists": [
+    "Victor Adame Minguez"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:avacyn_s_judgment"
+  },
+  {
+   "artists": [
     "Viktor Titov"
    ],
    "from": "source:rtd_ep7",
@@ -2383,6 +2626,15 @@
    "artists": [
     "Vincent Proce"
    ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forsaken_sanctuary"
+  },
+  {
+   "artists": [
+    "Vincent Proce"
+   ],
    "from": "source:revelation_eye",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2396,6 +2648,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:those_who_serve"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
+   "from": "source:emn_last_hope",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:the_chain_veil"
   },
   {
    "artists": [
@@ -2455,6 +2716,15 @@
    "artists": [
     "Wesley Burt"
    ],
+   "from": "source:emn_promised_end",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_liliana"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
    "from": "source:kld_bottled",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2468,6 +2738,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:oath_of_teferi"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:soi_avacyn",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:lunar_mystic"
   },
   {
    "artists": [
@@ -5491,6 +5770,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:augusta_sos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:augusta_order_returned"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:aurelia",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5509,6 +5795,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:aurelia_the_warleader"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:avacyn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:avacyn_angel_of_hope"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:avacyn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:avacyn_angel_of_horror"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:avacyn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:avacyn_guardian_angel"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -5621,6 +5928,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:danitha_capashen_paragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dawning_archaic",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_dawning_archaic"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6013,6 +6327,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:jace_beleren"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jadzi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jadzi_steward_of_fate_oracle_s_gift"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6436,6 +6757,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lluwen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lluwen_exchange_student_pest_friend"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lluwen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lluwen_imperfect_naturalist"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:loot",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6632,6 +6967,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:moseo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:moseo_vein_s_new_dean"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:multani",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -6713,6 +7055,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:nashi_searcher_in_the_dark"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nev",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nev_the_practical_dean"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6958,6 +7307,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:piru_the_volatile"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:primo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:primo_the_unbounded"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7231,6 +7587,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:sarkhan_vol"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:shadrix_silverquill",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:shadrix_silverquill"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7724,6 +8087,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:valentin",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:valentin_dean_of_the_vein_lisette_dean_of_the_root"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:valgavoth",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -8099,6 +8469,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:eye_of_ugin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:forum_of_amity",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:forum_of_amity"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12886,6 +13263,114 @@
    "to": "faction:cabal"
   },
   {
+   "claim": "SE001",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "soi_avacyn"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "SE002",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "soi_avacyn"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "SE003",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "soi_avacyn"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "SE004",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "emn_vengeance"
+   ],
+   "to": "character:sorin_markov"
+  },
+  {
+   "claim": "SE005",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "summoned",
+   "sources": [
+    "emn_last_hope"
+   ],
+   "to": "character:emrakul"
+  },
+  {
+   "claim": "SE006",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:olivia_voldaren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "betrayed",
+   "sources": [
+    "emn_vengeance"
+   ],
+   "to": "character:sorin_markov"
+  },
+  {
+   "claim": "SE007",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "emn_promised_end"
+   ],
+   "to": "character:emrakul"
+  },
+  {
+   "claim": "SE008",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:emrakul",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_at",
+   "sources": [
+    "emn_promised_end"
+   ],
+   "to": "place:innistrad_silver_moon"
+  },
+  {
+   "claim": "SE009",
+   "era": "innistrad_soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "joined",
+   "sources": [
+    "emn_promised_end"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
    "claim": "SN001",
    "era": "new_capenna_snc_2022",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -13079,6 +13564,211 @@
     "snc_ep3"
    ],
    "to": "faction:five_families"
+  },
+  {
+   "claim": "SS001",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:shadrix_silverquill",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:silverquill_college"
+  },
+  {
+   "claim": "SS002",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:augusta_sos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:lorehold_college"
+  },
+  {
+   "claim": "SS003",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:phyrexians",
+   "grade": "CANON_IMPLIED",
+   "relation": "killed",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "character:augusta_sos"
+  },
+  {
+   "claim": "SS004",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nev",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "character:adrix"
+  },
+  {
+   "claim": "SS005",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nev",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:quandrix_college"
+  },
+  {
+   "claim": "SS006",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:adrix",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:quandrix_college"
+  },
+  {
+   "claim": "SS007",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:moseo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:witherbloom_college"
+  },
+  {
+   "claim": "SS008",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:primo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "character:zimone"
+  },
+  {
+   "claim": "SS009",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zimone",
+   "grade": "CANON_CONFIRMED",
+   "relation": "summoned",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "character:primo"
+  },
+  {
+   "claim": "SS010",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "faction:silverquill_college"
+  },
+  {
+   "claim": "SS011",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:killian_lu",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "sos_legends"
+   ],
+   "to": "place:forum_of_amity"
+  },
+  {
+   "claim": "SS012",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tam",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked",
+   "sources": [
+    "sos_ep6"
+   ],
+   "to": "character:jadzi"
+  },
+  {
+   "claim": "SS013",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tam",
+   "grade": "CANON_IMPLIED",
+   "relation": "betrayed",
+   "sources": [
+    "sos_ep6"
+   ],
+   "to": "character:lluwen"
+  },
+  {
+   "claim": "SS014",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lluwen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "sos_ep6"
+   ],
+   "to": "character:tam"
+  },
+  {
+   "claim": "SS015",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:strixhaven_founder_dragons",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "sos_guide"
+   ],
+   "to": "place:strixhaven"
+  },
+  {
+   "claim": "SS016",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:shadrix_silverquill",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "sos_guide"
+   ],
+   "to": "place:forum_of_amity"
+  },
+  {
+   "claim": "SS017",
+   "era": "strixhaven_sos_2026",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dawning_archaic",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "sos_guide",
+    "sos_legends"
+   ],
+   "to": "faction:sos_oracles"
   },
   {
    "claim": "SX001",
@@ -19372,6 +20062,114 @@
    "to": "character:radha"
   },
   {
+   "from": "claim:SE001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:SE001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:SE002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:SE002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:SE003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:SE003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:SE004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:SE004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:SE005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:emrakul"
+  },
+  {
+   "from": "claim:SE005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:SE006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:SE006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:olivia_voldaren"
+  },
+  {
+   "from": "claim:SE007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:emrakul"
+  },
+  {
+   "from": "claim:SE007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:SE008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:innistrad_silver_moon"
+  },
+  {
+   "from": "claim:SE008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:emrakul"
+  },
+  {
+   "from": "claim:SE009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:SE009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
    "from": "claim:SN001",
    "relation": "asserts",
    "role": "object",
@@ -19562,6 +20360,210 @@
    "relation": "asserts",
    "role": "subject",
    "to": "faction:capenna_demon_lords"
+  },
+  {
+   "from": "claim:SS001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:silverquill_college"
+  },
+  {
+   "from": "claim:SS001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:shadrix_silverquill"
+  },
+  {
+   "from": "claim:SS002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:lorehold_college"
+  },
+  {
+   "from": "claim:SS002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:augusta_sos"
+  },
+  {
+   "from": "claim:SS003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:augusta_sos"
+  },
+  {
+   "from": "claim:SS003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:SS004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:adrix"
+  },
+  {
+   "from": "claim:SS004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nev"
+  },
+  {
+   "from": "claim:SS005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:quandrix_college"
+  },
+  {
+   "from": "claim:SS005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nev"
+  },
+  {
+   "from": "claim:SS006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:quandrix_college"
+  },
+  {
+   "from": "claim:SS006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:adrix"
+  },
+  {
+   "from": "claim:SS007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:witherbloom_college"
+  },
+  {
+   "from": "claim:SS007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:moseo"
+  },
+  {
+   "from": "claim:SS008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:zimone"
+  },
+  {
+   "from": "claim:SS008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:primo"
+  },
+  {
+   "from": "claim:SS009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:primo"
+  },
+  {
+   "from": "claim:SS009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zimone"
+  },
+  {
+   "from": "claim:SS010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:silverquill_college"
+  },
+  {
+   "from": "claim:SS010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:SS011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:forum_of_amity"
+  },
+  {
+   "from": "claim:SS011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:killian_lu"
+  },
+  {
+   "from": "claim:SS012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jadzi"
+  },
+  {
+   "from": "claim:SS012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:SS013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lluwen"
+  },
+  {
+   "from": "claim:SS013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:SS014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tam"
+  },
+  {
+   "from": "claim:SS014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lluwen"
+  },
+  {
+   "from": "claim:SS015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:strixhaven"
+  },
+  {
+   "from": "claim:SS015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:strixhaven_founder_dragons"
+  },
+  {
+   "from": "claim:SS016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:forum_of_amity"
+  },
+  {
+   "from": "claim:SS016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:shadrix_silverquill"
+  },
+  {
+   "from": "claim:SS017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sos_oracles"
+  },
+  {
+   "from": "claim:SS017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dawning_archaic"
   },
   {
    "from": "claim:SX001",
@@ -21582,6 +22584,36 @@
    "to": "claim:EL011"
   },
   {
+   "from": "source:emn_last_hope",
+   "relation": "cited_by",
+   "to": "claim:SE005"
+  },
+  {
+   "from": "source:emn_promised_end",
+   "relation": "cited_by",
+   "to": "claim:SE007"
+  },
+  {
+   "from": "source:emn_promised_end",
+   "relation": "cited_by",
+   "to": "claim:SE008"
+  },
+  {
+   "from": "source:emn_promised_end",
+   "relation": "cited_by",
+   "to": "claim:SE009"
+  },
+  {
+   "from": "source:emn_vengeance",
+   "relation": "cited_by",
+   "to": "claim:SE004"
+  },
+  {
+   "from": "source:emn_vengeance",
+   "relation": "cited_by",
+   "to": "claim:SE006"
+  },
+  {
    "from": "source:eoe_ep10",
    "relation": "cited_by",
    "to": "claim:EO011"
@@ -23170,6 +24202,21 @@
    "to": "claim:SN011"
   },
   {
+   "from": "source:soi_avacyn",
+   "relation": "cited_by",
+   "to": "claim:SE001"
+  },
+  {
+   "from": "source:soi_avacyn",
+   "relation": "cited_by",
+   "to": "claim:SE002"
+  },
+  {
+   "from": "source:soi_avacyn",
+   "relation": "cited_by",
+   "to": "claim:SE003"
+  },
+  {
    "from": "source:sorins_restoration",
    "relation": "cited_by",
    "to": "claim:U006"
@@ -23183,6 +24230,96 @@
    "from": "source:sorins_revelation",
    "relation": "cited_by",
    "to": "claim:U006"
+  },
+  {
+   "from": "source:sos_ep6",
+   "relation": "cited_by",
+   "to": "claim:SS012"
+  },
+  {
+   "from": "source:sos_ep6",
+   "relation": "cited_by",
+   "to": "claim:SS013"
+  },
+  {
+   "from": "source:sos_ep6",
+   "relation": "cited_by",
+   "to": "claim:SS014"
+  },
+  {
+   "from": "source:sos_guide",
+   "relation": "cited_by",
+   "to": "claim:SS015"
+  },
+  {
+   "from": "source:sos_guide",
+   "relation": "cited_by",
+   "to": "claim:SS016"
+  },
+  {
+   "from": "source:sos_guide",
+   "relation": "cited_by",
+   "to": "claim:SS017"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS001"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS002"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS003"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS004"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS005"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS006"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS007"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS008"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS009"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS010"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS011"
+  },
+  {
+   "from": "source:sos_legends",
+   "relation": "cited_by",
+   "to": "claim:SS017"
   },
   {
    "from": "source:stone_and_blood",
@@ -23880,6 +25017,20 @@
     "file": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
     "sha256": "c18267fe39acea5eacd64270cc54fad7dbc7c5ff99b6b112b588c867a8a232f3",
     "sources": 1
+   },
+   {
+    "claims": 17,
+    "entities": 24,
+    "file": "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "sha256": "6e7d7b513f11d5019688c9950695ff5f08a2d90aa2940b4a2e42c43039fc4409",
+    "sources": 3
+   },
+   {
+    "claims": 9,
+    "entities": 12,
+    "file": "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "sha256": "cc9c1c5e9f604dbc6056b168d893f7abca9a27f82c9c1f8f12a60e03b93b0337",
+    "sources": 4
    }
   ],
   "deck_evidence": [
@@ -23901,14 +25052,14 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 435,
+    "anchors": 449,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "c17787fb801f0874cfb01555c870e82d01db1ff9fab85f55d02e08c7ecffed02"
+    "sha256": "bf9767a09079217295332dbd5b5b553ae5686936607e373a7fec38d74f9e13fb"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 299,
+    "caption_edges": 330,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -24498,6 +25649,15 @@
    "type": "Card"
   },
   {
+   "id": "card:always_watching",
+   "name": "Always Watching",
+   "oracle_id": "c2153115-bc12-458d-baeb-538ec61e1242",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:anax_hardened_in_the_forge",
    "name": "Anax, Hardened in the Forge",
    "oracle_id": "e23cd06d-1360-4e5d-aecc-adf902bede69",
@@ -24775,6 +25935,15 @@
    "type": "Card"
   },
   {
+   "id": "card:augusta_order_returned",
+   "name": "Augusta, Order Returned",
+   "oracle_id": "a80a1f84-ea49-4c8d-912d-c7036b814a6c",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:aurelia_exemplar_of_justice",
    "name": "Aurelia, Exemplar of Justice",
    "oracle_id": "2e1e0385-1537-4cb6-9d24-e4593d9a8f4a",
@@ -24806,8 +25975,36 @@
    "name": "Avacyn, Angel of Hope",
    "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:avacyn_angel_of_horror",
+   "name": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:avacyn_guardian_angel",
+   "name": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:avacyn_s_judgment",
+   "name": "Avacyn's Judgment",
+   "oracle_id": "f3ae58ed-8ef7-4e0a-945f-1f622157236b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -24861,6 +26058,15 @@
    "id": "card:baird_steward_of_argive",
    "name": "Baird, Steward of Argive",
    "oracle_id": "69aa6809-5468-413a-94c9-562e6de93957",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:banners_raised",
+   "name": "Banners Raised",
+   "oracle_id": "b60d83ea-18bf-4c64-b4ee-981d54629362",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -24945,6 +26151,15 @@
    "id": "card:blood_sun",
    "name": "Blood Sun",
    "oracle_id": "1534d90f-fc88-42dc-bf01-8b0986485e78",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bloodhall_priest",
+   "name": "Bloodhall Priest",
+   "oracle_id": "2eed5eb1-ab67-4f23-885d-922131364aba",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -25060,6 +26275,15 @@
    "type": "Card"
   },
   {
+   "id": "card:call_the_bloodline",
+   "name": "Call the Bloodline",
+   "oracle_id": "8e90300b-c0da-4484-b065-e2fafa4e1b15",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:call_the_gatewatch",
    "name": "Call the Gatewatch",
    "oracle_id": "652bfa31-b2eb-4cba-850f-1db02a83bb35",
@@ -25127,6 +26351,15 @@
    "id": "card:chandra_bold_pyromancer",
    "name": "Chandra, Bold Pyromancer",
    "oracle_id": "1cdba3c1-19e1-43c3-a0d8-5fb2b88060d8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chandra_fire_of_kaladesh_chandra_roaring_flame",
+   "name": "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
+   "oracle_id": "6f6b8e14-c247-4dfd-8b39-38c7a5f2f354",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -25565,6 +26798,15 @@
    "type": "Card"
   },
   {
+   "id": "card:dark_salvation",
+   "name": "Dark Salvation",
+   "oracle_id": "f5c2b700-da52-4436-b234-e32ba7759e17",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:daxos_blessed_by_the_sun",
    "name": "Daxos, Blessed by the Sun",
    "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
@@ -25943,7 +27185,8 @@
    "name": "Emrakul, the Promised End",
    "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -25970,7 +27213,8 @@
    "name": "Erebos, God of the Dead",
    "oracle_id": "1cfc7b12-a595-492d-81ee-bd100ba7de6a",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -26025,6 +27269,15 @@
    "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:evacuation",
+   "name": "Evacuation",
+   "oracle_id": "fdd94383-b573-439a-8e1c-925af887c5a6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -26211,6 +27464,24 @@
    "type": "Card"
   },
   {
+   "id": "card:forsaken_sanctuary",
+   "name": "Forsaken Sanctuary",
+   "oracle_id": "941b0dd1-0df2-48ee-8829-615e9c3177a7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:forum_of_amity",
+   "name": "Forum of Amity",
+   "oracle_id": "349ea6c7-6b3e-417f-b082-b712e2b1635b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:fraying_omnipotence",
    "name": "Fraying Omnipotence",
    "oracle_id": "3b00068d-ad07-417c-bbb3-5f980615fb06",
@@ -26241,6 +27512,15 @@
    "id": "card:furious_reprisal",
    "name": "Furious Reprisal",
    "oracle_id": "38e1ab26-95f9-43dd-9bda-13c7d8ba47ea",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:geist_of_saint_traft",
+   "name": "Geist of Saint Traft",
+   "oracle_id": "4304035c-c3e4-4a19-aa1f-92a83d8aed1f",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -26677,6 +27957,15 @@
    "type": "Card"
   },
   {
+   "id": "card:holy_justiciar",
+   "name": "Holy Justiciar",
+   "oracle_id": "9edcf49b-2767-48bd-8fbe-968527cbddf4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:homing_lightning",
    "name": "Homing Lightning",
    "oracle_id": "6e7f8e25-49a9-49a0-9bf4-129439344550",
@@ -26805,9 +28094,27 @@
    "type": "Card"
   },
   {
+   "id": "card:imprisoned_in_the_moon",
+   "name": "Imprisoned in the Moon",
+   "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:in_bolas_s_clutches",
    "name": "In Bolas's Clutches",
    "oracle_id": "201a4455-1b6b-4e13-a0d5-4cf2116e1673",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:increasing_devotion",
+   "name": "Increasing Devotion",
+   "oracle_id": "7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -26826,6 +28133,15 @@
    "id": "card:induced_amnesia",
    "name": "Induced Amnesia",
    "oracle_id": "6f01c124-0518-428c-9efe-7f3741f3c109",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:indulgent_aristocrat",
+   "name": "Indulgent Aristocrat",
+   "oracle_id": "c7054a2d-2e7b-4487-8fc3-f6a47a716fd3",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -26972,7 +28288,17 @@
    "name": "Jace, Unraveler of Secrets",
    "oracle_id": "ac29873e-28c3-4933-b427-61d34ff0afcd",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jadzi_steward_of_fate_oracle_s_gift",
+   "name": "Jadzi, Steward of Fate // Oracle's Gift",
+   "oracle_id": "c63b3511-d597-4c6e-9094-eabdeaa8a394",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -27641,11 +28967,29 @@
    "type": "Card"
   },
   {
+   "id": "card:liliana_s_elite",
+   "name": "Liliana's Elite",
+   "oracle_id": "b6492082-d0ef-4f7c-a4b1-f8ecf6eb0890",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:liliana_s_triumph",
    "name": "Liliana's Triumph",
    "oracle_id": "c2e68ac5-cfff-4b76-8062-25a82fdf9a5c",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liliana_the_last_hope",
+   "name": "Liliana, the Last Hope",
+   "oracle_id": "64a9a6b4-26b5-4d23-be86-85c54e9c4727",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -27673,6 +29017,24 @@
    "oracle_id": "04d02394-e17f-43cd-932f-f58e8cc56629",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lluwen_exchange_student_pest_friend",
+   "name": "Lluwen, Exchange Student // Pest Friend",
+   "oracle_id": "cb125cd4-c7c2-415d-b802-bdcfc2454403",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lluwen_imperfect_naturalist",
+   "name": "Lluwen, Imperfect Naturalist",
+   "oracle_id": "81ff5764-72ce-4b9a-a14f-07413700d935",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -27773,6 +29135,15 @@
    "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lunar_mystic",
+   "name": "Lunar Mystic",
+   "oracle_id": "9652f79c-3060-4e9c-9623-0ebe4ab4094c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -28112,6 +29483,15 @@
    "type": "Card"
   },
   {
+   "id": "card:moseo_vein_s_new_dean",
+   "name": "Moseo, Vein's New Dean",
+   "oracle_id": "c2e2f21a-0338-44d7-96a5-5a277f0ec419",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:mountain",
    "name": "Mountain",
    "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
@@ -28277,6 +29657,15 @@
    "oracle_id": "b0d3fd57-1420-4dd1-8410-9d659655287f",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nev_the_practical_dean",
+   "name": "Nev, the Practical Dean",
+   "oracle_id": "42750e30-d022-4623-a290-d91fa80721c9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -28497,6 +29886,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_liliana",
+   "name": "Oath of Liliana",
+   "oracle_id": "0bd7fd12-a0b7-4b4e-8a33-cace6e6bd6d1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -28842,6 +30240,15 @@
    "type": "Card"
   },
   {
+   "id": "card:pieces_of_the_puzzle",
+   "name": "Pieces of the Puzzle",
+   "oracle_id": "7b599b4d-95bc-4ed2-a167-84a697944747",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:piru_the_volatile",
    "name": "Piru, the Volatile",
    "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
@@ -28896,6 +30303,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:primo_the_unbounded",
+   "name": "Primo, the Unbounded",
+   "oracle_id": "65fb0e20-61f8-4c61-bc08-7f6f718ee9ee",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -29140,6 +30556,15 @@
    "id": "card:resplendent_griffin",
    "name": "Resplendent Griffin",
    "oracle_id": "f8bf5df2-b783-4796-b2c6-eb4dd4167d62",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rise_from_the_grave",
+   "name": "Rise from the Grave",
+   "oracle_id": "4e769107-0f32-4181-9e57-ffebc2228d3a",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -29502,11 +30927,29 @@
    "type": "Card"
   },
   {
+   "id": "card:selfless_cathar",
+   "name": "Selfless Cathar",
+   "oracle_id": "a6e4c8de-4c35-4ea4-b865-596ae8cef075",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:settle_the_score",
    "name": "Settle the Score",
    "oracle_id": "2f18bb2d-249f-4d7a-a0f7-8a285d365777",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shadrix_silverquill",
+   "name": "Shadrix Silverquill",
+   "oracle_id": "2143f413-7baa-4fd6-a7ca-32f52bfa553f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -29579,6 +31022,15 @@
    "oracle_id": "ee5a4902-f993-4fe6-92da-38636962c558",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shrine_of_the_forsaken_gods",
+   "name": "Shrine of the Forsaken Gods",
+   "oracle_id": "8ea46945-d5ab-4209-b473-4769e7b8b962",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -29692,6 +31144,15 @@
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sorin_s_thirst",
+   "name": "Sorin's Thirst",
+   "oracle_id": "ff27ff37-96c0-41af-8881-a078e884e67b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -30004,7 +31465,8 @@
    "name": "Tamiyo, Field Researcher",
    "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -30369,7 +31831,17 @@
    "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
    "origins": [
     "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_dawning_archaic",
+   "name": "The Dawning Archaic",
+   "oracle_id": "a3e10b9b-9349-4b44-a46c-c825293dbd05",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -30960,6 +32432,15 @@
    "type": "Card"
   },
   {
+   "id": "card:valentin_dean_of_the_vein_lisette_dean_of_the_root",
+   "name": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
+   "oracle_id": "6e1aa07a-5d9b-4daf-8dc4-c1717360855f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:valgavoth_harrower_of_souls",
    "name": "Valgavoth, Harrower of Souls",
    "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
@@ -30992,6 +32473,15 @@
    "oracle_id": "68b41a04-8cb0-4edf-b488-a219494453ae",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vault_of_the_archangel",
+   "name": "Vault of the Archangel",
+   "oracle_id": "eeaac65a-3480-475a-bb28-e6375d53f487",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -31639,6 +33129,14 @@
    "type": "Character"
   },
   {
+   "id": "character:adrix",
+   "name": "Adrix",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ajani",
    "name": "Ajani",
    "origins": [
@@ -31785,10 +33283,26 @@
    "type": "Character"
   },
   {
+   "id": "character:augusta_sos",
+   "name": "Augusta, Order Returned",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:aurelia",
    "name": "Aurelia",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:avacyn",
+   "name": "Avacyn",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -31935,6 +33449,14 @@
    "type": "Character"
   },
   {
+   "id": "character:dawning_archaic",
+   "name": "The Dawning Archaic",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:daxos",
    "name": "Daxos",
    "origins": [
@@ -32005,7 +33527,8 @@
    "name": "Emrakul",
    "origins": [
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32250,7 +33773,16 @@
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:jadzi",
+   "name": "Jadzi, Steward of Fate",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32398,6 +33930,14 @@
    "type": "Character"
   },
   {
+   "id": "character:killian_lu",
+   "name": "Killian Lu",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:king_glarb",
    "name": "King Glarb",
    "origins": [
@@ -32520,6 +34060,7 @@
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
@@ -32537,6 +34078,14 @@
    "name": "Queen Linden",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:lluwen",
+   "name": "Lluwen",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32656,6 +34205,14 @@
    "type": "Character"
   },
   {
+   "id": "character:moseo",
+   "name": "Moseo, Vein's New Dean",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:multani",
    "name": "Multani",
    "origins": [
@@ -32670,7 +34227,8 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32690,6 +34248,14 @@
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:nev",
+   "name": "Nev, the Practical Dean",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32798,7 +34364,8 @@
    "id": "character:olivia_voldaren",
    "name": "Olivia Voldaren",
    "origins": [
-    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32841,6 +34408,14 @@
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:primo",
+   "name": "Primo, the Unbounded",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32891,7 +34466,8 @@
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_bloomburrow_2026-10-30.json",
-    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
+    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -32974,6 +34550,14 @@
    "type": "Character"
   },
   {
+   "id": "character:shadrix_silverquill",
+   "name": "Shadrix Silverquill",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:shanna",
    "name": "Shanna",
    "origins": [
@@ -33020,7 +34604,8 @@
    "name": "Sorin Markov",
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -33036,7 +34621,8 @@
    "id": "character:tam",
    "name": "Tam (Tamira)",
    "origins": [
-    "pack_p5_reality_fracture_2026-10-30.json"
+    "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -33053,7 +34639,8 @@
    "name": "Tamiyo",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -33228,6 +34815,14 @@
    "type": "Character"
   },
   {
+   "id": "character:valentin",
+   "name": "Valentin",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:valgavoth",
    "name": "Valgavoth",
    "origins": [
@@ -33395,7 +34990,8 @@
    "id": "character:zimone",
    "name": "Zimone",
    "origins": [
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -37627,6 +39223,110 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:SE001",
+   "limitation": "Narrated in Avacyn's own first-person voice.",
+   "name": "Sorin Markov created Avacyn as Innistrad's protector.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE002",
+   "name": "Sorin unmade Avacyn with a reversed ritual, revoking the gift that made her.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE003",
+   "limitation": "Avacyn's condemnation came during her madness.",
+   "name": "Maddened, Avacyn condemned Sorin as the greatest evil of Innistrad before he unmade her.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE004",
+   "name": "At Markov Manor, Nahiri encased Sorin in stone and planeswalked away.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE005",
+   "limitation": "The page's lead-in summary credits her 'machinations'; the mechanism is told elsewhere.",
+   "name": "Nahiri's machinations unleashed Emrakul on Innistrad.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "summoned",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE006",
+   "name": "Olivia refused to free the imprisoned Sorin once their bargain was fulfilled, taking his sword.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "betrayed",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE007",
+   "limitation": "The binding was a group effort (Jace attached the spell, and the text turns to Nissa for its power).",
+   "name": "Tamiyo's binding spell, linked to Emrakul with Jace's help, bound Emrakul inside Innistrad's silver moon.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE008",
+   "name": "After The Promised End, Emrakul is held in the depths of Innistrad's moon.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "located_at",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SE009",
+   "limitation": "Her oath was partly insincere by her own account.",
+   "name": "Liliana swore an oath and joined the Gatewatch after Emrakul was bound.",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "predicate": "joined",
+   "stage": "innistrad_soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:SN001",
    "name": "The crime lord known in New Capenna as the Adversary is Ob Nixilis.",
    "origins": [
@@ -37801,6 +39501,202 @@
    ],
    "predicate": "created",
    "stage": "new_capenna_snc_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS001",
+   "name": "Shadrix Silverquill, one of the five founding elder dragons, established Silverquill College.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS002",
+   "limitation": "Her bio sits under the page's Lorehold heading and names Lorehold students; the quoted sentence itself does not name the college.",
+   "name": "Augusta died in the Phyrexian Invasion, but her summoned spirit still serves as Lorehold's interim dean of order.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS003",
+   "limitation": "The text says she died in the invasion, not who killed her.",
+   "name": "Augusta died during the Phyrexian Invasion.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS004",
+   "name": "Nev and Adrix are merfolk twins from the Pinzari Isles.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS005",
+   "name": "Nev and Adrix became deans of Quandrix after the deaths of Kianne and Imbraham.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS006",
+   "name": "Adrix is co-dean of Quandrix with Nev.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS007",
+   "limitation": "'Dean of the vein' is one of Witherbloom's two deanships; the college name is from the bio's section heading.",
+   "name": "Moseo replaced the deceased Valentin as Witherbloom's dean of the vein.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS008",
+   "name": "Primo is Zimone's companion fractal, friend and defender.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS009",
+   "name": "Zimone summoned Primo and, after Duskmourn, would not unsummon him.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "summoned",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS010",
+   "limitation": "He is faculty (guest lecturer), not a student.",
+   "name": "Ral Zarek is a guest lecturer at Silverquill.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS011",
+   "limitation": "He mentors there; formal membership of the Forum is not stated.",
+   "name": "Killian Lu, a Silverquill graduate student, mentors younger students at the Forum of Amity.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS012",
+   "limitation": "Jadzi's fate after the fall is not resolved in this episode.",
+   "name": "Tam pushed Jadzi into the churning pit of magic while Jadzi was trying to calm the archaic.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "attacked",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:SS013",
+   "limitation": "The episode frames it as betrayal of the group; Tam's motive and maker are not explained here.",
+   "name": "Tam's friends, Lluwen among them, saw her act as a betrayal; Tam says she was made to do it.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "betrayed",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS014",
+   "limitation": "Past friendship, before Episode 6's betrayal.",
+   "name": "Before the betrayal, Tam and Lluwen were friends who explored Titan's Grave together.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS015",
+   "name": "Five spellcasting dragons founded Strixhaven University over 700 years ago.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS016",
+   "name": "Shadrix Silverquill founded the Forum of Amity in northeast Arcavios as a centre for diplomacy.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "strixhaven_sos_2026",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:SS017",
+   "limitation": "That oracle lies in the plane's future; the pages do not name them.",
+   "name": "Archaics are born in the Dawning Age from the souls of oracles; the Dawning Archaic comes from the last-ever oracle of Arcavios.",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "strixhaven_sos_2026",
    "type": "Claim"
   },
   {
@@ -40063,7 +41959,8 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -40133,6 +42030,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:lorehold_college",
+   "name": "Lorehold College",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:maestros",
    "name": "The Maestros",
    "origins": [
@@ -40168,6 +42073,7 @@
    "id": "faction:phyrexians",
    "name": "The Phyrexians",
    "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
@@ -40191,6 +42097,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:quandrix_college",
+   "name": "Quandrix College",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:renegades_kaladesh",
    "name": "Renegades of Kaladesh",
    "origins": [
@@ -40203,6 +42117,14 @@
    "name": "River Heralds",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:silverquill_college",
+   "name": "Silverquill College",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -40223,9 +42145,18 @@
    "type": "Faction"
   },
   {
+   "id": "faction:sos_oracles",
+   "name": "Oracles of Arcavios",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:strixhaven_founder_dragons",
    "name": "Strixhaven's five founding dragons",
    "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
@@ -40300,6 +42231,14 @@
    "name": "Valkyries of Starnheim",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:witherbloom_college",
+   "name": "Witherbloom College",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -40497,6 +42436,14 @@
    "type": "Place"
   },
   {
+   "id": "place:forum_of_amity",
+   "name": "Forum of Amity",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:garenbrig",
    "name": "Garenbrig",
    "origins": [
@@ -40524,7 +42471,8 @@
    "id": "place:innistrad_silver_moon",
    "name": "Innistrad's silver moon",
    "origins": [
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -40541,6 +42489,14 @@
    "name": "Maag Taranau (the vault)",
    "origins": [
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:markov_manor",
+   "name": "Markov Manor",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -40646,6 +42602,7 @@
    "origins": [
     "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "type": "Place"
@@ -40710,6 +42667,14 @@
    "type": "Plane"
   },
   {
+   "id": "plane:arcavios",
+   "name": "Arcavios",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:bloomburrow",
    "name": "Bloomburrow",
    "origins": [
@@ -40758,7 +42723,8 @@
    "id": "plane:innistrad",
    "name": "Innistrad",
    "origins": [
-    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -41454,6 +43420,39 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
+  },
+  {
+   "id": "source:emn_last_hope",
+   "kind": "official_story_episode",
+   "name": "Innistrad's Last Hope",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29"
+  },
+  {
+   "id": "source:emn_promised_end",
+   "kind": "official_story_episode",
+   "name": "The Promised End",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27"
+  },
+  {
+   "id": "source:emn_vengeance",
+   "kind": "official_story_episode",
+   "name": "Campaign of Vengeance",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06"
   },
   {
    "id": "source:eoe_ep10",
@@ -42768,6 +44767,17 @@
    "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna"
   },
   {
+   "id": "source:soi_avacyn",
+   "kind": "official_story_episode",
+   "name": "I Am Avacyn",
+   "origins": [
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18"
+  },
+  {
    "id": "source:sorins_restoration",
    "kind": "official_story",
    "name": "Sorin's Restoration",
@@ -42788,6 +44798,39 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/sorins-revelation"
+  },
+  {
+   "id": "source:sos_ep6",
+   "kind": "official_story_episode",
+   "name": "Secrets of Strixhaven | Episode 6: Two, Three, Five, Seven",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven"
+  },
+  {
+   "id": "source:sos_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Secrets of Strixhaven",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven"
+  },
+  {
+   "id": "source:sos_legends",
+   "kind": "official_story_episode",
+   "name": "The Legends of Secrets of Strixhaven",
+   "origins": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven"
   },
   {
    "id": "source:stone_and_blood",
@@ -43145,37 +45188,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 502,
+  "claim_edges_with_era": 528,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 390,
+   "CANON_CONFIRMED": 413,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 74,
+   "CANON_IMPLIED": 77,
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 97,
-  "edges": 3140,
+  "edges": 3290,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 800,
+   "Card": 837,
    "CardTheme": 1,
-   "Character": 206,
-   "Claim": 475,
+   "Character": 218,
+   "Claim": 501,
    "Concept": 111,
    "DeckProposal": 3,
    "Event": 18,
-   "Faction": 47,
+   "Faction": 52,
    "Literal": 14,
    "Object": 36,
-   "Place": 35,
-   "Plane": 22,
-   "Source": 205
+   "Place": 37,
+   "Plane": 23,
+   "Source": 212
   },
-  "nodes": 1974,
+  "nodes": 2064,
   "non_wizards_sources": 0,
-  "relations": 226,
-  "wizards_official_sources": 205
+  "relations": 230,
+  "wizards_official_sources": 212
  }
 }

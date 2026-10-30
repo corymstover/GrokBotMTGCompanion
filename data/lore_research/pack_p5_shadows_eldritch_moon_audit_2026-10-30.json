@@ -1,0 +1,103 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "SOI/EMN",
+ "claims": 9,
+ "entities": 12,
+ "sources": 4,
+ "grades": {
+  "CANON_CONFIRMED": 9
+ },
+ "quotes": 14,
+ "quotes_verbatim": 14,
+ "quote_rows": [
+  {
+   "claim": "SE001",
+   "source_id": "soi_avacyn",
+   "quote_sha256": "24c1d2a387715d02c9c6414d0095ae750a72bb22e0852a4164a8234ed1308758",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE001",
+   "source_id": "soi_avacyn",
+   "quote_sha256": "69f36b83c1bea60485845ce395666316706e2cb67fbce171da8053796f141ad0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE002",
+   "source_id": "soi_avacyn",
+   "quote_sha256": "ae35d0eccd3fa8bf3ebb7d4ce9af17e399c6b6e89a46b0086eb825e53cd075ed",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE002",
+   "source_id": "soi_avacyn",
+   "quote_sha256": "76e5a376e1fb1f1e33043c7e9b57af413b373da7167643384c8135c3418e4bad",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE003",
+   "source_id": "soi_avacyn",
+   "quote_sha256": "79c758c896c2629db3dfb4fec083a45e33b95770e020b3c43f57765d45baa087",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE004",
+   "source_id": "emn_vengeance",
+   "quote_sha256": "c6fd76254f4fa1786db6146b5ea40f4cdeefd625b0b4c1a9eb76107f9d5fe37d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE004",
+   "source_id": "emn_vengeance",
+   "quote_sha256": "51fffdf9818a86bbdf8f03df4839a7d18467aae561eafd9d58d39b8045c80610",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE005",
+   "source_id": "emn_last_hope",
+   "quote_sha256": "f5092c076ba249f40ca5ffc927e25a99b575d2e51bc2bd58377044848ee3619f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE006",
+   "source_id": "emn_vengeance",
+   "quote_sha256": "0b17bd8f28211bd06321345a882ad4a63005a4d73e02215a2a183d21ebc0ea0c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE006",
+   "source_id": "emn_vengeance",
+   "quote_sha256": "c1ad4e85bc64f1fa56ef5754972dff5ad3e4fe755168e00673f3c758f492f724",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE007",
+   "source_id": "emn_promised_end",
+   "quote_sha256": "02f03cd62e72c489802d798e895e464217982bdcf9f33a744a650f94eb180c00",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE007",
+   "source_id": "emn_promised_end",
+   "quote_sha256": "c01138d9d0242935fe8136f917c1215d22cceea07397dc17dd951a94f011cde1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE008",
+   "source_id": "emn_promised_end",
+   "quote_sha256": "c01138d9d0242935fe8136f917c1215d22cceea07397dc17dd951a94f011cde1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE009",
+   "source_id": "emn_promised_end",
+   "quote_sha256": "13a96e2f0812936a94d55b192d863f643ca94ad5d6f0aecd68d917b914d1e4ce",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "ca0d7a06e86d2f061baf0dc66fa347b935d1c3e38afe8196e0380f4a0047966a"
+}
