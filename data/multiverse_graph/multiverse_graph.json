@@ -7,8 +7,135 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "bfd2445a58c4c77f576b376a2e43bffe0b23364821e5d3308a036e2aaca5c545",
+ "content_sha256": "a5db594122d6be27415226fb9b6ebbf7120a4d38caef09fbe0da33c374b22244",
  "edges": [
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A013"
+   ],
+   "from": "card:arcades_the_strategist",
+   "printing": "1e90c638-d4b2-4243-bbc4-1cc10516c40f",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A013"
+   ],
+   "from": "card:chromium",
+   "printing": "8cd7d7e1-f928-4429-9a59-ba0590a78e98",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A013"
+   ],
+   "from": "card:ugin_the_spirit_dragon",
+   "printing": "58c1e824-c8a9-4312-8e4c-a29a26d189a4",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A014"
+   ],
+   "from": "card:vaevictis_asmadi",
+   "printing": "22ea73ec-1325-4437-a23f-dcda1767c713",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A015",
+    "A017"
+   ],
+   "from": "card:nicol_bolas",
+   "printing": "729feb73-4581-4f9d-ba47-bece72481b86",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A015"
+   ],
+   "from": "card:palladia_mors",
+   "printing": "ad64874d-ce33-4e0a-bcca-723f129ef415",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A016"
+   ],
+   "from": "card:arcades_sabboth",
+   "printing": "2c1dbc62-ceb5-4540-ae38-901e5deafc75",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A017"
+   ],
+   "from": "card:the_elder_dragon_war",
+   "printing": "0c52c7d4-a350-4518-8c9a-72cf7b14603d",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [
+    "A018"
+   ],
+   "from": "card:chromium_the_mutable",
+   "printing": "50c1de2c-1acc-47c8-9b5e-a9dae3da8a49",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [],
+   "from": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen",
+   "printing": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [],
+   "from": "card:palladia_mors_the_ruiner",
+   "printing": "4663bd13-243e-4b8c-9ca8-158576b58803",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
+   "claims": [],
+   "from": "card:vaevictis_asmadi_the_dire",
+   "printing": "d19fdc00-21eb-48dc-966a-6b634dc5a2c4",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
   {
    "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
    "claims": [
@@ -60,6 +187,51 @@
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "claims": [
+    "A018",
+    "A022"
+   ],
+   "from": "card:piru_the_volatile",
+   "printing": "6e82d946-1efb-4253-84ab-93c88d2d1d84",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "claims": [
+    "A020"
+   ],
+   "from": "card:geyadrone_dihada",
+   "printing": "3d228005-91f1-451e-ab6f-1f86316708a7",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "claims": [
+    "A021"
+   ],
+   "from": "card:dakkon_blackblade",
+   "printing": "fbfd1278-1486-4516-8846-007ce1985ee9",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "II. After the war: Piru, Chromium, Dihada and Dakkon",
+   "claims": [
+    "A021"
+   ],
+   "from": "card:dakkon_shadow_slayer",
+   "printing": "0013a9c4-77a1-418d-85c2-bd68b65cd3d4",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "II. Alara: the Conflux scheme",
@@ -134,6 +306,131 @@
    "to": "deck:ugin_bolas_elder_dragon_duality"
   },
   {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [
+    "A019"
+   ],
+   "from": "card:crosis_the_purger",
+   "printing": "e5f336d8-12a4-482d-8ffd-c205858c72ba",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [
+    "A023",
+    "A024"
+   ],
+   "from": "card:rith_liberated_primeval",
+   "printing": "ac148784-b7b6-4aae-bffb-a4cf09f56971",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [
+    "A023",
+    "A024"
+   ],
+   "from": "card:rith_the_awakener",
+   "printing": "c30be387-280d-49bd-a3d1-c1636ee931ce",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:crosis_s_attendant",
+   "printing": "45edc18c-2046-4d0e-92fe-a6cf4aaf1c6f",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:darigaaz_reincarnated",
+   "printing": "9459ffca-5a1f-4641-88d4-8a499b261faa",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:darigaaz_s_attendant",
+   "printing": "6f22b575-443a-4c06-8e75-d4140cbd3660",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:darigaaz_the_igniter",
+   "printing": "54dcf5e3-4303-41a3-b54c-24a9d462ce07",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:dromar_s_attendant",
+   "printing": "24936fa9-41a3-4da5-91cf-c28fa45f47c9",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:dromar_the_banisher",
+   "printing": "cfcc3c72-fff5-454c-814c-eb952fd23ba9",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:rith_s_attendant",
+   "printing": "a26e8130-7fe9-4ef4-98af-928814f5b130",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:scion_of_the_ur_dragon",
+   "printing": "efb6f85b-60e9-4191-b557-ec952b7f22fc",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:treva_s_attendant",
+   "printing": "9857af81-fb95-4dc4-b048-9ce4e96d1eca",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "III. The Primeval Dragons: heirs of the Elder Dragons",
+   "claims": [],
+   "from": "card:treva_the_renewer",
+   "printing": "4ee67039-6cee-4a2d-b973-570f5060f550",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
    "beat": "III. Zendikar: Ugin's hedrons and the Eldrazi prison",
    "claims": [],
    "from": "card:dispel",
@@ -177,6 +474,114 @@
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:backlash",
+   "printing": "dadf030d-5451-43fc-bf0c-c1629fdf88ec",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:breath_of_darigaaz",
+   "printing": "480bb7e3-df03-454d-ada0-592ef8a4a6f0",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:crosis_s_charm",
+   "printing": "b59a9e75-9988-4040-a718-b1655fc20d11",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:darigaaz_s_charm",
+   "printing": "cf4c9d6a-86eb-45be-9405-473eb263b94c",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:dromar_s_charm",
+   "printing": "69f752d3-3f42-4275-be09-d257c89da70d",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:insolence",
+   "printing": "d8009a37-f966-4a71-9a2a-469127758dc6",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:malicious_advice",
+   "printing": "7b1547c2-ae9f-4871-a675-4026bf20e7e1",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:pyretic_rebirth",
+   "printing": "5968f641-48b5-4b97-8072-ddd8073cd4d7",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:rith_s_charm",
+   "printing": "dd30f389-bac8-4b82-a8a7-6948d43a9f60",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:shriek_of_dread",
+   "printing": "54a7fb3b-8e81-4763-b2a1-7c2108a00afe",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:terminate",
+   "printing": "190ca502-672d-4cc0-b6e0-b9de517058d0",
+   "relation": "proposed_in",
+   "tier": "CANON_REFERENCE",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "IV. Invasion: the Primevals in their own words",
+   "claims": [],
+   "from": "card:treva_s_charm",
+   "printing": "72acb67d-01cb-4fde-8b0b-199e8d1e396a",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "IV. Tarkir: the duel, the fall, and the reforged timeline",
@@ -573,6 +978,33 @@
    "to": "deck:ugin_bolas_elder_dragon_duality"
   },
   {
+   "beat": "commander",
+   "claims": [],
+   "from": "card:the_ur_dragon",
+   "printing": "7e78b70b-0c67-4f14-8ad7-c9f8e3f59743",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:anguished_unmaking",
+   "printing": "90ced4fa-6509-4f7a-9da7-efc70de6f90c",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:arcane_signet",
+   "printing": "84128e98-87d6-4c2f-909b-9435a7833e63",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
    "beat": "playability",
    "claims": [],
    "from": "card:arcane_signet",
@@ -580,6 +1012,15 @@
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:beast_within",
+   "printing": "ce5b6d19-22e3-4f57-8f4d-a17e982286c7",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "playability",
@@ -593,11 +1034,83 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:cavern_of_souls",
+   "printing": "1381c8f1-a292-4bdf-b20c-a5c2a169ee84",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:chaos_warp",
+   "printing": "042431bc-0b21-4920-802f-6dd02e4c8721",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:chromatic_lantern",
+   "printing": "57f4e0f0-13d1-43ed-8d95-13cff94a26e7",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:city_of_brass",
+   "printing": "f4e32327-380d-471e-813b-4c27477787ce",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:command_tower",
+   "printing": "46982091-cc78-4171-8b3d-d07592684728",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:command_tower",
    "printing": "46982091-cc78-4171-8b3d-d07592684728",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:cultivate",
+   "printing": "2ef3dbe4-5c03-4be4-ab48-45b6689b6712",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:despark",
+   "printing": "32b17dfc-b916-4134-ba77-501cff435e7e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:dragonlord_s_servant",
+   "printing": "0ffcdd54-b6be-4d42-82c0-ae927037e859",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "playability",
@@ -620,6 +1133,159 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:exotic_orchard",
+   "printing": "6aae6480-4e71-4d94-a648-f80d3849d792",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:farseek",
+   "printing": "8180abec-9459-4b81-987e-b1794e45d543",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:harmonize",
+   "printing": "4b90dbd0-4672-4c0b-92eb-262ddd11cd32",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:herald_s_horn",
+   "printing": "07b06421-778a-4d23-862b-30fc5fa25928",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:indatha_triome",
+   "printing": "2b74bb81-fb9a-40e5-a941-e517430b52f5",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:jetmir_s_garden",
+   "printing": "26d40e03-6de4-4373-9fbf-04c1dd79e995",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:ketria_triome",
+   "printing": "a249b1f4-2b22-4b67-a207-e0c4ae95d2e1",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:kindred_discovery",
+   "printing": "ed07b7be-bd3d-4dbc-bc92-b5478d3604c6",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:kodama_s_reach",
+   "printing": "85d207ac-0680-47ef-85d9-4323c1321d6f",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:mana_confluence",
+   "printing": "504a69eb-3c2d-4bb1-b117-252b15acf0c2",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:nature_s_lore",
+   "printing": "668d2969-b6b7-4507-bdd4-20bbaa68035a",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:path_of_ancestry",
+   "printing": "70e70720-f0b9-4ad7-9366-927d6798d31e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:raffine_s_tower",
+   "printing": "a2c56479-4bee-4edb-80d7-4af010b7c793",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:rampant_growth",
+   "printing": "a9dd8043-4099-42bb-9d54-4efc8b38fe18",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:raugrin_triome",
+   "printing": "02138fbb-3962-4348-8d31-faaefba0b8b2",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sarkhan_s_unsealing",
+   "printing": "edfa8c8c-8013-46d5-8e80-3d9285fe81c8",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:savai_triome",
+   "printing": "748e6a61-9c1f-4225-9f04-e54002f63ac3",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:shivan_reef",
    "printing": "c3403143-2b4e-4408-b138-c856bbc1e9a5",
    "relation": "proposed_in",
@@ -633,7 +1299,25 @@
    "printing": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:sol_ring",
+   "printing": "c4300d24-1cae-4dd5-be7e-38cc677cf5bd",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:spara_s_headquarters",
+   "printing": "7363f1fb-9af3-4212-921f-d59533faf0e5",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "playability",
@@ -665,6 +1349,15 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:swords_to_plowshares",
+   "printing": "386ea9eb-abc1-4862-aa2d-8fb808d79490",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:talisman_of_creativity",
    "printing": "14a506e4-9a46-4499-a986-eb258e809344",
    "relation": "proposed_in",
@@ -692,11 +1385,47 @@
   {
    "beat": "playability",
    "claims": [],
+   "from": "card:three_visits",
+   "printing": "7c0b6126-c134-4d7d-aa06-ac0f409a9f74",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:unclaimed_territory",
+   "printing": "ff765732-6fe3-4594-bff5-6ce47a79f45a",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
    "from": "card:underground_river",
    "printing": "92369d7e-5e5a-46f9-bb31-c57d62410283",
    "relation": "proposed_in",
    "tier": "MECHANICAL_SYMBOL",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:urza_s_incubator",
+   "printing": "bdf96c2c-b3d6-4d84-9572-fb115a795bed",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:utter_end",
+   "printing": "39643107-8873-42f6-9b4d-b546a0a976ba",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "playability",
@@ -708,6 +1437,33 @@
    "to": "deck:ugin_bolas_elder_dragon_duality"
   },
   {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:xander_s_lounge",
+   "printing": "54f449ff-4025-465e-9ec5-a5cf42c4c9d3",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:zagoth_triome",
+   "printing": "cc520518-2063-4b57-a0d4-10cf62a7175e",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "playability",
+   "claims": [],
+   "from": "card:ziatora_s_proving_ground",
+   "printing": "75fdce80-e338-4a50-bdc6-786511feaeef",
+   "relation": "proposed_in",
+   "tier": "MECHANICAL_SYMBOL",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
    "beat": "story lands",
    "claims": [],
    "from": "card:cinder_barrens",
@@ -715,6 +1471,15 @@
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:crosis_s_catacombs",
+   "printing": "7caad74f-c0d0-4eca-94be-b89a2c9a3980",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "story lands",
@@ -733,6 +1498,24 @@
    "relation": "proposed_in",
    "tier": "LORE_INSPIRED",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:darigaaz_s_caldera",
+   "printing": "752f6f0c-af30-4937-b4a7-48f493e007a0",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:dromar_s_cavern",
+   "printing": "85f10cee-6a63-438e-a9df-6b902dd025b8",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "story lands",
@@ -764,11 +1547,29 @@
   {
    "beat": "story lands",
    "claims": [],
+   "from": "card:rith_s_grove",
+   "printing": "740fa25d-9c1f-44eb-9eb4-0dd514cb315a",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
    "from": "card:tomb_of_the_spirit_dragon",
    "printing": "eb6be7ab-8fad-4606-b623-f2188219d60b",
    "relation": "proposed_in",
    "tier": "CANON_REFERENCE",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "beat": "story lands",
+   "claims": [],
+   "from": "card:treva_s_ruins",
+   "printing": "8bae2458-b54f-426a-ad40-13529a73c423",
+   "relation": "proposed_in",
+   "tier": "LORE_INSPIRED",
+   "to": "deck:original_primeval_dragons"
   },
   {
    "beat": "story lands",
@@ -3624,6 +4425,11 @@
     "cards": 83,
     "file": "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_printing_evidence.json",
     "sha256": "640fbfded8891cdc01f0407d95ae63f0fb03490114832a1c6319a600c92731e0"
+   },
+   {
+    "cards": 85,
+    "file": "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json",
+    "sha256": "e88ad609d22c7fa768513195c26c709ea0acc5ee33f99f3757a2eb95b99f3245"
    }
   ]
  },
@@ -3677,9 +4483,29 @@
    "type": "Object"
   },
   {
+   "id": "card:anguished_unmaking",
+   "name": "Anguished Unmaking",
+   "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:arcades_sabboth",
+   "name": "Arcades Sabboth",
+   "oracle_id": "8ead94c5-8447-4f20-87ec-efdccde689fc",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:arcades_the_strategist",
    "name": "Arcades, the Strategist",
+   "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
    "type": "Card"
@@ -3689,6 +4515,7 @@
    "name": "Arcane Signet",
    "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -3699,6 +4526,24 @@
    "oracle_id": "be5d6779-ecc9-44b9-8c4d-97a243059d55",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:backlash",
+   "name": "Backlash",
+   "oracle_id": "3db9bf7b-da4e-428f-aa5d-a0cd1afeb16c",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:beast_within",
+   "name": "Beast Within",
+   "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -3730,6 +4575,24 @@
    "type": "Card"
   },
   {
+   "id": "card:breath_of_darigaaz",
+   "name": "Breath of Darigaaz",
+   "oracle_id": "1954994f-17bf-4ea5-af72-60f9bfcb6569",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cavern_of_souls",
+   "name": "Cavern of Souls",
+   "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:chandra_s_defeat",
    "name": "Chandra's Defeat",
    "oracle_id": "a57ad23b-cff3-45e5-98b3-1b20224aaa19",
@@ -3739,9 +4602,38 @@
    "type": "Card"
   },
   {
+   "id": "card:chaos_warp",
+   "name": "Chaos Warp",
+   "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chromatic_lantern",
+   "name": "Chromatic Lantern",
+   "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chromium",
+   "name": "Chromium",
+   "oracle_id": "7c91ae5d-0320-46a7-98d2-df0918202478",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:chromium_the_mutable",
    "name": "Chromium, the Mutable",
+   "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
    "type": "Card"
@@ -3752,6 +4644,15 @@
    "oracle_id": "f155a05f-9f5e-4875-a407-103b85ce30ee",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:city_of_brass",
+   "name": "City of Brass",
+   "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -3769,6 +4670,7 @@
    "name": "Command Tower",
    "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -3792,10 +4694,38 @@
    "type": "Card"
   },
   {
+   "id": "card:crosis_s_attendant",
+   "name": "Crosis's Attendant",
+   "oracle_id": "6223b1c0-bfe0-490c-b2d4-28537b05f571",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:crosis_s_catacombs",
+   "name": "Crosis's Catacombs",
+   "oracle_id": "e9a7dede-3968-4b0e-a707-419d46a6fec9",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:crosis_s_charm",
+   "name": "Crosis's Charm",
+   "oracle_id": "e59d70a2-40ac-45b0-995d-65b9caa290c8",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:crosis_the_purger",
    "name": "Crosis, the Purger",
    "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -3845,10 +4775,84 @@
    "type": "Card"
   },
   {
+   "id": "card:cultivate",
+   "name": "Cultivate",
+   "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dakkon_blackblade",
+   "name": "Dakkon Blackblade",
+   "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:dakkon_shadow_slayer",
    "name": "Dakkon, Shadow Slayer",
+   "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:darigaaz_reincarnated",
+   "name": "Darigaaz Reincarnated",
+   "oracle_id": "c2f42c67-ff88-4248-bfa5-79a18c6473d5",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:darigaaz_s_attendant",
+   "name": "Darigaaz's Attendant",
+   "oracle_id": "c0ad16d7-2550-47e0-8581-0e22b27cb0d0",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:darigaaz_s_caldera",
+   "name": "Darigaaz's Caldera",
+   "oracle_id": "19b58ec9-bb88-4193-8ea8-c8f09ceec1ed",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:darigaaz_s_charm",
+   "name": "Darigaaz's Charm",
+   "oracle_id": "7ee01801-5e42-4916-a359-64e9975090a7",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:darigaaz_the_igniter",
+   "name": "Darigaaz, the Igniter",
+   "oracle_id": "6cbafa7b-4448-4ad4-b4f2-0ab6e7c95b0b",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:despark",
+   "name": "Despark",
+   "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -3898,6 +4902,15 @@
    "type": "Card"
   },
   {
+   "id": "card:dragonlord_s_servant",
+   "name": "Dragonlord's Servant",
+   "oracle_id": "faf81ae0-0b35-45ef-a50d-6cecf0c0eeeb",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:dragonlord_silumgar",
    "name": "Dragonlord Silumgar",
    "oracle_id": "44581d4f-746b-43b8-a34d-16dc383ab70e",
@@ -3916,11 +4929,65 @@
    "type": "Card"
   },
   {
+   "id": "card:dromar_s_attendant",
+   "name": "Dromar's Attendant",
+   "oracle_id": "91d36a9d-3a3f-4cb7-837d-b1e8f6730512",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dromar_s_cavern",
+   "name": "Dromar's Cavern",
+   "oracle_id": "d8b57707-796d-4488-8f91-65bb75bc6281",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dromar_s_charm",
+   "name": "Dromar's Charm",
+   "oracle_id": "e9950393-8458-4132-9dc7-01246282a41a",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dromar_the_banisher",
+   "name": "Dromar, the Banisher",
+   "oracle_id": "35ad7f82-a1b1-4aa7-a8b0-3f99ca2cff52",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:drowned_catacomb",
    "name": "Drowned Catacomb",
    "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:exotic_orchard",
+   "name": "Exotic Orchard",
+   "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:farseek",
+   "name": "Farseek",
+   "oracle_id": "495e52e6-4c2b-4574-9474-eadbdcc8b4ac",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -3952,6 +5019,15 @@
    "type": "Card"
   },
   {
+   "id": "card:geyadrone_dihada",
+   "name": "Geyadrone Dihada",
+   "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ghostfire",
    "name": "Ghostfire",
    "oracle_id": "3479a4e6-c67d-4958-8a47-43d3a2f69bb1",
@@ -3979,6 +5055,15 @@
    "type": "Card"
   },
   {
+   "id": "card:harmonize",
+   "name": "Harmonize",
+   "oracle_id": "7eff84f1-f772-497a-b350-bbc93d0230f7",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:haven_of_the_spirit_dragon",
    "name": "Haven of the Spirit Dragon",
    "oracle_id": "acc9c16a-5e72-43bd-87e1-56a16aa892f5",
@@ -3997,11 +5082,38 @@
    "type": "Card"
   },
   {
+   "id": "card:herald_s_horn",
+   "name": "Herald's Horn",
+   "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:hour_of_devastation",
    "name": "Hour of Devastation",
    "oracle_id": "b9ea0d4c-cd71-4817-8213-96899e1a14bb",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:indatha_triome",
+   "name": "Indatha Triome",
+   "oracle_id": "ec2b3779-55f7-4169-aa66-6312fb52721f",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:insolence",
+   "name": "Insolence",
+   "oracle_id": "33a6d78a-a3c7-44f1-8ce9-d6632123fec1",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4020,6 +5132,42 @@
    "oracle_id": "8ed8e27b-2137-4e19-99bb-5e0d6d32e3af",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jetmir_s_garden",
+   "name": "Jetmir's Garden",
+   "oracle_id": "f5896356-5744-4f7e-a4e5-1cc36dde5958",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ketria_triome",
+   "name": "Ketria Triome",
+   "oracle_id": "6bae00e8-06cf-4ac4-a1cc-757e454109fe",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kindred_discovery",
+   "name": "Kindred Discovery",
+   "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kodama_s_reach",
+   "name": "Kodama's Reach",
+   "oracle_id": "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4069,11 +5217,38 @@
    "type": "Card"
   },
   {
+   "id": "card:malicious_advice",
+   "name": "Malicious Advice",
+   "oracle_id": "14c1adf8-950b-4f64-9c84-956a623448f4",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mana_confluence",
+   "name": "Mana Confluence",
+   "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:mana_drain",
    "name": "Mana Drain",
    "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nature_s_lore",
+   "name": "Nature's Lore",
+   "oracle_id": "78826359-fe63-44ad-adc4-a17ffcd710e4",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4091,6 +5266,7 @@
    "name": "Nicol Bolas",
    "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -4144,6 +5320,7 @@
    "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
@@ -4159,10 +5336,30 @@
    "type": "Card"
   },
   {
+   "id": "card:palladia_mors",
+   "name": "Palladia-Mors",
+   "oracle_id": "d7121ac7-e425-46cd-b006-1af391d97f87",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:palladia_mors_the_ruiner",
    "name": "Palladia-Mors, the Ruiner",
+   "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:path_of_ancestry",
+   "name": "Path of Ancestry",
+   "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4178,16 +5375,92 @@
   {
    "id": "card:piru_the_volatile",
    "name": "Piru, the Volatile",
+   "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:pyretic_rebirth",
+   "name": "Pyretic Rebirth",
+   "oracle_id": "a38ace5b-34f5-4105-b6ee-dedb86037729",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:raffine_s_tower",
+   "name": "Raffine's Tower",
+   "oracle_id": "6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rampant_growth",
+   "name": "Rampant Growth",
+   "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:raugrin_triome",
+   "name": "Raugrin Triome",
+   "oracle_id": "c7fa1dda-9312-4ec8-82cd-a1ba7bc33497",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
   {
    "id": "card:rith_liberated_primeval",
    "name": "Rith, Liberated Primeval",
+   "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rith_s_attendant",
+   "name": "Rith's Attendant",
+   "oracle_id": "781542b7-155b-4a66-aa52-eec0ebb29bb2",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rith_s_charm",
+   "name": "Rith's Charm",
+   "oracle_id": "9dbccdc5-61f7-4a7d-bbbc-5cab393e24f7",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rith_s_grove",
+   "name": "Rith's Grove",
+   "oracle_id": "e13289e5-370b-435b-a38e-cf57c3078cec",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rith_the_awakener",
+   "name": "Rith, the Awakener",
+   "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4197,6 +5470,15 @@
    "oracle_id": "787935ab-26a6-4b4a-9c14-e106160e951d",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_s_unsealing",
+   "name": "Sarkhan's Unsealing",
+   "oracle_id": "c27c9514-7b5a-461a-a109-f8abafd83523",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4219,11 +5501,38 @@
    "type": "Card"
   },
   {
+   "id": "card:savai_triome",
+   "name": "Savai Triome",
+   "oracle_id": "00625242-9348-4ef4-b975-f2ac82fee21d",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:scion_of_the_ur_dragon",
+   "name": "Scion of the Ur-Dragon",
+   "oracle_id": "b4031540-584b-4c8a-9e4e-d68ae5cdec5b",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:shivan_reef",
    "name": "Shivan Reef",
    "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shriek_of_dread",
+   "name": "Shriek of Dread",
+   "oracle_id": "ee5a4902-f993-4fe6-92da-38636962c558",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4241,6 +5550,7 @@
    "name": "Sol Ring",
    "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -4251,6 +5561,15 @@
    "oracle_id": "419c2ae1-fec7-4c27-a7a0-99f777abb4de",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:spara_s_headquarters",
+   "name": "Spara's Headquarters",
+   "oracle_id": "3123ec89-8e95-4761-ba17-747ec667509f",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -4291,6 +5610,15 @@
    "type": "Card"
   },
   {
+   "id": "card:swords_to_plowshares",
+   "name": "Swords to Plowshares",
+   "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:talisman_of_creativity",
    "name": "Talisman of Creativity",
    "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
@@ -4318,6 +5646,15 @@
    "type": "Card"
   },
   {
+   "id": "card:terminate",
+   "name": "Terminate",
+   "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:tezzeret_agent_of_bolas",
    "name": "Tezzeret, Agent of Bolas",
    "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
@@ -4331,6 +5668,7 @@
    "name": "The Elder Dragon War",
    "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
@@ -4364,6 +5702,24 @@
    "type": "Card"
   },
   {
+   "id": "card:the_ur_dragon",
+   "name": "The Ur-Dragon",
+   "oracle_id": "87b22b09-4f6d-4bc5-9cfc-663e4c7c6981",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:three_visits",
+   "name": "Three Visits",
+   "oracle_id": "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "exact_story_art_printings": [
     "824bf3cc-fb35-4bc1-998c-6758b1eed2ca",
     "c5c2da3e-5e82-4236-b866-93bec88d86b0",
@@ -4378,6 +5734,42 @@
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "48a2cb02-6af1-4bae-a577-2880ca822b9e",
+   "type": "Card"
+  },
+  {
+   "id": "card:treva_s_attendant",
+   "name": "Treva's Attendant",
+   "oracle_id": "ff7d927f-0a01-4243-ad00-c65686ee86bb",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:treva_s_charm",
+   "name": "Treva's Charm",
+   "oracle_id": "e9795590-0918-49f9-b37c-1278c8616ab1",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:treva_s_ruins",
+   "name": "Treva's Ruins",
+   "oracle_id": "7b2c7758-2b89-49ff-8838-8dc9880c7209",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:treva_the_renewer",
+   "name": "Treva, the Renewer",
+   "oracle_id": "72524f3c-674b-4ebf-9526-18737b354010",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
    "type": "Card"
   },
   {
@@ -4462,11 +5854,21 @@
    "name": "Ugin, the Spirit Dragon",
    "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "story_art_illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+   "type": "Card"
+  },
+  {
+   "id": "card:unclaimed_territory",
+   "name": "Unclaimed Territory",
+   "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
    "type": "Card"
   },
   {
@@ -4479,9 +5881,38 @@
    "type": "Card"
   },
   {
+   "id": "card:urza_s_incubator",
+   "name": "Urza's Incubator",
+   "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:utter_end",
+   "name": "Utter End",
+   "oracle_id": "cba94732-1f1f-4ffd-9aba-45db990043fa",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:vaevictis_asmadi",
+   "name": "Vaevictis Asmadi",
+   "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vaevictis_asmadi_the_dire",
    "name": "Vaevictis Asmadi, the Dire",
+   "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
    "origins": [
+    "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
    "type": "Card"
@@ -4528,6 +5959,33 @@
    "oracle_id": "afeb9de8-7030-4797-a9c8-5a99de3c410f",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:xander_s_lounge",
+   "name": "Xander's Lounge",
+   "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zagoth_triome",
+   "name": "Zagoth Triome",
+   "oracle_id": "fdd46004-eaba-4024-8687-39b23dc6a58c",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ziatora_s_proving_ground",
+   "name": "Ziatora's Proving Ground",
+   "oracle_id": "f7e7b78c-c769-4720-8585-1874773eb342",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
   },
@@ -5959,6 +7417,16 @@
    "type": "Concept"
   },
   {
+   "id": "deck:original_primeval_dragons",
+   "name": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+   "origins": [
+    "original_primeval_dragons_printing_evidence.json"
+   ],
+   "raw_sha256": "6ef1af37c371891b7d3e60a08c2d1bcee1d1205f2c01e5c3093a220fb4414888",
+   "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
+   "type": "DeckProposal"
+  },
+  {
    "id": "deck:ugin_bolas_elder_dragon_duality",
    "name": "Ugin & Nicol Bolas - Elder Dragon Duality (Phase 6 Pilot 1)",
    "origins": [
@@ -6644,16 +8112,16 @@
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 22,
-  "edges": 488,
+  "edges": 573,
   "literal_objects": 7,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 90,
+   "Card": 160,
    "CardTheme": 1,
    "Character": 33,
    "Claim": 78,
    "Concept": 26,
-   "DeckProposal": 1,
+   "DeckProposal": 2,
    "Event": 13,
    "Faction": 2,
    "Literal": 7,
@@ -6662,7 +8130,7 @@
    "Plane": 5,
    "Source": 37
   },
-  "nodes": 305,
+  "nodes": 376,
   "non_wizards_sources": 0,
   "relations": 79,
   "wizards_official_sources": 37
