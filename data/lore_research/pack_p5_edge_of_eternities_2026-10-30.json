@@ -1,0 +1,537 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_edge_of_eternities",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "EOE",
+ "scope": "Targeted Phase 5 extraction from the official Edge of Eternities Magic Story episodes (2025-06-20 to 2025-07-07), the Planeswalker's Guide to Edge of Eternities and The Legends of Edge of Eternities. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_edge_of_eternities.spec.json",
+ "source_register": {
+  "guide": {
+   "title": "Planeswalker's Guide to Edge of Eternities",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-06-20"
+  },
+  "legends": {
+   "title": "The Legends of Edge of Eternities",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-legends-of-edge-of-eternities",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-07-22"
+  },
+  "ep8": {
+   "title": "Edge of Eternities | Episode 8",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-8",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-07-02"
+  },
+  "ep9": {
+   "title": "Edge of Eternities | Episode 9",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-9",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-07-03"
+  },
+  "ep10": {
+   "title": "Edge of Eternities | Episode 10",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-07-04"
+  },
+  "ep11": {
+   "title": "Edge of Eternities | Episode 11",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-07-07"
+  }
+ },
+ "entities": [
+  {
+   "id": "sothera",
+   "type": "Place",
+   "name": "The Sothera system"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  },
+  {
+   "id": "sami",
+   "type": "Character",
+   "name": "Sami"
+  },
+  {
+   "id": "tannuk",
+   "type": "Character",
+   "name": "Tannuk"
+  },
+  {
+   "id": "seriema",
+   "type": "Object",
+   "name": "The Seriema (starship)"
+  },
+  {
+   "id": "haliya",
+   "type": "Character",
+   "name": "Haliya"
+  },
+  {
+   "id": "vondam",
+   "type": "Character",
+   "name": "Syr Vondam"
+  },
+  {
+   "id": "sunstar_free_company",
+   "type": "Faction",
+   "name": "Sunstar Free Company"
+  },
+  {
+   "id": "dawnsire",
+   "type": "Object",
+   "name": "The Dawnsire"
+  },
+  {
+   "id": "monoists",
+   "type": "Faction",
+   "name": "The Monoist faith"
+  },
+  {
+   "id": "sotheran_supervoid",
+   "type": "Place",
+   "name": "The Sotheran supervoid"
+  },
+  {
+   "id": "alpharael",
+   "type": "Character",
+   "name": "Alpharael"
+  },
+  {
+   "id": "mmmenon",
+   "type": "Character",
+   "name": "Mm'menon"
+  },
+  {
+   "id": "endstone",
+   "type": "Object",
+   "name": "The Endstone"
+  },
+  {
+   "id": "last_thing_android",
+   "type": "Character",
+   "name": "The android calling itself 'the last thing'"
+  },
+  {
+   "id": "pinnacle",
+   "type": "Faction",
+   "name": "Pinnacle"
+  },
+  {
+   "id": "kav_of_taro_duend",
+   "type": "Faction",
+   "name": "The Kav of Taro-duend"
+  },
+  {
+   "id": "blind_eternities",
+   "type": "Concept",
+   "name": "The Blind Eternities"
+  }
+ ],
+ "claims": [
+  {
+   "id": "EO001",
+   "subject": "tezzeret",
+   "predicate": "left",
+   "object": "blind_eternities",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eoe_prologue_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "He was ejected from the Blind Eternities by methods still unknown."
+    },
+    {
+     "source_id": "legends",
+     "quote": "However, Tezzeret's travels have brought him to an unexpected destination."
+    }
+   ],
+   "summary": "After the Phyrexian invasion, Tezzeret was ejected from the Blind Eternities into the Edge by unknown means.",
+   "limitation": ""
+  },
+  {
+   "id": "EO002",
+   "subject": "tezzeret",
+   "predicate": "sought",
+   "object": "sothera",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "He bides his time fencing stolen goods, filing the numbers off the transponders of stolen spacecraft, and monopolizing the ice water trade—all while aiming to lay the foundations of a criminal consortium."
+    },
+    {
+     "source_id": "legends",
+     "quote": "Though Tezzeret's original goal was to find a way home, now he's not so sure."
+    }
+   ],
+   "summary": "In the Edge, Tezzeret builds a criminal consortium and is no longer sure he wants to go home.",
+   "limitation": ""
+  },
+  {
+   "id": "EO003",
+   "subject": "sami",
+   "predicate": "leader_of",
+   "object": "seriema",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "The plucky young captain of the Seriema, Sami is a wildcat, an unaffiliated freelancer with their own ship who takes jobs from anyone paying—whether with mallowmass or something archaic like currency."
+    }
+   ],
+   "summary": "Sami is the freelancer captain of the Seriema.",
+   "limitation": ""
+  },
+  {
+   "id": "EO004",
+   "subject": "tannuk",
+   "predicate": "allied_with",
+   "object": "sami",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "Together with their first mate, Tannuk, Sami is looking for the score that will restore their fortunes."
+    },
+    {
+     "source_id": "legends",
+     "quote": "Today, Tannuk is the last remaining member of Sami's crew after the rest split for a more lucrative ship."
+    }
+   ],
+   "summary": "Tannuk, a dishonorably discharged Kav navy pilot, is Sami's first mate and last remaining crew member.",
+   "limitation": ""
+  },
+  {
+   "id": "EO005",
+   "subject": "haliya",
+   "predicate": "swore_to",
+   "object": "vondam",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "Having recently arrived in Sothera, Haliya is a bright and eager squire in the Sunstar Free Company."
+    },
+    {
+     "source_id": "legends",
+     "quote": "Haliya has pledged her bladiator to the service of Syr Vondam, her mentor and idol who has trained her since she was a young woman."
+    }
+   ],
+   "summary": "Haliya is a Sunstar Free Company squire who pledged her service to her mentor Syr Vondam.",
+   "limitation": ""
+  },
+  {
+   "id": "EO006",
+   "subject": "vondam",
+   "predicate": "guardian_of",
+   "object": "dawnsire",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "Syr Vondam is a high-ranking knight of the Sunstar Free Company who commands a knightly host assigned to defend the Dawnsire."
+    }
+   ],
+   "summary": "Syr Vondam commands the knightly host defending the Dawnsire.",
+   "limitation": ""
+  },
+  {
+   "id": "EO007",
+   "subject": "monoists",
+   "predicate": "opposed",
+   "object": "dawnsire",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "She traveled there aboard the Dawnsire, a horizon javelin and kilometers-long vessel that will reignite the Sotheran supervoid—something the system's Monoists will do anything to prevent."
+    }
+   ],
+   "summary": "The Dawnsire is meant to reignite the Sotheran supervoid; the Monoists will do anything to prevent it.",
+   "limitation": ""
+  },
+  {
+   "id": "EO008",
+   "subject": "alpharael",
+   "predicate": "opposed",
+   "object": "sunstar_free_company",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "Alpharael is a young acolyte who has lived his entire life inside the Monoist monastery in the shadow of the Sotheran supervoid."
+    },
+    {
+     "source_id": "legends",
+     "quote": "Now tasked with eliminating the Sunstar Free Company's hold on Sothera—a mission he is unlikely to survive—he finds his faith wavering."
+    }
+   ],
+   "summary": "Alpharael, a Monoist acolyte, is tasked with eliminating the Sunstar Free Company's hold on Sothera.",
+   "limitation": ""
+  },
+  {
+   "id": "EO009",
+   "subject": "mmmenon",
+   "predicate": "allied_with",
+   "object": "tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "legends"
+   ],
+   "evidence": [
+    {
+     "source_id": "legends",
+     "quote": "After being expelled from the Combine, Mm'menon lent their services to Tezzeret to stay in-system, hoping to solve the mystery of Uthros and capitalize on it."
+    }
+   ],
+   "summary": "The expelled Illvoi researcher Mm'menon serves Tezzeret.",
+   "limitation": ""
+  },
+  {
+   "id": "EO010",
+   "subject": "tezzeret",
+   "predicate": "sought",
+   "object": "endstone",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "\"Yes. I chose the most desperate, disposable pawns in my employ. So that they could not succeed except by the favor of the thing hidden on Sigma."
+    },
+    {
+     "source_id": "ep11",
+     "quote": "And I made it my genuine intention to bring that thing, once it was in my possession, wherever it wanted to go.\""
+    }
+   ],
+   "summary": "Tezzeret says he deliberately sent Sami's crew after the Endstone on Sigma and intended to take it wherever it wanted to go.",
+   "limitation": "Motive is stated by Tezzeret in dialogue; his account is not independently confirmed by narration."
+  },
+  {
+   "id": "EO011",
+   "subject": "vondam",
+   "predicate": "killed",
+   "object": "kav_of_taro_duend",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eoe_taro_duend_2025",
+   "source_ids": [
+    "ep8",
+    "ep11",
+    "ep10",
+    "ep9"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep8",
+     "quote": "The Sundog is killing everything in Taro-duend with its lasers."
+    },
+    {
+     "source_id": "ep11",
+     "quote": "\"Syr,\" she says, unable to break the habit of respect, \"it wasn't the Endstone. You just shouldn't have murdered all those Kav."
+    },
+    {
+     "source_id": "ep10",
+     "quote": "All the Kav in Taro-duend rose up to protect Sami and Tannuk and Alpharael from the Free Company. All the Kav in Taro-duend died for it."
+    },
+    {
+     "source_id": "ep9",
+     "quote": "\"Isn't that what Vondam must've told himself before he gave the order to kill everyone in Taro-duend?"
+    }
+   ],
+   "summary": "The Free Company destroys the Kav settlement at Taro-duend; Haliya holds Vondam responsible for the massacre.",
+   "limitation": "Narration shows the Sundog attacking Taro-duend; Vondam's personal order is attributed in character dialogue, and the story leaves open whether the Endstone influenced him."
+  },
+  {
+   "id": "EO012",
+   "subject": "haliya",
+   "predicate": "left",
+   "object": "sunstar_free_company",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eoe_endgame_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "I've been cast out of the Free Company, but I am still a Summist. I place myself on errantry."
+    }
+   ],
+   "summary": "After Taro-duend, Haliya is cast out of the Sunstar Free Company and goes on errantry, still a Summist.",
+   "limitation": ""
+  },
+  {
+   "id": "EO013",
+   "subject": "last_thing_android",
+   "predicate": "seized_control_of",
+   "object": "endstone",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eoe_endgame_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "The figure translates beside him. The Endstone falls into its hand."
+    },
+    {
+     "source_id": "ep11",
+     "quote": "But stars and nebulae close before it, and it is gone. Just gone. The Endstone with it."
+    },
+    {
+     "source_id": "ep11",
+     "quote": "\"I am the last thing,\" the beautiful android says."
+    }
+   ],
+   "summary": "An android calling itself 'the last thing' appears aboard the Seriema, takes the Endstone and vanishes with it.",
+   "limitation": ""
+  },
+  {
+   "id": "EO014",
+   "subject": "tezzeret",
+   "predicate": "gave_up",
+   "object": "endstone",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eoe_endgame_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "Tezzeret's mission is complete. The Endstone has been delivered. He has his glimpse of higher power."
+    }
+   ],
+   "summary": "Tezzeret considers his mission complete once the Endstone is delivered to the android.",
+   "limitation": ""
+  },
+  {
+   "id": "EO015",
+   "subject": "last_thing_android",
+   "predicate": "opposed",
+   "object": "haliya",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eoe_endgame_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "The other fingers on its hand fasten around Haliya's throat and crush."
+    },
+    {
+     "source_id": "ep11",
+     "quote": "Haliya's blade goes through two of its fingers."
+    }
+   ],
+   "summary": "Haliya attacks the android, severing two fingers; it crushes her throat (treatable).",
+   "limitation": ""
+  },
+  {
+   "id": "EO016",
+   "subject": "pinnacle",
+   "predicate": "related_to",
+   "object": "sothera",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "sothera_eoe_2025",
+   "source_ids": [
+    "guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "guide",
+     "quote": "Pinnacle is a collective administrative entity."
+    },
+    {
+     "source_id": "guide",
+     "quote": "In fact, intrasystem conflict and commerce are founding concerns of Pinnacle; namely, the cessation of the former and the encouragement of the latter."
+    }
+   ],
+   "summary": "Pinnacle is the collective interstellar administration whose founding concerns are ending conflict and encouraging commerce.",
+   "limitation": "related_to is a weak placeholder; the guide does not give Pinnacle's exact jurisdiction over Sothera in these sentences."
+  },
+  {
+   "id": "EO017",
+   "subject": "haliya",
+   "predicate": "seized_control_of",
+   "object": "endstone",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eoe_taro_duend_2025",
+   "source_ids": [
+    "ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "ep11",
+     "quote": "\"Syr,\" Haliya manages, \"it wasn't your choice. It was mine. I took the Endstone away. It's not on you.\""
+    },
+    {
+     "source_id": "ep11",
+     "quote": "\"Yes. That was your error. And it was my responsibility to kill you for it. Which I failed to do, because I let love outshine duty."
+    }
+   ],
+   "summary": "Haliya took the Endstone away from Vondam and the Free Company; Vondam says he failed in his duty to kill her for it.",
+   "limitation": "Both statements are dialogue in Episode 11; the act itself occurs in earlier episodes not cited here."
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Episodes 2-7 (Uthros, the Seriema's flight, Vondam's head wound) are only lightly used",
+  "Side stories (Grasp in the Dark, The Doors of Uthros, Kadrik and the Pod, Compact Me to Zero, The Wefthunter) are not cited",
+  "The android's identity and the supervoid's nature are left as open questions; not graded"
+ ]
+}
