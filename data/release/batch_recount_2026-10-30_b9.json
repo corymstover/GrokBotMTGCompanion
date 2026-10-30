@@ -1,0 +1,199 @@
+{
+  "coverage": {
+    "arcs": 33,
+    "arcs_all_cited": 31,
+    "arcs_all_cited_or_reviewed": 32,
+    "arcs_not_started": 0,
+    "arcs_partial": 2,
+    "cited_pages": 466,
+    "claims": 939,
+    "pack_urls_outside_inventory": 12,
+    "pages": 626,
+    "reviewed_no_claim_pages": 36
+  },
+  "graph": {
+    "edges": 5741,
+    "nodes": 3580,
+    "stats": {
+      "claim_edges_with_era": 966,
+      "claim_edges_with_in_universe_date": 0,
+      "claims_by_status": {
+        "ALTERNATE_CONTINUITY": 2,
+        "CANON_CONFIRMED": 753,
+        "CANON_DISPUTED": 7,
+        "CANON_IMPLIED": 175,
+        "OPEN_QUESTION": 2
+      },
+      "curated_bridges": 118,
+      "edges": 5741,
+      "literal_objects": 14,
+      "node_types": {
+        "AlternateContinuity": 1,
+        "Card": 1330,
+        "CardTheme": 1,
+        "Character": 407,
+        "Claim": 939,
+        "Concept": 139,
+        "DeckProposal": 3,
+        "Event": 22,
+        "Faction": 95,
+        "Literal": 14,
+        "Object": 45,
+        "Place": 63,
+        "Plane": 31,
+        "Source": 490
+      },
+      "nodes": 3580,
+      "non_wizards_sources": 0,
+      "relations": 316,
+      "wizards_official_sources": 490
+    }
+  },
+  "meaning": "Recount of committed artifacts plus representative mv_ask regressions; not approval or certification.",
+  "queries": [
+    {
+      "confidence": "VERIFIED",
+      "expected": "Mishra",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who is Urza's brother?",
+      "route": "ask->lore:sibling_of|twin_sibling_of"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Nicol Bolas",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who is Ugin's brother?",
+      "route": "ask->lore:sibling_of|twin_sibling_of"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Karn",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who killed Elesh Norn?",
+      "route": "ask->lore:killed"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Nicol Bolas",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who defeated Ugin?",
+      "route": "ask->lore:defeated"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Azor",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who created the Immortal Sun?",
+      "route": "ask->lore:created"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Liliana Vess",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who killed Razaketh?",
+      "route": "ask->lore:killed"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Eiko",
+      "flags": [
+        "MATCHED_BY_FIRST_NAME"
+      ],
+      "found": true,
+      "ok": true,
+      "question": "Who is Kaito's sister?",
+      "route": "ask->lore:sibling_of|twin_sibling_of"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Narset",
+      "flags": [],
+      "found": true,
+      "ok": true,
+      "question": "Who mentored Taigam?",
+      "route": "ask->lore:mentored"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Ral Zarek",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS"
+      ],
+      "found": true,
+      "ok": true,
+      "question": "Who leads the Izzet?",
+      "route": "ask->lore:leader_of"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Teysa Karlov",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "MULTIPLE_LEADERS_ACROSS_ERAS"
+      ],
+      "found": true,
+      "ok": true,
+      "question": "Who leads the Orzhov?",
+      "route": "ask->lore:leader_of"
+    },
+    {
+      "confidence": "VERIFIED",
+      "expected": "Surrak Dragonclaw",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "MULTIPLE_LEADERS_ACROSS_ERAS",
+        "ERA_OR_TIMELINE_CONTEXT"
+      ],
+      "found": true,
+      "ok": true,
+      "question": "Who leads the Temur?",
+      "route": "ask->lore:leader_of"
+    },
+    {
+      "confidence": "QUALIFIED",
+      "expected": "Ojutai",
+      "flags": [
+        "MATCHED_BY_FACTION_ALIAS",
+        "CANON_IMPLIED_PRESENT"
+      ],
+      "found": true,
+      "ok": true,
+      "question": "Who rules the Jeskai?",
+      "route": "ask->lore:ruled"
+    },
+    {
+      "confidence": "NOT_FOUND",
+      "expected": null,
+      "flags": [
+        "NO_CITED_LORE"
+      ],
+      "found": false,
+      "ok": true,
+      "question": "Who is Zorblax the Unreal's brother?",
+      "route": "ask->lore:sibling_of|twin_sibling_of"
+    }
+  ],
+  "queries_ok": 13,
+  "queries_total": 13,
+  "schema": "batch-recount/v1",
+  "untagged": {
+    "arc": "(untagged)",
+    "cited_pages": 69,
+    "pages": 227,
+    "review_status": "PARTIAL",
+    "reviewed_no_claim_pages": 34,
+    "status": "PARTIAL"
+  }
+}
