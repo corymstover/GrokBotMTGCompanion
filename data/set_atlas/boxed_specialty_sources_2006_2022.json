@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "commander_modern_source_audit_2026-10-29.json",
+  "scope": "Fourteen source-backed historical preconstructed/boxed/premium-deck Scryfall product records, with direct official Wizards articles or Wizards' Japanese product archive. Sources establish family/boxed releases without inferring modern card legality, complete printings or premier-set status.",
+  "records": [
+    {"code": "cst", "official_url": "https://magic.wizards.com/en/news/making-magic/coldsnap-qa-2006-02-06", "source_section": "Coldsnap Q&A — theme decks made for the July 21, 2006 release", "source_grade": "named_product_family_crosswalk"},
+    {"code": "h09", "official_url": "https://mtg-jp.com/products/0000145/", "source_section": "Premium Deck Series: SLIVERS — 60-card foil deck, official three-letter code H09", "source_grade": "official_product_code_and_release"},
+    {"code": "pd2", "official_url": "https://mtg-jp.com/products/0000146/", "source_section": "Premium Deck Series: Fire & Lightning — official three-letter code PD2", "source_grade": "official_product_code_and_release"},
+    {"code": "pd3", "official_url": "https://mtg-jp.com/products/0000147/", "source_section": "Premium Deck Series: Graveborn — official three-letter code PD3", "source_grade": "official_product_code_and_release"},
+    {"code": "md1", "official_url": "https://mtg-jp.com/products/0000148/", "source_section": "Modern Event Deck — 60-card Modern deck plus sideboard, official three-letter code MD1", "source_grade": "official_product_code_and_release"},
+    {"code": "e02", "official_url": "https://magic.wizards.com/en/news/announcements/exploring-decklists-explorers-ixalan-2017-11-07", "source_section": "Explorers of Ixalan — four preconstructed decks in board-game box", "source_grade": "named_product_family_crosswalk"},
+    {"code": "gk1", "official_url": "https://magic.wizards.com/en/news/announcements/guilds-ravnica-guild-kits-2018-09-25", "source_section": "Guilds of Ravnica Guild Kits — five guild-themed preconstructed decks", "source_grade": "named_product_family_crosswalk"},
+    {"code": "g18", "official_url": "https://magic.wizards.com/en/news/announcements/introducing-magic-game-night-and-updated-gift-pack-2018-08-27", "source_section": "Updated Core Set 2019 Gift Pack — boosters and exclusive foil creature cards", "source_grade": "named_product_family_crosswalk"},
+    {"code": "gnt", "official_url": "https://magic.wizards.com/en/news/announcements/introducing-magic-game-night-and-updated-gift-pack-2018-08-27", "source_section": "Magic Game Night — five monocolor preconstructed decks for multiplayer", "source_grade": "named_product_family_crosswalk"},
+    {"code": "gk2", "official_url": "https://magic.wizards.com/en/news/announcements/ravnica-allegiance-guild-kits-2019-01-15", "source_section": "Ravnica Allegiance Guild Kits — five preconstructed guild decks", "source_grade": "named_product_family_crosswalk"},
+    {"code": "gn2", "official_url": "https://magic.wizards.com/en/news/announcements/game-night-decklists-2019-10-14", "source_section": "Game Night 2019 Decklists — five preconstructed decks", "source_grade": "named_product_family_crosswalk"},
+    {"code": "q06", "official_url": "https://magic.wizards.com/en/news/announcements/pioneer-challenger-decks-2021-08-24", "source_section": "Pioneer Challenger Decks 2021 — four 75-card tabletop deck products", "source_grade": "named_product_family_crosswalk"},
+    {"code": "q07", "official_url": "https://magic.wizards.com/en/news/feature/challenger-decks-2022", "source_section": "Challenger Decks 2022 — Standard-oriented preconstructed products", "source_grade": "named_product_family_crosswalk"},
+    {"code": "gn3", "official_url": "https://magic.wizards.com/en/news/announcements/game-night-free-all-2022-decklists-2022-09-29", "source_section": "Game Night: Free-for-All — five preconstructed decks, separately corrected printed insert", "source_grade": "named_product_family_crosswalk"}
+  ],
+  "source_caveats": [
+    "The single 2018 Wizards article has separate Game Night and Updated Gift Pack sections, supporting different gnt and g18 products without implying independent official set codes.",
+    "For Game Night: Free-for-All, Wizards separately corrected an erroneous Dark Sacrifice printed decklist insert; a web decklist is not an exact printing audit.",
+    "Japanese Wizards Premium Deck Series and Modern Event Deck product pages directly print the set code. These are stronger code evidence than normal named-family crosswalks.",
+    "The 2006 Coldsnap Q&A establishes the theme deck product family, not a direct printed CST code."
+  ]
+}

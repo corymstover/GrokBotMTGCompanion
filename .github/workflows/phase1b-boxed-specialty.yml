@@ -1,0 +1,35 @@
+name: Phase 1B boxed and premium-deck first-party evidence
+on:
+  push:
+    branches: [main, chatgpt-phase1b-boxed-specialty-20261029]
+    paths:
+      - scripts/audit_boxed_specialty_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_boxed_specialty_sources.py
+      - data/set_atlas/boxed_specialty_*
+      - .github/workflows/phase1b-boxed-specialty.yml
+  pull_request:
+    paths:
+      - scripts/audit_boxed_specialty_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_boxed_specialty_sources.py
+      - data/set_atlas/boxed_specialty_*
+      - .github/workflows/phase1b-boxed-specialty.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  boxed-specialty-source-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify 14 source grades and previous evidence preservation
+        run: python3 -m unittest discover -s tests -p test_boxed_specialty_sources.py -v
+      - name: Rebuild bounded source report and current lookup
+        run: |
+          python3 scripts/audit_boxed_specialty_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_boxed_specialty_sources.py scripts/product_family_lookup.py
