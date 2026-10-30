@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "e2eddafba88f9a667aed46e58d89b076ad5c36d6206e003faaf42af932d1c606",
+ "content_sha256": "75fd911c18b3b05039b979f5c6ee738d28510019eae139e35b7b3e8e5c5310b2",
  "edges": [
   {
    "artists": [
@@ -9827,6 +9827,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:akiri",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:akiri_fearless_voyager"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:akiri",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:akiri_line_slinger"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:akul",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -11689,6 +11703,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lorthos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lorthos_the_tidemaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:lukka",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12221,6 +12242,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:obuun",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:obuun_mul_daya_ancestor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:odric",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12316,6 +12344,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:oona_queen_of_the_fae"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:orah",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:orah_skyclave_hierophant"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -13891,6 +13926,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:zahur_glory_s_past"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zareth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zareth_san_the_trickster"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -25783,6 +25825,198 @@
    "to": "artifact:the_belligerent"
   },
   {
+   "claim": "ZN001",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "zr_ep5"
+   ],
+   "to": "character:nahiri"
+  },
+  {
+   "claim": "ZN002",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "relation": "wielded",
+   "sources": [
+    "zr_ep5"
+   ],
+   "to": "artifact:lithoform_core"
+  },
+  {
+   "claim": "ZN003",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_IMPLIED",
+   "relation": "imprisoned",
+   "sources": [
+    "zr_ep1"
+   ],
+   "to": "faction:eldrazi"
+  },
+  {
+   "claim": "ZN004",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ulamog",
+   "grade": "CANON_CONFIRMED",
+   "relation": "enslaved",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "faction:zendikar_vampires"
+  },
+  {
+   "claim": "ZN005",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kesenya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "explored",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "place:emeria_skyclave"
+  },
+  {
+   "claim": "ZN006",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kesenya",
+   "grade": "CANON_IMPLIED",
+   "relation": "founded",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "faction:sea_gate_expeditionary_house"
+  },
+  {
+   "claim": "ZN007",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:kargan_tribes",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "place:akoum_skyclave"
+  },
+  {
+   "claim": "ZN008",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:ondu_skyclave",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rebelled_against",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "place:makindi"
+  },
+  {
+   "claim": "ZN009",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:makindi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_in",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "place:ondu"
+  },
+  {
+   "claim": "ZN010",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lorthos",
+   "grade": "OPEN_QUESTION",
+   "relation": "dragged_into_sea",
+   "sources": [
+    "zr_world"
+   ],
+   "to": "place:murasa_skyclave"
+  },
+  {
+   "claim": "ZN011",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ayya",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mother_of",
+   "sources": [
+    "zr_root"
+   ],
+   "to": "character:obuun"
+  },
+  {
+   "claim": "ZN012",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dykaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "uncle_of",
+   "sources": [
+    "zr_root"
+   ],
+   "to": "character:obuun"
+  },
+  {
+   "claim": "ZN013",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:obuun",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "zr_root"
+   ],
+   "to": "faction:riverroot_clan"
+  },
+  {
+   "claim": "ZN014",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:orah",
+   "grade": "CANON_CONFIRMED",
+   "relation": "threatened",
+   "sources": [
+    "zr_red"
+   ],
+   "to": "character:zareth"
+  },
+  {
+   "claim": "ZN015",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:akiri",
+   "grade": "CANON_IMPLIED",
+   "relation": "traveled_with",
+   "sources": [
+    "zr_ep3"
+   ],
+   "to": "character:nahiri"
+  },
+  {
+   "claim": "ZN016",
+   "era": "zendikar_rising_2020",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked",
+   "sources": [
+    "zr_ep4"
+   ],
+   "to": "character:akiri"
+  },
+  {
    "from": "artifact:golgothian_sylex",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -25799,6 +26033,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Items & Artifacts Index.md#immortal-sun"
+  },
+  {
+   "from": "artifact:lithoform_core",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#lithoform-core"
   },
   {
    "from": "artifact:planar_bridge",
@@ -37875,6 +38115,198 @@
    "to": "character:amelia"
   },
   {
+   "from": "claim:ZN001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:ZN001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:ZN002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:lithoform_core"
+  },
+  {
+   "from": "claim:ZN002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:ZN003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:eldrazi"
+  },
+  {
+   "from": "claim:ZN003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:ZN004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:zendikar_vampires"
+  },
+  {
+   "from": "claim:ZN004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ulamog"
+  },
+  {
+   "from": "claim:ZN005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:emeria_skyclave"
+  },
+  {
+   "from": "claim:ZN005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kesenya"
+  },
+  {
+   "from": "claim:ZN006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sea_gate_expeditionary_house"
+  },
+  {
+   "from": "claim:ZN006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kesenya"
+  },
+  {
+   "from": "claim:ZN007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:akoum_skyclave"
+  },
+  {
+   "from": "claim:ZN007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:kargan_tribes"
+  },
+  {
+   "from": "claim:ZN008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:makindi"
+  },
+  {
+   "from": "claim:ZN008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:ondu_skyclave"
+  },
+  {
+   "from": "claim:ZN009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:ondu"
+  },
+  {
+   "from": "claim:ZN009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:makindi"
+  },
+  {
+   "from": "claim:ZN010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:murasa_skyclave"
+  },
+  {
+   "from": "claim:ZN010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lorthos"
+  },
+  {
+   "from": "claim:ZN011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:obuun"
+  },
+  {
+   "from": "claim:ZN011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ayya"
+  },
+  {
+   "from": "claim:ZN012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:obuun"
+  },
+  {
+   "from": "claim:ZN012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dykaar"
+  },
+  {
+   "from": "claim:ZN013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:riverroot_clan"
+  },
+  {
+   "from": "claim:ZN013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:obuun"
+  },
+  {
+   "from": "claim:ZN014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:zareth"
+  },
+  {
+   "from": "claim:ZN014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:orah"
+  },
+  {
+   "from": "claim:ZN015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:ZN015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:akiri"
+  },
+  {
+   "from": "claim:ZN016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:akiri"
+  },
+  {
+   "from": "claim:ZN016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
    "from": "event:brothers_war",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -43284,6 +43716,86 @@
    "from": "source:zendikar_resurgent",
    "relation": "cited_by",
    "to": "claim:U012"
+  },
+  {
+   "from": "source:zr_ep1",
+   "relation": "cited_by",
+   "to": "claim:ZN003"
+  },
+  {
+   "from": "source:zr_ep3",
+   "relation": "cited_by",
+   "to": "claim:ZN015"
+  },
+  {
+   "from": "source:zr_ep4",
+   "relation": "cited_by",
+   "to": "claim:ZN016"
+  },
+  {
+   "from": "source:zr_ep5",
+   "relation": "cited_by",
+   "to": "claim:ZN001"
+  },
+  {
+   "from": "source:zr_ep5",
+   "relation": "cited_by",
+   "to": "claim:ZN002"
+  },
+  {
+   "from": "source:zr_red",
+   "relation": "cited_by",
+   "to": "claim:ZN014"
+  },
+  {
+   "from": "source:zr_root",
+   "relation": "cited_by",
+   "to": "claim:ZN011"
+  },
+  {
+   "from": "source:zr_root",
+   "relation": "cited_by",
+   "to": "claim:ZN012"
+  },
+  {
+   "from": "source:zr_root",
+   "relation": "cited_by",
+   "to": "claim:ZN013"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN004"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN005"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN006"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN007"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN008"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN009"
+  },
+  {
+   "from": "source:zr_world",
+   "relation": "cited_by",
+   "to": "claim:ZN010"
   }
  ],
  "inputs": {
@@ -43651,6 +44163,13 @@
     "file": "data/lore_research/pack_p5_untagged_ktk_2026-10-30.json",
     "sha256": "0ad7ebe108562e9463807251f77179ec50766f8d57ca44dd69a05b496fe64e6a",
     "sources": 15
+   },
+   {
+    "claims": 16,
+    "entities": 24,
+    "file": "data/lore_research/pack_p5_untagged_znr_2026-10-30.json",
+    "sha256": "6d1aa7065cb069f0e4a367c256ca91b805459b0e91dbd54025a2a46465174e9e",
+    "sources": 7
    }
   ],
   "deck_evidence": [
@@ -43672,9 +44191,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 646,
+    "anchors": 652,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "240ca0755d4ed89b3291e8ef78fa5b423660a73f5b2202c993f181c8857a2bef"
+    "sha256": "2c41b4ad9652814e64dc1a355e829731384e44869d0cc394f68055b7c3604f9e"
    }
   ],
   "story_caption_packs": [
@@ -43864,6 +44383,14 @@
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_bfz_2015_stories_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:lithoform_core",
+   "name": "Lithoform Core",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -44348,6 +44875,24 @@
    "id": "card:ajani_wise_counselor",
    "name": "Ajani, Wise Counselor",
    "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:akiri_fearless_voyager",
+   "name": "Akiri, Fearless Voyager",
+   "oracle_id": "c03ae426-2536-4c20-a73a-a24e816f76b0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:akiri_line_slinger",
+   "name": "Akiri, Line-Slinger",
+   "oracle_id": "3e0a0276-b640-41c7-95bd-ba3067f5c911",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -50037,6 +50582,7 @@
    "name": "Lorthos, the Tidemaker",
    "oracle_id": "d9fd4ff3-5ada-40f4-b949-6fe65624a0c4",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -51308,6 +51854,15 @@
    "type": "Card"
   },
   {
+   "id": "card:obuun_mul_daya_ancestor",
+   "name": "Obuun, Mul Daya Ancestor",
+   "oracle_id": "28fcf855-6372-4d6b-b3fd-76f85247f309",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:obzedat_ghost_council",
    "name": "Obzedat, Ghost Council",
    "oracle_id": "6c3df703-e96a-4ee4-b449-b8e1e3460bd3",
@@ -51487,6 +52042,15 @@
    "oracle_id": "3f1f27ca-15e6-4ac6-8bd3-1e6b3ca00857",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:orah_skyclave_hierophant",
+   "name": "Orah, Skyclave Hierophant",
+   "oracle_id": "fe348f31-4530-4c59-9ee2-6839eab973da",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -56179,6 +56743,15 @@
    "type": "Card"
   },
   {
+   "id": "card:zareth_san_the_trickster",
+   "name": "Zareth San, the Trickster",
+   "oracle_id": "a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:zegana_utopian_speaker",
    "name": "Zegana, Utopian Speaker",
    "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
@@ -56371,6 +56944,14 @@
     "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:akiri",
+   "name": "Akiri",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -56659,6 +57240,14 @@
    "name": "Ayara",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ayya",
+   "name": "Ayya",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57040,6 +57629,14 @@
    "name": "Dromoka",
    "origins": [
     "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:dykaar",
+   "name": "Dykaar",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57862,6 +58459,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kesenya",
+   "name": "Kesenya",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ketramose",
    "name": "Ketramose",
    "origins": [
@@ -58186,6 +58791,14 @@
    "type": "Character"
   },
   {
+   "id": "character:lorthos",
+   "name": "Lorthos, the Tidemaker",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:lukka",
    "name": "Lukka",
    "origins": [
@@ -58417,7 +59030,8 @@
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
-    "pack_p5_untagged_planes_2026-10-30.json"
+    "pack_p5_untagged_planes_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -58541,7 +59155,8 @@
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
-    "pack_p5_untagged_planes_2026-10-30.json"
+    "pack_p5_untagged_planes_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -58611,6 +59226,14 @@
    "name": "Oba, the dryad of life (a face of Trostani)",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:obuun",
+   "name": "Obuun",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -58690,6 +59313,14 @@
    "origins": [
     "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:orah",
+   "name": "Orah",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59218,7 +59849,8 @@
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
-    "pack_p5_untagged_planes_2026-10-30.json"
+    "pack_p5_untagged_planes_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59554,7 +60186,8 @@
    "name": "Ulamog",
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
-    "pack_p5_untagged_planes_2026-10-30.json"
+    "pack_p5_untagged_planes_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59842,6 +60475,14 @@
    "name": "Zahur",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:zareth",
+   "name": "Zareth San",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -70633,6 +71274,188 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN001",
+   "limitation": "The quoted sentences precede the line naming him (\"Sorin.\"), which is shorter than the quote minimum.",
+   "name": "Sorin is Nahiri's old mentor and sworn enemy; he confronts her on Zendikar.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN002",
+   "name": "Nissa channels the Lithoform Core's power with her own magic.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "wielded",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ZN003",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence.",
+   "name": "Nahiri helped trap the Eldrazi on Zendikar millennia ago.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN004",
+   "name": "Zendikar's vampires were created by an Eldrazi-born infection that enslaved them to Ulamog's will.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "enslaved",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN005",
+   "name": "Kesenya led the first expedition into the Tazeem Skyclave (the Sky Ruin of Emeria).",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "explored",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ZN006",
+   "limitation": "The quoted 'It' refers back to the new Sea Gate Expeditionary House in the surrounding paragraph.",
+   "name": "Kesenya, a kor explorer, founded the new Sea Gate Expeditionary House.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "founded",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN007",
+   "name": "The Kargan tribes rode Akoum's dragons against the kor empire and shattered the Akoum Skyclave.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN008",
+   "name": "In the kor empire's civil war, the Ondu Skyclave turned against the capital at Makindi.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "rebelled_against",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN009",
+   "name": "Makindi, capital of the ancient kor empire named after it, was in Ondu (now the Makindi Trenches).",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "located_in",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "OPEN_QUESTION",
+   "id": "claim:ZN010",
+   "limitation": "The page itself leaves open whether it was Lorthos or an ancestor.",
+   "name": "A sea monster, possibly Lorthos or an ancestor of it, dragged the Murasa Skyclave into the sea.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "dragged_into_sea",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN011",
+   "name": "Ayya, a trained brakeguard, is Obuun's mother.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "mother_of",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN012",
+   "name": "Dykaar is Obuun's uncle.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "uncle_of",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ZN013",
+   "limitation": "Membership is implied by his home village and ancestral spirits, not stated as a title.",
+   "name": "Obuun is an elf of Riverroot Village and the Riverroot Clan.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN014",
+   "name": "Orah threatened to kill Zareth if he returned, which Akiri reads as hidden love and fear.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "threatened",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:ZN015",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence.",
+   "name": "Akiri, Zareth, Orah and Kaza climb with Nahiri's party.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "traveled_with",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:ZN016",
+   "name": "Nahiri pushed Akiri off the floating ruin.",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "predicate": "attacked",
+   "stage": "zendikar_rising_2020",
+   "type": "Claim"
+  },
+  {
    "id": "concept:aether_kaladesh",
    "name": "Aether (Kaladesh)",
    "origins": [
@@ -71318,6 +72141,14 @@
   {
    "id": "curated:Items & Artifacts Index.md#immortal-sun",
    "name": "Items & Artifacts Index.md#immortal-sun",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Items & Artifacts Index.md#lithoform-core",
+   "name": "Items & Artifacts Index.md#lithoform-core",
    "origins": [
     "lore_graph.json"
    ],
@@ -72206,7 +73037,8 @@
    "origins": [
     "pack_p5_bfz_2015_stories_2026-10-30.json",
     "pack_p5_edge_of_eternities_2026-10-30.json",
-    "pack_p5_untagged_planes_2026-10-30.json"
+    "pack_p5_untagged_planes_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -72341,6 +73173,14 @@
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:kargan_tribes",
+   "name": "Kargan tribes",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -72572,10 +73412,26 @@
    "type": "Faction"
   },
   {
+   "id": "faction:riverroot_clan",
+   "name": "Riverroot Clan",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:rotrue_elves",
    "name": "Elves of the Rotrue Wood",
    "origins": [
     "pack_p5_dsk_side_stories_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:sea_gate_expeditionary_house",
+   "name": "Sea Gate Expeditionary House",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -72762,6 +73618,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:zendikar_vampires",
+   "name": "Zendikar's vampires",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:zendikari_army",
    "name": "Zendikari army",
    "origins": [
@@ -72883,6 +73747,14 @@
    "type": "Literal"
   },
   {
+   "id": "place:akoum_skyclave",
+   "name": "Akoum Skyclave",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:akros",
    "name": "Akros",
    "origins": [
@@ -72983,7 +73855,8 @@
    "id": "place:emeria_skyclave",
    "name": "Emeria Skyclave",
    "origins": [
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -73126,6 +73999,14 @@
    "type": "Place"
   },
   {
+   "id": "place:makindi",
+   "name": "Makindi",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:mana_rig",
    "name": "The Mana Rig",
    "origins": [
@@ -73150,6 +74031,14 @@
    "type": "Place"
   },
   {
+   "id": "place:murasa_skyclave",
+   "name": "Murasa Skyclave",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:nephalia",
    "name": "Nephalia",
    "origins": [
@@ -73163,6 +74052,22 @@
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:ondu",
+   "name": "Ondu",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:ondu_skyclave",
+   "name": "Ondu Skyclave",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -79086,42 +79991,119 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/zendikar-resurgent-2016-02-24"
+  },
+  {
+   "id": "source:zr_ep1",
+   "kind": "official_story_episode",
+   "name": "Episode 1: In the Heart of the Skyclave",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02"
+  },
+  {
+   "id": "source:zr_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: The Dangerous Climb, the Long Fall",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-dangerous-climb-long-fall-2020-09-16"
+  },
+  {
+   "id": "source:zr_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: Of Haunting Songs and Whispered Warnings",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-haunting-songs-and-whispered-warnings-2020-09-23"
+  },
+  {
+   "id": "source:zr_ep5",
+   "kind": "official_story_episode",
+   "name": "Episode 5: The Two Guardians",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30"
+  },
+  {
+   "id": "source:zr_red",
+   "kind": "official_story_episode",
+   "name": "Red Route",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/red-route-2020-09-04"
+  },
+  {
+   "id": "source:zr_root",
+   "kind": "official_story_episode",
+   "name": "Beneath Riverroot Tree",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/beneath-riverroot-tree-2020-09-18"
+  },
+  {
+   "id": "source:zr_world",
+   "kind": "official_story_feature",
+   "name": "Zendikar: Things Have Changed",
+   "origins": [
+    "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01"
   }
  ],
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 966,
+  "claim_edges_with_era": 982,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 753,
+   "CANON_CONFIRMED": 764,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 175,
-   "OPEN_QUESTION": 2
+   "CANON_IMPLIED": 179,
+   "OPEN_QUESTION": 3
   },
-  "curated_bridges": 118,
-  "edges": 5741,
+  "curated_bridges": 119,
+  "edges": 5812,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1330,
+   "Card": 1335,
    "CardTheme": 1,
-   "Character": 407,
-   "Claim": 939,
-   "Concept": 139,
+   "Character": 415,
+   "Claim": 955,
+   "Concept": 140,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 95,
+   "Faction": 99,
    "Literal": 14,
-   "Object": 45,
-   "Place": 63,
+   "Object": 46,
+   "Place": 68,
    "Plane": 31,
-   "Source": 490
+   "Source": 497
   },
-  "nodes": 3580,
+  "nodes": 3627,
   "non_wizards_sources": 0,
-  "relations": 316,
-  "wizards_official_sources": 490
+  "relations": 321,
+  "wizards_official_sources": 497
  }
 }
