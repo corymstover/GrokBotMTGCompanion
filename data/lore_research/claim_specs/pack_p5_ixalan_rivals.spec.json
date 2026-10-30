@@ -1,0 +1,371 @@
+{
+ "pack_id": "pack_p5_ixalan_rivals",
+ "arc": "XLN/RIX",
+ "event_stage": "ixalan_immortal_sun_2017",
+ "scope": "Targeted Phase 5 extraction from the official Ixalan / Rivals of Ixalan Magic Story episodes (2017-09-06 to 2018-02-21). These episodes have no recap paragraphs, so quotes are short scene passages located with `story_claim_pipeline.py find`. Not an exhaustive reading; the two Planeswalker's Guide pages are cached but not modelled.",
+ "pages": {
+  "xln_jace_alone": "jace-alone-2017-09-06",
+  "xln_question": "question-confidence-2017-09-13",
+  "xln_vraska": "talented-captain-vraska-2017-09-20",
+  "rix_flood": "flood-2018-01-10",
+  "rix_glimpse": "glimpse-far-side-sun-2018-01-17",
+  "rix_arbiter": "arbiter-law-left-chaos-his-wake-2018-01-24",
+  "rix_sabotage": "sabotage-2018-01-31",
+  "rix_who_tells": "who-tells-stories-2018-02-07",
+  "rix_wool": "wool-over-eyes-2018-02-14",
+  "rix_alt_endings": "rivals-ixalan-magic-story-alternate-endings-2018-02-21"
+ },
+ "entities": [
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "azor",
+   "type": "Character",
+   "name": "Azor"
+  },
+  {
+   "id": "huatli",
+   "type": "Character",
+   "name": "Huatli"
+  },
+  {
+   "id": "angrath",
+   "type": "Character",
+   "name": "Angrath"
+  },
+  {
+   "id": "kumena",
+   "type": "Character",
+   "name": "Kumena"
+  },
+  {
+   "id": "saheeli",
+   "type": "Character",
+   "name": "Saheeli Rai"
+  },
+  {
+   "id": "immortal_sun",
+   "type": "Object",
+   "name": "Immortal Sun"
+  },
+  {
+   "id": "orazca",
+   "type": "Place",
+   "name": "Orazca"
+  },
+  {
+   "id": "ixalan",
+   "type": "Plane",
+   "name": "Ixalan"
+  },
+  {
+   "id": "kaladesh",
+   "type": "Plane",
+   "name": "Kaladesh"
+  },
+  {
+   "id": "sun_empire",
+   "type": "Faction",
+   "name": "Sun Empire"
+  },
+  {
+   "id": "river_heralds",
+   "type": "Faction",
+   "name": "River Heralds"
+  },
+  {
+   "id": "legion_of_dusk",
+   "type": "Faction",
+   "name": "Legion of Dusk"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  }
+ ],
+ "claims": [
+  {
+   "id": "XLN001",
+   "subject": "jace_beleren",
+   "predicate": "lost_memory_on",
+   "object": "ixalan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_jace_alone",
+     "quote": "caused the man to realize how little exercise he must have been getting before he lost his memory."
+    }
+   ],
+   "summary": "Jace wakes on Ixalan with no memory of who he is.",
+   "limitation": "The episode calls him only 'the man'; identifying him as Jace rests on the episode title ('Jace, Alone') and later episodes."
+  },
+  {
+   "id": "XLN002",
+   "subject": "huatli",
+   "predicate": "spark_ignited",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_question",
+     "quote": "She tried to stand and face her foe when something deep within her chest sparked. Suddenly, without pain, Huatli began to feel herself coming apart."
+    }
+   ],
+   "summary": "Huatli's spark ignites in a moment of mortal danger."
+  },
+  {
+   "id": "XLN003",
+   "subject": "nicol_bolas",
+   "predicate": "hired",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_vraska",
+     "quote": "\"Vraska, assassin of the Ochran,\" he said in a voice like thunder, \"I'm glad you received my invitation. I am Nicol Bolas, and I would like to hire you for the use of your talents.\""
+    },
+    {
+     "page": "xln_vraska",
+     "quote": "\"I accept your terms,\" said Vraska."
+    }
+   ],
+   "summary": "Nicol Bolas hires Vraska, and she accepts his terms."
+  },
+  {
+   "id": "XLN004",
+   "subject": "nicol_bolas",
+   "predicate": "promised",
+   "object": "vraska; golgari",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "xln_vraska",
+     "quote": "Nicol Bolas smiled. \"I can make you Guildmaster of the Golgari, Vraska.\""
+    }
+   ],
+   "summary": "Bolas offers to make Vraska Guildmaster of the Golgari."
+  },
+  {
+   "id": "XLN005",
+   "subject": "kumena",
+   "predicate": "reached_first",
+   "object": "immortal_sun; orazca",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_flood",
+     "quote": "He was nearing the golden city of Orazca, the resting place of the Immortal Sun."
+    },
+    {
+     "page": "rix_flood",
+     "quote": "Kumena stepped onto the Immortal Sun and took that power, his power."
+    }
+   ],
+   "summary": "Kumena reaches Orazca and stands on the Immortal Sun, taking its power."
+  },
+  {
+   "id": "XLN006",
+   "subject": "jace_beleren",
+   "predicate": "remembered_identity",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_glimpse",
+     "quote": "\"That's me,\" he said with amusement. \"Jace Beleren: Living Guildpact, telepath, illusionist, maze guy.\""
+    }
+   ],
+   "summary": "By Rivals of Ixalan Jace knows himself again as Jace Beleren, the Living Guildpact."
+  },
+  {
+   "id": "XLN007",
+   "subject": "immortal_sun",
+   "predicate": "blocked_planeswalking_on",
+   "object": "ixalan",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "rix_glimpse",
+     "quote": "\"That's the symbol that appeared over our heads every time we tried to planeswalk,\" he said. \"It's the symbol of the Azorius.\""
+    },
+    {
+     "page": "rix_arbiter",
+     "quote": "\"Why does Nicol Bolas want an artifact that imprisons Planeswalkers?\" she asked in hushed fear."
+    },
+    {
+     "page": "rix_who_tells",
+     "quote": "Both the Immortal Sun and the barrier. Perhaps they were one and the same after all."
+    }
+   ],
+   "summary": "An Azorius symbol blocked planeswalking on Ixalan; the Immortal Sun is described as an artifact that imprisons Planeswalkers, and it and the barrier vanish together.",
+   "limitation": "Each quote is a character's observation or speculation ('Perhaps they were one and the same'); no narration states the mechanism."
+  },
+  {
+   "id": "XLN008",
+   "subject": "azor",
+   "predicate": "created",
+   "object": "immortal_sun",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "azor_ugin_plot_1300_years_before",
+   "quotes": [
+    {
+     "page": "rix_sabotage",
+     "quote": "The sphinx performed a feat of hieromancy that no being had ever attempted and none would ever be able to match, severing his spark to create the artifact he called the Immortal Sun."
+    }
+   ],
+   "summary": "Azor severed his own spark to create the Immortal Sun on Torrezon."
+  },
+  {
+   "id": "XLN009",
+   "subject": "azor",
+   "predicate": "built_to_imprison",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "azor_ugin_plot_1300_years_before",
+   "quotes": [
+    {
+     "page": "rix_sabotage",
+     "quote": "\"The Immortal Sun will seal you in your prison, Planeswalker.\""
+    },
+    {
+     "page": "rix_arbiter",
+     "quote": "Azor sputtered through his pain, \"Our intention was to imprison Nicol Bolas—\""
+    },
+    {
+     "page": "rix_sabotage",
+     "quote": "Azor was left without a spark, and his prison without a prisoner."
+    }
+   ],
+   "summary": "Azor and Ugin meant the Immortal Sun to imprison Nicol Bolas; the trap never received its prisoner."
+  },
+  {
+   "id": "XLN010",
+   "subject": "nicol_bolas",
+   "predicate": "defeated",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "azor_ugin_plot_1300_years_before",
+   "quotes": [
+    {
+     "page": "rix_sabotage",
+     "quote": "The Spirit Dragon tried to escape, but was caught in a tempest of fire and claws. He hit the ground."
+    },
+    {
+     "page": "rix_sabotage",
+     "quote": "And Nicol Bolas planeswalked away, never to return, for he had won."
+    }
+   ],
+   "summary": "Bolas defeats Ugin before Azor's trap can be sprung (the Sabotage flashback; the scene is not named as Tarkir in these quotes)."
+  },
+  {
+   "id": "XLN011",
+   "subject": "immortal_sun",
+   "predicate": "vanished_from",
+   "object": "orazca",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_who_tells",
+     "quote": "The Immortal Sun vanished beneath their feet, and Huatli, Tishana, Vona, and Angrath all tumbled through the floor into the empty room below."
+    }
+   ],
+   "summary": "The Immortal Sun vanishes from Orazca; the quotes do not say who took it."
+  },
+  {
+   "id": "XLN012",
+   "subject": "angrath",
+   "predicate": "left",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_who_tells",
+     "quote": "\"SEE YOU NEVER, PATHETIC FOOLS!\" as he planeswalked away."
+    }
+   ],
+   "summary": "With the Immortal Sun gone, Angrath planeswalks away from Ixalan."
+  },
+  {
+   "id": "XLN013",
+   "subject": "huatli",
+   "predicate": "met",
+   "object": "saheeli; kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_wool",
+     "quote": "\"It's a pleasure to meet you, Saheeli. My name is Huatli. It's my first time away from my world,\" Huatli said."
+    }
+   ],
+   "summary": "On her first planeswalk, Huatli meets Saheeli Rai on Kaladesh."
+  },
+  {
+   "id": "XLN014",
+   "subject": "legion_of_dusk",
+   "predicate": "seeks",
+   "object": "immortal_sun",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "xln_vraska",
+     "quote": "\"They seek an end to their vampirism,\" she had said. \"They crave eternal life without needing blood. The Immortal Sun was stolen from their monasteries, and so they ventured to the sea to reclaim it."
+    }
+   ],
+   "summary": "Amelia tells Vraska the vampires seek the Immortal Sun, which was stolen from their monasteries.",
+   "limitation": "Second-hand: Amelia's account as remembered by Vraska; the theft claim is not narrated."
+  },
+  {
+   "id": "XLN015",
+   "subject": "sun_empire",
+   "predicate": "claimed_control_of",
+   "object": "orazca",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rix_alt_endings",
+     "quote": "The people have spoken, and the Sun Empire emerged victorious to claim control of Orazca!"
+    }
+   ],
+   "summary": "Canon outcome (chosen by a player vote): the Sun Empire claims Orazca."
+  },
+  {
+   "id": "XLN016",
+   "subject": "river_heralds",
+   "predicate": "claimed_control_of",
+   "object": "orazca",
+   "grade": "ALTERNATE_CONTINUITY",
+   "quotes": [
+    {
+     "page": "rix_alt_endings",
+     "quote": "However, we were prepared no matter which faction won, and the remaining (now non-canon) stories are too great not to share."
+    }
+   ],
+   "summary": "Wizards published non-canon alternate endings in which another faction (for example the River Heralds) holds Orazca.",
+   "limitation": "Explicitly non-canon per Wizards; kept only so queries do not mistake the alternate endings for canon."
+  }
+ ],
+ "remaining": [
+  "Targeted extraction, not exhaustive: Shapers, Something Else Entirely and both Race episodes are uncited",
+  "The two Planeswalker's Guide to Ixalan pages are cached but not modelled",
+  "Who removed the Immortal Sun from Ixalan is not asserted from these pages"
+ ]
+}
