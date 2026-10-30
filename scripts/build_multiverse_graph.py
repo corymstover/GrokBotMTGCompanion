@@ -196,9 +196,11 @@ def ingest_deck(g: Graph, rel: str) -> dict:
             continue
         p = c.get("printing", {})
         card = g.add_node(f"card:{slug(c['name'])}", "Card", c["name"], origin, oracle_id=p.get("oracle_id"))
+        # Pilot 1 evidence names the key ``pack_a_claims``; spec-driven pilots use ``claims``.
+        cited = c.get("pack_a_claims", c.get("claims", []))
         g.edge(card, "proposed_in", deck_id, tier=c["tier"], beat=c.get("beat", ""),
-               printing=p.get("id", ""), claims=sorted(c.get("pack_a_claims", [])))
-        for claim in c.get("pack_a_claims", []):
+               printing=p.get("id", ""), claims=sorted(cited))
+        for claim in cited:
             if f"claim:{claim}" not in g.nodes:
                 g.problems.append(f"{rel} {c['name']}: cites unknown claim {claim}")
         count += 1

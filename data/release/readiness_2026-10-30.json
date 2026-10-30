@@ -42,8 +42,8 @@
      ]
     },
     "graph_stats": {
-     "nodes": 305,
-     "edges": 488,
+     "nodes": 376,
+     "edges": 573,
      "claims_by_status": {
       "ALTERNATE_CONTINUITY": 1,
       "CANON_CONFIRMED": 69,
@@ -88,16 +88,17 @@
    "id": "reviewed_graph_deck",
    "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph",
    "status": "NOT_MET",
-   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (1 graph-linked draft(s) await review)",
+   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (2 graph-linked draft(s) await review)",
    "evidence": {
     "owner_approval_files": [
      "2026-10-28_cory_approved_lore_deck_8_karn.md",
      "2026-10-28_cory_approved_lore_decks_1-7.md",
      "2026-10-29_cory_approved_lore_deck_10_yawgmoth.md"
     ],
-    "draft_proposals": 9,
+    "draft_proposals": 10,
     "graph_based_drafts": [
-     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+     "ugin_bolas_elder_dragon_duality_printing_evidence.json",
+     "original_primeval_dragons_printing_evidence.json"
     ]
    }
   },
