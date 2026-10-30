@@ -1188,6 +1188,29 @@
    ]
   },
   {
+   "entity": "dack_fayden",
+   "entity_type": "Character",
+   "entity_name": "Dack Fayden",
+   "aliases": [
+    "Dack Fayden"
+   ],
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Dack Fayden",
+     "oracle_id": "9d4b1e44-3c66-4b1b-8a1d-308aa4f841f8",
+     "type_line": "Legendary Planeswalker — Dack",
+     "scryfall_uri": "https://scryfall.com/card/ema/199/dack-fayden"
+    },
+    {
+     "name": "Dack Fayden, Helping Hand",
+     "oracle_id": "3b21abb0-9a58-4e62-9650-4b04ce2bfb12",
+     "type_line": "Legendary Creature — Human Advisor",
+     "scryfall_uri": "https://scryfall.com/card/frc/4/dack-fayden-helping-hand"
+    }
+   ]
+  },
+  {
    "entity": "dakkon",
    "entity_type": "Character",
    "entity_name": "Dakkon Blackblade",
@@ -1225,6 +1248,35 @@
      "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
      "type_line": "Legendary Creature — Human Knight",
      "scryfall_uri": "https://scryfall.com/card/cmm/20/danitha-capashen-paragon"
+    }
+   ]
+  },
+  {
+   "entity": "daretti",
+   "entity_type": "Character",
+   "entity_name": "Daretti",
+   "aliases": [
+    "Daretti"
+   ],
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Daretti, Ingenious Iconoclast",
+     "oracle_id": "add0f7e7-8990-4fd1-8ac7-8115f7802912",
+     "type_line": "Legendary Planeswalker — Daretti",
+     "scryfall_uri": "https://scryfall.com/card/cn2/74/daretti-ingenious-iconoclast"
+    },
+    {
+     "name": "Daretti, Rocketeer Engineer",
+     "oracle_id": "0eb1d539-6301-46b0-903e-487eda34253f",
+     "type_line": "Legendary Creature — Goblin Artificer",
+     "scryfall_uri": "https://scryfall.com/card/dft/120/daretti-rocketeer-engineer"
+    },
+    {
+     "name": "Daretti, Scrap Savant",
+     "oracle_id": "ea9f4de3-fc35-435a-8dff-a5657d14a9bd",
+     "type_line": "Legendary Planeswalker — Daretti",
+     "scryfall_uri": "https://scryfall.com/card/cmm/213/daretti-scrap-savant"
     }
    ]
   },
@@ -1338,7 +1390,7 @@
    "aliases": [
     "Domri Rade"
    ],
-   "pack": "pack_p5_war_spark_ravnica_2026-10-30.json",
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
    "cards": [
     {
      "name": "Domri Rade",
@@ -1947,6 +1999,23 @@
      "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
      "type_line": "Legendary Creature — Phyrexian Praetor",
      "scryfall_uri": "https://scryfall.com/card/tdc/181/gix-yawgmoth-praetor"
+    }
+   ]
+  },
+  {
+   "entity": "glen_elendra",
+   "entity_type": "Place",
+   "entity_name": "Glen Elendra",
+   "aliases": [
+    "Glen Elendra"
+   ],
+   "pack": "pack_p5_untagged_planes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Glen Elendra",
+     "oracle_id": "662e5245-73e4-49ba-aece-c73f1bea7b6a",
+     "type_line": "Plane — Lorwyn",
+     "scryfall_uri": "https://scryfall.com/card/opca/28/glen-elendra"
     }
    ]
   },
@@ -3760,6 +3829,29 @@
    ]
   },
   {
+   "entity": "memnarch",
+   "entity_type": "Character",
+   "entity_name": "Memnarch",
+   "aliases": [
+    "Memnarch"
+   ],
+   "pack": "pack_p5_untagged_planes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Memnarch",
+     "oracle_id": "52d8e70b-7e94-4e17-811f-70afe39ff9bd",
+     "type_line": "Legendary Artifact Creature — Wizard",
+     "scryfall_uri": "https://scryfall.com/card/arc/112/memnarch"
+    },
+    {
+     "name": "Memnarch, the Warden",
+     "oracle_id": "f2630b02-fb48-4167-8a47-8284f7d4c484",
+     "type_line": "Legendary Artifact Creature — Wizard",
+     "scryfall_uri": "https://scryfall.com/card/frc/15/memnarch-the-warden"
+    }
+   ]
+  },
+  {
    "entity": "mendicant_core",
    "entity_type": "Character",
    "entity_name": "Mendicant Core",
@@ -3773,6 +3865,23 @@
      "oracle_id": "b20d74a4-0e08-4779-972a-499f1a2be15a",
      "type_line": "Legendary Artifact Creature — Robot",
      "scryfall_uri": "https://scryfall.com/card/dft/213/mendicant-core-guidelight"
+    }
+   ]
+  },
+  {
+   "entity": "michiko_konda",
+   "entity_type": "Character",
+   "entity_name": "Michiko Konda",
+   "aliases": [
+    "Michiko Konda"
+   ],
+   "pack": "pack_p5_untagged_planes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Michiko Konda, Truth Seeker",
+     "oracle_id": "fbe190eb-fd4b-40e7-9a17-48c96b60f653",
+     "type_line": "Legendary Creature — Human Advisor",
+     "scryfall_uri": "https://scryfall.com/card/sok/19/michiko-konda-truth-seeker"
     }
    ]
   },
@@ -4336,6 +4445,23 @@
    ]
   },
   {
+   "entity": "o_kagachi",
+   "entity_type": "Character",
+   "entity_name": "O-Kagachi",
+   "aliases": [
+    "O-Kagachi"
+   ],
+   "pack": "pack_p5_untagged_planes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "O-Kagachi, Vengeful Kami",
+     "oracle_id": "300715a0-4f95-4212-9e13-558434c9d1a4",
+     "type_line": "Legendary Creature — Dragon Spirit",
+     "scryfall_uri": "https://scryfall.com/card/dmc/164/o-kagachi-vengeful-kami"
+    }
+   ]
+  },
+  {
    "entity": "ob_nixilis",
    "entity_type": "Character",
    "entity_name": "Ob Nixilis (the Adversary)",
@@ -4557,6 +4683,23 @@
      "oracle_id": "6052822d-47a2-4d69-a32d-40cdd600d7a9",
      "type_line": "Legendary Creature — Faerie Wizard",
      "scryfall_uri": "https://scryfall.com/card/znc/98/oona-queen-of-the-fae"
+    }
+   ]
+  },
+  {
+   "entity": "paliano",
+   "entity_type": "Place",
+   "entity_name": "Paliano",
+   "aliases": [
+    "Paliano"
+   ],
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Paliano",
+     "oracle_id": "c5f0da12-b76f-42fb-a52e-cd09535e72fb",
+     "type_line": "Plane — Fiora",
+     "scryfall_uri": "https://scryfall.com/card/moc/62/paliano"
     }
    ]
   },
@@ -5471,6 +5614,35 @@
    ]
   },
   {
+   "entity": "selvala",
+   "entity_type": "Character",
+   "entity_name": "Selvala",
+   "aliases": [
+    "Selvala"
+   ],
+   "pack": "pack_p5_untagged_planes_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Selvala, Eager Trailblazer",
+     "oracle_id": "95b20721-1af9-4f3f-a39b-7cd1d4ce0b20",
+     "type_line": "Legendary Creature — Elf Scout",
+     "scryfall_uri": "https://scryfall.com/card/otj/231/selvala-eager-trailblazer"
+    },
+    {
+     "name": "Selvala, Explorer Returned",
+     "oracle_id": "b628a39b-c923-473d-900a-1617f47ecb76",
+     "type_line": "Legendary Creature — Elf Scout",
+     "scryfall_uri": "https://scryfall.com/card/mkc/218/selvala-explorer-returned"
+    },
+    {
+     "name": "Selvala, Heart of the Wilds",
+     "oracle_id": "1d725121-e50c-42f0-9128-56802f07c89e",
+     "type_line": "Legendary Creature — Elf Scout",
+     "scryfall_uri": "https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds"
+    }
+   ]
+  },
+  {
    "entity": "seriema",
    "entity_type": "Object",
    "entity_name": "The Seriema (starship)",
@@ -5484,6 +5656,23 @@
      "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
      "type_line": "Legendary Artifact — Spacecraft",
      "scryfall_uri": "https://scryfall.com/card/eoe/35/the-seriema"
+    }
+   ]
+  },
+  {
+   "entity": "serra",
+   "entity_type": "Character",
+   "entity_name": "Serra",
+   "aliases": [
+    "Serra"
+   ],
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Serra the Benevolent",
+     "oracle_id": "8b0e2382-dd91-42e6-aba3-5e8a15418a49",
+     "type_line": "Legendary Planeswalker — Serra",
+     "scryfall_uri": "https://scryfall.com/card/mh1/26/serra-the-benevolent"
     }
    ]
   },
@@ -7263,6 +7452,7 @@
   "drana",
   "drannith",
   "eclipsed_realms",
+  "eiganjo",
   "eiko",
   "elamon",
   "elnor",
@@ -7383,6 +7573,7 @@
   "sword_of_the_realms",
   "sylex_blast",
   "sylex_replica",
+  "takeshi_konda",
   "tamiyos_journal",
   "tarkir_duel",
   "tarkir_rewrite",
@@ -7423,9 +7614,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 319,
-  "anchor_edges": 616,
-  "unanchored_entities": 191
+  "entities_anchored": 328,
+  "anchor_edges": 631,
+  "unanchored_entities": 193
  },
- "content_sha256": "4d3bb54b529e2753def64ed88543377e3830d9ed5b01899896579711534852a4"
+ "content_sha256": "2b827a7bb6d44610f2399da0d3dc178b344e45e28be8e76eb8f582e79df0ce72"
 }

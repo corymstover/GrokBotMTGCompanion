@@ -933,7 +933,7 @@
   {
    "id": "UB026",
    "subject": "ugin",
-   "predicate": "sibling_of",
+   "predicate": "twin_sibling_of",
    "object": "nicol_bolas",
    "grade": "CANON_CONFIRMED",
    "event_stage": "planeswalker_profiles_undated",

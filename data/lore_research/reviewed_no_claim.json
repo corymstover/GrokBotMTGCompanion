@@ -28,6 +28,346 @@
    "reason": "DESIGN_OR_PROCESS_ARTICLE",
    "note": "Interview with the creative team (Doug Beyer, Andrew Vallas, Jehan Choo) about the concept push and the mutate mechanic. Describes design intent for the five monster types, not in-world events or relations.",
    "cached_text_sha256": "bef94ae55e7ea56d3e946eb1fcb35277594b0fe940ba207aac5e7b35682e93f9"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/arlinn-kord-planeswalker",
+   "page_key": "arlinn-kord-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "7c44271e86704cf15a449792d1dfcc9287e62b3e5ac348570d5281911ba60fc3"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/ashiok-planeswalker",
+   "page_key": "ashiok-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "e75bcf34ee55f159e1e205ed5951fb6f63de27c87de7b0747d27fdad9d26e641"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/chandra-nalaar-planeswalker",
+   "page_key": "chandra-nalaar-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "d24d7590a3debe3733fc88deb11bac4c28dc9cef80a6a3e0b7ab5b5874dbd3ed"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/davriel-cane-planeswalker",
+   "page_key": "davriel-cane-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "fbd14b3f08356d7b86344454b95fb56c3ea9fa02e8363703e00254419e046bd9"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/dovin-baan-planeswalker",
+   "page_key": "dovin-baan-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "dac4becdcee9a62aae655f1a23050e59380d323d4cc802afac4dcaf53ff09599"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/garruk-wildspeaker-planeswalker",
+   "page_key": "garruk-wildspeaker-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "cd2c4be1430dd712521309b3a448016e73bfed7431825f64dffd380447e3d2cc"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/gideon-jura-planeswalker",
+   "page_key": "gideon-jura-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "4ef19a0716f5405d09e578da6cf24d01c8645f58858d0498e4ae305c20736bed"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/grist-planeswalker",
+   "page_key": "grist-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "ea100d360fff39488da10f6fb5cef21612b615465e6814bf8610a4a6a59e62f5"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/jace-beleren-planeswalker",
+   "page_key": "jace-beleren-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "5b99a976f3c94d82bd10a510efff56fb93c0844164d347c1adf85f2b734443c4"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/kasmina-planeswalker",
+   "page_key": "kasmina-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "8e737b3d6748ed6c93c13f93567edc6baacf8854fd5fabb2e22e750d7aab2968"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/kaya-planeswalker",
+   "page_key": "kaya-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "3a2a5073f6e080f58e08dd0accda38d382d3cef3ec6767e9e2881eaa91645dbb"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/kiora-planeswalker",
+   "page_key": "kiora-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "119ec3724c40bf1cd8363fe04fe28382e54fd40ae037b62b2eb2a9ea9db2e981"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/koth-planeswalker",
+   "page_key": "koth-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "5e72e23b991488cc411bb6d9e558203681d5cc3df360f053937386825b36e44b"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/liliana-vess-planeswalker",
+   "page_key": "liliana-vess-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "093d0560220697d329afc070ede298a4f6064a334b03fb4dc98d2d622692c891"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/mu-yanling-planeswalker",
+   "page_key": "mu-yanling-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "ffc258f32ce87873959b9cb6431713d3207988ef68aa6930776c1da35eac79ee"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/nicol-bolas-planeswalker",
+   "page_key": "nicol-bolas-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "64beeec336ccd055fe81981e445927ce3fad4947d277e5f0a43e5aa5bd126154"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/nissa-revane-planeswalker",
+   "page_key": "nissa-revane-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "1a4bc986d5559905a3a477293db092d8247a722fb5eae0306227ade2270e9546"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/ob-nixilis-planeswalker",
+   "page_key": "ob-nixilis-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "c8c526a3fa66465a62058cc414804bf794f4f28de3a87822769bface9e26c07a"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/oko-planeswalker",
+   "page_key": "oko-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "1de149aa681ae3be44d428197ae0518963f32b203968aa67bda0a231789ac053"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/ral-zarek-planeswalker",
+   "page_key": "ral-zarek-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "9925ad6bc287352a6023b6afd36ee680e06532acc79fb84e6754ac7ededc765c"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/saheeli-rai-planeswalker",
+   "page_key": "saheeli-rai-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "a2594422b8afc3466d8bd33112ed457c02dfb059a87b11129951fbb1908cfb82"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/tamiyo-planeswalker",
+   "page_key": "tamiyo-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "8da8c3f5012469ad2af539fe6faaacd98786bbbea741c071a5e33b5c091dcc69"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/teyo-verada-planeswalker",
+   "page_key": "teyo-verada-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "1a5b54353a592e778468e4d17876484b3ad5e928259c5a6ae53c3018c5c09f03"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/tezzeret-planeswalker",
+   "page_key": "tezzeret-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "418c6679d17fa30040621199d930e17a9db5e793b06e1c886d21389795b2d078"
+  },
+  {
+   "url": "https://magic.wizards.com/en/story/wrenn-planeswalker",
+   "page_key": "wrenn-planeswalker",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "NO_EXTRACTABLE_RELATION",
+   "note": "Undated official Planeswalker profile blurb, read in full. It describes personality, powers or backstory only and names no other character, faction or plane, so there is no relation to grade.",
+   "cached_text_sha256": "f99ce90e284304635ef4dd05b2c16087c733b85e1811bc238a7221ccb989b2a4"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-2011-11-02",
+   "page_key": "planeswalkers-guide-innistrad-2011-11-02",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Cached page is only the title and byline (15 words); the guide body is not in the cached text.",
+   "cached_text_sha256": "4b6f21d794ab44363742b8b312e7b302b9bf3b54ebf06babe59d82c461c22051"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/lore-core-set-2021-cards-2020-06-16",
+   "page_key": "lore-core-set-2021-cards-2020-06-16",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Landing blurb for a daily card-lore series (82 words); the lore entries themselves are not in the cached text.",
+   "cached_text_sha256": "a2c42945cc223d7909871183c1d63cb5f41544c83752a29c8c8e891b880d7a4f"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01",
+   "page_key": "magic-story-shadows-over-innistrad-e-book-collection-2016-06-01",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "E-book download note for the Shadows over Innistrad stories; no story text.",
+   "cached_text_sha256": "01e21cf6049640f4fdb80477ae8813dff0b3001f19f5e12d8f03ea1908916a08"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19",
+   "page_key": "rorecas-tale-2008-03-19",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Intro to Richard Garfield's 1994 Pocket Player's Guide story; the story pages are page images and the cached text holds only navigation links.",
+   "cached_text_sha256": "f4d16545de4f9e457e7a6ae5e9b44e21fb306736c99cdd55ac297c84f4ff274a"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/scarlet-flames-2021-06-30",
+   "page_key": "scarlet-flames-2021-06-30",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
+   "cached_text_sha256": "02bdb143d274dc2f7e72bdc27625233eca596449356ac890f5964a148207c058"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/hidden-page-2021-07-07",
+   "page_key": "hidden-page-2021-07-07",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
+   "cached_text_sha256": "9b5dcd3f93843dee173cdc1eea2f5b2274028f74967f3bf9d3fc4b1f12bc917b"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/verdant-tomb-2021-07-14",
+   "page_key": "verdant-tomb-2021-07-14",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
+   "cached_text_sha256": "37ed148dd97a6e2f5039fca58117d59c23e54809293588efc2ec10959a71b409"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21",
+   "page_key": "deepest-night-2021-07-21",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
+   "cached_text_sha256": "753a5d06da1fbe78ffc8eda731ba8e744a86a0cce48fb67c2a77ebd917f89f64"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/cyan-depths-2021-07-28",
+   "page_key": "cyan-depths-2021-07-28",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "PRODUCT_OR_PROMO_NOTE",
+   "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
+   "cached_text_sha256": "99ca9a47d510aeac28538db145fb95f620911692c4a001f33aa63afbfc66fae2"
   }
  ]
 }
