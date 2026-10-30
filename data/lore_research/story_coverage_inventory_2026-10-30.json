@@ -29,18 +29,22 @@
    "data/lore_research/pack_p5_aetherdrift_2026-10-30.json",
    "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
    "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
-   "data/lore_research/pack_p5_ikoria_2026-10-30.json"
+   "data/lore_research/pack_p5_ikoria_2026-10-30.json",
+   "data/lore_research/pack_p5_theros_beyond_death_2026-10-30.json",
+   "data/lore_research/pack_p5_theros_ths_2026-10-30.json",
+   "data/lore_research/pack_p5_mom_aftermath_2026-10-30.json",
+   "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 179,
-  "arcs_not_started": 5,
-  "arcs_partial": 23,
-  "arcs_all_cited": 5,
-  "claims": 418,
+  "cited_pages": 188,
+  "arcs_not_started": 1,
+  "arcs_partial": 25,
+  "arcs_all_cited": 7,
+  "claims": 475,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -70,7 +74,11 @@
   "pack_p5_aetherdrift_2026-10-30.json": 12,
   "pack_p5_kaldheim_2026-10-30.json": 14,
   "pack_p5_strixhaven_2026-10-30.json": 11,
-  "pack_p5_ikoria_2026-10-30.json": 5
+  "pack_p5_ikoria_2026-10-30.json": 5,
+  "pack_p5_theros_beyond_death_2026-10-30.json": 14,
+  "pack_p5_theros_ths_2026-10-30.json": 20,
+  "pack_p5_mom_aftermath_2026-10-30.json": 12,
+  "pack_p5_throne_of_eldraine_2026-10-30.json": 11
  },
  "arcs": [
   {
@@ -267,15 +275,15 @@
   {
    "arc": "ELD",
    "pages": 1,
-   "cited_pages": 0,
+   "cited_pages": 1,
    "kinds": {
     "planeswalkers-guide": 1
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31"
-   ]
+   "citing_packs": [
+    "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "EOE",
@@ -376,16 +384,15 @@
   {
    "arc": "MAT",
    "pages": 2,
-   "cited_pages": 0,
+   "cited_pages": 2,
    "kinds": {
     "story": 2
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/beyond-repair",
-    "https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world"
-   ]
+   "citing_packs": [
+    "pack_p5_mom_aftermath_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "MID/VOW",
@@ -623,16 +630,17 @@
   {
    "arc": "THB",
    "pages": 4,
-   "cited_pages": 0,
+   "cited_pages": 1,
    "kinds": {
     "feature": 2,
     "story": 2
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_theros_beyond_death_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-cards-2019-12-16",
-    "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10",
     "https://magic.wizards.com/en/news/making-magic/journeys-end-2014-05-26",
     "https://magic.wizards.com/en/news/making-magic/odds-ends-theros-beyond-death-2020-01-27"
    ]
@@ -640,19 +648,16 @@
   {
    "arc": "THS",
    "pages": 6,
-   "cited_pages": 0,
+   "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 5,
     "story": 1
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02",
-    "https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21",
-    "https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-2-2013-08-28",
-    "https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-3-2013-09-04",
     "https://magic.wizards.com/en/story/theros-plane"
    ]
   },
@@ -1001,5 +1006,5 @@
    ]
   }
  ],
- "sha256": "8334c445a5c4b6784141ed050a6430084a4cdac015247ed27643388714769253"
+ "sha256": "700c06ec17563d2e4b42b01b49c2c6df509d5bb8db11a73828d96b45102df7e6"
 }

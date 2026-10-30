@@ -1,0 +1,30 @@
+from mv import spec
+C,I="CANON_CONFIRMED","CANON_IMPLIED"
+VIV="The guide is Vivien Reid's first-person travel account; legends she reports are attributed to Rielle."
+spec("pack_p5_ikoria","IKO","ikoria_iko_2020",
+"Targeted Phase 5 extraction from the official Planeswalker's Guide to Ikoria (2020-04-02), written in-universe by Vivien Reid. IKO has no episodic web fiction in the cache. PRELIMINARY_RESEARCH; not owner approved.",
+{"iko_guide":"planeswalkers-guide-ikoria-2020-04-02"},
+[("vivien_reid","Character","Vivien Reid"),("narset","Character","Narset"),("ikoria","Plane","Ikoria"),
+ ("vadrok","Character","Vadrok"),("raugrin","Place","Raugrin"),("drannith","Place","Drannith"),
+ ("snapdax","Character","Snapdax"),("savai_settlements","Place","Early human settlements of Savai"),
+ ("coppercoats","Faction","Drannith Defense Force (Coppercoats)")],
+[
+("IK001","vivien_reid","visited","ikoria",C,
+ [("iko_guide","I have met many bonders on my travels and learned much from them."),
+  ("iko_guide","May it serve you well, and may you pass it along to the next Planeswalker you meet in need of a guide. —Vivien Reid")],
+ "Vivien Reid travelled Ikoria and wrote the guide.","Vivien is the author-narrator, so this is her own account."),
+("IK002","narset","visited","ikoria",I,
+ [("iko_guide","Another traveling Planeswalker named Narset told me that these triomes are due to the unique flow of magic through the land of this plane.")],
+ "Vivien says Narset travelled to Ikoria and explained the triomes to her.",VIV),
+("IK003","vadrok","controls","raugrin",C,
+ [("iko_guide","Named after the terrible rumbling it produces as it streaks across the sky, the thunderous apex monster Vadrok rules the skies of Raugrin.")],
+ "The apex monster Vadrok rules the skies of Raugrin.","Strictly, the skies of Raugrin."),
+("IK004","snapdax","destroyed","savai_settlements",I,
+ [("iko_guide","Rielle tells an ancient tale of Snapdax destroying early human settlements all across Savai.")],
+ "In an ancient tale, Snapdax destroyed the early human settlements of Savai.",VIV+" This is a legend."),
+("IK005","coppercoats","guardian_of","drannith",C,
+ [("iko_guide","Drannith's highly trained military is second to none at warding off monster attacks; according to the locals, its walls have never fallen since their creation."),
+  ("iko_guide","The Drannith Defense Force, informally called the Coppercoats for their banded uniforms and polished buttons, is the most well-resourced, powerful military force in the world.")],
+ "The Coppercoats, Drannith's Defense Force, protect the city from monsters."),
+],
+["Lukka and the Drannith Coppercoat storyline are not covered by the cached IKO pages","Most apex-monster lore in the guide is not graded"])

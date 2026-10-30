@@ -1,0 +1,122 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_mom_aftermath_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MAT",
+ "claims": 12,
+ "entities": 16,
+ "sources": 2,
+ "grades": {
+  "CANON_CONFIRMED": 11,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 17,
+ "quotes_verbatim": 17,
+ "quote_rows": [
+  {
+   "claim": "MA001",
+   "source_id": "mat_breaks",
+   "quote_sha256": "f097223cfd1cc659e81c375f8df8001d635584c882e135db79d00044ddfbdaac",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA013",
+   "source_id": "mat_breaks",
+   "quote_sha256": "f097223cfd1cc659e81c375f8df8001d635584c882e135db79d00044ddfbdaac",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA002",
+   "source_id": "mat_breaks",
+   "quote_sha256": "87d9c57b018ffb7dc5acbb5fe4a59529d45cc988eee471bf990e4bd06c507f79",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA002",
+   "source_id": "mat_repair",
+   "quote_sha256": "7974a2581492cc08e255a558100228b54f5a6a89b4a485ff797d0d13305d88a2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA003",
+   "source_id": "mat_breaks",
+   "quote_sha256": "0675720fc1c9890987778413a3620b0c2de9b91c606807025f9a166ffc9fdc64",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA003",
+   "source_id": "mat_breaks",
+   "quote_sha256": "cf07577f6b9d3bbba9eaf147e27cba325602c55902058e403f4e3bc37d15b60f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA004",
+   "source_id": "mat_breaks",
+   "quote_sha256": "e3481a339c8a07fc30b38844d9ca53220ec08d0ac36c8f85e54341e07c672acb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA005",
+   "source_id": "mat_breaks",
+   "quote_sha256": "ba6959cff172a06e7d6bebb2f75e577a2f6ba095bf5af1fd64c98cc3aa2e84f2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA005",
+   "source_id": "mat_breaks",
+   "quote_sha256": "2fcdaeae20e22a4271b2bb08bfe62b24116e08b1dc0e5513d9c862f73e943b0e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA006",
+   "source_id": "mat_breaks",
+   "quote_sha256": "7f9925656373d59f8c3e51a855e7591bbee9341c18b6a6ea47e3ea3331688712",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA006",
+   "source_id": "mat_breaks",
+   "quote_sha256": "0dfd0828536a66ecc10457a0e4a794c6ff257dc1bc9b142b6437276012a28fcd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA007",
+   "source_id": "mat_repair",
+   "quote_sha256": "57aa9ec3aedfe38ab62d05f9e62f6a4c9d55e02c79476af326ea2fb1d2c3baac",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA007",
+   "source_id": "mat_repair",
+   "quote_sha256": "ac587810c345c43eccc1e19e9593a923dfdb556e920ad6d75ecc0629102dc96f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA008",
+   "source_id": "mat_repair",
+   "quote_sha256": "f4fc04a9d8ba5993373029e1fce6065f84699440e9d77e5ebef1d0983c894869",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA009",
+   "source_id": "mat_repair",
+   "quote_sha256": "a1d9441b1ada1ae3e8b25daba04dc28f2948ce20fd0ccf07ec5a0f0cbaac1648",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA010",
+   "source_id": "mat_repair",
+   "quote_sha256": "8f4fc738968b6af95463c9a072b0978d8b37340e43bab4c72f9dfe6cd8bfd29a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MA011",
+   "source_id": "mat_repair",
+   "quote_sha256": "7156dade35e8b59dd725600c19fb41d402c99bbd4846499c1f4b5185e1a8c829",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "aeed58f0b28f912ff4dc4db7ac315b220b3cf63f4ca0ca67049f741d22818994"
+}

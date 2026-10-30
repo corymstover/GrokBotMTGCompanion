@@ -1,0 +1,291 @@
+{
+ "pack_id": "pack_p5_mom_aftermath",
+ "arc": "MAT",
+ "event_stage": "mom_aftermath_2023",
+ "scope": "Targeted Phase 5 extraction from the two cached official March of the Machine: The Aftermath stories, 'She Who Breaks the World' (2023-05-01) and 'Beyond Repair' (2023-05-02). Statements made in dialogue or a character's private thoughts are graded IMPLIED with a limitation. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "mat_breaks": "she-who-breaks-the-world",
+  "mat_repair": "beyond-repair"
+ },
+ "entities": [
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "koth",
+   "type": "Character",
+   "name": "Koth"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani Goldmane"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "wrenn",
+   "type": "Character",
+   "name": "Wrenn"
+  },
+  {
+   "id": "zhalfir",
+   "type": "Place",
+   "name": "Zhalfir"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
+  {
+   "id": "emeria_skyclave",
+   "type": "Place",
+   "name": "Emeria Skyclave"
+  },
+  {
+   "id": "realmbreaker",
+   "type": "Object",
+   "name": "Realmbreaker (Elesh Norn's Invasion Tree)"
+  },
+  {
+   "id": "planeswalkers",
+   "type": "Faction",
+   "name": "Planeswalkers"
+  },
+  {
+   "id": "jaya_ballard",
+   "type": "Character",
+   "name": "Jaya Ballard"
+  },
+  {
+   "id": "mom_invasion",
+   "type": "Event",
+   "name": "Phyrexian invasion of the Multiverse (March of the Machine)"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MA001",
+   "subject": "teferi",
+   "predicate": "lost_spark_after",
+   "object": "mom_invasion",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "Teferi's spark had faded sometime after the invasion. Koth's as well."
+    }
+   ],
+   "summary": "Teferi's spark faded after the Phyrexian invasion."
+  },
+  {
+   "id": "MA013",
+   "subject": "koth",
+   "predicate": "lost_spark_after",
+   "object": "mom_invasion",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "Teferi's spark had faded sometime after the invasion. Koth's as well."
+    }
+   ],
+   "summary": "Koth's spark faded after the Phyrexian invasion."
+  },
+  {
+   "id": "MA002",
+   "subject": "nissa_revane",
+   "predicate": "lost_spark_after",
+   "object": "mom_invasion",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "They'd all lost their sparks, but only Nissa still wanted to planeswalk."
+    },
+    {
+     "page": "mat_repair",
+     "quote": "she can no longer planeswalk. I can, but"
+    }
+   ],
+   "summary": "After the invasion Nissa can no longer planeswalk, although she still wants to.",
+   "limitation": "The second quote is Ajani's dialogue; the story does not establish exactly how her spark was lost."
+  },
+  {
+   "id": "MA003",
+   "subject": "karn",
+   "predicate": "allied_with",
+   "object": "koth",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "Just that morning, Karn and Koth had finished roofing the last house in a new village."
+    },
+    {
+     "page": "mat_breaks",
+     "quote": "Koth and Karn were forging a new one."
+    }
+   ],
+   "summary": "Karn and Koth build a new home for the Mirran refugees on Zhalfir."
+  },
+  {
+   "id": "MA004",
+   "subject": "teferi",
+   "predicate": "returned_to",
+   "object": "zhalfir",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "Teferi had his country again."
+    }
+   ],
+   "summary": "After the invasion Teferi has his homeland of Zhalfir again."
+  },
+  {
+   "id": "MA005",
+   "subject": "chandra_nalaar",
+   "predicate": "left",
+   "object": "zhalfir",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "She does not watch Chandra planeswalk away, but Nissa can still smell the scent she leaves behind"
+    },
+    {
+     "page": "mat_breaks",
+     "quote": "\"Go, then, find Ajani, and I'll just wait here.\""
+    }
+   ],
+   "summary": "Chandra planeswalks away from Zhalfir to find Ajani, leaving Nissa behind."
+  },
+  {
+   "id": "MA006",
+   "subject": "wrenn",
+   "predicate": "bound_into",
+   "object": "realmbreaker",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_breaks",
+     "quote": "When Wrenn knit her fragile body into the sinew of the Invasion Tree"
+    },
+    {
+     "page": "mat_breaks",
+     "quote": "sitting with her legs crossed beside the sprout that used to be Wrenn"
+    }
+   ],
+   "summary": "Wrenn knit herself into the Invasion Tree and is now a sprout growing on Zhalfir."
+  },
+  {
+   "id": "MA007",
+   "subject": "nahiri",
+   "predicate": "lost_spark_after",
+   "object": "mom_invasion",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_repair",
+     "quote": "Then again, she was no longer a Planeswalker."
+    },
+    {
+     "page": "mat_repair",
+     "quote": "Her last hope at regaining her power—at becoming a Planeswalker once more—was gone."
+    }
+   ],
+   "summary": "Nahiri lost her spark in the Skyclave, and her last hope of recovering it was destroyed.",
+   "limitation": "Her spark is later found in the Skyclave chamber where she had bound herself, apparently fuelling the engine; the story does not say exactly how it left her."
+  },
+  {
+   "id": "MA008",
+   "subject": "ajani",
+   "predicate": "serves",
+   "object": "elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_repair",
+     "quote": "When she'd last seen him, it had been as Elesh Norn's most faithful evangel, her most favored lieutenant."
+    }
+   ],
+   "summary": "As a Phyrexian, Ajani was Elesh Norn's most faithful evangel and favored lieutenant.",
+   "limitation": "Past state; Ajani has been cleansed of Phyrexia by the time of the story."
+  },
+  {
+   "id": "MA009",
+   "subject": "ajani",
+   "predicate": "killed",
+   "object": "jaya_ballard",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mat_repair",
+     "quote": "You slaughtered the gods of Theros. You murdered Jaya Ballard."
+    }
+   ],
+   "summary": "Nahiri accuses Ajani of murdering Jaya Ballard and slaughtering the gods of Theros.",
+   "limitation": "An accusation in Nahiri's dialogue, not narration; Ajani reacts with grief and fury but does not confirm."
+  },
+  {
+   "id": "MA010",
+   "subject": "nahiri",
+   "predicate": "opposed",
+   "object": "planeswalkers",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_repair",
+     "quote": "\"Whatever it takes, I swear. No Planeswalker will set foot on Zendikar ever again.\""
+    }
+   ],
+   "summary": "Nahiri swears that no Planeswalker will set foot on Zendikar again."
+  },
+  {
+   "id": "MA011",
+   "subject": "ajani",
+   "predicate": "sought",
+   "object": "nahiri",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mat_repair",
+     "quote": "He had come to Zendikar seeking her out specifically."
+    }
+   ],
+   "summary": "Ajani came to Zendikar to find Nahiri.",
+   "limitation": "Narrated from Nahiri's point of view; his stated purpose is to help her."
+  }
+ ],
+ "remaining": [
+  "Both MAT stories are targeted, not exhaustive; the other MAT stories are not in the cached inventory",
+  "The lightning-beast portal on Zhalfir is not graded"
+ ]
+}

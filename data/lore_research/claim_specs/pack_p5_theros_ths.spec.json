@@ -1,0 +1,462 @@
+{
+ "pack_id": "pack_p5_theros_ths",
+ "arc": "THS",
+ "event_stage": "theros_ths_2013",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guides to Theros (Parts 1-3, 2013), Born of the Gods (2014-01-08) and Journey into Nyx (2014-04-02). These are setting guides, not episodic fiction. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "ths_pg1": "planeswalkers-guide-theros-part-1-2013-08-21",
+  "ths_pg2": "planeswalkers-guide-theros-part-2-2013-08-28",
+  "ths_pg3": "planeswalkers-guide-theros-part-3-2013-09-04",
+  "bng_guide": "planeswalkers-guide-born-gods-2014-01-08",
+  "jou_guide": "planeswalkers-guide-journey-nyx-2014-04-02"
+ },
+ "entities": [
+  {
+   "id": "heliod",
+   "type": "Character",
+   "name": "Heliod"
+  },
+  {
+   "id": "erebos",
+   "type": "Character",
+   "name": "Erebos"
+  },
+  {
+   "id": "xenagos",
+   "type": "Character",
+   "name": "Xenagos"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani Goldmane"
+  },
+  {
+   "id": "theros",
+   "type": "Plane",
+   "name": "Theros"
+  },
+  {
+   "id": "theros_gods",
+   "type": "Faction",
+   "name": "Gods of Theros"
+  },
+  {
+   "id": "nyx",
+   "type": "Place",
+   "name": "Nyx"
+  },
+  {
+   "id": "mogis",
+   "type": "Character",
+   "name": "Mogis"
+  },
+  {
+   "id": "iroas",
+   "type": "Character",
+   "name": "Iroas"
+  },
+  {
+   "id": "akros",
+   "type": "Place",
+   "name": "Akros"
+  },
+  {
+   "id": "kruphix",
+   "type": "Character",
+   "name": "Kruphix"
+  },
+  {
+   "id": "kiora",
+   "type": "Character",
+   "name": "Kiora"
+  },
+  {
+   "id": "thassa",
+   "type": "Character",
+   "name": "Thassa"
+  },
+  {
+   "id": "brimaz",
+   "type": "Character",
+   "name": "Brimaz"
+  },
+  {
+   "id": "theros_leonin",
+   "type": "Faction",
+   "name": "Leonin of Theros"
+  },
+  {
+   "id": "pharika",
+   "type": "Character",
+   "name": "Pharika"
+  },
+  {
+   "id": "theros_gorgons",
+   "type": "Faction",
+   "name": "Gorgons of Theros"
+  },
+  {
+   "id": "anax",
+   "type": "Character",
+   "name": "Anax"
+  },
+  {
+   "id": "cymede",
+   "type": "Character",
+   "name": "Cymede"
+  },
+  {
+   "id": "keranos",
+   "type": "Character",
+   "name": "Keranos"
+  },
+  {
+   "id": "karametra",
+   "type": "Character",
+   "name": "Karametra"
+  },
+  {
+   "id": "setessa",
+   "type": "Place",
+   "name": "Setessa"
+  },
+  {
+   "id": "nylea",
+   "type": "Character",
+   "name": "Nylea"
+  },
+  {
+   "id": "anthousa",
+   "type": "Character",
+   "name": "Anthousa"
+  },
+  {
+   "id": "theros_tritons",
+   "type": "Faction",
+   "name": "Tritons of Theros"
+  },
+  {
+   "id": "godsend",
+   "type": "Object",
+   "name": "Godsend"
+  },
+  {
+   "id": "meletis",
+   "type": "Place",
+   "name": "Meletis"
+  },
+  {
+   "id": "the_twelve",
+   "type": "Faction",
+   "name": "The Twelve (Meletis)"
+  }
+ ],
+ "claims": [
+  {
+   "id": "TS001",
+   "subject": "heliod",
+   "predicate": "created",
+   "object": "erebos",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ths_pg1",
+     "quote": "When the sun first shone on Heliod, god of the sun, the first shadow was cast. When Heliod saw it, he feared and banished it, sending it beyond the so-called Rivers That Ring the World"
+    }
+   ],
+   "summary": "Erebos began as the first shadow cast by Heliod, which Heliod banished beyond the Rivers That Ring the World.",
+   "limitation": "The guide presents this as the origin myth of Erebos; 'created' is a simplification of 'the first shadow was cast'."
+  },
+  {
+   "id": "TS002",
+   "subject": "xenagos",
+   "predicate": "sought",
+   "object": "nyx",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bng_guide",
+     "quote": "Xenagos returned to his home world with an unprecedented ambition: to become the god of revels."
+    }
+   ],
+   "summary": "The satyr Planeswalker Xenagos returned to Theros seeking to become the god of revels.",
+   "limitation": "Object simplified to Nyx, the gods' realm; the quoted goal is godhood."
+  },
+  {
+   "id": "TS003",
+   "subject": "xenagos",
+   "predicate": "joined",
+   "object": "theros_gods",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "Xenagos used the occasion to stage the final ritual that propelled him to godhood"
+    },
+    {
+     "page": "jou_guide",
+     "quote": "With the ascension of Xenagos, fifteen gods form the pantheon."
+    }
+   ],
+   "summary": "Xenagos's final ritual made him a god, the fifteenth member of the pantheon."
+  },
+  {
+   "id": "TS004",
+   "subject": "mogis",
+   "predicate": "sibling_of",
+   "object": "iroas",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "He is twin to Mogis, god of slaughter, who commands the dark and brutal side of war, and the two spar constantly."
+    }
+   ],
+   "summary": "Iroas, god of victory, and Mogis, god of slaughter, are twins."
+  },
+  {
+   "id": "TS005",
+   "subject": "mogis",
+   "predicate": "opposed",
+   "object": "akros",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "bng_guide",
+     "quote": "Taking the greatest brunt of the minotaur attack was the mountain fortress of Akros—whose patron, Iroas, is Mogis's brother and rival."
+    }
+   ],
+   "summary": "Mogis sent minotaur hordes against Akros, the polis of his rival brother Iroas."
+  },
+  {
+   "id": "TS006",
+   "subject": "elspeth_tirel",
+   "predicate": "led",
+   "object": "akros",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "bng_guide",
+     "quote": "Elspeth Tirel led an army of heroes from the three major cities—Akros, Meletis, and Setessa—to break the minotaur siege at Akros."
+    }
+   ],
+   "summary": "Elspeth led an army from Akros, Meletis and Setessa that broke the minotaur siege of Akros.",
+   "limitation": "She led the defending army, not the polis; the object stands for the siege of Akros."
+  },
+  {
+   "id": "TS007",
+   "subject": "heliod",
+   "predicate": "opposed",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "He believes Elspeth to be complicit and is intent on destroying her."
+    }
+   ],
+   "summary": "Heliod blamed Elspeth for Xenagos's ascension and sought to destroy her."
+  },
+  {
+   "id": "TS008",
+   "subject": "ajani",
+   "predicate": "allied_with",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "With the help of the leonin king, Brimaz, the two Planeswalkers were finally reunited at Tethmos, the leonin's main encampment. Together, they swore an oath to set things right."
+    }
+   ],
+   "summary": "Ajani and Elspeth reunited at Tethmos with Brimaz's help and swore to set things right."
+  },
+  {
+   "id": "TS009",
+   "subject": "brimaz",
+   "predicate": "leader_of",
+   "object": "theros_leonin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ths_pg3",
+     "quote": "Brimaz, the leonin king. The leonin king is both a warrior and a spiritual leader for his people."
+    }
+   ],
+   "summary": "Brimaz is the leonin king of Theros."
+  },
+  {
+   "id": "TS010",
+   "subject": "kruphix",
+   "predicate": "guardian_of",
+   "object": "nyx",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "Kruphix, god of horizons, is one of the very few who know the secret of how to enter Nyx and tear Xenagos from the stars. He has sworn to protect the knowledge"
+    }
+   ],
+   "summary": "Kruphix guards the secret of entering Nyx and tearing Xenagos from the stars.",
+   "limitation": "He guards the knowledge of how to enter Nyx, not Nyx itself."
+  },
+  {
+   "id": "TS011",
+   "subject": "elspeth_tirel",
+   "predicate": "received",
+   "object": "godsend",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "Armed with the mighty weapon Godsend, the reluctant hero Elspeth assumes the ultimate burden of saving the world."
+    }
+   ],
+   "summary": "Elspeth faces Xenagos armed with the weapon Godsend."
+  },
+  {
+   "id": "TS012",
+   "subject": "kiora",
+   "predicate": "impersonated",
+   "object": "thassa",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "bng_guide",
+     "quote": "Some tritons believe that Kiora is an avatar or herald of Thassa, god of the sea. Kiora does not disabuse them of this notion"
+    }
+   ],
+   "summary": "Some tritons take Kiora for Thassa's avatar or herald, and she lets them.",
+   "limitation": "Kiora does not claim to be Thassa; she lets the tritons' belief stand."
+  },
+  {
+   "id": "TS013",
+   "subject": "pharika",
+   "predicate": "mother_of",
+   "object": "theros_gorgons",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "She is also the mother of all gorgons, and their snaky bodies resemble hers."
+    }
+   ],
+   "summary": "Pharika, god of affliction, is the mother of all gorgons."
+  },
+  {
+   "id": "TS014",
+   "subject": "anax",
+   "predicate": "spouse_of",
+   "object": "cymede",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ths_pg2",
+     "quote": "The current king of Akros is a fierce warrior named Anax. The current—equally fierce—queen is Cymede."
+    },
+    {
+     "page": "ths_pg2",
+     "quote": "Cymede is seen by some as being partly responsible for her husband's effectiveness as king."
+    }
+   ],
+   "summary": "Anax is king and Cymede queen of Akros; Cymede is Anax's wife."
+  },
+  {
+   "id": "TS015",
+   "subject": "cymede",
+   "predicate": "serves",
+   "object": "keranos",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "jou_guide",
+     "quote": "Among mortals, Queen Cymede of Akros is Keranos's greatest servant and has done much to spread the god's worship in the city."
+    }
+   ],
+   "summary": "Queen Cymede of Akros is Keranos's greatest mortal servant."
+  },
+  {
+   "id": "TS016",
+   "subject": "karametra",
+   "predicate": "guardian_of",
+   "object": "setessa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ths_pg2",
+     "quote": "Karametra, the polis's patron, is the god of orphans, and abandoned children are brought from outside to be raised by the polis."
+    }
+   ],
+   "summary": "Karametra is Setessa's patron god."
+  },
+  {
+   "id": "TS017",
+   "subject": "karametra",
+   "predicate": "sibling_of",
+   "object": "nylea",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ths_pg2",
+     "quote": "Although they have a tumultuous relationship, Karametra speaks of Nylea as her sister"
+    }
+   ],
+   "summary": "Karametra speaks of Nylea as her sister.",
+   "limitation": "The guide reports how Karametra speaks of Nylea; it does not state literal kinship."
+  },
+  {
+   "id": "TS018",
+   "subject": "anthousa",
+   "predicate": "leader_of",
+   "object": "setessa",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ths_pg2",
+     "quote": "Their leader is Anthousa, who also leads Karametra's Council of Warriors. She is considered the god's closest advisor and de facto ruler of the city when the god is not present"
+    }
+   ],
+   "summary": "Anthousa leads Setessa's Leina Tower protectors and is the city's de facto ruler in Karametra's absence.",
+   "limitation": "De facto ruler only when the god is not present."
+  },
+  {
+   "id": "TS019",
+   "subject": "theros_tritons",
+   "predicate": "serves",
+   "object": "thassa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ths_pg3",
+     "quote": "Tritons worship the sea god Thassa above all others and work to do her bidding."
+    }
+   ],
+   "summary": "The tritons of Theros worship Thassa above all other gods and do her bidding."
+  },
+  {
+   "id": "TS020",
+   "subject": "the_twelve",
+   "predicate": "leader_of",
+   "object": "meletis",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ths_pg2",
+     "quote": "The Twelve, a council of philosophers, serves as the ruling body of Meletis."
+    }
+   ],
+   "summary": "The Twelve, a council of philosophers, rule Meletis."
+  }
+ ],
+ "remaining": [
+  "Only targeted claims; most god profiles and creature lore in the guides are not graded",
+  "The Theros block web fiction (e.g. 'Godsend') is not in the cached inventory for THS",
+  "The theros-plane overview page is not cited"
+ ]
+}
