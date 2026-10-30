@@ -12,68 +12,273 @@
   "neo_guide": "planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03"
  },
  "entities": [
-  {"id": "kaito", "type": "Character", "name": "Kaito Shizuki"},
-  {"id": "the_wanderer", "type": "Character", "name": "The Wanderer (Emperor of Kamigawa)"},
-  {"id": "emperor_of_kamigawa", "type": "Concept", "name": "Emperor of Kamigawa"},
-  {"id": "tamiyo", "type": "Character", "name": "Tamiyo"},
-  {"id": "tezzeret", "type": "Character", "name": "Tezzeret"},
-  {"id": "jin_gitaxias", "type": "Character", "name": "Jin-Gitaxias"},
-  {"id": "kyodai", "type": "Character", "name": "Kyodai"},
-  {"id": "kamigawa", "type": "Plane", "name": "Kamigawa"},
-  {"id": "reality_chip", "type": "Object", "name": "Reality Chip"},
-  {"id": "eiko", "type": "Character", "name": "Eiko"},
-  {"id": "tameshi", "type": "Character", "name": "Tameshi"},
-  {"id": "tanuki_kami", "type": "Concept", "name": "Tanuki-shaped kami (Kaito's spark)"},
-  {"id": "imperial_palace", "type": "Place", "name": "Imperial Palace (Eiganjo)"}
+  {
+   "id": "kaito",
+   "type": "Character",
+   "name": "Kaito Shizuki"
+  },
+  {
+   "id": "the_wanderer",
+   "type": "Character",
+   "name": "The Wanderer (Emperor of Kamigawa)"
+  },
+  {
+   "id": "emperor_of_kamigawa",
+   "type": "Concept",
+   "name": "Emperor of Kamigawa"
+  },
+  {
+   "id": "tamiyo",
+   "type": "Character",
+   "name": "Tamiyo"
+  },
+  {
+   "id": "tezzeret",
+   "type": "Character",
+   "name": "Tezzeret"
+  },
+  {
+   "id": "jin_gitaxias",
+   "type": "Character",
+   "name": "Jin-Gitaxias"
+  },
+  {
+   "id": "kyodai",
+   "type": "Character",
+   "name": "Kyodai"
+  },
+  {
+   "id": "kamigawa",
+   "type": "Plane",
+   "name": "Kamigawa"
+  },
+  {
+   "id": "reality_chip",
+   "type": "Object",
+   "name": "Reality Chip"
+  },
+  {
+   "id": "eiko",
+   "type": "Character",
+   "name": "Eiko"
+  },
+  {
+   "id": "tameshi",
+   "type": "Character",
+   "name": "Tameshi"
+  },
+  {
+   "id": "tanuki_kami",
+   "type": "Concept",
+   "name": "Tanuki-shaped kami (Kaito's spark)"
+  },
+  {
+   "id": "imperial_palace",
+   "type": "Place",
+   "name": "Imperial Palace (Eiganjo)"
+  }
  ],
  "claims": [
-  {"id": "NEO001", "subject": "the_wanderer", "predicate": "identified_with", "object": "emperor_of_kamigawa", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep4", "quote": "She was both the Emperor of Kamigawa and the Wanderer"},
-              {"page": "neo_ep3", "quote": "\"The Wanderer and the emperor are one and the same.\""}],
-   "summary": "The planeswalker known as the Wanderer is the missing Emperor of Kamigawa."},
-  {"id": "NEO002", "subject": "the_wanderer", "predicate": "spark_ignited", "object": "tezzeret; reality_chip", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep5", "quote": "Whatever he'd done to Kyodai ten years ago had inadvertently set off the Wanderer's spark."},
-              {"page": "neo_ep3", "quote": "Instead, the chip set off the Wanderer's spark."}],
-   "summary": "Ten years earlier, Tezzeret's use of a prototype Reality Chip on Kyodai accidentally ignited the emperor's spark, and she vanished."},
-  {"id": "NEO003", "subject": "tezzeret", "predicate": "attempted_to_control", "object": "kyodai", "grade": "CANON_IMPLIED",
-   "quotes": [{"page": "neo_ep3", "quote": "Tezzeret had gone to the palace to try and control Kyodai using a prototype of the chip."},
-              {"page": "neo_ep4", "quote": "\"The night you vanished, Tezzeret used a prototype of the Reality Chip on Kyodai. I think he's trying to find a way to control the kami.\""}],
+  {
+   "id": "NEO001",
+   "subject": "the_wanderer",
+   "predicate": "identified_with",
+   "object": "emperor_of_kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep4",
+     "quote": "She was both the Emperor of Kamigawa and the Wanderer"
+    },
+    {
+     "page": "neo_ep3",
+     "quote": "\"The Wanderer and the emperor are one and the same.\""
+    }
+   ],
+   "summary": "The planeswalker known as the Wanderer is the missing Emperor of Kamigawa."
+  },
+  {
+   "id": "NEO002",
+   "subject": "the_wanderer",
+   "predicate": "spark_ignited",
+   "object": "tezzeret; reality_chip",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep5",
+     "quote": "Whatever he'd done to Kyodai ten years ago had inadvertently set off the Wanderer's spark."
+    },
+    {
+     "page": "neo_ep3",
+     "quote": "Instead, the chip set off the Wanderer's spark."
+    }
+   ],
+   "summary": "Ten years earlier, Tezzeret's use of a prototype Reality Chip on Kyodai accidentally ignited the emperor's spark, and she vanished."
+  },
+  {
+   "id": "NEO003",
+   "subject": "tezzeret",
+   "predicate": "attempted_to_control",
+   "object": "kyodai",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "neo_ep3",
+     "quote": "Tezzeret had gone to the palace to try and control Kyodai using a prototype of the chip."
+    },
+    {
+     "page": "neo_ep4",
+     "quote": "\"The night you vanished, Tezzeret used a prototype of the Reality Chip on Kyodai. I think he's trying to find a way to control the kami.\""
+    }
+   ],
    "summary": "Tezzeret used a prototype Reality Chip on Kyodai, apparently trying to control the kami.",
-   "limitation": "The intent to control Kyodai is stated in dialogue (Tamiyo relaying the Wanderer; Kaito's 'I think'); the narration confirms only that Tezzeret did something to Kyodai."},
-  {"id": "NEO004", "subject": "the_wanderer", "predicate": "spark_unstable_because_of", "object": "reality_chip", "grade": "CANON_IMPLIED",
-   "quotes": [{"page": "neo_ep3", "quote": "\"The Reality Chip left her spark unstable. The Wanderer does not control her gift the way you and I can.\""}],
+   "limitation": "The intent to control Kyodai is stated in dialogue (Tamiyo relaying the Wanderer; Kaito's 'I think'); the narration confirms only that Tezzeret did something to Kyodai."
+  },
+  {
+   "id": "NEO004",
+   "subject": "the_wanderer",
+   "predicate": "spark_unstable_because_of",
+   "object": "reality_chip",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "neo_ep3",
+     "quote": "\"The Reality Chip left her spark unstable. The Wanderer does not control her gift the way you and I can.\""
+    }
+   ],
    "summary": "The Reality Chip left the Wanderer's spark unstable, so she could not control her planeswalking or come home.",
-   "limitation": "Tamiyo's explanation in dialogue; not separately narrated in these episodes."},
-  {"id": "NEO005", "subject": "kaito", "predicate": "spark_ignited", "object": "tanuki_kami", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep2", "quote": "The embodiment of the tanuki-shaped kami that caused Kaito's spark to ignite. He'd become a planeswalker that day."}],
-   "summary": "Kaito's spark ignited because of a tanuki-shaped kami, and he became a planeswalker."},
-  {"id": "NEO006", "subject": "kaito", "predicate": "sibling_of", "object": "eiko", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep1", "quote": "Kaito spun toward his sister. Even though they were the same age, Eiko had always seemed older."}],
-   "summary": "Eiko is Kaito's sister, and they are the same age."},
-  {"id": "NEO007", "subject": "kaito", "predicate": "swore_to", "object": "the_wanderer", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep4", "quote": "Ten years ago, Kaito had sworn never to step foot in the palace until the emperor returned."}],
-   "summary": "Ten years earlier, Kaito swore never to set foot in the palace until the emperor returned."},
-  {"id": "NEO008", "subject": "jin_gitaxias", "predicate": "killed", "object": "tameshi", "grade": "CANON_IMPLIED",
-   "quotes": [{"page": "neo_ep4", "quote": "He did it in secrecy, and even murdered Tameshi to keep him from asking too many questions."},
-              {"page": "neo_ep3", "quote": "your fleshling companion was a willing participant, even at his demise."}],
+   "limitation": "Tamiyo's explanation in dialogue; not separately narrated in these episodes."
+  },
+  {
+   "id": "NEO005",
+   "subject": "kaito",
+   "predicate": "spark_ignited",
+   "object": "tanuki_kami",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep2",
+     "quote": "The embodiment of the tanuki-shaped kami that caused Kaito's spark to ignite. He'd become a planeswalker that day."
+    }
+   ],
+   "summary": "Kaito's spark ignited because of a tanuki-shaped kami, and he became a planeswalker."
+  },
+  {
+   "id": "NEO006",
+   "subject": "kaito",
+   "predicate": "sibling_of",
+   "object": "eiko",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep1",
+     "quote": "Kaito spun toward his sister. Even though they were the same age, Eiko had always seemed older."
+    }
+   ],
+   "summary": "Eiko is Kaito's sister, and they are the same age."
+  },
+  {
+   "id": "NEO007",
+   "subject": "kaito",
+   "predicate": "swore_to",
+   "object": "the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep4",
+     "quote": "Ten years ago, Kaito had sworn never to step foot in the palace until the emperor returned."
+    }
+   ],
+   "summary": "Ten years earlier, Kaito swore never to set foot in the palace until the emperor returned."
+  },
+  {
+   "id": "NEO008",
+   "subject": "jin_gitaxias",
+   "predicate": "killed",
+   "object": "tameshi",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "neo_ep4",
+     "quote": "He did it in secrecy, and even murdered Tameshi to keep him from asking too many questions."
+    },
+    {
+     "page": "neo_ep3",
+     "quote": "your fleshling companion was a willing participant, even at his demise."
+    }
+   ],
    "summary": "Jin-Gitaxias had Tameshi killed to stop his questions.",
-   "limitation": "The murder is stated in narration that follows Kaito's own reasoning, and in Jin-Gitaxias's oblique remark; the killing itself is not shown."},
-  {"id": "NEO009", "subject": "kyodai", "predicate": "guardian_of", "object": "kamigawa", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_guide", "quote": "The main shrine of Kyodai, the guardian spirit of Kamigawa, is located within the palace."},
-              {"page": "neo_ep1", "quote": "The guardian spirit of Kamigawa only spoke through the emperor"}],
-   "summary": "Kyodai is the guardian spirit of Kamigawa, with its main shrine in the Imperial Palace; it speaks through the emperor."},
-  {"id": "NEO010", "subject": "tezzeret", "predicate": "abducted", "object": "tamiyo", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep5", "quote": "Tezzeret yanked Tamiyo through the snapping light, and they both vanished from the rooftop."},
-              {"page": "neo_ep5", "quote": "Tamiyo wasn't prepared for the hold Tezzeret would have over her, or how it would sever her connection to her story magic."}],
-   "summary": "Using the Reality Chip's hold over Tamiyo, Tezzeret drags her through a portal and away from Kamigawa."},
-  {"id": "NEO011", "subject": "jin_gitaxias", "predicate": "corrupted", "object": "tamiyo", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep5", "quote": "\"Arise, first of the Phyrexian planeswalkers. You will not be the last.\""},
-              {"page": "neo_ep5", "quote": "Phyrexia was her new home. She was a part of it—mind, body, and soul."}],
+   "limitation": "The murder is stated in narration that follows Kaito's own reasoning, and in Jin-Gitaxias's oblique remark; the killing itself is not shown."
+  },
+  {
+   "id": "NEO009",
+   "subject": "kyodai",
+   "predicate": "guardian_of",
+   "object": "kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_guide",
+     "quote": "The main shrine of Kyodai, the guardian spirit of Kamigawa, is located within the palace."
+    },
+    {
+     "page": "neo_ep1",
+     "quote": "The guardian spirit of Kamigawa only spoke through the emperor"
+    }
+   ],
+   "summary": "Kyodai is the guardian spirit of Kamigawa, with its main shrine in the Imperial Palace; it speaks through the emperor."
+  },
+  {
+   "id": "NEO010",
+   "subject": "tezzeret",
+   "predicate": "abducted",
+   "object": "tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep5",
+     "quote": "Tezzeret yanked Tamiyo through the snapping light, and they both vanished from the rooftop."
+    },
+    {
+     "page": "neo_ep5",
+     "quote": "Tamiyo wasn't prepared for the hold Tezzeret would have over her, or how it would sever her connection to her story magic."
+    }
+   ],
+   "summary": "Using the Reality Chip's hold over Tamiyo, Tezzeret drags her through a portal and away from Kamigawa."
+  },
+  {
+   "id": "NEO011",
+   "subject": "jin_gitaxias",
+   "predicate": "corrupted",
+   "object": "tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep5",
+     "quote": "\"Arise, first of the Phyrexian planeswalkers. You will not be the last.\""
+    },
+    {
+     "page": "neo_ep5",
+     "quote": "Phyrexia was her new home. She was a part of it—mind, body, and soul."
+    }
+   ],
    "summary": "In the epilogue, Jin-Gitaxias has compleated Tamiyo, the first Phyrexian planeswalker.",
-   "event_stage": "neo_epilogue_2022"},
-  {"id": "NEO012", "subject": "kaito", "predicate": "left", "object": "imperial_palace", "grade": "CANON_CONFIRMED",
-   "quotes": [{"page": "neo_ep5", "quote": "For the second time in his life, Kaito left the palace with no plans to return. He would master his planeswalking. He would search the Multiverse for Tamiyo."}],
-   "summary": "Kaito leaves the palace again, intending to master planeswalking and search the Multiverse for Tamiyo."}
+   "event_stage": "neo_epilogue_2022"
+  },
+  {
+   "id": "NEO012",
+   "subject": "kaito",
+   "predicate": "left",
+   "object": "imperial_palace",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "neo_ep5",
+     "quote": "For the second time in his life, Kaito left the palace with no plans to return. He would master his planeswalking. He would search the Multiverse for Tamiyo."
+    }
+   ],
+   "summary": "Kaito leaves the palace again, intending to master planeswalking and search the Multiverse for Tamiyo."
+  }
  ],
  "remaining": [
   "Light-Paws, the Uprisers/Futurists conflict, the merge gates and Risona are not modelled",

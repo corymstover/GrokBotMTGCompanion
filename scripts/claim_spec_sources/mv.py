@@ -8,6 +8,8 @@ def spec(pack_id, arc, stage, scope, pages, entities, claims, remaining):
     ents=[{"id":i,"type":t,"name":n} for i,t,n in entities]
     cl=[]
     for c in claims:
+        if isinstance(c,dict):  # verbatim claim dict (key order preserved), used by specs generated from committed JSON
+            cl.append(c); continue
         cid,subj,pred,obj,grade,quotes,summary=c[:7]
         d={"id":cid,"subject":subj,"predicate":pred,"object":obj,"grade":grade,
            "quotes":[{"page":p,"quote":q} for p,q in quotes],"summary":summary}
