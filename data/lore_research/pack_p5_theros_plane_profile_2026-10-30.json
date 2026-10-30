@@ -1,0 +1,112 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-THEROS — Pantheon, poleis, geography and perils in the official plane primer",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-30",
+  "source_register": {
+    "ths_plane": {
+      "title": "Theros",
+      "url": "https://magic.wizards.com/en/story/theros-plane",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": ""
+    }
+  },
+  "entities": [
+    {"id": "theros", "type": "Plane", "name": "Theros"},
+    {"id": "theros_gods", "type": "Faction", "name": "Gods of Theros"},
+    {"id": "meletis", "type": "Place", "name": "Meletis"},
+    {"id": "akros", "type": "Place", "name": "Akros"},
+    {"id": "setessa", "type": "Place", "name": "Setessa"},
+    {"id": "minotaur_raiders_theros", "type": "Faction", "name": "Cave-dwelling minotaur raiders of Theros"},
+    {"id": "wayward_travelers_theros", "type": "Concept", "name": "Travelers endangered by Theros minotaurs"},
+    {"id": "giants_theros", "type": "Faction", "name": "Giants of Theros"},
+    {"id": "terrain_strength_theros", "type": "Concept", "name": "Giants' strength drawn from terrain"},
+    {"id": "krakens_theros", "type": "Faction", "name": "Krakens of Theros"},
+    {"id": "theros_seas", "type": "Place", "name": "Seas of Theros"},
+    {"id": "sirens_theros", "type": "Faction", "name": "Sirens of Theros"},
+    {"id": "sailors_theros", "type": "Concept", "name": "Theros sailors lured by sirens"},
+    {"id": "meletis_learning", "type": "Concept", "name": "Learning, progress, magic and religious devotion in Meletis"},
+    {"id": "akros_martial_prestige", "type": "Concept", "name": "Akroan ideal of martial prowess"},
+    {"id": "setessa_nature_veneration", "type": "Concept", "name": "Setessan veneration of nature"},
+    {"id": "akros_outposts", "type": "Place", "name": "Fortified outpost network around Akros"}
+  ],
+  "claims": [
+    {
+      "id": "THP001", "subject": "theros", "predicate": "ruled_by_pantheon",
+      "object": "theros_gods", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "ruled by an awe-inspiring pantheon of gods",
+      "summary": "The official Theros profile describes the plane as ruled by a pantheon of gods whose whims and wrath affect mortals.",
+      "limitation": "This describes the pantheon's broad influence, not a complete list of gods or a formal constitutional government."
+    },
+    {
+      "id": "THP002", "subject": "theros", "predicate": "contains_poleis",
+      "object": "meletis;akros;setessa", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "civilization is protected behind the walls of great poleis",
+      "summary": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
+      "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros."
+    },
+    {
+      "id": "THP003", "subject": "minotaur_raiders_theros", "predicate": "preyed_on",
+      "object": "wayward_travelers_theros", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "minotaurs descend on wayward travelers",
+      "summary": "Theros's cave-dwelling minotaurs are described as dangers to travelers.",
+      "limitation": "A general environmental threat, not proof of a named attack or a single organized minotaur faction."
+    },
+    {
+      "id": "THP004", "subject": "giants_theros", "predicate": "drew_strength_from",
+      "object": "terrain_strength_theros", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "drawing strength from the terrain on which they tread",
+      "summary": "Theros's giants gain strength from the terrain on which they walk, according to the official plane primer.",
+      "limitation": "The source does not quantify a rules effect or identify a specific giant or terrain type."
+    },
+    {
+      "id": "THP005", "subject": "krakens_theros", "predicate": "prowled",
+      "object": "theros_seas", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "massive krakens prowl its depths",
+      "summary": "The seas of Theros contain great krakens that threaten maritime journeys.",
+      "limitation": "No named kraken, sea, or incident is verified by this general description."
+    },
+    {
+      "id": "THP006", "subject": "sirens_theros", "predicate": "lured",
+      "object": "sailors_theros", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "sirens lure its sailors to their demise",
+      "summary": "Sirens lure Theros sailors to deadly outcomes in the official plane's general account.",
+      "limitation": "Do not infer a particular voyage or named victim from this environmental overview."
+    },
+    {
+      "id": "THP007", "subject": "meletis", "predicate": "esteemed",
+      "object": "meletis_learning", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "polis of learning, progress, magic, and devotion to the gods",
+      "summary": "Meletis is identified with learning, progress, magic, and devotion to the gods.",
+      "limitation": "Civic ideals do not prove that every Meletian shares them or that a particular institution held power."
+    },
+    {
+      "id": "THP008", "subject": "akros", "predicate": "prized",
+      "object": "akros_martial_prestige", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "martial prowess is held in the highest esteem",
+      "summary": "The polis of Akros emphasizes martial prowess and celebrates its renowned warriors.",
+      "limitation": "This is a cultural characterization, not an exhaustive Akroan military hierarchy."
+    },
+    {
+      "id": "THP009", "subject": "setessa", "predicate": "venerated",
+      "object": "setessa_nature_veneration", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "all in Setessa share a veneration of nature",
+      "summary": "The official profile describes Setessa as independent and devoted to nature.",
+      "limitation": "A broad portrayal of the polis, not a dated law, leader's action, or every individual's stated belief."
+    },
+    {
+      "id": "THP010", "subject": "akros_outposts", "predicate": "defended",
+      "object": "theros", "grade": "CANON_CONFIRMED", "event_stage": "plane_profile_undated",
+      "source_ids": ["ths_plane"], "source_excerpt": "outposts that serve to protect the rest of Theros",
+      "summary": "Akros's cliff-top fortress is linked to an outpost network protecting areas beyond its walls.",
+      "limitation": "This describes a defensive function; it does not verify every defended territory or a specific dated war."
+    }
+  ],
+  "remaining": [
+    "Research named myths, gods, hero narratives and the Underworld using further official evidence; this page is a general primer.",
+    "Do not duplicate existing TS037, which specifically credits the Reverent Army with defending Meletis.",
+    "Do not invent in-world dates or a time order for the primer's undated, largely simultaneous features.",
+    "Preserve all existing Theros lore and Commander approvals; this research pack is unapproved."
+  ]
+}

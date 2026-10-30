@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "e74a33e697ff10958eb7f090f1a319978aaaf7187b12a7caac6a2c9cf7412677",
+ "content_sha256": "856efb3d25ea0744e3ad6294fc036a6fb048859154e54568d27e9057b52ec0a0",
  "edges": [
   {
    "artists": [
@@ -27811,6 +27811,150 @@
    "to": "faction:dragonlords"
   },
   {
+   "claim": "THP001",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ruled_by_pantheon",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "faction:theros_gods"
+  },
+  {
+   "claim": "THP002",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_poleis",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "place:akros"
+  },
+  {
+   "claim": "THP002",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_poleis",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "place:meletis"
+  },
+  {
+   "claim": "THP002",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_poleis",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "place:setessa"
+  },
+  {
+   "claim": "THP003",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:minotaur_raiders_theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "preyed_on",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:wayward_travelers_theros"
+  },
+  {
+   "claim": "THP004",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:giants_theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "drew_strength_from",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:terrain_strength_theros"
+  },
+  {
+   "claim": "THP005",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:krakens_theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "prowled",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "place:theros_seas"
+  },
+  {
+   "claim": "THP006",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:sirens_theros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "lured",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:sailors_theros"
+  },
+  {
+   "claim": "THP007",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:meletis",
+   "grade": "CANON_CONFIRMED",
+   "relation": "esteemed",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:meletis_learning"
+  },
+  {
+   "claim": "THP008",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:akros",
+   "grade": "CANON_CONFIRMED",
+   "relation": "prized",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:akros_martial_prestige"
+  },
+  {
+   "claim": "THP009",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:setessa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "venerated",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "concept:setessa_nature_veneration"
+  },
+  {
+   "claim": "THP010",
+   "era": "plane_profile_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:akros_outposts",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defended",
+   "sources": [
+    "ths_plane"
+   ],
+   "to": "plane:theros"
+  },
+  {
    "claim": "TKS001",
    "era": "khans_and_dragons_of_tarkir_side_stories_2014_2015_and_dragonstorm_2026",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -46529,6 +46673,138 @@
    "to": "character:sarkhan_vol"
   },
   {
+   "from": "claim:THP001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:theros_gods"
+  },
+  {
+   "from": "claim:THP001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:THP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:akros"
+  },
+  {
+   "from": "claim:THP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:meletis"
+  },
+  {
+   "from": "claim:THP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:setessa"
+  },
+  {
+   "from": "claim:THP002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:THP003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:wayward_travelers_theros"
+  },
+  {
+   "from": "claim:THP003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:minotaur_raiders_theros"
+  },
+  {
+   "from": "claim:THP004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:terrain_strength_theros"
+  },
+  {
+   "from": "claim:THP004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:giants_theros"
+  },
+  {
+   "from": "claim:THP005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:theros_seas"
+  },
+  {
+   "from": "claim:THP005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:krakens_theros"
+  },
+  {
+   "from": "claim:THP006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:sailors_theros"
+  },
+  {
+   "from": "claim:THP006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:sirens_theros"
+  },
+  {
+   "from": "claim:THP007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:meletis_learning"
+  },
+  {
+   "from": "claim:THP007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:meletis"
+  },
+  {
+   "from": "claim:THP008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:akros_martial_prestige"
+  },
+  {
+   "from": "claim:THP008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:akros"
+  },
+  {
+   "from": "claim:THP009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:setessa_nature_veneration"
+  },
+  {
+   "from": "claim:THP009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:setessa"
+  },
+  {
+   "from": "claim:THP010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:THP010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:akros_outposts"
+  },
+  {
    "from": "claim:TKS001",
    "relation": "asserts",
    "role": "object",
@@ -60777,6 +61053,56 @@
   {
    "from": "source:ths_plane",
    "relation": "cited_by",
+   "to": "claim:THP001"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP002"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP003"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP004"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP005"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP006"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP007"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP008"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP009"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:THP010"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
    "to": "claim:TS037"
   },
   {
@@ -62283,6 +62609,13 @@
     "entities": 19,
     "file": "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
     "sha256": "a17703f0ceab413c8c50d14445686887aac302bb38b29a314e93c2fbe15fb5c6",
+    "sources": 1
+   },
+   {
+    "claims": 10,
+    "entities": 17,
+    "file": "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json",
+    "sha256": "80f42fc8ececb68512579c400abaf3b3adaab1466f0dca9537780f19a0441e5a",
     "sources": 1
    }
   ],
@@ -93637,6 +93970,126 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP001",
+   "limitation": "This describes the pantheon's broad influence, not a complete list of gods or a formal constitutional government.",
+   "name": "The official Theros profile describes the plane as ruled by a pantheon of gods whose whims and wrath affect mortals.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "ruled_by_pantheon",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP002",
+   "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
+   "name": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "contains_poleis",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP003",
+   "limitation": "A general environmental threat, not proof of a named attack or a single organized minotaur faction.",
+   "name": "Theros's cave-dwelling minotaurs are described as dangers to travelers.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "preyed_on",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP004",
+   "limitation": "The source does not quantify a rules effect or identify a specific giant or terrain type.",
+   "name": "Theros's giants gain strength from the terrain on which they walk, according to the official plane primer.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "drew_strength_from",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP005",
+   "limitation": "No named kraken, sea, or incident is verified by this general description.",
+   "name": "The seas of Theros contain great krakens that threaten maritime journeys.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "prowled",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP006",
+   "limitation": "Do not infer a particular voyage or named victim from this environmental overview.",
+   "name": "Sirens lure Theros sailors to deadly outcomes in the official plane's general account.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "lured",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP007",
+   "limitation": "Civic ideals do not prove that every Meletian shares them or that a particular institution held power.",
+   "name": "Meletis is identified with learning, progress, magic, and devotion to the gods.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "esteemed",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP008",
+   "limitation": "This is a cultural characterization, not an exhaustive Akroan military hierarchy.",
+   "name": "The polis of Akros emphasizes martial prowess and celebrates its renowned warriors.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "prized",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP009",
+   "limitation": "A broad portrayal of the polis, not a dated law, leader's action, or every individual's stated belief.",
+   "name": "The official profile describes Setessa as independent and devoted to nature.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "venerated",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:THP010",
+   "limitation": "This describes a defensive function; it does not verify every defended territory or a specific dated war.",
+   "name": "Akros's cliff-top fortress is linked to an outpost network protecting areas beyond its walls.",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "predicate": "defended",
+   "stage": "plane_profile_undated",
+   "type": "Claim"
+  },
+  {
    "grade": "CANON_IMPLIED",
    "id": "claim:TKS001",
    "limitation": "The sentence names the Atarka clan and its dragonlord; Surrak's service to Atarka herself is inferred from his role.",
@@ -96572,6 +97025,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:akros_martial_prestige",
+   "name": "Akroan ideal of martial prowess",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:amonkhet_trials",
    "name": "The five Trials of Amonkhet",
    "origins": [
@@ -96697,6 +97158,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:meletis_learning",
+   "name": "Learning, progress, magic and religious devotion in Meletis",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:multiverse",
    "name": "The Multiverse",
    "origins": [
@@ -96737,10 +97206,34 @@
    "type": "Concept"
   },
   {
+   "id": "concept:sailors_theros",
+   "name": "Theros sailors lured by sirens",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:setessa_nature_veneration",
+   "name": "Setessan veneration of nature",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:tanuki_kami",
    "name": "Tanuki-shaped kami (Kaito's spark)",
    "origins": [
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:terrain_strength_theros",
+   "name": "Giants' strength drawn from terrain",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -96781,6 +97274,14 @@
    "name": "Unidentified planeswalkers using soul bombs (2008 recap)",
    "origins": [
     "pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:wayward_travelers_theros",
+   "name": "Travelers endangered by Theros minotaurs",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -98424,6 +98925,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:giants_theros",
+   "name": "Giants of Theros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:golgari",
    "name": "Golgari Swarm",
    "name_variants": [
@@ -98635,6 +99144,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:krakens_theros",
+   "name": "Krakens of Theros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:kraul",
    "name": "Kraul",
    "origins": [
@@ -98719,6 +99236,14 @@
    "name": "Mausoleum Guards",
    "origins": [
     "pack_p5_untagged_m13_2012_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:minotaur_raiders_theros",
+   "name": "Cave-dwelling minotaur raiders of Theros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -99000,6 +99525,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:sirens_theros",
+   "name": "Sirens of Theros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:skelle_clan",
    "name": "Skelle clan",
    "origins": [
@@ -99148,6 +99681,7 @@
    "name": "Gods of Theros",
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Faction"
@@ -99362,7 +99896,16 @@
    "id": "place:akros",
    "name": "Akros",
    "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:akros_outposts",
+   "name": "Fortified outpost network around Akros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -99807,6 +100350,7 @@
    "id": "place:meletis",
    "name": "Meletis",
    "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Place"
@@ -99965,6 +100509,7 @@
    "id": "place:setessa",
    "name": "Setessa",
    "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Place"
@@ -100053,6 +100598,14 @@
    "origins": [
     "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:theros_seas",
+   "name": "Seas of Theros",
+   "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -100492,6 +101045,7 @@
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json"
    ],
@@ -115173,6 +115727,7 @@
    "kind": "official_story_episode",
    "name": "Theros",
    "origins": [
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -116141,17 +116696,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1184,
+  "claim_edges_with_era": 1196,
   "claim_edges_with_in_universe_date": 33,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 897,
+   "CANON_CONFIRMED": 907,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8019,
+  "edges": 8063,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -116160,20 +116715,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 482,
-   "Claim": 1151,
-   "Concept": 155,
+   "Claim": 1161,
+   "Concept": 161,
    "DeckProposal": 3,
    "Event": 23,
-   "Faction": 132,
+   "Faction": 136,
    "Literal": 14,
    "Object": 52,
-   "Place": 100,
+   "Place": 102,
    "Plane": 33,
    "Source": 605
   },
-  "nodes": 5072,
+  "nodes": 5094,
   "non_wizards_sources": 0,
-  "relations": 373,
+  "relations": 381,
   "wizards_official_sources": 605
  }
 }

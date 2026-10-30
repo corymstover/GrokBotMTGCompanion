@@ -34876,6 +34876,13 @@
    "PRINTED_IN_STORY_SET": 26,
    "NAMED_PARTICIPANT": 81
   },
+  "pack_p5_theros_plane_profile_2026-10-30.json": {
+   "claims": 10,
+   "claims_anchored": 0,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 0
+  },
   "pack_p5_theros_ths_2026-10-30.json": {
    "claims": 37,
    "claims_anchored": 28,
@@ -35032,12 +35039,12 @@
   }
  },
  "counts": {
-  "claims": 1151,
+  "claims": 1161,
   "claims_anchored": 952,
   "anchors": 4051,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
   "NAMED_PARTICIPANT": 3382
  },
- "content_sha256": "fa7742edf2771cf233a963db4b12ac072edd77f85c01521f14cc8d2bd339535b"
+ "content_sha256": "1fb894eeb0bfc78ad8b4dbacc90ef2cd80d95ac77631a9a8b5af9729f10be1a8"
 }

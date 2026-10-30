@@ -70,7 +70,8 @@
    "data/lore_research/pack_p5_untagged_tarkir_stories_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
-   "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json"
+   "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json",
+   "data/lore_research/pack_p5_theros_plane_profile_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -84,7 +85,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1151,
+  "claims": 1161,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -155,7 +156,8 @@
   "pack_p5_untagged_tarkir_stories_2026-10-30.json": 11,
   "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": 25,
   "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json": 12,
-  "pack_p5_alara_plane_profile_2026-10-30.json": 10
+  "pack_p5_alara_plane_profile_2026-10-30.json": 10,
+  "pack_p5_theros_plane_profile_2026-10-30.json": 10
  },
  "arcs": [
   {
@@ -675,6 +677,7 @@
     "story": 14
    },
    "citing_packs": [
+    "pack_p5_theros_plane_profile_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
@@ -809,5 +812,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "0b46069a457a1c33556d3468e25c427c0521cac4d45923bec2d2d3e477a06db0"
+ "sha256": "8dd9e0ed5d1d5c45677a5657b0c3ac057c1019560a7d4275fad4ac159b5365ff"
 }

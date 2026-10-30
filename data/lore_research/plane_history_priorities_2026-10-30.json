@@ -770,15 +770,19 @@
     {
       "id": "plane:theros",
       "name": "Theros",
-      "claim_edges": 3,
-      "distinct_claims": 3,
+      "claim_edges": 8,
+      "distinct_claims": 6,
       "claims": [
         "MOM006",
+        "THP001",
+        "THP002",
+        "THP010",
         "UB004",
         "UB032"
       ],
       "official_source_ids": [
         "mom_ep01",
+        "ths_plane",
         "ub_calix",
         "ub_xenagos"
       ],
@@ -786,7 +790,7 @@
         "CANON_CONFIRMED",
         "CANON_IMPLIED"
       ],
-      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
       "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
     },
     {
