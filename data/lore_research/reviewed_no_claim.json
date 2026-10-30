@@ -368,6 +368,46 @@
    "reason": "PRODUCT_OR_PROMO_NOTE",
    "note": "Dungeons & Dragons adventure download page for Adventures in the Forgotten Realms: a short setup blurb plus character-sheet downloads. Not Magic story text with graded relations.",
    "cached_text_sha256": "99ca9a47d510aeac28538db145fb95f620911692c4a001f33aa63afbfc66fae2"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia",
+   "page_key": "a-planeswalkers-guide-to-new-phyrexia",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Wrap-up landing page for the five-week Planeswalker's Guide to New Phyrexia: concept art captions and card flavor quotes pointing to the guide sections, which are cited separately (pack_p5_untagged_nph_guides).",
+   "cached_text_sha256": "1966348339aae9033579cf824e840725712f7c4036cac28a4e2c2e484a241587"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09",
+   "page_key": "making-kaladesh-2016-11-09",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DESIGN_OR_PROCESS_ARTICLE",
+   "note": "Creative-team article on how the Kaladesh world was designed; behind-the-scenes process, not story text.",
+   "cached_text_sha256": "97414bda04c296ef6c5717610f519c2ec6636542b6650ae9b389fd12144fa53d"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/naming-nameless-brandon-sanderson-2018-12-12",
+   "page_key": "naming-nameless-brandon-sanderson-2018-12-12",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DESIGN_OR_PROCESS_ARTICLE",
+   "note": "Interview with Brandon Sanderson about writing the Children of the Nameless novella; the novella itself is not this page.",
+   "cached_text_sha256": "61a3088701b1ed09c0b0c06a7b376f874601ab6e1abf8e08141c57f9eddf0c59"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/magic-story/magic-origins-new-era-2015-06-03",
+   "page_key": "magic-origins-new-era-2015-06-03",
+   "arc": "",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Magic Origins series introduction: one-line arcs for five Planeswalkers with links to their origin stories.",
+   "cached_text_sha256": "424ba7f401753635efb87fec908815aa3d64812e3997f9afa6fe67d172d41aea"
   }
  ]
 }

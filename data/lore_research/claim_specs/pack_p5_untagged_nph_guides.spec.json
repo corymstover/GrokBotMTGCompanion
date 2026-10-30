@@ -1,0 +1,262 @@
+{
+ "pack_id": "pack_p5_untagged_nph_guides",
+ "arc": "",
+ "event_stage": "new_phyrexia_2011",
+ "scope": "Batch 10 extraction from the untagged 2011 'A Planeswalker's Guide to New Phyrexia' features (official Wizards). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "np_intro": "a-planeswalkers-guide-to-new-phyrexia-introduction",
+  "np_thanes": "a-planeswalkers-guide-to-new-phyrexia-the-steel-thanes",
+  "np_swarm": "a-planeswalkers-guide-to-new-phyrexia-the-vicious-swarm",
+  "np_ortho": "planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
+  "np_engine": "a-planeswalkers-guide-to-new-phyrexia-the-progress-engine",
+  "np_furnace": "planeswalkers-guide-new-phyrexia-quiet-furnace-2011-05-04"
+ },
+ "entities": [
+  {
+   "id": "mirrodin",
+   "type": "Plane",
+   "name": "Mirrodin"
+  },
+  {
+   "id": "argentum",
+   "type": "Plane",
+   "name": "Argentum"
+  },
+  {
+   "id": "new_phyrexia",
+   "type": "Plane",
+   "name": "New Phyrexia"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "steel_thanes",
+   "type": "Faction",
+   "name": "The Steel Thanes"
+  },
+  {
+   "id": "vorinclex",
+   "type": "Character",
+   "name": "Vorinclex"
+  },
+  {
+   "id": "glissa",
+   "type": "Character",
+   "name": "Glissa"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
+  {
+   "id": "machine_orthodoxy",
+   "type": "Faction",
+   "name": "Machine Orthodoxy"
+  },
+  {
+   "id": "apostles_of_karn",
+   "type": "Faction",
+   "name": "Apostles of Karn"
+  },
+  {
+   "id": "jin_gitaxias",
+   "type": "Character",
+   "name": "Jin-Gitaxias"
+  },
+  {
+   "id": "lumengrid",
+   "type": "Place",
+   "name": "Lumengrid"
+  },
+  {
+   "id": "furnace_layer",
+   "type": "Place",
+   "name": "Furnace Layer"
+  },
+  {
+   "id": "urabrask",
+   "type": "Character",
+   "name": "Urabrask"
+  },
+  {
+   "id": "tangle",
+   "type": "Place",
+   "name": "The Tangle"
+  },
+  {
+   "id": "yawgmoth",
+   "type": "Character",
+   "name": "Yawgmoth"
+  }
+ ],
+ "claims": [
+  {
+   "id": "NP001",
+   "subject": "mirrodin",
+   "predicate": "formerly_named",
+   "object": "argentum",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_intro",
+     "quote": "The plane of which we speak was once named Argentum. Then it became known as Mirrodin."
+    }
+   ],
+   "summary": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia)."
+  },
+  {
+   "id": "NP002",
+   "subject": "new_phyrexia",
+   "predicate": "formerly_named",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_intro",
+     "quote": "But radical change has visited this world again, and now it bears a third name."
+    }
+   ],
+   "summary": "Mirrodin was remade and renamed New Phyrexia, its third name.",
+   "limitation": "The quote does not spell the name; the guide's title gives it."
+  },
+  {
+   "id": "NP003",
+   "subject": "steel_thanes",
+   "predicate": "opposed",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_thanes",
+     "quote": "Yet a usurper sits upon the throne: Karn."
+    },
+    {
+     "page": "np_thanes",
+     "quote": "To the thanes, this man of dumb silver cannot be the real Father of Machines."
+    }
+   ],
+   "summary": "The thanes see Karn as a usurper on the throne, not the real Father of Machines."
+  },
+  {
+   "id": "NP004",
+   "subject": "vorinclex",
+   "predicate": "ruled",
+   "object": "tangle",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_swarm",
+     "quote": "A native Phyrexian beast known as Vorinclex rules the Tangle"
+    }
+   ],
+   "summary": "Vorinclex rules the Tangle (New Phyrexia, 2011)."
+  },
+  {
+   "id": "NP005",
+   "subject": "glissa",
+   "predicate": "advisor_of",
+   "object": "vorinclex",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_swarm",
+     "quote": "His closest advisor is Glissa, formerly a Viridian elf, who was compleated during the years that Phyrexia lurked in the core."
+    }
+   ],
+   "summary": "Glissa, formerly a Viridian elf compleated while Phyrexia lurked in Mirrodin's core, is Vorinclex's closest advisor."
+  },
+  {
+   "id": "NP006",
+   "subject": "elesh_norn",
+   "predicate": "leader_of",
+   "object": "machine_orthodoxy",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_ortho",
+     "quote": "The Grand Cenobite Elesh Norn, the Orthodoxy's highest-ranking Praetor, commands and guides this faction of Phyrexia"
+    }
+   ],
+   "summary": "Elesh Norn, the Grand Cenobite, commands the Machine Orthodoxy (New Phyrexia, 2011)."
+  },
+  {
+   "id": "NP007",
+   "subject": "apostles_of_karn",
+   "predicate": "part_of",
+   "object": "machine_orthodoxy",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_ortho",
+     "quote": "Another sect of the Machine Orthodoxy is the Apostles of Karn"
+    }
+   ],
+   "summary": "The Apostles of Karn are a sect of the Machine Orthodoxy."
+  },
+  {
+   "id": "NP008",
+   "subject": "apostles_of_karn",
+   "predicate": "follows",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_ortho",
+     "quote": "has adopted the powerful silver golem Karn as their chosen leader"
+    }
+   ],
+   "summary": "The Apostles of Karn chose Karn as Phyrexia's leader."
+  },
+  {
+   "id": "NP009",
+   "subject": "yawgmoth",
+   "predicate": "led",
+   "object": "new_phyrexia",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "np_ortho",
+     "quote": "Although the Phyrexian civilization that has grown on Mirrodin was not the same as that led by Yawgmoth"
+    }
+   ],
+   "summary": "Yawgmoth led the earlier Phyrexian civilization, in the past era before New Phyrexia.",
+   "limitation": "The quote contrasts New Phyrexia with the former Phyrexia led by Yawgmoth; object is the civilization, not the plane."
+  },
+  {
+   "id": "NP010",
+   "subject": "jin_gitaxias",
+   "predicate": "resides_in",
+   "object": "lumengrid",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "np_engine",
+     "quote": "Jin-Gitaxias dwells within the now fully Phyrexianized Lumengrid"
+    }
+   ],
+   "summary": "Jin-Gitaxias dwells in the Phyrexianized Lumengrid, his laboratory."
+  },
+  {
+   "id": "NP011",
+   "subject": "urabrask",
+   "predicate": "associated_with",
+   "object": "furnace_layer",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "np_furnace",
+     "quote": "The vast majority of red-aligned Phyrexians dwell in the so-called Furnace Layer"
+    }
+   ],
+   "summary": "The Furnace Layer is home to most red-aligned Phyrexians, the faction of Urabrask the Hidden.",
+   "limitation": "Urabrask's leadership is implied by the guide's framing, not stated in this sentence."
+  }
+ ],
+ "remaining": [
+  "Targeted. The 'a-planeswalkers-guide-to-new-phyrexia' landing page is recorded as reviewed (index)."
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "pack_id": "pack_p5_untagged_isd_guides",
+ "arc": "",
+ "event_stage": "innistrad_2011",
+ "scope": "Batch 10 extraction from the untagged 2011 'Planeswalker's Guide to Innistrad' features (official Wizards). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "ig_intro": "planeswalkers-guide-innistrad-introduction-2011-08-24",
+  "ig_gav": "planeswalkers-guide-innistrad-gavony-and-humans-2011-09-28",
+  "ig_kes": "planeswalkers-guide-innistrad-kessig-and-werewolves-2011-10-05",
+  "ig_neph": "planeswalkers-guide-innistrad-nephalia-and-undead-2011-10-19",
+  "ig_sten": "planeswalkers-guide-innistrad-stensia-and-vampires-2011-11-02"
+ },
+ "entities": [
+  {
+   "id": "thraben",
+   "type": "Place",
+   "name": "Thraben"
+  },
+  {
+   "id": "gavony",
+   "type": "Place",
+   "name": "Gavony"
+  },
+  {
+   "id": "avacyn",
+   "type": "Character",
+   "name": "Avacyn"
+  },
+  {
+   "id": "church_of_avacyn",
+   "type": "Faction",
+   "name": "Church of Avacyn"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "edgar_markov",
+   "type": "Character",
+   "name": "Edgar Markov"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "markov_manor",
+   "type": "Place",
+   "name": "Markov Manor"
+  },
+  {
+   "id": "olivia_voldaren",
+   "type": "Character",
+   "name": "Olivia Voldaren"
+  },
+  {
+   "id": "elgaud_grounds",
+   "type": "Place",
+   "name": "Elgaud Grounds"
+  },
+  {
+   "id": "nephalia",
+   "type": "Place",
+   "name": "Nephalia"
+  }
+ ],
+ "claims": [
+  {
+   "id": "IG001",
+   "subject": "thraben",
+   "predicate": "located_in",
+   "object": "gavony",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_gav",
+     "quote": "It is home to Thraben, the plane's largest city."
+    }
+   ],
+   "summary": "Thraben, Innistrad's largest city, is in Gavony.",
+   "limitation": "'It' is Gavony, the province this guide section covers."
+  },
+  {
+   "id": "IG002",
+   "subject": "avacyn",
+   "predicate": "resided_in",
+   "object": "thraben",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_gav",
+     "quote": "Thraben houses the Cathedral of Avacyn, where the archangel herself resided before vanishing."
+    }
+   ],
+   "summary": "Avacyn resided at the Cathedral of Avacyn in Thraben before vanishing (Innistrad 2011)."
+  },
+  {
+   "id": "IG003",
+   "subject": "church_of_avacyn",
+   "predicate": "religion_of",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_intro",
+     "quote": "Humanity's true religion on Innistrad is the Church of Avacyn."
+    }
+   ],
+   "summary": "The Church of Avacyn is humanity's religion on Innistrad."
+  },
+  {
+   "id": "IG004",
+   "subject": "avacyn",
+   "predicate": "disappeared_from",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_kes",
+     "quote": "Ever since Avacyn went missing last year, the church at Thraben has kept the truth of her disappearance from Innistrad's denizens."
+    }
+   ],
+   "summary": "Avacyn went missing, and the church at Thraben hid her disappearance (Innistrad 2011)."
+  },
+  {
+   "id": "IG005",
+   "subject": "edgar_markov",
+   "predicate": "grandparent_of",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_sten",
+     "quote": "Markov Manor is the home of Edgar Markov, grandfather of Sorin Markov."
+    }
+   ],
+   "summary": "Edgar Markov is Sorin Markov's grandfather."
+  },
+  {
+   "id": "IG006",
+   "subject": "edgar_markov",
+   "predicate": "resides_in",
+   "object": "markov_manor",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_sten",
+     "quote": "Markov Manor is the home of Edgar Markov, grandfather of Sorin Markov."
+    }
+   ],
+   "summary": "Markov Manor is Edgar Markov's home in Stensia."
+  },
+  {
+   "id": "IG007",
+   "subject": "church_of_avacyn",
+   "predicate": "founded",
+   "object": "elgaud_grounds",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ig_neph",
+     "quote": "A contingent of the Avacyn Church long ago established a small fort here known as the Elgaud Grounds where new cathars are trained"
+    }
+   ],
+   "summary": "A contingent of the Church of Avacyn long ago established the Elgaud Grounds fort, where new cathars are trained."
+  }
+ ],
+ "remaining": [
+  "Targeted. Olivia Voldaren's invented holiday (Stensia) not yet graded."
+ ]
+}

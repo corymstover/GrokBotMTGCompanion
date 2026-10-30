@@ -1,0 +1,38 @@
+from mv import spec
+C,I,D="CANON_CONFIRMED","CANON_IMPLIED","CANON_DISPUTED"
+PROC="Sourced from an in-universe proclamation; the speaker is the proclamation's named author."
+spec("pack_p5_untagged_conspiracy_2016","","conspiracy_take_the_crown_2016",
+"Batch 10 extraction from the untagged 2016 Conspiracy: Take the Crown Magic Story pages (Tyrants, the two Proclamations, "
+"Bloody Instructions, Leovold's Dossiers, Laid to Rest). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+{"cn_tyr":"tyrants-2016-08-10","cn_marq":"proclamation-queen-marchesa-2016-08-15","cn_adr":"proclamation-adriana-captain-guard-2016-08-16",
+ "cn_blood":"bloody-instructions","cn_leo":"leovolds-dossiers-2016-08-24","cn_rest":"laid-rest-2016-08-03"},
+[("brago","Character","Brago"),("marchesa","Character","Queen Marchesa"),("paliano","Place","Paliano"),("adriana","Character","Adriana"),
+ ("selvala","Character","Selvala"),("leovold","Character","Leovold"),("trest","Place","Trest"),("grenzo","Character","Grenzo"),
+ ("daretti","Character","Daretti"),("kaya","Character","Kaya"),("don_revari","Character","Don Revari")],
+[
+("CN001","brago","ruled","paliano",C,[("cn_marq","It is my solemn duty to inform you that Brago, King of Paliano, is no more.")],
+ "Brago was the former King of Paliano until his death (past era relative to Marchesa's reign)."),
+("CN002","marchesa","succeeded","brago",C,[("cn_marq","As his designated heir, recognized by the sacred order of Custodi as his one true successor")],
+ "Marchesa claims the throne as Brago's designated heir, recognized by the Custodi.",PROC),
+("CN003","marchesa","ruled","paliano",C,[("cn_marq","sole sovereign of the High City, true heir to the throne of Paliano")],
+ "Queen Marchesa, the Black Rose, rules Paliano after Brago (Conspiracy: Take the Crown, 2016).",PROC),
+("CN004","adriana","served","brago",C,[("cn_tyr","Adriana is the captain of the guard of the High City of Paliano, a post that puts her in the service of the ghost king, Brago.")],
+ "Adriana, captain of the guard of Paliano, served the ghost king Brago."),
+("CN005","adriana","opposed","marchesa",C,[("cn_adr","beneath the bloodstained banner of a usurper queen: Marchesa, the Black Rose")],
+ "Adriana denounces Marchesa as a usurper queen.",PROC),
+("CN006","marchesa","killed","brago",D,[("cn_adr","Somehow, this vile deceiver murdered King Brago, ending his immortal existence"),
+   ("cn_leo","an assassin infiltrated the palace, by some accounts walking through stone walls, in order to reach Brago's chambers")],
+ "Adriana accuses Marchesa of murdering Brago; Leovold's dossier reports only rumor of an assassin who reached Brago's chambers.",
+ "Accounts conflict and are in-universe accusation and rumor; these pages do not name the killer."),
+("CN007","selvala","co_authored_with","brago",I,[("cn_leo","She drafted the Charter alongside Brago")],
+ "Selvala drafted Paliano's Charter alongside Brago, before his death (past era).","'She' is Selvala, the subject of that dossier entry."),
+("CN008","leovold","represented","trest",C,[("cn_leo","no one knows that better than Ambassador Leovold of Trest")],
+ "Leovold is the Ambassador of Trest in Paliano."),
+("CN009","grenzo","rebelled_against","paliano",C,[("cn_leo","Grenzo has adopted a different tactic, one that simultaneously surprises me more and less than the ones he has employed before—open rebellion")],
+ "Grenzo, Warden of the Royal Dungeons, turned to open rebellion after losing Brago's patronage.","Leovold's in-universe dossier."),
+("CN010","grenzo","allied_with","daretti",I,[("cn_blood","Meanwhile, the goblins Grenzo and Daretti have plans to cause chaos of a different kind.")],
+ "The goblins Grenzo and Daretti scheme together to cause chaos in Paliano.","Shared plans are stated; a formal alliance is not."),
+("CN011","don_revari","hired","kaya",I,[("cn_rest","Given that he was looking to hire her, Kaya had a pretty good guess which one of those rumors was true.")],
+ "Don Revari seeks to hire Kaya to banish a ghost from his house.","'He' is Don Revari, named elsewhere in the story."),
+],
+["Targeted, not exhaustive."])

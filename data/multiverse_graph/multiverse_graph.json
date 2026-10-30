@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "75fd911c18b3b05039b979f5c6ee738d28510019eae139e35b7b3e8e5c5310b2",
+ "content_sha256": "59b69b2910a5f34177c0496655ec4ca372ec4178b00077a4cfba8c8c2f96f3e1",
  "edges": [
   {
    "artists": [
@@ -352,6 +352,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:alesha_who_smiles_at_death"
+  },
+  {
+   "artists": [
+    "Andrew Robinson"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:howling_banshee"
   },
   {
    "artists": [
@@ -969,6 +978,24 @@
    "artists": [
     "Chris Rallis"
    ],
+   "from": "source:cn_adr",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:adriana_captain_of_the_guard"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:cn_tyr",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kaya_ghost_assassin"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
    "from": "source:kld_bottled",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1162,6 +1189,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:godless_shrine"
+  },
+  {
+   "artists": [
+    "Cliff Childs"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:homicidal_seclusion"
   },
   {
    "artists": [
@@ -1648,6 +1684,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:sea_gate_loremaster"
+  },
+  {
+   "artists": [
+    "Dave Kendall"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ghoulcaller_s_accomplice"
   },
   {
    "artists": [
@@ -2645,6 +2690,24 @@
    "artists": [
     "James Paick"
    ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:harrowing_journey"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:moorland_haunt"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
    "from": "source:rtd_ep12",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3280,6 +3343,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:orzhov_basilica"
+  },
+  {
+   "artists": [
+    "John Avon"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:patrician_s_scorn"
   },
   {
    "artists": [
@@ -4036,6 +4108,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:scroll_of_the_masters"
+  },
+  {
+   "artists": [
+    "Lars Grant-West"
+   ],
+   "from": "source:cn_rest",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:hollowhenge_spirit"
   },
   {
    "artists": [
@@ -9708,6 +9789,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:adriana",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:adriana_captain_of_the_guard"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ajani",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -10195,6 +10283,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:bontu_the_glorified"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:brago",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:brago_king_eternal"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10818,6 +10913,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:gonti_night_minister"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:grenzo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:grenzo_dungeon_warden"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:grenzo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:grenzo_havoc_raiser"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11626,6 +11735,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:leovold",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:leovold_emissary_of_trest"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:liesa",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -11763,6 +11879,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:maralen_of_the_mornsong"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:marchesa",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:queen_marchesa"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -14052,6 +14175,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:forum_of_amity"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:furnace_layer",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:furnace_layer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:gavony",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gavony"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -16612,6 +16749,139 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "CN001",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:brago",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ruled",
+   "sources": [
+    "cn_marq"
+   ],
+   "to": "place:paliano"
+  },
+  {
+   "claim": "CN002",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marchesa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "succeeded",
+   "sources": [
+    "cn_marq"
+   ],
+   "to": "character:brago"
+  },
+  {
+   "claim": "CN003",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marchesa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ruled",
+   "sources": [
+    "cn_marq"
+   ],
+   "to": "place:paliano"
+  },
+  {
+   "claim": "CN004",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:adriana",
+   "grade": "CANON_CONFIRMED",
+   "relation": "served",
+   "sources": [
+    "cn_tyr"
+   ],
+   "to": "character:brago"
+  },
+  {
+   "claim": "CN005",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:adriana",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "cn_adr"
+   ],
+   "to": "character:marchesa"
+  },
+  {
+   "claim": "CN006",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marchesa",
+   "grade": "CANON_DISPUTED",
+   "relation": "killed",
+   "sources": [
+    "cn_adr",
+    "cn_leo"
+   ],
+   "to": "character:brago"
+  },
+  {
+   "claim": "CN007",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:selvala",
+   "grade": "CANON_IMPLIED",
+   "relation": "co_authored_with",
+   "sources": [
+    "cn_leo"
+   ],
+   "to": "character:brago"
+  },
+  {
+   "claim": "CN008",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:leovold",
+   "grade": "CANON_CONFIRMED",
+   "relation": "represented",
+   "sources": [
+    "cn_leo"
+   ],
+   "to": "place:trest"
+  },
+  {
+   "claim": "CN009",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:grenzo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rebelled_against",
+   "sources": [
+    "cn_leo"
+   ],
+   "to": "place:paliano"
+  },
+  {
+   "claim": "CN010",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:grenzo",
+   "grade": "CANON_IMPLIED",
+   "relation": "allied_with",
+   "sources": [
+    "cn_blood"
+   ],
+   "to": "character:daretti"
+  },
+  {
+   "claim": "CN011",
+   "era": "conspiracy_take_the_crown_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:don_revari",
+   "grade": "CANON_IMPLIED",
+   "relation": "hired",
+   "sources": [
+    "cn_rest"
+   ],
+   "to": "character:kaya"
+  },
+  {
    "claim": "DF001",
    "era": "dft_grand_prix_2025",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -17975,6 +18245,90 @@
     "eoe_ep2"
    ],
    "to": "place:chopright_colony"
+  },
+  {
+   "claim": "IG001",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:thraben",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_in",
+   "sources": [
+    "ig_gav"
+   ],
+   "to": "place:gavony"
+  },
+  {
+   "claim": "IG002",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:avacyn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resided_in",
+   "sources": [
+    "ig_gav"
+   ],
+   "to": "place:thraben"
+  },
+  {
+   "claim": "IG003",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:church_of_avacyn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "religion_of",
+   "sources": [
+    "ig_intro"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "IG004",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:avacyn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "disappeared_from",
+   "sources": [
+    "ig_kes"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "IG005",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:edgar_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "grandparent_of",
+   "sources": [
+    "ig_sten"
+   ],
+   "to": "character:sorin_markov"
+  },
+  {
+   "claim": "IG006",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:edgar_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resides_in",
+   "sources": [
+    "ig_sten"
+   ],
+   "to": "place:markov_manor"
+  },
+  {
+   "claim": "IG007",
+   "era": "innistrad_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:church_of_avacyn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "founded",
+   "sources": [
+    "ig_neph"
+   ],
+   "to": "place:elgaud_grounds"
   },
   {
    "claim": "IK001",
@@ -20245,6 +20599,138 @@
     "neo_ep5"
    ],
    "to": "place:imperial_palace"
+  },
+  {
+   "claim": "NP001",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "formerly_named",
+   "sources": [
+    "np_intro"
+   ],
+   "to": "plane:argentum"
+  },
+  {
+   "claim": "NP002",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:new_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "formerly_named",
+   "sources": [
+    "np_intro"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "NP003",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:steel_thanes",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "np_thanes"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "NP004",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vorinclex",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ruled",
+   "sources": [
+    "np_swarm"
+   ],
+   "to": "place:tangle"
+  },
+  {
+   "claim": "NP005",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:glissa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "advisor_of",
+   "sources": [
+    "np_swarm"
+   ],
+   "to": "character:vorinclex"
+  },
+  {
+   "claim": "NP006",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "np_ortho"
+   ],
+   "to": "faction:machine_orthodoxy"
+  },
+  {
+   "claim": "NP007",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:apostles_of_karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "part_of",
+   "sources": [
+    "np_ortho"
+   ],
+   "to": "faction:machine_orthodoxy"
+  },
+  {
+   "claim": "NP008",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:apostles_of_karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "follows",
+   "sources": [
+    "np_ortho"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "NP009",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:yawgmoth",
+   "grade": "CANON_IMPLIED",
+   "relation": "led",
+   "sources": [
+    "np_ortho"
+   ],
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "claim": "NP010",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jin_gitaxias",
+   "grade": "CANON_CONFIRMED",
+   "relation": "resides_in",
+   "sources": [
+    "np_engine"
+   ],
+   "to": "place:lumengrid"
+  },
+  {
+   "claim": "NP011",
+   "era": "new_phyrexia_2011",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:urabrask",
+   "grade": "CANON_IMPLIED",
+   "relation": "associated_with",
+   "sources": [
+    "np_furnace"
+   ],
+   "to": "place:furnace_layer"
   },
   {
    "claim": "NS001",
@@ -29031,6 +29517,138 @@
    "to": "character:elesh_norn"
   },
   {
+   "from": "claim:CN001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:paliano"
+  },
+  {
+   "from": "claim:CN001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:brago"
+  },
+  {
+   "from": "claim:CN002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:brago"
+  },
+  {
+   "from": "claim:CN002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marchesa"
+  },
+  {
+   "from": "claim:CN003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:paliano"
+  },
+  {
+   "from": "claim:CN003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marchesa"
+  },
+  {
+   "from": "claim:CN004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:brago"
+  },
+  {
+   "from": "claim:CN004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:adriana"
+  },
+  {
+   "from": "claim:CN005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:marchesa"
+  },
+  {
+   "from": "claim:CN005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:adriana"
+  },
+  {
+   "from": "claim:CN006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:brago"
+  },
+  {
+   "from": "claim:CN006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marchesa"
+  },
+  {
+   "from": "claim:CN007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:brago"
+  },
+  {
+   "from": "claim:CN007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:selvala"
+  },
+  {
+   "from": "claim:CN008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:trest"
+  },
+  {
+   "from": "claim:CN008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:leovold"
+  },
+  {
+   "from": "claim:CN009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:paliano"
+  },
+  {
+   "from": "claim:CN009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:grenzo"
+  },
+  {
+   "from": "claim:CN010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:daretti"
+  },
+  {
+   "from": "claim:CN010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:grenzo"
+  },
+  {
+   "from": "claim:CN011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kaya"
+  },
+  {
+   "from": "claim:CN011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:don_revari"
+  },
+  {
    "from": "claim:DF001",
    "relation": "asserts",
    "role": "object",
@@ -30385,6 +31003,90 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:sami"
+  },
+  {
+   "from": "claim:IG001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:gavony"
+  },
+  {
+   "from": "claim:IG001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:thraben"
+  },
+  {
+   "from": "claim:IG002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:thraben"
+  },
+  {
+   "from": "claim:IG002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:IG003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:IG003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:church_of_avacyn"
+  },
+  {
+   "from": "claim:IG004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:IG004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:IG005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:IG005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:edgar_markov"
+  },
+  {
+   "from": "claim:IG006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:markov_manor"
+  },
+  {
+   "from": "claim:IG006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:edgar_markov"
+  },
+  {
+   "from": "claim:IG007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:elgaud_grounds"
+  },
+  {
+   "from": "claim:IG007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:church_of_avacyn"
   },
   {
    "from": "claim:IK001",
@@ -32599,6 +33301,138 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:kaito"
+  },
+  {
+   "from": "claim:NP001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:argentum"
+  },
+  {
+   "from": "claim:NP001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:NP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:NP002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NP003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:NP003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:steel_thanes"
+  },
+  {
+   "from": "claim:NP004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:tangle"
+  },
+  {
+   "from": "claim:NP004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vorinclex"
+  },
+  {
+   "from": "claim:NP005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:vorinclex"
+  },
+  {
+   "from": "claim:NP005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:glissa"
+  },
+  {
+   "from": "claim:NP006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:machine_orthodoxy"
+  },
+  {
+   "from": "claim:NP006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:NP007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:machine_orthodoxy"
+  },
+  {
+   "from": "claim:NP007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:apostles_of_karn"
+  },
+  {
+   "from": "claim:NP008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:NP008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:apostles_of_karn"
+  },
+  {
+   "from": "claim:NP009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:NP009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:NP010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:lumengrid"
+  },
+  {
+   "from": "claim:NP010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jin_gitaxias"
+  },
+  {
+   "from": "claim:NP011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:furnace_layer"
+  },
+  {
+   "from": "claim:NP011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urabrask"
   },
   {
    "from": "claim:NS001",
@@ -39325,6 +40159,66 @@
    "to": "claim:A007"
   },
   {
+   "from": "source:cn_adr",
+   "relation": "cited_by",
+   "to": "claim:CN005"
+  },
+  {
+   "from": "source:cn_adr",
+   "relation": "cited_by",
+   "to": "claim:CN006"
+  },
+  {
+   "from": "source:cn_blood",
+   "relation": "cited_by",
+   "to": "claim:CN010"
+  },
+  {
+   "from": "source:cn_leo",
+   "relation": "cited_by",
+   "to": "claim:CN006"
+  },
+  {
+   "from": "source:cn_leo",
+   "relation": "cited_by",
+   "to": "claim:CN007"
+  },
+  {
+   "from": "source:cn_leo",
+   "relation": "cited_by",
+   "to": "claim:CN008"
+  },
+  {
+   "from": "source:cn_leo",
+   "relation": "cited_by",
+   "to": "claim:CN009"
+  },
+  {
+   "from": "source:cn_marq",
+   "relation": "cited_by",
+   "to": "claim:CN001"
+  },
+  {
+   "from": "source:cn_marq",
+   "relation": "cited_by",
+   "to": "claim:CN002"
+  },
+  {
+   "from": "source:cn_marq",
+   "relation": "cited_by",
+   "to": "claim:CN003"
+  },
+  {
+   "from": "source:cn_rest",
+   "relation": "cited_by",
+   "to": "claim:CN011"
+  },
+  {
+   "from": "source:cn_tyr",
+   "relation": "cited_by",
+   "to": "claim:CN004"
+  },
+  {
    "from": "source:dft_beast",
    "relation": "cited_by",
    "to": "claim:DF021"
@@ -40128,6 +41022,41 @@
    "from": "source:hou_revelation",
    "relation": "cited_by",
    "to": "claim:AKH024"
+  },
+  {
+   "from": "source:ig_gav",
+   "relation": "cited_by",
+   "to": "claim:IG001"
+  },
+  {
+   "from": "source:ig_gav",
+   "relation": "cited_by",
+   "to": "claim:IG002"
+  },
+  {
+   "from": "source:ig_intro",
+   "relation": "cited_by",
+   "to": "claim:IG003"
+  },
+  {
+   "from": "source:ig_kes",
+   "relation": "cited_by",
+   "to": "claim:IG004"
+  },
+  {
+   "from": "source:ig_neph",
+   "relation": "cited_by",
+   "to": "claim:IG007"
+  },
+  {
+   "from": "source:ig_sten",
+   "relation": "cited_by",
+   "to": "claim:IG005"
+  },
+  {
+   "from": "source:ig_sten",
+   "relation": "cited_by",
+   "to": "claim:IG006"
   },
   {
    "from": "source:iko_guide",
@@ -41205,6 +42134,61 @@
    "from": "source:nexus_design",
    "relation": "cited_by",
    "to": "claim:A029"
+  },
+  {
+   "from": "source:np_engine",
+   "relation": "cited_by",
+   "to": "claim:NP010"
+  },
+  {
+   "from": "source:np_furnace",
+   "relation": "cited_by",
+   "to": "claim:NP011"
+  },
+  {
+   "from": "source:np_intro",
+   "relation": "cited_by",
+   "to": "claim:NP001"
+  },
+  {
+   "from": "source:np_intro",
+   "relation": "cited_by",
+   "to": "claim:NP002"
+  },
+  {
+   "from": "source:np_ortho",
+   "relation": "cited_by",
+   "to": "claim:NP006"
+  },
+  {
+   "from": "source:np_ortho",
+   "relation": "cited_by",
+   "to": "claim:NP007"
+  },
+  {
+   "from": "source:np_ortho",
+   "relation": "cited_by",
+   "to": "claim:NP008"
+  },
+  {
+   "from": "source:np_ortho",
+   "relation": "cited_by",
+   "to": "claim:NP009"
+  },
+  {
+   "from": "source:np_swarm",
+   "relation": "cited_by",
+   "to": "claim:NP004"
+  },
+  {
+   "from": "source:np_swarm",
+   "relation": "cited_by",
+   "to": "claim:NP005"
+  },
+  {
+   "from": "source:np_thanes",
+   "relation": "cited_by",
+   "to": "claim:NP003"
   },
   {
    "from": "source:ogw_beneath_surface",
@@ -44170,6 +45154,27 @@
     "file": "data/lore_research/pack_p5_untagged_znr_2026-10-30.json",
     "sha256": "6d1aa7065cb069f0e4a367c256ca91b805459b0e91dbd54025a2a46465174e9e",
     "sources": 7
+   },
+   {
+    "claims": 11,
+    "entities": 16,
+    "file": "data/lore_research/pack_p5_untagged_nph_guides_2026-10-30.json",
+    "sha256": "9e91f1df0796571e6cb0672f468f0e12bd7a17713ef3ddc6cb51a5ff311f2d74",
+    "sources": 6
+   },
+   {
+    "claims": 7,
+    "entities": 11,
+    "file": "data/lore_research/pack_p5_untagged_isd_guides_2026-10-30.json",
+    "sha256": "e2ebda8a7d7e5ec1be1090a8dd57589b317f5c693b4629011d2dc9258ee7778f",
+    "sources": 5
+   },
+   {
+    "claims": 11,
+    "entities": 11,
+    "file": "data/lore_research/pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+    "sha256": "0aa859be3545ba3b88f9f069c5cc7fa8d37dab5a58f6c4dcee9f1c989460b709",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -44191,14 +45196,14 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 652,
+    "anchors": 660,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "2c41b4ad9652814e64dc1a355e829731384e44869d0cc394f68055b7c3604f9e"
+    "sha256": "f71e0db2cd675112a8e95facf91f3e4bca876d0c250af5bee23f6d5cea54e7cf"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 796,
+    "caption_edges": 805,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -44669,6 +45674,16 @@
    "oracle_id": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:adriana_captain_of_the_guard",
+   "name": "Adriana, Captain of the Guard",
+   "oracle_id": "de23275e-e9c1-4151-aed8-f79ead03d5d4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -45894,6 +46909,15 @@
    "oracle_id": "e6b20c30-88c2-4cb0-a5e4-46f1df924a7c",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:brago_king_eternal",
+   "name": "Brago, King Eternal",
+   "oracle_id": "fcb0c7db-bd07-4c25-b7f8-b6c207e4f6be",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48133,11 +49157,29 @@
    "type": "Card"
   },
   {
+   "id": "card:furnace_layer",
+   "name": "Furnace Layer",
+   "oracle_id": "1799d361-85e7-4c04-aa04-6f83e6499573",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:gaea_s_revenge",
    "name": "Gaea's Revenge",
    "oracle_id": "26f6cc1e-d85e-45a3-a1ed-7f09d7cfc7df",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:gavony",
+   "name": "Gavony",
+   "oracle_id": "2387edac-765b-4502-bd3d-88be8ba7d0a4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48236,6 +49278,15 @@
    "id": "card:ghoulcaller_gisa",
    "name": "Ghoulcaller Gisa",
    "oracle_id": "0dd894cb-1968-471c-af08-ea7ec5ce8428",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ghoulcaller_s_accomplice",
+   "name": "Ghoulcaller's Accomplice",
+   "oracle_id": "16616aa2-5490-4fab-9de4-f37ca8c8be08",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -48596,6 +49647,24 @@
    "type": "Card"
   },
   {
+   "id": "card:grenzo_dungeon_warden",
+   "name": "Grenzo, Dungeon Warden",
+   "oracle_id": "a374f99e-6443-486c-8026-8eba4c7e6ad7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:grenzo_havoc_raiser",
+   "name": "Grenzo, Havoc Raiser",
+   "oracle_id": "80788290-1569-4c7f-b263-b4da7b31a9d1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:grim_strider",
    "name": "Grim Strider",
    "oracle_id": "b9dcdf5b-0fdb-4d8e-8ddf-08e44f67018d",
@@ -48755,6 +49824,15 @@
    "oracle_id": "7eff84f1-f772-497a-b350-bbc93d0230f7",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:harrowing_journey",
+   "name": "Harrowing Journey",
+   "oracle_id": "70f3d545-d114-485d-8d8b-4a93b2393c41",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48919,9 +49997,27 @@
    "type": "Card"
   },
   {
+   "id": "card:hollowhenge_spirit",
+   "name": "Hollowhenge Spirit",
+   "oracle_id": "b34449d1-eab2-4be1-8351-568dc5ced7c3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:holy_justiciar",
    "name": "Holy Justiciar",
    "oracle_id": "9edcf49b-2767-48bd-8fbe-968527cbddf4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:homicidal_seclusion",
+   "name": "Homicidal Seclusion",
+   "oracle_id": "3bc51b45-1f96-4277-8b80-bb0a528c6ac2",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -48968,6 +50064,15 @@
    "id": "card:hour_of_eternity",
    "name": "Hour of Eternity",
    "oracle_id": "6fbaac3b-37ec-4815-a4ea-544c547e90b1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:howling_banshee",
+   "name": "Howling Banshee",
+   "oracle_id": "6156bd59-d623-4612-8e86-b5228d5de750",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -49780,7 +50885,8 @@
    "name": "Kaya, Ghost Assassin",
    "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -50327,6 +51433,15 @@
    "id": "card:leinore_autumn_sovereign",
    "name": "Leinore, Autumn Sovereign",
    "oracle_id": "cd47eedd-57cb-460d-b339-4785f63a5475",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:leovold_emissary_of_trest",
+   "name": "Leovold, Emissary of Trest",
+   "oracle_id": "d5d91377-fd66-4dbe-a092-07f2ea379ca7",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -51146,6 +52261,15 @@
    "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:moorland_haunt",
+   "name": "Moorland Haunt",
+   "oracle_id": "5324192b-6687-41e4-8e56-326b21a5dbf3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -52212,6 +53336,15 @@
    "type": "Card"
   },
   {
+   "id": "card:patrician_s_scorn",
+   "name": "Patrician's Scorn",
+   "oracle_id": "0dc9acfb-3f8b-4a34-b44c-5cc62689904b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:peregrination",
    "name": "Peregrination",
    "oracle_id": "2aff9be5-f6d4-4cdd-ab59-20202bc2f144",
@@ -52541,6 +53674,15 @@
    "oracle_id": "f76bcbfe-483f-4e63-8425-76feca1abf3e",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:queen_marchesa",
+   "name": "Queen Marchesa",
+   "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -56911,6 +58053,14 @@
    "type": "Character"
   },
   {
+   "id": "character:adriana",
+   "name": "Adriana",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:adrix",
    "name": "Adrix",
    "origins": [
@@ -57231,6 +58381,7 @@
    "name": "Avacyn",
    "origins": [
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -57329,6 +58480,14 @@
    "name": "Bontu",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:brago",
+   "name": "Brago",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57534,7 +58693,8 @@
    "id": "character:daretti",
    "name": "Daretti",
    "origins": [
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57607,6 +58767,14 @@
    "type": "Character"
   },
   {
+   "id": "character:don_revari",
+   "name": "Don Revari",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:dovin_baan",
    "name": "Dovin Baan",
    "origins": [
@@ -57644,7 +58812,8 @@
    "id": "character:edgar_markov",
    "name": "Edgar Markov",
    "origins": [
-    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57707,7 +58876,8 @@
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_one_side_stories_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -57968,6 +59138,7 @@
    "name": "Glissa",
    "origins": [
     "pack_p5_one_side_stories_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -57977,6 +59148,14 @@
    "name": "Gonti",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:grenzo",
+   "name": "Grenzo",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -58266,7 +59445,8 @@
    "name": "Jin-Gitaxias",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -58366,6 +59546,7 @@
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -58402,6 +59583,7 @@
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaldheim_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -58709,6 +59891,14 @@
    "type": "Character"
   },
   {
+   "id": "character:leovold",
+   "name": "Leovold",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:liesa",
    "name": "Liesa",
    "origins": [
@@ -58845,6 +60035,14 @@
    "name": "Maralen",
    "origins": [
     "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:marchesa",
+   "name": "Queen Marchesa",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59303,7 +60501,8 @@
    "name": "Olivia Voldaren",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59743,6 +60942,7 @@
    "id": "character:selvala",
    "name": "Selvala",
    "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -59849,6 +61049,7 @@
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_znr_2026-10-30.json"
    ],
@@ -60196,6 +61397,7 @@
    "name": "Urabrask",
    "origins": [
     "pack_p5_snc_side_stories_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -60344,7 +61546,8 @@
    "name": "Vorinclex",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json",
-    "pack_p5_mom_side_stories_2026-10-30.json"
+    "pack_p5_mom_side_stories_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60450,7 +61653,8 @@
    "name": "Yawgmoth",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -62690,6 +63894,135 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:CN001",
+   "name": "Brago was the former King of Paliano until his death (past era relative to Marchesa's reign).",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "ruled",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN002",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author.",
+   "name": "Marchesa claims the throne as Brago's designated heir, recognized by the Custodi.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "succeeded",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN003",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author.",
+   "name": "Queen Marchesa, the Black Rose, rules Paliano after Brago (Conspiracy: Take the Crown, 2016).",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "ruled",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN004",
+   "name": "Adriana, captain of the guard of Paliano, served the ghost king Brago.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "served",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN005",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author.",
+   "name": "Adriana denounces Marchesa as a usurper queen.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:CN006",
+   "limitation": "Accounts conflict and are in-universe accusation and rumor; these pages do not name the killer.",
+   "name": "Adriana accuses Marchesa of murdering Brago; Leovold's dossier reports only rumor of an assassin who reached Brago's chambers.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:CN007",
+   "limitation": "'She' is Selvala, the subject of that dossier entry.",
+   "name": "Selvala drafted Paliano's Charter alongside Brago, before his death (past era).",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "co_authored_with",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN008",
+   "name": "Leovold is the Ambassador of Trest in Paliano.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "represented",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:CN009",
+   "limitation": "Leovold's in-universe dossier.",
+   "name": "Grenzo, Warden of the Royal Dungeons, turned to open rebellion after losing Brago's patronage.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "rebelled_against",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:CN010",
+   "limitation": "Shared plans are stated; a formal alliance is not.",
+   "name": "The goblins Grenzo and Daretti scheme together to cause chaos in Paliano.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:CN011",
+   "limitation": "'He' is Don Revari, named elsewhere in the story.",
+   "name": "Don Revari seeks to hire Kaya to banish a ghost from his house.",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "predicate": "hired",
+   "stage": "conspiracy_take_the_crown_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:DF001",
    "name": "The Amonkheti team receives the Aetherspark as a team at the end of the Grand Prix.",
    "origins": [
@@ -63969,6 +65302,84 @@
    ],
    "predicate": "explored",
    "stage": "sothera_eoe_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG001",
+   "limitation": "'It' is Gavony, the province this guide section covers.",
+   "name": "Thraben, Innistrad's largest city, is in Gavony.",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "located_in",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG002",
+   "name": "Avacyn resided at the Cathedral of Avacyn in Thraben before vanishing (Innistrad 2011).",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "resided_in",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG003",
+   "name": "The Church of Avacyn is humanity's religion on Innistrad.",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "religion_of",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG004",
+   "name": "Avacyn went missing, and the church at Thraben hid her disappearance (Innistrad 2011).",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "disappeared_from",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG005",
+   "name": "Edgar Markov is Sorin Markov's grandfather.",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "grandparent_of",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG006",
+   "name": "Markov Manor is Edgar Markov's home in Stensia.",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "resides_in",
+   "stage": "innistrad_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:IG007",
+   "name": "A contingent of the Church of Avacyn long ago established the Elgaud Grounds fort, where new cathars are trained.",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "predicate": "founded",
+   "stage": "innistrad_2011",
    "type": "Claim"
   },
   {
@@ -66050,6 +67461,130 @@
    ],
    "predicate": "left",
    "stage": "kamigawa_neon_dynasty_2022",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP001",
+   "name": "The plane was once named Argentum, then Mirrodin, and now bears a third name (New Phyrexia).",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "formerly_named",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP002",
+   "limitation": "The quote does not spell the name; the guide's title gives it.",
+   "name": "Mirrodin was remade and renamed New Phyrexia, its third name.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "formerly_named",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP003",
+   "name": "The thanes see Karn as a usurper on the throne, not the real Father of Machines.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP004",
+   "name": "Vorinclex rules the Tangle (New Phyrexia, 2011).",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "ruled",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP005",
+   "name": "Glissa, formerly a Viridian elf compleated while Phyrexia lurked in Mirrodin's core, is Vorinclex's closest advisor.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "advisor_of",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP006",
+   "name": "Elesh Norn, the Grand Cenobite, commands the Machine Orthodoxy (New Phyrexia, 2011).",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP007",
+   "name": "The Apostles of Karn are a sect of the Machine Orthodoxy.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "part_of",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP008",
+   "name": "The Apostles of Karn chose Karn as Phyrexia's leader.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "follows",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:NP009",
+   "limitation": "The quote contrasts New Phyrexia with the former Phyrexia led by Yawgmoth; object is the civilization, not the plane.",
+   "name": "Yawgmoth led the earlier Phyrexian civilization, in the past era before New Phyrexia.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "led",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:NP010",
+   "name": "Jin-Gitaxias dwells in the Phyrexianized Lumengrid, his laboratory.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "resides_in",
+   "stage": "new_phyrexia_2011",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:NP011",
+   "limitation": "Urabrask's leadership is implied by the guide's framing, not stated in this sentence.",
+   "name": "The Furnace Layer is home to most red-aligned Phyrexians, the faction of Urabrask the Hidden.",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "predicate": "associated_with",
+   "stage": "new_phyrexia_2011",
    "type": "Claim"
   },
   {
@@ -72819,6 +74354,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:apostles_of_karn",
+   "name": "Apostles of Karn",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:avishkar_assembly",
    "name": "Avishkar Assembly",
    "origins": [
@@ -72938,6 +74481,7 @@
    "id": "faction:church_of_avacyn",
    "name": "Church of Avacyn",
    "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
@@ -73251,6 +74795,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:machine_orthodoxy",
+   "name": "Machine Orthodoxy",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:maestros",
    "name": "The Maestros",
    "origins": [
@@ -73481,6 +75033,14 @@
    "name": "Oracles of Arcavios",
    "origins": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:steel_thanes",
+   "name": "The Steel Thanes",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -73852,6 +75412,14 @@
    "type": "Place"
   },
   {
+   "id": "place:elgaud_grounds",
+   "name": "Elgaud Grounds",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:emeria_skyclave",
    "name": "Emeria Skyclave",
    "origins": [
@@ -73894,10 +75462,26 @@
    "type": "Place"
   },
   {
+   "id": "place:furnace_layer",
+   "name": "Furnace Layer",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:garenbrig",
    "name": "Garenbrig",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:gavony",
+   "name": "Gavony",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -73991,6 +75575,14 @@
    "type": "Place"
   },
   {
+   "id": "place:lumengrid",
+   "name": "Lumengrid",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:maag_taranau",
    "name": "Maag Taranau (the vault)",
    "origins": [
@@ -74018,7 +75610,8 @@
    "id": "place:markov_manor",
    "name": "Markov Manor",
    "origins": [
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -74042,7 +75635,8 @@
    "id": "place:nephalia",
    "name": "Nephalia",
    "origins": [
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -74092,6 +75686,7 @@
    "name": "Paliano",
    "origins": [
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Place"
@@ -74215,6 +75810,14 @@
    "type": "Place"
   },
   {
+   "id": "place:tangle",
+   "name": "The Tangle",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:the_house",
    "name": "The House",
    "origins": [
@@ -74236,7 +75839,8 @@
    "name": "Thraben",
    "origins": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -74253,6 +75857,14 @@
    "name": "Torrezon",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:trest",
+   "name": "Trest",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -74334,6 +75946,14 @@
    "type": "Plane"
   },
   {
+   "id": "plane:argentum",
+   "name": "Argentum",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:bloomburrow",
    "name": "Bloomburrow",
    "origins": [
@@ -74400,6 +76020,7 @@
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_isd_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
@@ -74472,6 +76093,7 @@
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
@@ -74500,7 +76122,8 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -75392,6 +77015,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15"
+  },
+  {
+   "id": "source:cn_adr",
+   "kind": "official_story_episode",
+   "name": "Proclamation by Adriana, Captain of the Guard",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/proclamation-adriana-captain-guard-2016-08-16"
+  },
+  {
+   "id": "source:cn_blood",
+   "kind": "official_story_episode",
+   "name": "Bloody Instructions",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/bloody-instructions"
+  },
+  {
+   "id": "source:cn_leo",
+   "kind": "official_story_episode",
+   "name": "Leovold's Dossiers",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/leovolds-dossiers-2016-08-24"
+  },
+  {
+   "id": "source:cn_marq",
+   "kind": "official_story_episode",
+   "name": "Proclamation by Queen Marchesa",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15"
+  },
+  {
+   "id": "source:cn_rest",
+   "kind": "official_story_episode",
+   "name": "Laid to Rest",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03"
+  },
+  {
+   "id": "source:cn_tyr",
+   "kind": "official_story_episode",
+   "name": "Tyrants",
+   "origins": [
+    "pack_p5_untagged_conspiracy_2016_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/tyrants-2016-08-10"
   },
   {
    "id": "source:dft_beast",
@@ -76302,6 +77991,61 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07"
+  },
+  {
+   "id": "source:ig_gav",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to Innistrad: Gavony and Humans",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-gavony-and-humans-2011-09-28"
+  },
+  {
+   "id": "source:ig_intro",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to Innistrad: Introduction",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-introduction-2011-08-24"
+  },
+  {
+   "id": "source:ig_kes",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Innistrad: Kessig and Werewolves",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-kessig-and-werewolves-2011-10-05"
+  },
+  {
+   "id": "source:ig_neph",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to Innistrad: Nephalia and the Undead",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-nephalia-and-undead-2011-10-19"
+  },
+  {
+   "id": "source:ig_sten",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to Innistrad: Stensia and Vampires",
+   "origins": [
+    "pack_p5_untagged_isd_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-stensia-and-vampires-2011-11-02"
   },
   {
    "id": "source:iko_guide",
@@ -77507,6 +79251,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22"
+  },
+  {
+   "id": "source:np_engine",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: The Progress Engine",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-progress-engine"
+  },
+  {
+   "id": "source:np_furnace",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: The Quiet Furnace",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-quiet-furnace-2011-05-04"
+  },
+  {
+   "id": "source:np_intro",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: Introduction",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction"
+  },
+  {
+   "id": "source:np_ortho",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: The Machine Orthodoxy",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06"
+  },
+  {
+   "id": "source:np_swarm",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: The Vicious Swarm",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-vicious-swarm"
+  },
+  {
+   "id": "source:np_thanes",
+   "kind": "official_planeswalkers_guide",
+   "name": "A Planeswalker's Guide to New Phyrexia: The Steel Thanes",
+   "origins": [
+    "pack_p5_untagged_nph_guides_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-steel-thanes"
   },
   {
    "id": "source:ogw_beneath_surface",
@@ -80073,37 +81883,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 982,
+  "claim_edges_with_era": 1011,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 764,
-   "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 179,
+   "CANON_CONFIRMED": 787,
+   "CANON_DISPUTED": 8,
+   "CANON_IMPLIED": 184,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 119,
-  "edges": 5812,
+  "edges": 5946,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1335,
+   "Card": 1350,
    "CardTheme": 1,
-   "Character": 415,
-   "Claim": 955,
+   "Character": 421,
+   "Claim": 984,
    "Concept": 140,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 99,
+   "Faction": 102,
    "Literal": 14,
    "Object": 46,
-   "Place": 68,
-   "Plane": 31,
-   "Source": 497
+   "Place": 74,
+   "Plane": 32,
+   "Source": 514
   },
-  "nodes": 3627,
+  "nodes": 3704,
   "non_wizards_sources": 0,
-  "relations": 321,
-  "wizards_official_sources": 497
+  "relations": 332,
+  "wizards_official_sources": 514
  }
 }
