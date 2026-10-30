@@ -58,6 +58,18 @@ class ClaimCardAnchorTests(unittest.TestCase):
         cur["anchors"][0]["oracle_id"] = "00000000-0000-0000-0000-000000000000"
         self.assertTrue(A.structural_problems(cur))
 
+    def test_snapshot_free_append_is_source_limited(self):
+        pack = 'pack_c5_phyrexian_invasion_outcome_2026-10-30.json'
+        self.assertEqual(self.d['by_pack'][pack]['claims'], 2)
+        self.assertEqual(self.d['by_pack'][pack]['claims_anchored'], 1)
+        rows = [r for r in self.d['anchors'] if r['pack'] == pack]
+        self.assertEqual([(r['claim'], r['card'], r['tier']) for r in rows],
+                         [('C501', 'Yawgmoth, Thran Physician', 'NAMED_PARTICIPANT')])
+        self.assertEqual(A.coverage_problems(self.d), [])
+        missing = copy.deepcopy(self.d)
+        del missing['by_pack'][pack]
+        self.assertTrue(A.coverage_problems(missing))
+
 
 if __name__ == "__main__":
     unittest.main()

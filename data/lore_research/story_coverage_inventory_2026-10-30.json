@@ -12,6 +12,7 @@
    "data/lore_research/pack_a5_ugin_allies_2026-10-30.json",
    "data/lore_research/pack_c3_assault_on_new_phyrexia_2026-10-30.json",
    "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
+   "data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
    "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
    "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
    "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
@@ -82,7 +83,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1139,
+  "claims": 1141,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -95,6 +96,7 @@
   "pack_a5_ugin_allies_2026-10-30.json": 16,
   "pack_c3_assault_on_new_phyrexia_2026-10-30.json": 19,
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
+  "pack_c5_phyrexian_invasion_outcome_2026-10-30.json": 2,
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 32,
   "pack_p5_ixalan_rivals_2026-10-30.json": 34,
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
@@ -727,6 +729,7 @@
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
@@ -803,5 +806,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "3ae8e91d5538e9f9730675858a54ee7afff8fb0f621bd1d7ed680e6b1d2a2c64"
+ "sha256": "89c5e1bd07705c14266eff85edcac687456e8675c388a4a7ef9a912b8cec65d8"
 }

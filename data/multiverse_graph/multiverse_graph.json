@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "76fe506b38ff78d4b2ee8e3bbe359079b158ce36dd112214fd36f68eec490e28",
+ "content_sha256": "6141abc31e9bcbbff129e311f611b1ad18ecede854c3584eecc9c91cb82397e9",
  "edges": [
   {
    "artists": [
@@ -19000,6 +19000,30 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "C501",
+   "era": "first_invasion_outcome",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:weatherlight_crew",
+   "grade": "CANON_CONFIRMED",
+   "relation": "used_legacy_to_destroy",
+   "sources": [
+    "km"
+   ],
+   "to": "character:yawgmoth"
+  },
+  {
+   "claim": "C502",
+   "era": "first_invasion_outcome",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:old_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "relation": "decimated_by_soul_bombs_from",
+   "sources": [
+    "km"
+   ],
+   "to": "concept:unnamed_soul_bomb_planeswalkers"
+  },
+  {
    "claim": "CN001",
    "era": "conspiracy_take_the_crown_2016",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -37769,6 +37793,30 @@
    "to": "character:elesh_norn"
   },
   {
+   "from": "claim:C501",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C501",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:weatherlight_crew"
+  },
+  {
+   "from": "claim:C502",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:unnamed_soul_bomb_planeswalkers"
+  },
+  {
+   "from": "claim:C502",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:old_phyrexia"
+  },
+  {
    "from": "claim:CN001",
    "relation": "asserts",
    "role": "object",
@@ -52756,6 +52804,16 @@
   {
    "from": "source:km",
    "relation": "cited_by",
+   "to": "claim:C501"
+  },
+  {
+   "from": "source:km",
+   "relation": "cited_by",
+   "to": "claim:C502"
+  },
+  {
+   "from": "source:km",
+   "relation": "cited_by",
    "to": "claim:WSM007"
   },
   {
@@ -61451,6 +61509,13 @@
     "file": "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
     "sha256": "e3497c9b29e16668003217eaaffbd8ae4bd9baf03f1ee74f8158c7496b50bdbd",
     "sources": 10
+   },
+   {
+    "claims": 2,
+    "entities": 5,
+    "file": "data/lore_research/pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
+    "sha256": "31097dd1e4b0f5b7ddff665801beddb5e65eb23bce34b401e3eed82f76ad1583",
+    "sources": 1
    },
    {
     "claims": 32,
@@ -82841,6 +82906,7 @@
    "name": "Yawgmoth",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_untagged_nph_guides_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
@@ -85095,6 +85161,30 @@
    ],
    "predicate": "sought_leader_like",
    "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C501",
+   "limitation": "Confirmed attribution in this editorial source, not a unique or reconciled killer identity. Other Wizards profiles credit Gerrard, Karn and allies, or Urza's final act differently.",
+   "name": "Wizards' 2008 Multiverse retrospective credits the Weatherlight crew's use of the Legacy artifacts with destroying Yawgmoth on Dominaria.",
+   "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
+   ],
+   "predicate": "used_legacy_to_destroy",
+   "stage": "first_invasion_outcome",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C502",
+   "limitation": "The retrospective does not name those planeswalkers or state whether Old Phyrexia's decimation came before or after Yawgmoth's destruction. Do not invent that ordering.",
+   "name": "The same official retrospective says a group of planeswalkers decimated Old Phyrexia using soul bombs during the invasion's defeat.",
+   "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
+   ],
+   "predicate": "decimated_by_soul_bombs_from",
+   "stage": "first_invasion_outcome",
    "type": "Claim"
   },
   {
@@ -96071,6 +96161,7 @@
    "id": "concept:legacy",
    "name": "The Legacy (artifact collection)",
    "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Concept"
@@ -96145,6 +96236,14 @@
    "name": "Thran Empire",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:unnamed_soul_bomb_planeswalkers",
+   "name": "Unidentified planeswalkers using soul bombs (2008 recap)",
+   "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -98509,6 +98608,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:weatherlight_crew",
+   "name": "Weatherlight crew",
+   "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:witherbloom_college",
    "name": "Witherbloom College",
    "origins": [
@@ -99675,6 +99782,7 @@
    ],
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
    ],
@@ -111268,6 +111376,7 @@
    "kind": "official_story_feature",
    "name": "The Known Mutliverse",
    "origins": [
+    "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
@@ -115397,17 +115506,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1168,
+  "claim_edges_with_era": 1170,
   "claim_edges_with_in_universe_date": 33,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 885,
+   "CANON_CONFIRMED": 887,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 7963,
+  "edges": 7971,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -115416,20 +115525,20 @@
    "CardRepresentation": 560,
    "CardTheme": 1,
    "Character": 482,
-   "Claim": 1139,
-   "Concept": 150,
+   "Claim": 1141,
+   "Concept": 151,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 125,
+   "Faction": 126,
    "Literal": 14,
    "Object": 50,
    "Place": 95,
    "Plane": 33,
    "Source": 605
   },
-  "nodes": 5040,
+  "nodes": 5044,
   "non_wizards_sources": 0,
-  "relations": 362,
+  "relations": 364,
   "wizards_official_sources": 605
  }
 }

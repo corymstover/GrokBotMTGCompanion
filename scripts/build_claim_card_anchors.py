@@ -17,6 +17,7 @@ Card data comes from the manifest-verified Scryfall snapshot; lore comes only fr
 
   python3 scripts/build_claim_card_anchors.py            # write the file
   python3 scripts/build_claim_card_anchors.py --check    # fail if stale (snapshot needed for a full rebuild)
+  python3 scripts/build_claim_card_anchors.py --append-unmapped-packs  # snapshot-free, new non-set packs ONLY
 
 Without the snapshot, --check verifies the self-hash and that every committed anchor still refers
 to a current claim, participant and card-name anchor.
@@ -188,17 +189,105 @@ def structural_problems(cur: dict) -> list[str]:
     return probs
 
 
+def coverage_problems(cur: dict) -> list[str]:
+    """Count every current claim, even when the old bulk snapshot cannot be downloaded."""
+    expected: dict[str, int] = {}
+    for pack, _, _ in claims():
+        expected[pack] = expected.get(pack, 0) + 1
+    actual = {pack: stats['claims'] for pack, stats in cur['by_pack'].items()}
+    errors = []
+    if expected != actual:
+        errors.append(f"pack coverage differs: expected={expected}, actual={actual}")
+    if cur['counts']['claims'] != sum(expected.values()):
+        errors.append(f"claim total {cur['counts']['claims']} differs from current {sum(expected.values())}")
+    if cur['counts']['anchors'] != len(cur['anchors']):
+        errors.append('anchor total differs from stored rows')
+    return errors
+
+
+def append_unmapped_packs(cur: dict) -> dict:
+    """Extend historical card links for *new* packs that have no story-set classification.
+
+    This keeps every earlier printing/art tier unchanged; it cannot reconstruct printing
+    sets in the absence of Scryfall's locked default-cards bulk file. Fail closed for
+    preexisting pack changes or new story-set packs, which need a full snapshot rebuild.
+    """
+    expected: dict[str, list[tuple[dict, dict]]] = {}
+    for pack, claim, reg in claims():
+        expected.setdefault(pack, []).append((claim, reg))
+    new_packs = set(expected) - set(cur['by_pack'])
+    if not new_packs or set(cur['by_pack']) - set(expected):
+        raise ValueError('no new packs or an existing pack was removed')
+    if any(x in STORY_SETS for x in new_packs):
+        raise ValueError('new story-set pack needs full Scryfall snapshot rebuild')
+    for pack in set(cur['by_pack']) & set(expected):
+        if cur['by_pack'][pack]['claims'] != len(expected[pack]):
+            raise ValueError(f'existing pack {pack} changed claims; full rebuild required')
+
+    names = json.loads(NAMES.read_text(encoding='utf-8'))
+    by_entity = {x['entity']: x['cards'] for x in names['anchors']}
+    atlas = json.loads(ATLAS.read_text(encoding='utf-8'))
+    art = {p['url']: {x['oracle_id'] for x in p['captions']} for p in atlas['pages']}
+    result = json.loads(json.dumps(cur))
+    for pack in sorted(new_packs):
+        stats = {'claims': 0, 'claims_anchored': 0, **{t: 0 for t in TIERS}}
+        for c, reg in expected[pack]:
+            stats['claims'] += 1
+            urls = sorted({reg[s]['url'] for s in c.get('source_ids', []) if s in reg})
+            seen: set[tuple[str, str]] = set()
+            added = []
+            for entity in participants(c):
+                for card in by_entity.get(entity, []):
+                    key = (entity, card['oracle_id'])
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    art_urls = [u for u in urls if card['oracle_id'] in art.get(u, set())]
+                    tier = TIERS[0] if art_urls else TIERS[2]
+                    basis = {'cited_pages_crediting_art': art_urls} if art_urls else {}
+                    added.append({'claim': c['id'], 'pack': pack, 'participant': entity,
+                                  'card': card['name'], 'oracle_id': card['oracle_id'],
+                                  'tier': tier, **basis})
+                    stats[tier] += 1
+            result['anchors'].extend(added)
+            stats['claims_anchored'] += bool(added)
+        result['by_pack'][pack] = stats
+    result['by_pack'] = dict(sorted(result['by_pack'].items()))
+    result['counts'] = {
+        'claims': sum(x['claims'] for x in result['by_pack'].values()),
+        'claims_anchored': sum(x['claims_anchored'] for x in result['by_pack'].values()),
+        'anchors': len(result['anchors']),
+        **{t: sum(r['tier'] == t for r in result['anchors']) for t in TIERS},
+    }
+    result['content_sha256'] = sha({k: v for k, v in result.items() if k != 'content_sha256'})
+    if structural_problems(result) or coverage_problems(result):
+        raise ValueError('append-only result failed structural or claim coverage validation')
+    return result
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("--check", action="store_true")
+    p.add_argument("--append-unmapped-packs", action="store_true")
     a = p.parse_args(argv)
-    if a.check:
+    if a.check or a.append_unmapped_packs:
         cur = json.loads(OUT.read_text(encoding="utf-8"))
         if sha({k: v for k, v in cur.items() if k != "content_sha256"}) != cur.get("content_sha256"):
             print("FAIL: claim card anchors self-hash mismatch"); return 1
         probs = structural_problems(cur)
         if probs:
             print("FAIL:\n" + "\n".join(probs)); return 1
+        if a.append_unmapped_packs:
+            try:
+                updated = append_unmapped_packs(cur)
+            except ValueError as exc:
+                print(f'FAIL: {exc}'); return 1
+            OUT.write_text(json.dumps(updated, indent=1, ensure_ascii=False) + "\n", encoding='utf-8')
+            print(f"PASS appended non-set packs without rewriting historical tiers: {updated['counts']}")
+            return 0
+        coverage = coverage_problems(cur)
+        if coverage:
+            print("FAIL:\n" + "\n".join(coverage)); return 1
         try:
             new = build()
         except FileNotFoundError:

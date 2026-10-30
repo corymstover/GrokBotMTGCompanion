@@ -34543,6 +34543,14 @@
    "card": "Teysa Karlov",
    "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "C501",
+   "pack": "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
+   "participant": "yawgmoth",
+   "card": "Yawgmoth, Thran Physician",
+   "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -34601,6 +34609,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 6,
    "NAMED_PARTICIPANT": 128
+  },
+  "pack_c5_phyrexian_invasion_outcome_2026-10-30.json": {
+   "claims": 2,
+   "claims_anchored": 1,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 1
   },
   "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json": {
    "claims": 28,
@@ -35010,12 +35025,12 @@
   }
  },
  "counts": {
-  "claims": 1139,
-  "claims_anchored": 951,
-  "anchors": 4050,
+  "claims": 1141,
+  "claims_anchored": 952,
+  "anchors": 4051,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3381
+  "NAMED_PARTICIPANT": 3382
  },
- "content_sha256": "dc80c640e5b6a68a18caf0cbc1ac2ec8da90cb7512aff5c9fe1e679342fce535"
+ "content_sha256": "ad59a754911a4beb9119cf7261297319ba2f951888327723913b2b20d4cd17de"
 }

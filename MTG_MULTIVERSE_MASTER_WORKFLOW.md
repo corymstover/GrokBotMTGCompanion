@@ -1,9 +1,26 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.47
+**Version:** 2.48
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.48 Phase 4/5 C5 official invasion-outcome evidence (2026-10-30):**
+Two new **CANON_CONFIRMED editorial-source attributions** were verified live,
+with short direct excerpts, against Wizards' 2008 *The Known Mutliverse* recap:
+the Weatherlight crew used Legacy artifacts to destroy Yawgmoth on Dominaria,
+and an unnamed planeswalker group decimated Old Phyrexia with soul bombs. The
+source names no individual soul-bomb attackers and **does not order the two
+outcomes against each other**. Other official attributions to Gerrard/Karn/Urza
+are retained, not overridden. Source-graded Pack C5 adds two claims to the
+graph (**1,141 total**); the story inventory and live Progress Tracker now
+derive from current claim packs rather than the archived Batch 14 recount.
+The claim-card anchor sidecar now counts all 1,141 claims; its snapshot-free,
+append-only update adds one **named-participant** Yawgmoth link, not a claim
+that the printed card depicts the invasion or a new inferred set attribution.
+Historical 4,050 card-anchor rows and their tiers were preserved unchanged.
+L244 still awaits a genuinely quoted ordering. The pack is preliminary and
+owner-unapproved. See `research/PACK_C5_PHYREXIAN_INVASION_OUTCOME_2026-10-30.md`.
 
 **v2.47 Phase 8 source-change monitoring (2026-10-30):** A read-only weekly
 GitHub Actions monitor now checks the official Wizards Magic Story listing,
@@ -304,6 +321,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Finish Pack A's disputed Elder Dragon War genealogy/participant roster, direct card representations and story-based deck candidates with Oracle/printing verification. *(v2.40, Batch 12: `research/PACK_ABC_DOSSIERS.md` lists 5 non-CONFIRMED Pack A claims, the 5 cards whose art is credited on a cited source, and 21 UNAPPROVED commander candidates with snapshot legality. The genealogy and roster disputes stay open; resolving them needs owner judgement or new sources.)* *(v2.41, Batch 13, [#905](https://github.com/corymstover/GrokBotMTGCompanion/pull/905): owner evidence matrix `research/PACK_A_GENEALOGY_DISPUTES_2026-10-30.md` / `data/lore_research/pack_a_genealogy_disputes_2026-10-30.json` covers 7 disputes with 23 verbatim, hash-checked quotes tagged by voice and stance: GD1 twin status, GD2 Elder Dragon/Ur-Dragon parentage, GD3 survivor roster A003 vs A018, GD4 Vaevictis descendants, GD5 Piru/Chromium/Crosis, GD6 Rith/Palladia-Mors/Darigaaz, GD7 Chromium banished vs murdered. Only GD1 has an official statement that answers it (Wizards editorial plus third-person narration call them twins; Bolas's denial is in-story and ambiguous). No grade was changed. Owner-decision cells are blank.)*
 - [ ] **Pack B: Thran civilization → Yawgmoth → Old Phyrexia → Brothers' War.** People, artifacts, conflicts and consequences.
 - [ ] **Pack C: Dominaria → Weatherlight → the Legacy → Phyrexian invasion.** Historical transitions and connections.
+- [x] **Pack C5 targeted editorial outcome audit (2026-10-30):** Two source-graded claims were independently checked against [Wizards' *The Known Mutliverse* recap](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19). It credits the Weatherlight crew/Legacy with Yawgmoth's destruction and unnamed planeswalkers' soul bombs with Old Phyrexia's decimation. The two outcomes remain **unordered** by that article and other killer-attribution sources remain independently graded; this does not complete the full Pack C chronology. `scripts/audit_lore_pack_c5.py --check` (offline), `--live` (Wizards direct), `research/PACK_C5_PHYREXIAN_INVASION_OUTCOME_2026-10-30.md`. Research PRELIMINARY, not owner approved.
 - [x] **Pack B v1 (2026-10-30, [PR #826](https://github.com/corymstover/GrokBotMTGCompanion/pull/826)):** 18 claims, 23 entities, 8 Wizards sources. PRELIMINARY_RESEARCH. Next: per-claim card anchors and the Brothers' War story episodes.
 - [x] **Pack C v1 (2026-10-30, [PR #828](https://github.com/corymstover/GrokBotMTGCompanion/pull/828)):** 28 claims, 26 entities, 6 Wizards sources. PRELIMINARY_RESEARCH. Next: *Return to Dominaria* episode extraction, March of the Machine, and card anchors.
 - [x] **Pack C2 *Return to Dominaria* extraction (2026-10-30, targeted, not exhaustive):** 39 claims with verbatim quotes from the 12 official episodes. The graph now has 605 nodes and 904 edges, and card-name anchors cover 62 entities. No in-universe AR dates appear in these episodes, so none were inferred. Still open: an exhaustive pass, March of the Machine, and claim-level card anchors.

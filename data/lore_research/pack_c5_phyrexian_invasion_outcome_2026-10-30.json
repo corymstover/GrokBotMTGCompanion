@@ -1,0 +1,52 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "C5 — First Phyrexian Invasion outcome, Wizards 2008 retrospective",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-30",
+  "source_register": {
+    "km": {
+      "title": "The Known Mutliverse",
+      "url": "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+      "kind": "official_story_feature",
+      "perspective": "2008 Wizards editorial retrospective; later in-world/retconned sources can differ"
+    }
+  },
+  "entities": [
+    {"id": "weatherlight_crew", "type": "Faction", "name": "Weatherlight crew"},
+    {"id": "legacy", "type": "Concept", "name": "The Legacy (artifact collection)"},
+    {"id": "yawgmoth", "type": "Character", "name": "Yawgmoth"},
+    {"id": "old_phyrexia", "type": "Plane", "name": "Phyrexia"},
+    {"id": "unnamed_soul_bomb_planeswalkers", "type": "Concept", "name": "Unidentified planeswalkers using soul bombs (2008 recap)"}
+  ],
+  "claims": [
+    {
+      "id": "C501",
+      "subject": "weatherlight_crew",
+      "predicate": "used_legacy_to_destroy",
+      "object": "yawgmoth",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "first_invasion_outcome",
+      "source_ids": ["km"],
+      "source_excerpt": "crew of the Weatherlight used the artifacts of the Legacy to destroy Yawgmoth himself",
+      "summary": "Wizards' 2008 Multiverse retrospective credits the Weatherlight crew's use of the Legacy artifacts with destroying Yawgmoth on Dominaria.",
+      "limitation": "Confirmed attribution in this editorial source, not a unique or reconciled killer identity. Other Wizards profiles credit Gerrard, Karn and allies, or Urza's final act differently."
+    },
+    {
+      "id": "C502",
+      "subject": "old_phyrexia",
+      "predicate": "decimated_by_soul_bombs_from",
+      "object": "unnamed_soul_bomb_planeswalkers",
+      "grade": "CANON_CONFIRMED",
+      "event_stage": "first_invasion_outcome",
+      "source_ids": ["km"],
+      "source_excerpt": "decimated Phyrexia itself using eldritch 'soul bombs,'",
+      "summary": "The same official retrospective says a group of planeswalkers decimated Old Phyrexia using soul bombs during the invasion's defeat.",
+      "limitation": "The retrospective does not name those planeswalkers or state whether Old Phyrexia's decimation came before or after Yawgmoth's destruction. Do not invent that ordering."
+    }
+  ],
+  "remaining": [
+    "Find an explicit official ordering between the decimation of Old Phyrexia and Yawgmoth's destruction before adding a BEFORE edge to L244 chronology.",
+    "Reconcile the 2008 Legacy/Weatherlight attribution with official Karn, Gerrard and Urza accounts only after graded primary-source review and Cory's disputed-claim decisions.",
+    "Do not use unpublished novel text, nor assume an unnamed planeswalker group is a formal faction."
+  ]
+}
