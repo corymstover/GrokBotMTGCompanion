@@ -1,0 +1,35 @@
+name: Phase 1B set-linked Commander preconstructed source evidence
+on:
+  push:
+    branches: [main, chatgpt-phase1b-commander-set-linked-20261029]
+    paths:
+      - scripts/audit_commander_set_linked_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_set_linked_sources.py
+      - data/set_atlas/commander_set_linked_*
+      - .github/workflows/phase1b-commander-set-linked.yml
+  pull_request:
+    paths:
+      - scripts/audit_commander_set_linked_sources.py
+      - scripts/product_family_lookup.py
+      - tests/test_commander_set_linked_sources.py
+      - data/set_atlas/commander_set_linked_*
+      - .github/workflows/phase1b-commander-set-linked.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  commander-source-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate twelve primary-source Commander releases and guards
+        run: python3 -m unittest discover -s tests -p test_commander_set_linked_sources.py -v
+      - name: Verify deterministic report and read-only current lookup
+        run: |
+          python3 scripts/audit_commander_set_linked_sources.py
+          python3 scripts/product_family_lookup.py --summary
+          python3 -m py_compile scripts/audit_commander_set_linked_sources.py scripts/product_family_lookup.py

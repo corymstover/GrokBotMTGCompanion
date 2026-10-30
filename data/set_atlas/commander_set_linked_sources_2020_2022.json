@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "commander_series_source_audit_2026-10-29.json",
+  "scope": "Twelve Commander preconstructed release-family Scryfall code records for fall 2020 through 2022, sourced to individual Wizards-of-the-Coast announcements, product reveals, or published Commander decklists.",
+  "source_policy": "Official Wizards pages identify the named Commander preconstructed release products, not the exact Scryfall set code. Code/date and parent links are the independently frozen 2026-10-29 Scryfall set metadata. Decklist pages explicitly warn that dynamically shown card printings are not exact contents/printing displays, so these sources do not certify printing inventories or legality.",
+  "records": [
+    {"code": "znc", "official_url": "https://magic.wizards.com/en/news/card-preview/zendikar-rising-commander-decklists-2020-09-09", "source_section": "Zendikar Rising Commander Decklists — two preconstructed Commander decks"},
+    {"code": "khc", "official_url": "https://magic.wizards.com/en/news/card-preview/kaldheim-commander-decklists-2021-01-20", "source_section": "Kaldheim Commander Decklists"},
+    {"code": "c21", "official_url": "https://magic.wizards.com/en/news/announcements/commander-2021-edition-decklists-2021-04-05", "source_section": "Commander (2021 Edition) Decklists"},
+    {"code": "afc", "official_url": "https://magic.wizards.com/en/news/announcements/adventures-forgotten-realms-commander-decklists-2021-07-09", "source_section": "Adventures in the Forgotten Realms Commander Decklists — four decks"},
+    {"code": "mic", "official_url": "https://magic.wizards.com/en/news/announcements/innistrad-midnight-hunt-commander-decklists", "source_section": "Innistrad: Midnight Hunt Commander Decklists — two decks"},
+    {"code": "voc", "official_url": "https://magic.wizards.com/en/news/feature/innistrad-crimson-vow-commander-decklists-2021-11-08", "source_section": "Innistrad: Crimson Vow Commander Decklists"},
+    {"code": "nec", "official_url": "https://magic.wizards.com/en/news/feature/kamigawa-neon-dynasty-commander-decklists-2022-02-07", "source_section": "Kamigawa: Neon Dynasty Commander Decklists — two preconstructed decks"},
+    {"code": "ncc", "official_url": "https://magic.wizards.com/en/news/feature/streets-of-new-capenna-commander-decklists", "source_section": "Streets of New Capenna Commander Decklists"},
+    {"code": "dmc", "official_url": "https://magic.wizards.com/en/news/feature/dominaria-united-commander-decklists-2022-08-19", "source_section": "Dominaria United Commander Decklists"},
+    {"code": "40k", "official_url": "https://magic.wizards.com/en/news/announcements/warhammer-40000-commander-decklists", "source_section": "Warhammer 40,000 Commander Decklists"},
+    {"code": "brc", "official_url": "https://magic.wizards.com/en/news/announcements/brothers-war-commander-decklists-2022-10-28", "source_section": "The Brothers' War Commander Decklists — two Commander decks"},
+    {"code": "scd", "official_url": "https://magic.wizards.com/en/news/announcements/starter-commander-decks-available-december-2-2022-09-29", "source_section": "Starter Commander Decks Available December 2, 2022 — five ready-to-play decks"}
+  ]
+}
