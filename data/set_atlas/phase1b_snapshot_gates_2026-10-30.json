@@ -1,0 +1,573 @@
+{
+ "as_of": "2026-10-29",
+ "bulk": {
+  "file": "default-cards-20261029090546.jsonl.gz",
+  "matches_product_catalog_source": true,
+  "sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+ },
+ "g1_exact_id_parity": {
+  "duplicate_ids_in_bulk": 0,
+  "duplicate_set_collector_lang_in_bulk": 0,
+  "historical_oct28_printing_ids": 119509,
+  "ids_in_both": 119509,
+  "oct29_bulk_printing_ids": 119701,
+  "only_in_oct28": 0,
+  "only_in_oct28_by_set_top": {},
+  "only_in_oct29": 192,
+  "only_in_oct29_by_set_top": {
+   "pf26": 2,
+   "pw26": 1,
+   "sds": 25,
+   "trc": 121,
+   "trk": 43
+  },
+  "printings_without_top_level_oracle_id": 83,
+  "set_codes_only_in_bulk": [],
+  "set_codes_only_in_catalog": [],
+  "shared_id_field_mismatches": {
+   "paper": 6,
+   "released_at": 342
+  },
+  "shared_id_field_mismatches_by_set_top": {
+   "paper": {
+    "trk": 6
+   },
+   "released_at": {
+    "prm": 342
+   }
+  }
+ },
+ "g6_debut_reprint": {
+  "debut_layouts": {
+   "adventure": 158,
+   "art_series": 2352,
+   "double_faced_token": 80,
+   "emblem": 89,
+   "flip": 26,
+   "meld": 21,
+   "modal_dfc": 98,
+   "normal_or_other": 33513,
+   "prepare": 67,
+   "split": 135,
+   "token": 921,
+   "transform": 393
+  },
+  "debut_only_in_promo_sets": 364,
+  "earliest_printing_flagged_reprint_by_scryfall": 431,
+  "identities_without_released_en_paper_printing": 1311,
+  "per_set_debut_mismatch_count": 0,
+  "per_set_debut_mismatch_vs_catalog": [],
+  "released_en_paper_oracle_ids": 37853,
+  "same_day_multi_set_ties": 4087,
+  "single_set_debut_identities": 33766
+ },
+ "gates": [
+  {
+   "evidence": "g1_exact_id_parity",
+   "gate": "printing index/shards audited against the archived Default Cards snapshot",
+   "line": "L193",
+   "note": "every Oct 28 historical ID is present in the Oct 29 bulk; Oct-29-only IDs and shared-ID field drift (release-date/paper updates) are listed by set; no silent join",
+   "verdict": "QUALIFIED"
+  },
+  {
+   "broken_parent_links": [],
+   "evidence": "product_catalog_2026-10-29.json",
+   "gate": "normalized set catalog with parent links and provenance",
+   "line": "L194",
+   "parent_links_to_api_only_future_sets": [
+    "tnau->nau"
+   ],
+   "verdict": "PASS"
+  },
+  {
+   "evidence": "catalog set_type totals + release-scope 136/4/2/848/62/10",
+   "gate": "reproducible totals for all set codes and, separately, premier candidates",
+   "line": "L195",
+   "note": "136 is a sourced regular/mainline classification of one Scryfall category, not an all-time premier census",
+   "set_type_totals": {
+    "alchemy": 19,
+    "archenemy": 4,
+    "arsenal": 3,
+    "box": 44,
+    "commander": 46,
+    "core": 25,
+    "draft_innovation": 19,
+    "duel_deck": 27,
+    "eternal": 6,
+    "expansion": 120,
+    "from_the_vault": 10,
+    "funny": 22,
+    "masterpiece": 19,
+    "masters": 32,
+    "memorabilia": 102,
+    "minigame": 15,
+    "planechase": 6,
+    "premium_deck": 3,
+    "promo": 301,
+    "spellbook": 3,
+    "starter": 15,
+    "token": 217,
+    "treasure_chest": 2,
+    "vanguard": 2
+   },
+   "verdict": "QUALIFIED"
+  },
+  {
+   "evidence": "phase1b_export_acceptance_2026-10-29.json",
+   "gate": "per-set English printing records and deduplicated inventories",
+   "line": "L196",
+   "verdict": "PASS"
+  },
+  {
+   "evidence": "set_product_lookup.py (--code/--name/--year/--type/--parent/--from/--through), set_atlas_lookup.py, historical_set_lookup.py",
+   "gate": "bidirectional set<->card search with code/name/year/type/date filters",
+   "line": "L197",
+   "verdict": "PASS"
+  },
+  {
+   "edge_cases": {
+    "debut_only_in_promo_sets": 364,
+    "earliest_printing_flagged_reprint_by_scryfall": 431,
+    "identities_without_released_en_paper_printing": 1311,
+    "same_day_multi_set_ties": 4087
+   },
+   "evidence": "g6_debut_reprint",
+   "gate": "debut/reprint attribution verified with dated stable identities and edge cases",
+   "line": "L198",
+   "note": "Scryfall dates are release-or-first-card dates; preview/promo availability is not a sourced street date",
+   "verdict": "QUALIFIED"
+  },
+  {
+   "evidence": "product catalog released_at (real world) vs data/lore_research/in_universe_dates_2026-10-30.json (32 RELATIVE_SPAN, 0 calendar years)",
+   "gate": "two separately labelled timelines, linked only by sourced claims",
+   "line": "L199",
+   "note": "in-universe timeline is relative spans only; no AR-year chronology exists yet",
+   "verdict": "QUALIFIED"
+  },
+  {
+   "evidence": "set_story_bridge (arc-tagged official pages and cited claims per set) + Scryfall story_spotlight printings",
+   "gate": "sets connected to planes/arcs/characters without inventing lore",
+   "line": "L200",
+   "note": "publication-series bridge; per-card canon lives in claim packs",
+   "verdict": "QUALIFIED"
+  },
+  {
+   "evidence": "this report + tests/test_phase1b_snapshot_gates.py",
+   "gate": "automated checks: counts, uniqueness, totals, date order, references, sample queries",
+   "line": "L201",
+   "verdict": "PASS"
+  },
+  {
+   "evidence": "SET_ATLAS.md",
+   "gate": "user-facing set index with snapshot date, exceptions, sources, exports",
+   "line": "L202",
+   "verdict": "PASS"
+  }
+ ],
+ "l201_checks": {
+  "broken_parent_links": [],
+  "layout_counts": {
+   "adventure": 457,
+   "art_series": 2775,
+   "augment": 17,
+   "case": 27,
+   "class": 72,
+   "double_faced_token": 121,
+   "emblem": 140,
+   "flip": 45,
+   "front_card": 315,
+   "host": 29,
+   "leveler": 63,
+   "meld": 72,
+   "modal_dfc": 327,
+   "mutate": 146,
+   "normal": 109396,
+   "planar": 330,
+   "prepare": 124,
+   "prototype": 49,
+   "reversible_card": 83,
+   "saga": 424,
+   "scheme": 110,
+   "split": 351,
+   "token": 3049,
+   "transform": 1060,
+   "vanguard": 119
+  },
+  "per_set_count_mismatch_count": 0,
+  "per_set_count_mismatches": [],
+  "sample_queries": {
+   "c21": {
+    "bulk_printings": 409,
+    "bulk_released_en_paper_oracle_ids": 329,
+    "bulk_released_en_paper_rows": 409,
+    "catalog_printings": 409,
+    "digital_only": false,
+    "label": "Commander product",
+    "name": "Commander 2021",
+    "released_at": "2021-04-23",
+    "set_type": "commander"
+   },
+   "lea": {
+    "bulk_printings": 295,
+    "bulk_released_en_paper_oracle_ids": 290,
+    "bulk_released_en_paper_rows": 295,
+    "catalog_printings": 295,
+    "digital_only": false,
+    "label": "Limited Edition Alpha",
+    "name": "Limited Edition Alpha",
+    "released_at": "1993-08-05",
+    "set_type": "core"
+   },
+   "leg": {
+    "bulk_printings": 310,
+    "bulk_released_en_paper_oracle_ids": 310,
+    "bulk_released_en_paper_rows": 310,
+    "catalog_printings": 310,
+    "digital_only": false,
+    "label": "Legends",
+    "name": "Legends",
+    "released_at": "1994-06-01",
+    "set_type": "expansion"
+   },
+   "pznr": {
+    "bulk_printings": 153,
+    "bulk_released_en_paper_oracle_ids": 84,
+    "bulk_released_en_paper_rows": 153,
+    "catalog_printings": 153,
+    "digital_only": false,
+    "label": "promo set",
+    "name": "Zendikar Rising Promos",
+    "released_at": "2020-09-25",
+    "set_type": "promo"
+   },
+   "ydmu": {
+    "bulk_printings": 39,
+    "bulk_released_en_paper_oracle_ids": 0,
+    "bulk_released_en_paper_rows": 0,
+    "catalog_printings": 39,
+    "digital_only": true,
+    "label": "digital (Alchemy) release",
+    "name": "Alchemy: Dominaria",
+    "released_at": "2022-10-05",
+    "set_type": "alchemy"
+   }
+  },
+  "set_codes_with_printing_before_set_date": 55,
+  "set_codes_with_printing_before_set_date_examples": [
+   "hho",
+   "o90p",
+   "one",
+   "p09",
+   "p5dn",
+   "p8ed",
+   "papc",
+   "parb",
+   "pbok",
+   "pcel",
+   "pchk",
+   "pcon",
+   "pcsp",
+   "pdis",
+   "pdst"
+  ]
+ },
+ "schema": "phase1b-snapshot-gates/v1",
+ "set_story_bridge": {
+  "AKH/HOU": {
+   "cited_claims": 31,
+   "official_story_pages": 16,
+   "set_codes": [
+    "akh",
+    "hou"
+   ]
+  },
+  "BFZ/OGW": {
+   "cited_claims": 37,
+   "official_story_pages": 27,
+   "set_codes": [
+    "bfz",
+    "ogw"
+   ]
+  },
+  "BLB": {
+   "cited_claims": 18,
+   "official_story_pages": 8,
+   "set_codes": [
+    "blb",
+    "blc"
+   ]
+  },
+  "BRO": {
+   "cited_claims": 23,
+   "official_story_pages": 10,
+   "set_codes": [
+    "brc",
+    "bro"
+   ]
+  },
+  "DFT": {
+   "cited_claims": 24,
+   "official_story_pages": 10,
+   "set_codes": [
+    "dft",
+    "drc"
+   ]
+  },
+  "DMU": {
+   "cited_claims": 17,
+   "official_story_pages": 10,
+   "set_codes": [
+    "dmc",
+    "dmu"
+   ]
+  },
+  "DOM/WAR": {
+   "cited_claims": 57,
+   "official_story_pages": 18,
+   "set_codes": [
+    "dom",
+    "war"
+   ]
+  },
+  "DSK": {
+   "cited_claims": 18,
+   "official_story_pages": 13,
+   "set_codes": [
+    "dsc",
+    "dsk"
+   ]
+  },
+  "ECL": {
+   "cited_claims": 20,
+   "official_story_pages": 12,
+   "set_codes": [
+    "ecc",
+    "ecl"
+   ]
+  },
+  "ELD": {
+   "cited_claims": 11,
+   "official_story_pages": 1,
+   "set_codes": [
+    "eld"
+   ]
+  },
+  "EOE": {
+   "cited_claims": 30,
+   "official_story_pages": 18,
+   "set_codes": [
+    "eoc",
+    "eoe"
+   ]
+  },
+  "IKO": {
+   "cited_claims": 5,
+   "official_story_pages": 3,
+   "set_codes": [
+    "c20",
+    "iko"
+   ]
+  },
+  "KHM": {
+   "cited_claims": 24,
+   "official_story_pages": 13,
+   "set_codes": [
+    "khc",
+    "khm"
+   ]
+  },
+  "KLD/AER": {
+   "cited_claims": 32,
+   "official_story_pages": 17,
+   "set_codes": [
+    "aer",
+    "kld"
+   ]
+  },
+  "LCI": {
+   "cited_claims": 15,
+   "official_story_pages": 8,
+   "set_codes": [
+    "lcc",
+    "lci"
+   ]
+  },
+  "MAT": {
+   "cited_claims": 12,
+   "official_story_pages": 2,
+   "set_codes": [
+    "mat"
+   ]
+  },
+  "MID/VOW": {
+   "cited_claims": 25,
+   "official_story_pages": 19,
+   "set_codes": [
+    "mic",
+    "mid",
+    "voc",
+    "vow"
+   ]
+  },
+  "MKM": {
+   "cited_claims": 16,
+   "official_story_pages": 12,
+   "set_codes": [
+    "mkc",
+    "mkm"
+   ]
+  },
+  "MOM": {
+   "cited_claims": 30,
+   "official_story_pages": 19,
+   "set_codes": [
+    "moc",
+    "mom"
+   ]
+  },
+  "NEO": {
+   "cited_claims": 16,
+   "official_story_pages": 10,
+   "set_codes": [
+    "nec",
+    "neo"
+   ]
+  },
+  "ONE": {
+   "cited_claims": 35,
+   "official_story_pages": 11,
+   "set_codes": [
+    "onc",
+    "one"
+   ]
+  },
+  "OTJ": {
+   "cited_claims": 20,
+   "official_story_pages": 14,
+   "set_codes": [
+    "otc",
+    "otj"
+   ]
+  },
+  "RF": {
+   "cited_claims": 21,
+   "official_story_pages": 12,
+   "set_codes": [
+    "fra",
+    "frc"
+   ]
+  },
+  "SNC": {
+   "cited_claims": 21,
+   "official_story_pages": 11,
+   "set_codes": [
+    "ncc",
+    "snc"
+   ]
+  },
+  "SOI/EMN": {
+   "cited_claims": 40,
+   "official_story_pages": 21,
+   "set_codes": [
+    "emn",
+    "soi"
+   ]
+  },
+  "SOS": {
+   "cited_claims": 29,
+   "official_story_pages": 14,
+   "set_codes": [
+    "soc",
+    "sos"
+   ]
+  },
+  "STX": {
+   "cited_claims": 19,
+   "official_story_pages": 11,
+   "set_codes": [
+    "c21",
+    "stx"
+   ]
+  },
+  "TDM": {
+   "cited_claims": 28,
+   "official_story_pages": 14,
+   "set_codes": [
+    "tdc",
+    "tdm"
+   ]
+  },
+  "THB": {
+   "cited_claims": 29,
+   "official_story_pages": 4,
+   "set_codes": [
+    "thb"
+   ]
+  },
+  "THS": {
+   "cited_claims": 37,
+   "official_story_pages": 19,
+   "set_codes": [
+    "ths"
+   ]
+  },
+  "WOE": {
+   "cited_claims": 14,
+   "official_story_pages": 5,
+   "set_codes": [
+    "woc",
+    "woe"
+   ]
+  },
+  "XLN/RIX": {
+   "cited_claims": 34,
+   "official_story_pages": 17,
+   "set_codes": [
+    "rix",
+    "xln"
+   ]
+  }
+ },
+ "status": "ENGINEERING VERIFICATION (not owner approval or certification)",
+ "story_spotlight_printings_by_set": {
+  "aer": 5,
+  "akh": 5,
+  "blb": 9,
+  "bro": 40,
+  "dft": 11,
+  "dmu": 10,
+  "dom": 4,
+  "dsk": 9,
+  "ecl": 7,
+  "eld": 4,
+  "eoe": 12,
+  "fra": 15,
+  "grn": 4,
+  "hou": 5,
+  "iko": 5,
+  "khm": 14,
+  "kld": 5,
+  "lci": 9,
+  "mid": 16,
+  "mkm": 57,
+  "mom": 20,
+  "neo": 13,
+  "one": 10,
+  "otj": 6,
+  "pgrn": 2,
+  "plst": 37,
+  "rix": 3,
+  "rna": 4,
+  "snc": 11,
+  "sos": 9,
+  "stx": 15,
+  "tdm": 7,
+  "thb": 4,
+  "vow": 12,
+  "war": 27,
+  "woe": 15,
+  "xln": 5,
+  "znr": 6
+ },
+ "story_spotlight_printings_total": 452
+}
