@@ -370,3 +370,23 @@ Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grix
 
 ### Next steps
 Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewed-no-claim marker (owner decision on format); faction short-name aliases in mv_ask; owner review of the 3 graph-linked lore deck drafts (the only NOT_MET readiness criterion).
+
+## Batch 9 — 2026-10-30, from 07:58 CDT (in progress)
+
+### PRs (batch 9 so far)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#880](https://github.com/corymstover/GrokBotMTGCompanion/pull/880) | 5 | Authoring records: `scripts/claim_spec_sources/authoring/` (b8 fill scripts, superseded b6 scripts, paraphrase probe) | `b3223d09` 08:02 CDT | 1/1 pass |
+| [#881](https://github.com/corymstover/GrokBotMTGCompanion/pull/881) | 5 | `data/lore_research/reviewed_no_claim.json` (schema `reviewed-no-claim/v1`): a reversible GrokBot reading note, NOT an owner approval; coverage builder validates it (rejects cited+listed, wrong arc, bad page_key) and adds `review_status`. IKO's 2 non-narrative pages listed | `866aefa8` 08:02 CDT | 5/5 pass |
+| [#882](https://github.com/corymstover/GrokBotMTGCompanion/pull/882) | 7 | Faction short-name aliases in `mv_ask` ("Izzet", "the Golgari", "Orzhov guild" …, exact names win, unique-only) and leader answers with era context (`leadership.most_recent_cited` by citing-page date, full timeline, `described_as_former`, honest note); `tests/test_mv_ask_aliases.py` (11) | `91ca3d9d` 08:06 CDT | 3/3 pass |
+| [#883](https://github.com/corymstover/GrokBotMTGCompanion/pull/883) | 5 | `pack_p5_untagged_bios` (34 claims, 26 undated Planeswalker profiles) + `pack_p5_untagged_planes` (39 claims, 11 plane pages) + 34 reviewed-no-claim entries (`authoring/b9/add_reviewed_b9.py`) | `9d55f327` 08:19 CDT | 8/8 pass on `d0aa8580` |
+
+### Coverage (main after #883)
+- 451 of 626 pages cited; 36 reviewed-no-claim; 911 claims. Untagged: 54 cited + 34 reviewed of 227 (139 still unread). 31 arcs all cited; 32 all cited-or-reviewed (IKO is reviewed-complete, but its claim status honestly stays PARTIAL).
+
+### Discoveries
+- Leader questions: "current" is not knowable from the graph alone; answers give the most recent *cited* leader by publication date and the full timeline (e.g. Orzhov → Teysa, Kaya earlier). Not proof of present-day canon.
+- UB026 (Ugin/Bolas "twin") must use the existing `twin_sibling_of` predicate, or the "Ugin's brother" route regresses (caught by `test_commander_rules`).
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#883. Owner approved / certified: nothing.
