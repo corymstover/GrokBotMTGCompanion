@@ -164,10 +164,14 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:created|made|built) (?:the )?(.+?)\??$", re.I), "created", "in"),
     (re.compile(r"who (?:destroyed|killed) (?:the )?(.+?)\??$", re.I), "destroyed", "in"),
     (re.compile(r"where did (?:the )?(.+?) come from\??$", re.I), "origin", "out"),
+    (re.compile(r"who (?:is|was) (.+?)'s mother\??$", re.I), "mother_of", "in"),
+    (re.compile(r"who struck down (?:the )?(.+?)\??$", re.I), "struck_down", "in"),
 ]
 
-FALLBACK = {"created": ("created_by", "out"),  # "who created X" may be stored as X created_by Y
-            "sibling_of": ("twin_sibling_of", None)}  # Pack A stores Ugin/Bolas as twin_sibling_of
+FALLBACK = {"created": [("created_by", "out")],  # "who created X" may be stored as X created_by Y
+            "sibling_of": [("twin_sibling_of", None)],  # Pack A stores Ugin/Bolas as twin_sibling_of
+            "destroyed": [("killed", "in")],  # Pack C4 stores Karn killed Elesh Norn (Batch 4)
+            "mother_of": [("child_of", "out")]}  # "X child_of Y" also answers "who is X's mother"
 
 
 def _is_card(name: str) -> bool:
@@ -202,8 +206,10 @@ def ask(text: str) -> dict:
         m = rx.search(q)
         if m:
             env = lore(m.group(1).strip(), rel, direction)
-            if env["confidence"] == "NOT_FOUND" and rel in FALLBACK:
-                rel, direction = FALLBACK[rel]
+            for alt, alt_dir in FALLBACK.get(rel, []):
+                if env["confidence"] != "NOT_FOUND":
+                    break
+                rel, direction = alt, alt_dir
                 env = lore(m.group(1).strip(), rel, direction)
             env.update(route="ask->lore:" + rel, query=q)
             return env

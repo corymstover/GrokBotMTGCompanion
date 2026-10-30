@@ -88,6 +88,29 @@ class CompanionTests(unittest.TestCase):
         self.assertEqual(r["confidence"], "VERIFIED")
         self.assertIn("Karn", {x["name"] for x in r["result"]["relations_by_status"]["CANON_CONFIRMED"]})
 
+    def _names(self, r):
+        return {x["name"] for rows in r["result"]["relations_by_status"].values() for x in rows}
+
+    def test_who_killed_falls_back_to_killed_relation(self):  # Pack C4 MOM017 (Batch 4)
+        r = A.ask("Who killed Elesh Norn?")
+        self.assertEqual(r["confidence"], "VERIFIED")
+        self.assertIn("Karn", self._names(r))
+        self.assertTrue(all(u.startswith("https://magic.wizards.com/") for u in r["sources"]))
+
+    def test_who_is_mother(self):  # Pack C4 MOM010
+        r = A.ask("Who is Nashi's mother?")
+        self.assertEqual(r["route"], "ask->lore:mother_of")
+        self.assertEqual(self._names(r), {"Tamiyo"})
+
+    def test_who_struck_down(self):  # Pack C4 MOM009
+        r = A.ask("Who struck down Tamiyo?")
+        self.assertIn("The Wanderer (Emperor of Kamigawa)", self._names(r))
+
+    def test_unknown_killer_stays_not_found(self):
+        r = A.ask("Who killed Zorblax the Unreal?")
+        self.assertEqual(r["confidence"], "NOT_FOUND")
+        self.assertEqual(r["sources"], [])
+
     def test_cli_exit_codes(self):
         self.assertEqual(A.main(["ask", "Who was Kayla bin-Kroog's husband?"]), 0)
         self.assertEqual(A.main(["ask", "Who is Zorblax the Unreal?"]), 3)
