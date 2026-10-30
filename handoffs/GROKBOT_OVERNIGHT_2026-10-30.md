@@ -41,10 +41,13 @@ Scope rules for this overnight run:
   - Devastation Information Part 3: Bolas's three gods.
   - More War Games: the God-Eternals.
   - Amonkhet plane page and Sarkhan profile.
-- Merge status: see the batch footer or PR #823. The merge is allowed only when every check on the exact head is green.
+- **Merged:** 2026-10-30 01:30 CDT as merge commit `831ebf8f1e2ac76e32aab5b8adeb57650be6cdfb`. This was a normal merge, with no admin bypass and no force. Before merging, all 10 checks on the exact head `a3e0c3a5` were green, main was still at `c727e4c7`, and no files overlapped with any open chatgpt-* PR.
+- Post-merge CI on `831ebf8f`: all 9 workflows passed (Pack A/A2/A3/A4, Phase 1B gates, and the Pilot 1 audit).
+- Protected-path diff (`grixis/`, `data/grixis/`, `state/current_deck_overrides.json`, `data/lore_decks/approvals/`): empty.
+- **Being merged is not owner approval.** The deck stays an UNAPPROVED proposal until Cory approves it.
 
 ### Exact next steps
-1. If PR #823 is not merged yet: check that every check on the head is green, then do a normal merge. It is an unapproved research proposal, the same kind as the other `data/lore_decks/drafts/*` files.
+1. PR #823 is merged; nothing is left to do for it.
 2. Cory reviews the pilot. Only Cory can approve it. Do not edit PR #776 (ChatGPT's Deck #9 Ugin life story); this pilot is independent of it.
 3. Throughput: turn `build_ugin_bolas_duality_pilot.py` and its audit into a spec-driven generic `scripts/build_lore_pilot.py` plus `audit_lore_pilot.py`. Pilots 2 and 3 (Original Primeval Dragons; Ugin's Allies and Heroes) then become JSON specs.
 4. Close the Pack A genealogy gaps (A003/A004 disputed, A011 open), then start Packs B and C.
