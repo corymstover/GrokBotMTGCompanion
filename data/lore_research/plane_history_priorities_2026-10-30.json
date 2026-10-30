@@ -1,0 +1,862 @@
+{
+  "schema": "plane-history-priorities/v1",
+  "as_of": "2026-10-30",
+  "status": "PRELIMINARY_RESEARCH",
+  "coverage_basis": "Only registered Plane nodes and direct cited claim edges in the committed graph. MTG's complete list of planes is larger and not enumerated here.",
+  "registered_planes": 33,
+  "without_direct_claims": 0,
+  "with_direct_claims": 33,
+  "chronology": {
+    "event_nodes": 56,
+    "comparable_pairs": 177,
+    "unresolved_pairs": 2897,
+    "disconnected_components": 13,
+    "l244_complete": false
+  },
+  "phase6_pilots": [
+    {
+      "name": "Ugin & Nicol Bolas - Elder Dragon Duality (Phase 6 Pilot 1)",
+      "stem": "ugin_bolas_elder_dragon_duality",
+      "status": "UNAPPROVED",
+      "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "tiers": {
+        "DIRECT_DEPICTION": 6,
+        "CANON_REFERENCE": 54,
+        "LORE_INSPIRED": 8,
+        "MECHANICAL_SYMBOL": 15
+      },
+      "missing_owner_gate": "exact decklist and lore-representation approval by Cory",
+      "research_caution": "Mechanics, printed-card names, and official artwork mentions do not prove a direct scene depiction."
+    },
+    {
+      "name": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
+      "stem": "original_primeval_dragons",
+      "status": "UNAPPROVED",
+      "commander": "The Ur-Dragon",
+      "tiers": {
+        "DIRECT_DEPICTION": 0,
+        "CANON_REFERENCE": 35,
+        "LORE_INSPIRED": 12,
+        "MECHANICAL_SYMBOL": 38
+      },
+      "missing_owner_gate": "exact decklist and lore-representation approval by Cory",
+      "research_caution": "Mechanics, printed-card names, and official artwork mentions do not prove a direct scene depiction."
+    },
+    {
+      "name": "Ugin's Allies and Heroes: the Eldrazi sealers, Tarkir and the Gatewatch (Phase 6 Pilot 3)",
+      "stem": "ugins_allies_and_heroes",
+      "status": "UNAPPROVED",
+      "commander": "Jace, Multiverse Architect",
+      "tiers": {
+        "DIRECT_DEPICTION": 0,
+        "CANON_REFERENCE": 15,
+        "LORE_INSPIRED": 32,
+        "MECHANICAL_SYMBOL": 40
+      },
+      "missing_owner_gate": "exact decklist and lore-representation approval by Cory",
+      "research_caution": "Mechanics, printed-card names, and official artwork mentions do not prove a direct scene depiction."
+    }
+  ],
+  "planes": [
+    {
+      "id": "plane:alara",
+      "name": "Alara",
+      "claim_edges": 1,
+      "distinct_claims": 1,
+      "claims": [
+        "UP001"
+      ],
+      "official_source_ids": [
+        "up_alara"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:amonkhet",
+      "name": "Amonkhet",
+      "claim_edges": 16,
+      "distinct_claims": 16,
+      "claims": [
+        "AER015",
+        "AKH001",
+        "AKH002",
+        "AKH003",
+        "AKH004",
+        "AKH007",
+        "AKH008",
+        "AKH012",
+        "AKH013",
+        "AKH017",
+        "AKH019",
+        "AKH030",
+        "AKH031",
+        "DF016",
+        "DF017",
+        "SSX013"
+      ],
+      "official_source_ids": [
+        "aer_renewal",
+        "akh_hand",
+        "akh_plane",
+        "akh_servants",
+        "akh_trust",
+        "akh_writing",
+        "dft_guide2",
+        "hou_devastation",
+        "hou_eternity",
+        "hou_favor",
+        "imp"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:arcavios",
+      "name": "Arcavios",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "EC006",
+        "SS023"
+      ],
+      "official_source_ids": [
+        "ecl_ep1",
+        "sos_ep5"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:argentum",
+      "name": "Argentum",
+      "claim_edges": 1,
+      "distinct_claims": 1,
+      "claims": [
+        "NP001"
+      ],
+      "official_source_ids": [
+        "np_intro"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:bablovia",
+      "name": "Bablovia",
+      "claim_edges": 1,
+      "distinct_claims": 1,
+      "claims": [
+        "SSX020"
+      ],
+      "official_source_ids": [
+        "wc"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:bloomburrow",
+      "name": "Bloomburrow",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "BL011",
+        "BL018"
+      ],
+      "official_source_ids": [
+        "blb_ep4",
+        "blb_ep5"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:dominaria",
+      "name": "Dominaria",
+      "claim_edges": 7,
+      "distinct_claims": 7,
+      "claims": [
+        "A004",
+        "C008",
+        "C011",
+        "C026",
+        "RTD008",
+        "UB011",
+        "UB027"
+      ],
+      "official_source_ids": [
+        "c_dominaria_plane",
+        "c_pwg_one",
+        "chronicle_perspectives",
+        "rtd_ep1",
+        "ub_jaya",
+        "ub_venser"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_DISPUTED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:duskmourn",
+      "name": "Duskmourn",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "DS002",
+        "DS101"
+      ],
+      "official_source_ids": [
+        "dsk_guide",
+        "dsks_one"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:eldraine",
+      "name": "Eldraine",
+      "claim_edges": 3,
+      "distinct_claims": 3,
+      "claims": [
+        "EL011",
+        "LC015",
+        "WE010"
+      ],
+      "official_source_ids": [
+        "eld_guide",
+        "lci_ep2",
+        "woe_ep5"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:fiora",
+      "name": "Fiora",
+      "claim_edges": 4,
+      "distinct_claims": 4,
+      "claims": [
+        "UB006",
+        "UB007",
+        "UP004",
+        "UP005"
+      ],
+      "official_source_ids": [
+        "ub_dack",
+        "ub_daretti",
+        "up_fiora"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:ikoria",
+      "name": "Ikoria",
+      "claim_edges": 4,
+      "distinct_claims": 4,
+      "claims": [
+        "IK001",
+        "IK002",
+        "MOM003",
+        "MS002"
+      ],
+      "official_source_ids": [
+        "iko_guide",
+        "mom_ep01",
+        "moms_ikoria"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:innistrad",
+      "name": "Innistrad",
+      "claim_edges": 8,
+      "distinct_claims": 8,
+      "claims": [
+        "IG003",
+        "IG004",
+        "MS004",
+        "MV011",
+        "RF017",
+        "SE028",
+        "UB023",
+        "UB024"
+      ],
+      "official_source_ids": [
+        "emn_emrakul_rises",
+        "ig_intro",
+        "ig_kes",
+        "moms_innistrad",
+        "rf_ep4",
+        "ub_sorin",
+        "ub_tibalt",
+        "vow_ep5"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:ixalan",
+      "name": "Ixalan",
+      "claim_edges": 8,
+      "distinct_claims": 8,
+      "claims": [
+        "LC012",
+        "MS003",
+        "UB010",
+        "XLN001",
+        "XLN002",
+        "XLN007",
+        "XLN012",
+        "XLN018"
+      ],
+      "official_source_ids": [
+        "lci_pawns",
+        "moms_ixalan",
+        "rix_arbiter",
+        "rix_glimpse",
+        "rix_who_tells",
+        "ub_huatli",
+        "xln_jace_alone",
+        "xln_plane",
+        "xln_question"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:kaladesh",
+      "name": "Kaladesh",
+      "claim_edges": 5,
+      "distinct_claims": 5,
+      "claims": [
+        "DF014",
+        "KLD002",
+        "KLD010",
+        "UP002",
+        "XLN013"
+      ],
+      "official_source_ids": [
+        "dft_guide1",
+        "dft_guide2",
+        "kld_guide",
+        "kld_torch",
+        "rix_wool",
+        "up_avishkar"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:kaldheim",
+      "name": "Kaldheim",
+      "claim_edges": 4,
+      "distinct_claims": 4,
+      "claims": [
+        "DS008",
+        "KH013",
+        "KH023",
+        "UB025"
+      ],
+      "official_source_ids": [
+        "dsk_ep1",
+        "khm_ep5",
+        "khm_legends",
+        "khm_wind",
+        "ub_tyvar"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:kamigawa",
+      "name": "Kamigawa",
+      "claim_edges": 3,
+      "distinct_claims": 3,
+      "claims": [
+        "MOM004",
+        "NEO009",
+        "UB013"
+      ],
+      "official_source_ids": [
+        "mom_ep01",
+        "neo_ep1",
+        "neo_guide",
+        "ub_kaito"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:lorwyn_shadowmoor",
+      "name": "Lorwyn-Shadowmoor",
+      "claim_edges": 3,
+      "distinct_claims": 3,
+      "claims": [
+        "EC005",
+        "EC016",
+        "UP014"
+      ],
+      "official_source_ids": [
+        "ecl_guide",
+        "ecl_legends",
+        "up_lorwyn"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:meditation_realm",
+      "name": "Meditation Realm",
+      "claim_edges": 3,
+      "distinct_claims": 3,
+      "claims": [
+        "A009",
+        "RF013",
+        "TD021"
+      ],
+      "official_source_ids": [
+        "lorwyn2",
+        "rf_guide",
+        "tdm7",
+        "tdm_e6"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:mirrodin",
+      "name": "Mirrodin / New Phyrexia",
+      "claim_edges": 9,
+      "distinct_claims": 9,
+      "claims": [
+        "C005",
+        "C007",
+        "NP001",
+        "NP002",
+        "ONE018",
+        "ONE019",
+        "UP016",
+        "UP024",
+        "WSM007"
+      ],
+      "official_source_ids": [
+        "c_karn_profile",
+        "c_pwg_one",
+        "km",
+        "np_intro",
+        "one_ep4",
+        "up_mirrodin",
+        "up_nph"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:muraganda",
+      "name": "Muraganda",
+      "claim_edges": 1,
+      "distinct_claims": 1,
+      "claims": [
+        "DF024"
+      ],
+      "official_source_ids": [
+        "dft_beast"
+      ],
+      "grades_present": [
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:new_capenna",
+      "name": "New Capenna",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "MOM007",
+        "MS008"
+      ],
+      "official_source_ids": [
+        "mom_ep01",
+        "mom_ep04",
+        "moms_capenna"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:new_phyrexia",
+      "name": "New Phyrexia",
+      "claim_edges": 4,
+      "distinct_claims": 4,
+      "claims": [
+        "MOM016",
+        "NP002",
+        "NP009",
+        "RTD021"
+      ],
+      "official_source_ids": [
+        "mom_ep08",
+        "np_intro",
+        "np_ortho",
+        "rtd_ep5",
+        "rtd_ep9"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_DISPUTED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:old_phyrexia",
+      "name": "Phyrexia",
+      "claim_edges": 7,
+      "distinct_claims": 7,
+      "claims": [
+        "B006",
+        "B013",
+        "C009",
+        "C010",
+        "C013",
+        "C025",
+        "WSM010"
+      ],
+      "official_source_ids": [
+        "bro_card_stories_1",
+        "bro_ep1",
+        "c_dominaria_plane",
+        "c_pwg_one",
+        "km",
+        "urza_profile"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED",
+        "OPEN_QUESTION"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:ravnica",
+      "name": "Ravnica",
+      "claim_edges": 11,
+      "distinct_claims": 11,
+      "claims": [
+        "DF014",
+        "DF015",
+        "DS106",
+        "SSX018",
+        "UB029",
+        "UP025",
+        "UP026",
+        "UP027",
+        "UP028",
+        "UP029",
+        "WR014"
+      ],
+      "official_source_ids": [
+        "dft_guide1",
+        "dft_guide2",
+        "dsks_six",
+        "nts",
+        "ub_vraska",
+        "up_ravnica",
+        "wr_operation"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:regatha",
+      "name": "Regatha",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "BZ024",
+        "KLD003"
+      ],
+      "official_source_ids": [
+        "bfz_promises_keep",
+        "kld_renegade_prime"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:serras_realm",
+      "name": "Serra's Realm",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "UB034",
+        "WSM011"
+      ],
+      "official_source_ids": [
+        "km",
+        "ub_serra"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:shandalar",
+      "name": "Shandalar",
+      "claim_edges": 5,
+      "distinct_claims": 5,
+      "claims": [
+        "M13009",
+        "S14017",
+        "S14019",
+        "UP030",
+        "UP031"
+      ],
+      "official_source_ids": [
+        "bb",
+        "up_shandalar",
+        "vd",
+        "xg"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:skalla",
+      "name": "Skalla",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "GR001",
+        "UB028"
+      ],
+      "official_source_ids": [
+        "gr_unb2",
+        "ub_vivien"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:tarkir",
+      "name": "Tarkir",
+      "claim_edges": 10,
+      "distinct_claims": 10,
+      "claims": [
+        "A010",
+        "A025",
+        "TD002",
+        "TD004",
+        "TD005",
+        "TD007",
+        "TD008",
+        "TKS010",
+        "UB015",
+        "UB016"
+      ],
+      "official_source_ids": [
+        "mad",
+        "nexus_design",
+        "tarkir_story_summary",
+        "tdm7",
+        "tdm_guide1",
+        "tdm_guide2",
+        "ub_narset",
+        "ub_sarkhan"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:theros",
+      "name": "Theros",
+      "claim_edges": 3,
+      "distinct_claims": 3,
+      "claims": [
+        "MOM006",
+        "UB004",
+        "UB032"
+      ],
+      "official_source_ids": [
+        "mom_ep01",
+        "ub_calix",
+        "ub_xenagos"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:thunder_junction",
+      "name": "Thunder Junction",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "OS005",
+        "OS006"
+      ],
+      "official_source_ids": [
+        "otjs_firstlook",
+        "otjs_outing"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:vryn",
+      "name": "Vryn",
+      "claim_edges": 2,
+      "distinct_claims": 2,
+      "claims": [
+        "OT012",
+        "RF010"
+      ],
+      "official_source_ids": [
+        "otj_epi2",
+        "rf_ep10"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED"
+      ],
+      "research_priority": "THIN_DIRECT_EVIDENCE",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    },
+    {
+      "id": "plane:zendikar",
+      "name": "Zendikar",
+      "claim_edges": 7,
+      "distinct_claims": 7,
+      "claims": [
+        "BZ107",
+        "MB002",
+        "MOM005",
+        "SSX003",
+        "TKS011",
+        "U004",
+        "UB014"
+      ],
+      "official_source_ids": [
+        "bz_home",
+        "dod",
+        "mb_worlds",
+        "mom_ep01",
+        "stir",
+        "stone_and_blood",
+        "ub_nahiri"
+      ],
+      "grades_present": [
+        "CANON_CONFIRMED",
+        "CANON_IMPLIED"
+      ],
+      "research_priority": "EXPAND_NARRATIVE_DEPTH",
+      "limitation": "Direct graph edges only; not the complete plane history or a canon completeness score."
+    }
+  ],
+  "next_research": [
+    "For no-direct-claim planes, locate official Wizards story/plane primers; only then add cited claims.",
+    "For thinly linked planes, build participant/conflict/event/aftermath dossiers with explicit uncertainty.",
+    "Place chronology edges only with verbatim primary-source orderings or printed in-world dates; do not infer from set release order.",
+    "Review three pilot decks with Cory before any owner-approval or certification flag changes."
+  ]
+}

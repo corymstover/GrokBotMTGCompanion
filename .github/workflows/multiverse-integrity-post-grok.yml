@@ -8,11 +8,15 @@ on:
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
+      - 'scripts/query_lore_chronology.py'
+      - 'scripts/build_plane_history_priorities.py'
       - 'data/multiverse_graph/**'
+      - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
       - 'tests/test_multiverse_progress_tracker.py'
+      - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
       - 'Progress Tracker.md'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
@@ -24,11 +28,15 @@ on:
       - 'scripts/audit_entity_structures.py'
       - 'scripts/audit_phase1b_snapshot_gates.py'
       - 'scripts/update_multiverse_progress_tracker.py'
+      - 'scripts/query_lore_chronology.py'
+      - 'scripts/build_plane_history_priorities.py'
       - 'data/multiverse_graph/**'
+      - 'data/lore_research/plane_history_priorities_2026-10-30.json'
       - 'data/multiverse_audits/**'
       - 'tests/test_mv_ask*.py'
       - 'tests/test_graph_integrity_post_grok.py'
       - 'tests/test_multiverse_progress_tracker.py'
+      - 'tests/test_phase5_chronology_coverage.py'
       - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
       - 'Progress Tracker.md'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
@@ -58,3 +66,9 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_multiverse_progress_tracker.py' -q
           python3 scripts/certification_dry_run.py --check
           python3 scripts/batch_recount.py
+      - name: Phase 2–6 history coverage and chronology proof gates
+        run: |
+          python3 scripts/query_lore_chronology.py --check
+          python3 scripts/build_plane_history_priorities.py --check
+          python3 -m unittest discover -s tests -p 'test_phase5_chronology_coverage.py' -q
+          python3 scripts/audit_lore_pilot.py

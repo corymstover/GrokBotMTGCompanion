@@ -1,9 +1,23 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.43
+**Version:** 2.44
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.44 Phase 2–8 research/navigation checkpoint (2026-10-30):**
+`scripts/query_lore_chronology.py` gives user-facing sourced BEFORE/AFTER/UNKNOWN
+comparisons from the *existing* official-story chronology (56 events, 177/3,074
+comparable pairs, 13 disconnected components). Proofs retain official source quotes,
+and the 2,897 unorderable pairs remain unknown, not inferred from publication dates.
+`scripts/build_plane_history_priorities.py` generates a source-conservative Phase 5
+coverage queue: 33 currently registered Plane nodes, all with at least one direct
+claim edge but **22 with fewer than five**; it is NOT an inventory of every plane or
+an assertion of exhaustively researched histories. The same report preserves all three
+Phase 6 pilot decks as **UNAPPROVED** with lore tier breakdowns. These scripts have
+dedicated CI and regression tests; further primary-source chronology, participant and
+mechanical research remains open. See
+`research/PHASE5_CHRONOLOGY_AND_PLANE_COVERAGE_2026-10-30.md`.
 
 **v2.43 post-overnight integrity checkpoint (2026-10-30):** The Phase 7 Q&A layer now marks
 questions about *current* leaders as QUALIFIED unless independently established in canon;
