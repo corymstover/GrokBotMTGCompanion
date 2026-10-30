@@ -68,6 +68,10 @@ STORY_SETS = {
     "pack_p5_throne_of_eldraine_2026-10-30.json": ["eld"],
     "pack_p5_secrets_of_strixhaven_2026-10-30.json": ["sos"],
     "pack_p5_shadows_eldritch_moon_2026-10-30.json": ["soi", "emn"],
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json": ["bfz", "ogw"],
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json": ["tdm"],
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json": ["ecl"],
+    "pack_p5_brothers_war_2026-10-30.json": ["bro"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

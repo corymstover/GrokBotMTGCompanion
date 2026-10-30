@@ -1,0 +1,104 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_brothers_war_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "BRO",
+ "claims": 9,
+ "entities": 14,
+ "sources": 6,
+ "grades": {
+  "CANON_CONFIRMED": 8,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 14,
+ "quotes_verbatim": 14,
+ "quote_rows": [
+  {
+   "claim": "BR001",
+   "source_id": "bro5_ep2",
+   "quote_sha256": "e65617ab5dfd604b8e2d90f63d82be5b9cd09a540142571bb72befcfd45867a1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR001",
+   "source_id": "bro5_ep2",
+   "quote_sha256": "58a78c0296a897ef89d2c1a3acbd40a6191e31a0a5f873aa738e54abaabc03a9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR002",
+   "source_id": "bro5_ep2",
+   "quote_sha256": "18b2b1389d45af75ddc43827aae9323cb00619920a9ecea8652379a6b99db500",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR003",
+   "source_id": "bro5_ep3",
+   "quote_sha256": "95a7eb4084aff1686d4a304dc5ec45a088a0879d1544a80821720aeb47dae828",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR003",
+   "source_id": "bro5_ep3",
+   "quote_sha256": "d89c11c68a8c5dc6e28a17341e0c79566260747d4aa3f5b73a1cb72551e23fa0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR004",
+   "source_id": "bro5_ch2",
+   "quote_sha256": "4bbf94bb473432a6ec696a8ea8cac7516a0156bdde2b36b905a20c186c73df02",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR004",
+   "source_id": "bro5_ch2",
+   "quote_sha256": "39d5382a025e58c7b9916d4eabc899319399b277f5ec0312f39c5b0f7bc569a8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR005",
+   "source_id": "bro5_ch2",
+   "quote_sha256": "f57ed0617e4eea927a788e28f9704ee62f2773ebfb5b9f60ab9bbc25f6ba7ebc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR006",
+   "source_id": "bro5_ch3",
+   "quote_sha256": "9c70d7ee16ef1c569c0e35ce92d69605d1de9670730e113c0d766769e5746152",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR007",
+   "source_id": "bro5_ch3",
+   "quote_sha256": "80cb7c0b8f314866bafcb9e33c2852e4676e993621b28a045eb6edd3ebaff196",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR007",
+   "source_id": "bro5_ch3",
+   "quote_sha256": "be1b93b132f1b4dabd8e5216e70e92a08a93575fa1f767df747b921b7c630d21",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR008",
+   "source_id": "bro5_ch4",
+   "quote_sha256": "71467020f811ed207198c2e98386c0f8dbf605fd18f4822cb56ec3337342ad78",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR008",
+   "source_id": "bro5_ch4",
+   "quote_sha256": "36c37dae04bc4e889406f3f68f8dd0107d22eca58243b9c91af4a070d92b55d3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "BR009",
+   "source_id": "bro5_ch5",
+   "quote_sha256": "13f4a5478e6f46feacfecfd9e7044ff1859148fad2aea5db39231cca79a51874",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "1644a307e559bbcb566e712e45c585c1663c1e3d405417327586dca41a6ecf20"
+}

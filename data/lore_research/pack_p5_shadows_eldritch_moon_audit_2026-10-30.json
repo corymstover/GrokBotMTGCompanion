@@ -3,14 +3,15 @@
  "pack": "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
  "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "SOI/EMN",
- "claims": 9,
- "entities": 12,
- "sources": 4,
+ "claims": 36,
+ "entities": 39,
+ "sources": 21,
  "grades": {
-  "CANON_CONFIRMED": 9
+  "CANON_CONFIRMED": 35,
+  "CANON_IMPLIED": 1
  },
- "quotes": 14,
- "quotes_verbatim": 14,
+ "quotes": 45,
+ "quotes_verbatim": 45,
  "quote_rows": [
   {
    "claim": "SE001",
@@ -95,9 +96,195 @@
    "source_id": "emn_promised_end",
    "quote_sha256": "13a96e2f0812936a94d55b192d863f643ca94ad5d6f0aecd68d917b914d1e4ce",
    "status": "VERBATIM"
+  },
+  {
+   "claim": "SE010",
+   "source_id": "soi_unwelcome",
+   "quote_sha256": "9d36e1a2f41e25bba782a868747a9dd12206054e76c1fa9a8b264b0ec263e271",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE011",
+   "source_id": "soi_markov_manor",
+   "quote_sha256": "4b1096c5a11df61f2da3a47bf239024ab8cfb1bf4db4d9a05eb2c0c05c521e58",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE012",
+   "source_id": "soi_markov_manor",
+   "quote_sha256": "3689f901577473baa4e9aa7cae9c3f8b1ed4d83d476dcd596e8012628733ae9a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE013",
+   "source_id": "soi_drownyard",
+   "quote_sha256": "cede42cee972b295db8470ea0d7786e061c17562c9033e4d3dcdd082333c570f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE014",
+   "source_id": "soi_stories_endings",
+   "quote_sha256": "7dc0ea9908276a5d583af128c7ef4ae627dcc2fc0eeb63af4291635981716e9e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE015",
+   "source_id": "soi_promises",
+   "quote_sha256": "286c024b705d3ac443783a7a5ff0697922dd9cf779c61d3e41e9a18cb0e9b03e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE015",
+   "source_id": "soi_promises",
+   "quote_sha256": "41ea5b6faf08448f29f901d36c21f70291237c4f181311aa1ad5e1d25f75494d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE016",
+   "source_id": "soi_promises",
+   "quote_sha256": "c8c05bcdfbbb5acf96b45ddaa98924c12e1e470e9e71e1571bcc82e040a972ca",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE017",
+   "source_id": "soi_indignation",
+   "quote_sha256": "ae239fdde5118f3fa00cd3c75f5046698c7d0ace2b49cd0e62e104556d2ba02b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE018",
+   "source_id": "soi_games",
+   "quote_sha256": "066bc8ff232eb61110bf4b40ff6cb1a6c38e010bcb3d26c22378e170fff7cdb6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE019",
+   "source_id": "soi_games",
+   "quote_sha256": "a6fc300cfed8062b33cabd54c801c3bd007f47d63e6252892d5032ddccedfae5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE020",
+   "source_id": "soi_games",
+   "quote_sha256": "a0dadce9be64364e88d3b0b561a50c5412732f973f0091d3eef6eefe25ebf268",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE021",
+   "source_id": "soi_lunarch",
+   "quote_sha256": "0314058537be21a8408be1bada9c8d8d7147350950d6e28e10e86247bbad1310",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE022",
+   "source_id": "soi_lunarch",
+   "quote_sha256": "6ff7bc37914a4024624fc4725f8adf82e25e57fd96250ab1d7e57c33338f145e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE023",
+   "source_id": "soi_prodigal",
+   "quote_sha256": "386895a93c01bba424eddb6e10bd20f533d86575fd32d6d70f5520b39e75fb6d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE024",
+   "source_id": "emn_goldnight",
+   "quote_sha256": "17dc538d7785d40114ca1905a73599d8252f89fae1132bddde9df6f6956df851",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE024",
+   "source_id": "emn_goldnight",
+   "quote_sha256": "623718c64e929440681e145d2a9d782a249c932267b98d4e9dcc62bdb6711205",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE025",
+   "source_id": "emn_goldnight",
+   "quote_sha256": "87ca69bb03138bbfade5a6cb8a648554b3aad9c94a77e37daef615a146f6102c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE026",
+   "source_id": "emn_stone_blood",
+   "quote_sha256": "7682ae69733a284579c9ce3ae5e2516fb273543f0c916afebeb59965671c442e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE026",
+   "source_id": "emn_vengeance",
+   "quote_sha256": "a792c6e9c64781b47ba9524369cb94d9aab48ba9dfb46b4fecf174a7a132704e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE027",
+   "source_id": "emn_stone_blood",
+   "quote_sha256": "67d46640754990cd09bc9c8257f1b71eaebd957f57596c1f9bc52c04489ba6c5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE028",
+   "source_id": "emn_emrakul_rises",
+   "quote_sha256": "6c50e52f9e0bcb5c4d081614a9b45e9bfc3b5cfd12499357749fd64970bd8dd5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE028",
+   "source_id": "emn_emrakul_rises",
+   "quote_sha256": "71e325910a3f3f269ca6bd38e195e34d7bb5330a91d807815b14d0bc9c5c089e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE029",
+   "source_id": "emn_saint_traft",
+   "quote_sha256": "8e8a183f2a10394213cbb74aee4bd0c4c9db30152c83470da41f372560be48ae",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE030",
+   "source_id": "emn_saint_traft",
+   "quote_sha256": "8e8a183f2a10394213cbb74aee4bd0c4c9db30152c83470da41f372560be48ae",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE031",
+   "source_id": "emn_saint_traft",
+   "quote_sha256": "f232969edd0c70a8baec2f2d4ae0c2f49f2be3c9632da624cb1f53a9a6889bf1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE032",
+   "source_id": "emn_battle_thraben",
+   "quote_sha256": "547d9b167845b56e4232c9c4211c0fa05389094486c4e18fe9ffedd2f7729e4e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE033",
+   "source_id": "soi_under_silver_moon",
+   "quote_sha256": "1df9c19f4a6eefabf00715299b632fc2622475a48f6489b2f42b2b3c0af43b61",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE034",
+   "source_id": "soi_under_silver_moon",
+   "quote_sha256": "1df9c19f4a6eefabf00715299b632fc2622475a48f6489b2f42b2b3c0af43b61",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE035",
+   "source_id": "soi_gaze",
+   "quote_sha256": "87085b3f29bcad92eef697ad5018c346881d9462dd370730cdd587cb2afaa23d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SE036",
+   "source_id": "soi_sacrifice",
+   "quote_sha256": "c5cf24e5e78a54ff08dde6292c7f359bcbe9d9e67fa8f96b9109bf3662a97509",
+   "status": "VERBATIM"
   }
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "ca0d7a06e86d2f061baf0dc66fa347b935d1c3e38afe8196e0380f4a0047966a"
+ "content_sha256": "e1a4313120d4df4aecb69333c5fe1d8abfefd1294d2763700394d364754fe5c7"
 }

@@ -41,6 +41,55 @@
    "kind": "official_story_episode",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2026-09-10"
+  },
+  "rf_ep2": {
+   "title": "Reality Fracture | Episode 2: Purge Yourself of Doubt",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-01"
+  },
+  "rf_ep3": {
+   "title": "Reality Fracture | Episode 3: I Can Be Both",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-02"
+  },
+  "rf_ep4": {
+   "title": "Reality Fracture | Episode 4: Oh, Sweetie",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-03"
+  },
+  "rf_ep5": {
+   "title": "Reality Fracture | Episode 5: I Don't Need to Convince You",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-04"
+  },
+  "rf_ep6": {
+   "title": "Reality Fracture | Episode 6: The Man Who Kills His Own Ambition",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-07"
+  },
+  "rf_ep7": {
+   "title": "Reality Fracture | Episode 7: Pick Up the Pieces",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-08"
+  },
+  "rf_ep8": {
+   "title": "Reality Fracture | Episode 8: Keep Your Lids Open",
+   "url": "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2026-09-09"
   }
  },
  "entities": [
@@ -103,6 +152,26 @@
    "id": "vryn",
    "type": "Plane",
    "name": "Vryn"
+  },
+  {
+   "id": "ranna_beleren",
+   "type": "Character",
+   "name": "Ranna Beleren"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "the_detective",
+   "type": "Character",
+   "name": "The Detective (aspect of Jace)"
+  },
+  {
+   "id": "alhammarret",
+   "type": "Character",
+   "name": "Alhammarret"
   }
  ],
  "claims": [
@@ -406,13 +475,198 @@
    ],
    "summary": "The Planeswalker's Guide's in-universe narrator says Jace was unmade in the Meditation Realm and the new reality was built from there.",
    "limitation": "The guide is written in an in-universe first-person plural voice, so its account is point-of-view."
+  },
+  {
+   "id": "RF014",
+   "subject": "the_theorist",
+   "predicate": "controls",
+   "object": "echoverse",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep2",
+     "quote": "With his total control over the Echoverse, the Theorist opens an Omenpath in the center of the sanctum."
+    },
+    {
+     "source_id": "rf_ep2",
+     "quote": "The Theorist believes we need to overwrite the existing Multiverse to make it permanent."
+    }
+   ],
+   "summary": "The Theorist has total control over the Echoverse and believes it must overwrite the existing Multiverse to become permanent.",
+   "limitation": "The second line is reported by another character, not said by the Theorist."
+  },
+  {
+   "id": "RF015",
+   "subject": "vraska",
+   "predicate": "lived_with",
+   "object": "ranna_beleren",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep3",
+     "quote": "Ranna Beleren purged it of his belongings long ago, and the two of them settled into a routine of mutual effort to keep the other functioning—a duality of loss, mother and beloved."
+    },
+    {
+     "source_id": "rf_ep3",
+     "quote": "She has come to know Vryn almost as well as he did."
+    }
+   ],
+   "summary": "After Jace's death, Vraska lives on Vryn with Jace's mother, Ranna Beleren, in his old flat.",
+   "limitation": ""
+  },
+  {
+   "id": "RF016",
+   "subject": "ranna_beleren",
+   "predicate": "mother_of",
+   "object": "jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep3",
+    "rf_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep3",
+     "quote": "Ranna Beleren purged it of his belongings long ago, and the two of them settled into a routine of mutual effort to keep the other functioning—a duality of loss, mother and beloved."
+    },
+    {
+     "source_id": "rf_ep7",
+     "quote": "\"You know I stayed with your mother after you died?"
+    }
+   ],
+   "summary": "Ranna Beleren is Jace's mother.",
+   "limitation": "Motherhood is given by 'mother and beloved' and Vraska's line to the Detective, not by a direct statement."
+  },
+  {
+   "id": "RF017",
+   "subject": "tam",
+   "predicate": "surveyed",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep4",
+     "quote": "Tam sets up her tools on an escarpment overlooking the starlit moorlands of Innistrad."
+    },
+    {
+     "source_id": "rf_ep4",
+     "quote": "Tam's results are accurate, her methodology sound, and she spends an entire evening standing on a slab of granite with her instruments pointed toward the horizon."
+    }
+   ],
+   "summary": "Tam measures the dimensions of the (Echoverse) plane of Innistrad.",
+   "limitation": "Whether this Innistrad is the original plane or its Echoverse counterpart is not graded."
+  },
+  {
+   "id": "RF018",
+   "subject": "vraska",
+   "predicate": "confronted",
+   "object": "the_theorist",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep5",
+     "quote": "He did not know Vraska would be here."
+    },
+    {
+     "source_id": "rf_ep5",
+     "quote": "There he was, building up the courage to march downstairs and kill the oracle with purpose, and of course she shows up the second he's about to work up the nerve."
+    }
+   ],
+   "summary": "Vraska (with Ajani) arrives at the Theorist's sanctum as he resolves to kill the oracle.",
+   "limitation": "The episode is told in repeated 'attempts'; the outcome of each is not graded."
+  },
+  {
+   "id": "RF019",
+   "subject": "tam",
+   "predicate": "confronted",
+   "object": "the_theorist",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep6",
+     "quote": "When she enters, she sees the Theorist cracking his neck, then pausing in surprise."
+    },
+    {
+     "source_id": "rf_ep6",
+     "quote": "Tam puts the journal of notes and dimensions on his workbench."
+    }
+   ],
+   "summary": "Tam climbs to the Theorist's sanctum and presents her measurements to him.",
+   "limitation": ""
+  },
+  {
+   "id": "RF020",
+   "subject": "the_detective",
+   "predicate": "opposed",
+   "object": "the_theorist",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep7"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep7",
+     "quote": "The Theorist must be stopped, he says in her mind."
+    },
+    {
+     "source_id": "rf_ep7",
+     "quote": "\"Because the spell that is about to annihilate an entire Multiverse is contingent on our body being alive,\" says the Detective."
+    }
+   ],
+   "summary": "The Detective, another aspect sharing Jace's body, says the Theorist must be stopped and their shared body must die to halt the merging.",
+   "limitation": "That the Detective is an aspect of Jace is inferred from 'our body'."
+  },
+  {
+   "id": "RF021",
+   "subject": "jace_beleren",
+   "predicate": "served",
+   "object": "alhammarret",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "echoverse_rf_2026",
+   "source_ids": [
+    "rf_ep8"
+   ],
+   "evidence": [
+    {
+     "source_id": "rf_ep8",
+     "quote": "Alhammarret's instruction was clear that night, and even now in this memory trap, he marvels at his efficiency."
+    },
+    {
+     "source_id": "rf_ep8",
+     "quote": "The spy, the assassin, though Jace would never voice that."
+    }
+   ],
+   "summary": "In a memory trap, Vraska relives Jace's youthful work as the sphinx Alhammarret's spy and assassin on Vryn.",
+   "limitation": "The scene is a memory inside a mental trap, told from shifting points of view."
   }
  ],
- "pages_registered": 5,
- "pages_cited": 5,
+ "pages_registered": 12,
+ "pages_cited": 12,
  "uncited_registered_pages": [],
  "remaining": [
-  "Episodes 2-8 (the Lorwyn Five, Ajani Unrelenting, Strixhaven/Hexhaven conflicts) are not modelled",
+  "Every RF page is cited; episodes 2-8 have one or two claims each, so the Lorwyn Five, Ajani Unrelenting and the Strixhaven/Hexhaven conflicts are only lightly modelled",
   "The Legends page's many Echoverse counterparts are only partly used",
   "Jace's final telepathic messages to Chandra, Ajani and Garruk are not graded"
  ]

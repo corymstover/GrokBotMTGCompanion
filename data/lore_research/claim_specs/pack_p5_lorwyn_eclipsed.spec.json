@@ -1,0 +1,454 @@
+{
+ "pack_id": "pack_p5_lorwyn_eclipsed",
+ "arc": "ECL",
+ "event_stage": "lorwyn_eclipsed_2025",
+ "scope": "Targeted Phase 5 extraction from the official Lorwyn Eclipsed Magic Story (2025-09-26 to 2026-01-13): the Planeswalker's Guide, the seven main episodes, three side stories and The Legends of Lorwyn Eclipsed. One or two claims per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "ecl_guide": "planeswalkers-guide-to-lorwyn-eclipsed",
+  "ecl_ep1": "lorwyn-eclipsed-episode-1-out-of-this-wood",
+  "ecl_ep2": "lorwyn-eclipsed-episode-2-shake-off-slumber",
+  "ecl_ep3": "lorwyn-eclipsed-episode-3-aweary-of-this-moon",
+  "ecl_ep4": "lorwyn-eclipsed-episode-4-fetch-me-that-flower",
+  "ecl_ep5": "lorwyn-eclipsed-episode-5-if-we-shadows",
+  "ecl_ep6": "lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
+  "ecl_ep7": "lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
+  "ecl_thieving": "lorwyn-eclipsed-much-ado-about-thieving",
+  "ecl_dreams": "lorwyn-eclipsed-three-dreams-three-truths",
+  "ecl_star": "lorwyn-eclipsed-star-crossed",
+  "ecl_legends": "the-legends-of-lorwyn-eclipsed"
+ },
+ "entities": [
+  {
+   "id": "oona",
+   "type": "Character",
+   "name": "Oona"
+  },
+  {
+   "id": "maralen",
+   "type": "Character",
+   "name": "Maralen"
+  },
+  {
+   "id": "rhys",
+   "type": "Character",
+   "name": "Rhys"
+  },
+  {
+   "id": "brigid",
+   "type": "Character",
+   "name": "Brigid"
+  },
+  {
+   "id": "ashling",
+   "type": "Character",
+   "name": "Ashling"
+  },
+  {
+   "id": "eirdu",
+   "type": "Character",
+   "name": "Eirdu"
+  },
+  {
+   "id": "isilu",
+   "type": "Character",
+   "name": "Isilu"
+  },
+  {
+   "id": "lorwyn_shadowmoor",
+   "type": "Plane",
+   "name": "Lorwyn-Shadowmoor"
+  },
+  {
+   "id": "lorwyn_aspect",
+   "type": "Place",
+   "name": "Lorwyn (day aspect)"
+  },
+  {
+   "id": "shadowmoor_aspect",
+   "type": "Place",
+   "name": "Shadowmoor (night aspect)"
+  },
+  {
+   "id": "eclipsed_realms",
+   "type": "Place",
+   "name": "The eclipsed realms"
+  },
+  {
+   "id": "harriers_wood",
+   "type": "Place",
+   "name": "The Harrier's Wood"
+  },
+  {
+   "id": "arcavios",
+   "type": "Plane",
+   "name": "Arcavios"
+  },
+  {
+   "id": "dina",
+   "type": "Character",
+   "name": "Dina"
+  },
+  {
+   "id": "kirol",
+   "type": "Character",
+   "name": "Kirol"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani"
+  },
+  {
+   "id": "lluwen",
+   "type": "Character",
+   "name": "Lluwen"
+  },
+  {
+   "id": "tam",
+   "type": "Character",
+   "name": "Tam"
+  },
+  {
+   "id": "auntie_grub",
+   "type": "Character",
+   "name": "Auntie Grub"
+  },
+  {
+   "id": "boggarts",
+   "type": "Faction",
+   "name": "Boggarts"
+  },
+  {
+   "id": "kellan",
+   "type": "Character",
+   "name": "Kellan"
+  },
+  {
+   "id": "amalia",
+   "type": "Character",
+   "name": "Amalia"
+  },
+  {
+   "id": "cerys",
+   "type": "Character",
+   "name": "Cerys"
+  },
+  {
+   "id": "gethin",
+   "type": "Character",
+   "name": "Gethin"
+  },
+  {
+   "id": "goldmeadow",
+   "type": "Place",
+   "name": "Goldmeadow"
+  }
+ ],
+ "claims": [
+  {
+   "id": "EC001",
+   "subject": "maralen",
+   "predicate": "defeated",
+   "object": "oona",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_guide",
+     "quote": "Once the Great Aurora occurred and transformed the plane into Shadowmoor, Oona was defeated by a coalition consisting of Maralen, an elf named Rhys, a kithkin named Brigid, a merrow named Sygg, a flamekin named Ashling, and a treefolk sapling named Colfenor."
+    }
+   ],
+   "summary": "After the Great Aurora, Oona was defeated by a coalition of Maralen, Rhys, Brigid, Sygg, Ashling and Colfenor."
+  },
+  {
+   "id": "EC002",
+   "subject": "rhys",
+   "predicate": "defeated",
+   "object": "oona",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_guide",
+     "quote": "Once the Great Aurora occurred and transformed the plane into Shadowmoor, Oona was defeated by a coalition consisting of Maralen, an elf named Rhys, a kithkin named Brigid, a merrow named Sygg, a flamekin named Ashling, and a treefolk sapling named Colfenor."
+    }
+   ],
+   "summary": "Rhys was part of the coalition that defeated Oona."
+  },
+  {
+   "id": "EC003",
+   "subject": "eirdu",
+   "predicate": "embodies",
+   "object": "lorwyn_aspect",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_guide",
+     "quote": "Eirdu Art by: Lucas Graciano Eirdu is the living embodiment of Lorwyn and a symbol of the sun."
+    }
+   ],
+   "summary": "Eirdu is the living embodiment of Lorwyn and a symbol of the sun."
+  },
+  {
+   "id": "EC004",
+   "subject": "isilu",
+   "predicate": "embodies",
+   "object": "shadowmoor_aspect",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_guide",
+     "quote": "Isilu Art by: Lucas Graciano Isilu is the living embodiment of Shadowmoor and a symbol of the moon."
+    }
+   ],
+   "summary": "Isilu is the living embodiment of Shadowmoor and a symbol of the moon."
+  },
+  {
+   "id": "EC005",
+   "subject": "eclipsed_realms",
+   "predicate": "located_on",
+   "object": "lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_guide",
+     "quote": "Where the boundaries of Lorwyn and Shadowmoor grind against one another, pockets of new environments emerge."
+    },
+    {
+     "page": "ecl_guide",
+     "quote": "These pockets are known as eclipsed realms and represent a third state of neither light nor shadow that the plane can take."
+    }
+   ],
+   "summary": "Eclipsed realms are pockets of a third state, neither light nor shadow, where Lorwyn and Shadowmoor meet."
+  },
+  {
+   "id": "EC006",
+   "subject": "harriers_wood",
+   "predicate": "located_on",
+   "object": "arcavios",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ecl_ep1",
+     "quote": "Because the Harrier's Wood is an hour's walk from campus, it's far enough from the ambient magic of places like Sedgemoor or the Furygale that the flora here is considered magically neutral."
+    },
+    {
+     "page": "ecl_ep1",
+     "quote": "\"He means 'little brown bird,'\" said a new voice, calm, female, and precise in the way that signaled \"academic\" to anyone who'd spent much time in the halls of Strixhaven."
+    }
+   ],
+   "summary": "Dina leads Strixhaven students on a sample-collecting trip to the Harrier's Wood, an hour's walk from campus.",
+   "limitation": "Location on Arcavios is inferred from the campus and Strixhaven references."
+  },
+  {
+   "id": "EC007",
+   "subject": "kirol",
+   "predicate": "travelled_to",
+   "object": "lorwyn_aspect",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ecl_ep2",
+     "quote": "We slipped and fell, and we wound up in your meadow."
+    },
+    {
+     "page": "ecl_ep2",
+     "quote": "People tumble down tunnels and fetch up here in Lorwyn, if they're lucky, or the other side of the division, in Shadowmoor, if they're not.\""
+    }
+   ],
+   "summary": "The Strixhaven students (Kirol, Abigale, Tam, Sanar) fall through a tunnel into Lorwyn.",
+   "limitation": "The quoted 'we' is one of the students; Kirol's presence is shown elsewhere in the episode."
+  },
+  {
+   "id": "EC008",
+   "subject": "liliana_vess",
+   "predicate": "searched",
+   "object": "harriers_wood",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_ep3",
+     "quote": "Then they reached the wood, and she stepped aside to allow Liliana and Ajani to search, and some of her worries lifted."
+    },
+    {
+     "page": "ecl_ep3",
+     "quote": "She tried to hold tight to that thought as Liliana stepped into the wood and raised her hands, calling a black fog from the ground."
+    }
+   ],
+   "summary": "Strixhaven professors Liliana and Ajani search the Harrier's Wood for the missing students."
+  },
+  {
+   "id": "EC009",
+   "subject": "lluwen",
+   "predicate": "captured",
+   "object": "kirol",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_ep4",
+     "quote": "Now, they were alone with a strange, hooved elf who seemed to think they had valuable information that someone called the \"high perfect\" would want to hear."
+    },
+    {
+     "page": "ecl_ep4",
+     "quote": "Lluwen prodded them with the tip of his spear again."
+    }
+   ],
+   "summary": "The elf Lluwen takes Kirol captive, believing they have information for the 'high perfect'."
+  },
+  {
+   "id": "EC010",
+   "subject": "maralen",
+   "predicate": "aided",
+   "object": "tam",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_ep5",
+     "quote": "Following Maralen, Sanar and Tam ran to the edge of the palace grounds, where a potentially deadly fall to the ground awaited them."
+    },
+    {
+     "page": "ecl_ep5",
+     "quote": "\"Well, I can't call a faerie swarm to help us, or Rhys will follow them!\" snapped Maralen."
+    }
+   ],
+   "summary": "Maralen leads Sanar and Tam in an escape while avoiding Rhys's pursuit."
+  },
+  {
+   "id": "EC011",
+   "subject": "ashling",
+   "predicate": "confronted",
+   "object": "isilu",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_ep6",
+     "quote": "Ashling stepped in front of the two students, blue fire blazing skyward, and looked gravely up at Isilu."
+    }
+   ],
+   "summary": "Ashling places herself between the students and the advancing Isilu."
+  },
+  {
+   "id": "EC012",
+   "subject": "rhys",
+   "predicate": "tended",
+   "object": "maralen",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_ep7",
+     "quote": "On the other side of Isilu, Rhys looked up from where he knelt beside the unmoving form of Maralen, whose breath had grown ever shallower and weaker as the minutes slipped away from her."
+    }
+   ],
+   "summary": "Rhys kneels beside the dying Maralen after the battle with Isilu."
+  },
+  {
+   "id": "EC013",
+   "subject": "auntie_grub",
+   "predicate": "member_of",
+   "object": "boggarts",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_thieving",
+     "quote": "Have a seat and listen to your Auntie Grub impart some boggart wisdom."
+    },
+    {
+     "page": "ecl_thieving",
+     "quote": "Today's tale is the story of four enterprising boggarts and how they raided a giant's lair—Nitwik, come down from there!"
+    }
+   ],
+   "summary": "Auntie Grub, a boggart, tells young boggarts the tale of four boggarts who raided a giant's lair."
+  },
+  {
+   "id": "EC014",
+   "subject": "kellan",
+   "predicate": "partner_of",
+   "object": "amalia",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "ecl_dreams",
+     "quote": "Amalia sets her survey equipment down on the counter of his small, hard-won cabin."
+    },
+    {
+     "page": "ecl_dreams",
+     "quote": "\"They're from a place called Lorwyn,\" he says."
+    }
+   ],
+   "summary": "Kellan shares things from Lorwyn with Amalia in his cabin.",
+   "limitation": "The relationship is shown through affectionate scenes, not stated; the story is told in dream-like sections."
+  },
+  {
+   "id": "EC015",
+   "subject": "cerys",
+   "predicate": "niece_of",
+   "object": "gethin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_star",
+     "quote": "Her Uncle Gethin's collection had once been the envy of his peers, but Cerys doubted that even the boggarts would raid what was left behind."
+    },
+    {
+     "page": "ecl_star",
+     "quote": "Just a few sentences scrawled with a tired hand, willing the last of his belongings to Cerys—the only blood relative he had left."
+    }
+   ],
+   "summary": "Cerys inherits the Shadowmoor house and belongings of her late uncle Gethin."
+  },
+  {
+   "id": "EC016",
+   "subject": "maralen",
+   "predicate": "steward_of",
+   "object": "lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_legends",
+     "quote": "Originally an avatar of Oona, Maralen is now the steward of Lorwyn-Shadowmoor alongside Eirdu and Isilu, communicating the peoples' wishes and secretly guiding the plane through a new age from her throne in Glen Elendra."
+    }
+   ],
+   "summary": "Maralen, originally an avatar of Oona, is steward of Lorwyn-Shadowmoor alongside Eirdu and Isilu."
+  },
+  {
+   "id": "EC017",
+   "subject": "rhys",
+   "predicate": "bound_by_pact_with",
+   "object": "maralen",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_legends",
+     "quote": "A member of the group that defeated Oona nearly forty years ago, Rhys has been kept alive via a magical pact with Maralen."
+    },
+    {
+     "page": "ecl_legends",
+     "quote": "Fearing what might happen once her power fully blossomed, she granted Rhys immortality on the condition that he must poison her should any hint arise that Oona's power is corrupting her."
+    }
+   ],
+   "summary": "Maralen granted Rhys immortality on condition that he poison her if Oona's power corrupts her."
+  },
+  {
+   "id": "EC018",
+   "subject": "brigid",
+   "predicate": "lives_in",
+   "object": "goldmeadow",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "ecl_legends",
+     "quote": "A principled member of the group responsible for Oona's downfall, Brigid now lives a simple life in Lorwyn training the city watch in Goldmeadow."
+    }
+   ],
+   "summary": "Brigid now trains the city watch in Goldmeadow."
+  }
+ ],
+ "remaining": [
+  "Every ECL page is cited with one to three claims; the episode plot (the high perfect, Isilu's attack, Eirdu's return, Maralen's fate) is only lightly modelled",
+  "Sygg, Colfenor, Sanar and the boggart heist characters are not yet entities",
+  "The 'high perfect' is not identified here"
+ ]
+}

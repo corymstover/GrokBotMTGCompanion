@@ -35,18 +35,22 @@
    "data/lore_research/pack_p5_mom_aftermath_2026-10-30.json",
    "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
    "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
-   "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+   "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "data/lore_research/pack_p5_brothers_war_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 195,
+  "cited_pages": 295,
   "arcs_not_started": 0,
-  "arcs_partial": 26,
-  "arcs_all_cited": 7,
-  "claims": 501,
+  "arcs_partial": 17,
+  "arcs_all_cited": 16,
+  "claims": 650,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -61,12 +65,12 @@
   "pack_c4_march_of_the_machine_2026-10-30.json": 21,
   "pack_p5_kaladesh_aether_revolt_2026-10-30.json": 25,
   "pack_p5_ixalan_rivals_2026-10-30.json": 16,
-  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 17,
+  "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
-  "pack_p5_edge_of_eternities_2026-10-30.json": 17,
-  "pack_p5_reality_fracture_2026-10-30.json": 13,
+  "pack_p5_edge_of_eternities_2026-10-30.json": 30,
+  "pack_p5_reality_fracture_2026-10-30.json": 21,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14,
   "pack_p5_bloomburrow_2026-10-30.json": 12,
@@ -81,62 +85,40 @@
   "pack_p5_theros_ths_2026-10-30.json": 20,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
   "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
-  "pack_p5_secrets_of_strixhaven_2026-10-30.json": 17,
-  "pack_p5_shadows_eldritch_moon_2026-10-30.json": 9
+  "pack_p5_secrets_of_strixhaven_2026-10-30.json": 29,
+  "pack_p5_shadows_eldritch_moon_2026-10-30.json": 36,
+  "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26,
+  "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22,
+  "pack_p5_lorwyn_eclipsed_2026-10-30.json": 18,
+  "pack_p5_brothers_war_2026-10-30.json": 9
  },
  "arcs": [
   {
    "arc": "AKH/HOU",
    "pages": 16,
-   "cited_pages": 7,
+   "cited_pages": 16,
    "kinds": {
     "story": 16
    },
    "citing_packs": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03",
-    "https://magic.wizards.com/en/news/magic-story/endure-2017-07-19",
-    "https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21",
-    "https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28",
-    "https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07",
-    "https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17",
-    "https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10",
-    "https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12",
-    "https://magic.wizards.com/en/story/amonkhet-plane"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "BFZ/OGW",
    "pages": 19,
-   "cited_pages": 3,
+   "cited_pages": 19,
    "kinds": {
     "story": 19
    },
    "citing_packs": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/any-cost-2015-11-25",
-    "https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23",
-    "https://magic.wizards.com/en/news/magic-story/believers-pilgrimage-2015-09-02",
-    "https://magic.wizards.com/en/news/magic-story/beneath-surface-2016-01-27",
-    "https://magic.wizards.com/en/news/magic-story/blight-we-were-born-2016-01-13",
-    "https://magic.wizards.com/en/news/magic-story/family-values-2015-11-11",
-    "https://magic.wizards.com/en/news/magic-story/flames-2016-01-20",
-    "https://magic.wizards.com/en/news/magic-story/hedron-alignment-2015-11-18",
-    "https://magic.wizards.com/en/news/magic-story/liberation-sea-gate-2015-10-28",
-    "https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03",
-    "https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02",
-    "https://magic.wizards.com/en/news/magic-story/retaliation-ob-nixilis-2015-12-30",
-    "https://magic.wizards.com/en/news/magic-story/rise-kozilek-2015-12-09",
-    "https://magic.wizards.com/en/news/magic-story/shaping-army-2015-10-21",
-    "https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff",
-    "https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "BLB",
@@ -158,22 +140,16 @@
   {
    "arc": "BRO",
    "pages": 10,
-   "cited_pages": 4,
+   "cited_pages": 10,
    "kinds": {
     "story": 10
    },
    "citing_packs": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_p5_brothers_war_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-4-the-dark",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-2-the-beginning",
-    "https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-3-sword-one"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "DFT",
@@ -253,28 +229,17 @@
   {
    "arc": "ECL",
    "pages": 12,
-   "cited_pages": 1,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
    },
    "citing_packs": [
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-1-out-of-this-wood",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-3-aweary-of-this-moon",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-5-if-we-shadows",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-6-full-of-hateful-fantasies",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-much-ado-about-thieving",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-star-crossed",
-    "https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-three-dreams-three-truths",
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed",
-    "https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "ELD",
@@ -292,7 +257,7 @@
   {
    "arc": "EOE",
    "pages": 18,
-   "cited_pages": 6,
+   "cited_pages": 18,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 17
@@ -300,21 +265,8 @@
    "citing_packs": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-compact-me-to-zero",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-1",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-2",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-3",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-4",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-5",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-6",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-7",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-grasp-in-the-dark",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-kadrik-and-the-pod",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-doors-of-uthros",
-    "https://magic.wizards.com/en/news/magic-story/edge-of-eternities-the-wefthunter"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "IKO",
@@ -493,7 +445,7 @@
   {
    "arc": "RF",
    "pages": 12,
-   "cited_pages": 5,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
@@ -501,16 +453,8 @@
    "citing_packs": [
     "pack_p5_reality_fracture_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "SNC",
@@ -529,7 +473,7 @@
   {
    "arc": "SOI/EMN",
    "pages": 21,
-   "cited_pages": 5,
+   "cited_pages": 21,
    "kinds": {
     "story": 21
    },
@@ -537,30 +481,13 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08",
-    "https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20",
-    "https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06",
-    "https://magic.wizards.com/en/news/magic-story/emrakul-rises",
-    "https://magic.wizards.com/en/news/magic-story/games-2016-04-27",
-    "https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09",
-    "https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20",
-    "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04",
-    "https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30",
-    "https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25",
-    "https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13",
-    "https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23",
-    "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13",
-    "https://magic.wizards.com/en/news/magic-story/stories-and-endings-2016-05-11",
-    "https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02",
-    "https://magic.wizards.com/en/news/magic-story/unwelcome-2016-03-16"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "SOS",
    "pages": 14,
-   "cited_pages": 3,
+   "cited_pages": 14,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 13
@@ -568,20 +495,8 @@
    "citing_packs": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-2-travels-and-travails",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-off-the-record",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "STX",
@@ -602,30 +517,18 @@
   {
    "arc": "TDM",
    "pages": 14,
-   "cited_pages": 2,
+   "cited_pages": 14,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 12
    },
    "citing_packs": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-2",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-abzan-siege-blossoms",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-2-omens",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-3-what-the-past-devours",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-4-heart-of-fire",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-jeskai-the-unknown-way",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-mardu-where-lightning-tells-our-story",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-sultai-betrayal",
-    "https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-temur-together-survives-the-pack"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "THB",
@@ -1006,5 +909,5 @@
    ]
   }
  ],
- "sha256": "0008610f6ea37c2d652006b261935821d11713f47bb052c02ffb901516f631d0"
+ "sha256": "2259af6743fcf4013e2a1fb55e0acfb81bcb12123497989321b1e35e06314889"
 }
