@@ -1,0 +1,62 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_ikoria_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "IKO",
+ "claims": 5,
+ "entities": 9,
+ "sources": 1,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "IK001",
+   "source_id": "iko_guide",
+   "quote_sha256": "cbf4fda99de3efbae21f9d0240c418bad5e8405be20a5e2f49047bfc2b638003",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK001",
+   "source_id": "iko_guide",
+   "quote_sha256": "afa2a0b7423d246579b4d90e46f139fb974def0b65d7e4ead1ad19b834482da6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK002",
+   "source_id": "iko_guide",
+   "quote_sha256": "5e2e4eda83dd90740350c041d7c96e7b2ef8c9df409a9394617e3cd98cfb31f9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK003",
+   "source_id": "iko_guide",
+   "quote_sha256": "5b6511e2d3b0f62b0fb10f4085c2c4a95df62c2bacb8f79cff2f7d3cfef844fd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK004",
+   "source_id": "iko_guide",
+   "quote_sha256": "cfce48c5d594e138577dd06cccdc1cfacdc9ab6388a4eaa3d67959d7d44007a5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK005",
+   "source_id": "iko_guide",
+   "quote_sha256": "3c5a60d4ce001fb709860bf18ca7916b9eca9facf985c1987c6a608a6c9f3cd2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IK005",
+   "source_id": "iko_guide",
+   "quote_sha256": "8386156bd8124829b43ee9b45190c7a6a3fbc482fcd286a69ade2800549327fa",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "0f5dc727461eea4171e55ef55a200b02aa6943bbe32a64b8d3365b4900694a88"
+}

@@ -1,0 +1,122 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "STX",
+ "claims": 11,
+ "entities": 12,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 9,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 17,
+ "quotes_verbatim": 17,
+ "quote_rows": [
+  {
+   "claim": "SX001",
+   "source_id": "stx_ep5",
+   "quote_sha256": "d3df398840464f8c23cc2113a02a1eddef88afa2177677d7eab2e3482d93307c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX001",
+   "source_id": "stx_ep5",
+   "quote_sha256": "48ccf94cbee17eb05882ba498335b1ff354bf6850242dbecc8aa41a69e559c54",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX002",
+   "source_id": "stx_ep5",
+   "quote_sha256": "049feeabea60e83f6e1b839140ca8a7e8bc2cad3acd9c86a25fff1abb0f48bdd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX002",
+   "source_id": "stx_ep4",
+   "quote_sha256": "65d3deb8531a58b6504dd0eb555bc08a7bbaea22d1272e6414dfa65baff83837",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX003",
+   "source_id": "stx_ep5",
+   "quote_sha256": "483d4bd2e4f3e3b19f4bf441b2fcd59e4c30dc2f9ddce245e57bf5178b1a1c5e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX003",
+   "source_id": "stx_ep5",
+   "quote_sha256": "9a9bfc45874e03ce1371a9b54b5bbcf605cdb387c6ababf1745393fd1960c6d3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX004",
+   "source_id": "stx_ep5",
+   "quote_sha256": "9c2b67f1d12e13dd98c57e62e04d69c362ccfe950a3c52808ec3012025780edd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX004",
+   "source_id": "stx_ep5",
+   "quote_sha256": "0bd09109745cb7344d3a4c7bda7e45ff35b8f94b69ece515f3ed75a50fb570c1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX005",
+   "source_id": "stx_ep5",
+   "quote_sha256": "9c2b67f1d12e13dd98c57e62e04d69c362ccfe950a3c52808ec3012025780edd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX006",
+   "source_id": "stx_ep1",
+   "quote_sha256": "8c99d6599976639b52ba3ab85e60b032bc8d2a1aff7e2d4222d85ce9f0997496",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX007",
+   "source_id": "stx_ep1",
+   "quote_sha256": "381ac13d6fbaf81939b80efeb76a7c25bddda8be705387cfb5e0c1b2c75686fe",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX007",
+   "source_id": "stx_ep5",
+   "quote_sha256": "a055912c2501edb2774a83327cc36b08ae4e0cba86b041d4d5b48fd78f94972f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX008",
+   "source_id": "stx_ep2",
+   "quote_sha256": "85a4c3060d30bcde2e27319d4ef091f2878f10f9e6b40c6c8e10b960638addaf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX008",
+   "source_id": "stx_ep5",
+   "quote_sha256": "a523c81829538b94a971344d31c33b95cf845213b077f88aa0724372c842221f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX009",
+   "source_id": "stx_ep5",
+   "quote_sha256": "1194cc505ee5afd587098fed7a10699b8c85b975a9bcd2af3fd898e3adc0790f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX010",
+   "source_id": "stx_guide",
+   "quote_sha256": "3d1d81c321bf68f096e319c94d805c34575bdaf954b6d1a0bd5cc5402be98230",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "SX011",
+   "source_id": "stx_ep2",
+   "quote_sha256": "71e26fc9c396b896eab122194c105d921b0e623886b5f6ea2c1167ff70949ccb",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "c2482a6517bff4662851ef4711a101f75f4e0f07588328781809994754b955dd"
+}

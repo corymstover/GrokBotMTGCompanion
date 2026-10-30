@@ -1,0 +1,267 @@
+{
+ "pack_id": "pack_p5_strixhaven",
+ "arc": "STX",
+ "event_stage": "strixhaven_stx_2021",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guide to Strixhaven (2021-04-01) and Strixhaven Magic Story episodes 1-5 (2021-03-25 to 2021-04-21). PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "stx_guide": "planeswalkers-guide-strixhaven-2021-04-01",
+  "stx_ep1": "episode-1-class-session-2021-03-25",
+  "stx_ep2": "episode-2-lessons-2021-03-31",
+  "stx_ep4": "episode-4-put-test-2021-04-14",
+  "stx_ep5": "episode-5-final-exam-2021-04-21"
+ },
+ "entities": [
+  {
+   "id": "extus",
+   "type": "Character",
+   "name": "Extus"
+  },
+  {
+   "id": "oriq",
+   "type": "Faction",
+   "name": "The Oriq"
+  },
+  {
+   "id": "blood_avatar",
+   "type": "Character",
+   "name": "Blood Avatar"
+  },
+  {
+   "id": "will_kenrith",
+   "type": "Character",
+   "name": "Will Kenrith"
+  },
+  {
+   "id": "rowan_kenrith",
+   "type": "Character",
+   "name": "Rowan Kenrith"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "professor_onyx",
+   "type": "Character",
+   "name": "Professor Onyx"
+  },
+  {
+   "id": "lukka",
+   "type": "Character",
+   "name": "Lukka"
+  },
+  {
+   "id": "mila",
+   "type": "Character",
+   "name": "Mila"
+  },
+  {
+   "id": "strixhaven_founder_dragons",
+   "type": "Faction",
+   "name": "Strixhaven's five founding dragons"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "beledros_witherbloom",
+   "type": "Character",
+   "name": "Beledros Witherbloom"
+  }
+ ],
+ "claims": [
+  {
+   "id": "SX001",
+   "subject": "extus",
+   "predicate": "led",
+   "object": "oriq",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "A fresh wave of rage and grief flooded her as she turned to Extus."
+    },
+    {
+     "page": "stx_ep5",
+     "quote": "The leader of the Oriq stood before the twitching Blood Avatar, watching her."
+    }
+   ],
+   "summary": "Extus is the leader of the Oriq.",
+   "limitation": "Two adjacent narration sentences: the second calls the man the first names the leader of the Oriq."
+  },
+  {
+   "id": "SX002",
+   "subject": "extus",
+   "predicate": "summoned",
+   "object": "blood_avatar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "Dragging herself back against the wall, Rowan's gaze swung between Extus, the creature he'd summoned, and Will, who now lay far too still on the ground."
+    },
+    {
+     "page": "stx_ep4",
+     "quote": "Under the Snarl, Extus spread his arms wide."
+    }
+   ],
+   "summary": "Extus summoned the Blood Avatar from the Snarl under the Biblioplex.",
+   "event_stage": "stx_final_exam_2021"
+  },
+  {
+   "id": "SX003",
+   "subject": "blood_avatar",
+   "predicate": "killed",
+   "object": "extus",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "He was cut off as one of the massive hands of the Blood Avatar closed around him with an awful crunching sound."
+    },
+    {
+     "page": "stx_ep5",
+     "quote": "After that, Extus was silent."
+    }
+   ],
+   "summary": "The Blood Avatar crushed Extus.",
+   "limitation": "The text implies Extus died but does not say so outright.",
+   "event_stage": "stx_final_exam_2021"
+  },
+  {
+   "id": "SX004",
+   "subject": "will_kenrith",
+   "predicate": "defeated",
+   "object": "blood_avatar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "Word of his and Rowan's fight against Extus and the Blood Avatar had spread throughout the campus, and suddenly, Will was getting a lot more attention."
+    },
+    {
+     "page": "stx_ep5",
+     "quote": "With a sound like thunder, the Blood Avatar was wrenched back into the Snarl, the sword dragging back across the stone—and on the other side was her brother, lying limp and stunned."
+    }
+   ],
+   "summary": "Will and Rowan fought Extus and drove the Blood Avatar back into the Snarl.",
+   "limitation": "Rowan shared the fight; see SX005.",
+   "event_stage": "stx_final_exam_2021"
+  },
+  {
+   "id": "SX005",
+   "subject": "rowan_kenrith",
+   "predicate": "defeated",
+   "object": "blood_avatar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "Word of his and Rowan's fight against Extus and the Blood Avatar had spread throughout the campus, and suddenly, Will was getting a lot more attention."
+    }
+   ],
+   "summary": "Rowan fought the Blood Avatar alongside Will.",
+   "event_stage": "stx_final_exam_2021"
+  },
+  {
+   "id": "SX006",
+   "subject": "will_kenrith",
+   "predicate": "sibling_of",
+   "object": "rowan_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep1",
+     "quote": "Will's sister was just as tall as him, golden hair flowing down the red cape thrown over her shoulder."
+    }
+   ],
+   "summary": "Will and Rowan Kenrith are siblings (twins)."
+  },
+  {
+   "id": "SX007",
+   "subject": "liliana_vess",
+   "predicate": "identified_with",
+   "object": "professor_onyx",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep1",
+     "quote": "Professor Onyx, as she was known here, took a deep breath as she walked, inhaling the smell of old paper and the familiar ozone that always seemed to accompany magic."
+    },
+    {
+     "page": "stx_ep5",
+     "quote": "\"My name is Professor Liliana Vess.\""
+    }
+   ],
+   "summary": "Liliana taught at Strixhaven as Professor Onyx, and at the end she gives her real name."
+  },
+  {
+   "id": "SX008",
+   "subject": "lukka",
+   "predicate": "joined",
+   "object": "oriq",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "stx_ep2",
+     "quote": "He wasn't excited about facing Extus again—not after failing his mission."
+    },
+    {
+     "page": "stx_ep5",
+     "quote": "The bonder had been wandering the land with Mila and a few of the remaining Oriq, no doubt scheming even as they scrounged for food and shelter."
+    }
+   ],
+   "summary": "Lukka worked for Extus and later wandered with the remaining Oriq.",
+   "limitation": "Inferred from Lukka's point of view and his association with the Oriq; the text never says he was formally a member."
+  },
+  {
+   "id": "SX009",
+   "subject": "lukka",
+   "predicate": "allied_with",
+   "object": "mila",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep5",
+     "quote": "Calling Mila to his side, Lukka turned and ran into the dark."
+    }
+   ],
+   "summary": "Lukka and his bonded companion Mila fled together."
+  },
+  {
+   "id": "SX010",
+   "subject": "strixhaven_founder_dragons",
+   "predicate": "created",
+   "object": "strixhaven",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_guide",
+     "quote": "Founded some 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning, drawing promising young mages from all around the plane to study in its halls."
+    }
+   ],
+   "summary": "Five spellcasting dragons founded Strixhaven about 700 years ago."
+  },
+  {
+   "id": "SX011",
+   "subject": "beledros_witherbloom",
+   "predicate": "refused",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "stx_ep2",
+     "quote": "After Beledros's refusal to help her, she'd followed rumors of an archaic to the ruins of Caerdoon."
+    }
+   ],
+   "summary": "Beledros Witherbloom refused to help Liliana."
+  }
+ ],
+ "remaining": [
+  "Episode 3 is not cited for claims; the Oriq's recruitment methods are in the guide but not graded",
+  "Kasmina's role in inviting the Kenrith twins is not graded (dialogue only)"
+ ]
+}
