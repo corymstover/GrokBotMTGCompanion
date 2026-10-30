@@ -1,0 +1,74 @@
+{
+  "schema": "snapshot-manifest-audit/v1",
+  "as_of": "2026-10-30",
+  "snapshot_id": "snap-20261029-40848334824-1",
+  "manifest_copy": "data/scryfall_snapshots/snap-20261029-40848334824-1.manifest.json",
+  "manifest_copy_sha256": "7f1b10d4c144265bd86523027496d5d7e0ff6578aaef51ec4948e9669e056959",
+  "files": [
+    {
+      "kind": "default-cards",
+      "filename": "default-cards-20261029090546.jsonl.gz",
+      "manifest_bytes": 80336848,
+      "manifest_sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595",
+      "records": 119701,
+      "release_asset_bytes": 80336848,
+      "release_bytes_match": true,
+      "local_check": {
+        "bytes": 80336848,
+        "sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595"
+      },
+      "local_match": true
+    },
+    {
+      "kind": "oracle-cards",
+      "filename": "oracle-cards-20261029090202.jsonl.gz",
+      "manifest_bytes": 25212609,
+      "manifest_sha256": "0358af62f92ac10f685d5ee6ad9ab23dfbff6f41bc32dfe81b5ab18cf3088adb",
+      "records": 39164,
+      "release_asset_bytes": 25212609,
+      "release_bytes_match": true,
+      "local_check": {
+        "bytes": 25212609,
+        "sha256": "0358af62f92ac10f685d5ee6ad9ab23dfbff6f41bc32dfe81b5ab18cf3088adb"
+      },
+      "local_match": true
+    },
+    {
+      "kind": "rulings",
+      "filename": "rulings-20261029090032.jsonl.gz",
+      "manifest_bytes": 5422271,
+      "manifest_sha256": "b760c8c3e74b62d27294833708ef98f6942251d0c56021dc3f7c1eeb08d4c990",
+      "records": 79706,
+      "release_asset_bytes": 5422271,
+      "release_bytes_match": true,
+      "local_check": {
+        "bytes": 5422271,
+        "sha256": "b760c8c3e74b62d27294833708ef98f6942251d0c56021dc3f7c1eeb08d4c990"
+      },
+      "local_match": true
+    }
+  ],
+  "in_repo_references": [
+    {
+      "path": "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json",
+      "file": "default-cards-20261029090546.jsonl.gz",
+      "sha256": "008434d5b89f1f2cb47411178d2ab181600faf9cb7ca1c5673422cdec5939595",
+      "has_bytes": false,
+      "matches_active_manifest": true,
+      "note": "Hash reference into the active manifest; bytes come from the manifest."
+    },
+    {
+      "path": "data/printing_lore/manifest.json",
+      "file": "default-cards-20261028090549.jsonl.gz",
+      "sha256": "c7c6d738cae2a9419e2120afedba460c4afeaa026bf74ca60e6451d14486d1e2",
+      "has_bytes": false,
+      "matches_active_manifest": false,
+      "note": "Historical 2026-10-28 shard baseline. The original bulk file is unavailable (workflow L151), so its download bytes cannot be measured; left unedited."
+    }
+  ],
+  "l291": {
+    "active_snapshot_ok": true,
+    "closes_l291": false,
+    "reason": "The active Companion manifest has measured bytes and SHA-256 for all 3 files, each matching the release asset size (and local copies where present). The 2026-10-28 printing_lore baseline has a hash but no bytes, and cannot get them while the original file is unavailable (L151)."
+  }
+}
