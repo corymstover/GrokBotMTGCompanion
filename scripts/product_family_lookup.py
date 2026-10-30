@@ -18,6 +18,7 @@ INDEX = ROOT / "data/set_atlas/product_family_triage_2026-10-29.json"
 SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_primary_audit_2026-10-29.json"
 SECOND_SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_batch2_audit_2026-10-29.json"
 REPRINT_SOURCE_REVIEW = ROOT / "data/set_atlas/reprint_curated_source_audit_2026-10-29.json"
+BOXED_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_precon_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -163,6 +164,57 @@ def apply_reprint_source_overlay(data, report):
     return out
 
 
+def apply_boxed_source_overlay(data, review):
+    """Overlay fifteen Wizards-backed boxes/component records without rewriting history."""
+    if review["cutoff"] != data["snapshot_date"]:
+        raise ValueError("Boxed product snapshot mismatch")
+    items={r["code"]:r for r in review["reviewed_boxed_codes"]}
+    if len(items)!=review["new_source_backed_product_codes"] or len(items)!=15:
+        raise ValueError("Boxed review count/uniqueness failed")
+    rows=[]
+    seen=set()
+    for prior in data["all_848_released_nondigital_other_type_records"]:
+        row=dict(prior)
+        source=items.get(row["code"])
+        if source:
+            if row["wizards_individual_source_review"]:
+                raise ValueError(f"Overwriting earlier product review: {row['code']}")
+            if row["scryfall_set_type"]!=source["scryfall_set_type"]:
+                raise ValueError(f"Changed Scryfall type for {row['code']}")
+            row.update({
+                "wizards_individual_source_review":True,
+                "review_status":"wizards_boxed_family_product_source_verified",
+                "wizards_primary_source":source["wizards_primary_url"],
+                "wizards_review_product_group":source["product_group_supported_by_wizards"],
+                "verified_evidence_note":source["source_note"],
+                "wizards_source_grade":source["evidence_grade"],
+                "wizards_code_explicitly_confirmed":False,
+                "box_component_of_parent_product":source["component_of_existing_parent_product"],
+                "box_or_component_source_class":source["separate_sold_box_vs_card_component"],
+                "wizards_premier_status_certified":False
+            })
+            seen.add(row["code"])
+        rows.append(row)
+    if seen!=set(items) or len(rows)!=848:
+        raise ValueError("Boxed review overlay lost code(s)")
+    current=dict(data)
+    current["all_848_released_nondigital_other_type_records"]=rows
+    current["wizards_reviewed_examples"]=review["cumulative_family_source_backed_codes"]
+    current["metadata_only_pending_wizards_individual_review"]=review["cumulative_source_pending_codes"]
+    current["cohort_review_progress"]={}
+    for cohort in data["metadata_research_cohorts"]:
+        members=[r for r in rows if r["metadata_cohort_not_official_classification"]==cohort]
+        current["cohort_review_progress"][cohort]={
+            "codes":len(members),
+            "wizards_reviewed":sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review":sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links":sum(bool(r["parent_set_code_explicit_only"]) for r in members)
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows)!=86:
+        raise ValueError("Boxed review total does not conserve 86")
+    return current
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -174,6 +226,9 @@ def load_current_index():
     if REPRINT_SOURCE_REVIEW.exists():
         report = json.loads(REPRINT_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_reprint_source_overlay(data, report)
+    if BOXED_SOURCE_REVIEW.exists():
+        report = json.loads(BOXED_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_boxed_source_overlay(data, report)
     return data
 
 
