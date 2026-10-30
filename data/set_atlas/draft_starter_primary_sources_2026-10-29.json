@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "as_of": "2026-10-29",
+  "scope": "Bounded first 23-code Wizards-primary-source review from the 44 pending draft/starter cohort",
+  "evidence_policy": "Exact source URL and relevant section must support each classification; source URLs are Wizards primary publications, not generated from code names. Product family does not establish card legality. The 44-code cohort's other 21 members remain pending.",
+  "records": [
+    {
+      "code": "bbd",
+      "group": "two_headed_giant_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/battlebond-mechanics-2018-05-21",
+      "source_section": "Battlebond Mechanics: Two-Headed Giant",
+      "reason": "Wizards describes a new multiplayer-focused Battlebond set optimized for two-player teams."
+    },
+    {
+      "code": "clb",
+      "group": "commander_draft_standalone_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/commander-legends-battle-for-baldurs-gate-product-overview",
+      "source_section": "Commander Draft Boosters",
+      "reason": "Commander Legends: Battle for Baldur's Gate is a standalone Commander Draft release with 20-card draft packs."
+    },
+    {
+      "code": "clu",
+      "group": "themed_clue_game_box",
+      "source_url": "https://magic.wizards.com/en/news/announcements/ravnica-clue-edition-ravnica-cluedo-edition-booster-contents",
+      "source_section": "Ravnica Clue Edition Booster Contents",
+      "reason": "Wizards identifies a multiplayer Clue crossover box with eight themed 20-card boosters; not a traditional standalone premier draft release."
+    },
+    {
+      "code": "cmb1",
+      "group": "mystery_booster_convention_playtest_sheet",
+      "source_url": "https://magic.wizards.com/en/news/feature/mystery-booster-release-notes-2019-11-11",
+      "source_section": "General Notes: Playtest Cards",
+      "reason": "One playtest card in each 2019 Mystery Booster convention pack, separate from main reprint pool and not tournament legal."
+    },
+    {
+      "code": "cmb2",
+      "group": "mystery_booster_convention_playtest_sheet",
+      "source_url": "https://magic.wizards.com/en/news/announcements/mystery-booster-convention-edition-returns-store-events-2021-06-21",
+      "source_section": "Mystery Booster: Convention Edition Returns",
+      "reason": "Wizards differentiates 2021 Convention Edition playtest distribution from retail Mystery Booster; not a new full booster product based only on playtest sheet code."
+    },
+    {
+      "code": "cn2",
+      "group": "multiplayer_conspiracy_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/conspiracy-take-crown-mechanics-2016-08-15",
+      "source_section": "Conspiracy Draft",
+      "reason": "Second Conspiracy product provides independently designed multiplayer draft."
+    },
+    {
+      "code": "cns",
+      "group": "multiplayer_conspiracy_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/conspiracy-mechanics",
+      "source_section": "Conspiracy Draft",
+      "reason": "First Conspiracy product is expressly designed for multiplayer booster drafting."
+    },
+    {
+      "code": "cp3",
+      "group": "preconstructed_clash_pack",
+      "source_url": "https://magic.wizards.com/en/news/feature/magic-origins-clash-pack-and-intro-pack-decklists-2015-07-09",
+      "source_section": "Magic Origins Clash Pack and Intro Pack Decklists",
+      "reason": "Two already-constructed decks that can be played separately or combined; not a separately draftable expansion."
+    },
+    {
+      "code": "dbl",
+      "group": "curated_combined_reprint_draft_booster",
+      "source_url": "https://magic.wizards.com/en/news/feature/innistrad-double-feature-product-overview-2021-11-15",
+      "source_section": "Innistrad Double Feature Product Overview",
+      "reason": "A separately sold draft-ready combination of Midnight Hunt and Crimson Vow cards, not another original premier expansion."
+    },
+    {
+      "code": "j25",
+      "group": "jumpstart_mix_two_boosters",
+      "source_url": "https://magic.wizards.com/en/news/announcements/foundations-jumpstart-booster-themes",
+      "source_section": "Foundations Jumpstart Booster Themes",
+      "reason": "Wizards confirms 20-card themed Jumpstart boosters, distinct from Foundations FDN beginner-box packets."
+    },
+    {
+      "code": "jmp",
+      "group": "jumpstart_mix_two_boosters",
+      "source_url": "https://magic.wizards.com/en/news/announcements/introducing-jumpstart-new-way-play-magic-2020-02-20",
+      "source_section": "Jumpstart: a new kind of play experience",
+      "reason": "Wizards states that Jumpstart boosters contain 20 themed cards and that Jumpstart is a stand-alone product rather than a Standard premier set."
+    },
+    {
+      "code": "mbc",
+      "group": "commander_draft_standalone_booster_later_card_legality",
+      "source_url": "https://www.magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition",
+      "source_section": "What's Inside Mystery Booster Commander Edition? — Legality / Important Dates",
+      "reason": "Scryfall set-level early date can reflect previews/events; Wizards explicitly dates new-to-Magic MBC cards as Commander-legal November 13, 2026."
+    },
+    {
+      "code": "p02",
+      "group": "introductory_simplified_standalone_set",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1",
+      "source_section": "Portal Second Age / three Portal sets",
+      "reason": "One of three official Portal introductory sets; not a regular core edition."
+    },
+    {
+      "code": "por",
+      "group": "introductory_simplified_standalone_set",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1",
+      "source_section": "Portal beginner product",
+      "reason": "Wizards identifies Portal as a separate learning-oriented set with simplified play and cards."
+    },
+    {
+      "code": "ptk",
+      "group": "introductory_simplified_standalone_set",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1",
+      "source_section": "Portal Three Kingdoms",
+      "reason": "Third Portal set, originally created for the Asian market."
+    },
+    {
+      "code": "s00",
+      "group": "introductory_starter_standalone_product",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1",
+      "source_section": "Starter 1999 and Starter 2000",
+      "reason": "Wizards explicitly names a distinct Starter 2000 instructional product."
+    },
+    {
+      "code": "s99",
+      "group": "introductory_starter_standalone_product",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1",
+      "source_section": "Starter 1999 and Starter 2000",
+      "reason": "Wizards explicitly distinguishes two Starter products from Portal and standard core editions."
+    },
+    {
+      "code": "sunf",
+      "group": "component_sticker_sheet",
+      "source_url": "https://magic.wizards.com/en/news/feature/unfinity-release-notes-2022-10-07",
+      "source_section": "Unfinity Keywords and Other Mechanics: Stickers",
+      "reason": "48 individual sticker sheets are Unfinity pack components, not a separate launched booster set."
+    },
+    {
+      "code": "ugl",
+      "group": "un_set_supplemental_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-5",
+      "source_section": "Unstable / Unglued history",
+      "reason": "Wizards calls Unglued an early supplemental Un set and not normal premier."
+    },
+    {
+      "code": "und",
+      "group": "un_set_preconstructed_box",
+      "source_url": "https://magic.wizards.com/en/news/announcements/announcing-unsanctioned-2019-10-10",
+      "source_section": "Announcing Unsanctioned: Contents",
+      "reason": "Wizards specifies five combinable 30-card preconstructed Un decks in one box, not a separately draftable expansion booster."
+    },
+    {
+      "code": "unf",
+      "group": "un_set_mixed_legality_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-7",
+      "source_section": "Unfinity",
+      "reason": "Wizards describes Unfinity as an Un booster set with specific Eternal/acorn legality differences."
+    },
+    {
+      "code": "unh",
+      "group": "un_set_supplemental_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-7",
+      "source_section": "Unfinity history of four Un sets",
+      "reason": "Wizards lists Unhinged among four Un releases; not a core set."
+    },
+    {
+      "code": "ust",
+      "group": "un_set_supplemental_booster",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-5",
+      "source_section": "Unstable",
+      "reason": "Wizards identifies Unstable as a draftable supplemental Un set."
+    }
+  ]
+}
