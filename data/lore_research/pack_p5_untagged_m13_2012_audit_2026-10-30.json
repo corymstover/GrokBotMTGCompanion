@@ -7,8 +7,8 @@
  "entities": 28,
  "sources": 7,
  "grades": {
-  "CANON_CONFIRMED": 12,
-  "CANON_IMPLIED": 5
+  "CANON_CONFIRMED": 11,
+  "CANON_IMPLIED": 6
  },
  "quotes": 18,
  "quotes_verbatim": 18,
@@ -124,5 +124,5 @@
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "4e4e0fcaa6ae57887354ceb1cf3e46ea631cd2ee814df39695748339f7fa46bc"
+ "content_sha256": "cdbd32579dbbaebddabd31d88cbe8b673c4a0d826dd153820ca9774058d48d8b"
 }

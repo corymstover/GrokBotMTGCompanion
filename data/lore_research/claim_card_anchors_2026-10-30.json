@@ -34249,78 +34249,6 @@
    "tier": "NAMED_PARTICIPANT"
   },
   {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret the Schemer",
-   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret the Seeker",
-   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Agent of Bolas",
-   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Artifice Master",
-   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Betrayer of Flesh",
-   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Cruel Captain",
-   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Cruel Machinist",
-   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Master of Metal",
-   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
-   "claim": "SSX023",
-   "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "participant": "tezzeret",
-   "card": "Tezzeret, Master of the Bridge",
-   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
-   "tier": "NAMED_PARTICIPANT"
-  },
-  {
    "claim": "SSX024",
    "pack": "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
    "participant": "pia_nalaar",
@@ -35025,11 +34953,11 @@
    "NAMED_PARTICIPANT": 110
   },
   "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": {
-   "claims": 26,
-   "claims_anchored": 17,
+   "claims": 25,
+   "claims_anchored": 16,
    "ART_IN_CITED_SOURCE": 7,
    "PRINTED_IN_STORY_SET": 0,
-   "NAMED_PARTICIPANT": 50
+   "NAMED_PARTICIPANT": 41
   },
   "pack_p5_untagged_stories_2014_2026-10-30.json": {
    "claims": 23,
@@ -35082,12 +35010,12 @@
   }
  },
  "counts": {
-  "claims": 1140,
-  "claims_anchored": 952,
-  "anchors": 4059,
+  "claims": 1139,
+  "claims_anchored": 951,
+  "anchors": 4050,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3390
+  "NAMED_PARTICIPANT": 3381
  },
- "content_sha256": "8ec3e968f9cfa9fd19131760d3f6ad2f0f923af323b801a9c4baa4d3899e1bf8"
+ "content_sha256": "dc80c640e5b6a68a18caf0cbc1ac2ec8da90cb7512aff5c9fe1e679342fce535"
 }

@@ -82,7 +82,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1140,
+  "claims": 1139,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -150,7 +150,7 @@
   "pack_p5_untagged_stories_2014_2026-10-30.json": 23,
   "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json": 24,
   "pack_p5_untagged_tarkir_stories_2026-10-30.json": 11,
-  "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": 26,
+  "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": 25,
   "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json": 12
  },
  "arcs": [
@@ -803,5 +803,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "8d162b1e3258e9f4a784ce1e29075c28ca6677550caada222668f9f8a1cf2eac"
+ "sha256": "3ae8e91d5538e9f9730675858a54ee7afff8fb0f621bd1d7ed680e6b1d2a2c64"
 }

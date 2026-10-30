@@ -475,7 +475,7 @@
    "subject": "kolman",
    "predicate": "leader_of",
    "object": "gatstaf",
-   "grade": "CANON_CONFIRMED",
+   "grade": "CANON_IMPLIED",
    "event_stage": "magic_2013_card_stories_and_avacyn_restored_guide_2012",
    "source_ids": [
     "avr2"
@@ -487,7 +487,7 @@
     }
    ],
    "summary": "Kolman is the town elder of Gatstaf, who led werewolf purges.",
-   "limitation": ""
+   "limitation": "Town elder is read as civic leadership of Gatstaf; the guide also says Gatstaf mobs are 'led by the town elder Kolman'."
   },
   {
    "id": "M13016",

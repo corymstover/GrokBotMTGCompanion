@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "fda2ccb86c3e314f0e5eee3cbe4aa4c4d6243381656a658b5c4a78d662957daf",
+ "content_sha256": "85c87860f49d0362c5f72511ce4f544af946cdc54c33e72f432b916b761788af",
  "edges": [
   {
    "artists": [
@@ -22078,7 +22078,7 @@
    "era": "magic_2013_card_stories_and_avacyn_restored_guide_2012",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:kolman",
-   "grade": "CANON_CONFIRMED",
+   "grade": "CANON_IMPLIED",
    "relation": "leader_of",
    "sources": [
     "avr2"
@@ -26708,18 +26708,6 @@
    "from": "faction:renegades_kaladesh",
    "grade": "CANON_CONFIRMED",
    "relation": "opposed",
-   "sources": [
-    "burn"
-   ],
-   "to": "faction:consulate"
-  },
-  {
-   "claim": "SSX023",
-   "era": "untagged_side_stories_2015_2026",
-   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
-   "from": "character:tezzeret",
-   "grade": "CANON_IMPLIED",
-   "relation": "leader_of",
    "sources": [
     "burn"
    ],
@@ -41332,18 +41320,6 @@
    "to": "faction:renegades_kaladesh"
   },
   {
-   "from": "claim:SSX023",
-   "relation": "asserts",
-   "role": "object",
-   "to": "faction:consulate"
-  },
-  {
-   "from": "claim:SSX023",
-   "relation": "asserts",
-   "role": "subject",
-   "to": "character:tezzeret"
-  },
-  {
    "from": "claim:SSX024",
    "relation": "asserts",
    "role": "object",
@@ -46117,11 +46093,6 @@
    "from": "source:burn",
    "relation": "cited_by",
    "to": "claim:SSX022"
-  },
-  {
-   "from": "source:burn",
-   "relation": "cited_by",
-   "to": "claim:SSX023"
   },
   {
    "from": "source:burn",
@@ -52169,7 +52140,7 @@
     "claims": 17,
     "entities": 28,
     "file": "data/lore_research/pack_p5_untagged_m13_2012_2026-10-30.json",
-    "sha256": "f4110547c1c45e24aab3fadc030b39da4fed23de754ade4a9c924da9854bf0a7",
+    "sha256": "7ce3b5e658dd9fe78a9d2b1571548f3325f4cc465d79488b4e998e0b5c5958d8",
     "sources": 7
    },
    {
@@ -52194,10 +52165,10 @@
     "sources": 10
    },
    {
-    "claims": 26,
+    "claims": 25,
     "entities": 46,
     "file": "data/lore_research/pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-    "sha256": "aa172692621f12bf11b065780b0fc270b637eeb31b693b4b4a837d8dd4a8d729",
+    "sha256": "31d9428355ad2030bfede7e102416735b8fc4561c809f5f9c006720f5538bc4f",
     "sources": 16
    },
    {
@@ -75910,8 +75881,9 @@
    "type": "Claim"
   },
   {
-   "grade": "CANON_CONFIRMED",
+   "grade": "CANON_IMPLIED",
    "id": "claim:M13015",
+   "limitation": "Town elder is read as civic leadership of Gatstaf; the guide also says Gatstaf mobs are 'led by the town elder Kolman'.",
    "name": "Kolman is the town elder of Gatstaf, who led werewolf purges.",
    "origins": [
     "pack_p5_untagged_m13_2012_2026-10-30.json"
@@ -80175,18 +80147,6 @@
     "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
    ],
    "predicate": "opposed",
-   "stage": "untagged_side_stories_2015_2026",
-   "type": "Claim"
-  },
-  {
-   "grade": "CANON_IMPLIED",
-   "id": "claim:SSX023",
-   "limitation": "An emergency title granted by the Consuls for the duration of the crisis; rendered as leadership of the Consulate for that period only.",
-   "name": "During the Aether Revolt crisis, Head Judge Tezzeret was made Special Grand Consul by the Consuls (2017).",
-   "origins": [
-    "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json"
-   ],
-   "predicate": "leader_of",
    "stage": "untagged_side_stories_2015_2026",
    "type": "Claim"
   },
@@ -94243,24 +94203,24 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1168,
+  "claim_edges_with_era": 1167,
   "claim_edges_with_in_universe_date": 33,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 886,
+   "CANON_CONFIRMED": 885,
    "CANON_DISPUTED": 8,
    "CANON_IMPLIED": 241,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 121,
-  "edges": 6830,
+  "edges": 6826,
   "literal_objects": 15,
   "node_types": {
    "AlternateContinuity": 1,
    "Card": 1516,
    "CardTheme": 1,
    "Character": 482,
-   "Claim": 1140,
+   "Claim": 1139,
    "Concept": 145,
    "DeckProposal": 3,
    "Event": 22,
@@ -94271,7 +94231,7 @@
    "Plane": 33,
    "Source": 600
   },
-  "nodes": 4228,
+  "nodes": 4227,
   "non_wizards_sources": 0,
   "relations": 360,
   "wizards_official_sources": 600

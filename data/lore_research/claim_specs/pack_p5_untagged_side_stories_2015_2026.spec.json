@@ -568,21 +568,6 @@
    "summary": "The renegades of Kaladesh rose against the Consulate under Tezzeret (Aether Revolt, 2017)."
   },
   {
-   "id": "SSX023",
-   "subject": "tezzeret",
-   "predicate": "leader_of",
-   "object": "consulate",
-   "grade": "CANON_IMPLIED",
-   "quotes": [
-    {
-     "page": "burn",
-     "quote": "Head Judge Tezzeret—now Special Grand Consul Tezzeret, endowed by the Consuls for the duration of the present crisis"
-    }
-   ],
-   "summary": "During the Aether Revolt crisis, Head Judge Tezzeret was made Special Grand Consul by the Consuls (2017).",
-   "limitation": "An emergency title granted by the Consuls for the duration of the crisis; rendered as leadership of the Consulate for that period only."
-  },
-  {
    "id": "SSX024",
    "subject": "pia_nalaar",
    "predicate": "leader_of",
