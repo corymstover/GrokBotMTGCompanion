@@ -1,0 +1,153 @@
+{
+  "additional_claims": 12,
+  "additional_entities": 10,
+  "as_of": "2026-10-30",
+  "card_anchors": [
+    {
+      "color_identity_at_index": "R",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "121",
+        "printing_id": "0c52c7d4-a350-4518-8c9a-72cf7b14603d",
+        "released_at": "2022-09-09",
+        "set": "dmu"
+      },
+      "historical_english_paper_printings": 4,
+      "meaning_limit": "The Saga names the event; its individual images/chapters are not certified as a literal battlefield reconstruction.",
+      "name": "The Elder Dragon War",
+      "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
+      "representation": "NAMED_EVENT_CARD",
+      "type_line_at_index": "Enchantment — Saga"
+    },
+    {
+      "color_identity_at_index": "BRW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "207s",
+        "printing_id": "83207f9c-4def-44c7-906a-aca11e259fa2",
+        "released_at": "2021-05-06",
+        "set": "pmh2"
+      },
+      "historical_english_paper_printings": 4,
+      "meaning_limit": "Not evidence that this illustration depicts Piru dying.",
+      "name": "Piru, the Volatile",
+      "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon"
+    },
+    {
+      "color_identity_at_index": "BUW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "192s",
+        "printing_id": "d353904f-5bc1-4b88-8a89-1e52a2409d0a",
+        "released_at": "2021-05-06",
+        "set": "pmh2"
+      },
+      "historical_english_paper_printings": 4,
+      "meaning_limit": "Not proof of a particular scene in Dakkon's later battle.",
+      "name": "Dakkon, Shadow Slayer",
+      "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Planeswalker — Dakkon"
+    },
+    {
+      "color_identity_at_index": "GRW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "214",
+        "printing_id": "ac148784-b7b6-4aae-bffb-a4cf09f56971",
+        "released_at": "2022-09-09",
+        "set": "dmu"
+      },
+      "historical_english_paper_printings": 5,
+      "meaning_limit": "The post-war Primeval lineage is supported by biography, not artwork alone.",
+      "name": "Rith, Liberated Primeval",
+      "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Dragon"
+    },
+    {
+      "color_identity_at_index": "GRW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "219",
+        "printing_id": "4663bd13-243e-4b8c-9ca8-158576b58803",
+        "released_at": "2018-07-13",
+        "set": "m19"
+      },
+      "historical_english_paper_printings": 2,
+      "meaning_limit": "Character depiction, not proof of her role in a specific ancient battle.",
+      "name": "Palladia-Mors, the Ruiner",
+      "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon"
+    },
+    {
+      "color_identity_at_index": "BGR",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "225",
+        "printing_id": "d19fdc00-21eb-48dc-966a-6b634dc5a2c4",
+        "released_at": "2018-07-13",
+        "set": "m19"
+      },
+      "historical_english_paper_printings": 4,
+      "meaning_limit": "Character depiction, not proof of a specific war scene.",
+      "name": "Vaevictis Asmadi, the Dire",
+      "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon"
+    },
+    {
+      "color_identity_at_index": "BUW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "214",
+        "printing_id": "50c1de2c-1acc-47c8-9b5e-a9dae3da8a49",
+        "released_at": "2018-07-13",
+        "set": "m19"
+      },
+      "historical_english_paper_printings": 2,
+      "meaning_limit": "Card design invokes Chromium's shapeshifting; not a historical proof of any depicted war moment.",
+      "name": "Chromium, the Mutable",
+      "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon"
+    },
+    {
+      "color_identity_at_index": "GUW",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "212",
+        "printing_id": "1e90c638-d4b2-4243-bbc4-1cc10516c40f",
+        "released_at": "2018-07-13",
+        "set": "m19"
+      },
+      "historical_english_paper_printings": 4,
+      "meaning_limit": "Defensive card mechanics do not establish an in-lore political alignment.",
+      "name": "Arcades, the Strategist",
+      "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon"
+    },
+    {
+      "color_identity_at_index": "BRU",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "218",
+        "printing_id": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+        "released_at": "2018-07-13",
+        "set": "m19"
+      },
+      "historical_english_paper_printings": 5,
+      "meaning_limit": "Double-faced card names are not a certified chronology of Bolas's spark awakening.",
+      "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+      "representation": "NAMED_CHARACTER_CARD",
+      "type_line_at_index": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas"
+    }
+  ],
+  "card_name_anchors": 9,
+  "extends": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+  "first_party_source_urls": 8,
+  "limitations": [
+    "Official named card identity and October 29-era historical printing data do not independently prove an artwork's event setting.",
+    "Printed color identities and legalities are frozen historical index facts, not a present-day Commander certification.",
+    "Bolas's four-name survivor account omitted Piru; source-perspective boundaries and later events must be kept distinct.",
+    "This structural audit cannot machine-certify every in-universe assertion in a source biography."
+  ],
+  "result": "SOURCE_GRADED_ELDER_WAR_AND_HISTORICAL_CARD_NAME_JOIN_PASS",
+  "schema": 1
+}

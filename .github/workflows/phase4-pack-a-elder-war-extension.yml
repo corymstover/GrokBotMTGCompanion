@@ -1,0 +1,39 @@
+name: Phase 4 Pack A2 Elder Dragon War survivor and card-name evidence
+
+on:
+  pull_request:
+    paths:
+      - 'research/PACK_A2_Elder_Dragon_War_and_Primeval_Lineages.md'
+      - 'data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json'
+      - 'data/lore_research/pack_a_elder_dragon_war_audit_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a_extension.py'
+      - 'tests/test_lore_pack_a_extension.py'
+      - '.github/workflows/phase4-pack-a-elder-war-extension.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  push:
+    paths:
+      - 'research/PACK_A2_Elder_Dragon_War_and_Primeval_Lineages.md'
+      - 'data/lore_research/pack_a_elder_dragon_war_extension_2026-10-30.json'
+      - 'data/lore_research/pack_a_elder_dragon_war_audit_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a_extension.py'
+      - 'tests/test_lore_pack_a_extension.py'
+      - '.github/workflows/phase4-pack-a-elder-war-extension.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  workflow_dispatch:
+
+jobs:
+  first-party-history-and-historical-printings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Confirm original Pack A source and continuity boundaries
+        run: python3 scripts/audit_lore_pack_a.py
+      - name: Verify survivor discrepancy and nine exact historical card-name joins
+        run: python3 scripts/audit_lore_pack_a_extension.py
+      - name: Test Pack A2 non-illustration and after-war chronology boundaries
+        run: python3 -m unittest discover -s tests -p 'test_lore_pack_a_extension.py' -v
+      - name: Keep qualified Phase 1B release unchanged
+        run: python3 scripts/audit_phase1b_functional_release.py
