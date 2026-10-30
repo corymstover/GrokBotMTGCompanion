@@ -27,6 +27,7 @@ BOXED_SPECIALTY_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_specialty_source_au
 BOXED_SPECIAL_LAIR_GLOBAL_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_special_lair_global_audit_2026-10-29.json"
 INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW = ROOT / "data/set_atlas/inserts_clash_spellbook_source_audit_2026-10-29.json"
 MASTERPIECE_MEMORABILIA_SOURCE_REVIEW = ROOT / "data/set_atlas/masterpiece_memorabilia_source_audit_2026-10-29.json"
+HISTORICAL_PROMO_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/historical_promo_series_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -658,6 +659,60 @@ def apply_masterpiece_memorabilia_source_overlay(data, review):
     return result
 
 
+def apply_historical_promo_series_overlay(data, review):
+    """Add dated Wizards event/retrospective evidence, never invent exact printed codes."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 198:
+        raise ValueError("Annual promo evidence requires the 198-code checkpoint")
+    updates = {r["code"]: r for r in review["reviewed_named_promo_families"]}
+    if len(updates) != review["new_source_backed_codes"] or len(updates) != 10:
+        raise ValueError("Historical promo series review has duplicate/missing codes")
+    changed = set()
+    rows = []
+    for original in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(original)
+        src = updates.get(item["code"])
+        if src is not None:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Cannot replace already reviewed promo source {item['code']}")
+            if (item["scryfall_set_type"] != src["scryfall_type"] or
+                    item["scryfall_release_or_first_card_date"] != src["scryfall_earliest_card_date"] or
+                    item["parent_set_code_explicit_only"] != src["scryfall_parent_set_code_unchanged"] or
+                    src["wizards_prints_exact_scryfall_code"]):
+                raise ValueError(f"Historical promo metadata/code-evidence mismatch {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_annual_promo_or_retrospective_family_only_reviewed",
+                "wizards_primary_source": src["official_source_url"],
+                "wizards_review_product_group": src["officially_supported_product_family"],
+                "wizards_source_grade": src["source_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "verified_evidence_note": src["source_caveat"],
+                "wizards_premier_status_certified": False,
+                "complete_printing_inventory_certified": False,
+                "current_format_legality_certified": False,
+            })
+            changed.add(item["code"])
+        rows.append(item)
+    if changed != set(updates) or len(rows) != 848:
+        raise ValueError("Historical promo review changed frozen catalog coverage")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in rows if r["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(x["wizards_individual_source_review"]) for x in rows) != 208:
+        raise ValueError("208 cumulative official cited family records not conserved")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -696,6 +751,9 @@ def load_current_index():
     if MASTERPIECE_MEMORABILIA_SOURCE_REVIEW.exists():
         report = json.loads(MASTERPIECE_MEMORABILIA_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_masterpiece_memorabilia_source_overlay(data, report)
+    if HISTORICAL_PROMO_SERIES_SOURCE_REVIEW.exists():
+        report = json.loads(HISTORICAL_PROMO_SERIES_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_historical_promo_series_overlay(data, report)
     return data
 
 
