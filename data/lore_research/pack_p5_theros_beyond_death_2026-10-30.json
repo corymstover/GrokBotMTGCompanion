@@ -1,0 +1,381 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_theros_beyond_death",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "THB",
+ "scope": "Targeted Phase 5 extraction from the official Theros Beyond Death Story Summary (Wizards of the Coast, 2020-01-10), told in third-person narration. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_theros_beyond_death.spec.json",
+ "source_register": {
+  "thb_summary": {
+   "title": "Theros Beyond Death Story Summary",
+   "url": "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10",
+   "kind": "official_story_feature",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2020-01-10"
+  }
+ },
+ "entities": [
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "heliod",
+   "type": "Character",
+   "name": "Heliod"
+  },
+  {
+   "id": "erebos",
+   "type": "Character",
+   "name": "Erebos"
+  },
+  {
+   "id": "klothys",
+   "type": "Character",
+   "name": "Klothys"
+  },
+  {
+   "id": "calix",
+   "type": "Character",
+   "name": "Calix"
+  },
+  {
+   "id": "daxos",
+   "type": "Character",
+   "name": "Daxos"
+  },
+  {
+   "id": "xenagos",
+   "type": "Character",
+   "name": "Xenagos"
+  },
+  {
+   "id": "ashiok",
+   "type": "Character",
+   "name": "Ashiok"
+  },
+  {
+   "id": "theros",
+   "type": "Plane",
+   "name": "Theros"
+  },
+  {
+   "id": "theros_gods",
+   "type": "Faction",
+   "name": "Gods of Theros"
+  },
+  {
+   "id": "theros_titans",
+   "type": "Faction",
+   "name": "Titans of Theros"
+  },
+  {
+   "id": "theros_underworld",
+   "type": "Place",
+   "name": "Underworld (Theros)"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  },
+  {
+   "id": "shadowspear",
+   "type": "Object",
+   "name": "Elspeth's shadowspear"
+  }
+ ],
+ "claims": [
+  {
+   "id": "TB001",
+   "subject": "theros_gods",
+   "predicate": "imprisoned",
+   "object": "theros_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Imbued with incredible power by the faith of mortals, the gods sealed the titans away in the Underworld."
+    }
+   ],
+   "summary": "The gods of Theros sealed the titans away in the Underworld.",
+   "limitation": ""
+  },
+  {
+   "id": "TB002",
+   "subject": "klothys",
+   "predicate": "imprisoned",
+   "object": "theros_titans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Klothys, the god of fate, volunteered to act as jailer and sequestered herself in the Underworld for eternity."
+    },
+    {
+     "source_id": "thb_summary",
+     "quote": "it was Klothys who acted as eternal seal, ensuring the titans remained trapped"
+    }
+   ],
+   "summary": "Klothys acts as jailer and eternal seal keeping the titans trapped.",
+   "limitation": ""
+  },
+  {
+   "id": "TB003",
+   "subject": "erebos",
+   "predicate": "controls",
+   "object": "theros_underworld",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "While Erebos rules this realm beyond death"
+    }
+   ],
+   "summary": "Erebos rules the Underworld of Theros.",
+   "limitation": ""
+  },
+  {
+   "id": "TB004",
+   "subject": "elspeth_tirel",
+   "predicate": "destroyed",
+   "object": "xenagos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "The sun god Heliod sent his champion, the Planeswalker Elspeth, to destroy Xenagos—and she succeeded."
+    }
+   ],
+   "summary": "As Heliod's champion, Elspeth destroyed the ascended god Xenagos.",
+   "limitation": ""
+  },
+  {
+   "id": "TB005",
+   "subject": "heliod",
+   "predicate": "killed",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Fearful, Heliod struck Elspeth down in her moment of triumph, casting her into the Underworld to be forgotten."
+    }
+   ],
+   "summary": "Heliod killed Elspeth after her victory and cast her into the Underworld.",
+   "limitation": ""
+  },
+  {
+   "id": "TB006",
+   "subject": "elspeth_tirel",
+   "predicate": "romantically_involved_with",
+   "object": "daxos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Of Daxos, her former love, whom she was tricked into killing."
+    }
+   ],
+   "summary": "Daxos was Elspeth's former love.",
+   "limitation": "Past relationship, described as former."
+  },
+  {
+   "id": "TB007",
+   "subject": "daxos",
+   "predicate": "champion_of",
+   "object": "heliod",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "To that end, he pulled the soul of the oracle Daxos and transformed him into his champion in the mortal realm."
+    }
+   ],
+   "summary": "Heliod transformed the oracle Daxos into his demigod champion.",
+   "limitation": ""
+  },
+  {
+   "id": "TB008",
+   "subject": "klothys",
+   "predicate": "created",
+   "object": "calix",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "So Klothys weaved her masterpiece—an agent of fate she called Calix."
+    }
+   ],
+   "summary": "Klothys created Calix as an agent of fate.",
+   "limitation": ""
+  },
+  {
+   "id": "TB009",
+   "subject": "elspeth_tirel",
+   "predicate": "defeated",
+   "object": "calix",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "She also clashed repeatedly with Calix, emerging victorious every time."
+    },
+    {
+     "source_id": "thb_summary",
+     "quote": "Still, she defeated him one final time as she reached the exit."
+    }
+   ],
+   "summary": "Elspeth repeatedly defeated Calix during her escape.",
+   "limitation": ""
+  },
+  {
+   "id": "TB010",
+   "subject": "elspeth_tirel",
+   "predicate": "defeated",
+   "object": "heliod",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Staring down the point of a spear that was no longer his, Heliod yielded."
+    }
+   ],
+   "summary": "Heliod yielded to Elspeth when his spear shattered.",
+   "limitation": ""
+  },
+  {
+   "id": "TB011",
+   "subject": "erebos",
+   "predicate": "imprisoned",
+   "object": "heliod",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "And Erebos simply took the defeated sun god and placed him beneath a giant boulder"
+    }
+   ],
+   "summary": "Erebos imprisoned the defeated Heliod beneath a giant boulder.",
+   "limitation": ""
+  },
+  {
+   "id": "TB012",
+   "subject": "calix",
+   "predicate": "pursued",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Calix headed off in pursuit of Elspeth in order to preserve that which should be."
+    },
+    {
+     "source_id": "thb_summary",
+     "quote": "But in his darkest hour, a strange idea sparked within him—and he simply planeswalked after her."
+    }
+   ],
+   "summary": "Calix pursued Elspeth, ultimately planeswalking after her.",
+   "limitation": ""
+  },
+  {
+   "id": "TB013",
+   "subject": "ashiok",
+   "predicate": "created",
+   "object": "shadowspear",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Ashiok's visions are more real than most, and in one of them, Elspeth seized Heliod's spear Khrusor."
+    },
+    {
+     "source_id": "thb_summary",
+     "quote": "When the vision had passed, a twisted version of the spear remained, dripping with darkness and power."
+    }
+   ],
+   "summary": "The shadowspear came out of one of Ashiok's nightmare visions.",
+   "limitation": "The summary says the spear remained after Ashiok's vision; calling Ashiok its creator is an inference."
+  },
+  {
+   "id": "TB014",
+   "subject": "ashiok",
+   "predicate": "sought",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_thb_2020",
+   "source_ids": [
+    "thb_summary"
+   ],
+   "evidence": [
+    {
+     "source_id": "thb_summary",
+     "quote": "Ashiok learned of the Phyrexians' existence and promptly planeswalked away to learn more of these true living nightmares."
+    }
+   ],
+   "summary": "Ashiok left Theros to learn more about the Phyrexians.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 1,
+ "pages_cited": 1,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Only the summary page is used; Odds & Ends: Theros Beyond Death and the story-on-cards feature are not yet extracted",
+  "Elspeth's fate after leaving Theros is not graded here"
+ ]
+}

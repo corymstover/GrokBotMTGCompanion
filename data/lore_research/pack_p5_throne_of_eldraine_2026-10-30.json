@@ -1,0 +1,337 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_throne_of_eldraine",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "ELD",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guide to Eldraine (Chris Mooney, 2019-10-31). ELD has no episodic web fiction in the cached inventory. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_throne_of_eldraine.spec.json",
+ "source_register": {
+  "eld_guide": {
+   "title": "Planeswalker's Guide to Eldraine",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-eldraine-2019-10-31",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2019-10-31"
+  }
+ },
+ "entities": [
+  {
+   "id": "eldraine",
+   "type": "Plane",
+   "name": "Eldraine"
+  },
+  {
+   "id": "rowan_kenrith",
+   "type": "Character",
+   "name": "Rowan Kenrith"
+  },
+  {
+   "id": "will_kenrith",
+   "type": "Character",
+   "name": "Will Kenrith"
+  },
+  {
+   "id": "high_king_kenrith",
+   "type": "Character",
+   "name": "High King Kenrith"
+  },
+  {
+   "id": "linden",
+   "type": "Character",
+   "name": "Queen Linden"
+  },
+  {
+   "id": "hazel_kenrith",
+   "type": "Character",
+   "name": "Hazel Kenrith"
+  },
+  {
+   "id": "eric_kenrith",
+   "type": "Character",
+   "name": "Eric Kenrith"
+  },
+  {
+   "id": "ardenvale",
+   "type": "Place",
+   "name": "Ardenvale"
+  },
+  {
+   "id": "vantress",
+   "type": "Place",
+   "name": "Vantress"
+  },
+  {
+   "id": "magic_mirror",
+   "type": "Object",
+   "name": "Magic Mirror of Vantress"
+  },
+  {
+   "id": "ayara",
+   "type": "Character",
+   "name": "Ayara"
+  },
+  {
+   "id": "locthwain",
+   "type": "Place",
+   "name": "Locthwain"
+  },
+  {
+   "id": "cauldron_of_eternity",
+   "type": "Object",
+   "name": "Cauldron of Eternity"
+  },
+  {
+   "id": "yorvo",
+   "type": "Character",
+   "name": "Yorvo"
+  },
+  {
+   "id": "garenbrig",
+   "type": "Place",
+   "name": "Garenbrig"
+  },
+  {
+   "id": "great_henge",
+   "type": "Object",
+   "name": "Great Henge"
+  },
+  {
+   "id": "questing_beast",
+   "type": "Character",
+   "name": "Questing Beast"
+  },
+  {
+   "id": "high_throne",
+   "type": "Concept",
+   "name": "High Throne of Eldraine"
+  },
+  {
+   "id": "eldraine_elves",
+   "type": "Faction",
+   "name": "Elves of Eldraine"
+  }
+ ],
+ "claims": [
+  {
+   "id": "EL001",
+   "subject": "high_king_kenrith",
+   "predicate": "spouse_of",
+   "object": "linden",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "They fell in love, and they were married shortly after High King Kenrith completed the High Quest and ascended to the throne"
+    }
+   ],
+   "summary": "Queen Linden married High King Kenrith after he completed the High Quest.",
+   "limitation": ""
+  },
+  {
+   "id": "EL002",
+   "subject": "high_king_kenrith",
+   "predicate": "parent_of",
+   "object": "rowan_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric."
+    }
+   ],
+   "summary": "Rowan is a child of High King Kenrith and Queen Linden.",
+   "limitation": ""
+  },
+  {
+   "id": "EL003",
+   "subject": "high_king_kenrith",
+   "predicate": "parent_of",
+   "object": "will_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric."
+    }
+   ],
+   "summary": "Will is a child of High King Kenrith and Queen Linden.",
+   "limitation": ""
+  },
+  {
+   "id": "EL004",
+   "subject": "rowan_kenrith",
+   "predicate": "sibling_of",
+   "object": "will_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The castle is home to both High King Kenrith and Queen Linden, along with their four children: Rowan, Will, Hazel, and Eric."
+    }
+   ],
+   "summary": "Rowan and Will are siblings, two of the four Kenrith children.",
+   "limitation": "The guide does not say they are twins."
+  },
+  {
+   "id": "EL005",
+   "subject": "high_king_kenrith",
+   "predicate": "leader_of",
+   "object": "high_throne",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "High King Kenrith completed the High Quest and ascended to the throne"
+    }
+   ],
+   "summary": "Kenrith completed the High Quest and ascended to the High Throne.",
+   "limitation": ""
+  },
+  {
+   "id": "EL006",
+   "subject": "magic_mirror",
+   "predicate": "leader_of",
+   "object": "vantress",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "Unlike the other courts, Vantress has no official ruler. Instead, the people of Vantress are led by the Magic Mirror itself."
+    }
+   ],
+   "summary": "Vantress has no official ruler; its people are led by the Magic Mirror.",
+   "limitation": ""
+  },
+  {
+   "id": "EL007",
+   "subject": "ayara",
+   "predicate": "leader_of",
+   "object": "locthwain",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The ruler of Locthwain is Queen Ayara. Unique among the rulers of the courts, she is an elf"
+    }
+   ],
+   "summary": "Queen Ayara, an elf, rules Locthwain.",
+   "limitation": ""
+  },
+  {
+   "id": "EL008",
+   "subject": "ayara",
+   "predicate": "sought",
+   "object": "cauldron_of_eternity",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "Thus, Locthwain remains airborne, wandering the realm as Ayara and her knights seek to recover their lost relic age after age."
+    }
+   ],
+   "summary": "Ayara and her knights seek the lost Cauldron of Eternity, Locthwain's relic.",
+   "limitation": ""
+  },
+  {
+   "id": "EL009",
+   "subject": "yorvo",
+   "predicate": "leader_of",
+   "object": "garenbrig",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "The current king of Garenbrig is a giant named Yorvo, who towers over even others of his kind."
+    }
+   ],
+   "summary": "The giant Yorvo is king of Garenbrig.",
+   "limitation": ""
+  },
+  {
+   "id": "EL010",
+   "subject": "questing_beast",
+   "predicate": "guardian_of",
+   "object": "high_throne",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "About once a generation, a mysterious creature called the Questing Beast chooses an extraordinary knight to undertake a grueling challenge, called the Great Quest, to claim the High Throne of the realm."
+    }
+   ],
+   "summary": "The Questing Beast chooses the knight who may undertake the quest for the High Throne.",
+   "limitation": "It selects candidates; 'guardian_of' is the pack's closest predicate. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe."
+  },
+  {
+   "id": "EL011",
+   "subject": "eldraine_elves",
+   "predicate": "leader_of",
+   "object": "eldraine",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_eld_2019",
+   "source_ids": [
+    "eld_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "eld_guide",
+     "quote": "Before the rise of humanity, elves ruled the land that is now the realm."
+    },
+    {
+     "source_id": "eld_guide",
+     "quote": "Eight or nine generations ago, humans rose to power and drove the elves out of what would become the realm."
+    }
+   ],
+   "summary": "Elves ruled the land before humans drove them out eight or nine generations ago.",
+   "limitation": "Past state only; the object stands for the land that became the realm. The guide is an in-universe traveller's account; it reports what the realm's folk say and believe."
+  }
+ ],
+ "pages_registered": 1,
+ "pages_cited": 1,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Only the guide is cached for ELD; the Throne of Eldraine web fiction is not in the inventory",
+  "Embereth's ruling council and the wilds' fae are not graded"
+ ]
+}

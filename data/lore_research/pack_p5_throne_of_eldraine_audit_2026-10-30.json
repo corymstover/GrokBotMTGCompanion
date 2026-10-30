@@ -1,0 +1,92 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "ELD",
+ "claims": 11,
+ "entities": 19,
+ "sources": 1,
+ "grades": {
+  "CANON_CONFIRMED": 9,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 12,
+ "quotes_verbatim": 12,
+ "quote_rows": [
+  {
+   "claim": "EL001",
+   "source_id": "eld_guide",
+   "quote_sha256": "c967f9963acb5e8496fa7ec9cfb7636bad5f70611edc7870a4c08e9e5ce2bedf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL002",
+   "source_id": "eld_guide",
+   "quote_sha256": "c50d5dd0f0020d9d17808e0b10a6a8aaf25e5aef92c668051b62819a6f7786e8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL003",
+   "source_id": "eld_guide",
+   "quote_sha256": "c50d5dd0f0020d9d17808e0b10a6a8aaf25e5aef92c668051b62819a6f7786e8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL004",
+   "source_id": "eld_guide",
+   "quote_sha256": "c50d5dd0f0020d9d17808e0b10a6a8aaf25e5aef92c668051b62819a6f7786e8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL005",
+   "source_id": "eld_guide",
+   "quote_sha256": "6eab7be093dee408b9ac8860197b23288778129a7dd7bee5c9ca86a179c8d854",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL006",
+   "source_id": "eld_guide",
+   "quote_sha256": "117f72b48a36b4783ff82a681e8aa2439d3dc12a6bc406248c51c8ad81f86ea5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL007",
+   "source_id": "eld_guide",
+   "quote_sha256": "067e30e78fa7d8127414ba33ddced53aae0a38508e1ad891ae917c9da526f4ba",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL008",
+   "source_id": "eld_guide",
+   "quote_sha256": "6613e8d5238bcda8787af7e5a2fc116b1c8016eb1e2909c7e3bbaed8bb635ac8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL009",
+   "source_id": "eld_guide",
+   "quote_sha256": "dd6241dc74e4966116575bafe75a4c31766101712126fb95d2a9840f9bcb677b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL010",
+   "source_id": "eld_guide",
+   "quote_sha256": "ab46d8a4a81c367c4a6129f1c940bbfabb3596ec4c8763b0d6b2ddac7433e168",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL011",
+   "source_id": "eld_guide",
+   "quote_sha256": "8378f37c47d1032d407d8a3515835874de42be11215339473557ff9c9541d541",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "EL011",
+   "source_id": "eld_guide",
+   "quote_sha256": "f5b2527b06c2720736b1532dace0857d6ec8c6351c53fe13da74320512e395bc",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "c8dc883a1760c5a629c48f7725e43a47f5c74d0b5a02c09cec014090f79fd2b5"
+}

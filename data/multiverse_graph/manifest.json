@@ -26,7 +26,11 @@
   "data/lore_research/pack_p5_aetherdrift_2026-10-30.json",
   "data/lore_research/pack_p5_kaldheim_2026-10-30.json",
   "data/lore_research/pack_p5_strixhaven_2026-10-30.json",
-  "data/lore_research/pack_p5_ikoria_2026-10-30.json"
+  "data/lore_research/pack_p5_ikoria_2026-10-30.json",
+  "data/lore_research/pack_p5_theros_beyond_death_2026-10-30.json",
+  "data/lore_research/pack_p5_theros_ths_2026-10-30.json",
+  "data/lore_research/pack_p5_mom_aftermath_2026-10-30.json",
+  "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json"
  ],
  "art_match_packs": [
   "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json"

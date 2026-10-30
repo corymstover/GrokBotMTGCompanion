@@ -231,6 +231,23 @@
    ]
   },
   {
+   "entity": "anax",
+   "entity_type": "Character",
+   "entity_name": "Anax",
+   "aliases": [
+    "Anax"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Anax, Hardened in the Forge",
+     "oracle_id": "e23cd06d-1360-4e5d-aecc-adf902bede69",
+     "type_line": "Legendary Enchantment Creature — Demigod",
+     "scryfall_uri": "https://scryfall.com/card/cmm/204/anax-hardened-in-the-forge"
+    }
+   ]
+  },
+  {
    "entity": "angrath",
    "entity_type": "Character",
    "entity_name": "Angrath",
@@ -290,6 +307,23 @@
      "oracle_id": "858067f9-eb1f-4569-9831-30441cba5f90",
      "type_line": "Legendary Creature — Human Rogue",
      "scryfall_uri": "https://scryfall.com/card/otj/190/annie-flash-the-veteran"
+    }
+   ]
+  },
+  {
+   "entity": "anthousa",
+   "entity_type": "Character",
+   "entity_name": "Anthousa",
+   "aliases": [
+    "Anthousa"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Anthousa, Setessan Hero",
+     "oracle_id": "141f952b-9e9f-48c5-9c88-b1504dfa73bc",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/ths/149/anthousa-setessan-hero"
     }
    ]
   },
@@ -485,6 +519,29 @@
    ]
   },
   {
+   "entity": "ayara",
+   "entity_type": "Character",
+   "entity_name": "Ayara",
+   "aliases": [
+    "Ayara"
+   ],
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ayara, First of Locthwain",
+     "oracle_id": "388168b3-ec68-4af2-b88c-6a5ec88c15f6",
+     "type_line": "Legendary Creature — Elf Noble",
+     "scryfall_uri": "https://scryfall.com/card/eld/75/ayara-first-of-locthwain"
+    },
+    {
+     "name": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+     "oracle_id": "f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f",
+     "type_line": "Legendary Creature — Elf Noble // Legendary Creature — Phyrexian Elf Noble",
+     "scryfall_uri": "https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen"
+    }
+   ]
+  },
+  {
    "entity": "azor",
    "entity_type": "Character",
    "entity_name": "Azor",
@@ -536,6 +593,29 @@
    ]
   },
   {
+   "entity": "brimaz",
+   "entity_type": "Character",
+   "entity_name": "Brimaz",
+   "aliases": [
+    "Brimaz"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Brimaz, Blight of Oreskos",
+     "oracle_id": "a6e7cbfc-6d5a-4a67-9dad-d512d3c97bda",
+     "type_line": "Legendary Creature — Phyrexian Cat",
+     "scryfall_uri": "https://scryfall.com/card/moc/2/brimaz-blight-of-oreskos"
+    },
+    {
+     "name": "Brimaz, King of Oreskos",
+     "oracle_id": "49471b65-be9d-4ded-b2e5-dfc81b306b54",
+     "type_line": "Legendary Creature — Cat Soldier",
+     "scryfall_uri": "https://scryfall.com/card/bng/5/brimaz-king-of-oreskos"
+    }
+   ]
+  },
+  {
    "entity": "brothers_war",
    "entity_type": "Event",
    "entity_name": "The Brothers' War",
@@ -566,6 +646,29 @@
      "oracle_id": "066cd584-773c-4623-be53-8f6feda5a26a",
      "type_line": "Land",
      "scryfall_uri": "https://scryfall.com/card/dom/238/cabal-stronghold"
+    }
+   ]
+  },
+  {
+   "entity": "calix",
+   "entity_type": "Character",
+   "entity_name": "Calix",
+   "aliases": [
+    "Calix"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Calix, Destiny's Hand",
+     "oracle_id": "d9f01177-2237-475e-ad91-114bfae077ce",
+     "type_line": "Legendary Planeswalker — Calix",
+     "scryfall_uri": "https://scryfall.com/card/cmm/918/calix-destinys-hand"
+    },
+    {
+     "name": "Calix, Guided by Fate",
+     "oracle_id": "1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249",
+     "type_line": "Legendary Enchantment Creature — Human Druid",
+     "scryfall_uri": "https://scryfall.com/card/mat/26/calix-guided-by-fate"
     }
    ]
   },
@@ -753,6 +856,35 @@
    ]
   },
   {
+   "entity": "daxos",
+   "entity_type": "Character",
+   "entity_name": "Daxos",
+   "aliases": [
+    "Daxos"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Daxos of Meletis",
+     "oracle_id": "4cf10cb6-b082-4c0d-89e9-43cd39716201",
+     "type_line": "Legendary Creature — Human Soldier",
+     "scryfall_uri": "https://scryfall.com/card/ncc/335/daxos-of-meletis"
+    },
+    {
+     "name": "Daxos the Returned",
+     "oracle_id": "8a9e8f60-eb13-4ae8-82df-d4c46da74451",
+     "type_line": "Legendary Creature — Zombie Soldier",
+     "scryfall_uri": "https://scryfall.com/card/c15/43/daxos-the-returned"
+    },
+    {
+     "name": "Daxos, Blessed by the Sun",
+     "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
+     "type_line": "Legendary Enchantment Creature — Demigod",
+     "scryfall_uri": "https://scryfall.com/card/thb/9/daxos-blessed-by-the-sun"
+    }
+   ]
+  },
+  {
    "entity": "dovin_baan",
    "entity_type": "Character",
    "entity_name": "Dovin Baan",
@@ -898,6 +1030,29 @@
      "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
      "type_line": "Legendary Artifact",
      "scryfall_uri": "https://scryfall.com/card/eoe/240/the-endstone"
+    }
+   ]
+  },
+  {
+   "entity": "erebos",
+   "entity_type": "Character",
+   "entity_name": "Erebos",
+   "aliases": [
+    "Erebos"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Erebos, Bleak-Hearted",
+     "oracle_id": "a5690dc9-f12e-4ecc-b528-f2f83c79c3c8",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/cmm/868/erebos-bleak-hearted"
+    },
+    {
+     "name": "Erebos, God of the Dead",
+     "oracle_id": "1cfc7b12-a595-492d-81ee-bd100ba7de6a",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/ths/85/erebos-god-of-the-dead"
     }
    ]
   },
@@ -1144,6 +1299,23 @@
    ]
   },
   {
+   "entity": "godsend",
+   "entity_type": "Object",
+   "entity_name": "Godsend",
+   "aliases": [
+    "Godsend"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Godsend",
+     "oracle_id": "dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4",
+     "type_line": "Legendary Artifact — Equipment",
+     "scryfall_uri": "https://scryfall.com/card/jou/12/godsend"
+    }
+   ]
+  },
+  {
    "entity": "golgothian_sylex",
    "entity_type": "Object",
    "entity_name": "Golgothian Sylex",
@@ -1304,6 +1476,35 @@
    ]
   },
   {
+   "entity": "heliod",
+   "entity_type": "Character",
+   "entity_name": "Heliod",
+   "aliases": [
+    "Heliod"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Heliod, God of the Sun",
+     "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/cmm/826/heliod-god-of-the-sun"
+    },
+    {
+     "name": "Heliod, Sun-Crowned",
+     "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/cmm/29/heliod-sun-crowned"
+    },
+    {
+     "name": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+     "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+     "type_line": "Legendary Enchantment Creature — God // Legendary Enchantment Creature — Phyrexian God",
+     "scryfall_uri": "https://scryfall.com/card/mom/17/heliod-the-radiant-dawn-heliod-the-warped-eclipse"
+    }
+   ]
+  },
+  {
    "entity": "huatli",
    "entity_type": "Character",
    "entity_name": "Huatli",
@@ -1375,6 +1576,23 @@
      "oracle_id": "176f5ba8-6e7b-4234-a298-b6164f51656f",
      "type_line": "Legendary Creature — Human Knight",
      "scryfall_uri": "https://scryfall.com/card/lci/156/inti-seneschal-of-the-sun"
+    }
+   ]
+  },
+  {
+   "entity": "iroas",
+   "entity_type": "Character",
+   "entity_name": "Iroas",
+   "aliases": [
+    "Iroas"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Iroas, God of Victory",
+     "oracle_id": "36041cf2-159f-4809-9377-930ac4db545f",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/c16/205/iroas-god-of-victory"
     }
    ]
   },
@@ -1559,6 +1777,23 @@
      "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
      "type_line": "Legendary Planeswalker — Kaito",
      "scryfall_uri": "https://scryfall.com/card/neo/226/kaito-shizuki"
+    }
+   ]
+  },
+  {
+   "entity": "karametra",
+   "entity_type": "Character",
+   "entity_name": "Karametra",
+   "aliases": [
+    "Karametra"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Karametra, God of Harvests",
+     "oracle_id": "984e763c-5a83-4231-8ec4-1be76846479a",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/c20/218/karametra-god-of-harvests"
     }
    ]
   },
@@ -1790,6 +2025,93 @@
    ]
   },
   {
+   "entity": "keranos",
+   "entity_type": "Character",
+   "entity_name": "Keranos",
+   "aliases": [
+    "Keranos"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Keranos, God of Storms",
+     "oracle_id": "2bd6f13a-ae02-426d-8f99-c20c5c08cf55",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/jou/151/keranos-god-of-storms"
+    }
+   ]
+  },
+  {
+   "entity": "kiora",
+   "entity_type": "Character",
+   "entity_name": "Kiora",
+   "aliases": [
+    "Kiora"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kiora of Fire and Ashes",
+     "oracle_id": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+     "type_line": "Legendary Creature — Merfolk Noble",
+     "scryfall_uri": "https://scryfall.com/card/fra/247/kiora-of-fire-and-ashes"
+    },
+    {
+     "name": "Kiora of Salt and Sand",
+     "oracle_id": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+     "type_line": "Legendary Creature — Merfolk Noble",
+     "scryfall_uri": "https://scryfall.com/card/fra/273/kiora-of-salt-and-sand"
+    },
+    {
+     "name": "Kiora, Behemoth Beckoner",
+     "oracle_id": "1efe485e-6874-4f4c-b981-e10f41670865",
+     "type_line": "Legendary Planeswalker — Kiora",
+     "scryfall_uri": "https://scryfall.com/card/war/232/kiora-behemoth-beckoner"
+    },
+    {
+     "name": "Kiora, Master of the Depths",
+     "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+     "type_line": "Legendary Planeswalker — Kiora",
+     "scryfall_uri": "https://scryfall.com/card/bfz/213/kiora-master-of-the-depths"
+    },
+    {
+     "name": "Kiora, Sovereign of the Deep",
+     "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
+     "type_line": "Legendary Creature — Merfolk Noble",
+     "scryfall_uri": "https://scryfall.com/card/mat/35/kiora-sovereign-of-the-deep"
+    },
+    {
+     "name": "Kiora, the Crashing Wave",
+     "oracle_id": "58cc2097-f4b4-4695-9076-78666050cdb6",
+     "type_line": "Legendary Planeswalker — Kiora",
+     "scryfall_uri": "https://scryfall.com/card/ddo/34/kiora-the-crashing-wave"
+    },
+    {
+     "name": "Kiora, the Rising Tide",
+     "oracle_id": "5d748bce-dff8-46fa-a3d1-633863b7bbff",
+     "type_line": "Legendary Creature — Merfolk Noble",
+     "scryfall_uri": "https://scryfall.com/card/fdn/45/kiora-the-rising-tide"
+    }
+   ]
+  },
+  {
+   "entity": "klothys",
+   "entity_type": "Character",
+   "entity_name": "Klothys",
+   "aliases": [
+    "Klothys"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Klothys, God of Destiny",
+     "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/thb/220/klothys-god-of-destiny"
+    }
+   ]
+  },
+  {
    "entity": "koll",
    "entity_type": "Character",
    "entity_name": "Koll",
@@ -1878,6 +2200,23 @@
      "oracle_id": "85e1791f-f9a0-4e82-baf6-33cff2dcf60b",
      "type_line": "Legendary Creature — Demon",
      "scryfall_uri": "https://scryfall.com/card/dmc/114/kothophed-soul-hoarder"
+    }
+   ]
+  },
+  {
+   "entity": "kruphix",
+   "entity_type": "Character",
+   "entity_name": "Kruphix",
+   "aliases": [
+    "Kruphix"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kruphix, God of Horizons",
+     "oracle_id": "b2cefcd6-4b81-479c-86ff-1695b836972c",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/jou/152/kruphix-god-of-horizons"
     }
    ]
   },
@@ -2233,6 +2572,23 @@
    ]
   },
   {
+   "entity": "mogis",
+   "entity_type": "Character",
+   "entity_name": "Mogis",
+   "aliases": [
+    "Mogis"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mogis, God of Slaughter",
+     "oracle_id": "e5912d21-e188-4b9e-8e92-a6e8196353c6",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/dsc/89/mogis-god-of-slaughter"
+    }
+   ]
+  },
+  {
    "entity": "moonsilver_key",
    "entity_type": "Object",
    "entity_name": "Moonsilver Key",
@@ -2453,6 +2809,46 @@
    ]
   },
   {
+   "entity": "nylea",
+   "entity_type": "Character",
+   "entity_name": "Nylea",
+   "aliases": [
+    "Nylea"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nylea, God of the Hunt",
+     "oracle_id": "43674fdf-496f-42dc-8a0a-5c42a7c7d910",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/ths/166/nylea-god-of-the-hunt"
+    },
+    {
+     "name": "Nylea, Keen-Eyed",
+     "oracle_id": "642bbdf6-9a8c-4158-83c8-d59feb49101b",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/thb/185/nylea-keen-eyed"
+    }
+   ]
+  },
+  {
+   "entity": "nyx",
+   "entity_type": "Place",
+   "entity_name": "Nyx",
+   "aliases": [
+    "Nyx"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nyx",
+     "oracle_id": "6552e3dd-ce35-4267-a25e-f5d4dceb8311",
+     "type_line": "Plane — Theros",
+     "scryfall_uri": "https://scryfall.com/card/moc/61/nyx"
+    }
+   ]
+  },
+  {
    "entity": "ob_nixilis",
    "entity_type": "Character",
    "entity_name": "Ob Nixilis (the Adversary)",
@@ -2655,6 +3051,23 @@
    ]
   },
   {
+   "entity": "pharika",
+   "entity_type": "Character",
+   "entity_name": "Pharika",
+   "aliases": [
+    "Pharika"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Pharika, God of Affliction",
+     "oracle_id": "b7d05d00-1e69-4d11-bff0-c1ca2026aad6",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/jou/154/pharika-god-of-affliction"
+    }
+   ]
+  },
+  {
    "entity": "pia_nalaar",
    "entity_type": "Character",
    "entity_name": "Pia Nalaar",
@@ -2731,6 +3144,23 @@
      "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
      "type_line": "Legendary Planeswalker — Liliana",
      "scryfall_uri": "https://scryfall.com/card/dsc/153/professor-onyx"
+    }
+   ]
+  },
+  {
+   "entity": "questing_beast",
+   "entity_type": "Character",
+   "entity_name": "Questing Beast",
+   "aliases": [
+    "Questing Beast"
+   ],
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Questing Beast",
+     "oracle_id": "b685757b-521e-4353-a233-97052359723d",
+     "type_line": "Legendary Creature — Beast",
+     "scryfall_uri": "https://scryfall.com/card/eld/171/questing-beast"
     }
    ]
   },
@@ -3604,6 +4034,29 @@
    ]
   },
   {
+   "entity": "thassa",
+   "entity_type": "Character",
+   "entity_name": "Thassa",
+   "aliases": [
+    "Thassa"
+   ],
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Thassa, Deep-Dwelling",
+     "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/thb/71/thassa-deep-dwelling"
+    },
+    {
+     "name": "Thassa, God of the Sea",
+     "oracle_id": "69e5df2f-be1f-4608-a90f-3e2f51e2fea4",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/lcc/176/thassa-god-of-the-sea"
+    }
+   ]
+  },
+  {
    "entity": "the_theorist",
    "entity_type": "Character",
    "entity_name": "The Theorist (fractured aspect of Jace)",
@@ -4261,6 +4714,29 @@
    ]
   },
   {
+   "entity": "xenagos",
+   "entity_type": "Character",
+   "entity_name": "Xenagos",
+   "aliases": [
+    "Xenagos"
+   ],
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Xenagos, God of Revels",
+     "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
+     "type_line": "Legendary Enchantment Creature — God",
+     "scryfall_uri": "https://scryfall.com/card/lcc/295/xenagos-god-of-revels"
+    },
+    {
+     "name": "Xenagos, the Reveler",
+     "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
+     "type_line": "Legendary Planeswalker — Xenagos",
+     "scryfall_uri": "https://scryfall.com/card/clb/853/xenagos-the-reveler"
+    }
+   ]
+  },
+  {
    "entity": "yasova_dragonclaw",
    "entity_type": "Character",
    "entity_name": "Yasova Dragonclaw",
@@ -4292,6 +4768,23 @@
      "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
      "type_line": "Legendary Creature — Human Cleric",
      "scryfall_uri": "https://scryfall.com/card/dmr/110/yawgmoth-thran-physician"
+    }
+   ]
+  },
+  {
+   "entity": "yorvo",
+   "entity_type": "Character",
+   "entity_name": "Yorvo",
+   "aliases": [
+    "Yorvo"
+   ],
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Yorvo, Lord of Garenbrig",
+     "oracle_id": "00a15abc-bdac-4977-90a0-f08d41941d01",
+     "type_line": "Legendary Creature — Giant Noble",
+     "scryfall_uri": "https://scryfall.com/card/eld/185/yorvo-lord-of-garenbrig"
     }
    ]
   },
@@ -4389,7 +4882,9 @@
   }
  ],
  "unanchored_entities": [
+  "akros",
   "amalia",
+  "ardenvale",
   "artificial_omenpath",
   "bartolome",
   "belzenlok",
@@ -4398,20 +4893,28 @@
   "blackblade",
   "blood_avatar",
   "calamity_beast_egg",
+  "cauldron_of_eternity",
   "corondor_chasm",
   "cragflame",
   "cruelclaw",
+  "cymede",
   "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "dragonstorm_escape",
   "drannith",
   "eiko",
+  "emeria_skyclave",
+  "eric_kenrith",
   "first_phyrexian_invasion",
+  "garenbrig",
   "ghirapur_grand_prix",
   "ghirapur_revolution",
+  "great_henge",
   "halo",
+  "hazel_kenrith",
   "hexhaven",
+  "high_king_kenrith",
   "hurrik",
   "ice_age",
   "immortal_sun",
@@ -4425,9 +4928,14 @@
   "last_thing_android",
   "liliana_doppelganger",
   "lily_of_the_valley",
+  "linden",
+  "locthwain",
   "maag_taranau",
+  "magic_mirror",
   "maha",
   "mahitab",
+  "meletis",
+  "mom_invasion",
   "niharet",
   "oba",
   "one_sylex",
@@ -4439,6 +4947,8 @@
   "realmbreaker",
   "rtd_sylex",
   "savai_settlements",
+  "setessa",
+  "shadowspear",
   "skysovereign",
   "sothera",
   "sotheran_supervoid",
@@ -4452,9 +4962,11 @@
   "teferis_spark_stone",
   "temporal_rifts_mending",
   "the_house",
+  "theros_underworld",
   "tomik_vrona",
   "ugins_gem",
   "ugins_tomb_site",
+  "vantress",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
   "wicked_slumber",
@@ -4469,9 +4981,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 182,
-  "anchor_edges": 395,
-  "unanchored_entities": 71
+  "entities_anchored": 205,
+  "anchor_edges": 435,
+  "unanchored_entities": 90
  },
- "content_sha256": "a9031936ec7a6d80b5fd917d4727c03927585985e6eba05e978d1a67f7e6d4a3"
+ "content_sha256": "041ff29a7a9b7588e0190bb87516efdae69f0205064f53493718a83499c95f8c"
 }

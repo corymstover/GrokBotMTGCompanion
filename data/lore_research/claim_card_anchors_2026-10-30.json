@@ -75,6 +75,20 @@
   ],
   "pack_p5_ikoria_2026-10-30.json": [
    "iko"
+  ],
+  "pack_p5_theros_beyond_death_2026-10-30.json": [
+   "thb"
+  ],
+  "pack_p5_theros_ths_2026-10-30.json": [
+   "ths",
+   "bng",
+   "jou"
+  ],
+  "pack_p5_mom_aftermath_2026-10-30.json": [
+   "mat"
+  ],
+  "pack_p5_throne_of_eldraine_2026-10-30.json": [
+   "eld"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -15767,6 +15781,1869 @@
    "story_set_printings": [
     "iko"
    ]
+  },
+  {
+   "claim": "TB002",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "klothys",
+   "card": "Klothys, God of Destiny",
+   "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB003",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, Bleak-Hearted",
+   "oracle_id": "a5690dc9-f12e-4ecc-b528-f2f83c79c3c8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB003",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, God of the Dead",
+   "oracle_id": "1cfc7b12-a595-492d-81ee-bd100ba7de6a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB004",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB004",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, God of Revels",
+   "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB004",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, the Reveler",
+   "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB005",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB005",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB005",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB005",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB006",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB006",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos of Meletis",
+   "oracle_id": "4cf10cb6-b082-4c0d-89e9-43cd39716201",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB006",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos the Returned",
+   "oracle_id": "8a9e8f60-eb13-4ae8-82df-d4c46da74451",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB006",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos, Blessed by the Sun",
+   "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos of Meletis",
+   "oracle_id": "4cf10cb6-b082-4c0d-89e9-43cd39716201",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos the Returned",
+   "oracle_id": "8a9e8f60-eb13-4ae8-82df-d4c46da74451",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "daxos",
+   "card": "Daxos, Blessed by the Sun",
+   "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB007",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB008",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "klothys",
+   "card": "Klothys, God of Destiny",
+   "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB008",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Destiny's Hand",
+   "oracle_id": "d9f01177-2237-475e-ad91-114bfae077ce",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB008",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Guided by Fate",
+   "oracle_id": "1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB009",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB009",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Destiny's Hand",
+   "oracle_id": "d9f01177-2237-475e-ad91-114bfae077ce",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB009",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Guided by Fate",
+   "oracle_id": "1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB010",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB010",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB010",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB010",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB011",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, Bleak-Hearted",
+   "oracle_id": "a5690dc9-f12e-4ecc-b528-f2f83c79c3c8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB011",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, God of the Dead",
+   "oracle_id": "1cfc7b12-a595-492d-81ee-bd100ba7de6a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB011",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB011",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB011",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB012",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Destiny's Hand",
+   "oracle_id": "d9f01177-2237-475e-ad91-114bfae077ce",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB012",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "calix",
+   "card": "Calix, Guided by Fate",
+   "oracle_id": "1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB012",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB013",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB013",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB013",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB013",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB013",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB014",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB014",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB014",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TB014",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "thb"
+   ]
+  },
+  {
+   "claim": "TB014",
+   "pack": "pack_p5_theros_beyond_death_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS001",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS001",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS001",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS001",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, Bleak-Hearted",
+   "oracle_id": "a5690dc9-f12e-4ecc-b528-f2f83c79c3c8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS001",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "erebos",
+   "card": "Erebos, God of the Dead",
+   "oracle_id": "1cfc7b12-a595-492d-81ee-bd100ba7de6a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS002",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, God of Revels",
+   "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS002",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, the Reveler",
+   "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS002",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "nyx",
+   "card": "Nyx",
+   "oracle_id": "6552e3dd-ce35-4267-a25e-f5d4dceb8311",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS003",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, God of Revels",
+   "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS003",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, the Reveler",
+   "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS004",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "mogis",
+   "card": "Mogis, God of Slaughter",
+   "oracle_id": "e5912d21-e188-4b9e-8e92-a6e8196353c6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS004",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "iroas",
+   "card": "Iroas, God of Victory",
+   "oracle_id": "36041cf2-159f-4809-9377-930ac4db545f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS005",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "mogis",
+   "card": "Mogis, God of Slaughter",
+   "oracle_id": "e5912d21-e188-4b9e-8e92-a6e8196353c6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS006",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS007",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, God of the Sun",
+   "oracle_id": "4ea488b2-5ba0-4565-b928-570c8e03b926",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS007",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, Sun-Crowned",
+   "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS007",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "heliod",
+   "card": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+   "oracle_id": "c27c6ba9-8d72-4101-b3a5-1e8d81755568",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS007",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS008",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS009",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "brimaz",
+   "card": "Brimaz, Blight of Oreskos",
+   "oracle_id": "a6e7cbfc-6d5a-4a67-9dad-d512d3c97bda",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS009",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "brimaz",
+   "card": "Brimaz, King of Oreskos",
+   "oracle_id": "49471b65-be9d-4ded-b2e5-dfc81b306b54",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS010",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kruphix",
+   "card": "Kruphix, God of Horizons",
+   "oracle_id": "b2cefcd6-4b81-479c-86ff-1695b836972c",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS010",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "nyx",
+   "card": "Nyx",
+   "oracle_id": "6552e3dd-ce35-4267-a25e-f5d4dceb8311",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS011",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS011",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "godsend",
+   "card": "Godsend",
+   "oracle_id": "dd91f4f2-ea46-48c5-8a80-0dc4ae5b79c4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Fire and Ashes",
+   "oracle_id": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Salt and Sand",
+   "oracle_id": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Behemoth Beckoner",
+   "oracle_id": "1efe485e-6874-4f4c-b981-e10f41670865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Master of the Depths",
+   "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Sovereign of the Deep",
+   "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Crashing Wave",
+   "oracle_id": "58cc2097-f4b4-4695-9076-78666050cdb6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Rising Tide",
+   "oracle_id": "5d748bce-dff8-46fa-a3d1-633863b7bbff",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, Deep-Dwelling",
+   "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS012",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, God of the Sea",
+   "oracle_id": "69e5df2f-be1f-4608-a90f-3e2f51e2fea4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS013",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "pharika",
+   "card": "Pharika, God of Affliction",
+   "oracle_id": "b7d05d00-1e69-4d11-bff0-c1ca2026aad6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS014",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "anax",
+   "card": "Anax, Hardened in the Forge",
+   "oracle_id": "e23cd06d-1360-4e5d-aecc-adf902bede69",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS015",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "keranos",
+   "card": "Keranos, God of Storms",
+   "oracle_id": "2bd6f13a-ae02-426d-8f99-c20c5c08cf55",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS016",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "karametra",
+   "card": "Karametra, God of Harvests",
+   "oracle_id": "984e763c-5a83-4231-8ec4-1be76846479a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS017",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "karametra",
+   "card": "Karametra, God of Harvests",
+   "oracle_id": "984e763c-5a83-4231-8ec4-1be76846479a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS017",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "nylea",
+   "card": "Nylea, God of the Hunt",
+   "oracle_id": "43674fdf-496f-42dc-8a0a-5c42a7c7d910",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS017",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "nylea",
+   "card": "Nylea, Keen-Eyed",
+   "oracle_id": "642bbdf6-9a8c-4158-83c8-d59feb49101b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS018",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "anthousa",
+   "card": "Anthousa, Setessan Hero",
+   "oracle_id": "141f952b-9e9f-48c5-9c88-b1504dfa73bc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS019",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, Deep-Dwelling",
+   "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS019",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, God of the Sea",
+   "oracle_id": "69e5df2f-be1f-4608-a90f-3e2f51e2fea4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Druid of Argoth",
+   "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Hero of Dominaria",
+   "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Mage of Zhalfir",
+   "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Master of Time",
+   "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Archmage",
+   "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Pilgrim",
+   "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Time Raveler",
+   "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timebender",
+   "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timeless Voyager",
+   "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA001",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Who Slows the Sunset",
+   "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA013",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Hammer",
+   "oracle_id": "589186e0-3ebe-46a3-a9e7-798b1712fa93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA013",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Homestead",
+   "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA013",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, Fire of Resistance",
+   "oracle_id": "2c75b870-263b-41ab-9ece-6e3845bc3d8d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA013",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, the Geomancer",
+   "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA002",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mat"
+   ]
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "karn",
+   "card": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Hammer",
+   "oracle_id": "589186e0-3ebe-46a3-a9e7-798b1712fa93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth of the Homestead",
+   "oracle_id": "567aeb60-a441-41b1-98f4-54510d299317",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, Fire of Resistance",
+   "oracle_id": "2c75b870-263b-41ab-9ece-6e3845bc3d8d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA003",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "koth",
+   "card": "Koth, the Geomancer",
+   "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Druid of Argoth",
+   "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Hero of Dominaria",
+   "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Mage of Zhalfir",
+   "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Master of Time",
+   "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Archmage",
+   "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Pilgrim",
+   "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Time Raveler",
+   "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timebender",
+   "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timeless Voyager",
+   "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA004",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Who Slows the Sunset",
+   "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA005",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA007",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn // The Argent Etchings",
+   "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Grand Cenobite",
+   "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA008",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Mother of Machines",
+   "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard",
+   "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA009",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "jaya_ballard",
+   "card": "Jaya Ballard, Task Mage",
+   "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA010",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MA011",
+   "pack": "pack_p5_mom_aftermath_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL002",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL003",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "will_kenrith",
+   "card": "Will Kenrith",
+   "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL004",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL004",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "will_kenrith",
+   "card": "Will Kenrith",
+   "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL007",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "ayara",
+   "card": "Ayara, First of Locthwain",
+   "oracle_id": "388168b3-ec68-4af2-b88c-6a5ec88c15f6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eld"
+   ]
+  },
+  {
+   "claim": "EL007",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "ayara",
+   "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+   "oracle_id": "f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL008",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "ayara",
+   "card": "Ayara, First of Locthwain",
+   "oracle_id": "388168b3-ec68-4af2-b88c-6a5ec88c15f6",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eld"
+   ]
+  },
+  {
+   "claim": "EL008",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "ayara",
+   "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+   "oracle_id": "f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EL009",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "yorvo",
+   "card": "Yorvo, Lord of Garenbrig",
+   "oracle_id": "00a15abc-bdac-4977-90a0-f08d41941d01",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eld"
+   ]
+  },
+  {
+   "claim": "EL010",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "participant": "questing_beast",
+   "card": "Questing Beast",
+   "oracle_id": "b685757b-521e-4353-a233-97052359723d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eld"
+   ]
   }
  ],
  "by_pack": {
@@ -15917,6 +17794,13 @@
    "PRINTED_IN_STORY_SET": 20,
    "NAMED_PARTICIPANT": 38
   },
+  "pack_p5_mom_aftermath_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 1,
+   "NAMED_PARTICIPANT": 96
+  },
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": {
    "claims": 14,
    "claims_anchored": 13,
@@ -15952,6 +17836,27 @@
    "PRINTED_IN_STORY_SET": 6,
    "NAMED_PARTICIPANT": 11
   },
+  "pack_p5_theros_beyond_death_2026-10-30.json": {
+   "claims": 14,
+   "claims_anchored": 13,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 17,
+   "NAMED_PARTICIPANT": 31
+  },
+  "pack_p5_theros_ths_2026-10-30.json": {
+   "claims": 20,
+   "claims_anchored": 19,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 23,
+   "NAMED_PARTICIPANT": 38
+  },
+  "pack_p5_throne_of_eldraine_2026-10-30.json": {
+   "claims": 11,
+   "claims_anchored": 7,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 4,
+   "NAMED_PARTICIPANT": 6
+  },
   "pack_p5_wilds_of_eldraine_2026-10-30.json": {
    "claims": 14,
    "claims_anchored": 13,
@@ -15961,12 +17866,12 @@
   }
  },
  "counts": {
-  "claims": 418,
-  "claims_anchored": 377,
-  "anchors": 1840,
+  "claims": 475,
+  "claims_anchored": 427,
+  "anchors": 2056,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 290,
-  "NAMED_PARTICIPANT": 1519
+  "PRINTED_IN_STORY_SET": 335,
+  "NAMED_PARTICIPANT": 1690
  },
- "content_sha256": "3cb71e0a497de74fd6a30467e98dc6114d5e72a0b7086dcf4b2b1a8f0589dbef"
+ "content_sha256": "12ff90d1c00dba8043f4c722c1e49fba543e683eb7aad9de64645e0f9c34e771"
 }
