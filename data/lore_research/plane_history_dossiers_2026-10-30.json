@@ -2,16 +2,16 @@
   "schema": "plane-history-dossiers/v1",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "e74a33e697ff10958eb7f090f1a319978aaaf7187b12a7caac6a2c9cf7412677",
+  "source_graph_sha256": "856efb3d25ea0744e3ad6294fc036a6fb048859154e54568d27e9057b52ec0a0",
   "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 155,
-    "thin_planes_fewer_than_five_claims": 21,
+    "direct_claim_edges": 160,
+    "thin_planes_fewer_than_five_claims": 20,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 131,
+      "CANON_CONFIRMED": 136,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 21,
       "OPEN_QUESTION": 1
@@ -3877,7 +3877,7 @@
       "id": "plane:theros",
       "plane": "Theros",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 3,
+      "distinct_claims": 6,
       "facts": [
         {
           "claim_id": "MOM006",
@@ -3900,6 +3900,126 @@
               "id": "mom_ep01",
               "title": "March of the Machine | Episode 1: Triumph of the Fleshless",
               "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+            }
+          ]
+        },
+        {
+          "claim_id": "THP001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The official Theros profile describes the plane as ruled by a pantheon of gods whose whims and wrath affect mortals.",
+          "limitation": "This describes the pantheon's broad influence, not a complete list of gods or a formal constitutional government.",
+          "relation": "ruled_by_pantheon",
+          "subject": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "object": {
+            "id": "faction:theros_gods",
+            "name": "Gods of Theros"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ths_plane",
+              "title": "Theros",
+              "url": "https://magic.wizards.com/en/story/theros-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "THP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
+          "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
+          "relation": "contains_poleis",
+          "subject": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "object": {
+            "id": "place:akros",
+            "name": "Akros"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ths_plane",
+              "title": "Theros",
+              "url": "https://magic.wizards.com/en/story/theros-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "THP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
+          "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
+          "relation": "contains_poleis",
+          "subject": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "object": {
+            "id": "place:meletis",
+            "name": "Meletis"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ths_plane",
+              "title": "Theros",
+              "url": "https://magic.wizards.com/en/story/theros-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "THP002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The plane primer presents Meletis, Akros and Setessa as major poleis where mortals have sustained organized civilization.",
+          "limitation": "These three named cities are examples from the primer; the text does not assert they exhaust every polis on Theros.",
+          "relation": "contains_poleis",
+          "subject": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "object": {
+            "id": "place:setessa",
+            "name": "Setessa"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ths_plane",
+              "title": "Theros",
+              "url": "https://magic.wizards.com/en/story/theros-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "THP010",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Akros's cliff-top fortress is linked to an outpost network protecting areas beyond its walls.",
+          "limitation": "This describes a defensive function; it does not verify every defended territory or a specific dated war.",
+          "relation": "defended",
+          "subject": {
+            "id": "place:akros_outposts",
+            "name": "Fortified outpost network around Akros"
+          },
+          "object": {
+            "id": "plane:theros",
+            "name": "Theros"
+          },
+          "era_label": "plane_profile_undated",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "ths_plane",
+              "title": "Theros",
+              "url": "https://magic.wizards.com/en/story/theros-plane"
             }
           ]
         },
@@ -4270,5 +4390,5 @@
       ]
     }
   ],
-  "content_sha256": "0131f79754691ffb383a11be4b89d0c6a79d4c1e61894d464a4ba2ecd6613b30"
+  "content_sha256": "eb94eacb744797214ead2c93ffc3413dc4001ce8d525c8c136686f928154c47a"
 }
