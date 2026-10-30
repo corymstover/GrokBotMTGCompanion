@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.55
+**Version:** 2.56
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,20 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.56 Phase 4 source-local chronological evidence (2026-10-30):** New
+deterministic, quote-gated event sequences supplement the untouched Packs
+A–C 56-event chronology. Kamigawa's Kami War/Imperial origins (7 events),
+Bloomburrow Valley's **narrated legend** (9 events), and Duskmourn's
+House/Marina Ascension (8 events) yield **24 source-local nodes**, **17
+strict BEFORE edges**, **1 qualified during-war relation** and **37 of 276
+strictly ordered event pairs**. All 18 relationship quotes were matched
+to three live Wizards pages. The shared chronology command now returns
+cited proof or UNKNOWN across these strands and retains uncertainty about
+cross-plane dates and missing internal links. This is a distinct event set:
+its pair counts must not be added to the legacy 177/3,074 figure. L244,
+comprehensive history and final certification remain OPEN; Phase 6 remains
+deferred. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.
 
 **v2.54 Phase 4/5 plane-history expansion (2026-10-30):** Added two
 source-conservative historical packs with **20 new CANON_CONFIRMED claims**:
@@ -423,6 +437,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 4 — Foundational lore research packs
 
+- [x] **Add bounded source-local event order without conflating legend, history or real-world publication dates.** *(v2.56: 24 events across Kamigawa, narrated Valley tradition and Duskmourn; 17 strict BEFORE edges and one explicitly non-transitive DURING_OR_AFTER_START relation; 37/276 source-local pairs ordered. All 18 quoted relations live-checked against three official Wizards guides, with deterministic hashes, tests and a query path shared with the intact 56-event Packs A–C chronology. L244's total/cross-plane history is still unresolved; no deck-building gate is reopened. See `research/PHASE4_SOURCE_LOCAL_EVENT_SEQUENCES_2026-10-30.md`.)*
+
 - [ ] **Pack A: Ugin, Nicol Bolas, Elder Dragon origins and the Elder Dragon War.** Chronology, rivalries, allies, factions, planes, cards and primary sources.
 - [x] **Pack A first primary-source claim foundation (2026-10-30):** 12 explicit claim records, 13 stable entity nodes and 10 Wizards sources with narrator-perspective, original/revised Tarkir, prison/escape and Echoverse boundaries. See `research/PACK_A_Ugin_Bolas_Elder_Dragon_Duality.md` and `data/lore_research/pack_a_ugin_bolas_evidence_2026-10-30.json`. This is **partial research progress**, not the completed genealogy, card-to-canon evidence or deck.
 - [x] **Pack A2 Elder Dragon War / Primeval lineage extension (2026-10-30):** 12 further graded claims, 10 entities and 8 directly checked Wizards URLs. Source comparisons correct the incomplete four-name Bolas survivor account with the separately attested Piru/Chromium pair; distinguish the *later* Dihada/Dakkon encounter and Piru's death from the ancient war; trace Crosis and Rith; and join 9 exact printed card names to the historical English-paper printing index. Source and audit: `research/PACK_A2_Elder_Dragon_War_and_Primeval_Lineages.md`, `scripts/audit_lore_pack_a_extension.py`, and `data/lore_research/pack_a_elder_dragon_war_audit_2026-10-30.json`. **No card art scenes or current Commander legality are thereby certified.**
@@ -511,7 +527,7 @@ explicitly lifts the hold).
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.55 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.56 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.

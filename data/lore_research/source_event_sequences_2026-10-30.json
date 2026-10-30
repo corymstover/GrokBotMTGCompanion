@@ -1,0 +1,649 @@
+{
+  "schema": "source-event-sequences/v1",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "date": "2026-10-30",
+  "scope": "Three bounded, individually sourced chronology strands. No cross-plane alignment, no absolute AR date conversion and no assertions that a narrated legend is historical fact.",
+  "sources": {
+    "blb_guide1": {
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "published": "2024-07-11"
+    },
+    "dsk_guide": {
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "title": "Planeswalker's Guide to Duskmourn",
+      "published": "2024-08-31"
+    },
+    "neo_guide": {
+      "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "published": "2022-02-03"
+    }
+  },
+  "counts": {
+    "strands": 3,
+    "events": 24,
+    "strict_edges": 17,
+    "non_ordering_relations": 1,
+    "ordered_pairs": 37,
+    "total_pairs": 276
+  },
+  "strands": [
+    {
+      "id": "K",
+      "title": "Kamigawa — the Kami War and early Imperial administration",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "Only stated within the Neon Dynasty guide's historical summary. The Imperials' founding is not automatically chained to the boundary breakdown without a direct before/after statement.",
+      "events": 7,
+      "strict_edges": 5,
+      "non_ordering_relations": 0
+    },
+    {
+      "id": "V",
+      "title": "Bloomburrow Valley — narrated local legend, not established universal history",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "limitation": "The guide tells the Order of the Holly Leaf and Calamities history in an in-world voice and calls the Order legendary. Order here is the order of the tradition's account, not proved historical sequence or an AR calendar.",
+      "events": 9,
+      "strict_edges": 6,
+      "non_ordering_relations": 1
+    },
+    {
+      "id": "D",
+      "title": "Duskmourn — the original House, Marina and the Ascension",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "limitation": "The guide's origin account does not specify an original plane name, AR date, post-2024 exit or present-day political status.",
+      "events": 8,
+      "strict_edges": 6,
+      "non_ordering_relations": 0
+    }
+  ],
+  "nodes": [
+    {
+      "id": "D:ascension",
+      "strand": "D",
+      "label": "The House ultimately consumes the whole plane",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DS002",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "D:house_spreads",
+      "strand": "D",
+      "label": "The House's influence warps the neighborhood",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DH006",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "D:marina_confronts",
+      "strand": "D",
+      "label": "Marina demands that Valgavoth stop and threatens to burn the House",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "D:marina_illusion",
+      "strand": "D",
+      "label": "Valgavoth deceives Marina with apparent normality",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DH007",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "D:marina_lures",
+      "strand": "D",
+      "label": "Marina lures her bullies into the basement",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DH005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "D:marina_meets",
+      "strand": "D",
+      "label": "Marina encounters Valgavoth",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DH004",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "D:marina_researches",
+      "strand": "D",
+      "label": "Marina investigates the old House and discovers the demon",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": []
+    },
+    {
+      "id": "D:valgavoth_bound",
+      "strand": "D",
+      "label": "Valgavoth is bound within the original House",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "DS001",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:imperials_founded",
+      "strand": "K",
+      "label": "Imperials are founded to aid Kyodai",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH009",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:imperials_govern",
+      "strand": "K",
+      "label": "Imperials expand into governance",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH010",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:kami_war",
+      "strand": "K",
+      "label": "O-Kagachi retaliates and the Kami War begins",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH002",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:konda_imprisons",
+      "strand": "K",
+      "label": "Konda imprisons a part of O-Kagachi",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH004",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:kyodai_emerges",
+      "strand": "K",
+      "label": "The imprisoned part escapes and becomes Kyodai",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH005",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:kyodai_victory",
+      "strand": "K",
+      "label": "Kyodai and Michiko defeat Konda and O-Kagachi",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH006",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "K:realm_barrier_breaks",
+      "strand": "K",
+      "label": "O-Kagachi's death breaks the barrier between realms",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "claims": [
+        {
+          "id": "KMH007",
+          "grade": "CANON_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "V:animalfolk_shelter",
+      "strand": "V",
+      "label": "Animalfolk band together and shelter underground",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH002",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:calamity_dominance",
+      "strand": "V",
+      "label": "Calamity Beasts dominate the ancient Valley tale",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH001",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:holly_pact",
+      "strand": "V",
+      "label": "Order of the Holly Leaf makes its legendary pact",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH003",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:lily_saves_valley",
+      "strand": "V",
+      "label": "Lily's Seed Flame drives back Wildsear",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH008",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:sealed_great_magic",
+      "strand": "V",
+      "label": "Heroes' descendants seal the most powerful weaving",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH011",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:war_of_cinders",
+      "strand": "V",
+      "label": "War of Cinders is fought over two generations",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH005",
+          "grade": "CANON_IMPLIED"
+        },
+        {
+          "id": "BLH006",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:weaving",
+      "strand": "V",
+      "label": "The pact gives rise to mighty weaving in the tradition",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH004",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:weaving_backlash",
+      "strand": "V",
+      "label": "Unrestrained weaving causes destructive backlashes",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH010",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    },
+    {
+      "id": "V:wildsear_appears",
+      "strand": "V",
+      "label": "Wildsear appears during the legendary conflict",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "claims": [
+        {
+          "id": "BLH007",
+          "grade": "CANON_IMPLIED"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "earlier": "K:konda_imprisons",
+      "later": "K:kami_war",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "neo_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "source_title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "quote": "Konda, Lord of Eiganjo, captured and imprisoned a part of O-Kagachi, the mightiest kami of Kamigawa. Enraged, O-Kagachi retaliated, plunging the mortal and spirit realms into a decades-long war.",
+      "quote_sha256": "69e3b381be6906acc9c091977f77abf36f5a731d3b2b204fb7b97ddaa569280e",
+      "note": "Retaliation follows the imprisonment; no absolute year."
+    },
+    {
+      "earlier": "K:konda_imprisons",
+      "later": "K:kyodai_emerges",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "neo_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "source_title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "quote": "The imprisoned part of O-Kagachi broke free and became a new kami named Kyodai.",
+      "quote_sha256": "bdcad17ecbd44a4c6a21b104149bec4139aa587a7b02b5962c17c18c58ad083c",
+      "note": "The fragment had to be imprisoned before it escaped."
+    },
+    {
+      "earlier": "K:kyodai_emerges",
+      "later": "K:kyodai_victory",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "neo_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "source_title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "quote": "The imprisoned part of O-Kagachi broke free and became a new kami named Kyodai. Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda.",
+      "quote_sha256": "923b6e1ac4bab846f7fead1dcacf968995499261274917317021a61dc864b0f8",
+      "note": "The account presents Kyodai's emergence before the victory."
+    },
+    {
+      "earlier": "K:kyodai_victory",
+      "later": "K:realm_barrier_breaks",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "neo_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "source_title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "quote": "Kyodai partnered with Konda's daughter, Michiko, to defeat both O-Kagachi and Konda. The death of O-Kagachi caused the barrier between the two realms to break down",
+      "quote_sha256": "871c57c5092476c81e7627bbeb57c012d211f39686b5d63c8182706df0e72364",
+      "note": "The boundary rupture follows O-Kagachi's death in the narrated victory; does not order the individual defeats."
+    },
+    {
+      "earlier": "K:imperials_founded",
+      "later": "K:imperials_govern",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "neo_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-kamigawa-neon-dynasty-2022-02-03",
+      "source_title": "Planeswalker's Guide to Kamigawa: Neon Dynasty",
+      "quote": "founded to help Kyodai manage the merging of the mortal and spirit realms. Over time, they expanded into government and rulership.",
+      "quote_sha256": "2f29bbfd2ecb314805d35b8b0725d14e5dafadd05aa6264167b9c512664541e2",
+      "note": "Explicit 'Over time' after the institution's initial mission."
+    },
+    {
+      "earlier": "V:calamity_dominance",
+      "later": "V:animalfolk_shelter",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "The oppressive heel of the Calamities imposed an unstable equality, a reason for those who could not contend with their power alone to band together.",
+      "quote_sha256": "766901d735aad9f11cdd04a6dd8403a40f7c7aee675a01913c362f9361fed83d",
+      "note": "The storyteller describes animalfolk banding together in response to the Calamities."
+    },
+    {
+      "earlier": "V:animalfolk_shelter",
+      "later": "V:holly_pact",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "Discontented to live their lives in the deep tunnels beneath Valley, a band was formed",
+      "quote_sha256": "39035e0980c4f98d31765249cb477d5ab1cbcc8e18d23c55b9044fe0f0b776ab",
+      "note": "The narrated underground life precedes the formation of the Order."
+    },
+    {
+      "earlier": "V:holly_pact",
+      "later": "V:weaving",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "However, their pact had another consequence. The land was now a wellspring of energy for them to draw from.",
+      "quote_sha256": "6e2818779f125b6f5655a8998cf6d0261e4c4bce84d0dae784213e17f79f39c7",
+      "note": "The narrator says the magical transformation followed the pact."
+    },
+    {
+      "earlier": "V:weaving",
+      "later": "V:war_of_cinders",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "Powerful as weaving was, the Calamity Beasts would not succumb to their terrible new powers. For two generations, battles raged throughout Valley.",
+      "quote_sha256": "2dbf50b9f44a5fe6155d29198eddc278c19c42386b5a5f8ed3f0d243f73bb001",
+      "note": "The account says weaving existed when two generations of battles began."
+    },
+    {
+      "earlier": "V:war_of_cinders",
+      "later": "V:wildsear_appears",
+      "relation": "DURING_OR_AFTER_START",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "It was then that the greatest among the Calamities appeared: Wildsear",
+      "quote_sha256": "5e90aa9a3bb4824bb00dcfb4d5eeccd19a1a100e0bed863779202273995c4c73",
+      "note": "The storyteller situates Wildsear's appearance during the war; 'then' does not prove the whole war ended first."
+    },
+    {
+      "earlier": "V:lily_saves_valley",
+      "later": "V:weaving_backlash",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "The animalfolk grew indulgent in the seasons after Lily has saved them. Weaving grew too powerful",
+      "quote_sha256": "7a8ee200616479799b58d0e179b1614b40430dde20037f8e07650ecf60b9d70b",
+      "note": "The excess weaving is explicitly after Lily's rescue in the traditional account."
+    },
+    {
+      "earlier": "V:weaving_backlash",
+      "later": "V:sealed_great_magic",
+      "relation": "BEFORE",
+      "certainty": "NARRATED_TRADITION_ONLY",
+      "source_id": "blb_guide1",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
+      "source_title": "Planeswalker's Guide to Bloomburrow, Part 1",
+      "quote": "In response to the chaos that weaving had wrought, the lineage of heroes chose to seal their most powerful knowledge away.",
+      "quote_sha256": "c8260ae251e589a47c4fdc3588d4df2089068b4188ec00ead8424efe08387d3a",
+      "note": "The sealing follows and responds to the dangerous backlashes."
+    },
+    {
+      "earlier": "D:valgavoth_bound",
+      "later": "D:marina_meets",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "Trapped and unable to feed, the demon had sunk into hibernation and bided his time—until Marina came along and unwittingly loosened his shackles.",
+      "quote_sha256": "7dda666f2793aa2012de8a0ccafb0e981e5eaee280c7be892d41884b25dd419c",
+      "note": "The binding and hibernation precede Marina's involvement."
+    },
+    {
+      "earlier": "D:marina_lures",
+      "later": "D:house_spreads",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "However, it was already too late. People around Marina began to meet sudden, unexplained, and terrifying ends. The neighborhood began to warp as well",
+      "quote_sha256": "361619dc66faf3458b66f122e5e64a42641332187be12d2d23deb342b03c8c2c",
+      "note": "The neighborhood's distortion follows the basement victims in the guide's account."
+    },
+    {
+      "earlier": "D:house_spreads",
+      "later": "D:marina_researches",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "But then, her parents vanished. Unable to deny it any longer, she delved into research",
+      "quote_sha256": "d20cc7f50cb681308ec96a1204c7e2827342edf7fb53b59bbfa27b7cf15f0d67",
+      "note": "Marina investigates once the spreading horrors and disappearances become undeniable."
+    },
+    {
+      "earlier": "D:marina_researches",
+      "later": "D:marina_confronts",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "Faced with the full truth at last of what she had done, Marina confronted the entity and demanded it stop.",
+      "quote_sha256": "fb85b30617a322f412b7a93d9d0c3fda8585ddf9e85325cbe940c86c4a49f68a",
+      "note": "Her discovery precedes the confrontation."
+    },
+    {
+      "earlier": "D:marina_confronts",
+      "later": "D:marina_illusion",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "With no other choice, the demon agreed to give her back the world as she remembered it.",
+      "quote_sha256": "32ef4625e8c5838ee0b82216cca57c8d1ccd8d5b5706490c2d5748e2ce4a2a90",
+      "note": "The false restoration follows Marina's ultimatum."
+    },
+    {
+      "earlier": "D:marina_illusion",
+      "later": "D:ascension",
+      "relation": "BEFORE",
+      "certainty": "HISTORICAL_SOURCE_ACCOUNT",
+      "source_id": "dsk_guide",
+      "source_url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+      "source_title": "Planeswalker's Guide to Duskmourn",
+      "quote": "In reality, the house continued to expand. The horrors continued to increase, drowning all who lived within in terror. And the demon grew in power, until the entirety of the plane was swallowed up in the walls of Duskmourn.",
+      "quote_sha256": "2909e3597803e929dd4cec3e7467c99ac3c2e51997e09ff4ca195e7bfcf85415",
+      "note": "While Marina saw a false restoration, the House expanded into the Ascension."
+    }
+  ],
+  "precedes": {
+    "D:ascension": [],
+    "D:house_spreads": [
+      "D:ascension",
+      "D:marina_confronts",
+      "D:marina_illusion",
+      "D:marina_researches"
+    ],
+    "D:marina_confronts": [
+      "D:ascension",
+      "D:marina_illusion"
+    ],
+    "D:marina_illusion": [
+      "D:ascension"
+    ],
+    "D:marina_lures": [
+      "D:ascension",
+      "D:house_spreads",
+      "D:marina_confronts",
+      "D:marina_illusion",
+      "D:marina_researches"
+    ],
+    "D:marina_meets": [],
+    "D:marina_researches": [
+      "D:ascension",
+      "D:marina_confronts",
+      "D:marina_illusion"
+    ],
+    "D:valgavoth_bound": [
+      "D:marina_meets"
+    ],
+    "K:imperials_founded": [
+      "K:imperials_govern"
+    ],
+    "K:imperials_govern": [],
+    "K:kami_war": [],
+    "K:konda_imprisons": [
+      "K:kami_war",
+      "K:kyodai_emerges",
+      "K:kyodai_victory",
+      "K:realm_barrier_breaks"
+    ],
+    "K:kyodai_emerges": [
+      "K:kyodai_victory",
+      "K:realm_barrier_breaks"
+    ],
+    "K:kyodai_victory": [
+      "K:realm_barrier_breaks"
+    ],
+    "K:realm_barrier_breaks": [],
+    "V:animalfolk_shelter": [
+      "V:holly_pact",
+      "V:war_of_cinders",
+      "V:weaving"
+    ],
+    "V:calamity_dominance": [
+      "V:animalfolk_shelter",
+      "V:holly_pact",
+      "V:war_of_cinders",
+      "V:weaving"
+    ],
+    "V:holly_pact": [
+      "V:war_of_cinders",
+      "V:weaving"
+    ],
+    "V:lily_saves_valley": [
+      "V:sealed_great_magic",
+      "V:weaving_backlash"
+    ],
+    "V:sealed_great_magic": [],
+    "V:war_of_cinders": [],
+    "V:weaving": [
+      "V:war_of_cinders"
+    ],
+    "V:weaving_backlash": [
+      "V:sealed_great_magic"
+    ],
+    "V:wildsear_appears": []
+  },
+  "known_gaps": [
+    "No primary-source edge joins distinct strand IDs, so cross-plane comparisons remain UNKNOWN.",
+    "Valley events order an explicitly legendary in-world account, not objectively certified ancient history.",
+    "A DURING_OR_AFTER_START relation is not a strict BEFORE edge and never participates in transitive ordering.",
+    "Unknown original plane names, absolute AR years and missing historical events are not supplied.",
+    "This source-local supplement does not replace the original Packs A–C chronology or certify L244."
+  ],
+  "content_sha256": "734c422c29a546f82a8862dd9276ac29e435a6389b3244252c571562a1e57da8"
+}
