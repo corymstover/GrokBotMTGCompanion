@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import audit_draft_starter_sources as A
+from product_family_lookup import apply_source_overlay, select
 
 
 class DraftStarterSourceTests(unittest.TestCase):
@@ -60,6 +61,19 @@ class DraftStarterSourceTests(unittest.TestCase):
         row["group"] = "multiplayer_conspiracy_draft_booster"
         with self.assertRaisesRegex(ValueError, "improperly reclassified"):
             A.build(self.triage, a)
+
+    def test_current_offline_lookup_reflects_source_review_overlay(self):
+        verified = A.build(self.triage, self.ledger)
+        updated = apply_source_overlay(self.triage, verified)
+        self.assertEqual(updated["wizards_reviewed_examples"], 35)
+        self.assertEqual(updated["metadata_only_pending_wizards_individual_review"], 813)
+        self.assertEqual(len(select(updated, only_pending=True)), 813)
+        self.assertEqual(len(select(updated, cohort=A.COHORT, only_pending=True)), 21)
+        code = select(updated, code="mbc")[0]
+        self.assertTrue(code["wizards_individual_source_review"])
+        self.assertEqual(code["new_card_legality_date_claim"]["commander"], "2026-11-13")
+        self.assertFalse(self.triage["all_848_released_nondigital_other_type_records"][0].get(
+            "verified_evidence_note"))
 
     def test_determinism(self):
         self.assertEqual(A.encode(A.build(self.triage, self.ledger)),
