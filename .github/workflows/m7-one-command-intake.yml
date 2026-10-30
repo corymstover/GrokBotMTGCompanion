@@ -37,11 +37,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -p test_grixis_m7_one_command.py -v
-      - name: End-to-end read-only intake of live next deck
-        if: github.event_name != 'workflow_dispatch'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/grixis_m7_one_command.py --deck next
+
+      # No automatic "next deck" intake on routine PRs. All 62 approved
+      # Grixis decks have M7 artifacts, and Phase 6 deck work is parked by
+      # Cory's foundation-first directive (Master Workflow v2.53). Keep the
+      # 14 contract tests on code/guidance changes; the pinned evidence
+      # intake remains available only by explicit workflow_dispatch.
 
   pinned-evidence-intake:
     name: Build pinned M7 source brief (NOT owner-ready)
