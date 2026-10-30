@@ -14,55 +14,55 @@
  "quotes_verbatim": 9,
  "quote_rows": [
   {
-   "claim": "DS001",
+   "claim": "DS101",
    "source_id": "dsks_one",
    "quote_sha256": "ea57f43a022939de8fc1ff32a120dcf6cad9ccecf35135e1e6386ad9ca778b4c",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS001",
+   "claim": "DS101",
    "source_id": "dsks_one",
    "quote_sha256": "d3c14b518990949c023f99a2672befc860c32d67c982a33f286e8c1327e4c3ac",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS002",
+   "claim": "DS102",
    "source_id": "dsks_two",
    "quote_sha256": "2c3c2e1f62289c866ce2de95a3370eb479eac7016c5b05d2427c9d02122f8dbd",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS003",
+   "claim": "DS103",
    "source_id": "dsks_three",
    "quote_sha256": "0c71ab2249415758830550276f3e6ea7b6c739b23a894a73d7642ecb1a97e1bf",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS004",
+   "claim": "DS104",
    "source_id": "dsks_four",
    "quote_sha256": "10381d229c56e99a412f7112071f4ca7e51194ebe10808aeea2a0c4fa0c38530",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS005",
+   "claim": "DS105",
    "source_id": "dsks_five",
    "quote_sha256": "f9226e8d2e51f938715aed9a0b12ce645e63bc19034dccd1e12f922669d40723",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS005",
+   "claim": "DS105",
    "source_id": "dsks_five",
    "quote_sha256": "13c1869bd7a70bfe7fca5092d73e4497cb05e0b9045899342971591ae4d4c2d7",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS006",
+   "claim": "DS106",
    "source_id": "dsks_six",
    "quote_sha256": "cfb11de89e7ce9dadb6e250618bd172a28a16fdb4493b310ef339e46124b7a6b",
    "status": "VERBATIM"
   },
   {
-   "claim": "DS006",
+   "claim": "DS106",
    "source_id": "dsks_six",
    "quote_sha256": "0b6ee6e6aeac78f06d1064d9db8c4a89436fdcaaec55479ce55b2dc28f570cd2",
    "status": "VERBATIM"
@@ -70,5 +70,5 @@
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "6c01e9936aafd96c2d480b8f95de8b71392aba182760eb19df7ea89537b0ac63"
+ "content_sha256": "559cb6a355e2036fff53e55914d772b75722a44e586cb2c535647724f74b8176"
 }

@@ -39,18 +39,25 @@
    "data/lore_research/pack_p5_battle_for_zendikar_oath_2026-10-30.json",
    "data/lore_research/pack_p5_tarkir_dragonstorm_2026-10-30.json",
    "data/lore_research/pack_p5_lorwyn_eclipsed_2026-10-30.json",
-   "data/lore_research/pack_p5_brothers_war_2026-10-30.json"
+   "data/lore_research/pack_p5_brothers_war_2026-10-30.json",
+   "data/lore_research/pack_p5_one_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_mom_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_otj_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_dsk_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_mkm_epilogue_2026-10-30.json",
+   "data/lore_research/pack_p5_snc_side_stories_2026-10-30.json",
+   "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 295,
+  "cited_pages": 330,
   "arcs_not_started": 0,
-  "arcs_partial": 22,
-  "arcs_all_cited": 11,
-  "claims": 650,
+  "arcs_partial": 19,
+  "arcs_all_cited": 14,
+  "claims": 689,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -90,7 +97,14 @@
   "pack_p5_battle_for_zendikar_oath_2026-10-30.json": 26,
   "pack_p5_tarkir_dragonstorm_2026-10-30.json": 22,
   "pack_p5_lorwyn_eclipsed_2026-10-30.json": 18,
-  "pack_p5_brothers_war_2026-10-30.json": 9
+  "pack_p5_brothers_war_2026-10-30.json": 9,
+  "pack_p5_one_side_stories_2026-10-30.json": 6,
+  "pack_p5_mom_side_stories_2026-10-30.json": 8,
+  "pack_p5_otj_side_stories_2026-10-30.json": 8,
+  "pack_p5_dsk_side_stories_2026-10-30.json": 6,
+  "pack_p5_mkm_epilogue_2026-10-30.json": 1,
+  "pack_p5_snc_side_stories_2026-10-30.json": 5,
+  "pack_p5_dmu_side_stories_2026-10-30.json": 5
  },
  "arcs": [
   {
@@ -182,25 +196,22 @@
   {
    "arc": "DMU",
    "pages": 10,
-   "cited_pages": 1,
+   "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 9
    },
    "citing_packs": [
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_dmu_side_stories_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16",
-    "https://magic.wizards.com/en/news/magic-story/education-ulf-2022-08-15",
     "https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10",
     "https://magic.wizards.com/en/news/magic-story/episode-2-sand-hourglass-2022-08-11",
     "https://magic.wizards.com/en/news/magic-story/episode-3-locked-tower-2022-08-12",
     "https://magic.wizards.com/en/news/magic-story/episode-4-brutal-blow-2022-08-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18",
-    "https://magic.wizards.com/en/news/magic-story/homecoming-2022-08-12",
-    "https://magic.wizards.com/en/news/magic-story/shards-nightmares-2022-08-17"
+    "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18"
    ]
   },
   {
@@ -226,23 +237,18 @@
   {
    "arc": "DSK",
    "pages": 13,
-   "cited_pages": 6,
+   "cited_pages": 12,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 12
    },
    "citing_packs": [
+    "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party",
-    "https://magic.wizards.com/en/news/magic-story/side-five-dead-end",
-    "https://magic.wizards.com/en/news/magic-story/side-four-keep-them-alive",
-    "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home",
-    "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day",
-    "https://magic.wizards.com/en/news/magic-story/side-three-children-of-the-carnival-part-2",
-    "https://magic.wizards.com/en/news/magic-story/side-two-children-of-the-carnival-part-1"
+    "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party"
    ]
   },
   {
@@ -403,42 +409,35 @@
   {
    "arc": "MKM",
    "pages": 12,
-   "cited_pages": 10,
+   "cited_pages": 11,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
    },
    "citing_packs": [
+    "pack_p5_mkm_epilogue_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
     "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became"
    ]
   },
   {
    "arc": "MOM",
    "pages": 19,
-   "cited_pages": 10,
+   "cited_pages": 18,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 18
    },
    "citing_packs": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_mom_side_stories_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
-    "https://magic.wizards.com/en/news/magic-story/a-radiant-heart",
-    "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind",
-    "https://magic.wizards.com/en/news/magic-story/family-game-night",
-    "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
-    "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest",
-    "https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love",
-    "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights",
-    "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun"
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine"
    ]
   },
   {
@@ -463,44 +462,33 @@
   {
    "arc": "ONE",
    "pages": 11,
-   "cited_pages": 6,
+   "cited_pages": 11,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 10
    },
    "citing_packs": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_one_side_stories_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
-    "https://magic.wizards.com/en/news/magic-story/a-man-of-parts",
-    "https://magic.wizards.com/en/news/magic-story/alone",
-    "https://magic.wizards.com/en/news/magic-story/cinders",
-    "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "OTJ",
    "pages": 14,
-   "cited_pages": 8,
+   "cited_pages": 14,
    "kinds": {
     "feature": 1,
     "story": 13
    },
    "citing_packs": [
+    "pack_p5_otj_side_stories_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
-    "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
-    "https://magic.wizards.com/en/news/magic-story/a-long-way-from-home",
-    "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing",
-    "https://magic.wizards.com/en/news/magic-story/blood-is-thicker-than-venom",
-    "https://magic.wizards.com/en/news/magic-story/no-tells"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "RF",
@@ -519,22 +507,17 @@
   {
    "arc": "SNC",
    "pages": 11,
-   "cited_pages": 6,
+   "cited_pages": 11,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 10
    },
    "citing_packs": [
+    "pack_p5_snc_side_stories_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/alley-cat-blues-2022-04-05",
-    "https://magic.wizards.com/en/news/magic-story/contract-breaker-2022-03-28",
-    "https://magic.wizards.com/en/news/magic-story/family-man-2022-04-04",
-    "https://magic.wizards.com/en/news/magic-story/side-freedom-2022-03-30",
-    "https://magic.wizards.com/en/news/magic-story/what-you-expect-see-2022-03-29"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "SOI/EMN",
@@ -915,5 +898,5 @@
    ]
   }
  ],
- "sha256": "f2d1fbe4b2fed63fb49ebc165aa3d3e7eab69a8b0cb919871960e0b6fcfee93a"
+ "sha256": "e308335dbe6d9c7013fb8b533b8f8318509b233aa32c32efa76fbaa0784afe81"
 }

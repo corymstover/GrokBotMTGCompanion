@@ -31,7 +31,7 @@
    "name": "Phyrexians"
   },
   {
-   "id": "dihada",
+   "id": "geyadrone_dihada",
    "type": "Character",
    "name": "Geyadrone Dihada"
   },
@@ -98,7 +98,7 @@
   },
   {
    "id": "DU103",
-   "subject": "dihada",
+   "subject": "geyadrone_dihada",
    "predicate": "cursed",
    "object": "sol_kanar",
    "grade": "CANON_CONFIRMED",

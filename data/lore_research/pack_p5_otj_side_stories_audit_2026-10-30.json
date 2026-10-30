@@ -10,8 +10,8 @@
   "CANON_CONFIRMED": 6,
   "CANON_IMPLIED": 2
  },
- "quotes": 11,
- "quotes_verbatim": 11,
+ "quotes": 12,
+ "quotes_verbatim": 12,
  "quote_rows": [
   {
    "claim": "OS001",
@@ -23,6 +23,12 @@
    "claim": "OS001",
    "source_id": "otjs_notells",
    "quote_sha256": "4c8d61eb97adb772ba4049202342d88fbf9bfa860692bb61f97e4b3c7eabe155",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "OS001",
+   "source_id": "otjs_notells",
+   "quote_sha256": "574f1c2aa5ac93c98b646f954acbd25dffc8fac25fa26502787a9773354ee063",
    "status": "VERBATIM"
   },
   {
@@ -82,5 +88,5 @@
  ],
  "problems": [],
  "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
- "content_sha256": "5a86065ffeec72b4cc6a0dd804b7c79159ed5ba08c887ad428fa36549e131701"
+ "content_sha256": "f375f1e31896392dcee76894f74719d31d1ba1fcd121e715ec6a11e5a399142b"
 }

@@ -60,7 +60,7 @@
  ],
  "claims": [
   {
-   "id": "DS001",
+   "id": "DS101",
    "subject": "the_house",
    "predicate": "located_on",
    "object": "duskmourn",
@@ -79,7 +79,7 @@
    "limitation": "Framing narrator; the House/plane relation is inferred."
   },
   {
-   "id": "DS002",
+   "id": "DS102",
    "subject": "dawn",
    "predicate": "defended",
    "object": "the_house",
@@ -94,7 +94,7 @@
    "limitation": "Predicate stands for 'lives in and guards'; she defends the carnival against the House, not the House itself."
   },
   {
-   "id": "DS003",
+   "id": "DS103",
    "subject": "the_house",
    "predicate": "took",
    "object": "rill",
@@ -108,7 +108,7 @@
    "summary": "Dawn fears Rill has been killed or taken and transformed by the House."
   },
   {
-   "id": "DS004",
+   "id": "DS104",
    "subject": "the_house",
    "predicate": "revered_by",
    "object": "house_born",
@@ -123,7 +123,7 @@
    "limitation": "Devotional voice of one House-born narrator; how widely this is believed is not graded."
   },
   {
-   "id": "DS005",
+   "id": "DS105",
    "subject": "shevara",
    "predicate": "member_of",
    "object": "rotrue_elves",
@@ -142,7 +142,7 @@
    "limitation": "Membership is implied by viewpoint and setting."
   },
   {
-   "id": "DS006",
+   "id": "DS106",
    "subject": "niv_mizzet",
    "predicate": "located_on",
    "object": "ravnica",
