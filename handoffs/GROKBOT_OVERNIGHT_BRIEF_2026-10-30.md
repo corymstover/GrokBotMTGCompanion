@@ -32,3 +32,6 @@ Nothing may live only on the box (it can be wiped, as happened at ~02:15). Keep 
 
 ## Batch protocol
 Roughly 60–120 minutes of work per batch, multiple milestones end-to-end, then stop and report: phases advanced, checklist items, PRs/merge SHAs/CI, discoveries, blockers, next task, protected-path diff confirmation.
+
+## Batch-3 lesson
+Always export MTG_SCRYFALL_MODE=multiverse SCRYFALL_OFFLINE=1 before running enrichment/anchor scripts (otherwise load_bulk() downloads into the pinned snapshot dir). Never run `git checkout -- .` or other discard commands on worktrees with uncommitted work; commit WIP first.
