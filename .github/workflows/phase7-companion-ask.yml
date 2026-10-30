@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'scripts/mv_ask.py'
+      - 'scripts/commander_rules.py'
+      - 'data/rules/**'
+      - 'tests/test_commander_rules.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_mv_ask.py'
       - 'data/multiverse_graph/**'
@@ -13,6 +16,8 @@ on:
   push:
     paths:
       - 'scripts/mv_ask.py'
+      - 'scripts/commander_rules.py'
+      - 'data/rules/**'
       - 'tests/test_mv_ask.py'
       - 'data/multiverse_graph/**'
       - '.github/workflows/phase7-companion-ask.yml'
@@ -34,3 +39,9 @@ jobs:
           set +e; python3 scripts/mv_ask.py ask "Who is Zorblax the Unreal?"; test $? -eq 3
       - name: Companion tests
         run: python3 -m unittest discover -s tests -p 'test_mv_ask.py' -v
+      - name: Commander deck-construction rules (CR 2026-09-25)
+        run: |
+          python3 scripts/commander_rules.py commander "Pir, Imaginative Rascal" "Toothy, Imaginary Friend"
+          python3 scripts/commander_rules.py include "Sol Ring" --commander "Urza, Lord High Artificer"
+          python3 scripts/commander_rules.py audit-eligibility --check
+          python3 -m unittest discover -s tests -p 'test_commander_rules.py' -v
