@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.56
+**Version:** 2.57
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -22,6 +22,19 @@ foundation release may document inherently unresolved canon and future
 maintenance; it must never claim exhaustive knowledge of all MTG history.
 The 62 approved Grixis decks, their hashes and all owner gates remain intact.
 Only a new explicit request from Cory can override the Phase 6 hold.
+
+**v2.57 Phase 7 natural-language chronology route (2026-10-30):**
+`scripts/mv_ask.py ask` now understands bounded two-event questions such as
+“Which happened first, Konda imprisons a part or breaks the barrier?” and
+“Did War of Cinders happen before Wildsear appears?” It delegates to the
+already verified v2.56 source-local and legacy chronology proof layers,
+returns exact event IDs, cited relationships, links and QUALIFIED results,
+and never upgrades an in-world legend or a DURING relation to objective
+historical BEFORE. Cross-plane/cross-ledger order returns UNKNOWN; duplicate
+label fragments return NOT_FOUND rather than guessing. Nine dedicated Q&A
+regressions preserve earlier unrelated question routes. **This answers a
+bounded supported class of comparisons, not the open requirement for all
+obscure chronology questions or all MTG history.** No deck work was done.
 
 **v2.56 Phase 4 source-local chronological evidence (2026-10-30):** New
 deterministic, quote-gated event sequences supplement the untouched Packs
@@ -502,6 +515,7 @@ explicitly lifts the hold).
 
 ## Phase 7 — Ultimate MTG question-answering companion
 
+- [x] **Answer bounded two-event chronology questions through the main natural-language Q&A interface.** *(v2.57: `mv_ask.py ask` compares recognized event label fragments through v2.56's cited source-local and Packs A–C event orders, returns yes/no/first-event only when justified by strict BEFORE/AFTER evidence, and reports UNKNOWN or unresolved ambiguity without guessing. Explicit flags preserve narrated legends, overlapping war events, and unrelated/unaligned eras. Nine dedicated regressions; not a total chronology or comprehensive open-domain Q&A solution.)*
 - [ ] Support precise lookups for card names, Oracle text, types, identities, mechanics, printings and relevant rulings.
 - [ ] Answer set questions with category-qualified totals, full set card lists, printing/debut/reprint distinctions and cited snapshot dates from Phase 1B.
 - [ ] Answer obscure lore and chronology questions through cited evidence and dated canon status.
@@ -527,7 +541,7 @@ explicitly lifts the hold).
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.56 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.57 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
 2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.
