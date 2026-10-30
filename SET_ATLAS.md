@@ -382,3 +382,24 @@ python3 scripts/export_phase1b_set_cards.py lea --mode unique --format csv
 The last two commands read the [32 historical GitHub-readable index shards](data/set_atlas) from the **October 28 committed shard collection**, not the October 29 bulk. See the [historical 105-shard audit](data/set_atlas/historical_shard_audit_2026-10-29.json) for exact hashes and counts. Keep dates and denominators separate.
 
 **Integrity checks:** `python3 scripts/audit_set_product_links.py --check`, `python3 scripts/publish_historical_set_index.py`, and focused Phase 1B GitHub Actions. The first command deliberately replays the frozen October 29 metadata and **never silently refreshes** Scryfall data.
+
+## Phase 1B snapshot gate audit (October 30, 2026)
+
+[`scripts/audit_phase1b_snapshot_gates.py`](scripts/audit_phase1b_snapshot_gates.py) re-derives the Phase 1B gates (master workflow L193–L202) from the pinned Oct 29 Default Cards bulk, whose SHA-256 equals the product catalog's `oracle_printing_source_sha256`. It writes [`phase1b_snapshot_gates_2026-10-30.json`](data/set_atlas/phase1b_snapshot_gates_2026-10-30.json); run with `--check` to confirm it is current. This is mechanical research verification, not owner approval.
+
+- **Cross-snapshot ID parity:**
+  - All 119,509 historical Oct 28 printing IDs are present in the Oct 29 bulk (0 missing, 0 duplicate IDs).
+  - 192 IDs are new in Oct 29 (trc 121, trk 43, sds 25, pf26 2, pw26 1).
+  - Shared-ID drift is confined to 342 `prm` release-date updates and 6 `trk` paper-flag updates.
+  - This replaces the earlier "exact ID equality unproven" limitation with a measured result.
+- **Counts and references:**
+  - Per-set printing and released English-paper oracle counts match the catalog for every set code (0 mismatches).
+  - Every parent link resolves. `tnau`→`nau` resolves only to the Set API record for the announced 2027-02-05 set, which has no printings yet.
+  - 55 set codes contain a printing dated before the set's own date, mostly promo sets. These are listed, not fixed.
+- **Debut/reprint:**
+  - 37,853 released English-paper identities; 0 per-set debut mismatches against the catalog.
+  - Edge cases are counted, not hidden: 4,087 same-day multi-set ties; 364 promo-only debuts; 431 earliest English-paper printings that Scryfall flags as reprints (the earlier printing was digital, non-English or non-paper); 1,311 identities with no released English-paper printing.
+- **Verdicts:**
+  - PASS: L194, L196, L197, L201, L202.
+  - QUALIFIED (limitation stated in the JSON): L193, L195, L198, L199 (no AR-year chronology), L200.
+- **Real blockers outside the snapshot:** L180 and L181 still need first-party Wizards evidence for physical draft/starter/boxed products (for example `itp`, `ph17`–`ph23`, `rqs`, `mgb`, `ath`, `brb`, `btd`, `dkm`, `psal`, `phuk`, `dpa`, `ps11`, `g17`). Scryfall's set type alone cannot classify them.
