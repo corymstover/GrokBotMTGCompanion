@@ -26,6 +26,7 @@ COMMANDER_MODERN_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_modern_source_
 BOXED_SPECIALTY_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_specialty_source_audit_2026-10-29.json"
 BOXED_SPECIAL_LAIR_GLOBAL_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_special_lair_global_audit_2026-10-29.json"
 INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW = ROOT / "data/set_atlas/inserts_clash_spellbook_source_audit_2026-10-29.json"
+MASTERPIECE_MEMORABILIA_SOURCE_REVIEW = ROOT / "data/set_atlas/masterpiece_memorabilia_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -603,6 +604,60 @@ def apply_inserts_clash_spellbook_source_overlay(data, report):
     return result
 
 
+def apply_masterpiece_memorabilia_source_overlay(data, review):
+    """Overlay exact Wizards evidence, keeping family-only joins visibly distinct."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 179:
+        raise ValueError("Collectible review's previous source checkpoint changed")
+    additions = {r["code"]: r for r in review["reviewed_source_records"]}
+    if len(additions) != review["new_source_backed_codes"] or len(additions) != 19:
+        raise ValueError("Collectible review lost or duplicated source code")
+    rows = []
+    patched = set()
+    for prior in data["all_848_released_nondigital_other_type_records"]:
+        row = dict(prior)
+        source = additions.get(row["code"])
+        if source:
+            if row["wizards_individual_source_review"]:
+                raise ValueError(f"Collectible evidence overwrites prior review: {row['code']}")
+            if (row["scryfall_set_type"] != source["scryfall_type"] or
+                    row["scryfall_release_or_first_card_date"] != source["scryfall_first_card_date"] or
+                    row["parent_set_code_explicit_only"] != source["scryfall_parent_code_unchanged"]):
+                raise ValueError(f"Collectible evidence changes frozen metadata: {row['code']}")
+            row.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_special_sheet_or_collectible_source_reviewed",
+                "wizards_primary_source": source["wizards_primary_url"],
+                "wizards_review_product_group": source["wizards_family_context"],
+                "wizards_source_grade": source["evidence_grade"],
+                "wizards_code_explicitly_confirmed": source["wizards_exact_code_in_source"],
+                "verified_evidence_note": source["wizards_evidence_caution"],
+                "wizards_premier_status_certified": False,
+                "one_code_one_sold_product_certified": False,
+                "complete_printing_inventory_certified": False,
+                "current_format_legality_certified": False,
+            })
+            patched.add(row["code"])
+        rows.append(row)
+    if patched != set(additions) or len(rows) != 848:
+        raise ValueError("Collectible overlay not an exact source-code update")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in rows if r["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows) != 198:
+        raise ValueError("Collectible source review census is not 198")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -638,6 +693,9 @@ def load_current_index():
     if INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW.exists():
         report = json.loads(INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_inserts_clash_spellbook_source_overlay(data, report)
+    if MASTERPIECE_MEMORABILIA_SOURCE_REVIEW.exists():
+        report = json.loads(MASTERPIECE_MEMORABILIA_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_masterpiece_memorabilia_source_overlay(data, report)
     return data
 
 

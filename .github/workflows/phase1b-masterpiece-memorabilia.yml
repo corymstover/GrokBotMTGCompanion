@@ -1,0 +1,33 @@
+name: Phase 1B masterpiece sheets and collectible first-party sources
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/masterpiece_memorabilia_*'
+      - 'scripts/audit_masterpiece_memorabilia_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_masterpiece_memorabilia_sources.py'
+      - '.github/workflows/phase1b-masterpiece-memorabilia.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/masterpiece_memorabilia_*'
+      - 'scripts/audit_masterpiece_memorabilia_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_masterpiece_memorabilia_sources.py'
+      - '.github/workflows/phase1b-masterpiece-memorabilia.yml'
+  workflow_dispatch:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce dated nineteen-code research checkpoint
+        run: python3 scripts/audit_masterpiece_memorabilia_sources.py
+      - name: Verify source-provenance and whole-catalog invariants
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Assert previous family reviews and all records are conserved
+        run: python3 scripts/product_family_lookup.py --summary

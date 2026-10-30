@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "records": [
+    {
+      "code": "brr",
+      "official_url": "https://magic.wizards.com/en/news/feature/the-brothers-war-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Brothers' War release notes explicitly identify reprinted Retro Frame Artifacts with BRR set code in the parent release's Draft, Set and Collector Boosters.",
+      "product_relation": "integrated_retro_artifact_bonus_sheet",
+      "evidence_caution": "BRR is a bonus sheet of returning cards, not a separately sold premier release; the frozen parent relationship remains BRO."
+    },
+    {
+      "code": "eos",
+      "official_url": "https://magic.wizards.com/en/news/feature/edge-of-eternities-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Edge of Eternities release notes identify Stellar Sights bonus sheet cards with the EOS set code within the broader Edge of Eternities product.",
+      "product_relation": "integrated_stellar_sights_land_bonus_sheet",
+      "evidence_caution": "EOS is an integrated bonus sheet, not a separate premier booster expansion; individual legalities are not updated by this source audit."
+    },
+    {
+      "code": "exp",
+      "official_url": "https://magic.wizards.com/en/news/feature/all-expeditions-2015-09-17",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards' All the Expeditions gallery publishes twenty-five Zendikar Expeditions from Battle for Zendikar and identifies them as themed collectible cards in the main product's boosters.",
+      "product_relation": "battle_for_zendikar_expeditons_subset",
+      "evidence_caution": "The page establishes the Zendikar Expeditions product subset; EXP is a Scryfall catalog code, not an exact code printed by this article."
+    },
+    {
+      "code": "fca",
+      "official_url": "https://magic.wizards.com/en/news/feature/final-fantasy-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' FINAL FANTASY release notes explicitly identify Through the Ages returning cards with the FCA set code and describe alternate names printed above the Oracle-reference name.",
+      "product_relation": "integrated_final_fantasy_through_the_ages_subset",
+      "evidence_caution": "Alternate titles are not separate Oracle identities, and these returning FCA printings do not become independently new Standard cards."
+    },
+    {
+      "code": "mar",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Spider-Man collecting guide explicitly prints SPE and MAR as the Marvel's Spider-Man Eternal-Legal Set Codes and identifies the source-material presentation of earlier Marvel characters.",
+      "product_relation": "marvel_source_material_umbrella_across_products",
+      "evidence_caution": "The MAR code covers multiple Marvel source-material contexts; this page does not make it a separately launched main set or certify all later printings."
+    },
+    {
+      "code": "med",
+      "official_url": "https://magic.wizards.com/en/news/card-preview/guilds-ravnica-packaging-promos-and-more-2018-09-04",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards describes the Guilds of Ravnica Mythic Edition: a special twenty-four-pack booster box with eight marked packs that each contain an exclusive planeswalker card.",
+      "product_relation": "mythic_edition_premium_booster_box_series",
+      "evidence_caution": "Mythic Edition became multiple named products; the MED Scryfall code must not be interpreted as a single physical box or exact officially printed code."
+    },
+    {
+      "code": "mp2",
+      "official_url": "https://magic.wizards.com/en/news/card-preview/masterpiece-series-amonkhet-invocations-2017-03-29",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards' Masterpiece Series: Amonkhet Invocations card preview establishes the named collectible Invocations treatment tied to Amonkhet-era product boosters.",
+      "product_relation": "amonkhet_invocations_masterpiece_sheet",
+      "evidence_caution": "The contemporary Wizards preview supports the named Invocations family, not an explicit assertion that its exact printed Scryfall code was MP2."
+    },
+    {
+      "code": "mps",
+      "official_url": "https://magic.wizards.com/en/news/feature/masterpiece-series-kaladesh-inventions-2016-09-12",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards' Masterpiece Series: Kaladesh Inventions introduction identifies premium Inventions artifacts distributed in Kaladesh product boosters as the next Masterpiece treatment.",
+      "product_relation": "kaladesh_inventions_masterpiece_sheet",
+      "evidence_caution": "The official named family evidence is linked to the Scryfall MPS code; the cited Wizards article does not independently print that code."
+    },
+    {
+      "code": "mul",
+      "official_url": "https://magic.wizards.com/en/news/feature/march-of-the-machine-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' March of the Machine release notes identify sixty-five returning Multiverse Legends cards, collector numbered 1–65, explicitly with the MUL set code.",
+      "product_relation": "integrated_multiverse_legends_bonus_sheet",
+      "evidence_caution": "MUL is a supplemental booster sheet of returning legends; the source does not establish a new independent premier set."
+    },
+    {
+      "code": "otp",
+      "official_url": "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Outlaws of Thunder Junction release notes explicitly identify the separate Breaking News treatment with the OTP set code as part of that release.",
+      "product_relation": "integrated_breaking_news_bonus_sheet",
+      "evidence_caution": "OTP is not another standalone premier expansion and the cited release-era legality must not be taken as current card-by-card legality."
+    },
+    {
+      "code": "puma",
+      "official_url": "https://magic.wizards.com/en/news/feature/ultimate-masters-release-notes-2018-11-29",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards' Ultimate Masters release notes document one separately wrapped Ultimate Box Topper card inside every twenty-four-pack booster display.",
+      "product_relation": "ultimate_masters_box_topper_insert",
+      "evidence_caution": "This is an insert inside an Ultimate Masters display, not an independently marketed expansion; PUMA remains a Scryfall-only code mapping."
+    },
+    {
+      "code": "pza",
+      "official_url": "https://magic.wizards.com/en/news/feature/teenage-mutant-ninja-turtles-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Teenage Mutant Ninja Turtles release notes explicitly identify borderless source material returning cards with the PZA set code.",
+      "product_relation": "integrated_tmnt_source_material_subset",
+      "evidence_caution": "PZA returning source-material cards do not gain new format permissions merely from reprinting in this product."
+    },
+    {
+      "code": "soa",
+      "official_url": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Secrets of Strixhaven release notes explicitly identify the supplemental Mystical Archive cards with the SOA set code.",
+      "product_relation": "integrated_secrets_of_strixhaven_mystical_archive_sheet",
+      "evidence_caution": "SOA is a Mystical Archive card subset, not a separately launched premier set or a complete new-card inventory."
+    },
+    {
+      "code": "spg",
+      "official_url": "https://magic.wizards.com/en/news/announcements/announcing-magic-the-gathering-foundations",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' official Foundations first-look article explicitly identifies Special Guests Set Code: SPG separately from FDN and J25 in its product guide.",
+      "product_relation": "special_guests_ongoing_supplemental_sheet",
+      "evidence_caution": "SPG includes guest-card appearances across multiple main releases; the Foundations source is evidence of the code, not a single SPG boxed set."
+    },
+    {
+      "code": "sta",
+      "official_url": "https://magic.wizards.com/en/news/feature/strixhaven-school-mages-and-commander-2021-edition-release-notes-2021-04-16",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Strixhaven release notes explicitly identify sixty-three Mystical Archive cards with printed set code STA and collector numbers 1–63 in boosters.",
+      "product_relation": "integrated_original_strixhaven_mystical_archive_sheet",
+      "evidence_caution": "STA Mystical Archive reprints retain their existing format legalities; a separate Scryfall code does not make another main set."
+    },
+    {
+      "code": "wot",
+      "official_url": "https://magic.wizards.com/en/news/feature/wilds-of-eldraine-release-notes",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Wilds of Eldraine release notes explicitly identify Enchanting Tales enchantment cards with the WOT set code in that release.",
+      "product_relation": "integrated_enchanting_tales_bonus_sheet",
+      "evidence_caution": "WOT is a bonus sheet of reprints; inclusion does not make a separate Standard premier set or certify all individual cards."
+    },
+    {
+      "code": "zne",
+      "official_url": "https://magic.wizards.com/en/news/feature/zendikar-rising-release-notes-2020-09-10",
+      "evidence_grade": "wizards_article_printed_exact_set_code",
+      "official_section": "Wizards' Zendikar Rising release notes explicitly describe thirty Expedition cards with printed set code ZNE and collector numbers 1–30 as the promotional Expeditions set.",
+      "product_relation": "integrated_zendikar_rising_expeditions_subset",
+      "evidence_caution": "ZNE Expeditions are supplemental premium cards; Wizards does not describe the catalog code as a separately sold premier expansion."
+    },
+    {
+      "code": "30a",
+      "official_url": "https://magic.wizards.com/en/news/announcements/celebrate-30-years-magic-gathering-30th-anniversary-edition-2022-10-04",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards describes 30th Anniversary Edition as a commemorative, collectible, non-tournament-legal product inspired by the original Limited Edition Beta cards.",
+      "product_relation": "non_tournament_legal_30th_anniversary_collectible",
+      "evidence_caution": "The product is expressly non-tournament-legal; 30A is the frozen Scryfall code and the official article does not explicitly print that code."
+    },
+    {
+      "code": "ced",
+      "official_url": "https://magic.wizards.com/en/news/feature/buyer-beware-2004-04-26",
+      "evidence_grade": "wizards_named_product_family",
+      "official_section": "Wizards' Buyer Beware article identifies Collector's Edition cards as gold-bordered, square-cut cards representing the original Beta set, and warns about altered copies.",
+      "product_relation": "historic_collector_edition_nonstandard_card_printings",
+      "evidence_caution": "The original domestic Collector's Edition evidence does not separately certify International Collectors' Edition; CED is a Scryfall crosswalk only."
+    }
+  ],
+  "caveats": [
+    "The contemporary official sources support named subsets, inserts, collectibles and product-family existence; Scryfall set_type and parent_set_code remain separately attributed metadata.",
+    "MAR, MED and SPG can index multiple products or releases; a set code is not equivalent to one sold box or premier expansion.",
+    "Wizards explicitly describes 30th Anniversary Edition as not tournament legal; no such exception is generalized to other source rows.",
+    "The older International Collectors' Edition code CEI and related historical localized codes remain unreviewed until their own primary evidence is found."
+  ]
+}
