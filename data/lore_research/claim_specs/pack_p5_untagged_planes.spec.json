@@ -1,0 +1,882 @@
+{
+ "pack_id": "pack_p5_untagged_planes",
+ "arc": "",
+ "event_stage": "plane_profiles_undated",
+ "scope": "Batch 9 extraction from the undated official plane profile pages (magic.wizards.com/en/story/<plane>-plane). Each profile is a short overview written at some point in the plane's history, so the present tense on a page is that page's present, not today's; time-bound relations carry a limitation. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "up_alara": "alara-plane",
+  "up_avishkar": "avishkar-plane",
+  "up_fiora": "fiora-plane",
+  "up_innistrad": "innistrad-plane",
+  "up_kamigawa": "kamigawa-plane",
+  "up_lorwyn": "lorwyn-and-shadowmoor-plane",
+  "up_mirrodin": "mirrodin-plane",
+  "up_nph": "new-phyrexia-plane",
+  "up_ravnica": "ravnica-plane",
+  "up_shandalar": "shandalar-plane",
+  "up_zendikar": "zendikar-plane"
+ },
+ "entities": [
+  {
+   "id": "alara",
+   "type": "Plane",
+   "name": "Alara"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "kaladesh",
+   "type": "Plane",
+   "name": "Kaladesh"
+  },
+  {
+   "id": "avishkar_assembly",
+   "type": "Faction",
+   "name": "Avishkar Assembly"
+  },
+  {
+   "id": "consulate",
+   "type": "Faction",
+   "name": "Consulate of Kaladesh"
+  },
+  {
+   "id": "renegades_kaladesh",
+   "type": "Faction",
+   "name": "Renegades of Kaladesh"
+  },
+  {
+   "id": "fiora",
+   "type": "Plane",
+   "name": "Fiora"
+  },
+  {
+   "id": "paliano",
+   "type": "Place",
+   "name": "Paliano"
+  },
+  {
+   "id": "selvala",
+   "type": "Character",
+   "name": "Selvala"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "avacyn",
+   "type": "Character",
+   "name": "Avacyn"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "griselbrand",
+   "type": "Character",
+   "name": "Griselbrand"
+  },
+  {
+   "id": "church_of_avacyn",
+   "type": "Faction",
+   "name": "Church of Avacyn"
+  },
+  {
+   "id": "kamigawa",
+   "type": "Plane",
+   "name": "Kamigawa"
+  },
+  {
+   "id": "takeshi_konda",
+   "type": "Character",
+   "name": "Takeshi Konda"
+  },
+  {
+   "id": "eiganjo",
+   "type": "Place",
+   "name": "Eiganjo"
+  },
+  {
+   "id": "o_kagachi",
+   "type": "Character",
+   "name": "O-Kagachi"
+  },
+  {
+   "id": "michiko_konda",
+   "type": "Character",
+   "name": "Michiko Konda"
+  },
+  {
+   "id": "kyodai",
+   "type": "Character",
+   "name": "Kyodai"
+  },
+  {
+   "id": "lorwyn_shadowmoor",
+   "type": "Plane",
+   "name": "Lorwyn-Shadowmoor"
+  },
+  {
+   "id": "oona",
+   "type": "Character",
+   "name": "Oona"
+  },
+  {
+   "id": "glen_elendra",
+   "type": "Place",
+   "name": "Glen Elendra"
+  },
+  {
+   "id": "mirrodin",
+   "type": "Plane",
+   "name": "Mirrodin"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "urza",
+   "type": "Character",
+   "name": "Urza"
+  },
+  {
+   "id": "memnarch",
+   "type": "Character",
+   "name": "Memnarch"
+  },
+  {
+   "id": "glissa",
+   "type": "Character",
+   "name": "Glissa"
+  },
+  {
+   "id": "urabrask",
+   "type": "Character",
+   "name": "Urabrask"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "The Phyrexians"
+  },
+  {
+   "id": "venser",
+   "type": "Character",
+   "name": "Venser"
+  },
+  {
+   "id": "ravnica",
+   "type": "Plane",
+   "name": "Ravnica"
+  },
+  {
+   "id": "boros_legion",
+   "type": "Faction",
+   "name": "Boros Legion"
+  },
+  {
+   "id": "izzet_league",
+   "type": "Faction",
+   "name": "Izzet League"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "azorius_senate",
+   "type": "Faction",
+   "name": "Azorius Senate"
+  },
+  {
+   "id": "guildpact",
+   "type": "Concept",
+   "name": "The Guildpact"
+  },
+  {
+   "id": "shandalar",
+   "type": "Plane",
+   "name": "Shandalar"
+  },
+  {
+   "id": "onakke",
+   "type": "Faction",
+   "name": "The Onakke"
+  },
+  {
+   "id": "slivers",
+   "type": "Faction",
+   "name": "Slivers"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "eldrazi",
+   "type": "Faction",
+   "name": "The Eldrazi"
+  },
+  {
+   "id": "ulamog",
+   "type": "Character",
+   "name": "Ulamog"
+  },
+  {
+   "id": "kozilek",
+   "type": "Character",
+   "name": "Kozilek"
+  },
+  {
+   "id": "sea_gate",
+   "type": "Place",
+   "name": "Sea Gate"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "The Gatewatch"
+  },
+  {
+   "id": "gideon_jura",
+   "type": "Character",
+   "name": "Gideon Jura"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  }
+ ],
+ "claims": [
+  {
+   "id": "UP001",
+   "subject": "nicol_bolas",
+   "predicate": "manipulated",
+   "object": "alara",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_alara",
+     "quote": "It's all as Nicol Bolas planned."
+    },
+    {
+     "page": "up_alara",
+     "quote": "He came to Alara to feed on its rich mana and, in one massive ritual, restore its lost power as part of his multiplanar plan."
+    }
+   ],
+   "summary": "Nicol Bolas engineered the reunion of Alara's five shards to feed on its mana."
+  },
+  {
+   "id": "UP002",
+   "subject": "kaladesh",
+   "predicate": "identified_with",
+   "object": "avishkar_assembly",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_avishkar",
+     "quote": "The plane formerly known as Kaladesh has been reborn as Avishkar."
+    },
+    {
+     "page": "up_avishkar",
+     "quote": "The plane is now united under a new planar government called the Avishkar Assembly"
+    }
+   ],
+   "summary": "Kaladesh has been reborn as Avishkar and is governed by the Avishkar Assembly.",
+   "limitation": "The profile reflects the plane after the Consulate fell; the relation is plane-to-government."
+  },
+  {
+   "id": "UP003",
+   "subject": "renegades_kaladesh",
+   "predicate": "defeated",
+   "object": "consulate",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_avishkar",
+     "quote": "Their plan was thwarted by a rebel group known as the Renegades"
+    },
+    {
+     "page": "up_avishkar",
+     "quote": "The ruling Consulate has been overthrown in a popular, nearly bloodless revolution."
+    }
+   ],
+   "summary": "The Renegades thwarted the Consulate's plan, and the Consulate was later overthrown in a nearly bloodless revolution.",
+   "limitation": "The page does not say the Renegades alone carried out the overthrow."
+  },
+  {
+   "id": "UP004",
+   "subject": "paliano",
+   "predicate": "located_on",
+   "object": "fiora",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_fiora",
+     "quote": "In the capital of Fiora—Paliano, the High City—murder and subterfuge are common."
+    }
+   ],
+   "summary": "Paliano, the High City, is the capital of Fiora."
+  },
+  {
+   "id": "UP005",
+   "subject": "selvala",
+   "predicate": "travelled_to",
+   "object": "fiora",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "up_fiora",
+     "quote": "The explorer Selvala was one of the first to travel the frontier"
+    }
+   ],
+   "summary": "Selvala was one of the first explorers of Fiora's wilderness frontier.",
+   "limitation": "The object is the Fioran frontier rather than the plane as a whole."
+  },
+  {
+   "id": "UP006",
+   "subject": "sorin_markov",
+   "predicate": "created",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_innistrad",
+     "quote": "the powerful archangel Avacyn who was created by the Planeswalker Sorin Markov to safeguard humanity"
+    }
+   ],
+   "summary": "Sorin Markov created the archangel Avacyn to safeguard humanity on Innistrad."
+  },
+  {
+   "id": "UP007",
+   "subject": "avacyn",
+   "predicate": "leader_of",
+   "object": "church_of_avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_innistrad",
+     "quote": "The Church is named for its leader, the powerful archangel Avacyn"
+    }
+   ],
+   "summary": "Avacyn was the leader of the Church of Avacyn.",
+   "limitation": "Past state; the same page says Sorin later unmade her."
+  },
+  {
+   "id": "UP008",
+   "subject": "griselbrand",
+   "predicate": "imprisoned",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_innistrad",
+     "quote": "First the demon Griselbrand trapped Avacyn in the Helvault with him"
+    }
+   ],
+   "summary": "The demon Griselbrand trapped Avacyn in the Helvault with him."
+  },
+  {
+   "id": "UP009",
+   "subject": "sorin_markov",
+   "predicate": "destroyed",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_innistrad",
+     "quote": "Sorin Markov finally intervened, unmaking his beloved creation."
+    }
+   ],
+   "summary": "When madness overtook Avacyn, Sorin Markov unmade her."
+  },
+  {
+   "id": "UP010",
+   "subject": "takeshi_konda",
+   "predicate": "controls",
+   "object": "eiganjo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_kamigawa",
+     "quote": "the daimyo Takeshi Konda, ruled over the Towabara Plains from his stronghold at Eiganjo"
+    }
+   ],
+   "summary": "The daimyo Takeshi Konda ruled the Towabara Plains from his stronghold at Eiganjo.",
+   "limitation": "Kamigawa: Champions-era profile."
+  },
+  {
+   "id": "UP011",
+   "subject": "o_kagachi",
+   "predicate": "opposed",
+   "object": "takeshi_konda",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "up_kamigawa",
+     "quote": "Konda kidnapped a kami to secure his own power and immortality."
+    },
+    {
+     "page": "up_kamigawa",
+     "quote": "This outraged the great O-Kagachi, kami of all things"
+    }
+   ],
+   "summary": "Konda kidnapped a kami for power and immortality, which outraged O-Kagachi and began the Kami War.",
+   "limitation": "The page says the kidnapping outraged O-Kagachi; direct opposition to Konda personally is inferred."
+  },
+  {
+   "id": "UP012",
+   "subject": "michiko_konda",
+   "predicate": "allied_with",
+   "object": "kyodai",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_kamigawa",
+     "quote": "Only Konda's daughter Michiko and a stolen kami—an entity who calls herself Kyodai—have any hope of placating the kami"
+    }
+   ],
+   "summary": "Michiko Konda and the stolen kami Kyodai are the only hope of ending the Kami War.",
+   "limitation": "The page presents them as the hope for peace; it does not narrate them acting together."
+  },
+  {
+   "id": "UP013",
+   "subject": "takeshi_konda",
+   "predicate": "parent_of",
+   "object": "michiko_konda",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_kamigawa",
+     "quote": "Only Konda's daughter Michiko and a stolen kami"
+    }
+   ],
+   "summary": "Michiko is Takeshi Konda's daughter."
+  },
+  {
+   "id": "UP014",
+   "subject": "oona",
+   "predicate": "cursed",
+   "object": "lorwyn_shadowmoor",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_lorwyn",
+     "quote": "for it was their queen, Oona, who caused it."
+    }
+   ],
+   "summary": "Oona, queen of the faeries, caused the transformation of Lorwyn into Shadowmoor.",
+   "limitation": "The page says she caused the transformation; it does not describe how."
+  },
+  {
+   "id": "UP015",
+   "subject": "oona",
+   "predicate": "leader_of",
+   "object": "glen_elendra",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "up_lorwyn",
+     "quote": "the faeries and their home of Glen Elendra. The fae are the fulcrum of this transforming plane—for it was their queen, Oona"
+    }
+   ],
+   "summary": "Oona is queen of the faeries, whose home is Glen Elendra.",
+   "limitation": "The page calls her queen of the faeries; ruling Glen Elendra itself is inferred."
+  },
+  {
+   "id": "UP016",
+   "subject": "karn",
+   "predicate": "created",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_mirrodin",
+     "quote": "Long ago, this metal plane was created by Karn, the silver golem built by the Planeswalker Urza."
+    },
+    {
+     "page": "up_nph",
+     "quote": "Mirrodin, originally known as Argentum, was created by the Planeswalker Karn."
+    }
+   ],
+   "summary": "Karn created Mirrodin, originally called Argentum."
+  },
+  {
+   "id": "UP017",
+   "subject": "urza",
+   "predicate": "created",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_mirrodin",
+     "quote": "Karn, the silver golem built by the Planeswalker Urza"
+    }
+   ],
+   "summary": "Urza built the silver golem Karn."
+  },
+  {
+   "id": "UP018",
+   "subject": "karn",
+   "predicate": "created",
+   "object": "memnarch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_mirrodin",
+     "quote": "Even the Warden that Karn created to protect the plane grew unstable, gaining sentience and calling himself Memnarch."
+    }
+   ],
+   "summary": "Karn created Mirrodin's Warden, which became Memnarch."
+  },
+  {
+   "id": "UP019",
+   "subject": "glissa",
+   "predicate": "defeated",
+   "object": "memnarch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_mirrodin",
+     "quote": "before he was finally defeated by the elf Glissa Sunseeker"
+    }
+   ],
+   "summary": "The elf Glissa Sunseeker defeated Memnarch."
+  },
+  {
+   "id": "UP021",
+   "subject": "urabrask",
+   "predicate": "leader_of",
+   "object": "phyrexians",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "up_mirrodin",
+     "quote": "Its red-aligned faction, led by Urabrask, turns a blind eye to the citizens of Mirrodin"
+    }
+   ],
+   "summary": "Urabrask leads the red-aligned faction of New Phyrexia.",
+   "limitation": "He leads one faction of the Phyrexians, not the whole."
+  },
+  {
+   "id": "UP022",
+   "subject": "karn",
+   "predicate": "leader_of",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_nph",
+     "quote": "Slowly losing his mind, Karn became the Father of Machines and the leader of Phyrexia."
+    }
+   ],
+   "summary": "Corrupted by the oil, Karn became the Father of Machines and leader of Phyrexia.",
+   "limitation": "Past state; Venser later restored him to sanity."
+  },
+  {
+   "id": "UP023",
+   "subject": "venser",
+   "predicate": "rescued",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_nph",
+     "quote": "Venser sacrificed his life to restore Karn to sanity"
+    }
+   ],
+   "summary": "Venser sacrificed his life to restore Karn to sanity."
+  },
+  {
+   "id": "UP024",
+   "subject": "phyrexians",
+   "predicate": "invaded",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_nph",
+     "quote": "The slow spread soon became an active campaign to alter, or compleat, the world of Mirrodin."
+    },
+    {
+     "page": "up_nph",
+     "quote": "they soon were overwhelmed by the Phyrexian forces"
+    }
+   ],
+   "summary": "The Phyrexians compleated Mirrodin and overwhelmed the Mirrans."
+  },
+  {
+   "id": "UP025",
+   "subject": "boros_legion",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_ravnica",
+     "quote": "The military guild of Boros (red-white) believes righteousness is fire"
+    }
+   ],
+   "summary": "Boros is Ravnica's military guild."
+  },
+  {
+   "id": "UP026",
+   "subject": "izzet_league",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_ravnica",
+     "quote": "The dragon-led Izzet (blue-red) fuses elemental magic and technology"
+    }
+   ],
+   "summary": "The dragon-led Izzet is the Ravnican guild of innovation.",
+   "limitation": "The page does not name the dragon."
+  },
+  {
+   "id": "UP027",
+   "subject": "golgari",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_ravnica",
+     "quote": "The death-worshiping Golgari guild (black-green) controls a vast undead army and labor force"
+    }
+   ],
+   "summary": "The Golgari guild controls an undead army and labor force under the city."
+  },
+  {
+   "id": "UP028",
+   "subject": "azorius_senate",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_ravnica",
+     "quote": "The Azorius Senate (white-blue) are the primary lawmakers on Ravnica"
+    }
+   ],
+   "summary": "The Azorius Senate are Ravnica's primary lawmakers."
+  },
+  {
+   "id": "UP029",
+   "subject": "guildpact",
+   "predicate": "located_on",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_ravnica",
+     "quote": "The power of each guild had been kept in check by an ancient agreement known as the Guildpact."
+    }
+   ],
+   "summary": "The Guildpact kept the power of each Ravnican guild in check.",
+   "limitation": "Profile written while the Guildpact was dissolving."
+  },
+  {
+   "id": "UP030",
+   "subject": "onakke",
+   "predicate": "located_on",
+   "object": "shandalar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_shandalar",
+     "quote": "It was once home to the Onakke, an ogre civilization"
+    }
+   ],
+   "summary": "Shandalar was once home to the Onakke ogre civilization."
+  },
+  {
+   "id": "UP031",
+   "subject": "slivers",
+   "predicate": "attacked",
+   "object": "shandalar",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_shandalar",
+     "quote": "must combat the growing hive mind of the slivers"
+    }
+   ],
+   "summary": "The slivers threaten to consume Shandalar."
+  },
+  {
+   "id": "UP032",
+   "subject": "ugin",
+   "predicate": "imprisoned",
+   "object": "eldrazi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient handiwork of the Planeswalkers Ugin, Sorin, and Nahiri the Lithomancer"
+    },
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient Planeswalkers used the hedrons to lure, contain, and immobilize them"
+    }
+   ],
+   "summary": "Ugin, Sorin and Nahiri made the hedrons and used them to imprison the Eldrazi on Zendikar."
+  },
+  {
+   "id": "UP033",
+   "subject": "nahiri",
+   "predicate": "imprisoned",
+   "object": "eldrazi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient handiwork of the Planeswalkers Ugin, Sorin, and Nahiri the Lithomancer"
+    },
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient Planeswalkers used the hedrons to lure, contain, and immobilize them"
+    }
+   ],
+   "summary": "Nahiri helped imprison the Eldrazi with the hedrons."
+  },
+  {
+   "id": "UP034",
+   "subject": "sorin_markov",
+   "predicate": "imprisoned",
+   "object": "eldrazi",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient handiwork of the Planeswalkers Ugin, Sorin, and Nahiri the Lithomancer"
+    },
+    {
+     "page": "up_zendikar",
+     "quote": "the ancient Planeswalkers used the hedrons to lure, contain, and immobilize them"
+    }
+   ],
+   "summary": "Sorin helped imprison the Eldrazi with the hedrons."
+  },
+  {
+   "id": "UP035",
+   "subject": "gatewatch",
+   "predicate": "destroyed",
+   "object": "ulamog",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "With the help of the four founding Planeswalkers of the Gatewatch – Gideon Jura, Nissa Revane, Jace Beleren, and Chandra Nalaar – the titans Ulamog and Kozilek were destroyed near the city of Sea Gate."
+    }
+   ],
+   "summary": "With the help of the four founding Gatewatch members, Ulamog and Kozilek were destroyed near Sea Gate."
+  },
+  {
+   "id": "UP036",
+   "subject": "gatewatch",
+   "predicate": "destroyed",
+   "object": "kozilek",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the titans Ulamog and Kozilek were destroyed near the city of Sea Gate."
+    }
+   ],
+   "summary": "Kozilek was destroyed near Sea Gate with the Gatewatch's help."
+  },
+  {
+   "id": "UP037",
+   "subject": "gideon_jura",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the four founding Planeswalkers of the Gatewatch – Gideon Jura, Nissa Revane, Jace Beleren, and Chandra Nalaar"
+    }
+   ],
+   "summary": "Gideon Jura is a founding member of the Gatewatch."
+  },
+  {
+   "id": "UP038",
+   "subject": "nissa_revane",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the four founding Planeswalkers of the Gatewatch – Gideon Jura, Nissa Revane, Jace Beleren, and Chandra Nalaar"
+    }
+   ],
+   "summary": "Nissa Revane is a founding member of the Gatewatch."
+  },
+  {
+   "id": "UP039",
+   "subject": "jace_beleren",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the four founding Planeswalkers of the Gatewatch – Gideon Jura, Nissa Revane, Jace Beleren, and Chandra Nalaar"
+    }
+   ],
+   "summary": "Jace Beleren is a founding member of the Gatewatch."
+  },
+  {
+   "id": "UP040",
+   "subject": "chandra_nalaar",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "up_zendikar",
+     "quote": "the four founding Planeswalkers of the Gatewatch – Gideon Jura, Nissa Revane, Jace Beleren, and Chandra Nalaar"
+    }
+   ],
+   "summary": "Chandra Nalaar is a founding member of the Gatewatch."
+  }
+ ],
+ "remaining": [
+  "Targeted, not exhaustive: guild descriptions on the Ravnica page are graded only for guilds that already exist as graph nodes",
+  "Alara shard cultures, Lorwyn race descriptions and Innistrad monster types are not graded"
+ ]
+}

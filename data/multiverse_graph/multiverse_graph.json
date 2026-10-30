@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "6c8a8f6e704d3adecf379708687d083dbd8e47ad53ba8d7ef1d837d6d44b44b8",
+ "content_sha256": "83838199cc751823e5eb9d343da9d8aa82304d1bdf3683e3edbbdf3ec6d57afb",
  "edges": [
   {
    "artists": [
@@ -9637,6 +9637,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dack_fayden",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dack_fayden"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dack_fayden",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dack_fayden_helping_hand"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:dakkon",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9655,6 +9669,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:danitha_capashen_paragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:daretti",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:daretti_ingenious_iconoclast"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:daretti",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:daretti_rocketeer_engineer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:daretti",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:daretti_scrap_savant"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11044,10 +11079,31 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:memnarch",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:memnarch"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:memnarch",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:memnarch_the_warden"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:mendicant_core",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:mendicant_core_guidelight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:michiko_konda",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:michiko_konda_truth_seeker"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11377,6 +11433,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:nylea_keen_eyed"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:o_kagachi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:o_kagachi_vengeful_kami"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12063,6 +12126,34 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:the_scorpion_god"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:selvala",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:selvala_eager_trailblazer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:selvala",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:selvala_explorer_returned"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:selvala",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:selvala_heart_of_the_wilds"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:serra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:serra_the_benevolent"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -13151,6 +13242,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:glen_elendra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:glen_elendra"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "place:goldmeadow",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -13176,6 +13274,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:nyx"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:paliano",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:paliano"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -22858,6 +22963,884 @@
    "to": "character:narset"
   },
   {
+   "claim": "UB001",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "ub_ajani"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "UB002",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:angrath",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked",
+   "sources": [
+    "ub_angrath"
+   ],
+   "to": "faction:sun_empire"
+  },
+  {
+   "claim": "UB003",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:basri_ket",
+   "grade": "CANON_CONFIRMED",
+   "relation": "champion_of",
+   "sources": [
+    "ub_basri"
+   ],
+   "to": "character:oketra"
+  },
+  {
+   "claim": "UB004",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:calix",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_calix"
+   ],
+   "to": "plane:theros"
+  },
+  {
+   "claim": "UB005",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:calix",
+   "grade": "CANON_CONFIRMED",
+   "relation": "pursued",
+   "sources": [
+    "ub_calix"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "UB006",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dack_fayden",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_dack"
+   ],
+   "to": "plane:fiora"
+  },
+  {
+   "claim": "UB007",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:daretti",
+   "grade": "CANON_CONFIRMED",
+   "relation": "returned_to",
+   "sources": [
+    "ub_daretti"
+   ],
+   "to": "plane:fiora"
+  },
+  {
+   "claim": "UB008",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:domri_rade",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ub_domri"
+   ],
+   "to": "faction:gruul_clans"
+  },
+  {
+   "claim": "UB009",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captured",
+   "sources": [
+    "ub_elspeth"
+   ],
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "claim": "UB010",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:huatli",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_huatli"
+   ],
+   "to": "plane:ixalan"
+  },
+  {
+   "claim": "UB011",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_jaya"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "UB012",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "ub_jaya"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "UB013",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_kaito"
+   ],
+   "to": "plane:kamigawa"
+  },
+  {
+   "claim": "UB014",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_IMPLIED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_nahiri"
+   ],
+   "to": "plane:zendikar"
+  },
+  {
+   "claim": "UB015",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_narset"
+   ],
+   "to": "plane:tarkir"
+  },
+  {
+   "claim": "UB016",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "plane:tarkir"
+  },
+  {
+   "claim": "UB017",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "faction:mardu"
+  },
+  {
+   "claim": "UB018",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "serves",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "UB019",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "UB020",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "character:ugin"
+  },
+  {
+   "claim": "UB021",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "claim": "UB022",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:narset",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ub_sarkhan"
+   ],
+   "to": "faction:jeskai"
+  },
+  {
+   "claim": "UB023",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_sorin"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "UB024",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tibalt",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_tibalt"
+   ],
+   "to": "plane:innistrad"
+  },
+  {
+   "claim": "UB025",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tyvar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_tyvar"
+   ],
+   "to": "plane:kaldheim"
+  },
+  {
+   "claim": "UB026",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "twin_sibling_of",
+   "sources": [
+    "ub_ugin"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "UB027",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:venser",
+   "grade": "CANON_IMPLIED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_venser"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "UB028",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vivien_reid",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_vivien"
+   ],
+   "to": "plane:skalla"
+  },
+  {
+   "claim": "UB029",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_vraska"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UB030",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vraska",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ub_vraska"
+   ],
+   "to": "faction:golgari"
+  },
+  {
+   "claim": "UB031",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:will_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "ub_rowan",
+    "ub_will"
+   ],
+   "to": "character:rowan_kenrith"
+  },
+  {
+   "claim": "UB032",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:xenagos",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originated_from",
+   "sources": [
+    "ub_xenagos"
+   ],
+   "to": "plane:theros"
+  },
+  {
+   "claim": "UB033",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:samut",
+   "grade": "CANON_CONFIRMED",
+   "relation": "friend_of",
+   "sources": [
+    "ub_samut"
+   ],
+   "to": "character:djeru"
+  },
+  {
+   "claim": "UB034",
+   "era": "planeswalker_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:serra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "ub_serra"
+   ],
+   "to": "plane:serras_realm"
+  },
+  {
+   "claim": "UP001",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "manipulated",
+   "sources": [
+    "up_alara"
+   ],
+   "to": "plane:alara"
+  },
+  {
+   "claim": "UP002",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "relation": "identified_with",
+   "sources": [
+    "up_avishkar"
+   ],
+   "to": "faction:avishkar_assembly"
+  },
+  {
+   "claim": "UP003",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:renegades_kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "up_avishkar"
+   ],
+   "to": "faction:consulate"
+  },
+  {
+   "claim": "UP004",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:paliano",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_fiora"
+   ],
+   "to": "plane:fiora"
+  },
+  {
+   "claim": "UP005",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:selvala",
+   "grade": "CANON_IMPLIED",
+   "relation": "travelled_to",
+   "sources": [
+    "up_fiora"
+   ],
+   "to": "plane:fiora"
+  },
+  {
+   "claim": "UP006",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "up_innistrad"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "UP007",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:avacyn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "up_innistrad"
+   ],
+   "to": "faction:church_of_avacyn"
+  },
+  {
+   "claim": "UP008",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:griselbrand",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "up_innistrad"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "UP009",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "up_innistrad"
+   ],
+   "to": "character:avacyn"
+  },
+  {
+   "claim": "UP010",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:takeshi_konda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "controls",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "place:eiganjo"
+  },
+  {
+   "claim": "UP011",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:o_kagachi",
+   "grade": "CANON_IMPLIED",
+   "relation": "opposed",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "character:takeshi_konda"
+  },
+  {
+   "claim": "UP012",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:michiko_konda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "character:kyodai"
+  },
+  {
+   "claim": "UP013",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:takeshi_konda",
+   "grade": "CANON_CONFIRMED",
+   "relation": "parent_of",
+   "sources": [
+    "up_kamigawa"
+   ],
+   "to": "character:michiko_konda"
+  },
+  {
+   "claim": "UP014",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:oona",
+   "grade": "CANON_CONFIRMED",
+   "relation": "cursed",
+   "sources": [
+    "up_lorwyn"
+   ],
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "claim": "UP015",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:oona",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "up_lorwyn"
+   ],
+   "to": "place:glen_elendra"
+  },
+  {
+   "claim": "UP016",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "up_mirrodin",
+    "up_nph"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "UP017",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "up_mirrodin"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "UP018",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "up_mirrodin"
+   ],
+   "to": "character:memnarch"
+  },
+  {
+   "claim": "UP019",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:glissa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "up_mirrodin"
+   ],
+   "to": "character:memnarch"
+  },
+  {
+   "claim": "UP021",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:urabrask",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "up_mirrodin"
+   ],
+   "to": "faction:phyrexians"
+  },
+  {
+   "claim": "UP022",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "faction:phyrexians"
+  },
+  {
+   "claim": "UP023",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:venser",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "UP024",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "relation": "invaded",
+   "sources": [
+    "up_nph"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "UP025",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:boros_legion",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_ravnica"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UP026",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:izzet_league",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_ravnica"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UP027",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:golgari",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_ravnica"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UP028",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:azorius_senate",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_ravnica"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UP029",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:guildpact",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_ravnica"
+   ],
+   "to": "plane:ravnica"
+  },
+  {
+   "claim": "UP030",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:onakke",
+   "grade": "CANON_CONFIRMED",
+   "relation": "located_on",
+   "sources": [
+    "up_shandalar"
+   ],
+   "to": "plane:shandalar"
+  },
+  {
+   "claim": "UP031",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:slivers",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked",
+   "sources": [
+    "up_shandalar"
+   ],
+   "to": "plane:shandalar"
+  },
+  {
+   "claim": "UP032",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ugin",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:eldrazi"
+  },
+  {
+   "claim": "UP033",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:eldrazi"
+  },
+  {
+   "claim": "UP034",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:eldrazi"
+  },
+  {
+   "claim": "UP035",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "character:ulamog"
+  },
+  {
+   "claim": "UP036",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "character:kozilek"
+  },
+  {
+   "claim": "UP037",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:gideon_jura",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "UP038",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "UP039",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "UP040",
+   "era": "plane_profiles_undated",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "up_zendikar"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
    "claim": "WE001",
    "era": "woe_quest_2023",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -23797,6 +24780,12 @@
    "to": "card:chromium_the_mutable"
   },
   {
+   "from": "character:dack_fayden",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#dack-fayden"
+  },
+  {
    "from": "character:dakkon",
    "limit": "Not proof of a particular scene in Dakkon's later battle.",
    "relation": "depicted_by",
@@ -23811,6 +24800,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#dakkon-blackblade"
+  },
+  {
+   "from": "character:daretti",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#daretti"
   },
   {
    "from": "character:domri_rade",
@@ -24151,6 +25146,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#sarkhan-vol"
+  },
+  {
+   "from": "character:serra",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#serra"
   },
   {
    "from": "character:sheoldred",
@@ -33745,6 +34746,882 @@
    "to": "character:elspeth_tirel"
   },
   {
+   "from": "claim:UB001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UB001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:UB002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:sun_empire"
+  },
+  {
+   "from": "claim:UB002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:angrath"
+  },
+  {
+   "from": "claim:UB003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:oketra"
+  },
+  {
+   "from": "claim:UB003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:basri_ket"
+  },
+  {
+   "from": "claim:UB004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:UB004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:calix"
+  },
+  {
+   "from": "claim:UB005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:UB005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:calix"
+  },
+  {
+   "from": "claim:UB006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:UB006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dack_fayden"
+  },
+  {
+   "from": "claim:UB007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:UB007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:daretti"
+  },
+  {
+   "from": "claim:UB008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gruul_clans"
+  },
+  {
+   "from": "claim:UB008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:domri_rade"
+  },
+  {
+   "from": "claim:UB009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:UB009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:UB010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ixalan"
+  },
+  {
+   "from": "claim:UB010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:huatli"
+  },
+  {
+   "from": "claim:UB011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:UB011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jaya_ballard"
+  },
+  {
+   "from": "claim:UB012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:UB012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jaya_ballard"
+  },
+  {
+   "from": "claim:UB013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:UB013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito"
+  },
+  {
+   "from": "claim:UB014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:zendikar"
+  },
+  {
+   "from": "claim:UB014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:UB015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:tarkir"
+  },
+  {
+   "from": "claim:UB015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:UB016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:tarkir"
+  },
+  {
+   "from": "claim:UB016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:UB017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:mardu"
+  },
+  {
+   "from": "claim:UB017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:UB018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:UB018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:UB019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:UB019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:UB020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:UB020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:UB021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sarkhan_vol"
+  },
+  {
+   "from": "claim:UB021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:UB022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:jeskai"
+  },
+  {
+   "from": "claim:UB022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:narset"
+  },
+  {
+   "from": "claim:UB023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:UB023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:UB024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:innistrad"
+  },
+  {
+   "from": "claim:UB024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tibalt"
+  },
+  {
+   "from": "claim:UB025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:UB025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tyvar"
+  },
+  {
+   "from": "claim:UB026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:UB026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:UB027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:UB027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:venser"
+  },
+  {
+   "from": "claim:UB028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:skalla"
+  },
+  {
+   "from": "claim:UB028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vivien_reid"
+  },
+  {
+   "from": "claim:UB029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UB029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:UB030",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:golgari"
+  },
+  {
+   "from": "claim:UB030",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vraska"
+  },
+  {
+   "from": "claim:UB031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:rowan_kenrith"
+  },
+  {
+   "from": "claim:UB031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:will_kenrith"
+  },
+  {
+   "from": "claim:UB032",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:UB032",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:xenagos"
+  },
+  {
+   "from": "claim:UB033",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:djeru"
+  },
+  {
+   "from": "claim:UB033",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:samut"
+  },
+  {
+   "from": "claim:UB034",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:serras_realm"
+  },
+  {
+   "from": "claim:UB034",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:serra"
+  },
+  {
+   "from": "claim:UP001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:alara"
+  },
+  {
+   "from": "claim:UP001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:UP002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:avishkar_assembly"
+  },
+  {
+   "from": "claim:UP002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:kaladesh"
+  },
+  {
+   "from": "claim:UP003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:consulate"
+  },
+  {
+   "from": "claim:UP003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:renegades_kaladesh"
+  },
+  {
+   "from": "claim:UP004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:UP004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:paliano"
+  },
+  {
+   "from": "claim:UP005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:fiora"
+  },
+  {
+   "from": "claim:UP005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:selvala"
+  },
+  {
+   "from": "claim:UP006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:UP006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:UP007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:church_of_avacyn"
+  },
+  {
+   "from": "claim:UP007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:UP008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:UP008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:griselbrand"
+  },
+  {
+   "from": "claim:UP009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:avacyn"
+  },
+  {
+   "from": "claim:UP009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:UP010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:eiganjo"
+  },
+  {
+   "from": "claim:UP010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:takeshi_konda"
+  },
+  {
+   "from": "claim:UP011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:takeshi_konda"
+  },
+  {
+   "from": "claim:UP011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:o_kagachi"
+  },
+  {
+   "from": "claim:UP012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kyodai"
+  },
+  {
+   "from": "claim:UP012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:michiko_konda"
+  },
+  {
+   "from": "claim:UP013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:michiko_konda"
+  },
+  {
+   "from": "claim:UP013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:takeshi_konda"
+  },
+  {
+   "from": "claim:UP014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:lorwyn_shadowmoor"
+  },
+  {
+   "from": "claim:UP014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:oona"
+  },
+  {
+   "from": "claim:UP015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:glen_elendra"
+  },
+  {
+   "from": "claim:UP015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:oona"
+  },
+  {
+   "from": "claim:UP016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:UP016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:UP017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:UP017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:UP018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:memnarch"
+  },
+  {
+   "from": "claim:UP018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:UP019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:memnarch"
+  },
+  {
+   "from": "claim:UP019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:glissa"
+  },
+  {
+   "from": "claim:UP021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:UP021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urabrask"
+  },
+  {
+   "from": "claim:UP022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:UP022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:UP023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:UP023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:venser"
+  },
+  {
+   "from": "claim:UP024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:UP024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:phyrexians"
+  },
+  {
+   "from": "claim:UP025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UP025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:boros_legion"
+  },
+  {
+   "from": "claim:UP026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UP026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:izzet_league"
+  },
+  {
+   "from": "claim:UP027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UP027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:golgari"
+  },
+  {
+   "from": "claim:UP028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UP028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:azorius_senate"
+  },
+  {
+   "from": "claim:UP029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ravnica"
+  },
+  {
+   "from": "claim:UP029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:guildpact"
+  },
+  {
+   "from": "claim:UP030",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:shandalar"
+  },
+  {
+   "from": "claim:UP030",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:onakke"
+  },
+  {
+   "from": "claim:UP031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:shandalar"
+  },
+  {
+   "from": "claim:UP031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:slivers"
+  },
+  {
+   "from": "claim:UP032",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:eldrazi"
+  },
+  {
+   "from": "claim:UP032",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ugin"
+  },
+  {
+   "from": "claim:UP033",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:eldrazi"
+  },
+  {
+   "from": "claim:UP033",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:UP034",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:eldrazi"
+  },
+  {
+   "from": "claim:UP034",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sorin_markov"
+  },
+  {
+   "from": "claim:UP035",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ulamog"
+  },
+  {
+   "from": "claim:UP035",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP036",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kozilek"
+  },
+  {
+   "from": "claim:UP036",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP037",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP037",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:gideon_jura"
+  },
+  {
+   "from": "claim:UP038",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP038",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:UP039",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP039",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:UP040",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:UP040",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
    "from": "claim:WE001",
    "relation": "asserts",
    "role": "object",
@@ -34634,6 +36511,12 @@
    "to": "card:tomb_of_the_spirit_dragon"
   },
   {
+   "from": "plane:alara",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#alara"
+  },
+  {
    "from": "plane:amonkhet",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -34656,6 +36539,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planes Index.md#eldraine"
+  },
+  {
+   "from": "plane:fiora",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#fiora"
   },
   {
    "from": "plane:ikoria",
@@ -34704,6 +36593,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planes Index.md#regatha"
+  },
+  {
+   "from": "plane:shandalar",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#shandalar"
+  },
+  {
+   "from": "plane:skalla",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#skalla"
   },
   {
    "from": "plane:tarkir",
@@ -39037,6 +40938,181 @@
    "to": "claim:TS036"
   },
   {
+   "from": "source:ub_ajani",
+   "relation": "cited_by",
+   "to": "claim:UB001"
+  },
+  {
+   "from": "source:ub_angrath",
+   "relation": "cited_by",
+   "to": "claim:UB002"
+  },
+  {
+   "from": "source:ub_basri",
+   "relation": "cited_by",
+   "to": "claim:UB003"
+  },
+  {
+   "from": "source:ub_calix",
+   "relation": "cited_by",
+   "to": "claim:UB004"
+  },
+  {
+   "from": "source:ub_calix",
+   "relation": "cited_by",
+   "to": "claim:UB005"
+  },
+  {
+   "from": "source:ub_dack",
+   "relation": "cited_by",
+   "to": "claim:UB006"
+  },
+  {
+   "from": "source:ub_daretti",
+   "relation": "cited_by",
+   "to": "claim:UB007"
+  },
+  {
+   "from": "source:ub_domri",
+   "relation": "cited_by",
+   "to": "claim:UB008"
+  },
+  {
+   "from": "source:ub_elspeth",
+   "relation": "cited_by",
+   "to": "claim:UB009"
+  },
+  {
+   "from": "source:ub_huatli",
+   "relation": "cited_by",
+   "to": "claim:UB010"
+  },
+  {
+   "from": "source:ub_jaya",
+   "relation": "cited_by",
+   "to": "claim:UB011"
+  },
+  {
+   "from": "source:ub_jaya",
+   "relation": "cited_by",
+   "to": "claim:UB012"
+  },
+  {
+   "from": "source:ub_kaito",
+   "relation": "cited_by",
+   "to": "claim:UB013"
+  },
+  {
+   "from": "source:ub_nahiri",
+   "relation": "cited_by",
+   "to": "claim:UB014"
+  },
+  {
+   "from": "source:ub_narset",
+   "relation": "cited_by",
+   "to": "claim:UB015"
+  },
+  {
+   "from": "source:ub_rowan",
+   "relation": "cited_by",
+   "to": "claim:UB031"
+  },
+  {
+   "from": "source:ub_samut",
+   "relation": "cited_by",
+   "to": "claim:UB033"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB016"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB017"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB018"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB019"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB020"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB021"
+  },
+  {
+   "from": "source:ub_sarkhan",
+   "relation": "cited_by",
+   "to": "claim:UB022"
+  },
+  {
+   "from": "source:ub_serra",
+   "relation": "cited_by",
+   "to": "claim:UB034"
+  },
+  {
+   "from": "source:ub_sorin",
+   "relation": "cited_by",
+   "to": "claim:UB023"
+  },
+  {
+   "from": "source:ub_tibalt",
+   "relation": "cited_by",
+   "to": "claim:UB024"
+  },
+  {
+   "from": "source:ub_tyvar",
+   "relation": "cited_by",
+   "to": "claim:UB025"
+  },
+  {
+   "from": "source:ub_ugin",
+   "relation": "cited_by",
+   "to": "claim:UB026"
+  },
+  {
+   "from": "source:ub_venser",
+   "relation": "cited_by",
+   "to": "claim:UB027"
+  },
+  {
+   "from": "source:ub_vivien",
+   "relation": "cited_by",
+   "to": "claim:UB028"
+  },
+  {
+   "from": "source:ub_vraska",
+   "relation": "cited_by",
+   "to": "claim:UB029"
+  },
+  {
+   "from": "source:ub_vraska",
+   "relation": "cited_by",
+   "to": "claim:UB030"
+  },
+  {
+   "from": "source:ub_will",
+   "relation": "cited_by",
+   "to": "claim:UB031"
+  },
+  {
+   "from": "source:ub_xenagos",
+   "relation": "cited_by",
+   "to": "claim:UB032"
+  },
+  {
    "from": "source:unbroken_unbowed",
    "relation": "cited_by",
    "to": "claim:U008"
@@ -39045,6 +41121,206 @@
    "from": "source:unbroken_unbowed",
    "relation": "cited_by",
    "to": "claim:U009"
+  },
+  {
+   "from": "source:up_alara",
+   "relation": "cited_by",
+   "to": "claim:UP001"
+  },
+  {
+   "from": "source:up_avishkar",
+   "relation": "cited_by",
+   "to": "claim:UP002"
+  },
+  {
+   "from": "source:up_avishkar",
+   "relation": "cited_by",
+   "to": "claim:UP003"
+  },
+  {
+   "from": "source:up_fiora",
+   "relation": "cited_by",
+   "to": "claim:UP004"
+  },
+  {
+   "from": "source:up_fiora",
+   "relation": "cited_by",
+   "to": "claim:UP005"
+  },
+  {
+   "from": "source:up_innistrad",
+   "relation": "cited_by",
+   "to": "claim:UP006"
+  },
+  {
+   "from": "source:up_innistrad",
+   "relation": "cited_by",
+   "to": "claim:UP007"
+  },
+  {
+   "from": "source:up_innistrad",
+   "relation": "cited_by",
+   "to": "claim:UP008"
+  },
+  {
+   "from": "source:up_innistrad",
+   "relation": "cited_by",
+   "to": "claim:UP009"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:UP010"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:UP011"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:UP012"
+  },
+  {
+   "from": "source:up_kamigawa",
+   "relation": "cited_by",
+   "to": "claim:UP013"
+  },
+  {
+   "from": "source:up_lorwyn",
+   "relation": "cited_by",
+   "to": "claim:UP014"
+  },
+  {
+   "from": "source:up_lorwyn",
+   "relation": "cited_by",
+   "to": "claim:UP015"
+  },
+  {
+   "from": "source:up_mirrodin",
+   "relation": "cited_by",
+   "to": "claim:UP016"
+  },
+  {
+   "from": "source:up_mirrodin",
+   "relation": "cited_by",
+   "to": "claim:UP017"
+  },
+  {
+   "from": "source:up_mirrodin",
+   "relation": "cited_by",
+   "to": "claim:UP018"
+  },
+  {
+   "from": "source:up_mirrodin",
+   "relation": "cited_by",
+   "to": "claim:UP019"
+  },
+  {
+   "from": "source:up_mirrodin",
+   "relation": "cited_by",
+   "to": "claim:UP021"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:UP016"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:UP022"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:UP023"
+  },
+  {
+   "from": "source:up_nph",
+   "relation": "cited_by",
+   "to": "claim:UP024"
+  },
+  {
+   "from": "source:up_ravnica",
+   "relation": "cited_by",
+   "to": "claim:UP025"
+  },
+  {
+   "from": "source:up_ravnica",
+   "relation": "cited_by",
+   "to": "claim:UP026"
+  },
+  {
+   "from": "source:up_ravnica",
+   "relation": "cited_by",
+   "to": "claim:UP027"
+  },
+  {
+   "from": "source:up_ravnica",
+   "relation": "cited_by",
+   "to": "claim:UP028"
+  },
+  {
+   "from": "source:up_ravnica",
+   "relation": "cited_by",
+   "to": "claim:UP029"
+  },
+  {
+   "from": "source:up_shandalar",
+   "relation": "cited_by",
+   "to": "claim:UP030"
+  },
+  {
+   "from": "source:up_shandalar",
+   "relation": "cited_by",
+   "to": "claim:UP031"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP032"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP033"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP034"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP035"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP036"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP037"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP038"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP039"
+  },
+  {
+   "from": "source:up_zendikar",
+   "relation": "cited_by",
+   "to": "claim:UP040"
   },
   {
    "from": "source:urza_profile",
@@ -39738,6 +42014,20 @@
     "sources": 5
    },
    {
+    "claims": 34,
+    "entities": 50,
+    "file": "data/lore_research/pack_p5_untagged_bios_2026-10-30.json",
+    "sha256": "ea4f2d36badbac44c64f36851b95179b0d09ef86c41173c92167114c4e701b3d",
+    "sources": 26
+   },
+   {
+    "claims": 39,
+    "entities": 52,
+    "file": "data/lore_research/pack_p5_untagged_planes_2026-10-30.json",
+    "sha256": "5ed4f34605f648de2dd9a72584affa5831971b2c1dd2d821a88eb52a8e2194c4",
+    "sources": 11
+   },
+   {
     "claims": 5,
     "entities": 10,
     "file": "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json",
@@ -39792,9 +42082,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 616,
+    "anchors": 631,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "64104d6bde53916cdbc479ece226a339fc6aee3cc2438aa7dc54dd705889da16"
+    "sha256": "fb35c37635338f03da4bd4c01019c7c1d4ce0d3bd673208c508d1f9b93b9ecff"
    }
   ],
   "story_caption_packs": [
@@ -42183,6 +44473,24 @@
    "type": "Card"
   },
   {
+   "id": "card:dack_fayden",
+   "name": "Dack Fayden",
+   "oracle_id": "9d4b1e44-3c66-4b1b-8a1d-308aa4f841f8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dack_fayden_helping_hand",
+   "name": "Dack Fayden, Helping Hand",
+   "oracle_id": "3b21abb0-9a58-4e62-9650-4b04ce2bfb12",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:daghatar_the_adamant",
    "name": "Daghatar the Adamant",
    "oracle_id": "7b303881-ac8d-4459-b04e-768a6804763c",
@@ -42226,6 +44534,33 @@
    "id": "card:danitha_capashen_paragon",
    "name": "Danitha Capashen, Paragon",
    "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:daretti_ingenious_iconoclast",
+   "name": "Daretti, Ingenious Iconoclast",
+   "oracle_id": "add0f7e7-8990-4fd1-8ac7-8115f7802912",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:daretti_rocketeer_engineer",
+   "name": "Daretti, Rocketeer Engineer",
+   "oracle_id": "0eb1d539-6301-46b0-903e-487eda34253f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:daretti_scrap_savant",
+   "name": "Daretti, Scrap Savant",
+   "oracle_id": "ea9f4de3-fc35-435a-8dff-a5657d14a9bd",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -43753,6 +46088,15 @@
    "id": "card:gix_yawgmoth_praetor",
    "name": "Gix, Yawgmoth Praetor",
    "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:glen_elendra",
+   "name": "Glen Elendra",
+   "oracle_id": "662e5245-73e4-49ba-aece-c73f1bea7b6a",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -46159,6 +48503,24 @@
    "type": "Card"
   },
   {
+   "id": "card:memnarch",
+   "name": "Memnarch",
+   "oracle_id": "52d8e70b-7e94-4e17-811f-70afe39ff9bd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:memnarch_the_warden",
+   "name": "Memnarch, the Warden",
+   "oracle_id": "f2630b02-fb48-4167-8a47-8284f7d4c484",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:memorial_to_genius",
    "name": "Memorial to Genius",
    "oracle_id": "81763d7d-3897-4be9-bbf6-f6f5dee366ff",
@@ -46200,6 +48562,15 @@
    "oracle_id": "c4920e95-a6fc-4373-a0d6-244f51851364",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:michiko_konda_truth_seeker",
+   "name": "Michiko Konda, Truth Seeker",
+   "oracle_id": "fbe190eb-fd4b-40e7-9a17-48c96b60f653",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -46884,6 +49255,15 @@
    "type": "Card"
   },
   {
+   "id": "card:o_kagachi_vengeful_kami",
+   "name": "O-Kagachi, Vengeful Kami",
+   "oracle_id": "300715a0-4f95-4212-9e13-558434c9d1a4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:oath_of_ajani",
    "name": "Oath of Ajani",
    "oracle_id": "1ec39c8f-eb1e-4881-a749-0c188788b612",
@@ -47257,6 +49637,15 @@
    "oracle_id": "f340018d-8b68-45d5-a72e-a922be68365d",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:paliano",
+   "name": "Paliano",
+   "oracle_id": "c5f0da12-b76f-42fb-a52e-cd09535e72fb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48652,6 +51041,33 @@
    "type": "Card"
   },
   {
+   "id": "card:selvala_eager_trailblazer",
+   "name": "Selvala, Eager Trailblazer",
+   "oracle_id": "95b20721-1af9-4f3f-a39b-7cd1d4ce0b20",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:selvala_explorer_returned",
+   "name": "Selvala, Explorer Returned",
+   "oracle_id": "b628a39b-c923-473d-900a-1617f47ecb76",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:selvala_heart_of_the_wilds",
+   "name": "Selvala, Heart of the Wilds",
+   "oracle_id": "1d725121-e50c-42f0-9128-56802f07c89e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sentinel_totem",
    "name": "Sentinel Totem",
    "oracle_id": "5432bd43-e92c-464b-9ad2-3515f3042799",
@@ -48666,6 +51082,15 @@
    "oracle_id": "c983644d-6741-4aa1-aa68-a6e680c26bb6",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:serra_the_benevolent",
+   "name": "Serra the Benevolent",
+   "oracle_id": "8b0e2382-dd91-42e6-aba3-5e8a15418a49",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -51766,7 +54191,8 @@
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51874,7 +54300,8 @@
    "id": "character:angrath",
    "name": "Angrath",
    "origins": [
-    "pack_p5_ixalan_rivals_2026-10-30.json"
+    "pack_p5_ixalan_rivals_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52027,7 +54454,8 @@
    "id": "character:avacyn",
    "name": "Avacyn",
    "origins": [
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52059,7 +54487,8 @@
    "id": "character:basri_ket",
    "name": "Basri Ket",
    "origins": [
-    "pack_p5_aetherdrift_2026-10-30.json"
+    "pack_p5_aetherdrift_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52171,7 +54600,8 @@
    "id": "character:calix",
    "name": "Calix",
    "origins": [
-    "pack_p5_theros_beyond_death_2026-10-30.json"
+    "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52211,7 +54641,9 @@
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
-    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52264,6 +54696,14 @@
    "type": "Character"
   },
   {
+   "id": "character:dack_fayden",
+   "name": "Dack Fayden",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:dakkon",
    "name": "Dakkon Blackblade",
    "origins": [
@@ -52278,6 +54718,14 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:daretti",
+   "name": "Daretti",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52335,7 +54783,8 @@
    "id": "character:djeru",
    "name": "Djeru",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52343,6 +54792,7 @@
    "id": "character:domri_rade",
    "name": "Domri Rade",
    "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -52465,7 +54915,8 @@
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52654,7 +55105,8 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
-    "pack_p5_bfz_2015_stories_2026-10-30.json"
+    "pack_p5_bfz_2015_stories_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52690,7 +55142,8 @@
    "id": "character:glissa",
    "name": "Glissa",
    "origins": [
-    "pack_p5_one_side_stories_2026-10-30.json"
+    "pack_p5_one_side_stories_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52706,7 +55159,8 @@
    "id": "character:griselbrand",
    "name": "Griselbrand",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52814,7 +55268,8 @@
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
-    "pack_p5_mom_side_stories_2026-10-30.json"
+    "pack_p5_mom_side_stories_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52915,7 +55370,8 @@
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52949,7 +55405,8 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53027,7 +55484,8 @@
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
-    "pack_p5_neo_side_stories_2026-10-30.json"
+    "pack_p5_neo_side_stories_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53082,7 +55540,8 @@
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_dominaria_united_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53305,7 +55764,8 @@
    "id": "character:kozilek",
    "name": "Kozilek",
    "origins": [
-    "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53346,7 +55806,8 @@
    "id": "character:kyodai",
    "name": "Kyodai",
    "origins": [
-    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53588,10 +56049,26 @@
    "type": "Character"
   },
   {
+   "id": "character:memnarch",
+   "name": "Memnarch",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:mendicant_core",
    "name": "Mendicant Core",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:michiko_konda",
+   "name": "Michiko Konda",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53678,7 +56155,9 @@
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53697,7 +56176,8 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_ikoria_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53747,6 +56227,8 @@
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -53788,7 +56270,8 @@
     "pack_p5_bfz_2015_stories_2026-10-30.json",
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
-    "pack_p5_mom_aftermath_2026-10-30.json"
+    "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53833,6 +56316,14 @@
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
     "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:o_kagachi",
+   "name": "O-Kagachi",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53890,7 +56381,8 @@
    "id": "character:oketra",
    "name": "Oketra",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -53918,7 +56410,8 @@
    "id": "character:oona",
    "name": "Oona",
    "origins": [
-    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54234,6 +56727,7 @@
    "origins": [
     "pack_p5_strixhaven_2026-10-30.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -54294,7 +56788,8 @@
    "id": "character:samut",
    "name": "Samut",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54313,7 +56808,8 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54330,6 +56826,22 @@
    "name": "The Scorpion God",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:selvala",
+   "name": "Selvala",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:serra",
+   "name": "Serra",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54417,7 +56929,9 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54442,6 +56956,14 @@
    "name": "Taigam",
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:takeshi_konda",
+   "name": "Takeshi Konda",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54626,7 +57148,8 @@
    "name": "Tibalt",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_p5_kaldheim_2026-10-30.json"
+    "pack_p5_kaldheim_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54701,7 +57224,8 @@
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_p5_duskmourn_2026-10-30.json",
-    "pack_p5_kaldheim_2026-10-30.json"
+    "pack_p5_kaldheim_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54714,7 +57238,9 @@
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54722,7 +57248,8 @@
    "id": "character:ulamog",
    "name": "Ulamog",
    "origins": [
-    "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54730,7 +57257,8 @@
    "id": "character:urabrask",
    "name": "Urabrask",
    "origins": [
-    "pack_p5_snc_side_stories_2026-10-30.json"
+    "pack_p5_snc_side_stories_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54749,7 +57277,8 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
-    "pack_p5_brothers_war_2026-10-30.json"
+    "pack_p5_brothers_war_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54822,7 +57351,9 @@
    "id": "character:venser",
    "name": "Venser",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54841,7 +57372,8 @@
     "pack_p5_ikoria_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_snc_side_stories_2026-10-30.json",
-    "pack_p5_streets_of_new_capenna_2026-10-30.json"
+    "pack_p5_streets_of_new_capenna_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -54889,6 +57421,7 @@
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Character"
@@ -54907,6 +57440,7 @@
    "origins": [
     "pack_p5_strixhaven_2026-10-30.json",
     "pack_p5_throne_of_eldraine_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -54943,7 +57477,8 @@
    "name": "Xenagos",
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -63882,6 +66417,835 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:UB001",
+   "name": "Ajani is a member of the Gatewatch and mentors his fellow Planeswalkers.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB002",
+   "name": "Angrath raids the coastal towns of the Sun Empire.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "attacked",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB003",
+   "name": "Basri Ket was devoted to Oketra and, after her death, vowed to champion her ideals across the Multiverse.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "champion_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB004",
+   "name": "Calix was created on Theros by the God of Destiny.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB005",
+   "name": "Calix pursues Elspeth Tirel across the Multiverse after failing to keep her in the Underworld.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "pursued",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB006",
+   "name": "Dack Fayden comes from Drakeston on Fiora.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB007",
+   "name": "Daretti returned to Fiora to reshape the power structures of Paliano.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "returned_to",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB008",
+   "limitation": "Undated profile; it gives no era for his leadership.",
+   "name": "The profile describes Domri as leader of the Gruul.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB009",
+   "limitation": "The profile does not name her home plane.",
+   "name": "As a child Elspeth was taken captive when Phyrexians invaded her plane; she escaped when her spark ignited.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "captured",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB010",
+   "name": "Huatli is a Warrior Poet from Ixalan.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB011",
+   "name": "Jaya Ballard was born on Dominaria more than 1,500 years ago.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB012",
+   "name": "Jaya Ballard mentors young pyromancers, Chandra Nalaar foremost among them.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB013",
+   "name": "Kaito Shizuki's home plane is Kamigawa.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UB014",
+   "limitation": "Implied by the Kor and Zendikar reference; the profile does not state outright that Zendikar is her homeland.",
+   "name": "The profile implies that Nahiri is a Kor whose homeland is Zendikar.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB015",
+   "name": "Narset's home plane is Tarkir.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB016",
+   "limitation": "The profile adds that after he changed history he is a man who was never born and has no home world.",
+   "name": "Sarkhan Vol is a native of Tarkir.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB017",
+   "limitation": "Past state, before his spark ignited.",
+   "name": "Sarkhan Vol was a warrior of the Mardu clan.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB018",
+   "limitation": "Past allegiance; the profile says his mind is now free of the influence of both Bolas and Ugin.",
+   "name": "On Jund, Sarkhan declared his fealty to Nicol Bolas.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "serves",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB019",
+   "limitation": "Original timeline only; Sarkhan then went back and prevented the death.",
+   "name": "In Tarkir's original timeline, Ugin died at the hands of Nicol Bolas.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB020",
+   "name": "Sarkhan traveled back in time and kept Ugin from dying, which created the dragonlord timeline of Tarkir.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "rescued",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB021",
+   "limitation": "Original timeline; in the changed present Narset is alive.",
+   "name": "In the original timeline, the Jeskai khan Narset gave her life helping Sarkhan.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB022",
+   "limitation": "Original timeline before Sarkhan changed history.",
+   "name": "In Tarkir's original timeline Narset was khan of the Jeskai.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB023",
+   "name": "Sorin Markov's home plane is Innistrad, where he lorded for millennia.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB024",
+   "name": "Tibalt was born human on Innistrad and became a half-devil through fiendish magic.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB025",
+   "limitation": "The profile does not name the king.",
+   "name": "Tyvar Kell is the younger brother of the elf king of Kaldheim.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB026",
+   "name": "Ugin and Nicol Bolas are twins.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "twin_sibling_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UB027",
+   "limitation": "Implied by his spark giving him access beyond Dominaria; not stated as his birthplace.",
+   "name": "The profile implies Venser comes from Dominaria.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB028",
+   "name": "Vivien Reid is the last survivor of her home plane Skalla.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB029",
+   "name": "Vraska's home plane is Ravnica.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB030",
+   "limitation": "Undated profile; it gives no era for her leadership.",
+   "name": "The profile describes Vraska as leading the Golgari guild.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB031",
+   "name": "Will and Rowan Kenrith are siblings and the only Planeswalkers known to share a spark.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB032",
+   "name": "Xenagos is a satyr of the Skola Valley on Theros.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "originated_from",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB033",
+   "name": "Samut and Djeru were close friends among the initiates.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "friend_of",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UB034",
+   "limitation": "The profile says Serra and her realm are long gone.",
+   "name": "Serra created the artificial plane known as Serra's Realm.",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "planeswalker_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP001",
+   "name": "Nicol Bolas engineered the reunion of Alara's five shards to feed on its mana.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "manipulated",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP002",
+   "limitation": "The profile reflects the plane after the Consulate fell; the relation is plane-to-government.",
+   "name": "Kaladesh has been reborn as Avishkar and is governed by the Avishkar Assembly.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP003",
+   "limitation": "The page does not say the Renegades alone carried out the overthrow.",
+   "name": "The Renegades thwarted the Consulate's plan, and the Consulate was later overthrown in a nearly bloodless revolution.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP004",
+   "name": "Paliano, the High City, is the capital of Fiora.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UP005",
+   "limitation": "The object is the Fioran frontier rather than the plane as a whole.",
+   "name": "Selvala was one of the first explorers of Fiora's wilderness frontier.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "travelled_to",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP006",
+   "name": "Sorin Markov created the archangel Avacyn to safeguard humanity on Innistrad.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP007",
+   "limitation": "Past state; the same page says Sorin later unmade her.",
+   "name": "Avacyn was the leader of the Church of Avacyn.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP008",
+   "name": "The demon Griselbrand trapped Avacyn in the Helvault with him.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP009",
+   "name": "When madness overtook Avacyn, Sorin Markov unmade her.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP010",
+   "limitation": "Kamigawa: Champions-era profile.",
+   "name": "The daimyo Takeshi Konda ruled the Towabara Plains from his stronghold at Eiganjo.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "controls",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UP011",
+   "limitation": "The page says the kidnapping outraged O-Kagachi; direct opposition to Konda personally is inferred.",
+   "name": "Konda kidnapped a kami for power and immortality, which outraged O-Kagachi and began the Kami War.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP012",
+   "limitation": "The page presents them as the hope for peace; it does not narrate them acting together.",
+   "name": "Michiko Konda and the stolen kami Kyodai are the only hope of ending the Kami War.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP013",
+   "name": "Michiko is Takeshi Konda's daughter.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "parent_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP014",
+   "limitation": "The page says she caused the transformation; it does not describe how.",
+   "name": "Oona, queen of the faeries, caused the transformation of Lorwyn into Shadowmoor.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "cursed",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UP015",
+   "limitation": "The page calls her queen of the faeries; ruling Glen Elendra itself is inferred.",
+   "name": "Oona is queen of the faeries, whose home is Glen Elendra.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP016",
+   "name": "Karn created Mirrodin, originally called Argentum.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP017",
+   "name": "Urza built the silver golem Karn.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP018",
+   "name": "Karn created Mirrodin's Warden, which became Memnarch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP019",
+   "name": "The elf Glissa Sunseeker defeated Memnarch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:UP021",
+   "limitation": "He leads one faction of the Phyrexians, not the whole.",
+   "name": "Urabrask leads the red-aligned faction of New Phyrexia.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP022",
+   "limitation": "Past state; Venser later restored him to sanity.",
+   "name": "Corrupted by the oil, Karn became the Father of Machines and leader of Phyrexia.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP023",
+   "name": "Venser sacrificed his life to restore Karn to sanity.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "rescued",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP024",
+   "name": "The Phyrexians compleated Mirrodin and overwhelmed the Mirrans.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "invaded",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP025",
+   "name": "Boros is Ravnica's military guild.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP026",
+   "limitation": "The page does not name the dragon.",
+   "name": "The dragon-led Izzet is the Ravnican guild of innovation.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP027",
+   "name": "The Golgari guild controls an undead army and labor force under the city.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP028",
+   "name": "The Azorius Senate are Ravnica's primary lawmakers.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP029",
+   "limitation": "Profile written while the Guildpact was dissolving.",
+   "name": "The Guildpact kept the power of each Ravnican guild in check.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP030",
+   "name": "Shandalar was once home to the Onakke ogre civilization.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "located_on",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP031",
+   "name": "The slivers threaten to consume Shandalar.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "attacked",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP032",
+   "name": "Ugin, Sorin and Nahiri made the hedrons and used them to imprison the Eldrazi on Zendikar.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP033",
+   "name": "Nahiri helped imprison the Eldrazi with the hedrons.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP034",
+   "name": "Sorin helped imprison the Eldrazi with the hedrons.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "imprisoned",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP035",
+   "name": "With the help of the four founding Gatewatch members, Ulamog and Kozilek were destroyed near Sea Gate.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP036",
+   "name": "Kozilek was destroyed near Sea Gate with the Gatewatch's help.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP037",
+   "name": "Gideon Jura is a founding member of the Gatewatch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP038",
+   "name": "Nissa Revane is a founding member of the Gatewatch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP039",
+   "name": "Jace Beleren is a founding member of the Gatewatch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:UP040",
+   "name": "Chandra Nalaar is a founding member of the Gatewatch.",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "plane_profiles_undated",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:WE001",
    "name": "Kellan sets out on a quest for Talion, his fae lord, carrying Talion's basket-hilt gift.",
    "origins": [
@@ -64712,6 +68076,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:guildpact",
+   "name": "The Guildpact",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:high_throne",
    "name": "High Throne of Eldraine",
    "origins": [
@@ -64849,8 +68221,24 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#dack-fayden",
+   "name": "Characters Index.md#dack-fayden",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#dakkon-blackblade",
    "name": "Characters Index.md#dakkon-blackblade",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#daretti",
+   "name": "Characters Index.md#daretti",
    "origins": [
     "lore_graph.json"
    ],
@@ -65105,6 +68493,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#serra",
+   "name": "Characters Index.md#serra",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#sheoldred",
    "name": "Characters Index.md#sheoldred",
    "origins": [
@@ -65305,6 +68701,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planes Index.md#alara",
+   "name": "Planes Index.md#alara",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#amonkhet",
    "name": "Planes Index.md#amonkhet",
    "origins": [
@@ -65331,6 +68735,14 @@
   {
    "id": "curated:Planes Index.md#eldraine",
    "name": "Planes Index.md#eldraine",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#fiora",
+   "name": "Planes Index.md#fiora",
    "origins": [
     "lore_graph.json"
    ],
@@ -65395,6 +68807,22 @@
   {
    "id": "curated:Planes Index.md#regatha",
    "name": "Planes Index.md#regatha",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#shandalar",
+   "name": "Planes Index.md#shandalar",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#skalla",
+   "name": "Planes Index.md#skalla",
    "origins": [
     "lore_graph.json"
    ],
@@ -65920,10 +69348,19 @@
    "type": "Faction"
   },
   {
+   "id": "faction:avishkar_assembly",
+   "name": "Avishkar Assembly",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:azorius_senate",
    "name": "Azorius Senate",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Faction"
@@ -65948,6 +69385,7 @@
    "id": "faction:boros_legion",
    "name": "Boros Legion",
    "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Faction"
@@ -66026,6 +69464,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:church_of_avacyn",
+   "name": "Church of Avacyn",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:cloudspire_racing_team",
    "name": "Cloudspire Racing Team",
    "origins": [
@@ -66045,7 +69491,8 @@
    "id": "faction:consulate",
    "name": "Consulate of Kaladesh",
    "origins": [
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66118,7 +69565,8 @@
    "name": "The Eldrazi",
    "origins": [
     "pack_p5_bfz_2015_stories_2026-10-30.json",
-    "pack_p5_edge_of_eternities_2026-10-30.json"
+    "pack_p5_edge_of_eternities_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66146,7 +69594,9 @@
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66156,6 +69606,8 @@
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Faction"
@@ -66164,6 +69616,7 @@
    "id": "faction:gruul_clans",
    "name": "Gruul Clans",
    "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Faction"
@@ -66236,6 +69689,7 @@
    "id": "faction:izzet_league",
    "name": "Izzet League",
    "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Faction"
@@ -66244,7 +69698,8 @@
    "id": "faction:jeskai",
    "name": "The Jeskai",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66327,7 +69782,8 @@
    "id": "faction:mardu",
    "name": "The Mardu",
    "origins": [
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66352,6 +69808,14 @@
    "name": "Omenseekers",
    "origins": [
     "pack_p5_kaldheim_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:onakke",
+   "name": "The Onakke",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66392,6 +69856,8 @@
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Faction"
@@ -66442,7 +69908,8 @@
    "name": "Renegades of Kaladesh",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66496,6 +69963,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:slivers",
+   "name": "Slivers",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:solidbodies_research",
    "name": "Solidbodies Research",
    "origins": [
@@ -66532,7 +70007,8 @@
    "id": "faction:sun_empire",
    "name": "Sun Empire",
    "origins": [
-    "pack_p5_ixalan_rivals_2026-10-30.json"
+    "pack_p5_ixalan_rivals_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -66852,6 +70328,14 @@
    "type": "Place"
   },
   {
+   "id": "place:eiganjo",
+   "name": "Eiganjo",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:emeria_skyclave",
    "name": "Emeria Skyclave",
    "origins": [
@@ -66897,6 +70381,14 @@
    "name": "Garenbrig",
    "origins": [
     "pack_p5_throne_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:glen_elendra",
+   "name": "Glen Elendra",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -67047,6 +70539,15 @@
    "type": "Place"
   },
   {
+   "id": "place:paliano",
+   "name": "Paliano",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:pondside",
    "name": "Pondside",
    "origins": [
@@ -67082,7 +70583,8 @@
    "id": "place:sea_gate",
    "name": "Sea Gate",
    "origins": [
-    "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
+    "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -67256,6 +70758,14 @@
    "type": "Place"
   },
   {
+   "id": "plane:alara",
+   "name": "Alara",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:amonkhet",
    "name": "Amonkhet",
    "origins": [
@@ -67289,7 +70799,8 @@
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67313,6 +70824,15 @@
    "type": "Plane"
   },
   {
+   "id": "plane:fiora",
+   "name": "Fiora",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:ikoria",
    "name": "Ikoria",
    "origins": [
@@ -67329,7 +70849,9 @@
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67339,7 +70861,8 @@
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
-    "pack_p5_mom_side_stories_2026-10-30.json"
+    "pack_p5_mom_side_stories_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67349,7 +70872,8 @@
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
-    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67358,7 +70882,8 @@
    "name": "Kaldheim",
    "origins": [
     "pack_p5_duskmourn_2026-10-30.json",
-    "pack_p5_kaldheim_2026-10-30.json"
+    "pack_p5_kaldheim_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67367,7 +70892,9 @@
    "name": "Kamigawa",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
-    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+    "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67375,7 +70902,8 @@
    "id": "plane:lorwyn_shadowmoor",
    "name": "Lorwyn-Shadowmoor",
    "origins": [
-    "pack_p5_lorwyn_eclipsed_2026-10-30.json"
+    "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67394,7 +70922,8 @@
    "name": "Mirrodin / New Phyrexia",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67442,6 +70971,8 @@
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_dsk_side_stories_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "type": "Plane"
@@ -67459,7 +70990,24 @@
    "id": "plane:serras_realm",
    "name": "Serra's Realm",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:shandalar",
+   "name": "Shandalar",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:skalla",
+   "name": "Skalla",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67469,7 +71017,8 @@
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
-    "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+    "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67479,7 +71028,8 @@
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -67509,7 +71059,9 @@
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_bfz_2015_stories_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
-    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -71990,6 +75542,292 @@
    "url": "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26"
   },
   {
+   "id": "source:ub_ajani",
+   "kind": "official_story_episode",
+   "name": "Ajani Goldmane | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker"
+  },
+  {
+   "id": "source:ub_angrath",
+   "kind": "official_story_episode",
+   "name": "Angrath | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/angrath-planeswalker"
+  },
+  {
+   "id": "source:ub_basri",
+   "kind": "official_story_episode",
+   "name": "Basri Ket | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/basri-ket-planeswalker"
+  },
+  {
+   "id": "source:ub_calix",
+   "kind": "official_story_episode",
+   "name": "Calix | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/calix-planeswalker"
+  },
+  {
+   "id": "source:ub_dack",
+   "kind": "official_story_episode",
+   "name": "Dack Fayden | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/dack-fayden-planeswalker"
+  },
+  {
+   "id": "source:ub_daretti",
+   "kind": "official_story_episode",
+   "name": "Daretti | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/daretti-planeswalker"
+  },
+  {
+   "id": "source:ub_domri",
+   "kind": "official_story_episode",
+   "name": "Domri Rade | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/domri-rade-planeswalker"
+  },
+  {
+   "id": "source:ub_elspeth",
+   "kind": "official_story_episode",
+   "name": "Elspeth Tirel | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/elspeth-tirel-planeswalker"
+  },
+  {
+   "id": "source:ub_huatli",
+   "kind": "official_story_episode",
+   "name": "Huatli | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/huatli-planeswalker"
+  },
+  {
+   "id": "source:ub_jaya",
+   "kind": "official_story_episode",
+   "name": "Jaya Ballard | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/jaya-planeswalker"
+  },
+  {
+   "id": "source:ub_kaito",
+   "kind": "official_story_episode",
+   "name": "Kaito Shizuki | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/kaito-shizuki-planeswalker"
+  },
+  {
+   "id": "source:ub_nahiri",
+   "kind": "official_story_episode",
+   "name": "Nahiri | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/nahiri-planeswalker"
+  },
+  {
+   "id": "source:ub_narset",
+   "kind": "official_story_episode",
+   "name": "Narset | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/narset-planeswalker"
+  },
+  {
+   "id": "source:ub_rowan",
+   "kind": "official_story_episode",
+   "name": "Rowan Kenrith | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/rowan-kenrith-planeswalker"
+  },
+  {
+   "id": "source:ub_samut",
+   "kind": "official_story_episode",
+   "name": "Samut | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/samut-planeswalker"
+  },
+  {
+   "id": "source:ub_sarkhan",
+   "kind": "official_story_episode",
+   "name": "Sarkhan Vol | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker"
+  },
+  {
+   "id": "source:ub_serra",
+   "kind": "official_story_episode",
+   "name": "Serra | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/serra-planeswalker"
+  },
+  {
+   "id": "source:ub_sorin",
+   "kind": "official_story_episode",
+   "name": "Sorin Markov | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/sorin-markov-planeswalker"
+  },
+  {
+   "id": "source:ub_tibalt",
+   "kind": "official_story_episode",
+   "name": "Tibalt | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/tibalt-planeswalker"
+  },
+  {
+   "id": "source:ub_tyvar",
+   "kind": "official_story_episode",
+   "name": "Tyvar Kell | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/tyvar-kell-planeswalker"
+  },
+  {
+   "id": "source:ub_ugin",
+   "kind": "official_story_episode",
+   "name": "Ugin | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/ugin-planeswalker"
+  },
+  {
+   "id": "source:ub_venser",
+   "kind": "official_story_episode",
+   "name": "Venser | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/venser-planeswalker"
+  },
+  {
+   "id": "source:ub_vivien",
+   "kind": "official_story_episode",
+   "name": "Vivien Reid | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/vivien-reid-planeswalker"
+  },
+  {
+   "id": "source:ub_vraska",
+   "kind": "official_story_episode",
+   "name": "Vraska | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/vraska-planeswalker"
+  },
+  {
+   "id": "source:ub_will",
+   "kind": "official_story_episode",
+   "name": "Will Kenrith | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/will-kenrith-planeswalker"
+  },
+  {
+   "id": "source:ub_xenagos",
+   "kind": "official_story_episode",
+   "name": "Xenagos | Planeswalker",
+   "origins": [
+    "pack_p5_untagged_bios_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/xenagos-planeswalker"
+  },
+  {
    "id": "source:unbroken_unbowed",
    "kind": "official_story",
    "name": "Unbroken and Unbowed",
@@ -71999,6 +75837,127 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/unbroken-and-unbowed-2015-04-22"
+  },
+  {
+   "id": "source:up_alara",
+   "kind": "official_story_episode",
+   "name": "Alara",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/alara-plane"
+  },
+  {
+   "id": "source:up_avishkar",
+   "kind": "official_story_episode",
+   "name": "Avishkar",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/avishkar-plane"
+  },
+  {
+   "id": "source:up_fiora",
+   "kind": "official_story_episode",
+   "name": "Fiora",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/fiora-plane"
+  },
+  {
+   "id": "source:up_innistrad",
+   "kind": "official_story_episode",
+   "name": "Innistrad",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/innistrad-plane"
+  },
+  {
+   "id": "source:up_kamigawa",
+   "kind": "official_story_episode",
+   "name": "Kamigawa",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/kamigawa-plane"
+  },
+  {
+   "id": "source:up_lorwyn",
+   "kind": "official_story_episode",
+   "name": "Lorwyn & Shadowmoor",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane"
+  },
+  {
+   "id": "source:up_mirrodin",
+   "kind": "official_story_episode",
+   "name": "Mirrodin",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/mirrodin-plane"
+  },
+  {
+   "id": "source:up_nph",
+   "kind": "official_story_episode",
+   "name": "New Phyrexia",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/new-phyrexia-plane"
+  },
+  {
+   "id": "source:up_ravnica",
+   "kind": "official_story_episode",
+   "name": "Ravnica",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/ravnica-plane"
+  },
+  {
+   "id": "source:up_shandalar",
+   "kind": "official_story_episode",
+   "name": "Shandalar",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/shandalar-plane"
+  },
+  {
+   "id": "source:up_zendikar",
+   "kind": "official_story_episode",
+   "name": "Zendikar",
+   "origins": [
+    "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/zendikar-plane"
   },
   {
    "id": "source:urza_profile",
@@ -72323,37 +76282,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 865,
+  "claim_edges_with_era": 938,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 664,
+   "CANON_CONFIRMED": 731,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 163,
+   "CANON_IMPLIED": 169,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 111,
-  "edges": 5224,
+  "curated_bridges": 118,
+  "edges": 5540,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1251,
+   "Card": 1266,
    "CardTheme": 1,
-   "Character": 383,
-   "Claim": 838,
-   "Concept": 131,
+   "Character": 391,
+   "Claim": 911,
+   "Concept": 139,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 91,
+   "Faction": 95,
    "Literal": 14,
    "Object": 45,
-   "Place": 60,
-   "Plane": 27,
-   "Source": 438
+   "Place": 63,
+   "Plane": 31,
+   "Source": 475
   },
-  "nodes": 3305,
+  "nodes": 3457,
   "non_wizards_sources": 0,
   "relations": 314,
-  "wizards_official_sources": 438
+  "wizards_official_sources": 475
  }
 }

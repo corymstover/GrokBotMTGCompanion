@@ -1,0 +1,1121 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_untagged_bios",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "scope": "Batch 9 extraction from the undated official Planeswalker profile pages (magic.wizards.com/en/story/<name>-planeswalker). These are short character blurbs with no publication date, so they carry no era: a relation here is what the profile states, not when it held. Profiles that name no other character, faction or plane are recorded in data/lore_research/reviewed_no_claim.json instead. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_untagged_bios.spec.json",
+ "source_register": {
+  "ub_ajani": {
+   "title": "Ajani Goldmane | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_angrath": {
+   "title": "Angrath | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/angrath-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_basri": {
+   "title": "Basri Ket | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/basri-ket-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_calix": {
+   "title": "Calix | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/calix-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_dack": {
+   "title": "Dack Fayden | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/dack-fayden-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_daretti": {
+   "title": "Daretti | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/daretti-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_domri": {
+   "title": "Domri Rade | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/domri-rade-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_elspeth": {
+   "title": "Elspeth Tirel | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/elspeth-tirel-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_huatli": {
+   "title": "Huatli | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/huatli-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_jaya": {
+   "title": "Jaya Ballard | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/jaya-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_kaito": {
+   "title": "Kaito Shizuki | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/kaito-shizuki-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_nahiri": {
+   "title": "Nahiri | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/nahiri-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_narset": {
+   "title": "Narset | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/narset-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_sarkhan": {
+   "title": "Sarkhan Vol | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_sorin": {
+   "title": "Sorin Markov | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/sorin-markov-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_tibalt": {
+   "title": "Tibalt | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/tibalt-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_tyvar": {
+   "title": "Tyvar Kell | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/tyvar-kell-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_ugin": {
+   "title": "Ugin | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/ugin-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_venser": {
+   "title": "Venser | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/venser-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_vivien": {
+   "title": "Vivien Reid | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/vivien-reid-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_vraska": {
+   "title": "Vraska | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/vraska-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_will": {
+   "title": "Will Kenrith | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/will-kenrith-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_rowan": {
+   "title": "Rowan Kenrith | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/rowan-kenrith-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_xenagos": {
+   "title": "Xenagos | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/xenagos-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_samut": {
+   "title": "Samut | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/samut-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  },
+  "ub_serra": {
+   "title": "Serra | Planeswalker",
+   "url": "https://magic.wizards.com/en/story/serra-planeswalker",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
+  }
+ },
+ "entities": [
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani Goldmane"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "The Gatewatch"
+  },
+  {
+   "id": "angrath",
+   "type": "Character",
+   "name": "Angrath"
+  },
+  {
+   "id": "sun_empire",
+   "type": "Faction",
+   "name": "Sun Empire"
+  },
+  {
+   "id": "basri_ket",
+   "type": "Character",
+   "name": "Basri Ket"
+  },
+  {
+   "id": "oketra",
+   "type": "Character",
+   "name": "Oketra"
+  },
+  {
+   "id": "calix",
+   "type": "Character",
+   "name": "Calix"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "theros",
+   "type": "Plane",
+   "name": "Theros"
+  },
+  {
+   "id": "dack_fayden",
+   "type": "Character",
+   "name": "Dack Fayden"
+  },
+  {
+   "id": "fiora",
+   "type": "Plane",
+   "name": "Fiora"
+  },
+  {
+   "id": "daretti",
+   "type": "Character",
+   "name": "Daretti"
+  },
+  {
+   "id": "paliano",
+   "type": "Place",
+   "name": "Paliano"
+  },
+  {
+   "id": "domri_rade",
+   "type": "Character",
+   "name": "Domri Rade"
+  },
+  {
+   "id": "gruul_clans",
+   "type": "Faction",
+   "name": "Gruul Clans"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "The Phyrexians"
+  },
+  {
+   "id": "huatli",
+   "type": "Character",
+   "name": "Huatli"
+  },
+  {
+   "id": "ixalan",
+   "type": "Plane",
+   "name": "Ixalan"
+  },
+  {
+   "id": "jaya_ballard",
+   "type": "Character",
+   "name": "Jaya Ballard"
+  },
+  {
+   "id": "dominaria",
+   "type": "Plane",
+   "name": "Dominaria"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "kaito",
+   "type": "Character",
+   "name": "Kaito Shizuki"
+  },
+  {
+   "id": "kamigawa",
+   "type": "Plane",
+   "name": "Kamigawa"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri"
+  },
+  {
+   "id": "zendikar",
+   "type": "Plane",
+   "name": "Zendikar"
+  },
+  {
+   "id": "narset",
+   "type": "Character",
+   "name": "Narset"
+  },
+  {
+   "id": "tarkir",
+   "type": "Plane",
+   "name": "Tarkir"
+  },
+  {
+   "id": "sarkhan_vol",
+   "type": "Character",
+   "name": "Sarkhan Vol"
+  },
+  {
+   "id": "mardu",
+   "type": "Faction",
+   "name": "The Mardu"
+  },
+  {
+   "id": "nicol_bolas",
+   "type": "Character",
+   "name": "Nicol Bolas"
+  },
+  {
+   "id": "ugin",
+   "type": "Character",
+   "name": "Ugin"
+  },
+  {
+   "id": "jeskai",
+   "type": "Faction",
+   "name": "The Jeskai"
+  },
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "tibalt",
+   "type": "Character",
+   "name": "Tibalt"
+  },
+  {
+   "id": "tyvar",
+   "type": "Character",
+   "name": "Tyvar Kell"
+  },
+  {
+   "id": "kaldheim",
+   "type": "Plane",
+   "name": "Kaldheim"
+  },
+  {
+   "id": "venser",
+   "type": "Character",
+   "name": "Venser"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "skalla",
+   "type": "Plane",
+   "name": "Skalla"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "ravnica",
+   "type": "Plane",
+   "name": "Ravnica"
+  },
+  {
+   "id": "golgari",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "will_kenrith",
+   "type": "Character",
+   "name": "Will Kenrith"
+  },
+  {
+   "id": "rowan_kenrith",
+   "type": "Character",
+   "name": "Rowan Kenrith"
+  },
+  {
+   "id": "xenagos",
+   "type": "Character",
+   "name": "Xenagos"
+  },
+  {
+   "id": "samut",
+   "type": "Character",
+   "name": "Samut"
+  },
+  {
+   "id": "djeru",
+   "type": "Character",
+   "name": "Djeru"
+  },
+  {
+   "id": "serra",
+   "type": "Character",
+   "name": "Serra"
+  },
+  {
+   "id": "serras_realm",
+   "type": "Plane",
+   "name": "Serra's Realm"
+  }
+ ],
+ "claims": [
+  {
+   "id": "UB001",
+   "subject": "ajani",
+   "predicate": "member_of",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_ajani"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_ajani",
+     "quote": "As a member of the Gatewatch, Ajani often provides mentorship to his fellow Planeswalkers"
+    }
+   ],
+   "summary": "Ajani is a member of the Gatewatch and mentors his fellow Planeswalkers.",
+   "limitation": ""
+  },
+  {
+   "id": "UB002",
+   "subject": "angrath",
+   "predicate": "attacked",
+   "object": "sun_empire",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_angrath"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_angrath",
+     "quote": "an endless series of raids upon the coastal towns of the Sun Empire"
+    }
+   ],
+   "summary": "Angrath raids the coastal towns of the Sun Empire.",
+   "limitation": ""
+  },
+  {
+   "id": "UB003",
+   "subject": "basri_ket",
+   "predicate": "champion_of",
+   "object": "oketra",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_basri"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_basri",
+     "quote": "Basri Ket was utterly devoted to Oketra, god of loyalty and solidarity"
+    },
+    {
+     "source_id": "ub_basri",
+     "quote": "vowed to champion her ideals across the Multiverse"
+    }
+   ],
+   "summary": "Basri Ket was devoted to Oketra and, after her death, vowed to champion her ideals across the Multiverse.",
+   "limitation": ""
+  },
+  {
+   "id": "UB004",
+   "subject": "calix",
+   "predicate": "originated_from",
+   "object": "theros",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_calix"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_calix",
+     "quote": "Calix was artificially created by the God of Destiny on the plane of Theros"
+    }
+   ],
+   "summary": "Calix was created on Theros by the God of Destiny.",
+   "limitation": ""
+  },
+  {
+   "id": "UB005",
+   "subject": "calix",
+   "predicate": "pursued",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_calix"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_calix",
+     "quote": "allowing him to pursue Elspeth across the multiverse"
+    }
+   ],
+   "summary": "Calix pursues Elspeth Tirel across the Multiverse after failing to keep her in the Underworld.",
+   "limitation": ""
+  },
+  {
+   "id": "UB006",
+   "subject": "dack_fayden",
+   "predicate": "originated_from",
+   "object": "fiora",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_dack"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_dack",
+     "quote": "Dack Fayden is a human mage from Drakeston, a village on the plane of Fiora."
+    }
+   ],
+   "summary": "Dack Fayden comes from Drakeston on Fiora.",
+   "limitation": ""
+  },
+  {
+   "id": "UB007",
+   "subject": "daretti",
+   "predicate": "returned_to",
+   "object": "fiora",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_daretti"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_daretti",
+     "quote": "Daretti returned to Fiora to reshape the power structures of Paliano"
+    }
+   ],
+   "summary": "Daretti returned to Fiora to reshape the power structures of Paliano.",
+   "limitation": ""
+  },
+  {
+   "id": "UB008",
+   "subject": "domri_rade",
+   "predicate": "leader_of",
+   "object": "gruul_clans",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_domri"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_domri",
+     "quote": "As leader of the Gruul on Ravnica, Domri revels in chaos and destruction."
+    }
+   ],
+   "summary": "The profile describes Domri as leader of the Gruul.",
+   "limitation": "Undated profile; it gives no era for his leadership."
+  },
+  {
+   "id": "UB009",
+   "subject": "phyrexians",
+   "predicate": "captured",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_elspeth"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_elspeth",
+     "quote": "As a child, her plane was invaded by the horrifying Phyrexians."
+    },
+    {
+     "source_id": "ub_elspeth",
+     "quote": "Taken captive, she escaped when her Spark ignited"
+    }
+   ],
+   "summary": "As a child Elspeth was taken captive when Phyrexians invaded her plane; she escaped when her spark ignited.",
+   "limitation": "The profile does not name her home plane."
+  },
+  {
+   "id": "UB010",
+   "subject": "huatli",
+   "predicate": "originated_from",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_huatli"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_huatli",
+     "quote": "A renowned Warrior Poet from Ixalan"
+    }
+   ],
+   "summary": "Huatli is a Warrior Poet from Ixalan.",
+   "limitation": ""
+  },
+  {
+   "id": "UB011",
+   "subject": "jaya_ballard",
+   "predicate": "originated_from",
+   "object": "dominaria",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_jaya"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_jaya",
+     "quote": "Born on Dominaria more than 1,500 years ago"
+    }
+   ],
+   "summary": "Jaya Ballard was born on Dominaria more than 1,500 years ago.",
+   "limitation": ""
+  },
+  {
+   "id": "UB012",
+   "subject": "jaya_ballard",
+   "predicate": "mentored",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_jaya"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_jaya",
+     "quote": "including her most promising student: Chandra Nalaar."
+    }
+   ],
+   "summary": "Jaya Ballard mentors young pyromancers, Chandra Nalaar foremost among them.",
+   "limitation": ""
+  },
+  {
+   "id": "UB013",
+   "subject": "kaito",
+   "predicate": "originated_from",
+   "object": "kamigawa",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_kaito"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_kaito",
+     "quote": "He pursues a personal agenda of technological progress on his home plane of Kamigawa"
+    }
+   ],
+   "summary": "Kaito Shizuki's home plane is Kamigawa.",
+   "limitation": ""
+  },
+  {
+   "id": "UB014",
+   "subject": "nahiri",
+   "predicate": "originated_from",
+   "object": "zendikar",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_nahiri"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_nahiri",
+     "quote": "Nahiri has frequently set aside traveling the Multiverse for the greater good of her homeland."
+    },
+    {
+     "source_id": "ub_nahiri",
+     "quote": "the Kor (and many of the denizens of Zendikar) are known for their adventurous spirit"
+    }
+   ],
+   "summary": "The profile implies that Nahiri is a Kor whose homeland is Zendikar.",
+   "limitation": "Implied by the Kor and Zendikar reference; the profile does not state outright that Zendikar is her homeland."
+  },
+  {
+   "id": "UB015",
+   "subject": "narset",
+   "predicate": "originated_from",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_narset"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_narset",
+     "quote": "her devotion is to her home plane of Tarkir"
+    }
+   ],
+   "summary": "Narset's home plane is Tarkir.",
+   "limitation": ""
+  },
+  {
+   "id": "UB016",
+   "subject": "sarkhan_vol",
+   "predicate": "originated_from",
+   "object": "tarkir",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "The dragon-worshipping Planeswalker Sarkhan Vol is a native of Tarkir"
+    }
+   ],
+   "summary": "Sarkhan Vol is a native of Tarkir.",
+   "limitation": "The profile adds that after he changed history he is a man who was never born and has no home world."
+  },
+  {
+   "id": "UB017",
+   "subject": "sarkhan_vol",
+   "predicate": "member_of",
+   "object": "mardu",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "He had a talent for battle and gained status as a warrior in the Mardu clan"
+    }
+   ],
+   "summary": "Sarkhan Vol was a warrior of the Mardu clan.",
+   "limitation": "Past state, before his spark ignited."
+  },
+  {
+   "id": "UB018",
+   "subject": "sarkhan_vol",
+   "predicate": "serves",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "There, he declared his fealty to the dragon Planeswalker Nicol Bolas."
+    }
+   ],
+   "summary": "On Jund, Sarkhan declared his fealty to Nicol Bolas.",
+   "limitation": "Past allegiance; the profile says his mind is now free of the influence of both Bolas and Ugin."
+  },
+  {
+   "id": "UB019",
+   "subject": "nicol_bolas",
+   "predicate": "killed",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "a way to travel back through time to the moment of Ugin's death at Nicol Bolas's hands"
+    }
+   ],
+   "summary": "In Tarkir's original timeline, Ugin died at the hands of Nicol Bolas.",
+   "limitation": "Original timeline only; Sarkhan then went back and prevented the death."
+  },
+  {
+   "id": "UB020",
+   "subject": "sarkhan_vol",
+   "predicate": "rescued",
+   "object": "ugin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "Ugin's death at Nicol Bolas's hands and prevent the spirit dragon from falling"
+    }
+   ],
+   "summary": "Sarkhan traveled back in time and kept Ugin from dying, which created the dragonlord timeline of Tarkir.",
+   "limitation": ""
+  },
+  {
+   "id": "UB021",
+   "subject": "narset",
+   "predicate": "aided",
+   "object": "sarkhan_vol",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "aided by the Jeskai khan Narset at the cost of her life"
+    }
+   ],
+   "summary": "In the original timeline, the Jeskai khan Narset gave her life helping Sarkhan.",
+   "limitation": "Original timeline; in the changed present Narset is alive."
+  },
+  {
+   "id": "UB022",
+   "subject": "narset",
+   "predicate": "leader_of",
+   "object": "jeskai",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sarkhan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sarkhan",
+     "quote": "aided by the Jeskai khan Narset at the cost of her life"
+    }
+   ],
+   "summary": "In Tarkir's original timeline Narset was khan of the Jeskai.",
+   "limitation": "Original timeline before Sarkhan changed history."
+  },
+  {
+   "id": "UB023",
+   "subject": "sorin_markov",
+   "predicate": "originated_from",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_sorin"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_sorin",
+     "quote": "he lorded over his home plane of Innistrad for millennia"
+    }
+   ],
+   "summary": "Sorin Markov's home plane is Innistrad, where he lorded for millennia.",
+   "limitation": ""
+  },
+  {
+   "id": "UB024",
+   "subject": "tibalt",
+   "predicate": "originated_from",
+   "object": "innistrad",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_tibalt"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_tibalt",
+     "quote": "Though born human on Innistrad, his fascination with pain drove him to explore fiendish magic"
+    }
+   ],
+   "summary": "Tibalt was born human on Innistrad and became a half-devil through fiendish magic.",
+   "limitation": ""
+  },
+  {
+   "id": "UB025",
+   "subject": "tyvar",
+   "predicate": "originated_from",
+   "object": "kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_tyvar"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_tyvar",
+     "quote": "Tyvar Kell is the younger brother of of the king of the elves on Kaldheim."
+    }
+   ],
+   "summary": "Tyvar Kell is the younger brother of the elf king of Kaldheim.",
+   "limitation": "The profile does not name the king."
+  },
+  {
+   "id": "UB026",
+   "subject": "ugin",
+   "predicate": "twin_sibling_of",
+   "object": "nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_ugin"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_ugin",
+     "quote": "He's as cunning and powerful as his twin, Nicol Bolas"
+    }
+   ],
+   "summary": "Ugin and Nicol Bolas are twins.",
+   "limitation": ""
+  },
+  {
+   "id": "UB027",
+   "subject": "venser",
+   "predicate": "originated_from",
+   "object": "dominaria",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_venser"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_venser",
+     "quote": "giving him direct access to the planes beyond the boundaries of Dominaria"
+    }
+   ],
+   "summary": "The profile implies Venser comes from Dominaria.",
+   "limitation": "Implied by his spark giving him access beyond Dominaria; not stated as his birthplace."
+  },
+  {
+   "id": "UB028",
+   "subject": "vivien_reid",
+   "predicate": "originated_from",
+   "object": "skalla",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_vivien"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_vivien",
+     "quote": "She is the last survivor of Skalla"
+    }
+   ],
+   "summary": "Vivien Reid is the last survivor of her home plane Skalla.",
+   "limitation": ""
+  },
+  {
+   "id": "UB029",
+   "subject": "vraska",
+   "predicate": "originated_from",
+   "object": "ravnica",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_vraska"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_vraska",
+     "quote": "leveling the playing field for the downtrodden on her home plane of Ravnica"
+    }
+   ],
+   "summary": "Vraska's home plane is Ravnica.",
+   "limitation": ""
+  },
+  {
+   "id": "UB030",
+   "subject": "vraska",
+   "predicate": "leader_of",
+   "object": "golgari",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_vraska"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_vraska",
+     "quote": "she leads the Golgari guild toward a better future by whatever means necessary"
+    }
+   ],
+   "summary": "The profile describes Vraska as leading the Golgari guild.",
+   "limitation": "Undated profile; it gives no era for her leadership."
+  },
+  {
+   "id": "UB031",
+   "subject": "will_kenrith",
+   "predicate": "sibling_of",
+   "object": "rowan_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_will",
+    "ub_rowan"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_will",
+     "quote": "Will Kenrith and his sister Rowan are unique in the Multiverse, the only Planeswalkers known to share a Spark."
+    },
+    {
+     "source_id": "ub_rowan",
+     "quote": "Rowan Kenrith and her brother Will are unique in the Multiverse"
+    }
+   ],
+   "summary": "Will and Rowan Kenrith are siblings and the only Planeswalkers known to share a spark.",
+   "limitation": ""
+  },
+  {
+   "id": "UB032",
+   "subject": "xenagos",
+   "predicate": "originated_from",
+   "object": "theros",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_xenagos"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_xenagos",
+     "quote": "For the satyrs of the Skola Valley on Theros, pleasure, revelry, and mischief are virtues"
+    },
+    {
+     "source_id": "ub_xenagos",
+     "quote": "Xenagos is the epitome of these ideals."
+    }
+   ],
+   "summary": "Xenagos is a satyr of the Skola Valley on Theros.",
+   "limitation": ""
+  },
+  {
+   "id": "UB033",
+   "subject": "samut",
+   "predicate": "friend_of",
+   "object": "djeru",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_samut"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_samut",
+     "quote": "She and her close friend Djeru were unstoppable among the initiates."
+    }
+   ],
+   "summary": "Samut and Djeru were close friends among the initiates.",
+   "limitation": ""
+  },
+  {
+   "id": "UB034",
+   "subject": "serra",
+   "predicate": "created",
+   "object": "serras_realm",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "planeswalker_profiles_undated",
+   "source_ids": [
+    "ub_serra"
+   ],
+   "evidence": [
+    {
+     "source_id": "ub_serra",
+     "quote": "She created an artificial plane known as Serra's Realm"
+    }
+   ],
+   "summary": "Serra created the artificial plane known as Serra's Realm.",
+   "limitation": "The profile says Serra and her realm are long gone."
+  }
+ ],
+ "pages_registered": 26,
+ "pages_cited": 26,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Targeted, not exhaustive: profiles were read in full but only relations to named characters, factions or planes are graded",
+  "Profiles that name no other entity are listed in reviewed_no_claim.json with reason NO_EXTRACTABLE_RELATION"
+ ]
+}
