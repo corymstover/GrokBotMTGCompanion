@@ -1,0 +1,128 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "LCI",
+ "claims": 12,
+ "entities": 13,
+ "sources": 7,
+ "grades": {
+  "CANON_CONFIRMED": 11,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 18,
+ "quotes_verbatim": 18,
+ "quote_rows": [
+  {
+   "claim": "LC001",
+   "source_id": "lci_ep1",
+   "quote_sha256": "7c784225e98945c2c3864b990055adbaf1d48bb177849038ea949a2d244aa74b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC001",
+   "source_id": "lci_ep3",
+   "quote_sha256": "d17f776528992527558d2c0c0b445c1b95b0376f2436379659c594f25446040a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC002",
+   "source_id": "lci_ep5",
+   "quote_sha256": "5697c7c02fe8aab5ea33153805ed65fb73f59ea9569ae7dcaa3d0735a78970ba",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC003",
+   "source_id": "lci_guide",
+   "quote_sha256": "783bfcf125bb5da25936e120b8e3b784f5ee956da8849310bc588e17965a0f2f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC004",
+   "source_id": "lci_guide",
+   "quote_sha256": "825ba6c4c2a67b8cb799081de20c2da489789eaffac0c68f6b1fe9af46252e80",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC005",
+   "source_id": "lci_guide",
+   "quote_sha256": "af0966eca6f5b406a0f33b0a7b802497d92a161d230b45376bf9ea9b957212a5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC006",
+   "source_id": "lci_ep6",
+   "quote_sha256": "990d95569cd2091ccc85dc9330a8767caf511e4c915d83c5f0e119d8ad75e2b9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC006",
+   "source_id": "lci_ep6",
+   "quote_sha256": "e9950d7f66987f1b315d7cd3cb6e9ebb5640a693dae28bfceb15d7b4a6a467bb",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC007",
+   "source_id": "lci_ep5",
+   "quote_sha256": "9d2d468422b2015d148609a1b6f6cd5127818099a7bf61edb4acf4940611f9df",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC007",
+   "source_id": "lci_ep5",
+   "quote_sha256": "3f5b7f0ff72a546d2db2c9d5a9ed886538a32cbfe08506cce3bf1fb9e0a1b2a0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC007",
+   "source_id": "lci_ep6",
+   "quote_sha256": "9e1a581df578110e4bcdf206611491a506d1bf90eca904f0c223521e591a7f43",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC008",
+   "source_id": "lci_ep6",
+   "quote_sha256": "38a95c61cb0579f9f55aa9385e4992d6d78f46949b339b1688696e6918a129f3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC008",
+   "source_id": "lci_ep6",
+   "quote_sha256": "3e5dff065ca7e11db997a1968f726ddeaf6bfd01425a2d10f437260841431891",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC009",
+   "source_id": "lci_ep6",
+   "quote_sha256": "bd15232327236b3eb8856a77a9e375d9c95b8e779e5f154ec2ed104707ba2431",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC010",
+   "source_id": "lci_ep4",
+   "quote_sha256": "cce907427e1964af2720c90e1bd8c3b04471db4ecc653f0219f3a59ebe8f39e3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC011",
+   "source_id": "lci_pawns",
+   "quote_sha256": "20df6aba3fac0ede955d3b6a51e2be7df98edddebb865cbdc66fda8d554b1e96",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC011",
+   "source_id": "lci_pawns",
+   "quote_sha256": "256c154b119cc67292f0647c35a6a515bdfdf25477ff928bb36c4a21e6d3e982",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "LC012",
+   "source_id": "lci_pawns",
+   "quote_sha256": "b231cf24631b7de2ef52766cadf3b1a3a93bd634f4cf0b996ccbbe07299865a7",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "ffffea290cec1b81e0cefda82741c9838c05b7f3976cf59fde6be384fca485a9"
+}

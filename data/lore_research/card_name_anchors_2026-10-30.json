@@ -10,6 +10,40 @@
  "tier": "NAMED_CARD",
  "anchors": [
   {
+   "entity": "aclazotz",
+   "entity_type": "Character",
+   "entity_name": "Aclazotz",
+   "aliases": [
+    "Aclazotz"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Aclazotz, Deepest Betrayal // Temple of the Dead",
+     "oracle_id": "fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15",
+     "type_line": "Legendary Creature — Bat God // Land",
+     "scryfall_uri": "https://scryfall.com/card/lci/88/aclazotz-deepest-betrayal-temple-of-the-dead"
+    }
+   ]
+  },
+  {
+   "entity": "aetherspark",
+   "entity_type": "Object",
+   "entity_name": "The Aetherspark",
+   "aliases": [
+    "The Aetherspark"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Aetherspark",
+     "oracle_id": "483c747a-b602-4747-95bc-72c2c17ed509",
+     "type_line": "Legendary Artifact Planeswalker — Equipment",
+     "scryfall_uri": "https://scryfall.com/card/dft/231/the-aetherspark"
+    }
+   ]
+  },
+  {
    "entity": "ajani",
    "entity_type": "Character",
    "entity_name": "Ajani",
@@ -123,6 +157,23 @@
    ]
   },
   {
+   "entity": "akul",
+   "entity_type": "Character",
+   "entity_name": "Akul",
+   "aliases": [
+    "Akul"
+   ],
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Akul the Unrepentant",
+     "oracle_id": "d6b56d6d-e2f6-47f5-a9d1-cd0e17f94a0d",
+     "type_line": "Legendary Creature — Scorpion Dragon Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otj/189/akul-the-unrepentant"
+    }
+   ]
+  },
+  {
    "entity": "alpharael",
    "entity_type": "Character",
    "entity_name": "Alpharael",
@@ -205,6 +256,23 @@
      "oracle_id": "d3c3f293-6790-4dce-900a-8af0464c2572",
      "type_line": "Legendary Creature — Vampire Assassin",
      "scryfall_uri": "https://scryfall.com/card/ncc/1/anhelo-the-painter"
+    }
+   ]
+  },
+  {
+   "entity": "annie_flash",
+   "entity_type": "Character",
+   "entity_name": "Annie Flash",
+   "aliases": [
+    "Annie Flash"
+   ],
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Annie Flash, the Veteran",
+     "oracle_id": "858067f9-eb1f-4569-9831-30441cba5f90",
+     "type_line": "Legendary Creature — Human Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otj/190/annie-flash-the-veteran"
     }
    ]
   },
@@ -846,6 +914,29 @@
    ]
   },
   {
+   "entity": "geralf",
+   "entity_type": "Character",
+   "entity_name": "Geralf",
+   "aliases": [
+    "Geralf"
+   ],
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Geralf, Visionary Stitcher",
+     "oracle_id": "0a0743b0-07c2-4e11-8b30-6b1b8156bdd0",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/vow/61/geralf-visionary-stitcher"
+    },
+    {
+     "name": "Geralf, the Fleshwright",
+     "oracle_id": "a62e6cf4-1adb-4c28-b24b-91287bb23e96",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/otj/50/geralf-the-fleshwright"
+    }
+   ]
+  },
+  {
    "entity": "gerrard",
    "entity_type": "Character",
    "entity_name": "Gerrard Capashen",
@@ -928,6 +1019,29 @@
    ]
   },
   {
+   "entity": "gisa",
+   "entity_type": "Character",
+   "entity_name": "Gisa",
+   "aliases": [
+    "Gisa"
+   ],
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gisa, Glorious Resurrector",
+     "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/mid/103/gisa-glorious-resurrector"
+    },
+    {
+     "name": "Gisa, the Hellraiser",
+     "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/otj/89/gisa-the-hellraiser"
+    }
+   ]
+  },
+  {
    "entity": "gix",
    "entity_type": "Character",
    "entity_name": "Gix",
@@ -958,6 +1072,35 @@
      "oracle_id": "95197f8f-c24e-4d13-a106-7186b3cc59e0",
      "type_line": "Artifact",
      "scryfall_uri": "https://scryfall.com/card/atq/51/golgothian-sylex"
+    }
+   ]
+  },
+  {
+   "entity": "gonti",
+   "entity_type": "Character",
+   "entity_name": "Gonti",
+   "aliases": [
+    "Gonti"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gonti, Canny Acquisitor",
+     "oracle_id": "7923ef4a-b1be-4f6a-b17b-4eab101390de",
+     "type_line": "Legendary Creature — Aetherborn Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otc/1/gonti-canny-acquisitor"
+    },
+    {
+     "name": "Gonti, Lord of Luxury",
+     "oracle_id": "d5be0ff6-39d9-4f9f-a028-e62dc38463f2",
+     "type_line": "Legendary Creature — Aetherborn Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otc/135/gonti-lord-of-luxury"
+    },
+    {
+     "name": "Gonti, Night Minister",
+     "oracle_id": "e16f79c1-ffbb-4893-b62a-d4e9d15e2b16",
+     "type_line": "Legendary Creature — Aetherborn Rogue",
+     "scryfall_uri": "https://scryfall.com/card/dft/87/gonti-night-minister"
     }
    ]
   },
@@ -1130,6 +1273,23 @@
      "oracle_id": "1733c71b-fd28-48dd-8a3d-41afd4b22f0e",
      "type_line": "Legendary Creature — Human Warlock",
      "scryfall_uri": "https://scryfall.com/card/woe/206/hylda-of-the-icy-crown"
+    }
+   ]
+  },
+  {
+   "entity": "inti",
+   "entity_type": "Character",
+   "entity_name": "Inti",
+   "aliases": [
+    "Inti"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Inti, Seneschal of the Sun",
+     "oracle_id": "176f5ba8-6e7b-4234-a298-b6164f51656f",
+     "type_line": "Legendary Creature — Human Knight",
+     "scryfall_uri": "https://scryfall.com/card/lci/156/inti-seneschal-of-the-sun"
     }
    ]
   },
@@ -1308,23 +1468,6 @@
     "Kaito Shizuki"
    ],
    "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-   "cards": [
-    {
-     "name": "Kaito Shizuki",
-     "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
-     "type_line": "Legendary Planeswalker — Kaito",
-     "scryfall_uri": "https://scryfall.com/card/neo/226/kaito-shizuki"
-    }
-   ]
-  },
-  {
-   "entity": "kaito_shizuki",
-   "entity_type": "Character",
-   "entity_name": "Kaito Shizuki",
-   "aliases": [
-    "Kaito Shizuki"
-   ],
-   "pack": "pack_p5_duskmourn_2026-10-30.json",
    "cards": [
     {
      "name": "Kaito Shizuki",
@@ -1648,6 +1791,47 @@
    ]
   },
   {
+   "entity": "loot",
+   "entity_type": "Character",
+   "entity_name": "Loot",
+   "aliases": [
+    "Loot"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Loot, Exuberant Explorer",
+     "oracle_id": "f6476884-f73f-465f-8e7f-ea312a5b306d",
+     "type_line": "Legendary Creature — Beast Noble",
+     "scryfall_uri": "https://scryfall.com/card/fdn/106/loot-exuberant-explorer"
+    },
+    {
+     "name": "Loot, the Anomaly",
+     "oracle_id": "e0142e7d-7b0b-4290-a56c-5fa950fdccf8",
+     "type_line": "Legendary Creature — Beast Horror",
+     "scryfall_uri": "https://scryfall.com/card/fra/232/loot-the-anomaly"
+    },
+    {
+     "name": "Loot, the Key to Everything",
+     "oracle_id": "542be13f-b9c0-4b79-b486-be576c531a82",
+     "type_line": "Legendary Creature — Beast Noble",
+     "scryfall_uri": "https://scryfall.com/card/big/21/loot-the-key-to-everything"
+    },
+    {
+     "name": "Loot, the Nexus",
+     "oracle_id": "a99ce9db-9b7d-45a0-bee7-0875fc62ca48",
+     "type_line": "Legendary Creature — Beast Noble",
+     "scryfall_uri": "https://scryfall.com/card/fra/262/loot-the-nexus"
+    },
+    {
+     "name": "Loot, the Pathfinder",
+     "oracle_id": "68c7e459-0932-4644-a3c0-9a1eae1db7a3",
+     "type_line": "Legendary Creature — Beast Noble",
+     "scryfall_uri": "https://scryfall.com/card/dft/212/loot-the-pathfinder"
+    }
+   ]
+  },
+  {
    "entity": "lukka",
    "entity_type": "Character",
    "entity_name": "Lukka",
@@ -1782,6 +1966,23 @@
      "oracle_id": "6bb8c22c-8b01-45f8-8c9e-f683e6b4f022",
      "type_line": "Legendary Creature — Human Scout",
      "scryfall_uri": "https://scryfall.com/card/one/209/melira-the-living-cure"
+    }
+   ]
+  },
+  {
+   "entity": "mendicant_core",
+   "entity_type": "Character",
+   "entity_name": "Mendicant Core",
+   "aliases": [
+    "Mendicant Core"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mendicant Core, Guidelight",
+     "oracle_id": "b20d74a4-0e08-4779-972a-499f1a2be15a",
+     "type_line": "Legendary Artifact Creature — Robot",
+     "scryfall_uri": "https://scryfall.com/card/dft/213/mendicant-core-guidelight"
     }
    ]
   },
@@ -2152,6 +2353,57 @@
    ]
   },
   {
+   "entity": "ojer_axonil",
+   "entity_type": "Character",
+   "entity_name": "Ojer Axonil",
+   "aliases": [
+    "Ojer Axonil"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ojer Axonil, Deepest Might // Temple of Power",
+     "oracle_id": "d3b7b541-6f05-46c1-8031-c848c4bd4635",
+     "type_line": "Legendary Creature — God // Land",
+     "scryfall_uri": "https://scryfall.com/card/lci/158/ojer-axonil-deepest-might-temple-of-power"
+    }
+   ]
+  },
+  {
+   "entity": "ojer_pakpatiq",
+   "entity_type": "Character",
+   "entity_name": "Ojer Pakpatiq",
+   "aliases": [
+    "Ojer Pakpatiq"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time",
+     "oracle_id": "34ef174e-1b3d-43d5-9f72-3d35befbdd7f",
+     "type_line": "Legendary Creature — God // Land",
+     "scryfall_uri": "https://scryfall.com/card/lci/67/ojer-pakpatiq-deepest-epoch-temple-of-cyclical-time"
+    }
+   ]
+  },
+  {
+   "entity": "ojer_taq",
+   "entity_type": "Character",
+   "entity_name": "Ojer Taq",
+   "aliases": [
+    "Ojer Taq"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ojer Taq, Deepest Foundation // Temple of Civilization",
+     "oracle_id": "486bb9a5-73f1-4cec-b097-fb07ac80b72e",
+     "type_line": "Legendary Creature — God // Land",
+     "scryfall_uri": "https://scryfall.com/card/lci/26/ojer-taq-deepest-foundation-temple-of-civilization"
+    }
+   ]
+  },
+  {
    "entity": "oko",
    "entity_type": "Character",
    "entity_name": "Oko",
@@ -2349,6 +2601,47 @@
      "oracle_id": "13044ca1-76a3-43b2-a8e4-3bbc692c30c5",
      "type_line": "Legendary Creature — Human Wizard",
      "scryfall_uri": "https://scryfall.com/card/cmm/351/raff-capashen-ships-mage"
+    }
+   ]
+  },
+  {
+   "entity": "rakdos",
+   "entity_type": "Character",
+   "entity_name": "Rakdos",
+   "aliases": [
+    "Rakdos"
+   ],
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rakdos the Defiler",
+     "oracle_id": "789bf406-38f0-4888-b2ff-c4a95ac79283",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/dis/129/rakdos-the-defiler"
+    },
+    {
+     "name": "Rakdos, Lord of Riots",
+     "oracle_id": "143a269a-b9ee-48ba-bd7b-4aa46eb36778",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/dsc/230/rakdos-lord-of-riots"
+    },
+    {
+     "name": "Rakdos, Patron of Chaos",
+     "oracle_id": "d08ce18a-0fd9-47ac-ad2f-6934b60070f1",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/mkm/224/rakdos-patron-of-chaos"
+    },
+    {
+     "name": "Rakdos, the Muscle",
+     "oracle_id": "e2c141af-925e-42bd-8d83-e1a71f4c9794",
+     "type_line": "Legendary Creature — Demon Mercenary",
+     "scryfall_uri": "https://scryfall.com/card/otj/226/rakdos-the-muscle"
+    },
+    {
+     "name": "Rakdos, the Showstopper",
+     "oracle_id": "03a4b997-4738-41a9-933f-e1f765e3a75a",
+     "type_line": "Legendary Creature — Demon",
+     "scryfall_uri": "https://scryfall.com/card/clu/205/rakdos-the-showstopper"
     }
    ]
   },
@@ -3272,23 +3565,6 @@
    ]
   },
   {
-   "entity": "tyvar_kell",
-   "entity_type": "Character",
-   "entity_name": "Tyvar Kell",
-   "aliases": [
-    "Tyvar Kell"
-   ],
-   "pack": "pack_p5_duskmourn_2026-10-30.json",
-   "cards": [
-    {
-     "name": "Tyvar Kell",
-     "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
-     "type_line": "Legendary Planeswalker — Tyvar",
-     "scryfall_uri": "https://scryfall.com/card/khm/198/tyvar-kell"
-    }
-   ]
-  },
-  {
    "entity": "ugin",
    "entity_type": "Character",
    "entity_name": "Ugin",
@@ -3465,6 +3741,29 @@
      "oracle_id": "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a",
      "type_line": "Legendary Planeswalker — Venser",
      "scryfall_uri": "https://scryfall.com/card/ddi/1/venser-the-sojourner"
+    }
+   ]
+  },
+  {
+   "entity": "vito",
+   "entity_type": "Character",
+   "entity_name": "Vito",
+   "aliases": [
+    "Vito"
+   ],
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Vito, Fanatic of Aclazotz",
+     "oracle_id": "9768d43b-8b3f-4d03-ac1b-e603af832875",
+     "type_line": "Legendary Creature — Vampire Demon",
+     "scryfall_uri": "https://scryfall.com/card/lci/243/vito-fanatic-of-aclazotz"
+    },
+    {
+     "name": "Vito, Thorn of the Dusk Rose",
+     "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+     "type_line": "Legendary Creature — Vampire Cleric",
+     "scryfall_uri": "https://scryfall.com/card/m21/127/vito-thorn-of-the-dusk-rose"
     }
    ]
   },
@@ -3707,6 +4006,23 @@
    ]
   },
   {
+   "entity": "zahur",
+   "entity_type": "Character",
+   "entity_name": "Zahur",
+   "aliases": [
+    "Zahur"
+   ],
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zahur, Glory's Past",
+     "oracle_id": "fb82cd81-0e71-43ab-88f9-b1fa158f5138",
+     "type_line": "Legendary Creature — Zombie Cat Warrior",
+     "scryfall_uri": "https://scryfall.com/card/dft/229/zahur-glorys-past"
+    }
+   ]
+  },
+  {
    "entity": "zegana",
    "entity_type": "Character",
    "entity_name": "Zegana",
@@ -3783,9 +4099,12 @@
   }
  ],
  "unanchored_entities": [
+  "amalia",
   "artificial_omenpath",
+  "bartolome",
   "belzenlok",
   "belzenlok_death",
+  "bertram_graywater",
   "blackblade",
   "calamity_beast_egg",
   "corondor_chasm",
@@ -3797,6 +4116,7 @@
   "dragonstorm_escape",
   "eiko",
   "first_phyrexian_invasion",
+  "ghirapur_grand_prix",
   "ghirapur_revolution",
   "halo",
   "hexhaven",
@@ -3812,7 +4132,10 @@
   "last_thing_android",
   "liliana_doppelganger",
   "lily_of_the_valley",
+  "maag_taranau",
   "maha",
+  "mahitab",
+  "niharet",
   "oba",
   "one_sylex",
   "orazca",
@@ -3844,14 +4167,15 @@
  ],
  "excluded_unset_cards": [
   "Arvad of the Weatherlight",
+  "Ghirapur Grand Prix",
   "Kaya, Ghost Haunter",
   "Tibalt the Chaotic",
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 152,
-  "anchor_edges": 349,
-  "unanchored_entities": 58
+  "entities_anchored": 166,
+  "anchor_edges": 376,
+  "unanchored_entities": 65
  },
- "content_sha256": "6aea7f0fa12ab48b013659f4a0a4950cc51421f782d80b1b5df3e2e2dd918cfc"
+ "content_sha256": "a48cd2bd0573d6d518cb8948b3e389b27fd9b24b159ccf6eae9a55a6a2da99ac"
 }

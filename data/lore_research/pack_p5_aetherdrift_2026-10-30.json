@@ -1,0 +1,401 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_aetherdrift",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DFT",
+ "scope": "Targeted Phase 5 extraction from the official Planeswalker's Guide to Aetherdrift (parts 1-2, 2024-12-10/11) and Aetherdrift Magic Story episodes and side stories (2025-01-13 to 2025-01-20). PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_aetherdrift.spec.json",
+ "source_register": {
+  "dft_guide1": {
+   "title": "Planeswalker's Guide to Aetherdrift, Part 1",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-12-10"
+  },
+  "dft_ep1": {
+   "title": "Aetherdrift | Episode 1: The Dashing and the Desperate",
+   "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-01-13"
+  },
+  "dft_hour": {
+   "title": "Aetherdrift | Hour of Restoration",
+   "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-01-13"
+  },
+  "dft_ep2": {
+   "title": "Aetherdrift | Episode 2: Pit Stop",
+   "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-01-14"
+  },
+  "dft_ep5": {
+   "title": "Aetherdrift | Episode 5: First Over the Line",
+   "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-5-first-over-the-line",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-01-17"
+  },
+  "dft_ep6": {
+   "title": "Aetherdrift | Episode 6: The Bloodless Revolution",
+   "url": "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-6-the-bloodless-revolution",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2025-01-20"
+  }
+ },
+ "entities": [
+  {
+   "id": "zahur",
+   "type": "Character",
+   "name": "Zahur"
+  },
+  {
+   "id": "aetherspark",
+   "type": "Object",
+   "name": "The Aetherspark"
+  },
+  {
+   "id": "champions_of_amonkhet",
+   "type": "Faction",
+   "name": "The Champions of Amonkhet"
+  },
+  {
+   "id": "chandra_nalaar",
+   "type": "Character",
+   "name": "Chandra Nalaar"
+  },
+  {
+   "id": "cloudspire_racing_team",
+   "type": "Faction",
+   "name": "Cloudspire Racing Team"
+  },
+  {
+   "id": "nissa_revane",
+   "type": "Character",
+   "name": "Nissa Revane"
+  },
+  {
+   "id": "pia_nalaar",
+   "type": "Character",
+   "name": "Pia Nalaar"
+  },
+  {
+   "id": "valgavoth",
+   "type": "Character",
+   "name": "Valgavoth"
+  },
+  {
+   "id": "winter",
+   "type": "Character",
+   "name": "Winter"
+  },
+  {
+   "id": "loot",
+   "type": "Character",
+   "name": "Loot"
+  },
+  {
+   "id": "gonti",
+   "type": "Character",
+   "name": "Gonti"
+  },
+  {
+   "id": "ghirapur_grand_prix",
+   "type": "Event",
+   "name": "Ghirapur Grand Prix"
+  },
+  {
+   "id": "mendicant_core",
+   "type": "Character",
+   "name": "Mendicant Core"
+  },
+  {
+   "id": "guidelight_voyagers",
+   "type": "Faction",
+   "name": "Guidelight Voyagers"
+  },
+  {
+   "id": "mahitab",
+   "type": "Character",
+   "name": "Mahitab"
+  },
+  {
+   "id": "niharet",
+   "type": "Character",
+   "name": "Niharet"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DF001",
+   "subject": "champions_of_amonkhet",
+   "predicate": "won",
+   "object": "aetherspark",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dft_grand_prix_2025",
+   "source_ids": [
+    "dft_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_ep6",
+     "quote": "Zahur, Basri, and the rest of the Amonkheti take to the stage bedecked in gold and bright linen."
+    },
+    {
+     "source_id": "dft_ep6",
+     "quote": "When they receive the Aetherspark, it is as a team—no one person's hand touches it before any other."
+    }
+   ],
+   "summary": "The Amonkheti team receives the Aetherspark as a team at the end of the Grand Prix.",
+   "limitation": ""
+  },
+  {
+   "id": "DF002",
+   "subject": "zahur",
+   "predicate": "led",
+   "object": "champions_of_amonkhet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "Zahur leads the Amonkheti delegation alongside Basri Ket and a crew of living and undead charioteers."
+    }
+   ],
+   "summary": "Zahur leads the Amonkheti team, with Basri Ket.",
+   "limitation": ""
+  },
+  {
+   "id": "DF003",
+   "subject": "chandra_nalaar",
+   "predicate": "joined",
+   "object": "cloudspire_racing_team",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dft_grand_prix_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "Cloudspire's co-captains are Chandra Nalaar and Kolodin, the latter being last year's sole captain."
+    }
+   ],
+   "summary": "Chandra Nalaar co-captains Cloudspire with Kolodin.",
+   "limitation": ""
+  },
+  {
+   "id": "DF004",
+   "subject": "chandra_nalaar",
+   "predicate": "romantically_involved_with",
+   "object": "nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_guide1",
+    "dft_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "However, Chandra's desire to win the Aetherspark for her lover, Nissa, overrode other loyalties."
+    },
+    {
+     "source_id": "dft_ep2",
+     "quote": "Just as she opens her mouth to begin, Nissa kisses her."
+    }
+   ],
+   "summary": "Chandra races to win the Aetherspark for her lover Nissa.",
+   "limitation": ""
+  },
+  {
+   "id": "DF005",
+   "subject": "pia_nalaar",
+   "predicate": "parent_of",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_ep2",
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_ep2",
+     "quote": "She picks up another samosa, following Pia as the former renegade leads her daughter to the dining room."
+    },
+    {
+     "source_id": "dft_guide1",
+     "quote": "Chandra's choice to join Cloudspire over the Aether Rangers sent shockwaves through the Avishkari public, who assumed she would join her mother as co-captain of the home team."
+    }
+   ],
+   "summary": "Pia Nalaar is Chandra's mother.",
+   "limitation": ""
+  },
+  {
+   "id": "DF006",
+   "subject": "valgavoth",
+   "predicate": "commanded",
+   "object": "winter",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dft_grand_prix_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "Winter is a survivor of Duskmourn who has been granted temporary leave by Valgavoth, the archdemon of the plane, to try and win the Aetherspark for reasons, of course, of Valgavoth's own."
+    }
+   ],
+   "summary": "Valgavoth lets Winter leave Duskmourn temporarily to try to win the Aetherspark for him.",
+   "limitation": "The guide says his freedom depends on winning; this links to Valgavoth seizing Winter in DSK."
+  },
+  {
+   "id": "DF007",
+   "subject": "winter",
+   "predicate": "captured",
+   "object": "loot",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "Winter and the Speed Demon hold Loot captive and plan to take advantage of his abilities in the race."
+    }
+   ],
+   "summary": "Winter and the Speed Demon hold Loot captive.",
+   "limitation": ""
+  },
+  {
+   "id": "DF008",
+   "subject": "winter",
+   "predicate": "sought",
+   "object": "aetherspark",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_ep1",
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_ep1",
+     "quote": "Bring us the Aetherspark, and you're free."
+    },
+    {
+     "source_id": "dft_guide1",
+     "quote": "If Winter (or a racer on his crew) wins, he might be granted his freedom."
+    }
+   ],
+   "summary": "Winter races for the Aetherspark to win his freedom.",
+   "limitation": "The episode line is dialogue addressed to Winter."
+  },
+  {
+   "id": "DF009",
+   "subject": "gonti",
+   "predicate": "led",
+   "object": "ghirapur_grand_prix",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "Since the Phyrexian invasion and the collapse of the old Consulate in the Indigo Revolution, the Grand Prix has been championed by the new night minister of Ghirapur, Gonti."
+    }
+   ],
+   "summary": "Gonti, Ghirapur's night minister, champions and oversees the Grand Prix.",
+   "limitation": "'Championed' and 'overseen' rather than run day to day."
+  },
+  {
+   "id": "DF010",
+   "subject": "mendicant_core",
+   "predicate": "led",
+   "object": "guidelight_voyagers",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_guide1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_guide1",
+     "quote": "The Guidelight Voyagers are an uncanny collection of automatons captained by a single mind"
+    }
+   ],
+   "summary": "Mendicant Core captains the Guidelight Voyagers.",
+   "limitation": ""
+  },
+  {
+   "id": "DF011",
+   "subject": "loot",
+   "predicate": "allied_with",
+   "object": "chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dft_grand_prix_2025",
+   "source_ids": [
+    "dft_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_ep5",
+     "quote": "Loot, for his part, clings to Chandra's shoulders and wonders how exactly any of this came to happen."
+    },
+    {
+     "source_id": "dft_ep5",
+     "quote": "As she sets off to start collecting tinder—dried palm leaves, shavings from the trees, what grasses she thinks might help—Loot bounds up onto her shoulders, chirping enthusiastically."
+    }
+   ],
+   "summary": "By episode 5, Loot travels with Chandra.",
+   "limitation": ""
+  },
+  {
+   "id": "DF012",
+   "subject": "mahitab",
+   "predicate": "freed",
+   "object": "niharet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "aetherdrift_dft_2024_2025",
+   "source_ids": [
+    "dft_hour"
+   ],
+   "evidence": [
+    {
+     "source_id": "dft_hour",
+     "quote": "Mahitab found Niharet and freed her, but the girl Mahitab had grown up with, the girl she'd loved, was never the same again."
+    }
+   ],
+   "summary": "Mahitab freed Niharet after she was entombed.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Episodes 3 and 4, 'Like No Other Beast' and guide part 2 are not cited",
+  "The unnamed 'man in blue' on Tarkir in the final scene is not identified",
+  "Sita/Spitfire, her father's coup attempt and Elspeth's role in stopping it are not graded"
+ ]
+}

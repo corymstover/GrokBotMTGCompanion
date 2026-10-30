@@ -1,0 +1,391 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_lost_caverns_of_ixalan",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "LCI",
+ "scope": "Targeted Phase 5 extraction from the six official The Lost Caverns of Ixalan Magic Story episodes, the side story 'Pawns' (2023-10-20) and the Planeswalker's Guide to The Lost Caverns of Ixalan (2023-11-10). PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_lost_caverns_of_ixalan.spec.json",
+ "source_register": {
+  "lci_ep1": {
+   "title": "The Lost Caverns of Ixalan | Episode 1",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_ep3": {
+   "title": "The Lost Caverns of Ixalan | Episode 3",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_ep4": {
+   "title": "The Lost Caverns of Ixalan | Episode 4",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-4",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_ep5": {
+   "title": "The Lost Caverns of Ixalan | Episode 5",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-5",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_ep6": {
+   "title": "The Lost Caverns of Ixalan | Episode 6",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_pawns": {
+   "title": "The Lost Caverns of Ixalan | Pawns",
+   "url": "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-10-20"
+  },
+  "lci_guide": {
+   "title": "Planeswalker's Guide to The Lost Caverns of Ixalan",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-11-10"
+  }
+ },
+ "entities": [
+  {
+   "id": "vito",
+   "type": "Character",
+   "name": "Vito"
+  },
+  {
+   "id": "aclazotz",
+   "type": "Character",
+   "name": "Aclazotz"
+  },
+  {
+   "id": "ojer_axonil",
+   "type": "Character",
+   "name": "Ojer Axonil"
+  },
+  {
+   "id": "ojer_taq",
+   "type": "Character",
+   "name": "Ojer Taq"
+  },
+  {
+   "id": "ojer_pakpatiq",
+   "type": "Character",
+   "name": "Ojer Pakpatiq"
+  },
+  {
+   "id": "huatli",
+   "type": "Character",
+   "name": "Huatli"
+  },
+  {
+   "id": "inti",
+   "type": "Character",
+   "name": "Inti"
+  },
+  {
+   "id": "bartolome",
+   "type": "Character",
+   "name": "Bartolomé"
+  },
+  {
+   "id": "amalia",
+   "type": "Character",
+   "name": "Amalia"
+  },
+  {
+   "id": "kellan",
+   "type": "Character",
+   "name": "Kellan"
+  },
+  {
+   "id": "oko",
+   "type": "Character",
+   "name": "Oko"
+  },
+  {
+   "id": "saheeli",
+   "type": "Character",
+   "name": "Saheeli"
+  },
+  {
+   "id": "ixalan",
+   "type": "Plane",
+   "name": "Ixalan"
+  }
+ ],
+ "claims": [
+  {
+   "id": "LC001",
+   "subject": "vito",
+   "predicate": "sought",
+   "object": "aclazotz",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lci_expedition_2023",
+   "source_ids": [
+    "lci_ep1",
+    "lci_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep1",
+     "quote": "Inside this temple,\" Vito continued, \"is a door that leads to the resting place of our ancient god and sire, Aclazotz, creator of the first vampires."
+    },
+    {
+     "source_id": "lci_ep3",
+     "quote": "If the path to Aclazotz continued through such inhospitable and deadly terrain, Bartolomé wondered whether, despite Vito's assertions, a god as powerful as theirs was meant to be found."
+    }
+   ],
+   "summary": "Vito leads a vampire expedition into the Core to find and awaken Aclazotz.",
+   "limitation": ""
+  },
+  {
+   "id": "LC002",
+   "subject": "vito",
+   "predicate": "served",
+   "object": "aclazotz",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lci_expedition_2023",
+   "source_ids": [
+    "lci_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep5",
+     "quote": "One by one, the prisoners were delivered unto the bat god, who feasted on their essences as Vito respectfully averted his gaze."
+    }
+   ],
+   "summary": "Vito feeds prisoners to Aclazotz to restore him.",
+   "limitation": ""
+  },
+  {
+   "id": "LC003",
+   "subject": "ojer_axonil",
+   "predicate": "imprisoned",
+   "object": "aclazotz",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_guide",
+     "quote": "This conditional loyalty is not loathsome to Aclazotz, as he, too, uses his faithful as a means to an end of his own: release from his imprisonment by Ojer Axonil."
+    }
+   ],
+   "summary": "Ojer Axonil imprisoned Aclazotz.",
+   "limitation": ""
+  },
+  {
+   "id": "LC004",
+   "subject": "ojer_axonil",
+   "predicate": "sibling_of",
+   "object": "ojer_taq",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_guide",
+     "quote": "Ojer Axonil is the younger, fiery brother of Ojer Taq."
+    }
+   ],
+   "summary": "Ojer Axonil is Ojer Taq's younger brother.",
+   "limitation": ""
+  },
+  {
+   "id": "LC005",
+   "subject": "ojer_pakpatiq",
+   "predicate": "lover_of",
+   "object": "ojer_taq",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_guide",
+     "quote": "Ojer Pakpatiq is the lover of Ojer Taq and second god of the Oltec."
+    }
+   ],
+   "summary": "Ojer Pakpatiq is Ojer Taq's lover.",
+   "limitation": ""
+  },
+  {
+   "id": "LC006",
+   "subject": "huatli",
+   "predicate": "killed",
+   "object": "vito",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lci_battle_2023",
+   "source_ids": [
+    "lci_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep6",
+     "quote": "The lance slid through the vampire's plate armor, piercing his vile heart and pinning him to the ground."
+    },
+    {
+     "source_id": "lci_ep6",
+     "quote": "Huatli stood over him in silence as he fell sideways, blood pooling beneath him on the dark earth."
+    }
+   ],
+   "summary": "Huatli kills Vito with his own lance.",
+   "limitation": ""
+  },
+  {
+   "id": "LC007",
+   "subject": "vito",
+   "predicate": "fought",
+   "object": "inti",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lci_battle_2023",
+   "source_ids": [
+    "lci_ep5",
+    "lci_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep5",
+     "quote": "Inti's shield knocked Vito's lance away, his sword slashing down toward Vito's neck."
+    },
+    {
+     "source_id": "lci_ep5",
+     "quote": "Vito drove his lance down in a single, powerful thrust—straight into the skull of Inti's mount."
+    },
+    {
+     "source_id": "lci_ep6",
+     "quote": "The vampire's death would not return her cousin to life."
+    }
+   ],
+   "summary": "Vito duels Inti in the air and kills his mount; Inti is dead by episode 6.",
+   "limitation": "Clavileño seizes Inti after Vito downs his mount; who struck the killing blow is not graded."
+  },
+  {
+   "id": "LC008",
+   "subject": "huatli",
+   "predicate": "related_to",
+   "object": "inti",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep6",
+     "quote": "She mounted her own bat and flew away from the bodies of family and foe, promising Inti that she would return when every vampire in the Core was eradicated."
+    },
+    {
+     "source_id": "lci_ep6",
+     "quote": "And yet your title was stolen for you by your cousin Inti rather than granted by the late emperor."
+    }
+   ],
+   "summary": "Inti is Huatli's cousin.",
+   "limitation": ""
+  },
+  {
+   "id": "LC009",
+   "subject": "bartolome",
+   "predicate": "protected",
+   "object": "amalia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lci_expedition_2023",
+   "source_ids": [
+    "lci_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep6",
+     "quote": "Bartolomé died to protect her and Kellan, but his sacrifice was in vain."
+    }
+   ],
+   "summary": "Bartolomé dies protecting Amalia and Kellan.",
+   "limitation": "Told in Amalia's point of view; 'in vain' is her judgement."
+  },
+  {
+   "id": "LC010",
+   "subject": "kellan",
+   "predicate": "sought",
+   "object": "oko",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_ep4",
+     "quote": "I suspect,\" Bartolomé said, laying a hand on Kellan's shoulder, \"that whether you find your father or not, you'll know yourself quite well by the end of your quest."
+    }
+   ],
+   "summary": "Kellan's quest is to find his father.",
+   "limitation": "Oko is not named in this passage; identifying the father as Oko relies on the WOE and OTJ packs."
+  },
+  {
+   "id": "LC011",
+   "subject": "saheeli",
+   "predicate": "romantically_involved_with",
+   "object": "huatli",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_pawns"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_pawns",
+     "quote": "Saheeli said, whispering, her lips brushing Huatli's."
+    },
+    {
+     "source_id": "lci_pawns",
+     "quote": "She threaded one finger through Saheeli's hair, slowly twirling it."
+    }
+   ],
+   "summary": "In 'Pawns', Saheeli and Huatli are a couple.",
+   "limitation": ""
+  },
+  {
+   "id": "LC012",
+   "subject": "saheeli",
+   "predicate": "stranded_on",
+   "object": "ixalan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "lost_caverns_of_ixalan_lci_2023",
+   "source_ids": [
+    "lci_pawns"
+   ],
+   "evidence": [
+    {
+     "source_id": "lci_pawns",
+     "quote": "Soon after Saheeli's arrival and subsequent stranding on Ixalan, Huatli schooled her in the game that gripped this high court."
+    }
+   ],
+   "summary": "Saheeli was stranded on Ixalan.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 7,
+ "pages_cited": 7,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Episode 2 is not cited",
+  "Malcolm and Breeches' storyline and the Mycotyrant are not graded",
+  "The fate of Aclazotz is not graded"
+ ]
+}

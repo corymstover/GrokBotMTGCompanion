@@ -23,18 +23,21 @@
    "data/lore_research/pack_p5_wilds_of_eldraine_2026-10-30.json",
    "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
    "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
-   "data/lore_research/pack_p5_duskmourn_2026-10-30.json"
+   "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
+   "data/lore_research/pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "data/lore_research/pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "data/lore_research/pack_p5_aetherdrift_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 146,
-  "arcs_not_started": 11,
-  "arcs_partial": 18,
-  "arcs_all_cited": 4,
-  "claims": 352,
+  "cited_pages": 167,
+  "arcs_not_started": 8,
+  "arcs_partial": 20,
+  "arcs_all_cited": 5,
+  "claims": 388,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -58,7 +61,10 @@
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14,
   "pack_p5_bloomburrow_2026-10-30.json": 12,
-  "pack_p5_duskmourn_2026-10-30.json": 11
+  "pack_p5_duskmourn_2026-10-30.json": 11,
+  "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": 12,
+  "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": 12,
+  "pack_p5_aetherdrift_2026-10-30.json": 12
  },
  "arcs": [
   {
@@ -154,23 +160,19 @@
   {
    "arc": "DFT",
    "pages": 10,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 2,
     "story": 8
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-1",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-aetherdrift-part-2",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-1-the-dashing-and-the-desperate",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-2-pit-stop",
     "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-3-go",
     "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-4-little-guy-shortcuts",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-5-first-over-the-line",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-episode-6-the-bloodless-revolution",
-    "https://magic.wizards.com/en/news/magic-story/aetherdrift-hour-of-restoration",
     "https://magic.wizards.com/en/news/magic-story/aetherdrift-like-no-other-beast"
    ]
   },
@@ -355,22 +357,17 @@
   {
    "arc": "LCI",
    "pages": 8,
-   "cited_pages": 0,
+   "cited_pages": 7,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 7
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-the-lost-caverns-of-ixalan",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-1",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-3",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-4",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-5",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-6",
-    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns"
+    "https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-episode-2"
    ]
   },
   {
@@ -469,22 +466,15 @@
   {
    "arc": "OTJ",
    "pages": 8,
-   "cited_pages": 0,
+   "cited_pages": 8,
    "kinds": {
     "story": 8
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree",
-    "https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-the-jailbreak",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-a-train-to-prosperity",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-finding-tarnation",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-high-moon",
-    "https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers"
-   ]
+   "citing_packs": [
+    "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "RF",
@@ -1011,5 +1001,5 @@
    ]
   }
  ],
- "sha256": "78dd74b589404e0c12a1ac703b8f88f9a383613c7f2bf9f87f8f4a25b6895c4d"
+ "sha256": "e7971c1c891c73ae2adfcd6825b07568c71754d9387492feeca6344df6b65d45"
 }

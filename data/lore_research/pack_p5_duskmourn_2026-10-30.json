@@ -87,7 +87,7 @@
    "name": "The Wanderer"
   },
   {
-   "id": "kaito_shizuki",
+   "id": "kaito",
    "type": "Character",
    "name": "Kaito Shizuki"
   },
@@ -97,7 +97,7 @@
    "name": "Jace Beleren"
   },
   {
-   "id": "tyvar_kell",
+   "id": "tyvar",
    "type": "Character",
    "name": "Tyvar Kell"
   },
@@ -220,7 +220,7 @@
    "id": "DS005",
    "subject": "jace_beleren",
    "predicate": "allied_with",
-   "object": "kaito_shizuki",
+   "object": "kaito",
    "grade": "CANON_CONFIRMED",
    "event_stage": "duskmourn_dsk_2024",
    "source_ids": [
@@ -237,7 +237,7 @@
   },
   {
    "id": "DS006",
-   "subject": "kaito_shizuki",
+   "subject": "kaito",
    "predicate": "created",
    "object": "artificial_omenpath",
    "grade": "CANON_IMPLIED",
@@ -279,7 +279,7 @@
   },
   {
    "id": "DS008",
-   "subject": "tyvar_kell",
+   "subject": "tyvar",
    "predicate": "related_to",
    "object": "kaldheim",
    "grade": "CANON_CONFIRMED",

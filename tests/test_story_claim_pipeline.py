@@ -130,3 +130,17 @@ class Gates(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+    def test_entity_ids_unique_per_name(self):
+        # Same type + name under two ids splits the graph and breaks mv_ask name lookups (Batch 6c lesson).
+        self.assertEqual(P.entity_alias_collisions(), [])
+
+    def test_entity_alias_collision_detected(self):
+        with tempfile.TemporaryDirectory() as d:
+            a, b = Path(d) / "a.spec.json", Path(d) / "b.spec.json"
+            ent = lambda i: {"id": i, "type": "Character", "name": "Kaito Shizuki"}
+            a.write_text(json.dumps({"pack_id": "a", "entities": [ent("kaito")]}), encoding="utf-8")
+            b.write_text(json.dumps({"pack_id": "b", "entities": [ent("kaito_shizuki")]}), encoding="utf-8")
+            self.assertEqual(len(P.entity_alias_collisions([a, b])), 1)
+            b.write_text(json.dumps({"pack_id": "b", "entities": [ent("kaito")]}), encoding="utf-8")
+            self.assertEqual(P.entity_alias_collisions([a, b]), [])

@@ -20,7 +20,10 @@
   "data/lore_research/pack_p5_wilds_of_eldraine_2026-10-30.json",
   "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
   "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
-  "data/lore_research/pack_p5_duskmourn_2026-10-30.json"
+  "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
+  "data/lore_research/pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+  "data/lore_research/pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+  "data/lore_research/pack_p5_aetherdrift_2026-10-30.json"
  ],
  "art_match_packs": [
   "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json"

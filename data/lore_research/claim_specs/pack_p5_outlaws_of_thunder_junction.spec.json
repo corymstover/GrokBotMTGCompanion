@@ -1,0 +1,317 @@
+{
+ "pack_id": "pack_p5_outlaws_of_thunder_junction",
+ "arc": "OTJ",
+ "event_stage": "outlaws_of_thunder_junction_otj_2024",
+ "scope": "Targeted Phase 5 extraction from the six official Outlaws of Thunder Junction Magic Story episodes and two epilogues (2024-03-11 to 2024-04-02). PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "otj_ep1": "episode-1-an-offer-of-revenge",
+  "otj_ep2": "episode-2-the-jailbreak",
+  "otj_ep3": "episode-3-a-train-to-prosperity",
+  "otj_ep4": "episode-4-finding-tarnation",
+  "otj_ep5": "episode-5-high-moon",
+  "otj_ep6": "episode-6-the-ballad-of-thieves-and-thunderslingers",
+  "otj_epi1": "epilogue-1-the-invasion-tree",
+  "otj_epi2": "epilogue-2-bring-the-end-part-2"
+ },
+ "entities": [
+  {
+   "id": "oko",
+   "type": "Character",
+   "name": "Oko"
+  },
+  {
+   "id": "annie_flash",
+   "type": "Character",
+   "name": "Annie Flash"
+  },
+  {
+   "id": "akul",
+   "type": "Character",
+   "name": "Akul"
+  },
+  {
+   "id": "ashiok",
+   "type": "Character",
+   "name": "Ashiok"
+  },
+  {
+   "id": "maag_taranau",
+   "type": "Place",
+   "name": "Maag Taranau (the vault)"
+  },
+  {
+   "id": "kellan",
+   "type": "Character",
+   "name": "Kellan"
+  },
+  {
+   "id": "bertram_graywater",
+   "type": "Character",
+   "name": "Bertram Graywater"
+  },
+  {
+   "id": "rakdos",
+   "type": "Character",
+   "name": "Rakdos"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "hellspurs",
+   "type": "Faction",
+   "name": "The Hellspurs"
+  },
+  {
+   "id": "gisa",
+   "type": "Character",
+   "name": "Gisa"
+  },
+  {
+   "id": "geralf",
+   "type": "Character",
+   "name": "Geralf"
+  },
+  {
+   "id": "ral_zarek",
+   "type": "Character",
+   "name": "Ral Zarek"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "vryn",
+   "type": "Plane",
+   "name": "Vryn"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  }
+ ],
+ "claims": [
+  {
+   "id": "OT001",
+   "subject": "oko",
+   "predicate": "allied_with",
+   "object": "annie_flash",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep1",
+     "quote": "I've been putting a team together to steal something important from an outlaw you may know as Akul."
+    },
+    {
+     "page": "otj_ep2",
+     "quote": "She was going to do whatever it took to stop Akul—even if it meant aligning herself with a crew like this."
+    }
+   ],
+   "summary": "Oko recruits Annie Flash into his crew to rob Akul, and she joins to stop him.",
+   "event_stage": "otj_heist_2024"
+  },
+  {
+   "id": "OT002",
+   "subject": "ashiok",
+   "predicate": "hired",
+   "object": "oko",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "otj_ep2",
+     "quote": "\"This is Ashiok,\" Oko said. \"They deal in nightmares and can extract information from a person's mind. They hired us to break into the vault.\""
+    },
+    {
+     "page": "otj_ep2",
+     "quote": "They are acting on my behalf to break into the vault, and they will be paid well for it, as will you."
+    }
+   ],
+   "summary": "Ashiok hires Oko's crew to break into the vault Maag Taranau.",
+   "limitation": "Stated in dialogue by Oko and Ashiok.",
+   "event_stage": "otj_heist_2024"
+  },
+  {
+   "id": "OT003",
+   "subject": "akul",
+   "predicate": "sought_control_of",
+   "object": "maag_taranau",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "otj_ep2",
+     "quote": "Akul and the Hellspurs built an entire town around the vault hoping to control it."
+    }
+   ],
+   "summary": "Akul and the Hellspurs built the town of Tarnation around the vault to control it.",
+   "limitation": "Ashiok's dialogue."
+  },
+  {
+   "id": "OT004",
+   "subject": "oko",
+   "predicate": "parent_of",
+   "object": "kellan",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep1",
+     "quote": "Besides, he was Oko's son, and that meant something."
+    }
+   ],
+   "summary": "Kellan is Oko's son."
+  },
+  {
+   "id": "OT005",
+   "subject": "oko",
+   "predicate": "stole_from",
+   "object": "bertram_graywater",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep4",
+     "quote": "Oko had stolen from Bertram Graywater—twice—which made everyone in their crew a target."
+    }
+   ],
+   "summary": "Oko steals from Bertram Graywater twice, making the whole crew a target.",
+   "event_stage": "otj_heist_2024"
+  },
+  {
+   "id": "OT006",
+   "subject": "gisa",
+   "predicate": "opposed",
+   "object": "geralf",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep3",
+     "quote": "Gisa and Geralf stood on opposite sides of the room, clearly at war with one another."
+    }
+   ],
+   "summary": "The necromancer siblings Gisa and Geralf are openly at odds while in Oko's crew."
+  },
+  {
+   "id": "OT007",
+   "subject": "vraska",
+   "predicate": "defeated",
+   "object": "hellspurs",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep5",
+     "quote": "Vraska faced them, tendrils swaying in the air, and locked eyes with one after another until all of them were stone."
+    }
+   ],
+   "summary": "Vraska turns a group of Hellspurs to stone.",
+   "limitation": "Only the group she faces in this scene, not the whole gang."
+  },
+  {
+   "id": "OT008",
+   "subject": "rakdos",
+   "predicate": "defeated",
+   "object": "akul",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_ep6",
+     "quote": "Akul was sprawled out on the floor, eyes shut in defeat."
+    },
+    {
+     "page": "otj_ep6",
+     "quote": "Pinning his limp body to the ground was a victorious Rakdos."
+    }
+   ],
+   "summary": "Rakdos defeats Akul at the vault.",
+   "event_stage": "otj_heist_2024"
+  },
+  {
+   "id": "OT009",
+   "subject": "ral_zarek",
+   "predicate": "sought",
+   "object": "maag_taranau",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "otj_ep6",
+     "quote": "Ral stared at the half-broken altar in confusion."
+    },
+    {
+     "page": "otj_ep6",
+     "quote": "\"It doesn't matter anymore. Whatever was inside this vault is gone.\""
+    }
+   ],
+   "summary": "Ral reaches the vault's treasure room and finds that whatever was inside is gone.",
+   "limitation": "Ral's motive is inferred from his reaction to the empty altar.",
+   "event_stage": "otj_heist_2024"
+  },
+  {
+   "id": "OT010",
+   "subject": "elesh_norn",
+   "predicate": "opposed",
+   "object": "jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "otj_epi1",
+     "quote": "Jace sends the illusion to Elesh Norn's side and is grateful that despite her dominance, she is still a psychic amateur."
+    },
+    {
+     "page": "otj_epi1",
+     "quote": "He mentally clings, sputters, and feels his body begin to planeswalk to the location Norn has assigned him."
+    }
+   ],
+   "summary": "The epilogue retells Jace's time as a compleated Phyrexian at the Invasion Tree: he deceives Elesh Norn with an illusion, and she sends him to Vryn.",
+   "limitation": "Told from Jace's fevered point of view; retells events from the March of the Machine story."
+  },
+  {
+   "id": "OT011",
+   "subject": "jace_beleren",
+   "predicate": "rescued",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_epi1",
+     "quote": "Vraska is in his arms, and he feels her open her eyes as they traverse the aether."
+    },
+    {
+     "page": "otj_epi1",
+     "quote": "He trips forward once again, cable detaching and blood splattering behind them, and both he and Vraska collapse onto a handwoven rug on another plane."
+    }
+   ],
+   "summary": "Jace planeswalks the wounded Vraska off a rooftop to another plane.",
+   "event_stage": "otj_epilogue_2024"
+  },
+  {
+   "id": "OT012",
+   "subject": "jace_beleren",
+   "predicate": "returned_to",
+   "object": "vryn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "otj_epi2",
+     "quote": "Jace lies next to Vraska on his mother's floor, both bleeding and broken."
+    },
+    {
+     "page": "otj_epi2",
+     "quote": "It takes a moment for Jace to remember his great fortune; his mother would have no idea what a gorgon is."
+    },
+    {
+     "page": "otj_epi2",
+     "quote": "There aren't any on Vryn."
+    }
+   ],
+   "summary": "Jace brings Vraska to his healer mother's home on Vryn.",
+   "event_stage": "otj_epilogue_2024"
+  }
+ ],
+ "remaining": [
+  "Annie's nephew and the Sterling Company plot are not graded",
+  "What was inside Maag Taranau is not identified",
+  "The full roster of Oko's crew is not modelled"
+ ]
+}

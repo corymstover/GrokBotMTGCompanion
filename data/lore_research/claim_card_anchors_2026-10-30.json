@@ -57,6 +57,15 @@
   ],
   "pack_p5_duskmourn_2026-10-30.json": [
    "dsk"
+  ],
+  "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": [
+   "otj"
+  ],
+  "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": [
+   "lci"
+  ],
+  "pack_p5_aetherdrift_2026-10-30.json": [
+   "dft"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -13531,7 +13540,7 @@
   {
    "claim": "DS005",
    "pack": "pack_p5_duskmourn_2026-10-30.json",
-   "participant": "kaito_shizuki",
+   "participant": "kaito",
    "card": "Kaito Shizuki",
    "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
    "tier": "NAMED_PARTICIPANT"
@@ -13539,7 +13548,7 @@
   {
    "claim": "DS006",
    "pack": "pack_p5_duskmourn_2026-10-30.json",
-   "participant": "kaito_shizuki",
+   "participant": "kaito",
    "card": "Kaito Shizuki",
    "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
    "tier": "NAMED_PARTICIPANT"
@@ -13609,7 +13618,7 @@
   {
    "claim": "DS008",
    "pack": "pack_p5_duskmourn_2026-10-30.json",
-   "participant": "tyvar_kell",
+   "participant": "tyvar",
    "card": "Tyvar Kell",
    "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
    "tier": "NAMED_PARTICIPANT"
@@ -13721,6 +13730,1463 @@
    "story_set_printings": [
     "dsk"
    ]
+  },
+  {
+   "claim": "OT001",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT001",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT001",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT001",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT001",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "annie_flash",
+   "card": "Annie Flash, the Veteran",
+   "oracle_id": "858067f9-eb1f-4569-9831-30441cba5f90",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT002",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT003",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "akul",
+   "card": "Akul the Unrepentant",
+   "oracle_id": "d6b56d6d-e2f6-47f5-a9d1-cd0e17f94a0d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT004",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT005",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT005",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT005",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT005",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT006",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, Glorious Resurrector",
+   "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT006",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, the Hellraiser",
+   "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT006",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, Visionary Stitcher",
+   "oracle_id": "0a0743b0-07c2-4e11-8b30-6b1b8156bdd0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT006",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, the Fleshwright",
+   "oracle_id": "a62e6cf4-1adb-4c28-b24b-91287bb23e96",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT007",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos the Defiler",
+   "oracle_id": "789bf406-38f0-4888-b2ff-c4a95ac79283",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, Lord of Riots",
+   "oracle_id": "143a269a-b9ee-48ba-bd7b-4aa46eb36778",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, Patron of Chaos",
+   "oracle_id": "d08ce18a-0fd9-47ac-ad2f-6934b60070f1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, the Muscle",
+   "oracle_id": "e2c141af-925e-42bd-8d83-e1a71f4c9794",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "rakdos",
+   "card": "Rakdos, the Showstopper",
+   "oracle_id": "03a4b997-4738-41a9-933f-e1f765e3a75a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT008",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "akul",
+   "card": "Akul the Unrepentant",
+   "oracle_id": "d6b56d6d-e2f6-47f5-a9d1-cd0e17f94a0d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT009",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ral_zarek",
+   "card": "Ral Zarek",
+   "oracle_id": "75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT009",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "ral_zarek",
+   "card": "Ral Zarek, Guest Lecturer",
+   "oracle_id": "0dc76b7f-6405-44a1-8c55-31fa480ff70b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT010",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn // The Argent Etchings",
+   "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT010",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Grand Cenobite",
+   "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT010",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "elesh_norn",
+   "card": "Elesh Norn, Mother of Machines",
+   "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT010",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OT011",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "otj"
+   ]
+  },
+  {
+   "claim": "OT012",
+   "pack": "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC001",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Fanatic of Aclazotz",
+   "oracle_id": "9768d43b-8b3f-4d03-ac1b-e603af832875",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC001",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Thorn of the Dusk Rose",
+   "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC001",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "aclazotz",
+   "card": "Aclazotz, Deepest Betrayal // Temple of the Dead",
+   "oracle_id": "fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC002",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Fanatic of Aclazotz",
+   "oracle_id": "9768d43b-8b3f-4d03-ac1b-e603af832875",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC002",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Thorn of the Dusk Rose",
+   "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC002",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "aclazotz",
+   "card": "Aclazotz, Deepest Betrayal // Temple of the Dead",
+   "oracle_id": "fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC003",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "ojer_axonil",
+   "card": "Ojer Axonil, Deepest Might // Temple of Power",
+   "oracle_id": "d3b7b541-6f05-46c1-8031-c848c4bd4635",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC003",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "aclazotz",
+   "card": "Aclazotz, Deepest Betrayal // Temple of the Dead",
+   "oracle_id": "fcdfe9d5-2743-4d3e-ab57-bf0f96beaa15",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC004",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "ojer_axonil",
+   "card": "Ojer Axonil, Deepest Might // Temple of Power",
+   "oracle_id": "d3b7b541-6f05-46c1-8031-c848c4bd4635",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC004",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "ojer_taq",
+   "card": "Ojer Taq, Deepest Foundation // Temple of Civilization",
+   "oracle_id": "486bb9a5-73f1-4cec-b097-fb07ac80b72e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC005",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "ojer_pakpatiq",
+   "card": "Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time",
+   "oracle_id": "34ef174e-1b3d-43d5-9f72-3d35befbdd7f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC005",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "ojer_taq",
+   "card": "Ojer Taq, Deepest Foundation // Temple of Civilization",
+   "oracle_id": "486bb9a5-73f1-4cec-b097-fb07ac80b72e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Dinosaur Knight",
+   "oracle_id": "04aa210a-235f-4e07-87d1-0d28cdf6888b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Poet of Unity // Roar of the Fifth People",
+   "oracle_id": "2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Radiant Champion",
+   "oracle_id": "5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Warrior Poet",
+   "oracle_id": "3ec889bc-f4d7-492a-91c3-d3691eb90eac",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, the Sun's Heart",
+   "oracle_id": "e1a13723-a6b1-4160-8eb5-f7a4860898a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Fanatic of Aclazotz",
+   "oracle_id": "9768d43b-8b3f-4d03-ac1b-e603af832875",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC006",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Thorn of the Dusk Rose",
+   "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC007",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Fanatic of Aclazotz",
+   "oracle_id": "9768d43b-8b3f-4d03-ac1b-e603af832875",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC007",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "vito",
+   "card": "Vito, Thorn of the Dusk Rose",
+   "oracle_id": "7336a541-3ae9-4ab2-acb8-f574c0a5b3a9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC007",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "inti",
+   "card": "Inti, Seneschal of the Sun",
+   "oracle_id": "176f5ba8-6e7b-4234-a298-b6164f51656f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Dinosaur Knight",
+   "oracle_id": "04aa210a-235f-4e07-87d1-0d28cdf6888b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Poet of Unity // Roar of the Fifth People",
+   "oracle_id": "2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Radiant Champion",
+   "oracle_id": "5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Warrior Poet",
+   "oracle_id": "3ec889bc-f4d7-492a-91c3-d3691eb90eac",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, the Sun's Heart",
+   "oracle_id": "e1a13723-a6b1-4160-8eb5-f7a4860898a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC008",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "inti",
+   "card": "Inti, Seneschal of the Sun",
+   "oracle_id": "176f5ba8-6e7b-4234-a298-b6164f51656f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC010",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli Rai",
+   "oracle_id": "5f3fe679-aff1-41b3-8d75-c78c2c0636f0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Consul of Oversight",
+   "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Filigree Master",
+   "oracle_id": "68cf7415-b434-4284-89b4-c7d44a003eb8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Jewel of Avishkar",
+   "oracle_id": "83705258-1f42-41db-a32e-de99ffd759eb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Radiant Creator",
+   "oracle_id": "20f602b3-814f-406c-b7eb-2d1fc98f8cf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Sublime Artificer",
+   "oracle_id": "ab655810-f67e-4576-9174-35b16f5e3235",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, the Gifted",
+   "oracle_id": "0e084342-31ff-47a5-9fd8-5b385add7a1a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, the Sun's Brilliance",
+   "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Dinosaur Knight",
+   "oracle_id": "04aa210a-235f-4e07-87d1-0d28cdf6888b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Poet of Unity // Roar of the Fifth People",
+   "oracle_id": "2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Radiant Champion",
+   "oracle_id": "5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, Warrior Poet",
+   "oracle_id": "3ec889bc-f4d7-492a-91c3-d3691eb90eac",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC011",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "huatli",
+   "card": "Huatli, the Sun's Heart",
+   "oracle_id": "e1a13723-a6b1-4160-8eb5-f7a4860898a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli Rai",
+   "oracle_id": "5f3fe679-aff1-41b3-8d75-c78c2c0636f0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Consul of Oversight",
+   "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Filigree Master",
+   "oracle_id": "68cf7415-b434-4284-89b4-c7d44a003eb8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Jewel of Avishkar",
+   "oracle_id": "83705258-1f42-41db-a32e-de99ffd759eb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Radiant Creator",
+   "oracle_id": "20f602b3-814f-406c-b7eb-2d1fc98f8cf1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, Sublime Artificer",
+   "oracle_id": "ab655810-f67e-4576-9174-35b16f5e3235",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, the Gifted",
+   "oracle_id": "0e084342-31ff-47a5-9fd8-5b385add7a1a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "LC012",
+   "pack": "pack_p5_lost_caverns_of_ixalan_2026-10-30.json",
+   "participant": "saheeli",
+   "card": "Saheeli, the Sun's Brilliance",
+   "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "lci"
+   ]
+  },
+  {
+   "claim": "DF001",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "aetherspark",
+   "card": "The Aetherspark",
+   "oracle_id": "483c747a-b602-4747-95bc-72c2c17ed509",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF002",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "zahur",
+   "card": "Zahur, Glory's Past",
+   "oracle_id": "fb82cd81-0e71-43ab-88f9-b1fa158f5138",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF003",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF004",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF004",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF005",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "pia_nalaar",
+   "card": "Pia Nalaar",
+   "oracle_id": "715336f5-a708-488b-9f30-5702a9013af0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF005",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "pia_nalaar",
+   "card": "Pia Nalaar, Chief Mechanic",
+   "oracle_id": "31cb87bf-1020-4fd5-95f7-8ecb197d823b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF005",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "pia_nalaar",
+   "card": "Pia Nalaar, Consul of Revival",
+   "oracle_id": "65d4ebdb-8757-4e5e-9411-d78597e20d57",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF005",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "valgavoth",
+   "card": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cursed Rider",
+   "oracle_id": "343833c1-19fd-4e8f-b82e-0f20903caaff",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cynical Opportunist",
+   "oracle_id": "e70a01dd-4dbe-4811-ac93-1c6d0142e06e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Misanthropic Guide",
+   "oracle_id": "5a9baafb-bffd-4e28-bbe1-b4154cd86bf3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Team Player",
+   "oracle_id": "254f133a-eee5-48b9-b19f-110555e49300",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF006",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Tormented Loner",
+   "oracle_id": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cursed Rider",
+   "oracle_id": "343833c1-19fd-4e8f-b82e-0f20903caaff",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cynical Opportunist",
+   "oracle_id": "e70a01dd-4dbe-4811-ac93-1c6d0142e06e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Misanthropic Guide",
+   "oracle_id": "5a9baafb-bffd-4e28-bbe1-b4154cd86bf3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Team Player",
+   "oracle_id": "254f133a-eee5-48b9-b19f-110555e49300",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Tormented Loner",
+   "oracle_id": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, Exuberant Explorer",
+   "oracle_id": "f6476884-f73f-465f-8e7f-ea312a5b306d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Anomaly",
+   "oracle_id": "e0142e7d-7b0b-4290-a56c-5fa950fdccf8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Key to Everything",
+   "oracle_id": "542be13f-b9c0-4b79-b486-be576c531a82",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Nexus",
+   "oracle_id": "a99ce9db-9b7d-45a0-bee7-0875fc62ca48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF007",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Pathfinder",
+   "oracle_id": "68c7e459-0932-4644-a3c0-9a1eae1db7a3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cursed Rider",
+   "oracle_id": "343833c1-19fd-4e8f-b82e-0f20903caaff",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Cynical Opportunist",
+   "oracle_id": "e70a01dd-4dbe-4811-ac93-1c6d0142e06e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Misanthropic Guide",
+   "oracle_id": "5a9baafb-bffd-4e28-bbe1-b4154cd86bf3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Team Player",
+   "oracle_id": "254f133a-eee5-48b9-b19f-110555e49300",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "winter",
+   "card": "Winter, Tormented Loner",
+   "oracle_id": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF008",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "aetherspark",
+   "card": "The Aetherspark",
+   "oracle_id": "483c747a-b602-4747-95bc-72c2c17ed509",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF009",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "gonti",
+   "card": "Gonti, Canny Acquisitor",
+   "oracle_id": "7923ef4a-b1be-4f6a-b17b-4eab101390de",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF009",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "gonti",
+   "card": "Gonti, Lord of Luxury",
+   "oracle_id": "d5be0ff6-39d9-4f9f-a028-e62dc38463f2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF009",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "gonti",
+   "card": "Gonti, Night Minister",
+   "oracle_id": "e16f79c1-ffbb-4893-b62a-d4e9d15e2b16",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF010",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "mendicant_core",
+   "card": "Mendicant Core, Guidelight",
+   "oracle_id": "b20d74a4-0e08-4779-972a-499f1a2be15a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, Exuberant Explorer",
+   "oracle_id": "f6476884-f73f-465f-8e7f-ea312a5b306d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Anomaly",
+   "oracle_id": "e0142e7d-7b0b-4290-a56c-5fa950fdccf8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Key to Everything",
+   "oracle_id": "542be13f-b9c0-4b79-b486-be576c531a82",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Nexus",
+   "oracle_id": "a99ce9db-9b7d-45a0-bee7-0875fc62ca48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "loot",
+   "card": "Loot, the Pathfinder",
+   "oracle_id": "68c7e459-0932-4644-a3c0-9a1eae1db7a3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "dft"
+   ]
+  },
+  {
+   "claim": "DF011",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -13787,6 +15253,13 @@
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 105
   },
+  "pack_p5_aetherdrift_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 10,
+   "NAMED_PARTICIPANT": 32
+  },
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": {
    "claims": 17,
    "claims_anchored": 17,
@@ -13843,12 +15316,26 @@
    "PRINTED_IN_STORY_SET": 14,
    "NAMED_PARTICIPANT": 42
   },
+  "pack_p5_lost_caverns_of_ixalan_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 20,
+   "NAMED_PARTICIPANT": 38
+  },
   "pack_p5_murders_at_karlov_manor_2026-10-30.json": {
    "claims": 14,
    "claims_anchored": 13,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 12,
    "NAMED_PARTICIPANT": 39
+  },
+  "pack_p5_outlaws_of_thunder_junction_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 12,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 13,
+   "NAMED_PARTICIPANT": 53
   },
   "pack_p5_reality_fracture_2026-10-30.json": {
    "claims": 13,
@@ -13873,12 +15360,12 @@
   }
  },
  "counts": {
-  "claims": 352,
-  "claims_anchored": 314,
-  "anchors": 1612,
+  "claims": 388,
+  "claims_anchored": 348,
+  "anchors": 1778,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 222,
-  "NAMED_PARTICIPANT": 1359
+  "PRINTED_IN_STORY_SET": 265,
+  "NAMED_PARTICIPANT": 1482
  },
- "content_sha256": "b5bb712280597ec1bd823a41da107dcaf8a2d01ced6aa295ee9b36c595a8ab72"
+ "content_sha256": "c267322087b37be8ee41c9ac323898b7d829d16961d5cd1e9b86f0811619834d"
 }
