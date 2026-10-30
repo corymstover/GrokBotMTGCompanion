@@ -7,8 +7,17 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "4c8b62c5e2a69f371621b7ed8b80fdd7151c2919ac9dae999fd676a1008398c2",
+ "content_sha256": "149f574d1b1dd929d6921301d6acff35189cc23eb4e99ae869280d5cb7cce768",
  "edges": [
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:kld_homesick",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_s_sanctum"
+  },
   {
    "artists": [
     "Adam Paquette"
@@ -146,6 +155,33 @@
   },
   {
    "artists": [
+    "Brad Rigney"
+   ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kari_zev_skyship_raider"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dark_intimations"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:planar_bridge"
+  },
+  {
+   "artists": [
     "Chase Stone"
    ],
    "from": "source:revelation_eye",
@@ -256,6 +292,51 @@
    "artists": [
     "Chris Rallis"
    ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:battle_at_the_bridge"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tezzeret_s_touch"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:zendikar_resurgent"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:kld_release",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:impeccable_timing"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
+   "from": "source:kld_very_arena",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fateful_showdown"
+  },
+  {
+   "artists": [
+    "Chris Rallis"
+   ],
    "from": "source:revelation_eye",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -283,6 +364,15 @@
    "artists": [
     "Christine Choi"
    ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:aethersphere_harvester"
+  },
+  {
+   "artists": [
+    "Christine Choi"
+   ],
    "from": "source:rtd_ep8",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -305,6 +395,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:scion_of_ugin"
+  },
+  {
+   "artists": [
+    "Clint Cearley"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nissa_vital_force"
+  },
+  {
+   "artists": [
+    "Craig J Spearing"
+   ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:invigorated_rampage"
   },
   {
    "artists": [
@@ -402,6 +510,42 @@
    "artists": [
     "Eric Deschamps"
    ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:consulate_turret"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:metallic_rebuke"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dramatic_reversal"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:kld_very_arena",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dramatic_reversal"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
    "from": "source:rtd_ep9",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -474,6 +618,15 @@
    "artists": [
     "Greg Opalinski"
    ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:lost_legacy"
+  },
+  {
+   "artists": [
+    "Greg Opalinski"
+   ],
    "from": "source:rtd_ep6",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -499,6 +652,24 @@
   },
   {
    "artists": [
+    "Howard Lyon"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cathartic_reunion"
+  },
+  {
+   "artists": [
+    "Howard Lyon"
+   ],
+   "from": "source:kld_very_arena",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cathartic_reunion"
+  },
+  {
+   "artists": [
     "Igor Kieryluk"
    ],
    "from": "source:rtd_ep11",
@@ -510,10 +681,37 @@
    "artists": [
     "Izzy"
    ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:hungry_flames"
+  },
+  {
+   "artists": [
+    "Izzy"
+   ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:release_the_gremlins"
+  },
+  {
+   "artists": [
+    "Izzy"
+   ],
    "from": "source:rtd_ep12",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:gideon_s_reproach"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:heart_of_kiran"
   },
   {
    "artists": [
@@ -564,10 +762,37 @@
    "artists": [
     "James Ryman"
    ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:aether_swooper"
+  },
+  {
+   "artists": [
+    "James Ryman"
+   ],
    "from": "source:tarkir_story_summary",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:frontier_siege"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nimbus_maze"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:omniscience"
   },
   {
    "artists": [
@@ -600,6 +825,15 @@
    "artists": [
     "Jason Felix"
    ],
+   "from": "source:kld_very_arena",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rakdos_ringleader"
+  },
+  {
+   "artists": [
+    "Jason Felix"
+   ],
    "from": "source:lithomancer",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -613,6 +847,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:wastes"
+  },
+  {
+   "artists": [
+    "Jason Rainville"
+   ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kari_zev_s_expertise"
+  },
+  {
+   "artists": [
+    "Jason Rainville"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:deadlock_trap"
   },
   {
    "artists": [
@@ -663,6 +915,15 @@
    "artists": [
     "Johannes Voss"
    ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:island"
+  },
+  {
+   "artists": [
+    "Johannes Voss"
+   ],
    "from": "source:sorins_restoration",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -689,6 +950,15 @@
   },
   {
    "artists": [
+    "John Severin Brassell"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:call_for_unity"
+  },
+  {
+   "artists": [
     "Jonas De Ro"
    ],
    "from": "source:rtd_ep8",
@@ -700,10 +970,37 @@
    "artists": [
     "Joseph Meehan"
    ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:confiscation_coup"
+  },
+  {
+   "artists": [
+    "Joseph Meehan"
+   ],
    "from": "source:rtd_ep6",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:mishra_s_self_replicator"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:aer_revolution",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:concealed_courtyard"
+  },
+  {
+   "artists": [
+    "Jung Park"
+   ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:skysovereign_consul_flagship"
   },
   {
    "artists": [
@@ -752,12 +1049,30 @@
   },
   {
    "artists": [
+    "Karla Ortiz"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:liliana_heretical_healer_liliana_defiant_necromancer"
+  },
+  {
+   "artists": [
     "Kev Walker"
    ],
    "from": "source:rtd_ep11",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:jhoira_s_familiar"
+  },
+  {
+   "artists": [
+    "Kieran Yanner"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cemetery_recruitment"
   },
   {
    "artists": [
@@ -797,6 +1112,51 @@
   },
   {
    "artists": [
+    "Lius Lasahido"
+   ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:hope_of_ghirapur"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:aer_breaking",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oviya_pashiri_sage_lifecrafter"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:aer_breakthrough",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rashmi_eternities_crafter"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oviya_pashiri_sage_lifecrafter"
+  },
+  {
+   "artists": [
+    "Magali Villeneuve"
+   ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rashmi_eternities_crafter"
+  },
+  {
+   "artists": [
     "Magali Villeneuve"
    ],
    "from": "source:rtd_ep8",
@@ -830,6 +1190,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:monastery_siege"
+  },
+  {
+   "artists": [
+    "Matt Stewart"
+   ],
+   "from": "source:aer_puppets",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bastion_enforcer"
   },
   {
    "artists": [
@@ -869,12 +1238,30 @@
   },
   {
    "artists": [
+    "Nils Hamm"
+   ],
+   "from": "source:aer_breakthrough",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:paradoxical_outcome"
+  },
+  {
+   "artists": [
     "Noah Bradley"
    ],
    "from": "source:sorins_revelation",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:nissa_voice_of_zendikar"
   },
   {
    "artists": [
@@ -905,6 +1292,42 @@
   },
   {
    "artists": [
+    "Rob Alexander"
+   ],
+   "from": "source:kld_release",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oboro_palace_in_the_clouds"
+  },
+  {
+   "artists": [
+    "Ryan Alexander Lee"
+   ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:quicksmith_spy"
+  },
+  {
+   "artists": [
+    "Ryan Yee"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:die_young"
+  },
+  {
+   "artists": [
+    "Ryan Yee"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:live_fast"
+  },
+  {
+   "artists": [
     "Ryan Yee"
    ],
    "from": "source:rtd_ep9",
@@ -920,6 +1343,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:paraselene"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:aethersquall_ancient"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tranquil_expanse"
   },
   {
    "artists": [
@@ -959,6 +1400,33 @@
   },
   {
    "artists": [
+    "Sidharth Chaturvedi"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:embraal_bruiser"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:kld_release",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fire_elemental"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:kld_very_arena",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:homing_lightning"
+  },
+  {
+   "artists": [
     "Slawomir Maniak"
    ],
    "from": "source:revelation_eye",
@@ -974,6 +1442,51 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:savage_ventmaw"
+  },
+  {
+   "artists": [
+    "Steve Argyle"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_ablaze"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:vedalken_shackles"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:aer_skies",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:illusionist_s_stratagem"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:furious_reprisal"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:kld_homesick",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:goblin_test_pilot"
   },
   {
    "artists": [
@@ -1060,10 +1573,37 @@
    "artists": [
     "Tyler Jacobson"
    ],
+   "from": "source:aer_breakthrough",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tezzeret_s_ambition"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:aer_revolution",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:pia_nalaar"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
    "from": "source:brink_extinction",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:nissa_s_judgment"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dovin_baan"
   },
   {
    "artists": [
@@ -1082,6 +1622,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:opt"
+  },
+  {
+   "artists": [
+    "Victor Adame Minguez"
+   ],
+   "from": "source:aer_breakthrough",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:workshop_assistant"
+  },
+  {
+   "artists": [
+    "Victor Adame Minguez"
+   ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:bastion_mastodon"
+  },
+  {
+   "artists": [
+    "Victor Adame Minguez"
+   ],
+   "from": "source:kld_grateful",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:whirlermaker"
   },
   {
    "artists": [
@@ -1114,10 +1681,28 @@
    "artists": [
     "Vincent Proce"
    ],
+   "from": "source:aer_revolution",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kambal_consul_of_allocation"
+  },
+  {
+   "artists": [
+    "Vincent Proce"
+   ],
    "from": "source:revelation_eye",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:island"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
+   "from": "source:kld_release",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:panharmonicon"
   },
   {
    "artists": [
@@ -1132,10 +1717,28 @@
    "artists": [
     "Wesley Burt"
    ],
+   "from": "source:aer_renewal",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oath_of_ajani"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
    "from": "source:brink_extinction",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:oath_of_nissa"
+  },
+  {
+   "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:kld_bottled",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:attune_with_aether"
   },
   {
    "artists": [
@@ -5659,6 +6262,198 @@
    "to": "place:ugins_tomb_site"
   },
   {
+   "claim": "AER001",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:consulate",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abducted",
+   "sources": [
+    "aer_breakthrough"
+   ],
+   "to": "character:rashmi"
+  },
+  {
+   "claim": "AER001",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:consulate",
+   "grade": "CANON_CONFIRMED",
+   "relation": "abducted",
+   "sources": [
+    "aer_breakthrough"
+   ],
+   "to": "place:spire_inquirium"
+  },
+  {
+   "claim": "AER002",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "seized_control_of",
+   "sources": [
+    "aer_revolution"
+   ],
+   "to": "faction:consulate"
+  },
+  {
+   "claim": "AER003",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rashmi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "invented",
+   "sources": [
+    "aer_revolution"
+   ],
+   "to": "artifact:planar_bridge"
+  },
+  {
+   "claim": "AER004",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kiran_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "designed",
+   "sources": [
+    "aer_revolution"
+   ],
+   "to": "artifact:heart_of_kiran"
+  },
+  {
+   "claim": "AER005",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "escaped_aboard",
+   "sources": [
+    "aer_breaking"
+   ],
+   "to": "artifact:heart_of_kiran"
+  },
+  {
+   "claim": "AER006",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "aer_skies"
+   ],
+   "to": "character:kari_zev"
+  },
+  {
+   "claim": "AER007",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "relation": "brought_down",
+   "sources": [
+    "aer_breaking"
+   ],
+   "to": "artifact:skysovereign"
+  },
+  {
+   "claim": "AER008",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_IMPLIED",
+   "relation": "agent_of",
+   "sources": [
+    "aer_puppets"
+   ],
+   "to": "character:nicol_bolas"
+  },
+  {
+   "claim": "AER009",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "aer_puppets"
+   ],
+   "to": "character:tezzeret"
+  },
+  {
+   "claim": "AER010",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated_in",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "event:ghirapur_revolution"
+  },
+  {
+   "claim": "AER011",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dovin_baan",
+   "grade": "CANON_CONFIRMED",
+   "relation": "disappeared_after",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "event:ghirapur_revolution"
+  },
+  {
+   "claim": "AER012",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:rashmi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "swore_to",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "character:saheeli"
+  },
+  {
+   "claim": "AER013",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "joined",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "AER014",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_IMPLIED",
+   "relation": "refused_to_kill",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "character:dhiren_baral"
+  },
+  {
+   "claim": "AER015",
+   "era": "pre_amonkhet_2017",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_IMPLIED",
+   "relation": "controls",
+   "sources": [
+    "aer_renewal"
+   ],
+   "to": "plane:amonkhet"
+  },
+  {
    "claim": "B001",
    "era": "brothers_war",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -6286,6 +7081,151 @@
     "c_pwg_one"
    ],
    "to": "character:yawgmoth"
+  },
+  {
+   "claim": "KLD001",
+   "era": "soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sealed",
+   "sources": [
+    "kld_homesick"
+   ],
+   "to": "character:emrakul"
+  },
+  {
+   "claim": "KLD001",
+   "era": "soi_emn_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sealed",
+   "sources": [
+    "kld_homesick"
+   ],
+   "to": "place:innistrad_silver_moon"
+  },
+  {
+   "claim": "KLD002",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "returned_to",
+   "sources": [
+    "kld_torch"
+   ],
+   "to": "plane:kaladesh"
+  },
+  {
+   "claim": "KLD003",
+   "era": "chandra_origin",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "first_planeswalked_to",
+   "sources": [
+    "kld_renegade_prime"
+   ],
+   "to": "plane:regatha"
+  },
+  {
+   "claim": "KLD004",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:pia_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mother_of",
+   "sources": [
+    "kld_renegade_prime"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "KLD005",
+   "era": "chandra_origin",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:dhiren_baral",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "aer_revolution",
+    "kld_bottled"
+   ],
+   "to": "character:kiran_nalaar"
+  },
+  {
+   "claim": "KLD006",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tezzeret",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ordered_arrest_of",
+   "sources": [
+    "kld_release"
+   ],
+   "to": "character:pia_nalaar"
+  },
+  {
+   "claim": "KLD007",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:pia_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "kld_release"
+   ],
+   "to": "faction:renegades_kaladesh"
+  },
+  {
+   "claim": "KLD008",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "kld_very_arena"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "KLD008",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rescued",
+   "sources": [
+    "kld_very_arena"
+   ],
+   "to": "character:nissa_revane"
+  },
+  {
+   "claim": "KLD009",
+   "era": "kaladesh_revolt_2016",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "relation": "freed",
+   "sources": [
+    "kld_grateful"
+   ],
+   "to": "character:pia_nalaar"
+  },
+  {
+   "claim": "KLD010",
+   "era": "setting",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:aether_kaladesh",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sustains",
+   "sources": [
+    "kld_guide"
+   ],
+   "to": "plane:kaladesh"
   },
   {
    "claim": "MOM001",
@@ -7480,6 +8420,12 @@
    "to": "curated:Items & Artifacts Index.md#golgothian-sylex"
   },
   {
+   "from": "artifact:planar_bridge",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Items & Artifacts Index.md#planar-bridge"
+  },
+  {
    "from": "character:arcades_sabboth",
    "limit": "Defensive card mechanics do not establish an in-lore political alignment.",
    "relation": "depicted_by",
@@ -7526,6 +8472,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#dakkon-blackblade"
+  },
+  {
+   "from": "character:dovin_baan",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#dovin-baan"
+  },
+  {
+   "from": "character:dovin_baan",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#dovin-baan"
   },
   {
    "from": "character:elesh_norn",
@@ -7788,6 +8746,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#teferi"
+  },
+  {
+   "from": "character:tezzeret",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tezzeret"
+  },
+  {
+   "from": "character:tezzeret",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#tezzeret"
   },
   {
    "from": "character:tibalt",
@@ -8308,6 +9278,192 @@
    "relation": "asserts",
    "role": "subject",
    "to": "place:tomb_spirit_dragon"
+  },
+  {
+   "from": "claim:AER001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:rashmi"
+  },
+  {
+   "from": "claim:AER001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:spire_inquirium"
+  },
+  {
+   "from": "claim:AER001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:consulate"
+  },
+  {
+   "from": "claim:AER002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:consulate"
+  },
+  {
+   "from": "claim:AER002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:AER003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:planar_bridge"
+  },
+  {
+   "from": "claim:AER003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rashmi"
+  },
+  {
+   "from": "claim:AER004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:heart_of_kiran"
+  },
+  {
+   "from": "claim:AER004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kiran_nalaar"
+  },
+  {
+   "from": "claim:AER005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:heart_of_kiran"
+  },
+  {
+   "from": "claim:AER005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:AER006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kari_zev"
+  },
+  {
+   "from": "claim:AER006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:AER007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:skysovereign"
+  },
+  {
+   "from": "claim:AER007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:AER008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:AER008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:AER009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:AER009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:AER010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:ghirapur_revolution"
+  },
+  {
+   "from": "claim:AER010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:AER011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:ghirapur_revolution"
+  },
+  {
+   "from": "claim:AER011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dovin_baan"
+  },
+  {
+   "from": "claim:AER012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:saheeli"
+  },
+  {
+   "from": "claim:AER012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:rashmi"
+  },
+  {
+   "from": "claim:AER013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:AER013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:AER014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:dhiren_baral"
+  },
+  {
+   "from": "claim:AER014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:AER015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:amonkhet"
+  },
+  {
+   "from": "claim:AER015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
   },
   {
    "from": "claim:B001",
@@ -8890,6 +10046,138 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:KLD001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:emrakul"
+  },
+  {
+   "from": "claim:KLD001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:innistrad_silver_moon"
+  },
+  {
+   "from": "claim:KLD001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:KLD002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaladesh"
+  },
+  {
+   "from": "claim:KLD002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:KLD003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:regatha"
+  },
+  {
+   "from": "claim:KLD003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:KLD004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:KLD004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:pia_nalaar"
+  },
+  {
+   "from": "claim:KLD005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kiran_nalaar"
+  },
+  {
+   "from": "claim:KLD005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:dhiren_baral"
+  },
+  {
+   "from": "claim:KLD006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:pia_nalaar"
+  },
+  {
+   "from": "claim:KLD006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tezzeret"
+  },
+  {
+   "from": "claim:KLD007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:renegades_kaladesh"
+  },
+  {
+   "from": "claim:KLD007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:pia_nalaar"
+  },
+  {
+   "from": "claim:KLD008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:KLD008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:KLD008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:KLD009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:pia_nalaar"
+  },
+  {
+   "from": "claim:KLD009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:KLD010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaladesh"
+  },
+  {
+   "from": "claim:KLD010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:aether_kaladesh"
   },
   {
    "from": "claim:MOM001",
@@ -10129,6 +11417,12 @@
    "to": "card:tomb_of_the_spirit_dragon"
   },
   {
+   "from": "plane:amonkhet",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#amonkhet"
+  },
+  {
    "from": "plane:ikoria",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -10141,6 +11435,12 @@
    "to": "curated:Planes Index.md#new-capenna"
   },
   {
+   "from": "plane:regatha",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#regatha"
+  },
+  {
    "from": "plane:tarkir",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -10151,6 +11451,86 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planes Index.md#theros"
+  },
+  {
+   "from": "source:aer_breaking",
+   "relation": "cited_by",
+   "to": "claim:AER005"
+  },
+  {
+   "from": "source:aer_breaking",
+   "relation": "cited_by",
+   "to": "claim:AER007"
+  },
+  {
+   "from": "source:aer_breakthrough",
+   "relation": "cited_by",
+   "to": "claim:AER001"
+  },
+  {
+   "from": "source:aer_puppets",
+   "relation": "cited_by",
+   "to": "claim:AER008"
+  },
+  {
+   "from": "source:aer_puppets",
+   "relation": "cited_by",
+   "to": "claim:AER009"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER010"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER011"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER012"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER013"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER014"
+  },
+  {
+   "from": "source:aer_renewal",
+   "relation": "cited_by",
+   "to": "claim:AER015"
+  },
+  {
+   "from": "source:aer_revolution",
+   "relation": "cited_by",
+   "to": "claim:AER002"
+  },
+  {
+   "from": "source:aer_revolution",
+   "relation": "cited_by",
+   "to": "claim:AER003"
+  },
+  {
+   "from": "source:aer_revolution",
+   "relation": "cited_by",
+   "to": "claim:AER004"
+  },
+  {
+   "from": "source:aer_revolution",
+   "relation": "cited_by",
+   "to": "claim:KLD005"
+  },
+  {
+   "from": "source:aer_skies",
+   "relation": "cited_by",
+   "to": "claim:AER006"
   },
   {
    "from": "source:blood_fire",
@@ -10532,6 +11912,56 @@
    "from": "source:journey_nexus",
    "relation": "cited_by",
    "to": "claim:A032"
+  },
+  {
+   "from": "source:kld_bottled",
+   "relation": "cited_by",
+   "to": "claim:KLD005"
+  },
+  {
+   "from": "source:kld_grateful",
+   "relation": "cited_by",
+   "to": "claim:KLD009"
+  },
+  {
+   "from": "source:kld_guide",
+   "relation": "cited_by",
+   "to": "claim:KLD010"
+  },
+  {
+   "from": "source:kld_homesick",
+   "relation": "cited_by",
+   "to": "claim:KLD001"
+  },
+  {
+   "from": "source:kld_release",
+   "relation": "cited_by",
+   "to": "claim:KLD006"
+  },
+  {
+   "from": "source:kld_release",
+   "relation": "cited_by",
+   "to": "claim:KLD007"
+  },
+  {
+   "from": "source:kld_renegade_prime",
+   "relation": "cited_by",
+   "to": "claim:KLD003"
+  },
+  {
+   "from": "source:kld_renegade_prime",
+   "relation": "cited_by",
+   "to": "claim:KLD004"
+  },
+  {
+   "from": "source:kld_torch",
+   "relation": "cited_by",
+   "to": "claim:KLD002"
+  },
+  {
+   "from": "source:kld_very_arena",
+   "relation": "cited_by",
+   "to": "claim:KLD008"
   },
   {
    "from": "source:lithomancer",
@@ -11286,6 +12716,13 @@
     "file": "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
     "sha256": "e3497c9b29e16668003217eaaffbd8ae4bd9baf03f1ee74f8158c7496b50bdbd",
     "sources": 10
+   },
+   {
+    "claims": 25,
+    "entities": 28,
+    "file": "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
+    "sha256": "0fb7acee33419f62aa2653496cd223d86f6e0d7b8b49e9735fadabd67975e91f",
+    "sources": 14
    }
   ],
   "deck_evidence": [
@@ -11314,7 +12751,7 @@
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 143,
+    "caption_edges": 210,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -11356,6 +12793,14 @@
    "type": "Object"
   },
   {
+   "id": "artifact:heart_of_kiran",
+   "name": "Heart of Kiran",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:mightstone_and_weakstone",
    "name": "The Mightstone and Weakstone",
    "origins": [
@@ -11372,6 +12817,14 @@
    "type": "Object"
   },
   {
+   "id": "artifact:planar_bridge",
+   "name": "Planar Bridge",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:realmbreaker",
    "name": "Realmbreaker (Elesh Norn's Invasion Tree)",
    "origins": [
@@ -11384,6 +12837,14 @@
    "name": "The Sylex (as named in Return to Dominaria Ep. 9)",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:skysovereign",
+   "name": "Skysovereign",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -11449,6 +12910,33 @@
    "id": "card:adventurous_impulse",
    "name": "Adventurous Impulse",
    "oracle_id": "5bf49f39-b3d5-4148-8dc2-b5b5011769d2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:aether_swooper",
+   "name": "Aether Swooper",
+   "oracle_id": "f7ed301a-dce7-49d0-a68a-d3a099201f65",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:aethersphere_harvester",
+   "name": "Aethersphere Harvester",
+   "oracle_id": "7b3e74ad-0179-480b-871c-9e3bc30a43ff",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:aethersquall_ancient",
+   "name": "Aethersquall Ancient",
+   "oracle_id": "47c685b1-6e1e-4e08-8a52-9da6902df113",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -11751,6 +13239,15 @@
    "type": "Card"
   },
   {
+   "id": "card:attune_with_aether",
+   "name": "Attune with Aether",
+   "oracle_id": "b337c241-f2c4-48e3-a303-371b172fcd18",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:augur_of_bolas",
    "name": "Augur of Bolas",
    "oracle_id": "be5d6779-ecc9-44b9-8c4d-97a243059d55",
@@ -11782,6 +13279,33 @@
    "id": "card:baird_steward_of_argive",
    "name": "Baird, Steward of Argive",
    "oracle_id": "69aa6809-5468-413a-94c9-562e6de93957",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bastion_enforcer",
+   "name": "Bastion Enforcer",
+   "oracle_id": "87449f64-9500-4967-a073-cde19824e087",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:bastion_mastodon",
+   "name": "Bastion Mastodon",
+   "oracle_id": "48a01671-da1f-4875-bcd5-ca99566ff399",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:battle_at_the_bridge",
+   "name": "Battle at the Bridge",
+   "oracle_id": "3d63ad3a-4e9f-4968-a576-4be063f4ecbf",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -11873,6 +13397,15 @@
    "type": "Card"
   },
   {
+   "id": "card:call_for_unity",
+   "name": "Call for Unity",
+   "oracle_id": "288d5415-ef44-400f-ab88-7c8a4deaaf4b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:call_the_gatewatch",
    "name": "Call the Gatewatch",
    "oracle_id": "652bfa31-b2eb-4cba-850f-1db02a83bb35",
@@ -11892,6 +13425,15 @@
    "type": "Card"
   },
   {
+   "id": "card:cathartic_reunion",
+   "name": "Cathartic Reunion",
+   "oracle_id": "0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:cavern_of_souls",
    "name": "Cavern of Souls",
    "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
@@ -11906,6 +13448,24 @@
    "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cemetery_recruitment",
+   "name": "Cemetery Recruitment",
+   "oracle_id": "07792d72-d5db-41b9-871c-e720e12ce659",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chandra_ablaze",
+   "name": "Chandra Ablaze",
+   "oracle_id": "3fae28e6-2ffc-460e-9dd3-e321e8a53ba9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12040,6 +13600,33 @@
    "oracle_id": "fedb1947-9fa5-4655-8d02-b370fa63dd16",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:concealed_courtyard",
+   "name": "Concealed Courtyard",
+   "oracle_id": "2d899466-b1eb-4901-b626-1f2fb09b786d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:confiscation_coup",
+   "name": "Confiscation Coup",
+   "oracle_id": "c246cdb4-2fd8-487e-944e-3e52fbd1bbaa",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:consulate_turret",
+   "name": "Consulate Turret",
+   "oracle_id": "14d71432-c2e6-4c81-92ef-cf98e1fcf5f8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12269,6 +13856,15 @@
    "type": "Card"
   },
   {
+   "id": "card:dark_intimations",
+   "name": "Dark Intimations",
+   "oracle_id": "228cb63f-0b93-4be5-94e5-4eaae9112eeb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:deadlock_trap",
    "name": "Deadlock Trap",
    "oracle_id": "726c911d-6543-4400-a8fa-b8a5c9f0c15d",
@@ -12311,6 +13907,15 @@
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:die_young",
+   "name": "Die Young",
+   "oracle_id": "4bcc54d1-8ab6-4ad3-91b6-97fb02b88cc0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12358,6 +13963,15 @@
    "oracle_id": "ba2c2a65-256a-46db-bf2b-b02b7d114a42",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dovin_baan",
+   "name": "Dovin Baan",
+   "oracle_id": "5b33bfbf-e4e1-43de-9c96-ccdc2916510a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12422,6 +14036,15 @@
    "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dramatic_reversal",
+   "name": "Dramatic Reversal",
+   "oracle_id": "da46904c-8fb8-44c2-b2ab-775a1cc12ec3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12516,6 +14139,15 @@
    "type": "Card"
   },
   {
+   "id": "card:embraal_bruiser",
+   "name": "Embraal Bruiser",
+   "oracle_id": "f432998f-7737-4f41-86b5-a4372bc5db2b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:excavation_elephant",
    "name": "Excavation Elephant",
    "oracle_id": "45fa04ee-3b5c-45b3-8c09-bda08cca3630",
@@ -12581,6 +14213,15 @@
    "type": "Card"
   },
   {
+   "id": "card:fateful_showdown",
+   "name": "Fateful Showdown",
+   "oracle_id": "729b7ce8-7e7f-4db9-b3ce-67aba46a7b0d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:fearsome_awakening",
    "name": "Fearsome Awakening",
    "oracle_id": "b6e87f78-d4dd-44b2-bf70-92436ce583c9",
@@ -12626,6 +14267,15 @@
    "type": "Card"
   },
   {
+   "id": "card:fire_elemental",
+   "name": "Fire Elemental",
+   "oracle_id": "3912d21e-1ebc-4a81-9dc9-f404248d564a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:flux_channeler",
    "name": "Flux Channeler",
    "oracle_id": "83874e60-291b-47a7-ba9f-69437fa7e3c7",
@@ -12665,6 +14315,15 @@
    "id": "card:fungal_plots",
    "name": "Fungal Plots",
    "oracle_id": "0a85402a-e3be-4ebb-8001-9d9a20dde7e8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:furious_reprisal",
+   "name": "Furious Reprisal",
+   "oracle_id": "38e1ab26-95f9-43dd-9bda-13c7d8ba47ea",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -12740,6 +14399,15 @@
    "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:goblin_test_pilot",
+   "name": "Goblin Test Pilot",
+   "oracle_id": "4760bb87-56e9-47eb-b5ec-6fa4dd19156e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12827,6 +14495,15 @@
    "type": "Card"
   },
   {
+   "id": "card:heart_of_kiran",
+   "name": "Heart of Kiran",
+   "oracle_id": "e2ee410f-2467-4f1f-84a0-8a79faedc0b3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:hedron_archive",
    "name": "Hedron Archive",
    "oracle_id": "32263baa-d3f0-463f-92b3-4e9938476add",
@@ -12866,11 +14543,56 @@
    "type": "Card"
   },
   {
+   "id": "card:homing_lightning",
+   "name": "Homing Lightning",
+   "oracle_id": "6e7f8e25-49a9-49a0-9bf4-129439344550",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hope_of_ghirapur",
+   "name": "Hope of Ghirapur",
+   "oracle_id": "1a20e805-c80b-4710-917b-706d29ec395e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:hour_of_devastation",
    "name": "Hour of Devastation",
    "oracle_id": "b9ea0d4c-cd71-4817-8213-96899e1a14bb",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:hungry_flames",
+   "name": "Hungry Flames",
+   "oracle_id": "a2c00788-14e7-4ab5-8c71-2a176621a177",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:illusionist_s_stratagem",
+   "name": "Illusionist's Stratagem",
+   "oracle_id": "1225bee2-c829-4a93-9f75-3495277c23bc",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:impeccable_timing",
+   "name": "Impeccable Timing",
+   "oracle_id": "102bbedf-9f84-433a-bd01-e1a4c05fbedb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12911,6 +14633,15 @@
    "type": "Card"
   },
   {
+   "id": "card:invigorated_rampage",
+   "name": "Invigorated Rampage",
+   "oracle_id": "d1a665f1-b06f-4775-bcb1-c57a476fa651",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:island",
    "name": "Island",
    "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
@@ -12943,6 +14674,15 @@
    "oracle_id": "8ed8e27b-2137-4e19-99bb-5e0d6d32e3af",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jace_s_sanctum",
+   "name": "Jace's Sanctum",
+   "oracle_id": "22d7048e-d538-4fd3-9fb3-2e99e74875fe",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13088,6 +14828,33 @@
    "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kambal_consul_of_allocation",
+   "name": "Kambal, Consul of Allocation",
+   "oracle_id": "4987c458-604a-4727-b360-170616e91e67",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kari_zev_s_expertise",
+   "name": "Kari Zev's Expertise",
+   "oracle_id": "e0de0121-6185-45c5-9d88-a415b07347e0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kari_zev_skyship_raider",
+   "name": "Kari Zev, Skyship Raider",
+   "oracle_id": "786baa29-afd4-40f0-95c8-920a972b9175",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13328,6 +15095,15 @@
    "type": "Card"
   },
   {
+   "id": "card:liliana_heretical_healer_liliana_defiant_necromancer",
+   "name": "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
+   "oracle_id": "b96a8ad2-3d86-459b-a34f-19c9dc07c3c4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:liliana_s_defeat",
    "name": "Liliana's Defeat",
    "oracle_id": "7c8b38b3-b808-4ad8-b4e5-39e216063ff6",
@@ -13365,12 +15141,30 @@
    "type": "Card"
   },
   {
+   "id": "card:live_fast",
+   "name": "Live Fast",
+   "oracle_id": "04d02394-e17f-43cd-932f-f58e8cc56629",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:looming_spires",
    "name": "Looming Spires",
    "oracle_id": "7d09b136-525f-49dd-a3a2-dfaca4e8e9a8",
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lost_legacy",
+   "name": "Lost Legacy",
+   "oracle_id": "532f3f03-37af-46b6-bafb-031e9a3df056",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13479,6 +15273,15 @@
    "id": "card:memorial_to_genius",
    "name": "Memorial to Genius",
    "oracle_id": "81763d7d-3897-4be9-bbf6-f6f5dee366ff",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:metallic_rebuke",
+   "name": "Metallic Rebuke",
+   "oracle_id": "c4920e95-a6fc-4373-a0d6-244f51851364",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -13826,6 +15629,15 @@
    "type": "Card"
   },
   {
+   "id": "card:nimbus_maze",
+   "name": "Nimbus Maze",
+   "oracle_id": "d7e1d4eb-1d4e-460e-9304-7db9ab50ccb5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:nissa_revane",
    "name": "Nissa Revane",
    "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
@@ -13844,11 +15656,38 @@
    "type": "Card"
   },
   {
+   "id": "card:nissa_vital_force",
+   "name": "Nissa, Vital Force",
+   "oracle_id": "31d4d8ce-36ba-4297-8c7a-34a83ba25255",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nissa_voice_of_zendikar",
+   "name": "Nissa, Voice of Zendikar",
+   "oracle_id": "b0f36bf7-bdde-4576-9eca-ec02d41326ab",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:no_escape",
    "name": "No Escape",
    "oracle_id": "7c6e0198-edd8-42b8-ba1b-549e1713d188",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oath_of_ajani",
+   "name": "Oath of Ajani",
+   "oracle_id": "1ec39c8f-eb1e-4881-a749-0c188788b612",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13902,9 +15741,36 @@
    "type": "Card"
   },
   {
+   "id": "card:oboro_palace_in_the_clouds",
+   "name": "Oboro, Palace in the Clouds",
+   "oracle_id": "645fb11b-d684-4bec-8532-8fa97e8f7b28",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:omniscience",
+   "name": "Omniscience",
+   "oracle_id": "730e39e6-c61d-48b5-8827-bfd952bf1be7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:opt",
    "name": "Opt",
    "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:oviya_pashiri_sage_lifecrafter",
+   "name": "Oviya Pashiri, Sage Lifecrafter",
+   "oracle_id": "41e03224-bcdd-4127-a19a-fe66196339b9",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -13928,6 +15794,24 @@
     "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:panharmonicon",
+   "name": "Panharmonicon",
+   "oracle_id": "76678885-3674-443d-b9a2-2a460cf6aac0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:paradoxical_outcome",
+   "name": "Paradoxical Outcome",
+   "oracle_id": "2cce7250-f8f9-4c0a-87b1-ba3c5b8ed6b3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13971,6 +15855,15 @@
    "type": "Card"
   },
   {
+   "id": "card:pia_nalaar",
+   "name": "Pia Nalaar",
+   "oracle_id": "715336f5-a708-488b-9f30-5702a9013af0",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:piru_the_volatile",
    "name": "Piru, the Volatile",
    "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
@@ -13985,6 +15878,15 @@
    "id": "card:plains",
    "name": "Plains",
    "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:planar_bridge",
+   "name": "Planar Bridge",
+   "oracle_id": "853c6cc0-ed2b-4d65-add1-2449ade8cf68",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -14037,6 +15939,15 @@
    "type": "Card"
   },
   {
+   "id": "card:quicksmith_spy",
+   "name": "Quicksmith Spy",
+   "oracle_id": "54250029-1bd7-4caf-a839-9497607ce725",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:radha_coalition_warlord",
    "name": "Radha, Coalition Warlord",
    "oracle_id": "fbf0bde7-cb13-402b-b3ab-81c787ce4827",
@@ -14083,11 +15994,29 @@
    "type": "Card"
   },
   {
+   "id": "card:rakdos_ringleader",
+   "name": "Rakdos Ringleader",
+   "oracle_id": "f8ce8573-7c87-4f47-a0d4-14bd335f2c1d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:rampant_growth",
    "name": "Rampant Growth",
    "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rashmi_eternities_crafter",
+   "name": "Rashmi, Eternities Crafter",
+   "oracle_id": "01a79429-7d57-4a51-9815-a20905ed4707",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -14098,6 +16027,15 @@
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:release_the_gremlins",
+   "name": "Release the Gremlins",
+   "oracle_id": "3b583358-d0d5-4f53-b06c-c6439156e684",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -14498,6 +16436,15 @@
    "oracle_id": "ee5a4902-f993-4fe6-92da-38636962c558",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:skysovereign_consul_flagship",
+   "name": "Skysovereign, Consul Flagship",
+   "oracle_id": "50b14338-9318-4327-a1dd-c0ef38903cc4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -14922,6 +16869,24 @@
    "type": "Card"
   },
   {
+   "id": "card:tezzeret_s_ambition",
+   "name": "Tezzeret's Ambition",
+   "oracle_id": "91486e70-94e4-431f-8899-fef019bb206e",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tezzeret_s_touch",
+   "name": "Tezzeret's Touch",
+   "oracle_id": "c6f2c767-3c8e-4113-b271-ea7c19583e6c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_brothers_war",
    "name": "The Brothers' War",
    "oracle_id": "43040c34-acad-4d62-893d-fd606fa9d8fe",
@@ -15086,6 +17051,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tranquil_expanse",
+   "name": "Tranquil Expanse",
+   "oracle_id": "a5478263-47c9-447f-9c7a-c77ce0752947",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -15392,6 +17366,15 @@
    "type": "Card"
   },
   {
+   "id": "card:vedalken_shackles",
+   "name": "Vedalken Shackles",
+   "oracle_id": "fddac567-c42c-453b-9c82-c3140b374a06",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:venser_corpse_puppet",
    "name": "Venser, Corpse Puppet",
    "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
@@ -15611,6 +17594,15 @@
    "type": "Card"
   },
   {
+   "id": "card:whirlermaker",
+   "name": "Whirlermaker",
+   "oracle_id": "bdf28770-0962-4317-822f-c187bc6706d1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:whisper_blood_liturgist",
    "name": "Whisper, Blood Liturgist",
    "oracle_id": "496ab82e-24a9-4a74-ba4b-992c7309b44a",
@@ -15625,6 +17617,15 @@
    "oracle_id": "afeb9de8-7030-4797-a9c8-5a99de3c410f",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:workshop_assistant",
+   "name": "Workshop Assistant",
+   "oracle_id": "319ee221-bace-41e9-b386-6b528bd780c1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -15745,7 +17746,8 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15794,7 +17796,8 @@
    "name": "Chandra Nalaar",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15832,6 +17835,22 @@
    "type": "Character"
   },
   {
+   "id": "character:dhiren_baral",
+   "name": "Dhiren Baral",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:dovin_baan",
+   "name": "Dovin Baan",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:elesh_norn",
    "name": "Elesh Norn",
    "origins": [
@@ -15848,6 +17867,14 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:emrakul",
+   "name": "Emrakul",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15897,7 +17924,8 @@
    "name": "Jace Beleren",
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15951,6 +17979,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kari_zev",
+   "name": "Kari Zev",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:karn",
    "name": "Karn",
    "origins": [
@@ -15979,6 +18015,14 @@
    "type": "Character"
   },
   {
+   "id": "character:kiran_nalaar",
+   "name": "Kiran Nalaar",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:koth",
    "name": "Koth",
    "origins": [
@@ -16000,7 +18044,8 @@
    "name": "Liliana Vess",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16087,7 +18132,8 @@
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16097,7 +18143,8 @@
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16106,6 +18153,14 @@
    "name": "Palladia-Mors",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:pia_nalaar",
+   "name": "Pia Nalaar",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16136,6 +18191,14 @@
    "type": "Character"
   },
   {
+   "id": "character:rashmi",
+   "name": "Rashmi",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:raven_man",
    "name": "The Raven Man",
    "origins": [
@@ -16155,7 +18218,8 @@
    "id": "character:saheeli",
    "name": "Saheeli",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16234,6 +18298,14 @@
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tezzeret",
+   "name": "Tezzeret",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16739,6 +18811,175 @@
    ],
    "predicate": "captioned_at_location",
    "stage": "ugin_grave_site",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER001",
+   "name": "Consulate enforcers take the Inventors' Fair winners, Rashmi among them, to the Spire Inquirium.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "abducted",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER002",
+   "name": "Tezzeret installs himself as Grand Consul of the Consulate.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "seized_control_of",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER003",
+   "name": "The Planar Bridge is the Planeswalkers' name for Rashmi's matter transporter.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "invented",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER004",
+   "name": "Kiran Nalaar designed the skyship later launched as Heart of Kiran.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "designed",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER005",
+   "name": "After the renegades lose the Aether Hub, the Gatewatch and allies escape on Heart of Kiran.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "escaped_aboard",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER006",
+   "name": "Jace accompanies the sky pirate Kari Zev on her raid on Consulate ships.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:AER007",
+   "limitation": "Gideon's in-scene attribution of Skysovereign's fall to Jace and Kari Zev; the quote does not narrate how the ship was brought down.",
+   "name": "Skysovereign falls and the blockade breaks; Gideon credits Jace and Kari Zev.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "brought_down",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:AER008",
+   "limitation": "Established by Liliana's realisation and Tezzeret's sarcastic non-denial, not by narration of the arrangement.",
+   "name": "Liliana realises Tezzeret is on Kaladesh for Nicol Bolas; he sneers rather than denying it.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "agent_of",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER009",
+   "name": "Liliana goes after Tezzeret directly during the revolution.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER010",
+   "name": "Recap: Tezzeret is defeated and the Planar Bridge lies in pieces.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "defeated_in",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER011",
+   "name": "Dovin Baan disappears after the revolution.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "disappeared_after",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER012",
+   "name": "Rashmi swears to Saheeli Rai that the Planar Bridge will not be rebuilt.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "swore_to",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:AER013",
+   "name": "Ajani accepts the invitation and swears his oath to the Gatewatch.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "joined",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:AER014",
+   "limitation": "The refusal is shown through dialogue and action; 'refused_to_kill' is a modelling label, not a quoted phrase.",
+   "name": "Baral, imprisoned, goads Chandra to kill him; she refuses and she and Pia leave him in his cell.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "refused_to_kill",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:AER015",
+   "limitation": "Liliana's in-character report; her 'he created it' is explicitly hedged ('As far as I know') and is not modelled as a claim.",
+   "name": "Liliana tells the Gatewatch that Bolas completely controls Amonkhet.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "controls",
+   "stage": "pre_amonkhet_2017",
    "type": "Claim"
   },
   {
@@ -17269,6 +19510,116 @@
    ],
    "predicate": "sought_leader_like",
    "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD001",
+   "name": "Recap: with Tamiyo's aid, the five Gatewatch members defeated Emrakul and sealed her in Innistrad's silver moon.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "sealed",
+   "stage": "soi_emn_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD002",
+   "name": "Chandra returns to her home plane of Kaladesh without consulting the rest of the Gatewatch.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "returned_to",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD003",
+   "name": "Chandra's spark ignited as Baral was about to kill her, and she planeswalked to the fire monasteries of Regatha.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "first_planeswalked_to",
+   "stage": "chandra_origin",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD004",
+   "name": "Pia Nalaar, Chandra's mother, is alive; Chandra had thought her dead for years.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "mother_of",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD005",
+   "name": "Baral, who runs the Dhund, hunted the young Chandra and killed her father, Kiran Nalaar.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "chandra_origin",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD006",
+   "name": "The Consulate arrests Pia Nalaar on Tezzeret's command.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "ordered_arrest_of",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD007",
+   "name": "Pia Nalaar is a leader of the renegade movement.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD008",
+   "name": "Ajani's arrival saves Chandra and Nissa from a deadly trap in a Consulate prison.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "rescued",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD009",
+   "name": "The Gatewatch interrupt Tezzeret's public contest and free Pia Nalaar.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "freed",
+   "stage": "kaladesh_revolt_2016",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:KLD010",
+   "name": "Planeswalker's Guide: Kaladesh's bright existence depends on visible, tangible aether.",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "predicate": "sustains",
+   "stage": "setting",
    "type": "Claim"
   },
   {
@@ -18365,6 +20716,14 @@
    "type": "Claim"
   },
   {
+   "id": "concept:aether_kaladesh",
+   "name": "Aether (Kaladesh)",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:compleation",
    "name": "Phyrexian compleation",
    "origins": [
@@ -18439,6 +20798,14 @@
   {
    "id": "curated:Characters Index.md#dakkon-blackblade",
    "name": "Characters Index.md#dakkon-blackblade",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#dovin-baan",
+   "name": "Characters Index.md#dovin-baan",
    "origins": [
     "lore_graph.json"
    ],
@@ -18621,6 +20988,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#tezzeret",
+   "name": "Characters Index.md#tezzeret",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#tibalt",
    "name": "Characters Index.md#tibalt",
    "origins": [
@@ -18701,6 +21076,22 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Items & Artifacts Index.md#planar-bridge",
+   "name": "Items & Artifacts Index.md#planar-bridge",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#amonkhet",
+   "name": "Planes Index.md#amonkhet",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#ikoria",
    "name": "Planes Index.md#ikoria",
    "origins": [
@@ -18711,6 +21102,14 @@
   {
    "id": "curated:Planes Index.md#new-capenna",
    "name": "Planes Index.md#new-capenna",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#regatha",
+   "name": "Planes Index.md#regatha",
    "origins": [
     "lore_graph.json"
    ],
@@ -18735,6 +21134,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#chandra-nalaar",
    "name": "Planeswalker Dossiers.md#chandra-nalaar",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#dovin-baan",
+   "name": "Planeswalker Dossiers.md#dovin-baan",
    "origins": [
     "lore_graph.json"
    ],
@@ -18861,6 +21268,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#tezzeret",
+   "name": "Planeswalker Dossiers.md#tezzeret",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#ugin",
    "name": "Planeswalker Dossiers.md#ugin",
    "origins": [
@@ -18972,6 +21387,14 @@
    "type": "Event"
   },
   {
+   "id": "event:ghirapur_revolution",
+   "name": "Renegade revolution in Ghirapur",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:ice_age",
    "name": "Dominarian Ice Age",
    "origins": [
@@ -19052,10 +21475,19 @@
    "type": "Faction"
   },
   {
+   "id": "faction:consulate",
+   "name": "Consulate of Kaladesh",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:gatewatch",
    "name": "The Gatewatch",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -19064,6 +21496,14 @@
    "name": "House Capashen",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:renegades_kaladesh",
+   "name": "Renegades of Kaladesh",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -19229,6 +21669,14 @@
    "type": "Place"
   },
   {
+   "id": "place:innistrad_silver_moon",
+   "name": "Innistrad's silver moon",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:seedcore",
    "name": "The Seedcore (New Phyrexia)",
    "origins": [
@@ -19241,6 +21689,14 @@
    "name": "Shiv",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:spire_inquirium",
+   "name": "Spire Inquirium",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -19270,6 +21726,14 @@
    "type": "Place"
   },
   {
+   "id": "plane:amonkhet",
+   "name": "Amonkhet",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:dominaria",
    "name": "Dominaria",
    "origins": [
@@ -19285,6 +21749,14 @@
    "name": "Ikoria",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:kaladesh",
+   "name": "Kaladesh",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -19341,6 +21813,14 @@
    "type": "Plane"
   },
   {
+   "id": "plane:regatha",
+   "name": "Regatha",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:serras_realm",
    "name": "Serra's Realm",
    "origins": [
@@ -19373,6 +21853,72 @@
     "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Plane"
+  },
+  {
+   "id": "source:aer_breaking",
+   "kind": "official_story_episode",
+   "name": "Breaking Points",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18"
+  },
+  {
+   "id": "source:aer_breakthrough",
+   "kind": "official_story_episode",
+   "name": "Breakthrough",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14"
+  },
+  {
+   "id": "source:aer_puppets",
+   "kind": "official_story_episode",
+   "name": "Puppets",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25"
+  },
+  {
+   "id": "source:aer_renewal",
+   "kind": "official_story_episode",
+   "name": "Renewal",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01"
+  },
+  {
+   "id": "source:aer_revolution",
+   "kind": "official_story_episode",
+   "name": "Revolution Begins",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02"
+  },
+  {
+   "id": "source:aer_skies",
+   "kind": "official_story_episode",
+   "name": "The Skies over Ghirapur",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11"
   },
   {
    "id": "source:blood_fire",
@@ -19642,6 +22188,94 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10"
+  },
+  {
+   "id": "source:kld_bottled",
+   "kind": "official_story_episode",
+   "name": "Bottled Up",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28"
+  },
+  {
+   "id": "source:kld_grateful",
+   "kind": "official_story_episode",
+   "name": "A Grateful Consulate",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19"
+  },
+  {
+   "id": "source:kld_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Kaladesh",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02"
+  },
+  {
+   "id": "source:kld_homesick",
+   "kind": "official_story_episode",
+   "name": "Homesick",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29"
+  },
+  {
+   "id": "source:kld_release",
+   "kind": "official_story_episode",
+   "name": "Release",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/release-2016-10-05"
+  },
+  {
+   "id": "source:kld_renegade_prime",
+   "kind": "official_story_episode",
+   "name": "Renegade Prime",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14"
+  },
+  {
+   "id": "source:kld_torch",
+   "kind": "official_story_episode",
+   "name": "Torch of Defiance",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07"
+  },
+  {
+   "id": "source:kld_very_arena",
+   "kind": "official_story_episode",
+   "name": "In This Very Arena",
+   "origins": [
+    "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12"
   },
   {
    "id": "source:lithomancer",
@@ -20180,37 +22814,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 190,
+  "claim_edges_with_era": 218,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 151,
+   "CANON_CONFIRMED": 172,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 12,
+   "CANON_IMPLIED": 16,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 58,
-  "edges": 1444,
+  "curated_bridges": 65,
+  "edges": 1625,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 456,
+   "Card": 516,
    "CardTheme": 1,
-   "Character": 70,
-   "Claim": 173,
-   "Concept": 65,
+   "Character": 78,
+   "Claim": 198,
+   "Concept": 73,
    "DeckProposal": 3,
-   "Event": 14,
-   "Faction": 4,
+   "Event": 15,
+   "Faction": 6,
    "Literal": 14,
-   "Object": 13,
-   "Place": 11,
-   "Plane": 12,
-   "Source": 74
+   "Object": 16,
+   "Place": 13,
+   "Plane": 15,
+   "Source": 88
   },
-  "nodes": 911,
+  "nodes": 1037,
   "non_wizards_sources": 0,
-  "relations": 154,
-  "wizards_official_sources": 74
+  "relations": 174,
+  "wizards_official_sources": 88
  }
 }
