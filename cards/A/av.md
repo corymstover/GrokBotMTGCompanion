@@ -155,7 +155,7 @@ schema: 2
 - **Keywords:** Flying, Lifelink, Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Lore:** ✅ Named verbatim in official story text on [Planeswalker's Guide to Avacyn Restored: Part 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1) (the full card name appears in the page prose; a mention, not a claim about this printing's art) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
 - **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08a/avacyn-and-griselbrand) · oracle_id `9fddede8-927c-4dbc-a0fe-d47194c55e1a` · printing: UNK #RZ08a (2023-05-06) · [rulings](https://api.scryfall.com/cards/498a63d5-4f35-4d69-bca0-f24aaf1d581d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

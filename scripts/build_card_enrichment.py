@@ -267,16 +267,15 @@ def atlas_captions():
     return out
 
 
-def merged_captions(caps, extra):
-    out = defaultdict(list, {k: list(v) for k, v in caps.items()})
-    for k, v in extra.items():
-        for x in v:
-            if not any(y[1].rstrip("/") == x[1].rstrip("/") and y[2] == x[2] for y in out[k]):
-                out[k].append(x)
-    return out
+ATLAS_CAPS = {}
 
 
 _PROSE = None
+# Reviewed false positives (batch 4): the phrase on the page is not the card's subject.
+NAMED_ON_REJECT = frozenset({
+    "The Thing",       # "The Thing had spoken to her" (an unnamed entity in a Sorin story), not the Marvel card
+    "Dungeon Master",  # "the Dungeon Master's Guide" (a D&D book) in an author bio
+})
 # Story text only: Magic Story episodes, the /en/story archive and Planeswalker's Guides (no announcements or rules articles).
 STORY_URL = re.compile(r"https://magic\.wizards\.com/en/(?:news/magic-story/|story/|news/[\w-]+/[\w-]*planeswalkers?-guide)")
 
@@ -307,7 +306,7 @@ def named_on(card_name):
     This is evidence that official story text names the card's subject. It is not a claim that this printing's art
     depicts the scene."""
     fr = front(card_name).replace("\u2019", "'")
-    if len(fr.split()) < 2:
+    if len(fr.split()) < 2 or fr in NAMED_ON_REJECT:
         return []
     pat = None
     out = []
@@ -697,6 +696,12 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
     for t, u, a in caps.get(cn, []):
         if a in p.get("artists", set()) and u not in [x[1] for x in art]:
             art.append([t, u])
+    if not art:
+        # batch 4: the Phase 1B caption atlas, only when the CSV gives the card no art evidence (keeps earlier lines)
+        an = c["name"] if c["name"] in ATLAS_CAPS else front(c["name"])
+        for t, u, a in ATLAS_CAPS.get(an, []):
+            if a in p.get("artists", set()) and u not in [x[1] for x in art]:
+                art.append([t, u])
     sec = afs.get(k)
     named = []
     if not (rel or p["spotlight"] or flav or art or presented_on(c["name"], norm) or c["name"] in notes):
@@ -828,7 +833,8 @@ def build(fetch=False, expand_auto=False, explicit_batch=None):
     cc, keys = charcard_links()
     prints = load_printings()
     caps = art_captions()
-    lcaps = merged_captions(caps, atlas_captions())  # lore evidence only; tiers keep the CSV captions
+    global ATLAS_CAPS
+    ATLAS_CAPS = atlas_captions()  # lore fallback only; tiers and name-match audits keep the CSV captions
     afs = art_flavor_sections()
     prev = json.loads(OUT.read_text(encoding="utf-8")).get("cards", {}) if OUT.exists() else {}
     # Once the stored baseline exists, changing EDHREC ranks or newly fetched
@@ -862,7 +868,7 @@ def build(fetch=False, expand_auto=False, explicit_batch=None):
                              allow_automatic_new=allow_auto, explicit_batch=explicit_batch)
         if batch is None:
             continue
-        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, lcaps, afs, prev.get(r["oracle_id"], {}).get("lore"))
+        lore = lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev.get(r["oracle_id"], {}).get("lore"))
         syn = synergy_for(c, decks, pkgmatch, False, prev.get(r["oracle_id"], {}).get("synergy"))
         cards[r["oracle_id"]] = {"name": r["name"], "shard": r["shard"], "anchor": r["anchor"], "batch": batch,
                                  "type": type_group(c), "tiers": sorted(tiers.get(r["oracle_id"], set())),

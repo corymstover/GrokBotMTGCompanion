@@ -30,6 +30,7 @@ schema: 2
 | **Depicts** | the lore entry's own text links this card, and the card is that character or item (its name contains the entry's name) | official URLs on the entry line that links the card; *via entry* = the entry's own citations when that line has none |
 | **Featured in** | the entry's text links the card in another context: a plane's notable cards, an arc beat, a retcon | same |
 | ✅ **Story Spotlight** | a printing Wizards marked as depicting a story moment (Scryfall `story_spotlight`) | Scryfall default-cards bulk |
+| ✅ **Named verbatim in official story text on** | only for a card with no other lore evidence: its full front-face name (two words or more) appears case-sensitively in the prose of a cached Magic Story episode or Planeswalker's Guide (art captions excluded). A mention, not a claim about the printing's art | `.cache/story/` (Wizards pages) |
 | ✅ **Flavor text verbatim on** | a printed flavor text that appears word for word on a cached official page | `.cache/story/` (Wizards pages) |
 | ✅ **Presented with an official backstory on** / **Listed on** | the card's (front-face) name is a heading line on an official *Legends of …* article (each legend with its backstory) or a *Story Spotlight Cards* preview article (Bot cycle 36) | `data/story_extra_sources.csv` → `.cache/story/extra/` (Wizards pages) |
 | *Depicts / References / Echoes:* note | curated note (`data/card_lore_notes.json`). *Echoes* = the card's mechanics mirror a cited story moment (guidance) | official sources listed in the note |
@@ -100,8 +101,9 @@ Every enriched card, by type and batch. The full per-card record is `data/card_e
 | featured | 110 |
 | name match only | 199 |
 | Story Spotlight | 385 |
-| art on an official page | 1,088 |
+| art on an official page | 1,112 |
 | flavor text on an official page | 21 |
+| named in official story text | 123 |
 | curated note | 40 |
 | 🚫 Universes Beyond | 807 |
 | in a KB deck | 815 |
