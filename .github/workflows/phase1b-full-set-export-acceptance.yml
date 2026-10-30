@@ -1,0 +1,39 @@
+name: Phase 1B all-set export and bidirectional index acceptance
+
+on:
+  push:
+    paths:
+      - 'scripts/historical_set_lookup.py'
+      - 'scripts/export_phase1b_set_cards.py'
+      - 'scripts/audit_phase1b_export_acceptance.py'
+      - 'data/set_atlas/phase1b_export_acceptance_2026-10-29.json'
+      - 'tests/test_phase1b_export_acceptance.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-full-set-export-acceptance.yml'
+  pull_request:
+    paths:
+      - 'scripts/historical_set_lookup.py'
+      - 'scripts/export_phase1b_set_cards.py'
+      - 'scripts/audit_phase1b_export_acceptance.py'
+      - 'data/set_atlas/phase1b_export_acceptance_2026-10-29.json'
+      - 'tests/test_phase1b_export_acceptance.py'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - 'SET_ATLAS.md'
+      - '.github/workflows/phase1b-full-set-export-acceptance.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproduce all 1062 set exports and all card-to-set joins
+        run: python3 scripts/audit_phase1b_export_acceptance.py
+      - name: Test exact CSV and JSON export/filter behavior
+        run: python3 -m unittest discover -s tests -p 'test_phase1b_export_acceptance.py' -v
+      - name: Preserve prior fast-track released count parity
+        run: python3 scripts/audit_phase1b_fasttrack.py

@@ -296,6 +296,29 @@ An [independent deterministic read-only readiness report](data/set_atlas/phase1b
 
 **Unverified boundary:** This is an aggregate/per-set count comparison, **not proof of exact printing-ID equality** or a new cryptographic verification of both original bulk files. The source artifacts' previous verification remains documented; current exact-ID parity needs a separate test if required for stronger certification. Remaining fast-track gates are full 1,062-code query/export acceptance, clearly qualified mainline versus supplemental release counts, cross-references to lore only where sourced, and final CI/release evidence. Do not mark the whole Phase 1B complete before those gates pass.
 
+### All-1,062-set card-list export acceptance (Master Workflow v2.20)
+
+All **1,062 set codes** in the committed October 28 historical indexes have now passed offline, full set-to-printings and set-to-unique-card export checks. A separate reverse join verifies all **119,509 printing IDs** across the set and card-history indexes, encompassing **39,099 stable Oracle identities**. By the October 29, 2026 cutoff, the default filter exports **106,855 released English-paper printing rows**. Exactly **105** historical set codes correctly produce an empty default printing list, because some records are future-dated, digital-only, localized, or otherwise excluded by the default eligibility filter. An empty default list **does not** mean that the set code is missing.
+
+From the repository checkout, with no internet request or fresh Scryfall download:
+
+```bash
+# Every printing of an Alpha card within LEA, in CSV form
+python3 scripts/export_phase1b_set_cards.py lea --mode printings --format csv
+# Each distinct Oracle card identity in Alpha, with debut/reprint classification
+python3 scripts/export_phase1b_set_cards.py lea --mode unique --format json
+# A Commander release, written to a caller-chosen output file
+python3 scripts/export_phase1b_set_cards.py c21 --mode unique --output c21-cards.csv
+# Include products normally excluded by the release/language/medium cutoff
+python3 scripts/export_phase1b_set_cards.py trk --include-future
+python3 scripts/export_phase1b_set_cards.py ydmu --include-digital
+python3 scripts/export_phase1b_set_cards.py fbb --include-foreign
+```
+
+Defaults: English-language paper printings released **on or before 2026-10-29**; `--as-of YYYY-MM-DD` changes the cutoff, and `--include-future`, `--include-digital`, `--include-foreign` explicitly expand scope. `--mode printings` exports all selected printing IDs, while `--mode unique` deduplicates selected printings by their stable Oracle identity (or an explicitly unresolved identity where applicable). Both formats retain the set code; debut versus reprint classifications use the historical index's chronology, not story chronology. The exporter does **not** claim an exact-ID match against October 29's separately archived, later bulk snapshot: that cross-snapshot boundary remains open even though released per-set printing counts agree.
+
+Reproduce the [1,062-code export acceptance report](data/set_atlas/phase1b_export_acceptance_2026-10-29.json) with `python3 scripts/audit_phase1b_export_acceptance.py`; focused CI and unit tests verify edge cases as well as full enumeration. The **555 outstanding source-pending promo/other-family research entries** remain a separate optional source-depth queue, not a release blocker or verified primary-source product inventory. Phase 1B still needs the category-labeled release interpretation, limited sourced lore references and final release gate.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
@@ -307,6 +330,7 @@ python3 scripts/set_product_lookup.py --parent dmu --all
 python3 scripts/set_product_lookup.py --name Commander --all
 python3 scripts/historical_set_lookup.py set lea --all
 python3 scripts/historical_set_lookup.py card "Black Lotus" --all
+python3 scripts/export_phase1b_set_cards.py lea --mode unique --format csv
 ```
 
 The last two commands read the [32 historical GitHub-readable index shards](data/set_atlas) from the **October 28 committed shard collection**, not the October 29 bulk. See the [historical 105-shard audit](data/set_atlas/historical_shard_audit_2026-10-29.json) for exact hashes and counts. Keep dates and denominators separate.
