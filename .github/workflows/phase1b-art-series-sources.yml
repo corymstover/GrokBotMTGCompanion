@@ -1,0 +1,33 @@
+name: Phase 1B Art Series collectible component provenance
+
+on:
+  push:
+    paths:
+      - 'data/set_atlas/art_series_primary_*'
+      - 'scripts/audit_art_series_primary_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_art_series_primary_sources.py'
+      - '.github/workflows/phase1b-art-series-sources.yml'
+  pull_request:
+    paths:
+      - 'data/set_atlas/art_series_primary_*'
+      - 'scripts/audit_art_series_primary_sources.py'
+      - 'scripts/product_family_lookup.py'
+      - 'tests/test_art_series_primary_sources.py'
+      - '.github/workflows/phase1b-art-series-sources.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify deterministic first-party citations for 38 art inserts
+        run: python3 scripts/audit_art_series_primary_sources.py
+      - name: Regression-test all prior product-family source batches
+        run: python3 -m unittest discover -s tests -p 'test_*sources.py' -v
+      - name: Verify cumulative offline lookup
+        run: python3 scripts/product_family_lookup.py --summary

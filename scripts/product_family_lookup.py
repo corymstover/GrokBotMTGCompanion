@@ -30,6 +30,7 @@ MASTERPIECE_MEMORABILIA_SOURCE_REVIEW = ROOT / "data/set_atlas/masterpiece_memor
 HISTORICAL_PROMO_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/historical_promo_series_source_audit_2026-10-29.json"
 APAC_LUNAR_YEAR_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/apac_lunar_year_promos_source_audit_2026-10-29.json"
 EVENT_COLLAB_PROMOS_SOURCE_REVIEW = ROOT / "data/set_atlas/event_collab_promos_source_audit_2026-10-29.json"
+ART_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/art_series_primary_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -823,6 +824,63 @@ def apply_event_collab_promos_overlay(data, review):
     return result
 
 
+def apply_art_series_source_overlay(data, review):
+    """Cite collectible art-card families, preserving Scryfall metadata and legality boundaries."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 221:
+        raise ValueError("Art-series overlay requires the 221-reviewed event checkpoint")
+    updates = {r["code"]: r for r in review["reviewed_art_series_families"]}
+    if len(updates) != review["new_source_backed_codes"] or len(updates) != 38:
+        raise ValueError("Art-series source overlay duplicate/missing records")
+    patched, rows = set(), []
+    for original in data["all_848_released_nondigital_other_type_records"]:
+        item = dict(original)
+        source = updates.get(item["code"])
+        if source is not None:
+            if item["wizards_individual_source_review"]:
+                raise ValueError(f"Cannot overwrite previously reviewed art-series record {item['code']}")
+            if (item["scryfall_set_type"] != source["scryfall_type"] or
+                    item["scryfall_release_or_first_card_date"] != source["scryfall_earliest_card_date"] or
+                    item["parent_set_code_explicit_only"] != source["scryfall_parent_set_code_explicit_only_unchanged"] or
+                    source["wizards_prints_exact_scryfall_art_series_code"] or
+                    source["standalone_premier_expansion_certified"] or
+                    source["individual_art_printing_inventory_certified"] or
+                    source["new_playable_card_debut_count_certified"] or
+                    source["current_format_legality_certified"]):
+                raise ValueError(f"Art-series metadata or certification drift: {item['code']}")
+            item.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_named_art_series_component_source_reviewed",
+                "wizards_primary_source": source["official_source_url"],
+                "wizards_review_product_group": source["officially_named_product_family"],
+                "wizards_source_grade": source["source_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "verified_evidence_note": source["source_note"],
+                "wizards_premier_status_certified": False,
+                "complete_printing_inventory_certified": False,
+                "current_format_legality_certified": False,
+            })
+            patched.add(item["code"])
+        rows.append(item)
+    if patched != set(updates) or len(rows) != 848:
+        raise ValueError("Art-series source overlay failed 848-code conservation")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [item for item in rows if item["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(item["wizards_individual_source_review"]) for item in members),
+            "needs_individual_review": sum(not item["wizards_individual_source_review"] for item in members),
+            "explicit_parent_links": sum(bool(item["parent_set_code_explicit_only"]) for item in members),
+        }
+    if sum(bool(item["wizards_individual_source_review"]) for item in rows) != 259:
+        raise ValueError("259 cumulative first-party named-family reviews not conserved")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -870,6 +928,9 @@ def load_current_index():
     if EVENT_COLLAB_PROMOS_SOURCE_REVIEW.exists():
         report = json.loads(EVENT_COLLAB_PROMOS_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_event_collab_promos_overlay(data, report)
+    if ART_SERIES_SOURCE_REVIEW.exists():
+        report = json.loads(ART_SERIES_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_art_series_source_overlay(data, report)
     return data
 
 
