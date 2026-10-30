@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.26
+**Version:** 2.27
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -27,6 +27,7 @@ Develop a comprehensive, evidence-backed Magic: The Gathering companion spanning
 | Elder Dragon War Pack A2 extension | **12 additional source-graded claims; 10 new entities; 8 verified official URLs; 9 name-to-historical-printing joins** | Independently adds Piru and Chromium as survivors, records Bolas's incomplete account, differentiates later Dihada/Dakkon/Piru events, traces Crosis and Rith lineages. **Names and printing IDs do not certify art depicting battle scenes or a new legal EDH deck.** |
 | Tarkir story/card Pack A3 | **8 further claims; 7 entities; 6 Wizards sources; 6 graded card-art contexts** | `Crux of Fate` independently anchored by an official illustrated duel scene; five other printed card names graded as time-travel device, tomb location or character art. Six Oracle IDs/English-paper printing joins confirmed; **exact art-variant printing match and current Commander legality not claimed.** |
 | Tarkir exact printing art Pack A4 | **6 visually compared official-story/printing art pairs; 20 same-illustration printing IDs** | Six Wizards image crops independently compared with exact Scryfall printing IDs/artist/illustration UUIDs. `frf/1` Raymond Swanland Ugin—not earlier `ugin/1` Chris Rahn promo—is the actual duel-story picture. All six cards Commander-legal on 2026-10-30 Scryfall API; **not a complete deck or live CI image classifier**. See [Pack A4](research/PACK_A4_Exact_Tarkir_Story_Illustrations_and_Deck_Pilot.md). |
+| Phase 6 Pilot 1 (Ugin & Bolas duality) | **Complete 100-card proposal, UNAPPROVED; CI-verified** | [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823): Nicol Bolas, the Ravager commander, with three Ugin planeswalkers in the 99. Planner validation passed against the Oct 29 modern snapshot (UBR, 100 cards, 35 lands, 0 hard issues); `evaluate_decklist` hard checks PASS, 1 Game Changer, bracket 3. Tiers: 6 direct / 54 canon reference / 8 lore-inspired / 15 mechanical, plus 17 basics. **Awaiting Cory's approval; not locked or certified.** See [Pilot 1](research/PHASE6_PILOT1_Ugin_Bolas_Elder_Dragon_Duality.md). |
 | Priority card enrichment | **3,409 / 5,362 (63.6%)** | **1,953 remaining** on the verified October 29 priority-pool definition; twelve reviewed *Reality Fracture* records added without changing any of the earlier 3,397. |
 | Official Wizards story inventory | **660/660 recovered and strictly audited** | Hash/URL provenance committed; full article text was cached outside Git and must be refetched/audited in a new environment. |
 | Uncertain character links | **341 name-only links triaged** | Two official-page leads warrant review; triage is not canon approval. |
@@ -240,7 +241,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 - [ ] Support optional set/era/first-printed-in restrictions using verified Phase 1B data without confusing reprints with original debuts.
 - [ ] Verify each final 100-card list, singleton restrictions, relevant rules/combinations, legality and current bracket.
 - [ ] Provide three Archidekt tags and one clean commander-first `1x Name` import list.
-- [ ] Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**.
+- [ ] Pilot 1: **Ugin & Nicol Bolas — Elder Dragon Duality**. Owner approval is pending, so the box stays unchecked until Cory approves.
+  - [x] Complete, verified 100-card proposal (2026-10-30, [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823)). Every card is graded, and three Archidekt tags plus a commander-first import list are provided. A scripted builder (`scripts/build_ugin_bolas_duality_pilot.py`) reads printings from `snap-20261029-40848334824-1`, never from the Grixis lock. The offline audit and tests run in `phase6-pilot1-ugin-bolas-duality.yml`. Status: **UNAPPROVED**.
 - [ ] Pilot 2: **Original Primeval Dragons**.
 - [ ] Pilot 3: **Ugin's Allies and Heroes**.
 - [ ] Preserve the original approved 62 decks; a new pilot never overwrites them.
@@ -273,7 +275,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 4. **Close meaningful lore gaps:** review the **341** uncertain links and the **~1,220** cards with no identified lore connection while preserving unsupported entries as unknowns.
 5. **Build the relationship layer:** use and extend current schemas for claim provenance, card depictions, people, events and planes.
 6. **Advance research Pack A:** A1/A2/A3 preserve **32 graded claims**, Elder Dragon War family links, nine general historical card names and six tiered illustrated Tarkir story contexts. **A4 directly compared all six official story images to six specific Scryfall printing art crops**; 20 distinct printing IDs share those illustration UUIDs. The story-art Ugin printing is `frf/1`, **not** the earlier `ugin/1` promo with different art. The six cards were Commander-legal on the 2026-10-30 API check, but a complete 100-card deck has **not** been built or approved. Next assemble/verify the independent lore-first candidate pool and first complete pilot; preserve the existing Deck #9 proposal and all 62 Grixis locks. Pack A's full ancient genealogy remains incomplete.
-7. **Demonstrate the deckbuilder:** build the first evidence-backed lore-first Commander list from the research pack.
+7. **Deckbuilder demonstrated (Pilot 1 proposal, UNAPPROVED):** [PR #823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823) is waiting for Cory's review. Next, generalize the pilot builder and audit into a spec-driven tool so Pilots 2–3 (Original Primeval Dragons; Ugin's Allies and Heroes) reuse them. Then close the Pack A genealogy gaps and start Packs B and C.
 8. Expand the timeline, other packs, and everyday MTG question-answering capabilities in subsequent focused milestones.
 
 ## Rules for every future work session
