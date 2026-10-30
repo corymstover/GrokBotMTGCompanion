@@ -1,0 +1,31 @@
+# applied once: STX remaining 6 pages
+from patch_spec import patch
+C,I="CANON_CONFIRMED","CANON_IMPLIED"
+patch("stx.py",
+ pages={"stx_ribbons":"blue-green-ribbons-2021-04-23","stx_chains":"chains-bind-2021-04-09","stx_cry":"cry-magic-2021-03-26",
+        "stx_ep3":"episode-3-extracurriculars-2021-04-07","stx_mentor":"mentor-2021-04-16","stx_silent":"silent-voice-calls-2021-04-30"},
+ ents=[("zimone","Character","Zimone"),("amaka","Character","Amaka"),("dina","Character","Dina"),("lisette","Character","Lisette"),
+       ("uvilda","Character","Uvilda"),("prismari_college","Faction","Prismari College"),("kasmina","Character","Kasmina"),
+       ("quintorius","Character","Quintorius"),("lorehold_college","Faction","Lorehold College"),("killian_lu","Character","Killian Lu"),
+       ("embrose_lu","Character","Embrose Lu"),("fannessa","Character","Fannessa"),("silverquill_college","Faction","Silverquill College")],
+ claims=[
+ ("SX012","zimone","friend_of","amaka",C,[("stx_ribbons","On the third call, Zimone looks up to see her friends, Amaka and Nnanyielugo, waving at her")],
+  "Amaka (with Nnanyielugo) is Zimone's friend."),
+ ("SX013","lisette","mentored","dina",I,[("stx_chains","Alongside Lisette, she'd attended to bedridden students as part of her lessons on advanced healing.")],
+  "Dina learned advanced healing alongside Lisette.",
+  "'She' is Dina by point-of-view; 'mentored' is an editorial reading of lessons alongside Lisette."),
+ ("SX014","uvilda","leader_of","prismari_college",I,[("stx_cry","If I bring something pretty to Dean Uvilda I know exactly what she'll say."),("stx_cry","I want to enable you to do the best work you can here at Prismari College.")],
+  "Uvilda is a dean at Prismari College.",
+  "Dean is not the sole leader; the page names Uvilda a dean and is set at Prismari, without one sentence joining them."),
+ ("SX015","kasmina","fought","lukka",C,[("stx_ep3","Kasmina sent a scythe of pressurized air straight at Lukka's chest.")],
+  "Kasmina fights Lukka with wind magic."),
+ ("SX016","quintorius","member_of","lorehold_college",C,[("stx_silent","From the darkness of the archway appeared the lumbering body of Quintorius, a student of Lorehold."),("stx_mentor","he rushed to Effigy Row—arguably the most important section of Lorehold College")],
+  "Quintorius is a Lorehold student."),
+ ("SX017","embrose_lu","parent_of","killian_lu",C,[("stx_silent","the son of the great Dean Embrose Lu")],
+  "Killian is the son of Dean Embrose Lu."),
+ ("SX018","fannessa","member_of","oriq",C,[("stx_silent","Fannessa too became engulfed in purple flames that burned her Silverquill robes away, revealing jagged, gray Oriq armor underneath.")],
+  "Fannessa is revealed as an Oriq agent under Silverquill robes."),
+ ("SX019","killian_lu","member_of","silverquill_college",I,[("stx_chains","A young man dressed in the black and white garb of a Silverquill student stood in front of her"),("stx_chains","And surely Killian would have been obliged to tell the Silverquill deans")],
+  "Killian is a Silverquill student.",
+  "The first line introduces the young man before he is named."),
+ ])
