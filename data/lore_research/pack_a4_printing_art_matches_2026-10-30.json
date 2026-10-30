@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "pack_id": "PACK_A4_SIX_EXACT_TARKIR_STORY_ART_PRINTING_MATCHES",
+  "reviewed_at": "2026-10-30",
+  "extends": "pack_a_tarkir_card_scenes_2026-10-30.json",
+  "verification": {
+    "primary_method": "Human visual comparison of each Wizards-published card-art image with the linked Scryfall art crop; matching named artist and printed illustration ID independently checked against the live Scryfall Cards API.",
+    "limits": [
+      "Crops, aspect ratios, compression and framing differ; source and printing files are not byte-identical.",
+      "The story caption proves Wizards placed an illustration in that narrative context, not that the artist painted every described action.",
+      "Additional printings sharing the same Scryfall illustration_id are metadata-derived same-art links, not independently image-reviewed source pairs.",
+      "Current Commander legality is a dated six-card Scryfall API observation, not whole-deck certification.",
+      "Original/revised Tarkir timelines are distinct; an art match does not resolve the in-universe branch."
+    ]
+  },
+  "cards": [
+    {
+      "name": "Crux of Fate",
+      "source_id": "reforged_chain",
+      "source_art_url": "https://media.wizards.com/2014/ujehvsbfrf153/5djq793ehd_cardart.jpg",
+      "context_tier": "DIRECT_EVENT_SCENE_CAPTION",
+      "artist": "Michael Komarck",
+      "oracle_id": "52a0dae4-2a95-487e-acd4-eabdb2d031e2",
+      "matched_illustration_id": "b652686f-ac53-4f72-8f9d-b18039a8ec5c",
+      "visually_reviewed_printing": {"set": "frf", "collector_number": "65", "id": "e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6"},
+      "same_art_printing_ids": ["e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6", "e92c13a4-c077-4f9b-ba0f-9fc81b53e58a", "11721b88-2654-482c-b9d4-80e54efdbf63", "2fe9df6d-c5e0-4378-a4a5-744773811a5c"],
+      "commander_legal_at_review": true
+    },
+    {
+      "name": "Ugin's Nexus",
+      "source_id": "chronicle_familiar",
+      "source_art_url": "https://media.wizards.com/2018/images/daily/cardart_KTK_Ugins-Nexus.jpg",
+      "context_tier": "OFFICIAL_STORY_DEVICE",
+      "artist": "Sam Burley",
+      "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
+      "matched_illustration_id": "ddac4ae4-0f8b-4186-a64e-892cf5afe5c9",
+      "visually_reviewed_printing": {"set": "ktk", "collector_number": "227", "id": "94002868-a48a-4ea8-bfce-17257078f5db"},
+      "same_art_printing_ids": ["94002868-a48a-4ea8-bfce-17257078f5db"],
+      "commander_legal_at_review": true
+    },
+    {
+      "name": "Crucible of the Spirit Dragon",
+      "source_id": "chronicle_familiar",
+      "source_art_url": "https://media.wizards.com/2018/images/daily/cardart_FRF_Crucible-of-the-Spirit-Dragon.jpg",
+      "context_tier": "STORY_LOCATION_ART_CAPTION",
+      "artist": "Jung Park",
+      "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
+      "matched_illustration_id": "12281ea1-2759-4c81-a881-e308c497fcf3",
+      "visually_reviewed_printing": {"set": "frf", "collector_number": "167", "id": "6bf563e0-1f42-4768-a667-3e120bdb6534"},
+      "same_art_printing_ids": ["6bf563e0-1f42-4768-a667-3e120bdb6534", "beba6748-1b2c-47db-8e67-b46ba2014295", "257a5ae9-f754-4c45-a47d-5196f1b625b7"],
+      "commander_legal_at_review": true
+    },
+    {
+      "name": "Tomb of the Spirit Dragon",
+      "source_id": "journey_nexus",
+      "source_art_url": "https://media.wizards.com/2014/images/daily/cardart_tombofthespiritdragon.jpg",
+      "context_tier": "STORY_LOCATION_ART_CAPTION",
+      "artist": "Sam Burley",
+      "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
+      "matched_illustration_id": "48a2cb02-6af1-4bae-a577-2880ca822b9e",
+      "visually_reviewed_printing": {"set": "ktk", "collector_number": "245", "id": "eb6be7ab-8fad-4606-b623-f2188219d60b"},
+      "same_art_printing_ids": ["eb6be7ab-8fad-4606-b623-f2188219d60b", "824bf3cc-fb35-4bc1-998c-6758b1eed2ca", "c5c2da3e-5e82-4236-b866-93bec88d86b0"],
+      "commander_legal_at_review": true
+    },
+    {
+      "name": "Ugin, the Spirit Dragon",
+      "source_id": "reforged_chain",
+      "source_art_url": "https://media.wizards.com/2014/ujehvsbfrf153/reh4vdu8tq_cardart.jpg",
+      "context_tier": "NAMED_CHARACTER_ART_IN_STORY",
+      "artist": "Raymond Swanland",
+      "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+      "matched_illustration_id": "47715ae0-7456-449e-ad32-0a7bc47a4e7a",
+      "visually_reviewed_printing": {"set": "frf", "collector_number": "1", "id": "58c1e824-c8a9-4312-8e4c-a29a26d189a4"},
+      "same_art_printing_ids": ["58c1e824-c8a9-4312-8e4c-a29a26d189a4", "9c017fa9-7021-417a-9c2e-3df409644fcf", "a11e75a0-17f0-429a-a77a-268fe6257010", "89677176-80c2-4df0-a108-f0a1fa4febf9", "02c596b7-67d2-40dd-bb57-4a7640d88145", "719438b8-7b66-4f13-a568-80202365cc1a"],
+      "known_different_art_first_indexed_promo": {"set": "ugin", "collector_number": "1", "id": "8cec48b8-58b2-4894-96e4-8477b83d4cf6", "artist": "Chris Rahn", "illustration_id": "ffc481bb-314d-4d22-b959-3878649f7af6"},
+      "commander_legal_at_review": true
+    },
+    {
+      "name": "Nicol Bolas, Planeswalker",
+      "source_id": "reforged_chain",
+      "source_art_url": "https://media.wizards.com/2014/images/daily/cardart_nicolbolesplaneswalker.jpg",
+      "context_tier": "NAMED_CHARACTER_ART_IN_STORY",
+      "artist": "D. Alexander Gregory",
+      "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+      "matched_illustration_id": "aaaa918a-ae2c-4bf9-8926-4d5a7b39613d",
+      "visually_reviewed_printing": {"set": "con", "collector_number": "120", "id": "48ee3939-bc12-4275-a446-9de36f0b4672"},
+      "same_art_printing_ids": ["48ee3939-bc12-4275-a446-9de36f0b4672", "0e3b1fea-5c2c-4848-8109-548f56b99d49", "bc05da83-c3ec-4a60-a205-3c0f537d55b0"],
+      "commander_legal_at_review": true
+    }
+  ]
+}
