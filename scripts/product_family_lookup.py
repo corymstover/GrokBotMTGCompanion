@@ -15,6 +15,59 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "data/set_atlas/product_family_triage_2026-10-29.json"
+SOURCE_REVIEW = ROOT / "data/set_atlas/draft_starter_primary_audit_2026-10-29.json"
+
+
+def apply_source_overlay(data, verified):
+    """Use source-backed verified additions without rewriting the dated v2.1 triage."""
+    if verified["snapshot_date"] != data["snapshot_date"]:
+        raise ValueError("Product review overlay snapshot/date mismatch")
+    updates = {x["code"]: x for x in verified["newly_wizards_reviewed"]}
+    if len(updates) != verified["reviewed_batch_size"] or len(updates) != 23:
+        raise ValueError("Incomplete duplicate or malformed source review overlay")
+    entries = []
+    patched = set()
+    for entry in data["all_848_released_nondigital_other_type_records"]:
+        new = dict(entry)
+        src = updates.get(new["code"])
+        if src is not None:
+            if new["wizards_individual_source_review"] or src["scryfall_type"] != new["scryfall_set_type"]:
+                raise ValueError(f"Source review overwrite or category mismatch: {new['code']}")
+            new["wizards_individual_source_review"] = True
+            new["review_status"] = "wizards_primary_source_batch_reviewed"
+            new["wizards_primary_source"] = src["wizards_source_url"]
+            new["wizards_review_product_group"] = src["wizards_product_group"]
+            new["verified_evidence_note"] = src["evidence_note"]
+            new["new_card_legality_date_claim"] = src.get("new_card_legality_date_claim")
+            patched.add(new["code"])
+        entries.append(new)
+    if patched != set(updates):
+        raise ValueError(f"Source overlay contains nonmatching codes: {sorted(set(updates) - patched)}")
+    revised = dict(data)
+    revised["all_848_released_nondigital_other_type_records"] = entries
+    revised["wizards_reviewed_examples"] = verified["cumulative_wizards_source_reviewed_other_category_codes"]
+    revised["metadata_only_pending_wizards_individual_review"] = verified["cumulative_source_pending_other_category_codes"]
+    revised["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [x for x in entries
+                   if x["metadata_cohort_not_official_classification"] == cohort]
+        revised["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(x["wizards_individual_source_review"]) for x in members),
+            "needs_individual_review": sum(not x["wizards_individual_source_review"] for x in members),
+            "explicit_parent_links": sum(bool(x["parent_set_code_explicit_only"]) for x in members),
+        }
+    if len(entries) != 848 or len([x for x in entries if x["wizards_individual_source_review"]]) != 35:
+        raise ValueError("Cumulative reviewed code conservation failed")
+    return revised
+
+
+def load_current_index():
+    data = json.loads(INDEX.read_text(encoding="utf-8"))
+    if SOURCE_REVIEW.exists():
+        verified = json.loads(SOURCE_REVIEW.read_text(encoding="utf-8"))
+        return apply_source_overlay(data, verified)
+    return data
 
 
 def select(data, code=None, cohort=None, set_type=None, parent=None,
@@ -50,7 +103,7 @@ def main():
     p.add_argument("--priority", type=int, choices=(1, 2, 3, 4))
     p.add_argument("--all", action="store_true")
     args = p.parse_args()
-    data = json.loads(INDEX.read_text(encoding="utf-8"))
+    data = load_current_index()
     if args.summary:
         print(json.dumps({
             "snapshot": data["snapshot_date"],

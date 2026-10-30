@@ -112,6 +112,25 @@ python3 scripts/audit_product_family_triage.py
 
 The Atlas draws the original counts from the [dated Scryfall `/sets` API](https://scryfall.com/docs/api/sets). Wizards' [product guide](https://magic.wizards.com/en/product-guide) describes the distinct product purposes for boosters, Commander decks and Jumpstart, but that product guide is not a source certifying each of the 836 individual set codes. The original twelve Wizards-reviewed examples retain their own official primary-source citations in the [cross-category source ledger](data/set_atlas/cross_category_evidence_2026-10-29.json).
 
+## Wizards source review: first 23 draft/starter products
+
+The [first 23-code Wizards primary-source ledger](data/set_atlas/draft_starter_primary_sources_2026-10-29.json) includes **23 additional reviewed products** originally found in the 44-code draft/starter source queue. Its [deterministic audit](data/set_atlas/draft_starter_primary_audit_2026-10-29.json) accounts for earlier reviews and publishes the updated **35 reviewed / 813 individually source-pending** status across the original 848 outside-category paper codes. **21** of those pending are still in the draft/starter research cohort.
+
+The reviewed group distinctions are grounded directly in Wizards' published articles:
+
+- [Portal, Portal Second Age, Portal Three Kingdoms, and Starter 1999/2000](https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-1) were introductory products with distinct designs and beginner-oriented rules or play experiences.
+- [Unglued/Unhinged/Unstable/Unfinity](https://magic.wizards.com/en/news/making-magic/lessons-learned-part-7) are supplemental Un- releases; [Unsanctioned](https://magic.wizards.com/en/news/announcements/announcing-unsanctioned-2019-10-10) is a preconstructed five-deck box, not another booster set. [Unfinity sticker sheets](https://magic.wizards.com/en/news/feature/unfinity-release-notes-2022-10-07) are components of Unfinity packs, not independent set releases.
+- [Conspiracy](https://magic.wizards.com/en/news/feature/conspiracy-mechanics), [Conspiracy: Take the Crown](https://magic.wizards.com/en/news/feature/conspiracy-take-crown-mechanics-2016-08-15), and [Battlebond](https://magic.wizards.com/en/news/feature/battlebond-mechanics-2018-05-21) were intended for multiplayer Limited games.
+- [Jumpstart](https://magic.wizards.com/en/news/announcements/introducing-jumpstart-new-way-play-magic-2020-02-20) and [Foundations Jumpstart](https://magic.wizards.com/en/news/announcements/foundations-jumpstart-booster-themes) have separately sold themed 20-card boosters and are not additional Standard premier releases.
+- [Innistrad Double Feature](https://magic.wizards.com/en/news/feature/innistrad-double-feature-product-overview-2021-11-15) combines cards from two earlier releases into a draft-ready product; [Commander Legends: Battle for Baldur's Gate](https://magic.wizards.com/en/news/feature/commander-legends-battle-for-baldurs-gate-product-overview) supports Commander Draft; [Ravnica: Clue Edition](https://magic.wizards.com/en/news/announcements/ravnica-clue-edition-ravnica-cluedo-edition-booster-contents) is a themed boxed multiplayer game.
+- Mystery Booster's [2019](https://magic.wizards.com/en/news/feature/mystery-booster-release-notes-2019-11-11) and [2021 Convention Edition](https://magic.wizards.com/en/news/announcements/mystery-booster-convention-edition-returns-store-events-2021-06-21) playtest sheets are differentiated from the main Mystery Booster printings. The [Magic Origins Clash Pack](https://magic.wizards.com/en/news/feature/magic-origins-clash-pack-and-intro-pack-decklists-2015-07-09) comprises two prebuilt decks.
+
+**Legality caution:** [Wizards' Mystery Booster Commander Edition product article](https://www.magic.wizards.com/en/news/feature/whats-inside-mystery-booster-commander-edition) states that the new-to-Magic cards become **Commander-legal on November 13, 2026**, and enter other Eternal formats on January 1, 2027. The Scryfall set-level date **October 19, 2026** is not evidence that those new cards were Commander-legal at that time. A set's release date is not its entire card-pool legality schedule.
+
+The [offline product-family lookup](scripts/product_family_lookup.py) now overlays the source-backed review records so it displays **35/813**, while retaining the original 12/836 frozen triage as a historical file. This avoids overwriting previously verified sources. Reproduce with `python3 scripts/audit_draft_starter_sources.py`, and inspect examples using `python3 scripts/product_family_lookup.py --code mbc` or `--cohort draft_and_starter_variants --only-pending --all`.
+
+**Not yet reviewed individually:** `cp1`, `cp2`, `h17`, `h1r`, `h2r`, `hho`, `itp`, `ph17`, `ph18`, `ph19`, `ph20`, `ph21`, `ph22`, `ph23`, `phtr`, `ptg`, `punk`, `ulst`, `unk`, `w16`, and `w17`. No official-source or premier conclusion is invented for these 21 codes.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
