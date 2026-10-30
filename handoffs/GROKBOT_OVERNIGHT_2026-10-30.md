@@ -371,7 +371,7 @@ Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grix
 ### Next steps
 Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewed-no-claim marker (owner decision on format); faction short-name aliases in mv_ask; owner review of the 3 graph-linked lore deck drafts (the only NOT_MET readiness criterion).
 
-## Batch 9 — 2026-10-30, from 07:58 CDT (in progress)
+## Batch 9 — 2026-10-30, 07:58–08:40 CDT
 
 ### PRs (batch 9 so far)
 | PR | Phase | What | Merge commit (CDT) | CI on the exact head |
@@ -382,7 +382,7 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 | [#883](https://github.com/corymstover/GrokBotMTGCompanion/pull/883) | 5 | `pack_p5_untagged_bios` (34 claims, 26 undated Planeswalker profiles) + `pack_p5_untagged_planes` (39 claims, 11 plane pages) + 34 reviewed-no-claim entries (`authoring/b9/add_reviewed_b9.py`) | `9d55f327` 08:19 CDT | 8/8 pass on `d0aa8580` |
 | [#884](https://github.com/corymstover/GrokBotMTGCompanion/pull/884) | 8 | Handoff: Batch 9 progress (docs only) | `3b046942` 08:31 CDT | 1/1 pass |
 | [#885](https://github.com/corymstover/GrokBotMTGCompanion/pull/885) | 5/7 | `pack_p5_untagged_ktk`: 28 claims from 15 untagged Tarkir 2014–2015 pages and Chronicle of Bolas pages, 32/32 verbatim. Past-era khans carry the Fate Reforged limitation. `mv_ask` sibling questions now read `sibling_of\|twin_sibling_of` | `776c9df0` 08:34 CDT | 8/8 pass on `2e58f997` |
-| (this PR) | 1/7/8 | `scripts/batch_recount.py` (recount plus 13 representative queries, run in CI) and era-aware leadership (`ERA_OR_TIMELINE_CONTEXT`, `era_note`). Also `UPDATE_PROCESS.md`, workflow v2.37 and a readiness stats refresh (no status change) | see the next handoff update | — |
+| [#886](https://github.com/corymstover/GrokBotMTGCompanion/pull/886) | 1/7/8 | `scripts/batch_recount.py` (recount plus 13 representative queries, run in CI) and era-aware leadership (`ERA_OR_TIMELINE_CONTEXT`, `era_note`). Also `UPDATE_PROCESS.md`, workflow v2.37 and a readiness stats refresh (no status change) | `895d3cd5` 08:38 CDT | 21/21 pass on `b7d77e13` |
 
 ### Coverage (main after #885)
 - 466 of 626 pages cited; 36 reviewed with no claim; 939 claims. Untagged: 69 cited + 34 reviewed of 227, with 124 still unread; the list of unread pages is regenerable from the inventory's `unreviewed_urls`. 31 arcs have every page cited; 32 have every page cited or reviewed.
@@ -394,5 +394,12 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 - New `sibling_of` edges to Ugin (Arcades, Rhuell, Merrevia) hid the twin edge, because the router only fell back to `twin_sibling_of` when there was no `sibling_of` result. Sibling questions now query both relations together.
 - Ordering leaders by publication date misread time travel. Fate Reforged pages (2015) set in Tarkir's past were published after the Khans of Tarkir pages, so the past-era khans looked "most recent". Claims whose summary or limitation names a past era or an original timeline are now era context. Note: the Khans of Tarkir "present" is itself the original timeline that Fate Reforged rewrote. The `era_note` says so generically rather than naming a present-day leader the packs do not cite.
 
+### Next steps
+- About 124 untagged pages are still unread. Read them in small packs: ZNR 2020 episodes, GRN/RNA 2018–19, Magic Origins 2015, the 2016 Proclamations and Conspiracy, the NPH and Innistrad guides, and 2007 Maelstrom.
+- For the `-0` duplicates (nature-identity, path-or-horizon), add DUPLICATE_PAGE entries once the base copy is cited.
+- Store recorded per-batch output with `python3 scripts/batch_recount.py --json --out data/release/batch_recount_<date>.json`, and add a question whenever a capability lands.
+- Phase 3: in-universe dated edges (`claim_edges_with_in_universe_date` is 0).
+- Phase 7: a retcon explainer beyond leadership.
+
 ### Status (keep distinct)
-- Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#885. Owner approved / certified: nothing.
+- Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#886. Owner approved / certified: nothing.
