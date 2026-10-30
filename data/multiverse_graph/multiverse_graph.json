@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "8fd9f67a3c7d263960d27c74a02f45214b4529f72a7a10cd262eaef7bb637a60",
+ "content_sha256": "bfd2445a58c4c77f576b376a2e43bffe0b23364821e5d3308a036e2aaca5c545",
  "edges": [
   {
    "beat": "I. Twin Elder Dragons of Dominaria and the Elder Dragon War",
@@ -1419,6 +1419,314 @@
    "to": "artifact:sylex_replica"
   },
   {
+   "claim": "C001",
+   "from": "artifact:weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "relation": "instrumental_in_thwarting",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "claim": "C002",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "part_of",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "concept:legacy"
+  },
+  {
+   "claim": "C003",
+   "from": "artifact:weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "relation": "has_capability",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "literal:planeswalking"
+  },
+  {
+   "claim": "C004",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "c_karn_profile"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "C005",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "c_karn_profile",
+    "c_pwg_one"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "C006",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "accidentally_carried",
+   "sources": [
+    "c_karn_profile",
+    "c_pwg_one"
+   ],
+   "to": "concept:glistening_oil"
+  },
+  {
+   "claim": "C007",
+   "from": "concept:glistening_oil",
+   "grade": "CANON_CONFIRMED",
+   "relation": "corrupted",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "plane:mirrodin"
+  },
+  {
+   "claim": "C008",
+   "from": "character:yawgmoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "native_of",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "C009",
+   "from": "character:yawgmoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ruled",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "claim": "C010",
+   "from": "plane:old_phyrexia",
+   "grade": "OPEN_QUESTION",
+   "relation": "created_by",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "literal:unknown_planeswalker"
+  },
+  {
+   "claim": "C011",
+   "from": "character:yawgmoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "invaded",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "C012",
+   "from": "character:yawgmoth",
+   "grade": "CANON_DISPUTED",
+   "relation": "defeated_by",
+   "sources": [
+    "c_pwg_dominaria_2022",
+    "c_pwg_one",
+    "urza_profile"
+   ],
+   "to": "character:gerrard"
+  },
+  {
+   "claim": "C012",
+   "from": "character:yawgmoth",
+   "grade": "CANON_DISPUTED",
+   "relation": "defeated_by",
+   "sources": [
+    "c_pwg_dominaria_2022",
+    "c_pwg_one",
+    "urza_profile"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "C012",
+   "from": "character:yawgmoth",
+   "grade": "CANON_DISPUTED",
+   "relation": "defeated_by",
+   "sources": [
+    "c_pwg_dominaria_2022",
+    "c_pwg_one",
+    "urza_profile"
+   ],
+   "to": "character:urza"
+  },
+  {
+   "claim": "C013",
+   "from": "plane:old_phyrexia",
+   "grade": "CANON_IMPLIED",
+   "relation": "destroyed_in",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "claim": "C014",
+   "from": "faction:coalition",
+   "grade": "CANON_CONFIRMED",
+   "relation": "formed_during",
+   "sources": [
+    "c_pwg_dominaria_2022"
+   ],
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "claim": "C015",
+   "from": "character:jhoira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rebuilt",
+   "sources": [
+    "c_dmu_legends"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "C016",
+   "from": "character:shanna",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captain_of",
+   "sources": [
+    "c_dmu_legends"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "C017",
+   "from": "character:jhoira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "c_dmu_legends"
+   ],
+   "to": "faction:coalition"
+  },
+  {
+   "claim": "C018",
+   "from": "character:jodah",
+   "grade": "CANON_CONFIRMED",
+   "relation": "rallies_for",
+   "sources": [
+    "c_dmu_legends"
+   ],
+   "to": "faction:coalition"
+  },
+  {
+   "claim": "C019",
+   "from": "character:jodah",
+   "grade": "CANON_IMPLIED",
+   "relation": "born_in_aftermath_of",
+   "sources": [
+    "c_dmu_legends"
+   ],
+   "to": "event:brothers_war"
+  },
+  {
+   "claim": "C020",
+   "from": "character:sheoldred",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leads",
+   "sources": [
+    "c_pwg_dominaria_2022"
+   ],
+   "to": "event:dmu_sheoldred_invasion"
+  },
+  {
+   "claim": "C021",
+   "from": "character:raff_capashen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "crew_of",
+   "sources": [
+    "c_pwg_dominaria_2022"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "C022",
+   "from": "faction:house_capashen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "descends_to",
+   "sources": [
+    "c_pwg_dominaria_2022"
+   ],
+   "to": "character:gerrard"
+  },
+  {
+   "claim": "C023",
+   "from": "literal:urza_mishra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "discovered",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "concept:powerstones"
+  },
+  {
+   "claim": "C024",
+   "from": "concept:powerstones",
+   "grade": "CANON_CONFIRMED",
+   "relation": "found_at",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "place:caves_of_koilos"
+  },
+  {
+   "claim": "C025",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "discovered",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "claim": "C026",
+   "from": "plane:dominaria",
+   "grade": "CANON_CONFIRMED",
+   "relation": "epicenter_of",
+   "sources": [
+    "c_dominaria_plane"
+   ],
+   "to": "event:temporal_rifts_mending"
+  },
+  {
+   "claim": "C027",
+   "from": "character:teferi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "lost_and_reclaimed",
+   "sources": [
+    "c_teferi_profile"
+   ],
+   "to": "literal:planeswalker_spark"
+  },
+  {
+   "claim": "C028",
+   "from": "character:elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought_leader_like",
+   "sources": [
+    "c_pwg_one"
+   ],
+   "to": "character:yawgmoth"
+  },
+  {
    "from": "artifact:golgothian_sylex",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -1459,6 +1767,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#dakkon-blackblade"
+  },
+  {
+   "from": "character:elesh_norn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#elesh-norn"
   },
   {
    "from": "character:geyadrone_dihada",
@@ -1559,6 +1873,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#sarkhan-vol"
+  },
+  {
+   "from": "character:sheoldred",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#sheoldred"
   },
   {
    "from": "character:teferi",
@@ -2279,6 +2599,354 @@
    "to": "character:saheeli"
   },
   {
+   "from": "claim:C001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "from": "claim:C001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:C002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:legacy"
+  },
+  {
+   "from": "claim:C002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:C003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:planeswalking"
+  },
+  {
+   "from": "claim:C003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:C004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:C004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:C005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:C005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:C006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:glistening_oil"
+  },
+  {
+   "from": "claim:C006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:C007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:mirrodin"
+  },
+  {
+   "from": "claim:C007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:glistening_oil"
+  },
+  {
+   "from": "claim:C008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:C008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:C009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:unknown_planeswalker"
+  },
+  {
+   "from": "claim:C010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:C011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:C011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gerrard"
+  },
+  {
+   "from": "claim:C012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:C012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:C012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "from": "claim:C013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:C014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:first_phyrexian_invasion"
+  },
+  {
+   "from": "claim:C014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:coalition"
+  },
+  {
+   "from": "claim:C015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:C015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jhoira"
+  },
+  {
+   "from": "claim:C016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:C016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:shanna"
+  },
+  {
+   "from": "claim:C017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:coalition"
+  },
+  {
+   "from": "claim:C017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jhoira"
+  },
+  {
+   "from": "claim:C018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:coalition"
+  },
+  {
+   "from": "claim:C018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jodah"
+  },
+  {
+   "from": "claim:C019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:brothers_war"
+  },
+  {
+   "from": "claim:C019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jodah"
+  },
+  {
+   "from": "claim:C020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:dmu_sheoldred_invasion"
+  },
+  {
+   "from": "claim:C020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:sheoldred"
+  },
+  {
+   "from": "claim:C021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:C021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:raff_capashen"
+  },
+  {
+   "from": "claim:C022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gerrard"
+  },
+  {
+   "from": "claim:C022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:house_capashen"
+  },
+  {
+   "from": "claim:C023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:powerstones"
+  },
+  {
+   "from": "claim:C023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "literal:urza_mishra"
+  },
+  {
+   "from": "claim:C024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:caves_of_koilos"
+  },
+  {
+   "from": "claim:C024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:powerstones"
+  },
+  {
+   "from": "claim:C025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:old_phyrexia"
+  },
+  {
+   "from": "claim:C025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:C026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:temporal_rifts_mending"
+  },
+  {
+   "from": "claim:C026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:C027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:planeswalker_spark"
+  },
+  {
+   "from": "claim:C027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:C028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:yawgmoth"
+  },
+  {
+   "from": "claim:C028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elesh_norn"
+  },
+  {
    "from": "event:brothers_war",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -2497,6 +3165,161 @@
    "from": "source:bro_product_page",
    "relation": "cited_by",
    "to": "claim:B018"
+  },
+  {
+   "from": "source:c_dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:C015"
+  },
+  {
+   "from": "source:c_dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:C016"
+  },
+  {
+   "from": "source:c_dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:C017"
+  },
+  {
+   "from": "source:c_dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:C018"
+  },
+  {
+   "from": "source:c_dmu_legends",
+   "relation": "cited_by",
+   "to": "claim:C019"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C001"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C002"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C003"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C023"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C024"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C025"
+  },
+  {
+   "from": "source:c_dominaria_plane",
+   "relation": "cited_by",
+   "to": "claim:C026"
+  },
+  {
+   "from": "source:c_karn_profile",
+   "relation": "cited_by",
+   "to": "claim:C004"
+  },
+  {
+   "from": "source:c_karn_profile",
+   "relation": "cited_by",
+   "to": "claim:C005"
+  },
+  {
+   "from": "source:c_karn_profile",
+   "relation": "cited_by",
+   "to": "claim:C006"
+  },
+  {
+   "from": "source:c_pwg_dominaria_2022",
+   "relation": "cited_by",
+   "to": "claim:C012"
+  },
+  {
+   "from": "source:c_pwg_dominaria_2022",
+   "relation": "cited_by",
+   "to": "claim:C014"
+  },
+  {
+   "from": "source:c_pwg_dominaria_2022",
+   "relation": "cited_by",
+   "to": "claim:C020"
+  },
+  {
+   "from": "source:c_pwg_dominaria_2022",
+   "relation": "cited_by",
+   "to": "claim:C021"
+  },
+  {
+   "from": "source:c_pwg_dominaria_2022",
+   "relation": "cited_by",
+   "to": "claim:C022"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C005"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C006"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C007"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C008"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C009"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C010"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C011"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C012"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C013"
+  },
+  {
+   "from": "source:c_pwg_one",
+   "relation": "cited_by",
+   "to": "claim:C028"
+  },
+  {
+   "from": "source:c_teferi_profile",
+   "relation": "cited_by",
+   "to": "claim:C027"
   },
   {
    "from": "source:chronicle_blood_fire",
@@ -2741,6 +3564,11 @@
    "to": "claim:B015"
   },
   {
+   "from": "source:urza_profile",
+   "relation": "cited_by",
+   "to": "claim:C012"
+  },
+  {
    "from": "source:war_games",
    "relation": "cited_by",
    "to": "claim:A008"
@@ -2782,6 +3610,13 @@
     "file": "data/lore_research/pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "sha256": "540d1a5514e58a20104cfc85476fc47491dae22babc777685b9c781f84069dee",
     "sources": 8
+   },
+   {
+    "claims": 28,
+    "entities": 26,
+    "file": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "sha256": "75bfb5657647eba8bc8e0978ab327a09e3f212f428939772164e04ca3e356133",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -2830,6 +3665,14 @@
    "name": "Ugin's Nexus",
    "origins": [
     "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:weatherlight",
+   "name": "Weatherlight (skyship)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -3745,6 +4588,22 @@
    "type": "Character"
   },
   {
+   "id": "character:elesh_norn",
+   "name": "Elesh Norn",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:gerrard",
+   "name": "Gerrard Capashen",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:geyadrone_dihada",
    "name": "Geyadrone Dihada",
    "origins": [
@@ -3769,10 +4628,27 @@
    "type": "Character"
   },
   {
+   "id": "character:jhoira",
+   "name": "Jhoira",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:jodah",
+   "name": "Jodah",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:karn",
    "name": "Karn",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3788,7 +4664,8 @@
    "id": "character:mishra",
    "name": "Mishra",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3825,6 +4702,14 @@
    "type": "Character"
   },
   {
+   "id": "character:raff_capashen",
+   "name": "Raff Capashen",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:rith",
    "name": "Rith",
    "origins": [
@@ -3849,6 +4734,22 @@
    "type": "Character"
   },
   {
+   "id": "character:shanna",
+   "name": "Shanna",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:sheoldred",
+   "name": "Sheoldred",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tawnos",
    "name": "Tawnos",
    "origins": [
@@ -3860,7 +4761,8 @@
    "id": "character:teferi",
    "name": "Teferi",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3876,7 +4778,8 @@
    "id": "character:urza",
    "name": "Urza",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -3900,7 +4803,8 @@
    "id": "character:yawgmoth",
    "name": "Yawgmoth",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -4516,6 +5420,353 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C001",
+   "limitation": "Profile-level summary; the Weatherlight Saga novels/comics (Weatherlight through Apocalypse) are not ingested.",
+   "name": "The skyship Weatherlight, its crew of heroes, and the Legacy were instrumental in thwarting Phyrexia's invasion of Dominaria.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "instrumental_in_thwarting",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C002",
+   "limitation": "Other Legacy components are not enumerated by the cited source.",
+   "name": "The Legacy was a collection of artifacts that included the Planeswalker Karn.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "part_of",
+   "stage": "weatherlight_saga",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C003",
+   "limitation": "Origin of that technology (Thran) is not stated in the cited source.",
+   "name": "The Weatherlight contained ancient magical technology that enabled the ship to planeswalk.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "has_capability",
+   "stage": "weatherlight_saga",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C004",
+   "limitation": "Absolute date and construction details not given.",
+   "name": "Karn is a sentient silver golem created over 1200 years ago (relative to the profile) by the Planeswalker Urza.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "post_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C005",
+   "name": "Karn created Mirrodin, an independent metallic plane with five colored suns.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "post_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C006",
+   "name": "Old Phyrexia was destroyed but Karn became an unwitting carrier of its oil, and accidentally left a drop of glistening oil on Mirrodin's inner core.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "accidentally_carried",
+   "stage": "post_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C007",
+   "limitation": "Scars of Mirrodin story chronology is summarized, not ingested episode by episode.",
+   "name": "The oil slowly corrupted Mirrodin from the inside out; Mirrans became Phyrexians and the plane became New Phyrexia.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "corrupted",
+   "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C008",
+   "limitation": "The Thran-era origin story (novel The Thran) is not ingested; 'medical genius' is the only biographical detail used.",
+   "name": "Yawgmoth was a medical genius from Dominaria.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "native_of",
+   "stage": "pre_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C009",
+   "name": "Yawgmoth planeswalked to Old Phyrexia and installed himself as its new ruler, the Father of Machines.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "ruled",
+   "stage": "pre_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "OPEN_QUESTION",
+   "id": "claim:C010",
+   "limitation": "Do not name a creator from non-Wizards sources.",
+   "name": "Old Phyrexia was an artificial plane created by an unknown Planeswalker; the creator is not identified.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "created_by",
+   "stage": "origin",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C011",
+   "name": "Yawgmoth used the Phyrexians to launch repeated invasions of his home plane.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "invaded",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:C012",
+   "limitation": "Accounts may be complementary rather than contradictory (shared final battle); the Apocalypse novel is not ingested, so the precise sequence is unresolved here.",
+   "name": "Official summaries credit Yawgmoth's end differently: the ONE guide says he was slain by Karn and his allies; the 2022 Dominaria guide credits Gerrard with bringing about his defeat; the Urza profile (Pack B) says Urza and Yawgmoth perished together. All accounts are preserved.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "defeated_by",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:C013",
+   "limitation": "The guide states Old Phyrexia was destroyed but does not explicitly tie the destruction to the same battle.",
+   "name": "Old Phyrexia was destroyed after Yawgmoth's defeat.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "destroyed_in",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C014",
+   "name": "During the first Phyrexian Invasion, Dominaria's inhabitants formed the Coalition, an alliance spanning many species, peoples and nations.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "formed_during",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C015",
+   "limitation": "The 2018 Return to Dominaria rebuild arc is not claim-extracted episode by episode.",
+   "name": "After rebuilding the skyship, Jhoira handed the captaincy to Shanna and retired to her workshop at the Mana Rig.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "rebuilt",
+   "stage": "dominaria_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C016",
+   "name": "Shanna took over as captain of the Weatherlight when Jhoira gave up control.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "captain_of",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C017",
+   "limitation": "Applies to the DMU-era Coalition.",
+   "name": "When news of the Phyrexian invasion reached her, Jhoira joined the Coalition and serves as one of its leaders.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C018",
+   "name": "Jodah, an archmage over 4,000 years old, uses his reputation to rally allies to the Coalition's banner.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "rallies_for",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:C019",
+   "limitation": "The source does not name the war or the ancestor.",
+   "name": "Jodah was born when 'his ancestor's war' had decimated Terisiare, implying the Brothers' War.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "born_in_aftermath_of",
+   "stage": "post_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C020",
+   "name": "Praetor Sheoldred leads a new invasion of Dominaria.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "leads",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C021",
+   "name": "Raff Capashen is navigator and ship's mage for the Weatherlight.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "crew_of",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C022",
+   "name": "House Capashen's heritage stretches from ancient Sheoltun nobility to the hero Gerrard.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "descends_to",
+   "stage": "dominaria_united",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C023",
+   "limitation": "Fills part of the Pack B Koilos gap; the powerstone split (Mightstone/Weakstone) is still not sourced.",
+   "name": "Urza and Mishra discovered ancient stones of power in the Caves of Koilos.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "discovered",
+   "stage": "pre_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C024",
+   "name": "The stones of power were found in the Caves of Koilos.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "found_at",
+   "stage": "pre_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C025",
+   "name": "At the end of the Brothers' War, Urza discovered the plane of Phyrexia.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "discovered",
+   "stage": "post_brothers_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C026",
+   "limitation": "Participants in the Mending are not named in the cited source.",
+   "name": "Dominaria was the epicenter of temporal-planar fractures; a handful of powerful Planeswalkers mended the rifts.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "epicenter_of",
+   "stage": "time_spiral",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C027",
+   "limitation": "Homeland not named in the profile (do not assert Zhalfir from this source).",
+   "name": "Teferi phased his homeland out of time, later lost his spark, and new threats inspired him to reclaim it.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "lost_and_reclaimed",
+   "stage": "dominaria_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:C028",
+   "name": "The Machine Orthodoxy, under Elesh Norn, sought a leader to replicate the glory days of Yawgmoth; Norn later embraced the role of Mother of Machines.",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "predicate": "sought_leader_like",
+   "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "id": "concept:glistening_oil",
+   "name": "Glistening oil",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:legacy",
+   "name": "The Legacy (artifact collection)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:powerstones",
+   "name": "Powerstones (stones of power)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:thran_empire",
    "name": "Thran Empire",
    "origins": [
@@ -4534,6 +5785,14 @@
   {
    "id": "curated:Characters Index.md#dakkon-blackblade",
    "name": "Characters Index.md#dakkon-blackblade",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#elesh-norn",
+   "name": "Characters Index.md#elesh-norn",
    "origins": [
     "lore_graph.json"
    ],
@@ -4582,6 +5841,14 @@
   {
    "id": "curated:Characters Index.md#sarkhan-vol",
    "name": "Characters Index.md#sarkhan-vol",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#sheoldred",
+   "name": "Characters Index.md#sheoldred",
    "origins": [
     "lore_graph.json"
    ],
@@ -4705,7 +5972,16 @@
    "id": "event:brothers_war",
    "name": "The Brothers' War",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:dmu_sheoldred_invasion",
+   "name": "Sheoldred's invasion of Dominaria (Dominaria United)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Event"
   },
@@ -4722,6 +5998,14 @@
    "name": "Elder Dragon Wars",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:first_phyrexian_invasion",
+   "name": "First Phyrexian Invasion of Dominaria",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Event"
   },
@@ -4774,12 +6058,52 @@
    "type": "Event"
   },
   {
+   "id": "event:temporal_rifts_mending",
+   "name": "Time rifts and the Mending",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:war_of_the_spark_end",
    "name": "War of the Spark aftermath",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
    ],
    "type": "Event"
+  },
+  {
+   "id": "faction:coalition",
+   "name": "The Coalition",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:house_capashen",
+   "name": "House Capashen",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "literal:planeswalker_spark",
+   "name": "planeswalker_spark",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:planeswalking",
+   "name": "planeswalking",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Literal"
   },
   {
    "id": "literal:pre_duel_time_travel",
@@ -4807,10 +6131,34 @@
    "type": "Literal"
   },
   {
+   "id": "literal:unknown_planeswalker",
+   "name": "unknown_planeswalker",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:urza_mishra",
+   "name": "urza;mishra",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
    "id": "place:argoth",
    "name": "Argoth",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:caves_of_koilos",
+   "name": "Caves of Koilos",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -4851,7 +6199,8 @@
    "name": "Dominaria",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -4864,10 +6213,19 @@
    "type": "Plane"
   },
   {
+   "id": "plane:mirrodin",
+   "name": "Mirrodin / New Phyrexia",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:old_phyrexia",
    "name": "Phyrexia",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -4965,6 +6323,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/products/the-brothers-war"
+  },
+  {
+   "id": "source:c_dmu_legends",
+   "kind": "official_feature",
+   "name": "The Legends You'll Find in Dominaria United (2022-09-01)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01"
+  },
+  {
+   "id": "source:c_dominaria_plane",
+   "kind": "official_profile",
+   "name": "Dominaria (plane profile)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/dominaria-plane"
+  },
+  {
+   "id": "source:c_karn_profile",
+   "kind": "official_profile",
+   "name": "Karn (Planeswalker profile)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/karn-planeswalker"
+  },
+  {
+   "id": "source:c_pwg_dominaria_2022",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Dominaria (2022-08-31)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31"
+  },
+  {
+   "id": "source:c_pwg_one",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Phyrexia: All Will Be One",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one"
+  },
+  {
+   "id": "source:c_teferi_profile",
+   "kind": "official_profile",
+   "name": "Teferi (Planeswalker profile)",
+   "origins": [
+    "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/teferi-planeswalker"
   },
   {
    "id": "source:chronicle_blood_fire",
@@ -5214,31 +6638,33 @@
  "stats": {
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 45,
-   "CANON_DISPUTED": 3,
-   "OPEN_QUESTION": 1
+   "CANON_CONFIRMED": 69,
+   "CANON_DISPUTED": 4,
+   "CANON_IMPLIED": 2,
+   "OPEN_QUESTION": 2
   },
-  "curated_bridges": 20,
-  "edges": 366,
-  "literal_objects": 3,
+  "curated_bridges": 22,
+  "edges": 488,
+  "literal_objects": 7,
   "node_types": {
    "AlternateContinuity": 1,
    "Card": 90,
    "CardTheme": 1,
-   "Character": 26,
-   "Claim": 50,
-   "Concept": 21,
+   "Character": 33,
+   "Claim": 78,
+   "Concept": 26,
    "DeckProposal": 1,
-   "Event": 10,
-   "Literal": 3,
-   "Object": 4,
-   "Place": 5,
-   "Plane": 4,
-   "Source": 31
+   "Event": 13,
+   "Faction": 2,
+   "Literal": 7,
+   "Object": 5,
+   "Place": 6,
+   "Plane": 5,
+   "Source": 37
   },
-  "nodes": 247,
+  "nodes": 305,
   "non_wizards_sources": 0,
-  "relations": 54,
-  "wizards_official_sources": 31
+  "relations": 79,
+  "wizards_official_sources": 37
  }
 }

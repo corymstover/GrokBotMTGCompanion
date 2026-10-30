@@ -1,0 +1,555 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_c_weatherlight_invasion_new_phyrexia",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "source_register": {
+  "c_dominaria_plane": {
+   "title": "Dominaria (plane profile)",
+   "url": "https://magic.wizards.com/en/story/dominaria-plane",
+   "kind": "official_profile",
+   "perspective": "Wizards of the Coast (official)"
+  },
+  "c_karn_profile": {
+   "title": "Karn (Planeswalker profile)",
+   "url": "https://magic.wizards.com/en/story/karn-planeswalker",
+   "kind": "official_profile",
+   "perspective": "Wizards of the Coast (official)"
+  },
+  "c_teferi_profile": {
+   "title": "Teferi (Planeswalker profile)",
+   "url": "https://magic.wizards.com/en/story/teferi-planeswalker",
+   "kind": "official_profile",
+   "perspective": "Wizards of the Coast (official)"
+  },
+  "c_pwg_dominaria_2022": {
+   "title": "Planeswalker's Guide to Dominaria (2022-08-31)",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dominaria-2022-08-31",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official)"
+  },
+  "c_dmu_legends": {
+   "title": "The Legends You'll Find in Dominaria United (2022-09-01)",
+   "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01",
+   "kind": "official_feature",
+   "perspective": "Wizards of the Coast (official)"
+  },
+  "c_pwg_one": {
+   "title": "Planeswalker's Guide to Phyrexia: All Will Be One",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-phyrexia-all-will-be-one",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official)"
+  }
+ },
+ "entities": [
+  {
+   "id": "weatherlight",
+   "type": "Object",
+   "name": "Weatherlight (skyship)"
+  },
+  {
+   "id": "legacy",
+   "type": "Concept",
+   "name": "The Legacy (artifact collection)"
+  },
+  {
+   "id": "karn",
+   "type": "Character",
+   "name": "Karn"
+  },
+  {
+   "id": "urza",
+   "type": "Character",
+   "name": "Urza"
+  },
+  {
+   "id": "mishra",
+   "type": "Character",
+   "name": "Mishra"
+  },
+  {
+   "id": "yawgmoth",
+   "type": "Character",
+   "name": "Yawgmoth"
+  },
+  {
+   "id": "gerrard",
+   "type": "Character",
+   "name": "Gerrard Capashen"
+  },
+  {
+   "id": "jhoira",
+   "type": "Character",
+   "name": "Jhoira"
+  },
+  {
+   "id": "shanna",
+   "type": "Character",
+   "name": "Shanna"
+  },
+  {
+   "id": "jodah",
+   "type": "Character",
+   "name": "Jodah"
+  },
+  {
+   "id": "sheoldred",
+   "type": "Character",
+   "name": "Sheoldred"
+  },
+  {
+   "id": "elesh_norn",
+   "type": "Character",
+   "name": "Elesh Norn"
+  },
+  {
+   "id": "teferi",
+   "type": "Character",
+   "name": "Teferi"
+  },
+  {
+   "id": "raff_capashen",
+   "type": "Character",
+   "name": "Raff Capashen"
+  },
+  {
+   "id": "house_capashen",
+   "type": "Faction",
+   "name": "House Capashen"
+  },
+  {
+   "id": "coalition",
+   "type": "Faction",
+   "name": "The Coalition"
+  },
+  {
+   "id": "dominaria",
+   "type": "Plane",
+   "name": "Dominaria"
+  },
+  {
+   "id": "old_phyrexia",
+   "type": "Plane",
+   "name": "Old Phyrexia"
+  },
+  {
+   "id": "mirrodin",
+   "type": "Plane",
+   "name": "Mirrodin / New Phyrexia"
+  },
+  {
+   "id": "caves_of_koilos",
+   "type": "Place",
+   "name": "Caves of Koilos"
+  },
+  {
+   "id": "powerstones",
+   "type": "Concept",
+   "name": "Powerstones (stones of power)"
+  },
+  {
+   "id": "glistening_oil",
+   "type": "Concept",
+   "name": "Glistening oil"
+  },
+  {
+   "id": "first_phyrexian_invasion",
+   "type": "Event",
+   "name": "First Phyrexian Invasion of Dominaria"
+  },
+  {
+   "id": "dmu_sheoldred_invasion",
+   "type": "Event",
+   "name": "Sheoldred's invasion of Dominaria (Dominaria United)"
+  },
+  {
+   "id": "temporal_rifts_mending",
+   "type": "Event",
+   "name": "Time rifts and the Mending"
+  },
+  {
+   "id": "brothers_war",
+   "type": "Event",
+   "name": "The Brothers' War"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C001",
+   "subject": "weatherlight",
+   "predicate": "instrumental_in_thwarting",
+   "object": "first_phyrexian_invasion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "The skyship Weatherlight, its crew of heroes, and the Legacy were instrumental in thwarting Phyrexia's invasion of Dominaria.",
+   "limitation": "Profile-level summary; the Weatherlight Saga novels/comics (Weatherlight through Apocalypse) are not ingested."
+  },
+  {
+   "id": "C002",
+   "subject": "karn",
+   "predicate": "part_of",
+   "object": "legacy",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "weatherlight_saga",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "The Legacy was a collection of artifacts that included the Planeswalker Karn.",
+   "limitation": "Other Legacy components are not enumerated by the cited source."
+  },
+  {
+   "id": "C003",
+   "subject": "weatherlight",
+   "predicate": "has_capability",
+   "object": "planeswalking",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "weatherlight_saga",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "The Weatherlight contained ancient magical technology that enabled the ship to planeswalk.",
+   "limitation": "Origin of that technology (Thran) is not stated in the cited source."
+  },
+  {
+   "id": "C004",
+   "subject": "urza",
+   "predicate": "created",
+   "object": "karn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "post_brothers_war",
+   "source_ids": [
+    "c_karn_profile"
+   ],
+   "summary": "Karn is a sentient silver golem created over 1200 years ago (relative to the profile) by the Planeswalker Urza.",
+   "limitation": "Absolute date and construction details not given."
+  },
+  {
+   "id": "C005",
+   "subject": "karn",
+   "predicate": "created",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "post_invasion",
+   "source_ids": [
+    "c_karn_profile",
+    "c_pwg_one"
+   ],
+   "summary": "Karn created Mirrodin, an independent metallic plane with five colored suns.",
+   "limitation": ""
+  },
+  {
+   "id": "C006",
+   "subject": "karn",
+   "predicate": "accidentally_carried",
+   "object": "glistening_oil",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "post_invasion",
+   "source_ids": [
+    "c_pwg_one",
+    "c_karn_profile"
+   ],
+   "summary": "Old Phyrexia was destroyed but Karn became an unwitting carrier of its oil, and accidentally left a drop of glistening oil on Mirrodin's inner core.",
+   "limitation": ""
+  },
+  {
+   "id": "C007",
+   "subject": "glistening_oil",
+   "predicate": "corrupted",
+   "object": "mirrodin",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "new_phyrexia",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "The oil slowly corrupted Mirrodin from the inside out; Mirrans became Phyrexians and the plane became New Phyrexia.",
+   "limitation": "Scars of Mirrodin story chronology is summarized, not ingested episode by episode."
+  },
+  {
+   "id": "C008",
+   "subject": "yawgmoth",
+   "predicate": "native_of",
+   "object": "dominaria",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "pre_brothers_war",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "Yawgmoth was a medical genius from Dominaria.",
+   "limitation": "The Thran-era origin story (novel The Thran) is not ingested; 'medical genius' is the only biographical detail used."
+  },
+  {
+   "id": "C009",
+   "subject": "yawgmoth",
+   "predicate": "ruled",
+   "object": "old_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "pre_brothers_war",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "Yawgmoth planeswalked to Old Phyrexia and installed himself as its new ruler, the Father of Machines.",
+   "limitation": ""
+  },
+  {
+   "id": "C010",
+   "subject": "old_phyrexia",
+   "predicate": "created_by",
+   "object": "unknown_planeswalker",
+   "grade": "OPEN_QUESTION",
+   "event_stage": "origin",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "Old Phyrexia was an artificial plane created by an unknown Planeswalker; the creator is not identified.",
+   "limitation": "Do not name a creator from non-Wizards sources."
+  },
+  {
+   "id": "C011",
+   "subject": "yawgmoth",
+   "predicate": "invaded",
+   "object": "dominaria",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "Yawgmoth used the Phyrexians to launch repeated invasions of his home plane.",
+   "limitation": ""
+  },
+  {
+   "id": "C012",
+   "subject": "yawgmoth",
+   "predicate": "defeated_by",
+   "object": "karn;gerrard;urza",
+   "grade": "CANON_DISPUTED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "c_pwg_one",
+    "c_pwg_dominaria_2022",
+    "urza_profile"
+   ],
+   "summary": "Official summaries credit Yawgmoth's end differently: the ONE guide says he was slain by Karn and his allies; the 2022 Dominaria guide credits Gerrard with bringing about his defeat; the Urza profile (Pack B) says Urza and Yawgmoth perished together. All accounts are preserved.",
+   "limitation": "Accounts may be complementary rather than contradictory (shared final battle); the Apocalypse novel is not ingested, so the precise sequence is unresolved here."
+  },
+  {
+   "id": "C013",
+   "subject": "old_phyrexia",
+   "predicate": "destroyed_in",
+   "object": "first_phyrexian_invasion",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "Old Phyrexia was destroyed after Yawgmoth's defeat.",
+   "limitation": "The guide states Old Phyrexia was destroyed but does not explicitly tie the destruction to the same battle."
+  },
+  {
+   "id": "C014",
+   "subject": "coalition",
+   "predicate": "formed_during",
+   "object": "first_phyrexian_invasion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "first_invasion",
+   "source_ids": [
+    "c_pwg_dominaria_2022"
+   ],
+   "summary": "During the first Phyrexian Invasion, Dominaria's inhabitants formed the Coalition, an alliance spanning many species, peoples and nations.",
+   "limitation": ""
+  },
+  {
+   "id": "C015",
+   "subject": "jhoira",
+   "predicate": "rebuilt",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_2018",
+   "source_ids": [
+    "c_dmu_legends"
+   ],
+   "summary": "After rebuilding the skyship, Jhoira handed the captaincy to Shanna and retired to her workshop at the Mana Rig.",
+   "limitation": "The 2018 Return to Dominaria rebuild arc is not claim-extracted episode by episode."
+  },
+  {
+   "id": "C016",
+   "subject": "shanna",
+   "predicate": "captain_of",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_dmu_legends"
+   ],
+   "summary": "Shanna took over as captain of the Weatherlight when Jhoira gave up control.",
+   "limitation": ""
+  },
+  {
+   "id": "C017",
+   "subject": "jhoira",
+   "predicate": "leader_of",
+   "object": "coalition",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_dmu_legends"
+   ],
+   "summary": "When news of the Phyrexian invasion reached her, Jhoira joined the Coalition and serves as one of its leaders.",
+   "limitation": "Applies to the DMU-era Coalition."
+  },
+  {
+   "id": "C018",
+   "subject": "jodah",
+   "predicate": "rallies_for",
+   "object": "coalition",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_dmu_legends"
+   ],
+   "summary": "Jodah, an archmage over 4,000 years old, uses his reputation to rally allies to the Coalition's banner.",
+   "limitation": ""
+  },
+  {
+   "id": "C019",
+   "subject": "jodah",
+   "predicate": "born_in_aftermath_of",
+   "object": "brothers_war",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "post_brothers_war",
+   "source_ids": [
+    "c_dmu_legends"
+   ],
+   "summary": "Jodah was born when 'his ancestor's war' had decimated Terisiare, implying the Brothers' War.",
+   "limitation": "The source does not name the war or the ancestor."
+  },
+  {
+   "id": "C020",
+   "subject": "sheoldred",
+   "predicate": "leads",
+   "object": "dmu_sheoldred_invasion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_pwg_dominaria_2022"
+   ],
+   "summary": "Praetor Sheoldred leads a new invasion of Dominaria.",
+   "limitation": ""
+  },
+  {
+   "id": "C021",
+   "subject": "raff_capashen",
+   "predicate": "crew_of",
+   "object": "weatherlight",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_pwg_dominaria_2022"
+   ],
+   "summary": "Raff Capashen is navigator and ship's mage for the Weatherlight.",
+   "limitation": ""
+  },
+  {
+   "id": "C022",
+   "subject": "house_capashen",
+   "predicate": "descends_to",
+   "object": "gerrard",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_united",
+   "source_ids": [
+    "c_pwg_dominaria_2022"
+   ],
+   "summary": "House Capashen's heritage stretches from ancient Sheoltun nobility to the hero Gerrard.",
+   "limitation": ""
+  },
+  {
+   "id": "C023",
+   "subject": "urza;mishra",
+   "predicate": "discovered",
+   "object": "powerstones",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "pre_brothers_war",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "Urza and Mishra discovered ancient stones of power in the Caves of Koilos.",
+   "limitation": "Fills part of the Pack B Koilos gap; the powerstone split (Mightstone/Weakstone) is still not sourced."
+  },
+  {
+   "id": "C024",
+   "subject": "powerstones",
+   "predicate": "found_at",
+   "object": "caves_of_koilos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "pre_brothers_war",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "The stones of power were found in the Caves of Koilos.",
+   "limitation": ""
+  },
+  {
+   "id": "C025",
+   "subject": "urza",
+   "predicate": "discovered",
+   "object": "old_phyrexia",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "post_brothers_war",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "At the end of the Brothers' War, Urza discovered the plane of Phyrexia.",
+   "limitation": ""
+  },
+  {
+   "id": "C026",
+   "subject": "dominaria",
+   "predicate": "epicenter_of",
+   "object": "temporal_rifts_mending",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "time_spiral",
+   "source_ids": [
+    "c_dominaria_plane"
+   ],
+   "summary": "Dominaria was the epicenter of temporal-planar fractures; a handful of powerful Planeswalkers mended the rifts.",
+   "limitation": "Participants in the Mending are not named in the cited source."
+  },
+  {
+   "id": "C027",
+   "subject": "teferi",
+   "predicate": "lost_and_reclaimed",
+   "object": "planeswalker_spark",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dominaria_2018",
+   "source_ids": [
+    "c_teferi_profile"
+   ],
+   "summary": "Teferi phased his homeland out of time, later lost his spark, and new threats inspired him to reclaim it.",
+   "limitation": "Homeland not named in the profile (do not assert Zhalfir from this source)."
+  },
+  {
+   "id": "C028",
+   "subject": "elesh_norn",
+   "predicate": "sought_leader_like",
+   "object": "yawgmoth",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "new_phyrexia",
+   "source_ids": [
+    "c_pwg_one"
+   ],
+   "summary": "The Machine Orthodoxy, under Elesh Norn, sought a leader to replicate the glory days of Yawgmoth; Norn later embraced the role of Mother of Machines.",
+   "limitation": ""
+  }
+ ],
+ "remaining": [
+  "Weatherlight Saga (Tempest through Apocalypse) novels/comics not ingested; Gerrard, Sisay, Hanna, Mirri, Crovax, Volrath arcs absent",
+  "Return to Dominaria 2018 episodes 1-12 fetched list exists in story_index.csv but not claim-extracted",
+  "Dominaria United and Brothers' War-era MOM/March of the Machine story episodes not extracted; Phyrexian invasion of the multiverse (MOM) not covered",
+  "Mirrodin/Scars of Mirrodin chronology (Memnarch, Darksteel, Fifth Dawn, Scars) only summarized via ONE guide",
+  "Old Phyrexia creator: unknown per official source (OPEN_QUESTION C010)",
+  "Who struck down Yawgmoth: competing official summaries preserved (C012)",
+  "No card anchors yet (e.g. Weatherlight, Karn printings, Yawgmoth, Thran Physician); next step is printing matches"
+ ]
+}
