@@ -14,6 +14,8 @@ on:
       - 'tests/test_card_name_anchors.py'
       - 'scripts/audit_lore_pack_rtd.py'
       - 'tests/test_lore_pack_rtd.py'
+      - 'scripts/audit_lore_pack_a5.py'
+      - 'tests/test_lore_pack_a5.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   push:
     paths:
@@ -26,6 +28,8 @@ on:
       - 'tests/test_card_name_anchors.py'
       - 'scripts/audit_lore_pack_rtd.py'
       - 'tests/test_lore_pack_rtd.py'
+      - 'scripts/audit_lore_pack_a5.py'
+      - 'tests/test_lore_pack_a5.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   workflow_dispatch:
 
@@ -54,3 +58,7 @@ jobs:
         run: |
           python3 scripts/audit_lore_pack_rtd.py --check
           python3 -m unittest discover -s tests -p 'test_lore_pack_rtd.py' -v
+      - name: Pack A5 Ugin's allies quote audit (Pilot 3 research; hashes, cache absent in CI) and tests
+        run: |
+          python3 scripts/audit_lore_pack_a5.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_a5.py' -v

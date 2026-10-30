@@ -42,13 +42,13 @@ def sha(s: str) -> str:
     return hashlib.sha256(s.encode("utf-8")).hexdigest()
 
 
-def audit(pack: dict, cache: Path = CACHE) -> dict:
+def audit(pack: dict, cache: Path = CACHE, url_re=URL_RE, pack_path: Path = PACK, schema: str = "pack-c2-rtd-audit/v1") -> dict:
     problems: list[str] = []
     primary_urls = {r["url"] for r in csv.DictReader(PRIMARY.open(encoding="utf-8"))}
     reg = pack["source_register"]
     for sid, meta in sorted(reg.items()):
-        if not URL_RE.match(meta.get("url", "")):
-            problems.append(f"{sid}: not an official Return to Dominaria episode URL")
+        if not url_re.match(meta.get("url", "")):
+            problems.append(f"{sid}: not an allowed official Wizards story URL")
         if meta.get("url") not in primary_urls:
             problems.append(f"{sid}: URL missing from data/primary_sources.csv")
     ents = {e["id"] for e in pack["entities"]}
@@ -83,8 +83,8 @@ def audit(pack: dict, cache: Path = CACHE) -> dict:
     for c in pack["claims"]:
         grades[c["grade"]] = grades.get(c["grade"], 0) + 1
     out = {
-        "schema": "pack-c2-rtd-audit/v1",
-        "pack": str(PACK.relative_to(ROOT)),
+        "schema": schema,
+        "pack": str(pack_path.relative_to(ROOT)),
         "pack_status": pack["status"],
         "claims": len(pack["claims"]),
         "entities": len(pack["entities"]),
@@ -100,12 +100,13 @@ def audit(pack: dict, cache: Path = CACHE) -> dict:
     return out, cache_present
 
 
-def main(argv=None) -> int:
+def main(argv=None, pack_path: Path = PACK, out_path: Path = OUT, url_re=URL_RE, schema: str = "pack-c2-rtd-audit/v1") -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args(argv)
-    pack = json.loads(PACK.read_text(encoding="utf-8"))
-    new, cache_present = audit(pack)
+    OUT = out_path
+    pack = json.loads(pack_path.read_text(encoding="utf-8"))
+    new, cache_present = audit(pack, CACHE, url_re, pack_path, schema)
     if a.check:
         old = json.loads(OUT.read_text(encoding="utf-8"))
         body = {k: v for k, v in old.items() if k != "content_sha256"}
