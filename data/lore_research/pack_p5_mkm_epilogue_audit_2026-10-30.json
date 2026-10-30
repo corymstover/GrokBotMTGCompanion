@@ -1,0 +1,37 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_mkm_epilogue_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MKM",
+ "claims": 1,
+ "entities": 3,
+ "sources": 1,
+ "grades": {
+  "CANON_CONFIRMED": 1
+ },
+ "quotes": 3,
+ "quotes_verbatim": 3,
+ "quote_rows": [
+  {
+   "claim": "MK101",
+   "source_id": "mkms_ep11",
+   "quote_sha256": "331f0b2febad48536eeb54d4029b9e81ad860f07d4cebcdf4337ca545773fb21",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK101",
+   "source_id": "mkms_ep11",
+   "quote_sha256": "ad3184276d79b5377e287469ae78ab064368834e806f0cd9895dddece955d5cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK101",
+   "source_id": "mkms_ep11",
+   "quote_sha256": "1bf498451f6554639e5ec7a1aaa70600113d7d92e3c6d3c13f3c80b5d722c2ab",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "6b89152d05bded6841e881163143715e4498749a9d7ab682fbd837fb7885b820"
+}

@@ -1,0 +1,116 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_mom_side_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MOM",
+ "claims": 8,
+ "entities": 19,
+ "sources": 8,
+ "grades": {
+  "CANON_CONFIRMED": 6,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 16,
+ "quotes_verbatim": 16,
+ "quote_rows": [
+  {
+   "claim": "MS001",
+   "source_id": "moms_arcavios",
+   "quote_sha256": "59acd058da1b0e63dee75bf109ce80551b722d578816b60500820de940e685c6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS001",
+   "source_id": "moms_arcavios",
+   "quote_sha256": "1fde7131ac1cfd72f489967507502e7d00bb425efadb9f3d7f5440b167573231",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS002",
+   "source_id": "moms_ikoria",
+   "quote_sha256": "91ca59e1e8c94da17838d4948d8a35f8bfb123af8467b3c67d832d3bef212d56",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS002",
+   "source_id": "moms_ikoria",
+   "quote_sha256": "2fd5027de38298634895ee1cc002ea2aef00a843817f7b5e160f0311900c4961",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS003",
+   "source_id": "moms_ixalan",
+   "quote_sha256": "f09acb88c11572cc659903fe9f6e99bda89e78e197faad409136d9ff7b0c9dd2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS003",
+   "source_id": "moms_ixalan",
+   "quote_sha256": "a4c59fed635e3b00c589eba8615fcb067988223203f4474ccde901efe05d0687",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS004",
+   "source_id": "moms_innistrad",
+   "quote_sha256": "9d4a3da80e1fd79fa38d448e208c42fb54a02d1d5aa74904b0ec0b4068383a45",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS004",
+   "source_id": "moms_innistrad",
+   "quote_sha256": "bb628b4cdee58a82ac4909ab59e17343ff83d4ef6f8702a57926a857bdebb0e6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS005",
+   "source_id": "moms_eldraine",
+   "quote_sha256": "1bc168aed7308d18d046516e372218bae347a70cd2bf66c1716c19d0033c57cd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS005",
+   "source_id": "moms_eldraine",
+   "quote_sha256": "212e306729d3a8d7dc846251af463cdafb112539517ffec0502686696b8d2711",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS006",
+   "source_id": "moms_ravnica",
+   "quote_sha256": "2f12a2a6c5823266e6e49cbccb7c45c3334743883be6b47e1794a1b0cd4ff76e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS006",
+   "source_id": "moms_ravnica",
+   "quote_sha256": "6d6f7bfd10ea3ae7c4984af7b36c1a9055aaba60e9af0bc2fe0da197709242aa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS007",
+   "source_id": "moms_zendikar",
+   "quote_sha256": "f8b5e9348bced172ba668e41e8912e1dd9bdcaaf8450c34a87648911001e3243",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS007",
+   "source_id": "moms_zendikar",
+   "quote_sha256": "9987c5ae1685cf4f306823edb717491acd14092b16bd5ed81a8a970fdd163fe8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS008",
+   "source_id": "moms_capenna",
+   "quote_sha256": "65cb33c8886ab1aff6f5ad61ca3f9be040d81f88d4f6d1194ad75bf54732ad1f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MS008",
+   "source_id": "moms_capenna",
+   "quote_sha256": "beebb3125471849ab4708cc87612d6b3e1454feeb476550b1aedc1b2fb1afa74",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "f6b51c7991a26199adfaa3c59d6f1fdbf6b4243e3b4a4fa12902fd35f0e26c2a"
+}

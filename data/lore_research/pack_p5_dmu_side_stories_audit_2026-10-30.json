@@ -1,0 +1,62 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_dmu_side_stories_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DMU",
+ "claims": 5,
+ "entities": 10,
+ "sources": 4,
+ "grades": {
+  "CANON_CONFIRMED": 4,
+  "CANON_IMPLIED": 1
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "DU101",
+   "source_id": "dmus_home",
+   "quote_sha256": "b2f80e72b94bb5c5d524505a9d1423af1ae30edb667286b3e920505c280a5107",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU101",
+   "source_id": "dmus_home",
+   "quote_sha256": "ab4e36c49a91955622990bd55227cbeb65c470aaee0752bf65fe71b36fe77404",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU102",
+   "source_id": "dmus_home",
+   "quote_sha256": "d7bbf65812d1386647945dc41f79401cd42c1a08d596d4fb1c8e83cbca3c3050",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU103",
+   "source_id": "dmus_ulf",
+   "quote_sha256": "cb233830ad4caf4d4b7781c22e05271d482b189663681140d00beaa5bfb01649",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU103",
+   "source_id": "dmus_ulf",
+   "quote_sha256": "8f438b08b22e7c355196aef0689efa314bdf0e52ab7c0f1184bf3fdc9c0d8372",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU104",
+   "source_id": "dmus_squee",
+   "quote_sha256": "5920676d74c2d1f1d5d74df4905679587dba5ea21ecaab411812c81485aea507",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "DU105",
+   "source_id": "dmus_shards",
+   "quote_sha256": "0143e4b19fdb0b333ff73db51081e9c0cedb9ed74d07678779db50c05df0fd17",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "5d4c3d144b75be5dcf17cee74726ac5615194dcde21a170f6ae1f8e0b916f4fd"
+}

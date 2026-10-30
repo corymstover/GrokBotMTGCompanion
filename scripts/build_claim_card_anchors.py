@@ -72,6 +72,13 @@ STORY_SETS = {
     "pack_p5_tarkir_dragonstorm_2026-10-30.json": ["tdm"],
     "pack_p5_lorwyn_eclipsed_2026-10-30.json": ["ecl"],
     "pack_p5_brothers_war_2026-10-30.json": ["bro"],
+    "pack_p5_one_side_stories_2026-10-30.json": ["one"],
+    "pack_p5_mom_side_stories_2026-10-30.json": ["mom"],
+    "pack_p5_otj_side_stories_2026-10-30.json": ["otj"],
+    "pack_p5_dsk_side_stories_2026-10-30.json": ["dsk"],
+    "pack_p5_mkm_epilogue_2026-10-30.json": ["mkm"],
+    "pack_p5_snc_side_stories_2026-10-30.json": ["snc"],
+    "pack_p5_dmu_side_stories_2026-10-30.json": ["dmu"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

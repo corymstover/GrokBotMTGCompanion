@@ -48,8 +48,8 @@
   "pages": 626,
   "cited_pages": 295,
   "arcs_not_started": 0,
-  "arcs_partial": 17,
-  "arcs_all_cited": 16,
+  "arcs_partial": 22,
+  "arcs_all_cited": 11,
   "claims": 650,
   "pack_urls_outside_inventory": 12
  },
@@ -108,17 +108,26 @@
   },
   {
    "arc": "BFZ/OGW",
-   "pages": 19,
+   "pages": 27,
    "cited_pages": 19,
    "kinds": {
-    "story": 19
+    "story": 27
    },
    "citing_packs": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json"
    ],
-   "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "status": "PARTIAL",
+   "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30",
+    "https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16",
+    "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23",
+    "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07",
+    "https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26",
+    "https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19",
+    "https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09",
+    "https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12"
+   ]
   },
   {
    "arc": "BLB",
@@ -172,22 +181,26 @@
   },
   {
    "arc": "DMU",
-   "pages": 6,
+   "pages": 10,
    "cited_pages": 1,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 5
+    "story": 9
    },
    "citing_packs": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16",
+    "https://magic.wizards.com/en/news/magic-story/education-ulf-2022-08-15",
     "https://magic.wizards.com/en/news/magic-story/episode-1-echoes-dark-2022-08-10",
     "https://magic.wizards.com/en/news/magic-story/episode-2-sand-hourglass-2022-08-11",
     "https://magic.wizards.com/en/news/magic-story/episode-3-locked-tower-2022-08-12",
     "https://magic.wizards.com/en/news/magic-story/episode-4-brutal-blow-2022-08-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18"
+    "https://magic.wizards.com/en/news/magic-story/episode-5-whisper-wind-2022-08-18",
+    "https://magic.wizards.com/en/news/magic-story/homecoming-2022-08-12",
+    "https://magic.wizards.com/en/news/magic-story/shards-nightmares-2022-08-17"
    ]
   },
   {
@@ -212,18 +225,24 @@
   },
   {
    "arc": "DSK",
-   "pages": 7,
+   "pages": 13,
    "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 6
+    "story": 12
    },
    "citing_packs": [
     "pack_p5_duskmourn_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party"
+    "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party",
+    "https://magic.wizards.com/en/news/magic-story/side-five-dead-end",
+    "https://magic.wizards.com/en/news/magic-story/side-four-keep-them-alive",
+    "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home",
+    "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day",
+    "https://magic.wizards.com/en/news/magic-story/side-three-children-of-the-carnival-part-2",
+    "https://magic.wizards.com/en/news/magic-story/side-two-children-of-the-carnival-part-1"
    ]
   },
   {
@@ -287,20 +306,25 @@
   },
   {
    "arc": "KHM",
-   "pages": 8,
+   "pages": 13,
    "cited_pages": 6,
    "kinds": {
     "feature": 1,
     "planeswalkers-guide": 2,
-    "story": 5
+    "story": 10
    },
    "citing_packs": [
     "pack_p5_kaldheim_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/aim-through-target-2021-01-15",
+    "https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22",
+    "https://magic.wizards.com/en/news/magic-story/direction-purpose-honor-glory-2021-01-29",
     "https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13"
+    "https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13",
+    "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08",
+    "https://magic.wizards.com/en/news/magic-story/saga-lathril-2021-02-05"
    ]
   },
   {
@@ -352,95 +376,131 @@
   },
   {
    "arc": "MID/VOW",
-   "pages": 11,
+   "pages": 19,
    "cited_pages": 8,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 10
+    "story": 18
    },
    "citing_packs": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/blessing-blood-2021-11-05",
+    "https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24",
+    "https://magic.wizards.com/en/news/magic-story/dusk-reborn-2021-10-01",
+    "https://magic.wizards.com/en/news/magic-story/edge-world-2021-10-29",
     "https://magic.wizards.com/en/news/magic-story/episode-2-motives-wolf-2021-09-08",
     "https://magic.wizards.com/en/news/magic-story/episode-3-fall-house-betzold-2021-09-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22"
+    "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22",
+    "https://magic.wizards.com/en/news/magic-story/his-eyes-all-them-2021-09-17",
+    "https://magic.wizards.com/en/news/magic-story/sisters-2021-09-10",
+    "https://magic.wizards.com/en/news/magic-story/survivors-2021-11-12",
+    "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03"
    ]
   },
   {
    "arc": "MKM",
-   "pages": 11,
+   "pages": 12,
    "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 10
+    "story": 11
    },
    "citing_packs": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
     "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became"
    ]
   },
   {
    "arc": "MOM",
-   "pages": 11,
+   "pages": 19,
    "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 10
+    "story": 18
    },
    "citing_packs": [
     "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine"
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine",
+    "https://magic.wizards.com/en/news/magic-story/a-radiant-heart",
+    "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind",
+    "https://magic.wizards.com/en/news/magic-story/family-game-night",
+    "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
+    "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest",
+    "https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love",
+    "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights",
+    "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun"
    ]
   },
   {
    "arc": "NEO",
-   "pages": 6,
+   "pages": 10,
    "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 5
+    "story": 9
    },
    "citing_packs": [
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
-   "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "status": "PARTIAL",
+   "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/blade-reflected-and-reborn-2022-02-07",
+    "https://magic.wizards.com/en/news/magic-story/epoch-engine-2022-02-08",
+    "https://magic.wizards.com/en/news/magic-story/foes-who-make-us-2022-02-09",
+    "https://magic.wizards.com/en/news/magic-story/kaito-origin-stories-test-loyalty-path-forward-2021-12-16"
+   ]
   },
   {
    "arc": "ONE",
-   "pages": 6,
+   "pages": 11,
    "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 5
+    "story": 10
    },
    "citing_packs": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
-   "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "status": "PARTIAL",
+   "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
+    "https://magic.wizards.com/en/news/magic-story/a-man-of-parts",
+    "https://magic.wizards.com/en/news/magic-story/alone",
+    "https://magic.wizards.com/en/news/magic-story/cinders",
+    "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy"
+   ]
   },
   {
    "arc": "OTJ",
-   "pages": 8,
+   "pages": 14,
    "cited_pages": 8,
    "kinds": {
-    "story": 8
+    "feature": 1,
+    "story": 13
    },
    "citing_packs": [
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
    ],
-   "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "status": "PARTIAL",
+   "uncited_urls": [
+    "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
+    "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
+    "https://magic.wizards.com/en/news/magic-story/a-long-way-from-home",
+    "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing",
+    "https://magic.wizards.com/en/news/magic-story/blood-is-thicker-than-venom",
+    "https://magic.wizards.com/en/news/magic-story/no-tells"
+   ]
   },
   {
    "arc": "RF",
@@ -458,17 +518,23 @@
   },
   {
    "arc": "SNC",
-   "pages": 6,
+   "pages": 11,
    "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 5
+    "story": 10
    },
    "citing_packs": [
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
-   "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "status": "PARTIAL",
+   "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/alley-cat-blues-2022-04-05",
+    "https://magic.wizards.com/en/news/magic-story/contract-breaker-2022-03-28",
+    "https://magic.wizards.com/en/news/magic-story/family-man-2022-04-04",
+    "https://magic.wizards.com/en/news/magic-story/side-freedom-2022-03-30",
+    "https://magic.wizards.com/en/news/magic-story/what-you-expect-see-2022-03-29"
+   ]
   },
   {
    "arc": "SOI/EMN",
@@ -500,18 +566,23 @@
   },
   {
    "arc": "STX",
-   "pages": 6,
+   "pages": 11,
    "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 1,
-    "story": 5
+    "story": 10
    },
    "citing_packs": [
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07"
+    "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23",
+    "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
+    "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
+    "https://magic.wizards.com/en/news/magic-story/episode-3-extracurriculars-2021-04-07",
+    "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
+    "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30"
    ]
   },
   {
@@ -550,17 +621,30 @@
   },
   {
    "arc": "THS",
-   "pages": 6,
+   "pages": 19,
    "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 5,
-    "story": 1
+    "story": 14
    },
    "citing_packs": [
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
+    "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17",
+    "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19",
+    "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16",
+    "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23",
+    "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05",
+    "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29",
+    "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05",
+    "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14",
+    "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11",
+    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19",
+    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0",
+    "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30",
+    "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26",
     "https://magic.wizards.com/en/story/theros-plane"
    ]
   },
@@ -601,12 +685,12 @@
   },
   {
    "arc": "(untagged)",
-   "pages": 305,
+   "pages": 227,
    "cited_pages": 17,
    "kinds": {
-    "feature": 10,
+    "feature": 9,
     "planeswalkers-guide": 27,
-    "story": 268
+    "story": 191
    },
    "citing_packs": [
     "pack_a5_ugin_allies_2026-10-30.json",
@@ -618,8 +702,6 @@
    ],
    "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/announcements/a-first-look-at-outlaws-of-thunder-junction",
-    "https://magic.wizards.com/en/news/feature/a-legendary-crew-for-an-unbelievable-heist-outlaws-of-thunder-junction",
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia",
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction",
     "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-progress-engine",
@@ -654,87 +736,47 @@
     "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19",
     "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
     "https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01",
-    "https://magic.wizards.com/en/news/magic-story/a-hollow-body",
-    "https://magic.wizards.com/en/news/magic-story/a-long-way-from-home",
-    "https://magic.wizards.com/en/news/magic-story/a-man-of-parts",
-    "https://magic.wizards.com/en/news/magic-story/a-pleasant-family-outing",
-    "https://magic.wizards.com/en/news/magic-story/a-radiant-heart",
-    "https://magic.wizards.com/en/news/magic-story/aim-through-target-2021-01-15",
-    "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17",
     "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04",
-    "https://magic.wizards.com/en/news/magic-story/alley-cat-blues-2022-04-05",
-    "https://magic.wizards.com/en/news/magic-story/alone",
     "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
     "https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27",
     "https://magic.wizards.com/en/news/magic-story/awakening-the-bear",
     "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
-    "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind",
     "https://magic.wizards.com/en/news/magic-story/beneath-riverroot-tree-2020-09-18",
     "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14",
     "https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21",
-    "https://magic.wizards.com/en/news/magic-story/blade-reflected-and-reborn-2022-02-07",
     "https://magic.wizards.com/en/news/magic-story/blessed-life-2012-07-24",
-    "https://magic.wizards.com/en/news/magic-story/blessing-blood-2021-11-05",
-    "https://magic.wizards.com/en/news/magic-story/blood-is-thicker-than-venom",
     "https://magic.wizards.com/en/news/magic-story/bloody-instructions",
-    "https://magic.wizards.com/en/news/magic-story/blue-green-ribbons-2021-04-23",
     "https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03",
     "https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14",
-    "https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22",
     "https://magic.wizards.com/en/news/magic-story/burn",
     "https://magic.wizards.com/en/news/magic-story/call-2015-04-15",
     "https://magic.wizards.com/en/news/magic-story/catching-2015-07-22",
-    "https://magic.wizards.com/en/news/magic-story/chains-bind-2021-04-09",
     "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
     "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
     "https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10",
-    "https://magic.wizards.com/en/news/magic-story/cinders",
     "https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24",
     "https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28",
-    "https://magic.wizards.com/en/news/magic-story/contract-breaker-2022-03-28",
     "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22",
-    "https://magic.wizards.com/en/news/magic-story/cry-magic-2021-03-26",
     "https://magic.wizards.com/en/news/magic-story/cyan-depths-2021-07-28",
-    "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19",
-    "https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24",
     "https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30",
-    "https://magic.wizards.com/en/news/magic-story/death-and-salvation-2022-08-16",
     "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07",
     "https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21",
-    "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16",
     "https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19",
-    "https://magic.wizards.com/en/news/magic-story/direction-purpose-honor-glory-2021-01-29",
     "https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04",
-    "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23",
     "https://magic.wizards.com/en/news/magic-story/dreams-of-the-damned",
     "https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20",
-    "https://magic.wizards.com/en/news/magic-story/dusk-reborn-2021-10-01",
-    "https://magic.wizards.com/en/news/magic-story/edge-world-2021-10-29",
-    "https://magic.wizards.com/en/news/magic-story/education-ulf-2022-08-15",
-    "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05",
     "https://magic.wizards.com/en/news/magic-story/enlightened",
     "https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02",
-    "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
     "https://magic.wizards.com/en/news/magic-story/episode-2-race-murasa-skyclave-2020-09-09",
     "https://magic.wizards.com/en/news/magic-story/episode-3-dangerous-climb-long-fall-2020-09-16",
     "https://magic.wizards.com/en/news/magic-story/episode-4-haunting-songs-and-whispered-warnings-2020-09-23",
     "https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30",
-    "https://magic.wizards.com/en/news/magic-story/epoch-engine-2022-02-08",
     "https://magic.wizards.com/en/news/magic-story/faith-birds-2022-08-17",
-    "https://magic.wizards.com/en/news/magic-story/family-game-night",
-    "https://magic.wizards.com/en/news/magic-story/family-man-2022-04-04",
-    "https://magic.wizards.com/en/news/magic-story/foes-who-make-us-2022-02-09",
     "https://magic.wizards.com/en/news/magic-story/garden-flesh-2022-05-03",
-    "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29",
     "https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12",
     "https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04",
     "https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02",
-    "https://magic.wizards.com/en/news/magic-story/hard-as-anger-bright-as-joy",
-    "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05",
     "https://magic.wizards.com/en/news/magic-story/hidden-page-2021-07-07",
-    "https://magic.wizards.com/en/news/magic-story/his-eyes-all-them-2021-09-17",
-    "https://magic.wizards.com/en/news/magic-story/home-waters-2015-09-30",
-    "https://magic.wizards.com/en/news/magic-story/homecoming-2022-08-12",
     "https://magic.wizards.com/en/news/magic-story/hunger-2020-09-25",
     "https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16",
     "https://magic.wizards.com/en/news/magic-story/illusions-childs-play-2019-01-23",
@@ -743,13 +785,9 @@
     "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2",
     "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3",
     "https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26",
-    "https://magic.wizards.com/en/news/magic-story/kaito-origin-stories-test-loyalty-path-forward-2021-12-16",
     "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18",
-    "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14",
-    "https://magic.wizards.com/en/news/magic-story/know-which-way-wind-blowing-2021-01-08",
     "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16",
     "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18",
-    "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11",
     "https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03",
     "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20",
     "https://magic.wizards.com/en/news/magic-story/leovolds-dossiers-2016-08-24",
@@ -761,24 +799,16 @@
     "https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01",
     "https://magic.wizards.com/en/news/magic-story/magosi-steps-2020-09-10",
     "https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09",
-    "https://magic.wizards.com/en/news/magic-story/memories-blood-2015-09-16",
-    "https://magic.wizards.com/en/news/magic-story/mentor-2021-04-16",
     "https://magic.wizards.com/en/news/magic-story/mercy",
     "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15",
     "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0",
     "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31",
     "https://magic.wizards.com/en/news/magic-story/nissa-worldwaker-2014-06-25",
     "https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08",
-    "https://magic.wizards.com/en/news/magic-story/nissas-quest-2015-09-23",
-    "https://magic.wizards.com/en/news/magic-story/nissas-resolve-2015-10-07",
     "https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11",
-    "https://magic.wizards.com/en/news/magic-story/no-tells",
     "https://magic.wizards.com/en/news/magic-story/note-stranger-2022-05-02",
     "https://magic.wizards.com/en/news/magic-story/odric-master-tactician-2012-06-26",
     "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05",
-    "https://magic.wizards.com/en/news/magic-story/one-and-the-same",
-    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19",
-    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0",
     "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07",
     "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0",
     "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18",
@@ -790,41 +820,20 @@
     "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27",
     "https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30",
     "https://magic.wizards.com/en/news/magic-story/red-route-2020-09-04",
-    "https://magic.wizards.com/en/news/magic-story/saga-lathril-2021-02-05",
     "https://magic.wizards.com/en/news/magic-story/scarlet-flames-2021-06-30",
-    "https://magic.wizards.com/en/news/magic-story/shards-nightmares-2022-08-17",
-    "https://magic.wizards.com/en/news/magic-story/side-five-dead-end",
-    "https://magic.wizards.com/en/news/magic-story/side-four-keep-them-alive",
-    "https://magic.wizards.com/en/news/magic-story/side-freedom-2022-03-30",
-    "https://magic.wizards.com/en/news/magic-story/side-one-welcome-home",
-    "https://magic.wizards.com/en/news/magic-story/side-six-its-a-beautiful-day",
-    "https://magic.wizards.com/en/news/magic-story/side-three-children-of-the-carnival-part-2",
-    "https://magic.wizards.com/en/news/magic-story/side-two-children-of-the-carnival-part-1",
-    "https://magic.wizards.com/en/news/magic-story/silent-cry-2015-08-26",
-    "https://magic.wizards.com/en/news/magic-story/silent-voice-calls-2021-04-30",
-    "https://magic.wizards.com/en/news/magic-story/sisters-2021-09-10",
-    "https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19",
     "https://magic.wizards.com/en/news/magic-story/spirits-of-the-abzan",
     "https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13",
     "https://magic.wizards.com/en/news/magic-story/stonekiller-part-2-2012-08-13",
-    "https://magic.wizards.com/en/news/magic-story/survival-of-the-fittest",
-    "https://magic.wizards.com/en/news/magic-story/survivors-2021-11-12",
-    "https://magic.wizards.com/en/news/magic-story/survivors-sky-rock-2015-09-09",
     "https://magic.wizards.com/en/news/magic-story/taigams-scheming",
     "https://magic.wizards.com/en/news/magic-story/talrand-sky-summoner-2012-07-30",
-    "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03",
     "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
     "https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17",
-    "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30",
-    "https://magic.wizards.com/en/news/magic-story/the-adventures-of-rankle-master-of-love",
     "https://magic.wizards.com/en/news/magic-story/the-chensal-twins",
-    "https://magic.wizards.com/en/news/magic-story/the-fall-of-park-heights",
     "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan",
     "https://magic.wizards.com/en/news/magic-story/the-salt-road",
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-1",
     "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-2",
     "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
-    "https://magic.wizards.com/en/news/magic-story/three-hundred-steps-under-the-sun",
     "https://magic.wizards.com/en/news/magic-story/torrent",
     "https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28",
     "https://magic.wizards.com/en/news/magic-story/tyrants-2016-08-10",
@@ -837,12 +846,9 @@
     "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
     "https://magic.wizards.com/en/news/magic-story/verdant-tomb-2021-07-14",
     "https://magic.wizards.com/en/news/magic-story/victory-2014-11-26",
-    "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26",
     "https://magic.wizards.com/en/news/magic-story/way-of-the-mantis",
-    "https://magic.wizards.com/en/news/magic-story/what-you-expect-see-2022-03-29",
     "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29",
     "https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03",
-    "https://magic.wizards.com/en/news/magic-story/zendikar-2015-08-12",
     "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3",
     "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker",
     "https://magic.wizards.com/en/story/alara-plane",
@@ -909,5 +915,5 @@
    ]
   }
  ],
- "sha256": "2259af6743fcf4013e2a1fb55e0acfb81bcb12123497989321b1e35e06314889"
+ "sha256": "f2d1fbe4b2fed63fb49ebc165aa3d3e7eab69a8b0cb919871960e0b6fcfee93a"
 }

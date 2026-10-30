@@ -1,0 +1,70 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_mkm_epilogue",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MKM",
+ "scope": "Targeted Phase 5 extraction from the official Murders at Karlov Manor Episode 11 page tagged to the MKM arc in batch 7. One claim; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_mkm_epilogue.spec.json",
+ "source_register": {
+  "mkms_ep11": {
+   "title": "Murders at Karlov Manor | Episode 11: Portents and Omens",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-02-14"
+  }
+ },
+ "entities": [
+  {
+   "id": "niv_mizzet",
+   "type": "Character",
+   "name": "Niv-Mizzet"
+  },
+  {
+   "id": "etrata",
+   "type": "Character",
+   "name": "Etrata"
+  },
+  {
+   "id": "alquist_proft",
+   "type": "Character",
+   "name": "Alquist Proft"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MK101",
+   "subject": "alquist_proft",
+   "predicate": "met",
+   "object": "niv_mizzet",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "murders_at_karlov_manor_2024",
+   "source_ids": [
+    "mkms_ep11"
+   ],
+   "evidence": [
+    {
+     "source_id": "mkms_ep11",
+     "quote": "Niv-Mizzet turned away from the massive platinum tome he had been studying, fixing the two smaller creatures with a look."
+    },
+    {
+     "source_id": "mkms_ep11",
+     "quote": "Proft cleared his throat, focusing on Niv-Mizzet once more."
+    },
+    {
+     "source_id": "mkms_ep11",
+     "quote": "\"Getting an appointment was no easy feat,\" said Proft."
+    }
+   ],
+   "summary": "In Episode 11, Proft (with Etrata) gets an audience with Niv-Mizzet, who is studying a platinum tome.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 1,
+ "pages_cited": 1,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Only one claim; the episode's Omenpath revelations are not graded"
+ ]
+}

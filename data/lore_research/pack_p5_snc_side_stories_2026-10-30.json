@@ -1,0 +1,223 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_snc_side_stories",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "SNC",
+ "scope": "Targeted Phase 5 extraction from the five official Streets of New Capenna side stories (March-April 2022) tagged to the SNC arc in batch 7. One claim per page; not an exhaustive reading. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_snc_side_stories.spec.json",
+ "source_register": {
+  "sncs_contract": {
+   "title": "The Contract Breaker",
+   "url": "https://magic.wizards.com/en/news/magic-story/contract-breaker-2022-03-28",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-03-28"
+  },
+  "sncs_expect": {
+   "title": "What You Expect to See",
+   "url": "https://magic.wizards.com/en/news/magic-story/what-you-expect-see-2022-03-29",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-03-29"
+  },
+  "sncs_freedom": {
+   "title": "The Side of Freedom",
+   "url": "https://magic.wizards.com/en/news/magic-story/side-freedom-2022-03-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-03-30"
+  },
+  "sncs_family": {
+   "title": "The Family Man",
+   "url": "https://magic.wizards.com/en/news/magic-story/family-man-2022-04-04",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-04-04"
+  },
+  "sncs_alley": {
+   "title": "Alley Cat Blues",
+   "url": "https://magic.wizards.com/en/news/magic-story/alley-cat-blues-2022-04-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2022-04-05"
+  }
+ },
+ "entities": [
+  {
+   "id": "perrie",
+   "type": "Character",
+   "name": "Perrie"
+  },
+  {
+   "id": "brokers",
+   "type": "Faction",
+   "name": "The Brokers"
+  },
+  {
+   "id": "kamiz",
+   "type": "Character",
+   "name": "Kamiz"
+  },
+  {
+   "id": "raffine",
+   "type": "Character",
+   "name": "Raffine"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "urabrask",
+   "type": "Character",
+   "name": "Urabrask"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "anhelo",
+   "type": "Character",
+   "name": "Anhelo"
+  },
+  {
+   "id": "maestros",
+   "type": "Faction",
+   "name": "The Maestros"
+  },
+  {
+   "id": "kitt",
+   "type": "Character",
+   "name": "Kitt"
+  },
+  {
+   "id": "jetmir",
+   "type": "Character",
+   "name": "Jetmir"
+  },
+  {
+   "id": "cabaretti",
+   "type": "Faction",
+   "name": "The Cabaretti"
+  }
+ ],
+ "claims": [
+  {
+   "id": "SC101",
+   "subject": "perrie",
+   "predicate": "member_of",
+   "object": "brokers",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "streets_of_new_capenna_2022",
+   "source_ids": [
+    "sncs_contract"
+   ],
+   "evidence": [
+    {
+     "source_id": "sncs_contract",
+     "quote": "Most people take one look at someone like Perrie and think \"head basher,\" but Perrie's rise through the Brokers has given him more interesting assignments, and more complex fights, than just basic bashing heads."
+    }
+   ],
+   "summary": "Perrie has risen through the Brokers.",
+   "limitation": ""
+  },
+  {
+   "id": "SC102",
+   "subject": "kamiz",
+   "predicate": "serves",
+   "object": "raffine",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "streets_of_new_capenna_2022",
+   "source_ids": [
+    "sncs_expect"
+   ],
+   "evidence": [
+    {
+     "source_id": "sncs_expect",
+     "quote": "\"Ah, Kamiz: Raffine's right-hand cephalid.\""
+    },
+    {
+     "source_id": "sncs_expect",
+     "quote": "One of the perks of being Raffine's spymaster: minimal interaction with people."
+    }
+   ],
+   "summary": "Kamiz is Raffine's right-hand cephalid and spymaster.",
+   "limitation": ""
+  },
+  {
+   "id": "SC103",
+   "subject": "vivien_reid",
+   "predicate": "met",
+   "object": "urabrask",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "streets_of_new_capenna_2022",
+   "source_ids": [
+    "sncs_freedom"
+   ],
+   "evidence": [
+    {
+     "source_id": "sncs_freedom",
+     "quote": "Art by: Simon Dominic Despite Urabrask's state, Vivien kept her distance."
+    },
+    {
+     "source_id": "sncs_freedom",
+     "quote": "Anhelo had taken her right to the Maestros' museum after Elspeth had agreed to join the family—which Vivien found to be a curious decision for a planeswalker."
+    }
+   ],
+   "summary": "On New Capenna, Vivien encounters Urabrask and notes Elspeth joining the Maestros.",
+   "limitation": "The first quote includes an art credit run into the text by the page layout."
+  },
+  {
+   "id": "SC104",
+   "subject": "anhelo",
+   "predicate": "member_of",
+   "object": "maestros",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "streets_of_new_capenna_2022",
+   "source_ids": [
+    "sncs_family"
+   ],
+   "evidence": [
+    {
+     "source_id": "sncs_family",
+     "quote": "But Anhelo hated to disappoint—the boss, Errant, his adoring public."
+    },
+    {
+     "source_id": "sncs_family",
+     "quote": "Evelyn's \"favors\" were about the worst thing you could have hanging around your neck in the Maestros."
+    }
+   ],
+   "summary": "Anhelo works for the Maestros under the boss Errant.",
+   "limitation": "Membership inferred from 'the boss, Errant' and the Maestros setting."
+  },
+  {
+   "id": "SC105",
+   "subject": "kitt",
+   "predicate": "feared",
+   "object": "jetmir",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "streets_of_new_capenna_2022",
+   "source_ids": [
+    "sncs_alley"
+   ],
+   "evidence": [
+    {
+     "source_id": "sncs_alley",
+     "quote": "Anyway, come to think of it, she had a lot more confidence in her ability to out-maneuver a big lunk of a viashino and her Riveteer friends than to double-cross the canny Cabaretti and that Jetmir, who'd seen what she could be."
+    }
+   ],
+   "summary": "Kitt would rather out-maneuver the Riveteers than double-cross Jetmir and the Cabaretti.",
+   "limitation": "Her relation to Jetmir is wary respect, inferred."
+  }
+ ],
+ "pages_registered": 5,
+ "pages_cited": 5,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "One claim per side story; family politics beyond these are not modelled"
+ ]
+}
