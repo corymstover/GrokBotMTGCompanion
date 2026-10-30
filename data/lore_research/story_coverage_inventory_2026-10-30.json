@@ -21,18 +21,20 @@
    "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json",
    "data/lore_research/pack_p5_reality_fracture_2026-10-30.json",
    "data/lore_research/pack_p5_wilds_of_eldraine_2026-10-30.json",
-   "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
+   "data/lore_research/pack_p5_duskmourn_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 134,
-  "arcs_not_started": 13,
-  "arcs_partial": 16,
+  "cited_pages": 146,
+  "arcs_not_started": 11,
+  "arcs_partial": 18,
   "arcs_all_cited": 4,
-  "claims": 329,
+  "claims": 352,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -54,7 +56,9 @@
   "pack_p5_edge_of_eternities_2026-10-30.json": 17,
   "pack_p5_reality_fracture_2026-10-30.json": 13,
   "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
-  "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14
+  "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14,
+  "pack_p5_bloomburrow_2026-10-30.json": 12,
+  "pack_p5_duskmourn_2026-10-30.json": 11
  },
  "arcs": [
   {
@@ -113,22 +117,18 @@
   {
    "arc": "BLB",
    "pages": 8,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 3,
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1",
     "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-2",
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-3",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-nightfall-in-fountainport"
+    "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling"
    ]
   },
   {
@@ -217,20 +217,16 @@
   {
    "arc": "DSK",
    "pages": 7,
-   "cited_pages": 0,
+   "cited_pages": 6,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 6
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
-    "https://magic.wizards.com/en/news/magic-story/episode-five-dont-give-in",
-    "https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up",
-    "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house",
-    "https://magic.wizards.com/en/news/magic-story/episode-six-dont-die",
-    "https://magic.wizards.com/en/news/magic-story/episode-three-dont-look-back",
     "https://magic.wizards.com/en/news/magic-story/episode-two-dont-split-the-party"
    ]
   },
@@ -1015,5 +1011,5 @@
    ]
   }
  ],
- "sha256": "9f0543cf835d0d575f50bb3b42ee6da10b8e8762f06a4a649d8f96f15859c19e"
+ "sha256": "78dd74b589404e0c12a1ac703b8f88f9a383613c7f2bf9f87f8f4a25b6895c4d"
 }

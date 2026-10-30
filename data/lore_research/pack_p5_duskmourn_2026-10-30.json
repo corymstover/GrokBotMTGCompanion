@@ -1,0 +1,374 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_duskmourn",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "DSK",
+ "scope": "Targeted Phase 5 extraction from the six official Duskmourn: House of Horror Magic Story episodes (2024-08-19 to 2024-08-30) and the Planeswalker's Guide to Duskmourn. PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_duskmourn.spec.json",
+ "source_register": {
+  "dsk_ep1": {
+   "title": "Duskmourn: House of Horror | Episode 1: Don't Go Past the Old Dark House",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-19"
+  },
+  "dsk_ep3": {
+   "title": "Duskmourn: House of Horror | Episode 3: Don't Look Back",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-three-dont-look-back",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-22"
+  },
+  "dsk_ep4": {
+   "title": "Duskmourn: House of Horror | Episode 4: Don't Give Up",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-26"
+  },
+  "dsk_ep5": {
+   "title": "Duskmourn: House of Horror | Episode 5: Don't Give In",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-five-dont-give-in",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-28"
+  },
+  "dsk_ep6": {
+   "title": "Duskmourn: House of Horror | Episode 6: Don't Die",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-six-dont-die",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-30"
+  },
+  "dsk_guide": {
+   "title": "Planeswalker's Guide to Duskmourn",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn",
+   "kind": "official_planeswalkers_guide",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2024-08-31"
+  }
+ },
+ "entities": [
+  {
+   "id": "valgavoth",
+   "type": "Character",
+   "name": "Valgavoth"
+  },
+  {
+   "id": "the_house",
+   "type": "Place",
+   "name": "The House"
+  },
+  {
+   "id": "duskmourn",
+   "type": "Plane",
+   "name": "Duskmourn"
+  },
+  {
+   "id": "marina_vendrell",
+   "type": "Character",
+   "name": "Marina Vendrell"
+  },
+  {
+   "id": "winter",
+   "type": "Character",
+   "name": "Winter"
+  },
+  {
+   "id": "nashi",
+   "type": "Character",
+   "name": "Nashi"
+  },
+  {
+   "id": "the_wanderer",
+   "type": "Character",
+   "name": "The Wanderer"
+  },
+  {
+   "id": "kaito_shizuki",
+   "type": "Character",
+   "name": "Kaito Shizuki"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "tyvar_kell",
+   "type": "Character",
+   "name": "Tyvar Kell"
+  },
+  {
+   "id": "kaldheim",
+   "type": "Plane",
+   "name": "Kaldheim"
+  },
+  {
+   "id": "zimone",
+   "type": "Character",
+   "name": "Zimone"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "alquist_proft",
+   "type": "Character",
+   "name": "Alquist Proft"
+  },
+  {
+   "id": "artificial_omenpath",
+   "type": "Object",
+   "name": "Artificial Omenpath"
+  }
+ ],
+ "claims": [
+  {
+   "id": "DS001",
+   "subject": "valgavoth",
+   "predicate": "imprisoned_in",
+   "object": "the_house",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_guide",
+     "quote": "Originally, the House was an ordinary dwelling, within which the demonic entity known as Valgavoth had been imprisoned."
+    },
+    {
+     "source_id": "dsk_guide",
+     "quote": "To stop themselves from being devoured, they'd bound the demon to the physical structure of the house and fled."
+    }
+   ],
+   "summary": "Valgavoth was summoned by earlier owners of the House and bound to its physical structure.",
+   "limitation": ""
+  },
+  {
+   "id": "DS002",
+   "subject": "valgavoth",
+   "predicate": "seized_control_of",
+   "object": "duskmourn",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_guide",
+     "quote": "Eventually, he was able to swallow up the entirety of the plane within the walls of the House in a period known as the Ascension."
+    },
+    {
+     "source_id": "dsk_guide",
+     "quote": "Unable to break the binding, he found a way to work around it instead by redefining and expanding the boundaries of what counted as his prison."
+    }
+   ],
+   "summary": "Valgavoth expands his prison until the House swallows the whole plane (the Ascension), creating Duskmourn.",
+   "limitation": ""
+  },
+  {
+   "id": "DS003",
+   "subject": "marina_vendrell",
+   "predicate": "freed",
+   "object": "valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_guide",
+     "quote": "Trapped and unable to feed, the demon had sunk into hibernation and bided his time—until Marina came along and unwittingly loosened his shackles."
+    }
+   ],
+   "summary": "Marina Vendrell unwittingly loosens Valgavoth's shackles.",
+   "limitation": "Unwitting partial release; he remains technically bound to the House."
+  },
+  {
+   "id": "DS004",
+   "subject": "the_wanderer",
+   "predicate": "sought",
+   "object": "nashi",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dsk_rescue_2024",
+   "source_ids": [
+    "dsk_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep3",
+     "quote": "Winter was looking at them like they had made the biggest mistake the world had ever known by coming here, but they hadn't arrived by mistake: they'd been looking for Nashi."
+    },
+    {
+     "source_id": "dsk_ep3",
+     "quote": "\"Can it take us to Nashi?\" asked the Wanderer."
+    }
+   ],
+   "summary": "The Wanderer, Kaito and their companions enter the House to find Nashi.",
+   "limitation": ""
+  },
+  {
+   "id": "DS005",
+   "subject": "jace_beleren",
+   "predicate": "allied_with",
+   "object": "kaito_shizuki",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep4",
+     "quote": "Jace and Kaito stood back to back, making it harder for something to ambush them."
+    }
+   ],
+   "summary": "Jace Beleren fights alongside Kaito inside the House.",
+   "limitation": ""
+  },
+  {
+   "id": "DS006",
+   "subject": "kaito_shizuki",
+   "predicate": "created",
+   "object": "artificial_omenpath",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "dsk_escape_2024",
+   "source_ids": [
+    "dsk_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep6",
+     "quote": "\"An artificial Omenpath,\" said Kaito. \"My spark, Proft's mind magic, Aminatou's fate-twisting, and a piece of the House that I took with me when I had to planeswalk away."
+    }
+   ],
+   "summary": "The escape route is an artificial Omenpath built from Kaito's spark, Proft's mind magic, Aminatou's fate-twisting and a piece of the House.",
+   "limitation": "Kaito's explanation in dialogue; a joint construction with Proft and Aminatou."
+  },
+  {
+   "id": "DS007",
+   "subject": "valgavoth",
+   "predicate": "captured",
+   "object": "winter",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dsk_epilogue_2024",
+   "source_ids": [
+    "dsk_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep6",
+     "quote": "Winter caught the motion out of the corner of his eye and turned to see Valgavoth's tendrils extending toward him."
+    },
+    {
+     "source_id": "dsk_ep6",
+     "quote": "Pulling Winter higher to his leaking, punctured chest, Valgavoth melted into the ceiling, and all in the House was silence."
+    }
+   ],
+   "summary": "After the survivors escape, a wounded Valgavoth seizes Winter.",
+   "limitation": "Winter's fate after capture is not shown."
+  },
+  {
+   "id": "DS008",
+   "subject": "tyvar_kell",
+   "predicate": "related_to",
+   "object": "kaldheim",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_ep1"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep1",
+     "quote": "Tyvar Kell, elf prince of Kaldheim, stood shirtless in the snow"
+    }
+   ],
+   "summary": "Tyvar Kell is an elf prince of Kaldheim.",
+   "limitation": ""
+  },
+  {
+   "id": "DS009",
+   "subject": "zimone",
+   "predicate": "returned_to",
+   "object": "strixhaven",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "dsk_epilogue_2024",
+   "source_ids": [
+    "dsk_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep6",
+     "quote": "The others had gone with Zimone back to Strixhaven; Tyvar and Niko had seemed excited about the prospect of a game called \"Mage Tower.\""
+    }
+   ],
+   "summary": "After the escape, Zimone returns to Strixhaven with Tyvar and Niko.",
+   "limitation": ""
+  },
+  {
+   "id": "DS010",
+   "subject": "valgavoth",
+   "predicate": "opposed",
+   "object": "alquist_proft",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "dsk_epilogue_2024",
+   "source_ids": [
+    "dsk_ep6"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep6",
+     "quote": "Even more slowly than it had appeared, the door swung open, and a cool wind blew through the office. Proft stiffened."
+    },
+    {
+     "source_id": "dsk_ep6",
+     "quote": "As it finished forming, the space at the center smoothed, becoming a door engraved with white-winged moths."
+    }
+   ],
+   "summary": "In the epilogue a moth-engraved door, the House's motif, appears in Proft's mental office.",
+   "limitation": "The door's source is not named; Valgavoth's involvement is inferred from the moth motif."
+  },
+  {
+   "id": "DS011",
+   "subject": "marina_vendrell",
+   "predicate": "related_to",
+   "object": "valgavoth",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "duskmourn_dsk_2024",
+   "source_ids": [
+    "dsk_ep5",
+    "dsk_guide"
+   ],
+   "evidence": [
+    {
+     "source_id": "dsk_ep5",
+     "quote": "His name is Valgavoth—Val—and he was summoned here and bound by one of the owners before us."
+    },
+    {
+     "source_id": "dsk_guide",
+     "quote": "Marina Vendrell The last surviving member of the Vendrell family continues to live in the House—sort of."
+    }
+   ],
+   "summary": "Marina Vendrell, last of the Vendrells, still lives in the House and knows the demon as 'Val'.",
+   "limitation": "Quoted from Marina's diary as Zimone reads it aloud; the guide says her awareness of the truth is unclear."
+  }
+ ],
+ "pages_registered": 6,
+ "pages_cited": 6,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Nashi's farewell to the scroll and Aminatou's role are not graded",
+  "Marina Vendrell's bargain with Valgavoth is not fully modelled",
+  "Episode 2 is not cited"
+ ]
+}

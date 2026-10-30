@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "3920d99ca38cb72ea61500a0277876094b8a7fa30319f3b14355392684a5b941",
+ "content_sha256": "9de88e8c02f4d5ad36dbe444203a9dedb3df31c3210c7ab1485e239715c14fbe",
  "edges": [
   {
    "artists": [
@@ -5701,6 +5701,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:helga",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:helga_skittish_seer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:huatli",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -5849,6 +5856,13 @@
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:kaito",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kaito_shizuki"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kaito_shizuki",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:kaito_shizuki"
@@ -6097,6 +6111,34 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:lyra_dawnbringer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mabel",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mabel_bitter_recluse"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mabel",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mabel_heir_to_cragflame"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mabel",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mabel_valley_hero"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:marina_vendrell",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:marina_vendrell"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7080,6 +7122,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tyvar_kell",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tyvar_kell"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ugin",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7154,6 +7203,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:vaevictis_asmadi_the_dire"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:valgavoth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:valgavoth_harrower_of_souls"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:valgavoth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:valgavoth_terror_eater"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -7290,6 +7353,41 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:winter",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:winter_cursed_rider"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:winter",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:winter_cynical_opportunist"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:winter",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:winter_misanthropic_guide"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:winter",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:winter_team_player"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:winter",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:winter_tormented_loner"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:xander",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -7315,6 +7413,48 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:zegana_utopian_speaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zimone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zimone_all_questioning"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zimone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zimone_infinite_analyst"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zimone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zimone_mystery_unraveler"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zimone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zimone_paradox_sculptor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zimone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zimone_quandrix_prodigy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:zoraline",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:zoraline_cosmos_caller"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -8578,6 +8718,151 @@
    "to": "artifact:sylex_replica"
   },
   {
+   "claim": "BL001",
+   "era": "blb_prologue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "blb_ep1"
+   ],
+   "to": "character:jace_beleren"
+  },
+  {
+   "claim": "BL002",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spouse_of",
+   "sources": [
+    "blb_ep1"
+   ],
+   "to": "character:tomik_vrona"
+  },
+  {
+   "claim": "BL003",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_IMPLIED",
+   "relation": "related_to",
+   "sources": [
+    "blb_ep1"
+   ],
+   "to": "character:ral_zarek"
+  },
+  {
+   "claim": "BL004",
+   "era": "blb_quest_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:maha",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "blb_ep2"
+   ],
+   "to": "place:pondside"
+  },
+  {
+   "claim": "BL005",
+   "era": "blb_climax_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:king_glarb",
+   "grade": "CANON_IMPLIED",
+   "relation": "hired",
+   "sources": [
+    "blb_ep5"
+   ],
+   "to": "character:cruelclaw"
+  },
+  {
+   "claim": "BL006",
+   "era": "blb_climax_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:king_glarb",
+   "grade": "CANON_IMPLIED",
+   "relation": "sought_control_of",
+   "sources": [
+    "blb_ep5"
+   ],
+   "to": "artifact:calamity_beast_egg"
+  },
+  {
+   "claim": "BL007",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lily_of_the_valley",
+   "grade": "CANON_IMPLIED",
+   "relation": "defeated",
+   "sources": [
+    "blb_ep2"
+   ],
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "claim": "BL008",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lily_of_the_valley",
+   "grade": "CANON_CONFIRMED",
+   "relation": "named",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "artifact:cragflame"
+  },
+  {
+   "claim": "BL009",
+   "era": "bloomburrow_blb_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:mabel",
+   "grade": "CANON_IMPLIED",
+   "relation": "related_to",
+   "sources": [
+    "blb_guide1",
+    "blb_guide3"
+   ],
+   "to": "character:lily_of_the_valley"
+  },
+  {
+   "claim": "BL010",
+   "era": "blb_quest_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:mabel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "blb_ep3"
+   ],
+   "to": "character:zoraline"
+  },
+  {
+   "claim": "BL011",
+   "era": "blb_epilogue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ral_zarek",
+   "grade": "CANON_CONFIRMED",
+   "relation": "left",
+   "sources": [
+    "blb_ep5"
+   ],
+   "to": "plane:bloomburrow"
+  },
+  {
+   "claim": "BL012",
+   "era": "blb_climax_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:helga",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "blb_ep5"
+   ],
+   "to": "character:mabel"
+  },
+  {
    "claim": "C001",
    "era": "first_invasion",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -8944,6 +9229,139 @@
     "c_pwg_one"
    ],
    "to": "character:yawgmoth"
+  },
+  {
+   "claim": "DS001",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "imprisoned_in",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "place:the_house"
+  },
+  {
+   "claim": "DS002",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "seized_control_of",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "plane:duskmourn"
+  },
+  {
+   "claim": "DS003",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marina_vendrell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "freed",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "character:valgavoth"
+  },
+  {
+   "claim": "DS004",
+   "era": "dsk_rescue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "dsk_ep3"
+   ],
+   "to": "character:nashi"
+  },
+  {
+   "claim": "DS005",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "relation": "allied_with",
+   "sources": [
+    "dsk_ep4"
+   ],
+   "to": "character:kaito_shizuki"
+  },
+  {
+   "claim": "DS006",
+   "era": "dsk_escape_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kaito_shizuki",
+   "grade": "CANON_IMPLIED",
+   "relation": "created",
+   "sources": [
+    "dsk_ep6"
+   ],
+   "to": "artifact:artificial_omenpath"
+  },
+  {
+   "claim": "DS007",
+   "era": "dsk_epilogue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "captured",
+   "sources": [
+    "dsk_ep6"
+   ],
+   "to": "character:winter"
+  },
+  {
+   "claim": "DS008",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tyvar_kell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "related_to",
+   "sources": [
+    "dsk_ep1"
+   ],
+   "to": "plane:kaldheim"
+  },
+  {
+   "claim": "DS009",
+   "era": "dsk_epilogue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:zimone",
+   "grade": "CANON_CONFIRMED",
+   "relation": "returned_to",
+   "sources": [
+    "dsk_ep6"
+   ],
+   "to": "place:strixhaven"
+  },
+  {
+   "claim": "DS010",
+   "era": "dsk_epilogue_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_IMPLIED",
+   "relation": "opposed",
+   "sources": [
+    "dsk_ep6"
+   ],
+   "to": "character:alquist_proft"
+  },
+  {
+   "claim": "DS011",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marina_vendrell",
+   "grade": "CANON_IMPLIED",
+   "relation": "related_to",
+   "sources": [
+    "dsk_ep5",
+    "dsk_guide"
+   ],
+   "to": "character:valgavoth"
   },
   {
    "claim": "EO001",
@@ -11892,6 +12310,12 @@
    "to": "curated:Planeswalker Dossiers.md#gideon-jura"
   },
   {
+   "from": "character:helga",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#helga"
+  },
+  {
    "from": "character:huatli",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -11935,6 +12359,18 @@
   },
   {
    "from": "character:kaito",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#kaito-shizuki"
+  },
+  {
+   "from": "character:kaito_shizuki",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#kaito-shizuki"
+  },
+  {
+   "from": "character:kaito_shizuki",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#kaito-shizuki"
@@ -12185,6 +12621,12 @@
   },
   {
    "from": "character:tyvar",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tyvar-kell"
+  },
+  {
+   "from": "character:tyvar_kell",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Characters Index.md#tyvar-kell"
@@ -13346,6 +13788,150 @@
    "to": "character:saheeli"
   },
   {
+   "from": "claim:BL001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:BL001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:BL002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tomik_vrona"
+  },
+  {
+   "from": "claim:BL002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:BL003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:BL003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:BL004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:pondside"
+  },
+  {
+   "from": "claim:BL004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:maha"
+  },
+  {
+   "from": "claim:BL005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:cruelclaw"
+  },
+  {
+   "from": "claim:BL005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:king_glarb"
+  },
+  {
+   "from": "claim:BL006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:calamity_beast_egg"
+  },
+  {
+   "from": "claim:BL006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:king_glarb"
+  },
+  {
+   "from": "claim:BL007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "from": "claim:BL007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lily_of_the_valley"
+  },
+  {
+   "from": "claim:BL008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:cragflame"
+  },
+  {
+   "from": "claim:BL008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lily_of_the_valley"
+  },
+  {
+   "from": "claim:BL009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:lily_of_the_valley"
+  },
+  {
+   "from": "claim:BL009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:mabel"
+  },
+  {
+   "from": "claim:BL010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:zoraline"
+  },
+  {
+   "from": "claim:BL010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:mabel"
+  },
+  {
+   "from": "claim:BL011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BL011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ral_zarek"
+  },
+  {
+   "from": "claim:BL012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:mabel"
+  },
+  {
+   "from": "claim:BL012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:helga"
+  },
+  {
    "from": "claim:C001",
    "relation": "asserts",
    "role": "object",
@@ -13692,6 +14278,138 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:DS001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:the_house"
+  },
+  {
+   "from": "claim:DS001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:duskmourn"
+  },
+  {
+   "from": "claim:DS002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marina_vendrell"
+  },
+  {
+   "from": "claim:DS004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nashi"
+  },
+  {
+   "from": "claim:DS004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:DS005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kaito_shizuki"
+  },
+  {
+   "from": "claim:DS005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:DS006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:artificial_omenpath"
+  },
+  {
+   "from": "claim:DS006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kaito_shizuki"
+  },
+  {
+   "from": "claim:DS007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:winter"
+  },
+  {
+   "from": "claim:DS007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kaldheim"
+  },
+  {
+   "from": "claim:DS008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tyvar_kell"
+  },
+  {
+   "from": "claim:DS009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:strixhaven"
+  },
+  {
+   "from": "claim:DS009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:zimone"
+  },
+  {
+   "from": "claim:DS010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:alquist_proft"
+  },
+  {
+   "from": "claim:DS010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DS011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marina_vendrell"
   },
   {
    "from": "claim:EO001",
@@ -16467,6 +17185,18 @@
    "to": "curated:Planes Index.md#amonkhet"
   },
   {
+   "from": "plane:bloomburrow",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#bloomburrow"
+  },
+  {
+   "from": "plane:duskmourn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#duskmourn"
+  },
+  {
    "from": "plane:eldraine",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -16489,6 +17219,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planes Index.md#ixalan"
+  },
+  {
+   "from": "plane:kaldheim",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#kaldheim"
   },
   {
    "from": "plane:new_capenna",
@@ -16624,6 +17360,71 @@
    "from": "source:akh_trust",
    "relation": "cited_by",
    "to": "claim:AKH002"
+  },
+  {
+   "from": "source:blb_ep1",
+   "relation": "cited_by",
+   "to": "claim:BL001"
+  },
+  {
+   "from": "source:blb_ep1",
+   "relation": "cited_by",
+   "to": "claim:BL002"
+  },
+  {
+   "from": "source:blb_ep1",
+   "relation": "cited_by",
+   "to": "claim:BL003"
+  },
+  {
+   "from": "source:blb_ep2",
+   "relation": "cited_by",
+   "to": "claim:BL004"
+  },
+  {
+   "from": "source:blb_ep2",
+   "relation": "cited_by",
+   "to": "claim:BL007"
+  },
+  {
+   "from": "source:blb_ep3",
+   "relation": "cited_by",
+   "to": "claim:BL010"
+  },
+  {
+   "from": "source:blb_ep5",
+   "relation": "cited_by",
+   "to": "claim:BL005"
+  },
+  {
+   "from": "source:blb_ep5",
+   "relation": "cited_by",
+   "to": "claim:BL006"
+  },
+  {
+   "from": "source:blb_ep5",
+   "relation": "cited_by",
+   "to": "claim:BL011"
+  },
+  {
+   "from": "source:blb_ep5",
+   "relation": "cited_by",
+   "to": "claim:BL012"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BL008"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BL009"
+  },
+  {
+   "from": "source:blb_guide3",
+   "relation": "cited_by",
+   "to": "claim:BL009"
   },
   {
    "from": "source:blood_fire",
@@ -16983,6 +17784,66 @@
    "from": "source:dmu_legends",
    "relation": "cited_by",
    "to": "claim:A024"
+  },
+  {
+   "from": "source:dsk_ep1",
+   "relation": "cited_by",
+   "to": "claim:DS008"
+  },
+  {
+   "from": "source:dsk_ep3",
+   "relation": "cited_by",
+   "to": "claim:DS004"
+  },
+  {
+   "from": "source:dsk_ep4",
+   "relation": "cited_by",
+   "to": "claim:DS005"
+  },
+  {
+   "from": "source:dsk_ep5",
+   "relation": "cited_by",
+   "to": "claim:DS011"
+  },
+  {
+   "from": "source:dsk_ep6",
+   "relation": "cited_by",
+   "to": "claim:DS006"
+  },
+  {
+   "from": "source:dsk_ep6",
+   "relation": "cited_by",
+   "to": "claim:DS007"
+  },
+  {
+   "from": "source:dsk_ep6",
+   "relation": "cited_by",
+   "to": "claim:DS009"
+  },
+  {
+   "from": "source:dsk_ep6",
+   "relation": "cited_by",
+   "to": "claim:DS010"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DS001"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DS002"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DS003"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DS011"
   },
   {
    "from": "source:eoe_ep10",
@@ -18664,6 +19525,20 @@
     "file": "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
     "sha256": "9659d973203e42d3bf91d721c43c2e934d0b3c97b8adcb5a41d345fb01795502",
     "sources": 10
+   },
+   {
+    "claims": 12,
+    "entities": 16,
+    "file": "data/lore_research/pack_p5_bloomburrow_2026-10-30.json",
+    "sha256": "80a96049bd933cf05acd1f4a7f92054b98610ed32d119690fa64f7add3e53d4e",
+    "sources": 6
+   },
+   {
+    "claims": 11,
+    "entities": 15,
+    "file": "data/lore_research/pack_p5_duskmourn_2026-10-30.json",
+    "sha256": "524ee1013841c82e5decac8f3222fa104348c16759adf93326a76a41e6330c4c",
+    "sources": 6
    }
   ],
   "deck_evidence": [
@@ -18685,9 +19560,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 329,
+    "anchors": 349,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "972d3997d4896dbe2ee864d4615565b64bb59f2ba1d5ef284c6bca47f6c25a2d"
+    "sha256": "dac8adcb783d35193c907681330cfeaf90fbac8074f4e86e3b4c1edb1921c377"
    }
   ],
   "story_caption_packs": [
@@ -18709,10 +19584,26 @@
  "meaning": "Directional, cited relationships compiled from committed research packs. A relationship edge inherits its claim's canon status; deck-proposal and curated-bridge edges are navigation, never canon assertions.",
  "nodes": [
   {
+   "id": "artifact:artificial_omenpath",
+   "name": "Artificial Omenpath",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:blackblade",
    "name": "The Blackblade",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:calamity_beast_egg",
+   "name": "The Calamity Beast egg",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -18729,6 +19620,14 @@
    "name": "The Chain Veil",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:cragflame",
+   "name": "Cragflame",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -21038,6 +21937,15 @@
    "type": "Card"
   },
   {
+   "id": "card:helga_skittish_seer",
+   "name": "Helga, Skittish Seer",
+   "oracle_id": "0a0d25a8-4f28-453b-9270-4d449fe0ca65",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:helvault",
    "name": "Helvault",
    "oracle_id": "fa3d8a6f-dc5b-4890-a806-f785a41660c7",
@@ -21994,6 +22902,33 @@
    "type": "Card"
   },
   {
+   "id": "card:mabel_bitter_recluse",
+   "name": "Mabel, Bitter Recluse",
+   "oracle_id": "36924990-8e3a-434e-bcd1-f03603cb350d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mabel_heir_to_cragflame",
+   "name": "Mabel, Heir to Cragflame",
+   "oracle_id": "4b11e435-5888-4e3b-a255-db817392163f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mabel_valley_hero",
+   "name": "Mabel, Valley Hero",
+   "oracle_id": "ab56f7cf-9538-45b5-a657-1e2ebef1e92b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:maelstrom_of_the_spirit_dragon",
    "name": "Maelstrom of the Spirit Dragon",
    "oracle_id": "49e9fba7-8465-4bbb-95db-73a7e149f494",
@@ -22055,6 +22990,15 @@
    "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:marina_vendrell",
+   "name": "Marina Vendrell",
+   "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -24925,6 +25869,24 @@
    "type": "Card"
   },
   {
+   "id": "card:valgavoth_harrower_of_souls",
+   "name": "Valgavoth, Harrower of Souls",
+   "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:valgavoth_terror_eater",
+   "name": "Valgavoth, Terror Eater",
+   "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vedalken_shackles",
    "name": "Vedalken Shackles",
    "oracle_id": "fddac567-c42c-453b-9c82-c3140b374a06",
@@ -25216,6 +26178,51 @@
    "type": "Card"
   },
   {
+   "id": "card:winter_cursed_rider",
+   "name": "Winter, Cursed Rider",
+   "oracle_id": "343833c1-19fd-4e8f-b82e-0f20903caaff",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:winter_cynical_opportunist",
+   "name": "Winter, Cynical Opportunist",
+   "oracle_id": "e70a01dd-4dbe-4811-ac93-1c6d0142e06e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:winter_misanthropic_guide",
+   "name": "Winter, Misanthropic Guide",
+   "oracle_id": "5a9baafb-bffd-4e28-bbe1-b4154cd86bf3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:winter_team_player",
+   "name": "Winter, Team Player",
+   "oracle_id": "254f133a-eee5-48b9-b19f-110555e49300",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:winter_tormented_loner",
+   "name": "Winter, Tormented Loner",
+   "oracle_id": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:without_weakness",
    "name": "Without Weakness",
    "oracle_id": "fffa9334-3576-4f70-9605-2ad062cdbc69",
@@ -25363,6 +26370,60 @@
    "type": "Card"
   },
   {
+   "id": "card:zimone_all_questioning",
+   "name": "Zimone, All-Questioning",
+   "oracle_id": "6c044dd1-8938-4d62-a7b2-e2298de08f70",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zimone_infinite_analyst",
+   "name": "Zimone, Infinite Analyst",
+   "oracle_id": "977f9390-e01d-4e9d-8e9c-e543b1266972",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zimone_mystery_unraveler",
+   "name": "Zimone, Mystery Unraveler",
+   "oracle_id": "75bf0f27-9df1-4ab4-97a8-94bb3223bdf9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zimone_paradox_sculptor",
+   "name": "Zimone, Paradox Sculptor",
+   "oracle_id": "9dd674a7-becf-4106-b53f-bca88426d92d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zimone_quandrix_prodigy",
+   "name": "Zimone, Quandrix Prodigy",
+   "oracle_id": "ee2ef1e0-6803-4eb5-8664-605438c67505",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:zoraline_cosmos_caller",
+   "name": "Zoraline, Cosmos Caller",
+   "oracle_id": "5a775f50-20f8-4a8f-868c-8907305bfad6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:zurgo_helmsmasher",
    "name": "Zurgo Helmsmasher",
    "oracle_id": "6c48d888-9f5d-43f4-adbd-61dbdba09260",
@@ -25404,6 +26465,7 @@
    "id": "character:alquist_proft",
    "name": "Alquist Proft",
    "origins": [
+    "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
    "type": "Character"
@@ -25528,6 +26590,14 @@
    "name": "Crosis, the Purger",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:cruelclaw",
+   "name": "Cruelclaw",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -25701,6 +26771,14 @@
    "type": "Character"
   },
   {
+   "id": "character:helga",
+   "name": "Helga",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:huatli",
    "name": "Huatli",
    "origins": [
@@ -25731,6 +26809,8 @@
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json"
@@ -25785,6 +26865,14 @@
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kaito_shizuki",
+   "name": "Kaito Shizuki",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -25847,6 +26935,14 @@
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:king_glarb",
+   "name": "King Glarb",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -25928,6 +27024,14 @@
    "type": "Character"
   },
   {
+   "id": "character:lily_of_the_valley",
+   "name": "Lily of the Valley",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:lukka",
    "name": "Lukka",
    "origins": [
@@ -25940,6 +27044,30 @@
    "name": "Lyra Dawnbringer",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:mabel",
+   "name": "Mabel",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:maha",
+   "name": "Maha, the Night Owl",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:marina_vendrell",
+   "name": "Marina Vendrell",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -26008,7 +27136,8 @@
    "id": "character:nashi",
    "name": "Nashi",
    "origins": [
-    "pack_c4_march_of_the_machine_2026-10-30.json"
+    "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -26131,7 +27260,8 @@
    "id": "character:ral_zarek",
    "name": "Ral Zarek",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -26346,6 +27476,8 @@
    "name": "The Wanderer (Emperor of Kamigawa)",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
    ],
    "type": "Character"
@@ -26363,6 +27495,14 @@
    "name": "Tibalt",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tomik_vrona",
+   "name": "Tomik Vrona",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -26391,6 +27531,14 @@
    "type": "Character"
   },
   {
+   "id": "character:tyvar_kell",
+   "name": "Tyvar Kell",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ugin",
    "name": "Ugin",
    "origins": [
@@ -26415,6 +27563,14 @@
    "name": "Vaevictis Asmadi",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:valgavoth",
+   "name": "Valgavoth",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -26462,6 +27618,14 @@
    "type": "Character"
   },
   {
+   "id": "character:winter",
+   "name": "Winter",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:wrenn",
    "name": "Wrenn",
    "origins": [
@@ -26499,6 +27663,22 @@
    "name": "Zegana",
    "origins": [
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:zimone",
+   "name": "Zimone",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:zoraline",
+   "name": "Zoraline",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -27475,6 +28655,144 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:BL001",
+   "name": "Ral Zarek searches for Jace Beleren, starting from where he last saw him on Thunder Junction.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "blb_prologue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL002",
+   "name": "Ral Zarek is married to Tomik.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "spouse_of",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL003",
+   "limitation": "The Wanderer's loss of her spark is her own statement in dialogue; related_to records the consultation only.",
+   "name": "Ral asks the Wanderer to help track Jace; she says her spark is gone and she cannot help.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL004",
+   "limitation": "The account is Helga's retelling, reported in narration.",
+   "name": "Maha, the Night Owl Calamity Beast, attacks and destroys Helga's village of Pondside.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "blb_quest_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL005",
+   "limitation": "Stated in Glarb's and Cruelclaw's dialogue.",
+   "name": "King Glarb paid Cruelclaw of the Direshade Company to bring him the Calamity Beast egg.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "hired",
+   "stage": "blb_climax_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL006",
+   "limitation": "His intention as stated in dialogue.",
+   "name": "King Glarb plans to control the Calamity Beast in the egg and use it as Valley's champion.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "sought_control_of",
+   "stage": "blb_climax_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL007",
+   "limitation": "A recounted legend, not an event shown in the story.",
+   "name": "In Valley's legends, Lily of the Valley drove Calamity Beasts away with the sword Cragflame.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL008",
+   "name": "The guide says Lily named the tooth of Wildsear Cragflame and left it and her armor to her descendants.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "named",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BL009",
+   "limitation": "Descent is inferred from a card caption plus the guide; neither sentence says Mabel is Lily's descendant.",
+   "name": "Mabel is captioned 'Heir to Cragflame', and the guide says Cragflame passed to Lily's descendants.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "bloomburrow_blb_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL010",
+   "name": "Mabel travels with Zoraline, Hugs and others on the quest.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "blb_quest_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL011",
+   "name": "Ral, who appeared as an otterfolk on Bloomburrow, planeswalks away after the adventure.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "left",
+   "stage": "blb_epilogue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BL012",
+   "name": "Helga and Mabel confront King Glarb together in Fountainport.",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "blb_climax_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:C001",
    "limitation": "Profile-level summary; the Weatherlight Saga novels/comics (Weatherlight through Apocalypse) are not ingested.",
    "name": "The skyship Weatherlight, its crew of heroes, and the Legacy were instrumental in thwarting Phyrexia's invasion of Dominaria.",
@@ -27794,6 +29112,132 @@
    ],
    "predicate": "sought_leader_like",
    "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS001",
+   "name": "Valgavoth was summoned by earlier owners of the House and bound to its physical structure.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "imprisoned_in",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS002",
+   "name": "Valgavoth expands his prison until the House swallows the whole plane (the Ascension), creating Duskmourn.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "seized_control_of",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS003",
+   "limitation": "Unwitting partial release; he remains technically bound to the House.",
+   "name": "Marina Vendrell unwittingly loosens Valgavoth's shackles.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "freed",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS004",
+   "name": "The Wanderer, Kaito and their companions enter the House to find Nashi.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "dsk_rescue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS005",
+   "name": "Jace Beleren fights alongside Kaito inside the House.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:DS006",
+   "limitation": "Kaito's explanation in dialogue; a joint construction with Proft and Aminatou.",
+   "name": "The escape route is an artificial Omenpath built from Kaito's spark, Proft's mind magic, Aminatou's fate-twisting and a piece of the House.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "dsk_escape_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS007",
+   "limitation": "Winter's fate after capture is not shown.",
+   "name": "After the survivors escape, a wounded Valgavoth seizes Winter.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "captured",
+   "stage": "dsk_epilogue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS008",
+   "name": "Tyvar Kell is an elf prince of Kaldheim.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DS009",
+   "name": "After the escape, Zimone returns to Strixhaven with Tyvar and Niko.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "returned_to",
+   "stage": "dsk_epilogue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:DS010",
+   "limitation": "The door's source is not named; Valgavoth's involvement is inferred from the moth motif.",
+   "name": "In the epilogue a moth-engraved door, the House's motif, appears in Proft's mental office.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "dsk_epilogue_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:DS011",
+   "limitation": "Quoted from Marina's diary as Zimone reads it aloud; the guide says her awareness of the truth is unclear.",
+   "name": "Marina Vendrell, last of the Vendrells, still lives in the House and knows the demon as 'Val'.",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "duskmourn_dsk_2024",
    "type": "Claim"
   },
   {
@@ -30478,6 +31922,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#helga",
+   "name": "Characters Index.md#helga",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#huatli",
    "name": "Characters Index.md#huatli",
    "origins": [
@@ -30806,6 +32258,22 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planes Index.md#bloomburrow",
+   "name": "Planes Index.md#bloomburrow",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#duskmourn",
+   "name": "Planes Index.md#duskmourn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#eldraine",
    "name": "Planes Index.md#eldraine",
    "origins": [
@@ -30832,6 +32300,14 @@
   {
    "id": "curated:Planes Index.md#ixalan",
    "name": "Planes Index.md#ixalan",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#kaldheim",
+   "name": "Planes Index.md#kaldheim",
    "origins": [
     "lore_graph.json"
    ],
@@ -31285,6 +32761,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:calamity_beasts",
+   "name": "Calamity Beasts",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:capenna_archangels",
    "name": "Archangels of Old Capenna",
    "origins": [
@@ -31665,6 +33149,14 @@
    "type": "Place"
   },
   {
+   "id": "place:pondside",
+   "name": "Pondside",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:seedcore",
    "name": "The Seedcore (New Phyrexia)",
    "origins": [
@@ -31708,7 +33200,16 @@
    "id": "place:strixhaven",
    "name": "Strixhaven",
    "origins": [
+    "pack_p5_duskmourn_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:the_house",
+   "name": "The House",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -31747,6 +33248,14 @@
    "type": "Plane"
   },
   {
+   "id": "plane:bloomburrow",
+   "name": "Bloomburrow",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:dominaria",
    "name": "Dominaria",
    "origins": [
@@ -31754,6 +33263,14 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:duskmourn",
+   "name": "Duskmourn",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -31795,6 +33312,14 @@
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:kaldheim",
+   "name": "Kaldheim",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -32001,6 +33526,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/trust-2017-04-05"
+  },
+  {
+   "id": "source:blb_ep1",
+   "kind": "official_story_episode",
+   "name": "Bloomburrow | Episode 1: Calamity Comes to Valley",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley"
+  },
+  {
+   "id": "source:blb_ep2",
+   "kind": "official_story_episode",
+   "name": "Bloomburrow | Episode 2: An Expected Party",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-an-expected-party"
+  },
+  {
+   "id": "source:blb_ep3",
+   "kind": "official_story_episode",
+   "name": "Bloomburrow | Episode 3: The Lost and the Found",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-the-lost-and-the-found"
+  },
+  {
+   "id": "source:blb_ep5",
+   "kind": "official_story_episode",
+   "name": "Bloomburrow | Episode 5: Nightfall in Fountainport",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-nightfall-in-fountainport"
+  },
+  {
+   "id": "source:blb_guide1",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Bloomburrow, Part 1",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+  },
+  {
+   "id": "source:blb_guide3",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Bloomburrow, Part 3",
+   "origins": [
+    "pack_p5_bloomburrow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-3"
   },
   {
    "id": "source:blood_fire",
@@ -32239,6 +33830,72 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26"
+  },
+  {
+   "id": "source:dsk_ep1",
+   "kind": "official_story_episode",
+   "name": "Duskmourn: House of Horror | Episode 1: Don't Go Past the Old Dark House",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house"
+  },
+  {
+   "id": "source:dsk_ep3",
+   "kind": "official_story_episode",
+   "name": "Duskmourn: House of Horror | Episode 3: Don't Look Back",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-three-dont-look-back"
+  },
+  {
+   "id": "source:dsk_ep4",
+   "kind": "official_story_episode",
+   "name": "Duskmourn: House of Horror | Episode 4: Don't Give Up",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up"
+  },
+  {
+   "id": "source:dsk_ep5",
+   "kind": "official_story_episode",
+   "name": "Duskmourn: House of Horror | Episode 5: Don't Give In",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-five-dont-give-in"
+  },
+  {
+   "id": "source:dsk_ep6",
+   "kind": "official_story_episode",
+   "name": "Duskmourn: House of Horror | Episode 6: Don't Die",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-six-dont-die"
+  },
+  {
+   "id": "source:dsk_guide",
+   "kind": "official_planeswalkers_guide",
+   "name": "Planeswalker's Guide to Duskmourn",
+   "origins": [
+    "pack_p5_duskmourn_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
   },
   {
    "id": "source:eoe_ep10",
@@ -33556,37 +35213,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 356,
+  "claim_edges_with_era": 379,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 275,
+   "CANON_CONFIRMED": 290,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 43,
+   "CANON_IMPLIED": 51,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 87,
-  "edges": 2424,
+  "curated_bridges": 94,
+  "edges": 2545,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 695,
+   "Card": 713,
    "CardTheme": 1,
-   "Character": 131,
-   "Claim": 329,
-   "Concept": 100,
+   "Character": 145,
+   "Claim": 352,
+   "Concept": 104,
    "DeckProposal": 3,
    "Event": 16,
-   "Faction": 27,
+   "Faction": 28,
    "Literal": 14,
-   "Object": 25,
-   "Place": 19,
-   "Plane": 19,
-   "Source": 151
+   "Object": 28,
+   "Place": 21,
+   "Plane": 22,
+   "Source": 163
   },
-  "nodes": 1531,
+  "nodes": 1611,
   "non_wizards_sources": 0,
-  "relations": 208,
-  "wizards_official_sources": 151
+  "relations": 210,
+  "wizards_official_sources": 163
  }
 }

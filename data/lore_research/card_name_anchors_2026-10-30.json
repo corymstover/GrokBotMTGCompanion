@@ -1059,6 +1059,23 @@
    ]
   },
   {
+   "entity": "helga",
+   "entity_type": "Character",
+   "entity_name": "Helga",
+   "aliases": [
+    "Helga"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Helga, Skittish Seer",
+     "oracle_id": "0a0d25a8-4f28-453b-9270-4d449fe0ca65",
+     "type_line": "Legendary Creature — Frog Druid",
+     "scryfall_uri": "https://scryfall.com/card/blb/217/helga-skittish-seer"
+    }
+   ]
+  },
+  {
    "entity": "huatli",
    "entity_type": "Character",
    "entity_name": "Huatli",
@@ -1291,6 +1308,23 @@
     "Kaito Shizuki"
    ],
    "pack": "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kaito Shizuki",
+     "oracle_id": "ba48e067-f4d9-45b2-ade1-71cf8cda418c",
+     "type_line": "Legendary Planeswalker — Kaito",
+     "scryfall_uri": "https://scryfall.com/card/neo/226/kaito-shizuki"
+    }
+   ]
+  },
+  {
+   "entity": "kaito_shizuki",
+   "entity_type": "Character",
+   "entity_name": "Kaito Shizuki",
+   "aliases": [
+    "Kaito Shizuki"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
    "cards": [
     {
      "name": "Kaito Shizuki",
@@ -1650,6 +1684,52 @@
      "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
      "type_line": "Legendary Creature — Angel",
      "scryfall_uri": "https://scryfall.com/card/fdn/738/lyra-dawnbringer"
+    }
+   ]
+  },
+  {
+   "entity": "mabel",
+   "entity_type": "Character",
+   "entity_name": "Mabel",
+   "aliases": [
+    "Mabel"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Mabel, Bitter Recluse",
+     "oracle_id": "36924990-8e3a-434e-bcd1-f03603cb350d",
+     "type_line": "Legendary Creature — Mouse Warlock",
+     "scryfall_uri": "https://scryfall.com/card/fra/233/mabel-bitter-recluse"
+    },
+    {
+     "name": "Mabel, Heir to Cragflame",
+     "oracle_id": "4b11e435-5888-4e3b-a255-db817392163f",
+     "type_line": "Legendary Creature — Mouse Soldier",
+     "scryfall_uri": "https://scryfall.com/card/blb/224/mabel-heir-to-cragflame"
+    },
+    {
+     "name": "Mabel, Valley Hero",
+     "oracle_id": "ab56f7cf-9538-45b5-a657-1e2ebef1e92b",
+     "type_line": "Legendary Creature — Mouse Soldier",
+     "scryfall_uri": "https://scryfall.com/card/fra/274/mabel-valley-hero"
+    }
+   ]
+  },
+  {
+   "entity": "marina_vendrell",
+   "entity_type": "Character",
+   "entity_name": "Marina Vendrell",
+   "aliases": [
+    "Marina Vendrell"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Marina Vendrell",
+     "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/dsk/221/marina-vendrell"
     }
    ]
   },
@@ -3192,6 +3272,23 @@
    ]
   },
   {
+   "entity": "tyvar_kell",
+   "entity_type": "Character",
+   "entity_name": "Tyvar Kell",
+   "aliases": [
+    "Tyvar Kell"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tyvar Kell",
+     "oracle_id": "14c8a590-88ec-4982-ad7b-36a219ff6de7",
+     "type_line": "Legendary Planeswalker — Tyvar",
+     "scryfall_uri": "https://scryfall.com/card/khm/198/tyvar-kell"
+    }
+   ]
+  },
+  {
    "entity": "ugin",
    "entity_type": "Character",
    "entity_name": "Ugin",
@@ -3304,6 +3401,29 @@
      "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
      "type_line": "Legendary Creature — Elder Dragon",
      "scryfall_uri": "https://scryfall.com/card/m19/225/vaevictis-asmadi-the-dire"
+    }
+   ]
+  },
+  {
+   "entity": "valgavoth",
+   "entity_type": "Character",
+   "entity_name": "Valgavoth",
+   "aliases": [
+    "Valgavoth"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Valgavoth, Harrower of Souls",
+     "oracle_id": "5401439c-4068-4490-8d53-8ffd0026dd7d",
+     "type_line": "Legendary Creature — Elder Demon",
+     "scryfall_uri": "https://scryfall.com/card/dsc/6/valgavoth-harrower-of-souls"
+    },
+    {
+     "name": "Valgavoth, Terror Eater",
+     "oracle_id": "cae3ec72-436d-4086-9dcb-17b3d92ad5c4",
+     "type_line": "Legendary Creature — Elder Demon",
+     "scryfall_uri": "https://scryfall.com/card/dsk/120/valgavoth-terror-eater"
     }
    ]
   },
@@ -3494,6 +3614,47 @@
    ]
   },
   {
+   "entity": "winter",
+   "entity_type": "Character",
+   "entity_name": "Winter",
+   "aliases": [
+    "Winter"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Winter, Cursed Rider",
+     "oracle_id": "343833c1-19fd-4e8f-b82e-0f20903caaff",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/dft/228/winter-cursed-rider"
+    },
+    {
+     "name": "Winter, Cynical Opportunist",
+     "oracle_id": "e70a01dd-4dbe-4811-ac93-1c6d0142e06e",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/dsc/7/winter-cynical-opportunist"
+    },
+    {
+     "name": "Winter, Misanthropic Guide",
+     "oracle_id": "5a9baafb-bffd-4e28-bbe1-b4154cd86bf3",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/dsk/240/winter-misanthropic-guide"
+    },
+    {
+     "name": "Winter, Team Player",
+     "oracle_id": "254f133a-eee5-48b9-b19f-110555e49300",
+     "type_line": "Legendary Creature — Human Warrior",
+     "scryfall_uri": "https://scryfall.com/card/fra/256/winter-team-player"
+    },
+    {
+     "name": "Winter, Tormented Loner",
+     "oracle_id": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/fra/240/winter-tormented-loner"
+    }
+   ]
+  },
+  {
    "entity": "xander",
    "entity_type": "Character",
    "entity_name": "Lord Xander",
@@ -3561,13 +3722,75 @@
      "scryfall_uri": "https://scryfall.com/card/lcc/298/zegana-utopian-speaker"
     }
    ]
+  },
+  {
+   "entity": "zimone",
+   "entity_type": "Character",
+   "entity_name": "Zimone",
+   "aliases": [
+    "Zimone"
+   ],
+   "pack": "pack_p5_duskmourn_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zimone, All-Questioning",
+     "oracle_id": "6c044dd1-8938-4d62-a7b2-e2298de08f70",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/soc/340/zimone-all-questioning"
+    },
+    {
+     "name": "Zimone, Infinite Analyst",
+     "oracle_id": "977f9390-e01d-4e9d-8e9c-e543b1266972",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/soc/10/zimone-infinite-analyst"
+    },
+    {
+     "name": "Zimone, Mystery Unraveler",
+     "oracle_id": "75bf0f27-9df1-4ab4-97a8-94bb3223bdf9",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dsc/8/zimone-mystery-unraveler"
+    },
+    {
+     "name": "Zimone, Paradox Sculptor",
+     "oracle_id": "9dd674a7-becf-4106-b53f-bca88426d92d",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fdn/126/zimone-paradox-sculptor"
+    },
+    {
+     "name": "Zimone, Quandrix Prodigy",
+     "oracle_id": "ee2ef1e0-6803-4eb5-8664-605438c67505",
+     "type_line": "Legendary Creature — Human Wizard",
+     "scryfall_uri": "https://scryfall.com/card/soc/341/zimone-quandrix-prodigy"
+    }
+   ]
+  },
+  {
+   "entity": "zoraline",
+   "entity_type": "Character",
+   "entity_name": "Zoraline",
+   "aliases": [
+    "Zoraline"
+   ],
+   "pack": "pack_p5_bloomburrow_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zoraline, Cosmos Caller",
+     "oracle_id": "5a775f50-20f8-4a8f-868c-8907305bfad6",
+     "type_line": "Legendary Creature — Bat Cleric",
+     "scryfall_uri": "https://scryfall.com/card/blb/242/zoraline-cosmos-caller"
+    }
+   ]
   }
  ],
  "unanchored_entities": [
+  "artificial_omenpath",
   "belzenlok",
   "belzenlok_death",
   "blackblade",
+  "calamity_beast_egg",
   "corondor_chasm",
+  "cragflame",
+  "cruelclaw",
   "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
@@ -3582,15 +3805,19 @@
   "imperial_palace",
   "innistrad_silver_moon",
   "kayla_bin_kroog",
+  "king_glarb",
   "kiran_nalaar",
   "kuberr",
   "last_battle_argoth",
   "last_thing_android",
   "liliana_doppelganger",
+  "lily_of_the_valley",
+  "maha",
   "oba",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
+  "pondside",
   "reality_chip",
   "realmbreaker",
   "rtd_sylex",
@@ -3605,6 +3832,8 @@
   "tarkir_rewrite",
   "teferis_spark_stone",
   "temporal_rifts_mending",
+  "the_house",
+  "tomik_vrona",
   "ugins_gem",
   "ugins_tomb_site",
   "war_of_the_spark_end",
@@ -3620,9 +3849,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 143,
-  "anchor_edges": 329,
-  "unanchored_entities": 48
+  "entities_anchored": 152,
+  "anchor_edges": 349,
+  "unanchored_entities": 58
  },
- "content_sha256": "279e3fe9e00b997dbd87b8aac7cd70b98ab9ef4ec7e3e2f393e035b7a0bef978"
+ "content_sha256": "6aea7f0fa12ab48b013659f4a0a4950cc51421f782d80b1b5df3e2e2dd918cfc"
 }
