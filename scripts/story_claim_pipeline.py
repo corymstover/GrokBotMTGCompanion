@@ -41,7 +41,7 @@ CACHE = ROOT / ".cache/story/text22"
 PRIMARY = ROOT / "data/primary_sources.csv"
 MANIFEST = ROOT / "data/multiverse_graph/manifest.json"
 GRADES = {"CANON_CONFIRMED", "CANON_IMPLIED", "CANON_DISPUTED", "OPEN_QUESTION", "ALTERNATE_CONTINUITY"}
-ENTITY_TYPES = {"Character", "Event", "Plane", "Place", "Object", "Faction", "Concept"}
+ENTITY_TYPES = {"Character", "Event", "Plane", "Place", "Object", "Faction", "Concept", "AlternateContinuity"}
 STATUS = "PRELIMINARY_RESEARCH (not owner approved, not certified)"
 MIN_QUOTE = 25
 KIND = {"story": "official_story_episode", "planeswalkers-guide": "official_planeswalkers_guide",
@@ -163,7 +163,24 @@ def dump(d: dict) -> str:
     return json.dumps(d, indent=1, ensure_ascii=False) + "\n"
 
 
+def page_key_collisions(files=None) -> list[str]:
+    """Page keys become graph source ids (source:<key>), so one key must name one page in every spec."""
+    owner, out = {}, []
+    for f in (files if files is not None else spec_files()):
+        spec = json.loads(Path(f).read_text(encoding="utf-8"))
+        for key, slug in spec["pages"].items():
+            prev = owner.setdefault(key, (slug, spec["pack_id"]))
+            if prev[0] != slug:
+                out.append(f"page key {key!r} names {prev[0]} in {prev[1]} but {slug} in {spec['pack_id']}")
+    return out
+
+
 def cmd_build(only: list[str]) -> int:
+    collisions = page_key_collisions()
+    for x in collisions:
+        print("PAGE KEY COLLISION:", x)
+    if collisions:
+        return 1
     rows, seen, bad = primary_rows(), set(), 0
     man = json.loads(MANIFEST.read_text(encoding="utf-8"))
     for f in spec_files():
@@ -219,6 +236,7 @@ def cmd_check() -> int:
             fails.append(f"{pid}: pack not registered in manifest claim_packs"); continue
         print(f"OK {pid}: {old['claims']} claims, {old['quotes_verbatim']}/{old['quotes']} verbatim "
               f"({'re-verified against cache' if cache_present else 'cache absent: hashes verified'})")
+    fails += [f"page key collision: {x}" for x in page_key_collisions()]
     for x in fails:
         print("FAIL", x)
     return 1 if fails else 0

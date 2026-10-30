@@ -51,6 +51,9 @@ STORY_SETS = {
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": ["mid", "vow"],
     "pack_p5_streets_of_new_capenna_2026-10-30.json": ["snc"],
     "pack_p5_edge_of_eternities_2026-10-30.json": ["eoe"],
+    "pack_p5_reality_fracture_2026-10-30.json": ["fra"],
+    "pack_p5_wilds_of_eldraine_2026-10-30.json": ["woe"],
+    "pack_p5_murders_at_karlov_manor_2026-10-30.json": ["mkm"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 

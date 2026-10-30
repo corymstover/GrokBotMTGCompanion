@@ -18,18 +18,21 @@
    "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
    "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
    "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
-   "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json"
+   "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json",
+   "data/lore_research/pack_p5_reality_fracture_2026-10-30.json",
+   "data/lore_research/pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 114,
-  "arcs_not_started": 16,
-  "arcs_partial": 14,
-  "arcs_all_cited": 3,
-  "claims": 288,
+  "cited_pages": 134,
+  "arcs_not_started": 13,
+  "arcs_partial": 16,
+  "arcs_all_cited": 4,
+  "claims": 329,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -48,7 +51,10 @@
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
-  "pack_p5_edge_of_eternities_2026-10-30.json": 17
+  "pack_p5_edge_of_eternities_2026-10-30.json": 17,
+  "pack_p5_reality_fracture_2026-10-30.json": 13,
+  "pack_p5_wilds_of_eldraine_2026-10-30.json": 14,
+  "pack_p5_murders_at_karlov_manor_2026-10-30.json": 14
  },
  "arcs": [
   {
@@ -406,25 +412,17 @@
   {
    "arc": "MKM",
    "pages": 11,
-   "cited_pages": 0,
+   "cited_pages": 10,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 10
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_murders_at_karlov_manor_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-murders-at-karlov-manor",
-    "https://magic.wizards.com/en/news/magic-story/episode-1-ghosts-of-our-past",
-    "https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-shadows-of-regret",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-justice-before-mercy",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-chains-of-expectation",
-    "https://magic.wizards.com/en/news/magic-story/episode-6-explosions-of-genius",
-    "https://magic.wizards.com/en/news/magic-story/episode-7-rot-before-recovery",
-    "https://magic.wizards.com/en/news/magic-story/episode-8-gods-of-chaos",
-    "https://magic.wizards.com/en/news/magic-story/episode-9-beauty-in-destruction"
+    "https://magic.wizards.com/en/news/magic-story/episode-2-monsters-we-became"
    ]
   },
   {
@@ -495,26 +493,23 @@
   {
    "arc": "RF",
    "pages": 12,
-   "cited_pages": 0,
+   "cited_pages": 5,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 11
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_reality_fracture_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-2-purge-yourself-of-doubt",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-3-i-can-be-both",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-4-oh-sweetie",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-5-i-dont-need-to-convince-you",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition",
     "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-7-pick-up-the-pieces",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open",
-    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid",
-    "https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture"
+    "https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-8-keep-your-lids-open"
    ]
   },
   {
@@ -678,19 +673,15 @@
   {
    "arc": "WOE",
    "pages": 5,
-   "cited_pages": 0,
+   "cited_pages": 5,
    "kinds": {
     "story": 5
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-ruby-and-the-frozen-heart",
-    "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths"
-   ]
+   "citing_packs": [
+    "pack_p5_wilds_of_eldraine_2026-10-30.json"
+   ],
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "XLN/RIX",
@@ -1024,5 +1015,5 @@
    ]
   }
  ],
- "sha256": "78d515f655c16d044b24ec59b7c33ea93ab8486e7bc574937f1091ae3f46b4cb"
+ "sha256": "9f0543cf835d0d575f50bb3b42ee6da10b8e8762f06a4a649d8f96f15859c19e"
 }

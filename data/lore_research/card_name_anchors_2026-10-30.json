@@ -146,6 +146,23 @@
    ]
   },
   {
+   "entity": "alquist_proft",
+   "entity_type": "Character",
+   "entity_name": "Alquist Proft",
+   "aliases": [
+    "Alquist Proft"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Alquist Proft, Master Sleuth",
+     "oracle_id": "dd79a994-7dad-49d4-8d8f-62dbedde4a38",
+     "type_line": "Legendary Creature — Human Detective",
+     "scryfall_uri": "https://scryfall.com/card/mkm/185/alquist-proft-master-sleuth"
+    }
+   ]
+  },
+  {
    "entity": "angrath",
    "entity_type": "Character",
    "entity_name": "Angrath",
@@ -267,6 +284,47 @@
    ]
   },
   {
+   "entity": "ashiok",
+   "entity_type": "Character",
+   "entity_name": "Ashiok",
+   "aliases": [
+    "Ashiok"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ashiok, Dream Render",
+     "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+     "type_line": "Legendary Planeswalker — Ashiok",
+     "scryfall_uri": "https://scryfall.com/card/war/228/ashiok-dream-render"
+    },
+    {
+     "name": "Ashiok, Nightmare Muse",
+     "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+     "type_line": "Legendary Planeswalker — Ashiok",
+     "scryfall_uri": "https://scryfall.com/card/thb/208/ashiok-nightmare-muse"
+    },
+    {
+     "name": "Ashiok, Nightmare Weaver",
+     "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+     "type_line": "Legendary Planeswalker — Ashiok",
+     "scryfall_uri": "https://scryfall.com/card/ths/188/ashiok-nightmare-weaver"
+    },
+    {
+     "name": "Ashiok, Sculptor of Fears",
+     "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+     "type_line": "Legendary Planeswalker — Ashiok",
+     "scryfall_uri": "https://scryfall.com/card/thb/274/ashiok-sculptor-of-fears"
+    },
+    {
+     "name": "Ashiok, Wicked Manipulator",
+     "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+     "type_line": "Legendary Planeswalker — Ashiok",
+     "scryfall_uri": "https://scryfall.com/card/woe/78/ashiok-wicked-manipulator"
+    }
+   ]
+  },
+  {
    "entity": "ashnod",
    "entity_type": "Character",
    "entity_name": "Ashnod",
@@ -309,6 +367,35 @@
      "oracle_id": "7e6b9b59-cd68-4e3c-827b-38833c92d6eb",
      "type_line": "Legendary Creature — Phyrexian Angel Horror",
      "scryfall_uri": "https://scryfall.com/card/2xm/190/atraxa-praetors-voice"
+    }
+   ]
+  },
+  {
+   "entity": "aurelia",
+   "entity_type": "Character",
+   "entity_name": "Aurelia",
+   "aliases": [
+    "Aurelia"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Aurelia, Exemplar of Justice",
+     "oracle_id": "2e1e0385-1537-4cb6-9d24-e4593d9a8f4a",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/rvr/164/aurelia-exemplar-of-justice"
+    },
+    {
+     "name": "Aurelia, the Law Above",
+     "oracle_id": "2a800427-ff8c-4b3c-baee-85211b70656d",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/mkm/188/aurelia-the-law-above"
+    },
+    {
+     "name": "Aurelia, the Warleader",
+     "oracle_id": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+     "type_line": "Legendary Creature — Angel",
+     "scryfall_uri": "https://scryfall.com/card/fdn/651/aurelia-the-warleader"
     }
    ]
   },
@@ -696,6 +783,52 @@
    ]
   },
   {
+   "entity": "eriette",
+   "entity_type": "Character",
+   "entity_name": "Eriette",
+   "aliases": [
+    "Eriette"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Eriette of the Charmed Apple",
+     "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/soc/307/eriette-of-the-charmed-apple"
+    },
+    {
+     "name": "Eriette, the Beguiler",
+     "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/otj/202/eriette-the-beguiler"
+    }
+   ]
+  },
+  {
+   "entity": "etrata",
+   "entity_type": "Character",
+   "entity_name": "Etrata",
+   "aliases": [
+    "Etrata"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Etrata, Deadly Fugitive",
+     "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+     "type_line": "Legendary Creature — Vampire Assassin",
+     "scryfall_uri": "https://scryfall.com/card/mkm/200/etrata-deadly-fugitive"
+    },
+    {
+     "name": "Etrata, the Silencer",
+     "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+     "type_line": "Legendary Creature — Vampire Assassin",
+     "scryfall_uri": "https://scryfall.com/card/grn/170/etrata-the-silencer"
+    }
+   ]
+  },
+  {
    "entity": "eye_of_ugin",
    "entity_type": "Place",
    "entity_name": "Eye of Ugin",
@@ -963,6 +1096,46 @@
      "oracle_id": "e1a13723-a6b1-4160-8eb5-f7a4860898a3",
      "type_line": "Legendary Planeswalker — Huatli",
      "scryfall_uri": "https://scryfall.com/card/war/230/huatli-the-suns-heart"
+    }
+   ]
+  },
+  {
+   "entity": "hylda",
+   "entity_type": "Character",
+   "entity_name": "Hylda",
+   "aliases": [
+    "Hylda"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Hylda of the Icy Crown",
+     "oracle_id": "1733c71b-fd28-48dd-8a3d-41afd4b22f0e",
+     "type_line": "Legendary Creature — Human Warlock",
+     "scryfall_uri": "https://scryfall.com/card/woe/206/hylda-of-the-icy-crown"
+    }
+   ]
+  },
+  {
+   "entity": "izoni",
+   "entity_type": "Character",
+   "entity_name": "Izoni",
+   "aliases": [
+    "Izoni"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Izoni, Center of the Web",
+     "oracle_id": "8074afbf-190b-4a24-b939-cc559bdffe38",
+     "type_line": "Legendary Creature — Elf Detective",
+     "scryfall_uri": "https://scryfall.com/card/mkm/209/izoni-center-of-the-web"
+    },
+    {
+     "name": "Izoni, Thousand-Eyed",
+     "oracle_id": "5a210b32-6e1f-4578-bd8b-4e481b761159",
+     "type_line": "Legendary Creature — Elf Shaman",
+     "scryfall_uri": "https://scryfall.com/card/grn/180/izoni-thousand-eyed"
     }
    ]
   },
@@ -1297,6 +1470,47 @@
    ]
   },
   {
+   "entity": "kellan",
+   "entity_type": "Character",
+   "entity_name": "Kellan",
+   "aliases": [
+    "Kellan"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Kellan, Daring Traveler // Journey On",
+     "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+     "type_line": "Legendary Creature — Human Faerie Scout // Sorcery — Adventure",
+     "scryfall_uri": "https://scryfall.com/card/lci/231/kellan-daring-traveler-journey-on"
+    },
+    {
+     "name": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+     "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+     "type_line": "Legendary Creature — Human Faerie Detective // Sorcery — Adventure",
+     "scryfall_uri": "https://scryfall.com/card/mkm/212/kellan-inquisitive-prodigy-tail-the-suspect"
+    },
+    {
+     "name": "Kellan, Planar Trailblazer",
+     "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+     "type_line": "Legendary Creature — Human Faerie Scout",
+     "scryfall_uri": "https://scryfall.com/card/fdn/91/kellan-planar-trailblazer"
+    },
+    {
+     "name": "Kellan, the Fae-Blooded // Birthright Boon",
+     "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+     "type_line": "Legendary Creature — Human Faerie // Sorcery — Adventure",
+     "scryfall_uri": "https://scryfall.com/card/woe/230/kellan-the-fae-blooded-birthright-boon"
+    },
+    {
+     "name": "Kellan, the Kid",
+     "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+     "type_line": "Legendary Creature — Human Faerie Rogue",
+     "scryfall_uri": "https://scryfall.com/card/otj/213/kellan-the-kid"
+    }
+   ]
+  },
+  {
    "entity": "koth",
    "entity_type": "Character",
    "entity_name": "Koth",
@@ -1436,6 +1650,35 @@
      "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
      "type_line": "Legendary Creature — Angel",
      "scryfall_uri": "https://scryfall.com/card/fdn/738/lyra-dawnbringer"
+    }
+   ]
+  },
+  {
+   "entity": "massacre_girl",
+   "entity_type": "Character",
+   "entity_name": "Massacre Girl",
+   "aliases": [
+    "Massacre Girl"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Massacre Girl",
+     "oracle_id": "63e6cb7d-cc27-4200-85fc-ff6472318c1a",
+     "type_line": "Legendary Creature — Human Assassin",
+     "scryfall_uri": "https://scryfall.com/card/dsc/146/massacre-girl"
+    },
+    {
+     "name": "Massacre Girl, Known Killer",
+     "oracle_id": "ccb39f4a-2684-4eb7-9066-aad81ae08962",
+     "type_line": "Legendary Creature — Human Assassin",
+     "scryfall_uri": "https://scryfall.com/card/ecc/79/massacre-girl-known-killer"
+    },
+    {
+     "name": "Massacre Girl, Most Wanted",
+     "oracle_id": "81f35914-73bf-429f-ba20-32e23ac30159",
+     "type_line": "Legendary Creature — Human Assassin",
+     "scryfall_uri": "https://scryfall.com/card/fra/234/massacre-girl-most-wanted"
     }
    ]
   },
@@ -1829,6 +2072,41 @@
    ]
   },
   {
+   "entity": "oko",
+   "entity_type": "Character",
+   "entity_name": "Oko",
+   "aliases": [
+    "Oko"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+     "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+     "type_line": "Legendary Planeswalker — Oko // Legendary Planeswalker — Oko",
+     "scryfall_uri": "https://scryfall.com/card/ecl/61/oko-lorwyn-liege-oko-shadowmoor-scion"
+    },
+    {
+     "name": "Oko, Thief of Crowns",
+     "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+     "type_line": "Legendary Planeswalker — Oko",
+     "scryfall_uri": "https://scryfall.com/card/eld/197/oko-thief-of-crowns"
+    },
+    {
+     "name": "Oko, the Ringleader",
+     "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+     "type_line": "Legendary Planeswalker — Oko",
+     "scryfall_uri": "https://scryfall.com/card/otj/223/oko-the-ringleader"
+    },
+    {
+     "name": "Oko, the Trickster",
+     "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+     "type_line": "Legendary Planeswalker — Oko",
+     "scryfall_uri": "https://scryfall.com/card/eld/309/oko-the-trickster"
+    }
+   ]
+  },
+  {
    "entity": "olivia_voldaren",
    "entity_type": "Character",
    "entity_name": "Olivia Voldaren",
@@ -1865,6 +2143,23 @@
      "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
      "type_line": "Legendary Creature — Elder Dragon",
      "scryfall_uri": "https://scryfall.com/card/m19/219/palladia-mors-the-ruiner"
+    }
+   ]
+  },
+  {
+   "entity": "peter",
+   "entity_type": "Character",
+   "entity_name": "Peter",
+   "aliases": [
+    "Peter"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Peter Parker // Amazing Spider-Man",
+     "oracle_id": "f1b7488c-c675-42e9-818a-24a50347ec2c",
+     "type_line": "Legendary Creature — Human Scientist Hero // Legendary Creature — Spider Human Hero",
+     "scryfall_uri": "https://scryfall.com/card/spm/10/peter-parker-amazing-spider-man"
     }
    ]
   },
@@ -2071,6 +2366,40 @@
      "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
      "type_line": "Legendary Creature — Dragon",
      "scryfall_uri": "https://scryfall.com/card/dmr/198/rith-the-awakener"
+    }
+   ]
+  },
+  {
+   "entity": "rowan_kenrith",
+   "entity_type": "Character",
+   "entity_name": "Rowan Kenrith",
+   "aliases": [
+    "Rowan Kenrith"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Rowan Kenrith",
+     "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+     "type_line": "Legendary Planeswalker — Rowan",
+     "scryfall_uri": "https://scryfall.com/card/clb/805/rowan-kenrith"
+    }
+   ]
+  },
+  {
+   "entity": "ruby",
+   "entity_type": "Character",
+   "entity_name": "Ruby",
+   "aliases": [
+    "Ruby"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ruby, Daring Tracker",
+     "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
+     "type_line": "Legendary Creature — Human Scout",
+     "scryfall_uri": "https://scryfall.com/card/fdn/245/ruby-daring-tracker"
     }
    ]
   },
@@ -2377,6 +2706,69 @@
    ]
   },
   {
+   "entity": "strixhaven",
+   "entity_type": "Place",
+   "entity_name": "Strixhaven",
+   "aliases": [
+    "Strixhaven"
+   ],
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Strixhaven",
+     "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
+     "type_line": "Plane — Arcavios",
+     "scryfall_uri": "https://scryfall.com/card/moc/65/strixhaven"
+    }
+   ]
+  },
+  {
+   "entity": "talion",
+   "entity_type": "Character",
+   "entity_name": "Talion, the Kindly Lord",
+   "aliases": [
+    "Talion, the Kindly Lord"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Talion, the Kindly Lord",
+     "oracle_id": "a019e34d-00c4-4687-9d41-fe550bf1dbdc",
+     "type_line": "Legendary Creature — Faerie Noble",
+     "scryfall_uri": "https://scryfall.com/card/woe/215/talion-the-kindly-lord"
+    }
+   ]
+  },
+  {
+   "entity": "tam",
+   "entity_type": "Character",
+   "entity_name": "Tam (Tamira)",
+   "aliases": [
+    "Tam"
+   ],
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tam, Mindful First-Year",
+     "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+     "type_line": "Legendary Creature — Gorgon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/ecl/245/tam-mindful-first-year"
+    },
+    {
+     "name": "Tam, Observant Sequencer // Deep Sight",
+     "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+     "type_line": "Legendary Creature — Gorgon Wizard // Sorcery",
+     "scryfall_uri": "https://scryfall.com/card/sos/237/tam-observant-sequencer-deep-sight"
+    },
+    {
+     "name": "Tam, the Possibility",
+     "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+     "type_line": "Legendary Creature — Gorgon Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fra/276/tam-the-possibility"
+    }
+   ]
+  },
+  {
    "entity": "tameshi",
    "entity_type": "Character",
    "entity_name": "Tameshi",
@@ -2564,6 +2956,23 @@
    ]
   },
   {
+   "entity": "teysa_karlov",
+   "entity_type": "Character",
+   "entity_name": "Teysa Karlov",
+   "aliases": [
+    "Teysa Karlov"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Teysa Karlov",
+     "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
+     "type_line": "Legendary Creature — Human Advisor",
+     "scryfall_uri": "https://scryfall.com/card/cmm/359/teysa-karlov"
+    }
+   ]
+  },
+  {
    "entity": "tezzeret",
    "entity_type": "Character",
    "entity_name": "Tezzeret",
@@ -2625,6 +3034,23 @@
      "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
      "type_line": "Legendary Planeswalker — Tezzeret",
      "scryfall_uri": "https://scryfall.com/card/war/275/tezzeret-master-of-the-bridge"
+    }
+   ]
+  },
+  {
+   "entity": "the_theorist",
+   "entity_type": "Character",
+   "entity_name": "The Theorist (fractured aspect of Jace)",
+   "aliases": [
+    "The Theorist"
+   ],
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Theorist, Jace Beleren",
+     "oracle_id": "89a6e876-0b00-4671-9652-766fd7ef9bf2",
+     "type_line": "Legendary Planeswalker — Jace",
+     "scryfall_uri": "https://scryfall.com/card/fra/43/the-theorist-jace-beleren"
     }
    ]
   },
@@ -2716,6 +3142,35 @@
      "oracle_id": "45d49831-548a-4a0e-9a18-9f7397913895",
      "type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Werewolf",
      "scryfall_uri": "https://scryfall.com/card/mid/246/tovolar-dire-overlord-tovolar-the-midnight-scourge"
+    }
+   ]
+  },
+  {
+   "entity": "trostani",
+   "entity_type": "Character",
+   "entity_name": "Trostani",
+   "aliases": [
+    "Trostani"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Trostani Discordant",
+     "oracle_id": "9a2fdc0e-e0de-47fc-95e4-04e725ddf060",
+     "type_line": "Legendary Creature — Dryad",
+     "scryfall_uri": "https://scryfall.com/card/clu/213/trostani-discordant"
+    },
+    {
+     "name": "Trostani, Selesnya's Voice",
+     "oracle_id": "e94ef397-f5c5-4b8d-ae27-528352fa1d1e",
+     "type_line": "Legendary Creature — Dryad",
+     "scryfall_uri": "https://scryfall.com/card/c19/204/trostani-selesnyas-voice"
+    },
+    {
+     "name": "Trostani, Three Whispers",
+     "oracle_id": "5c90b951-826e-4595-aacc-958904f3f794",
+     "type_line": "Legendary Creature — Dryad",
+     "scryfall_uri": "https://scryfall.com/card/mkm/238/trostani-three-whispers"
     }
    ]
   },
@@ -3022,6 +3477,23 @@
    ]
   },
   {
+   "entity": "will_kenrith",
+   "entity_type": "Character",
+   "entity_name": "Will Kenrith",
+   "aliases": [
+    "Will Kenrith"
+   ],
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Will Kenrith",
+     "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+     "type_line": "Legendary Planeswalker — Will",
+     "scryfall_uri": "https://scryfall.com/card/clb/738/will-kenrith"
+    }
+   ]
+  },
+  {
    "entity": "xander",
    "entity_type": "Character",
    "entity_name": "Lord Xander",
@@ -3072,6 +3544,23 @@
      "scryfall_uri": "https://scryfall.com/card/dmr/110/yawgmoth-thran-physician"
     }
    ]
+  },
+  {
+   "entity": "zegana",
+   "entity_type": "Character",
+   "entity_name": "Zegana",
+   "aliases": [
+    "Zegana"
+   ],
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Zegana, Utopian Speaker",
+     "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
+     "type_line": "Legendary Creature — Merfolk Wizard",
+     "scryfall_uri": "https://scryfall.com/card/lcc/298/zegana-utopian-speaker"
+    }
+   ]
   }
  ],
  "unanchored_entities": [
@@ -3087,6 +3576,7 @@
   "first_phyrexian_invasion",
   "ghirapur_revolution",
   "halo",
+  "hexhaven",
   "ice_age",
   "immortal_sun",
   "imperial_palace",
@@ -3096,6 +3586,8 @@
   "kuberr",
   "last_battle_argoth",
   "last_thing_android",
+  "liliana_doppelganger",
+  "oba",
   "one_sylex",
   "orazca",
   "original_tarkir_clash",
@@ -3117,6 +3609,7 @@
   "ugins_tomb_site",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
+  "wicked_slumber",
   "wrenn",
   "zhalfir"
  ],
@@ -3127,9 +3620,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 122,
-  "anchor_edges": 286,
-  "unanchored_entities": 44
+  "entities_anchored": 143,
+  "anchor_edges": 329,
+  "unanchored_entities": 48
  },
- "content_sha256": "53d0bf01e76a613993cbc1e149df5bc747af73312d26751e19bafdb619ab50f2"
+ "content_sha256": "279e3fe9e00b997dbd87b8aac7cd70b98ab9ef4ec7e3e2f393e035b7a0bef978"
 }

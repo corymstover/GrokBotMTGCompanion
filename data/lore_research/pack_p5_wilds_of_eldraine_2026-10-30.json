@@ -1,0 +1,449 @@
+{
+ "schema": "multiverse-claim-pack/v1",
+ "pack_id": "pack_p5_wilds_of_eldraine",
+ "evidence_cutoff": "2026-10-30",
+ "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "WOE",
+ "scope": "Targeted Phase 5 extraction from the five official Wilds of Eldraine Magic Story episodes (2023-08-08 to 2023-08-14). PRELIMINARY_RESEARCH; not owner approved.",
+ "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_wilds_of_eldraine.spec.json",
+ "source_register": {
+  "woe_ep1": {
+   "title": "Wilds of Eldraine | Episode 1: Pure of Heart",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-pure-of-heart",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-08-08"
+  },
+  "woe_ep2": {
+   "title": "Wilds of Eldraine | Episode 2: Wandering Knight, Budding Hero",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-wandering-knight-budding-hero",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-08-09"
+  },
+  "woe_ep3": {
+   "title": "Wilds of Eldraine | Episode 3: Two Great Banquets",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-08-10"
+  },
+  "woe_ep4": {
+   "title": "Wilds of Eldraine | Episode 4: Ruby and the Frozen Heart",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-ruby-and-the-frozen-heart",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-08-11"
+  },
+  "woe_ep5": {
+   "title": "Wilds of Eldraine | Episode 5: Broken Oaths",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2023-08-14"
+  }
+ },
+ "entities": [
+  {
+   "id": "kellan",
+   "type": "Character",
+   "name": "Kellan"
+  },
+  {
+   "id": "talion",
+   "type": "Character",
+   "name": "Talion, the Kindly Lord"
+  },
+  {
+   "id": "ruby",
+   "type": "Character",
+   "name": "Ruby"
+  },
+  {
+   "id": "peter",
+   "type": "Character",
+   "name": "Peter"
+  },
+  {
+   "id": "hylda",
+   "type": "Character",
+   "name": "Hylda"
+  },
+  {
+   "id": "eriette",
+   "type": "Character",
+   "name": "Eriette"
+  },
+  {
+   "id": "rowan_kenrith",
+   "type": "Character",
+   "name": "Rowan Kenrith"
+  },
+  {
+   "id": "will_kenrith",
+   "type": "Character",
+   "name": "Will Kenrith"
+  },
+  {
+   "id": "ashiok",
+   "type": "Character",
+   "name": "Ashiok"
+  },
+  {
+   "id": "oko",
+   "type": "Character",
+   "name": "Oko"
+  },
+  {
+   "id": "wicked_slumber",
+   "type": "Event",
+   "name": "The Wicked Slumber"
+  },
+  {
+   "id": "eldraine",
+   "type": "Plane",
+   "name": "Eldraine"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "Phyrexians"
+  }
+ ],
+ "claims": [
+  {
+   "id": "WE001",
+   "subject": "kellan",
+   "predicate": "serves",
+   "object": "talion",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_quest_2023",
+   "source_ids": [
+    "woe_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep2",
+     "quote": "He brandishes the pair of basket hilts—Talion's parting gift."
+    },
+    {
+     "source_id": "woe_ep2",
+     "quote": "\"Besides, I got these from my lord, and they said they're just as good as any blade."
+    }
+   ],
+   "summary": "Kellan sets out on a quest for Talion, his fae lord, carrying Talion's basket-hilt gift.",
+   "limitation": ""
+  },
+  {
+   "id": "WE002",
+   "subject": "talion",
+   "predicate": "created",
+   "object": "wicked_slumber",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep4",
+     "quote": "\"We witches did not create the Wicked Slumber alone. To do so would have been beyond our power.\""
+    },
+    {
+     "source_id": "woe_ep4",
+     "quote": "Talion was the one who broke the stalemate. Eriette's sleeping curse, they argued, would be the surest way to counteract the invaders."
+    }
+   ],
+   "summary": "Hylda says the Wicked Slumber was cast by the witches together with Talion, at Talion's urging, to stop the Phyrexian invaders.",
+   "limitation": "Hylda's own account in dialogue; she is one of the participants."
+  },
+  {
+   "id": "WE003",
+   "subject": "wicked_slumber",
+   "predicate": "defeated",
+   "object": "phyrexians",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep1",
+    "woe_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep1",
+     "quote": "The Wicked Slumber might have stopped the Phyrexians in their tracks, but the Realm struck a foul bargain to pay for it."
+    },
+    {
+     "source_id": "woe_ep4",
+     "quote": "\"It was only meant to stop the invaders,\" she says."
+    }
+   ],
+   "summary": "The Wicked Slumber was meant to stop, and is said to have stopped, the Phyrexian invaders in Eldraine.",
+   "limitation": "Stated with hedging ('might have') and in Hylda's dialogue."
+  },
+  {
+   "id": "WE004",
+   "subject": "eriette",
+   "predicate": "corrupted",
+   "object": "wicked_slumber",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep4",
+     "quote": "\"That it continued spiraling out of control afterward is Eriette's doing. Of that, I'm certain."
+    },
+    {
+     "source_id": "woe_ep4",
+     "quote": "She leapt at the chance to enact a curse of that size—to have all those people at her beck and call."
+    }
+   ],
+   "summary": "Hylda blames Eriette for the Slumber spiraling out of control after the invasion.",
+   "limitation": "Hylda's accusation in dialogue."
+  },
+  {
+   "id": "WE005",
+   "subject": "rowan_kenrith",
+   "predicate": "allied_with",
+   "object": "eriette",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_banquet_2023",
+   "source_ids": [
+    "woe_ep3",
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep3",
+     "quote": "\"My name is Eriette, darling. Welcome home.\""
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Her time with Eriette, studying the magic that would save Eldraine, had always been fated to end."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Rowan is the only person Eriette has left. At least until Ashiok returns."
+    }
+   ],
+   "summary": "Rowan Kenrith joins Eriette and studies her sleep magic for some weeks, believing it can save Eldraine.",
+   "limitation": ""
+  },
+  {
+   "id": "WE006",
+   "subject": "ashiok",
+   "predicate": "allied_with",
+   "object": "eriette",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep3",
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep3",
+     "quote": "\"The spark is gone,\" says Ashiok, their voice a long, drawn-out hiss."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Veils of black coalesce into Ashiok's elegant form before the gathered army."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Eriette might have had trouble controlling so many at once, but for Ashiok it's second nature."
+    }
+   ],
+   "summary": "Ashiok is at Eriette's court and fights alongside Eriette's dreamers at the final battle.",
+   "limitation": ""
+  },
+  {
+   "id": "WE007",
+   "subject": "rowan_kenrith",
+   "predicate": "related_to",
+   "object": "ashiok",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep3",
+     "quote": "Can you teach me how to planeswalk again?\""
+    },
+    {
+     "source_id": "woe_ep3",
+     "quote": "\"The spark is gone,\" says Ashiok, their voice a long, drawn-out hiss. \"For you, and for many others.\""
+    }
+   ],
+   "summary": "Rowan asks to planeswalk again; Ashiok tells her that her spark is gone.",
+   "limitation": "related_to records Ashiok's statement about Rowan's lost spark; Ashiok did not cause it, and this is dialogue."
+  },
+  {
+   "id": "WE008",
+   "subject": "ashiok",
+   "predicate": "freed",
+   "object": "eriette",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_epilogue_2023",
+   "source_ids": [
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep5",
+     "quote": "When she opens her eyes, the jail cell stares back at her, but so, too, does Ashiok."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Darkness falls on the cell. Shackles fall to the stone ground. In the morning, when they search the cell, she will be gone."
+    }
+   ],
+   "summary": "After her defeat Eriette is jailed; Ashiok frees her and takes her far away.",
+   "limitation": ""
+  },
+  {
+   "id": "WE009",
+   "subject": "oko",
+   "predicate": "parent_of",
+   "object": "kellan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_epilogue_2023",
+   "source_ids": [
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep5",
+     "quote": "He told me his name was Oko, and he told me that he was newly arrived in Eldraine."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "The blue-streaked man on the coat's lining catches his attention anew. Oko. His father."
+    }
+   ],
+   "summary": "Kellan's mother tells him that his father is Oko, a fae newly arrived in Eldraine from beyond its Realms.",
+   "limitation": ""
+  },
+  {
+   "id": "WE010",
+   "subject": "kellan",
+   "predicate": "left",
+   "object": "eldraine",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_epilogue_2023",
+   "source_ids": [
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep5",
+     "quote": "It looks nothing like the portals into Talion's realm. The other side looks nothing like Eldraine."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "Kellan pets Hex, and steps through the portal."
+    }
+   ],
+   "summary": "Kellan steps through an unfamiliar portal leading somewhere other than Eldraine, hoping to find his father.",
+   "limitation": ""
+  },
+  {
+   "id": "WE011",
+   "subject": "ruby",
+   "predicate": "sibling_of",
+   "object": "peter",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep2"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep2",
+     "quote": "My brother, Peter, he knows every inch of that place like the back of his hand."
+    }
+   ],
+   "summary": "Ruby says Peter is her brother.",
+   "limitation": "Stated in Ruby's dialogue."
+  },
+  {
+   "id": "WE012",
+   "subject": "ruby",
+   "predicate": "allied_with",
+   "object": "kellan",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep4",
+    "woe_ep3"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep4",
+     "quote": "The day is brisk and bright when Kellan and Ruby return to Edgewall."
+    },
+    {
+     "source_id": "woe_ep3",
+     "quote": "He stands on a leaf the size of a paddock watching Kellan and Ruby climb."
+    }
+   ],
+   "summary": "Ruby travels with Kellan on his quest.",
+   "limitation": ""
+  },
+  {
+   "id": "WE013",
+   "subject": "hylda",
+   "predicate": "opposed",
+   "object": "eriette",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "eldraine_woe_2023",
+   "source_ids": [
+    "woe_ep4"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep4",
+     "quote": "\"Talion has sent you to clean up the mess that all four of us created."
+    }
+   ],
+   "summary": "Hylda directs Kellan against Eriette's spreading curse.",
+   "limitation": "Hylda's dialogue; 'opposed' is an inference from her advice."
+  },
+  {
+   "id": "WE014",
+   "subject": "will_kenrith",
+   "predicate": "opposed",
+   "object": "rowan_kenrith",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "woe_climax_2023",
+   "source_ids": [
+    "woe_ep5"
+   ],
+   "evidence": [
+    {
+     "source_id": "woe_ep5",
+     "quote": "As her brother's knights burst through the gates, sparks crackle along Rowan's forearm."
+    },
+    {
+     "source_id": "woe_ep5",
+     "quote": "\"Will isn't the only one with friends,\" Rowan answers Imodane."
+    }
+   ],
+   "summary": "At the climax, Will's knights storm Eriette's castle where Rowan stands with Eriette.",
+   "limitation": ""
+  }
+ ],
+ "pages_registered": 5,
+ "pages_cited": 5,
+ "uncited_registered_pages": [],
+ "remaining": [
+  "Peter's and Troyan's roles are not modelled",
+  "Kellan's later arrival on other planes is out of scope here",
+  "The fate of Eriette's sleeping victims is not graded"
+ ]
+}

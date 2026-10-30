@@ -1,0 +1,328 @@
+{
+ "pack_id": "pack_p5_reality_fracture",
+ "arc": "RF",
+ "event_stage": "echoverse_rf_2026",
+ "scope": "Targeted Phase 5 extraction from the official Reality Fracture Magic Story episodes, the Planeswalker's Guide to Reality Fracture and The Legends of Reality Fracture. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "rf_legends": "the-legends-of-reality-fracture",
+  "rf_guide": "planeswalkers-guide-to-reality-fracture",
+  "rf_ep1": "reality-fracture-episode-1-tam-alive",
+  "rf_ep9": "reality-fracture-episode-9-unafraid",
+  "rf_ep10": "reality-fracture-episode-10-happy-birthday"
+ },
+ "entities": [
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "the_theorist",
+   "type": "Character",
+   "name": "The Theorist (fractured aspect of Jace)"
+  },
+  {
+   "id": "echoverse",
+   "type": "AlternateContinuity",
+   "name": "The Echoverse"
+  },
+  {
+   "id": "tam",
+   "type": "Character",
+   "name": "Tam (Tamira)"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "liliana_doppelganger",
+   "type": "Character",
+   "name": "Liliana's Echoverse doppelganger"
+  },
+  {
+   "id": "emrakul",
+   "type": "Character",
+   "name": "Emrakul"
+  },
+  {
+   "id": "meditation_realm",
+   "type": "Plane",
+   "name": "The Meditation Realm"
+  },
+  {
+   "id": "hexhaven",
+   "type": "Place",
+   "name": "Hexhaven (Echoverse Strixhaven)"
+  },
+  {
+   "id": "strixhaven",
+   "type": "Place",
+   "name": "Strixhaven"
+  },
+  {
+   "id": "vryn",
+   "type": "Plane",
+   "name": "Vryn"
+  }
+ ],
+ "claims": [
+  {
+   "id": "RF001",
+   "subject": "jace_beleren",
+   "predicate": "created",
+   "object": "echoverse",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_legends",
+     "quote": "These warped counterparts are denizens of the Echoverse, a mirrored version of reality created by Jace Beleren."
+    },
+    {
+     "page": "rf_legends",
+     "quote": "After the death of his allies and his own infection during the Phyrexian Invasion, Jace has decided that the Multiverse as it stands is doomed to an eternity of misery and conflict."
+    },
+    {
+     "page": "rf_legends",
+     "quote": "Using the magic of the Meditation Realm, Jace learned how to transform an illusion into something real."
+    }
+   ],
+   "summary": "After the Phyrexian Invasion, Jace uses the magic of the Meditation Realm to build the Echoverse, a mirrored reality made real.",
+   "event_stage": "rf_prologue_2026"
+  },
+  {
+   "id": "RF002",
+   "subject": "the_theorist",
+   "predicate": "identified_with",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_legends",
+     "quote": "Jace's mind fractured after his apparent death in the Meditation Realm. A slice of his personality known as \"the Theorist\" has taken over, locking away other attributes, like his empathy and wisdom."
+    }
+   ],
+   "summary": "The Theorist is a fractured slice of Jace's personality that took over after his apparent death in the Meditation Realm."
+  },
+  {
+   "id": "RF003",
+   "subject": "jace_beleren",
+   "predicate": "created",
+   "object": "tam",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_legends",
+     "quote": "Created by Jace Beleren, Tam has dutifully followed and learned from her teacher."
+    },
+    {
+     "page": "rf_legends",
+     "quote": "She has been his spy and agent in the Multiverse to gather the final pieces needed to stabilize the new reality."
+    }
+   ],
+   "summary": "Jace created Tam, who served as his spy and agent in the Multiverse."
+  },
+  {
+   "id": "RF004",
+   "subject": "the_theorist",
+   "predicate": "sought",
+   "object": "echoverse",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_legends",
+     "quote": "The ends justify the means, even if that results in overwriting the original Multiverse and replacing all life with his vision of reality."
+    },
+    {
+     "page": "rf_ep9",
+     "quote": "The copy is overlaying the original."
+    }
+   ],
+   "summary": "The Theorist's plan is an 'overlay' of the Echoverse onto the original Multiverse."
+  },
+  {
+   "id": "RF005",
+   "subject": "liliana_doppelganger",
+   "predicate": "abducted",
+   "object": "liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_legends",
+     "quote": "The imperious necromancer-turned-professor is being held prisoner in the Echoverse, having been kidnapped by her doppelgänger on Strixhaven."
+    }
+   ],
+   "summary": "Liliana Vess, now a Strixhaven professor, is kidnapped by her Echoverse doppelganger and held prisoner in the Echoverse."
+  },
+  {
+   "id": "RF006",
+   "subject": "vraska",
+   "predicate": "killed",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep9",
+     "quote": "They grip the knife together. It worked."
+    },
+    {
+     "page": "rf_ep9",
+     "quote": "The Ochran dagger in his heart is a promise fulfilled."
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "Vraska holds the body of her beloved and weeps. She watches his eyes fix, feels the pulse at his neck cease. Thanks to her, his death is quick, his suffering minimal."
+    }
+   ],
+   "summary": "Jace and Vraska together drive an Ochran dagger into his heart, severing the tether between the Multiverses; Jace dies in Vraska's arms.",
+   "limitation": "A consensual mercy killing: Jace and Vraska grip the dagger together, so 'killed' should not be read as an attack.",
+   "event_stage": "rf_climax_2026"
+  },
+  {
+   "id": "RF007",
+   "subject": "tam",
+   "predicate": "inherited_spark_of",
+   "object": "jace_beleren",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep10",
+     "quote": "It is brilliant cerulean, a searing star, a cluster of blinding light rising from his chest."
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "Sparks are precious now. I made you so you could inherit mine. This spark was me, and now, it is you."
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "She reaches for the part of herself that has always known how and planeswalks home to her friends, to Strixhaven."
+    }
+   ],
+   "summary": "Jace's spark leaves his body and enters Tam, who inherits it and planeswalks.",
+   "limitation": "Jace says he made Tam so she could inherit his spark; the spark is delivered via his dying message.",
+   "event_stage": "rf_climax_2026"
+  },
+  {
+   "id": "RF008",
+   "subject": "tam",
+   "predicate": "allied_with",
+   "object": "emrakul",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep10",
+     "quote": "There is a Multiverse that must be consumed. It is an illusion made real. It is not natural, but it is corporeal. Will you feast at my invitation?"
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "She brushes the edges of a sky, an infinite maw, and the beast that lives within the moon stirs at Tam's psychic nudge."
+    }
+   ],
+   "summary": "Tam telepathically reaches Emrakul in Innistrad's moon and invites her to devour the Echoverse.",
+   "event_stage": "rf_climax_2026"
+  },
+  {
+   "id": "RF009",
+   "subject": "emrakul",
+   "predicate": "defeated",
+   "object": "echoverse",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "rf_ep10",
+     "quote": "Emrakul writhes with sated joy, and the sound of her feasting is something Tam feels in her chest."
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "\"Emrakul is separating the second Multiverse from the first."
+    }
+   ],
+   "summary": "Emrakul feasts on the Echoverse, separating the second Multiverse from the first.",
+   "limitation": "Shown from Tam's point of view; how completely the Echoverse is consumed is not stated.",
+   "event_stage": "rf_climax_2026"
+  },
+  {
+   "id": "RF010",
+   "subject": "jace_beleren",
+   "predicate": "related_to",
+   "object": "vryn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep10",
+     "quote": "He was laid to rest as a son of Vryn, his body wrapped in cloth, sinking to the bottom of the funerary lake."
+    }
+   ],
+   "summary": "Jace is laid to rest on Vryn as a son of Vryn.",
+   "limitation": "related_to records burial/origin; no dedicated burial relation exists.",
+   "event_stage": "rf_aftermath_2026"
+  },
+  {
+   "id": "RF011",
+   "subject": "tam",
+   "predicate": "sought",
+   "object": "vraska",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep10",
+     "quote": "\"Hi! I'm Tam. We've met. In the hallway, in the, uh … other Multiverse.\""
+    },
+    {
+     "page": "rf_ep10",
+     "quote": "\"I'm supposed to find you,\" she says."
+    }
+   ],
+   "summary": "After the Echoverse's end, Tam seeks out Vraska at Ranna Beleren's home.",
+   "event_stage": "rf_aftermath_2026"
+  },
+  {
+   "id": "RF012",
+   "subject": "tam",
+   "predicate": "related_to",
+   "object": "hexhaven",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "rf_ep1",
+     "quote": "Hexhaven greets Tam with leaves on the edge of turning and a perfect autumn crispness."
+    },
+    {
+     "page": "rf_ep1",
+     "quote": "\"Your name is Tamira, but who you are is up to you.\""
+    }
+   ],
+   "summary": "Tam arrives at Hexhaven, the Echoverse counterpart of Strixhaven, early in the story."
+  },
+  {
+   "id": "RF013",
+   "subject": "jace_beleren",
+   "predicate": "related_to",
+   "object": "meditation_realm",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "rf_guide",
+     "quote": "When our original plan failed, Jace was unmade in the Meditation Realm."
+    },
+    {
+     "page": "rf_guide",
+     "quote": "From the Meditation Realm, we began constructing a new reality, painstakingly calculating and recalculating the variables necessary."
+    }
+   ],
+   "summary": "The Planeswalker's Guide's in-universe narrator says Jace was unmade in the Meditation Realm and the new reality was built from there.",
+   "limitation": "The guide is written in an in-universe first-person plural voice, so its account is point-of-view."
+  }
+ ],
+ "remaining": [
+  "Episodes 2-8 (the Lorwyn Five, Ajani Unrelenting, Strixhaven/Hexhaven conflicts) are not modelled",
+  "The Legends page's many Echoverse counterparts are only partly used",
+  "Jace's final telepathic messages to Chandra, Ajani and Garruk are not graded"
+ ]
+}
