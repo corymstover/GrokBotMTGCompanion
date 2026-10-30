@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "prior_audit": "boxed_special_lair_global_audit_2026-10-29.json",
+  "scope": "Nine previously pending frozen Scryfall set-code product records: six distinct official Wizards-named special insert/Eternal subsets, two Clash Packs, and one Gideon Signature Spellbook. Code evidence grades differentiate explicitly published exact codes from family-only documentation.",
+  "records": [
+    {
+      "code": "cp1",
+      "official_url": "https://mtg-jp.com/reading/publicity/0008624/",
+      "source_section": "Magic 2015 Clash Pack official announcement — two ready-to-play 60-card decks, six alternate-art foil cards",
+      "source_grade": "wizards_product_family_scryfall_code_crosswalk",
+      "source_note": "Wizards identifies the two-deck boxed Clash Pack format but does not print the Scryfall CP1 code here."
+    },
+    {
+      "code": "cp2",
+      "official_url": "https://mtg-jp.com/reading/products/individual/0011836/",
+      "source_section": "Fate Reforged official product page — Clash Pack with two preconstructed 60-card decks and six alternate-art foil cards",
+      "source_grade": "wizards_product_family_scryfall_code_crosswalk",
+      "source_note": "The official page lists the Japanese Clash Pack sale for January 30, 2015, distinct from frozen CP2 Scryfall earliest-card date January 23, 2015. Neither is silently overwritten."
+    },
+    {
+      "code": "ss2",
+      "official_url": "https://mtg-jp.com/products/0000183/",
+      "secondary_official_gallery_url": "https://mtg-jp.com/products/card-gallery/0000183/470542/",
+      "source_section": "Signature Spellbook: Gideon — eight fixed cards plus one foil; Wizards' own card gallery labels an included Rest in Peace printing SS2",
+      "source_grade": "wizards_card_gallery_exact_printing_code",
+      "source_note": "SS2 appears explicitly on Wizards' product-card gallery print history, not as a three-letter product code on the general boxed product page. Card-version legality and complete boxed printing certification remain separate."
+    },
+    {
+      "code": "bot",
+      "official_url": "https://magic.wizards.com/en/news/feature/whats-inside-the-brothers-war-boosters",
+      "source_section": "The Brothers' War booster guide TRANSFORMERS inserts — fifteen Transformers cards with their own set code BOT",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "The BOT cards appear as Universes Beyond inserts in The Brothers' War products, not as an independent premier booster set."
+    },
+    {
+      "code": "rex",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-the-lost-caverns-of-ixalan",
+      "source_section": "The Lost Caverns of Ixalan collecting guide — Jurassic World Collection explicitly carries set code REX",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "REX is a Jurassic World Collection booster insert and Bundle component, not another independent Ixalan premier set."
+    },
+    {
+      "code": "spe",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-marvels-spider-man",
+      "source_section": "Marvel's Spider-Man collecting guide — Eternal-legal subset set codes SPE and MAR explicitly identified",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "SPE is the explicitly named Eternal-legal subset, not the SPM premier card-set code or a separate standalone expansion."
+    },
+    {
+      "code": "tle",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-avatar-the-last-airbender",
+      "source_section": "Avatar: The Last Airbender collecting guide — Eternal-legal card subset set code TLE explicitly identified",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "TLE's distinct Eternal-legal printing subset is not a standalone Avatar premier set."
+    },
+    {
+      "code": "tmc",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-teenage-mutant-ninja-turtles",
+      "source_section": "Teenage Mutant Ninja Turtles collecting guide — Eternal-legal card subset set code TMC explicitly identified",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "TMC is a supplemental Eternal-legal card subset accompanying the parent release, not an additional premier expansion."
+    },
+    {
+      "code": "hoc",
+      "official_url": "https://magic.wizards.com/en/news/feature/collecting-the-hobbit",
+      "source_section": "The Hobbit collecting guide — Eternal-legal card subset set code HOC explicitly identified",
+      "source_grade": "wizards_article_explicit_set_code",
+      "source_note": "HOC is the independently coded supplemental Eternal-legal card subset, not a second Hobbit premier set."
+    }
+  ],
+  "caveats": [
+    "Six insert/Eternal Scryfall codes are also expressly printed by Wizards; exact code confirmation does not turn any into a separately launched premier expansion.",
+    "SS2 is expressly named on a Wizards card-gallery printing index; the general boxed product page does not itself name SS2 as a product code.",
+    "CP2's Japanese marketed Clash Pack date is January 30 while the frozen Scryfall earliest-card date is January 23, 2015.",
+    "The Clash Pack products each include two playable decks, but those decks are parts of one marketed boxed release.",
+    "No live legality ruling, print-run count, individual card identity debut, or full packaged printing inventory is established by these family citations."
+  ]
+}
