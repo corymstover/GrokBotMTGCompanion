@@ -32,6 +32,16 @@
   ],
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": [
    "neo"
+  ],
+  "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": [
+   "mid",
+   "vow"
+  ],
+  "pack_p5_streets_of_new_capenna_2026-10-30.json": [
+   "snc"
+  ],
+  "pack_p5_edge_of_eternities_2026-10-30.json": [
+   "eoe"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -10344,6 +10354,1440 @@
    "story_set_printings": [
     "neo"
    ]
+  },
+  {
+   "claim": "MV001",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "celestus",
+   "card": "The Celestus",
+   "oracle_id": "c0ad2b5f-066b-424b-bddf-d3014731e599",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV002",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "moonsilver_key",
+   "card": "Moonsilver Key",
+   "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV002",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "celestus",
+   "card": "The Celestus",
+   "oracle_id": "c0ad2b5f-066b-424b-bddf-d3014731e599",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV003",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "tovolar",
+   "card": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
+   "oracle_id": "45d49831-548a-4a0e-9a18-9f7397913895",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV004",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV004",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "katilda",
+   "card": "Katilda, Dawnhart Martyr // Katilda's Rising Dawn",
+   "oracle_id": "493b2820-c250-48bd-9f3c-e1b5639ee101",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV004",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "katilda",
+   "card": "Katilda, Dawnhart Prime",
+   "oracle_id": "6c728edd-ab67-44ce-b19d-aa98dfce68bb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV005",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV005",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "moonsilver_key",
+   "card": "Moonsilver Key",
+   "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV006",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV006",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "edgar_markov",
+   "card": "Edgar Markov",
+   "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV007",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "edgar_markov",
+   "card": "Edgar Markov",
+   "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV007",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV008",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV008",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "edgar_markov",
+   "card": "Edgar Markov",
+   "oracle_id": "41e2790d-49f5-4e98-b8d9-04179f47f13a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV009",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV010",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV010",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "moonsilver_key",
+   "card": "Moonsilver Key",
+   "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Druid of Argoth",
+   "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Hero of Dominaria",
+   "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Mage of Zhalfir",
+   "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Master of Time",
+   "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Archmage",
+   "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Pilgrim",
+   "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Time Raveler",
+   "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timebender",
+   "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timeless Voyager",
+   "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Who Slows the Sunset",
+   "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV012",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "moonsilver_key",
+   "card": "Moonsilver Key",
+   "oracle_id": "373395b2-f04b-46c9-b9f4-4f6815b71009",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN001",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN002",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "giada",
+   "card": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN003",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "xander",
+   "card": "Lord Xander, the Collector",
+   "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN004",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "xander",
+   "card": "Lord Xander, the Collector",
+   "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN005",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "anhelo",
+   "card": "Anhelo, the Painter",
+   "oracle_id": "d3c3f293-6790-4dce-900a-8af0464c2572",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN006",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN006",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "giada",
+   "card": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN007",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "giada",
+   "card": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN007",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN008",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "giada",
+   "card": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN009",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "giada",
+   "card": "Giada, Font of Hope",
+   "oracle_id": "48e6d3d8-2f27-4017-acdd-40bce8cdbc02",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis Reignited",
+   "oracle_id": "65481ae1-54b2-44d2-91e1-20cd486386da",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis of the Black Oath",
+   "oracle_id": "cfc9a2f9-92fa-4608-b98d-f9763c89fc40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Captive Kingpin",
+   "oracle_id": "55b6434b-1542-40fd-b12a-697d40976582",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, Unshackled",
+   "oracle_id": "73021bd2-3b60-4fe4-8858-6eb525be1422",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Adversary",
+   "oracle_id": "a6abb6af-7ea2-43f3-8718-2a077ad0c947",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "snc"
+   ]
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Ascended",
+   "oracle_id": "3a49b518-61c8-4dea-8008-c5edf8384581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Fallen",
+   "oracle_id": "154104b7-4125-4276-8bc7-9a6edfe48cb9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN010",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ob_nixilis",
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "oracle_id": "88cd12e5-ca89-4176-96fd-320fe2ccd087",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN013",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN014",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "vivien_reid",
+   "card": "Vivien Reid",
+   "oracle_id": "b5f20a6d-8c3e-452f-9d98-4886f0fa052a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN014",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SN015",
+   "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
+   "participant": "ajani",
+   "card": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO001",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO002",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO003",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Ship's Engineer",
+   "oracle_id": "470c16c5-b078-47f5-89b0-42991e1f7157",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO003",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Wildcat Captain",
+   "oracle_id": "c4175a34-70bb-47e5-8406-efdc4d2cd079",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO003",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "seriema",
+   "card": "The Seriema",
+   "oracle_id": "a6bcec1f-f515-4e63-9e84-8eb04cc582ff",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO004",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tannuk",
+   "card": "Tannuk, Memorial Ensign",
+   "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO004",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tannuk",
+   "card": "Tannuk, Steadfast Second",
+   "oracle_id": "b5ae8016-92ed-4ae8-83a8-65068defc616",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO004",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Ship's Engineer",
+   "oracle_id": "470c16c5-b078-47f5-89b0-42991e1f7157",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO004",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "sami",
+   "card": "Sami, Wildcat Captain",
+   "oracle_id": "c4175a34-70bb-47e5-8406-efdc4d2cd079",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO005",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Ascendant Cadet",
+   "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO005",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Guided by Light",
+   "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO005",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, Sunstar Exemplar",
+   "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO005",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, the Lucent",
+   "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO006",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, Sunstar Exemplar",
+   "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO006",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, the Lucent",
+   "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO008",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Dreaming Acolyte",
+   "oracle_id": "e4be4071-7910-460f-90f3-6c4d8cc9db65",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO008",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "alpharael",
+   "card": "Alpharael, Stonechosen",
+   "oracle_id": "ed43f1f9-ef96-47bc-8a54-e59154319f9d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "mmmenon",
+   "card": "Mm'menon, Uthros Exile",
+   "oracle_id": "6c05b882-51d9-43d8-93b8-c3317590f76a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "mmmenon",
+   "card": "Mm'menon, the Right Hand",
+   "oracle_id": "de58fa4b-eeeb-4dc8-aab9-6521b15678cc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO009",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO010",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "endstone",
+   "card": "The Endstone",
+   "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO011",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, Sunstar Exemplar",
+   "oracle_id": "9e597063-c077-4236-a9e4-b0721b24677f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO011",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "vondam",
+   "card": "Syr Vondam, the Lucent",
+   "oracle_id": "28225bae-2d96-4352-b256-0c2ff4ef65e9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO012",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Ascendant Cadet",
+   "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO012",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Guided by Light",
+   "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO013",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "endstone",
+   "card": "The Endstone",
+   "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Schemer",
+   "oracle_id": "49d64ecb-3a4f-4013-9a34-8b1539a91e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret the Seeker",
+   "oracle_id": "4aeafdf3-7828-4114-8c74-3bd46357caec",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Agent of Bolas",
+   "oracle_id": "8ab7358e-a0f5-4220-8769-25177237bcdf",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Artifice Master",
+   "oracle_id": "e22824cf-07a1-4c83-b6c4-9d8fcff3892f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Betrayer of Flesh",
+   "oracle_id": "5dedd5a9-bc5d-47bb-9ae1-7d683843d041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Cruel Machinist",
+   "oracle_id": "e5a95145-dc29-4bfc-bb14-b7a269268366",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of Metal",
+   "oracle_id": "3fba19a9-44c6-4771-9587-9d2c4009e996",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "tezzeret",
+   "card": "Tezzeret, Master of the Bridge",
+   "oracle_id": "d097991c-41df-47de-a439-57a0693b9581",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "EO014",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "endstone",
+   "card": "The Endstone",
+   "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO015",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Ascendant Cadet",
+   "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO015",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Guided by Light",
+   "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO017",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Ascendant Cadet",
+   "oracle_id": "6846448b-d5a0-4ae0-bb11-ea7fa6ed2558",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO017",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "haliya",
+   "card": "Haliya, Guided by Light",
+   "oracle_id": "9b0af3ad-1b4d-4480-af91-fe9baee5d1c5",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
+  },
+  {
+   "claim": "EO017",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "participant": "endstone",
+   "card": "The Endstone",
+   "oracle_id": "57ee0730-3ac5-4f17-ac82-bd4a6673c2bb",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "eoe"
+   ]
   }
  ],
  "by_pack": {
@@ -10417,6 +11861,20 @@
    "PRINTED_IN_STORY_SET": 26,
    "NAMED_PARTICIPANT": 64
   },
+  "pack_p5_edge_of_eternities_2026-10-30.json": {
+   "claims": 17,
+   "claims_anchored": 15,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 34,
+   "NAMED_PARTICIPANT": 40
+  },
+  "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 11,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 10,
+   "NAMED_PARTICIPANT": 19
+  },
   "pack_p5_ixalan_rivals_2026-10-30.json": {
    "claims": 16,
    "claims_anchored": 11,
@@ -10437,15 +11895,22 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 14,
    "NAMED_PARTICIPANT": 42
+  },
+  "pack_p5_streets_of_new_capenna_2026-10-30.json": {
+   "claims": 16,
+   "claims_anchored": 13,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 10,
+   "NAMED_PARTICIPANT": 46
   }
  },
  "counts": {
-  "claims": 243,
-  "claims_anchored": 218,
-  "anchors": 1235,
+  "claims": 288,
+  "claims_anchored": 257,
+  "anchors": 1394,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 110,
-  "NAMED_PARTICIPANT": 1094
+  "PRINTED_IN_STORY_SET": 164,
+  "NAMED_PARTICIPANT": 1199
  },
- "content_sha256": "e1b01818e78868c35578be65a60deed3eb8debc5d0ca541a60570921aeaa9546"
+ "content_sha256": "b89cb4be5fed85908f08c42b6aa4ea4aac68590d0e1ff99cdbc83c1b313b59b6"
 }

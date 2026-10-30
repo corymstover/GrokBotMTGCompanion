@@ -12,7 +12,10 @@
   "data/lore_research/pack_p5_kaladesh_aether_revolt_2026-10-30.json",
   "data/lore_research/pack_p5_ixalan_rivals_2026-10-30.json",
   "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
-  "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+  "data/lore_research/pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+  "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+  "data/lore_research/pack_p5_streets_of_new_capenna_2026-10-30.json",
+  "data/lore_research/pack_p5_edge_of_eternities_2026-10-30.json"
  ],
  "art_match_packs": [
   "data/lore_research/pack_a4_printing_art_matches_2026-10-30.json"

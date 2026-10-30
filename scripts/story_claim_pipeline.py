@@ -246,12 +246,33 @@ def cmd_find(arc: str, pattern: str, width: int) -> int:
     return 0
 
 
+def cmd_sentences(arc: str, pattern: str, limit: int, maxlen: int) -> int:
+    """Print whole sentences matching PATTERN (research aid; copy quotes from here)."""
+    rx = re.compile(pattern, re.I)
+    for slug, r in sorted(primary_rows().items(), key=lambda kv: kv[1]["date"]):
+        if r["arc"] != arc:
+            continue
+        t = page_text(slug)
+        if not t:
+            continue
+        n = 0
+        for sent in re.split(r"(?<=[.!?”\"])\s+(?=[A-Z“\"])", norm(t)):
+            if rx.search(sent) and len(sent) <= maxlen:
+                print(f"[{slug[:28]}] {sent}")
+                n += 1
+                if n >= limit:
+                    break
+    return 0
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     b = sub.add_parser("build"); b.add_argument("only", nargs="*")
     sub.add_parser("check")
     pg = sub.add_parser("pages"); pg.add_argument("arc")
+    sn = sub.add_parser("sentences"); sn.add_argument("arc"); sn.add_argument("pattern")
+    sn.add_argument("--limit", type=int, default=4); sn.add_argument("--maxlen", type=int, default=260)
     fd = sub.add_parser("find"); fd.add_argument("arc"); fd.add_argument("pattern"); fd.add_argument("--width", type=int, default=160)
     a = ap.parse_args(argv)
     if a.cmd == "build":
@@ -260,6 +281,8 @@ def main(argv=None) -> int:
         return cmd_check()
     if a.cmd == "pages":
         return cmd_pages(a.arc)
+    if a.cmd == "sentences":
+        return cmd_sentences(a.arc, a.pattern, a.limit, a.maxlen)
     return cmd_find(a.arc, a.pattern, a.width)
 
 

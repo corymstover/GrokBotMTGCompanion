@@ -1,0 +1,403 @@
+{
+ "pack_id": "pack_p5_streets_of_new_capenna",
+ "arc": "SNC",
+ "event_stage": "new_capenna_snc_2022",
+ "scope": "Targeted Phase 5 extraction from the official Streets of New Capenna Magic Story episodes (2022-03-28 to 2022-04-05) and the Planeswalker's Guide to Streets of New Capenna. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "snc_ep1": "episode-1-homecoming-2022-03-28",
+  "snc_ep2": "episode-2-dirty-laundry-2022-03-29",
+  "snc_ep3": "episode-3-tests-2022-03-30",
+  "snc_ep4": "episode-4-font-2022-04-04",
+  "snc_ep5": "episode-5-hymn-angels-2022-04-05",
+  "snc_guide": "planeswalkers-guide-to-streets-of-new-capenna"
+ },
+ "entities": [
+  {
+   "id": "new_capenna",
+   "type": "Plane",
+   "name": "New Capenna"
+  },
+  {
+   "id": "elspeth_tirel",
+   "type": "Character",
+   "name": "Elspeth Tirel"
+  },
+  {
+   "id": "vivien_reid",
+   "type": "Character",
+   "name": "Vivien Reid"
+  },
+  {
+   "id": "ob_nixilis",
+   "type": "Character",
+   "name": "Ob Nixilis (the Adversary)"
+  },
+  {
+   "id": "xander",
+   "type": "Character",
+   "name": "Lord Xander"
+  },
+  {
+   "id": "anhelo",
+   "type": "Character",
+   "name": "Anhelo"
+  },
+  {
+   "id": "giada",
+   "type": "Character",
+   "name": "Giada"
+  },
+  {
+   "id": "the_adversary",
+   "type": "Concept",
+   "name": "The Adversary (title)"
+  },
+  {
+   "id": "five_families",
+   "type": "Faction",
+   "name": "The five families of New Capenna"
+  },
+  {
+   "id": "the_font",
+   "type": "Concept",
+   "name": "The Font"
+  },
+  {
+   "id": "halo",
+   "type": "Object",
+   "name": "Halo"
+  },
+  {
+   "id": "maestros",
+   "type": "Faction",
+   "name": "The Maestros"
+  },
+  {
+   "id": "cabaretti",
+   "type": "Faction",
+   "name": "The Cabaretti"
+  },
+  {
+   "id": "phyrexians",
+   "type": "Faction",
+   "name": "The Phyrexians"
+  },
+  {
+   "id": "capenna_archangels",
+   "type": "Faction",
+   "name": "Archangels of Old Capenna"
+  },
+  {
+   "id": "capenna_demon_lords",
+   "type": "Faction",
+   "name": "Demon Lords of Old Capenna"
+  },
+  {
+   "id": "ajani",
+   "type": "Character",
+   "name": "Ajani Goldmane"
+  }
+ ],
+ "claims": [
+  {
+   "id": "SN001",
+   "subject": "ob_nixilis",
+   "predicate": "identified_with",
+   "object": "the_adversary",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "Elspeth turned to see a hulking, horned man. Two wings of membrane, the color of old blood, stretched behind him. The Adversary."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "\"Good of you to show yourself, Ob Nixilis.\""
+    }
+   ],
+   "summary": "The crime lord known in New Capenna as the Adversary is Ob Nixilis."
+  },
+  {
+   "id": "SN002",
+   "subject": "giada",
+   "predicate": "identified_with",
+   "object": "the_font",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep4",
+     "quote": "Giada was their precious Font."
+    },
+    {
+     "page": "snc_ep4",
+     "quote": "She was giving her life for the Cabaretti and their Halo."
+    }
+   ],
+   "summary": "The Cabaretti's secret 'Font' of unlimited Halo is the young woman Giada."
+  },
+  {
+   "id": "SN003",
+   "subject": "ob_nixilis",
+   "predicate": "killed",
+   "object": "xander",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep4",
+     "quote": "Ob Nixilis snorted and spit on the mutilated body that lay at his feet."
+    },
+    {
+     "page": "snc_ep4",
+     "quote": "The mighty head of the Maestros, the infamous Xander, master assassin. Not the master of anything now."
+    }
+   ],
+   "summary": "Ob Nixilis kills Xander, head of the Maestros, during the night of the Crescendo.",
+   "event_stage": "snc_crescendo_2022"
+  },
+  {
+   "id": "SN004",
+   "subject": "xander",
+   "predicate": "leader_of",
+   "object": "maestros",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_guide",
+     "quote": "Led by the demon-vampire Lord Xander, the Maestros are New Capenna's premier assassins, vampiric professional killers who see a contract not just as business but as a chance to perform."
+    }
+   ],
+   "summary": "Lord Xander leads the Maestros."
+  },
+  {
+   "id": "SN005",
+   "subject": "anhelo",
+   "predicate": "leader_of",
+   "object": "maestros",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "The Maestros are now in your hands, and I trust that after the long night ahead, you will help them usher in a new era."
+    }
+   ],
+   "summary": "Xander's farewell letter passes leadership of the Maestros to Anhelo.",
+   "event_stage": "snc_aftermath_2022"
+  },
+  {
+   "id": "SN006",
+   "subject": "elspeth_tirel",
+   "predicate": "guardian_of",
+   "object": "giada",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "Elspeth had made a promise that she would keep Giada safe until her last breath."
+    }
+   ],
+   "summary": "Elspeth vows to protect Giada."
+  },
+  {
+   "id": "SN007",
+   "subject": "giada",
+   "predicate": "restored",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "Giada thrust something to Elspeth's mouth, leaving her no choice but to swallow."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "Invisible hands put her broken body back together, slowly restoring consciousness and clarity and shaking Erebos's grasp."
+    }
+   ],
+   "summary": "Giada heals the mortally wounded Elspeth with Halo during the Crescendo battle.",
+   "event_stage": "snc_crescendo_2022"
+  },
+  {
+   "id": "SN008",
+   "subject": "giada",
+   "predicate": "related_to",
+   "object": "capenna_archangels",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "\"Don't fear for me any longer, Elspeth. There is more for me out there—I am going to be with my family now.\""
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "Giada was framed by the shining outlines of others like her."
+    }
+   ],
+   "summary": "Giada transforms into Halo and departs with shining figures like her, implied to be New Capenna's angels.",
+   "limitation": "The text does not explicitly name Giada an angel; it shows her looking 'like the rest of the sculpted angels' and leaving with 'others like her'."
+  },
+  {
+   "id": "SN009",
+   "subject": "giada",
+   "predicate": "created",
+   "object": "halo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "Light filled the room. It shot out in every direction from Giada's body, the force of the blast strong enough to throw Ob Nixilis away."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "She looked on in awe as Giada was transformed into the radiant magic of Halo."
+    }
+   ],
+   "summary": "Giada transforms into radiant Halo, repelling Ob Nixilis.",
+   "event_stage": "snc_cathedral_2022"
+  },
+  {
+   "id": "SN010",
+   "subject": "elspeth_tirel",
+   "predicate": "defeated",
+   "object": "ob_nixilis",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "Steel met flesh, and she grazed off the side of his neck."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "In a blink, he was gone, having planeswalked away."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "\"Giada saved us all. But Ob Nixilis got away. This is far from over.\""
+    }
+   ],
+   "summary": "With the Halo-transformed sword, Elspeth wounds Ob Nixilis, who planeswalks away; he escapes rather than dies.",
+   "event_stage": "snc_cathedral_2022"
+  },
+  {
+   "id": "SN011",
+   "subject": "capenna_demon_lords",
+   "predicate": "betrayed",
+   "object": "capenna_archangels",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "In desperation, they formed an alliance with the Demon Lords."
+    },
+    {
+     "page": "snc_guide",
+     "quote": "The vast population of New Capenna had no knowledge of the archdemons' betrayal of the archangels and the five families' power grab."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "The demons ultimately betrayed the angels, trapping them in a kind of stasis from which they could convert the angels' bodies into Halo, an essence that—as Xander had told her—could be taken to help protect the city."
+    }
+   ],
+   "summary": "Facing a Phyrexian invasion, Capenna's angels allied with the Demon Lords, who betrayed them and turned their bodies into Halo.",
+   "event_stage": "old_capenna_phyrexian_invasion"
+  },
+  {
+   "id": "SN012",
+   "subject": "capenna_demon_lords",
+   "predicate": "defeated",
+   "object": "phyrexians",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "In the distant past, the Phyrexians made an attempt on this plane."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "The Demon Lords used Halo to defeat the Phyrexians and then disappeared themselves."
+    }
+   ],
+   "summary": "According to the histories in Xander's archives, the Demon Lords used Halo to defeat a past Phyrexian invasion.",
+   "event_stage": "old_capenna_phyrexian_invasion"
+  },
+  {
+   "id": "SN013",
+   "subject": "elspeth_tirel",
+   "predicate": "sought",
+   "object": "halo",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep5",
+     "quote": "If it held the Phyrexians at bay here . . . this could be the answer Ajani sought, even if the supply of Halo was dwindling."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "Elspeth would take it and all the information back to Ajani and the Gatewatch."
+    }
+   ],
+   "summary": "Elspeth takes Xander's hidden Halo cache and the histories back to Ajani and the Gatewatch as a possible weapon against Phyrexia.",
+   "event_stage": "snc_aftermath_2022"
+  },
+  {
+   "id": "SN014",
+   "subject": "vivien_reid",
+   "predicate": "allied_with",
+   "object": "elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep3",
+     "quote": "Elspeth always considered herself a decent judge of character, and Vivien seemed trustworthy."
+    },
+    {
+     "page": "snc_ep5",
+     "quote": "Elspeth and Vivien stood side by side, staring out the massive window in the same spot Xander had."
+    }
+   ],
+   "summary": "Vivien Reid allies with Elspeth in New Capenna."
+  },
+  {
+   "id": "SN015",
+   "subject": "elspeth_tirel",
+   "predicate": "allied_with",
+   "object": "ajani",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "snc_ep2",
+     "quote": "She was relieved it hadn't been so long ago that she couldn't still track down her old friend in this mostly unfamiliar land."
+    },
+    {
+     "page": "snc_ep2",
+     "quote": "\"After defeating Bolas, I came here to meet with Karn and the Gatewatch to discuss the Phyrexian threat."
+    }
+   ],
+   "summary": "Returned from the Underworld, Elspeth reunites with Ajani on Dominaria, where he is meeting Karn and the Gatewatch about the Phyrexian threat.",
+   "event_stage": "snc_prologue_dominaria_2022"
+  },
+  {
+   "id": "SN016",
+   "subject": "capenna_demon_lords",
+   "predicate": "created",
+   "object": "five_families",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "snc_ep3",
+     "quote": "When they did, the demons appointed five families to take over the city in their name, drafting a pact with the head of each family.\""
+    },
+    {
+     "page": "snc_ep1",
+     "quote": "The fragile alliances that fostered peace between the five families that ruled the city were being strained to a breaking point from which there would likely be no return."
+    }
+   ],
+   "summary": "The demons appointed five families to rule New Capenna in their name; by the story's start their alliances are near breaking.",
+   "limitation": "The appointment is told in character dialogue (Episode 3); the Planeswalker's Guide instead frames the families' rise as a 'power grab', so the mechanism is only implied."
+  }
+ ],
+ "remaining": [
+  "Episodes 1-3 politics among the five families (Obscura, Riveteers, Brokers) are only lightly used",
+  "Urabrask's 'Revolution' message to Vivien is not graded",
+  "Old Capenna history in the Planeswalker's Guide (archangel-archdemon fortress) is only partly used"
+ ]
+}

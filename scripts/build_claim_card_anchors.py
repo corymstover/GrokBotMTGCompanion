@@ -48,6 +48,9 @@ STORY_SETS = {
     "pack_p5_ixalan_rivals_2026-10-30.json": ["xln", "rix"],
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": ["akh", "hou"],
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": ["neo"],
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": ["mid", "vow"],
+    "pack_p5_streets_of_new_capenna_2026-10-30.json": ["snc"],
+    "pack_p5_edge_of_eternities_2026-10-30.json": ["eoe"],
 }
 TIERS = ["ART_IN_CITED_SOURCE", "PRINTED_IN_STORY_SET", "NAMED_PARTICIPANT"]
 
