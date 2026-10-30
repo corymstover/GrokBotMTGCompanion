@@ -1,0 +1,48 @@
+name: Phase 1B Wizards draft and starter product source review
+on:
+  push:
+    branches:
+      - chatgpt-phase1b-draft-starter-source-batch-20261029
+      - main
+    paths:
+      - scripts/audit_draft_starter_sources.py
+      - tests/test_draft_starter_sources.py
+      - data/set_atlas/draft_starter_primary_*
+      - .github/workflows/phase1b-draft-starter-sources.yml
+  pull_request:
+    paths:
+      - scripts/audit_draft_starter_sources.py
+      - tests/test_draft_starter_sources.py
+      - data/set_atlas/draft_starter_primary_*
+      - .github/workflows/phase1b-draft-starter-sources.yml
+permissions:
+  contents: write
+jobs:
+  official-product-source-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test official 23-code evidence and cumulative queue conservation
+        run: python3 -m unittest discover -s tests -p 'test_draft_starter_sources.py' -v
+      - name: Generate reviewed snapshot only on source branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-draft-starter-source-batch-20261029'
+        run: python3 scripts/audit_draft_starter_sources.py --write
+      - name: Enforce deterministic checked output and syntax
+        run: |
+          python3 scripts/audit_draft_starter_sources.py
+          python3 -m py_compile scripts/audit_draft_starter_sources.py
+      - name: Publish generated review report to exact source branch
+        if: github.event_name == 'push' && github.ref_name == 'chatgpt-phase1b-draft-starter-source-batch-20261029'
+        run: |
+          git add data/set_atlas/draft_starter_primary_audit_2026-10-29.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m "Phase 1B: publish reproducible 23-code Wizards product-source audit"
+            git push origin HEAD:chatgpt-phase1b-draft-starter-source-batch-20261029
+          fi
