@@ -1,0 +1,246 @@
+{
+ "schema": "in_universe_dates.v1",
+ "status": "PRELIMINARY_RESEARCH; verbatim time phrases from cited quotes only; no calendar years inferred; not owner approved",
+ "basis": "value is the exact phrase in the quote; RELATIVE_SPAN is relative to the cited story's present, not to any fixed calendar",
+ "count": 26,
+ "by_kind": {
+  "AR_YEAR": 0,
+  "RELATIVE_SPAN": 26
+ },
+ "dates": [
+  {
+   "claim": "U005",
+   "pack": "pack_a5_ugin_allies_2026-10-30.json",
+   "value": "over a thousand years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+   "source_id": "stone_and_blood"
+  },
+  {
+   "claim": "MOM016",
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "value": "many years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "It has been many years since they were called to war—but Zhalfir stands ready.",
+   "source_id": "mom_ep08"
+  },
+  {
+   "claim": "MOM018",
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "value": "hundreds of years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+   "source_id": "mom_ep10"
+  },
+  {
+   "claim": "MOM021",
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "value": "hundreds of years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+   "source_id": "mom_ep10"
+  },
+  {
+   "claim": "AKH017",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "value": "Several decades ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Several decades ago he had come to the world of Amonkhet, a blighted, superstitious backworld of interest to no one who mattered",
+   "source_id": "hou_devastation"
+  },
+  {
+   "claim": "AKH022",
+   "pack": "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+   "value": "decades ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "After discovering that her city is not the way it was only decades ago, she is determined to convince her oldest and dearest friend, Djeru, to believe her.",
+   "source_id": "akh_judgment"
+  },
+  {
+   "claim": "NEO002",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "value": "ten years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Whatever he'd done to Kyodai ten years ago had inadvertently set off the Wanderer's spark.",
+   "source_id": "neo_ep5"
+  },
+  {
+   "claim": "NEO007",
+   "pack": "pack_p5_kamigawa_neon_dynasty_2026-10-30.json",
+   "value": "Ten years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Ten years ago, Kaito had sworn never to step foot in the palace until the emperor returned.",
+   "source_id": "neo_ep4"
+  },
+  {
+   "claim": "MV007",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "value": "thousands of years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Of all the wounds Sorin bore, Edgar had inflicted the first, and still, Sorin had loved him for thousands of years.",
+   "source_id": "vow_ep5"
+  },
+  {
+   "claim": "EO019",
+   "pack": "pack_p5_edge_of_eternities_2026-10-30.json",
+   "value": "decades ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "The piece which Harkener Sergeant Farakatolar and her small squad have been sent to investigate broke off decades ago and was marked as a possible memorial vault, one of the precious preserves of Kav artifacts.",
+   "source_id": "eoe_grasp"
+  },
+  {
+   "claim": "DF003",
+   "pack": "pack_p5_aetherdrift_2026-10-30.json",
+   "value": "last year",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Cloudspire's co-captains are Chandra Nalaar and Kolodin, the latter being last year's sole captain.",
+   "source_id": "dft_guide1"
+  },
+  {
+   "claim": "SX010",
+   "pack": "pack_p5_strixhaven_2026-10-30.json",
+   "value": "some 700 years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Founded some 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning, drawing promising young mages from all around the plane to study in its halls.",
+   "source_id": "stx_guide"
+  },
+  {
+   "claim": "TS025",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "value": "many years before",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Xenocrates had been one of her first mentors at Ephara's temple when Melantha had arrived so many years before.",
+   "source_id": "ths_dreams"
+  },
+  {
+   "claim": "EL011",
+   "pack": "pack_p5_throne_of_eldraine_2026-10-30.json",
+   "value": "nine generations ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Eight or nine generations ago, humans rose to power and drove the elves out of what would become the realm.",
+   "source_id": "eld_guide"
+  },
+  {
+   "claim": "SS015",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "value": "over 700 years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Founded over 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning",
+   "source_id": "sos_guide"
+  },
+  {
+   "claim": "SE011",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "value": "thousands of years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Jace has come to Innistrad in search of Sorin Markov, one of the three Planeswalkers who imprisoned the Eldrazi on Zendikar thousands of years ago.",
+   "source_id": "soi_markov_manor"
+  },
+  {
+   "claim": "SE027",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "value": "over a thousand years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+   "source_id": "emn_stone_blood"
+  },
+  {
+   "claim": "TD004",
+   "pack": "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+   "value": "Five years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Five years ago, Ugin awoke from his hibernation and departed Tarkir.",
+   "source_id": "tdm_guide1"
+  },
+  {
+   "claim": "EC017",
+   "pack": "pack_p5_lorwyn_eclipsed_2026-10-30.json",
+   "value": "nearly forty years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "A member of the group that defeated Oona nearly forty years ago, Rhys has been kept alive via a magical pact with Maralen.",
+   "source_id": "ecl_legends"
+  },
+  {
+   "claim": "DS105",
+   "pack": "pack_p5_dsk_side_stories_2026-10-30.json",
+   "value": "years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "When this all began, a scant handful of years ago, the elves of the Rotrue Wood had viewed it as a sickness of city, born to city, swallowing city for its crimes against the natural world.",
+   "source_id": "dsks_five"
+  },
+  {
+   "claim": "UB011",
+   "pack": "pack_p5_untagged_bios_2026-10-30.json",
+   "value": "more than 1,500 years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Born on Dominaria more than 1,500 years ago",
+   "source_id": "ub_jaya"
+  },
+  {
+   "claim": "DU104",
+   "pack": "pack_p5_dmu_side_stories_2026-10-30.json",
+   "value": "nearly four hundred years ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Granted immortality during his time as a cabin boy aboard the skyship Weatherlight, Squee had helped some of Dominaria's greatest heroes repel invading Phyrexian forces nearly four hundred years ago.",
+   "source_id": "dmus_squee"
+  },
+  {
+   "claim": "KT018",
+   "pack": "pack_p5_untagged_ktk_2026-10-30.json",
+   "value": "more than 1,200 years",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "left his time to travel back more than 1,200 years into Tarkir's past and save Ugin, the Spirit Dragon from death",
+   "source_id": "kt_dragons"
+  },
+  {
+   "claim": "ZN003",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "value": "millennia ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "She should have found a different plane to trap the Eldrazi in millennia ago.",
+   "source_id": "zr_ep1"
+  },
+  {
+   "claim": "ZN004",
+   "pack": "pack_p5_untagged_znr_2026-10-30.json",
+   "value": "many centuries ago",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Zendikar's Vampires were created many centuries ago by a magical infection that originated from the Eldrazi and enslaved them to Ulamog's will.",
+   "source_id": "zr_world"
+  },
+  {
+   "claim": "IG004",
+   "pack": "pack_p5_untagged_isd_guides_2026-10-30.json",
+   "value": "last year",
+   "kind": "RELATIVE_SPAN",
+   "also_in_quote": [],
+   "quote": "Ever since Avacyn went missing last year, the church at Thraben has kept the truth of her disappearance from Innistrad's denizens.",
+   "source_id": "ig_kes"
+  }
+ ]
+}

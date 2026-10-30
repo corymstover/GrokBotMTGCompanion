@@ -1,0 +1,62 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "claims": 5,
+ "entities": 10,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 3,
+  "CANON_IMPLIED": 2
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "GR001",
+   "source_id": "gr_unb2",
+   "quote_sha256": "69c465ebe4a1d3669473df1a609bd9be27ef05f5aba513647242103b8e32df8d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR002",
+   "source_id": "gr_unb3",
+   "quote_sha256": "d56f6711ce9cb9a10d88cbed0304da6de77378d95b0843c1cdb5c4b9134cba48",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR003",
+   "source_id": "gr_rage",
+   "quote_sha256": "887ec208213d2a8559d71d7c88899d7be454e9d566d2946aefd035745871914c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR003",
+   "source_id": "gr_rage",
+   "quote_sha256": "e8a1712c808ff32d94f61be6b1f5e011d86391c3e600a64ec05c0cea714c55da",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR004",
+   "source_id": "gr_ill",
+   "quote_sha256": "2696bbc20ad9d8b8bd59d04a1469aa46c072ca8f0e7718345679a27fb41d132a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR005",
+   "source_id": "gr_reza",
+   "quote_sha256": "84003d280830bba40d251c555c62af1c307e2abf966797299d107fad4a44fc02",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "GR005",
+   "source_id": "gr_reza",
+   "quote_sha256": "1a6f2d81697b29ff3989e22d36932f847c9f82f40a8771beccdf1bde8a2edfde",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "2e7589cf8d11f93f9126f0889c9834d13b9afdb3224ac8cabb73e168db6adc22"
+}

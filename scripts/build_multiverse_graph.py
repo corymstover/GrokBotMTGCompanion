@@ -119,6 +119,8 @@ class Graph:
 
 ERA_BASIS = ("claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); "
              "no Dominarian (AR) year is asserted")
+# An edge's in_universe_date, when present, is a verbatim time phrase from the claim's own cited quote
+# (relative to that story's present); it is never converted to a calendar year.
 
 
 def source_node(g: Graph, sid: str, meta: dict, origin: str) -> str:
@@ -159,7 +161,13 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
             obj = g.resolve(tok, origin)
             g.edge(cid, "asserts", obj, role="object")
             extra = {"era": stage, "era_basis": ERA_BASIS} if stage else {}
-            ar = c.get("in_universe_date")
+            ar = c.get("in_universe_date") or DATE_OVERLAY.get(c["id"])
+            if ar and DATE_OVERLAY.get(c["id"]) is ar:
+                # Overlay dates (scripts/build_in_universe_dates.py) must be a verbatim phrase inside a quote this claim cites.
+                if not any(ev.get("source_id") == ar.get("source_id") and ev.get("quote") == ar.get("quote")
+                           for ev in c.get("evidence", [])) or ar.get("value", "") not in ar.get("quote", ""):
+                    g.problems.append(f"{origin} {c['id']}: overlay in_universe_date is not a phrase in a quote the claim cites")
+                    ar = None
             if ar:
                 # Only an explicit, quoted in-universe date may be carried; never inferred.
                 if not (isinstance(ar, dict) and ar.get("value") and ar.get("quote") and ar.get("source_id") in c.get("source_ids", [])):
@@ -280,9 +288,16 @@ def bridge_curated(g: Graph, rel: str) -> int:
     return hits
 
 
+DATE_OVERLAY: dict = {}
+
+
 def build(manifest_path: Path = MANIFEST) -> dict:
     m = json.loads(manifest_path.read_text(encoding="utf-8"))
     g = Graph()
+    DATE_OVERLAY.clear()
+    if m.get("in_universe_dates"):
+        for r in load(m["in_universe_dates"]).get("dates", []):
+            DATE_OVERLAY[r["claim"]] = r
     # Pass 1: register every pack's entities, so a claim in an earlier pack can name an entity
     # that a later pack introduces (for example, A003's survivor list and A2's entities).
     for rel in m["claim_packs"]:
@@ -293,6 +308,9 @@ def build(manifest_path: Path = MANIFEST) -> dict:
               "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])],
               "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])],
               "story_caption_packs": [ingest_story_captions(g, r) for r in m.get("story_caption_packs", [])]}
+    if m.get("in_universe_dates"):
+        inputs["in_universe_dates"] = [{"file": m["in_universe_dates"],
+                                        "dates": len(load(m["in_universe_dates"]).get("dates", []))}]
     bridges = bridge_curated(g, m["curated_lore_graph"]) if m.get("curated_lore_graph") else 0
     for rel in inputs:
         for item in inputs[rel]:
