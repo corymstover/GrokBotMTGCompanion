@@ -30,6 +30,7 @@ on:
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
+      - 'tests/test_reviewed_no_claim.py'
       - 'scripts/story_claim_pipeline.py'
       - 'tests/test_story_claim_pipeline.py'
       - 'data/primary_sources.csv'
@@ -64,6 +65,7 @@ on:
       - 'data/lore_research/story_image_label_printings_2026-10-30.json'
       - 'scripts/build_story_coverage_inventory.py'
       - 'tests/test_story_coverage_inventory.py'
+      - 'tests/test_reviewed_no_claim.py'
       - 'scripts/story_claim_pipeline.py'
       - 'tests/test_story_claim_pipeline.py'
       - 'data/primary_sources.csv'
@@ -130,6 +132,7 @@ jobs:
         run: |
           python3 scripts/build_story_coverage_inventory.py --check
           python3 -m unittest discover -s tests -p 'test_story_coverage_inventory.py' -v
+          python3 -m unittest discover -s tests -p 'test_reviewed_no_claim.py' -v
       - name: Story-art caption atlas (self-hash; caches absent in CI) and tests
         run: |
           python3 scripts/build_story_art_captions.py --check

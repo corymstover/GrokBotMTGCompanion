@@ -1,0 +1,33 @@
+{
+ "schema": "reviewed-no-claim/v1",
+ "meaning": "A page listed here was read by the named reviewer, who found no story relation to extract as a claim (for example an index page, a design interview or a duplicate). It is NOT an owner approval, NOT a certification and NOT a statement that the page has no lore value. It is reversible: delete the entry, or cite the page from a claim pack (the coverage builder rejects a page that is both cited and listed).",
+ "reasons": {
+  "INDEX_OR_LANDING_PAGE": "a collection, index, hub or e-book landing page that links to or lists story content without telling it",
+  "DESIGN_OR_PROCESS_ARTICLE": "a behind-the-scenes, design or interview article about making a set; it describes creative process, not in-world events",
+  "DUPLICATE_PAGE": "a second URL for a page whose text is already cited; duplicate_of names the cited URL",
+  "PRODUCT_OR_PROMO_NOTE": "a product, preorder or promotional note with no in-world narrative",
+  "NO_EXTRACTABLE_RELATION": "in-world text, but no sentence states a relation between named entities clearly enough to quote (use sparingly; note says why)"
+ },
+ "entries": [
+  {
+   "url": "https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10",
+   "page_key": "ikoria-lair-behemoths-story-cards-2020-04-10",
+   "arc": "IKO",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "INDEX_OR_LANDING_PAGE",
+   "note": "Card-gallery hub for previews ('We'll collect those story moments right here'); its body is section headings plus an ebook preorder line, with no narrative text in the cached page.",
+   "cached_text_sha256": "bca5b4d5ffe6c3721a0ac552d0262c9e178d12d0f05dc3678c17c68898194f27"
+  },
+  {
+   "url": "https://magic.wizards.com/en/news/feature/worldbuilding-ikoria-2020-04-07",
+   "page_key": "worldbuilding-ikoria-2020-04-07",
+   "arc": "IKO",
+   "reviewer": "GrokBot",
+   "reviewed_on": "2026-10-30",
+   "reason": "DESIGN_OR_PROCESS_ARTICLE",
+   "note": "Interview with the creative team (Doug Beyer, Andrew Vallas, Jehan Choo) about the concept push and the mutate mechanic. Describes design intent for the five monster types, not in-world events or relations.",
+   "cached_text_sha256": "bef94ae55e7ea56d3e946eb1fcb35277594b0fe940ba207aac5e7b35682e93f9"
+  }
+ ]
+}

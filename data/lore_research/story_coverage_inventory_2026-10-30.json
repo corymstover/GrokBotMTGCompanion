@@ -51,7 +51,8 @@
    "data/lore_research/pack_p5_neo_side_stories_2026-10-30.json",
    "data/lore_research/pack_p5_bfz_2015_stories_2026-10-30.json",
    "data/lore_research/pack_p5_war_spark_ravnica_2026-10-30.json"
-  ]
+  ],
+  "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
@@ -61,6 +62,8 @@
   "arcs_not_started": 0,
   "arcs_partial": 2,
   "arcs_all_cited": 31,
+  "reviewed_no_claim_pages": 2,
+  "arcs_all_cited_or_reviewed": 32,
   "claims": 838,
   "pack_urls_outside_inventory": 12
  },
@@ -126,7 +129,10 @@
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "BFZ/OGW",
@@ -141,7 +147,10 @@
     "pack_p5_bfz_2015_stories_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "BLB",
@@ -155,7 +164,10 @@
     "pack_p5_bloomburrow_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "BRO",
@@ -169,7 +181,10 @@
     "pack_p5_brothers_war_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "DFT",
@@ -183,7 +198,10 @@
     "pack_p5_aetherdrift_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "DMU",
@@ -199,7 +217,10 @@
     "pack_p5_dominaria_united_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "DOM/WAR",
@@ -213,7 +234,10 @@
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "DSK",
@@ -228,7 +252,10 @@
     "pack_p5_duskmourn_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "ECL",
@@ -243,7 +270,10 @@
     "pack_p5_lorwyn_eclipsed_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "ELD",
@@ -256,7 +286,10 @@
     "pack_p5_throne_of_eldraine_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "EOE",
@@ -270,7 +303,10 @@
     "pack_p5_edge_of_eternities_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "IKO",
@@ -287,7 +323,10 @@
    "uncited_urls": [
     "https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10",
     "https://magic.wizards.com/en/news/feature/worldbuilding-ikoria-2020-04-07"
-   ]
+   ],
+   "reviewed_no_claim_pages": 2,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "KHM",
@@ -302,7 +341,10 @@
     "pack_p5_kaldheim_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "KLD/AER",
@@ -316,7 +358,10 @@
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "LCI",
@@ -330,7 +375,10 @@
     "pack_p5_lost_caverns_of_ixalan_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "MAT",
@@ -343,7 +391,10 @@
     "pack_p5_mom_aftermath_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "MID/VOW",
@@ -357,7 +408,10 @@
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "MKM",
@@ -372,7 +426,10 @@
     "pack_p5_murders_at_karlov_manor_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "MOM",
@@ -387,7 +444,10 @@
     "pack_p5_mom_side_stories_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "NEO",
@@ -402,7 +462,10 @@
     "pack_p5_neo_side_stories_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "ONE",
@@ -418,7 +481,10 @@
     "pack_p5_one_side_stories_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "OTJ",
@@ -433,7 +499,10 @@
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "RF",
@@ -447,7 +516,10 @@
     "pack_p5_reality_fracture_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "SNC",
@@ -462,7 +534,10 @@
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "SOI/EMN",
@@ -476,7 +551,10 @@
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "SOS",
@@ -490,7 +568,10 @@
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "STX",
@@ -504,7 +585,10 @@
     "pack_p5_strixhaven_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "TDM",
@@ -520,7 +604,10 @@
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "THB",
@@ -534,7 +621,10 @@
     "pack_p5_theros_beyond_death_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "THS",
@@ -548,7 +638,10 @@
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "WOE",
@@ -561,7 +654,10 @@
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "XLN/RIX",
@@ -575,7 +671,10 @@
     "pack_p5_ixalan_rivals_2026-10-30.json"
    ],
    "status": "ALL_PAGES_CITED",
-   "uncited_urls": []
+   "uncited_urls": [],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "ALL_PAGES_CITED_OR_REVIEWED",
+   "unreviewed_urls": []
   },
   {
    "arc": "(untagged)",
@@ -806,8 +905,222 @@
     "https://magic.wizards.com/en/story/wrenn-planeswalker",
     "https://magic.wizards.com/en/story/xenagos-planeswalker",
     "https://magic.wizards.com/en/story/zendikar-plane"
+   ],
+   "reviewed_no_claim_pages": 0,
+   "review_status": "PARTIAL",
+   "unreviewed_urls": [
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-introduction",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-progress-engine",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-steel-thanes",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-new-phyrexia-the-vicious-swarm",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar",
+    "https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar-murasa-and-sejiri",
+    "https://magic.wizards.com/en/news/feature/behind-black-sun-2013-03-25",
+    "https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01",
+    "https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24",
+    "https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19",
+    "https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17",
+    "https://magic.wizards.com/en/news/feature/naming-nameless-brandon-sanderson-2018-12-12",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-dragons-tarkir-part-1-2015-03-11",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-2011-11-02",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-gavony-and-humans-2011-09-28",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-introduction-2011-08-24",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-kessig-and-werewolves-2011-10-05",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-nephalia-and-undead-2011-10-19",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-innistrad-stensia-and-vampires-2011-11-02",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-1-2014-09-03",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-khans-tarkir-part-2-2014-09-10",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-machine-orthodoxy-2011-04-06",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-new-phyrexia-quiet-furnace-2011-05-04",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-1",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-2",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-2",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2",
+    "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3",
+    "https://magic.wizards.com/en/news/feature/rorecas-tale-2008-03-19",
+    "https://magic.wizards.com/en/news/feature/worlds-magic-origins-2015-07-09",
+    "https://magic.wizards.com/en/news/feature/zendikar-things-have-changed-2020-09-01",
+    "https://magic.wizards.com/en/news/magic-story/all-cairns-jund-2015-11-04",
+    "https://magic.wizards.com/en/news/magic-story/an-excerpt-from-strixhaven-omens-of-chaos",
+    "https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27",
+    "https://magic.wizards.com/en/news/magic-story/awakening-the-bear",
+    "https://magic.wizards.com/en/news/magic-story/bard-and-biologist-2014-07-09",
+    "https://magic.wizards.com/en/news/magic-story/beneath-riverroot-tree-2020-09-18",
+    "https://magic.wizards.com/en/news/magic-story/betrayal-2014-05-14",
+    "https://magic.wizards.com/en/news/magic-story/black-rose-2014-05-21",
+    "https://magic.wizards.com/en/news/magic-story/blessed-life-2012-07-24",
+    "https://magic.wizards.com/en/news/magic-story/bloody-instructions",
+    "https://magic.wizards.com/en/news/magic-story/bond-and-blood-2014-12-03",
+    "https://magic.wizards.com/en/news/magic-story/bound-and-bonded-2018-11-14",
+    "https://magic.wizards.com/en/news/magic-story/burn",
+    "https://magic.wizards.com/en/news/magic-story/call-2015-04-15",
+    "https://magic.wizards.com/en/news/magic-story/catching-2015-07-22",
+    "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-things-unseen-2018-06-27",
+    "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11",
+    "https://magic.wizards.com/en/news/magic-story/chronomaton-2012-07-10",
+    "https://magic.wizards.com/en/news/magic-story/clans-legions-2018-10-24",
+    "https://magic.wizards.com/en/news/magic-story/cogwork-2014-05-28",
+    "https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22",
+    "https://magic.wizards.com/en/news/magic-story/cyan-depths-2021-07-28",
+    "https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30",
+    "https://magic.wizards.com/en/news/magic-story/deaths-precious-moments-2018-11-07",
+    "https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21",
+    "https://magic.wizards.com/en/news/magic-story/devouring-house-2021-11-19",
+    "https://magic.wizards.com/en/news/magic-story/doom-golden-fang-2015-02-04",
+    "https://magic.wizards.com/en/news/magic-story/dreams-of-the-damned",
+    "https://magic.wizards.com/en/news/magic-story/drop-drop-2015-05-20",
+    "https://magic.wizards.com/en/news/magic-story/enlightened",
+    "https://magic.wizards.com/en/news/magic-story/episode-1-heart-skyclave-2020-09-02",
+    "https://magic.wizards.com/en/news/magic-story/episode-2-race-murasa-skyclave-2020-09-09",
+    "https://magic.wizards.com/en/news/magic-story/episode-3-dangerous-climb-long-fall-2020-09-16",
+    "https://magic.wizards.com/en/news/magic-story/episode-4-haunting-songs-and-whispered-warnings-2020-09-23",
+    "https://magic.wizards.com/en/news/magic-story/episode-5-two-guardians-2020-09-30",
+    "https://magic.wizards.com/en/news/magic-story/faith-birds-2022-08-17",
+    "https://magic.wizards.com/en/news/magic-story/garden-flesh-2022-05-03",
+    "https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12",
+    "https://magic.wizards.com/en/news/magic-story/great-teachers-student-2015-03-04",
+    "https://magic.wizards.com/en/news/magic-story/guardian-2015-04-02",
+    "https://magic.wizards.com/en/news/magic-story/hidden-page-2021-07-07",
+    "https://magic.wizards.com/en/news/magic-story/hunger-2020-09-25",
+    "https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16",
+    "https://magic.wizards.com/en/news/magic-story/illusions-childs-play-2019-01-23",
+    "https://magic.wizards.com/en/news/magic-story/impact-2017-03-29",
+    "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-1",
+    "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-2",
+    "https://magic.wizards.com/en/news/magic-story/in-praise-of-the-worldsoul-part-3",
+    "https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26",
+    "https://magic.wizards.com/en/news/magic-story/khanfall-2015-02-18",
+    "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-16",
+    "https://magic.wizards.com/en/news/magic-story/krenko-mob-boss-2012-07-18",
+    "https://magic.wizards.com/en/news/magic-story/laid-rest-2016-08-03",
+    "https://magic.wizards.com/en/news/magic-story/ledger-hidden-fortunes-2019-02-20",
+    "https://magic.wizards.com/en/news/magic-story/leovolds-dossiers-2016-08-24",
+    "https://magic.wizards.com/en/news/magic-story/limits-2015-07-15",
+    "https://magic.wizards.com/en/news/magic-story/lore-core-set-2021-cards-2020-06-16",
+    "https://magic.wizards.com/en/news/magic-story/lunarchs-journal-2014-08-13",
+    "https://magic.wizards.com/en/news/magic-story/maelstrom",
+    "https://magic.wizards.com/en/news/magic-story/magic-origins-new-era-2015-06-03",
+    "https://magic.wizards.com/en/news/magic-story/magic-story-shadows-over-innistrad-e-book-collection-2016-06-01",
+    "https://magic.wizards.com/en/news/magic-story/magosi-steps-2020-09-10",
+    "https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09",
+    "https://magic.wizards.com/en/news/magic-story/mercy",
+    "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15",
+    "https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0",
+    "https://magic.wizards.com/en/news/magic-story/new-tarkir-old-2014-12-31",
+    "https://magic.wizards.com/en/news/magic-story/nissa-worldwaker-2014-06-25",
+    "https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08",
+    "https://magic.wizards.com/en/news/magic-story/no-end-and-no-beginning-2015-02-11",
+    "https://magic.wizards.com/en/news/magic-story/note-stranger-2022-05-02",
+    "https://magic.wizards.com/en/news/magic-story/odric-master-tactician-2012-06-26",
+    "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05",
+    "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07",
+    "https://magic.wizards.com/en/news/magic-story/path-or-horizon-2014-05-07-0",
+    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-dragons-tarkir-part-2-2015-03-18",
+    "https://magic.wizards.com/en/news/magic-story/poisoned-heart-2015-04-08",
+    "https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31",
+    "https://magic.wizards.com/en/news/magic-story/principles-unnatural-selection-2019-02-06",
+    "https://magic.wizards.com/en/news/magic-story/proclamation-adriana-captain-guard-2016-08-16",
+    "https://magic.wizards.com/en/news/magic-story/proclamation-queen-marchesa-2016-08-15",
+    "https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27",
+    "https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30",
+    "https://magic.wizards.com/en/news/magic-story/red-route-2020-09-04",
+    "https://magic.wizards.com/en/news/magic-story/scarlet-flames-2021-06-30",
+    "https://magic.wizards.com/en/news/magic-story/spirits-of-the-abzan",
+    "https://magic.wizards.com/en/news/magic-story/stirring-slumber-2015-05-13",
+    "https://magic.wizards.com/en/news/magic-story/stonekiller-part-2-2012-08-13",
+    "https://magic.wizards.com/en/news/magic-story/taigams-scheming",
+    "https://magic.wizards.com/en/news/magic-story/talrand-sky-summoner-2012-07-30",
+    "https://magic.wizards.com/en/news/magic-story/tarkir-dragons-2015-02-25",
+    "https://magic.wizards.com/en/news/magic-story/testing-dark-waters-2018-10-17",
+    "https://magic.wizards.com/en/news/magic-story/the-chensal-twins",
+    "https://magic.wizards.com/en/news/magic-story/the-madness-of-sarkhan",
+    "https://magic.wizards.com/en/news/magic-story/the-salt-road",
+    "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-1",
+    "https://magic.wizards.com/en/news/magic-story/the-shadows-of-prahv-part-2",
+    "https://magic.wizards.com/en/news/magic-story/threadbare-2012-07-23",
+    "https://magic.wizards.com/en/news/magic-story/torrent",
+    "https://magic.wizards.com/en/news/magic-story/truth-names-2015-01-28",
+    "https://magic.wizards.com/en/news/magic-story/tyrants-2016-08-10",
+    "https://magic.wizards.com/en/news/magic-story/unbowed-part-1-2018-08-29",
+    "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05",
+    "https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07",
+    "https://magic.wizards.com/en/news/magic-story/under-cover-fog-2018-10-10",
+    "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29",
+    "https://magic.wizards.com/en/news/magic-story/unwritten-2015-01-14",
+    "https://magic.wizards.com/en/news/magic-story/veil-deceit-2014-07-01",
+    "https://magic.wizards.com/en/news/magic-story/verdant-tomb-2021-07-14",
+    "https://magic.wizards.com/en/news/magic-story/victory-2014-11-26",
+    "https://magic.wizards.com/en/news/magic-story/way-of-the-mantis",
+    "https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29",
+    "https://magic.wizards.com/en/news/magic-story/xathrid-gorgon-2012-07-03",
+    "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3",
+    "https://magic.wizards.com/en/story/ajani-goldmane-planeswalker",
+    "https://magic.wizards.com/en/story/alara-plane",
+    "https://magic.wizards.com/en/story/angrath-planeswalker",
+    "https://magic.wizards.com/en/story/arlinn-kord-planeswalker",
+    "https://magic.wizards.com/en/story/ashiok-planeswalker",
+    "https://magic.wizards.com/en/story/avishkar-plane",
+    "https://magic.wizards.com/en/story/basri-ket-planeswalker",
+    "https://magic.wizards.com/en/story/calix-planeswalker",
+    "https://magic.wizards.com/en/story/chandra-nalaar-planeswalker",
+    "https://magic.wizards.com/en/story/dack-fayden-planeswalker",
+    "https://magic.wizards.com/en/story/daretti-planeswalker",
+    "https://magic.wizards.com/en/story/davriel-cane-planeswalker",
+    "https://magic.wizards.com/en/story/domri-rade-planeswalker",
+    "https://magic.wizards.com/en/story/dovin-baan-planeswalker",
+    "https://magic.wizards.com/en/story/elspeth-tirel-planeswalker",
+    "https://magic.wizards.com/en/story/fiora-plane",
+    "https://magic.wizards.com/en/story/garruk-wildspeaker-planeswalker",
+    "https://magic.wizards.com/en/story/gideon-jura-planeswalker",
+    "https://magic.wizards.com/en/story/grist-planeswalker",
+    "https://magic.wizards.com/en/story/huatli-planeswalker",
+    "https://magic.wizards.com/en/story/innistrad-plane",
+    "https://magic.wizards.com/en/story/jace-beleren-planeswalker",
+    "https://magic.wizards.com/en/story/jaya-planeswalker",
+    "https://magic.wizards.com/en/story/kaito-shizuki-planeswalker",
+    "https://magic.wizards.com/en/story/kamigawa-plane",
+    "https://magic.wizards.com/en/story/kasmina-planeswalker",
+    "https://magic.wizards.com/en/story/kaya-planeswalker",
+    "https://magic.wizards.com/en/story/kiora-planeswalker",
+    "https://magic.wizards.com/en/story/koth-planeswalker",
+    "https://magic.wizards.com/en/story/liliana-vess-planeswalker",
+    "https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane",
+    "https://magic.wizards.com/en/story/mirrodin-plane",
+    "https://magic.wizards.com/en/story/mu-yanling-planeswalker",
+    "https://magic.wizards.com/en/story/nahiri-planeswalker",
+    "https://magic.wizards.com/en/story/narset-planeswalker",
+    "https://magic.wizards.com/en/story/new-phyrexia-plane",
+    "https://magic.wizards.com/en/story/nicol-bolas-planeswalker",
+    "https://magic.wizards.com/en/story/nissa-revane-planeswalker",
+    "https://magic.wizards.com/en/story/ob-nixilis-planeswalker",
+    "https://magic.wizards.com/en/story/oko-planeswalker",
+    "https://magic.wizards.com/en/story/ral-zarek-planeswalker",
+    "https://magic.wizards.com/en/story/ravnica-plane",
+    "https://magic.wizards.com/en/story/rowan-kenrith-planeswalker",
+    "https://magic.wizards.com/en/story/saheeli-rai-planeswalker",
+    "https://magic.wizards.com/en/story/samut-planeswalker",
+    "https://magic.wizards.com/en/story/sarkhan-vol-planeswalker",
+    "https://magic.wizards.com/en/story/serra-planeswalker",
+    "https://magic.wizards.com/en/story/shandalar-plane",
+    "https://magic.wizards.com/en/story/sorin-markov-planeswalker",
+    "https://magic.wizards.com/en/story/tamiyo-planeswalker",
+    "https://magic.wizards.com/en/story/teyo-verada-planeswalker",
+    "https://magic.wizards.com/en/story/tezzeret-planeswalker",
+    "https://magic.wizards.com/en/story/tibalt-planeswalker",
+    "https://magic.wizards.com/en/story/tyvar-kell-planeswalker",
+    "https://magic.wizards.com/en/story/ugin-planeswalker",
+    "https://magic.wizards.com/en/story/venser-planeswalker",
+    "https://magic.wizards.com/en/story/vivien-reid-planeswalker",
+    "https://magic.wizards.com/en/story/vraska-planeswalker",
+    "https://magic.wizards.com/en/story/will-kenrith-planeswalker",
+    "https://magic.wizards.com/en/story/wrenn-planeswalker",
+    "https://magic.wizards.com/en/story/xenagos-planeswalker",
+    "https://magic.wizards.com/en/story/zendikar-plane"
    ]
   }
  ],
- "sha256": "ff46b96d260b5fa75dfb5626cf873f3f50e18bb52838cef93c0795639a5d00b3"
+ "sha256": "09b16cb5579094acaa01bd17cc45b78d213946e775ca3218d3abb8647c49df7d"
 }
