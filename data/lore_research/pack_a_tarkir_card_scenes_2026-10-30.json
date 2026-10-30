@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "extension_id": "PACK_A3_TARKIR_STORY_SCENES_AND_CARD_ART_CONTEXT",
+  "evidence_cutoff": "2026-10-30",
+  "extends": ["pack_a_ugin_bolas_evidence_2026-10-30.json", "pack_a_elder_dragon_war_extension_2026-10-30.json"],
+  "source_register": {
+    "reforged_chain": {"title": "The Reforged Chain", "url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21", "perspective": "direct narrative of the witnessed Ugin–Bolas confrontation, with captioned card art"},
+    "tarkir_story_summary": {"title": "The Story of Tarkir Block", "url": "https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29", "perspective": "official synopsis of the chronology and changing timeline"},
+    "nexus_design": {"title": "Prose and Khans, Part 2", "url": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22", "perspective": "official design history for a time-travel story artifact"},
+    "chronicle_familiar": {"title": "Chronicle of Bolas: A Familiar Stranger", "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-familiar-stranger-2018-08-01", "perspective": "characters visit the grave site; captioned card locations and some retrospective visions"},
+    "journey_nexus": {"title": "Journey to the Nexus", "url": "https://magic.wizards.com/en/news/feature/journey-nexus-2014-12-10", "perspective": "Tarkir original-branch search for Ugin's tomb; captioned setting art"},
+    "tarkir_plane": {"title": "Tarkir plane guide", "url": "https://magic.wizards.com/en/story/tarkir-plane", "perspective": "official description of the revised Dragonlord-era Tarkir"}
+  },
+  "claims": [
+    {"id":"A025","subject":"sarkhan_vol","predicate":"traveled_into_past","object":"tarkir","grade":"CANON_CONFIRMED","event_stage":"pre_duel_time_travel","continuity":"time travel to shared Tarkir past","source_ids":["tarkir_story_summary","nexus_design"],"summary":"Sarkhan crosses into Tarkir's past, approximately 1,280 years before his original present, to change a decisive ancient battle.","limitation":"This relative interval is the 2015 story's account, not an absolute Multiverse calendar date."},
+    {"id":"A026","subject":"nicol_bolas","predicate":"confronted","object":"ugin","grade":"CANON_CONFIRMED","event_stage":"tarkir_duel_before_divergence","continuity":"shared confrontation before Sarkhan intervention","source_ids":["reforged_chain","tarkir_story_summary"],"summary":"Nicol Bolas confronts Ugin in Tarkir's skies while Sarkhan observes the encounter.","limitation":"Neither the artwork nor the story alone assigns every individual magical strike to a unique printed card."},
+    {"id":"A027","subject":"yasova_dragonclaw","predicate":"redirected_dragons_against","object":"ugin","grade":"CANON_CONFIRMED","event_stage":"tarkir_duel_yasova_spell","continuity":"shared confrontation before Sarkhan intervention","source_ids":["reforged_chain"],"summary":"Yasova's rune-guided spell enables Bolas's ambush and redirects dragons called by Ugin to attack Ugin instead.","limitation":"This describes the scene, not proof that a specific Yasova card illustration depicts the spell."},
+    {"id":"A028","subject":"sarkhan_vol","predicate":"preserved_after_bolas_strike","object":"ugin","grade":"CANON_CONFIRMED","event_stage":"tarkir_duel_hedrons","continuity":"revised Tarkir timeline created by intervention","source_ids":["reforged_chain","tarkir_story_summary","tarkir_plane"],"summary":"Sarkhan creates a protective hedron cocoon around the gravely wounded Ugin, changing what would have been Ugin's death.","limitation":"The revised history must remain separate from the original branch where dragons later disappeared."},
+    {"id":"A029","subject":"ugins_nexus","predicate":"story_time_travel_device_for","object":"sarkhan_vol","grade":"CANON_CONFIRMED","event_stage":"pre_duel_time_travel","continuity":"Tarkir branch transition","source_ids":["nexus_design","tarkir_story_summary"],"summary":"Wizards' card-design account explicitly identifies Ugin's Nexus as the time-travel mechanism built for Sarkhan's story.","limitation":"Design intent does not guarantee the Nexus artwork depicts Sarkhan actually using the gateway."},
+    {"id":"A030","subject":"crux_of_fate","predicate":"captioned_at_scene","object":"tarkir_duel","grade":"CANON_CONFIRMED","event_stage":"tarkir_duel_before_divergence","continuity":"published art-context of shared duel","source_ids":["reforged_chain"],"summary":"The official illustrated story captions Crux of Fate (art by Michael Komarck) immediately at the scene where Ugin and Nicol face each other.","limitation":"This proves Wizards used that named card art in the scene; it does not match every reprint art variant or every frame of the duel."},
+    {"id":"A031","subject":"crucible_spirit_dragon","predicate":"captioned_at_location","object":"ugins_tomb_site","grade":"CANON_CONFIRMED","event_stage":"ugin_grave_site","continuity":"revised dragonlord-era Tarkir visit","source_ids":["chronicle_familiar"],"summary":"The Chronicle captions Crucible of the Spirit Dragon art beside the characters' description of Ugin's canyon and protective hedron cocoon.","limitation":"A location art caption is not proof that its illustration shows the 1,280-year-earlier combat itself."},
+    {"id":"A032","subject":"tomb_spirit_dragon","predicate":"captioned_at_location","object":"ugins_tomb_site","grade":"CANON_CONFIRMED","event_stage":"ugin_grave_site","continuity":"Tarkir grave-site accounts","source_ids":["journey_nexus","chronicle_familiar"],"summary":"Official Tarkir stories use Tomb of the Spirit Dragon card art in accounts of searching for and returning to Ugin's burial site.","limitation":"The site was interpreted as a tomb by characters; Ugin's later survival changes the interpretation of the same place."}
+  ],
+  "entities": [
+    {"id":"yasova_dragonclaw","type":"Character","name":"Yasova Dragonclaw"},
+    {"id":"tarkir_duel","type":"Event","name":"Tarkir confrontation of Ugin and Nicol Bolas"},
+    {"id":"ugins_nexus","type":"Object","name":"Ugin's Nexus"},
+    {"id":"crux_of_fate","type":"CardTheme","name":"Crux of Fate"},
+    {"id":"crucible_spirit_dragon","type":"Place","name":"Crucible of the Spirit Dragon"},
+    {"id":"tomb_spirit_dragon","type":"Place","name":"Tomb of the Spirit Dragon"},
+    {"id":"ugins_tomb_site","type":"Place","name":"Ugin's hedron-protected grave site"}
+  ],
+  "card_art_context": [
+    {"name":"Crux of Fate","tier":"DIRECT_EVENT_SCENE_CAPTION","event":"tarkir_duel","source_ids":["reforged_chain"],"caption_artist":"Michael Komarck","limit":"Explicitly captioned at a witnessed showdown, but no claim that each printing uses that art or that the illustration depicts all steps."},
+    {"name":"Ugin's Nexus","tier":"OFFICIAL_STORY_DEVICE","event":"pre_duel_time_travel","source_ids":["nexus_design","chronicle_familiar"],"caption_artist":"Sam Burley","limit":"Design calls it the story time-travel machine; no exact scene depiction is asserted."},
+    {"name":"Crucible of the Spirit Dragon","tier":"STORY_LOCATION_ART_CAPTION","event":"ugin_grave_site","source_ids":["chronicle_familiar"],"caption_artist":"Jung Park","limit":"Caption appears at described canyon site, not the ancient duel."},
+    {"name":"Tomb of the Spirit Dragon","tier":"STORY_LOCATION_ART_CAPTION","event":"ugin_grave_site","source_ids":["journey_nexus","chronicle_familiar"],"caption_artist":"Sam Burley","limit":"The apparent tomb is a story location; artwork is not an exact timestamp of death."},
+    {"name":"Ugin, the Spirit Dragon","tier":"NAMED_CHARACTER_ART_IN_STORY","event":"tarkir_duel","source_ids":["reforged_chain","chronicle_familiar"],"caption_artist":"Raymond Swanland / Chris Rahn (different official story-captioned art)","limit":"Character images in official stories, not a unique art-variant-to-printing ID match."},
+    {"name":"Nicol Bolas, Planeswalker","tier":"NAMED_CHARACTER_ART_IN_STORY","event":"tarkir_duel","source_ids":["reforged_chain"],"caption_artist":"D. Alexander Gregory","limit":"A character portrait accompanying the story, not proof the card image depicts the full fight."}
+  ],
+  "remaining": [
+    "Exact Scryfall art asset and artist-to-printing-ID comparison for each depicted image, not merely Oracle/card name",
+    "A fully legal, optimized, newly authored 100-card lore-first deck and current ban/Oracle verification",
+    "Original versus altered Tarkir card-art differences beyond this six-card curated research sample"
+  ]
+}
