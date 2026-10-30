@@ -460,17 +460,53 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 ### Status (keep distinct)
 - Research: PRELIMINARY_RESEARCH. Tests: 461 + 18 green locally (exit code checked); recount 15/15; CI green on each merged exact head. Merged: #895–#896 (#897 docs). Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
 
-## Consolidated status for ChatGPT / Cory (as of Batch 11 close)
+## Batch 12 — 2026-10-30, 10:03–10:40 CDT
 
-Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.39 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
+### PRs (batch 12)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#898](https://github.com/corymstover/GrokBotMTGCompanion/pull/898) | 8 | `rebuild.sh`: `set -euo pipefail`, no `head` pipe, non-zero exit on any `--check` mismatch; `tests/test_no_masked_exit_codes.py` lints rebuild.sh and all 45 workflows | `241e6d52` 10:07 CDT | 1/1 pass |
+| [#899](https://github.com/corymstover/GrokBotMTGCompanion/pull/899) | 2 | L213 card→lore overlay `data/lore_research/card_lore_links_2026-10-30.json` (`scripts/build_card_lore_links.py`, `--check`); 8 tests | `03492567` 10:20 CDT | 5/5 pass |
+| [#900](https://github.com/corymstover/GrokBotMTGCompanion/pull/900) | 1B | `scripts/audit_phase1b_snapshot_gates.py` → `data/set_atlas/phase1b_snapshot_gates_2026-10-30.json`; SET_ATLAS.md gate section; 5 tests | `7781ce73` 10:28 CDT | 8/8 pass |
+| [#901](https://github.com/corymstover/GrokBotMTGCompanion/pull/901) | 4 | `scripts/build_pack_dossiers.py` → `pack_dossiers_2026-10-30.json` + `research/PACK_ABC_DOSSIERS.md`; 4 tests | `30cf493e` 10:34 CDT | 5/5 pass |
+| this PR | 1/8 | workflow v2.40, `data/release/batch_recount_2026-10-30_b12.json`, this handoff | (this PR) | — |
+
+### Results
+- **(0) Masking:** CI had no masked step except the Grixis-adjacent m7 intake, which already runs under pipefail. `rebuild.sh` could mask failures and is fixed (#898).
+- **(1) L213:** the ❓ pool is **2,835** cards, not ~1,220 (the old count was stale; 6 further ❓-marked cards already have lore). **205 LINKED**:
+  - 133 CLAIM_ANCHORED;
+  - 47 NAMED_IN_OFFICIAL_TEXT;
+  - 77 IMPLIED_SAME_SET_NAME, each with a limitation;
+  - 26 of the above also have art on an official page.
+
+  Of the rest, 1 is ART_ONLY and **2,629 are NO_LORE_YET** (600 Universes Beyond, never text-matched). card_enrichment.json is untouched.
+- **(2) Phase 1B:** from the SHA-matched pinned bulk:
+  - all 119,509 Oct 28 IDs are present in Oct 29 (0 missing); 192 IDs are new; drift is 342 `prm` dates and 6 `trk` paper flags;
+  - per-set counts give 0 mismatches; every parent link resolves (`tnau`→`nau`, an announced 2027 set);
+  - debut attribution gives 0 mismatches.
+
+  **PASS, ticked:** L194, L196, L197, L201, L202. **QUALIFIED, not ticked:** L193, L195, L198, L199, L200. **Real blockers:** L180/L181 need first-party Wizards product evidence that is not in the snapshot.
+- **(3) Phase 4:** dossiers for Pack A (48 claims), B (18) and C (107). Each has a relationship map, a bibliography, uncertainties, art-credited cards and UNAPPROVED commander candidates (21/26/68, legality as of the Oct 29 snapshot). L244 stays open: the stages are in publication order, not a verified in-universe chronology. L231/L235–L237 need genealogy judgements or new sources.
+
+### Discoveries
+- The branch for #900 was first cut from a stale local `origin/main`; the test count (469 instead of 477) exposed it before commit. Always `git fetch` and confirm the base.
+- The only cross-pack citation in the repo: Pack C claim C012 cites Pack B's `urza_profile`, a valid Wizards page. The dossier flags it; the pack is not edited.
+- Publication order is visibly not chronology (Pack A `primordial_birth` was published in 2018, after the 2014–15 Tarkir stages). This is why L244 stays open.
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: 481 green locally (exit code checked). CI green on each merged exact head. Merged: #898–#901. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+
+## Consolidated status for ChatGPT / Cory (as of Batch 12 close)
+
+Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.40 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
 
 | Phase | Checked | Open | Open items (workflow line) |
 |---|---|---|---|
 | 1 Card database | 10 | 0 | — |
-| 1B Set & Printing Atlas | 33 | 14 | **Blocked** L151 (original Oct 28 bulk unavailable), L157 (`fbb`/`4bb` need Wizards docs); L180 2 curated + 11 draft/starter codes; L181 11 older boxed codes; L193–L202 atlas audit, normalized catalog, totals, per-set lists, bidirectional search, debut/reprint attribution, two timelines, set↔lore links, checks, user-facing index |
-| 2 Lore enrichment | 4 | 5 | L211 refetch/strict audit in future envs; L213 ~1,220 enriched cards without cited lore; L214 depictions/flavor links (partial); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
+| 1B Set & Printing Atlas | 38 | 9 | **Blocked** L151 (original Oct 28 bulk unavailable), L157 (`fbb`/`4bb` need Wizards docs), L180 2 curated + 11 draft/starter codes, L181 11 older boxed codes (all need first-party Wizards evidence); QUALIFIED (not ticked): L193 field drift, L195 premier census, L198 street dates, L199 no AR years, L200 per-card canon |
+| 2 Lore enrichment | 5 | 4 | L211 refetch/strict audit in future envs; L214 depictions/flavor links (partial; L213 done: 205 of 2,835 linked); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
 | 3 Relationship graph | 4 | 2 | L220 entity-structure audit; L222 dated relationships (partial: 32 edges carry verbatim in-universe phrases) |
-| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster; L236 Pack B; L237 Pack C; L244 per-pack chronology/map/bibliography |
+| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster; L236 Pack B; L237 Pack C; L244 dossiers published but in publication order, not verified chronology |
 | 5 Full history | 0 | 8 | L248–L255, all partial; coverage inventory now 626/626 cited-or-reviewed (L255) — the boxes stay open because "exhaustive" and "ongoing upkeep" are not finishable claims |
 | 6 Deckbuilder | 4 | 10 | L259–L264 engine features; L265/L267/L269 Pilots 1–3 (proposals built and merged as UNAPPROVED, **owner approval required**); L272 preserve the 62 approved decks |
 | 7 Q&A companion | 2 | 5 | L276 lookups; L277 set questions; L278 lore/chronology; L280 integrated recommendations; L281 hard query tests (partial) |
