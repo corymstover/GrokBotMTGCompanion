@@ -57,11 +57,11 @@
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 389,
+  "cited_pages": 414,
   "arcs_not_started": 0,
-  "arcs_partial": 4,
-  "arcs_all_cited": 29,
-  "claims": 808,
+  "arcs_partial": 2,
+  "arcs_all_cited": 31,
+  "claims": 838,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -78,7 +78,7 @@
   "pack_p5_ixalan_rivals_2026-10-30.json": 34,
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": 31,
   "pack_p5_kamigawa_neon_dynasty_2026-10-30.json": 12,
-  "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 12,
+  "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": 25,
   "pack_p5_streets_of_new_capenna_2026-10-30.json": 16,
   "pack_p5_edge_of_eternities_2026-10-30.json": 30,
   "pack_p5_reality_fracture_2026-10-30.json": 21,
@@ -93,7 +93,7 @@
   "pack_p5_strixhaven_2026-10-30.json": 19,
   "pack_p5_ikoria_2026-10-30.json": 5,
   "pack_p5_theros_beyond_death_2026-10-30.json": 29,
-  "pack_p5_theros_ths_2026-10-30.json": 20,
+  "pack_p5_theros_ths_2026-10-30.json": 37,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
   "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
   "pack_p5_secrets_of_strixhaven_2026-10-30.json": 29,
@@ -348,7 +348,7 @@
   {
    "arc": "MID/VOW",
    "pages": 19,
-   "cited_pages": 8,
+   "cited_pages": 19,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 18
@@ -356,20 +356,8 @@
    "citing_packs": [
     "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/blessing-blood-2021-11-05",
-    "https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24",
-    "https://magic.wizards.com/en/news/magic-story/dusk-reborn-2021-10-01",
-    "https://magic.wizards.com/en/news/magic-story/edge-world-2021-10-29",
-    "https://magic.wizards.com/en/news/magic-story/episode-2-motives-wolf-2021-09-08",
-    "https://magic.wizards.com/en/news/magic-story/episode-3-fall-house-betzold-2021-09-15",
-    "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22",
-    "https://magic.wizards.com/en/news/magic-story/his-eyes-all-them-2021-09-17",
-    "https://magic.wizards.com/en/news/magic-story/sisters-2021-09-10",
-    "https://magic.wizards.com/en/news/magic-story/survivors-2021-11-12",
-    "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "MKM",
@@ -551,7 +539,7 @@
   {
    "arc": "THS",
    "pages": 19,
-   "cited_pages": 5,
+   "cited_pages": 19,
    "kinds": {
     "planeswalkers-guide": 5,
     "story": 14
@@ -559,23 +547,8 @@
    "citing_packs": [
     "pack_p5_theros_ths_2026-10-30.json"
    ],
-   "status": "PARTIAL",
-   "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17",
-    "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19",
-    "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16",
-    "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23",
-    "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05",
-    "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29",
-    "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05",
-    "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14",
-    "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11",
-    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19",
-    "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0",
-    "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30",
-    "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26",
-    "https://magic.wizards.com/en/story/theros-plane"
-   ]
+   "status": "ALL_PAGES_CITED",
+   "uncited_urls": []
   },
   {
    "arc": "WOE",
@@ -836,5 +809,5 @@
    ]
   }
  ],
- "sha256": "bb88ce247876abd1459706cc0439953cda3dc9296df1faefd26c0e1170142473"
+ "sha256": "ff46b96d260b5fa75dfb5626cf873f3f50e18bb52838cef93c0795639a5d00b3"
 }

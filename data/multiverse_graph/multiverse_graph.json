@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "af84f01d91684075f92c931af0c7b99534e350fdba9d7c9baea6008bd4fa9b48",
+ "content_sha256": "6c8a8f6e704d3adecf379708687d083dbd8e47ad53ba8d7ef1d837d6d44b44b8",
  "edges": [
   {
    "artists": [
@@ -18,6 +18,16 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:island"
+  },
+  {
+   "artists": [
+    "Adam Paquette",
+    "Steven Belledin"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
   },
   {
    "artists": [
@@ -81,6 +91,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:foreboding_ruins"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:ths_ajani_mentor",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forest"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forest"
   },
   {
    "artists": [
@@ -185,6 +222,24 @@
    "artists": [
     "Aleksi Briclot"
    ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:astral_cornucopia"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:astral_cornucopia"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
    "from": "source:unbroken_unbowed",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -216,6 +271,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:slimefoot_the_stowaway"
+  },
+  {
+   "artists": [
+    "Allen Williams"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:tormented_thoughts"
   },
   {
    "artists": [
@@ -558,6 +622,42 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:merciless_resolve"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:karametra_s_acolyte"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mogis_s_marauder"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:ths_flitterstep",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:flitterstep_eidolon"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:ths_thank",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:extinguish_all_hope"
   },
   {
    "artists": [
@@ -957,6 +1057,15 @@
   },
   {
    "artists": [
+    "Christopher Burdett"
+   ],
+   "from": "source:ths_kiora_followers",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:breaching_hippocamp"
+  },
+  {
+   "artists": [
     "Cliff Childs"
    ],
    "from": "source:aer_quiet_moments",
@@ -1017,6 +1126,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:nissa_vital_force"
+  },
+  {
+   "artists": [
+    "Clint Cearley"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cast_into_darkness"
   },
   {
    "artists": [
@@ -1265,6 +1383,24 @@
    "artists": [
     "Daarken"
    ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:dictate_of_kruphix"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kruphix_god_of_horizons"
+  },
+  {
+   "artists": [
+    "Daarken"
+   ],
    "from": "source:xln_vraska",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1458,6 +1594,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:village_bell_ringer"
+  },
+  {
+   "artists": [
+    "David Palumbo"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fate_unraveler"
   },
   {
    "artists": [
@@ -1780,6 +1925,33 @@
    "artists": [
     "Eric Deschamps"
    ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ephara_god_of_the_polis"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:karametra_god_of_harvests"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:ths_kiora_followers",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kiora_s_follower"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
    "from": "source:xln_something_else",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1922,6 +2094,15 @@
   },
   {
    "artists": [
+    "Hideaki Takamura"
+   ],
+   "from": "source:ths_kiora_followers",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:trench_gorger"
+  },
+  {
+   "artists": [
     "Howard Lyon"
    ],
    "from": "source:aer_renewal",
@@ -2036,6 +2217,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:invocation_of_saint_traft"
+  },
+  {
+   "artists": [
+    "Igor Kieryluk"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kruphix_s_insight"
+  },
+  {
+   "artists": [
+    "Igor Kieryluk"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:rout"
   },
   {
    "artists": [
@@ -2246,6 +2445,15 @@
   },
   {
    "artists": [
+    "James Paick"
+   ],
+   "from": "source:ths_stand",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:temple_of_malady"
+  },
+  {
+   "artists": [
     "James Ryman"
    ],
    "from": "source:aer_skies",
@@ -2297,6 +2505,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:frontier_siege"
+  },
+  {
+   "artists": [
+    "James Ryman"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ephara_s_radiance"
   },
   {
    "artists": [
@@ -2468,6 +2685,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:xenagos_god_of_revels"
+  },
+  {
+   "artists": [
+    "Jason Chan"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:xenagos_the_reveler"
   },
   {
    "artists": [
@@ -2705,6 +2931,15 @@
   },
   {
    "artists": [
+    "Johann Bodin"
+   ],
+   "from": "source:ths_ajani_mentor",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:polukranos_world_eater"
+  },
+  {
+   "artists": [
     "Johannes Voss"
    ],
    "from": "source:bfz_sea_gate",
@@ -2841,6 +3076,42 @@
   },
   {
    "artists": [
+    "John Severin Brassell"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:disciple_of_phenax"
+  },
+  {
+   "artists": [
+    "John Severin Brassell"
+   ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:loyal_pegasus"
+  },
+  {
+   "artists": [
+    "John Severin Brassell"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:loyal_pegasus"
+  },
+  {
+   "artists": [
+    "John Severin Brassell"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:coordinated_assault"
+  },
+  {
+   "artists": [
     "John Stanko"
    ],
    "from": "source:soi_lunarch",
@@ -2910,6 +3181,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:swamp"
+  },
+  {
+   "artists": [
+    "Jonas De Ro"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:peregrination"
   },
   {
    "artists": [
@@ -3192,6 +3472,15 @@
   },
   {
    "artists": [
+    "Karla Ortiz"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ashiok_nightmare_weaver"
+  },
+  {
+   "artists": [
     "Kekai Kotaki"
    ],
    "from": "source:bfz_rise_kozilek",
@@ -3225,6 +3514,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:jhoira_s_familiar"
+  },
+  {
+   "artists": [
+    "Kev Walker"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cyclops_of_one_eyed_pass"
   },
   {
    "artists": [
@@ -3660,6 +3958,24 @@
   },
   {
    "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:akroan_skyguard"
+  },
+  {
+   "artists": [
+    "Mark Winters"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:akroan_skyguard"
+  },
+  {
+   "artists": [
     "Mathias Kollros"
    ],
    "from": "source:akh_hand",
@@ -3738,6 +4054,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:vampiric_fury"
+  },
+  {
+   "artists": [
+    "Matt Stewart"
+   ],
+   "from": "source:ths_stand",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:gift_of_immortality"
   },
   {
    "artists": [
@@ -3858,6 +4183,15 @@
   },
   {
    "artists": [
+    "Nils Hamm"
+   ],
+   "from": "source:ths_thank",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:sigiled_starfish"
+  },
+  {
+   "artists": [
     "Noah Bradley"
    ],
    "from": "source:akh_brazen",
@@ -3903,6 +4237,15 @@
   },
   {
    "artists": [
+    "Noah Bradley"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:temple_of_mystery"
+  },
+  {
+   "artists": [
     "Peter Mohrbacher"
    ],
    "from": "source:emn_promised_end",
@@ -3921,12 +4264,57 @@
   },
   {
    "artists": [
+    "Peter Mohrbacher"
+   ],
+   "from": "source:ths_ajani_mentor",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:brimaz_king_of_oreskos"
+  },
+  {
+   "artists": [
+    "Peter Mohrbacher"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mogis_god_of_slaughter"
+  },
+  {
+   "artists": [
+    "Peter Mohrbacher"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:erebos_god_of_the_dead"
+  },
+  {
+   "artists": [
+    "Peter Mohrbacher"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ill_tempered_cyclops"
+  },
+  {
+   "artists": [
     "Philip Straub"
    ],
    "from": "source:bfz_promises_keep",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:skyline_cascade"
+  },
+  {
+   "artists": [
+    "Ralph Horsley"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:boulderfall"
   },
   {
    "artists": [
@@ -3946,6 +4334,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:island"
+  },
+  {
+   "artists": [
+    "Raoul Vitale"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
   },
   {
    "artists": [
@@ -4009,6 +4406,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:haven_of_the_spirit_dragon"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oracle_s_insight"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:oracle_s_insight"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
+   "from": "source:ths_stand",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:desperate_stand"
   },
   {
    "artists": [
@@ -4129,6 +4553,33 @@
   },
   {
    "artists": [
+    "Richard Wright"
+   ],
+   "from": "source:ths_oracle",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:graverobber_spider"
+  },
+  {
+   "artists": [
+    "Richard Wright"
+   ],
+   "from": "source:ths_oracle_dup",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:graverobber_spider"
+  },
+  {
+   "artists": [
+    "Richard Wright"
+   ],
+   "from": "source:ths_thank",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mana_confluence"
+  },
+  {
+   "artists": [
     "Rob Alexander"
    ],
    "from": "source:bz_resolve",
@@ -4219,6 +4670,24 @@
   },
   {
    "artists": [
+    "Ryan Barger"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:phenax_god_of_deception"
+  },
+  {
+   "artists": [
+    "Ryan Barger"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:market_festival"
+  },
+  {
+   "artists": [
     "Ryan Pancoast"
    ],
    "from": "source:akh_brazen",
@@ -4243,6 +4712,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:azor_the_lawbringer"
+  },
+  {
+   "artists": [
+    "Ryan Pancoast"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:hero_s_downfall"
   },
   {
    "artists": [
@@ -4417,6 +4895,15 @@
   },
   {
    "artists": [
+    "Scott M. Fischer"
+   ],
+   "from": "source:ths_kiora_followers",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kiora_the_crashing_wave"
+  },
+  {
+   "artists": [
     "Seb McKinnon"
    ],
    "from": "source:akh_brazen",
@@ -4561,6 +5048,24 @@
   },
   {
    "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fleecemane_lion"
+  },
+  {
+   "artists": [
+    "Slawomir Maniak"
+   ],
+   "from": "source:ths_kiora_followers",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:whelming_wave"
+  },
+  {
+   "artists": [
     "Steve Argyle"
    ],
    "from": "source:bfz_promises_keep",
@@ -4603,6 +5108,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:thalia_guardian_of_thraben"
+  },
+  {
+   "artists": [
+    "Steve Prescott"
+   ],
+   "from": "source:ths_walls",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:akroan_phalanx"
   },
   {
    "artists": [
@@ -4752,10 +5266,37 @@
    "artists": [
     "Svetlin Velinov"
    ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:temple_of_enlightenment"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:temple_of_enlightenment"
+  },
+  {
+   "artists": [
+    "Svetlin Velinov"
+   ],
    "from": "source:xln_race1",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:legion_s_landing_adanto_the_first_fort"
+  },
+  {
+   "artists": [
+    "Terese Nielsen"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plea_for_guidance"
   },
   {
    "artists": [
@@ -4896,6 +5437,15 @@
    "artists": [
     "Todd Lockwood"
    ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:cruel_ultimatum"
+  },
+  {
+   "artists": [
+    "Todd Lockwood"
+   ],
    "from": "source:unbroken_unbowed",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -4918,6 +5468,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:siren_reaver"
+  },
+  {
+   "artists": [
+    "Tomasz Jedruszek"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:it_that_betrays"
   },
   {
    "artists": [
@@ -5107,6 +5666,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:jace_unraveler_of_secrets"
+  },
+  {
+   "artists": [
+    "Tyler Jacobson"
+   ],
+   "from": "source:ths_thank",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:voyaging_satyr"
   },
   {
    "artists": [
@@ -5542,6 +6110,15 @@
   },
   {
    "artists": [
+    "Wesley Burt"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ephara_s_enlightenment"
+  },
+  {
+   "artists": [
     "Willian Murai"
    ],
    "from": "source:bfz_shaping_army",
@@ -5620,6 +6197,33 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:yasova_dragonclaw"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:ths_emonberry",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:fated_infatuation"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:ths_flitterstep",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:forlorn_pseudamma"
+  },
+  {
+   "artists": [
+    "Winona Nelson"
+   ],
+   "from": "source:ths_kruphix",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:prophet_of_kruphix"
   },
   {
    "artists": [
@@ -5872,6 +6476,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:daghatar_the_adamant"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:ths_bng_gods",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ephara_s_warden"
+  },
+  {
+   "artists": [
+    "Zack Stella"
+   ],
+   "from": "source:ths_dreams",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:claim_of_erebos"
   },
   {
    "artists": [
@@ -8413,6 +9035,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:adeline",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:adeline_resplendent_cathar"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ajani",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9197,6 +9826,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ephara",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ephara_god_of_the_polis"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:erebos",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9519,6 +10155,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:henrika",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:henrika_domnathi_henrika_infernal_seer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:huatli",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -9621,6 +10264,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:jace_beleren"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jacob_hauken",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jacob_hauken_inspector_hauken_s_insight"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10156,6 +10806,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:kydele",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:kydele_chosen_of_kruphix"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:kyodai",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -10188,6 +10845,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:lavinia_of_the_tenth"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:leinore",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:leinore_autumn_sovereign"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:liesa",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:liesa_forgotten_archangel"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:liesa",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:liesa_shroud_of_dusk"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -10881,6 +11559,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:pharika_god_of_affliction"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:phenax",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:phenax_god_of_deception"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -11850,6 +12535,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:torens",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:torens_fist_of_the_angels"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:tovolar",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12008,6 +12700,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:uvilda_dean_of_perfection_nassari_dean_of_expression"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vadrik",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vadrik_astral_archmage"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -12225,6 +12924,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:vraska_the_unseen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:wilhelt",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:wilhelt_the_rotcleaver"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -17969,6 +18675,162 @@
    "to": "artifact:moonsilver_key"
   },
   {
+   "claim": "MV013",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:odric",
+   "grade": "CANON_IMPLIED",
+   "relation": "confronted",
+   "sources": [
+    "mv_blessing"
+   ],
+   "to": "character:henrika"
+  },
+  {
+   "claim": "MV014",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:wilhelt",
+   "grade": "CANON_CONFIRMED",
+   "relation": "attacked",
+   "sources": [
+    "mv_dance"
+   ],
+   "to": "place:thraben"
+  },
+  {
+   "claim": "MV015",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:geralf",
+   "grade": "CANON_IMPLIED",
+   "relation": "sibling_of",
+   "sources": [
+    "mv_dance"
+   ],
+   "to": "character:gisa"
+  },
+  {
+   "claim": "MV016",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liesa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "mv_dusk"
+   ],
+   "to": "character:buried_lord"
+  },
+  {
+   "claim": "MV017",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jacob_hauken",
+   "grade": "CANON_IMPLIED",
+   "relation": "travelled_with",
+   "sources": [
+    "mv_edge"
+   ],
+   "to": "character:eloise_wicker"
+  },
+  {
+   "claim": "MV018",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:arlinn_kord",
+   "grade": "CANON_IMPLIED",
+   "relation": "followed",
+   "sources": [
+    "mv_ep2"
+   ],
+   "to": "character:tovolar"
+  },
+  {
+   "claim": "MV019",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:adeline",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "mv_ep3"
+   ],
+   "to": "faction:cathars"
+  },
+  {
+   "claim": "MV020",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:adeline",
+   "grade": "CANON_CONFIRMED",
+   "relation": "aided",
+   "sources": [
+    "mv_ep4"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "MV021",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vadrik",
+   "grade": "CANON_IMPLIED",
+   "relation": "spouse_of",
+   "sources": [
+    "mv_eyes"
+   ],
+   "to": "character:hailin"
+  },
+  {
+   "claim": "MV022",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:leinore",
+   "grade": "CANON_IMPLIED",
+   "relation": "sibling_of",
+   "sources": [
+    "mv_sisters"
+   ],
+   "to": "character:sinnia"
+  },
+  {
+   "claim": "MV023",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elamon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sibling_of",
+   "sources": [
+    "mv_survivors"
+   ],
+   "to": "character:torens"
+  },
+  {
+   "claim": "MV024",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:odric",
+   "grade": "CANON_IMPLIED",
+   "relation": "member_of",
+   "sources": [
+    "mv_survivors"
+   ],
+   "to": "faction:lunarch_council"
+  },
+  {
+   "claim": "MV025",
+   "era": "innistrad_mid_vow_2021",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:wrenn",
+   "grade": "CANON_IMPLIED",
+   "relation": "aided",
+   "sources": [
+    "mv_tangles"
+   ],
+   "to": "character:teferi"
+  },
+  {
    "claim": "NEO001",
    "era": "kamigawa_neon_dynasty_2022",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -21568,6 +22430,211 @@
    "relation": "leader_of",
    "sources": [
     "ths_pg2"
+   ],
+   "to": "place:meletis"
+  },
+  {
+   "claim": "TS021",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:brimaz",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "ths_ajani_mentor"
+   ],
+   "to": "faction:theros_leonin"
+  },
+  {
+   "claim": "TS022",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:perisophia",
+   "grade": "CANON_IMPLIED",
+   "relation": "located_in",
+   "sources": [
+    "ths_flitterstep"
+   ],
+   "to": "place:meletis"
+  },
+  {
+   "claim": "TS023",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kytheon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ths_stand"
+   ],
+   "to": "faction:kytheons_irregulars"
+  },
+  {
+   "claim": "TS024",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ashiok",
+   "grade": "CANON_IMPLIED",
+   "relation": "allied_with",
+   "sources": [
+    "ths_dreams"
+   ],
+   "to": "character:phenax"
+  },
+  {
+   "claim": "TS025",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:xenocrates",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "ths_dreams"
+   ],
+   "to": "character:melantha"
+  },
+  {
+   "claim": "TS026",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:thanasis",
+   "grade": "CANON_IMPLIED",
+   "relation": "friend_of",
+   "sources": [
+    "ths_emonberry"
+   ],
+   "to": "character:pavios"
+  },
+  {
+   "claim": "TS027",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ephara",
+   "grade": "CANON_CONFIRMED",
+   "relation": "revered_by",
+   "sources": [
+    "ths_bng_gods"
+   ],
+   "to": "place:meletis"
+  },
+  {
+   "claim": "TS028",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karametra",
+   "grade": "CANON_CONFIRMED",
+   "relation": "revered_by",
+   "sources": [
+    "ths_bng_gods"
+   ],
+   "to": "place:setessa"
+  },
+  {
+   "claim": "TS029",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:aesrias",
+   "grade": "CANON_CONFIRMED",
+   "relation": "champion_of",
+   "sources": [
+    "ths_iroas_hero"
+   ],
+   "to": "character:iroas"
+  },
+  {
+   "claim": "TS030",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:pilun",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "ths_iroas_hero"
+   ],
+   "to": "place:tynthal"
+  },
+  {
+   "claim": "TS031",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kiora",
+   "grade": "CANON_IMPLIED",
+   "relation": "identified_with",
+   "sources": [
+    "ths_kiora_followers"
+   ],
+   "to": "character:thassa"
+  },
+  {
+   "claim": "TS032",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:kydele",
+   "grade": "CANON_IMPLIED",
+   "relation": "serves",
+   "sources": [
+    "ths_kruphix"
+   ],
+   "to": "character:kruphix"
+  },
+  {
+   "claim": "TS033",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defeated",
+   "sources": [
+    "ths_kruphix"
+   ],
+   "to": "character:xenagos"
+  },
+  {
+   "claim": "TS034",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:iris_oracle",
+   "grade": "CANON_CONFIRMED",
+   "relation": "serves",
+   "sources": [
+    "ths_oracle",
+    "ths_oracle_dup"
+   ],
+   "to": "character:ephara"
+  },
+  {
+   "claim": "TS035",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:raissa",
+   "grade": "CANON_IMPLIED",
+   "relation": "sought_aid_from",
+   "sources": [
+    "ths_thank"
+   ],
+   "to": "place:setessa"
+  },
+  {
+   "claim": "TS036",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:alamon",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defended",
+   "sources": [
+    "ths_walls"
+   ],
+   "to": "place:akros"
+  },
+  {
+   "claim": "TS037",
+   "era": "theros_ths_2013",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:reverent_army",
+   "grade": "CANON_CONFIRMED",
+   "relation": "defended",
+   "sources": [
+    "ths_plane"
    ],
    "to": "place:meletis"
   },
@@ -28544,6 +29611,162 @@
    "to": "character:teferi"
   },
   {
+   "from": "claim:MV013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:henrika"
+  },
+  {
+   "from": "claim:MV013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:odric"
+  },
+  {
+   "from": "claim:MV014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:thraben"
+  },
+  {
+   "from": "claim:MV014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:wilhelt"
+  },
+  {
+   "from": "claim:MV015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gisa"
+  },
+  {
+   "from": "claim:MV015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:geralf"
+  },
+  {
+   "from": "claim:MV016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:buried_lord"
+  },
+  {
+   "from": "claim:MV016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liesa"
+  },
+  {
+   "from": "claim:MV017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:eloise_wicker"
+  },
+  {
+   "from": "claim:MV017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jacob_hauken"
+  },
+  {
+   "from": "claim:MV018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tovolar"
+  },
+  {
+   "from": "claim:MV018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:arlinn_kord"
+  },
+  {
+   "from": "claim:MV019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:cathars"
+  },
+  {
+   "from": "claim:MV019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:adeline"
+  },
+  {
+   "from": "claim:MV020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:MV020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:adeline"
+  },
+  {
+   "from": "claim:MV021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:hailin"
+  },
+  {
+   "from": "claim:MV021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vadrik"
+  },
+  {
+   "from": "claim:MV022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sinnia"
+  },
+  {
+   "from": "claim:MV022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:leinore"
+  },
+  {
+   "from": "claim:MV023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:torens"
+  },
+  {
+   "from": "claim:MV023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elamon"
+  },
+  {
+   "from": "claim:MV024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:lunarch_council"
+  },
+  {
+   "from": "claim:MV024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:odric"
+  },
+  {
+   "from": "claim:MV025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:MV025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:wrenn"
+  },
+  {
    "from": "claim:NEO001",
    "relation": "asserts",
    "role": "object",
@@ -32112,6 +33335,210 @@
    "relation": "asserts",
    "role": "subject",
    "to": "faction:the_twelve"
+  },
+  {
+   "from": "claim:TS021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:theros_leonin"
+  },
+  {
+   "from": "claim:TS021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:brimaz"
+  },
+  {
+   "from": "claim:TS022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:meletis"
+  },
+  {
+   "from": "claim:TS022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:perisophia"
+  },
+  {
+   "from": "claim:TS023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:kytheons_irregulars"
+  },
+  {
+   "from": "claim:TS023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kytheon"
+  },
+  {
+   "from": "claim:TS024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:phenax"
+  },
+  {
+   "from": "claim:TS024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ashiok"
+  },
+  {
+   "from": "claim:TS025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:melantha"
+  },
+  {
+   "from": "claim:TS025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:xenocrates"
+  },
+  {
+   "from": "claim:TS026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:pavios"
+  },
+  {
+   "from": "claim:TS026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:thanasis"
+  },
+  {
+   "from": "claim:TS027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:meletis"
+  },
+  {
+   "from": "claim:TS027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ephara"
+  },
+  {
+   "from": "claim:TS028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:setessa"
+  },
+  {
+   "from": "claim:TS028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karametra"
+  },
+  {
+   "from": "claim:TS029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:iroas"
+  },
+  {
+   "from": "claim:TS029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:aesrias"
+  },
+  {
+   "from": "claim:TS030",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:tynthal"
+  },
+  {
+   "from": "claim:TS030",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:pilun"
+  },
+  {
+   "from": "claim:TS031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:thassa"
+  },
+  {
+   "from": "claim:TS031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kiora"
+  },
+  {
+   "from": "claim:TS032",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kruphix"
+  },
+  {
+   "from": "claim:TS032",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:kydele"
+  },
+  {
+   "from": "claim:TS033",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:xenagos"
+  },
+  {
+   "from": "claim:TS033",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:TS034",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ephara"
+  },
+  {
+   "from": "claim:TS034",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:iris_oracle"
+  },
+  {
+   "from": "claim:TS035",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:setessa"
+  },
+  {
+   "from": "claim:TS035",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:raissa"
+  },
+  {
+   "from": "claim:TS036",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:akros"
+  },
+  {
+   "from": "claim:TS036",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:alamon"
+  },
+  {
+   "from": "claim:TS037",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:meletis"
+  },
+  {
+   "from": "claim:TS037",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:reverent_army"
   },
   {
    "from": "claim:U001",
@@ -35684,6 +37111,71 @@
    "to": "claim:MS007"
   },
   {
+   "from": "source:mv_blessing",
+   "relation": "cited_by",
+   "to": "claim:MV013"
+  },
+  {
+   "from": "source:mv_dance",
+   "relation": "cited_by",
+   "to": "claim:MV014"
+  },
+  {
+   "from": "source:mv_dance",
+   "relation": "cited_by",
+   "to": "claim:MV015"
+  },
+  {
+   "from": "source:mv_dusk",
+   "relation": "cited_by",
+   "to": "claim:MV016"
+  },
+  {
+   "from": "source:mv_edge",
+   "relation": "cited_by",
+   "to": "claim:MV017"
+  },
+  {
+   "from": "source:mv_ep2",
+   "relation": "cited_by",
+   "to": "claim:MV018"
+  },
+  {
+   "from": "source:mv_ep3",
+   "relation": "cited_by",
+   "to": "claim:MV019"
+  },
+  {
+   "from": "source:mv_ep4",
+   "relation": "cited_by",
+   "to": "claim:MV020"
+  },
+  {
+   "from": "source:mv_eyes",
+   "relation": "cited_by",
+   "to": "claim:MV021"
+  },
+  {
+   "from": "source:mv_sisters",
+   "relation": "cited_by",
+   "to": "claim:MV022"
+  },
+  {
+   "from": "source:mv_survivors",
+   "relation": "cited_by",
+   "to": "claim:MV023"
+  },
+  {
+   "from": "source:mv_survivors",
+   "relation": "cited_by",
+   "to": "claim:MV024"
+  },
+  {
+   "from": "source:mv_tangles",
+   "relation": "cited_by",
+   "to": "claim:MV025"
+  },
+  {
    "from": "source:neo_ep1",
    "relation": "cited_by",
    "to": "claim:NEO006"
@@ -37415,6 +38907,76 @@
    "to": "claim:TB014"
   },
   {
+   "from": "source:ths_ajani_mentor",
+   "relation": "cited_by",
+   "to": "claim:TS021"
+  },
+  {
+   "from": "source:ths_bng_gods",
+   "relation": "cited_by",
+   "to": "claim:TS027"
+  },
+  {
+   "from": "source:ths_bng_gods",
+   "relation": "cited_by",
+   "to": "claim:TS028"
+  },
+  {
+   "from": "source:ths_dreams",
+   "relation": "cited_by",
+   "to": "claim:TS024"
+  },
+  {
+   "from": "source:ths_dreams",
+   "relation": "cited_by",
+   "to": "claim:TS025"
+  },
+  {
+   "from": "source:ths_emonberry",
+   "relation": "cited_by",
+   "to": "claim:TS026"
+  },
+  {
+   "from": "source:ths_flitterstep",
+   "relation": "cited_by",
+   "to": "claim:TS022"
+  },
+  {
+   "from": "source:ths_iroas_hero",
+   "relation": "cited_by",
+   "to": "claim:TS029"
+  },
+  {
+   "from": "source:ths_iroas_hero",
+   "relation": "cited_by",
+   "to": "claim:TS030"
+  },
+  {
+   "from": "source:ths_kiora_followers",
+   "relation": "cited_by",
+   "to": "claim:TS031"
+  },
+  {
+   "from": "source:ths_kruphix",
+   "relation": "cited_by",
+   "to": "claim:TS032"
+  },
+  {
+   "from": "source:ths_kruphix",
+   "relation": "cited_by",
+   "to": "claim:TS033"
+  },
+  {
+   "from": "source:ths_oracle",
+   "relation": "cited_by",
+   "to": "claim:TS034"
+  },
+  {
+   "from": "source:ths_oracle_dup",
+   "relation": "cited_by",
+   "to": "claim:TS034"
+  },
+  {
    "from": "source:ths_pg1",
    "relation": "cited_by",
    "to": "claim:TS001"
@@ -37453,6 +39015,26 @@
    "from": "source:ths_pg3",
    "relation": "cited_by",
    "to": "claim:TS019"
+  },
+  {
+   "from": "source:ths_plane",
+   "relation": "cited_by",
+   "to": "claim:TS037"
+  },
+  {
+   "from": "source:ths_stand",
+   "relation": "cited_by",
+   "to": "claim:TS023"
+  },
+  {
+   "from": "source:ths_thank",
+   "relation": "cited_by",
+   "to": "claim:TS035"
+  },
+  {
+   "from": "source:ths_walls",
+   "relation": "cited_by",
+   "to": "claim:TS036"
   },
   {
    "from": "source:unbroken_unbowed",
@@ -37946,11 +39528,11 @@
     "sources": 6
    },
    {
-    "claims": 12,
-    "entities": 13,
+    "claims": 25,
+    "entities": 34,
     "file": "data/lore_research/pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
-    "sha256": "32a1e0c76458d9cfba0f430be62c3f195cc5f4009d6419607f6721e3bbf47118",
-    "sources": 8
+    "sha256": "c3e8a8467bec686093f129af1396c0c0631bd58a324e0b36c38cc6bf68d92be8",
+    "sources": 19
    },
    {
     "claims": 16,
@@ -38051,11 +39633,11 @@
     "sources": 4
    },
    {
-    "claims": 20,
-    "entities": 29,
+    "claims": 37,
+    "entities": 47,
     "file": "data/lore_research/pack_p5_theros_ths_2026-10-30.json",
-    "sha256": "9a17782f05668feb1613b64018d53568a982159ee820d148c955d0610ba80202",
-    "sources": 5
+    "sha256": "4b7957e3822fedc24f825f469273a5caf66aa0c779ecf9668f89c790d452059f",
+    "sources": 19
    },
    {
     "claims": 12,
@@ -38210,14 +39792,14 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 604,
+    "anchors": 616,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "c174da36ca41d51542a23edde4f3041c8c6d3d625228c68295dccd09500f2ab3"
+    "sha256": "64104d6bde53916cdbc479ece226a339fc6aee3cc2438aa7dc54dd705889da16"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 653,
+    "caption_edges": 722,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -38666,6 +40248,15 @@
    "type": "Card"
   },
   {
+   "id": "card:adeline_resplendent_cathar",
+   "name": "Adeline, Resplendent Cathar",
+   "oracle_id": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:adventurous_impulse",
    "name": "Adventurous Impulse",
    "oracle_id": "5bf49f39-b3d5-4148-8dc2-b5b5011769d2",
@@ -38870,6 +40461,24 @@
    "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:akroan_phalanx",
+   "name": "Akroan Phalanx",
+   "oracle_id": "0edd4894-0df0-4a4e-8a96-d20360ea81c7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:akroan_skyguard",
+   "name": "Akroan Skyguard",
+   "oracle_id": "f4e8be6f-2a1f-47b2-a4d8-7e576e25ab60",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39237,7 +40846,8 @@
    "name": "Ashiok, Nightmare Weaver",
    "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39319,6 +40929,15 @@
    "oracle_id": "dcd5ab1b-adc5-486e-a1e0-636af6ee9470",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:astral_cornucopia",
+   "name": "Astral Cornucopia",
+   "oracle_id": "1bc42024-52da-4d93-8b47-544f0a4a72a1",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39744,6 +41363,15 @@
    "type": "Card"
   },
   {
+   "id": "card:boulderfall",
+   "name": "Boulderfall",
+   "oracle_id": "2160aed4-5a7a-4eca-96b5-707204fa73bb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:bounty_of_the_luxa",
    "name": "Bounty of the Luxa",
    "oracle_id": "e6b20c30-88c2-4cb0-a5e4-46f1df924a7c",
@@ -39785,6 +41413,15 @@
    "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
    "origins": [
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:breaching_hippocamp",
+   "name": "Breaching Hippocamp",
+   "oracle_id": "5ba04e0d-a3eb-448d-8a97-08c155ef9694",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39865,7 +41502,8 @@
    "name": "Brimaz, King of Oreskos",
    "oracle_id": "49471b65-be9d-4ded-b2e5-dfc81b306b54",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -39996,6 +41634,15 @@
    "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cast_into_darkness",
+   "name": "Cast into Darkness",
+   "oracle_id": "4160e621-3f13-486b-af17-728ce85f7ea5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -40186,6 +41833,15 @@
    "type": "Card"
   },
   {
+   "id": "card:claim_of_erebos",
+   "name": "Claim of Erebos",
+   "oracle_id": "557dda97-c9e6-4d3d-95d8-8180ab9d87b3",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:clash_of_wills",
    "name": "Clash of Wills",
    "oracle_id": "56aec5bd-a8e8-403f-b339-0fc817426428",
@@ -40309,6 +41965,15 @@
    "id": "card:contingency_plan",
    "name": "Contingency Plan",
    "oracle_id": "67bc4116-539e-4748-95e1-033df78173ec",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:coordinated_assault",
+   "name": "Coordinated Assault",
+   "oracle_id": "ba14843d-6b7f-4e3d-b5ba-fc573fa8bf50",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -40505,6 +42170,15 @@
    "oracle_id": "8b755881-a72d-4e21-a369-d2924eb4585a",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:cyclops_of_one_eyed_pass",
+   "name": "Cyclops of One-Eyed Pass",
+   "oracle_id": "78922912-d7b9-47cc-8908-f44d7cc3fc4b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -40767,9 +42441,27 @@
    "type": "Card"
   },
   {
+   "id": "card:desperate_stand",
+   "name": "Desperate Stand",
+   "oracle_id": "f8252564-3e61-4ed5-bef1-6ec22882854b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:devour_in_flames",
    "name": "Devour in Flames",
    "oracle_id": "ea1fc580-a640-4f49-8f29-405c2830eca8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dictate_of_kruphix",
+   "name": "Dictate of Kruphix",
+   "oracle_id": "be74a4c1-d569-4203-b28a-3e2ac6a82990",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -40817,6 +42509,15 @@
    "oracle_id": "8f2c8498-5b10-4ec7-8678-598c90987556",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:disciple_of_phenax",
+   "name": "Disciple of Phenax",
+   "oracle_id": "d7cbe54b-f217-45f5-8583-c254a1c80bb8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -41241,6 +42942,43 @@
    "type": "Card"
   },
   {
+   "id": "card:ephara_god_of_the_polis",
+   "name": "Ephara, God of the Polis",
+   "oracle_id": "5968ecb5-5728-429f-9324-0c108820ebe8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ephara_s_enlightenment",
+   "name": "Ephara's Enlightenment",
+   "oracle_id": "da848568-1c66-4ce1-87f0-a35c317f2c61",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ephara_s_radiance",
+   "name": "Ephara's Radiance",
+   "oracle_id": "0870e9f8-9e02-4997-9554-41a4e8eec4cb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ephara_s_warden",
+   "name": "Ephara's Warden",
+   "oracle_id": "805d1f48-dd91-4034-b42c-3f1f1cb75cc9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:epiphany_at_the_drownyard",
    "name": "Epiphany at the Drownyard",
    "oracle_id": "33befbd6-56ac-45a7-a4d0-448167162707",
@@ -41396,6 +43134,15 @@
    "type": "Card"
   },
   {
+   "id": "card:extinguish_all_hope",
+   "name": "Extinguish All Hope",
+   "oracle_id": "c7ca25f3-7a22-477b-8546-4c2597d5d1ff",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:extricator_of_sin_extricator_of_flesh",
    "name": "Extricator of Sin // Extricator of Flesh",
    "oracle_id": "08b3328c-1d96-4a05-ae8b-f1b654084faa",
@@ -41466,6 +43213,24 @@
    "oracle_id": "495e52e6-4c2b-4574-9474-eadbdcc8b4ac",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fate_unraveler",
+   "name": "Fate Unraveler",
+   "oracle_id": "7d66f67d-3148-4636-ac5a-2cf8a51d5e50",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:fated_infatuation",
+   "name": "Fated Infatuation",
+   "oracle_id": "ae771e78-1d29-4b8c-8511-9da196a78dcf",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -41587,6 +43352,24 @@
    "type": "Card"
   },
   {
+   "id": "card:fleecemane_lion",
+   "name": "Fleecemane Lion",
+   "oracle_id": "e3c8cdf7-a26a-45eb-9498-99b618cfba99",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:flitterstep_eidolon",
+   "name": "Flitterstep Eidolon",
+   "oracle_id": "4280191f-e2cb-4cee-a3b4-660b3efd62e9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:flood_of_recollection",
    "name": "Flood of Recollection",
    "oracle_id": "02393093-e970-40a0-848b-9cd758450cbb",
@@ -41626,6 +43409,15 @@
    "id": "card:forest",
    "name": "Forest",
    "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:forlorn_pseudamma",
+   "name": "Forlorn Pseudamma",
+   "oracle_id": "92680de3-6ee2-4b73-b0f5-38383482dcca",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -41885,6 +43677,15 @@
    "type": "Card"
   },
   {
+   "id": "card:gift_of_immortality",
+   "name": "Gift of Immortality",
+   "oracle_id": "2c11c72f-5b04-47d8-bdf8-8d9d197ebc1b",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:gift_of_strength",
    "name": "Gift of Strength",
    "oracle_id": "fe971240-268a-47d4-a14e-3d6352656091",
@@ -42134,6 +43935,15 @@
    "id": "card:grasping_current",
    "name": "Grasping Current",
    "oracle_id": "a10a4bb2-c6fa-482b-9c8b-e64cbb8424ba",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:graverobber_spider",
+   "name": "Graverobber Spider",
+   "oracle_id": "f0ad4a60-ce7f-4117-b8b0-266ffd0447c2",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -42408,6 +44218,15 @@
    "type": "Card"
   },
   {
+   "id": "card:henrika_domnathi_henrika_infernal_seer",
+   "name": "Henrika Domnathi // Henrika, Infernal Seer",
+   "oracle_id": "0c0845c3-f4b5-444e-8f42-da0c7dbf2841",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:herald_s_horn",
    "name": "Herald's Horn",
    "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2",
@@ -42421,6 +44240,7 @@
    "name": "Hero's Downfall",
    "oracle_id": "03df6a57-37c9-46d3-83b3-4a6240100714",
    "origins": [
+    "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
    ],
    "type": "Card"
@@ -42560,6 +44380,15 @@
    "oracle_id": "1733c71b-fd28-48dd-8a3d-41afd4b22f0e",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ill_tempered_cyclops",
+   "name": "Ill-Tempered Cyclops",
+   "oracle_id": "07f62413-92cc-4f44-a827-a7c3a7318602",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -42762,6 +44591,15 @@
    "type": "Card"
   },
   {
+   "id": "card:it_that_betrays",
+   "name": "It That Betrays",
+   "oracle_id": "b11187ab-f8a8-422b-b550-4495f96de0f2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ixalli_s_diviner",
    "name": "Ixalli's Diviner",
    "oracle_id": "56c930c4-77e8-4547-8d55-663dc68ccf13",
@@ -42850,6 +44688,15 @@
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jacob_hauken_inspector_hauken_s_insight",
+   "name": "Jacob Hauken, Inspector // Hauken's Insight",
+   "oracle_id": "16d2a56a-7181-4ef3-866b-10dd8615d9e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43049,7 +44896,17 @@
    "name": "Karametra, God of Harvests",
    "oracle_id": "984e763c-5a83-4231-8ec4-1be76846479a",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karametra_s_acolyte",
+   "name": "Karametra's Acolyte",
+   "oracle_id": "e8cf80a1-6908-4adb-88e7-2015672d4905",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43409,6 +45266,15 @@
    "type": "Card"
   },
   {
+   "id": "card:kiora_s_follower",
+   "name": "Kiora's Follower",
+   "oracle_id": "22c044ad-77d7-4c93-953d-e2daa9686ff7",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:kiora_sovereign_of_the_deep",
    "name": "Kiora, Sovereign of the Deep",
    "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
@@ -43623,7 +45489,17 @@
    "name": "Kruphix, God of Horizons",
    "oracle_id": "b2cefcd6-4b81-479c-86ff-1695b836972c",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kruphix_s_insight",
+   "name": "Kruphix's Insight",
+   "oracle_id": "fadfbceb-4392-4e7e-be29-cbf372135d16",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43652,6 +45528,15 @@
    "oracle_id": "3adebbbf-39fe-4b42-b719-2f8edb009693",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:kydele_chosen_of_kruphix",
+   "name": "Kydele, Chosen of Kruphix",
+   "oracle_id": "5fca0ce6-e6ba-4319-b3c4-b4d48901e9b4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43720,11 +45605,38 @@
    "type": "Card"
   },
   {
+   "id": "card:leinore_autumn_sovereign",
+   "name": "Leinore, Autumn Sovereign",
+   "oracle_id": "cd47eedd-57cb-460d-b339-4785f63a5475",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:leyline_of_vitality",
    "name": "Leyline of Vitality",
    "oracle_id": "cbf2b19e-32a3-489f-9979-ba2748c52845",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liesa_forgotten_archangel",
+   "name": "Liesa, Forgotten Archangel",
+   "oracle_id": "efcaadbe-24e3-4dfc-b08c-a910f003d427",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:liesa_shroud_of_dusk",
+   "name": "Liesa, Shroud of Dusk",
+   "oracle_id": "2270daaf-252d-40c4-bed5-bd46ae15f041",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -43965,6 +45877,15 @@
    "type": "Card"
   },
   {
+   "id": "card:loyal_pegasus",
+   "name": "Loyal Pegasus",
+   "oracle_id": "3b7b862a-7edd-4e96-b4b9-f7113b4c93f9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:lukka_bound_to_ruin",
    "name": "Lukka, Bound to Ruin",
    "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
@@ -44135,6 +46056,15 @@
    "oracle_id": "5aafc6c3-14f2-45b1-bd5b-c27760d791dd",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:market_festival",
+   "name": "Market Festival",
+   "oracle_id": "15c63f9b-d071-4522-b9f0-a1f441a61b81",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -44395,7 +46325,17 @@
    "name": "Mogis, God of Slaughter",
    "oracle_id": "e5912d21-e188-4b9e-8e92-a6e8196353c6",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mogis_s_marauder",
+   "name": "Mogis's Marauder",
+   "oracle_id": "7a8bfc6b-0a24-42ad-a2c5-ac8d29d4c1b9",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -45258,6 +47198,15 @@
    "type": "Card"
   },
   {
+   "id": "card:oracle_s_insight",
+   "name": "Oracle's Insight",
+   "oracle_id": "3f1f27ca-15e6-4ac6-8bd3-1e6b3ca00857",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:orzhov_basilica",
    "name": "Orzhov Basilica",
    "oracle_id": "aa00ae0b-7c0f-427e-8102-ce0e2a6af5df",
@@ -45388,6 +47337,15 @@
    "type": "Card"
   },
   {
+   "id": "card:peregrination",
+   "name": "Peregrination",
+   "oracle_id": "2aff9be5-f6d4-4cdd-ab59-20202bc2f144",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:perilous_vault",
    "name": "Perilous Vault",
    "oracle_id": "7acd7ef5-0e26-436d-962a-1a391f81c2e8",
@@ -45431,6 +47389,16 @@
    "oracle_id": "b7d05d00-1e69-4d11-bff0-c1ca2026aad6",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:phenax_god_of_deception",
+   "name": "Phenax, God of Deception",
+   "oracle_id": "046ccc8a-ec0d-4dc5-b41d-5e8a6d86812a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -45497,6 +47465,15 @@
    "oracle_id": "853c6cc0-ed2b-4d65-add1-2449ade8cf68",
    "origins": [
     "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:plea_for_guidance",
+   "name": "Plea for Guidance",
+   "oracle_id": "358cfcf3-8ad0-4877-a59a-76ee269169fb",
+   "origins": [
     "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
@@ -45599,6 +47576,15 @@
    "oracle_id": "9df2e909-ed13-456a-9636-7398732009a9",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:prophet_of_kruphix",
+   "name": "Prophet of Kruphix",
+   "oracle_id": "372351fd-58f7-4cb8-8644-5fbc94ccb145",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -46164,6 +48150,15 @@
    "oracle_id": "52e92296-7af9-4e68-8045-40b6d6b73910",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:rout",
+   "name": "Rout",
+   "oracle_id": "d69aa624-23d1-406a-b7e0-9140a6f57929",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -46804,6 +48799,15 @@
    "id": "card:sigarda_heron_s_grace",
    "name": "Sigarda, Heron's Grace",
    "oracle_id": "79b56cf8-d573-40cf-b797-6b4eef2bed23",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sigiled_starfish",
+   "name": "Sigiled Starfish",
+   "oracle_id": "94a4f70a-8aac-412a-99f0-933e3ff87fe0",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -47727,6 +49731,24 @@
    "type": "Card"
   },
   {
+   "id": "card:temple_of_enlightenment",
+   "name": "Temple of Enlightenment",
+   "oracle_id": "89f43e27-790b-4ca1-8ba7-0882b31e0783",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:temple_of_malady",
+   "name": "Temple of Malady",
+   "oracle_id": "dc55421f-dee8-4263-9df0-2365df5f14bb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:temple_of_mystery",
    "name": "Temple of Mystery",
    "oracle_id": "7e26f0b7-20e6-46d5-8130-d98c14d6aa29",
@@ -48260,6 +50282,15 @@
    "type": "Card"
   },
   {
+   "id": "card:torens_fist_of_the_angels",
+   "name": "Torens, Fist of the Angels",
+   "oracle_id": "2cb96408-9195-4e41-ad9a-f8c74fbad083",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:torment_of_hailfire",
    "name": "Torment of Hailfire",
    "oracle_id": "30a0a6c2-1fbb-4784-ab96-22611d57e62c",
@@ -48272,6 +50303,15 @@
    "id": "card:torment_of_venom",
    "name": "Torment of Venom",
    "oracle_id": "9e9a7f0b-ffba-43d6-892a-95fd0b8b39f8",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tormented_thoughts",
+   "name": "Tormented Thoughts",
+   "oracle_id": "18aee20d-ab73-4fdb-a65c-101beae5fcf5",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -48309,6 +50349,15 @@
    "id": "card:tranquil_expanse",
    "name": "Tranquil Expanse",
    "oracle_id": "a5478263-47c9-447f-9c7a-c77ce0752947",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:trench_gorger",
+   "name": "Trench Gorger",
+   "oracle_id": "a5e37c6e-ae42-4c98-ba20-840ea3c4a6ab",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -48724,6 +50773,15 @@
    "type": "Card"
   },
   {
+   "id": "card:vadrik_astral_archmage",
+   "name": "Vadrik, Astral Archmage",
+   "oracle_id": "a9ab17ce-ba07-4ce8-99f9-9c4c633957f7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vadrok_apex_of_thunder",
    "name": "Vadrok, Apex of Thunder",
    "oracle_id": "775c41fa-2316-43c9-af34-ac9c9b0db7e2",
@@ -49007,6 +51065,15 @@
    "type": "Card"
   },
   {
+   "id": "card:voyaging_satyr",
+   "name": "Voyaging Satyr",
+   "oracle_id": "bce18f34-848e-4dd2-9a38-6084c0695f78",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:vraska_betrayal_s_sting",
    "name": "Vraska, Betrayal's Sting",
    "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
@@ -49208,6 +51275,15 @@
    "type": "Card"
   },
   {
+   "id": "card:whelming_wave",
+   "name": "Whelming Wave",
+   "oracle_id": "e510eaaf-6497-480f-baa8-f4796b5f1086",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:whirlermaker",
    "name": "Whirlermaker",
    "oracle_id": "bdf28770-0962-4317-822f-c187bc6706d1",
@@ -49231,6 +51307,15 @@
    "oracle_id": "d80562c2-cf90-43a4-9721-28da40fdfeed",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:wilhelt_the_rotcleaver",
+   "name": "Wilhelt, the Rotcleaver",
+   "oracle_id": "eada96a1-4964-4ad0-b0e3-2df08d6ae188",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -49394,7 +51479,8 @@
    "name": "Xenagos, the Reveler",
    "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -49641,10 +51727,26 @@
    "type": "Character"
   },
   {
+   "id": "character:adeline",
+   "name": "Adeline",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:adrix",
    "name": "Adrix",
    "origins": [
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:aesrias",
+   "name": "Aesrias",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -49865,6 +51967,7 @@
    "origins": [
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
     "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_theros_ths_2026-10-30.json",
     "pack_p5_wilds_of_eldraine_2026-10-30.json"
    ],
    "type": "Character"
@@ -50057,6 +52160,14 @@
    "type": "Character"
   },
   {
+   "id": "character:buried_lord",
+   "name": "The Buried Lord",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:calix",
    "name": "Calix",
    "origins": [
@@ -50097,6 +52208,7 @@
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json"
@@ -50286,6 +52398,14 @@
    "type": "Character"
   },
   {
+   "id": "character:elamon",
+   "name": "Elamon",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:elas_il_kor",
    "name": "Elas il-Kor",
    "origins": [
@@ -50325,6 +52445,14 @@
    "type": "Character"
   },
   {
+   "id": "character:eloise_wicker",
+   "name": "Eloise Wicker",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:elspeth_tirel",
    "name": "Elspeth Tirel",
    "origins": [
@@ -50356,6 +52484,14 @@
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ephara",
+   "name": "Ephara",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -50453,6 +52589,7 @@
    "id": "character:geralf",
    "name": "Geralf",
    "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_otj_side_stories_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
@@ -50525,6 +52662,7 @@
    "id": "character:gisa",
    "name": "Gisa",
    "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_otj_side_stories_2026-10-30.json",
     "pack_p5_outlaws_of_thunder_junction_2026-10-30.json",
@@ -50569,6 +52707,14 @@
    "name": "Griselbrand",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:hailin",
+   "name": "Hailin",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -50647,6 +52793,14 @@
    "type": "Character"
   },
   {
+   "id": "character:henrika",
+   "name": "Henrika",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:high_king_kenrith",
    "name": "High King Kenrith",
    "origins": [
@@ -50705,6 +52859,14 @@
    "type": "Character"
   },
   {
+   "id": "character:iris_oracle",
+   "name": "Iris, Oracle of Ephara",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:iroas",
    "name": "Iroas",
    "origins": [
@@ -50754,6 +52916,14 @@
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:jacob_hauken",
+   "name": "Jacob Hauken",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51165,10 +53335,26 @@
    "type": "Character"
   },
   {
+   "id": "character:kydele",
+   "name": "Kydele",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:kyodai",
    "name": "Kyodai",
    "origins": [
     "pack_p5_kamigawa_neon_dynasty_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:kytheon",
+   "name": "Kytheon Iora",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51193,6 +53379,22 @@
    "name": "Lavinia",
    "origins": [
     "pack_p5_war_spark_ravnica_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:leinore",
+   "name": "Leinore",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:liesa",
+   "name": "Liesa",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51365,6 +53567,14 @@
    "name": "Mehtma",
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:melantha",
+   "name": "Melantha",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51647,6 +53857,7 @@
    "id": "character:odric",
    "name": "Odric",
    "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Character"
@@ -51728,6 +53939,22 @@
    "type": "Character"
   },
   {
+   "id": "character:pavios",
+   "name": "Pavios",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:perisophia",
+   "name": "Perisophia",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:perrie",
    "name": "Perrie",
    "origins": [
@@ -51752,11 +53979,27 @@
    "type": "Character"
   },
   {
+   "id": "character:phenax",
+   "name": "Phenax",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:pia_nalaar",
    "name": "Pia Nalaar",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:pilun",
+   "name": "Pilun",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -51849,6 +54092,14 @@
    "name": "Raffine",
    "origins": [
     "pack_p5_snc_side_stories_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:raissa",
+   "name": "Raissa",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52120,6 +54371,14 @@
    "type": "Character"
   },
   {
+   "id": "character:sinnia",
+   "name": "Sinnia",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:sisay",
    "name": "Captain Sisay",
    "origins": [
@@ -52303,6 +54562,14 @@
    "type": "Character"
   },
   {
+   "id": "character:thanasis",
+   "name": "Thanasis",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:thassa",
    "name": "Thassa",
    "origins": [
@@ -52405,6 +54672,14 @@
    "type": "Character"
   },
   {
+   "id": "character:torens",
+   "name": "Torens",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tovolar",
    "name": "Tovolar",
    "origins": [
@@ -52483,6 +54758,14 @@
    "name": "Uvilda",
    "origins": [
     "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:vadrik",
+   "name": "Vadrik",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -52611,6 +54894,14 @@
    "type": "Character"
   },
   {
+   "id": "character:wilhelt",
+   "name": "Wilhelt",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:will_kenrith",
    "name": "Will Kenrith",
    "origins": [
@@ -52634,6 +54925,7 @@
    "name": "Wrenn",
    "origins": [
     "pack_c4_march_of_the_machine_2026-10-30.json",
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json"
    ],
    "type": "Character"
@@ -52651,6 +54943,14 @@
    "name": "Xenagos",
    "origins": [
     "pack_p5_theros_beyond_death_2026-10-30.json",
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:xenocrates",
+   "name": "Xenocrates",
+   "origins": [
     "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Character"
@@ -57651,6 +59951,158 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV013",
+   "limitation": "'Confronted' summarises the scene; the page's later outcome is not claimed.",
+   "name": "Odric faces the fanged Henrika in the chapel.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "confronted",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV014",
+   "name": "Wilhelt leads a column of the dead against Thraben.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "attacked",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV015",
+   "limitation": "The 'only brother' line is a letter whose speaker is inferred from context.",
+   "name": "Gisa calls Geralf her only brother.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV016",
+   "name": "Liesa beheads the Buried Lord.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV017",
+   "limitation": "The surname Hauken is taken from the page's name list; the page mostly says 'Jacob'.",
+   "name": "Jacob Hauken investigates alongside Detective Eloise Wicker.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "travelled_with",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV018",
+   "limitation": "'She' is Arlinn by point-of-view narration in a remembered scene.",
+   "name": "Arlinn once followed Tovolar's pack.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "followed",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV019",
+   "limitation": "The page shows her commanding this cathar company, not the whole order.",
+   "name": "Adeline commands the cathars at House Betzold.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV020",
+   "name": "Adeline helps Chandra into the saddle at the Harvesttide fight.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV021",
+   "limitation": "The first line's 'his' is Vadrik by point-of-view narration.",
+   "name": "Vadrik's husband is Hailin.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "spouse_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV022",
+   "limitation": "'She' is Leinore by point-of-view narration.",
+   "name": "Leinore and Sinnia are sisters.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MV023",
+   "name": "Elamon is Torens's older brother.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV024",
+   "limitation": "Former membership only: he was ousted.",
+   "name": "Odric held a place on the Lunarch Council before being ousted.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MV025",
+   "limitation": "'Aided' is an editorial reading of the magic-sharing scene.",
+   "name": "Wrenn's natural magic feeds Teferi's spellwork.",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "predicate": "aided",
+   "stage": "innistrad_mid_vow_2021",
+   "type": "Claim"
+  },
+  {
    "grade": "CANON_CONFIRMED",
    "id": "claim:NEO001",
    "name": "The planeswalker known as the Wanderer is the missing Emperor of Kamigawa.",
@@ -61035,6 +63487,202 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS021",
+   "limitation": "The page implies his kingship through succession and the king's hall; no single sentence says he is king.",
+   "name": "Brimaz has succeeded as king of the Oreskos leonin.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS022",
+   "limitation": "Location inferred from the story's setting in the Meletis agora.",
+   "name": "Speaker Perisophia presides over an assembly in Meletis.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "located_in",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS023",
+   "name": "Kytheon Iora led the irregulars of Akroan legend.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS024",
+   "limitation": "An alliance of convenience; 'allied_with' is an editorial reading.",
+   "name": "Ashiok works with Phenax's amusement at deceiving the other gods.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "allied_with",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS025",
+   "name": "Xenocrates was one of Melantha's first mentors at Ephara's temple.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS026",
+   "limitation": "Friendship inferred from shared stories and a secret spot.",
+   "name": "Thanasis befriends Pavios in Akros.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "friend_of",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS027",
+   "name": "Ephara, God of the Polis, is worshipped in particular in Meletis.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "revered_by",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS028",
+   "name": "Karametra's worship is strongest in Setessa.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "revered_by",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS029",
+   "name": "Aesrias of Akros is a Hero of Iroas.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "champion_of",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS030",
+   "name": "Pilun is the governor of Tynthal.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS031",
+   "limitation": "The identification is the followers' belief, which Kiora does not correct; she is not Thassa.",
+   "name": "Tritons who see Kiora take her for Thassa returned; she lets them.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS032",
+   "limitation": "Service inferred from her place at the temple.",
+   "name": "Kydele keeps watch from Kruphix's Temple and hears her god's voice.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "serves",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS033",
+   "name": "Elspeth uses Godsend to cut Xenagos from the sky.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "defeated",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS034",
+   "limitation": "The inventory holds two URLs of the same story; both are cited (the duplicate cache splits the drop-cap I from the rest of the name, so its quote starts after the name).",
+   "name": "Iris is the Oracle of Ephara.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "serves",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:TS035",
+   "limitation": "'She' is Raissa by point-of-view narration.",
+   "name": "Raissa sought the help of the women of Setessa in childbirth.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "sought_aid_from",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS036",
+   "name": "The Alamon are Akros's wandering soldiers, vital to its defense.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "defended",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:TS037",
+   "limitation": "The subject of 'It' is Meletis in the preceding sentence.",
+   "name": "The Reverent Army defends Meletis.",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "predicate": "defended",
+   "stage": "theros_ths_2013",
+   "type": "Claim"
+  },
+  {
    "continuity": "main",
    "grade": "CANON_CONFIRMED",
    "id": "claim:U001",
@@ -63264,6 +65912,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:alamon",
+   "name": "The Alamon",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:azorius_senate",
    "name": "Azorius Senate",
    "origins": [
@@ -63350,6 +66006,14 @@
    "name": "Demon Lords of Old Capenna",
    "origins": [
     "pack_p5_streets_of_new_capenna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:cathars",
+   "name": "Cathars",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -63617,6 +66281,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:kytheons_irregulars",
+   "name": "Kytheon's irregulars",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:legion_of_dusk",
    "name": "Legion of Dusk",
    "origins": [
@@ -63637,6 +66309,7 @@
    "id": "faction:lunarch_council",
    "name": "Lunarch Council",
    "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Faction"
@@ -63770,6 +66443,14 @@
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:reverent_army",
+   "name": "Reverent Army",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -64503,6 +67184,7 @@
    "id": "place:thraben",
    "name": "Thraben",
    "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "type": "Place"
@@ -64520,6 +67202,14 @@
    "name": "Torrezon",
    "origins": [
     "pack_p5_ixalan_rivals_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:tynthal",
+   "name": "Tynthal",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -67312,6 +70002,127 @@
    "url": "https://magic.wizards.com/en/news/magic-story/battles-in-the-field-and-in-the-mind"
   },
   {
+   "id": "source:mv_blessing",
+   "kind": "official_story_episode",
+   "name": "The Blessing of Blood",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/blessing-blood-2021-11-05"
+  },
+  {
+   "id": "source:mv_dance",
+   "kind": "official_story_episode",
+   "name": "The Dance of Undeath",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/dance-undeath-2021-09-24"
+  },
+  {
+   "id": "source:mv_dusk",
+   "kind": "official_story_episode",
+   "name": "The Dusk Reborn",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/dusk-reborn-2021-10-01"
+  },
+  {
+   "id": "source:mv_edge",
+   "kind": "official_story_episode",
+   "name": "The Edge of the World",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/edge-world-2021-10-29"
+  },
+  {
+   "id": "source:mv_ep2",
+   "kind": "official_story_episode",
+   "name": "Episode 2: The Motives of the Wolf",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-motives-wolf-2021-09-08"
+  },
+  {
+   "id": "source:mv_ep3",
+   "kind": "official_story_episode",
+   "name": "Episode 3: The Fall of the House of Betzold",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-fall-house-betzold-2021-09-15"
+  },
+  {
+   "id": "source:mv_ep4",
+   "kind": "official_story_episode",
+   "name": "Episode 4: Harvesttide",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-harvesttide-2021-09-22"
+  },
+  {
+   "id": "source:mv_eyes",
+   "kind": "official_story_episode",
+   "name": "His Eyes, All of Them",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/his-eyes-all-them-2021-09-17"
+  },
+  {
+   "id": "source:mv_sisters",
+   "kind": "official_story_episode",
+   "name": "Sisters",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/sisters-2021-09-10"
+  },
+  {
+   "id": "source:mv_survivors",
+   "kind": "official_story_episode",
+   "name": "Survivors",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/survivors-2021-11-12"
+  },
+  {
+   "id": "source:mv_tangles",
+   "kind": "official_story_episode",
+   "name": "Tangles",
+   "origins": [
+    "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03"
+  },
+  {
    "id": "source:neo_ep1",
    "kind": "official_story_episode",
    "name": "Episode 1: A Stranger in Eiganjo",
@@ -68992,6 +71803,116 @@
    "url": "https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10"
   },
   {
+   "id": "source:ths_ajani_mentor",
+   "kind": "official_story_episode",
+   "name": "Ajani, Mentor of Heroes",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17"
+  },
+  {
+   "id": "source:ths_bng_gods",
+   "kind": "official_story_episode",
+   "name": "The Gods of Born of the Gods",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29"
+  },
+  {
+   "id": "source:ths_dreams",
+   "kind": "official_story_episode",
+   "name": "Dreams of the City",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23"
+  },
+  {
+   "id": "source:ths_emonberry",
+   "kind": "official_story_episode",
+   "name": "Emonberry Red",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05"
+  },
+  {
+   "id": "source:ths_flitterstep",
+   "kind": "official_story_episode",
+   "name": "Dance of the Flitterstep",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19"
+  },
+  {
+   "id": "source:ths_iroas_hero",
+   "kind": "official_story_episode",
+   "name": "The Hero of Iroas",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05"
+  },
+  {
+   "id": "source:ths_kiora_followers",
+   "kind": "official_story_episode",
+   "name": "Kiora's Followers",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14"
+  },
+  {
+   "id": "source:ths_kruphix",
+   "kind": "official_story_episode",
+   "name": "Kruphix's Insight",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11"
+  },
+  {
+   "id": "source:ths_oracle",
+   "kind": "official_story_episode",
+   "name": "The Oracle of Ephara",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19"
+  },
+  {
+   "id": "source:ths_oracle_dup",
+   "kind": "official_story_episode",
+   "name": "The Oracle of Ephara",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0"
+  },
+  {
    "id": "source:ths_pg1",
    "kind": "official_planeswalkers_guide",
    "name": "Planeswalker's Guide to Theros, Part 1",
@@ -69023,6 +71944,50 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-3-2013-09-04"
+  },
+  {
+   "id": "source:ths_plane",
+   "kind": "official_story_episode",
+   "name": "Theros",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/story/theros-plane"
+  },
+  {
+   "id": "source:ths_stand",
+   "kind": "official_story_episode",
+   "name": "Desperate Stand",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16"
+  },
+  {
+   "id": "source:ths_thank",
+   "kind": "official_story_episode",
+   "name": "Thank the Gods",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30"
+  },
+  {
+   "id": "source:ths_walls",
+   "kind": "official_story_episode",
+   "name": "The Walls of Akros",
+   "origins": [
+    "pack_p5_theros_ths_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26"
   },
   {
    "id": "source:unbroken_unbowed",
@@ -69358,37 +72323,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 835,
+  "claim_edges_with_era": 865,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 650,
+   "CANON_CONFIRMED": 664,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 147,
+   "CANON_IMPLIED": 163,
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 111,
-  "edges": 5022,
+  "edges": 5224,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1196,
+   "Card": 1251,
    "CardTheme": 1,
-   "Character": 357,
-   "Claim": 808,
+   "Character": 383,
+   "Claim": 838,
    "Concept": 131,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 87,
+   "Faction": 91,
    "Literal": 14,
    "Object": 45,
-   "Place": 59,
+   "Place": 60,
    "Plane": 27,
-   "Source": 413
+   "Source": 438
   },
-  "nodes": 3164,
+  "nodes": 3305,
   "non_wizards_sources": 0,
   "relations": 314,
-  "wizards_official_sources": 413
+  "wizards_official_sources": 438
  }
 }

@@ -346,14 +346,15 @@ Protected-path check: `git diff --stat dfc8891d origin/main -- grixis/ data/grix
 | PR | Phase | What | Merge commit (CDT) | CI on the exact head |
 |---|---|---|---|---|
 | [#875](https://github.com/corymstover/GrokBotMTGCompanion/pull/875) | 5 | Closes LCI, BLB, THB, KLD/AER, DFT, XLN/RIX and DOM/WAR (new `pack_p5_war_spark_ravnica`); adds `scripts/claim_spec_sources/patch_spec.py` | `35392813` 07:37 CDT | 8/8 pass on `1c2937cb` |
-| [#876](https://github.com/corymstover/GrokBotMTGCompanion/pull/876) | 5 | Closes KHM (+10 claims) and STX (+8) | open | pending |
+| [#876](https://github.com/corymstover/GrokBotMTGCompanion/pull/876) | 5 | Closes KHM (+10 claims) and STX (+8) | `1fb8b782` 07:42 CDT | 8/8 pass on `754c875c` |
+| #877 (this branch) | 5 | Closes MID/VOW (+13) and THS (+17); handoff | open | pending |
 
-### Coverage (after #876's head)
-- 389 of 626 pages cited (350 after Batch 7). 29 of 33 arcs have every page cited. 808 claims.
-- Still partial: IKO 1/3 (the 2 uncited pages have no lore content), MID/VOW 8/19, THS 5/19, untagged 17/227.
+### Coverage (generated on this branch's head)
+- 414 of 626 pages cited (350 after Batch 7). 31 of 33 arcs have every page cited. 838 claims.
+- Still partial: IKO 1/3 (the 2 uncited pages have no lore content, so they need a reviewed-no-claim marker rather than a claim), untagged 17/227.
 
 ### Status (keep distinct)
 - **Research:** PRELIMINARY_RESEARCH. **Tests:** green locally and in CI on each exact head. **Merged:** #875. **Owner approved / certified:** nothing.
 
 ### Next steps
-MID/VOW, then THS, then untagged in bulk; Phase 7 paraphrase suite; readiness and Phase 8 re-run.
+Untagged pages in bulk; Phase 7 paraphrase suite; readiness and Phase 8 re-run.

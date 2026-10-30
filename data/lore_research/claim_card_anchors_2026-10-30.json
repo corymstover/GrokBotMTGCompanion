@@ -11807,6 +11807,309 @@
    ]
   },
   {
+   "claim": "MV013",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Blood-Cursed",
+   "oracle_id": "690f79f3-e6a5-4542-8401-61a9bf645d55",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV013",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Lunarch Marshal",
+   "oracle_id": "bad76170-c773-4be5-9457-20dc9f745cb4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV013",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Master Tactician",
+   "oracle_id": "ade898df-14a5-460b-94f6-1f3f74d3ff95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV013",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "henrika",
+   "card": "Henrika Domnathi // Henrika, Infernal Seer",
+   "oracle_id": "0c0845c3-f4b5-444e-8f42-da0c7dbf2841",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV014",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "wilhelt",
+   "card": "Wilhelt, the Rotcleaver",
+   "oracle_id": "eada96a1-4964-4ad0-b0e3-2df08d6ae188",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV015",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, Visionary Stitcher",
+   "oracle_id": "0a0743b0-07c2-4e11-8b30-6b1b8156bdd0",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV015",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "geralf",
+   "card": "Geralf, the Fleshwright",
+   "oracle_id": "a62e6cf4-1adb-4c28-b24b-91287bb23e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV015",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, Glorious Resurrector",
+   "oracle_id": "f1354b1b-896c-4492-b0c0-3dd07c6d3917",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV015",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "gisa",
+   "card": "Gisa, the Hellraiser",
+   "oracle_id": "696363c9-e8a7-4c65-b65c-4a94891ec43d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV016",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "liesa",
+   "card": "Liesa, Forgotten Archangel",
+   "oracle_id": "efcaadbe-24e3-4dfc-b08c-a910f003d427",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV016",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "liesa",
+   "card": "Liesa, Shroud of Dusk",
+   "oracle_id": "2270daaf-252d-40c4-bed5-bd46ae15f041",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV017",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "jacob_hauken",
+   "card": "Jacob Hauken, Inspector // Hauken's Insight",
+   "oracle_id": "16d2a56a-7181-4ef3-866b-10dd8615d9e9",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV018",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "arlinn_kord",
+   "card": "Arlinn Kord // Arlinn, Embraced by the Moon",
+   "oracle_id": "6bb7d0df-7a9f-4e17-8c31-7628c4b12356",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV018",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "tovolar",
+   "card": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
+   "oracle_id": "45d49831-548a-4a0e-9a18-9f7397913895",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV019",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "adeline",
+   "card": "Adeline, Resplendent Cathar",
+   "oracle_id": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV020",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "adeline",
+   "card": "Adeline, Resplendent Cathar",
+   "oracle_id": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV020",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV021",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "vadrik",
+   "card": "Vadrik, Astral Archmage",
+   "oracle_id": "a9ab17ce-ba07-4ce8-99f9-9c4c633957f7",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
+   "claim": "MV022",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "leinore",
+   "card": "Leinore, Autumn Sovereign",
+   "oracle_id": "cd47eedd-57cb-460d-b339-4785f63a5475",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV023",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "torens",
+   "card": "Torens, Fist of the Angels",
+   "oracle_id": "2cb96408-9195-4e41-ad9a-f8c74fbad083",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV024",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Blood-Cursed",
+   "oracle_id": "690f79f3-e6a5-4542-8401-61a9bf645d55",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "vow"
+   ]
+  },
+  {
+   "claim": "MV024",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Lunarch Marshal",
+   "oracle_id": "bad76170-c773-4be5-9457-20dc9f745cb4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV024",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "odric",
+   "card": "Odric, Master Tactician",
+   "oracle_id": "ade898df-14a5-460b-94f6-1f3f74d3ff95",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Druid of Argoth",
+   "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Hero of Dominaria",
+   "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Mage of Zhalfir",
+   "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Master of Time",
+   "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Archmage",
+   "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Temporal Pilgrim",
+   "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Time Raveler",
+   "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timebender",
+   "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Timeless Voyager",
+   "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MV025",
+   "pack": "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json",
+   "participant": "teferi",
+   "card": "Teferi, Who Slows the Sunset",
+   "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mid"
+   ]
+  },
+  {
    "claim": "SN001",
    "pack": "pack_p5_streets_of_new_capenna_2026-10-30.json",
    "participant": "ob_nixilis",
@@ -19643,6 +19946,250 @@
    "tier": "PRINTED_IN_STORY_SET",
    "story_set_printings": [
     "ths"
+   ]
+  },
+  {
+   "claim": "TS021",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "brimaz",
+   "card": "Brimaz, Blight of Oreskos",
+   "oracle_id": "a6e7cbfc-6d5a-4a67-9dad-d512d3c97bda",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS021",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "brimaz",
+   "card": "Brimaz, King of Oreskos",
+   "oracle_id": "49471b65-be9d-4ded-b2e5-dfc81b306b54",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17"
+   ]
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23"
+   ]
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS024",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "phenax",
+   "card": "Phenax, God of Deception",
+   "oracle_id": "046ccc8a-ec0d-4dc5-b41d-5e8a6d86812a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS027",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ephara",
+   "card": "Ephara, God of the Polis",
+   "oracle_id": "5968ecb5-5728-429f-9324-0c108820ebe8",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29"
+   ]
+  },
+  {
+   "claim": "TS028",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "karametra",
+   "card": "Karametra, God of Harvests",
+   "oracle_id": "984e763c-5a83-4231-8ec4-1be76846479a",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29"
+   ]
+  },
+  {
+   "claim": "TS029",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "iroas",
+   "card": "Iroas, God of Victory",
+   "oracle_id": "36041cf2-159f-4809-9377-930ac4db545f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "jou"
+   ]
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Fire and Ashes",
+   "oracle_id": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora of Salt and Sand",
+   "oracle_id": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Behemoth Beckoner",
+   "oracle_id": "1efe485e-6874-4f4c-b981-e10f41670865",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Master of the Depths",
+   "oracle_id": "0b829189-ff9d-4f6c-9a2a-fdb4a9bfeeb6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, Sovereign of the Deep",
+   "oracle_id": "95df54e2-0196-4e54-8144-de5982ce07f5",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Crashing Wave",
+   "oracle_id": "58cc2097-f4b4-4695-9076-78666050cdb6",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14"
+   ]
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kiora",
+   "card": "Kiora, the Rising Tide",
+   "oracle_id": "5d748bce-dff8-46fa-a3d1-633863b7bbff",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, Deep-Dwelling",
+   "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS031",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "thassa",
+   "card": "Thassa, God of the Sea",
+   "oracle_id": "69e5df2f-be1f-4608-a90f-3e2f51e2fea4",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "ths"
+   ]
+  },
+  {
+   "claim": "TS032",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kydele",
+   "card": "Kydele, Chosen of Kruphix",
+   "oracle_id": "5fca0ce6-e6ba-4319-b3c4-b4d48901e9b4",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS032",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "kruphix",
+   "card": "Kruphix, God of Horizons",
+   "oracle_id": "b2cefcd6-4b81-479c-86ff-1695b836972c",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11"
+   ]
+  },
+  {
+   "claim": "TS033",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "elspeth_tirel",
+   "card": "Elspeth Tirel",
+   "oracle_id": "5f815e69-fdd6-4186-9317-25f5c7e0b08e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "TS033",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, God of Revels",
+   "oracle_id": "cb15a8dd-57fe-466f-847e-66476b690a1f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
+   ]
+  },
+  {
+   "claim": "TS033",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "xenagos",
+   "card": "Xenagos, the Reveler",
+   "oracle_id": "942a318e-90eb-4f10-bb30-2e10f5cc922a",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11"
+   ]
+  },
+  {
+   "claim": "TS034",
+   "pack": "pack_p5_theros_ths_2026-10-30.json",
+   "participant": "ephara",
+   "card": "Ephara, God of the Polis",
+   "oracle_id": "5968ecb5-5728-429f-9324-0c108820ebe8",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "bng"
    ]
   },
   {
@@ -27574,11 +28121,11 @@
    "NAMED_PARTICIPANT": 6
   },
   "pack_p5_innistrad_midnight_hunt_crimson_vow_2026-10-30.json": {
-   "claims": 12,
-   "claims_anchored": 11,
+   "claims": 25,
+   "claims_anchored": 24,
    "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 10,
-   "NAMED_PARTICIPANT": 19
+   "PRINTED_IN_STORY_SET": 23,
+   "NAMED_PARTICIPANT": 39
   },
   "pack_p5_ixalan_rivals_2026-10-30.json": {
    "claims": 34,
@@ -27735,11 +28282,11 @@
    "NAMED_PARTICIPANT": 81
   },
   "pack_p5_theros_ths_2026-10-30.json": {
-   "claims": 20,
-   "claims_anchored": 19,
-   "ART_IN_CITED_SOURCE": 0,
-   "PRINTED_IN_STORY_SET": 23,
-   "NAMED_PARTICIPANT": 38
+   "claims": 37,
+   "claims_anchored": 28,
+   "ART_IN_CITED_SOURCE": 7,
+   "PRINTED_IN_STORY_SET": 28,
+   "NAMED_PARTICIPANT": 52
   },
   "pack_p5_throne_of_eldraine_2026-10-30.json": {
    "claims": 11,
@@ -27764,12 +28311,12 @@
   }
  },
  "counts": {
-  "claims": 808,
-  "claims_anchored": 698,
-  "anchors": 3187,
-  "ART_IN_CITED_SOURCE": 69,
-  "PRINTED_IN_STORY_SET": 528,
-  "NAMED_PARTICIPANT": 2590
+  "claims": 838,
+  "claims_anchored": 720,
+  "anchors": 3246,
+  "ART_IN_CITED_SOURCE": 76,
+  "PRINTED_IN_STORY_SET": 546,
+  "NAMED_PARTICIPANT": 2624
  },
- "content_sha256": "31ce81eaea6ce2c78fd8991802d4a6c2952ee6834410649e69914fc287f8497b"
+ "content_sha256": "896d06118a6f338a1ce6a18649e225c983087271dc8381dd7fbe0b7f11411c7c"
 }

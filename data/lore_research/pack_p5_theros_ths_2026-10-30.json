@@ -41,6 +41,104 @@
    "kind": "official_planeswalkers_guide",
    "perspective": "Wizards of the Coast (official Magic Story)",
    "published": "2014-04-02"
+  },
+  "ths_ajani_mentor": {
+   "title": "Ajani, Mentor of Heroes",
+   "url": "https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-04-09"
+  },
+  "ths_flitterstep": {
+   "title": "Dance of the Flitterstep",
+   "url": "https://magic.wizards.com/en/news/magic-story/dance-flitterstep-2014-02-19",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-02-20"
+  },
+  "ths_stand": {
+   "title": "Desperate Stand",
+   "url": "https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-04-17"
+  },
+  "ths_dreams": {
+   "title": "Dreams of the City",
+   "url": "https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-04-24"
+  },
+  "ths_emonberry": {
+   "title": "Emonberry Red",
+   "url": "https://magic.wizards.com/en/news/magic-story/emonberry-red-2014-02-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-02-05"
+  },
+  "ths_bng_gods": {
+   "title": "The Gods of Born of the Gods",
+   "url": "https://magic.wizards.com/en/news/magic-story/gods-born-gods-2014-01-29",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-01-30"
+  },
+  "ths_iroas_hero": {
+   "title": "The Hero of Iroas",
+   "url": "https://magic.wizards.com/en/news/magic-story/hero-iroas-2014-03-05",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-03-06"
+  },
+  "ths_kiora_followers": {
+   "title": "Kiora's Followers",
+   "url": "https://magic.wizards.com/en/news/magic-story/kioras-followers-2014-02-14",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-02-13"
+  },
+  "ths_kruphix": {
+   "title": "Kruphix's Insight",
+   "url": "https://magic.wizards.com/en/news/magic-story/kruphixs-insight-2014-06-11",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-06-11"
+  },
+  "ths_oracle": {
+   "title": "The Oracle of Ephara",
+   "url": "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-03-20"
+  },
+  "ths_oracle_dup": {
+   "title": "The Oracle of Ephara",
+   "url": "https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-03-19"
+  },
+  "ths_thank": {
+   "title": "Thank the Gods",
+   "url": "https://magic.wizards.com/en/news/magic-story/thank-gods-2014-04-30",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-04-30"
+  },
+  "ths_walls": {
+   "title": "The Walls of Akros",
+   "url": "https://magic.wizards.com/en/news/magic-story/walls-akros-2014-02-26",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": "2014-02-27"
+  },
+  "ths_plane": {
+   "title": "Theros",
+   "url": "https://magic.wizards.com/en/story/theros-plane",
+   "kind": "official_story_episode",
+   "perspective": "Wizards of the Coast (official Magic Story)",
+   "published": ""
   }
  },
  "entities": [
@@ -188,6 +286,96 @@
    "id": "the_twelve",
    "type": "Faction",
    "name": "The Twelve (Meletis)"
+  },
+  {
+   "id": "perisophia",
+   "type": "Character",
+   "name": "Perisophia"
+  },
+  {
+   "id": "kytheon",
+   "type": "Character",
+   "name": "Kytheon Iora"
+  },
+  {
+   "id": "kytheons_irregulars",
+   "type": "Faction",
+   "name": "Kytheon's irregulars"
+  },
+  {
+   "id": "ashiok",
+   "type": "Character",
+   "name": "Ashiok"
+  },
+  {
+   "id": "phenax",
+   "type": "Character",
+   "name": "Phenax"
+  },
+  {
+   "id": "xenocrates",
+   "type": "Character",
+   "name": "Xenocrates"
+  },
+  {
+   "id": "melantha",
+   "type": "Character",
+   "name": "Melantha"
+  },
+  {
+   "id": "thanasis",
+   "type": "Character",
+   "name": "Thanasis"
+  },
+  {
+   "id": "pavios",
+   "type": "Character",
+   "name": "Pavios"
+  },
+  {
+   "id": "ephara",
+   "type": "Character",
+   "name": "Ephara"
+  },
+  {
+   "id": "aesrias",
+   "type": "Character",
+   "name": "Aesrias"
+  },
+  {
+   "id": "pilun",
+   "type": "Character",
+   "name": "Pilun"
+  },
+  {
+   "id": "tynthal",
+   "type": "Place",
+   "name": "Tynthal"
+  },
+  {
+   "id": "kydele",
+   "type": "Character",
+   "name": "Kydele"
+  },
+  {
+   "id": "iris_oracle",
+   "type": "Character",
+   "name": "Iris, Oracle of Ephara"
+  },
+  {
+   "id": "raissa",
+   "type": "Character",
+   "name": "Raissa"
+  },
+  {
+   "id": "alamon",
+   "type": "Faction",
+   "name": "The Alamon"
+  },
+  {
+   "id": "reverent_army",
+   "type": "Faction",
+   "name": "Reverent Army"
   }
  ],
  "claims": [
@@ -578,10 +766,358 @@
    ],
    "summary": "The Twelve, a council of philosophers, rule Meletis.",
    "limitation": ""
+  },
+  {
+   "id": "TS021",
+   "subject": "brimaz",
+   "predicate": "leader_of",
+   "object": "theros_leonin",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_ajani_mentor"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_ajani_mentor",
+     "quote": "When Ajani had been here before, it was apparent that Brimaz might be king someday."
+    },
+    {
+     "source_id": "ths_ajani_mentor",
+     "quote": "Brimaz, her chosen successor, declined to seek vengeance"
+    }
+   ],
+   "summary": "Brimaz has succeeded as king of the Oreskos leonin.",
+   "limitation": "The page implies his kingship through succession and the king's hall; no single sentence says he is king."
+  },
+  {
+   "id": "TS022",
+   "subject": "perisophia",
+   "predicate": "located_in",
+   "object": "meletis",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_flitterstep"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_flitterstep",
+     "quote": "Honored Speaker Perisophia, I pray you will forgive this intrusion."
+    },
+    {
+     "source_id": "ths_flitterstep",
+     "quote": "as the two paced the agora of Meletis."
+    }
+   ],
+   "summary": "Speaker Perisophia presides over an assembly in Meletis.",
+   "limitation": "Location inferred from the story's setting in the Meletis agora."
+  },
+  {
+   "id": "TS023",
+   "subject": "kytheon",
+   "predicate": "leader_of",
+   "object": "kytheons_irregulars",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_stand"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_stand",
+     "quote": "Everyone knows the stories of Kytheon Iora and his irregulars, but no one remembers their names outside of their leader."
+    }
+   ],
+   "summary": "Kytheon Iora led the irregulars of Akroan legend.",
+   "limitation": ""
+  },
+  {
+   "id": "TS024",
+   "subject": "ashiok",
+   "predicate": "allied_with",
+   "object": "phenax",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_dreams"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_dreams",
+     "quote": "Ashiok relied on Phenax being amused by the thought of deceiving all the other gods, and Phenax had proved Ashiok right."
+    }
+   ],
+   "summary": "Ashiok works with Phenax's amusement at deceiving the other gods.",
+   "limitation": "An alliance of convenience; 'allied_with' is an editorial reading."
+  },
+  {
+   "id": "TS025",
+   "subject": "xenocrates",
+   "predicate": "mentored",
+   "object": "melantha",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_dreams"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_dreams",
+     "quote": "Xenocrates had been one of her first mentors at Ephara's temple when Melantha had arrived so many years before."
+    }
+   ],
+   "summary": "Xenocrates was one of Melantha's first mentors at Ephara's temple.",
+   "limitation": ""
+  },
+  {
+   "id": "TS026",
+   "subject": "thanasis",
+   "predicate": "friend_of",
+   "object": "pavios",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_emonberry"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_emonberry",
+     "quote": "Thanasis told Pavios the epic stories of Akros."
+    },
+    {
+     "source_id": "ths_emonberry",
+     "quote": "Thanasis had shown him a secret spot just outside Akros"
+    }
+   ],
+   "summary": "Thanasis befriends Pavios in Akros.",
+   "limitation": "Friendship inferred from shared stories and a secret spot."
+  },
+  {
+   "id": "TS027",
+   "subject": "ephara",
+   "predicate": "revered_by",
+   "object": "meletis",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_bng_gods"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_bng_gods",
+     "quote": "Ephara represents and presides over any organized state of people, but in particular she is worshipped in Meletis."
+    }
+   ],
+   "summary": "Ephara, God of the Polis, is worshipped in particular in Meletis.",
+   "limitation": ""
+  },
+  {
+   "id": "TS028",
+   "subject": "karametra",
+   "predicate": "revered_by",
+   "object": "setessa",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_bng_gods"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_bng_gods",
+     "quote": "she is strongly associated with Setessa, where worship of her is strongest"
+    }
+   ],
+   "summary": "Karametra's worship is strongest in Setessa.",
+   "limitation": ""
+  },
+  {
+   "id": "TS029",
+   "subject": "aesrias",
+   "predicate": "champion_of",
+   "object": "iroas",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_iroas_hero"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_iroas_hero",
+     "quote": "Governor, I am Aesrias of Akros, Hero of Iroas."
+    }
+   ],
+   "summary": "Aesrias of Akros is a Hero of Iroas.",
+   "limitation": ""
+  },
+  {
+   "id": "TS030",
+   "subject": "pilun",
+   "predicate": "leader_of",
+   "object": "tynthal",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_iroas_hero"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_iroas_hero",
+     "quote": "Tynthal's governor, Pilun, had summoned me to deal with the harpies."
+    }
+   ],
+   "summary": "Pilun is the governor of Tynthal.",
+   "limitation": ""
+  },
+  {
+   "id": "TS031",
+   "subject": "kiora",
+   "predicate": "identified_with",
+   "object": "thassa",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_kiora_followers"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_kiora_followers",
+     "quote": "Thassa herself, returned to us!"
+    },
+    {
+     "source_id": "ths_kiora_followers",
+     "quote": "She smiled but said nothing, letting them talk among themselves."
+    }
+   ],
+   "summary": "Tritons who see Kiora take her for Thassa returned; she lets them.",
+   "limitation": "The identification is the followers' belief, which Kiora does not correct; she is not Thassa."
+  },
+  {
+   "id": "TS032",
+   "subject": "kydele",
+   "predicate": "serves",
+   "object": "kruphix",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_kruphix"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_kruphix",
+     "quote": "From her perch within the great branches of Kruphix's Temple, Kydele saw it all happen."
+    },
+    {
+     "source_id": "ths_kruphix",
+     "quote": "the familiar voice of her god echoed all around her"
+    }
+   ],
+   "summary": "Kydele keeps watch from Kruphix's Temple and hears her god's voice.",
+   "limitation": "Service inferred from her place at the temple."
+  },
+  {
+   "id": "TS033",
+   "subject": "elspeth_tirel",
+   "predicate": "defeated",
+   "object": "xenagos",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_kruphix"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_kruphix",
+     "quote": "She saw Elspeth use the blade called Godsend to cut Xenagos from the sky."
+    }
+   ],
+   "summary": "Elspeth uses Godsend to cut Xenagos from the sky.",
+   "limitation": ""
+  },
+  {
+   "id": "TS034",
+   "subject": "iris_oracle",
+   "predicate": "serves",
+   "object": "ephara",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_oracle",
+    "ths_oracle_dup"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_oracle",
+     "quote": "Iris, the Oracle of Ephara, leaned forward in the wooden armchair"
+    },
+    {
+     "source_id": "ths_oracle_dup",
+     "quote": "the Oracle of Ephara, leaned forward in the wooden armchair"
+    }
+   ],
+   "summary": "Iris is the Oracle of Ephara.",
+   "limitation": "The inventory holds two URLs of the same story; both are cited (the duplicate cache splits the drop-cap I from the rest of the name, so its quote starts after the name)."
+  },
+  {
+   "id": "TS035",
+   "subject": "raissa",
+   "predicate": "sought_aid_from",
+   "object": "setessa",
+   "grade": "CANON_IMPLIED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_thank"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_thank",
+     "quote": "She had sought the assistance of the women of Setessa when giving birth."
+    }
+   ],
+   "summary": "Raissa sought the help of the women of Setessa in childbirth.",
+   "limitation": "'She' is Raissa by point-of-view narration."
+  },
+  {
+   "id": "TS036",
+   "subject": "alamon",
+   "predicate": "defended",
+   "object": "akros",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_walls"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_walls",
+     "quote": "Both their squad and Eumalos's were part of the Alamon, the wandering soldiers who were as vital to the defense of the polis of Akros as the city walls."
+    }
+   ],
+   "summary": "The Alamon are Akros's wandering soldiers, vital to its defense.",
+   "limitation": ""
+  },
+  {
+   "id": "TS037",
+   "subject": "reverent_army",
+   "predicate": "defended",
+   "object": "meletis",
+   "grade": "CANON_CONFIRMED",
+   "event_stage": "theros_ths_2013",
+   "source_ids": [
+    "ths_plane"
+   ],
+   "evidence": [
+    {
+     "source_id": "ths_plane",
+     "quote": "It is hemmed in by vast golden wheat fields and the Siren Sea, and defended by the Reverent Army."
+    }
+   ],
+   "summary": "The Reverent Army defends Meletis.",
+   "limitation": "The subject of 'It' is Meletis in the preceding sentence."
   }
  ],
- "pages_registered": 5,
- "pages_cited": 5,
+ "pages_registered": 19,
+ "pages_cited": 19,
  "uncited_registered_pages": [],
  "remaining": [
   "Only targeted claims; most god profiles and creature lore in the guides are not graded",

@@ -36,7 +36,7 @@ class StoryCoverageInventory(unittest.TestCase):
         self.assertEqual(arcs["KLD/AER"]["status"], "ALL_PAGES_CITED")  # batch 8 closed the last 3 pages
         self.assertEqual(arcs["XLN/RIX"]["status"], "ALL_PAGES_CITED")  # batch 8 closed the last 7 pages
         # Batch 6: MID/VOW, SNC and EOE packs
-        self.assertEqual(arcs["MID/VOW"]["cited_pages"], 8)
+        self.assertEqual(arcs["MID/VOW"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["SNC"]["status"], "ALL_PAGES_CITED")
         # Batch 6b: RF, WOE and MKM packs
         self.assertEqual(arcs["WOE"]["status"], "ALL_PAGES_CITED")
@@ -52,7 +52,7 @@ class StoryCoverageInventory(unittest.TestCase):
         self.assertEqual(arcs["IKO"]["cited_pages"], 1)
         # Batch 7a: THB, THS (Planeswalker's Guides), MAT, ELD guide
         self.assertEqual(arcs["THB"]["status"], "ALL_PAGES_CITED")  # batch 8
-        self.assertEqual(arcs["THS"]["cited_pages"], 5)
+        self.assertEqual(arcs["THS"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["MAT"]["status"], "ALL_PAGES_CITED")
         self.assertEqual(arcs["ELD"]["status"], "ALL_PAGES_CITED")
         # Batch 7b: SOS (legends, guide, episode 6), SOI/EMN
@@ -85,6 +85,9 @@ class StoryCoverageInventory(unittest.TestCase):
         # Batch 8 part 2: KHM and STX now cite every page: 29 of 33 arcs, 389 of 626 pages.
         self.assertGreaterEqual(self.d["totals"]["cited_pages"], 389)
         self.assertGreaterEqual(self.d["totals"]["arcs_all_cited"], 29)
+        # Batch 8 part 3: MID/VOW and THS now cite every page: 31 of 33 arcs, 414 of 626 pages.
+        self.assertGreaterEqual(self.d["totals"]["cited_pages"], 414)
+        self.assertGreaterEqual(self.d["totals"]["arcs_all_cited"], 31)
 
     def test_claim_total_matches_graph_packs(self):
         self.assertEqual(self.d["totals"]["claims"], sum(self.d["claims_per_pack"].values()))
