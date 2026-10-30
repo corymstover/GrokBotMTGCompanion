@@ -21,6 +21,7 @@ REPRINT_SOURCE_REVIEW = ROOT / "data/set_atlas/reprint_curated_source_audit_2026
 BOXED_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_precon_source_audit_2026-10-29.json"
 DUEL_DECKS_SOURCE_REVIEW = ROOT / "data/set_atlas/duel_decks_source_audit_2026-10-29.json"
 COMMANDER_SERIES_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_series_source_audit_2026-10-29.json"
+COMMANDER_SET_LINKED_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_set_linked_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -327,6 +328,59 @@ def apply_commander_series_source_overlay(data, review):
     return result
 
 
+def apply_commander_set_linked_source_overlay(data, review):
+    """Overlay twelve Wizards-backed 2020–2022 Commander release families."""
+    if review["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 120:
+        raise ValueError("Set-linked Commander overlay prior audit mismatch")
+    updates = {r["code"]: r for r in review["reviewed_commander_set_linked_codes"]}
+    if len(updates) != review["new_source_backed_commander_release_codes"] or len(updates) != 12:
+        raise ValueError("Set-linked Commander source codes missing or repeated")
+    rows = []
+    seen = set()
+    for old in data["all_848_released_nondigital_other_type_records"]:
+        row = dict(old)
+        source = updates.get(row["code"])
+        if source:
+            if row["wizards_individual_source_review"]:
+                raise ValueError(f"Replacing earlier Commander review: {row['code']}")
+            if row["scryfall_set_type"] != source["scryfall_type"]:
+                raise ValueError(f"Set-linked Commander type drift: {row['code']}")
+            if row["parent_set_code_explicit_only"] != source["scryfall_explicit_parent_code_unchanged"]:
+                raise ValueError(f"Set-linked Commander parent drift: {row['code']}")
+            row.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_set_linked_commander_product_source_verified",
+                "wizards_primary_source": source["wizards_primary_url"],
+                "wizards_review_product_group": source["product_family_wizards_supported"],
+                "verified_evidence_note": source["wizards_source_note"],
+                "wizards_source_grade": source["evidence_grade"],
+                "wizards_code_explicitly_confirmed": False,
+                "wizards_premier_status_certified": False,
+                "exact_deck_printings_certified": False,
+                "new_card_count_certified": False,
+            })
+            seen.add(row["code"])
+        rows.append(row)
+    if seen != set(updates) or len(rows) != 848:
+        raise ValueError("Set-linked Commander source overlay lost a code")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = review["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = review["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in rows if r["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows) != 132:
+        raise ValueError("Set-linked Commander cumulative reviewed count is not 132")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -347,6 +401,9 @@ def load_current_index():
     if COMMANDER_SERIES_SOURCE_REVIEW.exists():
         report = json.loads(COMMANDER_SERIES_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_commander_series_source_overlay(data, report)
+    if COMMANDER_SET_LINKED_SOURCE_REVIEW.exists():
+        report = json.loads(COMMANDER_SET_LINKED_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_commander_set_linked_source_overlay(data, report)
     return data
 
 

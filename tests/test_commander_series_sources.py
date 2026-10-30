@@ -63,11 +63,15 @@ class HistoricalCommanderSourcesTests(unittest.TestCase):
     def test_previous_history_unchanged_and_live_lookup_120(self):
         self.assertEqual(self.previous["cumulative_family_source_backed_codes"], 111)
         current = load_current_index()
-        self.assertEqual(current["wizards_reviewed_examples"], 120)
-        self.assertEqual(len(select(current, only_pending=True)), 728)
-        self.assertEqual(len(select(current, cohort=A.COHORT, only_pending=True)), 61)
+        # The prior 120/728 checkpoint is exact in the static audit above.
+        # Current offline lookup may include additional additive source batches.
+        self.assertGreaterEqual(current["wizards_reviewed_examples"], 120)
+        self.assertLessEqual(len(select(current, only_pending=True)), 728)
+        self.assertLessEqual(len(select(current, cohort=A.COHORT, only_pending=True)), 61)
         self.assertTrue(select(current, code="c14")[0]["wizards_individual_source_review"])
-        self.assertFalse(select(current, code="c21")[0]["wizards_individual_source_review"])
+        # C21 was pending at this frozen batch, though later additive batches
+        # are allowed to source it in the live index.
+        self.assertIn("c21", {x["code"] for x in self.previous["remaining_source_pending_queue"]})
         self.assertFalse(select(current, code="evg")[0]["wizards_premier_status_certified"])
         self.assertEqual(len(current["all_848_released_nondigital_other_type_records"]), 848)
 

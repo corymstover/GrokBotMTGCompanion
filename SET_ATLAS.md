@@ -200,6 +200,14 @@ The [deterministic cumulative audit](data/set_atlas/commander_series_source_audi
 
 Replay: `python3 scripts/audit_commander_series_sources.py`; offline lookup: `python3 scripts/product_family_lookup.py --type commander --all`. No other-language card data was ingested; the Japanese pages serve strictly as primary product-family evidence.
 
+## Set-linked and starter Commander precons, fall 2020–2022
+
+The [twelve-source Wizards evidence ledger](data/set_atlas/commander_set_linked_sources_2020_2022.json) verifies 12 additional Scryfall `commander` records against individual Wizards product announcements or Commander decklist articles: `ZNC` Zendikar Rising; `KHC` Kaldheim; `C21` Commander 2021; `AFC` Forgotten Realms; `MIC` Midnight Hunt; `VOC` Crimson Vow; `NEC` Neon Dynasty; `NCC` New Capenna; `DMC` Dominaria United; `40K` Warhammer 40,000; `BRC` The Brothers' War; and `SCD` Starter Commander Decks. For example, Wizards directly details [two Zendikar Rising preconstructed decks](https://magic.wizards.com/en/news/card-preview/zendikar-rising-commander-decklists-2020-09-09), [the Commander (2021 Edition) decks](https://magic.wizards.com/en/news/announcements/commander-2021-edition-decklists-2021-04-05), [Warhammer 40,000 Commander decklists](https://magic.wizards.com/en/news/announcements/warhammer-40000-commander-decklists), and [five Starter Commander decks](https://magic.wizards.com/en/news/announcements/starter-commander-decks-available-december-2-2022-09-29).
+
+**Source boundary:** A Wizards decklist article supports the existence and type of the preconstructed product, but the page's interactive card images may show more recent Gatherer printings. Wizards itself cautions that interactive decklists are **not** exact card-printing displays. Therefore these sources do not independently certify the number of newly introduced designs, exact collector-number inventories, legality or that every code represents a single separately sold deck.
+
+The [reproducible cumulative report](data/set_atlas/commander_set_linked_source_audit_2026-10-29.json) adds these 12 sources on top of the earlier 120: **132 of 848** other-category paper Scryfall records now have first-party product-family evidence, with **716** source-pending overall and **49** boxed/preconstructed pending. The remaining `commander` type queue contains 19 newer 2023–2026 records, beginning with `ONC` and `MOC`. Use `python3 scripts/audit_commander_set_linked_sources.py` and `python3 scripts/product_family_lookup.py --type commander --only-pending --all` for offline verification.
+
 ## Read-only lookups
 
 On a checkout of this repository, no Scryfall download is needed for the following commands:
