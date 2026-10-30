@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "cutoff": "2026-10-29",
+  "parent_audit": "reprint_curated_source_audit_2026-10-29.json",
+  "scope": "15 Commander, Planechase, Archenemy and collection product codes, distinguishing main boxed products from card-component subsets, with exact Scryfall code mappings",
+  "source_policy": "The exact printed release product and content type is sourced to official Wizards pages. Scryfall set code, parent linkage and dates are independent catalog data; no claim Wizards printed each code or that a collection confers format legality.",
+  "records": [
+    {
+      "code": "arc",
+      "group": "archenemy_original_multi_deck_product",
+      "source_url": "https://magic.wizards.com/en/news/feature/archenemy-rules-revealed-2010-05-17",
+      "source_section": "Four Archenemy game packs each with a 60-card deck and separate 20-scheme deck",
+      "reason": "Wizards directly establishes the 2010 release as four preconstructed game packs, not booster sets.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "cc1",
+      "group": "commander_collection_green_eight_fixed_reprints",
+      "source_url": "https://magic.wizards.com/en/news/card-preview/commander-collection-green-packaging-and-contents-2020-08-22",
+      "source_section": "Commander Collection: Green Packaging and Contents",
+      "reason": "A fixed eight-card Commander reprint collection with regular and premium-foil editions, not a randomized booster.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "cc2",
+      "group": "commander_collection_black_eight_fixed_reprints",
+      "source_url": "https://magic.wizards.com/en/news/announcements/commander-collection-black-packaging-and-contents-2021-08-24",
+      "source_section": "Commander Collection: Black Packaging and Contents",
+      "reason": "A fixed eight-card Commander reprint collection with regular and premium-foil editions, not a randomized booster.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "cm1",
+      "group": "commanders_arsenal_special_fixed_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/making-magic/command-2012-10-25",
+      "source_section": "Commander's Arsenal contains 18 premium cards, ten oversized legends and accessories",
+      "reason": "Wizards details a curated set of premium Commander reprints, oversized cards and accessories, not a booster pack or new Commander deck.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "cm2",
+      "group": "commander_anthology_volume_two_four_reprinted_decks",
+      "source_url": "https://magic.wizards.com/en/news/announcements/commander-anthology-vol-ii-legends-and-decklists-2018-05-08",
+      "source_section": "Four decks: Devour for Power, Built from Scratch, Wade into Battle, Breed Lethality",
+      "reason": "Wizards names the four reprinted Commander decks included in Anthology Volume II, not a separate card-original booster release.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "cma",
+      "group": "commander_anthology_four_reprinted_decks",
+      "source_url": "https://magic.wizards.com/en/news/announcements/commander-anthology-vol-ii-legends-and-decklists-2018-05-08",
+      "source_section": "Commander Anthology Volume II, like its older sibling",
+      "reason": "Wizards explicitly calls the prior Commander Anthology a collection of previously released Commander decks, not a premier booster.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "e01",
+      "group": "archenemy_nicol_bolas_box",
+      "source_url": "https://magic.wizards.com/en/news/feature/archenemy-nicol-bolas-release-notes-2017-06-16",
+      "source_section": "General Notes / Release Information",
+      "reason": "Archenemy: Nicol Bolas is one box containing four 60-card decks and twenty oversized scheme cards; no standalone booster.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "hop",
+      "group": "planechase_2009_preconstructed_release",
+      "source_url": "https://magic.wizards.com/en/news/feature/what-is-planechase-and-why-is-it-awesome",
+      "source_section": "Original Planechase release, 2009",
+      "reason": "Wizards dates Planechase's original 2009 release and distinguishes its planar gameplay from traditional expansions.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "oarc",
+      "group": "archenemy_scheme_component",
+      "source_url": "https://magic.wizards.com/en/news/feature/archenemy-rules-revealed-2010-05-17",
+      "source_section": "Archenemy oversized scheme deck and scheme rules",
+      "reason": "Original Archenemy schemes are oversized gameplay cards packaged with the normal decks, not an additional independent set.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "oe01",
+      "group": "archenemy_nicol_bolas_scheme_component",
+      "source_url": "https://magic.wizards.com/en/news/feature/archenemy-nicol-bolas-release-notes-2017-06-16",
+      "source_section": "Scheme Your Way to Victory / 20 oversized scheme cards",
+      "reason": "The E01 scheme components are auxiliary oversized cards inside the 2017 Nicol Bolas box, not another product.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "ohop",
+      "group": "planechase_2009_planar_cards_component",
+      "source_url": "https://magic.wizards.com/en/news/feature/what-is-planechase-and-why-is-it-awesome",
+      "source_section": "Planes, planar decks and dice; original 2009 release",
+      "reason": "The oversized planar cards belong to the original Planechase release; they are not separate Magic booster products.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "opc2",
+      "group": "planechase_2012_planar_cards_component",
+      "source_url": "https://magic.wizards.com/en/news/card-image-gallery/card-image-gallery-2012-05-21",
+      "source_section": "Planes and Phenomena — Planechase 2012 card image gallery",
+      "reason": "Wizards directly inventories plane and phenomenon cards included in Planechase 2012; OPC2 is a Scryfall record for these oversized components.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "opca",
+      "group": "planechase_anthology_planar_cards_component",
+      "source_url": "https://magic.wizards.com/en/news/feature/planechase-anthology-celebration-magics-history-2016-11-14",
+      "source_section": "What's in the Box? — 78 plane cards and 8 phenomena",
+      "reason": "The 86 oversized planar cards are components of the Planechase Anthology box, not a new standalone randomized expansion.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "pc2",
+      "group": "planechase_2012_preconstructed_release",
+      "source_url": "https://magic.wizards.com/en/news/feature/planechase-anthology-celebration-magics-history-2016-11-14",
+      "source_section": "What's in the Box? — four decks from Planechase (2012 Edition)",
+      "reason": "Wizards confirms the four 60-card preconstructed decks of 2012 Planechase are a game product.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    },
+    {
+      "code": "pca",
+      "group": "planechase_anthology_preconstructed_reprint_box",
+      "source_url": "https://magic.wizards.com/en/news/feature/planechase-anthology-celebration-magics-history-2016-11-14",
+      "source_section": "What's in the Box?",
+      "reason": "Wizards identifies a boxed anthology of four existing Planechase 2012 decks with 86 oversized planar cards.",
+      "grade": "wizards_primary_family_scryfall_code_crosswalk"
+    }
+  ]
+}
