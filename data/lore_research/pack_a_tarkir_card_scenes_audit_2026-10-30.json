@@ -1,0 +1,142 @@
+{
+  "all_six_historical_identity_colors_fit_grixis": true,
+  "as_of": "2026-10-30",
+  "cards": [
+    {
+      "art_context_tier": "DIRECT_EVENT_SCENE_CAPTION",
+      "color_identity_at_oct15_index": "B",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "65",
+        "printing_id": "e1d45374-a41b-4b3f-a7c8-3eb5ca767cf6",
+        "released_at": "2015-01-23",
+        "set": "frf"
+      },
+      "historical_english_paper_printings": 6,
+      "limitation": "Explicitly captioned at a witnessed showdown, but no claim that each printing uses that art or that the illustration depicts all steps.",
+      "name": "Crux of Fate",
+      "oracle_id": "52a0dae4-2a95-487e-acd4-eabdb2d031e2",
+      "source_caption_artist": "Michael Komarck",
+      "source_ids": [
+        "reforged_chain"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Sorcery"
+    },
+    {
+      "art_context_tier": "OFFICIAL_STORY_DEVICE",
+      "color_identity_at_oct15_index": "C",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "227",
+        "printing_id": "94002868-a48a-4ea8-bfce-17257078f5db",
+        "released_at": "2014-09-26",
+        "set": "ktk"
+      },
+      "historical_english_paper_printings": 1,
+      "limitation": "Design calls it the story time-travel machine; no exact scene depiction is asserted.",
+      "name": "Ugin's Nexus",
+      "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
+      "source_caption_artist": "Sam Burley",
+      "source_ids": [
+        "nexus_design",
+        "chronicle_familiar"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Legendary Artifact"
+    },
+    {
+      "art_context_tier": "STORY_LOCATION_ART_CAPTION",
+      "color_identity_at_oct15_index": "C",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "167",
+        "printing_id": "6bf563e0-1f42-4768-a667-3e120bdb6534",
+        "released_at": "2015-01-23",
+        "set": "frf"
+      },
+      "historical_english_paper_printings": 3,
+      "limitation": "Caption appears at described canyon site, not the ancient duel.",
+      "name": "Crucible of the Spirit Dragon",
+      "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
+      "source_caption_artist": "Jung Park",
+      "source_ids": [
+        "chronicle_familiar"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Land"
+    },
+    {
+      "art_context_tier": "STORY_LOCATION_ART_CAPTION",
+      "color_identity_at_oct15_index": "C",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "245",
+        "printing_id": "eb6be7ab-8fad-4606-b623-f2188219d60b",
+        "released_at": "2014-09-26",
+        "set": "ktk"
+      },
+      "historical_english_paper_printings": 3,
+      "limitation": "The apparent tomb is a story location; artwork is not an exact timestamp of death.",
+      "name": "Tomb of the Spirit Dragon",
+      "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
+      "source_caption_artist": "Sam Burley",
+      "source_ids": [
+        "journey_nexus",
+        "chronicle_familiar"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Land"
+    },
+    {
+      "art_context_tier": "NAMED_CHARACTER_ART_IN_STORY",
+      "color_identity_at_oct15_index": "C",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "1",
+        "printing_id": "8cec48b8-58b2-4894-96e4-8477b83d4cf6",
+        "released_at": "2015-01-17",
+        "set": "ugin"
+      },
+      "historical_english_paper_printings": 10,
+      "limitation": "Character images in official stories, not a unique art-variant-to-printing ID match.",
+      "name": "Ugin, the Spirit Dragon",
+      "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
+      "source_caption_artist": "Raymond Swanland / Chris Rahn (different official story-captioned art)",
+      "source_ids": [
+        "reforged_chain",
+        "chronicle_familiar"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Legendary Planeswalker — Ugin"
+    },
+    {
+      "art_context_tier": "NAMED_CHARACTER_ART_IN_STORY",
+      "color_identity_at_oct15_index": "BRU",
+      "first_indexed_english_paper_printing": {
+        "collector_number": "120",
+        "printing_id": "48ee3939-bc12-4275-a446-9de36f0b4672",
+        "released_at": "2009-02-06",
+        "set": "con"
+      },
+      "historical_english_paper_printings": 7,
+      "limitation": "A character portrait accompanying the story, not proof the card image depicts the full fight.",
+      "name": "Nicol Bolas, Planeswalker",
+      "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+      "source_caption_artist": "D. Alexander Gregory",
+      "source_ids": [
+        "reforged_chain"
+      ],
+      "specific_artist_to_printing_id_match_proven": false,
+      "type_line_at_oct15_index": "Legendary Planeswalker — Bolas"
+    }
+  ],
+  "claims": 8,
+  "direct_event_scene_caption_cards": 1,
+  "entities": 7,
+  "graded_art_context_cards": 6,
+  "limitations": [
+    "The captioned art is tied to an official story webpage, not to a verified Scryfall image/artist record for each printing ID.",
+    "Only Crux of Fate is certified as a direct scene-context art caption here; character pictures and land locations have separate lower tiers.",
+    "Historical color identity is not present-day Oracle/Commander legality and is not a decklist approval.",
+    "A witness to the altered timeline is not proof that both mutually exclusive outcomes occurred in a single unchanged sequence."
+  ],
+  "primary_sources": 6,
+  "result": "OFFICIAL_STORY_SCENE_AND_HISTORICAL_NAME_JOIN_PASS",
+  "schema": 1
+}

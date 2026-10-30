@@ -1,0 +1,41 @@
+name: Phase 4 Pack A3 Tarkir official story-art and historical printing joins
+
+on:
+  pull_request:
+    paths:
+      - 'research/PACK_A3_Tarkir_Ugin_Bolas_Story_Card_Connections.md'
+      - 'data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json'
+      - 'data/lore_research/pack_a_tarkir_card_scenes_audit_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a_scenes.py'
+      - 'tests/test_lore_pack_a_scenes.py'
+      - '.github/workflows/phase4-pack-a-tarkir-art-scenes.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  push:
+    paths:
+      - 'research/PACK_A3_Tarkir_Ugin_Bolas_Story_Card_Connections.md'
+      - 'data/lore_research/pack_a_tarkir_card_scenes_2026-10-30.json'
+      - 'data/lore_research/pack_a_tarkir_card_scenes_audit_2026-10-30.json'
+      - 'scripts/audit_lore_pack_a_scenes.py'
+      - 'tests/test_lore_pack_a_scenes.py'
+      - '.github/workflows/phase4-pack-a-tarkir-art-scenes.yml'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+  workflow_dispatch:
+
+jobs:
+  exact-context-and-card-provenance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Retain earlier Pack A and Elder Dragon War provenance
+        run: |
+          python3 scripts/audit_lore_pack_a.py
+          python3 scripts/audit_lore_pack_a_extension.py
+      - name: Verify direct story art, lower context tiers and exact name-to-printing joins
+        run: python3 scripts/audit_lore_pack_a_scenes.py
+      - name: Run art-context and timeline non-conflation tests
+        run: python3 -m unittest discover -s tests -p 'test_lore_pack_a_scenes.py' -v
+      - name: Preserve completed qualified Phase 1B release
+        run: python3 scripts/audit_phase1b_functional_release.py
