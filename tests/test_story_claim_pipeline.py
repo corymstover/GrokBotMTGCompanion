@@ -54,6 +54,20 @@ class CommittedPacks(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
 
 
+    def test_page_keys_globally_unique(self):
+        # Page keys become graph source ids; a reused key naming another page breaks the graph build.
+        self.assertEqual(P.page_key_collisions(), [])
+
+    def test_page_key_collision_detected(self):
+        with tempfile.TemporaryDirectory() as d:
+            a, b = Path(d) / "a.spec.json", Path(d) / "b.spec.json"
+            a.write_text(json.dumps({"pack_id": "a", "pages": {"guide": "page-one"}}), encoding="utf-8")
+            b.write_text(json.dumps({"pack_id": "b", "pages": {"guide": "page-two"}}), encoding="utf-8")
+            self.assertEqual(len(P.page_key_collisions([a, b])), 1)
+            b.write_text(json.dumps({"pack_id": "b", "pages": {"guide": "page-one"}}), encoding="utf-8")
+            self.assertEqual(P.page_key_collisions([a, b]), [])
+
+
 class Gates(unittest.TestCase):
     def setUp(self):
         self.rows = P.primary_rows()

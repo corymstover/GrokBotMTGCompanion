@@ -42,6 +42,15 @@
   ],
   "pack_p5_edge_of_eternities_2026-10-30.json": [
    "eoe"
+  ],
+  "pack_p5_reality_fracture_2026-10-30.json": [
+   "fra"
+  ],
+  "pack_p5_wilds_of_eldraine_2026-10-30.json": [
+   "woe"
+  ],
+  "pack_p5_murders_at_karlov_manor_2026-10-30.json": [
+   "mkm"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -11788,6 +11797,1436 @@
    "story_set_printings": [
     "eoe"
    ]
+  },
+  {
+   "claim": "RF001",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF002",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "the_theorist",
+   "card": "The Theorist, Jace Beleren",
+   "oracle_id": "89a6e876-0b00-4671-9652-766fd7ef9bf2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF002",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF003",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF003",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF003",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF003",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF004",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "the_theorist",
+   "card": "The Theorist, Jace Beleren",
+   "oracle_id": "89a6e876-0b00-4671-9652-766fd7ef9bf2",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF005",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF006",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF007",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF007",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF007",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF007",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF008",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF009",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF009",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF009",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF009",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF010",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF011",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF012",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF012",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "RF012",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "fra"
+   ]
+  },
+  {
+   "claim": "RF013",
+   "pack": "pack_p5_reality_fracture_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE001",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "talion",
+   "card": "Talion, the Kindly Lord",
+   "oracle_id": "a019e34d-00c4-4687-9d41-fe550bf1dbdc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE002",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "talion",
+   "card": "Talion, the Kindly Lord",
+   "oracle_id": "a019e34d-00c4-4687-9d41-fe550bf1dbdc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE004",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette of the Charmed Apple",
+   "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE004",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette, the Beguiler",
+   "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE005",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE005",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette of the Charmed Apple",
+   "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE005",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette, the Beguiler",
+   "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette of the Charmed Apple",
+   "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE006",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette, the Beguiler",
+   "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE007",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Dream Render",
+   "oracle_id": "93723b12-db34-4047-885e-8606415b1553",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Muse",
+   "oracle_id": "ebc9ff52-c914-4c48-9d35-0e4cd07741cb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Nightmare Weaver",
+   "oracle_id": "b6f52260-9ad5-4024-acf9-d77f3c08c872",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Sculptor of Fears",
+   "oracle_id": "ce79bbd2-edf0-4d5e-9aaf-717ec3960c48",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ashiok",
+   "card": "Ashiok, Wicked Manipulator",
+   "oracle_id": "67d66678-a8e6-4f80-bade-1f1daf4b0610",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette of the Charmed Apple",
+   "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE008",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette, the Beguiler",
+   "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+   "oracle_id": "a0c956dc-d7de-4f11-b76f-7537fbee1731",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, Thief of Crowns",
+   "oracle_id": "60c60923-ff1b-43f7-8768-731499fcffc9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Ringleader",
+   "oracle_id": "4372b729-dc3d-4469-8fc5-811cc787d653",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "oko",
+   "card": "Oko, the Trickster",
+   "oracle_id": "f4bf8bd1-71b0-4eb1-976c-54677238b2a6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE009",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE010",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE010",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE010",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE010",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE010",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE011",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ruby",
+   "card": "Ruby, Daring Tracker",
+   "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE011",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "peter",
+   "card": "Peter Parker // Amazing Spider-Man",
+   "oracle_id": "f1b7488c-c675-42e9-818a-24a50347ec2c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "ruby",
+   "card": "Ruby, Daring Tracker",
+   "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE012",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE013",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "hylda",
+   "card": "Hylda of the Icy Crown",
+   "oracle_id": "1733c71b-fd28-48dd-8a3d-41afd4b22f0e",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE013",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette of the Charmed Apple",
+   "oracle_id": "f43f5855-f297-4433-984b-18263b734cfc",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "woe"
+   ]
+  },
+  {
+   "claim": "WE013",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "eriette",
+   "card": "Eriette, the Beguiler",
+   "oracle_id": "710a3499-64f8-4d2c-8c9c-d58950e47ea7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE014",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "will_kenrith",
+   "card": "Will Kenrith",
+   "oracle_id": "20dbfc9a-172e-4065-bfde-d40de3131787",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "WE014",
+   "pack": "pack_p5_wilds_of_eldraine_2026-10-30.json",
+   "participant": "rowan_kenrith",
+   "card": "Rowan Kenrith",
+   "oracle_id": "e191976c-6ab1-4a23-aeb8-8a88bd4bd203",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK001",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "teysa_karlov",
+   "card": "Teysa Karlov",
+   "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK002",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani Discordant",
+   "oracle_id": "9a2fdc0e-e0de-47fc-95e4-04e725ddf060",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK002",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani, Selesnya's Voice",
+   "oracle_id": "e94ef397-f5c5-4b8d-ae27-528352fa1d1e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK002",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "trostani",
+   "card": "Trostani, Three Whispers",
+   "oracle_id": "5c90b951-826e-4595-aacc-958904f3f794",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK003",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "zegana",
+   "card": "Zegana, Utopian Speaker",
+   "oracle_id": "04260930-ff38-4b35-9ec4-e89196a4f2c7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK005",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, Deadly Fugitive",
+   "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, the Silencer",
+   "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya the Inexorable",
+   "oracle_id": "13a4f88b-6832-43a1-b4fa-c1ee60560bad",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Bane of the Dead",
+   "oracle_id": "29d58aa4-9a7e-4052-9b0d-fc282f1be40e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Geist Hunter",
+   "oracle_id": "e0edb2fc-2533-407c-85e5-4337f4233f05",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Intangible Slayer",
+   "oracle_id": "9260ae3d-59bf-4e46-a13e-930754c3f0d2",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Orzhov Usurper",
+   "oracle_id": "7dd4a1a1-d5f4-4ac7-a9f6-34af411f070b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK006",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kaya",
+   "card": "Kaya, Spirits' Justice",
+   "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK007",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, Deadly Fugitive",
+   "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK007",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, the Silencer",
+   "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK008",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, Deadly Fugitive",
+   "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK008",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "etrata",
+   "card": "Etrata, the Silencer",
+   "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK008",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "alquist_proft",
+   "card": "Alquist Proft, Master Sleuth",
+   "oracle_id": "dd79a994-7dad-49d4-8d8f-62dbedde4a38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK009",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "teysa_karlov",
+   "card": "Teysa Karlov",
+   "oracle_id": "644eeefd-e684-4ca8-8aef-a892ca130c07",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK010",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "alquist_proft",
+   "card": "Alquist Proft, Master Sleuth",
+   "oracle_id": "dd79a994-7dad-49d4-8d8f-62dbedde4a38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK011",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Daring Traveler // Journey On",
+   "oracle_id": "7af69a44-e958-42e5-9d65-75e53a601e96",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK011",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Inquisitive Prodigy // Tail the Suspect",
+   "oracle_id": "2f2d75a0-d751-4c74-b357-8f92a992447f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK011",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, Planar Trailblazer",
+   "oracle_id": "e8fd428f-7521-4e6a-86b7-835f20ee3c5c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK011",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Fae-Blooded // Birthright Boon",
+   "oracle_id": "10c48d19-d91f-4674-b186-477acaf08e5a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK011",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "kellan",
+   "card": "Kellan, the Kid",
+   "oracle_id": "afacc200-16ff-40f3-9d43-268438131d24",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, Exemplar of Justice",
+   "oracle_id": "2e1e0385-1537-4cb6-9d24-e4593d9a8f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, the Law Above",
+   "oracle_id": "2a800427-ff8c-4b3c-baee-85211b70656d",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "aurelia",
+   "card": "Aurelia, the Warleader",
+   "oracle_id": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "massacre_girl",
+   "card": "Massacre Girl",
+   "oracle_id": "63e6cb7d-cc27-4200-85fc-ff6472318c1a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "massacre_girl",
+   "card": "Massacre Girl, Known Killer",
+   "oracle_id": "ccb39f4a-2684-4eb7-9066-aad81ae08962",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK012",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "massacre_girl",
+   "card": "Massacre Girl, Most Wanted",
+   "oracle_id": "81f35914-73bf-429f-ba20-32e23ac30159",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK013",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "izoni",
+   "card": "Izoni, Center of the Web",
+   "oracle_id": "8074afbf-190b-4a24-b939-cc559bdffe38",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "mkm"
+   ]
+  },
+  {
+   "claim": "MK013",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "izoni",
+   "card": "Izoni, Thousand-Eyed",
+   "oracle_id": "5a210b32-6e1f-4578-bd8b-4e481b761159",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska the Unseen",
+   "oracle_id": "0d2bbce0-8c27-4b82-ab62-51a0c3cfc9b0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Betrayal's Sting",
+   "oracle_id": "05d09c55-f551-4cb4-a8d2-4811dccc848d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Golgari Queen",
+   "oracle_id": "131096a3-2d53-4ec2-96d3-fcb58e698a13",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Regal Gorgon",
+   "oracle_id": "7616e834-4852-40c8-9de6-d89f96119f12",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Relic Seeker",
+   "oracle_id": "3c037103-5af0-40a8-bbbe-7f3f5958b6e9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Scheming Gorgon",
+   "oracle_id": "83045a9c-57da-411f-80aa-56178d14856b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Soul of Stone",
+   "oracle_id": "cad63b31-667b-4518-bc49-be4ffb82bc63",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, Swarm's Eminence",
+   "oracle_id": "cff8b4e9-c60c-42c1-ad2e-74ae9d7f3afb",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Cutting Glare",
+   "oracle_id": "580de511-863c-4b7a-9d2e-fcdf6e12d54b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "MK014",
+   "pack": "pack_p5_murders_at_karlov_manor_2026-10-30.json",
+   "participant": "vraska",
+   "card": "Vraska, the Silencer",
+   "oracle_id": "e7c5a568-3855-4a20-9edf-01a8a6a4ba97",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -11896,21 +13335,42 @@
    "PRINTED_IN_STORY_SET": 14,
    "NAMED_PARTICIPANT": 42
   },
+  "pack_p5_murders_at_karlov_manor_2026-10-30.json": {
+   "claims": 14,
+   "claims_anchored": 13,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 12,
+   "NAMED_PARTICIPANT": 39
+  },
+  "pack_p5_reality_fracture_2026-10-30.json": {
+   "claims": 13,
+   "claims_anchored": 13,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 13,
+   "NAMED_PARTICIPANT": 40
+  },
   "pack_p5_streets_of_new_capenna_2026-10-30.json": {
    "claims": 16,
    "claims_anchored": 13,
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 10,
    "NAMED_PARTICIPANT": 46
+  },
+  "pack_p5_wilds_of_eldraine_2026-10-30.json": {
+   "claims": 14,
+   "claims_anchored": 13,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 17,
+   "NAMED_PARTICIPANT": 42
   }
  },
  "counts": {
-  "claims": 288,
-  "claims_anchored": 257,
-  "anchors": 1394,
+  "claims": 329,
+  "claims_anchored": 296,
+  "anchors": 1557,
   "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 164,
-  "NAMED_PARTICIPANT": 1199
+  "PRINTED_IN_STORY_SET": 206,
+  "NAMED_PARTICIPANT": 1320
  },
- "content_sha256": "b89cb4be5fed85908f08c42b6aa4ea4aac68590d0e1ff99cdbc83c1b313b59b6"
+ "content_sha256": "e56f7e2d73fd7b1f49e7e55d9ac7de7c2459acf49235f44db4e1bc120415da2e"
 }

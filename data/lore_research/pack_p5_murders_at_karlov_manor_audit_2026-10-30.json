@@ -1,0 +1,158 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_murders_at_karlov_manor_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "MKM",
+ "claims": 14,
+ "entities": 17,
+ "sources": 10,
+ "grades": {
+  "CANON_CONFIRMED": 10,
+  "CANON_IMPLIED": 4
+ },
+ "quotes": 23,
+ "quotes_verbatim": 23,
+ "quote_rows": [
+  {
+   "claim": "MK001",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "bc29c9f39de53a57edef8671ff8a5d2b24be40fbe1414db175991512afd01b1b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK001",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "59569166a5afbfe6e6f75aa6e7e5b5a8ca015d243be1a25a4d81666f19e94377",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK001",
+   "source_id": "mkm_ep4",
+   "quote_sha256": "263805ad5f2cda483857a261800752c578478b79c91d51e8ebc6d42180f46a02",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK002",
+   "source_id": "mkm_ep5",
+   "quote_sha256": "59dc76234c97cb93adeccb7352b67f16a68424b41460d923a983f29624d21976",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK002",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "6225624e91a5c2a303940be24103508283a57fa615ff2055022226a5e44062f3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK003",
+   "source_id": "mkm_ep5",
+   "quote_sha256": "197771164cc084a1094a07b3e2d6ad9e094cb5096736f4c11841234824334b4f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK003",
+   "source_id": "mkm_ep9",
+   "quote_sha256": "dceb37a20fabf35cded3e4d47bb906816f7f795f6b120c848c66b6d8a7e8aad6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK004",
+   "source_id": "mkm_ep9",
+   "quote_sha256": "f08ae57379b4d1650eca818c36e81dd130fd1448e5d0766a1c85f43b2c5d5efe",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK004",
+   "source_id": "mkm_ep9",
+   "quote_sha256": "05b3370d8814aeee2968743f8750502596c45f015cbc0722582a9b9d0b338b9f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK005",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "d4884b00f54c92d5569506be85a850768476e9a4658ab0ebc42c77a83a94c8a8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK005",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "bc94844bc777904767e48e29b752ad67405c0f695c0c4cbc95148e4fa858db60",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK006",
+   "source_id": "mkm_ep10",
+   "quote_sha256": "b82dad8dc9e4f52b4d23d48fa334f3837b1b8af23b5df2165dfe12ced4df90f3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK007",
+   "source_id": "mkm_ep3",
+   "quote_sha256": "2f47d17507b598c0fe9e6102637cf6fc8ca950c0b23f7e1373b978664bc4d7b9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK008",
+   "source_id": "mkm_ep5",
+   "quote_sha256": "197771164cc084a1094a07b3e2d6ad9e094cb5096736f4c11841234824334b4f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK008",
+   "source_id": "mkm_ep9",
+   "quote_sha256": "7fae19655252b19a99c617947a781d9fbad11ee9771dac73427d27c549d227d2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK009",
+   "source_id": "mkm_ep1",
+   "quote_sha256": "df34f1a7a60df11d991f3d5cc57c64860e827d07556baa1ff8f9de6d150be948",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK010",
+   "source_id": "mkm_ep3",
+   "quote_sha256": "5493a822045bee37d9c1f8b27f84850bb3a0f72d0ce0d212324ec2218d8b6bfc",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK011",
+   "source_id": "mkm_ep4",
+   "quote_sha256": "7ef9deda355b4c1f65740a21c2af5c2147da155c58db1706aba5b3e808737d1f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK012",
+   "source_id": "mkm_ep6",
+   "quote_sha256": "e5d4df52136062e2da5bd2209c28fd62043604993ce1627056b1a02f0710db14",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK012",
+   "source_id": "mkm_ep8",
+   "quote_sha256": "c9a6df4d69ae7bb7081fa0811891712cf74360b8e7abe729857a76e60a6421b5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK013",
+   "source_id": "mkm_ep8",
+   "quote_sha256": "09e031fc429e36983f1bb2c927f278a14972f6a8c3fa36a5ef2adf3dd761e688",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK013",
+   "source_id": "mkm_ep7",
+   "quote_sha256": "f879c192dd8c57cfed50058f6a761b1c2acaf10e86b6880b6ea82b7e1519701b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MK014",
+   "source_id": "mkm_guide",
+   "quote_sha256": "a26c287f3f5695e26477bb76bc40592998d9d2e0eda2db49f6fd02cac382525e",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "5ce978358c50dd4e4ef4afef344b617f51167e93b0aa6bcf0de4e1f108c369e2"
+}

@@ -4,7 +4,7 @@
  "evidence_cutoff": "2026-10-30",
  "status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
  "arc": "RF",
- "scope": "Targeted Phase 5 extraction from the official Reality Fracture Magic Story episodes (2026-08-31 to 2026-09-10), the Planeswalker's Guide to Reality Fracture and The Legends of Reality Fracture. PRELIMINARY_RESEARCH; not owner approved.",
+ "scope": "Targeted Phase 5 extraction from the official Reality Fracture Magic Story episodes, the Planeswalker's Guide to Reality Fracture and The Legends of Reality Fracture. PRELIMINARY_RESEARCH; not owner approved.",
  "built_by": "scripts/story_claim_pipeline.py from data/lore_research/claim_specs/pack_p5_reality_fracture.spec.json",
  "source_register": {
   "rf_legends": {
@@ -56,7 +56,7 @@
   },
   {
    "id": "echoverse",
-   "type": "Concept",
+   "type": "AlternateContinuity",
    "name": "The Echoverse"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
    "id": "meditation_realm",
-   "type": "Place",
+   "type": "Plane",
    "name": "The Meditation Realm"
   },
   {
@@ -249,7 +249,7 @@
   {
    "id": "RF007",
    "subject": "tam",
-   "predicate": "spark_ignited",
+   "predicate": "inherited_spark_of",
    "object": "jace_beleren",
    "grade": "CANON_CONFIRMED",
    "event_stage": "rf_climax_2026",
@@ -270,8 +270,8 @@
      "quote": "She reaches for the part of herself that has always known how and planeswalks home to her friends, to Strixhaven."
     }
    ],
-   "summary": "Jace's spark leaves his body and enters Tam, who inherits it as his fail-safe and becomes a planeswalker.",
-   "limitation": "Object is the spark's source (Jace); relation spark_ignited here means Tam's spark came from Jace."
+   "summary": "Jace's spark leaves his body and enters Tam, who inherits it and planeswalks.",
+   "limitation": "Jace says he made Tam so she could inherit his spark; the spark is delivered via his dying message."
   },
   {
    "id": "RF008",

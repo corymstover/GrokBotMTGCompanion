@@ -1,0 +1,353 @@
+{
+ "pack_id": "pack_p5_murders_at_karlov_manor",
+ "arc": "MKM",
+ "event_stage": "ravnica_mkm_2024",
+ "scope": "Targeted Phase 5 extraction from the ten official Murders at Karlov Manor Magic Story episodes (2023-12-05 to 2024-01-18) and the Planeswalker's Guide to Murders at Karlov Manor. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "mkm_ep1": "episode-1-ghosts-of-our-past",
+  "mkm_ep3": "episode-3-shadows-of-regret",
+  "mkm_ep4": "episode-4-justice-before-mercy",
+  "mkm_ep5": "episode-5-chains-of-expectation",
+  "mkm_ep6": "episode-6-explosions-of-genius",
+  "mkm_ep7": "episode-7-rot-before-recovery",
+  "mkm_ep8": "episode-8-gods-of-chaos",
+  "mkm_ep9": "episode-9-beauty-in-destruction",
+  "mkm_ep10": "episode-10-roots-of-decay",
+  "mkm_guide": "planeswalkers-guide-to-murders-at-karlov-manor"
+ },
+ "entities": [
+  {
+   "id": "oba",
+   "type": "Character",
+   "name": "Oba, the dryad of life (a face of Trostani)"
+  },
+  {
+   "id": "trostani",
+   "type": "Character",
+   "name": "Trostani"
+  },
+  {
+   "id": "teysa_karlov",
+   "type": "Character",
+   "name": "Teysa Karlov"
+  },
+  {
+   "id": "zegana",
+   "type": "Character",
+   "name": "Zegana"
+  },
+  {
+   "id": "kaya",
+   "type": "Character",
+   "name": "Kaya"
+  },
+  {
+   "id": "etrata",
+   "type": "Character",
+   "name": "Etrata"
+  },
+  {
+   "id": "alquist_proft",
+   "type": "Character",
+   "name": "Alquist Proft"
+  },
+  {
+   "id": "kellan",
+   "type": "Character",
+   "name": "Kellan"
+  },
+  {
+   "id": "izoni",
+   "type": "Character",
+   "name": "Izoni"
+  },
+  {
+   "id": "massacre_girl",
+   "type": "Character",
+   "name": "Massacre Girl"
+  },
+  {
+   "id": "aurelia",
+   "type": "Character",
+   "name": "Aurelia"
+  },
+  {
+   "id": "vraska",
+   "type": "Character",
+   "name": "Vraska"
+  },
+  {
+   "id": "orzhov_syndicate",
+   "type": "Faction",
+   "name": "Orzhov Syndicate"
+  },
+  {
+   "id": "golgari_swarm",
+   "type": "Faction",
+   "name": "Golgari Swarm"
+  },
+  {
+   "id": "agency",
+   "type": "Faction",
+   "name": "Ravnica Agency of Magical Investigation"
+  },
+  {
+   "id": "azorius_senate",
+   "type": "Faction",
+   "name": "Azorius Senate"
+  },
+  {
+   "id": "guilds_of_ravnica",
+   "type": "Faction",
+   "name": "The guilds of Ravnica"
+  }
+ ],
+ "claims": [
+  {
+   "id": "MK001",
+   "subject": "oba",
+   "predicate": "killed",
+   "object": "teysa_karlov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep10",
+     "quote": "But this face of Trostani was responsible for Teysa's death, and so she didn't think a single look of shock was going to slow her down once she finally got free."
+    },
+    {
+     "page": "mkm_ep10",
+     "quote": "Murdered by a grief-poisoned Trostani who had been unable to tell friend from foe in the aftermath of the invasion."
+    },
+    {
+     "page": "mkm_ep4",
+     "quote": "Kaya circled the desk to Teysa's side, not letting herself touch the body again."
+    }
+   ],
+   "summary": "Teysa Karlov is murdered; the culprit is Oba, the dryad face of Trostani.",
+   "event_stage": "mkm_reveal_2024"
+  },
+  {
+   "id": "MK002",
+   "subject": "oba",
+   "predicate": "identified_with",
+   "object": "trostani",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep5",
+     "quote": "\"Like all the deaths while you were gone?\" asked Oba, the dryad of life."
+    },
+    {
+     "page": "mkm_ep10",
+     "quote": "But this face of Trostani was responsible for Teysa's death"
+    }
+   ],
+   "summary": "Oba is one of the three dryad faces of Trostani (with Cim and Ses)."
+  },
+  {
+   "id": "MK003",
+   "subject": "oba",
+   "predicate": "killed",
+   "object": "zegana",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mkm_ep5",
+     "quote": "\"I'm helping him find out who really killed Zegana.\""
+    },
+    {
+     "page": "mkm_ep9",
+     "quote": "\"I know she was responsible. What I'm still missing is a large portion of the why."
+    }
+   ],
+   "summary": "Proft's investigation into Zegana's murder ends in Oba's unmasking as the killer of guild leaders.",
+   "limitation": "The cited quotes do not name Zegana and Oba in the same sentence; attribution comes from the investigation arc."
+  },
+  {
+   "id": "MK004",
+   "subject": "oba",
+   "predicate": "opposed",
+   "object": "guilds_of_ravnica",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mkm_ep9",
+     "quote": "\"Because they deserved it,\" snapped Oba, facade of calm finally shattering."
+    },
+    {
+     "page": "mkm_ep9",
+     "quote": "\"They failed Ravnica in its time of greatest need,\" continued Oba."
+    }
+   ],
+   "summary": "Oba says she targeted the guild leaders because they failed Ravnica and Mat'Selesnya during the invasion.",
+   "limitation": "Oba's own justification in dialogue.",
+   "event_stage": "mkm_reveal_2024"
+  },
+  {
+   "id": "MK005",
+   "subject": "kaya",
+   "predicate": "defeated",
+   "object": "oba",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep10",
+     "quote": "Together, Etrata and Kaya pulled the ribbons tighter and tighter—until they slipped out of Kaya's hands."
+    },
+    {
+     "page": "mkm_ep10",
+     "quote": "Snapping the newly flexible branch around, she whipped it into the mass of cords, using it to catch and confine the struggling dryad."
+    }
+   ],
+   "summary": "Kaya and Etrata bind Oba in Agency barrier wards at Vitu-Ghazi.",
+   "event_stage": "mkm_climax_2024"
+  },
+  {
+   "id": "MK006",
+   "subject": "etrata",
+   "predicate": "allied_with",
+   "object": "kaya",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep10",
+     "quote": "The Dimir assassin, who had been lying motionless since she was impaled and had not been entwined by any of the roots that seized her allies, rolled onto her knees"
+    }
+   ],
+   "summary": "Etrata, wounded, rises to help Kaya bind Oba.",
+   "event_stage": "mkm_climax_2024"
+  },
+  {
+   "id": "MK007",
+   "subject": "azorius_senate",
+   "predicate": "captured",
+   "object": "etrata",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep3",
+     "quote": "But when the Azorius mages who had grabbed Etrata marched her to the gate and pulled her out, nothing stopped them"
+    }
+   ],
+   "summary": "Azorius mages take Etrata into custody after the murder at Karlov Manor."
+  },
+  {
+   "id": "MK008",
+   "subject": "etrata",
+   "predicate": "allied_with",
+   "object": "alquist_proft",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mkm_ep5",
+     "quote": "\"I'm helping him find out who really killed Zegana.\""
+    },
+    {
+     "page": "mkm_ep9",
+     "quote": "\"Please. Like I'm going to let you get yourself slaughtered now, after I've worked so hard to keep you alive."
+    }
+   ],
+   "summary": "Etrata helps Proft find Zegana's real killer.",
+   "limitation": "Stated in Etrata's dialogue."
+  },
+  {
+   "id": "MK009",
+   "subject": "teysa_karlov",
+   "predicate": "leader_of",
+   "object": "orzhov_syndicate",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep1",
+     "quote": "Teysa, newest head of the Syndicate, stood on the manor's highest balcony"
+    }
+   ],
+   "summary": "Teysa Karlov is the newest head of the Orzhov Syndicate."
+  },
+  {
+   "id": "MK010",
+   "subject": "alquist_proft",
+   "predicate": "joined",
+   "object": "agency",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep3",
+     "quote": "Proft had been their asset before he chose to go off and ply his talents with the Agency"
+    }
+   ],
+   "summary": "Alquist Proft works with the Agency."
+  },
+  {
+   "id": "MK011",
+   "subject": "kellan",
+   "predicate": "joined",
+   "object": "agency",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep4",
+     "quote": "Kellan, the agent who had helped catch Etrata during the party."
+    }
+   ],
+   "summary": "Kellan is an Agency agent at Karlov Manor."
+  },
+  {
+   "id": "MK012",
+   "subject": "aurelia",
+   "predicate": "captured",
+   "object": "massacre_girl",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_ep6",
+     "quote": "Kaya and Kellan were gaping at him when the door slammed open and Aurelia appeared, dragging a thrashing woman in Rakdos colors by the hair."
+    },
+    {
+     "page": "mkm_ep8",
+     "quote": "The chain connecting her to Massacre Girl—the captive who she had insisted on bringing"
+    }
+   ],
+   "summary": "Aurelia captures Massacre Girl and keeps her chained as a captive."
+  },
+  {
+   "id": "MK013",
+   "subject": "izoni",
+   "predicate": "joined",
+   "object": "golgari_swarm",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "mkm_ep8",
+     "quote": "Izoni of the Golgari examined it on my behalf, and she was able to verify that while it is natural in origin"
+    },
+    {
+     "page": "mkm_ep7",
+     "quote": "No one rose as high in their guild as Izoni had without some degree of pride."
+    }
+   ],
+   "summary": "Izoni is a high-ranking member of the Golgari who analyzes the poison evidence for Proft.",
+   "limitation": "Guild named only in dialogue; predicate 'joined' records membership, not a joining event."
+  },
+  {
+   "id": "MK014",
+   "subject": "vraska",
+   "predicate": "disappeared_after",
+   "object": "golgari_swarm",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "mkm_guide",
+     "quote": "The previous guildmaster, Vraska, disappeared after the invasion ended and hasn't been seen since."
+    }
+   ],
+   "summary": "The guide says the Golgari's previous guildmaster, Vraska, disappeared after the invasion.",
+   "limitation": "Object is the guild she left; she disappeared after the Phyrexian invasion."
+  }
+ ],
+ "remaining": [
+  "Episode 2 (Zegana's body) is not separately cited",
+  "Lazav's status remains unresolved and is not graded",
+  "Krenko and the other guild leaders at the Vitu-Ghazi meeting are not modelled"
+ ]
+}
