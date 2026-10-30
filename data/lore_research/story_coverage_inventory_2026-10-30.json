@@ -33,18 +33,20 @@
    "data/lore_research/pack_p5_theros_beyond_death_2026-10-30.json",
    "data/lore_research/pack_p5_theros_ths_2026-10-30.json",
    "data/lore_research/pack_p5_mom_aftermath_2026-10-30.json",
-   "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json"
+   "data/lore_research/pack_p5_throne_of_eldraine_2026-10-30.json",
+   "data/lore_research/pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "data/lore_research/pack_p5_shadows_eldritch_moon_2026-10-30.json"
   ]
  },
  "meaning": "cited = a claim pack quotes or cites the page at least once; it does not mean the page was read exhaustively",
  "totals": {
   "arcs": 33,
   "pages": 626,
-  "cited_pages": 188,
-  "arcs_not_started": 1,
-  "arcs_partial": 25,
+  "cited_pages": 195,
+  "arcs_not_started": 0,
+  "arcs_partial": 26,
   "arcs_all_cited": 7,
-  "claims": 475,
+  "claims": 501,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -78,7 +80,9 @@
   "pack_p5_theros_beyond_death_2026-10-30.json": 14,
   "pack_p5_theros_ths_2026-10-30.json": 20,
   "pack_p5_mom_aftermath_2026-10-30.json": 12,
-  "pack_p5_throne_of_eldraine_2026-10-30.json": 11
+  "pack_p5_throne_of_eldraine_2026-10-30.json": 11,
+  "pack_p5_secrets_of_strixhaven_2026-10-30.json": 17,
+  "pack_p5_shadows_eldritch_moon_2026-10-30.json": 9
  },
  "arcs": [
   {
@@ -525,29 +529,26 @@
   {
    "arc": "SOI/EMN",
    "pages": 21,
-   "cited_pages": 1,
+   "cited_pages": 5,
    "kinds": {
     "story": 21
    },
    "citing_packs": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_p5_shadows_eldritch_moon_2026-10-30.json"
    ],
    "status": "PARTIAL",
    "uncited_urls": [
     "https://magic.wizards.com/en/news/magic-story/archmage-goldnight-2016-06-08",
     "https://magic.wizards.com/en/news/magic-story/battle-thraben-2016-07-20",
-    "https://magic.wizards.com/en/news/magic-story/campaign-vengeance-2016-07-06",
     "https://magic.wizards.com/en/news/magic-story/drownyard-temple-2016-04-06",
     "https://magic.wizards.com/en/news/magic-story/emrakul-rises",
     "https://magic.wizards.com/en/news/magic-story/games-2016-04-27",
     "https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09",
-    "https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18",
-    "https://magic.wizards.com/en/news/magic-story/innistrads-last-hope-2016-06-29",
     "https://magic.wizards.com/en/news/magic-story/lilianas-indignation-2016-04-20",
     "https://magic.wizards.com/en/news/magic-story/lunarch-inquisition-2016-05-04",
     "https://magic.wizards.com/en/news/magic-story/mystery-markov-manor-2016-03-30",
     "https://magic.wizards.com/en/news/magic-story/prodigal-sorcerers-2016-05-25",
-    "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27",
     "https://magic.wizards.com/en/news/magic-story/promises-old-and-new-2016-04-13",
     "https://magic.wizards.com/en/news/magic-story/sacrifice-2016-03-23",
     "https://magic.wizards.com/en/news/magic-story/saint-traft-and-flight-nightmares-2016-07-13",
@@ -559,15 +560,16 @@
   {
    "arc": "SOS",
    "pages": 14,
-   "cited_pages": 0,
+   "cited_pages": 3,
    "kinds": {
     "planeswalkers-guide": 1,
     "story": 13
    },
-   "citing_packs": [],
-   "status": "NOT_STARTED",
+   "citing_packs": [
+    "pack_p5_secrets_of_strixhaven_2026-10-30.json"
+   ],
+   "status": "PARTIAL",
    "uncited_urls": [
-    "https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-a-living-flame",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-down-to-the-lake-alone",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-1-penmanship-practice",
@@ -575,12 +577,10 @@
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-3-asunder",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-4-something-to-offer",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-5-breaking-point",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-off-the-record",
     "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-the-math-of-more",
-    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season",
-    "https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven"
+    "https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-winnowing-season"
    ]
   },
   {
@@ -1006,5 +1006,5 @@
    ]
   }
  ],
- "sha256": "700c06ec17563d2e4b42b01b49c2c6df509d5bb8db11a73828d96b45102df7e6"
+ "sha256": "0008610f6ea37c2d652006b261935821d11713f47bb052c02ffb901516f631d0"
 }

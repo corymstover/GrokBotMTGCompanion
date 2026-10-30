@@ -89,6 +89,13 @@
   ],
   "pack_p5_throne_of_eldraine_2026-10-30.json": [
    "eld"
+  ],
+  "pack_p5_secrets_of_strixhaven_2026-10-30.json": [
+   "sos"
+  ],
+  "pack_p5_shadows_eldritch_moon_2026-10-30.json": [
+   "soi",
+   "emn"
   ]
  },
  "rule": "Each claim participant with a card-name anchor contributes its cards. Tier ART_IN_CITED_SOURCE: the card's art is credited by exact name on an official page the claim cites. PRINTED_IN_STORY_SET: a paper printing in the set whose main-story episodes the pack covers. NAMED_PARTICIPANT: otherwise. An anchor never asserts that the card depicts the claimed event and never changes a claim grade.",
@@ -17644,6 +17651,651 @@
    "story_set_printings": [
     "eld"
    ]
+  },
+  {
+   "claim": "SS001",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "shadrix_silverquill",
+   "card": "Shadrix Silverquill",
+   "oracle_id": "2143f413-7baa-4fd6-a7ca-32f52bfa553f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS002",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "augusta_sos",
+   "card": "Augusta, Order Returned",
+   "oracle_id": "a80a1f84-ea49-4c8d-912d-c7036b814a6c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS003",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "augusta_sos",
+   "card": "Augusta, Order Returned",
+   "oracle_id": "a80a1f84-ea49-4c8d-912d-c7036b814a6c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS004",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "nev",
+   "card": "Nev, the Practical Dean",
+   "oracle_id": "42750e30-d022-4623-a290-d91fa80721c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS005",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "nev",
+   "card": "Nev, the Practical Dean",
+   "oracle_id": "42750e30-d022-4623-a290-d91fa80721c9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS007",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "moseo",
+   "card": "Moseo, Vein's New Dean",
+   "oracle_id": "c2e2f21a-0338-44d7-96a5-5a277f0ec419",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "primo",
+   "card": "Primo, the Unbounded",
+   "oracle_id": "65fb0e20-61f8-4c61-bc08-7f6f718ee9ee",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, All-Questioning",
+   "oracle_id": "6c044dd1-8938-4d62-a7b2-e2298de08f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Infinite Analyst",
+   "oracle_id": "977f9390-e01d-4e9d-8e9c-e543b1266972",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Mystery Unraveler",
+   "oracle_id": "75bf0f27-9df1-4ab4-97a8-94bb3223bdf9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Paradox Sculptor",
+   "oracle_id": "9dd674a7-becf-4106-b53f-bca88426d92d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS008",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Quandrix Prodigy",
+   "oracle_id": "ee2ef1e0-6803-4eb5-8664-605438c67505",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, All-Questioning",
+   "oracle_id": "6c044dd1-8938-4d62-a7b2-e2298de08f70",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Infinite Analyst",
+   "oracle_id": "977f9390-e01d-4e9d-8e9c-e543b1266972",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Mystery Unraveler",
+   "oracle_id": "75bf0f27-9df1-4ab4-97a8-94bb3223bdf9",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Paradox Sculptor",
+   "oracle_id": "9dd674a7-becf-4106-b53f-bca88426d92d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "zimone",
+   "card": "Zimone, Quandrix Prodigy",
+   "oracle_id": "ee2ef1e0-6803-4eb5-8664-605438c67505",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS009",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "primo",
+   "card": "Primo, the Unbounded",
+   "oracle_id": "65fb0e20-61f8-4c61-bc08-7f6f718ee9ee",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS010",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "ral_zarek",
+   "card": "Ral Zarek",
+   "oracle_id": "75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS010",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "ral_zarek",
+   "card": "Ral Zarek, Guest Lecturer",
+   "oracle_id": "0dc76b7f-6405-44a1-8c55-31fa480ff70b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS011",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "forum_of_amity",
+   "card": "Forum of Amity",
+   "oracle_id": "349ea6c7-6b3e-417f-b082-b712e2b1635b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS012",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS012",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS012",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS012",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "jadzi",
+   "card": "Jadzi, Steward of Fate // Oracle's Gift",
+   "oracle_id": "c63b3511-d597-4c6e-9094-eabdeaa8a394",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS013",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS013",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS013",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS013",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "lluwen",
+   "card": "Lluwen, Exchange Student // Pest Friend",
+   "oracle_id": "cb125cd4-c7c2-415d-b802-bdcfc2454403",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS013",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "lluwen",
+   "card": "Lluwen, Imperfect Naturalist",
+   "oracle_id": "81ff5764-72ce-4b9a-a14f-07413700d935",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS014",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "lluwen",
+   "card": "Lluwen, Exchange Student // Pest Friend",
+   "oracle_id": "cb125cd4-c7c2-415d-b802-bdcfc2454403",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS014",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "lluwen",
+   "card": "Lluwen, Imperfect Naturalist",
+   "oracle_id": "81ff5764-72ce-4b9a-a14f-07413700d935",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS014",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Mindful First-Year",
+   "oracle_id": "096a878e-cff0-430a-90b5-031ecb9bfe1b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS014",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, Observant Sequencer // Deep Sight",
+   "oracle_id": "702e871d-90d8-4468-8f69-5ae42af2c9d3",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS014",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "tam",
+   "card": "Tam, the Possibility",
+   "oracle_id": "c92c7744-0c92-4a36-9ada-4ffca812009e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS015",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "strixhaven",
+   "card": "Strixhaven",
+   "oracle_id": "022e38c3-fcea-428f-a0d0-a6cca057faa3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS016",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "shadrix_silverquill",
+   "card": "Shadrix Silverquill",
+   "oracle_id": "2143f413-7baa-4fd6-a7ca-32f52bfa553f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SS016",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "forum_of_amity",
+   "card": "Forum of Amity",
+   "oracle_id": "349ea6c7-6b3e-417f-b082-b712e2b1635b",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SS017",
+   "pack": "pack_p5_secrets_of_strixhaven_2026-10-30.json",
+   "participant": "dawning_archaic",
+   "card": "The Dawning Archaic",
+   "oracle_id": "a3e10b9b-9349-4b44-a46c-c825293dbd05",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "sos"
+   ]
+  },
+  {
+   "claim": "SE001",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE001",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE001",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE001",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE002",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE002",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE002",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE002",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE003",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE003",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Hope",
+   "oracle_id": "216cb26e-8da9-478b-bfbc-8030f7adee72",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE003",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Angel of Horror",
+   "oracle_id": "4af61d45-7114-4eb4-a905-9e03caf87454",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE003",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "avacyn",
+   "card": "Avacyn, Guardian Angel",
+   "oracle_id": "6da0b6d2-3c5e-49ef-9264-076269c04744",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE004",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE004",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE005",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "nahiri",
+   "card": "Nahiri, the Lithomancer",
+   "oracle_id": "a554aa2c-d947-4fc6-929d-d5891f467615",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE005",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE005",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE005",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "PRINTED_IN_STORY_SET",
+   "story_set_printings": [
+    "emn"
+   ]
+  },
+  {
+   "claim": "SE005",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE006",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "olivia_voldaren",
+   "card": "Olivia Voldaren",
+   "oracle_id": "dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE006",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "sorin_markov",
+   "card": "Sorin Markov",
+   "oracle_id": "c151e8b7-4b28-4f03-8a81-9bf623f893d7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Collector of Tales",
+   "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Compleated Sage",
+   "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Field Researcher",
+   "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27"
+   ]
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, Upriser Crowned",
+   "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "tamiyo",
+   "card": "Tamiyo, the Moon Sage",
+   "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27"
+   ]
+  },
+  {
+   "claim": "SE007",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE008",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Aeons Torn",
+   "oracle_id": "900ca697-ad38-4b2b-bc74-2ff7eb6ea951",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE008",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Exigent Doom",
+   "oracle_id": "4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE008",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the Promised End",
+   "oracle_id": "4e7a8817-1a66-45c3-ade9-eac79b40b89f",
+   "tier": "ART_IN_CITED_SOURCE",
+   "cited_pages_crediting_art": [
+    "https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27"
+   ]
+  },
+  {
+   "claim": "SE008",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "emrakul",
+   "card": "Emrakul, the World Anew",
+   "oracle_id": "33300e69-29f6-41e4-92ab-82d8b018b217",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "SE009",
+   "pack": "pack_p5_shadows_eldritch_moon_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -17822,6 +18474,20 @@
    "PRINTED_IN_STORY_SET": 13,
    "NAMED_PARTICIPANT": 40
   },
+  "pack_p5_secrets_of_strixhaven_2026-10-30.json": {
+   "claims": 17,
+   "claims_anchored": 16,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 11,
+   "NAMED_PARTICIPANT": 28
+  },
+  "pack_p5_shadows_eldritch_moon_2026-10-30.json": {
+   "claims": 9,
+   "claims_anchored": 9,
+   "ART_IN_CITED_SOURCE": 3,
+   "PRINTED_IN_STORY_SET": 1,
+   "NAMED_PARTICIPANT": 32
+  },
   "pack_p5_streets_of_new_capenna_2026-10-30.json": {
    "claims": 16,
    "claims_anchored": 13,
@@ -17866,12 +18532,12 @@
   }
  },
  "counts": {
-  "claims": 475,
-  "claims_anchored": 427,
-  "anchors": 2056,
-  "ART_IN_CITED_SOURCE": 31,
-  "PRINTED_IN_STORY_SET": 335,
-  "NAMED_PARTICIPANT": 1690
+  "claims": 501,
+  "claims_anchored": 452,
+  "anchors": 2131,
+  "ART_IN_CITED_SOURCE": 34,
+  "PRINTED_IN_STORY_SET": 347,
+  "NAMED_PARTICIPANT": 1750
  },
- "content_sha256": "12ff90d1c00dba8043f4c722c1e49fba543e683eb7aad9de64645e0f9c34e771"
+ "content_sha256": "ce767fe9501b66391f45af6bd8ed2a135910af26d3831758ac41d3be45ee4e85"
 }

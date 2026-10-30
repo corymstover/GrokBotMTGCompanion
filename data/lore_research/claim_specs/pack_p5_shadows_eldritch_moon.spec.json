@@ -1,0 +1,231 @@
+{
+ "pack_id": "pack_p5_shadows_eldritch_moon",
+ "arc": "SOI/EMN",
+ "event_stage": "innistrad_soi_emn_2016",
+ "scope": "Targeted Phase 5 extraction from official Shadows over Innistrad / Eldritch Moon web fiction: I Am Avacyn, Campaign of Vengeance, Innistrad's Last Hope and The Promised End. PRELIMINARY_RESEARCH; not owner approved.",
+ "pages": {
+  "soi_avacyn": "i-am-avacyn-2016-05-18",
+  "emn_vengeance": "campaign-vengeance-2016-07-06",
+  "emn_last_hope": "innistrads-last-hope-2016-06-29",
+  "emn_promised_end": "promised-end-2016-07-27"
+ },
+ "entities": [
+  {
+   "id": "sorin_markov",
+   "type": "Character",
+   "name": "Sorin Markov"
+  },
+  {
+   "id": "avacyn",
+   "type": "Character",
+   "name": "Avacyn"
+  },
+  {
+   "id": "nahiri",
+   "type": "Character",
+   "name": "Nahiri, the Lithomancer"
+  },
+  {
+   "id": "emrakul",
+   "type": "Character",
+   "name": "Emrakul"
+  },
+  {
+   "id": "tamiyo",
+   "type": "Character",
+   "name": "Tamiyo"
+  },
+  {
+   "id": "jace_beleren",
+   "type": "Character",
+   "name": "Jace Beleren"
+  },
+  {
+   "id": "liliana_vess",
+   "type": "Character",
+   "name": "Liliana Vess"
+  },
+  {
+   "id": "gatewatch",
+   "type": "Faction",
+   "name": "The Gatewatch"
+  },
+  {
+   "id": "olivia_voldaren",
+   "type": "Character",
+   "name": "Olivia Voldaren"
+  },
+  {
+   "id": "innistrad",
+   "type": "Plane",
+   "name": "Innistrad"
+  },
+  {
+   "id": "innistrad_silver_moon",
+   "type": "Place",
+   "name": "Innistrad's silver moon"
+  },
+  {
+   "id": "markov_manor",
+   "type": "Place",
+   "name": "Markov Manor"
+  }
+ ],
+ "claims": [
+  {
+   "id": "SE001",
+   "subject": "sorin_markov",
+   "predicate": "created",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "soi_avacyn",
+     "quote": "He was there when I was created, the man who stood over me that first instant when I came into being."
+    },
+    {
+     "page": "soi_avacyn",
+     "quote": "\"You created me to ensure that all wickedness meets its demise,\" I say."
+    }
+   ],
+   "summary": "Sorin Markov created Avacyn as Innistrad's protector.",
+   "limitation": "Narrated in Avacyn's own first-person voice."
+  },
+  {
+   "id": "SE002",
+   "subject": "sorin_markov",
+   "predicate": "killed",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "soi_avacyn",
+     "quote": "Fumes rose from the burnt place on the floor, drifting up through shafts of light from one of the cathedral's skylights. Avacyn was no more."
+    },
+    {
+     "page": "soi_avacyn",
+     "quote": "\"I had to,\" Sorin whispered."
+    }
+   ],
+   "summary": "Sorin unmade Avacyn with a reversed ritual, revoking the gift that made her."
+  },
+  {
+   "id": "SE003",
+   "subject": "sorin_markov",
+   "predicate": "opposed",
+   "object": "avacyn",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "soi_avacyn",
+     "quote": "Sorin Markov, I condemn you as the greatest evil of this world."
+    }
+   ],
+   "summary": "Maddened, Avacyn condemned Sorin as the greatest evil of Innistrad before he unmade her.",
+   "limitation": "Avacyn's condemnation came during her madness."
+  },
+  {
+   "id": "SE004",
+   "subject": "nahiri",
+   "predicate": "imprisoned",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_vengeance",
+     "quote": "The stone tightened in on him until it had him in its grasp."
+    },
+    {
+     "page": "emn_vengeance",
+     "quote": "And the next moment, Nahiri planeswalked away from Innistrad, leaving Sorin to the fate of his world."
+    }
+   ],
+   "summary": "At Markov Manor, Nahiri encased Sorin in stone and planeswalked away."
+  },
+  {
+   "id": "SE005",
+   "subject": "nahiri",
+   "predicate": "summoned",
+   "object": "emrakul",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_last_hope",
+     "quote": "Thanks to Nahiri's machinations, the Eldrazi titan Emrakul has been unleashed on Innistrad."
+    }
+   ],
+   "summary": "Nahiri's machinations unleashed Emrakul on Innistrad.",
+   "limitation": "The page's lead-in summary credits her 'machinations'; the mechanism is told elsewhere."
+  },
+  {
+   "id": "SE006",
+   "subject": "olivia_voldaren",
+   "predicate": "betrayed",
+   "object": "sorin_markov",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_vengeance",
+     "quote": "\"Even if I could, why? Avacyn is dead. Nahiri has been driven off. Our bargain is fulfilled.\" She chuckled cruelly."
+    },
+    {
+     "page": "emn_vengeance",
+     "quote": "I rather like the sound of 'Olivia, Lord of Innistrad.'"
+    }
+   ],
+   "summary": "Olivia refused to free the imprisoned Sorin once their bargain was fulfilled, taking his sword."
+  },
+  {
+   "id": "SE007",
+   "subject": "tamiyo",
+   "predicate": "imprisoned",
+   "object": "emrakul",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_promised_end",
+     "quote": "Not the Helvault, Tamiyo responded. Where the Helvault came from. The moon. A silver moon. I have a binding spell."
+    },
+    {
+     "page": "emn_promised_end",
+     "quote": "In that moon's depths was the most powerful and destructive force any of them had ever encountered."
+    }
+   ],
+   "summary": "Tamiyo's binding spell, linked to Emrakul with Jace's help, bound Emrakul inside Innistrad's silver moon.",
+   "limitation": "The binding was a group effort (Jace attached the spell, and the text turns to Nissa for its power)."
+  },
+  {
+   "id": "SE008",
+   "subject": "emrakul",
+   "predicate": "located_at",
+   "object": "innistrad_silver_moon",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_promised_end",
+     "quote": "In that moon's depths was the most powerful and destructive force any of them had ever encountered."
+    }
+   ],
+   "summary": "After The Promised End, Emrakul is held in the depths of Innistrad's moon."
+  },
+  {
+   "id": "SE009",
+   "subject": "liliana_vess",
+   "predicate": "joined",
+   "object": "gatewatch",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "emn_promised_end",
+     "quote": "She was now a member of the Gatewatch. Futures unfolded in her mind, full of promise and ambition."
+    }
+   ],
+   "summary": "Liliana swore an oath and joined the Gatewatch after Emrakul was bound.",
+   "limitation": "Her oath was partly insincere by her own account."
+  }
+ ],
+ "remaining": [
+  "The other 17 SOI/EMN episodes (Markov Manor mystery, Thraben, Gisela/Bruna, Tamiyo's journal) are not extracted",
+  "Avacyn's madness and its cause (Nahiri, Emrakul) need the earlier episodes"
+ ]
+}
