@@ -1,0 +1,61 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_untagged_isd_guides_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "claims": 7,
+ "entities": 11,
+ "sources": 5,
+ "grades": {
+  "CANON_CONFIRMED": 7
+ },
+ "quotes": 7,
+ "quotes_verbatim": 7,
+ "quote_rows": [
+  {
+   "claim": "IG001",
+   "source_id": "ig_gav",
+   "quote_sha256": "ac5118d109228f7976e4fd58894d638a9d2c9cb4448b869a5246b82943d516c9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG002",
+   "source_id": "ig_gav",
+   "quote_sha256": "7bb4f8fc3910fd8c9c10c87ca85e6f33998c88d5ddf18c8b5dd18fa2e4c7bec7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG003",
+   "source_id": "ig_intro",
+   "quote_sha256": "f82f06456f3668a0db75458e29be7b6952f00b2466a1dc054e412667da0f77d5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG004",
+   "source_id": "ig_kes",
+   "quote_sha256": "bde3a935fb9c1f9c3d48d603335f21bcd1f626c3933d7c4f817c52051620739a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG005",
+   "source_id": "ig_sten",
+   "quote_sha256": "3e2a3060876b71e4b9be0aee1a6f6be08404e85716a72eea3c7a95693b4cc5cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG006",
+   "source_id": "ig_sten",
+   "quote_sha256": "3e2a3060876b71e4b9be0aee1a6f6be08404e85716a72eea3c7a95693b4cc5cf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "IG007",
+   "source_id": "ig_neph",
+   "quote_sha256": "b61872fc4d5aec4d919a0766a32d0aeb158f085833312bb0f251d4e9ea8a9e74",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "a93ba7f57e1988b258f554970829fe4820937c97e36979bb490921ad8748d5a5"
+}

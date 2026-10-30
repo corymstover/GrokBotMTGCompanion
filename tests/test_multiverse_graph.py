@@ -40,7 +40,7 @@ class GraphBuildTests(unittest.TestCase):
         for n in self.graph["nodes"]:
             if n["type"] == "Claim":
                 by_status.setdefault(n["grade"], set()).add(n["id"])
-        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012", "claim:RTD006", "claim:RTD021", "claim:RTD033"})
+        self.assertEqual(by_status.get("CANON_DISPUTED"), {"claim:A003", "claim:A004", "claim:B012", "claim:C012", "claim:RTD006", "claim:RTD021", "claim:RTD033", "claim:CN006"})
         self.assertEqual(by_status.get("OPEN_QUESTION"), {"claim:A011", "claim:C010", "claim:ZN010"})
         self.assertEqual(by_status.get("ALTERNATE_CONTINUITY"), {"claim:A012", "claim:XLN016"})
 

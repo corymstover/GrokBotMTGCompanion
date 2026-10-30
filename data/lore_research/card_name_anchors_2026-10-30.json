@@ -67,6 +67,23 @@
    ]
   },
   {
+   "entity": "adriana",
+   "entity_type": "Character",
+   "entity_name": "Adriana",
+   "aliases": [
+    "Adriana"
+   ],
+   "pack": "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Adriana, Captain of the Guard",
+     "oracle_id": "de23275e-e9c1-4151-aed8-f79ead03d5d4",
+     "type_line": "Legendary Creature — Human Knight",
+     "scryfall_uri": "https://scryfall.com/card/dmc/139/adriana-captain-of-the-guard"
+    }
+   ]
+  },
+  {
    "entity": "aetherspark",
    "entity_type": "Object",
    "entity_name": "The Aetherspark",
@@ -859,6 +876,23 @@
      "oracle_id": "c2679c32-a23d-4953-bb48-b46580439ce2",
      "type_line": "Legendary Creature — God",
      "scryfall_uri": "https://scryfall.com/card/akh/82/bontu-the-glorified"
+    }
+   ]
+  },
+  {
+   "entity": "brago",
+   "entity_type": "Character",
+   "entity_name": "Brago",
+   "aliases": [
+    "Brago"
+   ],
+   "pack": "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Brago, King Eternal",
+     "oracle_id": "fcb0c7db-bd07-4c25-b7f8-b6c207e4f6be",
+     "type_line": "Legendary Creature — Spirit Noble",
+     "scryfall_uri": "https://scryfall.com/card/khc/82/brago-king-eternal"
     }
    ]
   },
@@ -1927,6 +1961,40 @@
    ]
   },
   {
+   "entity": "furnace_layer",
+   "entity_type": "Place",
+   "entity_name": "Furnace Layer",
+   "aliases": [
+    "Furnace Layer"
+   ],
+   "pack": "pack_p5_untagged_nph_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Furnace Layer",
+     "oracle_id": "1799d361-85e7-4c04-aa04-6f83e6499573",
+     "type_line": "Plane — New Phyrexia",
+     "scryfall_uri": "https://scryfall.com/card/opca/26/furnace-layer"
+    }
+   ]
+  },
+  {
+   "entity": "gavony",
+   "entity_type": "Place",
+   "entity_name": "Gavony",
+   "aliases": [
+    "Gavony"
+   ],
+   "pack": "pack_p5_untagged_isd_guides_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Gavony",
+     "oracle_id": "2387edac-765b-4502-bd3d-88be8ba7d0a4",
+     "type_line": "Plane — Innistrad",
+     "scryfall_uri": "https://scryfall.com/card/moc/142/gavony"
+    }
+   ]
+  },
+  {
    "entity": "geralf",
    "entity_type": "Character",
    "entity_name": "Geralf",
@@ -2240,6 +2308,29 @@
      "oracle_id": "e16f79c1-ffbb-4893-b62a-d4e9d15e2b16",
      "type_line": "Legendary Creature — Aetherborn Rogue",
      "scryfall_uri": "https://scryfall.com/card/dft/87/gonti-night-minister"
+    }
+   ]
+  },
+  {
+   "entity": "grenzo",
+   "entity_type": "Character",
+   "entity_name": "Grenzo",
+   "aliases": [
+    "Grenzo"
+   ],
+   "pack": "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Grenzo, Dungeon Warden",
+     "oracle_id": "a374f99e-6443-486c-8026-8eba4c7e6ad7",
+     "type_line": "Legendary Creature — Goblin Rogue",
+     "scryfall_uri": "https://scryfall.com/card/a25/205/grenzo-dungeon-warden"
+    },
+    {
+     "name": "Grenzo, Havoc Raiser",
+     "oracle_id": "80788290-1569-4c7f-b263-b4da7b31a9d1",
+     "type_line": "Legendary Creature — Goblin Rogue",
+     "scryfall_uri": "https://scryfall.com/card/tdc/216/grenzo-havoc-raiser"
     }
    ]
   },
@@ -3622,6 +3713,23 @@
    ]
   },
   {
+   "entity": "leovold",
+   "entity_type": "Character",
+   "entity_name": "Leovold",
+   "aliases": [
+    "Leovold"
+   ],
+   "pack": "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Leovold, Emissary of Trest",
+     "oracle_id": "d5d91377-fd66-4dbe-a092-07f2ea379ca7",
+     "type_line": "Legendary Creature — Elf Advisor",
+     "scryfall_uri": "https://scryfall.com/card/uma/202/leovold-emissary-of-trest"
+    }
+   ]
+  },
+  {
    "entity": "liesa",
    "entity_type": "Character",
    "entity_name": "Liesa",
@@ -3865,6 +3973,23 @@
      "oracle_id": "114e1d2c-cefc-4e2a-922e-3b2ceed1871d",
      "type_line": "Legendary Creature — Elf Faerie Noble",
      "scryfall_uri": "https://scryfall.com/card/ecl/233/maralen-fae-ascendant"
+    }
+   ]
+  },
+  {
+   "entity": "marchesa",
+   "entity_type": "Character",
+   "entity_name": "Queen Marchesa",
+   "aliases": [
+    "Queen Marchesa"
+   ],
+   "pack": "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Queen Marchesa",
+     "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+     "type_line": "Legendary Creature — Human Assassin",
+     "scryfall_uri": "https://scryfall.com/card/otc/239/queen-marchesa"
     }
    ]
   },
@@ -7743,6 +7868,7 @@
   "dawnsire",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
+  "don_revari",
   "dragonstorm_escape",
   "drana",
   "drannith",
@@ -7751,6 +7877,7 @@
   "eiganjo",
   "eiko",
   "elamon",
+  "elgaud_grounds",
   "elnor",
   "eloise_wicker",
   "embrose_lu",
@@ -7814,6 +7941,7 @@
   "lithoform_core",
   "locthwain",
   "lorwyn_aspect",
+  "lumengrid",
   "maag_taranau",
   "magic_mirror",
   "maha",
@@ -7881,6 +8009,7 @@
   "sylex_replica",
   "takeshi_konda",
   "tamiyos_journal",
+  "tangle",
   "tarkir_duel",
   "tarkir_rewrite",
   "teferis_spark_stone",
@@ -7896,6 +8025,7 @@
   "titsui",
   "tomik_vrona",
   "torrezon",
+  "trest",
   "tynthal",
   "ugins_gem",
   "ugins_tomb_site",
@@ -7920,9 +8050,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 343,
-  "anchor_edges": 652,
-  "unanchored_entities": 208
+  "entities_anchored": 350,
+  "anchor_edges": 660,
+  "unanchored_entities": 213
  },
- "content_sha256": "c28a96f682ab78575cd890712b8dbf65771ed87681a01be390f251aa52c0d0a2"
+ "content_sha256": "f57c3b13a0b402e89b7acd5206b14084b386019b0a247dc1221bcc2a6ab9e562"
 }

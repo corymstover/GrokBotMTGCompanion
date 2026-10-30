@@ -1,0 +1,242 @@
+{
+ "pack_id": "pack_p5_untagged_conspiracy_2016",
+ "arc": "",
+ "event_stage": "conspiracy_take_the_crown_2016",
+ "scope": "Batch 10 extraction from the untagged 2016 Conspiracy: Take the Crown Magic Story pages (Tyrants, the two Proclamations, Bloody Instructions, Leovold's Dossiers, Laid to Rest). PRELIMINARY_RESEARCH; targeted, not exhaustive; not owner approved.",
+ "pages": {
+  "cn_tyr": "tyrants-2016-08-10",
+  "cn_marq": "proclamation-queen-marchesa-2016-08-15",
+  "cn_adr": "proclamation-adriana-captain-guard-2016-08-16",
+  "cn_blood": "bloody-instructions",
+  "cn_leo": "leovolds-dossiers-2016-08-24",
+  "cn_rest": "laid-rest-2016-08-03"
+ },
+ "entities": [
+  {
+   "id": "brago",
+   "type": "Character",
+   "name": "Brago"
+  },
+  {
+   "id": "marchesa",
+   "type": "Character",
+   "name": "Queen Marchesa"
+  },
+  {
+   "id": "paliano",
+   "type": "Place",
+   "name": "Paliano"
+  },
+  {
+   "id": "adriana",
+   "type": "Character",
+   "name": "Adriana"
+  },
+  {
+   "id": "selvala",
+   "type": "Character",
+   "name": "Selvala"
+  },
+  {
+   "id": "leovold",
+   "type": "Character",
+   "name": "Leovold"
+  },
+  {
+   "id": "trest",
+   "type": "Place",
+   "name": "Trest"
+  },
+  {
+   "id": "grenzo",
+   "type": "Character",
+   "name": "Grenzo"
+  },
+  {
+   "id": "daretti",
+   "type": "Character",
+   "name": "Daretti"
+  },
+  {
+   "id": "kaya",
+   "type": "Character",
+   "name": "Kaya"
+  },
+  {
+   "id": "don_revari",
+   "type": "Character",
+   "name": "Don Revari"
+  }
+ ],
+ "claims": [
+  {
+   "id": "CN001",
+   "subject": "brago",
+   "predicate": "ruled",
+   "object": "paliano",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_marq",
+     "quote": "It is my solemn duty to inform you that Brago, King of Paliano, is no more."
+    }
+   ],
+   "summary": "Brago was the former King of Paliano until his death (past era relative to Marchesa's reign)."
+  },
+  {
+   "id": "CN002",
+   "subject": "marchesa",
+   "predicate": "succeeded",
+   "object": "brago",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_marq",
+     "quote": "As his designated heir, recognized by the sacred order of Custodi as his one true successor"
+    }
+   ],
+   "summary": "Marchesa claims the throne as Brago's designated heir, recognized by the Custodi.",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author."
+  },
+  {
+   "id": "CN003",
+   "subject": "marchesa",
+   "predicate": "ruled",
+   "object": "paliano",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_marq",
+     "quote": "sole sovereign of the High City, true heir to the throne of Paliano"
+    }
+   ],
+   "summary": "Queen Marchesa, the Black Rose, rules Paliano after Brago (Conspiracy: Take the Crown, 2016).",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author."
+  },
+  {
+   "id": "CN004",
+   "subject": "adriana",
+   "predicate": "served",
+   "object": "brago",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_tyr",
+     "quote": "Adriana is the captain of the guard of the High City of Paliano, a post that puts her in the service of the ghost king, Brago."
+    }
+   ],
+   "summary": "Adriana, captain of the guard of Paliano, served the ghost king Brago."
+  },
+  {
+   "id": "CN005",
+   "subject": "adriana",
+   "predicate": "opposed",
+   "object": "marchesa",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_adr",
+     "quote": "beneath the bloodstained banner of a usurper queen: Marchesa, the Black Rose"
+    }
+   ],
+   "summary": "Adriana denounces Marchesa as a usurper queen.",
+   "limitation": "Sourced from an in-universe proclamation; the speaker is the proclamation's named author."
+  },
+  {
+   "id": "CN006",
+   "subject": "marchesa",
+   "predicate": "killed",
+   "object": "brago",
+   "grade": "CANON_DISPUTED",
+   "quotes": [
+    {
+     "page": "cn_adr",
+     "quote": "Somehow, this vile deceiver murdered King Brago, ending his immortal existence"
+    },
+    {
+     "page": "cn_leo",
+     "quote": "an assassin infiltrated the palace, by some accounts walking through stone walls, in order to reach Brago's chambers"
+    }
+   ],
+   "summary": "Adriana accuses Marchesa of murdering Brago; Leovold's dossier reports only rumor of an assassin who reached Brago's chambers.",
+   "limitation": "Accounts conflict and are in-universe accusation and rumor; these pages do not name the killer."
+  },
+  {
+   "id": "CN007",
+   "subject": "selvala",
+   "predicate": "co_authored_with",
+   "object": "brago",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "cn_leo",
+     "quote": "She drafted the Charter alongside Brago"
+    }
+   ],
+   "summary": "Selvala drafted Paliano's Charter alongside Brago, before his death (past era).",
+   "limitation": "'She' is Selvala, the subject of that dossier entry."
+  },
+  {
+   "id": "CN008",
+   "subject": "leovold",
+   "predicate": "represented",
+   "object": "trest",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_leo",
+     "quote": "no one knows that better than Ambassador Leovold of Trest"
+    }
+   ],
+   "summary": "Leovold is the Ambassador of Trest in Paliano."
+  },
+  {
+   "id": "CN009",
+   "subject": "grenzo",
+   "predicate": "rebelled_against",
+   "object": "paliano",
+   "grade": "CANON_CONFIRMED",
+   "quotes": [
+    {
+     "page": "cn_leo",
+     "quote": "Grenzo has adopted a different tactic, one that simultaneously surprises me more and less than the ones he has employed before—open rebellion"
+    }
+   ],
+   "summary": "Grenzo, Warden of the Royal Dungeons, turned to open rebellion after losing Brago's patronage.",
+   "limitation": "Leovold's in-universe dossier."
+  },
+  {
+   "id": "CN010",
+   "subject": "grenzo",
+   "predicate": "allied_with",
+   "object": "daretti",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "cn_blood",
+     "quote": "Meanwhile, the goblins Grenzo and Daretti have plans to cause chaos of a different kind."
+    }
+   ],
+   "summary": "The goblins Grenzo and Daretti scheme together to cause chaos in Paliano.",
+   "limitation": "Shared plans are stated; a formal alliance is not."
+  },
+  {
+   "id": "CN011",
+   "subject": "don_revari",
+   "predicate": "hired",
+   "object": "kaya",
+   "grade": "CANON_IMPLIED",
+   "quotes": [
+    {
+     "page": "cn_rest",
+     "quote": "Given that he was looking to hire her, Kaya had a pretty good guess which one of those rumors was true."
+    }
+   ],
+   "summary": "Don Revari seeks to hire Kaya to banish a ghost from his house.",
+   "limitation": "'He' is Don Revari, named elsewhere in the story."
+  }
+ ],
+ "remaining": [
+  "Targeted, not exhaustive."
+ ]
+}
