@@ -38,6 +38,6 @@ Tiers: DIRECT_DEPICTION 0 · CANON_REFERENCE 35 · LORE_INSPIRED 12 · MECHANICA
 
 ## Review asks for Cory
 
-1. Is The Ur-Dragon acceptable as a thematic (not canonical) commander, or prefer a canonical Elder Dragon commander?
+1. Is The Ur-Dragon acceptable as a thematic (not canonical) commander, or prefer a canonical Elder Dragon commander? New evidence (~02:20 CDT): the Wizards *Modern Horizons 2* legends feature says the Elder Dragons were "creatures spawned by the Ur-Dragon when Dominaria was young". It is recorded as unapplied proposal A-PROP-04 in the Pack A open-question review. If Cory accepts it, the commander could move from LORE_INSPIRED to CANON_REFERENCE. The deck list would not change.
 2. Playability slice is deliberately moderate (bracket 2 floor); raise or keep?
 3. Any Primeval/Elder card swaps for preferred printings/art.
