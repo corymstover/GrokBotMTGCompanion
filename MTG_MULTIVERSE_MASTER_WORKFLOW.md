@@ -1,9 +1,23 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.49
+**Version:** 2.50
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
+
+**v2.50 Phase 5 Alara history expansion (2026-10-30):** The official
+[Alara plane primer](https://magic.wizards.com/en/story/alara-plane) was
+independently read and all ten new short excerpts verified against the live
+Wizards page. New Pack `P5-ALARA` records the five shards, their three-color
+isolation, reunion into a five-color plane, inter-shard conflicts, and the
+specific documented motives of Esper, Grixis undead, Jund, Naya and Bant.
+The earlier Bolas role `UP001` is **not duplicated or overridden**. Alara's
+direct official claims rose **from 1 to 5**, and thin plane-history dossiers
+fell **from 22 to 21**. Current graph: **5,072 nodes / 8,019 edges / 1,151
+claims**; 33 plane dossiers and 155 direct plane-claim edge incidences.
+No unstated chronological relation or AR date was inserted. All new facts
+are preliminary, source-graded research, **not** owner approval or
+certification. See `research/PHASE5_ALARA_SHARDS_PROFILE_2026-10-30.md`.
 
 **v2.49 Phase 5 queryable plane histories (2026-10-30):** The direct-claim
 plane priority counter now has a complementary, reproducible *reading and
@@ -345,6 +359,7 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
+- [x] **Deepen Alara's plane history using the official Wizards primer.** *(v2.50: 10 live-quote-verified, source-graded claims on five shards, convergence, mana environment and the factions' differing conflicts; source register reused, with no duplicate official source node or existing UP001 Bolas claim. Alara now has 5 directly incident distinct claims, but an exhaustive history, specific battle participants and cross-era dates remain OPEN.)*
 - [x] **Publish a source-backed, explicitly partial plane-history query layer.** *(v2.49: 33 graph-registered plane dossiers, 147 direct claim-edge incidences, each fact retaining official URL, grade, limitations and optional quoted date. `scripts/query_plane_history.py` supports text/JSON; `scripts/build_plane_history_dossiers.py --check` and dedicated tests enforce provenance and no inferred chronology. 22 dossiers remain thin, so exhaustive plane history, L244 and contradiction reconciliation are **not** closed.)*
 
 - [ ] Expand the Mending, major planeswalkers and the Gatewatch.

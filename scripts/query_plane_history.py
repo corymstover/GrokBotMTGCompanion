@@ -6,6 +6,7 @@
 """
 
 import argparse
+from itertools import groupby
 import json
 
 import build_plane_history_dossiers as H
@@ -35,9 +36,12 @@ def main(argv=None) -> int:
         return 0 if result['status'] != 'NOT_FOUND' else 2
     plane = result['plane']
     print(f"{plane['plane']}: {plane['distinct_claims']} direct cited graph claims — PARTIAL, NOT A COMPLETE HISTORY")
-    for fact in plane['facts']:
+    for claim_id, group in groupby(plane['facts'], key=lambda item: item['claim_id']):
+        relations = list(group)
+        fact = relations[0]
         print(f"\n[{fact['grade']}] {fact['claim_id']}: {fact['statement']}")
-        print(f"  Relation: {fact['subject']['name']} → {fact['relation']} → {fact['object']['name']}")
+        for linked in relations:
+            print(f"  Relation: {linked['subject']['name']} → {linked['relation']} → {linked['object']['name']}")
         if fact['era_label']:
             print(f"  Era label (NOT a dated order): {fact['era_label']}")
         if fact['in_universe_date']:

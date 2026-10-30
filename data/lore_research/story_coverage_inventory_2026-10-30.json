@@ -69,7 +69,8 @@
    "data/lore_research/pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_tarkir_stories_2026-10-30.json",
    "data/lore_research/pack_p5_untagged_side_stories_2015_2026_2026-10-30.json",
-   "data/lore_research/pack_p5_untagged_worldsoul_multiverse_2026-10-30.json"
+   "data/lore_research/pack_p5_untagged_worldsoul_multiverse_2026-10-30.json",
+   "data/lore_research/pack_p5_alara_plane_profile_2026-10-30.json"
   ],
   "reviewed_no_claim": "data/lore_research/reviewed_no_claim.json"
  },
@@ -83,7 +84,7 @@
   "arcs_all_cited": 31,
   "reviewed_no_claim_pages": 50,
   "arcs_all_cited_or_reviewed": 33,
-  "claims": 1141,
+  "claims": 1151,
   "pack_urls_outside_inventory": 12
  },
  "claims_per_pack": {
@@ -153,7 +154,8 @@
   "pack_p5_untagged_tarkir_zendikar_guides_2026-10-30.json": 24,
   "pack_p5_untagged_tarkir_stories_2026-10-30.json": 11,
   "pack_p5_untagged_side_stories_2015_2026_2026-10-30.json": 25,
-  "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json": 12
+  "pack_p5_untagged_worldsoul_multiverse_2026-10-30.json": 12,
+  "pack_p5_alara_plane_profile_2026-10-30.json": 10
  },
  "arcs": [
   {
@@ -731,6 +733,7 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c5_phyrexian_invasion_outcome_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
+    "pack_p5_alara_plane_profile_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_grn_rna_2026-10-30.json",
@@ -806,5 +809,5 @@
    "unreviewed_urls": []
   }
  ],
- "sha256": "89c5e1bd07705c14266eff85edcac687456e8675c388a4a7ef9a912b8cec65d8"
+ "sha256": "0b46069a457a1c33556d3468e25c427c0521cac4d45923bec2d2d3e477a06db0"
 }

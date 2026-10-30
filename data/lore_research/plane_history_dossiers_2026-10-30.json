@@ -2,16 +2,16 @@
   "schema": "plane-history-dossiers/v1",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "6141abc31e9bcbbff129e311f611b1ad18ecede854c3584eecc9c91cb82397e9",
+  "source_graph_sha256": "e74a33e697ff10958eb7f090f1a319978aaaf7187b12a7caac6a2c9cf7412677",
   "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 147,
-    "thin_planes_fewer_than_five_claims": 22,
+    "direct_claim_edges": 155,
+    "thin_planes_fewer_than_five_claims": 21,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 123,
+      "CANON_CONFIRMED": 131,
       "CANON_DISPUTED": 2,
       "CANON_IMPLIED": 21,
       "OPEN_QUESTION": 1
@@ -22,8 +22,200 @@
       "id": "plane:alara",
       "plane": "Alara",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 1,
+      "distinct_claims": 5,
       "facts": [
+        {
+          "claim_id": "ALA001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+          "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+          "relation": "was_divided_into",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "place:bant",
+            "name": "Bant"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+          "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+          "relation": "was_divided_into",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "place:esper",
+            "name": "Esper"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+          "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+          "relation": "was_divided_into",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "place:grixis_shard",
+            "name": "Grixis (Alara shard)"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+          "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+          "relation": "was_divided_into",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "place:jund",
+            "name": "Jund"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+          "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes.",
+          "relation": "was_divided_into",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "place:naya",
+            "name": "Naya"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA002",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Each of Alara's five separated shards had access to three mana colors during its isolation.",
+          "limitation": "The profile states the three-color condition generally; the separate identity of each shard's three colors requires its own card/color evidence.",
+          "relation": "separated_shards_had",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "concept:three_mana_colors",
+            "name": "Three colors of mana per separated shard"
+          },
+          "era_label": "separated_shards",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Following the convergence, the rejoined Alara again flowed with all five mana colors.",
+          "limitation": "The profile supplies no Dominarian AR year for the convergence.",
+          "relation": "reunited_with",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "concept:five_mana_colors",
+            "name": "Five colors of mana across reunited Alara"
+          },
+          "era_label": "shard_convergence",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
+        {
+          "claim_id": "ALA004",
+          "grade": "CANON_CONFIRMED",
+          "statement": "As shard boundaries dissolved, formerly isolated cultures clashed and wars broke out across reunited Alara.",
+          "limitation": "The wars and convergence overlap in this prose; do not convert their descriptions into a precise BEFORE ordering in the master timeline.",
+          "relation": "reunion_spurred",
+          "subject": {
+            "id": "plane:alara",
+            "name": "Alara"
+          },
+          "object": {
+            "id": "event:shard_wars",
+            "name": "Conflicts following the Conflux of Alara's shards"
+          },
+          "era_label": "shard_convergence_conflicts",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "up_alara",
+              "title": "Alara",
+              "url": "https://magic.wizards.com/en/story/alara-plane"
+            }
+          ]
+        },
         {
           "claim_id": "UP001",
           "grade": "CANON_CONFIRMED",
@@ -4078,5 +4270,5 @@
       ]
     }
   ],
-  "content_sha256": "267d7a6b9f5762437ab0a6bdc54b14f02085e3a8792a9a12b693f64eaab4bc86"
+  "content_sha256": "0131f79754691ffb383a11be4b89d0c6a79d4c1e61894d464a4ba2ecd6613b30"
 }

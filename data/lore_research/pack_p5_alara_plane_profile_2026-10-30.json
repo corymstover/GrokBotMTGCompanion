@@ -1,0 +1,124 @@
+{
+  "schema": "lore-claim-pack/v1",
+  "pack_id": "P5-ALARA — Shards, convergence and faction conflicts from the official plane profile",
+  "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
+  "evidence_cutoff": "2026-10-30",
+  "source_register": {
+    "up_alara": {
+      "title": "Alara",
+      "url": "https://magic.wizards.com/en/story/alara-plane",
+      "kind": "official_story_episode",
+      "perspective": "Wizards of the Coast (official Magic Story)",
+      "published": ""
+    }
+  },
+  "entities": [
+    {"id": "alara", "type": "Plane", "name": "Alara"},
+    {"id": "bant", "type": "Place", "name": "Bant"},
+    {"id": "esper", "type": "Place", "name": "Esper"},
+    {"id": "grixis_shard", "type": "Place", "name": "Grixis (Alara shard)"},
+    {"id": "jund", "type": "Place", "name": "Jund"},
+    {"id": "naya", "type": "Place", "name": "Naya"},
+    {"id": "three_mana_colors", "type": "Concept", "name": "Three colors of mana per separated shard"},
+    {"id": "five_mana_colors", "type": "Concept", "name": "Five colors of mana across reunited Alara"},
+    {"id": "shard_wars", "type": "Event", "name": "Conflicts following the Conflux of Alara's shards"},
+    {"id": "esper_forces", "type": "Faction", "name": "Forces of Esper"},
+    {"id": "grixis_undead", "type": "Faction", "name": "Hordes of Grixis undead"},
+    {"id": "jund_warriors", "type": "Faction", "name": "Warriors of Jund"},
+    {"id": "naya_armies", "type": "Faction", "name": "Forces of Naya"},
+    {"id": "bant_armies", "type": "Faction", "name": "Armies of Bant"},
+    {"id": "neighboring_shards", "type": "Concept", "name": "Other Alaran shards following their convergence"},
+    {"id": "carmot", "type": "Object", "name": "Carmot"},
+    {"id": "etherium", "type": "Object", "name": "Etherium"},
+    {"id": "anima_visions", "type": "Concept", "name": "Anima's prophetic visions"},
+    {"id": "guardian_angels", "type": "Faction", "name": "Guardian angels revered by Bant armies"}
+  ],
+  "claims": [
+    {
+      "id": "ALA001", "subject": "alara", "predicate": "was_divided_into",
+      "object": "bant;esper;grixis_shard;jund;naya", "grade": "CANON_CONFIRMED",
+      "event_stage": "separated_shards", "source_ids": ["up_alara"],
+      "source_excerpt": "five shards of Alara were separate worlds for centuries",
+      "summary": "Alara had five long-separated shards: Bant, Esper, Grixis, Jund, and Naya.",
+      "limitation": "This profile does not supply the calendar date when the original division occurred. These are regions/shards, not five independent present-day planes."
+    },
+    {
+      "id": "ALA002", "subject": "alara", "predicate": "separated_shards_had",
+      "object": "three_mana_colors", "grade": "CANON_CONFIRMED",
+      "event_stage": "separated_shards", "source_ids": ["up_alara"],
+      "source_excerpt": "only three colors of mana",
+      "summary": "Each of Alara's five separated shards had access to three mana colors during its isolation.",
+      "limitation": "The profile states the three-color condition generally; the separate identity of each shard's three colors requires its own card/color evidence."
+    },
+    {
+      "id": "ALA003", "subject": "alara", "predicate": "reunited_with",
+      "object": "five_mana_colors", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence", "source_ids": ["up_alara"],
+      "source_excerpt": "all five colors of mana once more",
+      "summary": "Following the convergence, the rejoined Alara again flowed with all five mana colors.",
+      "limitation": "The profile supplies no Dominarian AR year for the convergence."
+    },
+    {
+      "id": "ALA004", "subject": "alara", "predicate": "reunion_spurred",
+      "object": "shard_wars", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "cultures clash and wars ensue",
+      "summary": "As shard boundaries dissolved, formerly isolated cultures clashed and wars broke out across reunited Alara.",
+      "limitation": "The wars and convergence overlap in this prose; do not convert their descriptions into a precise BEFORE ordering in the master timeline."
+    },
+    {
+      "id": "ALA005", "subject": "esper_forces", "predicate": "invaded_in_search_of",
+      "object": "carmot", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "looking for carmot",
+      "summary": "Esper's forces attacked other Alaran shards while seeking carmot.",
+      "limitation": "The plane primer does not identify commanders or the outcomes of individual Esper invasions."
+    },
+    {
+      "id": "ALA006", "subject": "grixis_undead", "predicate": "assaulted",
+      "object": "neighboring_shards", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "Grixis undead mount an assault",
+      "summary": "Grixis undead attacked other Alaran shards with the aim of maiming, enslaving, and draining their inhabitants' life energy.",
+      "limitation": "This establishes the general invasion motive, not a named battle or a fate for any named individual."
+    },
+    {
+      "id": "ALA007", "subject": "jund_warriors", "predicate": "extended_hunts_to",
+      "object": "neighboring_shards", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "their \"life hunts\" to the newfound game",
+      "summary": "Jund's warriors expanded their life hunts to new prey and territories across reunited Alara.",
+      "limitation": "The source does not name the participants of a particular hunt or identify the exact destinations."
+    },
+    {
+      "id": "ALA008", "subject": "naya_armies", "predicate": "marched_seeking_answers_to",
+      "object": "anima_visions", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "Anima's prophetic visions",
+      "summary": "Naya's armies followed elven decrees and departed the jungle seeking answers to the Anima's visions.",
+      "limitation": "The profile does not explain whether those prophetic visions proved accurate or when their prophecies were fulfilled."
+    },
+    {
+      "id": "ALA009", "subject": "bant_armies", "predicate": "defended_in_name_of",
+      "object": "guardian_angels", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "in the name of their guardian angels",
+      "summary": "Bant's armies defended their territory against horrors crossing former shard borders in the name of their guardian angels.",
+      "limitation": "This does not establish which specific angels commanded particular fights."
+    },
+    {
+      "id": "ALA010", "subject": "carmot", "predicate": "required_to_create",
+      "object": "etherium", "grade": "CANON_CONFIRMED",
+      "event_stage": "shard_convergence_conflicts", "source_ids": ["up_alara"],
+      "source_excerpt": "necessary to create more of their dwindling etherium",
+      "summary": "The Alara plane primer identifies carmot as necessary to make more etherium for Esper.",
+      "limitation": "The page does not explain the exact material or magical synthesis recipe."
+    }
+  ],
+  "remaining": [
+    "Research the five shards' distinct civilizations and historical chronology using additional official primary sources; a single plane primer is not exhaustive.",
+    "Do not infer specific in-world years or a strict BEFORE relation from simultaneous conflict prose.",
+    "Do not treat the descriptive grouping of armies or undead as a formal canonical organization or confirm identities of unnamed participants.",
+    "Preserve the existing UP001 Bolas manipulation claim without duplicating or overriding it; the owner has not approved this pack."
+  ]
+}

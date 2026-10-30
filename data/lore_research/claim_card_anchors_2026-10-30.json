@@ -34631,6 +34631,13 @@
    "PRINTED_IN_STORY_SET": 12,
    "NAMED_PARTICIPANT": 47
   },
+  "pack_p5_alara_plane_profile_2026-10-30.json": {
+   "claims": 10,
+   "claims_anchored": 0,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 0
+  },
   "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json": {
    "claims": 31,
    "claims_anchored": 29,
@@ -35025,12 +35032,12 @@
   }
  },
  "counts": {
-  "claims": 1141,
+  "claims": 1151,
   "claims_anchored": 952,
   "anchors": 4051,
   "ART_IN_CITED_SOURCE": 123,
   "PRINTED_IN_STORY_SET": 546,
   "NAMED_PARTICIPANT": 3382
  },
- "content_sha256": "ad59a754911a4beb9119cf7261297319ba2f951888327723913b2b20d4cd17de"
+ "content_sha256": "fa7742edf2771cf233a963db4b12ac072edd77f85c01521f14cc8d2bd339535b"
 }
