@@ -18,5 +18,8 @@
  "curated_lore_graph": "data/lore_graph.json",
  "name_anchor_packs": [
   "data/lore_research/card_name_anchors_2026-10-30.json"
+ ],
+ "story_caption_packs": [
+  "data/story_atlas/story_art_captions_2026-10-30.json"
  ]
 }

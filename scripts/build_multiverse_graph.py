@@ -11,6 +11,9 @@ Inputs are listed in data/multiverse_graph/manifest.json:
 - ``art_match_packs``: Pack A4-style exact art/printing matches.
 - ``deck_evidence``: printing-evidence files for lore-deck proposals (unapproved). These
   produce ``proposed_in`` edges only and never canon assertions.
+- ``story_caption_packs``: scripts/build_story_art_captions.py atlases. For pages that are
+  already a registered graph Source, ``art_captioned_in_story`` edges link the Source to each
+  captioned Card (navigation only, never canon assertions).
 - ``curated_lore_graph``: data/lore_graph.json. Exact-name bridges to the curated wiki
   entries are labelled ``contextual_pointer`` (navigation only).
 
@@ -227,6 +230,25 @@ def ingest_name_anchors(g: Graph, rel: str) -> dict:
     return {"file": rel, "anchors": n}
 
 
+def ingest_story_captions(g: Graph, rel: str) -> dict:
+    d = load(rel)
+    origin = Path(rel).name
+    by_url = {n["url"]: n["id"] for n in g.nodes.values() if n["type"] == "Source" and n.get("url")}
+    n = 0
+    for page in d.get("pages", []):
+        src = by_url.get(page["url"])
+        if not src:
+            continue
+        artists: dict[str, set] = {}
+        for c in page["captions"]:
+            card = g.add_node(f"card:{slug(c['card'])}", "Card", c["card"], origin, oracle_id=c.get("oracle_id"))
+            artists.setdefault(card, set()).add(c["artist"])
+        for card in sorted(artists):
+            g.edge(src, "art_captioned_in_story", card, tier=d.get("tier", ""), artists=sorted(artists[card]))
+            n += 1
+    return {"file": rel, "caption_edges": n}
+
+
 def bridge_curated(g: Graph, rel: str) -> int:
     lg = load(rel)
     by_name: dict[str, list[str]] = {}
@@ -256,7 +278,8 @@ def build(manifest_path: Path = MANIFEST) -> dict:
     inputs = {"claim_packs": [ingest_claim_pack(g, r) for r in m["claim_packs"]],
               "art_match_packs": [ingest_art_pack(g, r) for r in m.get("art_match_packs", [])],
               "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])],
-              "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])]}
+              "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])],
+              "story_caption_packs": [ingest_story_captions(g, r) for r in m.get("story_caption_packs", [])]}
     bridges = bridge_curated(g, m["curated_lore_graph"]) if m.get("curated_lore_graph") else 0
     for rel in inputs:
         for item in inputs[rel]:
