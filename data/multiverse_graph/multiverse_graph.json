@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "7cd8a0a05df99458a8c9c3f2e33a1e57d27a549309353d90464134fb9e151f16",
+ "content_sha256": "5220e4762995c76256a325d8b7d615da18b5f711af77a845faef263663921d80",
  "edges": [
   {
    "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
@@ -1582,6 +1582,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:chain_veil",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_chain_veil"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "artifact:golgothian_sylex",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -1743,6 +1750,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:arvad",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:arvad_the_cursed"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ashnod",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -1754,6 +1768,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:ashnod_the_uncaring"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:chandra_nalaar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:chandra_nalaar"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -1789,6 +1810,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:dakkon_shadow_slayer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:danitha_capashen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:danitha_capashen_paragon"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -1841,6 +1869,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:gideon_jura",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gideon_jura"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:gix",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -1852,6 +1887,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:harbin_vanguard_aviator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jaya_ballard",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jaya_ballard"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jaya_ballard",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jaya_ballard_task_mage"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -1894,6 +1943,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:jodah_the_unifier"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:josu_vess",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:josu_vess_lich_knight"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -1953,6 +2009,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:liliana_vess",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:liliana_vess"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lyra_dawnbringer",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lyra_dawnbringer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:mishra",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -1992,6 +2062,20 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:mishra_tamer_of_mak_fawa"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:multani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:multani_maro_sorcerer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:multani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:multani_yavimaya_s_avatar"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -2037,6 +2121,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niambi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niambi_esteemed_speaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:niambi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:niambi_faithful_healer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:nicol_bolas",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2079,6 +2177,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nissa_revane",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nissa_revane"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:palladia_mors",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2100,10 +2205,38 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:radha",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:radha_coalition_warlord"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:radha",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:radha_heart_of_keld"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:radha",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:radha_heir_to_keld"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:raff_capashen",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:raff_capashen_ship_s_mage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:raven_man",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_raven_man"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -2275,6 +2408,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sisay",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:captain_sisay"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:slimefoot",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:slimefoot_the_stowaway"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:tawnos",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2366,6 +2513,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tiana",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tiana_ship_s_caretaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:ugin",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2443,6 +2597,41 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:venser",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:venser_corpse_puppet"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:venser",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:venser_fervent_forger"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:venser",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:venser_shaper_savant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:venser",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:venser_the_sojourner"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:venser",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:venser_visionary_traveler"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:yasova_dragonclaw",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2478,6 +2667,13 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:cabal_stronghold",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:cabal_stronghold"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "place:caves_of_koilos",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -2489,6 +2685,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:shiv",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:shiv"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -3445,6 +3648,400 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "RTD001",
+   "from": "character:jhoira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "salvaged",
+   "sources": [
+    "rtd_ep1",
+    "rtd_ep3"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "RTD002",
+   "from": "character:nissa_revane",
+   "grade": "CANON_CONFIRMED",
+   "relation": "left",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "faction:gatewatch"
+  },
+  {
+   "claim": "RTD003",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought_to_kill",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "character:belzenlok"
+  },
+  {
+   "claim": "RTD004",
+   "from": "character:belzenlok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "supplanted",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "character:kuberr"
+  },
+  {
+   "claim": "RTD005",
+   "from": "character:belzenlok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leads",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "faction:cabal"
+  },
+  {
+   "claim": "RTD006",
+   "from": "character:belzenlok",
+   "grade": "CANON_DISPUTED",
+   "relation": "claimed_forged",
+   "sources": [
+    "rtd_ep1",
+    "rtd_ep5"
+   ],
+   "to": "artifact:blackblade"
+  },
+  {
+   "claim": "RTD007",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "made_undead",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "character:josu_vess"
+  },
+  {
+   "claim": "RTD008",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spark_ignited_leaving",
+   "sources": [
+    "rtd_ep1"
+   ],
+   "to": "plane:dominaria"
+  },
+  {
+   "claim": "RTD009",
+   "from": "character:raven_man",
+   "grade": "CANON_CONFIRMED",
+   "relation": "manipulated",
+   "sources": [
+    "rtd_ep2"
+   ],
+   "to": "character:liliana_vess"
+  },
+  {
+   "claim": "RTD010",
+   "from": "character:belzenlok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "made_lich",
+   "sources": [
+    "rtd_ep2"
+   ],
+   "to": "character:josu_vess"
+  },
+  {
+   "claim": "RTD011",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "laid_to_rest",
+   "sources": [
+    "rtd_ep2"
+   ],
+   "to": "character:josu_vess"
+  },
+  {
+   "claim": "RTD012",
+   "from": "character:shanna",
+   "grade": "CANON_CONFIRMED",
+   "relation": "descendant_of",
+   "sources": [
+    "rtd_ep3"
+   ],
+   "to": "character:sisay"
+  },
+  {
+   "claim": "RTD013",
+   "from": "character:danitha_capashen",
+   "grade": "CANON_CONFIRMED",
+   "relation": "related_to",
+   "sources": [
+    "rtd_ep3"
+   ],
+   "to": "character:gerrard"
+  },
+  {
+   "claim": "RTD014",
+   "from": "character:urza",
+   "grade": "CANON_CONFIRMED",
+   "relation": "created",
+   "sources": [
+    "rtd_ep3"
+   ],
+   "to": "artifact:weatherlight_powerstone"
+  },
+  {
+   "claim": "RTD015",
+   "from": "character:tiana",
+   "grade": "CANON_CONFIRMED",
+   "relation": "reactivated",
+   "sources": [
+    "rtd_ep3"
+   ],
+   "to": "artifact:weatherlight_powerstone"
+  },
+  {
+   "claim": "RTD016",
+   "from": "character:tiana",
+   "grade": "CANON_CONFIRMED",
+   "relation": "guardian_of",
+   "sources": [
+    "rtd_ep4"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "RTD017",
+   "from": "character:arvad",
+   "grade": "CANON_CONFIRMED",
+   "relation": "is",
+   "sources": [
+    "rtd_ep4"
+   ],
+   "to": "literal:knight_of_benalia_turned_vampire"
+  },
+  {
+   "claim": "RTD018",
+   "from": "artifact:weatherlight_powerstone",
+   "grade": "CANON_IMPLIED",
+   "relation": "drew",
+   "sources": [
+    "rtd_ep10"
+   ],
+   "to": "character:arvad"
+  },
+  {
+   "claim": "RTD019",
+   "from": "character:slimefoot",
+   "grade": "CANON_CONFIRMED",
+   "relation": "grew_aboard",
+   "sources": [
+    "rtd_ep10"
+   ],
+   "to": "artifact:weatherlight"
+  },
+  {
+   "claim": "RTD020",
+   "from": "character:venser",
+   "grade": "CANON_CONFIRMED",
+   "relation": "gave_spark_to",
+   "sources": [
+    "rtd_ep5"
+   ],
+   "to": "character:karn"
+  },
+  {
+   "claim": "RTD021",
+   "from": "character:ajani",
+   "grade": "CANON_DISPUTED",
+   "relation": "assessed",
+   "sources": [
+    "rtd_ep5",
+    "rtd_ep9"
+   ],
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "claim": "RTD022",
+   "from": "artifact:blackblade",
+   "grade": "CANON_IMPLIED",
+   "relation": "killed",
+   "sources": [
+    "rtd_ep5"
+   ],
+   "to": "character:piru"
+  },
+  {
+   "claim": "RTD023",
+   "from": "artifact:blackblade",
+   "grade": "CANON_CONFIRMED",
+   "relation": "is",
+   "sources": [
+    "rtd_ep5"
+   ],
+   "to": "literal:soul_drinker"
+  },
+  {
+   "claim": "RTD024",
+   "from": "character:teferi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "phased_out",
+   "sources": [
+    "rtd_ep6"
+   ],
+   "to": "place:zhalfir"
+  },
+  {
+   "claim": "RTD025",
+   "from": "character:teferi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "spent_spark_on",
+   "sources": [
+    "rtd_ep6",
+    "rtd_ep7"
+   ],
+   "to": "place:shiv"
+  },
+  {
+   "claim": "RTD026",
+   "from": "character:niambi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "daughter_of",
+   "sources": [
+    "rtd_ep6"
+   ],
+   "to": "character:teferi"
+  },
+  {
+   "claim": "RTD027",
+   "from": "character:niambi",
+   "grade": "CANON_CONFIRMED",
+   "relation": "made",
+   "sources": [
+    "rtd_ep6"
+   ],
+   "to": "artifact:teferis_spark_stone"
+  },
+  {
+   "claim": "RTD028",
+   "from": "character:teferi",
+   "grade": "CANON_IMPLIED",
+   "relation": "regained_spark_from",
+   "sources": [
+    "rtd_ep11"
+   ],
+   "to": "artifact:teferis_spark_stone"
+  },
+  {
+   "claim": "RTD029",
+   "from": "character:jaya_ballard",
+   "grade": "CANON_CONFIRMED",
+   "relation": "disguised_as",
+   "sources": [
+    "rtd_ep9"
+   ],
+   "to": "literal:luti"
+  },
+  {
+   "claim": "RTD030",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sought",
+   "sources": [
+    "rtd_ep8"
+   ],
+   "to": "character:jaya_ballard"
+  },
+  {
+   "claim": "RTD031",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "excavated",
+   "sources": [
+    "rtd_ep9"
+   ],
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "claim": "RTD032",
+   "from": "artifact:rtd_sylex",
+   "grade": "CANON_IMPLIED",
+   "relation": "identified_with",
+   "sources": [
+    "rtd_ep9"
+   ],
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "claim": "RTD033",
+   "from": "artifact:rtd_sylex",
+   "grade": "CANON_DISPUTED",
+   "relation": "origin",
+   "sources": [
+    "rtd_ep9"
+   ],
+   "to": "literal:urza_per_karn"
+  },
+  {
+   "claim": "RTD034",
+   "from": "character:multani",
+   "grade": "CANON_CONFIRMED",
+   "relation": "opposed",
+   "sources": [
+    "rtd_ep9"
+   ],
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "claim": "RTD035",
+   "from": "place:cabal_stronghold",
+   "grade": "CANON_CONFIRMED",
+   "relation": "originally",
+   "sources": [
+    "rtd_ep11"
+   ],
+   "to": "literal:phyrexian_base"
+  },
+  {
+   "claim": "RTD036",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "rtd_ep12"
+   ],
+   "to": "character:belzenlok"
+  },
+  {
+   "claim": "RTD037",
+   "from": "event:belzenlok_death",
+   "grade": "CANON_CONFIRMED",
+   "relation": "involved",
+   "sources": [
+    "rtd_ep12"
+   ],
+   "to": "artifact:blackblade"
+  },
+  {
+   "claim": "RTD038",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "holds_pact_of",
+   "sources": [
+    "rtd_ep12"
+   ],
+   "to": "character:liliana_vess"
+  },
+  {
+   "claim": "RTD039",
+   "from": "character:radha",
+   "grade": "CANON_CONFIRMED",
+   "relation": "freed_from",
+   "sources": [
+    "rtd_ep12"
+   ],
+   "to": "faction:cabal"
+  },
+  {
    "from": "artifact:golgothian_sylex",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -3459,6 +4056,18 @@
    ],
    "tier": "NAMED_CHARACTER_CARD",
    "to": "card:arcades_the_strategist"
+  },
+  {
+   "from": "character:chandra_nalaar",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#chandra-nalaar"
+  },
+  {
+   "from": "character:chandra_nalaar",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#chandra-nalaar"
   },
   {
    "from": "character:chromium_rhuell",
@@ -3499,6 +4108,24 @@
    "to": "curated:Characters Index.md#geyadrone-dihada"
   },
   {
+   "from": "character:gideon_jura",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#gideon-jura"
+  },
+  {
+   "from": "character:gideon_jura",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#gideon-jura"
+  },
+  {
+   "from": "character:jaya_ballard",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#jaya-ballard"
+  },
+  {
    "from": "character:karn",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -3509,6 +4136,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#karn"
+  },
+  {
+   "from": "character:liliana_vess",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#liliana-vess"
+  },
+  {
+   "from": "character:liliana_vess",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#liliana-vess"
   },
   {
    "from": "character:mishra",
@@ -3549,6 +4188,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#nicol-bolas"
+  },
+  {
+   "from": "character:nissa_revane",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#nissa-revane"
+  },
+  {
+   "from": "character:nissa_revane",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#nissa-revane"
   },
   {
    "from": "character:palladia_mors",
@@ -3637,6 +4288,18 @@
    ],
    "tier": "NAMED_CHARACTER_CARD",
    "to": "card:vaevictis_asmadi_the_dire"
+  },
+  {
+   "from": "character:venser",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#venser"
+  },
+  {
+   "from": "character:venser",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#venser"
   },
   {
    "from": "character:yawgmoth",
@@ -4665,6 +5328,474 @@
    "to": "character:elesh_norn"
   },
   {
+   "from": "claim:RTD001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:RTD001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jhoira"
+  },
+  {
+   "from": "claim:RTD002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:gatewatch"
+  },
+  {
+   "from": "claim:RTD002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:RTD003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kuberr"
+  },
+  {
+   "from": "claim:RTD004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:cabal"
+  },
+  {
+   "from": "claim:RTD005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:blackblade"
+  },
+  {
+   "from": "claim:RTD006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:josu_vess"
+  },
+  {
+   "from": "claim:RTD007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:dominaria"
+  },
+  {
+   "from": "claim:RTD008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:raven_man"
+  },
+  {
+   "from": "claim:RTD010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:josu_vess"
+  },
+  {
+   "from": "claim:RTD010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:josu_vess"
+  },
+  {
+   "from": "claim:RTD011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sisay"
+  },
+  {
+   "from": "claim:RTD012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:shanna"
+  },
+  {
+   "from": "claim:RTD013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:gerrard"
+  },
+  {
+   "from": "claim:RTD013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:danitha_capashen"
+  },
+  {
+   "from": "claim:RTD014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight_powerstone"
+  },
+  {
+   "from": "claim:RTD014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:urza"
+  },
+  {
+   "from": "claim:RTD015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight_powerstone"
+  },
+  {
+   "from": "claim:RTD015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tiana"
+  },
+  {
+   "from": "claim:RTD016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:RTD016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tiana"
+  },
+  {
+   "from": "claim:RTD017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:knight_of_benalia_turned_vampire"
+  },
+  {
+   "from": "claim:RTD017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:arvad"
+  },
+  {
+   "from": "claim:RTD018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:arvad"
+  },
+  {
+   "from": "claim:RTD018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:weatherlight_powerstone"
+  },
+  {
+   "from": "claim:RTD019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:weatherlight"
+  },
+  {
+   "from": "claim:RTD019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:slimefoot"
+  },
+  {
+   "from": "claim:RTD020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:RTD020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:venser"
+  },
+  {
+   "from": "claim:RTD021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:RTD021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:RTD022",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:piru"
+  },
+  {
+   "from": "claim:RTD022",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:blackblade"
+  },
+  {
+   "from": "claim:RTD023",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:soul_drinker"
+  },
+  {
+   "from": "claim:RTD023",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:blackblade"
+  },
+  {
+   "from": "claim:RTD024",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:zhalfir"
+  },
+  {
+   "from": "claim:RTD024",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:RTD025",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:shiv"
+  },
+  {
+   "from": "claim:RTD025",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:RTD026",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:RTD026",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:niambi"
+  },
+  {
+   "from": "claim:RTD027",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:teferis_spark_stone"
+  },
+  {
+   "from": "claim:RTD027",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:niambi"
+  },
+  {
+   "from": "claim:RTD028",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:teferis_spark_stone"
+  },
+  {
+   "from": "claim:RTD028",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
+   "from": "claim:RTD029",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:luti"
+  },
+  {
+   "from": "claim:RTD029",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jaya_ballard"
+  },
+  {
+   "from": "claim:RTD030",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jaya_ballard"
+  },
+  {
+   "from": "claim:RTD030",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:RTD031",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "from": "claim:RTD031",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:RTD032",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:golgothian_sylex"
+  },
+  {
+   "from": "claim:RTD032",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "from": "claim:RTD033",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:urza_per_karn"
+  },
+  {
+   "from": "claim:RTD033",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "from": "claim:RTD034",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:rtd_sylex"
+  },
+  {
+   "from": "claim:RTD034",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:multani"
+  },
+  {
+   "from": "claim:RTD035",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:phyrexian_base"
+  },
+  {
+   "from": "claim:RTD035",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:cabal_stronghold"
+  },
+  {
+   "from": "claim:RTD036",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:belzenlok"
+  },
+  {
+   "from": "claim:RTD036",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD037",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:blackblade"
+  },
+  {
+   "from": "claim:RTD037",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:belzenlok_death"
+  },
+  {
+   "from": "claim:RTD038",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:RTD038",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:RTD039",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:cabal"
+  },
+  {
+   "from": "claim:RTD039",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:radha"
+  },
+  {
    "from": "event:brothers_war",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -5227,6 +6358,221 @@
    "to": "claim:A030"
   },
   {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD001"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD002"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD003"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD004"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD005"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD006"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD007"
+  },
+  {
+   "from": "source:rtd_ep1",
+   "relation": "cited_by",
+   "to": "claim:RTD008"
+  },
+  {
+   "from": "source:rtd_ep10",
+   "relation": "cited_by",
+   "to": "claim:RTD018"
+  },
+  {
+   "from": "source:rtd_ep10",
+   "relation": "cited_by",
+   "to": "claim:RTD019"
+  },
+  {
+   "from": "source:rtd_ep11",
+   "relation": "cited_by",
+   "to": "claim:RTD028"
+  },
+  {
+   "from": "source:rtd_ep11",
+   "relation": "cited_by",
+   "to": "claim:RTD035"
+  },
+  {
+   "from": "source:rtd_ep12",
+   "relation": "cited_by",
+   "to": "claim:RTD036"
+  },
+  {
+   "from": "source:rtd_ep12",
+   "relation": "cited_by",
+   "to": "claim:RTD037"
+  },
+  {
+   "from": "source:rtd_ep12",
+   "relation": "cited_by",
+   "to": "claim:RTD038"
+  },
+  {
+   "from": "source:rtd_ep12",
+   "relation": "cited_by",
+   "to": "claim:RTD039"
+  },
+  {
+   "from": "source:rtd_ep2",
+   "relation": "cited_by",
+   "to": "claim:RTD009"
+  },
+  {
+   "from": "source:rtd_ep2",
+   "relation": "cited_by",
+   "to": "claim:RTD010"
+  },
+  {
+   "from": "source:rtd_ep2",
+   "relation": "cited_by",
+   "to": "claim:RTD011"
+  },
+  {
+   "from": "source:rtd_ep3",
+   "relation": "cited_by",
+   "to": "claim:RTD001"
+  },
+  {
+   "from": "source:rtd_ep3",
+   "relation": "cited_by",
+   "to": "claim:RTD012"
+  },
+  {
+   "from": "source:rtd_ep3",
+   "relation": "cited_by",
+   "to": "claim:RTD013"
+  },
+  {
+   "from": "source:rtd_ep3",
+   "relation": "cited_by",
+   "to": "claim:RTD014"
+  },
+  {
+   "from": "source:rtd_ep3",
+   "relation": "cited_by",
+   "to": "claim:RTD015"
+  },
+  {
+   "from": "source:rtd_ep4",
+   "relation": "cited_by",
+   "to": "claim:RTD016"
+  },
+  {
+   "from": "source:rtd_ep4",
+   "relation": "cited_by",
+   "to": "claim:RTD017"
+  },
+  {
+   "from": "source:rtd_ep5",
+   "relation": "cited_by",
+   "to": "claim:RTD006"
+  },
+  {
+   "from": "source:rtd_ep5",
+   "relation": "cited_by",
+   "to": "claim:RTD020"
+  },
+  {
+   "from": "source:rtd_ep5",
+   "relation": "cited_by",
+   "to": "claim:RTD021"
+  },
+  {
+   "from": "source:rtd_ep5",
+   "relation": "cited_by",
+   "to": "claim:RTD022"
+  },
+  {
+   "from": "source:rtd_ep5",
+   "relation": "cited_by",
+   "to": "claim:RTD023"
+  },
+  {
+   "from": "source:rtd_ep6",
+   "relation": "cited_by",
+   "to": "claim:RTD024"
+  },
+  {
+   "from": "source:rtd_ep6",
+   "relation": "cited_by",
+   "to": "claim:RTD025"
+  },
+  {
+   "from": "source:rtd_ep6",
+   "relation": "cited_by",
+   "to": "claim:RTD026"
+  },
+  {
+   "from": "source:rtd_ep6",
+   "relation": "cited_by",
+   "to": "claim:RTD027"
+  },
+  {
+   "from": "source:rtd_ep7",
+   "relation": "cited_by",
+   "to": "claim:RTD025"
+  },
+  {
+   "from": "source:rtd_ep8",
+   "relation": "cited_by",
+   "to": "claim:RTD030"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD021"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD029"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD031"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD032"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD033"
+  },
+  {
+   "from": "source:rtd_ep9",
+   "relation": "cited_by",
+   "to": "claim:RTD034"
+  },
+  {
    "from": "source:tarkir_plane",
    "relation": "cited_by",
    "to": "claim:A006"
@@ -5335,6 +6681,13 @@
     "file": "data/lore_research/pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
     "sha256": "75bfb5657647eba8bc8e0978ab327a09e3f212f428939772164e04ca3e356133",
     "sources": 6
+   },
+   {
+    "claims": 39,
+    "entities": 46,
+    "file": "data/lore_research/pack_c2_return_to_dominaria_2026-10-30.json",
+    "sha256": "9afc9989ee9ab4084382b03e7b2c2ac0a4f160d47d2b87fdf66b03e39638a697",
+    "sources": 12
    }
   ],
   "deck_evidence": [
@@ -5351,9 +6704,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 131,
+    "anchors": 160,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "01ab0fc2b44d4b5d3edc895ad05041000306c631af2bd39e0e5c6784c698ce24"
+    "sha256": "622080face553f5b13f707d1f307bddb90f45dc998c3c33e3d082780404c73fb"
    }
   ]
  },
@@ -5368,10 +6721,27 @@
  "meaning": "Directional, cited relationships compiled from committed research packs. A relationship edge inherits its claim's canon status; deck-proposal and curated-bridge edges are navigation, never canon assertions.",
  "nodes": [
   {
+   "id": "artifact:blackblade",
+   "name": "The Blackblade",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:chain_veil",
+   "name": "The Chain Veil",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:golgothian_sylex",
    "name": "Golgothian Sylex",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -5384,10 +6754,26 @@
    "type": "Object"
   },
   {
+   "id": "artifact:rtd_sylex",
+   "name": "The Sylex (as named in Return to Dominaria Ep. 9)",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
    "id": "artifact:sylex_replica",
    "name": "Saheeli's sylex replica",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:teferis_spark_stone",
+   "name": "Powerstone holding Teferi's spark",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -5403,7 +6789,16 @@
    "id": "artifact:weatherlight",
    "name": "Weatherlight (skyship)",
    "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:weatherlight_powerstone",
+   "name": "Weatherlight's Powerstone",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -5610,6 +7005,15 @@
    "type": "Card"
   },
   {
+   "id": "card:arvad_the_cursed",
+   "name": "Arvad the Cursed",
+   "oracle_id": "d561dcff-0a19-46ac-9dee-f374c840d532",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:ashnod_flesh_mechanist",
    "name": "Ashnod, Flesh Mechanist",
    "oracle_id": "7dfae95e-f67e-49e3-b68a-40ea7e5099dd",
@@ -5691,6 +7095,24 @@
    "type": "Card"
   },
   {
+   "id": "card:cabal_stronghold",
+   "name": "Cabal Stronghold",
+   "oracle_id": "066cd584-773c-4623-be53-8f6feda5a26a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:captain_sisay",
+   "name": "Captain Sisay",
+   "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:cavern_of_souls",
    "name": "Cavern of Souls",
    "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
@@ -5703,6 +7125,15 @@
    "id": "card:caves_of_koilos",
    "name": "Caves of Koilos",
    "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:chandra_nalaar",
+   "name": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -5921,6 +7352,15 @@
     "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:danitha_capashen_paragon",
+   "name": "Danitha Capashen, Paragon",
+   "oracle_id": "4b6377da-83e7-4519-9582-16a9c16b8faa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -6214,6 +7654,15 @@
    "type": "Card"
   },
   {
+   "id": "card:gideon_jura",
+   "name": "Gideon Jura",
+   "oracle_id": "7340dbcb-4b26-4038-be8c-a89e76294221",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:gix_yawgmoth_praetor",
    "name": "Gix, Yawgmoth Praetor",
    "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
@@ -6340,6 +7789,24 @@
    "type": "Card"
   },
   {
+   "id": "card:jaya_ballard",
+   "name": "Jaya Ballard",
+   "oracle_id": "a56c5ca5-70eb-4d5f-8116-2acbe5f5a3cb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jaya_ballard_task_mage",
+   "name": "Jaya Ballard, Task Mage",
+   "oracle_id": "cbbad3da-695e-4527-9678-0942f3751287",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jetmir_s_garden",
    "name": "Jetmir's Garden",
    "oracle_id": "f5896356-5744-4f7e-a4e5-1cc36dde5958",
@@ -6397,6 +7864,15 @@
    "id": "card:jodah_the_unifier",
    "name": "Jodah, the Unifier",
    "oracle_id": "490a8045-e160-4ccf-a05e-658ad2b7ac2d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:josu_vess_lich_knight",
+   "name": "Josu Vess, Lich Knight",
+   "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -6529,6 +8005,24 @@
    "type": "Card"
   },
   {
+   "id": "card:liliana_vess",
+   "name": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lyra_dawnbringer",
+   "name": "Lyra Dawnbringer",
+   "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:maelstrom_of_the_spirit_dragon",
    "name": "Maelstrom of the Spirit Dragon",
    "oracle_id": "49e9fba7-8465-4bbb-95db-73a7e149f494",
@@ -6628,6 +8122,24 @@
    "type": "Card"
   },
   {
+   "id": "card:multani_maro_sorcerer",
+   "name": "Multani, Maro-Sorcerer",
+   "oracle_id": "bce5b327-7da1-4136-b76f-069e2fef5d2a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:multani_yavimaya_s_avatar",
+   "name": "Multani, Yavimaya's Avatar",
+   "oracle_id": "4b8bf64b-4800-45ff-81c6-2857f34999b5",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:narset_enlightened_exile",
    "name": "Narset, Enlightened Exile",
    "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
@@ -6696,6 +8208,24 @@
    "oracle_id": "b0d3fd57-1420-4dd1-8410-9d659655287f",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niambi_esteemed_speaker",
+   "name": "Niambi, Esteemed Speaker",
+   "oracle_id": "91c9dbd8-a8d8-4a4e-8408-3ad92e974d11",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:niambi_faithful_healer",
+   "name": "Niambi, Faithful Healer",
+   "oracle_id": "0c107664-a9fc-4684-8a1b-fa750401a6dd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -6771,6 +8301,15 @@
    "type": "Card"
   },
   {
+   "id": "card:nissa_revane",
+   "name": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:no_escape",
    "name": "No Escape",
    "oracle_id": "7c6e0198-edd8-42b8-ba1b-549e1713d188",
@@ -6835,6 +8374,33 @@
    "oracle_id": "a38ace5b-34f5-4105-b6ee-dedb86037729",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:radha_coalition_warlord",
+   "name": "Radha, Coalition Warlord",
+   "oracle_id": "fbf0bde7-cb13-402b-b3ab-81c787ce4827",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:radha_heart_of_keld",
+   "name": "Radha, Heart of Keld",
+   "oracle_id": "927fb139-0493-48be-8cc4-2c7d854d6a55",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:radha_heir_to_keld",
+   "name": "Radha, Heir to Keld",
+   "oracle_id": "61d94fe7-b559-4bd4-94a7-f4ed4c853b4b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7159,6 +8725,15 @@
    "type": "Card"
   },
   {
+   "id": "card:shiv",
+   "name": "Shiv",
+   "oracle_id": "70edae19-e278-401d-9772-508bd66320a6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:shivan_reef",
    "name": "Shivan Reef",
    "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
@@ -7182,6 +8757,15 @@
    "oracle_id": "07190a8b-2a59-45b3-9fbf-505161698a9c",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:slimefoot_the_stowaway",
+   "name": "Slimefoot, the Stowaway",
+   "oracle_id": "fd541139-de13-4b32-93ba-070ecf711d33",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7430,6 +9014,15 @@
    "type": "Card"
   },
   {
+   "id": "card:the_chain_veil",
+   "name": "The Chain Veil",
+   "oracle_id": "fb88fb3d-6a85-4bb1-b316-7f759b45a0fa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_elder_dragon_war",
    "name": "The Elder Dragon War",
    "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
@@ -7454,6 +9047,15 @@
    "id": "card:the_mightstone_and_weakstone",
    "name": "The Mightstone and Weakstone",
    "oracle_id": "c396db03-bf11-4e20-b630-4f9aa8fd78da",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_raven_man",
+   "name": "The Raven Man",
+   "oracle_id": "19918740-f6e3-40cd-9848-3c7a852a6c2a",
    "origins": [
     "card_name_anchors_2026-10-30.json"
    ],
@@ -7492,6 +9094,15 @@
    "oracle_id": "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tiana_ship_s_caretaker",
+   "name": "Tiana, Ship's Caretaker",
+   "oracle_id": "80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -7755,6 +9366,51 @@
    "type": "Card"
   },
   {
+   "id": "card:venser_corpse_puppet",
+   "name": "Venser, Corpse Puppet",
+   "oracle_id": "17c934a7-3480-4309-a217-ca2550538ae7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:venser_fervent_forger",
+   "name": "Venser, Fervent Forger",
+   "oracle_id": "9b1ae6d8-0cf3-4a67-9241-37f4bc5ddbdd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:venser_shaper_savant",
+   "name": "Venser, Shaper Savant",
+   "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:venser_the_sojourner",
+   "name": "Venser, the Sojourner",
+   "oracle_id": "a8bf8ff8-d924-4fd2-b5ed-05b38f55325a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:venser_visionary_traveler",
+   "name": "Venser, Visionary Traveler",
+   "oracle_id": "f4a64308-5f24-47c0-83f9-ee16a3b4f143",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:visage_of_bolas",
    "name": "Visage of Bolas",
    "oracle_id": "21bb3c03-c1c0-40ec-8df4-8d0054c3742b",
@@ -7865,7 +9521,8 @@
    "id": "character:ajani",
    "name": "Ajani",
    "origins": [
-    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+    "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -7878,10 +9535,34 @@
    "type": "Character"
   },
   {
+   "id": "character:arvad",
+   "name": "Arvad",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:ashnod",
    "name": "Ashnod",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:belzenlok",
+   "name": "Belzenlok",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:chandra_nalaar",
+   "name": "Chandra Nalaar",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -7905,7 +9586,16 @@
    "id": "character:dakkon",
    "name": "Dakkon Blackblade",
    "origins": [
-    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:danitha_capashen",
+   "name": "Danitha Capashen",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -7921,6 +9611,7 @@
    "id": "character:gerrard",
    "name": "Gerrard Capashen",
    "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -7930,6 +9621,14 @@
    "name": "Geyadrone Dihada",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:gideon_jura",
+   "name": "Gideon Jura",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -7950,9 +9649,18 @@
    "type": "Character"
   },
   {
+   "id": "character:jaya_ballard",
+   "name": "Jaya Ballard",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:jhoira",
    "name": "Jhoira",
    "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -7966,10 +9674,19 @@
    "type": "Character"
   },
   {
+   "id": "character:josu_vess",
+   "name": "Josu Vess",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:karn",
    "name": "Karn",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -7983,11 +9700,43 @@
    "type": "Character"
   },
   {
+   "id": "character:kuberr",
+   "name": "Kuberr",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:liliana_vess",
+   "name": "Liliana Vess",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:lyra_dawnbringer",
+   "name": "Lyra Dawnbringer",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:mishra",
    "name": "Mishra",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:multani",
+   "name": "Multani",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8000,10 +9749,27 @@
    "type": "Character"
   },
   {
+   "id": "character:niambi",
+   "name": "Niambi",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:nicol_bolas",
    "name": "Nicol Bolas",
    "origins": [
-    "pack_a_ugin_bolas_evidence_2026-10-30.json"
+    "pack_a_ugin_bolas_evidence_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:nissa_revane",
+   "name": "Nissa Revane",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8019,7 +9785,16 @@
    "id": "character:piru",
    "name": "Piru",
    "origins": [
-    "pack_a_elder_dragon_war_extension_2026-10-30.json"
+    "pack_a_elder_dragon_war_extension_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:radha",
+   "name": "Radha",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8027,7 +9802,16 @@
    "id": "character:raff_capashen",
    "name": "Raff Capashen",
    "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:raven_man",
+   "name": "The Raven Man",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8059,6 +9843,7 @@
    "id": "character:shanna",
    "name": "Shanna",
    "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -8068,6 +9853,22 @@
    "name": "Sheoldred",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:sisay",
+   "name": "Captain Sisay",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:slimefoot",
+   "name": "Slimefoot",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8084,7 +9885,16 @@
    "name": "Teferi",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tiana",
+   "name": "Tiana",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -8101,6 +9911,7 @@
    "name": "Urza",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -8110,6 +9921,14 @@
    "name": "Vaevictis Asmadi",
    "origins": [
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:venser",
+   "name": "Venser",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -9065,6 +10884,443 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD001",
+   "name": "Jhoira raises the sunken Weatherlight with merfolk and a human salvage crew and begins rebuilding it.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "salvaged",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD002",
+   "name": "After Amonkhet, Nissa leaves the Gatewatch and Dominaria.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "left",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD003",
+   "name": "Belzenlok is the last demon of Liliana's pact; Gideon stays on Dominaria to help her kill him.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "sought_to_kill",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD004",
+   "limitation": "Narrated from Liliana's point of view.",
+   "name": "Belzenlok supplanted the god Kuberr to take control of the Cabal.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "supplanted",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD005",
+   "name": "Belzenlok is worshipped by the Cabal, a death cult, from its Stronghold in Urborg.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "leads",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:RTD006",
+   "limitation": "Belzenlok's claims are in-story propaganda; this pack does not resolve the forger.",
+   "name": "Cultists credit Belzenlok with forging the Blackblade and slaying an elder dragon; a disciple starts to name Dakkon Blackblade instead, and Jhoira says Belzenlok takes credit for every shift in Dominaria's history.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "claimed_forged",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD007",
+   "name": "Long ago, Liliana's attempt to heal her brother Josu turned him undead.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "made_undead",
+   "stage": "liliana_backstory",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD008",
+   "name": "Liliana's spark ignited as she fled Dominaria after Josu's transformation.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "spark_ignited_leaving",
+   "stage": "liliana_backstory",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD009",
+   "limitation": "The Raven Man's identity is not established in this pack.",
+   "name": "The Raven Man manipulated Liliana into the healing work that undid Josu.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "manipulated",
+   "stage": "liliana_backstory",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD010",
+   "name": "Belzenlok made Josu his lich and general in Caligo.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "made_lich",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD011",
+   "name": "At Vess Manor, Liliana uses the Chain Veil to unmake the lich Josu and end the curse of House Vess.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "laid_to_rest",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD012",
+   "name": "Shanna is a descendant of Captain Sisay and carries her sword; she joins the Weatherlight crew.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "descendant_of",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD013",
+   "name": "Danitha Capashen is distantly related to Gerrard; she declines Jhoira's invitation.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "related_to",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD014",
+   "name": "Urza created the Weatherlight's Powerstone by collapsing Serra's Realm into it.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "created",
+   "stage": "pre_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD015",
+   "name": "Tiana's prayer revives the inert Powerstone.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "reactivated",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD016",
+   "name": "Tiana, an angel of Serra, realizes she is the Weatherlight's guardian angel.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "guardian_of",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD017",
+   "name": "Arvad is a Knight of Benalia who was captured and made a vampire.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "is",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RTD018",
+   "limitation": "'White star' is Slimefoot's perception; identifying it with the Powerstone is an inference.",
+   "name": "Arvad was drawn across the world to the ship by what Slimefoot perceives as the 'white star'.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "drew",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD019",
+   "name": "The saproling Slimefoot sprouted and grew aboard the Weatherlight.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "grew_aboard",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD020",
+   "name": "Venser gave his spark to Karn to rescue him and died.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "gave_spark_to",
+   "stage": "scars_of_mirrodin",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:RTD021",
+   "limitation": "These are in-story assessments; later official stories show a Phyrexian threat to Dominaria.",
+   "name": "Ajani tells Jhoira the Phyrexians are contained on one fallen plane; Jaya doubts the common belief that they are no longer a threat.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "assessed",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RTD022",
+   "name": "Jhoira says the Blackblade killed an elder dragon; Shanna names Piru, hedged with 'I think'.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "elder_dragon_war",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD023",
+   "name": "The Blackblade is a soul-drinker that steals the life-energy of everything it kills.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "is",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD024",
+   "name": "During the Phyrexian Invasion, Teferi phased Zhalfir partially out of Dominaria to spare it.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "phased_out",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD025",
+   "name": "Teferi spent his spark repairing Shiv's time rift, which left him unable to return Zhalfir.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "spent_spark_on",
+   "stage": "temporal_rifts_mending",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD026",
+   "name": "Niambi is Teferi's daughter.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "daughter_of",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD027",
+   "name": "Niambi made a Powerstone at the Thran Mana Rig that holds Teferi's spark.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "made",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RTD028",
+   "limitation": "Ep. 11 states he took it back; that the stone in Ep. 6 is the mechanism is an inference across episodes.",
+   "name": "Teferi takes his spark back to join the fight against Bolas.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "regained_spark_from",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD029",
+   "name": "Luti, the old woman at the Keral Keep monastery, was Jaya Ballard in disguise.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "disguised_as",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD030",
+   "name": "Chandra seeks Jaya Ballard on Dominaria to learn from her.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "sought",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD031",
+   "name": "Karn excavates the Sylex and intends to detonate it on New Phyrexia.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "excavated",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:RTD032",
+   "limitation": "The episode says 'the Sylex'; identity with the Golgothian Sylex is inferred.",
+   "name": "The Sylex harmed Multani in the past, which implies the Golgothian Sylex of Argoth.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "identified_with",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_DISPUTED",
+   "id": "claim:RTD033",
+   "limitation": "In-story statement by Karn; see Pack B B012.",
+   "name": "Karn says Urza created the Sylex; Pack B (B012) preserves competing official origin legends.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "origin",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD034",
+   "name": "A semiconscious Multani attacks the dig site, fearing the Sylex.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD035",
+   "name": "The Cabal Stronghold was first built as a Phyrexian base.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "originally",
+   "stage": "first_invasion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD036",
+   "name": "Gideon carries the Blackblade into the fight, and Liliana uses it to drain and kill Belzenlok.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD037",
+   "name": "The crew recovers the Blackblade from the Stronghold's fourth treasury vault before the final battle.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "involved",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD038",
+   "name": "After Belzenlok dies, Bolas reveals that Liliana's pact now binds her to him.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "holds_pact_of",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:RTD039",
+   "name": "Radha is freed from the Cabal's prison after the Stronghold falls.",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "predicate": "freed_from",
+   "stage": "rtd_2018",
+   "type": "Claim"
+  },
+  {
    "id": "concept:glistening_oil",
    "name": "Glistening oil",
    "origins": [
@@ -9105,6 +11361,14 @@
    "type": "AlternateContinuity"
   },
   {
+   "id": "curated:Characters Index.md#chandra-nalaar",
+   "name": "Characters Index.md#chandra-nalaar",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#dakkon-blackblade",
    "name": "Characters Index.md#dakkon-blackblade",
    "origins": [
@@ -9129,8 +11393,32 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#gideon-jura",
+   "name": "Characters Index.md#gideon-jura",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#jaya-ballard",
+   "name": "Characters Index.md#jaya-ballard",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#karn",
    "name": "Characters Index.md#karn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#liliana-vess",
+   "name": "Characters Index.md#liliana-vess",
    "origins": [
     "lore_graph.json"
    ],
@@ -9155,6 +11443,14 @@
   {
    "id": "curated:Characters Index.md#nicol-bolas",
    "name": "Characters Index.md#nicol-bolas",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#nissa-revane",
+   "name": "Characters Index.md#nissa-revane",
    "origins": [
     "lore_graph.json"
    ],
@@ -9201,6 +11497,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#venser",
+   "name": "Characters Index.md#venser",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#yawgmoth",
    "name": "Characters Index.md#yawgmoth",
    "origins": [
@@ -9233,8 +11537,32 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#chandra-nalaar",
+   "name": "Planeswalker Dossiers.md#chandra-nalaar",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#gideon-jura",
+   "name": "Planeswalker Dossiers.md#gideon-jura",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#karn",
    "name": "Planeswalker Dossiers.md#karn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#liliana-vess",
+   "name": "Planeswalker Dossiers.md#liliana-vess",
    "origins": [
     "lore_graph.json"
    ],
@@ -9251,6 +11579,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#nicol-bolas",
    "name": "Planeswalker Dossiers.md#nicol-bolas",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#nissa-revane",
+   "name": "Planeswalker Dossiers.md#nissa-revane",
    "origins": [
     "lore_graph.json"
    ],
@@ -9281,6 +11617,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#venser",
+   "name": "Planeswalker Dossiers.md#venser",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "deck:original_primeval_dragons",
    "name": "Original Primeval Dragons - the Elder Dragons and their Primeval heirs (Phase 6 Pilot 2)",
    "origins": [
@@ -9299,6 +11643,14 @@
    "raw_sha256": "01d087aa2819b1ed3c7ac1f64843f76f36b551b72fda62d64218d19c40b0ab45",
    "status": "UNAPPROVED PROPOSAL - awaiting Cory's review; not approved, not locked, not certified",
    "type": "DeckProposal"
+  },
+  {
+   "id": "event:belzenlok_death",
+   "name": "Death of Belzenlok at the Cabal Stronghold",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Event"
   },
   {
    "id": "event:brothers_war",
@@ -9406,10 +11758,26 @@
    "type": "Event"
   },
   {
+   "id": "faction:cabal",
+   "name": "The Cabal",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:coalition",
    "name": "The Coalition",
    "origins": [
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:gatewatch",
+   "name": "The Gatewatch",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -9420,6 +11788,30 @@
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Faction"
+  },
+  {
+   "id": "literal:knight_of_benalia_turned_vampire",
+   "name": "Knight of Benalia turned vampire",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:luti",
+   "name": "Luti",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:phyrexian_base",
+   "name": "Phyrexian base",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Literal"
   },
   {
    "id": "literal:planeswalker_spark",
@@ -9442,6 +11834,14 @@
    "name": "pre_duel_time_travel",
    "origins": [
     "pack_a_tarkir_card_scenes_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
+   "id": "literal:soul_drinker",
+   "name": "soul-drinker",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Literal"
   },
@@ -9479,10 +11879,26 @@
    "type": "Literal"
   },
   {
+   "id": "literal:urza_per_karn",
+   "name": "Urza (per Karn)",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
    "id": "place:argoth",
    "name": "Argoth",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:cabal_stronghold",
+   "name": "Cabal Stronghold",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -9511,6 +11927,14 @@
    "type": "Place"
   },
   {
+   "id": "place:shiv",
+   "name": "Shiv",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:tomb_spirit_dragon",
    "name": "Tomb of the Spirit Dragon",
    "origins": [
@@ -9527,11 +11951,20 @@
    "type": "Place"
   },
   {
+   "id": "place:zhalfir",
+   "name": "Zhalfir",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "plane:dominaria",
    "name": "Dominaria",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json",
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
+    "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Plane"
@@ -9553,11 +11986,27 @@
    "type": "Plane"
   },
   {
+   "id": "plane:new_phyrexia",
+   "name": "New Phyrexia",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:old_phyrexia",
    "name": "Phyrexia",
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:serras_realm",
+   "name": "Serra's Realm",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -9910,6 +12359,138 @@
    "url": "https://magic.wizards.com/en/news/feature/reforged-chain-2015-01-21"
   },
   {
+   "id": "source:rtd_ep1",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 1",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21"
+  },
+  {
+   "id": "source:rtd_ep10",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 10",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-10-2018-05-16"
+  },
+  {
+   "id": "source:rtd_ep11",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 11",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23"
+  },
+  {
+   "id": "source:rtd_ep12",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 12",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-12-2018-05-30"
+  },
+  {
+   "id": "source:rtd_ep2",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 2",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22"
+  },
+  {
+   "id": "source:rtd_ep3",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 3",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28"
+  },
+  {
+   "id": "source:rtd_ep4",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 4",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-4-2018-04-04"
+  },
+  {
+   "id": "source:rtd_ep5",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 5",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-5-2018-04-11"
+  },
+  {
+   "id": "source:rtd_ep6",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 6",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-6-2018-04-18"
+  },
+  {
+   "id": "source:rtd_ep7",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 7",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-7-2018-04-25"
+  },
+  {
+   "id": "source:rtd_ep8",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 8",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-8-2018-05-02"
+  },
+  {
+   "id": "source:rtd_ep9",
+   "kind": "official_story_episode",
+   "name": "Return to Dominaria: Episode 9",
+   "origins": [
+    "pack_c2_return_to_dominaria_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09"
+  },
+  {
    "id": "source:tarkir_plane",
    "kind": "Wizards official plane guide",
    "name": "Tarkir plane guide",
@@ -9970,33 +12551,33 @@
  "stats": {
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 69,
-   "CANON_DISPUTED": 4,
-   "CANON_IMPLIED": 2,
+   "CANON_CONFIRMED": 101,
+   "CANON_DISPUTED": 7,
+   "CANON_IMPLIED": 6,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 22,
-  "edges": 704,
-  "literal_objects": 7,
+  "curated_bridges": 33,
+  "edges": 904,
+  "literal_objects": 12,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 261,
+   "Card": 290,
    "CardTheme": 1,
-   "Character": 33,
-   "Claim": 78,
-   "Concept": 26,
+   "Character": 52,
+   "Claim": 117,
+   "Concept": 37,
    "DeckProposal": 2,
-   "Event": 13,
-   "Faction": 2,
-   "Literal": 7,
-   "Object": 5,
-   "Place": 6,
-   "Plane": 5,
-   "Source": 37
+   "Event": 14,
+   "Faction": 4,
+   "Literal": 12,
+   "Object": 10,
+   "Place": 9,
+   "Plane": 7,
+   "Source": 49
   },
-  "nodes": 477,
+  "nodes": 605,
   "non_wizards_sources": 0,
-  "relations": 80,
-  "wizards_official_sources": 37
+  "relations": 113,
+  "wizards_official_sources": 49
  }
 }

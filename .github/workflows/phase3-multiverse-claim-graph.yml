@@ -12,6 +12,8 @@ on:
       - 'tests/test_multiverse_graph.py'
       - 'scripts/build_card_name_anchors.py'
       - 'tests/test_card_name_anchors.py'
+      - 'scripts/audit_lore_pack_rtd.py'
+      - 'tests/test_lore_pack_rtd.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   push:
     paths:
@@ -22,6 +24,8 @@ on:
       - 'tests/test_multiverse_graph.py'
       - 'scripts/build_card_name_anchors.py'
       - 'tests/test_card_name_anchors.py'
+      - 'scripts/audit_lore_pack_rtd.py'
+      - 'tests/test_lore_pack_rtd.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   workflow_dispatch:
 
@@ -46,3 +50,7 @@ jobs:
         run: |
           python3 scripts/build_card_name_anchors.py --check
           python3 -m unittest discover -s tests -p 'test_card_name_anchors.py' -v
+      - name: Pack C2 Return to Dominaria quote audit (hashes; cache absent in CI) and tests
+        run: |
+          python3 scripts/audit_lore_pack_rtd.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_rtd.py' -v
