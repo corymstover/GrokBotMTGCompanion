@@ -150,7 +150,8 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
         env["flags"].append("MATCHED_BY_FIRST_NAME")
     rows = [r for r in mg.neighbors(nid) if r.get("claim") and r["relation"] not in STRUCTURAL]
     if relation:
-        rows = [r for r in rows if r["relation"] in (relation, "inverse_of:" + relation)]
+        rels = relation.split("|")  # Batch 8 Phase 7: "a|b" accepts any of several stored relations
+        rows = [r for r in rows if r["relation"] in rels or r["relation"] in ["inverse_of:" + x for x in rels]]
     if direction:
         rows = [r for r in rows if r["direction"] == direction]
     grouped, urls = {}, []
@@ -179,7 +180,7 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:is|was) (.+?)'s mother\??$", re.I), "mother_of", "in"),
     (re.compile(r"who struck down (?:the )?(.+?)\??$", re.I), "struck_down", "in"),
     # Phase 7 rephrasings (Batch 6): synonyms routed to relations already stored by claim packs
-    (re.compile(r"who (?:murdered|assassinated) (?:the )?(.+?)\??$", re.I), "killed", "in"),
+    (re.compile(r"who (?:murdered|assassinated|beheaded) (?:the )?(.+?)\??$", re.I), "killed", "in"),
     (re.compile(r"who (?:was|were) (?:the )?(.+?) (?:killed|murdered|slain) by\??$", re.I), "killed", "in"),
     (re.compile(r"who (?:freed|released|liberated|rescued) (?:the )?(.+?)\??$", re.I), "freed", "in"),
     (re.compile(r"who (?:captured|kidnapped|abducted|took) (?:the )?(.+?)(?: captive)?\??$", re.I), "captured", "in"),
@@ -189,7 +190,20 @@ PATTERNS = [  # (regex, relation, direction from the named entity's point of vie
     (re.compile(r"who (?:is|was) (.+?)'s (?:lover|partner|girlfriend|boyfriend|romantic partner)\??$", re.I), "romantically_involved_with", None),
     (re.compile(r"who (?:leads|led|captains|captained|heads|headed|runs|ran) (?:the )?(.+?)\??$", re.I), "led", "in"),
     (re.compile(r"who won (?:the )?(.+?)\??$", re.I), "won", "in"),
-    (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:allies|ally|friends|friend)\??$", re.I), "allied_with", None),
+    (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:allies|ally|friends|friend)\??$", re.I), "allied_with|friend_of|childhood_friend_of", None),
+    # Batch 8 Phase 7 rephrasings over the Batch 7/8 relations
+    (re.compile(r"who (?:is|was|are|were) the (?:leaders?|heads?|rulers?|captains?|governors?) of (?:the )?(.+?)\??$", re.I), "led", "in"),
+    (re.compile(r"who (?:governs|governed|rules|ruled) (?:over )?(?:the )?(.+?)\??$", re.I), "ruled", "in"),
+    (re.compile(r"who (?:mentored|taught|trained) (?:the )?(.+?)\??$", re.I), "mentored", "in"),
+    (re.compile(r"who (?:is|was|are|were) (.+?)'s (?:mentors?|teachers?)\??$", re.I), "mentored", "in"),
+    (re.compile(r"who (?:founded|established) (?:the )?(.+?)\??$", re.I), "founded", "in"),
+    (re.compile(r"who (?:guards|guarded|protects|protected|defends|defended) (?:the )?(.+?)\??$", re.I), "guardian_of|guarded|protected|protects|defended", "in"),
+    (re.compile(r"who (?:fought|battled) (?:the )?(.+?)\??$", re.I), "fought|confronted", None),
+    (re.compile(r"who (?:serves|served|works for|worked for) (?:the )?(.+?)\??$", re.I), "serves|served|works_for|agent_of", "in"),
+    (re.compile(r"who (?:worships|worshipped|worship|reveres|revered) (?:the )?(.+?)\??$", re.I), "worships", "in"),
+    (re.compile(r"who (?:attacked|invaded|assaulted|marched on) (?:the )?(.+?)\??$", re.I), "attacked|invaded", "in"),
+    (re.compile(r"who did (.+?) meet\??$", re.I), "met", "out"),
+    (re.compile(r"who met (?:the )?(.+?)\??$", re.I), "met", None),
     (re.compile(r"who (?:are|were|is|was) (.+?)'s (?:enemies|enemy|rivals|rival|foes|foe)\??$", re.I), "opposed", None),
 ]
 
@@ -206,8 +220,12 @@ FALLBACK = {"created": [("created_by", "out"),  # "who created X" may be stored 
             "imprisoned": [("captured", "in"), ("bound_to_service", "in")],
             "parent_of": [("child_of", "out"), ("mother_of", "in")],
             "romantically_involved_with": [("spouse_of", None)],
-            "led": [("leader_of", "in")],
-            "opposed": [("fought", None)]}  # "X child_of Y" also answers "who is X's mother"
+            "led": [("leader_of", "in"), ("leads", "in")],
+            "opposed": [("fought", None)],
+            # Batch 8 Phase 7
+            "ruled": [("leader_of", "in"), ("led", "in"), ("leads", "in")],
+            "mentored": [("taught", "in"), ("learned_from", "out"), ("student_of", "out")],
+            "worships": [("revered_by", "out")]}  # "X child_of Y" also answers "who is X's mother"
 
 
 def _is_card(name: str) -> bool:
