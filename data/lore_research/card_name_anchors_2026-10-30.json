@@ -204,6 +204,29 @@
    ]
   },
   {
+   "entity": "atraxa",
+   "entity_type": "Character",
+   "entity_name": "Atraxa",
+   "aliases": [
+    "Atraxa"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Atraxa, Grand Unifier",
+     "oracle_id": "abbcb153-0763-44c6-964f-b4ff0eb64257",
+     "type_line": "Legendary Creature — Phyrexian Angel",
+     "scryfall_uri": "https://scryfall.com/card/one/196/atraxa-grand-unifier"
+    },
+    {
+     "name": "Atraxa, Praetors' Voice",
+     "oracle_id": "7e6b9b59-cd68-4e3c-827b-38833c92d6eb",
+     "type_line": "Legendary Creature — Phyrexian Angel Horror",
+     "scryfall_uri": "https://scryfall.com/card/2xm/190/atraxa-praetors-voice"
+    }
+   ]
+  },
+  {
    "entity": "brothers_war",
    "entity_type": "Event",
    "entity_name": "The Brothers' War",
@@ -658,6 +681,35 @@
    ]
   },
   {
+   "entity": "jin_gitaxias",
+   "entity_type": "Character",
+   "entity_name": "Jin-Gitaxias",
+   "aliases": [
+    "Jin-Gitaxias"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Jin-Gitaxias // The Great Synthesis",
+     "oracle_id": "b70c3adb-64ba-49ea-bcf6-6406a58cb453",
+     "type_line": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+     "scryfall_uri": "https://scryfall.com/card/mom/65/jin-gitaxias-the-great-synthesis"
+    },
+    {
+     "name": "Jin-Gitaxias, Core Augur",
+     "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/ima/62/jin-gitaxias-core-augur"
+    },
+    {
+     "name": "Jin-Gitaxias, Progress Tyrant",
+     "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
+     "type_line": "Legendary Creature — Phyrexian Praetor",
+     "scryfall_uri": "https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant"
+    }
+   ]
+  },
+  {
    "entity": "jodah",
    "entity_type": "Character",
    "entity_name": "Jodah",
@@ -879,6 +931,29 @@
    ]
   },
   {
+   "entity": "lukka",
+   "entity_type": "Character",
+   "entity_name": "Lukka",
+   "aliases": [
+    "Lukka"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Lukka, Bound to Ruin",
+     "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
+     "type_line": "Legendary Planeswalker — Lukka",
+     "scryfall_uri": "https://scryfall.com/card/one/207/lukka-bound-to-ruin"
+    },
+    {
+     "name": "Lukka, Coppercoat Outcast",
+     "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
+     "type_line": "Legendary Planeswalker — Lukka",
+     "scryfall_uri": "https://scryfall.com/card/iko/125/lukka-coppercoat-outcast"
+    }
+   ]
+  },
+  {
    "entity": "lyra_dawnbringer",
    "entity_type": "Character",
    "entity_name": "Lyra Dawnbringer",
@@ -1066,6 +1141,35 @@
      "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
      "type_line": "Legendary Planeswalker — Narset",
      "scryfall_uri": "https://scryfall.com/card/cmm/853/narset-parter-of-veils"
+    }
+   ]
+  },
+  {
+   "entity": "nashi",
+   "entity_type": "Character",
+   "entity_name": "Nashi",
+   "aliases": [
+    "Nashi"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Nashi, Moon Sage's Scion",
+     "oracle_id": "d04b6c2c-50fc-464d-9991-230efec70d2b",
+     "type_line": "Legendary Creature — Rat Ninja",
+     "scryfall_uri": "https://scryfall.com/card/otc/143/nashi-moon-sages-scion"
+    },
+    {
+     "name": "Nashi, Moon's Legacy",
+     "oracle_id": "ffa6c14e-3d8e-47a2-b102-d37538d60ef6",
+     "type_line": "Legendary Creature — Rat Shaman",
+     "scryfall_uri": "https://scryfall.com/card/mat/39/nashi-moons-legacy"
+    },
+    {
+     "name": "Nashi, Searcher in the Dark",
+     "oracle_id": "ade8fc6f-efaa-4a24-96d8-99ef5026cd74",
+     "type_line": "Legendary Creature — Rat Ninja Wizard",
+     "scryfall_uri": "https://scryfall.com/card/dsk/223/nashi-searcher-in-the-dark"
     }
    ]
   },
@@ -1545,6 +1649,53 @@
    ]
   },
   {
+   "entity": "tamiyo",
+   "entity_type": "Character",
+   "entity_name": "Tamiyo",
+   "aliases": [
+    "Tamiyo"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Tamiyo, Collector of Tales",
+     "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+     "type_line": "Legendary Planeswalker — Tamiyo",
+     "scryfall_uri": "https://scryfall.com/card/war/220/tamiyo-collector-of-tales"
+    },
+    {
+     "name": "Tamiyo, Compleated Sage",
+     "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+     "type_line": "Legendary Planeswalker — Tamiyo",
+     "scryfall_uri": "https://scryfall.com/card/neo/238/tamiyo-compleated-sage"
+    },
+    {
+     "name": "Tamiyo, Field Researcher",
+     "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+     "type_line": "Legendary Planeswalker — Tamiyo",
+     "scryfall_uri": "https://scryfall.com/card/inr/249/tamiyo-field-researcher"
+    },
+    {
+     "name": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+     "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+     "type_line": "Legendary Creature — Moonfolk Wizard // Legendary Planeswalker — Tamiyo",
+     "scryfall_uri": "https://scryfall.com/card/mh3/242/tamiyo-inquisitive-student-tamiyo-seasoned-scholar"
+    },
+    {
+     "name": "Tamiyo, Upriser Crowned",
+     "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+     "type_line": "Legendary Creature — Moonfolk Warrior",
+     "scryfall_uri": "https://scryfall.com/card/frc/11/tamiyo-upriser-crowned"
+    },
+    {
+     "name": "Tamiyo, the Moon Sage",
+     "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+     "type_line": "Legendary Planeswalker — Tamiyo",
+     "scryfall_uri": "https://scryfall.com/card/avr/79/tamiyo-the-moon-sage"
+    }
+   ]
+  },
+  {
    "entity": "tawnos",
    "entity_type": "Character",
    "entity_name": "Tawnos",
@@ -1641,6 +1792,23 @@
      "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
      "type_line": "Legendary Planeswalker — Teferi",
      "scryfall_uri": "https://scryfall.com/card/mid/245/teferi-who-slows-the-sunset"
+    }
+   ]
+  },
+  {
+   "entity": "the_wanderer",
+   "entity_type": "Character",
+   "entity_name": "The Wanderer (Emperor of Kamigawa)",
+   "aliases": [
+    "The Wanderer"
+   ],
+   "pack": "pack_c4_march_of_the_machine_2026-10-30.json",
+   "cards": [
+    {
+     "name": "The Wanderer",
+     "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+     "type_line": "Legendary Planeswalker",
+     "scryfall_uri": "https://scryfall.com/card/cmm/843/the-wanderer"
     }
    ]
   },
@@ -2025,6 +2193,7 @@
   "ugins_tomb_site",
   "war_of_the_spark_end",
   "weatherlight_powerstone",
+  "wrenn",
   "zhalfir"
  ],
  "excluded_unset_cards": [
@@ -2034,9 +2203,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 75,
-  "anchor_edges": 193,
-  "unanchored_entities": 26
+  "entities_anchored": 81,
+  "anchor_edges": 210,
+  "unanchored_entities": 27
  },
- "content_sha256": "af1dedeaf7e11bc78238e7fe2f2beb361efd3a5d9f18fc90b37d03ad350b1284"
+ "content_sha256": "bf505bb69835aece294192378c83c672c341a6905d2d666ba87bd9a6ccebd5a6"
 }

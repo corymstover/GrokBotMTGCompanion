@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "7df32d3c549ac5dc803397c1073edf00fc609f15e1aecba8d2d8de00d5a5616d",
+ "content_sha256": "4c8b62c5e2a69f371621b7ed8b80fdd7151c2919ac9dae999fd676a1008398c2",
  "edges": [
   {
    "artists": [
@@ -3877,6 +3877,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:atraxa",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:atraxa_grand_unifier"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:atraxa",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:atraxa_praetors_voice"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:chandra_nalaar",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4052,6 +4066,27 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jin_gitaxias",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jin_gitaxias_core_augur"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jin_gitaxias",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jin_gitaxias_progress_tyrant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jin_gitaxias",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jin_gitaxias_the_great_synthesis"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:jodah",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4220,6 +4255,20 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lukka",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lukka_bound_to_ruin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:lukka",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:lukka_coppercoat_outcast"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:lyra_dawnbringer",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4343,6 +4392,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:narset_transcendent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nashi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nashi_moon_s_legacy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nashi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nashi_moon_sage_s_scion"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nashi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nashi_searcher_in_the_dark"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -4654,6 +4724,48 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_collector_of_tales"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_compleated_sage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_field_researcher"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_inquisitive_student_tamiyo_seasoned_scholar"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_the_moon_sage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tamiyo",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tamiyo_upriser_crowned"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:tawnos",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -4742,6 +4854,13 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:teferi_who_slows_the_sunset"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:the_wanderer",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_wanderer"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -6169,6 +6288,272 @@
    "to": "character:yawgmoth"
   },
   {
+   "claim": "MOM001",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elesh_norn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "ordered_execution_of",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "character:sheoldred"
+  },
+  {
+   "claim": "MOM002",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_IMPLIED",
+   "relation": "executed",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "character:sheoldred"
+  },
+  {
+   "claim": "MOM003",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lukka",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sent_to_invade",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "plane:ikoria"
+  },
+  {
+   "claim": "MOM004",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "sent_to_invade",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "plane:kamigawa"
+  },
+  {
+   "claim": "MOM005",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nahiri",
+   "grade": "CANON_CONFIRMED",
+   "relation": "born_on",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "plane:zendikar"
+  },
+  {
+   "claim": "MOM006",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ajani",
+   "grade": "CANON_IMPLIED",
+   "relation": "sent_to_invade",
+   "sources": [
+    "mom_ep01"
+   ],
+   "to": "plane:theros"
+  },
+  {
+   "claim": "MOM007",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:atraxa",
+   "grade": "CANON_CONFIRMED",
+   "relation": "led_invasion_of",
+   "sources": [
+    "mom_ep01",
+    "mom_ep04"
+   ],
+   "to": "plane:new_capenna"
+  },
+  {
+   "claim": "MOM008",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_IMPLIED",
+   "relation": "sheltered",
+   "sources": [
+    "mom_ep02"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "MOM009",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:the_wanderer",
+   "grade": "CANON_CONFIRMED",
+   "relation": "struck_down",
+   "sources": [
+    "mom_ep03"
+   ],
+   "to": "character:tamiyo"
+  },
+  {
+   "claim": "MOM010",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tamiyo",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mother_of",
+   "sources": [
+    "mom_ep03"
+   ],
+   "to": "character:nashi"
+  },
+  {
+   "claim": "MOM011",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "refused",
+   "sources": [
+    "mom_ep05"
+   ],
+   "to": "character:nissa_revane"
+  },
+  {
+   "claim": "MOM012",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "reborn_as",
+   "sources": [
+    "mom_ep06",
+    "mom_ep07"
+   ],
+   "to": "literal:winged_angelic_form"
+  },
+  {
+   "claim": "MOM013",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "intervened_against",
+   "sources": [
+    "mom_ep07"
+   ],
+   "to": "character:jin_gitaxias"
+  },
+  {
+   "claim": "MOM014",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:elspeth_tirel",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "mom_ep07"
+   ],
+   "to": "character:elesh_norn"
+  },
+  {
+   "claim": "MOM015",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:wrenn",
+   "grade": "CANON_IMPLIED",
+   "relation": "opened_portal_to",
+   "sources": [
+    "mom_ep08"
+   ],
+   "to": "place:zhalfir"
+  },
+  {
+   "claim": "MOM016",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:zhalfir",
+   "grade": "CANON_CONFIRMED",
+   "relation": "fought",
+   "sources": [
+    "mom_ep08"
+   ],
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "claim": "MOM017",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "mom_ep09"
+   ],
+   "to": "character:elesh_norn"
+  },
+  {
+   "claim": "MOM018",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:karn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "gave_up",
+   "sources": [
+    "mom_ep10"
+   ],
+   "to": "literal:karn_s_planeswalker_spark"
+  },
+  {
+   "claim": "MOM019",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:melira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "died_restoring",
+   "sources": [
+    "mom_ep10"
+   ],
+   "to": "character:ajani"
+  },
+  {
+   "claim": "MOM019",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:melira",
+   "grade": "CANON_CONFIRMED",
+   "relation": "died_restoring",
+   "sources": [
+    "mom_ep10"
+   ],
+   "to": "character:nissa_revane"
+  },
+  {
+   "claim": "MOM020",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:chandra_nalaar",
+   "grade": "CANON_CONFIRMED",
+   "relation": "reunited_with",
+   "sources": [
+    "mom_ep10"
+   ],
+   "to": "character:nissa_revane"
+  },
+  {
+   "claim": "MOM021",
+   "era": "mom_invasion_2023",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:teferi",
+   "grade": "CANON_IMPLIED",
+   "relation": "restored",
+   "sources": [
+    "mom_ep10"
+   ],
+   "to": "place:zhalfir"
+  },
+  {
    "claim": "ONE001",
    "era": "one_strike_2023",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -7197,6 +7582,12 @@
    "to": "curated:Characters Index.md#jaya-ballard"
   },
   {
+   "from": "character:jin_gitaxias",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#jin-gitaxias"
+  },
+  {
    "from": "character:kaito",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -7255,6 +7646,12 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#liliana-vess"
+  },
+  {
+   "from": "character:lukka",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#lukka"
   },
   {
    "from": "character:mishra",
@@ -7369,6 +7766,18 @@
    "to": "curated:Planeswalker Dossiers.md#sorin-markov"
   },
   {
+   "from": "character:tamiyo",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#tamiyo"
+  },
+  {
+   "from": "character:tamiyo",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#tamiyo"
+  },
+  {
    "from": "character:teferi",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
@@ -7443,6 +7852,18 @@
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planeswalker Dossiers.md#vraska"
+  },
+  {
+   "from": "character:wrenn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Characters Index.md#wrenn"
+  },
+  {
+   "from": "character:wrenn",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planeswalker Dossiers.md#wrenn"
   },
   {
    "from": "character:yawgmoth",
@@ -8471,6 +8892,264 @@
    "to": "character:elesh_norn"
   },
   {
+   "from": "claim:MOM001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sheoldred"
+  },
+  {
+   "from": "claim:MOM001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:MOM002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:sheoldred"
+  },
+  {
+   "from": "claim:MOM002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:MOM003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:ikoria"
+  },
+  {
+   "from": "claim:MOM003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lukka"
+  },
+  {
+   "from": "claim:MOM004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:kamigawa"
+  },
+  {
+   "from": "claim:MOM004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:MOM005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:zendikar"
+  },
+  {
+   "from": "claim:MOM005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nahiri"
+  },
+  {
+   "from": "claim:MOM006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:theros"
+  },
+  {
+   "from": "claim:MOM006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:MOM007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_capenna"
+  },
+  {
+   "from": "claim:MOM007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:atraxa"
+  },
+  {
+   "from": "claim:MOM008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:MOM008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:MOM009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:MOM009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:the_wanderer"
+  },
+  {
+   "from": "claim:MOM010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nashi"
+  },
+  {
+   "from": "claim:MOM010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tamiyo"
+  },
+  {
+   "from": "claim:MOM011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:MOM011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:MOM012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:winged_angelic_form"
+  },
+  {
+   "from": "claim:MOM012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:MOM013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:jin_gitaxias"
+  },
+  {
+   "from": "claim:MOM013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:MOM014",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:MOM014",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:elspeth_tirel"
+  },
+  {
+   "from": "claim:MOM015",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:zhalfir"
+  },
+  {
+   "from": "claim:MOM015",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:wrenn"
+  },
+  {
+   "from": "claim:MOM016",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:new_phyrexia"
+  },
+  {
+   "from": "claim:MOM016",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:zhalfir"
+  },
+  {
+   "from": "claim:MOM017",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:elesh_norn"
+  },
+  {
+   "from": "claim:MOM017",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:MOM018",
+   "relation": "asserts",
+   "role": "object",
+   "to": "literal:karn_s_planeswalker_spark"
+  },
+  {
+   "from": "claim:MOM018",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:karn"
+  },
+  {
+   "from": "claim:MOM019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:ajani"
+  },
+  {
+   "from": "claim:MOM019",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:MOM019",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:melira"
+  },
+  {
+   "from": "claim:MOM020",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:MOM020",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:MOM021",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:zhalfir"
+  },
+  {
+   "from": "claim:MOM021",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:teferi"
+  },
+  {
    "from": "claim:ONE001",
    "relation": "asserts",
    "role": "object",
@@ -9450,10 +10129,28 @@
    "to": "card:tomb_of_the_spirit_dragon"
   },
   {
+   "from": "plane:ikoria",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#ikoria"
+  },
+  {
+   "from": "plane:new_capenna",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#new-capenna"
+  },
+  {
    "from": "plane:tarkir",
    "relation": "see_also_curated_entry",
    "tier": "contextual_pointer",
    "to": "curated:Planes Index.md#tarkir"
+  },
+  {
+   "from": "plane:theros",
+   "relation": "see_also_curated_entry",
+   "tier": "contextual_pointer",
+   "to": "curated:Planes Index.md#theros"
   },
   {
    "from": "source:blood_fire",
@@ -9885,6 +10582,121 @@
    "from": "source:mh2_legends",
    "relation": "cited_by",
    "to": "claim:A022"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM001"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM002"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM003"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM004"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM005"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM006"
+  },
+  {
+   "from": "source:mom_ep01",
+   "relation": "cited_by",
+   "to": "claim:MOM007"
+  },
+  {
+   "from": "source:mom_ep02",
+   "relation": "cited_by",
+   "to": "claim:MOM008"
+  },
+  {
+   "from": "source:mom_ep03",
+   "relation": "cited_by",
+   "to": "claim:MOM009"
+  },
+  {
+   "from": "source:mom_ep03",
+   "relation": "cited_by",
+   "to": "claim:MOM010"
+  },
+  {
+   "from": "source:mom_ep04",
+   "relation": "cited_by",
+   "to": "claim:MOM007"
+  },
+  {
+   "from": "source:mom_ep05",
+   "relation": "cited_by",
+   "to": "claim:MOM011"
+  },
+  {
+   "from": "source:mom_ep06",
+   "relation": "cited_by",
+   "to": "claim:MOM012"
+  },
+  {
+   "from": "source:mom_ep07",
+   "relation": "cited_by",
+   "to": "claim:MOM012"
+  },
+  {
+   "from": "source:mom_ep07",
+   "relation": "cited_by",
+   "to": "claim:MOM013"
+  },
+  {
+   "from": "source:mom_ep07",
+   "relation": "cited_by",
+   "to": "claim:MOM014"
+  },
+  {
+   "from": "source:mom_ep08",
+   "relation": "cited_by",
+   "to": "claim:MOM015"
+  },
+  {
+   "from": "source:mom_ep08",
+   "relation": "cited_by",
+   "to": "claim:MOM016"
+  },
+  {
+   "from": "source:mom_ep09",
+   "relation": "cited_by",
+   "to": "claim:MOM017"
+  },
+  {
+   "from": "source:mom_ep10",
+   "relation": "cited_by",
+   "to": "claim:MOM018"
+  },
+  {
+   "from": "source:mom_ep10",
+   "relation": "cited_by",
+   "to": "claim:MOM019"
+  },
+  {
+   "from": "source:mom_ep10",
+   "relation": "cited_by",
+   "to": "claim:MOM020"
+  },
+  {
+   "from": "source:mom_ep10",
+   "relation": "cited_by",
+   "to": "claim:MOM021"
   },
   {
    "from": "source:nexus_design",
@@ -10467,6 +11279,13 @@
     "file": "data/lore_research/pack_c3_assault_on_new_phyrexia_2026-10-30.json",
     "sha256": "e9ab43ba607b363453604f04b3e0c746f328b5b636bb4f2bedcc704d31e0669c",
     "sources": 5
+   },
+   {
+    "claims": 21,
+    "entities": 26,
+    "file": "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
+    "sha256": "e3497c9b29e16668003217eaaffbd8ae4bd9baf03f1ee74f8158c7496b50bdbd",
+    "sources": 10
    }
   ],
   "deck_evidence": [
@@ -10488,9 +11307,9 @@
   ],
   "name_anchor_packs": [
    {
-    "anchors": 193,
+    "anchors": 210,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "804162a1e479a4f6d59cfc14b7337da39c8adadbb3a3b7088143fc7104f91e0d"
+    "sha256": "ddad913ecd31b4b61e9241f22f099559b50fb37cb82a0a5b08138923592d6862"
    }
   ],
   "story_caption_packs": [
@@ -10910,6 +11729,24 @@
    "oracle_id": "fdd4ef61-607a-4090-9380-dabbbb448519",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:atraxa_grand_unifier",
+   "name": "Atraxa, Grand Unifier",
+   "oracle_id": "abbcb153-0763-44c6-964f-b4ff0eb64257",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:atraxa_praetors_voice",
+   "name": "Atraxa, Praetors' Voice",
+   "oracle_id": "7e6b9b59-cd68-4e3c-827b-38833c92d6eb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -12192,6 +13029,33 @@
    "type": "Card"
   },
   {
+   "id": "card:jin_gitaxias_core_augur",
+   "name": "Jin-Gitaxias, Core Augur",
+   "oracle_id": "eb23aed0-c450-4e57-96f2-2866dceca004",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jin_gitaxias_progress_tyrant",
+   "name": "Jin-Gitaxias, Progress Tyrant",
+   "oracle_id": "f5daadc1-98ff-480a-82bb-fe7bfaa7b60e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jin_gitaxias_the_great_synthesis",
+   "name": "Jin-Gitaxias // The Great Synthesis",
+   "oracle_id": "b70c3adb-64ba-49ea-bcf6-6406a58cb453",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jodah_archmage_eternal",
    "name": "Jodah, Archmage Eternal",
    "oracle_id": "8be4745e-36d8-430f-945e-c8a7fde9b4f6",
@@ -12511,6 +13375,24 @@
    "type": "Card"
   },
   {
+   "id": "card:lukka_bound_to_ruin",
+   "name": "Lukka, Bound to Ruin",
+   "oracle_id": "8e68eba1-65ac-4c03-956f-45e7b5695e2a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:lukka_coppercoat_outcast",
+   "name": "Lukka, Coppercoat Outcast",
+   "oracle_id": "1ca97394-4e8c-4698-bea1-554f9b10927b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:lyra_dawnbringer",
    "name": "Lyra Dawnbringer",
    "oracle_id": "592c91fc-6430-4c76-9460-65f047350f67",
@@ -12795,6 +13677,33 @@
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nashi_moon_s_legacy",
+   "name": "Nashi, Moon's Legacy",
+   "oracle_id": "ffa6c14e-3d8e-47a2-b102-d37538d60ef6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nashi_moon_sage_s_scion",
+   "name": "Nashi, Moon Sage's Scion",
+   "oracle_id": "d04b6c2c-50fc-464d-9991-230efec70d2b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:nashi_searcher_in_the_dark",
+   "name": "Nashi, Searcher in the Dark",
+   "oracle_id": "ade8fc6f-efaa-4a24-96d8-99ef5026cd74",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -13803,6 +14712,60 @@
    "type": "Card"
   },
   {
+   "id": "card:tamiyo_collector_of_tales",
+   "name": "Tamiyo, Collector of Tales",
+   "oracle_id": "75d56a0a-2f64-4e80-b83e-85942d3e6dd7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tamiyo_compleated_sage",
+   "name": "Tamiyo, Compleated Sage",
+   "oracle_id": "021b4745-4a15-462c-a6b0-2dee1dc9d196",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tamiyo_field_researcher",
+   "name": "Tamiyo, Field Researcher",
+   "oracle_id": "9cf99129-f51a-4418-a8cc-8ca2992b17fa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tamiyo_inquisitive_student_tamiyo_seasoned_scholar",
+   "name": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+   "oracle_id": "1ed9e351-0000-4b75-8ecb-d15bd88df68a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tamiyo_the_moon_sage",
+   "name": "Tamiyo, the Moon Sage",
+   "oracle_id": "f88be051-36ae-407e-bd5a-2b029c26414e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tamiyo_upriser_crowned",
+   "name": "Tamiyo, Upriser Crowned",
+   "oracle_id": "8e0f2e26-1e14-422a-aafe-e1da38ab10a3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:tasigur_the_golden_fang",
    "name": "Tasigur, the Golden Fang",
    "oracle_id": "837e3fde-241f-4826-ad04-f146fdcf2278",
@@ -14049,6 +15012,15 @@
    "oracle_id": "87b22b09-4f6d-4bc5-9cfc-663e4c7c6981",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_wanderer",
+   "name": "The Wanderer",
+   "oracle_id": "4c2196e5-6ed7-4cd2-b8e7-f01aff236569",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -14772,7 +15744,8 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -14801,6 +15774,14 @@
    "type": "Character"
   },
   {
+   "id": "character:atraxa",
+   "name": "Atraxa",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:belzenlok",
    "name": "Belzenlok",
    "origins": [
@@ -14812,7 +15793,8 @@
    "id": "character:chandra_nalaar",
    "name": "Chandra Nalaar",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -14854,6 +15836,7 @@
    "name": "Elesh Norn",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -14863,7 +15846,8 @@
    "name": "Elspeth Tirel",
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -14935,6 +15919,14 @@
    "type": "Character"
   },
   {
+   "id": "character:jin_gitaxias",
+   "name": "Jin-Gitaxias",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:jodah",
    "name": "Jodah",
    "origins": [
@@ -14965,6 +15957,7 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -14989,7 +15982,8 @@
    "id": "character:koth",
    "name": "Koth",
    "origins": [
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15005,7 +15999,16 @@
    "id": "character:liliana_vess",
    "name": "Liliana Vess",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:lukka",
+   "name": "Lukka",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15021,7 +16024,8 @@
    "id": "character:melira",
    "name": "Melira",
    "origins": [
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15047,7 +16051,8 @@
    "name": "Nahiri, the Lithomancer",
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15057,6 +16062,14 @@
    "origins": [
     "pack_a5_ugin_allies_2026-10-30.json",
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:nashi",
+   "name": "Nashi",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15083,7 +16096,8 @@
    "name": "Nissa Revane",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15167,6 +16181,7 @@
    "id": "character:sheoldred",
    "name": "Sheoldred",
    "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
    ],
    "type": "Character"
@@ -15196,6 +16211,14 @@
    "type": "Character"
   },
   {
+   "id": "character:tamiyo",
+   "name": "Tamiyo",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:tawnos",
    "name": "Tawnos",
    "origins": [
@@ -15209,7 +16232,16 @@
    "origins": [
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:the_wanderer",
+   "name": "The Wanderer (Emperor of Kamigawa)",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -15277,6 +16309,14 @@
    "name": "Vraska",
    "origins": [
     "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:wrenn",
+   "name": "Wrenn",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -16229,6 +17269,248 @@
    ],
    "predicate": "sought_leader_like",
    "stage": "new_phyrexia",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM001",
+   "name": "Elesh Norn orders Ajani to execute the captured Sheoldred.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "ordered_execution_of",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MOM002",
+   "limitation": "The quoted lines do not name who swings the axe; the attribution to Ajani follows from Norn's order in the preceding paragraph.",
+   "name": "Sheoldred is beheaded in Norn's sanctum immediately after Norn orders Ajani to execute her.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "executed",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM003",
+   "name": "Elesh Norn sends the compleated Lukka to Ikoria to add its monsters to Phyrexia's ranks.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "sent_to_invade",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM004",
+   "limitation": "The addressee is identified by the preceding paragraphs ('Tamiyo,' Norn repeats), not inside the quote.",
+   "name": "Elesh Norn commands the compleated Tamiyo to bring Kamigawa under Phyrexian control.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "sent_to_invade",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM005",
+   "name": "The compleated Nahiri tells Norn she was born on Zendikar, her assigned homeland.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "born_on",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MOM006",
+   "limitation": "Stated within Atraxa's question, not by the narrator; Ajani's activity on Theros is not modelled from Episode 6 here.",
+   "name": "Atraxa's question to Norn indicates Ajani was sent to Theros.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "sent_to_invade",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM007",
+   "name": "Norn assigns Atraxa to destroy New Capenna, and Atraxa leads the Phyrexian forces there.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "led_invasion_of",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MOM008",
+   "limitation": "'They' in the first quote is the group in the scene; the precise membership is not restated in the quote.",
+   "name": "Chandra waits out two weeks in one of Liliana's warded cabins on Dominaria.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "sheltered",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM009",
+   "limitation": "That 'the emperor' is the Wanderer is supported by the scene's alternation of the two names; Tamiyo's voice afterwards is described as coming from among them (the story unending), which this claim does not interpret.",
+   "name": "The emperor of Kamigawa strikes down the compleated Tamiyo.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "struck_down",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM010",
+   "name": "Tamiyo is Nashi's mother; the emperor consoles Nashi after Tamiyo falls.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "mother_of",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM011",
+   "name": "Chandra refuses the compleated Nissa's offer to join Phyrexia, and they fight.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "refused",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM012",
+   "limitation": "Where the rebirth takes place, and the identity of the woman who forges her is not asserted here.",
+   "name": "Elspeth is reborn with wings in Episode 6 and appears to Karn winged in Episode 7.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "reborn_as",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM013",
+   "name": "Elspeth, described as an angel in gleaming armor, arrives to stop Jin-Gitaxias striking Koth.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "intervened_against",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM014",
+   "limitation": "Norn survives this fight (she is killed in Episode 9, see MOM017).",
+   "name": "Elspeth battles Elesh Norn on the way to Realmbreaker.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MOM015",
+   "limitation": "The quotes juxtapose Wrenn's act and the portal; they do not say in one sentence that Wrenn made it. Wrenn's death is not asserted: the text says only that she is dying.",
+   "name": "Wrenn's growth through Realmbreaker opens a portal between New Phyrexia and Zhalfir.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "opened_portal_to",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM016",
+   "name": "Zhalfir's armies meet the New Phyrexian forces at the portal.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "fought",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM017",
+   "name": "Karn destroys Elesh Norn's body himself.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM018",
+   "name": "Karn gives up his spark (what remains of Venser's spark) in the effort to restore compleated planeswalkers.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "gave_up",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM019",
+   "limitation": "Ajani's outcome is not asserted from these quotes; the episode raises doubt that the restoration fully succeeded.",
+   "name": "Melira dies working to cleanse the compleated Nissa and Ajani.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "died_restoring",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:MOM020",
+   "limitation": "Nissa's spark and later status are not asserted here.",
+   "name": "Chandra and the restored Nissa are reunited on Zhalfir.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "reunited_with",
+   "stage": "mom_invasion_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:MOM021",
+   "limitation": "The mechanism of Zhalfir's return is not modelled from these quotes.",
+   "name": "Teferi's centuries-long effort to restore his home, Zhalfir, is presented as fulfilled.",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "predicate": "restored",
+   "stage": "mom_invasion_2023",
    "type": "Claim"
   },
   {
@@ -17211,6 +18493,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#jin-gitaxias",
+   "name": "Characters Index.md#jin-gitaxias",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#kaito-shizuki",
    "name": "Characters Index.md#kaito-shizuki",
    "origins": [
@@ -17245,6 +18535,14 @@
   {
    "id": "curated:Characters Index.md#liliana-vess",
    "name": "Characters Index.md#liliana-vess",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Characters Index.md#lukka",
+   "name": "Characters Index.md#lukka",
    "origins": [
     "lore_graph.json"
    ],
@@ -17307,6 +18605,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#tamiyo",
+   "name": "Characters Index.md#tamiyo",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#teferi",
    "name": "Characters Index.md#teferi",
    "origins": [
@@ -17363,6 +18669,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Characters Index.md#wrenn",
+   "name": "Characters Index.md#wrenn",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Characters Index.md#yawgmoth",
    "name": "Characters Index.md#yawgmoth",
    "origins": [
@@ -17387,8 +18701,32 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planes Index.md#ikoria",
+   "name": "Planes Index.md#ikoria",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#new-capenna",
+   "name": "Planes Index.md#new-capenna",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planes Index.md#tarkir",
    "name": "Planes Index.md#tarkir",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planes Index.md#theros",
+   "name": "Planes Index.md#theros",
    "origins": [
     "lore_graph.json"
    ],
@@ -17507,6 +18845,14 @@
    "type": "Concept"
   },
   {
+   "id": "curated:Planeswalker Dossiers.md#tamiyo",
+   "name": "Planeswalker Dossiers.md#tamiyo",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "curated:Planeswalker Dossiers.md#teferi",
    "name": "Planeswalker Dossiers.md#teferi",
    "origins": [
@@ -17533,6 +18879,14 @@
   {
    "id": "curated:Planeswalker Dossiers.md#vraska",
    "name": "Planeswalker Dossiers.md#vraska",
+   "origins": [
+    "lore_graph.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "curated:Planeswalker Dossiers.md#wrenn",
+   "name": "Planeswalker Dossiers.md#wrenn",
    "origins": [
     "lore_graph.json"
    ],
@@ -17714,6 +19068,14 @@
    "type": "Faction"
   },
   {
+   "id": "literal:karn_s_planeswalker_spark",
+   "name": "Karn's planeswalker spark",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
    "id": "literal:knight_of_benalia_turned_vampire",
    "name": "Knight of Benalia turned vampire",
    "origins": [
@@ -17811,6 +19173,14 @@
    "type": "Literal"
   },
   {
+   "id": "literal:winged_angelic_form",
+   "name": "Winged angelic form",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Literal"
+  },
+  {
    "id": "place:argoth",
    "name": "Argoth",
    "origins": [
@@ -17894,7 +19264,8 @@
    "id": "place:zhalfir",
    "name": "Zhalfir",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -17906,6 +19277,22 @@
     "pack_b_thran_yawgmoth_brothers_war_2026-10-30.json",
     "pack_c2_return_to_dominaria_2026-10-30.json",
     "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:ikoria",
+   "name": "Ikoria",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
+   "id": "plane:kamigawa",
+   "name": "Kamigawa",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -17927,11 +19314,20 @@
    "type": "Plane"
   },
   {
+   "id": "plane:new_capenna",
+   "name": "New Capenna",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:new_phyrexia",
    "name": "New Phyrexia",
    "origins": [
     "pack_c2_return_to_dominaria_2026-10-30.json",
-    "pack_c3_assault_on_new_phyrexia_2026-10-30.json"
+    "pack_c3_assault_on_new_phyrexia_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -17962,10 +19358,19 @@
    "type": "Plane"
   },
   {
+   "id": "plane:theros",
+   "name": "Theros",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "type": "Plane"
+  },
+  {
    "id": "plane:zendikar",
    "name": "Zendikar",
    "origins": [
-    "pack_a5_ugin_allies_2026-10-30.json"
+    "pack_a5_ugin_allies_2026-10-30.json",
+    "pack_c4_march_of_the_machine_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -18289,6 +19694,116 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10"
+  },
+  {
+   "id": "source:mom_ep01",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 1: Triumph of the Fleshless",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless"
+  },
+  {
+   "id": "source:mom_ep02",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 2: Holding Your Breath",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath"
+  },
+  {
+   "id": "source:mom_ep03",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 3: Mother, Son, and Story",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story"
+  },
+  {
+   "id": "source:mom_ep04",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 4: Beneath Eyes Unblinking",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-4-beneath-eyes-unblinking"
+  },
+  {
+   "id": "source:mom_ep05",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 5: Cathartic Reunion",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion"
+  },
+  {
+   "id": "source:mom_ep06",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 6: The Last to Leave",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave"
+  },
+  {
+   "id": "source:mom_ep07",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 7: Divine Intervention",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention"
+  },
+  {
+   "id": "source:mom_ep08",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 8: Wrenn and Eight",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight"
+  },
+  {
+   "id": "source:mom_ep09",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 9: The Old Sins of New Phyrexia",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-9-the-old-sins-of-new-phyrexia"
+  },
+  {
+   "id": "source:mom_ep10",
+   "kind": "official_story_episode",
+   "name": "March of the Machine | Episode 10: The Rhythms of Life",
+   "origins": [
+    "pack_c4_march_of_the_machine_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life"
   },
   {
    "id": "source:nexus_design",
@@ -18665,37 +20180,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 168,
+  "claim_edges_with_era": 190,
   "claim_edges_with_in_universe_date": 0,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 1,
-   "CANON_CONFIRMED": 135,
+   "CANON_CONFIRMED": 151,
    "CANON_DISPUTED": 7,
-   "CANON_IMPLIED": 7,
+   "CANON_IMPLIED": 12,
    "OPEN_QUESTION": 2
   },
-  "curated_bridges": 49,
-  "edges": 1330,
-  "literal_objects": 12,
+  "curated_bridges": 58,
+  "edges": 1444,
+  "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 439,
+   "Card": 456,
    "CardTheme": 1,
-   "Character": 63,
-   "Claim": 152,
-   "Concept": 56,
+   "Character": 70,
+   "Claim": 173,
+   "Concept": 65,
    "DeckProposal": 3,
    "Event": 14,
    "Faction": 4,
-   "Literal": 12,
+   "Literal": 14,
    "Object": 13,
    "Place": 11,
-   "Plane": 8,
-   "Source": 64
+   "Plane": 12,
+   "Source": 74
   },
-  "nodes": 841,
+  "nodes": 911,
   "non_wizards_sources": 0,
-  "relations": 140,
-  "wizards_official_sources": 64
+  "relations": 154,
+  "wizards_official_sources": 74
  }
 }

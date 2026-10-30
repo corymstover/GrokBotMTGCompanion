@@ -18,6 +18,8 @@ on:
       - 'tests/test_lore_pack_a5.py'
       - 'scripts/audit_lore_pack_c3.py'
       - 'tests/test_lore_pack_c3.py'
+      - 'scripts/audit_lore_pack_c4.py'
+      - 'tests/test_lore_pack_c4.py'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
       - 'tests/test_story_art_captions.py'
@@ -37,6 +39,8 @@ on:
       - 'tests/test_lore_pack_a5.py'
       - 'scripts/audit_lore_pack_c3.py'
       - 'tests/test_lore_pack_c3.py'
+      - 'scripts/audit_lore_pack_c4.py'
+      - 'tests/test_lore_pack_c4.py'
       - 'data/story_atlas/**'
       - 'scripts/build_story_art_captions.py'
       - 'tests/test_story_art_captions.py'
@@ -76,6 +80,10 @@ jobs:
         run: |
           python3 scripts/audit_lore_pack_c3.py --check
           python3 -m unittest discover -s tests -p 'test_lore_pack_c3.py' -v
+      - name: Pack C4 March of the Machine quote audit (hashes; cache absent in CI) and tests
+        run: |
+          python3 scripts/audit_lore_pack_c4.py --check
+          python3 -m unittest discover -s tests -p 'test_lore_pack_c4.py' -v
       - name: Story-art caption atlas (self-hash; caches absent in CI) and tests
         run: |
           python3 scripts/build_story_art_captions.py --check

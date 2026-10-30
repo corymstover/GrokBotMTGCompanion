@@ -1,0 +1,265 @@
+{
+ "schema": "pack-c4-mom-audit/v1",
+ "pack": "data/lore_research/pack_c4_march_of_the_machine_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "claims": 21,
+ "entities": 26,
+ "sources": 10,
+ "grades": {
+  "CANON_CONFIRMED": 16,
+  "CANON_IMPLIED": 5
+ },
+ "quotes": 41,
+ "quotes_verbatim": 41,
+ "quote_rows": [
+  {
+   "claim": "MOM001",
+   "source_id": "mom_ep01",
+   "quote_sha256": "dcf0d7af9c181171326c90d3a82854bb0c95f64ac54ca35fa37ca91d7b1bead6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM002",
+   "source_id": "mom_ep01",
+   "quote_sha256": "5f92d755ccf48bbb0e96316052deccc5dd55f6c223e0e4be0d7e323b4801be85",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM002",
+   "source_id": "mom_ep01",
+   "quote_sha256": "0a5ddce398cb3164e4437e4e92f51d263218866025abf759c9dc8dc8a4867eac",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM003",
+   "source_id": "mom_ep01",
+   "quote_sha256": "f8234e4eb18d4a3c55b76cd626f4d497a52d91c0f613476702342fbcfe630857",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM004",
+   "source_id": "mom_ep01",
+   "quote_sha256": "94d631f8fbe21bfd240921e6a99b999332bcddaf8c362c73e21f3e7a05952208",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM005",
+   "source_id": "mom_ep01",
+   "quote_sha256": "e83d3e32a65b9f165db648d8ae5109936a855f3390b26e0a3e662616eb8d89f2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM005",
+   "source_id": "mom_ep01",
+   "quote_sha256": "e4f95e4cf04fb25d74f57236910eab4e1fa3dc56b88037bd40b2a7218ba831d6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM006",
+   "source_id": "mom_ep01",
+   "quote_sha256": "c401ad1ce43be557027b20e7d62a5971515f962d8cf5dcbb0ad341f3cac3e4cd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM007",
+   "source_id": "mom_ep01",
+   "quote_sha256": "53401107e61cd0d963e248ca0a12145a72c9849ae67c4e6391140ad3c8c08952",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM007",
+   "source_id": "mom_ep04",
+   "quote_sha256": "9df6e80e995ce466bd2d6caf40eb707a4cbfebb80eba52a78882bf6f89fbaad1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM007",
+   "source_id": "mom_ep04",
+   "quote_sha256": "7ca8a28e3f7ec87cc4eec378e29ec82f6ccc1b5bbbee883cc25609a98b8572f8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM008",
+   "source_id": "mom_ep02",
+   "quote_sha256": "05e520d1f668f24414b447cd4b98112805bc67a47ce760f46236747feff5af27",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM008",
+   "source_id": "mom_ep02",
+   "quote_sha256": "cf700482cdd19aae4ec81012055bf91aea9420129622a8666a3b6492e1a412f1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM009",
+   "source_id": "mom_ep03",
+   "quote_sha256": "497c916bb6a4e65b39a5e60009a2e6fc12f61e349455ba0b8c003385e7f97ff8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM009",
+   "source_id": "mom_ep03",
+   "quote_sha256": "d658fe1bceff6bd50c5070289aba3ba72d08aad95e647615031b18e78db56748",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM010",
+   "source_id": "mom_ep03",
+   "quote_sha256": "586b253dab76a4ea22f7bc093a55617729f95a71ab23866cddf1d9a4d33b6667",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM010",
+   "source_id": "mom_ep03",
+   "quote_sha256": "18654d285c9677fabbc5c5e576d1d757a117a4d9fb613889b5f4e1c8993c9fce",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM011",
+   "source_id": "mom_ep05",
+   "quote_sha256": "b76c0b4b34d1d621fc06c22549b8fc68027a497e1fd42129ae485e051164eff3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM011",
+   "source_id": "mom_ep05",
+   "quote_sha256": "ffdf6eceadd8b18d8fb7f9ef21b9fb544f409eb46f5d12e001d8bd80e75b6f2b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM012",
+   "source_id": "mom_ep06",
+   "quote_sha256": "556d4c1090051d9325c261be31a454e768ed138fc3587f47389043d83815d557",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM012",
+   "source_id": "mom_ep07",
+   "quote_sha256": "97f4ff699374d1a0f9f09fe107cb43e154220dcfd27015f0e22956343ff56df0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM013",
+   "source_id": "mom_ep07",
+   "quote_sha256": "26c16a93890f4edf4ab31538bb91ff4bc496b2b1a5166aa62b675a7d3e289a84",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM013",
+   "source_id": "mom_ep07",
+   "quote_sha256": "17563f92df269c029523dc0c833c1f4134a00f4c2160fbadc4cc103cd68ffdcf",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM013",
+   "source_id": "mom_ep07",
+   "quote_sha256": "f0e3151697d2467a890647669bcce132386e2c45ae04cd91c2c42d372a3afbf5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM014",
+   "source_id": "mom_ep07",
+   "quote_sha256": "84dd96a1317acb3ddf873f4a4958ade63ff28f06a2cb8703d17f817b86dad6e9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM014",
+   "source_id": "mom_ep07",
+   "quote_sha256": "20951499b09f77c2c8dd17c20be02656cc56c8e75803846fcb21322e7d3d046d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM015",
+   "source_id": "mom_ep08",
+   "quote_sha256": "0b10816fdea806d3575e7bb8d8a91dc5aaa8b8e80d1bbada5062294c45e72192",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM015",
+   "source_id": "mom_ep08",
+   "quote_sha256": "7a91d44105f1c5cb8fd019bca02314180b6fc0935a0bfe7db3919a107cd45495",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM016",
+   "source_id": "mom_ep08",
+   "quote_sha256": "de3bed0caf9c13531d58aeb14ee603a8ad997ab2598f4e084c637b2c4029d909",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM016",
+   "source_id": "mom_ep08",
+   "quote_sha256": "f66779eba33f0cf910f545501c47a02c31d6d9ae23e6a168bfddfe03fdc441aa",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM017",
+   "source_id": "mom_ep09",
+   "quote_sha256": "1c506637ebc67a68930fdca3fc9c8b1db06d8c046d64512a6378c1eabe7d262d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM017",
+   "source_id": "mom_ep09",
+   "quote_sha256": "8490b0a37b3dfa96e191eae617fda3dba06af92f19506f8f18de54e5ad09cfda",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM018",
+   "source_id": "mom_ep10",
+   "quote_sha256": "954db37c08787980fc5971739ca091d80efadd01b220f14e7a957829a8ad2755",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM018",
+   "source_id": "mom_ep10",
+   "quote_sha256": "9df615c074600b6ebf43188729ff837cbe7cd13d5756b73a19a0f25764284691",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM019",
+   "source_id": "mom_ep10",
+   "quote_sha256": "24bc2e72de12e71790986d9b74b5dcc497c406b3a2582d7846a09c019fd980bd",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM019",
+   "source_id": "mom_ep10",
+   "quote_sha256": "61e3acbe23e5be2529d2b4d9feb518ca5fc63b76c8d8d7c0678402c146d2b05c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM019",
+   "source_id": "mom_ep10",
+   "quote_sha256": "2806fe0cf9314320d2462efe0f3e7aa9d706268d4807ae48e1766b9c9c63635e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM019",
+   "source_id": "mom_ep10",
+   "quote_sha256": "235095913fd782aa6151f352f3eee5c99738c1a2de790226341edd381dd1c86a",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM020",
+   "source_id": "mom_ep10",
+   "quote_sha256": "9490f736ed3ea67201c22f6bf75866ff594e0df90c81ac7ab426fe305896479c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM021",
+   "source_id": "mom_ep10",
+   "quote_sha256": "9df615c074600b6ebf43188729ff837cbe7cd13d5756b73a19a0f25764284691",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "MOM021",
+   "source_id": "mom_ep10",
+   "quote_sha256": "27b4324fd402c6d8e31a976836620c512e63cc0bc070774f8000a3747d290c76",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against the cached official episode text. This is research evidence, not owner approval or certification.",
+ "content_sha256": "c0cda764122170a782168e9af331b4bf146fa32be18a778963044e968c3af33d"
+}
