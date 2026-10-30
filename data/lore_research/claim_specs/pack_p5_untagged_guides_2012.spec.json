@@ -192,7 +192,7 @@
   {
    "id": "GD006",
    "subject": "szadek",
-   "predicate": "leader_of",
+   "predicate": "led",
    "object": "house_dimir",
    "grade": "CANON_CONFIRMED",
    "quotes": [
@@ -248,7 +248,7 @@
   {
    "id": "GD010",
    "subject": "feather",
-   "predicate": "leader_of",
+   "predicate": "led",
    "object": "boros_legion",
    "grade": "CANON_CONFIRMED",
    "quotes": [
