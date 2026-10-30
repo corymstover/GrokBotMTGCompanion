@@ -1,0 +1,319 @@
+{
+ "schema": "certification_dry_run.v1",
+ "status": "DRY_RUN_NOT_CERTIFICATION",
+ "readiness_verdict": "NOT_RELEASE_READY",
+ "readiness_tally": {
+  "MET": 2,
+  "PARTIAL": 2,
+  "NOT_MET": 1,
+  "EXTERNAL": 2
+ },
+ "note": "Lists what blocks each box. Checks nothing, approves nothing, certifies nothing.",
+ "release_definition": [
+  {
+   "id": "priority_enrichment",
+   "criterion": "Priority-card enrichment backlog fully accounted for (completed or explicitly documented exceptions/gaps).",
+   "workflow_checked": false,
+   "machine_status": "MET",
+   "machine_note": "all priority cards enriched",
+   "blockers": [
+    {
+     "kind": "OWNER_APPROVAL",
+     "what": "5,362/5,362 priority cards are enriched; the documented gaps (2,626 cards with no story lore yet, 1,304 of them Universes Beyond; 341 uncertain name-matched links) are listed, not resolved. Ticking the box means accepting that list as the documented exception set.",
+     "evidence": [
+      "data/card_enrichment.json",
+      "data/lore_research/card_lore_links_2026-10-30.json"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  },
+  {
+   "id": "foundation_graph",
+   "criterion": "Searchable cited connections across the three foundational lore packs.",
+   "workflow_checked": false,
+   "machine_status": "PARTIAL",
+   "machine_note": "Packs A, B and C are searchable with cited connections, but every pack is PRELIMINARY_RESEARCH (not owner approved)",
+   "blockers": [
+    {
+     "kind": "OWNER_APPROVAL",
+     "what": "Every claim pack, including foundational Packs A, B and C, is PRELIMINARY_RESEARCH; none is owner reviewed.",
+     "evidence": [
+      "data/multiverse_graph/manifest.json"
+     ]
+    },
+    {
+     "kind": "OWNER_DECISION",
+     "what": "Pack A genealogy disputes GD2-GD7 have no official statement that settles them; the owner decision cells are blank (GD1 has an official answer but is still unapplied).",
+     "evidence": [
+      "data/lore_research/pack_a_genealogy_disputes_2026-10-30.json"
+     ]
+    },
+    {
+     "kind": "MISSING_SOURCE",
+     "what": "L244 verified chronology is incomplete: story presents on different pages are unanchored, and Yawgmoth's end / Old Phyrexia's decimation have no official recap ordering (novel text is not ingested).",
+     "evidence": [
+      "data/lore_research/relative_chronology_2026-10-30.json"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  },
+  {
+   "id": "lookup_and_rules",
+   "criterion": "Reliable lookup and rules checks backed by current Scryfall and official sources.",
+   "workflow_checked": false,
+   "machine_status": "PARTIAL",
+   "machine_note": "card lookups reconcile with snapshot 2026-10-29 (0 changes across 33894 cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; interactions with no published ruling are not modelled (no game simulation)",
+   "blockers": [
+    {
+     "kind": "ENGINEERING_OPEN",
+     "what": "Interactions with no published ruling are not modelled (no game simulation); Phase 7 lookup and set-question boxes are still open.",
+     "evidence": [
+      "scripts/rules_interactions.py",
+      "scripts/commander_rules.py"
+     ]
+    },
+    {
+     "kind": "EXTERNAL_CI",
+     "what": "'Current' Scryfall means a fresh snapshot at release time; the active snapshot is snap-20261029-40848334824-1 and the Oracle drift report must be re-run against the release snapshot.",
+     "evidence": [
+      "data/scryfall_snapshots"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": true
+  },
+  {
+   "id": "set_atlas",
+   "criterion": "A verified Phase 1B set catalog with category-specific counts, set → card and card → set lookups, debut/reprint identification and English export support.",
+   "workflow_checked": false,
+   "machine_status": "MET",
+   "machine_note": "Phase 1B qualified functional release (with stated limitations)",
+   "blockers": [
+    {
+     "kind": "ENGINEERING_OPEN",
+     "what": "Phase 1B QUALIFIED items: exact field parity between snapshots does not hold (342 prm release dates, 6 trk paper flags); Scryfall dates are not sourced street dates; the in-universe chronology is not linked to the release timeline.",
+     "evidence": [
+      "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"
+     ]
+    },
+    {
+     "kind": "OWNER_DECISION",
+     "what": "Whether the qualified gate (with its stated limitations and 555 optional source-pending records) is acceptable for the release.",
+     "evidence": [
+      "data/set_atlas/phase1b_qualified_functional_release_2026-10-29.json"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": true
+  },
+  {
+   "id": "reviewed_graph_deck",
+   "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph.",
+   "workflow_checked": false,
+   "machine_status": "NOT_MET",
+   "machine_note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (3 graph-linked draft(s) await review)",
+   "blockers": [
+    {
+     "kind": "OWNER_APPROVAL",
+     "what": "Pilots 1-3 (PR #823 Ugin & Bolas, #832 Primeval Dragons, #844 Ugin's Allies) are complete, verified 100-card proposals, all UNAPPROVED. One owner review is the whole blocker.",
+     "evidence": [
+      "data/lore_decks/drafts"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  },
+  {
+   "id": "grixis_no_regression",
+   "criterion": "No regression in the 62 archived approved Grixis decks.",
+   "workflow_checked": false,
+   "machine_status": "EXTERNAL",
+   "machine_note": "guarded by focused-validation CI (validate_all) and protected-path digests below; this tool does not re-run the 62-deck audit",
+   "blockers": [
+    {
+     "kind": "EXTERNAL_CI",
+     "what": "Focused Grixis mechanics validation must be green on the release commit, and the protected-path diff against dfc8891d must be empty.",
+     "evidence": [
+      ".github/workflows"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": false
+  },
+  {
+   "id": "ci_and_coverage",
+   "criterion": "Passing focused CI and an up-to-date, source-backed coverage report.",
+   "workflow_checked": false,
+   "machine_status": "EXTERNAL",
+   "machine_note": "CI status lives on GitHub; check the required workflows on the release commit",
+   "blockers": [
+    {
+     "kind": "EXTERNAL_CI",
+     "what": "All workflows green on the exact release commit.",
+     "evidence": [
+      ".github/workflows"
+     ]
+    },
+    {
+     "kind": "ONGOING",
+     "what": "Coverage report must be regenerated for the release batch (batch_recount).",
+     "evidence": [
+      "data/release"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": false
+  }
+ ],
+ "phase8": [
+  {
+   "item": "Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "OWNER_DECISION",
+     "what": "No documented set of required status checks protects main; choosing them is a repository setting only the owner can change.",
+     "evidence": [
+      ".github/workflows"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  },
+  {
+   "item": "Monitor new official stories, Oracle changes, releases, rules and Commander format updates.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "ENGINEERING_OPEN",
+     "what": "No workflow is scheduled; Oracle drift runs only when invoked. A scheduled monitor for new story pages, CR and Commander format updates does not exist yet.",
+     "evidence": [
+      "scripts/oracle_drift_report.py"
+     ]
+    },
+    {
+     "kind": "ONGOING",
+     "what": "Monitoring is a continuing practice, not a one-time deliverable.",
+     "evidence": [
+      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": true
+  },
+  {
+   "item": "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "ONGOING",
+     "what": "Triggered by new sets: the next is nau (Set API release 2027-02-05, no printings yet).",
+     "evidence": [
+      "data/set_atlas/phase1b_snapshot_gates_2026-10-30.json"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": false
+  },
+  {
+   "item": "Update snapshot manifests with actual download bytes and stable hashes.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "MISSING_SOURCE",
+     "what": "The 2026-10-28 data/printing_lore/manifest.json baseline has a hash but no byte count; L151's original file is unavailable.",
+     "evidence": [
+      "data/printing_lore/manifest.json",
+      "scripts/audit_snapshot_manifests.py"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": false
+  },
+  {
+   "item": "Maintain an honest progress tracker: completed, under review, blocked, and not started.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "ENGINEERING_OPEN",
+     "what": "'Progress Tracker.md' was last committed 2026-10-29 and does not use the completed / under review / blocked / not started split; the live status is in the workflow and the overnight handoff.",
+     "evidence": [
+      "Progress Tracker.md",
+      "handoffs/GROKBOT_OVERNIGHT_2026-10-30.md"
+     ]
+    }
+   ],
+   "blocked_by_owner": false,
+   "bot_can_still_act": true
+  },
+  {
+   "item": "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "OWNER_DECISION",
+     "what": "release_readiness.py scores the written criteria (verdict NOT_RELEASE_READY); the owner must accept this definition as the milestone.",
+     "evidence": [
+      "scripts/release_readiness.py"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  },
+  {
+   "item": "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.",
+   "workflow_checked": false,
+   "blockers": [
+    {
+     "kind": "OWNER_DECISION",
+     "what": "A policy statement: checking it is the owner's call; the bot does not mark policy accepted.",
+     "evidence": [
+      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
+     ]
+    },
+    {
+     "kind": "ONGOING",
+     "what": "Maintenance track by design.",
+     "evidence": [
+      "MTG_MULTIVERSE_MASTER_WORKFLOW.md"
+     ]
+    }
+   ],
+   "blocked_by_owner": true,
+   "bot_can_still_act": false
+  }
+ ],
+ "blocker_tally": {
+  "ENGINEERING_OPEN": 4,
+  "EXTERNAL_CI": 3,
+  "MISSING_SOURCE": 2,
+  "ONGOING": 4,
+  "OWNER_APPROVAL": 3,
+  "OWNER_DECISION": 5
+ },
+ "items_blocked_only_by_owner_or_ci": [
+  "priority_enrichment",
+  "reviewed_graph_deck",
+  "grixis_no_regression",
+  "ci_and_coverage",
+  "Keep targeted CI checks for card counts, source integrity, relationship claims, and deck legality.",
+  "Rebuild and reconcile the Phase 1B set catalog and bidirectional printing lookups when new sets or printings appear, retaining historical snapshots.",
+  "Define an MTG Multiverse Companion milestone release based on verified features, not an arbitrary percentage of all lore.",
+  "Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog."
+ ],
+ "problems": []
+}
