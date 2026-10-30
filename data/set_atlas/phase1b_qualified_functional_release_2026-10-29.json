@@ -1,0 +1,60 @@
+{
+  "acceptance_commands": [
+    "python3 scripts/audit_phase1b_fasttrack.py",
+    "python3 scripts/audit_phase1b_export_acceptance.py",
+    "python3 scripts/audit_phase1b_release_scope.py",
+    "python3 scripts/audit_phase1b_functional_release.py",
+    "python3 -m unittest discover -s tests -p 'test_*set*.py' -q",
+    "python3 -m unittest discover -s tests -p 'test_*sources.py' -q",
+    "python3 -m unittest discover -s tests -p 'test_phase1b*.py' -q",
+    "python3 scripts/audit_set_product_links.py --check",
+    "GitHub focused Grixis mechanics validation (separate exact-head CI)"
+  ],
+  "artifact_scope": "GitHub committed October 28 historical indexes with October 29 released cutoff",
+  "as_of": "2026-10-29",
+  "exclusive_set_code_scopes": {
+    "documented_auxiliary_or_discarded": 4,
+    "future_announced": 10,
+    "historical_regular_mainline": 136,
+    "localized_variant_provisional": 2,
+    "released_digital_only": 62,
+    "released_paper_other_category": 848
+  },
+  "gate": "QUALIFIED_OFFLINE_FUNCTIONAL_RELEASE_READY",
+  "optional_product_family_evidence": {
+    "release_blocker": false,
+    "separately_preserved_source_pending_other_family_codes": 555,
+    "wizards_primary_sourced_other_family_codes": 293
+  },
+  "release_limitations": [
+    "The original October 28 bulk source bytes are not present; committed historical shards and their lookup indexes are audited, not a reconstructed original bulk.",
+    "October 29 new-bulk and October 28 historical released English-paper per-set counts agree; exact ID equality between different dated bulk snapshots is unproven.",
+    "The 136 reviewed expansion/core regular/mainline classification is not a universal Wizards all-time premier-set total.",
+    "Other released paper codes include tokens, promos, alternate printings and product components; they are not separate physical expansion boxes.",
+    "The 12 story links reflect title-matched official story publication series, not individual card canon or in-universe event chronology.",
+    "555 optional promo/other product-family primary-source reviews remain open and cannot be described as officially certified.",
+    "This release is snapshot-dated and does not make claims about later MTG products, bans, rules or releases.",
+    "Repository-wide tests can require unrelated Grixis data fixtures, optional pytest installation and private/full snapshot inputs; this gate uses relevant Phase 1B and GitHub Grixis CI."
+  ],
+  "release_name": "Phase 1B Set & Printing Atlas — qualified functional checkpoint",
+  "release_policy": "Functional Set Atlas lookup/export coverage is available with stated limits. Do not upgrade exact cross-snapshot-ID, global premier-set, independent product or lore/canon completeness claims without new evidence.",
+  "schema": 1,
+  "source_reports": [
+    "data/set_atlas/phase1b_fasttrack_readiness_2026-10-29.json",
+    "data/set_atlas/phase1b_export_acceptance_2026-10-29.json",
+    "data/set_atlas/phase1b_release_scope_story_bridge_2026-10-29.json",
+    "data/set_atlas/cross_category_audit_2026-10-29.json",
+    "data/set_atlas/historical_shard_audit_2026-10-29.json"
+  ],
+  "verified_features": {
+    "all_set_codes_categorized_and_queryable": 1062,
+    "all_set_codes_printings_and_unique_card_exports_pass": 1062,
+    "curated_direct_wizards_story_series_links": 12,
+    "default_filter_zero_row_but_valid_set_codes": 105,
+    "historical_lookup_index_hashes_verified": 32,
+    "historical_printing_ids_exactly_reverse_joined": 119509,
+    "historical_stable_oracle_ids_reverse_joined": 39099,
+    "released_english_paper_printing_rows": 106855,
+    "set_codes_joined_to_scryfall_metadata": 1062
+  }
+}
