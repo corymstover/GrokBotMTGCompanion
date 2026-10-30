@@ -102,7 +102,7 @@ Pack A review status: A003 and A004 **stay CANON_DISPUTED** and A011 **stays OPE
 
 Protected-path check (`git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`): empty.
 
-## Batch 3 — 2026-10-30 ~02:24–03:20 CDT (interim; interrupted ~03:14 and resumed)
+## Batch 3 — 2026-10-30 ~02:24–04:00 CDT (final; interrupted ~03:14 and resumed)
 
 Owner steering at 02:24: commit the brief first; skip store copies (the store mount is gone, so the repo is the backup); try rebuilding the enrichment caches from free public bulk data; otherwise pick by leverage.
 
@@ -116,6 +116,9 @@ Owner steering at 02:24: commit the brief first; skip store copies (the store mo
 | [#843](https://github.com/corymstover/GrokBotMTGCompanion/pull/843) | 3 | Story-art caption atlas: 1,060 verified captions, 823 cards, 165 official pages, 70 rejected; 143 `art_captioned_in_story` edges | `6917bc86` (02:58) | 23/23 pass |
 | [#844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844) | 6 | Pilot 3 "Ugin's Allies and Heroes". Commander Jace, Multiverse Architect; 15 CANON_REFERENCE, 32 LORE_INSPIRED, 40 MECHANICAL_SYMBOL, 13 basics, 0 Game Changers. **UNAPPROVED proposal** | `0344cd53` (03:08) | 24/24 pass |
 | [#845](https://github.com/corymstover/GrokBotMTGCompanion/pull/845) | 3 | In-universe `era` labels plus an `era_basis` disclaimer on all 149/149 claim edges. An `in_universe_date` is accepted only with a quote and a cited source; there are 0 such dates. 334 tests | `a10a5349` (03:14) | 23/23 pass (the path-filtered `lore-pilots` check is not triggered) |
+| [#846](https://github.com/corymstover/GrokBotMTGCompanion/pull/846) | — | Interim Batch 3 handoff (docs) | `59ebed06` (~03:17) | 1/1 pass |
+| [#847](https://github.com/corymstover/GrokBotMTGCompanion/pull/847) | 3 | Pack C3 *Assault on New Phyrexia* (Episodes 1–5): 19 verbatim-quoted claims, 27/27 quotes, 21 entities, stage `one_strike_2023`, PRELIMINARY_RESEARCH. Graph now 841 nodes, 1,330 edges; anchors cover 75 entities | `b313494f` (03:32) | 25/25 pass |
+| [#848](https://github.com/corymstover/GrokBotMTGCompanion/pull/848) | 8 | Enrichment batch 38: the remaining **1,953** priority-pool cards, so **5,362/5,362**. The 3,409 earlier records are byte-identical. 664 new records carry lore links; 1,289 are honestly marked "no lore linked yet". Readiness: enrichment MET. 346 tests | `f65fe727` (03:53) | 23/23 pass |
 
 Graph after #845: 767 nodes, 1,215 edges, with `--check` passing. The rules-interaction audit covers 6 draft decks, 17 links and 0 unresolved items.
 
@@ -125,7 +128,28 @@ Graph after #845: 767 nodes, 1,215 edges, with `--check` passing. The rules-inte
 - No official pack quotes a Dominarian AR year. The era labels are story-stage names, not dates, and none were inferred.
 - Pilot audits enforce the A4 exact-art printing. Ugin now uses the frf/1 Swanland printing.
 
-### Enrichment caches (in progress)
-Rebuilding from free public sources (the Scryfall bulk oracle file, Commander Spellbook's public API and EDHREC's public JSON) with a polite, rate-limited prefetch. At 03:14 EDHREC was at 2,400/3,931 and Spellbook at 1,800/1,980. Next: the batch-38 `build_card_enrichment.py` pipeline, then `--check`, the Grixis guard and the baseline-diff PR.
+### Enrichment caches (done)
+The caches were rebuilt from free public sources with a polite, rate-limited prefetch:
+- EDHREC public JSON: 3,931/3,931 pages.
+- Commander Spellbook: 1,976/1,980 (4 failed; those render as unknown).
+- Card data: the pinned Scryfall 2026-10-29 snapshot.
 
-Store copies were skipped per the owner. Protected-path check: empty (see final section).
+The caches live under the git-ignored `.cache/` and are not committed. The pipeline was:
+1. `build_card_enrichment.py --batch 38 --defer-package-backlinks`
+2. `build_packages.py --enrichment-backlinks-only`
+3. A rebuild, then `--check`, which reported 0 problems.
+
+**Discovery:** the prefetch's `load_bulk()` downloaded a newer oracle bulk file (`20261029210158`) into the pinned snapshot dir. It was moved out to `/workspace/scryfall-stray/` (reversible), and no repo file references it. Always export `MTG_SCRYFALL_MODE=multiverse SCRYFALL_OFFLINE=1` before running enrichment or anchor scripts.
+
+### Blockers
+- Owner review is still needed for Pilots 1–3 and the 4 unapplied Pack A proposals. Every lore deck and pack is still UNAPPROVED or PRELIMINARY_RESEARCH.
+- `trk`/`trc` admission waits until after 2026-11-13.
+- Readiness: NOT_RELEASE_READY (MET 2, PARTIAL 2, NOT_MET 1, EXTERNAL 2). The NOT_MET item is owner review of a graph-built deck.
+
+### Next steps (value order)
+1. Pack C4, *March of the Machine*, from the official episodes. This continues C3.
+2. Deepen lore links for the 1,289 batch-38 records marked "no lore linked yet", using official story evidence only.
+3. Claim-level card anchors for Packs C2 and C3.
+4. An exhaustive pass over the RtD and ONE episodes.
+
+Store copies were skipped per the owner. Protected-path check `git diff --stat dfc8891d origin/main -- grixis/ data/grixis/ state/current_deck_overrides.json data/lore_decks/approvals/`: **empty** (run after #848 merged, main `f65fe727`).
