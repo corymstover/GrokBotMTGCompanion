@@ -1,0 +1,90 @@
+1x The Ur-Dragon (c17) 48 [Commander]
+1x Nicol Bolas (leg) 246
+1x Nicol Bolas, the Ravager // Nicol Bolas, the Arisen (m19) 218
+1x Ugin, the Spirit Dragon (frf) 1
+1x Arcades Sabboth (leg) 218
+1x Arcades, the Strategist (m19) 212
+1x Chromium (leg) 224
+1x Chromium, the Mutable (m19) 214
+1x Palladia-Mors (leg) 247
+1x Palladia-Mors, the Ruiner (m19) 219
+1x Vaevictis Asmadi (leg) 269
+1x Vaevictis Asmadi, the Dire (m19) 225
+1x The Elder Dragon War (dmu) 121
+1x Piru, the Volatile (mh2) 207
+1x Geyadrone Dihada (mh2) 199
+1x Dakkon, Shadow Slayer (mh2) 192
+1x Dakkon Blackblade (leg) 225
+1x Crosis, the Purger (inv) 242
+1x Rith, the Awakener (inv) 267
+1x Rith, Liberated Primeval (dmu) 214
+1x Darigaaz, the Igniter (inv) 243
+1x Darigaaz Reincarnated (dom) 193
+1x Dromar, the Banisher (inv) 244
+1x Treva, the Renewer (inv) 280
+1x Crosis's Attendant (inv) 300
+1x Darigaaz's Attendant (inv) 301
+1x Dromar's Attendant (inv) 303
+1x Rith's Attendant (inv) 310
+1x Treva's Attendant (inv) 315
+1x Scion of the Ur-Dragon (tsp) 246
+1x Dromar's Charm (c13) 187
+1x Insolence (pls) 63
+1x Malicious Advice (pls) 114
+1x Backlash (inv) 234
+1x Shriek of Dread (pls) 53
+1x Terminate (pls) 128
+1x Pyretic Rebirth (mh3) 200
+1x Breath of Darigaaz (inv) 138
+1x Crosis's Charm (pls) 99
+1x Darigaaz's Charm (pls) 100
+1x Rith's Charm (pls) 122
+1x Treva's Charm (pls) 129
+1x Crosis's Catacombs (pls) 136
+1x Darigaaz's Caldera (pls) 137
+1x Dromar's Cavern (pls) 138
+1x Rith's Grove (pls) 141
+1x Treva's Ruins (pls) 143
+1x Command Tower (cmd) 269
+1x Exotic Orchard (con) 142
+1x Path of Ancestry (c17) 56
+1x City of Brass (arn) 71
+1x Mana Confluence (jou) 163
+1x Unclaimed Territory (xln) 258
+1x Raugrin Triome (iko) 251
+1x Savai Triome (iko) 253
+1x Zagoth Triome (iko) 259
+1x Ketria Triome (iko) 250
+1x Indatha Triome (iko) 248
+1x Spara's Headquarters (snc) 257
+1x Raffine's Tower (snc) 254
+1x Xander's Lounge (snc) 260
+1x Ziatora's Proving Ground (snc) 261
+1x Jetmir's Garden (snc) 250
+1x Cavern of Souls (avr) 226
+1x Sol Ring (lea) 269
+1x Arcane Signet (eld) 331
+1x Chromatic Lantern (rtr) 226
+1x Cultivate (m11) 168
+1x Kodama's Reach (chk) 225
+1x Farseek (rav) 163
+1x Nature's Lore (ice) 255
+1x Three Visits (cmm) 913
+1x Rampant Growth (mir) 235
+1x Dragonlord's Servant (dtk) 138
+1x Herald's Horn (c17) 53
+1x Urza's Incubator (uds) 142
+1x Sarkhan's Unsealing (m19) 155
+1x Swords to Plowshares (lea) 40
+1x Beast Within (nph) 103
+1x Chaos Warp (cmd) 114
+1x Anguished Unmaking (soi) 242
+1x Utter End (ktk) 210
+1x Despark (war) 190
+1x Kindred Discovery (c17) 11
+1x Harmonize (plc) 149
+3x Plains
+3x Island
+3x Swamp
+3x Mountain
+3x Forest

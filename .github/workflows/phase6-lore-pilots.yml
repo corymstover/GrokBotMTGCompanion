@@ -1,0 +1,29 @@
+name: Phase 6 lore pilots (spec-driven, unapproved)
+
+on:
+  pull_request:
+    paths:
+      - 'data/lore_decks/specs/**'
+      - 'data/lore_decks/drafts/**'
+      - 'scripts/build_lore_pilot.py'
+      - 'scripts/audit_lore_pilot.py'
+      - 'tests/test_lore_pilot_builder.py'
+      - 'data/lore_research/**'
+      - '.github/workflows/phase6-lore-pilots.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lore-pilots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit every pilot spec against its committed proposal
+        run: python3 scripts/audit_lore_pilot.py
+      - name: Builder and audit tests
+        run: python3 -m unittest discover -s tests -p 'test_lore_pilot_builder.py' -v
