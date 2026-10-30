@@ -25,6 +25,7 @@ COMMANDER_SET_LINKED_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_set_linked
 COMMANDER_MODERN_SOURCE_REVIEW = ROOT / "data/set_atlas/commander_modern_source_audit_2026-10-29.json"
 BOXED_SPECIALTY_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_specialty_source_audit_2026-10-29.json"
 BOXED_SPECIAL_LAIR_GLOBAL_SOURCE_REVIEW = ROOT / "data/set_atlas/boxed_special_lair_global_audit_2026-10-29.json"
+INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW = ROOT / "data/set_atlas/inserts_clash_spellbook_source_audit_2026-10-29.json"
 
 
 def apply_source_overlay(data, verified):
@@ -545,6 +546,63 @@ def apply_boxed_special_lair_global_source_overlay(data, report):
     return result
 
 
+def apply_inserts_clash_spellbook_source_overlay(data, report):
+    """Add nine graded exact-code and family citations without rewriting old metadata."""
+    if report["cutoff"] != data["snapshot_date"] or data["wizards_reviewed_examples"] != 170:
+        raise ValueError("Insert/Clash source audit prior checkpoint changed")
+    updates = {r["code"]: r for r in report["reviewed_inserts_clash_spellbook_codes"]}
+    if len(updates) != report["new_source_backed_product_family_codes"] or len(updates) != 9:
+        raise ValueError("Insert/Clash source audit missing or duplicated codes")
+    seen = set()
+    rows = []
+    for old in data["all_848_released_nondigital_other_type_records"]:
+        row = dict(old)
+        source = updates.get(row["code"])
+        if source is not None:
+            if row["wizards_individual_source_review"]:
+                raise ValueError(f"Insert/Clash citation overwrites earlier source: {row['code']}")
+            if (row["scryfall_set_type"] != source["scryfall_type"] or
+                    row["scryfall_release_or_first_card_date"] != source["scryfall_release_or_first_card_date"] or
+                    row["parent_set_code_explicit_only"] != source["scryfall_explicit_parent_code_unchanged"] or
+                    row["metadata_cohort_not_official_classification"] != source["scryfall_research_cohort"]):
+                raise ValueError(f"Insert/Clash review changed frozen metadata: {row['code']}")
+            row.update({
+                "wizards_individual_source_review": True,
+                "review_status": "wizards_insert_clash_spellbook_graded_source_reviewed",
+                "wizards_primary_source": source["wizards_primary_url"],
+                "wizards_secondary_gallery_url": source["wizards_secondary_gallery_url"],
+                "wizards_review_product_group": source["product_family_wizards_supported"],
+                "wizards_source_grade": source["evidence_grade"],
+                "wizards_code_explicitly_confirmed": source["wizards_set_code_printed_in_article"],
+                "wizards_card_gallery_printing_code_confirmed": source["wizards_printing_code_printed_in_card_gallery"],
+                "verified_evidence_note": source["wizards_source_note"],
+                "wizards_premier_status_certified": False,
+                "exact_deck_printings_certified": False,
+                "current_format_legality_certified": False,
+                "new_card_count_certified": False,
+            })
+            seen.add(row["code"])
+        rows.append(row)
+    if seen != set(updates) or len(rows) != 848:
+        raise ValueError("Insert/Clash source lookup lost catalog rows")
+    result = dict(data)
+    result["all_848_released_nondigital_other_type_records"] = rows
+    result["wizards_reviewed_examples"] = report["cumulative_family_source_backed_codes"]
+    result["metadata_only_pending_wizards_individual_review"] = report["cumulative_source_pending_codes"]
+    result["cohort_review_progress"] = {}
+    for cohort in data["metadata_research_cohorts"]:
+        members = [r for r in rows if r["metadata_cohort_not_official_classification"] == cohort]
+        result["cohort_review_progress"][cohort] = {
+            "codes": len(members),
+            "wizards_reviewed": sum(bool(r["wizards_individual_source_review"]) for r in members),
+            "needs_individual_review": sum(not r["wizards_individual_source_review"] for r in members),
+            "explicit_parent_links": sum(bool(r["parent_set_code_explicit_only"]) for r in members),
+        }
+    if sum(bool(r["wizards_individual_source_review"]) for r in rows) != 179:
+        raise ValueError("New current product source evidence count is not 179")
+    return result
+
+
 def load_current_index():
     data = json.loads(INDEX.read_text(encoding="utf-8"))
     if SOURCE_REVIEW.exists():
@@ -577,6 +635,9 @@ def load_current_index():
     if BOXED_SPECIAL_LAIR_GLOBAL_SOURCE_REVIEW.exists():
         report = json.loads(BOXED_SPECIAL_LAIR_GLOBAL_SOURCE_REVIEW.read_text(encoding="utf-8"))
         data = apply_boxed_special_lair_global_source_overlay(data, report)
+    if INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW.exists():
+        report = json.loads(INSERTS_CLASH_SPELLBOOK_SOURCE_REVIEW.read_text(encoding="utf-8"))
+        data = apply_inserts_clash_spellbook_source_overlay(data, report)
     return data
 
 

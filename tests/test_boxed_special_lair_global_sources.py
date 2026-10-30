@@ -65,9 +65,9 @@ class SecretLairGlobalSourcesTests(unittest.TestCase):
     def test_unchanged_prior_sources_and_live_search(self):
         self.assertEqual(A.encode(self.build()), A.encode(self.build()))
         live = load_current_index()
-        self.assertEqual(live["wizards_reviewed_examples"], 170)
-        self.assertEqual(len(select(live, only_pending=True)), 678)
-        self.assertEqual(len(select(live, cohort=A.COHORT, only_pending=True)), 11)
+        self.assertGreaterEqual(live["wizards_reviewed_examples"], 170)
+        self.assertLessEqual(len(select(live, only_pending=True)), 678)
+        self.assertLessEqual(len(select(live, cohort=A.COHORT, only_pending=True)), 11)
         self.assertEqual(len(select(live, set_type="commander", only_pending=True)), 0)
         self.assertTrue(select(live, code="gs1")[0]["wizards_code_explicitly_confirmed"])
         self.assertTrue(select(live, code="h09")[0]["wizards_code_explicitly_confirmed"])
