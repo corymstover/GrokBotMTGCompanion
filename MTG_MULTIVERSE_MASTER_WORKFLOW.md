@@ -1,6 +1,6 @@
 # MTG Multiverse Companion — Master Workflow & Progress Checklist
 
-**Version:** 2.54
+**Version:** 2.55
 **Checkpoint date:** 2026-10-30
 **Repository:** [corymstover/GrokBotMTGCompanion](https://github.com/corymstover/GrokBotMTGCompanion)  
 **Purpose:** Durable project roadmap and handoff document. Update this file after verified milestone work; do not treat historical figures as live counters.
@@ -38,6 +38,25 @@ plane dossiers remain explicitly partial, with thin dossiers reduced
 **20 → 18**. Verified histories and tests are preliminary research, not
 deck approval or a completed history census. Phase 6 remains DEFERRED.
 See `research/PHASE5_KAMIGAWA_NEW_PHYREXIA_HISTORIES_2026-10-30.md`.
+
+**v2.55 Phase 5 legendary-origin and horror-plane histories (2026-10-30):**
+Added **25 cited claims** from the official 2024 guides for *Bloomburrow*
+and *Duskmourn*. Valley's Season of Chaos, legendary Order of the Holly
+Leaf, War of Cinders, Lily's Seed Flame and the history of weaving are
+**CANON_IMPLIED**, not promoted to unquestionable history, because the
+guide explicitly frames the Order as legend and tells the past through a
+resident's account. Valley's council governance is explicitly regional,
+not a claim about every polity on Bloomburrow. The Duskmourn records
+document the forgotten original plane, possible lost advanced culture
+(IMPLIED), its old realms, Marina's involvement, expanding House and
+recurring Valgavoth cycles. All three reused Wizards guide identities
+and all 25 excerpts passed **live official-source checks**. The two
+planes now clear the arbitrary five-direct-claim *thin* threshold but
+neither has comprehensive history. The only new time metadata is the
+verbatim **two generations** in Valley's narrated War of Cinders;
+no AR year or link to other planes' calendars was fabricated. Source
+provenance, Q&A qualification and the Phase 6 hold are retained.
+See `research/PHASE5_BLOOMBURROW_DUSKMOURN_ORIGINS_2026-10-30.md`.
 
 **v2.52 Phase 7 plane-history Q&A (2026-10-30):** The main
 `scripts/mv_ask.py ask` route now answers plain-language plane-history
@@ -422,6 +441,8 @@ Infrastructure checkpoint: [PR #783](https://github.com/corymstover/GrokBotMTGCo
 
 ## Phase 5 — Full-history and plane-by-plane expansion
 
+- [x] **Research Bloomburrow's Valley origins with legendary-status boundaries.** *(v2.55: 13 source-checked claims on the Order of the Holly Leaf, Calamity era, War of Cinders, Lily's Seed Flame, weaving's aftermath, five Valley biomes and settlement governance. Legendary historical narrative remains CANON_IMPLIED, and Valley is not equated with the entire plane.)*
+- [x] **Research Duskmourn's lost original plane and the House's growth.** *(v2.55: 12 source-checked claims on forgotten plane name, pre-Ascension realms, Marina, Valgavoth, the House's expansion, five zones and the Harrowing/Quiescence cycle. Advanced ancient civilization is evidence-inferred; no claim that rumors of an exit are proven.)*
 - [x] **Trace Kamigawa's historical transformation using two Wizards sources.** *(v2.54: 12 quoted primary-source claims distinguish the material/spirit worlds, Kami War, Kyodai and Michiko's victory, merger sites, Imperial administration and Futurists; the relative 1,200-year marker is kept verbatim and unconverted. Direct plane claims now eight, not an exhaustive timeline.)*
 - [x] **Trace Mirrodin's conversion into early New Phyrexia without present-day regime assumptions.** *(v2.54: 8 primary-source claims on abductions, Karn's oil, infection, Mirran resistance and early praetor factions; direct New Phyrexia claims now nine. Present tense in its undated overview is a historical profile, not a post-*March of the Machine* fact.)*
 - [x] **Ask cited plane-history questions through the main Q&A interface.** *(v2.52: `mv_ask.py ask 'What is the history of Theros?'` returns source URLs, original grades, limitations and distinct claims/relations from the 33 current registered plane dossiers, always QUALIFIED, never a full-history or total-chronology assertion. Regression tests cover no-source names, multi-target claims and old Phyrexia's unresolved accounts.)*
@@ -490,10 +511,10 @@ explicitly lifts the hold).
   - Partial (2026-10-30): `scripts/release_readiness.py` ([PR #830](https://github.com/corymstover/GrokBotMTGCompanion/pull/830)) scores each written criterion from committed evidence. Current verdict: NOT_RELEASE_READY.
 - [ ] Treat continual future MTG releases as an ongoing maintenance track rather than a permanently finishable backlog.
 
-## Immediate execution queue — v2.53 FOUNDATION FIRST (2026-10-30)
+## Immediate execution queue — v2.55 FOUNDATION FIRST (2026-10-30)
 
 1. **Phase 4 — Verified in-universe chronology:** expand the source-quoted BEFORE/AFTER/UNKNOWN event order, resolve high-value L244 gaps where primary evidence exists, and retain unknown/disputed ordering instead of inventing total dates. Keep release chronology separate.
-2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. The 20 currently thin registered planes are a priority, not a census of all planes.
+2. **Phases 2/5 — Comprehensive history:** systematically deepen thin plane dossiers, major factions, characters, wars, artifacts and cross-plane consequences; record both coverage and missing primary sources. Currently thin registered planes remain a priority, not a census of all planes; regenerate the exact count from the dossier rather than treating this prose as a live counter.
 3. **Phase 3 — Evidence-safe knowledge graph:** resolve or explicitly qualify orphan nodes, cross-pack aliases, identity/printing links and undated relations. Never merge identities or promote card art/name matches without evidence.
 4. **Phase 7 — Advanced Q&A and rules:** test difficult natural-language questions (chronology, contradictions, leaders, card/printing/set queries and nuanced rules) with citations, confidence limits, negative cases and currentness safeguards. No new deckbuilding tests are required here.
 5. **Phases 1B/2 — Reproducibility and source integrity:** keep exact snapshot hashes, authoritative story quotations, per-set data and generated indexes testable. Recover original pinned bulk only by hash; do not alter historical Grixis locks. Treat the optional 555-product source queue as nonblocking unless it becomes material to an active knowledge gate.

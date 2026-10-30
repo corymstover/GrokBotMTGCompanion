@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "90c6fc5e86e160c49a1b161caacc4ac2988a55b61ea30015e3cd5aa90b630fb7",
+ "content_sha256": "4dc7a9437d362cf983a49abb360c95d13decc3ae15678232103953cf2cc7b51f",
  "edges": [
   {
    "artists": [
@@ -18268,6 +18268,179 @@
    "to": "plane:bloomburrow"
   },
   {
+   "claim": "BLH001",
+   "era": "bloomburrow_season_of_chaos_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bloomburrow",
+   "grade": "CANON_IMPLIED",
+   "relation": "legend_recalls_calamity_dominance",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "claim": "BLH002",
+   "era": "bloomburrow_season_of_chaos_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:blb_ancient_animalfolk",
+   "grade": "CANON_IMPLIED",
+   "relation": "sheltered_under",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "place:valley"
+  },
+  {
+   "claim": "BLH003",
+   "era": "bloomburrow_holly_leaf_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:blb_order_holly_leaf",
+   "grade": "CANON_IMPLIED",
+   "relation": "organized_resistance_to",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "claim": "BLH004",
+   "era": "bloomburrow_holly_leaf_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:blb_order_holly_leaf",
+   "grade": "CANON_IMPLIED",
+   "relation": "origin_of",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "concept:blb_weaving"
+  },
+  {
+   "claim": "BLH005",
+   "era": "bloomburrow_war_of_cinders_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bloomburrow",
+   "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "For two generations, battles raged throughout Valley.",
+    "source_id": "blb_guide1",
+    "value": "two generations"
+   },
+   "relation": "legend_recalls",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "event:blb_war_cinders"
+  },
+  {
+   "claim": "BLH006",
+   "era": "bloomburrow_war_of_cinders_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "event:blb_war_cinders",
+   "grade": "CANON_IMPLIED",
+   "relation": "narrated_duration",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "concept:blb_war_two_generations"
+  },
+  {
+   "claim": "BLH007",
+   "era": "bloomburrow_war_of_cinders_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:blb_wildsear",
+   "grade": "CANON_IMPLIED",
+   "relation": "appeared_during",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "event:blb_war_cinders"
+  },
+  {
+   "claim": "BLH008",
+   "era": "bloomburrow_lily_seed_flame_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lily_of_the_valley",
+   "grade": "CANON_IMPLIED",
+   "relation": "wielded_against_wildsear",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "character:blb_wildsear"
+  },
+  {
+   "claim": "BLH008",
+   "era": "bloomburrow_lily_seed_flame_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:lily_of_the_valley",
+   "grade": "CANON_IMPLIED",
+   "relation": "wielded_against_wildsear",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "concept:blb_seed_flame"
+  },
+  {
+   "claim": "BLH009",
+   "era": "bloomburrow_post_lily_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bloomburrow",
+   "grade": "CANON_IMPLIED",
+   "relation": "legend_recounts_peace_after_lily",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "event:blb_post_lily_peace"
+  },
+  {
+   "claim": "BLH010",
+   "era": "bloomburrow_post_lily_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "concept:blb_weaving",
+   "grade": "CANON_IMPLIED",
+   "relation": "backlash_transformed",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "faction:blb_unrestrained_weavers"
+  },
+  {
+   "claim": "BLH011",
+   "era": "bloomburrow_foundation_legend",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:valley",
+   "grade": "CANON_IMPLIED",
+   "relation": "narratively_sealed_powerful_magic",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "concept:blb_sealed_great_magic"
+  },
+  {
+   "claim": "BLH012",
+   "era": "bloomburrow_guide_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:bloomburrow",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_valley_five_biomes",
+   "sources": [
+    "blb_guide1"
+   ],
+   "to": "place:blb_five_biomes"
+  },
+  {
+   "claim": "BLH013",
+   "era": "bloomburrow_guide_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:valley",
+   "grade": "CANON_CONFIRMED",
+   "relation": "governed_locally_by",
+   "sources": [
+    "blb_guide2"
+   ],
+   "to": "concept:blb_valley_governance"
+  },
+  {
    "claim": "BR001",
    "era": "brothers_war_2022",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -19620,6 +19793,150 @@
     "dft_beast"
    ],
    "to": "plane:muraganda"
+  },
+  {
+   "claim": "DH001",
+   "era": "duskmourn_pre_ascension",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:duskmourn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "original_name_forgotten",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_forgotten_plane_name"
+  },
+  {
+   "claim": "DH002",
+   "era": "duskmourn_pre_ascension",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:duskmourn",
+   "grade": "CANON_IMPLIED",
+   "relation": "ancient_artifacts_suggest",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_original_civilization"
+  },
+  {
+   "claim": "DH003",
+   "era": "duskmourn_pre_ascension",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:duskmourn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "once_had_at_least_three_realms",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_old_realms"
+  },
+  {
+   "claim": "DH004",
+   "era": "duskmourn_house_early_history",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marina_vendrell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "encountered",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "character:valgavoth"
+  },
+  {
+   "claim": "DH005",
+   "era": "duskmourn_house_early_history",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:marina_vendrell",
+   "grade": "CANON_CONFIRMED",
+   "relation": "lured_to_valgavoth",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "faction:dsk_marina_bullies"
+  },
+  {
+   "claim": "DH006",
+   "era": "duskmourn_house_expansion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "place:the_house",
+   "grade": "CANON_CONFIRMED",
+   "relation": "warped_surrounding",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "place:dsk_old_neighborhood"
+  },
+  {
+   "claim": "DH007",
+   "era": "duskmourn_house_expansion",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "deceived_marina_with",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_marina_illusion"
+  },
+  {
+   "claim": "DH008",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:duskmourn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "house_has_five_zones",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_five_zones"
+  },
+  {
+   "claim": "DH009",
+   "era": "duskmourn_pre_omenpaths",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "used_to_lure_interplanar_victims",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "concept:dsk_predatory_doors"
+  },
+  {
+   "claim": "DH010",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:valgavoth",
+   "grade": "CANON_CONFIRMED",
+   "relation": "molting_triggers",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "event:dsk_harrowings"
+  },
+  {
+   "claim": "DH011",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "event:dsk_quiescences",
+   "grade": "CANON_CONFIRMED",
+   "relation": "occur_before",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "event:dsk_harrowings"
+  },
+  {
+   "claim": "DH012",
+   "era": "duskmourn_dsk_2024",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "plane:duskmourn",
+   "grade": "CANON_CONFIRMED",
+   "relation": "contains_fixed_location",
+   "sources": [
+    "dsk_guide"
+   ],
+   "to": "place:dsk_below"
   },
   {
    "claim": "DM001",
@@ -37689,6 +38006,168 @@
    "to": "place:valley"
   },
   {
+   "from": "claim:BLH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "from": "claim:BLH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BLH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:valley"
+  },
+  {
+   "from": "claim:BLH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:blb_ancient_animalfolk"
+  },
+  {
+   "from": "claim:BLH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:calamity_beasts"
+  },
+  {
+   "from": "claim:BLH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:blb_order_holly_leaf"
+  },
+  {
+   "from": "claim:BLH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blb_weaving"
+  },
+  {
+   "from": "claim:BLH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:blb_order_holly_leaf"
+  },
+  {
+   "from": "claim:BLH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:blb_war_cinders"
+  },
+  {
+   "from": "claim:BLH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BLH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blb_war_two_generations"
+  },
+  {
+   "from": "claim:BLH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:blb_war_cinders"
+  },
+  {
+   "from": "claim:BLH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:blb_war_cinders"
+  },
+  {
+   "from": "claim:BLH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:blb_wildsear"
+  },
+  {
+   "from": "claim:BLH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:blb_wildsear"
+  },
+  {
+   "from": "claim:BLH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blb_seed_flame"
+  },
+  {
+   "from": "claim:BLH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:lily_of_the_valley"
+  },
+  {
+   "from": "claim:BLH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:blb_post_lily_peace"
+  },
+  {
+   "from": "claim:BLH009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BLH010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:blb_unrestrained_weavers"
+  },
+  {
+   "from": "claim:BLH010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "concept:blb_weaving"
+  },
+  {
+   "from": "claim:BLH011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blb_sealed_great_magic"
+  },
+  {
+   "from": "claim:BLH011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:valley"
+  },
+  {
+   "from": "claim:BLH012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:blb_five_biomes"
+  },
+  {
+   "from": "claim:BLH012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:bloomburrow"
+  },
+  {
+   "from": "claim:BLH013",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:blb_valley_governance"
+  },
+  {
+   "from": "claim:BLH013",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:valley"
+  },
+  {
    "from": "claim:BR001",
    "relation": "asserts",
    "role": "object",
@@ -39001,6 +39480,150 @@
    "relation": "asserts",
    "role": "subject",
    "to": "faction:telu_set"
+  },
+  {
+   "from": "claim:DH001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_forgotten_plane_name"
+  },
+  {
+   "from": "claim:DH001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:duskmourn"
+  },
+  {
+   "from": "claim:DH002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_original_civilization"
+  },
+  {
+   "from": "claim:DH002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:duskmourn"
+  },
+  {
+   "from": "claim:DH003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_old_realms"
+  },
+  {
+   "from": "claim:DH003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:duskmourn"
+  },
+  {
+   "from": "claim:DH004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DH004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marina_vendrell"
+  },
+  {
+   "from": "claim:DH005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:dsk_marina_bullies"
+  },
+  {
+   "from": "claim:DH005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:marina_vendrell"
+  },
+  {
+   "from": "claim:DH006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:dsk_old_neighborhood"
+  },
+  {
+   "from": "claim:DH006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "place:the_house"
+  },
+  {
+   "from": "claim:DH007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_marina_illusion"
+  },
+  {
+   "from": "claim:DH007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DH008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_five_zones"
+  },
+  {
+   "from": "claim:DH008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:duskmourn"
+  },
+  {
+   "from": "claim:DH009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:dsk_predatory_doors"
+  },
+  {
+   "from": "claim:DH009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DH010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:dsk_harrowings"
+  },
+  {
+   "from": "claim:DH010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:valgavoth"
+  },
+  {
+   "from": "claim:DH011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "event:dsk_harrowings"
+  },
+  {
+   "from": "claim:DH011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "event:dsk_quiescences"
+  },
+  {
+   "from": "claim:DH012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:dsk_below"
+  },
+  {
+   "from": "claim:DH012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "plane:duskmourn"
   },
   {
    "from": "claim:DM001",
@@ -51119,9 +51742,74 @@
    "to": "claim:BL009"
   },
   {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH001"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH002"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH003"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH004"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH005"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH006"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH007"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH008"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH009"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH010"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH011"
+  },
+  {
+   "from": "source:blb_guide1",
+   "relation": "cited_by",
+   "to": "claim:BLH012"
+  },
+  {
    "from": "source:blb_guide2",
    "relation": "cited_by",
    "to": "claim:BL017"
+  },
+  {
+   "from": "source:blb_guide2",
+   "relation": "cited_by",
+   "to": "claim:BLH013"
   },
   {
    "from": "source:blb_guide3",
@@ -52241,6 +52929,66 @@
    "from": "source:dsk_ep6",
    "relation": "cited_by",
    "to": "claim:DS010"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH001"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH002"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH003"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH004"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH005"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH006"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH007"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH008"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH009"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH010"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH011"
+  },
+  {
+   "from": "source:dsk_guide",
+   "relation": "cited_by",
+   "to": "claim:DH012"
   },
   {
    "from": "source:dsk_guide",
@@ -63311,6 +64059,20 @@
     "file": "data/lore_research/pack_p5_new_phyrexia_historical_profile_2026-10-30.json",
     "sha256": "47b5476e10a25f95737cbf867819cb14b8c6edbe0a9f2537a48ce2381f237e10",
     "sources": 1
+   },
+   {
+    "claims": 13,
+    "entities": 16,
+    "file": "data/lore_research/pack_p5_bloomburrow_valley_history_2026-10-30.json",
+    "sha256": "21d15cc77cd484c18f676692d43dcc40cca53e6dff937141e96dfa521eed2ed9",
+    "sources": 2
+   },
+   {
+    "claims": 12,
+    "entities": 15,
+    "file": "data/lore_research/pack_p5_duskmourn_origin_2026-10-30.json",
+    "sha256": "2a1cf0da8186ceb76b8612d99a133200dc052629094d69be367efe57d2f94b5b",
+    "sources": 1
    }
   ],
   "deck_evidence": [
@@ -63332,9 +64094,9 @@
   ],
   "in_universe_dates": [
    {
-    "dates": 34,
+    "dates": 35,
     "file": "data/lore_research/in_universe_dates_2026-10-30.json",
-    "sha256": "04b3b14769c71e16f3d33f3097462cdc10cde71ff4b4eaa083634098840d479f"
+    "sha256": "7402c084c9a3a6aa011e1186c1ecb2177e7a41e7fe03cf1828abffd28a96f85a"
    }
   ],
   "name_anchor_packs": [
@@ -80552,6 +81314,14 @@
    "type": "Character"
   },
   {
+   "id": "character:blb_wildsear",
+   "name": "Wildsear, Season of Flames",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
    "id": "character:blood_avatar",
    "name": "Blood Avatar",
    "origins": [
@@ -82277,7 +83047,8 @@
    "id": "character:lily_of_the_valley",
    "name": "Lily of the Valley",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -82427,7 +83198,8 @@
    "id": "character:marina_vendrell",
    "name": "Marina Vendrell",
    "origins": [
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -84107,7 +84879,8 @@
    "name": "Valgavoth",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json",
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -85902,6 +86675,162 @@
    "type": "Claim"
   },
   {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH001",
+   "limitation": "This section is an in-world tale presented by Ms. Bumbleflower, not independent historical proof of every event.",
+   "name": "Valley's narrated ancient history recalls powerful Calamity Beasts dominating its environment.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "legend_recalls_calamity_dominance",
+   "stage": "bloomburrow_season_of_chaos_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH002",
+   "limitation": "Ancient conditions are recounted through a local historical tradition; no absolute date is provided.",
+   "name": "The Valley account says animalfolk banded together underground during the Calamity era.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "sheltered_under",
+   "stage": "bloomburrow_season_of_chaos_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH003",
+   "limitation": "The source explicitly calls the Order legendary to most residents; its exact membership and deeds are not all verified historical fact.",
+   "name": "Valley legends remember the Order of the Holly Leaf as a resistance alliance against the Calamities.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "organized_resistance_to",
+   "stage": "bloomburrow_holly_leaf_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH004",
+   "limitation": "A legendary origin account, not an independently dated demonstration of how all weaving began.",
+   "name": "The traditional account associates the Order's magical pact with the growth of Valley's weaving powers.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "origin_of",
+   "stage": "bloomburrow_holly_leaf_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH005",
+   "limitation": "Two generations is a span within the narrated legend, not an AR date or precisely measured total of all Calamity conflicts.",
+   "name": "The Valley account describes a War of Cinders lasting two generations.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "legend_recalls",
+   "stage": "bloomburrow_war_of_cinders_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH006",
+   "limitation": "Narrated duration only; the guide supplies no fixed beginning or end year.",
+   "name": "The guide's storyteller attributes two generations of battles to the early Calamity struggle.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "narrated_duration",
+   "stage": "bloomburrow_war_of_cinders_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH007",
+   "limitation": "The guide uses legendary narration; no complete taxonomy or fixed chronology is established.",
+   "name": "Wildsear is introduced as the strongest Calamity in the War of Cinders legend.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "appeared_during",
+   "stage": "bloomburrow_war_of_cinders_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH008",
+   "limitation": "The specific mechanism is part of Valley's traditional heroic account; it supplements, not replaces, the existing Cragflame claims.",
+   "name": "In Valley's account, Lily awakened the Seed Flame and diminished Wildsear's power.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "wielded_against_wildsear",
+   "stage": "bloomburrow_lily_seed_flame_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH009",
+   "limitation": "Narrated relative ordering only; other regions of Bloomburrow are not documented here.",
+   "name": "The Valley tale places a period of peace and settlement after Lily's victory.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "legend_recounts_peace_after_lily",
+   "stage": "bloomburrow_post_lily_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH010",
+   "limitation": "The narrator reports past events without a precise time or named victims.",
+   "name": "The Valley tradition recalls powerful weaving provoking backlashes and monstrous transformations.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "backlash_transformed",
+   "stage": "bloomburrow_post_lily_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:BLH011",
+   "limitation": "The guide leaves the hiding place and present survival of that knowledge unspecified.",
+   "name": "According to Valley tradition, descendants of the heroes hid the most dangerous weaving knowledge.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "narratively_sealed_powerful_magic",
+   "stage": "bloomburrow_foundation_legend",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BLH012",
+   "limitation": "The five biomes are within Valley, not a complete map or biome count for the entire plane.",
+   "name": "Valley is a specific small region of Bloomburrow with five described biomes.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "contains_valley_five_biomes",
+   "stage": "bloomburrow_guide_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:BLH013",
+   "limitation": "This is governance of Valley, not proof that the whole plane of Bloomburrow has no authority or that it remains unchanged in later stories.",
+   "name": "The 2024 guide describes Valley's settlements as self-governing, usually via mayors or councils.",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "predicate": "governed_locally_by",
+   "stage": "bloomburrow_guide_2024",
+   "type": "Claim"
+  },
+  {
    "grade": "CANON_CONFIRMED",
    "id": "claim:BR001",
    "name": "Urza's instruction turned Tawnos from a clever toymaker into a master artificer.",
@@ -87130,6 +88059,150 @@
    ],
    "predicate": "located_on",
    "stage": "aetherdrift_dft_2024_2025",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH001",
+   "limitation": "The guide does not furnish the missing name or prove no future story could recover it.",
+   "name": "The original name of the plane that became Duskmourn is no longer known in the 2024 guide.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "original_name_forgotten",
+   "stage": "duskmourn_pre_ascension",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:DH002",
+   "limitation": "The guide explicitly uses 'hint', so a complete history of that civilization is not confirmed.",
+   "name": "Surviving artifacts imply the original plane had substantial magical and technical knowledge.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "ancient_artifacts_suggest",
+   "stage": "duskmourn_pre_ascension",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH003",
+   "limitation": "At least three does not imply exactly three, nor does it fully explain their cosmology.",
+   "name": "Before the Ascension, the plane held at least material, demonic and spirit realms.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "once_had_at_least_three_realms",
+   "stage": "duskmourn_pre_ascension",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH004",
+   "limitation": "This early meeting is not the demon's summoning or the full escape of his binding.",
+   "name": "Marina found an entity in the House's basement and initially considered it a friend.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "encountered",
+   "stage": "duskmourn_house_early_history",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH005",
+   "limitation": "This documents the original encounter; it does not assign conscious responsibility for the later plane-wide Ascension to a child.",
+   "name": "Marina brought her bullies into the basement after Valgavoth offered revenge.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "lured_to_valgavoth",
+   "stage": "duskmourn_house_early_history",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH006",
+   "limitation": "The guide gives no exact area, duration or in-world calendar year for this expansion.",
+   "name": "The House's expanding influence warped nearby neighborhoods before consuming the plane.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "warped_surrounding",
+   "stage": "duskmourn_house_expansion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH007",
+   "limitation": "The guide explicitly leaves Marina's level of awareness uncertain.",
+   "name": "Valgavoth preserved Marina's perception of normality while the House continued its expansion.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "deceived_marina_with",
+   "stage": "duskmourn_house_expansion",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH008",
+   "limitation": "These are loose categories, not physically fixed or exhaustive barriers.",
+   "name": "The House's shifting geography is described through five overlapping zones.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "house_has_five_zones",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH009",
+   "limitation": "Previously is relative to the 2024 guide's story frame; these are not confirmed current transport capabilities after later events.",
+   "name": "Before widespread Omenpaths, Valgavoth sometimes opened doors to lure victims from other planes.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "used_to_lure_interplanar_victims",
+   "stage": "duskmourn_pre_omenpaths",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH010",
+   "limitation": "The 2024 guide does not count every molt or guarantee future cycle timing.",
+   "name": "Valgavoth's molting is followed by Harrowings that make the House more dangerous.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "molting_triggers",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH011",
+   "limitation": "This order describes the recurring local cycle, not a timestamp in the Multiverse chronology.",
+   "name": "Quiescences precede Valgavoth's molts and the associated Harrowings.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "occur_before",
+   "stage": "duskmourn_dsk_2024",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:DH012",
+   "limitation": "Rumors of an exit in the Below are not verified by the guide and are not asserted here.",
+   "name": "The Below is described as the only fixed point amid the House's changing geography.",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "predicate": "contains_fixed_location",
+   "stage": "duskmourn_dsk_2024",
    "type": "Claim"
   },
   {
@@ -97996,6 +99069,46 @@
    "type": "Concept"
   },
   {
+   "id": "concept:blb_sealed_great_magic",
+   "name": "Valley's hidden most powerful weaving knowledge",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:blb_seed_flame",
+   "name": "Seed Flame of Lily's Valley legend",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:blb_valley_governance",
+   "name": "Valley settlement councils and local governance",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:blb_war_two_generations",
+   "name": "Two generations of War of Cinders conflict",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:blb_weaving",
+   "name": "Weaving magic in Valley",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:blind_eternities",
    "name": "The Blind Eternities",
    "origins": [
@@ -98032,6 +99145,54 @@
    "name": "Tarkir's dragonstorms",
    "origins": [
     "pack_p5_tarkir_dragonstorm_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_five_zones",
+   "name": "Five changing House zones of Duskmourn",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_forgotten_plane_name",
+   "name": "Forgotten original name of Duskmourn's plane",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_marina_illusion",
+   "name": "Marina's illusory restoration of normal life",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_old_realms",
+   "name": "Three pre-Ascension realms (material, demonic and spirit)",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_original_civilization",
+   "name": "Lost magically and technologically sophisticated Duskmourn civilization",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
+   "id": "concept:dsk_predatory_doors",
+   "name": "Valgavoth's doors to other planes",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Concept"
   },
@@ -99338,6 +100499,22 @@
    "type": "Event"
   },
   {
+   "id": "event:blb_post_lily_peace",
+   "name": "Peace following Lily's defense of Valley",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:blb_war_cinders",
+   "name": "War of Cinders (Valley tradition)",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
    "id": "event:brothers_war",
    "name": "The Brothers' War",
    "origins": [
@@ -99367,6 +100544,22 @@
    "name": "Meditation Realm escape during Tarkir: Dragonstorm",
    "origins": [
     "pack_a_ugin_bolas_evidence_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:dsk_harrowings",
+   "name": "Harrowings after Valgavoth molts",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Event"
+  },
+  {
+   "id": "event:dsk_quiescences",
+   "name": "Quiescences before Valgavoth molts",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Event"
   },
@@ -99614,6 +100807,30 @@
    "type": "Faction"
   },
   {
+   "id": "faction:blb_ancient_animalfolk",
+   "name": "Ancient Valley animalfolk",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:blb_order_holly_leaf",
+   "name": "Order of the Holly Leaf",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:blb_unrestrained_weavers",
+   "name": "Weavers transformed by magical backlash",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:boggarts",
    "name": "Boggarts",
    "origins": [
@@ -99679,7 +100896,8 @@
    "id": "faction:calamity_beasts",
    "name": "Calamity Beasts",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -99823,6 +101041,14 @@
    "name": "The Drix",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:dsk_marina_bullies",
+   "name": "Marina's bullying schoolmates (early House victims)",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -100984,6 +102210,14 @@
    "type": "Place"
   },
   {
+   "id": "place:blb_five_biomes",
+   "name": "Five biomes of Valley",
+   "origins": [
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:cabal_stronghold",
    "name": "Cabal Stronghold",
    "origins": [
@@ -101061,6 +102295,22 @@
    "name": "Drannith",
    "origins": [
     "pack_p5_ikoria_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:dsk_below",
+   "name": "The Below (fixed point in Duskmourn)",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:dsk_old_neighborhood",
+   "name": "Neighborhood surrounding the original House",
+   "origins": [
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -101663,7 +102913,8 @@
    "name": "The House",
    "origins": [
     "pack_p5_dsk_side_stories_2026-10-30.json",
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -101766,7 +103017,8 @@
    "id": "place:valley",
    "name": "Valley",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -101845,7 +103097,8 @@
    "id": "plane:bloomburrow",
    "name": "Bloomburrow",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -101866,7 +103119,8 @@
    "name": "Duskmourn",
    "origins": [
     "pack_p5_dsk_side_stories_2026-10-30.json",
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -111505,7 +112759,8 @@
    "kind": "official_planeswalkers_guide",
    "name": "Planeswalker's Guide to Bloomburrow, Part 1",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
@@ -111516,7 +112771,8 @@
    "kind": "official_planeswalkers_guide",
    "name": "Planeswalker's Guide to Bloomburrow, Part 2",
    "origins": [
-    "pack_p5_bloomburrow_2026-10-30.json"
+    "pack_p5_bloomburrow_2026-10-30.json",
+    "pack_p5_bloomburrow_valley_history_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
@@ -112447,7 +113703,8 @@
    "kind": "official_planeswalkers_guide",
    "name": "Planeswalker's Guide to Duskmourn",
    "origins": [
-    "pack_p5_duskmourn_2026-10-30.json"
+    "pack_p5_duskmourn_2026-10-30.json",
+    "pack_p5_duskmourn_origin_2026-10-30.json"
    ],
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
@@ -117768,17 +119025,17 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1221,
-  "claim_edges_with_in_universe_date": 35,
+  "claim_edges_with_era": 1247,
+  "claim_edges_with_in_universe_date": 36,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 927,
+   "CANON_CONFIRMED": 940,
    "CANON_DISPUTED": 8,
-   "CANON_IMPLIED": 241,
+   "CANON_IMPLIED": 253,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 126,
-  "edges": 8153,
+  "edges": 8255,
   "exact_art_printings": 560,
   "literal_objects": 14,
   "node_types": {
@@ -117786,21 +119043,21 @@
    "Card": 1760,
    "CardRepresentation": 560,
    "CardTheme": 1,
-   "Character": 482,
-   "Claim": 1181,
-   "Concept": 165,
+   "Character": 483,
+   "Claim": 1206,
+   "Concept": 176,
    "DeckProposal": 3,
-   "Event": 24,
-   "Faction": 141,
+   "Event": 28,
+   "Faction": 145,
    "Literal": 14,
    "Object": 52,
-   "Place": 106,
+   "Place": 109,
    "Plane": 33,
    "Source": 605
   },
-  "nodes": 5128,
+  "nodes": 5176,
   "non_wizards_sources": 0,
-  "relations": 399,
+  "relations": 424,
   "wizards_official_sources": 605
  }
 }

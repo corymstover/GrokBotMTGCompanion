@@ -2,18 +2,18 @@
   "schema": "plane-history-dossiers/v1",
   "as_of": "2026-10-30",
   "status": "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED",
-  "source_graph_sha256": "90c6fc5e86e160c49a1b161caacc4ac2988a55b61ea30015e3cd5aa90b630fb7",
+  "source_graph_sha256": "4dc7a9437d362cf983a49abb360c95d13decc3ae15678232103953cf2cc7b51f",
   "scope": "Only named planes presently registered as graph Plane nodes and directly incident claim edges.",
   "chronology_policy": "Never infer ordering from article date, release date or an era_label; explicit dated quotes are retained verbatim as quoted metadata only.",
   "counts": {
     "registered_planes": 33,
     "planes_with_direct_claims": 33,
-    "direct_claim_edges": 174,
-    "thin_planes_fewer_than_five_claims": 18,
+    "direct_claim_edges": 183,
+    "thin_planes_fewer_than_five_claims": 16,
     "claim_edge_grades": {
-      "CANON_CONFIRMED": 150,
+      "CANON_CONFIRMED": 155,
       "CANON_DISPUTED": 2,
-      "CANON_IMPLIED": 21,
+      "CANON_IMPLIED": 25,
       "OPEN_QUESTION": 1
     }
   },
@@ -792,7 +792,7 @@
       "id": "plane:bloomburrow",
       "plane": "Bloomburrow",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 2,
+      "distinct_claims": 6,
       "facts": [
         {
           "claim_id": "BL011",
@@ -839,6 +839,106 @@
               "id": "blb_ep4",
               "title": "Bloomburrow | Episode 4: Soothsaying and Stormcalling",
               "url": "https://magic.wizards.com/en/news/magic-story/episode-4-soothsaying-and-stormcalling"
+            }
+          ]
+        },
+        {
+          "claim_id": "BLH001",
+          "grade": "CANON_IMPLIED",
+          "statement": "Valley's narrated ancient history recalls powerful Calamity Beasts dominating its environment.",
+          "limitation": "This section is an in-world tale presented by Ms. Bumbleflower, not independent historical proof of every event.",
+          "relation": "legend_recalls_calamity_dominance",
+          "subject": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "object": {
+            "id": "faction:calamity_beasts",
+            "name": "Calamity Beasts"
+          },
+          "era_label": "bloomburrow_season_of_chaos_legend",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "blb_guide1",
+              "title": "Planeswalker's Guide to Bloomburrow, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "BLH005",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Valley account describes a War of Cinders lasting two generations.",
+          "limitation": "Two generations is a span within the narrated legend, not an AR date or precisely measured total of all Calamity conflicts.",
+          "relation": "legend_recalls",
+          "subject": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "object": {
+            "id": "event:blb_war_cinders",
+            "name": "War of Cinders (Valley tradition)"
+          },
+          "era_label": "bloomburrow_war_of_cinders_legend",
+          "in_universe_date": {
+            "quote": "For two generations, battles raged throughout Valley.",
+            "source_id": "blb_guide1",
+            "value": "two generations"
+          },
+          "sources": [
+            {
+              "id": "blb_guide1",
+              "title": "Planeswalker's Guide to Bloomburrow, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "BLH009",
+          "grade": "CANON_IMPLIED",
+          "statement": "The Valley tale places a period of peace and settlement after Lily's victory.",
+          "limitation": "Narrated relative ordering only; other regions of Bloomburrow are not documented here.",
+          "relation": "legend_recounts_peace_after_lily",
+          "subject": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "object": {
+            "id": "event:blb_post_lily_peace",
+            "name": "Peace following Lily's defense of Valley"
+          },
+          "era_label": "bloomburrow_post_lily_legend",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "blb_guide1",
+              "title": "Planeswalker's Guide to Bloomburrow, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
+            }
+          ]
+        },
+        {
+          "claim_id": "BLH012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Valley is a specific small region of Bloomburrow with five described biomes.",
+          "limitation": "The five biomes are within Valley, not a complete map or biome count for the entire plane.",
+          "relation": "contains_valley_five_biomes",
+          "subject": {
+            "id": "plane:bloomburrow",
+            "name": "Bloomburrow"
+          },
+          "object": {
+            "id": "place:blb_five_biomes",
+            "name": "Five biomes of Valley"
+          },
+          "era_label": "bloomburrow_guide_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "blb_guide1",
+              "title": "Planeswalker's Guide to Bloomburrow, Part 1",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-bloomburrow-part-1"
             }
           ]
         }
@@ -1038,8 +1138,128 @@
       "id": "plane:duskmourn",
       "plane": "Duskmourn",
       "evidence_status": "PARTIAL_DIRECT_GRAPH_CLAIMS_ONLY",
-      "distinct_claims": 2,
+      "distinct_claims": 7,
       "facts": [
+        {
+          "claim_id": "DH001",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The original name of the plane that became Duskmourn is no longer known in the 2024 guide.",
+          "limitation": "The guide does not furnish the missing name or prove no future story could recover it.",
+          "relation": "original_name_forgotten",
+          "subject": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "object": {
+            "id": "concept:dsk_forgotten_plane_name",
+            "name": "Forgotten original name of Duskmourn's plane"
+          },
+          "era_label": "duskmourn_pre_ascension",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
+        {
+          "claim_id": "DH002",
+          "grade": "CANON_IMPLIED",
+          "statement": "Surviving artifacts imply the original plane had substantial magical and technical knowledge.",
+          "limitation": "The guide explicitly uses 'hint', so a complete history of that civilization is not confirmed.",
+          "relation": "ancient_artifacts_suggest",
+          "subject": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "object": {
+            "id": "concept:dsk_original_civilization",
+            "name": "Lost magically and technologically sophisticated Duskmourn civilization"
+          },
+          "era_label": "duskmourn_pre_ascension",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
+        {
+          "claim_id": "DH003",
+          "grade": "CANON_CONFIRMED",
+          "statement": "Before the Ascension, the plane held at least material, demonic and spirit realms.",
+          "limitation": "At least three does not imply exactly three, nor does it fully explain their cosmology.",
+          "relation": "once_had_at_least_three_realms",
+          "subject": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "object": {
+            "id": "concept:dsk_old_realms",
+            "name": "Three pre-Ascension realms (material, demonic and spirit)"
+          },
+          "era_label": "duskmourn_pre_ascension",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
+        {
+          "claim_id": "DH008",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The House's shifting geography is described through five overlapping zones.",
+          "limitation": "These are loose categories, not physically fixed or exhaustive barriers.",
+          "relation": "house_has_five_zones",
+          "subject": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "object": {
+            "id": "concept:dsk_five_zones",
+            "name": "Five changing House zones of Duskmourn"
+          },
+          "era_label": "duskmourn_dsk_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
+        {
+          "claim_id": "DH012",
+          "grade": "CANON_CONFIRMED",
+          "statement": "The Below is described as the only fixed point amid the House's changing geography.",
+          "limitation": "Rumors of an exit in the Below are not verified by the guide and are not asserted here.",
+          "relation": "contains_fixed_location",
+          "subject": {
+            "id": "plane:duskmourn",
+            "name": "Duskmourn"
+          },
+          "object": {
+            "id": "place:dsk_below",
+            "name": "The Below (fixed point in Duskmourn)"
+          },
+          "era_label": "duskmourn_dsk_2024",
+          "in_universe_date": null,
+          "sources": [
+            {
+              "id": "dsk_guide",
+              "title": "Planeswalker's Guide to Duskmourn",
+              "url": "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-duskmourn"
+            }
+          ]
+        },
         {
           "claim_id": "DS002",
           "grade": "CANON_CONFIRMED",
@@ -4730,5 +4950,5 @@
       ]
     }
   ],
-  "content_sha256": "44b3bc03f1467d03c27685196e0ab609138dccc917ab63b72d14c280892c61c2"
+  "content_sha256": "4f7c2b992892253b37a62972cb06fab034bbd9a5728ecdf8964dbaf5a20125bd"
 }
