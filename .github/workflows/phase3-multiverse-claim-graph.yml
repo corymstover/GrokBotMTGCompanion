@@ -10,6 +10,8 @@ on:
       - 'scripts/build_multiverse_graph.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_multiverse_graph.py'
+      - 'scripts/build_card_name_anchors.py'
+      - 'tests/test_card_name_anchors.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   push:
     paths:
@@ -18,6 +20,8 @@ on:
       - 'scripts/build_multiverse_graph.py'
       - 'scripts/query_multiverse_graph.py'
       - 'tests/test_multiverse_graph.py'
+      - 'scripts/build_card_name_anchors.py'
+      - 'tests/test_card_name_anchors.py'
       - '.github/workflows/phase3-multiverse-claim-graph.yml'
   workflow_dispatch:
 
@@ -38,3 +42,7 @@ jobs:
           python3 scripts/query_multiverse_graph.py card "Crux of Fate" > /dev/null
       - name: Graph regression and mutation tests
         run: python3 -m unittest discover -s tests -p 'test_multiverse_graph.py' -v
+      - name: Card name anchors (self-hash; snapshot absent in CI) and tests
+        run: |
+          python3 scripts/build_card_name_anchors.py --check
+          python3 -m unittest discover -s tests -p 'test_card_name_anchors.py' -v

@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "a5db594122d6be27415226fb9b6ebbf7120a4d38caef09fbe0da33c374b22244",
+ "content_sha256": "7cd8a0a05df99458a8c9c3f2e33a1e57d27a549309353d90464134fb9e151f16",
  "edges": [
   {
    "beat": "I. The Elder Dragons of Dominaria and the war Bolas started",
@@ -1579,6 +1579,923 @@
    "relation": "proposed_in",
    "tier": "LORE_INSPIRED",
    "to": "deck:ugin_bolas_elder_dragon_duality"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:golgothian_sylex",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:golgothian_sylex"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:mightstone_and_weakstone",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_mightstone_and_weakstone"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:ugins_nexus",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ugin_s_nexus"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "artifact:weatherlight",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:weatherlight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_adversary_of_tyrants"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_caller_of_the_pride"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_goldmane"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_inspiring_leader"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_mentor_of_heroes"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_nacatl_pariah_ajani_nacatl_avenger"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_outland_chaperone"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_resolute"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_sleeper_agent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_steadfast"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_strength_of_the_pride"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_the_greathearted"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_unrelenting"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_unyielding"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_valiant_protector"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_vengeant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ajani",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ajani_wise_counselor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:arcades_sabboth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:arcades_sabboth"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:arcades_sabboth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:arcades_the_strategist"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashnod",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashnod_flesh_mechanist"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ashnod",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ashnod_the_uncaring"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:chromium_rhuell",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:chromium"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:chromium_rhuell",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:chromium_the_mutable"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:crosis",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:crosis_the_purger"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dakkon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dakkon_blackblade"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:dakkon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dakkon_shadow_slayer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:elesh_norn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:elesh_norn_grand_cenobite"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:elesh_norn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:elesh_norn_mother_of_machines"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:elesh_norn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:elesh_norn_the_argent_etchings"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:gerrard",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gerrard_capashen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:gerrard",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gerrard_weatherlight_hero"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:geyadrone_dihada",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:dihada_binder_of_wills"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:geyadrone_dihada",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:geyadrone_dihada"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:gix",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:gix_yawgmoth_praetor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:harbin",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:harbin_vanguard_aviator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jhoira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jhoira_ageless_innovator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jhoira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jhoira_of_the_ghitu"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jhoira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jhoira_weatherlight_captain"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jhoira",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jhoira_weatherlight_corsair"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jodah",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jodah_archmage_eternal"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:jodah",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:jodah_the_unifier"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_argent_defender"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_gilded_guardian"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_legacy_reforged"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_liberated"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_living_legacy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_scion_of_urza"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_silver_golem"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:karn",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:karn_the_great_creator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_artificer_prodigy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_claimed_by_gix"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_eminent_one"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_excavation_prodigy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_lost_to_phyrexia"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:mishra",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:mishra_tamer_of_mak_fawa"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_enlightened_exile"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_enlightened_master"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_jeskai_waymaster"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_of_the_ancient_way"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_parter_of_veils"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:narset",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:narset_transcendent"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas_dragon_god"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas_god_pharaoh"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas_planeswalker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas_the_deceiver"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:nicol_bolas",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:nicol_bolas_the_ravager_nicol_bolas_the_arisen"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:palladia_mors",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:palladia_mors"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:palladia_mors",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:palladia_mors_the_ruiner"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:piru",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:piru_the_volatile"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:raff_capashen",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:raff_capashen_ship_s_mage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:rith",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:rith_liberated_primeval"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:rith",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:rith_the_awakener"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_consul_of_oversight"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_filigree_master"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_jewel_of_avishkar"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_radiant_creator"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_rai"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_sublime_artificer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_the_gifted"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:saheeli",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:saheeli_the_sun_s_brilliance"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_dragon_ascendant"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_dragonsoul"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_fireblood"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_soul_aflame"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_the_dragonspeaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_the_mad"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_the_masterless"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_unbroken"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sarkhan_vol",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sarkhan_vol"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:shanna",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:shanna_purifying_blade"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:shanna",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:shanna_sisay_s_legacy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sheoldred",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sheoldred_the_apocalypse"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sheoldred",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sheoldred_the_true_scriptures"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:sheoldred",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:sheoldred_whispering_one"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tawnos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tawnos_solemn_survivor"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tawnos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tawnos_the_toymaker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:tawnos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tawnos_urza_s_apprentice"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_druid_of_argoth"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_hero_of_dominaria"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_mage_of_zhalfir"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_master_of_time"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_temporal_archmage"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_temporal_pilgrim"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_time_raveler"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_timebender"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_timeless_voyager"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:teferi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:teferi_who_slows_the_sunset"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ugin",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ugin_eye_of_the_storms"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ugin",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ugin_the_ineffable"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ugin",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ugin_the_spirit_dragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_chief_artificer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_lord_high_artificer"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_lord_protector"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_planeswalker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_powerstone_prodigy"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:urza",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:urza_prince_of_kroog"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vaevictis_asmadi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vaevictis_asmadi"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:vaevictis_asmadi",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:vaevictis_asmadi_the_dire"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:yasova_dragonclaw",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:yasova_dragonclaw"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:yawgmoth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:yawgmoth_thran_physician"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "event:brothers_war",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_brothers_war"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "event:elder_dragon_wars",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:the_elder_dragon_war"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:argoth",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:argoth_sanctum_of_nature"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:caves_of_koilos",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:caves_of_koilos"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:crucible_spirit_dragon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:crucible_of_the_spirit_dragon"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "place:tomb_spirit_dragon",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:tomb_of_the_spirit_dragon"
   },
   {
    "claim": "A001",
@@ -4431,12 +5348,20 @@
     "file": "data/lore_decks/drafts/original_primeval_dragons_printing_evidence.json",
     "sha256": "e88ad609d22c7fa768513195c26c709ea0acc5ee33f99f3757a2eb95b99f3245"
    }
+  ],
+  "name_anchor_packs": [
+   {
+    "anchors": 131,
+    "file": "data/lore_research/card_name_anchors_2026-10-30.json",
+    "sha256": "01ab0fc2b44d4b5d3edc895ad05041000306c631af2bd39e0e5c6784c698ce24"
+   }
   ]
  },
  "inverse_relations": {
   "asserts": "asserted_by",
   "cited_by": "cites",
   "depicted_by": "depicts",
+  "named_on_card": "names_entity",
   "proposed_in": "proposes",
   "see_also_curated_entry": "see_also_from_curated_entry"
  },
@@ -4483,6 +5408,159 @@
    "type": "Object"
   },
   {
+   "id": "card:ajani_adversary_of_tyrants",
+   "name": "Ajani, Adversary of Tyrants",
+   "oracle_id": "b25bea73-7444-4ee2-8022-611461506117",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_caller_of_the_pride",
+   "name": "Ajani, Caller of the Pride",
+   "oracle_id": "1d5ff280-7f4d-4801-aefd-9b6e6b1f2818",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_goldmane",
+   "name": "Ajani Goldmane",
+   "oracle_id": "dfb5f660-fd8b-4b7b-934c-6a71cd182f15",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_inspiring_leader",
+   "name": "Ajani, Inspiring Leader",
+   "oracle_id": "15474e82-94b4-47e1-b91c-3deaf4dbffd6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_mentor_of_heroes",
+   "name": "Ajani, Mentor of Heroes",
+   "oracle_id": "a612bd38-069f-4bdc-9aa6-c172435e3841",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_nacatl_pariah_ajani_nacatl_avenger",
+   "name": "Ajani, Nacatl Pariah // Ajani, Nacatl Avenger",
+   "oracle_id": "2588f348-d7a3-46c8-9ace-dca53ed5ef99",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_outland_chaperone",
+   "name": "Ajani, Outland Chaperone",
+   "oracle_id": "3ba809ce-3556-415c-9fcc-291cb10a43cd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_resolute",
+   "name": "Ajani Resolute",
+   "oracle_id": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_sleeper_agent",
+   "name": "Ajani, Sleeper Agent",
+   "oracle_id": "37714eb9-a39d-4534-a2d3-27908c418f8a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_steadfast",
+   "name": "Ajani Steadfast",
+   "oracle_id": "90249526-1875-450a-882d-bf6f6bfd37a6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_strength_of_the_pride",
+   "name": "Ajani, Strength of the Pride",
+   "oracle_id": "c3974ec7-7af0-4b65-baf6-4c1c4fe8a5c4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_the_greathearted",
+   "name": "Ajani, the Greathearted",
+   "oracle_id": "f5d9be71-91d0-4166-ba58-cbbf5d490c40",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_unrelenting",
+   "name": "Ajani Unrelenting",
+   "oracle_id": "71620e92-45a4-49cb-94d5-348013ecf886",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_unyielding",
+   "name": "Ajani Unyielding",
+   "oracle_id": "8a70ddc5-bb51-45eb-96f2-8ecaecac0cc2",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_valiant_protector",
+   "name": "Ajani, Valiant Protector",
+   "oracle_id": "542423cb-fbfb-4a2f-9f6d-87b273a95e96",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_vengeant",
+   "name": "Ajani Vengeant",
+   "oracle_id": "f953afdf-96f7-4851-994c-1617e8f5e5c9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ajani_wise_counselor",
+   "name": "Ajani, Wise Counselor",
+   "oracle_id": "341f198b-beb6-4a44-af91-a64a5989c865",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:anguished_unmaking",
    "name": "Anguished Unmaking",
    "oracle_id": "ad09b3c3-c8e7-481c-8c45-e7f234935117",
@@ -4496,6 +5574,7 @@
    "name": "Arcades Sabboth",
    "oracle_id": "8ead94c5-8447-4f20-87ec-efdccde689fc",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -4505,6 +5584,7 @@
    "name": "Arcades, the Strategist",
    "oracle_id": "e7fc5ad6-f2f0-4b06-a61b-05022db9d93b",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -4517,6 +5597,33 @@
    "origins": [
     "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:argoth_sanctum_of_nature",
+   "name": "Argoth, Sanctum of Nature",
+   "oracle_id": "62648946-1708-48f4-ba40-c057563ab11b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashnod_flesh_mechanist",
+   "name": "Ashnod, Flesh Mechanist",
+   "oracle_id": "7dfae95e-f67e-49e3-b68a-40ea7e5099dd",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ashnod_the_uncaring",
+   "name": "Ashnod the Uncaring",
+   "oracle_id": "dcd5ab1b-adc5-486e-a1e0-636af6ee9470",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -4593,6 +5700,15 @@
    "type": "Card"
   },
   {
+   "id": "card:caves_of_koilos",
+   "name": "Caves of Koilos",
+   "oracle_id": "33de01e9-ce5a-42d4-afcb-343cd54a6d80",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:chandra_s_defeat",
    "name": "Chandra's Defeat",
    "oracle_id": "a57ad23b-cff3-45e5-98b3-1b20224aaa19",
@@ -4624,6 +5740,7 @@
    "name": "Chromium",
    "oracle_id": "7c91ae5d-0320-46a7-98d2-df0918202478",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -4633,6 +5750,7 @@
    "name": "Chromium, the Mutable",
    "oracle_id": "58d8ff36-4a4d-40e0-b812-3d23b2c7606a",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -4725,6 +5843,7 @@
    "name": "Crosis, the Purger",
    "oracle_id": "f1ae1dcd-76cd-4714-9df2-1ab0ebd2ca41",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
@@ -4740,6 +5859,7 @@
    "name": "Crucible of the Spirit Dragon",
    "oracle_id": "ecfbebc9-7fc7-474e-8c59-8ede800e082e",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -4788,6 +5908,7 @@
    "name": "Dakkon Blackblade",
    "oracle_id": "1aa78e3b-bf7e-4645-9521-4b3537c93f46",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -4797,6 +5918,7 @@
    "name": "Dakkon, Shadow Slayer",
    "oracle_id": "335b5302-2272-405a-b2b8-3943b3df335f",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -4853,6 +5975,15 @@
    "oracle_id": "bd16434d-55ea-4c5a-a9ef-752971a4af16",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:dihada_binder_of_wills",
+   "name": "Dihada, Binder of Wills",
+   "oracle_id": "d326de4d-6157-4586-91b8-5668e1381ac3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -4974,6 +6105,33 @@
    "type": "Card"
   },
   {
+   "id": "card:elesh_norn_grand_cenobite",
+   "name": "Elesh Norn, Grand Cenobite",
+   "oracle_id": "958d71ff-c9f7-46f0-96ca-79e7f4d65a16",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:elesh_norn_mother_of_machines",
+   "name": "Elesh Norn, Mother of Machines",
+   "oracle_id": "5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:elesh_norn_the_argent_etchings",
+   "name": "Elesh Norn // The Argent Etchings",
+   "oracle_id": "650ed75c-20b0-45b8-a4d4-813e0369aaf1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:exotic_orchard",
    "name": "Exotic Orchard",
    "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
@@ -5019,10 +6177,29 @@
    "type": "Card"
   },
   {
+   "id": "card:gerrard_capashen",
+   "name": "Gerrard Capashen",
+   "oracle_id": "27521e70-3a1f-4819-a111-c38216ffe7c3",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:gerrard_weatherlight_hero",
+   "name": "Gerrard, Weatherlight Hero",
+   "oracle_id": "8a1e8435-16f2-475b-a8a9-7b9f0cf4594a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:geyadrone_dihada",
    "name": "Geyadrone Dihada",
    "oracle_id": "e1105d84-86b5-44ef-9efc-d994ee1c35cc",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -5033,6 +6210,15 @@
    "oracle_id": "3479a4e6-c67d-4958-8a47-43d3a2f69bb1",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:gix_yawgmoth_praetor",
+   "name": "Gix, Yawgmoth Praetor",
+   "oracle_id": "928d977e-cff0-4e0e-83bb-16d73a754f35",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5051,6 +6237,24 @@
    "oracle_id": "41d11144-32fc-4e45-a8db-3edb9dc0ce80",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:golgothian_sylex",
+   "name": "Golgothian Sylex",
+   "oracle_id": "95197f8f-c24e-4d13-a106-7186b3cc59e0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:harbin_vanguard_aviator",
+   "name": "Harbin, Vanguard Aviator",
+   "oracle_id": "d827575f-e364-4a20-887e-3091e5501a4f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5141,6 +6345,132 @@
    "oracle_id": "f5896356-5744-4f7e-a4e5-1cc36dde5958",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jhoira_ageless_innovator",
+   "name": "Jhoira, Ageless Innovator",
+   "oracle_id": "83b9a734-ee92-44c8-bf47-ca69b6d6405e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jhoira_of_the_ghitu",
+   "name": "Jhoira of the Ghitu",
+   "oracle_id": "ad3f4ec9-9905-421b-98ed-78bb6fc9b450",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jhoira_weatherlight_captain",
+   "name": "Jhoira, Weatherlight Captain",
+   "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jhoira_weatherlight_corsair",
+   "name": "Jhoira, Weatherlight Corsair",
+   "oracle_id": "cf9b0bb5-d545-4efd-9255-39b10c2be0ee",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jodah_archmage_eternal",
+   "name": "Jodah, Archmage Eternal",
+   "oracle_id": "8be4745e-36d8-430f-945e-c8a7fde9b4f6",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jodah_the_unifier",
+   "name": "Jodah, the Unifier",
+   "oracle_id": "490a8045-e160-4ccf-a05e-658ad2b7ac2d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_argent_defender",
+   "name": "Karn, Argent Defender",
+   "oracle_id": "aecc621f-67da-41a7-9d47-05ded302ae35",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_gilded_guardian",
+   "name": "Karn, Gilded Guardian",
+   "oracle_id": "20b90a18-ff62-4995-b0d6-fbef44dca357",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_legacy_reforged",
+   "name": "Karn, Legacy Reforged",
+   "oracle_id": "bc8802db-8c94-4eb4-817f-5f4f5408b7a4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_liberated",
+   "name": "Karn Liberated",
+   "oracle_id": "0ca233f4-1b7f-4807-ab6e-2b1f5439b3db",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_living_legacy",
+   "name": "Karn, Living Legacy",
+   "oracle_id": "09ab1278-811f-4b97-bd34-7493d6e081e9",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_scion_of_urza",
+   "name": "Karn, Scion of Urza",
+   "oracle_id": "060209fa-4b7d-4e08-bf8b-8759bba5641b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_silver_golem",
+   "name": "Karn, Silver Golem",
+   "oracle_id": "8a7c6391-020a-4d7a-8abb-702631bbee56",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:karn_the_great_creator",
+   "name": "Karn, the Great Creator",
+   "oracle_id": "a20dd48d-d344-4db1-b0e9-a2b71c3cc9d1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5244,6 +6574,114 @@
    "type": "Card"
   },
   {
+   "id": "card:mishra_artificer_prodigy",
+   "name": "Mishra, Artificer Prodigy",
+   "oracle_id": "b38adaac-3714-4348-9fec-cb2e2ad518b1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mishra_claimed_by_gix",
+   "name": "Mishra, Claimed by Gix",
+   "oracle_id": "26a623a1-60c9-47e3-af96-616e29551865",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mishra_eminent_one",
+   "name": "Mishra, Eminent One",
+   "oracle_id": "d3438037-3efd-4ce0-88ec-6d48ab521992",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mishra_excavation_prodigy",
+   "name": "Mishra, Excavation Prodigy",
+   "oracle_id": "4eba0e29-985b-4763-9a70-0946ba044b43",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mishra_lost_to_phyrexia",
+   "name": "Mishra, Lost to Phyrexia",
+   "oracle_id": "3989308a-4c0f-493a-b38f-cb4f5019dfe7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mishra_tamer_of_mak_fawa",
+   "name": "Mishra, Tamer of Mak Fawa",
+   "oracle_id": "3be40d81-9be5-4f39-8ce4-920c26cf2748",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_enlightened_exile",
+   "name": "Narset, Enlightened Exile",
+   "oracle_id": "d92725de-ead0-4a6c-83db-55ec3acc7184",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_enlightened_master",
+   "name": "Narset, Enlightened Master",
+   "oracle_id": "aeaf7768-ed67-487d-8506-e667babb88ba",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_jeskai_waymaster",
+   "name": "Narset, Jeskai Waymaster",
+   "oracle_id": "1a2a74b8-0689-4959-9348-02cc832194cf",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_of_the_ancient_way",
+   "name": "Narset of the Ancient Way",
+   "oracle_id": "b7ac6e89-941f-4ad9-a437-38ec38ec5263",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_parter_of_veils",
+   "name": "Narset, Parter of Veils",
+   "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:narset_transcendent",
+   "name": "Narset Transcendent",
+   "oracle_id": "e1de0c94-0ecc-425a-9b92-27c2745d07e7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:nature_s_lore",
    "name": "Nature's Lore",
    "oracle_id": "78826359-fe63-44ad-adc4-a17ffcd710e4",
@@ -5266,6 +6704,7 @@
    "name": "Nicol Bolas",
    "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
@@ -5276,6 +6715,7 @@
    "name": "Nicol Bolas, Dragon-God",
    "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5285,6 +6725,7 @@
    "name": "Nicol Bolas, God-Pharaoh",
    "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5299,6 +6740,7 @@
    "name": "Nicol Bolas, Planeswalker",
    "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -5311,6 +6753,7 @@
    "name": "Nicol Bolas, the Deceiver",
    "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5320,6 +6763,7 @@
    "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
    "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -5340,6 +6784,7 @@
    "name": "Palladia-Mors",
    "oracle_id": "d7121ac7-e425-46cd-b006-1af391d97f87",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -5349,6 +6794,7 @@
    "name": "Palladia-Mors, the Ruiner",
    "oracle_id": "4c2b10ba-1930-4da8-9570-c89b2e239e3e",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -5377,6 +6823,7 @@
    "name": "Piru, the Volatile",
    "oracle_id": "dcd13eab-7ed7-4e95-bdae-d140c1ff84df",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -5388,6 +6835,15 @@
    "oracle_id": "a38ace5b-34f5-4105-b6ee-dedb86037729",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:raff_capashen_ship_s_mage",
+   "name": "Raff Capashen, Ship's Mage",
+   "oracle_id": "13044ca1-76a3-43b2-a8e4-3bbc692c30c5",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5423,6 +6879,7 @@
    "name": "Rith, Liberated Primeval",
    "oracle_id": "f89de40f-52d3-44b1-8faa-6ddaa32880d0",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -5460,7 +6917,107 @@
    "name": "Rith, the Awakener",
    "oracle_id": "97e5d788-2dd3-4c8e-9ab6-f4ea9c7a9a3d",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_consul_of_oversight",
+   "name": "Saheeli, Consul of Oversight",
+   "oracle_id": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_filigree_master",
+   "name": "Saheeli, Filigree Master",
+   "oracle_id": "68cf7415-b434-4284-89b4-c7d44a003eb8",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_jewel_of_avishkar",
+   "name": "Saheeli, Jewel of Avishkar",
+   "oracle_id": "83705258-1f42-41db-a32e-de99ffd759eb",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_radiant_creator",
+   "name": "Saheeli, Radiant Creator",
+   "oracle_id": "20f602b3-814f-406c-b7eb-2d1fc98f8cf1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_rai",
+   "name": "Saheeli Rai",
+   "oracle_id": "5f3fe679-aff1-41b3-8d75-c78c2c0636f0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_sublime_artificer",
+   "name": "Saheeli, Sublime Artificer",
+   "oracle_id": "ab655810-f67e-4576-9174-35b16f5e3235",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_the_gifted",
+   "name": "Saheeli, the Gifted",
+   "oracle_id": "0e084342-31ff-47a5-9fd8-5b385add7a1a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:saheeli_the_sun_s_brilliance",
+   "name": "Saheeli, the Sun's Brilliance",
+   "oracle_id": "5aa76c5d-8046-42ce-b61d-cc9b4806c11a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_dragon_ascendant",
+   "name": "Sarkhan, Dragon Ascendant",
+   "oracle_id": "71cb48e2-2328-471c-a04a-7b6461f378f4",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_dragonsoul",
+   "name": "Sarkhan, Dragonsoul",
+   "oracle_id": "c2c1e44c-2a19-466f-a6d5-4cb71a940b86",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_fireblood",
+   "name": "Sarkhan, Fireblood",
+   "oracle_id": "074cbe14-a0c8-4772-955a-b4052333d6ce",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5483,10 +7040,20 @@
    "type": "Card"
   },
   {
+   "id": "card:sarkhan_soul_aflame",
+   "name": "Sarkhan, Soul Aflame",
+   "oracle_id": "bbcae463-ba05-4cfe-9c25-13f2e64698c7",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sarkhan_the_dragonspeaker",
    "name": "Sarkhan, the Dragonspeaker",
    "oracle_id": "80c26f58-04b0-4db0-b84e-9b136609abe0",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5496,7 +7063,35 @@
    "name": "Sarkhan the Mad",
    "oracle_id": "e70a93e4-2fe7-46d3-8958-153ab2fcfd99",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_the_masterless",
+   "name": "Sarkhan the Masterless",
+   "oracle_id": "67dbc5dd-6d05-43e7-83f7-70e10eb54807",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_unbroken",
+   "name": "Sarkhan Unbroken",
+   "oracle_id": "1d37b453-f10c-42f2-8390-626a8a8eb27c",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sarkhan_vol",
+   "name": "Sarkhan Vol",
+   "oracle_id": "d902074a-2a2b-42b7-a1e5-750862c64fbe",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5515,6 +7110,51 @@
    "oracle_id": "b4031540-584b-4c8a-9e4e-d68ae5cdec5b",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shanna_purifying_blade",
+   "name": "Shanna, Purifying Blade",
+   "oracle_id": "7677c7ce-1db3-41f5-8f86-e68718ea2d11",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:shanna_sisay_s_legacy",
+   "name": "Shanna, Sisay's Legacy",
+   "oracle_id": "546201d0-3fa5-44e4-a526-ab0945711e49",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sheoldred_the_apocalypse",
+   "name": "Sheoldred, the Apocalypse",
+   "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sheoldred_the_true_scriptures",
+   "name": "Sheoldred // The True Scriptures",
+   "oracle_id": "97652492-7906-4d79-983c-fa1dc1239eba",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:sheoldred_whispering_one",
+   "name": "Sheoldred, Whispering One",
+   "oracle_id": "9218b56d-aaec-482f-99e9-d95d227bfe25",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5646,6 +7286,123 @@
    "type": "Card"
   },
   {
+   "id": "card:tawnos_solemn_survivor",
+   "name": "Tawnos, Solemn Survivor",
+   "oracle_id": "871fbbd6-76a0-4f79-b89f-afee6ebe5a59",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tawnos_the_toymaker",
+   "name": "Tawnos, the Toymaker",
+   "oracle_id": "48cce741-cfbd-4ed9-a7ac-38880867a286",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:tawnos_urza_s_apprentice",
+   "name": "Tawnos, Urza's Apprentice",
+   "oracle_id": "e835da40-f484-4d8b-98de-595cd23b51bc",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_druid_of_argoth",
+   "name": "Teferi, Druid of Argoth",
+   "oracle_id": "f2c9957e-d673-4b32-a201-811849c5de31",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_hero_of_dominaria",
+   "name": "Teferi, Hero of Dominaria",
+   "oracle_id": "f2f165b6-ef0a-42ad-9352-ba68be8248b0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_mage_of_zhalfir",
+   "name": "Teferi, Mage of Zhalfir",
+   "oracle_id": "2b6cbd55-5adc-4a34-ac45-8531705a7ee1",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_master_of_time",
+   "name": "Teferi, Master of Time",
+   "oracle_id": "e802fb53-7cf5-46bc-8a0b-f99cf5c20f74",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_temporal_archmage",
+   "name": "Teferi, Temporal Archmage",
+   "oracle_id": "07d0b06b-80cb-4518-92c9-84ea87a7e08a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_temporal_pilgrim",
+   "name": "Teferi, Temporal Pilgrim",
+   "oracle_id": "5f0fa785-37ab-46a8-9ec0-6f8b29576d93",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_time_raveler",
+   "name": "Teferi, Time Raveler",
+   "oracle_id": "ae7604bb-4818-45a3-960c-cf3d83f15964",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_timebender",
+   "name": "Teferi, Timebender",
+   "oracle_id": "761bb894-d3f9-4248-af76-1559c502e342",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_timeless_voyager",
+   "name": "Teferi, Timeless Voyager",
+   "oracle_id": "7240037f-ddea-425e-9824-866e2bb0dc84",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:teferi_who_slows_the_sunset",
+   "name": "Teferi, Who Slows the Sunset",
+   "oracle_id": "98c389ed-b960-42e2-9c76-a062f77c9a78",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:terminate",
    "name": "Terminate",
    "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
@@ -5664,10 +7421,20 @@
    "type": "Card"
   },
   {
+   "id": "card:the_brothers_war",
+   "name": "The Brothers' War",
+   "oracle_id": "43040c34-acad-4d62-893d-fd606fa9d8fe",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:the_elder_dragon_war",
    "name": "The Elder Dragon War",
    "oracle_id": "4945f03b-ff99-4923-b62d-3cdb60275ef1",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -5680,6 +7447,15 @@
    "oracle_id": "e025a714-02da-4b0c-8021-cf3e8dc9b19e",
    "origins": [
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:the_mightstone_and_weakstone",
+   "name": "The Mightstone and Weakstone",
+   "oracle_id": "c396db03-bf11-4e20-b630-4f9aa8fd78da",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -5729,6 +7505,7 @@
    "name": "Tomb of the Spirit Dragon",
    "oracle_id": "22f6391e-2634-440f-af1b-9581d1bff818",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -5777,6 +7554,7 @@
    "name": "Ugin, Eye of the Storms",
    "oracle_id": "5c58353a-fd60-4528-bf0d-669626cda0b2",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5825,6 +7603,7 @@
    "name": "Ugin's Nexus",
    "oracle_id": "fe2afa18-54d0-4595-af27-256398793a42",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
@@ -5837,6 +7616,7 @@
    "name": "Ugin, the Ineffable",
    "oracle_id": "18bdc181-9592-4147-81fb-7f83ce137f70",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "ugin_bolas_elder_dragon_duality_printing_evidence.json"
    ],
    "type": "Card"
@@ -5854,6 +7634,7 @@
    "name": "Ugin, the Spirit Dragon",
    "oracle_id": "eecb3047-a563-441a-9175-200421981ac3",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a4_printing_art_matches_2026-10-30.json",
     "pack_a_tarkir_card_scenes_2026-10-30.json",
@@ -5881,6 +7662,60 @@
    "type": "Card"
   },
   {
+   "id": "card:urza_chief_artificer",
+   "name": "Urza, Chief Artificer",
+   "oracle_id": "9deced63-80d0-419e-a5ac-71b06ba1459e",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urza_lord_high_artificer",
+   "name": "Urza, Lord High Artificer",
+   "oracle_id": "e87906d2-db1a-4e19-b910-adb4eb339945",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urza_lord_protector",
+   "name": "Urza, Lord Protector",
+   "oracle_id": "df2af646-3e5b-43a3-8f3e-50565889f456",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urza_planeswalker",
+   "name": "Urza, Planeswalker",
+   "oracle_id": "759406d7-44ae-4260-9ef5-3bb2c92f751a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urza_powerstone_prodigy",
+   "name": "Urza, Powerstone Prodigy",
+   "oracle_id": "8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:urza_prince_of_kroog",
+   "name": "Urza, Prince of Kroog",
+   "oracle_id": "6a448862-e8d8-4a08-8e3d-5460afa29b4d",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:urza_s_incubator",
    "name": "Urza's Incubator",
    "oracle_id": "b380c04b-0bce-4328-8f0a-1425e48bee72",
@@ -5903,6 +7738,7 @@
    "name": "Vaevictis Asmadi",
    "oracle_id": "4d2cc2a8-e08a-420a-8922-c63e39129e23",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json"
    ],
    "type": "Card"
@@ -5912,6 +7748,7 @@
    "name": "Vaevictis Asmadi, the Dire",
    "oracle_id": "c42ce2e9-4dfe-468a-8f41-49e187cb91d4",
    "origins": [
+    "card_name_anchors_2026-10-30.json",
     "original_primeval_dragons_printing_evidence.json",
     "pack_a_elder_dragon_war_extension_2026-10-30.json"
    ],
@@ -5954,6 +7791,15 @@
    "type": "Card"
   },
   {
+   "id": "card:weatherlight",
+   "name": "Weatherlight",
+   "oracle_id": "73b3682f-396a-4ebe-aaac-6ce3ee36283a",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:witness_of_the_ages",
    "name": "Witness of the Ages",
    "oracle_id": "afeb9de8-7030-4797-a9c8-5a99de3c410f",
@@ -5968,6 +7814,24 @@
    "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
    "origins": [
     "original_primeval_dragons_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:yasova_dragonclaw",
+   "name": "Yasova Dragonclaw",
+   "oracle_id": "75dc0995-f89e-4a2c-b30b-9b5a07c21183",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:yawgmoth_thran_physician",
+   "name": "Yawgmoth, Thran Physician",
+   "oracle_id": "a1e232c0-dc38-47be-a5a0-f68bc1d86a29",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -8112,11 +9976,11 @@
    "OPEN_QUESTION": 2
   },
   "curated_bridges": 22,
-  "edges": 573,
+  "edges": 704,
   "literal_objects": 7,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 160,
+   "Card": 261,
    "CardTheme": 1,
    "Character": 33,
    "Claim": 78,
@@ -8130,9 +9994,9 @@
    "Plane": 5,
    "Source": 37
   },
-  "nodes": 376,
+  "nodes": 477,
   "non_wizards_sources": 0,
-  "relations": 79,
+  "relations": 80,
   "wizards_official_sources": 37
  }
 }

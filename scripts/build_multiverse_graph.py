@@ -50,7 +50,8 @@ TYPE_PREFIX = {"Character": "character", "Event": "event", "Plane": "plane", "Pl
 OFFICIAL_HOSTS = ("https://magic.wizards.com/", "https://www.magic.wizards.com/", "https://media.wizards.com/", "https://www.wizards.com/",
                   "https://company.wizards.com/")
 INVERSE = {"proposed_in": "proposes", "depicted_by": "depicts", "cited_by": "cites",
-           "asserts": "asserted_by", "see_also_curated_entry": "see_also_from_curated_entry"}
+           "asserts": "asserted_by", "see_also_curated_entry": "see_also_from_curated_entry",
+           "named_on_card": "names_entity"}
 
 
 def slug(text: str) -> str:
@@ -207,6 +208,25 @@ def ingest_deck(g: Graph, rel: str) -> dict:
     return {"file": rel, "cards": count}
 
 
+def ingest_name_anchors(g: Graph, rel: str) -> dict:
+    """Card-name anchors (scripts/build_card_name_anchors.py): ``named_on_card`` edges from an
+    entity to each printed card named for it. These are card-data navigation, never canon claims."""
+    d = load(rel)
+    origin = Path(rel).name
+    src = d.get("card_data_source", {})
+    n = 0
+    for a in d.get("anchors", []):
+        if a["entity"] not in g.local:
+            g.problems.append(f"{origin}: anchor for unknown entity {a['entity']}")
+            continue
+        for c in a["cards"]:
+            card = g.add_node(f"card:{slug(c['name'])}", "Card", c["name"], origin, oracle_id=c.get("oracle_id"))
+            g.edge(g.local[a["entity"]], "named_on_card", card, tier=d.get("tier", "NAMED_CARD"),
+                   card_data_source=f"{src.get('provider', '')} {src.get('snapshot', '')}".strip())
+            n += 1
+    return {"file": rel, "anchors": n}
+
+
 def bridge_curated(g: Graph, rel: str) -> int:
     lg = load(rel)
     by_name: dict[str, list[str]] = {}
@@ -235,7 +255,8 @@ def build(manifest_path: Path = MANIFEST) -> dict:
             g.entity(ent["id"], ent["type"], ent["name"], Path(rel).name)
     inputs = {"claim_packs": [ingest_claim_pack(g, r) for r in m["claim_packs"]],
               "art_match_packs": [ingest_art_pack(g, r) for r in m.get("art_match_packs", [])],
-              "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])]}
+              "deck_evidence": [ingest_deck(g, r) for r in m.get("deck_evidence", [])],
+              "name_anchor_packs": [ingest_name_anchors(g, r) for r in m.get("name_anchor_packs", [])]}
     bridges = bridge_curated(g, m["curated_lore_graph"]) if m.get("curated_lore_graph") else 0
     for rel in inputs:
         for item in inputs[rel]:
