@@ -1,0 +1,150 @@
+{
+ "schema": "rules-interaction-audit/v1",
+ "status": "AUTOMATED_EVIDENCE_SURFACING (not a rules certification; decks remain UNAPPROVED proposals)",
+ "limitation": "Surfaces published rulings and verbatim Comprehensive Rules text; it does not simulate the game. No ruling does not mean no interaction.",
+ "rules_source": {
+  "title": "Magic: The Gathering Comprehensive Rules — keyword actions (701) and keyword abilities (702) excerpt",
+  "effective": "2026-09-25",
+  "source_sha256": "8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca"
+ },
+ "card_source": "Scryfall-derived shards (cards/, Oracle bulk 2026-10-15)",
+ "decks": [
+  {
+   "deck": "data/lore_decks/drafts/karn_complete_life_story_decklist.txt",
+   "cards": 95,
+   "resolved": 95,
+   "missing": [],
+   "cards_with_rulings": 64,
+   "rulings_total": 257,
+   "direct_ruling_links": [
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Melira, Sylvok Outcast",
+     "names": "Glistening Oil",
+     "date": "2011-06-01",
+     "text": "It's possible for a creature an opponent controls to gain infect after Melira enters. For example, your opponent could cast Glistening Oil on a creature, and then Melira's ability and Glistening Oil's ability would be applied in timestamp order, with the most recent effect winning. The damage dealt to you by such a creature won't result in you losing life (because the creature has infect) or in you getting poison counters (because Melira stops them). Similarly, damage dealt to a creature you control by such a creature won't result in damage being marked on the creature or in -1/-1 counters. However, abilities that check whether damage was dealt (such as lifelink or Whispering Specter's triggered ability) will still see that damage."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Urza's Saga",
+     "names": "Urza's Mine",
+     "date": "2021-06-18",
+     "text": "Although Urza's Saga has the Urza's land type, it doesn't interact with Urza's Tower, Urza's Mine, or Urza's Power Plant."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Urza's Saga",
+     "names": "Urza's Power Plant",
+     "date": "2021-06-18",
+     "text": "Although Urza's Saga has the Urza's land type, it doesn't interact with Urza's Tower, Urza's Mine, or Urza's Power Plant."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Urza's Saga",
+     "names": "Urza's Tower",
+     "date": "2021-06-18",
+     "text": "Although Urza's Saga has the Urza's land type, it doesn't interact with Urza's Tower, Urza's Mine, or Urza's Power Plant."
+    }
+   ]
+  },
+  {
+   "deck": "data/lore_decks/drafts/original_primeval_dragons_decklist.txt",
+   "cards": 90,
+   "resolved": 90,
+   "missing": [],
+   "cards_with_rulings": 54,
+   "rulings_total": 145,
+   "direct_ruling_links": []
+  },
+  {
+   "deck": "data/lore_decks/drafts/ravnica_guildpact_story_decklist.txt",
+   "cards": 100,
+   "resolved": 100,
+   "missing": [],
+   "cards_with_rulings": 81,
+   "rulings_total": 265,
+   "direct_ruling_links": [
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Teysa, Opulent Oligarch",
+     "names": "Alquist Proft, Master Sleuth",
+     "date": "2024-02-02",
+     "text": "If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Teysa, Opulent Oligarch",
+     "names": "Alquist Proft, Master Sleuth",
+     "date": "2024-02-02",
+     "text": "You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability."
+    }
+   ]
+  },
+  {
+   "deck": "data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_decklist.txt",
+   "cards": 86,
+   "resolved": 86,
+   "missing": [],
+   "cards_with_rulings": 61,
+   "rulings_total": 223,
+   "direct_ruling_links": [
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Blood Crypt",
+     "names": "Drowned Catacomb",
+     "date": "2018-10-05",
+     "text": "Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set)."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Bolas's Citadel",
+     "names": "Spark Harvest",
+     "date": "2019-05-03",
+     "text": "If you cast a spell for another cost \"rather than pay its mana cost,\" you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Spark Harvest, those must be paid to cast the card."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Drowned Catacomb",
+     "names": "Blood Crypt",
+     "date": "2009-10-01",
+     "text": "This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), Drowned Catacomb will enter untapped."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Steam Vents",
+     "names": "Drowned Catacomb",
+     "date": "2018-10-05",
+     "text": "Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set)."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Ugin's Conjurant",
+     "names": "Ugin, the Ineffable",
+     "date": "2019-05-03",
+     "text": "To cast Ugin’s Conjurant, first choose the value for X you’d like, then apply any cost increases, then any cost reductions. The number of counters it enters with may be different than the amount of mana you pay if an effect (such as that of Ugin, the Ineffable) causes that you pay an amount of mana other than {X}."
+    },
+    {
+     "kind": "DIRECT_RULING",
+     "ruling_of": "Watery Grave",
+     "names": "Drowned Catacomb",
+     "date": "2018-10-05",
+     "text": "Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set)."
+    }
+   ]
+  },
+  {
+   "deck": "data/lore_decks/drafts/yawgmoth_complete_biography_decklist.txt",
+   "cards": 95,
+   "resolved": 95,
+   "missing": [],
+   "cards_with_rulings": 53,
+   "rulings_total": 251,
+   "direct_ruling_links": []
+  }
+ ],
+ "totals": {
+  "decks": 5,
+  "direct_ruling_links": 12,
+  "unresolved_cards": 0
+ }
+}

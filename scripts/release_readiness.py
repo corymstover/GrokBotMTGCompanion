@@ -89,11 +89,14 @@ def c_lookup():
     changed = sum(len(v) for v in d["changed"].values())
     ev = {"report": drift[-1].relative_to(ROOT).as_posix(), "snapshot_date": d["snapshot_date"], "changes": changed,
           "index_rows": d["index_rows"], "rules_checks": ("Commander deck-construction checks built (scripts/commander_rules.py, CR 2026-09-25 "
-          "excerpt; eligibility audit agrees with every index row); gameplay rules-interaction checks not built")}
+          "excerpt; eligibility audit agrees with every index row); gameplay rules-interaction evidence surfacing built "
+          "(scripts/rules_interactions.py: published rulings that name another card, keyword rulings, verbatim CR 701/702 "
+          "citations; audit over every draft decklist). It does not simulate the game, and coverage depends on published rulings")}
     if changed:
         return "PARTIAL", f"{changed} card fields differ from snapshot {d['snapshot_date']}; refresh pending", ev
     return "PARTIAL", (f"card lookups reconcile with snapshot {d['snapshot_date']} (0 changes across {d['index_rows']} "
-                       "cards); Commander deck-construction checks are built, gameplay rules-interaction checks are not"), ev
+                       "cards); Commander deck-construction checks and ruling/CR-citation interaction checks are built; "
+                       "interactions with no published ruling are not modelled (no game simulation)"), ev
 
 
 def c_atlas():
