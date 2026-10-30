@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "extension_id": "PACK_A2_ELDER_DRAGON_WAR_AND_PRIMEVAL_LINEAGES",
+  "evidence_cutoff": "2026-10-30",
+  "extends": "pack_a_ugin_bolas_evidence_2026-10-30.json",
+  "research_policy": "Separate narrated accounts, Wizards editorial bios, card-name confirmation, card-art evidence, and present-day Commander legality. Card-name anchors do not establish depictions of a particular battle.",
+  "source_register": {
+    "first_lesson": {"title": "Chronicle of Bolas: The First Lesson", "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20", "perspective": "Ugin first-person memory in embedded Chronicle"},
+    "blood_fire": {"title": "Chronicle of Bolas: Blood and Fire", "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-blood-and-fire-2018-07-18", "perspective": "story-within-story; reconstructed ancient episode"},
+    "perspectives": {"title": "Chronicle of Bolas: Perspectives", "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08", "perspective": "self-interested Bolas narration"},
+    "mh2_legends": {"title": "The Returning Legends of Modern Horizons 2", "url": "https://magic.wizards.com/en/news/feature/returning-legends-modern-horizons-2-2021-06-10", "perspective": "Wizards editorial character biographies"},
+    "dmu_legends": {"title": "The Legends You'll Find in Dominaria United", "url": "https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01", "perspective": "Wizards editorial character biographies"},
+    "dmu_notes": {"title": "Dominaria United Release Notes", "url": "https://magic.wizards.com/en/news/feature/dominaria-united-release-notes-2022-08-26", "perspective": "official printed-card rules identification"},
+    "m19_notes": {"title": "Core Set 2019 Release Notes", "url": "https://magic.wizards.com/en/news/feature/core-set-2019-release-notes-2018-06-22", "perspective": "official printed-card rules identification"},
+    "m19_design": {"title": "More Odds & Ends: Core Set 2019", "url": "https://magic.wizards.com/en/news/making-magic/more-odds-ends-core-set-2019-2018-08-06", "perspective": "official card-design discussion, not new lore"}
+  },
+  "entities": [
+    {"id": "arcades_sabboth", "type": "Character", "name": "Arcades Sabboth"},
+    {"id": "chromium_rhuell", "type": "Character", "name": "Chromium Rhuell"},
+    {"id": "palladia_mors", "type": "Character", "name": "Palladia-Mors"},
+    {"id": "vaevictis_asmadi", "type": "Character", "name": "Vaevictis Asmadi"},
+    {"id": "piru", "type": "Character", "name": "Piru"},
+    {"id": "crosis", "type": "Character", "name": "Crosis, the Purger"},
+    {"id": "rith", "type": "Character", "name": "Rith"},
+    {"id": "geyadrone_dihada", "type": "Character", "name": "Geyadrone Dihada"},
+    {"id": "dakkon", "type": "Character", "name": "Dakkon Blackblade"},
+    {"id": "corondor_chasm", "type": "Place", "name": "Dueling Chasm of Corondor"}
+  ],
+  "claims": [
+    {"id":"A013","subject":"ugin","predicate":"encountered_elder_siblings","object":"arcades_sabboth; chromium_rhuell; palladia_mors","grade":"CANON_CONFIRMED","stage":"early_lives","source_ids":["first_lesson"],"summary":"The Chronicle portrays the young twins meeting Arcades, Chromium and Palladia-Mors during their early travels.","limitation":"The sequence is not an exhaustive census of their elder kin."},
+    {"id":"A014","subject":"vaevictis_asmadi","predicate":"descendants_raided","object":"nicol_bolas","grade":"CANON_CONFIRMED","stage":"pre_war_escalation","source_ids":["blood_fire"],"summary":"The embedded tale identifies the raiders of Bolas's kingdom as Vaevictis's descendants, according to the raiders themselves.","limitation":"The lineage claim is voiced by the raiders within a framed story, not a genealogy of each attacker."},
+    {"id":"A015","subject":"nicol_bolas","predicate":"provoked_dragon_clans","object":"vaevictis_asmadi; palladia_mors","grade":"CANON_CONFIRMED","stage":"elder_dragon_wars_escalation","source_ids":["blood_fire"],"summary":"The Chronicle shows Nicol exploiting conflict around Vaevictis and deliberately inciting other dragon branches, including Palladia-Mors.","limitation":"Specific provocations in a reconstructed tale do not establish every cause of a long, continent-spanning war."},
+    {"id":"A016","subject":"arcades_sabboth","predicate":"entered_war","object":"elder_dragon_wars","grade":"CANON_CONFIRMED","stage":"elder_dragon_wars","source_ids":["blood_fire"],"summary":"The Chronicle's war account specifically includes Arcades leading followers into conflict with dragon kin.","limitation":"Narrative participation alone does not make Arcades a loyal ally of Ugin or Bolas."},
+    {"id":"A017","subject":"nicol_bolas","predicate":"instigated","object":"elder_dragon_wars","grade":"CANON_CONFIRMED","stage":"elder_dragon_wars","source_ids":["mh2_legends","blood_fire"],"summary":"Wizards' later editorial history explicitly credits Nicol Bolas with instigating the Elder Dragon War.","limitation":"Bolas did not personally fight every dragon or control every faction in the conflict."},
+    {"id":"A018","subject":"piru","predicate":"survived_with","object":"chromium_rhuell","grade":"CANON_CONFIRMED","stage":"elder_dragon_wars_aftermath","source_ids":["mh2_legends","perspectives"],"summary":"Wizards' Piru biography names Piru and Chromium among the Elder Dragon War survivors; Piru is absent from Bolas's four-name account.","limitation":"Bolas's narrated roster is incomplete; this is not proof of the total number of all survivors or an automatic retcon."},
+    {"id":"A019","subject":"piru","predicate":"mate_and_ancestor_of","object":"chromium_rhuell; crosis","grade":"CANON_CONFIRMED","stage":"elder_dragon_lineages","source_ids":["mh2_legends"],"summary":"Piru and Chromium were mates and their descendants include Primeval Dragon Crosis, the Purger.","limitation":"The editorial biography does not establish Crosis as their direct first-generation offspring."},
+    {"id":"A020","subject":"geyadrone_dihada","predicate":"bound_to_service","object":"piru; chromium_rhuell","grade":"CANON_CONFIRMED","stage":"post_war_corondor","source_ids":["mh2_legends"],"summary":"Millennia after the war, Geyadrone Dihada bound Piru and Chromium to fight Dakkon Blackblade.","limitation":"This later battle is not part of the Elder Dragon War itself."},
+    {"id":"A021","subject":"dakkon","predicate":"slew_and_banished","object":"piru; chromium_rhuell","grade":"CANON_CONFIRMED","stage":"post_war_corondor","source_ids":["mh2_legends"],"summary":"Dakkon slew Piru and banished Chromium in the later conflict engineered by Dihada.","limitation":"Their fates must not be added to the Elder Dragon War casualty list."},
+    {"id":"A022","subject":"piru","predicate":"death_created","object":"corondor_chasm","grade":"CANON_CONFIRMED","stage":"post_war_corondor","source_ids":["mh2_legends"],"summary":"Piru's death caused a magical blast that cracked Dominaria's crust at the Dueling Chasm of Corondor.","limitation":"The biography does not give a precise in-universe date."},
+    {"id":"A023","subject":"palladia_mors","predicate":"mother_of","object":"rith","grade":"CANON_CONFIRMED","stage":"primeval_lineages","source_ids":["dmu_legends"],"summary":"Wizards' Dominaria United biography directly identifies Rith as Palladia-Mors's daughter.","limitation":"This parentage does not imply Rith participated in the much earlier Elder Dragon War."},
+    {"id":"A024","subject":"rith","predicate":"primeval_dragon_after","object":"elder_dragon_wars","grade":"CANON_CONFIRMED","stage":"post_war_primevals","source_ids":["dmu_legends"],"summary":"Rith was among five ancient Primeval Dragons who ruled Dominaria sometime after the Elder Dragon War.","limitation":"The source does not fix exact reign dates or identify every Primeval's parent."}
+  ],
+  "card_anchors": [
+    {"name":"The Elder Dragon War","entity":"elder_dragon_wars","representation":"NAMED_EVENT_CARD","source_ids":["dmu_notes"],"limit":"The Saga names the event; its individual images/chapters are not certified as a literal battlefield reconstruction."},
+    {"name":"Piru, the Volatile","entity":"piru","representation":"NAMED_CHARACTER_CARD","source_ids":["mh2_legends"],"limit":"Not evidence that this illustration depicts Piru dying."},
+    {"name":"Dakkon, Shadow Slayer","entity":"dakkon","representation":"NAMED_CHARACTER_CARD","source_ids":["mh2_legends"],"limit":"Not proof of a particular scene in Dakkon's later battle."},
+    {"name":"Rith, Liberated Primeval","entity":"rith","representation":"NAMED_CHARACTER_CARD","source_ids":["dmu_legends"],"limit":"The post-war Primeval lineage is supported by biography, not artwork alone."},
+    {"name":"Palladia-Mors, the Ruiner","entity":"palladia_mors","representation":"NAMED_CHARACTER_CARD","source_ids":["m19_notes"],"limit":"Character depiction, not proof of her role in a specific ancient battle."},
+    {"name":"Vaevictis Asmadi, the Dire","entity":"vaevictis_asmadi","representation":"NAMED_CHARACTER_CARD","source_ids":["m19_notes"],"limit":"Character depiction, not proof of a specific war scene."},
+    {"name":"Chromium, the Mutable","entity":"chromium_rhuell","representation":"NAMED_CHARACTER_CARD","source_ids":["m19_design"],"limit":"Card design invokes Chromium's shapeshifting; not a historical proof of any depicted war moment."},
+    {"name":"Arcades, the Strategist","entity":"arcades_sabboth","representation":"NAMED_CHARACTER_CARD","source_ids":["m19_design"],"limit":"Defensive card mechanics do not establish an in-lore political alignment."},
+    {"name":"Nicol Bolas, the Ravager // Nicol Bolas, the Arisen","entity":"nicol_bolas","representation":"NAMED_CHARACTER_CARD","source_ids":["m19_design"],"limit":"Double-faced card names are not a certified chronology of Bolas's spark awakening."}
+  ],
+  "unknowns": [
+    "Whether further Elder Dragons survived beyond the independently named roster, and how all dragons are related",
+    "Exact ancient dates, geographical campaign boundaries and exhaustive dragon-war casualties",
+    "Whether any artwork depicts the specific acts of Bolas provoking Vaevictis and Palladia-Mors",
+    "A Commander-legal single-deck mechanism to represent both twins faithfully across incompatible color identities",
+    "Present-day Commander legality, Oracle text and artwork edition for each proposed card"
+  ]
+}
