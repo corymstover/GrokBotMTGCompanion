@@ -213,7 +213,7 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
 
 
 PATTERNS = [  # (regex, relation, direction from the named entity's point of view)
-    (re.compile(r"who (?:is|are|was|were) (.+?)'s (?:brother|sister|sibling|twin)s?\??$", re.I), "sibling_of", None),
+    (re.compile(r"who (?:is|are|was|were) (.+?)'s (?:brother|sister|sibling|twin)s?\??$", re.I), "sibling_of|twin_sibling_of", None),  # Batch 9: both, so a twin is never hidden by other siblings
     (re.compile(r"who (?:is|was) (.+?)'s (?:wife|husband|spouse)\??$", re.I), "spouse_of", None),
     (re.compile(r"who (?:defeated|slew|beat) (?:the )?(.+?)\??$", re.I), "defeated_by", "out"),
     (re.compile(r"who (?:created|made|built) (?:the )?(.+?)\??$", re.I), "created", "in"),

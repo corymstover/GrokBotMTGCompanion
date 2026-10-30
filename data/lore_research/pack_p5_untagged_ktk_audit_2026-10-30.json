@@ -1,0 +1,212 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_untagged_ktk_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "",
+ "claims": 28,
+ "entities": 29,
+ "sources": 15,
+ "grades": {
+  "CANON_CONFIRMED": 22,
+  "CANON_IMPLIED": 6
+ },
+ "quotes": 32,
+ "quotes_verbatim": 32,
+ "quote_rows": [
+  {
+   "claim": "KT001",
+   "source_id": "kt_bear",
+   "quote_sha256": "20eb1a06d28f217675c8d460382c5ba4c180ccad0edcf6ca747c5b78c8a08792",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT002",
+   "source_id": "kt_enl",
+   "quote_sha256": "875a850a9477eba430561ec7b19eea1f73b6095a1f72c70137d8992fdd6c9fc7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT002",
+   "source_id": "kt_enl",
+   "quote_sha256": "a80755fcefab41b97e41488698d7a61bf8afc3a09f147335c5d064c777b26970",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT003",
+   "source_id": "kt_taigam",
+   "quote_sha256": "60811302d1aa8178b0ac1d5f5ce83b9e4ee46792c6c9f35a75b5200562a8c7db",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT004",
+   "source_id": "kt_enl",
+   "quote_sha256": "fbf46bca0585f8e9b8fb6f1688a50bcde9fa66e8fcb994d2b192fb8ea602a327",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT005",
+   "source_id": "kt_enl",
+   "quote_sha256": "bb925767e18bbe58328a2e4bee0c8aa4982e716e2e1768bf90b6144a073d13e3",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT006",
+   "source_id": "kt_mercy",
+   "quote_sha256": "f636c66b59e18bcd8eca7d811dfccacd04bc46d624cff721dea251ef51b29519",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT006",
+   "source_id": "kt_mercy",
+   "quote_sha256": "a092d8d62421afc18d491ca023e7a013f47f4a31d3cbad938611275095be7ee0",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT007",
+   "source_id": "kt_victory",
+   "quote_sha256": "e606bbe2783c87966193c51bb0db7cf76b0f454f43909269fc698b71238a5d93",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT008",
+   "source_id": "kt_bond",
+   "quote_sha256": "07e19afd1a99651a43d7c2f8deb095a14696246c218a435b58521652b6416155",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT009",
+   "source_id": "kt_bond",
+   "quote_sha256": "53b4b6fda2afdaf1c01f8636c712239a917cde6d586a8df27cb128262918be41",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT010",
+   "source_id": "kt_newold",
+   "quote_sha256": "fe7afbf21d48390b1e6dde90aebf0f97fe61a834b854dbed9075c97fa3a06260",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT011",
+   "source_id": "kt_truth",
+   "quote_sha256": "e1fa786e5a634f8bcfa56cadf4ded09ad04e66322c66724e1bc10562da3f7b7e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT011",
+   "source_id": "kt_truth",
+   "quote_sha256": "caa809c392a97e8ae3280c3bd86af79beb27342a3dfaf79b2ce71cdead058ed6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT012",
+   "source_id": "kt_truth",
+   "quote_sha256": "564c11e337dd3a8f670c6c46b9d30c1f4c0fc2652b452e60ab060adaee017aa9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT013",
+   "source_id": "kt_khanfall",
+   "quote_sha256": "150b2f3debc176dc30918ce5e866f406ae159b17a62b59145d04d7cdfd14f07b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT014",
+   "source_id": "kt_noend",
+   "quote_sha256": "85d8d00bb4859176ee0be801213470e8028dc4a1a62a31c4fc27eaaeb8eb5ab6",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT015",
+   "source_id": "kt_khanfall",
+   "quote_sha256": "f8621af09e0512e5401e05a586a0ac9021991b111c553b2a30af9dfa5d02e179",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT016",
+   "source_id": "kt_khanfall",
+   "quote_sha256": "30ab1043999befab9ea8670b6599863d4988c36067c58940e87eb0b719154ba8",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT017",
+   "source_id": "kt_khanfall",
+   "quote_sha256": "dc104d17d5e216d590322e82ef9c0e2a03575a6ba73d5e47f28a4ca7b831fae9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT018",
+   "source_id": "kt_dragons",
+   "quote_sha256": "f3a853fc416525423d3eb77a93a7c8c35ba539e5bf3ddd8519028da0828e1942",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT019",
+   "source_id": "kt_dragons",
+   "quote_sha256": "0ba6fbfd74be01c0a1e0e8d35a899407b08d5d377aab4927335b2a02a0f9f554",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT020",
+   "source_id": "kt_dragons",
+   "quote_sha256": "7ec4628bbbdd683b7d9aac1798028737a5819f6ae185c801c5c757b9d0c515de",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT021",
+   "source_id": "kt_teacher",
+   "quote_sha256": "6450ae5713c1ffa261b3dff6524ec478ebb7aa3f0e1d9f51b4969056953bcd2c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT022",
+   "source_id": "kt_twins",
+   "quote_sha256": "2fc4d111936ab6f7a8c7da64c22f42100f705b272705df8f23dbe11186b9702d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT023",
+   "source_id": "cb_unseen",
+   "quote_sha256": "603673c317f8878f7b915eb66acbfdfabba0b0b10c60e99005fe0294a26937a4",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT024",
+   "source_id": "cb_whispers",
+   "quote_sha256": "aaf3f4dae0bbb9f2005a9c431e6f943e6dc576bbbc2f12f7a44888a09029fdf2",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT024",
+   "source_id": "cb_whispers",
+   "quote_sha256": "6475dc1618b985860e377e219ba7ae8def0a2cc3487768b8bf40a1e7ecbebec1",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT025",
+   "source_id": "cb_whispers",
+   "quote_sha256": "2f53edbfed8883817a087eb6d75fbe852fdc9e4e69144bcfa4c4f621f6e48485",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT026",
+   "source_id": "cb_whispers",
+   "quote_sha256": "03b42ba6cf9c16adc93926848005981af1a022a3a8767f920c81dc3823abeeb5",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT027",
+   "source_id": "cb_whispers",
+   "quote_sha256": "9ab4fd5c6e4acaa7a7e0e0f3270786f04af8d21d537bb7214609bebbd3064603",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "KT028",
+   "source_id": "cb_whispers",
+   "quote_sha256": "7754fc023093f43f1d125c6e7f996712c3899a3260158f6a340b74b6be12adc8",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "8a029b63966c5545d39c0cb47a94b817181041ad6d775cba804e74377fe2ca6a"
+}
