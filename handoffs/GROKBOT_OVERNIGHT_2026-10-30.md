@@ -434,3 +434,62 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 
 ### Status (keep distinct)
 - Research: PRELIMINARY_RESEARCH. Tests: 456 + 18 green locally; recount 15/15; CI green on each merged exact head. Merged: #888–#894. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+
+## Batch 11 — 2026-10-30, 09:21–10:01 CDT
+
+### PRs (batch 11)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#895](https://github.com/corymstover/GrokBotMTGCompanion/pull/895) | 7 | Router: leader questions union `led` and `leader_of` (and `leads`) instead of fallback-only; tests | `02845143` 09:28 CDT | 7/7 pass |
+| [#896](https://github.com/corymstover/GrokBotMTGCompanion/pull/896) | 5 | Last untagged pages: `pack_p5_untagged_m13_2012` (17), `_stories_2014` (23), `_tarkir_zendikar_guides` (24), `_tarkir_stories` (11), `_side_stories_2015_2026` (25), `_worldsoul_multiverse` (12) + 4 reviewed-no-claim; Batch 10 timestamp nit | `4310def5` 10:00 CDT | 8/8 pass |
+| [#897](https://github.com/corymstover/GrokBotMTGCompanion/pull/897) | 1/8 | `data/release/batch_recount_2026-10-30_b11.json`, workflow v2.39, readiness refresh, this handoff + consolidated status | (this PR) | — |
+
+### Coverage (main after #896)
+- **626 of 626 pages cited or reviewed** (576 cited, 50 reviewed with no claim, 0 unread). All 33 arcs are cited-or-reviewed; 31 are fully cited (IKO and untagged keep reviewed pages that hold no extractable relation). 1,139 claims.
+- 32 claim edges carry a verbatim in-universe time phrase (was 29): e.g. "over 6,000 years ago" (Nahiri seals the Eldrazi), "thousands of years ago" (Ob Nixilis trapped on Zendikar).
+
+### Discoveries
+- `/tmp/rball.sh`-style pipelines that end `unittest ... | tail -3 &&` hide failures (exit code of `tail`). Caught two failures by running unittest directly: an M13 spec not regenerated after its script was edited, and a redundant IMPLIED Consulate claim (SSX023) that downgraded "Who leads the Consulate?" from VERIFIED to QUALIFIED although AER016 already confirms it. SSX023 was removed; the burn page stays cited by SSX022/024–026.
+- Past-era leadership from *Unwritten* / *Fate Reforged* (Tasigur, Yasova) is tagged "Tarkir's past" so the era logic doesn't present it as current.
+- Pages with no story content or no extractable relation (Commander product notes, design articles, ledger/bonded pieces) went to the reviewed register with the reason, not into packs.
+
+### Next steps
+- Coverage is complete for the current inventory; new official stories should be added to `data/primary_sources.csv` and packed the same way (Phase 8 upkeep).
+- Card-era date context only where a cited quote supports it; never convert relative phrases to years.
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: 461 + 18 green locally (exit code checked); recount 15/15; CI green on each merged exact head. Merged: #895–#896 (#897 docs). Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
+
+## Consolidated status for ChatGPT / Cory (as of Batch 11 close)
+
+Checklist counts come from `MTG_MULTIVERSE_MASTER_WORKFLOW.md` v2.39 (checked / unchecked). A checked box means engineering verified, never owner approval. Nothing in this repo is owner-certified except the approvals files already in `data/lore_decks/approvals/` (lore decks 1–7, deck 8 Karn, deck 10 Yawgmoth).
+
+| Phase | Checked | Open | Open items (workflow line) |
+|---|---|---|---|
+| 1 Card database | 10 | 0 | — |
+| 1B Set & Printing Atlas | 33 | 14 | **Blocked** L151 (original Oct 28 bulk unavailable), L157 (`fbb`/`4bb` need Wizards docs); L180 2 curated + 11 draft/starter codes; L181 11 older boxed codes; L193–L202 atlas audit, normalized catalog, totals, per-set lists, bidirectional search, debut/reprint attribution, two timelines, set↔lore links, checks, user-facing index |
+| 2 Lore enrichment | 4 | 5 | L211 refetch/strict audit in future envs; L213 ~1,220 enriched cards without cited lore; L214 depictions/flavor links (partial); L215 keep unsupported unresolved; L216 expand inventory + integrity re-run |
+| 3 Relationship graph | 4 | 2 | L220 entity-structure audit; L222 dated relationships (partial: 32 edges carry verbatim in-universe phrases) |
+| 4 Foundational packs | 9 | 5 | L231 Pack A complete; L235 Elder Dragon War genealogy/roster; L236 Pack B; L237 Pack C; L244 per-pack chronology/map/bibliography |
+| 5 Full history | 0 | 8 | L248–L255, all partial; coverage inventory now 626/626 cited-or-reviewed (L255) — the boxes stay open because "exhaustive" and "ongoing upkeep" are not finishable claims |
+| 6 Deckbuilder | 4 | 10 | L259–L264 engine features; L265/L267/L269 Pilots 1–3 (proposals built and merged as UNAPPROVED, **owner approval required**); L272 preserve the 62 approved decks |
+| 7 Q&A companion | 2 | 5 | L276 lookups; L277 set questions; L278 lore/chronology; L280 integrated recommendations; L281 hard query tests (partial) |
+| 8 Release & upkeep | 0 | 7 | L286 CI checks; L288 monitor releases; L290 rebuild atlas; L291 snapshot bytes/hashes; L292 honest tracker; L293 milestone definition; L295 maintenance track |
+| Release definition | 0 | 7 | L320–L326; L324 ("one complete, **reviewed** lore-first deck") is owner-only |
+
+### Owner-only items (only Cory can close these)
+1. **Pilot 1** Ugin & Nicol Bolas — Elder Dragon Duality ([#823](https://github.com/corymstover/GrokBotMTGCompanion/pull/823), merged as UNAPPROVED proposal; `data/lore_decks/drafts/ugin_bolas_elder_dragon_duality_*`) → approve/reject, then check L265.
+2. **Pilot 2** Original Primeval Dragons ([#832](https://github.com/corymstover/GrokBotMTGCompanion/pull/832); `original_primeval_dragons_*`) → L267.
+3. **Pilot 3** Ugin's Allies and Heroes ([#844](https://github.com/corymstover/GrokBotMTGCompanion/pull/844); `ugins_allies_and_heroes_*`) → L269.
+4. **L324** release criterion: needs at least one of the pilots above reviewed by Cory.
+5. Lore deck drafts awaiting review in `data/lore_decks/drafts/`: battle_for_zendikar, ravnica_guildpact, the_brothers_war, the_kami_war, the_mending, war_of_the_spark (plus the pilots above). Karn and legacy_yawgmoth drafts correspond to already-approved decks 8 and 10.
+6. **[#776](https://github.com/corymstover/GrokBotMTGCompanion/pull/776)** Lore Deck #9 Ugin (ChatGPT branch, open) — owner review; GrokBot does not touch it.
+7. Grixis M7 deck PRs #650–#707 and #745 are open for owner review only. Grixis is FINISHED (owner t95u); no agent should modify them.
+
+### Blocked (not owner-only, needs an external source)
+- L151 original 2026-10-28 bulk file (not recoverable on the box); L157 Wizards documentation for `fbb`/`4bb` borders.
+
+### How to resume
+- Work in a fresh worktree from `origin/main`; export `MTG_SCRYFALL_MODE=multiverse SCRYFALL_OFFLINE=1`.
+- New claims: `scripts/claim_spec_sources/<name>.py` → `python3 scripts/story_claim_pipeline.py build <pack>` → `bash scripts/claim_spec_sources/rebuild.sh` → `python3 -m unittest discover tests` (check the exit code) → `python3 scripts/batch_recount.py`.
+- Merge only with all checks green on the exact head (`gh pr merge N --merge --match-head-commit <sha>`); never force-push; never edit `grixis/`, `data/grixis/`, `state/current_deck_overrides.json` or `data/lore_decks/approvals/`.
