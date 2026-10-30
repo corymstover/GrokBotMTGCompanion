@@ -32081,6 +32081,254 @@
    "card": "Kaya, Spirits' Justice",
    "oracle_id": "0a094c5f-cefb-4ba1-90c8-dd78ae8efe95",
    "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR001",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR001",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "josu_vess",
+   "card": "Josu Vess, Lich Knight",
+   "oracle_id": "974a46f9-aa84-4b34-bee5-c635166e5841",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR002",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR002",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "kothophed",
+   "card": "Kothophed, Soul Hoarder",
+   "oracle_id": "85e1791f-f9a0-4e82-baf6-33cff2dcf60b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR003",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR003",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "griselbrand",
+   "card": "Griselbrand",
+   "oracle_id": "f759d112-76db-4091-a22b-b9f19ab6fa5f",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR004",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR005",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "raven_man",
+   "card": "The Raven Man",
+   "oracle_id": "19918740-f6e3-40cd-9848-3c7a852a6c2a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR005",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "liliana_vess",
+   "card": "Liliana Vess",
+   "oracle_id": "a6c05941-2cfb-4dac-a7c0-ab808187eb7c",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR006",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "chandra_nalaar",
+   "card": "Chandra Nalaar",
+   "oracle_id": "f4da7a43-e9d5-47ea-b2f0-3cf55a156f4a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR009",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "nissa_revane",
+   "card": "Nissa Revane",
+   "oracle_id": "113fc13a-6df9-4eed-b9d4-002a85a036a1",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR010",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "krenko",
+   "card": "Krenko, Baron of Tin Street",
+   "oracle_id": "91b2520e-85b6-4e1f-88cf-a585feeb8e65",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR010",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "krenko",
+   "card": "Krenko, Mob Boss",
+   "oracle_id": "68418069-f615-40ef-ae0d-764192acae00",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR010",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "krenko",
+   "card": "Krenko, Tin Street Kingpin",
+   "oracle_id": "e8065e1d-e937-4b56-8011-78f0d07328a0",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "OR011",
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "participant": "jace_beleren",
+   "card": "Jace Beleren",
+   "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas",
+   "oracle_id": "e26bf6a9-b31c-4bc0-b55b-c01f2f69be6b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Dragon-God",
+   "oracle_id": "581eedc4-efe4-4ae4-baf2-88071e7e6f6d",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, God-Pharaoh",
+   "oracle_id": "cb33e07b-9599-4979-991f-df0c43ddac31",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, Planeswalker",
+   "oracle_id": "05e9b55e-6329-48ec-b7d7-24c6b9692244",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Deceiver",
+   "oracle_id": "524b00ea-0372-40f9-a6a1-76a8497a1ea6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR001",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "nicol_bolas",
+   "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR002",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "vivien_reid",
+   "card": "Vivien Reid",
+   "oracle_id": "b5f20a6d-8c3e-452f-9d98-4886f0fa052a",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR003",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "ruric_thar",
+   "card": "Ruric Thar, Biomagus",
+   "oracle_id": "873fa095-5662-407a-bd24-9a1c4712a428",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR003",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "ruric_thar",
+   "card": "Ruric Thar, Magecrusher",
+   "oracle_id": "453b2b3c-7df5-4515-9565-82f603cf451b",
+   "tier": "NAMED_PARTICIPANT"
+  },
+  {
+   "claim": "GR003",
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "participant": "ruric_thar",
+   "card": "Ruric Thar, the Unbowed",
+   "oracle_id": "6ed13a89-4284-4c01-8099-75e2d68c8c63",
+   "tier": "NAMED_PARTICIPANT"
   }
  ],
  "by_pack": {
@@ -32420,6 +32668,13 @@
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 31
   },
+  "pack_p5_untagged_grn_rna_2026-10-30.json": {
+   "claims": 5,
+   "claims_anchored": 3,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 10
+  },
   "pack_p5_untagged_isd_guides_2026-10-30.json": {
    "claims": 7,
    "claims_anchored": 5,
@@ -32440,6 +32695,13 @@
    "ART_IN_CITED_SOURCE": 0,
    "PRINTED_IN_STORY_SET": 0,
    "NAMED_PARTICIPANT": 37
+  },
+  "pack_p5_untagged_ori_2015_2026-10-30.json": {
+   "claims": 12,
+   "claims_anchored": 9,
+   "ART_IN_CITED_SOURCE": 0,
+   "PRINTED_IN_STORY_SET": 0,
+   "NAMED_PARTICIPANT": 21
   },
   "pack_p5_untagged_planes_2026-10-30.json": {
    "claims": 39,
@@ -32471,12 +32733,12 @@
   }
  },
  "counts": {
-  "claims": 984,
-  "claims_anchored": 843,
-  "anchors": 3755,
+  "claims": 1001,
+  "claims_anchored": 855,
+  "anchors": 3786,
   "ART_IN_CITED_SOURCE": 89,
   "PRINTED_IN_STORY_SET": 546,
-  "NAMED_PARTICIPANT": 3120
+  "NAMED_PARTICIPANT": 3151
  },
- "content_sha256": "f5cdb6eba134a6ebaef65d4a45083b7efa7846adf0292bce0cce5eb1ea5db8ca"
+ "content_sha256": "ed1cc9e976058601c3c80585785e1b2bb094e1fe99c0dd17656e1a22c3ddf8e8"
 }

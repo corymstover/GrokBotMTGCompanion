@@ -7,7 +7,7 @@
   "HYPOTHETICAL": "Creative or deckbuilding connection; never canon.",
   "OPEN_QUESTION": "Primary sources leave the matter unresolved; do not assert either way."
  },
- "content_sha256": "59b69b2910a5f34177c0496655ec4ca372ec4178b00077a4cfba8c8c2f96f3e1",
+ "content_sha256": "23ddaba18d9241bb1edd1b9235ff5874447794e1b6d0ff24e1422184eb9c4dff",
  "edges": [
   {
    "artists": [
@@ -17,6 +17,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:bloodsoaked_champion"
+  },
+  {
+   "artists": [
+    "Aaron Miller"
+   ],
+   "from": "source:or_ravens",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:carrion_crow"
   },
   {
    "artists": [
@@ -91,6 +100,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:island"
+  },
+  {
+   "artists": [
+    "Adam Paquette"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_s_sanctum"
   },
   {
    "artists": [
@@ -217,6 +235,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:ulamog_the_infinite_gyre"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ravaging_blaze"
+  },
+  {
+   "artists": [
+    "Aleksi Briclot"
+   ],
+   "from": "source:or_ravens",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:demonic_pact"
   },
   {
    "artists": [
@@ -613,6 +649,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:essence_depleter"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:in_garruk_s_wake"
+  },
+  {
+   "artists": [
+    "Chase Stone"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_the_living_guildpact"
   },
   {
    "artists": [
@@ -1851,6 +1905,24 @@
    "artists": [
     "David Rapoza"
    ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:gideon_champion_of_justice"
+  },
+  {
+   "artists": [
+    "David Rapoza"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:gideon_champion_of_justice"
+  },
+  {
+   "artists": [
+    "David Rapoza"
+   ],
    "from": "source:soi_avacyn",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -1891,6 +1963,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:liliana_s_elite"
+  },
+  {
+   "artists": [
+    "Deruchenko Alexander"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:abbot_of_keral_keep"
   },
   {
    "artists": [
@@ -2082,6 +2163,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:dromoka_the_eternal"
+  },
+  {
+   "artists": [
+    "Eric Deschamps"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:chandra_fire_of_kaladesh_chandra_roaring_flame"
   },
   {
    "artists": [
@@ -2294,10 +2384,28 @@
    "artists": [
     "Franz Vohwinkel"
    ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mount_keralia"
+  },
+  {
+   "artists": [
+    "Franz Vohwinkel"
+   ],
    "from": "source:xln_race2",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:seal_of_the_guildpact"
+  },
+  {
+   "artists": [
+    "Goran Josic"
+   ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:pathrazer_of_ulamog"
   },
   {
    "artists": [
@@ -2636,6 +2744,33 @@
    "artists": [
     "Jaime Jones"
    ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_architect_of_thought"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_vryn_s_prodigy_jace_telepath_unbound"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:jace_vryn_s_prodigy_jace_telepath_unbound"
+  },
+  {
+   "artists": [
+    "Jaime Jones"
+   ],
    "from": "source:rix_who_tells",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -2658,6 +2793,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:helvault"
+  },
+  {
+   "artists": [
+    "Jakub Kasper"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:kothophed_soul_hoarder"
   },
   {
    "artists": [
@@ -2703,6 +2847,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:moorland_haunt"
+  },
+  {
+   "artists": [
+    "James Paick"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:embermaw_hellion"
   },
   {
    "artists": [
@@ -3366,6 +3519,15 @@
    "artists": [
     "John Avon"
    ],
+   "from": "source:or_ravens",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:raven_familiar"
+  },
+  {
+   "artists": [
+    "John Avon"
+   ],
    "from": "source:rix_flood",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3550,6 +3712,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:confiscation_coup"
+  },
+  {
+   "artists": [
+    "Joseph Meehan"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:acolyte_of_the_inferno"
   },
   {
    "artists": [
@@ -3789,6 +3960,15 @@
    "artists": [
     "Karl Kopinski"
    ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:five_alarm_fire"
+  },
+  {
+   "artists": [
+    "Karl Kopinski"
+   ],
    "from": "source:rtd_ep5",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3852,6 +4032,15 @@
    "artists": [
     "Karla Ortiz"
    ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:liliana_heretical_healer_liliana_defiant_necromancer"
+  },
+  {
+   "artists": [
+    "Karla Ortiz"
+   ],
    "from": "source:soi_games",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -3910,6 +4099,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:surrakar_marauder"
+  },
+  {
+   "artists": [
+    "Kev Walker"
+   ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:shattergang_brothers"
   },
   {
    "artists": [
@@ -4942,6 +5140,15 @@
    "artists": [
     "Raymond Swanland"
    ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:staggershock"
+  },
+  {
+   "artists": [
+    "Raymond Swanland"
+   ],
    "from": "source:sorins_restoration",
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
@@ -5423,6 +5630,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:perilous_vault"
+  },
+  {
+   "artists": [
+    "Sam Burley"
+   ],
+   "from": "source:or_fire",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:mountain"
   },
   {
    "artists": [
@@ -6452,6 +6668,16 @@
   },
   {
    "artists": [
+    "Vincent Proce",
+    "Véronique Meignaud"
+   ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:plains"
+  },
+  {
+   "artists": [
     "Vincent Proce"
    ],
    "from": "source:aer_revolution",
@@ -6515,6 +6741,15 @@
   },
   {
    "artists": [
+    "Vincent Proce"
+   ],
+   "from": "source:or_limits",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:ancient_stirrings"
+  },
+  {
+   "artists": [
     "Volkan Baǵa"
    ],
    "from": "source:akh_servants",
@@ -6566,6 +6801,24 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:grip_of_the_roil"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:the_chain_veil"
+  },
+  {
+   "artists": [
+    "Volkan Baǵa"
+   ],
+   "from": "source:or_ravens",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:the_chain_veil"
   },
   {
    "artists": [
@@ -6827,6 +7080,15 @@
    "relation": "art_captioned_in_story",
    "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
    "to": "card:jeering_instigator"
+  },
+  {
+   "artists": [
+    "Willian Murai"
+   ],
+   "from": "source:or_catch",
+   "relation": "art_captioned_in_story",
+   "tier": "ART_CAPTIONED_IN_OFFICIAL_STORY",
+   "to": "card:lavinia_of_the_tenth"
   },
   {
    "artists": [
@@ -11672,6 +11934,27 @@
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:krenko",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:krenko_baron_of_tin_street"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:krenko",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:krenko_mob_boss"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:krenko",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:krenko_tin_street_kingpin"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
    "from": "character:kruphix",
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
@@ -12803,6 +13086,27 @@
    "relation": "named_on_card",
    "tier": "NAMED_CARD",
    "to": "card:ruby_daring_tracker"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ruric_thar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ruric_thar_biomagus"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ruric_thar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ruric_thar_magecrusher"
+  },
+  {
+   "card_data_source": "Scryfall snap-20261029-40848334824-1",
+   "from": "character:ruric_thar",
+   "relation": "named_on_card",
+   "tier": "NAMED_CARD",
+   "to": "card:ruric_thar_the_unbowed"
   },
   {
    "card_data_source": "Scryfall snap-20261029-40848334824-1",
@@ -15208,6 +15512,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nicol_bolas",
    "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "Several decades ago he had come to the world of Amonkhet, a blighted, superstitious backworld of interest to no one who mattered",
+    "source_id": "hou_devastation",
+    "value": "Several decades ago"
+   },
    "relation": "prepared",
    "sources": [
     "hou_devastation"
@@ -15268,6 +15577,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:samut",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "After discovering that her city is not the way it was only decades ago, she is determined to convince her oldest and dearest friend, Djeru, to believe her.",
+    "source_id": "akh_judgment",
+    "value": "decades ago"
+   },
    "relation": "friend_of",
    "sources": [
     "akh_judgment"
@@ -16911,6 +17225,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:chandra_nalaar",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Cloudspire's co-captains are Chandra Nalaar and Kolodin, the latter being last year's sole captain.",
+    "source_id": "dft_guide1",
+    "value": "last year"
+   },
    "relation": "joined",
    "sources": [
     "dft_guide1"
@@ -17456,6 +17775,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:shevara",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "When this all began, a scant handful of years ago, the elves of the Rotrue Wood had viewed it as a sickness of city, born to city, swallowing city for its crimes against the natural world.",
+    "source_id": "dsks_five",
+    "value": "years ago"
+   },
    "relation": "member_of",
    "sources": [
     "dsks_five"
@@ -17516,6 +17840,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:squee",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Granted immortality during his time as a cabin boy aboard the skyship Weatherlight, Squee had helped some of Dominaria's greatest heroes repel invading Phyrexian forces nearly four hundred years ago.",
+    "source_id": "dmus_squee",
+    "value": "nearly four hundred years ago"
+   },
    "relation": "crewed",
    "sources": [
     "dmus_squee"
@@ -17732,6 +18061,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:rhys",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "A member of the group that defeated Oona nearly forty years ago, Rhys has been kept alive via a magical pact with Maralen.",
+    "source_id": "ecl_legends",
+    "value": "nearly forty years ago"
+   },
    "relation": "bound_by_pact_with",
    "sources": [
     "ecl_legends"
@@ -17876,6 +18210,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "faction:eldraine_elves",
    "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "Eight or nine generations ago, humans rose to power and drove the elves out of what would become the realm.",
+    "source_id": "eld_guide",
+    "value": "nine generations ago"
+   },
    "relation": "leader_of",
    "sources": [
     "eld_guide"
@@ -18107,6 +18446,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:farakatolar",
    "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "The piece which Harkener Sergeant Farakatolar and her small squad have been sent to investigate broke off decades ago and was marked as a possible memorial vault, one of the precious preserves of Kav artifacts.",
+    "source_id": "eoe_grasp",
+    "value": "decades ago"
+   },
    "relation": "member_of",
    "sources": [
     "eoe_grasp"
@@ -18247,6 +18591,66 @@
    "to": "place:chopright_colony"
   },
   {
+   "claim": "GR001",
+   "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "destroyed",
+   "sources": [
+    "gr_unb2"
+   ],
+   "to": "plane:skalla"
+  },
+  {
+   "claim": "GR002",
+   "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:vivien_reid",
+   "grade": "CANON_CONFIRMED",
+   "relation": "wielded",
+   "sources": [
+    "gr_unb3"
+   ],
+   "to": "artifact:arkbow"
+  },
+  {
+   "claim": "GR003",
+   "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:ruric_thar",
+   "grade": "CANON_IMPLIED",
+   "relation": "leader_of",
+   "sources": [
+    "gr_rage"
+   ],
+   "to": "faction:ghor_clan"
+  },
+  {
+   "claim": "GR004",
+   "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:rakdos_cult",
+   "grade": "CANON_CONFIRMED",
+   "relation": "controls",
+   "sources": [
+    "gr_ill"
+   ],
+   "to": "place:derisions_peak"
+  },
+  {
+   "claim": "GR005",
+   "era": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:tagan",
+   "grade": "CANON_IMPLIED",
+   "relation": "mentored",
+   "sources": [
+    "gr_reza"
+   ],
+   "to": "character:reza"
+  },
+  {
    "claim": "IG001",
    "era": "innistrad_2011",
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
@@ -18288,6 +18692,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:avacyn",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Ever since Avacyn went missing last year, the church at Thraben has kept the truth of her disappearance from Innistrad's denizens.",
+    "source_id": "ig_kes",
+    "value": "last year"
+   },
    "relation": "disappeared_from",
    "sources": [
     "ig_kes"
@@ -19097,6 +19506,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sarkhan_vol",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "left his time to travel back more than 1,200 years into Tarkir's past and save Ugin, the Spirit Dragon from death",
+    "source_id": "kt_dragons",
+    "value": "more than 1,200 years"
+   },
    "relation": "rescued",
    "sources": [
     "kt_dragons"
@@ -19936,6 +20350,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "place:zhalfir",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "It has been many years since they were called to war—but Zhalfir stands ready.",
+    "source_id": "mom_ep08",
+    "value": "many years"
+   },
    "relation": "fought",
    "sources": [
     "mom_ep08"
@@ -19960,6 +20379,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:karn",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+    "source_id": "mom_ep10",
+    "value": "hundreds of years"
+   },
    "relation": "gave_up",
    "sources": [
     "mom_ep10"
@@ -20008,6 +20432,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:teferi",
    "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "What Melira died for, why Karn's given up his spark, why Teferi spent hundreds of years trying to restore his home.",
+    "source_id": "mom_ep10",
+    "value": "hundreds of years"
+   },
    "relation": "restored",
    "sources": [
     "mom_ep10"
@@ -20215,6 +20644,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:edgar_markov",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Of all the wounds Sorin bore, Edgar had inflicted the first, and still, Sorin had loved him for thousands of years.",
+    "source_id": "vow_ep5",
+    "value": "thousands of years"
+   },
    "relation": "related_to",
    "sources": [
     "vow_ep1",
@@ -20457,6 +20891,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:the_wanderer",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Whatever he'd done to Kyodai ten years ago had inadvertently set off the Wanderer's spark.",
+    "source_id": "neo_ep5",
+    "value": "ten years ago"
+   },
    "relation": "spark_ignited",
    "sources": [
     "neo_ep3",
@@ -20470,6 +20909,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:the_wanderer",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Whatever he'd done to Kyodai ten years ago had inadvertently set off the Wanderer's spark.",
+    "source_id": "neo_ep5",
+    "value": "ten years ago"
+   },
    "relation": "spark_ignited",
    "sources": [
     "neo_ep3",
@@ -20532,6 +20976,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:kaito",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Ten years ago, Kaito had sworn never to step foot in the palace until the emperor returned.",
+    "source_id": "neo_ep4",
+    "value": "Ten years ago"
+   },
    "relation": "swore_to",
    "sources": [
     "neo_ep4"
@@ -21080,6 +21529,150 @@
     "one_ep4"
    ],
    "to": "plane:mirrodin"
+  },
+  {
+   "claim": "OR001",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_IMPLIED",
+   "relation": "sibling_of",
+   "sources": [
+    "or_lili"
+   ],
+   "to": "character:josu_vess"
+  },
+  {
+   "claim": "OR002",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "or_ravens"
+   ],
+   "to": "character:kothophed"
+  },
+  {
+   "claim": "OR003",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:liliana_vess",
+   "grade": "CANON_CONFIRMED",
+   "relation": "killed",
+   "sources": [
+    "or_ravens"
+   ],
+   "to": "character:griselbrand"
+  },
+  {
+   "claim": "OR004",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:nicol_bolas",
+   "grade": "CANON_CONFIRMED",
+   "relation": "brokered_pact_for",
+   "sources": [
+    "or_ravens"
+   ],
+   "to": "character:liliana_vess"
+  },
+  {
+   "claim": "OR005",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:raven_man",
+   "grade": "CANON_CONFIRMED",
+   "relation": "manipulated",
+   "sources": [
+    "or_ravens"
+   ],
+   "to": "character:liliana_vess"
+  },
+  {
+   "claim": "OR006",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:serenok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "mentored",
+   "sources": [
+    "or_fire"
+   ],
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "claim": "OR007",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:serenok",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "or_fire"
+   ],
+   "to": "place:keral_keep"
+  },
+  {
+   "claim": "OR008",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:luti",
+   "grade": "CANON_CONFIRMED",
+   "relation": "leader_of",
+   "sources": [
+    "or_fire"
+   ],
+   "to": "place:keral_keep"
+  },
+  {
+   "claim": "OR009",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:meroe",
+   "grade": "CANON_IMPLIED",
+   "relation": "parent_of",
+   "sources": [
+    "or_nissa"
+   ],
+   "to": "character:nissa_revane"
+  },
+  {
+   "claim": "OR010",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "faction:shattergang_brothers",
+   "grade": "CANON_IMPLIED",
+   "relation": "opposed",
+   "sources": [
+    "or_limits"
+   ],
+   "to": "character:krenko"
+  },
+  {
+   "claim": "OR011",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:jace_beleren",
+   "grade": "CANON_IMPLIED",
+   "relation": "holds_title",
+   "sources": [
+    "or_catch"
+   ],
+   "to": "concept:living_guildpact"
+  },
+  {
+   "claim": "OR012",
+   "era": "magic_origins_2015",
+   "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
+   "from": "character:drasus",
+   "grade": "CANON_CONFIRMED",
+   "relation": "member_of",
+   "sources": [
+    "or_gid"
+   ],
+   "to": "faction:kytheons_irregulars"
   },
   {
    "claim": "OS001",
@@ -22235,6 +22828,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sorin_markov",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Jace has come to Innistrad in search of Sorin Markov, one of the three Planeswalkers who imprisoned the Eldrazi on Zendikar thousands of years ago.",
+    "source_id": "soi_markov_manor",
+    "value": "thousands of years ago"
+   },
    "relation": "imprisoned",
    "sources": [
     "soi_markov_manor"
@@ -22428,6 +23026,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:sorin_markov",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+    "source_id": "emn_stone_blood",
+    "value": "over a thousand years ago"
+   },
    "relation": "failed_to_aid",
    "sources": [
     "emn_stone_blood"
@@ -22911,6 +23514,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "faction:strixhaven_founder_dragons",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Founded over 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning",
+    "source_id": "sos_guide",
+    "value": "over 700 years ago"
+   },
    "relation": "created",
    "sources": [
     "sos_guide"
@@ -23203,6 +23811,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "faction:strixhaven_founder_dragons",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Founded some 700 years ago by five spellcasting dragons, Strixhaven University is Arcavios's premier institution of magical learning, drawing promising young mages from all around the plane to study in its halls.",
+    "source_id": "stx_guide",
+    "value": "some 700 years ago"
+   },
    "relation": "created",
    "sources": [
     "stx_guide"
@@ -23711,6 +24324,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Five years ago, Ugin awoke from his hibernation and departed Tarkir.",
+    "source_id": "tdm_guide1",
+    "value": "Five years ago"
+   },
    "relation": "left",
    "sources": [
     "tdm_guide1"
@@ -24227,6 +24845,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:xenocrates",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Xenocrates had been one of her first mentors at Ephara's temple when Melantha had arrived so many years before.",
+    "source_id": "ths_dreams",
+    "value": "many years before"
+   },
    "relation": "mentored",
    "sources": [
     "ths_dreams"
@@ -24446,6 +25069,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ugin",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came.",
+    "source_id": "stone_and_blood",
+    "value": "over a thousand years ago"
+   },
    "relation": "absent_when_eldrazi_nearly_escaped",
    "sources": [
     "stone_and_blood"
@@ -24723,6 +25351,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:jaya_ballard",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Born on Dominaria more than 1,500 years ago",
+    "source_id": "ub_jaya",
+    "value": "more than 1,500 years ago"
+   },
    "relation": "originated_from",
    "sources": [
     "ub_jaya"
@@ -26340,6 +26973,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:nahiri",
    "grade": "CANON_IMPLIED",
+   "in_universe_date": {
+    "quote": "She should have found a different plane to trap the Eldrazi in millennia ago.",
+    "source_id": "zr_ep1",
+    "value": "millennia ago"
+   },
    "relation": "imprisoned",
    "sources": [
     "zr_ep1"
@@ -26352,6 +26990,11 @@
    "era_basis": "claim pack story-stage label (an in-universe era name, not a calendar date or a cross-pack order); no Dominarian (AR) year is asserted",
    "from": "character:ulamog",
    "grade": "CANON_CONFIRMED",
+   "in_universe_date": {
+    "quote": "Zendikar's Vampires were created many centuries ago by a magical infection that originated from the Eldrazi and enslaved them to Ulamog's will.",
+    "source_id": "zr_world",
+    "value": "many centuries ago"
+   },
    "relation": "enslaved",
    "sources": [
     "zr_world"
@@ -31005,6 +31648,66 @@
    "to": "character:sami"
   },
   {
+   "from": "claim:GR001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "plane:skalla"
+  },
+  {
+   "from": "claim:GR001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:GR002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "artifact:arkbow"
+  },
+  {
+   "from": "claim:GR002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:vivien_reid"
+  },
+  {
+   "from": "claim:GR003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:ghor_clan"
+  },
+  {
+   "from": "claim:GR003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:ruric_thar"
+  },
+  {
+   "from": "claim:GR004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:derisions_peak"
+  },
+  {
+   "from": "claim:GR004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:rakdos_cult"
+  },
+  {
+   "from": "claim:GR005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:reza"
+  },
+  {
+   "from": "claim:GR005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:tagan"
+  },
+  {
    "from": "claim:IG001",
    "relation": "asserts",
    "role": "object",
@@ -33781,6 +34484,150 @@
    "relation": "asserts",
    "role": "subject",
    "to": "character:melira"
+  },
+  {
+   "from": "claim:OR001",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:josu_vess"
+  },
+  {
+   "from": "claim:OR001",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:OR002",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:kothophed"
+  },
+  {
+   "from": "claim:OR002",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:OR003",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:griselbrand"
+  },
+  {
+   "from": "claim:OR003",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:OR004",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:OR004",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:nicol_bolas"
+  },
+  {
+   "from": "claim:OR005",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:liliana_vess"
+  },
+  {
+   "from": "claim:OR005",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:raven_man"
+  },
+  {
+   "from": "claim:OR006",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:chandra_nalaar"
+  },
+  {
+   "from": "claim:OR006",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:serenok"
+  },
+  {
+   "from": "claim:OR007",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:keral_keep"
+  },
+  {
+   "from": "claim:OR007",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:serenok"
+  },
+  {
+   "from": "claim:OR008",
+   "relation": "asserts",
+   "role": "object",
+   "to": "place:keral_keep"
+  },
+  {
+   "from": "claim:OR008",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:luti"
+  },
+  {
+   "from": "claim:OR009",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:nissa_revane"
+  },
+  {
+   "from": "claim:OR009",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:meroe"
+  },
+  {
+   "from": "claim:OR010",
+   "relation": "asserts",
+   "role": "object",
+   "to": "character:krenko"
+  },
+  {
+   "from": "claim:OR010",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "faction:shattergang_brothers"
+  },
+  {
+   "from": "claim:OR011",
+   "relation": "asserts",
+   "role": "object",
+   "to": "concept:living_guildpact"
+  },
+  {
+   "from": "claim:OR011",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:jace_beleren"
+  },
+  {
+   "from": "claim:OR012",
+   "relation": "asserts",
+   "role": "object",
+   "to": "faction:kytheons_irregulars"
+  },
+  {
+   "from": "claim:OR012",
+   "relation": "asserts",
+   "role": "subject",
+   "to": "character:drasus"
   },
   {
    "from": "claim:OS001",
@@ -40929,6 +41776,31 @@
    "to": "claim:A013"
   },
   {
+   "from": "source:gr_ill",
+   "relation": "cited_by",
+   "to": "claim:GR004"
+  },
+  {
+   "from": "source:gr_rage",
+   "relation": "cited_by",
+   "to": "claim:GR003"
+  },
+  {
+   "from": "source:gr_reza",
+   "relation": "cited_by",
+   "to": "claim:GR005"
+  },
+  {
+   "from": "source:gr_unb2",
+   "relation": "cited_by",
+   "to": "claim:GR001"
+  },
+  {
+   "from": "source:gr_unb3",
+   "relation": "cited_by",
+   "to": "claim:GR002"
+  },
+  {
    "from": "source:hou_devastation",
    "relation": "cited_by",
    "to": "claim:AKH011"
@@ -42384,6 +43256,66 @@
    "from": "source:one_ep5",
    "relation": "cited_by",
    "to": "claim:ONE017"
+  },
+  {
+   "from": "source:or_catch",
+   "relation": "cited_by",
+   "to": "claim:OR011"
+  },
+  {
+   "from": "source:or_fire",
+   "relation": "cited_by",
+   "to": "claim:OR006"
+  },
+  {
+   "from": "source:or_fire",
+   "relation": "cited_by",
+   "to": "claim:OR007"
+  },
+  {
+   "from": "source:or_fire",
+   "relation": "cited_by",
+   "to": "claim:OR008"
+  },
+  {
+   "from": "source:or_gid",
+   "relation": "cited_by",
+   "to": "claim:OR012"
+  },
+  {
+   "from": "source:or_lili",
+   "relation": "cited_by",
+   "to": "claim:OR001"
+  },
+  {
+   "from": "source:or_limits",
+   "relation": "cited_by",
+   "to": "claim:OR010"
+  },
+  {
+   "from": "source:or_nissa",
+   "relation": "cited_by",
+   "to": "claim:OR009"
+  },
+  {
+   "from": "source:or_ravens",
+   "relation": "cited_by",
+   "to": "claim:OR002"
+  },
+  {
+   "from": "source:or_ravens",
+   "relation": "cited_by",
+   "to": "claim:OR003"
+  },
+  {
+   "from": "source:or_ravens",
+   "relation": "cited_by",
+   "to": "claim:OR004"
+  },
+  {
+   "from": "source:or_ravens",
+   "relation": "cited_by",
+   "to": "claim:OR005"
   },
   {
    "from": "source:otj_ep1",
@@ -45175,6 +46107,20 @@
     "file": "data/lore_research/pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "sha256": "0aa859be3545ba3b88f9f069c5cc7fa8d37dab5a58f6c4dcee9f1c989460b709",
     "sources": 6
+   },
+   {
+    "claims": 12,
+    "entities": 19,
+    "file": "data/lore_research/pack_p5_untagged_ori_2015_2026-10-30.json",
+    "sha256": "84b807dce4420e956571121f4bcf5af870d5c30ddca10e4ce11ead61d21640cc",
+    "sources": 7
+   },
+   {
+    "claims": 5,
+    "entities": 10,
+    "file": "data/lore_research/pack_p5_untagged_grn_rna_2026-10-30.json",
+    "sha256": "23e574fa4d256957a619ef71b0bf5c79ade41d2593316832548c903484d3a154",
+    "sources": 5
    }
   ],
   "deck_evidence": [
@@ -45194,16 +46140,23 @@
     "sha256": "abcdf2bdbe2667898d799bd53e18a4da146d46a0063b1c153d80bb45d408ff9c"
    }
   ],
+  "in_universe_dates": [
+   {
+    "dates": 26,
+    "file": "data/lore_research/in_universe_dates_2026-10-30.json",
+    "sha256": "9b2249ad0d07be732d9e653b9a9cea85fffc1fae761c8774d0fd6f8b1116c0f6"
+   }
+  ],
   "name_anchor_packs": [
    {
-    "anchors": 660,
+    "anchors": 666,
     "file": "data/lore_research/card_name_anchors_2026-10-30.json",
-    "sha256": "f71e0db2cd675112a8e95facf91f3e4bca876d0c250af5bee23f6d5cea54e7cf"
+    "sha256": "4db9e9608ca85ada454b1b25e23c8b2393db95ebde99f89fbaefc92faf8ff442"
    }
   ],
   "story_caption_packs": [
    {
-    "caption_edges": 805,
+    "caption_edges": 834,
     "file": "data/story_atlas/story_art_captions_2026-10-30.json",
     "sha256": "cc9afe96ffdc211e06099c799c2c5a93579d86bc0fb7e4ef7c5e9754284c1eb2"
    }
@@ -45224,6 +46177,14 @@
    "name": "The Aetherspark",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Object"
+  },
+  {
+   "id": "artifact:arkbow",
+   "name": "Arkbow",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Object"
   },
@@ -45660,6 +46621,15 @@
    "type": "Card"
   },
   {
+   "id": "card:acolyte_of_the_inferno",
+   "name": "Acolyte of the Inferno",
+   "oracle_id": "35bf67e0-8141-4664-b762-2c613353e1eb",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:act_of_heroism",
    "name": "Act of Heroism",
    "oracle_id": "25edb501-11b5-4617-8a65-2eb4869cccd5",
@@ -46091,6 +47061,15 @@
    "id": "card:ancient_animus",
    "name": "Ancient Animus",
    "oracle_id": "4c9a38f8-8fcb-45f9-8b70-e54298c7b485",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ancient_stirrings",
+   "name": "Ancient Stirrings",
+   "oracle_id": "82f18e7d-5c42-47c4-8e74-3fccc9b7b1f0",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -47184,6 +48163,15 @@
    "oracle_id": "2e7a9ea9-f76c-4c12-950f-c613fa16cfa8",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:carrion_crow",
+   "name": "Carrion Crow",
+   "oracle_id": "2f9de785-a80a-4356-a4b4-0e0243e8ea2d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -48530,6 +49518,15 @@
    "type": "Card"
   },
   {
+   "id": "card:embermaw_hellion",
+   "name": "Embermaw Hellion",
+   "oracle_id": "01c39670-3677-49df-a4f6-e5062e0909d5",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:embraal_bruiser",
    "name": "Embraal Bruiser",
    "oracle_id": "f432998f-7737-4f41-86b5-a4372bc5db2b",
@@ -48980,6 +49977,15 @@
    "id": "card:fire_elemental",
    "name": "Fire Elemental",
    "oracle_id": "3912d21e-1ebc-4a81-9dc9-f404248d564a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:five_alarm_fire",
+   "name": "Five-Alarm Fire",
+   "oracle_id": "b1e5c507-d110-4f9e-a58a-939f9961e464",
    "origins": [
     "story_art_captions_2026-10-30.json"
    ],
@@ -50207,6 +51213,15 @@
    "type": "Card"
   },
   {
+   "id": "card:in_garruk_s_wake",
+   "name": "In Garruk's Wake",
+   "oracle_id": "a6899b94-427d-4851-a474-4087e0a0918a",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:increasing_devotion",
    "name": "Increasing Devotion",
    "oracle_id": "7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb",
@@ -50396,6 +51411,15 @@
    "type": "Card"
   },
   {
+   "id": "card:jace_architect_of_thought",
+   "name": "Jace, Architect of Thought",
+   "oracle_id": "2274c7ae-5a40-4fd4-a4ac-6f56b23034e4",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jace_beleren",
    "name": "Jace Beleren",
    "oracle_id": "cc2b6e58-2d6f-495e-95f3-9496105c4cba",
@@ -50451,12 +51475,30 @@
    "type": "Card"
   },
   {
+   "id": "card:jace_the_living_guildpact",
+   "name": "Jace, the Living Guildpact",
+   "oracle_id": "55259de3-561d-4a9e-bb28-63c6a7ac5c68",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:jace_unraveler_of_secrets",
    "name": "Jace, Unraveler of Secrets",
    "oracle_id": "ac29873e-28c3-4933-b427-61d34ff0afcd",
    "origins": [
     "story_art_captions_2026-10-30.json",
     "ugins_allies_and_heroes_printing_evidence.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:jace_vryn_s_prodigy_jace_telepath_unbound",
+   "name": "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+   "oracle_id": "594f6881-c059-46f8-aa4e-7151d502de73",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -51241,7 +52283,8 @@
    "name": "Kothophed, Soul Hoarder",
    "oracle_id": "85e1791f-f9a0-4e82-baf6-33cff2dcf60b",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -51297,6 +52340,33 @@
    "origins": [
     "card_name_anchors_2026-10-30.json",
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:krenko_baron_of_tin_street",
+   "name": "Krenko, Baron of Tin Street",
+   "oracle_id": "91b2520e-85b6-4e1f-88cf-a585feeb8e65",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:krenko_mob_boss",
+   "name": "Krenko, Mob Boss",
+   "oracle_id": "68418069-f615-40ef-ae0d-764192acae00",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:krenko_tin_street_kingpin",
+   "name": "Krenko, Tin Street Kingpin",
+   "oracle_id": "e8065e1d-e937-4b56-8011-78f0d07328a0",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -51397,7 +52467,8 @@
    "name": "Lavinia of the Tenth",
    "oracle_id": "55df6fa3-3d24-46d5-b325-099336c3f0fd",
    "origins": [
-    "card_name_anchors_2026-10-30.json"
+    "card_name_anchors_2026-10-30.json",
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -52279,6 +53350,15 @@
    "oracle_id": "c2e2f21a-0338-44d7-96a5-5a277f0ec419",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:mount_keralia",
+   "name": "Mount Keralia",
+   "oracle_id": "e0dc9986-1099-4189-bfff-8f41bab9019d",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -53336,6 +54416,15 @@
    "type": "Card"
   },
   {
+   "id": "card:pathrazer_of_ulamog",
+   "name": "Pathrazer of Ulamog",
+   "oracle_id": "4bf95747-4572-49b8-b892-87fe7f910252",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:patrician_s_scorn",
    "name": "Patrician's Scorn",
    "oracle_id": "0dc9acfb-3f8b-4a34-b44c-5cc62689904b",
@@ -53942,6 +55031,24 @@
    "type": "Card"
   },
   {
+   "id": "card:ravaging_blaze",
+   "name": "Ravaging Blaze",
+   "oracle_id": "a41760a2-d359-4581-b8d3-c1b572ac15c2",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:raven_familiar",
+   "name": "Raven Familiar",
+   "oracle_id": "47aabd9d-0f68-490a-a2ae-5cd9ef689be6",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:razaketh_the_foulblooded",
    "name": "Razaketh, the Foulblooded",
    "oracle_id": "136c9ecb-59b4-4ef6-bcb2-7b8d3df3ee75",
@@ -54284,6 +55391,33 @@
    "oracle_id": "d463de75-8d3c-4077-a2cc-c304a63acc69",
    "origins": [
     "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ruric_thar_biomagus",
+   "name": "Ruric Thar, Biomagus",
+   "oracle_id": "873fa095-5662-407a-bd24-9a1c4712a428",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ruric_thar_magecrusher",
+   "name": "Ruric Thar, Magecrusher",
+   "oracle_id": "453b2b3c-7df5-4515-9565-82f603cf451b",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:ruric_thar_the_unbowed",
+   "name": "Ruric Thar, the Unbowed",
+   "oracle_id": "6ed13a89-4284-4c01-8099-75e2d68c8c63",
+   "origins": [
+    "card_name_anchors_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -54885,6 +56019,15 @@
    "type": "Card"
   },
   {
+   "id": "card:shattergang_brothers",
+   "name": "Shattergang Brothers",
+   "oracle_id": "7fb63d9a-8d90-4b43-8390-924de2d7e32c",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
    "id": "card:sheoldred_the_apocalypse",
    "name": "Sheoldred, the Apocalypse",
    "oracle_id": "34f34409-326d-4994-a0ea-1a69aa278f03",
@@ -55366,6 +56509,15 @@
    "oracle_id": "481fb71a-11b9-462e-a4da-ca35ffd1bd22",
    "origins": [
     "card_name_anchors_2026-10-30.json"
+   ],
+   "type": "Card"
+  },
+  {
+   "id": "card:staggershock",
+   "name": "Staggershock",
+   "oracle_id": "056c3b7d-b603-40b8-8404-18c2eb7e7129",
+   "origins": [
+    "story_art_captions_2026-10-30.json"
    ],
    "type": "Card"
   },
@@ -58594,6 +59746,7 @@
     "pack_p5_mom_aftermath_2026-10-30.json",
     "pack_p5_secrets_of_strixhaven_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -58789,6 +59942,14 @@
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_bfz_2015_stories_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:drasus",
+   "name": "Drasus",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59164,6 +60325,7 @@
    "name": "Griselbrand",
    "origins": [
     "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -59375,6 +60537,7 @@
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
    ],
    "type": "Character"
@@ -59478,7 +60641,8 @@
    "id": "character:josu_vess",
    "name": "Josu Vess",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59779,7 +60943,8 @@
    "id": "character:kothophed",
    "name": "Kothophed",
    "origins": [
-    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json"
+    "pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59797,6 +60962,14 @@
    "origins": [
     "pack_p5_battle_for_zendikar_oath_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:krenko",
+   "name": "Krenko",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59854,7 +61027,8 @@
    "id": "character:kytheon",
    "name": "Kytheon Iora",
    "origins": [
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59926,7 +61100,8 @@
     "pack_p5_lorwyn_eclipsed_2026-10-30.json",
     "pack_p5_reality_fracture_2026-10-30.json",
     "pack_p5_shadows_eldritch_moon_2026-10-30.json",
-    "pack_p5_strixhaven_2026-10-30.json"
+    "pack_p5_strixhaven_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -59995,6 +61170,14 @@
     "pack_c4_march_of_the_machine_2026-10-30.json",
     "pack_p5_one_side_stories_2026-10-30.json",
     "pack_p5_strixhaven_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:luti",
+   "name": "Mother Luti",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60124,6 +61307,14 @@
    "name": "Mendicant Core",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:meroe",
+   "name": "Meroe",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60309,7 +61500,9 @@
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_tarkir_dragonstorm_2026-10-30.json",
     "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_grn_rna_2026-10-30.json",
     "pack_p5_untagged_ktk_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_war_spark_ravnica_2026-10-30.json"
    ],
@@ -60353,6 +61546,7 @@
     "pack_p5_brothers_war_2026-10-30.json",
     "pack_p5_kaladesh_aether_revolt_2026-10-30.json",
     "pack_p5_mom_aftermath_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json",
     "pack_p5_untagged_znr_2026-10-30.json"
    ],
@@ -60769,7 +61963,8 @@
    "id": "character:raven_man",
    "name": "The Raven Man",
    "origins": [
-    "pack_c2_return_to_dominaria_2026-10-30.json"
+    "pack_c2_return_to_dominaria_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60786,6 +61981,14 @@
    "name": "Squad Captain Reen",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:reza",
+   "name": "Reza",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60853,6 +62056,14 @@
    "name": "Rudra",
    "origins": [
     "pack_p5_aetherdrift_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:ruric_thar",
+   "name": "Ruric Thar",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -60944,6 +62155,14 @@
    "origins": [
     "pack_p5_untagged_conspiracy_2016_2026-10-30.json",
     "pack_p5_untagged_planes_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:serenok",
+   "name": "Serenok",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -61076,6 +62295,14 @@
    "name": "Surrak Dragonclaw",
    "origins": [
     "pack_p5_untagged_ktk_2026-10-30.json"
+   ],
+   "type": "Character"
+  },
+  {
+   "id": "character:tagan",
+   "name": "Tagan",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -61513,7 +62740,8 @@
     "pack_p5_mom_side_stories_2026-10-30.json",
     "pack_p5_snc_side_stories_2026-10-30.json",
     "pack_p5_streets_of_new_capenna_2026-10-30.json",
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Character"
   },
@@ -65306,6 +66534,63 @@
   },
   {
    "grade": "CANON_CONFIRMED",
+   "id": "claim:GR001",
+   "name": "Nicol Bolas destroyed Skalla, Vivien's home plane, in her past.",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "predicate": "destroyed",
+   "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GR002",
+   "name": "Vivien carries and wields the Arkbow.",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "predicate": "wielded",
+   "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:GR003",
+   "limitation": "Chieftainship is implied by a rival's challenge 'for clan chieftain'; the narrator's clan is the Ghor Clan.",
+   "name": "Ruric and Thar are the Ghor Clan's chieftain (Ravnica Allegiance, 2019).",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:GR004",
+   "name": "Derision's Peak and nearby neighborhoods are Rakdos domain.",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "predicate": "controls",
+   "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:GR005",
+   "limitation": "First-person narration; the mentor is identified as Tagan by the following sentences, not in one quote.",
+   "name": "Tagan is the Azorius lawmage Reza's mentor.",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "guilds_of_ravnica_ravnica_allegiance_2018_2019",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
    "id": "claim:IG001",
    "limitation": "'It' is Gavony, the province this guide section covers.",
    "name": "Thraben, Innistrad's largest city, is in Gavony.",
@@ -67915,6 +69200,142 @@
    ],
    "predicate": "native_of",
    "stage": "one_strike_2023",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:OR001",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence.",
+   "name": "Liliana's brother (Josu, named nearby) lies gravely ill at their father's house in her past (origin story).",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "sibling_of",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR002",
+   "name": "Using the Chain Veil, Liliana killed Kothophed, one of her demonic creditors.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR003",
+   "name": "Using the Chain Veil, Liliana killed Griselbrand, one of her demonic creditors.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "killed",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR004",
+   "name": "Nicol Bolas helped broker Liliana's demonic pact.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "brokered_pact_for",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR005",
+   "name": "The Raven Man's meddling led to Josu's death and Liliana's spark igniting, in her past.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "manipulated",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR006",
+   "name": "Serenok, abbot of Keral Keep, pushed Chandra's fire magic.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "mentored",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR007",
+   "name": "Serenok is abbot and head teacher of Keral Keep on Regatha (2015).",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR008",
+   "name": "Mother Luti is the matriarch of the Keral Keep monastery (2015).",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "leader_of",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:OR009",
+   "limitation": "Point-of-view narration; the pronoun's referent is the viewpoint character named in the summary, not named in the quoted sentence.",
+   "name": "Meroe is Nissa's mother.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "parent_of",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:OR010",
+   "limitation": "In-universe accusation by the Shattergangs, not narrated fact.",
+   "name": "The Shattergang Brothers accuse Krenko of murdering their youngest brother.",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "opposed",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_IMPLIED",
+   "id": "claim:OR011",
+   "limitation": "'His' is Jace, the story's subject.",
+   "name": "Jace serves as the Living Guildpact, arbiter of Ravnica's guild conflicts (2015).",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "holds_title",
+   "stage": "magic_origins_2015",
+   "type": "Claim"
+  },
+  {
+   "grade": "CANON_CONFIRMED",
+   "id": "claim:OR012",
+   "name": "Drasus is one of Kytheon's Irregulars, in Gideon's past on Theros (origin story).",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "predicate": "member_of",
+   "stage": "magic_origins_2015",
    "type": "Claim"
   },
   {
@@ -73097,6 +74518,14 @@
    "type": "Concept"
   },
   {
+   "id": "concept:living_guildpact",
+   "name": "Living Guildpact",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "type": "Concept"
+  },
+  {
    "id": "concept:multiverse",
    "name": "The Multiverse",
    "origins": [
@@ -74617,6 +76046,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:ghor_clan",
+   "name": "Ghor Clan",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:golgari",
    "name": "Golgari Swarm",
    "origins": [
@@ -74764,7 +76201,8 @@
    "id": "faction:kytheons_irregulars",
    "name": "Kytheon's irregulars",
    "origins": [
-    "pack_p5_theros_ths_2026-10-30.json"
+    "pack_p5_theros_ths_2026-10-30.json",
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -74930,6 +76368,14 @@
    "type": "Faction"
   },
   {
+   "id": "faction:rakdos_cult",
+   "name": "Cult of Rakdos",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
    "id": "faction:ratfolk_valley",
    "name": "Ratfolk of Valley",
    "origins": [
@@ -74984,6 +76430,14 @@
    "name": "Sea Gate Expeditionary House",
    "origins": [
     "pack_p5_untagged_znr_2026-10-30.json"
+   ],
+   "type": "Faction"
+  },
+  {
+   "id": "faction:shattergang_brothers",
+   "name": "Shattergang Brothers",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Faction"
   },
@@ -75388,6 +76842,14 @@
    "type": "Place"
   },
   {
+   "id": "place:derisions_peak",
+   "name": "Derision's Peak",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
    "id": "place:drannith",
    "name": "Drannith",
    "origins": [
@@ -75547,6 +77009,14 @@
    "name": "Kavaron",
    "origins": [
     "pack_p5_edge_of_eternities_2026-10-30.json"
+   ],
+   "type": "Place"
+  },
+  {
+   "id": "place:keral_keep",
+   "name": "Keral Keep",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
    ],
    "type": "Place"
   },
@@ -76179,7 +77649,8 @@
    "id": "plane:skalla",
    "name": "Skalla",
    "origins": [
-    "pack_p5_untagged_bios_2026-10-30.json"
+    "pack_p5_untagged_bios_2026-10-30.json",
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
    ],
    "type": "Plane"
   },
@@ -77905,6 +79376,61 @@
    "url": "https://magic.wizards.com/en/news/magic-story/chronicle-bolas-first-lesson-2018-06-20"
   },
   {
+   "id": "source:gr_ill",
+   "kind": "official_story_episode",
+   "name": "The Illusions of Child's Play",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/illusions-childs-play-2019-01-23"
+  },
+  {
+   "id": "source:gr_rage",
+   "kind": "official_story_episode",
+   "name": "Rage of the Unsung",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/rage-unsung-2019-01-30"
+  },
+  {
+   "id": "source:gr_reza",
+   "kind": "official_story_episode",
+   "name": "The Ascension of Reza",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/ascension-reza-2019-02-27"
+  },
+  {
+   "id": "source:gr_unb2",
+   "kind": "official_story_episode",
+   "name": "Unbowed, Part 2",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/unbowed-part-2-2018-09-05"
+  },
+  {
+   "id": "source:gr_unb3",
+   "kind": "official_story_episode",
+   "name": "Unbowed, Part 3",
+   "origins": [
+    "pack_p5_untagged_grn_rna_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/unbowed-part-3-2018-09-07"
+  },
+  {
    "id": "source:hou_devastation",
    "kind": "official_story_episode",
    "name": "Hour of Devastation",
@@ -79515,6 +81041,83 @@
    "source_class": "WIZARDS_OFFICIAL",
    "type": "Source",
    "url": "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-5-inevitable-resolutions"
+  },
+  {
+   "id": "source:or_catch",
+   "kind": "official_story_episode",
+   "name": "Catching Up",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/catching-2015-07-22"
+  },
+  {
+   "id": "source:or_fire",
+   "kind": "official_story_episode",
+   "name": "Offers to the Fire",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05"
+  },
+  {
+   "id": "source:or_gid",
+   "kind": "official_story_feature",
+   "name": "Gideon’s Origin: Kytheon Iora of Akros",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/gideons-origin-kytheon-iora-akros-2015-07-01"
+  },
+  {
+   "id": "source:or_lili",
+   "kind": "official_story_feature",
+   "name": "Liliana's Origin: The Fourth Pact",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/feature/lilianas-origin-fourth-pact-2015-06-17"
+  },
+  {
+   "id": "source:or_limits",
+   "kind": "official_story_episode",
+   "name": "Limits",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/limits-2015-07-15"
+  },
+  {
+   "id": "source:or_nissa",
+   "kind": "official_story_episode",
+   "name": "Nissa's Origin: Home",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/nissas-origin-home-2015-07-08"
+  },
+  {
+   "id": "source:or_ravens",
+   "kind": "official_story_episode",
+   "name": "Unkindness of Ravens",
+   "origins": [
+    "pack_p5_untagged_ori_2015_2026-10-30.json"
+   ],
+   "source_class": "WIZARDS_OFFICIAL",
+   "type": "Source",
+   "url": "https://magic.wizards.com/en/news/magic-story/unkindness-ravens-2015-07-29"
   },
   {
    "id": "source:otj_ep1",
@@ -81883,37 +83486,37 @@
  "problems": [],
  "schema": "multiverse-claim-graph/v1",
  "stats": {
-  "claim_edges_with_era": 1011,
-  "claim_edges_with_in_universe_date": 0,
+  "claim_edges_with_era": 1028,
+  "claim_edges_with_in_universe_date": 27,
   "claims_by_status": {
    "ALTERNATE_CONTINUITY": 2,
-   "CANON_CONFIRMED": 787,
+   "CANON_CONFIRMED": 798,
    "CANON_DISPUTED": 8,
-   "CANON_IMPLIED": 184,
+   "CANON_IMPLIED": 190,
    "OPEN_QUESTION": 3
   },
   "curated_bridges": 119,
-  "edges": 5946,
+  "edges": 6049,
   "literal_objects": 14,
   "node_types": {
    "AlternateContinuity": 1,
-   "Card": 1350,
+   "Card": 1371,
    "CardTheme": 1,
-   "Character": 421,
-   "Claim": 984,
-   "Concept": 140,
+   "Character": 429,
+   "Claim": 1001,
+   "Concept": 141,
    "DeckProposal": 3,
    "Event": 22,
-   "Faction": 102,
+   "Faction": 105,
    "Literal": 14,
-   "Object": 46,
-   "Place": 74,
+   "Object": 47,
+   "Place": 76,
    "Plane": 32,
-   "Source": 514
+   "Source": 526
   },
-  "nodes": 3704,
+  "nodes": 3769,
   "non_wizards_sources": 0,
-  "relations": 332,
-  "wizards_official_sources": 514
+  "relations": 334,
+  "wizards_official_sources": 526
  }
 }

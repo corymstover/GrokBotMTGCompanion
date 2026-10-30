@@ -39,6 +39,9 @@ REPRESENTATIVE = [
     ("Who leads the Orzhov?", "Teysa Karlov", {"VERIFIED", "QUALIFIED"}, ["MULTIPLE_LEADERS_ACROSS_ERAS"]),
     ("Who leads the Temur?", "Surrak Dragonclaw", {"VERIFIED", "QUALIFIED"}, ["ERA_OR_TIMELINE_CONTEXT"]),
     ("Who rules the Jeskai?", "Ojutai", {"QUALIFIED"}, ["CANON_IMPLIED_PRESENT"]),
+    # Batch 10 Phase 7 continuity explainer: conflicting/open accounts are listed, never resolved
+    ("Explain the continuity of Brago", "Queen Marchesa", {"QUALIFIED"}, ["CANON_DISPUTED_PRESENT"]),
+    ("Is Lorthos canon?", "Murasa Skyclave", {"QUALIFIED"}, ["OPEN_QUESTION_PRESENT"]),
 ]
 NOT_FOUND = ["Who is Zorblax the Unreal's brother?"]
 
@@ -47,7 +50,8 @@ def _names(env: dict) -> list[str]:
     res = env.get("result")
     if not isinstance(res, dict):
         return []
-    return [r.get("name") for rs in res.get("relations_by_status", {}).values() for r in rs]
+    return ([r.get("name") for rs in res.get("relations_by_status", {}).values() for r in rs]
+            + [a.get("other") for a in res.get("continuity_accounts", [])])
 
 
 def run() -> dict:

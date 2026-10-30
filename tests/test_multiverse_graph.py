@@ -150,9 +150,37 @@ class QueryTests(unittest.TestCase):
             self.assertEqual(e.get("era", ""), stage["claim:" + e["claim"]], e)
             if e.get("era"):
                 self.assertIn("no Dominarian (AR) year is asserted", e["era_basis"])
-            self.assertNotIn("in_universe_date", e)
         self.assertEqual(self.mg.g["stats"]["claim_edges_with_era"], sum(1 for e in rel if e.get("era")))
-        self.assertEqual(self.mg.g["stats"]["claim_edges_with_in_universe_date"], 0)
+        self.assertEqual(self.mg.g["stats"]["claim_edges_with_in_universe_date"],
+                         sum(1 for e in rel if e.get("in_universe_date")))
+
+    def test_in_universe_dates_are_verbatim_phrases_from_the_claims_own_quotes(self):
+        m = json.loads(B.MANIFEST.read_text(encoding="utf-8"))
+        ev = {}
+        for rel in m["claim_packs"]:
+            for c in B.load(rel).get("claims", []):
+                ev[c["id"]] = {(x.get("source_id"), x.get("quote")) for x in c.get("evidence", [])}
+        dated = [e for e in self.mg.g["edges"] if e.get("in_universe_date")]
+        self.assertGreaterEqual(len(dated), 20)
+        for e in dated:
+            d = e["in_universe_date"]
+            self.assertIn(d["value"], d["quote"])
+            self.assertIn((d["source_id"], d["quote"]), ev[e["claim"]])
+            self.assertIn(d["source_id"], e["sources"])
+            # Never a converted calendar year: the value is the source's own phrase.
+            self.assertNotRegex(d["value"], r"^-?\d+$")
+
+    def test_known_dates_carried(self):
+        dated = {e["claim"]: e["in_universe_date"]["value"] for e in self.mg.g["edges"] if e.get("in_universe_date")}
+        self.assertEqual(dated.get("KT018"), "more than 1,200 years")
+        self.assertEqual(dated.get("TD004"), "Five years ago")
+        self.assertNotIn("A001", dated)
+
+    def test_overlay_date_not_in_quote_rejected(self):
+        import build_in_universe_dates as D
+        self.assertEqual(D.find("Founded some 700 years ago by five dragons"), [("RELATIVE_SPAN", "some 700 years ago")])
+        self.assertEqual(D.find("In 4562 AR the war ended"), [("AR_YEAR", "4562 AR")])
+        self.assertEqual(D.find("She walked to the city."), [])
 
 
 class MutationTests(unittest.TestCase):

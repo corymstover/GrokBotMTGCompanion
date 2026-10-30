@@ -200,6 +200,8 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
     for r in rows:
         c = mg.nodes.get("claim:" + r["claim"], {})
         r = dict(r, summary=c.get("name"), limitation=c.get("limitation") or None, stage=c.get("stage"))
+        if edge_dates().get(r["claim"]):  # Batch 10: verbatim in-universe time phrase from the cited quote
+            r["in_universe_date"] = edge_dates()[r["claim"]]
         grouped.setdefault(r["status"], []).append(r)
         urls += [u for u in r.get("source_urls", []) if u not in urls]
     if not rows:
@@ -316,6 +318,67 @@ def leadership(env: dict) -> dict | None:
     return out
 
 
+# Batch 10 Phase 7: retcon / continuity explainer. Lists every cited account about an entity that the packs
+# mark as disputed, alternate-continuity, open, or limited by a timeline/retcon caveat, side by side with its
+# own sources. It never picks a winner: conflicting accounts are reported, not resolved.
+CONTINUITY_PATTERNS = [
+    re.compile(r"^(?:explain|describe) (?:the )?(?:continuity|canon|retcons?|timeline) (?:of|for|around|about) (?:the )?(.+?)\??$", re.I),
+    re.compile(r"^is (?:the )?(.+?) (?:canon|still canon|a retcon|retconned)\??$", re.I),
+    re.compile(r"^(?:was|were|has|have) (?:the )?(.+?) (?:been )?retconned\??$", re.I),
+    re.compile(r"^(?:what are )?(?:the )?(?:conflicting|contradictory|disputed) (?:accounts|stories|claims|versions) (?:of|about) (?:the )?(.+?)\??$", re.I),
+    re.compile(r"^(?:any )?retcons? (?:of|about|for|involving) (?:the )?(.+?)\??$", re.I),
+]
+CONTINUITY_STATUSES = ("CANON_DISPUTED", "ALTERNATE_CONTINUITY", "OPEN_QUESTION")
+_CONT_LIMIT = re.compile(r"\b(retcon\w*|timeline|rewr(?:ote|itten|iting)|contradict\w*|conflict\w*|alternate|unresolved|"
+                         r"disputed|rumou?r|accus\w*|unreliable|earlier account|later story|in-universe history)\b", re.I)
+_edge_dates = None
+
+
+def edge_dates() -> dict:
+    global _edge_dates
+    if _edge_dates is None:
+        _edge_dates = {e["claim"]: e["in_universe_date"] for e in graph().g["edges"]
+                       if e.get("claim") and e.get("in_universe_date")}
+    return _edge_dates
+
+
+def continuity(term: str) -> dict:
+    env = lore(term)
+    env["route"] = "continuity"
+    if env["confidence"] == "NOT_FOUND":
+        return env
+    accounts, seen = [], set()
+    for status, rows in env["result"]["relations_by_status"].items():
+        for r in rows:
+            lim = r.get("limitation") or ""
+            caveat = _CONT_LIMIT.search(lim)
+            if status not in CONTINUITY_STATUSES and not caveat:
+                continue
+            if r["claim"] in seen:
+                continue
+            seen.add(r["claim"])
+            accounts.append({"claim": r["claim"], "status": status, "relation": r["relation"], "other": r["name"],
+                             "summary": r.get("summary"), "limitation": lim or None, "stage": r.get("stage") or None,
+                             "in_universe_date": edge_dates().get(r["claim"]),
+                             "why_listed": status if status in CONTINUITY_STATUSES else "LIMITATION_MENTIONS:" + caveat.group(1).lower(),
+                             "source_urls": r.get("source_urls", [])})
+    order = {s: i for i, s in enumerate(CONTINUITY_STATUSES)}
+    accounts.sort(key=lambda a: (order.get(a["status"], 9), a["claim"]))
+    others = sum(len(v) for v in env["result"]["relations_by_status"].values()) - len(accounts)
+    env["result"] = {"entity": env["result"]["entity"], "name": env["result"]["name"], "type": env["result"]["type"],
+                     "continuity_accounts": accounts, "other_cited_claims": others,
+                     "note": ("Each account is shown with its own grade, caveat and official sources. Disputed, "
+                              "alternate-continuity and open claims are not resolved here; the cited pages do not settle "
+                              "them, and publication order is not in-universe order.")}
+    env["flags"] = [f for f in env["flags"] if not f.endswith("_PRESENT")]
+    env["flags"] += sorted({a["status"] + "_PRESENT" for a in accounts if a["status"] in CONTINUITY_STATUSES})
+    if accounts:
+        env["confidence"] = "QUALIFIED"
+    else:
+        env["flags"].append("NO_CITED_CONTINUITY_CONFLICT")
+    return env
+
+
 def _is_card(name: str) -> bool:
     return name.lower() in card_index()
 
@@ -343,6 +406,12 @@ def ask(text: str) -> dict:
         if m:
             env = _rules(kind, m)
             env.update(route="ask->rules:" + kind, query=q)
+            return env
+    for rx in CONTINUITY_PATTERNS:
+        m = rx.search(q)
+        if m:
+            env = continuity(m.group(1).strip())
+            env.update(route="ask->continuity", query=q)
             return env
     for rx, rel, direction in PATTERNS:
         m = rx.search(q)

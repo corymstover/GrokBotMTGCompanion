@@ -3582,6 +3582,35 @@
    ]
   },
   {
+   "entity": "krenko",
+   "entity_type": "Character",
+   "entity_name": "Krenko",
+   "aliases": [
+    "Krenko"
+   ],
+   "pack": "pack_p5_untagged_ori_2015_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Krenko, Baron of Tin Street",
+     "oracle_id": "91b2520e-85b6-4e1f-88cf-a585feeb8e65",
+     "type_line": "Legendary Creature — Goblin",
+     "scryfall_uri": "https://scryfall.com/card/mkm/135/krenko-baron-of-tin-street"
+    },
+    {
+     "name": "Krenko, Mob Boss",
+     "oracle_id": "68418069-f615-40ef-ae0d-764192acae00",
+     "type_line": "Legendary Creature — Goblin Warrior",
+     "scryfall_uri": "https://scryfall.com/card/fdn/204/krenko-mob-boss"
+    },
+    {
+     "name": "Krenko, Tin Street Kingpin",
+     "oracle_id": "e8065e1d-e937-4b56-8011-78f0d07328a0",
+     "type_line": "Legendary Creature — Goblin",
+     "scryfall_uri": "https://scryfall.com/card/moc/287/krenko-tin-street-kingpin"
+    }
+   ]
+  },
+  {
    "entity": "kruphix",
    "entity_type": "Character",
    "entity_name": "Kruphix",
@@ -5626,6 +5655,35 @@
      "oracle_id": "5d1b0eee-3a7a-4f22-a40d-7658a368962a",
      "type_line": "Legendary Creature — Human Scout",
      "scryfall_uri": "https://scryfall.com/card/fdn/245/ruby-daring-tracker"
+    }
+   ]
+  },
+  {
+   "entity": "ruric_thar",
+   "entity_type": "Character",
+   "entity_name": "Ruric Thar",
+   "aliases": [
+    "Ruric Thar"
+   ],
+   "pack": "pack_p5_untagged_grn_rna_2026-10-30.json",
+   "cards": [
+    {
+     "name": "Ruric Thar, Biomagus",
+     "oracle_id": "873fa095-5662-407a-bd24-9a1c4712a428",
+     "type_line": "Legendary Creature — Ogre Crab Wizard",
+     "scryfall_uri": "https://scryfall.com/card/fra/219/ruric-thar-biomagus"
+    },
+    {
+     "name": "Ruric Thar, Magecrusher",
+     "oracle_id": "453b2b3c-7df5-4515-9565-82f603cf451b",
+     "type_line": "Legendary Creature — Ogre Warrior",
+     "scryfall_uri": "https://scryfall.com/card/fra/265/ruric-thar-magecrusher"
+    },
+    {
+     "name": "Ruric Thar, the Unbowed",
+     "oracle_id": "6ed13a89-4284-4c01-8099-75e2d68c8c63",
+     "type_line": "Legendary Creature — Ogre Warrior",
+     "scryfall_uri": "https://scryfall.com/card/2x2/271/ruric-thar-the-unbowed"
     }
    ]
   },
@@ -7839,6 +7897,7 @@
   "apatzec_intli",
   "archmage_ghavos",
   "ardenvale",
+  "arkbow",
   "artificial_omenpath",
   "ashaya",
   "auntie_grub",
@@ -7866,12 +7925,14 @@
   "dar",
   "dawn",
   "dawnsire",
+  "derisions_peak",
   "dhiren_baral",
   "dmu_sheoldred_invasion",
   "don_revari",
   "dragonstorm_escape",
   "drana",
   "drannith",
+  "drasus",
   "dykaar",
   "eclipsed_realms",
   "eiganjo",
@@ -7919,6 +7980,7 @@
   "kayla_bin_kroog",
   "kela",
   "kellan_boldt",
+  "keral_keep",
   "kesenya",
   "khal",
   "khalni_heart",
@@ -7942,6 +8004,7 @@
   "locthwain",
   "lorwyn_aspect",
   "lumengrid",
+  "luti",
   "maag_taranau",
   "magic_mirror",
   "maha",
@@ -7952,6 +8015,7 @@
   "mehtma",
   "melantha",
   "meletis",
+  "meroe",
   "merrevia_sal",
   "mitul",
   "mohar_varma",
@@ -7986,12 +8050,14 @@
   "reality_chip",
   "realmbreaker",
   "reen",
+  "reza",
   "riders_lock",
   "rill",
   "rtd_sylex",
   "rudra",
   "saint_traft",
   "savai_settlements",
+  "serenok",
   "setessa",
   "shadowmoor_aspect",
   "shadowspear",
@@ -8007,6 +8073,7 @@
   "sword_of_the_realms",
   "sylex_blast",
   "sylex_replica",
+  "tagan",
   "takeshi_konda",
   "tamiyos_journal",
   "tangle",
@@ -8050,9 +8117,9 @@
   "Urza, Academy Headmaster"
  ],
  "counts": {
-  "entities_anchored": 350,
-  "anchor_edges": 660,
-  "unanchored_entities": 213
+  "entities_anchored": 352,
+  "anchor_edges": 666,
+  "unanchored_entities": 222
  },
- "content_sha256": "f57c3b13a0b402e89b7acd5206b14084b386019b0a247dc1221bcc2a6ab9e562"
+ "content_sha256": "22e5cf241877e8fb288032d1515ba431b6a47f956117039e07c47cf27d5f1532"
 }
