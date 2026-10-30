@@ -1,0 +1,158 @@
+{
+ "schema": "story-claim-pipeline-audit/v1",
+ "pack": "data/lore_research/pack_p5_amonkhet_hour_of_devastation_2026-10-30.json",
+ "pack_status": "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+ "arc": "AKH/HOU",
+ "claims": 17,
+ "entities": 17,
+ "sources": 7,
+ "grades": {
+  "CANON_CONFIRMED": 14,
+  "CANON_IMPLIED": 3
+ },
+ "quotes": 23,
+ "quotes_verbatim": 23,
+ "quote_rows": [
+  {
+   "claim": "AKH001",
+   "source_id": "akh_trust",
+   "quote_sha256": "c873d101ad8e585f7c8abd7cb7646b5174e75ce7e468f75812c4103695513a4b",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH001",
+   "source_id": "akh_trust",
+   "quote_sha256": "9b36e5a399b29abbd80808fca86f5054e4f8eeec86be305dc77434ff9a6bb23d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH002",
+   "source_id": "akh_trust",
+   "quote_sha256": "5fb6d2e8375f8e3633d4f56fae8552f8fa1672186b07e95b1d81ccc9d2c6f102",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH002",
+   "source_id": "hou_favor",
+   "quote_sha256": "0833b947d85fba89298beb29cd1ffd6120e124d4920fc4fa12e3cf6fa473b7c9",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH003",
+   "source_id": "akh_hand",
+   "quote_sha256": "7369ba5e5671a151df6d9ac3f019efaab2ea1e92e010bdc8cb742a6fd5eadaee",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH004",
+   "source_id": "akh_servants",
+   "quote_sha256": "559335e94cf47fed667418dcaf3d6c13442829388c9f2e6b22c0748ec111acb7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH005",
+   "source_id": "hou_feast",
+   "quote_sha256": "004da6290e1b7ba13d1ddd90dcb0d2a30b5517f46a47ca3108bee5f0735eac7c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH006",
+   "source_id": "hou_feast",
+   "quote_sha256": "931a515bad153e8e9d099bfb596307b67eb786dc58b91ea1fd9c41c2b7ac0974",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH007",
+   "source_id": "akh_hand",
+   "quote_sha256": "e329ac627a96e3aa917841d37a89e8ea4464af9c0c37eeabd74eec11df188b1e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH008",
+   "source_id": "hou_eternity",
+   "quote_sha256": "38f08b5b7980d886864607058485d1f3c64e767f32e97d084e6e9e7c32fd1e6c",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH009",
+   "source_id": "hou_favor",
+   "quote_sha256": "c5eb959db7c6d6125c999cc7325c8047bdfac79e8b598b7dfc287a23cdee8528",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH010",
+   "source_id": "hou_favor",
+   "quote_sha256": "c5d7ef3e1fb6549dd0e7c7481a450557a18a2eea57c90025042a4d842017a652",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH011",
+   "source_id": "hou_devastation",
+   "quote_sha256": "e1a40cb262b2efb64ee3fc9b8ce5bbee5ea959f95955f3c71ca49ee687572136",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH011",
+   "source_id": "hou_devastation",
+   "quote_sha256": "5996706e070f46fd5183c6eda6a75a7c0db9bf2470d54fc4dbad6050562cbd6f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH012",
+   "source_id": "hou_devastation",
+   "quote_sha256": "b4687ee70e29a24573d1db23e7d932866645a8af82df51d2de75dbd7098239a7",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH012",
+   "source_id": "hou_devastation",
+   "quote_sha256": "d9ebd0b583eaa689f2a2306831efd8f3caa7b40de4e9aa6467a7ba46a3bd1645",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH013",
+   "source_id": "hou_devastation",
+   "quote_sha256": "1d42753485acecdd24bba8e7803e3015d120ef2fe18cbb2bb26d27df627be82d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH013",
+   "source_id": "hou_devastation",
+   "quote_sha256": "5128eb0dc97abda5bf2e91f28ddf582bc20b380d32fa9028a38de64fa337197d",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH014",
+   "source_id": "hou_devastation",
+   "quote_sha256": "924d02e0c83305ecd1f55142d603f4c041db26e80c112dd1c39c1bf6977e7244",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH015",
+   "source_id": "hou_devastation",
+   "quote_sha256": "9babb0a36cf54de7e317ec747a2d9c06ccdbd0b2cf3ae01d50d829b60d83571f",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH016",
+   "source_id": "hou_devastation",
+   "quote_sha256": "05aacb355b0e4e6a43fd67146b8ecaf8655e7b60ed4573ec0e76db993f941a1e",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH017",
+   "source_id": "hou_devastation",
+   "quote_sha256": "3015275a5ba5c7aa4f5846546899cbf434be1175c9eeeea3dd75377a3322e085",
+   "status": "VERBATIM"
+  },
+  {
+   "claim": "AKH017",
+   "source_id": "hou_devastation",
+   "quote_sha256": "a019392b711cc387046fac31726ac17a037d70fb8c796676df317396cae773e3",
+   "status": "VERBATIM"
+  }
+ ],
+ "problems": [],
+ "note": "Verbatim-quote audit against cached official Wizards story text. Research evidence only: not owner approval, not certification, not an exhaustive reading.",
+ "content_sha256": "e526645f7973d7c9890d71828afc567a55909693be7efa613844ab21a3b63b1e"
+}
