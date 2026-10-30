@@ -61,6 +61,13 @@ def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
 
 
+def normalized_name(text: str) -> str:
+    """Conservative equality only, for unique legacy item crosswalks; never a fuzzy canon link."""
+    s = re.sub(r"[^a-z0-9 ]+", " ", text.lower().replace("’", "'").replace("'", ""))
+    words = s.split()
+    return " ".join(words[1:] if words and words[0] == "the" else words)
+
+
 def load(rel: str) -> dict:
     return json.loads((ROOT / rel).read_text(encoding="utf-8"))
 
@@ -154,9 +161,10 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
             if f"source:{sid}" not in g.nodes:
                 g.problems.append(f"{origin} {c['id']}: unregistered source {sid}")
             g.edge(f"source:{sid}", "cited_by", cid)
-        subj = g.resolve(c["subject"], origin)
+        subjects = [t for t in re.split(r";\s*", str(c["subject"])) if t.strip()]
         objs = [t for t in re.split(r";\s*", str(c["object"])) if t.strip()]
-        g.edge(cid, "asserts", subj, role="subject")
+        for token in subjects:
+            g.edge(cid, "asserts", g.resolve(token, origin), role="subject")
         for tok in objs:
             obj = g.resolve(tok, origin)
             g.edge(cid, "asserts", obj, role="object")
@@ -174,8 +182,9 @@ def ingest_claim_pack(g: Graph, rel: str) -> dict:
                     g.problems.append(f"{origin} {c['id']}: in_universe_date needs value, quote and a cited source_id")
                 else:
                     extra["in_universe_date"] = {k: ar[k] for k in ("value", "quote", "source_id")}
-            g.edge(subj, c["predicate"], obj, claim=c["id"], grade=grade,
-                   sources=sorted(c.get("source_ids", [])), **extra)
+            for token in subjects:
+                g.edge(g.resolve(token, origin), c["predicate"], obj, claim=c["id"], grade=grade,
+                       sources=sorted(c.get("source_ids", [])), **extra)
     # Pack A2 card anchors and Pack A3 card-art contexts become Card nodes keyed by name.
     for a in d.get("card_anchors", []):
         card = g.add_node(f"card:{slug(a['name'])}", "Card", a["name"], origin)
@@ -276,14 +285,34 @@ def bridge_curated(g: Graph, rel: str) -> int:
     for n in lg.get("nodes", []):
         if n.get("kind") in {"character", "plane", "item", "arc", "dossier"}:
             by_name.setdefault(n["name"].lower(), []).append(n["id"])
+    # Only the five strict, type-compatible legacy item names missed by punctuation/"The"
+    # normalization are candidates. Require uniqueness on *both* sides to avoid false merges.
+    item_candidates: dict[str, list[str]] = {}
+    for n in lg.get("nodes", []):
+        if n.get("kind") == "item":
+            item_candidates.setdefault(normalized_name(n["name"]), []).append(n["id"])
+    objects_by_name: dict[str, list[str]] = {}
+    for node in g.nodes.values():
+        if node["type"] == "Object":
+            objects_by_name.setdefault(normalized_name(node["name"]), []).append(node["id"])
     hits = 0
     for node in list(g.nodes.values()):
         if node["type"] in {"Claim", "Source", "Literal", "DeckProposal", "Card"}:
             continue
-        for target in sorted(by_name.get(node["name"].lower(), [])):
+        targets = by_name.get(node["name"].lower(), [])
+        match_kind = "exact_name"
+        if not targets and node["type"] == "Object":
+            normalized = normalized_name(node["name"])
+            if len(item_candidates.get(normalized, [])) == 1 and len(objects_by_name.get(normalized, [])) == 1:
+                targets = item_candidates[normalized]
+                match_kind = "unique_normalized_item_name"
+        for target in sorted(targets):
             tid = "curated:" + target
             g.add_node(tid, "Concept", target, Path(rel).name)
-            g.edge(node["id"], "see_also_curated_entry", tid, tier="contextual_pointer")
+            attrs = {"tier": "contextual_pointer"}
+            if match_kind != "exact_name":
+                attrs["name_match_basis"] = match_kind
+            g.edge(node["id"], "see_also_curated_entry", tid, **attrs)
             hits += 1
     return hits
 

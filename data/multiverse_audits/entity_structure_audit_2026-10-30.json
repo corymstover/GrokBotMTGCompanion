@@ -42,13 +42,6 @@
     "pack": "pack_a_tarkir_card_scenes_2026-10-30.json",
     "role": "subject",
     "token": "sarkhan_vol"
-   },
-   {
-    "claim": "C023",
-    "kind": "COMPOUND_SUBJECT_BECAME_LITERAL",
-    "pack": "pack_c_weatherlight_invasion_new_phyrexia_2026-10-30.json",
-    "role": "subject",
-    "token": "urza;mishra"
    }
   ],
   "declared_local_ids": 833,
@@ -250,8 +243,7 @@
   "Two lore graphs coexist by design: data/lore_graph.json (legacy curated Markdown navigation, page#anchor IDs, contextual_pointer tier) and data/multiverse_graph (claim-graded, cited). The multiverse graph is the relationship layer; the legacy graph is bridged via curated: Concept nodes. No new entity schema is needed.",
   "1 Card node(s) lack an oracle_id: card:anointed_procession_anointed_procession",
   "0 same-name/same-family ID groups and 6 character alias candidates need review; none were merged.",
-  "Legacy crosswalk: {'BRIDGED': 120, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34, 'MATCH_VIA_DECLARED_NAME_VARIANT': 10, 'NORMALISED_MATCH_NOT_BRIDGED': 5}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
-  "Claim subjects that did not resolve to an entity: C023 'urza;mishra' (COMPOUND_SUBJECT_BECAME_LITERAL)",
+  "Legacy crosswalk: {'BRIDGED': 125, 'CANDIDATE_BY_FIRST_WORD': 15, 'LEGACY_ONLY': 34, 'MATCH_VIA_DECLARED_NAME_VARIANT': 10}. CANDIDATE_BY_FIRST_WORD rows are review-only.",
   "22 pack-local IDs carry differing display names across packs; the graph keeps the first-ingested name, so exact-name bridges can miss the others."
  ],
  "graph_integrity": {
@@ -261,7 +253,7 @@
   ],
   "dangling_edges": 0,
   "duplicate_ids": [],
-  "edges": 6826,
+  "edges": 6833,
   "literal_objects": [
    "Karn's planeswalker spark",
    "Knight of Benalia turned vampire",
@@ -276,10 +268,9 @@
    "soul-drinker",
    "ugin_grave_site",
    "unknown",
-   "unknown_planeswalker",
-   "urza;mishra"
+   "unknown_planeswalker"
   ],
-  "nodes": 4227,
+  "nodes": 4231,
   "orphan_nodes": [
    "artifact:great_henge",
    "character:eric_kenrith",
@@ -308,17 +299,17 @@
     "CardTheme": 1,
     "Character": 482,
     "Claim": 1139,
-    "Concept": 145,
+    "Concept": 150,
     "DeckProposal": 3,
     "Event": 22,
     "Faction": 125,
-    "Literal": 15,
+    "Literal": 14,
     "Object": 50,
     "Place": 95,
     "Plane": 33,
     "Source": 600
    },
-   "count": 4227,
+   "count": 4231,
    "exists": true,
    "generator": "scripts/build_multiverse_graph.py",
    "id_scheme": "<type-prefix>:<pack-local-id or slug>",
@@ -466,11 +457,10 @@
  ],
  "legacy_crosswalk": {
   "by_status": {
-   "BRIDGED": 120,
+   "BRIDGED": 125,
    "CANDIDATE_BY_FIRST_WORD": 15,
    "LEGACY_ONLY": 34,
-   "MATCH_VIA_DECLARED_NAME_VARIANT": 10,
-   "NORMALISED_MATCH_NOT_BRIDGED": 5
+   "MATCH_VIA_DECLARED_NAME_VARIANT": 10
   },
   "rows": [
    {
@@ -1410,7 +1400,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [],
     "first_word_candidates": [],
     "graph_matches": [
@@ -1419,7 +1409,7 @@
     "kind": "item",
     "legacy_id": "Items & Artifacts Index.md#blackblade",
     "name": "Blackblade",
-    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": false,
@@ -1434,7 +1424,7 @@
     "status": "CANDIDATE_BY_FIRST_WORD"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [],
     "first_word_candidates": [],
     "graph_matches": [
@@ -1443,7 +1433,7 @@
     "kind": "item",
     "legacy_id": "Items & Artifacts Index.md#chain-veil",
     "name": "Chain Veil",
-    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": false,
@@ -1456,7 +1446,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [],
     "first_word_candidates": [],
     "graph_matches": [
@@ -1465,7 +1455,7 @@
     "kind": "item",
     "legacy_id": "Items & Artifacts Index.md#endstone",
     "name": "Endstone",
-    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": false,
@@ -1514,7 +1504,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [],
     "first_word_candidates": [],
     "graph_matches": [
@@ -1523,7 +1513,7 @@
     "kind": "item",
     "legacy_id": "Items & Artifacts Index.md#helvault",
     "name": "Helvault",
-    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": true,
@@ -1644,7 +1634,7 @@
     "status": "LEGACY_ONLY"
    },
    {
-    "bridged_in_graph": false,
+    "bridged_in_graph": true,
     "declared_name_variant_matches": [],
     "first_word_candidates": [],
     "graph_matches": [
@@ -1653,7 +1643,7 @@
     "kind": "item",
     "legacy_id": "Items & Artifacts Index.md#temporal-anchor",
     "name": "Temporal Anchor",
-    "status": "NORMALISED_MATCH_NOT_BRIDGED"
+    "status": "BRIDGED"
    },
    {
     "bridged_in_graph": false,

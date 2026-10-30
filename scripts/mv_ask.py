@@ -40,6 +40,11 @@ CARD_INDEX = ROOT / "data" / "card_index.csv"
 CURRENT_SNAPSHOT_DATE = "2026-10-29"  # active verified Scryfall release (snap-20261029)
 QUALIFYING = {"CANON_DISPUTED", "OPEN_QUESTION", "ALTERNATE_CONTINUITY", "CANON_IMPLIED", "HYPOTHETICAL"}
 STRUCTURAL = {"cited_by", "asserts", "see_also_curated_entry", "proposed_in"}
+# A confirmed event in an erased timeline is not necessarily true in the surviving timeline.
+_TEMPORAL_CAVEAT = re.compile(
+    r"\b(?:original|previous|rewritten|alternate) timeline\b|"
+    r"\b(?:prevented|undone|reversed|rewrote|resurrected|revived)\b", re.I)
+_CURRENT_CUE = re.compile(r"\b(?:current|currently|present|now|today|these days)\b", re.I)
 
 _index = None
 
@@ -211,9 +216,14 @@ def lore(term: str, relation: str | None = None, direction: str | None = None) -
         env["flags"].append("NO_CITED_LORE")
     bad = sorted(set(grouped) & QUALIFYING)
     env["flags"] += [s + "_PRESENT" for s in bad]
+    if any(_TEMPORAL_CAVEAT.search((r.get("summary") or "") + " " + (r.get("limitation") or ""))
+           for rs in grouped.values() for r in rs):
+        env["flags"].append("TIMELINE_CONTEXT_REQUIRED")
     env.update(confidence="NOT_FOUND" if not rows else ("QUALIFIED" if bad else "VERIFIED"),
                sources=urls, result={"entity": nid, "name": mg.nodes[nid]["name"],
                                      "type": mg.nodes[nid]["type"], "relations_by_status": grouped})
+    if rows and "TIMELINE_CONTEXT_REQUIRED" in env["flags"]:
+        env["confidence"] = "QUALIFIED"
     return env
 
 
@@ -294,7 +304,8 @@ _dates = None
 def source_dates() -> dict:
     global _dates
     if _dates is None:
-        _dates = {r["url"].rstrip("/"): r["date"] for r in csv.DictReader((ROOT / "data/primary_sources.csv").open(encoding="utf-8"))}
+        with (ROOT / "data/primary_sources.csv").open(encoding="utf-8") as fh:
+            _dates = {r["url"].rstrip("/"): r["date"] for r in csv.DictReader(fh)}
     return _dates
 
 
@@ -316,10 +327,20 @@ def leadership(env: dict) -> dict | None:
     tl.sort(key=lambda x: (x["source_date"] or "", x["claim"]))
     live = [x for x in tl if not x["described_as_former"] and not x["described_as_past_era"]] or tl
     latest = live[-1]
+    death_evidence = []
+    for r in graph().neighbors(latest["node"]):
+        if (r.get("claim") and r.get("status") == "CANON_CONFIRMED"
+                and r.get("relation") in {"inverse_of:killed", "inverse_of:slain", "inverse_of:destroyed"}):
+            death_evidence.append({"claim": r["claim"], "sources": r.get("source_urls", []),
+                                   "claim_status": r["status"]})
     out = {"most_recent_cited": latest, "timeline": tl,
            "note": ("Ordered by the publication date of the citing official page. The most recent cited leader is the "
                     "latest one these packs cite, not proof of the leader in present-day canon; claims whose summary "
                     "calls the leader former are kept as era context.")}
+    if death_evidence:
+        out["latest_leader_death_evidence"] = death_evidence
+        out["note"] += (" The graph also records this person's death; they must not be presented as "
+                        "a verified current leader without later, independent evidence.")
     if any(x["described_as_past_era"] or x["era_label"] for x in tl):
         out["era_note"] = ("Some cited claims are labelled with an in-universe era or timeline. Publication order is not "
                            "in-universe order: claims set in a past era or an original/rewritten timeline are kept as era "
@@ -440,6 +461,14 @@ def ask(text: str) -> dict:
                     env["flags"].append("MULTIPLE_LEADERS_ACROSS_ERAS")
                 if "era_note" in lead:
                     env["flags"].append("ERA_OR_TIMELINE_CONTEXT")
+                if "latest_leader_death_evidence" in lead:
+                    env["flags"].append("LATEST_CITED_LEADER_DEATH_RECORDED")
+                    env["confidence"] = "QUALIFIED"
+                if _CURRENT_CUE.search(q):
+                    env["flags"].append("CURRENT_LEADER_NOT_ESTABLISHED")
+                    env["confidence"] = "QUALIFIED"
+                    # The latest *cited* leader is never a proof of who holds office today.
+                    lead["verified_current_leader"] = None
             return env
     term = re.sub(r"^(?:who|what|where)\s+(?:is|was|are|were)\s+|^tell me about\s+", "", q, flags=re.I).rstrip("?").strip()
     term = re.sub(r"^the\s+", "", term, flags=re.I) if not _is_card(term) else term

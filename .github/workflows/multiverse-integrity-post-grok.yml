@@ -1,0 +1,60 @@
+name: Multiverse temporal, graph and progress integrity
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/mv_ask.py'
+      - 'scripts/build_multiverse_graph.py'
+      - 'scripts/audit_entity_structures.py'
+      - 'scripts/audit_phase1b_snapshot_gates.py'
+      - 'scripts/update_multiverse_progress_tracker.py'
+      - 'data/multiverse_graph/**'
+      - 'data/multiverse_audits/**'
+      - 'tests/test_mv_ask*.py'
+      - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_multiverse_progress_tracker.py'
+      - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
+      - 'Progress Tracker.md'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - '.github/workflows/multiverse-integrity-post-grok.yml'
+  push:
+    paths:
+      - 'scripts/mv_ask.py'
+      - 'scripts/build_multiverse_graph.py'
+      - 'scripts/audit_entity_structures.py'
+      - 'scripts/audit_phase1b_snapshot_gates.py'
+      - 'scripts/update_multiverse_progress_tracker.py'
+      - 'data/multiverse_graph/**'
+      - 'data/multiverse_audits/**'
+      - 'tests/test_mv_ask*.py'
+      - 'tests/test_graph_integrity_post_grok.py'
+      - 'tests/test_multiverse_progress_tracker.py'
+      - 'tests/test_phase1b_snapshot_cache_diagnostics.py'
+      - 'Progress Tracker.md'
+      - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
+      - '.github/workflows/multiverse-integrity-post-grok.yml'
+  workflow_dispatch:
+
+jobs:
+  source-safe-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild and audit cited relationship graph
+        run: |
+          python3 scripts/build_multiverse_graph.py --check
+          python3 scripts/audit_entity_structures.py --check
+      - name: Confidence and graph regression tests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_mv_ask*.py' -q
+          python3 -m unittest discover -s tests -p 'test_graph_integrity_post_grok.py' -q
+          python3 -m unittest discover -s tests -p 'test_phase1b_snapshot_cache_diagnostics.py' -q
+      - name: Current progress checkpoint, read-only release dry run and representative queries
+        run: |
+          python3 scripts/update_multiverse_progress_tracker.py --check
+          python3 -m unittest discover -s tests -p 'test_multiverse_progress_tracker.py' -q
+          python3 scripts/certification_dry_run.py --check
+          python3 scripts/batch_recount.py

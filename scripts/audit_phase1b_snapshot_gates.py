@@ -51,12 +51,29 @@ def jload(p: Path):
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def pinned_bulk(product: dict) -> Path:
+    """Select the exact approved bulk; never silently fall back to a newer cache file."""
+    manifest = jload(ROOT / "data/scryfall_snapshots/snap-20261029-40848334824-1.manifest.json")
+    recorded = manifest["files"]["default-cards"]
+    if recorded["sha256"] != product["oracle_printing_source_sha256"]:
+        raise SystemExit("MTG_SNAPSHOT_MANIFEST_CONFLICT: product catalog and pinned manifest hashes differ")
+    path = CACHE / recorded["filename"]
+    if not path.is_file():
+        raise SystemExit(
+            f"MTG_PINNED_BULK_MISSING: {path} is required for this full snapshot audit. "
+            f"Restore the exact file from {recorded['source_url']} (when available), "
+            f"verify SHA-256 {recorded['sha256']}, or retain the saved qualified report; "
+            "a later bulk cannot impersonate this locked snapshot."
+        )
+    return path
+
+
 def build() -> dict:
     catalog = jload(ATLAS / "catalog_2026-10-29.json")["sets"]
     product = jload(ATLAS / "product_catalog_2026-10-29.json")
     psets = product["sets"]
-    bulk = sorted(glob.glob(str(CACHE / "default-cards-*.jsonl.gz")))[0]
-    bulk_sha = sha_file(Path(bulk))
+    bulk = pinned_bulk(product)
+    bulk_sha = sha_file(bulk)
     if bulk_sha != product["oracle_printing_source_sha256"]:
         raise SystemExit(f"pinned bulk {Path(bulk).name} sha256 {bulk_sha} != product catalog source hash")
 
