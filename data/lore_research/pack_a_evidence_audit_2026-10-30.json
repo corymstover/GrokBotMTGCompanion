@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-30",
+  "claims_checked": 12,
+  "deliberately_unverified_card_depictions": true,
+  "entities_checked": 13,
+  "first_party_source_urls_checked": 10,
+  "grades": {
+    "ALTERNATE_CONTINUITY": 1,
+    "CANON_CONFIRMED": 8,
+    "CANON_DISPUTED": 2,
+    "CANON_IMPLIED": 0,
+    "OPEN_QUESTION": 1
+  },
+  "limitations": [
+    "Structural audit checks sources and conservative claim grades; source interpretation is human-reviewed, not machine-proven.",
+    "The elder-war survivor list and spark awakening details are narrator claims; future history may clarify or retcon them.",
+    "No card artwork/Oracle-level portrayal is automatically certified by this pack.",
+    "Echoverse differs from prime continuity; a missing Echoverse Bolas cannot imply prime-universe erasure."
+  ],
+  "pack_id": "PACK_A_UGIN_BOLAS_ELDER_DRAGONS",
+  "result": "STRUCTURAL_PRIMARY_SOURCE_BOUNDARY_PASS",
+  "schema": 1,
+  "source_register_externally_reviewed_official_pages": [
+    "war_games"
+  ],
+  "source_register_in_recovered_story_index": [
+    "chronicle_blood_fire",
+    "chronicle_perspectives",
+    "chronicle_twins",
+    "chronicle_unwritten",
+    "fate_reforged_guide",
+    "lorwyn2",
+    "reality_guide",
+    "tarkir_plane",
+    "tdm7"
+  ]
+}
