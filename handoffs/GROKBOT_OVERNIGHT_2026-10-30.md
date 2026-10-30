@@ -403,3 +403,34 @@ Untagged pages in bulk (210 uncited); IKO's 2 non-narrative pages need a reviewe
 
 ### Status (keep distinct)
 - Research: PRELIMINARY_RESEARCH. Tests: green locally and in CI on each exact head. Merged: #880–#886. Owner approved / certified: nothing.
+
+## Batch 10 — 2026-10-30, 08:41–09:25 CDT
+
+### PRs (batch 10)
+| PR | Phase | What | Merge commit (CDT) | CI on the exact head |
+|---|---|---|---|---|
+| [#888](https://github.com/corymstover/GrokBotMTGCompanion/pull/888) | 1/8 | Recorded per-batch recount report for the Batch 9 close (`data/release/batch_recount_2026-10-30_b9.json`, 13/13) | `55bf491a` 08:44 CDT | pass |
+| [#889](https://github.com/corymstover/GrokBotMTGCompanion/pull/889) | 5 | `pack_p5_untagged_znr` (ZNR 2020 episodes, 16 claims) | `3f86d885` 08:51 CDT | pass |
+| [#890](https://github.com/corymstover/GrokBotMTGCompanion/pull/890) | 5 | `pack_p5_untagged_nph_guides` (11), `pack_p5_untagged_isd_guides` (7), `pack_p5_untagged_conspiracy_2016` (11) + 4 reviewed-no-claim entries | `1c0c4ccd` 08:57 CDT | 8/8 pass |
+| [#891](https://github.com/corymstover/GrokBotMTGCompanion/pull/891) | 3/5/7 | `pack_p5_untagged_ori_2015` (12), `pack_p5_untagged_grn_rna` (5); in-universe date overlay (`scripts/build_in_universe_dates.py`, `data/lore_research/in_universe_dates_2026-10-30.json`); `mv_ask` continuity explainer (`ask->continuity`, `tests/test_mv_ask_continuity.py`); 2 continuity questions in `batch_recount.py` | `ec097205` 09:05 CDT | 8/8 pass on `eb547c26` |
+| [#892](https://github.com/corymstover/GrokBotMTGCompanion/pull/892) | 5 | `pack_p5_untagged_misc_b10` (8 claims, 6 pages 2015–2019: Alhammarret, Meren/Kael, Lazav, Vraska, Zegana, Rakdos, "Six thousand years ago") | `73bded49` 09:09 CDT | 8/8 pass |
+| [#893](https://github.com/corymstover/GrokBotMTGCompanion/pull/893) | 5/7 | `pack_p5_untagged_guides_2012` (13 claims: RTR 1–3, GTC 1–2, AVR 1 guides) + `pack_p5_untagged_maelstrom_2007` (5 claims: Starke, Volrath, Sisay); faction short names drop Conclave/Combine and a leading House | `9ba608b0` 09:18 CDT | 8/8 pass |
+| this PR | 1/8 | `data/release/batch_recount_2026-10-30_b10.json` (15/15), workflow v2.38, readiness stats refresh (no status change), this handoff | — | — |
+
+### Coverage (main after #893)
+- 516 of 626 pages cited; 40 reviewed with no claim; 1,027 claims (C817 / I197 / D8 / O3 / A2). Untagged: 119 cited + 38 reviewed of 227, 70 still unread (regenerable from the inventory's `unreviewed_urls`). 31 arcs fully cited, 32 cited or reviewed.
+- 29 claim edges carry an in-universe time phrase (`claim_edges_with_in_universe_date`, was 0).
+
+### Discoveries
+- In-universe dates are only the verbatim phrase from the claim's own cited quote ("more than 1,200 years", "Five years ago", "millennia ago"), relative to that story's present, never converted to a year. The builder rejects any overlay value not found in a quote the claim cites. Caveat: a phrase can scope its whole sentence rather than the relation exactly (e.g. MOM018 "hundreds of years").
+- The continuity route lists DISPUTED / ALTERNATE / OPEN claims and claims whose limitation names a retcon or conflicting account; it never picks a winner.
+- Adding a `led` edge (Feather, Szadek) hijacked "Who leads the Boros?" because the router only falls back to `leader_of` when `led` is empty (same pattern as the Batch 9 sibling bug). Former leaders now use `leader_of` with "former"/"previous" in the summary, which the era logic already treats as context. Tests caught it.
+- 2012–2013 guides add earlier present-tense rows (Jarad, Isperia, Niv-Mizzet, Zegana); answers still name the latest cited leader (Vraska, Lavinia, Ral Zarek, Zegana) and keep the guides as earlier-era timeline rows.
+
+### Next steps
+- 70 untagged pages unread: M13 2012 stories (Krenko, Odric, Talrand, Xathrid, Chronomaton, Threadbare, Blessed Life, Stonekiller), 2014 stories (Gorgon and Guildpact, Shadows of Prahv), Zendikar 2009 guides, AVR guide part 2, Known Multiverse 2008, and assorted 2015–2022 stories. Several were read but not graded (magosi-steps, hunger, ep2-race-murasa, unbowed-1, testing-dark-waters, clans-legions, bound-and-bonded, ledger-hidden-fortunes, its-time-talk-commander-2016).
+- Router: make `led` and `leader_of` queries union (like siblings) instead of fallback-only.
+- Dates: more edges via card-era context only where a cited quote supports it.
+
+### Status (keep distinct)
+- Research: PRELIMINARY_RESEARCH. Tests: 456 + 18 green locally; recount 15/15; CI green on each merged exact head. Merged: #888–#893. Owner approved / certified: nothing. Protected-path diff vs `dfc8891d`: empty.
