@@ -8,6 +8,10 @@ on:
       - 'data/lore_research/pack_a_evidence_audit_2026-10-30.json'
       - 'scripts/audit_lore_pack_a.py'
       - 'tests/test_lore_pack_a.py'
+      - 'data/lore_research/pack_a_open_question_review_2026-10-30.json'
+      - 'scripts/audit_pack_a_open_questions.py'
+      - 'tests/test_pack_a_open_questions.py'
+      - 'research/PACK_A_OPEN_QUESTIONS_REVIEW.md'
       - '.github/workflows/phase4-pack-a-lore-evidence.yml'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
   push:
@@ -17,6 +21,10 @@ on:
       - 'data/lore_research/pack_a_evidence_audit_2026-10-30.json'
       - 'scripts/audit_lore_pack_a.py'
       - 'tests/test_lore_pack_a.py'
+      - 'data/lore_research/pack_a_open_question_review_2026-10-30.json'
+      - 'scripts/audit_pack_a_open_questions.py'
+      - 'tests/test_pack_a_open_questions.py'
+      - 'research/PACK_A_OPEN_QUESTIONS_REVIEW.md'
       - '.github/workflows/phase4-pack-a-lore-evidence.yml'
       - 'MTG_MULTIVERSE_MASTER_WORKFLOW.md'
   workflow_dispatch:
@@ -33,5 +41,7 @@ jobs:
         run: python3 scripts/audit_lore_pack_a.py
       - name: Test the Pack A conservative evidence contract
         run: python3 -m unittest discover -s tests -p 'test_lore_pack_a.py' -v
+      - name: Audit the Pack A open-question review (grades retained, Wizards-only evidence)
+        run: python3 scripts/audit_pack_a_open_questions.py && python3 -m unittest tests/test_pack_a_open_questions.py -v
       - name: Preserve the Phase 1B completed set lookup acceptance
         run: python3 scripts/audit_phase1b_functional_release.py
