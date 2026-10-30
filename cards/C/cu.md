@@ -553,6 +553,8 @@ schema: 2
 - **Keywords:** Sec, Caan, Jast, Thay
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11556 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (3): [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · [The Valeyard (Grixis)](../../grixis/decks/the-valeyard.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 889 decks; highest synergy [The Dalek Emperor](../../cards/T/thed.md#the-dalek-emperor) (+78%), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (+73%), [Exterminate!](../../cards/E/ex.md#exterminate) (+72%) · EDHREC: in 8,953 decks; most often under [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (78.8% of its decks), [The Valeyard](../../cards/T/thev.md#the-valeyard) (53.5% of its decks), [Missy](../../cards/M/mis.md#missy) (34.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#cult-of-skaro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/117/cult-of-skaro) · oracle_id `1cf40a30-5b42-4dce-ae4f-699bc879e180` · printing: WHO #117 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3913111c-6a77-4536-bbb4-0ac5bf18fe53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

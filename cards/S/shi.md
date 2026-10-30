@@ -846,6 +846,8 @@ schema: 2
   - *2025-04-04* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2025-04-04* — If you don’t want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
   - *2025-04-04* — You cast the copy while Shiko’s last ability is resolving and still on the stack. You can’t wait to cast it later in the turn.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Tarkir: Dragonstorms](https://magic.wizards.com/en/news/feature/the-legends-of-tarkir-dragonstorm) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Shiko, Paragon of the Way + Pull from Eternity + Another Round + Thousand-Year Storm](https://commanderspellbook.com/combo/1750-3584-5530-6346/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 3,883 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+73%), [Essence Flux](../../cards/E/es.md#essence-flux) (+63%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+60%) · EDHREC: in 6,487 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (2.8% of its decks), [Shiko and Narset, Unified](../../cards/S/shi.md#shiko-and-narset-unified) (12.5% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/223/shiko-paragon-of-the-way) · oracle_id `d3bdd3f2-9e38-436a-93a3-f87d9f4d4f86` · printing: TDM #223 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shilgengar, Sire of Famine
@@ -884,6 +886,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26612 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — You sacrifice the permanents before Shimatsu enters, so you can't sacrifice any creatures that enter at the same time it does.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 130 decks; highest synergy [Fling](../../cards/F/fl.md#fling) (+55%), [Soul's Fire](../../cards/S/so.md#souls-fire) (+54%), [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+50%) · EDHREC: in 450 decks; most often under [Skyfire Kirin](../../cards/S/sk.md#skyfire-kirin) (46.9% of its decks), [Piru, the Volatile](../../cards/P/pi.md#piru-the-volatile) (1.0% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/186/shimatsu-the-bloodcloaked) · oracle_id `af24dc1c-6726-4788-8be8-609ee19ad2c8` · printing: CHK #186 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimian Night Stalker
@@ -1612,6 +1616,8 @@ schema: 2
   > Whenever Shisato deals combat damage to a player, that player skips their next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21325 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 158 decks; highest synergy [Sosuke's Summons](../../cards/S/so.md#sosukes-summons) (+91%), [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (+80%), [Sakura-Tribe Scout](../../cards/S/sak.md#sakura-tribe-scout) (+76%) · EDHREC: in 1,602 decks; most often under [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (49.4% of its decks), [Kaseto, Orochi Archmage](../../cards/K/ka.md#kaseto-orochi-archmage) (36.5% of its decks), [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/242/shisato-whispering-hunter) · oracle_id `8658cd14-6826-4308-b6ce-fcfd8f2e17ed` · printing: CHK #242 (2004-10-01) · [rulings](https://api.scryfall.com/cards/5cc79c9c-f776-4c55-a7d1-9fac33f14630/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Branch-Burner
@@ -1949,4 +1955,6 @@ schema: 2
   > At the beginning of each player's upkeep, that player adds {G}{G}{G}. Until end of turn, they don't lose this mana as steps and phases end.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13970 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 323 decks; highest synergy [Eladamri's Vineyard](../../cards/E/el.md#eladamris-vineyard) (+75%), [Magus of the Vineyard](../../cards/M/mag.md#magus-of-the-vineyard) (+73%), [Rites of Flourishing](../../cards/R/ri.md#rites-of-flourishing) (+67%) · EDHREC: in 6,230 decks; most often under [Yurlok of Scorch Thrash](../../cards/Y/yu.md#yurlok-of-scorch-thrash) (16.2% of its decks), [Gluntch, the Bestower](../../cards/G/gl.md#gluntch-the-bestower) (5.8% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/144/shizuko-caller-of-autumn) · oracle_id `c4984e18-9caf-4dd0-9c24-e60ccb27e2a0` · printing: BOK #144 (2005-02-04) · [rulings](https://api.scryfall.com/cards/dab9407d-9389-4ec9-963c-80de095a6812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

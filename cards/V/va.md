@@ -261,6 +261,8 @@ schema: 2
   - *2021-09-24* — If a triggered ability triggers whenever day becomes night or night becomes day, it only triggers if it was already either day/night and becomes the other. It does not trigger when the game becomes day or night for the first time.
   - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
   - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 47 combos; most popular [Vadrik, Astral Archmage + Storm-Kiln Artist + Searing Touch](https://commanderspellbook.com/combo/2020-2100-5195/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 3,637 decks; highest synergy [Tezzeret's Gambit](../../cards/T/te.md#tezzerets-gambit) (+58%), [Past in Flames](../../cards/P/pa.md#past-in-flames) (+56%), [Haze of Rage](../../cards/H/ha.md#haze-of-rage) (+52%) · EDHREC: in 5,703 decks; most often under [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (0.8% of its decks), [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (4.6% of its decks), [Mizzix of the Izmagnus](../../cards/M/miz.md#mizzix-of-the-izmagnus) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vadrik-astral-archmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/248/vadrik-astral-archmage) · oracle_id `a9ab17ce-ba07-4ce8-99f9-9c4c633957f7` · printing: MID #248 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -298,6 +300,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24110 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 405 decks; highest synergy [Llanowar Elves](../../cards/L/ll.md#llanowar-elves) (+34%), [Rampant Growth](../../cards/R/ram.md#rampant-growth) (+29%), [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (+26%) · EDHREC: in 596 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/185/vaevictis-asmadi) · oracle_id `4d2cc2a8-e08a-420a-8922-c63e39129e23` · printing: ME3 #185 (2009-09-07) · [rulings](https://api.scryfall.com/cards/df01b548-9738-4c84-beb6-9a375f41d496/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vaevictis Asmadi, the Dire
@@ -487,6 +491,8 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22062 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+87%), [Citizen V, Helmut Zemo](../../cards/C/ci.md#citizen-v-helmut-zemo) (+87%), [Crossbones, Malicious Mercenary](../../cards/C/cr.md#crossbones-malicious-mercenary) (+87%) · EDHREC: in 1,580 decks; most often under [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (19.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (2.1% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/671/valentina-allegra-de-fontaine) · oracle_id `58ce3c79-8903-41be-8494-56d7953074ad` · printing: MSC #671 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c799fd31-1836-4d46-9778-c358e0c8b9d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valentin, Dean of the Vein // Lisette, Dean of the Root
@@ -526,6 +532,8 @@ schema: 2
   > *"Daddy went and built a very bad machine and forgot to tell anyone. Guess who just found it?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10971 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 81 combos; most popular [Sensei's Divining Top + One with the Multiverse + Valeria Richards, Precocious](https://commanderspellbook.com/combo/1456-5078-7753/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 91 decks; highest synergy [Bender's Waterskin](../../cards/B/be.md#benders-waterskin) (+37%), [Snap](../../cards/S/sn.md#snap) (+37%), [Unwind](../../cards/U/un.md#unwind) (+34%) · EDHREC: in 11,603 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (77.7% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (4.3% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (46.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/38/valeria-richards-precocious) · oracle_id `89931cf0-f20b-49b5-88c6-2a92aee8c50c` · printing: MSC #38 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5e0c357b-c5e8-4082-b1ec-85d40d10524c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valeron Outlander
@@ -813,6 +821,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24832 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 771 decks; highest synergy [Forest](../../cards/F/fo.md#forest) (+95%), [Plains](../../cards/P/pl.md#plains) (+95%), [Island](../../cards/I/is.md#island) (+90%) · EDHREC: in 168 decks; most often under [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (3.0% of its decks), [Glissa, Herald of Predation](../../cards/G/gl.md#glissa-herald-of-predation) (6.0% of its decks), [Ixhel, Scion of Atraxa](../../cards/I/ix.md#ixhel-scion-of-atraxa) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/60/valko-indorian) · oracle_id `8023d419-8fd2-4b92-b6ea-f25fd67e6410` · printing: MBC #60 (2026-10-19) · [rulings](https://api.scryfall.com/cards/a0b51fb8-6e5a-479d-aa3a-17cf603dd05c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valko Indorian, Researcher
@@ -827,6 +837,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ01c/valko-indorian-researcher) · oracle_id `d1dbf5f2-4925-45df-a822-fdb1afd841d3` · printing: UNK #RZ01c (2023-07-29) · [rulings](https://api.scryfall.com/cards/48193f1d-111e-49f6-90a3-4d125338577b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valkyrie Aerial Unit
@@ -2528,6 +2540,8 @@ schema: 2
   - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 669 decks; highest synergy [Ellywick Tumblestrum](../../cards/E/el.md#ellywick-tumblestrum) (+88%), [Wandering Troubadour](../../cards/W/wan.md#wandering-troubadour) (+82%), [Undermountain Adventurer](../../cards/U/un.md#undermountain-adventurer) (+78%) · EDHREC: in 4,657 decks; most often under [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (22.1% of its decks), [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (1.6% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/209/varis-silverymoon-ranger) · oracle_id `bd751b25-9ea7-4ce4-b532-48be281c6da9` · printing: AFR #209 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Varolz, the Scar-Striped
@@ -2547,6 +2561,8 @@ schema: 2
   - *2013-04-15* — If the creature card you scavenge has {X} in its mana cost, X is 0.
   - *2013-04-15* — The number of counters that a card's scavenge ability puts on a creature is based on the card's power as it last existed in the graveyard.
   - *2013-04-15* — While Varolz, the Scar-Striped is on the battlefield, the scavenge cost of a creature card in your graveyard is equal to its mana cost, including any colored mana requirements.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Varolz, the Scar-Striped + Protean Hulk + Disciple of the Vault + Wingrattle Scarecrow + Melira, Sylvok Outcast](https://commanderspellbook.com/combo/522-2111-2890-3653-4204/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 2,199 decks; highest synergy [Death's Shadow](../../cards/D/dea.md#deaths-shadow) (+81%), [Force of Savagery](../../cards/F/fo.md#force-of-savagery) (+64%), [Daemogoth Titan](../../cards/D/da.md#daemogoth-titan) (+63%) · EDHREC: in 5,762 decks; most often under [Skullbriar, the Walking Grave](../../cards/S/sk.md#skullbriar-the-walking-grave) (8.7% of its decks), [The Gitrog, Ravenous Ride](../../cards/T/theg.md#the-gitrog-ravenous-ride) (6.1% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/112/varolz-the-scar-striped) · oracle_id `b6b83b88-0660-4227-895e-78ac43d01b66` · printing: DGM #112 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Varragoth, Bloodsky Sire
@@ -3156,6 +3172,8 @@ schema: 2
   - *2019-11-12* — If Vazal has a crew or equip ability, activating it won’t cause anything to happen.
   - *2019-11-12* — If an activated ability references the card it’s printed on by name, treat Vazal’s instance of that ability as though it referenced Vazal by name instead.
   - *2019-11-12* — If you’re fortunate enough to have two copies of Vazal in a Limited event, you can still put only one into your deck. The other remains in your sideboard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vazal-the-compleat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/85/vazal-the-compleat) · oracle_id `6d69c0be-0fe0-4503-80b9-0365cb6aed41` · printing: CMB2 #85 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3171,4 +3189,6 @@ schema: 2
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14923 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Vazi, Keen Negotiator + Crafty Cutpurse + Freed from the Real](https://commanderspellbook.com/combo/3107-4222-4735/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 4,562 decks; highest synergy [Jolene, the Plunder Queen](../../cards/J/jo.md#jolene-the-plunder-queen) (+83%), [Viridian Revel](../../cards/V/vi.md#viridian-revel) (+77%), [Pain Distributor](../../cards/P/pa.md#pain-distributor) (+74%) · EDHREC: in 1,014 decks; most often under [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (4.6% of its decks), [Ziatora, the Incinerator](../../cards/Z/zi.md#ziatora-the-incinerator) (1.4% of its decks), [Korvold, Fae-Cursed King](../../cards/K/ko.md#korvold-fae-cursed-king) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/92/vazi-keen-negotiator) · oracle_id `7446c013-63b0-402b-b8b9-dd25ccc553df` · printing: NCC #92 (2022-04-29) · [rulings](https://api.scryfall.com/cards/551a6ff5-0f6e-4925-98c7-4d426358e959/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

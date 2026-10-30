@@ -63,6 +63,8 @@ schema: 2
   > Whenever you gain life, put two +1/+1 counters on Christine Chapel.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31090 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Shalai and Hallar + Christine Chapel, Combat Medic](https://commanderspellbook.com/combo/4490-8036--210/) (Infinite +1/+1 counters on a creature, Infinite damage) · EDHREC as commander: 7 decks; highest synergy [Jaddi Offshoot](../../cards/J/ja.md#jaddi-offshoot) (+85%), [Kazandu Nectarpot](../../cards/K/ka.md#kazandu-nectarpot) (+85%), [Sapseep Forest](../../cards/S/sap.md#sapseep-forest) (+85%) · EDHREC: in 203 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (12.2% of its decks), [Kwia Vigorbloom](../../cards/K/kw.md#kwia-vigorbloom) (0.1% of its decks), [Bilbo, Birthday Celebrant](../../cards/B/bi.md#bilbo-birthday-celebrant) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/78/christine-chapel-combat-medic) · oracle_id `330e8a18-d224-4416-b59d-02b749c3a674` · printing: TRC #78 (2026-11-13) · [rulings](https://api.scryfall.com/cards/f2efcab5-3aad-4edd-87d1-289978e8855e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromanticore
@@ -339,6 +341,8 @@ schema: 2
 - **Keywords:** Flying, Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24411 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 364 decks; highest synergy [Disenchant](../../cards/D/di.md#disenchant) (+30%), [Wrath of God](../../cards/W/wr.md#wrath-of-god) (+29%), [Clone](../../cards/C/cl.md#clone) (+28%) · EDHREC: in 563 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/147/chromium) · oracle_id `7c91ae5d-0320-46a7-98d2-df0918202478` · printing: ME3 #147 (2009-09-07) · [rulings](https://api.scryfall.com/cards/15ec5a20-4e8f-40b2-9abf-c0bf1cf816c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromium, the Mutable
@@ -359,6 +363,8 @@ schema: 2
   - *2018-07-13* — Chromium's activated ability overwrites all previous effects that set its base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after that ability resolves will overwrite this effect.
   - *2018-07-13* — Effects that raise or lower a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
   - *2018-07-13* — If Chromium gains an ability after its activated ability resolves, it will keep that ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,040 decks; highest synergy [Wavebreak Hippocamp](../../cards/W/wav.md#wavebreak-hippocamp) (+46%), [Cunning Nightbonder](../../cards/C/cu.md#cunning-nightbonder) (+44%), [Slitherwisp](../../cards/S/sl.md#slitherwisp) (+44%) · EDHREC: in 1,702 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.6% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (3.1% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/214/chromium-the-mutable) · oracle_id `58d8ff36-4a4d-40e0-b812-3d23b2c7606a` · printing: M19 #214 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronatog

@@ -128,6 +128,8 @@ schema: 2
 - **Keywords:** Vigilance, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13212 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 305 decks; highest synergy [Spider Manifestation](../../cards/S/spi.md#spider-manifestation) (+48%), [Rhino's Rampage](../../cards/R/rh.md#rhinos-rampage) (+44%), [Lizard, Connors's Curse](../../cards/L/li.md#lizard-connorss-curse) (+30%) · EDHREC: in 7,260 decks; most often under [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (13.2% of its decks), [Ruby, Daring Tracker](../../cards/R/ru.md#ruby-daring-tracker) (13.4% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (16.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/140/rhino-barreling-brute) · oracle_id `9a6bf8a3-7640-4890-ac62-d5028f41978b` · printing: SPM #140 (2025-09-26) · [rulings](https://api.scryfall.com/cards/4b8ac400-1e98-49fc-94be-00386d15f2ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino's Rampage
@@ -157,6 +159,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22676 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+59%), [Woodfall Primus](../../cards/W/wo.md#woodfall-primus) (+57%), [Witch's Clinic](../../cards/W/wi.md#witchs-clinic) (+56%) · EDHREC: in 1,441 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.0% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (2.0% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/730/rhino-terrible-trampler) · oracle_id `4e1c9e10-1cae-4ee5-866e-b7b5bb47bbce` · printing: MSC #730 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4bce41d3-d59a-4d70-8df3-1cbb3a13be94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhizome Lurcher
@@ -189,6 +193,8 @@ schema: 2
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10845 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Aether Shockwave](../../cards/A/ae.md#aether-shockwave) (+71%), [Githzerai Monk](../../cards/G/gi.md#githzerai-monk) (+71%), [Hylda's Crown of Winter](../../cards/H/hy.md#hyldas-crown-of-winter) (+71%) · EDHREC: in 9,697 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (52.2% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (15.3% of its decks), [Sensational Spider-Man](../../cards/S/sen.md#sensational-spider-man) (17.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#rhoda-geist-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/8/rhoda-geist-avenger) · oracle_id `3579e40c-6ec5-4927-8252-5a188db400ab` · printing: VOC #8 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c434e774-c908-46b9-ba18-52e1efe092de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -491,6 +497,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17615 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — If that creature has more than one Equipment attached to it, you may move all of those Equipment to Rhuk or none of those Equipment to Rhuk. You can't move some of them and leave others.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 107 decks; highest synergy [Nettlecyst](../../cards/N/ne.md#nettlecyst) (+76%), [Batterbone](../../cards/B/bat.md#batterbone) (+73%), [Dragonwing Glider](../../cards/D/dra.md#dragonwing-glider) (+73%) · EDHREC: in 3,352 decks; most often under [Barret, Avalanche Leader](../../cards/B/bar.md#barret-avalanche-leader) (39.1% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (3.3% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/407/rhuk-hexgold-nabber) · oracle_id `06607cba-76ba-4145-a5b5-24d3428142ac` · printing: ONE #407 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys, the Evermore
@@ -508,6 +516,8 @@ schema: 2
   - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. A creature's persist ability can bring it back again if its -1/-1 counters are removed this way.
   - *2025-11-17* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, persist won't trigger and the card won't return to the battlefield. That's because persist checks the creature as it last existed on the battlefield, and it still had -1/-1 counters on it at that point.
   - *2025-11-17* — If the target creature dies but that card leaves the graveyard before the persist ability resolves, it won't be returned to the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Rhys, the Evermore + Reveillark + Solemnity + Ashnod's Altar](https://commanderspellbook.com/combo/67-2034-4053-7410/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 140 decks; highest synergy [Luminous Broodmoth](../../cards/L/lu.md#luminous-broodmoth) (+64%), [Scholar of New Horizons](../../cards/S/sc.md#scholar-of-new-horizons) (+53%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+49%) · EDHREC: in 10,467 decks; most often under [Eirdu, Carrier of Dawn](../../cards/E/ei.md#eirdu-carrier-of-dawn--isilu-carrier-of-twilight) (27.8% of its decks), [Celes, Rune Knight](../../cards/C/ce.md#celes-rune-knight) (6.2% of its decks), [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/32/rhys-the-evermore) · oracle_id `9f013b5d-fff0-4c50-8621-158b6dc34834` · printing: ECL #32 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhys the Exiled

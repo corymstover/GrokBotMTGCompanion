@@ -168,6 +168,8 @@ schema: 2
 - **Keywords:** Bushido, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17770 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 103 decks; highest synergy [Timely Ward](../../cards/T/ti.md#timely-ward) (+57%), [Shielded by Faith](../../cards/S/shi.md#shielded-by-faith) (+56%), [Pariah](../../cards/P/pa.md#pariah) (+53%) · EDHREC: in 3,257 decks; most often under [Takeno, Samurai General](../../cards/T/ta.md#takeno-samurai-general) (83.2% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.0% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/17/opal-eye-kondas-yojimbo) · oracle_id `e4acac65-112b-48fc-bea3-44747c1389a3` · printing: BOK #17 (2005-02-04) · [rulings](https://api.scryfall.com/cards/e08d5618-4fe0-4ae5-af16-696467aae02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Gargoyle
@@ -730,6 +732,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph18/2/optimus-prime-inspiring-leader) · oracle_id `9cf22aee-0f97-4bf6-8941-22c7e0dcafd7` · printing: PH18 #2 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opulent Palace

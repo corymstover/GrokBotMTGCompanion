@@ -138,6 +138,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24948 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 184 decks; highest synergy [Rolling Earthquake](../../cards/R/ro.md#rolling-earthquake) (+62%), [Lizard Blades](../../cards/L/li.md#lizard-blades) (+57%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+50%) · EDHREC: in 664 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lu-bu-master-at-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/108/lu-bu-master-at-arms) · oracle_id `ff959f1f-0982-4761-a6b0-3044dff1d617` · printing: ME3 #108 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -183,6 +185,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16331 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — If the target creature leaves the battlefield before Lucius the Eternal's ability resolves, Lucius will stay in your graveyard and will not be exiled or return to the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Lucius the Eternal + Pitiless Plunderer + Attrition](https://commanderspellbook.com/combo/4871-5539-6993/) (Destroy all nonblack creatures that enter the battlefield under an opponent's control, Destroy all nonblack creatures opponents control) · EDHREC as commander: 1,038 decks; highest synergy [Warstorm Surge](../../cards/W/war.md#warstorm-surge) (+75%), [Eaten Alive](../../cards/E/ea.md#eaten-alive) (+69%), [Nasty End](../../cards/N/na.md#nasty-end) (+68%) · EDHREC: in 3,305 decks; most often under [Abaddon the Despoiler](../../cards/A/ab.md#abaddon-the-despoiler) (16.0% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (1.4% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/130/lucius-the-eternal) · oracle_id `fa726aac-f4ae-4e34-ac08-36c1f50215f3` · printing: 40K #130 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luck Bobblehead
@@ -245,6 +249,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15809 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 737 decks; highest synergy [Pridemalkin](../../cards/P/pr.md#pridemalkin) (+76%), [Ninja Pizza](../../cards/N/ni.md#ninja-pizza) (+73%), [Spider-Ham, Peter Porker](../../cards/S/spi.md#spider-ham-peter-porker) (+71%) · EDHREC: in 4,414 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (24.1% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (52.4% of its decks), [Jinnie Fay, Jetmir's Second](../../cards/J/ji.md#jinnie-fay-jetmirs-second) (5.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/726/lucky-the-pizza-dog) · oracle_id `3a429a1e-62c0-4f01-b09e-2bbf63e56a98` · printing: MSC #726 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5fc454a5-39af-421d-a494-727ac7b6115e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lucy MacLean, Positively Armed
@@ -259,6 +265,8 @@ schema: 2
 - **Keywords:** Golden Rule
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11193 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,579 decks; highest synergy [Wedding Ring](../../cards/W/we.md#wedding-ring) (+74%), [Combat Calligrapher](../../cards/C/com.md#combat-calligrapher) (+59%), [Bovine Intervention](../../cards/B/bo.md#bovine-intervention) (+56%) · EDHREC: in 8,215 decks; most often under [The Sentry, Golden Guardian](../../cards/T/thes.md#the-sentry-golden-guardian) (44.4% of its decks), [Kambal, Profiteering Mayor](../../cards/K/ka.md#kambal-profiteering-mayor) (21.9% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (2.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2447/lucy-maclean-positively-armed) · oracle_id `1196a4cb-544c-4e7b-91cd-f0820b21a80d` · printing: SLD #2447 (2026-01-26) · [rulings](https://api.scryfall.com/cards/2a5150ee-d177-48f5-9c93-edfaa95922ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ludevic, Necro-Alchemist
@@ -288,6 +296,8 @@ schema: 2
   - *2020-11-10* — Only one card may be drawn no matter how much life was lost or how many players lost life.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Dictate of Kruphix](../../cards/D/di.md#dictate-of-kruphix) (+50%), [Howling Mine](../../cards/H/ho.md#howling-mine) (+45%), [Minds Aglow](../../cards/M/min.md#minds-aglow) (+39%) · EDHREC: in 3,698 decks; most often under [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (4.9% of its decks), [Ian Malcolm, Chaotician](../../cards/I/ia.md#ian-malcolm-chaotician) (10.2% of its decks), [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (1.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/37/ludevic-necro-alchemist) · oracle_id `3b9d587c-39d2-44a2-9802-e4217ed389c0` · printing: C16 #37 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ludevic, Necrogenius // Olag, Ludevic's Hubris
@@ -308,6 +318,8 @@ schema: 2
   - *2021-09-24* — It's possible for Olag to become a copy of a card with the daybound keyword ability as it transforms. If this happens, it doesn't transform as it becomes night.
   - *2021-09-24* — Olag remains a copy of the creature card you choose even if that card later leaves exile.
   - *2021-09-24* — You choose which exiled creature card Olag is copying as it transforms. It doesn't transform and then become a copy.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ludevic, Necrogenius // Olag, Ludevic's Hubris + Mirror-Mad Phantasm](https://commanderspellbook.com/combo/1508-2084/) (Infinite self-mill) · EDHREC as commander: 298 decks; highest synergy [Deranged Assistant](../../cards/D/der.md#deranged-assistant) (+54%), [Millikin](../../cards/M/mil.md#millikin) (+45%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+43%) · EDHREC: in 1,457 decks; most often under [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (1.5% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.4% of its decks), [Wilhelt, the Rotcleaver](../../cards/W/wi.md#wilhelt-the-rotcleaver) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/233/ludevic-necrogenius-olag-ludevics-hubris) · oracle_id `f6f684f6-0c8a-4676-ba4e-d3e064293128` · printing: MID #233 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ludevic's Test Subject // Ludevic's Abomination
@@ -341,6 +353,8 @@ schema: 2
 - **Keywords:** Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16504 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Xorn](../../cards/X/xo.md#xorn) (+90%), [Goldspan Dragon](../../cards/G/gol.md#goldspan-dragon) (+86%), [Improvised Arsenal](../../cards/I/im.md#improvised-arsenal) (+70%) · EDHREC: in 4,484 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (61.0% of its decks), [Smaug the Magnificent](../../cards/S/sm.md#smaug-the-magnificent) (9.3% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (4.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/696/luke-cage-hero-for-hire) · oracle_id `3d776a25-c341-4058-9b5f-84e70edb25a4` · printing: MSC #696 (2026-06-26) · [rulings](https://api.scryfall.com/cards/51cef04a-fa47-4f82-8772-76d4bc82bada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luke Cage, Power Man
@@ -355,6 +369,8 @@ schema: 2
 - **Keywords:** Unbreakable Skin
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21533 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 35 decks; highest synergy [Black Panther, Claws of Bast](../../cards/B/bla.md#black-panther-claws-of-bast) (+64%), [S.H.I.E.L.D. Spy Kit](../../cards/S/shi.md#shield-spy-kit) (+61%), [Agents of S.H.I.E.L.D.](../../cards/A/ag.md#agents-of-shield) (+59%) · EDHREC: in 1,755 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (35.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (2.4% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (44.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/20/luke-cage-power-man) · oracle_id `c95d1558-09a4-4dbc-b08a-fe21b47bc5d2` · printing: MSH #20 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3b72c9e9-1cb2-4374-873a-53af293d86d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lukka, Bound to Ruin
@@ -493,6 +509,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 32 decks; highest synergy [Far Traveler](../../cards/F/fa.md#far-traveler) (+45%), [Flickerwisp](../../cards/F/fl.md#flickerwisp) (+28%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+27%) · EDHREC: in 9,488 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (2.5% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (6.9% of its decks), [Minthara, Merciless Soul](../../cards/M/min.md#minthara-merciless-soul) (6.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#lulu-loyal-hollyphant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/32/lulu-loyal-hollyphant) · oracle_id `d99197b9-143a-462f-ace4-f35228ba082e` · printing: CLB #32 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -758,6 +776,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26292 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Curiosity](../../cards/C/cu.md#curiosity) (+74%), [Wu Light Cavalry](../../cards/W/wu.md#wu-light-cavalry) (+73%), [Wu Elite Cavalry](../../cards/W/wu.md#wu-elite-cavalry) (+68%) · EDHREC: in 610 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (8.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/41/lu-meng-wu-general) · oracle_id `a1e2a966-6aad-4325-b644-3ced319bdd7d` · printing: ME3 #41 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luminarch Ascension
@@ -1612,6 +1632,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28124 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Mind Over Matter + Lu Su, Wu Advisor](https://commanderspellbook.com/combo/4067-4855/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 23 decks; highest synergy [Dramatic Reversal](../../cards/D/dra.md#dramatic-reversal) (+56%), [Aphetto Alchemist](../../cards/A/ap.md#aphetto-alchemist) (+49%), [Council of Advisors](../../cards/C/cou.md#council-of-advisors) (+48%) · EDHREC: in 376 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (3.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lu-su-wu-advisor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/47/lu-su-wu-advisor) · oracle_id `59238ba1-fde4-4e43-9f24-b24125e59de0` · printing: PTK #47 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1640,6 +1662,8 @@ schema: 2
   - *2024-11-08* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard, nor to any cards added to your deck after the game began (such as with the conjure mechanic).
   - *2024-11-08* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your 100 cards.
   - *2024-11-08* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In non-tournament play, it’s simply a card you own that’s not in your starting deck.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lutri-pauper-otter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/597/lutri-pauper-otter) · oracle_id `ffb6e274-dc19-4280-8dcd-020c5920ede2` · printing: MB2 #597 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1673,6 +1697,8 @@ schema: 2
   - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
   - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 67 combos; most popular [Baral's Expertise + Lutri, the Spellchaser](https://commanderspellbook.com/combo/2234-4217/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 674 decks; highest synergy [Dualcaster Mage](../../cards/D/du.md#dualcaster-mage) (+50%), [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) (+39%), [Release to the Wind](../../cards/R/rel.md#release-to-the-wind) (+36%) · EDHREC: in 8,059 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (24.1% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (11.9% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (1.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Spell copiers](../../EDH%20Packages.md#spellslinger-spell-copiers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lutri-the-spellchaser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/227/lutri-the-spellchaser) · oracle_id `158a6225-a246-4fd6-aa57-0df8067b4383` · printing: IKO #227 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1798,6 +1824,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
   - *2009-10-01* — Lu Xun's second ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Lu Xun, Scholar General + Mind Over Matter + Hermetic Study](https://commanderspellbook.com/combo/4067-4410-5242/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 247 decks; highest synergy [Fireshrieker](../../cards/F/fi.md#fireshrieker) (+52%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+49%), [Curiosity](../../cards/C/cu.md#curiosity) (+47%) · EDHREC: in 3,719 decks; most often under [Sun Quan, Lord of Wu](../../cards/S/sun.md#sun-quan-lord-of-wu) (52.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.8% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (1.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lu-xun-scholar-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/41/lu-xun-scholar-general) · oracle_id `ea658352-abef-4201-b20c-f5c5809d1d3e` · printing: CMA #41 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

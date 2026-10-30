@@ -395,6 +395,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16930 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 177 decks; highest synergy [Archaeomancer](../../cards/A/arc.md#archaeomancer) (+56%), [Cryogen Relic](../../cards/C/cr.md#cryogen-relic) (+56%), [Aether Channeler](../../cards/A/ae.md#aether-channeler) (+54%) · EDHREC: in 4,012 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (31.1% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (6.9% of its decks), [The Mighty Thor, Jane Foster](../../cards/T/them.md#the-mighty-thor-jane-foster) (6.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/83/wiccan-rising-magician) · oracle_id `fc17b7a3-7711-4449-80bd-692e8ed9087d` · printing: MSH #83 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5d27ddec-716d-47e5-ac48-365e91b88ff1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wiccan, Young Avenger
@@ -408,6 +410,8 @@ schema: 2
   > *"Possibility is limited only by imagination."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18728 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 38 decks; highest synergy [The Vision and Scarlet Witch](../../cards/T/thev.md#the-vision-and-scarlet-witch) (+57%), [Birgi, God of Storytelling](../../cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty) (+54%), [Electro, Assaulting Battery](../../cards/E/el.md#electro-assaulting-battery) (+53%) · EDHREC: in 2,994 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (35.2% of its decks), [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (22.9% of its decks), [The Scarlet Witch](../../cards/T/thes.md#the-scarlet-witch) (9.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/557/wiccan-young-avenger) · oracle_id `a317d5f4-a998-4f72-b080-5345bc7cc668` · printing: MSC #557 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6f210b47-e265-43ed-a336-538170c722af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wicked Akuba
@@ -675,6 +679,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9763 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — Use the power of the sacrificed Snail as it last existed on the battlefield to determine how much damage to deal and how many cards to draw. While Wick may have given the Snail up, Wick won’t let you down.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Bloomburrow](https://magic.wizards.com/en/news/feature/the-legends-of-bloomburrow) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Wick, the Whorled Mind (Grixis)](../../grixis/decks/wick-the-whorled-mind.md) · Commander Spellbook: 48 combos; most popular [Wick, the Whorled Mind + Conspiracy](https://commanderspellbook.com/combo/4875-5853/) (Infinite creature ETB, Infinite creature tokens) · EDHREC as commander: 12,459 decks; highest synergy [Lord Skitter, Sewer King](../../cards/L/lo.md#lord-skitter-sewer-king) (+78%), [Vren, the Relentless](../../cards/V/vr.md#vren-the-relentless) (+76%), [Song of Totentanz](../../cards/S/so.md#song-of-totentanz) (+71%) · EDHREC: in 610 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.1% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/W.md#wick-the-whorled-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/120/wick-the-whorled-mind) · oracle_id `5af729e8-8a40-4991-8270-612e377451de` · printing: BLB #120 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2011,6 +2017,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13373 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-10-13* — If Wilfred Mott leaves the battlefield after its ability has triggered but before it resolves, use the number of time counters it had on it the last time it was on the battlefield to determine the value of X.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 383 decks; highest synergy [Four Knocks](../../cards/F/fo.md#four-knocks) (+56%), [Metastatic Evangel](../../cards/M/me.md#metastatic-evangel) (+55%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+51%) · EDHREC: in 6,815 decks; most often under [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (46.8% of its decks), [Delney, Streetwise Lookout](../../cards/D/del.md#delney-streetwise-lookout) (8.9% of its decks), [The Eleventh Doctor // Amy Pond](../../cards/T/thee.md#the-eleventh-doctor) (38.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/32/wilfred-mott) · oracle_id `5a970742-687f-49ed-8822-e2953f4530b6` · printing: WHO #32 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wilhelt, the Rotcleaver
@@ -2099,6 +2107,8 @@ schema: 2
   > *Neither snow nor rain nor Doombots nor Galactus stays him from his appointed rounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12001 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,168 decks; highest synergy [The Second Doctor](../../cards/T/thes.md#the-second-doctor) (+53%), [Propaganda](../../cards/P/pr.md#propaganda) (+42%), [Duelist's Heritage](../../cards/D/du.md#duelists-heritage) (+41%) · EDHREC: in 8,510 decks; most often under [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (9.2% of its decks), [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (33.5% of its decks), [King T'Challa](../../cards/K/ki.md#king-tchalla--black-panther-hope-enduring) (24.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/101/willie-lumpkin-postman) · oracle_id `b08633e9-7b8f-4f69-a3b7-8d982b17574c` · printing: MSC #101 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2021033b-ccad-4cb0-9528-357a3c726008/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Willing Test Subject
@@ -2320,6 +2330,8 @@ schema: 2
   > {1}, {T}: Choose another target creature. Put a number of +1/+1 counters on it equal to the amount of life you gained this turn or the amount of life you lost this turn, whichever is greater. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Mayael's Aria + Willowdusk, Essence Seer](https://commanderspellbook.com/combo/668-3858/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 1,817 decks; highest synergy [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+61%), [Feed the Swarm](../../cards/F/fe.md#feed-the-swarm) (+57%), [Leyline Prowler](../../cards/L/le.md#leyline-prowler) (+56%) · EDHREC: in 9,668 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (23.5% of its decks), [Teval, Arbiter of Virtue](../../cards/T/te.md#teval-arbiter-of-virtue) (12.4% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/6/willowdusk-essence-seer) · oracle_id `94723d61-3e29-4180-91bc-df37c4086a66` · printing: C21 #6 (2021-04-23) · [rulings](https://api.scryfall.com/cards/42a97ec1-f613-49a5-9236-7fded1a81f3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Willow Elf
@@ -2439,6 +2451,8 @@ schema: 2
   > *A good officer brings their best. A great officer brings out the best in their team.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32303 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 89 decks; most often under Miles O'Brien, Transporter Ops (66.7% of its decks), Spot, Felis catus (2.9% of its decks), [Dr. Beverly Crusher](../../cards/D/drb.md#dr-beverly-crusher) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/140/will-riker-assuming-command) · oracle_id `a479b8b6-79de-4810-9165-992a6a10dc1d` · printing: TRC #140 (2026-11-13) · [rulings](https://api.scryfall.com/cards/6b1c20ba-df95-4a22-9646-df907c5700f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Will, Scion of Peace
@@ -3532,6 +3546,8 @@ schema: 2
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Speed, Young Avenger](../../cards/S/spe.md#speed-young-avenger) (+50%), [Vibranium Energy Daggers](../../cards/V/vi.md#vibranium-energy-daggers) (+50%), [Slash, Reptile Rampager](../../cards/S/sl.md#slash-reptile-rampager) (+41%) · EDHREC: in 1,653 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.8% of its decks), [Raph & Leo, Sibling Rivals](../../cards/R/rap.md#raph--leo-sibling-rivals) (20.8% of its decks), [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/110/wingnut-bat-on-the-belfry) · oracle_id `392a71c7-8f6d-46b8-bcc3-613e086d86ed` · printing: TMT #110 (2026-03-06) · [rulings](https://api.scryfall.com/cards/40b9b1d0-b7d1-473e-b6a9-a29d527c2f35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wing Puncture
@@ -3888,6 +3904,8 @@ schema: 2
   - *2025-02-07* — If an effect causes Winter to become an artifact, its second ability will cause it to gain a second instance of ward.
   - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
   - *2025-02-07* — Multiple instances of ward each trigger separately.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 989 decks; highest synergy [Haunt the Network](../../cards/H/ha.md#haunt-the-network) (+64%), [Pactdoll Terror](../../cards/P/pa.md#pactdoll-terror) (+59%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+58%) · EDHREC: in 3,871 decks; most often under [Golbez, Crystal Collector](../../cards/G/gol.md#golbez-crystal-collector) (3.9% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (1.6% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/228/winter-cursed-rider) · oracle_id `343833c1-19fd-4e8f-b82e-0f20903caaff` · printing: DFT #228 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winter, Cynical Opportunist
@@ -4136,6 +4154,8 @@ schema: 2
   > *"Hey Steve, sorry for giving you the cold shoulder all those years I was a brainwashed killing machine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27321 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Codsworth, Handy Helper](../../cards/C/cod.md#codsworth-handy-helper) (+28%), [Gleaming Splendor](../../cards/G/gl.md#gleaming-splendor) (+27%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+27%) · EDHREC: in 501 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.9% of its decks), [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (4.6% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/845/winter-soldier-bucky-barnes) · oracle_id `874bbeb2-aa15-41e8-afad-122ab9b555fd` · printing: MSC #845 (2026-06-26) · [rulings](https://api.scryfall.com/cards/539be75b-3c86-449c-adaa-68a7af612ea5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winter Soldier, Icy Assassin
@@ -4150,6 +4170,8 @@ schema: 2
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20350 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,123 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+77%), [Super-Soldier Serum](../../cards/S/sup.md#super-soldier-serum) (+66%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+61%) · EDHREC: in 1,101 decks; most often under [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (38.3% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (3.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/239/winter-soldier-icy-assassin) · oracle_id `6f4c94b6-f829-4646-a574-083997b78dfb` · printing: MSH #239 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ebf71ffc-6e3e-4ca0-a84a-3c1ebd2b64b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winter Soldier, Reborn Avenger
@@ -4163,6 +4185,8 @@ schema: 2
   > *"There are dangers from my past I can still fight. Maybe that's the path to redemption."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12404 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Avengers Assemble!](../../cards/A/av.md#avengers-assemble) (+49%), [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+44%), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (+42%) · EDHREC: in 8,922 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (86.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (20.5% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (72.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/27/winter-soldier-reborn-avenger) · oracle_id `df81ecf2-b49e-4be2-8757-ee2050784c9e` · printing: MSC #27 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de13b219-a99c-47ef-8b68-d57463cf5de8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Winter's Rest
@@ -4201,6 +4225,8 @@ schema: 2
   - *2026-08-21* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2026-08-21* — Winter's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-08-21* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 70 decks; highest synergy [Forbidden Friendship](../../cards/F/fo.md#forbidden-friendship) (+69%), [Dragon Fodder](../../cards/D/dra.md#dragon-fodder) (+66%), [Crash Through](../../cards/C/cr.md#crash-through) (+64%) · EDHREC: in 931 decks; most often under [Kasla, the Broken Halo](../../cards/K/ka.md#kasla-the-broken-halo) (15.2% of its decks), [Winter, Misanthropic Guide](../../cards/W/wi.md#winter-misanthropic-guide) (2.7% of its decks), [Aziza, Mage Tower Captain](../../cards/A/az.md#aziza-mage-tower-captain) (3.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#winter-team-player)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/256/winter-team-player) · oracle_id `254f133a-eee5-48b9-b19f-110555e49300` · printing: FRA #256 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4234,6 +4260,8 @@ schema: 2
   > *He had no one left to betray but himself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21185 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Thraximundar (Grixis)](../../grixis/decks/thraximundar.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 39 decks; highest synergy [Criminal Past](../../cards/C/cr.md#criminal-past) (+46%), [Billowing Shriekmass](../../cards/B/bi.md#billowing-shriekmass) (+43%), [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) (+39%) · EDHREC: in 3,102 decks; most often under [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (12.2% of its decks), [Terra, Herald of Hope](../../cards/T/te.md#terra-herald-of-hope) (2.5% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#winter-tormented-loner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/240/winter-tormented-loner) · oracle_id `84eaac2e-74ce-4a16-9faa-409df7c58eb3` · printing: FRA #240 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9670f754-f41f-45ac-8e8b-025ad2c0f66b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4862,6 +4890,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12098 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-11-03* — Use the power of the Wraiths as the triggered ability resolves to determine the value of X. If one or more of those Wraiths are no longer on the battlefield at that time, use their power from when they were last on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Altar of Dementia + Witch-king, Sky Scourge](https://commanderspellbook.com/combo/5256-6972-7511/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 977 decks; highest synergy [Nazgûl](../../cards/N/na.md#nazgûl) (+88%), [Witch-king of Angmar](../../cards/W/wi.md#witch-king-of-angmar) (+80%), [Minas Morgul, Dark Fortress](../../cards/M/min.md#minas-morgul-dark-fortress) (+78%) · EDHREC: in 7,903 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (14.5% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (13.5% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (1.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/511/witch-king-sky-scourge) · oracle_id `84137013-7a23-4bc8-b855-04889373fdae` · printing: LTC #511 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Witch-Maw Nephilim

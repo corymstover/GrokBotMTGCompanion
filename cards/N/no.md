@@ -428,6 +428,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14310 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — If Noctis is exiled with its last ability, it will return during its owner's next declare attackers step after that player has finished declaring attackers. It will return even if its owner declares no attackers.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Noctis, Heir Apparent + Vorpal Sword](https://commanderspellbook.com/combo/85-6994/) (Target opponent loses the game) · EDHREC as commander: 5,034 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+85%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+73%), [Forge Anew](../../cards/F/fo.md#forge-anew) (+69%) · EDHREC: in 1,312 decks; most often under [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (2.6% of its decks), [Noctis, Prince of Lucis](../../cards/N/no.md#noctis-prince-of-lucis) (4.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/460/noctis-heir-apparent) · oracle_id `7abe351e-0889-4fc1-91ae-8372bcd28acb` · printing: FIC #460 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noctis, Prince of Lucis
@@ -519,6 +521,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31217 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings** (1):
   - *2022-10-07* — Only an exact match with the chosen word would cause Nocturno’s triggered ability to trigger. For example, if you chose “attack,” casting a spell with “attacks,” “attacking,” or “attacked” in the rules text wouldn’t cause the ability to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Boomerang, Blade Flinger](../../cards/B/bo.md#boomerang-blade-flinger) (+50%), [Radioactive Man](../../cards/R/rad.md#radioactive-man) (+50%), [Splatter Goblin](../../cards/S/spl.md#splatter-goblin) (+50%) · EDHREC: in 45 decks; most often under [The Most Dangerous Gamer](../../cards/T/them.md#the-most-dangerous-gamer) (0.4% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.6% of its decks), ["Brims" Barone, Midway Mobster](../../cards/B/br.md#brims-barone-midway-mobster) (0.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/82/nocturno-of-myras-marvels) · oracle_id `1f5f14de-eb42-42c0-a670-977bafccd7a9` · printing: UNF #82 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### No-Dachi
@@ -974,6 +978,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Norika Yamazaki's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — You must still follow all normal timing rules and pay all costs for the enchantment card you cast this way.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Isshin, Two Heavens as One (Kamigawa-only)](../../decks/plane-kamigawa-isshin-two-heavens-as-one.md) · Commander Spellbook: 1 combo; most popular [Norika Yamazaki, the Poet + Second Chance](https://commanderspellbook.com/combo/1530-3768/) (Infinite turns, Lock) · EDHREC as commander: 357 decks; highest synergy [Selfless Samurai](../../cards/S/sel.md#selfless-samurai) (+72%), [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+70%), [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+68%) · EDHREC: in 9,731 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (10.5% of its decks), [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (60.8% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#norika-yamazaki-the-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/31/norika-yamazaki-the-poet) · oracle_id `6f143c8f-cb5c-4abc-a01b-b6813f5a524c` · printing: NEO #31 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -986,6 +992,8 @@ schema: 2
   > {2}{R}, {T}: Create a token that's a copy of target creature card in your graveyard, except it's an artifact in addition to its other types, gains haste, and has "Whenever a player casts a spell or a creature attacks, exile this token." Activate only as a sorcery.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR02/norin-and-feldon) · oracle_id `9f47b337-ef45-4936-9dfa-b64289e5f422` · printing: UNK #RR02 (2023-05-06) · [rulings](https://api.scryfall.com/cards/be3293bf-a5f7-4cfc-9b31-cc8272639b14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norin, Swift Survivalist
@@ -1002,6 +1010,8 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — Norin's last ability triggers before combat damage is dealt. If you choose to exile the creature, it won't deal or receive combat damage.
   - *2024-09-20* — You pay all costs and follow all timing rules for cards played this way. For example, if a card exiled with Norin's last ability is a creature card without flash, you may cast that creature spell only during your main phase while the stack is empty.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Duskmourn: House of Horror](https://magic.wizards.com/en/news/feature/the-legends-of-duskmourn-house-of-horror) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,521 decks; highest synergy [Voldaren Epicure](../../cards/V/vo.md#voldaren-epicure) (+63%), [Taunting Kobold](../../cards/T/ta.md#taunting-kobold) (+55%), [Dead-Iron Sledge](../../cards/D/dea.md#dead-iron-sledge) (+47%) · EDHREC: in 10,709 decks; most often under [Arabella, Abandoned Doll](../../cards/A/ara.md#arabella-abandoned-doll) (9.5% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (14.7% of its decks), [Rograkh, Son of Rohgahh // Yoshimaru, Ever Faithful](../../cards/R/ro.md#rograkh-son-of-rohgahh) (25.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/145/norin-swift-survivalist) · oracle_id `425d755b-7a15-423d-9640-494debc79dd9` · printing: DSK #145 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norin the Wary
@@ -1032,6 +1042,8 @@ schema: 2
   > *—Thorin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13313 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18 decks; highest synergy [Ori, Keeper of Songs](../../cards/O/or.md#ori-keeper-of-songs) (+50%), [Goldvein Pick](../../cards/G/gol.md#goldvein-pick) (+47%), [Dori, Bearer of Friends](../../cards/D/do.md#dori-bearer-of-friends) (+45%) · EDHREC: in 7,842 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (51.7% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (79.6% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (40.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/161/nori-teller-of-tales) · oracle_id `03253076-9add-4efb-9227-b0a062c86534` · printing: HOB #161 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b05adb48-980c-49a0-9ce6-7c7f3f20715d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norman Osborn // Green Goblin
@@ -2093,4 +2105,6 @@ schema: 2
 - **Keywords:** Food, Void
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB01/noyd-keeper-of-the-void) · oracle_id `a77dfaf3-0f89-4765-a3ab-e56e653ee296` · printing: UNK #RB01 (2025-08-02) · [rulings](https://api.scryfall.com/cards/13f11a0b-844b-4f04-90a1-0765461a8506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

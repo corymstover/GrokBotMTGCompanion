@@ -75,6 +75,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23778 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-08-01* — The destroy ability only works on legendary creatures, not on other legendary permanents.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 187 decks; highest synergy [Tsabo's Decree](../../cards/T/ts.md#tsabos-decree) (+48%), [Avatar of Woe](../../cards/A/av.md#avatar-of-woe) (+41%), [Royal Assassin](../../cards/R/ro.md#royal-assassin) (+41%) · EDHREC: in 911 decks; most often under [Rakdos, Lord of Riots](../../cards/R/rak.md#rakdos-lord-of-riots) (0.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Cromat](../../cards/C/cr.md#cromat) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/281/tsabo-tavoc) · oracle_id `f98f1f71-99ec-4ffb-9d8e-acbab173f972` · printing: INV #281 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsagan, Raider Warlord
@@ -90,6 +92,8 @@ schema: 2
 - **Keywords:** Max speed, Double strike, Start your engines!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20021 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,347 decks; highest synergy [Muraganda Raceway](../../cards/M/mu.md#muraganda-raceway) (+75%), [Burnout Bashtronaut](../../cards/B/bu.md#burnout-bashtronaut) (+70%), [Gastal Thrillseeker](../../cards/G/ga.md#gastal-thrillseeker) (+68%) · EDHREC: in 120 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.5% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (0.8% of its decks), [Zurgo Stormrender](../../cards/Z/zu.md#zurgo-stormrender) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/53/tsagan-raider-warlord) · oracle_id `3194c964-1693-40b6-b4f2-64fe056e7cd9` · printing: MBC #53 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2ac9f9f1-fa80-4f56-8184-dadfe1a81d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tsunami

@@ -483,6 +483,8 @@ schema: 2
   > When an Equipment you control sneaks in, attach it to a creature you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04h/bobby-another-dwarf) · oracle_id `069beed2-5139-49a2-b723-548fe44fa968` · printing: UNK #RW04h (2026-07-17) · [rulings](https://api.scryfall.com/cards/0f9e1500-3d0a-4f8d-90ee-5cb9d569d01f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bob, Reluctant HYDRA Agent
@@ -496,6 +498,8 @@ schema: 2
   > *"I mainly joined up for the benefits . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23083 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 303 decks; highest synergy [Crossbones, Malicious Mercenary](../../cards/C/cr.md#crossbones-malicious-mercenary) (+77%), [Doom Reigns Supreme](../../cards/D/do.md#doom-reigns-supreme) (+77%), [Tome of Legends](../../cards/T/to.md#tome-of-legends) (+76%) · EDHREC: in 1,028 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (36.3% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (2.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/649/bob-reluctant-hydra-agent) · oracle_id `9caa490e-dc28-4069-9ffb-4b1afd8fdd54` · printing: MSC #649 (2026-06-26) · [rulings](https://api.scryfall.com/cards/423c5752-b634-44a9-82b3-2dd1045e4d90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bob the Claymore
@@ -1335,6 +1339,8 @@ schema: 2
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11574 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,097 decks; highest synergy [Cosmos Charger](../../cards/C/cos.md#cosmos-charger) (+81%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+55%), [Passionate Archaeologist](../../cards/P/pa.md#passionate-archaeologist) (+54%) · EDHREC: in 7,671 decks; most often under [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (22.9% of its decks), [Spider-Man 2099](../../cards/S/spi.md#spider-man-2099) (28.0% of its decks), [The Twelfth Doctor // Clara Oswald](../../cards/T/thet.md#the-twelfth-doctor) (37.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bohn-beguiling-balladeer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/30/bohn-beguiling-balladeer) · oracle_id `ab31b652-ddf2-480f-a955-e8b5c87728f9` · printing: SLX #30 (2025-04-25) · [rulings](https://api.scryfall.com/cards/6e779a16-7528-49f4-8304-502bb603c15b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1675,6 +1681,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19180 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 292 decks; highest synergy [Bolg's Company](../../cards/B/bo.md#bolgs-company) (+73%), [Orcish Siegemaster](../../cards/O/or.md#orcish-siegemaster) (+70%), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+69%) · EDHREC: in 2,503 decks; most often under [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (16.2% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (5.2% of its decks), [Great Goblin, Foul-Hearted](../../cards/G/gre.md#great-goblin-foul-hearted) (58.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/102/bolg-erebors-reckoning) · oracle_id `eab096fd-a7e2-4b96-99ec-1039d3a552f3` · printing: HOC #102 (2026-08-14) · [rulings](https://api.scryfall.com/cards/55f7866a-6727-4ae0-a0c0-367f29b9cea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bolg of the North
@@ -1698,6 +1706,8 @@ schema: 2
   - *2026-06-29* — The sacrificed creature's last known existence on the battlefield is checked to determine its power.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
   - *2026-06-29* — You can't sacrifice multiple creatures to deal damage multiple times.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 131 decks; highest synergy [Goblin-town Flunkies](../../cards/G/gob.md#goblin-town-flunkies) (+70%), [Tidings of War](../../cards/T/ti.md#tidings-of-war) (+67%), [Rage into the Valley](../../cards/R/rag.md#rage-into-the-valley) (+66%) · EDHREC: in 7,463 decks; most often under [The Great Goblin](../../cards/T/theg.md#the-great-goblin) (54.9% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (11.3% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (13.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/148/bolg-of-the-north) · oracle_id `88522a0f-5377-4522-97f4-4148bef954af` · printing: HOB #148 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bolg's Company
@@ -2051,6 +2061,8 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Seize the Spoils](../../cards/S/sei.md#seize-the-spoils) (+52%), [Fíli and Kíli, Joyous](../../cards/F/fi.md#fíli-and-kíli-joyous) (+48%), [Mines of Moria](../../cards/M/min.md#mines-of-moria) (+38%) · EDHREC: in 6,755 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (43.3% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (72.2% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (32.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/88/bombur-gentle-dreamer) · oracle_id `925ce68e-9323-4985-8fef-0d3f36e0d74c` · printing: HOB #88 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bond Beetle
@@ -3218,6 +3230,8 @@ schema: 2
   > *"I wouldn't want to catch these. They're sharp, you know?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23168 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Apex Witchstalker](../../cards/A/ap.md#apex-witchstalker) (+50%), [Extended Absence](../../cards/E/ex.md#extended-absence) (+50%), [Loot, the Anomaly](../../cards/L/lo.md#loot-the-anomaly) (+50%) · EDHREC: in 1,341 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (23.3% of its decks), [Belbe, Corrupted Observer](../../cards/B/be.md#belbe-corrupted-observer) (9.5% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/534/boomerang-blade-flinger) · oracle_id `bbd84035-3efd-4301-9778-913898efd57a` · printing: MSC #534 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b9f9d5d-a1b6-4e3a-8b65-69eba94ee990/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boomer Scrapper
@@ -3596,6 +3610,8 @@ schema: 2
   - *2023-04-14* — Only the controller of Borborygmos and Fblthp can activate its last ability, and only if it’s on the battlefield.
   - *2023-04-14* — The first ability of Borborygmos and Fblthp triggers and goes on the stack without a target. If you discard one or more land cards, the second “reflexive” triggered ability will trigger. You’ll choose the target creature for that second ability at that time.
   - *2023-04-14* — You can’t discard nonland cards, even if you want to.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Team-Ups of March of the Machine](https://magic.wizards.com/en/news/feature/the-legendary-team-ups-of-march-of-the-machine) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,575 decks; highest synergy [Slogurk, the Overslime](../../cards/S/sl.md#slogurk-the-overslime) (+58%), [Life from the Loam](../../cards/L/li.md#life-from-the-loam) (+55%), [Splendid Reclamation](../../cards/S/spl.md#splendid-reclamation) (+50%) · EDHREC: in 1,339 decks; most often under [Eshki, Temur's Roar](../../cards/E/es.md#eshki-temurs-roar) (1.7% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (1.2% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/219/borborygmos-and-fblthp) · oracle_id `22d9eef5-0f86-4d1a-bde0-65b990d4be75` · printing: MOM #219 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Borborygmos Enraged
@@ -3848,6 +3864,8 @@ schema: 2
 - **Keywords:** Assimilate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29166 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 56 decks; highest synergy Battle of Wolf 359 (+100%), Class-4 Tactical Cube (+100%), Reconnaissance Partition (+100%) · EDHREC: in 721 decks; most often under [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (0.8% of its decks), [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (1.2% of its decks), [Doctor Doom](../../cards/D/do.md#doctor-doom) (1.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/197/borg-queen-perfection-manifest) · oracle_id `f9b46a1a-474f-4fac-8d71-131c1720e4c0` · printing: TRC #197 (2026-11-13) · [rulings](https://api.scryfall.com/cards/cb07e5e4-154e-4ba5-85a4-ecc78f1555d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boris Devilboon
@@ -3859,6 +3877,8 @@ schema: 2
   > {2}{B}{R}, {T}: Create a 1/1 black and red Demon creature token named Minor Demon.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29598 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (+52%), [Liliana's Contract](../../cards/L/li.md#lilianas-contract) (+48%), [Herald of Slaanesh](../../cards/H/he.md#herald-of-slaanesh) (+44%) · EDHREC: in 176 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (1.0% of its decks), [Adun Oakenshield](../../cards/A/ad.md#adun-oakenshield) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/146/boris-devilboon) · oracle_id `913aed6d-60c3-4d08-baf8-359e2c41a797` · printing: ME3 #146 (2009-09-07) · [rulings](https://api.scryfall.com/cards/b61e5753-d11d-4ef5-ae0e-510c4d5809a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Borne Upon a Wind
@@ -4357,6 +4377,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
   - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 74 decks; highest synergy [Prismatic Omen](../../cards/P/pr.md#prismatic-omen) (+42%), [Dryad of the Ilysian Grove](../../cards/D/dry.md#dryad-of-the-ilysian-grove) (+41%), [Nylea's Presence](../../cards/N/ny.md#nyleas-presence) (+41%) · EDHREC: in 1,378 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.2% of its decks), [Jared Carthalion](../../cards/J/ja.md#jared-carthalion) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/197/bortuk-bonerattle) · oracle_id `d965e8c2-34b1-42eb-9647-59951d9fc06b` · printing: DMU #197 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bosco, Just a Bear
@@ -4375,6 +4397,8 @@ schema: 2
   - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 137 decks; highest synergy [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+83%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+74%), [Elanor Gardner](../../cards/E/el.md#elanor-gardner) (+73%) · EDHREC: in 7,463 decks; most often under [The Cabbage Merchant](../../cards/T/thec.md#the-cabbage-merchant) (33.2% of its decks), [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (15.2% of its decks), [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/132/bosco-just-a-bear) · oracle_id `a213c650-06cc-4ea8-86f8-78ccfe103b38` · printing: TLE #132 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Boseiju Reaches Skyward // Branch of Boseiju
@@ -4445,6 +4469,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Bosh can be sacrificed to pay the cost of its last ability.
   - *2020-08-07* — If an artifact on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 832 decks; highest synergy [Metalwork Colossus](../../cards/M/me.md#metalwork-colossus) (+73%), [Spine of Ish Sah](../../cards/S/spi.md#spine-of-ish-sah) (+72%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+64%) · EDHREC: in 10,343 decks; most often under [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (36.8% of its decks), [Chiss-Goria, Forge Tyrant](../../cards/C/chi.md#chiss-goria-forge-tyrant) (20.7% of its decks), [Osgir, the Reconstructor](../../cards/O/os.md#osgir-the-reconstructor) (14.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/237/bosh-iron-golem) · oracle_id `2fb6f65f-a0fb-4d45-be1b-d6405e61d47a` · printing: C21 #237 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bösium Strip
@@ -4512,6 +4538,8 @@ schema: 2
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24530 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 106 decks; highest synergy [Oona's Blackguard](../../cards/O/oo.md#oonas-blackguard) (+81%), [Frogtosser Banneret](../../cards/F/fr.md#frogtosser-banneret) (+80%), [Grim Hireling](../../cards/G/gri.md#grim-hireling) (+69%) · EDHREC: in 927 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (2.1% of its decks), [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (7.8% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#boss-uramon-shadows-reach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/13/boss-uramon-shadows-reach) · oracle_id `92eeedc6-a331-445f-af56-c91dac69412b` · printing: MBC #13 (2026-10-19) · [rulings](https://api.scryfall.com/cards/17b3e50c-c878-4131-a1ff-250d62699f4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5068,6 +5096,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19742 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — If the Spirit or Arcane spell has {X} in the mana cost, then you use the value of {X} on the stack. For example, Shining Shoal costs {X}{W}{W}. If you choose X = 2, then Shining Shoal’s mana value is 4. Shining Shoal also has an ability that says “You may exile a white card with mana value X from your hand rather than pay Shining Shoal’s mana cost”; if you choose to pay the alternative cost and exile a card with mana value 2, then X is 2 while Shining Shoal is on the stack and its mana value is 4.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Kiri-Onna + Ugin's Conjurant + Ezzaroot Channeler + Bounteous Kirin + Defiler of Dreams](https://commanderspellbook.com/combo/656-2805-3091-3237-3497/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 164 decks; highest synergy [Loam Dweller](../../cards/L/lo.md#loam-dweller) (+91%), [Briarknit Kami](../../cards/B/br.md#briarknit-kami) (+85%), [Iname, Life Aspect](../../cards/I/ina.md#iname-life-aspect) (+84%) · EDHREC: in 2,201 decks; most often under [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (19.1% of its decks), [Kyodai, Soul of Kamigawa](../../cards/K/ky.md#kyodai-soul-of-kamigawa) (10.2% of its decks), [Iname as One](../../cards/I/ina.md#iname-as-one) (59.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/123/bounteous-kirin) · oracle_id `31d572b8-2c5e-4819-b2a6-e7ef90872d9e` · printing: SOK #123 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bountiful Harvest

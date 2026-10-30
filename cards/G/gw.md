@@ -43,6 +43,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-02-01* — Creatures with bribery counters on them can't be declared as attackers or blockers. However, if a bribery counter is put on a creature that's already been declared as an attacker or blocker, that creature will continue to attack or block that combat.
   - *2009-02-01* — If Gwafa Hazid leaves the battlefield, any bribery counters will remain where they are. However, without a Gwafa Hazid on the battlefield, creatures with bribery counters on them can attack and block as normal. If another Gwafa Hazid enters, its ability will affect all creatures with bribery counters on them, including the ones that received counters from a different Gwafa Hazid.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 779 decks; highest synergy [Azor's Elocutors](../../cards/A/az.md#azors-elocutors) (+52%), [Windborn Muse](../../cards/W/wi.md#windborn-muse) (+46%), [Propaganda](../../cards/P/pr.md#propaganda) (+44%) · EDHREC: in 11,219 decks; most often under [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (6.7% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (3.2% of its decks), [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/223/gwafa-hazid-profiteer) · oracle_id `7ba31f45-c178-4bac-ab7b-5ba4d050133c` · printing: BBD #223 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwaihir, Greatest of the Eagles
@@ -94,6 +96,8 @@ schema: 2
   > *Urborg became the final resting place of many swordsmen of renown, their steel outmatched by the wiles of Gwendlyn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24945 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 381 decks; highest synergy [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+47%), [Liliana's Caress](../../cards/L/li.md#lilianas-caress) (+46%), [Megrim](../../cards/M/me.md#megrim) (+46%) · EDHREC: in 460 decks; most often under [Sliver Queen](../../cards/S/sl.md#sliver-queen) (3.2% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (3.9% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gwendlyn-di-corci)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/149/gwendlyn-di-corci) · oracle_id `de44e7c8-01f9-44f9-9716-9e8a5b82b1ff` · printing: ME3 #149 (2009-09-07) · [rulings](https://api.scryfall.com/cards/a496823b-c864-4591-b395-5493383d11a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

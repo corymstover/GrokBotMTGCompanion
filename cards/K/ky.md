@@ -70,6 +70,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 64 combos; most popular [Staff of Domination + Kydele, Chosen of Kruphix](https://commanderspellbook.com/combo/427-2645/) (Infinite colorless mana, Infinite lifegain triggers) · EDHREC as commander: 32 decks; highest synergy [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) (+46%), [Finale of Revelation](../../cards/F/fi.md#finale-of-revelation) (+41%), [Dictate of Kruphix](../../cards/D/di.md#dictate-of-kruphix) (+37%) · EDHREC: in 3,376 decks; most often under [Kruphix, God of Horizons](../../cards/K/kr.md#kruphix-god-of-horizons) (17.6% of its decks), [Yidris, Maelstrom Wielder](../../cards/Y/yi.md#yidris-maelstrom-wielder) (2.5% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/35/kydele-chosen-of-kruphix) · oracle_id `5fca0ce6-e6ba-4319-b3c4-b4d48901e9b4` · printing: C16 #35 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kykar, Wind's Fury
@@ -172,6 +174,8 @@ schema: 2
   - *2024-02-02* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-02-02* — Use the power of the sacrificed creatures as they last existed on the battlefield to determine the value of X.
   - *2024-02-02* — You choose which spells to cast (if any) as Kylox, Visionary Inventor's last ability resolves. If you choose to cast any spells, you do so as part of the resolution of that ability. You can't wait to cast them later in the turn. Timing restrictions based on the cards' types are ignored.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,305 decks; highest synergy [Empty the Warrens](../../cards/E/em.md#empty-the-warrens) (+60%), [Elemental Eruption](../../cards/E/el.md#elemental-eruption) (+54%), [Mind's Desire](../../cards/M/min.md#minds-desire) (+54%) · EDHREC: in 1,765 decks; most often under [Ovika, Enigma Goliath](../../cards/O/ov.md#ovika-enigma-goliath) (3.6% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (0.6% of its decks), [Magnus the Red](../../cards/M/mag.md#magnus-the-red) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/214/kylox-visionary-inventor) · oracle_id `37f6bbb8-2136-4f03-966c-85d72180e71f` · printing: MKM #214 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kynaios and Tiro of Meletis
@@ -205,6 +209,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11521 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,640 decks; highest synergy [Junji, the Midnight Sky](../../cards/J/ju.md#junji-the-midnight-sky) (+25%), [Kura, the Boundless Sky](../../cards/K/ku.md#kura-the-boundless-sky) (+25%), [Ao, the Dawn Sky](../../cards/A/ao.md#ao-the-dawn-sky) (+24%) · EDHREC: in 7,153 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (4.7% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (8.1% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (30.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/23/kyodai-soul-of-kamigawa) · oracle_id `d89bd776-8489-4c34-94ea-db1b088d9379` · printing: NEO #23 (2022-02-18) · [rulings](https://api.scryfall.com/cards/cbbfd21e-96f1-4e5b-8546-73bb5a887b98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoki, Sanity's Eclipse
@@ -221,6 +227,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Cards exiled by Kyoki’s ability are exiled face up.
   - *2005-02-01* — Cards exiled by Kyoki’s ability stay exiled even if Kyoki leaves the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 130 decks; highest synergy [Rend Flesh](../../cards/R/ren.md#rend-flesh) (+87%), [Thief of Hope](../../cards/T/thi.md#thief-of-hope) (+83%), [Death Denied](../../cards/D/dea.md#death-denied) (+79%) · EDHREC: in 2,200 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (63.2% of its decks), [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (5.6% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/72/kyoki-sanitys-eclipse) · oracle_id `f5240f9a-597b-43e7-9876-74559df1354e` · printing: BOK #72 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Battle Fan

@@ -77,6 +77,8 @@ schema: 2
   > Whenever Groaaaaag, Hungry Monster attacks, you may sacrifice any number of other creatures. Draw that many cards, gain that much life, and put that many +1/+1 counters on Groaaaaag.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ07b/groaaaaag-hungry-monster) · oracle_id `4000f50b-6155-40ed-a167-c9eab5c7be4c` · printing: UNK #RZ07b (2023-07-29) · [rulings](https://api.scryfall.com/cards/9c2395f6-0bb9-465f-8cd3-fb742a496da1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Groffskithur

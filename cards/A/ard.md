@@ -271,6 +271,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10367 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 11 combos; most popular [Ardoz, Cobbler of War + Mana Echoes + Skirk Prospector](https://commanderspellbook.com/combo/38-1967-2440/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 104 decks; highest synergy [Legion Warboss](../../cards/L/le.md#legion-warboss) (+49%), [Squee, Dubious Monarch](../../cards/S/sq.md#squee-dubious-monarch) (+49%), [Siege-Gang Lieutenant](../../cards/S/si.md#siege-gang-lieutenant) (+45%) · EDHREC: in 11,719 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (5.7% of its decks), [Samut, Vizier of Naktamun](../../cards/S/sam.md#samut-vizier-of-naktamun) (43.7% of its decks), [Valduk, Keeper of the Flame](../../cards/V/va.md#valduk-keeper-of-the-flame) (19.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/29/ardoz-cobbler-of-war) · oracle_id `bcd5e175-2ef0-48f4-b9bd-14383dd234e0` · printing: J22 #29 (2022-12-02) · [rulings](https://api.scryfall.com/cards/2a012f05-0009-42cf-8a69-07140b2a2aef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ardyn, the Usurper

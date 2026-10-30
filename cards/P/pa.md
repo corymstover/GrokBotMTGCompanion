@@ -575,6 +575,8 @@ schema: 2
 - **Keywords:** Grandeur
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15277 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 413 decks; highest synergy [Ring of the Lucii](../../cards/R/ri.md#ring-of-the-lucii) (+51%), [Sisay's Ring](../../cards/S/si.md#sisays-ring) (+47%), [Ur-Golem's Eye](../../cards/U/ur.md#ur-golems-eye) (+45%) · EDHREC: in 5,092 decks; most often under [Arcum Dagsson](../../cards/A/arc.md#arcum-dagsson) (18.4% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (4.9% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (2.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/250/page-loose-leaf) · oracle_id `3bbad38b-7d88-4ff2-9fd3-5081536e7c56` · printing: SOS #250 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8c6fecfd-8241-4cf0-b1eb-19472b99e0ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pain 101
@@ -935,6 +937,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19200 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings** (1):
   - *2020-04-17* — You exile cards and put +1/+1 counters on Pako all while Pako's last ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Aggravated Assault + Bear Umbra + Pako, Arcane Retriever](https://commanderspellbook.com/combo/3750-4228-4366/) (Infinite combat phases, Infinitely large creature) · EDHREC as commander: 18 decks; highest synergy [Loki's Scepter](../../cards/L/lo.md#lokis-scepter) (+100%), [Loki, God of Lies](../../cards/L/lo.md#loki-god-of-lies) (+100%), [Hobbit Hole](../../cards/H/ho.md#hobbit-hole) (+99%) · EDHREC: in 2,553 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (1.9% of its decks), [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (6.7% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pako-arcane-retriever)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/13/pako-arcane-retriever) · oracle_id `680a3e17-5144-4e97-bc59-9f5fc3ad6514` · printing: C20 #13 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1443,6 +1447,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25858 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 199 decks; highest synergy [Shivan Dragon](../../cards/S/shi.md#shivan-dragon) (+29%), [Birds of Paradise](../../cards/B/bi.md#birds-of-paradise) (+27%), [Llanowar Elves](../../cards/L/ll.md#llanowar-elves) (+26%) · EDHREC: in 475 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/164/palladia-mors) · oracle_id `d7121ac7-e425-46cd-b006-1af391d97f87` · printing: ME3 #164 (2009-09-07) · [rulings](https://api.scryfall.com/cards/ede0ce7a-0799-40b9-b725-665dc9c1cede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palladia-Mors, the Ruiner
@@ -1460,6 +1466,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If Palladia-Mors leaves the battlefield and returns, it's considered a new object, even if it's represented by the same card. It has hexproof again until it deals damage.
   - *2018-07-13* — If a triggered ability triggers at the same time that Paladia-Mors deals damage for the first time, targets are chosen for that ability after Palladia-Mors no longer has hexproof.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 323 decks; highest synergy [Atarka, World Render](../../cards/A/at.md#atarka-world-render) (+39%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+31%), [Dragonlord Dromoka](../../cards/D/dra.md#dragonlord-dromoka) (+28%) · EDHREC: in 2,539 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.3% of its decks), [Rith, Liberated Primeval](../../cards/R/ri.md#rith-liberated-primeval) (15.1% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/219/palladia-mors-the-ruiner) · oracle_id `4c2b10ba-1930-4da8-9570-c89b2e239e3e` · printing: M19 #219 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palladium Myr
@@ -1619,6 +1627,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30060 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — EDHREC as commander: 20 decks; highest synergy [Baldin, Century Herdmaster](../../cards/B/bal.md#baldin-century-herdmaster) (+69%), [Bark of Doran](../../cards/B/bar.md#bark-of-doran) (+66%), [Rasaad yn Bashir](../../cards/R/ras.md#rasaad-yn-bashir) (+65%) · EDHREC: in 194 decks; most often under [Liu Bei, Lord of Shu](../../cards/L/li.md#liu-bei-lord-of-shu) (48.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Kongming, "Sleeping Dragon"](../../cards/K/ko.md#kongming-sleeping-dragon) (8.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pang-tong-young-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/14/pang-tong-young-phoenix) · oracle_id `6d9dc632-414e-480c-85ef-c2b98a6460ad` · printing: PTK #14 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2951,6 +2961,8 @@ schema: 2
   > Whenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16949 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Parnesse, the Subtle Brush (Grixis)](../../grixis/decks/parnesse-the-subtle-brush.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,479 decks; highest synergy [Double Vision](../../cards/D/do.md#double-vision) (+61%), [Tempt with Mayhem](../../cards/T/te.md#tempt-with-mayhem) (+58%), [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) (+53%) · EDHREC: in 2,412 decks; most often under [Anhelo, the Painter](../../cards/A/an.md#anhelo-the-painter) (10.1% of its decks), [Evelyn, the Covetous](../../cards/E/ev.md#evelyn-the-covetous) (6.0% of its decks), [Lord Xander, the Collector](../../cards/L/lo.md#lord-xander-the-collector) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#parnesse-the-subtle-brush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/8/parnesse-the-subtle-brush) · oracle_id `c6040e8d-dac3-4bed-8d1d-d7d44aa10c86` · printing: NCC #8 (2022-04-29) · [rulings](https://api.scryfall.com/cards/36458554-b8b8-4768-a138-eba615b480af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3923,6 +3935,8 @@ schema: 2
   > *"They say true heroes always put their teammates before themselves. I often find it's the other way around."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17779 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Beaming Defiance](../../cards/B/be.md#beaming-defiance) (+75%), [Spectacular Tactics](../../cards/S/spe.md#spectacular-tactics) (+73%), [Sheltered by Ghosts](../../cards/S/she.md#sheltered-by-ghosts) (+68%) · EDHREC: in 3,542 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (22.6% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (19.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patriot-shield-wielder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/30/patriot-shield-wielder) · oracle_id `1df7a09f-fbc8-4c2a-a903-bab9e680eda7` · printing: MSH #30 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1467d7c9-00d8-43f1-b4e7-a279d2b10503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3939,6 +3953,8 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29907 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Agent Maria Hill](../../cards/A/ag.md#agent-maria-hill) (+50%), [Agent of Atlas](../../cards/A/ag.md#agent-of-atlas) (+50%), [Agents of S.H.I.E.L.D.](../../cards/A/ag.md#agents-of-shield) (+50%) · EDHREC: in 242 decks; most often under [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (0.8% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.5% of its decks), [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/570/patriot-young-avenger) · oracle_id `6c44d62f-52de-446c-9824-6b474534a612` · printing: MSC #570 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ea0705fd-5446-4960-8afc-ba005f006727/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patrol Hound
@@ -4005,6 +4021,8 @@ schema: 2
 - **Keywords:** Offering
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26729 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Goblin Warchief](../../cards/G/gob.md#goblin-warchief) (+61%), [Siege-Gang Commander](../../cards/S/si.md#siege-gang-commander) (+57%), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+56%) · EDHREC: in 488 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.3% of its decks), [Skyfire Kirin](../../cards/S/sk.md#skyfire-kirin) (18.1% of its decks), [Wort, Boggart Auntie](../../cards/W/wo.md#wort-boggart-auntie) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/115/patron-of-the-akki) · oracle_id `38dd86a2-652c-42b7-9b21-2fad059cc706` · printing: BOK #115 (2005-02-04) · [rulings](https://api.scryfall.com/cards/18325283-ace8-414b-bf48-2ed36b5a9c24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Arts
@@ -4034,6 +4052,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — You may gain life when any creatures are declared as attackers, not just for attacking creatures you control.
   - *2005-02-01* — You may gain one life per attacking creature when the ability resolves during each declare attackers step.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 516 decks; highest synergy [Filigree Familiar](../../cards/F/fi.md#filigree-familiar) (+79%), [Rune-Tail, Kitsune Ascendant](../../cards/R/ru.md#rune-tail-kitsune-ascendant--rune-tails-essence) (+71%), [Eight-and-a-Half-Tails](../../cards/E/ei.md#eight-and-a-half-tails) (+67%) · EDHREC: in 1,999 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.5% of its decks), [Mr. Foxglove](../../cards/M/mr.md#mr-foxglove) (1.9% of its decks), [Eight-and-a-Half-Tails](../../cards/E/ei.md#eight-and-a-half-tails) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/19/patron-of-the-kitsune) · oracle_id `e75356a8-6268-4355-a0bd-114a5243d527` · printing: BOK #19 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Moon
@@ -4049,6 +4069,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10821 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-02-01* — You may put zero, one, or two lands onto the battlefield with Patron of the Moon’s ability. The number is determined as the ability resolves. You don’t need lands in hand to activate the ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Patron of the Moon + Simic Growth Chamber + Lotus Cobra](https://commanderspellbook.com/combo/774-1671-3470/) (Infinite landfall triggers) · EDHREC as commander: 1,633 decks; highest synergy [Meloku the Clouded Mirror](../../cards/M/me.md#meloku-the-clouded-mirror) (+90%), [Soratami Savant](../../cards/S/so.md#soratami-savant) (+85%), [Uyo, Silent Prophet](../../cards/U/uy.md#uyo-silent-prophet) (+83%) · EDHREC: in 9,651 decks; most often under [Tameshi, Reality Architect](../../cards/T/ta.md#tameshi-reality-architect) (50.9% of its decks), [Aesi, Tyrant of Gyre Strait](../../cards/A/ae.md#aesi-tyrant-of-gyre-strait) (6.5% of its decks), [Archelos, Lagoon Mystic](../../cards/A/arc.md#archelos-lagoon-mystic) (11.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#patron-of-the-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/45/patron-of-the-moon) · oracle_id `e514546a-ca03-48ba-90e1-7a0e145137f2` · printing: BOK #45 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4064,6 +4086,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18430 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-02-01* — Patron of the Nezumi’s ability triggers even if an event puts this and multiple other permanents into the graveyard at the same time (Wrath of God, gang blocks, etc.)
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 161 decks; highest synergy [Crypt Rats](../../cards/C/cr.md#crypt-rats) (+57%), [Burglar Rat](../../cards/B/bu.md#burglar-rat) (+55%), [Nezumi Informant](../../cards/N/ne.md#nezumi-informant) (+52%) · EDHREC: in 2,846 decks; most often under [Marrow-Gnawer](../../cards/M/mar.md#marrow-gnawer) (5.0% of its decks), [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (37.1% of its decks), [Karumonix, the Rat King](../../cards/K/ka.md#karumonix-the-rat-king) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/72/patron-of-the-nezumi) · oracle_id `038a8b6b-4529-4e06-bdff-9ee7ba291776` · printing: CM2 #72 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Orochi
@@ -4079,6 +4103,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Patron of the Orochi’s ability untaps nonbasic lands that are also Forests (such as some of the Revised dual lands) and multicolored creatures that are also green.
   - *2005-02-01* — The Patron’s ability can be activated only once per turn, even if control of Patron of the Orochi changes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 31 combos; most popular [Patron of the Orochi + Temur Sabertooth + Lightning Greaves](https://commanderspellbook.com/combo/215-876-3172/) (Infinite blinking of some creatures, Infinite creature ETB) · EDHREC as commander: 595 decks; highest synergy [Orochi Sustainer](../../cards/O/or.md#orochi-sustainer) (+60%), [Prowling Serpopard](../../cards/P/pr.md#prowling-serpopard) (+58%), [Sakura-Tribe Scout](../../cards/S/sak.md#sakura-tribe-scout) (+56%) · EDHREC: in 6,180 decks; most often under [Omnath, Locus of Mana](../../cards/O/om.md#omnath-locus-of-mana) (4.5% of its decks), [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (57.6% of its decks), [Oviya, Automech Artisan](../../cards/O/ov.md#oviya-automech-artisan) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#patron-of-the-orochi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/138/patron-of-the-orochi) · oracle_id `e245f2f6-2b5b-41bc-88b3-5b41ca813c5e` · printing: BOK #138 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4219,6 +4245,8 @@ schema: 2
   > *We all know the legend: Pavel wanders the realms, helping those in greatest need. But is this a measure of his generosity, or of his obligation to atone?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31357 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 30 decks; highest synergy [Big Score](../../cards/B/bi.md#big-score) (+34%), [Kediss, Emberclaw Familiar](../../cards/K/ke.md#kediss-emberclaw-familiar) (+25%), [Badlands](../../cards/B/bad.md#badlands) (+23%) · EDHREC: in 77 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (0.7% of its decks), [Vaevictis Asmadi](../../cards/V/va.md#vaevictis-asmadi) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/165/pavel-maliki) · oracle_id `41026872-3c7b-40c7-8d0b-9d2f9b6c3e91` · printing: ME3 #165 (2009-09-07) · [rulings](https://api.scryfall.com/cards/c6627e4c-dc84-4ea0-8f69-dea92f55c943/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pawn of Ulamog

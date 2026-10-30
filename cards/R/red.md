@@ -313,6 +313,8 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12461 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 243 decks; highest synergy [Krang, the All-Powerful](../../cards/K/kr.md#krang-the-all-powerful) (+68%), [Abandon Attachments](../../cards/A/ab.md#abandon-attachments) (+57%), [Emrakul's Messenger](../../cards/E/em.md#emrakuls-messenger) (+54%) · EDHREC: in 8,604 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (54.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (50.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (10.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#red-ghost-intangible-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/92/red-ghost-intangible-genius) · oracle_id `9984d950-29dc-4d6b-8750-8d1bf86ea98f` · printing: MSC #92 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35bae013-51e9-4047-91e3-3b366ad0764e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -329,6 +331,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22851 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+94%), [Parting Gust](../../cards/P/pa.md#parting-gust) (+93%), [Eerie Interlude](../../cards/E/ee.md#eerie-interlude) (+92%) · EDHREC: in 1,409 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (4.3% of its decks), [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (7.0% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/34/red-guardian-super-soldier) · oracle_id `e85567e8-1102-4d44-a15b-d5f1fdef8465` · printing: MSH #34 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c08f8163-319a-4a31-b15a-93974cacd5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Herring (CMB2 #62)
@@ -392,6 +396,8 @@ schema: 2
 - **Keywords:** Reach, Enrage, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10325 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 40 combos; most popular [Red Hulk + Heroic Intervention + Screaming Nemesis](https://commanderspellbook.com/combo/3614-5759-7711/) (Infinite +1/+1 counters on a creature, Infinite damage to one opponent) · EDHREC as commander: 546 decks; highest synergy [Rile](../../cards/R/ri.md#rile) (+64%), [Pain for All](../../cards/P/pa.md#pain-for-all) (+63%), [Photon Blast Barrage](../../cards/P/ph.md#photon-blast-barrage) (+62%) · EDHREC: in 12,095 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (54.0% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (20.1% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (26.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/149/red-hulk) · oracle_id `a14a838a-49f4-45e3-9ec0-3c803af45a68` · printing: MSH #149 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e25468e2-17c6-47b2-8eb6-fcb8ae6f4c17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redirect

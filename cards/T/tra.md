@@ -332,6 +332,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR07/tragda-the-burner) · oracle_id `f4fd0f03-dc91-4bf8-96bc-8e2233223a48` · printing: UNK #RR07 (2025-06-20) · [rulings](https://api.scryfall.com/cards/4a558c85-7452-487e-a8e7-0032c839dc9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragedy Feaster
@@ -2068,6 +2070,8 @@ schema: 2
 - **Keywords:** Flying, Prowess, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23386 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 114 decks; highest synergy [Wizard's Staff](../../cards/W/wi.md#wizards-staff) (+46%), [Mox Jasper](../../cards/M/mox.md#mox-jasper) (+40%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+35%) · EDHREC: in 1,693 decks; most often under [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (3.1% of its decks), [Aloy, Savior of Meridian](../../cards/A/al.md#aloy-savior-of-meridian) (3.4% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (4.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/222/traxos-academy-guardian) · oracle_id `7b9a574f-6d56-421b-8fbd-94da1e6e3ce1` · printing: FRA #222 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a349800f-b634-4e74-a9d9-185df37ad909/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traxos, Scourge Eternal
@@ -2084,6 +2088,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23408 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Ornithopter](../../cards/O/or.md#ornithopter) (+49%), [Junk Diver](../../cards/J/ju.md#junk-diver) (+41%), [Paradise Mantle](../../cards/P/pa.md#paradise-mantle) (+37%) · EDHREC: in 1,824 decks; most often under [Meria, Scholar of Antiquity](../../cards/M/me.md#meria-scholar-of-antiquity) (36.6% of its decks), [Aloy, Savior of Meridian](../../cards/A/al.md#aloy-savior-of-meridian) (10.4% of its decks), [Traxos, Scourge of Kroog](../../cards/T/tra.md#traxos-scourge-of-kroog) (27.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/280/traxos-scourge-eternal) · oracle_id `acf4abde-4034-4fcf-b531-78c935aecd8c` · printing: FRA #280 (2026-10-02) · [rulings](https://api.scryfall.com/cards/05102c46-96f8-44a0-a1e6-e388fa5e0841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traxos, Scourge of Kroog
@@ -2123,4 +2129,6 @@ schema: 2
   - *2022-10-07* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
   - *2022-10-07* — If an activated ability of a card in a graveyard references the card it's printed on by name, treat Trazyn the Infinite's version of that ability as though it referenced Trazyn the Infinite by name instead.
   - *2022-10-07* — Trazyn the Infinite gains only activated abilities. It doesn't gain keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Trazyn the Infinite + Staff of Domination + Sol Ring](https://commanderspellbook.com/combo/2645-3918-5034/) (Infinite card draw, Infinite colorless mana) · EDHREC as commander: 2,508 decks; highest synergy [Staff of Domination](../../cards/S/sta.md#staff-of-domination) (+83%), [Pili-Pala](../../cards/P/pi.md#pili-pala) (+79%), [Palladium Myr](../../cards/P/pa.md#palladium-myr) (+70%) · EDHREC: in 9,520 decks; most often under [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (46.4% of its decks), [Szarekh, the Silent King](../../cards/S/sz.md#szarekh-the-silent-king) (77.6% of its decks), [Anrakyr the Traveller](../../cards/A/an.md#anrakyr-the-traveller) (52.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/65/trazyn-the-infinite) · oracle_id `1ef3b48a-55ef-422e-ac7f-e1c1057eec2c` · printing: 40K #65 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -88,6 +88,8 @@ schema: 2
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22642 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+57%), [Angelic Gift](../../cards/A/an.md#angelic-gift) (+52%), [Feather of Flight](../../cards/F/fe.md#feather-of-flight) (+52%) · EDHREC: in 1,413 decks; most often under [Storm, Windrider](../../cards/S/sto.md#storm-windrider) (12.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (6.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/22/mockingbird-ace-agent) · oracle_id `1fd00656-83ba-4feb-b089-224007936b99` · printing: MSH #22 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0f5701ac-ec30-4fb1-bd71-4bac4693c075/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird, Bobbi Morse
@@ -101,6 +103,8 @@ schema: 2
   > *"How did I get here? I'm not rich. Not a mutant. Not a natural. I just try harder."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28349 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Crossbow Infantry](../../cards/C/cr.md#crossbow-infantry) (+71%), [D'Avenant Archer](../../cards/D/da.md#davenant-archer) (+57%), [Flare of Faith](../../cards/F/fl.md#flare-of-faith) (+57%) · EDHREC: in 390 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.4% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (1.0% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/522/mockingbird-bobbi-morse) · oracle_id `d34affa9-3629-49e1-b1e4-4742aff6eafc` · printing: MSC #522 (2026-06-26) · [rulings](https://api.scryfall.com/cards/895f7959-4780-4215-a3d3-36a038ebb000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Doppelganger

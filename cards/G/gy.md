@@ -49,6 +49,8 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 19 combos; most popular [Gylwain, Casting Director + Guardian of the Forgotten + Ashnod's Altar](https://commanderspellbook.com/combo/2034-6014-6659/) (Infinite self-mill, Near-infinite creature ETB) · EDHREC as commander: 2,324 decks; highest synergy [Tanglespan Lookout](../../cards/T/ta.md#tanglespan-lookout) (+83%), [Ellivere of the Wild Court](../../cards/E/el.md#ellivere-of-the-wild-court) (+78%), [Winds of Rath](../../cards/W/wi.md#winds-of-rath) (+78%) · EDHREC: in 7,997 decks; most often under [Ellivere of the Wild Court](../../cards/E/el.md#ellivere-of-the-wild-court) (33.6% of its decks), [Preston Garvey, Minuteman](../../cards/P/pr.md#preston-garvey-minuteman) (24.7% of its decks), [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/4/gylwain-casting-director) · oracle_id `e7dfe47f-41fc-4071-9ad3-96cd8d9be52e` · printing: WOC #4 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyome, Master Chef
@@ -157,6 +159,8 @@ schema: 2
   - *2018-07-13* — If the copied creature card has {X} in its mana cost, X is considered to be 0.
   - *2018-07-13* — The amount of mana you spent to cast Gyrus is usually equal to its mana value, normally 3 plus the value chosen for X. However, you also include any additional costs you pay, including the commander tax.
   - *2018-07-13* — You choose which player or planeswalker the token is attacking. It doesn't have to be attacking the same player or planeswalker that Gyrus is attacking.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,241 decks; highest synergy [Anger](../../cards/A/an.md#anger) (+45%), [Satyr Wayfinder](../../cards/S/sat.md#satyr-wayfinder) (+43%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+40%) · EDHREC: in 1,436 decks; most often under [Progenitus](../../cards/P/pr.md#progenitus) (5.5% of its decks), [Lord Windgrace](../../cards/L/lo.md#lord-windgrace) (2.6% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/41/gyrus-waker-of-corpses) · oracle_id `2deae472-3cfe-4d7b-b9cf-a045f07a002e` · printing: C18 #41 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gysahl Greens

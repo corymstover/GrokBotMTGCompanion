@@ -619,6 +619,8 @@ schema: 2
   > *Prize Card for the Unknown event at MagicCon Barcelona, July 29th, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MU03/barce-friend-finder) · oracle_id `2991efc4-1ee5-4b9d-a006-e8ebb3d6768a` · printing: UNK #MU03 (2023-07-29) · [rulings](https://api.scryfall.com/cards/6dc209f6-e863-4c66-be0f-8bb01df99ad9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bard Class
@@ -661,6 +663,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17826 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 131 decks; highest synergy [Bard's Company](../../cards/B/bar.md#bards-company) (+65%), [Prince Imrahil the Fair](../../cards/P/pr.md#prince-imrahil-the-fair) (+62%), [Adeline, Resplendent Cathar](../../cards/A/ad.md#adeline-resplendent-cathar) (+57%) · EDHREC: in 3,525 decks; most often under [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (30.5% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (11.9% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (9.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/101/bard-heir-of-girion) · oracle_id `b0e88bd6-50a3-48d7-a15f-ec51f6bced0d` · printing: HOC #101 (2026-08-14) · [rulings](https://api.scryfall.com/cards/a5bf2146-0843-4e1b-ad07-29e3dc0e842f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bard, King of Dale
@@ -738,6 +742,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-06-29* — If you draw your second card in a turn while recruiting, the Human Soldier you create can be chosen as the target of Bard the Bowman's ability. 
   - *2026-06-29* — The triggered ability can trigger only once each turn. It doesn't matter whether Bard the Bowman was on the battlefield when the first card was drawn. If he's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 164 decks; highest synergy [Lakeshore Apothecary](../../cards/L/la.md#lakeshore-apothecary) (+56%), [Plunder the Trollshaws](../../cards/P/pl.md#plunder-the-trollshaws) (+53%), [Confusticate and Bebother](../../cards/C/con.md#confusticate-and-bebother) (+46%) · EDHREC: in 6,376 decks; most often under [Bard, King of Dale](../../cards/B/bar.md#bard-king-of-dale) (47.5% of its decks), [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (15.5% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/145/bard-the-bowman) · oracle_id `ec076f5b-b0e3-4b6f-9293-a8fc42f20bd8` · printing: HOB #145 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bar Entry
@@ -958,6 +964,8 @@ schema: 2
   > *He is devious and cunning, in both appearance and deed. Beware the Warbeard, for this brute bites as well as he barks!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15818 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 650 decks; highest synergy [Archetype of Aggression](../../cards/A/arc.md#archetype-of-aggression) (+27%), [Boldwyr Intimidator](../../cards/B/bo.md#boldwyr-intimidator) (+23%), [Kargan Intimidator](../../cards/K/ka.md#kargan-intimidator) (+23%) · EDHREC: in 4,140 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (10.2% of its decks), [Deadpool, Trading Card](../../cards/D/dea.md#deadpool-trading-card) (0.8% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#barktooth-warbeard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/144/barktooth-warbeard) · oracle_id `4a221518-c850-4e8a-a697-765c0a0e76e7` · printing: ME3 #144 (2009-09-07) · [rulings](https://api.scryfall.com/cards/bffbda3c-61c0-421d-a724-6bb9a7005c0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1039,6 +1047,8 @@ schema: 2
 - **Keywords:** Boast, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11935 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,675 decks; highest synergy [Doomsday Excruciator](../../cards/D/do.md#doomsday-excruciator) (+77%), [Zodiark, Umbral God](../../cards/Z/zo.md#zodiark-umbral-god) (+71%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+68%) · EDHREC: in 6,941 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (9.1% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (6.1% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (25.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/87/baron-helmut-zemo) · oracle_id `0fe6c042-1182-4392-8938-fee36149d74f` · printing: MSH #87 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c2aadc25-7755-4bc8-a8af-b01d27eec364/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baron Sengir
@@ -1096,6 +1106,8 @@ schema: 2
   - *2018-01-19* — If a player is destroyed, that player loses the game. There aren’t any ways for a player to regenerate… yet.
   - *2018-01-19* — Some numbers are made up of multiple numerals. For example, if you cast a spell with the number 12 in its text box, the middle ability will trigger if the doom counter is on 1 or 2.
   - *2018-01-19* — To move the doom counter one numeral to the left, move it from 5 to 4, from 4 to 3, from 3 to 2, from 2 to 1, or from 1 to 5, as appropriate.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/127/baron-von-count) · oracle_id `9e6ea8d0-616c-4b29-adf6-0a78625c0476` · printing: UST #127 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barony Vampire
@@ -1319,6 +1331,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10145 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Use the number of equipped creatures you control at the time Barret Wallace's last ability resolves to determine how much damage to deal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 91 decks; highest synergy [Barbed Batterfist](../../cards/B/bar.md#barbed-batterfist) (+73%), [Hexgold Halberd](../../cards/H/he.md#hexgold-halberd) (+71%), [Red Mage's Rapier](../../cards/R/red.md#red-mages-rapier) (+64%) · EDHREC: in 12,381 decks; most often under [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (18.1% of its decks), [Cloud, Planet's Champion](../../cards/C/cl.md#cloud-planets-champion) (33.3% of its decks), [Lightning, Army of One](../../cards/L/li.md#lightning-army-of-one) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#barret-wallace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/129/barret-wallace) · oracle_id `913672bc-cc88-4964-a331-7dbce40f2bda` · printing: FIN #129 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1390,6 +1404,8 @@ schema: 2
   > *—Barrin, master wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18944 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Barrin, Master Wizard + Master of Waves + Phyrexian Altar](https://commanderspellbook.com/combo/3089-4050-4075/) (Infinite colored mana, Infinite death triggers) · EDHREC as commander: 233 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+69%), [Mycosynth Wellspring](../../cards/M/my.md#mycosynth-wellspring) (+60%), [Hatching Plans](../../cards/H/ha.md#hatching-plans) (+59%) · EDHREC: in 2,494 decks; most often under [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (3.1% of its decks), [Lynde, Cheerful Tormentor](../../cards/L/ly.md#lynde-cheerful-tormentor) (2.4% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/63/barrin-master-wizard) · oracle_id `8c6d6684-1943-4af3-98da-951604193911` · printing: USG #63 (1998-10-12) · [rulings](https://api.scryfall.com/cards/ec79e35f-9e78-462d-8b71-4f044e2eff90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrin's Codex
@@ -1543,6 +1559,8 @@ schema: 2
   - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
   - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Radiant Solar + Sefris of the Hidden Ways + Hostage Taker + Barrowin of Clan Undurr](https://commanderspellbook.com/combo/670-1619-4142-6137/) (Near-infinite creature ETB, Near-infinite creature LTB) · EDHREC as commander: 243 decks; highest synergy [Nadaar, Selfless Paladin](../../cards/N/na.md#nadaar-selfless-paladin) (+79%), [Triumphant Adventurer](../../cards/T/tri.md#triumphant-adventurer) (+73%), [Cloister Gargoyle](../../cards/C/cl.md#cloister-gargoyle) (+71%) · EDHREC: in 11,440 decks; most often under [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (58.2% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (39.7% of its decks), [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (11.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/218/barrowin-of-clan-undurr) · oracle_id `c16d5daf-4995-4342-815c-a6b29d594f26` · printing: AFR #218 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Barrow Naughty
@@ -1601,6 +1619,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Bartel Runeaxe can be targeted by the abilities of enchantments, including Auras.
   - *2004-10-04* — This card can be enchanted by moving Auras onto it. The “can’t be the target” text is different from “can’t be enchanted” in that it only applies to Aura spells when they are being cast.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 65 decks; highest synergy [Calamity Bearer](../../cards/C/cal.md#calamity-bearer) (+46%), [Boldwyr Aggressor](../../cards/B/bo.md#boldwyr-aggressor) (+43%), [Sunrise Sovereign](../../cards/S/sun.md#sunrise-sovereign) (+42%) · EDHREC: in 99 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Adun Oakenshield](../../cards/A/ad.md#adun-oakenshield) (2.8% of its decks), [Xira Arien](../../cards/X/xi.md#xira-arien) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/145/bartel-runeaxe) · oracle_id `9beccf09-c024-408b-9f84-fe2c7462babb` · printing: ME3 #145 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bartered Cow
@@ -1736,6 +1756,8 @@ schema: 2
 - **Rulings** (2):
   - *2007-05-01* — The first ability triggers when a Forest enters under any player's control, but only your creatures get the bonus.
   - *2007-05-01* — The size of the Wurm token is determined when the activated ability resolves. It won't change as the number of lands you control changes.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Bramble Sovereign + Paleoloth + Baru, Fist of Krosa](https://commanderspellbook.com/combo/1421-3763-4663/) (Infinite creature tokens, Infinite self-discard triggers) · EDHREC as commander: 184 decks; highest synergy [Harrow](../../cards/H/ha.md#harrow) (+40%), [Avenger of Zendikar](../../cards/A/av.md#avenger-of-zendikar) (+39%), [Springbloom Druid](../../cards/S/spr.md#springbloom-druid) (+39%) · EDHREC: in 2,355 decks; most often under [The Earth King](../../cards/T/thee.md#the-earth-king) (19.7% of its decks), [Yedora, Grave Gardener](../../cards/Y/ye.md#yedora-grave-gardener) (5.3% of its decks), [Ashaya, Soul of the Wild](../../cards/A/as.md#ashaya-soul-of-the-wild) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/142/baru-fist-of-krosa) · oracle_id `b6021700-992a-4faa-8f83-a9af03dc7296` · printing: FUT #142 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baru, Wurmspeaker
@@ -1749,5 +1771,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9866 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The cost reduction of Baru’s last ability can’t reduce the cost to activate it to less than {G}, even if you control a Wurm with power greater than 7.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Baru, Wurmspeaker + Thornbite Staff + Phyrexian Altar](https://commanderspellbook.com/combo/2178-3776-4050/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 5,338 decks; highest synergy [Engulfing Slagwurm](../../cards/E/en.md#engulfing-slagwurm) (+85%), [Bellowing Tanglewurm](../../cards/B/be.md#bellowing-tanglewurm) (+82%), [Sandwurm Convergence](../../cards/S/san.md#sandwurm-convergence) (+81%) · EDHREC: in 7,500 decks; most often under [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (28.9% of its decks), [Grothama, All-Devouring](../../cards/G/gro.md#grothama-all-devouring) (36.0% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#baru-wurmspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/26/baru-wurmspeaker) · oracle_id `1cf27d78-d6ae-4fa2-9c8d-c277913f821c` · printing: DMC #26 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

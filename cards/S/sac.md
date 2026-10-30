@@ -83,6 +83,8 @@ schema: 2
   > *"The warriors deal in poison and fangs. We shamans remember why our ancestors crawled with their bellies to the earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15311 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 444 decks; highest synergy [Bosk Banneret](../../cards/B/bo.md#bosk-banneret) (+85%), [Centaur Omenreader](../../cards/C/ce.md#centaur-omenreader) (+75%), [Elvish Visionary](../../cards/E/el.md#elvish-visionary) (+75%) · EDHREC: in 4,740 decks; most often under [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (88.9% of its decks), [Omo, Queen of Vesuva](../../cards/O/om.md#omo-queen-of-vesuva) (4.7% of its decks), [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (9.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/238/sachi-daughter-of-seshiro) · oracle_id `0d7969b0-193b-4da0-a9eb-bd1c98016ee1` · printing: CHK #238 (2004-10-01) · [rulings](https://api.scryfall.com/cards/4c45b36f-b879-417c-b284-0176990fb9f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Armory

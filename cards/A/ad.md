@@ -138,6 +138,8 @@ schema: 2
   > *—Isao, Enlightened Bushi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20058 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 646 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+90%), [Temple Bell](../../cards/T/te.md#temple-bell) (+86%), [Gaze of Adamaro](../../cards/G/ga.md#gaze-of-adamaro) (+82%) · EDHREC: in 1,587 decks; most often under [Skyfire Kirin](../../cards/S/sk.md#skyfire-kirin) (70.8% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.3% of its decks), [Brion Stoutarm](../../cards/B/br.md#brion-stoutarm) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/91/adamaro-first-to-desire) · oracle_id `18f34bfd-7675-49df-91ea-695c510cd3c3` · printing: SOK #91 (2005-06-03) · [rulings](https://api.scryfall.com/cards/d2fa85ea-f5d5-4be3-a874-ce246c3e4245/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adanto Vanguard
@@ -442,6 +444,8 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — Adeliz's last ability affects only Wizards you control at the time it resolves, including Adeliz itself. Creatures you begin to control later in the turn or that become Wizards later in the turn won't get +1/+1.
   - *2018-04-27* — Adeliz's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 986 decks; highest synergy [Balmor, Battlemage Captain](../../cards/B/bal.md#balmor-battlemage-captain) (+66%), [Stormchaser Mage](../../cards/S/sto.md#stormchaser-mage) (+59%), [Crash Through](../../cards/C/cr.md#crash-through) (+56%) · EDHREC: in 9,939 decks; most often under [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (57.2% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (2.1% of its decks), [Balmor, Battlemage Captain](../../cards/B/bal.md#balmor-battlemage-captain) (28.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/190/adeliz-the-cinder-wind) · oracle_id `850eb3c3-029b-49b0-91a9-6daeb1b3a9e8` · printing: DOM #190 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adept Watershaper
@@ -814,6 +818,8 @@ schema: 2
   > *—The Anvilonian Grimoire*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24461 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Adun Oakenshield + Coretapper + Magistrate's Scepter](https://commanderspellbook.com/combo/3379-3492-3609/) (Infinite turns, Lock) · EDHREC as commander: 428 decks; highest synergy [Animate Dead](../../cards/A/an.md#animate-dead) (+26%), [Buried Alive](../../cards/B/bu.md#buried-alive) (+24%), [Bayou](../../cards/B/bay.md#bayou) (+22%) · EDHREC: in 506 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks), [Xira Arien](../../cards/X/xi.md#xira-arien) (4.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/141/adun-oakenshield) · oracle_id `aefd49a4-ecec-42cb-b882-e5db7f81eff8` · printing: ME1 #141 (2007-09-10) · [rulings](https://api.scryfall.com/cards/184da30e-0db4-450c-8856-5c23088c35be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advanced Hoverguard

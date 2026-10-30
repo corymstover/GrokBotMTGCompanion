@@ -111,6 +111,8 @@ schema: 2
   - *2023-11-10* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2023-11-10* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
   - *2023-11-10* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 35 combos; most popular [Mikaeus, the Unhallowed + Blue, Loyal Raptor + Carrion Feeder](https://commanderspellbook.com/combo/628-2438-6863--133/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 29 decks; highest synergy [Curious Altisaur](../../cards/C/cu.md#curious-altisaur) (+72%), [Cresting Mosasaurus](../../cards/C/cr.md#cresting-mosasaurus) (+69%), [Agent's Toolkit](../../cards/A/ag.md#agents-toolkit) (+65%) · EDHREC: in 1,532 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (2.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#blue-loyal-raptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/8/blue-loyal-raptor) · oracle_id `4f13ed2e-7790-499f-87bf-07480b567811` · printing: REX #8 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -160,6 +162,8 @@ schema: 2
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24379 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 14 decks; highest synergy [Kid Loki](../../cards/K/ki.md#kid-loki) (+70%), [Iron Man, Armored Avenger](../../cards/I/ir.md#iron-man-armored-avenger) (+62%), [Reconnaissance Mission](../../cards/R/rec.md#reconnaissance-mission) (+57%) · EDHREC: in 1,007 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (1.0% of its decks), [King T'Challa](../../cards/K/ki.md#king-tchalla--black-panther-hope-enduring) (2.0% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/530/blue-marvel-adam-brashear) · oracle_id `16f9368a-5da5-4397-a127-c96cdd115b7b` · printing: MSC #530 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de5c8482-462a-49ee-ae4d-1e0e8e0a4b97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Ribbon
@@ -272,6 +276,8 @@ schema: 2
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04d/blu-mansion-prince) · oracle_id `5d179680-96b8-42f7-97bb-ba9121f2c19d` · printing: UNK #RU04d (2025-06-20) · [rulings](https://api.scryfall.com/cards/f3f04a9f-959c-4a37-bf01-34b3ac242eb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blunt the Assault

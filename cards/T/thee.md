@@ -121,6 +121,8 @@ schema: 2
 - **Keywords:** Grumpy Co-play
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03b/the-egotistical-velociraptor) · oracle_id `e0fa50f5-43e5-4b84-89b3-9b6eb5bc7bcc` · printing: UNK #RZ03b (2024-06-29) · [rulings](https://api.scryfall.com/cards/f92a38e3-3d47-4a67-8e26-a45b0229e342/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Eighth Doctor
@@ -139,6 +141,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Minas Tirith](../../cards/M/min.md#minas-tirith) (+63%), [Keeper of the Quiet Hour](../../cards/K/ke.md#keeper-of-the-quiet-hour) (+50%), [Countersculpt](../../cards/C/cou.md#countersculpt) (+49%) · EDHREC: in 8,434 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (92.4% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (98.1% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (62.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-eighth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/124/the-eighth-doctor) · oracle_id `0956bc16-ff04-4e96-8059-ef62afa2405f` · printing: WHO #124 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -227,6 +231,8 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Jhoira's Timebug](../../cards/J/jh.md#jhoiras-timebug) (+40%), [Disperse](../../cards/D/di.md#disperse) (+35%), [Blinding Souleater](../../cards/B/bli.md#blinding-souleater) (+30%) · EDHREC: in 11,592 decks; most often under [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (75.4% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (92.2% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (97.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-eleventh-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/125/the-eleventh-doctor) · oracle_id `721e8249-ff1b-4c15-964b-4ba2a96beb75` · printing: WHO #125 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -402,6 +408,8 @@ schema: 2
   - *2022-09-09* — The Ever-Changing ’Dane copies the printed values of the creature plus any copy effects that have been applied to it. It won’t copy any other effects that have changed that creature’s power, toughness, color, and so on. The Ever-Changing ’Dane won’t copy any counters on the creature, but The Ever-Changing ’Dane will retain any counters it already had on it.
   - *2022-09-09* — The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another creature on a future turn, perhaps).
   - *2022-09-09* — When The Ever-Changing ’Dane becomes a copy of a creature, it’s neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won’t trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,112 decks; highest synergy [Junji, the Midnight Sky](../../cards/J/ju.md#junji-the-midnight-sky) (+53%), [Grim Haruspex](../../cards/G/gri.md#grim-haruspex) (+49%), [Keiga, the Tide Star](../../cards/K/ke.md#keiga-the-tide-star) (+48%) · EDHREC: in 1,320 decks; most often under [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (25.0% of its decks), [Bane, Lord of Darkness](../../cards/B/ban.md#bane-lord-of-darkness) (2.2% of its decks), [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/30/the-ever-changing-dane) · oracle_id `bda0468f-1c72-4d3d-ad94-15d446c75313` · printing: DMC #30 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Everflowing Well // The Myriad Pools
@@ -437,6 +445,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #19823 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 955 decks; highest synergy [Island](../../cards/I/is.md#island) (+88%), [Plains](../../cards/P/pl.md#plains) (+87%), [Mountain](../../cards/M/mou.md#mountain) (+86%) · EDHREC: in 1,679 decks; most often under [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (1.7% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (0.6% of its decks), [Karn, Legacy Reforged](../../cards/K/ka.md#karn-legacy-reforged) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/59/the-everforger) · oracle_id `b8354ac6-5285-43dd-9ba5-93064def2e96` · printing: MBC #59 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1d1a4c67-630c-42de-b37c-1188451d4b20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Explorer

@@ -815,6 +815,8 @@ schema: 2
   > *Prize Card for the Unknown event at Gen Con, August 3rd, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ03/gen-confider-of-ages) · oracle_id `85014e2f-668d-4814-ae9e-be511e036421` · printing: UNK #MZ03 (2023-08-05) · [rulings](https://api.scryfall.com/cards/a16b3903-a5e6-436d-bdd2-f5e7cb94f71e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Genemorph Imago
@@ -858,6 +860,8 @@ schema: 2
   > *"Be honest, Captain. Warrior to warrior. You do prefer it this way, don't you? As it was meant to be. No peace in our time."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32302 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Bloodline Pretender](../../cards/B/blo.md#bloodline-pretender) (+62%), [Maskwood Nexus](../../cards/M/mas.md#maskwood-nexus) (+62%), [Skeletal Changeling](../../cards/S/sk.md#skeletal-changeling) (+62%) · EDHREC: in 49 decks; most often under [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (0.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Baeloth Barrityl, Entertainer // Haunted One](../../cards/B/bae.md#baeloth-barrityl-entertainer) (50.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#general-chang-cold-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/109/general-chang-cold-warrior) · oracle_id `72217c2e-4f6b-41da-8de1-bb6892d3c452` · printing: TRK #109 (2026-11-13) · [rulings](https://api.scryfall.com/cards/c46a0910-215c-4757-8bfe-7eca479157a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -890,6 +894,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Does not undo any abilities which triggered due to the declaration of blockers. A creature which is switched away still has any triggered abilities resolve on it.
   - *2004-10-04* — The new blocker does not trigger any abilities which trigger on creatures becoming blockers, because the creatures were already blockers and the simple change of who is blocking does not trigger such abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 210 decks; highest synergy [Abu Ja'far](../../cards/A/ab.md#abu-jafar) (+63%), [Deftblade Elite](../../cards/D/def.md#deftblade-elite) (+55%), [Benalish Hero](../../cards/B/be.md#benalish-hero) (+54%) · EDHREC: in 358 decks; most often under [Ayesha Tanaka](../../cards/A/ay.md#ayesha-tanaka) (5.7% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (0.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/27/general-jarkeld) · oracle_id `64df77f6-4f7e-442a-971c-8ad3f7d1c979` · printing: ICE #27 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### General Kreat, the Boltbringer
@@ -1037,6 +1043,8 @@ schema: 2
 - **Keywords:** Battalion, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24512 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [SOLDIER Military Program](../../cards/S/so.md#soldier-military-program) (+67%), [Valiant Veteran](../../cards/V/va.md#valiant-veteran) (+66%), [Haazda Marshal](../../cards/H/ha.md#haazda-marshal) (+61%) · EDHREC: in 977 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.6% of its decks), [Myrel, Shield of Argive](../../cards/M/my.md#myrel-shield-of-argive) (1.2% of its decks), [Rograkh, Son of Rohgahh // Yoshimaru, Ever Faithful](../../cards/R/ro.md#rograkh-son-of-rohgahh) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/595/general-thunderbolt-ross) · oracle_id `57ffb558-3a1c-43ea-a79c-bcfacad22ca4` · printing: MSC #595 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0f352743-383c-4806-8cbd-d2bea6057283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### General Traag, Heart of Stone
@@ -1053,6 +1061,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25865 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — You don't choose a target for General Traag's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice another artifact this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Commander's Sphere](../../cards/C/com.md#commanders-sphere) (+59%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+54%), [Salvager of Ruin](../../cards/S/sal.md#salvager-of-ruin) (+50%) · EDHREC: in 705 decks; most often under [Baxter Stockman](../../cards/B/bax.md#baxter-stockman) (41.0% of its decks), [Don & Raph, Hard Science](../../cards/D/do.md#don--raph-hard-science) (12.2% of its decks), [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/90/general-traag-heart-of-stone) · oracle_id `ade54bb7-3df8-4578-add8-1f85afee57ab` · printing: TMT #90 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Generated Horizons
@@ -1405,6 +1415,8 @@ schema: 2
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05a/genevieve-conniving-dragon) · oracle_id `507a792e-e418-44f2-b953-3cce71573bf9` · printing: UNK #RZ05a (2024-08-03) · [rulings](https://api.scryfall.com/cards/91268447-066d-4fb5-9f20-9fbfaf646d10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Genghis Frog
@@ -1422,6 +1434,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Genghis Frog + Maskwood Nexus + Quina, Qu Gourmet](https://commanderspellbook.com/combo/643-6705-7304/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 347 decks; highest synergy [Michelangelo, Mutant BFF](../../cards/M/mic.md#michelangelo-mutant-bff) (+78%), [Mutagen Man, Living Ooze](../../cards/M/mu.md#mutagen-man-living-ooze) (+78%), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (+71%) · EDHREC: in 5,317 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (14.4% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (17.4% of its decks), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (76.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/148/genghis-frog) · oracle_id `1d6d0348-46ad-46ed-ae7b-d7510f0ebe70` · printing: TMT #148 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Genji Glove
@@ -1547,6 +1561,8 @@ schema: 2
   - *2024-06-07* — If multiple other nontoken permanents you control leave the battlefield simultaneously, you must still choose different modes for each instance of the triggered ability that's put onto the stack. If more than three other nontoken permanents you control leave the battlefield simultaneously, that choice is made only for the first three.
   - *2024-06-07* — If you can't legally choose a mode because all three have been chosen that turn, that instance of the ability is removed from the stack with no effect.
   - *2024-06-07* — If you somehow control two or more Genku, Future Shapers, track which modes have been chosen each turn for each one's ability separately.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Genku, Future Shaper + Crystalline Crawler + Cryptic Trilobite + Lae'zel, Vlaakith's Champion](https://commanderspellbook.com/combo/2060-3334-4929-5652/) (Infinite +1/+1 counters on most creatures you control, Infinite colorless mana that can only be spent to activate abilities) · EDHREC as commander: 1,451 decks; highest synergy [Aether Channeler](../../cards/A/ae.md#aether-channeler) (+43%), [Soulherder](../../cards/S/so.md#soulherder) (+43%), [Dour Port-Mage](../../cards/D/do.md#dour-port-mage) (+42%) · EDHREC: in 8,302 decks; most often under [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (11.5% of its decks), [Kykar, Zephyr Awakener](../../cards/K/ky.md#kykar-zephyr-awakener) (22.7% of its decks), [Tameshi, Reality Architect](../../cards/T/ta.md#tameshi-reality-architect) (17.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#genku-future-shaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/186/genku-future-shaper) · oracle_id `ca16b735-26c7-4d0b-959b-b031f6cb376e` · printing: MH3 #186 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1876,6 +1892,8 @@ schema: 2
   > • Tap up to one target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04a/gerrard-and-hanna) · oracle_id `230190e0-806d-42f8-b1da-977b796c87a9` · printing: UNK #RW04a (2023-05-06) · [rulings](https://api.scryfall.com/cards/8bb1731a-2a78-4932-abb5-c440f105d8ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gerrard Capashen
@@ -1888,6 +1906,8 @@ schema: 2
   > {3}{W}: Tap target creature. Activate only if Gerrard Capashen is attacking.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19601 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 133 decks; highest synergy [Howling Mine](../../cards/H/ho.md#howling-mine) (+69%), [Temple Bell](../../cards/T/te.md#temple-bell) (+62%), [Font of Mythos](../../cards/F/fo.md#font-of-mythos) (+53%) · EDHREC: in 2,305 decks; most often under [Will, Scion of Peace](../../cards/W/wi.md#will-scion-of-peace) (14.7% of its decks), [Hope Estheim](../../cards/H/ho.md#hope-estheim) (1.1% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/46/gerrard-capashen) · oracle_id `27521e70-3a1f-4819-a111-c38216ffe7c3` · printing: DDE #46 (2010-03-19) · [rulings](https://api.scryfall.com/cards/447c8c98-ac0e-4a12-a99e-f75d82b7a51f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gerrard's Battle Cry
@@ -1988,6 +2008,8 @@ schema: 2
   - *2019-08-23* — Gerrard's triggered ability returns artifact and creature cards even if they were put into your graveyard while Gerrard wasn't on the battlefield, so long as they were put there this turn.
   - *2019-08-23* — If Gerrard is your commander and you can exile it from your graveyard as its triggered ability resolves, you'll still be able to put it into the command zone after you return your artifact and creature cards to the battlefield.
   - *2019-08-23* — Permanent spells that were countered earlier in the turn never entered the battlefield, so they won't be returned by Gerrard's ability. 
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 53 combos; most popular [Gerrard, Weatherlight Hero + Loyal Retainers + Goblin Bombardment](https://commanderspellbook.com/combo/238-2533-5147/) (Infinite blinking, Infinite damage) · EDHREC as commander: 514 decks; highest synergy [Chromatic Star](../../cards/C/chr.md#chromatic-star) (+54%), [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) (+50%), [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+50%) · EDHREC: in 8,910 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (15.6% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (12.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/41/gerrard-weatherlight-hero) · oracle_id `8a1e8435-16f2-475b-a8a9-7b9f0cf4594a` · printing: C19 #41 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gerrymandering
@@ -2011,6 +2033,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24661 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Savage Land Dinosaur](../../cards/S/sav.md#savage-land-dinosaur) (+63%), [Scytheclaw Raptor](../../cards/S/sc.md#scytheclaw-raptor) (+53%), [Lightning Strike](../../cards/L/li.md#lightning-strike) (+45%) · EDHREC: in 951 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (22.1% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (1.7% of its decks), [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/568/gert-and-old-lace-runaways) · oracle_id `aaded61e-32c2-4e02-8557-3f8cd927a64e` · printing: MSC #568 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7e4030ce-1574-4d1d-969a-6aa8ce6b89c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Get a Leg Up
@@ -2169,6 +2193,8 @@ schema: 2
   > *"It seems someone forgot to read the fine print."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20664 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Geth, Thane of Contracts + Gravecrawler + Pitiless Plunderer](https://commanderspellbook.com/combo/159-2577-4871/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 146 decks; highest synergy [Syr Konrad, the Grim](../../cards/S/sy.md#syr-konrad-the-grim) (+47%), [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+46%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+46%) · EDHREC: in 1,855 decks; most often under [The Second Doctor // Vislor Turlough](../../cards/T/thes.md#the-second-doctor) (7.5% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (0.5% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/95/geth-thane-of-contracts) · oracle_id `b868de48-3271-4f33-94a4-3dd9b67dd72c` · printing: ONE #95 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c26e18be-81a1-4645-866a-fae5c2fdf7c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Get Lost

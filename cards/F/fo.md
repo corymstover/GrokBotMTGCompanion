@@ -465,6 +465,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23493 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [April O'Neil, Kunoichi Trainee](../../cards/A/ap.md#april-oneil-kunoichi-trainee) (+60%), [Beloved Chaplain](../../cards/B/be.md#beloved-chaplain) (+60%), [Daily Bugle Reporters](../../cards/D/da.md#daily-bugle-reporters) (+60%) · EDHREC: in 1,192 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (47.4% of its decks), [Jennifer Walters](../../cards/J/je.md#jennifer-walters--the-sensational-she-hulk) (2.1% of its decks), [Matt Murdock, Justice Seeker](../../cards/M/mat.md#matt-murdock-justice-seeker) (67.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/594/foggy-nelson-on-retainer) · oracle_id `734fc893-b736-448a-b851-826976031754` · printing: MSC #594 (2026-06-26) · [rulings](https://api.scryfall.com/cards/75e5a931-ad2d-4976-9c4e-b00325eb0fe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Foggy Swamp Hunters

@@ -554,6 +554,8 @@ schema: 2
 - **Keywords:** Flying, Goad, Protection, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24783 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 245 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+80%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+78%), [Blade of Selves](../../cards/B/bla.md#blade-of-selves) (+71%) · EDHREC: in 708 decks; most often under [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (1.5% of its decks), [Firkraag, Cunning Instigator](../../cards/F/fi.md#firkraag-cunning-instigator) (5.4% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/20/balefang-the-unslayable) · oracle_id `195d1f2a-0d71-475b-9dd1-0c8efe64ad8f` · printing: MBC #20 (2026-10-19) · [rulings](https://api.scryfall.com/cards/02d08142-59a3-48e3-8897-5aeeb803dc4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balefire Dragon
@@ -734,6 +736,8 @@ schema: 2
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
   - *2026-06-29* — The decision to discard your hand is made during the resolution of the ability, so there is no opportunity for an opponent to respond between choosing to discard your hand and drawing cards.
   - *2026-06-29* — You may choose to discard your hand even if your hand contains zero cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 385 decks; highest synergy [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (+77%), [Blazing Firesinger](../../cards/B/bla.md#blazing-firesinger--seething-song) (+67%), [Fíli and Kíli, Joyous](../../cards/F/fi.md#fíli-and-kíli-joyous) (+67%) · EDHREC: in 11,958 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (77.1% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (73.0% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (73.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/87/balin-loremaster) · oracle_id `0d420e41-43e9-41d6-832c-5a9f410c994e` · printing: HOB #87 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ballad of the Black Flag
@@ -1168,6 +1172,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14857 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Balthier and Fran's last ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,821 decks; highest synergy [Lumbering Worldwagon](../../cards/L/lu.md#lumbering-worldwagon) (+88%), [Thunderous Velocipede](../../cards/T/thu.md#thunderous-velocipede) (+84%), [Oviya, Automech Artisan](../../cards/O/ov.md#oviya-automech-artisan) (+81%) · EDHREC: in 2,938 decks; most often under [Samut, the Driving Force](../../cards/S/sam.md#samut-the-driving-force) (26.4% of its decks), [Bello, Bard of the Brambles](../../cards/B/be.md#bello-bard-of-the-brambles) (1.9% of its decks), [Pia Nalaar, Chief Mechanic](../../cards/P/pi.md#pia-nalaar-chief-mechanic) (27.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#balthier-and-fran)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/213/balthier-and-fran) · oracle_id `570cb560-c246-4652-b230-ab34f966c78a` · printing: FIN #213 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1202,6 +1208,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25200 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — The Legend rule only applies to two legendary permanents with identical names. If the names are different, even if they depict the same character, the rule does not apply.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 134 decks; highest synergy [Sardian Cliffstomper](../../cards/S/sar.md#sardian-cliffstomper) (+86%), [Kamahl, Pit Fighter](../../cards/K/ka.md#kamahl-pit-fighter) (+83%), [Jeska, Warrior Adept](../../cards/J/je.md#jeska-warrior-adept) (+81%) · EDHREC: in 659 decks; most often under [Karlach, Fury of Avernus // Haunted One](../../cards/K/ka.md#karlach-fury-of-avernus) (67.7% of its decks), [Lovisa Coldeyes](../../cards/L/lo.md#lovisa-coldeyes) (12.4% of its decks), [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/91/balthor-the-stout) · oracle_id `23669721-fe9e-49d7-9504-ae6164de723a` · printing: TOR #91 (2002-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Balustrade Spy

@@ -46,6 +46,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14473 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Deadly Recluse](../../cards/D/dea.md#deadly-recluse) (+49%), [Guy in the Chair](../../cards/G/gu.md#guy-in-the-chair) (+47%), [Penumbra Spider](../../cards/P/pe.md#penumbra-spider) (+42%) · EDHREC: in 6,107 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (23.3% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (12.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/100/ezekiel-sims-spider-totem) · oracle_id `4074e897-82a4-4f57-86c2-4aab3f29ef9b` · printing: SPM #100 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio Auditore da Firenze
@@ -98,6 +100,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12960 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-05* — If Ezio loses first strike after it has already dealt first-strike combat damage but before regular combat damage has been dealt, it won't also deal regular combat damage (unless it somehow has double strike).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 116 decks; highest synergy [Hookblade](../../cards/H/ho.md#hookblade) (+47%), [Haystack](../../cards/H/ha.md#haystack) (+45%), [Arbaaz Mir](../../cards/A/arb.md#arbaaz-mir) (+42%) · EDHREC: in 7,531 decks; most often under [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (20.6% of its decks), [Altaïr Ibn-La'Ahad](../../cards/A/al.md#altaïr-ibn-laahad) (7.6% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/55/ezio-brash-novice) · oracle_id `d4e2b541-31b6-4bcb-a28a-d897deb91484` · printing: ACR #55 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezrim, Agency Chief
@@ -117,6 +121,8 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ezrim, Agency Chief + Krark-Clan Ironworks + Eldrazi Displacer](https://commanderspellbook.com/combo/4013-4659-5363/) (Infinite artifact tokens, Infinite blinking) · EDHREC as commander: 754 decks; highest synergy [Merchant of Truth](../../cards/M/me.md#merchant-of-truth) (+72%), [Officious Interrogation](../../cards/O/of.md#officious-interrogation) (+70%), [Forensic Gadgeteer](../../cards/F/fo.md#forensic-gadgeteer) (+68%) · EDHREC: in 5,236 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (16.2% of its decks), [Alquist Proft, Master Sleuth](../../cards/A/al.md#alquist-proft-master-sleuth) (70.6% of its decks), [Inquisitor Greyfax](../../cards/I/inq.md#inquisitor-greyfax) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/202/ezrim-agency-chief) · oracle_id `ddcd8a0a-7ac3-4400-a16f-8bb5aa50994e` · printing: MKM #202 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Claw of Progress

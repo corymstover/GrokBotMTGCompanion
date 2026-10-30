@@ -476,6 +476,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11098 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Arcanis the Omnipotent](../../cards/A/arc.md#arcanis-the-omnipotent) (+68%), [Dreamscape Artist](../../cards/D/dre.md#dreamscape-artist) (+55%), [Marvin, Murderous Mimic](../../cards/M/mar.md#marvin-murderous-mimic) (+51%) · EDHREC: in 11,221 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (18.9% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (55.5% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (8.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/51/echo-perceptive-prodigy) · oracle_id `1091c83a-a4b9-457f-a69a-9a44a7e10759` · printing: MSH #51 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cd9b9be6-0143-467c-8a2a-937ecafe0473/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Echo Storm

@@ -348,6 +348,8 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — Use the number of attacking creatures with flying as the ability resolves to determine the value of X.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+78%), [Mind Stone](../../cards/M/min.md#mind-stone) (+66%), [Faerie Formation](../../cards/F/fa.md#faerie-formation) (+60%) · EDHREC: in 5,527 decks; most often under [Elminster](../../cards/E/el.md#elminster) (32.7% of its decks), [Errant and Giada](../../cards/E/er.md#errant-and-giada) (8.6% of its decks), [Kangee, Sky Warden](../../cards/K/ka.md#kangee-sky-warden) (9.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/95/siani-eye-of-the-storm) · oracle_id `ecf808fd-4828-497e-b84b-1cb018a9924b` · printing: CMR #95 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sibilant Spirit
@@ -615,6 +617,8 @@ schema: 2
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26989 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Knight of Valor](../../cards/K/kn.md#knight-of-valor) (+76%), [Femeref Knight](../../cards/F/fe.md#femeref-knight) (+71%), [Zhalfirin Crusader](../../cards/Z/zh.md#zhalfirin-crusader) (+71%) · EDHREC: in 490 decks; most often under [Sidar Jabari of Zhalfir](../../cards/S/si.md#sidar-jabari-of-zhalfir) (0.6% of its decks), [Sidar Kondo of Jamuraa // Vial Smasher the Fierce](../../cards/S/si.md#sidar-kondo-of-jamuraa) (4.5% of its decks), [Syr Gwyn, Hero of Ashvale](../../cards/S/sy.md#syr-gwyn-hero-of-ashvale) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/45/sidar-jabari) · oracle_id `cb637dfd-4022-43a4-8632-77e614436f38` · printing: VMA #45 (2014-06-16) · [rulings](https://api.scryfall.com/cards/c6d7c16b-27f2-4608-bb79-c2edb86abdef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sidar Jabari of Zhalfir
@@ -2047,6 +2051,8 @@ schema: 2
   - *2021-02-05* — If Sigrid leaves the battlefield before the triggered ability resolves, the target creature won't be exiled. It will remain an attacking or blocking creature.
   - *2021-02-05* — If a token creature is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2021-02-05* — Some Gods in other sets have abilities that say they aren't creatures under certain conditions. If one of them isn't a creature (and thus also not a God), Sigrid won't have protection from it.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kaldheim](https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [Selfless Squire](../../cards/S/sel.md#selfless-squire) (+47%), [Containment Priest](../../cards/C/con.md#containment-priest) (+41%), [Settle the Wreckage](../../cards/S/set.md#settle-the-wreckage) (+37%) · EDHREC: in 6,191 decks; most often under [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (15.6% of its decks), [Burakos, Party Leader // Folk Hero](../../cards/B/bu.md#burakos-party-leader) (10.4% of its decks), [Venat, Heart of Hydaelyn](../../cards/V/ve.md#venat-heart-of-hydaelyn--hydaelyn-the-mothercrystal) (17.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/29/sigrid-god-favored) · oracle_id `84d37104-2681-42c1-9d19-91a2ebe6a435` · printing: KHM #29 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sigurd, Jarl of Ravensthorpe
@@ -2096,6 +2102,8 @@ schema: 2
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You may cast that card this turn even if Silas Renn leaves the battlefield.
   - *2020-11-10* — You pay the costs for the target artifact card if you cast it. You may pay alternative costs rather than the card's mana cost.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Rograkh, Son of Rohgahh (Grixis)](../../grixis/decks/rograkh-son-of-rohgahh-silas-renn.md) · Commander Spellbook: 32 combos; most popular [Silas Renn, Seeker Adept + Time Sieve + Myr Battlesphere](https://commanderspellbook.com/combo/784-1558-4840/) (Infinite turns, Lock) · EDHREC as commander: 70 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+66%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+63%), [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) (+56%) · EDHREC: in 7,191 decks; most often under [Mishra, Eminent One](../../cards/M/mis.md#mishra-eminent-one) (21.7% of its decks), [Urza, Chief Artificer](../../cards/U/ur.md#urza-chief-artificer) (5.4% of its decks), [Breya, Etherium Shaper](../../cards/B/br.md#breya-etherium-shaper) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#silas-renn-seeker-adept)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/43/silas-renn-seeker-adept) · oracle_id `0dc78b1e-581e-4f28-bf35-e2082553d6a9` · printing: C16 #43 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2908,6 +2916,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13989 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings** (1):
   - *2020-04-17* — You can activate Silvar's last ability even if it already has indestructible. It'll still get a +1/+1 counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Angel of Glory's Rise + Silvar, Devourer of the Free + Fiend Hunter](https://commanderspellbook.com/combo/1447-1734-6446/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 42 decks; highest synergy [Garna, Bloodfist of Keld](../../cards/G/ga.md#garna-bloodfist-of-keld) (+69%), [Horn of Gondor](../../cards/H/ho.md#horn-of-gondor) (+69%), [Hanweir Garrison](../../cards/H/ha.md#hanweir-garrison) (+66%) · EDHREC: in 1,408 decks; most often under [Jirina Kudro](../../cards/J/ji.md#jirina-kudro) (26.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#silvar-devourer-of-the-free)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/15/silvar-devourer-of-the-free) · oracle_id `09199ebd-2c09-455f-ac10-3dbff8e6d428` · printing: C20 #15 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3498,6 +3508,8 @@ schema: 2
   - *2025-09-19* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2025-09-19* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2025-09-19* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 31 decks; highest synergy [Wild Pack Squad](../../cards/W/wi.md#wild-pack-squad) (+48%), [Costume Closet](../../cards/C/cos.md#costume-closet) (+45%), [Dusk Legion Duelist](../../cards/D/du.md#dusk-legion-duelist) (+44%) · EDHREC: in 10,880 decks; most often under [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (31.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (23.2% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#silver-sable-mercenary-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/13/silver-sable-mercenary-leader) · oracle_id `40b82dee-98c7-4b86-88b8-28388cd0331f` · printing: SPM #13 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3618,6 +3630,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17599 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 136 decks; highest synergy [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+69%), [Aether Channeler](../../cards/A/ae.md#aether-channeler) (+67%), [Essence Flux](../../cards/E/es.md#essence-flux) (+63%) · EDHREC: in 3,582 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (6.6% of its decks), [Gandalf, Shadow's Foe](../../cards/G/ga.md#gandalf-shadows-foe) (47.6% of its decks), [Gyruda, Doom of Depths](../../cards/G/gy.md#gyruda-doom-of-depths) (18.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/639/silver-surfer-cosmic-voyager) · oracle_id `3ce1f550-d044-4cb1-991b-e98449f74507` · printing: MSC #639 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4f200c66-2356-4aec-978b-6bb509a3d885/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silver Surfer, Galactus's Herald
@@ -3632,6 +3646,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16021 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 641 decks; highest synergy [Galactus, Devourer of Worlds](../../cards/G/ga.md#galactus-devourer-of-worlds) (+92%), [Molecule Man](../../cards/M/mol.md#molecule-man) (+46%), [Cosmic Cube](../../cards/C/cos.md#cosmic-cube) (+44%) · EDHREC: in 4,228 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (28.5% of its decks), [Molecule Man](../../cards/M/mol.md#molecule-man) (15.8% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/10/silver-surfer-galactuss-herald) · oracle_id `be02005c-0e37-4dba-ac8e-3c69d06bbec2` · printing: MSC #10 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b463462f-8044-4e57-b96e-408a9f4e0974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Silverwing Squadron
@@ -3679,6 +3695,8 @@ schema: 2
 - **Keywords:** Regenerate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19955 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 121 decks; highest synergy [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+52%), [Primal Bellow](../../cards/P/pr.md#primal-bellow) (+31%), [Hunter's Insight](../../cards/H/hu.md#hunters-insight) (+28%) · EDHREC: in 2,140 decks; most often under [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (4.3% of its decks), [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (1.4% of its decks), [Alena, Kessig Trapper // Gilanra, Caller of Wirewood](../../cards/A/al.md#alena-kessig-trapper) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/186/silvos-rogue-elemental) · oracle_id `665b8bbf-c30b-4875-a5c2-fc3b9767ecac` · printing: EMA #186 (2016-06-10) · [rulings](https://api.scryfall.com/cards/f1175357-01fe-438c-93bc-09e29ed8c9cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sima Yi, Wei Field Marshal
@@ -3692,6 +3710,8 @@ schema: 2
   > *Sima Yi fought for four generations of the Cao family before his own grandson became emperor and united the three kingdoms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28512 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 74 decks; highest synergy [Lashwrithe](../../cards/L/la.md#lashwrithe) (+79%), [Nightmare Lash](../../cards/N/ni.md#nightmare-lash) (+78%), [Nightmare](../../cards/N/ni.md#nightmare) (+75%) · EDHREC: in 284 decks; most often under [Korlash, Heir to Blackblade](../../cards/K/ko.md#korlash-heir-to-blackblade) (4.5% of its decks), [Cao Cao, Lord of Wei](../../cards/C/cao.md#cao-cao-lord-of-wei) (20.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/82/sima-yi-wei-field-marshal) · oracle_id `eefa9a94-9915-4dcd-b5dc-7f8e9aa621a7` · printing: PTK #82 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6500b690-d601-4c6d-baea-552e366ea242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simian Brawler
@@ -4036,6 +4056,8 @@ schema: 2
   > At the beginning of your end step, if more lands entered the battlefield under your control this turn than an opponent had enter during their last turn, draw a card. Then, not counting that draw, if you drew more cards this turn than an opponent drew on their last turn, you may put a land card from your hand onto the battlefield.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08d/simic-value-engine) · oracle_id `1810e9fb-4143-4919-8f39-843b40dd3715` · printing: UNK #RZ08d (2023-07-29) · [rulings](https://api.scryfall.com/cards/0b391db6-f0a7-4324-8ed2-59eb21df6d25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Simoon
@@ -4937,6 +4959,8 @@ schema: 2
   > *—rallying cry of the Eberyn militia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28024 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [Gigantosaurus](../../cards/G/gi.md#gigantosaurus) (+21%), [Elite Vanguard](../../cards/E/el.md#elite-vanguard) (+19%), [Kodama's Reach](../../cards/K/ko.md#kodamas-reach) (+19%) · EDHREC: in 354 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (1.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Jasmine Boreal](../../cards/J/ja.md#jasmine-boreal) (13.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/174/sir-shandlar-of-eberyn) · oracle_id `7a9942cd-32ac-4cc9-8840-3fe6b092d0b8` · printing: ME3 #174 (2009-09-07) · [rulings](https://api.scryfall.com/cards/2a92c419-8f1e-4604-824d-28b086b54216/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sisay's Ingenuity
@@ -5068,6 +5092,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17716 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-10-01* — The third ability can get back any creature card exiled by the second ability, no matter when it was exiled. If a card that’s not a creature card (such as Svogthos, the Restless Tomb) was exiled, the third ability can’t return it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 608 decks; highest synergy [Infiltration Lens](../../cards/I/inf.md#infiltration-lens) (+55%), [Gaze of Granite](../../cards/G/ga.md#gaze-of-granite) (+49%), [Lure](../../cards/L/lu.md#lure) (+49%) · EDHREC: in 2,798 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (18.7% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (12.2% of its decks), [Vraska, the Silencer](../../cards/V/vr.md#vraska-the-silencer) (8.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/231/sisters-of-stone-death) · oracle_id `38e64b15-47c0-4453-a51e-a53c1aebc8d0` · printing: RAV #231 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sisters of the Flame
@@ -5096,6 +5122,8 @@ schema: 2
   - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
   - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
   - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 581 decks; highest synergy [Elvish Refueler](../../cards/E/el.md#elvish-refueler) (+47%), [Skyserpent Seeker](../../cards/S/sk.md#skyserpent-seeker) (+39%), [Pit Automaton](../../cards/P/pi.md#pit-automaton) (+34%) · EDHREC: in 3,186 decks; most often under [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (9.9% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (1.6% of its decks), [Sab-Sunen, Luxa Embodied](../../cards/S/sab.md#sab-sunen-luxa-embodied) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/223/sita-varma-masked-racer) · oracle_id `3b9bc41a-a43f-4be7-9452-f61f5ad5b482` · printing: DFT #223 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sivitri, Dragon Master
@@ -5127,6 +5155,8 @@ schema: 2
   > *Even the brave have cause to tremble at the sight of Sivitri Scarzam. Who else has tamed Scarzam's Dragon?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 66 decks; highest synergy [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (+26%), [Ancient Brass Dragon](../../cards/A/an.md#ancient-brass-dragon) (+22%), [Deathbringer Regent](../../cards/D/dea.md#deathbringer-regent) (+22%) · EDHREC: in 277 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Sivitri, Dragon Master](../../cards/S/si.md#sivitri-dragon-master) (0.9% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/175/sivitri-scarzam) · oracle_id `333cc91b-01ab-4491-a993-d8304fc382c6` · printing: ME3 #175 (2009-09-07) · [rulings](https://api.scryfall.com/cards/1575410c-a525-4326-9209-917d2d712559/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sivriss, Nightmare Speaker
@@ -5152,6 +5182,8 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — To resolve the activated ability, first mill a card for the first opponent in turn order. That player chooses whether to pay 3 life or not. The card is returned to your hand unless they paid the life. Then mill a card for the next opponent, and so on.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Haunt of the Dead Marshes](../../cards/H/ha.md#haunt-of-the-dead-marshes) (+31%), [Dawnhand Eulogist](../../cards/D/da.md#dawnhand-eulogist) (+28%), [Ghastly Death Tyrant](../../cards/G/gh.md#ghastly-death-tyrant) (+28%) · EDHREC: in 10,966 decks; most often under [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (6.3% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (7.0% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (1.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sivriss-nightmare-speaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/148/sivriss-nightmare-speaker) · oracle_id `ed15a3c4-110e-4f08-bf09-fabbf5b4eeb9` · printing: CLB #148 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

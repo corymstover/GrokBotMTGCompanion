@@ -114,6 +114,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28781 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 66 decks; highest synergy [Hostage Taker](../../cards/H/ho.md#hostage-taker) (+38%), [Capsize](../../cards/C/cap.md#capsize) (+33%), [Coastal Piracy](../../cards/C/coa.md#coastal-piracy) (+33%) · EDHREC: in 266 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Edward Kenway](../../cards/E/ed.md#edward-kenway) (0.3% of its decks), [Admiral Beckett Brass](../../cards/A/ad.md#admiral-beckett-brass) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/168/ramirez-depietro) · oracle_id `48b9c510-03ed-41cb-8c17-16110d447490` · printing: ME3 #168 (2009-09-07) · [rulings](https://api.scryfall.com/cards/c9890742-f1cb-41fd-bf14-297b3ca88b93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ramirez DePietro, Pillager
@@ -765,6 +767,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27897 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2005-08-01* — A creature is “enchanted” if it has any Auras attached to it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 229 decks; highest synergy [False Demise](../../cards/F/fa.md#false-demise) (+75%), [Hateful Eidolon](../../cards/H/ha.md#hateful-eidolon) (+75%), [Minion's Return](../../cards/M/min.md#minions-return) (+73%) · EDHREC: in 185 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Ezio Auditore da Firenze](../../cards/E/ez.md#ezio-auditore-da-firenze) (0.1% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/169/ramses-overdark) · oracle_id `6c9a9071-8159-4607-9465-de796f1dc2cc` · printing: ME3 #169 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ram Through

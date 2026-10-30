@@ -61,6 +61,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU07a/the-value-knight) · oracle_id `30e1cddd-686a-437d-96ac-1bcb8f22f74c` · printing: UNK #RU07a (2024-02-24) · [rulings](https://api.scryfall.com/cards/540d1f33-85a4-4f1a-a994-37d5187d4434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vanquisher
@@ -85,6 +87,8 @@ schema: 2
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04u/the-vast-scrier) · oracle_id `173d63fa-c467-4871-b2e1-6507cf3fb2c2` · printing: UNK #RZ04u (2025-09-26) · [rulings](https://api.scryfall.com/cards/f3fe34d8-ee91-447d-a09f-15b41689ab13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vegetable Car
@@ -134,4 +138,6 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11700 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 91 combos; most popular [Birgi, God of Storytelling // Harnfel, Horn of Bounty + Sensei's Divining Top + The Vision and Scarlet Witch](https://commanderspellbook.com/combo/392-5078-7729/) (Near-infinite +1/+1 counters on a creature, Near-infinite draw triggers) · EDHREC as commander: 364 decks; highest synergy [Grapeshot](../../cards/G/gra.md#grapeshot) (+69%), [Electro, Assaulting Battery](../../cards/E/el.md#electro-assaulting-battery) (+66%), [Hex Magic](../../cards/H/he.md#hex-magic) (+57%) · EDHREC: in 9,754 decks; most often under [The Scarlet Witch](../../cards/T/thes.md#the-scarlet-witch) (43.7% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (52.3% of its decks), [Thor, God of Thunder](../../cards/T/tho.md#thor-god-of-thunder) (26.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/707/the-vision-and-scarlet-witch) · oracle_id `33219792-f0a7-4849-bfca-70ee2d410b9e` · printing: MSC #707 (2026-06-26) · [rulings](https://api.scryfall.com/cards/930afb5f-54b7-4cca-8c28-3e48938f3a43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -3058,6 +3058,8 @@ schema: 2
   > • [B1] "cards in your hand" | [B2] "card types among cards in your graveyard" | [B3] "artists among nonland, nontoken permanents you control"
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf24/2/convention-maro) · oracle_id `4f3fbf2b-006e-4b3f-8a58-e9dc155f56d8` · printing: PF24 #2 (2024-08-19) · [rulings](https://api.scryfall.com/cards/c8eef19e-30a8-4e3d-abf7-a1435a6d6643/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Convergence of Dominion

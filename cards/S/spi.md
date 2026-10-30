@@ -269,6 +269,8 @@ schema: 2
   > *—Spider-Byte, Margo Kess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10858 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [Morophon, the Boundless + Fist of Suns + Spider-Byte, Web Warden](https://commanderspellbook.com/combo/373-877-6845/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 16 decks; highest synergy [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+58%), [Jarvis, Earth's Mightiest Butler](../../cards/J/ja.md#jarvis-earths-mightiest-butler) (+50%), [Candlekeep Sage](../../cards/C/can.md#candlekeep-sage) (+49%) · EDHREC: in 11,158 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (46.4% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (14.0% of its decks), [Gwen Stacy](../../cards/G/gw.md#gwen-stacy--ghost-spider) (5.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/44/spider-byte-web-warden) · oracle_id `845472ca-3fcb-4bcd-953c-96eb8d914af9` · printing: SPM #44 (2025-09-26) · [rulings](https://api.scryfall.com/cards/210ae606-12a4-453b-bfb4-73ca9c22b8b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider Climb
@@ -314,6 +316,8 @@ schema: 2
   > *On Earth-982, May "Mayday" Parker, the first child of Peter and Mary Jane, continues her father's legacy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12173 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 96 decks; highest synergy [Silk, Web Weaver](../../cards/S/si.md#silk-web-weaver) (+65%), [Spider-UK](../../cards/S/spi.md#spider-uk) (+61%), [Mary Jane Watson](../../cards/M/mar.md#mary-jane-watson) (+58%) · EDHREC: in 8,823 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (30.2% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (24.4% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (21.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-girl-legacy-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/149/spider-girl-legacy-hero) · oracle_id `d459b3f5-a18c-4c17-a855-dc147f7c2161` · printing: SPM #149 (2025-09-26) · [rulings](https://api.scryfall.com/cards/d1f3196a-fe48-446f-ab07-00c66b7816c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -396,6 +400,8 @@ schema: 2
   > *"Lyla, did it work? Are we in the Heroic Age?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11316 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 25 combos; most popular [Morophon, the Boundless + Fist of Suns + Spider-Man 2099, Miguel O'Hara](https://commanderspellbook.com/combo/373-877-6844/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 54 decks; highest synergy [Lyla, Holographic Assistant](../../cards/L/ly.md#lyla-holographic-assistant) (+80%), [Future Flight](../../cards/F/fu.md#future-flight) (+65%), [Slither Blade](../../cards/S/sl.md#slither-blade) (+52%) · EDHREC: in 10,258 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (39.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (19.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (7.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/8/spider-man-2099-miguel-ohara) · oracle_id `c0280d66-699f-4139-828b-a0f79ae2d20d` · printing: SPE #8 (2025-09-26) · [rulings](https://api.scryfall.com/cards/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Brooklyn Visionary
@@ -433,6 +439,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27101 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Aether Chaser](../../cards/A/ae.md#aether-chaser) (+100%), [Blight Herder](../../cards/B/bli.md#blight-herder) (+100%), [Blow Your House Down](../../cards/B/blo.md#blow-your-house-down) (+100%) · EDHREC: in 549 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (3.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (3.1% of its decks), [Spider-Punk](../../cards/S/spi.md#spider-punk) (25.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/857/spider-man-hometown-hero) · oracle_id `ef40224a-5b49-48b0-ad29-c6ce391548f5` · printing: MSC #857 (2026-06-26) · [rulings](https://api.scryfall.com/cards/76c448c7-58e3-480d-bbbb-7aa336fe7c9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider Manifestation
@@ -501,6 +509,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15985 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 95 decks; highest synergy [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+74%), [Change of Fortune](../../cards/C/cha.md#change-of-fortune) (+67%), [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+63%) · EDHREC: in 4,855 decks; most often under [Astonishing Spider-Man](../../cards/A/as.md#astonishing-spider-man) (85.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (8.4% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/705/spider-man-new-champion) · oracle_id `4604c8fb-d38f-42aa-935a-eada20f6aafa` · printing: MSC #705 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc90f14c-9289-4284-bc89-e0df8e03152b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man Noir
@@ -545,6 +555,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11143 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Walking Ballista + Spider-Man, Peter Parker](https://commanderspellbook.com/combo/3693-6824/) (Infinite damage, Infinite lifegain triggers) · EDHREC as commander: 649 decks; highest synergy [Aunt May](../../cards/A/au.md#aunt-may) (+82%), [Linden, the Steadfast Queen](../../cards/L/li.md#linden-the-steadfast-queen) (+66%), [MJ, Rising Star](../../cards/M/mj.md#mj-rising-star) (+66%) · EDHREC: in 10,130 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (26.1% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (12.3% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (8.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/4/spider-man-peter-parker) · oracle_id `5be3243a-6840-4601-96c8-ffb756041d49` · printing: SPE #4 (2025-09-26) · [rulings](https://api.scryfall.com/cards/415bf221-215b-4c9f-b995-8d31ca95adc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, To the Rescue
@@ -559,6 +571,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance, Flash, No One Dies!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16365 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 21 decks; highest synergy [Spider-Girl, Legacy Hero](../../cards/S/spi.md#spider-girl-legacy-hero) (+52%), [Spider-Man, Brooklyn Visionary](../../cards/S/spi.md#spider-man-brooklyn-visionary) (+52%), [Web Up](../../cards/W/we.md#web-up) (+47%) · EDHREC: in 4,556 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (30.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (9.0% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (20.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/228/spider-man-to-the-rescue) · oracle_id `85dec6cf-6f27-4eb0-834b-5f6fbbe25fc8` · printing: MSH #228 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e5db6968-1ca3-46bd-8cf9-e2c411ab29c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Web-Slinger
@@ -577,6 +591,8 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Arachne, Psionic Weaver + Spider-Man, Web-Slinger + Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight](https://commanderspellbook.com/combo/6972-7673-7674/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 73 decks; highest synergy [Spider-UK](../../cards/S/spi.md#spider-uk) (+43%), [Helpful Hunter](../../cards/H/he.md#helpful-hunter) (+38%), [Aunt May](../../cards/A/au.md#aunt-may) (+37%) · EDHREC: in 11,232 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (33.1% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (21.6% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (16.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/776/spider-man-web-slinger) · oracle_id `505231d8-714f-4c5b-a635-d1662bd18a78` · printing: MSC #776 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Man, Web-Spinner
@@ -591,6 +607,8 @@ schema: 2
 - **Keywords:** Haste, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19558 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 51 decks; highest synergy [Mjölnir, Hammer of Thor](../../cards/M/mj.md#mjölnir-hammer-of-thor) (+67%), [Spider-Punk](../../cards/S/spi.md#spider-punk) (+61%), [Hammer of Nazahn](../../cards/H/ha.md#hammer-of-nazahn) (+49%) · EDHREC: in 2,572 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (15.9% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (5.5% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (18.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-man-web-spinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/832/spider-man-web-spinner) · oracle_id `d586ef58-ca9e-4c6d-94d6-3b8d782b11e1` · printing: MSC #832 (2026-06-26) · [rulings](https://api.scryfall.com/cards/acf20da5-e460-4191-ad68-eae398bb7c5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -710,6 +728,8 @@ schema: 2
   > *"With each attempt on Spider-Man's life, my father came closer to ending the menace. It is my pleasure to finish the job."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18999 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [A.I.M. Synthoids](../../cards/A/ai.md#aim-synthoids) (+49%), [Dependable Quinjet](../../cards/D/dep.md#dependable-quinjet) (+49%), [Rings of Brighthearth](../../cards/R/ri.md#rings-of-brighthearth) (+49%) · EDHREC: in 2,718 decks; most often under [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (24.8% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (1.8% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (1.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spider-slayer-hatred-honed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/175/spider-slayer-hatred-honed) · oracle_id `ca68f436-2522-4007-87bf-2669c7743db0` · printing: SPM #175 (2025-09-26) · [rulings](https://api.scryfall.com/cards/ac37ca6f-a6ee-4dfb-949f-2562f98d09d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -728,6 +748,8 @@ schema: 2
   - *2025-09-19* — The creature you return must be tapped at the time you pay costs, but doesn't necessarily need to be tapped before you start casting the spell. For example, if you tap a creature with a mana ability to pay part of the spell's web-slinging cost, you could also return that creature to your hand to pay the cost.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 43 decks; highest synergy [Spider-Man, Brooklyn Visionary](../../cards/S/spi.md#spider-man-brooklyn-visionary) (+79%), [Arachnogenesis](../../cards/A/ara.md#arachnogenesis) (+76%), [Arasta of the Endless Web](../../cards/A/ara.md#arasta-of-the-endless-web) (+72%) · EDHREC: in 12,894 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (44.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (26.1% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (16.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#spiders-man-heroic-horde)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/117/spiders-man-heroic-horde) · oracle_id `d21d7557-9702-46c1-8277-42a3442084c2` · printing: SPM #117 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -852,6 +874,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19413 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Frozen in Ice](../../cards/F/fr.md#frozen-in-ice) (+49%), [The Wondrous Wasp](../../cards/T/thew.md#the-wondrous-wasp) (+39%), [Quake, Agent of S.H.I.E.L.D.](../../cards/Q/qu.md#quake-agent-of-shield) (+33%) · EDHREC: in 2,657 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (17.6% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (5.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/229/spider-woman-secret-agent) · oracle_id `04e53f36-9f16-4678-9caf-9afda85f76b4` · printing: MSH #229 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a0325cb5-4c43-418a-8f1b-cf5bf29e74d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spider-Woman, Stunning Savior
@@ -1244,6 +1268,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-01-19* — A full list of cards that have been banned and/or restricted in a Constructed format as of the release of Unstable can be found here: https://magic.wizards.com/en/articles/archive/news/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/69/spike-tournament-grinder) · oracle_id `004b2032-0d29-4361-b9c8-a3c0c7b63e2c` · printing: UST #69 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spike Weaver
@@ -1733,6 +1759,8 @@ schema: 2
 - **Keywords:** Open an Attraction, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18076 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 44 decks; highest synergy [Coming Attraction](../../cards/C/com.md#coming-attraction) (+97%), [Deadbeat Attendant](../../cards/D/dea.md#deadbeat-attendant) (+95%), [Step Right Up](../../cards/S/ste.md#step-right-up) (+95%) · EDHREC: in 3,184 decks; most often under [The Most Dangerous Gamer](../../cards/T/them.md#the-most-dangerous-gamer) (80.0% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (0.6% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#spinnerette-arachnobat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/180/spinnerette-arachnobat) · oracle_id `9372f286-5ea6-4abb-b695-1ad5f46efe34` · printing: UNF #180 (2022-10-07) · [rulings](https://api.scryfall.com/cards/24a92336-2ed7-4496-9476-9fe3368bbdfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2490,6 +2518,8 @@ schema: 2
 - **Keywords:** Flying, Protection, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19887 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 157 decks; highest synergy [Darkest Hour](../../cards/D/da.md#darkest-hour) (+66%), [Nightmare Lash](../../cards/N/ni.md#nightmare-lash) (+57%), [Bubbling Muck](../../cards/B/bu.md#bubbling-muck) (+49%) · EDHREC: in 2,130 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (29.6% of its decks), [Volrath the Fallen](../../cards/V/vo.md#volrath-the-fallen) (20.5% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/146/spirit-of-the-night) · oracle_id `73016220-2436-4072-96dd-65c0cb05fff4` · printing: MIR #146 (1996-10-08) · [rulings](https://api.scryfall.com/cards/845c4b06-090f-4217-acb2-8900b7dab37c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spirit of the Season

@@ -581,6 +581,8 @@ schema: 2
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
   - *2013-09-15* — Only creatures you control when the heroic ability resolves will get the bonuses. Creatures that come under your control later in the turn will not.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 605 decks; highest synergy [Akroan Crusader](../../cards/A/ak.md#akroan-crusader) (+55%), [Phalanx Leader](../../cards/P/ph.md#phalanx-leader) (+54%), [Defiant Strike](../../cards/D/def.md#defiant-strike) (+50%) · EDHREC: in 4,281 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (19.3% of its decks), [Hinata, Dawn-Crowned](../../cards/H/hi.md#hinata-dawn-crowned) (1.7% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#anax-and-cymede)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/186/anax-and-cymede) · oracle_id `9c4219db-1a7a-4d61-bb8b-7998cfed1faf` · printing: THS #186 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -601,6 +603,8 @@ schema: 2
   - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#anax-and-cymede--kynaios-and-tiro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/589/anax-and-cymede-&-kynaios-and-tiro) · oracle_id `68de3f03-2ae2-4644-acc8-299a57480e97` · printing: MB2 #589 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1503,6 +1507,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph21/1/andrios-roaming-explorer) · oracle_id `e1c8c6bf-09e2-49de-9de0-17174b3b8a59` · printing: PH21 #1 (2022-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### And They Shall Know No Fear
@@ -1568,6 +1574,8 @@ schema: 2
   - *2024-11-08* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
   - *2024-11-08* — You can exert Anep as you declare it as an attacking creature. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
   - *2024-11-08* — You pay all costs and follow all timing rules for cards played with the permission granted by the ability that triggers when you exert Anep. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 113 decks; highest synergy [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+57%), [Battlefield Scavenger](../../cards/B/bat.md#battlefield-scavenger) (+50%), [Short Bow](../../cards/S/sho.md#short-bow) (+48%) · EDHREC: in 5,198 decks; most often under [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (49.8% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (1.9% of its decks), [Dragonhawk, Fate's Tempest](../../cards/D/dra.md#dragonhawk-fates-tempest) (8.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/46/anep-vizier-of-hazoret) · oracle_id `0a73289f-0f0b-4316-be21-8edcbb08bd7c` · printing: J25 #46 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angelfire Crusader
@@ -1934,6 +1942,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32246 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — A creature token that was created with two or more creature types will (usually) qualify for the bonus bestowed by Harold’s last ability because its name is those types plus the word “Token.” It doesn’t matter what you’re using to represent the token.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [Bident of Thassa](../../cards/B/bi.md#bident-of-thassa) (+57%), [Sword-Swallowing Seraph](../../cards/S/sw.md#sword-swallowing-seraph) (+56%), [A Good Day to Pie](../../cards/A/ag.md#a-good-day-to-pie) (+44%) · EDHREC: in 21 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.3% of its decks), [Claire D'Loon, Joy Sculptor](../../cards/C/cl.md#claire-dloon-joy-sculptor) (0.7% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/162/angelic-harold) · oracle_id `4fed8066-4597-4ebb-ac88-6622cf007d81` · printing: UNF #162 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Angelic Intervention
@@ -2976,6 +2986,8 @@ schema: 2
   > *—Angus Mackenzie, Diary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18898 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,883 decks; highest synergy [Fog](../../cards/F/fo.md#fog) (+51%), [Maze of Ith](../../cards/M/maz.md#maze-of-ith) (+51%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+46%) · EDHREC: in 892 decks; most often under [Sliver Queen](../../cards/S/sl.md#sliver-queen) (3.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/141/angus-mackenzie) · oracle_id `d5e6ac6b-5786-4d98-8037-0867e365fc93` · printing: ME3 #141 (2009-09-07) · [rulings](https://api.scryfall.com/cards/bb3920ac-7d61-494e-b7dd-bd37d4dee143/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### An-Havva Constable
@@ -3037,6 +3049,8 @@ schema: 2
   - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Streets of New Capenna](https://magic.wizards.com/en/news/feature/the-legends-youll-find-in-streets-of-new-capenna) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Anhelo, the Painter (Grixis)](../../grixis/decks/anhelo-the-painter.md) · Commander Spellbook: 20 combos; most popular [Anhelo, the Painter + Talrand, Sky Summoner + Call to Mind + Mystic Retrieval + Walk the Aeons](https://commanderspellbook.com/combo/117-185-2501-3098-4377/) (Infinite turns, Lock) · EDHREC as commander: 6,306 decks; highest synergy [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (+64%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+62%), [Cormela, Glamour Thief](../../cards/C/cor.md#cormela-glamour-thief) (+61%) · EDHREC: in 2,685 decks; most often under [Evelyn, the Covetous](../../cards/E/ev.md#evelyn-the-covetous) (7.4% of its decks), [Saruman, the White Hand](../../cards/S/sar.md#saruman-the-white-hand) (2.3% of its decks), [Parnesse, the Subtle Brush](../../cards/P/pa.md#parnesse-the-subtle-brush) (15.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#anhelo-the-painter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/1/anhelo-the-painter) · oracle_id `d3c3f293-6790-4dce-900a-8af0464c2572` · printing: NCC #1 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3583,6 +3597,8 @@ schema: 2
   - *2024-04-12* — If the mana cost of a card in your graveyard includes {X}, X is 0 for the purpose of determining its mana value.
   - *2024-04-12* — If you return an Aura this way, you choose what the Aura will enchant just before it enters the battlefield. An Aura returning to the battlefield this way doesn't target the player or permanent it will enchant, so players or permanents with hexproof may be chosen; however, the chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura's qualities can't be chosen this way. If there's nothing legal for the Aura to enchant, it stays in the graveyard.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Annie Flash's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Glider Staff + Krark-Clan Ironworks + Annie Flash, the Veteran](https://commanderspellbook.com/combo/4659-5992-7044/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 976 decks; highest synergy [Wylie Duke, Atiin Hero](../../cards/W/wy.md#wylie-duke-atiin-hero) (+59%), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (+38%), [Guardian Sunmare](../../cards/G/gu.md#guardian-sunmare) (+38%) · EDHREC: in 2,312 decks; most often under [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (2.3% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.9% of its decks), [Havi, the All-Father](../../cards/H/ha.md#havi-the-all-father) (9.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/190/annie-flash-the-veteran) · oracle_id `858067f9-eb1f-4569-9831-30441cba5f90` · printing: OTJ #190 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Annie Joins Up
@@ -3934,6 +3950,8 @@ schema: 2
   > • Equipped creatures you control have haste.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ10/anothr-equipment-commander) · oracle_id `17443db8-f734-41fd-a799-640c3fdcf78e` · printing: UNK #RZ10 (2023-07-29) · [rulings](https://api.scryfall.com/cards/b38aec4e-cdb2-484a-8c2f-db4cfa7739b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anowon, the Ruin Sage
@@ -3969,6 +3987,8 @@ schema: 2
   - *2020-09-25* — If Rogues you control deal combat damage to two players at once, Anowon’s ability triggers twice.
   - *2020-09-25* — The player dealt combat damage mills cards only for the damage dealt by your Rogues, not for any other combat damage dealt to them at the same time.
   - *2020-09-25* — You draw just one card, no matter how many creature cards the player mills beyond the first.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,167 decks; highest synergy [Soaring Thought-Thief](../../cards/S/so.md#soaring-thought-thief) (+92%), [Oona's Blackguard](../../cards/O/oo.md#oonas-blackguard) (+83%), [Frogtosser Banneret](../../cards/F/fr.md#frogtosser-banneret) (+79%) · EDHREC: in 5,942 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (9.3% of its decks), [Gonti, Canny Acquisitor](../../cards/G/gon.md#gonti-canny-acquisitor) (3.2% of its decks), [Rilsa Rael, Kingpin](../../cards/R/ri.md#rilsa-rael-kingpin) (23.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/1/anowon-the-ruin-thief) · oracle_id `e7e69583-8326-417e-8a9a-6b917c8ba4b6` · printing: ZNC #1 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anrakyr the Traveller
@@ -4073,6 +4093,8 @@ schema: 2
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
   - *2013-09-15* — If a land that hasn't been under your control continuously since your last turn began becomes a creature, it can't attack and its activated abilities that include {T} can't be activated. Notably, it can't be tapped for mana that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 189 decks; highest synergy [Season of Growth](../../cards/S/sea.md#season-of-growth) (+69%), [Sylvan Advocate](../../cards/S/sy.md#sylvan-advocate) (+57%), [Charge Through](../../cards/C/cha.md#charge-through) (+55%) · EDHREC: in 275 decks; most often under [Ivy, Gleeful Spellthief](../../cards/I/iv.md#ivy-gleeful-spellthief) (0.2% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (0.1% of its decks), [Siona, Captain of the Pyleas](../../cards/S/si.md#siona-captain-of-the-pyleas) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/149/anthousa-setessan-hero) · oracle_id `141f952b-9e9f-48c5-9c88-b1504dfa73bc` · printing: THS #149 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Anthropede
@@ -4236,6 +4258,8 @@ schema: 2
   > Whenever you put a +1/+1 counter on a creature, create a 1/1 green Insect creature token. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16097 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 157 decks; highest synergy [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (+55%), [Training Regimen](../../cards/T/tra.md#training-regimen) (+43%), [Mister Fantastic, Reed Richards](../../cards/M/mis.md#mister-fantastic-reed-richards) (+38%) · EDHREC: in 4,552 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (54.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (7.2% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/201/ant-man-colony-commander) · oracle_id `b0ed9fbe-324d-467a-a326-c6f85a4c688a` · printing: MSH #201 (2026-06-26) · [rulings](https://api.scryfall.com/cards/26faf2db-ad86-462f-b61f-c1893c9aebbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ant-Man, Elusive Avenger
@@ -4252,6 +4276,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12516 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Ant-Man, Elusive Avenger + Mechanized Production](https://commanderspellbook.com/combo/2047-7748/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 558 decks; highest synergy [Brute Force](../../cards/B/br.md#brute-force) (+72%), [Titan's Strength](../../cards/T/ti.md#titans-strength) (+71%), [Infuriate](../../cards/I/inf.md#infuriate) (+68%) · EDHREC: in 8,266 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (84.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (11.1% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (70.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ant-man-elusive-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/73/ant-man-elusive-avenger) · oracle_id `f334087a-deda-4e9e-ab58-68f7e226d7ce` · printing: MSC #73 (2026-06-26) · [rulings](https://api.scryfall.com/cards/18e2b0a4-0ed3-48e6-8334-198a19e54bff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4266,6 +4292,8 @@ schema: 2
   > Whenever Ant-Man deals combat damage to a player, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26091 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Giant Growth](../../cards/G/gi.md#giant-growth) (+44%), [Snakeskin Veil](../../cards/S/sn.md#snakeskin-veil) (+43%), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (+36%) · EDHREC: in 649 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (8.2% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (0.4% of its decks), [Ant-Man, Colony Commander](../../cards/A/an.md#ant-man-colony-commander) (17.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/739/ant-man-reformed-rogue) · oracle_id `c51c429d-d8d7-40d6-9760-72c26acaed42` · printing: MSC #739 (2026-06-26) · [rulings](https://api.scryfall.com/cards/777bc602-3c8d-43a1-812f-2103dc26b635/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ant-Man's Air Force
@@ -4309,6 +4337,8 @@ schema: 2
   > *"Most times, they don't look down until it's too late."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28919 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Everflowing Chalice](../../cards/E/ev.md#everflowing-chalice) (+46%), [Aetheric Amplifier](../../cards/A/ae.md#aetheric-amplifier) (+37%), [Bender's Waterskin](../../cards/B/be.md#benders-waterskin) (+36%) · EDHREC: in 323 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (2.0% of its decks), [Invisible Woman, Sue Storm](../../cards/I/inv.md#invisible-woman-sue-storm) (22.5% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/834/ant-man-scott-lang) · oracle_id `1e4cf4a4-50a4-4856-bf7e-20899e8affd1` · printing: MSC #834 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2c468103-dc1c-4798-bd13-8661ff53f7c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ant Queen
@@ -4481,6 +4511,8 @@ schema: 2
   - *2015-11-04* — Damage dealt to Anya is tracked even if Anya has indestructible. For example, if Anya is dealt what would be lethal damage and Anya loses indestructible (perhaps because each opponent's life total is too high), it will be destroyed the next time state-based actions are performed. However, the check for whether a creature dealt damage by a source with deathtouch is destroyed happens only the first time that state-based actions are performed after that damage-dealing event.
   - *2015-11-04* — If a player's starting life total is odd (Commander Vanguard? Sweet.), half that player's life total will be a fraction, and that's okay. For example, if an opponent's starting life total is 41, half that number is 20 ½. If that player's life total is 20 or less, Anya will have indestructible.
   - *2015-11-04* — If damage is dealt to Anya and to your opponents at the same time, Anya may gain indestructible and/or extra toughness before state-based actions are checked. Similarly, if damage is dealt to Anya by a source with lifelink controlled by an opponent, Anya may lose indestructible and/or toughness before state-based actions are checked.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 325 decks; highest synergy [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (+49%), [Heartless Hidetsugu](../../cards/H/he.md#heartless-hidetsugu) (+48%), [Aurelia, the Law Above](../../cards/A/au.md#aurelia-the-law-above) (+37%) · EDHREC: in 10,081 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (4.1% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (25.7% of its decks), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (22.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#anya-merciless-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/199/anya-merciless-angel) · oracle_id `0665daf5-e12a-4b59-81fc-63fec2807571` · printing: MKC #199 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -102,6 +102,8 @@ schema: 2
 - **Keywords:** Fear Gas, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11632 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,013 decks; highest synergy [Combat Research](../../cards/C/com.md#combat-research) (+54%), [Staggering Insight](../../cards/S/sta.md#staggering-insight) (+51%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+48%) · EDHREC: in 7,998 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (11.7% of its decks), [SP//dr, Piloted by Peni](../../cards/S/spd.md#spdr-piloted-by-peni) (49.1% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/160/wraith-vicious-vigilante) · oracle_id `38684c31-e8c6-4825-8740-1a3d34b58b39` · printing: SPM #160 (2025-09-26) · [rulings](https://api.scryfall.com/cards/5f46ed93-de6d-4180-9018-26ee07f75464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrangle

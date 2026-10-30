@@ -640,6 +640,8 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20204 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 47 decks; highest synergy [Shelter](../../cards/S/she.md#shelter) (+57%), [Angelic Gift](../../cards/A/an.md#angelic-gift) (+55%), [Spirit Mantle](../../cards/S/spi.md#spirit-mantle) (+55%) · EDHREC: in 2,269 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (25.5% of its decks), [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (6.0% of its decks), [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (19.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/13/colleen-wing-street-samurai) · oracle_id `685181dd-0124-4c76-9270-f9dd17e6a221` · printing: MSH #13 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8bffc505-608e-4a5b-9ed9-2321e4cab484/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collision // Colossus
@@ -870,6 +872,8 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ07a/colossal-dreadmaw-and-storm-crow) · oracle_id `6886e39a-4044-4c33-a94d-8144a6d1e624` · printing: UNK #RZ07a (2023-05-06) · [rulings](https://api.scryfall.com/cards/67dea3ca-586a-468c-96ab-761a05076e1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Grave-Reaver
@@ -1147,6 +1151,8 @@ schema: 2
   > *"Behind me comrades! Use my armored body as a shield!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24019 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Aberrant](../../cards/A/ab.md#aberrant) (+87%), [Darwin, Adaptive Mutant](../../cards/D/da.md#darwin-adaptive-mutant) (+87%), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (+87%) · EDHREC: in 1,080 decks; most often under [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (4.7% of its decks), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (66.5% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/717/colossus-steel-stalwart) · oracle_id `fb47ceb6-b3b3-4e81-9c15-b9990c85e892` · printing: MSC #717 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b9e94fec-3e35-4fd9-9bef-462dfa35d198/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colos Yearling

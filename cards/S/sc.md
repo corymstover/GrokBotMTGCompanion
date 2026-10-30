@@ -1065,6 +1065,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 49 decks; highest synergy [Green Goblin, Revenant](../../cards/G/gre.md#green-goblin-revenant) (+66%), [Ultimate Green Goblin](../../cards/U/ul.md#ultimate-green-goblin) (+60%), [Spider-Gwen, Free Spirit](../../cards/S/spi.md#spider-gwen-free-spirit) (+57%) · EDHREC: in 8,517 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (28.5% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (9.8% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/143/scarlet-spider-kaine) · oracle_id `4ec8a5ea-b750-4711-8843-2bc98f4ce060` · printing: SPM #143 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarlet Witch, Chaotic Avenger
@@ -1080,6 +1082,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11494 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,464 decks; highest synergy [Wanda's Vision](../../cards/W/wan.md#wandas-vision) (+66%), [Vision, Spectral Synthezoid](../../cards/V/vi.md#vision-spectral-synthezoid) (+62%), [The Scarlet Witch](../../cards/T/thes.md#the-scarlet-witch) (+59%) · EDHREC: in 8,957 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (86.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (28.0% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (76.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scarlet-witch-chaotic-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/93/scarlet-witch-chaotic-avenger) · oracle_id `8c72d54e-97a6-408e-ae77-18d3c96b3bd8` · printing: MSC #93 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2308c274-40d8-490f-955e-67a57b89525a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1095,6 +1099,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28103 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Hulk, Bruce Banner](../../cards/H/hu.md#hulk-bruce-banner) (+100%), [Quicksilver, Pietro Maximoff](../../cards/Q/qu.md#quicksilver-pietro-maximoff) (+100%), [Repulsor Rays](../../cards/R/rep.md#repulsor-rays) (+100%) · EDHREC: in 434 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (10.8% of its decks), [The Scarlet Witch](../../cards/T/thes.md#the-scarlet-witch) (1.2% of its decks), [The Vision and Scarlet Witch](../../cards/T/thev.md#the-vision-and-scarlet-witch) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/855/scarlet-witch-wanda-maximoff) · oracle_id `488591d4-3dfb-4e1e-b0c4-1950ff92b848` · printing: MSC #855 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0ff25079-f930-47cd-a77a-bd1c32024559/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarred Puma
@@ -2088,6 +2094,8 @@ schema: 2
   > *"A weapon to kill a god? A.I.M. can do that, if you have the money."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16624 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 662 decks; highest synergy [Thought Monitor](../../cards/T/tho.md#thought-monitor) (+61%), [Insight Engine](../../cards/I/ins.md#insight-engine) (+57%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+55%) · EDHREC: in 3,745 decks; most often under [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (40.3% of its decks), [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (10.0% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (19.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#scientist-supreme-of-aim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/225/scientist-supreme-of-aim) · oracle_id `c09c424b-6aba-4190-9f55-f0307d746386` · printing: MSH #225 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0473a990-88c4-4921-a492-377d9171318a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2767,6 +2775,8 @@ schema: 2
   - *2025-09-19* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
   - *2025-09-19* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2025-09-19* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Room of Refuge](../../cards/R/ro.md#room-of-refuge) (+100%), [Roxxon Brutes](../../cards/R/ro.md#roxxon-brutes) (+83%), [Iron Monger, Sadistic Tycoon](../../cards/I/ir.md#iron-monger-sadistic-tycoon) (+60%) · EDHREC: in 10,363 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (14.5% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (12.1% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (65.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/64/scorpion-seething-striker) · oracle_id `c357230a-afde-4c2a-b390-9f6928599236` · printing: SPM #64 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorpion Sentinel

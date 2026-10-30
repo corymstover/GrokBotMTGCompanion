@@ -293,6 +293,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12008 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-05-01* — If you cast a green and blue creature spell, both abilities will trigger. The abilities may be stacked so that when they resolve, you search your library for a creature card, put it on top of your library, and then put that card into your hand. The abilities may also be stacked in the other order, of course.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Avenger of Zendikar + Craterhoof Behemoth + Maelstrom Wanderer + Momir Vig, Simic Visionary + Thicket Elemental](https://commanderspellbook.com/combo/368-955-1122-2567-4197/) (Near-infinitely large creatures until end of turn) · EDHREC as commander: 2,001 decks; highest synergy [Coiling Oracle](../../cards/C/coi.md#coiling-oracle) (+55%), [Frilled Mystic](../../cards/F/fr.md#frilled-mystic) (+42%), [Gyre Engineer](../../cards/G/gy.md#gyre-engineer) (+41%) · EDHREC: in 7,102 decks; most often under [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (1.9% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (5.1% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/118/momir-vig-simic-visionary) · oracle_id `6202d1cf-5359-4783-846d-7f35460e42b4` · printing: DIS #118 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Friendly Flier
@@ -348,6 +350,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14653 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Cloudshift](../../cards/C/cl.md#cloudshift) (+81%), [Tale of Momo](../../cards/T/ta.md#tale-of-momo) (+68%), [Appa, Loyal Sky Bison](../../cards/A/ap.md#appa-loyal-sky-bison) (+56%) · EDHREC: in 5,969 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (16.4% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (3.3% of its decks), [Zoraline, Cosmos Caller](../../cards/Z/zo.md#zoraline-cosmos-caller) (9.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/217/momo-rambunctious-rascal) · oracle_id `8854222e-590f-4fc0-b5d7-bf3d986b8507` · printing: TLE #217 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1ce491a2-bb43-48fc-acc7-273bc7f418d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo's Heist

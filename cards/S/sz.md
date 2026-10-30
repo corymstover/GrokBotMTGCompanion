@@ -37,6 +37,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18850 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-10-01* — If another effect would prevent Szadek's combat damage from being dealt to the defending player or replace it with something else, that player chooses which effect applies first. For example, the player can choose to first have Mending Hands prevent 4 of the damage and then apply Szadek's ability so that it gets only one counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 320 decks; highest synergy [Mirko Vosk, Mind Drinker](../../cards/M/mir.md#mirko-vosk-mind-drinker) (+51%), [Consuming Aberration](../../cards/C/con.md#consuming-aberration) (+48%), [Duskmantle Guildmage](../../cards/D/du.md#duskmantle-guildmage) (+39%) · EDHREC: in 2,459 decks; most often under [Mirko Vosk, Mind Drinker](../../cards/M/mir.md#mirko-vosk-mind-drinker) (26.1% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (3.9% of its decks), [Lazav, Dimir Mastermind](../../cards/L/la.md#lazav-dimir-mastermind) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/168/szadek-lord-of-secrets) · oracle_id `c40c823c-5954-457a-81a6-02683da57f7f` · printing: CM2 #168 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szarekh, the Silent King
@@ -50,6 +52,8 @@ schema: 2
 - **Keywords:** Flying, My Will Be Done, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10167 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,649 decks; highest synergy [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (+94%), [Anrakyr the Traveller](../../cards/A/an.md#anrakyr-the-traveller) (+90%), [Skorpekh Lord](../../cards/S/sk.md#skorpekh-lord) (+90%) · EDHREC: in 10,693 decks; most often under [Imotekh the Stormlord](../../cards/I/im.md#imotekh-the-stormlord) (70.4% of its decks), [Trazyn the Infinite](../../cards/T/tra.md#trazyn-the-infinite) (32.9% of its decks), [Anrakyr the Traveller](../../cards/A/an.md#anrakyr-the-traveller) (63.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/1/szarekh-the-silent-king) · oracle_id `9a63f950-2e8a-4617-896c-1d0af538dbc7` · printing: 40K #1 (2022-10-07) · [rulings](https://api.scryfall.com/cards/e11174b2-2423-4a6e-9dcf-ff550eee7e5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szarel, Genesis Shepherd

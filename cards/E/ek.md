@@ -36,6 +36,8 @@ schema: 2
   > *"Only through sacred infection can a vessel become pure."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #16236 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Ekthi, Contaminator Priest + Sword of the Meek + Krark-Clan Ironworks](https://commanderspellbook.com/combo/2558-4659-7916/) (Infinite colorless mana, Infinite artifact ETB) · EDHREC as commander: 4,182 decks; highest synergy [Colossus Hammer](../../cards/C/col.md#colossus-hammer) (+85%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+79%), [Bloodforged Battle-Axe](../../cards/B/blo.md#bloodforged-battle-axe) (+76%) · EDHREC: in 910 decks; most often under [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (5.7% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (6.4% of its decks), [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (3.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/1/ekthi-contaminator-priest) · oracle_id `e298a2a4-0e04-4af9-8638-7c01668d97d0` · printing: MBC #1 (2026-10-19) · [rulings](https://api.scryfall.com/cards/967e3120-a12b-4051-a8fc-98e9cdd987f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ekundu Cyclops

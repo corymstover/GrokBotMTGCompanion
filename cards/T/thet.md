@@ -173,6 +173,8 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21017 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Whelming Wave](../../cards/W/wh.md#whelming-wave) (+69%), [Hedron Matrix](../../cards/H/he.md#hedron-matrix) (+55%), [Haunted Cloak](../../cards/H/ha.md#haunted-cloak) (+51%) · EDHREC: in 1,902 decks; most often under [Kenessos, Priest of Thassa](../../cards/K/ke.md#kenessos-priest-of-thassa) (6.8% of its decks), [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (3.7% of its decks), [Runo Stromkirk](../../cards/R/ru.md#runo-stromkirk--krothuss-lord-of-the-deep) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/225/the-terror-of-serpents-pass) · oracle_id `771bf51d-cb32-4240-936c-f9d1e0c90cf0` · printing: TLE #225 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f7569861-5b68-4265-bb45-3d54992bfe66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thanos-Copter
@@ -220,6 +222,8 @@ schema: 2
 - **Keywords:** Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15400 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 21 combos; most popular [The Thing + Resourceful Defense + Sage of Hours](https://commanderspellbook.com/combo/1494-4153-7152/) (Infinite turns, Lock) · EDHREC as commander: 1,155 decks; highest synergy [Doubling Season](../../cards/D/do.md#doubling-season) (+46%), [Ripples of Potential](../../cards/R/ri.md#ripples-of-potential) (+43%), [Tamiyo, Field Researcher](../../cards/T/ta.md#tamiyo-field-researcher) (+41%) · EDHREC: in 4,177 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (68.7% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (38.8% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (52.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/4/the-thing) · oracle_id `c8de07d4-9bc1-4bfe-b5a4-0a58e05af022` · printing: MSC #4 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ba5167e4-27b1-4f55-8282-7b5bd6de611a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thing, Ben Grimm
@@ -235,6 +239,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13357 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Mister Fantastic, Reed Richards + The Thing, Ben Grimm + Invisible Woman, Sue Storm + Human Torch, Johnny Storm](https://commanderspellbook.com/combo/7687-7690-7691-7863/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 67 decks; highest synergy [She-Hulk, Jade Defender](../../cards/S/she.md#she-hulk-jade-defender) (+65%), [Hulkling, Burgeoning Bruiser](../../cards/H/hu.md#hulkling-burgeoning-bruiser) (+63%), [Doc Samson, Super Psychiatrist](../../cards/D/do.md#doc-samson-super-psychiatrist) (+60%) · EDHREC: in 7,494 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (33.8% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (52.5% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (11.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/190/the-thing-ben-grimm) · oracle_id `d566d5f1-5abd-405b-8553-d267ecbe72ab` · printing: MSH #190 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f1933a8-046f-471a-afcf-cfb08ca0d239/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Third Doctor
@@ -257,6 +263,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Deadeye Navigator + Adrix and Nev, Twincasters + The Third Doctor](https://commanderspellbook.com/combo/851-1409-5422/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 32 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+87%), [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+82%), [Tireless Provisioner](../../cards/T/ti.md#tireless-provisioner) (+74%) · EDHREC: in 11,393 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (89.9% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (96.4% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (81.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-third-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -315,6 +323,8 @@ schema: 2
   > Whenever The Tokenator attacks, you get two token counters. Then create a creature token with the color(s) and creature type of your choice. Its power and toughness are any combination equal to the number of token counters you have. (For example, if you have four token counters, it can be a 0/4, 1/3, 2/2, 3/1, or, if you're really sure, 4/0.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03g/the-tokenator) · oracle_id `d862b479-49a2-4b5e-96b8-f3c514b22b0b` · printing: UNK #RW03g (2024-10-25) · [rulings](https://api.scryfall.com/cards/ed44e75e-195d-4bb1-a986-4440dc44f362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Torment of Gollum
@@ -361,6 +371,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04t/the-traveling-postman) · oracle_id `56df525a-f93c-40f7-b915-327b7d3dfca2` · printing: UNK #RZ04t (2025-09-26) · [rulings](https://api.scryfall.com/cards/246990ac-548d-4e74-aed9-c0a918d10732/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Trickster-God's Heist
@@ -422,6 +434,8 @@ schema: 2
   > {1}, {T}: Look at the top three cards of your library. Choose one of them that isn't a playtest card and say its name, then choose a category among power, toughness, or mana value. An opponent guesses in that category about that card, then reveal the card. If they guessed incorrectly, put the card into your hand. Then, put each card not put into your hand this way on the bottom of your library in any order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04l/the-trivia-mastermind) · oracle_id `e33aaabf-5720-4326-bafd-1220c37c51cf` · printing: UNK #RZ04l (2024-06-29) · [rulings](https://api.scryfall.com/cards/70be3542-63f5-4f63-9ef2-dbcde918a4d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Twelfth Doctor

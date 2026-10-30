@@ -200,6 +200,8 @@ schema: 2
 - **Keywords:** Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10658 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Breath of Fury + Phabine, Boss's Confidant](https://commanderspellbook.com/combo/1169-3259--95/) (Infinite card draw for all players, Infinite draw triggers) · EDHREC as commander: 1,211 decks; highest synergy [Grand Crescendo](../../cards/G/gra.md#grand-crescendo) (+57%), [Intangible Virtue](../../cards/I/int.md#intangible-virtue) (+50%), [Aura Mutation](../../cards/A/au.md#aura-mutation) (+46%) · EDHREC: in 10,071 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (17.7% of its decks), [Jetmir, Nexus of Revels](../../cards/J/je.md#jetmir-nexus-of-revels) (14.1% of its decks), [Jinnie Fay, Jetmir's Second](../../cards/J/ji.md#jinnie-fay-jetmirs-second) (16.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/9/phabine-bosss-confidant) · oracle_id `70697ad7-d4bb-4b63-b895-bbb69e9d04e1` · printing: NCC #9 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f0f238f6-3578-4e16-bfd0-2f5a452e46fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phage the Untouchable
@@ -839,6 +841,8 @@ schema: 2
 - **Keywords:** Ward, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25482 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Bender's Waterskin](../../cards/B/be.md#benders-waterskin) (+44%), [Glorious Purpose](../../cards/G/gl.md#glorious-purpose) (+43%), [Leader, Super-Genius](../../cards/L/le.md#leader-super-genius) (+43%) · EDHREC: in 772 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.6% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (9.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (1.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/634/pharaoh-rama-tut) · oracle_id `2c02c8e3-943a-4c20-9dad-1408793a825e` · printing: MSC #634 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96b699c8-f014-4eb7-9345-ed158beb91f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pharika, God of Affliction
@@ -862,6 +866,8 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Pharika, God of Affliction + Eternal Scourge + Ashnod's Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/1806-2034-4871-7413/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,329 decks; highest synergy [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+79%), [Doomwake Giant](../../cards/D/do.md#doomwake-giant) (+74%), [Setessan Champion](../../cards/S/set.md#setessan-champion) (+69%) · EDHREC: in 11,993 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (41.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (7.6% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (17.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pharika-god-of-affliction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/154/pharika-god-of-affliction) · oracle_id `b7d05d00-1e69-4d11-bff0-c1ca2026aad6` · printing: JOU #154 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -987,6 +993,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15305 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2005-11-01* — All three abilities are now targeted.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Phelddagrif + Intruder Alarm](https://commanderspellbook.com/combo/1136-1636/) (Infinite mana creatures you control can produce, Infinite untap of creatures) · EDHREC as commander: 3,598 decks; highest synergy [Questing Phelddagrif](../../cards/Q/qu.md#questing-phelddagrif) (+62%), [Propaganda](../../cards/P/pr.md#propaganda) (+54%), [Ghostly Prison](../../cards/G/gh.md#ghostly-prison) (+53%) · EDHREC: in 1,625 decks; most often under [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (2.3% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (1.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/150/phelddagrif) · oracle_id `d0e99535-0ea0-4aa5-99f5-6c5255b27c38` · printing: ME1 #150 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phelia, Exuberant Shepherd
@@ -1183,6 +1191,8 @@ schema: 2
   > If the Phyrexians won that event, Phila is also a Phyrexian with "Other Phyrexians you control get +1/+1 and gain Toxic 1."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MA30/phila-unsealed) · oracle_id `42bcf7b9-d83f-42ff-a400-2717cefbd383` · printing: UNK #MA30 (2023-02-17) · [rulings](https://api.scryfall.com/cards/7941db9e-e63c-497b-a35b-2c3dd2dc70d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phlage, Titan of Fire's Fury
@@ -1244,6 +1254,8 @@ schema: 2
   - *2018-01-19* — If Phoebe steals a creature's text box, that creature will no longer have flavor text and can then block Phoebe.
   - *2018-01-19* — If a creature loses its text box, leaves the battlefield, and then returns to the battlefield, it will once again have its text box. This won't affect Phoebe, who presumably still has the one she stole from the original creature.
   - *2018-01-19* — If anything cares about Phoebe's rules text, flavor text, or watermarks, consider all of her text boxes as if they were one. If anything cares about the rules text, flavor text, or watermarks of a creature whose text box was stolen, the effect sees nothing.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/135/phoebe-head-of-sneak) · oracle_id `19a94c0a-df0c-437b-96ce-a219a10ceaa0` · printing: UST #135 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phoenix Chick
@@ -1399,6 +1411,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22730 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Okoye, Dora Milaje Leader](../../cards/O/ok.md#okoye-dora-milaje-leader) (+63%), [Ephemerate](../../cards/E/ep.md#ephemerate) (+59%), [Eerie Interlude](../../cards/E/ee.md#eerie-interlude) (+56%) · EDHREC: in 1,489 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (5.6% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.7% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/606/photon-lady-of-light) · oracle_id `2d0aa801-1227-4226-8c27-3bdd441857aa` · printing: MSC #606 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fa755966-0b96-4747-ba1f-26182d265335/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Photon, Mighty Marvel
@@ -1414,6 +1428,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13908 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Seize the Day](../../cards/S/sei.md#seize-the-day) (+61%), [Overpowering Attack](../../cards/O/ov.md#overpowering-attack) (+57%), [Aggravated Assault](../../cards/A/ag.md#aggravated-assault) (+56%) · EDHREC: in 6,973 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (74.5% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (27.3% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (53.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/58/photon-mighty-marvel) · oracle_id `c46d6f42-5e50-4c0d-8908-360337285f83` · printing: MSC #58 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2b164aca-2bda-49a6-81ce-16ef4721ec63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Photo Op

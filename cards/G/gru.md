@@ -313,6 +313,8 @@ schema: 2
   - *2018-01-19* — If you use Grusilda's ability to combine a creature card with augment with a nonhost creature card, the resulting creature will have augment but won't be attached to a host. It (meaning both cards) will be put into your graveyard as a state-based action.
   - *2018-01-19* — If you use Grusilda's ability to combine two host creature cards, you can later attach a card with augment to that creature.
   - *2018-01-19* — You can use Grusilda's ability to put a host creature card and a creature card with augment onto the battlefield combined.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/132/grusilda-monster-masher) · oracle_id `33b61f1f-190f-4d34-acfb-6301f8baf636` · printing: UST #132 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gruul Beastmaster

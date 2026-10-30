@@ -131,6 +131,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10907 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Agatha's Soul Cauldron + Walking Ballista + Sephiroth, Planet's Heir](https://commanderspellbook.com/combo/3693-4613-6342--87/) (Destroy each creature that enters the battlefield under an opponent's control, Destroy all creatures opponents control) · EDHREC as commander: 3,604 decks; highest synergy [The Masamune](../../cards/T/them.md#the-masamune) (+59%), [Massacre Wurm](../../cards/M/mas.md#massacre-wurm) (+57%), [Overkill](../../cards/O/ov.md#overkill) (+54%) · EDHREC: in 7,511 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.2% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (1.6% of its decks), [Y'shtola, Night's Blessed](../../cards/Y/ys.md#yshtola-nights-blessed) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/553/sephiroth-planets-heir) · oracle_id `6af71c5a-2c1b-4120-b3c9-c3c70d94a5c9` · printing: FIN #553 (2025-06-13) · [rulings](https://api.scryfall.com/cards/abd73e52-62f0-4e89-9dc6-90ff0bc2a9b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth's Intervention

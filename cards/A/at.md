@@ -118,6 +118,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Cost modifiers which add a cost are not restricted to only white mana.
   - *2004-10-04* — Spending only white mana applies to the ability regardless of which mode you choose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 142 decks; highest synergy [Test of Endurance](../../cards/T/te.md#test-of-endurance) (+57%), [Well of Lost Dreams](../../cards/W/we.md#well-of-lost-dreams) (+52%), [Soul Warden](../../cards/S/so.md#soul-warden) (+47%) · EDHREC: in 779 decks; most often under [Asmira, Holy Avenger](../../cards/A/as.md#asmira-holy-avenger) (17.7% of its decks), [Minwu, White Mage](../../cards/M/min.md#minwu-white-mage) (2.0% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/4/atalya-samite-master) · oracle_id `84587724-af96-4396-a0b3-1133d492d915` · printing: INV #4 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Beastbreaker
@@ -447,6 +449,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29110 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 26 decks; highest synergy [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+48%), [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+42%), [Undercover Skrull](../../cards/U/un.md#undercover-skrull) (+42%) · EDHREC: in 299 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (1.0% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (0.8% of its decks), [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/566/atlas-sizable-stooge) · oracle_id `efd5f51f-931d-46a9-9773-f74cfc318c23` · printing: MSC #566 (2026-06-26) · [rulings](https://api.scryfall.com/cards/36ab3eff-348c-480a-a964-88d118b099c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### At Least It's a Dry Heat
@@ -524,6 +528,8 @@ schema: 2
   > *It relishes old-fashioned family meals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19516 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Atogatog + Mayael's Aria + Megatog](https://commanderspellbook.com/combo/2981-3858-4099/) (Win the game at the beginning of your next upkeep) · EDHREC as commander: 2,187 decks; highest synergy [Lithatog](../../cards/L/li.md#lithatog) (+80%), [Atog](../../cards/A/at.md#atog) (+79%), [Sarcatog](../../cards/S/sar.md#sarcatog) (+78%) · EDHREC: in 293 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.3% of its decks), [Jenson Carthalion, Druid Exile](../../cards/J/je.md#jenson-carthalion-druid-exile) (1.0% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/286/atogatog) · oracle_id `b9fdb740-e5d7-4464-b378-2e0514ca28d8` · printing: ODY #286 (2001-10-01) · [rulings](https://api.scryfall.com/cards/4a3e6eb5-6d0f-4f82-86f9-bbce8d27afbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atomic Microsizer
@@ -717,6 +723,8 @@ schema: 2
   - *2020-01-24* — The opponent may split the cards into one pile of three and one pile of zero. The pile of three cards could be the face-up pile or the face-down pile. Sometimes your opponents seem very friendly, but keep in mind which god Atris serves.
   - *2020-01-24* — You choose just one target opponent to look at the top three cards of your library and put them into piles. Other players can't look, but they may attempt to offer advice without knowing what cards are there. The player who looks may also tell other players truths about those cards, or half-truths, or outright lies.
   - *2020-01-24* — You don't have to reveal the cards in the face-down pile if you put it into your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 851 decks; highest synergy [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+57%), [Fact or Fiction](../../cards/F/fa.md#fact-or-fiction) (+53%), [Archaeomancer](../../cards/A/arc.md#archaeomancer) (+52%) · EDHREC: in 7,401 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (84.2% of its decks), [Araumi of the Dead Tide](../../cards/A/ara.md#araumi-of-the-dead-tide) (6.7% of its decks), [Yarok, the Desecrated](../../cards/Y/ya.md#yarok-the-desecrated) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/209/atris-oracle-of-half-truths) · oracle_id `8b2b00ab-f1c5-4057-9957-d7daac95a847` · printing: THB #209 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atrocious Experiment
@@ -924,6 +932,8 @@ schema: 2
   > *"All who swim the tides shall bow to my command!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11493 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 121 decks; highest synergy [Master of the Pearl Trident](../../cards/M/mas.md#master-of-the-pearl-trident) (+82%), [Emperor Mihail II](../../cards/E/em.md#emperor-mihail-ii) (+81%), [Stonybrook Banneret](../../cards/S/sto.md#stonybrook-banneret) (+77%) · EDHREC: in 10,248 decks; most often under [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (74.7% of its decks), [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (20.4% of its decks), [Kumena, Tyrant of Orazca](../../cards/K/ku.md#kumena-tyrant-of-orazca) (19.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/47/attuma-atlantean-warlord) · oracle_id `e3b70a85-4296-411f-a673-7992b0c8a9aa` · printing: MSH #47 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c3d5add1-0d0e-414b-a964-8da326472d35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attuned Hunter

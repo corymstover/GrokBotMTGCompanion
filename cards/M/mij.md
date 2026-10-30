@@ -47,4 +47,6 @@ schema: 2
   > From Downtown — If a source you control would deal exactly 2 damage to a permanent or player, it deals 3 damage instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR03b/mijo-the-bull) · oracle_id `b7af87c7-1f69-4224-a84a-2d3a8f5f1cd6` · printing: UNK #RR03b (2025-02-21) · [rulings](https://api.scryfall.com/cards/0f419ae7-482b-4cb3-a111-d34994734802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -231,6 +231,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — While resolving Aphemia’s triggered ability, you can’t exile more than one enchantment card to get more than one Zombie token.
   - *2020-01-24* — You choose whether to exile an enchantment card and which one to exile while Aphemia’s triggered ability is resolving. If Aphemia dies in response to its own triggered ability, it could be the card you exile.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 218 decks; highest synergy [Tymaret Calls the Dead](../../cards/T/ty.md#tymaret-calls-the-dead) (+72%), [Doomwake Giant](../../cards/D/do.md#doomwake-giant) (+71%), [Grim Guardian](../../cards/G/gri.md#grim-guardian) (+71%) · EDHREC: in 2,906 decks; most often under [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (1.7% of its decks), [Anikthea, Hand of Erebos](../../cards/A/an.md#anikthea-hand-of-erebos) (1.4% of its decks), [Nashi, Searcher in the Dark](../../cards/N/na.md#nashi-searcher-in-the-dark) (11.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/84/aphemia-the-cacophony) · oracle_id `820dab0f-3b6b-437c-ba4b-2311437709c3` · printing: THB #84 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Alchemist
@@ -542,6 +544,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16686 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18 decks; highest synergy [Aang, Air Nomad](../../cards/A/aa.md#aang-air-nomad) (+49%), [Lulu, Loyal Hollyphant](../../cards/L/lu.md#lulu-loyal-hollyphant) (+44%), [Prowling Felidar](../../cards/P/pr.md#prowling-felidar) (+44%) · EDHREC: in 4,149 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (8.1% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (3.0% of its decks), [Suki, Kyoshi Warrior](../../cards/S/suk.md#suki-kyoshi-warrior) (18.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/214/appa-aangs-companion) · oracle_id `215215b8-6ddc-4e94-8640-6d324ff65f9c` · printing: TLE #214 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1c5ae0d3-26e4-4d10-85ae-0578cf90eead/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, Loyal Sky Bison
@@ -701,6 +705,8 @@ schema: 2
 - **Keywords:** Family gathering, Food, Family Gathering, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1537/applejack) · oracle_id `c81f22a3-b93a-4ea4-b2ae-557c12e07288` · printing: SLD #1537 (2024-03-01) · [rulings](https://api.scryfall.com/cards/a8f02241-b268-43c8-b69e-bf10c8a9b9ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apple of Eden, Isu Relic
@@ -855,6 +861,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17373 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Human and Scientist are subtypes, not card types.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 129 decks; highest synergy [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+50%), [Wizard Class](../../cards/W/wi.md#wizard-class) (+46%), [Lyla, Holographic Assistant](../../cards/L/ly.md#lyla-holographic-assistant) (+45%) · EDHREC: in 3,608 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (3.0% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (4.5% of its decks), [Y'shtola Rhul](../../cards/Y/ys.md#yshtola-rhul) (6.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#april-oneil-hacktivist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/29/april-oneil-hacktivist) · oracle_id `d379a919-02cd-46fd-a6ce-b66a77745ae7` · printing: TMT #29 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -872,6 +880,8 @@ schema: 2
   - *2026-01-27* — April's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Sensei's Divining Top + Mm'menon, the Right Hand + April O'Neil, Human Element](https://commanderspellbook.com/combo/5078-6766-8049/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 197 decks; highest synergy [Cyberdrive Awakener](../../cards/C/cy.md#cyberdrive-awakener) (+75%), [Kappa Cannoneer](../../cards/K/ka.md#kappa-cannoneer) (+72%), [Stridehangar Automaton](../../cards/S/str.md#stridehangar-automaton) (+69%) · EDHREC: in 8,906 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (12.9% of its decks), [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (11.8% of its decks), [Donatello, the Brains // Michelangelo, the Heart](../../cards/D/do.md#donatello-the-brains) (46.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/107/april-oneil-human-element) · oracle_id `020963ef-24c0-48cc-8776-bc257df684bc` · printing: TMC #107 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April O'Neil, Kunoichi Trainee
@@ -886,6 +896,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15201 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Once April has been blocked, changing the blocking creature's power to 3 or greater won't cause April to become unblocked.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [All That Glitters](../../cards/A/al.md#all-that-glitters) (+46%), [Quintessential Katana](../../cards/Q/qu.md#quintessential-katana) (+32%), [Goldvein Pick](../../cards/G/gol.md#goldvein-pick) (+31%) · EDHREC: in 5,500 decks; most often under [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (57.4% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (21.3% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/3/april-oneil-kunoichi-trainee) · oracle_id `3f166376-2739-411c-8f42-96f2ef28ef86` · printing: TMT #3 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April O'Neil, Live on the Scene
@@ -908,6 +920,8 @@ schema: 2
   - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Tamiyo's Journal](../../cards/T/ta.md#tamiyos-journal) (+99%), [Kappa Cannoneer](../../cards/K/ka.md#kappa-cannoneer) (+91%), [Thoughtcast](../../cards/T/tho.md#thoughtcast) (+91%) · EDHREC: in 9,775 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (50.7% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (44.7% of its decks), [Leonardo, the Balance // Raphael, the Muscle](../../cards/L/le.md#leonardo-the-balance) (40.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#april-oneil-live-on-the-scene)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/9/april-oneil-live-on-the-scene) · oracle_id `4900c157-8d9f-4f92-aaca-5246b6e2832e` · printing: TMC #9 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -922,4 +936,6 @@ schema: 2
   > *"Freelance reporting pays even worse than tutoring, but the satisfaction of uncovering the truth makes it all worth it! Also the free ringside tickets to cover intergalactic wrestling don't suck."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18632 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 64 decks; highest synergy [Aqueous Form](../../cards/A/aq.md#aqueous-form) (+62%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+51%), [Aether Tunnel](../../cards/A/ae.md#aether-tunnel) (+50%) · EDHREC: in 2,981 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (2.1% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (0.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/30/april-reporter-of-the-weird) · oracle_id `1c371003-e4f0-4d7c-b021-273176772f97` · printing: TMT #30 (2026-03-06) · [rulings](https://api.scryfall.com/cards/31aa943f-c9db-43dc-8a72-7ef56f9f5c8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

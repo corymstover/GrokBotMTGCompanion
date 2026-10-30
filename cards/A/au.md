@@ -410,6 +410,8 @@ schema: 2
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR05a/auntie-ant-ant-auntie) · oracle_id `f00656a7-9684-4538-bc76-18e08c2fd465` · printing: UNK #RR05a (2026-05-01) · [rulings](https://api.scryfall.com/cards/8d2ffe5f-635a-4920-8496-7c5ef361de56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie Blyte, Bad Influence
@@ -424,6 +426,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Auntie Blyte, Bad Influence + Volcano Hellion](https://commanderspellbook.com/combo/2912-5109/) (Infinite damage to one opponent) · EDHREC as commander: 1,956 decks; highest synergy [Barbarian Ring](../../cards/B/bar.md#barbarian-ring) (+78%), [Heartless Hidetsugu](../../cards/H/he.md#heartless-hidetsugu) (+77%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+74%) · EDHREC: in 6,837 decks; most often under [Yusri, Fortune's Flame](../../cards/Y/yu.md#yusri-fortunes-flame) (19.3% of its decks), [Daredevil, Fearless Fighter](../../cards/D/da.md#daredevil-fearless-fighter) (75.4% of its decks), [Heartless Hidetsugu](../../cards/H/he.md#heartless-hidetsugu) (26.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/30/auntie-blyte-bad-influence) · oracle_id `a5e9142e-76bf-40d4-aeaa-ffe197d38f25` · printing: J22 #30 (2022-12-02) · [rulings](https://api.scryfall.com/cards/85c18d01-62cd-45c2-94b8-a63a4239311d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie Flint
@@ -438,6 +442,8 @@ schema: 2
 - **Keywords:** Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03a/auntie-flint) · oracle_id `4a4d667e-13c8-4d00-b552-611e8cfdd400` · printing: UNK #RB03a (2023-07-29) · [rulings](https://api.scryfall.com/cards/7679f9a0-87bd-4902-a948-9800b7a42257/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auntie Ool, Cursewretch
@@ -1610,6 +1616,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29905 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — This spell can be countered. Shroud does not work until it enters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 83 decks; highest synergy [Ancestral Mask](../../cards/A/an.md#ancestral-mask) (+64%), [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+64%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+59%) · EDHREC: in 146 decks; most often under [Daughter of Autumn](../../cards/D/da.md#daughter-of-autumn) (21.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Kaysa](../../cards/K/ka.md#kaysa) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/113/autumn-willow) · oracle_id `c8c868f8-19a5-4cc5-b769-aa382f7b97ad` · printing: ME1 #113 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autumn Willow and Baron Sengir
@@ -1624,6 +1632,8 @@ schema: 2
 - **Keywords:** Flying, Shroud
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06b/autumn-willow-and-baron-sengir) · oracle_id `71055b83-85eb-4edf-9f82-19569d123649` · printing: UNK #RZ06b (2023-05-06) · [rulings](https://api.scryfall.com/cards/3091cc09-a088-4836-8423-7971ce6be702/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Autumn Willow, Harmony
@@ -1640,6 +1650,8 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #27983 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Autumn Willow, Harmony](https://commanderspellbook.com/combo/2034-5003-7921/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 65 decks; highest synergy [Dryad Arbor](../../cards/D/dry.md#dryad-arbor) (+82%), [Awaken the Woods](../../cards/A/aw.md#awaken-the-woods) (+80%), [Nissa, Who Shakes the World](../../cards/N/ni.md#nissa-who-shakes-the-world) (+66%) · EDHREC: in 380 decks; most often under [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (11.9% of its decks), [Ashaya, Soul of the Wild](../../cards/A/as.md#ashaya-soul-of-the-wild) (1.3% of its decks), [Tatyova, Steward of Tides](../../cards/T/ta.md#tatyova-steward-of-tides) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/27/autumn-willow-harmony) · oracle_id `01f9cfd9-47da-4dbe-a21e-53eccad3864a` · printing: MBC #27 (2026-10-19) · [rulings](https://api.scryfall.com/cards/838ca991-a2b6-4bd2-8168-31bdb61b55ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Auxiliary Boosters

@@ -1930,6 +1930,8 @@ schema: 2
   > *Prize Card for the Unknown event at MagicCon Minneapolis, May 6, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MG01/minnea-planar-tourist) · oracle_id `7ecb079a-bafb-4e3a-b43a-7e06f5deff4c` · printing: UNK #MG01 (2023-05-06) · [rulings](https://api.scryfall.com/cards/d06db963-9574-4e49-83e7-84e931ff7a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minn, Wily Illusionist
@@ -2042,6 +2044,8 @@ schema: 2
   > *"When I became CEO, Roxxon was stepping up their renewable energy program. I took us in the opposite direction. Weaponry."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22623 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Minotaur, Roxxon CEO](https://commanderspellbook.com/combo/2034-5003-7744/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 14 decks; highest synergy [Drivnod, Carnage Dominus](../../cards/D/dri.md#drivnod-carnage-dominus) (+64%), [Grave Pact](../../cards/G/gra.md#grave-pact) (+59%), [Reassembling Skeleton](../../cards/R/rea.md#reassembling-skeleton) (+54%) · EDHREC: in 1,435 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (39.0% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.1% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/539/minotaur-roxxon-ceo) · oracle_id `f81207e8-d5a2-4a5e-8a81-803ac563fe76` · printing: MSC #539 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7a40c996-7b64-4d56-a21f-b68ac64c1e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Minotaur Skullcleaver
@@ -2116,6 +2120,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — Minsc has asked us (repeatedly) to let you know that Boo is the only miniature giant space hamster in the Realms.
   - *2021-07-23* — The activated ability will overwrite any previous effects that set the creature's power and toughness to specific values. Effects that otherwise modify the target creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Minsc, Beloved Ranger + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3837-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 1,272 decks; highest synergy [Minsc & Boo, Timeless Heroes](../../cards/M/min.md#minsc--boo-timeless-heroes) (+40%), [Pattern of Rebirth](../../cards/P/pa.md#pattern-of-rebirth) (+38%), [Protean Hulk](../../cards/P/pr.md#protean-hulk) (+37%) · EDHREC: in 2,624 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.4% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.8% of its decks), [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#minsc-beloved-ranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/227/minsc-beloved-ranger) · oracle_id `2cd10c6c-f946-457e-9175-92501322f7a5` · printing: AFR #227 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

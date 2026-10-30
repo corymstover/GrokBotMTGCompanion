@@ -138,6 +138,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#euroakus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -152,6 +154,8 @@ schema: 2
 - **Keywords:** Forage, Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29767 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 86 decks; highest synergy [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (+86%), [Tippy-Toe, Terrific Partner](../../cards/T/ti.md#tippy-toe-terrific-partner) (+84%), [Camellia, the Seedmiser](../../cards/C/cam.md#camellia-the-seedmiser) (+83%) · EDHREC: in 177 decks; most often under [Chatterfang, Squirrel General](../../cards/C/cha.md#chatterfang-squirrel-general) (0.9% of its decks), [Hazel of the Rootbloom](../../cards/H/ha.md#hazel-of-the-rootbloom) (2.0% of its decks), [Camellia, the Seedmiser](../../cards/C/cam.md#camellia-the-seedmiser) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/70/euru-acorn-scrounger) · oracle_id `b01657ad-120f-4d00-a367-fd112d403700` · printing: MBC #70 (2026-10-19) · [rulings](https://api.scryfall.com/cards/dc63c971-458a-4be9-aaa0-18df47547d59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eusocial Engineering
@@ -185,4 +189,6 @@ schema: 2
   - *2020-01-24* — Eutropia can be the target of its own triggered ability.
   - *2020-01-24* — Eutropia’s ability can target a creature that already has flying. It still gets a +1/+1 counter. Multiple instances of flying on the same creature are redundant.
   - *2020-01-24* — If an enchantment creature enters the battlefield under your control, Eutropia’s ability can target that creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Eutropia the Twice-Favored + Scurry Oak + Enchanted Evening](https://commanderspellbook.com/combo/1462-1523-4186/) (Infinite +1/+1 counters on a creature, Infinite creature tokens) · EDHREC as commander: 708 decks; highest synergy [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+64%), [Setessan Champion](../../cards/S/set.md#setessan-champion) (+63%), [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+62%) · EDHREC: in 6,110 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (6.6% of its decks), [Tatsunari, Toad Rider](../../cards/T/ta.md#tatsunari-toad-rider) (19.1% of its decks), [Ivy, Gleeful Spellthief](../../cards/I/iv.md#ivy-gleeful-spellthief) (10.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/216/eutropia-the-twice-favored) · oracle_id `4de1319f-b3c7-42d4-9342-3e9c4f526ee0` · printing: THB #216 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

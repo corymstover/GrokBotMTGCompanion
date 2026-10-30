@@ -100,6 +100,8 @@ schema: 2
   > {T}: Add two mana of any one color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03u/the-sad-creaturez) · oracle_id `170b33a2-86f2-4ca2-af4f-062a1c876c4a` · printing: UNK #RZ03u (2026-05-01) · [rulings](https://api.scryfall.com/cards/f4fc0551-8c69-4f11-8631-2e4b870e4407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Salubrious Philosopher
@@ -111,6 +113,8 @@ schema: 2
   > If you would draw a card, you may instead choose mana base, removal, or win condition and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and the rest on the bottom of your library in a random order. (Mana base cards add mana. Removal cards are instants and sorceries that can damage, destroy, or exile opposing permanents. Win conditions cost 6 or more mana.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04x/the-salubrious-philosopher) · oracle_id `b4725992-0c97-427e-a3dd-02aa98c0b290` · printing: UNK #RZ04x (2026-05-01) · [rulings](https://api.scryfall.com/cards/989c90e6-d936-4104-8e82-045d983d34df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Savant
@@ -155,6 +159,8 @@ schema: 2
   > *"Some are bound by the whims of chaos, but I found freedom in its endless possibility."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10335 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,279 decks; highest synergy [Apex of Power](../../cards/A/ap.md#apex-of-power) (+73%), [Inspired Tinkering](../../cards/I/ins.md#inspired-tinkering) (+65%), [Mizzix's Mastery](../../cards/M/miz.md#mizzixs-mastery) (+64%) · EDHREC: in 10,310 decks; most often under [Rootha, Mastering the Moment](../../cards/R/ro.md#rootha-mastering-the-moment) (19.1% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (61.4% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/151/the-scarlet-witch) · oracle_id `d8ae8c38-501e-44ea-9faf-cf9d11ba6616` · printing: MSH #151 (2026-06-26) · [rulings](https://api.scryfall.com/cards/407e8993-e56d-477d-ab85-d10a2522eab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scholar of Seas
@@ -175,6 +181,8 @@ schema: 2
   > *A*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ11b/the-scholar-of-seas) · oracle_id `dc347aad-d6b2-494c-95b7-90c356692a7a` · printing: UNK #RZ11b (2024-02-24) · [rulings](https://api.scryfall.com/cards/70bd95e3-33df-49f1-877d-f8c249234c26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scorpion God
@@ -268,6 +276,8 @@ schema: 2
 - **Keywords:** Flying, Indestructible, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9863 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,007 decks; highest synergy [Duelist's Heritage](../../cards/D/du.md#duelists-heritage) (+70%), [With Great Power . . .](../../cards/W/wi.md#with-great-power---) (+63%), [Pariah](../../cards/P/pa.md#pariah) (+59%) · EDHREC: in 11,563 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (19.2% of its decks), [Kambal, Profiteering Mayor](../../cards/K/ka.md#kambal-profiteering-mayor) (27.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (13.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-sentry-golden-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/35/the-sentry-golden-guardian) · oracle_id `1fe549c3-79be-40ef-b57c-de59f24df5ab` · printing: MSH #35 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f56c0e7-5b07-48e3-b0ca-5d09ddc8de9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -304,6 +314,8 @@ schema: 2
 - **Keywords:** Ward, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11737 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [The Serpent Society + Overseer of the Damned + Archetype of Finality + Viscera Seer](https://commanderspellbook.com/combo/2292-3276-5038-7707/) (Each opponent sacrifices all nontoken creatures they control, Each opponent sacrifices any nontoken creature that enters under their control) · EDHREC as commander: 4,961 decks; highest synergy [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (+82%), [Hooded Blightfang](../../cards/H/ho.md#hooded-blightfang) (+65%), [Glissa Sunslayer](../../cards/G/gl.md#glissa-sunslayer) (+63%) · EDHREC: in 5,060 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (55.8% of its decks), [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (7.8% of its decks), [Hapatra, Vizier of Poisons](../../cards/H/ha.md#hapatra-vizier-of-poisons) (34.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/226/the-serpent-society) · oracle_id `3688ad0d-653b-4d5d-a57e-444db679d83e` · printing: MSH #226 (2026-06-26) · [rulings](https://api.scryfall.com/cards/209855ee-d531-4b58-926b-8da171d46619/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Seventh Doctor
@@ -321,6 +333,8 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — To choose a card in your hand for The Seventh Doctor's ability, take a card in your hand and separate it from the others, face down. Then the defending player guesses whether the mana value of that card is greater than the number of artifacts you control. You do not have to reveal whether they guess right or wrong unless you are casting the card.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 30 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+52%), [Erdwal Illuminator](../../cards/E/er.md#erdwal-illuminator) (+36%), [Five Hundred Year Diary](../../cards/F/fi.md#five-hundred-year-diary) (+36%) · EDHREC: in 9,330 decks; most often under [The Celestial Toymaker](../../cards/T/thec.md#the-celestial-toymaker) (74.6% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (89.8% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (95.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-seventh-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/158/the-seventh-doctor) · oracle_id `43e1b053-2cb9-4b1d-9e38-100cfa7267b6` · printing: WHO #158 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -415,6 +429,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW05c/the-sixth-seraph) · oracle_id `357f32bb-b33d-4903-9113-fa9048b1a822` · printing: UNK #RW05c (2024-10-25) · [rulings](https://api.scryfall.com/cards/5bd9ca12-c7e6-4637-aa21-3e1ea4414a90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Skullspore Nexus
@@ -455,6 +471,8 @@ schema: 2
   > Whenever The Snapstone Wielder enters or attacks, cast a random nonland Magic card without paying its mana cost. If it has targets, choose the targets at random.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06h/the-snapstone-wielder) · oracle_id `405df512-6739-4ad7-a3e4-43196545ce43` · printing: UNK #RZ06h (2025-09-26) · [rulings](https://api.scryfall.com/cards/2a1f08aa-05a3-4051-b19f-141b49e422a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Soul Stone
@@ -504,6 +522,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If you roll more than one die at a time, however, that does count as multiple die rolls.
   - *2022-10-07* — Remember that if a die is rerolled, that counts only as a single roll. The original roll doesn’t count. Similarly, any die roll that’s ignored doesn’t count.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 768 decks; highest synergy [Barbarian Class](../../cards/B/bar.md#barbarian-class) (+93%), [Wyll, Blade of Frontiers](../../cards/W/wy.md#wyll-blade-of-frontiers) (+92%), [Hoarding Ogre](../../cards/H/ho.md#hoarding-ogre) (+91%) · EDHREC: in 939 decks; most often under [Vrondiss, Rage of Ancients](../../cards/V/vr.md#vrondiss-rage-of-ancients) (5.7% of its decks), [Wyll, Blade of Frontiers // Master Chef](../../cards/W/wy.md#wyll-blade-of-frontiers) (70.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-space-family-goblinson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/179/the-space-family-goblinson) · oracle_id `63132b61-a684-4900-baf2-818904805208` · printing: UNF #179 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -593,6 +613,8 @@ schema: 2
   > *TARGET*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03e/the-spike-cactus) · oracle_id `ab9cba15-4393-4cc5-8324-dae98a9e7642` · printing: UNK #RG03e (2024-02-24) · [rulings](https://api.scryfall.com/cards/53471a59-99a6-4f90-8140-af22f89b1562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spirit Oasis
@@ -622,6 +644,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19113 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If The Spot is a token, you can't move him from the graveyard when he dies, so the exiled cards won't be returned.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 375 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+71%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+70%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+68%) · EDHREC: in 2,325 decks; most often under [Mister Negative](../../cards/M/mis.md#mister-negative) (7.7% of its decks), [Ketramose, the New Dawn](../../cards/K/ke.md#ketramose-the-new-dawn) (4.8% of its decks), [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/153/the-spot-living-portal) · oracle_id `a5dfa7ad-9637-4da8-9ed2-0ac863617d9a` · printing: SPM #153 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spot's Portal
@@ -646,6 +670,8 @@ schema: 2
   > Whenever The Sprinkler of Stardust attacks, look at the top six cards of your library. You may put an instant or sorcery card from among them onto the battlefield tapped and attacking. It becomes a 2/2 creature with "Whenever this deals combat damage to an opponent, cast a copy of this card." (The 2/2 creature stays on the battlefield.) Put the rest of the cards on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04r/the-sprinkler-of-stardust) · oracle_id `35cd3af1-3522-4dde-8dbd-adb16692e485` · printing: UNK #RZ04r (2025-06-20) · [rulings](https://api.scryfall.com/cards/7773cb71-59b5-47d6-8acd-964cd4d9de48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Squadron Sinister
@@ -660,6 +686,8 @@ schema: 2
 - **Keywords:** Flying, Mayhem, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11197 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Doc Ock, Sinister Scientist](../../cards/D/do.md#doc-ock-sinister-scientist) (+87%), [Molecule Man](../../cards/M/mol.md#molecule-man) (+87%), [Red Ghost, Intangible Genius](../../cards/R/red.md#red-ghost-intangible-genius) (+87%) · EDHREC: in 10,908 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (60.9% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (73.6% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (19.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-squadron-sinister)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/96/the-squadron-sinister) · oracle_id `3b7352e6-6508-491c-9935-426a6eebb429` · printing: MSC #96 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96714d95-baef-45e3-a2b0-00a8bdb3a76d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -710,6 +738,8 @@ schema: 2
   > *Prize Card for the Unknown events at MagicCon Las Vegas, May 1-3, 2026*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MA04/the-strixhaven-lorwyn-rover) · oracle_id `db0c209c-f17e-4897-9989-05e17dbaf261` · printing: UNK #MA04 (2026-05-01) · [rulings](https://api.scryfall.com/cards/a7475e46-2dd9-487e-8cbb-5a259fb5ec99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Super Hero Civil War
@@ -824,6 +854,8 @@ schema: 2
   > At the beginning of combat on your turn, target Swamp you control becomes a 0/0 black land creature and gains menace. It's still a land. Put a +1/+1 counter on it. (It can't be blocked except by two or more creatures. It's dark and scary.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04i/the-swamp-kitten) · oracle_id `eba38613-bb48-4d96-b1c8-c87f1a1f9446` · printing: UNK #RB04i (2026-07-17) · [rulings](https://api.scryfall.com/cards/550107d4-05ff-49db-90db-e0dd357f7e0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Swarmlord
@@ -837,6 +869,8 @@ schema: 2
 - **Keywords:** Rapid Regeneration, Xenos Cunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13610 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [The Swarmlord + Greater Good + Mind Over Matter + Firemind Vessel](https://commanderspellbook.com/combo/2347-3304-4067-5047/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 3,145 decks; highest synergy [Winged Hive Tyrant](../../cards/W/wi.md#winged-hive-tyrant) (+83%), [Tyranid Prime](../../cards/T/ty.md#tyranid-prime) (+80%), [Termagant Swarm](../../cards/T/te.md#termagant-swarm) (+76%) · EDHREC: in 3,770 decks; most often under [Magus Lucea Kane](../../cards/M/mag.md#magus-lucea-kane) (17.6% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (1.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/4/the-swarmlord) · oracle_id `ead75ea4-025f-443a-824f-26fef9e424db` · printing: 40K #4 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d5c4077c-604e-4e8a-b448-0807849040ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Swarmweaver

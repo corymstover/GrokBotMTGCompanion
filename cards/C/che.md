@@ -53,6 +53,8 @@ schema: 2
   - *2024-11-08* — I’m not sure what wizard would want Lazav, Familiar Stranger as their familiar, but to each their own. (I would pick Owl Familiar, personally.)
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chea-friend-to-maybe-too-many)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/591/chea-friend-to-maybe-too-many) · oracle_id `c3020f78-15d5-4166-a610-75522a454e0a` · printing: MB2 #591 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

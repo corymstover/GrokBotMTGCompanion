@@ -107,4 +107,6 @@ schema: 2
 - **Keywords:** Flying, Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03b/mr-wiggles-helpful-butterfly) · oracle_id `551121ed-38bd-428d-b813-b395a67e111c` · printing: UNK #RG03b (2023-07-29) · [rulings](https://api.scryfall.com/cards/8cdb7e98-727d-4c64-ab1d-178209dede57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

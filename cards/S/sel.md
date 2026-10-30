@@ -148,6 +148,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21599 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Repay in Kind + Selenia, Dark Angel](https://commanderspellbook.com/combo/13-2656--84/) (Each opponent loses the game, Near-infinite lifeloss for all players) · EDHREC as commander: 994 decks; highest synergy [Repay in Kind](../../cards/R/rep.md#repay-in-kind) (+84%), [Axis of Mortality](../../cards/A/ax.md#axis-of-mortality) (+82%), [Children of Korlis](../../cards/C/chi.md#children-of-korlis) (+75%) · EDHREC: in 680 decks; most often under [Mister Negative](../../cards/M/mis.md#mister-negative) (1.5% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.1% of its decks), [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/210/selenia-dark-angel) · oracle_id `3db1ac09-e35a-4f50-97c4-f65dbc28daef` · printing: TPR #210 (2015-05-06) · [rulings](https://api.scryfall.com/cards/664b57e3-9476-4d6a-8301-5a2f96bcfbf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selenia, the Cursed Heart
@@ -162,6 +164,8 @@ schema: 2
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20470 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Aetherflux Reservoir + Purity + Selenia, the Cursed Heart](https://commanderspellbook.com/combo/2988-4740-7919/) (Infinite damage, Infinite lifegain) · EDHREC as commander: 476 decks; highest synergy [Soul Warden](../../cards/S/so.md#soul-warden) (+51%), [The Wind Crystal](../../cards/T/thew.md#the-wind-crystal) (+50%), [Enduring Tenacity](../../cards/E/en.md#enduring-tenacity) (+46%) · EDHREC: in 1,802 decks; most often under [Liesa, Shroud of Dusk](../../cards/L/li.md#liesa-shroud-of-dusk) (4.7% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (5.3% of its decks), [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/50/selenia-the-cursed-heart) · oracle_id `7126be80-cebc-4868-b39d-8b215410f575` · printing: MBC #50 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2733a3cf-624a-430c-97c3-1c521c9a4d57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Charm
@@ -665,6 +669,8 @@ schema: 2
 - **Keywords:** Flying, Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22072 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 46 combos; most popular [Aurelia, the Warleader + Seluma, Light of Aysen + Altar of Dementia](https://commanderspellbook.com/combo/4364-5256-7917/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 1,176 decks; highest synergy [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+91%), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (+87%), [Aurelia, the Warleader](../../cards/A/au.md#aurelia-the-warleader) (+86%) · EDHREC: in 510 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (1.7% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (1.9% of its decks), [Sigarda, Font of Blessings](../../cards/S/si.md#sigarda-font-of-blessings) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/4/seluma-light-of-aysen) · oracle_id `dbbf6379-01b4-400d-a277-5887e6be1d0f` · printing: MBC #4 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1eb501cc-0f83-40ca-8987-424bbee5f584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Eager Trailblazer
@@ -682,6 +688,8 @@ schema: 2
   - *2024-04-12* — Selvala’s last ability doesn’t care what color or colors the creatures you control are. It cares only about the power of those creatures.
   - *2024-04-12* — Selvala’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to.
   - *2024-04-12* — Selvala’s last ability looks at the creatures you control as it resolves to determine how much mana of the chosen color to add. For example, if you control Selvala (a 4/5 creature), a 1/1 creature, and a 2/1 creature, there are three different powers among creatures you control.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Staff of Domination + Selvala, Eager Trailblazer](https://commanderspellbook.com/combo/2645-5457/) (Infinite card draw, Infinite colored mana) · EDHREC as commander: 703 decks; highest synergy [Beast Whisperer](../../cards/B/be.md#beast-whisperer) (+42%), [Angelic Sell-Sword](../../cards/A/an.md#angelic-sell-sword) (+41%), [Rumor Gatherer](../../cards/R/ru.md#rumor-gatherer) (+41%) · EDHREC: in 10,959 decks; most often under [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (3.4% of its decks), [Tazri, Stalwart Survivor](../../cards/T/ta.md#tazri-stalwart-survivor) (24.6% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/231/selvala-eager-trailblazer) · oracle_id `95b20721-1af9-4f3f-a39b-7cd1d4ce0b20` · printing: OTJ #231 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Explorer Returned

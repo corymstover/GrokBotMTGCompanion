@@ -53,5 +53,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30355 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Contagious Nim](../../cards/C/con.md#contagious-nim) (+58%), [Corpse Cur](../../cards/C/cor.md#corpse-cur) (+58%), [Flensermite](../../cards/F/fl.md#flensermite) (+57%) · EDHREC: in 171 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Cao Cao, Lord of Wei](../../cards/C/cao.md#cao-cao-lord-of-wei) (10.7% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/X.md#xun-yu-wei-advisor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/93/xun-yu-wei-advisor) · oracle_id `fb5fea4a-1b04-45c6-a207-e2e8493ea968` · printing: PTK #93 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

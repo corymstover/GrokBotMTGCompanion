@@ -31,4 +31,6 @@ schema: 2
   > Players can't cast spells by paying alternative costs or without paying their mana costs. (Additional costs are still okay. Anything that replaces the mana cost like flashback or madness is not.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW02/htbr-racetrack-referee) · oracle_id `f1585bd1-5871-4dea-9bdd-587dbccd5931` · printing: UNK #RW02 (2025-02-21) · [rulings](https://api.scryfall.com/cards/00b80b6b-d310-4d14-accc-c61caa5dfb0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

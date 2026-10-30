@@ -943,6 +943,8 @@ schema: 2
   > *"Ah, to be a young and carefree Super Hero! Not a worry in the world for this spandex savior! I wish!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23021 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 671 decks; highest synergy [Pym Particles](../../cards/P/py.md#pym-particles) (+70%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+69%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+63%) · EDHREC: in 643 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.4% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.0% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/227/speedball-new-warrior) · oracle_id `53d3ef8f-8e0f-4119-8cdc-a0bf076b4e91` · printing: MSH #227 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e040b456-9853-4e94-9bf8-9374888168bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Speedway Fanatic
@@ -974,6 +976,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18568 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Infuriate](../../cards/I/inf.md#infuriate) (+64%), [Brute Force](../../cards/B/br.md#brute-force) (+63%), [Quicksilver, Brash Blur](../../cards/Q/qu.md#quicksilver-brash-blur) (+62%) · EDHREC: in 3,094 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (16.3% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (8.8% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (15.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/152/speed-young-avenger) · oracle_id `2fb0f2d2-ed1f-4181-91f2-684a71c34998` · printing: MSH #152 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d15d187b-dc5d-482d-a79a-b9b98193ad7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbane Centaur

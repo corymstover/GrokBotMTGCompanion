@@ -269,6 +269,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — Bane's last ability looks at the toughness of the creature that died, not Bane's toughness.
   - *2022-06-10* — If Bane, Lord of Darkness is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Bane will have indestructible at the time state-based actions are performed and survive.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,450 decks; highest synergy [Mulldrifter](../../cards/M/mu.md#mulldrifter) (+51%), [Teysa Karlov](../../cards/T/te.md#teysa-karlov) (+45%), [Karmic Guide](../../cards/K/ka.md#karmic-guide) (+42%) · EDHREC: in 3,768 decks; most often under [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.0% of its decks), [The Ever-Changing 'Dane](../../cards/T/thee.md#the-ever-changing-dane) (41.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/267/bane-lord-of-darkness) · oracle_id `ca507eea-1b04-4488-813e-ca970640e227` · printing: CLB #267 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bane of Bala Ged

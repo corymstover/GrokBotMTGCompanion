@@ -466,6 +466,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-02-29* — Frankie Peanuts hates snitches, but he detests unsporting conduct. Keep your questions appropriate for your game and its surroundings.
   - *2020-02-29* — If you’re the player answering the yes-or-no question, you must abide by your answer if able. For example, if you are asked “Is the Slaying Mantis you control going to attack on your next turn?” and you say yes, then it must attack if able. However, if it’s tapped as you declare attackers that turn, then you aren’t able to attack with it, and you don’t have to abide by your answer.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/5/frankie-peanuts) · oracle_id `477fe26f-faea-4f33-beda-86f7debfdd88` · printing: UND #5 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Franklin Richards, Ascendant
@@ -480,6 +482,8 @@ schema: 2
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14226 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 84 decks; highest synergy [Curator of Sun's Creation](../../cards/C/cu.md#curator-of-suns-creation) (+78%), [Chimil, the Inner Sun](../../cards/C/chi.md#chimil-the-inner-sun) (+71%), [Nalfeshnee](../../cards/N/na.md#nalfeshnee) (+62%) · EDHREC: in 6,641 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (70.6% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (40.4% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (52.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/52/franklin-richards-ascendant) · oracle_id `af20f452-5cb9-47cc-9a81-71f23204ddd0` · printing: MSC #52 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0957b296-c34d-4193-9fe7-a339533ac121/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frantic Confrontation
@@ -1342,6 +1346,8 @@ schema: 2
   > Whenever a card is exiled because it was warped, put three time counters on it. It gains suspend.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03m/frie-displaced-in-time) · oracle_id `b8932dad-c6ac-4864-9f5d-3bce2e375af9` · printing: UNK #RZ03m (2025-08-02) · [rulings](https://api.scryfall.com/cards/04adaa48-c71c-497e-bc6a-03c844581844/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Friendly Fire
@@ -1654,6 +1660,8 @@ schema: 2
   > *Frodo's heart flamed within him. He drew his sword and advanced.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14489 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 356 decks; highest synergy [Bilbo's Ring](../../cards/B/bi.md#bilbos-ring) (+70%), [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+69%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+65%) · EDHREC: in 5,645 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.3% of its decks), [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (1.3% of its decks), [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (4.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/289/frodo-determined-hero) · oracle_id `ae50be07-c8bc-45db-b47d-701c5d9ee633` · printing: LTR #289 (2023-06-23) · [rulings](https://api.scryfall.com/cards/83d1b37c-a8c6-4690-8701-3395397711e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Frodo, Sauron's Bane

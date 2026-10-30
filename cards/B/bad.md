@@ -116,6 +116,8 @@ schema: 2
   > *"Can I teach you a lesson?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31416 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Freed from the Real + Paradise Mantle + Badgey, Malicious Glitch](https://commanderspellbook.com/combo/4222-4474-7937/) (Infinite lifegain, Infinite lifegain triggers) · EDHREC as commander: 55 decks; highest synergy [Voltaic Construct](../../cards/V/vo.md#voltaic-construct) (+74%), [Voltaic Key](../../cards/V/vo.md#voltaic-key) (+72%), [Manifold Key](../../cards/M/man.md#manifold-key) (+69%) · EDHREC: in 90 decks; most often under [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (0.3% of its decks), [Umbris, Fear Manifest](../../cards/U/um.md#umbris-fear-manifest) (0.2% of its decks), [King Macar, the Gold-Cursed](../../cards/K/ki.md#king-macar-the-gold-cursed) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#badgey-malicious-glitch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/152/badgey-malicious-glitch) · oracle_id `227fb13b-0a07-4937-9048-7cf02efbc8e3` · printing: TRC #152 (2026-11-13) · [rulings](https://api.scryfall.com/cards/294e0651-99b4-4792-8ee8-107e7484117d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

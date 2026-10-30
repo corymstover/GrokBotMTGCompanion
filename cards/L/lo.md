@@ -402,6 +402,8 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19121 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,610 decks; highest synergy [Persistent Petitioners](../../cards/P/pe.md#persistent-petitioners) (+89%), [Danny Pink](../../cards/D/da.md#danny-pink) (+57%), [The Water Crystal](../../cards/T/thew.md#the-water-crystal) (+57%) · EDHREC: in 1,089 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.4% of its decks), [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (2.3% of its decks), [Hama, the Bloodbender](../../cards/H/ha.md#hama-the-bloodbender) (20.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/108/lo-and-li-royal-advisors) · oracle_id `b5018037-cf4e-46d2-86c3-fb8eec6e44d1` · printing: TLE #108 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0992a8a7-e992-4fbd-bafd-e28761d2f677/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lo and Li, Twin Tutors
@@ -417,6 +419,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15241 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — An instant or sorcery spell with lifelink causes its controller to gain life only if it's the source of any damage that's dealt. An instant or sorcery spell with lifelink that causes another source to deal damage won't cause its controller to gain life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 71 decks; highest synergy [Desperate Plea](../../cards/D/des.md#desperate-plea) (+77%), [High-Society Hunter](../../cards/H/hi.md#high-society-hunter) (+75%), [Mai, Scornful Striker](../../cards/M/mai.md#mai-scornful-striker) (+73%) · EDHREC: in 5,275 decks; most often under [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (5.1% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (19.3% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/108/lo-and-li-twin-tutors) · oracle_id `ad643992-eb9f-4a4a-9b74-a5aee2337f30` · printing: TLA #108 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loan Shark
@@ -714,6 +718,8 @@ schema: 2
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11032 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 189 decks; highest synergy [Fight On!](../../cards/F/fi.md#fight-on) (+32%), [Curiosity](../../cards/C/cu.md#curiosity) (+27%), [Monument to Endurance](../../cards/M/mon.md#monument-to-endurance) (+27%) · EDHREC: in 10,641 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (32.7% of its decks), [Emet-Selch, Unsundered](../../cards/E/em.md#emet-selch-unsundered--hades-sorcerer-of-eld) (17.1% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/234/locke-cole) · oracle_id `bdcb7aed-3595-4c7e-b9da-543e92de919a` · printing: FIN #234 (2025-06-13) · [rulings](https://api.scryfall.com/cards/572feb8c-6976-40a8-8a34-b4db836cca56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Locked in the Cemetery
@@ -782,6 +788,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14863 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 124 decks; highest synergy [Combat Research](../../cards/C/com.md#combat-research) (+56%), [Slip Out the Back](../../cards/S/sl.md#slip-out-the-back) (+50%), [Lyla, Holographic Assistant](../../cards/L/ly.md#lyla-holographic-assistant) (+47%) · EDHREC: in 5,929 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (57.0% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (45.1% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (48.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/36/lockjaw-slobbering-teleporter) · oracle_id `5efce07e-24c4-4520-a46f-9954b67c4e6e` · printing: MSC #36 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e273f4e6-4691-4cb3-89e2-9b1ab45a2bc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lockjaw Snapper
@@ -1071,6 +1079,8 @@ schema: 2
   > Whenever you cast a spell that targets only a single creature, gain control of that creature until end of turn. If it's your turn, untap that creature and it gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19976 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 941 decks; highest synergy [Might of the Meek](../../cards/M/mig.md#might-of-the-meek) (+80%), [Fists of Flame](../../cards/F/fi.md#fists-of-flame) (+75%), [Impolite Entrance](../../cards/I/im.md#impolite-entrance) (+75%) · EDHREC: in 1,465 decks; most often under [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (9.7% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (2.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/512/loki-god-of-lies) · oracle_id `6f72ce67-3c17-4338-904b-26e2bf4aecdc` · printing: MSC #512 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b519a04b-64a6-456f-b02a-a54be50342be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki, God of Mischief
@@ -1100,6 +1110,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15515 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 87 decks; highest synergy [Tormenting Voice](../../cards/T/to.md#tormenting-voice) (+42%), [Storm-Kiln Artist](../../cards/S/sto.md#storm-kiln-artist) (+41%), [Seize the Spoils](../../cards/S/sei.md#seize-the-spoils) (+38%) · EDHREC: in 5,241 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (8.9% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (15.2% of its decks), [Loki, God of Lies](../../cards/L/lo.md#loki-god-of-lies) (33.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/143/loki-laufeyson) · oracle_id `9c78778a-6335-4949-8ade-11d0f085cb2b` · printing: MSH #143 (2026-06-26) · [rulings](https://api.scryfall.com/cards/53b795a7-11f8-423a-b021-f811007fc82f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki, Lord of Misrule
@@ -1113,6 +1125,8 @@ schema: 2
   > *"What a grim place Asgard would be without me. Absent chaos, there is but tedium."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11071 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: 1 combo; most popular [Loki, Lord of Misrule + Biovisionary](https://commanderspellbook.com/combo/2743-8229/) (Win the game) · EDHREC as commander: 744 decks; highest synergy [Homunculus Horde](../../cards/H/ho.md#homunculus-horde) (+64%), [Mischievous Mystic](../../cards/M/mis.md#mischievous-mystic) (+64%), [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (+60%) · EDHREC: in 10,520 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (13.8% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (41.6% of its decks), [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (12.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#loki-lord-of-misrule)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/628/loki-lord-of-misrule) · oracle_id `20ec130f-05b4-4fbf-a54f-5874ae7ef90f` · printing: MSC #628 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3636ecb1-8bb9-49aa-a40b-c0d0b3b71158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1140,6 +1154,8 @@ schema: 2
   > Whenever one or more Villains you control deal combat damage to a player, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10495 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,382 decks; highest synergy [Tombstone, Career Criminal](../../cards/T/to.md#tombstone-career-criminal) (+81%), [Baron Strucker, HYDRA Overlord](../../cards/B/bar.md#baron-strucker-hydra-overlord) (+74%), [Chameleon, Master of Disguise](../../cards/C/cha.md#chameleon-master-of-disguise) (+73%) · EDHREC: in 9,812 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (65.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (34.0% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (14.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/L.md#loki-the-deceiver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/86/loki-the-deceiver) · oracle_id `17e45fd8-c924-4b42-87ad-189469a8dd18` · printing: MSC #86 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0cd3d41-909b-4f20-a44b-db82807d10ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1172,6 +1188,8 @@ schema: 2
   > *Prize Card for the Unknown event at MagicCon Barcelona, July 30th, 2023.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG02c/lona-tracker-of-the-known) · oracle_id `405a055a-2b16-42aa-be34-4299a80d7ec5` · printing: UNK #RG02c (2023-07-30) · [rulings](https://api.scryfall.com/cards/91681696-ab22-4fc6-823b-79629f13e32d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lonely Arroyo
@@ -1343,6 +1361,8 @@ schema: 2
   > *"In silencing talk of conflict, Ba Sing Se remains a peaceful, orderly utopia."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13927 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Long Feng, Grand Secretariat + Basking Broodscale](https://commanderspellbook.com/combo/5641-6872/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 984 decks; highest synergy [Basking Broodscale](../../cards/B/bas.md#basking-broodscale) (+61%), [Beifong's Bounty Hunters](../../cards/B/be.md#beifongs-bounty-hunters) (+50%), [Dai Li Agents](../../cards/D/da.md#dai-li-agents) (+47%) · EDHREC: in 5,710 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (8.0% of its decks), [Hearthhull, the Worldseed](../../cards/H/he.md#hearthhull-the-worldseed) (1.2% of its decks), [Szarel, Genesis Shepherd](../../cards/S/sz.md#szarel-genesis-shepherd) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/233/long-feng-grand-secretariat) · oracle_id `9bf9fe83-b0df-4ef8-ac54-c0d223d4e410` · printing: TLA #233 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a3eb92fe-bc59-4472-9028-f368bd015609/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long-Finned Skywhale
@@ -1696,6 +1716,8 @@ schema: 2
   - *2024-02-02* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2024-02-02* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Lonis, Genetics Expert + Krark-Clan Ironworks](https://commanderspellbook.com/combo/4659-5365--11/) (Infinite +1/+1 counters on a creature) · EDHREC as commander: 1,206 decks; highest synergy [Piper Wright, Publick Reporter](../../cards/P/pi.md#piper-wright-publick-reporter) (+78%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+77%), [Forensic Gadgeteer](../../cards/F/fo.md#forensic-gadgeteer) (+71%) · EDHREC: in 9,174 decks; most often under [Morska, Undersea Sleuth](../../cards/M/mor.md#morska-undersea-sleuth) (23.0% of its decks), [Jenny Flint // Madame Vastra](../../cards/J/je.md#jenny-flint) (60.3% of its decks), [Lonis, Cryptozoologist](../../cards/L/lo.md#lonis-cryptozoologist) (22.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/37/lonis-genetics-expert) · oracle_id `52d8e492-b7b7-4ad4-8f1f-5c50993e55e0` · printing: CLU #37 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Look at Me, I'm R&D
@@ -1921,6 +1943,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — If another effect causes Loot to deal combat damage equal to his toughness rather than his power, use his toughness to determine how much combat damage to assign, even if he also has negative power.
   - *2026-08-21* — Loot's first ability doesn't change his power. It changes only the amount of combat damage he assigns. All other rules and effects that check his power use the real value, even if they cause damage "equal to a creature's power" to be dealt. In that case, if Loot's power is negative, no damage is dealt.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 95 combos; most popular [Loot, the Anomaly + Agatha's Soul Cauldron + Hyalopterous Lemure](https://commanderspellbook.com/combo/4613-4654-8227/) (Infinite combat damage to one opponent) · EDHREC as commander: 755 decks; highest synergy [Belbe's Armor](../../cards/B/be.md#belbes-armor) (+82%), [Greel's Caress](../../cards/G/gre.md#greels-caress) (+75%), [Skeleton Key](../../cards/S/sk.md#skeleton-key) (+75%) · EDHREC: in 725 decks; most often under [Nethroi, Apex of Death](../../cards/N/ne.md#nethroi-apex-of-death) (7.7% of its decks), [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (3.2% of its decks), [Shirei, Shizo's Caretaker](../../cards/S/shi.md#shirei-shizos-caretaker) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/232/loot-the-anomaly) · oracle_id `e0142e7d-7b0b-4290-a56c-5fa950fdccf8` · printing: FRA #232 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, the Key to Everything
@@ -1940,6 +1964,8 @@ schema: 2
   - *2024-04-12* — The card types that could appear among your nonland permanents are artifact, battle, creature, enchantment, kindred, and planeswalker.
   - *2024-04-12* — The value of X is determined as Loot's last ability resolves.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Loot's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,142 decks; highest synergy [Doc Aurlock, Grizzled Genius](../../cards/D/do.md#doc-aurlock-grizzled-genius) (+71%), [Faldorn, Dread Wolf Herald](../../cards/F/fa.md#faldorn-dread-wolf-herald) (+60%), [The Lost and the Damned](../../cards/T/thel.md#the-lost-and-the-damned) (+60%) · EDHREC: in 5,530 decks; most often under [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (8.1% of its decks), [Loot, the Pathfinder](../../cards/L/lo.md#loot-the-pathfinder) (12.0% of its decks), [The Thirteenth Doctor // Yasmin Khan](../../cards/T/thet.md#the-thirteenth-doctor) (25.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/21/loot-the-key-to-everything) · oracle_id `542be13f-b9c0-4b79-b486-be576c531a82` · printing: BIG #21 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, the Nexus
@@ -1955,6 +1981,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18330 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — A creature has different power from another if their powers are different numbers. For example, a 1/1 creature and a 2/1 creature have different powers.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 69 combos; most popular [Freed from the Real + Loot, the Nexus](https://commanderspellbook.com/combo/4222-8190/) (Infinite colored mana) · EDHREC as commander: 56 decks; highest synergy [Arboreal Grazer](../../cards/A/arb.md#arboreal-grazer) (+48%), [Birds of Paradise](../../cards/B/bi.md#birds-of-paradise) (+42%), [Elemental Bond](../../cards/E/el.md#elemental-bond) (+37%) · EDHREC: in 4,861 decks; most often under [Slinza, the Spiked Stampede](../../cards/S/sl.md#slinza-the-spiked-stampede) (22.2% of its decks), [Kinnan, Bonder Prodigy](../../cards/K/ki.md#kinnan-bonder-prodigy) (4.1% of its decks), [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/262/loot-the-nexus) · oracle_id `a99ce9db-9b7d-45a0-bee7-0875fc62ca48` · printing: FRA #262 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, the Pathfinder
@@ -1973,6 +2001,8 @@ schema: 2
   - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
   - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
   - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Loot, the Pathfinder + Deadeye Navigator](https://commanderspellbook.com/combo/1409-6253/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 6,459 decks; highest synergy [Deadeye Navigator](../../cards/D/dea.md#deadeye-navigator) (+63%), [Displacer Kitten](../../cards/D/di.md#displacer-kitten) (+61%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+59%) · EDHREC: in 5,902 decks; most often under [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (18.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.9% of its decks), [Animar, Soul of Elements](../../cards/A/an.md#animar-soul-of-elements) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/212/loot-the-pathfinder) · oracle_id `68c7e459-0932-4644-a3c0-9a1eae1db7a3` · printing: DFT #212 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loporrit Scout
@@ -1999,6 +2029,8 @@ schema: 2
   > *Urza and Mishra may have been Tocasia's most famous students, but Loran was the true heir to her legacy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14023 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 69 combos; most popular [Emiel the Blessed + Loran, Disciple of History + Lion's Eye Diamond](https://commanderspellbook.com/combo/488-3518-4499/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 95 decks; highest synergy [Teshar, Ancestor's Apostle](../../cards/T/te.md#teshar-ancestors-apostle) (+74%), [Oswald Fiddlebender](../../cards/O/os.md#oswald-fiddlebender) (+71%), [Mishra's Bauble](../../cards/M/mis.md#mishras-bauble) (+63%) · EDHREC: in 6,373 decks; most often under [Gandalf the White](../../cards/G/ga.md#gandalf-the-white) (44.6% of its decks), [The Seriema](../../cards/T/thes.md#the-seriema) (14.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/13/loran-disciple-of-history) · oracle_id `9d1f232c-e904-46f6-a4b7-24ca2ede711c` · printing: BRO #13 (2022-11-18) · [rulings](https://api.scryfall.com/cards/9998f898-1f08-481b-8505-b890f0fec5e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loran of the Third Path
@@ -2050,6 +2082,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — Lorcan's last ability affects all Warlocks you control, not only ones he collected from an opponent's graveyard.
   - *2021-07-23* — Lorcan, Warlock Collector's second ability looks only at the type the card has in the graveyard, not the type it had in any other zone. For example, animated lands dying won't cause the ability to trigger. The opposite is also true. For example, if a creature that was cast as an Adventure is countered, it's a creature card in the graveyard and the triggered ability will trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 396 decks; highest synergy [Font of Agonies](../../cards/F/fo.md#font-of-agonies) (+61%), [Sangromancer](../../cards/S/san.md#sangromancer) (+55%), [Disciple of Bolas](../../cards/D/di.md#disciple-of-bolas) (+49%) · EDHREC: in 8,244 decks; most often under [Raphael, Fiendish Savior](../../cards/R/rap.md#raphael-fiendish-savior) (28.3% of its decks), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (4.5% of its decks), [Captain N'ghathrod](../../cards/C/cap.md#captain-nghathrod) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/27/lorcan-warlock-collector) · oracle_id `6c87c261-00a8-46f2-92c8-42009a0a2faf` · printing: AFC #27 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Dregg, Insect Invader
@@ -2065,6 +2099,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19688 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Some disappear abilities, such as those of the above cards, are triggered abilities with intervening if clauses. If a permanent hasn't left the battlefield under your control that turn by the time the disappear ability would trigger, it won't trigger at all.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Bastion of Remembrance](../../cards/B/bas.md#bastion-of-remembrance) (+39%), [Ninja Pizza](../../cards/N/ni.md#ninja-pizza) (+34%), [Priest of Forgotten Gods](../../cards/P/pr.md#priest-of-forgotten-gods) (+33%) · EDHREC: in 2,448 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (3.3% of its decks), [Grist, the Hunger Tide](../../cards/G/gri.md#grist-the-hunger-tide) (10.5% of its decks), [Zask, Skittering Swarmlord](../../cards/Z/za.md#zask-skittering-swarmlord) (10.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lord-dregg-insect-invader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/65/lord-dregg-insect-invader) · oracle_id `2db77e35-a54a-4e9c-8081-c97822515879` · printing: TMT #65 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2082,6 +2118,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10377 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Lord Jyscal Guado's last ability checks at the moment it would trigger to see if you put a counter on a creature this turn. If you didn't, the ability won't trigger at all. Once your end step begins, it's too late to put a counter on a creature in order to cause this ability to trigger.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 61 decks; highest synergy [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+69%), [Mikaeus, the Lunarch](../../cards/M/mik.md#mikaeus-the-lunarch) (+67%), [Merchant of Truth](../../cards/M/me.md#merchant-of-truth) (+64%) · EDHREC: in 11,949 decks; most often under [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (17.6% of its decks), [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (19.4% of its decks), [Yuna, Grand Summoner](../../cards/Y/yu.md#yuna-grand-summoner) (8.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/23/lord-jyscal-guado) · oracle_id `52791629-0f22-4023-bb04-c829d1600568` · printing: FIC #23 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Magnus
@@ -2097,6 +2135,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30941 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — The statement that creatures with Plainswalk or Forestwalk can be blocked applies to all creatures on the battlefield blocking them, and not just to Lord Magnus.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Fyndhorn Elves](../../cards/F/fy.md#fyndhorn-elves) (+39%), [Llanowar Visionary](../../cards/L/ll.md#llanowar-visionary) (+38%), [Gilt-Leaf Archdruid](../../cards/G/gi.md#gilt-leaf-archdruid) (+34%) · EDHREC: in 102 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks), [Arcades Sabboth](../../cards/A/arc.md#arcades-sabboth) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/243/lord-magnus) · oracle_id `59258149-1c18-421b-b940-d0aa29da572a` · printing: LEG #243 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Atlanta
@@ -2297,6 +2337,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Since this is a loss of life and not a payment, your life total can be reduced below zero by this.
   - *2004-10-04* — When Lord of Tresserhorn enters, if you have zero or one other creature on the battlefield, Lord of Tresserhorn itself will be sacrificed as part of its ability's effect. Regeneration won't save it. The rest of the effect still happens.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Lord of Tresserhorn (Grixis)](../../grixis/decks/lord-of-tresserhorn.md) · Commander Spellbook: 5 combos; most popular [Lord of Tresserhorn + Tainted Strike](https://commanderspellbook.com/combo/264-1218/) (Target opponent loses the game) · EDHREC as commander: 1,215 decks; highest synergy [Tainted Strike](../../cards/T/ta.md#tainted-strike) (+51%), [Torpor Orb](../../cards/T/to.md#torpor-orb) (+49%), [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+45%) · EDHREC: in 441 decks; most often under [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (1.3% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (0.2% of its decks), [Thraximundar](../../cards/T/thr.md#thraximundar) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lord-of-tresserhorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/149/lord-of-tresserhorn) · oracle_id `283e7a23-ae25-48d1-abb5-cd021f66cc29` · printing: ME1 #149 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2664,6 +2706,8 @@ schema: 2
 - **Keywords:** Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU08a/lorthos-tentacled-terror) · oracle_id `eb2e1d45-31de-4b4a-995e-2663b5e4a85b` · printing: UNK #RU08a (2023-07-29) · [rulings](https://api.scryfall.com/cards/40dd4917-a3c9-47a6-8417-4a6d3d53b0c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorthos, the Tidemaker
@@ -3425,6 +3469,8 @@ schema: 2
   - *2019-11-12* — Certain kinds of cards (such as flip cards, adventurer cards, and double-, triple-, and four-faced cards) define alternative characteristics for those objects under certain circumstances. Using these alternative characteristics doesn’t count as being modified.
   - *2019-11-12* — If an effect only defined a * or ? symbol in a creature’s power or toughness, it isn’t modified.
   - *2019-11-12* — Most copy effects will cause a creature to be modified, although in some unusual cases the copy effect will leave it with the same power, toughness, and abilities. For example, a Runeclaw Bear that becomes a copy of Glory Seeker will, oddly enough, not be modified.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/95/louvaq-the-aberrant) · oracle_id `6068fe7b-2b44-4472-a001-e35dfe52251e` · printing: CMB2 #95 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Love on the Battlefield
@@ -3499,6 +3545,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10365 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-07-15* — Each creature with at least one of those subtypes gets +2/+2 from Lovisa Coldeyes’ ability, regardless of how many of those subtypes it has. For example, a 3/3 Mistform Ultimus would become 5/5, not 9/9.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 842 decks; highest synergy [Archetype of Aggression](../../cards/A/arc.md#archetype-of-aggression) (+71%), [Bloodmark Mentor](../../cards/B/blo.md#bloodmark-mentor) (+59%), [Frontier Warmonger](../../cards/F/fr.md#frontier-warmonger) (+59%) · EDHREC: in 11,011 decks; most often under [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (68.7% of its decks), [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (20.6% of its decks), [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (13.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/34/lovisa-coldeyes) · oracle_id `720879dc-7593-41c0-ab3d-936069f26930` · printing: DDS #34 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lowland Basilisk

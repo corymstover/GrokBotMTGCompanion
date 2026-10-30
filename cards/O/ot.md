@@ -130,6 +130,8 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16806 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 51 combos; most popular [Othelm, Sigardian Outcast + Ashnod's Altar + Village Bell-Ringer](https://commanderspellbook.com/combo/1030-2034-2059/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 72 decks; highest synergy [Spore Frog](../../cards/S/spo.md#spore-frog) (+52%), [Saffi Eriksdotter](../../cards/S/saf.md#saffi-eriksdotter) (+51%), [Sun Titan](../../cards/S/sun.md#sun-titan) (+51%) · EDHREC: in 2,643 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.5% of its decks), [Polukranos Reborn](../../cards/P/po.md#polukranos-reborn--polukranos-engine-of-ruin) (9.4% of its decks), [Kyler, Sigardian Emissary](../../cards/K/ky.md#kyler-sigardian-emissary) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/O.md#othelm-sigardian-outcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/6/othelm-sigardian-outcast) · oracle_id `4ee401bf-dc86-41a9-84f9-57aa0a314d08` · printing: SLX #6 (2022-03-03) · [rulings](https://api.scryfall.com/cards/b867fb22-4f2a-47aa-9432-1bcc5e731947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -224,6 +226,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10149 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-04-17* — If Otrimi deals combat damage to a player at the same time that it’s dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,810 decks; highest synergy [Boneyard Lurker](../../cards/B/bo.md#boneyard-lurker) (+91%), [Migratory Greathorn](../../cards/M/mig.md#migratory-greathorn) (+91%), [Dreamtail Heron](../../cards/D/dre.md#dreamtail-heron) (+88%) · EDHREC: in 8,513 decks; most often under [Kotis, the Fangkeeper](../../cards/K/ko.md#kotis-the-fangkeeper) (12.4% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (8.0% of its decks), [Tatsunari, Toad Rider](../../cards/T/ta.md#tatsunari-toad-rider) (17.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#otrimi-the-ever-playful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -626,6 +626,8 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Hogaak, Arisen Necropolis + Infested Thrinax + Altar of Dementia](https://commanderspellbook.com/combo/56-5256-5695/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 2,791 decks; highest synergy [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+77%), [Satyr Wayfinder](../../cards/S/sat.md#satyr-wayfinder) (+70%), [Greater Good](../../cards/G/gre.md#greater-good) (+68%) · EDHREC: in 8,124 decks; most often under [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (2.3% of its decks), [Sidisi, Brood Tyrant](../../cards/S/si.md#sidisi-brood-tyrant) (7.3% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hogaak-arisen-necropolis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/202/hogaak-arisen-necropolis) · oracle_id `97acd977-164d-49d5-b3a1-72e0d75c9016` · printing: MH1 #202 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -683,6 +685,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13995 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-02-01* — If there are two Hokori on the battlefield (for example, if Mirror Gallery is on the battlefield), each player untaps two lands they control at the beginning of their upkeep.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,041 decks; highest synergy [Windborn Muse](../../cards/W/wi.md#windborn-muse) (+63%), [Kismet](../../cards/K/ki.md#kismet) (+61%), [Hushbringer](../../cards/H/hu.md#hushbringer) (+59%) · EDHREC: in 5,536 decks; most often under [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (5.8% of its decks), [Grand Arbiter Augustin IV](../../cards/G/gra.md#grand-arbiter-augustin-iv) (3.6% of its decks), [Sen Triplets](../../cards/S/sen.md#sen-triplets) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/7/hokori-dust-drinker) · oracle_id `d2aaf485-8c74-4a27-b80b-f600c20d8b9c` · printing: BOK #7 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hold at Bay
@@ -1247,6 +1251,8 @@ schema: 2
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #15923 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Homer, the Hermit + Hedge Shredder](https://commanderspellbook.com/combo/5932-8094/) (Near-infinite landfall triggers, Near-infinite mill) · EDHREC as commander: 4,924 decks; highest synergy [Ruin Crab](../../cards/R/ru.md#ruin-crab) (+82%), [Hedron Crab](../../cards/H/he.md#hedron-crab) (+75%), [Uchuulon](../../cards/U/uc.md#uchuulon) (+70%) · EDHREC: in 175 decks; most often under [The Wise Mothman](../../cards/T/thew.md#the-wise-mothman) (0.3% of its decks), [Teval, the Balanced Scale](../../cards/T/te.md#teval-the-balanced-scale) (0.3% of its decks), [Muldrotha, the Gravetide](../../cards/M/mu.md#muldrotha-the-gravetide) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/40/homer-the-hermit) · oracle_id `a13aa603-8709-43aa-b69a-ee74de79561f` · printing: MBC #40 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d9934129-11b4-4e91-b81c-9d8e5bb14523/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Homesickness
@@ -1401,6 +1407,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18003 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 204 decks; highest synergy [High Market](../../cards/H/hi.md#high-market) (+54%), [Hanweir Garrison](../../cards/H/ha.md#hanweir-garrison) (+45%), [Fling](../../cards/F/fl.md#fling) (+40%) · EDHREC: in 3,037 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (4.1% of its decks), [Purphoros, Bronze-Blooded](../../cards/P/pu.md#purphoros-bronze-blooded) (8.2% of its decks), [Sabin, Master Monk](../../cards/S/sab.md#sabin-master-monk) (20.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/103/homura-human-ascendant-homuras-essence) · oracle_id `fa023c32-2cec-416c-90b7-07b7a19c82d4` · printing: SOK #103 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Honden of Cleansing Fire
@@ -2917,6 +2925,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10405 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — If the creature is the only target of the spell or ability, that spell or ability won't resolve.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Horobi, Death's Wail + Shadow Alley Denizen + Ogre Slumlord](https://commanderspellbook.com/combo/905-5075-5097/) (Lock, Destroy any number of nontoken creatures whenever a black creature enters the battlefield under your control) · EDHREC as commander: 2,830 decks; highest synergy [Tetzimoc, Primal Death](../../cards/T/te.md#tetzimoc-primal-death) (+79%), [Scuttlemutt](../../cards/S/sc.md#scuttlemutt) (+69%), [Cauldron of Souls](../../cards/C/cau.md#cauldron-of-souls) (+68%) · EDHREC: in 9,027 decks; most often under [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (58.4% of its decks), [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (67.3% of its decks), [Shay Cormac](../../cards/S/sha.md#shay-cormac) (25.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#horobi-deaths-wail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/117/horobi-deaths-wail) · oracle_id `44e8d51e-0885-49df-a77c-cf4a88e41bc1` · printing: CHK #117 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3134,6 +3144,8 @@ schema: 2
   > *"Whatever they say, you have to respond in kind. Otherwise they'll take offense."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32209 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Long-Bodied Grey Dog](../../cards/L/lo.md#long-bodied-grey-dog) (+100%), [Troop of Ponies](../../cards/T/tro.md#troop-of-ponies) (+98%), [Y'shtola Rhul](../../cards/Y/ys.md#yshtola-rhul) (+78%) · EDHREC: in 49 decks; most often under [Volo, Itinerant Scholar](../../cards/V/vo.md#volo-itinerant-scholar) (16.7% of its decks), [Volo, Itinerant Scholar // Master Chef](../../cards/V/vo.md#volo-itinerant-scholar) (0.9% of its decks), [Volo, Guide to Monsters](../../cards/V/vo.md#volo-guide-to-monsters) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hoshi-sato-exolinguist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/64/hoshi-sato-exolinguist) · oracle_id `39426cd1-8c0d-4ec6-8747-f0693080f8f2` · printing: TRK #64 (2026-11-13) · [rulings](https://api.scryfall.com/cards/24589f4d-c530-4f6a-b2d0-450ef70fca71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

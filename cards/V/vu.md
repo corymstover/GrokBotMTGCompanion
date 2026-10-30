@@ -281,6 +281,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19223 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 84 decks; highest synergy [Mischievous Mystic](../../cards/M/mis.md#mischievous-mystic) (+77%), [Flitterwing Nuisance](../../cards/F/fl.md#flitterwing-nuisance) (+72%), [Thrummingbird](../../cards/T/thr.md#thrummingbird) (+72%) · EDHREC: in 2,715 decks; most often under [The Lord of the Eagles](../../cards/T/thel.md#the-lord-of-the-eagles) (59.1% of its decks), [Errant and Giada](../../cards/E/er.md#errant-and-giada) (18.0% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (4.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/645/vulture-feathered-fiend) · oracle_id `c598d97f-fec6-4238-8eed-8051e9541d31` · printing: MSC #645 (2026-06-26) · [rulings](https://api.scryfall.com/cards/af3951cc-c3af-4064-9354-af14c3273613/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulture, Scheming Scavenger
@@ -296,6 +298,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14103 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 57 decks; highest synergy [Doc Ock, Sinister Scientist](../../cards/D/do.md#doc-ock-sinister-scientist) (+76%), [Venomized Cat](../../cards/V/ve.md#venomized-cat) (+76%), [Merciless Enforcers](../../cards/M/me.md#merciless-enforcers) (+71%) · EDHREC: in 6,438 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (12.9% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (73.5% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (23.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/158/vulture-scheming-scavenger) · oracle_id `0409765a-bbb4-465e-99b3-3687bffc3cf9` · printing: SPM #158 (2025-09-26) · [rulings](https://api.scryfall.com/cards/e29281be-e722-4149-93a0-6dd3f0f64253/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vulturous Aven

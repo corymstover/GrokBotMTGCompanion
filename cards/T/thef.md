@@ -74,6 +74,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29452 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 29 decks; highest synergy [Frog Butler](../../cards/F/fr.md#frog-butler) (+42%), [Poison Dart Frog](../../cards/P/po.md#poison-dart-frog) (+41%), [Rampant Frogantua](../../cards/R/ram.md#rampant-frogantua) (+41%) · EDHREC: in 257 decks; most often under [Glarb, Calamity's Augur](../../cards/G/gl.md#glarb-calamitys-augur) (0.3% of its decks), [Grolnok, the Omnivore](../../cards/G/gro.md#grolnok-the-omnivore) (0.8% of its decks), [The Thing, Ben Grimm](../../cards/T/thet.md#the-thing-ben-grimm) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/559/the-fabulous-frog-man) · oracle_id `b0c2938d-8370-4786-8ddd-126c61538bdd` · printing: MSC #559 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9307100e-2d7e-42a9-9951-24af01ab9ded/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Face of Boe
@@ -88,6 +90,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16912 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-10-13* — You cast the spell immediately as The Face of Boe's ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [The Face of Boe + Auriok Salvagers + Lotus Bloom + Freed from the Real](https://commanderspellbook.com/combo/2055-2175-3390-4222/) (Infinite storm count) · EDHREC as commander: 622 decks; highest synergy [Ancestral Vision](../../cards/A/an.md#ancestral-vision) (+92%), [Star Whale](../../cards/S/sta.md#star-whale) (+92%), [Judoon Enforcers](../../cards/J/ju.md#judoon-enforcers) (+91%) · EDHREC: in 3,260 decks; most often under [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (41.6% of its decks), [The Eleventh Doctor // Amy Pond](../../cards/T/thee.md#the-eleventh-doctor) (32.8% of its decks), [The Tenth Doctor // Clara Oswald](../../cards/T/thet.md#the-tenth-doctor) (10.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/126/the-face-of-boe) · oracle_id `acef7666-53b1-43c5-8107-236bea22a8b3` · printing: WHO #126 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fact Checker
@@ -100,6 +104,8 @@ schema: 2
   > At the beginning of each opponent's upkeep, look at the top card of their library. Tell them the name of that card. They tell you its mana cost, type line, power, and toughness. Then reveal that card. If they got anything wrong, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03j/the-fact-checker) · oracle_id `2a5d55a4-94fa-4e50-be86-b44b7e4e1d53` · printing: UNK #RZ03j (2025-02-21) · [rulings](https://api.scryfall.com/cards/578086e4-a4bf-4d61-aaea-b9969785f0a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Faction Dragon
@@ -117,6 +123,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ03a/the-faction-dragon) · oracle_id `68a71222-aa93-465f-8f8c-73a241c88ba5` · printing: UNK #MZ03a (2025-06-20) · [rulings](https://api.scryfall.com/cards/dff4f5f8-dfa1-4674-9469-7f3c035cf9cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fair Basilica
@@ -162,6 +170,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25253 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Agent of Atlas](../../cards/A/ag.md#agent-of-atlas) (+100%), [Agents of S.H.I.E.L.D.](../../cards/A/ag.md#agents-of-shield) (+100%), [Ant-Man, Scott Lang](../../cards/A/an.md#ant-man-scott-lang) (+100%) · EDHREC: in 840 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/837/the-falcon-sam-wilson) · oracle_id `359332d6-c42a-4dfa-b148-3296d7e74661` · printing: MSC #837 (2026-06-26) · [rulings](https://api.scryfall.com/cards/781828a9-dfec-4cf0-9c30-ff519af8fd59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fallen
@@ -262,6 +272,8 @@ schema: 2
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [The Fantastic Four + Cryptic Trilobite + Emiel the Blessed](https://commanderspellbook.com/combo/4499-4929-7765/) (Infinite creature LTB, Infinite card draw) · EDHREC as commander: 1,980 decks; highest synergy [Mister Fantastic, Reed Richards](../../cards/M/mis.md#mister-fantastic-reed-richards) (+62%), [Clever Concealment](../../cards/C/cl.md#clever-concealment) (+55%), [Annie Joins Up](../../cards/A/an.md#annie-joins-up) (+49%) · EDHREC: in 1,051 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (14.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.1% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-fantastic-four)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/741/the-fantastic-four) · oracle_id `a2281c99-3f45-441b-8e78-7f1f29bf1dcd` · printing: MSC #741 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d78cb67a-ed8a-4e76-8506-04c274318b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -285,6 +297,8 @@ schema: 2
 - **Keywords:** Flying, Split second
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04c/the-fearsome-flock) · oracle_id `de5b1984-205f-481b-9c42-d72d69e65308` · printing: UNK #RU04c (2024-10-25) · [rulings](https://api.scryfall.com/cards/12fadadf-f8a1-40c0-a99d-87b76cec63f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifteenth Doctor
@@ -298,6 +312,8 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16115 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17 decks; highest synergy [Artificer Class](../../cards/A/art.md#artificer-class) (+63%), [Uthros Research Craft](../../cards/U/ut.md#uthros-research-craft) (+62%), [Jhoira, Weatherlight Captain](../../cards/J/jh.md#jhoira-weatherlight-captain) (+60%) · EDHREC: in 4,020 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (77.2% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (88.3% of its decks), [The Fourteenth Doctor](../../cards/T/thef.md#the-fourteenth-doctor) (77.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fifteenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1584/the-fifteenth-doctor) · oracle_id `90aa8344-ffc7-4a1a-a02a-80eceb1babe5` · printing: SLD #1584 (2023-12-11) · [rulings](https://api.scryfall.com/cards/530a26f1-cf7a-4e56-886b-6799b057c739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -311,6 +327,8 @@ schema: 2
   > As you draw a card on your list, you may reveal it, show it was on the list, and exclaim its name. If you do, cast it without paying its mana cost.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03g/the-fifth-alias) · oracle_id `af0396fe-ef88-4976-b77a-8684a89d5e68` · printing: UNK #RZ03g (2024-10-25) · [rulings](https://api.scryfall.com/cards/8065cac3-0e0a-4172-8221-1c4441e052d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifth Doctor
@@ -328,6 +346,8 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [The Fifth Doctor + Adric, Mathematical Genius](https://commanderspellbook.com/combo/5904-6078/) (Infinite +1/+1 counters on certain creatures, Infinite mana creatures you control can produce except ones that attacked or entered the battlefield this turn) · EDHREC as commander: 39 decks; highest synergy [Harmonized Trio](../../cards/H/ha.md#harmonized-trio--brainstorm) (+36%), [Mikaeus, the Lunarch](../../cards/M/mik.md#mikaeus-the-lunarch) (+35%), [Pensive Professor](../../cards/P/pe.md#pensive-professor) (+35%) · EDHREC: in 9,429 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (90.6% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (97.1% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (53.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-fifth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/127/the-fifth-doctor) · oracle_id `992ddd9f-e0db-4383-909c-6dacca41d188` · printing: WHO #127 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -418,6 +438,8 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You choose the target for The First Doctor's last ability before revealing any cards for cascade.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17 decks; highest synergy [TARDIS](../../cards/T/ta.md#tardis) (+88%), [Ethersworn Sphinx](../../cards/E/et.md#ethersworn-sphinx) (+57%), [Stormcaller's Boon](../../cards/S/sto.md#stormcallers-boon) (+47%) · EDHREC: in 6,903 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (89.7% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (97.0% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (51.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-first-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/128/the-first-doctor) · oracle_id `5611b70d-f8d1-4a8f-b9a2-a356264a7c46` · printing: WHO #128 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -517,6 +539,8 @@ schema: 2
   > *FROM*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU42/the-fish-brewer) · oracle_id `5e5264df-4dd5-4068-b828-0b33ec4d4636` · printing: UNK #RU42 (2024-02-24) · [rulings](https://api.scryfall.com/cards/9cc29297-ff1e-45c9-bc1e-df64b6f93116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Five Doctors
@@ -590,6 +614,8 @@ schema: 2
   > *Prize Card for the Unknown events at MagicCon Amsterdam, July 17-19, 2026.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ01a/the-flavormancer) · oracle_id `37d842ff-e0ec-400c-a8c8-3f238d9c02f1` · printing: UNK #MZ01a (2026-07-17) · [rulings](https://api.scryfall.com/cards/b18c0fd0-5aa3-4e9d-a363-54602423d59d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flesh Is Weak
@@ -675,6 +701,8 @@ schema: 2
   > You may have The Fourteenth Doctor enter as a copy of a Doctor card in your graveyard that was put there from your library this turn. If you do, it gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15299 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 240 decks; highest synergy [The Fourth Doctor](../../cards/T/thef.md#the-fourth-doctor) (+88%), [The Eleventh Doctor](../../cards/T/thee.md#the-eleventh-doctor) (+87%), [The Sixth Doctor](../../cards/T/thes.md#the-sixth-doctor) (+87%) · EDHREC: in 452 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.5% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.2% of its decks), [Rukarumel, Biologist](../../cards/R/ru.md#rukarumel-biologist) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fourteenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1583/the-fourteenth-doctor) · oracle_id `0afcf1eb-ac2c-4bb0-8823-9fe45968c2d9` · printing: SLD #1583 (2023-12-11) · [rulings](https://api.scryfall.com/cards/8b8a78cf-ee6c-4852-9651-eeaa634daaa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -697,6 +725,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [The Fourth Doctor + Displacer Kitten + Sensei's Divining Top + Etherium Sculptor](https://commanderspellbook.com/combo/1170-1976-5078-6979/) (Near-infinite artifact ETB, Near-infinite artifact LTB) · EDHREC as commander: 32 decks; highest synergy [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+70%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+69%), [The Third Doctor](../../cards/T/thet.md#the-third-doctor) (+62%) · EDHREC: in 10,144 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (92.1% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (97.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (2.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fourth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/2/the-fourth-doctor) · oracle_id `c19fdee3-5fbc-4e2d-ac23-85b46eacafdc` · printing: WHO #2 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -714,6 +744,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13102 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [Twilight Prophet](../../cards/T/tw.md#twilight-prophet) (+61%), [Witch's Cottage](../../cards/W/wi.md#witchs-cottage) (+53%), [Decorum Dissertation](../../cards/D/dec.md#decorum-dissertation) (+50%) · EDHREC: in 8,024 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (36.9% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (26.1% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-frightful-four)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/44/the-frightful-four) · oracle_id `6d3469dd-d39e-463b-9b41-2f6215a41feb` · printing: MSC #44 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3e792132-de96-47aa-bcd5-58f1e9be5932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -751,5 +783,7 @@ schema: 2
   - *2023-10-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Through the Forest Gate](../../cards/T/thr.md#through-the-forest-gate) (+97%), [Tireless Tracker](../../cards/T/ti.md#tireless-tracker) (+95%), [Tamiyo's Journal](../../cards/T/ta.md#tamiyos-journal) (+87%) · EDHREC: in 4,802 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (80.0% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (88.5% of its decks), [The Thirteenth Doctor // Yasmin Khan](../../cards/T/thet.md#the-thirteenth-doctor) (17.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-fugitive-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/130/the-fugitive-doctor) · oracle_id `b3a03768-7676-4b33-a813-cc69dea77c4d` · printing: WHO #130 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

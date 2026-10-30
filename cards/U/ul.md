@@ -277,6 +277,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13105 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-02-01* — Creatures that are both red and green provide two +1/+1 counters.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 71 combos; most popular [Ulasht, the Hate Seed + Ivy Lane Denizen + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2850-3192/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 858 decks; highest synergy [Artifact Mutation](../../cards/A/art.md#artifact-mutation) (+57%), [Ivy Lane Denizen](../../cards/I/iv.md#ivy-lane-denizen) (+57%), [Impact Tremors](../../cards/I/im.md#impact-tremors) (+51%) · EDHREC: in 6,697 decks; most often under [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (18.2% of its decks), [Thromok the Insatiable](../../cards/T/thr.md#thromok-the-insatiable) (39.5% of its decks), [Slimefoot and Squee](../../cards/S/sl.md#slimefoot-and-squee) (10.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/289/ulasht-the-hate-seed) · oracle_id `796f1e1f-7fec-429d-82ae-125f541d6cc7` · printing: 2X2 #289 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulcerate
@@ -358,6 +360,8 @@ schema: 2
   - *2016-07-13* — To trigger the Werewolf's back face's transform ability, a single player must have cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
   - *2016-07-13* — Ulrich, Uncontested Alpha's last ability only triggers if a single player has cast two or more spells during the previous turn. If multiple players each cast just one spell during the previous turn, the ability won't trigger.
   - *2016-07-13* — You choose the target of the Ulrich, Uncontested Alpha's first ability as it goes on the stack, but you choose whether or not to fight as that ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Emiel the Blessed + Devoted Druid + Ulrich of the Krallenhorde // Ulrich, Uncontested Alpha](https://commanderspellbook.com/combo/4499-4762-7655/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 227 decks; highest synergy [Moonmist](../../cards/M/moo.md#moonmist) (+71%), [Howlpack Resurgence](../../cards/H/ho.md#howlpack-resurgence) (+67%), [Geier Reach Bandit](../../cards/G/ge.md#geier-reach-bandit--vildin-pack-alpha) (+66%) · EDHREC: in 10,465 decks; most often under [Tovolar, Dire Overlord](../../cards/T/to.md#tovolar-dire-overlord--tovolar-the-midnight-scourge) (59.6% of its decks), [Neyith of the Dire Hunt](../../cards/N/ne.md#neyith-of-the-dire-hunt) (3.0% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/191/ulrich-of-the-krallenhorde-ulrich-uncontested-alpha) · oracle_id `0d397c05-a680-4274-972f-6a5f778b5133` · printing: EMN #191 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulrich's Kindred
@@ -558,6 +562,8 @@ schema: 2
   - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 85 combos; most popular [Ultimecia, Time Sorceress // Ultimecia, Omnipotent + Agatha's Soul Cauldron](https://commanderspellbook.com/combo/4613-6587--115/) (Infinite turns, Lock) · EDHREC as commander: 930 decks; highest synergy [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (+53%), [Ultimecia, Temporal Threat](../../cards/U/ul.md#ultimecia-temporal-threat) (+48%), [Enhanced Surveillance](../../cards/E/en.md#enhanced-surveillance) (+45%) · EDHREC: in 9,859 decks; most often under [Emet-Selch, Unsundered](../../cards/E/em.md#emet-selch-unsundered--hades-sorcerer-of-eld) (29.1% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (3.3% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (10.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/247/ultimecia-time-sorceress-ultimecia-omnipotent) · oracle_id `70773879-b773-4e81-99ca-8f4bba478962` · printing: FIN #247 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultimo, Civilization's End
@@ -572,6 +578,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19785 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Deadly Embrace](../../cards/D/dea.md#deadly-embrace) (+66%), [Sephiroth's Intervention](../../cards/S/sep.md#sephiroths-intervention) (+65%), [Field of Ruin](../../cards/F/fi.md#field-of-ruin) (+64%) · EDHREC: in 2,528 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (5.7% of its decks), [Ultron the Annihilator](../../cards/U/ul.md#ultron-the-annihilator) (13.3% of its decks), [Glissa, the Traitor](../../cards/G/gl.md#glissa-the-traitor) (17.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/540/ultimo-civilizations-end) · oracle_id `43d79ee6-8ba1-4ec9-9bb2-907ed8401a2f` · printing: MSC #540 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d40e073a-ec98-4f8e-ae4b-6cfd0530bcdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ultra Magnus, Tactician // Ultra Magnus, Armored Carrier
@@ -606,6 +614,8 @@ schema: 2
   - *2022-10-14* — Ultra Magnus's controller chooses which player or planeswalker the artifact creature is attacking. It doesn't have to be the same player or planeswalker that Ultra Magnus is attacking.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,652 decks; highest synergy [Darksteel Colossus](../../cards/D/da.md#darksteel-colossus) (+69%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+69%), [Combustible Gearhulk](../../cards/C/com.md#combustible-gearhulk) (+68%) · EDHREC: in 3,160 decks; most often under [Infinite Guideline Station](../../cards/I/inf.md#infinite-guideline-station) (8.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.5% of its decks), [Ramos, Dragon Engine](../../cards/R/ram.md#ramos-dragon-engine) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#ultra-magnus-tactician--ultra-magnus-armored-carrier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/15/ultra-magnus-tactician-ultra-magnus-armored-carrier) · oracle_id `48e913c0-efeb-47f5-9dcb-b795751e6b6d` · printing: BOT #15 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -669,6 +679,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13930 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Dr. Eggman (Grixis)](../../grixis/decks/dr-eggman.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 82 decks; highest synergy [Chrome Dome](../../cards/C/chr.md#chrome-dome) (+72%), [Chief of the Foundry](../../cards/C/chi.md#chief-of-the-foundry) (+70%), [Big Mother Mouser](../../cards/B/bi.md#big-mother-mouser) (+68%) · EDHREC: in 6,985 decks; most often under [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (38.1% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (32.4% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (63.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/U.md#ultron-machine-overlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/507/ultron-machine-overlord) · oracle_id `19fd953c-b6d4-457f-b85f-b681c5b0e341` · printing: MSC #507 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b38f8149-0ab8-42cb-9af6-8c647550ab68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -697,6 +709,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12925 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,274 decks; highest synergy [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (+75%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+71%), [Vault of Whispers](../../cards/V/va.md#vault-of-whispers) (+66%) · EDHREC: in 7,130 decks; most often under [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (69.2% of its decks), [Doctor Doom](../../cards/D/do.md#doctor-doom) (53.2% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#ultron-the-annihilator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/668/ultron-the-annihilator) · oracle_id `33f2c6cb-f864-4bee-b365-aedf33fbedf5` · printing: MSC #668 (2026-06-26) · [rulings](https://api.scryfall.com/cards/51879585-9cdf-499b-b7cc-226319c74a0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -728,6 +742,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14667 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — Each of Ultros's abilities resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Ultros, Obnoxious Octopus + Agatha's Soul Cauldron + Crystalline Crawler + Wurmcalling](https://commanderspellbook.com/combo/1354-2060-4613-6652/) (Infinite creature ETB, Infinite storm count) · EDHREC as commander: 440 decks; highest synergy [Lost in the Maze](../../cards/L/lo.md#lost-in-the-maze) (+59%), [Everflowing Chalice](../../cards/E/ev.md#everflowing-chalice) (+53%), [Pull from Tomorrow](../../cards/P/pu.md#pull-from-tomorrow) (+52%) · EDHREC: in 5,473 decks; most often under [The Emperor of Palamecia](../../cards/T/thee.md#the-emperor-of-palamecia--the-lord-master-of-hell) (11.2% of its decks), [Tellah, Great Sage](../../cards/T/te.md#tellah-great-sage) (20.6% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (1.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/83/ultros-obnoxious-octopus) · oracle_id `b6f4b524-1081-4263-b7e4-9aee93131b31` · printing: FIN #83 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ulvenwald Bear

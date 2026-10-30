@@ -461,6 +461,8 @@ schema: 2
   > As members of your family enters, you may say "Nothing is stronger than family" and reveal its name from your list. That creature enters with two +1/+1 counters on it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG02/retto-family-racer) · oracle_id `2bdf4c31-fbcc-4523-8ae3-b17cf6b64ce3` · printing: UNK #RG02 (2025-02-21) · [rulings](https://api.scryfall.com/cards/56f28cc7-3cec-4f2e-9a27-d7c349b27f7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Returned Centaur

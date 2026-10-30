@@ -35,5 +35,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12817 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 195 decks; highest synergy [Ethereal Haze](../../cards/E/et.md#ethereal-haze) (+82%), [Kami of False Hope](../../cards/K/ka.md#kami-of-false-hope) (+80%), [Nikko-Onna](../../cards/N/ni.md#nikko-onna) (+78%) · EDHREC: in 7,728 decks; most often under [King of the Oathbreakers](../../cards/K/ki.md#king-of-the-oathbreakers) (44.5% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (31.8% of its decks), [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (25.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oyobi-who-split-the-heavens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/95/oyobi-who-split-the-heavens) · oracle_id `df5c1f34-94e4-4f89-b1af-943c430862d0` · printing: VOC #95 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8f279602-024a-44b6-9a36-465c16363cb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

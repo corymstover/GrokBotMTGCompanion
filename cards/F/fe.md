@@ -1055,6 +1055,8 @@ schema: 2
   - *2024-02-02* — The token that a resolving copy of a permanent spell becomes isn't "created" and won't interact with abilities that care about tokens being created, such as that of Case of the Pilfered Proof.
   - *2024-02-02* — You can't choose to pay any alternative or additional costs for the copies. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2024-02-02* — You control all the copies, and you choose the order the copies are put on the stack. The original spell will be on the stack beneath those copies and will resolve last.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 967 decks; highest synergy [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+72%), [Sage's Reverie](../../cards/S/sag.md#sages-reverie) (+67%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+66%) · EDHREC: in 4,980 decks; most often under [Feather, the Redeemed](../../cards/F/fe.md#feather-the-redeemed) (10.4% of its decks), [Nelly Borca, Impulsive Accuser](../../cards/N/ne.md#nelly-borca-impulsive-accuser) (11.4% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/6/feather-radiant-arbiter) · oracle_id `957413ae-e756-4afe-886a-b57bf59d5f8d` · printing: MKC #6 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feather, the Redeemed
@@ -1452,6 +1454,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17419 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-14* — You must pay all costs and follow all normal timing rules when casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 135 decks; highest synergy [Laelia, the Blade Reforged](../../cards/L/la.md#laelia-the-blade-reforged) (+54%), [Chain Lightning](../../cards/C/cha.md#chain-lightning) (+53%), [Fury](../../cards/F/fu.md#fury) (+50%) · EDHREC: in 3,414 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (7.0% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (2.9% of its decks), [Bruse Tarl, Boorish Herder // Yoshimaru, Ever Faithful](../../cards/B/br.md#bruse-tarl-boorish-herder) (51.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/135/feldon-ronom-excavator) · oracle_id `76c97e3d-a9be-4ed7-a2ef-f97870d8f58a` · printing: BRO #135 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Feldon's Cane

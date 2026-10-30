@@ -82,6 +82,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16735 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 32 combos; most popular [Breath of Fury + Rising of the Day + Éomer of the Riddermark](https://commanderspellbook.com/combo/1879-2155-3259/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 19 decks; highest synergy [Glóin the Mighty](../../cards/G/gl.md#glóin-the-mighty--easy-pickings) (+63%), [Erkenbrand, Lord of Westfold](../../cards/E/er.md#erkenbrand-lord-of-westfold) (+47%), [Alena, Kessig Trapper](../../cards/A/al.md#alena-kessig-trapper) (+45%) · EDHREC: in 4,023 decks; most often under [Éowyn, Shieldmaiden](../../cards/E/eo.md#éowyn-shieldmaiden) (5.5% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.6% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/121/%C3%A9omer-of-the-riddermark) · oracle_id `c07340bb-04b6-4a80-9999-727b8ab3534d` · printing: LTR #121 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d920fcaf-4988-4186-962d-cdda25d79e7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eon Frolicker

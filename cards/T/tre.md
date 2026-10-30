@@ -899,6 +899,8 @@ schema: 2
 - **Keywords:** Vigilance, Companion
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph22/1/treizeci-sun-of-serra) · oracle_id `87d5b9d0-3fb3-4554-a27c-0862d59dd59d` · printing: PH22 #1 (2023-08-01) · [rulings](https://api.scryfall.com/cards/ad2bbfa1-81e0-4683-b1dc-a3aaa9837690/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trelane, Squire of Gothos
@@ -915,6 +917,8 @@ schema: 2
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32236 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Propaganda](../../cards/P/pr.md#propaganda) (+52%), [Sword of Feast and Famine](../../cards/S/sw.md#sword-of-feast-and-famine) (+49%), [Extravagant Replication](../../cards/E/ex.md#extravagant-replication) (+47%) · EDHREC: in 32 decks; most often under [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (0.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Volo, Itinerant Scholar // Feywild Visitor](../../cards/V/vo.md#volo-itinerant-scholar) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trelane-squire-of-gothos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/195/trelane-squire-of-gothos) · oracle_id `3c516327-00a3-4d03-87a3-73b4a90719d3` · printing: TRC #195 (2026-11-13) · [rulings](https://api.scryfall.com/cards/3ff8a24f-2771-454b-abb3-619b1c56f7e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1220,6 +1224,8 @@ schema: 2
 - **Keywords:** Indestructible, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26681 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Tresserhorn's Lord, Returned (Grixis)](../../grixis/decks/tresserhorns-lord-returned.md) · Commander Spellbook: 64 combos; most popular [The Locust God + Ashnod's Altar + Tresserhorn's Lord, Returned](https://commanderspellbook.com/combo/1339-2034-7920/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 559 decks; highest synergy [Gravecrawler](../../cards/G/gra.md#gravecrawler) (+71%), [Jadar, Ghoulcaller of Nephalia](../../cards/J/ja.md#jadar-ghoulcaller-of-nephalia) (+63%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+58%) · EDHREC: in 65 decks; most often under [Obeka, Brute Chronologist](../../cards/O/ob.md#obeka-brute-chronologist) (0.8% of its decks), [Lord of Tresserhorn](../../cards/L/lo.md#lord-of-tresserhorn) (6.4% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tresserhorns-lord-returned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/52/tresserhorns-lord-returned) · oracle_id `11cc638c-b1c5-4b73-8eac-00cac6ae32b6` · printing: MBC #52 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d58e9893-c05d-4ab0-93b8-b2754ed24e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1291,4 +1297,6 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 462 decks; highest synergy [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (+49%), [Shifting Sky](../../cards/S/shi.md#shifting-sky) (+49%), [Soul Warden](../../cards/S/so.md#soul-warden) (+47%) · EDHREC: in 1,179 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.6% of its decks), [Scion of the Ur-Dragon](../../cards/S/sc.md#scion-of-the-ur-dragon) (1.3% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/49/treva-the-renewer) · oracle_id `72524f3c-674b-4ebf-9526-18737b354010` · printing: DDE #49 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

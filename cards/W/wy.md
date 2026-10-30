@@ -42,6 +42,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18027 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 126 decks; highest synergy [Cunning Nightbonder](../../cards/C/cu.md#cunning-nightbonder) (+45%), [Wavebreak Hippocamp](../../cards/W/wav.md#wavebreak-hippocamp) (+45%), [Slitherwisp](../../cards/S/sl.md#slitherwisp) (+42%) · EDHREC: in 3,108 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (4.2% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (2.8% of its decks), [Obyra, Dreaming Duelist](../../cards/O/ob.md#obyra-dreaming-duelist) (10.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/235/wydwen-the-biting-gale) · oracle_id `7891ec87-8d1c-42fc-b00a-4c64ee5edbff` · printing: C20 #235 (2020-04-17) · [rulings](https://api.scryfall.com/cards/62b8f8e9-a2b0-41c5-9fae-340f7caaeff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyleth, Soul of Steel

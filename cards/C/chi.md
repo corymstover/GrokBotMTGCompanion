@@ -188,6 +188,8 @@ schema: 2
   > *The throne was his in appearance only.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #25126 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 254 decks; highest synergy [Court of Embereth](../../cards/C/cou.md#court-of-embereth) (+74%), [Court of Grace](../../cards/C/cou.md#court-of-grace) (+74%), [Court of Ardenvale](../../cards/C/cou.md#court-of-ardenvale) (+63%) · EDHREC: in 675 decks; most often under [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (2.4% of its decks), [Aragorn, King of Gondor](../../cards/A/ara.md#aragorn-king-of-gondor) (2.0% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chief-magistrate-of-mercadia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/35/chief-magistrate-of-mercadia) · oracle_id `6b4544d8-0579-4621-8660-4adb3b2a90be` · printing: MBC #35 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1aa3f1d6-92e5-4da2-a0e3-2c4df5619e1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -253,6 +255,8 @@ schema: 2
   - *2026-06-29* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
   - *2026-06-29* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used.
   - *2026-06-29* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3,122 decks; highest synergy [Chief Warg's Company](../../cards/C/chi.md#chief-wargs-company) (+94%), [Hollowhenge Overlord](../../cards/H/ho.md#hollowhenge-overlord) (+92%), [Head of the Hunt](../../cards/H/he.md#head-of-the-hunt) (+91%) · EDHREC: in 461 decks; most often under [The Chief Warg](../../cards/T/thec.md#the-chief-warg) (32.2% of its decks), [Sarulf, Realm Eater](../../cards/S/sar.md#sarulf-realm-eater) (11.6% of its decks), [Cazur, Ruthless Stalker // Ukkima, Stalking Shadow](../../cards/C/caz.md#cazur-ruthless-stalker) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/103/chief-of-the-wilds) · oracle_id `bf06d873-08be-4a45-b8fb-fe1dfadc3a39` · printing: HOC #103 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chieftain en-Dal
@@ -777,6 +781,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23752 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Chira, All In + Frenetic Efreet](https://commanderspellbook.com/combo/2199-8030/) (Infinite +1/+1 counters on a creature, Infinite artifact ETB) · EDHREC as commander: 512 decks; highest synergy [Tavern Scoundrel](../../cards/T/ta.md#tavern-scoundrel) (+83%), [Burning Inquiry](../../cards/B/bu.md#burning-inquiry) (+81%), [Chef's Kiss](../../cards/C/che.md#chefs-kiss) (+78%) · EDHREC: in 739 decks; most often under [Mr. House, President and CEO](../../cards/M/mr.md#mr-house-president-and-ceo) (3.7% of its decks), [Yusri, Fortune's Flame](../../cards/Y/yu.md#yusri-fortunes-flame) (8.8% of its decks), [Okaun, Eye of Chaos // Zndrsplt, Eye of Wisdom](../../cards/O/ok.md#okaun-eye-of-chaos) (8.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/21/chira-all-in) · oracle_id `f6552921-f949-4f3c-b75d-718c106d712b` · printing: MBC #21 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9128e3f8-12c7-412f-be94-0c6cbcbd1ee0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chisei, Heart of Oceans
@@ -790,6 +796,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19162 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Chisei, Heart of Oceans + The Mirari Conjecture + Time Warp](https://commanderspellbook.com/combo/1275-1517-4872/) (Infinite turns, Lock) · EDHREC as commander: 459 decks; highest synergy [Kiora Bests the Sea God](../../cards/K/ki.md#kiora-bests-the-sea-god) (+82%), [Time of Ice](../../cards/T/ti.md#time-of-ice) (+81%), [Power Conduit](../../cards/P/po.md#power-conduit) (+80%) · EDHREC: in 2,185 decks; most often under [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (1.7% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (3.4% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/32/chisei-heart-of-oceans) · oracle_id `f91407fe-3c3b-4ffc-81de-cb8c5b0fe526` · printing: BOK #32 (2005-02-04) · [rulings](https://api.scryfall.com/cards/6c359b1a-d441-4763-96c7-e5c010eae53f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chishiro, the Shattered Blade

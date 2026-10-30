@@ -63,6 +63,8 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The set of creatures affected by Oddric’s ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won’t gain any abilities or cause creatures to gain new abilities, and the abilities gained won’t change even if every creature that normally had the abilities leaves the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oddric-lunar-marquis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/551/oddric-lunar-marquis) · oracle_id `99db3404-1b0e-4d31-8781-b12b01ee68f6` · printing: MB2 #551 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -114,6 +116,8 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Odric, Blood-Cursed + Krark-Clan Ironworks + Eldrazi Displacer](https://commanderspellbook.com/combo/633-4013-4659/) (Infinite draw triggers, Infinite creature ETB) · EDHREC as commander: 456 decks; highest synergy [Swiftblade Vindicator](../../cards/S/sw.md#swiftblade-vindicator) (+72%), [Rograkh, Son of Rohgahh](../../cards/R/ro.md#rograkh-son-of-rohgahh) (+63%), [Inspiring Statuary](../../cards/I/ins.md#inspiring-statuary) (+58%) · EDHREC: in 1,968 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (2.1% of its decks), [Licia, Sanguine Tribune](../../cards/L/li.md#licia-sanguine-tribune) (2.4% of its decks), [Akroma, Vision of Ixidor // Rograkh, Son of Rohgahh](../../cards/A/ak.md#akroma-vision-of-ixidor) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#odric-blood-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/243/odric-blood-cursed) · oracle_id `690f79f3-e6a5-4542-8401-61a9bf645d55` · printing: VOW #243 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

@@ -338,6 +338,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Ambitious Dragonborn](../../cards/A/am.md#ambitious-dragonborn) (+100%), [Scaled Nurturer](../../cards/S/sc.md#scaled-nurturer) (+100%), [Canopy Gargantuan](../../cards/C/can.md#canopy-gargantuan) (+98%) · EDHREC: in 8,217 decks; most often under [Miirym, Sentinel Wyrm](../../cards/M/mii.md#miirym-sentinel-wyrm) (8.7% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (1.5% of its decks), [Tiamat](../../cards/T/ti.md#tiamat) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#skanos-dragonheart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/255/skanos-dragonheart) · oracle_id `250052a7-1ba5-45d2-aa32-b787fd637fa5` · printing: CLB #255 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -715,6 +717,8 @@ schema: 2
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21037 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Skeleton Ship + Intruder Alarm + Nest of Scarabs](https://commanderspellbook.com/combo/1109-1636-2760/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,164 decks; highest synergy [Nest of Scarabs](../../cards/N/ne.md#nest-of-scarabs) (+63%), [Blowfly Infestation](../../cards/B/blo.md#blowfly-infestation) (+57%), [Crumbling Ashes](../../cards/C/cr.md#crumbling-ashes) (+53%) · EDHREC: in 700 decks; most often under [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (0.9% of its decks), [Volrath, the Shapestealer](../../cards/V/vo.md#volrath-the-shapestealer) (1.4% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/197/skeleton-ship) · oracle_id `8c85887d-5935-46ec-a075-dc9f5133bb96` · printing: ME2 #197 (2008-09-22) · [rulings](https://api.scryfall.com/cards/060b8dd4-d632-4216-87ba-355ab8a62e39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skemfar Avenger
@@ -1513,6 +1517,8 @@ schema: 2
 - **Keywords:** Grandeur
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21642 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 99 decks; highest synergy [Mirage Phalanx](../../cards/M/mir.md#mirage-phalanx) (+44%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+40%), [Jaxis, the Troublemaker](../../cards/J/ja.md#jaxis-the-troublemaker) (+38%) · EDHREC: in 1,559 decks; most often under [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (1.3% of its decks), [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (0.3% of its decks), [The Jolly Balloon Man](../../cards/T/thej.md#the-jolly-balloon-man) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/138/skoa-embermage) · oracle_id `0e49ee63-a293-4b33-98cc-ebdcc2c64e82` · printing: MH3 #138 (2024-06-14) · [rulings](https://api.scryfall.com/cards/cf34b0f8-a68a-428f-9f2c-9556229367ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skola Grovedancer
@@ -2720,6 +2726,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22674 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — If the Spirit or Arcane spell has {X} in the mana cost, then you use the value of {X} on the stack. For example, Shining Shoal costs {X}{W}{W}. If you choose X = 2, then Shining Shoal's mana value is 4. Shining Shoal also has an ability that says "You may exile a white card with mana value X from your hand rather than pay Shining Shoal's mana cost"; if you choose to pay the alternative cost and exile a card with mana value 2, then X is 2 while Shining Shoal is on the stack and its mana value is 4.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 243 decks; highest synergy [Yuki-Onna](../../cards/Y/yu.md#yuki-onna) (+91%), [Blind with Anger](../../cards/B/bli.md#blind-with-anger) (+89%), [Glitterfang](../../cards/G/gl.md#glitterfang) (+80%) · EDHREC: in 1,103 decks; most often under [O-Kagachi, Vengeful Kami](../../cards/O/ok.md#o-kagachi-vengeful-kami) (9.9% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (2.0% of its decks), [Kyodai, Soul of Kamigawa](../../cards/K/ky.md#kyodai-soul-of-kamigawa) (4.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/113/skyfire-kirin) · oracle_id `169c468e-0e17-450b-8954-df47d78ad8f8` · printing: SOK #113 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skyfire Phoenix

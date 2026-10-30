@@ -64,6 +64,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22527 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 79 decks; highest synergy [Mtenda Griffin](../../cards/M/mt.md#mtenda-griffin) (+90%), [Griffin Protector](../../cards/G/gri.md#griffin-protector) (+88%), [Mistmoon Griffin](../../cards/M/mis.md#mistmoon-griffin) (+88%) · EDHREC: in 1,309 decks; most often under [Zeriam, Golden Wind](../../cards/Z/ze.md#zeriam-golden-wind) (72.9% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.1% of its decks), [Kangee, Sky Warden](../../cards/K/ka.md#kangee-sky-warden) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/51/zuberi-golden-feather) · oracle_id `5a43b164-61a4-4dcb-9397-45356ad4260e` · printing: MIR #51 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c1b24a80-b5e1-484f-9e21-886cb6b5db48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Avatar Hunter
@@ -79,6 +81,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13407 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 344 decks; highest synergy [Impact Tremors](../../cards/I/im.md#impact-tremors) (+44%), [Weftstalker Ardent](../../cards/W/we.md#weftstalker-ardent) (+39%), [Agate Instigator](../../cards/A/ag.md#agate-instigator) (+38%) · EDHREC: in 6,996 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (14.5% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (7.7% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zuko-avatar-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/246/zuko-avatar-hunter) · oracle_id `d445a584-98e7-4501-bb20-e76c9cafa757` · printing: TLE #246 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2a2330fa-a1e1-41d9-bb7b-8aa9b03a0543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -97,6 +101,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — In a multiplayer game, if Zuko, Conflicted's owner leaves the game, Zuko, Conflicted leaves the game with them. If his controller leaves the game, Zuko, Conflicted is exiled (assuming that player wasn't also Zuko, Conflicted's owner).
   - *2025-10-02* — When Zuko, Conflicted is under an opponent's control, his triggered ability will trigger in their first main phase, and they will make all choices for the ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 391 decks; highest synergy [Xantcha, Sleeper Agent](../../cards/X/xa.md#xantcha-sleeper-agent) (+43%), [Alexios, Deimos of Kosmos](../../cards/A/al.md#alexios-deimos-of-kosmos) (+38%), [Humble Defector](../../cards/H/hu.md#humble-defector) (+38%) · EDHREC: in 7,799 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (20.4% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (10.7% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (2.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zuko-conflicted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/253/zuko-conflicted) · oracle_id `b5fd82b9-77de-4358-9ce7-915cc809a889` · printing: TLA #253 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -183,6 +189,8 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 75 decks; highest synergy [Firebending Lesson](../../cards/F/fi.md#firebending-lesson) (+71%), [Fire Nation Attacks](../../cards/F/fi.md#fire-nation-attacks) (+67%), [Lightning Strike](../../cards/L/li.md#lightning-strike) (+65%) · EDHREC: in 5,131 decks; most often under [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (24.9% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (4.0% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (5.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zuko-seeking-honor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/150/zuko-seeking-honor) · oracle_id `6e737c52-cbe0-493f-ae46-7bf068e04882` · printing: TLE #150 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -308,6 +316,8 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30048 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Snake Umbra](../../cards/S/sn.md#snake-umbra) (+73%), [Rancor](../../cards/R/ran.md#rancor) (+62%), [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+59%) · EDHREC: in 180 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/165/zuo-ci-the-mocking-sage) · oracle_id `ae8773a3-05f2-4074-9a53-033b0c127235` · printing: PTK #165 (1999-05-01) · [rulings](https://api.scryfall.com/cards/e3425241-efdc-4261-a2bb-58fbf4a9fe8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuran Enchanter
@@ -495,6 +505,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17057 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 40 decks; highest synergy [Big Mother Mouser](../../cards/B/bi.md#big-mother-mouser) (+77%), [Mindless Automaton](../../cards/M/min.md#mindless-automaton) (+70%), [Jhoira's Familiar](../../cards/J/jh.md#jhoiras-familiar) (+67%) · EDHREC: in 3,991 decks; most often under [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (76.8% of its decks), [Shuri, the Black Panther](../../cards/S/shu.md#shuri-the-black-panther) (34.3% of its decks), [Black Panther, Wakandan King](../../cards/B/bla.md#black-panther-wakandan-king) (3.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/72/zuri-warrior-of-wakanda) · oracle_id `aa792980-0811-4c08-8343-00fba0c5cf5e` · printing: MSC #72 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b8225b51-d5a4-4b46-9a10-b581362b6a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zur's Weirding

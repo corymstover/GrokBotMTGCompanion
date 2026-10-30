@@ -339,6 +339,8 @@ schema: 2
   > *"Mercadia's masks can no longer hide the truth. Our day has come at last."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19439 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Cho-Manno, Revolutionary + Pariah](https://commanderspellbook.com/combo/4090-7637/) (Lock, Prevent all damage that would be dealt to you) · EDHREC as commander: 212 decks; highest synergy [Pariah](../../cards/P/pa.md#pariah) (+72%), [Pariah's Shield](../../cards/P/pa.md#pariahs-shield) (+66%), [Entangler](../../cards/E/en.md#entangler) (+60%) · EDHREC: in 2,285 decks; most often under [Lin Sivvi, Defiant Hero](../../cards/L/li.md#lin-sivvi-defiant-hero) (71.3% of its decks), [Otharri, Suns' Glory](../../cards/O/ot.md#otharri-suns-glory) (2.6% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/12/cho-manno-revolutionary) · oracle_id `91af5e35-b3b8-43ce-b1ea-997ed74e4ad2` · printing: 10E #12 (2007-07-13) · [rulings](https://api.scryfall.com/cards/fe04dfe7-6376-4c12-9404-0e1ae0942917/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cho-Manno's Blessing
@@ -406,6 +408,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21042 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — Putting a lore counter on a Saga outside of the normal timing for lore counters will cause the appropriate chapter ability of that Saga to trigger immediately.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 245 decks; highest synergy [The Flux](../../cards/T/thef.md#the-flux) (+92%), [Summon: Brynhildr](../../cards/S/sum.md#summon-brynhildr) (+90%), [Moku, Meandering Drummer](../../cards/M/mok.md#moku-meandering-drummer) (+89%) · EDHREC: in 1,667 decks; most often under [Tom Bombadil](../../cards/T/to.md#tom-bombadil) (7.0% of its decks), [Sigurd, Jarl of Ravensthorpe](../../cards/S/si.md#sigurd-jarl-of-ravensthorpe) (11.2% of its decks), [Terra, Magical Adept](../../cards/T/te.md#terra-magical-adept--esper-terra) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/113/chong-and-lily-nomads) · oracle_id `faffc9fb-32b3-4015-8c3f-e6b45002c050` · printing: TLE #113 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choose Your Weapon
@@ -515,6 +519,8 @@ schema: 2
   - *2005-10-01* — Chorus of the Conclave's ability applies to creature spells only as they're being cast. You can't pay mana to put counters on creatures being put onto the battlefield by an effect.
   - *2005-10-01* — Chorus of the Conclave's ability combines well with the convoke mechanic, effectively letting you tap creatures to put +1/+1 counters on the creature with convoke that you're casting, if you choose to do so.
   - *2005-10-01* — Chorus of the Conclave's ability works only while it's on the battlefield, so you can't use it to put +1/+1 counters on itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Chulane, Teller of Tales + Chorus of the Conclave + Sage of Hours](https://commanderspellbook.com/combo/1494-3314-3843/) (Infinite turns, Lock) · EDHREC as commander: 199 decks; highest synergy [Gyre Sage](../../cards/G/gy.md#gyre-sage) (+51%), [Mana Reflection](../../cards/M/man.md#mana-reflection) (+43%), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (+40%) · EDHREC: in 865 decks; most often under [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (1.2% of its decks), [Trostani, Selesnya's Voice](../../cards/T/tro.md#trostani-selesnyas-voice) (0.6% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/189/chorus-of-the-conclave) · oracle_id `e4e6ffab-3f0c-43f8-b1c3-b59c7fcb095d` · printing: CMD #189 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorus of the Tides

@@ -563,6 +563,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04b/hadran-naya-sunseeder) · oracle_id `02ffacbf-8d1d-4e87-b11a-0e2a46c0cba6` · printing: UNK #RZ04b (2023-07-29) · [rulings](https://api.scryfall.com/cards/53eca7e9-7e4e-4c9c-9ef1-f71c9a5a171d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hag Hedge-Mage
@@ -802,6 +804,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you pick an Aura that can't legally enchant this card, then the Aura stays in the graveyard.
   - *2004-10-04* — You only check if he has no Auras when activating the ability. You can use the ability multiple times in response to each other to get multiple Auras on him this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Hakim, Loreweaver + Treachery + Claws of Gix](https://commanderspellbook.com/combo/1133-1825-4786/) (Infinite lifegain, Infinite lifegain triggers) · EDHREC as commander: 358 decks; highest synergy [Eldrazi Conscription](../../cards/E/el.md#eldrazi-conscription) (+83%), [Auramancer's Guise](../../cards/A/au.md#auramancers-guise) (+79%), [Octopus Umbra](../../cards/O/oc.md#octopus-umbra) (+74%) · EDHREC: in 176 decks; most often under [Rayne, Academy Chancellor](../../cards/R/ray.md#rayne-academy-chancellor) (8.3% of its decks), [Ramses Overdark](../../cards/R/ram.md#ramses-overdark) (8.3% of its decks), [Bruna, Light of Alabaster](../../cards/B/br.md#bruna-light-of-alabaster) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/68/hakim-loreweaver) · oracle_id `43e99cba-a6e3-4abc-a92b-aaf5839c72d2` · printing: MIR #68 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hakoda, Selfless Commander
@@ -843,6 +847,8 @@ schema: 2
   - *2020-01-24* — If Haktos can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2020-01-24* — If Haktos somehow has no choice made for its ability, its last ability grants it no protection abilities.
   - *2020-01-24* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana value as that object.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 722 decks; highest synergy [Raiyuu, Storm's Edge](../../cards/R/rai.md#raiyuu-storms-edge) (+71%), [Flaming Fist](../../cards/F/fl.md#flaming-fist) (+66%), [Bastion Protector](../../cards/B/bas.md#bastion-protector) (+59%) · EDHREC: in 2,379 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (2.2% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (3.9% of its decks), [Iroas, God of Victory](../../cards/I/ir.md#iroas-god-of-victory) (5.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/218/haktos-the-unscarred) · oracle_id `932a86e5-9640-4ef5-8264-2ce97bde33e2` · printing: THB #218 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halam Djinn
@@ -869,6 +875,8 @@ schema: 2
 - **Keywords:** Reach, First strike, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Graveyard: Self-mill](../../EDH%20Packages.md#graveyard-self-mill) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04c/halana-and-alena-and-gisa-and-geralf) · oracle_id `65b9b9f2-f356-4ede-88dc-b191af2dc1e3` · printing: UNK #RZ04c (2023-05-06) · [rulings](https://api.scryfall.com/cards/9a134fd3-d40e-4cbe-befd-426a6b856832/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halana and Alena, Partners
@@ -910,6 +918,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Halana, Kessig Ranger + Sporeweb Weaver + Ashnod's Altar](https://commanderspellbook.com/combo/487-2034-3902/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 16 decks; highest synergy [Ambush Viper](../../cards/A/am.md#ambush-viper) (+52%), [Dragon Sniper](../../cards/D/dra.md#dragon-sniper) (+52%), [Questing Beast](../../cards/Q/qu.md#questing-beast) (+50%) · EDHREC: in 10,376 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (72.7% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (7.6% of its decks), [Shelob, Child of Ungoliant](../../cards/S/she.md#shelob-child-of-ungoliant) (7.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/231/halana-kessig-ranger) · oracle_id `f5aa7385-12ea-4ecb-86eb-e8622ebb6908` · printing: CMR #231 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Halberdier
@@ -963,6 +973,8 @@ schema: 2
   - *2020-04-17* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
   - *2020-04-17* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2020-04-17* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Aether Hub](../../cards/A/ae.md#aether-hub) (+100%), [Ashiok's Erasure](../../cards/A/as.md#ashioks-erasure) (+100%), [Back from the Brink](../../cards/B/bac.md#back-from-the-brink) (+100%) · EDHREC: in 1,762 decks; most often under [Loot, the Key to Everything](../../cards/L/lo.md#loot-the-key-to-everything) (6.4% of its decks), [Kalamax, the Stormsire](../../cards/K/ka.md#kalamax-the-stormsire) (2.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#haldan-avid-arcanist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/2/haldan-avid-arcanist) · oracle_id `6a0b78fb-3838-47d9-8d1a-b6b0c0e8927d` · printing: C20 #2 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -997,6 +1009,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28576 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2009-10-01* — Note that the duration of Halfdane's ability is until the end of your next upkeep. If Halfdane's ability doesn't get a chance to resolve (because there are no legal targets when it triggers, or because it's countered), then the effect from the previous turn's ability will continue to work through the rest of that upkeep step. Then that effect will wear off, and Halfdane will revert to being 3/3, its printed power and toughness (unless some other effect is modifying what its power and toughness is).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 180 decks; highest synergy [Evil Twin](../../cards/E/ev.md#evil-twin) (+46%), [Clever Impersonator](../../cards/C/cl.md#clever-impersonator) (+40%), [Cryptoplasm](../../cards/C/cr.md#cryptoplasm) (+37%) · EDHREC: in 165 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.9% of its decks), [The Ever-Changing 'Dane](../../cards/T/thee.md#the-ever-changing-dane) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/150/halfdane) · oracle_id `2ee13155-a3b8-4cad-8e68-5d2c5aba3bb4` · printing: ME3 #150 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Half-Elf Monk
@@ -1225,6 +1239,8 @@ schema: 2
   - *2018-04-27* — Hallar's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2018-04-27* — If Hallar leaves the battlefield after its last ability has triggered but before it resolves, you don't put a +1/+1 counter on anything as the ability resolves, but you do use the number of +1/+1 counters that were on Hallar before it left the battlefield to determine how much damage it deals to each opponent.
   - *2018-04-27* — In a Two-Headed Giant game, Hallar's last ability causes the opposing team to lose 2 life for each +1/+1 counter on it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 22 combos; most popular [Hallar, the Firefletcher + Grafted Exoskeleton](https://commanderspellbook.com/combo/1880-3681--147/) (Each opponent loses the game) · EDHREC as commander: 1,762 decks; highest synergy [Grow from the Ashes](../../cards/G/gro.md#grow-from-the-ashes) (+87%), [Everflowing Chalice](../../cards/E/ev.md#everflowing-chalice) (+83%), [Vines of Vastwood](../../cards/V/vi.md#vines-of-vastwood) (+80%) · EDHREC: in 270 decks; most often under [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (0.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/196/hallar-the-firefletcher) · oracle_id `04559759-1afd-4785-badc-c3416041f016` · printing: DOM #196 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hall Monitor
@@ -1682,6 +1698,8 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 7 combos; most popular [Halsin, Emerald Archdruid + Pitiless Plunderer + Lightning Greaves](https://commanderspellbook.com/combo/876-3808-4871/) (Infinite death triggers, Infinite creature LTB) · EDHREC as commander: 17 decks; highest synergy [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (+69%), [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+55%), [Jaheira, Friend of the Forest](../../cards/J/ja.md#jaheira-friend-of-the-forest) (+54%) · EDHREC: in 6,014 decks; most often under [The Cabbage Merchant](../../cards/T/thec.md#the-cabbage-merchant) (23.9% of its decks), [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (2.3% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#halsin-emerald-archdruid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/234/halsin-emerald-archdruid) · oracle_id `01ab3603-6c2f-4d65-9bb2-da95efdbe622` · printing: CLB #234 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1786,6 +1804,8 @@ schema: 2
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
   - *2025-10-02* — You may only cast a spell this way by paying the waterbend cost. You may not pay its normal cost and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs. If the spell has mandatory additional costs, you must pay those.
   - *2025-10-02* — You must follow all normal timing rules when casting a spell this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 482 decks; highest synergy [Secret of Bloodbending](../../cards/S/sec.md#secret-of-bloodbending) (+57%), [Essence Flux](../../cards/E/es.md#essence-flux) (+53%), [Spirit Water Revival](../../cards/S/spi.md#spirit-water-revival) (+50%) · EDHREC: in 3,455 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (3.4% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (1.5% of its decks), [Azula, Cunning Usurper](../../cards/A/az.md#azula-cunning-usurper) (41.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/224/hama-the-bloodbender) · oracle_id `ef80e174-78e8-412d-a6fe-89c7af746669` · printing: TLA #224 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hamato Guardian Stance
@@ -1941,6 +1961,8 @@ schema: 2
   > *"This city is wide open, just itching for someone to come along and take it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17657 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Warden of the Grove + Hammerhead, Maggia Boss](https://commanderspellbook.com/combo/6461-8095--5/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC as commander: 14 decks; highest synergy [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+55%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+54%), [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) (+51%) · EDHREC: in 3,693 decks; most often under [Tayam, Luminous Enigma](../../cards/T/ta.md#tayam-luminous-enigma) (22.3% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (4.6% of its decks), [Ratadrabik of Urborg](../../cards/R/rat.md#ratadrabik-of-urborg) (9.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/659/hammerhead-maggia-boss) · oracle_id `2ff5a5ed-d6db-4dfa-b1fd-38ad872ad30a` · printing: MSC #659 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6db3ce7b-2d31-4cee-bc4a-966b12643759/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hammerhead Shark
@@ -2530,6 +2552,8 @@ schema: 2
   - *2020-11-10* — If the creature card you put onto the battlefield isn't on the battlefield or isn't a creature as the reflexive triggered ability resolves, neither that creature nor Hans will deal or be dealt damage. The same is true if Hans isn't on the battlefield or isn't a creature at that time.
   - *2020-11-10* — Putting a creature card onto the battlefield this way causes a second reflexive triggered ability to trigger. Players may respond to this ability before it resolves.
   - *2020-11-10* — The defending player is the player Hans Eriksson is attacking or the controller of the planeswalker Hans Eriksson is attacking.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,107 decks; highest synergy [Anara, Wolvid Familiar](../../cards/A/an.md#anara-wolvid-familiar) (+70%), [Hua Tuo, Honored Physician](../../cards/H/hu.md#hua-tuo-honored-physician) (+61%), [Darksteel Plate](../../cards/D/da.md#darksteel-plate) (+59%) · EDHREC: in 1,814 decks; most often under [Wulfgar of Icewind Dale](../../cards/W/wu.md#wulfgar-of-icewind-dale) (8.5% of its decks), [Xenagos, God of Revels](../../cards/X/xe.md#xenagos-god-of-revels) (1.3% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/279/hans-eriksson) · oracle_id `8a37ac5c-341b-48ab-9b0b-5ef8bf097aab` · printing: CMR #279 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hansk, Slayer Zealot
@@ -2543,6 +2567,8 @@ schema: 2
   > Whenever a Zombie an opponent controls dies, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12914 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Hansk, Slayer Zealot + Thornbite Staff](https://commanderspellbook.com/combo/1503-2178/) (Destroy all creatures opponents control, Destroy each creature that enters the battlefield under an opponent's control) · EDHREC as commander: 1,976 decks; highest synergy [Pyroclasm](../../cards/P/py.md#pyroclasm) (+74%), [Aether Flash](../../cards/A/ae.md#aether-flash) (+70%), [Volcanic Fallout](../../cards/V/vo.md#volcanic-fallout) (+65%) · EDHREC: in 5,904 decks; most often under [Ellie, Brick Master // Joel, Resolute Survivor](../../cards/E/el.md#ellie-brick-master) (57.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.8% of its decks), [Thantis, the Warweaver](../../cards/T/tha.md#thantis-the-warweaver) (3.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/H.md#hansk-slayer-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/22/hansk-slayer-zealot) · oracle_id `d818f863-17ee-4387-94bf-d7e6e8ab590c` · printing: SLX #22 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f6ea7c19-71ec-44ff-affc-fc76fe3146a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2684,6 +2710,8 @@ schema: 2
   > *"Your people stand strong, Rhonas. Rest easy, you have prepared us well."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24579 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 26 decks; highest synergy [Necroskitter](../../cards/N/ne.md#necroskitter) (+59%), [Earthquake Dragon](../../cards/E/ea.md#earthquake-dragon) (+50%), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (+43%) · EDHREC: in 1,447 decks; most often under [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (14.2% of its decks), [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (7.7% of its decks), [The Reaper, King No More](../../cards/T/ther.md#the-reaper-king-no-more) (19.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/271/hapatra-the-desert-fang) · oracle_id `6894345f-52a6-46e4-b278-0783087daee1` · printing: FRA #271 (2026-10-02) · [rulings](https://api.scryfall.com/cards/cf7c1534-af41-4991-b3c3-f0a34ae330b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hapatra, the Desert Frost
@@ -2698,6 +2726,8 @@ schema: 2
   > *"Kefnet always told me to apply my knowledge. I merely chose to apply it in usurping him."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23305 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 33 decks; highest synergy [Inexorable Tide](../../cards/I/ine.md#inexorable-tide) (+54%), [Lulu, Stern Guardian](../../cards/L/lu.md#lulu-stern-guardian) (+53%), [Flux Channeler](../../cards/F/fl.md#flux-channeler) (+52%) · EDHREC: in 1,765 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (14.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (3.1% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/215/hapatra-the-desert-frost) · oracle_id `ac0f161a-e5ec-4a95-9f37-305bdf1ac900` · printing: FRA #215 (2026-10-02) · [rulings](https://api.scryfall.com/cards/85faaa9d-4656-4365-871d-7cba53ed0996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hapatra, Vizier of Poisons
@@ -2796,6 +2826,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29117 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Urza's Mine](../../cards/U/ur.md#urzas-mine) (+62%), [Urza's Power Plant](../../cards/U/ur.md#urzas-power-plant) (+62%), [Urza's Tower](../../cards/U/ur.md#urzas-tower) (+62%) · EDHREC: in 300 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (1.8% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (0.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/622/happy-hogan-bodyguard) · oracle_id `daaf33d8-2ee2-41f8-9872-66b6493c6e13` · printing: MSC #622 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e9711fc5-7878-4d38-ac65-46bd720879ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Happy Hogan, Dauntless Driver
@@ -2809,6 +2841,8 @@ schema: 2
   > *"Traffic is a little heavy this morning, Tony, but we'll get you there on time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28245 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 64 decks; highest synergy [The Regalia](../../cards/T/ther.md#the-regalia) (+35%), [The Thanos-Copter](../../cards/T/thet.md#the-thanos-copter) (+31%), [Bessie, the Doctor's Roadster](../../cards/B/be.md#bessie-the-doctors-roadster) (+30%) · EDHREC: in 356 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (0.9% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Rograkh, Son of Rohgahh // Yoshimaru, Ever Faithful](../../cards/R/ro.md#rograkh-son-of-rohgahh) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/545/happy-hogan-dauntless-driver) · oracle_id `557ce9d4-8fe3-4ffc-8e56-b9b73d58d41b` · printing: MSC #545 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4174e5fa-8e28-41c5-ba5c-4ec27b7cd4a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harabaz Druid
@@ -2974,6 +3008,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15053 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,071 decks; highest synergy [Skystrike Officer](../../cards/S/sk.md#skystrike-officer) (+87%), [Valiant Veteran](../../cards/V/va.md#valiant-veteran) (+80%), [Fortified Beachhead](../../cards/F/fo.md#fortified-beachhead) (+75%) · EDHREC: in 4,376 decks; most often under [Alistair, the Brigadier](../../cards/A/al.md#alistair-the-brigadier) (50.2% of its decks), [Faramir, Prince of Ithilien](../../cards/F/fa.md#faramir-prince-of-ithilien) (52.3% of its decks), [Immard, the Stormcleaver](../../cards/I/im.md#immard-the-stormcleaver) (34.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/212/harbin-vanguard-aviator) · oracle_id `d827575f-e364-4a20-887e-3091e5501a4f` · printing: BRO #212 (2022-11-18) · [rulings](https://api.scryfall.com/cards/4b88be69-3201-4345-a193-cc21bd066d15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Harbor Bandit
@@ -3252,6 +3288,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Even in an Un- game, you must choose 0 or a positive integer. This is a change from previous Un- rules.
   - *2022-10-07* — If you choose 0 and cast a spell with no flavor text, Hardy’s triggered ability will trigger and you’ll put zero +1/+1 counters on target creature. Congrats. You did it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Hunter's Insight](../../cards/H/hu.md#hunters-insight) (+68%), [Mona Lisa, Science Geek](../../cards/M/mon.md#mona-lisa-science-geek) (+65%), [Birds of Paradise](../../cards/B/bi.md#birds-of-paradise) (+58%) · EDHREC: in 42 decks; most often under [The Most Dangerous Gamer](../../cards/T/them.md#the-most-dangerous-gamer) (0.4% of its decks), [Ambassador Blorpityblorpboop](../../cards/A/am.md#ambassador-blorpityblorpboop) (0.7% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/141/hardy-of-myras-marvels) · oracle_id `dc7dea29-4dc3-4f48-b7e5-1f7f30a259f2` · printing: UNF #141 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hardy Outlander
@@ -3320,6 +3358,8 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17109 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Mycosynth Lattice + Freed from the Real + Hargilde, Kindly Runechanter](https://commanderspellbook.com/combo/1975-3263-4222/) (Infinite colored mana that can only be spent to activate abilities, Infinite colored mana that can only be spent to cast artifact spells) · EDHREC as commander: 37 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+55%), [Thought Monitor](../../cards/T/tho.md#thought-monitor) (+43%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+40%) · EDHREC: in 2,419 decks; most often under [Cecily, Haunted Mage // Othelm, Sigardian Outcast](../../cards/C/ce.md#cecily-haunted-mage) (29.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [The Second Doctor // Vislor Turlough](../../cards/T/thes.md#the-second-doctor) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hargilde-kindly-runechanter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/5/hargilde-kindly-runechanter) · oracle_id `747009e7-da07-48c7-b838-687f19b884ea` · printing: SLX #5 (2022-03-03) · [rulings](https://api.scryfall.com/cards/59e1fa94-056a-4570-97b3-17e964077965/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5151,6 +5191,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18486 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Hawkeye, Avenging Archer + Forbidden Orchard + Intruder Alarm + Ioreth of the Healing House](https://commanderspellbook.com/combo/1432-1636-2681-7870/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 141 decks; highest synergy [Hawkeye's Bow](../../cards/H/ha.md#hawkeyes-bow) (+80%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+77%), [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+75%) · EDHREC: in 2,972 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (27.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.4% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (5.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/84/hawkeye-avenging-archer) · oracle_id `e90d6903-5415-4ddf-88c0-15ddd8614bde` · printing: MSC #84 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1f394a6f-3649-4464-939b-c183b2b01768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hawkeye, Bowslinger
@@ -5166,6 +5208,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24257 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 28 decks; highest synergy [Graduation Day](../../cards/G/gra.md#graduation-day) (+67%), [Stirring Hopesinger](../../cards/S/sti.md#stirring-hopesinger) (+64%), [Honor](../../cards/H/ho.md#honor) (+59%) · EDHREC: in 1,027 decks; most often under [Abigale, Poet Laureate](../../cards/A/ab.md#abigale-poet-laureate--heroic-stanza) (16.6% of its decks), [Storm, Windrider](../../cards/S/sto.md#storm-windrider) (12.0% of its decks), [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (11.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/596/hawkeye-bowslinger) · oracle_id `b218f1f8-984c-488e-8222-37f05c674a6b` · printing: MSC #596 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ec6889e2-14ad-4193-9272-c1c758f61724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hawkeye, Clint Barton
@@ -5180,6 +5224,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29958 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Adaptive Omnitool](../../cards/A/ad.md#adaptive-omnitool) (+97%), [Leyline Axe](../../cards/L/le.md#leyline-axe) (+97%), [Super-Soldier Serum](../../cards/S/sup.md#super-soldier-serum) (+97%) · EDHREC: in 233 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (1.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.3% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/518/hawkeye-clint-barton) · oracle_id `c9efec35-823f-4c78-be36-d1a57d8b6f44` · printing: MSC #518 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7bdf5aed-0164-4b5c-9d4f-0c424c313235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hawkeye, Master Marksman
@@ -5196,6 +5242,8 @@ schema: 2
 - **Keywords:** Explosive, Reach, First strike, Trick Arrows, Boomerang, Net
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15166 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 136 decks; highest synergy [Hawkeye's Bow](../../cards/H/ha.md#hawkeyes-bow) (+74%), [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+68%), [Springleaf Drum](../../cards/S/spr.md#springleaf-drum) (+59%) · EDHREC: in 5,465 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (14.8% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (13.8% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (56.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/130/hawkeye-master-marksman) · oracle_id `6b59bb1f-f2d4-4d47-bd57-23927d588381` · printing: MSH #130 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9991b684-0ae0-4aa4-8f22-a9c473f5d69c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hawkeye's Bow
@@ -5236,6 +5284,8 @@ schema: 2
 - **Keywords:** Reach, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14748 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 41 decks; highest synergy [Iron Man, Tony Stark](../../cards/I/ir.md#iron-man-tony-stark) (+90%), [Photon, Mighty Marvel](../../cards/P/ph.md#photon-mighty-marvel) (+90%), [Hawkeye, Young Avenger](../../cards/H/ha.md#hawkeye-young-avenger) (+89%) · EDHREC: in 6,060 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (44.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (28.1% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (36.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/506/hawkeye-trick-shot) · oracle_id `ead2aee3-4f95-4ff1-8be9-ea9619e2386e` · printing: MSC #506 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0f05832a-395e-44ba-8e1b-1488c3960343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hawkeye, Young Avenger
@@ -5375,6 +5425,8 @@ schema: 2
   > *—Gulsen, Abbey Matron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30419 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 60 decks; highest synergy [Holy Day](../../cards/H/ho.md#holy-day) (+48%), [Battlefield Medic](../../cards/B/bat.md#battlefield-medic) (+40%), [Battletide Alchemist](../../cards/B/bat.md#battletide-alchemist) (+40%) · EDHREC: in 124 decks; most often under [Daughter of Autumn](../../cards/D/da.md#daughter-of-autumn) (18.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [The Seriema](../../cards/T/thes.md#the-seriema) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/8/hazduhr-the-abbot) · oracle_id `35844d8b-8f68-4248-b921-e766757a9e26` · printing: HML #8 (1995-10-01) · [rulings](https://api.scryfall.com/cards/adfd416a-dddf-40e4-acf0-84057edb7a58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Haze Frog
@@ -5531,6 +5583,8 @@ schema: 2
   - *2009-10-01* — Only Sand Warriors that are actually on the battlefield when Hazezon Tamar leaves the battlefield are affected when its second ability resolves. If Hazezon leaves the battlefield after the delayed triggered ability created by its first ability triggers but before that ability resolves, its second ability triggers and resolves first, then the Sand Warriors are put on the battlefield. Those Sand Warriors will remain on the battlefield indefinitely.
   - *2009-10-01* — The first ability creates a delayed triggered ability that triggers at the beginning of your next upkeep. It doesn't matter who controls Hazezon Tamar at that time, or even if it's on the battlefield. The player who put Hazezon onto the battlefield gets the Sand Warriors.
   - *2009-10-01* — When Hazezon Tamar's second ability resolves, all permanents with both the Sand and Warrior creature types are exiled, not just the Sand Warrior creature tokens it created. Permanents that have just one of those types are unaffected.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 733 decks; highest synergy [Purphoros, God of the Forge](../../cards/P/pu.md#purphoros-god-of-the-forge) (+53%), [Goblin Bombardment](../../cards/G/gob.md#goblin-bombardment) (+46%), [Impact Tremors](../../cards/I/im.md#impact-tremors) (+41%) · EDHREC: in 596 decks; most often under [Hazezon, Shaper of Sand](../../cards/H/ha.md#hazezon-shaper-of-sand) (2.7% of its decks), [Sliver Queen](../../cards/S/sl.md#sliver-queen) (3.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/151/hazezon-tamar) · oracle_id `d298df4e-7b60-4495-9773-cc81954b7dd9` · printing: ME3 #151 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hazmat Suit (Used)
@@ -5641,6 +5695,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — In a Two-Headed Giant game, Hazoret's activated ability causes 2 damage to be dealt to each opponent, which is 4 damage to the opposing team.
   - *2017-04-18* — Once Hazoret has attacked or blocked, it will remain in combat even if the number of cards in your hand becomes two or greater.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 482 decks; highest synergy [Glint-Horn Buccaneer](../../cards/G/gl.md#glint-horn-buccaneer) (+50%), [Avaricious Dragon](../../cards/A/av.md#avaricious-dragon) (+47%), [Anje's Ravager](../../cards/A/an.md#anjes-ravager) (+46%) · EDHREC: in 4,537 decks; most often under [Atreus, Impulsive Son // Kratos, Stoic Father](../../cards/A/at.md#atreus-impulsive-son) (4.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (1.5% of its decks), [Flubs, the Fool](../../cards/F/fl.md#flubs-the-fool) (1.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/136/hazoret-the-fervent) · oracle_id `2c6934b6-67c4-457a-ae8f-59914fd8f256` · printing: AKH #136 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hazy Homunculus

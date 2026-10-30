@@ -1124,6 +1124,8 @@ schema: 2
 - **Keywords:** Dinosaur Formula, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17970 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Sear](../../cards/S/sea.md#sear) (+66%), [Panicked Altisaur](../../cards/P/pa.md#panicked-altisaur) (+65%), [Frilled Deathspitter](../../cards/F/fr.md#frilled-deathspitter) (+60%) · EDHREC: in 3,267 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (4.8% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (2.5% of its decks), [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (10.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/810/stegron-the-dinosaur-man) · oracle_id `5c94b616-8edf-465c-b316-4599df95c52a` · printing: MSC #810 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5fef478f-3cb4-4b1f-9544-d7690d2b5144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stella Lee, Wild Card
@@ -1577,6 +1579,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-02-29* — A permanent or card in another zone with no name (including face-down creatures, ____________, and ones whose name Stet has decided to fully delete) can't begin with the same letter as anything else. If _______ is exiled this way, Stet won't deal any damage. Similarly, Stet won't deal damage to any creature with no name, no matter what card was exiled.
   - *2020-02-29* — Use whatever name or names a player commonly goes by to determine what their current name is and if they should be dealt damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/57/stet-draconic-proofreader) · oracle_id `aff9237a-b6fb-4f78-84bf-b6fa10e8a1ac` · printing: UND #57 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steward of Solidarity

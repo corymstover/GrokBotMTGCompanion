@@ -66,6 +66,8 @@ schema: 2
   > At the beginning of your first main phase, read aloud the name, mana cost, type line, power, and toughness of a card in your hand, except lie about one of them. Each opponent simultaneously guesses which one is incorrect. Then reveal the card. Each opponent who guessed incorrectly loses 3 life. You may discard that card and draw a card. (They can't look it up or ask for help as this ability is resolving. Nice try, though.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03h/the-actualizer) · oracle_id `0cdfacbb-63c9-4a0e-bf47-ba7777417acc` · printing: UNK #RZ03h (2024-10-25) · [rulings](https://api.scryfall.com/cards/7a3d703c-4964-4a31-bb77-5fa57e3e938c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Aesir Escape Valhalla
@@ -145,6 +147,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04v/the-ancient-dingus) · oracle_id `57debcd1-440e-4369-becc-fe71c434bbc8` · printing: UNK #RZ04v (2026-05-01) · [rulings](https://api.scryfall.com/cards/b97323cd-236e-44c6-b24c-d81454d38286/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ancient One
@@ -246,6 +250,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Since The Archimandrite’s activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began (including The Archimandrite itself) to pay the cost.
   - *2022-10-14* — You can’t gain negative amounts of life. If you have fewer than four cards in hand as the first ability resolves, you won’t gain any life, but you won’t lose any life either.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [The Archimandrite + Beacon of Immortality](https://commanderspellbook.com/combo/3307-4996/) (Target opponent loses the game) · EDHREC as commander: 2,687 decks; highest synergy [Rhox Faithmender](../../cards/R/rh.md#rhox-faithmender) (+72%), [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+69%), [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (+64%) · EDHREC: in 681 decks; most often under [Elsha, Threefold Master](../../cards/E/el.md#elsha-threefold-master) (2.4% of its decks), [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (0.5% of its decks), [Narset, Enlightened Exile](../../cards/N/na.md#narset-enlightened-exile) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/26/the-archimandrite) · oracle_id `e5e8368d-43af-4f83-8565-25d03da64360` · printing: BRC #26 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Arkenstone // Seek the Heart
@@ -301,6 +307,8 @@ schema: 2
   > Whenever The Ash Lizard attacks, create a token that's a copy of one of the following cards at random: Ash Zealot; Bog-Strider Ash; Grotag ThrASHer; Seedguide Ash; Unstoppable Ash; ViASHino Warrior. (You're probably going to need to look these cards up.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05c/the-ash-lizard) · oracle_id `70565641-15db-49e8-91e7-d2772052a155` · printing: UNK #RZ05c (2024-06-29) · [rulings](https://api.scryfall.com/cards/1cba355b-438b-44a0-9e67-d7e7ae64adfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Asker of More Mana
@@ -312,6 +320,8 @@ schema: 2
   > Each time a player pays mana, they must pay {1} additional mana. (This includes casting spells, activating abilities, turning face-down creatures face up, paying for Ghostly Prison, the weird ability on Quenchable Fire, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW35b/the-asker-of-more-mana) · oracle_id `3c93038d-b6c3-49b3-9439-62b53347f01e` · printing: UNK #RW35b (2025-09-26) · [rulings](https://api.scryfall.com/cards/335ca507-ab79-4605-a30d-e5b25637e65a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Astonishing Ant-Man
@@ -324,6 +334,8 @@ schema: 2
   > {2}{G}, {T}, Remove any number of +1/+1 counters from The Astonishing Ant-Man: Create that many 1/1 green Insect creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11536 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Mister Fantastic, Reed Richards + Invisible Woman, Sue Storm + The Astonishing Ant-Man](https://commanderspellbook.com/combo/7687-7690-7719/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 4,830 decks; highest synergy [Skullclamp](../../cards/S/sk.md#skullclamp) (+63%), [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+62%), [Brainstorm](../../cards/B/br.md#brainstorm) (+58%) · EDHREC: in 5,473 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (12.4% of its decks), [Ms. Bumbleflower](../../cards/M/ms.md#ms-bumbleflower) (3.8% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (20.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/204/the-astonishing-ant-man) · oracle_id `6c7e4e51-099a-4398-a4b7-e2f0ddd36429` · printing: MSH #204 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5d98073e-2828-4365-a8d6-f631aac0cca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theater of Horrors

@@ -607,6 +607,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31174 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Allows any creature controlled by any player to block Swampwalking creatures as if they did not have this ability. It is not limited to just Ur-Drago.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Vanquisher's Banner](../../cards/V/va.md#vanquishers-banner) (+37%), [Mulldrifter](../../cards/M/mu.md#mulldrifter) (+33%), [Ebondeath, Dracolich](../../cards/E/eb.md#ebondeath-dracolich) (+32%) · EDHREC: in 74 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/268/ur-drago) · oracle_id `537162d5-a2c2-4ad4-9fae-d2ec7a269dcc` · printing: LEG #268 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ureni of the Unwritten
@@ -765,6 +767,8 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13744 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,988 decks; highest synergy [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+80%), [Rancor](../../cards/R/ran.md#rancor) (+75%), [Armadillo Cloak](../../cards/A/arm.md#armadillo-cloak) (+74%) · EDHREC: in 773 decks; most often under [Mazzy, Truesword Paladin](../../cards/M/maz.md#mazzy-truesword-paladin) (14.6% of its decks), [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (1.4% of its decks), [Preston Garvey, Minuteman](../../cards/P/pr.md#preston-garvey-minuteman) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/290/uril-the-miststalker) · oracle_id `4308a020-48cf-45fe-8074-dd5d0ac6d12d` · printing: 2X2 #290 (2022-07-08) · [rulings](https://api.scryfall.com/cards/ca984fdb-aaca-4d8f-af2f-72387122607b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urn of Godfire

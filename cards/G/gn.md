@@ -449,6 +449,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23357 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-11-10* — The value of X is determined as Gnostro's ability resolves.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 10 combos; most popular [Eligeth, Crossroads Augur + Mind Over Matter + Gnostro, Voice of the Crags](https://commanderspellbook.com/combo/1689-4067-5027/) (Near-infinite lifegain, Near-infinite lifegain triggers) · EDHREC as commander: 656 decks; highest synergy [Refocus](../../cards/R/ref.md#refocus) (+52%), [Jeskai Ascendancy](../../cards/J/je.md#jeskai-ascendancy) (+50%), [Cerulean Wisps](../../cards/C/ce.md#cerulean-wisps) (+45%) · EDHREC: in 522 decks; most often under [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (0.3% of its decks), [Narset, Jeskai Waymaster](../../cards/N/na.md#narset-jeskai-waymaster) (1.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/276/gnostro-voice-of-the-crags) · oracle_id `bff55e1a-730c-4349-9ccb-18c97f46496d` · printing: CMR #276 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnottvold Hermit // Chrome Host Hulk

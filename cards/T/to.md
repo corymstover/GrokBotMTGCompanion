@@ -290,6 +290,8 @@ schema: 2
   > *Administrator of the military state of Sheoltun, Tobias is the military right arm of the empire and the figurehead of its freedom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28894 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 88 decks; highest synergy [Persistent Petitioners](../../cards/P/pe.md#persistent-petitioners) (+22%), [Minister of Impediments](../../cards/M/min.md#minister-of-impediments) (+18%), [Azor's Elocutors](../../cards/A/az.md#azors-elocutors) (+17%) · EDHREC: in 241 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks), [Tobias, Doomed Conqueror](../../cards/T/to.md#tobias-doomed-conqueror) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/181/tobias-andrion) · oracle_id `55dfe722-7487-4d25-b90c-e6ad2c82a671` · printing: ME3 #181 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9469a9b3-430c-43b1-bede-80e6949fd895/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tobias, Doomed Conqueror
@@ -305,6 +307,8 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26130 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Tobias, Doomed Conqueror + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/26-2034-5003/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 210 decks; highest synergy [Faith's Reward](../../cards/F/fa.md#faiths-reward) (+71%), [Luminous Broodmoth](../../cards/L/lu.md#luminous-broodmoth) (+63%), [Ashnod's Altar](../../cards/A/as.md#ashnods-altar) (+60%) · EDHREC: in 438 decks; most often under [Nevinyrral, Urborg Tyrant](../../cards/N/ne.md#nevinyrral-urborg-tyrant) (1.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Errant and Giada](../../cards/E/er.md#errant-and-giada) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/45/tobias-doomed-conqueror) · oracle_id `e4544369-910a-41b4-b835-eee341bb48c6` · printing: DMC #45 (2022-09-09) · [rulings](https://api.scryfall.com/cards/afcb1feb-e957-42e7-b05a-48f26bda7b76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Toby, Beastie Befriender
@@ -340,6 +344,8 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19251 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Tocasia, Dig Site Mentor + Intruder Alarm + Emmara, Soul of the Accord](https://commanderspellbook.com/combo/529-1636-5251/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 1,400 decks; highest synergy [Enhanced Surveillance](../../cards/E/en.md#enhanced-surveillance) (+60%), [Matoya, Archon Elder](../../cards/M/mat.md#matoya-archon-elder) (+53%), [Emmara, Soul of the Accord](../../cards/E/em.md#emmara-soul-of-the-accord) (+52%) · EDHREC: in 1,198 decks; most often under [Ellie and Alan, Paleontologists](../../cards/E/el.md#ellie-and-alan-paleontologists) (5.8% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/224/tocasia-dig-site-mentor) · oracle_id `e790f7e6-45f5-45df-b8e5-bcbda4f69f8a` · printing: BRO #224 (2022-11-18) · [rulings](https://api.scryfall.com/cards/919a32a6-b66d-4a75-a02f-fa1c4c87b738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tocasia's Dig Site
@@ -589,6 +595,8 @@ schema: 2
   - *2026-01-27* — If the spell is no longer on the stack when Tokka & Rahzar's last ability resolves, use its mana value as it last existed on the stack.
   - *2026-01-27* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2026-01-27* — Tokka & Rahzar's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 984 decks; highest synergy [Helm of Awakening](../../cards/H/he.md#helm-of-awakening) (+94%), [Urza's Filter](../../cards/U/ur.md#urzas-filter) (+79%), [Wild Evocation](../../cards/W/wi.md#wild-evocation) (+75%) · EDHREC: in 1,750 decks; most often under [Valgavoth, Harrower of Souls](../../cards/V/va.md#valgavoth-harrower-of-souls) (1.8% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (5.2% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/171/tokka-&-rahzar-terrible-twos) · oracle_id `86ef86de-104f-4eae-a2db-893b50e95ad7` · printing: TMT #171 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tokka & Rahzar, Unsupervised
@@ -605,6 +613,8 @@ schema: 2
 - **Keywords:** First strike, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11751 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 17 decks; highest synergy [Idol of Oblivion](../../cards/I/id.md#idol-of-oblivion) (+62%), [Rain of Riches](../../cards/R/rai.md#rain-of-riches) (+60%), [Ingot Chewer](../../cards/I/ing.md#ingot-chewer) (+58%) · EDHREC: in 9,799 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (24.7% of its decks), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (43.1% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (31.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/28/tokka-&-rahzar-unsupervised) · oracle_id `8d857d79-bdb2-4ca3-abd6-7db8f6b3bcfa` · printing: TMC #28 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8bc5a0ac-5979-43ce-8a65-98c5f09f4aa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tolabow, Loch Rascal
@@ -618,6 +628,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23954 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 465 decks; highest synergy [Valley Floodcaller](../../cards/V/va.md#valley-floodcaller) (+60%), [Forest](../../cards/F/fo.md#forest) (+55%), [Stormchaser's Talent](../../cards/S/sto.md#stormchasers-talent) (+55%) · EDHREC: in 668 decks; most often under [Alania, Divergent Storm](../../cards/A/al.md#alania-divergent-storm) (7.6% of its decks), [Bria, Riptide Rogue](../../cards/B/br.md#bria-riptide-rogue) (8.6% of its decks), [Muddle, the Ever-Changing](../../cards/M/mu.md#muddle-the-ever-changing) (0.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/12/tolabow-loch-rascal) · oracle_id `56d71eda-4037-45fb-9e98-1725147af6fc` · printing: MBC #12 (2026-10-19) · [rulings](https://api.scryfall.com/cards/f42c02c2-e3d8-4690-8a93-7c7a4c96bdd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tolaria
@@ -889,6 +901,8 @@ schema: 2
   - *2019-05-03* — If the Wolf that entered the battlefield is no longer on the battlefield as Tolsimir's last ability resolves, no creature deals or is dealt damage, but you do gain 3 life.
   - *2019-05-03* — Tolsimir, Friend to Wolves has a different name than Tolsimir Wolfblood (from the Ravnica: City of Guilds™ set), and Voja, Friend to Elves has a different name than Voja, the token created by Tolsimir Wolfblood. Since the "legend rule" only cares about exact English names, this means you may control all four of these creatures at the same time.
   - *2019-05-03* — You may put Tolsimir's last ability onto the stack without choosing any target. You'll just gain 3 life. However, if you do choose a target and the target permanent is an illegal target by the time Tolsimir's last ability tries to resolve, the ability doesn't resolve. You don't gain 3 life and no creature deals or is dealt damage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,298 decks; highest synergy [Nightpack Ambusher](../../cards/N/ni.md#nightpack-ambusher) (+87%), [Hollowhenge Overlord](../../cards/H/ho.md#hollowhenge-overlord) (+81%), [Howling Moon](../../cards/H/ho.md#howling-moon) (+78%) · EDHREC: in 10,710 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (46.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.0% of its decks), [Tolsimir, Midnight's Light](../../cards/T/to.md#tolsimir-midnights-light) (67.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tolsimir-friend-to-wolves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/224/tolsimir-friend-to-wolves) · oracle_id `3cef501b-5ce1-4699-89a5-3949f7e65bf1` · printing: WAR #224 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -904,6 +918,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10648 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 218 decks; highest synergy [Howling Moon](../../cards/H/ho.md#howling-moon) (+70%), [Nightpack Ambusher](../../cards/N/ni.md#nightpack-ambusher) (+70%), [Tolsimir, Friend to Wolves](../../cards/T/to.md#tolsimir-friend-to-wolves) (+67%) · EDHREC: in 11,062 decks; most often under [Voja, Jaws of the Conclave](../../cards/V/vo.md#voja-jaws-of-the-conclave) (46.6% of its decks), [Tolsimir, Friend to Wolves](../../cards/T/to.md#tolsimir-friend-to-wolves) (63.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tolsimir-midnights-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/236/tolsimir-midnights-light) · oracle_id `0e9c7380-7584-43e6-8c31-5d1bb1685fe0` · printing: MKM #236 (2024-02-09) · [rulings](https://api.scryfall.com/cards/08d22402-c41d-43d7-be1f-42be1e300726/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -941,6 +957,8 @@ schema: 2
   - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger "when [that creature] connives" will trigger.
   - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 70 combos; most popular [Ketramose, the New Dawn + Toluz, Clever Conductor + Feast of Sanity](https://commanderspellbook.com/combo/325-602-6282/) (Near-infinite damage, Infinite self-discard triggers) · EDHREC as commander: 1,755 decks; highest synergy [Archfiend of Ifnir](../../cards/A/arc.md#archfiend-of-ifnir) (+61%), [Unearth](../../cards/U/un.md#unearth) (+58%), [Lonely Sandbar](../../cards/L/lo.md#lonely-sandbar) (+52%) · EDHREC: in 2,276 decks; most often under [Raffine, Scheming Seer](../../cards/R/raf.md#raffine-scheming-seer) (6.3% of its decks), [Kamiz, Obscura Oculus](../../cards/K/ka.md#kamiz-obscura-oculus) (10.0% of its decks), [Queza, Augur of Agonies](../../cards/Q/qu.md#queza-augur-of-agonies) (3.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/228/toluz-clever-conductor) · oracle_id `005c181a-05db-4c15-9893-65103cca338e` · printing: SNC #228 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tomakul Honor Guard
@@ -1001,6 +1019,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10916 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — Use the sacrificed creature's power as it last existed on the battlefield to determine how many cards you draw.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Tom, Bert, and William + Body of Research](https://commanderspellbook.com/combo/648-7652/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 2,014 decks; highest synergy [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+62%), [Psychosis Crawler](../../cards/P/ps.md#psychosis-crawler) (+61%), [Slumbering Trudge](../../cards/S/sl.md#slumbering-trudge) (+60%) · EDHREC: in 10,052 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (23.6% of its decks), [Dina, Essence Brewer](../../cards/D/di.md#dina-essence-brewer) (5.7% of its decks), [Meren of Clan Nel Toth](../../cards/M/me.md#meren-of-clan-nel-toth) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/169/tom-bert-and-william) · oracle_id `0ea58cfe-b37c-49a6-a3be-7e60065b8238` · printing: HOB #169 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tombfire
@@ -1385,6 +1405,8 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Players can’t normally play a land card from a graveyard. If a player finds a way to do so, Tomik’s last ability takes precedence over that permission.
   - *2019-05-03* — Tomik’s middle ability is similar to hexproof, but effects that interact with hexproof don’t count these lands or land cards as having hexproof.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 157 decks; highest synergy [Weathered Wayfarer](../../cards/W/we.md#weathered-wayfarer) (+52%), [Crucible of Worlds](../../cards/C/cr.md#crucible-of-worlds) (+48%), [Felidar Retreat](../../cards/F/fe.md#felidar-retreat) (+48%) · EDHREC: in 10,317 decks; most often under [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (4.6% of its decks), [Noyan Dar, Roil Shaper](../../cards/N/no.md#noyan-dar-roil-shaper) (67.7% of its decks), [Numot, the Devastator](../../cards/N/nu.md#numot-the-devastator) (45.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tomik-distinguished-advokist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/31/tomik-distinguished-advokist) · oracle_id `9895a33f-9bbd-4440-8c1a-0d401431b77f` · printing: RVR #31 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1401,6 +1423,8 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14482 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Firebrand Archer](../../cards/F/fi.md#firebrand-archer) (+67%), [Coruscation Mage](../../cards/C/cor.md#coruscation-mage) (+61%), [Tectonic Hazard](../../cards/T/te.md#tectonic-hazard) (+59%) · EDHREC: in 9,653 decks; most often under [Kuja, Genome Sorcerer](../../cards/K/ku.md#kuja-genome-sorcerer--trance-kuja-fate-defied) (38.5% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (5.5% of its decks), [Nekusar, the Mindrazer](../../cards/N/ne.md#nekusar-the-mindrazer) (8.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/253/tomik-izzet-sparkmage) · oracle_id `16604fee-cd8d-41e4-8269-3c7ff756613d` · printing: FRA #253 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5c5afd5f-6f37-4c3e-83f0-68fdcea98810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tomik, Orzhov Lawmage
@@ -1418,6 +1442,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16587 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — Tomik's ability prevents more than one creature from being declared as an attacker attacking any planeswalker you control during the declare attackers step. An effect can still cause another creature to enter attacking a planeswalker you control that's already being attacked by a creature, or can change what an already-attacking creature is attacking to such a planeswalker.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 26 decks; highest synergy [Ajani Steadfast](../../cards/A/aj.md#ajani-steadfast) (+87%), [Ajani, Strength of the Pride](../../cards/A/aj.md#ajani-strength-of-the-pride) (+84%), [The Wanderer](../../cards/T/thew.md#the-wanderer) (+75%) · EDHREC: in 5,869 decks; most often under [Commodore Guff](../../cards/C/com.md#commodore-guff) (18.1% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (3.2% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/206/tomik-orzhov-lawmage) · oracle_id `7a501f7e-eec8-45f7-9ac3-483fd8f5ca5e` · printing: FRA #206 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tomik, Wielder of Law
@@ -1451,6 +1477,8 @@ schema: 2
   - *2005-02-01* — If you would draw two cards, you look at the top three cards of your library, keep one, and put the rest on the bottom of your library in any order. Then you look at the new top three cards of your library, keep one, and put the rest on the bottom of your library in any order.
   - *2005-02-01* — Since Tomorrow replaces all your card drawing with looking at cards, you can’t lose the game by being required to draw more cards than are in your library with Tomorrow on the battlefield.
   - *2005-02-01* — Tomorrow’s ability makes you look at the top three cards, not draw them. Therefore it won’t trigger abilities that trigger when cards are drawn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 209 decks; highest synergy [Zur's Weirding](../../cards/Z/zu.md#zurs-weirding) (+40%), [Kami of the Crescent Moon](../../cards/K/ka.md#kami-of-the-crescent-moon) (+39%), [Teferi's Puzzle Box](../../cards/T/te.md#teferis-puzzle-box) (+37%) · EDHREC: in 2,998 decks; most often under [Mr. Foxglove](../../cards/M/mr.md#mr-foxglove) (3.2% of its decks), [Ashling, Rekindled](../../cards/A/as.md#ashling-rekindled--ashling-rimebound) (3.2% of its decks), [Ian Malcolm, Chaotician](../../cards/I/ia.md#ian-malcolm-chaotician) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/58/tomorrow-azamis-familiar) · oracle_id `51d517c9-2812-44ce-ab4d-e5422b5ecf6c` · printing: BOK #58 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tonberry
@@ -1529,6 +1557,8 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — When you cast Divination from your hand, you’re losing a card (Divination itself), but after it resolves, you’ve gained two cards in your hand. Overall, you’ve gained a card. Opponents haven’t gained any cards, so you’ve gained card advantage. Conversely, when you cast Prosperity for X=4, you lose a card (Prosperity itself), but you gain four cards, for a net gain of three. However, even with just one opponent, that player will draw four cards, so that ends up being a total net loss of one card for you, which means Prosperity with X=4 was not card advantage.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#toofer-keeper-of-the-full-grip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/554/toofer-keeper-of-the-full-grip) · oracle_id `d4389272-603b-4530-80c3-969fd944c52b` · printing: MB2 #554 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1667,6 +1697,8 @@ schema: 2
   > When Toothy and Zndrsplt leaves the battlefield, draw a card for each +1/+1 counter on Toothy and Zndrsplt.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04b/toothy-and-zndrsplt) · oracle_id `72bc92c8-634c-4749-9cee-50e683e1247a` · printing: UNK #RU04b (2023-05-06) · [rulings](https://api.scryfall.com/cards/1908ff82-9a3d-42fe-820a-4071103065cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Toothy, Imaginary Friend
@@ -2322,6 +2354,8 @@ schema: 2
   - *2018-04-27* — For your life total to become half your starting life total (normally 10, half of 20), you gain or lose the appropriate amount of life. For example, if your life total is 4 when Torgaar's ability resolves targeting you, it will cause you to gain 6 life; alternatively, if your life total is 25 when it resolves, it will cause you to lose 15 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
   - *2018-04-27* — In a Two-Headed Giant game, Torgaar's ability causes the team's life total to become half the team's starting life total (normally 15, half of 30), but only the target player actually gains or loses life.
   - *2018-04-27* — Torgaar's first ability can't reduce its cost below {B}{B}. You can sacrifice any number of creatures, even if they won't reduce Torgaar's cost any further.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Braids, Arisen Nightmare (Dominaria-only)](../../decks/plane-dominaria-braids-arisen-nightmare.md) · Commander Spellbook: 4 combos; most popular [Torgaar, Famine Incarnate + Bloodletter of Aclazotz](https://commanderspellbook.com/combo/5342-5605/) (Infinite lifeloss for target opponent, Target opponent loses the game) · EDHREC as commander: 514 decks; highest synergy [Weaponcraft Enthusiast](../../cards/W/we.md#weaponcraft-enthusiast) (+55%), [Sengir Autocrat](../../cards/S/sen.md#sengir-autocrat) (+50%), [Endrek Sahr, Master Breeder](../../cards/E/en.md#endrek-sahr-master-breeder) (+46%) · EDHREC: in 8,395 decks; most often under [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (6.4% of its decks), [The Meep](../../cards/T/them.md#the-meep) (56.7% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#torgaar-famine-incarnate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/35/torgaar-famine-incarnate) · oracle_id `4229140f-fa5b-4727-a16a-cbbd756d979e` · printing: GN2 #35 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2862,6 +2896,8 @@ schema: 2
   > When Torsten dies, create seven 1/1 white Soldier creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13573 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Torsten, Founder of Benalia + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/25-2034-5003/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 556 decks; highest synergy [Wood Elves](../../cards/W/wo.md#wood-elves) (+47%), [Restoration Angel](../../cards/R/res.md#restoration-angel) (+46%), [Sakura-Tribe Elder](../../cards/S/sak.md#sakura-tribe-elder) (+45%) · EDHREC: in 6,417 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (16.3% of its decks), [Helga, Skittish Seer](../../cards/H/he.md#helga-skittish-seer) (1.3% of its decks), [Hamza, Guardian of Arashin](../../cards/H/ha.md#hamza-guardian-of-arashin) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/47/torsten-founder-of-benalia) · oracle_id `3b1c6c1e-e298-4f45-8ab7-e0bb5358e11f` · printing: DMC #47 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0783b426-a527-42c1-9271-be28b229e1c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Torsten Von Ursus
@@ -2875,6 +2911,8 @@ schema: 2
   > *"How can you accuse me of evil? Though these deeds be unsavory, no one will argue: good shall follow from them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28325 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 48 decks; highest synergy [Odric, Master Tactician](../../cards/O/od.md#odric-master-tactician) (+34%), [Darien, King of Kjeldor](../../cards/D/da.md#darien-king-of-kjeldor) (+30%), [Daru Warchief](../../cards/D/da.md#daru-warchief) (+29%) · EDHREC: in 331 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (1.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Jasmine Boreal](../../cards/J/ja.md#jasmine-boreal) (11.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/183/torsten-von-ursus) · oracle_id `633b8f22-0384-4f60-ba78-b52c2d82dfde` · printing: ME3 #183 (2009-09-07) · [rulings](https://api.scryfall.com/cards/e6687f36-dccf-499b-938d-0da3f442f635/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tortoise Formation
@@ -2940,6 +2978,8 @@ schema: 2
   > {T}: Tor Wauki deals 2 damage to target attacking or blocking creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28749 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 43 decks; highest synergy [Death Pits of Rath](../../cards/D/dea.md#death-pits-of-rath) (+49%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+46%), [Gorgon's Head](../../cards/G/gor.md#gorgons-head) (+46%) · EDHREC: in 294 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Tor Wauki the Younger](../../cards/T/to.md#tor-wauki-the-younger) (1.4% of its decks), [Nicol Bolas](../../cards/N/ni.md#nicol-bolas) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/182/tor-wauki) · oracle_id `9439dfa0-daf8-4dac-af32-755fc2984126` · printing: ME3 #182 (2009-09-07) · [rulings](https://api.scryfall.com/cards/b37c8bc5-5b9e-431f-afee-09f961e4a7d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tor Wauki the Younger
@@ -2973,6 +3013,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — You must still pay the mana cost of the target instant in your graveyard to cast it using Toshiro’s ability.
   - *2011-01-01* — Creatures destroyed by an instant that you cast normally can cause a trigger that allows the instant to be cast again. For example, cast Terror on an opponent’s creature. The creature is destroyed, triggering Toshiro’s ability, and then the Terror is put into your graveyard. You can put Toshiro’s ability on the stack targeting the Terror and then recast it when the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,178 decks; highest synergy [Malicious Affliction](../../cards/M/mal.md#malicious-affliction) (+68%), [Sedgemoor Witch](../../cards/S/sed.md#sedgemoor-witch) (+68%), [Force of Despair](../../cards/F/fo.md#force-of-despair) (+67%) · EDHREC: in 5,549 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (1.9% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (2.6% of its decks), [Kraven the Hunter](../../cards/K/kr.md#kraven-the-hunter) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#toshiro-umezawa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/89/toshiro-umezawa) · oracle_id `11838086-db2f-4588-ae18-4129c9e2b67d` · printing: BOK #89 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

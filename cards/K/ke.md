@@ -690,6 +690,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph19/2/keeper-of-the-secret-lair) · oracle_id `feae9fea-4a4b-4441-bcee-cdea20e98e1a` · printing: PH19 #2 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keeper of Tresserhorn
@@ -910,6 +912,8 @@ schema: 2
   > {T}: Prevent the next 2 damage that would be dealt to target creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30278 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 50 decks; highest synergy [Blessed Sanctuary](../../cards/B/ble.md#blessed-sanctuary) (+39%), [Fog](../../cards/F/fo.md#fog) (+37%), [Respite](../../cards/R/res.md#respite) (+34%) · EDHREC: in 145 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Angus Mackenzie](../../cards/A/an.md#angus-mackenzie) (0.6% of its decks), [Johan](../../cards/J/jo.md#johan) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/155/kei-takahashi) · oracle_id `f3229980-994e-4492-be98-267b781614c1` · printing: ME3 #155 (2009-09-07) · [rulings](https://api.scryfall.com/cards/82703d7c-0759-46ac-b41e-12deeffa10e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keldon Arsonist
@@ -1454,6 +1458,8 @@ schema: 2
   - *2020-06-23* — Kels's middle ability is a triggered ability, not an activated ability. It doesn't allow you to sacrifice a permanent whenever you want; rather, you need some other way of sacrificing permanents, such as Kels's last ability.
   - *2020-06-23* — While resolving Kels's middle ability, you can't pay {U/B} more than once to draw more than one card.
   - *2020-06-23* — You can activate Kels's last ability even if nothing's about to destroy it and even if it already has indestructible.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 12 combos; most popular [Kels, Fight Fixer + Pitiless Plunderer + Ashnod's Altar + Nadir Kraken](https://commanderspellbook.com/combo/1722-2034-3410-4871/) (Infinite card draw, Near-infinite colorless mana) · EDHREC as commander: 956 decks; highest synergy [Ophiomancer](../../cards/O/op.md#ophiomancer) (+65%), [Zulaport Cutthroat](../../cards/Z/zu.md#zulaport-cutthroat) (+65%), [Pitiless Plunderer](../../cards/P/pi.md#pitiless-plunderer) (+62%) · EDHREC: in 2,588 decks; most often under [Toxrill, the Corrosive](../../cards/T/to.md#toxrill-the-corrosive) (4.5% of its decks), [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (0.5% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/15/kels-fight-fixer) · oracle_id `fe2e27a9-437e-4d22-aa22-982978793cff` · printing: JMP #15 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kelsien, the Plague
@@ -1503,6 +1509,8 @@ schema: 2
   > {3}{W}{W}: Create a 2/2 white Cat creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11678 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 26 combos; most popular [Koll, the Forgemaster + Kemba, Kha Enduring + Phyrexian Altar](https://commanderspellbook.com/combo/4050-4082-4763/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 399 decks; highest synergy [Kemba, Kha Regent](../../cards/K/ke.md#kemba-kha-regent) (+79%), [Regal Caracal](../../cards/R/reg.md#regal-caracal) (+68%), [Balan, Wandering Knight](../../cards/B/bal.md#balan-wandering-knight) (+66%) · EDHREC: in 9,196 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (14.5% of its decks), [Kemba, Kha Regent](../../cards/K/ke.md#kemba-kha-regent) (31.2% of its decks), [Balan, Wandering Knight](../../cards/B/bal.md#balan-wandering-knight) (13.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kemba-kha-enduring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/19/kemba-kha-enduring) · oracle_id `93c97e1a-bd7e-4307-8ada-58f53a887cf8` · printing: ONE #19 (2023-02-10) · [rulings](https://api.scryfall.com/cards/945d283d-4592-485f-808a-6e5a721f3cf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1593,6 +1601,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9805 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-12-02* — While resolving Kenessos, Priest of Thassa's last ability, you may choose to leave the card on top of your library.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mind Over Matter + Eligeth, Crossroads Augur + Kenessos, Priest of Thassa + Attentive Sunscribe](https://commanderspellbook.com/combo/1689-4067-5327-5328/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 5,952 decks; highest synergy [Scourge of Fleets](../../cards/S/sc.md#scourge-of-fleets) (+80%), [Whelming Wave](../../cards/W/wh.md#whelming-wave) (+80%), [Serpent of Yawning Depths](../../cards/S/ser.md#serpent-of-yawning-depths) (+79%) · EDHREC: in 7,059 decks; most often under [Kiora, Sovereign of the Deep](../../cards/K/ki.md#kiora-sovereign-of-the-deep) (31.7% of its decks), [Galadriel of Lothlórien](../../cards/G/ga.md#galadriel-of-lothlórien) (35.9% of its decks), [Arixmethes, Slumbering Isle](../../cards/A/ari.md#arixmethes-slumbering-isle) (10.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/13/kenessos-priest-of-thassa) · oracle_id `45b3a028-5705-4dc8-bfab-04bb5e01eea6` · printing: J22 #13 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kenku Artificer
@@ -1672,6 +1682,8 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Kentaro doesn’t change when you can cast Samurai. It just makes Samurai castable for generic mana.
   - *2005-02-01* — Kentaro’s ability only applies while Kentaro is on the battlefield. You have to pay for Kentaro normally. It still costs {1}{W}.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 20 combos; most popular [Kentaro, the Smiling Cat + Whitemane Lion + Urza's Incubator + Maskwood Nexus](https://commanderspellbook.com/combo/643-3168-4770-5613/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 184 decks; highest synergy [Sensei Golden-Tail](../../cards/S/sen.md#sensei-golden-tail) (+88%), [Devoted Retainer](../../cards/D/dev.md#devoted-retainer) (+87%), [Konda's Hatamoto](../../cards/K/ko.md#kondas-hatamoto) (+83%) · EDHREC: in 2,946 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (3.5% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (2.7% of its decks), [Takeno, Samurai General](../../cards/T/ta.md#takeno-samurai-general) (77.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kentaro-the-smiling-cat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/13/kentaro-the-smiling-cat) · oracle_id `bfaf20a7-a11c-4f57-8eb6-b03b5223704d` · printing: BOK #13 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1767,6 +1779,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+73%), [Commander's Sphere](../../cards/C/com.md#commanders-sphere) (+67%), [Wayfarer's Bauble](../../cards/W/way.md#wayfarers-bauble) (+61%) · EDHREC: in 5,175 decks; most often under [Brimaz, Blight of Oreskos](../../cards/B/br.md#brimaz-blight-of-oreskos) (16.0% of its decks), [Teysa, Opulent Oligarch](../../cards/T/te.md#teysa-opulent-oligarch) (6.9% of its decks), [Armix, Filigree Thrasher // Ich-Tekik, Salvage Splicer](../../cards/A/arm.md#armix-filigree-thrasher) (31.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/254/keskit-the-flesh-sculptor) · oracle_id `e665acb1-a839-46c6-b5ae-ad189213bee4` · printing: MOC #254 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kess, Dissident Mage
@@ -2008,6 +2022,8 @@ schema: 2
   - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a bestow cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2018-07-13* — Unlike other Aura spells, an Aura spell with bestow still resolves if its target is illegal. Instead of entering the battlefield as an Aura, the effect making it an Aura spell ends, it loses enchant creature, and it resolves and enters the battlefield as an enchantment creature.
   - *2018-07-13* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if the enchanted creature leaves the battlefield or becomes an illegal creature for the Aura to enchant. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,168 decks; highest synergy [Sythis, Harvest's Hand](../../cards/S/sy.md#sythis-harvests-hand) (+73%), [Eidolon of Blossoms](../../cards/E/ei.md#eidolon-of-blossoms) (+69%), [Sanctum Weaver](../../cards/S/san.md#sanctum-weaver) (+68%) · EDHREC: in 5,400 decks; most often under [Tuvasa the Sunlit](../../cards/T/tu.md#tuvasa-the-sunlit) (21.1% of its decks), [Estrid, the Masked](../../cards/E/es.md#estrid-the-masked) (34.4% of its decks), [Go-Shintai of Life's Origin](../../cards/G/gos.md#go-shintai-of-lifes-origin) (1.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/42/kestia-the-cultivator) · oracle_id `21620bfc-8ef0-4e43-b675-d0bbad86e83d` · printing: C18 #42 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kethek, Crucible Goliath
@@ -2020,6 +2036,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9722 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — If a creature on the battlefield has an {X} in its mana cost, X is 0.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Edea, Possessed Sorceress (Grixis)](../../grixis/decks/edea-possessed-sorceress.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,033 decks; highest synergy [Furnace Reins](../../cards/F/fu.md#furnace-reins) (+52%), [Captivating Crew](../../cards/C/cap.md#captivating-crew) (+49%), [Grim Haruspex](../../cards/G/gri.md#grim-haruspex) (+46%) · EDHREC: in 12,133 decks; most often under [Henzie "Toolbox" Torre](../../cards/H/he.md#henzie-toolbox-torre) (25.4% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (42.9% of its decks), [Marchesa, the Black Rose](../../cards/M/mar.md#marchesa-the-black-rose) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kethek-crucible-goliath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/206/kethek-crucible-goliath) · oracle_id `26747bdc-6bd4-4218-ae83-bd46c7668880` · printing: ONE #206 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2110,6 +2128,8 @@ schema: 2
 - **Keywords:** Flying, Landwalk, Bushido, Trample, Mountainwalk, Rampage
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR08a/kevin-questing-dragon) · oracle_id `5eecbb84-0481-45c9-a138-c7faed6846ad` · printing: UNK #RR08a (2023-09-23) · [rulings](https://api.scryfall.com/cards/69a10841-9aab-44b7-873a-4513018b0bd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keymaster Rogue

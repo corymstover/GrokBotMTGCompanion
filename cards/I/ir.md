@@ -356,6 +356,8 @@ schema: 2
   > *—Reveka, Wizard Savant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28334 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Deathgrip](../../cards/D/dea.md#deathgrip) (+78%), [Gloom](../../cards/G/gl.md#gloom) (+74%), [Stromgald Cabal](../../cards/S/str.md#stromgald-cabal) (+74%) · EDHREC: in 326 decks; most often under [Baron Sengir](../../cards/B/bar.md#baron-sengir) (24.3% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (0.4% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/54/irini-sengir) · oracle_id `2727a7ec-1cf7-4cd7-b5d4-955db940ddd9` · printing: HML #54 (1995-10-01) · [rulings](https://api.scryfall.com/cards/518e3b77-d482-4b90-94c0-0b8cdd949b9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Irma, Part-Time Mutant
@@ -472,6 +474,8 @@ schema: 2
   > *"Pride is not the opposite of shame, but its source. True humility is the only antidote to shame."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16179 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Yuyan Archers](../../cards/Y/yu.md#yuyan-archers) (+61%), [Zuko's Offense](../../cards/Z/zu.md#zukos-offense) (+58%), [Explosive Shot](../../cards/E/ex.md#explosive-shot) (+54%) · EDHREC: in 4,515 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (3.9% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (2.6% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (1.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/240/iroh-firebending-instructor) · oracle_id `8e03797d-dd61-439f-b4ce-996cd71bdcf5` · printing: TLE #240 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1ee4bc92-1101-4652-be27-65450abebf00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iroh, Grand Lotus
@@ -535,6 +539,8 @@ schema: 2
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
   - *2025-10-02* — You will choose targets for Iroh's second ability at the beginning of every combat, even if you aren't feeling generous. The decision to have the opponent gain control of the permanent isn't made until the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 36 combos; most popular [Demonic Pact + Iroh, Tea Master](https://commanderspellbook.com/combo/6676-7046/) (Target opponent loses the game at the beginning of their next upkeep) · EDHREC as commander: 4,129 decks; highest synergy [Humble Defector](../../cards/H/hu.md#humble-defector) (+78%), [Zidane, Tantalus Thief](../../cards/Z/zi.md#zidane-tantalus-thief) (+76%), [Yes Man, Personal Securitron](../../cards/Y/ye.md#yes-man-personal-securitron) (+70%) · EDHREC: in 8,750 decks; most often under [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (52.7% of its decks), [Zidane, Tantalus Thief](../../cards/Z/zi.md#zidane-tantalus-thief) (39.1% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (3.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/228/iroh-tea-master) · oracle_id `87adda41-113b-4126-8978-25a258b31bdd` · printing: TLA #228 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Apprentice
@@ -718,6 +724,8 @@ schema: 2
 - **Keywords:** Power-up, Prowess, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22384 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Brute Force](../../cards/B/br.md#brute-force) (+66%), [Titan's Strength](../../cards/T/ti.md#titans-strength) (+56%), [Expedite](../../cards/E/ex.md#expedite) (+55%) · EDHREC: in 1,460 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (33.4% of its decks), [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (53.1% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/692/iron-fist-hero-for-hire) · oracle_id `58c8bf6a-1b13-4c90-9e0b-24fb687f1e13` · printing: MSC #692 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9f1cdf84-c034-4435-8ce7-50f6b777fb57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Fist, Living Weapon
@@ -731,6 +739,8 @@ schema: 2
   > *Danny Rand plunged his fists into the molten heart of the dragon, again and again, until they glowed and smoldered like hot iron.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20838 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 129 decks; highest synergy [Blazing Crescendo](../../cards/B/bla.md#blazing-crescendo) (+67%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+67%), [Haste Magic](../../cards/H/ha.md#haste-magic) (+66%) · EDHREC: in 1,895 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (38.3% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (1.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/138/iron-fist-living-weapon) · oracle_id `bbf873c2-94c1-46b8-912e-e29e48e0212c` · printing: MSH #138 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5cc2d948-ac8b-4466-b604-3fabc0ab6bb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron-Fist Pulverizer
@@ -805,6 +815,8 @@ schema: 2
 - **Keywords:** Flying, Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10092 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 596 decks; highest synergy [Uthros Research Craft](../../cards/U/ut.md#uthros-research-craft) (+60%), [Welding Jar](../../cards/W/we.md#welding-jar) (+58%), [Forensic Gadgeteer](../../cards/F/fo.md#forensic-gadgeteer) (+53%) · EDHREC: in 12,598 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (56.7% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (23.3% of its decks), [The Mighty Thor, Jane Foster](../../cards/T/them.md#the-mighty-thor-jane-foster) (24.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ironheart-clever-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/60/ironheart-clever-champion) · oracle_id `df3d5b86-7b75-4df9-8985-7159cde12261` · printing: MSH #60 (2026-06-26) · [rulings](https://api.scryfall.com/cards/395e477a-861f-4661-b329-6c1ad5343ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -898,6 +910,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11291 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 37 combos; most popular [Sensei's Divining Top + Iron Lad, Diverging Destiny + Mind Over Matter + Etherium Sculptor](https://commanderspellbook.com/combo/1976-4067-5078-7914/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 31 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+51%), [Clock of Omens](../../cards/C/cl.md#clock-of-omens) (+50%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+44%) · EDHREC: in 10,816 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (57.0% of its decks), [Captain America, Living Legend](../../cards/C/cap.md#captain-america-living-legend) (24.9% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (18.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/59/iron-lad-diverging-destiny) · oracle_id `3e715032-0d21-441b-b2d4-c91084728718` · printing: MSH #59 (2026-06-26) · [rulings](https://api.scryfall.com/cards/355e7197-2f20-43b6-9305-73c4e1fd4a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Lad, Young Avenger
@@ -913,6 +927,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14718 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 64 combos; most popular [Sensei's Divining Top + Mystic Forge + Iron Lad, Young Avenger](https://commanderspellbook.com/combo/985-5078-7913/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 68 decks; highest synergy [Sensei's Divining Top](../../cards/S/sen.md#senseis-divining-top) (+37%), [Mystic Forge](../../cards/M/my.md#mystic-forge) (+32%), [Urza's Saga](../../cards/U/ur.md#urzas-saga) (+31%) · EDHREC: in 6,208 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (32.4% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (13.5% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (17.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/569/iron-lad-young-avenger) · oracle_id `fedcc722-ac5f-464a-bac9-c5f1d4de28d0` · printing: MSC #569 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bce11b29-c674-4d50-b01d-b80bf7e3a73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Lance
@@ -1018,6 +1034,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17123 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 36 decks; highest synergy [Shuri, Wakandan Inventor](../../cards/S/shu.md#shuri-wakandan-inventor) (+57%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+52%), [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+52%) · EDHREC: in 3,950 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (26.0% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (12.4% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/501/iron-man-futurist-paragon) · oracle_id `eabe9a02-ea47-4548-8933-e5d1269fab25` · printing: MSC #501 (2026-06-26) · [rulings](https://api.scryfall.com/cards/266a56d7-c310-4a91-9d1f-a6d55aa17f43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Master of Machines
@@ -1034,6 +1052,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11467 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 641 decks; highest synergy [Iron Lad, Diverging Destiny](../../cards/I/ir.md#iron-lad-diverging-destiny) (+54%), [Shuri, Wakandan Inventor](../../cards/S/shu.md#shuri-wakandan-inventor) (+52%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+44%) · EDHREC: in 9,839 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (69.8% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (31.6% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (6.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/216/iron-man-master-of-machines) · oracle_id `94bc796d-8c04-4835-8a99-7e5dce9540ee` · printing: MSH #216 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8f84ab0a-bf6e-4f28-9da8-998512a224ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Modern Marvel
@@ -1050,6 +1070,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15905 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+69%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+63%), [Master of Etherium](../../cards/M/mas.md#master-of-etherium) (+63%) · EDHREC: in 5,037 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (34.3% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (14.6% of its decks), [Iron Man, Master of Machines](../../cards/I/ir.md#iron-man-master-of-machines) (27.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/830/iron-man-modern-marvel) · oracle_id `507fc71d-0dfc-4bfe-bc71-de88162c39a1` · printing: MSC #830 (2026-06-26) · [rulings](https://api.scryfall.com/cards/32df31b8-21cd-4872-a775-2144074e6a73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iron Man, Titan of Innovation
@@ -1080,6 +1102,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17358 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 160 decks; highest synergy [Hawkeye, Trick Shot](../../cards/H/ha.md#hawkeye-trick-shot) (+40%), [Vision of Love](../../cards/V/vi.md#vision-of-love) (+40%), [Enduring Courage](../../cards/E/en.md#enduring-courage) (+37%) · EDHREC: in 3,700 decks; most often under [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (18.8% of its decks), [Iron Man, Titan of Innovation](../../cards/I/ir.md#iron-man-titan-of-innovation) (9.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (3.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iron-man-tony-stark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/851/iron-man-tony-stark) · oracle_id `188e1516-5766-406b-aacb-468f2d9a530a` · printing: MSC #851 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ec18d8cd-67ed-4338-8ae7-69628469cd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

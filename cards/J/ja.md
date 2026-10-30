@@ -181,6 +181,8 @@ schema: 2
   > *All her shows have a captive audience.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23220 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 59 decks; highest synergy [Captivating Crew](../../cards/C/cap.md#captivating-crew) (+74%), [Claim the Firstborn](../../cards/C/cl.md#claim-the-firstborn) (+72%), [Frenzied Fugue](../../cards/F/fr.md#frenzied-fugue) (+71%) · EDHREC: in 1,271 decks; most often under [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (6.4% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (5.4% of its decks), [Don Andres, the Renegade](../../cards/D/do.md#don-andres-the-renegade) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/23/jabs-mistress-of-mockery) · oracle_id `723959e1-8356-4fdb-99e2-818df317dc72` · printing: MBC #23 (2026-10-19) · [rulings](https://api.scryfall.com/cards/97ef5bee-81d8-4dc2-9ad8-7b6a8fac5026/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jace, Arcane Strategist
@@ -792,6 +794,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
   - *2025-09-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Jackal, Genius Geneticist + Wildwood Scourge + Ego Erasure](https://commanderspellbook.com/combo/1027-7611-7612/) (Infinite +1/+1 counters on a creature, Infinite +1/+1 counters on a creature token) · EDHREC as commander: 2,175 decks; highest synergy [O'aka, Traveling Merchant](../../cards/O/oa.md#oaka-traveling-merchant) (+61%), [Nesting Grounds](../../cards/N/ne.md#nesting-grounds) (+52%), [Zameck Guildmage](../../cards/Z/za.md#zameck-guildmage) (+49%) · EDHREC: in 2,901 decks; most often under [Cosmic Spider-Man](../../cards/C/cos.md#cosmic-spider-man) (1.8% of its decks), [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (3.2% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/131/jackal-genius-geneticist) · oracle_id `5998f07e-01f9-4d02-94dd-867c7166463f` · printing: SPM #131 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackalope Herd
@@ -933,6 +937,8 @@ schema: 2
 - **Keywords:** Flying, Power-up, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25583 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [High Market](../../cards/H/hi.md#high-market) (+74%), [Screaming Nemesis](../../cards/S/sc.md#screaming-nemesis) (+72%), [Bulk Up](../../cards/B/bu.md#bulk-up) (+67%) · EDHREC: in 766 decks; most often under [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (42.2% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.8% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/693/jack-of-hearts-volatile-hero) · oracle_id `25b30117-03ef-49a5-8743-2d1c167d4bc3` · printing: MSC #693 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7882b42b-d88f-48fe-9b30-cfb338accadb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jack-o'-Lantern
@@ -994,6 +1000,8 @@ schema: 2
   - *2021-11-19* — Paying {4}{U}{U} and transforming Jacob Hauken, Inspector is part of the resolution of the activated ability. You draw a card and exile a card before choosing whether to pay.
   - *2021-11-19* — Playing a card using the last ability of Hauken's Insight follows all the normal timing rules for that card. For example, if you play a land this way, you may do so only during your main phase while the stack is empty and only if you haven't yet played a land (unless another effect allows you to play additional lands).
   - *2021-11-19* — You may play cards this way that were exiled with Jacob Hauken, Inspector before it transformed into Hauken's Insight.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Jacob Hauken, Inspector // Hauken's Insight + Mind Over Matter + Teferi's Ageless Insight](https://commanderspellbook.com/combo/4067-5042-7602/) (Infinite draw triggers, Near-infinite looting) · EDHREC as commander: 1,279 decks; highest synergy [Omniscience](../../cards/O/om.md#omniscience) (+65%), [One with the Multiverse](../../cards/O/on.md#one-with-the-multiverse) (+65%), [Aminatou's Augury](../../cards/A/am.md#aminatous-augury) (+56%) · EDHREC: in 8,001 decks; most often under [Minn, Wily Illusionist](../../cards/M/min.md#minn-wily-illusionist) (8.2% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (5.6% of its decks), [The Watcher in the Water](../../cards/T/thew.md#the-watcher-in-the-water) (8.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/65/jacob-hauken-inspector-haukens-insight) · oracle_id `16d2a56a-7181-4ef3-866b-10dd8615d9e9` · printing: VOW #65 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jacques le Vert
@@ -1008,6 +1016,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28448 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Gives himself +0/+2.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 219 decks; highest synergy [Hornet Nest](../../cards/H/ho.md#hornet-nest) (+66%), [Rite of Passage](../../cards/R/ri.md#rite-of-passage) (+56%), [Saber Ants](../../cards/S/sab.md#saber-ants) (+56%) · EDHREC: in 145 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Hazezon Tamar](../../cards/H/ha.md#hazezon-tamar) (3.8% of its decks), [Palladia-Mors](../../cards/P/pa.md#palladia-mors) (4.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/147/jacques-le-vert) · oracle_id `c030ca14-33cb-40b3-a1f5-b6d0cb0efd49` · printing: ME1 #147 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadar, Ghoulcaller of Nephalia
@@ -1350,6 +1360,8 @@ schema: 2
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
   - *2021-04-16* — You may activate Jadzi’s activated ability only while Jadzi is on the battlefield. If Jadzi is no longer on the battlefield as the ability resolves, it won’t return her to your hand from any other zone.
   - *2021-04-16* — You may choose not to cast a nonland card revealed by Jadzi’s triggered ability. If you don’t cast it, it stays on top of your library.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Jadzi, Oracle of Arcavios // Journey to the Oracle + Uyo, Silent Prophet](https://commanderspellbook.com/combo/1401-2137/) (Infinite landfall triggers, Infinite magecraft triggers) · EDHREC as commander: 2,238 decks; highest synergy [Sprouting Vines](../../cards/S/spr.md#sprouting-vines) (+50%), [Mind's Desire](../../cards/M/min.md#minds-desire) (+46%), [Brainstorm](../../cards/B/br.md#brainstorm) (+44%) · EDHREC: in 9,002 decks; most often under [Quandrix, the Proof](../../cards/Q/qu.md#quandrix-the-proof) (18.3% of its decks), [Codie, Vociferous Codex](../../cards/C/cod.md#codie-vociferous-codex) (9.3% of its decks), [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (2.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/151/jadzi-oracle-of-arcavios-journey-to-the-oracle) · oracle_id `ca79cd3f-13ba-4d11-b885-48a504ae69aa` · printing: STX #151 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jadzi, Steward of Fate // Oracle's Gift
@@ -1379,6 +1391,8 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/the-legends-of-secrets-of-strixhaven) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 161 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+65%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+60%), [Skycoach Waypoint](../../cards/S/sk.md#skycoach-waypoint) (+59%) · EDHREC: in 8,103 decks; most often under [Zimone, Infinite Analyst](../../cards/Z/zi.md#zimone-infinite-analyst) (6.9% of its decks), [Primo, the Unbounded](../../cards/P/pr.md#primo-the-unbounded) (20.1% of its decks), [Berta, Wise Extrapolator](../../cards/B/be.md#berta-wise-extrapolator) (23.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/55/jadzi-steward-of-fate-oracles-gift) · oracle_id `c63b3511-d597-4c6e-9094-eabdeaa8a394` · printing: SOS #55 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jagged Barrens
@@ -1557,6 +1571,8 @@ schema: 2
   > {1}{R}, {T}: Shuffle Jalum Grifter and two lands you control face down. Target opponent chooses one of those cards. Turn the cards face up. If they chose Jalum Grifter, sacrifice it. Otherwise, destroy target permanent.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/47/jalum-grifter) · oracle_id `fc127648-0f52-4219-990e-39abd7004bf2` · printing: UGL #47 (1998-08-11) · [rulings](https://api.scryfall.com/cards/9b5d0ead-7798-49a2-8106-418db1d4fd69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jalum Tome
@@ -1614,6 +1630,8 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Ghalta, Primal Hunger](../../cards/G/gh.md#ghalta-primal-hunger) (+80%), [Raised by Giants](../../cards/R/rai.md#raised-by-giants) (+74%), [Jhoira's Familiar](../../cards/J/jh.md#jhoiras-familiar) (+68%) · EDHREC: in 4,648 decks; most often under [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (50.3% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (42.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jamie-mccrimmon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/105/jamie-mccrimmon) · oracle_id `c9f074cb-6dcb-4c25-8332-9b15e4881d33` · printing: WHO #105 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1664,6 +1682,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23704 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,161 decks; highest synergy [Miriam, Herd Whisperer](../../cards/M/mir.md#miriam-herd-whisperer) (+82%), [Kolodin, Triumph Caster](../../cards/K/ko.md#kolodin-triumph-caster) (+80%), [Guardian Sunmare](../../cards/G/gu.md#guardian-sunmare) (+77%) · EDHREC: in 38 decks; most often under [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.1% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.2% of its decks), [Saskia the Unyielding](../../cards/S/sas.md#saskia-the-unyielding) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/42/jandor-fortuned-traveler) · oracle_id `8c05de43-6f9e-46c1-bc01-551a7fc570d0` · printing: MBC #42 (2026-10-19) · [rulings](https://api.scryfall.com/cards/05c31120-7d4a-42d9-adad-53970fdf566e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jandor's Ring
@@ -1816,6 +1836,8 @@ schema: 2
   - *2020-11-10* — If you're the monarch and damage would be dealt to Jared Carthalion at the same time combat damage is dealt to you, Jared Carthalion's last ability will prevent damage and put counters on it before the triggered ability that makes another player the monarch resolves.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 2](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-2-2020-11-06) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Jared Carthalion, True Heir + Animation Module + Earthcraft + Goblin Bombardment](https://commanderspellbook.com/combo/818-2757-3490-5147/) (Infinite +1/+1 counters on a creature, Infinite death triggers) · EDHREC as commander: 3,245 decks; highest synergy [Pariah](../../cards/P/pa.md#pariah) (+74%), [Court of Ire](../../cards/C/cou.md#court-of-ire) (+71%), [Court of Bounty](../../cards/C/cou.md#court-of-bounty) (+70%) · EDHREC: in 2,783 decks; most often under [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (1.5% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.0% of its decks), [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/281/jared-carthalion-true-heir) · oracle_id `b48da54c-002f-4afb-9fdf-2a3e1cf77383` · printing: CMR #281 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jareth, Leonine Titan
@@ -1830,6 +1852,8 @@ schema: 2
   > *Light's champion in the stronghold of darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11213 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 231 decks; highest synergy [Brave the Sands](../../cards/B/br.md#brave-the-sands) (+52%), [Entangler](../../cards/E/en.md#entangler) (+48%), [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+41%) · EDHREC: in 10,140 decks; most often under [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (30.6% of its decks), [Arahbo, the First Fang](../../cards/A/ara.md#arahbo-the-first-fang) (18.3% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (2.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/30/jareth-leonine-titan) · oracle_id `019aa6a6-7be8-4c3d-8f3e-4ccce2b9c3d3` · printing: CM2 #30 (2018-06-08) · [rulings](https://api.scryfall.com/cards/bf57d9ec-d161-4cb4-989b-72278bfdba4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jarl of the Forsaken
@@ -1872,6 +1896,8 @@ schema: 2
   > *"My association with the Avengers is far more than a job. It's more a duty of friendship and loyalty. A calling I cherish deeply."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12962 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 15 decks; highest synergy [Professor Hulk](../../cards/P/pr.md#professor-hulk) (+79%), [Kid Loki](../../cards/K/ki.md#kid-loki) (+66%), [Rescue, Pepper Potts](../../cards/R/res.md#rescue-pepper-potts) (+66%) · EDHREC: in 8,151 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (83.9% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (22.9% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (78.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/34/jarvis-earths-mightiest-butler) · oracle_id `63e17cbd-6dae-42d2-a074-7924db1477bf` · printing: MSC #34 (2026-06-26) · [rulings](https://api.scryfall.com/cards/62c31cd8-0c30-4cfb-89d6-2e4dac19f6ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasconian Isle
@@ -1904,6 +1930,8 @@ schema: 2
   > *"Peace must prevail, even if the wicked must die."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22178 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 94 decks; highest synergy [Watchwolf](../../cards/W/wat.md#watchwolf) (+46%), [Isamaru, Hound of Konda](../../cards/I/is.md#isamaru-hound-of-konda) (+45%), [Muraganda Petroglyphs](../../cards/M/mu.md#muraganda-petroglyphs) (+44%) · EDHREC: in 1,410 decks; most often under [Jasmine Boreal of the Seven](../../cards/J/ja.md#jasmine-boreal-of-the-seven) (15.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/93/jasmine-boreal) · oracle_id `942407bf-862a-4a0b-b19d-b9f8ee833026` · printing: TSB #93 (2006-10-06) · [rulings](https://api.scryfall.com/cards/004af467-815a-47c0-a974-1ae49ca3a1a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasmine Boreal of the Seven
@@ -1920,6 +1948,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Checking whether a creature has abilities for Jasmine Boreal of the Seven’s last ability happens only once each combat, as blockers are declared. This means that, once a creature you control with no abilities has been blocked, giving an ability to a creature blocking it won’t cause the creature you control to become unblocked.
   - *2022-09-09* — Some effects give spells a player controls an ability. In that case, mana from Jasmine Boreal of the Seven’s mana ability can’t be spent to cast that spell, even if it is a creature spell that normally has no abilities.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,454 decks; highest synergy [Muraganda Petroglyphs](../../cards/M/mu.md#muraganda-petroglyphs) (+81%), [Quakestrider Ceratops](../../cards/Q/qu.md#quakestrider-ceratops) (+81%), [Watchwolf](../../cards/W/wat.md#watchwolf) (+80%) · EDHREC: in 2,029 decks; most often under [Kaust, Eyes of the Glade](../../cards/K/ka.md#kaust-eyes-of-the-glade) (34.3% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (1.7% of its decks), [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/33/jasmine-boreal-of-the-seven) · oracle_id `138201c0-556d-4c76-b383-90fc9dad0fe0` · printing: DMC #33 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jasmine Dragon Tea Shop
@@ -2079,6 +2109,8 @@ schema: 2
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9660 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6,999 decks; highest synergy [Descent into Avernus](../../cards/D/des.md#descent-into-avernus) (+76%), [Reckless Fireweaver](../../cards/R/rec.md#reckless-fireweaver) (+76%), [Crime Novelist](../../cards/C/cr.md#crime-novelist) (+71%) · EDHREC: in 6,616 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.5% of its decks), [Brallin, Skyshark Rider // Shabraz, the Skyshark](../../cards/B/br.md#brallin-skyshark-rider) (12.4% of its decks), [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2175/jaws-relentless-predator) · oracle_id `1202725c-170b-42d7-9f82-a431a987f30e` · printing: SLD #2175 (2025-10-13) · [rulings](https://api.scryfall.com/cards/c6d16a9e-98c0-46e0-987c-f0de0915a204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jaxis, the Troublemaker

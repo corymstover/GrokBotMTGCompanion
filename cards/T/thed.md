@@ -210,6 +210,8 @@ schema: 2
   - *2025-10-02* — Once a creature you control has been blocked, activating The Destined Thief's second ability targeting that creature won't cause it to become unblocked.
   - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
   - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 63 decks; highest synergy [Mist-Cloaked Herald](../../cards/M/mis.md#mist-cloaked-herald) (+70%), [Eternal of Harsh Truths](../../cards/E/et.md#eternal-of-harsh-truths) (+61%), [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (+57%) · EDHREC: in 9,734 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (96.8% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (39.5% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/446/the-destined-thief) · oracle_id `7857c7b6-9676-47ac-bb28-d0b4cbda5fa7` · printing: FIC #446 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined Warrior
@@ -230,6 +232,8 @@ schema: 2
   - *2025-10-02* — The cost reduction applies only to generic mana in the total cost of Cleric, Rogue, Warrior, and Wizard spells you cast.
   - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Destined Warrior's fourth ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,877 decks; highest synergy [The Destined Thief](../../cards/T/thed.md#the-destined-thief) (+95%), [The Destined White Mage](../../cards/T/thed.md#the-destined-white-mage) (+91%), [Nalia de'Arnise](../../cards/N/na.md#nalia-dearnise) (+90%) · EDHREC: in 2,022 decks; most often under [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (45.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks), [Sefris of the Hidden Ways](../../cards/S/sef.md#sefris-of-the-hidden-ways) (2.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Cost reducers](../../EDH%20Packages.md#ramp-cost-reducers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/443/the-destined-warrior) · oracle_id `393a5d32-fc8e-422b-a957-59e545a54cb6` · printing: FIC #443 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Destined White Mage
@@ -252,6 +256,8 @@ schema: 2
   - *2025-10-02* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
   - *2025-10-02* — The Destined White Mage's second ability triggers just once for each life-gaining event, whether it's 1 life from Al Bhed Salvagers or 3 life from Balamb T-Rexaur.
   - *2025-10-02* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Walking Ballista + The Destined White Mage](https://commanderspellbook.com/combo/3693-6996/) (Infinite damage, Infinite lifegain) · EDHREC as commander: 206 decks; highest synergy [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+65%), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (+62%), [Soul Warden](../../cards/S/so.md#soul-warden) (+60%) · EDHREC: in 13,539 decks; most often under [The Destined Warrior](../../cards/T/thed.md#the-destined-warrior) (92.5% of its decks), [Tazri, Beacon of Unity](../../cards/T/ta.md#tazri-beacon-of-unity) (30.2% of its decks), [Aerith Gainsborough](../../cards/A/ae.md#aerith-gainsborough) (19.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/444/the-destined-white-mage) · oracle_id `c8110200-209e-423a-96b7-81a3ac32447c` · printing: FIC #444 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dilu Horse
@@ -266,6 +272,8 @@ schema: 2
 - **Keywords:** Partner, Horsemanship
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03d/the-dilu-horse) · oracle_id `d8fb309d-e3c9-4d51-8596-baae80b130a1` · printing: UNK #RG03d (2023-07-29) · [rulings](https://api.scryfall.com/cards/f1caaf2d-b0f1-4733-8dc5-2540af3a809e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Disciple of Nissa
@@ -277,6 +285,8 @@ schema: 2
   > Whenever the Disciple of Nissa attacks, you may pay {X}{X}{X}{G}{G}. When you do, create X tokens that are copies of different Nissa planeswalkers chosen at random. They each enter with an additional loyalty counter. (There are currently eleven. Yes, Nissa, Sage Animist counts. Perhaps look up the list and roll a D20?)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG01b/the-disciple-of-nissa) · oracle_id `848f9062-298d-4faf-84aa-702474e0c549` · printing: UNK #RG01b (2024-06-29) · [rulings](https://api.scryfall.com/cards/d5226a9b-14bd-4b34-8abb-67ac59e7a017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Disciple of Vess
@@ -291,6 +301,8 @@ schema: 2
   > *PERSON*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB54/the-disciple-of-vess) · oracle_id `85b2dcd3-a364-4da2-a46d-f2c6c268b48f` · printing: UNK #RB54 (2024-02-24) · [rulings](https://api.scryfall.com/cards/0e83124c-6b96-4c44-a054-c91d9b86310e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dogronmaster
@@ -306,6 +318,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ24/the-dogronmaster) · oracle_id `0631a529-4af6-47a4-b913-efbe6b2aadfd` · printing: UNK #RZ24 (2024-02-24) · [rulings](https://api.scryfall.com/cards/e1c87a1b-cb0f-4235-b597-8efd0ce50c5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Dominion Bracelet
@@ -381,6 +395,8 @@ schema: 2
   > *LETTER*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ34/the-duke-of-midrange) · oracle_id `98d7a603-e9df-47fc-921c-974e29c5af8b` · printing: UNK #RZ34 (2024-02-24) · [rulings](https://api.scryfall.com/cards/ace5388e-c0b7-483b-a888-d6fe1bc10034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Duke, Rebel Sentry
@@ -395,4 +411,6 @@ schema: 2
   > *A royal pain in the Fire Nation's backside.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11849 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Mikaeus, the Lunarch](../../cards/M/mik.md#mikaeus-the-lunarch) (+77%), [Requisition Raid](../../cards/R/req.md#requisition-raid) (+71%), [Dusk Legion Duelist](../../cards/D/du.md#dusk-legion-duelist) (+68%) · EDHREC: in 9,504 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (17.5% of its decks), [Eirdu, Carrier of Dawn](../../cards/E/ei.md#eirdu-carrier-of-dawn--isilu-carrier-of-twilight) (12.3% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/76/the-duke-rebel-sentry) · oracle_id `1c55047d-badc-49bb-b791-e9759577e4eb` · printing: TLE #76 (2025-11-21) · [rulings](https://api.scryfall.com/cards/cd9d91a8-7315-4355-af99-941f3cf7398c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

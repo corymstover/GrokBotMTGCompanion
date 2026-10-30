@@ -1824,6 +1824,8 @@ schema: 2
 - **Keywords:** Investigate, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11641 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 23 combos; most popular [Wernog, Rider's Chaplain + Time Sieve + Academy Manufactor + Soulherder](https://commanderspellbook.com/combo/63-1558-2334-4231/) (Infinite turns, Lock) · EDHREC as commander: 154 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+64%), [Inspiring Statuary](../../cards/I/ins.md#inspiring-statuary) (+60%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+53%) · EDHREC: in 9,474 decks; most often under [Ardbert, Warrior of Darkness](../../cards/A/ard.md#ardbert-warrior-of-darkness) (22.0% of its decks), [Teysa, Opulent Oligarch](../../cards/T/te.md#teysa-opulent-oligarch) (47.1% of its decks), [Tivit, Seller of Secrets](../../cards/T/ti.md#tivit-seller-of-secrets) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#wernog-riders-chaplain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/8/wernog-riders-chaplain) · oracle_id `6cd03270-54cc-43e1-9b86-70c76960c841` · printing: SLX #8 (2022-03-03) · [rulings](https://api.scryfall.com/cards/39491011-bdf6-4e61-8534-fe26c1571f8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

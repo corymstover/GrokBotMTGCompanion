@@ -268,6 +268,8 @@ schema: 2
   - *2018-04-27* — If an Aura or Equipment you control is put into a graveyard at the same time as Tiana is, most likely because an effect destroyed all nonland permanents, you'll be able to return it to its owner's hand at the beginning of the next end step.
   - *2018-04-27* — If an Aura you control is put into a graveyard immediately after Tiana leaves the battlefield, most likely because Tiana left the battlefield but the Aura was put into the graveyard as a state-based action after it found itself not attached to anything, Tiana's last ability won't trigger.
   - *2018-04-27* — Tiana's last ability triggers and creates a delayed triggered ability that will let you return the Aura or Equipment during the next end step. It will do so even if Tiana leaves the battlefield before the next end step.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 385 decks; highest synergy [Danitha Capashen, Paragon](../../cards/D/da.md#danitha-capashen-paragon) (+51%), [Sram, Senior Edificer](../../cards/S/sr.md#sram-senior-edificer) (+46%), [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+44%) · EDHREC: in 10,864 decks; most often under [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (39.9% of its decks), [Wyleth, Soul of Steel](../../cards/W/wy.md#wyleth-soul-of-steel) (34.1% of its decks), [Ardenn, Intrepid Archaeologist // Rograkh, Son of Rohgahh](../../cards/A/ard.md#ardenn-intrepid-archaeologist) (10.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/204/tiana-ships-caretaker) · oracle_id `80f8fb4c-cc6d-4b41-abb3-471dc96d4b2a` · printing: DMR #204 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tibalt, Rakish Instigator
@@ -371,6 +373,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22510 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2006-02-01* — A spell you cast that's blue and red will trigger both abilities. You can put them on the stack in either order.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 584 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+61%), [Gorgon's Head](../../cards/G/gor.md#gorgons-head) (+57%), [Izzet Charm](../../cards/I/iz.md#izzet-charm) (+57%) · EDHREC: in 804 decks; most often under [Niv-Mizzet, Parun](../../cards/N/ni.md#niv-mizzet-parun) (0.5% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.5% of its decks), [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/135/tibor-and-lumia) · oracle_id `ee6d6f2f-68d5-466a-86c6-20fdb360e629` · printing: GPT #135 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ticked Off
@@ -967,6 +971,8 @@ schema: 2
   > *"Every blitzer knows: when you got the ball, you gotta score!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12735 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Tidus, Blitzball Star + Animation Module + Ashnod's Altar](https://commanderspellbook.com/combo/2034-3490-6638/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,054 decks; highest synergy [Blitzball](../../cards/B/bli.md#blitzball) (+55%), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (+42%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+41%) · EDHREC: in 7,091 decks; most often under [Noctis, Prince of Lucis](../../cards/N/no.md#noctis-prince-of-lucis) (12.6% of its decks), [Tidus, Yuna's Guardian](../../cards/T/ti.md#tidus-yunas-guardian) (2.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/246/tidus-blitzball-star) · oracle_id `ef827c62-a5c5-4a7a-92a8-edefb081fae8` · printing: FIN #246 (2025-06-13) · [rulings](https://api.scryfall.com/cards/aa851d68-a7a4-48c0-9cd7-d3d2e079f3a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tidus, Yuna's Guardian
@@ -1143,6 +1149,8 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24017 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Leader, Super-Genius](../../cards/L/le.md#leader-super-genius) (+56%), [Armaggon, Future Shark](../../cards/A/arm.md#armaggon-future-shark) (+51%), [Bigfin Bouncer](../../cards/B/bi.md#bigfin-bouncer) (+47%) · EDHREC: in 1,059 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (2.4% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (14.4% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/747/tiger-shark-abyssal-hunter) · oracle_id `286be139-1ddf-4b04-86b2-cf17a06c262a` · printing: MSC #747 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1a7b5a4c-b801-446a-984f-42349b7f8bfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tiger-Tribe Hunter
@@ -1189,6 +1197,8 @@ schema: 2
 - **Keywords:** Trample, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17209 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Shalai and Hallar + Tigra, Feline Fury](https://commanderspellbook.com/combo/4490-7684--210/) (Infinite +1/+1 counters on a creature, Infinite damage) · EDHREC as commander: 92 decks; highest synergy [Essence Warden](../../cards/E/es.md#essence-warden) (+81%), [Kazandu Nectarpot](../../cards/K/ka.md#kazandu-nectarpot) (+75%), [Prosperous Innkeeper](../../cards/P/pr.md#prosperous-innkeeper) (+75%) · EDHREC: in 3,961 decks; most often under [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (4.9% of its decks), [Lucky the Pizza Dog](../../cards/L/lu.md#lucky-the-pizza-dog) (68.0% of its decks), [Arahbo, Roar of the World](../../cards/A/ara.md#arahbo-roar-of-the-world) (5.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/191/tigra-feline-fury) · oracle_id `39d993be-30ad-4756-a494-fd8808d474c9` · printing: MSH #191 (2026-06-26) · [rulings](https://api.scryfall.com/cards/73c11aea-4fa4-438d-b886-2fafa60c82f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tiller Engine
@@ -2088,6 +2098,8 @@ schema: 2
 - **Keywords:** Flying, Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10252 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Dreamshackle Geist](../../cards/D/dre.md#dreamshackle-geist) (+80%), [Shacklegeist](../../cards/S/sha.md#shacklegeist) (+80%), [Cemetery Illuminator](../../cards/C/ce.md#cemetery-illuminator) (+60%) · EDHREC: in 12,038 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (65.3% of its decks), [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (21.9% of its decks), [Sensational Spider-Man](../../cards/S/sen.md#sensational-spider-man) (13.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#timin-youthful-geist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/16/timin-youthful-geist) · oracle_id `0a836332-5905-4afa-a442-47d0bcf8acea` · printing: VOC #16 (2021-11-19) · [rulings](https://api.scryfall.com/cards/a3d4102e-b48c-4da8-b181-092c7ab1849a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2116,6 +2128,8 @@ schema: 2
   > *"Just wait till I get my Gigantosaurus...."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/73/timmy-power-gamer) · oracle_id `c32f282f-c9c6-48f2-b226-f0f9e851c69c` · printing: UND #73 (2020-02-29) · [rulings](https://api.scryfall.com/cards/3fa57822-8bca-4cdd-916f-261dae494228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Timothar, Baron of Bats
@@ -2136,6 +2150,8 @@ schema: 2
   - *2021-11-19* — The controller of the Bat token as it deals combat damage to a player will be the controller of its triggered ability, and the exiled card will be returned to the battlefield under that player's control.
   - *2021-11-19* — Timothar's last ability is linked to the ability it grants the Bat token. If a replacement effect causes you to create more than one Bat token with this effect, they will all have that linked ability, and the exiled card will be returned to the battlefield if any of them deals combat damage to a player.
   - *2021-11-19* — Timothar's last ability triggers when any nontoken Vampire you control dies, not just nontoken Vampires you own. If you control Timothar and another player's nontoken Vampire and that Vampire dies, you may pay {1} to exile that card from their graveyard.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 9 combos; most popular [Timothar, Baron of Bats + Breath of Fury + Pawn of Ulamog + Anger](https://commanderspellbook.com/combo/1520-3259-4068-4314/) (Infinite combat damage, Infinite combat phases) · EDHREC as commander: 580 decks; highest synergy [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+77%), [Crossway Troublemakers](../../cards/C/cr.md#crossway-troublemakers) (+73%), [Patron of the Vein](../../cards/P/pa.md#patron-of-the-vein) (+65%) · EDHREC: in 12,117 decks; most often under [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (42.3% of its decks), [Edgar Markov](../../cards/E/ed.md#edgar-markov) (4.6% of its decks), [Clavileño, First of the Blessed](../../cards/C/cl.md#clavileño-first-of-the-blessed) (18.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/210/timothar-baron-of-bats) · oracle_id `82e03151-3990-451c-99cc-c7d386872df2` · printing: LCC #210 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tinder Farm
@@ -2342,6 +2358,8 @@ schema: 2
   > *No score is too small, no coin purse too big.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15033 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Crosis, the Purger (Grixis)](../../grixis/decks/crosis-the-purger.md) · [Gwendlyn Di Corci (Grixis)](../../grixis/decks/gwendlyn-di-corci.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 711 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+66%), [Geth's Grimoire](../../cards/G/ge.md#geths-grimoire) (+61%), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (+61%) · EDHREC: in 7,198 decks; most often under [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (42.8% of its decks), [Kefka, Court Mage](../../cards/K/ke.md#kefka-court-mage--kefka-ruler-of-ruin) (10.4% of its decks), [Tinybones, Trinket Thief](../../cards/T/ti.md#tinybones-trinket-thief) (40.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#tinybones-pocket-nuisance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/237/tinybones-pocket-nuisance) · oracle_id `97dcf9fb-3f2f-4aa6-959a-e3c4889c1673` · printing: FRA #237 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2f47ddf7-35b6-4205-8045-f057914c5f64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2580,6 +2598,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — If Titanbones is dealt lethal damage at the same time that you gain life, he won't receive a counter from his ability in time to save him.
   - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, the first triggered ability will trigger once for each of those creatures.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Shalai and Hallar + Titanbones, Towering Heart](https://commanderspellbook.com/combo/4490-7816--210/) (Infinite +1/+1 counters on a creature, Infinite damage) · EDHREC as commander: 394 decks; highest synergy [Jaddi Offshoot](../../cards/J/ja.md#jaddi-offshoot) (+73%), [Essence Warden](../../cards/E/es.md#essence-warden) (+71%), [Eumidian Terrabotanist](../../cards/E/eu.md#eumidian-terrabotanist) (+67%) · EDHREC: in 2,598 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (1.7% of its decks), [Lathiel, the Bounteous Dawn](../../cards/L/la.md#lathiel-the-bounteous-dawn) (4.4% of its decks), [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (1.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/266/titanbones-towering-heart) · oracle_id `510bccb1-61cd-49f1-a54a-80352653d1e3` · printing: FRA #266 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titan Forge
@@ -2635,6 +2655,8 @@ schema: 2
   - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Lands from graveyard](../../EDH%20Packages.md#lands--landfall-lands-from-graveyard) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/256b/titania-gaea-incarnate) · oracle_id `43230d70-4d60-4ceb-bb45-fbc043280652` · printing: BRO #256b (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titania, Nature's Force
@@ -2684,6 +2706,8 @@ schema: 2
 - **Keywords:** First strike, Melee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15102 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 18 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+62%), [Legion Warboss](../../cards/L/le.md#legion-warboss) (+57%), [Castle Embereth](../../cards/C/cas.md#castle-embereth) (+56%) · EDHREC: in 5,713 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (17.0% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (27.5% of its decks), [Tifa, Martial Artist](../../cards/T/ti.md#tifa-martial-artist) (18.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/62/titania-proud-pummeler) · oracle_id `6d51f00e-46a5-4064-a0c8-e840c66dbf2b` · printing: MSC #62 (2026-06-26) · [rulings](https://api.scryfall.com/cards/31255422-9afa-416c-90b2-62baf1d02cca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titania, Rugged Rumbler
@@ -2699,6 +2723,8 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27364 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Punishing Punch](../../cards/P/pu.md#punishing-punch) (+41%), [Archon of Cruelty](../../cards/A/arc.md#archon-of-cruelty) (+30%), [Containment Construct](../../cards/C/con.md#containment-construct) (+27%) · EDHREC: in 488 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (3.7% of its decks), [Eddie Brock](../../cards/E/ed.md#eddie-brock--venom-lethal-protector) (1.2% of its decks), [Super-Skrull](../../cards/S/sup.md#super-skrull) (2.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/235/titania-rugged-rumbler) · oracle_id `e380e37d-926b-4a4b-a275-7844bf4956d5` · printing: MSH #235 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c281e0ee-155b-4022-b921-ebc391535aad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titania's Boon
@@ -2868,6 +2894,8 @@ schema: 2
   > *"My armor was created with but one thought in mind . . . to smash Iron Man!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29215 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Crude Bent Blade](../../cards/C/cr.md#crude-bent-blade) (+99%), [Darkness](../../cards/D/da.md#darkness) (+89%), [Night's Whisper](../../cards/N/ni.md#nights-whisper) (+74%) · EDHREC: in 346 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (4.8% of its decks), [Doctor Doom](../../cards/D/do.md#doctor-doom) (1.7% of its decks), [Ultron the Annihilator](../../cards/U/ul.md#ultron-the-annihilator) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/667/titanium-man) · oracle_id `84544d35-7acf-4643-965d-66af90fae51b` · printing: MSC #667 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2efb18be-250b-4f38-a0c3-9d674ea0225a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Titan of Eternal Fire
@@ -3137,6 +3165,8 @@ schema: 2
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26907 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 129 decks; highest synergy [Tivadar's Crusade](../../cards/T/ti.md#tivadars-crusade) (+84%), [Fiendslayer Paladin](../../cards/F/fi.md#fiendslayer-paladin) (+64%), [Absolute Law](../../cards/A/ab.md#absolute-law) (+59%) · EDHREC: in 421 decks; most often under [Rasputin, the Oneiromancer](../../cards/R/ras.md#rasputin-the-oneiromancer) (20.6% of its decks), [Kwende, Pride of Femeref](../../cards/K/kw.md#kwende-pride-of-femeref) (5.2% of its decks), [Dion, Bahamut's Dominant](../../cards/D/di.md#dion-bahamuts-dominant--bahamut-warden-of-light) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/44/tivadar-of-thorn) · oracle_id `c2c09308-988b-4d71-83c8-e2a2dc19a0d9` · printing: TSP #44 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f34d3a74-496e-462d-afa6-370dc2b8347d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tivadar's Crusade
@@ -3163,6 +3193,8 @@ schema: 2
   - *2021-04-16* — Tivash’s ability counts the total amount of life gained without considering any life you lost during that turn. For example, if you lost 3 life and gained 4 life earlier in the turn, you may pay 4 life to create a 4/4 Demon.
   - *2021-04-16* — You can’t pay less life than the amount of life you gained to create a smaller but less harmful Demon.
   - *2021-04-16* — You need to gain life before the end step begins for the last ability to trigger.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Strixhaven](https://magic.wizards.com/en/news/feature/legends-strixhaven-2021-04-13) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 607 decks; highest synergy [Disciple of Bolas](../../cards/D/di.md#disciple-of-bolas) (+69%), [Essence Harvest](../../cards/E/es.md#essence-harvest) (+65%), [Font of Agonies](../../cards/F/fo.md#font-of-agonies) (+59%) · EDHREC: in 10,228 decks; most often under [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (10.0% of its decks), [Willowdusk, Essence Seer](../../cards/W/wi.md#willowdusk-essence-seer) (43.3% of its decks), [Moseo, Vein's New Dean](../../cards/M/mos.md#moseo-veins-new-dean) (26.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tivash-gloom-summoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/45/tivash-gloom-summoner) · oracle_id `b5641fcf-135e-43e7-a547-344fac61e279` · printing: C21 #45 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

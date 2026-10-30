@@ -1054,6 +1054,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23722 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 55 decks; highest synergy [Excalibur, Sword of Eden](../../cards/E/ex.md#excalibur-sword-of-eden) (+72%), [Faithful Mending](../../cards/F/fa.md#faithful-mending) (+62%), [Restricted Office // Lecture Hall](../../cards/R/res.md#restricted-office--lecture-hall) (+52%) · EDHREC: in 1,082 decks; most often under [Mister Fantastic](../../cards/M/mis.md#mister-fantastic) (15.5% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (15.6% of its decks), [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (7.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/82/dragon-man-reformed-robot) · oracle_id `c03ca2e6-fcce-4018-952f-1c451ab92cfd` · printing: MSC #82 (2026-06-26) · [rulings](https://api.scryfall.com/cards/527e930b-b233-432c-a0dc-73c68ea3f686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dragon Mantle
@@ -2141,6 +2143,8 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Isochron Scepter + Pull from Eternity + Dralnu, Lich Lord + Karn's Temporal Sundering](https://commanderspellbook.com/combo/799-958-1750-5261/) (Infinite turns, Lock) · EDHREC as commander: 499 decks; highest synergy [Riptide Laboratory](../../cards/R/ri.md#riptide-laboratory) (+39%), [Frantic Search](../../cards/F/fr.md#frantic-search) (+37%), [Secrets of the Dead](../../cards/S/sec.md#secrets-of-the-dead) (+34%) · EDHREC: in 1,724 decks; most often under [Mairsil, the Pretender](../../cards/M/mai.md#mairsil-the-pretender) (13.1% of its decks), [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (0.8% of its decks), [Gisa and Geralf](../../cards/G/gi.md#gisa-and-geralf) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/251/dralnu-lich-lord) · oracle_id `35ab189a-adc8-48d6-82d2-53eb56a4d5e4` · printing: TSR #251 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dralnu's Crusade
@@ -2303,6 +2307,8 @@ schema: 2
   - *2010-06-15* — If the targeted creature is an illegal target by the time the ability resolves, the ability doesn't resolve. Drana won't get the bonus.
   - *2010-06-15* — The value of X may exceed the targeted creature's toughness. Drana's bonus is based on the value of X, regardless of what the targeted creature's toughness was.
   - *2010-06-15* — You may target Drana itself with its ability. For example, if you do and X is 3, Drana will become 7/1 until end of turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 590 decks; highest synergy [Nirkana Revenant](../../cards/N/ni.md#nirkana-revenant) (+66%), [Exsanguinate](../../cards/E/ex.md#exsanguinate) (+46%), [Liliana of the Dark Realms](../../cards/L/li.md#liliana-of-the-dark-realms) (+46%) · EDHREC: in 8,424 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (3.5% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (11.0% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/112/drana-kalastria-bloodchief) · oracle_id `67391f99-739a-490a-ba16-7fa1d758ec34` · printing: C17 #112 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drana, Liberator of Malakir

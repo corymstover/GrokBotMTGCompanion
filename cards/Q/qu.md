@@ -266,6 +266,8 @@ schema: 2
 - **Keywords:** Seismic Takedown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18855 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 57 decks; highest synergy [Split Up](../../cards/S/spl.md#split-up) (+45%), [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+43%), [Rapier Wit](../../cards/R/rap.md#rapier-wit) (+42%) · EDHREC: in 2,891 decks; most often under [Hylda of the Icy Crown](../../cards/H/hy.md#hylda-of-the-icy-crown) (16.1% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (3.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (13.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/32/quake-agent-of-shield) · oracle_id `3966c94b-e597-4b3f-a4f5-001d52fff9fe` · printing: MSH #32 (2026-06-26) · [rulings](https://api.scryfall.com/cards/92dad216-ef8e-4af2-a3c6-1d215721c478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quakebringer
@@ -720,6 +722,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — From among the discarded cards, you may choose an artifact or creature card with mana value 1, you may choose an artifact or creature card with mana value 2, and you may choose an artifact or creature card with mana value 3. Then put all the chosen cards onto the battlefield simultaneously.
   - *2022-10-14* — If a replacement effect causes cards you discard this way to be exiled rather than go to the graveyard, Queen Kayla bin-Kroog's ability can still find those cards in exile. You can still put cards discarded this way onto the battlefield with Queen Kayla's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,390 decks; highest synergy [Zirda, the Dawnwaker](../../cards/Z/zi.md#zirda-the-dawnwaker) (+61%), [Glint-Horn Buccaneer](../../cards/G/gl.md#glint-horn-buccaneer) (+58%), [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+54%) · EDHREC: in 5,356 decks; most often under [Zirda, the Dawnwaker](../../cards/Z/zi.md#zirda-the-dawnwaker) (19.5% of its decks), [Dynaheir, Invoker Adept](../../cards/D/dy.md#dynaheir-invoker-adept) (34.7% of its decks), [Joshua, Phoenix's Dominant](../../cards/J/jo.md#joshua-phoenixs-dominant--phoenix-warden-of-fire) (11.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/218/queen-kayla-bin-kroog) · oracle_id `10c2428f-6e4a-4b92-9087-720242a5c25c` · printing: BRO #218 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Queen Marchesa
@@ -756,6 +760,8 @@ schema: 2
   > *"T'Challa may not be of my blood, but he is my son. I will suffer no threats to his kingdom."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18101 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12 decks; highest synergy [Champions of Minas Tirith](../../cards/C/cha.md#champions-of-minas-tirith) (+83%), [Court of Ardenvale](../../cards/C/cou.md#court-of-ardenvale) (+73%), [Erode](../../cards/E/er.md#erode) (+63%) · EDHREC: in 3,428 decks; most often under [T'Challa, the Black Panther](../../cards/T/tc.md#tchalla-the-black-panther) (26.4% of its decks), [Queen Marchesa](../../cards/Q/qu.md#queen-marchesa) (4.9% of its decks), [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (5.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#queen-mother-ramonda)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/23/queen-mother-ramonda) · oracle_id `f5619a13-b229-4202-a217-bf6509706e77` · printing: MSC #23 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b971f0b-42de-46bc-8e26-51eb5be447ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -884,6 +890,8 @@ schema: 2
 - **Keywords:** Lifelink, Toxic, Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04d/quest-compleated-beast) · oracle_id `3af5fc37-4ffa-446d-9239-9c2ea8bd7ec9` · printing: UNK #RB04d (2023-05-06) · [rulings](https://api.scryfall.com/cards/cb38c0dc-c945-447f-9bca-62af1dc1f2c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quest for Ancient Secrets
@@ -1192,6 +1200,8 @@ schema: 2
   > *"It is only a nickname, of course. They have called me that ever since I said yes to an elder Ent before he had finished his question."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10686 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 17 combos; most popular [Quickbeam, Upstart Ent + Devoted Druid + Spawnsire of Ulamog + Maskwood Nexus](https://commanderspellbook.com/combo/643-2143-4434-4762/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 107 decks; highest synergy [Bosk Banneret](../../cards/B/bo.md#bosk-banneret) (+82%), [Fangorn, Tree Shepherd](../../cards/F/fa.md#fangorn-tree-shepherd) (+78%), [Battlewand Oak](../../cards/B/bat.md#battlewand-oak) (+73%) · EDHREC: in 11,220 decks; most often under [Doran, Besieged by Time](../../cards/D/do.md#doran-besieged-by-time) (18.2% of its decks), [Doran, the Siege Tower](../../cards/D/do.md#doran-the-siege-tower) (46.2% of its decks), [Fangorn, Tree Shepherd](../../cards/F/fa.md#fangorn-tree-shepherd) (89.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/183/quickbeam-upstart-ent) · oracle_id `9ad903c5-1528-44d6-b4b6-f05a2399d91f` · printing: LTR #183 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b889037f-b95f-4756-80aa-04097d2818c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quickchange
@@ -1381,6 +1391,8 @@ schema: 2
 - **Keywords:** Power-up, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14594 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Sticky Fingers](../../cards/S/sti.md#sticky-fingers) (+60%), [Diamond Pick-Axe](../../cards/D/di.md#diamond-pick-axe) (+54%), [Monstrous Rage](../../cards/M/mon.md#monstrous-rage) (+52%) · EDHREC: in 6,268 decks; most often under [Winota, Joiner of Forces](../../cards/W/wi.md#winota-joiner-of-forces) (9.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (9.8% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (38.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/Q.md#quicksilver-brash-blur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/148/quicksilver-brash-blur) · oracle_id `b76ce131-e51a-445e-8216-00df5904ab93` · printing: MSH #148 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2d5819ca-165d-4f4c-9500-3ac206994880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1511,6 +1523,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28935 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Accomplished Automaton](../../cards/A/ac.md#accomplished-automaton) (+50%), [Arcbound Wanderer](../../cards/A/arc.md#arcbound-wanderer) (+50%), [Archaic's Agony](../../cards/A/arc.md#archaics-agony) (+50%) · EDHREC: in 328 decks; most often under [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (4.3% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (1.2% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Q.md#quicksilver-pietro-maximoff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/551/quicksilver-pietro-maximoff) · oracle_id `c5c1fb0f-b9cf-48a0-a4ea-e995e222e4b4` · printing: MSC #551 (2026-06-26) · [rulings](https://api.scryfall.com/cards/95ced506-c1a4-4742-9f13-3a261f5a08da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1528,6 +1542,8 @@ schema: 2
 - **Keywords:** Haste, Double strike, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 45 combos; most popular [Rootha, Mercurial Artist + Brass's Bounty + Quicksilver, Speedster](https://commanderspellbook.com/combo/2634-5211-7735/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 58 decks; highest synergy [Wavebreak Hippocamp](../../cards/W/wav.md#wavebreak-hippocamp) (+46%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+40%), [Professional Face-Breaker](../../cards/P/pr.md#professional-face-breaker) (+38%) · EDHREC: in 4,633 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (44.7% of its decks), [Scarlet Witch, Chaotic Avenger](../../cards/S/sc.md#scarlet-witch-chaotic-avenger) (38.6% of its decks), [Sonic the Hedgehog](../../cards/S/so.md#sonic-the-hedgehog) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/91/quicksilver-speedster) · oracle_id `cc20f910-03e9-4019-a62a-2e713ddb3c06` · printing: MSC #91 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5a454bad-c137-4d7c-9fcc-928c0c1798f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Quicksilver Wall

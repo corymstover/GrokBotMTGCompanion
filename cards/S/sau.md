@@ -94,6 +94,8 @@ schema: 2
 - **Keywords:** Flying, Cure Cancer, Turn People into Dinosaurs
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18519 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 856 decks; highest synergy [Curious Altisaur](../../cards/C/cu.md#curious-altisaur) (+63%), [Devil Dinosaur](../../cards/D/dev.md#devil-dinosaur) (+62%), [Earthshaker Dreadmaw](../../cards/E/ea.md#earthshaker-dreadmaw) (+54%) · EDHREC: in 2,306 decks; most often under [Pantlaza, Sun-Favored](../../cards/P/pa.md#pantlaza-sun-favored) (3.2% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (3.5% of its decks), [Owen Grady, Raptor Trainer // Blue, Loyal Raptor](../../cards/O/ow.md#owen-grady-raptor-trainer) (7.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/731/sauron-dino-devotee) · oracle_id `f5295bfe-7e73-44ad-9cfd-200e31c5d52b` · printing: MSC #731 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6f8f9a5d-514b-491d-a802-3a7629340bca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, Lord of the Rings
@@ -202,6 +204,8 @@ schema: 2
   > *There is an Eye in the Dark Tower that does not sleep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10887 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 521 decks; highest synergy [Grishnákh, Brash Instigator](../../cards/G/gri.md#grishnákh-brash-instigator) (+45%), [Nasty End](../../cards/N/na.md#nasty-end) (+45%), [Gothmog, Morgul Lieutenant](../../cards/G/got.md#gothmog-morgul-lieutenant) (+37%) · EDHREC: in 10,487 decks; most often under [Sauron, the Dark Lord](../../cards/S/sau.md#sauron-the-dark-lord) (13.1% of its decks), [Sauron, Lord of the Rings](../../cards/S/sau.md#sauron-lord-of-the-rings) (12.1% of its decks), [The Beast, Deathless Prince](../../cards/T/theb.md#the-beast-deathless-prince) (42.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sauron-the-lidless-eye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/288/sauron-the-lidless-eye) · oracle_id `00b9d3a3-fd64-4757-9159-b3af06b5f5b1` · printing: LTR #288 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d82a4c78-d2fc-425a-8d0e-2e64509a08f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

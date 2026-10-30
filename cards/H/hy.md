@@ -372,6 +372,8 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — After the triggered ability resolves during your end step, however, you may tap him for {U}, even if he entered the battlefield this turn.
   - *2025-09-19* — The effect of Hydro-Man's last ability ends as your turn begins. There is no opportunity to tap Hydro-Man for {U} once your turn has started.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 433 decks; highest synergy [Evacuation](../../cards/E/ev.md#evacuation) (+49%), [Enter the Enigma](../../cards/E/en.md#enter-the-enigma) (+48%), [Engulf the Shore](../../cards/E/en.md#engulf-the-shore) (+44%) · EDHREC: in 8,799 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (5.6% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (60.8% of its decks), [Mysterio, Master of Illusion](../../cards/M/my.md#mysterio-master-of-illusion) (75.8% of its decks) — *Guidance (Oracle pattern)* — packages: [Ramp: Mana creatures (MV ≤ 2)](../../EDH%20Packages.md#ramp-mana-creatures-mv--2) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/33/hydro-man-fluid-felon) · oracle_id `a93a8edf-2879-4cae-b3b9-b46298270823` · printing: SPM #33 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydromorph Guardian
@@ -642,6 +644,8 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17981 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 69 decks; highest synergy [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (+61%), [Captain America, Super-Soldier](../../cards/C/cap.md#captain-america-super-soldier) (+56%), [Orbs of Warding](../../cards/O/or.md#orbs-of-warding) (+56%) · EDHREC: in 3,375 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (17.2% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (12.3% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (27.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/599/hyperion-supreme-hero) · oracle_id `4f4a5966-3713-45c7-acc2-9ddb4ff73eab` · printing: MSC #599 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1604acc8-0d54-42bb-ac4b-399987a6b554/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypersonic Dragon
@@ -899,4 +903,6 @@ schema: 2
   - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
   - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 76 decks; highest synergy [Keepsake Gorgon](../../cards/K/ke.md#keepsake-gorgon) (+71%), [Xathrid Gorgon](../../cards/X/xa.md#xathrid-gorgon) (+71%), [Visara the Dreadful](../../cards/V/vi.md#visara-the-dreadful) (+67%) · EDHREC: in 3,240 decks; most often under [Aphelia, Viper Whisperer](../../cards/A/ap.md#aphelia-viper-whisperer) (21.4% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (12.2% of its decks), [Sisters of Stone Death](../../cards/S/si.md#sisters-of-stone-death) (45.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/91/hythonia-the-cruel) · oracle_id `48e3d832-2fe9-4ffd-8258-75451100dcfc` · printing: THS #91 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

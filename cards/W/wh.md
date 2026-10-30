@@ -569,6 +569,8 @@ schema: 2
   > *"Wrap yourself in whatever armor you wish. I will shred you apart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18877 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,363 decks; highest synergy [Stolen Stark Tech](../../cards/S/sto.md#stolen-stark-tech) (+68%), [Bloodforged Battle-Axe](../../cards/B/blo.md#bloodforged-battle-axe) (+67%), [Cranial Plating](../../cards/C/cr.md#cranial-plating) (+66%) · EDHREC: in 1,533 decks; most often under [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (25.1% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (4.1% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (16.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/121/whiplash-vengeful-engineer) · oracle_id `00ed7aca-b3c1-4d48-acd5-b1596daeb4c3` · printing: MSH #121 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6f6e6767-4d20-469c-9f4b-7286b8cc1979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whiplash Wordsmith // Vicious Verse
@@ -969,6 +971,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27879 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Zurgo Bellstriker](../../cards/Z/zu.md#zurgo-bellstriker) (+71%), [Reinforced Ronin](../../cards/R/rei.md#reinforced-ronin) (+70%), [Death-Greeter's Champion](../../cards/D/dea.md#death-greeters-champion) (+57%) · EDHREC: in 439 decks; most often under [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (2.5% of its decks), [Samut, Vizier of Naktamun](../../cards/S/sam.md#samut-vizier-of-naktamun) (10.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/709/whirlwind-killer-cyclone) · oracle_id `72eabfcc-61b6-4a07-9a9c-b40a9c05cf66` · printing: MSC #709 (2026-06-26) · [rulings](https://api.scryfall.com/cards/00d2ac03-a0ef-4f03-bb99-3514305b6d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whirlwind of Thought
@@ -1681,6 +1685,8 @@ schema: 2
   > *"Now is the hour of light! This is the time . . . of the White Tiger!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30392 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4 decks; highest synergy [Jugan Defends the Temple](../../cards/J/ju.md#jugan-defends-the-temple--remnant-of-the-rising-star) (+75%), [Hidden Hideout](../../cards/H/hi.md#hidden-hideout) (+74%), [Emeritus of Abundance](../../cards/E/em.md#emeritus-of-abundance--regrowth) (+73%) · EDHREC: in 197 decks; most often under [The Thing, Ben Grimm](../../cards/T/thet.md#the-thing-ben-grimm) (19.7% of its decks), [Lucky the Pizza Dog](../../cards/L/lu.md#lucky-the-pizza-dog) (1.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/736/white-tiger-amulet-keeper) · oracle_id `0fa01155-638d-44ed-8963-46b202b0e720` · printing: MSC #736 (2026-06-26) · [rulings](https://api.scryfall.com/cards/babf0f59-0199-4dba-a149-f62261115f5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Tiger, Ava Ayala
@@ -1693,6 +1699,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23154 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9 decks; highest synergy [In Search of Greatness](../../cards/I/ins.md#in-search-of-greatness) (+66%), [Prodigious Growth](../../cards/P/pr.md#prodigious-growth) (+66%), [Colossification](../../cards/C/col.md#colossification) (+64%) · EDHREC: in 1,287 decks; most often under [Hulk, Gamma Goliath](../../cards/H/hu.md#hulk-gamma-goliath) (66.8% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (2.5% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/W.md#white-tiger-ava-ayala)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/196/white-tiger-ava-ayala) · oracle_id `e2084d73-5a4c-4b17-942a-93c1a1f7ac2a` · printing: MSH #196 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c1589e2e-32a8-48b8-93eb-a9af344e7084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1738,6 +1746,8 @@ schema: 2
   > *"For years I wanted to be you, Natasha, but I make my own way now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18063 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight + Viscera Seer + White Widow, Free Agent](https://commanderspellbook.com/combo/2292-6972-7706/) (Infinite +1/+1 counters on creatures you control, Infinite creature ETB) · EDHREC as commander: 5 decks; highest synergy [Teleportation Circle](../../cards/T/te.md#teleportation-circle) (+71%), [Wayfarer's Bauble](../../cards/W/way.md#wayfarers-bauble) (+70%), [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+54%) · EDHREC: in 3,388 decks; most often under [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (20.7% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.5% of its decks), [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (16.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/42/white-widow-free-agent) · oracle_id `4f0c055f-f614-44b0-9374-c53541f89185` · printing: MSH #42 (2026-06-26) · [rulings](https://api.scryfall.com/cards/57da765f-7d87-42ac-9eb0-a49c296fbbf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### White Widow, Yelena Belova
@@ -1753,6 +1763,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17423 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Vampire Nighthawk](../../cards/V/va.md#vampire-nighthawk) (+83%), [Black Widow, Deadly Hunter](../../cards/B/bla.md#black-widow-deadly-hunter) (+81%), [Vampire of the Dire Moon](../../cards/V/va.md#vampire-of-the-dire-moon) (+77%) · EDHREC: in 3,756 decks; most often under [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (35.2% of its decks), [Aveline de Grandpré](../../cards/A/av.md#aveline-de-grandpré) (44.1% of its decks), [Black Widow, Double Agent](../../cards/B/bla.md#black-widow-double-agent) (49.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/676/white-widow-yelena-belova) · oracle_id `7aff7cb6-aa56-47ae-8813-75d850917320` · printing: MSC #676 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7dd6db74-1dba-4b66-8e54-9f876f16357c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whoosh!
@@ -1816,4 +1828,6 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #14016 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mind Over Matter + Whtz, the Bibliophile](https://commanderspellbook.com/combo/4067-7922/) (Infinite draw triggers, Infinite looting) · EDHREC as commander: 7,046 decks; highest synergy [Battle of Wits](../../cards/B/bat.md#battle-of-wits) (+64%), [Idyllic Tutor](../../cards/I/id.md#idyllic-tutor) (+41%), [Teferi's Ageless Insight](../../cards/T/te.md#teferis-ageless-insight) (+40%) · EDHREC: in 9 decks; most often under [Karona, False God](../../cards/K/ka.md#karona-false-god) (0.1% of its decks), [Arthur, Marigold Knight](../../cards/A/art.md#arthur-marigold-knight) (0.1% of its decks), [Marina Vendrell](../../cards/M/mar.md#marina-vendrell) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/57/whtz-the-bibliophile) · oracle_id `73ba7ed0-0f08-4ba4-9f51-42c48f1b62ea` · printing: MBC #57 (2026-10-19) · [rulings](https://api.scryfall.com/cards/726f8ac7-d7a3-442c-adb6-82836e4490a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -337,6 +337,8 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — If a creature dealt damage by Kumano this turn would be put into a graveyard, exile it, even if it's going to the graveyard at the same time as Kumano.
   - *2004-12-01* — Kumano, Master Yamabushi must be on the battlefield when the creature would be put into a graveyard in order to exile it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 8 combos; most popular [Malcolm, Keen-Eyed Navigator + Kumano, Master Yamabushi + Goldspan Dragon + Conspiracy](https://commanderspellbook.com/combo/718-3809-4508-4875/) (Infinite damage) · EDHREC as commander: 243 decks; highest synergy [Heartstone](../../cards/H/he.md#heartstone) (+79%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+71%), [Gorgon's Head](../../cards/G/gor.md#gorgons-head) (+65%) · EDHREC: in 1,061 decks; most often under [Ghyrson Starn, Kelermorph](../../cards/G/gh.md#ghyrson-starn-kelermorph) (0.4% of its decks), [Torbran, Thane of Red Fell](../../cards/T/to.md#torbran-thane-of-red-fell) (1.3% of its decks), [Avatar Roku, Firebender](../../cards/A/av.md#avatar-roku-firebender) (2.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/176/kumano-master-yamabushi) · oracle_id `6d776c7b-4ca1-48cd-88c7-dfbbe5a56a0b` · printing: CHK #176 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumano's Blessing
@@ -471,6 +473,8 @@ schema: 2
   - *2005-06-01* — Creatures put into graveyards after the end-of-turn step begins have no particular effect on Kuon.
   - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
   - *2005-06-01* — Kuon’s flip ability looks at everything that happened during that turn, even before Kuon entered the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 225 decks; highest synergy [Innocent Blood](../../cards/I/inn.md#innocent-blood) (+57%), [Merciless Executioner](../../cards/M/me.md#merciless-executioner) (+51%), [Fleshbag Marauder](../../cards/F/fl.md#fleshbag-marauder) (+47%) · EDHREC: in 1,079 decks; most often under [Fumulus, the Infestation](../../cards/F/fu.md#fumulus-the-infestation) (2.6% of its decks), [Sephiroth, Fabled SOLDIER](../../cards/S/sep.md#sephiroth-fabled-soldier--sephiroth-one-winged-angel) (0.2% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/78/kuon-ogre-ascendant-kuons-essence) · oracle_id `f1b1cf99-b44c-4bcc-b0ed-98f69e66c54a` · printing: SOK #78 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kura, the Boundless Sky
@@ -506,6 +510,8 @@ schema: 2
   - *2021-09-24* — Kurbis enters with a number of +1/+1 counters on it equal to the total mana spent to cast it, and that number usually won't be the same as X. If you cast Kurbis for {G}{G}, it will enter the battlefield with two +1/+1 counters on it.
   - *2021-09-24* — Once the activated ability resolves, damage will be prevented even if the creature later loses all of its +1/+1 counters.
   - *2021-09-24* — Similarly, if you create a token that's a copy of Kurbis, or if a card enters the battlefield as a copy of Kurbis without being cast, it enters with zero +1/+1 counters on it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 114 decks; highest synergy [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+47%), [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+47%), [Branching Evolution](../../cards/B/br.md#branching-evolution) (+44%) · EDHREC: in 10,542 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (7.3% of its decks), [Leinore, Autumn Sovereign](../../cards/L/le.md#leinore-autumn-sovereign) (32.1% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (31.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/27/kurbis-harvest-celebrant) · oracle_id `991fab9c-8554-4e64-a933-6cc2ffa4edb1` · printing: MIC #27 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurgadon
@@ -538,6 +544,8 @@ schema: 2
   - *2014-07-18* — If the ability has {X} in its cost, the value of X is copied.
   - *2014-07-18* — If the ability is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
   - *2014-07-18* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 18 combos; most popular [Gilded Lotus + Voltaic Key + Kurkesh, Onakke Ancient](https://commanderspellbook.com/combo/617-2179-5116/) (Infinite colored mana) · EDHREC as commander: 539 decks; highest synergy [Voltaic Key](../../cards/V/vo.md#voltaic-key) (+71%), [Manifold Key](../../cards/M/man.md#manifold-key) (+64%), [Burnished Hart](../../cards/B/bu.md#burnished-hart) (+57%) · EDHREC: in 2,593 decks; most often under [Bosh, Iron Golem](../../cards/B/bo.md#bosh-iron-golem) (39.4% of its decks), [Tawnos, Urza's Apprentice](../../cards/T/ta.md#tawnos-urzas-apprentice) (53.5% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (5.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/153/kurkesh-onakke-ancient) · oracle_id `ea7302b3-c9a2-4bc4-81b8-3a8d1d7c3b8b` · printing: M15 #153 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuroki, Thief of Talents
@@ -553,6 +561,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22074 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 672 decks; highest synergy [Waste Not](../../cards/W/was.md#waste-not) (+53%), [Strionic Resonator](../../cards/S/str.md#strionic-resonator) (+52%), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (+48%) · EDHREC: in 1,012 decks; most often under [Gonti, Night Minister](../../cards/G/gon.md#gonti-night-minister) (6.6% of its decks), [Tinybones, Bauble Burglar](../../cards/T/ti.md#tinybones-bauble-burglar) (1.9% of its decks), [Tasha, the Witch Queen](../../cards/T/ta.md#tasha-the-witch-queen) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/15/kuroki-thief-of-talents) · oracle_id `ce70f16c-ea45-4f1d-aafb-34a5d05d31e7` · printing: MBC #15 (2026-10-19) · [rulings](https://api.scryfall.com/cards/95a0a609-216b-42e1-83fa-6570c08a4a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuro, Pitlord
@@ -565,6 +575,8 @@ schema: 2
   > Pay 1 life: Target creature gets -1/-1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17649 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 14 combos; most popular [Repay in Kind + Kuro, Pitlord](https://commanderspellbook.com/combo/1839-2656--84/) (Each opponent loses the game, Near-infinite lifeloss for all players) · EDHREC as commander: 108 decks; highest synergy [Profane Transfusion](../../cards/P/pr.md#profane-transfusion) (+58%), [Soul Conduit](../../cards/S/so.md#soul-conduit) (+52%), [Sangromancer](../../cards/S/san.md#sangromancer) (+50%) · EDHREC: in 3,328 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (61.0% of its decks), [Xu-Ifit, Osteoharmonist](../../cards/X/xu.md#xu-ifit-osteoharmonist) (9.6% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/44/kuro-pitlord) · oracle_id `c80a7d22-076a-4fd7-bcf4-4769143647f0` · printing: DVD #44 (2014-12-05) · [rulings](https://api.scryfall.com/cards/e1f9531a-7201-4dfc-beb1-4128ec41728c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuro's Taken

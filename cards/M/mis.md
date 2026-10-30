@@ -871,6 +871,8 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #24264 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 398 decks; highest synergy [Tempting Contract](../../cards/T/te.md#tempting-contract) (+62%), [Scheming Symmetry](../../cards/S/sc.md#scheming-symmetry) (+60%), [No Mercy](../../cards/N/no.md#no-mercy) (+51%) · EDHREC: in 658 decks; most often under [Scriv, the Obligator](../../cards/S/sc.md#scriv-the-obligator) (3.4% of its decks), [Ardyn, the Usurper](../../cards/A/ard.md#ardyn-the-usurper) (2.3% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/16/miss-highwater) · oracle_id `75d7f864-1240-43f5-8dd5-a5f7577bfa5b` · printing: MBC #16 (2026-10-19) · [rulings](https://api.scryfall.com/cards/5b00ba77-e409-4410-a47a-7fd0a81b27f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mission Briefing
@@ -926,6 +928,8 @@ schema: 2
   - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (4): [Cult of Skaro (Grixis)](../../grixis/decks/cult-of-skaro.md) · [Davros, Dalek Creator (Grixis)](../../grixis/decks/davros-dalek-creator.md) · [Missy (Grixis)](../../grixis/decks/missy.md) · [The Valeyard (Grixis)](../../grixis/decks/the-valeyard.md) · Commander Spellbook: 67 combos; most popular [Missy + Ashnod's Altar + Ruthless Ripper](https://commanderspellbook.com/combo/1794-2034-4424/) (Infinite colorless mana, Infinite death triggers) · EDHREC as commander: 2,525 decks; highest synergy [The Cyber-Controller](../../cards/T/thec.md#the-cyber-controller) (+70%), [Death in Heaven](../../cards/D/dea.md#death-in-heaven) (+60%), [Cyberman Patrol](../../cards/C/cy.md#cyberman-patrol) (+59%) · EDHREC: in 10,119 decks; most often under [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (21.6% of its decks), [Davros, Dalek Creator](../../cards/D/da.md#davros-dalek-creator) (48.4% of its decks), [The Valeyard](../../cards/T/thev.md#the-valeyard) (79.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/M.md#missy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/8/missy) · oracle_id `905610cd-1461-4f5a-b9c8-19b193b9d513` · printing: WHO #8 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1082,6 +1086,8 @@ schema: 2
   > *Designed by players at MagicCon Chicago 2025.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB05a/mister-cheddar-cheese-sliver) · oracle_id `89986b4b-3ee0-4bfb-9fc2-38ba20fed129` · printing: UNK #RB05a (2025-06-20) · [rulings](https://api.scryfall.com/cards/f880045c-7894-4f7c-8978-e950d835178e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Fantastic
@@ -1096,6 +1102,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14418 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 31 combos; most popular [Mister Fantastic + Unstoppable Plan](https://commanderspellbook.com/combo/6286-7163/) (Infinite mana nonland permanents you control can produce, Infinite untap of nonland permanents you control) · EDHREC as commander: 2,216 decks; highest synergy [Valeria Richards, Precocious](../../cards/V/va.md#valeria-richards-precocious) (+64%), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (+63%), [Cosmic Crucible](../../cards/C/cos.md#cosmic-crucible) (+62%) · EDHREC: in 4,193 decks; most often under [The Fantastic Four](../../cards/T/thef.md#the-fantastic-four) (52.8% of its decks), [Invisible Woman](../../cards/I/inv.md#invisible-woman) (67.8% of its decks), [Crystal, Inhuman Princess](../../cards/C/cr.md#crystal-inhuman-princess) (12.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/2/mister-fantastic) · oracle_id `a8011dce-17fb-46e1-8297-81a4acccbd05` · printing: MSC #2 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f1d80509-ece1-4b6d-bfe5-c6d003f581cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Fantastic, Reed Richards
@@ -1145,6 +1153,8 @@ schema: 2
   > *—Dr. Calvin Zabo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16117 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Inspiring Call](../../cards/I/ins.md#inspiring-call) (+49%), [Snakeskin Veil](../../cards/S/sn.md#snakeskin-veil) (+45%), [High Score](../../cards/H/hi.md#high-score) (+44%) · EDHREC: in 4,790 decks; most often under [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (13.2% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (5.1% of its decks), [Auntie Ool, Cursewretch](../../cards/A/au.md#auntie-ool-cursewretch) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/176/mister-hyde-monster-within) · oracle_id `4a7c7ecc-df72-4da0-af35-dd0af58ec02c` · printing: MSH #176 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3cf30476-ed92-4dc2-86b7-2b5fd60a2de7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Immortal
@@ -1158,6 +1168,8 @@ schema: 2
   > *Craig Hollis couldn't stay dead even if he wanted to.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24633 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 71 decks; highest synergy [Skullclamp](../../cards/S/sk.md#skullclamp) (+57%), [Flare of Cultivation](../../cards/F/fl.md#flare-of-cultivation) (+47%), [Hero's Blade](../../cards/H/he.md#heros-blade) (+43%) · EDHREC: in 883 decks; most often under [Jenova, Ancient Calamity](../../cards/J/je.md#jenova-ancient-calamity) (5.7% of its decks), [X-23, Deadly Weapon](../../cards/X/x2.md#x-23-deadly-weapon) (59.1% of its decks), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (22.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/727/mister-immortal) · oracle_id `f016ad56-4f73-4091-a1c2-937782642ecb` · printing: MSC #727 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ca30b59b-e475-422e-8332-44144db78177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mister Negative
@@ -1376,6 +1388,8 @@ schema: 2
   - *2006-09-25* — Like any creature, if Mistform Ultimus becomes another type as the result of a spell or ability, it will lose all its other creature types.
   - *2006-09-25* — Mistform Ultimus has all creature types even if an effect removes its ability. Type-changing static abilities will apply in layer 4 before effects such as Sudden Spoiling’s remove them in layer 6.
   - *2006-09-25* — The type “Illusion” is printed on the card’s type line purely for flavor. The Ultimus has every other creature type as well.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 293 decks; highest synergy [Lord of the Unreal](../../cards/L/lo.md#lord-of-the-unreal) (+80%), [Master of the Pearl Trident](../../cards/M/mas.md#master-of-the-pearl-trident) (+74%), [Maskwood Nexus](../../cards/M/mas.md#maskwood-nexus) (+70%) · EDHREC: in 661 decks; most often under [Volo, Itinerant Scholar // Acolyte of Bahamut](../../cards/V/vo.md#volo-itinerant-scholar) (19.0% of its decks), [Moritte of the Frost](../../cards/M/mor.md#moritte-of-the-frost) (4.2% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#mistform-ultimus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/26/mistform-ultimus) · oracle_id `7bf0e628-06b5-4e12-a526-a2bce08844f2` · printing: TSB #26 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1822,6 +1836,8 @@ schema: 2
   > *"Hello, hero. This is Control. Are you for hire tonight?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14553 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Misty Knight, Hero for Hire + Mind Over Matter](https://commanderspellbook.com/combo/4067-7713/) (Infinite draw triggers, Infinite self-discard triggers) · EDHREC as commander: 192 decks; highest synergy [Magmakin Artillerist](../../cards/M/mag.md#magmakin-artillerist) (+77%), [Cool but Rude](../../cards/C/coo.md#cool-but-rude) (+74%), [Glint-Horn Buccaneer](../../cards/G/gl.md#glint-horn-buccaneer) (+72%) · EDHREC: in 6,149 decks; most often under [Captain Howler, Sea Scourge](../../cards/C/cap.md#captain-howler-sea-scourge) (17.7% of its decks), [Astonishing Spider-Man](../../cards/A/as.md#astonishing-spider-man) (69.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/145/misty-knight-hero-for-hire) · oracle_id `5b090ba3-0ecb-4585-b5b7-9d6028c32487` · printing: MSH #145 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b963642-a103-44a0-9eb7-9c3fdde181b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Misty Mountains Raider

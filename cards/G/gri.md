@@ -768,6 +768,8 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/h17/1/grimlock-dinobot-leader-grimlock-ferocious-king) · oracle_id `41221db7-6161-449d-bac0-2f785d6020c2` · printing: H17 #1 (2017-09-20) · [rulings](https://api.scryfall.com/cards/f1bb8fb5-32f2-444d-85cb-de84657b21bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Monolith
@@ -854,6 +856,8 @@ schema: 2
   > *"The corpses have been sown. Now, to harvest!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19539 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 22 decks; highest synergy [Buried Alive](../../cards/B/bu.md#buried-alive) (+51%), [Nesting Grounds](../../cards/N/ne.md#nesting-grounds) (+45%), [Archon of Cruelty](../../cards/A/arc.md#archon-of-cruelty) (+44%) · EDHREC: in 2,566 decks; most often under [Madame Hydra](../../cards/M/mad.md#madame-hydra) (56.4% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (2.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (6.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Reanimation](../../EDH%20Packages.md#graveyard-reanimation) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/98/grim-reaper-lethal-legionnaire) · oracle_id `edf429a8-6a4d-4d2a-b0ca-c0c72a0698a3` · printing: MSH #98 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4b1cedfe-4712-4602-a8a8-112bd54c9938/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grim Reaper's Scythe
@@ -1236,6 +1240,8 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-05-01* — You can’t activate Griselbrand’s ability if you have 6 or less life.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#griselbrand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/115/griselbrand) · oracle_id `f759d112-76db-4091-a22b-b9f19ab6fa5f` · printing: INR #115 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1679,6 +1685,8 @@ schema: 2
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21129 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,795 decks; highest synergy [Prismatic Omen](../../cards/P/pr.md#prismatic-omen) (+88%), [Dryad of the Ilysian Grove](../../cards/D/dry.md#dryad-of-the-ilysian-grove) (+85%), [Urborg, Tomb of Yawgmoth](../../cards/U/ur.md#urborg-tomb-of-yawgmoth) (+77%) · EDHREC: in 193 decks; most often under [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.3% of its decks), [The Wandering Minstrel](../../cards/T/thew.md#the-wandering-minstrel) (0.1% of its decks), [Jodah, Archmage Eternal](../../cards/J/jo.md#jodah-archmage-eternal) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/39/grizzlegom-hurloon-hero) · oracle_id `3f5db55a-8bae-4e97-86bd-f2a2dacf07a4` · printing: MBC #39 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9aa1869b-4a5a-4f95-8a45-7a671be1c127/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grizzly Bears

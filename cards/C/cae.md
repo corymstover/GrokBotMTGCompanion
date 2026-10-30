@@ -34,6 +34,8 @@ schema: 2
   > *For centuries, she grew in her benthic home, safe from Muraganda's moonfalls, feeding on the raw leylines that run below the water. When she emerged, the coral depths she called home came with her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10147 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Aetherdrift](https://magic.wizards.com/en/news/feature/the-legends-of-aetherdrift) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 271 decks; highest synergy [Whelming Wave](../../cards/W/wh.md#whelming-wave) (+44%), [Charix, the Raging Isle](../../cards/C/cha.md#charix-the-raging-isle) (+31%), [Engulf the Shore](../../cards/E/en.md#engulf-the-shore) (+25%) · EDHREC: in 12,268 decks; most often under [Phenax, God of Deception](../../cards/P/ph.md#phenax-god-of-deception) (32.6% of its decks), [Plagon, Lord of the Beach](../../cards/P/pl.md#plagon-lord-of-the-beach) (37.3% of its decks), [The Pride of Hull Clade](../../cards/T/thep.md#the-pride-of-hull-clade) (54.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/40/caelorna-coral-tyrant) · oracle_id `4bbc5df9-60d7-46c1-8856-91c9c74abf18` · printing: DFT #40 (2025-02-14) · [rulings](https://api.scryfall.com/cards/e8654e38-4230-4094-b815-778bfb5d06f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caesar, Legion's Emperor

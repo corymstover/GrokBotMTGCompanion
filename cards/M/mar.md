@@ -257,6 +257,8 @@ schema: 2
   - *2008-04-01* — While Maralen is on the battlefield, a player can’t choose to draw cards (or choose to have another player draw cards) as a spell or ability resolves. For example, if you cast the Development side of Research // Development (“Put a 3/1 red Elemental creature token onto the battlefield unless any opponent lets you draw a card. Repeat this process two more times.”), you’ll put three Elemental tokens onto the battlefield because your opponents can’t “let you draw a card.”
   - *2008-04-01* — While Maralen is on the battlefield, no player can lose the game due to being instructed to draw a card with an empty library.
   - *2008-04-01* — While Maralen is on the battlefield, replacement effects that instruct a player to do something instead of drawing a card won’t work.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 36 combos; most popular [Maralen of the Mornsong + Opposition Agent](https://commanderspellbook.com/combo/1211-4603/) (Lock, Players can't draw cards) · EDHREC as commander: 2,613 decks; highest synergy [Opposition Agent](../../cards/O/op.md#opposition-agent) (+56%), [Ob Nixilis, Unshackled](../../cards/O/ob.md#ob-nixilis-unshackled) (+54%), [Mornsong Aria](../../cards/M/mor.md#mornsong-aria) (+43%) · EDHREC: in 9,237 decks; most often under [Ob Nixilis, Unshackled](../../cards/O/ob.md#ob-nixilis-unshackled) (72.8% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (2.1% of its decks), [Tergrid, God of Fright](../../cards/T/te.md#tergrid-god-of-fright--tergrids-lantern) (2.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/65/maralen-of-the-mornsong) · oracle_id `0b40032b-711d-499f-8bb9-87855f1fce9e` · printing: MOR #65 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marang River Prowler
@@ -339,6 +341,8 @@ schema: 2
   - *2020-11-10* — The amount of mana you spent to cast this creature is usually equal to its mana value. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
   - *2020-11-10* — You announce the value of X as you activate the ability, and all instances of X in the activation cost are equal to the announced value. For example, if you choose 2 as the value of X, then you pay 2 and remove two +1/+1 counters to pay the cost.
   - *2020-11-10* — You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 73 combos; most popular [Marath, Will of the Wild + Cryptic Trilobite + Hardened Scales](https://commanderspellbook.com/combo/1335-2265-4929/) (Infinite colorless mana that can only be spent to activate abilities, Infinite creature tokens) · EDHREC as commander: 3,646 decks; highest synergy [Hardened Scales](../../cards/H/ha.md#hardened-scales) (+68%), [Kami of Whispered Hopes](../../cards/K/ka.md#kami-of-whispered-hopes) (+56%), [Conclave Mentor](../../cards/C/con.md#conclave-mentor) (+55%) · EDHREC: in 1,128 decks; most often under [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (1.6% of its decks), [Horde of Notions](../../cards/H/ho.md#horde-of-notions) (3.1% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/198/marath-will-of-the-wild) · oracle_id `fae87115-8749-4d25-a594-7139dd01a034` · printing: C13 #198 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marauder's Axe
@@ -533,6 +537,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25166 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2008-04-01* — A permanent that's more than one of these types (such as an artifact creature) counts only once.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 336 decks; highest synergy [Brass's Bounty](../../cards/B/br.md#brasss-bounty) (+53%), [Academy Manufactor](../../cards/A/ac.md#academy-manufactor) (+52%), [Toggo, Goblin Weaponsmith](../../cards/T/to.md#toggo-goblin-weaponsmith) (+52%) · EDHREC: in 478 decks; most often under [Gornog, the Red Reaper](../../cards/G/gor.md#gornog-the-red-reaper) (0.5% of its decks), [Jared Carthalion, True Heir](../../cards/J/ja.md#jared-carthalion-true-heir) (0.4% of its decks), [Maarika, Brutal Gladiator](../../cards/M/maa.md#maarika-brutal-gladiator) (0.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/111/maraxus-of-keld) · oracle_id `af4b67c5-53dc-4e4d-9ec4-fa51cc3cd49a` · printing: WTH #111 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marble Chalice
@@ -621,6 +627,8 @@ schema: 2
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — If there’s only one card in your library as Marchesa’s triggered ability resolves, you’ll put it into your hand.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Marchesa, Dealer of Death (Grixis)](../../grixis/decks/marchesa-dealer-of-death.md) · Commander Spellbook: 3 combos; most popular [Marchesa, Dealer of Death + Mind Over Matter + Bone Miser + Ashnod's Altar](https://commanderspellbook.com/combo/717-2034-4067-5458/) (Near-infinite looting, Near-infinite self-discard triggers) · EDHREC as commander: 6,819 decks; highest synergy [Magda, the Hoardmaster](../../cards/M/mag.md#magda-the-hoardmaster) (+64%), [Gisa, the Hellraiser](../../cards/G/gi.md#gisa-the-hellraiser) (+47%), [Eroded Canyon](../../cards/E/er.md#eroded-canyon) (+38%) · EDHREC: in 2,841 decks; most often under [Zevlor, Elturel Exile](../../cards/Z/ze.md#zevlor-elturel-exile) (9.4% of its decks), [Edea, Possessed Sorceress](../../cards/E/ed.md#edea-possessed-sorceress) (4.7% of its decks), [The Rani](../../cards/T/ther.md#the-rani) (8.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#marchesa-dealer-of-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/220/marchesa-dealer-of-death) · oracle_id `37449c93-4d32-4f1a-982f-8f3416214368` · printing: OTJ #220 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1337,6 +1345,8 @@ schema: 2
   > Other creatures you control lose all abilities, can't gain abilities, and get +2/+2.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05b/margle-cousin-of-yargle) · oracle_id `1b7d03d5-4592-4188-9e84-91b974159572` · printing: UNK #RZ05b (2023-07-29) · [rulings](https://api.scryfall.com/cards/52e71c5f-0486-4eae-afcf-4f92fab80861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marhault Elsdragon
@@ -1351,6 +1361,8 @@ schema: 2
 - **Keywords:** Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29255 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 63 decks; highest synergy [Lure](../../cards/L/lu.md#lure) (+60%), [Nemesis Mask](../../cards/N/ne.md#nemesis-mask) (+47%), [General Marhault Elsdragon](../../cards/G/ge.md#general-marhault-elsdragon) (+41%) · EDHREC: in 223 decks; most often under [General Marhault Elsdragon](../../cards/G/ge.md#general-marhault-elsdragon) (2.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Johan](../../cards/J/jo.md#johan) (3.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/161/marhault-elsdragon) · oracle_id `c202f124-4283-48f6-aef1-470ad9ded22b` · printing: ME3 #161 (2009-09-07) · [rulings](https://api.scryfall.com/cards/2e805883-081b-478a-aa58-172b659571c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marina Vendrell
@@ -2463,6 +2475,8 @@ schema: 2
   > Whenever Márton Stromgald blocks, other blocking creatures get +1/+1 until end of turn for each blocking creature other than Márton Stromgald.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16162 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 463 decks; highest synergy [Krenko, Tin Street Kingpin](../../cards/K/kr.md#krenko-tin-street-kingpin) (+56%), [Hanweir Garrison](../../cards/H/ha.md#hanweir-garrison) (+53%), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (+51%) · EDHREC: in 4,006 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (3.4% of its decks), [Krenko, Mob Boss](../../cards/K/kr.md#krenko-mob-boss) (0.4% of its decks), [Zada, Hedron Grinder](../../cards/Z/za.md#zada-hedron-grinder) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/104/m%C3%A1rton-stromgald) · oracle_id `8364cf93-c323-46f4-854f-ae872e484438` · printing: ME1 #104 (2007-09-10) · [rulings](https://api.scryfall.com/cards/1e76a75a-7125-4957-ab7a-8e7ead21d002/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Martyrdom
@@ -2723,6 +2737,8 @@ schema: 2
   > *"I come from a dimension of universal enlightenment and transcendental peace. Do you have any idea how boring that is?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26462 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Endless Foot Assault](../../cards/E/en.md#endless-foot-assault) (+39%), [Infantry Shield](../../cards/I/inf.md#infantry-shield) (+31%), [Invisible Woman, Sue Storm](../../cards/I/inv.md#invisible-woman-sue-storm) (+31%) · EDHREC: in 616 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (1.9% of its decks), [General Ferrous Rokiric](../../cards/G/ge.md#general-ferrous-rokiric) (6.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/743/marvel-boy-noh-varr) · oracle_id `7a315db3-e66c-4648-b7a0-5aef2ce9b580` · printing: MSC #743 (2026-06-26) · [rulings](https://api.scryfall.com/cards/89abf5d4-d462-4f6c-aa47-3df67a5e1a6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Marvelous Melee
@@ -2853,6 +2869,8 @@ schema: 2
   - *2018-01-19* — For all intents and purposes, the exchanged card is taking the place of the original card. Whatever its doing, the state it’s in, whatever’s attached to it—all of it stays the same. It’s as if Mary O’Kill or one of the Killbots pulls off a mask to reveal they were actually the other one all along. Diabolical!
   - *2018-01-19* — Killbot is a creature type. There are several Killbots in the Unstable set.
   - *2018-01-19* — You can activate Mary O’Kill’s ability if it is in your hand.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/138/mary-okill) · oracle_id `e872821b-0f3f-49a5-a16c-a3eda9477187` · printing: UST #138 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mary Read and Anne Bonny

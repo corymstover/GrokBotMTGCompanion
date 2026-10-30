@@ -309,6 +309,8 @@ schema: 2
   > At the beginning of combat on your turn, target noncreature artifact you control becomes an 8/8 Robot Villain artifact creature in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17929 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 527 decks; highest synergy [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+66%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+59%), [Darksteel Ingot](../../cards/D/da.md#darksteel-ingot) (+56%) · EDHREC: in 2,777 decks; most often under [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (46.3% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.2% of its decks), [Dr. Eggman](../../cards/D/dre.md#dr-eggman) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/24/doc-ock-evil-inventor) · oracle_id `3e0738af-00ec-4707-a56d-85b5a5ce4529` · printing: SPE #24 (2025-09-26) · [rulings](https://api.scryfall.com/cards/ad287357-9602-4090-8feb-6f658f2a47b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doc Ock's Henchmen
@@ -341,6 +343,8 @@ schema: 2
   > *"You dared to mock me before. Where are your taunts \*now\*, Spider-Man?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12638 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 68 decks; highest synergy [Doc Ock's Henchmen](../../cards/D/do.md#doc-ocks-henchmen) (+79%), [Mysterio's Phantasm](../../cards/M/my.md#mysterios-phantasm) (+74%), [Mechanical Mobster](../../cards/M/me.md#mechanical-mobster) (+60%) · EDHREC: in 8,182 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (15.2% of its decks), [Doctor Octopus, Master Planner](../../cards/D/do.md#doctor-octopus-master-planner) (73.4% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/783/doc-ock-sinister-scientist) · oracle_id `dbaa70e6-26de-4ce9-9543-e652cbe387c1` · printing: MSC #783 (2026-06-26) · [rulings](https://api.scryfall.com/cards/38681802-429a-4465-8c23-f3d8f790431d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doc Ock's Tentacles
@@ -372,6 +376,8 @@ schema: 2
   > *"Go ahead, Bruce. Let out your feelings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9902 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Aggravated Assault + Doc Samson, Super Psychiatrist](https://commanderspellbook.com/combo/3750-7704/) (Infinite colored mana, Infinite combat phases) · EDHREC as commander: 116 decks; highest synergy [Kami of Whispered Hopes](../../cards/K/ka.md#kami-of-whispered-hopes) (+52%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+43%), [Ozolith, the Shattered Spire](../../cards/O/oz.md#ozolith-the-shattered-spire) (+34%) · EDHREC: in 13,476 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (43.0% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (19.4% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (15.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/164/doc-samson-super-psychiatrist) · oracle_id `699610c9-c991-4faf-b712-d015ef0799ad` · printing: MSH #164 (2026-06-26) · [rulings](https://api.scryfall.com/cards/19dc5fcc-d05d-41a0-84c5-2dec996f3e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Doom
@@ -385,6 +391,8 @@ schema: 2
   > At the beginning of your end step, you draw a card and lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9882 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (2): [Doctor Doom, King of Latveria (Grixis)](../../grixis/decks/doctor-doom-king-of-latveria.md) · [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: 3 combos; most popular [Nim Deathmantle + Ashnod's Altar + Doctor Doom](https://commanderspellbook.com/combo/2034-5003-7133/) (Infinite artifact ETB, Infinite artifact tokens) · EDHREC as commander: 1,529 decks; highest synergy [Castle Doom](../../cards/C/cas.md#castle-doom) (+66%), [Doom Reigns Supreme](../../cards/D/do.md#doom-reigns-supreme) (+65%), [Ultron, Artificial Malevolence](../../cards/U/ul.md#ultron-artificial-malevolence) (+59%) · EDHREC: in 11,968 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (31.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (35.8% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (53.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/D.md#doctor-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/95/doctor-doom) · oracle_id `9e4fa592-71f8-4c71-8c91-78e6326cd736` · printing: MSH #95 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9b1f213a-e1d4-4a0f-954b-c83915698d98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -417,6 +425,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10781 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Doctor Doom, Unrivaled + Leveler](https://commanderspellbook.com/combo/1068-8031/) (Exile your library, Win the game) · EDHREC as commander: 1,496 decks; highest synergy [Doomsday](../../cards/D/do.md#doomsday) (+81%), [Demonic Consultation](../../cards/D/dem.md#demonic-consultation) (+75%), [Leveler](../../cards/L/le.md#leveler) (+67%) · EDHREC: in 10,751 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (14.8% of its decks), [Doctor Doom](../../cards/D/do.md#doctor-doom) (34.1% of its decks), [K'rrik, Son of Yawgmoth](../../cards/K/kr.md#krrik-son-of-yawgmoth) (6.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/654/doctor-doom-unrivaled) · oracle_id `cb3dd50b-ce78-4727-b174-06f99fc5ec74` · printing: MSC #654 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2973e855-fe93-41a1-a62e-4699ef2c3d1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Jane Foster
@@ -430,6 +440,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25885 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Ajani's Welcome](../../cards/A/aj.md#ajanis-welcome) (+79%), [Daxos, Blessed by the Sun](../../cards/D/da.md#daxos-blessed-by-the-sun) (+75%), [Acrobatic Maneuver](../../cards/A/ac.md#acrobatic-maneuver) (+70%) · EDHREC: in 749 decks; most often under [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (14.4% of its decks), [Doctor Strange, Surgeon](../../cards/D/do.md#doctor-strange-surgeon) (20.3% of its decks), [The Fourteenth Doctor // Rose Noble](../../cards/T/thef.md#the-fourteenth-doctor) (8.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/757/doctor-jane-foster) · oracle_id `b1c8fddb-d686-4b4a-8aff-d79ea747801c` · printing: MSC #757 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cde387cc-d31b-4728-b49e-09eef49698fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Octopus, Master Planner
@@ -467,6 +479,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25933 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+72%), [Agent Phil Coulson](../../cards/A/ag.md#agent-phil-coulson) (+71%), [Black Panther, Most Dangerous](../../cards/B/bla.md#black-panther-most-dangerous) (+71%) · EDHREC: in 730 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.1% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (0.9% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (3.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/590/doctor-spectrum) · oracle_id `fad80e75-8d08-4a0b-a05e-14f4c96947bf` · printing: MSC #590 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7e91d0b2-b67b-473e-b028-0bcf2ca55971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Doctor Strange, Surgeon
@@ -481,6 +495,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13629 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 182 decks; highest synergy [Soul's Attendant](../../cards/S/so.md#souls-attendant) (+66%), [Soul Warden](../../cards/S/so.md#soul-warden) (+60%), [Alhammarret's Archive](../../cards/A/al.md#alhammarrets-archive) (+58%) · EDHREC: in 7,358 decks; most often under [Hope Estheim](../../cards/H/ho.md#hope-estheim) (20.8% of its decks), [Oloro, Ageless Ascetic](../../cards/O/ol.md#oloro-ageless-ascetic) (7.1% of its decks), [Betor, Ancestor's Voice](../../cards/B/be.md#betor-ancestors-voice) (4.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/591/doctor-strange-surgeon) · oracle_id `43c31a03-2bbd-49a6-8b78-c5f3cab04a07` · printing: MSC #591 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f872a2cd-e684-47be-885f-27a4666399fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dodecapod
@@ -1141,6 +1157,8 @@ schema: 2
 - **Keywords:** Power-up, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27867 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2 decks; highest synergy [Dáin, Lord of the Iron Hills](../../cards/D/da.md#dáin-lord-of-the-iron-hills) (+99%), [Teferi's Protection](../../cards/T/te.md#teferis-protection) (+74%), [Avenge](../../cards/A/av.md#avenge) (+50%) · EDHREC: in 449 decks; most often under [Thor Odinson](../../cards/T/tho.md#thor-odinson) (4.7% of its decks), [The Fourteenth Doctor // Clara Oswald](../../cards/T/thef.md#the-fourteenth-doctor) (7.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/592/donald-blake-guise-of-thor) · oracle_id `f966ae40-4717-4f41-9437-0e38b01a8be9` · printing: MSC #592 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ad0c9940-49fe-410e-b1bd-614b991c2e43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donal, Herald of Wings
@@ -1157,6 +1175,8 @@ schema: 2
   - *2021-11-19* — If a creature spell is copied, it's put onto the battlefield as a token as the spell resolves rather than putting the copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
   - *2021-11-19* — The copy remembers any decisions that were made for the original spell as it was cast, including values chosen for X in its mana cost and whether any alternative or additional costs were chosen. For example, if the original creature spell had kicker and its kicker cost was paid, the copy will also be kicked.
   - *2021-11-19* — The token that a resolving copy of a spell becomes isn't said to have been “created.”
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 2 combos; most popular [Donal, Herald of Wings + Cloudstone Curio + Peregrine Drake](https://commanderspellbook.com/combo/2232-3821-4252/) (Infinite creature tokens, Infinite creature ETB) · EDHREC as commander: 1,109 decks; highest synergy [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+86%), [Mulldrifter](../../cards/M/mu.md#mulldrifter) (+73%), [Loyal Drake](../../cards/L/lo.md#loyal-drake) (+69%) · EDHREC: in 11,112 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (52.8% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (10.7% of its decks), [Inniaz, the Gale Force](../../cards/I/inn.md#inniaz-the-gale-force) (50.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/3/donal-herald-of-wings) · oracle_id `1c9f2b6e-a0eb-493e-8c43-3a14f6d95a53` · printing: VOC #3 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Don Andres, the Renegade
@@ -1232,6 +1252,8 @@ schema: 2
   - *2026-01-27* — If the target artifact is an attached Equipment, it becomes unattached. If an Equipment without reconfigure becomes an artifact creature, it can't be attached to another creature.
   - *2026-01-27* — The artifact retains any types, subtypes, or supertypes it has.
   - *2026-01-27* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 62 combos; most popular [Eternity Vessel + Darksteel Reactor + Donatello, Mutant Mechanic](https://commanderspellbook.com/combo/1870-4873-7280/) (Win the game) · EDHREC as commander: 869 decks; highest synergy [Iron Spider, Stark Upgrade](../../cards/I/ir.md#iron-spider-stark-upgrade) (+64%), [Steel Overseer](../../cards/S/ste.md#steel-overseer) (+62%), [Technodrome](../../cards/T/te.md#technodrome) (+61%) · EDHREC: in 6,929 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (7.6% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (12.1% of its decks), [Donatello, the Brains // Michelangelo, the Heart](../../cards/D/do.md#donatello-the-brains) (38.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/36/donatello-mutant-mechanic) · oracle_id `f6a7838d-380f-4752-a647-c55c2a0eb6e2` · printing: TMT #36 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello, Rad Scientist
@@ -1245,6 +1267,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18734 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Retro-Mutation](../../cards/R/ret.md#retro-mutation) (+66%), [Lulu, Stern Guardian](../../cards/L/lu.md#lulu-stern-guardian) (+60%), [Tekuthal, Inquiry Dominus](../../cards/T/te.md#tekuthal-inquiry-dominus) (+51%) · EDHREC: in 2,912 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (18.0% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (5.0% of its decks), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (27.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/109/donatello-rad-scientist) · oracle_id `671209d5-8b56-4ce7-94a0-d770d698c0df` · printing: TMC #109 (2026-03-06) · [rulings](https://api.scryfall.com/cards/3a80b791-17e1-46be-bc65-ab96f52b23dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello's Science Lesson
@@ -1318,6 +1342,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19653 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — When Donatello enters the battlefield, his triggered ability will check to see if you control an artifact. If you don't, the ability won't trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you no longer control any artifacts, the ability won't do anything.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 11 decks; highest synergy [Solemn Simulacrum](../../cards/S/so.md#solemn-simulacrum) (+53%), [Sewer-veillance Cam](../../cards/S/sew.md#sewer-veillance-cam) (+51%), [Silver Myr](../../cards/S/si.md#silver-myr) (+43%) · EDHREC: in 2,493 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (4.8% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (6.6% of its decks), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (26.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/37/donatello-turtle-techie) · oracle_id `f84850bc-6348-449e-bd82-bb39e2119bec` · printing: TMT #37 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donatello, Way with Machines
@@ -1333,6 +1359,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13297 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 38 combos; most popular [Urza, Lord High Artificer + Animation Module + Donatello, Way with Machines](https://commanderspellbook.com/combo/457-3490-7328/) (Infinite artifact ETB, Infinite +1/+1 counters on a creature) · EDHREC as commander: 127 decks; highest synergy [Fugitive Droid](../../cards/F/fu.md#fugitive-droid) (+50%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+43%), [Sai, Master Thopterist](../../cards/S/sai.md#sai-master-thopterist) (+43%) · EDHREC: in 7,483 decks; most often under [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (9.6% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (14.2% of its decks), [Donatello, the Brains // Michelangelo, the Heart](../../cards/D/do.md#donatello-the-brains) (50.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/38/donatello-way-with-machines) · oracle_id `194af2be-50c7-484b-bdd3-402bad70335b` · printing: TMT #38 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a3a5b63a-3263-4f06-a643-808c38f64c77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Done for the Day
@@ -1359,6 +1387,8 @@ schema: 2
   > When Dong Zhou enters, target creature an opponent controls deals damage equal to its power to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24344 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 284 decks; highest synergy [Conjurer's Closet](../../cards/C/con.md#conjurers-closet) (+76%), [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+75%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+70%) · EDHREC: in 675 decks; most often under [Sliver Queen](../../cards/S/sl.md#sliver-queen) (2.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Norin the Wary](../../cards/N/no.md#norin-the-wary) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dong-zhou-the-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/96/dong-zhou-the-tyrant) · oracle_id `a1da64bc-8cff-4c89-9b9c-db0ddff5abc4` · printing: ME3 #96 (2009-09-07) · [rulings](https://api.scryfall.com/cards/bdd91a2b-53d2-4b97-b85b-5a48b9ca68cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1377,6 +1407,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2026-01-27* — Once a permanent exiled this way returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 39 combos; most popular [Infinite Guideline Station + Time Sieve + Don & Leo, Problem Solvers](https://commanderspellbook.com/combo/1558-6741-7309/) (Infinite turns, Lock) · EDHREC as commander: 837 decks; highest synergy [Cryogen Relic](../../cards/C/cr.md#cryogen-relic) (+62%), [Starfield Vocalist](../../cards/S/sta.md#starfield-vocalist) (+52%), [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+51%) · EDHREC: in 5,893 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (17.9% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (11.2% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (4.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/143/don-&-leo-problem-solvers) · oracle_id `a4ae71c8-ea1b-4fa4-9e47-cf00ab60c5ee` · printing: TMT #143 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Donna Noble
@@ -1400,6 +1432,8 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Donna Noble + Boros Reckoner](https://commanderspellbook.com/combo/918-3587/) (Infinite damage) · EDHREC as commander: 23 decks; highest synergy [Stuffy Doll](../../cards/S/stu.md#stuffy-doll) (+84%), [Brash Taunter](../../cards/B/br.md#brash-taunter) (+78%), [Mogg Maniac](../../cards/M/mog.md#mogg-maniac) (+73%) · EDHREC: in 10,701 decks; most often under [Wayta, Trainer Prodigy](../../cards/W/way.md#wayta-trainer-prodigy) (35.8% of its decks), [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (20.6% of its decks), [Piru, the Volatile](../../cards/P/pi.md#piru-the-volatile) (23.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#donna-noble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/82/donna-noble) · oracle_id `0d6e76aa-2966-48b7-be4e-2d3e2cc94fc1` · printing: WHO #82 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1414,6 +1448,8 @@ schema: 2
   > • Target player returns an artifact, instant, or sorcery card from their graveyard to their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19701 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 96+ combos; most popular [Ghostly Flicker + Peregrine Drake + Donnie & April, Adorkable Duo](https://commanderspellbook.com/combo/1987-3821-6991/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 40 decks; highest synergy [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+78%), [Displace](../../cards/D/di.md#displace) (+66%), [Essence Flux](../../cards/E/es.md#essence-flux) (+66%) · EDHREC: in 2,413 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (10.8% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (3.4% of its decks), [Mikey & Don, Party Planners](../../cards/M/mik.md#mikey--don-party-planners) (15.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/111/donnie-&-april-adorkable-duo) · oracle_id `7b33368f-0668-4233-8bbf-725c66c771cb` · printing: TMC #111 (2026-03-06) · [rulings](https://api.scryfall.com/cards/7b4bdb8c-e19f-46bd-9743-edc26ee5c8e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Don & Raph, Hard Science
@@ -1431,6 +1467,8 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — In the rare case where Don & Raph's last ability resolves more than once in the same turn (probably because there were multiple combat phases), a single noncreature spell might have multiple instances of affinity for artifacts. Those abilities are cumulative. For example, if you attacked twice with Don & Raph in the same turn without casting any noncreature spells in between those attacks, the next noncreature spell you cast that turn would cost {2} less to cast for each artifact you controlled.
   - *2026-01-27* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as affinity for artifacts). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 471 decks; highest synergy [Ravenous Robots](../../cards/R/rav.md#ravenous-robots) (+65%), [Great Furnace](../../cards/G/gre.md#great-furnace) (+57%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+57%) · EDHREC: in 2,557 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (14.0% of its decks), [Leonardo, the Balance // Michelangelo, the Heart](../../cards/L/le.md#leonardo-the-balance) (3.9% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/144/don-&-raph-hard-science) · oracle_id `01758a4a-ac29-47ad-8e88-158374f1ae4c` · printing: TMT #144 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Don't Blink
@@ -1942,6 +1980,8 @@ schema: 2
   > *"No door? No problem!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28231 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Michelangelo, Improviser](../../cards/M/mic.md#michelangelo-improviser) (+61%), [Evercoat Ursine](../../cards/E/ev.md#evercoat-ursine) (+50%), [Hunter's Insight](../../cards/H/hu.md#hunters-insight) (+49%) · EDHREC: in 396 decks; most often under [X-23, Deadly Weapon](../../cards/X/x2.md#x-23-deadly-weapon) (46.2% of its decks), [Wolverine, Claws Out](../../cards/W/wo.md#wolverine-claws-out) (16.5% of its decks), [Wolverine, Best There Is](../../cards/W/wo.md#wolverine-best-there-is) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/720/doorman) · oracle_id `01ea2130-e212-4532-b68b-2f940d53ef6e` · printing: MSC #720 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e569b77e-e65b-4187-a971-41e4bfb526de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Door of Destinies
@@ -2088,6 +2128,8 @@ schema: 2
 - **Keywords:** Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10300 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Iron Hills Stalwart](../../cards/I/ir.md#iron-hills-stalwart) (+66%), [Cathartic Reunion](../../cards/C/cat.md#cathartic-reunion) (+57%), [Wayfarer's Bauble](../../cards/W/way.md#wayfarers-bauble) (+53%) · EDHREC: in 12,977 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (72.8% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (52.1% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (82.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/94/dori-bearer-of-friends) · oracle_id `58acd6b2-730c-4472-a34a-f2784977aca8` · printing: HOB #94 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d2f60ad0-c887-4585-85f8-afcf72fb80d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dormant Gomazoa
@@ -2179,6 +2221,8 @@ schema: 2
 - **Rulings** (2):
   - *2021-11-19* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example, like training).
   - *2021-11-19* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker the enchanted creature is attacking.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Innistrad: Crimson Vow](https://magic.wizards.com/en/news/feature/legends-innistrad-crimson-vow-2021-11-12) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 231 decks; highest synergy [Drogskol Captain](../../cards/D/dro.md#drogskol-captain) (+49%), [Katilda, Dawnhart Martyr](../../cards/K/ka.md#katilda-dawnhart-martyr--katildas-rising-dawn) (+47%), [Patrician Geist](../../cards/P/pa.md#patrician-geist) (+47%) · EDHREC: in 4,768 decks; most often under [Millicent, Restless Revenant](../../cards/M/mil.md#millicent-restless-revenant) (28.8% of its decks), [Geist of Saint Traft](../../cards/G/ge.md#geist-of-saint-traft) (31.0% of its decks), [Vega, the Watcher](../../cards/V/ve.md#vega-the-watcher) (15.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/D.md#dorothea-vengeful-victim--dorotheas-retribution)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/235/dorothea-vengeful-victim-dorotheas-retribution) · oracle_id `2cef4171-8151-4ee9-83a7-bcb5116451bf` · printing: VOW #235 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

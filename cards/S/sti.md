@@ -104,6 +104,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20201 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 26 decks; highest synergy [Fogwell's Gym](../../cards/F/fo.md#fogwells-gym) (+94%), [Barbarian Ring](../../cards/B/bar.md#barbarian-ring) (+89%), [Spear Spewer](../../cards/S/spe.md#spear-spewer) (+74%) · EDHREC: in 2,228 decks; most often under [Daredevil, Fearless Fighter](../../cards/D/da.md#daredevil-fearless-fighter) (77.7% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (47.4% of its decks), [Auntie Blyte, Bad Influence](../../cards/A/au.md#auntie-blyte-bad-influence) (24.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/706/stick-fearless-mentor) · oracle_id `e7bd3882-a0f2-4706-80e7-1d3ec455801f` · printing: MSC #706 (2026-06-26) · [rulings](https://api.scryfall.com/cards/75147899-6eda-41dd-acec-cfe09dc38ba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stick Together
@@ -204,6 +206,8 @@ schema: 2
   > Whenever you cast a playtest card, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03d/stika-playtestress) · oracle_id `ad6b90c4-739c-49ab-9735-20dd4b7b9338` · printing: UNK #RW03d (2023-09-23) · [rulings](https://api.scryfall.com/cards/5a3c8b1e-1f5e-4583-a52b-96390b5794f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Still Life
@@ -261,6 +265,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16899 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 12 decks; highest synergy [Puppet Master, String Puller](../../cards/P/pu.md#puppet-master-string-puller) (+99%), [Killmonger, Ruthless Usurper](../../cards/K/ki.md#killmonger-ruthless-usurper) (+75%), [Hobgoblin, Mantled Marauder](../../cards/H/ho.md#hobgoblin-mantled-marauder) (+74%) · EDHREC: in 4,084 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (23.0% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (33.7% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stilt-man-towering-terror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/61/stilt-man-towering-terror) · oracle_id `8ae1bda5-8f70-48ec-9df0-89e58a4ab21c` · printing: MSC #61 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7ffa820c-ac05-4b3d-a0ec-5cbd3c42ac9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

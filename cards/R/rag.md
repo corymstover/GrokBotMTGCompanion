@@ -705,6 +705,8 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28258 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 196 decks; highest synergy [Lure](../../cards/L/lu.md#lure) (+33%), [Tolarian Entrancer](../../cards/T/to.md#tolarian-entrancer) (+32%), [Saprazzan Heir](../../cards/S/sap.md#saprazzan-heir) (+28%) · EDHREC: in 191 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Angus Mackenzie](../../cards/A/an.md#angus-mackenzie) (1.2% of its decks), [Arcades Sabboth](../../cards/A/arc.md#arcades-sabboth) (6.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/167/ragnar) · oracle_id `6d474413-e72f-414e-872f-aa00d38b7da4` · printing: ME3 #167 (2009-09-07) · [rulings](https://api.scryfall.com/cards/0a96bd0c-7b04-45ea-9b6f-e827a64a1bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragnarok, Divine Deliverance
@@ -739,6 +741,8 @@ schema: 2
   - *2025-06-06* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new untapped object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
   - *2025-06-06* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2025-06-06* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/99b/ragnarok-divine-deliverance) · oracle_id `14b839ef-80b1-4e7d-b2fd-38e973899cde` · printing: FIN #99b (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ragost, Deft Gastronaut

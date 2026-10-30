@@ -275,6 +275,8 @@ schema: 2
   - *2023-11-10* — If Indominus Rex isn't on the battlefield as its last ability resolves, use the number of counters that were on it when it was last on the battlefield to determine how many cards to draw.
   - *2023-11-10* — If you put counters on Indominus Rex before its last ability resolves, those counters will count.
   - *2023-11-10* — Indominus Rex's first ability will give it only one of each kind of counter, even if you discard more than one creature card with the relevant ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 9,356 decks; highest synergy [Scavenged Brawler](../../cards/S/sc.md#scavenged-brawler) (+78%), [Venomthrope](../../cards/V/ve.md#venomthrope) (+76%), [Nightveil Predator](../../cards/N/ni.md#nightveil-predator) (+74%) · EDHREC: in 2,516 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (2.8% of its decks), [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (6.0% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/14/indominus-rex-alpha) · oracle_id `723a66c3-2c2c-411c-bba5-922e8601981b` · printing: REX #14 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indomitable Ancients

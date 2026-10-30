@@ -90,6 +90,8 @@ schema: 2
   - *2021-06-18* — Ranar has recieved an update to its Oracle text. Specifically, its triggered ability doesn't care which player is exiling cards and permanents. Cards put into exile from your hand for any reason, such as the foretell ability, cause the ability to trigger, and permanents exiled from the battlefield cause it to trigger if you controlled the spell or ability that exiled them.
   - *2021-06-18* — Ranar's triggered ability triggers only once for each time you exile cards from your hand or permanents from the battlefield, no matter how many objects were exiled at the same time.
   - *2021-06-18* — Ranar's triggered ability will trigger when a spell or ability you control exiles any permanent, including token permanents and permanents you don't control.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kaldheim](https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Ranar the Ever-Watchful + Portcullis](https://commanderspellbook.com/combo/1260-5307/) (Draw the game, Infinite creature ETB) · EDHREC as commander: 3,550 decks; highest synergy [Saw It Coming](../../cards/S/saw.md#saw-it-coming) (+89%), [Cosmic Intervention](../../cards/C/cos.md#cosmic-intervention) (+86%), [Behold the Multiverse](../../cards/B/be.md#behold-the-multiverse) (+81%) · EDHREC: in 5,434 decks; most often under [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (26.7% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (4.4% of its decks), [Vega, the Watcher](../../cards/V/ve.md#vega-the-watcher) (45.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/2/ranar-the-ever-watchful) · oracle_id `c73a9939-0742-4919-94d6-c3b537697f17` · printing: KHC #2 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rancid Earth
@@ -435,6 +437,8 @@ schema: 2
   - *2023-04-14* — The additional 2 damage is dealt by the same source as the original source of damage. The damage isn’t dealt by Rankle and Torbran unless Rankle and Torbran is the original source of damage.
   - *2023-04-14* — To resolve the second mode, starting with you (or, in unusual cases, the player whose turn it is if not you) and proceeding in turn order, each player chooses a creature they control to sacrifice. Then those creatures are sacrificed at the same time.
   - *2023-04-14* — You may choose none of the modes, some of them, or all of them. Any modes chosen will happen in order.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Team-Ups of March of the Machine](https://magic.wizards.com/en/news/feature/the-legendary-team-ups-of-march-of-the-machine) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 568 decks; highest synergy [Lagomos, Hand of Hatred](../../cards/L/la.md#lagomos-hand-of-hatred) (+46%), [Garna, Bloodfist of Keld](../../cards/G/ga.md#garna-bloodfist-of-keld) (+43%), [Mahadi, Emporium Master](../../cards/M/mah.md#mahadi-emporium-master) (+43%) · EDHREC: in 12,693 decks; most often under [Shadow the Hedgehog](../../cards/S/sha.md#shadow-the-hedgehog) (10.3% of its decks), [Ognis, the Dragon's Lash](../../cards/O/og.md#ognis-the-dragons-lash) (17.8% of its decks), [Vazi, Keen Negotiator](../../cards/V/va.md#vazi-keen-negotiator) (23.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/252/rankle-and-torbran) · oracle_id `80d918b2-3a28-49ad-a485-496658bd7ac3` · printing: MOM #252 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle, Master of Pranks
@@ -477,6 +481,8 @@ schema: 2
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04e/rankle-master-of-pranksters) · oracle_id `6ffe8059-5506-4df4-9836-6cb507926a55` · printing: UNK #RB04e (2023-09-23) · [rulings](https://api.scryfall.com/cards/c280fe64-1cda-481c-881c-b667bb8dcc19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rankle's Prank

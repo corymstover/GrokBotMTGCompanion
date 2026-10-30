@@ -1302,6 +1302,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26921 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-03-16* — If Stangg leaves the battlefield before its ability has resolved, that ability will still create a Stangg Twin token, but its delayed triggered ability that exiles the token will never have a chance to trigger. That token will remain on the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Stangg + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/272-2034-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 124 decks; highest synergy [Mirror Box](../../cards/M/mir.md#mirror-box) (+31%), [Flameshadow Conjuring](../../cards/F/fl.md#flameshadow-conjuring) (+30%), [Impact Tremors](../../cards/I/im.md#impact-tremors) (+28%) · EDHREC: in 417 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Stangg, Echo Warrior](../../cards/S/sta.md#stangg-echo-warrior) (1.3% of its decks), [Johan](../../cards/J/jo.md#johan) (4.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stangg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/218/stangg) · oracle_id `739eac91-3029-4ce7-9885-0af3ddea472e` · printing: A25 #218 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1317,6 +1319,8 @@ schema: 2
   - *2022-09-09* — If a replacement effect causes the created tokens to have different characteristics or causes additional tokens to be created this way, those tokens will still be sacrificed at the beginning of the next end step.
   - *2022-09-09* — If another player gains control of the tokens created this way, the ability that causes you to sacrifice them will still trigger. However, any tokens you no longer control can't be sacrificed and will remain on the battlefield.
   - *2022-09-09* — If, for any reason, an Aura token that would be created this way can't be attached to Stangg Twin, that token isn't created. If an Equipment token that can't be attached to Stangg Twin would be created, that token enters the battlefield unattached.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 5 combos; most popular [Stangg, Echo Warrior + Éomer, Marshal of Rohan + Helm of the Host](https://commanderspellbook.com/combo/255-1692-3951/) (Infinite combat phases, Infinite death triggers) · EDHREC as commander: 2,474 decks; highest synergy [Sticky Fingers](../../cards/S/sti.md#sticky-fingers) (+79%), [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (+77%), [Audacity](../../cards/A/au.md#audacity) (+76%) · EDHREC: in 2,033 decks; most often under [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (5.3% of its decks), [Mazzy, Truesword Paladin](../../cards/M/maz.md#mazzy-truesword-paladin) (10.5% of its decks), [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stangg-echo-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/42/stangg-echo-warrior) · oracle_id `aaf2a587-ced7-4615-b10f-164e7384b073` · printing: DMC #42 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1600,6 +1604,8 @@ schema: 2
   > *—Starke*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18515 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 250 decks; highest synergy [Homeward Path](../../cards/H/ho.md#homeward-path) (+67%), [Humble Defector](../../cards/H/hu.md#humble-defector) (+59%), [Brand](../../cards/B/br.md#brand) (+53%) · EDHREC: in 2,733 decks; most often under [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (4.6% of its decks), [Zedruu the Greathearted](../../cards/Z/ze.md#zedruu-the-greathearted) (1.3% of its decks), [Karona, False God](../../cards/K/ka.md#karona-false-god) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/162/starke-of-rath) · oracle_id `07bc407e-7ba1-45aa-a562-0597ebe56044` · printing: TPR #162 (2015-05-06) · [rulings](https://api.scryfall.com/cards/a0f063fc-f1c4-4f3c-a72b-5f446d0c6381/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stark Industries
@@ -1715,6 +1721,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20675 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 30 decks; highest synergy [Shriek Raptor](../../cards/S/shr.md#shriek-raptor) (+43%), [Seraph of Dawn](../../cards/S/ser.md#seraph-of-dawn) (+42%), [Shepherd of the Clouds](../../cards/S/she.md#shepherd-of-the-clouds) (+42%) · EDHREC: in 2,003 decks; most often under [Peter Parker](../../cards/P/pe.md#peter-parker--amazing-spider-man) (3.5% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (3.9% of its decks), [Anti-Venom, Horrifying Healer](../../cards/A/an.md#anti-venom-horrifying-healer) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/778/starling-aerial-ally) · oracle_id `13fd7ca6-c278-409f-a9c4-57f16051ffce` · printing: MSC #778 (2026-06-26) · [rulings](https://api.scryfall.com/cards/be606fd7-a7a0-4960-90cc-a0cf1e867c56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starlit Angel
@@ -2482,6 +2490,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19023 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 52 decks; highest synergy [Bident of Thassa](../../cards/B/bi.md#bident-of-thassa) (+35%), [Coastal Piracy](../../cards/C/coa.md#coastal-piracy) (+31%), [Curiosity](../../cards/C/cu.md#curiosity) (+31%) · EDHREC: in 2,813 decks; most often under [Vnwxt, Verbose Host](../../cards/V/vn.md#vnwxt-verbose-host) (9.2% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (3.6% of its decks), [Satoru Umezawa](../../cards/S/sat.md#satoru-umezawa) (6.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/76/stature-size-shifter) · oracle_id `bd49a05c-ed51-4d69-ab9b-11192442ec17` · printing: MSH #76 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fe692959-64ca-4065-9f9e-1abe590e3d0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stature, Young Avenger
@@ -2497,6 +2507,8 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30302 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 6 decks; highest synergy [Assault Strobe](../../cards/A/as.md#assault-strobe) (+83%), [Giant Growth](../../cards/G/gi.md#giant-growth) (+82%), [Blossoming Defense](../../cards/B/blo.md#blossoming-defense) (+80%) · EDHREC: in 195 decks; most often under [Karolina Dean, Runaway](../../cards/K/ka.md#karolina-dean-runaway) (2.4% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (0.3% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/571/stature-young-avenger) · oracle_id `b1eee67f-30cf-4afb-8080-84ac282effc4` · printing: MSC #571 (2026-06-26) · [rulings](https://api.scryfall.com/cards/624fe61d-d16f-40c3-a056-a42f7b06bb38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Status // Statue

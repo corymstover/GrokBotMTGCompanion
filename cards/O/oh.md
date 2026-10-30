@@ -39,6 +39,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — All your Archers untap during each other player’s untap step. You have no choice about what untaps.
   - *2022-09-09* — Effects that say an Archer you control “doesn’t untap during your untap step” or “doesn’t untap during its controller’s untap step” won’t prevent Ohabi Caleria from causing you to untap it during other players’ untap steps.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,061 decks; highest synergy [Greatbow Doyen](../../cards/G/gre.md#greatbow-doyen) (+92%), [Brigid, Hero of Kinsbaile](../../cards/B/br.md#brigid-hero-of-kinsbaile) (+87%), [Arcus Acolyte](../../cards/A/arc.md#arcus-acolyte) (+81%) · EDHREC: in 958 decks; most often under [Catti-brie of Mithral Hall](../../cards/C/cat.md#catti-brie-of-mithral-hall) (40.3% of its decks), [Tadeas, Juniper Ascendant](../../cards/T/ta.md#tadeas-juniper-ascendant) (7.3% of its decks), [Urtet, Remnant of Memnarch](../../cards/U/ur.md#urtet-remnant-of-memnarch) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/36/ohabi-caleria) · oracle_id `e403fadb-537c-41ac-924a-450f0eabe2c4` · printing: DMC #36 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Frostfang

@@ -585,6 +585,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 10 decks; highest synergy [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+77%), [Jaheira, Friend of the Forest](../../cards/J/ja.md#jaheira-friend-of-the-forest) (+75%), [Durnan of the Yawning Portal](../../cards/D/du.md#durnan-of-the-yawning-portal) (+70%) · EDHREC: in 6,337 decks; most often under [Rocco, Street Chef](../../cards/R/ro.md#rocco-street-chef) (26.6% of its decks), [The Thirteenth Doctor // Yasmin Khan](../../cards/T/thet.md#the-thirteenth-doctor) (27.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#graham-obrien)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/104/graham-obrien) · oracle_id `7986908d-8af2-465a-8597-26e92ca2f1c9` · printing: WHO #104 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -600,6 +602,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12229 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — If G'raha Tia and one or more other creatures and/or artifacts you control die at the same time, its last ability will trigger once (as long as it hasn't already triggered this turn).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Burnished Hart](../../cards/B/bu.md#burnished-hart) (+45%), [Cathar Commando](../../cards/C/cat.md#cathar-commando) (+44%), [Valkyrie's Call](../../cards/V/va.md#valkyries-call) (+42%) · EDHREC: in 8,826 decks; most often under [Cloud, Planet's Champion](../../cards/C/cl.md#cloud-planets-champion) (18.6% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (2.5% of its decks), [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (2.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/21/graha-tia) · oracle_id `0c4603be-d71a-4d33-b62c-04ead1987dbe` · printing: FIN #21 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### G'raha Tia, Scion Reborn
@@ -631,6 +635,8 @@ schema: 2
   > Whenever you cast an Aura spell that targets a creature an opponent controls, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26673 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 256 decks; highest synergy [Mesa Enchantress](../../cards/M/me.md#mesa-enchantress) (+81%), [Pacifism](../../cards/P/pa.md#pacifism) (+81%), [Petrify](../../cards/P/pe.md#petrify) (+80%) · EDHREC: in 370 decks; most often under [Eriette of the Charmed Apple](../../cards/E/er.md#eriette-of-the-charmed-apple) (5.5% of its decks), [Killian, Decisive Mentor](../../cards/K/ki.md#killian-decisive-mentor) (1.5% of its decks), [Eriette, the Beguiler](../../cards/E/er.md#eriette-the-beguiler) (5.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/2/grakk-the-pacifist) · oracle_id `56277f60-67b0-41fa-a363-c64e2d794d01` · printing: MBC #2 (2026-10-19) · [rulings](https://api.scryfall.com/cards/992a9202-c094-4624-9f7c-fc395dc918ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grakmaw, Skyclave Ravager
@@ -646,6 +652,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-09-25* — Grakmaw's second ability puts just one +1/+1 counter on it, no matter how many counters the dying creature had.
   - *2020-09-25* — If a creature with a +1/+1 counter on it dies after receiving too many -1/-1 counters, it dies at the same time that the counters are removed, and Grakmaw's second ability triggers. Similarly, if Grakmaw dies after receiving too many -1/-1 counters, use the number of +1/+1 counters it had prior to receiving the -1/-1 counters to determine the value of X.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Zendikar Rising](https://magic.wizards.com/en/news/feature/legends-zendikar-rising-2020-09-15) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 549 decks; highest synergy [Managorger Hydra](../../cards/M/man.md#managorger-hydra) (+56%), [Corpsejack Menace](../../cards/C/cor.md#corpsejack-menace) (+53%), [Kalonian Hydra](../../cards/K/ka.md#kalonian-hydra) (+49%) · EDHREC: in 11,376 decks; most often under [Zaxara, the Exemplary](../../cards/Z/za.md#zaxara-the-exemplary) (16.6% of its decks), [Cleopatra, Exiled Pharaoh](../../cards/C/cl.md#cleopatra-exiled-pharaoh) (61.1% of its decks), [Reyhan, Last of the Abzan // Yoshimaru, Ever Faithful](../../cards/R/rey.md#reyhan-last-of-the-abzan) (31.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grakmaw-skyclave-ravager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/223/grakmaw-skyclave-ravager) · oracle_id `9c93acf3-d3da-4b4b-947f-ec8fc99d0d34` · printing: ZNR #223 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -794,6 +802,8 @@ schema: 2
   - *2022-10-07* — Removing pause counters from Macie won’t cause her to untap and won’t cause the chosen effect to end.
   - *2022-10-07* — The chosen effect can be from any source, including one controlled by an opponent.
   - *2022-10-07* — You may choose to untap Macie during your untap step. If you do, the chosen effect will immediately end if its scheduled duration has already elapsed. This also happens if Macie becomes untapped some other way at some other time or if Macie leaves the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Angel's Grace](../../cards/A/an.md#angels-grace) (+78%), [Solemnity](../../cards/S/so.md#solemnity) (+68%), [Hellish Rebuke](../../cards/H/he.md#hellish-rebuke) (+62%) · EDHREC: in 28 decks; most often under ["Brims" Barone, Midway Mobster](../../cards/B/br.md#brims-barone-midway-mobster) (5.7% of its decks), [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.0% of its decks), [Bilbo, Birthday Celebrant](../../cards/B/bi.md#bilbo-birthday-celebrant) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#grand-marshal-macie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/168/grand-marshal-macie) · oracle_id `2178522d-3fee-4458-af40-17d503e466e0` · printing: UNF #168 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -840,6 +850,8 @@ schema: 2
   > *She wraps the fry nursery in nullwater so the ruckus of wayward mages doesn't bother the little ones.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #26294 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 6 combos; most popular [Grandmother Goby + Guile](https://commanderspellbook.com/combo/1623-8240/) (Infinite magecraft triggers, Infinite storm count) · EDHREC as commander: 513 decks; highest synergy [Master of the Pearl Trident](../../cards/M/mas.md#master-of-the-pearl-trident) (+83%), [Vodalian Hexcatcher](../../cards/V/vo.md#vodalian-hexcatcher) (+83%), [Lullmage Mentor](../../cards/L/lu.md#lullmage-mentor) (+82%) · EDHREC: in 172 decks; most often under [Namor the Sub-Mariner](../../cards/N/na.md#namor-the-sub-mariner) (0.7% of its decks), [Taigam, Ojutai Master](../../cards/T/ta.md#taigam-ojutai-master) (5.9% of its decks), [Mishra, Artificer Prodigy](../../cards/M/mis.md#mishra-artificer-prodigy) (7.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Aristocrats: Fodder makers (multiple creature tokens)](../../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) · [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/9/grandmother-goby) · oracle_id `2d29c40a-4e13-4d99-bb5a-e991e385b8c2` · printing: MBC #9 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d4133c12-436c-49d2-b1b2-30103d073168/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grandmother Sengir
@@ -2342,6 +2354,8 @@ schema: 2
   > *"I don't think you understand the gravity of the situation. Let me show you!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22844 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7 decks; highest synergy [Emrakul's Messenger](../../cards/E/em.md#emrakuls-messenger) (+80%), [Lost in the Maze](../../cards/L/lo.md#lost-in-the-maze) (+70%), [Verity Circle](../../cards/V/ve.md#verity-circle) (+70%) · EDHREC: in 1,417 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.9% of its decks), [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (0.9% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (2.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/531/graviton-fundamental-force) · oracle_id `eab391d2-ccdd-401c-8f10-69aac4619213` · printing: MSC #531 (2026-06-26) · [rulings](https://api.scryfall.com/cards/127cfe92-0433-46b7-a2b4-c0d858ce8c6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gravity Negator

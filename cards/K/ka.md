@@ -426,6 +426,8 @@ schema: 2
   > *"The only constant in life is the unknown."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12474 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 7,566 decks; highest synergy [Ainok Survivalist](../../cards/A/ai.md#ainok-survivalist) (+91%), [Stratus Dancer](../../cards/S/str.md#stratus-dancer) (+91%), [Willbender](../../cards/W/wi.md#willbender) (+90%) · EDHREC: in 676 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (2.0% of its decks), [Omnath, Locus of All](../../cards/O/om.md#omnath-locus-of-all) (0.4% of its decks), [Teval, Arbiter of Virtue](../../cards/T/te.md#teval-arbiter-of-virtue) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/45/kadena-slinking-sorcerer) · oracle_id `4da13eb8-ca18-43f1-b54b-d3ddceb980d2` · printing: C19 #45 (2019-08-23) · [rulings](https://api.scryfall.com/cards/68a144f1-df18-4dc5-81c3-dff2af27527f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kadena's Silencer
@@ -556,6 +558,8 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to creatures may become lethal if Kaervek enters the battlefield during that turn.
   - *2020-06-23* — If you control more than one Kaervek, each will give each other creature -1/-1. If these effects cause a creature's toughness to become less than or equal to 0 or the amount of damage marked on it, those creatures die at the same time that the “legend rule” remove your excess Kaerveks.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 28 combos; most popular [Kormus Bell + Urborg, Tomb of Yawgmoth + Kaervek, the Spiteful](https://commanderspellbook.com/combo/233-714-2899/) (Destroy all lands, Destroy all lands that enter the battlefield) · EDHREC as commander: 136 decks; highest synergy [Night of Souls' Betrayal](../../cards/N/ni.md#night-of-souls-betrayal) (+59%), [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (+55%), [Massacre Wurm](../../cards/M/mas.md#massacre-wurm) (+50%) · EDHREC: in 11,716 decks; most often under [Maha, Its Feathers Night](../../cards/M/mah.md#maha-its-feathers-night) (77.2% of its decks), [Massacre Girl, Known Killer](../../cards/M/mas.md#massacre-girl-known-killer) (34.5% of its decks), [Grismold, the Dreadsower](../../cards/G/gri.md#grismold-the-dreadsower) (35.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/106/kaervek-the-spiteful) · oracle_id `b338d879-189d-4b74-9d63-42920fdb9855` · printing: M21 #106 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kagemaro, First to Suffer
@@ -569,6 +573,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18308 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — The value of X is determined as the ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 185 decks; highest synergy [Reliquary Tower](../../cards/R/rel.md#reliquary-tower) (+65%), [Thought Vessel](../../cards/T/tho.md#thought-vessel) (+62%), [Decanter of Endless Water](../../cards/D/dec.md#decanter-of-endless-water) (+61%) · EDHREC: in 2,878 decks; most often under [Iname, Death Aspect](../../cards/I/ina.md#iname-death-aspect) (44.6% of its decks), [Seizan, Perverter of Truth](../../cards/S/sei.md#seizan-perverter-of-truth) (27.1% of its decks), [Iname as One](../../cards/I/ina.md#iname-as-one) (28.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/73/kagemaro-first-to-suffer) · oracle_id `da3e399f-6801-4e4d-9b1d-ba15fcfb7ee4` · printing: SOK #73 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kagemaro's Clutch
@@ -651,6 +657,8 @@ schema: 2
   - *2005-06-01* — If an effect takes a card Kaho exiled out of the exile zone, then you can't use Kaho's ability to cast that card.
   - *2005-06-01* — If another player gains control of Kaho, that player may cast any of the cards exiled with Kaho's ability.
   - *2005-06-01* — Kaho's activated ability refers only to cards exiled by its triggered ability. If another effect exiled the cards, you won't be able to use Kaho to cast those cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Kaho, Minamo Historian + Nexus of Fate + Conjurer's Closet](https://commanderspellbook.com/combo/933-1367-4628/) (Infinite turns, Lock) · EDHREC as commander: 609 decks; highest synergy [Essence Flux](../../cards/E/es.md#essence-flux) (+39%), [Ghostly Flicker](../../cards/G/gh.md#ghostly-flicker) (+37%), [Thousand-Year Elixir](../../cards/T/tho.md#thousand-year-elixir) (+37%) · EDHREC: in 2,422 decks; most often under [Azami, Lady of Scrolls](../../cards/A/az.md#azami-lady-of-scrolls) (2.0% of its decks), [Inalla, Archmage Ritualist](../../cards/I/ina.md#inalla-archmage-ritualist) (0.4% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/101/kaho-minamo-historian) · oracle_id `395a7bd6-7c2d-448e-842c-ca53256d7008` · printing: CMM #101 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kaijin of the Vanishing Touch
@@ -679,6 +687,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17842 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — The set of creatures that are goaded by this ability are locked in when it resolves. A creature becoming enchanted later or an Aura being removed from a creature later won't change whether it is goaded.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Kamigawa: Neon Dynasty](https://magic.wizards.com/en/news/feature/legends-kamigawa-neon-dynasty-2022-02-11) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,948 decks; highest synergy [Smoke Spirits' Aid](../../cards/S/sm.md#smoke-spirits-aid) (+82%), [Enchantress's Presence](../../cards/E/en.md#enchantresss-presence) (+81%), [Rancor](../../cards/R/ran.md#rancor) (+80%) · EDHREC: in 1,385 decks; most often under [Chishiro, the Shattered Blade](../../cards/C/chi.md#chishiro-the-shattered-blade) (6.7% of its decks), [Mazzy, Truesword Paladin](../../cards/M/maz.md#mazzy-truesword-paladin) (16.4% of its decks), [Marisi, Breaker of the Coil](../../cards/M/mar.md#marisi-breaker-of-the-coil) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/3/kaima-the-fractured-calm) · oracle_id `3d8f9b58-d011-4ed2-99ae-c626243fab26` · printing: NEC #3 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kain, Traitorous Dragoon
@@ -871,6 +881,8 @@ schema: 2
   - *2020-04-17* — Kalamax's first ability considers the entire turn. If you cast an instant spell before Kalamax becomes tapped, its first ability won't trigger when you cast your second.
   - *2020-04-17* — The copies that Kalamax's first ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2020-04-17* — You can't choose to pay any additional costs for the copy created by Kalamax's first ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 27 combos; most popular [Kalamax, the Stormsire + Reverberate](https://commanderspellbook.com/combo/223-5026/) (Infinite +1/+1 counters on a creature, Infinite magecraft triggers) · EDHREC as commander: 8,815 decks; highest synergy [Wilderness Reclamation](../../cards/W/wi.md#wilderness-reclamation) (+63%), [Harrow](../../cards/H/ha.md#harrow) (+61%), [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) (+59%) · EDHREC: in 3,911 decks; most often under [Storm, Force of Nature](../../cards/S/sto.md#storm-force-of-nature) (7.9% of its decks), [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (1.9% of its decks), [Owen Grady, Raptor Trainer // Blue, Loyal Raptor](../../cards/O/ow.md#owen-grady-raptor-trainer) (4.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/9/kalamax-the-stormsire) · oracle_id `b8501a37-23e4-4873-80cb-d1c0f6c95155` · printing: C20 #9 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kalastria Healer
@@ -1020,6 +1032,8 @@ schema: 2
   - *2009-10-01* — The power and toughness of the token are based on the destroyed creature’s last existence on the battlefield. The token doesn’t have any of the destroyed creature’s other characteristics.
   - *2009-10-01* — You get the token, not the player who controlled the creature.
   - *2013-07-01* — If the targeted creature has indestructible or regenerates, you won’t get a Vampire token. Similarly, if the targeted creature is destroyed but a replacement effect moves it to a different zone instead of its owner’s graveyard, you won’t get a Vampire token.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 90 decks; highest synergy [Captivating Vampire](../../cards/C/cap.md#captivating-vampire) (+70%), [Cordial Vampire](../../cards/C/cor.md#cordial-vampire) (+67%), [Vampire Nocturnus](../../cards/V/va.md#vampire-nocturnus) (+61%) · EDHREC: in 3,973 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (1.8% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (5.0% of its decks), [Olivia Voldaren](../../cards/O/ol.md#olivia-voldaren) (6.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kalitas-bloodchief-of-ghet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/99/kalitas-bloodchief-of-ghet) · oracle_id `003bf21f-6815-4098-a186-aa15f5947541` · printing: ZEN #99 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1055,6 +1069,8 @@ schema: 2
 - **Keywords:** Prowess, Deathtouch
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02a/kallist-rhoka) · oracle_id `ff7f4b1c-792f-483d-881c-eabc2cba9408` · printing: UNK #RZ02a (2023-07-29) · [rulings](https://api.scryfall.com/cards/5a9e9014-aa2d-47a1-b062-39b772c8a402/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kalonian Behemoth
@@ -1176,6 +1192,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18524 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — The Legend rule only applies to two legendary permanents with identical names. If the names are different, even if they depict the same character, the rule does not apply.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Kamahl, Pit Fighter + Scythe of the Wretched](https://commanderspellbook.com/combo/1331-3477/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 142 decks; highest synergy [Gratuitous Violence](../../cards/G/gra.md#gratuitous-violence) (+53%), [Thousand-Year Elixir](../../cards/T/tho.md#thousand-year-elixir) (+40%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+39%) · EDHREC: in 2,782 decks; most often under [Lovisa Coldeyes](../../cards/L/lo.md#lovisa-coldeyes) (27.1% of its decks), [Balthor the Stout](../../cards/B/bal.md#balthor-the-stout) (82.8% of its decks), [Ertha Jo, Frontier Mentor](../../cards/E/er.md#ertha-jo-frontier-mentor) (13.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/39/kamahl-pit-fighter) · oracle_id `153bb46f-ee8a-4da3-aab4-ae884f6ff403` · printing: DDS #39 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kamahl's Desire
@@ -1702,6 +1720,8 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 515 decks; highest synergy [Soulcatchers' Aerie](../../cards/S/so.md#soulcatchers-aerie) (+83%), [Airborne Aid](../../cards/A/ai.md#airborne-aid) (+75%), [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+68%) · EDHREC: in 5,999 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (13.7% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (14.9% of its decks), [Derevi, Empyrial Tactician](../../cards/D/der.md#derevi-empyrial-tactician) (5.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/253/kangee-aerie-keeper) · oracle_id `555f9e75-8892-4c8e-9c5e-8ab14a589118` · printing: INV #253 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kangee, Sky Warden
@@ -1756,6 +1776,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14962 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Loki, the Deceiver (Grixis)](../../grixis/decks/loki-the-deceiver.md) · Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 588 decks; highest synergy [Time Beetle](../../cards/T/ti.md#time-beetle) (+72%), [Doom's Time Platform](../../cards/D/do.md#dooms-time-platform) (+69%), [Wibbly-wobbly, Timey-wimey](../../cards/W/wi.md#wibbly-wobbly-timey-wimey) (+69%) · EDHREC: in 5,200 decks; most often under [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (24.7% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (44.5% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kang-prime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/85/kang-prime) · oracle_id `c8e0b90c-edfb-4024-9ed5-398966f4ac72` · printing: MSC #85 (2026-06-26) · [rulings](https://api.scryfall.com/cards/88cf0311-d7e3-40bb-85fa-3cca973c5e44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1788,6 +1810,8 @@ schema: 2
 - **Keywords:** Flying, Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17416 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 54 decks; highest synergy [Nexus of Fate](../../cards/N/ne.md#nexus-of-fate) (+45%), [Time Warp](../../cards/T/ti.md#time-warp) (+45%), [Karn's Temporal Sundering](../../cards/K/ka.md#karns-temporal-sundering) (+43%) · EDHREC: in 3,714 decks; most often under [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (20.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (4.6% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (14.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kang-the-conqueror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/62/kang-the-conqueror) · oracle_id `da6e24a4-8adc-41a1-b5eb-3e31dc1250c9` · printing: MSH #62 (2026-06-26) · [rulings](https://api.scryfall.com/cards/79747b45-fd7b-4023-9a9c-4d9dab2429fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1871,6 +1895,8 @@ schema: 2
   - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as the commander tax), then apply any cost reductions (such as that of Karador). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2020-11-10* — You must follow the normal timing permissions and restrictions of the spell you cast from your graveyard.
   - *2020-11-10* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — KB decks (1): [Karador, Ghost Chieftain](../../decks/karador-ghost-chieftain.md) · Commander Spellbook: 43 combos; most popular [Karador, Ghost Chieftain + Saffi Eriksdotter + Phyrexian Altar + Pitiless Plunderer](https://commanderspellbook.com/combo/2281-3942-4050-4871/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 6,785 decks; highest synergy [Karmic Guide](../../cards/K/ka.md#karmic-guide) (+51%), [Stitcher's Supplier](../../cards/S/sti.md#stitchers-supplier) (+50%), [Satyr Wayfinder](../../cards/S/sat.md#satyr-wayfinder) (+49%) · EDHREC: in 4,240 decks; most often under [Nethroi, Apex of Death](../../cards/N/ne.md#nethroi-apex-of-death) (6.2% of its decks), [Kethis, the Hidden Hand](../../cards/K/ke.md#kethis-the-hidden-hand) (19.1% of its decks), [The Necrobloom](../../cards/T/then.md#the-necrobloom) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#karador-ghost-chieftain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/342/karador-ghost-chieftain) · oracle_id `304c194f-fa0b-42e5-93ca-8c587181d33c` · printing: CMM #342 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1888,6 +1914,8 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 422 decks; highest synergy [Ninja Teen](../../cards/N/ni.md#ninja-teen) (+61%), [Prehistoric Pet](../../cards/P/pr.md#prehistoric-pet) (+56%), [Changeling Outcast](../../cards/C/cha.md#changeling-outcast) (+54%) · EDHREC: in 11,563 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (77.9% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (85.7% of its decks), [Jin Sakai, Ghost of Tsushima](../../cards/J/ji.md#jin-sakai-ghost-of-tsushima) (10.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Graveyard: Recursion to hand](../../EDH%20Packages.md#graveyard-recursion-to-hand) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/151/karai-future-of-the-foot) · oracle_id `7246638e-0361-40e3-8019-3c10210a593e` · printing: TMT #151 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karai's Technique
@@ -2612,6 +2640,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18462 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,257 decks; highest synergy [Nico Minoru, Runaway](../../cards/N/ni.md#nico-minoru-runaway) (+60%), [Hex Magic](../../cards/H/he.md#hex-magic) (+56%), [Prosper, Tome-Bound](../../cards/P/pr.md#prosper-tome-bound) (+51%) · EDHREC: in 2,003 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (13.3% of its decks), [Sisay, Weatherlight Captain](../../cards/S/si.md#sisay-weatherlight-captain) (3.6% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#karolina-dean-runaway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/694/karolina-dean-runaway) · oracle_id `50b5faff-acaa-426b-9f3e-1005c0392e6c` · printing: MSC #694 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ecb8fc29-2d62-43ff-81b4-d035cc633688/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2627,6 +2657,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13988 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5,497 decks; highest synergy [Shiny Impetus](../../cards/S/shi.md#shiny-impetus) (+57%), [Vow of Flight](../../cards/V/vo.md#vow-of-flight) (+47%), [Vow of Wildness](../../cards/V/vo.md#vow-of-wildness) (+46%) · EDHREC: in 1,070 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.9% of its decks), [Jenson Carthalion, Druid Exile](../../cards/J/je.md#jenson-carthalion-druid-exile) (3.4% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/138/karona-false-god) · oracle_id `9ea1f10c-5ceb-4ac0-84c6-29046dea649a` · printing: SCG #138 (2003-05-26) · [rulings](https://api.scryfall.com/cards/de53d083-251e-42a4-9e2e-c2978c80615b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Karona's Zealot
@@ -2866,6 +2898,8 @@ schema: 2
   - *2023-10-13* — This adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Karvanista, Loyal Lupari is a creature card whose mana value is 5.
   - *2023-10-13* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-10-13* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 103 decks; highest synergy [Heronblade Elite](../../cards/H/he.md#heronblade-elite) (+76%), [Hamlet Vanguard](../../cards/H/ha.md#hamlet-vanguard) (+71%), [Tuskguard Captain](../../cards/T/tu.md#tuskguard-captain) (+71%) · EDHREC: in 7,207 decks; most often under [Eshki Dragonclaw](../../cards/E/es.md#eshki-dragonclaw) (17.5% of its decks), [Sophia, Dogged Detective](../../cards/S/so.md#sophia-dogged-detective) (18.0% of its decks), [Indominus Rex, Alpha](../../cards/I/ind.md#indominus-rex-alpha) (7.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#karvanista-loyal-lupari--lupari-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/106/karvanista-loyal-lupari-lupari-shield) · oracle_id `6c370299-9803-4cb5-97ba-c17831797b54` · printing: WHO #106 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2881,6 +2915,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12446 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2015-11-04* — Once a creature has been legally blocked, activating Kaseto’s ability targeting that creature won’t cause it to become unblocked. It will give it +2/+2 if it’s a Snake, though.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 956 decks; highest synergy [Seshiro the Anointed](../../cards/S/ses.md#seshiro-the-anointed) (+69%), [Ohran Viper](../../cards/O/oh.md#ohran-viper) (+67%), [Lorescale Coatl](../../cards/L/lo.md#lorescale-coatl) (+65%) · EDHREC: in 7,437 decks; most often under [Xyris, the Writhing Storm](../../cards/X/xy.md#xyris-the-writhing-storm) (22.4% of its decks), [Ezuri, Claw of Progress](../../cards/E/ez.md#ezuri-claw-of-progress) (5.5% of its decks), [Adrix and Nev, Twincasters](../../cards/A/ad.md#adrix-and-nev-twincasters) (2.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kaseto-orochi-archmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/221/kaseto-orochi-archmage) · oracle_id `198b6c6f-a480-4672-9d87-b0cb5d8ed1c0` · printing: C21 #221 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -2933,6 +2969,8 @@ schema: 2
   > *Popular indeed is the tale of how Kasimir was once a Holy man who renounced his order to take up the sword. But this tale is no more likely than any other.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29399 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Steel of the Godhead](../../cards/S/ste.md#steel-of-the-godhead) (+42%), [Ethereal Armor](../../cards/E/et.md#ethereal-armor) (+38%), [All That Glitters](../../cards/A/al.md#all-that-glitters) (+37%) · EDHREC: in 243 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Dakkon Blackblade](../../cards/D/da.md#dakkon-blackblade) (0.7% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/237/kasimir-the-lone-wolf) · oracle_id `64b1a2a2-d3ff-41c6-8d92-987ef29bb776` · printing: LEG #237 (1994-06-01) · [rulings](https://api.scryfall.com/cards/45b1e60d-54dd-41cd-b9a2-00890725a3df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kasla, the Broken Halo
@@ -2954,6 +2992,8 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,114 decks; highest synergy [Wildfire Awakener](../../cards/W/wi.md#wildfire-awakener) (+89%), [Wand of the Worldsoul](../../cards/W/wan.md#wand-of-the-worldsoul) (+86%), [Saint Traft and Rem Karolus](../../cards/S/sai.md#saint-traft-and-rem-karolus) (+84%) · EDHREC: in 2,182 decks; most often under [Saint Traft and Rem Karolus](../../cards/S/sai.md#saint-traft-and-rem-karolus) (78.7% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (0.6% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (0.3% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/4/kasla-the-broken-halo) · oracle_id `b2d4ce3c-00b1-4a72-b652-4c129475080f` · printing: MOC #4 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kaslem's Stonetree // Kaslem's Strider
@@ -3103,6 +3143,8 @@ schema: 2
   > *—Kenzo the Hardhearted*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9802 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 477 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+66%), [Mycosynth Wellspring](../../cards/M/my.md#mycosynth-wellspring) (+64%), [Myr Retriever](../../cards/M/my.md#myr-retriever) (+55%) · EDHREC: in 12,503 decks; most often under [Ellivere of the Wild Court](../../cards/E/el.md#ellivere-of-the-wild-court) (12.7% of its decks), [Gaddock Teeg](../../cards/G/ga.md#gaddock-teeg) (37.3% of its decks), [Kudo, King Among Bears](../../cards/K/ku.md#kudo-king-among-bears) (3.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/20/kataki-wars-wage) · oracle_id `27ffa6e9-c161-4f53-8b41-7fae5f199f41` · printing: MMA #20 (2013-06-07) · [rulings](https://api.scryfall.com/cards/4d84ac44-01d8-415e-af69-7c608ac8ae20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Katara, Bending Prodigy
@@ -3141,6 +3183,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12968 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 13 decks; highest synergy [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+51%), [Cloudshift](../../cards/C/cl.md#cloudshift) (+51%), [Scrollshift](../../cards/S/sc.md#scrollshift) (+44%) · EDHREC: in 7,867 decks; most often under [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (25.6% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (3.1% of its decks), [Sokka, Tenacious Tactician](../../cards/S/so.md#sokka-tenacious-tactician) (4.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/215/katara-heroic-healer) · oracle_id `703032eb-98b3-4ecf-8b92-4f4f1551c5d7` · printing: TLE #215 (2025-11-21) · [rulings](https://api.scryfall.com/cards/bc2ec498-54eb-41a7-bdf2-8772430e177f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Katara, Seeking Revenge
@@ -3160,6 +3204,8 @@ schema: 2
   - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
   - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 212 decks; highest synergy [Octopus Form](../../cards/O/oc.md#octopus-form) (+92%), [Waterbending Lesson](../../cards/W/wat.md#waterbending-lesson) (+92%), [Accumulate Wisdom](../../cards/A/ac.md#accumulate-wisdom) (+91%) · EDHREC: in 1,304 decks; most often under [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (4.2% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (0.4% of its decks), [Hama, the Bloodbender](../../cards/H/ha.md#hama-the-bloodbender) (14.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/148/katara-seeking-revenge) · oracle_id `124cc815-0877-40f2-98c8-e7c4f8cd6598` · printing: TLE #148 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Katara's Reversal
@@ -3251,6 +3297,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29629 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings** (1):
   - *2022-10-07* — When determining what a name begins with, ignore all spaces and punctuation, including blank lines.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Staff of the Storyteller](../../cards/S/sta.md#staff-of-the-storyteller) (+44%), [Selfless Spirit](../../cards/S/sel.md#selfless-spirit) (+38%), [Sacred Cat](../../cards/S/sac.md#sacred-cat) (+36%) · EDHREC: in 39 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (2.2% of its decks), [Rin and Seri, Inseparable](../../cards/R/ri.md#rin-and-seri-inseparable) (0.0% of its decks), [Claire D'Loon, Joy Sculptor](../../cards/C/cl.md#claire-dloon-joy-sculptor) (0.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#katerina-of-myras-marvels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/16/katerina-of-myras-marvels) · oracle_id `b5c46daa-a2cf-453d-b47c-94e86ac58780` · printing: UNF #16 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3266,6 +3314,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-10-13* — Kate Stewart's first ability triggers only when you put time counters on permanents. It does not trigger when you put time counters on cards in exile.
   - *2023-10-13* — Similarly, its last ability counts only time counters on permanents, not on cards you own in exile.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 34 combos; most popular [Kate Stewart + Soultether Golem](https://commanderspellbook.com/combo/5371-5372/) (Draw the game, Infinite creature tokens) · EDHREC as commander: 341 decks; highest synergy [Rotating Fireplace](../../cards/R/ro.md#rotating-fireplace) (+89%), [As Foretold](../../cards/A/as.md#as-foretold) (+88%), [Trenzalore Clocktower](../../cards/T/tre.md#trenzalore-clocktower) (+86%) · EDHREC: in 4,580 decks; most often under [The Tenth Doctor // Rose Tyler](../../cards/T/thet.md#the-tenth-doctor) (57.4% of its decks), [The Eleventh Doctor // Amy Pond](../../cards/T/thee.md#the-eleventh-doctor) (34.4% of its decks), [The Tenth Doctor // Clara Oswald](../../cards/T/thet.md#the-tenth-doctor) (16.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/139/kate-stewart) · oracle_id `c1b9475e-a272-4820-b5f0-25f7a94ff834` · printing: WHO #139 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kathari Bomber
@@ -3337,6 +3387,8 @@ schema: 2
   - *2020-04-17* — Once Kathril's ability begins resolving, no player may take other actions until it's done and you've put +1/+1 counters on Kathril.
   - *2020-04-17* — You check once for each keyword. If you have two creature cards with flying in your graveyard, you put just one flying counter on a creature you control, not two.
   - *2020-06-23* — If cards in your graveyard have multiple hexproof abilities (such as hexproof, hexproof from white, and hexproof from black), a counter of each variant kind will be put onto a creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,430 decks; highest synergy [Zetalpa, Primal Dawn](../../cards/Z/ze.md#zetalpa-primal-dawn) (+86%), [Akroma, Angel of Wrath](../../cards/A/ak.md#akroma-angel-of-wrath) (+65%), [Odric, Lunarch Marshal](../../cards/O/od.md#odric-lunarch-marshal) (+65%) · EDHREC: in 1,105 decks; most often under [Nethroi, Apex of Death](../../cards/N/ne.md#nethroi-apex-of-death) (1.8% of its decks), [Atraxa, Praetors' Voice](../../cards/A/at.md#atraxa-praetors-voice) (0.3% of its decks), [Akroma, Vision of Ixidor // Ikra Shidiqi, the Usurper](../../cards/A/ak.md#akroma-vision-of-ixidor) (28.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/10/kathril-aspect-warper) · oracle_id `730897a9-3ead-4990-9492-1a2040d8ccac` · printing: C20 #10 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Katilda and Lier
@@ -3358,6 +3410,8 @@ schema: 2
   - *2023-04-14* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2023-04-14* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2023-04-14* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,109 decks; highest synergy [Katilda, Dawnhart Prime](../../cards/K/ka.md#katilda-dawnhart-prime) (+65%), [Mass Appeal](../../cards/M/mas.md#mass-appeal) (+52%), [Archmage Emeritus](../../cards/A/arc.md#archmage-emeritus) (+45%) · EDHREC: in 1,192 decks; most often under [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (2.8% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/446/katilda-and-lier) · oracle_id `1990012e-2a92-4e76-917a-f90fb7a4ed66` · printing: MOC #446 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Katilda, Dawnhart Martyr // Katilda's Rising Dawn
@@ -3428,6 +3482,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17221 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-02-02* — The creature must have been turned face up before dealing combat damage to a player for Kaust, Eyes of the Glade’s first ability to trigger.
+- **Lore:** ✅ Presented with an official backstory on [The Legends (and Characters) of Murders at Karlov Manor](https://magic.wizards.com/en/news/feature/the-legends-and-characters-of-murders-at-karlov-manor) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,911 decks; highest synergy [Scroll of Fate](../../cards/S/sc.md#scroll-of-fate) (+93%), [Experiment Twelve](../../cards/E/ex.md#experiment-twelve) (+91%), [Veiled Ascension](../../cards/V/ve.md#veiled-ascension) (+91%) · EDHREC: in 755 decks; most often under [Azlask, the Swelling Scourge](../../cards/A/az.md#azlask-the-swelling-scourge) (1.8% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (2.4% of its decks), [Ludevic, Necro-Alchemist // Sidar Kondo of Jamuraa](../../cards/L/lu.md#ludevic-necro-alchemist) (9.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/1/kaust-eyes-of-the-glade) · oracle_id `af78c13f-67f8-42bf-b012-482a48af4f31` · printing: MKC #1 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kavaron Harrier
@@ -4021,6 +4077,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20704 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2008-10-01* — Kaysa’s ability affects itself.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 177 decks; highest synergy [Wood Elves](../../cards/W/wo.md#wood-elves) (+45%), [Priest of Titania](../../cards/P/pr.md#priest-of-titania) (+43%), [Elvish Champion](../../cards/E/el.md#elvish-champion) (+31%) · EDHREC: in 1,814 decks; most often under [Asmira, Holy Avenger](../../cards/A/as.md#asmira-holy-avenger) (23.5% of its decks), [Galadriel, Light of Valinor](../../cards/G/ga.md#galadriel-light-of-valinor) (0.6% of its decks), [Lathril, Blade of the Elves](../../cards/L/la.md#lathril-blade-of-the-elves) (0.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/170/kaysa) · oracle_id `0fd18a9b-c112-4e48-8fd7-e53fe4500943` · printing: ME2 #170 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kazandu Blademaster
@@ -4152,6 +4210,8 @@ schema: 2
   > When Ka-Zar enters, create Zabu, a legendary 2/2 green Cat creature token with "Landfall — Whenever a land you control enters, put a +1/+1 counter on Zabu."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15001 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Ka-Zar of the Savage Land](https://commanderspellbook.com/combo/2034-5003-7718/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 117 decks; highest synergy [Terramorphic Expanse](../../cards/T/te.md#terramorphic-expanse) (+53%), [Evolving Wilds](../../cards/E/ev.md#evolving-wilds) (+51%), [Azusa, Lost but Seeking](../../cards/A/az.md#azusa-lost-but-seeking) (+40%) · EDHREC: in 5,808 decks; most often under [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (4.9% of its decks), [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (3.3% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (3.7% of its decks) — *Guidance (Oracle pattern)* — packages: [Lands / landfall: Landfall payoffs](../../EDH%20Packages.md#lands--landfall-landfall-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#ka-zar-of-the-savage-land)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/174/ka-zar-of-the-savage-land) · oracle_id `88eeb519-5782-4732-bd34-81d1ee6dbc8f` · printing: MSH #174 (2026-06-26) · [rulings](https://api.scryfall.com/cards/caf70fc5-87a0-4b4d-bedd-74dd09569bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -4189,6 +4249,8 @@ schema: 2
   - *2018-04-27* — If Kazarov is dealt damage at the same time that a creature an opponent controls is dealt damage, Kazarov must survive the damage to get a +1/+1 counter.
   - *2018-04-27* — If a creature is dealt an amount of damage "for each" of something, that damage is dealt as one event and Kazarov's triggered ability triggers only once.
   - *2018-04-27* — Kazarov's triggered ability triggers once for each creature dealt damage at one time.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 245 decks; highest synergy [Pestilence](../../cards/P/pe.md#pestilence) (+70%), [Blazing Volley](../../cards/B/bla.md#blazing-volley) (+66%), [Plague Spitter](../../cards/P/pl.md#plague-spitter) (+56%) · EDHREC: in 1,257 decks; most often under [Edgar Markov](../../cards/E/ed.md#edgar-markov) (0.5% of its decks), [Strefan, Maurer Progenitor](../../cards/S/str.md#strefan-maurer-progenitor) (2.4% of its decks), [Olivia, Crimson Bride](../../cards/O/ol.md#olivia-crimson-bride) (4.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/96/kazarov-sengir-pureblood) · oracle_id `3067c653-ac29-4f1d-822f-7e2e5bb38a62` · printing: DOM #96 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kazuul's Fury // Kazuul's Cliffs

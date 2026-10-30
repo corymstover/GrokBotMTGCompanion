@@ -57,6 +57,8 @@ schema: 2
   > At the beginning of each end step, if a land you controlled was put into a graveyard from the battlefield this turn, reveal the top four cards of your library. You may put any number of Dwarf cards from among them into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24795 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 782 decks; highest synergy [Magda, Brazen Outlaw](../../cards/M/mag.md#magda-brazen-outlaw) (+93%), [Dwarven Recruiter](../../cards/D/dw.md#dwarven-recruiter) (+86%), [Seven Dwarves](../../cards/S/sev.md#seven-dwarves) (+82%) · EDHREC: in 78 decks; most often under [Gimli, Mournful Avenger](../../cards/G/gi.md#gimli-mournful-avenger) (0.9% of its decks), [Havi, the All-Father](../../cards/H/ha.md#havi-the-all-father) (0.4% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/35/the-lady-of-otaria) · oracle_id `1ea4f882-6872-4d9e-9532-5ba2bf848d00` · printing: DMC #35 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d96a5a00-22a7-4a7b-a7e2-5c055a8384ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lady of the Mountain
@@ -70,6 +72,8 @@ schema: 2
   > *Her given name has been lost in the mists of time. Legend says that her silent vigil will one day be ended by the one who, pure of heart and spirit, calls out that name again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28887 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 87 decks; highest synergy [Calamity Bearer](../../cards/C/cal.md#calamity-bearer) (+22%), [Crush Underfoot](../../cards/C/cr.md#crush-underfoot) (+21%), [Borderland Behemoth](../../cards/B/bo.md#borderland-behemoth) (+18%) · EDHREC: in 237 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.3% of its decks), [Jerrard of the Closed Fist](../../cards/J/je.md#jerrard-of-the-closed-fist) (9.2% of its decks), [Esika, God of the Tree](../../cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge) (0.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/180/the-lady-of-the-mountain) · oracle_id `3ef03975-0f46-43aa-b461-bd3b6f5d4613` · printing: ME3 #180 (2009-09-07) · [rulings](https://api.scryfall.com/cards/70802e74-c292-446f-aa9a-dd32454a4b3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Agni Kai
@@ -275,6 +279,8 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12286 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 129 decks; highest synergy [Accumulate Wisdom](../../cards/A/ac.md#accumulate-wisdom) (+78%), [Origin of Metalbending](../../cards/O/or.md#origin-of-metalbending) (+74%), [True Ancestry](../../cards/T/tru.md#true-ancestry) (+74%) · EDHREC: in 8,657 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (31.8% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (8.8% of its decks), [Katara, the Fearless](../../cards/K/ka.md#katara-the-fearless) (3.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-lion-turtle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/232/the-lion-turtle) · oracle_id `fff728a1-56f5-4e97-91e2-19aba5772909` · printing: TLA #232 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8491585c-81d0-48be-8ed0-832e42fad9c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -289,6 +295,8 @@ schema: 2
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03/the-local-guides) · oracle_id `1c9af8a9-40be-4925-bf52-12e991a1be71` · printing: UNK #RG03 (2026-07-17) · [rulings](https://api.scryfall.com/cards/7a08a1db-ec32-4783-baff-8fb09219f9ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Locust God
@@ -411,6 +419,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14424 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Fungus creature may become lethal if Thelon leaves the battlefield during that turn or if spore counters are removed from the Fungus during that turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,061 decks; highest synergy [Sporesower Thallid](../../cards/S/spo.md#sporesower-thallid) (+96%), [Deathspore Thallid](../../cards/D/dea.md#deathspore-thallid) (+95%), [Utopia Mycon](../../cards/U/ut.md#utopia-mycon) (+94%) · EDHREC: in 5,010 decks; most often under [Slimefoot, the Stowaway](../../cards/S/sl.md#slimefoot-the-stowaway) (25.6% of its decks), [The Mycotyrant](../../cards/T/them.md#the-mycotyrant) (8.9% of its decks), [Xavier Sal, Infested Captain](../../cards/X/xa.md#xavier-sal-infested-captain) (9.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/238/thelon-of-havenwood) · oracle_id `c673b7b0-c1e7-4bcd-8fe0-66d83f22ecb9` · printing: TSR #238 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelon's Chant
@@ -474,6 +484,8 @@ schema: 2
   - *2026-06-29* — The cost reduction ability reduces only the generic mana in the cost to cast The Lord of the Eagles. The colored mana must still be paid.
   - *2026-06-29* — The total cost to cast The Lord of the Eagles is locked in before you pay that cost. For example, if you control three flying creatures, each with power 2, including one you can sacrifice to add {C}, the total cost of The Lord of the Eagles is {1}{U}{U}. Then you can sacrifice the creature as you activate mana abilities just before paying the cost.
   - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of The Lord of the Eagles). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 765 decks; highest synergy [Warden of Evos Isle](../../cards/W/war.md#warden-of-evos-isle) (+80%), [Favorable Winds](../../cards/F/fa.md#favorable-winds) (+74%), [Gravitational Shift](../../cards/G/gra.md#gravitational-shift) (+63%) · EDHREC: in 6,640 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (35.3% of its decks), [Kastral, the Windcrested](../../cards/K/ka.md#kastral-the-windcrested) (51.8% of its decks), [Errant and Giada](../../cards/E/er.md#errant-and-giada) (34.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/46/the-lord-of-the-eagles) · oracle_id `3b38f314-d997-4c2a-b4c9-40dbe780993d` · printing: HOB #46 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lost and the Damned

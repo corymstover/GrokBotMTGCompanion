@@ -110,6 +110,8 @@ schema: 2
   - *2023-06-16* — A creature that is both a Beast and a Bird still only gets one instance of ward {1} from Radagast, Wizard of Wilds's first ability.
   - *2023-06-16* — If Radagast, Wizard of Wilds is a Beast or a Bird, it will have two instances of ward {1}.
   - *2023-06-16* — Radagast, Wizard of the Wilds's last triggered ability will resolve before the spell that caused it to trigger resolves. It will resolve even if the spell that caused it to trigger is countered or has otherwise left the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 29 combos; most popular [Radagast, Wizard of Wilds + Adrix and Nev, Twincasters + Temur Sabertooth + Phyrexian Altar + Tangle Golem](https://commanderspellbook.com/combo/215-851-4050-4555-5176/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 778 decks; highest synergy [Garruk's Packleader](../../cards/G/ga.md#garruks-packleader) (+63%), [Thunderfoot Baloth](../../cards/T/thu.md#thunderfoot-baloth) (+60%), [Elder Gargaroth](../../cards/E/el.md#elder-gargaroth) (+59%) · EDHREC: in 6,072 decks; most often under [Choco, Seeker of Paradise](../../cards/C/cho.md#choco-seeker-of-paradise) (10.1% of its decks), [Tawnos, the Toymaker](../../cards/T/ta.md#tawnos-the-toymaker) (61.9% of its decks), [Gandalf, Westward Voyager](../../cards/G/ga.md#gandalf-westward-voyager) (42.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#radagast-wizard-of-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/66/radagast-wizard-of-wilds) · oracle_id `50f144f8-29eb-4af7-9a50-eded3b9c83c2` · printing: LTC #66 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -194,6 +196,8 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19135 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 200 decks; highest synergy [Emeria Angel](../../cards/E/em.md#emeria-angel) (+51%), [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (+48%), [Sephara, Sky's Blade](../../cards/S/sep.md#sephara-skys-blade) (+42%) · EDHREC: in 2,460 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (2.5% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.4% of its decks), [Sephara, Sky's Blade](../../cards/S/sep.md#sephara-skys-blade) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/40/radiant-archangel) · oracle_id `859cbe11-e1e6-4309-94da-8725db1b3fc2` · printing: VMA #40 (2014-06-16) · [rulings](https://api.scryfall.com/cards/4d976c91-2377-470a-8129-eeb716451252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Destiny
@@ -425,6 +429,8 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Lore:** ✅ Presented with an official backstory on [The Legendary Characters of Commander Legends, Part 1](https://magic.wizards.com/en/news/card-preview/legendary-characters-commander-legends-part-1-2020-10-30) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 26 decks; highest synergy [Serra Angel](../../cards/S/ser.md#serra-angel) (+63%), [Serra the Benevolent](../../cards/S/ser.md#serra-the-benevolent) (+48%), [Serra's Guardian](../../cards/S/ser.md#serras-guardian) (+48%) · EDHREC: in 1,975 decks; most often under [Giada, Font of Hope](../../cards/G/gi.md#giada-font-of-hope) (1.7% of its decks), [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (0.6% of its decks), [Shilgengar, Sire of Famine](../../cards/S/shi.md#shilgengar-sire-of-famine) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/40/radiant-serra-archangel) · oracle_id `4a8227ff-0ae4-4405-8e44-1f5187a7f9f5` · printing: CMR #40 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant's Judgment
@@ -554,6 +560,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21449 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 19 decks; highest synergy [Trailblazer's Boots](../../cards/T/tra.md#trailblazers-boots) (+66%), [Access Tunnel](../../cards/A/ac.md#access-tunnel) (+65%), [Key to the City](../../cards/K/ke.md#key-to-the-city) (+61%) · EDHREC: in 1,826 decks; most often under [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (4.2% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.4% of its decks), [Loki, the Deceiver](../../cards/L/lo.md#loki-the-deceiver) (6.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/665/radioactive-man) · oracle_id `6e901cab-fba9-4581-9f09-90473bbd8e30` · printing: MSC #665 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8a195220-26ce-4254-9dd9-7ecf89569b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radioactive Spider

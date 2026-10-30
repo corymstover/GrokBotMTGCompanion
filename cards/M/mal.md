@@ -322,6 +322,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9668 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — Malcator will count any artifacts that entered the battlefield under your control during the turn, even if you didn't control Malcator at the time. Malcator won't count non-artifact permanents you controlled that became artifacts.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Malcator, Purity Overseer + Nim Deathmantle + Ashnod's Altar](https://commanderspellbook.com/combo/2034-2780-5003/) (Infinite death triggers, Infinite creature ETB) · EDHREC as commander: 1,177 decks; highest synergy [Blade Splicer](../../cards/B/bla.md#blade-splicer) (+81%), [Wing Splicer](../../cards/W/wi.md#wing-splicer) (+79%), [Master Splicer](../../cards/M/mas.md#master-splicer) (+77%) · EDHREC: in 12,137 decks; most often under [Brenard, Ginger Sculptor](../../cards/B/br.md#brenard-ginger-sculptor) (54.2% of its decks), [Brago, King Eternal](../../cards/B/br.md#brago-king-eternal) (15.1% of its decks), [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (1.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/208/malcator-purity-overseer) · oracle_id `0d1c6a82-943a-46bd-97ed-6055226ef2ab` · printing: ONE #208 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcator's Watcher
@@ -555,6 +557,8 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — After you discard your hand and the number of creatures each opponent must sacrifice has been determined, each opponent in turn order, starting with the player whose turn it is if that player is your opponent, chooses which creatures they will sacrifice, then all the chosen creatures are all sacrificed at the same time.
   - *2017-11-17* — Malfegor’s ability is not optional. You must discard your entire hand no matter how many creatures your opponents control.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 938 decks; highest synergy [Asylum Visitor](../../cards/A/as.md#asylum-visitor) (+69%), [Anje's Ravager](../../cards/A/an.md#anjes-ravager) (+68%), [Necrogoyf](../../cards/N/ne.md#necrogoyf) (+68%) · EDHREC: in 4,824 decks; most often under [Kaalia of the Vast](../../cards/K/ka.md#kaalia-of-the-vast) (1.8% of its decks), [Rivaz of the Claw](../../cards/R/ri.md#rivaz-of-the-claw) (5.2% of its decks), [Be'lakor, the Dark Master](../../cards/B/be.md#belakor-the-dark-master) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/205/malfegor) · oracle_id `52e1546a-63eb-48d7-acc4-81b912aabc90` · printing: IMA #205 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malfunction
@@ -706,6 +710,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13345 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,119 decks; highest synergy [Ephemerate](../../cards/E/ep.md#ephemerate) (+61%), [Plaguecrafter](../../cards/P/pl.md#plaguecrafter) (+59%), [Mayhem Devil](../../cards/M/may.md#mayhem-devil) (+58%) · EDHREC: in 3,168 decks; most often under [Vihaan, Goldwaker](../../cards/V/vi.md#vihaan-goldwaker) (6.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (1.3% of its decks), [Dihada, Binder of Wills](../../cards/D/di.md#dihada-binder-of-wills) (1.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/23/malik-grim-manipulator) · oracle_id `416608a1-89a4-44ce-8fd0-fab6b023d3d4` · printing: SLX #23 (2023-09-08) · [rulings](https://api.scryfall.com/cards/5cf4fee3-3059-4ca4-a47d-0848410b294d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malleable Impostor

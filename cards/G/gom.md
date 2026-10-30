@@ -71,4 +71,6 @@ schema: 2
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03i/gomif-fast-racer) · oracle_id `865a9402-b175-425d-9761-3964d1eb4bea` · printing: UNK #RZ03i (2025-02-21) · [rulings](https://api.scryfall.com/cards/0a272a41-fcf0-4434-9cb3-0ea6867e0c56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

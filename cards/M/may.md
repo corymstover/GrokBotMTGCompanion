@@ -51,6 +51,8 @@ schema: 2
   > *The sacred Anima's eyes are blind to all but the grandest truths.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15292 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,072 decks; highest synergy [Gisela, Blade of Goldnight](../../cards/G/gi.md#gisela-blade-of-goldnight) (+59%), [Terastodon](../../cards/T/te.md#terastodon) (+54%), [Archetype of Endurance](../../cards/A/arc.md#archetype-of-endurance) (+51%) · EDHREC: in 1,143 decks; most often under [Atla Palani, Nest Tender](../../cards/A/at.md#atla-palani-nest-tender) (1.0% of its decks), [Marath, Will of the Wild](../../cards/M/mar.md#marath-will-of-the-wild) (2.5% of its decks), [Gishath, Sun's Avatar](../../cards/G/gi.md#gishath-suns-avatar) (0.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/199/mayael-the-anima) · oracle_id `7f546d54-584d-4bec-8fbb-1ea2f8ab277e` · printing: C13 #199 (2013-11-01) · [rulings](https://api.scryfall.com/cards/309d95ad-e46c-4407-894d-d4cfdc7017f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Devil

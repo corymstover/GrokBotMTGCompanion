@@ -146,6 +146,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13319 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — Raff, Weatherlight Stalwart’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Lore:** ✅ Presented with an official backstory on [The Legends You'll Find in Dominaria United](https://magic.wizards.com/en/news/feature/legends-youll-find-dominaria-united-2022-09-01) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,158 decks; highest synergy [Raise the Alarm](../../cards/R/rai.md#raise-the-alarm) (+66%), [Talrand, Sky Summoner](../../cards/T/ta.md#talrand-sky-summoner) (+59%), [Monastery Mentor](../../cards/M/mon.md#monastery-mentor) (+57%) · EDHREC: in 6,207 decks; most often under [Gandalf, Party Guest](../../cards/G/ga.md#gandalf-party-guest) (19.3% of its decks), [Katilda and Lier](../../cards/K/ka.md#katilda-and-lier) (30.1% of its decks), [Kykar, Wind's Fury](../../cards/K/ky.md#kykar-winds-fury) (4.0% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/212/raff-weatherlight-stalwart) · oracle_id `41f3acbf-6092-435f-a5af-4d80dd6e1aef` · printing: DMU #212 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafiq of the Many
@@ -167,6 +169,8 @@ schema: 2
   - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
   - *2008-10-01* — In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
   - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 4 combos; most popular [Rafiq of the Many + Eldrazi Conscription](https://commanderspellbook.com/combo/297-1994/) (Target opponent loses the game) · EDHREC as commander: 4,973 decks; highest synergy [Finest Hour](../../cards/F/fi.md#finest-hour) (+85%), [Qasali Pridemage](../../cards/Q/qa.md#qasali-pridemage) (+73%), [Cathedral of War](../../cards/C/cat.md#cathedral-of-war) (+69%) · EDHREC: in 5,807 decks; most often under [Progenitus](../../cards/P/pr.md#progenitus) (30.2% of its decks), [Galea, Kindler of Hope](../../cards/G/ga.md#galea-kindler-of-hope) (15.8% of its decks), [Aragorn, the Uniter](../../cards/A/ara.md#aragorn-the-uniter) (1.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/352/rafiq-of-the-many) · oracle_id `c6e17443-2379-419d-8c32-13ea9bf52993` · printing: CMM #352 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafi, Retro Racer
@@ -179,6 +183,8 @@ schema: 2
   > {R}, Sacrifice Rafi: Each player adds {R}{R}{R}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04e/rafi-retro-racer) · oracle_id `19146dcd-f624-4ce5-a8dd-48f7c6321d40` · printing: UNK #RR04e (2025-02-21) · [rulings](https://api.scryfall.com/cards/eccc5c45-9666-4d0d-95d2-5fb2fdfec32c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafter Demon

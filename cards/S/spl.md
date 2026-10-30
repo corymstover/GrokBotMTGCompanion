@@ -267,6 +267,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16654 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — If the target player is an illegal target when Splinter's last ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 20 decks; highest synergy [Parting Gust](../../cards/P/pa.md#parting-gust) (+68%), [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+65%), [Airbender Ascension](../../cards/A/ai.md#airbender-ascension) (+64%) · EDHREC: in 4,234 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (17.8% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (26.5% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (4.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/104/splinter-aging-champion) · oracle_id `45a87131-ae8a-4e6d-9ac0-e52b4795691b` · printing: TMC #104 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinterfright
@@ -302,6 +304,8 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 16 decks; highest synergy [Azra Smokeshaper](../../cards/A/az.md#azra-smokeshaper) (+81%), [Biting-Palm Ninja](../../cards/B/bi.md#biting-palm-ninja) (+81%), [Throatseeker](../../cards/T/thr.md#throatseeker) (+81%) · EDHREC: in 13,060 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (69.8% of its decks), [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (24.6% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (81.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/79/splinter-hamato-yoshi) · oracle_id `41fbdaa2-7a7a-44d5-a8f4-77624350eedd` · printing: TMT #79 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splintering Wind
@@ -325,6 +329,8 @@ schema: 2
   > • Put a +1/+1 counter on each other creature target player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20170 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Splinter & Leo, Father & Son](https://commanderspellbook.com/combo/2034-5003-7331/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 10 decks; highest synergy [Leonardo's Technique](../../cards/L/le.md#leonardos-technique) (+60%), [Dáin, Lord of the Iron Hills](../../cards/D/da.md#dáin-lord-of-the-iron-hills) (+49%), [Belladonna Took](../../cards/B/be.md#belladonna-took) (+44%) · EDHREC: in 2,254 decks; most often under [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (6.4% of its decks), [Dark Leo & Shredder](../../cards/D/da.md#dark-leo--shredder) (12.4% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (7.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/103/splinter-&-leo-father-&-son) · oracle_id `c01095ba-b9c9-44e0-97d1-35cc47c4ed04` · printing: TMC #103 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a8959c36-068f-48fa-ab6a-9dd24ba985ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Splinter, Radical Rat

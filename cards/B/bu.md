@@ -327,6 +327,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22289 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 5 decks; highest synergy [Sevinne's Reclamation](../../cards/S/sev.md#sevinnes-reclamation) (+67%), [Alaborn Zealot](../../cards/A/al.md#alaborn-zealot) (+60%), [Cliffside Rescuer](../../cards/C/cl.md#cliffside-rescuer) (+60%) · EDHREC: in 1,541 decks; most often under [Winter Soldier, Icy Assassin](../../cards/W/wi.md#winter-soldier-icy-assassin) (20.8% of its decks), [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (3.0% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (3.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/586/bucky-barnes-eager-ally) · oracle_id `55bc5d06-7dd1-4403-af32-0e10d8bbe327` · printing: MSC #586 (2026-06-26) · [rulings](https://api.scryfall.com/cards/58a6ca84-64b8-4137-b3ce-9540b6dfa162/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bucolic Ranch
@@ -643,6 +645,8 @@ schema: 2
   > *"I don't miss."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21737 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 158 decks; highest synergy [Ichor Wellspring](../../cards/I/ic.md#ichor-wellspring) (+63%), [Weapons Manufacturing](../../cards/W/we.md#weapons-manufacturing) (+58%), [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+56%) · EDHREC: in 1,560 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (3.6% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (37.0% of its decks), [Doctor Doom, King of Latveria](../../cards/D/do.md#doctor-doom-king-of-latveria) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/209/bullseye-death-dealer) · oracle_id `10db57b4-f895-4514-b610-2252ba676353` · printing: MSH #209 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fd1f0b5f-5e0e-4da1-ab54-a62db5af3591/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bull's Strength
@@ -803,6 +807,8 @@ schema: 2
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You can't choose the same mode of Bumi, King of Three Trials's triggered ability more than once. As there are only three modes, even if X is greater than three, you won't get additional effects after choosing each mode once.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 34 decks; highest synergy [Seismic Sense](../../cards/S/sei.md#seismic-sense) (+92%), [Rockalanche](../../cards/R/ro.md#rockalanche) (+91%), [Bumi's Feast Lecture](../../cards/B/bu.md#bumis-feast-lecture) (+87%) · EDHREC: in 12,332 decks; most often under [Iroh, Grand Lotus](../../cards/I/ir.md#iroh-grand-lotus) (18.4% of its decks), [Toph, the First Metalbender](../../cards/T/to.md#toph-the-first-metalbender) (7.5% of its decks), [Avatar Aang](../../cards/A/av.md#avatar-aang--aang-master-of-elements) (7.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/169/bumi-king-of-three-trials) · oracle_id `f7493bcf-5c17-4562-a759-37082ec49ff8` · printing: TLA #169 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bumi's Feast Lecture
@@ -2056,6 +2062,8 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15447 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 95 decks; highest synergy [Duskshell Crawler](../../cards/D/du.md#duskshell-crawler) (+52%), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (+43%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+42%) · EDHREC: in 5,379 decks; most often under [Blech, Loafing Pest](../../cards/B/ble.md#blech-loafing-pest) (15.6% of its decks), [The Serpent Society](../../cards/T/thes.md#the-serpent-society) (8.7% of its decks), [Fynn, the Fangbearer](../../cards/F/fy.md#fynn-the-fangbearer) (5.2% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter payoffs](../../EDH%20Packages.md#11-counters-counter-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/716/bushmaster-coiled-henchman) · oracle_id `21067a25-f749-4b79-bc6d-820a91af2834` · printing: MSC #716 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0e249024-f9d6-459e-ac2e-53209abb7d53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bushmeat Poacher
@@ -2159,6 +2167,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11847 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-03-08* — A permanent that's both a Rogue and a Snake is counted only once for Butch DeLoria's second ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 519 decks; highest synergy [Oona's Blackguard](../../cards/O/oo.md#oonas-blackguard) (+74%), [Frogtosser Banneret](../../cards/F/fr.md#frogtosser-banneret) (+71%), [Stinkdrinker Bandit](../../cards/S/sti.md#stinkdrinker-bandit) (+61%) · EDHREC: in 8,756 decks; most often under [Anowon, the Ruin Thief](../../cards/A/an.md#anowon-the-ruin-thief) (23.1% of its decks), [Caesar, Legion's Emperor](../../cards/C/cae.md#caesar-legions-emperor) (7.1% of its decks), [Laughing Jasper Flint](../../cards/L/la.md#laughing-jasper-flint) (8.2% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/43/butch-deloria-tunnel-snake) · oracle_id `20f92504-d03c-437e-9814-b25ee384b3ba` · printing: PIP #43 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Butcher Ghoul
@@ -2273,6 +2283,8 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 92 decks; highest synergy [Rosie Cotton of South Lane](../../cards/R/ro.md#rosie-cotton-of-south-lane) (+59%), [Peregrin Took](../../cards/P/pe.md#peregrin-took) (+58%), [Mushroom Watchdogs](../../cards/M/mu.md#mushroom-watchdogs) (+54%) · EDHREC: in 8,136 decks; most often under [Frodo, Adventurous Hobbit // Sam, Loyal Attendant](../../cards/F/fr.md#frodo-adventurous-hobbit) (14.2% of its decks), [Merry, Warden of Isengard // Pippin, Warden of Isengard](../../cards/M/me.md#merry-warden-of-isengard) (9.3% of its decks), [Samwise Gamgee](../../cards/S/sam.md#samwise-gamgee) (11.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/197/butterbur-bree-innkeeper) · oracle_id `ec136f6f-015b-4200-97b6-a2c1bf39e135` · printing: LTR #197 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Buy Your Silence

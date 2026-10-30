@@ -419,6 +419,8 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29138 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Inspirit, Flagship Vessel + Magistrate's Scepter + Brad Boimler, Eager Ensign](https://commanderspellbook.com/combo/3609-6750-7803/) (Infinite turns, Lock) · EDHREC as commander: 34 decks; highest synergy [Patrolling Peacemaker](../../cards/P/pa.md#patrolling-peacemaker) (+80%), [Grateful Apparition](../../cards/G/gra.md#grateful-apparition) (+71%), [The Seriema](../../cards/T/thes.md#the-seriema) (+65%) · EDHREC: in 591 decks; most often under [Inspirit, Flagship Vessel](../../cards/I/ins.md#inspirit-flagship-vessel) (0.8% of its decks), [The Fifth Doctor // Susan Foreman](../../cards/T/thef.md#the-fifth-doctor) (8.1% of its decks), [Kilo, Apogee Mind](../../cards/K/ki.md#kilo-apogee-mind) (0.4% of its decks) — *Guidance (Oracle pattern)* — packages: [+1/+1 counters: Counter doublers](../../EDH%20Packages.md#11-counters-counter-doublers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/5/brad-boimler-eager-ensign) · oracle_id `10af9cd9-1700-48f9-97e1-61e239536fef` · printing: TRK #5 (2026-11-13) · [rulings](https://api.scryfall.com/cards/a6bf1525-2212-46d0-ad4d-1dbaa2e3b3cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brago, King Eternal
@@ -872,6 +874,8 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW02a/bram-baguette-brawler) · oracle_id `dca99e27-9581-41f0-8769-03e37641febe` · printing: UNK #RW02a (2023-09-23) · [rulings](https://api.scryfall.com/cards/b3a883ab-72b7-4b0c-8196-c3e422e26f50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bramble Armor
@@ -1499,6 +1503,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9831 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — The ability that defines Braulios's power and toughness works in all zones, not just the battlefield.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 413 decks; highest synergy [Explore](../../cards/E/ex.md#explore) (+39%), [Beanstalk Giant](../../cards/B/be.md#beanstalk-giant--fertile-footsteps) (+31%), [Cultivator Colossus](../../cards/C/cu.md#cultivator-colossus) (+30%) · EDHREC: in 12,769 decks; most often under [Loot, Exuberant Explorer](../../cards/L/lo.md#loot-exuberant-explorer) (15.7% of its decks), [Tifa Lockhart](../../cards/T/ti.md#tifa-lockhart) (4.6% of its decks), [Bonny Pall, Clearcutter](../../cards/B/bo.md#bonny-pall-clearcutter) (10.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/51/braulios-of-pheres-band) · oracle_id `70e247e5-6ca4-458c-9519-d19b400955f6` · printing: J25 #51 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bravado
@@ -1680,6 +1686,8 @@ schema: 2
 - **Keywords:** Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22150 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 25 decks; highest synergy [Eureka Moment](../../cards/E/eu.md#eureka-moment) (+32%), [Goliath, Mass Manipulator](../../cards/G/gol.md#goliath-mass-manipulator) (+28%), [Fyndhorn Elves](../../cards/F/fy.md#fyndhorn-elves) (+26%) · EDHREC: in 1,544 decks; most often under [Bruce Banner](../../cards/B/br.md#bruce-banner--the-incredible-hulk) (12.5% of its decks), [Nick Fury, Agent of S.H.I.E.L.D.](../../cards/N/ni.md#nick-fury-agent-of-shield) (1.6% of its decks), [The Astonishing Ant-Man](../../cards/T/thea.md#the-astonishing-ant-man) (1.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/567/brawn-amadeus-cho) · oracle_id `19910a90-d334-4d99-89f2-cd81cea3c824` · printing: MSC #567 (2026-06-26) · [rulings](https://api.scryfall.com/cards/813ef553-28f2-46d5-b14b-76ebcbe061d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brazen Blademaster
@@ -2608,6 +2616,8 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 13 combos; most popular [Brenard, Ginger Sculptor + Eternal Scourge + Ashnod's Altar](https://commanderspellbook.com/combo/1314-1806-2034/) (Infinite colorless mana, Infinite creature tokens) · EDHREC as commander: 9,492 decks; highest synergy [Blade Splicer](../../cards/B/bla.md#blade-splicer) (+70%), [Wing Splicer](../../cards/W/wi.md#wing-splicer) (+70%), [Darksteel Splicer](../../cards/D/da.md#darksteel-splicer) (+64%) · EDHREC: in 3,616 decks; most often under [Aang, at the Crossroads](../../cards/A/aa.md#aang-at-the-crossroads--aang-destined-savior) (11.3% of its decks), [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (4.6% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-27/brenard-ginger-sculptor) · oracle_id `1a2ab12a-5778-40df-a2ec-2733a7121cb4` · printing: PLST #WOC-27 (2025-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bre of Clan Stoutarm
@@ -3187,6 +3197,8 @@ schema: 2
   - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
   - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
   - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Bright-Palm, Soul Awakener + Crystalline Crawler + Aggravated Assault](https://commanderspellbook.com/combo/2060-2090-3750/) (Infinite +1/+1 counters on certain creatures, Infinite colored mana) · EDHREC as commander: 3,246 decks; highest synergy [Kalonian Hydra](../../cards/K/ka.md#kalonian-hydra) (+67%), [Conclave Sledge-Captain](../../cards/C/con.md#conclave-sledge-captain) (+65%), [Forgotten Ancient](../../cards/F/fo.md#forgotten-ancient) (+65%) · EDHREC: in 9,759 decks; most often under [Shalai and Hallar](../../cards/S/sha.md#shalai-and-hallar) (42.9% of its decks), [Miles Morales](../../cards/M/mil.md#miles-morales--ultimate-spider-man) (30.5% of its decks), [Aragorn, Hornburg Hero](../../cards/A/ara.md#aragorn-hornburg-hero) (29.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/1/bright-palm-soul-awakener) · oracle_id `f74888ee-5086-49a6-ae74-fd9894f46332` · printing: MOC #1 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bright Reprisal
@@ -3287,6 +3299,8 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13683 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 405 decks; highest synergy [Basilisk Collar](../../cards/B/bas.md#basilisk-collar) (+71%), [Gorgon's Head](../../cards/G/gor.md#gorgons-head) (+66%), [Gorgon Flail](../../cards/G/gor.md#gorgon-flail) (+61%) · EDHREC: in 6,424 decks; most often under [Ohabi Caleria](../../cards/O/oh.md#ohabi-caleria) (88.2% of its decks), [Brigid, Clachan's Heart](../../cards/B/br.md#brigid-clachans-heart--brigid-douns-mind) (19.4% of its decks), [Trostani, Three Whispers](../../cards/T/tro.md#trostani-three-whispers) (24.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/6/brigid-hero-of-kinsbaile) · oracle_id `929ad5c3-4efe-44c3-93ac-eda432814385` · printing: LRW #6 (2007-10-12) · [rulings](https://api.scryfall.com/cards/da70a20f-213e-4d79-a46f-1ef1fc3f4a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brigid's Command
@@ -3326,6 +3340,8 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#brigid-whos-seen-some-stuff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/510/brigid-whos-seen-some-stuff) · oracle_id `f4bf3077-b06b-4cb8-8ff4-3adf4f9da8e9` · printing: MB2 #510 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e838ae3b-c71b-4134-b60a-c467c5f77940/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -3504,6 +3520,8 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29708 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — Whether or not Brims has menace matters only as blockers are declared. After that point, a gust of wind removing your hat or blowing a new hat onto your head won’t change which blockers have already legally been declared.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — EDHREC as commander: 212 decks; highest synergy [Hat Trick](../../cards/H/ha.md#hat-trick) (+76%), [Rat in the Hat](../../cards/R/rat.md#rat-in-the-hat) (+75%), [Abzan Falconer](../../cards/A/ab.md#abzan-falconer) (+73%) · EDHREC: in 33 decks; most often under [Vorthos, Steward of Myth](../../cards/V/vo.md#vorthos-steward-of-myth) (1.3% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.0% of its decks), [Olivia, Opulent Outlaw](../../cards/O/ol.md#olivia-opulent-outlaw) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#brims-barone-midway-mobster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/163/brims-barone-midway-mobster) · oracle_id `c64c31f2-c1be-414e-9dff-c3b77ba97545` · printing: UNF #163 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -5228,6 +5246,8 @@ schema: 2
   - *2004-12-01* — The two Brothers could be controlled by different players.
   - *2004-12-01* — There are two versions of this card, each with different art. The cards are numbered 160a/306 and 160b/306. The art has no effect on game play.
   - *2013-07-01* — If a third Brothers Yamazaki enters the battlefield, the legend rule will apply. If one player controls more than one Brothers Yamazaki at that time, that player will have to choose one and put the rest into their graveyard.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 382 decks; highest synergy [Mirror Box](../../cards/M/mir.md#mirror-box) (+67%), [Helm of the Host](../../cards/H/he.md#helm-of-the-host) (+63%), [Orthion, Hero of Lavabrink](../../cards/O/or.md#orthion-hero-of-lavabrink) (+57%) · EDHREC: in 660 decks; most often under [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.2% of its decks), [Godo, Bandit Warlord](../../cards/G/god.md#godo-bandit-warlord) (3.7% of its decks), [Shaun, Father of Synths](../../cards/S/sha.md#shaun-father-of-synths) (5.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/160a/brothers-yamazaki) · oracle_id `5c820811-1775-4ea4-b003-721750a4d90f` · printing: CHK #160a (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Brought Back
@@ -5424,6 +5444,8 @@ schema: 2
   - *2024-04-12* — Bruse Tarl's ability doesn't allow you to play land cards that it exiles. But hey, free Oxen.
   - *2024-04-12* — If Bruse Tarl leaves the battlefield after other Oxen you control have dealt first-strike damage but before regular combat damage, those Oxen won't deal regular combat damage (unless they still have double strike for some other reason) .
   - *2024-04-12* — You pay all costs and follow all normal timing rules for spells cast from exile with Bruse Tarl's last ability. For example, if you exile a creature card this way, you must wait until your main phase to cast it.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 964 decks; highest synergy [Holy Cow](../../cards/H/ho.md#holy-cow) (+85%), [Charging Cinderhorn](../../cards/C/cha.md#charging-cinderhorn) (+77%), [Taurean Mauler](../../cards/T/ta.md#taurean-mauler) (+75%) · EDHREC: in 3,850 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (3.0% of its decks), [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (2.0% of its decks), [Isshin, Two Heavens as One](../../cards/I/is.md#isshin-two-heavens-as-one) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bruse-tarl-roving-rancher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/198/bruse-tarl-roving-rancher) · oracle_id `c22589e1-1721-43a3-897e-990af6ebcffa` · printing: OTJ #198 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

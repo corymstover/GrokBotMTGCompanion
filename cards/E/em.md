@@ -1305,6 +1305,8 @@ schema: 2
 - **Keywords:** Saddle, Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06j/emerin-shivan-angel) · oracle_id `626b0f06-60bb-4683-97c2-4732cf5d9c28` · printing: UNK #RZ06j (2026-07-17) · [rulings](https://api.scryfall.com/cards/80b21646-880a-4793-acb0-d959b8e7ab47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeritus of Abundance // Regrowth
@@ -1844,6 +1846,8 @@ schema: 2
   > *"Above the waves you may be mighty indeed, but down here you belong to me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9730 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 956 decks; highest synergy [Leyline of Singularity](../../cards/L/le.md#leyline-of-singularity) (+72%), [Bribery](../../cards/B/br.md#bribery) (+64%), [Control Magic](../../cards/C/con.md#control-magic) (+64%) · EDHREC: in 12,187 decks; most often under [Hakbal of the Surging Soul](../../cards/H/ha.md#hakbal-of-the-surging-soul) (5.4% of its decks), [Sen Triplets](../../cards/S/sen.md#sen-triplets) (12.1% of its decks), [Merieke Ri Berit](../../cards/M/me.md#merieke-ri-berit) (24.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/54/empress-galina) · oracle_id `ea2614bc-00ad-4859-98f5-689f33357fe6` · printing: INV #54 (2000-10-02) · [rulings](https://api.scryfall.com/cards/6851dbc7-f072-41e7-a899-897445d99425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emptiness
@@ -2068,6 +2072,8 @@ schema: 2
 - **Keywords:** Flying, Landwalk, Devoid, Protection, Forestwalk, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG10/emrakul-and-chatterfang) · oracle_id `3c51bc3d-9f98-4d91-bb7b-a44d48ea06f9` · printing: UNK #RG10 (2023-05-06) · [rulings](https://api.scryfall.com/cards/a05d2a64-fc37-4bb8-ad98-0cbf08552d81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emrakul's Evangel
@@ -2156,6 +2162,8 @@ schema: 2
   - *2018-12-07* — Emrakul can be targeted by spells that try to counter it (such as Ionize). Those spells will resolve, but the part of their effect that would counter Emrakul won't do anything. Any other effects those spells have will work as normal.
   - *2018-12-07* — Emrakul can't be the target of colored Aura spells, but colored Auras can be put onto the battlefield enchanting it.
   - *2018-12-07* — Emrakul's second ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if that spell is somehow removed from the stack.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#emrakul-the-aeons-torn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/1/emrakul-the-aeons-torn) · oracle_id `900ca697-ad38-4b2b-bc74-2ff7eb6ea951` · printing: 2X2 #1 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

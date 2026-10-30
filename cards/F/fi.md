@@ -1412,6 +1412,8 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Nim Deathmantle + Ashnod's Altar + Fíli the Pathfinder](https://commanderspellbook.com/combo/2034-5003-7899/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 14 decks; highest synergy [Dáin, Lord of the Iron Hills](../../cards/D/da.md#dáin-lord-of-the-iron-hills) (+99%), [Bofur, Reliable Guardian](../../cards/B/bo.md#bofur-reliable-guardian--concerted-care) (+92%), [Dwarven Priest](../../cards/D/dw.md#dwarven-priest) (+86%) · EDHREC: in 13,840 decks; most often under [Thorin, King of Durin's Folk](../../cards/T/tho.md#thorin-king-of-durins-folk) (92.9% of its decks), [Dáin of the Ancient Halls](../../cards/D/da.md#dáin-of-the-ancient-halls) (92.5% of its decks), [Thorin Oakenshield](../../cards/T/tho.md#thorin-oakenshield) (81.5% of its decks) — *Guidance (Oracle pattern)* — packages: [Tokens: Anthems](../../EDH%20Packages.md#tokens-anthems) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fíli-the-pathfinder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/14/f%C3%ADli-the-pathfinder) · oracle_id `c91c7d6b-a502-4b66-9509-3c1eda00e763` · printing: HOB #14 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -1924,6 +1926,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19966 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 914 decks; highest synergy [Cleansing Wildfire](../../cards/C/cl.md#cleansing-wildfire) (+79%), [Seismic Spike](../../cards/S/sei.md#seismic-spike) (+76%), [Geomancer's Gambit](../../cards/G/ge.md#geomancers-gambit) (+72%) · EDHREC: in 1,496 decks; most often under [River Song](../../cards/R/ri.md#river-song) (17.0% of its decks), [Thanos, the Mad Titan](../../cards/T/tha.md#thanos-the-mad-titan) (2.3% of its decks), [Madame Hydra](../../cards/M/mad.md#madame-hydra) (9.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Spellslinger: Cast-trigger payoffs](../../EDH%20Packages.md#spellslinger-cast-trigger-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/129/fin-fang-foom) · oracle_id `52ec472e-a745-4e25-b9a7-8e1eb8873594` · printing: MSH #129 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7777fac1-7bf5-4454-960d-26ec3183e392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Finishing Blow
@@ -2188,6 +2192,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15365 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 24 decks; highest synergy [Loyal Apprentice](../../cards/L/lo.md#loyal-apprentice) (+70%), [Gogo, Mysterious Mime](../../cards/G/gog.md#gogo-mysterious-mime) (+50%), [Krenko, Tin Street Kingpin](../../cards/K/kr.md#krenko-tin-street-kingpin) (+49%) · EDHREC: in 5,408 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (65.5% of its decks), [Director Nick Fury](../../cards/D/di.md#director-nick-fury) (40.2% of its decks), [Daredevil, Man Without Fear](../../cards/D/da.md#daredevil-man-without-fear) (8.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/50/firebird-blazing-ranger) · oracle_id `3d917331-9f49-4d0c-bb2d-4853e3ff6ca1` · printing: MSC #50 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11dc3b30-b130-4558-ab37-9c32792641ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fireblade Artist
@@ -2720,6 +2726,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9929 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — You must follow normal time restrictions for cards cast using Fire Lord Ozai's activated ability. For example, if you exile a creature card, it can only be cast in your main phase when the stack is empty. Notably, you usually cannot cast a creature card exiled with this ability on your opponent's turn unless it has flash.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 3 combos; most popular [Fire Lord Ozai + Hellkite Charger + Helm of the Host](https://commanderspellbook.com/combo/1692-3398-6870/) (Infinite creature LTB, Infinite creature ETB) · EDHREC as commander: 1,007 decks; highest synergy [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (+57%), [Kalakscion, Hunger Tyrant](../../cards/K/ka.md#kalakscion-hunger-tyrant) (+54%), [Bygone Colossus](../../cards/B/by.md#bygone-colossus) (+51%) · EDHREC: in 11,895 decks; most often under [Fire Lord Zuko](../../cards/F/fi.md#fire-lord-zuko) (33.8% of its decks), [Ozai, the Phoenix King](../../cards/O/oz.md#ozai-the-phoenix-king) (42.6% of its decks), [Fire Lord Azula](../../cards/F/fi.md#fire-lord-azula) (3.4% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Impulse / exile-to-play](../../EDH%20Packages.md#card-advantage-impulse--exile-to-play) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/104/fire-lord-ozai) · oracle_id `5945306d-e792-4eae-999b-dfb44b10f062` · printing: TLE #104 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fire Lord Zuko
@@ -3420,6 +3428,8 @@ schema: 2
   - *2018-04-27* — If a white instant or sorcery spell you don't control causes you to gain life, Firesong and Sunspeaker's last ability triggers.
   - *2018-04-27* — If you gain an amount of life "for each" of something, that life is gained as one event and Firesong and Sunspeaker's last ability triggers only once.
   - *2023-04-14* — The last ability of Firesong and Sunspeaker can't target a planeswalker or battle.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,435 decks; highest synergy [Lightning Helix](../../cards/L/li.md#lightning-helix) (+75%), [Star of Extinction](../../cards/S/sta.md#star-of-extinction) (+65%), [Chain Reaction](../../cards/C/cha.md#chain-reaction) (+62%) · EDHREC: in 4,949 decks; most often under [Taii Wakeen, Perfect Shot](../../cards/T/ta.md#taii-wakeen-perfect-shot) (17.6% of its decks), [Lorehold, the Historian](../../cards/L/lo.md#lorehold-the-historian) (7.3% of its decks), [Rem Karolus, Stalwart Slayer](../../cards/R/rem.md#rem-karolus-stalwart-slayer) (48.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/215/firesong-and-sunspeaker) · oracle_id `fffaa634-42a0-4038-b027-24f28754fec7` · printing: 2X2 #215 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Firespitter Whelp
@@ -4166,6 +4176,8 @@ schema: 2
   > *"You've got a problem? I'm The Fixer. I fix things. It's what I do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25806 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 8 decks; highest synergy [Marionette Apprentice](../../cards/M/mar.md#marionette-apprentice) (+64%), [Darksteel Citadel](../../cards/D/da.md#darksteel-citadel) (+61%), [Agent of the Iron Throne](../../cards/A/ag.md#agent-of-the-iron-throne) (+60%) · EDHREC: in 728 decks; most often under [Whiplash, Vengeful Engineer](../../cards/W/wh.md#whiplash-vengeful-engineer) (23.3% of its decks), [Swordsman, Sharp Scoundrel](../../cards/S/sw.md#swordsman-sharp-scoundrel) (48.3% of its decks), [Ultron, Unlimited](../../cards/U/ul.md#ultron-unlimited) (2.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/656/fixer-techno-terror) · oracle_id `a47b71df-9357-4118-90c0-f86fca6d362b` · printing: MSC #656 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f888843-4bdb-438d-8fb9-968edb2713ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fix What's Broken

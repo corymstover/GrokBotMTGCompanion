@@ -53,6 +53,8 @@ schema: 2
   > *"The silk thread symbolizes the brave blood that flows through our veins. The gold insignia represents the honor of the warrior's heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15755 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 97 decks; highest synergy [Herald of Dromoka](../../cards/H/he.md#herald-of-dromoka) (+88%), [Secure the Wastes](../../cards/S/sec.md#secure-the-wastes) (+78%), [Usher of the Fallen](../../cards/U/us.md#usher-of-the-fallen) (+75%) · EDHREC: in 4,845 decks; most often under [Najeela, the Blade-Blossom](../../cards/N/na.md#najeela-the-blade-blossom) (19.6% of its decks), [Zurgo, Thunder's Decree](../../cards/Z/zu.md#zurgo-thunders-decree) (17.5% of its decks), [Suki, Kyoshi Warrior](../../cards/S/suk.md#suki-kyoshi-warrior) (32.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/85/suki-kyoshi-captain) · oracle_id `558513bb-a76d-434a-98fc-3707a5d8886a` · printing: TLE #85 (2025-11-21) · [rulings](https://api.scryfall.com/cards/97f713ae-c70a-401c-ad10-323f1d7b8f47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suki, Kyoshi Warrior

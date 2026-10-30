@@ -66,6 +66,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25224 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 107 decks; highest synergy [J. Jonah Jameson](../../cards/J/jj.md#j-jonah-jameson) (+64%), [Goblin War Drums](../../cards/G/gob.md#goblin-war-drums) (+63%), [Vincent, Vengeful Atoner](../../cards/V/vi.md#vincent-vengeful-atoner) (+60%) · EDHREC: in 703 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.2% of its decks), [Sliver Queen](../../cards/S/sl.md#sliver-queen) (2.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yuan-shao-the-indecisive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/128/yuan-shao-the-indecisive) · oracle_id `2fc5fffa-2eb1-4a3c-af47-3ff8c7df608d` · printing: PTK #128 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -192,6 +194,8 @@ schema: 2
   > *It took ninety-nine monks to weave the spell that trapped Yukora. Upon the death of the ninety-nine, the spell was broken, and the demon returned to the mortal world seeking vengeance for its imprisonment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17573 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Bellowing Mauler](../../cards/B/be.md#bellowing-mauler) (+67%), [Ogre Slumlord](../../cards/O/og.md#ogre-slumlord) (+63%), [Shakedown Heavy](../../cards/S/sha.md#shakedown-heavy) (+63%) · EDHREC: in 3,436 decks; most often under [Jon Irenicus, Shattered One](../../cards/J/jo.md#jon-irenicus-shattered-one) (23.6% of its decks), [Blim, Comedic Genius](../../cards/B/bli.md#blim-comedic-genius) (1.3% of its decks), [The Beamtown Bullies](../../cards/T/theb.md#the-beamtown-bullies) (0.9% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/90/yukora-the-prisoner) · oracle_id `10026343-a8cd-4a99-b4d9-ff7611f52052` · printing: BOK #90 (2005-02-04) · [rulings](https://api.scryfall.com/cards/54aeca31-1175-4d2d-adc3-e3682d7e9e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yule Ooze
@@ -237,6 +241,8 @@ schema: 2
   > *Tales of heroics fill the air between matches at Valor's Reach.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20985 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 676 decks; highest synergy [Tataru Taru](../../cards/T/ta.md#tataru-taru) (+73%), [Perch Protection](../../cards/P/pe.md#perch-protection) (+71%), [Wedding Ring](../../cards/W/we.md#wedding-ring) (+64%) · EDHREC: in 1,352 decks; most often under [The Second Doctor // Vislor Turlough](../../cards/T/thes.md#the-second-doctor) (19.2% of its decks), [Kynaios and Tiro of Meletis](../../cards/K/ky.md#kynaios-and-tiro-of-meletis) (1.0% of its decks), [Kenrith, the Returned King](../../cards/K/ke.md#kenrith-the-returned-king) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/6/yume-chronicler-of-valor) · oracle_id `f6841a6f-7dd3-4976-9891-539189c0e148` · printing: MBC #6 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1aea14a7-ef88-4d88-9b9b-a450d3507414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuna, Grand Summoner
@@ -330,6 +336,8 @@ schema: 2
 - **Keywords:** Surveil, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20839 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 48 decks; highest synergy [Candlekeep Sage](../../cards/C/can.md#candlekeep-sage) (+68%), [Enhanced Surveillance](../../cards/E/en.md#enhanced-surveillance) (+62%), [Familiar's Ruse](../../cards/F/fa.md#familiars-ruse) (+61%) · EDHREC: in 2,823 decks; most often under [Yuriko, the Tiger's Shadow](../../cards/Y/yu.md#yuriko-the-tigers-shadow) (21.0% of its decks), [Mirko, Obsessive Theorist](../../cards/M/mir.md#mirko-obsessive-theorist) (11.0% of its decks), [Splinter, Radical Rat](../../cards/S/spl.md#splinter-radical-rat) (9.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/226/yuriko-hope-from-the-shadows) · oracle_id `983f4fde-ab04-44f0-a294-c3b472de0b19` · printing: FRA #226 (2026-10-02) · [rulings](https://api.scryfall.com/cards/45e81487-8b8c-480b-922a-eaa9edc7201d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yuriko, the Tiger's Shadow

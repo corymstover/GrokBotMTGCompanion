@@ -35,4 +35,6 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32319 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1 decks; highest synergy [Caravan Escort](../../cards/C/car.md#caravan-escort) (+100%), [Citizen's Crowbar](../../cards/C/ci.md#citizens-crowbar) (+100%), [Clergy of the Holy Nimbus](../../cards/C/cl.md#clergy-of-the-holy-nimbus) (+100%) · EDHREC: in 32 decks; most often under Captain Benjamin Sisko (1.4% of its decks), Captain Jean-Luc Picard (1.3% of its decks), Miles O'Brien, Transporter Ops (33.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/33/saavik-stoic-student) · oracle_id `53aaa919-d08f-4b76-8583-bc2d4635f991` · printing: TRK #33 (2026-11-13) · [rulings](https://api.scryfall.com/cards/3783c530-a2da-4dc1-811a-0a9a412c8e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

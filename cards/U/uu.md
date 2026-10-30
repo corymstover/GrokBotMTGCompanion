@@ -34,6 +34,8 @@ schema: 2
   > *It doesn't hunt. It doesn't hunger. It simply waits as all oozes eventually find their way back to it.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #15979 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 4,915 decks; highest synergy [Biowaste Blob](../../cards/B/bi.md#biowaste-blob) (+77%), [Biogenic Ooze](../../cards/B/bi.md#biogenic-ooze) (+69%), [March of the World Ooze](../../cards/M/mar.md#march-of-the-world-ooze) (+67%) · EDHREC: in 193 decks; most often under [Morophon, the Boundless](../../cards/M/mor.md#morophon-the-boundless) (0.6% of its decks), [The Ur-Dragon](../../cards/T/theu.md#the-ur-dragon) (0.2% of its decks), [The Mimeoplasm](../../cards/T/them.md#the-mimeoplasm) (1.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/54/uugguu-the-omniplasm) · oracle_id `df9bb1fc-135d-4efb-b143-81950fc95a27` · printing: MBC #54 (2026-10-19) · [rulings](https://api.scryfall.com/cards/caa3e9e4-e1d9-4896-9a66-493e7446aca0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uurg, Spawn of Turg

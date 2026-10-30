@@ -60,6 +60,8 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Iona's third ability includes permanent spells (artifacts, creatures, enchantments, and planeswalkers), not just instant and sorcery spells. It does not include lands or abilities (such as cycling or unearth).
   - *2009-10-01* — Once the color is chosen, it's too late for opponents to respond by casting spells of that color. Iona is not yet in the battlefield at the time the color is chosen, so, for example, there's no way for an opponent to destroy it by casting Doom Blade if the chosen color is black.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#iona-shield-of-emeria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/20/iona-shield-of-emeria) · oracle_id `5e816472-561d-43d1-ad28-80a829e2a91a` · printing: MM2 #20 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 

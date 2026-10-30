@@ -81,6 +81,8 @@ schema: 2
 - **Keywords:** Vigilance, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10256 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,029 decks; highest synergy [Kolvori, God of Kinship](../../cards/K/ko.md#kolvori-god-of-kinship--the-ringhart-crest) (+70%), [Reki, the History of Kamigawa](../../cards/R/rek.md#reki-the-history-of-kamigawa) (+68%), [Goreclaw, Terror of Qal Sisma](../../cards/G/gor.md#goreclaw-terror-of-qal-sisma) (+65%) · EDHREC: in 11,117 decks; most often under [Beorn the Fierce](../../cards/B/be.md#beorn-the-fierce) (18.7% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (3.0% of its decks), [Ayula, Queen Among Bears](../../cards/A/ay.md#ayula-queen-among-bears) (7.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#casal-lurkwood-pathfinder--casal-pathbreaker-owlbear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/29/casal-lurkwood-pathfinder-casal-pathbreaker-owlbear) · oracle_id `b7bdb688-f8ee-4d22-a679-37a2ecd390a1` · printing: SLX #29 (2025-04-25) · [rulings](https://api.scryfall.com/cards/d571c367-c786-41f9-9cdb-cb02594fa413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -499,6 +501,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22159 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — To double Casey Jones's power, he gets +X/+0, where X is his power when his last ability resolves.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Mayael's Aria + Casey Jones, Asphalt Hooligan](https://commanderspellbook.com/combo/3858-7326/) (Win the game) · EDHREC as commander: 223 decks; highest synergy [Improvised Arsenal](../../cards/I/im.md#improvised-arsenal) (+54%), [Fire Nation Palace](../../cards/F/fi.md#fire-nation-palace) (+50%), [The Reaver Cleaver](../../cards/T/ther.md#the-reaver-cleaver) (+48%) · EDHREC: in 1,325 decks; most often under [Agatha of the Vile Cauldron](../../cards/A/ag.md#agatha-of-the-vile-cauldron) (5.9% of its decks), [Duskana, the Rage Mother](../../cards/D/du.md#duskana-the-rage-mother) (2.0% of its decks), [Michelangelo, the Heart // Raphael, the Muscle](../../cards/M/mic.md#michelangelo-the-heart) (9.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/115/casey-jones-asphalt-hooligan) · oracle_id `1eaa37a3-8769-4213-bcd5-39bcf4771273` · printing: TMC #115 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Back Alley Brute
@@ -528,6 +532,8 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17632 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 46 decks; highest synergy [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+46%), [Improvised Arsenal](../../cards/I/im.md#improvised-arsenal) (+41%), [Bloodforged Battle-Axe](../../cards/B/blo.md#bloodforged-battle-axe) (+35%) · EDHREC: in 3,520 decks; most often under [Don & Raph, Hard Science](../../cards/D/do.md#don--raph-hard-science) (28.7% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (2.8% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (0.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/87/casey-jones-jury-rig-justiciar) · oracle_id `b4c4fdb9-e034-49c0-9f7f-07e8cae19eb2` · printing: TMT #87 (2026-03-06) · [rulings](https://api.scryfall.com/cards/808a5bc0-0999-47cf-854c-30db6277efe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey Jones, Vigilante
@@ -541,6 +547,8 @@ schema: 2
   > *"Goongala!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18790 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 195 decks; highest synergy [Electroduplicate](../../cards/E/el.md#electroduplicate) (+69%), [Heat Shimmer](../../cards/H/he.md#heat-shimmer) (+61%), [Twinflame](../../cards/T/tw.md#twinflame) (+56%) · EDHREC: in 2,709 decks; most often under [Norman Osborn](../../cards/N/no.md#norman-osborn--green-goblin) (1.4% of its decks), [Clive, Ifrit's Dominant](../../cards/C/cl.md#clive-ifrits-dominant--ifrit-warden-of-inferno) (3.3% of its decks), [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (1.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/88/casey-jones-vigilante) · oracle_id `bc163b5a-0b1a-4257-8c07-5c7d5284015f` · printing: TMT #88 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Casey & Raph, Hotheads
@@ -558,6 +566,8 @@ schema: 2
   - *2026-01-27* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when playing it without paying its mana cost.
   - *2026-01-27* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2026-01-27* — The target of the first mode must follow all timing rules for cards played this way. For example, if the exiled card is a land card, they may play it only during their main phase while the stack is empty and only if they have an available land play remaining.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 16 combos; most popular [Casey & Raph, Hotheads + Deadeye Navigator](https://commanderspellbook.com/combo/1409-7332/) (Infinite artifact ETB, Infinite artifact LTB) · EDHREC as commander: 24 decks; highest synergy [Panharmonicon](../../cards/P/pa.md#panharmonicon) (+73%), [Raphael, Tough Turtle](../../cards/R/rap.md#raphael-tough-turtle) (+52%), [Casey Jones, Jury-Rig Justiciar](../../cards/C/cas.md#casey-jones-jury-rig-justiciar) (+50%) · EDHREC: in 1,293 decks; most often under [Heroes in a Half Shell](../../cards/H/he.md#heroes-in-a-half-shell) (3.6% of its decks), [Tokka & Rahzar, Terrible Twos](../../cards/T/to.md#tokka--rahzar-terrible-twos) (11.2% of its decks), [Raph & Mikey, Troublemakers](../../cards/R/rap.md#raph--mikey-troublemakers) (0.8% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/114/casey-&-raph-hotheads) · oracle_id `f20a5297-31ba-4bbd-810e-be23175a116f` · printing: TMC #114 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cass, Hand of Vengeance
@@ -572,6 +582,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11049 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-03-08* — You can’t return Aura cards that can’t legally be attached to the target creature. For example, if the target creature has protection from red, you can’t return Grim Reaper’s Sprint to the battlefield with Cass’s last ability.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 100+ combos; most popular [Cass, Hand of Vengeance + Mortarpod + Cartouche of Solidarity](https://commanderspellbook.com/combo/219-385-5972/) (Infinite creature ETB, Infinite creature LTB) · EDHREC as commander: 703 decks; highest synergy [Cartouche of Solidarity](../../cards/C/car.md#cartouche-of-solidarity) (+76%), [Murder Investigation](../../cards/M/mu.md#murder-investigation) (+75%), [Nurturing Presence](../../cards/N/nu.md#nurturing-presence) (+70%) · EDHREC: in 9,957 decks; most often under [Dogmeat, Ever Loyal](../../cards/D/do.md#dogmeat-ever-loyal) (59.3% of its decks), [Preston Garvey, Minuteman](../../cards/P/pr.md#preston-garvey-minuteman) (50.1% of its decks), [Three Dog, Galaxy News DJ](../../cards/T/thr.md#three-dog-galaxy-news-dj) (16.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/97/cass-hand-of-vengeance) · oracle_id `f9b6b1db-37c6-43d4-b762-6c9770da5964` · printing: PIP #97 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast Away Doubt

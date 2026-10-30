@@ -128,6 +128,8 @@ schema: 2
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
   - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 230 decks; highest synergy [Mesa Pegasus](../../cards/M/me.md#mesa-pegasus) (+69%), [Benalish Hero](../../cards/B/be.md#benalish-hero) (+68%), [Pikemen](../../cards/P/pi.md#pikemen) (+66%) · EDHREC: in 419 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Cromat](../../cards/C/cr.md#cromat) (0.8% of its decks), [Chromium](../../cards/C/chr.md#chromium) (3.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/73/ayesha-tanaka) · oracle_id `35e4ed0e-8ce2-4729-a009-0d6be8f47663` · printing: CHR #73 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka, Armorer
@@ -142,6 +144,8 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — Ayesha's power is checked only once, as the triggered ability resolves. If it is no longer on the battlefield at that point, use its power as it last existed on the battlefield.
   - *2022-09-09* — Each of the artifact cards needs to have mana value less than or equal to Ayesha's Power. It's not the total mana value of all the artifact cards.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 1,049 decks; highest synergy [Puresteel Paladin](../../cards/P/pu.md#puresteel-paladin) (+69%), [Seat of the Synod](../../cards/S/sea.md#seat-of-the-synod) (+63%), [Ancient Den](../../cards/A/an.md#ancient-den) (+62%) · EDHREC: in 1,232 decks; most often under [Mendicant Core, Guidelight](../../cards/M/me.md#mendicant-core-guidelight) (0.5% of its decks), [Arna Kennerüd, Skycaptain](../../cards/A/arn.md#arna-kennerüd-skycaptain) (0.8% of its decks), [Captain America, First Avenger](../../cards/C/cap.md#captain-america-first-avenger) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/29/ayesha-tanaka-armorer) · oracle_id `59fcd09c-4633-457e-b36a-488e94c1c941` · printing: DMC #29 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayli, Eternal Pilgrim
@@ -266,4 +270,6 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22854 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-06-01* — Nonland legendary permanents don’t affect whether Ayumi can be blocked or not, only legendary lands.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 98 decks; highest synergy [Blackblade Reforged](../../cards/B/bla.md#blackblade-reforged) (+43%), [Trailblazer's Boots](../../cards/T/tra.md#trailblazers-boots) (+42%), [Blanchwood Armor](../../cards/B/bla.md#blanchwood-armor) (+41%) · EDHREC: in 1,209 decks; most often under [Bounteous Kirin](../../cards/B/bo.md#bounteous-kirin) (43.3% of its decks), [Kodama of the Center Tree](../../cards/K/ko.md#kodama-of-the-center-tree) (33.7% of its decks), [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (1.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/122/ayumi-the-last-visitor) · oracle_id `12acd466-deb9-4e68-b75b-aed86680b917` · printing: SOK #122 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

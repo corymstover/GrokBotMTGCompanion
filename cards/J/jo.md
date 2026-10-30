@@ -107,6 +107,8 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 3 decks; highest synergy [Dolmen Gate](../../cards/D/do.md#dolmen-gate) (+99%), [Dauntless Scrapbot](../../cards/D/da.md#dauntless-scrapbot) (+98%), [Krang, Utrom Warlord](../../cards/K/kr.md#krang-utrom-warlord) (+83%) · EDHREC: in 7,621 decks; most often under [Captain America, Team Leader](../../cards/C/cap.md#captain-america-team-leader) (49.4% of its decks), [Tony Stark](../../cards/T/to.md#tony-stark--the-invincible-iron-man) (3.7% of its decks), [Silver Surfer, Galactus's Herald](../../cards/S/si.md#silver-surfer-galactuss-herald) (43.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jocasta-automaton-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/108/jocasta-automaton-avenger) · oracle_id `787e6a7b-64f9-48ba-bccd-68dda3489b0f` · printing: MSC #108 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f666e211-0d80-4f01-b206-dac19bcbcfa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -194,6 +196,8 @@ schema: 2
 - **Keywords:** Partner, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22116 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 37 decks; highest synergy [Mycoloth](../../cards/M/my.md#mycoloth) (+53%), [Awakening Zone](../../cards/A/aw.md#awakening-zone) (+47%), [Ophiomancer](../../cards/O/op.md#ophiomancer) (+44%) · EDHREC: in 1,514 decks; most often under [Abby, Merciless Soldier // Ellie, Vengeful Hunter](../../cards/A/ab.md#abby-merciless-soldier) (59.0% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.6% of its decks), [Rendmaw, Creaking Nest](../../cards/R/ren.md#rendmaw-creaking-nest) (0.6% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#joel-resolute-survivor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2198/joel-resolute-survivor) · oracle_id `64611260-c9f7-4375-b67a-f88fee6d3bff` · printing: SLD #2198 (2025-10-27) · [rulings](https://api.scryfall.com/cards/713ab02f-cd48-420d-a2fe-ef460e6ce2d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -216,6 +220,8 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Universes Beyond printing (triangle stamp): outside Multiverse canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 58 decks; highest synergy [Fluctuator](../../cards/F/fl.md#fluctuator) (+90%), [Astral Drift](../../cards/A/as.md#astral-drift) (+81%), [Drifting Meadow](../../cards/D/dri.md#drifting-meadow) (+72%) · EDHREC: in 4,251 decks; most often under [Gavi, Nest Warden](../../cards/G/ga.md#gavi-nest-warden) (15.2% of its decks), [Greasefang, Okiba Boss](../../cards/G/gre.md#greasefang-okiba-boss) (10.2% of its decks), [The Fourth Doctor // Sarah Jane Smith](../../cards/T/thef.md#the-fourth-doctor) (23.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jo-grant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/23/jo-grant) · oracle_id `65ea3638-1766-4096-88a8-662a0d6faf0c` · printing: WHO #23 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
@@ -228,6 +234,8 @@ schema: 2
   > At the beginning of combat on your turn, you may have Johan gain "Johan can't attack" until end of combat. If you do, attacking doesn't cause creatures you control to tap this combat if Johan is untapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25785 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 346 decks; highest synergy [Champion of Rhonas](../../cards/C/cha.md#champion-of-rhonas) (+55%), [Combat Celebrant](../../cards/C/com.md#combat-celebrant) (+53%), [Glorybringer](../../cards/G/gl.md#glorybringer) (+48%) · EDHREC: in 354 decks; most often under [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.2% of its decks), [Palladia-Mors](../../cards/P/pa.md#palladia-mors) (16.6% of its decks), [Hazezon Tamar](../../cards/H/ha.md#hazezon-tamar) (3.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/77/johan) · oracle_id `ad33ada7-4f89-4cab-88db-1f4d024baa36` · printing: CHR #77 (1995-07-01) · [rulings](https://api.scryfall.com/cards/2f2f3b3e-63f3-4cab-aa95-030990157ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Johann, Apprentice Sorcerer
@@ -247,6 +255,8 @@ schema: 2
   - *2023-09-01* — If the top card of your library has an Adventure, you can cast the Adventure spell this way.
   - *2023-09-01* — You can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2023-09-01* — You must pay all costs and follow all timing rules for spells cast from the top of your library this way.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 291 decks; highest synergy [Quick Study](../../cards/Q/qu.md#quick-study) (+31%), [Mocking Sprite](../../cards/M/moc.md#mocking-sprite) (+28%), [Frantic Firebolt](../../cards/F/fr.md#frantic-firebolt) (+27%) · EDHREC: in 7,523 decks; most often under [River Song](../../cards/R/ri.md#river-song) (19.4% of its decks), [Neera, Wild Mage](../../cards/N/ne.md#neera-wild-mage) (10.7% of its decks), [Vivi Ornitier](../../cards/V/vi.md#vivi-ornitier) (1.0% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/207/johann-apprentice-sorcerer) · oracle_id `8068f80f-88ee-4c0b-a0fb-3a6337f83f22` · printing: WOE #207 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Johann's Stopgap
@@ -282,6 +292,8 @@ schema: 2
   > *"Just wait till I get my Krark-Clan Ironworks, Genesis Chamber, and Grinding Station. Oh yeah, and a second Myr Retriever."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/23/johnny-combo-player) · oracle_id `868b1a2a-7f6a-4f2c-9d1c-0b632c1ab324` · printing: UND #23 (2020-02-29) · [rulings](https://api.scryfall.com/cards/f8fc7a61-226c-426a-9b99-21d87aca2f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Johtull Wurm
@@ -526,6 +538,8 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9659 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 218 decks; highest synergy [Cactusfolk Sureshot](../../cards/C/cac.md#cactusfolk-sureshot) (+56%), [Gold Rush](../../cards/G/gol.md#gold-rush) (+36%), [Outcaster Trailblazer](../../cards/O/ou.md#outcaster-trailblazer) (+36%) · EDHREC: in 13,156 decks; most often under [Roxanne, Starfall Savant](../../cards/R/ro.md#roxanne-starfall-savant) (32.2% of its decks), [Jolene, the Plunder Queen](../../cards/J/jo.md#jolene-the-plunder-queen) (31.7% of its decks), [Zilortha, Strength Incarnate](../../cards/Z/zi.md#zilortha-strength-incarnate) (16.2% of its decks) — *Guidance (Oracle pattern)* — packages: [Treasure: Repeatable Treasure makers](../../EDH%20Packages.md#treasure-repeatable-treasure-makers) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/210/jolene-plundering-pugilist) · oracle_id `fb8efd6e-b8f8-4da8-ac65-5b745c02d2bb` · printing: OTJ #210 (2024-04-19) · [rulings](https://api.scryfall.com/cards/fe30b5c8-4889-4350-bb1d-3e2a67d9dfb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolene, the Plunder Queen
@@ -573,6 +587,8 @@ schema: 2
   - *2004-10-04* — The lands do not get a creature type.
   - *2004-10-04* — The lands retain their abilities.
   - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 15 combos; most popular [Aggravated Assault + Jolrael, Empress of Beasts](https://commanderspellbook.com/combo/153-3750/) (Infinite combat phases, Infinite mana creatures you control can produce) · EDHREC as commander: 390 decks; highest synergy [Sylvan Advocate](../../cards/S/sy.md#sylvan-advocate) (+56%), [Vitalize](../../cards/V/vi.md#vitalize) (+48%), [Splendid Reclamation](../../cards/S/spl.md#splendid-reclamation) (+46%) · EDHREC: in 2,608 decks; most often under [Jolrael, Voice of Zhalfir](../../cards/J/jo.md#jolrael-voice-of-zhalfir) (17.8% of its decks), [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (6.4% of its decks), [Damia, Sage of Stone](../../cards/D/da.md#damia-sage-of-stone) (2.6% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/81/jolrael-empress-of-beasts) · oracle_id `7972d118-c105-4b33-8c3b-ec85da538471` · printing: TSB #81 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolrael, Mwonvuli Recluse
@@ -641,6 +657,8 @@ schema: 2
 - **Rulings** (2):
   - *2023-05-12* — Jolrael's last ability applies to any land creature you control that deals combat damage to a player, not only lands that become land creatures because of Jolrael's first ability.
   - *2023-05-12* — Use the number of cards in your hand as Jolrael's first ability resolves to determine the value of X. Once the ability resolves, that value is locked in. The power and toughness of the land creature won't change if the number of cards in your hand changes later in the turn.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 2,112 decks; highest synergy [Tatyova, Steward of Tides](../../cards/T/ta.md#tatyova-steward-of-tides) (+78%), [Embodiment of Insight](../../cards/E/em.md#embodiment-of-insight) (+68%), [Sylvan Awakening](../../cards/S/sy.md#sylvan-awakening) (+63%) · EDHREC: in 8,734 decks; most often under [Jyoti, Moag Ancient](../../cards/J/jy.md#jyoti-moag-ancient) (72.0% of its decks), [Tatyova, Steward of Tides](../../cards/T/ta.md#tatyova-steward-of-tides) (61.1% of its decks), [Aang, at the Crossroads](../../cards/A/aa.md#aang-at-the-crossroads--aang-destined-savior) (6.9% of its decks) — *Guidance (Oracle pattern)* — packages: [Card advantage: Repeatable draw engines (permanents)](../../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/33/jolrael-voice-of-zhalfir) · oracle_id `65e4fbd1-4935-495e-9897-bad5a0cfd935` · printing: MAT #33 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolt
@@ -877,6 +895,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9677 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — The value of X is determined only once, as the triggered ability resolves. If the number of equipped creatures you control changes after that time, it won't change the bonus granted.
+- **Lore:** ✅ Presented with an official backstory on [The Legends of Phyrexia: All Will Be One](https://magic.wizards.com/en/news/feature/the-legends-of-phyrexia-all-will-be-one) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 845 decks; highest synergy [Bladehold War-Whip](../../cards/B/bla.md#bladehold-war-whip) (+71%), [Hexgold Hoverwings](../../cards/H/he.md#hexgold-hoverwings) (+60%), [Hexgold Halberd](../../cards/H/he.md#hexgold-halberd) (+59%) · EDHREC: in 12,359 decks; most often under [Nahiri, Forged in Fury](../../cards/N/na.md#nahiri-forged-in-fury) (49.3% of its decks), [Cloud, Ex-SOLDIER](../../cards/C/cl.md#cloud-ex-soldier) (2.4% of its decks), [Bruenor Battlehammer](../../cards/B/br.md#bruenor-battlehammer) (15.5% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/203/jor-kadeen-first-goldwarden) · oracle_id `967897db-a34b-493c-bd48-04e2650902d2` · printing: ONE #203 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jor Kadeen, the Prevailer
@@ -1209,6 +1229,8 @@ schema: 2
   > *—Chandler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26231 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 124 decks; highest synergy [Chandler](../../cards/C/cha.md#chandler) (+65%), [Liquimetal Coating](../../cards/L/li.md#liquimetal-coating) (+48%), [Mycosynth Lattice](../../cards/M/my.md#mycosynth-lattice) (+43%) · EDHREC: in 512 decks; most often under [Chandler](../../cards/C/cha.md#chandler) (61.4% of its decks), [Jodah, the Unifier](../../cards/J/jo.md#jodah-the-unifier) (0.1% of its decks), [Eron the Relentless](../../cards/E/er.md#eron-the-relentless) (12.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/77/joven) · oracle_id `9e767d44-feff-449a-bed9-0866c7bce846` · printing: HML #77 (1995-10-01) · [rulings](https://api.scryfall.com/cards/0dabe3af-cd5b-461e-95a4-aad046646419/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joven and Chandler (MBC #24)
@@ -1223,6 +1245,8 @@ schema: 2
   > *Thicker than thieves.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30739 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Joven and Chandler + Sword of the Meek + Animation Module + Krark-Clan Ironworks](https://commanderspellbook.com/combo/2558-3490-4659-7849/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC as commander: 94 decks; highest synergy [Liquimetal Coating](../../cards/L/li.md#liquimetal-coating) (+80%), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (+74%), [Liquimetal Torque](../../cards/L/li.md#liquimetal-torque) (+72%) · EDHREC: in 73 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (0.1% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (0.4% of its decks), [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (0.1% of its decks) — *Guidance (Oracle pattern)* — packages: [Artifacts: Artifact payoffs](../../EDH%20Packages.md#artifacts-artifact-payoffs) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/24/joven-and-chandler) · oracle_id `11db8545-eca6-43f5-b9e8-f302acef53a5` · printing: MBC #24 (2026-10-19) · [rulings](https://api.scryfall.com/cards/3555172f-2015-450e-bcc1-94c4a2cff194/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joven and Chandler (UNK #UR05)
@@ -1237,6 +1261,8 @@ schema: 2
 - **Keywords:** Backup, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) — 🚫 Un-/playtest card (every printing in a `funny` set): outside story canon · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: 1 combo; most popular [Joven and Chandler + Sword of the Meek + Animation Module + Krark-Clan Ironworks](https://commanderspellbook.com/combo/2558-3490-4659-7849/) (Infinite +1/+1 counters on a creature, Infinite creature ETB) · EDHREC as commander: 94 decks; highest synergy [Liquimetal Coating](../../cards/L/li.md#liquimetal-coating) (+80%), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (+74%), [Liquimetal Torque](../../cards/L/li.md#liquimetal-torque) (+72%) · EDHREC: in 73 decks; most often under [Ragost, Deft Gastronaut](../../cards/R/rag.md#ragost-deft-gastronaut) (0.1% of its decks), [Daretti, Scrap Savant](../../cards/D/da.md#daretti-scrap-savant) (0.4% of its decks), [Kibo, Uktabi Prince](../../cards/K/ki.md#kibo-uktabi-prince) (0.1% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UR05/joven-and-chandler) · oracle_id `86b47725-1764-4716-993d-e4dfcea2346c` · printing: UNK #UR05 (2023-05-06) · [rulings](https://api.scryfall.com/cards/75e3523c-7cd0-4b7f-b39c-4326ae4641cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joven's Ferrets

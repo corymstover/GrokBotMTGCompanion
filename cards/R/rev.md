@@ -136,6 +136,8 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24619 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings** (1):
   - *2009-10-01* — Reveka's effect causes it not to untap during _your_ next untap step. If another player gains control of it, it will untap during that player's next untap step.
+- **Lore:** ❓ No lore entry or official story evidence linked yet (synergy batch; not a claim that the card has no story) · [format](../../Card%20Enrichment.md#lore-line)
+- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC as commander: 261 decks; highest synergy [Prodigal Sorcerer](../../cards/P/pr.md#prodigal-sorcerer) (+83%), [Curiosity](../../cards/C/cu.md#curiosity) (+82%), [Suq'Ata Firewalker](../../cards/S/suq.md#suqata-firewalker) (+78%) · EDHREC: in 637 decks; most often under [Ioreth of the Healing House](../../cards/I/io.md#ioreth-of-the-healing-house) (38.9% of its decks), [Skeleton Ship](../../cards/S/sk.md#skeleton-ship) (4.0% of its decks), [The Mindskinner](../../cards/T/them.md#the-mindskinner) (0.3% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/49/reveka-wizard-savant) · oracle_id `7085d5c6-da96-465e-90cf-8469fcacb474` · printing: ME3 #49 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Revelation
