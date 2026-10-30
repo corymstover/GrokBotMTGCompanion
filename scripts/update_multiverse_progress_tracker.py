@@ -53,14 +53,16 @@ they are not the active Phase 1–8 completion counters.
 | Cited graph | **{graph['nodes']} nodes / {graph['edges']} edges** | Unresolved orphan/variant and chronology work remains. |
 | Exact printing-specific representations | **{graph.get('exact_art_printings', 0)}** | Frozen snapshot + official art-file label evidence, **not** canon scene depiction. |
 | In-universe dated claim edges | **{graph['claim_edges_with_in_universe_date']}** | Most graph edges lack a verified in-world date. |
-| Unapproved graph-built Commander pilots | **3** | Cory has approved none of the three. |
-| First-release readiness | **{readiness}** | Owner gates, external checks and ongoing engineering remain. |
+| Parked graph-built Commander pilots | **3 unapproved** | Preserved, not a knowledge-foundation release gate. |
+| Foundation-release readiness | **{readiness}** | Research, owner foundation review, external checks and engineering remain. |
 | Official source watch | **Weekly review-only workflow** | Story index, Scryfall metadata and rules PDF candidates; not automatic lore/rules updates. |
 
 **Priority next steps:** verify current-era Q&A answers; close only evidence-backed graph
-identity and chronology gaps; expand comprehensive history and lore-first deck research;
-restore the exact pinned Scryfall bulk when needed for source-level atlas replay; complete
-owner review and release checks without modifying any of the 62 finalized Grixis decks.
+identity and chronology gaps; expand comprehensive plane, character, faction and cross-plane
+history; harden rules and difficult Q&A; restore the exact pinned Scryfall bulk only when
+required for source-level atlas replay; pursue foundation-only certification. **Phase 6
+deckbuilding and its three unapproved pilots are deferred until the knowledge foundation
+is certified.** Do not modify any of the 62 finalized Grixis decks.
 {END}"""
 
 

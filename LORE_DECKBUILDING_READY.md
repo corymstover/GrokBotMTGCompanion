@@ -1,5 +1,14 @@
 # Lore-first MTG Companion — v1 READY (2026-10-28)
 
+> **Scheduling override (2026-10-30, Master Workflow v2.53):** This page
+> documents *technical capability*, not an active invitation to build or
+> approve decks. Cory has deferred every lore-first deck proposal, including
+> review of the three existing graph-built pilots, until the source-graded
+> knowledge foundation is independently certified. Current work belongs to
+> Phases 1/1B–5, 7 and 8. Phase 6 resumes afterward unless Cory explicitly
+> requests an exception. The pilots remain unapproved; the 62 approved
+> Grixis decks remain protected.
+
 **Purpose:** Help Cory begin making story-exhibit, funny, epoch-based, character-based, and plane-based Commander decks **now**. This is an operational first version, **not** a claim that all future MTG fiction or all printed languages have been exhausted. Stop infrastructure work unless a real deck or research question demonstrates a blocker.
 
 ## ChatGPT's first step on a new request

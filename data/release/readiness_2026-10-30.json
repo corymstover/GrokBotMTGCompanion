@@ -6,8 +6,8 @@
  "note": "Read-only readiness evidence. Never an approval, lock or certification.",
  "tally": {
   "MET": 2,
-  "PARTIAL": 2,
-  "NOT_MET": 1,
+  "PARTIAL": 3,
+  "NOT_MET": 0,
   "EXTERNAL": 2
  },
  "criteria": [
@@ -42,11 +42,11 @@
      ]
     },
     "graph_stats": {
-     "nodes": 4227,
-     "edges": 6826,
+     "nodes": 5094,
+     "edges": 8063,
      "claims_by_status": {
       "ALTERNATE_CONTINUITY": 2,
-      "CANON_CONFIRMED": 885,
+      "CANON_CONFIRMED": 907,
       "CANON_DISPUTED": 8,
       "CANON_IMPLIED": 241,
       "OPEN_QUESTION": 3
@@ -55,7 +55,8 @@
     },
     "pack_statuses": [
      "",
-     "PRELIMINARY_RESEARCH (not owner approved, not certified)"
+     "PRELIMINARY_RESEARCH (not owner approved, not certified)",
+     "PRELIMINARY_RESEARCH_NOT_OWNER_APPROVED"
     ],
     "graph_matches_inputs": true
    }
@@ -85,22 +86,19 @@
    }
   },
   {
-   "id": "reviewed_graph_deck",
-   "criterion": "At least one complete, reviewed lore-first Commander deck built from the new graph",
-   "status": "NOT_MET",
-   "note": "3 owner-approval files exist for earlier lore decks, but no deck built from the new graph has owner review yet (3 graph-linked draft(s) await review)",
+   "id": "knowledge_foundation",
+   "criterion": "Source-graded chronology, broad lore history and difficult Q&A reviewed for the documented foundation scope",
+   "status": "PARTIAL",
+   "note": "source-graded chronology, history coverage and difficult Q&A still need a documented foundation review; existing lore-deck pilots are parked, not a release blocker",
    "evidence": {
-    "owner_approval_files": [
-     "2026-10-28_cory_approved_lore_deck_8_karn.md",
-     "2026-10-28_cory_approved_lore_decks_1-7.md",
-     "2026-10-29_cory_approved_lore_deck_10_yawgmoth.md"
-    ],
-    "draft_proposals": 11,
-    "graph_based_drafts": [
-     "ugin_bolas_elder_dragon_duality_printing_evidence.json",
-     "original_primeval_dragons_printing_evidence.json",
-     "ugins_allies_and_heroes_printing_evidence.json"
-    ]
+    "chronology_events": 56,
+    "chronology_comparable_pairs": 177,
+    "chronology_total_pairs": 3074,
+    "chronology_components": 13,
+    "source_pages_accounted_for": 626,
+    "source_pages_in_current_inventory": 626,
+    "foundation_owner_review": "NOT_SUBMITTED",
+    "deck_pilots_required": false
    }
   },
   {
